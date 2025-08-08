@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thallo &ndash; Flourish and Thrive</title>
+  <!-- Import Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <nav class="nav">
+      <h1 class="logo">Thallo</h1>
+      <ul class="nav-links">
+        <li><a href="#supplements">Supplements</a></li>
+        <li><a href="#clothing">Clothing</a></li>
+        <li><a href="#therapy">Red&nbsp;Light</a></li>
+        <li><a href="#cookware">Cookware</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h2>Flourish &amp; Thrive</h2>
+      <p>Discover clean living essentials to elevate your health and wellbeing.</p>
+      <a href="#products" class="cta-button">Shop Now</a>
+    </div>
+  </header>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h3 class="section-title">Our Collections</h3>
+    <div class="product-grid">
+      <a href="#supplements" class="product-card" id="supplements">
+        <div class="image" style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAMTGlDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnltSIQQIREBK6E0QA');"></div>
+        <h4>Supplements</h4>
+      </a>
+      <a href="#clothing" class="product-card" id="clothing">
+        <div class="image" style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAMTGlDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnltSIQQIREBK6E0QA');"></div>
+        <h4>Organic Clothing</h4>
+      </a>
+      <a href="#therapy" class="product-card" id="therapy">
+        <div class="image" style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAMTGlDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnltSIQQIREBK6E0QA');"></div>
+        <h4>Red&nbsp;Light Therapy</h4>
+      </a>
+      <a href="#cookware" class="product-card" id="cookware">
+        <div class="image" style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAMTGlDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnltSIQQIREBK6E0QA');"></div>
+        <h4>Non-Toxic Cookware</h4>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h3 class="section-title">About Thallo</h3>
+    <p>
+      Thallo takes its name from the ancient Greek word for “to bloom” &mdash; a reminder that
+      true wellness comes from nurturing the whole person. Our carefully curated products
+      support your body’s natural rhythms, helping you thrive in an increasingly toxic world.
+      Each item we carry is chosen for purity, sustainability and effectiveness, so you can
+      flourish with confidence.
+    </p>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <h3 class="section-title">Join Our Community</h3>
+    <p>Subscribe for special offers, expert insights and the latest on clean living.</p>
+    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Thallo. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Update the year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
