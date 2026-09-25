@@ -15,7 +15,9 @@ If `YT_CLIENT_ID`, `YT_CLIENT_SECRET` or `YT_REFRESH_TOKEN` is missing from the
 environment, stop and report that the upload credentials are not set up.
 
 ## 2. Pick today's topic
-- Read `scribble-age/history.json`. Never repeat a topic or a near-duplicate.
+- Read `scribble-age/history.json`. Also read the channel's public video titles with
+  `curl -s -A Mozilla/5.0 https://www.youtube.com/@ScribbleAge/videos | grep -oE '"title":\{"runs":\[\{"text":"[^"]+' | sort -u`,
+  because a failed push can leave history.json out of date. Never repeat a topic or a near-duplicate.
 - Rotate eras: prehistory, ancient world, medieval, early modern, 1800s–1900s.
 - Choose a **true, well-documented** story with a strong hook (a survival, a
   bizarre custom, a mystery, an absurd event, an unsung person).
@@ -88,6 +90,7 @@ youtube.com/verify; note it, but it doesn't block the run.
 ## 8. Record and report
 Append to `history.json` → `episodes`: `{"date", "topic", "title", "video_id", "privacy"}`.
 Commit the episode file and history on `claude/eloquent-sagan-8jfd62` and push with
-`git push -u origin claude/eloquent-sagan-8jfd62`.
+`git push -u origin claude/eloquent-sagan-8jfd62`. If the push is refused, say so in the
+report. The upload still counts; the next run will dedupe against the channel's titles.
 Finish with a short report: the title, the YouTube URL, the privacy status, the
 length, and any problems.
