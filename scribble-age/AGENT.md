@@ -12,7 +12,8 @@ git fetch origin claude/eloquent-sagan-8jfd62 && git checkout claude/eloquent-sa
 pip install -q -r scribble-age/requirements.txt
 ```
 If `YT_CLIENT_ID`, `YT_CLIENT_SECRET` or `YT_REFRESH_TOKEN` is missing from the
-environment, stop and report that the upload credentials are not set up.
+environment, **stop immediately** and report that the upload credentials are not set up.
+Don't build anything: this session can't save files anywhere, so the work would be lost.
 
 ## 2. Pick today's topic
 - Read `scribble-age/history.json`. Also read the channel's public video titles with
