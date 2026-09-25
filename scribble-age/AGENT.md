@@ -80,9 +80,13 @@ scene that is blank, broken or hard to read.
 
 ## 7. Upload
 ```bash
-python3 upload.py episodes/YYYY-MM-DD.json --video /tmp/sa_build/video.mp4 --thumbnail /tmp/sa_build/thumbnail.jpg --privacy public
+python3 upload.py episodes/YYYY-MM-DD.json --video /tmp/sa_build/video.mp4 --thumbnail /tmp/sa_build/thumbnail.jpg --publish-at 15:00
 ```
-If the output says `"privacy": "private"` even though you asked for public, the
+This schedules the video to go public at 3:00 PM Eastern (US research: weekday 2–4 PM is
+the best window for long-form, because it gets indexed before the 6–9 PM viewing peak).
+If the run finishes after 2:45 PM, it schedules for 3:00 PM the next day, so publish with
+`--privacy public` instead to keep the daily streak.
+If `publish_at` comes back empty and the privacy is `private`, the
 Google API audit is still pending. That's expected, so note it in the report.
 If the thumbnail fails, the channel needs phone verification at
 youtube.com/verify; note it, but it doesn't block the run.

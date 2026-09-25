@@ -4,7 +4,8 @@
 Needs env vars YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (scope youtube.upload).
 Until Google approves the API audit, YouTube forces API uploads to private.
 """
-import argparse, json, os, sys
+import argparse, datetime, json, os, sys
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import requests
@@ -24,7 +25,18 @@ def access_token():
     return r.json()["access_token"]
 
 
-def upload(episode, video, thumbnail, privacy):
+def publish_time(hhmm):
+    """Next occurrence of HH:MM America/Detroit (DST-aware), as UTC ISO 8601."""
+    tz = ZoneInfo("America/Detroit")
+    now = datetime.datetime.now(tz)
+    h, m = map(int, hhmm.split(":"))
+    t = now.replace(hour=h, minute=m, second=0, microsecond=0)
+    if t <= now + datetime.timedelta(minutes=15):
+        t += datetime.timedelta(days=1)
+    return t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def upload(episode, video, thumbnail, privacy, publish_at=None):
     ep = json.loads(Path(episode).read_text(encoding="utf-8"))
     auth = {"Authorization": f"Bearer {access_token()}"}
     body = {
@@ -33,6 +45,9 @@ def upload(episode, video, thumbnail, privacy):
                     "defaultAudioLanguage": "en"},
         "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True},
     }
+    if publish_at:
+        # YouTube publishes a scheduled video itself; it must be uploaded as private.
+        body["status"].update(privacyStatus="private", publishAt=publish_time(publish_at))
     size = os.path.getsize(video)
     r = requests.post(
         "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
@@ -65,7 +80,8 @@ def upload(episode, video, thumbnail, privacy):
             # Custom thumbnails need a phone-verified channel (youtube.com/verify).
             thumb_note = f"failed {t.status_code}: {t.text[:300]}"
     print(json.dumps({"video_id": vid, "url": f"https://youtu.be/{vid}",
-                      "privacy": result.get("status", {}).get("privacyStatus"), "thumbnail": thumb_note}))
+                      "privacy": result.get("status", {}).get("privacyStatus"),
+                      "publish_at": result.get("status", {}).get("publishAt"), "thumbnail": thumb_note}))
 
 
 if __name__ == "__main__":
@@ -74,5 +90,6 @@ if __name__ == "__main__":
     p.add_argument("--video", default="build/video.mp4")
     p.add_argument("--thumbnail", default="build/thumbnail.jpg")
     p.add_argument("--privacy", default="public", choices=["public", "unlisted", "private"])
+    p.add_argument("--publish-at", help="HH:MM America/Detroit; schedules the video to go public then")
     a = p.parse_args()
-    upload(a.episode, a.video, a.thumbnail, a.privacy)
+    upload(a.episode, a.video, a.thumbnail, a.privacy, a.publish_at)
