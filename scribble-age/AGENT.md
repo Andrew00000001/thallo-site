@@ -24,6 +24,8 @@ Don't build anything: this session can't save files anywhere, so the work would 
   bizarre custom, a mystery, an absurd event, an unsung person).
 - Write an **original** script from your own knowledge of the history. Never copy
   or paraphrase another creator's video, script or article.
+- Fact-check every claim, including every number shown on screen. Keep figures precise:
+  "carried" isn't "fired," and one phase's count isn't the total.
 - Fact-check every claim. If a detail is uncertain or disputed, say so in the
   narration ("historians think…") or leave it out. Accuracy beats drama.
 - Keep it advertiser-friendly: no graphic gore, no slurs, and handle violence
@@ -48,12 +50,15 @@ Style rules, so every video looks like the same channel:
   The channel mascot, a caveman with messy dark hair and a brown fur tunic,
   opens and closes each video.
 - Labels and dates: `font-family='Patrick Hand'`, 60–220 px, only a few words.
-- Keep the bottom 220 px free of important detail, because captions go there.
+- Keep everything important **above y=840**. Captions burn into the bottom 220 px and will
+  cover any label or figure there.
+- Don't let labels overlap figures. Leave clear space around every text block.
 - One clear idea per scene. Show what the narration says (a map, an object,
   a character reacting, a big number).
 - Use single quotes inside SVG attributes so it embeds cleanly in JSON.
 
-Thumbnail (`thumbnail_svg`, 1280×720): amber or bold background, 2–5 huge words
+Thumbnail (`thumbnail_svg`, 1280×720). cairosvg ignores `paint-order`, so for outlined text draw
+the same text twice: first with a thick stroke, then the fill on top. amber or bold background, 2–5 huge words
 in Patrick Hand with a thick black stroke, plus one big doodle (a character with a
 strong emotion). It must be readable at phone size.
 

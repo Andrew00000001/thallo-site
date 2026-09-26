@@ -12,7 +12,7 @@ Output (in --out): video.mp4, thumbnail.jpg, captions.ass
 Voice: Microsoft Edge neural TTS (free, via edge-tts). Pictures: SVG doodles
 rendered with cairosvg. Assembly and captions: ffmpeg (imageio-ffmpeg build).
 """
-import argparse, asyncio, json, os, re, shutil, ssl, subprocess, sys
+import argparse, asyncio, json, os, re, shutil, ssl, subprocess, sys, time
 from pathlib import Path
 
 import cairosvg
@@ -70,6 +70,18 @@ async def tts(text, mp3):
     return words
 
 
+def tts_retry(text, mp3, attempts=4):
+    # The free Edge TTS endpoint drops requests now and then; retry before failing the build.
+    for i in range(attempts):
+        try:
+            return asyncio.run(tts(text, mp3))
+        except Exception as e:
+            if i == attempts - 1:
+                raise
+            print(f"tts retry {i + 1}: {e}", flush=True)
+            time.sleep(2 * (i + 1))
+
+
 def ass_time(t):
     cs = int(round(t * 100))
     return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
@@ -103,7 +115,7 @@ def build(episode_path, out):
     clips, captions, t0 = [], [], 0.0
     for i, sc in enumerate(ep["scenes"]):
         mp3, png, mp4 = work / f"s{i:03d}.mp3", work / f"s{i:03d}.png", work / f"s{i:03d}.mp4"
-        words = asyncio.run(tts(sc["narration"], mp3))
+        words = tts_retry(sc["narration"], mp3)
         svg_to_png(sc["svg"], png, W, H)
         d = duration(mp3) + SCENE_TAIL
         frames = max(1, int(round(d * FPS)))
