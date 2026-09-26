@@ -80,6 +80,7 @@ def upload(episode, video, thumbnail, privacy, publish_at=None):
             # Custom thumbnails need a phone-verified channel (youtube.com/verify).
             thumb_note = f"failed {t.status_code}: {t.text[:300]}"
     print(json.dumps({"video_id": vid, "url": f"https://youtu.be/{vid}",
+                      "channel_id": result.get("snippet", {}).get("channelId"),
                       "privacy": result.get("status", {}).get("privacyStatus"),
                       "publish_at": result.get("status", {}).get("publishAt"), "thumbnail": thumb_note}))
 

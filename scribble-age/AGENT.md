@@ -97,5 +97,5 @@ Append to `history.json` → `episodes`: `{"date", "topic", "title", "video_id",
 Commit the episode file and history on `claude/eloquent-sagan-8jfd62` and push with
 `git push -u origin claude/eloquent-sagan-8jfd62`. If the push is refused, say so in the
 report. The upload still counts; the next run will dedupe against the channel's titles.
-Finish with a short report: the title, the YouTube URL, the privacy status, the
+Finish with a short report: the title, the YouTube URL, the channel_id from upload.py, the privacy status, the
 length, and any problems.
