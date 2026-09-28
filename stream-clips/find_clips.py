@@ -5,7 +5,7 @@ Twitch viewers clip the best moments themselves, and the clip view count ranks t
 so this is the cheapest way to find highlights: no VOD downloads, no scanning hours of stream.
 Prints JSON candidates, best first.
 """
-import argparse, json, os, subprocess, sys
+import argparse, json, subprocess, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -34,9 +34,8 @@ def main():
     history = json.loads((HERE / "history.json").read_text(encoding="utf-8"))["shorts"]
     posted = {h["slug"] for h in history}
     moments = [h["clip_created"] for h in history if h.get("clip_created")]
-    if os.environ.get(CONFIG["token_env"]):
-        from upload import posted_slugs  # catches uploads whose history.json push failed
-        posted |= posted_slugs()
+    from upload import posted_slugs  # the channels themselves; history.json pushes can fail
+    posted |= posted_slugs()
 
     login = CONFIG["streamer"]["login"]
     picked, seen = [], set()
