@@ -52,6 +52,8 @@ def my_channel(auth):
         sys.exit(f"refusing to upload: token belongs to {ch['snippet']['title']} ({cid}), not the clips channel")
     if CONFIG.get("channel_id") and cid != CONFIG["channel_id"]:
         sys.exit(f"refusing to upload: token belongs to {cid}, config.json expects {CONFIG['channel_id']}")
+    if not CONFIG.get("channel_id") and ch["snippet"]["title"] != CONFIG["channel_name"]:
+        sys.exit(f"refusing to upload: token belongs to {ch['snippet']['title']!r}, expected {CONFIG['channel_name']!r}")
     return cid, ch["snippet"]["title"], ch["contentDetails"]["relatedPlaylists"]["uploads"]
 
 
