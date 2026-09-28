@@ -15,7 +15,9 @@
  ],
  "streamer": {
   "login": "kaicenat",
-  "name": "Kai Cenat"
+  "name": "Kai Cenat",
+  "cut_top": 0.06,
+  "cut_bottom": 0.12
  },
  "shorts_per_run": 3,
  "publish_times": [

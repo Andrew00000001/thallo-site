@@ -44,15 +44,19 @@ Read the transcript and **look at all 4 frames** with the Read tool.
 
 **c. Write** `/tmp/sc/N/short.json`:
 ```json
-{"url": "...", "slug": "...", "start": 0, "end": 38.5, "crop": "4:3", "focus_x": 0.5, "focus_y": 0.5, "zoom": 1.0,
+{"url": "...", "slug": "...", "clip_created": 1790431388, "start": 0, "end": 38.5, "crop": "4:3",
+ "focus_x": 0.5, "focus_y": 0.5, "zoom": 1.0,
  "hook_text": "...", "hook_voice": "...", "title": "...", "description": "...", "tags": ["..."]}
 ```
+- `clip_created`: copy it from find_clips. upload.py saves it as the video's recording date, so
+  later runs skip other viewers' clips of the same moment.
 - `start`/`end`: start on the action (cut any slow lead-in) and end right after the payoff.
   15–45 seconds is ideal; 60 is the most a Twitch clip has.
 - `crop`: `vertical` (full-screen 9:16) for one person or IRL footage; `4:3` or `1:1` when there are
   two subjects or a facecam in a corner; `full` for wide gameplay. `focus_x`/`focus_y` move the crop,
-  `zoom` (1.0–1.4) tightens it. Crop out the stream's own caption bar, chat box and sub counter
-  when you can; our captions replace them.
+  `zoom` (1.0–1.4) tightens it. The stream's own burned-in captions (bottom) and viewer counter
+  (top) are cut off by default (`cut_bottom` 0.12, `cut_top` 0.06 in config.json); raise them in
+  short.json only if they still show. Keep the chat box and sub counter out of the crop too.
 - `hook_text`: on-screen headline, **6 words or fewer**, true, and about this moment.
 - `hook_voice`: **one sentence, 14 words or fewer**, read aloud over the start of the clip. It gives
   the context a new viewer needs ("Kai just asked a tour guide in Iceland to…"). Always include
@@ -78,27 +82,26 @@ python3 make_short.py render /tmp/sc/N/short.json --work /tmp/sc/N --out /tmp/sc
 ```
 Pull 3 frames from the result (about 1 s in, the middle, and 2 s before the end) with ffmpeg
 (`imageio_ffmpeg.get_ffmpeg_exe()`, `-vf scale=540:-2`) and look at them. Fix and re-render if the
-headline is cut off or wraps past 2 lines, the stream's own captions still show next to ours, the
-subject is cropped out, or anything is blank or broken.
+headline is cut off or wraps past 2 lines, **the stream's own captions (white words with a purple
+highlight) still show anywhere**, the viewer counter or chat shows, the subject is cropped out, or
+anything is blank or broken.
 
-**e. Upload** each Short as soon as it passes the check (the Nth Short uses the Nth time in
-`config.json` → `publish_times`, unless this run's prompt gives other times; the prompt wins):
+**e. Upload** each Short as soon as it passes the check:
 ```bash
-python3 upload.py /tmp/sc/N/short.json --video /tmp/sc/N/short.mp4 --publish-at <HH:MM>
+python3 upload.py /tmp/sc/N/short.json --video /tmp/sc/N/short.mp4 --publish-at auto
 ```
-If that time is already past today, or less than 20 minutes away, use `--privacy public` instead of
-`--publish-at` so the Short goes live now rather than piling onto tomorrow's slots.
-The command prints one JSON line: the video, or an `error`. Then copy `short.json` to `stream-clips/shorts/YYYY-MM-DD-N.json` (today's
-date, America/Detroit) and append to `history.json` → `shorts`:
-`{"date", "slug", "clip_created", "title", "publish_at", "videos": {"<channel name>": "<video_id>"}}`
-(`clip_created` comes from find_clips). If an upload fails with a quota error, stop making
-Shorts and report it.
+`auto` picks the next time in `config.json` → `publish_times` that is at least 2 hours after the
+latest Short already live or scheduled on the channel, so Shorts never pile up, whatever time the
+run happens. Don't pass other times or `--privacy public`. If an upload fails with a quota error,
+stop making Shorts and report it.
 
-## 4. Record and report
-Commit `history.json` and `shorts/` on `claude/youtube-streamer-clips-routine-qwjsb9`
-and push with `git push -u origin claude/youtube-streamer-clips-routine-qwjsb9`. If the push is
-refused, say so; the uploads still count, and the next run dedupes against the channels themselves.
-Don't open pull requests or touch files outside `stream-clips/`.
+If fewer than 3 clips pass the checks, upload the ones that do and say so. Never lower the bar
+to fill the count.
+
+## 4. Report
+Don't commit or push: routine sessions can't push to this repo, and nothing depends on it. The
+channel is the record: each video's `Clip:` line and recording date tell later runs what's posted.
+Don't open pull requests or edit any files in the repo.
 
 Finish with a short report: for each Short, the title, the YouTube URL, the publish time and the
 Twitch clip it came from; clips you skipped and why; any problems. Paste every JSON line upload.py printed.

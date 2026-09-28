@@ -19,6 +19,8 @@ CHANNELS = CONFIG["channels"]
 API = "https://www.googleapis.com/youtube/v3"
 CHUNK = 16 * 1024 * 1024
 SLUG = re.compile(r"twitch\.tv/[\w-]+/clip/([\w-]+)")
+TZ = ZoneInfo("America/Detroit")
+MIN_GAP = datetime.timedelta(hours=2)  # auto-scheduled Shorts go live at least this far apart
 
 
 class UploadError(Exception):
@@ -63,30 +65,44 @@ def check_channel(ch, auth):
     return got["contentDetails"]["relatedPlaylists"]["uploads"]
 
 
-def posted_slugs(max_pages=4):
-    """Twitch clip slugs already posted on any channel with a token (read from the newest 200
-    video descriptions), so a failed history.json push never causes a repeat."""
-    slugs = set()
+def recent_videos(auth, uploads, max_pages=4):
+    """The channel's newest uploads (up to 200) with snippet, status and recordingDetails."""
+    videos, token = [], None
+    for _ in range(max_pages):
+        params = {"part": "snippet", "playlistId": uploads, "maxResults": 50}
+        if token:
+            params["pageToken"] = token
+        r = requests.get(f"{API}/playlistItems", params=params, headers=auth, timeout=30)
+        if r.status_code == 404:  # a brand-new channel has no uploads playlist yet
+            break
+        r.raise_for_status()
+        data = r.json()
+        ids = [it["snippet"]["resourceId"]["videoId"] for it in data.get("items", [])]
+        if ids:
+            v = requests.get(f"{API}/videos", params={"part": "snippet,status,recordingDetails", "id": ",".join(ids)},
+                             headers=auth, timeout=30)
+            v.raise_for_status()
+            videos += v.json().get("items", [])
+        token = data.get("nextPageToken")
+        if not token:
+            break
+    return videos
+
+
+def posted():
+    """(clip slugs, clip creation times) already on the channels. Slugs come from the "Clip:" line
+    in each description and times from recordingDate, so no state has to live in git."""
+    slugs, moments = set(), []
     for ch in CHANNELS:
         if not has_token(ch):
             continue
         auth = access_token(ch)
-        uploads, token = check_channel(ch, auth), None
-        for _ in range(max_pages):
-            params = {"part": "snippet", "playlistId": uploads, "maxResults": 50}
-            if token:
-                params["pageToken"] = token
-            r = requests.get(f"{API}/playlistItems", params=params, headers=auth, timeout=30)
-            if r.status_code == 404:  # a brand-new channel has no uploads playlist yet
-                break
-            r.raise_for_status()
-            data = r.json()
-            for it in data.get("items", []):
-                slugs.update(SLUG.findall(it["snippet"].get("description", "")))
-            token = data.get("nextPageToken")
-            if not token:
-                break
-    return slugs
+        for v in recent_videos(auth, check_channel(ch, auth)):
+            slugs.update(SLUG.findall(v["snippet"].get("description", "")))
+            rec = v.get("recordingDetails", {}).get("recordingDate")
+            if rec:
+                moments.append(datetime.datetime.fromisoformat(rec.replace("Z", "+00:00")).timestamp())
+    return slugs, moments
 
 
 def setup_channel():
@@ -109,20 +125,44 @@ def setup_channel():
         print(json.dumps({"channel": ch["name"], "description_set": True}))
 
 
+def utc(t):
+    return t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def publish_time(hhmm):
     """Next occurrence of HH:MM America/Detroit (DST-aware), as UTC ISO 8601."""
-    tz = ZoneInfo("America/Detroit")
-    now = datetime.datetime.now(tz)
+    now = datetime.datetime.now(TZ)
     h, m = map(int, hhmm.split(":"))
     t = now.replace(hour=h, minute=m, second=0, microsecond=0)
     if t <= now + datetime.timedelta(minutes=15):
         t += datetime.timedelta(days=1)
-    return t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return utc(t)
+
+
+def auto_slot(auth, uploads):
+    """The first config.json publish time that is 20+ minutes away and MIN_GAP after the latest
+    Short already live or scheduled on the channel, so runs at any hour never pile Shorts up."""
+    now = datetime.datetime.now(TZ)
+    latest = now - MIN_GAP
+    for v in recent_videos(auth, uploads, max_pages=1):
+        st, sn = v["status"], v["snippet"]
+        when = st.get("publishAt") if st.get("privacyStatus") == "private" else (
+            sn.get("publishedAt") if st.get("privacyStatus") == "public" else None)
+        if when:
+            latest = max(latest, datetime.datetime.fromisoformat(when.replace("Z", "+00:00")).astimezone(TZ))
+    earliest = max(now + datetime.timedelta(minutes=20), latest + MIN_GAP)
+    for day in range(0, 30):
+        for hhmm in CONFIG["publish_times"]:
+            h, m = map(int, hhmm.split(":"))
+            t = (now + datetime.timedelta(days=day)).replace(hour=h, minute=m, second=0, microsecond=0)
+            if t >= earliest:
+                return utc(t)
+    raise UploadError("no free publish slot in the next 30 days")
 
 
 def upload_one(ch, sh, video, privacy, publish_at):
     auth = access_token(ch)
-    check_channel(ch, auth)
+    uploads = check_channel(ch, auth)
     body = {
         "snippet": {"title": sh["title"][:100], "description": sh["description"][:5000],
                     "tags": sh.get("tags", [])[:30], "categoryId": "24", "defaultLanguage": "en",
@@ -131,13 +171,25 @@ def upload_one(ch, sh, video, privacy, publish_at):
     }
     if publish_at:
         # YouTube publishes a scheduled video itself; it must be uploaded as private.
-        body["status"].update(privacyStatus="private", publishAt=publish_time(publish_at))
+        when = auto_slot(auth, uploads) if publish_at == "auto" else publish_time(publish_at)
+        body["status"].update(privacyStatus="private", publishAt=when)
+    if sh.get("clip_created"):
+        # When the moment happened; later runs read it back to skip other clips of the same moment.
+        body["recordingDetails"] = {"recordingDate": datetime.datetime.fromtimestamp(
+            sh["clip_created"], datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
     size = os.path.getsize(video)
-    r = requests.post(
-        "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
-        headers={**auth, "Content-Type": "application/json; charset=UTF-8",
-                 "X-Upload-Content-Type": "video/mp4", "X-Upload-Content-Length": str(size)},
-        data=json.dumps(body), timeout=60)
+
+    def init():
+        parts = "snippet,status" + (",recordingDetails" if "recordingDetails" in body else "")
+        return requests.post(
+            f"https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part={parts}",
+            headers={**auth, "Content-Type": "application/json; charset=UTF-8",
+                     "X-Upload-Content-Type": "video/mp4", "X-Upload-Content-Length": str(size)},
+            data=json.dumps(body), timeout=60)
+
+    r = init()
+    if r.status_code == 400 and body.pop("recordingDetails", None):
+        r = init()  # the recording date is only a dedupe hint; never let it block an upload
     if r.status_code != 200:
         raise UploadError(f"upload init failed: {r.status_code} {r.text}")
     url, pos, result = r.headers["Location"], 0, None
@@ -199,7 +251,7 @@ if __name__ == "__main__":
     p.add_argument("short", nargs="?", help="short JSON written by the agent")
     p.add_argument("--video", default="build/short.mp4")
     p.add_argument("--privacy", default="public", choices=["public", "unlisted", "private"])
-    p.add_argument("--publish-at", help="HH:MM America/Detroit; schedules the Short to go public then")
+    p.add_argument("--publish-at", help='"auto" (next free slot from config.json) or HH:MM America/Detroit')
     p.add_argument("--whoami", action="store_true", help="check every channel's token and exit")
     p.add_argument("--setup-channel", action="store_true", help="set channel descriptions and keywords")
     a = p.parse_args()

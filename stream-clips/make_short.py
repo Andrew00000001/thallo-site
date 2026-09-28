@@ -13,8 +13,9 @@ Short JSON (written by the agent):
  "title": "...", "description": "...", "tags": ["..."]}
 crop: "full" (whole 16:9 frame), "4:3", "1:1" (both on a blurred fill), or "vertical" (full-screen 9:16).
 focus_x / focus_y: where to crop (0 = left/top edge, 0.5 = centre, 1 = right/bottom edge).
-zoom: 1.0 keeps the full frame height; 1.2 crops 20% tighter, e.g. to cut off the stream's
-own caption bar, sub counter or chat box.
+zoom: 1.0 keeps the full frame height; 1.2 crops 20% tighter, e.g. to cut off a chat box.
+cut_top / cut_bottom: fraction of the frame height removed before cropping, to drop the
+stream's own viewer counter and burned-in captions (defaults: config.json "streamer").
 """
 import argparse, asyncio, json, os, re, shutil, ssl, subprocess, sys, time
 from pathlib import Path
@@ -158,7 +159,7 @@ def caption_groups(words):
     return groups
 
 
-def write_ass(sh, words, length, streamer, path):
+def write_ass(sh, words, length, streamer, path, cap_margin):
     head = (
         f"[Script Info]\nScriptType: v4.00+\nPlayResX: {W}\nPlayResY: {H}\nWrapStyle: 0\nScaledBorderAndShadow: yes\n\n"
         "[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, "
@@ -166,7 +167,7 @@ def write_ass(sh, words, length, streamer, path):
         "Alignment, MarginL, MarginR, MarginV, Encoding\n"
         f"Style: Hook,{FONT},112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,7,4,8,70,70,190,1\n"
         f"Style: Credit,{FONT},44,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,2,0,1,4,2,8,70,70,{VIDEO_TOP - 70},1\n"
-        f"Style: Cap,{FONT},104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,8,4,2,60,60,440,1\n\n"
+        f"Style: Cap,{FONT},104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,1,0,1,8,4,2,60,60,{cap_margin},1\n\n"
         "[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n"
     )
     ev = [f"Dialogue: 1,{ass_time(0)},{ass_time(length)},Hook,,0,0,0,,{clean(sh['hook_text'])}",
@@ -183,13 +184,16 @@ def write_ass(sh, words, length, streamer, path):
 ASPECT = {"full": 16 / 9, "4:3": 4 / 3, "1:1": 1.0, "vertical": 9 / 16}
 
 
-def crop_filter(mode, fx, fy, zoom):
-    """Crop the source to the mode's aspect ratio, zoomed in `zoom` times around (fx, fy), then scale."""
+def crop_filter(mode, fx, fy, zoom, cut_top, cut_bottom):
+    """Drop the stream's top and bottom overlay bands, crop to the mode's aspect ratio zoomed in
+    `zoom` times around (fx, fy), then scale."""
     fx, fy = (min(max(float(v), 0.0), 1.0) for v in (fx, fy))
+    ct, cb = (min(max(float(v), 0.0), 0.3) for v in (cut_top, cut_bottom))
+    band = f"crop=iw:ih*{1 - ct - cb:.3f}:0:ih*{ct:.3f}"
     ch = f"ih/{max(float(zoom), 1.0):.3f}"
     cw = f"{ch}*{ASPECT[mode]:.5f}"
     scale = f"scale={W}:{H}" if mode == "vertical" else "scale=1080:-2"
-    return f"crop={cw}:{ch}:(iw-{cw})*{fx}:(ih-{ch})*{fy},{scale}"
+    return f"{band},crop={cw}:{ch}:(iw-{cw})*{fx}:(ih-{ch})*{fy},{scale}"
 
 
 def render(short, work, out):
@@ -208,10 +212,12 @@ def render(short, work, out):
     config = json.loads((HERE / "config.json").read_text(encoding="utf-8"))
     fonts = install_font()
     ass = work / "short.ass"
-    write_ass(sh, words, length, config["streamer"]["name"], ass)
-
     mode, fps = sh.get("crop", "4:3"), min(round(info["fps"]), 60)
-    fg = crop_filter(mode, sh.get("focus_x", 0.5), sh.get("focus_y", 0.5), sh.get("zoom", 1.0))
+    # Full-screen footage: keep captions low, off the face. Framed footage: just under the clip.
+    write_ass(sh, words, length, config["streamer"]["name"], ass, 330 if mode == "vertical" else 440)
+    streamer = config["streamer"]
+    fg = crop_filter(mode, sh.get("focus_x", 0.5), sh.get("focus_y", 0.5), sh.get("zoom", 1.0),
+                     sh.get("cut_top", streamer.get("cut_top", 0)), sh.get("cut_bottom", streamer.get("cut_bottom", 0)))
     if mode == "vertical":
         video = f"[0:v]{fg},setsar=1[base]"
     else:

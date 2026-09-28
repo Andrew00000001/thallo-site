@@ -34,8 +34,10 @@ def main():
     history = json.loads((HERE / "history.json").read_text(encoding="utf-8"))["shorts"]
     posted = {h["slug"] for h in history}
     moments = [h["clip_created"] for h in history if h.get("clip_created")]
-    from upload import posted_slugs  # the channels themselves; history.json pushes can fail
-    posted |= posted_slugs()
+    from upload import posted as on_channels  # the channels themselves; runs can't push history.json
+    slugs, times = on_channels()
+    posted |= slugs
+    moments += times
 
     login = CONFIG["streamer"]["login"]
     picked, seen = [], set()
