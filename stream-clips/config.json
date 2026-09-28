@@ -1,11 +1,23 @@
 {
- "channel_name": "",
+ "channel_name": "Kai Cenat Fan Clips",
+ "channel_handle": "@KaiCenatFanClipsHQ",
  "channel_id": "",
- "forbidden_channel_ids": ["UC1q7Zvv9PeoL5smeMvAvwDQ"],
+ "forbidden_channel_ids": [
+  "UC1q7Zvv9PeoL5smeMvAvwDQ"
+ ],
  "token_env": "YT_CLIPS_REFRESH_TOKEN",
- "streamer": {"login": "kaicenat", "name": "Kai Cenat"},
+ "channel_description": "Kai Cenat's funniest and wildest stream moments, cut into Shorts every day.\n\nWatch Kai live: https://www.twitch.tv/kaicenat\n\nFan channel. Not affiliated with Kai Cenat. All clips are credited to their Twitch source.",
+ "channel_keywords": "\"kai cenat\" \"kai cenat clips\" \"kai cenat funny moments\" \"kai cenat shorts\" \"twitch clips\" \"streamer clips\"",
+ "streamer": {
+  "login": "kaicenat",
+  "name": "Kai Cenat"
+ },
  "shorts_per_run": 3,
- "publish_times": ["12:00", "16:00", "20:00"],
+ "publish_times": [
+  "12:00",
+  "16:00",
+  "20:00"
+ ],
  "min_views": 300,
  "min_seconds": 8
 }

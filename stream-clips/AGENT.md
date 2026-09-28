@@ -11,12 +11,13 @@ cd /home/user/thallo-site 2>/dev/null || git clone https://github.com/Andrew0000
 git fetch origin claude/youtube-streamer-clips-routine-qwjsb9 && git checkout claude/youtube-streamer-clips-routine-qwjsb9 && git pull origin claude/youtube-streamer-clips-routine-qwjsb9
 cd stream-clips && pip install -q -r requirements.txt
 ```
-If `YT_CLIENT_ID`, `YT_CLIENT_SECRET` or `YT_CLIPS_REFRESH_TOKEN` is missing, **stop now** and
-report that the clips channel's upload token isn't set up. Don't build anything.
+If `YT_CLIPS_REFRESH_TOKEN` is missing, or neither `YT_CLIPS_CLIENT_ID` nor `YT_CLIENT_ID` is set,
+**stop now** and report that the clips channel's upload token isn't set up. Don't build anything.
 
 Then run `python3 upload.py --whoami`. If it fails, stop and report the error (it refuses a token
 that belongs to Scribble Age). If `config.json` has an empty `channel_id`, this is the first run:
-write the returned `channel_id` and `channel_title` into `config.json` (`channel_name`).
+write the returned `channel_id` into `config.json`, then run `python3 upload.py --setup-channel`
+once to set the channel description and keywords.
 
 ## 2. Find clips
 ```bash

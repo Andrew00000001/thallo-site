@@ -10,6 +10,8 @@ Shorts. A scheduled Claude session follows `AGENT.md` once a day and makes 3 Sho
   word-by-word captions and a spoken hook (free Edge TTS)
 - `upload.py`: YouTube Data API upload; refuses any token that isn't the clips channel's
 
-Needs `YT_CLIENT_ID`, `YT_CLIENT_SECRET` (same Google Cloud project as Scribble Age) and
-`YT_CLIPS_REFRESH_TOKEN` (scopes `youtube.upload` and `youtube.readonly`, authorized on the clips channel).
+Needs `YT_CLIPS_CLIENT_ID`, `YT_CLIPS_CLIENT_SECRET` (an OAuth client in the same Google Cloud
+project as Scribble Age; falls back to `YT_CLIENT_ID`/`YT_CLIENT_SECRET`) and `YT_CLIPS_REFRESH_TOKEN`
+(scope `https://www.googleapis.com/auth/youtube`, authorized on the clips channel).
+Profile picture: `assets/profile.png`.
 Change the streamer in `config.json`. Font: Anton (SIL Open Font License, `assets/OFL.txt`).
