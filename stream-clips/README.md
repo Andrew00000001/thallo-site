@@ -1,7 +1,7 @@
 # Stream Clips
 
-Free, automated pipeline that turns Kai Cenat's Twitch streams into Shorts and posts each one to
-two YouTube channels (Kai Cenat Fan Clips and Clip That Moment Now !, listed in `config.json`).
+Free, automated pipeline that turns Kai Cenat's Twitch streams into Shorts for the YouTube fan
+channel Kai Cenat Fan Clips (every channel listed in `config.json` → `channels` gets each Short).
 A scheduled Claude session follows `AGENT.md` once a day and makes 3 Shorts:
 
 - `find_clips.py`: the streamer's most-viewed Twitch clips (viewers already cut the highlights),
@@ -13,7 +13,7 @@ A scheduled Claude session follows `AGENT.md` once a day and makes 3 Shorts:
 
 Needs `YT_CLIPS_CLIENT_ID`, `YT_CLIPS_CLIENT_SECRET` (an OAuth client in the Scribble Age Uploader
 Google Cloud project; falls back to `YT_CLIENT_ID`/`YT_CLIENT_SECRET`) and one refresh token per
-channel (`YT_CLIPS_REFRESH_TOKEN`, `YT_CLIPS2_REFRESH_TOKEN`), each with the scope
+channel (`YT_CLIPS_REFRESH_TOKEN` for Kai Cenat Fan Clips), each with the scope
 `https://www.googleapis.com/auth/youtube` and authorized on its own channel.
 Profile picture: `assets/profile.png`.
 Change the streamer in `config.json`. Font: Anton (SIL Open Font License, `assets/OFL.txt`).

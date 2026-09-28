@@ -7,16 +7,11 @@
    "token_env": "YT_CLIPS_REFRESH_TOKEN",
    "description": "Kai Cenat's funniest and wildest stream moments, cut into Shorts every day.\n\nWatch Kai live: https://www.twitch.tv/kaicenat\n\nFan channel. Not affiliated with Kai Cenat. All clips are credited to their Twitch source.",
    "keywords": "\"kai cenat\" \"kai cenat clips\" \"kai cenat funny moments\" \"kai cenat shorts\" \"twitch clips\" \"streamer clips\""
-  },
-  {
-   "name": "Clip That Moment Now !",
-   "handle": "@ClipThatMomentNow",
-   "id": "UCL4LMyCALKGVDPmoDwuha1Q",
-   "token_env": "YT_CLIPS2_REFRESH_TOKEN"
   }
  ],
  "forbidden_channel_ids": [
-  "UC1q7Zvv9PeoL5smeMvAvwDQ"
+  "UC1q7Zvv9PeoL5smeMvAvwDQ",
+  "UCL4LMyCALKGVDPmoDwuha1Q"
  ],
  "streamer": {
   "login": "kaicenat",

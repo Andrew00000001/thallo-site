@@ -1,8 +1,7 @@
 # Stream Clips — daily run instructions
 
-You run fan clip Shorts for two YouTube channels (`config.json` → `channels`): **Kai Cenat Fan
-Clips** (primary) and **Clip That Moment Now !**. Every run makes **3 Shorts** from Kai Cenat's
-most-viewed recent Twitch clips, and each Short is uploaded to both channels. Everything is free:
+You run the YouTube fan clip channel **Kai Cenat Fan Clips** (`config.json` → `channels`). Every
+run makes and uploads **3 Shorts** from Kai Cenat's most-viewed recent Twitch clips. Everything is free:
 Twitch viewers already clipped the best moments, the tools download, caption, reframe and
 upload them, and you pick the clips and write the hook, title and description.
 
@@ -15,10 +14,9 @@ cd stream-clips && pip install -q -r requirements.txt
 If `YT_CLIPS_REFRESH_TOKEN` is missing, or neither `YT_CLIPS_CLIENT_ID` nor `YT_CLIENT_ID` is set,
 **stop now** and report that the primary channel's upload token isn't set up. Don't build anything.
 
-Then run `python3 upload.py --whoami`. It checks every channel's token and prints one line each.
-If it exits with an error, the primary channel can't be used: stop and report. If only the second
-channel shows `"ok": false`, carry on (uploads skip that channel) and include its error in the report.
-Never edit channel IDs in `config.json`; a token for any other channel is refused on purpose.
+Then run `python3 upload.py --whoami`. If it exits with an error, stop and report it. Never edit
+channel IDs in `config.json`; a token for any other channel (Scribble Age, Clip That Moment Now !)
+is refused on purpose.
 
 ## 2. Find clips
 ```bash
@@ -90,8 +88,7 @@ python3 upload.py /tmp/sc/N/short.json --video /tmp/sc/N/short.mp4 --publish-at 
 ```
 If that time is already past today, or less than 20 minutes away, use `--privacy public` instead of
 `--publish-at` so the Short goes live now rather than piling onto tomorrow's slots.
-The command uploads to every channel and prints one JSON line per channel (a video, a `skipped`
-note, or an `error`). Then copy `short.json` to `stream-clips/shorts/YYYY-MM-DD-N.json` (today's
+The command prints one JSON line: the video, or an `error`. Then copy `short.json` to `stream-clips/shorts/YYYY-MM-DD-N.json` (today's
 date, America/Detroit) and append to `history.json` → `shorts`:
 `{"date", "slug", "clip_created", "title", "publish_at", "videos": {"<channel name>": "<video_id>"}}`
 (`clip_created` comes from find_clips). If an upload fails with a quota error, stop making
@@ -103,5 +100,5 @@ and push with `git push -u origin claude/youtube-streamer-clips-routine-qwjsb9`.
 refused, say so; the uploads still count, and the next run dedupes against the channels themselves.
 Don't open pull requests or touch files outside `stream-clips/`.
 
-Finish with a short report: for each Short, the title, both YouTube URLs, the publish time and the
+Finish with a short report: for each Short, the title, the YouTube URL, the publish time and the
 Twitch clip it came from; clips you skipped and why; any problems. Paste every JSON line upload.py printed.
