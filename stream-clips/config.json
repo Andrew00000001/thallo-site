@@ -1,0 +1,11 @@
+{
+ "channel_name": "",
+ "channel_id": "",
+ "forbidden_channel_ids": ["UC1q7Zvv9PeoL5smeMvAvwDQ"],
+ "token_env": "YT_CLIPS_REFRESH_TOKEN",
+ "streamer": {"login": "kaicenat", "name": "Kai Cenat"},
+ "shorts_per_run": 3,
+ "publish_times": ["12:00", "16:00", "20:00"],
+ "min_views": 300,
+ "min_seconds": 8
+}
