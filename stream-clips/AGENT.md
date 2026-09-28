@@ -46,7 +46,7 @@ Read the transcript and **look at all 4 frames** with the Read tool.
 ```json
 {"url": "...", "slug": "...", "clip_created": 1790431388, "start": 0, "end": 38.5, "crop": "4:3",
  "focus_x": 0.5, "focus_y": 0.5, "zoom": 1.0,
- "hook_text": "...", "hook_voice": "...", "title": "...", "description": "...", "tags": ["..."]}
+ "hook_text": "...", "title": "...", "description": "...", "tags": ["..."]}
 ```
 - `clip_created`: copy it from find_clips. upload.py saves it as the video's recording date, so
   later runs skip other viewers' clips of the same moment.
@@ -58,10 +58,6 @@ Read the transcript and **look at all 4 frames** with the Read tool.
   (top) are cut off by default (`cut_bottom` 0.12, `cut_top` 0.06 in config.json); raise them in
   short.json only if they still show. Keep the chat box and sub counter out of the crop too.
 - `hook_text`: on-screen headline, **6 words or fewer**, true, and about this moment.
-- `hook_voice`: **one sentence, 14 words or fewer**, read aloud over the start of the clip. It gives
-  the context a new viewer needs ("Kai just asked a tour guide in Iceland to…"). Always include
-  it: our commentary is what makes the Short more than a re-upload. Say "Kai", not "Kai Cenat",
-  because the voice mispronounces "Cenat".
 - `title`: under 60 characters, includes "Kai Cenat", curiosity-driven but true, at most 1 emoji.
 - `description`: one or two sentences of context, then these lines exactly:
   ```
@@ -72,7 +68,7 @@ Read the transcript and **look at all 4 frames** with the Read tool.
   ```
   The `Clip:` line is required; it's how later runs know the clip is already posted.
 - `tags`: 8–12 relevant tags.
-- **Accuracy:** the hook, voice line, title and description may only claim what you can see or
+- **Accuracy:** the hook, title and description may only claim what you can see or
   hear in the clip or its Twitch title. Names, places and numbers must be certain; if not, leave
   them out. No invented drama.
 

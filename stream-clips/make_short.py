@@ -5,11 +5,11 @@
                          and save 4 preview frames, so the agent can watch it before writing.
   render SHORT.json --work DIR --out FILE
                          build the 1080x1920 Short: blurred fill, reframed clip, hook headline,
-                         word-by-word captions and an optional spoken hook (Edge TTS).
+                         and word-by-word captions. The clip starts right away; no voice-over.
 
 Short JSON (written by the agent):
 {"url": "...", "slug": "...", "start": 0, "end": 42.5, "crop": "4:3", "focus_x": 0.5, "focus_y": 0.5, "zoom": 1.0,
- "hook_text": "HE WALKED INTO A VOLCANO", "hook_voice": "Kai just walked inside a volcano...",
+ "hook_text": "HE WALKED INTO A VOLCANO",
  "title": "...", "description": "...", "tags": ["..."]}
 crop: "full" (whole 16:9 frame), "4:3", "1:1" (both on a blurred fill), or "vertical" (full-screen 9:16).
 focus_x / focus_y: where to crop (0 = left/top edge, 0.5 = centre, 1 = right/bottom edge).
@@ -17,7 +17,7 @@ zoom: 1.0 keeps the full frame height; 1.2 crops 20% tighter, e.g. to cut off a 
 cut_top / cut_bottom: fraction of the frame height removed before cropping, to drop the
 stream's own viewer counter and burned-in captions (defaults: config.json "streamer").
 """
-import argparse, asyncio, json, os, re, shutil, ssl, subprocess, sys, time
+import argparse, json, re, shutil, subprocess, sys
 from pathlib import Path
 
 import imageio_ffmpeg
@@ -27,14 +27,10 @@ FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 W, H = 1080, 1920
 VIDEO_TOP = 560  # y where the clip sits on the blurred fill; the hook headline goes above it
 FONT = "Anton"
-VOICE = "en-US-AndrewNeural"
 CAPTION_WORDS = 3
 YELLOW, WHITE = "&H0000F0FF&", "&H00FFFFFF&"  # ASS colours are BGR
 # Captions stay advertiser-friendly; the audio is the streamer's own and isn't changed.
 CENSOR = [("FUCK", "F*CK"), ("SHIT", "SH*T"), ("BITCH", "B*TCH"), ("NIGG", "N*GG"), ("PUSSY", "P*SSY"), ("DICK", "D*CK")]
-
-# The cloud sandbox re-terminates TLS; edge-tts pins certifi, so trust the proxy CA when present.
-CA = "/root/.ccr/ca-bundle.crt"
 
 
 def run(args):
@@ -111,26 +107,6 @@ def prep(url, out):
 
 
 # ---------- render ----------
-
-async def _tts(text, mp3):
-    import edge_tts
-    import edge_tts.communicate as ec
-    if os.path.exists(CA):
-        ec._SSL_CTX = ssl.create_default_context(cafile=CA)
-    await edge_tts.Communicate(text, VOICE, rate="+12%").save(str(mp3))
-
-
-def tts(text, mp3, attempts=4):
-    # The free Edge TTS endpoint drops requests now and then; retry before failing the build.
-    for i in range(attempts):
-        try:
-            return asyncio.run(_tts(text, mp3))
-        except Exception as e:
-            if i == attempts - 1:
-                raise
-            print(f"tts retry {i + 1}: {e}", flush=True)
-            time.sleep(2 * (i + 1))
-
 
 def ass_time(t):
     cs = int(round(max(t, 0) * 100))
@@ -227,16 +203,7 @@ def render(short, work, out):
     video += f";[base]ass={ass}:fontsdir={fonts},fps={fps},format=yuv420p[v]"
 
     inputs = ["-ss", f"{start:.3f}", "-t", f"{length:.3f}", "-i", str(clip)]
-    if sh.get("hook_voice"):
-        mp3 = work / "hook.mp3"
-        tts(sh["hook_voice"], mp3)
-        hook_end = probe_audio(mp3) + 0.3
-        inputs += ["-i", str(mp3)]
-        audio = (f"[0:a]volume='if(lt(t,{hook_end:.2f}),0.22,1)':eval=frame[orig];"
-                 f"[1:a]adelay=150|150,volume=1.6[vo];[orig][vo]amix=inputs=2:duration=first:normalize=0,"
-                 f"loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]")
-    else:
-        audio = "[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]"
+    audio = "[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]"
     Path(out).parent.mkdir(parents=True, exist_ok=True)
     run([*inputs, "-filter_complex", video + ";" + audio, "-map", "[v]", "-map", "[a]", "-t", f"{length:.3f}",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-c:a", "aac", "-b:a", "192k", "-ac", "2",
@@ -244,12 +211,6 @@ def render(short, work, out):
     final = probe(out)
     print(json.dumps({"short": str(out), "seconds": round(final["seconds"], 1),
                       "size": f"{final['width']}x{final['height']}", "fps": fps, "caption_words": len(words)}))
-
-
-def probe_audio(path):
-    r = subprocess.run([FFMPEG, "-hide_banner", "-i", str(path)], capture_output=True, text=True)
-    h, m, s = re.search(r"Duration: (\d+):(\d+):([\d.]+)", r.stderr).groups()
-    return int(h) * 3600 + int(m) * 60 + float(s)
 
 
 if __name__ == "__main__":
