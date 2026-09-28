@@ -38,8 +38,18 @@ Don't build anything: this session can't save files anywhere, so the work would 
 - End with a one-line takeaway and "Subscribe to Scribble Age for a new story
   from history every day."
 - Split into 28–40 scenes, 1–3 sentences each (4–15 seconds of speech).
+- **Every scene gets 2 shots (pictures)**, so the image changes every 4–5 seconds. That's 56–80
+  pictures per video. Fast visual change keeps viewers watching.
 
 ## 4. Draw each scene (SVG, 1920×1080)
+Each scene has `"shots"`: exactly 2 pictures. The builder switches pictures on a spoken word,
+halfway through the scene's narration. Each shot is one of these:
+- `{"svg": "<svg ...>"}`: a complete new picture (a new angle, close-up or location).
+- `{"add": "<g>...</g>"}`: SVG elements drawn **on top of the previous shot**. This is a cheap reveal
+  (a label pops in, an arrow appears, a character reacts, a number lands). Use `add` for about
+  half of all second shots to save effort. The rest should be a full new picture.
+Make shot 2 match the second half of the narration. Never repeat shot 1 unchanged.
+
 Style rules, so every video looks like the same channel:
 - Root: `<svg xmlns='http://www.w3.org/2000/svg' width='1920' height='1080'>`.
 - Background `#FFF8EC` (cream). Accent `#F6A21E` (amber). Skin `#FFD9B0`.
@@ -66,7 +76,7 @@ strong emotion). It must be readable at phone size.
 Write `scribble-age/episodes/YYYY-MM-DD.json` (today's date, America/Detroit):
 ```json
 {"title": "...", "description": "...", "tags": ["..."], "topic": "...",
- "thumbnail_svg": "<svg ...>", "scenes": [{"narration": "...", "svg": "<svg ...>"}]}
+ "thumbnail_svg": "<svg ...>", "scenes": [{"narration": "...", "shots": [{"svg": "<svg ...>"}, {"add": "<g>...</g>"}]}]}
 ```
 - Title: under 70 characters, curiosity-driven, true (no clickbait lies).
 - Description: 2–3 sentence summary, then 2–4 sources (book or museum names,
@@ -80,7 +90,8 @@ Validate the JSON with `python3 -m json.tool` before building.
 cd /home/user/thallo-site/scribble-age
 python3 make_video.py episodes/YYYY-MM-DD.json --out /tmp/sa_build
 ```
-Then check the result: the length should be 4–9 minutes. Pull 4 frames with
+Then check the result: the length should be 4–9 minutes, and the builder's `seconds_per_shot`
+should be 6 or less. Pull 4 frames with
 ffmpeg (`imageio_ffmpeg.get_ffmpeg_exe()`) and look at them. Fix and rebuild any
 scene that is blank, broken or hard to read.
 

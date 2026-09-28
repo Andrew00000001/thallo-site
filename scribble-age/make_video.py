@@ -5,7 +5,8 @@ Episode JSON:
 {
   "title": "...", "description": "...", "tags": ["..."],
   "thumbnail_svg": "<svg width='1280' height='720' ...>",
-  "scenes": [{"narration": "...", "svg": "<svg width='1920' height='1080' ...>"}]
+  "scenes": [{"narration": "...", "shots": [{"svg": "<svg width='1920' height='1080' ...>"},
+                                             {"add": "<g>...drawn on top of the previous shot...</g>"}]}]
 }
 
 Output (in --out): video.mp4, thumbnail.jpg, captions.ass
@@ -105,6 +106,45 @@ def svg_to_png(svg, png, w, h):
                      background_color="white")
 
 
+def shot_svgs(sc):
+    """A scene is one picture ("svg") or several ("shots"). A shot is either {"svg": full SVG}
+    or {"add": SVG elements}, which draws the elements on top of the previous shot (a cheap reveal)."""
+    if "shots" not in sc:
+        return [sc["svg"]]
+    svgs = []
+    for shot in sc["shots"]:
+        if "svg" in shot:
+            svgs.append(shot["svg"])
+        else:
+            prev = svgs[-1]
+            cut = prev.rindex("</svg>")
+            svgs.append(prev[:cut] + shot["add"] + prev[cut:])
+    return svgs
+
+
+def shot_cuts(words, total, n):
+    """Split a scene into n shots at word boundaries, so each picture changes on a spoken word."""
+    even = [total * k / n for k in range(n + 1)]
+    if n == 1 or len(words) < n:
+        return even
+    cuts = [0.0] + [words[round(k * len(words) / n)][0] for k in range(1, n)] + [total]
+    if any(b - a < 0.8 for a, b in zip(cuts, cuts[1:])):
+        return even
+    return cuts
+
+
+MOTIONS = [  # zoompan expressions; cycling them keeps each new picture moving differently
+    "zoompan=z='1+0.08*on/{f}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'",
+    "zoompan=z='1.08-0.08*on/{f}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'",
+    "zoompan=z='1.08':x='(iw-iw/zoom)*on/{f}':y='ih/2-(ih/zoom/2)'",
+    "zoompan=z='1.08':x='(iw-iw/zoom)*(1-on/{f})':y='ih/2-(ih/zoom/2)'",
+]
+
+
+def motion(idx, frames):
+    return MOTIONS[idx % len(MOTIONS)].format(f=frames)
+
+
 def build(episode_path, out):
     ep = json.loads(Path(episode_path).read_text(encoding="utf-8"))
     out = Path(out)
@@ -112,30 +152,37 @@ def build(episode_path, out):
     work.mkdir(parents=True, exist_ok=True)
     fonts_dir = install_font()
 
-    clips, captions, t0 = [], [], 0.0
+    clips, captions, t0, shots_total = [], [], 0.0, 0
     for i, sc in enumerate(ep["scenes"]):
-        mp3, png, mp4 = work / f"s{i:03d}.mp3", work / f"s{i:03d}.png", work / f"s{i:03d}.mp4"
+        mp3, mp4 = work / f"s{i:03d}.mp3", work / f"s{i:03d}.mp4"
         words = tts_retry(sc["narration"], mp3)
-        svg_to_png(sc["svg"], png, W, H)
         d = duration(mp3) + SCENE_TAIL
-        frames = max(1, int(round(d * FPS)))
-        # Slow push-in keeps a still drawing alive; alternate direction per scene.
-        zoom = "min(1+0.06*on/%d,1.06)" % frames if i % 2 == 0 else "max(1.06-0.06*on/%d,1)" % frames
-        run(["-i", str(png), "-i", str(mp3),
-             "-filter_complex",
-             f"[0:v]scale={W*2}:{H*2},zoompan=z='{zoom}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
-             f":d={frames}:s={W}x{H}:fps={FPS},format=yuv420p[v];[1:a]apad=pad_dur={SCENE_TAIL},aresample=44100[a]",
+        svgs = shot_svgs(sc)
+        cuts = shot_cuts(words, d, len(svgs))
+        inputs, chains = [], []
+        for k, svg in enumerate(svgs):
+            png = work / f"s{i:03d}_{k}.png"
+            svg_to_png(svg, png, W, H)
+            frames = max(1, int(round((cuts[k + 1] - cuts[k]) * FPS)))
+            inputs += ["-i", str(png)]
+            chains.append(f"[{k}:v]scale={W*2}:{H*2},{motion(shots_total + k, frames)}"
+                          f":d={frames}:s={W}x{H}:fps={FPS},setsar=1[v{k}]")
+        n = len(svgs)
+        graph = ";".join(chains) + ";" + "".join(f"[v{k}]" for k in range(n)) + \
+            f"concat=n={n}:v=1:a=0,format=yuv420p[v];[{n}:a]apad=pad_dur={SCENE_TAIL},aresample=44100[a]"
+        run([*inputs, "-i", str(mp3), "-filter_complex", graph,
              "-map", "[v]", "-map", "[a]", "-t", f"{d:.3f}",
              "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-c:a", "aac", "-b:a", "160k", "-ac", "2",
              str(mp4)])
         clips.append(mp4)
+        shots_total += n
         for j in range(0, len(words), WORDS_PER_CAPTION):
             grp = words[j:j + WORDS_PER_CAPTION]
             end = words[j + WORDS_PER_CAPTION][0] if j + WORDS_PER_CAPTION < len(words) else grp[-1][1] + 0.2
             text = " ".join(w[2] for w in grp).replace("{", "(").replace("}", ")")
             captions.append((t0 + grp[0][0], t0 + end, text))
         t0 += duration(mp4)
-        print(f"scene {i + 1}/{len(ep['scenes'])}: {d:.1f}s", flush=True)
+        print(f"scene {i + 1}/{len(ep['scenes'])}: {d:.1f}s, {n} shots", flush=True)
 
     (work / "list.txt").write_text("".join(f"file '{c.name}'\n" for c in clips))
     run(["-f", "concat", "-safe", "0", "-i", str(work / "list.txt"), "-c", "copy", str(work / "joined.mp4")])
@@ -149,7 +196,8 @@ def build(episode_path, out):
     Image.open(work / "thumb.png").convert("RGB").save(out / "thumbnail.jpg", quality=90)  # YouTube limit is 2 MB
     total = duration(out / "video.mp4")
     print(json.dumps({"video": str(out / "video.mp4"), "thumbnail": str(out / "thumbnail.jpg"),
-                      "seconds": round(total, 1), "scenes": len(clips)}))
+                      "seconds": round(total, 1), "scenes": len(clips), "shots": shots_total,
+                      "seconds_per_shot": round(total / max(shots_total, 1), 1)}))
     shutil.rmtree(work)
 
 
