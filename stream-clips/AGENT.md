@@ -52,6 +52,8 @@ deleted, or the download errors), skip that clip.
 - Slurs, sexual content, gambling, drugs, graphic violence, or a stunt a kid could copy and get hurt.
 - A private person's face, address or other personal details are the focus.
 - Nothing happens, or it makes no sense without context you can't give in one sentence.
+- Swearing in almost every line. Captions censor it, but the audio doesn't, and heavy profanity
+  limits ads. Occasional swearing is fine; prefer to start the Short on a clean line.
 
 **c. Write** `/tmp/sc/N/short.json`. Every field below exists to keep viewers watching and to make
 the Short our own work (YouTube pays for clips with added commentary, storyline, context or
@@ -67,7 +69,8 @@ editing, not for bare re-uploads), so fill them all in.
 - `clip_created`: copy it from find_clips. upload.py saves it as the video's recording date and
   uses it to check throwback descriptions.
 - `start`/`end` (**open fast, loop clean**): start on the most striking second, never on a slow
-  lead-in; the first frame is what stops the scroll. End right after the payoff, cutting on a beat
+  lead-in; the first frame is what stops the scroll. Stay inside one continuous shot when the
+  stream switches scenes (gameplay, a "No Signal" screen, a different camera). End right after the payoff, cutting on a beat
   that flows back into the opening, so the replay feels seamless (YouTube counts every replay as
   a view). 12–40 seconds is ideal.
 - `crop`: `vertical` (full-screen 9:16) for one person or IRL footage; `4:3` or `1:1` when there are
