@@ -22,8 +22,15 @@ is refused on purpose.
 ```bash
 python3 find_clips.py --count 12
 ```
-It lists the most-viewed clips from the last 24 hours (widening to 7 and 30 days if needed),
-minus anything already posted and near-duplicates of the same moment. Work down the list.
+It lists fresh clips first (last 24 hours, then 7 days), minus anything already posted, clips of
+the same moment, and whole streams listed in `config.json` → `skip_windows`. When fresh clips
+run out (Kai is offline, or the fresh ones were used or rejected), it continues with his biggest
+moments of the last 30 days and of all time, ranked by views. Work down the list; drop anything
+that obviously fails step 3b from its Twitch title alone without prepping it.
+
+**Older clips (`clip_date` more than 30 days ago) are throwbacks: never present them as new.** No
+"just", "today" or "this week" in the headline, cards, title or description, and put the date in
+the description's first line ("From Kai's stream on June 11, 2024.").
 
 ## 3. Make each Short (repeat until you have 3)
 **a. Prep and watch.**
