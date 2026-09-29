@@ -20,7 +20,7 @@ import cairosvg
 import edge_tts
 import edge_tts.communicate as ec
 import imageio_ffmpeg
-from PIL import Image
+from PIL import Image, ImageChops
 
 HERE = Path(__file__).resolve().parent
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
@@ -101,9 +101,23 @@ def write_ass(captions, path):
     Path(path).write_text(head + "\n".join(lines) + "\n", encoding="utf-8")
 
 
-def svg_to_png(svg, png, w, h):
+_GRAIN = {}
+
+
+def paper_grain(w, h):
+    """Soft paper texture, multiplied over every picture so frames feel drawn on paper."""
+    if (w, h) not in _GRAIN:
+        g = Image.effect_noise((w // 4, h // 4), 28).resize((w, h), Image.BICUBIC)
+        _GRAIN[(w, h)] = Image.merge("RGB", [g.point(lambda v: 235 + v * 20 // 255)] * 3)
+    return _GRAIN[(w, h)]
+
+
+def svg_to_png(svg, png, w, h, grain=True):
     cairosvg.svg2png(bytestring=svg.encode("utf-8"), write_to=str(png), output_width=w, output_height=h,
                      background_color="white")
+    if grain:
+        img = Image.open(png).convert("RGB")
+        ImageChops.multiply(img, paper_grain(w, h)).save(png)
 
 
 def shot_svgs(sc):
@@ -162,10 +176,10 @@ def build(episode_path, out):
         inputs, chains = [], []
         for k, svg in enumerate(svgs):
             png = work / f"s{i:03d}_{k}.png"
-            svg_to_png(svg, png, W, H)
+            svg_to_png(svg, png, W * 2, H * 2)
             frames = max(1, int(round((cuts[k + 1] - cuts[k]) * FPS)))
             inputs += ["-i", str(png)]
-            chains.append(f"[{k}:v]scale={W*2}:{H*2},{motion(shots_total + k, frames)}"
+            chains.append(f"[{k}:v]{motion(shots_total + k, frames)}"
                           f":d={frames}:s={W}x{H}:fps={FPS},setsar=1[v{k}]")
         n = len(svgs)
         graph = ";".join(chains) + ";" + "".join(f"[v{k}]" for k in range(n)) + \

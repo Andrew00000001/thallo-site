@@ -41,42 +41,95 @@ Don't build anything: this session can't save files anywhere, so the work would 
 - **Every scene gets 2 shots (pictures)**, so the image changes every 4–5 seconds. That's 56–80
   pictures per video. Fast visual change keeps viewers watching.
 
-## 4. Draw each scene (SVG, 1920×1080)
+## 4. Draw each scene with the drawing kit (quality matters most here)
+**Use `doodle.py`, the channel's drawing kit.** Don't hand-write raw SVG shapes for things the kit
+already draws. Read `doodle.py` first: every function's docstring lists its options. Write one
+Python script, `episodes/YYYY-MM-DD_build.py`, that composes every shot with the kit and writes the
+episode JSON (`json.dump`), so quoting is never a problem.
+
+```python
+import sys, json; sys.path.insert(0, "scribble-age")
+from doodle import *
+seed(1)  # call seed(n) with a new n before each shot
+shot1 = scene(sky("day"), sun(1650, 170), hills(640), ground(800, "grass"), hut(330, 820),
+              person(760, 820, expression="shocked", pose="arms_up"), bird(1160, 820, 1.3, big=True),
+              banner("AUSTRALIA, 1932"))
+shot2_add = exclaim(930, 400) + shock_marks(760, 440)
+```
+
+The kit includes:
+- **Settings:** `sky` (day/dusk/night/storm), `sun`, `moon`, `cloud`, `hills`, `mountains`,
+  `ground` (grass/sand/snow/dirt/stone/floor), `water`.
+- **Buildings and nature:** `tree` (round/pine/palm), `rock`, `hut`, `house`, `castle`, `temple`,
+  `pyramid`, `boat`.
+- **People:** `person` (9 poses, 9 expressions, 5 outfits, hats, props, skin and hair options),
+  `mascot` (the caveman), `crowd`.
+- **Animals:** `animal` (dog/cat/horse/cow/sheep), `bird` (`big=True` for emu or ostrich).
+- **Props:** `spear`, `sword`, `shield`, `scroll`, `coin`, `crown`, `fire`.
+- **Text:** `banner`, `label`, `big_number`, `speech`, `text`.
+- **Effects:** `arrow`, `exclaim`, `question`, `shock_marks`, `sweat`, `sparkle`, `motion_lines`.
+- **Hand-drawn primitives** for anything topic-specific: `blob`, `line`, `poly`, `rect`, plus `shadow`
+  and `group`.
+
+**For objects the kit doesn't have** (a specific machine, map or artifact), build them from
+`blob`, `line` and `poly` with the same palette. Every custom object needs:
+- an ink outline,
+- a flat shadow shape on one side (a darker tone or black at 10% opacity),
+- at least 2 interior details (planks, rivets, stripes, texture strokes),
+- a ground `shadow()` if it stands on the ground.
+
+### Quality bar (every shot must pass all of these)
+1. **A real setting:** background (sky, wall or landscape), midground, and foreground. Never a
+   character floating on a blank page. Plain cream is allowed only for a big-number or title card,
+   and even then add supporting doodles.
+2. **Life:** characters have an expression and a pose that act out the line being spoken. Vary
+   poses and expressions from shot to shot.
+3. **Detail:** at least 6 drawn elements per full shot (for example sky, ground, building, 2 characters,
+   a prop and a label). Use period-accurate clothes, buildings and props (`outfit`, `hat`, `prop`).
+4. **Composition:** the main subject is big and clear (characters at `s=1.0` to `1.4` when they're
+   the focus). Use the rule of thirds. No large empty areas. Nothing important below y=840, where the
+   captions go. Labels never overlap figures.
+5. **Consistency:** the same character looks the same all video (same skin, hair, outfit and colors).
+   Keep a dict of each recurring character's `person()` settings and reuse it.
+6. **Variety:** mix wide establishing shots, medium shots and close-ups (a person at `s=2.2`,
+   partly off-frame, for reactions). Change location or angle often.
+
+### Shots
 Each scene has `"shots"`: exactly 2 pictures. The builder switches pictures on a spoken word,
 halfway through the scene's narration. Each shot is one of these:
-- `{"svg": "<svg ...>"}`: a complete new picture (a new angle, close-up or location).
-- `{"add": "<g>...</g>"}`: SVG elements drawn **on top of the previous shot**. This is a cheap reveal
-  (a label pops in, an arrow appears, a character reacts, a number lands). Use `add` for about
-  half of all second shots to save effort. The rest should be a full new picture.
+- `{"svg": full scene}`: a new picture (a new angle, close-up or location).
+- `{"add": fragments}`: kit fragments drawn **on top of the previous shot** (a reaction, label, arrow,
+  number or character entering). Use `add` for about half of all second shots. The rest should be
+  full new pictures.
+
 Make shot 2 match the second half of the narration. Never repeat shot 1 unchanged.
+The mascot opens and closes each video.
 
-Style rules, so every video looks like the same channel:
-- Root: `<svg xmlns='http://www.w3.org/2000/svg' width='1920' height='1080'>`.
-- Background `#FFF8EC` (cream). Accent `#F6A21E` (amber). Skin `#FFD9B0`.
-  Ink `#111`. Use at most 3 other flat colors per scene.
-- Thick black outlines: `stroke='#111' stroke-width='8'`, round caps and joins.
-  Flat fills, no gradients, no photos, no external images.
-- People: stick figures with big round peach heads, dot eyes, simple mouths.
-  The channel mascot, a caveman with messy dark hair and a brown fur tunic,
-  opens and closes each video.
-- Labels and dates: `font-family='Patrick Hand'`, 60–220 px, only a few words.
-- Keep everything important **above y=840**. Captions burn into the bottom 220 px and will
-  cover any label or figure there.
-- Don't let labels overlap figures. Leave clear space around every text block.
-- One clear idea per scene. Show what the narration says (a map, an object,
-  a character reacting, a big number).
-- Use single quotes inside SVG attributes so it embeds cleanly in JSON.
+### Self-review (required)
+Render every shot to PNG (cairosvg, 960×540) and tile them into contact sheets of 8. **Look at
+every sheet.** Rate each shot 1–5 against the quality bar, then redraw every shot scored under 4:
+- broken or overlapping shapes,
+- tiny or unclear subjects,
+- empty backgrounds,
+- mismatched characters,
+- text colliding with drawings.
 
-Thumbnail (`thumbnail_svg`, 1280×720). cairosvg ignores `paint-order`, so for outlined text draw
-the same text twice: first with a thick stroke, then the fill on top. amber or bold background, 2–5 huge words
-in Patrick Hand with a thick black stroke, plus one big doodle (a character with a
-strong emotion). It must be readable at phone size.
+Repeat until all shots score 4 or 5. Mention the average score in your report.
+
+### Thumbnail (`thumbnail_svg`)
+Build it with the kit and render it at 1280×720 by changing the root to
+`width="1280" height="720" viewBox="0 0 1920 1080"`. It needs:
+- a bold amber or high-contrast background,
+- 2–5 huge words (`text(..., size=170–230, outline="#fff")`),
+- one large character (at `s=1.6` to `2.2`) with a strong emotion, plus the story's key object.
+
+It must be readable at phone size. Check it at 320×180 before you finish.
 
 ## 5. Save the episode
 Write `scribble-age/episodes/YYYY-MM-DD.json` (today's date, America/Detroit):
 ```json
 {"title": "...", "description": "...", "tags": ["..."], "topic": "...",
- "thumbnail_svg": "<svg ...>", "scenes": [{"narration": "...", "shots": [{"svg": "<svg ...>"}, {"add": "<g>...</g>"}]}]}
+ "thumbnail_svg": "<svg ...>", "scenes": [{"narration": "...", "shots": [{"svg": shot1}, {"add": shot2_add}]}]}
 ```
 - Title: under 70 characters, curiosity-driven, true (no clickbait lies).
 - Description: 2–3 sentence summary, then 2–4 sources (book or museum names,
