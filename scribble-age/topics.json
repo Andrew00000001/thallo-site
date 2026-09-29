@@ -1,0 +1,958 @@
+{
+ "start_date": "2026-09-30",
+ "note": "Each era list is interleaved round-robin; topics.py maps each date to one topic, so no state is needed. 'k' = distinctive keywords used to detect a topic already on the channel.",
+ "done": [
+  {
+   "t": "The Great Emu War of 1932",
+   "k": [
+    "emu"
+   ]
+  },
+  {
+   "t": "The War of the Bucket (1325)",
+   "k": [
+    "bucket"
+   ]
+  },
+  {
+   "t": "The Dancing Plague of 1518",
+   "k": [
+    "dancing",
+    "1518"
+   ]
+  }
+ ],
+ "eras": {
+  "ancient": [
+   {
+    "t": "Ötzi the Iceman: a 5,300-year-old murder mystery found in the Alps in 1991",
+    "k": [
+     "otzi",
+     "ötzi",
+     "iceman"
+    ]
+   },
+   {
+    "t": "Hatshepsut: the woman who ruled Egypt as pharaoh",
+    "k": [
+     "hatshepsut"
+    ]
+   },
+   {
+    "t": "Julius Caesar is kidnapped by pirates (and comes back for them)",
+    "k": [
+     "kidnapped"
+    ]
+   },
+   {
+    "t": "The Antikythera mechanism: an ancient Greek computer found in a shipwreck",
+    "k": [
+     "antikythera"
+    ]
+   },
+   {
+    "t": "Diogenes: the philosopher who lived in a giant jar",
+    "k": [
+     "diogenes"
+    ]
+   },
+   {
+    "t": "The Roman Empire is sold at auction to Didius Julianus (193 AD)",
+    "k": [
+     "auction",
+     "didius"
+    ]
+   },
+   {
+    "t": "Hannibal crosses the Alps with war elephants (218 BC)",
+    "k": [
+     "hannibal",
+     "elephants"
+    ]
+   },
+   {
+    "t": "Göbekli Tepe: a temple built by hunter-gatherers before farming",
+    "k": [
+     "gobekli",
+     "göbekli"
+    ]
+   },
+   {
+    "t": "The eruption of Vesuvius and the last day of Pompeii (79 AD)",
+    "k": [
+     "pompeii",
+     "vesuvius"
+    ]
+   },
+   {
+    "t": "The Terracotta Army of China's first emperor",
+    "k": [
+     "terracotta"
+    ]
+   },
+   {
+    "t": "Qin Shi Huang's deadly quest for immortality",
+    "k": [
+     "qin shi",
+     "immortality"
+    ]
+   },
+   {
+    "t": "Cleopatra lived closer in time to the Moon landing than to the building of the Great Pyramid",
+    "k": [
+     "cleopatra"
+    ]
+   },
+   {
+    "t": "Archimedes defends Syracuse with giant claws and war machines",
+    "k": [
+     "archimedes",
+     "syracuse"
+    ]
+   },
+   {
+    "t": "Caligula and his horse Incitatus",
+    "k": [
+     "caligula",
+     "incitatus"
+    ]
+   },
+   {
+    "t": "Who really built the pyramids: the workers' town at Giza",
+    "k": [
+     "giza"
+    ]
+   },
+   {
+    "t": "The Battle of Thermopylae: the 300 Spartans (480 BC)",
+    "k": [
+     "thermopylae",
+     "spartan"
+    ]
+   },
+   {
+    "t": "Why Roman concrete lasts 2,000 years",
+    "k": [
+     "concrete"
+    ]
+   },
+   {
+    "t": "The ancient Olympic Games were wilder than you think",
+    "k": [
+     "olympic"
+    ]
+   },
+   {
+    "t": "The Rosetta Stone and the race to crack hieroglyphs (1822)",
+    "k": [
+     "rosetta",
+     "hieroglyph"
+    ]
+   },
+   {
+    "t": "Stonehenge: how Stone Age people moved the stones",
+    "k": [
+     "stonehenge"
+    ]
+   },
+   {
+    "t": "The discovery of Tutankhamun's tomb and the 'curse' (1922)",
+    "k": [
+     "tutankhamun",
+     "king tut"
+    ]
+   },
+   {
+    "t": "Boudica: the queen who burned Roman London",
+    "k": [
+     "boudica"
+    ]
+   },
+   {
+    "t": "The Code of Hammurabi: some of the first written laws",
+    "k": [
+     "hammurabi"
+    ]
+   },
+   {
+    "t": "The Bronze Age collapse and the mysterious Sea Peoples",
+    "k": [
+     "bronze age",
+     "sea peoples"
+    ]
+   },
+   {
+    "t": "The Great Fire of Rome and Emperor Nero (64 AD)",
+    "k": [
+     "nero",
+     "fire of rome"
+    ]
+   },
+   {
+    "t": "Easter Island's moai: how the giant statues may have 'walked'",
+    "k": [
+     "easter island",
+     "moai"
+    ]
+   },
+   {
+    "t": "The Nazca Lines: giant drawings only visible from above",
+    "k": [
+     "nazca"
+    ]
+   },
+   {
+    "t": "The Library of Alexandria: what really happened to it",
+    "k": [
+     "alexandria"
+    ]
+   },
+   {
+    "t": "The Oracle of Delphi: the priestess who advised kings",
+    "k": [
+     "delphi",
+     "oracle"
+    ]
+   },
+   {
+    "t": "The Library of Ashurbanipal: 30,000 clay tablets",
+    "k": [
+     "ashurbanipal"
+    ]
+   },
+   {
+    "t": "Petra: the city carved into rock",
+    "k": [
+     "petra"
+    ]
+   },
+   {
+    "t": "Gladiators: what the fights were really like",
+    "k": [
+     "gladiator"
+    ]
+   },
+   {
+    "t": "The Trojan Horse: legend versus archaeology",
+    "k": [
+     "trojan",
+     "troy"
+    ]
+   }
+  ],
+  "medieval": [
+   {
+    "t": "The Cadaver Synod: when a dead pope was put on trial (897)",
+    "k": [
+     "cadaver",
+     "dead pope"
+    ]
+   },
+   {
+    "t": "Mansa Musa: the richest man in history and his journey to Mecca (1324)",
+    "k": [
+     "mansa musa"
+    ]
+   },
+   {
+    "t": "The Vikings reach North America 500 years before Columbus",
+    "k": [
+     "vinland",
+     "anse aux meadows",
+     "leif"
+    ]
+   },
+   {
+    "t": "Medieval animal trials: when pigs went to court",
+    "k": [
+     "animal trial",
+     "pig on trial",
+     "pigs on trial"
+    ]
+   },
+   {
+    "t": "The Mongol Yam: Genghis Khan's express mail system",
+    "k": [
+     "mongol yam",
+     "genghis"
+    ]
+   },
+   {
+    "t": "The Hundred Years' War that lasted 116 years",
+    "k": [
+     "hundred years"
+    ]
+   },
+   {
+    "t": "The kamikaze typhoons that saved Japan from the Mongols (1274 and 1281)",
+    "k": [
+     "kamikaze",
+     "typhoon"
+    ]
+   },
+   {
+    "t": "Greek fire: the Byzantine secret weapon nobody can recreate",
+    "k": [
+     "greek fire"
+    ]
+   },
+   {
+    "t": "The Fall of Constantinople: ships dragged over land (1453)",
+    "k": [
+     "constantinople"
+    ]
+   },
+   {
+    "t": "The sinking of the White Ship and the crisis it caused (1120)",
+    "k": [
+     "white ship"
+    ]
+   },
+   {
+    "t": "Richard the Lionheart is captured and held for a giant ransom",
+    "k": [
+     "lionheart",
+     "ransom"
+    ]
+   },
+   {
+    "t": "The Lewis Chessmen: a medieval treasure found on a Scottish beach",
+    "k": [
+     "lewis chess",
+     "chessmen"
+    ]
+   },
+   {
+    "t": "Friday the 13th: the day the Knights Templar were arrested (1307)",
+    "k": [
+     "templar"
+    ]
+   },
+   {
+    "t": "Joan of Arc: the teenager who led an army",
+    "k": [
+     "joan of arc"
+    ]
+   },
+   {
+    "t": "The Battle of Agincourt (1415)",
+    "k": [
+     "agincourt"
+    ]
+   },
+   {
+    "t": "The Sutton Hoo ship burial, found in 1939",
+    "k": [
+     "sutton hoo"
+    ]
+   },
+   {
+    "t": "Gutenberg's printing press changes the world",
+    "k": [
+     "gutenberg",
+     "printing press"
+    ]
+   },
+   {
+    "t": "King John and the Magna Carta (1215)",
+    "k": [
+     "magna carta"
+    ]
+   },
+   {
+    "t": "The Viking raid on Lindisfarne (793)",
+    "k": [
+     "lindisfarne"
+    ]
+   },
+   {
+    "t": "The Black Death (1347 to 1351)",
+    "k": [
+     "black death",
+     "bubonic"
+    ]
+   },
+   {
+    "t": "The Children's Crusade: legend versus the historical record (1212)",
+    "k": [
+     "children's crusade"
+    ]
+   },
+   {
+    "t": "Marco Polo's journey to the court of Kublai Khan",
+    "k": [
+     "marco polo"
+    ]
+   },
+   {
+    "t": "Tenochtitlan: the Aztec city built on a lake",
+    "k": [
+     "tenochtitlan",
+     "aztec"
+    ]
+   },
+   {
+    "t": "The Inca roads and quipu, knotted-string records",
+    "k": [
+     "inca",
+     "quipu"
+    ]
+   },
+   {
+    "t": "The Pied Piper of Hamelin and the real record from 1284",
+    "k": [
+     "pied piper",
+     "hamelin"
+    ]
+   },
+   {
+    "t": "The Battle of Hastings (1066)",
+    "k": [
+     "hastings"
+    ]
+   },
+   {
+    "t": "The Bayeux Tapestry (which is actually an embroidery)",
+    "k": [
+     "bayeux"
+    ]
+   },
+   {
+    "t": "Cahokia: the ancient city on the Mississippi",
+    "k": [
+     "cahokia"
+    ]
+   },
+   {
+    "t": "Great Zimbabwe: the stone city of southern Africa",
+    "k": [
+     "great zimbabwe"
+    ]
+   },
+   {
+    "t": "The manuscripts of Timbuktu",
+    "k": [
+     "timbuktu"
+    ]
+   },
+   {
+    "t": "The Venetian Arsenal: a medieval assembly line for ships",
+    "k": [
+     "venetian arsenal"
+    ]
+   }
+  ],
+  "early_modern": [
+   {
+    "t": "Tulip mania: when a flower cost as much as a house (1637)",
+    "k": [
+     "tulip"
+    ]
+   },
+   {
+    "t": "Peter the Great's beard tax (1698)",
+    "k": [
+     "beard"
+    ]
+   },
+   {
+    "t": "The Vasa: the warship that sank 1,300 metres into its first voyage (1628)",
+    "k": [
+     "vasa"
+    ]
+   },
+   {
+    "t": "The lost colony of Roanoke and the word CROATOAN",
+    "k": [
+     "roanoke",
+     "croatoan"
+    ]
+   },
+   {
+    "t": "Yasuke: the African samurai in 16th-century Japan",
+    "k": [
+     "yasuke",
+     "samurai"
+    ]
+   },
+   {
+    "t": "Isaac Newton's plague years (1665 to 1666)",
+    "k": [
+     "newton"
+    ]
+   },
+   {
+    "t": "The Great Fire of London (1666)",
+    "k": [
+     "fire of london"
+    ]
+   },
+   {
+    "t": "The Mechanical Turk: the chess-playing machine that fooled Europe (1770)",
+    "k": [
+     "mechanical turk",
+     "chess machine"
+    ]
+   },
+   {
+    "t": "Ornamental hermits: when rich people hired hermits for their gardens",
+    "k": [
+     "hermit"
+    ]
+   },
+   {
+    "t": "The Defenestration of Prague: thrown out a window and survived (1618)",
+    "k": [
+     "defenestration",
+     "prague"
+    ]
+   },
+   {
+    "t": "Blackbeard: the pirate who built his own legend",
+    "k": [
+     "blackbeard"
+    ]
+   },
+   {
+    "t": "The longitude problem and John Harrison's sea clock",
+    "k": [
+     "longitude",
+     "harrison"
+    ]
+   },
+   {
+    "t": "Magellan's voyage around the world (1519 to 1522)",
+    "k": [
+     "magellan"
+    ]
+   },
+   {
+    "t": "The South Sea Bubble (1720)",
+    "k": [
+     "south sea"
+    ]
+   },
+   {
+    "t": "The Gunpowder Plot (1605)",
+    "k": [
+     "gunpowder"
+    ]
+   },
+   {
+    "t": "Galileo on trial (1633)",
+    "k": [
+     "galileo"
+    ]
+   },
+   {
+    "t": "The Spanish Armada (1588)",
+    "k": [
+     "armada"
+    ]
+   },
+   {
+    "t": "The Mary Rose: Henry VIII's warship that sank in front of him (1545)",
+    "k": [
+     "mary rose"
+    ]
+   },
+   {
+    "t": "Admiral Yi and the turtle ships (1592)",
+    "k": [
+     "turtle ship",
+     "admiral yi"
+    ]
+   },
+   {
+    "t": "The Salem witch trials (1692)",
+    "k": [
+     "salem"
+    ]
+   },
+   {
+    "t": "The Mayflower voyage (1620)",
+    "k": [
+     "mayflower"
+    ]
+   },
+   {
+    "t": "Versailles: the strange rules of Louis XIV's court",
+    "k": [
+     "versailles"
+    ]
+   },
+   {
+    "t": "Marie Antoinette never said 'let them eat cake'",
+    "k": [
+     "marie antoinette",
+     "eat cake"
+    ]
+   },
+   {
+    "t": "The storming of the Bastille freed only seven prisoners (1789)",
+    "k": [
+     "bastille"
+    ]
+   },
+   {
+    "t": "Napoleon wasn't short",
+    "k": [
+     "napoleon"
+    ]
+   },
+   {
+    "t": "Edward Jenner and the first vaccine (1796)",
+    "k": [
+     "jenner",
+     "vaccine",
+     "smallpox"
+    ]
+   },
+   {
+    "t": "Benjamin Franklin's kite experiment (1752)",
+    "k": [
+     "franklin",
+     "kite"
+    ]
+   },
+   {
+    "t": "The building of the Taj Mahal",
+    "k": [
+     "taj mahal"
+    ]
+   },
+   {
+    "t": "Henry VIII's six wives",
+    "k": [
+     "henry viii",
+     "six wives"
+    ]
+   }
+  ],
+  "1800s": [
+   {
+    "t": "The London Beer Flood (1814)",
+    "k": [
+     "beer flood"
+    ]
+   },
+   {
+    "t": "The Pig War: the 1859 standoff whose only casualty was a pig",
+    "k": [
+     "pig war"
+    ]
+   },
+   {
+    "t": "The Anglo-Zanzibar War: the shortest war in history (1896)",
+    "k": [
+     "zanzibar",
+     "shortest war"
+    ]
+   },
+   {
+    "t": "The Year Without a Summer (1816)",
+    "k": [
+     "without a summer",
+     "1816",
+     "tambora"
+    ]
+   },
+   {
+    "t": "Emperor Norton: the man who declared himself Emperor of the United States (1859)",
+    "k": [
+     "emperor norton"
+    ]
+   },
+   {
+    "t": "The Great Moon Hoax (1835)",
+    "k": [
+     "moon hoax"
+    ]
+   },
+   {
+    "t": "The Carrington Event: the solar storm that set telegraphs sparking (1859)",
+    "k": [
+     "carrington",
+     "solar storm"
+    ]
+   },
+   {
+    "t": "The Kentucky Meat Shower (1876)",
+    "k": [
+     "meat shower"
+    ]
+   },
+   {
+    "t": "The Great Stink of London (1858)",
+    "k": [
+     "great stink"
+    ]
+   },
+   {
+    "t": "Phineas Gage: the man who survived an iron rod through his head (1848)",
+    "k": [
+     "phineas",
+     "gage"
+    ]
+   },
+   {
+    "t": "The Pony Express lasted only 18 months",
+    "k": [
+     "pony express"
+    ]
+   },
+   {
+    "t": "The eruption of Krakatoa, heard thousands of miles away (1883)",
+    "k": [
+     "krakatoa"
+    ]
+   },
+   {
+    "t": "The first transatlantic telegraph cable, and how it failed (1858)",
+    "k": [
+     "telegraph cable",
+     "transatlantic"
+    ]
+   },
+   {
+    "t": "The Mary Celeste: the ship found sailing with no one aboard (1872)",
+    "k": [
+     "mary celeste"
+    ]
+   },
+   {
+    "t": "Nellie Bly races around the world in 72 days (1889)",
+    "k": [
+     "nellie bly"
+    ]
+   },
+   {
+    "t": "New York's secret pneumatic subway (1870)",
+    "k": [
+     "pneumatic"
+    ]
+   },
+   {
+    "t": "Ignaz Semmelweis and the fight to make doctors wash their hands (1847)",
+    "k": [
+     "semmelweis",
+     "handwashing",
+     "wash their hands"
+    ]
+   },
+   {
+    "t": "The world's first photograph",
+    "k": [
+     "first photograph",
+     "niepce",
+     "niépce"
+    ]
+   },
+   {
+    "t": "The Great Chicago Fire and the myth of Mrs. O'Leary's cow (1871)",
+    "k": [
+     "chicago fire",
+     "o'leary"
+    ]
+   },
+   {
+    "t": "The golden spike and the first transcontinental railroad (1869)",
+    "k": [
+     "golden spike",
+     "transcontinental"
+    ]
+   },
+   {
+    "t": "Ada Lovelace: the first computer programmer",
+    "k": [
+     "lovelace"
+    ]
+   },
+   {
+    "t": "The California Gold Rush (1848)",
+    "k": [
+     "gold rush"
+    ]
+   },
+   {
+    "t": "The vanishing of the Flannan Isles lighthouse keepers (1900)",
+    "k": [
+     "flannan",
+     "lighthouse"
+    ]
+   },
+   {
+    "t": "The Dead Sea Scrolls, found by a shepherd",
+    "k": [
+     "dead sea scrolls"
+    ]
+   }
+  ],
+  "1900s": [
+   {
+    "t": "The Boston Molasses Flood (1919)",
+    "k": [
+     "molasses"
+    ]
+   },
+   {
+    "t": "Wojtek: the bear who served in the Polish army",
+    "k": [
+     "wojtek"
+    ]
+   },
+   {
+    "t": "The man who sold the Eiffel Tower, twice (1925)",
+    "k": [
+     "eiffel",
+     "lustig"
+    ]
+   },
+   {
+    "t": "Operation Mincemeat: the dead man who fooled Hitler (1943)",
+    "k": [
+     "mincemeat"
+    ]
+   },
+   {
+    "t": "The Christmas Truce of 1914",
+    "k": [
+     "christmas truce"
+    ]
+   },
+   {
+    "t": "Hiroo Onoda: the soldier who kept fighting until 1974",
+    "k": [
+     "onoda"
+    ]
+   },
+   {
+    "t": "The Ghost Army: artists who fooled an army with inflatable tanks (1944)",
+    "k": [
+     "ghost army",
+     "inflatable"
+    ]
+   },
+   {
+    "t": "The Tanganyika laughter epidemic (1962)",
+    "k": [
+     "laughter"
+    ]
+   },
+   {
+    "t": "Sergeant Stubby: the dog who became a war hero",
+    "k": [
+     "stubby"
+    ]
+   },
+   {
+    "t": "The Tunguska explosion (1908)",
+    "k": [
+     "tunguska"
+    ]
+   },
+   {
+    "t": "Shackleton's Endurance expedition (1914 to 1916)",
+    "k": [
+     "shackleton",
+     "endurance"
+    ]
+   },
+   {
+    "t": "The Wright brothers' first flight lasted 12 seconds (1903)",
+    "k": [
+     "wright brothers",
+     "first flight"
+    ]
+   },
+   {
+    "t": "The Night Witches: the Soviet women who flew night bombing raids",
+    "k": [
+     "night witches"
+    ]
+   },
+   {
+    "t": "The Great Escape from Stalag Luft III (1944)",
+    "k": [
+     "great escape",
+     "stalag"
+    ]
+   },
+   {
+    "t": "Apollo 11's computer alarms during the Moon landing (1969)",
+    "k": [
+     "apollo 11",
+     "1202"
+    ]
+   },
+   {
+    "t": "Apollo 13: 'Houston, we've had a problem' (1970)",
+    "k": [
+     "apollo 13"
+    ]
+   },
+   {
+    "t": "The accidental discovery of penicillin (1928)",
+    "k": [
+     "penicillin"
+    ]
+   },
+   {
+    "t": "The Radium Girls",
+    "k": [
+     "radium"
+    ]
+   },
+   {
+    "t": "Harry Houdini's greatest escapes",
+    "k": [
+     "houdini"
+    ]
+   },
+   {
+    "t": "Prohibition and the speakeasies (1920 to 1933)",
+    "k": [
+     "prohibition",
+     "speakeasy"
+    ]
+   },
+   {
+    "t": "The Dust Bowl",
+    "k": [
+     "dust bowl"
+    ]
+   },
+   {
+    "t": "The Hindenburg disaster (1937)",
+    "k": [
+     "hindenburg"
+    ]
+   },
+   {
+    "t": "The Kon-Tiki raft expedition across the Pacific (1947)",
+    "k": [
+     "kon-tiki",
+     "kon tiki"
+    ]
+   },
+   {
+    "t": "The first ascent of Mount Everest (1953)",
+    "k": [
+     "everest"
+    ]
+   },
+   {
+    "t": "The Titanic's maiden voyage (1912)",
+    "k": [
+     "titanic"
+    ]
+   },
+   {
+    "t": "Rasputin: the legends and the facts",
+    "k": [
+     "rasputin"
+    ]
+   }
+  ]
+ }
+}

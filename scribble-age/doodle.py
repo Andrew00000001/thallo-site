@@ -239,7 +239,8 @@ def sky(kind="day", horizon=H):
 
 
 def glow(x, y, r, color="#FFE9A8", rings=5, strength=0.22):
-    """Soft storybook light: stacked translucent circles (no gradients needed)."""
+    """Soft storybook light: stacked translucent circles (no gradients needed).
+    Draw it BEFORE (behind) the object it lights, or it will wash the object out."""
     return "".join(f'<circle cx="{_f(x)}" cy="{_f(y)}" r="{_f(r * (1 + i * 0.45))}" fill="{color}" opacity="{strength / (i + 1):.3f}"/>'
                    for i in range(rings - 1, -1, -1))
 
@@ -278,7 +279,8 @@ def mountains(y=720, fill="#9DA7B5", snow="#fff", peaks=((300, 330), (720, 260),
     out = ""
     for px, ph in peaks:
         base = 330
-        out += poly([(px - base, y), (px, ph), (px + base, y)], fill=fill, width=8, wobble=3)
+        out += poly([(px - base - 60, y + 90), (px - base, y), (px, ph), (px + base, y), (px + base + 60, y + 90)],
+                    fill=fill, width=8, wobble=3)  # extends below the horizon so no sky gap shows above ground()
         out += poly([(px - base * 0.28, ph + (y - ph) * 0.28), (px, ph),
                      (px + base * 0.28, ph + (y - ph) * 0.28), (px + 30, ph + (y - ph) * 0.22),
                      (px - 10, ph + (y - ph) * 0.3)], fill=snow, width=6, wobble=2)
@@ -730,3 +732,9 @@ def scene(*parts, bg=CREAM, w=W, h=H, scene_seed=None):
 def paper_frame():
     """Subtle inner border that makes a frame feel like a page in a sketchbook."""
     return rect(18, 18, W - 36, H - 36, "none", "#000", 4, 1.5).replace('stroke="#000"', 'stroke="#000" stroke-opacity="0.12"')
+
+
+def thumbnail(*parts, bg=AMBER):
+    """A 1280x720 thumbnail drawn on the same 1920x1080 coordinates as scenes."""
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 {W} {H}">'
+            f'<rect width="{W}" height="{H}" fill="{bg}"/>' + "".join(parts) + "</svg>")
