@@ -97,7 +97,8 @@ editing, not for bare re-uploads), so fill them all in.
 - `tags`: 8–12 relevant tags.
 - **Accuracy:** the headline, cards, pop-ups, title and description may only claim what you can see
   or hear in the clip or its Twitch title. Names, places and numbers must be certain; if not, leave
-  them out. No invented drama.
+  them out. No invented drama, and never put words in anyone's mouth: don't write "CHAT: …" or quote
+  a person unless those exact words are on screen or in the audio.
 
 **Story Short (one per run when you can).** If at least 4 clips pass the checks, make one of the
 run's Shorts a story: 2–3 clips from the same stream or the same theme, in the order they happened,

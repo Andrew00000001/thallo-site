@@ -21,6 +21,9 @@ CHUNK = 16 * 1024 * 1024
 SLUG = re.compile(r"twitch\.tv/[\w-]+/clip/([\w-]+)")
 TZ = ZoneInfo("America/Detroit")
 MIN_GAP = datetime.timedelta(hours=2)  # auto-scheduled Shorts go live at least this far apart
+# Go-live times this run already booked. A fresh upload can take a while to show up in the
+# channel's uploads list, so without this two uploads in a row could land on the same slot.
+BOOKED = HERE / ".booked.json"
 
 
 class UploadError(Exception):
@@ -90,19 +93,17 @@ def recent_videos(auth, uploads, max_pages=4):
 
 
 def posted():
-    """(clip slugs, clip creation times) already on the channels. Slugs come from the "Clip:" line
-    in each description and times from recordingDate, so no state has to live in git."""
-    slugs, moments = set(), []
+    """Twitch clip slugs already on the channels, read from each description's "Clip:" lines, so no
+    state has to live in git. (YouTube keeps only the date of recordingDate, so find_clips gets
+    each posted clip's exact time from the Twitch clip lists instead.)"""
+    slugs = set()
     for ch in CHANNELS:
         if not has_token(ch):
             continue
         auth = access_token(ch)
         for v in recent_videos(auth, check_channel(ch, auth)):
             slugs.update(SLUG.findall(v["snippet"].get("description", "")))
-            rec = v.get("recordingDetails", {}).get("recordingDate")
-            if rec:
-                moments.append(datetime.datetime.fromisoformat(rec.replace("Z", "+00:00")).timestamp())
-    return slugs, moments
+    return slugs
 
 
 def setup_channel():
@@ -144,6 +145,8 @@ def auto_slot(auth, uploads):
     Short already live or scheduled on the channel, so runs at any hour never pile Shorts up."""
     now = datetime.datetime.now(TZ)
     latest = now - MIN_GAP
+    for when in booked():
+        latest = max(latest, datetime.datetime.fromisoformat(when.replace("Z", "+00:00")).astimezone(TZ))
     for v in recent_videos(auth, uploads, max_pages=1):
         st, sn = v["status"], v["snippet"]
         when = st.get("publishAt") if st.get("privacyStatus") == "private" else (
@@ -158,6 +161,13 @@ def auto_slot(auth, uploads):
             if t >= earliest:
                 return utc(t)
     raise UploadError("no free publish slot in the next 30 days")
+
+
+def booked():
+    try:
+        return json.loads(BOOKED.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
 
 
 def upload_one(ch, sh, video, privacy, publish_at):
@@ -207,6 +217,9 @@ def upload_one(ch, sh, video, privacy, publish_at):
             pos = int(r.headers["Range"].split("-")[1]) + 1 if "Range" in r.headers else 0
             f.seek(pos)
     vid = result["id"]
+    live = result.get("status", {}).get("publishAt")
+    if live:
+        BOOKED.write_text(json.dumps(booked() + [live]), encoding="utf-8")
     return {"channel": ch["name"], "video_id": vid, "url": f"https://youtube.com/shorts/{vid}",
             "channel_id": result.get("snippet", {}).get("channelId"),
             "privacy": result.get("status", {}).get("privacyStatus"),

@@ -39,9 +39,7 @@ def main():
     posted = {h["slug"] for h in history}
     moments = [h["clip_created"] for h in history if h.get("clip_created")]
     from upload import posted as on_channels  # the channels themselves; runs can't push history.json
-    slugs, times = on_channels()
-    posted |= slugs
-    moments += times
+    posted |= on_channels()
     # Whole streams we never clip, e.g. network co-productions (config.json "skip_windows").
     windows = [(parse_utc(w["from"]), parse_utc(w["to"])) for w in CONFIG.get("skip_windows", [])]
 
@@ -55,10 +53,13 @@ def main():
     # Fresh clips first (last 24 hours, then 7 days). When those run dry (the streamer is offline,
     # or everything fresh was used or rejected), go deep: the 30-day and all-time clip lists,
     # merged and ranked by views, so the channel falls back on the streamer's biggest moments.
-    fresh = [(rng, e) for rng in ("24hr", "7d") for e in list_clips(login, rng, 100) if usable(e)]
+    lists = {rng: list_clips(login, rng, limit) for rng, limit in (("24hr", 100), ("7d", 100), ("30d", 200), ("all", 300))}
+    # Exact times of clips we already posted, so other viewers' clips of the same moment are skipped.
+    moments += [e.get("timestamp") or 0 for lst in lists.values() for e in lst if slug_of(e["url"]) in posted]
+    fresh = [(rng, e) for rng in ("24hr", "7d") for e in lists[rng] if usable(e)]
     deep = []
     if len(fresh) < a.count:
-        deep = [(rng, e) for rng, limit in (("30d", 200), ("all", 300)) for e in list_clips(login, rng, limit) if usable(e)]
+        deep = [(rng, e) for rng in ("30d", "all") for e in lists[rng] if usable(e)]
         deep.sort(key=lambda x: -(x[1].get("view_count") or 0))
 
     picked, seen = [], set()
