@@ -78,6 +78,23 @@ The kit includes:
 - at least 2 interior details (planks, rivets, stripes, texture strokes),
 - a ground `shadow()` if it stands on the ground.
 
+### Animated-film appeal (the channel's look)
+The kit gives characters big sparkling eyes, rosy cheeks, soft rounded bodies, warm light and a
+storybook vignette. Direct each shot like a classic animated film:
+- **Acting:** exaggerate the emotion. Push poses (`arms_up`, `shrug`, `cheer`, `run`) and strong
+  expressions, and let characters react to each other.
+- **Appeal:** heroes and sympathetic people use `happy`, `thinking` or `shocked`, never `neutral` for long.
+- **Light and mood:** use `sky("golden")` or `sky("dusk")` with `sun()` for warm, hopeful beats,
+  `sky("night")` with `moon()` for danger or mystery, and `glow(x, y, r)` behind an important object
+  to make it feel magical.
+- **Staging:** one clear focal point per shot. Frame it with foreground elements (a tree, a rock
+  or a building edge at the side) for depth.
+- **Charm:** add small touches like a `sparkle()`, a bird or animal reacting, or `motion_lines` on
+  movement.
+
+This is inspired by classic animation principles only. **Never** draw, name or imitate actual
+Disney (or any studio's) characters, logos, castles or trademarks.
+
 ### Quality bar (every shot must pass all of these)
 1. **A real setting:** background (sky, wall or landscape), midground, and foreground. Never a
    character floating on a blank page. Plain cream is allowed only for a big-number or title card,

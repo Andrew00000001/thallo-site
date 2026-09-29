@@ -108,7 +108,11 @@ def paper_grain(w, h):
     """Soft paper texture, multiplied over every picture so frames feel drawn on paper."""
     if (w, h) not in _GRAIN:
         g = Image.effect_noise((w // 4, h // 4), 28).resize((w, h), Image.BICUBIC)
-        _GRAIN[(w, h)] = Image.merge("RGB", [g.point(lambda v: 235 + v * 20 // 255)] * 3)
+        grain = g.point(lambda v: 235 + v * 20 // 255)
+        # Storybook vignette: corners fall off gently toward warm shadow.
+        vig = Image.radial_gradient("L").resize((w, h)).point(lambda v: 255 - max(0, v - 150) * 70 // 105)
+        tone = ImageChops.multiply(grain, vig)
+        _GRAIN[(w, h)] = Image.merge("RGB", [tone, tone, tone.point(lambda v: v * 245 // 255)])
     return _GRAIN[(w, h)]
 
 

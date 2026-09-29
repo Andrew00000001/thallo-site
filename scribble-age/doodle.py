@@ -229,7 +229,7 @@ def fire(x, y, s=1.0):
 
 # ---------- sky and land ----------
 
-SKY = {"day": "#CFEAF5", "dusk": "#F7C59F", "night": "#27324A", "storm": "#9AA5AE", "paper": CREAM}
+SKY = {"golden": "#FBD9A0", "day": "#CFEAF5", "dusk": "#F7C59F", "night": "#27324A", "storm": "#9AA5AE", "paper": CREAM}
 
 
 def sky(kind="day", horizon=H):
@@ -238,15 +238,22 @@ def sky(kind="day", horizon=H):
                 for _ in range(60)) if kind == "night" else "")
 
 
+def glow(x, y, r, color="#FFE9A8", rings=5, strength=0.22):
+    """Soft storybook light: stacked translucent circles (no gradients needed)."""
+    return "".join(f'<circle cx="{_f(x)}" cy="{_f(y)}" r="{_f(r * (1 + i * 0.45))}" fill="{color}" opacity="{strength / (i + 1):.3f}"/>'
+                   for i in range(rings - 1, -1, -1))
+
+
 def sun(x, y, r=90, fill="#FFD23F"):
     rays = "".join(line([(x + (r + 25) * math.cos(a), y + (r + 25) * math.sin(a)),
                          (x + (r + 65) * math.cos(a), y + (r + 65) * math.sin(a))], width=7, wobble=0.5)
                    for a in [i * math.pi / 6 for i in range(12)])
-    return rays + blob(x, y, r, r, fill=fill, width=8, wobble=0.02)
+    return glow(x, y, r * 1.3) + rays + blob(x, y, r, r, fill=fill, width=8, wobble=0.02) + \
+        f'<path d="M{_f(x - r * 0.55)},{_f(y - r * 0.2)} Q{_f(x - r * 0.45)},{_f(y - r * 0.55)} {_f(x - r * 0.1)},{_f(y - r * 0.6)}" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity="0.7"/>'
 
 
 def moon(x, y, r=80):
-    return blob(x, y, r, r, fill="#FFF3C4", width=7, wobble=0.02) + \
+    return glow(x, y, r * 1.2, "#FFF6D0", strength=0.16) + blob(x, y, r, r, fill="#FFF3C4", width=7, wobble=0.02) + \
         f'<circle cx="{_f(x + r * 0.35)}" cy="{_f(y - r * 0.2)}" r="{_f(r * 0.18)}" fill="#E9DDA8"/>'
 
 
@@ -487,22 +494,40 @@ def bird(x, y, s=1.0, fill="#6E7B8B", big=False):
 
 # ---------- people ----------
 
-def _face(cx, cy, r, expression, facing):
+def _face(cx, cy, r, expression, facing, lashes=False):
     """Eyes, brows and mouth. expression: neutral, happy, sad, shocked, angry, scared, smug, thinking, laughing."""
     ex = r * 0.34
     fx = r * 0.12 * facing
     out = ""
     eye_r = r * 0.085
+    ey = cy - r * 0.1
+
+    def big_eye(ex_, scale=1.0, look=0.0):
+        # Animated-film eyes: tall oval, dark iris, two white catchlights.
+        rx, ry = r * 0.13 * scale, r * 0.19 * scale
+        e = f'<ellipse cx="{_f(ex_)}" cy="{_f(ey)}" rx="{_f(rx)}" ry="{_f(ry)}" fill="{INK}"/>'
+        e += f'<ellipse cx="{_f(ex_ + rx * 0.35 + look)}" cy="{_f(ey - ry * 0.4)}" rx="{_f(rx * 0.38)}" ry="{_f(ry * 0.3)}" fill="#fff"/>'
+        return e + f'<circle cx="{_f(ex_ - rx * 0.35)}" cy="{_f(ey + ry * 0.45)}" r="{_f(rx * 0.16)}" fill="#fff"/>'
+
     if expression == "laughing":
         for sx in (-1, 1):
-            out += line([(cx + fx + sx * ex - 10, cy - r * 0.08), (cx + fx + sx * ex, cy - r * 0.18), (cx + fx + sx * ex + 10, cy - r * 0.08)], width=5, wobble=0.3)
-    elif expression == "shocked" or expression == "scared":
+            out += line([(cx + fx + sx * ex - 12, ey + 4), (cx + fx + sx * ex, ey - r * 0.1), (cx + fx + sx * ex + 12, ey + 4)], width=6, wobble=0.3)
+    elif expression in ("shocked", "scared"):
         for sx in (-1, 1):
-            out += f'<circle cx="{_f(cx + fx + sx * ex)}" cy="{_f(cy - r * 0.12)}" r="{_f(eye_r * 1.7)}" fill="#fff" stroke="{INK}" stroke-width="4"/>'
-            out += f'<circle cx="{_f(cx + fx + sx * ex)}" cy="{_f(cy - r * 0.12)}" r="{_f(eye_r * 0.8)}" fill="{INK}"/>'
+            out += f'<ellipse cx="{_f(cx + fx + sx * ex)}" cy="{_f(ey)}" rx="{_f(r * 0.17)}" ry="{_f(r * 0.23)}" fill="#fff" stroke="{INK}" stroke-width="4"/>'
+            out += big_eye(cx + fx + sx * ex, 0.55)
+    elif expression == "smug":
+        for sx in (-1, 1):
+            out += big_eye(cx + fx + sx * ex)
+            out += f'<path d="M{_f(cx + fx + sx * ex - r * 0.17)},{_f(ey - r * 0.02)} Q{_f(cx + fx + sx * ex)},{_f(ey - r * 0.12)} {_f(cx + fx + sx * ex + r * 0.17)},{_f(ey - r * 0.02)} L{_f(cx + fx + sx * ex + r * 0.17)},{_f(ey - r * 0.25)} L{_f(cx + fx + sx * ex - r * 0.17)},{_f(ey - r * 0.25)} Z" fill="{SKIN}"/>'
+            out += line([(cx + fx + sx * ex - r * 0.17, ey - r * 0.02), (cx + fx + sx * ex + r * 0.17, ey - r * 0.02)], width=5, wobble=0.2)
     else:
         for sx in (-1, 1):
-            out += f'<circle cx="{_f(cx + fx + sx * ex)}" cy="{_f(cy - r * 0.12)}" r="{_f(eye_r)}" fill="{INK}"/>'
+            out += big_eye(cx + fx + sx * ex, look=r * 0.03 * facing)
+    if lashes and expression != "laughing":
+        for sx in (-1, 1):
+            bx = cx + fx + sx * ex + sx * r * 0.12
+            out += line([(bx, ey - r * 0.12), (bx + sx * r * 0.12, ey - r * 0.22)], width=4, wobble=0.2)
     brow_y = cy - r * 0.36
     tilt = {"angry": 12, "sad": -10, "scared": -12, "thinking": 6, "smug": 5}.get(expression, 0)
     if tilt or expression in ("shocked",):
@@ -528,9 +553,9 @@ def _face(cx, cy, r, expression, facing):
         out += line([(mx - r * 0.2, my), (mx + r * 0.2, my + 8)], width=5, wobble=0.3)
     else:
         out += line([(mx - r * 0.2, my + 2), (mx + r * 0.2, my + 2)], width=5, wobble=0.3)
-    if expression in ("happy", "laughing", "smug"):
-        for sx in (-1, 1):
-            out += f'<ellipse cx="{_f(cx + fx + sx * r * 0.55)}" cy="{_f(cy + r * 0.18)}" rx="{_f(r * 0.13)}" ry="{_f(r * 0.08)}" fill="#F29C9C" opacity="0.7"/>'
+    blush = 0.75 if expression in ("happy", "laughing", "smug") else 0.35
+    for sx in (-1, 1):
+        out += f'<ellipse cx="{_f(cx + fx + sx * r * 0.55)}" cy="{_f(cy + r * 0.2)}" rx="{_f(r * 0.15)}" ry="{_f(r * 0.09)}" fill="#F29C9C" opacity="{blush}"/>'
     return out
 
 
@@ -578,7 +603,7 @@ def person(x, y, s=1.0, skin=SKIN, shirt="#4E7FB0", pants="#3B3B4F", hair="brown
     prop: None, spear, sword, shield, torch, scroll, coin
     hat: None, helmet, crown, wide, hood, top
     """
-    r = 58 * s
+    r = 68 * s  # big heads read as friendly and expressive
     hip_y = y - 150 * s
     neck_y = hip_y - 150 * s
     head_cy = neck_y - r * 0.95
@@ -597,7 +622,21 @@ def person(x, y, s=1.0, skin=SKIN, shirt="#4E7FB0", pants="#3B3B4F", hair="brown
         torso = [(x - 55 * s, neck_y + 10 * s), (x + 55 * s, neck_y + 10 * s), (x + 90 * s, y - 30 * s), (x - 90 * s, y - 30 * s)]
     else:
         torso = [(x - 55 * s, neck_y + 10 * s), (x + 55 * s, neck_y + 10 * s), (x + 62 * s, hip_y + 8 * s), (x - 62 * s, hip_y + 8 * s)]
-    out += poly(torso, body_fill, width=8, wobble=1.5)
+    if outfit in ("robe", "dress"):
+        tl, tr, br, bl = torso
+        flare = [(tl[0] + 14 * s, tl[1]), (x, tl[1] - 6 * s), (tr[0] - 14 * s, tr[1]), (tr[0] + 8 * s, tr[1] + 40 * s),
+                 (br[0] - 10 * s, (tr[1] + br[1]) / 2 + 40 * s), (br[0] + 6 * s, br[1] - 6 * s), (x + 45 * s, br[1] + 8 * s),
+                 (x - 45 * s, br[1] + 4 * s), (bl[0] - 6 * s, bl[1] - 6 * s), (bl[0] + 10 * s, (tl[1] + bl[1]) / 2 + 40 * s),
+                 (tl[0] - 8 * s, tl[1] + 40 * s)]
+        out += f'<path d="{_smooth(flare, True)}" {_style(body_fill, INK, 8)}/>'
+        out += line([(x - 30 * s, neck_y + 90 * s), (x - 45 * s, y - 60 * s)], "#000", 4, 2).replace('stroke="#000"', 'stroke="#000" stroke-opacity="0.18"')
+    else:
+        # Rounded bean-shaped torso: soft shoulders, gently curved sides.
+        tl, tr, br, bl = torso
+        soft = [(tl[0] + 14 * s, tl[1]), (x, tl[1] - 6 * s), (tr[0] - 14 * s, tr[1]), (tr[0] + 6 * s, tr[1] + 30 * s),
+                (br[0] + 4 * s, (tr[1] + br[1]) / 2 + 20 * s), (br[0] - 6 * s, br[1]), (x, br[1] + 6 * s),
+                (bl[0] + 6 * s, bl[1]), (bl[0] - 4 * s, (tl[1] + bl[1]) / 2 + 20 * s), (tl[0] - 6 * s, tl[1] + 30 * s)]
+        out += f'<path d="{_smooth(soft, True)}" {_style(body_fill, INK, 8)}/>'
     out += f'<path d="M{_f(x + 10 * s)},{_f(neck_y + 14 * s)} L{_f(torso[1][0])},{_f(torso[1][1] + 4)} L{_f(torso[2][0])},{_f(torso[2][1])} L{_f(x + 20 * s)},{_f(torso[2][1])} Z" fill="#000" opacity="0.1"/>'
     if outfit == "armor":
         out += "".join(line([(x - 50 * s, neck_y + dy * s), (x + 50 * s, neck_y + dy * s)], "#7D8794", 5, 1) for dy in (50, 95, 140))
@@ -635,7 +674,8 @@ def person(x, y, s=1.0, skin=SKIN, shirt="#4E7FB0", pants="#3B3B4F", hair="brown
     out += blob(x - r * 0.98 * sx, head_cy + r * 0.05, r * 0.16, r * 0.22, fill=skin, width=5)
     if hair_style != "long":
         out += _hair(x, head_cy, r, hair_style, hair)
-    out += _face(x, head_cy, r, expression, sx)
+    out += f'<path d="M{_f(x - r * 0.62 * sx)},{_f(head_cy - r * 0.55)} Q{_f(x - r * 0.35 * sx)},{_f(head_cy - r * 0.85)} {_f(x)},{_f(head_cy - r * 0.9)}" fill="none" stroke="#fff" stroke-width="{_f(7 * s)}" stroke-linecap="round" opacity="0.55"/>' if hair_style == "bald" or hat else ""
+    out += _face(x, head_cy, r, expression, sx, lashes=hair_style in ("long", "bun") or outfit == "dress")
     if hat:
         out += _hat(x, head_cy, r, hat)
     if prop and 1 in hands:
