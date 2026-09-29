@@ -201,6 +201,7 @@ def write_ass(sh, words, popups, chapters, length, streamer, path):
 
 
 ASPECT = {"full": 16 / 9, "4:3": 4 / 3, "1:1": 1.0, "vertical": 9 / 16}
+FRAME_H = {"full": 608, "4:3": 810, "1:1": 1080, "vertical": H}  # clip height in the Short, at 1080 wide
 
 
 def crop_filter(mode, fx, fy, zoom, cut_top, cut_bottom):
@@ -209,10 +210,12 @@ def crop_filter(mode, fx, fy, zoom, cut_top, cut_bottom):
     fx, fy = (min(max(float(v), 0.0), 1.0) for v in (fx, fy))
     ct, cb = (min(max(float(v), 0.0), 0.3) for v in (cut_top, cut_bottom))
     band = f"crop=iw:ih*{1 - ct - cb:.3f}:0:ih*{ct:.3f}"
-    ch = f"ih/{max(float(zoom), 1.0):.3f}"
-    cw = f"{ch}*{ASPECT[mode]:.5f}"
-    scale = f"scale={W}:{H}" if mode == "vertical" else "scale=1080:-2"
-    return f"{band},crop={cw}:{ch}:(iw-{cw})*{fx}:(ih-{ch})*{fy},{scale},setsar=1"
+    z, a = max(float(zoom), 1.0), ASPECT[mode]
+    # Largest box of the mode's aspect that fits (so a vertical Twitch clip works too), zoomed in z times.
+    ch = f"'min(ih,iw/{a:.5f})/{z:.3f}'"
+    cw = f"'min(ih,iw/{a:.5f})/{z:.3f}*{a:.5f}'"
+    # Exact output size, so zoomed and normal pieces always match when they're joined.
+    return f"{band},crop=w={cw}:h={ch}:x='(iw-ow)*{fx}':y='(ih-oh)*{fy}',scale={W}:{FRAME_H[mode]},setsar=1"
 
 
 def loud_moments(clip, start, length, fixed=None):
@@ -245,6 +248,8 @@ def render_segment(seg, streamer, dst, fps):
     info = probe(clip)
     start = float(seg.get("start", 0))
     length = min(float(seg.get("end", info["seconds"])), info["seconds"]) - start
+    if length < 1:
+        sys.exit(f"{seg['work']}: end must be at least 1 s after start (clip is {info['seconds']:.1f} s)")
     mode, zoom = seg.get("crop", "4:3"), float(seg.get("zoom", 1.0))
     where = (seg.get("focus_x", 0.5), seg.get("focus_y", 0.5))
     cuts = (seg.get("cut_top", streamer.get("cut_top", 0)), seg.get("cut_bottom", streamer.get("cut_bottom", 0)))

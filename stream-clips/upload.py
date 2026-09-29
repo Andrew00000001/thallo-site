@@ -7,7 +7,7 @@ with the youtube scope. Before each upload we confirm the token belongs to that 
 so a clip can never land on Scribble Age or the wrong channel. A channel whose token isn't set
 yet is skipped with a note; the others still get the Short.
 """
-import argparse, datetime, json, os, re, sys
+import argparse, datetime, json, os, re, sys, time
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -170,7 +170,63 @@ def booked():
         return []
 
 
-def upload_one(ch, sh, video, privacy, publish_at):
+def validate(sh):
+    """Refuse a Short whose metadata would break dedupe or mislead viewers; the agent fixes and retries."""
+    problems = []
+    for key in ("title", "description", "hook_text"):
+        if not str(sh.get(key, "")).strip():
+            problems.append(f"{key} is empty")
+    desc, title = sh.get("description", ""), sh.get("title", "")
+    if len(title) > 100:
+        problems.append("title is over 100 characters")
+    if not SLUG.search(desc):
+        problems.append('description has no "Clip: https://www.twitch.tv/<streamer>/clip/<slug>" line')
+    if "Not affiliated" not in desc:
+        problems.append('description is missing "Fan channel. Not affiliated with ..."')
+    created = sh.get("clip_created")
+    if created and time.time() - created > 30 * 86400:
+        year = datetime.datetime.fromtimestamp(created, datetime.timezone.utc).strftime("%Y")
+        if year not in desc:
+            problems.append(f"throwback clip: the description must say when it happened (the year {year})")
+    if len(",".join(sh.get("tags", []))) > 450:
+        problems.append("tags are too long (YouTube allows about 500 characters in total)")
+    if problems:
+        raise UploadError("short.json needs fixing: " + "; ".join(problems))
+
+
+def put_chunks(url, auth, video, size):
+    """Send the file in chunks; on a dropped connection or 5xx, ask where it stopped and resume."""
+    pos, tries = 0, 0
+    with open(video, "rb") as f:
+        while True:
+            f.seek(pos)
+            chunk = f.read(CHUNK)
+            end = pos + len(chunk) - 1
+            try:
+                r = requests.put(url, headers={**auth, "Content-Range": f"bytes {pos}-{end}/{size}"},
+                                 data=chunk, timeout=300)
+            except requests.RequestException:
+                r = None
+            if r is not None and r.status_code in (200, 201):
+                return r.json()
+            if r is not None and r.status_code == 308:
+                pos = int(r.headers["Range"].split("-")[1]) + 1 if "Range" in r.headers else 0
+                tries = 0
+                continue
+            if r is not None and r.status_code < 500:
+                raise UploadError(f"upload failed at byte {pos}: {r.status_code} {r.text[:500]}")
+            tries += 1
+            if tries > 4:
+                raise UploadError(f"upload kept failing at byte {pos}")
+            time.sleep(5 * tries)
+            s = requests.put(url, headers={**auth, "Content-Range": f"bytes */{size}"}, timeout=60)
+            if s.status_code in (200, 201):
+                return s.json()
+            pos = int(s.headers["Range"].split("-")[1]) + 1 if s.status_code == 308 and "Range" in s.headers else 0
+
+
+def upload_one(ch, sh, video, privacy, publish_at, dry_run=False):
+    validate(sh)
     auth = access_token(ch)
     uploads = check_channel(ch, auth)
     body = {
@@ -184,10 +240,13 @@ def upload_one(ch, sh, video, privacy, publish_at):
         when = auto_slot(auth, uploads) if publish_at == "auto" else publish_time(publish_at)
         body["status"].update(privacyStatus="private", publishAt=when)
     if sh.get("clip_created"):
-        # When the moment happened; later runs read it back to skip other clips of the same moment.
+        # When the moment happened (YouTube keeps the date).
         body["recordingDetails"] = {"recordingDate": datetime.datetime.fromtimestamp(
             sh["clip_created"], datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
     size = os.path.getsize(video)
+    if dry_run:
+        return {"channel": ch["name"], "dry_run": True, "would_publish_at": body["status"].get("publishAt"),
+                "privacy": body["status"]["privacyStatus"], "title": body["snippet"]["title"], "bytes": size}
 
     def init():
         parts = "snippet,status" + (",recordingDetails" if "recordingDetails" in body else "")
@@ -202,20 +261,7 @@ def upload_one(ch, sh, video, privacy, publish_at):
         r = init()  # the recording date is only a dedupe hint; never let it block an upload
     if r.status_code != 200:
         raise UploadError(f"upload init failed: {r.status_code} {r.text}")
-    url, pos, result = r.headers["Location"], 0, None
-    with open(video, "rb") as f:
-        while pos < size:
-            chunk = f.read(CHUNK)
-            end = pos + len(chunk) - 1
-            r = requests.put(url, headers={**auth, "Content-Range": f"bytes {pos}-{end}/{size}"},
-                             data=chunk, timeout=300)
-            if r.status_code in (200, 201):
-                result = r.json()
-                break
-            if r.status_code != 308:
-                raise UploadError(f"upload failed at byte {pos}: {r.status_code} {r.text}")
-            pos = int(r.headers["Range"].split("-")[1]) + 1 if "Range" in r.headers else 0
-            f.seek(pos)
+    result = put_chunks(r.headers["Location"], auth, video, size)
     vid = result["id"]
     live = result.get("status", {}).get("publishAt")
     if live:
@@ -226,7 +272,7 @@ def upload_one(ch, sh, video, privacy, publish_at):
             "publish_at": result.get("status", {}).get("publishAt")}
 
 
-def upload(short, video, privacy, publish_at=None):
+def upload(short, video, privacy, publish_at=None, dry_run=False):
     """Upload to every channel; one JSON line each. Exit 1 if any channel with a token failed."""
     sh = json.loads(Path(short).read_text(encoding="utf-8"))
     failed = False
@@ -235,7 +281,7 @@ def upload(short, video, privacy, publish_at=None):
             print(json.dumps({"channel": ch["name"], "skipped": f"{ch['token_env']} is not set"}))
             continue
         try:
-            print(json.dumps(upload_one(ch, sh, video, privacy, publish_at)), flush=True)
+            print(json.dumps(upload_one(ch, sh, video, privacy, publish_at, dry_run)), flush=True)
         except (UploadError, requests.RequestException) as e:
             failed = True
             print(json.dumps({"channel": ch["name"], "error": str(e)[:1000]}), flush=True)
@@ -267,6 +313,7 @@ if __name__ == "__main__":
     p.add_argument("--publish-at", help='"auto" (next free slot from config.json) or HH:MM America/Detroit')
     p.add_argument("--whoami", action="store_true", help="check every channel's token and exit")
     p.add_argument("--setup-channel", action="store_true", help="set channel descriptions and keywords")
+    p.add_argument("--dry-run", action="store_true", help="validate and pick the slot, but don't upload")
     a = p.parse_args()
     try:
         if a.setup_channel:
@@ -274,7 +321,7 @@ if __name__ == "__main__":
         elif a.whoami:
             whoami()
         elif a.short:
-            upload(a.short, a.video, a.privacy, a.publish_at)
+            upload(a.short, a.video, a.privacy, a.publish_at, a.dry_run)
         else:
             p.error("give a short JSON file or --whoami")
     except UploadError as e:

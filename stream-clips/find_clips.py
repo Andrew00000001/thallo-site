@@ -17,8 +17,9 @@ def list_clips(login, rng, limit):
     url = f"https://www.twitch.tv/{login}/clips?filter=clips&range={rng}"
     r = subprocess.run([sys.executable, "-m", "yt_dlp", "--flat-playlist", "--playlist-end", str(limit), "-J", url],
                        capture_output=True, text=True, timeout=300)
-    if r.returncode:
-        sys.exit(f"yt-dlp failed listing {url}: {r.stderr[-1000:]}")
+    if r.returncode:  # one list failing (Twitch hiccup) shouldn't sink the run; the others still count
+        print(f"warning: couldn't list {url}: {r.stderr[-300:]}", file=sys.stderr)
+        return []
     return [e for e in json.loads(r.stdout).get("entries", []) if e.get("url")]
 
 
@@ -35,11 +36,8 @@ def main():
     p.add_argument("--count", type=int, default=12, help="how many candidates to print")
     a = p.parse_args()
 
-    history = json.loads((HERE / "history.json").read_text(encoding="utf-8"))["shorts"]
-    posted = {h["slug"] for h in history}
-    moments = [h["clip_created"] for h in history if h.get("clip_created")]
-    from upload import posted as on_channels  # the channels themselves; runs can't push history.json
-    posted |= on_channels()
+    from upload import posted as on_channels  # the channel is the record; routine runs can't push to git
+    posted, moments = on_channels(), []
     # Whole streams we never clip, e.g. network co-productions (config.json "skip_windows").
     windows = [(parse_utc(w["from"]), parse_utc(w["to"])) for w in CONFIG.get("skip_windows", [])]
 
@@ -54,6 +52,8 @@ def main():
     # or everything fresh was used or rejected), go deep: the 30-day and all-time clip lists,
     # merged and ranked by views, so the channel falls back on the streamer's biggest moments.
     lists = {rng: list_clips(login, rng, limit) for rng, limit in (("24hr", 100), ("7d", 100), ("30d", 200), ("all", 300))}
+    if not any(lists.values()):
+        sys.exit("couldn't list any Twitch clips; check the network or yt-dlp")
     # Exact times of clips we already posted, so other viewers' clips of the same moment are skipped.
     moments += [e.get("timestamp") or 0 for lst in lists.values() for e in lst if slug_of(e["url"]) in posted]
     fresh = [(rng, e) for rng in ("24hr", "7d") for e in lists[rng] if usable(e)]

@@ -1,9 +1,10 @@
 # Stream Clips — daily run instructions
 
 You run the YouTube fan clip channel **Kai Cenat Fan Clips** (`config.json` → `channels`). Every
-run makes and uploads **3 Shorts** from Kai Cenat's most-viewed recent Twitch clips. Everything is free:
-Twitch viewers already clipped the best moments, the tools download, caption, reframe and
-upload them, and you pick the clips and write the hook, title and description.
+run makes and uploads up to **3 Shorts** from Kai Cenat's most-viewed Twitch clips: fresh ones
+first, his biggest moments of all time when there's nothing fresh. Everything is free: Twitch
+viewers already clipped the best moments, the tools download, caption, reframe and upload them,
+and you pick the clips and write the headline, cards, pop-ups, title and description.
 
 ## 1. Setup
 ```bash
@@ -26,7 +27,9 @@ It lists fresh clips first (last 24 hours, then 7 days), minus anything already 
 the same moment, and whole streams listed in `config.json` → `skip_windows`. When fresh clips
 run out (Kai is offline, or the fresh ones were used or rejected), it continues with his biggest
 moments of the last 30 days and of all time, ranked by views. Work down the list; drop anything
-that obviously fails step 3b from its Twitch title alone without prepping it.
+that obviously fails step 3b from its Twitch title alone without prepping it. If you reach the end
+with fewer than 3 Shorts, run `python3 find_clips.py --count 40` and carry on from the first
+candidate you haven't looked at.
 
 **Older clips (`clip_date` more than 30 days ago) are throwbacks: never present them as new.** No
 "just", "today" or "this week" in the headline, cards, title or description, and put the date in
@@ -37,7 +40,8 @@ the description's first line ("From Kai's stream on June 11, 2024.").
 ```bash
 python3 make_short.py prep "<clip url>" --out /tmp/sc/N
 ```
-Read the transcript and **look at all 4 frames** with the Read tool.
+Read the transcript and **look at all 4 frames** with the Read tool. If prep fails (the clip was
+deleted, or the download errors), skip that clip.
 
 **b. Skip the clip** (go to the next candidate) if any of these is true:
 - Someone else's content fills the screen or the audio: a movie, TV show, music video, sports
@@ -60,8 +64,8 @@ editing, not for bare re-uploads), so fill them all in.
  "popups": [{"at": 23.0, "text": "His complaint: the story"}],
  "title": "...", "description": "...", "tags": ["..."]}
 ```
-- `clip_created`: copy it from find_clips. upload.py saves it as the video's recording date, so
-  later runs skip other viewers' clips of the same moment.
+- `clip_created`: copy it from find_clips. upload.py saves it as the video's recording date and
+  uses it to check throwback descriptions.
 - `start`/`end` (**open fast, loop clean**): start on the most striking second, never on a slow
   lead-in; the first frame is what stops the scroll. End right after the payoff, cutting on a beat
   that flows back into the opening, so the replay feels seamless (YouTube counts every replay as
@@ -134,16 +138,18 @@ python3 upload.py /tmp/sc/N/short.json --video /tmp/sc/N/short.mp4 --publish-at 
 ```
 `auto` picks the next time in `config.json` → `publish_times` that is at least 2 hours after the
 latest Short already live or scheduled on the channel, so Shorts never pile up, whatever time the
-run happens. Don't pass other times or `--privacy public`. If an upload fails with a quota error,
-stop making Shorts and report it.
+run happens. Don't pass other times or `--privacy public`. upload.py first checks short.json and
+refuses to upload if the description lacks the `Clip:` line or the fan-channel line, or a throwback's
+description lacks its year; fix what it names and run it again. If an upload fails with a quota
+error, stop making Shorts and report it.
 
 If fewer than 3 clips pass the checks, upload the ones that do and say so. Never lower the bar
 to fill the count.
 
 ## 4. Report
 Don't commit or push: routine sessions can't push to this repo, and nothing depends on it. The
-channel is the record: each video's `Clip:` line and recording date tell later runs what's posted.
-Don't open pull requests or edit any files in the repo.
+channel is the record: each video's `Clip:` lines tell later runs what's posted. Don't open pull
+requests or edit any files in the repo.
 
 Finish with a short report: for each Short, the title, the YouTube URL, the publish time and the
 Twitch clip it came from; clips you skipped and why; any problems. Paste every JSON line upload.py printed.
