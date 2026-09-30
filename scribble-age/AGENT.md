@@ -45,6 +45,12 @@ never make a video that overlaps one of them. If the topic truly can't be done a
 - **Ending:** a one-line takeaway, then "Subscribe to Scribble Age for a new story from history
   every day."
 - **Scenes:** split into 28–40 scenes of 1–3 sentences each (4–15 seconds of speech).
+- **Chapters:** put `"chapter": "Short Name"` (2–4 words) on the first scene of each of 4–6 story
+  sections. The first chapter goes on scene 1 (or the builder adds "Intro"). They become YouTube
+  chapters in the description automatically.
+- **Short:** the first ~55 seconds (the hook scenes) also become a vertical YouTube Short, so make
+  the opening self-contained and gripping. Add `"short_title"`: a punchy question or claim under
+  60 characters (for example "They put a dead pope on trial").
 
 ## 4. Draw every shot with the drawing kit (quality matters most here)
 ### How a scene moves
@@ -205,10 +211,13 @@ The length should be 4–9 minutes, with `seconds_per_beat` of 3 or less. A full
 10–15 minutes to build, so let it finish. Pull 4 frames with ffmpeg
 (`python3 -c "import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())"`) and look at them.
 The voice service sometimes drops requests; the builder retries by itself.
+The build also makes, for free: an original music bed and pop/whoosh sound effects (generated in
+code, no licenses), word-by-word highlighted captions, a 4-second subscribe end card,
+`chapters.json`, and the vertical Short `short.mp4`. Look at one frame of `short.mp4` too.
 
 ## 7. Upload
 ```bash
-python3 upload.py episodes/YYYY-MM-DD.json --video /tmp/sa_build/video.mp4 --thumbnail /tmp/sa_build/thumbnail.jpg --publish-at 15:00
+python3 upload.py episodes/YYYY-MM-DD.json --video /tmp/sa_build/video.mp4 --thumbnail /tmp/sa_build/thumbnail.jpg --chapters /tmp/sa_build/chapters.json --publish-at 15:00
 ```
 This schedules the video to go public at 3:00 PM Eastern. That's the best weekday window for US
 long-form, because the video gets indexed before the 6–9 PM viewing peak. **If it's already past
@@ -216,12 +225,20 @@ long-form, because the video gets indexed before the 6–9 PM viewing peak. **If
 Confirm that `channel_id` in the output is `UC1q7Zvv9PeoL5smeMvAvwDQ`. If the thumbnail fails,
 say so; it doesn't block the run.
 
-**Never upload twice in one run.** If an upload errors partway, check `topics.py`'s recent titles
+Then upload the Short, using the `video_id` from the main upload:
+```bash
+python3 upload.py episodes/YYYY-MM-DD.json --video /tmp/sa_build/short.mp4 --short --main-id VIDEO_ID --publish-at 19:00
+```
+It goes public at 7:00 PM Eastern (Shorts peak in the evening) and links to the full video. If
+it's already past 6:45 PM, use `--privacy public`. If the Short upload fails, report it; the main
+video is what matters.
+
+**Never upload the same file twice in one run.** If an upload errors partway, check `topics.py`'s recent titles
 (or wait a minute and check again) before retrying.
 
 ## 8. Report
 Don't commit or push anything: the upload itself is the record. Finish with a short report:
-- the topic, title and YouTube URL,
+- the topic, title and YouTube URL, plus the Short's URL,
 - `channel_id`, privacy and the scheduled publish time,
 - the length, number of pictures and `seconds_per_beat`,
 - the average shot score from the review,

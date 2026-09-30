@@ -15,9 +15,12 @@ A Claude routine, **"Scribble Age daily video"**, starts a fresh cloud session e
 4. `review.py` validates the episode and renders contact sheets. The session scores every shot
    and redraws the weak ones.
 5. `make_video.py` builds the video: free Microsoft Edge neural voice, 4K renders with paper grain
-   and vignette, camera moves, burned-in captions, and a thumbnail.
+   and vignette, camera moves, pop-in animation, word-by-word captions, original music and sound
+   effects generated in code (`sound.py`, no licenses), a subscribe end card, chapters, a
+   thumbnail, and a vertical Short cut from the hook.
 6. `upload.py` uploads it through the YouTube Data API and schedules it to go public at
-   **3:00 PM Eastern**.
+   **3:00 PM Eastern** (with chapters in the description), then the Short at **7:00 PM Eastern**
+   linking to it.
 
 Each run's report arrives by push notification and email to the Claude account. Runs never commit
 or push (scheduled sessions have no push access): the channel is the only record of past topics.
@@ -30,7 +33,8 @@ or push (scheduled sessions have no push access): the channel is the only record
 | `doodle.py` | Drawing kit: characters, mascot, settings, buildings, animals, props, effects |
 | `review.py` | Pre-build checks and contact sheets |
 | `make_video.py` | Voice, rendering, captions, assembly |
-| `upload.py` | YouTube upload and scheduling |
+| `upload.py` | YouTube upload and scheduling (main video and Short) |
+| `sound.py` | original music bed and sound effects, made from scratch |
 | `assets/` | Patrick Hand font (SIL Open Font License) and the channel profile picture |
 
 ## Accounts and credentials

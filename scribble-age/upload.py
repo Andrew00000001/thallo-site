@@ -36,11 +36,35 @@ def publish_time(hhmm):
     return t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def upload(episode, video, thumbnail, privacy, publish_at=None):
+def chapter_text(path):
+    """YouTube chapters: the first must be 0:00, at least 3, each at least 10 seconds long."""
+    if not path or not os.path.exists(path):
+        return ""
+    marks = json.loads(Path(path).read_text(encoding="utf-8"))
+    kept = []
+    for t, name in marks:
+        if not kept or t - kept[-1][0] >= 10:
+            kept.append((0 if not kept else t, name))
+    if len(kept) < 3:
+        return ""
+    return "\n".join(f"{int(t) // 60}:{int(t) % 60:02d} {name}" for t, name in kept)
+
+
+def upload(episode, video, thumbnail, privacy, publish_at=None, chapters=None, main_id=None):
     ep = json.loads(Path(episode).read_text(encoding="utf-8"))
     auth = {"Authorization": f"Bearer {access_token()}"}
+    title, desc = ep["title"], ep["description"]
+    if main_id:  # the Short: point viewers to the full video, no custom thumbnail
+        title = (ep.get("short_title") or ep["title"])[:90] + " #shorts"
+        desc = f"Full story: https://youtu.be/{main_id}\n\n" + desc
+        thumbnail = None
+    else:
+        ch = chapter_text(chapters)
+        if ch:
+            parts = desc.split("\n\n", 1)
+            desc = parts[0] + "\n\n" + ch + ("\n\n" + parts[1] if len(parts) > 1 else "")
     body = {
-        "snippet": {"title": ep["title"][:100], "description": ep["description"][:5000],
+        "snippet": {"title": title[:100], "description": desc[:5000],
                     "tags": ep.get("tags", [])[:30], "categoryId": "27", "defaultLanguage": "en",
                     "defaultAudioLanguage": "en"},
         "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False, "containsSyntheticMedia": True},
@@ -92,5 +116,10 @@ if __name__ == "__main__":
     p.add_argument("--thumbnail", default="build/thumbnail.jpg")
     p.add_argument("--privacy", default="public", choices=["public", "unlisted", "private"])
     p.add_argument("--publish-at", help="HH:MM America/Detroit; schedules the video to go public then")
+    p.add_argument("--chapters", help="chapters.json from the build; adds chapter timestamps to the description")
+    p.add_argument("--short", action="store_true", help="upload the vertical Short (needs --main-id)")
+    p.add_argument("--main-id", help="video_id of today's full video, linked from the Short")
     a = p.parse_args()
-    upload(a.episode, a.video, a.thumbnail, a.privacy, a.publish_at)
+    if a.short and not a.main_id:
+        p.error("--short needs --main-id")
+    upload(a.episode, a.video, a.thumbnail, a.privacy, a.publish_at, a.chapters, a.main_id if a.short else None)
