@@ -173,3 +173,16 @@ def test_handoff_runs_stages_without_the_api(conn, monkeypatch):
     handoff.submit(conn, "scripts", pid, FAKE_SCRIPTS.model_dump_json())
     assert store.get(conn, pid)["scripts"][0]["ai_label"] is True
     assert handoff.next_task(conn) is None
+
+
+def test_signal_ranks_sales_data_above_editorial_picks(conn, tmp_path):
+    csv_path = tmp_path / "c.csv"
+    csv_path.write_text(
+        "name,category,price,source_url,signal\n"
+        "Stainless steel skillet,,60,https://example.com/a,editorial\n"
+        "Cast iron dutch oven,,60,https://example.com/b,sales\n"
+    )
+    discovery.discover(conn, str(csv_path))
+    top = discovery.shortlist(conn)[0]
+    assert top["name"] == "Cast iron dutch oven"
+    assert "growth" not in top["score_detail"]["unverified"]

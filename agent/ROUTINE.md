@@ -8,9 +8,10 @@ The routine never publishes, lists, or posts anything. It fills the shortlist, d
 
 1. **Set up.** Check out the agent branch, `cd agent`, and `python3 -m pip install -r requirements.txt`.
 2. **Research trends.** Use web search to find 10 to 20 products gaining attention in Thallo's four collections (supplements, organic clothing, red light therapy, non-toxic cookware), with a TikTok Shop angle where possible. Read only public pages through normal search and browsing. Do not scrape TikTok, Creative Center, or any site that forbids automated collection in its terms, and do not log in anywhere.
-3. **Write the CSV** to `/mnt/project-files/thallo-agent/candidates-YYYY-MM-DD.csv` with columns `name,category,price,cost,units_sold,growth_pct,source_url,evidence`. Rules:
+3. **Write the CSV** to `/mnt/project-files/thallo-agent/candidates-YYYY-MM-DD.csv` with columns `name,category,price,cost,units_sold,growth_pct,source_url,evidence,signal`. Rules:
     - `source_url` is a page you actually opened, and `evidence` is one short line from it saying why the product is trending.
     - `price` is the retail price shown on that page.
+    - `signal` is `sales` for TikTok Shop sales rankings, `social` for TikTok content volume, or `editorial` for press and review picks.
     - Leave `cost`, `units_sold`, and `growth_pct` blank unless the page states them. Never estimate; blanks are scored as neutral and flagged "unverified".
 4. **Score:** `python3 -m thallo_agent discover <csv>`.
 5. **Draft what was approved.** Repeat until `python3 -m thallo_agent task` prints `null`:

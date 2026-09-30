@@ -6,8 +6,10 @@ public trend research; once the Partner Center app exists, List Opportunities
 
 Required columns: name, price, source_url.
 Optional columns: category (detected from the name if blank), cost, units_sold,
-growth_pct, evidence. A blank number is scored as neutral and flagged
-"unverified" rather than guessed.
+growth_pct, evidence, signal. A blank number is scored as neutral and flagged
+"unverified" rather than guessed. ``signal`` says what kind of source backs the
+trend when there is no growth number: sales (TikTok Shop sales rankings),
+social (TikTok content volume), or editorial (press and review picks).
 """
 
 import csv
@@ -17,6 +19,9 @@ import re
 from . import compliance, config, store
 
 REQUIRED = ("name", "price", "source_url")
+
+# Trend strength by source type, used when a candidate has no growth number.
+SIGNALS = {"sales": 1.0, "social": 0.7, "editorial": 0.4}
 
 
 def _num(v) -> float | None:
@@ -65,7 +70,10 @@ def score(c: dict, max_units: int) -> dict | None:
         unverified.append("units sold")
     else:
         volume = math.log1p(units) / math.log1p(max_units) if max_units > 0 else 0.0
-    if growth is None:
+    signal = (c.get("signal") or "").strip().lower()
+    if growth is None and signal in SIGNALS:
+        trend = SIGNALS[signal]
+    elif growth is None:
         trend = 0.5
         unverified.append("growth")
     else:
@@ -97,7 +105,7 @@ def score(c: dict, max_units: int) -> dict | None:
             "fit": round(fit, 2), "momentum": round(momentum, 2),
             "margin": None if margin is None else round(margin, 2),
             "risk": round(risk, 2), "policy_flags": flags, "unverified": unverified,
-            "evidence": (c.get("evidence") or "").strip(),
+            "evidence": (c.get("evidence") or "").strip(), "signal": signal or None,
         },
     }
 

@@ -40,7 +40,7 @@ A pick rejection drops the product for good, so it is not suggested again. A lis
 
 ## Candidate CSV
 
-Required columns: `name, price, source_url`. Optional: `category` (detected from the name if blank), `cost`, `units_sold`, `growth_pct`, `evidence`. A blank number is scored as neutral and flagged "unverified", never guessed. `examples/candidates_sample.csv` is made-up sample data for testing, not market data.
+Required columns: `name, price, source_url`. Optional: `category` (detected from the name if blank), `cost`, `units_sold`, `growth_pct`, `evidence`, `signal` (`sales`, `social`, or `editorial`: what kind of source backs the trend when there is no growth number). A blank number is scored as neutral and flagged "unverified", never guessed. `examples/candidates_sample.csv` is made-up sample data for testing, not market data.
 
 The routine fills this from public web research, within each site's terms; it does not scrape TikTok or Creative Center, which has no public API. Once the Partner Center app exists, List Opportunities can feed the same shape.
 
