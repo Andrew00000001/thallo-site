@@ -14,6 +14,7 @@ Voice: Microsoft Edge neural TTS (free, via edge-tts). Pictures: SVG doodles
 rendered with cairosvg. Assembly and captions: ffmpeg (imageio-ffmpeg build).
 """
 import argparse, asyncio, json, os, re, shutil, ssl, subprocess, sys, time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import cairosvg
@@ -30,6 +31,8 @@ W, H = 1920, 1080
 FONT_NAME = "Patrick Hand"
 WORDS_PER_CAPTION = 3
 SCENE_TAIL = 0.35  # seconds of silence after each scene
+POP_IN = 0.22     # seconds for a pop-in element to fade and rise into place
+POP_RISE = 36     # pixels (at 2x render scale) a pop-in rises while appearing
 
 # The cloud sandbox re-terminates TLS; edge-tts pins certifi, so trust the proxy CA when present.
 CA = "/root/.ccr/ca-bundle.crt"
@@ -125,19 +128,76 @@ def svg_to_png(svg, png, w, h, grain=True):
 
 
 def shot_svgs(sc):
-    """A scene is one picture ("svg") or several ("shots"). A shot is either {"svg": full SVG}
-    or {"add": SVG elements}, which draws the elements on top of the previous shot (a cheap reveal)."""
+    """Final picture of each shot (including its pops), for review. A scene is one picture ("svg") or
+    several ("shots"). A shot is {"svg": full SVG} or {"add": SVG elements} (drawn on top of the previous
+    shot), and either kind may carry "pops": elements that animate in one after another."""
     if "shots" not in sc:
         return [sc["svg"]]
     svgs = []
     for shot in sc["shots"]:
-        if "svg" in shot:
-            svgs.append(shot["svg"])
-        else:
-            prev = svgs[-1]
-            cut = prev.rindex("</svg>")
-            svgs.append(prev[:cut] + shot["add"] + prev[cut:])
+        base = shot["svg"] if "svg" in shot else _inject(svgs[-1], shot["add"])
+        for frag in shot.get("pops", []):
+            base = _inject(base, frag)
+        svgs.append(base)
     return svgs
+
+
+def _inject(svg, fragment):
+    cut = svg.rindex("</svg>")
+    return svg[:cut] + fragment + svg[cut:]
+
+
+def plan_segments(sc):
+    """Group a scene's shots into segments: each full "svg" starts a segment (a new picture and camera
+    move); "add" shots and "pops" become animated pop-ins inside the current segment."""
+    shots = sc.get("shots") or [{"svg": sc["svg"]}]
+    segs = []
+    for si, shot in enumerate(shots):
+        if "svg" in shot:
+            segs.append({"base": shot["svg"], "first_shot": si, "pops": []})
+        else:
+            segs[-1]["pops"].append({"frag": shot["add"], "shot": si, "j": -1, "n": 0})
+        pops = shot.get("pops", [])
+        for j, frag in enumerate(pops):
+            segs[-1]["pops"].append({"frag": frag, "shot": si, "j": j, "n": len(pops)})
+    return segs
+
+
+def pop_times(seg_pops, cuts, words):
+    """When each pop appears: an "add" lands on its cut; pops spread evenly across their shot,
+    snapped to the start of a spoken word."""
+    starts = [w[0] for w in words]
+    out = []
+    for p in seg_pops:
+        a, b = cuts[p["shot"]], cuts[p["shot"] + 1]
+        if p["j"] < 0:
+            t = a
+        else:
+            # The first pop lands fast (so a backdrop never sits empty); the rest spread across the shot.
+            lead = 0.35 if any(q["j"] < 0 and q["shot"] == p["shot"] for q in seg_pops) else 0.0
+            first = a + lead + min(0.6, (b - a) * 0.15)
+            t = first if p["j"] == 0 else first + (b - 0.5 - first) * p["j"] / p["n"]
+            near = [w for w in starts if a < w < b - 0.4]
+            if near:
+                t = min(near, key=lambda w: abs(w - t))
+        out.append(t)
+    return out
+
+
+def render_pop(fragment, png, w, h):
+    """Render SVG elements alone on a transparent canvas, crop to their bounds, return the offset."""
+    doc = f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{fragment}</svg>'
+    cairosvg.svg2png(bytestring=doc.encode("utf-8"), write_to=str(png), output_width=w, output_height=h)
+    img = Image.open(png).convert("RGBA")
+    box = img.getchannel("A").getbbox()
+    if not box:
+        return None
+    x0, y0 = max(0, box[0] - 8), max(0, box[1] - 8)
+    crop = img.crop((x0, y0, min(w, box[2] + 8), min(h, box[3] + 8)))
+    rgb = ImageChops.multiply(crop.convert("RGB"), paper_grain(w, h).crop((x0, y0, x0 + crop.width, y0 + crop.height)))
+    rgb.putalpha(crop.getchannel("A"))
+    rgb.save(png)
+    return x0, y0
 
 
 def shot_cuts(words, total, n):
@@ -170,37 +230,68 @@ def build(episode_path, out):
     work.mkdir(parents=True, exist_ok=True)
     fonts_dir = install_font()
 
-    clips, captions, t0, shots_total = [], [], 0.0, 0
+    # Pass 1 (sequential): voice every scene and render every picture; queue the video work.
+    scenes_meta, seg_jobs, shots_total, beats_total = [], [], 0, 0
     for i, sc in enumerate(ep["scenes"]):
         mp3, mp4 = work / f"s{i:03d}.mp3", work / f"s{i:03d}.mp4"
         words = tts_retry(sc["narration"], mp3)
         d = duration(mp3) + SCENE_TAIL
-        svgs = shot_svgs(sc)
-        cuts = shot_cuts(words, d, len(svgs))
-        inputs, chains = [], []
-        for k, svg in enumerate(svgs):
-            png = work / f"s{i:03d}_{k}.png"
-            svg_to_png(svg, png, W * 2, H * 2)
-            frames = max(1, int(round((cuts[k + 1] - cuts[k]) * FPS)))
-            inputs += ["-i", str(png)]
-            chains.append(f"[{k}:v]{motion(shots_total + k, frames)}"
-                          f":d={frames}:s={W}x{H}:fps={FPS},setsar=1[v{k}]")
-        n = len(svgs)
-        graph = ";".join(chains) + ";" + "".join(f"[v{k}]" for k in range(n)) + \
-            f"concat=n={n}:v=1:a=0,format=yuv420p[v];[{n}:a]apad=pad_dur={SCENE_TAIL},aresample=44100[a]"
-        run([*inputs, "-i", str(mp3), "-filter_complex", graph,
-             "-map", "[v]", "-map", "[a]", "-t", f"{d:.3f}",
-             "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-c:a", "aac", "-b:a", "160k", "-ac", "2",
-             str(mp4)])
+        segs = plan_segments(sc)
+        n_shots = len(sc.get("shots") or [1])
+        cuts = shot_cuts(words, d, n_shots)
+        bounds = [cuts[g["first_shot"]] for g in segs] + [d]
+        seg_files = []
+        for g, seg in enumerate(segs):
+            seg_d = bounds[g + 1] - bounds[g]
+            frames = max(1, int(round(seg_d * FPS)))
+            base = work / f"s{i:03d}_{g}.png"
+            svg_to_png(seg["base"], base, W * 2, H * 2)
+            inputs = ["-loop", "1", "-framerate", str(FPS), "-t", f"{seg_d:.3f}", "-i", str(base)]
+            chain, last, k = [], "0:v", 0
+            for p, t in zip(seg["pops"], pop_times(seg["pops"], cuts, words)):
+                png = work / f"s{i:03d}_{g}_p{k}.png"
+                off = render_pop(p["frag"], png, W * 2, H * 2)
+                if off is None:
+                    continue
+                k += 1
+                lt = max(0.0, t - bounds[g])
+                inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{seg_d:.3f}", "-i", str(png)]
+                chain.append(f"[{k}:v]format=rgba,fade=in:st={lt:.3f}:d={POP_IN}:alpha=1[p{k}]")
+                chain.append(f"[{last}][p{k}]overlay=x={off[0]}:y='{off[1]}+{POP_RISE}*max(0\\,1-(t-{lt:.3f})/{POP_IN})'"
+                             f":eval=frame:format=yuv420[b{k}]")
+                last = f"b{k}"
+            chain.append(f"[{last}]{motion(shots_total + g, frames)}:d=1:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p[v]")
+            seg_mp4 = work / f"s{i:03d}_{g}.mp4"
+            seg_jobs.append([*inputs, "-filter_complex", ";".join(chain), "-map", "[v]", "-frames:v", str(frames),
+                             "-c:v", "libx264", "-preset", "ultrafast", "-crf", "16", str(seg_mp4)])
+            seg_files.append(seg_mp4)
+            beats_total += 1 + k
+        shots_total += len(segs)
+        scenes_meta.append((mp3, mp4, d, words, seg_files))
+        print(f"scene {i + 1}/{len(ep['scenes'])}: {d:.1f}s, {len(segs)} pictures", flush=True)
+
+    # Pass 2 (parallel): animate every segment, then join each scene with its voice.
+    with ThreadPoolExecutor(max_workers=max(1, min(4, os.cpu_count() or 1) - 1)) as pool:
+        list(pool.map(run, seg_jobs))
+        joins = []
+        for mp3, mp4, d, _, seg_files in scenes_meta:
+            n = len(seg_files)
+            graph = "".join(f"[{k}:v]" for k in range(n)) + \
+                f"concat=n={n}:v=1:a=0[v];[{n}:a]apad=pad_dur={SCENE_TAIL},aresample=44100[a]"
+            joins.append([*sum((["-i", str(f)] for f in seg_files), []), "-i", str(mp3), "-filter_complex", graph,
+                          "-map", "[v]", "-map", "[a]", "-t", f"{d:.3f}", "-c:v", "libx264", "-preset", "ultrafast",
+                          "-crf", "16", "-c:a", "aac", "-b:a", "160k", "-ac", "2", str(mp4)])
+        list(pool.map(run, joins))
+
+    clips, captions, t0 = [], [], 0.0
+    for mp3, mp4, d, words, _ in scenes_meta:
         clips.append(mp4)
-        shots_total += n
         for j in range(0, len(words), WORDS_PER_CAPTION):
             grp = words[j:j + WORDS_PER_CAPTION]
             end = words[j + WORDS_PER_CAPTION][0] if j + WORDS_PER_CAPTION < len(words) else grp[-1][1] + 0.2
             text = " ".join(w[2] for w in grp).replace("{", "(").replace("}", ")")
             captions.append((t0 + grp[0][0], t0 + end, text))
         t0 += duration(mp4)
-        print(f"scene {i + 1}/{len(ep['scenes'])}: {d:.1f}s, {n} shots", flush=True)
 
     (work / "list.txt").write_text("".join(f"file '{c.name}'\n" for c in clips))
     run(["-f", "concat", "-safe", "0", "-i", str(work / "list.txt"), "-c", "copy", str(work / "joined.mp4")])
@@ -214,8 +305,8 @@ def build(episode_path, out):
     Image.open(work / "thumb.png").convert("RGB").save(out / "thumbnail.jpg", quality=90)  # YouTube limit is 2 MB
     total = duration(out / "video.mp4")
     print(json.dumps({"video": str(out / "video.mp4"), "thumbnail": str(out / "thumbnail.jpg"),
-                      "seconds": round(total, 1), "scenes": len(clips), "shots": shots_total,
-                      "seconds_per_shot": round(total / max(shots_total, 1), 1)}))
+                      "seconds": round(total, 1), "scenes": len(clips), "pictures": shots_total,
+                      "visual_beats": beats_total, "seconds_per_beat": round(total / max(beats_total, 1), 1)}))
     shutil.rmtree(work)
 
 

@@ -747,3 +747,206 @@ def thumbnail(*parts, bg=AMBER):
     """A 1280x720 thumbnail drawn on the same 1920x1080 coordinates as scenes."""
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 {W} {H}">'
             f'<rect width="{W}" height="{H}" fill="{bg}"/>' + "".join(parts) + "</svg>")
+
+
+# ---------- ready-made engaging shots (use these often: they're hard to get wrong) ----------
+
+GROUND_Y = 820  # standard ground line; figures stand on it
+
+
+def text_width(s, size):
+    """Real rendered width of Patrick Hand text in pixels."""
+    try:
+        from PIL import ImageFont
+        return ImageFont.truetype(_font, int(size)).getlength(s)
+    except Exception:
+        return len(s) * size * 0.46
+
+
+def fit_text(x, y, s, max_width, size=120, **kw):
+    """text() that shrinks until it fits max_width."""
+    while size > 24 and text_width(s, size) > max_width:
+        size -= 4
+    return text(x, y, s, size=size, **kw)
+
+
+def slots(n, left=260, right=1660):
+    """n evenly spaced x positions for figures across the frame."""
+    return [left + (right - left) * (i + 0.5) / n for i in range(n)] if n > 1 else [(left + right) / 2]
+
+
+def speed_lines(cx=960, cy=460, color="#FFD37A", bg=AMBER, n=28):
+    """Cartoon burst background: rays from (cx, cy). Great behind a reaction or a big reveal."""
+    out = f'<rect width="{W}" height="{H}" fill="{bg}"/>'
+    for i in range(n):
+        a0 = 2 * math.pi * i / n
+        a1 = a0 + math.pi / n * 0.55
+        far = 2400
+        out += (f'<path d="M{_f(cx)},{_f(cy)} L{_f(cx + far * math.cos(a0))},{_f(cy + far * math.sin(a0))} '
+                f'L{_f(cx + far * math.cos(a1))},{_f(cy + far * math.sin(a1))} Z" fill="{color}"/>')
+    return out
+
+
+def reaction(expression="shocked", bg=AMBER, rays="#FFD37A", caption=None, **character):
+    """Full close-up reaction shot: a big head-and-shoulders character over a burst background.
+    Pass the same character settings you use elsewhere (skin, hair, hair_style, shirt, outfit, hat)."""
+    head_y = 1380 if caption else 1330
+    parts = [speed_lines(960, 480, rays, bg), person(960, head_y, 2.6, expression=expression,
+                                                     pose=character.pop("pose", "stand"), **character)]
+    if caption:
+        parts.append(fit_text(960, 175, caption, 1600, 130, outline="#fff", outline_width=20))
+    elif expression in ("shocked", "scared"):
+        parts.append(shock_marks(960, 150, 1.6))
+    return scene(*parts)
+
+
+def closeup(expression="thinking", backdrop="#CFEAF5", **character):
+    """Calm close-up (no burst) for thoughtful or sad beats."""
+    return scene(f'<rect width="{W}" height="{H}" fill="{backdrop}"/>', glow(960, 430, 380, "#fff", strength=0.25),
+                 person(960, 1330, 2.6, expression=expression, pose=character.pop("pose", "stand"), **character))
+
+
+def title_card(title, subtitle=None, bg=CREAM, accent=AMBER):
+    """Chapter or title card with a doodled frame and sparkles."""
+    out = [rect(140, 150, 1640, 600, "#FFFDF6", width=10, wobble=3),
+           rect(170, 180, 1580, 540, "none", accent, 6, 3),
+           fit_text(960, 460 if subtitle else 500, title, 1400, 170, fill=INK),
+           sparkle(260, 260, 1.2), sparkle(1660, 640, 1.0), sparkle(1600, 250, 0.8)]
+    if subtitle:
+        out.append(fit_text(960, 620, subtitle, 1300, 80, fill="#7A5A2E"))
+    return scene(*out, bg=bg)
+
+
+def timeline(events, highlight=None, title=None, bg=CREAM):
+    """Horizontal timeline. events = [("1347", "Plague arrives"), ...] (2 to 5 of them).
+    highlight = index of the event to circle in amber."""
+    n = len(events)
+    xs = slots(n, 240, 1680)
+    y = 480
+    out = [arrow(120, y, 1820, y, width=12, bend=0)]
+    if title:
+        out.append(fit_text(960, 150, title, 1500, 110))
+    for i, ((year, what), x) in enumerate(zip(events, xs)):
+        up = i % 2 == 0
+        out.append(blob(x, y, 30, 30, fill=AMBER if i == highlight else "#fff", width=8))
+        if i == highlight:
+            out.append(glow(x, y, 70, strength=0.3))
+        room = (1440 / n) * 0.92
+        out.append(fit_text(x, y - 75 if up else y + 125, year, room, 110, fill="#B5482A", outline="#fff", outline_width=10))
+        out.append(fit_text(x, y - 200 if up else y + 225, what, room, 72))
+    return scene(*out, bg=bg)
+
+
+def versus(left_label, right_label, left_art="", right_art="", left_bg="#CFEAF5", right_bg="#F7C59F"):
+    """Split screen comparison with a VS badge. *_art are fragments drawn in each half
+    (draw them centered near x=480 and x=1440)."""
+    return scene(f'<rect width="{W // 2}" height="{H}" fill="{left_bg}"/>',
+                 f'<rect x="{W // 2}" width="{W // 2}" height="{H}" fill="{right_bg}"/>',
+                 left_art, right_art, line([(960, -10), (960, H + 10)], width=10, wobble=4),
+                 fit_text(480, 130, left_label, 820, 100, outline="#fff"),
+                 fit_text(1440, 130, right_label, 820, 100, outline="#fff"),
+                 blob(960, 470, 95, 95, fill="#E4572E", width=9), text(960, 505, "VS", 100, fill="#fff"))
+
+
+def journey(stops, title=None):
+    """Parchment 'journey' card: a dotted route through labeled pins, left to right.
+    stops = ["Venice", "Persia", "China"]. It's schematic, not a real map."""
+    n = len(stops)
+    xs = slots(n, 250, 1670)
+    ys = [520 + (90 if i % 2 else -90) for i in range(n)]
+    out = [rect(80, 70, 1760, 760, "#F3E2B8", width=10, wobble=4)]
+    for _ in range(6):
+        out.append(line([(_rng.randint(150, 1750), _rng.randint(150, 760)), (_rng.randint(150, 1750), _rng.randint(150, 760))],
+                        "#E3CD98", 4, 8))
+    route = _smooth(list(zip(xs, ys)))
+    out.append(f'<path d="{route}" fill="none" stroke="#B5482A" stroke-width="9" stroke-dasharray="4 22" stroke-linecap="round"/>')
+    for x, y, name in zip(xs, ys, stops):
+        out.append(f'<path d="M{_f(x)},{_f(y)} c-40,-60 -40,-110 0,-110 c40,0 40,50 0,110 z" {_style("#E4572E", INK, 7)}/>')
+        out.append(blob(x, y - 75, 14, 14, fill="#fff", width=4))
+        out.append(fit_text(x, y + 70, name, 360, 64))
+    if title:
+        out.append(fit_text(960, 170, title, 1400, 96))
+    out.append(text(1700, 760, "N", 70) + arrow(1700, 700, 1700, 620, width=7, bend=0))
+    return scene(*out, bg="#E9D6A8")
+
+
+def interior(wall="#E8D2B0", floor="#B98B5E", window=True, torch=False):
+    """Indoor backdrop (hall, cottage, court): wall, floorboards, optional window and wall torch.
+    Floor line sits at GROUND_Y, so figures placed at GROUND_Y stand on the floor."""
+    out = [f'<rect width="{W}" height="{GROUND_Y}" fill="{wall}"/>',
+           f'<rect y="{GROUND_Y}" width="{W}" height="{H - GROUND_Y}" fill="{floor}"/>',
+           line([(-10, GROUND_Y), (W + 10, GROUND_Y)], width=9)]
+    for x in range(0, W, 240):
+        out.append(line([(x + 120, GROUND_Y + 5), (x + 90, H)], "#000", 4, 2).replace('stroke="#000"', 'stroke="#000" stroke-opacity="0.15"'))
+    for bx in range(120, W, 330):
+        for by in (260, 520):
+            out.append(line([(bx, by), (bx + 90, by)], "#000", 4, 1).replace('stroke="#000"', 'stroke="#000" stroke-opacity="0.08"'))
+    if window:
+        out.append(f'<path d="M1380,560 v-260 a110,110 0 0 1 220,0 v260 z" {_style("#CFEAF5", INK, 8)}/>')
+        out.append(line([(1490, 200), (1490, 560)], width=6) + line([(1380, 400), (1600, 400)], width=6))
+    if torch:
+        out.append(rect(305, 505, 60, 26, "#5A5A5A", width=5) + line([(335, 520), (360, 420)], "#6B3E1F", 18, 1) +
+                   glow(362, 400, 80, "#FFD37A", strength=0.25) + fire(362, 425, 0.45))
+    return "".join(out)
+
+
+def table(x, y=GROUND_Y, w=420, fill="#8A5A34"):
+    top = rect(x - w / 2, y - 190, w, 34, fill, width=7)
+    legs = line([(x - w / 2 + 40, y - 156), (x - w / 2 + 40, y)], fill, 22, 0.5) + line([(x + w / 2 - 40, y - 156), (x + w / 2 - 40, y)], fill, 22, 0.5)
+    return shadow(x, y, w) + legs + top
+
+
+def candle(x, y, s=1.0):
+    return glow(x, y - 90 * s, 70 * s, "#FFE9A8", strength=0.3) + rect(x - 18 * s, y - 80 * s, 36 * s, 80 * s, "#F6F0DC", width=6) + \
+        f'<path d="M{_f(x)},{_f(y - 125 * s)} q{_f(16 * s)},{_f(26 * s)} 0,{_f(40 * s)} q{_f(-16 * s)},{_f(-14 * s)} 0,{_f(-40 * s)} z" {_style("#FFC83D", INK, 4)}/>'
+
+
+def stage(kind="farm", time="day"):
+    """A complete, consistent backdrop in one call (sky, distance, ground, scenery), with the ground
+    line at GROUND_Y. kind: farm, desert, snow, village, castle, sea, forest, city, hall.
+    time: day, golden, dusk, night. Add characters and props on top. In "sea", stand characters on the
+    beach (x < 800); put sailors in the boat instead."""
+    sk = {"day": "day", "golden": "golden", "dusk": "dusk", "night": "night"}.get(time, time)
+    lit = moon(1650, 160) if time == "night" else sun(1650, 170)
+    k = kind
+    if k == "hall":
+        return interior(torch=True)
+    parts = [sky(sk), lit, cloud(860, 200, 0.9) if time != "night" else ""]
+    if k == "farm":
+        parts += [hills(620), ground(GROUND_Y, "grass"), hut(300, GROUND_Y + 10, 0.9), tree(1720, GROUND_Y + 10, 0.9)]
+    elif k == "desert":
+        parts += [hills(660, "#EBCB8B", "#D9B777", 3), ground(GROUND_Y, "sand"), pyramid(1500, GROUND_Y - 60, 0.5),
+                  tree(200, GROUND_Y + 10, 0.8, "palm")]
+    elif k == "snow":
+        parts += [mountains(GROUND_Y - 40), ground(GROUND_Y, "snow"), tree(180, GROUND_Y + 10, 0.8, "pine"), tree(1760, GROUND_Y + 10, 0.7, "pine")]
+    elif k == "village":
+        parts += [hills(640), ground(GROUND_Y, "dirt"), house(260, GROUND_Y + 5, 0.7), house(1680, GROUND_Y + 5, 0.75, roof="#6E7B8B"),
+                  hut(1250, GROUND_Y - 40, 0.45)]
+    elif k == "castle":
+        parts += [hills(660), castle(1450, GROUND_Y - 20, 0.75), ground(GROUND_Y, "grass"), tree(170, GROUND_Y + 10, 0.85)]
+    elif k == "sea":
+        # Beach across the left half so characters at GROUND_Y stand on sand, not water.
+        beach = [(-40, GROUND_Y - 30), (400, GROUND_Y - 36), (820, GROUND_Y - 10), (1000, GROUND_Y + 60),
+                 (900, H + 40), (-40, H + 40)]
+        parts += [water(GROUND_Y - 100), boat(1500, GROUND_Y - 60, 0.6),
+                  f'<path d="{_smooth(beach, True)}" {_style(GROUND["sand"][0], INK, 8)}/>',
+                  rock(860, GROUND_Y + 40, 0.7), tree(120, GROUND_Y - 20, 0.8, "palm")]
+    elif k == "forest":
+        parts += [hills(600, "#8DBF6A", "#76A956"), ground(GROUND_Y, "grass")] + \
+            [tree(x, GROUND_Y + 10, 0.8 + (i % 2) * 0.2, "pine" if i % 2 else "round") for i, x in enumerate((120, 420, 1480, 1780))]
+    elif k == "city":
+        parts += [ground(GROUND_Y, "stone")] + [house(x, GROUND_Y + 5, 0.62, wall=w, roof=r) for x, w, r in
+                                              ((180, "#F0D9B5", "#B5482A"), (560, "#E6E0D2", "#6E7B8B"), (1360, "#F3E2B8", "#8A5A34"), (1740, "#E8D2B0", "#B5482A"))]
+    return "".join(parts)
+
+
+def thumbnail_layout(line1, line2, character, extra="", bg=AMBER, line2_color="#B5482A"):
+    """Proven thumbnail layout: 2 huge auto-fitted lines on the left, a big reacting character on the
+    right, burst background. character = person()/mascot() settings dict, including expression."""
+    ch = dict(character)
+    expr = ch.pop("expression", "shocked")
+    pose = ch.pop("pose", "arms_up")
+    return thumbnail(speed_lines(1450, 420, "#FFD37A", bg), extra,
+                     person(1440, 1180, 2.1, expression=expr, pose=pose, **ch),
+                     fit_text(560, 430, line1, 1000, 210, outline="#fff", outline_width=22),
+                     fit_text(560, 680, line2, 1000, 210, fill=line2_color, outline="#fff", outline_width=22), bg=bg)

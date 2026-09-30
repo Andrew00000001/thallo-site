@@ -47,15 +47,22 @@ never make a video that overlaps one of them. If the topic truly can't be done a
 - **Scenes:** split into 28–40 scenes of 1–3 sentences each (4–15 seconds of speech).
 
 ## 4. Draw every shot with the drawing kit (quality matters most here)
-Each scene has **exactly 2 shots**, so the picture changes every 4–5 seconds (56–80 pictures a
-video). The builder switches pictures on a spoken word halfway through the scene. A shot is either:
-- `{"svg": scene(...)}`: a full new picture (a new angle, close-up or location), or
-- `{"add": fragments}`: kit pieces drawn **on top of the previous shot** (a reaction, label,
-  arrow, number, or a character entering).
+### How a scene moves
+Each scene has **exactly 2 shots**. The picture switches on a spoken word halfway through. A shot is:
+- `{"svg": scene(...)}`: a full new picture with its own camera move, or
+- `{"add": fragments}`: pieces that **animate in** on top of the previous picture (the camera keeps
+  moving, with no cut).
 
-Use `add` for about half of all second shots and full new pictures for the rest. Make shot 2 match
-the second half of the narration, and never repeat shot 1 unchanged. The mascot opens and closes
-every video.
+Either kind can also carry `"pops": [fragment, fragment, ...]`: pieces that **fade and rise into
+place one after another** during that shot, each landing on a spoken word. **This is what makes
+videos engaging:** the frame builds up as the narrator talks. For example, the background appears,
+then the character pops in, then the date banner, then the reaction mark.
+
+- Give most full shots **1–3 pops** (the main character, a label or date, a reaction or effect).
+  Draw the setting in `svg` and bring the story elements in as pops.
+- Use `add` for about half of all second shots.
+- Aim for a new visual beat every **2–3 seconds**. The builder prints `seconds_per_beat`.
+- Never repeat a shot unchanged. The mascot opens and closes every video.
 
 **Use `doodle.py`.** Read it first: every function's docstring lists its options. Don't hand-write
 raw SVG for anything the kit already draws. Write one script, `episodes/YYYY-MM-DD_build.py`, that
@@ -69,28 +76,57 @@ FARMER = dict(skin=SKINS[1], shirt="#6B8E4E", hair="brown", hat="wide")   # reus
 scenes = []
 
 seed(1)   # a new seed before each full shot
-shot1 = scene(sky("golden"), sun(1650, 170), hills(640), ground(800, "grass"), hut(330, 820),
-              person(760, 820, expression="shocked", pose="arms_up", **FARMER),
-              bird(1160, 820, 1.3, big=True), banner("AUSTRALIA, 1932"))
-scenes.append({"narration": "...", "shots": [{"svg": shot1}, {"add": exclaim(930, 400) + shock_marks(760, 440)}]})
+scenes.append({"narration": "...", "shots": [
+    {"svg": scene(stage("farm", "golden")),
+     "pops": [person(760, GROUND_Y, expression="shocked", pose="arms_up", **FARMER), banner("AUSTRALIA, 1932")]},
+    {"add": bird(1160, GROUND_Y, 1.3, big=True), "pops": [exclaim(930, 400)]},
+]})
+scenes.append({"narration": "...", "shots": [
+    {"svg": reaction("shocked", caption="TWENTY THOUSAND?!", **FARMER)},
+    {"svg": timeline([("Nov 2", "First attack"), ("Nov 8", "Army pulls back")], highlight=1)},
+]})
 ...
-thumb = thumbnail(...)   # 1280x720, same 1920x1080 coordinates
+thumb = thumbnail_layout("THEY LOST", "TO BIRDS", dict(expression="shocked", **FARMER),
+                         extra=bird(700, 1000, 1.0, big=True))
 json.dump({"title": ..., "description": ..., "tags": [...], "topic": ..., "thumbnail_svg": thumb,
            "scenes": scenes}, open("episodes/YYYY-MM-DD.json", "w"), ensure_ascii=False)
 ```
 
-**What the kit has:**
+### Ready-made shots (use these often: they look great and are hard to get wrong)
+| Helper | Use it for |
+|---|---|
+| `stage(kind, time)` | a complete backdrop in one call: farm, desert, snow, village, castle, sea, forest, city, hall. Ground at `GROUND_Y` |
+| `reaction(expression, caption=..., **character)` | a big close-up over a cartoon burst: the funniest or most shocking beats |
+| `closeup(expression, **character)` | calm close-ups for thoughtful or sad beats |
+| `timeline(events, highlight=i, title=...)` | when things happened (2–5 events) |
+| `versus(left, right, left_art, right_art)` | comparisons ("what they expected vs what happened") |
+| `journey(stops, title=...)` | travel and routes (schematic, never a real map) |
+| `title_card(title, subtitle)` | chapter breaks and the opening title |
+| `interior()`, `table()`, `candle()` | indoor scenes: courts, halls, cottages |
+| `thumbnail_layout(line1, line2, character, extra)` | the thumbnail: always start from this |
+
+Aim for at least 5 `reaction` or `closeup` shots, 1–2 `timeline`/`versus`/`journey` shots, and a
+`title_card` near the start of every video. Use `slots(n)` for evenly spaced x positions, and
+`fit_text(...)` for any long label so it can never overflow.
+
+**The rest of the kit:**
 - **Settings:** `sky` (day/golden/dusk/night/storm), `sun`, `moon`, `glow`, `cloud`, `hills`,
   `mountains`, `ground` (grass/sand/snow/dirt/stone/floor), `water`.
 - **Places and nature:** `tree` (round/pine/palm), `rock`, `hut`, `house`, `castle`, `temple`,
   `pyramid`, `boat`.
-- **People:** `person` (9 poses, 9 expressions, 6 outfits including a draped `cloak`, hats, props, skin and hair),
-  `mascot` (the caveman with the giant pencil), `crowd`.
+- **People:** `person` (9 poses, 9 expressions, 6 outfits including a draped `cloak`, hats,
+  props, skin and hair), `mascot` (the caveman with the giant pencil), `crowd`.
 - **Animals:** `animal` (dog/cat/horse/cow/sheep), `bird` (`big=True` for emu or ostrich).
 - **Props:** `spear`, `sword`, `shield`, `scroll`, `coin`, `crown`, `fire`.
-- **Text:** `banner`, `label`, `big_number`, `speech`, `text`.
-- **Effects:** `arrow`, `exclaim`, `question`, `shock_marks`, `sweat`, `sparkle`, `motion_lines`.
+- **Text:** `banner`, `label`, `big_number`, `speech`, `text`, `fit_text`.
+- **Effects:** `arrow`, `exclaim`, `question`, `shock_marks`, `sweat`, `sparkle`, `motion_lines`,
+  `speed_lines`.
 - **Hand-drawn primitives:** `blob`, `line`, `poly`, `rect`, `shadow`, `group`.
+
+**Placement rules that prevent the most common mistakes:**
+- Stand figures and buildings **on `GROUND_Y`**. Nothing floats, and nothing stands on water or sky.
+- Keep text at least 40 px from any figure's head.
+- One label per shot at most, plus the date banner.
 
 **For objects the kit doesn't have** (a specific machine, map or artifact), build them from the
 primitives in the same palette. Each one needs an ink outline, a flat shadow on one side (a darker
@@ -128,9 +164,9 @@ studio's) characters, logos, castles or trademarks.
    angle often.
 
 ### Thumbnail
-Use `thumbnail(...)` with:
+Start from `thumbnail_layout(...)` (or `thumbnail(...)` for a custom layout). It needs:
 - a bold amber or high-contrast background,
-- 2–5 huge words (`text(..., size=170–230, outline="#fff")`) that don't overlap the character,
+- 2–5 huge words that don't overlap the character (`thumbnail_layout` handles this),
 - one big character (`s=1.6`–`2.2`) with a strong emotion, plus the story's key object.
 
 ## 5. Review before building (required)
@@ -138,14 +174,24 @@ Use `thumbnail(...)` with:
 python3 episodes/YYYY-MM-DD_build.py
 python3 review.py episodes/YYYY-MM-DD.json --out /tmp/sa_review
 ```
-It checks the JSON, the word count, the 2 shots per scene, and any text in the caption zone, and
-exits 1 if something must be fixed. It also renders **contact sheets** (16 numbered shots each; the
-red line marks the caption zone) and the thumbnail at full and phone size.
+`review.py` automatically catches these and **exits 1 until they're fixed**:
+- text in the caption zone, text running off the frame, overlapping text,
+- near-empty frames, shots identical to the one before,
+- the wrong word count, not exactly 2 shots per scene.
+
+It also prints:
+- **VERIFY**: every on-screen number that isn't written the same way in the narration. Check each
+  one against your sources.
+- **WARNING**: possible spelling mistakes in narration and on-screen text. Fix real typos; ignore
+  names.
+
+Then it renders **contact sheets** (16 numbered final frames each; the red line marks the caption
+zone) and the thumbnail at full and phone size.
 
 **Open and look at every sheet and both thumbnails.** Score each shot 1–5 against the quality bar.
-Redraw every shot under 4 (broken or overlapping shapes, tiny subjects, empty backgrounds,
-mismatched characters, text hitting drawings). Re-run `review.py` until it exits 0 and every shot
-scores 4 or higher. Put the average score in the report.
+Redraw every shot under 4: broken or overlapping shapes, tiny subjects, empty backgrounds, floating
+figures, mismatched characters, or a picture that doesn't match its narration. Re-run `review.py`
+until it exits 0 and every shot scores 4 or higher. Put the average score in the report.
 
 The description has a 2–3 sentence summary, then 2–4 real sources (books, museums, or URLs you
 have confirmed exist), then "New story every day. Subscribe!" and 3 hashtags. The title is under
@@ -155,7 +201,8 @@ have confirmed exist), then "New story every day. Subscribe!" and 3 hashtags. Th
 ```bash
 python3 make_video.py episodes/YYYY-MM-DD.json --out /tmp/sa_build
 ```
-The length should be 4–9 minutes, with `seconds_per_shot` of 6 or less. Pull 4 frames with ffmpeg
+The length should be 4–9 minutes, with `seconds_per_beat` of 3 or less. A full video takes about
+10–15 minutes to build, so let it finish. Pull 4 frames with ffmpeg
 (`python3 -c "import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())"`) and look at them.
 The voice service sometimes drops requests; the builder retries by itself.
 
@@ -176,6 +223,6 @@ say so; it doesn't block the run.
 Don't commit or push anything: the upload itself is the record. Finish with a short report:
 - the topic, title and YouTube URL,
 - `channel_id`, privacy and the scheduled publish time,
-- the length and number of shots,
+- the length, number of pictures and `seconds_per_beat`,
 - the average shot score from the review,
 - any problems.
