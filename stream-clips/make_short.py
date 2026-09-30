@@ -186,9 +186,12 @@ def write_ass(sh, words, popups, chapters, length, streamer, path):
         ev.append(f"Dialogue: 2,{ass_time(p['at'])},{ass_time(min(p['at'] + p.get('dur', 2.5), length))},Pop,,0,0,0,,"
                   f"{pop_in}{clean(p['text'])}")
     emphasis = {norm(x) for e in sh.get("emphasis", []) for x in e.split()}
-    for g in caption_groups(words):
+    groups = caption_groups(words)
+    for n, g in enumerate(groups):
+        # A line stays up briefly after its last word, but never into the next line (they'd stack).
+        next_start = groups[n + 1][0]["start"] if n + 1 < len(groups) else length
         for k, w in enumerate(g):  # the spoken word lights up; emphasised words are red and bigger
-            end = g[k + 1]["start"] if k + 1 < len(g) else w["end"] + 0.25
+            end = g[k + 1]["start"] if k + 1 < len(g) else min(w["end"] + 0.25, next_start)
             parts = []
             for j, x in enumerate(g):
                 hot = norm(x["word"]) in emphasis
