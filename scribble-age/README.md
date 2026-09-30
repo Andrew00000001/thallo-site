@@ -19,7 +19,8 @@ A Claude routine, **"Scribble Age daily video"**, starts a fresh cloud session e
 6. `upload.py` uploads it through the YouTube Data API and schedules it to go public at
    **3:00 PM Eastern**.
 
-Each run's report arrives by push notification and email to the Claude account.
+Each run's report arrives by push notification and email to the Claude account. Runs never commit
+or push (scheduled sessions have no push access): the channel is the only record of past topics.
 
 ## Files
 | File | Purpose |
@@ -30,7 +31,6 @@ Each run's report arrives by push notification and email to the Claude account.
 | `review.py` | Pre-build checks and contact sheets |
 | `make_video.py` | Voice, rendering, captions, assembly |
 | `upload.py` | YouTube upload and scheduling |
-| `history.json` | Log of posted episodes (YouTube is the source of truth) |
 | `assets/` | Patrick Hand font (SIL Open Font License) and the channel profile picture |
 
 ## Accounts and credentials
@@ -53,3 +53,6 @@ Each run's report arrives by push notification and email to the Claude account.
 - **Uploads fail with `token refresh failed`:** the refresh token was revoked or expired. Create a
   new one in the OAuth Playground (scope `youtube.upload`) as ojj9582, then update
   `YT_REFRESH_TOKEN`.
+- **Dedupe against the whole channel, not just the latest 15 videos:** the current token is
+  upload-only, so `topics.py` falls back to the RSS feed. Regenerate `YT_REFRESH_TOKEN` with both
+  `youtube.upload` and `youtube.readonly` and it switches to the YouTube Data API automatically.

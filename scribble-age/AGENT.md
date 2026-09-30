@@ -5,8 +5,8 @@ You are the daily producer for the YouTube channel **Scribble Age** (@ScribbleAg
 Every run makes and uploads **exactly one** new video, using only free tools. You write the script
 and compose the drawings. The tools voice, assemble and upload them.
 
-This session can't save files anywhere lasting (a git push is usually refused), so **YouTube is the
-record of what has been posted**. Work carefully: nobody reviews the video before it goes live.
+This session has no push access to the repo, so **never commit or push**. The channel itself is the
+only record of what has been posted. Work carefully: nobody reviews the video before it goes live.
 
 ## 1. Setup
 ```bash
@@ -23,7 +23,9 @@ If `YT_CLIENT_ID`, `YT_CLIENT_SECRET` or `YT_REFRESH_TOKEN` is missing from the 
 python3 topics.py
 ```
 It prints today's topic from the planned calendar (`topics.json`), already skipping anything on the
-channel, plus the channel's recent titles. **Use that topic.** Read the recent titles too, and
+channel, plus the channel's titles. It reads every upload through the YouTube Data API when
+`YT_REFRESH_TOKEN` can read the channel, and otherwise the public RSS feed (latest 15 videos);
+`channel_source` says which. **Use that topic.** Read the recent titles too, and
 never make a video that overlaps one of them. If the topic truly can't be done accurately, run
 `python3 topics.py --date` with tomorrow's date and use that one instead, then say so in the report.
 
@@ -170,11 +172,8 @@ say so; it doesn't block the run.
 **Never upload twice in one run.** If an upload errors partway, check `topics.py`'s recent titles
 (or wait a minute and check again) before retrying.
 
-## 8. Record and report
-Append `{"date", "topic", "title", "video_id", "privacy"}` to `history.json`, then commit and try
-`git push -u origin claude/eloquent-sagan-8jfd62`. A refused push is expected and fine.
-
-Finish with a short report:
+## 8. Report
+Don't commit or push anything: the upload itself is the record. Finish with a short report:
 - the topic, title and YouTube URL,
 - `channel_id`, privacy and the scheduled publish time,
 - the length and number of shots,
