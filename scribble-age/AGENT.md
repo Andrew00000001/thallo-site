@@ -84,7 +84,7 @@ json.dump({"title": ..., "description": ..., "tags": [...], "topic": ..., "thumb
   `mountains`, `ground` (grass/sand/snow/dirt/stone/floor), `water`.
 - **Places and nature:** `tree` (round/pine/palm), `rock`, `hut`, `house`, `castle`, `temple`,
   `pyramid`, `boat`.
-- **People:** `person` (9 poses, 9 expressions, 5 outfits, hats, props, skin and hair),
+- **People:** `person` (9 poses, 9 expressions, 6 outfits including a draped `cloak`, hats, props, skin and hair),
   `mascot` (the caveman with the giant pencil), `crowd`.
 - **Animals:** `animal` (dog/cat/horse/cow/sheep), `bird` (`big=True` for emu or ostrich).
 - **Props:** `spear`, `sword`, `shield`, `scroll`, `coin`, `crown`, `fire`.

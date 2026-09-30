@@ -597,11 +597,11 @@ def _hat(cx, cy, r, hat):
 
 
 def person(x, y, s=1.0, skin=SKIN, shirt="#4E7FB0", pants="#3B3B4F", hair="brown", hair_style="short",
-           expression="neutral", pose="stand", facing=1, hat=None, outfit="shirt", prop=None):
+           expression="neutral", pose="stand", facing=1, hat=None, outfit="shirt", prop=None, cloak_color="#C9A45C"):
     """A Scribble Age character standing on (x, y).
     pose: stand, wave, arms_up, point, hold, walk, run, shrug, cheer
     expression: neutral, happy, sad, shocked, angry, scared, smug, thinking, laughing
-    outfit: shirt, robe, armor, fur, dress
+    outfit: shirt, robe, armor, fur, dress, cloak (a rounded draped cape over a shirt; cloak_color sets it)
     prop: None, spear, sword, shield, torch, scroll, coin
     hat: None, helmet, crown, wide, hood, top
     """
@@ -647,6 +647,15 @@ def person(x, y, s=1.0, skin=SKIN, shirt="#4E7FB0", pants="#3B3B4F", hair="brown
                        for dx, dy in ((-30, 40), (15, 60), (-10, 100), (30, 120), (-40, 130)))
     if outfit == "shirt":
         out += line([(x - 55 * s, hip_y - 10 * s), (x + 55 * s, hip_y - 10 * s)], "#2E2E3E", 8, 1)
+    if outfit == "cloak":
+        # Draped cape: rounded shoulders flowing past the hips, with fold lines and a clasp.
+        cape = [(x - 72 * s, neck_y + 40 * s), (x - 40 * s, neck_y + 4 * s), (x, neck_y - 2 * s), (x + 40 * s, neck_y + 4 * s),
+                (x + 72 * s, neck_y + 40 * s), (x + 86 * s, hip_y + 30 * s), (x + 40 * s, hip_y + 44 * s),
+                (x, hip_y + 36 * s), (x - 40 * s, hip_y + 46 * s), (x - 86 * s, hip_y + 30 * s)]
+        out += f'<path d="{_smooth(cape, True)}" {_style(cloak_color, INK, 8)}/>'
+        out += "".join(line([(x + dx * s, neck_y + 45 * s), (x + dx * 1.2 * s, hip_y + 25 * s)], "#000", 4, 1.5)
+                       .replace('stroke="#000"', 'stroke="#000" stroke-opacity="0.2"') for dx in (-45, -12, 22, 52))
+        out += blob(x, neck_y + 18 * s, 12 * s, 12 * s, fill=AMBER, width=4)
     # arms: (shoulder -> elbow -> hand) per side
     sh_y = neck_y + 30 * s
     arms = {
