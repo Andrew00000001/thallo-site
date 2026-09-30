@@ -133,3 +133,43 @@ def test_listing_reject_sends_back_with_notes(conn, monkeypatch):
     assert store.get(conn, pid)["status"] == "pick_approved"
     listing.draft(conn, pid)
     assert "drop the guarantee line" in seen["prompt"]
+
+
+def test_blank_numbers_are_neutral_and_flagged(conn, tmp_path):
+    csv_path = tmp_path / "c.csv"
+    csv_path.write_text(
+        "name,category,price,cost,units_sold,growth_pct,source_url,evidence\n"
+        "Linen loungewear set,,$68.00,,,,https://example.com/a,Featured in a spring trend roundup\n"
+    )
+    assert discovery.discover(conn, str(csv_path)) == (1, 0)
+    d = discovery.shortlist(conn)[0]["score_detail"]
+    assert d["margin"] is None
+    assert d["unverified"] == ["cost", "units sold", "growth"]
+    assert "Featured in a spring trend roundup" in review.render(conn)
+
+
+def test_handoff_runs_stages_without_the_api(conn, monkeypatch):
+    from thallo_agent import handoff
+
+    def no_api(*a, **k):
+        raise AssertionError("handoff must not call the API")
+
+    monkeypatch.setattr(llm, "generate", no_api)
+    discovery.discover(conn, SAMPLE)
+    pid = discovery.shortlist(conn)[0]["id"]
+    assert handoff.next_task(conn) is None  # nothing approved yet
+    gates.approve(conn, pid, "pick")
+
+    task = handoff.next_task(conn)
+    assert (task["stage"], task["product_id"]) == ("listing", pid)
+    assert "title" in task["json_schema"]["properties"]
+    with pytest.raises(ValueError):
+        handoff.submit(conn, "listing", pid, '{"title": "missing fields"}')
+    flags = handoff.submit(conn, "listing", pid, FAKE_LISTING.model_dump_json())
+    assert any(f["reason"] == "absolute guarantee" for f in flags)
+
+    gates.approve(conn, pid, "listing")
+    assert handoff.next_task(conn)["stage"] == "scripts"
+    handoff.submit(conn, "scripts", pid, FAKE_SCRIPTS.model_dump_json())
+    assert store.get(conn, pid)["scripts"][0]["ai_label"] is True
+    assert handoff.next_task(conn) is None

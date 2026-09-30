@@ -5,28 +5,33 @@ The first three stages of the pipeline in the [design doc](https://claude.ai/cod
 | Stage | Command | Waits at |
 | --- | --- | --- |
 | 1. Trend shortlist | `discover <csv>`, `shortlist` | Gate 1: pick |
-| 2. Listing drafts | `draft-listings` | Gate 2: listing |
-| 3. Video scripts + AI video prompts | `draft-scripts` | Gate 3: video |
+| 2. Listing drafts | `task` / `submit listing` (or `draft-listings` with an API key) | Gate 2: listing |
+| 3. Video scripts + AI video prompts | `task` / `submit scripts` (or `draft-scripts` with an API key) | Gate 3: video |
 
 Not built yet, on purpose: creating products on TikTok Shop (Create Product, seller token) and posting shoppable videos (Post Shoppable Video, creator token). Posting waits on one live test of the shop's own account authorizing as a creator. Rendering videos from the prompts is done with Higgsfield outside this code.
+
+## How it runs
+
+A daily Claude routine does the work (steps in [ROUTINE.md](ROUTINE.md)). It researches trends on the public web, fills the candidate CSV, writes listing and script drafts itself through `task` / `submit`, and posts a review in the project. No Anthropic API key is needed, and data lives in the project's shared folder so it survives between runs. Bryce approves or rejects by replying in the project.
 
 ## Setup
 
 ```
 cd agent
 python3 -m pip install -r requirements.txt
-export ANTHROPIC_API_KEY=...   # stages 2 and 3 call Claude
 ```
 
-## Daily run
+Optional: with `ANTHROPIC_API_KEY` set, `draft-listings` and `draft-scripts` call the Claude API directly instead of going through `task` / `submit`.
+
+## Commands
 
 ```
 python3 -m thallo_agent discover candidates.csv     # score today's candidates
 python3 -m thallo_agent review --out review.md      # read what's waiting
 python3 -m thallo_agent approve 4 --gate pick       # or: reject 4 --gate pick --note "why"
-python3 -m thallo_agent draft-listings
+python3 -m thallo_agent task                       # next draft to write (JSON), or null
+python3 -m thallo_agent submit listing 4 draft.json  # store it; runs the compliance check
 python3 -m thallo_agent approve 4 --gate listing
-python3 -m thallo_agent draft-scripts
 python3 -m thallo_agent approve 4 --gate video
 python3 -m thallo_agent status
 ```
@@ -35,9 +40,9 @@ A pick rejection drops the product for good, so it is not suggested again. A lis
 
 ## Candidate CSV
 
-Columns: `name, category, price, cost, units_sold, growth_pct, source_url`. Leave `category` blank to detect it from the name. `examples/candidates_sample.csv` is made-up sample data for testing, not market data.
+Required columns: `name, price, source_url`. Optional: `category` (detected from the name if blank), `cost`, `units_sold`, `growth_pct`, `evidence`. A blank number is scored as neutral and flagged "unverified", never guessed. `examples/candidates_sample.csv` is made-up sample data for testing, not market data.
 
-TikTok Creative Center's Top Products page has no public API, so v1 takes a CSV filled in by hand. Once the Partner Center app exists, List Opportunities can produce the same shape.
+The routine fills this from public web research, within each site's terms; it does not scrape TikTok or Creative Center, which has no public API. Once the Partner Center app exists, List Opportunities can feed the same shape.
 
 ## Scoring
 

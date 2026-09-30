@@ -83,7 +83,11 @@ def draft(conn, product_id: int) -> list[dict]:
     p = store.get(conn, product_id)
     if p is None or p["status"] != "listing_approved":
         raise ValueError(f"Product {product_id} is not approved at the listing gate")
-    scripts = [s.model_dump() for s in llm.generate(SYSTEM, _prompt(p), ScriptSet).scripts]
+    return save(conn, product_id, [s.model_dump() for s in llm.generate(SYSTEM, _prompt(p), ScriptSet).scripts])
+
+
+def save(conn, product_id: int, scripts: list[dict]) -> list[dict]:
+    """Force the AI label, run the compliance check, and move the product to gate 3."""
     for s in scripts:
         s["ai_label"] = True  # never trust the model on this one
         s["compliance_flags"] = compliance.check(script_text(s))

@@ -60,7 +60,11 @@ def draft(conn, product_id: int) -> dict:
     p = store.get(conn, product_id)
     if p is None or p["status"] != "pick_approved":
         raise ValueError(f"Product {product_id} is not approved at the pick gate")
-    result = llm.generate(SYSTEM, _prompt(p), ListingDraft).model_dump()
+    return save(conn, product_id, llm.generate(SYSTEM, _prompt(p), ListingDraft).model_dump())
+
+
+def save(conn, product_id: int, result: dict) -> dict:
+    """Run the compliance check and move the product to gate 2."""
     result["compliance_flags"] = compliance.check(listing_text(result))
     store.update(conn, product_id, listing=result, status="listing_drafted")
     return result

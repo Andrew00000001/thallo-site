@@ -14,13 +14,14 @@ def pick_section(conn) -> list[str]:
     out = ["## Gate 1: pick products", ""]
     if not rows:
         return out + ["Nothing waiting.", ""]
-    out += ["| ID | Product | Collection | Score | Price | Margin | Policy flags |",
-            "| --- | --- | --- | --- | --- | --- | --- |"]
+    out += ["| ID | Product | Collection | Score | Price | Margin | Why it's trending | Flags |",
+            "| --- | --- | --- | --- | --- | --- | --- | --- |"]
     for p in rows:
         d = p["score_detail"]
-        flags = ", ".join(d["policy_flags"]) or "none"
+        flags = d["policy_flags"] + [f"unverified {u}" for u in d.get("unverified", [])]
+        margin = "?" if d["margin"] is None else f"{d['margin']:.0%}"
         out.append(f"| {p['id']} | [{p['name']}]({p['source_url']}) | {p['category']} | {p['score']} "
-                   f"| ${p['price']:.2f} | {d['margin']:.0%} | {flags} |")
+                   f"| ${p['price']:.2f} | {margin} | {d.get('evidence') or ''} | {', '.join(flags) or 'none'} |")
     return out + [""]
 
 

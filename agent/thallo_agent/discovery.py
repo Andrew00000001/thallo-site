@@ -1,11 +1,13 @@
 """Stage 1: score trend candidates and build the gate-1 shortlist.
 
-Input is a CSV of candidates. TikTok Creative Center's Top Products page has no
-public API, so v1 takes a CSV typed or exported by hand. Once the Partner
-Center app exists, List Opportunities (seller token) can feed the same CSV shape.
+Input is a CSV of candidates. The daily routine (see ROUTINE.md) fills it from
+public trend research; once the Partner Center app exists, List Opportunities
+(seller token) can feed the same shape.
 
-Required columns: name, price, cost, units_sold, growth_pct, source_url.
-Optional column: category (one of config.CATEGORIES; detected from the name if blank).
+Required columns: name, price, source_url.
+Optional columns: category (detected from the name if blank), cost, units_sold,
+growth_pct, evidence. A blank number is scored as neutral and flagged
+"unverified" rather than guessed.
 """
 
 import csv
@@ -14,7 +16,12 @@ import re
 
 from . import compliance, config, store
 
-REQUIRED = ("name", "price", "cost", "units_sold", "growth_pct", "source_url")
+REQUIRED = ("name", "price", "source_url")
+
+
+def _num(v) -> float | None:
+    v = (v or "").strip().replace("$", "").replace(",", "").rstrip("%")
+    return float(v) if v else None
 
 
 def detect_category(name: str) -> tuple[str | None, int]:
@@ -36,22 +43,34 @@ def score(c: dict, max_units: int) -> dict | None:
     if not category:
         return None
 
-    price, cost = float(c["price"]), float(c["cost"])
-    if price <= 0:
+    price, cost = _num(c["price"]), _num(c.get("cost"))
+    if not price or price <= 0:
         return None
-    margin = (price - cost) / price
-    if margin < config.MIN_MARGIN:
-        return None
+    unverified = []
+    if cost is None:
+        margin, margin_s = None, 0.5
+        unverified.append("cost")
+    else:
+        margin = (price - cost) / price
+        if margin < config.MIN_MARGIN:
+            return None
+        margin_s = min(1.0, margin / 0.7)
 
-    units = max(int(float(c["units_sold"])), 0)
-    growth = float(c["growth_pct"])
-
+    units, growth = _num(c.get("units_sold")), _num(c.get("growth_pct"))
+    units = None if units is None else max(int(units), 0)
     fit = min(1.0, 0.6 + 0.2 * hits)
     # Log scale so one runaway seller doesn't flatten everyone else; growth capped at +200%.
-    volume = math.log1p(units) / math.log1p(max_units) if max_units > 0 else 0.0
-    trend = max(0.0, min(growth, 200.0)) / 200.0
+    if units is None:
+        volume = 0.5
+        unverified.append("units sold")
+    else:
+        volume = math.log1p(units) / math.log1p(max_units) if max_units > 0 else 0.0
+    if growth is None:
+        trend = 0.5
+        unverified.append("growth")
+    else:
+        trend = max(0.0, min(growth, 200.0)) / 200.0
     momentum = 0.6 * volume + 0.4 * trend
-    margin_s = min(1.0, margin / 0.7)
 
     flags = [f["reason"] for f in compliance.check(c["name"])]
     risk = 1.0
@@ -75,8 +94,10 @@ def score(c: dict, max_units: int) -> dict | None:
         "source_url": c["source_url"],
         "score": round(total, 1),
         "score_detail": {
-            "fit": round(fit, 2), "momentum": round(momentum, 2), "margin": round(margin, 2),
-            "risk": round(risk, 2), "policy_flags": flags,
+            "fit": round(fit, 2), "momentum": round(momentum, 2),
+            "margin": None if margin is None else round(margin, 2),
+            "risk": round(risk, 2), "policy_flags": flags, "unverified": unverified,
+            "evidence": (c.get("evidence") or "").strip(),
         },
     }
 
@@ -93,7 +114,7 @@ def load_csv(path: str) -> list[dict]:
 def discover(conn, csv_path: str) -> tuple[int, int]:
     """Score every row and store the in-niche ones. Returns (kept, dropped)."""
     rows = load_csv(csv_path)
-    max_units = max((int(float(r["units_sold"])) for r in rows), default=0)
+    max_units = int(max((_num(r.get("units_sold")) or 0 for r in rows), default=0))
     kept = dropped = 0
     for r in rows:
         s = score(r, max_units)

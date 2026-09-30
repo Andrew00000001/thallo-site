@@ -4,7 +4,17 @@ import os
 
 MODEL = os.environ.get("THALLO_MODEL", "claude-opus-5-5")
 
-DB_PATH = os.environ.get("THALLO_DB", os.path.join(os.path.dirname(__file__), "..", "thallo.db"))
+_SHARED = "/mnt/project-files"  # the project's shared folder outlives any one session
+
+
+def _default_db() -> str:
+    if os.path.isdir(_SHARED):
+        os.makedirs(os.path.join(_SHARED, "thallo-agent"), exist_ok=True)
+        return os.path.join(_SHARED, "thallo-agent", "thallo.db")
+    return os.path.join(os.path.dirname(__file__), "..", "thallo.db")
+
+
+DB_PATH = os.environ.get("THALLO_DB") or _default_db()
 
 # Thallo's four collections, from index.html. Keywords decide category fit.
 CATEGORIES = {
