@@ -28,6 +28,8 @@ GUIDE = [
     ('other', 'Other Coverages & Options', '4% · 6 items', ['other']),
 ]
 SHUFFLE_BLOCK = re.compile(r'\b(all|none) of the above\b|\bboth [A-D] and [A-D]\b|\bneither [A-D] nor [A-D]\b|\b[A-D] (and|or) [A-D]\b|\b(choices?|answers?) [A-D]\b')
+# A choice that starts with a number (optionally $), with an optional unit word, e.g. "$1,500", "30 days", "20%".
+NUM_LEAD = re.compile(r'^\s*(\$)?(\d[\d,]*(?:\.\d+)?)\s*(%|(?:days?|years?|months?|weeks?|hours?|minutes?)\b)?', re.I)
 
 errors, warns = [], []
 questions, cards, numbers = [], [], []
@@ -47,6 +49,13 @@ for path in sorted(glob.glob(os.path.join(RES, '*_questions.json'))):
         if not q.get('source'): warns.append(f'{qid}: no source')
         out = {k: q[k] for k in ('id', 'topic', 'sub', 'q', 'choices', 'answer', 'explain', 'source') if k in q}
         if any(SHUFFLE_BLOCK.search(c) for c in ch): out['noShuffle'] = True
+        # Exam convention: numeric answer sets are listed in ascending order, not shuffled.
+        nums = [NUM_LEAD.match(c) for c in ch]
+        if all(nums) and len({(m.group(1) or '', (m.group(3) or '').lower().rstrip('s')) for m in nums}) == 1:
+            order = sorted(range(4), key=lambda i: float(nums[i].group(2).replace(',', '')))
+            out['choices'] = [ch[i] for i in order]
+            out['answer'] = order.index(q['answer'])
+            out['noShuffle'] = True
         questions.append(out)
 
 for path in sorted(glob.glob(os.path.join(RES, '*_cards.json'))):

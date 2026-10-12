@@ -108,12 +108,12 @@
   "id": "core-008",
   "topic": "gen",
   "sub": "Reinsurance",
-  "q": "Under a quota share (pro rata) reinsurance agreement, the reinsurer:",
+  "q": "Under a quota share reinsurance agreement, the reinsurer:",
   "choices": [
    "Pays only the portion of a loss that exceeds the ceding company's retention",
    "Reviews and accepts or rejects each risk individually",
    "Pays losses only after an annual aggregate deductible is met",
-   "Receives an agreed percentage of the premium and pays the same percentage of each loss"
+   "Receives a set percentage of premiums and pays that percentage of losses"
   ],
   "answer": 3,
   "explain": "Pro rata (proportional) reinsurance shares premium and losses in the same fixed percentage; quota share cedes an agreed percentage of every risk in a class. Paying only above a retention describes excess of loss.",
@@ -183,7 +183,7 @@
   "id": "core-013",
   "topic": "gen",
   "sub": "Producer/Insurer Relationship",
-  "q": "Under the Michigan Insurance Code, a licensed producer who is NOT appointed by the insurer with which a policy is placed is treated as:",
+  "q": "Under the Michigan Insurance Code, a licensed producer who is not appointed by the insurer with which a policy is placed is treated as:",
   "choices": [
    "An agent of the insured",
    "An agent of the insurer",
@@ -217,7 +217,7 @@
   "choices": [
    "The insurer's promise to pay covered losses under the policy",
    "The producer's signature on the completed application",
-   "Payment of the premium and compliance with the policy's provisions",
+   "Payment of premium and compliance with policy provisions",
    "The declarations page and endorsements"
   ],
   "answer": 2,
@@ -246,7 +246,7 @@
   "q": "Because an insurance policy is a contract of adhesion, courts generally resolve a genuine ambiguity in the policy wording:",
   "choices": [
    "Against the insurer that drafted the policy",
-   "In favor of the insurer, since it bears the risk",
+   "In favor of the insurer",
    "According to the producer's oral explanation",
    "By striking the ambiguous provision from the policy"
   ],
@@ -305,12 +305,12 @@
   "sub": "Insurable Interest",
   "q": "For property insurance, when must the insured have an insurable interest in order to collect for a loss?",
   "choices": [
-   "At the time of the loss",
    "Only at the time the policy is issued",
    "At policy inception and each renewal, but not necessarily at the time of loss",
+   "At the time of the loss",
    "Within 60 days after the loss"
   ],
-  "answer": 0,
+  "answer": 2,
   "explain": "Property policies pay an insured no more than that insured's interest at the time of loss; the ISO BPP likewise limits payment to the insured's financial interest.",
   "source": "ISO HO 00 03 05 11, Sec. I Cond. A; ISO CP 00 10 10 12, E.4.d"
  },
@@ -320,12 +320,12 @@
   "sub": "Underwriting - Loss Ratio",
   "q": "An insurer's book of business has earned premiums of $2,000,000 and incurred losses of $1,300,000. What is the loss ratio?",
   "choices": [
+   "35%",
    "54%",
    "65%",
-   "35%",
    "153%"
   ],
-  "answer": 1,
+  "answer": 2,
   "explain": "Loss ratio = incurred losses / earned premiums = $1,300,000 / $2,000,000 = 65%.",
   "source": "IRMI glossary: loss ratio"
  },
@@ -366,9 +366,9 @@
   "q": "Under Michigan's general comparative fault statute, a plaintiff found 60% at fault for her own injuries:",
   "choices": [
    "May recover economic damages reduced by 60%, but no noneconomic damages",
-   "Is completely barred from recovering any damages",
-   "Recovers all damages, including noneconomic damages, reduced by 60%",
-   "Recovers full damages because Michigan abolished contributory negligence"
+   "Is barred from recovering any damages",
+   "May recover all damages, including noneconomic damages, reduced by 60%",
+   "May recover full damages, with no reduction for her own fault"
   ],
   "answer": 0,
   "explain": "MCL 600.2959 reduces damages by the plaintiff's percentage of fault. If the plaintiff's fault is greater than the combined fault of the others, economic damages are reduced and noneconomic damages are not awarded.",
@@ -381,11 +381,11 @@
   "q": "In a Michigan negligence suit, the plaintiff proves $100,000 of economic damages and is found 30% at fault. The plaintiff can recover:",
   "choices": [
    "$0",
+   "$30,000",
    "$70,000",
-   "$100,000",
-   "$30,000"
+   "$100,000"
   ],
-  "answer": 1,
+  "answer": 2,
   "explain": "Contributory fault does not bar recovery in Michigan; damages are reduced by the plaintiff's 30% share ($100,000 - $30,000 = $70,000).",
   "source": "MCL 600.2958; MCL 600.2959"
  },
@@ -441,7 +441,7 @@
   "q": "Under a special (open) perils property policy:",
   "choices": [
    "Only the perils specifically listed in the policy are covered",
-   "Direct physical loss is covered unless the cause is specifically excluded",
+   "Direct physical loss is covered unless specifically excluded",
    "The insured must prove a listed peril caused the loss",
    "Only fire and lightning are covered unless the policy is endorsed"
   ],
@@ -453,12 +453,12 @@
   "id": "core-031",
   "topic": "basics",
   "sub": "Consequential or Indirect Loss",
-  "q": "Which of the following is a consequential (indirect) loss?",
+  "q": "A fire damages an apartment building. Which of the following is a consequential (indirect) loss?",
   "choices": [
-   "Smoke damage to the building's interior walls",
+   "Smoke damage to the interior walls",
    "The cost to replace the burned roof",
-   "Loss of rental income while a fire-damaged apartment building is being repaired",
-   "Water damage to carpets from the fire department's hoses during the fire"
+   "Rental income lost while the building is being repaired",
+   "Water damage to carpets from the fire department's hoses"
   ],
   "answer": 2,
   "explain": "A consequential loss results from direct damage (for example, loss of rent). The other choices are direct physical damage to the property.",
@@ -483,12 +483,12 @@
   "id": "core-033",
   "topic": "basics",
   "sub": "Basic Types of Construction",
-  "q": "Under ISO's six commercial construction classes, which class is the MOST fire-resistive?",
+  "q": "Which of ISO's six commercial construction classes is the most fire-resistive?",
   "choices": [
-   "Fire resistive (Construction Code 6)",
-   "Modified fire resistive (Construction Code 5)",
-   "Masonry noncombustible (Construction Code 4)",
-   "Joisted masonry (Construction Code 2)"
+   "Fire resistive",
+   "Modified fire resistive",
+   "Masonry noncombustible",
+   "Joisted masonry"
   ],
   "answer": 0,
   "explain": "ISO codes run from 1 (frame, least fire-resistive) to 6 (fire resistive: walls, floors, and roof rated at least 2 hours).",
@@ -498,7 +498,7 @@
   "id": "core-034",
   "topic": "basics",
   "sub": "Loss Valuation - Actual Cash Value",
-  "q": "A 10-year-old roof would cost $20,000 to replace today and has depreciated 40%. If actual cash value is determined as replacement cost minus depreciation, the ACV is:",
+  "q": "A 10-year-old roof would cost $20,000 to replace today and has depreciated 40%. Using replacement cost minus depreciation, the roof's actual cash value is:",
   "choices": [
    "$8,000",
    "$12,000",
@@ -513,11 +513,11 @@
   "id": "core-035",
   "topic": "basics",
   "sub": "Loss Valuation - Agreed Value",
-  "q": "Under the ISO Building and Personal Property Coverage Form, the Agreed Value optional coverage:",
+  "q": "The Agreed Value optional coverage in the Building and Personal Property Coverage Form:",
   "choices": [
    "Replaces actual cash value with replacement cost",
-   "Automatically increases the limit by a stated annual percentage",
-   "Suspends the Coinsurance condition for the property it applies to",
+   "Increases the limit by a stated annual percentage",
+   "Suspends the Coinsurance condition",
    "Eliminates the deductible"
   ],
   "answer": 2,
@@ -575,12 +575,12 @@
   "sub": "Coinsurance",
   "q": "A building worth $400,000 at the time of loss is insured for $240,000 under a commercial property policy with an 80% coinsurance clause and a $1,000 deductible. A $50,000 covered loss occurs. Using the ISO coinsurance formula, the insurer pays:",
   "choices": [
-   "$37,500",
-   "$49,000",
+   "$29,000",
    "$36,500",
-   "$29,000"
+   "$37,500",
+   "$49,000"
   ],
-  "answer": 2,
+  "answer": 1,
   "explain": "Required insurance = $400,000 x 80% = $320,000. $240,000 / $320,000 = 0.75, so $50,000 x 0.75 = $37,500, less the $1,000 deductible = $36,500. The deductible is subtracted after the coinsurance calculation.",
   "source": "ISO CP 00 10 10 12, F.1 and D"
  },
@@ -590,12 +590,12 @@
   "sub": "Coinsurance",
   "q": "A building worth $300,000 at the time of loss is insured for $200,000 with an 80% coinsurance clause and no deductible. It is totally destroyed by a covered fire. The insurer pays:",
   "choices": [
-   "$250,000",
+   "$200,000",
    "$240,000",
-   "$300,000",
-   "$200,000"
+   "$250,000",
+   "$300,000"
   ],
-  "answer": 3,
+  "answer": 0,
   "explain": "Required = $240,000; $200,000 / $240,000 x $300,000 = $250,000. But the insurer pays that amount or the Limit of Insurance, whichever is less, so it pays $200,000.",
   "source": "ISO CP 00 10 10 12, F.1"
  },
@@ -603,29 +603,29 @@
   "id": "core-041",
   "topic": "basics",
   "sub": "Vacancy or Unoccupancy",
-  "q": "Under the ISO Building and Personal Property Coverage Form, a building has been vacant for more than 60 consecutive days when a covered windstorm damages it. The insurer will:",
+  "q": "Under the 2012 ISO Building and Personal Property Coverage Form, a building has been vacant for more than 60 consecutive days when a covered windstorm damages it. The insurer will:",
   "choices": [
+   "Pay the loss in full",
    "Reduce the amount it would otherwise pay by 15%",
-   "Pay nothing for the loss",
-   "Pay in full, because vacancy affects only theft losses",
-   "Reduce the payment by 50%"
+   "Reduce the amount it would otherwise pay by 50%",
+   "Pay nothing for the loss"
   ],
-  "answer": 0,
-  "explain": "After 60 consecutive days of vacancy, vandalism, sprinkler leakage, building glass breakage, water damage, theft, and attempted theft are not covered. All other covered causes, such as windstorm, are reduced by 15%.",
+  "answer": 1,
+  "explain": "Under the 2012 edition, after 60 consecutive days of vacancy, vandalism, sprinkler leakage, building glass breakage, water damage, theft, and attempted theft are not covered. All other covered causes, such as windstorm, are reduced by 15%.",
   "source": "ISO CP 00 10 10 12, E.6.b"
  },
  {
   "id": "core-042",
   "topic": "basics",
   "sub": "Named Insured Provisions - Abandonment",
-  "q": "After a fire, the insured tells the insurer, 'Take the damaged inventory - it's yours - and pay me its full value.' Under the ISO commercial property form:",
+  "q": "After a fire, the insured tells the insurer to take the damaged inventory and pay its full value. Under the Building and Personal Property Coverage Form:",
   "choices": [
    "The insurer must accept the property and pay its full value",
-   "There can be no abandonment of any property to the insurer",
    "The insurer must accept the property if the insured files a sworn proof of loss within 60 days",
-   "Abandonment is allowed only for stock, not for buildings"
+   "Abandonment is allowed only for stock, not for buildings",
+   "There can be no abandonment of any property to the insurer"
   ],
-  "answer": 1,
+  "answer": 3,
   "explain": "The BPP Loss Conditions state: 'There can be no abandonment of any property to us.' The insurer may, at its option, take property at an agreed or appraised value, but the insured cannot force it to.",
   "source": "ISO CP 00 10 10 12, E.1 and E.4.a"
  },
@@ -663,11 +663,11 @@
   "id": "core-045",
   "topic": "basics",
   "sub": "Third-Party Provisions - Standard Mortgage Clause",
-  "q": "Under the standard mortgage clause in an ISO homeowners policy, the insurer denies the insured's fire claim because the insured committed arson. The named mortgagee:",
+  "q": "An insurer denies an insured's fire claim because the insured committed arson. Under the standard mortgage clause of a Homeowners policy, the named mortgagee:",
   "choices": [
-   "Can still collect on a valid claim if it meets conditions such as paying premium due on demand and filing a sworn loss statement",
-   "Loses its rights, because the mortgagee's rights under the policy depend entirely on the insured's conduct",
-   "Must first obtain a judgment against the insured for the mortgage debt before the insurer will pay",
+   "Can still collect on a valid claim if it meets the clause's conditions",
+   "Loses its right to payment along with the insured",
+   "Must first obtain a judgment against the insured before the insurer will pay",
    "Is entitled only to a return of the unearned premium"
   ],
   "answer": 0,
@@ -693,7 +693,7 @@
   "id": "core-047",
   "topic": "basics",
   "sub": "Insurer Provisions - Duty to Defend",
-  "q": "Under the ISO Commercial General Liability coverage form, the insurer's right and duty to defend ends when:",
+  "q": "Under a Commercial General Liability (CGL) policy, the insurer's right and duty to defend ends when:",
   "choices": [
    "Defense costs equal the each-occurrence limit",
    "The insured is found more than 50% at fault",
@@ -713,7 +713,7 @@
    "A permanent substitute for the policy",
    "The insurer's approval of the producer's appointment",
    "An endorsement that adds a mortgagee to the policy",
-   "Temporary evidence of insurance until the policy can be issued"
+   "Temporary evidence of insurance"
   ],
   "answer": 3,
   "explain": "A binder is a legal agreement issued by an agent or insurer as temporary evidence of coverage. It should be in writing, have a definite time limit, and name the insurer.",
@@ -742,8 +742,8 @@
   "choices": [
    "6% per year",
    "12% per year",
-   "The prime rate plus 2%",
-   "18% per year"
+   "18% per year",
+   "The prime rate plus 2%"
   ],
   "answer": 1,
   "explain": "MCL 500.2006(4): benefits not paid on a timely basis bear simple interest at 12% per annum from 60 days after the insurer receives satisfactory proof of loss. For the insured (or a person directly entitled under the policy) this interest is owed even if the claim was reasonably in dispute; the \"not reasonably in dispute\" and court-found bad-faith conditions apply only to third-party tort claimants.",
@@ -753,14 +753,14 @@
   "id": "core-051",
   "topic": "basics",
   "sub": "Insurance Claims Handling",
-  "q": "Under MCL 500.2006, unless a claim is settled sooner, the insurer must specify in writing what materials constitute a satisfactory proof of loss within how many days after receiving the claim?",
+  "q": "Under Michigan's timely-payment statute, unless a claim is settled sooner, an insurer must specify in writing what constitutes a satisfactory proof of loss within how many days after receiving the claim?",
   "choices": [
    "10 days",
-   "60 days",
    "30 days",
+   "60 days",
    "90 days"
   ],
-  "answer": 2,
+  "answer": 1,
   "explain": "The insurer must specify the required proof-of-loss materials in writing within 30 days after receiving a claim, unless the claim is settled within those 30 days. The 60-day period is the payment deadline after proof of loss.",
   "source": "MCL 500.2006(3)"
  },
@@ -768,7 +768,7 @@
   "id": "core-052",
   "topic": "basics",
   "sub": "Limits of Liability - Aggregate",
-  "q": "Under the ISO CGL coverage form, which of the following is NOT paid from the General Aggregate Limit?",
+  "q": "Which of the following is NOT paid from the General Aggregate Limit of a Commercial General Liability (CGL) policy?",
   "choices": [
    "Medical expenses under Coverage C",
    "Personal and advertising injury damages under Coverage B",
@@ -798,7 +798,7 @@
   "id": "core-054",
   "topic": "wc",
   "sub": "Exclusive Remedy (418.131)",
-  "q": "Under the Michigan Workers' Disability Compensation Act, the only exception to workers' compensation being the employee's exclusive remedy against the employer is:",
+  "q": "Under the Michigan Worker's Disability Compensation Act, the only exception to workers' compensation being the employee's exclusive remedy against the employer is:",
   "choices": [
    "Gross negligence by the employer",
    "An intentional tort",
@@ -813,11 +813,11 @@
   "id": "core-055",
   "topic": "wc",
   "sub": "Exclusive Remedy (418.131)",
-  "q": "Under MCL 418.131, an employer is deemed to have intended an employee's injury when the employer:",
+  "q": "The Michigan Worker's Disability Compensation Act deems an employer to have intended an employee's injury when the employer:",
   "choices": [
    "Failed to provide safety training required by OSHA",
    "Was grossly negligent in maintaining equipment that later injured the employee",
-   "Had actual knowledge that an injury was certain to occur and willfully disregarded it",
+   "Had actual knowledge that an injury was certain and willfully disregarded it",
    "Knew an injury was possible and did not post a warning sign near the hazard"
   ],
   "answer": 2,
@@ -828,12 +828,12 @@
   "id": "core-056",
   "topic": "wc",
   "sub": "Employer Covered (Required) (418.115)",
-  "q": "A private, non-agricultural Michigan employer has only 2 employees. It is subject to the WDCA if:",
+  "q": "A private, non-agricultural Michigan employer has only 2 employees. It is subject to the Michigan Worker's Disability Compensation Act if:",
   "choices": [
    "Its annual payroll exceeds $50,000",
    "Both employees have worked for it at least 20 hours per week for 30 days or longer",
    "It has been in business for at least 1 year",
-   "At least 1 has been regularly employed 35+ hours per week for 13+ weeks in the preceding 52 weeks"
+   "At least 1 was regularly employed 35+ hours a week for 13+ of the past 52 weeks"
   ],
   "answer": 3,
   "explain": "Private employers with fewer than 3 employees are covered if at least 1 has been regularly employed 35+ hours per week for 13+ weeks in the preceding 52 weeks. Employers that regularly employ 3 or more at one time are always covered.",
@@ -843,12 +843,12 @@
   "id": "core-057",
   "topic": "wc",
   "sub": "Benefits Provided (418.311)",
-  "q": "A worker is disabled by a work injury for 3 weeks. Under MCL 418.311, weekly compensation is:",
+  "q": "A worker is disabled by a work injury for 3 weeks. Under the Michigan Worker's Disability Compensation Act, weekly compensation is:",
   "choices": [
    "Computed from the date of injury",
    "Paid beginning on the 8th day only",
    "Paid beginning on the 15th day only",
-   "Not payable for the first week under any circumstances"
+   "Not payable for the first week"
   ],
   "answer": 0,
   "explain": "No compensation is paid for the first week unless incapacity lasts longer; compensation starts on the 8th day. If incapacity continues for 2 weeks or longer (or death results), compensation is computed from the date of injury.",
@@ -858,14 +858,14 @@
   "id": "core-058",
   "topic": "wc",
   "sub": "Benefits Provided (418.351)",
-  "q": "Michigan weekly wage-loss benefits for total disability equal what percentage of the employee's after-tax average weekly wage, subject to the state maximum?",
+  "q": "Michigan's workers' compensation law sets weekly wage-loss benefits for total disability at what percentage of the employee's after-tax average weekly wage, subject to the state maximum?",
   "choices": [
    "66 2/3%",
-   "80%",
    "70%",
+   "80%",
    "90%"
   ],
-  "answer": 1,
+  "answer": 2,
   "explain": "Total disability benefits are 80% of after-tax AWW, capped at the maximum weekly rate. The maximum itself is set at 90% of the state average weekly wage.",
   "source": "MCL 418.351(1); MCL 418.355(2)"
  },
@@ -873,14 +873,14 @@
   "id": "core-059",
   "topic": "wc",
   "sub": "Benefits Provided (418.345)",
-  "q": "When a work injury causes death, the employer's liability for funeral and burial expenses under MCL 418.345 is limited to:",
+  "q": "When a work injury causes death, the Michigan Worker's Disability Compensation Act limits the employer's liability for funeral and burial expenses to:",
   "choices": [
    "$5,000 or the actual cost, whichever is less",
-   "$10,000 or the actual cost, whichever is less",
    "$6,000 or the actual cost, whichever is less",
+   "$10,000 or the actual cost, whichever is less",
    "The actual cost, with no dollar limit"
   ],
-  "answer": 2,
+  "answer": 1,
   "explain": "MCL 418.345 caps the cost of the funeral and burial at $6,000 or the actual cost, whichever is less; the employer also pays the reasonable expense of the last sickness.",
   "source": "MCL 418.345"
  },
@@ -890,12 +890,12 @@
   "sub": "Benefits Provided (418.361 specific loss)",
   "q": "Under Michigan's specific loss schedule, the loss of a hand is compensated for:",
   "choices": [
-   "269 weeks",
-   "162 weeks",
    "65 weeks",
-   "215 weeks"
+   "162 weeks",
+   "215 weeks",
+   "269 weeks"
   ],
-  "answer": 3,
+  "answer": 2,
   "explain": "MCL 418.361(2): hand 215 weeks; arm 269; foot 162; leg 215; eye 162; thumb 65.",
   "source": "MCL 418.361(2)"
  },
@@ -903,9 +903,9 @@
   "id": "core-061",
   "topic": "wc",
   "sub": "Second Injury Fund (418.521)",
-  "q": "A worker who had previously lost an eye loses a leg in a work accident. Under MCL 418.521, after the payments for the second loss end, the worker:",
+  "q": "A worker who had previously lost an eye loses a leg in a work accident. Under the Michigan Worker's Disability Compensation Act, after the payments for the second loss end, the worker:",
   "choices": [
-   "Is conclusively presumed totally and permanently disabled, with benefits paid by the Second Injury Fund",
+   "Is conclusively presumed totally and permanently disabled and paid by the Second Injury Fund",
    "Receives only the specific-loss weeks for the leg",
    "Must prove total and permanent disability at a new hearing before any further benefits are paid",
    "Is paid by the Michigan Workers' Compensation Placement Facility"
@@ -921,7 +921,7 @@
   "q": "The Michigan Workers' Compensation Placement Facility exists primarily to:",
   "choices": [
    "Pay benefits to employees of insolvent workers' compensation insurers",
-   "Provide workers' compensation insurance to employers unable to obtain it through ordinary methods",
+   "Provide insurance to employers unable to obtain it through ordinary methods",
    "Pay benefits to employees of uninsured employers",
    "Set the rates that all Michigan workers' compensation insurers must use for each class"
   ],
@@ -936,7 +936,7 @@
   "q": "A crew member injured aboard a Great Lakes freighter through the employer's negligence would ordinarily seek recovery under:",
   "choices": [
    "The Longshore and Harbor Workers' Compensation Act",
-   "The Michigan WDCA's Second Injury Fund",
+   "The Michigan Second Injury Fund",
    "The Jones Act",
    "The Defense Base Act"
   ],
@@ -948,14 +948,14 @@
   "id": "core-064",
   "topic": "wc",
   "sub": "Part Two - Employers Liability Insurance",
-  "q": "The standard employers liability (Part Two) limits on the workers' compensation and employers liability policy are:",
+  "q": "The standard limits for Part Two – Employers Liability Insurance of the Workers' Compensation and Employers Liability Insurance Policy are:",
   "choices": [
    "$100,000 each accident / $100,000 disease-policy limit / $500,000 disease-each employee",
+   "$100,000 each accident / $500,000 disease-policy limit / $100,000 disease-each employee",
    "$500,000 each accident / $500,000 disease-policy limit / $500,000 disease-each employee",
-   "$1,000,000 each accident / $1,000,000 disease-policy limit / $1,000,000 disease-each employee",
-   "$100,000 each accident / $500,000 disease-policy limit / $100,000 disease-each employee"
+   "$1,000,000 each accident / $1,000,000 disease-policy limit / $1,000,000 disease-each employee"
   ],
-  "answer": 3,
+  "answer": 1,
   "explain": "The standard employers liability limits are $100,000 bodily injury by accident (each accident), $500,000 bodily injury by disease (policy limit) and $100,000 bodily injury by disease (each employee). The actual limits are shown in Item 3.B of the Information Page, and higher limits may be bought. (National standard. In Michigan, manual rules and experience mods come from CAOM, not NCCI.)",
   "source": "NCCI WC 00 00 00 C, Part Two G (limits in Item 3.B); national standard EL limits as reproduced in NCRB Basic Manual Rule 5; CAOM Michigan WC Placement Facility Basic Manual, Rule Eight (increased limits $500,000 / $1,000,000)"
  },
@@ -963,9 +963,9 @@
   "id": "core-065",
   "topic": "wc",
   "sub": "Part Three - Other States Insurance",
-  "q": "An employer's WC policy lists Michigan in Item 3.A and several other states, including Indiana, in Item 3.C. Midway through the policy term, the employer begins a job in Indiana and is not otherwise insured there. Coverage for the Indiana work:",
+  "q": "An employer's workers' compensation policy lists Michigan in Item 3.A and several other states, including Indiana, in Item 3.C. Midway through the policy term, the employer begins a job in Indiana and is not otherwise insured there. Coverage for the Indiana work:",
   "choices": [
-   "Applies as if Indiana were listed in Item 3.A, and the employer must tell the insurer at once",
+   "Applies as if Indiana were listed in Item 3.A, and the insurer must be told at once",
    "Does not apply until Indiana is endorsed onto the policy at renewal",
    "Applies only to employers liability, not to Indiana workers' compensation benefits",
    "Applies only if the insurer is notified within 90 days after the Indiana work begins"
@@ -980,10 +980,10 @@
   "sub": "Premium Computation",
   "q": "An employer's payroll in one classification is $250,000, the rate is $4.00 per $100 of payroll, and its experience modification is 0.85. What is the premium after the experience modification is applied?",
   "choices": [
-   "$10,000",
+   "$850",
    "$8,500",
-   "$11,500",
-   "$850"
+   "$10,000",
+   "$11,500"
   ],
   "answer": 1,
   "explain": "Manual premium = ($250,000 / 100) x $4.00 = $10,000. Applying a 0.85 mod (a credit) gives $8,500. A mod above 1.00 would be a debit.",
@@ -993,11 +993,11 @@
   "id": "core-067",
   "topic": "wc",
   "sub": "Part One - Workers' Compensation Insurance",
-  "q": "An employer knowingly employs a 15-year-old in violation of child labor law. The minor is injured on the job, and Michigan law requires double compensation. Under the standard WC policy, who ultimately bears the extra benefits above the regular statutory amount?",
+  "q": "An employer knowingly employs a 15-year-old in violation of child labor law. The minor is injured on the job, and Michigan law requires double compensation. Under the Workers' Compensation and Employers Liability Insurance Policy, who ultimately bears the extra benefits above the regular statutory amount?",
   "choices": [
-   "The insurer, because Part One has no dollar limit",
+   "The insurer",
    "The Second Injury Fund",
-   "The employer, who must reimburse the insurer for those payments",
+   "The employer",
    "The Michigan Workers' Compensation Placement Facility"
   ],
   "answer": 2,
@@ -1012,7 +1012,7 @@
   "choices": [
    "Extend workers compensation coverage to the other states listed in Item 3.C",
    "Increase the employers liability limits",
-   "Cover longshore workers under the USL&HW Act",
+   "Cover employees subject to the Longshore and Harbor Workers' Compensation Act",
    "Pay statutory-equivalent benefits to employees the employer need not cover by law"
   ],
   "answer": 3,
