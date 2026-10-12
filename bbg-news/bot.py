@@ -78,12 +78,17 @@ def set_output(**kv):
                 f.write(f"{k}={v}\n")
 
 
+def setting(name):
+    """Non-secret setting: environment variable (e.g. a GitHub Actions variable) or config.json."""
+    return env(name.upper()) or str(CFG.get(name, "")).strip()
+
+
 def discord():
     """(client, clips channel, owner id, feed channel) or None if Discord isn't configured."""
-    if not (env("DISCORD_BOT_TOKEN") and env("DISCORD_CLIPS_CHANNEL_ID") and env("DISCORD_OWNER_ID")):
+    channel, owner = setting("discord_clips_channel_id"), setting("discord_owner_id")
+    if not (env("DISCORD_BOT_TOKEN") and channel and owner):
         return None
-    return (Discord(env("DISCORD_BOT_TOKEN")), env("DISCORD_CLIPS_CHANNEL_ID"),
-            env("DISCORD_OWNER_ID"), env("DISCORD_FEED_CHANNEL_ID"))
+    return Discord(env("DISCORD_BOT_TOKEN")), channel, owner, setting("discord_feed_channel_id")
 
 
 # ---------- Text helpers ----------
@@ -388,6 +393,10 @@ def reconcile(state):
 
 def cmd_prepare():
     PENDING_FILE.unlink(missing_ok=True)  # a leftover from a failed run must never be published later
+    if not env("IG_ACCESS_TOKEN"):
+        log("Instagram isn't connected yet (no IG_ACCESS_TOKEN secret), so the bot is idle.")
+        set_output(has_post="false", needs_ffmpeg="false")
+        return
     state = load_state()
     reconcile(state)
     ready, dc = [], discord()

@@ -68,11 +68,10 @@ Repo → **Settings → Secrets and variables → Actions**:
 | `GH_PAT` | Secret | Fine-grained token for this repo with **Secrets: Read and write**, used to renew the Instagram token on the 1st and 15th |
 | `DISCORD_BOT_TOKEN` | Secret | Discord bot token |
 | `YOUTUBE_API_KEY` | Secret | Optional |
-| `DISCORD_OWNER_ID` | Variable | Your Discord user ID |
-| `DISCORD_CLIPS_CHANNEL_ID` | Variable | #submit-clips channel ID |
-| `DISCORD_FEED_CHANNEL_ID` | Variable | #bbg-news-feed channel ID (optional) |
 
-Then **merge into the default branch**; GitHub only runs scheduled workflows there. Keep the repo **public**: Instagram downloads each image and video from it.
+The three Discord IDs aren't secret, so they go in `config.json` (`discord_owner_id`, `discord_clips_channel_id`, `discord_feed_channel_id`). Actions variables with the same names in capitals override them.
+
+Until `IG_ACCESS_TOKEN` is added the bot stays idle, so it's safe to merge first. Then **merge into the default branch**; GitHub only runs scheduled workflows there. Keep the repo **public**: Instagram downloads each image and video from it.
 
 ### 5. Test
 Actions → *BBG News auto-post* → **Run workflow** with *preview* ticked: you get every image card plus two 10-second sample Reels as a downloadable artifact. Untick it to run for real.
