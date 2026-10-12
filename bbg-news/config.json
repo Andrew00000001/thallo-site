@@ -9,7 +9,11 @@
   "post_launch_line": "Battle Bears Gold is out now on Steam. Link in bio.",
   "post_launch_footer": "OUT NOW ON STEAM",
   "daily_post_hour": 17,
-  "max_posts_per_day": 2,
+  "max_posts_per_day": 3,
+  "max_clips_per_day": 3,
+  "max_video_seconds": 90,
+  "max_clip_mb": 100,
+  "official_trailers": false,
   "countdown_milestones": [21, 14, 10, 7, 5, 3, 2, 1, 0],
   "hashtags": [
     "#BattleBears",

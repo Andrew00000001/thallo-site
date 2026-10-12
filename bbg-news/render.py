@@ -120,3 +120,33 @@ def render_countdown(cfg, days_left, out_path):
         d.text((W // 2, 1085), "BATTLE BEARS GOLD", font=_font(FONT_BODY, 56), fill=GREY, anchor="mm")
     img.save(out_path, "JPEG", quality=92)
     return out_path
+
+
+def render_reel_overlay(cfg, tag, credit, out_path):
+    """Transparent 1080x1920 PNG laid over Reels: brand header plus a credit plate.
+
+    The credit plate sits above the bottom ~400px that Instagram covers with its caption UI.
+    """
+    rw, rh = 1080, 1920
+    img = Image.new("RGBA", (rw, rh), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, rw, 250], fill=(12, 12, 16, 235))
+    d.rectangle([0, 242, rw, 250], fill=GOLD + (255,))
+    d.text((PAD, 150), cfg["brand_name"], font=_font(FONT_HEAD, 92), fill=GOLD + (255,), anchor="lm")
+    tag_font = _font(FONT_BODY, 34)
+    tw = d.textlength(tag, font=tag_font)
+    x1 = rw - PAD
+    d.rounded_rectangle([x1 - tw - 44, 120, x1, 182], radius=31, outline=GOLD + (255,), width=3)
+    d.text((x1 - tw - 22, 151), tag, font=tag_font, fill=GOLD + (255,), anchor="lm")
+
+    credit_font = _font(FONT_HEAD, 64)
+    while d.textlength(credit, font=credit_font) > rw - 2 * PAD - 60 and credit_font.size > 32:
+        credit_font = _font(FONT_HEAD, credit_font.size - 4)
+    cw = d.textlength(credit, font=credit_font)
+    d.rounded_rectangle([(rw - cw) / 2 - 30, 1330, (rw + cw) / 2 + 30, 1430], radius=18, fill=(12, 12, 16, 215))
+    d.rectangle([(rw - cw) / 2 - 30, 1424, (rw + cw) / 2 + 30, 1430], fill=GOLD + (255,))
+    d.text((rw / 2, 1378), credit, font=credit_font, fill=WHITE + (255,), anchor="mm")
+    d.text((rw / 2, 1468), cfg["disclaimer"], font=_font(FONT_BODY, 30), fill=GREY + (255,), anchor="mm",
+           stroke_width=2, stroke_fill=(0, 0, 0, 200))
+    img.save(out_path)
+    return out_path

@@ -2,16 +2,16 @@ name: BBG News auto-post
 
 on:
   schedule:
-    - cron: "23 * * * *" # hourly; the bot decides whether anything is due
+    - cron: "4,19,34,49 * * * *" # every 15 min, off the top of the hour; the bot decides what's due
   workflow_dispatch:
     inputs:
       preview:
-        description: "Only render preview images (nothing is posted)"
+        description: "Only render preview images and sample Reels (nothing is posted)"
         type: boolean
         default: false
 
 permissions:
-  contents: write
+  contents: write # state commits, the bbg-media branch and the fallback media release
 
 concurrency:
   group: bbg-news
@@ -19,10 +19,19 @@ concurrency:
 
 jobs:
   post:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # pinned: ffmpeg settings were tested on 24.04's ffmpeg 6.1
+    timeout-minutes: 30
     defaults:
       run:
         working-directory: bbg-news
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      DISCORD_OWNER_ID: ${{ vars.DISCORD_OWNER_ID }}
+      DISCORD_CLIPS_CHANNEL_ID: ${{ vars.DISCORD_CLIPS_CHANNEL_ID }}
+      DISCORD_FEED_CHANNEL_ID: ${{ vars.DISCORD_FEED_CHANNEL_ID }}
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,37 +44,33 @@ jobs:
 
       - name: Render previews
         if: ${{ inputs.preview }}
-        run: python bot.py preview
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg
+          python bot.py preview
       - uses: actions/upload-artifact@v4
         if: ${{ inputs.preview }}
         with:
           name: bbg-news-preview
           path: bbg-news/out/preview
 
-      - name: Pick and render the next post
+      - name: Check Discord clips and pick the next post
         id: prepare
         if: ${{ !inputs.preview }}
         run: python bot.py prepare
 
-      # Instagram only accepts images from a public URL, so the image is
-      # pushed first and served from raw.githubusercontent.com.
-      - name: Push image
-        id: push
-        if: steps.prepare.outputs.has_post == 'true'
+      - name: Install ffmpeg
+        if: steps.prepare.outputs.needs_ffmpeg == 'true'
         run: |
-          git add out
-          if ! git diff --cached --quiet; then
-            git commit -m "BBG News: image for ${{ steps.prepare.outputs.post_id }}"
-            git pull --rebase
-            git push
-          fi
-          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg
+
+      - name: Render Reel
+        if: steps.prepare.outputs.needs_ffmpeg == 'true'
+        run: python bot.py render-video
 
       - name: Publish to Instagram
         if: steps.prepare.outputs.has_post == 'true'
-        env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IMAGE_COMMIT: ${{ steps.push.outputs.sha }}
         run: python bot.py publish
 
       - name: Save state
