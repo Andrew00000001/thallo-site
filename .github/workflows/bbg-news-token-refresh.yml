@@ -1,0 +1,32 @@
+name: BBG News token refresh
+
+# Instagram long-lived tokens expire after 60 days unless refreshed.
+on:
+  schedule:
+    - cron: "41 14 1,15 * *" # 1st and 15th of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r bbg-news/requirements.txt
+      - name: Refresh token and save it to the IG_ACCESS_TOKEN secret
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Add a GH_PAT secret (fine-grained token, this repo, Secrets: read and write)."
+            exit 1
+          fi
+          NEW_TOKEN=$(python bbg-news/bot.py refresh-token)
+          echo "::add-mask::$NEW_TOKEN"
+          gh secret set IG_ACCESS_TOKEN --body "$NEW_TOKEN" --repo "$GITHUB_REPOSITORY"

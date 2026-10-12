@@ -1,0 +1,78 @@
+name: BBG News auto-post
+
+on:
+  schedule:
+    - cron: "23 * * * *" # hourly; the bot decides whether anything is due
+  workflow_dispatch:
+    inputs:
+      preview:
+        description: "Only render preview images (nothing is posted)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bbg-news
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: bbg-news
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name "bbg-news-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Render previews
+        if: ${{ inputs.preview }}
+        run: python bot.py preview
+      - uses: actions/upload-artifact@v4
+        if: ${{ inputs.preview }}
+        with:
+          name: bbg-news-preview
+          path: bbg-news/out/preview
+
+      - name: Pick and render the next post
+        id: prepare
+        if: ${{ !inputs.preview }}
+        run: python bot.py prepare
+
+      # Instagram only accepts images from a public URL, so the image is
+      # pushed first and served from raw.githubusercontent.com.
+      - name: Push image
+        id: push
+        if: steps.prepare.outputs.has_post == 'true'
+        run: |
+          git add out
+          if ! git diff --cached --quiet; then
+            git commit -m "BBG News: image for ${{ steps.prepare.outputs.post_id }}"
+            git pull --rebase
+            git push
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Publish to Instagram
+        if: steps.prepare.outputs.has_post == 'true'
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IMAGE_COMMIT: ${{ steps.push.outputs.sha }}
+        run: python bot.py publish
+
+      - name: Save state
+        if: ${{ always() && !inputs.preview }}
+        run: |
+          git add state
+          git diff --cached --quiet && exit 0
+          git commit -m "BBG News: update state"
+          git pull --rebase
+          git push
