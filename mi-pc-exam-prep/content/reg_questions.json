@@ -1,0 +1,902 @@
+[
+ {
+  "id": "reg-001",
+  "topic": "reg",
+  "sub": "Producer Appointment",
+  "q": "When an insurer appoints a producer as its agent, the insurer must file the notice of appointment with the director within how many days from the date the agency contract is executed or the first insurance application is submitted?",
+  "choices": [
+   "5 days",
+   "10 days",
+   "15 days",
+   "30 days"
+  ],
+  "answer": 2,
+  "explain": "The appointing insurer must file the notice of appointment within 15 days from the date the agency contract is executed or the first application is submitted. The 30-day figure is the director's time limit to verify the producer's eligibility.",
+  "source": "MCL 500.1208a(3),(4)"
+ },
+ {
+  "id": "reg-002",
+  "topic": "reg",
+  "sub": "Producer Appointment",
+  "q": "Dana holds a Michigan property and casualty producer license but has no appointment with Insurer X. Which statement is correct?",
+  "choices": [
+   "Dana may not bind coverage for Insurer X unless Insurer X appoints her.",
+   "Dana may bind coverage for Insurer X for up to 15 days while an appointment is pending.",
+   "Dana's license alone gives her apparent authority to bind any insurer admitted in Michigan.",
+   "Dana may bind coverage for Insurer X if she notifies the director within 30 days."
+  ],
+  "answer": 0,
+  "explain": "A producer may not bind coverage for an insurer unless that insurer has appointed the producer. A license by itself does not create actual, apparent or inherent authority to commit an insurer.",
+  "source": "MCL 500.1208a(2); MCL 500.1201(h)"
+ },
+ {
+  "id": "reg-003",
+  "topic": "reg",
+  "sub": "Termination of Appointment",
+  "q": "An insurer ends its relationship with a producer because of low production, which is not a cause listed in MCL 500.1239. What notice must the insurer give the director?",
+  "choices": [
+   "Notice within 30 days following the effective date of the termination",
+   "No notice, because the termination was not for cause",
+   "Notice at least 15 days before the termination takes effect",
+   "Notice within 90 days following the effective date of the termination"
+  ],
+  "answer": 0,
+  "explain": "An insurer must notify the director within 30 days after the effective date of a termination for any reason. For-cause terminations also have a 30-day deadline.",
+  "source": "MCL 500.1208b(1),(2)"
+ },
+ {
+  "id": "reg-004",
+  "topic": "reg",
+  "sub": "Termination of Appointment",
+  "q": "An insurer terminates a producer for forging a customer's signature, a cause listed in MCL 500.1239. Within 15 days after notifying the director, how must the insurer send the producer a copy of the notification?",
+  "choices": [
+   "By regular first-class mail, postage prepaid, to the producer's last known address",
+   "By email to the producer's address on file with DIFS",
+   "By personal service on the producer through a licensed process server",
+   "By certified mail, return receipt requested, or nationally recognized overnight delivery"
+  ],
+  "answer": 3,
+  "explain": "For a for-cause termination, the copy must go to the producer's last known address by certified mail, return receipt requested, or by nationally recognized overnight delivery. The producer then has 30 days to file written comments with the director.",
+  "source": "MCL 500.1208b(4)"
+ },
+ {
+  "id": "reg-005",
+  "topic": "reg",
+  "sub": "Termination of Appointment",
+  "q": "As a condition of keeping its authority to do business, an insurer that writes automobile and home insurance in Michigan may terminate a producer's auto/home authority for all of the following reasons EXCEPT:",
+  "choices": [
+   "Malfeasance",
+   "Breach of fiduciary duty or trust",
+   "Submission of fewer than 25 home and auto applications in the preceding 12 months",
+   "The geographic location of the producer's auto and home business"
+  ],
+  "answer": 3,
+  "explain": "Section 1209(2) allows termination for malfeasance, breach of fiduciary duty, a violation of the Code, failure to perform the contract, or fewer than 25 applications in 12 months. Section 1209(3) bars terminations based primarily on the geographic location of the producer's business.",
+  "source": "MCL 500.1209(2),(3)"
+ },
+ {
+  "id": "reg-006",
+  "topic": "reg",
+  "sub": "Termination of Appointment",
+  "q": "An insurer terminates a producer who holds property rights in the renewals. Their written agreement says nothing about the producer's authority after termination. What may the producer do?",
+  "choices": [
+   "Bind new risks and renew existing policies for the insurer, without its approval, until the policies expire",
+   "Service existing policies, but not bind new risks, renew, or increase the insurer's obligation without approval",
+   "Renew existing policies automatically for one additional term, but not bind new risks",
+   "Nothing, because all of the producer's authority ends on the date of the termination notice"
+  ],
+  "answer": 1,
+  "explain": "If the agreement is silent, the producer may keep servicing existing policies but may not bind new risks, renew, or increase the insurer's obligation without the insurer's approval. The insurer also may not cancel or nonrenew a policy because the producer was terminated.",
+  "source": "MCL 500.1209(1)"
+ },
+ {
+  "id": "reg-007",
+  "topic": "reg",
+  "sub": "Producer Appointment",
+  "q": "During any 12-month period, the premium an agent places on his own risks and on the risks of his employees, employer, or business associates may not exceed what percentage of the total premium the agent placed during that period?",
+  "choices": [
+   "10%",
+   "15%",
+   "20%",
+   "25%"
+  ],
+  "answer": 1,
+  "explain": "Michigan limits this \"controlled business\" to 15% of the total premium the agent placed in any 12-month period.",
+  "source": "MCL 500.1208"
+ },
+ {
+  "id": "reg-008",
+  "topic": "reg",
+  "sub": "Duties",
+  "q": "Which of the following persons must hold a Michigan insurance producer license?",
+  "choices": [
+   "An insurer's claims adjuster employee who receives no commission",
+   "An agency receptionist who schedules appointments and receives no commission",
+   "An insurer employee who is paid a commission on each homeowners policy she sells to Michigan residents",
+   "A car rental clerk whose only insurance sales are coverage incidental to rentals of 30 days"
+  ],
+  "answer": 2,
+  "explain": "The license exemptions for officers and employees apply only to those who receive no commission and whose duties are clerical, administrative, claims-related and so on. Insurance sold only as incidental to a vehicle rental of 90 days or less is also exempt.",
+  "source": "MCL 500.1202(2)(a),(h); MCL 500.1201a(1)"
+ },
+ {
+  "id": "reg-009",
+  "topic": "reg",
+  "sub": "Duties",
+  "q": "Under the Michigan Insurance Code, \"solicit\" means:",
+  "choices": [
+   "Exchanging a contract of insurance, by any means, for money or its equivalent on behalf of an insurer",
+   "Conferring directly with a purchaser about the substantive benefits, terms or conditions of a particular contract",
+   "Auditing or abstracting insurance policies for a fee",
+   "Attempting to sell insurance, or asking or urging a person to apply for a particular kind of insurance from a particular company"
+  ],
+  "answer": 3,
+  "explain": "This is the statutory definition of \"solicit.\" The first choice defines \"sell,\" the second defines \"negotiate,\" and the third describes work that requires a counselor license.",
+  "source": "MCL 500.1201(m),(n),(o); MCL 500.1232"
+ },
+ {
+  "id": "reg-010",
+  "topic": "reg",
+  "sub": "Types of Licensees",
+  "q": "Under Michigan's producer lines of authority, the \"personal lines\" qualification covers:",
+  "choices": [
+   "Property and casualty insurance sold to individuals and families for primarily noncommercial purposes",
+   "Only automobile insurance sold to individuals",
+   "Life and health insurance sold to individuals and families for primarily personal purposes",
+   "Any property and casualty coverage, personal or commercial, with an annual premium under $10,000"
+  ],
+  "answer": 0,
+  "explain": "Personal lines means property and casualty coverage sold to individuals and families for primarily noncommercial purposes.",
+  "source": "MCL 500.1206(1)(f)"
+ },
+ {
+  "id": "reg-011",
+  "topic": "reg",
+  "sub": "Business Entity",
+  "q": "To be licensed as an insurance producer in Michigan, a business entity must do which of the following?",
+  "choices": [
+   "Appoint at least two licensed producers as officers",
+   "Designate an individual licensed producer responsible for its compliance with Michigan insurance laws",
+   "Post a $50,000 surety bond with the director and keep it in force while the entity is licensed",
+   "Pass the same written examination that an individual producer must pass"
+  ],
+  "answer": 1,
+  "explain": "A business entity acting as a producer must hold its own producer license and designate an individual licensed producer responsible for its compliance with Michigan insurance laws, rules and regulations.",
+  "source": "MCL 500.1205(2)"
+ },
+ {
+  "id": "reg-012",
+  "topic": "reg",
+  "sub": "Producer",
+  "q": "What is the minimum number of hours of instruction in a registered prelicensing program of study for a combined property and casualty producer/solicitor license?",
+  "choices": [
+   "20 hours",
+   "24 hours",
+   "40 hours",
+   "50 hours"
+  ],
+  "answer": 2,
+  "explain": "A combined property and casualty program requires 40 hours and also satisfies the personal lines requirement. Property-only and casualty-only programs each require 20 hours. Twenty-four hours is the CE requirement, not the prelicensing requirement.",
+  "source": "MCL 500.1204a(1)(b)(iv),(v),(vii)"
+ },
+ {
+  "id": "reg-013",
+  "topic": "reg",
+  "sub": "Producer",
+  "q": "The director may waive the prelicensing education or examination requirement for a producer applicant who:",
+  "choices": [
+   "Has 5 years of experience as a commercial claims supervisor",
+   "Was licensed as an insurance producer 3 years ago",
+   "Holds a Michigan real estate broker license",
+   "Holds the Chartered Property Casualty Underwriter (CPCU) designation"
+  ],
+  "answer": 3,
+  "explain": "The waiver list includes certain designations, such as CPCU, CIC, AAI and ARM, a producer license held within the preceding 12 months, an insurance-concentration degree, and limited licenses. A license held 3 years ago falls outside the 12-month window.",
+  "source": "MCL 500.1204(2)(a)-(d)"
+ },
+ {
+  "id": "reg-014",
+  "topic": "reg",
+  "sub": "Producer",
+  "q": "A licensed producer moves to Michigan from another state, where she was licensed for property and casualty. Which statement is correct?",
+  "choices": [
+   "She must apply for a resident license within 90 days after establishing legal residence; no prelicensing education or exam is required for lines she held.",
+   "She must complete 40 hours of prelicensing education and pass the Michigan exam within 12 months after establishing legal residence.",
+   "She may keep using her nonresident license indefinitely as long as she renews it.",
+   "She must apply for a resident license within 30 days after establishing legal residence and pass only the Michigan law portion of the exam."
+  ],
+  "answer": 0,
+  "explain": "A producer licensed in another state who moves to Michigan must apply within 90 days of establishing legal residence. Prelicensing education and the exam are not required for qualifications previously held.",
+  "source": "MCL 500.1206b(2)"
+ },
+ {
+  "id": "reg-015",
+  "topic": "reg",
+  "sub": "Producer",
+  "q": "A licensed Michigan producer dies unexpectedly. To allow time to sell the agency, the director may issue a temporary producer license to the surviving spouse without an examination. For how long?",
+  "choices": [
+   "30 days",
+   "90 days",
+   "180 days",
+   "1 year"
+  ],
+  "answer": 2,
+  "explain": "A temporary producer license may be issued without an examination for up to 180 days. Eligible recipients include the surviving spouse or personal representative of a producer who dies or becomes disabled.",
+  "source": "MCL 500.1211b(1)(a)"
+ },
+ {
+  "id": "reg-016",
+  "topic": "reg",
+  "sub": "Types of Licensees",
+  "q": "A licensed solicitor in Michigan may solicit applications and collect premiums on behalf of:",
+  "choices": [
+   "Any insurer admitted in Michigan, without a written contract, notice to the director, or any further authorization",
+   "A licensed resident producer, under a written contract specifying the solicitor's authority, after the producer notifies the director",
+   "Any consumer who signs a written fee agreement specifying the solicitor's authority",
+   "A surplus lines insurer, through the Michigan Surplus Lines Association"
+  ],
+  "answer": 1,
+  "explain": "A solicitor acts for a licensed resident producer (agent). There must be a written contract specifying the solicitor's authority, the solicitor must be licensed, and the agent must notify the director of the appointment.",
+  "source": "MCL 500.1211(1); MCL 500.1212"
+ },
+ {
+  "id": "reg-017",
+  "topic": "reg",
+  "sub": "Counselor",
+  "q": "Which of the following persons may give opinions about the coverage and value of a client's insurance policies WITHOUT an insurance counselor license?",
+  "choices": [
+   "A person who advertises as an \"insurance consultant\" and charges hourly fees to review policies",
+   "An unlicensed person who audits and abstracts policies for business clients for a fee",
+   "An attorney admitted to practice law in Michigan",
+   "A financial planner who holds himself out to the public as an insurance counselor"
+  ],
+  "answer": 2,
+  "explain": "Section 1232 does not apply to a person admitted to practice law in Michigan, and it does not prohibit a licensed agent's customary advice. Auditing or abstracting policies, giving such opinions, or holding oneself out as a counselor otherwise requires a counselor license.",
+  "source": "MCL 500.1232"
+ },
+ {
+  "id": "reg-018",
+  "topic": "reg",
+  "sub": "Counselor",
+  "q": "Before providing services, an insurance counselor must prepare a written agreement that both the counselor and the client sign. The agreement must do all of the following EXCEPT:",
+  "choices": [
+   "Outline the nature of the work to be performed",
+   "State the counselor's fee",
+   "Disclose that the counselor will receive a commission on any insurance the counselor places as an agent",
+   "State that the fee will be waived if the client buys insurance through the counselor"
+  ],
+  "answer": 3,
+  "explain": "The agreement must state that the counselor's fee may NOT be waived under any circumstances. It must also describe the work, state the fee, and disclose any commission. The counselor keeps a copy for at least 2 years.",
+  "source": "MCL 500.1236"
+ },
+ {
+  "id": "reg-019",
+  "topic": "reg",
+  "sub": "Counselor",
+  "q": "An insurance counselor must keep a copy of each signed client agreement for at least how long after the services are completed?",
+  "choices": [
+   "1 year",
+   "2 years",
+   "3 years",
+   "5 years"
+  ],
+  "answer": 1,
+  "explain": "The counselor must retain a copy of the agreement for not less than 2 years after completing the services, and it must be available to the commissioner.",
+  "source": "MCL 500.1236"
+ },
+ {
+  "id": "reg-020",
+  "topic": "reg",
+  "sub": "Commissions",
+  "q": "Producer Lee sold several policies while licensed, then retired and let his license lapse. The insurer continues paying Lee renewal commissions on those policies. This is:",
+  "choices": [
+   "Permitted, because Lee was licensed when the policies were sold",
+   "Prohibited, because commissions may be paid only to currently licensed persons",
+   "Permitted only if Lee reinstates his license within 12 months",
+   "Prohibited unless the director approves each payment"
+  ],
+  "answer": 0,
+  "explain": "Renewal or other deferred commissions may be paid to a person who was licensed at the time of the sale, solicitation or negotiation.",
+  "source": "MCL 500.1240(3)"
+ },
+ {
+  "id": "reg-021",
+  "topic": "reg",
+  "sub": "Commissions",
+  "q": "An agent pays her unlicensed neighbor $25 for each referral who buys a policy from her. This practice is:",
+  "choices": [
+   "Permitted, if the payments total less than $50 per calendar year",
+   "Permitted, if the agent discloses the payments in writing to the insurer and to each referred customer",
+   "Prohibited, because a referral fee paid to an unlicensed person may not depend on the referral applying for or buying a policy",
+   "Permitted, if the neighbor signs a written referral agreement with the agent before any payments are made"
+  ],
+  "answer": 2,
+  "explain": "DIFS allows a producer to pay an unlicensed person a referral fee only if the fee is not contingent on the referral applying for or buying a policy (MCL 500.1240(4); DIFS Referral Fees FAQ). Paying $25 for each referral who buys is contingent on a sale, so it is prohibited (MCL 500.1207(11); 500.1240(1)). The $50 limit applies only to merchandise given to applicants and insureds.",
+  "source": "MCL 500.1207(11); MCL 500.1240(1),(4); DIFS Insurance Compensation and Rebating FAQ - Referral Fees (updated 05/09/16); MCL 500.2024b"
+ },
+ {
+  "id": "reg-022",
+  "topic": "reg",
+  "sub": "Change of Name and Address",
+  "q": "A Michigan producer moves to a new home address within the state. Within how many days must the producer notify the director of the change?",
+  "choices": [
+   "10 days",
+   "15 days",
+   "30 days",
+   "60 days"
+  ],
+  "answer": 2,
+  "explain": "Licensees must report a change of legal name or address within 30 days, and a change of mailing or email address within 30 days.",
+  "source": "MCL 500.1206(5); MCL 500.1238(1)"
+ },
+ {
+  "id": "reg-023",
+  "topic": "reg",
+  "sub": "Assumed Names",
+  "q": "A producer wants to do business as \"Lakeshore Insurance Solutions\" instead of her legal name. Under Michigan law, she must:",
+  "choices": [
+   "Notify the commissioner before using the assumed name",
+   "Notify the commissioner within 30 days after she first uses the name",
+   "Obtain written approval from each appointing insurer",
+   "Do nothing, as long as her legal name appears on each policy"
+  ],
+  "answer": 0,
+  "explain": "A producer doing business under any name other than the legal name must notify the commissioner before using the assumed name.",
+  "source": "MCL 500.1211a"
+ },
+ {
+  "id": "reg-024",
+  "topic": "reg",
+  "sub": "Reporting of Actions",
+  "q": "A Michigan resident producer is fined by the Ohio insurance department. When must the producer report this administrative action to the Michigan director?",
+  "choices": [
+   "Within 10 days after the hearing is scheduled",
+   "Within 30 days after the final disposition of the matter",
+   "Only at the next license renewal",
+   "Within 60 days after the action is initiated"
+  ],
+  "answer": 1,
+  "explain": "A producer must report any administrative action taken in another jurisdiction, or by another Michigan agency, within 30 days after final disposition, with a copy of the order or other relevant documents.",
+  "source": "MCL 500.1247(1)"
+ },
+ {
+  "id": "reg-025",
+  "topic": "reg",
+  "sub": "Reporting of Actions",
+  "q": "A producer is criminally charged in another state. When must the producer report the criminal prosecution to the Michigan director?",
+  "choices": [
+   "Within 30 days after the initial pretrial hearing date",
+   "Within 30 days after a conviction or guilty plea, if any",
+   "Within 10 days after the arrest",
+   "Only if the charge is a felony"
+  ],
+  "answer": 0,
+  "explain": "A producer must report any criminal prosecution, in any jurisdiction, within 30 days after the initial pretrial hearing date, with the initial complaint and the resulting order.",
+  "source": "MCL 500.1247(2)"
+ },
+ {
+  "id": "reg-026",
+  "topic": "reg",
+  "sub": "Continuing Education Requirements",
+  "q": "To keep a Michigan producer license in force, a resident producer must complete how much continuing education in each 2-year review period?",
+  "choices": [
+   "12 hours, including 2 hours of ethics",
+   "20 hours, including 3 hours of ethics",
+   "24 hours, including 3 hours of ethics",
+   "30 hours, including 6 hours of ethics"
+  ],
+  "answer": 2,
+  "explain": "Producers need at least 24 hours of approved CE every 2 years, with at least 3 of those hours in ethics.",
+  "source": "MCL 500.1204c(1),(2)"
+ },
+ {
+  "id": "reg-027",
+  "topic": "reg",
+  "sub": "Continuing Education Requirements",
+  "q": "A producer completes 40 CE hours in her current 2-year period, including 5 hours of ethics. Which statement about carryover is correct?",
+  "choices": [
+   "All 16 extra hours carry over, including the 2 extra ethics hours, toward next period's ethics requirement.",
+   "No hours may carry over to the next period.",
+   "Up to 16 hours may carry over, but only as ethics credit.",
+   "At most 12 hours may carry over, and extra ethics hours cannot satisfy the next period's ethics requirement."
+  ],
+  "answer": 3,
+  "explain": "Excess hours beyond 24 may carry over, up to a maximum of 12. Ethics hours may not be applied to the next period's ethics requirement; DIFS counts excess ethics hours as general hours.",
+  "source": "MCL 500.1204c(13); DIFS CE Carryover FAQ"
+ },
+ {
+  "id": "reg-028",
+  "topic": "reg",
+  "sub": "Continuing Education Requirements",
+  "q": "A producer has not completed her CE requirement by her license expiration date. During the 90-day grace period, she may:",
+  "choices": [
+   "Continue writing new business as long as she has enrolled in an approved CE course",
+   "Service policies she previously sold and receive commissions on them, but not sell new policies or bind coverage",
+   "Bind coverage and service existing policies, but not solicit or sell new policies",
+   "Neither service existing policies nor receive any commissions on policies she previously sold"
+  ],
+  "answer": 1,
+  "explain": "During the 90-day grace period, the producer may not solicit or sell new policies, bind coverage, or otherwise act as a producer. She may service policies previously sold and receive commissions on them. If CE is still not met after 90 days, the license is canceled.",
+  "source": "MCL 500.1204c(11)"
+ },
+ {
+  "id": "reg-029",
+  "topic": "reg",
+  "sub": "Continuing Education Requirements",
+  "q": "The director is required to waive the CE requirement for which of the following producers?",
+  "choices": [
+   "A producer licensed only for personal lines",
+   "A producer who has held a license for more than 20 years",
+   "A producer licensed to write only limited line credit insurance",
+   "A producer who holds the CPCU designation"
+  ],
+  "answer": 2,
+  "explain": "The director must waive CE for producers licensed only for limited line credit insurance, and for travel- or baggage-only producers whose employment is for another purpose. The director must also waive CE when military service prevents compliance or when the director determines that enforcement would cause severe hardship. Neither a CPCU nor long licensure is a waiver ground.",
+  "source": "MCL 500.1204c(9)"
+ },
+ {
+  "id": "reg-030",
+  "topic": "reg",
+  "sub": "Maintenance and Duration",
+  "q": "A producer's license lapsed 8 months ago for a reason OTHER than failing to meet CE requirements. Which statement is correct?",
+  "choices": [
+   "The producer must complete prelicensing education and retake the exam.",
+   "The producer may reinstate the same license without passing a written examination.",
+   "The license cannot be reinstated, and the producer must wait 1 year to reapply.",
+   "The producer may reinstate only after completing 48 hours of CE."
+  ],
+  "answer": 1,
+  "explain": "A producer whose license lapsed for a reason other than unmet CE may reinstate the same license without a written exam within 12 months of the lapse.",
+  "source": "MCL 500.1206(3)"
+ },
+ {
+  "id": "reg-031",
+  "topic": "reg",
+  "sub": "Suspension, Revocation, Refusal to Issue or Renew",
+  "q": "Under MCL 500.1239(1), the director must refuse to issue a producer license to an applicant who:",
+  "choices": [
+   "Was convicted of a felony 6 years before filing the application",
+   "Received a misdemeanor traffic ticket 2 years ago",
+   "Failed the licensing exam once before passing it on the second attempt",
+   "Is 19 years old"
+  ],
+  "answer": 0,
+  "explain": "A felony conviction within 10 years before the application is filed is a 1239(1)(d) cause, and the director shall not issue a license for it. A felony involving violence, criminal sexual conduct, or a fiduciary or financial crime bars licensure regardless of date.",
+  "source": "MCL 500.1239(1)(d),(e); MCL 500.1205(1)(a)"
+ },
+ {
+  "id": "reg-032",
+  "topic": "reg",
+  "sub": "Forgery",
+  "q": "All of the following are grounds for the director to suspend or revoke a producer's license EXCEPT:",
+  "choices": [
+   "Forging another person's name to an insurance application or any document related to an insurance transaction",
+   "Knowingly accepting insurance business from an unlicensed individual",
+   "Improperly using notes or any other reference material to complete an insurance licensing exam",
+   "Placing coverage the agent's insurers refused through another licensed agent, with the required written notice to the buyer"
+  ],
+  "answer": 3,
+  "explain": "Forgery, knowingly accepting business from an unlicensed person, and cheating on the exam are all 1239 causes. Placing refused coverage through another licensed agent, with the required written notice, is expressly permitted by 1207(12).",
+  "source": "MCL 500.1239(1)(h),(i), (2)(d); MCL 500.1207(12)"
+ },
+ {
+  "id": "reg-033",
+  "topic": "reg",
+  "sub": "Suspension, Revocation, Refusal to Issue or Renew",
+  "q": "The director gives written notice denying an application for a resident producer license. Within how many days after the written denial may the applicant demand a hearing?",
+  "choices": [
+   "10 days",
+   "20 days",
+   "30 days",
+   "60 days"
+  ],
+  "answer": 2,
+  "explain": "The applicant may make a written demand for a hearing within 30 days after the written denial. The hearing is held under the Administrative Procedures Act.",
+  "source": "MCL 500.1239(4)"
+ },
+ {
+  "id": "reg-034",
+  "topic": "reg",
+  "sub": "Penalties and Fines",
+  "q": "After a hearing, the director finds that a producer violated the licensing chapter (Chapter 12) and that the producer knew or reasonably should have known of the violation. What is the maximum civil fine per violation?",
+  "choices": [
+   "$500",
+   "$1,000",
+   "$5,000",
+   "$20,000"
+  ],
+  "answer": 2,
+  "explain": "Under 1244, the fine is up to $1,000 per violation, or up to $5,000 per violation if the person knew or reasonably should have known of the violation. One order may not require more than $50,000 in fines. The $20,000 figure applies to knowingly violating a cease and desist order.",
+  "source": "MCL 500.1244(1)(a),(3)"
+ },
+ {
+  "id": "reg-035",
+  "topic": "reg",
+  "sub": "Cease and Desist Order",
+  "q": "A producer knowingly violates a cease and desist order issued under the licensing chapter. After notice and a hearing, the director may impose a civil fine of up to:",
+  "choices": [
+   "$5,000 per violation, with no aggregate limit",
+   "$20,000 per violation, not to exceed $100,000 in one order",
+   "$50,000 per violation",
+   "$1,000 per violation, not to exceed $10,000 in one order"
+  ],
+  "answer": 1,
+  "explain": "Knowingly violating a Chapter 12 cease and desist order can bring up to $20,000 per violation, capped at $100,000 per order, and/or suspension or revocation of the license.",
+  "source": "MCL 500.1244(3)"
+ },
+ {
+  "id": "reg-036",
+  "topic": "reg",
+  "sub": "Penalties and Fines",
+  "q": "Under the Uniform Trade Practices Act, a person who did NOT know, and could not reasonably have known, that a practice was prohibited may be fined up to $1,000 per violation, with what aggregate maximum?",
+  "choices": [
+   "$5,000",
+   "$10,000",
+   "$50,000",
+   "$100,000"
+  ],
+  "answer": 1,
+  "explain": "Under 2038, non-knowing violations carry a fine of up to $1,000 each, with a $10,000 aggregate. Knowing violations carry up to $5,000 each, with a $50,000 aggregate for all violations in a 6-month period.",
+  "source": "MCL 500.2038(1)(a)"
+ },
+ {
+  "id": "reg-037",
+  "topic": "reg",
+  "sub": "Suspension, Revocation, Refusal to Issue or Renew",
+  "q": "The commissioner finds that protecting the public requires emergency action against a solicitor. Which statement about summary suspension is correct?",
+  "choices": [
+   "A summary suspension may be ordered without a prior hearing; a requested hearing must be held within 20 days after it takes effect.",
+   "A summary suspension may not take effect until a hearing has been held on at least 10 days' notice.",
+   "Summary suspension is available only after a criminal conviction.",
+   "A summary suspension automatically becomes a revocation after 30 days unless the solicitor requests a hearing."
+  ],
+  "answer": 0,
+  "explain": "The commissioner may order summary suspension without a prior hearing when public protection requires emergency action. If requested, a hearing is held within 20 days, unless the licensee asks for a later date, and a decision is announced within 30 days after the hearing.",
+  "source": "MCL 500.1242(4)"
+ },
+ {
+  "id": "reg-038",
+  "topic": "reg",
+  "sub": "Misrepresentation",
+  "q": "An agent makes an incomplete and misleading comparison of a client's current policy with a new policy to persuade the client to let the current policy lapse and buy the new one. This practice is called:",
+  "choices": [
+   "Rebating",
+   "Twisting",
+   "Sliding",
+   "Boycott"
+  ],
+  "answer": 1,
+  "explain": "A misleading representation or incomplete comparison of policies made to induce a person to lapse, surrender or replace a policy is known as twisting, and Michigan prohibits it. Rebating is giving inducements not specified in the policy.",
+  "source": "MCL 500.2005a(a); MCL 500.2064(2); MCL 500.2005(f)"
+ },
+ {
+  "id": "reg-039",
+  "topic": "reg",
+  "sub": "Rebating",
+  "q": "A property and casualty producer wants to thank new homeowners clients with a gift. Under Michigan law, the producer may give an applicant or insured an article of merchandise without it being an illegal rebate if its cost to the insurer is:",
+  "choices": [
+   "$5 or less per policy",
+   "$25 or less per calendar year",
+   "$50 or less per calendar year",
+   "$100 or less per policy term"
+  ],
+  "answer": 2,
+  "explain": "Sections 2024, 2066 and 2070 do not prohibit a P&C insurer or producer from giving merchandise that costs the insurer $50 or less per calendar year (as amended by 2018 PA 542). The $5 limit applies to life insurance applicants.",
+  "source": "MCL 500.2024b; MCL 500.2024a"
+ },
+ {
+  "id": "reg-040",
+  "topic": "reg",
+  "sub": "Rebating",
+  "q": "An insured knowingly accepts a rebate of part of the agent's commission in exchange for buying a policy. What is the consequence for the INSURED?",
+  "choices": [
+   "None, because only the agent who offered the rebate can be penalized for rebating under Michigan law",
+   "The policy is void from inception",
+   "The insured must pay a civil fine equal to 10 times the rebate, but the amount of coverage is unchanged",
+   "Coverage is reduced in proportion to the rebate's share of the premium, and the insured faces a misdemeanor fine of up to $100"
+  ],
+  "answer": 3,
+  "explain": "The insurance is reduced in the same proportion that the rebate bears to the total premium. The insured is also guilty of a misdemeanor with a fine of up to $100.",
+  "source": "MCL 500.2070"
+ },
+ {
+  "id": "reg-041",
+  "topic": "reg",
+  "sub": "Rebating",
+  "q": "On satisfactory evidence that an agent paid illegal rebates, the commissioner revokes the agent's license. How long must pass before a new license may be issued to that agent?",
+  "choices": [
+   "30 days",
+   "6 months",
+   "1 year",
+   "5 years"
+  ],
+  "answer": 2,
+  "explain": "After revocation for rebating, which follows the 2068 notice-and-hearing procedure, no license may be issued to the offender within 1 year. Rebating is also a misdemeanor, with a fine of up to $100 per violation.",
+  "source": "MCL 500.2066(2); MCL 500.2069"
+ },
+ {
+  "id": "reg-042",
+  "topic": "reg",
+  "sub": "Boycott, Coercion, and Intimidation",
+  "q": "Several insurers agree that none of them will write policies for customers of a particular agency, unreasonably restraining that agency's business. This is an example of:",
+  "choices": [
+   "Boycott, which is an unfair method of competition",
+   "Rebating, because the agency loses commissions",
+   "Defamation, because the agency's reputation suffers",
+   "A permitted underwriting practice, if applied uniformly"
+  ],
+  "answer": 0,
+  "explain": "Entering into any agreement to commit, or by concerted action committing, any act of boycott, coercion or intimidation that results or tends to result in unreasonable restraint of the business of insurance is an unfair trade practice.",
+  "source": "MCL 500.2012"
+ },
+ {
+  "id": "reg-043",
+  "topic": "reg",
+  "sub": "Deception",
+  "q": "A producer tells prospects that a competing insurer is \"about to go bankrupt,\" a false and derogatory claim intended to hurt the competitor. This unfair trade practice is known as:",
+  "choices": [
+   "Twisting",
+   "Defamation",
+   "Coercion",
+   "Unfair discrimination"
+  ],
+  "answer": 1,
+  "explain": "Making or circulating a statement that is false or maliciously critical of the financial condition of a person in the insurance business, and calculated to injure that person, is defamation, an unfair trade practice.",
+  "source": "MCL 500.2009"
+ },
+ {
+  "id": "reg-044",
+  "topic": "reg",
+  "sub": "Unfair Discrimination",
+  "q": "An insurer refuses to write a homeowners policy for an applicant solely because another insurer previously denied the applicant coverage. This is:",
+  "choices": [
+   "Permitted, because insurers may decline any risk",
+   "Permitted, if the prior denial occurred within the last 3 years",
+   "Permitted, if the agent discloses the reason in writing",
+   "An unfair trade practice"
+  ],
+  "answer": 3,
+  "explain": "Refusing to insure, or to continue to insure, an individual or risk solely because the applicant was previously denied coverage by an insurer is an unfair method of competition and an unfair or deceptive act.",
+  "source": "MCL 500.2027(b)"
+ },
+ {
+  "id": "reg-045",
+  "topic": "reg",
+  "sub": "Unfair Discrimination",
+  "q": "For property insurance, an insurer may refuse to insure based on the location of the risk only if:",
+  "choices": [
+   "The property is in a city with more than 100,000 residents under the most recent federal census",
+   "There is a statistically significant relationship between the location and fire-loss risk within its ZIP code",
+   "The applicant has lived at the location for less than 1 year, as shown on the application",
+   "The agent approves the refusal in writing"
+  ],
+  "answer": 1,
+  "explain": "For property insurance, location may be used only when there is a statistically significant relationship between the location of the risk and the risk of fire loss within the area. \"Area\" means a single ZIP code.",
+  "source": "MCL 500.2027(a)(iii)"
+ },
+ {
+  "id": "reg-046",
+  "topic": "reg",
+  "sub": "Inducement",
+  "q": "A bank tells a mortgage applicant that the loan will be approved only if the homeowners policy is bought through the bank's affiliated agency. Under Michigan law, this is:",
+  "choices": [
+   "Permitted, because the lender has an insurable interest in the mortgaged home",
+   "Permitted, if the premium is competitive",
+   "Permitted, if the borrower signs a written consent at the loan closing",
+   "Prohibited; a lender may not require the borrower to use a particular agent or insurer"
+  ],
+  "answer": 3,
+  "explain": "No person may require, as a condition of lending money or extending credit, that the borrower obtain insurance through a particular agent or insurer. The lender keeps a reasonable right to approve or disapprove the insurance selected. Section 1207(13) likewise bars inducing purchases through a particular agent by promising to lend money.",
+  "source": "MCL 500.2077(1),(3); MCL 500.1207(13)"
+ },
+ {
+  "id": "reg-047",
+  "topic": "reg",
+  "sub": "False Information and Advertising",
+  "q": "A telemarketing campaign by an insurance agency does not disclose that its purpose is to solicit insurance or that an insurance agent will make contact. This is:",
+  "choices": [
+   "Permitted, if the calls are made only to existing customers",
+   "Permitted, if no policy is sold on the first call",
+   "Permitted for personal lines but not commercial lines",
+   "An unfair or deceptive act or practice"
+  ],
+  "answer": 3,
+  "explain": "Using any method of marketing that fails to disclose in a conspicuous manner that a purpose of the marketing is solicitation of insurance, and that contact will be made by an insurance agent or insurer, is an unfair or deceptive practice.",
+  "source": "MCL 500.2005a(c)"
+ },
+ {
+  "id": "reg-048",
+  "topic": "reg",
+  "sub": "False Statement",
+  "q": "An agent enters false information on an application to obtain a commission from the insurer. Under the Uniform Trade Practices Act, this is:",
+  "choices": [
+   "An unfair method of competition and unfair or deceptive act or practice",
+   "Acceptable, if the insured signs the application",
+   "Only a matter between the agent and the insurer under their contract",
+   "Permitted, if the policy is later canceled"
+  ],
+  "answer": 0,
+  "explain": "Making false or fraudulent statements on or about an application in order to obtain a fee, commission, money or other benefit is an unfair trade practice. It may also be a fraudulent insurance act under 4503.",
+  "source": "MCL 500.2018; MCL 500.4503(a)"
+ },
+ {
+  "id": "reg-049",
+  "topic": "reg",
+  "sub": "Fiduciary Responsibilities",
+  "q": "Which statement about an agent's handling of premiums in Michigan is correct?",
+  "choices": [
+   "The agent may put personal money into the premium account only to open it and to pay or avoid account fees.",
+   "The agent may deposit premiums in a personal checking account if the agent keeps a ledger.",
+   "The premium account must be non-interest-bearing.",
+   "The agent may use premium funds for agency operating expenses and repay them within 30 days."
+  ],
+  "answer": 0,
+  "explain": "Premiums and return premiums are fiduciary money that must be segregated and not commingled. The agent may use his or her own money only to open the separate account and to pay or avoid bank fees. The account must be at a federally insured institution and may bear interest.",
+  "source": "MCL 500.1207(2),(3)"
+ },
+ {
+  "id": "reg-050",
+  "topic": "reg",
+  "sub": "Fiduciary Responsibilities",
+  "q": "An agent's failure to turn over, in a timely manner, money held in a fiduciary capacity to the persons to whom it is owed is:",
+  "choices": [
+   "Prima facie evidence of a violation of the agent's fiduciary responsibility",
+   "A violation only if the delay exceeds 90 days",
+   "A contract matter that the director cannot act on",
+   "Permitted, if the money is held in an interest-bearing account"
+  ],
+  "answer": 0,
+  "explain": "Failure to turn over fiduciary money in a timely manner is prima facie evidence of a violation of fiduciary responsibility. Misappropriating or converting money is also a 1239(1)(b) licensing cause.",
+  "source": "MCL 500.1207(8); MCL 500.1239(1)(b)"
+ },
+ {
+  "id": "reg-051",
+  "topic": "reg",
+  "sub": "Fiduciary Responsibilities",
+  "q": "An agent may hold an insured's return premium in the agent's premium account to pay that insured's future premiums only if:",
+  "choices": [
+   "The amount is less than $50",
+   "The insurer approves in writing",
+   "The agent notifies the director within 30 days",
+   "The insured gives written authorization"
+  ],
+  "answer": 3,
+  "explain": "An agent may hold returned premiums in the separate account to pay future premiums for an insured only with the insured's written authorization.",
+  "source": "MCL 500.1207(4)"
+ },
+ {
+  "id": "reg-052",
+  "topic": "reg",
+  "sub": "Insurance Fraud Regulation",
+  "q": "A person knowingly, and with intent to defraud, submits a claim supported by a falsified repair estimate. Under Michigan's insurance fraud law, the maximum penalty for this fraudulent insurance act is:",
+  "choices": [
+   "A misdemeanor, punishable by up to 90 days in jail",
+   "A felony, punishable by up to 4 years in prison and/or a fine of up to $50,000, plus restitution",
+   "A felony, punishable by up to 10 years in prison and/or a fine of up to $100,000",
+   "A civil fine of up to $5,000 only"
+  ],
+  "answer": 1,
+  "explain": "A fraudulent insurance act under 4503 is a felony punishable by up to 4 years and/or $50,000, and the court must order restitution. An agreement or conspiracy to commit one is a felony punishable by up to 10 years and/or $50,000.",
+  "source": "MCL 500.4503(c); MCL 500.4511(1),(2)"
+ },
+ {
+  "id": "reg-053",
+  "topic": "reg",
+  "sub": "Insurance Fraud Regulation",
+  "q": "Two people agree to stage an auto accident and file false injury claims. Under MCL 500.4511, entering into such an agreement or conspiracy to commit a fraudulent insurance act is punishable by up to:",
+  "choices": [
+   "1 year in jail",
+   "4 years in prison",
+   "10 years in prison",
+   "20 years in prison"
+  ],
+  "answer": 2,
+  "explain": "An agreement or conspiracy to commit a fraudulent insurance act is a felony punishable by up to 10 years and/or a fine of up to $50,000, plus restitution.",
+  "source": "MCL 500.4511(2)"
+ },
+ {
+  "id": "reg-054",
+  "topic": "reg",
+  "sub": "Insurance Fraud Regulation",
+  "q": "A person who is paid by a medical practitioner to bring in patients so that the practitioner can obtain insurance benefits or assert claims against insurers is called a:",
+  "choices": [
+   "Runner, capper, or steerer",
+   "Licensed solicitor",
+   "Public adjuster or appraiser",
+   "Insurance counselor"
+  ],
+  "answer": 0,
+  "explain": "A runner, capper or steerer receives a benefit from a practitioner for procuring clients or patients in order to obtain insurance benefits or assert claims. Using or acting as one with intent to defraud is a fraudulent insurance act.",
+  "source": "MCL 500.4501(h); MCL 500.4503(h)"
+ },
+ {
+  "id": "reg-055",
+  "topic": "reg",
+  "sub": "Insurance Fraud Regulation",
+  "q": "An insurance agent reports suspected claim fraud to the state police in good faith, but the suspicion turns out to be wrong. The insured sues the agent for slander. Under Michigan law:",
+  "choices": [
+   "The agent is strictly liable for any false report, even one made in good faith",
+   "The agent is immune only if the report was made in writing through the insurer's attorney",
+   "The agent is liable unless the insured was convicted",
+   "The agent is immune from libel, slander or other tort claims, absent malice or knowledge of falsity"
+  ],
+  "answer": 3,
+  "explain": "A person who, in the absence of malice, files a report or furnishes information about suspected insurance fraud to an authorized agency is not subject to civil liability for libel, slander or other torts, unless the person knows the information is false.",
+  "source": "MCL 500.4509(1),(3)"
+ },
+ {
+  "id": "reg-056",
+  "topic": "reg",
+  "sub": "Consumer Privacy Regulation",
+  "q": "Michigan's privacy of financial information law (Chapter 5 of the Insurance Code) applies to nonpublic personal financial information about individuals who obtain insurance primarily for:",
+  "choices": [
+   "Business purposes of a sole proprietor",
+   "Agricultural purposes",
+   "Commercial purposes",
+   "Personal, family, or household purposes"
+  ],
+  "answer": 3,
+  "explain": "Chapter 5 covers individuals who obtain products or services primarily for personal, family or household purposes. It does not apply to information about companies, or about individuals who obtain products for business, commercial or agricultural purposes.",
+  "source": "MCL 500.501(1)"
+ },
+ {
+  "id": "reg-057",
+  "topic": "reg",
+  "sub": "Consumer Privacy Regulation",
+  "q": "A licensee must provide its privacy notice to customers \"annually\" during the customer relationship. Under Michigan law, \"annually\" means:",
+  "choices": [
+   "At least once in any period of 12 consecutive months",
+   "Every January 1",
+   "At each policy renewal, even for multi-year policies",
+   "Within 30 days after each policy anniversary"
+  ],
+  "answer": 0,
+  "explain": "\"Annually\" means at least once in any period of 12 consecutive months during the customer relationship. The licensee may define the 12-month period but must apply it consistently. Exceptions apply to former customers and to licensees that share only under the statutory exceptions and have not changed their policies.",
+  "source": "MCL 500.513(1)-(3)"
+ },
+ {
+  "id": "reg-058",
+  "topic": "reg",
+  "sub": "Consumer Privacy Regulation",
+  "q": "A licensee mails its initial privacy notice and opt-out notice to a consumer. The licensee gives the consumer a reasonable opportunity to opt out of disclosure to nonaffiliated third parties if it allows the consumer to opt out by mail or toll-free phone within how many days of mailing?",
+  "choices": [
+   "10 days",
+   "15 days",
+   "30 days",
+   "60 days"
+  ],
+  "answer": 2,
+  "explain": "Allowing the consumer to opt out by mailing a form, calling a toll-free number, or other reasonable means within 30 days from the date the notices were mailed is a reasonable opportunity. An opt-out remains effective until the consumer revokes it in writing.",
+  "source": "MCL 500.529(2)(a); MCL 500.523(2)"
+ },
+ {
+  "id": "reg-059",
+  "topic": "reg",
+  "sub": "Consumer Privacy Regulation",
+  "q": "Which method of delivering a required privacy notice is NOT acceptable under Michigan law?",
+  "choices": [
+   "Hand-delivering a printed copy to the consumer",
+   "Mailing a printed copy to the consumer's last known address",
+   "Posting it on the website for a consumer who transacts online and must acknowledge receipt to obtain the product",
+   "Explaining the notice orally over the telephone, with no written or electronic copy"
+  ],
+  "answer": 3,
+  "explain": "A licensee may not provide any required notice solely by orally explaining it, in person or by phone. Posting a sign in the office or general advertising is also insufficient.",
+  "source": "MCL 500.527(1),(2),(4)"
+ },
+ {
+  "id": "reg-060",
+  "topic": "reg",
+  "sub": "Consumer Privacy Regulation",
+  "q": "Under Michigan law and DIFS rules, which statement about privacy compliance is correct?",
+  "choices": [
+   "Violations of the privacy chapter are handled only under federal law.",
+   "A violation of the privacy chapter (Chapter 5) or its rules is an unfair trade practice.",
+   "Producers are exempt from all privacy requirements.",
+   "Licensees may share customer account numbers with any marketer, as long as they give an annual notice."
+  ],
+  "answer": 1,
+  "explain": "MCL 500.2013 (and R 500.560(a)) makes a violation of chapter 5 or its rules an unfair trade practice. Producers are licensees under chapter 5, and section 533 bars giving account numbers to nonaffiliated third parties for marketing. Separately, the Insurance Data Security chapter (eff. Jan. 20, 2021) requires a comprehensive written information security program, but licensees with fewer than 25 employees are exempt from that requirement.",
+  "source": "MCL 500.2013; Mich Admin Code R 500.560(a); MCL 500.503(l); MCL 500.533; MCL 500.550, 500.555(1), 500.565(1)"
+ }
+]

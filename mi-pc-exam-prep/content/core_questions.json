@@ -1,0 +1,1022 @@
+[
+ {
+  "id": "core-001",
+  "topic": "gen",
+  "sub": "Risk Management Key Terms",
+  "q": "A condition that increases the probability of a loss, such as poor housekeeping in a factory, is called a(n):",
+  "choices": [
+   "Hazard",
+   "Peril",
+   "Exposure",
+   "Loss"
+  ],
+  "answer": 0,
+  "explain": "A hazard is a condition that increases the chance of loss; a peril is the cause of loss itself (fire, windstorm), and exposure is the state of being subject to loss.",
+  "source": "IRMI glossary: hazard; peril; exposure"
+ },
+ {
+  "id": "core-002",
+  "topic": "gen",
+  "sub": "Methods of Handling Risk",
+  "q": "A contractor decides to stop accepting asbestos-removal jobs because of the liability involved. Which method of handling risk is this?",
+  "choices": [
+   "Reduction",
+   "Avoidance",
+   "Sharing",
+   "Retention"
+  ],
+  "answer": 1,
+  "explain": "Avoidance prevents the risk entirely by not engaging in the activity that creates it. Reduction would lower frequency or severity while still doing the work.",
+  "source": "IRMI glossary: avoidance"
+ },
+ {
+  "id": "core-003",
+  "topic": "gen",
+  "sub": "Methods of Handling Risk",
+  "q": "A warehouse owner installs an automatic sprinkler system to limit the size of any fire. This is an example of:",
+  "choices": [
+   "Risk avoidance",
+   "Risk transfer",
+   "Risk reduction",
+   "Risk retention"
+  ],
+  "answer": 2,
+  "explain": "Loss reduction focuses on lowering the severity of losses that do occur; sprinklers and firewalls are classic examples.",
+  "source": "IRMI glossary: loss control; loss reduction"
+ },
+ {
+  "id": "core-004",
+  "topic": "gen",
+  "sub": "Elements of Insurable Risks",
+  "q": "All of the following are characteristics of an ideally insurable risk EXCEPT:",
+  "choices": [
+   "There should be a large number of similar exposure units",
+   "The loss should be accidental and unintentional",
+   "The premium should be economically feasible",
+   "The potential loss should be catastrophic"
+  ],
+  "answer": 3,
+  "explain": "An ideally insurable risk should NOT produce catastrophic loss, because many units suffering loss at once defeats risk pooling. The other three are standard characteristics.",
+  "source": "Rejda & McNamara, Principles of Risk Management and Insurance (13th ed.), Characteristics of an Ideally Insurable Risk"
+ },
+ {
+  "id": "core-005",
+  "topic": "gen",
+  "sub": "Adverse Selection",
+  "q": "The tendency of people who believe they have a higher-than-average chance of loss to seek insurance more often than others is called:",
+  "choices": [
+   "Adverse selection",
+   "The law of large numbers",
+   "Moral hazard",
+   "Utmost good faith"
+  ],
+  "answer": 0,
+  "explain": "Adverse selection is the imbalance created when high-risk persons buy insurance to a much greater degree than low-risk persons; underwriting tries to counter it.",
+  "source": "IRMI glossary: adverse selection"
+ },
+ {
+  "id": "core-006",
+  "topic": "gen",
+  "sub": "Law of Large Numbers",
+  "q": "According to the law of large numbers, as the number of independent exposure units in a group increases:",
+  "choices": [
+   "The probability that any single unit will suffer a loss decreases",
+   "Actual losses become more likely to approximate expected losses",
+   "Premiums must increase to pay for catastrophic losses",
+   "Adverse selection is eliminated"
+  ],
+  "answer": 1,
+  "explain": "The law of large numbers says larger pools make actual results more predictable (closer to expected); it does not change any one unit's own chance of loss.",
+  "source": "IRMI glossary: law of large numbers"
+ },
+ {
+  "id": "core-007",
+  "topic": "gen",
+  "sub": "Reinsurance",
+  "q": "An insurer separately negotiates reinsurance on one large office tower, and the reinsurer is free to accept or decline that particular risk. This is:",
+  "choices": [
+   "Treaty reinsurance",
+   "Quota share treaty reinsurance",
+   "Facultative reinsurance",
+   "A reciprocal exchange"
+  ],
+  "answer": 2,
+  "explain": "Facultative reinsurance is negotiated risk by risk, and the reinsurer may decline any submission. Under a treaty, the reinsurer must accept all business that falls within the treaty.",
+  "source": "IRMI glossary: facultative reinsurance; treaty reinsurance"
+ },
+ {
+  "id": "core-008",
+  "topic": "gen",
+  "sub": "Reinsurance",
+  "q": "Under a quota share (pro rata) reinsurance agreement, the reinsurer:",
+  "choices": [
+   "Pays only the portion of a loss that exceeds the ceding company's retention",
+   "Reviews and accepts or rejects each risk individually",
+   "Pays losses only after an annual aggregate deductible is met",
+   "Receives an agreed percentage of the premium and pays the same percentage of each loss"
+  ],
+  "answer": 3,
+  "explain": "Pro rata (proportional) reinsurance shares premium and losses in the same fixed percentage; quota share cedes an agreed percentage of every risk in a class. Paying only above a retention describes excess of loss.",
+  "source": "IRMI glossary: quota share reinsurance; pro rata reinsurance; excess of loss reinsurance"
+ },
+ {
+  "id": "core-009",
+  "topic": "gen",
+  "sub": "Types of Insurers",
+  "q": "An unincorporated group of subscribers that pool their risks and are managed by an attorney-in-fact is a:",
+  "choices": [
+   "Reciprocal insurance exchange",
+   "Stock insurance company",
+   "Lloyd's association",
+   "Fraternal benefit society"
+  ],
+  "answer": 0,
+  "explain": "A reciprocal (interinsurance exchange) is an unincorporated group of subscribers managed by an attorney-in-fact. A stock company is owned by stockholders.",
+  "source": "IRMI glossary: reciprocal; stock company"
+ },
+ {
+  "id": "core-010",
+  "topic": "gen",
+  "sub": "Financial Status (Independent Rating Services)",
+  "q": "Under A.M. Best's Financial Strength Rating scale, ratings of A and A- carry which descriptor?",
+  "choices": [
+   "Superior",
+   "Excellent",
+   "Good",
+   "Fair"
+  ],
+  "answer": 1,
+  "explain": "A.M. Best: A++/A+ = Superior; A/A- = Excellent; B++/B+ = Good; B/B- = Fair.",
+  "source": "A.M. Best, Guide to Best's Financial Strength Ratings"
+ },
+ {
+  "id": "core-011",
+  "topic": "gen",
+  "sub": "Distribution Systems",
+  "q": "Under the independent agency (American agency) system, who owns the policy records and expiration data?",
+  "choices": [
+   "The insurer",
+   "The policyholder",
+   "The independent agent",
+   "The state insurance regulator"
+  ],
+  "answer": 2,
+  "explain": "In the independent agency system the agent retains ownership, use, and control of policy records and expirations; this distinguishes it from exclusive-agency and direct-writer systems.",
+  "source": "IRMI glossary: independent agency system"
+ },
+ {
+  "id": "core-012",
+  "topic": "gen",
+  "sub": "Authority and Powers of Producers",
+  "q": "An insurer ends an agent's binding authority but leaves the agent with its signage and blank binder forms. A customer who reasonably believes the agent can still bind coverage obtains a binder. The agent's authority to bind in this situation is best described as:",
+  "choices": [
+   "Express authority",
+   "Implied authority",
+   "Fiduciary authority",
+   "Apparent authority"
+  ],
+  "answer": 3,
+  "explain": "Apparent authority is the power a reasonable person would believe the agent has based on the principal's conduct; the insurer may be estopped from denying it. Express authority is what the agency contract actually grants, and here it had been withdrawn.",
+  "source": "IRMI glossary: apparent agency; express authority"
+ },
+ {
+  "id": "core-013",
+  "topic": "gen",
+  "sub": "Producer/Insurer Relationship",
+  "q": "Under the Michigan Insurance Code, a licensed producer who is NOT appointed by the insurer with which a policy is placed is treated as:",
+  "choices": [
+   "An agent of the insured",
+   "An agent of the insurer",
+   "A subagent of the insurer's appointed producer",
+   "An insurance counselor"
+  ],
+  "answer": 0,
+  "explain": "MCL 500.1201(b) defines an 'agent of the insured' as a producer not appointed by the placing insurer and treats that producer as representing the insured, not the insurer.",
+  "source": "MCL 500.1201(b), (c)"
+ },
+ {
+  "id": "core-014",
+  "topic": "gen",
+  "sub": "Responsibilities to the Applicant/Insured",
+  "q": "Under Michigan law, premiums an agent receives from customers must be:",
+  "choices": [
+   "Deposited in the agency's operating account until the end of the month",
+   "Treated as fiduciary money and segregated from the agent's own funds",
+   "Forwarded to DIFS within 30 days",
+   "Held until the policy is issued, with any return premium retained by the agent"
+  ],
+  "answer": 1,
+  "explain": "An agent is a fiduciary for money received as agent and must segregate premiums and return premiums from the agent's own money. Failing to remit on time is prima facie evidence of a fiduciary violation.",
+  "source": "MCL 500.1207(1), (2), (8)"
+ },
+ {
+  "id": "core-015",
+  "topic": "gen",
+  "sub": "Elements of a Legal Contract",
+  "q": "In an insurance contract, the insured's consideration consists of:",
+  "choices": [
+   "The insurer's promise to pay covered losses under the policy",
+   "The producer's signature on the completed application",
+   "Payment of the premium and compliance with the policy's provisions",
+   "The declarations page and endorsements"
+  ],
+  "answer": 2,
+  "explain": "The homeowners policy states the insurer provides coverage 'in return for the premium and compliance with all applicable provisions of this policy.' The promise to pay is the insurer's consideration.",
+  "source": "ISO HO 00 03 05 11, Agreement; NCCI WC 00 00 00 C preamble"
+ },
+ {
+  "id": "core-016",
+  "topic": "gen",
+  "sub": "Distinct Characteristics of an Insurance Contract",
+  "q": "An insured pays one month's premium and then has a $300,000 covered fire loss. This unequal exchange of value, which depends on an uncertain event, shows that an insurance policy is a(n):",
+  "choices": [
+   "Unilateral contract",
+   "Contract of adhesion",
+   "Personal contract",
+   "Aleatory contract"
+  ],
+  "answer": 3,
+  "explain": "An aleatory contract involves an uncertain event and an unequal transfer of value. Adhesion refers to the take-it-or-leave-it drafting, and unilateral means only the insurer makes an enforceable promise.",
+  "source": "IRMI glossary: aleatory contract"
+ },
+ {
+  "id": "core-017",
+  "topic": "gen",
+  "sub": "Legal Interpretations affecting Contracts",
+  "q": "Because an insurance policy is a contract of adhesion, courts generally resolve a genuine ambiguity in the policy wording:",
+  "choices": [
+   "Against the insurer that drafted the policy",
+   "In favor of the insurer, since it bears the risk",
+   "According to the producer's oral explanation",
+   "By striking the ambiguous provision from the policy"
+  ],
+  "answer": 0,
+  "explain": "Contracts of adhesion are offered on a take-it-or-leave-it basis, so courts construe ambiguities against the drafter. Michigan's Supreme Court reaffirmed this rule in Wilkie (2003).",
+  "source": "IRMI glossary: contract of adhesion; Wilkie v Auto-Owners Ins Co, 469 Mich 41 (2003)"
+ },
+ {
+  "id": "core-018",
+  "topic": "gen",
+  "sub": "Legal Interpretations affecting Contracts",
+  "q": "An applicant knows a material fact that would affect the insurer's decision but intentionally says nothing about it because the application did not ask. This is:",
+  "choices": [
+   "Representation",
+   "Concealment",
+   "Warranty",
+   "Estoppel"
+  ],
+  "answer": 1,
+  "explain": "Concealment is the willful withholding of pertinent information even though the insured was not asked about it, and it can void the policy. A misrepresentation is an affirmatively false statement.",
+  "source": "IRMI glossary: concealment; ISO CP 00 90 07 88, A"
+ },
+ {
+  "id": "core-019",
+  "topic": "gen",
+  "sub": "Legal Interpretations affecting Contracts",
+  "q": "An insurer has accepted an insured's late premium payments for several years and then tries to cancel the policy because a payment was late. The doctrine that may prevent the cancellation is:",
+  "choices": [
+   "Subrogation",
+   "Utmost good faith",
+   "Estoppel",
+   "Indemnity"
+  ],
+  "answer": 2,
+  "explain": "Estoppel prevents a party from contradicting its own prior conduct when another party reasonably relied on it; repeatedly accepting late payments is IRMI's own example.",
+  "source": "IRMI glossary: estoppel"
+ },
+ {
+  "id": "core-020",
+  "topic": "gen",
+  "sub": "Legal Interpretations affecting Contracts",
+  "q": "Some courts interpret a policy to provide the coverage an insured would reasonably have expected, even if the policy wording does not provide it. This is the:",
+  "choices": [
+   "Principle of indemnity",
+   "Doctrine of utmost good faith",
+   "Doctrine of waiver",
+   "Reasonable expectations doctrine"
+  ],
+  "answer": 3,
+  "explain": "This is the reasonable expectations doctrine. Note that Michigan's Supreme Court (Wilkie, 2003) declined to adopt it and enforces unambiguous policies as written.",
+  "source": "IRMI glossary: reasonable expectations doctrine; Wilkie v Auto-Owners Ins Co, 469 Mich 41 (2003)"
+ },
+ {
+  "id": "core-021",
+  "topic": "basics",
+  "sub": "Insurable Interest",
+  "q": "For property insurance, when must the insured have an insurable interest in order to collect for a loss?",
+  "choices": [
+   "At the time of the loss",
+   "Only at the time the policy is issued",
+   "At policy inception and each renewal, but not necessarily at the time of loss",
+   "Within 60 days after the loss"
+  ],
+  "answer": 0,
+  "explain": "Property policies pay an insured no more than that insured's interest at the time of loss; the ISO BPP likewise limits payment to the insured's financial interest.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. A; ISO CP 00 10 10 12, E.4.d"
+ },
+ {
+  "id": "core-022",
+  "topic": "basics",
+  "sub": "Underwriting - Loss Ratio",
+  "q": "An insurer's book of business has earned premiums of $2,000,000 and incurred losses of $1,300,000. What is the loss ratio?",
+  "choices": [
+   "54%",
+   "65%",
+   "35%",
+   "153%"
+  ],
+  "answer": 1,
+  "explain": "Loss ratio = incurred losses / earned premiums = $1,300,000 / $2,000,000 = 65%.",
+  "source": "IRMI glossary: loss ratio"
+ },
+ {
+  "id": "core-023",
+  "topic": "basics",
+  "sub": "Hazards",
+  "q": "A store owner stops locking the back door at night because 'insurance will pay if anything is stolen.' This is an example of a:",
+  "choices": [
+   "Moral hazard",
+   "Physical hazard",
+   "Morale hazard",
+   "Speculative risk"
+  ],
+  "answer": 2,
+  "explain": "A morale hazard is indifference to loss because insurance will pay. A moral hazard arises from the insured's character, such as dishonesty.",
+  "source": "IRMI glossary: morale hazard; moral hazard"
+ },
+ {
+  "id": "core-024",
+  "topic": "basics",
+  "sub": "Negligence - Elements of a Negligent Act",
+  "q": "All of the following are elements a plaintiff must prove to establish negligence EXCEPT:",
+  "choices": [
+   "The defendant owed the plaintiff a legal duty",
+   "The defendant breached that duty",
+   "The breach was the proximate cause of actual injury or damage",
+   "The defendant intended to cause harm"
+  ],
+  "answer": 3,
+  "explain": "Negligence requires a duty, a breach, proximate cause, and actual damage; intent is not an element (intentional harm is a different tort).",
+  "source": "IRMI glossary: negligence"
+ },
+ {
+  "id": "core-025",
+  "topic": "basics",
+  "sub": "Negligence - Defenses against Negligence",
+  "q": "Under Michigan's general comparative fault statute, a plaintiff found 60% at fault for her own injuries:",
+  "choices": [
+   "May recover economic damages reduced by 60%, but no noneconomic damages",
+   "Is completely barred from recovering any damages",
+   "Recovers all damages, including noneconomic damages, reduced by 60%",
+   "Recovers full damages because Michigan abolished contributory negligence"
+  ],
+  "answer": 0,
+  "explain": "MCL 600.2959 reduces damages by the plaintiff's percentage of fault. If the plaintiff's fault is greater than the combined fault of the others, economic damages are reduced and noneconomic damages are not awarded.",
+  "source": "MCL 600.2958; MCL 600.2959"
+ },
+ {
+  "id": "core-026",
+  "topic": "basics",
+  "sub": "Negligence - Defenses against Negligence",
+  "q": "In a Michigan negligence suit, the plaintiff proves $100,000 of economic damages and is found 30% at fault. The plaintiff can recover:",
+  "choices": [
+   "$0",
+   "$70,000",
+   "$100,000",
+   "$30,000"
+  ],
+  "answer": 1,
+  "explain": "Contributory fault does not bar recovery in Michigan; damages are reduced by the plaintiff's 30% share ($100,000 - $30,000 = $70,000).",
+  "source": "MCL 600.2958; MCL 600.2959"
+ },
+ {
+  "id": "core-027",
+  "topic": "basics",
+  "sub": "Damages - Punitive",
+  "q": "Under Michigan law, punitive damages are generally:",
+  "choices": [
+   "Available in any negligence case at the jury's discretion",
+   "Capped at three times compensatory damages",
+   "Not recoverable unless expressly authorized by statute",
+   "Available only in breach-of-contract cases"
+  ],
+  "answer": 2,
+  "explain": "Michigan courts hold punitive damages are available only when expressly authorized by the Legislature. Michigan 'exemplary' damages are compensatory in nature.",
+  "source": "Gilbert v DaimlerChrysler Corp, 685 NW2d 391 (Mich 2004); Casey v Auto Owners Ins Co, 729 NW2d 277 (Mich App 2006) (via IADC Michigan Damages Compendium)"
+ },
+ {
+  "id": "core-028",
+  "topic": "basics",
+  "sub": "Vicarious Liability",
+  "q": "A delivery driver negligently injures a pedestrian while making deliveries for his employer, and the employer is held legally responsible. The employer's liability is:",
+  "choices": [
+   "Absolute liability",
+   "Contractual liability",
+   "Strict products liability",
+   "Vicarious liability"
+  ],
+  "answer": 3,
+  "explain": "Vicarious liability makes a principal (here, the employer) liable for the acts of its agents or employees, under the doctrine of respondeat superior.",
+  "source": "IRMI glossary: vicarious liability; LII Wex: vicarious liability"
+ },
+ {
+  "id": "core-029",
+  "topic": "basics",
+  "sub": "Absolute Liability",
+  "q": "A demolition company using explosives is held liable for damage to nearby buildings even though it used every reasonable precaution. This is an example of:",
+  "choices": [
+   "Absolute liability",
+   "Vicarious liability",
+   "Comparative negligence",
+   "Contributory negligence"
+  ],
+  "answer": 0,
+  "explain": "Ultrahazardous activities such as blasting create liability without regard to fault; using due care is not a defense.",
+  "source": "Restatement (Second) of Torts §§519-520; LII Wex: strict liability (abnormally dangerous activities)"
+ },
+ {
+  "id": "core-030",
+  "topic": "basics",
+  "sub": "Named Perils versus Special (Open) Perils",
+  "q": "Under a special (open) perils property policy:",
+  "choices": [
+   "Only the perils specifically listed in the policy are covered",
+   "Direct physical loss is covered unless the cause is specifically excluded",
+   "The insured must prove a listed peril caused the loss",
+   "Only fire and lightning are covered unless the policy is endorsed"
+  ],
+  "answer": 1,
+  "explain": "Open (special) perils coverage insures against all causes of loss except those specifically excluded. Named perils covers only the listed perils.",
+  "source": "IRMI glossary: open perils; special perils; named perils coverage"
+ },
+ {
+  "id": "core-031",
+  "topic": "basics",
+  "sub": "Consequential or Indirect Loss",
+  "q": "Which of the following is a consequential (indirect) loss?",
+  "choices": [
+   "Smoke damage to the building's interior walls",
+   "The cost to replace the burned roof",
+   "Loss of rental income while a fire-damaged apartment building is being repaired",
+   "Water damage to carpets from the fire department's hoses during the fire"
+  ],
+  "answer": 2,
+  "explain": "A consequential loss results from direct damage (for example, loss of rent). The other choices are direct physical damage to the property.",
+  "source": "IRMI glossary: consequential loss; direct loss"
+ },
+ {
+  "id": "core-032",
+  "topic": "basics",
+  "sub": "Blanket versus Specific Insurance",
+  "q": "A single limit of insurance that applies to both the building and business personal property at two locations is:",
+  "choices": [
+   "Specific insurance",
+   "Excess insurance",
+   "Agreed value insurance",
+   "Blanket insurance"
+  ],
+  "answer": 3,
+  "explain": "Blanket insurance covers two or more items under one limit; specific insurance gives each item its own separate limit.",
+  "source": "ISO CP 03 21 10 12 (definitions of specific and blanket insurance); IRMI glossary: blanket limit"
+ },
+ {
+  "id": "core-033",
+  "topic": "basics",
+  "sub": "Basic Types of Construction",
+  "q": "Under ISO's six commercial construction classes, which class is the MOST fire-resistive?",
+  "choices": [
+   "Fire resistive (Construction Code 6)",
+   "Modified fire resistive (Construction Code 5)",
+   "Masonry noncombustible (Construction Code 4)",
+   "Joisted masonry (Construction Code 2)"
+  ],
+  "answer": 0,
+  "explain": "ISO codes run from 1 (frame, least fire-resistive) to 6 (fire resistive: walls, floors, and roof rated at least 2 hours).",
+  "source": "IRMI glossary: fire resistive construction; modified fire resistive construction; joisted masonry construction"
+ },
+ {
+  "id": "core-034",
+  "topic": "basics",
+  "sub": "Loss Valuation - Actual Cash Value",
+  "q": "A 10-year-old roof would cost $20,000 to replace today and has depreciated 40%. If actual cash value is determined as replacement cost minus depreciation, the ACV is:",
+  "choices": [
+   "$8,000",
+   "$12,000",
+   "$20,000",
+   "$28,000"
+  ],
+  "answer": 1,
+  "explain": "ACV = replacement cost - depreciation = $20,000 - (40% x $20,000) = $12,000. $8,000 is the depreciation amount, not the ACV.",
+  "source": "IRMI glossary: actual cash value"
+ },
+ {
+  "id": "core-035",
+  "topic": "basics",
+  "sub": "Loss Valuation - Agreed Value",
+  "q": "Under the ISO Building and Personal Property Coverage Form, the Agreed Value optional coverage:",
+  "choices": [
+   "Replaces actual cash value with replacement cost",
+   "Automatically increases the limit by a stated annual percentage",
+   "Suspends the Coinsurance condition for the property it applies to",
+   "Eliminates the deductible"
+  ],
+  "answer": 2,
+  "explain": "Agreed Value removes the Coinsurance condition until the agreed value expiration date. Replacement Cost and Inflation Guard are separate optional coverages.",
+  "source": "ISO CP 00 10 10 12, G.1"
+ },
+ {
+  "id": "core-036",
+  "topic": "basics",
+  "sub": "Policy Structure",
+  "q": "Which part of a policy identifies the named insured, the policy period, the insured location, and the limits?",
+  "choices": [
+   "Insuring agreement",
+   "Conditions",
+   "Definitions",
+   "Declarations"
+  ],
+  "answer": 3,
+  "explain": "The declarations page shows the key information that varies from insured to insured. The insuring agreement states the insurer's promise to pay.",
+  "source": "IRMI glossary: declarations; insuring agreement"
+ },
+ {
+  "id": "core-037",
+  "topic": "basics",
+  "sub": "Other Insurance - Pro Rata",
+  "q": "A building is insured under Policy A for $300,000 and Policy B for $200,000. Both are written on the same basis with pro rata other-insurance clauses. A $100,000 covered loss occurs. How much does Policy B pay?",
+  "choices": [
+   "$40,000",
+   "$50,000",
+   "$60,000",
+   "$100,000"
+  ],
+  "answer": 0,
+  "explain": "Each insurer pays the proportion its limit bears to all limits: $200,000 / $500,000 = 40%, and 40% x $100,000 = $40,000. Policy A pays $60,000.",
+  "source": "ISO CP 00 90 07 88, G.1; ISO HO 00 03 05 11, Sec. I Cond. G"
+ },
+ {
+  "id": "core-038",
+  "topic": "basics",
+  "sub": "Other Insurance - Contribution by Equal Shares",
+  "q": "Two CGL policies apply to a $250,000 covered claim, and both permit contribution by equal shares. Policy A has a $100,000 limit and Policy B has a $300,000 limit. How much does Policy B pay?",
+  "choices": [
+   "$125,000",
+   "$150,000",
+   "$187,500",
+   "$250,000"
+  ],
+  "answer": 1,
+  "explain": "Under equal shares, each insurer pays equally until its limit is used up: A and B each pay $100,000 (A is exhausted), and B pays the remaining $50,000, for a total of $150,000. $187,500 would be B's share by limits.",
+  "source": "ISO CG 00 01, Sec. IV Cond. 4.c Method Of Sharing; IRMI glossary: contribution by equal shares"
+ },
+ {
+  "id": "core-039",
+  "topic": "basics",
+  "sub": "Coinsurance",
+  "q": "A building worth $400,000 at the time of loss is insured for $240,000 under a commercial property policy with an 80% coinsurance clause and a $1,000 deductible. A $50,000 covered loss occurs. Using the ISO coinsurance formula, the insurer pays:",
+  "choices": [
+   "$37,500",
+   "$49,000",
+   "$36,500",
+   "$29,000"
+  ],
+  "answer": 2,
+  "explain": "Required insurance = $400,000 x 80% = $320,000. $240,000 / $320,000 = 0.75, so $50,000 x 0.75 = $37,500, less the $1,000 deductible = $36,500. The deductible is subtracted after the coinsurance calculation.",
+  "source": "ISO CP 00 10 10 12, F.1 and D"
+ },
+ {
+  "id": "core-040",
+  "topic": "basics",
+  "sub": "Coinsurance",
+  "q": "A building worth $300,000 at the time of loss is insured for $200,000 with an 80% coinsurance clause and no deductible. It is totally destroyed by a covered fire. The insurer pays:",
+  "choices": [
+   "$250,000",
+   "$240,000",
+   "$300,000",
+   "$200,000"
+  ],
+  "answer": 3,
+  "explain": "Required = $240,000; $200,000 / $240,000 x $300,000 = $250,000. But the insurer pays that amount or the Limit of Insurance, whichever is less, so it pays $200,000.",
+  "source": "ISO CP 00 10 10 12, F.1"
+ },
+ {
+  "id": "core-041",
+  "topic": "basics",
+  "sub": "Vacancy or Unoccupancy",
+  "q": "Under the ISO Building and Personal Property Coverage Form, a building has been vacant for more than 60 consecutive days when a covered windstorm damages it. The insurer will:",
+  "choices": [
+   "Reduce the amount it would otherwise pay by 15%",
+   "Pay nothing for the loss",
+   "Pay in full, because vacancy affects only theft losses",
+   "Reduce the payment by 50%"
+  ],
+  "answer": 0,
+  "explain": "After 60 consecutive days of vacancy, vandalism, sprinkler leakage, building glass breakage, water damage, theft, and attempted theft are not covered. All other covered causes, such as windstorm, are reduced by 15%.",
+  "source": "ISO CP 00 10 10 12, E.6.b"
+ },
+ {
+  "id": "core-042",
+  "topic": "basics",
+  "sub": "Named Insured Provisions - Abandonment",
+  "q": "After a fire, the insured tells the insurer, 'Take the damaged inventory - it's yours - and pay me its full value.' Under the ISO commercial property form:",
+  "choices": [
+   "The insurer must accept the property and pay its full value",
+   "There can be no abandonment of any property to the insurer",
+   "The insurer must accept the property if the insured files a sworn proof of loss within 60 days",
+   "Abandonment is allowed only for stock, not for buildings"
+  ],
+  "answer": 1,
+  "explain": "The BPP Loss Conditions state: 'There can be no abandonment of any property to us.' The insurer may, at its option, take property at an agreed or appraised value, but the insured cannot force it to.",
+  "source": "ISO CP 00 10 10 12, E.1 and E.4.a"
+ },
+ {
+  "id": "core-043",
+  "topic": "basics",
+  "sub": "Insurer Provisions - Liberalization",
+  "q": "A liberalization clause provides that:",
+  "choices": [
+   "The insured may broaden coverage mid-term without paying additional premium",
+   "The insurer may restrict coverage mid-term by giving the named insured 30 days' written notice",
+   "Coverage broadened by the insurer without additional premium automatically applies to existing policies",
+   "The insured may cancel at any time and receive a pro rata refund"
+  ],
+  "answer": 2,
+  "explain": "Liberalization extends broadened coverage to existing policies. The ISO commercial property version applies to revisions adopted within 45 days before or during the policy period; the ISO homeowners version uses 60 days.",
+  "source": "ISO CP 00 90 07 88, E; ISO HO 00 03 05 11, Sections I and II Cond. A"
+ },
+ {
+  "id": "core-044",
+  "topic": "basics",
+  "sub": "Insurer Provisions - Subrogation",
+  "q": "After paying its insured for collision damage caused by a negligent driver, the insurer sues that driver to recover what it paid. This right is called:",
+  "choices": [
+   "Salvage",
+   "Contribution",
+   "Indemnification",
+   "Subrogation"
+  ],
+  "answer": 3,
+  "explain": "Subrogation transfers to the insurer, after payment, the insured's right to recover from the party legally liable for the loss.",
+  "source": "IRMI glossary: subrogation; ISO CP 00 90 07 88, I"
+ },
+ {
+  "id": "core-045",
+  "topic": "basics",
+  "sub": "Third-Party Provisions - Standard Mortgage Clause",
+  "q": "Under the standard mortgage clause in an ISO homeowners policy, the insurer denies the insured's fire claim because the insured committed arson. The named mortgagee:",
+  "choices": [
+   "Can still collect on a valid claim if it meets conditions such as paying premium due on demand and filing a sworn loss statement",
+   "Loses its rights, because the mortgagee's rights under the policy depend entirely on the insured's conduct",
+   "Must first obtain a judgment against the insured for the mortgage debt before the insurer will pay",
+   "Is entitled only to a return of the unearned premium"
+  ],
+  "answer": 0,
+  "explain": "The standard mortgage clause protects the mortgagee from the insured's acts if the mortgagee reports known changes in risk, pays premium due on demand, and submits a sworn statement of loss within 60 days after notice. A loss payable clause generally gives no such independent protection.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. L; IRMI glossary: loss payable clause"
+ },
+ {
+  "id": "core-046",
+  "topic": "basics",
+  "sub": "Third-Party Provisions - No Benefit to the Bailee",
+  "q": "A dry cleaner holding customers' clothing tries to have its liability for a fire at its plant paid by the customers' own property insurance. The policy provision that prevents this is:",
+  "choices": [
+   "Loss payable clause",
+   "No benefit to bailee",
+   "Liberalization",
+   "Other insurance"
+  ],
+  "answer": 1,
+  "explain": "No person or organization, other than the insured, that has custody of covered property benefits from the insurance; the HO version specifically refers to those holding, storing, or moving property for a fee.",
+  "source": "ISO CP 00 90 07 88, F; ISO HO 00 03 05 11, Sec. I Cond. M"
+ },
+ {
+  "id": "core-047",
+  "topic": "basics",
+  "sub": "Insurer Provisions - Duty to Defend",
+  "q": "Under the ISO Commercial General Liability coverage form, the insurer's right and duty to defend ends when:",
+  "choices": [
+   "Defense costs equal the each-occurrence limit",
+   "The insured is found more than 50% at fault",
+   "The applicable limit is used up in paying judgments or settlements",
+   "The policy period expires, even if the suit is still pending"
+  ],
+  "answer": 2,
+  "explain": "The CGL states the duty to defend ends when the applicable limit is used up paying judgments or settlements under Coverages A or B or medical expenses under C. Defense costs are paid as supplementary payments and do not erode limits.",
+  "source": "ISO CG 00 01 04 13, Sec. I Cov. A.1.a(2)"
+ },
+ {
+  "id": "core-048",
+  "topic": "basics",
+  "sub": "Role of Applications and Binders",
+  "q": "In an insurance transaction, a binder is:",
+  "choices": [
+   "A permanent substitute for the policy",
+   "The insurer's approval of the producer's appointment",
+   "An endorsement that adds a mortgagee to the policy",
+   "Temporary evidence of insurance until the policy can be issued"
+  ],
+  "answer": 3,
+  "explain": "A binder is a legal agreement issued by an agent or insurer as temporary evidence of coverage. It should be in writing, have a definite time limit, and name the insurer.",
+  "source": "IRMI glossary: binder"
+ },
+ {
+  "id": "core-049",
+  "topic": "basics",
+  "sub": "Insurance Claims Handling",
+  "q": "Which type of adjuster represents the insured rather than the insurance company?",
+  "choices": [
+   "Public adjuster",
+   "Staff adjuster",
+   "Independent adjuster",
+   "Catastrophe adjuster"
+  ],
+  "answer": 0,
+  "explain": "A public adjuster represents the insured in presenting a claim and is usually paid a percentage of the settlement. Staff adjusters are insurer employees; independent adjusters work for insurers on contract.",
+  "source": "IRMI glossary: public adjuster; adjuster; independent adjuster"
+ },
+ {
+  "id": "core-050",
+  "topic": "basics",
+  "sub": "Insurance Claims Handling",
+  "q": "Under Michigan's timely-payment statute, if an insurer does not pay its own insured's claim within 60 days after receiving satisfactory proof of loss, the benefits bear simple interest at:",
+  "choices": [
+   "6% per year",
+   "12% per year",
+   "The prime rate plus 2%",
+   "18% per year"
+  ],
+  "answer": 1,
+  "explain": "MCL 500.2006(4): benefits not paid on a timely basis bear simple interest at 12% per annum from 60 days after the insurer receives satisfactory proof of loss. For the insured (or a person directly entitled under the policy) this interest is owed even if the claim was reasonably in dispute; the \"not reasonably in dispute\" and court-found bad-faith conditions apply only to third-party tort claimants.",
+  "source": "MCL 500.2006(1), (3), (4); Griswold Props, LLC v Lexington Ins Co, 276 Mich App 551 (2007)"
+ },
+ {
+  "id": "core-051",
+  "topic": "basics",
+  "sub": "Insurance Claims Handling",
+  "q": "Under MCL 500.2006, unless a claim is settled sooner, the insurer must specify in writing what materials constitute a satisfactory proof of loss within how many days after receiving the claim?",
+  "choices": [
+   "10 days",
+   "60 days",
+   "30 days",
+   "90 days"
+  ],
+  "answer": 2,
+  "explain": "The insurer must specify the required proof-of-loss materials in writing within 30 days after receiving a claim, unless the claim is settled within those 30 days. The 60-day period is the payment deadline after proof of loss.",
+  "source": "MCL 500.2006(3)"
+ },
+ {
+  "id": "core-052",
+  "topic": "basics",
+  "sub": "Limits of Liability - Aggregate",
+  "q": "Under the ISO CGL coverage form, which of the following is NOT paid from the General Aggregate Limit?",
+  "choices": [
+   "Medical expenses under Coverage C",
+   "Personal and advertising injury damages under Coverage B",
+   "Bodily injury from a customer's fall on the insured's premises",
+   "Bodily injury included in the products-completed operations hazard"
+  ],
+  "answer": 3,
+  "explain": "The General Aggregate covers Coverage C, Coverage B, and Coverage A except products-completed operations. Products-completed operations BI/PD has its own separate aggregate.",
+  "source": "ISO CG 00 01 04 13, Sec. III.2-3"
+ },
+ {
+  "id": "core-053",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Insureds",
+  "q": "Under a commercial policy with several named insureds, which insured is responsible for paying premium and receives cancellation notices and return premiums?",
+  "choices": [
+   "The first named insured",
+   "Every named insured equally",
+   "Any additional insured",
+   "The mortgageholder"
+  ],
+  "answer": 0,
+  "explain": "Under the ISO Common Policy Conditions, the first named insured (listed first in the declarations) is responsible for paying all premiums, is the payee for return premiums, and is the one the insurer sends cancellation notice to. Other named insureds and additional insureds do not have these duties.",
+  "source": "ISO IL 00 17 11 98, A and E; IRMI glossary: first named insured; NCCI WC 00 00 00 C, Part Six E"
+ },
+ {
+  "id": "core-054",
+  "topic": "wc",
+  "sub": "Exclusive Remedy (418.131)",
+  "q": "Under the Michigan Workers' Disability Compensation Act, the only exception to workers' compensation being the employee's exclusive remedy against the employer is:",
+  "choices": [
+   "Gross negligence by the employer",
+   "An intentional tort",
+   "A violation of an OSHA standard",
+   "An injury caused by a co-worker's negligence"
+  ],
+  "answer": 1,
+  "explain": "MCL 418.131(1): 'The only exception to this exclusive remedy is an intentional tort.' Negligence, including gross negligence, does not qualify.",
+  "source": "MCL 418.131(1)"
+ },
+ {
+  "id": "core-055",
+  "topic": "wc",
+  "sub": "Exclusive Remedy (418.131)",
+  "q": "Under MCL 418.131, an employer is deemed to have intended an employee's injury when the employer:",
+  "choices": [
+   "Failed to provide safety training required by OSHA",
+   "Was grossly negligent in maintaining equipment that later injured the employee",
+   "Had actual knowledge that an injury was certain to occur and willfully disregarded it",
+   "Knew an injury was possible and did not post a warning sign near the hazard"
+  ],
+  "answer": 2,
+  "explain": "An intentional tort requires a deliberate act with specific intent to injure; intent is deemed if the employer had actual knowledge that injury was certain to occur and willfully disregarded it. Whether an act was an intentional tort is a question of law for the court.",
+  "source": "MCL 418.131(1)"
+ },
+ {
+  "id": "core-056",
+  "topic": "wc",
+  "sub": "Employer Covered (Required) (418.115)",
+  "q": "A private, non-agricultural Michigan employer has only 2 employees. It is subject to the WDCA if:",
+  "choices": [
+   "Its annual payroll exceeds $50,000",
+   "Both employees have worked for it at least 20 hours per week for 30 days or longer",
+   "It has been in business for at least 1 year",
+   "At least 1 has been regularly employed 35+ hours per week for 13+ weeks in the preceding 52 weeks"
+  ],
+  "answer": 3,
+  "explain": "Private employers with fewer than 3 employees are covered if at least 1 has been regularly employed 35+ hours per week for 13+ weeks in the preceding 52 weeks. Employers that regularly employ 3 or more at one time are always covered.",
+  "source": "MCL 418.115(a)-(b)"
+ },
+ {
+  "id": "core-057",
+  "topic": "wc",
+  "sub": "Benefits Provided (418.311)",
+  "q": "A worker is disabled by a work injury for 3 weeks. Under MCL 418.311, weekly compensation is:",
+  "choices": [
+   "Computed from the date of injury",
+   "Paid beginning on the 8th day only",
+   "Paid beginning on the 15th day only",
+   "Not payable for the first week under any circumstances"
+  ],
+  "answer": 0,
+  "explain": "No compensation is paid for the first week unless incapacity lasts longer; compensation starts on the 8th day. If incapacity continues for 2 weeks or longer (or death results), compensation is computed from the date of injury.",
+  "source": "MCL 418.311"
+ },
+ {
+  "id": "core-058",
+  "topic": "wc",
+  "sub": "Benefits Provided (418.351)",
+  "q": "Michigan weekly wage-loss benefits for total disability equal what percentage of the employee's after-tax average weekly wage, subject to the state maximum?",
+  "choices": [
+   "66 2/3%",
+   "80%",
+   "70%",
+   "90%"
+  ],
+  "answer": 1,
+  "explain": "Total disability benefits are 80% of after-tax AWW, capped at the maximum weekly rate. The maximum itself is set at 90% of the state average weekly wage.",
+  "source": "MCL 418.351(1); MCL 418.355(2)"
+ },
+ {
+  "id": "core-059",
+  "topic": "wc",
+  "sub": "Benefits Provided (418.345)",
+  "q": "When a work injury causes death, the employer's liability for funeral and burial expenses under MCL 418.345 is limited to:",
+  "choices": [
+   "$5,000 or the actual cost, whichever is less",
+   "$10,000 or the actual cost, whichever is less",
+   "$6,000 or the actual cost, whichever is less",
+   "The actual cost, with no dollar limit"
+  ],
+  "answer": 2,
+  "explain": "MCL 418.345 caps the cost of the funeral and burial at $6,000 or the actual cost, whichever is less; the employer also pays the reasonable expense of the last sickness.",
+  "source": "MCL 418.345"
+ },
+ {
+  "id": "core-060",
+  "topic": "wc",
+  "sub": "Benefits Provided (418.361 specific loss)",
+  "q": "Under Michigan's specific loss schedule, the loss of a hand is compensated for:",
+  "choices": [
+   "269 weeks",
+   "162 weeks",
+   "65 weeks",
+   "215 weeks"
+  ],
+  "answer": 3,
+  "explain": "MCL 418.361(2): hand 215 weeks; arm 269; foot 162; leg 215; eye 162; thumb 65.",
+  "source": "MCL 418.361(2)"
+ },
+ {
+  "id": "core-061",
+  "topic": "wc",
+  "sub": "Second Injury Fund (418.521)",
+  "q": "A worker who had previously lost an eye loses a leg in a work accident. Under MCL 418.521, after the payments for the second loss end, the worker:",
+  "choices": [
+   "Is conclusively presumed totally and permanently disabled, with benefits paid by the Second Injury Fund",
+   "Receives only the specific-loss weeks for the leg",
+   "Must prove total and permanent disability at a new hearing before any further benefits are paid",
+   "Is paid by the Michigan Workers' Compensation Placement Facility"
+  ],
+  "answer": 0,
+  "explain": "Loss of a second hand, arm, foot, leg, or eye after a prior such loss creates a conclusive presumption of total and permanent disability. The Second Injury Fund pays beginning at the end of payments for the second loss.",
+  "source": "MCL 418.521(1)"
+ },
+ {
+  "id": "core-062",
+  "topic": "wc",
+  "sub": "Michigan Workers' Compensation Placement Facility",
+  "q": "The Michigan Workers' Compensation Placement Facility exists primarily to:",
+  "choices": [
+   "Pay benefits to employees of insolvent workers' compensation insurers",
+   "Provide workers' compensation insurance to employers unable to obtain it through ordinary methods",
+   "Pay benefits to employees of uninsured employers",
+   "Set the rates that all Michigan workers' compensation insurers must use for each class"
+  ],
+  "answer": 1,
+  "explain": "Every insurer authorized to write workers' compensation in Michigan must participate in the facility, which provides coverage to those who cannot obtain it normally while encouraging maximum use of the private market.",
+  "source": "MCL 500.2301"
+ },
+ {
+  "id": "core-063",
+  "topic": "wc",
+  "sub": "Federal Workers' Compensation Laws",
+  "q": "A crew member injured aboard a Great Lakes freighter through the employer's negligence would ordinarily seek recovery under:",
+  "choices": [
+   "The Longshore and Harbor Workers' Compensation Act",
+   "The Michigan WDCA's Second Injury Fund",
+   "The Jones Act",
+   "The Defense Base Act"
+  ],
+  "answer": 2,
+  "explain": "The Jones Act (now 46 USC 30104, formerly 46 USC 688) lets an injured seaman sue the employer for negligence with a jury trial. The LHWCA expressly excludes a master or member of the crew of any vessel.",
+  "source": "46 USC 30104(a); 33 USC 902(3)(G)"
+ },
+ {
+  "id": "core-064",
+  "topic": "wc",
+  "sub": "Part Two - Employers Liability Insurance",
+  "q": "The standard employers liability (Part Two) limits on the workers' compensation and employers liability policy are:",
+  "choices": [
+   "$100,000 each accident / $100,000 disease-policy limit / $500,000 disease-each employee",
+   "$500,000 each accident / $500,000 disease-policy limit / $500,000 disease-each employee",
+   "$1,000,000 each accident / $1,000,000 disease-policy limit / $1,000,000 disease-each employee",
+   "$100,000 each accident / $500,000 disease-policy limit / $100,000 disease-each employee"
+  ],
+  "answer": 3,
+  "explain": "The standard employers liability limits are $100,000 bodily injury by accident (each accident), $500,000 bodily injury by disease (policy limit) and $100,000 bodily injury by disease (each employee). The actual limits are shown in Item 3.B of the Information Page, and higher limits may be bought. (National standard. In Michigan, manual rules and experience mods come from CAOM, not NCCI.)",
+  "source": "NCCI WC 00 00 00 C, Part Two G (limits in Item 3.B); national standard EL limits as reproduced in NCRB Basic Manual Rule 5; CAOM Michigan WC Placement Facility Basic Manual, Rule Eight (increased limits $500,000 / $1,000,000)"
+ },
+ {
+  "id": "core-065",
+  "topic": "wc",
+  "sub": "Part Three - Other States Insurance",
+  "q": "An employer's WC policy lists Michigan in Item 3.A and several other states, including Indiana, in Item 3.C. Midway through the policy term, the employer begins a job in Indiana and is not otherwise insured there. Coverage for the Indiana work:",
+  "choices": [
+   "Applies as if Indiana were listed in Item 3.A, and the employer must tell the insurer at once",
+   "Does not apply until Indiana is endorsed onto the policy at renewal",
+   "Applies only to employers liability, not to Indiana workers' compensation benefits",
+   "Applies only if the insurer is notified within 90 days after the Indiana work begins"
+  ],
+  "answer": 0,
+  "explain": "Part Three applies to states listed in Item 3.C. If work begins there after the effective date, the policy applies as though the state were in 3.A; the insured must notify the insurer at once. (The 30-day notice rule applies to work already underway on the effective date in a state not listed in 3.A.)",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part Three A.2, A.4, B"
+ },
+ {
+  "id": "core-066",
+  "topic": "wc",
+  "sub": "Premium Computation",
+  "q": "An employer's payroll in one classification is $250,000, the rate is $4.00 per $100 of payroll, and its experience modification is 0.85. What is the premium after the experience modification is applied?",
+  "choices": [
+   "$10,000",
+   "$8,500",
+   "$11,500",
+   "$850"
+  ],
+  "answer": 1,
+  "explain": "Manual premium = ($250,000 / 100) x $4.00 = $10,000. Applying a 0.85 mod (a credit) gives $8,500. A mod above 1.00 would be a debit.",
+  "source": "CAOM Michigan WC Placement Facility Basic Manual, Part One premium algorithm (Manual Premium = (Payroll/100) x Rate; x Experience Modification); IRMI glossary: manual premium; standard premium"
+ },
+ {
+  "id": "core-067",
+  "topic": "wc",
+  "sub": "Part One - Workers' Compensation Insurance",
+  "q": "An employer knowingly employs a 15-year-old in violation of child labor law. The minor is injured on the job, and Michigan law requires double compensation. Under the standard WC policy, who ultimately bears the extra benefits above the regular statutory amount?",
+  "choices": [
+   "The insurer, because Part One has no dollar limit",
+   "The Second Injury Fund",
+   "The employer, who must reimburse the insurer for those payments",
+   "The Michigan Workers' Compensation Placement Facility"
+  ],
+  "answer": 2,
+  "explain": "Part One F makes the employer responsible for payments above regular benefits required because it knowingly employed someone in violation of law; if the insurer pays them, the employer must reimburse it. MCL 418.161(1)(l) provides double compensation for illegally employed minors under 18.",
+  "source": "NCCI WC 00 00 00 C, Part One F; MCL 418.161(1)(l)"
+ },
+ {
+  "id": "core-068",
+  "topic": "wc",
+  "sub": "Selected Endorsement - Voluntary Compensation",
+  "q": "The Voluntary Compensation and Employers Liability Coverage Endorsement is used to:",
+  "choices": [
+   "Extend workers compensation coverage to the other states listed in Item 3.C",
+   "Increase the employers liability limits",
+   "Cover longshore workers under the USL&HW Act",
+   "Pay statutory-equivalent benefits to employees the employer need not cover by law"
+  ],
+  "answer": 3,
+  "explain": "The endorsement pays benefits equal to those of a designated WC law to scheduled employees not required to be covered (for example, farm or domestic workers). Before payment, the claimant must release the employer and insurer and transfer recovery rights to the insurer.",
+  "source": "NCCI WC 00 03 11 A; IRMI glossary: voluntary compensation endorsement"
+ }
+]

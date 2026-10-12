@@ -1,0 +1,338 @@
+[
+ {
+  "front": "Risk vs. hazard vs. peril",
+  "back": "Risk = uncertainty of loss. Hazard = a condition that increases the chance of loss (e.g., poor housekeeping). Peril = the cause of loss (fire, windstorm, collision).",
+  "source": "IRMI glossary: risk; hazard; peril",
+  "topic": "gen"
+ },
+ {
+  "front": "Pure risk vs. speculative risk",
+  "back": "Pure risk = chance of loss only (generally insurable). Speculative risk = chance of gain or loss, e.g., a business venture or gambling (generally not insurable).",
+  "source": "IRMI glossary: pure risk; speculative risk",
+  "topic": "gen"
+ },
+ {
+  "front": "Five methods of handling risk",
+  "back": "Avoidance (don't do the activity); Retention (deductibles, self-insurance); Sharing (pooling within a group); Reduction (loss prevention/reduction, e.g., sprinklers); Transfer (insurance, hold-harmless agreements).",
+  "source": "IRMI glossary: avoidance; risk retention; risk sharing; loss control; hold harmless agreement",
+  "topic": "gen"
+ },
+ {
+  "front": "Characteristics of an ideally insurable risk",
+  "back": "Large number of exposure units; accidental and unintentional loss; determinable and measurable loss; no catastrophic loss; calculable chance of loss; economically feasible premium.",
+  "source": "Rejda & McNamara, Principles of Risk Management and Insurance (13th ed.)",
+  "topic": "gen"
+ },
+ {
+  "front": "Law of large numbers",
+  "back": "The more independent exposure units in a group, the more likely actual losses will equal expected losses.",
+  "source": "IRMI glossary: law of large numbers",
+  "topic": "gen"
+ },
+ {
+  "front": "Treaty vs. facultative reinsurance",
+  "back": "Treaty: covers whole classes of business; the reinsurer must accept all qualifying risks. Facultative: each risk is negotiated separately; the reinsurer may decline.",
+  "source": "IRMI glossary: treaty reinsurance; facultative reinsurance",
+  "topic": "gen"
+ },
+ {
+  "front": "Pro rata vs. excess of loss reinsurance",
+  "back": "Pro rata (proportional, e.g., quota share): the reinsurer takes a set % of premium and pays the same % of losses. Excess of loss: the reinsurer pays losses above the ceding company's retention, up to a limit.",
+  "source": "IRMI glossary: pro rata reinsurance; quota share reinsurance; excess of loss reinsurance",
+  "topic": "gen"
+ },
+ {
+  "front": "Stock vs. mutual vs. reciprocal",
+  "back": "Stock: owned by stockholders (paid-in capital). Mutual: owned by its policyholders. Reciprocal: unincorporated subscribers who pool risks, managed by an attorney-in-fact.",
+  "source": "IRMI glossary: stock company; mutual company; reciprocal",
+  "topic": "gen"
+ },
+ {
+  "front": "A.M. Best Financial Strength Rating tiers",
+  "back": "A++/A+ Superior; A/A- Excellent; B++/B+ Good; B/B- Fair; C++/C+ Marginal; C/C- Weak; D Poor; E Under Regulatory Supervision; F In Liquidation; S Suspended.",
+  "source": "A.M. Best, Guide to Best's Financial Strength Ratings",
+  "topic": "gen"
+ },
+ {
+  "front": "Independent agency system vs. exclusive agency vs. direct writer",
+  "back": "Independent: the agent represents several insurers and owns the expirations. Exclusive (captive): the agent represents one company or group. Direct writer: the insurer sells through its own employees.",
+  "source": "IRMI glossary: independent agency system; exclusive agency system; direct writer",
+  "topic": "gen"
+ },
+ {
+  "front": "Express, implied, and apparent authority",
+  "back": "Express = written in the agency contract. Implied = actions reasonably necessary to carry out the express powers. Apparent = what a reasonable third party would believe the agent can do based on the insurer's conduct (related to estoppel).",
+  "source": "IRMI glossary: express authority; implied authority; apparent agency",
+  "topic": "gen"
+ },
+ {
+  "front": "Michigan: agent of the insurer vs. agent of the insured",
+  "back": "Agent of the insurer = represents the insurer. Agent of the insured = a producer NOT appointed by the placing insurer; represents the insured. A license alone creates no authority to bind an insurer.",
+  "source": "MCL 500.1201(b), (c), (h)",
+  "topic": "gen"
+ },
+ {
+  "front": "Michigan agent fiduciary rule",
+  "back": "An agent is a fiduciary for all money received as agent; premiums and return premiums must be held in a separate account and not commingled.",
+  "source": "MCL 500.1207(1)-(2)",
+  "topic": "gen"
+ },
+ {
+  "front": "Elements of a valid contract (Michigan)",
+  "back": "Competent parties; proper subject matter (legal purpose); legal consideration; mutuality of agreement (offer and acceptance); mutuality of obligation.",
+  "source": "AFT Michigan v Michigan, 497 Mich 197 (2015)",
+  "topic": "gen"
+ },
+ {
+  "front": "Adhesion / aleatory / unilateral / conditional / personal",
+  "back": "Adhesion: take it or leave it; ambiguities construed against the insurer. Aleatory: unequal exchange based on chance. Unilateral: only the insurer makes an enforceable promise. Conditional: payment depends on the insured meeting conditions. Personal: insures a person, so it cannot be assigned without the insurer's written consent.",
+  "source": "IRMI glossary; ISO HO 00 03 05 11 Sections I & II Cond. E",
+  "topic": "gen"
+ },
+ {
+  "front": "Representation vs. warranty vs. concealment",
+  "back": "Representation: a statement believed true to the best of the applicant's knowledge; if materially false and relied on, the policy may be voided. Warranty: a statement of fact guaranteed true; if untrue, it voids the policy. Concealment: willfully withholding a material fact the insurer did not ask about.",
+  "source": "IRMI glossary: representation; warranty; concealment",
+  "topic": "gen"
+ },
+ {
+  "front": "Waiver vs. estoppel",
+  "back": "Waiver = intentional, voluntary surrender of a known right. Estoppel = a party can't contradict its prior conduct that another reasonably relied on (e.g., an insurer that repeatedly accepted late premiums).",
+  "source": "IRMI glossary: waiver; estoppel",
+  "topic": "gen"
+ },
+ {
+  "front": "Reasonable expectations doctrine (and Michigan)",
+  "back": "Some courts give the coverage an insured would reasonably expect even if the wording doesn't. Michigan's Supreme Court declined to adopt it (Wilkie, 2003); ambiguities are still construed against the insurer.",
+  "source": "IRMI glossary: reasonable expectations doctrine; Wilkie v Auto-Owners, 469 Mich 41 (2003)",
+  "topic": "gen"
+ },
+ {
+  "front": "When must insurable interest exist (property)?",
+  "back": "At the time of loss. The insurer pays no insured more than that insured's interest at the time of loss.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. A",
+  "topic": "basics"
+ },
+ {
+  "front": "Loss ratio and combined ratio",
+  "back": "Loss ratio = incurred losses / earned premium. Combined ratio = loss ratio (incl. loss adjustment expense) + expense ratio; under 100% = underwriting profit.",
+  "source": "IRMI glossary: loss ratio; combined ratio",
+  "topic": "basics"
+ },
+ {
+  "front": "Physical vs. moral vs. morale hazard",
+  "back": "Physical: a tangible condition (e.g., poor housekeeping). Moral: the insured's character or dishonesty. Morale: indifference or carelessness because insurance will pay.",
+  "source": "IRMI glossary: hazard; moral hazard; morale hazard",
+  "topic": "basics"
+ },
+ {
+  "front": "Four elements of negligence",
+  "back": "Duty owed; breach of duty; proximate cause; actual injury or damage.",
+  "source": "IRMI glossary: negligence",
+  "topic": "basics"
+ },
+ {
+  "front": "Michigan comparative fault rule",
+  "back": "Contributory fault doesn't bar recovery; damages are reduced by the plaintiff's % of fault. If the plaintiff's fault is greater than the others' combined (>50%), economic damages are still reduced but NO noneconomic damages are awarded.",
+  "source": "MCL 600.2958; 600.2959",
+  "topic": "basics"
+ },
+ {
+  "front": "Special vs. general vs. punitive damages",
+  "back": "Special: measurable (medical bills, lost wages). General: subjective (pain and suffering). Punitive: to punish; in Michigan, available only if a statute expressly authorizes them.",
+  "source": "IRMI glossary; Gilbert v DaimlerChrysler, 685 NW2d 391 (Mich 2004)",
+  "topic": "basics"
+ },
+ {
+  "front": "Absolute vs. strict vs. vicarious liability",
+  "back": "Absolute: no-fault liability for ultrahazardous activities (blasting, wild animals). Strict: liability without negligence, e.g., defective products. Vicarious: a principal is liable for its agent's or employee's acts.",
+  "source": "Restatement (2d) Torts §§519-520; IRMI glossary: strict liability; vicarious liability",
+  "topic": "basics"
+ },
+ {
+  "front": "ISO construction codes 1-6",
+  "back": "1 Frame; 2 Joisted masonry; 3 Noncombustible; 4 Masonry noncombustible; 5 Modified fire resistive (rated 1 to under 2 hours); 6 Fire resistive (rated 2+ hours).",
+  "source": "IRMI glossary (ISO Commercial Lines Manual construction codes)",
+  "topic": "basics"
+ },
+ {
+  "front": "ACV, RC, functional RC",
+  "back": "ACV commonly = replacement cost minus depreciation (or market value / broad evidence rule). RC = like kind and quality, no depreciation deduction. Functional RC = property that performs the same function equally well, even if not identical.",
+  "source": "IRMI glossary: actual cash value; replacement cost; functional replacement cost",
+  "topic": "basics"
+ },
+ {
+  "front": "Agreed value vs. stated amount",
+  "back": "Agreed value (CP optional coverage) suspends coinsurance until the expiration date. Stated amount (auto physical damage) is only a ceiling: the insurer pays the least of the stated amount, ACV, or the cost to repair/replace.",
+  "source": "ISO CP 00 10 10 12, G.1; ISO CA 99 28 (summary)",
+  "topic": "basics"
+ },
+ {
+  "front": "Policy structure (DICE)",
+  "back": "Declarations, Insuring agreement, Conditions, Exclusions, plus Definitions and Endorsements (endorsements modify the policy).",
+  "source": "IRMI glossary: declarations; insuring agreement; exclusion; endorsement",
+  "topic": "basics"
+ },
+ {
+  "front": "Coinsurance formula (ISO BPP)",
+  "back": "(Limit carried / (Value at time of loss x Coinsurance %)) x Loss - Deductible = payment, capped at the limit. The deductible is applied AFTER the coinsurance reduction.",
+  "source": "ISO CP 00 10 10 12, F.1 and D",
+  "topic": "basics"
+ },
+ {
+  "front": "Coinsurance example from the ISO form",
+  "back": "Value $250,000; 80% coinsurance; limit $100,000; loss $40,000; deductible $250: $100,000 / $200,000 = 0.5; $40,000 x 0.5 = $20,000 - $250 = $19,750 paid.",
+  "source": "ISO CP 00 10 10 12, F.1 Example 1",
+  "topic": "basics"
+ },
+ {
+  "front": "Pro rata vs. contribution by equal shares",
+  "back": "Pro rata: each insurer pays its limit / total limits. Equal shares (CGL): equal payments until the smallest limit is exhausted, then the rest continue equally; used only if all policies permit it, otherwise by limits.",
+  "source": "ISO CP 00 90 07 88, G.1; ISO CG 00 01 Sec. IV 4.c; IRMI glossary",
+  "topic": "basics"
+ },
+ {
+  "front": "BPP vacancy rule",
+  "back": "Vacant more than 60 consecutive days: no coverage for vandalism, sprinkler leakage, building glass breakage, water damage, theft, or attempted theft; other covered losses reduced 15%. An owner's building is vacant unless at least 31% of its square footage is used for customary operations.",
+  "source": "ISO CP 00 10 10 12, E.6",
+  "topic": "basics"
+ },
+ {
+  "front": "Liberalization clause (CP vs. HO)",
+  "back": "Broadened coverage without extra premium applies automatically. CP 00 90: revisions adopted within 45 days before or during the policy period. HO 00 03: implementation within 60 days before or during the policy period.",
+  "source": "ISO CP 00 90 07 88, E; ISO HO 00 03 05 11, Sections I & II Cond. A",
+  "topic": "basics"
+ },
+ {
+  "front": "Standard mortgage clause vs. loss payable clause",
+  "back": "Mortgage clause: the mortgagee is protected even if the insured's claim is denied (if it pays premium due, files proof of loss within 60 days after notice, and reports risk changes) and gets notice of cancellation or nonrenewal. A loss payable clause usually gives no recovery if the insured's claim can be denied.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. L; IRMI glossary: loss payable clause",
+  "topic": "basics"
+ },
+ {
+  "front": "No benefit to bailee",
+  "back": "No person or organization, other than the insured, having custody of covered property (e.g., a warehouse, mover, or cleaner for a fee) benefits from the insurance.",
+  "source": "ISO CP 00 90 07 88, F; ISO HO 00 03 05 11, Sec. I Cond. M",
+  "topic": "basics"
+ },
+ {
+  "front": "Abandonment",
+  "back": "The insured cannot abandon damaged property to the insurer (\"There can be no abandonment of any property to us\"). The insurer may choose to take property at an agreed or appraised value.",
+  "source": "ISO CP 00 10 10 12, E.1, E.4.a",
+  "topic": "basics"
+ },
+ {
+  "front": "Staff vs. independent vs. public adjuster",
+  "back": "Staff = insurer's employee. Independent = works on contract for insurers or self-insureds. Public = represents the INSURED, paid a % of the settlement.",
+  "source": "IRMI glossary: adjuster; independent adjuster; public adjuster",
+  "topic": "basics"
+ },
+ {
+  "front": "Michigan timely claim payment (MCL 500.2006)",
+  "back": "The insurer must specify in writing what makes up proof of loss within 30 days after receiving the claim. Payment is timely if made within 60 days after proof of loss; otherwise 12% simple annual interest runs from day 60. For the insured, interest is owed even if the claim was reasonably in dispute. \"Reasonably in dispute\" only excuses the unfair-trade-practice violation, and it limits interest for third-party tort claimants: they get interest only if liability was not reasonably in dispute and a court found a bad-faith refusal.",
+  "source": "MCL 500.2006(1), (3), (4); Griswold Props v Lexington Ins Co, 276 Mich App 551 (2007)",
+  "topic": "basics"
+ },
+ {
+  "front": "WDCA exclusive remedy and its only exception",
+  "back": "Comp benefits are the employee's exclusive remedy against the employer; the only exception is an intentional tort (deliberate act plus specific intent; intent is deemed if the employer had actual knowledge injury was certain and willfully disregarded it).",
+  "source": "MCL 418.131(1)",
+  "topic": "wc"
+ },
+ {
+  "front": "Who must carry Michigan comp (418.115)",
+  "back": "Private employers with 3+ employees at one time; employers with fewer than 3 if 1 works 35+ hours per week for 13+ weeks in the past 52; ALL public employers; agricultural employers per special rules.",
+  "source": "MCL 418.115",
+  "topic": "wc"
+ },
+ {
+  "front": "Waiting period",
+  "back": "No weekly comp for the first 7 days; it begins on day 8. If disability lasts 2 weeks or longer (or death results), it is paid back to the date of injury.",
+  "source": "MCL 418.311",
+  "topic": "wc"
+ },
+ {
+  "front": "Weekly benefit and maximum",
+  "back": "80% of after-tax average weekly wage, up to a maximum = 90% of the state average weekly wage (set each Jan. 1). The 2026 maximum is $1,201/week (SAWW $1,333.88) for injuries in 2026.",
+  "source": "MCL 418.351; 418.355; Michigan WDCA 2026 Weekly Benefit Tables",
+  "topic": "wc"
+ },
+ {
+  "front": "Death and funeral benefits",
+  "back": "Death: 80% of after-tax AWW to wholly dependent survivors for 500 weeks. A magistrate may extend payments to a dependent who is still under 21 at the end of the 500 weeks, until that dependent turns 21. Minimum weekly death benefit is 50% of SAWW. Funeral: up to $6,000 or the actual cost, whichever is less.",
+  "source": "MCL 418.321; 418.356(2); 418.345",
+  "topic": "wc"
+ },
+ {
+  "front": "Specific loss schedule highlights",
+  "back": "Arm 269 weeks; hand 215; leg 215; foot 162; eye 162; thumb 65; great toe 33. 80% loss of vision in one eye = loss of the eye.",
+  "source": "MCL 418.361(2)",
+  "topic": "wc"
+ },
+ {
+  "front": "Second Injury Fund",
+  "back": "A prior loss of a hand, arm, foot, leg, or eye plus a second such loss from work = conclusive total and permanent disability; the Second Injury Fund pays after the second-loss payments end.",
+  "source": "MCL 418.521(1)",
+  "topic": "wc"
+ },
+ {
+  "front": "Medical benefits and choice of doctor",
+  "back": "Reasonable medical, surgical, hospital, and medicine costs plus appliances. After 28 days from the start of medical care, the employee may switch to a physician of their own choice by notifying the employer.",
+  "source": "MCL 418.315(1)",
+  "topic": "wc"
+ },
+ {
+  "front": "Notice and claim deadlines",
+  "back": "Notice to the employer within 90 days of injury (late notice excused unless the employer is prejudiced); claim within 2 years. Occupational disease claim within 2 years after the worker knew or should have known it was work-related.",
+  "source": "MCL 418.381(1); 418.441",
+  "topic": "wc"
+ },
+ {
+  "front": "Self-insurance and group self-insurance",
+  "back": "An employer secures comp by (a) the director's authorization to self-insure or (b) insuring with an authorized insurer. Group: 2+ employers in the same industry with combined assets of $1,000,000+, or 2+ public employers of the same type.",
+  "source": "MCL 418.611(1)-(2)",
+  "topic": "wc"
+ },
+ {
+  "front": "Michigan WC Placement Facility",
+  "back": "All WC insurers must participate; it covers employers unable to buy coverage normally. Board: 5 insurers, 2 policyholders, 1 agent, 1 public member (2-year terms). Agent commission is no more than 5% of premium. Rating plans A, B, and C.",
+  "source": "MCL 500.2301; 500.2310; 500.2312",
+  "topic": "wc"
+ },
+ {
+  "front": "FELA vs. USL&HW vs. Jones Act",
+  "back": "FELA: interstate railroad workers sue for negligence (comparative). USL&HW (33 USC 901+): longshore and harbor workers, no-fault benefits, on navigable waters and adjoining piers, docks, etc. Jones Act (46 USC 30104, formerly 46 USC 688): seamen and crew sue the employer for negligence with a jury trial.",
+  "source": "45 USC 51, 53; 33 USC 903-904; 46 USC 30104",
+  "topic": "wc"
+ },
+ {
+  "front": "WC & EL policy structure (WC 00 00 00 C)",
+  "back": "General Section; Part One WC (statutory benefits, no dollar limit); Part Two Employers Liability; Part Three Other States (Item 3.C); Part Four Your Duties; Part Five Premium; Part Six Conditions.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15)",
+  "topic": "wc"
+ },
+ {
+  "front": "Standard employers liability limits",
+  "back": "$100,000 BI by accident (each accident) / $500,000 BI by disease (policy limit) / $100,000 BI by disease (each employee).",
+  "source": "National standard EL limits (as reproduced in NCRB Basic Manual Rule 5); NCCI WC 00 00 00 C, Part Two G; CAOM Michigan WC Placement Facility Basic Manual, Rule Eight",
+  "topic": "wc"
+ },
+ {
+  "front": "Other States coverage (Part Three)",
+  "back": "Applies to states in Item 3.C: new work begun there mid-term is treated as if the state were in 3.A (tell the insurer at once). Work already underway on the effective date in an unlisted state is covered only if the insurer is notified within 30 days.",
+  "source": "NCCI WC 00 00 00 C, Part Three",
+  "topic": "wc"
+ },
+ {
+  "front": "WC premium computation",
+  "back": "Manual premium = (payroll / 100) x class rate. x Experience mod (1.00 average; <1 credit; >1 debit) = standard premium. Premium discount (larger premiums) applies after the experience mod. Final premium is set by audit (up to 3 years after the policy ends).",
+  "source": "CAOM Michigan WC Placement Facility Basic Manual, Part One premium algorithm and Rule Seven; IRMI glossary: standard premium; premium discount; NCCI WC 00 00 00 C, Part Five G",
+  "topic": "wc"
+ },
+ {
+  "front": "Voluntary compensation endorsement",
+  "back": "Pays statutory-equivalent benefits to scheduled employees not required to be covered (e.g., farm or domestic workers). The claimant must release the employer and insurer and transfer recovery rights; if the claimant sues instead, the insurer's duty to pay ends.",
+  "source": "NCCI WC 00 03 11 A; IRMI glossary",
+  "topic": "wc"
+ }
+]

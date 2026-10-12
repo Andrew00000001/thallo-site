@@ -1,0 +1,236 @@
+[
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Default BI liability limits (policies after July 1, 2020)",
+  "value": "$250,000 per person / $500,000 per accident",
+  "source": "MCL 500.3009(1)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Lowest electable BI limits (signed DIFS form)",
+  "value": "$50,000 / $100,000",
+  "source": "MCL 500.3009(5)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "BI limits before July 2, 2020",
+  "value": "$20,000 / $40,000",
+  "source": "MCL 500.3009(1)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Property damage liability minimum",
+  "value": "$10,000",
+  "source": "MCL 500.3009(1)(c)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "TNC prearranged ride liability",
+  "value": "$1,000,000 CSL",
+  "source": "MCL 257.518b(1)(b)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "No-fault 'owner' rental/use period",
+  "value": "more than 30 days",
+  "source": "MCL 500.3101(3)(l)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Nonresident operating without MI security",
+  "value": "max 30 days aggregate per calendar year",
+  "source": "MCL 500.3102(1)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Operating without security: fine",
+  "value": "$200–$500 and/or up to 1 year",
+  "source": "MCL 500.3102(2)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "MAIPF deferred plan advance payment",
+  "value": "greater of 25% of premium or $100",
+  "source": "MCL 500.3350(a)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Funeral/burial PIP limit",
+  "value": "$1,750 minimum to $5,000 maximum",
+  "source": "MCL 500.3107(1)(a)(ii)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Work loss tax reduction",
+  "value": "15% (pays 85%)",
+  "source": "MCL 500.3107(1)(b)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Work loss / survivor's loss duration",
+  "value": "first 3 years after accident",
+  "source": "MCL 500.3107(1)(b); 500.3108(1)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Work loss & survivor's loss max per 30 days (accidents Oct 1, 2026 – Sep 30, 2027)",
+  "value": "$7,455",
+  "source": "DIFS Bulletin 2026-20-INS"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Work loss & survivor's loss max per 30 days (accidents Oct 1, 2025 – Sep 30, 2026)",
+  "value": "$7,201",
+  "source": "DIFS Bulletin 2026-20-INS"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Replacement services",
+  "value": "$20 per day, up to 3 years",
+  "source": "MCL 500.3107(1)(c)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "PIP medical levels",
+  "value": "$50,000 (Medicaid) / $250,000 / $500,000 / unlimited; opt-out (Medicare A&B)",
+  "source": "MCL 500.3107c(1); 500.3107d"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "QHC deductible cap (July 1, 2026 – June 30, 2027)",
+  "value": "$6,579 (statutory base $6,000)",
+  "source": "DIFS Bulletin 2026-08-INS; MCL 500.3107d(7)(b)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Time to replace lost QHC",
+  "value": "30 days",
+  "source": "MCL 500.3107d(6)(a); 500.3109a(2)(d)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "PIP overdue after reasonable proof",
+  "value": "30 days; 12% simple interest per year",
+  "source": "MCL 500.3142(2),(4)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "PIP / PPI statute of limitations",
+  "value": "1 year after accident (PIP: or 1 year after last loss if notice/payment)",
+  "source": "MCL 500.3145"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "PPI limit per accident per policy",
+  "value": "$1,000,000",
+  "source": "MCL 500.3121(5)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Mini-tort (accidents after July 1, 2020)",
+  "value": "$3,000 (was $1,000)",
+  "source": "MCL 500.3135(3)(e)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "MCCA retention (policies July 1, 2025 – June 30, 2027)",
+  "value": "$675,000",
+  "source": "michigancatastrophic.com/what-is-catastrophic-injury"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "MACP notice deadline",
+  "value": "1 year after accident",
+  "source": "MCL 500.3174"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "MACP allowable-expense cap",
+  "value": "$250,000 ($2,000,000 for QHC-gap claimants)",
+  "source": "MCL 500.3172(7)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Chapter 32: cancellation window for 'unacceptable risk'",
+  "value": "first 55 days",
+  "source": "MCL 500.3220"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Chapter 32 cancellation notice / appeal",
+  "value": "20 days, certified mail / appeal within 7 days",
+  "source": "MCL 500.3224; 500.3230"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Chapter 32 nonrenewal notice",
+  "value": "20 days, first-class mail",
+  "source": "MCL 500.3204(2)"
+ },
+ {
+  "group": "Michigan Auto / No-Fault",
+  "item": "Short-term rental company liability cap (≤30-day rental)",
+  "value": "$20,000 / $40,000 BI",
+  "source": "MCL 257.401(3)"
+ },
+ {
+  "group": "Personal Auto Policy",
+  "item": "Newly acquired auto: report window",
+  "value": "14 days (4 days for physical damage if no declared auto has it)",
+  "source": "ISO PP 00 01 09 18, Def. K"
+ },
+ {
+  "group": "Personal Auto Policy",
+  "item": "Bail bond / loss of earnings",
+  "value": "$250 / $250 per day",
+  "source": "ISO PP 00 01 09 18, Part A"
+ },
+ {
+  "group": "Personal Auto Policy",
+  "item": "Transportation expenses",
+  "value": "$30/day, $900 max; theft 48 hrs, other 24 hrs",
+  "source": "ISO PP 00 01 09 18, Part D"
+ },
+ {
+  "group": "Personal Auto Policy",
+  "item": "Med pay service window",
+  "value": "3 years from accident",
+  "source": "ISO PP 00 01 09 18, Part B"
+ },
+ {
+  "group": "Commercial Auto",
+  "item": "BACF bail bond / loss of earnings",
+  "value": "$2,000 / $250 per day",
+  "source": "ISO CA 00 01 11 20, Sec. II.A.2"
+ },
+ {
+  "group": "Commercial Auto",
+  "item": "BACF symbol 7 newly acquired auto report",
+  "value": "30 days",
+  "source": "ISO CA 00 01 11 20, Sec. I.B"
+ },
+ {
+  "group": "Commercial Auto",
+  "item": "BACF transportation expense / hired auto loss of use",
+  "value": "$30/day, $900 max (10 13 edition: $20/$600)",
+  "source": "ISO CA 00 01 11 20, Sec. III.A.4"
+ },
+ {
+  "group": "Commercial Auto",
+  "item": "Federal minimum: for-hire nonhazardous property, GVWR 10,001+",
+  "value": "$750,000",
+  "source": "49 CFR 387.9"
+ },
+ {
+  "group": "Commercial Auto",
+  "item": "Federal minimum: oil / most hazmat",
+  "value": "$1,000,000",
+  "source": "49 CFR 387.9"
+ },
+ {
+  "group": "Commercial Auto",
+  "item": "Federal minimum: certain bulk hazmat, explosives, radioactive",
+  "value": "$5,000,000",
+  "source": "49 CFR 387.9"
+ }
+]

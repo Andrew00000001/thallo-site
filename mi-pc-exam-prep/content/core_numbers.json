@@ -1,0 +1,188 @@
+[
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "Coinsurance formula (ISO BPP)",
+  "value": "(Limit carried / (Value at time of loss x Coinsurance %)) x Loss - Deductible; payment capped at the limit",
+  "source": "ISO CP 00 10 10 12, F.1"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "Coinsurance worked example (form Ex. 1)",
+  "value": "$250,000 value x 80% = $200,000 required; $100,000 limit -> 0.50 x $40,000 loss = $20,000 - $250 deductible = $19,750",
+  "source": "ISO CP 00 10 10 12, F.1 Ex. 1"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "Contribution by equal shares example",
+  "value": "$250,000 claim, limits $100,000 and $300,000: each pays $100,000, then the larger pays the remaining $50,000 (totals $100,000 / $150,000)",
+  "source": "ISO CG 00 01 Sec. IV 4.c; IRMI contribution by equal shares"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "Loss ratio formula",
+  "value": "Incurred losses / earned premium (e.g., $50,000 / $100,000 = 50%)",
+  "source": "IRMI loss ratio"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "BPP vacancy period",
+  "value": "More than 60 consecutive days",
+  "source": "ISO CP 00 10 10 12, E.6.b"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "BPP vacancy reduction for other covered perils",
+  "value": "15% reduction",
+  "source": "ISO CP 00 10 10 12, E.6.b(2)"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "BPP occupancy threshold (owner / general lessee)",
+  "value": "At least 31% of total square footage rented and used for customary operations or used by the owner",
+  "source": "ISO CP 00 10 10 12, E.6.a(1)(b)"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "Sworn proof of loss due (HO and BPP)",
+  "value": "Within 60 days after the insurer's request",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. C.8; ISO CP 00 10 10 12, E.3.a(7)"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "BPP loss payment / notice of intentions",
+  "value": "Notice of intentions within 30 days after sworn proof of loss; payment within 30 days after sworn proof of loss (with agreement or appraisal award)",
+  "source": "ISO CP 00 10 10 12, E.4.c, E.4.g"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "HO loss payment",
+  "value": "60 days after proof of loss and agreement / final judgment / appraisal award; insurer's repair option requires written notice within 30 days",
+  "source": "ISO HO 00 03 05 11, Sec. I Conds. I, J"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "Mortgagee notice of cancellation/nonrenewal (HO base form)",
+  "value": "At least 10 days",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. L.3"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "Liberalization window",
+  "value": "CP: revision adopted within 45 days before or during the policy period; HO: implemented within 60 days before or during the policy period",
+  "source": "ISO CP 00 90 07 88, E; ISO HO 00 03 05 11, Sections I & II Cond. A"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "Michigan proof-of-loss specification deadline",
+  "value": "Insurer must specify in writing within 30 days after receipt of the claim (unless settled within 30 days)",
+  "source": "MCL 500.2006(3)"
+ },
+ {
+  "group": "Policy Provisions & Claims",
+  "item": "Michigan timely payment / interest",
+  "value": "Paid within 60 days after proof of loss = timely; otherwise 12% per annum simple interest from day 60",
+  "source": "MCL 500.2006(3)-(4)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Employer coverage threshold",
+  "value": "3+ employees at one time; or fewer than 3 if 1 employee works 35+ hours/week for 13+ weeks in the preceding 52 weeks; all public employers",
+  "source": "MCL 418.115(a)-(c)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Waiting period",
+  "value": "Benefits begin on the 8th day; retroactive to the date of injury if disability lasts 2+ weeks",
+  "source": "MCL 418.311"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Weekly wage-loss benefit",
+  "value": "80% of after-tax average weekly wage",
+  "source": "MCL 418.351(1); 418.301(7)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Maximum weekly rate formula",
+  "value": "90% of the state average weekly wage as of the prior June 30, rounded up to the next $1; reset each Jan. 1",
+  "source": "MCL 418.355(2)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "2026 maximum weekly rate (injuries in calendar 2026)",
+  "value": "$1,201.00 (SAWW $1,333.88); 2025 was $1,164",
+  "source": "Michigan LEO/WDCA 2026 Weekly Benefit Tables (wca_2026_Rate_Book.pdf); workerscomplawyerhelp.com 2/12/2026"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Death benefit duration",
+  "value": "500 weeks (may extend to age 21 for dependents under 21)",
+  "source": "MCL 418.321"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Minimum weekly benefits",
+  "value": "Death: 50% of SAWW; specific loss: 25% of SAWW; total disability: no minimum",
+  "source": "MCL 418.356(2)-(4)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Funeral and burial maximum",
+  "value": "$6,000 or actual cost, whichever is less",
+  "source": "MCL 418.345"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Specific loss weeks",
+  "value": "Arm 269; hand 215; leg 215; foot 162; eye 162; thumb 65; 1st finger 38; 2nd 33; 3rd 22; 4th 16; great toe 33; other toe 11",
+  "source": "MCL 418.361(2)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Free choice of physician",
+  "value": "After 28 days from the inception of medical care",
+  "source": "MCL 418.315(1)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Notice of injury / claim deadline",
+  "value": "Notice to employer within 90 days; claim within 2 years",
+  "source": "MCL 418.381(1)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Occupational disease claim deadline",
+  "value": "2 years after the worker knew or should have known the disease was work-related",
+  "source": "MCL 418.441(2)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Group self-insurance asset test",
+  "value": "2+ employers in the same industry with combined assets of $1,000,000 or more",
+  "source": "MCL 418.611(2)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Placement Facility agent commission cap",
+  "value": "Not more than 5% of total premium",
+  "source": "MCL 500.2312(2)(d)"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Standard employers liability limits",
+  "value": "$100,000 each accident / $500,000 disease-policy limit / $100,000 disease-each employee",
+  "source": "National standard EL limits (as reproduced in NCRB Basic Manual Rule 5); NCCI WC 00 00 00 C, Part Two G; CAOM Michigan WC Placement Facility Basic Manual, Rule Eight"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "WC premium audit window",
+  "value": "During the policy period and within 3 years after it ends",
+  "source": "NCCI WC 00 00 00 C, Part Five G"
+ },
+ {
+  "group": "Workers' Compensation",
+  "item": "Manual premium formula",
+  "value": "(Payroll / 100) x rate per $100 of payroll, by classification = manual premium; x experience mod (plus any balance to minimum premium) = standard premium",
+  "source": "CAOM Michigan WC Placement Facility Basic Manual, Part One premium algorithm; IRMI standard premium"
+ }
+]

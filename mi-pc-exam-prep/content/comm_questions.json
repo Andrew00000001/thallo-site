@@ -1,0 +1,1142 @@
+[
+ {
+  "id": "comm-001",
+  "topic": "cpp",
+  "sub": "Common Policy Conditions",
+  "q": "Under the ISO Common Policy Conditions (IL 00 17 11 98), how much written notice must the insurer give the first Named Insured to cancel a commercial policy for nonpayment of premium?",
+  "choices": [
+   "5 days",
+   "10 days",
+   "15 days",
+   "30 days"
+  ],
+  "answer": 1,
+  "explain": "IL 00 17 requires at least 10 days' notice when the insurer cancels for nonpayment and 30 days for any other reason. State amendatory endorsements can change these periods.",
+  "source": "ISO IL 00 17 11 98, A.2"
+ },
+ {
+  "id": "comm-002",
+  "topic": "cpp",
+  "sub": "Common Policy Conditions",
+  "q": "Which of the following is NOT one of the conditions in the ISO Common Policy Conditions form (IL 00 17)?",
+  "choices": [
+   "Inspections and Surveys",
+   "Examination of Your Books and Records",
+   "Transfer of Your Rights and Duties Under This Policy",
+   "Vacancy"
+  ],
+  "answer": 3,
+  "explain": "IL 00 17 has six conditions: Cancellation, Changes, Examination of Books and Records, Inspections and Surveys, Premiums, and Transfer of Rights and Duties. Vacancy is a loss condition in property coverage forms such as CP 00 10.",
+  "source": "ISO IL 00 17 11 98; CP 00 10 10 12, E.6"
+ },
+ {
+  "id": "comm-003",
+  "topic": "cpp",
+  "sub": "Components of a Commercial Policy",
+  "q": "A business buys one policy made up of Common Policy Declarations, Common Policy Conditions, a Commercial Property Coverage Part and a Commercial General Liability Coverage Part. This policy is best described as a:",
+  "choices": [
+   "Commercial package policy",
+   "Monoline policy",
+   "Businessowners policy",
+   "Difference-in-conditions policy"
+  ],
+  "answer": 0,
+  "explain": "A commercial package policy combines property and liability coverage parts under common declarations and common conditions. A policy with only one coverage part is monoline.",
+  "source": "IRMI glossary 'commercial package policy'; ISO IL 00 17 11 98 preamble"
+ },
+ {
+  "id": "comm-004",
+  "topic": "cpp",
+  "sub": "Interline Endorsements",
+  "q": "An endorsement with an 'IL' prefix, such as IL 04 15 Protective Safeguards, that modifies both the Commercial Property and the Farm coverage parts is called a(n):",
+  "choices": [
+   "Interline endorsement",
+   "Manuscript endorsement",
+   "Coverage part declarations",
+   "Broad form endorsement"
+  ],
+  "answer": 0,
+  "explain": "Interline (IL) forms apply across more than one coverage part. IL 04 15 states that it modifies both the Commercial Property and Farm coverage parts.",
+  "source": "ISO IL 04 15 04 98"
+ },
+ {
+  "id": "comm-005",
+  "topic": "cpp",
+  "sub": "CGL – Supplementary Payments",
+  "q": "Under the CGL coverage form (CG 00 01 04 13), Supplementary Payments include up to what amount for the cost of bail bonds required because of accidents or traffic law violations arising out of the use of a covered vehicle?",
+  "choices": [
+   "$100",
+   "$250",
+   "$500",
+   "$1,000"
+  ],
+  "answer": 1,
+  "explain": "The CGL pays up to $250 for bail bonds, but the insurer does not have to furnish them. Supplementary payments do not reduce the limits.",
+  "source": "ISO CG 00 01 04 13, Supplementary Payments 1.b"
+ },
+ {
+  "id": "comm-006",
+  "topic": "cpp",
+  "sub": "CGL – Supplementary Payments",
+  "q": "Which statement about CGL Supplementary Payments (CG 00 01 04 13) is correct?",
+  "choices": [
+   "They reduce the general aggregate limit",
+   "They include attorneys' fees taxed against the insured",
+   "They apply only under Coverage C – Medical Payments",
+   "They are paid in addition to the limits of insurance"
+  ],
+  "answer": 3,
+  "explain": "The form says these payments 'will not reduce the limits of insurance.' Court costs are covered, but attorneys' fees taxed against the insured are not. They apply to Coverages A and B.",
+  "source": "ISO CG 00 01 04 13, Supplementary Payments 1.e, final para."
+ },
+ {
+  "id": "comm-007",
+  "topic": "cpp",
+  "sub": "CGL – Medical Payments",
+  "q": "A customer slips in an insured's store and incurs medical bills. Under CGL Coverage C (CG 00 01 04 13), which statement is correct?",
+  "choices": [
+   "Payment requires proof that the insured was negligent",
+   "Coverage C pays injured employees of the insured",
+   "Expenses must be incurred and reported within one year of the accident",
+   "Expenses must be incurred and reported within three years of the accident"
+  ],
+  "answer": 2,
+  "explain": "Coverage C pays regardless of fault, but only for expenses incurred and reported within one year of the accident. Injuries to insureds, which include employees, are excluded.",
+  "source": "ISO CG 00 01 04 13, Coverage C 1.a(b), 1.b, 2.a"
+ },
+ {
+  "id": "comm-008",
+  "topic": "cpp",
+  "sub": "CGL – Limits of Insurance",
+  "q": "Under CG 00 01, the General Aggregate Limit applies to all of the following EXCEPT:",
+  "choices": [
+   "Products-completed operations damages under Coverage A",
+   "Medical expenses under Coverage C",
+   "Personal and advertising injury damages under Coverage B",
+   "Premises and operations damages under Coverage A"
+  ],
+  "answer": 0,
+  "explain": "Products-completed operations BI/PD falls under the separate Products-Completed Operations Aggregate Limit. Everything else counts toward the General Aggregate.",
+  "source": "ISO CG 00 01 04 13, Sec. III 2-3"
+ },
+ {
+  "id": "comm-009",
+  "topic": "cpp",
+  "sub": "CGL – Personal and Advertising Injury",
+  "q": "Which of the following is NOT a 'personal and advertising injury' offense under CG 00 01?",
+  "choices": [
+   "Malicious prosecution",
+   "Wrongful eviction from a room a person occupies",
+   "Oral or written publication of material that slanders a person",
+   "Bodily injury to a customer caused by a defective product"
+  ],
+  "answer": 3,
+  "explain": "Bodily injury from a product is Coverage A (BI/PD, products-completed operations), not a Coverage B offense. The other three are listed P&AI offenses.",
+  "source": "ISO CG 00 01 04 13, Sec. V def. 14"
+ },
+ {
+  "id": "comm-010",
+  "topic": "cpp",
+  "sub": "CGL – Who Is an Insured",
+  "q": "During the policy period, a CGL named insured forms a new corporation in which it holds a majority interest. No other similar insurance is available. Under CG 00 01 04 13, the new corporation qualifies as a Named Insured:",
+  "choices": [
+   "Until the 90th day after it is formed or the policy period ends, whichever is earlier",
+   "Until the 30th day after it is formed or the policy period ends, whichever is earlier",
+   "For the rest of the policy period, regardless of length",
+   "Never, unless it is added by endorsement"
+  ],
+  "answer": 0,
+  "explain": "Newly acquired or formed organizations (other than partnerships, joint ventures or LLCs) are automatic Named Insureds until the 90th day or policy expiration, whichever is earlier. There is no coverage for injury or offenses before the acquisition or formation.",
+  "source": "ISO CG 00 01 04 13, Sec. II 3"
+ },
+ {
+  "id": "comm-011",
+  "topic": "cpp",
+  "sub": "CGL – Exclusions",
+  "q": "An insured business borrows a 22-foot sailboat it does not own to take clients out at no charge, and a guest is injured. Under CG 00 01 04 13, the aircraft, auto or watercraft exclusion:",
+  "choices": [
+   "Applies, because all watercraft are excluded regardless of size or ownership",
+   "Applies, because the boat was being used to entertain the insured's business clients",
+   "Does not apply only if the boat was ashore on premises the insured owns or rents at the time",
+   "Does not apply, because it is a non-owned boat under 26 feet not carrying persons for a charge"
+  ],
+  "answer": 3,
+  "explain": "Exclusion g. has an exception for watercraft you do not own that are less than 26 feet long and not carrying persons or property for a charge.",
+  "source": "ISO CG 00 01 04 13, Excl. g.(2)"
+ },
+ {
+  "id": "comm-012",
+  "topic": "cpp",
+  "sub": "Insured Contract",
+  "q": "Which of the following is NOT an 'insured contract' under CG 00 01 04 13?",
+  "choices": [
+   "A sidetrack agreement",
+   "An elevator maintenance agreement",
+   "The part of a premises lease that indemnifies the landlord for fire damage to the premises rented to the insured",
+   "An obligation required by ordinance to indemnify a municipality, other than in connection with work for the municipality"
+  ],
+  "answer": 2,
+  "explain": "A lease of premises is an insured contract, but the part that indemnifies for fire damage to rented premises is specifically carved out. That exposure is handled by the Damage To Premises Rented To You limit.",
+  "source": "ISO CG 00 01 04 13, Sec. V def. 9.a-e"
+ },
+ {
+  "id": "comm-013",
+  "topic": "cpp",
+  "sub": "Products and Completed Operations",
+  "q": "A contractor finishes one part of a job, and the owner starts using it while other contractors keep working elsewhere on the project. Under CG 00 01, an injury arising from the finished part is treated as:",
+  "choices": [
+   "Completed operations, because the owner has put that part to its intended use",
+   "Ongoing operations until all work called for in the contract is finished",
+   "Completed operations only after the owner signs a written acceptance certificate",
+   "Excluded until the policy renews"
+  ],
+  "answer": 0,
+  "explain": "Under CG 00 01's \"products-completed operations hazard\" definition, work is deemed completed at the earliest of: all work called for in the contract is done; all work at the job site is done, if the contract calls for work at more than one site; or that part of the work at a site is put to its intended use by anyone other than another contractor or subcontractor on the same project.",
+  "source": "ISO CG 00 01 04 13, Sec. V def. 16.a(2)"
+ },
+ {
+  "id": "comm-014",
+  "topic": "cpp",
+  "sub": "Claims-Made – Trigger and Retroactive Date",
+  "q": "A claims-made CGL (CG 00 02) has a retroactive date of 1/1/2022 and a policy period of 1/1/2026 to 1/1/2027, with no prior claims-made policy. Which claim is covered by this policy?",
+  "choices": [
+   "Injury occurred 6/1/2021; claim first made 3/1/2026",
+   "Injury occurred 3/1/2027; claim first made 5/1/2027",
+   "Injury occurred 6/1/2023; claim first made 3/1/2026",
+   "Injury occurred 8/1/2026; claim first made 2/1/2028; the occurrence was never reported and no Supplemental ERP was bought"
+  ],
+  "answer": 2,
+  "explain": "Coverage requires injury after the retroactive date and before the policy ends, and a claim first made during the policy period (or an ERP). The 2028 claim is more than 60 days after expiration, and the occurrence was never reported, so even the basic ERP does not apply.",
+  "source": "FC&S 'Claims-Made CGL Form' (2014, CG 00 02 04 13); Austin & Stanovich, 'The Claims-Made CGL Policy' (2012)"
+ },
+ {
+  "id": "comm-015",
+  "topic": "cpp",
+  "sub": "Claims-Made – Extended Reporting Periods",
+  "q": "Under the ISO claims-made CGL Basic Extended Reporting Period, a claim arising from an occurrence that was reported to the insurer within 60 days after the policy ended may be made up to:",
+  "choices": [
+   "60 days after the policy ends",
+   "1 year after the policy ends",
+   "3 years after the policy ends",
+   "5 years after the policy ends"
+  ],
+  "answer": 3,
+  "explain": "The automatic, no-charge basic ERP is 5 years for claims from occurrences reported within 60 days after the policy ends. It is only 60 days for claims from occurrences that were never reported.",
+  "source": "FC&S 'Claims-Made CGL Form' (2014, CG 00 02 04 13)"
+ },
+ {
+  "id": "comm-016",
+  "topic": "cpp",
+  "sub": "Claims-Made – Extended Reporting Periods",
+  "q": "To buy the Supplemental Extended Reporting Period under the ISO claims-made CGL, the insured must request it in writing within ___ after the policy period ends, and the additional premium cannot exceed ___ of the annual premium.",
+  "choices": [
+   "30 days; 100%",
+   "60 days; 200%",
+   "90 days; 150%",
+   "60 days; 300%"
+  ],
+  "answer": 1,
+  "explain": "The supplemental ERP must be requested in writing within 60 days, costs no more than 200% of the annual premium, has unlimited duration, and reinstates the aggregate limits.",
+  "source": "FC&S 'Claims-Made CGL Form' (2014); Austin & Stanovich (2012)"
+ },
+ {
+  "id": "comm-017",
+  "topic": "cpp",
+  "sub": "Claims-Made – Claim Information",
+  "q": "Under the claims-made CGL condition 'Your Right to Claim and Occurrence Information,' when the insurer is not canceling or nonrenewing, the first Named Insured must request the information in writing within 60 days after the policy period ends. The insurer must then provide it within:",
+  "choices": [
+   "10 days",
+   "30 days",
+   "45 days",
+   "90 days"
+  ],
+  "answer": 2,
+  "explain": "The insurer provides the information within 45 days of the written request. If the insurer cancels or nonrenews, it must provide the information at least 30 days before termination.",
+  "source": "FC&S 'Claims-Made CGL Form' (2014, CG 00 02 04 13)"
+ },
+ {
+  "id": "comm-018",
+  "topic": "cpp",
+  "sub": "Owners and Contractors Protective",
+  "q": "A building owner requires its contractor to buy an Owners and Contractors Protective (OCP) policy (CG 00 09) for a project. Which statement is correct?",
+  "choices": [
+   "The owner is insured for the contractor's operations and its own general supervision of them",
+   "Coverage continues after the contractor's work is completed and put to its intended use",
+   "The contractor is the named insured, and the owner is an additional insured",
+   "Any return premium is paid to the owner as the first Named Insured"
+  ],
+  "answer": 0,
+  "explain": "OCP insures the owner (the named insured) for BI/PD arising from the designated contractor's work at the specified location, or from the owner's general supervision. It excludes injury after the work is completed or put to its intended use, and premium refunds go to the 'contractor'.",
+  "source": "ISO CG 00 09 04 13, Sec. I 1.b(1); Excl. 2.c; Sec. IV 2.e"
+ },
+ {
+  "id": "comm-019",
+  "topic": "cpp",
+  "sub": "Pollution",
+  "q": "Under the CGL pollution exclusion (CG 00 01 04 13), which of the following remains COVERED?",
+  "choices": [
+   "Cleanup costs ordered by a state environmental agency",
+   "Bodily injury from pollutants at a waste disposal site the insured used",
+   "Bodily injury caused by heat, smoke or fumes from a hostile fire at the insured's premises",
+   "Property damage from chemicals the insured's subcontractor brought to an outdoor job site and spilled"
+  ],
+  "answer": 2,
+  "explain": "Injury from a 'hostile fire' (one that becomes uncontrollable or breaks out from where it was intended to be) is an exception to the premises pollution exclusion. Government-ordered cleanup costs and waste-site and job-site pollutants are excluded.",
+  "source": "ISO CG 00 01 04 13, Excl. f.(1)(a)(iii), f.(1)(b), f.(1)(d), f.(2); Sec. V def. 7"
+ },
+ {
+  "id": "comm-020",
+  "topic": "cpp",
+  "sub": "Commercial Property Conditions Form",
+  "q": "Under the Commercial Property Conditions form (CP 00 90), a legal action against the insurer must be brought within:",
+  "choices": [
+   "1 year after the loss is reported to the insurer",
+   "3 years after the policy period expires",
+   "5 years after the date of the direct physical loss",
+   "2 years after the date of the direct physical loss"
+  ],
+  "answer": 3,
+  "explain": "CP 00 90 requires full compliance with the coverage part and suit within 2 years after the direct physical loss occurred. Inland marine (CM 00 01) instead runs 2 years from when the insured first has knowledge of the loss.",
+  "source": "ISO CP 00 90 07 88, D.; CM 00 01 09 04, Gen. Cond. C"
+ },
+ {
+  "id": "comm-021",
+  "topic": "cpp",
+  "sub": "Building and Personal Property – Vacancy",
+  "q": "An owner's building insured under CP 00 10 has been vacant for 75 consecutive days when a windstorm (a covered cause of loss) damages it. How is the loss handled?",
+  "choices": [
+   "Paid in full",
+   "Not covered at all",
+   "Covered, but the payment is reduced by 15%",
+   "Covered, but the payment is reduced by 50%"
+  ],
+  "answer": 2,
+  "explain": "After more than 60 consecutive days of vacancy, vandalism, sprinkler leakage, building glass breakage, water damage, theft and attempted theft are not covered. Other covered losses, such as windstorm, are reduced by 15%.",
+  "source": "ISO CP 00 10 10 12, E.6.b"
+ },
+ {
+  "id": "comm-022",
+  "topic": "cpp",
+  "sub": "Building and Personal Property – Coinsurance",
+  "q": "A building valued at $500,000 at the time of loss is insured for $300,000 under CP 00 10 with 80% coinsurance and a $1,000 deductible. A $100,000 covered loss occurs. How much does the insurer pay?",
+  "choices": [
+   "$74,000",
+   "$75,000",
+   "$99,000",
+   "$59,000"
+  ],
+  "answer": 0,
+  "explain": "Required insurance is $500,000 × 80% = $400,000. $300,000 ÷ $400,000 = 0.75, and $100,000 × 0.75 = $75,000. Subtract the $1,000 deductible: $74,000.",
+  "source": "ISO CP 00 10 10 12, F.1 (Coinsurance steps)"
+ },
+ {
+  "id": "comm-023",
+  "topic": "cpp",
+  "sub": "Building and Personal Property – Coverage Extensions",
+  "q": "Which CP 00 10 10 12 coverage extension is correctly matched with its limit?",
+  "choices": [
+   "Newly acquired buildings – $100,000 per building",
+   "Property off-premises – $2,500",
+   "Outdoor property – $1,000 ($250 max per tree, shrub or plant)",
+   "Personal effects and property of others – $10,000 per premises"
+  ],
+  "answer": 2,
+  "explain": "The correct limits are: newly acquired buildings $250,000 (BPP $100,000), property off-premises $10,000, outdoor property $1,000 with $250 per tree, shrub or plant, and personal effects and property of others $2,500.",
+  "source": "ISO CP 00 10 10 12, A.5.a-e"
+ },
+ {
+  "id": "comm-024",
+  "topic": "cpp",
+  "sub": "Business Income",
+  "q": "Under the Business Income (and Extra Expense) Coverage Form (CP 00 30 10 12), the 'period of restoration' for Business Income coverage begins:",
+  "choices": [
+   "Immediately after the direct physical loss",
+   "24 hours after the direct physical loss",
+   "72 hours after the direct physical loss",
+   "When the insured resumes operations"
+  ],
+  "answer": 2,
+  "explain": "For Business Income the period of restoration starts 72 hours after the direct physical loss. For Extra Expense it starts immediately.",
+  "source": "ISO CP 00 30 10 12, F.3.a"
+ },
+ {
+  "id": "comm-025",
+  "topic": "cpp",
+  "sub": "Extra Expense",
+  "q": "A bank buys the Extra Expense Coverage Form (CP 00 50) with a $100,000 limit and the percentages 40%–80%–100%. After a fire, its period of restoration is 45 days and it incurs $90,000 of extra expense. The insurer pays:",
+  "choices": [
+   "$40,000",
+   "$80,000",
+   "$90,000",
+   "$100,000"
+  ],
+  "answer": 1,
+  "explain": "For a period of restoration of 31–60 days, the second percentage (80%) applies: $100,000 × 80% = $80,000. The remaining $10,000 is not covered.",
+  "source": "ISO CP 00 50 10 12, C.3 (example)"
+ },
+ {
+  "id": "comm-026",
+  "topic": "cpp",
+  "sub": "Condominium Coverage Forms",
+  "q": "Under the Condominium Commercial Unit-Owners Coverage Form (CP 00 18), if the condominium association has other insurance covering the same property, the unit-owner's coverage is:",
+  "choices": [
+   "Excess over the association's insurance",
+   "Primary, with the association's insurance as excess",
+   "Shared pro rata by limits with the association's insurance",
+   "Shared by equal shares"
+  ],
+  "answer": 0,
+  "explain": "CP 00 18 is intended to be excess over the association's insurance. The association form (CP 00 17) is intended to be primary and waives subrogation against unit-owners.",
+  "source": "ISO CP 00 18 10 12, E.3; CP 00 17 10 12, E.6, E.9"
+ },
+ {
+  "id": "comm-027",
+  "topic": "cpp",
+  "sub": "Builders Risk",
+  "q": "Under the ISO Builders Risk Coverage Form (CP 00 20), unless the insurer specifies otherwise in writing, coverage ends no later than ___ after construction is complete.",
+  "choices": [
+   "30 days",
+   "60 days",
+   "90 days",
+   "1 year"
+  ],
+  "answer": 2,
+  "explain": "Coverage ceases at the earliest of several events, including 90 days after construction is complete or 60 days after the building is occupied in whole or in part or put to its intended use.",
+  "source": "ISO CP 00 20 06 95, Additional Condition 4.e"
+ },
+ {
+  "id": "comm-028",
+  "topic": "cpp",
+  "sub": "Causes of Loss Forms",
+  "q": "Which peril is covered by the Causes of Loss – Broad Form (CP 10 20) but NOT by the Basic Form (CP 10 10)?",
+  "choices": [
+   "Sprinkler leakage",
+   "Sinkhole collapse",
+   "Weight of snow, ice or sleet",
+   "Theft of business personal property"
+  ],
+  "answer": 2,
+  "explain": "Broad adds falling objects; weight of snow, ice or sleet; and water damage, plus an Additional Coverage for collapse. Sprinkler leakage and sinkhole collapse are already Basic perils, and theft is not a covered peril in either form.",
+  "source": "ISO CP 10 10 10 12, A.; CP 10 20 10 12, A.12-14"
+ },
+ {
+  "id": "comm-029",
+  "topic": "cpp",
+  "sub": "Causes of Loss Forms",
+  "q": "Under the Causes of Loss – Special Form (CP 10 30), the special theft limit for stamps, tickets (including lottery tickets held for sale) and letters of credit is:",
+  "choices": [
+   "$250",
+   "$1,000",
+   "$2,500",
+   "$5,000"
+  ],
+  "answer": 0,
+  "explain": "The special theft limits are $2,500 for furs, $2,500 for jewelry and watches, $2,500 for patterns, dies, molds and forms, and $250 for stamps, tickets and letters of credit.",
+  "source": "ISO CP 10 30 09 17, C.3"
+ },
+ {
+  "id": "comm-030",
+  "topic": "cpp",
+  "sub": "Selected Endorsements – Ordinance or Law",
+  "q": "Under the Ordinance or Law Coverage endorsement (CP 04 05), Coverage B pays for:",
+  "choices": [
+   "The loss in value of the undamaged portion of the building",
+   "The cost to demolish undamaged parts and clear the site",
+   "The increased cost to repair or rebuild the building to code",
+   "The loss of business income during demolition"
+  ],
+  "answer": 1,
+  "explain": "Coverage A is loss to the undamaged portion, Coverage B is demolition cost, and Coverage C is increased cost of construction.",
+  "source": "ISO CP 04 05 09 17, C.1-3"
+ },
+ {
+  "id": "comm-031",
+  "topic": "cpp",
+  "sub": "Selected Endorsements – Peak Season / Spoilage",
+  "q": "A toy retailer's inventory roughly doubles from October through December each year. Which commercial property endorsement raises the personal property limit only during scheduled periods?",
+  "choices": [
+   "Spoilage Coverage",
+   "Ordinance or Law Coverage",
+   "Inflation Guard",
+   "Peak Season Limit of Insurance"
+  ],
+  "answer": 3,
+  "explain": "CP 12 30 increases the limit on covered personal property by a scheduled amount at the described locations, only during the scheduled dates.",
+  "source": "ISO CP 12 30 06 95"
+ },
+ {
+  "id": "comm-032",
+  "topic": "cpp",
+  "sub": "Commercial Crime – Definitions",
+  "q": "A store clerk is threatened with a gun and forced to hand over merchandise. Under ISO commercial crime definitions, this is:",
+  "choices": [
+   "Burglary",
+   "Forgery",
+   "Safe burglary",
+   "Robbery"
+  ],
+  "answer": 3,
+  "explain": "Robbery is the unlawful taking of property from a person's care and custody by someone who caused or threatened bodily harm, or committed an obviously unlawful act witnessed by that person. Burglary involves unlawful entry or exit from premises.",
+  "source": "ISO CR 00 21 11 15, F. def. 20; IRMI glossary 'burglary'"
+ },
+ {
+  "id": "comm-033",
+  "topic": "cpp",
+  "sub": "Commercial Crime – Loss Sustained vs Discovery",
+  "q": "Under the ISO Commercial Crime Coverage Form, Loss Sustained Form (CR 00 21 11 15), loss sustained before cancellation is covered if discovered no later than ___ after cancellation, unless replacement insurance is obtained first.",
+  "choices": [
+   "60 days",
+   "90 days",
+   "6 months",
+   "1 year"
+  ],
+  "answer": 3,
+  "explain": "The extended period to discover loss is one year, but it ends immediately when other replacement insurance takes effect.",
+  "source": "ISO CR 00 21 11 15, E.1.g"
+ },
+ {
+  "id": "comm-034",
+  "topic": "cpp",
+  "sub": "Commercial Crime – Loss Sustained vs Discovery",
+  "q": "Which statement best describes the ISO Commercial Crime Discovery Form (CR 00 20)?",
+  "choices": [
+   "It covers loss discovered during the policy period, no matter when it occurred",
+   "It covers only losses that both occur and are discovered during the policy period",
+   "It covers occurrences during the policy period discovered up to 1 year after cancellation",
+   "It covers only employee theft, not robbery or burglary by outsiders"
+  ],
+  "answer": 0,
+  "explain": "The discovery form is triggered by discovery, and the occurrence can be at any time. It allows a 60-day period to discover loss after the policy ends. The 1-year tail belongs to the loss sustained form.",
+  "source": "Rough Notes PF&M 251.4-2 (ISO crime forms analysis); ISO CR 00 21 11 15, E.1.g"
+ },
+ {
+  "id": "comm-035",
+  "topic": "cpp",
+  "sub": "Commercial Crime – Coverages",
+  "q": "Under the crime insuring agreement 'Inside the Premises – Theft of Money and Securities,' which loss is covered?",
+  "choices": [
+   "Unexplained disappearance of money from the premises",
+   "Theft of merchandise from the sales floor by a burglar",
+   "Embezzlement of cash from the register by an employee",
+   "Counterfeit bills accepted in good faith in a sale"
+  ],
+  "answer": 0,
+  "explain": "This agreement covers money and securities inside the premises (or a financial institution's premises) against theft, disappearance or destruction. Merchandise is 'other property', covered only for robbery of a custodian or safe burglary (Insuring Agreement 4); ordinary burglary of merchandise from the sales floor is not covered. Employee embezzlement falls under Employee Theft, and counterfeit bills under Money Orders and Counterfeit Money.",
+  "source": "ISO CR 00 21 11 15, A.1, A.3, A.4, A.7"
+ },
+ {
+  "id": "comm-036",
+  "topic": "cpp",
+  "sub": "Nationwide Marine Definition",
+  "q": "Which of the following is NOT one of the classes in the Nationwide Marine Definition?",
+  "choices": [
+   "Commercial property floater risks",
+   "Domestic shipments",
+   "Personal property floater risks",
+   "Buildings and their fixed contents"
+  ],
+  "answer": 3,
+  "explain": "The classes are imports; exports; domestic shipments; bridges, tunnels and other instrumentalities of transportation and communication; personal property floaters; and commercial property floaters. Buildings and their contents are not marine risks (MCL 500.614 excludes them).",
+  "source": "IMUA 'Nationwide Marine Definition'; MCL 500.614(4)"
+ },
+ {
+  "id": "comm-037",
+  "topic": "cpp",
+  "sub": "Commercial Inland Marine Conditions",
+  "q": "Under the Commercial Inland Marine Conditions form (CM 00 01), which statement is correct?",
+  "choices": [
+   "The insured may abandon damaged property to the insurer for full payment",
+   "Each claim payment reduces the limit of insurance for the remainder of the policy period",
+   "Legal action must be brought within 1 year of the loss",
+   "Claim payments do not reduce the limit, except for the total loss of a scheduled item"
+  ],
+  "answer": 3,
+  "explain": "CM 00 01 has a Reinstatement of Limit After Loss condition. It also prohibits abandonment and allows legal action within 2 years after the insured first has knowledge of the loss.",
+  "source": "ISO CM 00 01 09 04, Loss Cond. A, I; Gen. Cond. C"
+ },
+ {
+  "id": "comm-038",
+  "topic": "cpp",
+  "sub": "Inland Marine Coverage Forms",
+  "q": "Which inland marine class is an ISO 'filed' class rather than a nonfiled class?",
+  "choices": [
+   "Contractors equipment",
+   "Accounts receivable",
+   "Motor truck cargo",
+   "Installation floater"
+  ],
+  "answer": 1,
+  "explain": "Verisk lists accounts receivable among its filed classes, along with valuable papers, commercial articles, equipment dealers, signs and others. Contractors equipment, motor truck cargo and installation are nonfiled.",
+  "source": "Verisk 'Commercial Inland Marine' program sheet (2022)"
+ },
+ {
+  "id": "comm-039",
+  "topic": "cpp",
+  "sub": "Transportation Coverages",
+  "q": "A common carrier is generally liable for loss of cargo in its care EXCEPT when the loss is caused by:",
+  "choices": [
+   "Its driver's negligence",
+   "A collision with another vehicle",
+   "An act of God",
+   "Theft from an unlocked trailer"
+  ],
+  "answer": 2,
+  "explain": "Common carriers are liable for cargo loss except loss caused by an act of God, the public enemy, an act of the shipper, public authority, or the inherent vice of the goods. The carrier must also prove it was not negligent.",
+  "source": "Missouri Pacific R.R. v. Elmore & Stahl, 377 U.S. 134 (1964)"
+ },
+ {
+  "id": "comm-040",
+  "topic": "cpp",
+  "sub": "Equipment Breakdown",
+  "q": "The ISO Equipment Breakdown Protection Coverage Form (EB 00 20) values covered property on a replacement cost basis unless:",
+  "choices": [
+   "The insured has fewer than 10 employees",
+   "The insured fails to meet a coinsurance requirement",
+   "The equipment is more than 20 years old",
+   "An Actual Cash Value endorsement is attached"
+  ],
+  "answer": 3,
+  "explain": "Replacement cost is built into the basic equipment breakdown form. Attaching the Actual Cash Value endorsement (often used for older equipment) changes the valuation to actual cash value.",
+  "source": "FC&S 'Equipment Breakdown Coverage Form' (propertycasualty360.com, 2016); FC&S 'Equipment Breakdown Endorsements' (2018)"
+ },
+ {
+  "id": "comm-041",
+  "topic": "cpp",
+  "sub": "Farm Property",
+  "q": "In the ISO farm property program, Coverage E applies to:",
+  "choices": [
+   "Dwellings",
+   "Scheduled farm personal property",
+   "Barns and other farm structures",
+   "Loss of use"
+  ],
+  "answer": 1,
+  "explain": "A = Dwellings, B = Other Private Structures, C = Household Personal Property, D = Loss of Use, E = Scheduled Farm Personal Property, F = Unscheduled Farm Personal Property, G = Other Farm Structures. Edition note: these letters are from FP 00 10 09 94.",
+  "source": "ISO FP 00 10 09 94; Rough Notes PF&M 471.1"
+ },
+ {
+  "id": "comm-042",
+  "topic": "cpp",
+  "sub": "Farm Liability",
+  "q": "Under the ISO Farm Liability Coverage Form (FL 00 20), Coverage J is:",
+  "choices": [
+   "Bodily Injury and Property Damage Liability",
+   "Personal and Advertising Injury Liability",
+   "Medical Payments",
+   "Employers Liability"
+  ],
+  "answer": 2,
+  "explain": "Coverage H is BI/PD liability, Coverage I is personal and advertising injury, and Coverage J is medical payments (expenses incurred or ascertained within 3 years of the accident).",
+  "source": "FC&S 'Farm Liability Coverage Form' (propertycasualty360.com, 2013)"
+ },
+ {
+  "id": "comm-043",
+  "topic": "cpp",
+  "sub": "Legal Liability",
+  "q": "A tenant wants coverage for its legal liability for damage to the landlord's building it occupies, caused by a covered cause of loss. Which ISO commercial property form is designed for this?",
+  "choices": [
+   "Legal Liability Coverage Form (CP 00 40)",
+   "Condominium Commercial Unit-Owners Coverage Form (CP 00 18)",
+   "Builders Risk Coverage Form (CP 00 20)",
+   "Extra Expense Coverage Form (CP 00 50)"
+  ],
+  "answer": 0,
+  "explain": "CP 00 40 pays sums the insured is legally obligated to pay for direct physical loss to tangible property of others in its care, custody or control, caused by accident and arising from a covered cause of loss. It includes defense.",
+  "source": "ISO CP 00 40 10 12, A."
+ },
+ {
+  "id": "comm-044",
+  "topic": "bop",
+  "sub": "Section I – Business Income",
+  "q": "Under the ISO Businessowners Coverage Form (BP 00 03 07 13), Business Income pays the actual loss sustained during the period of restoration that occurs within ___ after the direct physical loss, and is ___.",
+  "choices": [
+   "6 consecutive months; subject to the building limit",
+   "12 consecutive months; not subject to the Section I limits",
+   "12 consecutive months; limited to 25% of the BPP limit",
+   "18 consecutive months; subject to a separate declared limit"
+  ],
+  "answer": 1,
+  "explain": "BOP Business Income is an Additional Coverage paying actual loss sustained for up to 12 consecutive months, with no dollar limit (it is not subject to the Section I limits). Ordinary payroll is limited to 60 days unless more days are shown.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.f(1)(b), (4)"
+ },
+ {
+  "id": "comm-045",
+  "topic": "bop",
+  "sub": "Section I – Business Income",
+  "q": "Under BP 00 03 07 13, after operations resume, Extended Business Income continues until income is restored or for up to ___ consecutive days, unless a greater number is shown in the Declarations.",
+  "choices": [
+   "30",
+   "60",
+   "90",
+   "180"
+  ],
+  "answer": 1,
+  "explain": "BOP Extended Business Income lasts up to 60 consecutive days after the date property is repaired and operations resume.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.f(2)"
+ },
+ {
+  "id": "comm-046",
+  "topic": "bop",
+  "sub": "Section I – Loss Conditions (Valuation)",
+  "q": "A building with a full replacement cost of $400,000 is insured under a BOP (BP 00 03 07 13) for $240,000. A $50,000 partial loss occurs; its actual cash value is $30,000. Ignoring the deductible, how much does the insurer pay?",
+  "choices": [
+   "$50,000",
+   "$40,000",
+   "$37,500",
+   "$30,000"
+  ],
+  "answer": 2,
+  "explain": "The limit is below 80% of replacement cost ($320,000), so the BOP pays the greater of ACV ($30,000) or ($240,000 ÷ $320,000) × $50,000 = $37,500. The BOP has no coinsurance clause, but this 80% rule applies to replacement cost recovery.",
+  "source": "ISO BP 00 03 07 13, Sec. I E.5.d(1)(b)"
+ },
+ {
+  "id": "comm-047",
+  "topic": "bop",
+  "sub": "Section I – Limits of Insurance",
+  "q": "The BOP Business Personal Property limit automatically increases by 25% (unless another percentage is shown) for seasonal variations, but only if:",
+  "choices": [
+   "The insured reports the values of its business personal property to the insurer by the end of each month",
+   "The loss occurs between November 1 and January 31, the period when retail inventories usually peak",
+   "The insured is a retail store whose stock rises during a peak season shown in the Declarations",
+   "The BPP limit is at least 100% of average monthly values for the prior 12 months (or time in business, if less)"
+  ],
+  "answer": 3,
+  "explain": "The seasonal increase applies only if the BPP limit is at least 100% of the average monthly values for the lesser of the preceding 12 months or the time in business.",
+  "source": "ISO BP 00 03 07 13, Sec. I C.5"
+ },
+ {
+  "id": "comm-048",
+  "topic": "bop",
+  "sub": "Section I – Additional Coverages",
+  "q": "Which BP 00 03 07 13 additional coverage is correctly matched with its standard limit?",
+  "choices": [
+   "Money Orders and Counterfeit Money – $1,000",
+   "Forgery or Alteration – $10,000",
+   "Electronic Data – $2,500 per policy year",
+   "Fire Extinguisher Systems Recharge Expense – $25,000"
+  ],
+  "answer": 0,
+  "explain": "The BOP limits are Money Orders and Counterfeit Money $1,000, Forgery or Alteration $2,500, Electronic Data $10,000 per policy year, and Fire Extinguisher Systems Recharge $5,000.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.j, k, o, p"
+ },
+ {
+  "id": "comm-049",
+  "topic": "bop",
+  "sub": "Section I – Additional Coverages",
+  "q": "Under BP 00 03 07 13, the Fire Department Service Charge additional coverage pays up to what amount per premises (unless a different limit is shown)?",
+  "choices": [
+   "$500",
+   "$1,000",
+   "$2,500",
+   "$5,000"
+  ],
+  "answer": 2,
+  "explain": "The BOP pays up to $2,500 per premises with no deductible. The commercial property BPP form (CP 00 10) pays $1,000.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.c, D.3"
+ },
+ {
+  "id": "comm-050",
+  "topic": "bop",
+  "sub": "Section I – Coverage Extensions",
+  "q": "Under BP 00 03 07 13, the Newly Acquired or Constructed Property extension covers buildings up to ___ per building, and coverage ends ___ after acquisition or start of construction (if not reported sooner).",
+  "choices": [
+   "$100,000; 60 days",
+   "$250,000; 30 days",
+   "$500,000; 90 days",
+   "$250,000; 90 days"
+  ],
+  "answer": 1,
+  "explain": "The extension covers buildings up to $250,000 each and business personal property up to $100,000 per building. Coverage ends at policy expiration, 30 days after acquisition or start of construction, or when values are reported.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.6.a"
+ },
+ {
+  "id": "comm-051",
+  "topic": "bop",
+  "sub": "Characteristics and Purpose / Eligibility",
+  "q": "Under ISO businessowners program rules, which business is INELIGIBLE for a BOP regardless of its size?",
+  "choices": [
+   "A small apartment building",
+   "A neighborhood bar",
+   "A three-story office building",
+   "A retail clothing store"
+  ],
+  "answer": 1,
+  "explain": "Per IRMI's summary of ISO rules, bars and pubs, auto repair and dealers, manufacturers, places of amusement, and banks are ineligible regardless of size. Apartments, offices and mercantile risks are eligible classes.",
+  "source": "IRMI white paper 'Businessowners Policy Basics'"
+ },
+ {
+  "id": "comm-052",
+  "topic": "bop",
+  "sub": "Section II – Limits of Insurance",
+  "q": "A BOP shows a Liability and Medical Expenses limit of $1,000,000. Under BP 00 03 07 13, the products-completed operations aggregate limit is:",
+  "choices": [
+   "$1,000,000",
+   "$2,000,000",
+   "$3,000,000",
+   "Unlimited"
+  ],
+  "answer": 1,
+  "explain": "Both the products-completed operations aggregate and the general aggregate equal twice the Liability and Medical Expenses limit.",
+  "source": "ISO BP 00 03 07 13, Sec. II D.4"
+ },
+ {
+  "id": "comm-053",
+  "topic": "bop",
+  "sub": "Section II – Exclusions",
+  "q": "A BOP-insured accounting firm is sued for an error in a client's tax return. Under BOP Section II – Liability:",
+  "choices": [
+   "The claim is covered as personal and advertising injury",
+   "The claim is covered under Medical Expenses, regardless of fault",
+   "The claim is covered only if the error appeared in the firm's advertisement",
+   "The claim is not covered because the BOP excludes professional services"
+  ],
+  "answer": 3,
+  "explain": "BP 00 03 excludes injury caused by rendering or failing to render any professional service, including legal and accounting services (and a client's purely financial loss is not bodily injury or property damage in the first place). This exposure needs E&O/professional liability coverage.",
+  "source": "ISO BP 00 03 07 13, Sec. II B.1.j"
+ },
+ {
+  "id": "comm-054",
+  "topic": "bop",
+  "sub": "Section III – Common Policy Conditions",
+  "q": "Under BOP Section III – Common Policy Conditions (BP 00 03 07 13), the insurer may cancel on as little as 5 days' written notice if:",
+  "choices": [
+   "The building has been vacant or unoccupied 60 or more consecutive days",
+   "Premium has not been paid by the due date",
+   "The insured has filed two or more claims within the same policy year",
+   "The insured changes agents or moves its business to a new location"
+  ],
+  "answer": 0,
+  "explain": "The 5-day cancellation applies to listed building conditions such as 60+ consecutive days of vacancy or unoccupancy (other than seasonal unoccupancy or construction, renovation or addition), repairs not started within 30 days of loss payment, or a vacate or demolition order. Nonpayment requires 10 days, and other reasons 30 days.",
+  "source": "ISO BP 00 03 07 13, Sec. III A.2"
+ },
+ {
+  "id": "comm-055",
+  "topic": "bop",
+  "sub": "Selected Endorsements – Protective Safeguards",
+  "q": "In the Protective Safeguards endorsement schedule, the symbol 'P-1' refers to:",
+  "choices": [
+   "Automatic fire alarm",
+   "Security service with hourly rounds",
+   "Automatic sprinkler system",
+   "Service contract with a privately owned fire department"
+  ],
+  "answer": 2,
+  "explain": "P-1 is automatic sprinkler system, P-2 automatic fire alarm, P-3 security service, P-4 service contract with a private fire department, and P-9 a system described in the schedule.",
+  "source": "ISO IL 04 15 04 98; FC&S 'Businessowners Program Endorsements Described' (2020, BP 04 30 07 13)"
+ },
+ {
+  "id": "comm-056",
+  "topic": "bop",
+  "sub": "Selected Endorsements – Protective Safeguards",
+  "q": "A BOP insured with a P-2 (central-station fire alarm) protective safeguard knows the alarm has been disconnected for weeks but does not tell the insurer. A fire then damages the building. What is the result?",
+  "choices": [
+   "Covered in full",
+   "Covered, subject to a 15% reduction",
+   "Covered for business personal property only",
+   "The fire loss is excluded"
+  ],
+  "answer": 3,
+  "explain": "The endorsement excludes fire loss if, before the fire, the insured knew of a suspension or impairment of a listed safeguard and failed to notify the insurer, or failed to keep it in complete working order.",
+  "source": "ISO IL 04 15 04 98, B.; FC&S (2020) re BP 04 30"
+ },
+ {
+  "id": "comm-057",
+  "topic": "bop",
+  "sub": "Selected Endorsements – Utility Services",
+  "q": "A restaurant loses income when an off-premises power substation is damaged by fire and its electricity is interrupted. Which BOP endorsement responds to the lost income?",
+  "choices": [
+   "Utility Services – Time Element",
+   "Utility Services – Direct Damage",
+   "Spoilage Coverage",
+   "Protective Safeguards"
+  ],
+  "answer": 0,
+  "explain": "Utility Services – Time Element (BP 04 57) covers Business Income and Extra Expense from interruption of utility service caused by covered damage to scheduled off-premises utility property. Direct Damage (BP 04 56) covers physical damage to covered property.",
+  "source": "ISO BP 04 57 01 06, A., C.3; FC&S (2020)"
+ },
+ {
+  "id": "comm-058",
+  "topic": "bop",
+  "sub": "Selected Endorsements – Utility Services",
+  "q": "Under the BOP Utility Services endorsements, loss caused by damage to overhead transmission lines is:",
+  "choices": [
+   "Always covered as part of power supply property",
+   "Never covered",
+   "Covered only if indicated in the Schedule",
+   "Covered only for water supply property"
+  ],
+  "answer": 2,
+  "explain": "Communication and power supply property do not include overhead transmission lines unless the Schedule indicates them.",
+  "source": "ISO BP 04 57 01 06, C.2-3"
+ },
+ {
+  "id": "comm-059",
+  "topic": "bop",
+  "sub": "Selected Endorsements – Hired and Non-Owned Auto",
+  "q": "An employee runs a business errand in her own car and causes an accident; the employer is sued. Which BOP endorsement covers the employer's liability?",
+  "choices": [
+   "Hired Auto and Non-Owned Auto Liability",
+   "Utility Services – Time Element",
+   "Protective Safeguards",
+   "Employee Dishonesty optional coverage"
+  ],
+  "answer": 0,
+  "explain": "BP 04 04 covers BI/PD from use of a non-owned auto in the insured's business by any person, and from use of hired autos. A premium must be shown in the Declarations.",
+  "source": "FC&S 'Businessowners Program Endorsements Described' (2020, BP 04 04 01 10)"
+ },
+ {
+  "id": "comm-060",
+  "topic": "other",
+  "sub": "Umbrella/Excess Liability",
+  "q": "When the aggregate limit of an underlying liability policy has been exhausted by claims, an umbrella policy that 'drops down' will:",
+  "choices": [
+   "Cancel automatically",
+   "Respond in place of the exhausted underlying coverage",
+   "Pay only defense costs",
+   "Require the insured to buy a new underlying limit first"
+  ],
+  "answer": 1,
+  "explain": "One umbrella function is to drop down and pick up where the underlying policy leaves off when its aggregate is exhausted. Umbrellas also provide excess limits and cover some claims not covered by underlying policies, subject to a self-insured retention.",
+  "source": "IRMI glossary 'umbrella liability policy'; 'drop down provision'"
+ },
+ {
+  "id": "comm-061",
+  "topic": "other",
+  "sub": "Specialty Liability – D&O",
+  "q": "Under a directors and officers (D&O) liability policy, which insuring agreement reimburses the corporation for amounts it pays to indemnify its directors and officers?",
+  "choices": [
+   "Side A",
+   "Side B",
+   "Side C",
+   "Side D"
+  ],
+  "answer": 1,
+  "explain": "Side A covers directors and officers directly when the company can't or won't indemnify. Side B (corporate reimbursement) reimburses the company. Side C (entity coverage) covers the organization itself, typically for securities claims.",
+  "source": "IRMI glossary 'Side A coverage', 'corporate reimbursement coverage', 'entity securities coverage'"
+ },
+ {
+  "id": "comm-062",
+  "topic": "other",
+  "sub": "Specialty Liability – Fiduciary",
+  "q": "A company 401(k) plan trustee makes an imprudent investment choice, and plan participants sue for breach of fiduciary duty under ERISA. Which coverage is designed to respond?",
+  "choices": [
+   "ERISA fidelity bond",
+   "Commercial crime employee theft coverage",
+   "Employment practices liability",
+   "Fiduciary liability insurance"
+  ],
+  "answer": 3,
+  "explain": "Fiduciary liability covers errors in administering benefit plans under ERISA. The ERISA fidelity bond protects the plan only against fraud or dishonesty by people handling plan funds.",
+  "source": "IRMI glossary 'fiduciary liability'; 29 U.S.C. 1112(a)"
+ },
+ {
+  "id": "comm-063",
+  "topic": "other",
+  "sub": "Specialty Liability – EPLI",
+  "q": "A former employee sues her employer alleging wrongful termination and sexual harassment. Which coverage is designed for this claim?",
+  "choices": [
+   "Employment practices liability insurance",
+   "Workers compensation insurance",
+   "CGL Coverage A (bodily injury and property damage)",
+   "Fiduciary liability insurance"
+  ],
+  "answer": 0,
+  "explain": "EPLI covers wrongful acts arising from the employment process (e.g., wrongful termination, harassment, discrimination). Workers compensation covers job-related injury and disease, and CGL Coverage A excludes bodily injury to employees.",
+  "source": "IRMI glossary 'employment practices liability insurance'"
+ },
+ {
+  "id": "comm-064",
+  "topic": "other",
+  "sub": "Specialty Liability – Liquor",
+  "q": "Michigan law requires a retail liquor licensee to file proof of financial responsibility for dram shop liability of not less than:",
+  "choices": [
+   "$20,000",
+   "$50,000",
+   "$100,000",
+   "$300,000"
+  ],
+  "answer": 1,
+  "explain": "The proof may be liquor liability insurance, a surety bond, cash or securities, or a group self-insurance pool. A licensee may cancel liquor liability insurance only on 30 days' notice to the commission, with replacement proof.",
+  "source": "MCL 436.1803(1), (4)"
+ },
+ {
+  "id": "comm-065",
+  "topic": "other",
+  "sub": "Surety Bonds",
+  "q": "In a construction performance bond, the project owner who is protected if the contractor fails to perform is the:",
+  "choices": [
+   "Principal",
+   "Surety",
+   "Obligee",
+   "Indemnitor"
+  ],
+  "answer": 2,
+  "explain": "The bond is executed by the principal (the contractor) and the surety to assure the principal's obligations to a third party, the obligee.",
+  "source": "FAR 48 CFR 28.001 'Bond'"
+ },
+ {
+  "id": "comm-066",
+  "topic": "other",
+  "sub": "Surety Bonds – Contract Bonds",
+  "q": "Which bond assures that a contractor will pay the persons who supply labor and material for the project?",
+  "choices": [
+   "Bid bond",
+   "Performance bond",
+   "License and permit bond",
+   "Payment bond"
+  ],
+  "answer": 3,
+  "explain": "A payment bond assures payment to suppliers of labor and material. A performance bond secures completion of the contract. A bid bond assures the bidder will sign the contract and furnish the required bonds.",
+  "source": "FAR 48 CFR 28.001"
+ },
+ {
+  "id": "comm-067",
+  "topic": "other",
+  "sub": "Surety Bonds",
+  "q": "How does a surety bond differ from a typical insurance policy?",
+  "choices": [
+   "The surety expects losses and prices the bond to pay them",
+   "The obligee pays the premium and indemnifies the surety",
+   "Only two parties are involved: the surety and the principal",
+   "The principal must reimburse the surety for losses it pays"
+  ],
+  "answer": 3,
+  "explain": "A surety bond is a three-party contract. The surety is secondarily liable and underwrites expecting no losses, and the principal must indemnify the surety for any loss it pays.",
+  "source": "surety.org 'What is a Surety Bond?'; SFAA/AGC Surety Claims Guide"
+ },
+ {
+  "id": "comm-068",
+  "topic": "other",
+  "sub": "Surplus Lines",
+  "q": "Under Michigan law, each surplus lines policy delivered to an insured must bear a notice, in red ink and at least 10-point type, stating that:",
+  "choices": [
+   "The policy is protected by the Michigan Property and Casualty Guaranty Association if the insurer fails",
+   "The insurer is not licensed by Michigan, and if it is insolvent, payment of claims may not be guaranteed",
+   "The rates and forms were approved by DIFS before the policy was issued",
+   "The agent is personally liable for claims if the insurer becomes insolvent"
+  ],
+  "answer": 1,
+  "explain": "MCL 500.1922 requires the notice: 'This insurance has been placed with an insurer that is not licensed by the state of Michigan. In case of insolvency, payment of claims may not be guaranteed.'",
+  "source": "MCL 500.1922"
+ },
+ {
+  "id": "comm-069",
+  "topic": "other",
+  "sub": "Surplus Lines",
+  "q": "A Michigan surplus lines licensee must pay what tax and fee on surplus lines premiums written?",
+  "choices": [
+   "1% premium tax and 0.5% regulatory fee",
+   "3% premium tax and no regulatory fee",
+   "2% premium tax and 1% regulatory fee",
+   "2% premium tax and 0.5% regulatory fee"
+  ],
+  "answer": 3,
+  "explain": "The licensee files sworn statements by February 15 and August 15 and pays the 2% premium tax plus a 0.5% regulatory fee.",
+  "source": "MCL 500.1905(3)(d)"
+ },
+ {
+  "id": "comm-070",
+  "topic": "other",
+  "sub": "Surplus Lines – Definitions and Markets",
+  "q": "Under MCL 500.1910, there is a rebuttable presumption that coverage is AVAILABLE from authorized insurers, so it may not be placed in surplus lines, for all of the following EXCEPT:",
+  "choices": [
+   "Private passenger auto physical damage",
+   "Any coverage readily available from 3 or more authorized insurers at competitive terms",
+   "Michigan no-fault auto insurance for someone who is not a self-insurer",
+   "Coverage the licensee could not obtain after a diligent search among authorized insurers"
+  ],
+  "answer": 3,
+  "explain": "Coverage that cannot be procured after a diligent search among authorized insurers is presumed UNAVAILABLE and may be exported. The other three are presumed available.",
+  "source": "MCL 500.1910(2)-(3)"
+ },
+ {
+  "id": "comm-071",
+  "topic": "other",
+  "sub": "National Flood Insurance Program",
+  "q": "Under the NFIP 'Write Your Own' (WYO) program:",
+  "choices": [
+   "Private insurers write and service policies in their own names; the federal government pays losses",
+   "FEMA sells flood policies only through its own employees, never private insurers",
+   "WYO companies set their own flood rates and policy forms, subject to state insurance department approval",
+   "WYO policies provide broader coverage than the same policy bought from NFIP Direct"
+  ],
+  "answer": 0,
+  "explain": "WYO companies are private P&C insurers that write and service NFIP policies in their own names, and the federal government pays all losses. Coverage is the same whether the policy comes from a WYO company or NFIP Direct.",
+  "source": "FEMA brochure 'Meeting the Flood Insurance Requirement' (07-2024); agents.floodsmart.gov 'Flood Insurance 101'"
+ },
+ {
+  "id": "comm-072",
+  "topic": "other",
+  "sub": "National Flood Insurance Program",
+  "q": "A homeowner buys NFIP flood coverage at the closing of a new mortgage loan. What waiting period applies?",
+  "choices": [
+   "None",
+   "1 day",
+   "15 days",
+   "30 days"
+  ],
+  "answer": 0,
+  "explain": "The standard waiting period is 30 days, but there is none when coverage is bought in connection with making, increasing, extending or renewing a loan. Other exceptions apply after map revisions and for post-wildfire flooding.",
+  "source": "agents.floodsmart.gov 'Flood Insurance 101' (accessed Oct 2026)"
+ },
+ {
+  "id": "comm-073",
+  "topic": "other",
+  "sub": "National Flood Insurance Program – Limits",
+  "q": "What is the maximum NFIP building coverage available for a non-residential (commercial) building?",
+  "choices": [
+   "$100,000",
+   "$250,000",
+   "$500,000",
+   "$1,000,000"
+  ],
+  "answer": 2,
+  "explain": "Non-residential maximums are $500,000 building and $500,000 contents. Single-family and 2-4 family residential buildings max out at $250,000 (residential contents $100,000); other residential buildings with 5 or more units can be insured up to $500,000.",
+  "source": "44 CFR 61.6(a); FEMA 'NFIP Summary of Coverage - Commercial Property' (01-2024)"
+ },
+ {
+  "id": "comm-074",
+  "topic": "other",
+  "sub": "National Flood Insurance Program – Deductibles",
+  "q": "Under NFIP Risk Rating 2.0 minimum deductibles, a residential building (not pre-FIRM discounted) insured for more than $100,000 of building coverage has a minimum building deductible of:",
+  "choices": [
+   "$500",
+   "$1,000",
+   "$1,250",
+   "$2,000"
+  ],
+  "answer": 2,
+  "explain": "The minimum is $1,000 for building coverage of $100,000 or less and $1,250 for over $100,000. Pre-FIRM statutorily discounted buildings have $1,500/$2,000 minimums. Values as stated in FEMA guidance current in 2024–2025.",
+  "source": "FEMA RR2.0 'Simple Guide for Residential Manufactured/Mobile Homes' (citing FIM Sec. 3)"
+ },
+ {
+  "id": "comm-075",
+  "topic": "other",
+  "sub": "Alternative Funding – Risk Retention Groups",
+  "q": "Which statement about a risk retention group under the federal Liability Risk Retention Act is correct?",
+  "choices": [
+   "It may write property and liability insurance for the general public",
+   "It must be licensed as an insurer in every state where it operates, not just one",
+   "It must participate in each state's insurance guaranty association",
+   "It is owned by its members and writes only liability insurance for them"
+  ],
+  "answer": 3,
+  "explain": "An RRG is chartered as a liability insurer in one state, owned by members in similar businesses, and limited to liability coverage. States may not require or permit it to join guaranty funds.",
+  "source": "15 U.S.C. 3901(a)(4); 3902(a)"
+ },
+ {
+  "id": "comm-076",
+  "topic": "other",
+  "sub": "Cyber Issues",
+  "q": "Which of the following is a THIRD-party cyber coverage?",
+  "choices": [
+   "Forensic investigation costs",
+   "Payments to consumers whose data was exposed",
+   "Customer notification and call-center costs",
+   "Business income lost during a network outage"
+  ],
+  "answer": 1,
+  "explain": "Third-party coverage protects the insured from liability claims by others, such as affected consumers. Forensics, notification and business interruption are first-party costs.",
+  "source": "NAIC 'Cyber Insurance' consumer guide"
+ }
+]

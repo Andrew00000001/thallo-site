@@ -1,0 +1,278 @@
+[
+ {
+  "topic": "cpp",
+  "front": "Components of a commercial package policy (CPP)",
+  "back": "Common Policy Declarations + Common Policy Conditions (IL 00 17) + interline endorsements + two or more coverage parts. One coverage part = monoline.",
+  "source": "ISO IL 00 17 11 98; IRMI glossary 'commercial package policy'"
+ },
+ {
+  "topic": "cpp",
+  "front": "IL 00 17 Common Policy Conditions (6)",
+  "back": "Cancellation; Changes; Examination of Books and Records (up to 3 years after); Inspections and Surveys; Premiums (first Named Insured pays and receives return premium); Transfer of Rights and Duties (needs written consent, except on death of an individual named insured).",
+  "source": "ISO IL 00 17 11 98"
+ },
+ {
+  "topic": "cpp",
+  "front": "IL 00 17 insurer cancellation notice",
+  "back": "10 days for nonpayment of premium; 30 days for any other reason. Refund is pro rata if the insurer cancels; may be less than pro rata if the first Named Insured cancels.",
+  "source": "ISO IL 00 17 11 98, A."
+ },
+ {
+  "topic": "cpp",
+  "front": "CGL Supplementary Payments: bail bonds / loss of earnings",
+  "back": "Up to $250 for bail bonds; actual loss of earnings up to $250 a day. Paid in addition to limits.",
+  "source": "ISO CG 00 01 04 13, Supp. Payments 1.b, 1.d"
+ },
+ {
+  "topic": "cpp",
+  "front": "CGL Coverage C – Medical Payments time limit",
+  "back": "Expenses must be incurred and reported within 1 year of the accident. Paid regardless of fault.",
+  "source": "ISO CG 00 01 04 13, Cov. C 1.a-b"
+ },
+ {
+  "topic": "cpp",
+  "front": "CGL General Aggregate vs Products-Completed Operations Aggregate",
+  "back": "General aggregate = Coverage C + Coverage A (except products-completed ops) + Coverage B. Products-completed ops aggregate = Coverage A BI/PD in the products-completed operations hazard.",
+  "source": "ISO CG 00 01 04 13, Sec. III 2-3"
+ },
+ {
+  "topic": "cpp",
+  "front": "'Insured contract' (CGL) list",
+  "back": "Lease of premises (not the fire-damage indemnity part); sidetrack agreement; easement/license (except construction within 50 ft of a railroad); municipal indemnity required by ordinance; elevator maintenance agreement; assumption of another's tort liability in a business contract.",
+  "source": "ISO CG 00 01 04 13, Sec. V def. 9"
+ },
+ {
+  "topic": "cpp",
+  "front": "Claims-made Basic ERP",
+  "back": "Automatic, no charge. 60 days for unreported occurrences; 5 years for claims from occurrences reported within 60 days after the policy ends. No reinstated limits.",
+  "source": "FC&S 'Claims-Made CGL Form' (2014, CG 00 02 04 13)"
+ },
+ {
+  "topic": "cpp",
+  "front": "Claims-made Supplemental ERP",
+  "back": "Written request within 60 days after the policy ends; premium up to 200% of annual premium; unlimited duration; starts after the basic ERP ends; reinstates aggregate limits.",
+  "source": "FC&S 'Claims-Made CGL Form' (2014); Austin & Stanovich (2012)"
+ },
+ {
+  "topic": "cpp",
+  "front": "OCP (CG 00 09)",
+  "back": "Covers the owner (named insured) for BI/PD from the designated contractor's operations and the owner's general supervision. Ends when the work is completed or put to its intended use; premium refunds go to the contractor.",
+  "source": "ISO CG 00 09 04 13"
+ },
+ {
+  "topic": "cpp",
+  "front": "Commercial property vacancy",
+  "back": "Vacant more than 60 consecutive days: no coverage for vandalism, sprinkler leakage, building glass, water damage, theft or attempted theft; other losses reduced 15%. Owner's building is vacant unless at least 31% is rented/used.",
+  "source": "ISO CP 00 10 10 12, E.6"
+ },
+ {
+  "topic": "cpp",
+  "front": "CP 00 10 10 12 debris removal",
+  "back": "25% of paid loss plus deductible, plus up to an additional $25,000 per location (when the loss plus debris removal exceeds the limit or debris removal exceeds the 25%); must be reported within 180 days. Older editions: additional $10,000.",
+  "source": "ISO CP 00 10 10 12, A.4.a"
+ },
+ {
+  "topic": "cpp",
+  "front": "CP 00 10 small additional coverages",
+  "back": "Fire dept service charge $1,000 (no deductible); pollutant clean-up $10,000 per 12 months; increased cost of construction lesser of $10,000 or 5%; electronic data $2,500; preservation of property 30 days.",
+  "source": "ISO CP 00 10 10 12, A.4"
+ },
+ {
+  "topic": "cpp",
+  "front": "CP 00 10 coverage extensions",
+  "back": "Require 80%+ coinsurance. Newly acquired building $250,000 / BPP $100,000 (30 days); personal effects & property of others $2,500; valuable papers $2,500; off-premises $10,000; outdoor property $1,000 ($250 per tree); non-owned trailers $5,000; portable storage $10,000.",
+  "source": "ISO CP 00 10 10 12, A.5"
+ },
+ {
+  "topic": "cpp",
+  "front": "Business Income period of restoration",
+  "back": "Begins 72 hours after loss for Business Income; immediately for Extra Expense. Extended Business Income: up to 60 days after operations resume.",
+  "source": "ISO CP 00 30 10 12, F.3; A.5.c"
+ },
+ {
+  "topic": "cpp",
+  "front": "Civil Authority (CP 00 30 and BOP)",
+  "back": "Premises within 1 mile of the damaged property; Business Income starts 72 hours after the civil authority action and lasts up to 4 consecutive weeks.",
+  "source": "ISO CP 00 30 10 12, A.5.a; BP 00 03 07 13, Sec. I A.5.i"
+ },
+ {
+  "topic": "cpp",
+  "front": "Builders risk – when coverage ends",
+  "back": "Earliest of: expiration/cancellation, accepted by purchaser, interest ceases, construction abandoned, 90 days after completion, or 60 days after occupancy or intended use. Limit compared to value at completion.",
+  "source": "ISO CP 00 20 06 95"
+ },
+ {
+  "topic": "cpp",
+  "front": "Basic vs Broad vs Special causes of loss",
+  "back": "Basic: fire, lightning, explosion, windstorm/hail, smoke, aircraft/vehicles, riot, vandalism, sprinkler leakage, sinkhole, volcanic. Broad adds falling objects; weight of snow, ice or sleet; water damage; collapse. Special = open perils.",
+  "source": "ISO CP 10 10 10 12; CP 10 20 10 12; CP 10 30 09 17"
+ },
+ {
+  "topic": "cpp",
+  "front": "Ordinance or Law (CP 04 05) Coverages A/B/C",
+  "back": "A = loss to the undamaged portion; B = demolition cost; C = increased cost of construction.",
+  "source": "ISO CP 04 05 09 17, C."
+ },
+ {
+  "topic": "cpp",
+  "front": "Robbery vs safe burglary vs theft (crime)",
+  "back": "Robbery: taking from a person by force or threat (or an obviously unlawful act they witness). Safe burglary: taking from a locked safe with marks of forcible entry, or taking the safe itself. Theft: any unlawful taking to the insured's deprivation.",
+  "source": "ISO CR 00 21 11 15, F. defs. 20, 21, 23"
+ },
+ {
+  "topic": "cpp",
+  "front": "Crime: loss sustained vs discovery tail",
+  "back": "Loss sustained (CR 00 21): 1 year after cancellation to discover loss. Discovery (CR 00 20): occurrence can be any time; 60 days after the policy ends to discover.",
+  "source": "ISO CR 00 21 11 15, E.1.g; Rough Notes PF&M 251.4-2"
+ },
+ {
+  "topic": "cpp",
+  "front": "Nationwide Marine Definition classes",
+  "back": "Imports; exports; domestic shipments; instrumentalities of transportation and communication (bridges, tunnels, piers, pipelines, towers); personal property floaters; commercial property floaters. Michigan's own statutory definition of marine insurance is MCL 500.614 (1956); it covers similar risks and excludes buildings and their contents.",
+  "source": "IMUA 'Nationwide Marine Definition'; MCL 500.614; NAIC Model 701 state chart (2021)"
+ },
+ {
+  "topic": "cpp",
+  "front": "CM 00 01 inland marine conditions",
+  "back": "No abandonment; limit reinstated after loss (except total loss of a scheduled item); suit within 2 years of first knowledge of loss; valuation = least of ACV, restoration cost, or replacement cost.",
+  "source": "ISO CM 00 01 09 04"
+ },
+ {
+  "topic": "cpp",
+  "front": "Common carrier exceptions",
+  "back": "Act of God, public enemy, act of the shipper, public authority, inherent vice. The carrier must also prove it was free of negligence.",
+  "source": "Missouri Pacific R.R. v. Elmore & Stahl, 377 U.S. 134 (1964)"
+ },
+ {
+  "topic": "cpp",
+  "front": "Farm property coverage letters",
+  "back": "A Dwellings; B Other private structures; C Household personal property; D Loss of use; E Scheduled farm personal property; F Unscheduled farm personal property (80% coinsurance); G Other farm structures. Farm liability: H BI/PD, I P&AI, J Med pay.",
+  "source": "ISO FP 00 10 09 94; FC&S 'Farm Liability Coverage Form' (2013)"
+ },
+ {
+  "topic": "bop",
+  "front": "BOP Business Income",
+  "back": "Actual loss sustained for up to 12 consecutive months; no dollar limit; 72-hour waiting period; ordinary payroll for 60 days; Extended BI 60 days.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.f"
+ },
+ {
+  "topic": "bop",
+  "front": "BOP valuation (no coinsurance clause)",
+  "back": "Replacement cost if the limit is at least 80% of RC; otherwise the greater of ACV or (limit / 80% of RC) x loss. RC is not paid until repair/replacement, except building repairs of $2,500 or less are settled on the RC basis even before repair.",
+  "source": "ISO BP 00 03 07 13, Sec. I E.5.d"
+ },
+ {
+  "topic": "bop",
+  "front": "BOP automatic limit increases",
+  "back": "Building +8% a year (prorated) unless another % is shown. BPP seasonal +25% if the BPP limit is at least 100% of average monthly values.",
+  "source": "ISO BP 00 03 07 13, Sec. I C.4-5"
+ },
+ {
+  "topic": "bop",
+  "front": "BOP additional coverage amounts",
+  "back": "Fire dept $2,500; money orders/counterfeit $1,000; forgery $2,500; ICC $10,000; pollutant $10,000; dependent properties $5,000; fire extinguisher recharge $5,000; electronic data $10,000; computer interruption $10,000; fungi $15,000.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5"
+ },
+ {
+  "topic": "bop",
+  "front": "BOP liability aggregates",
+  "back": "Products-completed ops aggregate and general aggregate each = 2 × the Liability and Medical Expenses limit. Professional services are excluded.",
+  "source": "ISO BP 00 03 07 13, Sec. II D.4; B.1.j"
+ },
+ {
+  "topic": "bop",
+  "front": "BOP 5-day cancellation",
+  "back": "Allowed if the building is vacant/unoccupied 60+ days, repairs not started within 30 days of loss payment, under a vacate/demolition order, fixtures being removed, or no utilities 30+ days / taxes unpaid over 1 year.",
+  "source": "ISO BP 00 03 07 13, Sec. III A.2.a"
+ },
+ {
+  "topic": "bop",
+  "front": "Protective safeguard symbols",
+  "back": "P-1 sprinkler; P-2 automatic fire alarm; P-3 security service; P-4 private fire dept contract; P-9 described system. Fire is excluded if the insured knew of an impairment and didn't notify the insurer.",
+  "source": "ISO IL 04 15 04 98; FC&S (2020) re BP 04 30"
+ },
+ {
+  "topic": "bop",
+  "front": "Utility Services: Direct Damage vs Time Element",
+  "back": "BP 04 56 covers physical damage to covered property; BP 04 57 covers BI/Extra Expense, both from off-premises utility interruption. Overhead transmission lines are covered only if the Schedule shows them.",
+  "source": "ISO BP 04 57 01 06; FC&S (2020)"
+ },
+ {
+  "topic": "bop",
+  "front": "Hired and Non-Owned Auto Liability (BOP)",
+  "back": "Covers liability for hired autos used by you or your employees, and non-owned autos (e.g., employees' cars) used in your business. Requires premium shown in Declarations.",
+  "source": "FC&S 'Businessowners Program Endorsements Described' (2020, BP 04 04)"
+ },
+ {
+  "topic": "other",
+  "front": "Umbrella's three functions",
+  "back": "Excess limits over underlying; drop down when underlying aggregates are exhausted; broader coverage for claims not covered by underlying, subject to a self-insured retention (SIR).",
+  "source": "IRMI glossary 'umbrella liability policy'"
+ },
+ {
+  "topic": "other",
+  "front": "D&O Side A / B / C",
+  "back": "A: covers D&Os directly when the company can't or won't indemnify. B: reimburses the company for indemnifying D&Os. C: entity coverage (securities claims).",
+  "source": "IRMI glossary (Side A; corporate reimbursement; entity securities coverage)"
+ },
+ {
+  "topic": "other",
+  "front": "ERISA fidelity bond amount",
+  "back": "At least 10% of funds handled; minimum $1,000; maximum $500,000 ($1,000,000 if the plan holds employer securities). Covers fraud or dishonesty, not fiduciary errors.",
+  "source": "29 U.S.C. 1112(a)"
+ },
+ {
+  "topic": "other",
+  "front": "Surety bond parties",
+  "back": "Principal (who must perform, e.g., the contractor); obligee (who is protected, e.g., the owner); surety (who guarantees). The principal must reimburse the surety.",
+  "source": "FAR 48 CFR 28.001; surety.org"
+ },
+ {
+  "topic": "other",
+  "front": "Contract bonds",
+  "back": "Bid bond: bidder will sign the contract and furnish bonds. Performance bond: contract will be completed. Payment bond: labor and material suppliers will be paid.",
+  "source": "FAR 48 CFR 28.001"
+ },
+ {
+  "topic": "other",
+  "front": "Michigan surplus lines tax and filings",
+  "back": "2% premium tax + 0.5% regulatory fee; sworn statements due Feb 15 and Aug 15. Self-procured insurance: insured reports within 30 days and pays the same.",
+  "source": "MCL 500.1905(3)(d); 500.1951"
+ },
+ {
+  "topic": "other",
+  "front": "Michigan surplus lines required notice",
+  "back": "In red ink, at least 10-point type: 'This insurance has been placed with an insurer that is not licensed by the state of Michigan. In case of insolvency, payment of claims may not be guaranteed.'",
+  "source": "MCL 500.1922"
+ },
+ {
+  "topic": "other",
+  "front": "Eligible surplus lines insurer (MI)",
+  "back": "Michigan statute: capital and surplus of at least $1,500,000; $75,000 MI deposit or $1,000,000 US trust (Lloyd's-type $50,000,000); appoints the commissioner as agent for service of process. Note: since the federal NRRA (2010), U.S. nonadmitted insurers effectively need the greater of the home-state minimum or $15,000,000, and alien insurers qualify through the NAIC Quarterly Listing.",
+  "source": "MCL 500.1920(4); 500.1921; 15 U.S.C. 8204"
+ },
+ {
+  "topic": "other",
+  "front": "NFIP maximum limits / ICC",
+  "back": "Single-family and 2-4 family: $250,000 building; residential contents $100,000. Other residential (5+ units): $500,000 building. Non-residential: $500,000 building / $500,000 contents. ICC up to $30,000 (building + ICC can't exceed the building maximum).",
+  "source": "44 CFR 61.6(a); 44 CFR Pt. 61 App. A(1) III.D; FEMA brochures (2024)"
+ },
+ {
+  "topic": "other",
+  "front": "NFIP waiting period",
+  "back": "30 days, except: purchase in connection with making, increasing, extending or renewing a loan (effective at loan closing, no wait); initial purchase within 13 months after a map revision takes effect (1-day wait); flooding on burned federal land (1-day wait if bought within 60 days of fire containment).",
+  "source": "44 CFR 61.11(a)-(d); agents.floodsmart.gov 'Flood Insurance 101'"
+ },
+ {
+  "topic": "other",
+  "front": "Risk retention group (LRRA 1986)",
+  "back": "Member-owned liability insurer chartered in one state; members in similar businesses; liability coverage only; can't join state guaranty funds (required notice).",
+  "source": "15 U.S.C. 3901(a)(4); 3902(a)"
+ },
+ {
+  "topic": "other",
+  "front": "Cyber: first-party vs third-party",
+  "back": "First-party: forensics, notification/call center, legal counsel, business interruption, extortion. Third-party: liability to affected consumers, regulatory inquiries.",
+  "source": "NAIC 'Cyber Insurance' consumer guide"
+ }
+]

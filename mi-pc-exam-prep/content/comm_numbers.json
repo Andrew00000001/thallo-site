@@ -1,0 +1,302 @@
+[
+ {
+  "group": "Commercial Lines",
+  "item": "IL 00 17 insurer cancellation – nonpayment",
+  "value": "10 days' notice",
+  "source": "ISO IL 00 17 11 98, A.2.a"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "IL 00 17 insurer cancellation – any other reason",
+  "value": "30 days' notice",
+  "source": "ISO IL 00 17 11 98, A.2.b"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "IL 00 17 examination of books and records",
+  "value": "During policy period + up to 3 years afterward",
+  "source": "ISO IL 00 17 11 98, C."
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CGL supplementary payments – bail bonds",
+  "value": "Up to $250",
+  "source": "ISO CG 00 01 04 13, Supp. Payments 1.b"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CGL supplementary payments – loss of earnings",
+  "value": "Up to $250 a day",
+  "source": "ISO CG 00 01 04 13, Supp. Payments 1.d"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CGL Coverage C – expenses incurred and reported",
+  "value": "Within 1 year of the accident",
+  "source": "ISO CG 00 01 04 13, Cov. C 1.a(b)"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CGL newly acquired organization coverage",
+  "value": "Until 90th day or policy end, whichever is earlier",
+  "source": "ISO CG 00 01 04 13, Sec. II 3.a"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CGL non-owned watercraft exception",
+  "value": "Less than 26 feet long, not carrying persons/property for a charge",
+  "source": "ISO CG 00 01 04 13, Excl. g.(2)"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CGL nonrenewal notice",
+  "value": "At least 30 days before expiration",
+  "source": "ISO CG 00 01 04 13, Sec. IV 9"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Claims-made basic ERP – unreported occurrences",
+  "value": "60 days",
+  "source": "FC&S 'Claims-Made CGL Form' (2014, CG 00 02 04 13)"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Claims-made basic ERP – occurrences reported within 60 days",
+  "value": "5 years",
+  "source": "FC&S 'Claims-Made CGL Form' (2014)"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Claims-made supplemental ERP request / max premium",
+  "value": "Within 60 days; not more than 200% of annual premium",
+  "source": "FC&S 'Claims-Made CGL Form' (2014); Austin & Stanovich (2012)"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CP 00 90 legal action deadline",
+  "value": "2 years after date of direct physical loss",
+  "source": "ISO CP 00 90 07 88, D."
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Commercial property vacancy",
+  "value": "> 60 consecutive days; 15% reduction; vacant unless 31% used",
+  "source": "ISO CP 00 10 10 12, E.6"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CP 00 10 10 12 debris removal",
+  "value": "25% of paid loss + deductible; additional $25,000 per location; report within 180 days",
+  "source": "ISO CP 00 10 10 12, A.4.a"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CP 00 10 fire department service charge",
+  "value": "$1,000 per premises; no deductible",
+  "source": "ISO CP 00 10 10 12, A.4.c"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CP 00 10 pollutant clean-up",
+  "value": "$10,000 per premises per 12-month period",
+  "source": "ISO CP 00 10 10 12, A.4.d"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CP 00 10 newly acquired property",
+  "value": "Building $250,000; BPP $100,000; 30 days",
+  "source": "ISO CP 00 10 10 12, A.5.a"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CP 00 10 outdoor property",
+  "value": "$1,000; $250 per tree, shrub or plant",
+  "source": "ISO CP 00 10 10 12, A.5.e"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "CP 00 10 personal effects & property of others / valuable papers / off-premises",
+  "value": "$2,500 / $2,500 / $10,000",
+  "source": "ISO CP 00 10 10 12, A.5.b-d"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Business income waiting period (period of restoration)",
+  "value": "72 hours (BI); immediate (Extra Expense)",
+  "source": "ISO CP 00 30 10 12, F.3.a"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Extended Business Income",
+  "value": "60 consecutive days",
+  "source": "ISO CP 00 30 10 12, A.5.c"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Civil authority",
+  "value": "Within 1 mile; starts 72 hours after action; up to 4 consecutive weeks",
+  "source": "ISO CP 00 30 10 12, A.5.a"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Special form theft limits",
+  "value": "$2,500 furs / jewelry / patterns; $250 stamps, tickets, letters of credit",
+  "source": "ISO CP 10 30 09 17, C.3"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Builders risk end of coverage",
+  "value": "90 days after completion; 60 days after occupancy/intended use",
+  "source": "ISO CP 00 20 06 95, Add'l Cond. 4.e"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Crime – extended period to discover (loss sustained)",
+  "value": "1 year after cancellation",
+  "source": "ISO CR 00 21 11 15, E.1.g"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Crime – extended period to discover (discovery form)",
+  "value": "60 days",
+  "source": "Rough Notes PF&M 251.4-2"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Crime – proof of loss / suit",
+  "value": "Proof within 120 days; no suit until 90 days after proof; suit within 2 years of discovery",
+  "source": "ISO CR 00 21 11 15, E.1.e, E.1.i"
+ },
+ {
+  "group": "Commercial Lines",
+  "item": "Farm Coverage F coinsurance",
+  "value": "80% of ACV",
+  "source": "ISO FP 00 10 09 94"
+ },
+ {
+  "group": "Businessowners",
+  "item": "BOP Business Income period",
+  "value": "12 consecutive months; no dollar limit; ordinary payroll 60 days",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.f"
+ },
+ {
+  "group": "Businessowners",
+  "item": "BOP Extended Business Income",
+  "value": "60 consecutive days",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.f(2)"
+ },
+ {
+  "group": "Businessowners",
+  "item": "BOP building automatic increase / BPP seasonal increase",
+  "value": "8% / 25%",
+  "source": "ISO BP 00 03 07 13, Sec. I C.4-5"
+ },
+ {
+  "group": "Businessowners",
+  "item": "BOP replacement cost threshold",
+  "value": "Limit ≥ 80% of full replacement cost",
+  "source": "ISO BP 00 03 07 13, Sec. I E.5.d(1)"
+ },
+ {
+  "group": "Businessowners",
+  "item": "BOP fire department service charge",
+  "value": "$2,500 per premises",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.c"
+ },
+ {
+  "group": "Businessowners",
+  "item": "BOP money orders & counterfeit / forgery",
+  "value": "$1,000 / $2,500",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.j-k"
+ },
+ {
+  "group": "Businessowners",
+  "item": "BOP electronic data / interruption of computer operations",
+  "value": "$10,000 / $10,000 per policy year",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.p-q"
+ },
+ {
+  "group": "Businessowners",
+  "item": "BOP liability aggregates",
+  "value": "2 × Liability and Medical Expenses limit",
+  "source": "ISO BP 00 03 07 13, Sec. II D.4"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "MI surplus lines tax + fee",
+  "value": "2% tax + 0.5% regulatory fee",
+  "source": "MCL 500.1905(3)(d); 500.1951"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "MI surplus lines semiannual statements",
+  "value": "Feb 15 and Aug 15",
+  "source": "MCL 500.1905(3)(d)"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "MI surplus lines delivery of written evidence",
+  "value": "Within 30 days",
+  "source": "MCL 500.1912"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "MI surplus lines personal lines fee cap",
+  "value": "Greater of $100 or 10% of premium",
+  "source": "MCL 500.1915(1)(b)"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "MI eligible surplus lines insurer capital & surplus",
+  "value": "At least $1,500,000 under MI statute (federal NRRA effectively requires the greater of home-state minimum or $15,000,000 for U.S. insurers)",
+  "source": "MCL 500.1920(4); 15 U.S.C. 8204"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "MI eligible insurer deposit / trust",
+  "value": "$75,000 MI deposit or $1,000,000 US trust; $50,000,000 for unincorporated alien insurers (MI statute; federal NRRA limits state eligibility rules, and alien insurers qualify via the NAIC Quarterly Listing)",
+  "source": "MCL 500.1921(1)-(2); 15 U.S.C. 8204"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "MI dram shop proof of financial responsibility",
+  "value": "At least $50,000",
+  "source": "MCL 436.1803(1)"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "ERISA fidelity bond",
+  "value": "10% of funds handled; min $1,000; max $500,000 ($1,000,000 with employer securities)",
+  "source": "29 U.S.C. 1112(a)"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "NFIP 1-4 family residential maximums",
+  "value": "$250,000 building / $100,000 contents (other residential, 5+ units: $500,000 building)",
+  "source": "44 CFR 61.6(a); FEMA brochure (07-2024)"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "NFIP non-residential maximums",
+  "value": "$500,000 building / $500,000 contents",
+  "source": "FEMA Commercial Summary of Coverage (01-2024)"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "NFIP Increased Cost of Compliance",
+  "value": "Up to $30,000",
+  "source": "44 CFR Pt. 61 App. A(1) III.D; FEMA (01-2024)"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "NFIP waiting period",
+  "value": "30 days (no wait at loan closing; 1 day within 13 months after a map revision; 1 day for post-wildfire flooding on federal land if bought within 60 days of containment)",
+  "source": "44 CFR 61.11"
+ },
+ {
+  "group": "Other Coverages / NFIP / Surplus Lines",
+  "item": "NFIP residential minimum deductibles (RR2.0)",
+  "value": "$1,000 (building ≤ $100k); $1,250 (> $100k); pre-FIRM discounted $1,500/$2,000; contents $1,000",
+  "source": "FEMA RR2.0 Simple Guide – Residential Manufactured/Mobile Homes"
+ }
+]

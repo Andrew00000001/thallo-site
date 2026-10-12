@@ -1,0 +1,248 @@
+[
+ {
+  "front": "Michigan default BI liability limits (policies issued after July 1, 2020)",
+  "back": "$250,000 per person / $500,000 per accident; PD $10,000. Pre-July 2, 2020: 20/40/10.",
+  "source": "MCL 500.3009(1)",
+  "topic": "auto"
+ },
+ {
+  "front": "Lowest BI limits a Michigan insured may elect, and how",
+  "back": "$50,000/$100,000. Requires signing the DIFS 'Michigan Choice of Bodily Injury Liability Coverage Limits' form; with no effective choice, 250/500 applies.",
+  "source": "MCL 500.3009(5),(8); DIFS FIS-PUB 6310",
+  "topic": "auto"
+ },
+ {
+  "front": "TNC (ride-share) required liability, MCL 257.518b",
+  "back": "Logged on, no ride: $50k/$100k BI + $25k PD (+PIP/PPI). During prearranged ride: $1,000,000 CSL (+PIP/PPI).",
+  "source": "MCL 257.518b",
+  "topic": "auto"
+ },
+ {
+  "front": "Named excluded driver",
+  "back": "With the insured's authorization, liability is void when the named person drives ('no one is insured'); the excluded operator also gets no PIP.",
+  "source": "MCL 500.3009(2); MCL 500.3113(d)",
+  "topic": "auto"
+ },
+ {
+  "front": "Failure to produce proof of insurance",
+  "back": "Civil infraction. Electronic proof is OK. Proof shown to court before the appearance date: no fine, fee up to $25. Knowingly false proof: misdemeanor, up to 1 yr / $1,000.",
+  "source": "MCL 257.328",
+  "topic": "auto"
+ },
+ {
+  "front": "Driving without no-fault security",
+  "back": "Misdemeanor: $200–$500 fine, up to 1 year in jail, or both (owner, or a driver who knows the vehicle is uninsured).",
+  "source": "MCL 500.3102(2)",
+  "topic": "auto"
+ },
+ {
+  "front": "No-fault 'owner'",
+  "back": "Includes a person renting or using a vehicle for MORE THAN 30 days; the title holder (not a long-term lessor); an installment buyer.",
+  "source": "MCL 500.3101(3)(l)",
+  "topic": "auto"
+ },
+ {
+  "front": "Nonresident security rule",
+  "back": "A nonresident may not operate a vehicle that is not registered in Michigan in Michigan for an aggregate of more than 30 days in any calendar year unless Michigan no-fault security is maintained.",
+  "source": "MCL 500.3102(1)",
+  "topic": "auto"
+ },
+ {
+  "front": "MAIPF",
+  "back": "Michigan Automobile Insurance Placement Facility: all auto insurers participate; guarantees availability; 11-member board; administers the assigned claims plan.",
+  "source": "MCL 500.3301, .3310, .3171(2)",
+  "topic": "auto"
+ },
+ {
+  "front": "MAIPF deferred payment plan",
+  "back": "Advance payment of at least 25% of premium or $100, whichever is GREATER.",
+  "source": "MCL 500.3350(a)",
+  "topic": "auto"
+ },
+ {
+  "front": "MAIPF notice of eligibility",
+  "back": "At least once a year, notify facility insureds of the eligibility standards for the voluntary market.",
+  "source": "MCL 500.3365(3)",
+  "topic": "auto"
+ },
+ {
+  "front": "PIP allowable expenses",
+  "back": "Reasonable charges for reasonably necessary products, services and accommodations for care, recovery and rehab. Not covered: hospital room charges above the reasonable semiprivate rate (unless special or intensive care is needed). Funeral/burial: policy amount of $1,750–$5,000.",
+  "source": "MCL 500.3107(1)(a)",
+  "topic": "auto"
+ },
+ {
+  "front": "PIP work loss",
+  "back": "85% of lost gross income (15% tax reduction), first 3 years, capped per 30 days. Cap: $7,455 for accidents Oct 1, 2026 – Sep 30, 2027.",
+  "source": "MCL 500.3107(1)(b); DIFS Bulletin 2026-20-INS",
+  "topic": "auto"
+ },
+ {
+  "front": "PIP replacement services",
+  "back": "Up to $20 per day for up to 3 years after the accident.",
+  "source": "MCL 500.3107(1)(c)",
+  "topic": "auto"
+ },
+ {
+  "front": "PIP survivor's loss",
+  "back": "Paid to dependents: lost support plus up to $20/day services; same 30-day cap as work loss; ends 3 years after the accident.",
+  "source": "MCL 500.3108",
+  "topic": "auto"
+ },
+ {
+  "front": "PIP medical levels (policies after July 1, 2020)",
+  "back": "Unlimited; $500,000; $250,000; $250,000 with QHC exclusions; $50,000 (Medicaid); opt-out (Medicare A & B). No selection = unlimited.",
+  "source": "MCL 500.3107c; 500.3107d; 500.3109a(2)",
+  "topic": "auto"
+ },
+ {
+  "front": "Qualified health coverage (QHC)",
+  "back": "Health coverage that doesn't exclude auto injuries, with an individual deductible ≤ $6,579 (Jul 1, 2026 – Jun 30, 2027); or Medicare Parts A & B.",
+  "source": "MCL 500.3107d(7)(b); DIFS Bulletin 2026-08-INS",
+  "topic": "auto"
+ },
+ {
+  "front": "QHC ends mid-term (opt-out or exclusion)",
+  "back": "30 days to get PIP medical; injured within the 30 days → assigned claims plan (up to $2M); after that, no PIP medical.",
+  "source": "MCL 500.3107d(6); 500.3109a(2)(d),(e); 500.3172(7)(b)",
+  "topic": "auto"
+ },
+ {
+  "front": "Two policies with different PIP medical limits",
+  "back": "No stacking: the total is capped at the highest single-policy limit.",
+  "source": "MCL 500.3107c(6)",
+  "topic": "auto"
+ },
+ {
+  "front": "Chapter 31A",
+  "back": "Managed Care (MCL 500.3181–.3189): optional discounted managed-care PIP-medical option; not for emergency care; non-managed PIP must also be offered.",
+  "source": "MCL 500.3181-.3189",
+  "topic": "auto"
+ },
+ {
+  "front": "PIP priority: general rule",
+  "back": "Own policy, or policy of spouse / resident relative. No household policy → occupant or pedestrian claims through the MACP (post-2019), except under the employer-vehicle, passenger-transport and motorcycle rules.",
+  "source": "MCL 500.3114(1),(4); 500.3115",
+  "topic": "auto"
+ },
+ {
+  "front": "PIP priority: employee in employer's vehicle",
+  "back": "Insurer of the employer-furnished vehicle.",
+  "source": "MCL 500.3114(3)",
+  "topic": "auto"
+ },
+ {
+  "front": "PIP priority: motorcyclist hit by a motor vehicle",
+  "back": "1) insurer of the vehicle's owner, 2) of the vehicle's operator, 3) motorcycle operator's auto insurer, 4) motorcycle owner's auto insurer.",
+  "source": "MCL 500.3114(5)",
+  "topic": "auto"
+ },
+ {
+  "front": "Property protection insurance (PPI)",
+  "back": "Up to $1,000,000 per accident per policy, Michigan only; covers others' property incl. properly parked cars; excludes moving vehicles and out-of-state accidents.",
+  "source": "MCL 500.3121, .3123",
+  "topic": "auto"
+ },
+ {
+  "front": "Tort threshold (noneconomic)",
+  "back": "Death, serious impairment of body function, or permanent serious disfigurement; no recovery if more than 50% at fault.",
+  "source": "MCL 500.3135(1),(2)",
+  "topic": "auto"
+ },
+ {
+  "front": "Mini-tort",
+  "back": "Up to $3,000 (accidents after July 1, 2020) for vehicle damage not covered by insurance; claimant must not be more than 50% at fault; small claims.",
+  "source": "MCL 500.3135(3)(e),(4)",
+  "topic": "auto"
+ },
+ {
+  "front": "MCCA retention, Jul 1, 2025 – Jun 30, 2027",
+  "back": "$675,000. The MCCA pays 100% of PIP above that, for unlimited-PIP policies only.",
+  "source": "michigancatastrophic.com; MCL 500.3104(2)",
+  "topic": "auto"
+ },
+ {
+  "front": "Michigan Assigned Claims Plan",
+  "back": "Administered by the MAIPF; notice within 1 year of the accident; medical capped at $250,000 (or $2M for QHC-gap cases).",
+  "source": "MCL 500.3172, .3174",
+  "topic": "auto"
+ },
+ {
+  "front": "PIP deadlines",
+  "back": "Overdue 30 days after reasonable proof; 12% interest. Suit within 1 year of the accident (or of the last loss if notice given or benefits paid).",
+  "source": "MCL 500.3142; 500.3145",
+  "topic": "auto"
+ },
+ {
+  "front": "Chapter 32 cancellation (auto)",
+  "back": "After 55 days or on renewal: only for a final license suspension/revocation. Notice: certified mail, at least 20 days; appeal within 7 days.",
+  "source": "MCL 500.3220, .3224, .3230",
+  "topic": "auto"
+ },
+ {
+  "front": "Auto nonrenewal notice (Chapter 32)",
+  "back": "Chapter 32 (MCL 500.3204): a nonrenewal is not a \"cancellation\" if notice is mailed first-class at least 20 days before the termination date. Chapter 32 does not apply to nonpayment cancellations (3208, 3212). Separately, the Essential Insurance Act (MCL 500.2123) requires 30 days' written notice stating each specific reason for a \"termination\" of auto insurance (20 days within the first 55 days).",
+  "source": "MCL 500.3204, .3208, .3212; MCL 500.2123, .2104(5)",
+  "topic": "auto"
+ },
+ {
+  "front": "Aftermarket crash parts",
+  "back": "If the insurer requests non-OEM parts, the written estimate must identify each part with a disclosure in at least 10-point bold type.",
+  "source": "MCL 257.1363",
+  "topic": "auto"
+ },
+ {
+  "front": "Michigan collision options",
+  "back": "Insurers must offer: Limited collision (no deductible; pays only if the operator was not more than 50% at fault) and Broad form (pays regardless of fault; deductible waived if not more than 50% at fault). Standard collision, and limited collision with a deductible, may also be offered. Rejection of both offered coverages must be in writing.",
+  "source": "MCL 500.3037(1),(2),(4),(8)",
+  "topic": "auto"
+ },
+ {
+  "front": "PAP 09 18: newly acquired auto",
+  "back": "Liability/med pay/UM: ask within 14 days. Collision/OTC: 14 days if any declared auto has it; otherwise 4 days, with a $500 deductible.",
+  "source": "ISO PP 00 01 09 18, Definitions K",
+  "topic": "auto"
+ },
+ {
+  "front": "PAP 09 18: supplementary payments",
+  "back": "Bail bond up to $250; loss of earnings up to $250/day; appeal/attachment bonds; post-judgment interest; all in addition to limits.",
+  "source": "ISO PP 00 01 09 18, Part A",
+  "topic": "auto"
+ },
+ {
+  "front": "PAP 09 18: transportation expenses",
+  "back": "$30/day, max $900, no deductible; theft: after 48 hrs; other losses: after 24 hrs out of use. Non-owned auto loss of use $30/day.",
+  "source": "ISO PP 00 01 09 18, Part D",
+  "topic": "auto"
+ },
+ {
+  "front": "PAP policy territory",
+  "back": "U.S., its territories and possessions, Puerto Rico, and Canada (not Mexico).",
+  "source": "ISO PP 00 01 09 18, Part F",
+  "topic": "auto"
+ },
+ {
+  "front": "DIFS Bulletin 96-02",
+  "back": "Named non-owner / extended non-owned endorsements in Michigan give residual liability ONLY (named person + spouse); no PIP, PPI or physical damage.",
+  "source": "DIFS Bulletin 96-02",
+  "topic": "auto"
+ },
+ {
+  "front": "BACF covered auto symbols",
+  "back": "1 any; 2 owned; 3 owned private passenger; 4 owned other than PP; 5 owned no-fault; 6 owned compulsory UM; 7 specifically described; 8 hired; 9 non-owned; 19 mobile equipment subject to compulsory/FR law.",
+  "source": "ISO CA 00 01 11 20, Section I",
+  "topic": "auto"
+ },
+ {
+  "front": "Garagekeepers bases",
+  "back": "Legal liability (pays only if the insured is liable); direct excess (regardless of liability, excess over the owner's insurance); direct primary (regardless of liability, primary).",
+  "source": "ISO CA 99 37 10 01",
+  "topic": "auto"
+ },
+ {
+  "front": "Motor Carrier Act minimums (49 CFR 387.9)",
+  "back": "For-hire, nonhazardous property, GVWR 10,001+ lbs: $750,000; oil/hazmat: $1,000,000; certain bulk hazmat/explosives/radioactive: $5,000,000. Evidence: MCS-90.",
+  "source": "49 CFR 387.9; 387.15",
+  "topic": "auto"
+ }
+]

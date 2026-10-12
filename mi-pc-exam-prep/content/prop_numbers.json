@@ -1,0 +1,422 @@
+[
+ {
+  "group": "Michigan Property Laws",
+  "item": "MPCGA covered-claim cap",
+  "value": "$5,000,000 statutory base (CPI-adj.); $7,980,000 for 1/1/2026-12/31/2026; WC and PIP not capped",
+  "source": "MCL 500.7925(6); DIFS Bulletin 2026-04-INS"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "MPCGA insured net worth limit",
+  "value": "$25,000,000 statutory base (CPI-adj.); $39,920,000 for 1/1/2026-12/31/2026",
+  "source": "MCL 500.7925(4); DIFS Bulletin 2026-04-INS"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "MPCGA max unearned premium",
+  "value": "First $500 per person per insolvent insurer, statutory base (CPI-adj.); $2,063 for 7/1/2026-6/30/2027",
+  "source": "MCL 500.7925(2)(a); DIFS Bulletin 2026-13-INS"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "MPCGA minimum unearned premium refund",
+  "value": "No refund under $50",
+  "source": "MCL 500.7925(2)(a)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "MPCGA continuation of in-force coverage / claim incurred window",
+  "value": "Max 30 days after receiver appointed",
+  "source": "MCL 500.7931(4); 500.7925(1)(d)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "MPCGA annual assessment cap",
+  "value": "1% of prior-year MI net direct written premium",
+  "source": "MCL 500.7941(3)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Fire policy: removed property coverage",
+  "value": "Pro rata for 5 days",
+  "source": "MCL 500.2833(1)(b)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Fire policy: insurer cancellation notice",
+  "value": "Not less than 10 days",
+  "source": "MCL 500.2833(1)(i)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Fire policy: minimum earned premium",
+  "value": "Greater of pro rata or $25",
+  "source": "MCL 500.2833(1)(h)-(i)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Fire policy: mortgagee proof of loss",
+  "value": "Within 60 days after notice",
+  "source": "MCL 500.2833(1)(j)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Appraisal: name appraiser",
+  "value": "Within 20 days after written demand",
+  "source": "MCL 500.2833(1)(m)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Appraisal: appraisers agree on umpire",
+  "value": "Within 15 days, else circuit court judge",
+  "source": "MCL 500.2833(1)(m)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Fire policy: loss payment",
+  "value": "Within 30 days after proof of amount of loss",
+  "source": "MCL 500.2833(1)(p)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Fire policy: suit deadline",
+  "value": "1 year after loss or policy period if longer; tolled notice-to-denial",
+  "source": "MCL 500.2833(1)(q)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Fire/explosion withholding (participating municipalities)",
+  "value": "25% of ACV or settlement (lesser); residential cap $12,000 base, CPI-adj.; applies when settlement > 49% of insurance",
+  "source": "MCL 500.2845(1),(15)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Home/auto termination notice",
+  "value": "At least 30 days",
+  "source": "MCL 500.2123(1)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Termination within first 55 days",
+  "value": "Effective not less than 20 days after mailing",
+  "source": "MCL 500.2123(2)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Casualty policy: insurer cancellation / malpractice nonrenewal notice",
+  "value": "Not less than 10 days / not less than 60 days",
+  "source": "MCL 500.3020(1)(b),(d)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "TRIA program termination (current law)",
+  "value": "December 31, 2027",
+  "source": "TRIA §108(a)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "TRIA insurer deductible",
+  "value": "20% of prior-year direct earned premium",
+  "source": "TRIA §102(7)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "TRIA federal share",
+  "value": "80% (since 2020)",
+  "source": "TRIA §103(e)(1)(A)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "TRIA program trigger",
+  "value": "$200,000,000 (2020 and later)",
+  "source": "TRIA §103(e)(1)(B)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "TRIA annual cap",
+  "value": "$100,000,000,000",
+  "source": "TRIA §103(e)(2)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "TRIA certification loss threshold",
+  "value": "Must exceed $5,000,000",
+  "source": "TRIA §102(1)(B)(ii)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Producer termination: minimum production",
+  "value": "Fewer than 25 home + auto apps in 12 months is a valid reason",
+  "source": "MCL 500.1209(2)(e)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "EIA eligible person: max units (owner-occupant)",
+  "value": "4 residential units",
+  "source": "MCL 500.2103(2)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "EIA home eligibility exclusions (time periods)",
+  "value": "Arson conviction 5 yrs; fraud claim denial 5 yrs; nonpayment cancel 2 yrs; taxes delinquent 2+ yrs",
+  "source": "MCL 500.2103(2)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "EIA insurance-to-value",
+  "value": "80% RC (replacement cost policy); 100% market value (repair cost); 100% ACV (tenant)",
+  "source": "MCL 500.2103(2)(d)-(f)"
+ },
+ {
+  "group": "Michigan Property Laws",
+  "item": "Nonrenewal claim rule (base amounts)",
+  "value": "3 paid claims in 3 yrs totaling $3,000 excl. weather or $4,000 incl. weather (CPI-adj. every 6 yrs)",
+  "source": "MCL 500.2117(2)(e)"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "Other structures (DP-3 12 02)",
+  "value": "10% of Coverage A, additional",
+  "source": "ISO DP 00 03 12 02, Other Cov. 1"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "Fair rental value + ALE (DP-3 12 02)",
+  "value": "20% of Coverage A, additional",
+  "source": "ISO DP 00 03 12 02, Other Cov. 5"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "World-wide coverage",
+  "value": "10% of Coverage C (reduces C)",
+  "source": "ISO DP 00 03 12 02, Other Cov. 4"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "Trees, shrubs, plants (DP-2/DP-3)",
+  "value": "5% of A; $500 per tree",
+  "source": "ISO DP 00 03 12 02, Other Cov. 8"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "Fire department service charge",
+  "value": "$500, no deductible",
+  "source": "ISO DP 00 03 12 02, Other Cov. 9"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "Property removed",
+  "value": "30 days (DP-2/DP-3); 5 days (DP-1 07 88)",
+  "source": "ISO DP 00 03 12 02 Other Cov. 7; DP 00 01 07 88 Other Cov. 7"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "Ordinance or law (DP-2/DP-3, 12 02 and later editions)",
+  "value": "10% of Coverage A",
+  "source": "ISO DP 00 03 12 02, Other Cov. 12"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "Vacancy limit for V&MM / glass (DP-3 12 02)",
+  "value": "More than 60 consecutive days",
+  "source": "ISO DP 00 03 12 02"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "Replacement cost insurance-to-value",
+  "value": "80%",
+  "source": "ISO DP 00 03 12 02, Cond. E"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "Suit against insurer",
+  "value": "2 years (12 02); 1 year (07 88)",
+  "source": "ISO DP 00 03 12 02 Cond. J; DP 00 01 07 88 Cond. 11"
+ },
+ {
+  "group": "Dwelling Policy",
+  "item": "PLS damage to property of others",
+  "value": "$1,000 at replacement cost",
+  "source": "ISO DL 24 01 12 02"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Coverage B",
+  "value": "10% of A, additional",
+  "source": "ISO HO 00 03 05 11, Coverage B"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Coverage C default (manual)",
+  "value": "50% of A (HO-2/3/5/8)",
+  "source": "RIJRA (ISO) HO Manual; NC Rate Bureau HO Manual"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Coverage C at other residence / self-storage (HO 00 03 05 11)",
+  "value": "Greater of 10% of C or $1,000",
+  "source": "ISO HO 00 03 05 11, Coverage C.2"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Special limits (HO 00 03 05 11): money / securities & documents / watercraft / trailers",
+  "value": "$200 / $1,500 / $1,500 / $1,500",
+  "source": "ISO HO 00 03 05 11, C.3.a-d"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Special limits, theft only (HO 00 03 05 11): jewelry-watches-furs / firearms / silverware",
+  "value": "$1,500 / $2,500 / $2,500",
+  "source": "ISO HO 00 03 05 11, C.3.e-g"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Special limits (HO 00 03 05 11): business property on / off premises; electronics in vehicle / vehicle media",
+  "value": "$2,500 / $1,500; $1,500 / $250",
+  "source": "ISO HO 00 03 05 11, C.3.h-k"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Civil authority (Coverage D)",
+  "value": "Max 2 weeks",
+  "source": "ISO HO 00 03 05 11, Coverage D.3"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Tree removal (HO 00 03 05 11)",
+  "value": "$1,000 per loss; $500 per tree",
+  "source": "ISO HO 00 03 05 11, E.1.b"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Trees, shrubs, plants (HO 00 03/04/06 05 11)",
+  "value": "5% of A; $500 per tree (HO-4/HO-6: 10% of C)",
+  "source": "ISO HO 00 03/04/06 05 11"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Fire department service charge",
+  "value": "$500, no deductible",
+  "source": "ISO HO 00 03 05 11, E.4"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Property removed",
+  "value": "30 days",
+  "source": "ISO HO 00 03 05 11, E.5"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Credit card/EFT/forgery/counterfeit (HO 00 03 05 11)",
+  "value": "$500, no deductible",
+  "source": "ISO HO 00 03 05 11, E.6"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Loss assessment (Sec I and Sec II) / landlord's furnishings / grave markers (HO 00 03 05 11)",
+  "value": "$1,000 each / $2,500 per apartment (not theft) / $5,000",
+  "source": "ISO HO 00 03 05 11, E.7, E.10, E.12; Sec II D"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Ordinance or law",
+  "value": "10% of A (HO-4: 10% of Building Additions & Alterations)",
+  "source": "ISO HO 00 03/04 05 11"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "HO-8 theft",
+  "value": "On premises only; max $1,000 per loss",
+  "source": "ISO HO 00 08 10 00, Peril 9"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "HO-8 repair period for functional loss settlement",
+  "value": "180 days",
+  "source": "ISO HO 00 08 10 00, Cond. C.2"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Vacancy (V&MM, glass)",
+  "value": "More than 60 consecutive days",
+  "source": "ISO HO 00 03 05 11"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Replacement cost insurance-to-value",
+  "value": "80% of full replacement cost",
+  "source": "ISO HO 00 03 05 11, Cond. D.2"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Small-loss RC without repair (HO 00 03 05 11)",
+  "value": "< 5% of insurance AND < $2,500",
+  "source": "ISO HO 00 03 05 11, Cond. D.2.d"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Notice of intent to repair after ACV claim",
+  "value": "Within 180 days",
+  "source": "ISO HO 00 03 05 11, Cond. D.2.e"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Proof of loss",
+  "value": "Within 60 days after insurer's request",
+  "source": "ISO HO 00 03 05 11, Cond. C.8"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Loss payment (unendorsed ISO)",
+  "value": "60 days after proof of loss + agreement/judgment/award",
+  "source": "ISO HO 00 03 05 11, Cond. J"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Suit against insurer (unendorsed ISO, Sec. I)",
+  "value": "2 years after date of loss",
+  "source": "ISO HO 00 03 05 11, Cond. H"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Coverage E / F manual minimums",
+  "value": "$100,000 / $1,000 per person",
+  "source": "ISO HO Manual Table 301 (RIJRA)"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Damage to property of others (HO 00 03 05 11)",
+  "value": "$1,000 per occurrence at RC; no coverage if intentional by insured age 13+",
+  "source": "ISO HO 00 03 05 11, Sec. II Add'l Cov. C"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "Watercraft: outboard hp / sailboat length",
+  "value": "25 hp total / 26 feet; report newly owned outboard within 45 days",
+  "source": "ISO HO 00 03 05 11, Sec. II Excl. B"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "HO 04 61 newly acquired jewelry etc.",
+  "value": "Lesser of 25% of class or $10,000; report within 30 days",
+  "source": "PF&M HO 04 61 (2017)"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "HO 04 61 newly acquired fine arts",
+  "value": "25% of fine arts limit (ACV); report within 90 days",
+  "source": "PF&M HO 04 61 (2017)"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "HO 04 90 ACV-until-replaced threshold",
+  "value": "Over $500 (05 11 edition)",
+  "source": "ISO HO 04 90 05 11"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "HO 04 27 fungi schedule (04 02 edition)",
+  "value": "$10,000 Section I; $50,000 Coverage E aggregate",
+  "source": "ISO HO 04 27 04 02"
+ }
+]

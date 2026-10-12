@@ -1,0 +1,977 @@
+[
+ {
+  "id": "auto-001",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "A Michigan auto policy is issued on August 1, 2026. The named insured never completes a form choosing bodily injury (BI) liability limits. What BI limits apply?",
+  "choices": [
+   "$50,000 per person / $100,000 per accident",
+   "$250,000 per person / $500,000 per accident",
+   "$100,000 per person / $300,000 per accident",
+   "$20,000 per person / $40,000 per accident"
+  ],
+  "answer": 1,
+  "explain": "After July 1, 2020, MCL 500.3009(1) requires 250/500, and 3009(8) applies those limits when no effective lower-limit choice is made. 20/40 applied only before July 2, 2020, and 50/100 is the lowest limit that can be elected.",
+  "source": "MCL 500.3009(1),(8)"
+ },
+ {
+  "id": "auto-002",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "For a Michigan policy issued after July 1, 2020, what is the LOWEST bodily injury liability limit a named insured may choose, and how is it chosen?",
+  "choices": [
+   "$20,000/$40,000, by verbal request to the agent",
+   "$50,000/$100,000, by completing and signing the DIFS-prescribed form",
+   "$25,000/$50,000, by written notice to the Secretary of State",
+   "$50,000/$100,000, with no form needed once premium is paid"
+  ],
+  "answer": 1,
+  "explain": "MCL 500.3009(5) allows limits lower than 250/500, but not below 50/100. The person must complete the DIFS form, delivered and signed as section 3107e provides.",
+  "source": "MCL 500.3009(5),(7); MCL 500.3107e"
+ },
+ {
+  "id": "auto-003",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "Under MCL 500.3009, what is the minimum property damage liability limit on a Michigan auto liability policy?",
+  "choices": [
+   "$3,000",
+   "$1,000,000",
+   "$25,000",
+   "$10,000"
+  ],
+  "answer": 3,
+  "explain": "Section 3009(1)(c) requires at least $10,000 for property of others. DIFS describes it as covering damage your vehicle does to property in another state, because in Michigan, PPI ($1 million) pays for property damage. $3,000 is the mini-tort amount.",
+  "source": "MCL 500.3009(1)(c); DIFS auto insurance FAQ"
+ },
+ {
+  "id": "auto-004",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "Maria's policy lists her 19-year-old son as a named excluded driver. He crashes Maria's car while driving it. Which statement is correct?",
+  "choices": [
+   "Liability coverage applies, but only up to the minimum limits",
+   "Liability coverage applies, but PIP is excluded for passengers",
+   "Coverage applies in full because Maria, the owner, is the named insured",
+   "All liability coverage is void while he drives, and he is not entitled to PIP benefits"
+  ],
+  "answer": 3,
+  "explain": "A named-driver exclusion under 3009(2) carries the required warning that when the excluded person operates a vehicle, all liability coverage is void and no one is insured. Section 3113(d) bars PIP for a person operating a vehicle as a named excluded operator.",
+  "source": "MCL 500.3009(2); MCL 500.3113(d)"
+ },
+ {
+  "id": "auto-005",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "Under MCL 257.328, an owner or operator who fails to produce evidence of insurance on a police officer's request is responsible for:",
+  "choices": [
+   "An automatic 2-year license revocation",
+   "A misdemeanor punishable by up to 1 year in jail and a $1,000 fine",
+   "A civil infraction",
+   "A felony"
+  ],
+  "answer": 2,
+  "explain": "Failing to produce proof (or to have insurance) is a civil infraction under 257.328(1). The 1-year/$1,000 misdemeanor in 257.328(6) is for KNOWINGLY producing false evidence of insurance.",
+  "source": "MCL 257.328(1),(6)"
+ },
+ {
+  "id": "auto-006",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "Under MCL 257.518b, while a transportation network company (ride-share) driver is engaged in a prearranged ride, the required residual liability coverage is at least:",
+  "choices": [
+   "$1,000,000 combined single limit",
+   "$500,000 combined single limit",
+   "$50,000/$100,000 BI and $25,000 PD",
+   "$250,000/$500,000 BI and $10,000 PD"
+  ],
+  "answer": 0,
+  "explain": "Section 257.518b(1)(b) requires a $1,000,000 CSL (plus PIP and PPI) during a prearranged ride. 50/100/25 applies while the driver is logged on and available but not yet on a ride.",
+  "source": "MCL 257.518b(1)"
+ },
+ {
+  "id": "auto-007",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "Under MCL 500.3101, the owner or registrant of a motor vehicle required to be registered in Michigan must maintain all of the following EXCEPT:",
+  "choices": [
+   "Collision coverage",
+   "Personal protection insurance (PIP)",
+   "Property protection insurance (PPI)",
+   "Residual liability insurance"
+  ],
+  "answer": 0,
+  "explain": "Required security is PIP, PPI and residual liability (3101(1)). Collision is optional, though insurers must offer Michigan's collision options (3037).",
+  "source": "MCL 500.3101(1); MCL 500.3037"
+ },
+ {
+  "id": "auto-008",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "For the Michigan no-fault act, a person who rents or leases a car becomes an 'owner' (who must maintain security) when the rental or use is for a period greater than:",
+  "choices": [
+   "6 months",
+   "10 days",
+   "60 days",
+   "30 days"
+  ],
+  "answer": 3,
+  "explain": "Section 3101(3)(l)(i) defines owner to include a person renting a motor vehicle, or having its use under a lease or otherwise, for more than 30 days.",
+  "source": "MCL 500.3101(3)(l)"
+ },
+ {
+  "id": "auto-009",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "A nonresident whose car is not registered in Michigan may operate it in Michigan without Michigan no-fault security for no more than an aggregate of:",
+  "choices": [
+   "30 days in any calendar year",
+   "90 days in any 12-month period",
+   "60 days in any calendar year",
+   "10 consecutive days"
+  ],
+  "answer": 0,
+  "explain": "Under 3102(1), a nonresident may not operate the vehicle in Michigan for an aggregate of more than 30 days in any calendar year without maintaining security.",
+  "source": "MCL 500.3102(1)"
+ },
+ {
+  "id": "auto-010",
+  "topic": "auto",
+  "sub": "Michigan Motor Vehicle Financial Responsibility Law",
+  "q": "Under MCL 500.3102, an owner who operates a motor vehicle on a Michigan highway without the required no-fault security is guilty of:",
+  "choices": [
+   "No offense, as long as the driver holds a valid Michigan driver's license",
+   "A misdemeanor punishable by a fine of $200 to $500, up to 1 year in jail, or both",
+   "A civil infraction with a maximum $25 court fee",
+   "A felony punishable by up to 5 years in prison, a $5,000 fine, or both"
+  ],
+  "answer": 1,
+  "explain": "Section 3102(2) makes it a misdemeanor for the owner or registrant, and for anyone who knowingly drives an uninsured vehicle, punishable by a $200–$500 fine, up to 1 year in jail, or both.",
+  "source": "MCL 500.3102(2)"
+ },
+ {
+  "id": "auto-011",
+  "topic": "auto",
+  "sub": "Michigan Automobile Insurance Placement Facility",
+  "q": "The Michigan Automobile Insurance Placement Facility (MAIPF) was created primarily to:",
+  "choices": [
+   "Investigate and prosecute auto insurance fraud",
+   "Reimburse member insurers for PIP losses above the catastrophic claims retention",
+   "Set uniform rates for all private passenger auto insurers in Michigan",
+   "Guarantee auto insurance is available to persons unable to obtain it through ordinary methods"
+  ],
+  "answer": 3,
+  "explain": "Under 3301, every insurer authorized to write auto insurance in Michigan must take part, to guarantee availability and to preserve price competition. Reimbursing catastrophic PIP losses is the MCCA's job (3104).",
+  "source": "MCL 500.3301(1)"
+ },
+ {
+  "id": "auto-012",
+  "topic": "auto",
+  "sub": "Michigan Automobile Insurance Placement Facility",
+  "q": "How often must a designated participating member notify people insured through the MAIPF of the statutory eligibility standards for buying auto insurance in the voluntary market?",
+  "choices": [
+   "At least once each year",
+   "Only when the insured asks for reassignment",
+   "Once every 3 years",
+   "Only when the original application is taken"
+  ],
+  "answer": 0,
+  "explain": "Section 3365(3) requires each designated participating member to give this notice at least once each year, on a commissioner-approved form.",
+  "source": "MCL 500.3365(3)"
+ },
+ {
+  "id": "auto-013",
+  "topic": "auto",
+  "sub": "No-Fault: Personal Injury Protection",
+  "q": "Under MCL 500.3107, PIP allowable expenses do NOT include:",
+  "choices": [
+   "Reasonably necessary accommodations for the injured person's care, recovery, or rehabilitation",
+   "Reasonably necessary medical products and services",
+   "Reasonable charges for the injured person's rehabilitation",
+   "Hospital room charges above the reasonable semiprivate rate when special or intensive care is not needed"
+  ],
+  "answer": 3,
+  "explain": "Section 3107(1)(a)(i) excludes hospital room charges above a reasonable and customary semiprivate charge, unless special or intensive care is required.",
+  "source": "MCL 500.3107(1)(a)"
+ },
+ {
+  "id": "auto-014",
+  "topic": "auto",
+  "sub": "No-Fault: Personal Injury Protection",
+  "q": "Under Michigan PIP, funeral and burial expenses are payable up to the amount stated in the policy, which must be:",
+  "choices": [
+   "At least $1,750 and no more than $5,000",
+   "Unlimited, subject only to reasonableness",
+   "At least $1,000 and no more than $3,000",
+   "Exactly $5,000"
+  ],
+  "answer": 0,
+  "explain": "Section 3107(1)(a)(ii) caps funeral and burial expenses at the policy amount, which must be at least $1,750 and no more than $5,000.",
+  "source": "MCL 500.3107(1)(a)(ii)"
+ },
+ {
+  "id": "auto-015",
+  "topic": "auto",
+  "sub": "No-Fault: Personal Injury Protection",
+  "q": "Dan is hurt in a Michigan auto accident on November 15, 2026. He earned $10,000 a month and cannot work for several months. He does not prove a lower tax advantage. Ignoring other offsets, what is the most PIP work loss payable for one 30-day period?",
+  "choices": [
+   "$8,500",
+   "$7,201",
+   "$10,000",
+   "$7,455"
+  ],
+  "answer": 3,
+  "explain": "Work loss is reduced 15% for tax advantage (85% of $10,000 = $8,500). It is then capped at $7,455, the 30-day maximum for accidents from Oct. 1, 2026 to Sept. 30, 2027. $7,201 was the cap for accidents from Oct. 1, 2025 to Sept. 30, 2026.",
+  "source": "MCL 500.3107(1)(b); DIFS Bulletin 2026-20-INS"
+ },
+ {
+  "id": "auto-016",
+  "topic": "auto",
+  "sub": "No-Fault: Personal Injury Protection",
+  "q": "Michigan PIP replacement services (for example, housework and yard work the injured person can no longer do) are limited to:",
+  "choices": [
+   "$20 per day, for up to 3 years after the accident",
+   "$600 per month, for 1 year",
+   "$40 per day, for up to 3 years after the accident",
+   "$20 per day, for life"
+  ],
+  "answer": 0,
+  "explain": "Section 3107(1)(c) pays up to $20 per day for ordinary and necessary services during the first 3 years after the accident.",
+  "source": "MCL 500.3107(1)(c)"
+ },
+ {
+  "id": "auto-017",
+  "topic": "auto",
+  "sub": "No-Fault: Personal Injury Protection",
+  "q": "Michigan PIP survivor's loss benefits are payable:",
+  "choices": [
+   "To any relative of the deceased, with no 30-day maximum, for the rest of the relative's life",
+   "To dependents of the deceased, subject to a 30-day maximum, for up to 3 years after the accident",
+   "To the deceased's estate, as a one-time $5,000 lump-sum payment",
+   "Only if the deceased was not at fault"
+  ],
+  "answer": 1,
+  "explain": "Section 3108 pays dependents for lost support and replacement services (up to $20/day). It is capped per 30 days ($7,455 for accidents Oct. 1, 2026 to Sept. 30, 2027) and is not payable beyond 3 years after the accident.",
+  "source": "MCL 500.3108; MCL 500.3110; DIFS Bulletin 2026-20-INS"
+ },
+ {
+  "id": "auto-018",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Coverage Choices",
+  "q": "For policies issued or renewed after July 1, 2020, each of the following is an available PIP medical (allowable expense) coverage level EXCEPT:",
+  "choices": [
+   "Unlimited",
+   "$100,000",
+   "$500,000",
+   "$250,000"
+  ],
+  "answer": 1,
+  "explain": "Section 3107c(1) lists $50,000 (Medicaid only), $250,000, $500,000 and no limit. An opt-out under 3107d is available to qualified persons. There is no $100,000 level.",
+  "source": "MCL 500.3107c(1); MCL 500.3107d"
+ },
+ {
+  "id": "auto-019",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Coverage Choices",
+  "q": "Which applicant may choose the $50,000 PIP medical limit?",
+  "choices": [
+   "Any applicant age 60 or older",
+   "A Medicaid enrollee whose spouse and resident relatives have qualified health coverage, Medicaid, or other auto PIP",
+   "A Medicare Parts A and B enrollee whose spouse and resident relatives have qualified health coverage",
+   "Any applicant who signs the DIFS-approved selection form, regardless of health coverage"
+  ],
+  "answer": 1,
+  "explain": "Section 3107c(1)(a) limits the $50,000 level to a named insured enrolled in Medicaid, provided the household members also have QHC, Medicaid or other auto PIP medical coverage.",
+  "source": "MCL 500.3107c(1)(a)"
+ },
+ {
+  "id": "auto-020",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Coverage Choices",
+  "q": "To opt out of PIP medical coverage entirely, the named insured must:",
+  "choices": [
+   "Be enrolled in Medicaid, with the spouse and resident relatives having qualified health coverage or other auto PIP",
+   "Have any employer health plan with an individual deductible of no more than $6,579",
+   "Carry a $250,000 PIP limit on another vehicle",
+   "Be enrolled in Medicare Parts A and B, with the spouse and resident relatives having qualified health coverage or other auto PIP"
+  ],
+  "answer": 3,
+  "explain": "Under 3107d(1) and (7)(c), only a 'qualified person' (Medicare Parts A and B) may opt out, and the household must have QHC or other auto PIP. Employer coverage that qualifies as QHC supports the $250,000-with-exclusions option (3109a(2)), not the opt-out.",
+  "source": "MCL 500.3107d(1),(7)"
+ },
+ {
+  "id": "auto-021",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Coverage Choices",
+  "q": "A named insured renews a Michigan auto policy but never makes an effective PIP selection, and no premium payment creates a presumption of a different level. Which PIP medical level applies?",
+  "choices": [
+   "$50,000",
+   "$500,000",
+   "Unlimited",
+   "$250,000"
+  ],
+  "answer": 2,
+  "explain": "Under 3107c(4), unlimited coverage (3107c(1)(d)) applies when there is no effective selection and no premium-payment presumption under 3107c(3).",
+  "source": "MCL 500.3107c(3),(4)"
+ },
+ {
+  "id": "auto-022",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Coverage Choices",
+  "q": "For the period July 1, 2026 to June 30, 2027, 'qualified health coverage' for Michigan no-fault includes health coverage that does not exclude auto-accident injuries and has an annual individual deductible of no more than:",
+  "choices": [
+   "$6,579",
+   "$1,750",
+   "$10,000",
+   "$6,000"
+  ],
+  "answer": 0,
+  "explain": "The statutory base is $6,000, adjusted by medical CPI only when the change reaches $500. DIFS Bulletin 2026-08-INS keeps the cap at $6,579 for July 1, 2026 through June 30, 2027.",
+  "source": "MCL 500.3107d(7)(b); DIFS Bulletin 2026-08-INS"
+ },
+ {
+  "id": "auto-023",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Coverage Choices",
+  "q": "Sue chose $250,000 PIP with an exclusion for household members who have qualified health coverage. Her husband's employer health coverage ends. Within what time must she get PIP medical coverage for him?",
+  "choices": [
+   "60 days after the qualified health coverage ends",
+   "By the next policy renewal date",
+   "10 days after the qualified health coverage ends",
+   "30 days after the qualified health coverage ends"
+  ],
+  "answer": 3,
+  "explain": "Under 3109a(2)(d), the named insured must obtain the excluded coverage within 30 days after QHC terminates. Someone injured during that 30-day window may claim through the assigned claims plan.",
+  "source": "MCL 500.3109a(2)(d),(e)"
+ },
+ {
+  "id": "auto-024",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Coverage Choices",
+  "q": "Ann is injured in an auto accident. PIP medical benefits are payable under two policies, one with a $250,000 limit and one with a $500,000 limit. What is the most PIP medical she can collect in total?",
+  "choices": [
+   "Unlimited, because two policies apply",
+   "$500,000",
+   "$250,000",
+   "$750,000"
+  ],
+  "answer": 1,
+  "explain": "Under 3107c(6), when two or more policies apply, PIP medical is payable only up to the highest single available limit. The limits do not stack.",
+  "source": "MCL 500.3107c(6)"
+ },
+ {
+  "id": "auto-025",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Coverage Choices",
+  "q": "MCL 500.3107 says PIP benefits are payable 'subject to chapter 31A.' What does Chapter 31A of the Insurance Code cover?",
+  "choices": [
+   "Cancellation and nonrenewal of auto policies, including required notice periods",
+   "The assigned claims plan",
+   "A managed care option for PIP allowable expenses that insurers may offer at a discount",
+   "The Michigan Catastrophic Claims Association and its reimbursement of PIP losses"
+  ],
+  "answer": 2,
+  "explain": "Chapter 31A (MCL 500.3181 to .3189) lets insurers offer a discounted managed care option. It must be uniformly offered and may not apply to emergency care. The insurer must also offer PIP not subject to managed care.",
+  "source": "MCL 500.3181-.3189"
+ },
+ {
+  "id": "auto-026",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Order of Priority",
+  "q": "Tom is hurt as a passenger in his friend's insured car. Tom has no auto policy of his own, but he lives with his mother, who has a Michigan no-fault policy. Who pays Tom's PIP first?",
+  "choices": [
+   "The insurer of the car's driver",
+   "The Michigan Assigned Claims Plan",
+   "The insurer of his friend, the car's owner",
+   "His mother's insurer"
+  ],
+  "answer": 3,
+  "explain": "Under 3114(1), a PIP policy covers the named insured, spouse and relatives of either domiciled in the same household. Tom is a resident relative, so his mother's insurer pays first.",
+  "source": "MCL 500.3114(1)"
+ },
+ {
+  "id": "auto-027",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Order of Priority",
+  "q": "An employee is hurt while driving a truck owned by her employer. She also has her own personal auto policy. Under MCL 500.3114(3), who pays her PIP?",
+  "choices": [
+   "Her own personal auto insurer",
+   "No one, because workers' compensation replaces PIP",
+   "The insurer of the employer-furnished vehicle",
+   "The Michigan Assigned Claims Plan"
+  ],
+  "answer": 2,
+  "explain": "Section 3114(3) gives priority to the insurer of the furnished vehicle when an employee, spouse or resident relative is hurt while occupying an employer-owned or employer-registered vehicle. Workers' comp benefits are subtracted from PIP (3109(1)); they do not replace it.",
+  "source": "MCL 500.3114(3); MCL 500.3109(1)"
+ },
+ {
+  "id": "auto-028",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Order of Priority",
+  "q": "A pedestrian who has no auto insurance and lives alone is struck by an insured car in Michigan. Under current MCL 500.3115, where does the pedestrian claim PIP?",
+  "choices": [
+   "The insurer of the driver of the car",
+   "Nowhere; pedestrians are not covered by PIP",
+   "The insurer of the owner of the car that hit him",
+   "The Michigan Assigned Claims Plan"
+  ],
+  "answer": 3,
+  "explain": "As amended by 2019 PA 21, 3115 sends a non-occupant who has no own or household PIP policy to the assigned claims plan. Before the reform, such a pedestrian claimed from the insurers of the vehicle's owner or operator.",
+  "source": "MCL 500.3115; MCL 500.3114(1)"
+ },
+ {
+  "id": "auto-029",
+  "topic": "auto",
+  "sub": "No-Fault: PIP Order of Priority",
+  "q": "A motorcyclist is hurt when a car turns into his path. He has an auto policy on his own car, and the car's owner is insured. Who is FIRST in priority to pay the motorcyclist's PIP?",
+  "choices": [
+   "The insurer that covers the motorcyclist's own car",
+   "The insurer of the motorcycle",
+   "The insurer of the owner or registrant of the car involved",
+   "The Michigan Assigned Claims Plan"
+  ],
+  "answer": 2,
+  "explain": "Under 3114(5), the order is: (a) the insurer of the motor vehicle's owner or registrant, (b) the insurer of the motor vehicle's operator, (c) the motorcycle operator's motor vehicle insurer, and (d) the motorcycle owner's motor vehicle insurer.",
+  "source": "MCL 500.3114(5)"
+ },
+ {
+  "id": "auto-030",
+  "topic": "auto",
+  "sub": "No-Fault: Property Protection",
+  "q": "What is the most property protection insurance (PPI) will pay under one policy for all tangible property damaged in one accident?",
+  "choices": [
+   "$1,000,000",
+   "$10,000",
+   "$500,000",
+   "$3,000"
+  ],
+  "answer": 0,
+  "explain": "Section 3121(5) caps PPI at $1,000,000 per policy for all property damage from one accident. It pays the lesser of repair cost or replacement cost less depreciation, plus loss of use.",
+  "source": "MCL 500.3121(5)"
+ },
+ {
+  "id": "auto-031",
+  "topic": "auto",
+  "sub": "No-Fault: Property Protection",
+  "q": "In Michigan, a driver loses control and damages three things, all owned by strangers: (1) a fence, (2) a properly parked car, and (3) a car traveling in the next lane. Which items does that driver's PPI pay for?",
+  "choices": [
+   "The moving car and the parked car only",
+   "The fence and the properly parked car only",
+   "The fence, the parked car, and the moving car",
+   "The fence only"
+  ],
+  "answer": 1,
+  "explain": "Section 3123(1)(a) excludes vehicles and their contents unless parked so as not to cause unreasonable risk. A moving car is excluded. Its owner looks to collision coverage or the mini-tort.",
+  "source": "MCL 500.3123(1)(a); MCL 500.3121"
+ },
+ {
+  "id": "auto-032",
+  "topic": "auto",
+  "sub": "No-Fault: Property Protection",
+  "q": "Which loss is NOT payable under Michigan property protection insurance (PPI)?",
+  "choices": [
+   "Damage to a storefront in Detroit",
+   "Damage to a properly parked car in Lansing",
+   "Loss of use of a damaged business property in Michigan",
+   "Damage to a building in Ohio caused by a Michigan-insured driver"
+  ],
+  "answer": 3,
+  "explain": "Section 3123(2) bars PPI for accidents occurring outside Michigan. Residual PD liability (at least $10,000) covers out-of-state property damage instead.",
+  "source": "MCL 500.3123(2); MCL 500.3009(1)(c)"
+ },
+ {
+  "id": "auto-033",
+  "topic": "auto",
+  "sub": "No-Fault: Residual Liability",
+  "q": "Under the Michigan no-fault act, an injured person may sue a negligent insured driver for noneconomic loss (pain and suffering) only if the injured person suffered:",
+  "choices": [
+   "Medical expenses over $3,000 or more than 30 days of lost work",
+   "An injury lasting at least 1 year",
+   "Death, serious impairment of body function, or permanent serious disfigurement",
+   "Any injury that required medical treatment, hospitalization, or time off work"
+  ],
+  "answer": 2,
+  "explain": "Section 3135(1) sets this tort threshold. 'Serious impairment' has no minimum duration under 3135(5).",
+  "source": "MCL 500.3135(1),(5)"
+ },
+ {
+  "id": "auto-034",
+  "topic": "auto",
+  "sub": "No-Fault: Residual Liability",
+  "q": "In a Michigan auto tort suit for noneconomic damages, no damages may be awarded to a party who is:",
+  "choices": [
+   "At any percentage at fault",
+   "Insured for unlimited PIP",
+   "More than 50% at fault",
+   "At least 25% at fault"
+  ],
+  "answer": 2,
+  "explain": "Section 3135(2)(b) applies comparative fault but bars recovery by a party more than 50% at fault.",
+  "source": "MCL 500.3135(2)(b)"
+ },
+ {
+  "id": "auto-035",
+  "topic": "auto",
+  "sub": "No-Fault: Residual Liability",
+  "q": "For a Michigan accident after July 1, 2020, the 'mini-tort' lets a vehicle owner recover vehicle damage not covered by insurance from an at-fault driver up to:",
+  "choices": [
+   "$3,000",
+   "$10,000",
+   "$1,000",
+   "$500"
+  ],
+  "answer": 0,
+  "explain": "Section 3135(3)(e) raised the mini-tort from $1,000 to $3,000 for accidents after July 1, 2020. A claimant more than 50% at fault cannot recover, and the case is brought in small claims when possible.",
+  "source": "MCL 500.3135(3)(e),(4)"
+ },
+ {
+  "id": "auto-036",
+  "topic": "auto",
+  "sub": "No-Fault: Residual Liability",
+  "q": "Kim chose $250,000 PIP medical and has $400,000 in medical expenses after an accident caused by a negligent insured driver. Under MCL 500.3135(3)(c), Kim:",
+  "choices": [
+   "Cannot recover the excess, because tort liability for economic loss is abolished",
+   "May sue the at-fault driver for allowable expenses above her $250,000 PIP limit",
+   "May recover the excess from the assigned claims plan",
+   "May recover the excess only from the MCCA"
+  ],
+  "answer": 1,
+  "explain": "Section 3135(3)(c) keeps tort liability for allowable expenses, work loss and survivor's loss above any 3107c limit (or the daily, monthly and 3-year limits). This is one reason higher BI liability limits matter.",
+  "source": "MCL 500.3135(3)(c)"
+ },
+ {
+  "id": "auto-037",
+  "topic": "auto",
+  "sub": "Michigan Catastrophic Claims Association",
+  "q": "For policies issued or renewed from July 1, 2025 to June 30, 2027, the MCCA retention (the PIP amount the insurer pays per loss occurrence before MCCA reimbursement) is:",
+  "choices": [
+   "$250,000",
+   "$675,000",
+   "$1,000,000",
+   "$580,000"
+  ],
+  "answer": 1,
+  "explain": "The MCCA reports a $675,000 retention for July 1, 2025 to June 30, 2027. The $580,000 statutory base (2019 to 2021) is adjusted every 2 years by the lesser of 6% or CPI. $250,000 was the original 1978 retention.",
+  "source": "michigancatastrophic.com/what-is-catastrophic-injury; MCL 500.3104(2)(o)"
+ },
+ {
+  "id": "auto-039",
+  "topic": "auto",
+  "sub": "Michigan Assigned Claims Plan",
+  "q": "A person claiming PIP through the Michigan Assigned Claims Plan must notify the Michigan Automobile Insurance Placement Facility within:",
+  "choices": [
+   "1 year after the date of the accident",
+   "30 days after the accident",
+   "60 days after the first medical bill",
+   "3 years after the accident"
+  ],
+  "answer": 0,
+  "explain": "Section 3174 requires notice to the MAIPF within 1 year after the accident. The MAIPF then assigns the claim to an insurer.",
+  "source": "MCL 500.3174"
+ },
+ {
+  "id": "auto-040",
+  "topic": "auto",
+  "sub": "Michigan Assigned Claims Plan",
+  "q": "Allowable-expense (medical) benefits paid through the Michigan Assigned Claims Plan are generally limited to:",
+  "choices": [
+   "$250,000",
+   "Unlimited",
+   "$50,000",
+   "$1,000,000"
+  ],
+  "answer": 0,
+  "explain": "Section 3172(7) caps MACP allowable expenses at the 3107c(1)(b) limit of $250,000. The cap is $2,000,000 for persons injured during the 30-day gap after losing qualified health coverage.",
+  "source": "MCL 500.3172(7)"
+ },
+ {
+  "id": "auto-041",
+  "topic": "auto",
+  "sub": "No-Fault: Personal Injury Protection",
+  "q": "If no written notice of injury was given and no PIP benefits were paid, an action to recover PIP benefits must be started no later than:",
+  "choices": [
+   "2 years after the accident",
+   "3 years after the accident",
+   "6 months after the accident",
+   "1 year after the accident"
+  ],
+  "answer": 3,
+  "explain": "Under 3145(1), the 1-year deadline runs from the accident. If notice was given or benefits were paid, suit may be filed within 1 year after the most recent loss is incurred, but recovery reaches back only 1 year (3145(2)).",
+  "source": "MCL 500.3145(1),(2)"
+ },
+ {
+  "id": "auto-042",
+  "topic": "auto",
+  "sub": "Cancellation and Nonrenewal",
+  "q": "Under MCL 500.3220, once a Michigan auto liability policy has been in effect for 55 days, the insurer may cancel it (other than for nonpayment) only if:",
+  "choices": [
+   "The insurer decides, after reviewing the insured's updated driving record, that the risk is unacceptable",
+   "The named insured or a household or customary operator has had two at-fault accidents during the policy period",
+   "The insured moves to another Michigan county",
+   "The named insured or a household or customary operator has had a license suspended or revoked in the policy period, and it is final"
+  ],
+  "answer": 3,
+  "explain": "After 55 days (or immediately on a renewal), 3220 allows cancellation only for a final license suspension or revocation. 'Risk unacceptable' is a ground only during the first 55 days.",
+  "source": "MCL 500.3220"
+ },
+ {
+  "id": "auto-043",
+  "topic": "auto",
+  "sub": "Cancellation and Nonrenewal",
+  "q": "Under MCL 500.3224, a Chapter 32 auto cancellation notice must be mailed at least ___ before the effective date, and must tell the insured of the right to appeal to the department within ___ from the date of mailing.",
+  "choices": [
+   "20 days; 7 days",
+   "30 days; 10 days",
+   "10 days; 30 days",
+   "45 days; 20 days"
+  ],
+  "answer": 0,
+  "explain": "Section 3224 requires certified mail, return receipt requested (delivery is equivalent), at least 20 days ahead, with reasons and a bold notice of the 7-day appeal right. A cancellation during the first 55 days is not appealable.",
+  "source": "MCL 500.3224; MCL 500.3230"
+ },
+ {
+  "id": "auto-044",
+  "topic": "auto",
+  "sub": "Cancellation and Nonrenewal",
+  "q": "Under MCL 500.3204, an insurer's refusal to renew an auto liability policy is NOT treated as a cancellation if the insurer mails notice by first-class mail at least:",
+  "choices": [
+   "60 days before the policy's termination date",
+   "20 days before the policy's termination date",
+   "10 days before the policy's termination date",
+   "45 days before the policy's termination date"
+  ],
+  "answer": 1,
+  "explain": "Section 3204(2) sets this 20-day rule. The Essential Insurance Act (MCL 500.2123) separately requires 30 days' notice with specific reasons for a 'termination'.",
+  "source": "MCL 500.3204(2)"
+ },
+ {
+  "id": "auto-045",
+  "topic": "auto",
+  "sub": "Aftermarket Crash Parts Regulation",
+  "q": "Under Michigan's Aftermarket Crash Parts Act, if an insurer asks for non-OEM aftermarket crash parts to be used, the repair facility may use them only if:",
+  "choices": [
+   "DIFS approves each part in advance",
+   "The vehicle is more than 5 years old or has more than 100,000 miles",
+   "The insured gets a written estimate identifying each non-OEM part, with a disclosure in at least 10-point bold type",
+   "The insured signs a written consent form and pays the price difference compared with OEM parts"
+  ],
+  "answer": 2,
+  "explain": "Section 257.1363 requires the written estimate and a bold disclosure that the parts come from a source other than the manufacturer, with warranties provided by their manufacturer, distributor or insurer.",
+  "source": "MCL 257.1363"
+ },
+ {
+  "id": "auto-046",
+  "topic": "auto",
+  "sub": "Rental Vehicle Coverage",
+  "q": "Under MCL 257.401(3), a rental company that rents a car for 30 days or less, and was not itself negligent, has owner's liability limited to:",
+  "choices": [
+   "$50,000 per person and $100,000 per accident",
+   "Nothing; it has no liability at all",
+   "$20,000 per person and $40,000 per accident",
+   "$250,000 per person and $500,000 per accident"
+  ],
+  "answer": 2,
+  "explain": "The short-term lessor is liable only when an authorized driver or an immediate family member is driving, and its liability is capped at 20/40 unless it was negligent. It must notify the lessee of the cap (257.401(4)).",
+  "source": "MCL 257.401(3),(4)"
+ },
+ {
+  "id": "auto-047",
+  "topic": "auto",
+  "sub": "Rental Vehicle Coverage",
+  "q": "Lisa has her own Michigan no-fault policy. She is hurt while driving a car she rented for a 1-week vacation in Michigan. Who pays her PIP first?",
+  "choices": [
+   "The rental company's insurer, because it owns the car",
+   "The Michigan Assigned Claims Plan",
+   "No one, because rental cars are excluded from PIP",
+   "Her own auto insurer"
+  ],
+  "answer": 3,
+  "explain": "PIP is owed without regard to fault (3105(2)), and 3114(1) applies the injured person's own (or household) policy first. A 1-week renter is not an 'owner' (more than 30 days is required).",
+  "source": "MCL 500.3105(2); MCL 500.3114(1); MCL 500.3101(3)(l)"
+ },
+ {
+  "id": "auto-048",
+  "topic": "auto",
+  "sub": "Personal Auto: Damage to Your Auto",
+  "q": "Under MCL 500.3037(1)(a), the limited collision coverage an insurer must offer a new applicant for a private passenger auto:",
+  "choices": [
+   "Pays regardless of fault, with the deductible waived only if the other driver is uninsured",
+   "Pays only for collisions with animals",
+   "Pays without a deductible, but only when the driver was not substantially (more than 50%) at fault",
+   "Pays regardless of fault, with no deductible"
+  ],
+  "answer": 2,
+  "explain": "Section 3037(1)(a) requires the offered limited collision to pay without a deductible, but only when the operator was not substantially (more than 50%) at fault (3037(8)(b)). Broad form collision pays regardless of fault, with the deductible waived when the operator was not substantially at fault. Insurers may also sell standard and limited collision with deductibles (3037(2)).",
+  "source": "MCL 500.3037(1),(2),(8)"
+ },
+ {
+  "id": "auto-049",
+  "topic": "auto",
+  "sub": "Personal Auto: Uninsured/Underinsured Motorists",
+  "q": "Which statement about uninsured/underinsured motorists (UM/UIM) coverage in Michigan is correct?",
+  "choices": [
+   "It is included within PIP",
+   "It is optional; Michigan law does not require it to be bought",
+   "It is required unless the insured rejects it in writing",
+   "It must be bought with limits equal to the BI liability limits"
+  ],
+  "answer": 1,
+  "explain": "DIFS lists UM and UIM among optional coverages, and the Michigan Supreme Court (Rory v Continental, 2005) called UM coverage optional, not required by the no-fault act, with its terms governed by contract.",
+  "source": "DIFS auto insurance FAQ; Rory v Continental Ins Co, 473 Mich 457 (2005)"
+ },
+ {
+  "id": "auto-050",
+  "topic": "auto",
+  "sub": "Personal Auto: Definitions",
+  "q": "Under PP 00 01 09 18, if you buy an ADDITIONAL private passenger auto during the policy period, liability coverage applies to it only if you ask the insurer to insure it within:",
+  "choices": [
+   "14 days after you become the owner",
+   "4 days after you become the owner",
+   "60 days after you become the owner",
+   "30 days after you become the owner"
+  ],
+  "answer": 0,
+  "explain": "Under Definition K.2.a of the 2018 PAP, a newly acquired auto gets the broadest coverage on any declared vehicle (for coverages other than Part D) if you ask within 14 days. If you ask later, coverage begins when you ask.",
+  "source": "ISO PP 00 01 09 18, Definitions K.2"
+ },
+ {
+  "id": "auto-051",
+  "topic": "auto",
+  "sub": "Personal Auto: Definitions",
+  "q": "Under PP 00 01 09 18, you buy a second car, and your Declarations show no collision coverage on any auto. To get collision on the new car you must ask within ___, and a loss before you ask carries a ___ deductible.",
+  "choices": [
+   "4 days; $250",
+   "14 days; $500",
+   "4 days; $500",
+   "30 days; $1,000"
+  ],
+  "answer": 2,
+  "explain": "Definition K.2.b(2): if no declared auto has collision, you must ask within 4 days, and a $500 collision deductible applies to a loss that occurs before you ask. If any declared auto has collision, the window is 14 days.",
+  "source": "ISO PP 00 01 09 18, Definitions K.2.b"
+ },
+ {
+  "id": "auto-052",
+  "topic": "auto",
+  "sub": "Personal Auto: Liability Coverage",
+  "q": "Under PAP Part A Supplementary Payments (PP 00 01 09 18), the insurer pays up to ___ for bail bonds and up to ___ a day for loss of earnings from attending hearings or trials at its request.",
+  "choices": [
+   "$1,000; $100",
+   "$2,000; $250",
+   "$250; $250",
+   "$250; $200"
+  ],
+  "answer": 2,
+  "explain": "The 2018 PAP pays bail bonds up to $250 and loss of earnings up to $250 a day, in addition to the limit. The $2,000 bail bond amount is from the Business Auto form.",
+  "source": "ISO PP 00 01 09 18, Part A Supplementary Payments; ISO CA 00 01 11 20 Sec. II.A.2"
+ },
+ {
+  "id": "auto-053",
+  "topic": "auto",
+  "sub": "Personal Auto: Liability Coverage",
+  "q": "Under PP 00 01 09 18, liability coverage is excluded while the insured's vehicle is used as a public or livery conveyance. This includes:",
+  "choices": [
+   "Driving for a volunteer or charitable purpose, such as delivering meals to seniors",
+   "A share-the-expense car pool in which riders split fuel and parking costs",
+   "Commuting to and from work",
+   "Time logged into a transportation network platform as a driver, even with no passenger aboard"
+  ],
+  "answer": 3,
+  "explain": "Exclusion A.5 expressly includes time logged into a TNC platform as a driver. It does not apply to share-the-expense car pools or volunteer or charitable use.",
+  "source": "ISO PP 00 01 09 18, Part A Exclusion A.5"
+ },
+ {
+  "id": "auto-054",
+  "topic": "auto",
+  "sub": "Personal Auto: Uninsured/Underinsured Motorists",
+  "q": "Under PAP Part C, an 'uninsured motor vehicle' includes all of the following EXCEPT:",
+  "choices": [
+   "A hit-and-run vehicle whose owner or operator cannot be identified and which hits you",
+   "A vehicle owned by a governmental unit or agency",
+   "A vehicle whose insurer denies coverage or becomes insolvent",
+   "A vehicle with BI limits below the financial responsibility minimum of the state where your covered auto is principally garaged"
+  ],
+  "answer": 1,
+  "explain": "Part C excludes vehicles owned by a governmental unit or agency from the definition, along with vehicles owned by or available to you, self-insured vehicles (unless the self-insurer is insolvent), and others.",
+  "source": "ISO PP 00 01 09 18, Part C Definition C"
+ },
+ {
+  "id": "auto-055",
+  "topic": "auto",
+  "sub": "Personal Auto: Damage to Your Auto",
+  "q": "Under PAP Part D, which loss is treated as 'Other Than Collision'?",
+  "choices": [
+   "Hitting a guardrail",
+   "Backing into a parked car",
+   "Hitting a deer",
+   "Rolling the car over"
+  ],
+  "answer": 2,
+  "explain": "Contact with a bird or animal is listed as Other Than Collision. Upset (rollover) and impact with another vehicle or object are collision.",
+  "source": "ISO PP 00 01 09 18, Part D Insuring Agreement B"
+ },
+ {
+  "id": "auto-056",
+  "topic": "auto",
+  "sub": "Personal Auto: Damage to Your Auto",
+  "q": "Under PP 00 01 09 18 Part D, temporary transportation expenses after a covered theft of your covered auto are paid at:",
+  "choices": [
+   "Up to $30 per day, maximum $900, starting 48 hours after the theft",
+   "Up to $50 per day, with no maximum",
+   "Up to $30 per day, maximum $900, starting 24 hours after the theft",
+   "Up to $20 per day, maximum $600, starting immediately"
+  ],
+  "answer": 0,
+  "explain": "The 2018 PAP pays without a deductible up to $30/day and a $900 maximum. For total theft, payment starts 48 hours after the theft; for other losses it starts once the auto is out of use for more than 24 hours. Older editions used $20/$600.",
+  "source": "ISO PP 00 01 09 18, Part D Transportation Expenses"
+ },
+ {
+  "id": "auto-057",
+  "topic": "auto",
+  "sub": "Personal Auto: Selected Endorsements",
+  "q": "According to DIFS Bulletin 96-02, a named non-owner or extended non-owned coverage endorsement on a Michigan no-fault policy provides:",
+  "choices": [
+   "Physical damage coverage only, for vehicles furnished for the named person's regular use",
+   "PIP, PPI, and residual liability for the named person, spouse, and all resident relatives",
+   "Residual liability only, for the named person and spouse; no PIP, PPI, or physical damage",
+   "PIP coverage only"
+  ],
+  "answer": 2,
+  "explain": "Bulletin 96-02 says these endorsements provide only residual liability, only for the named person and spouse, and exclude other resident relatives. Insurers should make clear that they do not meet no-fault requirements.",
+  "source": "DIFS Bulletin 96-02 (June 25, 1996)"
+ },
+ {
+  "id": "auto-058",
+  "topic": "auto",
+  "sub": "Personal Auto: Selected Endorsements",
+  "q": "The Extended Non-Owned Coverage (Vehicles Furnished or Available for Regular Use) endorsement is designed for someone who:",
+  "choices": [
+   "Owns a second car that is insured under a separate personal auto policy",
+   "Regularly drives an employer-furnished vehicle that he or she does not own",
+   "Owns a motorcycle",
+   "Owns a motor home rented to others"
+  ],
+  "answer": 1,
+  "explain": "The endorsement removes the PAP exclusion for vehicles furnished or available for the named individual's regular use, for liability and, if bought, med pay. It does not cover vehicles owned by the individual or family members.",
+  "source": "ISO PP 03 06 01 05; ISO PP 00 01 09 18 Part A Exclusion B.2"
+ },
+ {
+  "id": "auto-059",
+  "topic": "auto",
+  "sub": "Personal Auto: Selected Endorsements",
+  "q": "Which vehicle would typically be covered under a PAP by adding the Miscellaneous Type Vehicle endorsement?",
+  "choices": [
+   "A motor home",
+   "A snowmobile",
+   "A semi-tractor used for hauling freight",
+   "A private passenger sedan"
+  ],
+  "answer": 0,
+  "explain": "The endorsement (PP 03 23) is used for motor homes, motorcycles and similar vehicles, ATVs, dune buggies and golf carts. Snowmobiles have a separate endorsement, and sedans are already covered autos.",
+  "source": "ISO PP 03 23 (FC&S, Miscellaneous Type Vehicle Endorsement)"
+ },
+ {
+  "id": "auto-060",
+  "topic": "auto",
+  "sub": "Commercial Auto: Business Auto Coverage Form",
+  "q": "If symbol 7 (specifically described autos) is shown for a coverage in the BACF, a newly acquired auto is covered for that coverage only if the insurer already covers all owned autos for it (or it is a replacement) and the insured asks for coverage within:",
+  "choices": [
+   "4 days after acquiring it",
+   "30 days after acquiring it",
+   "14 days after acquiring it",
+   "60 days after acquiring it"
+  ],
+  "answer": 1,
+  "explain": "Section I.B.2 sets this 30-day rule for symbol 7. Symbols 1 through 6 and 19 automatically cover autos acquired during the policy period.",
+  "source": "ISO CA 00 01 11 20, Section I.B"
+ },
+ {
+  "id": "auto-061",
+  "topic": "auto",
+  "sub": "Commercial Auto: Business Auto Coverage Form",
+  "q": "A business wants liability coverage for its employees' personal cars when they are used to run company errands. Which BACF symbol applies?",
+  "choices": [
+   "Symbol 8: Hired Autos Only",
+   "Symbol 19: Mobile Equipment Subject to Compulsory or FR Law",
+   "Symbol 2: Owned Autos Only",
+   "Symbol 9: Non-owned Autos Only"
+  ],
+  "answer": 3,
+  "explain": "Symbol 9 covers autos you do not own, lease, hire, rent or borrow that are used in your business, including employees' autos. Symbol 8 specifically excludes autos borrowed from employees.",
+  "source": "ISO CA 00 01 11 20, Section I.A"
+ },
+ {
+  "id": "auto-062",
+  "topic": "auto",
+  "sub": "Commercial Auto: Business Auto Coverage Form",
+  "q": "Under the Business Auto Coverage Form (CA 00 01 11 20), Supplementary Payments include the cost of bail bonds up to:",
+  "choices": [
+   "$500",
+   "$250",
+   "$2,000",
+   "$1,000"
+  ],
+  "answer": 2,
+  "explain": "BACF Section II.A.2.a(2) pays up to $2,000 for bail bonds, plus loss of earnings up to $250 a day. The PAP bail bond limit is $250.",
+  "source": "ISO CA 00 01 11 20, Section II.A.2.a"
+ },
+ {
+  "id": "auto-063",
+  "topic": "auto",
+  "sub": "Commercial Auto: Garage / Garagekeepers / Truckers",
+  "q": "A repair shop's garagekeepers coverage pays for hail damage to a customer's car while it is in the shop's care, regardless of the shop's liability and before the customer's own insurance. On what basis is the coverage written?",
+  "choices": [
+   "Direct primary",
+   "Garage liability",
+   "Legal liability",
+   "Direct excess"
+  ],
+  "answer": 0,
+  "explain": "Legal liability pays only if the shop is legally liable. Direct excess pays regardless of liability but only in excess of other collectible insurance. Direct primary pays regardless of liability, as primary.",
+  "source": "ISO CA 99 37 10 01, Direct Coverage Options"
+ },
+ {
+  "id": "auto-064",
+  "topic": "auto",
+  "sub": "Commercial Auto: Garage / Garagekeepers / Truckers",
+  "q": "The ISO Truckers Coverage Form is designed for:",
+  "choices": [
+   "Families insuring private passenger autos for personal use",
+   "Franchised auto dealers",
+   "Those in the business of transporting property by auto for hire",
+   "Repair garages and service stations"
+  ],
+  "answer": 2,
+  "explain": "The Truckers form provides liability and physical damage (including trailer interchange) for those transporting property for hire. Dealers use the Auto Dealers or Garage form.",
+  "source": "FC&S, Truckers Coverage Form (CA 00 12)"
+ },
+ {
+  "id": "auto-065",
+  "topic": "auto",
+  "sub": "Commercial Auto: Selected Endorsements",
+  "q": "Which commercial auto endorsement gives an executive who has a company-furnished car and no personal auto policy coverage while driving non-owned autos?",
+  "choices": [
+   "Additional Insured: Lessor",
+   "Drive Other Car Coverage",
+   "Garagekeepers Coverage",
+   "Mobile Equipment"
+  ],
+  "answer": 1,
+  "explain": "The DOC endorsement (CA 99 10) gives a named individual (and resident spouse) PAP-like non-owned auto coverage under the commercial policy.",
+  "source": "IRMI, Drive Other Car Endorsement (CA 99 10)"
+ },
+ {
+  "id": "auto-066",
+  "topic": "auto",
+  "sub": "Commercial Auto: Motor Carrier Act of 1980",
+  "q": "Under the federal rules implementing the Motor Carrier Act of 1980 (49 CFR 387.9), a for-hire interstate carrier hauling NONHAZARDOUS property in vehicles with a GVWR of 10,001 lbs or more must carry minimum public liability of:",
+  "choices": [
+   "$750,000",
+   "$5,000,000",
+   "$300,000",
+   "$1,000,000"
+  ],
+  "answer": 0,
+  "explain": "Under 387.9, the minimum is $750,000 for nonhazardous property. Oil and most hazardous materials require $1,000,000, and certain bulk hazardous substances, explosives and radioactive materials require $5,000,000.",
+  "source": "49 CFR 387.9"
+ }
+]

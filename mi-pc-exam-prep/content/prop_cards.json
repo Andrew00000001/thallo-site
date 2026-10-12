@@ -1,0 +1,284 @@
+[
+ {
+  "topic": "mi",
+  "front": "MPCGA: who must be a member?",
+  "back": "Every insurer authorized to write non-life/non-disability insurance in Michigan, as a condition of its authority. Excluded: the Michigan Basic Property Insurance Association, surplus lines insurers (not 'authorized' for this chapter), and life/disability insurers.",
+  "source": "MCL 500.7911, 500.7911a"
+ },
+ {
+  "topic": "mi",
+  "front": "MPCGA covered-claim cap (statute and 2026)",
+  "back": "Claims are capped at $5,000,000 (CPI-adjusted each Jan 1; $7,980,000 for 2026). Workers' comp and no-fault PIP claims are not capped. The cap in effect when the claim is paid applies.",
+  "source": "MCL 500.7925(6); DIFS Bulletin 2026-04-INS"
+ },
+ {
+  "topic": "mi",
+  "front": "MPCGA net worth exclusion",
+  "back": "No first- or third-party claim by or against an insured whose net worth (including affiliates) exceeds $25,000,000 (CPI-adjusted; $39,920,000 for 2026), measured at Dec 31 of the year before the insolvency.",
+  "source": "MCL 500.7925(4); DIFS Bulletin 2026-04-INS"
+ },
+ {
+  "topic": "mi",
+  "front": "MPCGA unearned premium limits",
+  "back": "Covered only up to the first $500 per person per insolvent insurer (CPI-adjusted; $2,063 for 7/1/2026-6/30/2027). No refund under $50.",
+  "source": "MCL 500.7925(2)(a); DIFS Bulletin 2026-13-INS"
+ },
+ {
+  "topic": "mi",
+  "front": "MPCGA: coverage continuation and cancellation after receivership",
+  "back": "Policies continue until they expire, are replaced, or are canceled by the association, but no more than 30 days after the receiver is appointed. The association may cancel on 10 days' notice. Covered claims must arise within 30 days after the appointment.",
+  "source": "MCL 500.7931(4)-(5); 500.7925(1)(d)"
+ },
+ {
+  "topic": "mi",
+  "front": "MPCGA assessment cap; stay of suits",
+  "back": "Assessments are capped at 1% of the member's prior-year Michigan net direct written premium per year. Court proceedings involving the insolvent insurer are stayed 6 months after the receiver is appointed.",
+  "source": "MCL 500.7941(3); 500.7945(1)"
+ },
+ {
+  "topic": "mi",
+  "front": "Fire policy (500.2833): minimum coverage",
+  "back": "Actual cash value at the time of loss; direct loss by fire and lightning; pro rata coverage for 5 days for property removed to protect it from a covered peril.",
+  "source": "MCL 500.2833(1)(a)-(b)"
+ },
+ {
+  "topic": "mi",
+  "front": "Fire policy: cancellation and minimum earned premium",
+  "back": "The insured may cancel at any time. The insurer may cancel on at least 10 days' mailed notice. Minimum earned premium = greater of pro rata or $25. (For HOME insurance, 500.2123 requires 30 days, or 20 days during the first 55 days.)",
+  "source": "MCL 500.2833(1)(h)-(i); 500.2123"
+ },
+ {
+  "topic": "mi",
+  "front": "Fire policy: loss payment and suit deadline",
+  "back": "Loss is payable within 30 days after receipt of proof of the amount of loss (subject to 2845). Suit must be filed within 1 year after the loss, or the policy period if longer, tolled from notice of loss until formal denial.",
+  "source": "MCL 500.2833(1)(p)-(q)"
+ },
+ {
+  "topic": "mi",
+  "front": "Fire policy: mortgagee provisions",
+  "back": "The insurer may cancel the mortgagee's interest on 10 days' written notice. If the insured fails to file proof of loss, the mortgagee files it within 60 days after notice. An insurer that denies the owner is subrogated to the mortgagee's rights for what it pays.",
+  "source": "MCL 500.2833(1)(j)"
+ },
+ {
+  "topic": "mi",
+  "front": "Michigan appraisal steps",
+  "back": "Written demand. Each side names an independent appraiser within 20 days. The appraisers pick an umpire within 15 days; otherwise a circuit court judge (county of loss or property) picks one. Any 2 of 3 set the loss. Each pays its own appraiser; the umpire and other costs are split equally.",
+  "source": "MCL 500.2833(1)(m)"
+ },
+ {
+  "topic": "mi",
+  "front": "Fire policy effective time",
+  "back": "12:01 a.m. standard time at the location of the property.",
+  "source": "MCL 500.2833(1)(s)"
+ },
+ {
+  "topic": "mi",
+  "front": "500.2845 fire/explosion withholding",
+  "back": "In participating municipalities, when a real-property fire or explosion settlement exceeds 49% of the insurance, the insurer withholds 25% of the ACV or settlement, whichever is less (residential cap $12,000 base, CPI-adjusted), to secure repair or cleanup.",
+  "source": "MCL 500.2845(1),(15)"
+ },
+ {
+  "topic": "mi",
+  "front": "Home/auto termination notice (Essential Insurance Act)",
+  "back": "At least 30 days' written notice stating the effective date and each specific reason. Within the first 55 days of a new policy: effective not less than 20 days after mailing. Nonpayment: as provided in the policy.",
+  "source": "MCL 500.2123"
+ },
+ {
+  "topic": "mi",
+  "front": "500.3020 casualty cancellation",
+  "back": "The insurer may cancel on not less than 10 days' notice. Minimum earned premium = greater of pro rata or $25 (not for auto). Malpractice nonrenewal requires not less than 60 days' notice.",
+  "source": "MCL 500.3020(1)"
+ },
+ {
+  "topic": "mi",
+  "front": "TRIA key numbers (2019 reauthorization)",
+  "back": "Insurer deductible 20% of prior-year direct earned premium. Federal share 80%. Program trigger $200 million. Annual cap $100 billion. Certification requires more than $5 million in losses. Program ends Dec 31, 2027 (extension bills pending in 2026).",
+  "source": "TRIA §§102(1),(7), 103(e), 108(a); 15 U.S.C. 6701 note"
+ },
+ {
+  "topic": "mi",
+  "front": "TRIA certification",
+  "back": "By the Secretary of the Treasury, in consultation with the Secretary of Homeland Security and the Attorney General. Not for a war declared by Congress (except workers' comp). Not reviewable by courts.",
+  "source": "TRIA §102(1)"
+ },
+ {
+  "topic": "mi",
+  "front": "TRIA: lines covered vs excluded",
+  "back": "Covered: commercial P&C, including workers' comp, excess, and D&O. Excluded: commercial auto, burglary/theft, surety, professional liability, farmowners MP, crop, mortgage/title, medical malpractice, health/life, NFIP flood, reinsurance.",
+  "source": "TRIA §102(11)"
+ },
+ {
+  "topic": "mi",
+  "front": "Producer terminated (500.1209): what may the producer do?",
+  "back": "Service existing policies. Without the insurer's approval, the producer may not bind new risks, renew, or increase the insurer's obligation (unless the contract says otherwise). The insurer may not cancel or nonrenew policies because of the termination.",
+  "source": "MCL 500.1209(1)"
+ },
+ {
+  "topic": "mi",
+  "front": "Permitted reasons to terminate a home/auto producer",
+  "back": "Malfeasance; breach of fiduciary duty or trust; violation of the Code; failure to perform the contract; fewer than 25 home and auto applications in the prior 12 months. NOT permitted: geographic location or location-related loss experience.",
+  "source": "MCL 500.1209(2)-(3)"
+ },
+ {
+  "topic": "mi",
+  "front": "Eligible person: home insurance",
+  "back": "Owner-occupant or tenant of a house, condo or co-op unit, room, or apartment, or owner-occupant of a dwelling of up to 4 units. Excluded: arson conviction (5 yrs); claim denied for arson or fraud (5 yrs); refuses 80% of RC / 100% of market value / 100% ACV (tenant); nonpayment cancellation (2 yrs); taxes delinquent 2+ yrs.",
+  "source": "MCL 500.2103(2)"
+ },
+ {
+  "topic": "mi",
+  "front": "Home underwriting rules may NOT consider…",
+  "back": "The age of the structure (physical-condition rules must disregard age); location of the risk (redlining); neighboring residential property or traffic patterns as an 'adjacent hazard'. Inspection selection may not use race, color, creed, marital status, sex, national origin, residence, age, disability, or lawful occupation.",
+  "source": "MCL 500.2117(2)(b),(h); 500.2108(8); 500.2121(1)"
+ },
+ {
+  "topic": "mi",
+  "front": "Declination rules (500.2122)",
+  "back": "Give each specific reason. Written application means a written explanation. Oral application allows an oral explanation, plus a written one if requested within 90 days. Refusing to provide an application form counts as a declination.",
+  "source": "MCL 500.2122"
+ },
+ {
+  "topic": "mi",
+  "front": "Michigan Basic Property Insurance Association (FAIR plan) basics",
+  "back": "All property insurers are members. Agents write for the pool without an additional license. Inspection within the prior 6 months. 1-year policy term. Binders up to 60 days. Home policies: replacement cost at least 80% of RC; repair cost at least 100% of market value (up to 120%).",
+  "source": "MCL 500.2920, .2923, .2924, .2925"
+ },
+ {
+  "topic": "dwelling",
+  "front": "DP-1 / DP-2 / DP-3 perils",
+  "back": "DP-1: fire, lightning, internal explosion (Extended Coverage and V&MM by premium). DP-2: 16 broad named perils. DP-3: open perils on A and B, broad named perils on C. No form covers theft of contents; theft is added by endorsement.",
+  "source": "ISO DP 00 01 07 88; DP 00 02 07 88; DP 00 03 12 02"
+ },
+ {
+  "topic": "dwelling",
+  "front": "Dwelling Coverages A-E",
+  "back": "A Dwelling; B Other Structures; C Personal Property (on the Described Location); D Fair Rental Value; E Additional Living Expense (DP-2 and DP-3 only). Liability requires the Personal Liability Supplement.",
+  "source": "ISO DP 00 03 12 02; DP 00 01 07 88"
+ },
+ {
+  "topic": "dwelling",
+  "front": "DP-3 (12 02) Other Coverages percentages",
+  "back": "Other structures 10% of A (additional). Tenant improvements 10% of C. World-wide 10% of C (reduces C). Fair rental value plus ALE 20% of A (additional). Trees 5% of A, $500 per tree. Fire department $500, no deductible. Ordinance or law 10% of A.",
+  "source": "ISO DP 00 03 12 02, Other Coverages"
+ },
+ {
+  "topic": "dwelling",
+  "front": "Dwelling loss settlement",
+  "back": "DP-1: ACV. DP-2 and DP-3: buildings at replacement cost if insured to at least 80%; ACV until repaired unless the loss is under 5% of the insurance and under $2,500; 180 days to give notice of intent to repair.",
+  "source": "ISO DP 00 01 07 88 Cond. 5; DP 00 03 12 02 Cond. E"
+ },
+ {
+  "topic": "dwelling",
+  "front": "Broad Theft (DP 04 72) vs Limited Theft (DP 04 73)",
+  "back": "Broad Theft: owner-occupied (or tenant named insured), on- and off-premises. Off-premises only if on-premises is bought, and its limit cannot exceed the on-premises limit. Limited Theft: non-owner-occupied, on-premises only. Manual minimum $1,000.",
+  "source": "ISO Dwelling Policy Program Manual Rule 510"
+ },
+ {
+  "topic": "dwelling",
+  "front": "Dwelling Under Construction (DP 11 43)",
+  "back": "The Coverage A limit is provisional. The amount of insurance = provisional limit x (actual value ÷ completed value). Premium is based on the average amount of insurance. Occupancy is allowed 30 days after completion.",
+  "source": "ISO DP 11 43 12 02"
+ },
+ {
+  "topic": "dwelling",
+  "front": "Personal Liability Supplement (DL 24 01)",
+  "back": "Coverage L Personal Liability and Coverage M Medical Payments to Others (expenses within 3 years). Additional coverages include claim expenses ($250/day lost earnings) and damage to property of others up to $1,000.",
+  "source": "ISO DL 24 01 12 02"
+ },
+ {
+  "topic": "ho",
+  "front": "HO forms at a glance",
+  "back": "HO-2 named perils (A, B, C). HO-3 open A and B, named C. HO-4 tenant: C and D only. HO-5 open A, B, C. HO-6 condo/co-op unit owners, named perils A and C. HO-8 modified: 10 basic perils, for older homes where replacement cost far exceeds market value.",
+  "source": "ISO HO 00 02/03/04/05/06/08; The Institutes AIC 43"
+ },
+ {
+  "topic": "ho",
+  "front": "HO-3 05 11 Coverage C special limits",
+  "back": "Money $200. Securities/documents $1,500. Watercraft $1,500. Trailers $1,500. Theft of jewelry/watches/furs $1,500. Theft of firearms $2,500. Theft of silverware $2,500. Business property on premises $2,500, away $1,500. Portable electronics in a vehicle $1,500. Vehicle media $250.",
+  "source": "ISO HO 00 03 05 11, Sec. I C.3"
+ },
+ {
+  "topic": "ho",
+  "front": "HO-3 (HO 00 03 05 11) Coverage C limits at other locations",
+  "back": "Property usually kept at an insured's other residence: 10% of C or $1,000, whichever is greater. This limit does not apply to property moved out while the home is being repaired and unfit to live in, or to property in a newly acquired principal residence for 30 days. Property in a self-storage facility: same 10%/$1,000 limit, except for property moved out during repairs or property usually kept at another residence.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.2.a-b"
+ },
+ {
+  "topic": "ho",
+  "front": "HO-3 (HO 00 03 05 11) Section I Additional Coverages ($/%)",
+  "back": "Debris removal +5%. Tree removal $1,000 ($500 per tree). Trees/shrubs 5% of A ($500 per tree, no windstorm). Fire department $500. Property removed 30 days. Credit card/forgery $500. Loss assessment $1,000. Landlord's furnishings $2,500. Ordinance or law 10% of A. Grave markers $5,000.",
+  "source": "ISO HO 00 03 05 11, Sec. I E.1-12"
+ },
+ {
+  "topic": "ho",
+  "front": "HO-3 80% replacement cost rule",
+  "back": "If insured to at least 80% of RC: pay RC (least of limit, RC, amount spent). If below 80%: pay the greater of ACV or (insurance ÷ 80% of RC) x RC loss. Foundations and underground pipes are excluded from the 80% calculation.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. D.2"
+ },
+ {
+  "topic": "ho",
+  "front": "HO-3 vacancy rules",
+  "back": "Vandalism/malicious mischief and glass breakage are not covered if the dwelling was vacant more than 60 consecutive days before the loss. A dwelling under construction is not vacant.",
+  "source": "ISO HO 00 03 05 11, Sec. I Perils A.2.c(4); E.9"
+ },
+ {
+  "topic": "ho",
+  "front": "HO-3 (HO 00 03 05 11) key condition time limits",
+  "back": "Proof of loss: within 60 days of the insurer's request. Appraisal: 20 days to name appraisers, 15 days to agree on an umpire. Our option: 30 days after proof of loss. Loss payment: 60 days (Michigan statute: 30 days after proof of the amount of loss). Suit: within 2 years. Michigan law requires at least 1 year or the policy period if longer, tolled from notice of loss until formal denial. Notice of intent to claim replacement cost: 180 days. Mortgagee notice: 10 days. Liberalization: 60 days.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. C, F, H-J, L; Secs I & II Cond. A; MCL 500.2833(1)(p)-(q)"
+ },
+ {
+  "topic": "ho",
+  "front": "HO-3 cancellation by insurer",
+  "back": "Nonpayment: 10 days. New policy in force under 60 days: any reason, 10 days. After 60 days or on renewal: only material misrepresentation or substantial change in risk, 30 days. Nonrenewal: 30 days. (Michigan home insurance: 30 days, or 20 days in the first 55 days, per 500.2123.)",
+  "source": "ISO HO 00 03 05 11, Secs I & II Cond. C-D; MCL 500.2123"
+ },
+ {
+  "topic": "ho",
+  "front": "Coverage F basics",
+  "back": "Medical expenses incurred or ascertained within 3 years. Not for you or regular household residents (except residence employees). Manual minimum $1,000 per person; Coverage E minimum $100,000.",
+  "source": "ISO HO 00 03 05 11, Sec. II B; ISO HO Manual Table 301 (RIJRA)"
+ },
+ {
+  "topic": "ho",
+  "front": "HO-3 (HO 00 03 05 11) Section II additional coverages",
+  "back": "Claim expenses (including $250/day lost earnings). First aid. Damage to property of others $1,000 at RC (not if intentional by an insured age 13+). Loss assessment $1,000. All are in addition to the limits.",
+  "source": "ISO HO 00 03 05 11, Sec. II Add'l Cov."
+ },
+ {
+  "topic": "ho",
+  "front": "Watercraft liability under HO-3 05 11",
+  "back": "Covered: sailboats under 26 ft; owned outboards totaling 25 hp or less; inboards 50 hp or less if not owned. Owned outboards over 25 hp are covered only if acquired during the policy period, or declared at inception or reported within 45 days. Otherwise use HO 24 75.",
+  "source": "ISO HO 00 03 05 11, Sec. II Excl. B; PF&M 2014"
+ },
+ {
+  "topic": "ho",
+  "front": "Scheduled Personal Property (HO 04 61)",
+  "back": "Open perils, worldwide, no deductible. Newly acquired jewelry, furs, cameras, or musical instruments: lesser of 25% of the class limit or $10,000, report within 30 days. Newly acquired fine arts: 25% at ACV, report within 90 days.",
+  "source": "PF&M HO 04 61 (2017)"
+ },
+ {
+  "topic": "ho",
+  "front": "Personal Property Replacement Cost (HO 04 90 05 11)",
+  "back": "RC for Coverage C, carpeting, appliances, awnings. Not eligible: antiques, fine arts, memorabilia, items in poor condition, obsolete stored items. Over $500: ACV until replaced. 180 days to claim RC.",
+  "source": "ISO HO 04 90 05 11"
+ },
+ {
+  "topic": "ho",
+  "front": "Personal Injury endorsement (HO 24 82) perils",
+  "back": "False arrest, detention or imprisonment; malicious prosecution; libel, slander, defamation; invasion of privacy; wrongful eviction or entry.",
+  "source": "PF&M 2014"
+ },
+ {
+  "topic": "ho",
+  "front": "Earthquake (HO 04 54) key terms",
+  "back": "Shocks within 72 hours count as one earthquake. Deductible = % x the greater of the A or C limit (10 00 edition minimum $250). Excludes exterior masonry veneer (unless removed), earthquake-caused flood, and filling land.",
+  "source": "ISO HO 04 54 10 00"
+ },
+ {
+  "topic": "ho",
+  "front": "Limited Fungi endorsements (HO 04 26/27/28, 04 02 edition) schedule and use",
+  "back": "Schedule: $10,000 for the Section I additional coverage (loss, removal, tear-out, testing), and a $50,000 Coverage E aggregate sublimit (within the Coverage E limit, not added to it). HO 04 27 is for HO-3 and HO-5. HO 04 26 is for all other forms. HO 04 28 is for HO-4 with HO 05 24, or HO-6 with HO 17 31 or HO 17 32.",
+  "source": "ISO HO 04 26 / 04 27 / 04 28 04 02; PF&M 2014"
+ }
+]
