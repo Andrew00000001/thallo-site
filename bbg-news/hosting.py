@@ -2,8 +2,9 @@
 
 Primary: each publish force-pushes a single parentless commit holding only that post's files to
 the `bbg-media` branch and serves it from raw.githubusercontent.com pinned to the commit. Old
-media drops out of the branch on the next publish, so the repo doesn't grow with every video.
-Fallback: a GitHub Release asset (used if Instagram rejects the raw URL for a video).
+media drops out of the branch on the next publish, so clones don't grow with every video, but
+GitHub keeps serving a replaced commit by its SHA until GitHub itself garbage-collects it.
+Fallback: a GitHub Release asset, deleted after use (used if Instagram can't fetch a raw video URL).
 """
 import os
 import subprocess
@@ -50,4 +51,6 @@ def release_asset(path):
 
 
 def remove_release_asset(path):
-    _gh("release", "delete-asset", RELEASE_TAG, Path(path).name, "--yes")
+    p = _gh("release", "delete-asset", RELEASE_TAG, Path(path).name, "--yes")
+    if p.returncode != 0:
+        print(f"Warning: couldn't delete release asset {Path(path).name}: {p.stderr.strip()}")

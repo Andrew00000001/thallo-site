@@ -23,20 +23,43 @@ class Discord:
         })
 
     def _req(self, method, path, **kw):
+        where = f"{method} {path.split('?')[0]}"
         for _ in range(4):
-            r = self.s.request(method, f"{API}{path}", timeout=30, **kw)
+            try:
+                r = self.s.request(method, f"{API}{path}", timeout=30, **kw)
+            except requests.RequestException as e:
+                raise DiscordError(f"{where}: {type(e).__name__}") from None
             if r.status_code == 429:
-                time.sleep(float(r.json().get("retry_after", 1)) + 0.25)
+                try:
+                    wait = float(r.json().get("retry_after", 1))
+                except ValueError:
+                    wait = float(r.headers.get("Retry-After", 5))
+                time.sleep(min(wait, 60) + 0.25)
                 continue
             if r.status_code >= 400:
-                # Stop on auth errors: repeated 401/403s can get the runner's IP banned.
-                raise DiscordError(f"{method} {path.split('?')[0]}: HTTP {r.status_code} {r.text[:200]}")
-            return r.json() if r.content else None
-        raise DiscordError(f"{method} {path.split('?')[0]}: still rate limited")
+                # Callers stop on errors: repeated 401/403s can get the runner's IP banned.
+                raise DiscordError(f"{where}: HTTP {r.status_code} {r.text[:200]}")
+            try:
+                return r.json() if r.content else None
+            except ValueError:
+                raise DiscordError(f"{where}: unreadable response") from None
+        raise DiscordError(f"{where}: still rate limited")
 
     def messages(self, channel, limit=100):
         """Newest `limit` messages, newest first."""
         return self._req("GET", f"/channels/{channel}/messages?limit={limit}")
+
+    def message(self, channel, message):
+        """One message, or None if it was deleted."""
+        try:
+            return self._req("GET", f"/channels/{channel}/messages/{message}")
+        except DiscordError as e:
+            if "HTTP 404" in str(e):
+                return None
+            raise
+
+    def delete(self, channel, message):
+        self._req("DELETE", f"/channels/{channel}/messages/{message}")
 
     def reaction_users(self, channel, message, emoji):
         """IDs of users who reacted with `emoji` (first 100)."""

@@ -34,6 +34,8 @@ jobs:
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }} # branch tip, not the run's trigger SHA: a queued run must see the last run's state
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

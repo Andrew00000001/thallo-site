@@ -15,23 +15,25 @@ Posts to the BBG News Instagram automatically from GitHub Actions. Runs every 15
 
 Limits: 3 auto posts + 3 clips per day (`config.json`). Old announcements and videos are skipped on the first run. Every caption ends with "BBG News is an unofficial fan page, not affiliated with SkyVu."
 
-**Accuracy guard:** if Steam's release date ever differs from `launch_date` in `config.json` (e.g. a delay), the bot posts nothing and the run fails, so GitHub emails you. Update `launch_date`, `launch_line` and `footer_line`, then it resumes.
+**Accuracy guard:** if Steam's release date ever differs from `launch_date` in `config.json` (e.g. a delay), the bot posts nothing and the run fails, so GitHub emails you. Update `launch_date`, `launch_line` and `footer_line` (and the dated facts in `content/evergreen.json`, like `fact-platforms`), then it resumes.
 
 ## How Discord clips work
 
 In your **#submit-clips** channel:
 
-1. A player posts a video. The bot reacts 👀 and replies asking for permission.
-2. The player reacts 👍 on the bot's reply. That's their go-ahead to post it on Instagram with credit (Discord's developer terms require the player's explicit OK).
-3. **You** react ✅ on the clip to approve it, or ❌ to reject it. Only your reactions count.
-4. The bot makes a branded 9:16 Reel, posts it, replies with the link and reacts 📸.
+1. A player posts a video. The bot reacts 👀 and replies with a **clip request** that shows exactly how the player will be credited.
+2. The player reacts 👍 on that request. That's their go-ahead to post it on Instagram with that credit (Discord's developer terms require the player's explicit OK).
+3. **You** react ✅ on the same request to approve it, or ❌ to skip it. Only your reactions count, and the bot pre-adds 👍 ✅ ❌ so each is one tap.
+4. The bot makes a branded 9:16 Reel, posts it, replies with the link and reacts 📸 on the clip.
 
-- Your own clips skip step 2: just post and ✅.
+- Everything is decided on the bot's request, which players can't edit. If a player edits their clip message afterwards, the bot deletes the old request and sends a new one, so the 👍 and ✅ have to be given again.
+- Your own clips skip step 2: post, then ✅ on the bot's request.
 - To write the caption yourself, reply to the clip with `caption: your text` before approving.
-- Players get tagged as text in the caption if they add `ig: @theirhandle` to their message; otherwise their Discord name is used.
-- Free Discord uploads max out at 20 MB, so ask players to trim to the best 10–30 seconds.
+- Players are credited by their Instagram handle (as text in the caption) if their message has `ig: @theirhandle`, otherwise by their Discord display name. The request shows which.
+- ❌ only skips while it's there: remove it and add ✅ to post after all.
+- Free Discord uploads max out at 20 MB, so ask players to trim to the best 10–30 seconds. One clip per message.
 - Instagram runs a copyright check on every video. If it matches (usually music), the bot skips the clip and tells the player.
-- The bot only looks at the newest 100 messages in #submit-clips, so keep that channel for clips.
+- If Instagram is down or the token expires, approved clips wait and post once it's fixed. A clip is only given up on (and the player told) after its own video fails 3 times.
 
 Every post is also mirrored into your **#bbg-news-feed** channel, if you set one up.
 
@@ -43,7 +45,7 @@ Every post is also mirrored into your **#bbg-news-feed** channel, if you set one
 3. At [developers.facebook.com/apps](https://developers.facebook.com/apps), create an app and pick **Business** as the type. Add the **Instagram** product. Open **Instagram > API setup with Instagram business login**, click **Generate token** next to your account, log in, and copy the token (valid 60 days).
 
 ### 2. Discord
-1. Create your own server (e.g. "BBG News") with a **#submit-clips** channel and, optionally, a read-only **#bbg-news-feed** channel. You can't add a bot to the official Battle Bears server unless you have Manage Server there.
+1. Create your own server (e.g. "BBG News") with a **#submit-clips** channel and, optionally, a **#bbg-news-feed** channel. You can't add a bot to the official Battle Bears server unless you have Manage Server there. If you make the feed read-only for everyone, add the bot in that channel's **Permissions** with **Send Messages** and **Attach Files** allowed, or the mirror can't post.
 2. At [discord.com/developers/applications](https://discord.com/developers/applications): **New Application** → name it → **Create**.
    - **Bot** page: click **Reset Token** and copy it. Turn **Message Content Intent** ON (without it the bot can't see attachments). Turn **Public Bot** OFF.
    - **General Information** page: copy the **Application ID**, and set **Privacy Policy URL** to this repo's `bbg-news/PRIVACY.md` on GitHub.
@@ -77,7 +79,7 @@ Actions → *BBG News auto-post* → **Run workflow** with *preview* ticked: you
 
 ## How media is hosted
 
-Instagram never takes direct uploads on this kind of app; it downloads each file from a public URL. Each post pushes a single commit holding only that post's files to the `bbg-media` branch (replaced by the next post) and hands Instagram the commit-pinned `raw.githubusercontent.com` link. If Instagram rejects that link for a video, the bot retries once with a temporary GitHub Release asset and deletes it afterwards.
+Instagram never takes direct uploads on this kind of app; it downloads each file from a public URL. Each post pushes a single commit holding only that post's files to the `bbg-media` branch and hands Instagram the commit-pinned `raw.githubusercontent.com` link. The next post replaces the branch, but GitHub keeps serving a replaced commit by its link until GitHub cleans it up, so treat every pushed file as public (that includes a clip that Instagram's copyright check then blocks). If Instagram can't fetch a video from that link, the bot retries once with a temporary GitHub Release asset and deletes it afterwards.
 
 ## Customize
 

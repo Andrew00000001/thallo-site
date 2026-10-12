@@ -25,7 +25,7 @@ import render
 import sources
 import video
 from discord_api import Discord, DiscordError
-from instagram import ContainerError, CopyrightMatch, Instagram
+from instagram import TRANSIENT_CODES, ContainerError, CopyrightMatch, Instagram, InstagramError
 
 ROOT = Path(__file__).parent
 CFG = json.loads((ROOT / "config.json").read_text())
@@ -41,7 +41,7 @@ MAX_FAILURES = 3
 STATE_DEFAULTS = {
     "steam_seeded": False, "steam_seen": [],
     "youtube_seeded": False, "youtube_seen": [],
-    "trailers_done": [], "clips": {}, "failures": {}, "posted": [],
+    "trailers_done": [], "clips": {}, "failures": {}, "inflight": {}, "posted": [],
 }
 
 
@@ -120,8 +120,9 @@ def caption(body, source, launched):
 
 def countdown_caption(n):
     if n == 0:
+        d = date.fromisoformat(CFG["launch_date"])
         return (
-            "🚨 IT'S LAUNCH DAY. Steam lists Battle Bears Gold for release today, Nov 4.\n\n"
+            f"🚨 IT'S LAUNCH DAY. Steam lists Battle Bears Gold for release today, {d:%b} {d.day}.\n\n"
             "Grab your loadout and we'll see you on the battlefield. Who's on first? 👇"
         )
     when = "TOMORROW" if n == 1 else f"in {n} days"
@@ -190,17 +191,15 @@ def trailer_post(t, launched):
     }
 
 
-def clip_post(c, owner, launched):
-    m = c["msg"]
-    mine = m["author"]["id"] == owner
-    name, on_video = clips.credit(m)
+def clip_post(c, launched):
+    m, mine, name = c["msg"], c["mine"], c["credit"]
     if mine:
         body = c["caption"] or "🎥 Fresh Battle Bears Gold gameplay."
         source, tag, credit_line = "BBG News gameplay", "GAMEPLAY", "BBG NEWS GAMEPLAY"
     else:
         intro = f"{c['caption']}\n\n" if c["caption"] else ""
         body = f"{intro}🎥 Community clip by {name}!\n\nGot a clip? Submit it in the BBG News Discord (link in bio)."
-        source, tag, credit_line = f"Clip by {name}, shared with their permission", "COMMUNITY CLIP", f"CLIP BY {on_video}"
+        source, tag, credit_line = f"Clip by {name}, shared with their permission", "COMMUNITY CLIP", f"CLIP BY {clips.on_video(name)}"
     return {
         "id": f"clip-{m['id']}",
         "kind": "clip",
@@ -214,7 +213,7 @@ def clip_post(c, owner, launched):
 
 # ---------- Post selection ----------
 
-def choose(state, t, ready_clips, owner=None):
+def choose(state, t, ready_clips):
     """Returns the next post dict, or None. May update state (first-run seeding)."""
     today = t.date()
     launch = date.fromisoformat(CFG["launch_date"])
@@ -222,8 +221,8 @@ def choose(state, t, ready_clips, owner=None):
     release, coming_soon = sources.steam_release(APP)
     if release != launch:
         raise SystemExit(
-            f"Steam release date is now {release} but config.json says {launch}. "
-            "Update launch_date, launch_line and footer_line in config.json, then re-run."
+            f"Steam release date is now {release} but config.json says {launch}. Update launch_date, "
+            "launch_line and footer_line in config.json (and dated facts in content/evergreen.json), then re-run."
         )
     launched = not coming_soon
     if today > launch and coming_soon:
@@ -233,7 +232,7 @@ def choose(state, t, ready_clips, owner=None):
     blocked = {pid for pid, n in state["failures"].items() if n >= MAX_FAILURES}
 
     def fresh(pid):
-        return pid not in posted_ids and pid not in blocked
+        return pid not in posted_ids and pid not in blocked and pid not in state["inflight"]
 
     today_posts = [p for p in state["posted"] if p["date"] == today.isoformat()]
     auto_today = [p for p in today_posts if p["kind"] != "clip"]
@@ -252,8 +251,12 @@ def choose(state, t, ready_clips, owner=None):
             return news_post(item, launched)
 
     # 2. New videos on the official YouTube channel (announced with a card, not reposted).
-    if env("YOUTUBE_API_KEY"):
-        vids = sources.youtube_uploads(env("YOUTUBE_API_KEY"))
+    try:
+        vids = sources.youtube_uploads(env("YOUTUBE_API_KEY")) if env("YOUTUBE_API_KEY") else None
+    except (requests.RequestException, KeyError, ValueError) as e:
+        log(f"YouTube check skipped this run: {type(e).__name__}")  # optional source; never blocks posting
+        vids = None
+    if vids is not None:
         if not state["youtube_seeded"]:
             state["youtube_seen"] = [v["id"] for v in vids]
             state["youtube_seeded"] = True
@@ -267,7 +270,7 @@ def choose(state, t, ready_clips, owner=None):
     if len(clips_today) < CFG["max_clips_per_day"]:
         for c in ready_clips:
             if fresh(f"clip-{c['msg']['id']}"):
-                return clip_post(c, owner, launched)
+                return clip_post(c, launched)
 
     if not auto_room:
         return None
@@ -318,6 +321,7 @@ def mark_done(state, post, media_id):
     elif kind == "clip":
         state["clips"].setdefault(post["discord"]["msg"], {"prompt": None})["status"] = "posted"
     state["failures"].pop(pid, None)
+    state["inflight"].pop(pid, None)
     state["posted"].append({
         "id": pid, "kind": kind,
         "date": now().date().isoformat(), "at": now().isoformat(timespec="minutes"),
@@ -339,18 +343,53 @@ def drop_clip(state, post, reason):
             log(f"Discord reply failed: {e}")
 
 
-def record_failure(state, post):
+def record_failure(state, post, reason="Instagram kept rejecting the video."):
+    """Counts a failure caused by the post itself; at MAX_FAILURES the post is given up on."""
     n = state["failures"].get(post["id"], 0) + 1
     state["failures"][post["id"]] = n
     if n >= MAX_FAILURES and post["kind"] == "clip":
-        drop_clip(state, post, "it failed to upload to Instagram several times.")
+        drop_clip(state, post, reason)
     return n
+
+
+def post_caused(e):
+    """True if the error is about this post's media, not an outage, limit or expired token."""
+    if isinstance(e, (ContainerError, video.VideoError)):
+        return True
+    return isinstance(e, InstagramError) and e.code is not None and e.code not in TRANSIENT_CODES
+
+
+def reconcile(state):
+    """Settles posts whose publish result was unclear last run (e.g. a timeout), so they're never doubled."""
+    if not state["inflight"] or not env("IG_ACCESS_TOKEN"):
+        return
+    ig = Instagram(env("IG_ACCESS_TOKEN"))
+    for pid, info in list(state["inflight"].items()):
+        try:
+            status = ig.container_status(info["container"])
+        except (InstagramError, requests.RequestException, ValueError) as e:
+            log(f"Couldn't check the earlier upload of {pid} yet: {type(e).__name__}")
+            continue
+        state["inflight"].pop(pid)
+        if status != "PUBLISHED":
+            continue
+        post = {"id": pid, "kind": info["kind"], "discord": {"msg": pid.removeprefix("clip-")}}
+        mark_done(state, post, None)
+        log(f"{pid} had already been published; recorded it.")
+        dc = discord()
+        if dc and info["kind"] == "clip":
+            try:
+                dc[0].react(dc[1], post["discord"]["msg"], clips.POSTED)
+            except DiscordError as e:
+                log(f"Discord follow-up failed: {e}")
 
 
 # ---------- Commands ----------
 
 def cmd_prepare():
+    PENDING_FILE.unlink(missing_ok=True)  # a leftover from a failed run must never be published later
     state = load_state()
+    reconcile(state)
     ready, dc = [], discord()
     if dc:
         try:
@@ -358,7 +397,7 @@ def cmd_prepare():
         except DiscordError as e:
             log(f"Discord sync skipped: {e}")
         save_state(state)
-    post = choose(state, now(), ready, owner=dc[2] if dc else None)
+    post = choose(state, now(), ready)
     save_state(state)
     if not post:
         log("Nothing to post this run.")
@@ -370,13 +409,18 @@ def cmd_prepare():
         src = WORK / ("clip" + (Path(post["video"]["filename"]).suffix.lower() or ".mp4"))
         try:
             dc[0].download(post["video"]["url"], src, CFG["max_clip_mb"] * 1024 * 1024)
-        except (DiscordError, requests.RequestException) as e:
-            log(f"Clip download failed: {e}")
-            if isinstance(e, DiscordError):
-                drop_clip(state, post, f"it's bigger than {CFG['max_clip_mb']} MB.")
-            else:
-                record_failure(state, post)
+        except DiscordError:  # only raised for oversized files
+            drop_clip(state, post, f"it's bigger than {CFG['max_clip_mb']} MB.")
             save_state(state)
+            set_output(has_post="false", needs_ffmpeg="false")
+            return
+        except requests.RequestException as e:
+            # Never log str(e): it contains the signed attachment URL and the player's filename.
+            status = getattr(getattr(e, "response", None), "status_code", None)
+            log(f"Clip download failed ({type(e).__name__} {status or ''}); will retry next run.")
+            if status and 400 <= status < 500:  # the file itself is gone or forbidden, not an outage
+                record_failure(state, post, "the video couldn't be downloaded from Discord. Try posting it again.")
+                save_state(state)
             set_output(has_post="false", needs_ffmpeg="false")
             return
         post["video"] = {"type": "file", "path": str(src)}  # don't keep the signed Discord URL
@@ -421,28 +465,30 @@ def wait_public(url):
         if requests.head(url, timeout=30).status_code == 200:
             return
         time.sleep(5)
-    raise SystemExit(f"Media not publicly reachable: {url}")
+    raise RuntimeError("media not publicly reachable yet")
 
 
-def publish_media(ig, post):
+def publish_media(ig, post, on_container):
     if "reel" in post:
         urls = hosting.push_media([post["reel"], post["cover"]])
         reel_url, cover_url = urls[Path(post["reel"]).name], urls[Path(post["cover"]).name]
         wait_public(reel_url)
         try:
-            return ig.publish_reel(reel_url, post["caption"], cover_url)
+            return ig.publish_reel(reel_url, post["caption"], cover_url, on_container)
         except ContainerError as e:
-            log(f"Instagram rejected the raw.githubusercontent.com video ({e}); retrying via a Release asset.")
+            if not e.fetch_failed:
+                raise
+            log(f"Instagram couldn't use the raw.githubusercontent.com video ({e}); retrying via a Release asset.")
         alt = hosting.release_asset(post["reel"])
         try:
-            return ig.publish_reel(alt, post["caption"], cover_url)
+            return ig.publish_reel(alt, post["caption"], cover_url, on_container)
         finally:
             hosting.remove_release_asset(post["reel"])
     if "video" in post:
         raise SystemExit("Pending video post was never rendered (run render-video first).")
     url = hosting.push_media([post["image"]])[Path(post["image"]).name]
     wait_public(url)
-    return ig.publish_image(url, post["caption"])
+    return ig.publish_image(url, post["caption"], on_container)
 
 
 def announce(post, permalink):
@@ -451,19 +497,23 @@ def announce(post, permalink):
     if not dc:
         return
     client, channel, _, feed = dc
-    try:
-        if post["kind"] == "clip":
-            d = post["discord"]
-            client.react(channel, d["msg"], clips.POSTED)
-            if not d["mine"]:
-                client.reply(channel, d["msg"], f"<@{d['author']}> your clip is live on Instagram: {permalink} 🙌",
-                             ping=d["author"])
-        if feed:
-            first = post["caption"].split("\n", 1)[0]
-            client.send(feed, f"**New on BBG News:** {first}\n{permalink or ''}".strip(),
-                        file_path=post.get("cover") or post.get("image"))
-    except DiscordError as e:
-        log(f"Discord follow-up failed: {e}")
+    steps = []
+    if post["kind"] == "clip":
+        d = post["discord"]
+        steps.append(lambda: client.react(channel, d["msg"], clips.POSTED))
+        if not d["mine"]:
+            where = permalink or "the BBG News Instagram"
+            steps.append(lambda: client.reply(channel, d["msg"], f"<@{d['author']}> your clip is live on {where} 🙌",
+                                              ping=d["author"]))
+    if feed:
+        first = post["caption"].split("\n", 1)[0]
+        steps.append(lambda: client.send(feed, f"**New on BBG News:** {first}\n{permalink or ''}".strip(),
+                                         file_path=post.get("cover") or post.get("image")))
+    for step in steps:
+        try:
+            step()
+        except DiscordError as e:
+            log(f"Discord follow-up failed: {e}")
 
 
 def cmd_publish():
@@ -475,8 +525,13 @@ def cmd_publish():
         raise SystemExit("IG_ACCESS_TOKEN is not set. Add it as a GitHub Actions secret.")
     ig = Instagram(env("IG_ACCESS_TOKEN"))
     state = load_state()
+
+    def on_container(container):
+        state["inflight"][post["id"]] = {"container": container, "kind": post["kind"]}
+        save_state(state)
+
     try:
-        media_id = publish_media(ig, post)
+        media_id = publish_media(ig, post, on_container)
     except CopyrightMatch:
         if post["kind"] == "clip":
             drop_clip(state, post, "Instagram's copyright check flagged it (usually background music). "
@@ -487,10 +542,13 @@ def cmd_publish():
         PENDING_FILE.unlink()
         log(f"Skipped {post['id']}: Instagram copyright match.")
         return
-    except BaseException:
-        n = record_failure(state, post)
+    except BaseException as e:
+        if post_caused(e):
+            n = record_failure(state, post)
+            log(f"Publish failed for {post['id']} (attempt {n}/{MAX_FAILURES}).")
+        else:
+            log(f"Publish failed for {post['id']} for a reason unrelated to the post; it will be retried.")
         save_state(state)
-        log(f"Publish failed for {post['id']} (attempt {n}/{MAX_FAILURES}).")
         raise
 
     mark_done(state, post, media_id)
@@ -516,10 +574,10 @@ def cmd_preview():
         lines.append(f"## {p['id']}\n\n![]({path.name})\n\n```\n{p['caption']}\n```\n")
 
     if shutil.which("ffmpeg"):
-        fake_clip = {"msg": {"id": "example", "content": "ig: @your.handle", "author": {"id": "1", "username": "player"}},
-                     "att": {"url": "", "filename": "clip.mp4"}, "caption": None}
+        fake_clip = {"msg": {"id": "example", "author": {"id": "1", "username": "player"}},
+                     "att": {"url": "", "filename": "clip.mp4"}, "caption": None, "mine": False, "credit": "@your.handle"}
         samples = [trailer_post(t, False) for t in sources.steam_trailers(APP)[:1]]
-        samples.append(clip_post(fake_clip, owner="0", launched=False))
+        samples.append(clip_post(fake_clip, launched=False))
         WORK.mkdir(parents=True, exist_ok=True)
         src = video.download_hls(sources.steam_trailers(APP)[0]["hls"], WORK / "trailer.mp4")
         for p in samples:

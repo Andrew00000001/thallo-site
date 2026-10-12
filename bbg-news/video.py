@@ -67,6 +67,7 @@ def render_reel(src, overlay_png, out, max_seconds):
         "-maxrate", "6M", "-bufsize", "12M", "-pix_fmt", "yuv420p", "-r", "30",
         "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv",
         "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2",
+        "-map_metadata", "-1", "-map_chapters", "-1",  # drop the source's GPS/title/author tags
         "-use_editlist", "0", "-movflags", "+faststart",
         str(out),
     ])
