@@ -973,5 +973,500 @@
   "answer": 1,
   "explain": "Under 387.9, the minimum is $750,000 for nonhazardous property. Oil and most hazardous materials require $1,000,000, and certain bulk hazardous substances, explosives and radioactive materials require $5,000,000.",
   "source": "49 CFR 387.9"
+ },
+ {
+  "id": "auto-gap-01",
+  "topic": "auto",
+  "sub": "PAP Liability > Bodily Injury and Property Damage (insuring agreement, who is insured)",
+  "q": "Kim's son lives with her. He causes an accident while driving a friend's car with permission, and no one in Kim's household owns that car or has it for regular use. Under Part A – Liability Coverage of Kim's 2018 ISO Personal Auto Policy, her son is:",
+  "choices": [
+   "An insured",
+   "Not an insured",
+   "An insured only if the friend has no auto insurance",
+   "An insured only if the friend's insurer denies the claim"
+  ],
+  "answer": 0,
+  "explain": "Part A insureds include you or any family member for the ownership, maintenance or use of any auto or trailer. Coverage for a vehicle you do not own is excess over any other collectible insurance, so it applies whether or not the friend is insured.",
+  "source": "ISO PP 00 01 09 18 (Personal Auto Policy), Part A – Liability Coverage, Insuring Agreement B.1, Exclusions B.2–B.3 and Other Insurance; Definitions F ('family member')"
+ },
+ {
+  "id": "auto-gap-02",
+  "topic": "auto",
+  "sub": "PAP Liability > Bodily Injury and Property Damage (insuring agreement, who is insured)",
+  "q": "Under Part A – Liability Coverage of the 2018 ISO Personal Auto Policy, the defense costs the insurer incurs are:",
+  "choices": [
+   "Included within the limit of liability",
+   "Shared equally by the insurer and the insured",
+   "Paid only if the insured is found liable",
+   "Paid in addition to the limit of liability"
+  ],
+  "answer": 3,
+  "explain": "The Part A insuring agreement states that, in addition to the limit of liability, the insurer pays all defense costs it incurs. Its duty to settle or defend ends when the limit is exhausted by payment of judgments or settlements.",
+  "source": "ISO PP 00 01 09 18, Part A – Liability Coverage, Insuring Agreement A"
+ },
+ {
+  "id": "auto-gap-03",
+  "topic": "auto",
+  "sub": "Personal Auto > Medical Payments Coverage (Part B)",
+  "q": "Under Part B – Medical Payments Coverage of the 2018 ISO Personal Auto Policy, the insurer pays only for expenses for services rendered within what period from the date of the accident?",
+  "choices": [
+   "1 year",
+   "2 years",
+   "3 years",
+   "5 years"
+  ],
+  "answer": 2,
+  "explain": "Part B pays reasonable expenses for necessary medical and funeral services because of bodily injury caused by an accident, but only for services rendered within three years from the date of the accident.",
+  "source": "ISO PP 00 01 09 18, Part B – Medical Payments Coverage, Insuring Agreement A"
+ },
+ {
+  "id": "auto-gap-04",
+  "topic": "auto",
+  "sub": "Personal Auto > Medical Payments Coverage (Part B)",
+  "q": "Under Part B – Medical Payments Coverage of the 2018 ISO Personal Auto Policy, insureds include all of the following EXCEPT:",
+  "choices": [
+   "The named insured, struck by a car while walking",
+   "A neighbor, struck by the named insured's car while walking",
+   "A family member, while occupying a friend's car",
+   "A guest, while occupying the named insured's covered auto"
+  ],
+  "answer": 1,
+  "explain": "Part B insureds are you or any family member while occupying, or as a pedestrian when struck by, a motor vehicle designed for use mainly on public roads (or a trailer), and any other person while occupying your covered auto. Someone else struck as a pedestrian is not a Part B insured.",
+  "source": "ISO PP 00 01 09 18, Part B – Medical Payments Coverage, Insuring Agreement B"
+ },
+ {
+  "id": "auto-gap-05",
+  "topic": "auto",
+  "sub": "Personal Auto > Duties After an Accident or Loss (Part E)",
+  "q": "Under Part E – Duties After An Accident Or Loss of the 2018 ISO Personal Auto Policy, the insurer has no duty to provide coverage when a person fails to comply with a listed duty if:",
+  "choices": [
+   "The failure is prejudicial to the insurer",
+   "The person seeking coverage caused the accident",
+   "The claim is for bodily injury only",
+   "The person has made an earlier claim under the policy"
+  ],
+  "answer": 0,
+  "explain": "Part E opens: 'We have no duty to provide coverage under this Policy if the failure to comply with the following duties is prejudicial to us.'",
+  "source": "ISO PP 00 01 09 18, Part E – Duties After An Accident Or Loss (opening paragraph)"
+ },
+ {
+  "id": "auto-gap-06",
+  "topic": "auto",
+  "sub": "Personal Auto > Duties After an Accident or Loss (Part E)",
+  "q": "Under Part E of the 2018 ISO Personal Auto Policy, a person seeking Uninsured Motorists Coverage must also:",
+  "choices": [
+   "Obtain the insurer's consent before seeking medical treatment",
+   "File suit against the uninsured driver before making a claim",
+   "Promptly notify the police if a hit-and-run driver is involved",
+   "Permit the insurer to inspect the other driver's car"
+  ],
+  "answer": 2,
+  "explain": "Besides the general duties (prompt notice, cooperation, sending legal papers, exams, records and proof of loss), a person seeking Uninsured Motorists Coverage must promptly notify the police if a hit-and-run driver is involved and promptly send copies of legal papers if a suit is brought.",
+  "source": "ISO PP 00 01 09 18, Part E – Duties After An Accident Or Loss, A–C"
+ },
+ {
+  "id": "auto-gap-07",
+  "topic": "auto",
+  "sub": "PAP Endorsements > PIP Coverage - Michigan (3107, 3108)",
+  "q": "Under Michigan's no-fault law, a deductible on the PIP coverage of a Michigan Personal Auto Policy applies only to benefits payable to:",
+  "choices": [
+   "Any person occupying the named insured's covered auto",
+   "Any pedestrian struck by the named insured's covered auto",
+   "Any passenger who has no auto insurance of their own",
+   "The named insured, spouse and resident relatives"
+  ],
+  "answer": 3,
+  "explain": "An insurer may offer a PIP deductible at an appropriately reduced premium, but the deductible applies only to benefits payable to the person named in the policy, the spouse, and any relative of either domiciled in the same household. It does not apply to other occupants, pedestrians or passengers.",
+  "source": "MCL 500.3109(3) (legislature.mi.gov, read Oct. 2026). ISO's Michigan PIP endorsement for the Personal Auto Policy is Personal Injury Protection Coverage – Michigan, current edition PP 05 90 03 26 per Wolters Kluwer 'Personal Automobile Policy Forms and Endorsements' list (generated Oct. 13, 2026)"
+ },
+ {
+  "id": "auto-gap-08",
+  "topic": "auto",
+  "sub": "PAP Endorsements > PIP Coverage - Michigan (3107, 3108)",
+  "q": "Under Michigan's no-fault law, which person may waive the work loss part of PIP coverage in exchange for a reduced premium?",
+  "choices": [
+   "A person enrolled in Medicaid whose relatives have health coverage",
+   "A person 60 or older not eligible for work loss benefits",
+   "Any named insured who signs a rejection form at policy inception",
+   "A 55-year-old who has retired from work"
+  ],
+  "answer": 1,
+  "explain": "Only a person 60 years of age or older who would not be eligible for work loss benefits may waive work loss coverage, by signing a waiver on a form provided by the insurer. The insurer must offer a reduced premium, and the waiver applies only to the persons who sign it. A 55-year-old does not meet the age requirement. Medicaid enrollment is a condition for choosing the $50,000 PIP medical limit, not for waiving work loss.",
+  "source": "MCL 500.3107(2)(a); MCL 500.3107c(1)(a) (legislature.mi.gov, read Oct. 2026)"
+ },
+ {
+  "id": "auto-gap-09",
+  "topic": "auto",
+  "sub": "PAP Endorsements > Property Protection Coverage - Michigan (3121)",
+  "q": "Pat, the named insured on a Michigan auto policy, backs Pat's insured car into Pat's own garage in Michigan. Under Michigan's no-fault law, Pat's property protection insurance (PPI) pays for the garage damage:",
+  "choices": [
+   "Nothing",
+   "Up to $3,000",
+   "Up to $10,000",
+   "Up to $1,000,000"
+  ],
+  "answer": 0,
+  "explain": "PPI excludes property owned by the person named in the policy, the spouse, or a resident relative of either if that person was the owner, registrant or operator of a vehicle involved in the accident.",
+  "source": "MCL 500.3123(1)(b); MCL 500.3121(1),(5)"
+ },
+ {
+  "id": "auto-gap-10",
+  "topic": "auto",
+  "sub": "PAP Endorsements > Property Protection Coverage - Michigan (3121)",
+  "q": "While servicing a customer's car, a mechanic accidentally drives it into a tool cabinet inside the repair shop. Under Michigan's no-fault law, property protection insurance (PPI) benefits for the tool cabinet are:",
+  "choices": [
+   "Payable without regard to fault",
+   "Payable only if the mechanic was not at fault",
+   "Not payable",
+   "Payable only after the shop's property insurance pays"
+  ],
+  "answer": 2,
+  "explain": "Accidental damage to tangible property under PPI does not include damage to property, other than the insured motor vehicle, that occurs within the course of a business of repairing, servicing or otherwise maintaining motor vehicles.",
+  "source": "MCL 500.3121(1)"
+ },
+ {
+  "id": "auto-gap-11",
+  "topic": "auto",
+  "sub": "Commercial Auto Forms > Garage",
+  "q": "The 2010 ISO Garage Coverage Form was designed to give a garage business, in one coverage form:",
+  "choices": [
+   "Physical damage coverage only, with liability written on a separate policy",
+   "Auto liability only, with premises liability written on a separate policy",
+   "Liability for garage operations and autos, plus garagekeepers and physical damage",
+   "Liability and trailer interchange coverage for for-hire truckers"
+  ],
+  "answer": 2,
+  "explain": "The form's sections are Liability (for 'garage operations' other than covered autos and for covered autos), Garagekeepers, Physical Damage, Garage Conditions and Definitions, so it combined the general liability and auto exposures of a garage. ISO eliminated the Garage form with its 2013 commercial auto revision.",
+  "source": "ISO CA 00 05 03 10 (Garage Coverage Form), Sections II–VI and VI.H ('garage operations'); Rough Notes PF&M, 'CA 00 05 Garage Coverage Form Analysis' (03/10 ed.); Rough Notes PF&M, 'ISO Motor Carrier Coverage Form Available Endorsements And Their Uses' (Oct. 2022): 'CA 00 05 Garage Coverage Form and CA 00 10 Business Auto Physical Damage Coverage Form were eliminated with the 10 13 edition'"
+ },
+ {
+  "id": "auto-gap-12",
+  "topic": "auto",
+  "sub": "Commercial Auto Forms > Garage",
+  "q": "Under ISO's 2010 commercial auto program, which business is eligible for the Garage Coverage Form?",
+  "choices": [
+   "A franchised auto dealer",
+   "A for-hire trucking company",
+   "A furniture store with delivery trucks",
+   "A plumbing contractor with service vans"
+  ],
+  "answer": 0,
+  "explain": "The garage form was issued to franchised and nonfranchised auto dealers, whose general liability and auto exposures overlap, so one form covered both. A for-hire trucker was written on the Truckers or Motor Carrier form, and a furniture store or plumbing contractor is not a garage business. A 2003 North Carolina Reinsurance Facility circular reports that ISO removed auto service operations, such as repair shops and service stations, from garage program eligibility, so a dealer is used here.",
+  "source": "FC&S, 'Standard Commercial Auto Program' (PropertyCasualty360, Mar. 18, 2010), eligibility; Rough Notes PF&M, 'ISO Garage Coverage Form Archive' (Oct. 2022), CA 00 05 Garage Coverage Form Analysis (03/10 edition), Introduction; North Carolina Reinsurance Facility Circular RF-03-1 (Jan. 10, 2003), 'Removal of Eligibility of Auto Service Classifications from the Garage Policy Program'"
+ },
+ {
+  "id": "auto-gap-13",
+  "topic": "auto",
+  "sub": "Commercial Auto Forms > Business Automobile Physical Damage",
+  "q": "The 2010 ISO Business Auto Physical Damage Coverage Form provides:",
+  "choices": [
+   "Physical damage coverage only, with no liability coverage",
+   "Liability coverage only, for hired and non-owned autos",
+   "Liability and physical damage coverage for auto dealers",
+   "Physical damage coverage for customers' autos left for service"
+  ],
+  "answer": 0,
+  "explain": "The form has four sections (Covered Autos, Physical Damage Coverage, Business Auto Conditions, Definitions) and no liability section; it offers Comprehensive, Specified Causes of Loss and Collision on owned or hired autos (symbols 1–5). ISO eliminated it with the 2013 revision.",
+  "source": "ISO CA 00 10 03 10 (Business Auto Physical Damage Coverage Form), Sections I–IV; Rough Notes PF&M, 'ISO Motor Carrier Coverage Form Available Endorsements And Their Uses' (Oct. 2022): 'CA 00 05 Garage Coverage Form and CA 00 10 Business Auto Physical Damage Coverage Form were eliminated with the 10 13 edition'"
+ },
+ {
+  "id": "auto-gap-14",
+  "topic": "auto",
+  "sub": "Commercial Auto Forms > Motor Carrier (coverage form)",
+  "q": "Which ISO commercial auto coverage form is designed for both for-hire carriers and private carriers that haul their own goods?",
+  "choices": [
+   "Business Auto Physical Damage Coverage Form",
+   "Garage Coverage Form",
+   "Truckers Coverage Form",
+   "Motor Carrier Coverage Form"
+  ],
+  "answer": 3,
+  "explain": "The Motor Carrier form defines a 'motor carrier' as a person or organization providing transportation by auto in the furtherance of a commercial enterprise, and FC&S says it was built for common and private motor carriers. The Truckers form defines a 'trucker' as one in the business of transporting property by auto for hire.",
+  "source": "ISO CA 00 20 03 10 (Motor Carrier Coverage Form), Section VI.L; ISO CA 00 12 10 01 (Truckers Coverage Form), Section VI.Q; FC&S, 'Motor Carrier Coverage Form' (PropertyCasualty360, June 25, 2008)"
+ },
+ {
+  "id": "auto-gap-15",
+  "topic": "auto",
+  "sub": "Commercial Auto Forms > Motor Carrier (coverage form)",
+  "q": "A motor carrier has another carrier's trailer in its possession under a written trailer interchange agreement in which it assumes liability for loss to the trailer. Under the 2010 ISO Motor Carrier Coverage Form, damage to that trailer is covered by:",
+  "choices": [
+   "Liability Coverage",
+   "Trailer Interchange Coverage",
+   "Garagekeepers Coverage",
+   "Auto Medical Payments Coverage"
+  ],
+  "answer": 1,
+  "explain": "Trailer Interchange Coverage (Section III) pays all sums the insured legally must pay as damages because of loss to a trailer it does not own, under Comprehensive, Specified Causes of Loss or Collision; symbol 69 describes such trailers. Liability Coverage excludes property in the insured's care, custody or control.",
+  "source": "ISO CA 00 20 03 10, Section I.A (symbol 69), Section III.A.1, Section II.B.6 (Care, Custody Or Control)"
+ },
+ {
+  "id": "auto-gap-16",
+  "topic": "auto",
+  "sub": "Coverage Form Sections > Physical Damage Coverage",
+  "q": "A business carries only Specified Causes of Loss Coverage on its van under the 2020 ISO Business Auto Coverage Form. Which loss is covered?",
+  "choices": [
+   "The van hits a deer",
+   "A rock thrown up by a passing truck cracks the windshield",
+   "The van slides into a guardrail",
+   "The van is damaged by a flood while parked"
+  ],
+  "answer": 3,
+  "explain": "Specified Causes of Loss covers only fire, lightning or explosion; theft; windstorm, hail or earthquake; flood; mischief or vandalism; and the sinking, burning, collision or derailment of a conveyance carrying the auto. Hitting an animal and glass breakage are paid under Comprehensive, and hitting an object is Collision.",
+  "source": "ISO CA 00 01 11 20 (Business Auto Coverage Form), Section III.A.1 and A.3"
+ },
+ {
+  "id": "auto-gap-17",
+  "topic": "auto",
+  "sub": "Coverage Form Sections > Physical Damage Coverage",
+  "q": "Under the 2020 ISO Business Auto Coverage Form, the Transportation Expenses coverage extension pays after the total theft of a covered auto only if the stolen auto is:",
+  "choices": [
+   "A private passenger auto with Comprehensive or Specified Causes of Loss",
+   "Any type of auto, if Collision Coverage is carried on that auto",
+   "Any type of auto, if any physical damage coverage is carried on it",
+   "An auto hired without a driver under a written rental contract"
+  ],
+  "answer": 0,
+  "explain": "The extension pays up to $30 a day, to a maximum of $900, for temporary transportation after the total theft of a covered auto of the private passenger type, only if Comprehensive or Specified Causes of Loss Coverage is carried on it, starting 48 hours after the theft. The 2013 edition paid $20 a day, to $600.",
+  "source": "ISO CA 00 01 11 20, Section III.A.4.a; ISO CA 00 01 10 13, Section III.A.4.a compared"
+ },
+ {
+  "id": "auto-gap-18",
+  "topic": "auto",
+  "sub": "Coverage Form Sections > Exclusions",
+  "q": "A delivery van insured under the 2020 ISO Business Auto Coverage Form overturns. Which loss is excluded under Covered Autos Liability Coverage?",
+  "choices": [
+   "Injury to a pedestrian struck by the overturning van",
+   "Damage to customers' packages being carried in the van",
+   "Damage to another driver's car hit by the van",
+   "Damage to a storefront struck by the sliding van"
+  ],
+  "answer": 1,
+  "explain": "The Care, Custody Or Control exclusion removes property damage to property owned or transported by the insured or in the insured's care, custody or control, except liability assumed under a sidetrack agreement.",
+  "source": "ISO CA 00 01 11 20, Section II.B.6 (Care, Custody Or Control)"
+ },
+ {
+  "id": "auto-gap-19",
+  "topic": "auto",
+  "sub": "Coverage Form Sections > Exclusions",
+  "q": "Under Covered Autos Liability Coverage of the 2020 ISO Business Auto Coverage Form, which injury is excluded?",
+  "choices": [
+   "A motorist hurt when the truck runs a red light",
+   "A pedestrian hit as the truck backs up to a loading dock",
+   "A bystander hurt by a forklift, not attached to the truck, unloading it",
+   "A bystander hurt by a power lift gate attached to the truck during unloading"
+  ],
+  "answer": 2,
+  "explain": "The form excludes bodily injury or property damage resulting from the movement of property by a mechanical device (other than a hand truck) unless the device is attached to the covered auto.",
+  "source": "ISO CA 00 01 11 20, Section II.B.8 (Movement Of Property By Mechanical Device)"
+ },
+ {
+  "id": "auto-gap-20",
+  "topic": "auto",
+  "sub": "Coverage Form Sections > Exclusions",
+  "q": "Under the 2020 ISO Business Auto Coverage Form, which loss to a covered auto is paid under Comprehensive Coverage?",
+  "choices": [
+   "Engine damage from mechanical breakdown",
+   "A tire blowout caused by a pothole",
+   "Loss in resale value after a covered loss is repaired",
+   "A windshield broken by a falling tree branch"
+  ],
+  "answer": 3,
+  "explain": "Physical Damage Coverage excludes loss due and confined to wear and tear, freezing, mechanical or electrical breakdown, or blowouts, punctures or other road damage to tires (unless from total theft), and loss due to diminution in value. Glass breakage and falling objects are paid under Comprehensive.",
+  "source": "ISO CA 00 01 11 20, Section III.A.3, B.3 and B.6; Section V.E ('diminution in value')"
+ },
+ {
+  "id": "auto-gap-21",
+  "topic": "auto",
+  "sub": "Coverage Form Sections > Conditions",
+  "q": "Under the Other Insurance condition of the 2020 ISO Business Auto Coverage Form, when no insured contract is involved, Covered Autos Liability Coverage for a covered auto (not a trailer) that the named insured does not own is:",
+  "choices": [
+   "Excess over any other collectible insurance",
+   "Primary insurance",
+   "Shared equally with any other insurance",
+   "Void if any other insurance applies"
+  ],
+  "answer": 0,
+  "explain": "The form is primary for covered autos you own and excess over any other collectible insurance for covered autos you don't own. Separate rules apply to trailers, to Hired Auto Physical Damage (hired autos are deemed owned) and to liability assumed under an insured contract (primary).",
+  "source": "ISO CA 00 01 11 20, Section IV.B.5 (Other Insurance)"
+ },
+ {
+  "id": "auto-gap-22",
+  "topic": "auto",
+  "sub": "Coverage Form Sections > Conditions",
+  "q": "A business has a Business Auto policy with a $1,000,000 limit and a second auto policy from the same insurer with a $500,000 limit that was not written as excess. Both apply to one accident. Under the 2020 ISO Business Auto Coverage Form, the most the insurer will pay is:",
+  "choices": [
+   "$500,000",
+   "$750,000",
+   "$1,000,000",
+   "$1,500,000"
+  ],
+  "answer": 2,
+  "explain": "Under the Two Or More Coverage Forms Or Policies Issued By Us condition, the aggregate maximum limit under all forms or policies issued by the insurer or an affiliate cannot exceed the highest applicable limit under any one of them. The condition does not apply to a policy issued specifically as excess over the Business Auto form.",
+  "source": "ISO CA 00 01 11 20, Section IV.B.8 (Two Or More Coverage Forms Or Policies Issued By Us)"
+ },
+ {
+  "id": "auto-gap-23",
+  "topic": "auto",
+  "sub": "Coverage Form Sections > Definitions",
+  "q": "None of the following vehicles is subject to a compulsory or financial responsibility law. Under the 2020 ISO Business Auto Coverage Form, which one is an \"auto\" rather than \"mobile equipment\"?",
+  "choices": [
+   "A bulldozer used only at construction job sites",
+   "A truck with permanently attached street-cleaning equipment",
+   "A forklift used only inside the insured's warehouse",
+   "A crawler-tread excavator moved between job sites by trailer"
+  ],
+  "answer": 1,
+  "explain": "Bulldozers, forklifts and vehicles on crawler treads are mobile equipment. Self-propelled vehicles with permanently attached equipment designed primarily for snow removal, road maintenance (not construction) or street cleaning are not mobile equipment but are considered autos.",
+  "source": "ISO CA 00 01 11 20, Section V.B ('auto') and V.K ('mobile equipment')"
+ },
+ {
+  "id": "auto-gap-24",
+  "topic": "auto",
+  "sub": "Coverage Form Sections > Definitions",
+  "q": "Under the 2020 ISO Business Auto Coverage Form, which one of the following is an \"insured contract\"?",
+  "choices": [
+   "A rental agreement's promise to pay for damage to the auto the insured rents",
+   "An agreement to rent an auto to the insured with a driver",
+   "A promise holding a for-hire trucker harmless for the insured's use of its authorized route",
+   "A lease of premises"
+  ],
+  "answer": 3,
+  "explain": "Insured contracts include a lease of premises, a sidetrack agreement, certain easements, municipal indemnity obligations, assumptions of another's tort liability, and auto rental agreements. They exclude the part of a rental agreement obligating you to pay for damage to the rented auto, rentals of autos with a driver, and agreements holding a for-hire trucker harmless for your use of its authorized route.",
+  "source": "ISO CA 00 01 11 20, Section V.H ('insured contract')"
+ },
+ {
+  "id": "auto-gap-25",
+  "topic": "auto",
+  "sub": "CA Endorsements > Additional Insured - Lessor",
+  "q": "Under the 2020 ISO Lessor – Additional Insured And Loss Payee endorsement, a \"leased auto\" described in the Schedule is considered:",
+  "choices": [
+   "A covered auto you hire",
+   "A non-owned auto",
+   "A covered auto you own",
+   "Mobile equipment"
+  ],
+  "answer": 2,
+  "explain": "The endorsement states that a scheduled leased auto will be considered a covered auto you own and not a covered auto you hire or borrow. It also adds the lessor as an insured and as a loss payee.",
+  "source": "ISO CA 20 01 11 20 (Lessor – Additional Insured And Loss Payee), A.1"
+ },
+ {
+  "id": "auto-gap-26",
+  "topic": "auto",
+  "sub": "CA Endorsements > Additional Insured - Lessor",
+  "q": "XYZ leases a truck from LeaseCo under a lease requiring XYZ to provide direct primary insurance for LeaseCo. XYZ's 2020 ISO Lessor – Additional Insured And Loss Payee endorsement schedules the truck and names LeaseCo as the lessor. An XYZ employee negligently injures a pedestrian while driving it. Under Covered Autos Liability Coverage, LeaseCo is:",
+  "choices": [
+   "An insured",
+   "Not an insured",
+   "An insured only if it paid part of the premium",
+   "An insured only for damage to the truck itself"
+  ],
+  "answer": 0,
+  "explain": "The lessor named in the Schedule is an insured for bodily injury or property damage resulting from the acts or omissions of the named insured, its employees or agents, or any person (other than the lessor or its employees or agents) operating the leased auto with permission. The endorsement also says the lessor is not liable for the named insured's premiums.",
+  "source": "ISO CA 20 01 11 20, A.2, D and E ('leased auto')"
+ },
+ {
+  "id": "auto-gap-27",
+  "topic": "auto",
+  "sub": "CA Endorsements > Mobile Equipment",
+  "q": "When a vehicle is described in the Mobile Equipment endorsement to the Business Auto Coverage Form, it is treated as:",
+  "choices": [
+   "A covered auto, excluding liability from operating its attached machinery",
+   "A covered auto, including liability from operating its attached machinery",
+   "Mobile equipment, covered only while carried or towed by a covered auto",
+   "Mobile equipment, covered only for physical damage"
+  ],
+  "answer": 0,
+  "explain": "The endorsement treats the described vehicles as covered autos and not mobile equipment for the scheduled coverages. Liability coverage does not apply to bodily injury or property damage resulting from the operation of machinery or equipment on, attached to or part of those vehicles.",
+  "source": "FC&S, 'Business Auto Endorsements' (PropertyCasualty360, Sept. 15, 2015) on ISO CA 20 15 10 13; Rough Notes PF&M, 'CA 20 15 Mobile Equipment' (Oct. 2022); current edition CA 20 15 11 20 per Wolters Kluwer 'Commercial Automobile Policy Forms and Endorsements' list (generated Oct. 13, 2026)"
+ },
+ {
+  "id": "auto-gap-28",
+  "topic": "auto",
+  "sub": "CA Endorsements > Mobile Equipment",
+  "q": "A contractor's crawler-mounted scissors lift is described in the Mobile Equipment endorsement to its Business Auto policy, with Covered Autos Liability Coverage scheduled for it. Which accident is covered under that coverage?",
+  "choices": [
+   "The lift's platform malfunctions and falls on a subcontractor's worker during use",
+   "The lift arm strikes a power line while being raised",
+   "The lift vehicle strikes a car while crossing a highway between job sites",
+   "The lift's outriggers crush a parked car as they are extended"
+  ],
+  "answer": 2,
+  "explain": "A scheduled vehicle is covered while used as a vehicle, but liability does not apply to injury or damage resulting from operation of the machinery or equipment on or attached to it. Rough Notes gives this example: the policy responds when the lift vehicle hits an SUV while crossing a highway, but not when the lift portion malfunctions and falls on a worker.",
+  "source": "Rough Notes PF&M, 'CA 20 15 Mobile Equipment' (Oct. 2022), Scenarios 1–2; FC&S (PropertyCasualty360, Sept. 15, 2015) on CA 20 15 10 13"
+ },
+ {
+  "id": "auto-gap-29",
+  "topic": "auto",
+  "sub": "CA Endorsements > Michigan Personal Injury Protection (3107)",
+  "q": "A Michigan company's Business Auto policy shows symbol 5 next to Personal Injury Protection. Under the 2020 ISO Business Auto Coverage Form, which autos have PIP?",
+  "choices": [
+   "Every auto the company owns, hires or borrows, wherever it is garaged",
+   "Owned autos required by state law to have no-fault benefits",
+   "Only autos described in the Declarations for which a premium is shown",
+   "Only non-owned autos used in connection with the company's business"
+  ],
+  "answer": 1,
+  "explain": "Symbol 5 (Owned Autos Subject To No-fault) covers only autos the named insured owns that are required to have no-fault benefits in the state where they are licensed or principally garaged, including such autos acquired after the policy begins. In Michigan the PIP benefits themselves are added by the Michigan Personal Injury Protection endorsement.",
+  "source": "ISO CA 00 01 11 20, Section I.A (symbol 5) and I.B.1; ISO Michigan Personal Injury Protection endorsement CA 22 20 (current edition 03 26 per Wolters Kluwer 'Commercial Automobile Policy Forms and Endorsements' list (generated Oct. 13, 2026))"
+ },
+ {
+  "id": "auto-gap-30",
+  "topic": "auto",
+  "sub": "CA Endorsements > Michigan Personal Injury Protection (3107)",
+  "q": "A Michigan plumbing company insures its vans under the 2020 ISO Business Auto Coverage Form. The Michigan no-fault personal injury protection for the vans is provided by:",
+  "choices": [
+   "Covered Autos Liability Coverage",
+   "An Auto Medical Payments Coverage endorsement",
+   "The company's workers' compensation policy",
+   "A Michigan Personal Injury Protection endorsement"
+  ],
+  "answer": 3,
+  "explain": "The Business Auto Coverage Form has no PIP section (its sections are Covered Autos, Covered Autos Liability, Physical Damage, Conditions and Definitions). ISO's Michigan Personal Injury Protection endorsement adds the PIP that Michigan's no-fault law requires on Michigan-registered vehicles.",
+  "source": "ISO CA 00 01 11 20, Sections I–V; ISO Michigan Personal Injury Protection CA 22 20 (03 26 per Wolters Kluwer 'Commercial Automobile Policy Forms and Endorsements' list (generated Oct. 13, 2026)); MCL 500.3101(1), 500.3107; CA 80 04 (Ed. 11/20) Business Auto declarations (PIP 'separately stated in each P.I.P. endorsement')"
+ },
+ {
+  "id": "auto-gap-31",
+  "topic": "auto",
+  "sub": "CA Endorsements > Michigan Property Protection Coverage",
+  "q": "A Michigan company's van, insured under a Business Auto policy with the Michigan Property Protection Coverage endorsement, slides off a Michigan road and knocks down a homeowner's fence. Which coverage pays for the fence?",
+  "choices": [
+   "Collision Coverage",
+   "Property protection insurance (PPI)",
+   "Covered Autos Liability Coverage",
+   "Comprehensive Coverage"
+  ],
+  "answer": 1,
+  "explain": "PPI pays, without regard to fault, for accidental damage to tangible property arising out of the use of a motor vehicle in Michigan, up to $1,000,000 per accident. Tort liability for this damage is abolished when the vehicle had the required no-fault security (except for intentionally caused harm), and the van's own physical damage coverages do not pay for the fence.",
+  "source": "MCL 500.3121(1),(2),(5); MCL 500.3123(2); MCL 500.3135(3); ISO Michigan Property Protection Coverage CA 22 24 (07 21 per Wolters Kluwer 'Commercial Automobile Policy Forms and Endorsements' list (generated Oct. 13, 2026))"
+ },
+ {
+  "id": "auto-gap-32",
+  "topic": "auto",
+  "sub": "CA Endorsements > Individual Named Insured",
+  "q": "Under the 2001 ISO Individual Named Insured endorsement, if the individual named insured owns a private passenger auto that is a covered auto for Liability Coverage, the endorsement:",
+  "choices": [
+   "Covers autos owned by employees while used for their personal errands",
+   "Adds family members as insureds and covers non-owned autos they or you use",
+   "Extends Liability Coverage to autos owned by family members",
+   "Covers autos furnished for the named insured's regular use"
+  ],
+  "answer": 1,
+  "explain": "For an individual named insured, family members become insureds for owned private passenger covered autos, and any auto the named insured does not own is a covered auto while used by the named insured or a family member, with exceptions for family-owned autos, autos furnished for regular use and certain business use. The Fellow Employee Exclusion is lifted only for injury to the named insured's or a family member's fellow employees.",
+  "source": "ISO CA 99 17 10 01 (Individual Named Insured), A.1, A.2.a–b and C.1"
+ },
+ {
+  "id": "auto-gap-33",
+  "topic": "auto",
+  "sub": "CA Endorsements > Individual Named Insured",
+  "q": "Pat, a sole proprietor, has the 2001 ISO Individual Named Insured endorsement on a Business Auto policy, and Pat's own car is a covered auto for Liability Coverage. Which auto is a covered auto for Liability while Pat drives it?",
+  "choices": [
+   "A car owned by Pat's son, who lives with Pat",
+   "A car a client furnishes for Pat's regular use",
+   "A customer's car Pat drives while working at an auto repair shop",
+   "A friend's car Pat borrows for a weekend trip"
+  ],
+  "answer": 3,
+  "explain": "Any auto Pat does not own is a covered auto while used by Pat or a family member, except autos owned by family members, autos furnished or available for regular use, autos used while working in a business of selling, servicing, repairing or parking autos, and non-private-passenger autos used in any other business.",
+  "source": "ISO CA 99 17 10 01, A.2.b(1)–(4)"
  }
 ]

@@ -1018,5 +1018,1640 @@
   "answer": 3,
   "explain": "The endorsement pays benefits equal to those of a designated WC law to scheduled employees not required to be covered (for example, farm or domestic workers). Before payment, the claimant must release the employer and insurer and transfer recovery rights to the insurer.",
   "source": "NCCI WC 00 03 11 A; IRMI glossary: voluntary compensation endorsement"
+ },
+ {
+  "id": "core-bas-01",
+  "topic": "basics",
+  "sub": "Underwriting - Function",
+  "q": "The process of deciding whether to accept a risk and, if so, how much insurance to write on it and at what rate is called:",
+  "choices": [
+   "Claims adjusting",
+   "Reinsurance",
+   "Underwriting",
+   "Subrogation"
+  ],
+  "answer": 2,
+  "explain": "Underwriting is the process of determining whether to accept a risk and, if so, what amount of insurance to write on it and at what rate. Subrogation is the insurer's right to recover a loss payment from a liable party, and reinsurance indemnifies an insurer for part or all of the liability it has assumed.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"underwriting\"; \"subrogation\"; \"reinsurance\""
+ },
+ {
+  "id": "core-bas-02",
+  "topic": "basics",
+  "sub": "Underwriting - Function",
+  "q": "All of the following are underwriting decisions EXCEPT:",
+  "choices": [
+   "How much to pay on a covered claim",
+   "Whether to accept an applicant",
+   "How much insurance to write on an accepted risk",
+   "What rate to charge"
+  ],
+  "answer": 0,
+  "explain": "Underwriting decides whether to accept a risk, how much insurance to write on it, and at what rate. Deciding the amount payable on a covered claim is part of claims handling, not underwriting.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"underwriting\""
+ },
+ {
+  "id": "core-bas-03",
+  "topic": "basics",
+  "sub": "Hazards - Physical",
+  "q": "Oily rags stored next to a furnace in a commercial building are an example of a(n):",
+  "choices": [
+   "Physical hazard",
+   "Moral hazard",
+   "Morale hazard",
+   "Peril"
+  ],
+  "answer": 0,
+  "explain": "A physical hazard is a material, structural, or operational feature that creates or increases the chance of loss; improperly stored oily rags make a fire more likely. Fire itself would be the peril (the cause of loss), while moral and morale hazards come from the insured's character or attitude.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"physical hazard\"; \"hazard\"; \"peril\"; \"moral hazard\"; \"morale hazard\""
+ },
+ {
+  "id": "core-bas-04",
+  "topic": "basics",
+  "sub": "Hazards - Physical",
+  "q": "Which of the following is an example of a physical hazard?",
+  "choices": [
+   "An applicant's prior conviction for insurance fraud",
+   "An insured's carelessness because insurance will pay",
+   "Inadequate lighting in a crime-prone area",
+   "A tornado"
+  ],
+  "answer": 2,
+  "explain": "IRMI gives inadequate lighting in a crime-prone area as an example of a hazard, a condition that increases the probability of loss; it is a physical (material or operational) condition. A fraud conviction points to moral hazard, carelessness because insurance will pay is morale hazard, and a tornado is a peril.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"hazard\"; \"physical hazard\"; \"moral hazard\"; \"morale hazard\"; \"peril\""
+ },
+ {
+  "id": "core-bas-05",
+  "topic": "basics",
+  "sub": "Hazards - Moral",
+  "q": "An applicant for fire insurance on a business that is losing money was previously convicted of insurance fraud. The underwriter is most concerned about:",
+  "choices": [
+   "Morale hazard",
+   "Physical hazard",
+   "Peril",
+   "Moral hazard"
+  ],
+  "answer": 3,
+  "explain": "Moral hazard arises from the character or circumstances of the insured, such as dishonesty or a financial incentive to cause a loss; IRMI notes that insurance on an unprofitable business carries more moral hazard. Morale hazard is indifference to loss, and physical hazard is a tangible condition of the property.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"moral hazard\"; \"morale hazard\"; \"physical hazard\""
+ },
+ {
+  "id": "core-bas-06",
+  "topic": "basics",
+  "sub": "Hazards - Moral",
+  "q": "Moral hazard differs from morale hazard because moral hazard arises from the insured's:",
+  "choices": [
+   "Character or dishonesty",
+   "Indifference to loss because insurance will pay",
+   "Building construction and its condition",
+   "Choice of a high deductible"
+  ],
+  "answer": 0,
+  "explain": "Moral hazard reflects the character or circumstances of the insured, such as dishonesty. Morale hazard reflects attitude rather than integrity: indifference to loss because insurance will pay. The condition of a building is a physical hazard.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"moral hazard\"; \"morale hazard\"; \"physical hazard\""
+ },
+ {
+  "id": "core-bas-07",
+  "topic": "basics",
+  "sub": "Damages - Compensatory - Special versus General",
+  "q": "A jury awards an injured plaintiff $40,000 for medical bills and lost wages and $100,000 for pain and suffering. These awards are, respectively:",
+  "choices": [
+   "General damages; special damages",
+   "Special damages; general damages",
+   "Special damages; punitive damages",
+   "Punitive damages; general damages"
+  ],
+  "answer": 1,
+  "explain": "Both awards are compensatory damages. Special damages are objectively measured, quantifiable losses such as medical expenses and wage loss; general damages are a subjective award for pain and suffering. Punitive damages go beyond compensation to punish the defendant.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"compensatory damages\"; \"special damages\"; \"general damages\"; \"punitive damages\""
+ },
+ {
+  "id": "core-bas-08",
+  "topic": "basics",
+  "sub": "Damages - Compensatory - Special versus General",
+  "q": "Which of the following is an example of general damages?",
+  "choices": [
+   "Lost wages",
+   "Medical expenses",
+   "Nursing care costs",
+   "Pain and suffering"
+  ],
+  "answer": 3,
+  "explain": "General damages are a subjective award to compensate an injured person for pain and suffering. Lost wages, medical expenses, and nursing care are quantifiable, tangible losses, which are special damages.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"general damages\"; \"special damages\""
+ },
+ {
+  "id": "core-bas-09",
+  "topic": "basics",
+  "sub": "Strict Liability",
+  "q": "A manufacturer is held liable for injuries caused by its dangerous product even though it used every possible care in making and selling the product. This is an example of:",
+  "choices": [
+   "Comparative negligence",
+   "Contractual liability",
+   "Strict liability",
+   "Vicarious liability"
+  ],
+  "answer": 2,
+  "explain": "Strict liability is imposed without regard to fault or negligence; IRMI's example is the maker or distributor of a dangerous product, regardless of the care it exercised. Vicarious liability is a principal's liability for the acts of its agents, and comparative negligence reduces a plaintiff's recovery by the plaintiff's own fault.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"strict liability\"; \"vicarious liability\"; \"comparative negligence\""
+ },
+ {
+  "id": "core-bas-10",
+  "topic": "basics",
+  "sub": "Strict Liability",
+  "q": "Strict liability is liability imposed:",
+  "choices": [
+   "Without regard to fault or negligence",
+   "Only when the defendant breached a duty of reasonable care",
+   "Only when the defendant intended to cause harm",
+   "Only when the plaintiff was free of any fault"
+  ],
+  "answer": 0,
+  "explain": "Strict liability is liability imposed without regard to fault or negligence. Liability for breaching a duty of care owed to the plaintiff is negligence, which strict liability does not require.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"strict liability\"; \"negligence\""
+ },
+ {
+  "id": "core-bas-11",
+  "topic": "basics",
+  "sub": "Loss Valuation - Stated Amount",
+  "q": "Ignoring the deductible, auto physical damage coverage written on a stated amount basis pays a covered loss based on the:",
+  "choices": [
+   "Stated amount, even if it is more than the auto's actual cash value",
+   "Least of the actual cash value, the cost to repair or replace, or the stated amount",
+   "Greatest of the actual cash value, the cost to repair or replace, or the stated amount",
+   "Actual cash value, even if it is more than the stated amount"
+  ],
+  "answer": 1,
+  "explain": "Stated amount coverage limits payment to the least of the actual cash value, the cost to repair or replace with property of like kind and quality, or the stated amount shown in the schedule. The stated amount is a ceiling, not a guaranteed payment; unlike agreed value, the insured can receive less than the stated amount.",
+  "source": "ISO CA 99 28 03 10 (Stated Amount Insurance, 2010 edition; Virginia SCC specimen copy via the Internet Archive, retrieved 2026-10-13), Schedule note and B. Limit Of Insurance 1.a-c; consistent carrier form: Essentia Insurance Co. AC 129 01 24 \"Stated Value\" endorsement, Part D Limit of Liability (\"lesser of\" the stated value, actual cash value, or repair/replace cost)"
+ },
+ {
+  "id": "core-bas-12",
+  "topic": "basics",
+  "sub": "Loss Valuation - Stated Amount",
+  "q": "Under the 2010 ISO Stated Amount Insurance endorsement, a business's van has a $50,000 stated amount and a $1,000 deductible. It is totally destroyed in a covered collision. Its actual cash value is $42,000, and like kind and quality replacement costs $45,000. The insurer pays:",
+  "choices": [
+   "$41,000",
+   "$44,000",
+   "$49,000",
+   "$50,000"
+  ],
+  "answer": 0,
+  "explain": "The endorsement pays the least of the actual cash value ($42,000), the cost to replace with like kind and quality ($45,000), or the stated amount ($50,000), and the deductible reduces the actual cash value or replacement cost: $42,000 - $1,000 = $41,000. The $50,000 stated amount is only a ceiling; the schedule warns that it is not necessarily the amount the insured will receive.",
+  "source": "ISO CA 99 28 03 10 (Stated Amount Insurance, 2010 edition; Virginia SCC specimen copy via the Internet Archive, retrieved 2026-10-13), Schedule note, B. Limit Of Insurance 1.a-c and 2., and C. Deductible 1.a-b"
+ },
+ {
+  "id": "core-bas-13",
+  "topic": "basics",
+  "sub": "Policy Structure - Definitions",
+  "q": "In ISO policy forms, words and phrases that appear in quotation marks:",
+  "choices": [
+   "Are optional coverages that require an extra premium",
+   "Were added to the policy by an endorsement after issue",
+   "Are terms that state law requires in every policy",
+   "Have special meanings given in the definitions section"
+  ],
+  "answer": 3,
+  "explain": "ISO forms state that words and phrases in quotation marks have special meaning and refer the reader to the Definitions section (Section H in the Building and Personal Property Coverage Form; Section V in the CGL form).",
+  "source": "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012 edition), preamble (\"Other words and phrases that appear in quotation marks have special meaning. Refer to Section H. Definitions.\"); ISO CG 00 01 04 13 (Commercial General Liability Coverage Form, 2013 edition), preamble (Section V – Definitions); ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Definitions (\"Other words and phrases are defined. They are in quotation marks when used.\")"
+ },
+ {
+  "id": "core-bas-14",
+  "topic": "basics",
+  "sub": "Policy Structure - Definitions",
+  "q": "Under the 2018 ISO Personal Auto Policy, the words \"you\" and \"your\" refer to:",
+  "choices": [
+   "The named insured and a spouse who lives in the same household",
+   "Only the named insured shown in the Declarations",
+   "Any licensed driver living in the named insured's household",
+   "Any person using a covered auto with permission"
+  ],
+  "answer": 0,
+  "explain": "The Definitions section defines \"you\" and \"your\" as the named insured shown in the Declarations and the spouse if a resident of the same household. A spouse who moves out remains \"you\" only until the earliest of 90 days, the effective date of another policy naming the spouse, or the end of the policy period; other resident relatives are \"family members.\"",
+  "source": "ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Definitions A and F"
+ },
+ {
+  "id": "core-bas-15",
+  "topic": "basics",
+  "sub": "Policy Structure - Insuring Agreement or Clause",
+  "q": "The part of an insurance policy that contains the insurer's promise to pay is the:",
+  "choices": [
+   "Insuring agreement",
+   "Declarations",
+   "Conditions",
+   "Exclusions"
+  ],
+  "answer": 0,
+  "explain": "The insuring agreement is the portion of the policy in which the insurer promises to make payment to or on behalf of the insured. It usually states a broad scope of coverage that exclusions and definitions then narrow.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"insuring agreement\""
+ },
+ {
+  "id": "core-bas-16",
+  "topic": "basics",
+  "sub": "Policy Structure - Insuring Agreement or Clause",
+  "q": "A liability policy states: \"We will pay those sums that the insured becomes legally obligated to pay as damages because of 'bodily injury' or 'property damage' to which this insurance applies.\" This provision is part of the:",
+  "choices": [
+   "Declarations",
+   "Definitions",
+   "Conditions",
+   "Insuring agreement"
+  ],
+  "answer": 3,
+  "explain": "This is the Coverage A Insuring Agreement of the CGL form: the insurer's promise to pay. Quoted terms such as \"bodily injury\" are explained in the Definitions section, and the Conditions set the parties' duties.",
+  "source": "ISO CG 00 01 04 13 (Commercial General Liability Coverage Form, 2013 edition), Section I, Coverage A, 1. Insuring Agreement, a.; IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"insuring agreement\""
+ },
+ {
+  "id": "core-bas-17",
+  "topic": "basics",
+  "sub": "Policy Structure - Conditions",
+  "q": "Policy provisions that set out the rights and duties of the insured and the insurer, such as notice of loss, cancellation, and how other insurance is shared, are called:",
+  "choices": [
+   "Declarations",
+   "Exclusions",
+   "Conditions",
+   "Insuring agreements"
+  ],
+  "answer": 2,
+  "explain": "ISO forms place these rules in their Conditions sections. For example, the CGL Conditions include Duties In The Event Of Occurrence, Offense, Claim Or Suit and Other Insurance, and the Common Policy Conditions include Cancellation.",
+  "source": "ISO CG 00 01 04 13 (Commercial General Liability Coverage Form, 2013 edition), Section IV – Commercial General Liability Conditions (2. Duties In The Event Of Occurrence, Offense, Claim Or Suit; 4. Other Insurance); ISO IL 00 17 11 98 (Common Policy Conditions, 1998 edition), A. Cancellation"
+ },
+ {
+  "id": "core-bas-18",
+  "topic": "basics",
+  "sub": "Policy Structure - Conditions",
+  "q": "In the 2011 ISO Homeowners policy (HO-3), the insured's duties to give prompt notice of a loss and to send a signed, sworn proof of loss appear in:",
+  "choices": [
+   "Section I – Conditions",
+   "Section I – Exclusions",
+   "Section I – Property Coverages",
+   "The Declarations"
+  ],
+  "answer": 0,
+  "explain": "Duties After Loss is a Section I condition in the HO-3. It requires prompt notice and a signed, sworn proof of loss within 60 days after the insurer's request, among other duties.",
+  "source": "ISO HO 00 03 05 11 (Homeowners 3 – Special Form, 2011 edition), Section I – Conditions, C. Duties After Loss"
+ },
+ {
+  "id": "core-bas-19",
+  "topic": "basics",
+  "sub": "Policy Structure - Exclusions",
+  "q": "A homeowners policy provision stating that the insurer does not insure for loss caused by flood or earthquake is a(n):",
+  "choices": [
+   "Condition",
+   "Endorsement",
+   "Insuring agreement",
+   "Exclusion"
+  ],
+  "answer": 3,
+  "explain": "An exclusion is a policy provision describing hazards, perils, circumstances, or property not covered. The HO-3 lists Earth Movement (including earthquake) and Water (including flood) among its Section I Exclusions.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"exclusion\"; ISO HO 00 03 05 11 (Homeowners 3 – Special Form, 2011 edition), Section I – Exclusions, A.2 Earth Movement and A.3 Water"
+ },
+ {
+  "id": "core-bas-20",
+  "topic": "basics",
+  "sub": "Policy Structure - Exclusions",
+  "q": "The purpose of the exclusions in an insurance policy is to:",
+  "choices": [
+   "State the insurer's broad promise to pay for covered losses",
+   "Identify the named insured, policy period, location, and limits",
+   "Remove coverage for stated perils, property, or circumstances",
+   "Set out the insured's duties after a loss and other policy rules"
+  ],
+  "answer": 2,
+  "explain": "Exclusions describe the hazards, perils, circumstances, or property the policy does not cover, narrowing the broad insuring agreement. The promise to pay is the insuring agreement, the named insured and limits are in the Declarations, and duties after loss are conditions.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"exclusion\"; \"insuring agreement\"; \"declarations\""
+ },
+ {
+  "id": "core-bas-21",
+  "topic": "basics",
+  "sub": "Policy Structure - Endorsements",
+  "q": "A form that changes a policy by broadening or restricting coverage, or by adding an insured or a location, is a(n):",
+  "choices": [
+   "Endorsement",
+   "Binder",
+   "Declarations page",
+   "Insuring agreement"
+  ],
+  "answer": 0,
+  "explain": "An endorsement is a form that changes or adds to the provisions of the other forms making up the policy, for example by broadening or restricting coverage, adding insureds, or adding locations. A binder is only temporary evidence of insurance.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"endorsement\"; \"binder\""
+ },
+ {
+  "id": "core-bas-22",
+  "topic": "basics",
+  "sub": "Policy Structure - Endorsements",
+  "q": "Under the 1998 ISO Common Policy Conditions, a commercial policy's terms can be amended or waived only by:",
+  "choices": [
+   "Written notice from the first Named Insured to the insurer",
+   "A binder issued by the producer",
+   "An oral agreement between the producer and the first Named Insured",
+   "An endorsement issued by the insurer and made part of the policy"
+  ],
+  "answer": 3,
+  "explain": "The Changes condition says the policy's terms can be amended or waived only by endorsement issued by the insurer and made part of the policy. The first Named Insured may make changes only with the insurer's consent. The 2018 Personal Auto Policy has a similar Changes provision.",
+  "source": "ISO IL 00 17 11 98 (Common Policy Conditions, 1998 edition), B. Changes; ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part F – General Provisions, Changes A"
+ },
+ {
+  "id": "core-bas-23",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Policy Period",
+  "q": "Under the 2018 ISO Personal Auto Policy, the policy applies only to accidents and losses that occur:",
+  "choices": [
+   "During the policy period, anywhere in the world",
+   "During the policy period and within the policy territory",
+   "Within the policy territory, if reported during the policy period",
+   "During the policy period or within 30 days after it ends"
+  ],
+  "answer": 1,
+  "explain": "The Policy Period and Territory provision states that the policy applies only to accidents and losses that occur during the policy period shown in the Declarations and within the policy territory.",
+  "source": "ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part F – General Provisions, Policy Period and Territory A"
+ },
+ {
+  "id": "core-bas-24",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Policy Period",
+  "q": "Under the 2011 ISO Homeowners forms, Section I property coverage applies only to loss that:",
+  "choices": [
+   "Is first reported to the insurer during the policy period",
+   "Is discovered during the policy period, whenever it occurred",
+   "Occurs during the policy period or within 30 days after it ends",
+   "Occurs during the policy period"
+  ],
+  "answer": 3,
+  "explain": "The Section I Policy Period condition states that the policy applies only to loss which occurs during the policy period. Section II similarly applies only to bodily injury or property damage that occurs during the policy period.",
+  "source": "ISO HO 00 03 05 11 (Homeowners 3 – Special Form, 2011 edition), Section I – Conditions, Q. Policy Period; Section II – Conditions, I. Policy Period"
+ },
+ {
+  "id": "core-bas-25",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Policy Territory",
+  "q": "Under the 2018 ISO Personal Auto Policy, the policy territory includes all of the following EXCEPT:",
+  "choices": [
+   "Canada",
+   "Puerto Rico",
+   "Territories and possessions of the United States",
+   "Mexico"
+  ],
+  "answer": 3,
+  "explain": "The policy territory is the United States of America, its territories or possessions, Puerto Rico, and Canada. It also covers a covered auto while being transported between their ports. Mexico is not included.",
+  "source": "ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part F – General Provisions, Policy Period and Territory B"
+ },
+ {
+  "id": "core-bas-26",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Policy Territory",
+  "q": "Under the 1988 ISO Commercial Property Conditions, the coverage territory is the United States (including its territories and possessions) plus:",
+  "choices": [
+   "Canada and Mexico",
+   "Puerto Rico and Canada",
+   "Puerto Rico and Mexico",
+   "Puerto Rico, Canada, and Mexico"
+  ],
+  "answer": 1,
+  "explain": "The Commercial Property Conditions cover loss commencing during the policy period and within the coverage territory: the United States of America (including its territories and possessions), Puerto Rico, and Canada.",
+  "source": "ISO CP 00 90 07 88 (Commercial Property Conditions, 1988 edition), H. Policy Period, Coverage Territory"
+ },
+ {
+  "id": "core-bas-27",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Deductibles",
+  "q": "Under the 2012 ISO Building and Personal Property Coverage Form, a building has a $60,000 Limit of Insurance and a $250 deductible. A covered fire causes $70,000 of damage, and no coinsurance penalty applies. The insurer pays:",
+  "choices": [
+   "$59,750",
+   "$60,000",
+   "$69,750",
+   "$70,000"
+  ],
+  "answer": 1,
+  "explain": "The insurer subtracts the deductible from the loss and pays the result or the Limit of Insurance, whichever is less: $70,000 - $250 = $69,750, capped at the $60,000 limit. The deductible is not subtracted from the limit, as the form's Example 2 shows.",
+  "source": "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012 edition), D. Deductible and Example 2; IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"deductible\""
+ },
+ {
+  "id": "core-bas-28",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Deductibles",
+  "q": "Under the 2011 ISO Homeowners forms, if two or more deductibles under the policy apply to the same loss:",
+  "choices": [
+   "Only the highest deductible applies",
+   "Only the lowest deductible applies",
+   "Each deductible applies to its own part of the loss",
+   "The deductibles are added together"
+  ],
+  "answer": 0,
+  "explain": "The Section I Deductible condition provides that if two or more deductibles under the policy apply to the loss, only the highest deductible amount will apply.",
+  "source": "ISO HO 00 03 05 11 (Homeowners 3 – Special Form, 2011 edition), Section I – Conditions, B. Deductible, 2."
+ },
+ {
+  "id": "core-bas-29",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Deductibles",
+  "q": "Under the 2012 ISO Building and Personal Property Coverage Form, one fire damages two buildings that have separate Limits of Insurance. The deductible is applied:",
+  "choices": [
+   "Once for each building damaged",
+   "Once for each location shown in the Declarations",
+   "Once for each Covered Cause of Loss involved",
+   "Only once for the occurrence"
+  ],
+  "answer": 3,
+  "explain": "When an occurrence damages more than one item with separate Limits of Insurance, the losses are not combined in applying the deductible, but the deductible is applied only once per occurrence.",
+  "source": "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012 edition), D. Deductible and Example 1"
+ },
+ {
+  "id": "core-bas-30",
+  "topic": "basics",
+  "sub": "Other Insurance - Nonconcurrency",
+  "q": "Two policies cover the same building, but one runs from January 1 to January 1 and the other from April 1 to April 1. This condition is called:",
+  "choices": [
+   "Contribution by equal shares",
+   "Nonconcurrency",
+   "Primary and excess coverage",
+   "Pro rata liability"
+  ],
+  "answer": 1,
+  "explain": "Nonconcurrency is the condition created when two or more policies covering the same loss exposure do not have identical inception and expiration dates. Contribution by equal shares and pro rata (contribution by limits) are methods of sharing a loss among insurers.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"nonconcurrency\"; \"contribution by equal shares\"; \"contribution by limits\""
+ },
+ {
+  "id": "core-bas-31",
+  "topic": "basics",
+  "sub": "Limits of Liability - Per Occurrence (Accident)",
+  "q": "A 2013 ISO CGL policy has a $1,000,000 Each Occurrence Limit and an unused $2,000,000 General Aggregate Limit. One explosion at the insured's store injures three customers, whose covered bodily injury damages total $1,500,000. The most the insurer will pay for these damages is:",
+  "choices": [
+   "$500,000",
+   "$1,000,000",
+   "$1,500,000",
+   "$2,000,000"
+  ],
+  "answer": 1,
+  "explain": "The Each Occurrence Limit is the most the insurer will pay for Coverage A damages and Coverage C medical expenses from all bodily injury and property damage arising out of any one occurrence, regardless of the number of people making claims. The aggregate limit does not raise the per-occurrence cap.",
+  "source": "ISO CG 00 01 04 13 (Commercial General Liability Coverage Form, 2013 edition), Section III – Limits of Insurance, 1., 2. and 5.; IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"per occurrence limit\""
+ },
+ {
+  "id": "core-bas-32",
+  "topic": "basics",
+  "sub": "Limits of Liability - Per Occurrence (Accident)",
+  "q": "Under the 2018 ISO Personal Auto Policy, Sam's bodily injury limits are $100,000 each person and $300,000 each accident. He is legally liable for an accident that injures four people, each with $100,000 of damages. The insurer pays a total of:",
+  "choices": [
+   "$75,000",
+   "$100,000",
+   "$300,000",
+   "$400,000"
+  ],
+  "answer": 2,
+  "explain": "Each person can receive up to $100,000, which would total $400,000, but the each-accident limit is the most the insurer will pay for all bodily injury from one auto accident, regardless of the number of claims. The insurer pays $300,000.",
+  "source": "ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part A – Liability Coverage, Limit of Liability A"
+ },
+ {
+  "id": "core-bas-33",
+  "topic": "basics",
+  "sub": "Limits of Liability - Per Person",
+  "q": "A policy's bodily injury limits are $50,000 per person and $100,000 per accident. The insured is legally liable for an accident injuring two people, with damages of $25,000 and $75,000. The most the insurer pays the second person is:",
+  "choices": [
+   "$25,000",
+   "$50,000",
+   "$75,000",
+   "$100,000"
+  ],
+  "answer": 1,
+  "explain": "The per-person limit is the most the insurer will pay for any one person's injuries. The first claimant receives $25,000 and the second is capped at the $50,000 per-person limit, for a total of $75,000, within the per-accident limit.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"per person limit\" (same example)"
+ },
+ {
+  "id": "core-bas-34",
+  "topic": "basics",
+  "sub": "Limits of Liability - Per Person",
+  "q": "Under the 2018 ISO Personal Auto Policy, Jo has bodily injury liability limits of $100,000 each person and $300,000 each accident. Jo is legally liable for an accident that injures three people, with damages of $150,000, $50,000 and $40,000. The insurer pays a total of:",
+  "choices": [
+   "$100,000",
+   "$190,000",
+   "$240,000",
+   "$300,000"
+  ],
+  "answer": 1,
+  "explain": "Each injured person is capped at the $100,000 each-person limit, so the payments are $100,000 + $50,000 + $40,000 = $190,000. That total is within the $300,000 each-accident limit.",
+  "source": "ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part A – Liability Coverage, Limit of Liability A"
+ },
+ {
+  "id": "core-bas-35",
+  "topic": "basics",
+  "sub": "Limits of Liability - Split",
+  "q": "An auto liability policy has split limits of $50,000/$100,000/$25,000. The $25,000 figure is the most the insurer will pay for:",
+  "choices": [
+   "Bodily injury to any one person",
+   "All bodily injury in one accident",
+   "Medical payments for each person",
+   "All property damage in one accident"
+  ],
+  "answer": 3,
+  "explain": "With split limits, three separate amounts apply to each accident: a per-person bodily injury limit, a per-accident limit for all bodily injury, and a per-accident limit for property damage. The third figure is the property damage limit.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"split limits\"; ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part A – Liability Coverage, Limit of Liability A"
+ },
+ {
+  "id": "core-bas-36",
+  "topic": "basics",
+  "sub": "Limits of Liability - Split",
+  "q": "Under the 2018 ISO Personal Auto Policy, Lee has split liability limits of $50,000/$100,000/$25,000. Lee is legally liable for an accident that injures two people, with damages of $70,000 and $40,000, and causes $30,000 of property damage. The insurer pays a total of:",
+  "choices": [
+   "$75,000",
+   "$90,000",
+   "$115,000",
+   "$140,000"
+  ],
+  "answer": 2,
+  "explain": "Bodily injury: $50,000 (per-person cap) + $40,000 = $90,000, within the $100,000 per-accident limit. Property damage is capped at $25,000. Total: $90,000 + $25,000 = $115,000.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"split limits\"; \"per person limit\"; ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part A – Liability Coverage, Limit of Liability A"
+ },
+ {
+  "id": "core-bas-37",
+  "topic": "basics",
+  "sub": "Limits of Liability - Combined Single",
+  "q": "A single dollar limit that applies to any combination of bodily injury and property damage liability claims from one accident is a(n):",
+  "choices": [
+   "Aggregate limit",
+   "Combined single limit",
+   "Per-person limit",
+   "Split limit"
+  ],
+  "answer": 1,
+  "explain": "A combined single limit is one dollar limit for any combination of bodily injury and property damage liability claims. Split limits instead apply three separate amounts per accident. The Business Auto Coverage Form's Covered Autos Liability limit works this way.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"combined single limits\"; ISO CA 00 01 10 13 (Business Auto Coverage Form, 2013 edition), Section II – Covered Autos Liability Coverage, C. Limit Of Insurance"
+ },
+ {
+  "id": "core-bas-38",
+  "topic": "basics",
+  "sub": "Limits of Liability - Combined Single",
+  "q": "An auto liability policy has a $300,000 combined single limit. The insured is legally liable for an accident that injures two people, with damages of $150,000 and $120,000, and causes $60,000 of property damage. The insurer pays a total of:",
+  "choices": [
+   "$150,000",
+   "$270,000",
+   "$300,000",
+   "$330,000"
+  ],
+  "answer": 2,
+  "explain": "A combined single limit applies to bodily injury and property damage together, with no separate per-person or property damage limit. Total damages are $330,000, so the insurer pays the $300,000 limit.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"combined single limits\"; ISO CA 00 01 10 13 (Business Auto Coverage Form, 2013 edition), Section II, C. Limit Of Insurance (single limit for the total of all damages from any one accident)"
+ },
+ {
+  "id": "core-bas-39",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Property Limits",
+  "q": "Under the 2012 ISO Building and Personal Property Coverage Form, the most the insurer will pay for loss or damage in any one occurrence is:",
+  "choices": [
+   "The actual cash value of the damaged property, even if more than the limit",
+   "The replacement cost of the damaged property, even if more than the limit",
+   "The applicable Limit of Insurance shown in the Declarations",
+   "The amount the insured originally paid for the property"
+  ],
+  "answer": 2,
+  "explain": "The Limits of Insurance section states that the most the insurer will pay for loss or damage in any one occurrence is the applicable Limit of Insurance shown in the Declarations.",
+  "source": "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012 edition), C. Limits Of Insurance"
+ },
+ {
+  "id": "core-bas-40",
+  "topic": "basics",
+  "sub": "Common Policy Provisions - Property Limits",
+  "q": "Under the 2012 ISO Building and Personal Property Coverage Form, amounts paid under all of the following Additional Coverages are separate from the Limit of Insurance EXCEPT:",
+  "choices": [
+   "Fire Department Service Charge",
+   "Pollutant Clean-up and Removal",
+   "Preservation of Property",
+   "Electronic Data"
+  ],
+  "answer": 2,
+  "explain": "Fire Department Service Charge, Pollutant Clean-up and Removal, Increased Cost of Construction, and Electronic Data amounts are separate from the Limit of Insurance. Payments under Preservation of Property do not increase the applicable Limit of Insurance.",
+  "source": "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012 edition), C. Limits Of Insurance"
+ },
+ {
+  "id": "core-bas-41",
+  "topic": "basics",
+  "sub": "Named Insured Provisions - Assignment",
+  "q": "Under the 2018 ISO Personal Auto Policy, a named insured dies during the policy period. Coverage continues for the surviving spouse who lived in the same household:",
+  "choices": [
+   "Until 30 days after the death",
+   "Until 90 days after the death",
+   "Until the end of the policy period",
+   "Until the insurer approves an assignment of the policy"
+  ],
+  "answer": 2,
+  "explain": "The insured's rights and duties may not be assigned without the insurer's written consent. However, if a named insured dies, coverage is provided for the surviving spouse (if a resident of the same household at the time of death) as if a named insured, and for the legal representative with respect to the covered auto, but only until the end of the policy period.",
+  "source": "ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part F – General Provisions, Transfer Of Your Interest In This Policy A. and B.; IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"assignment\""
+ },
+ {
+  "id": "core-bas-42",
+  "topic": "basics",
+  "sub": "Named Insured Provisions - Assignment",
+  "q": "Under the 1998 ISO Common Policy Conditions, the named insured's rights and duties under a commercial policy may be transferred without the insurer's written consent:",
+  "choices": [
+   "When the insured property is sold",
+   "Only if an individual named insured dies",
+   "When the first Named Insured gives 10 days' notice",
+   "When the transfer is to an affiliated business"
+  ],
+  "answer": 1,
+  "explain": "Rights and duties may not be transferred without the insurer's written consent except in the case of the death of an individual named insured. They then pass to the legal representative, acting within the scope of that role.",
+  "source": "ISO IL 00 17 11 98 (Common Policy Conditions, 1998 edition), F. Transfer Of Your Rights And Duties Under This Policy"
+ },
+ {
+  "id": "core-bas-43",
+  "topic": "basics",
+  "sub": "Insurer Provisions - Salvage",
+  "q": "In property insurance, the term salvage refers to:",
+  "choices": [
+   "Damaged property that remains after a loss by an insured peril",
+   "The insurer's right to recover its payment from a negligent third party",
+   "Payment of a loss to a lender named in the policy",
+   "The insured's duty to give prompt notice of a loss"
+  ],
+  "answer": 0,
+  "explain": "Salvage is property after it has been partially damaged by an insured peril such as fire; as a verb, it means saving endangered property and protecting damaged property from further loss. Recovering from a negligent third party is subrogation, and paying a lender is done under a loss payable clause.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"salvage\"; \"subrogation\"; \"loss payable clause\""
+ },
+ {
+  "id": "core-bas-44",
+  "topic": "basics",
+  "sub": "Insurer Provisions - Salvage",
+  "q": "An auto insurer pays a total loss claim, takes ownership of the wrecked car, and sells it to an automotive recycler. The wrecked car is:",
+  "choices": [
+   "Contribution",
+   "Subrogation",
+   "Coinsurance",
+   "Salvage"
+  ],
+  "answer": 3,
+  "explain": "Salvage is damaged property remaining after a loss; the insurer may take it when it pays the claim (the Personal Auto Policy lets the insurer keep all or part of the property at an agreed or appraised value). Michigan's Vehicle Code sets salvage and scrap title rules for late model vehicles an insurer acquires by paying a claim.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"salvage\"; ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part D, Payment of Loss; MCL 257.217c(2)"
+ },
+ {
+  "id": "core-bas-45",
+  "topic": "basics",
+  "sub": "Insurer Provisions - Claim Settlement Options",
+  "q": "Under the 2012 ISO Building and Personal Property Coverage Form, who chooses whether a covered loss is settled by paying its value, paying to repair or replace, taking the property at an agreed or appraised value, or rebuilding?",
+  "choices": [
+   "The insured",
+   "The mortgageholder",
+   "An appraisal umpire",
+   "The insurer"
+  ],
+  "answer": 3,
+  "explain": "The Loss Payment condition gives these four settlement options \"at our option,\" meaning the insurer's option. The insurer must give notice of its intentions within 30 days after receiving the sworn proof of loss.",
+  "source": "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012 edition), E.4 Loss Payment, a. and c."
+ },
+ {
+  "id": "core-bas-46",
+  "topic": "basics",
+  "sub": "Insurer Provisions - Claim Settlement Options",
+  "q": "Under the 2011 ISO Homeowners forms, the insurer may repair or replace damaged property with property of like kind and quality if it gives written notice within how many days after receiving the signed, sworn proof of loss?",
+  "choices": [
+   "10 days",
+   "20 days",
+   "30 days",
+   "60 days"
+  ],
+  "answer": 2,
+  "explain": "The Our Option condition lets the insurer repair or replace any part of the damaged property with like kind and quality if it gives written notice within 30 days after receiving the signed, sworn proof of loss. In the unendorsed form, 60 days is the Loss Payment timing, a different condition.",
+  "source": "ISO HO 00 03 05 11 (Homeowners 3 – Special Form, 2011 edition), Section I – Conditions, I. Our Option and J. Loss Payment"
+ },
+ {
+  "id": "core-bas-47",
+  "topic": "basics",
+  "sub": "Insurer Provisions - Claim Settlement Options",
+  "q": "Under the 2018 ISO Personal Auto Policy, the insurer may settle a physical damage loss in all of the following ways EXCEPT:",
+  "choices": [
+   "Paying the original purchase price regardless of actual cash value",
+   "Paying for the loss in money, including applicable sales tax",
+   "Repairing or replacing the damaged or stolen property",
+   "Keeping all or part of the property at an agreed or appraised value"
+  ],
+  "answer": 0,
+  "explain": "Under Payment of Loss, the insurer may pay in money or repair or replace the damaged or stolen property, and it may keep all or part of the property at an agreed or appraised value. Its limit is the lesser of actual cash value or the cost to repair or replace with like kind and quality, not the original purchase price.",
+  "source": "ISO PP 00 01 09 18 (Personal Auto Policy, 2018 edition), Part D – Coverage for Damage to Your Auto, Limit of Liability A and Payment of Loss"
+ },
+ {
+  "id": "core-bas-48",
+  "topic": "basics",
+  "sub": "Third-Party Provisions - Loss Payable Clause",
+  "q": "A clause providing for payment of a covered loss to a party other than the named insured that has an insurable interest, such as an auto lender, is a:",
+  "choices": [
+   "Liberalization clause",
+   "Loss payable clause",
+   "No benefit to bailee clause",
+   "Subrogation clause"
+  ],
+  "answer": 1,
+  "explain": "A loss payable clause authorizes payment of a loss to a person or entity other than the named insured that has an insurable interest in the covered property, such as a lender financing a vehicle, \"as its interest may appear.\"",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"loss payable clause\""
+ },
+ {
+  "id": "core-bas-49",
+  "topic": "basics",
+  "sub": "Third-Party Provisions - Loss Payable Clause",
+  "q": "Under the 2011 ISO Homeowners forms, the Declarations show a loss payee for a listed item of personal property. If the insurer decides to cancel the policy, it must:",
+  "choices": [
+   "Obtain the loss payee's written consent",
+   "Pay any return premium to the loss payee",
+   "Notify the loss payee in writing",
+   "Notify only the named insured"
+  ],
+  "answer": 2,
+  "explain": "Under the Loss Payable Clause, the loss payee is treated as an \"insured\" for the listed property, and if the insurer decides to cancel or not renew the policy, the loss payee will be notified in writing.",
+  "source": "ISO HO 00 03 05 11 (Homeowners 3 – Special Form, 2011 edition), Section I – Conditions, S. Loss Payable Clause"
+ },
+ {
+  "id": "core-bas-50",
+  "topic": "basics",
+  "sub": "Indemnification Provisions",
+  "q": "A contract provision in which one party agrees to take on certain legal liabilities of the other party is a(n):",
+  "choices": [
+   "Loss payable clause",
+   "Liberalization clause",
+   "Waiver of subrogation",
+   "Hold harmless agreement"
+  ],
+  "answer": 3,
+  "explain": "A hold harmless (indemnity) agreement requires one contracting party to respond to certain legal liabilities of the other, such as a contractor indemnifying a project owner for injuries to the public during the work.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"hold harmless agreement\""
+ },
+ {
+  "id": "core-bas-51",
+  "topic": "basics",
+  "sub": "Indemnification Provisions",
+  "q": "A contractor agrees to hold the owner harmless for claims arising from the contractor's sole negligence or the joint negligence of the contractor and owner, but not the owner's sole negligence. This is a(n):",
+  "choices": [
+   "Limited form hold harmless agreement",
+   "Intermediate form hold harmless agreement",
+   "Broad form hold harmless agreement",
+   "Waiver of subrogation"
+  ],
+  "answer": 1,
+  "explain": "An intermediate form covers the other party for the indemnitor's sole negligence or the negligence of both parties. A limited form covers only the indemnitor's sole negligence, and a broad form also covers the other party's sole negligence.",
+  "source": "IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"hold harmless agreement\""
+ },
+ {
+  "id": "core-bas-52",
+  "topic": "basics",
+  "sub": "Indemnification Provisions",
+  "q": "Under Michigan law, a provision in a building construction contract that requires the contractor to indemnify the owner for bodily injury caused by the owner's sole negligence is:",
+  "choices": [
+   "Void and unenforceable",
+   "Enforceable if it is in writing and signed",
+   "Enforceable only up to the contract price",
+   "Void only if the owner is a public entity"
+  ],
+  "answer": 0,
+  "explain": "Michigan law makes a provision in a construction contract that indemnifies the promisee against liability for bodily injury or property damage caused by the promisee's sole negligence against public policy, void, and unenforceable. This rule applies to all such contracts, not only public ones; a separate subsection adds limits on what a public entity may require. Indemnifying the other party's sole negligence is the broad form of hold harmless agreement.",
+  "source": "MCL 691.991(1) and (2) (1966 PA 165, as amended by 2012 PA 468, eff. Mar. 1, 2013); IRMI Glossary (irmi.com/term/insurance-definitions, retrieved 2026-10-13): \"hold harmless agreement\""
+ },
+ {
+  "id": "core-gen-01",
+  "topic": "gen",
+  "sub": "Risk Management Key Terms > Risk",
+  "q": "The uncertainty about whether a loss will occur is called:",
+  "choices": [
+   "Hazard",
+   "Peril",
+   "Exposure",
+   "Risk"
+  ],
+  "answer": 3,
+  "explain": "Risk is the uncertainty arising from the possible occurrence of a loss. A hazard is a condition that increases the chance of loss, a peril is the cause of loss, and an exposure is the state of being subject to loss.",
+  "source": "IRMI glossary: risk; hazard; peril; exposure. National Alliance Research Academy insurance glossary (riskeducation.org): risk"
+ },
+ {
+  "id": "core-gen-02",
+  "topic": "gen",
+  "sub": "Risk Management Key Terms > Risk",
+  "q": "A pure risk is one that involves:",
+  "choices": [
+   "The chance of loss or gain",
+   "Only the chance of loss or no loss",
+   "A condition that increases the chance of loss",
+   "The cause of a loss"
+  ],
+  "answer": 1,
+  "explain": "Pure risk presents a chance of loss or no loss, with no chance of gain, and is generally insurable. A chance of loss or gain is speculative risk, a condition that increases the chance of loss is a hazard, and the cause of a loss is a peril.",
+  "source": "IRMI glossary: pure risk; speculative risk; hazard; peril. National Alliance Research Academy insurance glossary (riskeducation.org): pure risk; speculative risk"
+ },
+ {
+  "id": "core-gen-03",
+  "topic": "gen",
+  "sub": "Risk Management Key Terms > Risk",
+  "q": "Which of the following is an example of a speculative risk?",
+  "choices": [
+   "A house being damaged by fire",
+   "A car being stolen",
+   "Investing money in a new business",
+   "An employee being injured at work"
+  ],
+  "answer": 2,
+  "explain": "Speculative risk can produce either a profit or a loss, as in a business venture or gambling, and is generally not insurable. The other choices are pure risks, which offer only the chance of loss or no loss.",
+  "source": "IRMI glossary: speculative risk; pure risk. National Alliance Research Academy insurance glossary (riskeducation.org): speculative risk (\"often referred to as a business risk\")"
+ },
+ {
+  "id": "core-gen-04",
+  "topic": "gen",
+  "sub": "Risk Management Key Terms > Exposure",
+  "q": "Being subject to the possibility of loss from some hazard or contingency is called:",
+  "choices": [
+   "Exposure",
+   "Hazard",
+   "Peril",
+   "Adverse selection"
+  ],
+  "answer": 0,
+  "explain": "Exposure is the state of being subject to loss because of some hazard or contingency; the word also means the rating unit or premium base of a risk. A hazard increases the chance of loss, and a peril is the cause of loss.",
+  "source": "IRMI glossary: exposure; hazard; peril; adverse selection"
+ },
+ {
+  "id": "core-gen-05",
+  "topic": "gen",
+  "sub": "Risk Management Key Terms > Peril",
+  "q": "A windstorm tears the roof off a house. In insurance terms, the windstorm is the:",
+  "choices": [
+   "Hazard",
+   "Peril",
+   "Exposure",
+   "Loss"
+  ],
+  "answer": 1,
+  "explain": "A peril is a cause of loss, such as fire, windstorm or collision. The damage to the roof is the loss, and a hazard is a condition that increases the chance of loss.",
+  "source": "IRMI glossary: peril; hazard. National Alliance Research Academy insurance glossary (riskeducation.org): peril (\"The cause of a loss\"); loss"
+ },
+ {
+  "id": "core-gen-06",
+  "topic": "gen",
+  "sub": "Risk Management Key Terms > Loss",
+  "q": "A fire damages a store's inventory. In insurance terms, the reduction in the inventory's value is the:",
+  "choices": [
+   "Peril",
+   "Hazard",
+   "Loss",
+   "Exposure"
+  ],
+  "answer": 2,
+  "explain": "A loss is a reduction in value, and it is the basis of a claim under the policy. The fire that caused it is the peril.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): loss (\"A reduction in value\"); peril. IRMI glossary: loss; peril"
+ },
+ {
+  "id": "core-gen-07",
+  "topic": "gen",
+  "sub": "Methods of Handling Risk > Retention",
+  "q": "A business chooses a $10,000 deductible on its property policy to lower its premium. For the first $10,000 of each covered loss, the business is using which method of handling risk?",
+  "choices": [
+   "Avoidance",
+   "Reduction",
+   "Transfer",
+   "Retention"
+  ],
+  "answer": 3,
+  "explain": "Risk retention is the planned acceptance of losses through deductibles, deliberate noninsurance and loss-sensitive plans. The part of each loss above the deductible is transferred to the insurer.",
+  "source": "IRMI glossary: risk retention. National Alliance Research Academy insurance glossary (riskeducation.org): active retention"
+ },
+ {
+  "id": "core-gen-08",
+  "topic": "gen",
+  "sub": "Methods of Handling Risk > Retention",
+  "q": "A large company sets aside its own funds to pay its property losses as they occur instead of buying insurance. This self-insurance plan is a form of:",
+  "choices": [
+   "Risk retention",
+   "Risk avoidance",
+   "Risk reduction",
+   "Risk transfer"
+  ],
+  "answer": 0,
+  "explain": "Self-insurance is a formal decision to retain risk rather than insure it: the firm pays losses from a fund of its own money. No risk is shifted to another party.",
+  "source": "IRMI glossary: self-insurance. National Alliance Research Academy insurance glossary (riskeducation.org): self-insurance; retention"
+ },
+ {
+  "id": "core-gen-09",
+  "topic": "gen",
+  "sub": "Methods of Handling Risk > Sharing",
+  "q": "A method of handling risk in which a potential loss exposure is distributed among a number of persons is called:",
+  "choices": [
+   "Avoidance",
+   "Reduction",
+   "Retention",
+   "Sharing"
+  ],
+  "answer": 3,
+  "explain": "Sharing distributes a potential loss among a group; in risk sharing, each member's premiums and losses are allocated within the group by a predetermined formula. Retention is one party accepting its own losses.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): sharing; retention. IRMI glossary: risk sharing; risk retention"
+ },
+ {
+  "id": "core-gen-10",
+  "topic": "gen",
+  "sub": "Methods of Handling Risk > Transfer",
+  "q": "A business owner buys a commercial property policy so that an insurer, not the business, pays for covered losses. This method of handling risk is:",
+  "choices": [
+   "Avoidance",
+   "Transfer",
+   "Reduction",
+   "Retention"
+  ],
+  "answer": 1,
+  "explain": "Transfer shifts the uncertainty of loss to another party; buying insurance shifts it to the insurer. The business still owns the property, so the risk has not been avoided.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): transfer. IRMI glossary: noninsurance risk transfer (transfer to a party other than an insurer)"
+ },
+ {
+  "id": "core-gen-11",
+  "topic": "gen",
+  "sub": "Methods of Handling Risk > Transfer",
+  "q": "A construction contract requires the contractor to indemnify the project owner for the owner's liability to the public arising from the contractor's work. For the owner, this is an example of:",
+  "choices": [
+   "Retention",
+   "Avoidance",
+   "Transfer",
+   "Reduction"
+  ],
+  "answer": 2,
+  "explain": "A hold harmless (indemnity) agreement is a noninsurance transfer: by contract, it shifts the owner's liability to another party, here the contractor. No insurance policy is involved.",
+  "source": "IRMI glossary: hold harmless agreement; noninsurance risk transfer. National Alliance Research Academy insurance glossary (riskeducation.org): non-insurance contractual transfer"
+ },
+ {
+  "id": "core-gen-12",
+  "topic": "gen",
+  "sub": "Types of Insurers > Stock Companies",
+  "q": "An insurer that has a capital fund paid in by stockholders, in addition to its surplus and reserves, is a:",
+  "choices": [
+   "Mutual company",
+   "Reciprocal exchange",
+   "Stock company",
+   "Lloyd's association"
+  ],
+  "answer": 2,
+  "explain": "A stock company has a capital fund paid in by stockholders in addition to surplus and reserves. Mutual companies have no stockholders, a reciprocal is an unincorporated group of subscribers managed by an attorney-in-fact, and Lloyd's of London is a marketplace of independent underwriters rather than an insurance company.",
+  "source": "IRMI glossary: stock company; mutual company; reciprocal; Lloyd's of London"
+ },
+ {
+  "id": "core-gen-13",
+  "topic": "gen",
+  "sub": "Types of Insurers > Stock Companies",
+  "q": "The owners of a stock insurance company are:",
+  "choices": [
+   "Its policyholders",
+   "Stockholders who need not be insureds",
+   "Subscribers represented by an attorney-in-fact",
+   "The company's appointed agents"
+  ],
+  "answer": 1,
+  "explain": "A stock insurer is owned by stockholders who are not necessarily insureds. A mutual is owned by its policyholders, and a reciprocal's subscribers act through an attorney-in-fact.",
+  "source": "IRMI glossary: mutual company; stock company; reciprocal. National Alliance Research Academy insurance glossary (riskeducation.org): stock company"
+ },
+ {
+  "id": "core-gen-14",
+  "topic": "gen",
+  "sub": "Types of Insurers > Mutual Companies",
+  "q": "A mutual insurance company is owned by its:",
+  "choices": [
+   "Policyholders",
+   "Stockholders",
+   "Agents",
+   "Attorney-in-fact"
+  ],
+  "answer": 0,
+  "explain": "A mutual company is owned by its insureds: every owner is an insured and every insured is an owner. A stock company is owned by stockholders.",
+  "source": "IRMI glossary: mutual company. National Alliance Research Academy insurance glossary (riskeducation.org): mutual company"
+ },
+ {
+  "id": "core-gen-15",
+  "topic": "gen",
+  "sub": "Authority and Powers of Producers > Express",
+  "q": "Authority that an insurer specifically gives a producer, orally or in writing, is:",
+  "choices": [
+   "Apparent authority",
+   "Express authority",
+   "Implied authority",
+   "Authority by estoppel"
+  ],
+  "answer": 1,
+  "explain": "Express authority is authority expressly given by the insurer, either orally or in writing, such as the powers spelled out in the agency contract. Apparent authority, which is tied to estoppel, rests on what a third party reasonably believes from the insurer's conduct.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): express authority; apparent authority. IRMI glossary: express authority; apparent agency. Cornell LII Wex: express authority"
+ },
+ {
+  "id": "core-gen-16",
+  "topic": "gen",
+  "sub": "Authority and Powers of Producers > Implied",
+  "q": "Authority that the insurer has not specifically stated, but that is consistent with the producer fully exercising the authority the insurer did grant, is:",
+  "choices": [
+   "Apparent authority",
+   "Authority by estoppel",
+   "Express authority",
+   "Implied authority"
+  ],
+  "answer": 3,
+  "explain": "Implied authority covers acts that are not spelled out but are consistent with, and reasonably necessary to, carrying out the express authority. Express authority is stated orally or in writing, and apparent authority rests on what a third party reasonably believes from the insurer's conduct.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): implied authority; express authority; apparent authority. IRMI glossary: implied authority. Cornell LII Wex: implied authority"
+ },
+ {
+  "id": "core-gen-17",
+  "topic": "gen",
+  "sub": "Authority and Powers of Producers > Implied",
+  "q": "A producer's agency agreement authorizes her to collect premiums but says nothing about receipts. Her authority to give customers receipts, a step reasonably necessary to complete the collections, is:",
+  "choices": [
+   "Apparent authority",
+   "Binding authority",
+   "Implied authority",
+   "Express authority"
+  ],
+  "answer": 2,
+  "explain": "When a principal expressly authorizes a task, the agent also has implied authority to take the steps reasonably necessary to complete it. The power is not express because the agreement does not state it, and it is not apparent authority because it comes from the grant itself, not from a third party's belief.",
+  "source": "Cornell LII Wex: implied authority; apparent authority. National Alliance Research Academy insurance glossary (riskeducation.org): implied authority"
+ },
+ {
+  "id": "core-gen-18",
+  "topic": "gen",
+  "sub": "Elements of a Legal Contract > Offer and Acceptance",
+  "q": "Under Michigan case law, an application for insurance is:",
+  "choices": [
+   "An acceptance of the terms the insurer has offered to the applicant",
+   "An offer that the insurer must accept before a contract exists",
+   "A binding contract as soon as the applicant signs and dates it",
+   "A binder that provides temporary coverage until a policy is issued"
+  ],
+  "answer": 1,
+  "explain": "The Michigan Supreme Court describes an application for insurance as a mere offer that must be accepted before a contract of insurance comes into existence. A binder is a separate, temporary evidence of insurance issued by an agent or insurer.",
+  "source": "Gorham v Peerless Life Ins Co, 368 Mich 335 (1962); IRMI glossary: binder"
+ },
+ {
+  "id": "core-gen-19",
+  "topic": "gen",
+  "sub": "Elements of a Legal Contract > Offer and Acceptance",
+  "q": "When an applicant submits an application for insurance, the insurer generally accepts the applicant's offer by:",
+  "choices": [
+   "Issuing a policy or a binder",
+   "Receiving the completed application",
+   "Ordering an inspection of the property",
+   "Assigning the application to an underwriter"
+  ],
+  "answer": 0,
+  "explain": "An application is only an offer, and under Michigan case law the insurer's silence or inaction generally is not acceptance. The insurer accepts by issuing the policy or a binder; Michigan law treats a binder as a contract for temporary insurance that includes the terms and conditions of the policy applied for.",
+  "source": "Gorham v Peerless Life Ins Co, 368 Mich 335 (1962); MCL 500.2250; IRMI glossary: binder; National Alliance Research Academy insurance glossary (riskeducation.org): application"
+ },
+ {
+  "id": "core-gen-20",
+  "topic": "gen",
+  "sub": "Elements of a Legal Contract > Competent Parties",
+  "q": "The element of a legal contract that requires each party to be of legal age and to have the mental capacity to understand the agreement is:",
+  "choices": [
+   "Consideration",
+   "Competent parties",
+   "Legal purpose",
+   "Offer and acceptance"
+  ],
+  "answer": 1,
+  "explain": "A competent party has the legal capacity to contract: legal age, the mental capacity to understand the contract, and freedom from duress. The Michigan Supreme Court lists parties competent to contract as the first element of a valid contract.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): competent party; contract law. AFT Michigan v Michigan, 497 Mich 197 (2015)"
+ },
+ {
+  "id": "core-gen-21",
+  "topic": "gen",
+  "sub": "Elements of a Legal Contract > Competent Parties",
+  "q": "Under Michigan law, a person becomes an adult of legal age, with full legal capacity to enter into contracts, at age:",
+  "choices": [
+   "16",
+   "17",
+   "18",
+   "21"
+  ],
+  "answer": 2,
+  "explain": "Michigan's Age of Majority Act makes a person who is at least 18 an adult of legal age for all purposes, with the same legal capacity that was formerly acquired at 21. A separate Insurance Code rule lets a person aged 16 to 18 make a valid life or disability insurance contract, but it does not make that person an adult of legal age.",
+  "source": "MCL 722.52(1) (Age of Majority Act of 1971); MCL 500.2205"
+ },
+ {
+  "id": "core-gen-22",
+  "topic": "gen",
+  "sub": "Elements of a Legal Contract > Legal Purpose",
+  "q": "A policy written to insure a shipment of illegal drugs against theft would be unenforceable because the contract lacks:",
+  "choices": [
+   "Competent parties",
+   "Consideration",
+   "Offer and acceptance",
+   "Legal purpose"
+  ],
+  "answer": 3,
+  "explain": "A valid contract must have a legal purpose (a proper subject matter). Michigan courts treat contracts founded on acts prohibited by statute, or that violate public policy, as void or unenforceable.",
+  "source": "AFT Michigan v Michigan, 497 Mich 197 (2015); Maids Int'l, Inc v Saunders, Inc, 224 Mich App 508 (1997) (citing Mahoney v Lincoln Brick Co, 304 Mich 694 (1943)); Terrien v Zwit, 467 Mich 56 (2002); National Alliance Research Academy insurance glossary (riskeducation.org): contract law"
+ },
+ {
+  "id": "core-gen-23",
+  "topic": "gen",
+  "sub": "Distinct Characteristics > Personal Contract",
+  "q": "Kate sells her home during the policy period and wants the buyer to take over her Homeowners policy (HO-3). The assignment of the policy is valid only if:",
+  "choices": [
+   "The insurer gives its written consent",
+   "The buyer pays the remaining premium",
+   "The mortgagee approves the transfer",
+   "Kate gives the insurer written notice of the sale"
+  ],
+  "answer": 0,
+  "explain": "The Homeowners policy states that assignment of the policy will not be valid unless the insurer gives its written consent; notice from the insured is not consent. Because insurance is a personal contract with the insured, the policy does not pass to the buyer with the house.",
+  "source": "ISO HO 00 03 05 11, Sections I and II - Conditions, E. Assignment (same wording in HO 00 02 10 00, Sections I and II - Conditions, E., and DP 00 01 07 88, Condition 21); National Alliance Research Academy insurance glossary (riskeducation.org): assignment"
+ },
+ {
+  "id": "core-gen-24",
+  "topic": "gen",
+  "sub": "Distinct Characteristics > Unilateral Contract",
+  "q": "An insurance policy is called a unilateral contract because:",
+  "choices": [
+   "Only the insurer makes a legally enforceable promise",
+   "The insurer alone drafts the policy wording",
+   "The values exchanged by the parties are unequal",
+   "The policy cannot be assigned without the insurer's consent"
+  ],
+  "answer": 0,
+  "explain": "In a unilateral contract only one party makes an enforceable promise: the insurer promises to pay covered claims, while the insured only has to meet conditions such as paying premiums and reporting losses. One-sided drafting describes a contract of adhesion, and an unequal exchange describes an aleatory contract.",
+  "source": "IRMI glossary: unilateral contract; contract of adhesion; aleatory contract"
+ },
+ {
+  "id": "core-gen-25",
+  "topic": "gen",
+  "sub": "Distinct Characteristics > Conditional Contract",
+  "q": "Under the Homeowners policy (HO-3), the insurer has no duty to provide coverage if the insured's failure to give prompt notice of a property loss prejudices the insurer. This shows that an insurance policy is a(n):",
+  "choices": [
+   "Aleatory contract",
+   "Contract of adhesion",
+   "Personal contract",
+   "Conditional contract"
+  ],
+  "answer": 3,
+  "explain": "In a conditional contract, the insurer's promise depends on certain things occurring or being done, such as the insured performing the duties after loss. The Homeowners form says the insurer has no duty to provide coverage if failure to perform those duties is prejudicial to it.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): conditional contract. ISO HO 00 03 05 11, Section I - Conditions, C. Duties After Loss (same wording in HO 00 02 10 00, Section I - Conditions, B.)"
+ },
+ {
+  "id": "core-gen-26",
+  "topic": "gen",
+  "sub": "Legal Interpretations > Indemnity",
+  "q": "The principle that an insurance payment should restore the insured to the financial position the insured had before the loss is:",
+  "choices": [
+   "Indemnity",
+   "Insurable interest",
+   "Subrogation",
+   "Utmost good faith"
+  ],
+  "answer": 0,
+  "explain": "Indemnity means restoring an injured party to the financial position enjoyed before a loss, so the insured should not profit from the loss. Policy provisions that pay no insured more than its interest in the property apply this principle.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): indemnity. ISO HO 00 03 05 11, Section I - Conditions, A. Insurable Interest And Limit Of Liability; ISO CP 00 10 10 12, E.4.d"
+ },
+ {
+  "id": "core-gen-27",
+  "topic": "gen",
+  "sub": "Legal Interpretations > Indemnity",
+  "q": "A homeowner has a $50,000 covered fire loss. Two property policies cover the home, each with a $100,000 limit. Ignoring deductibles, the principle of indemnity limits the homeowner's total recovery from both policies to:",
+  "choices": [
+   "$25,000",
+   "$50,000",
+   "$100,000",
+   "$200,000"
+  ],
+  "answer": 1,
+  "explain": "Indemnity restores the insured to the pre-loss position without profit, so total recovery cannot exceed the $50,000 loss. Other-insurance clauses enforce this; under the 2011 Homeowners form, for example, each policy would pay only its proportional share, here $25,000.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): indemnity. IRMI glossary: other insurance clause. ISO HO 00 03 05 11, Section I - Conditions, G. Other Insurance And Service Agreement"
+ },
+ {
+  "id": "core-gen-28",
+  "topic": "gen",
+  "sub": "Legal Interpretations > Utmost Good Faith",
+  "q": "Insurance contracts presume that both the applicant and the insurer will fully disclose all pertinent facts. This principle is called:",
+  "choices": [
+   "Contract of adhesion",
+   "Estoppel",
+   "Principle of indemnity",
+   "Utmost good faith"
+  ],
+  "answer": 3,
+  "explain": "Utmost good faith (uberrimae fidei) means the parties rely heavily on each other's honesty and presume full disclosure of all pertinent facts. That is why concealment of pertinent information can void a policy.",
+  "source": "IRMI glossary: uberrimae fidei; concealment. National Alliance Research Academy insurance glossary (riskeducation.org): utmost good faith"
+ },
+ {
+  "id": "core-gen-29",
+  "topic": "gen",
+  "sub": "Legal Interpretations > Representations/Misrepresentations",
+  "q": "A statement in an application that the applicant believes to be true to the best of the applicant's knowledge is a(n):",
+  "choices": [
+   "Concealment",
+   "Warranty",
+   "Representation",
+   "Insurable interest"
+  ],
+  "answer": 2,
+  "explain": "A representation is a statement in an application that the applicant represents as correct to the best of their knowledge, while a warranty guarantees that a fact is true. If the insurer relied on a representation that was false when made, it may have grounds to void the contract.",
+  "source": "IRMI glossary: representation; warranty"
+ },
+ {
+  "id": "core-gen-30",
+  "topic": "gen",
+  "sub": "Legal Interpretations > Representations/Misrepresentations",
+  "q": "Under Michigan law, a misrepresentation in an application for property insurance does not void the policy or defeat recovery unless the misrepresentation was:",
+  "choices": [
+   "Discovered before a loss occurred",
+   "Material",
+   "Related to the cause of the loss",
+   "Repeated on a renewal application"
+  ],
+  "answer": 1,
+  "explain": "Michigan law says no misrepresentation avoids an insurance contract or defeats recovery unless it was material, meaning the insurer would have refused to make the contract had it known the facts. The statute does not require that the misstatement relate to the cause of the loss or be discovered before a loss.",
+  "source": "MCL 500.2218(1), (2)"
+ },
+ {
+  "id": "core-gen-31",
+  "topic": "gen",
+  "sub": "Legal Interpretations > Warranties",
+  "q": "A statement of fact about the risk that the insured guarantees to be true, and that will void the policy if it is untrue, is a:",
+  "choices": [
+   "Binder",
+   "Concealment",
+   "Representation",
+   "Warranty"
+  ],
+  "answer": 3,
+  "explain": "A warranty is a statement of fact given by the insured about the risk that will void the policy if untrue; it guarantees that something is true. A representation is a statement only believed true to the best of the applicant's knowledge.",
+  "source": "IRMI glossary: warranty; representation. National Alliance Research Academy insurance glossary (riskeducation.org): warranty"
+ },
+ {
+  "id": "core-gen-32",
+  "topic": "gen",
+  "sub": "Legal Interpretations > Fraud",
+  "q": "What distinguishes fraud from an innocent misstatement of fact in an insurance application?",
+  "choices": [
+   "The dollar amount involved",
+   "Whether the statement was oral",
+   "Intent to deceive",
+   "Whether a producer completed the application"
+  ],
+  "answer": 2,
+  "explain": "Fraud is an intentional manipulation of the truth that another party relies on to its detriment, while a misrepresentation is simply a misstatement of facts. Proof of fraud in procuring insurance may lead the insurer to deny coverage and void the policy.",
+  "source": "National Alliance Research Academy insurance glossary (riskeducation.org): fraud; misrepresentations. IRMI glossary: fraud"
+ },
+ {
+  "id": "core-gen-33",
+  "topic": "gen",
+  "sub": "Legal Interpretations > Fraud",
+  "q": "Under the 1988 ISO Commercial Property Conditions, fraud by the named insured relating to the Coverage Part voids the coverage if it occurs:",
+  "choices": [
+   "At any time",
+   "Before the policy is issued, but not after",
+   "After a loss occurs, but not before",
+   "During the policy period, but not after it ends"
+  ],
+  "answer": 0,
+  "explain": "The Concealment, Misrepresentation Or Fraud condition voids the Coverage Part in any case of fraud by the named insured relating to it at any time. The Coverage Part is also void if any insured intentionally conceals or misrepresents a material fact at any time.",
+  "source": "ISO CP 00 90 07 88, A. Concealment, Misrepresentation Or Fraud"
+ },
+ {
+  "id": "core-wcg-01",
+  "topic": "wc",
+  "sub": "MI WDCA > Covered Injuries (418.301)",
+  "q": "Under the Michigan Worker's Disability Compensation Act, an employee is entitled to compensation for a personal injury that:",
+  "choices": [
+   "Results from the employer's negligence",
+   "Arises out of and in the course of employment",
+   "Is reported to the employer within 30 days after it occurs",
+   "Is not caused by the employee's own carelessness"
+  ],
+  "answer": 1,
+  "explain": "Section 301(1) pays compensation for a personal injury \"arising out of and in the course of employment\". The employee does not have to prove the employer was negligent, and the employee's own ordinary carelessness does not bar benefits; only an injury caused by the employee's intentional and willful misconduct is not compensable (Section 305). The employee's notice of injury is due within 90 days, and late notice is excused unless the employer proves it was prejudiced.",
+  "source": "MCL 418.301(1); MCL 418.305; MCL 418.381(1)"
+ },
+ {
+  "id": "core-wcg-02",
+  "topic": "wc",
+  "sub": "MI WDCA > Covered Injuries (418.301)",
+  "q": "An employee breaks an ankle during a company softball game whose major purpose is social and recreational. Under the Michigan Worker's Disability Compensation Act, the injury is:",
+  "choices": [
+   "Covered for both medical and wage-loss benefits",
+   "Covered for medical benefits only",
+   "Covered only if the game was on the employer's premises",
+   "Not covered by the Act"
+  ],
+  "answer": 3,
+  "explain": "Section 301(3) states that an injury incurred in the pursuit of an activity whose major purpose is social or recreational is not covered, notwithstanding the on-premises presumption for employees going to or from work. A lawsuit brought for such an injury is not subject to the Act's exclusive-remedy section (Section 131).",
+  "source": "MCL 418.301(3)"
+ },
+ {
+  "id": "core-wcg-03",
+  "topic": "wc",
+  "sub": "MI WDCA > Covered Injuries (418.301)",
+  "q": "Under the Michigan Worker's Disability Compensation Act, an employee going to or from work who is on the work premises within a reasonable time before or after working hours is:",
+  "choices": [
+   "Presumed to be in the course of employment",
+   "Outside the course of employment until the shift begins",
+   "Covered only if the employer's negligence caused the injury",
+   "Covered for medical benefits only"
+  ],
+  "answer": 0,
+  "explain": "Section 301(3) presumes that an employee going to or from work, while on the premises where the work is to be performed and within a reasonable time before and after working hours, is in the course of employment. The presumption does not reach an injury from an activity whose major purpose is social or recreational.",
+  "source": "MCL 418.301(3)"
+ },
+ {
+  "id": "core-wcg-04",
+  "topic": "wc",
+  "sub": "MI WDCA > Occupational Disease (418.401-.441)",
+  "q": "Under the Michigan Worker's Disability Compensation Act, a disease is compensable as a personal injury when it:",
+  "choices": [
+   "Is an ordinary disease of life that the public is also exposed to outside of work",
+   "Was first diagnosed while the employee was on the employer's payroll",
+   "Is due to conditions characteristic of and peculiar to the employer's business",
+   "Is confirmed by a physician the employer selects"
+  ],
+  "answer": 2,
+  "explain": "Section 401(2)(b) defines personal injury to include a disease or disability due to causes and conditions characteristic of and peculiar to the employer's business that arises out of and in the course of the employment. An ordinary disease of life to which the public is generally exposed outside the employment is not compensable.",
+  "source": "MCL 418.401(2)(b)"
+ },
+ {
+  "id": "core-wcg-05",
+  "topic": "wc",
+  "sub": "MI WDCA > Occupational Disease (418.401-.441)",
+  "q": "An employee contracted an occupational disease in the same type of work performed for three successive employers. Under the Michigan Worker's Disability Compensation Act, compensation for the disease is recoverable from:",
+  "choices": [
+   "The first employer in that employment",
+   "The Second Injury Fund",
+   "Each employer in proportion to the time worked for it",
+   "The last employer in that employment"
+  ],
+  "answer": 3,
+  "explain": "Section 435 makes the total compensation recoverable from the employer who last employed the employee in the employment to which the disease was due and in which it was contracted. If liability is disputed, the employee claims against, and applies for a hearing against, the last employer only.",
+  "source": "MCL 418.435"
+ },
+ {
+  "id": "core-wcg-06",
+  "topic": "wc",
+  "sub": "MI WDCA > Occupational Disease (418.401-.441)",
+  "q": "Under the Michigan Worker's Disability Compensation Act, a claim for an occupational disease must be made within 2 years after:",
+  "choices": [
+   "The employee's first exposure to the workplace conditions that caused the disease",
+   "The employee knew or reasonably should have known the disease was work related",
+   "The disease was first diagnosed, even if not yet known to be work related",
+   "The employer first received notice of the disease"
+  ],
+  "answer": 1,
+  "explain": "Section 441 requires an occupational disease claim within 2 years after the date the employee (or a deceased employee's dependents) had knowledge or a reasonable belief, or through ordinary diligence could have discovered, that the disease or death was work related. The period runs from that discovery of the work connection, not from the date of first exposure, a diagnosis that does not reveal the work connection, or the employer's notice.",
+  "source": "MCL 418.441(1)-(2)"
+ },
+ {
+  "id": "core-wcg-07",
+  "topic": "wc",
+  "sub": "Federal Laws > FELA",
+  "q": "The Federal Employers' Liability Act (FELA) applies to employees of:",
+  "choices": [
+   "Federal government agencies",
+   "Interstate railroads",
+   "Interstate trucking companies",
+   "Shipyards and marine terminals"
+  ],
+  "answer": 1,
+  "explain": "FELA makes every common carrier by railroad engaged in interstate or foreign commerce liable in damages to its employees injured through its negligence; it does not reach other kinds of carriers or employers. Shipyard and marine terminal workers fall under the Longshore and Harbor Workers' Compensation Act.",
+  "source": "45 U.S.C. 51 (FELA sec. 1); 33 U.S.C. 902(3), 903(a) (U.S. Code text via LII)"
+ },
+ {
+  "id": "core-wcg-08",
+  "topic": "wc",
+  "sub": "Federal Laws > FELA",
+  "q": "An interstate railroad worker is injured on the job and sues under the Federal Employers' Liability Act. To recover, the worker must generally prove that:",
+  "choices": [
+   "The worker was not negligent",
+   "The injury arose out of employment, with no showing of fault needed",
+   "The railroad's negligence caused the injury in whole or in part",
+   "The railroad intended to cause the injury"
+  ],
+  "answer": 2,
+  "explain": "FELA is a negligence law: the railroad is liable in damages for injury resulting in whole or in part from the negligence of its officers, agents or employees, or from defects in its equipment due to its negligence. The worker's own contributory negligence does not bar recovery but reduces damages in proportion, and there is no reduction if the railroad's violation of a safety statute contributed to the injury.",
+  "source": "45 U.S.C. 51, 53 (U.S. Code text via LII)"
+ },
+ {
+  "id": "core-wcg-09",
+  "topic": "wc",
+  "sub": "Federal Laws > USL&HW Act",
+  "q": "A private shipyard's employee is injured while repairing a cargo ship on a dry dock adjoining navigable waters of the United States. Which federal law provides compensation for this injury?",
+  "choices": [
+   "The Longshore and Harbor Workers' Compensation Act",
+   "The Jones Act",
+   "The Federal Employers' Liability Act",
+   "The Migrant and Seasonal Agricultural Worker Protection Act"
+  ],
+  "answer": 0,
+  "explain": "The Longshore and Harbor Workers' Compensation Act covers persons in maritime employment, including ship repairmen, for injuries on navigable waters of the United States or an adjoining pier, wharf, dry dock, terminal or similar area, and pays compensation irrespective of fault. The Jones Act applies to seamen (vessel crew members, whom the Longshore Act excludes), and FELA applies to railroad workers.",
+  "source": "33 U.S.C. 902(3), 902(3)(G), 903(a), 904(b); 46 U.S.C. 30104; 45 U.S.C. 51 (U.S. Code text via LII)"
+ },
+ {
+  "id": "core-wcg-10",
+  "topic": "wc",
+  "sub": "Federal Laws > USL&HW Act",
+  "q": "A Michigan employer's Workers' Compensation and Employers Liability Insurance Policy lists only Michigan in Item 3.A. Some of its employees are subject to the Longshore and Harbor Workers' Compensation Act. Coverage for its obligations under that act:",
+  "choices": [
+   "Is included in Part One",
+   "Is included in Part Three – Other States Insurance",
+   "Requires listing the act in Item 3.A",
+   "Must be added by endorsement"
+  ],
+  "answer": 3,
+  "explain": "The policy defines workers compensation law as the law of each state named in Item 3.A and excludes any federal workers compensation law, and Part Two excludes bodily injury in work subject to the Longshore Act. Michigan's Placement Facility manual states that Longshore Act coverage may be provided only by adding the Longshore and Harbor Workers' Compensation Act Coverage Endorsement, and that the act is not to be entered in Item 3.A.",
+  "source": "NCCI Workers Compensation and Employers Liability Insurance Policy WC 00 00 00 C (Ed. 1-15), General Section C and Part Two C.8; Michigan Workers' Compensation Placement Facility Basic Manual (2026 edition, Ed. 09/26), Rule Two A and Rule Eleven B (endorsement WC 00 01 06 A)"
+ },
+ {
+  "id": "core-wcg-11",
+  "topic": "wc",
+  "sub": "WC & EL Policy > General Section",
+  "q": "Under the Workers' Compensation and Employers Liability Insurance Policy, the term \"workers compensation law\" includes:",
+  "choices": [
+   "Federal workers compensation and occupational disease laws",
+   "The provisions of any law that provide nonoccupational disability benefits",
+   "The occupational disease law of each Item 3.A state",
+   "State unemployment compensation laws"
+  ],
+  "answer": 2,
+  "explain": "The General Section defines workers compensation law as the workers compensation law and occupational disease law of each state or territory named in Item 3.A, including amendments in effect during the policy period. It does not include any federal workers compensation or occupational disease law, or laws that provide nonoccupational disability benefits.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), General Section C"
+ },
+ {
+  "id": "core-wcg-12",
+  "topic": "wc",
+  "sub": "WC & EL Policy > General Section",
+  "q": "Under the Workers' Compensation and Employers Liability Insurance Policy, the terms of the policy may be changed or waived only by:",
+  "choices": [
+   "An endorsement issued by the insurer",
+   "An oral agreement between the producer and the employer",
+   "A written notice from the employer to the insurer",
+   "A letter from the producer to the employer"
+  ],
+  "answer": 0,
+  "explain": "General Section A states that the only agreements relating to the insurance are stated in the policy, and its terms may not be changed or waived except by endorsement issued by the insurer to be part of the policy. The policy includes the Information Page and all endorsements and schedules listed there.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), General Section A"
+ },
+ {
+  "id": "core-wcg-13",
+  "topic": "wc",
+  "sub": "WC & EL Policy > Part Four - Your Duties if Injury Occurs",
+  "q": "Under the Workers' Compensation and Employers Liability Insurance Policy, when an injury occurs that may be covered, the employer must tell the insurer:",
+  "choices": [
+   "At once",
+   "Within 10 days",
+   "Within 30 days",
+   "Only after the employee files a claim"
+  ],
+  "answer": 0,
+  "explain": "Part Four requires the employer to tell the insurer at once if an injury occurs that may be covered by the policy. Its other duties include providing immediate medical and other services required by the workers compensation law and promptly giving the insurer all notices, demands and legal papers related to the injury.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part Four"
+ },
+ {
+  "id": "core-wcg-14",
+  "topic": "wc",
+  "sub": "WC & EL Policy > Part Four - Your Duties if Injury Occurs",
+  "q": "Under the Workers' Compensation and Employers Liability Insurance Policy, the employer's duties when an injury occurs include all of the following EXCEPT:",
+  "choices": [
+   "Provide for immediate medical services required by the workers compensation law",
+   "Give the insurer the names and addresses of the injured person and witnesses",
+   "Voluntarily make payments to the injured employee at the insurer's expense",
+   "Do nothing after the injury that would interfere with the insurer's right to recover from others"
+  ],
+  "answer": 2,
+  "explain": "Part Four requires the employer to provide immediate medical and other services required by law, give names and addresses of injured persons and witnesses, promptly forward notices and legal papers, cooperate, and do nothing to interfere with the insurer's right to recover from others. It also states that the employer must not voluntarily make payments, assume obligations or incur expenses, except at its own cost.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part Four, items 1-6"
+ },
+ {
+  "id": "core-wcg-15",
+  "topic": "wc",
+  "sub": "WC & EL Policy > Part Five - Premium",
+  "q": "Under the Workers' Compensation and Employers Liability Insurance Policy, the premium shown on the Information Page at the start of the policy is:",
+  "choices": [
+   "A deposit that is refunded in full when the policy expires",
+   "A flat charge based on the number of employees on payroll",
+   "The final premium, which is fixed for the entire policy term",
+   "An estimate; the final premium is set after the policy ends"
+  ],
+  "answer": 3,
+  "explain": "Part Five E states that the premium shown on the Information Page, schedules and endorsements is an estimate. The final premium is determined after the policy ends using the actual premium basis (most commonly payroll), with information developed by audit; the employer pays any balance or receives a refund, subject to the minimum premium.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part Five C, E and G"
+ },
+ {
+  "id": "core-wcg-16",
+  "topic": "wc",
+  "sub": "WC & EL Policy > Part Five - Premium",
+  "q": "Under the 2015 edition of the Workers' Compensation and Employers Liability Insurance Policy, the insurer may audit the employer's records during the policy period and within how long after it ends?",
+  "choices": [
+   "6 months",
+   "1 year",
+   "2 years",
+   "3 years"
+  ],
+  "answer": 3,
+  "explain": "Part Five G of the 2015 edition lets the insurer examine and audit the employer's records during regular business hours during the policy period and within three years after the policy period ends. Information developed by audit is used to determine final premium.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part Five G; same text in the copy of WC 00 00 00 C reproduced in the Michigan Workers' Compensation Placement Facility Basic Manual (Ed. 09/26)"
+ },
+ {
+  "id": "core-wcg-17",
+  "topic": "wc",
+  "sub": "WC & EL Policy > Part Five - Premium",
+  "q": "An employer cancels its Workers' Compensation and Employers Liability Insurance Policy in the middle of the term. Under the policy, unless the insurer's manuals provide otherwise, the final premium will be:",
+  "choices": [
+   "Less than pro rata",
+   "Pro rata for the time the policy was in force",
+   "More than pro rata, using the insurer's short-rate table",
+   "The full estimated annual premium on the Information Page"
+  ],
+  "answer": 2,
+  "explain": "Part Five E provides that if the employer cancels, final premium is more than pro rata: it is based on the time the policy was in force, increased by the insurer's short-rate cancelation table, and is not less than the minimum premium. If the insurer cancels, final premium is pro rata; manuals can vary the rule (Michigan's Placement Facility, for example, uses pro rata when the insured cancels because it sold the business or no longer has employees).",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part Five E; Michigan Workers' Compensation Placement Facility Basic Manual (Ed. 09/26), Rule Ten C-D"
+ },
+ {
+  "id": "core-wcg-18",
+  "topic": "wc",
+  "sub": "WC & EL Policy > Part Six - Conditions",
+  "q": "Under the Workers' Compensation and Employers Liability Insurance Policy, the insurer's inspections of the employer's workplaces:",
+  "choices": [
+   "Must be made at least once each policy year",
+   "Relate only to insurability and the premiums to be charged",
+   "Certify that the workplaces comply with safety laws",
+   "Make the insurer responsible for the safety of the employees"
+  ],
+  "answer": 1,
+  "explain": "Part Six A gives the insurer the right, but not the obligation, to inspect at any time and states that its inspections are not safety inspections; they relate only to the insurability of the workplaces and the premiums to be charged. The insurer does not undertake the duty to provide for employee or public safety and does not warrant that the workplaces are safe or comply with laws.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part Six A"
+ },
+ {
+  "id": "core-wcg-19",
+  "topic": "wc",
+  "sub": "WC & EL Policy > Part Six - Conditions",
+  "q": "Under the Michigan Worker's Disability Compensation Act, an insurer must file notice of a workers' compensation policy cancellation with the Workers' Disability Compensation Agency at least how many days before the cancellation takes effect?",
+  "choices": [
+   "10 days",
+   "20 days",
+   "30 days",
+   "60 days"
+  ],
+  "answer": 1,
+  "explain": "Section 621(4)(g) requires every workers' compensation policy in Michigan to contain this provision, and the Michigan Law Endorsement carries it: the insurer must file notice with the agency at least 20 days before a termination or cancellation takes effect, and the termination is not effective as to the employees until 20 days after the agency receives the notice. This is in addition to the policy's own requirement of at least 10 days' advance written notice to the employer.",
+  "source": "MCL 418.621(4)(g); Michigan Law Endorsement WC 21 03 04, item g, and Rule Ten A, as reproduced in the Michigan Workers' Compensation Placement Facility Basic Manual (Ed. 09/26); NCCI WC 00 00 00 C (Ed. 1-15), Part Six D.2; agency name per compiler's notes to MCL 418.201 (E.R.O. 2019-3, MCL 125.1998)"
+ },
+ {
+  "id": "core-wcg-20",
+  "topic": "wc",
+  "sub": "WC & EL Policy > Part Six - Conditions",
+  "q": "Under the Workers' Compensation and Employers Liability Insurance Policy, if a cancellation provision of the policy conflicts with a law that controls cancellation:",
+  "choices": [
+   "The policy provision controls",
+   "The insurer may choose which of the two rules applies",
+   "The provision is changed to comply with the law",
+   "The policy is void from its inception"
+  ],
+  "answer": 2,
+  "explain": "Part Six D.4 states that any cancelation provision that conflicts with a law controlling cancelation of the insurance is changed by that statement to comply with the law. In Michigan, for example, state law adds a 20-day notice filing with the Workers' Disability Compensation Agency to the policy's 10-day notice to the employer.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part Six D.2 and D.4; MCL 418.621(4)(g)"
+ },
+ {
+  "id": "core-wcg-21",
+  "topic": "wc",
+  "sub": "Premium Computation > Premium Discounts",
+  "q": "Under the Michigan Workers' Compensation Placement Facility's rating rules, premium discount recognizes that:",
+  "choices": [
+   "Larger premium policies cost relatively less to issue and service",
+   "Employers with better-than-average loss experience should pay less",
+   "Employers that prepay the annual premium reduce collection costs",
+   "Employers with formal safety programs tend to have fewer injuries"
+  ],
+  "answer": 0,
+  "explain": "Rule Seven of the Placement Facility manual states that premium discount recognizes that the relative expense of issuing and servicing larger premium policies is less than for small premium policies. Adjusting premium for an employer's own loss experience is the job of the experience modification, not premium discount.",
+  "source": "Michigan Workers' Compensation Placement Facility Basic Manual (2026 edition, Ed. 09/26), Part One, Rule Seven A; Rule Six G and I"
+ },
+ {
+  "id": "core-wcg-22",
+  "topic": "wc",
+  "sub": "Premium Computation > Premium Discounts",
+  "q": "In the Michigan Workers' Compensation Placement Facility's premium calculation, premium discount is applied to:",
+  "choices": [
+   "Standard premium, after the experience modification",
+   "Manual premium, before the experience modification",
+   "Premium that is subject to a retrospective rating plan",
+   "The policy's expense constant"
+  ],
+  "answer": 0,
+  "explain": "The Facility's premium algorithm applies the experience modification to reach total standard premium and then subtracts premium discount as a percentage of standard premium. Premium subject to retrospective rating and the expense constant are not subject to premium discount, and the discount applies only when total standard premium exceeds $10,000.",
+  "source": "Michigan Workers' Compensation Placement Facility Basic Manual (2026 edition, Ed. 09/26), Part One, Rule Six D.3 and I (Michigan Premium Algorithm and arithmetic example), Rule Seven C-D"
+ },
+ {
+  "id": "core-wcg-23",
+  "topic": "wc",
+  "sub": "Other Sources > Self-Insured Employers and Groups (418.611)",
+  "q": "Under the Michigan Worker's Disability Compensation Act, an employer that does not insure with an authorized workers' compensation insurer must secure the payment of compensation by:",
+  "choices": [
+   "Buying coverage from an unauthorized surplus lines insurer",
+   "Having each employee sign a waiver of benefits",
+   "Paying benefits from operating funds without state approval",
+   "Receiving authorization to be a self-insurer"
+  ],
+  "answer": 3,
+  "explain": "Section 611(1) allows only two methods: authorization from the director (now of the Workers' Disability Compensation Agency) to be a self-insurer, granted on a showing of solvency and financial ability to pay, or insurance with an insurer authorized to write workers' compensation in Michigan. An employee's agreement to waive compensation is not valid (the only exception is an election made after injury under Section 161).",
+  "source": "MCL 418.611(1); MCL 418.815; MCL 418.201 and compiler's notes (E.R.O. 2003-1; E.R.O. 2019-3)"
+ },
+ {
+  "id": "core-wcg-24",
+  "topic": "wc",
+  "sub": "Other Sources > Self-Insured Employers and Groups (418.611)",
+  "q": "Under the Michigan Worker's Disability Compensation Act, 2 or more private employers in the same industry may be permitted to pool their liabilities as a self-insurer group if their combined assets are at least:",
+  "choices": [
+   "$100,000",
+   "$1,000,000",
+   "$5,000,000",
+   "$10,000,000"
+  ],
+  "answer": 1,
+  "explain": "Section 611(2) lets the director permit 2 or more employers in the same industry with combined assets of $1,000,000 or more, or 2 or more public employers of the same type of unit, to pool their liabilities to qualify as self-insurers. Each private employer member must agree in writing to be jointly and severally liable for lawful awards against any member of the group.",
+  "source": "MCL 418.611(2)"
  }
 ]

@@ -5,11 +5,11 @@ Interactive study app for the Michigan Property & Casualty Producer/Solicitor ex
 Open `index.html` in a browser. Progress is saved in that browser.
 
 - **Study guide**: one section per exam-outline area, plus exam-day logistics. Every fact cites its source.
-- **Practice**: 336 questions with instant feedback, explanations and sources.
+- **Practice**: 601 questions in PSI item format, covering every topic on the Series 16-81 outline, with instant feedback, explanations and sources.
 - **Mock exam**: 150 questions weighted like the PSI outline, 2.5-hour timer, section-by-section results.
 - **Flashcards**: 225 cards. **Key numbers**: 231 limits, deadlines and amounts.
 
-Content was checked in October 2026 against the Michigan Compiled Laws (legislature.mi.gov), PSI's Series 16-81 outline and candidate bulletin, Michigan DIFS bulletins, FEMA/NFIP rules, U.S. Treasury (TRIA), and ISO/NCCI policy forms. Edition-dependent amounts name their form edition. Each area was researched, then fact-checked separately.
+Content was checked in October 2026 (final audit October 13, 2026) against the Michigan Compiled Laws (legislature.mi.gov), PSI's Series 16-81 outline and candidate bulletin, Michigan DIFS bulletins, FEMA/NFIP rules, U.S. Treasury (TRIA), and ISO/NCCI policy forms. Edition-dependent amounts name their form edition. Each area was researched, then fact-checked separately.
 
 ## Rebuild
 

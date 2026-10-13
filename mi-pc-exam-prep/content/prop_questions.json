@@ -1003,5 +1003,260 @@
   "answer": 1,
   "explain": "Section I Condition R states that coverage is provided to no insureds if, before or after a loss, an insured intentionally concealed or misrepresented a material fact, engaged in fraudulent conduct, or made false statements. Under Section II (Cond. J), coverage is denied only to the insured involved.",
   "source": "ISO HO 00 03 05 11, Sec. I Cond. R; Sec. II Cond. J"
+ },
+ {
+  "id": "prop-gap-01",
+  "topic": "dwelling",
+  "sub": "Property Coverages > Coverage D - Fair Rental Value",
+  "q": "A landlord insures a rental house under the 2014 ISO Dwelling Policy Special Form (DP-3). A covered fire makes the house unfit to live in, and the tenant stops paying rent during repairs. Which coverage pays the landlord's lost rent?",
+  "choices": [
+   "Coverage B – Other Structures",
+   "Coverage C – Personal Property",
+   "Coverage D – Fair Rental Value",
+   "Coverage E – Additional Living Expense"
+  ],
+  "answer": 2,
+  "explain": "Coverage D pays the fair rental value of the part of the Described Location rented to others or held for rental when a covered loss makes it unfit for its normal use. Coverage E pays the insured's own increase in living expenses, not lost rent.",
+  "source": "ISO DP 00 03 07 14, Coverages D.1 and E.1 (same wording in DP 00 03 12 02)"
+ },
+ {
+  "id": "prop-gap-02",
+  "topic": "dwelling",
+  "sub": "Property Coverages > Coverage D - Fair Rental Value",
+  "q": "When a covered loss makes the rented part of the Described Location unfit to live in, Coverage D – Fair Rental Value of the 2014 ISO Dwelling Policy Special Form (DP-3) pays that part's fair rental value:",
+  "choices": [
+   "Only until the policy expires, even if repairs take longer",
+   "Less expenses that do not continue while it is unfit",
+   "Plus rent lost because a tenant cancels the lease",
+   "For no more than 2 weeks after the date of loss"
+  ],
+  "answer": 1,
+  "explain": "Coverage D pays the fair rental value less any expenses that do not continue, for the shortest time required to repair or replace that part. The period is not limited by the policy's expiration, loss due to cancellation of a lease is not covered, and the 2-week limit applies only when a civil authority prohibits use because of damage to a neighboring location.",
+  "source": "ISO DP 00 03 07 14, Coverage D.1–D.4 (same wording in DP 00 03 12 02)"
+ },
+ {
+  "id": "prop-gap-03",
+  "topic": "dwelling",
+  "sub": "Property Coverages > Other Coverages",
+  "q": "Under the Other Coverages of the 2014 ISO Dwelling Policy Special Form (DP-3), personal property covered under Coverage C is covered anywhere in the world for up to:",
+  "choices": [
+   "5% of the Coverage C limit",
+   "10% of the Coverage C limit",
+   "20% of the Coverage C limit",
+   "The full Coverage C limit"
+  ],
+  "answer": 1,
+  "explain": "World-wide Coverage lets the insured use up to 10% of the Coverage C limit for loss by a Peril Insured Against to Coverage C property (except rowboats and canoes) anywhere in the world, and using it reduces the Coverage C limit for the same loss. Homeowners Coverage C, by contrast, covers personal property anywhere in the world.",
+  "source": "ISO DP 00 03 07 14, Other Coverages F.4 (same in DP 00 03 12 02; 10% also in DP 00 01 07 88 and DP 00 02 07 88, Other Coverages 4); ISO HO 00 03 05 11, Coverage C.1"
+ },
+ {
+  "id": "prop-gap-04",
+  "topic": "dwelling",
+  "sub": "Property Coverages > Other Coverages",
+  "q": "As additional insurance, the 2014 ISO Dwelling Policy Special Form (DP-3) lets the insured use how much of the Coverage A limit for fair rental value and additional living expense combined?",
+  "choices": [
+   "5% of Coverage A",
+   "10% of Coverage A",
+   "20% of Coverage A",
+   "50% of Coverage A"
+  ],
+  "answer": 2,
+  "explain": "Other Coverage 5, Rental Value and Additional Living Expense, allows up to 20% of the Coverage A limit for loss of both fair rental value (Coverage D) and additional living expense (Coverage E), as additional insurance. The 1988 DP-2 allowed 10% of Coverage A (and the 1988 DP-1 10% for fair rental value only), so the answer depends on the form and edition.",
+  "source": "ISO DP 00 03 07 14, Other Coverages F.5 (same in DP 00 03 12 02); ISO DP 00 02 07 88 and DP 00 01 07 88, Other Coverages 5"
+ },
+ {
+  "id": "prop-gap-05",
+  "topic": "dwelling",
+  "sub": "Dwelling > General Exclusions",
+  "q": "An earthquake damages a dwelling insured under the 2014 ISO Dwelling Policy Special Form (DP-3) and breaks a gas line, and the resulting fire damages the dwelling further. Under the General Exclusions, the policy covers:",
+  "choices": [
+   "The fire damage only",
+   "The earthquake damage only",
+   "Both the earthquake damage and the fire damage",
+   "Neither the earthquake damage nor the fire damage"
+  ],
+  "answer": 0,
+  "explain": "The Earth Movement exclusion removes loss caused by earthquake regardless of any other cause contributing to the loss. However, direct loss by fire or explosion resulting from earth movement is covered, so only the ensuing fire damage is paid.",
+  "source": "ISO DP 00 03 07 14, General Exclusions A (lead-in) and A.2 Earth Movement (DP 00 03 12 02, General Exclusions A.2: insurer pays only the ensuing fire or explosion loss)"
+ },
+ {
+  "id": "prop-gap-06",
+  "topic": "dwelling",
+  "sub": "Dwelling > General Exclusions",
+  "q": "Which loss to a dwelling insured under the 2014 ISO Dwelling Policy Special Form (DP-3) is excluded by the General Exclusions?",
+  "choices": [
+   "Smoke damage from a sudden puffback of the furnace",
+   "Wind damage that tears shingles off the roof",
+   "Damage from a tree limb that falls on the roof",
+   "Water backing up through a basement sewer drain"
+  ],
+  "answer": 3,
+  "explain": "The water exclusion removes loss from water that backs up through sewers or drains or overflows from a sump, along with flood and subsurface water, regardless of any contributing cause; only ensuing fire or explosion is covered. None of the other three losses is a General Exclusion, and the DP-3 insures the dwelling against direct physical loss unless excluded.",
+  "source": "ISO DP 00 03 07 14, General Exclusions A.3 Water and Perils Insured Against A.1–A.2 (DP 00 03 12 02, General Exclusions A.3 Water Damage)"
+ },
+ {
+  "id": "prop-gap-07",
+  "topic": "dwelling",
+  "sub": "Selected Endorsements > Special Provisions - Michigan",
+  "q": "The Special Provisions – Michigan endorsement attached to a dwelling policy is used to:",
+  "choices": [
+   "Make Michigan-mandated changes, such as cancellation rules",
+   "Add personal liability and medical payments to others coverage",
+   "Add theft coverage for an owner-occupied dwelling",
+   "Increase the Coverage A and B limits by a set percentage each year"
+  ],
+  "answer": 0,
+  "explain": "ISO's dwelling program uses a state Special Provisions endorsement (DP 01 XX; Michigan's is DP 01 21) for state-mandated changes, notably to cancellation and nonrenewal. Liability and medical payments come from the Personal Liability Supplement, theft coverage from the Broad Theft Coverage endorsement, and annual limit increases from the Automatic Increase in Insurance endorsement.",
+  "source": "FC&S, \"Dwelling Property Forms—Exclusions and Endorsements\" (Aug. 12, 2024), Special Provisions DP 01 XX; Wolters Kluwer Dwelling Policy Forms and Endorsements index (Oct. 2026): DP 01 21 05 23 Special Provisions – Michigan (endorsement text not seen); ISO DL 24 01 12 02; ISO DP 04 11 12 02; ISO Dwelling Policy Program Manual Rule 510"
+ },
+ {
+  "id": "prop-gap-08",
+  "topic": "ho",
+  "sub": "Coverage Forms > HO-2 Broad Form",
+  "q": "In the 2011 ISO Homeowners program, the HO-2 (Broad Form) insures the dwelling, other structures and personal property on what basis?",
+  "choices": [
+   "Named perils for all three coverages",
+   "Open perils for all three coverages",
+   "Open perils for dwelling and other structures; named perils for property",
+   "Fire, lightning and internal explosion only"
+  ],
+  "answer": 0,
+  "explain": "The HO-2 covers Coverages A, B and C only against a list of named perils, such as fire or lightning, windstorm or hail, and theft. The HO-3 covers the dwelling and other structures on an open-perils basis, and the HO-5 covers all three on an open-perils basis.",
+  "source": "The Institutes, AIC 43 (ISO 2011 Homeowners program), HO-2 description; ISO HO 00 02 10 00, Section I – Perils Insured Against (the 05 11 HO-2 text was not obtained)"
+ },
+ {
+  "id": "prop-gap-09",
+  "topic": "ho",
+  "sub": "Coverage Forms > HO-2 Broad Form",
+  "q": "An owner-occupant is insured under the 2000 ISO HO-2 (Broad Form). Which loss to the dwelling is covered?",
+  "choices": [
+   "A can of paint spilled on a hardwood floor",
+   "The insured's dog chewing the woodwork",
+   "Roof shingles that wear out with age",
+   "Weight of ice and snow damaging the roof"
+  ],
+  "answer": 3,
+  "explain": "The HO-2 covers the dwelling only against its named perils, and weight of ice, snow or sleet that damages a building is one of them. An accidental paint spill, damage by the insured's pet and wear and tear are not named perils, so the HO-2 does not cover them.",
+  "source": "ISO HO 00 02 10 00, Section I – Perils Insured Against 1–16 (Peril 11, Weight Of Ice, Snow Or Sleet)"
+ },
+ {
+  "id": "prop-gap-10",
+  "topic": "ho",
+  "sub": "Coverage Forms > HO-4 Contents Broad Form",
+  "q": "Under the 2011 ISO Homeowners forms, a tenant who buys the HO-4 (Contents Broad Form) has which Section I coverages?",
+  "choices": [
+   "Coverages A and C only",
+   "Coverages C and D only",
+   "Coverage C only",
+   "Coverages A, B, C and D"
+  ],
+  "answer": 1,
+  "explain": "The HO-4's Section I property coverages are Coverage C – Personal Property and Coverage D – Loss of Use; it has no Coverage A or B because the tenant does not insure the building. A tenant's own improvements are covered under the Building Additions and Alterations additional coverage.",
+  "source": "ISO HO 00 04 05 11, Section I – Property Coverages A (Coverage C) and B (Coverage D), Additional Coverage 10; The Institutes, AIC 43 (HO-4 description)"
+ },
+ {
+  "id": "prop-gap-11",
+  "topic": "ho",
+  "sub": "Coverage Forms > HO-4 Contents Broad Form",
+  "q": "Under the 2011 ISO HO-4 (Contents Broad Form), building improvements a tenant made at her own expense to the part of the residence premises she uses exclusively are covered, as additional insurance, for up to:",
+  "choices": [
+   "5% of the Coverage C limit",
+   "10% of the Coverage C limit",
+   "20% of the Coverage C limit",
+   "50% of the Coverage C limit"
+  ],
+  "answer": 1,
+  "explain": "The Building Additions and Alterations additional coverage pays, under Coverage C, for building improvements or installations made or acquired at the insured's expense to the part of the residence premises used exclusively by the insured. The limit is 10% of the Coverage C limit, and it is additional insurance.",
+  "source": "ISO HO 00 04 05 11, Section I – Additional Coverages 10, Building Additions And Alterations"
+ },
+ {
+  "id": "prop-gap-12",
+  "topic": "ho",
+  "sub": "Section I > Coverage A - Dwelling",
+  "q": "An HO-3 insured has a garage attached to the house and a detached tool shed in the backyard. A covered fire damages both. Under the 2011 ISO Homeowners forms, how is each loss covered?",
+  "choices": [
+   "Garage and shed both under Coverage A",
+   "Garage and shed both under Coverage B",
+   "Garage under Coverage A; shed under Coverage B",
+   "Garage under Coverage B; shed under Coverage A"
+  ],
+  "answer": 2,
+  "explain": "Coverage A – Dwelling covers the dwelling, including structures attached to it, so the attached garage is a Coverage A loss. Coverage B – Other Structures covers structures set apart from the dwelling by clear space, such as the detached shed.",
+  "source": "ISO HO 00 03 05 11, Section I – Property Coverages A.1.a and B.1"
+ },
+ {
+  "id": "prop-gap-13",
+  "topic": "ho",
+  "sub": "Section I > Coverage A - Dwelling",
+  "q": "Coverage A – Dwelling of the 2011 ISO Homeowners policy (HO-3) covers all of the following EXCEPT:",
+  "choices": [
+   "The dwelling shown in the Declarations",
+   "Structures attached to the dwelling",
+   "Materials on the premises for repairing the dwelling",
+   "The land on which the dwelling is located"
+  ],
+  "answer": 3,
+  "explain": "Coverage A covers the dwelling on the residence premises, structures attached to it, and materials and supplies on or next to the residence premises used to construct, alter or repair the dwelling or other structures. The form states that land, including the land on which the dwelling is located, is not covered.",
+  "source": "ISO HO 00 03 05 11, Section I – Property Coverages A.1–A.2"
+ },
+ {
+  "id": "prop-gap-14",
+  "topic": "ho",
+  "sub": "Selected Endorsements > Special Provisions - Michigan",
+  "q": "Dan and his wife, Lisa, are insureds under a Michigan homeowners policy on their home. Dan intentionally sets fire to the home; Lisa takes no part in it. Under the 2011 ISO Homeowners program with the Special Provisions – Michigan endorsement, Lisa:",
+  "choices": [
+   "Has no coverage for the fire loss",
+   "Is covered only if she is a victim of domestic abuse",
+   "Is covered to the extent of her interest in the property",
+   "Is covered for the full loss, including Dan's share"
+  ],
+  "answer": 2,
+  "explain": "The Michigan endorsement makes the Intentional Loss exclusion and the Concealment or Fraud condition inapplicable to an insured who is innocent of a fire loss, but only to the extent of that insured's interest in the property, with no domestic-abuse requirement; the insurer may subrogate against the insured who set the fire. Without the endorsement, the ISO form denies coverage to every insured, but Michigan courts hold that Michigan's fire policy law requires coverage for innocent co-insureds.",
+  "source": "FC&S, \"Special Provisions—Variations by State\" (Sept. 1, 2011), Michigan HO 01 21 05 11 (summary: \"insurable interest\"; endorsement text not seen); Brunk v. Amica Mut. Ins. Co., No. 06-15160 (E.D. Mich. Nov. 2, 2007) (quoting a policy's Special Provisions – Michigan: innocent insured covered for fire \"only to the extent of that insured's legal interest\"); Rough Notes, \"ISO Form and Endorsement Changes\" (March 1999): HO 01 21 revised after Williams v. Auto Club Group Ins. Co. (Mich. App. 1997); Wilson v. State Farm Fire & Cas. Co., No. 2:17-cv-11243 (E.D. Mich. Nov. 21, 2019) (Williams, 224 Mich App 313; Hicks (Mich. App. 2012); MCL 500.2833(2)); ISO HO 00 03 05 11, Sec. I Excl. A.8"
+ },
+ {
+  "id": "prop-gap-15",
+  "topic": "ho",
+  "sub": "Selected Endorsements > Special Provisions - Michigan",
+  "q": "A Michigan home is insured under the 2011 ISO Homeowners forms with the Special Provisions – Michigan endorsement. A Section I suit against the insurer must be started within:",
+  "choices": [
+   "1 year after the loss, with no tolling",
+   "1 year after the loss, tolled from notice of loss until formal denial",
+   "2 years after the loss, with no tolling",
+   "2 years after the loss, tolled from notice of loss until formal denial"
+  ],
+  "answer": 3,
+  "explain": "The 2011 Homeowners forms' Suit Against Us condition requires a Section I suit to be started within two years after the date of loss. Michigan's fire policy law requires at least 1 year or the policy's longer period, so the 2 years applies, and it requires the time to be tolled from when the insured notifies the insurer of the loss until the insurer formally denies liability. The Michigan endorsement states the same 2-year, tolled rule.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. H (same 2-year wording in HO 00 04 05 11 and HO 00 06 05 11); MCL 500.2833(1)(q); FC&S, \"Special Provisions—Variations by State\" (Sept. 1, 2011), Michigan HO 01 21 05 11 (summary; endorsement text not seen)"
+ },
+ {
+  "id": "prop-gap-16",
+  "topic": "ho",
+  "sub": "Selected Endorsements > Watercraft",
+  "q": "An HO-3 named insured owns a 30-foot sailboat. Under the 2011 ISO Homeowners forms, which endorsement can she add to her policy to have personal liability coverage for the sailboat?",
+  "choices": [
+   "Watercraft endorsement",
+   "Personal Injury endorsement",
+   "Business Pursuits endorsement",
+   "Scheduled Personal Property endorsement"
+  ],
+  "answer": 0,
+  "explain": "The 2011 HO-3 excludes watercraft liability for a sailing vessel 26 feet or longer that is owned by or rented to an insured. The Watercraft endorsement extends Coverages E and F to the watercraft described in it, including sailing vessels 26 feet or more in overall length.",
+  "source": "ISO HO 00 03 05 11, Definitions B.1 and Sec. II Excl. B.2.b; ISO HO 24 75 04 91 (form text), item 2; PF&M, \"ISO Homeowners Optional Coverage Endorsements\" (July 2014), HO 24 75"
+ },
+ {
+  "id": "prop-gap-17",
+  "topic": "ho",
+  "sub": "Selected Endorsements > Watercraft",
+  "q": "In the 2011 ISO Homeowners program, the Watercraft endorsement provides:",
+  "choices": [
+   "Section II liability coverage for the described boat",
+   "Physical damage coverage for the described boat",
+   "Theft coverage for the boat's trailer and motor",
+   "A higher Coverage C special limit for watercraft and trailers"
+  ],
+  "answer": 0,
+  "explain": "For an additional premium, the Watercraft endorsement makes Coverage E – Personal Liability and Coverage F – Medical Payments to Others apply to bodily injury or property damage arising out of the watercraft described in it. It adds no property coverage for the boat, its trailer or its motor.",
+  "source": "ISO HO 24 75 04 91 (form text; the 05 11 and current 03 22 texts were not obtained); PF&M, \"ISO Homeowners Optional Coverage Endorsements\" (July 2014), HO 24 75 (liability coverage for described watercraft)"
  }
 ]

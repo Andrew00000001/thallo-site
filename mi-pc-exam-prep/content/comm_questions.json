@@ -1138,5 +1138,1595 @@
   "answer": 1,
   "explain": "Third-party coverage protects the insured from liability claims by others, such as affected consumers. Forensics, notification and business interruption are first-party costs.",
   "source": "NAIC 'Cyber Insurance' consumer guide"
+ },
+ {
+  "id": "comm-bop-01",
+  "topic": "bop",
+  "sub": "Section I - Property > Exclusions",
+  "q": "Which cause of loss is excluded under Section I – Property of the 2013 ISO Businessowners Coverage Form?",
+  "choices": [
+   "Fire",
+   "Flood",
+   "Hail",
+   "Lightning"
+  ],
+  "answer": 1,
+  "explain": "Section I of the 2013 ISO Businessowners form covers direct physical loss unless the loss is excluded. Its Water exclusion removes flood, surface water, waves, tides and overflow of any body of water, whether or not driven by wind. Fire, hail and lightning are covered and are also 'specified causes of loss'; flood needs a separate flood policy or the Flood Coverage endorsement.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.3, B.1.g(1), H.12; ISO 'Businessowners Policy (BOP) Program' overview (Feb. 11, 2025), p. 15 (Flood Coverage endorsement)"
+ },
+ {
+  "id": "comm-bop-02",
+  "topic": "bop",
+  "sub": "Section I - Property > Exclusions",
+  "q": "With no optional coverages or endorsements, which loss is covered under Section I – Property of the 2013 ISO Businessowners Coverage Form?",
+  "choices": [
+   "An employee steals merchandise from the stockroom",
+   "A con artist tricks a clerk into handing over merchandise",
+   "Stock is missing, shown only by an inventory shortage",
+   "An employee smashes the store's display cases in anger"
+  ],
+  "answer": 3,
+  "explain": "The 2013 form's Dishonesty exclusion does not apply to acts of destruction by employees, so vandalism by an employee is covered. Theft by employees is excluded unless the Employee Dishonesty optional coverage applies. The False Pretense exclusion removes property handed over because of a trick, and the form does not pay for property missing when the only evidence is an inventory shortage.",
+  "source": "ISO BP 00 03 07 13, Sec. I B.2.f, B.2.g, A.4.a(3)"
+ },
+ {
+  "id": "comm-bop-03",
+  "topic": "bop",
+  "sub": "Section I - Property > Exclusions",
+  "q": "Section I – Property of the 2013 ISO Businessowners Coverage Form excludes continuous or repeated seepage or leakage of water that occurs over a period of:",
+  "choices": [
+   "3 days or more",
+   "7 days or more",
+   "14 days or more",
+   "30 days or more"
+  ],
+  "answer": 2,
+  "explain": "The 2013 ISO Businessowners form excludes continuous or repeated seepage or leakage of water, or the presence or condensation of humidity, moisture or vapor, that occurs over a period of 14 days or more.",
+  "source": "ISO BP 00 03 07 13, Sec. I B.2.p"
+ },
+ {
+  "id": "comm-bop-04",
+  "topic": "bop",
+  "sub": "Section I - Property > Deductibles",
+  "q": "In the 2013 ISO Businessowners Coverage Form, no deductible applies to which of the following coverages?",
+  "choices": [
+   "Business Income",
+   "Forgery or Alteration",
+   "Money and Securities",
+   "Outdoor Signs"
+  ],
+  "answer": 0,
+  "explain": "The 2013 form applies no deductible to Fire Department Service Charge, Business Income, Extra Expense, Civil Authority and Fire Extinguisher Systems Recharge Expense. Forgery or Alteration, Money and Securities, Outdoor Signs and Employee Dishonesty are subject to the Optional Coverage Deductible shown in the Declarations. Business Income still begins only 72 hours after the loss, under the 'period of restoration' definition.",
+  "source": "ISO BP 00 03 07 13, Sec. I D.2-3, H.9.a(1)(a)"
+ },
+ {
+  "id": "comm-bop-05",
+  "topic": "bop",
+  "sub": "Section I - Property > Deductibles",
+  "q": "According to ISO's 2025 businessowners program overview, the base property deductible in the ISO Businessowners policy is:",
+  "choices": [
+   "$250",
+   "$500",
+   "$1,000",
+   "$2,500"
+  ],
+  "answer": 1,
+  "explain": "ISO's February 2025 program overview states that the base property deductible in the ISO BOP is $500. Optional fixed deductibles of $250, $1,000, $2,500, $5,000, $7,500 and $10,000 are available, as are 1%, 2% and 5% windstorm or hail deductibles. The 2013 coverage form itself states no amount; it applies the deductible shown in the Declarations.",
+  "source": "ISO 'Businessowners Policy (BOP) Program' overview (Feb. 11, 2025), p. 6; ISO BP 00 03 07 13, Sec. I D.1"
+ },
+ {
+  "id": "comm-bop-06",
+  "topic": "bop",
+  "sub": "Section I - Property > General Conditions",
+  "q": "A business insures two locations under one policy written on the 2013 ISO Businessowners Coverage Form. It breaches a policy condition at Location A. A covered fire then damages Location B, where no breach exists. The fire loss at Location B is:",
+  "choices": [
+   "Covered",
+   "Not covered",
+   "Covered only after the breach at Location A is corrected",
+   "Covered, but reduced by 15%"
+  ],
+  "answer": 0,
+  "explain": "Under the Control of Property condition of the 2013 form, a breach of a condition at one location does not affect coverage at any location where no breach exists at the time of loss. The same condition says an act or neglect of anyone beyond the insured's direction or control does not affect the insurance. The 15% reduction comes from the Vacancy loss condition, which does not apply here.",
+  "source": "ISO BP 00 03 07 13, Sec. I F.1, E.8"
+ },
+ {
+  "id": "comm-bop-07",
+  "topic": "bop",
+  "sub": "Section I - Property > General Conditions",
+  "q": "A bank is shown in the Declarations as mortgageholder on a building insured under the 2013 ISO Businessowners Coverage Form. The bank has started foreclosure when a covered fire damages the building. The bank:",
+  "choices": [
+   "Loses its right to loss payment",
+   "May collect only after the foreclosure is completed",
+   "Still has the right to receive loss payment",
+   "May collect only the premium it has paid"
+  ],
+  "answer": 2,
+  "explain": "The Mortgageholders condition of the 2013 form gives the mortgageholder the right to receive loss payment even if it has started foreclosure or similar action. Covered building losses are paid to each mortgageholder shown in the Declarations, in order of precedence, as interests may appear.",
+  "source": "ISO BP 00 03 07 13, Sec. I F.2.b-c"
+ },
+ {
+  "id": "comm-bop-08",
+  "topic": "bop",
+  "sub": "Section I - Property > Optional Coverages",
+  "q": "Under the Employee Dishonesty optional coverage of the 2013 ISO Businessowners Coverage Form, a loss sustained during the policy period is covered only if it is discovered no later than how long after the policy period ends?",
+  "choices": [
+   "60 days",
+   "6 months",
+   "1 year",
+   "3 years"
+  ],
+  "answer": 2,
+  "explain": "The 2013 form pays only for covered loss sustained during the policy period and discovered no later than one year from the end of the policy period. The coverage is cancelled as to an employee as soon as the insured, or a partner, member, manager, officer or director not in collusion, discovers a dishonest act by that employee.",
+  "source": "ISO BP 00 03 07 13, Sec. I G.3.f-g"
+ },
+ {
+  "id": "comm-bop-09",
+  "topic": "bop",
+  "sub": "Section I - Property > Optional Coverages",
+  "q": "A robber takes a store's cash receipts from its manager while she is carrying them to the bank. Which coverage in the 2013 ISO Businessowners Coverage Form is designed to cover this loss?",
+  "choices": [
+   "Business Personal Property coverage",
+   "Employee Dishonesty optional coverage",
+   "Personal Property Off-premises coverage extension",
+   "Money and Securities optional coverage"
+  ],
+  "answer": 3,
+  "explain": "The Money and Securities optional coverage pays for theft, disappearance or destruction of money and securities at the premises, at a bank, in certain living quarters, or in transit between those places. Money and securities are not Covered Property under Business Personal Property; the Personal Property Off-premises extension excludes them; and Employee Dishonesty covers only dishonest acts of employees.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.2.b, A.6.b, G.2.a, G.3.a"
+ },
+ {
+  "id": "comm-bop-10",
+  "topic": "bop",
+  "sub": "Section I - Property > Definitions",
+  "q": "Which of the following is one of the 'specified causes of loss' defined in the 2013 ISO Businessowners Coverage Form?",
+  "choices": [
+   "Earthquake",
+   "Mine subsidence",
+   "Mudslide or mudflow",
+   "Sinkhole collapse"
+  ],
+  "answer": 3,
+  "explain": "The 2013 form lists fire; lightning; explosion; windstorm or hail; smoke; aircraft or vehicles; riot or civil commotion; vandalism; leakage from fire extinguishing equipment; sinkhole collapse; volcanic action; falling objects; weight of snow, ice or sleet; and water damage. Earthquake and mine subsidence fall under the Earth Movement exclusion, and mudslide or mudflow falls under the Water exclusion.",
+  "source": "ISO BP 00 03 07 13, Sec. I H.12, B.1.b(1), B.1.b(3), B.1.g(2)"
+ },
+ {
+  "id": "comm-bop-11",
+  "topic": "bop",
+  "sub": "Section I - Property > Definitions",
+  "q": "In the 2013 ISO Businessowners Coverage Form, which item meets the definition of 'money' rather than 'securities'?",
+  "choices": [
+   "Revenue stamps in current use",
+   "Tokens and tickets in current use",
+   "Traveler's checks held for sale",
+   "Unused value in a postage meter"
+  ],
+  "answer": 2,
+  "explain": "In the 2013 form, 'money' means currency, coins and bank notes in current use with a face value, plus traveler's checks, register checks and money orders held for sale to the public. 'Securities' include tokens, tickets, revenue and other stamps in current use, and unused value in a meter.",
+  "source": "ISO BP 00 03 07 13, Sec. I H.7, H.11"
+ },
+ {
+  "id": "comm-bop-12",
+  "topic": "bop",
+  "sub": "Section II - Liability > Coverages",
+  "q": "Section II – Liability of the 2013 ISO Businessowners Coverage Form contains which two coverages?",
+  "choices": [
+   "Business Liability and Medical Expenses",
+   "Business Liability and Employers Liability",
+   "Business Liability and Liquor Liability",
+   "Medical Expenses and Hired Auto Liability"
+  ],
+  "answer": 0,
+  "explain": "Section II of the 2013 form has two coverages. Business Liability covers bodily injury, property damage and personal and advertising injury in one insuring agreement with a duty to defend. Medical Expenses pays for bodily injury caused by an accident, regardless of fault. Employers liability is excluded, liquor liability is excluded for insureds in the business of manufacturing, distributing, selling, serving or furnishing alcohol, and hired and non-owned auto liability is added by endorsement.",
+  "source": "ISO BP 00 03 07 13, Sec. II A.1-2, B.1.c, B.1.e; ISO 'Businessowners Policy (BOP) Program' overview (Feb. 11, 2025), p. 9 (Hired Auto And Non-owned Auto Liability endorsement)"
+ },
+ {
+  "id": "comm-bop-13",
+  "topic": "bop",
+  "sub": "Section II - Liability > Coverages",
+  "q": "A customer slips and falls in an insured's store on September 15, 2025. The store's 2013 ISO Businessowners policy ran from January 1, 2025, to January 1, 2026. The insured first learns of the fall when sued in April 2026 and notifies the insurer at once. The claim is:",
+  "choices": [
+   "Not covered",
+   "Covered",
+   "Covered only if an extended reporting period was purchased",
+   "Covered only if the policy had been renewed"
+  ],
+  "answer": 1,
+  "explain": "Business Liability in the 2013 form covers bodily injury caused by an occurrence in the coverage territory that occurs during the policy period, provided no listed insured knew of it before the policy period. The date the suit is filed does not matter. Extended reporting periods belong to claims-made forms, and this coverage is occurrence-based.",
+  "source": "ISO BP 00 03 07 13, Sec. II A.1.b(1), E.2"
+ },
+ {
+  "id": "comm-bop-14",
+  "topic": "bop",
+  "sub": "Section II - Liability > Who is an Insured",
+  "q": "A corporation is the named insured under a Businessowners policy written on the 2013 ISO form. Its stockholders are insureds:",
+  "choices": [
+   "For all of their business and personal activities",
+   "Only with respect to their liability as stockholders",
+   "Only while acting as executive officers",
+   "Only if each stockholder is named in the Declarations"
+  ],
+  "answer": 1,
+  "explain": "When the named insured is an organization other than a partnership, joint venture or LLC, the 2013 form makes the organization an insured. Its executive officers and directors are insureds only for their duties as officers or directors, and its stockholders are insureds only with respect to their liability as stockholders.",
+  "source": "ISO BP 00 03 07 13, Sec. II C.1.d"
+ },
+ {
+  "id": "comm-bop-15",
+  "topic": "bop",
+  "sub": "Section II - Liability > Who is an Insured",
+  "q": "Dan owns a hardware store as a sole proprietor and is the named insured under a Businessowners policy written on the 2013 ISO form. Which person is also an insured with respect to the conduct of the store's business?",
+  "choices": [
+   "A customer shopping in the store",
+   "An independent contractor hired to fix the roof",
+   "Dan's landlord",
+   "Dan's spouse"
+  ],
+  "answer": 3,
+  "explain": "When the named insured is an individual, the 2013 form makes the individual and his or her spouse insureds, but only for the conduct of a business the individual solely owns. Employees and volunteer workers are also insureds for business duties. Customers, independent contractors and landlords are not; a landlord can be added by an additional insured endorsement.",
+  "source": "ISO BP 00 03 07 13, Sec. II C.1.a, C.2.a; ISO 'Businessowners Policy (BOP) Program' overview (Feb. 11, 2025), p. 8 (Additional Insured – Managers Or Lessors Of Premises)"
+ },
+ {
+  "id": "comm-bop-16",
+  "topic": "bop",
+  "sub": "Section II - Liability > General Conditions",
+  "q": "Under the liability conditions of the 2013 ISO Businessowners Coverage Form, an insured who voluntarily makes a payment or incurs an expense without the insurer's consent does so at its own cost, except for:",
+  "choices": [
+   "First aid",
+   "Medical bills up to the Medical Expenses limit",
+   "Repairs to a customer's damaged property",
+   "Settlements of less than $1,000"
+  ],
+  "answer": 0,
+  "explain": "The 2013 form's Duties condition says no insured will, except at its own cost, voluntarily make a payment, assume any obligation or incur any expense, other than for first aid, without the insurer's consent. The insured must also notify the insurer as soon as practicable of an occurrence or offense that may result in a claim.",
+  "source": "ISO BP 00 03 07 13, Sec. II E.2.a, E.2.d"
+ },
+ {
+  "id": "comm-bop-17",
+  "topic": "bop",
+  "sub": "Section II - Liability > General Conditions",
+  "q": "A customer is injured at an insured's store during the policy period, and the insured later goes bankrupt. Under the 2013 ISO Businessowners Coverage Form, the insurer:",
+  "choices": [
+   "Is relieved of its obligations under the policy",
+   "Remains bound by its obligations under the policy",
+   "Owes defense costs but not damages",
+   "Owes damages only up to the Medical Expenses limit"
+  ],
+  "answer": 1,
+  "explain": "The Bankruptcy condition of the 2013 form says bankruptcy or insolvency of the insured or the insured's estate will not relieve the insurer of its obligations. Michigan law requires liability policies to contain a provision to the same effect.",
+  "source": "ISO BP 00 03 07 13, Sec. II E.1; MCL 500.3004, .3006"
+ },
+ {
+  "id": "comm-bop-18",
+  "topic": "bop",
+  "sub": "Section II - Liability > Definitions",
+  "q": "Under the liability definitions of the 2013 ISO Businessowners Coverage Form, a forklift used only in the insured's warehouse, and not subject to any motor vehicle registration or insurance law, is classified as:",
+  "choices": [
+   "An auto",
+   "Impaired property",
+   "Mobile equipment",
+   "Your product"
+  ],
+  "answer": 2,
+  "explain": "In the 2013 form, 'mobile equipment' includes bulldozers, farm machinery, forklifts and other vehicles designed for use principally off public roads, unless the vehicle is subject to a compulsory or financial responsibility law or other motor vehicle insurance or registration law. The aircraft, auto or watercraft exclusion does not apply to mobile equipment. Its own exclusion applies only to transportation of mobile equipment by an auto owned or operated by, or rented or loaned to, an insured, and to use in prearranged racing, speed, demolition or stunting activity.",
+  "source": "ISO BP 00 03 07 13, Sec. II F.2, F.12, B.1.g-h"
+ },
+ {
+  "id": "comm-bop-19",
+  "topic": "bop",
+  "sub": "Section II - Liability > Definitions",
+  "q": "In Section II – Liability of the 2013 ISO Businessowners Coverage Form, the definition of 'property damage' treats electronic data as:",
+  "choices": [
+   "Not tangible property",
+   "Tangible property",
+   "Tangible property only if the device storing it is physically damaged",
+   "Tangible property only if it belongs to someone other than the insured"
+  ],
+  "answer": 0,
+  "explain": "The 2013 form defines 'property damage' as physical injury to tangible property, including resulting loss of use, or loss of use of tangible property that is not physically injured. It then states that, for the purposes of this insurance, electronic data is not tangible property, with no exception for data on a damaged device or data owned by others. A separate Electronic Data exclusion removes damages for loss of, loss of use of, damage to, or corruption of electronic data, except liability for bodily injury.",
+  "source": "ISO BP 00 03 07 13, Sec. II F.17, B.1.q"
+ },
+ {
+  "id": "comm-cpa-01",
+  "topic": "cpp",
+  "sub": "CGL > Premises and Operations",
+  "q": "Which loss is part of the premises and operations exposure, rather than the products-completed operations hazard, under the 2013 ISO Commercial General Liability (CGL) Coverage Form?",
+  "choices": [
+   "A toaster bought at the insured's store last month shorts out and burns a customer at home",
+   "A railing the insured contractor finished installing last year breaks and injures a guest",
+   "A water heater the insured plumber finished installing last month leaks and floods a basement",
+   "A board the insured's crew drops while still framing a house hits a passerby"
+  ],
+  "answer": 3,
+  "explain": "The products-completed operations hazard covers injury or damage away from premises the insured owns or rents that arises out of the insured's product or work, but not work that has not yet been completed or abandoned. Injury from work still in progress is therefore a premises and operations exposure; the toaster is a product away from the premises, and the railing and water heater are completed work.",
+  "source": "ISO CG 00 01 04 13, Sec. V def. 16.a (products-completed operations hazard); IRMI glossary \"premises-operations\" (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-cpa-03",
+  "topic": "cpp",
+  "sub": "CGL > Pollution Liability Coverage Extension",
+  "q": "A manufacturer's CGL policy includes the 1985 ISO Pollution Liability Coverage Extension endorsement. Which loss is still excluded?",
+  "choices": [
+   "Bodily injury to neighbors from fumes accidentally released at the insured's plant",
+   "Property damage to a farmer's crops from an accidental chemical spill at the insured's plant",
+   "Cost of cleaning up pollutants that a state environmental agency orders the insured to remove",
+   "Bodily injury to a homeowner from fumes released at a job site where the insured's crew is working"
+  ],
+  "answer": 2,
+  "explain": "The endorsement states that paragraph (1) of the CGL pollution exclusion does not apply, so bodily injury and property damage from pollutants are covered like other occurrences. Paragraph (2) still applies: it excludes costs of testing for, cleaning up or otherwise responding to pollutants because of a request, order or regulatory requirement, or a governmental suit for such costs.",
+  "source": "ISO CG 04 22 11 85 (entire text: \"Paragraph (1.) of Exclusion f. of COVERAGE A (Section I) does not apply\"; copy at iiat.org InfoCentral); ISO CG 00 01 04 13, Excl. f.(1)-(2); Rough Notes PF&M 270.6-3 \"Pollution Exclusion and Limited Coverage\" (CG 04 22 \"does not cover cleanup costs\")"
+ },
+ {
+  "id": "comm-cpa-04",
+  "topic": "cpp",
+  "sub": "CP Coverage Forms > Condominium Association",
+  "q": "In the 2012 ISO Condominium Association Coverage Form, fixtures and appliances inside individual units are covered as Building property when:",
+  "choices": [
+   "The association agreement requires the association to insure them",
+   "The unit-owner has bought no insurance of his or her own on them",
+   "The unit is rented to a tenant who uses them in a business",
+   "The unit-owner pays the association a special assessment for them"
+  ],
+  "answer": 0,
+  "explain": "Building includes fixtures, improvements and alterations that are part of the building, and appliances, inside a unit, regardless of ownership, if the Condominium Association Agreement requires the association to insure them. Otherwise, personal property owned by, used by or in the care of a unit-owner is not Building property.",
+  "source": "ISO CP 00 17 10 12, A.1.a.(6) and the closing paragraph of A.1.a"
+ },
+ {
+  "id": "comm-cpa-05",
+  "topic": "cpp",
+  "sub": "CP Coverage Forms > Condominium Association",
+  "q": "A unit-owner negligently starts a fire that damages the condominium building. The association's insurer pays the loss under the 2012 ISO Condominium Association Coverage Form. Which statement about the insurer's right to recover its payment from the unit-owner is correct?",
+  "choices": [
+   "It may recover its full payment from the unit-owner",
+   "It may recover from the unit-owner only if the association agrees",
+   "It may recover from the unit-owner only the cost to repair that owner's unit",
+   "It may not recover its payment from the unit-owner"
+  ],
+  "answer": 3,
+  "explain": "Under the Waiver of Rights of Recovery condition of the Condominium Association Coverage Form, the insurer waives its rights to recover payment from any unit-owner of the condominium shown in the Declarations, so it cannot subrogate against the negligent unit-owner.",
+  "source": "ISO CP 00 17 10 12, E.9 (Waiver Of Rights Of Recovery)"
+ },
+ {
+  "id": "comm-cpa-06",
+  "topic": "cpp",
+  "sub": "CP Endorsements > Spoilage",
+  "q": "A restaurant's 2007 ISO Spoilage Coverage endorsement covers Power Outage. Which loss of refrigerated food is covered?",
+  "choices": [
+   "An employee unplugs the walk-in cooler to clean it and forgets to plug it back in",
+   "The utility cannot supply enough power because of a fuel shortage",
+   "A storm knocks down utility lines a mile away, cutting power to the restaurant",
+   "The restaurant's own generator lacks the capacity to meet demand during a heat wave"
+  ],
+  "answer": 2,
+  "explain": "Power Outage covers spoilage from a complete or partial interruption of electrical power, on or off the premises, due to conditions beyond the insured's control. The endorsement excludes disconnecting refrigeration from its power source, a utility's inability to supply enough power because of lack of fuel or governmental order, and a premises power source's lack of generating capacity to meet demand.",
+  "source": "ISO CP 04 40 06 07, C.3.b; F.2.a-d"
+ },
+ {
+  "id": "comm-cpa-07",
+  "topic": "cpp",
+  "sub": "CP Endorsements > Spoilage",
+  "q": "A 2007 ISO Spoilage Coverage endorsement covers Breakdown or Contamination and shows that a refrigeration maintenance agreement applies. If the insured voluntarily ends the agreement without telling the insurer, the spoilage coverage is:",
+  "choices": [
+   "Automatically suspended at the involved location",
+   "Canceled after 10 days' written notice to the insured",
+   "Continued until the next policy anniversary",
+   "Reduced by 15% until a new agreement is signed"
+  ],
+  "answer": 0,
+  "explain": "When Breakdown or Contamination is designated and a refrigeration maintenance agreement is shown as applicable, the insured must maintain a refrigeration maintenance or service agreement. If the insured voluntarily terminates it and does not notify the insurer, the endorsement's coverage is automatically suspended at the involved location.",
+  "source": "ISO CP 04 40 06 07, H. (Refrigeration Maintenance Agreements)"
+ },
+ {
+  "id": "comm-cpa-08",
+  "topic": "cpp",
+  "sub": "CP Endorsements > Value Reporting Form",
+  "q": "The commercial property Value Reporting Form is best suited to a business whose:",
+  "choices": [
+   "Property values stay level throughout the year",
+   "Building has been vacant for more than 60 days",
+   "Business income depends on a single supplier",
+   "Inventory values rise and fall during the year"
+  ],
+  "answer": 3,
+  "explain": "Reporting form coverage lets an insured with fluctuating inventory values carry a limit high enough for its peak values while paying premium on the values actually reported. Under the 2002 ISO form, the premium charged at inception is an advance premium, adjusted after the policy year based on the average of the insured's reports of value.",
+  "source": "IRMI glossary \"reporting form coverage\" (synonym: value reporting form) (irmi.com, retrieved 2026-10-13); ISO CP 13 10 04 02, C.1-2"
+ },
+ {
+  "id": "comm-cpa-09",
+  "topic": "cpp",
+  "sub": "CP Endorsements > Value Reporting Form",
+  "q": "Under the 2002 ISO Value Reporting Form, if a loss occurs before the insured has filed the first required report of values, the insurer pays no more than what percentage of the amount it would otherwise have paid?",
+  "choices": [
+   "50%",
+   "75%",
+   "80%",
+   "90%"
+  ],
+  "answer": 1,
+  "explain": "If the first required report of values has not been submitted at the time of loss, the insurer pays no more than 75% of what it would otherwise have paid, and only for loss at locations shown in the Declarations. If a later required report is missing, it pays no more than the values last reported for the location.",
+  "source": "ISO CP 13 10 04 02, B.4 (Failure To Submit Reports)"
+ },
+ {
+  "id": "comm-cpa-10",
+  "topic": "cpp",
+  "sub": "CP Endorsements > Value Reporting Form",
+  "q": "Under the 2002 ISO Value Reporting Form, the last report before a loss showed $150,000 of property at a location actually worth $200,000 on the report dates. The limit is $300,000, the loss $40,000 and the deductible $500. What will the insurer pay?",
+  "choices": [
+   "$29,500",
+   "$30,000",
+   "$39,500",
+   "$40,000"
+  ],
+  "answer": 0,
+  "explain": "The Full Reporting condition replaces coinsurance: the insurer pays no greater proportion of the loss than the values reported divided by the actual values on the report dates. $150,000 / $200,000 = 0.75; 0.75 x $40,000 = $30,000; minus the $500 deductible = $29,500.",
+  "source": "ISO CP 13 10 04 02, B.2 (Full Reporting) and its Example of Under Reporting"
+ },
+ {
+  "id": "comm-cpa-11",
+  "topic": "cpp",
+  "sub": "Crime Definitions > Burglary",
+  "q": "A thief hides in a store until closing, takes merchandise, and forces open a rear door to get out. In insurance terms, this loss is best described as:",
+  "choices": [
+   "Robbery",
+   "Burglary",
+   "Safe burglary",
+   "Vandalism"
+  ],
+  "answer": 1,
+  "explain": "Burglary is theft of property from within premises by a person who unlawfully enters or exits (breaks out of) the premises; the National Alliance definition adds that the entry or exit be evidenced by marks of forcible entry or exit, such as the forced rear door. No one was threatened (robbery), and no safe was opened (safe burglary).",
+  "source": "IRMI glossary \"burglary\" (irmi.com, retrieved 2026-10-13); National Alliance Research Academy glossary \"burglary\" (riskeducation.org, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-cpa-12",
+  "topic": "cpp",
+  "sub": "Crime Definitions > Burglary",
+  "q": "In insurance terms, which element must be present for a theft to be a burglary?",
+  "choices": [
+   "A person on the premises was threatened with bodily harm",
+   "Property was taken from inside a locked safe or vault",
+   "The thief entered or left the premises unlawfully",
+   "The thief was an employee of the insured"
+  ],
+  "answer": 2,
+  "explain": "Burglary requires unlawful entry into or exit from the premises, and the National Alliance definition also requires marks of forcible entry or exit. Robbery, by contrast, is a taking from a person by one who causes or threatens bodily harm or commits an obviously unlawful act that person witnesses.",
+  "source": "IRMI glossary \"burglary\" (irmi.com, retrieved 2026-10-13); National Alliance Research Academy glossary \"burglary\" (riskeducation.org, retrieved 2026-10-13); ISO CR 00 21 11 15, F.20 (robbery)"
+ },
+ {
+  "id": "comm-cpa-13",
+  "topic": "cpp",
+  "sub": "Crime Definitions > Theft",
+  "q": "The 2015 ISO Commercial Crime Coverage Form defines theft as:",
+  "choices": [
+   "The unlawful taking of property to the deprivation of the insured",
+   "The unlawful taking of property from a person who is threatened with bodily harm",
+   "The unlawful taking of property from inside a locked safe or vault",
+   "The unlawful taking of property by a person who forcibly enters the premises"
+  ],
+  "answer": 0,
+  "explain": "Theft is the broadest crime term in the form: any unlawful taking of property to the deprivation of the insured. The other choices describe the narrower terms robbery, safe burglary and burglary.",
+  "source": "ISO CR 00 21 11 15, F.20, F.21, F.23"
+ },
+ {
+  "id": "comm-cpa-14",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Employee Theft",
+  "q": "A business learns that its bookkeeper stole from a former employer before being hired. Under the 2015 ISO Commercial Crime Coverage Form, Employee Theft coverage for the bookkeeper:",
+  "choices": [
+   "Continues until the policy expires",
+   "Ends at the next policy anniversary",
+   "Ends 30 days after the business gives the insurer written notice",
+   "Ends as soon as the business learns of the theft"
+  ],
+  "answer": 3,
+  "explain": "Employee Theft terminates as to any employee as soon as the insured, or a partner, member, manager, officer, director or trustee not in collusion with the employee, learns of theft or any other dishonest act by that employee, whether committed before or after the employee was hired. The insurer can also end it for an employee by a notice that takes effect at least 30 days after mailing.",
+  "source": "ISO CR 00 21 11 15, E.2.a (Termination As To Any Employee)"
+ },
+ {
+  "id": "comm-cpa-15",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Employee Theft",
+  "q": "For Employee Theft coverage under the 2015 ISO Commercial Crime Coverage Form, which person is NOT an employee?",
+  "choices": [
+   "A worker leased to the insured by a labor leasing firm under a written agreement",
+   "A temporary worker filling in for an employee who is on leave",
+   "An independent contractor hired to install the insured's new computer system",
+   "A former employee, during the first 30 days after being laid off"
+  ],
+  "answer": 2,
+  "explain": "Employee includes a person in the insured's service and for the first 30 days after termination (unless terminated for theft or dishonesty), a temporary worker substituting for an employee on leave or meeting seasonal or short-term needs, and a worker leased under a written agreement with a labor leasing firm. It does not include an independent contractor.",
+  "source": "ISO CR 00 21 11 15, F.7.a.(1)-(3), F.7.b"
+ },
+ {
+  "id": "comm-cpa-16",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Forgery or Alteration",
+  "q": "Which loss is covered by the Forgery or Alteration insuring agreement of the 2015 ISO Commercial Crime Coverage Form?",
+  "choices": [
+   "A customer's check payable to the insured is returned for insufficient funds",
+   "A thief forges the insured's signature on a check drawn on the insured's account",
+   "The insured accepts a counterfeit $100 bill from a customer in exchange for merchandise",
+   "A burglar takes cash from the insured's locked cash drawer overnight"
+  ],
+  "answer": 1,
+  "explain": "Forgery or Alteration covers loss from forgery or alteration of checks, drafts, promissory notes or similar written promises, orders or directions to pay a sum certain in money that are made or drawn by or drawn upon the insured (or its agent). Counterfeit money is covered under Money Orders and Counterfeit Money, and a bad check that was not forged or altered is not covered.",
+  "source": "ISO CR 00 21 11 15, A.2.a; A.7; F.11"
+ },
+ {
+  "id": "comm-cpa-17",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Forgery or Alteration",
+  "q": "A business insured under the 2015 ISO Commercial Crime Coverage Form is sued for refusing to pay a check drawn on its account on the basis that it was forged. The insurer consents in writing to the defense. The insured's reasonable legal expenses are paid:",
+  "choices": [
+   "Only if the insured wins the suit",
+   "Only after the deductible is met",
+   "Within the Limit of Insurance, which they reduce",
+   "In addition to the Limit of Insurance"
+  ],
+  "answer": 3,
+  "explain": "If the insured is sued for refusing to pay a covered instrument on the basis that it was forged or altered, and has the insurer's written consent to defend, the insurer pays reasonable legal expenses in addition to the Limit of Insurance. The deductible does not apply to these legal expenses.",
+  "source": "ISO CR 00 21 11 15, A.2.b; E.3.a"
+ },
+ {
+  "id": "comm-cpa-18",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Inside the Premises - Robbery or Safe Burglary of Other Property",
+  "q": "Which loss is covered by Inside the Premises – Robbery or Safe Burglary of Other Property in the 2015 ISO Commercial Crime Coverage Form?",
+  "choices": [
+   "Cash taken from the register by a robber who threatens the cashier",
+   "Merchandise a burglar takes from store shelves after breaking in overnight",
+   "Merchandise taken at gunpoint from a clerk inside the store",
+   "Merchandise taken at gunpoint from an employee making deliveries"
+  ],
+  "answer": 2,
+  "explain": "This insuring agreement covers other property (property other than money and securities) inside the premises against actual or attempted robbery of a custodian, such as an employee caring for property inside the premises, or actual or attempted safe burglary. Money is covered under Inside the Premises – Theft of Money and Securities, property in a messenger's care under Outside the Premises, and theft from open shelves is not covered by this insuring agreement.",
+  "source": "ISO CR 00 21 11 15, A.3, A.4, A.5; F.4 (custodian), F.18 (other property), F.20 (robbery)"
+ },
+ {
+  "id": "comm-cpa-19",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Inside the Premises - Robbery or Safe Burglary of Other Property",
+  "q": "Which act is a safe burglary as defined in the 2015 ISO Commercial Crime Coverage Form?",
+  "choices": [
+   "Removing the entire safe from inside the premises",
+   "Taking property from a safe that was left unlocked",
+   "Opening a locked safe with the correct combination and leaving no marks",
+   "Prying open a locked cash drawer at a checkout counter"
+  ],
+  "answer": 0,
+  "explain": "Safe burglary is the unlawful taking of property from within a locked safe or vault by a person unlawfully entering it, as shown by marks of forcible entry on its exterior, or the taking of a safe or vault itself from inside the premises.",
+  "source": "ISO CR 00 21 11 15, F.21"
+ },
+ {
+  "id": "comm-cpa-20",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Outside the Premises",
+  "q": "A store owner sends an employee to the bank with the day's cash receipts, and the employee loses the bag on the way. Under the 2015 ISO Commercial Crime Coverage Form, which insuring agreement covers the loss?",
+  "choices": [
+   "Employee Theft",
+   "Outside the Premises",
+   "Inside the Premises – Theft of Money and Securities",
+   "Money Orders and Counterfeit Money"
+  ],
+  "answer": 1,
+  "explain": "Outside the Premises covers money and securities in the care and custody of a messenger or an armored motor vehicle company against theft, disappearance or destruction. A messenger includes an employee who has care and custody of property outside the premises.",
+  "source": "ISO CR 00 21 11 15, A.5.a; F.15 (messenger)"
+ },
+ {
+  "id": "comm-cpa-21",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Outside the Premises",
+  "q": "In the 2015 ISO Commercial Crime Coverage Form, Outside the Premises covers other property (not money or securities) in a messenger's care against:",
+  "choices": [
+   "Actual or attempted robbery only",
+   "Theft, disappearance or destruction",
+   "Any direct physical loss not excluded",
+   "Theft only while it is in a locked vehicle"
+  ],
+  "answer": 0,
+  "explain": "For other property in the care and custody of a messenger or an armored motor vehicle company, Outside the Premises covers only actual or attempted robbery. Money and securities outside the premises are covered against theft, disappearance or destruction.",
+  "source": "ISO CR 00 21 11 15, A.5.a-b"
+ },
+ {
+  "id": "comm-cpa-22",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Computer Fraud",
+  "q": "Which loss is covered by the computer fraud part of the Computer and Funds Transfer Fraud insuring agreement in the 2015 ISO Commercial Crime Coverage Form?",
+  "choices": [
+   "An employee with authorized access to the insured's computer system enters a false invoice that pays her",
+   "A thief uses stolen credit card numbers to buy goods from the insured's website",
+   "An outside hacker changes data in the insured's computer system, causing a payment to the hacker",
+   "An employee wires money after an email that appears to come from a supplier asks for payment"
+  ],
+  "answer": 2,
+  "explain": "The computer fraud part covers loss from a fraudulent entry or change of electronic data or computer programs in a computer system the insured owns, leases or operates that causes money, securities or other property to be transferred, paid or delivered, or the insured's account to be debited. It excludes entries by a person with authorized access to the system, credit card transactions, and loss from an employee acting on a fraudulent instruction.",
+  "source": "ISO CR 00 21 11 15, A.6.a.(1); D.4.a, D.4.b, D.4.d"
+ },
+ {
+  "id": "comm-cpa-23",
+  "topic": "cpp",
+  "sub": "Crime Coverages > Funds Transfer Fraud",
+  "q": "A caller posing as a company's owner phones its bank and has it wire $40,000 from the company's account, which accepts telephone transfer instructions. The owner knew nothing about it. Under the 2015 ISO Commercial Crime Coverage Form, which insuring agreement covers the loss?",
+  "choices": [
+   "Employee Theft",
+   "Computer and Funds Transfer Fraud",
+   "Forgery or Alteration",
+   "Inside the Premises – Theft of Money and Securities"
+  ],
+  "answer": 1,
+  "explain": "The funds transfer fraud part of this insuring agreement covers loss from a fraudulent instruction directing a financial institution to debit the insured's transfer account and transfer money from it. A fraudulent instruction includes a telephone instruction that purports to come from the insured but was issued by someone else without the insured's knowledge or consent.",
+  "source": "ISO CR 00 21 11 15, A.6.a.(2); F.12.a.(1) (fraudulent instruction); F.24 (transfer account)"
+ },
+ {
+  "id": "comm-cpb-01",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Bailee's Customer",
+  "q": "A dry cleaner wants inland marine coverage on customers' garments in its care so it can pay customers for a covered loss whether or not it is legally liable. Which coverage is designed for this?",
+  "choices": [
+   "Commercial articles coverage",
+   "Equipment dealers coverage",
+   "Bailees customers coverage",
+   "Jewelers block coverage"
+  ],
+  "answer": 2,
+  "explain": "Bailees customers coverage insures personal property of others in the insured's care, custody or control, such as customers' clothing at a dry cleaner. Bailees buy it so they can pay customers for losses, not merely to insure their own legal liability.",
+  "source": "ISO IH 00 85 12 20, A.1 (form text quoted in FC&S 'Bailees Customers Coverage Form' (propertycasualty360.com, 2023)); FC&S 'Bailee's Customers Insurance' (propertycasualty360.com, 2012); IRMI glossary 'bailee coverage' (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-cpb-02",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Bailee's Customer",
+  "q": "A carpet cleaner insured under the 2020 ISO Bailees Customers Coverage Form damages a customer's rug during its own cleaning process. The damage is:",
+  "choices": [
+   "Covered in full",
+   "Covered only if the insured was negligent",
+   "Covered only while the rug is at the insured's premises",
+   "Excluded, except for resulting fire or explosion damage"
+  ],
+  "answer": 3,
+  "explain": "The form excludes loss caused by processing or work upon the property, but it pays for direct loss caused by a resulting fire or explosion. Negligence is not a condition of coverage, and the exclusion is not limited to the insured's premises.",
+  "source": "ISO IH 00 85 12 20, B.2.g (form text quoted in FC&S 'Bailees Customers Coverage Form' (propertycasualty360.com, 2023))"
+ },
+ {
+  "id": "comm-cpb-03",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Commercial Articles",
+  "q": "Which ISO inland marine coverage form is designed to insure cameras and musical instruments used commercially, such as by a professional photographer or a band?",
+  "choices": [
+   "Signs Coverage Form",
+   "Valuable Papers and Records Coverage Form",
+   "Commercial Articles Coverage Form",
+   "Equipment Dealers Coverage Form"
+  ],
+  "answer": 2,
+  "explain": "The Commercial Articles Coverage Form covers cameras, projection machines, films and related equipment, musical instruments and related equipment, and similar property of others in the insured's care, custody or control. Typical insureds include photography studios, film production companies and professional musicians.",
+  "source": "ISO CM 00 20 01 13, A.1 (form text quoted in FC&S 'Commercial Articles Coverage Form' (propertycasualty360.com, 2014))"
+ },
+ {
+  "id": "comm-cpb-04",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Commercial Articles",
+  "q": "Where is covered property insured under the 2013 ISO Commercial Articles Coverage Form?",
+  "choices": [
+   "Only at the premises described in the Declarations",
+   "Only while in transit",
+   "Only within the United States, Puerto Rico and Canada",
+   "Wherever located"
+  ],
+  "answer": 3,
+  "explain": "The form's Coverage Territory condition states: \"We cover property wherever located.\" Other ISO inland marine forms, such as the Signs and Jewelers Block forms, limit coverage to the United States (including its territories and possessions), Puerto Rico and Canada.",
+  "source": "ISO CM 00 20 01 13, E.1 (form text quoted in FC&S 'Commercial Articles Coverage Form' (propertycasualty360.com, 2014)); ISO CM 00 28 01 13, Additional Conditions 1 (quoted in FC&S 'Signs Coverage Form' (propertycasualty360.com, 2015))"
+ },
+ {
+  "id": "comm-cpb-05",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Contractors Equipment Floater",
+  "q": "A road-building contractor schedules its equipment under the 2013 ISO Contractors Equipment Coverage Form. Which item is covered property?",
+  "choices": [
+   "A bulldozer it owns and uses on job sites",
+   "A dump truck licensed for use on public roads",
+   "A backhoe it has rented out to another contractor",
+   "Tools and clothing owned by its employees"
+  ],
+  "answer": 0,
+  "explain": "The form covers the insured's contractor's equipment described in the Declarations and similar property of others in its care, custody or control. It excludes vehicles licensed for use on public roads, property the insured loans, leases or rents to others, and employees' tools and clothing.",
+  "source": "ISO IH 00 68 12 13, A.1-2 (form text quoted in FC&S 'Contractors Equipment Coverage Form' (propertycasualty360.com, 2018))"
+ },
+ {
+  "id": "comm-cpb-06",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Electronic Data Processing",
+  "q": "A business wants open perils inland marine coverage on its computer hardware, software and data storage media. Which coverage is designed for this exposure?",
+  "choices": [
+   "Electronic data processing coverage",
+   "Valuable papers and records coverage",
+   "Accounts receivable coverage",
+   "Commercial articles coverage"
+  ],
+  "answer": 0,
+  "explain": "EDP (computer systems) coverage, such as ISO's Computer Systems Coverage Form, insures computer equipment, data and media against risks of direct physical loss. Valuable papers and records coverage excludes data processing data, programs and the media on which data is recorded.",
+  "source": "ISO IH 00 75 09 09, A.1 and A.3 (form text quoted in FC&S 'Computer Systems Coverage Form' (propertycasualty360.com, 2018)); ISO CM 00 67 01 13, Definitions 1 (quoted in FC&S 'Valuable Papers and Records Coverage Form' (propertycasualty360.com, 2015))"
+ },
+ {
+  "id": "comm-cpb-07",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Equipment Dealers",
+  "q": "Under an unendorsed 2010 ISO Equipment Dealers Coverage Form, which property of a farm equipment dealer is covered?",
+  "choices": [
+   "Pickup trucks held in stock for sale",
+   "Tractors and backhoes held in stock for sale",
+   "A combine sold on an installment contract and already delivered",
+   "The dealer's office furniture and fixtures"
+  ],
+  "answer": 1,
+  "explain": "The form covers the dealer's stock in trade, consisting principally of mobile agricultural and construction equipment, and similar property of others in its care. It excludes automobiles and motor trucks, property sold on a deferred payment agreement after it leaves the dealer's custody, and furniture and fixtures (which can be added by endorsement).",
+  "source": "ISO CM 00 22 03 10, A.1-2 (form text quoted in FC&S 'Equipment Dealers Coverage' (propertycasualty360.com, 2013))"
+ },
+ {
+  "id": "comm-cpb-08",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Installation Floater",
+  "q": "A heating and air-conditioning contractor buys rooftop units that it will install in a customer's new building. Which inland marine coverage is designed to cover the units being installed?",
+  "choices": [
+   "Installation floater",
+   "Bailees customers coverage",
+   "Contractors equipment floater",
+   "Equipment dealers coverage"
+  ],
+  "answer": 0,
+  "explain": "An installation floater is inland marine coverage on property, usually equipment, being installed by a contractor; it is a specialized type of builders risk coverage. A contractors equipment floater covers the contractor's own machinery and tools, not property it is installing.",
+  "source": "IRMI glossary 'installation floater' (irmi.com, retrieved 2026-10-13); ISO IH 00 68 12 13, A.1 (quoted in FC&S 'Contractors Equipment Coverage Form' (propertycasualty360.com, 2018))"
+ },
+ {
+  "id": "comm-cpb-09",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Jewelers Block",
+  "q": "A retail jewelry store wants open perils coverage on its stock of jewelry and watches and on customers' jewelry left for repair. Which coverage is designed for this?",
+  "choices": [
+   "Jewelers block coverage",
+   "Bailees customers coverage",
+   "Commercial articles coverage",
+   "Valuable papers and records coverage"
+  ],
+  "answer": 0,
+  "explain": "The Jewelers Block Coverage Form covers a jeweler's stock in trade, property sold but not yet delivered, and similar property of others in its care, custody or control, on an open perils basis. The Bailees Customers Coverage Form excludes jewelry, watches and precious stones.",
+  "source": "ISO CM 00 59 01 13, A.1 and A.3 (form text quoted in FC&S 'Jewelers Block Coverage Form' (propertycasualty360.com, 2014)); ISO IH 00 85 12 20, A.2.f (quoted in FC&S 'Bailees Customers Coverage Form' (propertycasualty360.com, 2023))"
+ },
+ {
+  "id": "comm-cpb-10",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Jewelers Block",
+  "q": "Under the 2013 ISO Jewelers Block Coverage Form, a necklace from the jeweler's stock is NOT covered while it is:",
+  "choices": [
+   "Being worn by one of the insured's employees",
+   "Locked in a safe at the insured's premises",
+   "Sold but not yet delivered to the buyer",
+   "Shipped by U.S. Postal Service registered mail"
+  ],
+  "answer": 0,
+  "explain": "Property is not covered while being worn by the insured or by an officer, employee or other person in the jewelry trade (watches worn solely for adjustment are an exception). Stock sold but not delivered is covered, and mail shipments are covered if sent by registered mail.",
+  "source": "ISO CM 00 59 01 13, A.1.b, A.2.d-e (form text quoted in FC&S 'Jewelers Block Coverage Form' (propertycasualty360.com, 2014))"
+ },
+ {
+  "id": "comm-cpb-11",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Signs",
+  "q": "According to ISO's rules for the 2013 Signs Coverage Form, the form may be used to insure:",
+  "choices": [
+   "Billboards along a highway that are lit by floodlights",
+   "Neon, fluorescent, automatic or mechanical electric signs",
+   "Ordinary fixed signs lit directly by electric lights",
+   "Painted wooden signs hung on the insured's storefront"
+  ],
+  "answer": 1,
+  "explain": "ISO's Commercial Lines Manual limits the Signs Coverage Form to neon, fluorescent, automatic or mechanical electric signs and lamps. Billboards and ordinary fixed signs are ineligible, whether or not they are lit by electric lights.",
+  "source": "FC&S 'Signs Coverage Form' (propertycasualty360.com, 2015), describing ISO Commercial Lines Manual rules for CM 00 28 01 13"
+ },
+ {
+  "id": "comm-cpb-12",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Signs",
+  "q": "A store insures its neon sign under the 2013 ISO Signs Coverage Form. Which loss is excluded?",
+  "choices": [
+   "A windstorm blows the sign off the building",
+   "Vandals break the sign with rocks",
+   "A delivery truck backs into the sign",
+   "The sign breaks while it is being repaired"
+  ],
+  "answer": 3,
+  "explain": "The form excludes breakage during transportation, installation, repairing or dismantling, except breakage caused directly by fire, lightning or an accident to the vehicle carrying the property. Windstorm, vandalism and vehicle damage are covered because the form covers direct physical loss except for listed exclusions.",
+  "source": "ISO CM 00 28 01 13, A.3 and B.2.b (form text quoted in FC&S 'Signs Coverage Form' (propertycasualty360.com, 2015))"
+ },
+ {
+  "id": "comm-cpb-13",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Valuable Papers and Records",
+  "q": "Which of the following meets the definition of \"valuable papers and records\" in the 2013 ISO Valuable Papers and Records Coverage Form?",
+  "choices": [
+   "Cash in the office safe",
+   "An architect's original drawings",
+   "Customer data stored on a computer server",
+   "Stock certificates"
+  ],
+  "answer": 1,
+  "explain": "\"Valuable papers and records\" means inscribed, printed or written documents, manuscripts or records, including drawings, maps, deeds and mortgages. The definition excludes money, securities, and data processing data, programs and the media on which the data is recorded.",
+  "source": "ISO CM 00 67 01 13, Definitions 1 (form text quoted in FC&S 'Valuable Papers and Records Coverage Form' (propertycasualty360.com, 2015))"
+ },
+ {
+  "id": "comm-cpb-14",
+  "topic": "cpp",
+  "sub": "IM Coverage Forms > Valuable Papers and Records",
+  "q": "Under the 2013 ISO Valuable Papers and Records Coverage Form, an irreplaceable original manuscript is covered property only if it is:",
+  "choices": [
+   "Included in the blanket limit for property at the premises",
+   "Held by the insured as a sample for a later sale",
+   "Kept in storage at a location away from the insured's premises",
+   "Specifically declared and described in the Declarations"
+  ],
+  "answer": 3,
+  "explain": "Property that cannot be replaced with other property of like kind and quality is not covered unless it is specifically declared and described in the Declarations. Property held as samples or for delivery after sale, and property in storage away from the described premises, are not covered.",
+  "source": "ISO CM 00 67 01 13, A.2.a-c (form text quoted in FC&S 'Valuable Papers and Records Coverage Form' (propertycasualty360.com, 2015))"
+ },
+ {
+  "id": "comm-cpb-15",
+  "topic": "cpp",
+  "sub": "Transportation Coverages > Motor Truck Cargo Forms",
+  "q": "A trucking company hauls other businesses' goods as a common carrier. Which coverage protects the trucker against its legal liability for loss of that cargo?",
+  "choices": [
+   "Annual transit coverage",
+   "Motor truck cargo owners coverage",
+   "Trip transit coverage",
+   "Motor truck cargo carriers coverage"
+  ],
+  "answer": 3,
+  "explain": "Motor truck cargo carriers coverage is legal liability coverage for a common or contract carrier shipping property of others. Owners coverage and annual or trip transit coverage are first-party coverages on the insured's own property.",
+  "source": "Verisk, 'Transportation risks are changing' commercial inland marine program sheet (VKUS22142, 2022); FC&S 'Motor Truck Cargo - AAIS' (propertycasualty360.com, 2015)"
+ },
+ {
+  "id": "comm-cpb-16",
+  "topic": "cpp",
+  "sub": "Transportation Coverages > Motor Truck Cargo Forms",
+  "q": "A furniture maker ships its own products to customers only on its own trucks. Which coverage is designed to insure the furniture while it is on those trucks?",
+  "choices": [
+   "Motor truck cargo owners coverage",
+   "Bailees customers coverage",
+   "Contingent cargo coverage for brokers",
+   "Motor truck cargo carriers coverage"
+  ],
+  "answer": 0,
+  "explain": "Motor truck cargo owners coverage is first-party coverage for a business's own property shipped on its own vehicles. Carriers coverage insures a trucker's legal liability for others' cargo, and contingent cargo coverage is for transportation brokers.",
+  "source": "Verisk, 'Transportation risks are changing' commercial inland marine program sheet (VKUS22142, 2022)"
+ },
+ {
+  "id": "comm-cpb-17",
+  "topic": "cpp",
+  "sub": "Transportation Coverages > Transit Coverage Forms",
+  "q": "A manufacturer wants one policy covering all of its outgoing shipments during the year, whether sent by carriers for hire or on its own trucks. Which coverage fits?",
+  "choices": [
+   "Annual transit coverage",
+   "Contingent cargo coverage",
+   "Motor truck cargo carriers coverage",
+   "Trip transit coverage"
+  ],
+  "answer": 0,
+  "explain": "Annual transit coverage is first-party coverage for property a business ships by carriers for hire or on its own vehicles during the policy term. Trip transit coverage applies to a single shipment.",
+  "source": "Verisk, 'Transportation risks are changing' commercial inland marine program sheet (VKUS22142, 2022); IRMI glossary 'trip transit insurance' (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-cpb-18",
+  "topic": "cpp",
+  "sub": "Transportation Coverages > Transit Coverage Forms",
+  "q": "Trip transit insurance is written to cover:",
+  "choices": [
+   "All of the insured's shipments during the policy term",
+   "A broker's contingent interest in cargo it arranges to ship",
+   "A carrier's legal liability for cargo of others",
+   "A single, specific shipment"
+  ],
+  "answer": 3,
+  "explain": "Trip transit insurance covers a specific individual shipment, as distinguished from transit insurance that covers all shipments during the policy term.",
+  "source": "IRMI glossary 'trip transit insurance' (irmi.com, retrieved 2026-10-13); Verisk, 'Transportation risks are changing' commercial inland marine program sheet (VKUS22142, 2022)"
+ },
+ {
+  "id": "comm-cpb-19",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage A - Dwellings",
+  "q": "Under the ISO farm property forms, which of the following is covered under Coverage A – Dwellings?",
+  "choices": [
+   "A detached garage separated from the dwelling by clear space",
+   "A barn used to house dairy cattle",
+   "Lumber on the insured location for repairing the covered dwelling",
+   "The land on which the dwelling stands"
+  ],
+  "answer": 2,
+  "explain": "Coverage A covers each dwelling with a limit shown, structures attached to it, and materials on the insured location for building, altering or repairing it. A detached garage falls under Coverage B, a barn under Coverage G, and land is not covered.",
+  "source": "ISO FP 00 12 04 16, Cov. A, A.1-2 (form text quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. A 1-2"
+ },
+ {
+  "id": "comm-cpb-20",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage A - Dwellings",
+  "q": "Under the 2016 ISO farm dwelling coverage form, a loss to a farm dwelling is settled at replacement cost if the Coverage A limit is at least what percentage of the dwelling's full replacement cost at the time of loss?",
+  "choices": [
+   "50%",
+   "70%",
+   "80%",
+   "100%"
+  ],
+  "answer": 2,
+  "explain": "If the limit is at least 80% of full replacement cost, the loss is settled at replacement cost (the smallest of the cost to replace, the amount actually spent, or the limit). Below 80%, the insurer pays the larger of actual cash value or a proportion of the replacement cost.",
+  "source": "ISO FP 00 12 04 16, Cov. A, B.1.b-c (form text quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); same 80% rule in ISO FP 00 10 09 94, Cov. A 7.a(2)-(3)"
+ },
+ {
+  "id": "comm-cpb-21",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage B - Other Private Structures",
+  "q": "A farmer's machine shed is used principally for farming. Under the ISO farm property forms, the shed is insured under:",
+  "choices": [
+   "Coverage G – Other Farm Structures",
+   "Coverage A – Dwellings",
+   "Coverage B – Other Private Structures",
+   "Coverage C – Household Personal Property"
+  ],
+  "answer": 0,
+  "explain": "Coverage B excludes structures, other than private garages, used principally for farming purposes. Farm buildings and structures other than dwellings are insured under Coverage G when a limit is shown in the Declarations.",
+  "source": "ISO FP 00 12 04 16, Cov. B, A.2.d (quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 14 04 16, A.1.a (quoted in FC&S 'Farm Property-Barns, Outbuildings, and Other Farm Structures Coverage Form, FP 00 14' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. B 2.d and Cov. G 1.a"
+ },
+ {
+  "id": "comm-cpb-22",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage B - Other Private Structures",
+  "q": "How much insurance does Coverage B – Other Private Structures provide under the 2016 ISO farm dwelling coverage form?",
+  "choices": [
+   "5% of the Coverage A limit, as part of that limit",
+   "10% of the Coverage A limit, as part of that limit",
+   "10% of the Coverage A limit, as additional insurance",
+   "20% of the Coverage A limit, as additional insurance"
+  ],
+  "answer": 2,
+  "explain": "The most paid in any one occurrence is 10% of the Coverage A limit, and this 10% is additional insurance that does not reduce Coverage A. The 1994 Farm Property Coverage Form applied the automatic 10% only to private garages; other structures needed their own limit.",
+  "source": "ISO FP 00 12 04 16, Cov. B, A.3.a (form text quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. B 1.a-b"
+ },
+ {
+  "id": "comm-cpb-23",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage C - Household Personal Property",
+  "q": "Under the ISO farm property forms, which item is covered under Coverage C – Household Personal Property?",
+  "choices": [
+   "Hay stored in the barn",
+   "A herd of beef cattle",
+   "Furniture in the farm dwelling",
+   "A farm tractor"
+  ],
+  "answer": 2,
+  "explain": "Coverage C covers household personal property owned or used by the insured and resident family members. It excludes animals and farm personal property (other than office furniture, fixtures and equipment), which are insured under the farm personal property coverages.",
+  "source": "ISO FP 00 12 04 16, Cov. C, A.1-2 (quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. C 1-2"
+ },
+ {
+  "id": "comm-cpb-24",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage D - Loss of Use",
+  "q": "Coverage D – Loss of Use under the ISO farm dwelling coverage form pays all of the following EXCEPT:",
+  "choices": [
+   "Income lost when hail destroys the farmer's crops",
+   "Additional living expense while the dwelling is uninhabitable",
+   "Fair rental value of part of the dwelling rented to others",
+   "Loss when a civil authority bars use of the dwelling after covered damage next door"
+  ],
+  "answer": 0,
+  "explain": "Coverage D pays additional living expense, the fair rental value of a part of the dwelling rented to others, and loss when a civil authority prohibits use because of direct damage to neighboring premises by a covered cause of loss. It does not pay farm business income such as lost crop income.",
+  "source": "ISO FP 00 12 04 16, Cov. D, A.1-3 (form text quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. D 1.a-c"
+ },
+ {
+  "id": "comm-cpb-25",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage D - Loss of Use",
+  "q": "When a civil authority prohibits use of a farm dwelling because of covered damage to neighboring premises, the 2016 ISO farm dwelling coverage form pays Coverage D loss incurred during a period of up to:",
+  "choices": [
+   "1 week",
+   "2 weeks",
+   "3 weeks",
+   "4 weeks"
+  ],
+  "answer": 2,
+  "explain": "The 2016 edition pays this emergency prohibition-of-occupancy loss for up to three weeks; the 1994 Farm Property Coverage Form allowed 2 weeks. No deductible applies to Coverage D.",
+  "source": "ISO FP 00 12 04 16, Cov. D, A.3 (form text quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. D 1.c"
+ },
+ {
+  "id": "comm-cpb-26",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage F - Unscheduled Farm Personal Property",
+  "q": "Which item located on the insured location is covered under Coverage F – Unscheduled Farm Personal Property?",
+  "choices": [
+   "Laying hens",
+   "Field fences",
+   "A pickup truck licensed for road use",
+   "Hay stored in a barn"
+  ],
+  "answer": 3,
+  "explain": "Coverage F covers all farm personal property on the insured location except property it lists as not covered. Poultry, fences, and vehicles designed and licensed for road use are on that list.",
+  "source": "ISO FP 00 13 04 16, Cov. F, A.1-2 (form text quoted in FC&S 'Farm Property - Farm Personal Property Coverage Form FP 00 13, Coverages E and F' (propertycasualty360.com, 2017)); ISO FP 00 10 09 94, Cov. F 1-2"
+ },
+ {
+  "id": "comm-cpb-27",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage G - Other Farm Structures",
+  "q": "When a limit is shown for each type of property, Coverage G – Other Farm Structures covers all of the following EXCEPT:",
+  "choices": [
+   "Silos described in the Declarations",
+   "Corrals, pens and chutes",
+   "Field and pasture fences",
+   "Portable buildings"
+  ],
+  "answer": 2,
+  "explain": "Coverage G covers farm buildings and structures other than dwellings, described silos, portable buildings, and fences, corrals, pens, chutes and feed racks. Field and pasture fences are expressly not covered.",
+  "source": "ISO FP 00 14 04 16, A.1-2 (form text quoted in FC&S 'Farm Property-Barns, Outbuildings, and Other Farm Structures Coverage Form, FP 00 14' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. G 1-2"
+ },
+ {
+  "id": "comm-cpb-28",
+  "topic": "cpp",
+  "sub": "Farm Property > Coverage G - Other Farm Structures",
+  "q": "Unless the Declarations indicate the Replacement Cost Basis option, a covered loss to a barn under Coverage G – Other Farm Structures is settled at:",
+  "choices": [
+   "Actual cash value",
+   "Agreed value",
+   "Market value",
+   "Replacement cost"
+  ],
+  "answer": 0,
+  "explain": "Coverage G property other than improvements and betterments is settled at actual cash value unless the Replacement Cost Basis option is expressly indicated in the Declarations. If it is, the same 80% replacement cost rule used for dwellings applies.",
+  "source": "ISO FP 00 14 04 16, B.3.a-b (form text quoted in FC&S 'Farm Property-Barns, Outbuildings, and Other Farm Structures Coverage Form, FP 00 14' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. G 6.c"
+ },
+ {
+  "id": "comm-cpb-29",
+  "topic": "cpp",
+  "sub": "Farm > Mobile Agricultural Machinery and Equipment Form",
+  "q": "Which ISO farm coverage form is an inland marine form designed for tractors, balers and other mobile devices used in the everyday operation of a farm?",
+  "choices": [
+   "Barns, Outbuildings and Other Farm Structures Coverage Form",
+   "Equipment Dealers Coverage Form",
+   "Livestock Coverage Form",
+   "Mobile Agricultural Machinery and Equipment Coverage Form"
+  ],
+  "answer": 3,
+  "explain": "The Mobile Agricultural Machinery and Equipment Coverage Form is one of ISO's two farm inland marine forms (the other is the Livestock Coverage Form). It covers mobile devices used in the everyday operation of the farm, including accessories and tools and spare parts designed for them; the Equipment Dealers form is for dealers' stock.",
+  "source": "FC&S 'Farm Coverage Program' (propertycasualty360.com, 2017) (FP 00 30 04 16); ISO FP 00 30 01 98, A.1 and Definitions (form text quoted in FC&S 'Mobile Agricultural Machinery and Equipment' archive (propertycasualty360.com, 2012))"
+ },
+ {
+  "id": "comm-cpb-30",
+  "topic": "cpp",
+  "sub": "Farm > Livestock Coverage Form",
+  "q": "A tenant farmer owns no farm buildings but wants coverage on his cattle and horses. Which ISO form can insure them on a stand-alone basis?",
+  "choices": [
+   "Barns, Outbuildings and Other Farm Structures Coverage Form",
+   "Livestock Coverage Form",
+   "Mobile Agricultural Machinery and Equipment Coverage Form",
+   "Farm Dwellings, Appurtenant Structures and Household Personal Property Coverage Form"
+  ],
+  "answer": 1,
+  "explain": "The Livestock Coverage Form is an inland marine form that insures livestock on a named perils basis and is available on a stand-alone (monoline) basis, which suits a tenant farmer with no farm buildings. Household personal property coverage excludes animals.",
+  "source": "IRMI glossary 'livestock coverage form' (irmi.com, retrieved 2026-10-13); ISO FP 00 40 02 09 (quoted in FC&S 'Livestock Coverage' (propertycasualty360.com, 2016)); ISO FP 00 12 04 16, Cov. C, A.2 (quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016))"
+ },
+ {
+  "id": "comm-cpb-31",
+  "topic": "cpp",
+  "sub": "Farm > Livestock Coverage Form",
+  "q": "Under the ISO Livestock Coverage Form, a covered \"loss\" of livestock means:",
+  "choices": [
+   "Any injury or illness of the animal",
+   "A drop in market value caused by a covered peril",
+   "Death from any cause, including disease",
+   "Death or destruction of the animal"
+  ],
+  "answer": 3,
+  "explain": "The form defines \"loss\" as the death or destruction of livestock, and it covers only named perils such as fire, windstorm, theft, collision, earthquake and flood. It is not a mortality policy covering death from any cause.",
+  "source": "IRMI glossary 'livestock coverage form' (irmi.com, retrieved 2026-10-13); ISO FP 00 40 02 09, A and A.3 (form text quoted in FC&S 'Livestock Coverage' (propertycasualty360.com, 2016))"
+ },
+ {
+  "id": "comm-cpb-32",
+  "topic": "cpp",
+  "sub": "Farm > Definitions",
+  "q": "As defined in the ISO farm property forms, \"livestock\" includes all of the following EXCEPT:",
+  "choices": [
+   "Goats",
+   "Mules",
+   "Poultry",
+   "Swine"
+  ],
+  "answer": 2,
+  "explain": "\"Livestock\" means cattle, sheep, swine, goats, horses, mules and donkeys. \"Poultry\" (fowl kept for use or sale) is a separately defined term.",
+  "source": "ISO FP 00 10 09 94, H.6 and H.9; ISO FP 00 40 02 09 (quoted in FC&S 'Livestock Coverage' (propertycasualty360.com, 2016)); IRMI glossary 'livestock coverage form' (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-cpb-33",
+  "topic": "cpp",
+  "sub": "Farm > Definitions",
+  "q": "Under the ISO farm property forms, which building meets the definition of a \"dwelling\"?",
+  "choices": [
+   "A barn used to house the farm's livestock",
+   "A building used to store the farm's produce",
+   "A poultry house used for laying hens",
+   "A mobile home used as the family's residence"
+  ],
+  "answer": 3,
+  "explain": "\"Dwelling\" means a building used principally for family residential purposes, including mobile, modular and prefabricated homes. It does not include a building used in agricultural operations such as storing produce, livestock or poultry.",
+  "source": "ISO FP 00 10 09 94, H.2; FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016) (describing the FP 00 90 04 16 definition)"
+ },
+ {
+  "id": "comm-cpb-34",
+  "topic": "cpp",
+  "sub": "Farm > Causes of Loss (Basic, Broad, Special)",
+  "q": "Which peril is included in the Broad causes of loss of the ISO farm property program but not in the Basic causes of loss?",
+  "choices": [
+   "Flood loss to livestock",
+   "Riot or civil commotion",
+   "Weight of ice, snow or sleet",
+   "Windstorm or hail"
+  ],
+  "answer": 2,
+  "explain": "Broad adds perils such as breakage of glass, falling objects, weight of ice, snow or sleet, water discharge and certain livestock perils to the Basic list. Windstorm or hail, riot or civil commotion, and flood loss to livestock are already Basic perils.",
+  "source": "ISO FP 10 60 09 03, B-C (form text quoted in FC&S 'Farm Property Covered Causes of Loss' (propertycasualty360.com, 2012)); FC&S 'Farm Coverage Program' (propertycasualty360.com, 2017) (FP 10 60 04 16); ISO FP 00 10 09 94, B.1-2"
+ },
+ {
+  "id": "comm-cpb-35",
+  "topic": "cpp",
+  "sub": "Farm > Causes of Loss (Basic, Broad, Special)",
+  "q": "Under the 2016 ISO Farm Personal Property Coverage Form, livestock insured under Coverage F – Unscheduled Farm Personal Property may be covered for which causes of loss?",
+  "choices": [
+   "Basic causes of loss only",
+   "Basic or Broad causes of loss only",
+   "Broad or Special causes of loss only",
+   "Basic, Broad or Special causes of loss"
+  ],
+  "answer": 1,
+  "explain": "For livestock, the Basic or Broad causes of loss are the only covered causes of loss. The Special causes of loss cannot be used for livestock or other animals.",
+  "source": "ISO FP 00 13 04 16, Cov. F, A.1.a (form text quoted in FC&S 'Farm Property - Farm Personal Property Coverage Form FP 00 13, Coverages E and F' (propertycasualty360.com, 2017)); FC&S 'Farm Property Covered Causes of Loss' (propertycasualty360.com, 2012) (FP 10 60 09 03)"
+ },
+ {
+  "id": "comm-cpb-36",
+  "topic": "cpp",
+  "sub": "Farm > Causes of Loss (Basic, Broad, Special)",
+  "q": "Under the Broad causes of loss in the 2003 ISO Causes of Loss Form – Farm Property, which livestock loss is covered?",
+  "choices": [
+   "A cow killed by a neighbor's dogs",
+   "Sheep killed by a neighbor's dogs",
+   "A hog killed by the insured's own dog",
+   "A piglet under 30 days old that drowns"
+  ],
+  "answer": 0,
+  "explain": "Broad adds attacks on livestock by dogs or wild animals, but not loss to sheep or loss caused by animals owned by the insured, its employees or others living on the insured location. Drowning is also a Broad peril, except for swine under 30 days old.",
+  "source": "ISO FP 10 60 09 03, C.16 and C.18 (form text quoted in FC&S 'Farm Property Covered Causes of Loss' (propertycasualty360.com, 2012)); same in ISO FP 00 10 09 94, B.2.p and B.2.r"
+ },
+ {
+  "id": "comm-cpb-37",
+  "topic": "cpp",
+  "sub": "Farm > Conditions",
+  "q": "Under an unendorsed ISO farm dwelling coverage form, a covered loss to household personal property under Coverage C is settled at:",
+  "choices": [
+   "Agreed value",
+   "Actual cash value",
+   "Replacement cost",
+   "Stated amount"
+  ],
+  "answer": 1,
+  "explain": "The Coverage C Loss Condition – Valuation settles household personal property at actual cash value at the time of loss, but not more than the amount needed to repair or replace it. Replacement cost on household personal property requires an endorsement.",
+  "source": "ISO FP 00 12 04 16, Cov. C Loss Condition – Valuation (form text quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. C 7; FC&S listing 'FP 04 36 04 16 Replacement Cost - Household Personal Property' (propertycasualty360.com, 2024)"
+ },
+ {
+  "id": "comm-cpb-38",
+  "topic": "cpp",
+  "sub": "Farm > Conditions",
+  "q": "To avoid a coinsurance penalty under the 2016 ISO Farm Personal Property Coverage Form, unscheduled farm personal property (Coverage F) must be insured for at least what percentage of its actual cash value?",
+  "choices": [
+   "50%",
+   "70%",
+   "80%",
+   "100%"
+  ],
+  "answer": 2,
+  "explain": "Coverage F's Coinsurance loss condition requires insurance of at least 80% of actual cash value at the time of loss. Otherwise the insurer pays the proportion that the limit carried bears to the limit required.",
+  "source": "ISO FP 00 13 04 16, Cov. F, B.2 (form text quoted in FC&S 'Farm Property - Farm Personal Property Coverage Form FP 00 13, Coverages E and F' (propertycasualty360.com, 2017)); same 80% in ISO FP 00 10 09 94, Cov. F 7.b"
+ },
+ {
+  "id": "comm-cpb-39",
+  "topic": "cpp",
+  "sub": "Farm > Exclusions",
+  "q": "The ISO farm causes of loss exclude flood, but flood loss is covered for:",
+  "choices": [
+   "Barns and other farm structures",
+   "Farm dwellings",
+   "Livestock",
+   "Household personal property"
+  ],
+  "answer": 2,
+  "explain": "The Water exclusion does not apply to flood loss to livestock or to farm machinery covered for the Special causes of loss, and the Basic causes of loss list flood loss to livestock as a covered peril. Buildings and household goods remain subject to the flood exclusion.",
+  "source": "ISO FP 10 60 09 03, B.14 and E.9 (form text quoted in FC&S 'Farm Property Covered Causes of Loss' (propertycasualty360.com, 2012)); ISO FP 00 10 09 94, B.1.n and C.8; ISO FP 00 40 02 09, A.3.m (quoted in FC&S 'Livestock Coverage' (propertycasualty360.com, 2016))"
+ },
+ {
+  "id": "comm-cpb-40",
+  "topic": "cpp",
+  "sub": "Farm > Exclusions",
+  "q": "Fire destroys a barn insured under an unendorsed ISO farm property policy, and a local ordinance requires the new barn to meet a stricter building code. The extra cost to comply with the ordinance is:",
+  "choices": [
+   "Covered under the Basic causes of loss",
+   "Not covered",
+   "Covered only under the Broad or Special causes of loss",
+   "Covered only if the barn is insured for replacement cost"
+  ],
+  "answer": 1,
+  "explain": "The farm causes of loss exclude loss from enforcement of any ordinance or law regulating construction or repair, at every level (Basic, Broad and Special). The Coverage G valuation condition also states that repair or replacement cost does not include costs to comply with such ordinances. Ordinance or law coverage for farm buildings other than dwellings is available by endorsement.",
+  "source": "ISO FP 10 60 09 03, E.1 (form text quoted in FC&S 'Farm Property Covered Causes of Loss' (propertycasualty360.com, 2012)); ISO FP 00 14 04 16, B.3 (quoted in FC&S 'Farm Property-Barns, Outbuildings, and Other Farm Structures Coverage Form, FP 00 14' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, C.1; FC&S 'Farm Property Endorsements Discussed' (propertycasualty360.com, 2024) (FP 04 05 Ordinance or Law Coverage)"
+ },
+ {
+  "id": "comm-cpb-41",
+  "topic": "cpp",
+  "sub": "Farm > Limits",
+  "q": "In the 2016 ISO farm dwelling coverage form, the special limit for money under Coverage C – Household Personal Property is:",
+  "choices": [
+   "$100",
+   "$200",
+   "$500",
+   "$1,000"
+  ],
+  "answer": 1,
+  "explain": "Coverage C has a $200 special limit on money, gold other than goldware, platinum other than platinumware, and silver other than silverware. Special limits are part of, not in addition to, the Coverage C limit.",
+  "source": "ISO FP 00 12 04 16, Cov. C, A.3.a (form text quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, Cov. C 3.a"
+ },
+ {
+  "id": "comm-cpb-42",
+  "topic": "cpp",
+  "sub": "Farm > Limits",
+  "q": "A 4-year-old dairy cow insured under Coverage F – Unscheduled Farm Personal Property is killed by lightning. Under the 2016 ISO Farm Personal Property Coverage Form, the most Coverage F pays for this one animal is:",
+  "choices": [
+   "$1,000",
+   "$2,000",
+   "$2,500",
+   "$5,000"
+  ],
+  "answer": 1,
+  "explain": "Coverage F's special limits are $1,000 on any horse, mule or head of cattle under one year old and $2,000 on any other head of livestock. A 4-year-old cow falls in the $2,000 class; the limits are part of the Coverage F limit.",
+  "source": "ISO FP 00 13 04 16, Cov. F, A.3 (form text quoted in FC&S 'Farm Property - Farm Personal Property Coverage Form FP 00 13, Coverages E and F' (propertycasualty360.com, 2017)); ISO FP 00 10 09 94, Cov. F 3"
+ },
+ {
+  "id": "comm-cpb-43",
+  "topic": "cpp",
+  "sub": "Farm > Additional Coverages",
+  "q": "The 2016 ISO farm dwelling coverage form's additional coverage for credit card, fund transfer card, forgery and counterfeit currency losses pays up to how much, unless a higher limit is shown in the Declarations?",
+  "choices": [
+   "$250",
+   "$500",
+   "$1,000",
+   "$2,500"
+  ],
+  "answer": 1,
+  "explain": "This additional coverage pays up to $500 unless a higher limit is indicated in the Declarations. The 1994 Farm Property Coverage Form also provided $500.",
+  "source": "ISO FP 00 12 04 16, Sec. III, B.1 (form text quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, D.2.b(1)"
+ },
+ {
+  "id": "comm-cpb-44",
+  "topic": "cpp",
+  "sub": "Farm > Additional Coverages",
+  "q": "The Removal of Fallen Trees additional coverage in the 2016 ISO farm dwelling coverage form pays at most:",
+  "choices": [
+   "$500 per loss",
+   "$500 per tree, up to $1,000 per loss",
+   "$1,000 per tree, up to $2,500 per loss",
+   "$1,000 per tree, up to $5,000 per loss"
+  ],
+  "answer": 1,
+  "explain": "The 2016 form pays up to $1,000 in any one loss for removing fallen trees, with no more than $500 for any one tree, as additional insurance. The 1994 Farm Property Coverage Form paid no more than $500 in total.",
+  "source": "ISO FP 00 12 04 16, Sec. III, A.3 (form text quoted in FC&S 'Farm Personal Exposures FP 00 12' (propertycasualty360.com, 2016)); ISO FP 00 10 09 94, D.2.a"
+ },
+ {
+  "id": "comm-cpb-45",
+  "topic": "cpp",
+  "sub": "Farm Liability > Coverage H - BI and PD Liability",
+  "q": "A farmer's cattle break through a fence and trample a neighbor's crops. The neighbor sues the farmer for the damage. Which farm coverage responds?",
+  "choices": [
+   "Coverage F – Unscheduled Farm Personal Property",
+   "Coverage H – Bodily Injury and Property Damage Liability",
+   "Coverage I – Personal and Advertising Injury Liability",
+   "Coverage J – Medical Payments"
+  ],
+  "answer": 1,
+  "explain": "Coverage H pays sums the insured is legally obligated to pay as damages because of bodily injury or property damage caused by an occurrence, and the insurer defends the suit. Coverage J pays only medical expenses for bodily injury, Coverage I applies to personal and advertising injury offenses, and Coverage F insures the farmer's own property.",
+  "source": "ISO FL 00 20 10 06, Sec. I, Cov. H 1.a, Cov. I 1.a, Cov. J 1.a (form text quoted in FC&S 'Farm Liability Coverage Form' (propertycasualty360.com, 2013)); ISO FP 00 13 04 16, Cov. F (quoted in FC&S 'Farm Property - Farm Personal Property Coverage Form FP 00 13, Coverages E and F' (propertycasualty360.com, 2017))"
+ },
+ {
+  "id": "comm-cpb-46",
+  "topic": "cpp",
+  "sub": "Farm Liability > Coverage H - BI and PD Liability",
+  "q": "Under the 2006 ISO Farm Liability Coverage Form, Coverage H applies to bodily injury or property damage that:",
+  "choices": [
+   "Is first claimed during the policy period, whenever it occurred",
+   "Is caused by an offense committed during the policy period",
+   "Is reported to the insurer within 3 years after the accident",
+   "Occurs during the policy period and is caused by an occurrence"
+  ],
+  "answer": 3,
+  "explain": "Coverage H is occurrence-based: the bodily injury or property damage must be caused by an occurrence and must occur during the policy period. The offense trigger belongs to Coverage I, and the 3-year period relates to Coverage J medical expenses.",
+  "source": "ISO FL 00 20 10 06, Cov. H 1.b, Cov. I 1.b, Cov. J 1.a (form text quoted in FC&S 'Farm Liability Coverage Form' (propertycasualty360.com, 2013))"
+ },
+ {
+  "id": "comm-cpb-47",
+  "topic": "cpp",
+  "sub": "Farm Liability > Coverage I - Personal and Advertising Injury",
+  "q": "A neighbor sues a farmer for slander. Which coverage of the Farm Liability Coverage Form is designed to respond?",
+  "choices": [
+   "Coverage H – Bodily Injury and Property Damage Liability",
+   "Coverage J – Medical Payments",
+   "Damage to Property of Others additional coverage",
+   "Coverage I – Personal and Advertising Injury Liability"
+  ],
+  "answer": 3,
+  "explain": "Coverage I pays damages because of \"personal injury\" or \"advertising injury.\" Personal injury includes oral or written publication of material that slanders or libels a person or organization, as well as false arrest, malicious prosecution, wrongful eviction and invasion of privacy.",
+  "source": "ISO FL 00 20 10 06, Cov. I 1.a and Sec. IV definition of \"personal injury\" (form text quoted in FC&S 'Farm Liability Coverage Form' (propertycasualty360.com, 2013))"
+ },
+ {
+  "id": "comm-cpb-48",
+  "topic": "cpp",
+  "sub": "Farm Liability > Coverage I - Personal and Advertising Injury",
+  "q": "Under the 2006 ISO Farm Liability Coverage Form, Coverage I applies to personal injury caused by an offense that:",
+  "choices": [
+   "Is committed during the policy period",
+   "Is first reported during the policy period",
+   "Arises out of civic or public activities performed for pay",
+   "Is committed knowing it violates another's rights"
+  ],
+  "answer": 0,
+  "explain": "Personal injury is covered only if caused by an offense committed during the policy period and arising out of personal activities or operations usual or incidental to farming. Offenses arising out of civic or public activities the insured performs for pay, or committed with knowledge that the act would violate another's rights, are excluded. Coverage I is not claims-made, so the date of first report is not the trigger.",
+  "source": "ISO FL 00 20 10 06, Cov. I 1.b, 2.a(1) and 2.b(2) (form text quoted in FC&S 'Farm Liability Coverage Form' (propertycasualty360.com, 2013))"
+ },
+ {
+  "id": "comm-oth-01",
+  "topic": "other",
+  "sub": "Specialty Liability > Errors and Omissions",
+  "q": "Errors and omissions insurance is generally designed to cover the insured's liability for:",
+  "choices": [
+   "Bodily injury to customers on the insured's premises",
+   "Damage to customers' property in the insured's care",
+   "Financial loss to clients caused by professional mistakes",
+   "Theft of the insured's money or securities by its employees"
+  ],
+  "answer": 2,
+  "explain": "E&O insurance protects the insured against liability for an error or omission in performing professional duties. It is generally designed to cover financial losses rather than bodily injury or property damage.",
+  "source": "IRMI glossary: errors and omissions insurance (E&O) (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-oth-02",
+  "topic": "other",
+  "sub": "Specialty Liability > Errors and Omissions",
+  "q": "A producer forgets to add a client's newly bought warehouse to the client's property policy. The warehouse burns, and the client sues the producer for the uninsured loss. Which coverage is designed for this claim?",
+  "choices": [
+   "Commercial general liability",
+   "Errors and omissions",
+   "Directors and officers liability",
+   "Employment practices liability"
+  ],
+  "answer": 1,
+  "explain": "The claim alleges a mistake in the producer's professional duties that caused the client a financial loss, which is what E&O insurance covers. A CGL policy covers bodily injury, property damage, and personal and advertising injury, not a client's financial loss from a professional mistake; D&O covers directors and officers for wrongful acts in those roles; EPLI covers employment-related claims such as wrongful termination.",
+  "source": "IRMI glossary: errors and omissions insurance (E&O); professional liability; employment practices liability insurance (irmi.com, retrieved 2026-10-13); ISO Commercial General Liability Coverage Form CG 00 01 04 13, Sec. I, Coverage A, 1.a"
+ },
+ {
+  "id": "comm-oth-03",
+  "topic": "other",
+  "sub": "Specialty Liability > Professional Liability",
+  "q": "Most professional liability policies are written on which coverage trigger?",
+  "choices": [
+   "Occurrence basis",
+   "Accident basis",
+   "Loss-sustained basis",
+   "Claims-made basis"
+  ],
+  "answer": 3,
+  "explain": "IRMI notes that the vast majority of professional liability policies use a claims-made trigger. A claims-made policy is triggered when a claim is made against the insured during the policy period, regardless of when the wrongful act took place.",
+  "source": "IRMI glossary: professional liability; claims-made policy; lawyers professional liability coverage (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-oth-04",
+  "topic": "other",
+  "sub": "Specialty Liability > Professional Liability",
+  "q": "Under most professional liability policies, the insurer's payment of defense costs:",
+  "choices": [
+   "Reduces the limit of insurance available for damages",
+   "Is paid in addition to the limit of insurance",
+   "Is covered only if the insured wins the suit",
+   "Is split equally between the insurer and the insured"
+  ],
+  "answer": 0,
+  "explain": "Most professional liability policies use a defense-within-limits (shrinking limits) provision: defense costs reduce the available limit. In a CGL policy, defense costs are supplementary payments that do not reduce the limits.",
+  "source": "IRMI glossary: professional liability; defense within limits; shrinking limits defense provision (irmi.com, retrieved 2026-10-13); ISO CG 00 01 04 13, Supplementary Payments - Coverages A and B"
+ },
+ {
+  "id": "comm-oth-05",
+  "topic": "other",
+  "sub": "Specialty Liability > Professional Liability",
+  "q": "A professional liability policy provision that requires the insurer to get the insured's approval before settling a claim is called a(n):",
+  "choices": [
+   "Assistance and cooperation clause",
+   "Other insurance clause",
+   "Consent to settlement clause",
+   "Subrogation clause"
+  ],
+  "answer": 2,
+  "explain": "The consent to settlement clause, also called the hammer clause, requires the insurer to seek the insured's approval before settling a claim for a specific amount. If the insured rejects the recommended settlement, the insurer is not liable for any additional amount needed to settle or for defense costs that accrue after its recommendation.",
+  "source": "IRMI glossary: consent to settlement clause (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-oth-06",
+  "topic": "other",
+  "sub": "Specialty Liability > Professional Liability",
+  "q": "A surgeon makes an error during an operation, and the patient is injured and sues the surgeon. Which coverage is designed for this claim?",
+  "choices": [
+   "Commercial general liability insurance",
+   "Directors and officers liability insurance",
+   "Workers' compensation insurance",
+   "Medical malpractice insurance"
+  ],
+  "answer": 3,
+  "explain": "Medical malpractice insurance, a form of professional liability, covers the acts, errors and omissions of physicians and surgeons. Physicians are an exception to the rule that professional liability covers only financial loss, and CGL policies are commonly endorsed to exclude professional services such as medical care.",
+  "source": "IRMI glossary: medical malpractice insurance; professional liability; professional services exclusion (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-oth-07",
+  "topic": "other",
+  "sub": "Surety Bonds > License and Permit Bonds",
+  "q": "A city will not issue a business license until the applicant posts a bond guaranteeing that it will comply with the city's ordinances. This bond is a:",
+  "choices": [
+   "Bid bond",
+   "Probate fiduciary bond",
+   "Construction performance bond",
+   "License and permit bond"
+  ],
+  "answer": 3,
+  "explain": "A license and permit bond is required by a municipality or other public body as a condition of granting a license or permit, and guarantees that the licensee will comply with applicable laws or regulations. Bid and performance bonds guarantee a contractor's obligations on a construction contract; a fiduciary bond guarantees a court-appointed fiduciary's faithful performance.",
+  "source": "IRMI glossary: license and permit bond; fiduciary bond; surety bond (irmi.com, retrieved 2026-10-13); FC&S, \"License and Permit Bonds\" (Feb. 2010, propertycasualty360.com)"
+ },
+ {
+  "id": "comm-oth-08",
+  "topic": "other",
+  "sub": "Surety Bonds > License and Permit Bonds",
+  "q": "On a license and permit bond, the obligee is the:",
+  "choices": [
+   "Government body that issues the license",
+   "Business that applies for the license",
+   "Surety company that issues the bond",
+   "Producer who arranges the bond for the applicant"
+  ],
+  "answer": 0,
+  "explain": "A license and permit bond guarantees to the governmental unit that requires it (the obligee) that the licensee (the principal) will comply with the regulations that apply to its activity. The surety is the party that gives the guarantee.",
+  "source": "FC&S, \"License and Permit Bonds\" (Feb. 2010, propertycasualty360.com); IRMI glossary: license and permit bond; surety bond (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-oth-09",
+  "topic": "other",
+  "sub": "Surety Bonds > Judicial Bonds",
+  "q": "Judicial bonds fall into which two general classes?",
+  "choices": [
+   "Bid bonds and payment bonds",
+   "Fiduciary bonds and litigation bonds",
+   "License bonds and permit bonds",
+   "Performance bonds and maintenance bonds"
+  ],
+  "answer": 1,
+  "explain": "Judicial bonds consist of two classes: fiduciary bonds, which guarantee that persons the court entrusts with others' property perform faithfully and account for it, and court (litigation) bonds, which guarantee payment of damages or costs if the bonded party's court action fails. Bid, performance and payment bonds guarantee a contractor's obligations on a construction contract.",
+  "source": "FC&S, \"Judicial Bonds\" (Aug. 2000, propertycasualty360.com); IRMI glossary: surety bond (irmi.com, retrieved 2026-10-13); FAR 48 CFR 28.001"
+ },
+ {
+  "id": "comm-oth-10",
+  "topic": "other",
+  "sub": "Surety Bonds > Judicial Bonds",
+  "q": "A defendant loses a lawsuit and wants to appeal to a higher court. Which bond guarantees payment of the judgment, interest and court costs if the higher court rules against the defendant?",
+  "choices": [
+   "Appeal bond",
+   "Attachment bond",
+   "Bail bond",
+   "Fiduciary bond"
+  ],
+  "answer": 0,
+  "explain": "An appeal bond posted by the losing party guarantees payment of the entire judgment plus interest and court costs if the higher court rules against it. An attachment bond protects a defendant whose property a plaintiff has attached; a bail bond guarantees that a criminal defendant appears in court.",
+  "source": "FC&S, \"Judicial Bonds\" (Aug. 2000, propertycasualty360.com), Appeal Bonds; Attachment Bonds; Bail Bonds"
+ },
+ {
+  "id": "comm-oth-11",
+  "topic": "other",
+  "sub": "Surety Bonds > Judicial Bonds",
+  "q": "Under Michigan's Estates and Protected Individuals Code, a bond that a court requires of a conservator is conditioned upon the conservator's:",
+  "choices": [
+   "Appearance at each scheduled court hearing",
+   "Compliance with all local business licensing ordinances",
+   "Faithful discharge of all duties of the trust",
+   "Payment of personal debts owed to creditors"
+  ],
+  "answer": 2,
+  "explain": "A conservator's bond is conditioned upon faithful discharge of all duties of the conservator's trust according to law, with sureties as the court specifies. It is a fiduciary bond, one of the two classes of judicial bonds.",
+  "source": "MCL 700.5410(2) (EPIC); FC&S, \"Judicial Bonds\" (Aug. 2000, propertycasualty360.com)"
+ },
+ {
+  "id": "comm-oth-12",
+  "topic": "other",
+  "sub": "Other Policies > Boatowners",
+  "q": "Under a boatowners policy, which coverage pays the damages an insured is legally entitled to recover from the owner or operator of an uninsured boat because of the insured's bodily injury?",
+  "choices": [
+   "Medical payments",
+   "Personal liability",
+   "Physical damage",
+   "Uninsured boaters"
+  ],
+  "answer": 3,
+  "explain": "Uninsured boaters coverage pays the compensatory damages an insured is legally entitled to recover from the owner or operator of an uninsured boat because of the insured's bodily injury. Personal liability pays sums the insured is legally liable to pay others; medical payments pays necessary medical expenses; physical damage covers the boat itself.",
+  "source": "AAIS Boatowners Policy BT 0100, Coverage Z - Uninsured Boaters, as quoted in FC&S, \"AAIS Boatowners Program\" (July 2008, propertycasualty360.com); IRMI glossary: boatowners policy (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-oth-13",
+  "topic": "other",
+  "sub": "Other Policies > Boatowners",
+  "q": "Ann has an HO-3 policy and buys a $25,000 fishing boat with an outboard motor. Under the 2011 ISO Homeowners forms, which provision is the main reason she needs a boatowners policy to insure the boat for its value?",
+  "choices": [
+   "Coverage C excludes watercraft and their motors",
+   "Coverage C limits watercraft and their motors to $1,500",
+   "Coverage C covers watercraft and their motors only for theft",
+   "Coverage A covers watercraft and their motors only on premises"
+  ],
+  "answer": 1,
+  "explain": "The 2011 HO-3 has a $1,500 special limit on watercraft of all types, including their trailers, furnishings, equipment and outboard engines or motors. It also covers them only for named perils: windstorm or hail loss is covered only while they are inside a fully enclosed building, and theft away from the residence premises is excluded. A boatowners policy fills this property gap.",
+  "source": "ISO HO 00 03 05 11, Sec. I, Coverage C Special Limits 3.c; Perils Insured Against (Coverage C) 2 and 9.b.(4)(b); IRMI glossary: boatowners policy (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-oth-14",
+  "topic": "other",
+  "sub": "Alternative Funding > Self-Insured",
+  "q": "A business's liability policy has a $1,000,000 limit and a $50,000 self-insured retention. A covered claim costs $150,000 in defense and damages. How is the claim paid?",
+  "choices": [
+   "The insurer pays all $150,000 and then bills the insured for $50,000",
+   "The insurer pays $100,000, and the claimant absorbs $50,000",
+   "The insured pays the first $50,000, and the insurer pays $100,000",
+   "The insured pays $150,000 and is later reimbursed $100,000"
+  ],
+  "answer": 2,
+  "explain": "Under a self-insured retention, the insured itself pays defense and indemnity costs until the retention is reached, and the insurer pays covered amounts after that. Paying the whole claim and then billing the insured is how a deductible works.",
+  "source": "IRMI glossary: self-insured retention (SIR) (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-oth-15",
+  "topic": "other",
+  "sub": "Alternative Funding > Self-Insured",
+  "q": "Under Michigan's no-fault law, a business that wants to qualify as a self-insurer for its registered motor vehicles must obtain a certificate of self-insurance from the:",
+  "choices": [
+   "Michigan Catastrophic Claims Association",
+   "Workers' Disability Compensation Agency",
+   "Director of Insurance and Financial Services",
+   "Michigan Automobile Insurance Placement Facility"
+  ],
+  "answer": 2,
+  "explain": "The certificate is issued by the commissioner, now the DIFS Director, at his or her discretion, if satisfied that the applicant has and will continue to have the ability to pay judgments against it. DIFS rules say the certificate is security equivalent to a no-fault insurance policy; the applicant must also carry excess insurance acceptable to the Director.",
+  "source": "MCL 500.3101d(1)-(2) (added by 2012 PA 204, eff. January 1, 2013); Mich. Admin. Code R 257.532(1)-(3) (eff. March 15, 2018); DIFS form FIS 2271 (04/25), Application for Self-Insurance Certificate"
+ },
+ {
+  "id": "comm-oth-16",
+  "topic": "other",
+  "sub": "Alternative Funding > Self-Insured",
+  "q": "What distinguishes self-insurance from noninsurance?",
+  "choices": [
+   "Self-insurance uses a formal plan to fund and pay losses",
+   "Self-insurance transfers the risk to another party",
+   "Self-insurance applies only to losses below a deductible",
+   "Self-insurance is used only for liability exposures"
+  ],
+  "answer": 0,
+  "explain": "Self-insurance is a formal decision to retain risk, set aside funds and pay losses from them; a formalized plan or system to pay losses distinguishes it from noninsurance and from retention through deductibles. Under noninsurance, uninsured losses are simply absorbed as a direct expense.",
+  "source": "IRMI glossary: self-insurance; noninsurance; retention (irmi.com, retrieved 2026-10-13)"
+ },
+ {
+  "id": "comm-oth-17",
+  "topic": "other",
+  "sub": "Alternative Funding > Self-Insured",
+  "q": "Under Michigan's no-fault law, a person may qualify as a self-insurer if more than how many motor vehicles are registered in that person's name?",
+  "choices": [
+   "10",
+   "25",
+   "50",
+   "100"
+  ],
+  "answer": 1,
+  "explain": "A person in whose name more than 25 motor vehicles are registered may qualify as a self-insurer by obtaining a certificate of self-insurance from the commissioner (DIFS Director). DIFS rules count vehicles registered in Michigan and exclude trailers.",
+  "source": "MCL 500.3101d(1) (added by 2012 PA 204, eff. January 1, 2013); Mich. Admin. Code R 257.532(2)(a) (eff. March 15, 2018)"
  }
 ]

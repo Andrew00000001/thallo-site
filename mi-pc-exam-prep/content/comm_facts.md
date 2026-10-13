@@ -197,6 +197,265 @@ Editions relied on (form text read directly unless noted): IL 00 17 11 98; CG 00
 - Broad causes of loss add for livestock: electrocution; attacks by dogs or wild animals (not sheep); accidental shooting; drowning from external causes; loading/unloading accidents. Basic includes earthquake and flood loss to livestock and collision. [ISO FP 00 10 09 94, Sec. B]
 - Farm Liability (FL 00 20): Coverage H = Bodily Injury and Property Damage Liability; Coverage I = Personal and Advertising Injury Liability; Coverage J = Medical Payments (expenses incurred or medically ascertained within 3 years of the accident). [FC&S "Farm Liability Coverage Form" (propertycasualty360.com, 2013)]
 
+## More outline topics
+
+### Components > Common Policy Declarations
+- The Common Policy Declarations shows the named insured, the mailing address, and the policy period ("from" and "to" dates, at 12:01 A.M. standard time at the named insured's mailing address). [ISO IL DS 00 09 08]
+- It also gives a business description and the insuring agreement: "In return for the payment of the premium, and subject to all the terms of this policy, we agree with you to provide the insurance as stated in this policy." [ISO IL DS 00 09 08]
+- It lists the coverage parts that make up the policy, such as commercial property, commercial general liability, crime and fidelity, commercial inland marine, commercial automobile, farm and equipment breakdown. It shows a premium for each part that applies, plus the total premium, and states that "this premium may be subject to adjustment." [ISO IL DS 00 09 08]
+- It also lists the forms that apply to all coverage parts and has a countersignature line. [ISO IL DS 00 09 08]
+- Each coverage part also has its own declarations page. The CGL declarations, for example, show the limits of insurance, any retroactive date (claims-made form only), the form of business (individual, partnership, joint venture, trust, LLC, organization), the premises, and the classifications and premium. That page states: "These declarations, together with the Common Policy Conditions and coverage form(s) and any endorsement(s), complete the above numbered policy." [ISO CG DS 01 10 01]
+- In general, declarations are the front page(s) of a policy that give the named insured, address, policy period, premises location, limits and other information that varies from insured to insured. [IRMI glossary "declarations"]
+
+### CGL > Pollution Liability Coverage Extension
+- This optional CGL endorsement is used with the occurrence and claims-made CGL coverage forms. It is one of several "buy-back" endorsements for parts of the pollution exclusion, and each requires an additional premium. [Rough Notes PF&M 270.4-3; 270.6-3]
+- Its entire operative text: "Paragraph (1.) of Exclusion f. of COVERAGE A (Section I) does not apply." [ISO CG 04 22 11 85]
+- Effect: paragraph f.(1) no longer excludes bodily injury or property damage from the discharge, release or escape of pollutants. Paragraph f.(1) is the part that covers owned, rented or occupied premises, waste sites, waste handled or disposed of, job sites where pollutants are brought in, and pollution clean-up operations. [ISO CG 04 22 11 85; ISO CG 00 01 04 13, Excl. f.(1)(a)-(e)]
+- Paragraph f.(2) still applies. It excludes any loss, cost or expense from a request, demand, order or statutory or regulatory requirement to test for, monitor, clean up, remove, contain, treat, detoxify, neutralize or otherwise respond to pollutants. It also excludes a governmental suit for those costs. So clean-up costs remain excluded. (In the 2013 CGL, f.(2) does not apply to property damage liability the insured would have even without the order, requirement or governmental suit.) [ISO CG 00 01 04 13, Excl. f.(2); Rough Notes PF&M 270.6-3 ("does not cover cleanup costs")]
+- f.(2) has excluded clean-up costs since the 1985 pollution exclusion. [IRMI, "The CGL Pollution Exclusion"]
+- Rough Notes says the endorsement is not used very often because the coverage is so broad; only a few insurers write pollution liability coverage, and they use separate coverage forms or policies. [Rough Notes PF&M 270.6-3]
+- Narrower buy-backs exist, such as the limited exceptions for a short-term pollution event, which must begin during the policy period, be definite in time and place, end within 48 hours after it began, and not originate in an underground storage tank. [Rough Notes PF&M 270.6-3]
+- Edition note: the endorsement text above is the 11 85 edition; no later edition was reviewed, so practice questions name the 1985 edition. [ISO CG 04 22 11 85]
+
+### CP Endorsements > Value Reporting Form
+- This endorsement modifies the Building and Personal Property Coverage Form, the Condominium Commercial Unit-Owners Coverage Form and the Standard Property Policy. [ISO CP 13 10 04 02]
+- It suits an insured with fluctuating values, such as inventory. The limit is set for the highest expected values, but the premium is based on the values actually reported. [IRMI glossary "reporting form coverage" (synonym: value reporting form)]
+- In the Declarations, a reporting-period symbol replaces the coinsurance percentage: DR (daily), WR (weekly), MR (monthly), QR (quarterly) or PR (policy year). [ISO CP 13 10 04 02, preamble; D.4]
+- It extends covered property to personal property at "reported", "acquired" and "incidental" locations. Incidental locations are unlisted locations with values of $25,000 or less. Property at fairs or exhibitions is not covered. [ISO CP 13 10 04 02, A.1-2; D.1-3]
+- Reports are due within 30 days after the end of each reporting period and at expiration. On a new reporting-form policy (DR, WR or MR, or QR with a March, June, September or December inception), the first report is due within 60 days after the end of the first reporting period. [ISO CP 13 10 04 02, B.1.b-c]
+- Inaccurate reports cannot be corrected after a loss. [ISO CP 13 10 04 02, B.1.e]
+- The Full Reporting clause replaces coinsurance. If the last report before a loss showed less than full value at that location, the insurer pays no more than values reported ÷ actual values on the report dates, applied before the deductible. The form's example: $90,000 ÷ $120,000 = .75; .75 × $60,000 loss = $45,000; minus the $250 deductible = $44,750. [ISO CP 13 10 04 02, B.2]
+- If the first required report was never filed, the insurer pays no more than 75% of what it otherwise would have paid, and only for locations shown in the Declarations. If a later report is missing, it pays no more than the values last reported for the location, and only for locations in the last report filed. [ISO CP 13 10 04 02, B.4]
+- If reported values exceed the limit, the final premium is based on all values reported (less any specific insurance), but loss payment is capped at the limit. [ISO CP 13 10 04 02, B.3]
+- Other insurance on the same property that is not on the same terms ("specific insurance") must be included in the reports. This form pays only the part of a loss above the amount due from the specific insurance plus its deductible. [ISO CP 13 10 04 02, B.5; D.5]
+- The premium charged at inception of each policy year is an advance premium. The final premium is figured after the year from the average of the reports, and the insurer then bills more or returns the excess. [ISO CP 13 10 04 02, C.]
+
+### Crime Coverages > Forgery or Alteration
+- Covers loss from forgery or alteration of checks, drafts, promissory notes or similar written promises, orders or directions to pay a sum certain in money. The instrument must be made or drawn by or drawn upon the insured, or made or drawn by its agent, or purport to be. A substitute check under the Check 21 Act counts as the original. [ISO CR 00 21 11 15, A.2.a]
+- In other words, it protects the insured's own outgoing instruments: checks and drafts drawn against the insured's bank account. [IRMI glossary "forgery or alteration coverage"]
+- "Forgery" = signing the name of another person or organization with intent to deceive. It does not include signing one's own name, with or without authority. [ISO CR 00 21 11 15, F.11]
+- Legal expenses: if the insured is sued for refusing to pay a covered instrument because it was forged or altered, and has the insurer's written consent to defend, reasonable legal expenses are paid in addition to the limit. The deductible does not apply to them. [ISO CR 00 21 11 15, A.2.b; E.3.a]
+- Signatures produced electronically or mechanically are treated the same as handwritten ones. The proof of loss must include the instrument, or an affidavit if that is not possible. [ISO CR 00 21 11 15, E.3.b-c]
+- Covers occurrences anywhere in the world. [ISO CR 00 21 11 15, E.3.d]
+- Forgery by an employee falls under Employee Theft ("theft" there includes forgery). Employee dishonesty is excluded from the other insuring agreements. [ISO CR 00 21 11 15, A.1; D.1.c]
+- Counterfeit currency is a separate coverage, Money Orders and Counterfeit Money. [ISO CR 00 21 11 15, A.7]
+
+### Crime Coverages > Computer Fraud
+- Edition note: before ISO's 2013 crime program revision, Computer Fraud and Funds Transfer Fraud were separate insuring agreements, which is how the PSI outline lists them. The 2013 revision combined them, and the 2015 edition has one insuring agreement, "Computer And Funds Transfer Fraud": paragraph 6.a.(1) is computer fraud and 6.a.(2) is funds transfer fraud. [FC&S, "Commercial Crime Policy" (PropertyCasualty360, 2018: funds transfer fraud "is no longer a separate insuring agreement"); ISO CR 00 21 11 15, A.6]
+- Computer fraud covers a fraudulent entry or change of electronic data or a computer program in a computer system the insured owns, leases or operates. The fraud must cause money, securities or other property to be transferred, paid or delivered, or the insured's account at a financial institution to be debited or deleted. [ISO CR 00 21 11 15, A.6.a.(1)]
+- Also covered: such an entry or change made by an employee acting in good faith on a fraudulent instruction from the insured's computer software contractor, if the contractor has a written agreement with the insured. [ISO CR 00 21 11 15, A.6.b]
+- Not covered under A.6:
+  - entries by someone with authorized access to the system (except under A.6.b);
+  - credit, debit, charge or other card transactions;
+  - exchanges or purchases;
+  - an employee or financial institution acting on a fraudulent instruction (except under A.6.a.(2) or A.6.b). [ISO CR 00 21 11 15, D.4.a-d]
+- Insider fraud by an employee is handled under Employee Theft. [ISO CR 00 21 11 15, A.1; D.4.a]
+- Special limit: $5,000 per occurrence for manuscripts, drawings or records. Covers occurrences anywhere in the world. [ISO CR 00 21 11 15, E.5.a-b]
+
+### Crime Coverages > Funds Transfer Fraud
+- Covers loss from a "fraudulent instruction" directing a financial institution to debit the insured's "transfer account" and transfer, pay or deliver money or securities from it. [ISO CR 00 21 11 15, A.6.a.(2)]
+- A fraudulent instruction can be:
+  - an electronic, fax or telephone instruction that purports to come from the insured but was fraudulently issued by someone else without the insured's knowledge or consent; or
+  - a written instruction (not one covered by Forgery or Alteration) directing an electronic funds transfer, issued, forged or altered by someone else without the insured's knowledge or consent. [ISO CR 00 21 11 15, F.12.a]
+- "Transfer account" = an account at a financial institution from which the insured can start transfers by electronic, fax or telephone instructions, or by written instructions that set the conditions for electronic funds transfers. [ISO CR 00 21 11 15, F.24]
+- For this coverage, "financial institution" includes banks, savings and loans, trust companies, credit unions, insurance companies, and stock brokerage or investment firms. "Money" includes deposits in the insured's account. [ISO CR 00 21 11 15, F.9.b; F.16.c.(2)]
+- Not covered: an employee who is tricked into sending money, for example by a fake supplier email. That falls under the Fraudulent Instructions exclusion. [ISO CR 00 21 11 15, D.4.d]
+
+### CP Endorsements > Spoilage
+- Covered property is "perishable stock" at the described premises, owned by the insured or by others in its care: personal property kept under controlled conditions and susceptible to loss if those conditions change. [ISO CP 04 40 06 07, A.; J.]
+- Exclusions:
+  - disconnecting refrigerating, cooling or humidity control equipment from its power source;
+  - turning off power with a switch or other device;
+  - a utility's inability to supply enough power because of lack of fuel or governmental order;
+  - an on-premises power source's lack of generating capacity to meet demand;
+  - breakage of glass that is part of the refrigerating unit. [ISO CP 04 40 06 07, F.2.a-e]
+- Only these Causes of Loss form exclusions apply: Earth Movement, Governmental Action, Nuclear Hazard, War and Military Action, and Water. [ISO CP 04 40 06 07, F.1]
+- If Breakdown or Contamination is covered and a refrigeration maintenance agreement is shown, the insured must keep a maintenance or service agreement. If the insured voluntarily ends it without notifying the insurer, coverage is automatically suspended at that location. [ISO CP 04 40 06 07, H.]
+- The endorsement's own deductible applies; no other policy deductible applies to spoilage. [ISO CP 04 40 06 07, G.]
+
+### CP Coverage Forms > Condominium Association
+- Building includes, regardless of ownership, fixtures, improvements, alterations and appliances inside units, if the Condominium Association Agreement requires the association to insure them. Otherwise, Building does not include personal property owned by, used by or in the care, custody or control of a unit-owner. [ISO CP 00 17 10 12, A.1.a.(6)]
+- Your Business Personal Property includes property owned indivisibly by all unit-owners, but not property owned only by a unit-owner. [ISO CP 00 17 10 12, A.1.b]
+- The insurer waives its rights to recover payment from unit-owners. If the association names an insurance trustee, losses are adjusted with the association but paid to the trustee. [ISO CP 00 17 10 12, E.9; E.4.g]
+
+### Crime Coverages > Employee Theft
+- "Employee" includes, among others:
+  - a person in the insured's service, and for 30 days after termination unless terminated for theft or dishonesty;
+  - temporary workers substituting for employees on leave or meeting seasonal or short-term needs;
+  - workers leased under a written agreement with a labor leasing firm.
+  It does not include agents, brokers, independent contractors or similar representatives. [ISO CR 00 21 11 15, F.7.a-b]
+- Covers employees temporarily outside the coverage territory for up to 90 consecutive days. [ISO CR 00 21 11 15, E.2.b]
+
+### Crime Coverages > Inside the Premises - Robbery or Safe Burglary of Other Property / Outside the Premises
+- "Custodian" = the insured, a partner or member, or an employee while having care and custody of property inside the premises. It does not include a watchperson or janitor. "Messenger" = the insured, a relative, a partner or member, or an employee while having care and custody of property outside the premises. [ISO CR 00 21 11 15, F.4; F.15]
+- Inside the Premises – Robbery or Safe Burglary also pays for damage to the premises or its exterior, if the insured owns them or is liable for the damage, and for damage to a locked safe or vault inside the premises, from an actual or attempted robbery or safe burglary. [ISO CR 00 21 11 15, A.4.b-c]
+- Under both agreements, the insurer pays only $5,000 per occurrence for precious metals, stones, pearls, furs and articles made of them, and for manuscripts, drawings or records. [ISO CR 00 21 11 15, E.4.b]
+- Under Outside the Premises, losses in an armored car company's custody are paid only to the extent not recoverable under the insured's contract with that company or from its insurance. [ISO CR 00 21 11 15, E.4.a]
+
+Edition note. Inland marine and farm form wording below comes from ISO form text quoted, with ISO's permission, in FC&S (propertycasualty360.com) analyses of these editions: CM 00 20 01 13, CM 00 22 03 10, CM 00 28 01 13, CM 00 59 01 13, CM 00 67 01 13, IH 00 68 12 13, IH 00 75 09 09, IH 00 85 12 20, FP 00 12 04 16, FP 00 13 04 16, FP 00 14 04 16, FP 10 60 09 03, FP 00 30 01 98, FP 00 40 02 09 and FL 00 20 10 06. The 1994 combined Farm Property Coverage Form (FP 00 10 09 94) was read directly. Transportation class descriptions come from Verisk's 2022 program sheets. In 2017 FC&S listed the 04 16 farm editions (FP 00 12, 00 13, 00 14, 00 30, 00 40, 00 90, 10 60; FL 00 20) as current. ISO has since filed a Farm 2024 multistate forms revision (filing FR-2024-OFR24; its declarations and endorsements carry edition 06 25) and announced implementation in Pennsylvania for policies written on or after October 1, 2025; none of the circulars reviewed announced implementation in Michigan. The revised coverage-form text was not available, so dollar amounts below name their edition. [FC&S 'Farm Coverage Program' (2017); FC&S Circular Trackers 11/20/2024, 12/27/2024, 6/25/2025 (LI-FR-2024-011, LI-FR-2024-061, LI-FR-2025-065)]
+
+### IM Coverage Forms > Bailee's Customer
+- A bailee holds others' property for storage, repair or servicing; bailee coverage is typically bought by dry cleaners, jewelers, repairers and furriers. [IRMI glossary "bailee coverage"]
+- Bailees usually insure customers' goods against all loss, not merely their own legal liability, as a matter of customer goodwill; it is a nonfiled inland marine class. [FC&S "Bailee's Customers Insurance" (2012); Verisk Commercial Inland Marine program sheet (2022)]
+- ISO's form (IH 00 85, 12 20 edition) covers "personal property of others that is in your care, custody or control" on an open perils basis (direct physical loss except listed exclusions). It covers direct physical loss only, not loss of use or other consequential loss. [ISO IH 00 85 12 20, A.1, A.3, B.2.b (FC&S 2023)]
+- Property not covered includes money, securities and records; animals; licensed road vehicles; aircraft and watercraft; furs and fur-trimmed garments; jewelry, watches, precious stones and metals; property in the custody of other bailees (unless at a described premises or with a carrier for hire); property shipped by mail; and (new in 12 20) data and media. [ISO IH 00 85 12 20, A.2 (FC&S 2023)]
+- Key exclusions: processing or work upon the property (resulting fire or explosion is covered), unexplained disappearance, inventory shortage, and theft from an unattended vehicle unless it was locked with visible forced entry. [ISO IH 00 85 12 20, B.2 (FC&S 2023)]
+- Additional coverages include Misidentification of Property (also in the 12 13 edition). The 12 20 edition added False Pretense ($25,000 per occurrence unless the Declarations show otherwise) and two Rewards coverages ($10,000 each per occurrence). [ISO IH 00 85 12 20, A.4.a, A.4.c-d (FC&S 2023); ISO IH 00 85 12 13, A.4.a (FC&S 2018)]
+- Coverage territory: the United States (including territories and possessions), Puerto Rico and Canada. [ISO IH 00 85 12 20, Additional Conditions 2.a (FC&S 2023)]
+
+### IM Coverage Forms > Commercial Articles
+- Covers professional or commercial use of cameras, projection machines, films and related equipment; musical instruments and related equipment; and similar property of others in the insured's care, custody or control. Users include photography studios, film producers, professional musicians, boards of education and municipalities. [ISO CM 00 20 01 13, A.1 (FC&S 2014)]
+- Open perils: direct physical loss except listed exclusions (for example, consequential loss, dishonest acts of the insured or its employees, and theft by anyone the property is entrusted to other than carriers for hire). [ISO CM 00 20 01 13, A.3, B.2 (FC&S 2014)]
+- Items are normally scheduled with a limit for each; blanket coverage is available. If a coinsurance percentage is shown, it applies to covered items not individually listed. [ISO CM 00 20 01 13, E.2 (FC&S 2014)]
+- Coverage territory: "We cover property wherever located." [ISO CM 00 20 01 13, E.1 (FC&S 2014)]
+- Newly acquired property of a type already covered is covered for up to 30 days, for the lesser of 25% of the limit for that type of property or $10,000. [ISO CM 00 20 01 13, Additional Acquired Property (FC&S 2014)]
+- Dealers' stock goes on the separate Camera and Musical Instrument Dealers Coverage Form (CM 00 21). [FC&S listing "CM 00 21 01 13" (2014); Verisk Commercial Inland Marine program sheet (2022)]
+
+### IM Coverage Forms > Contractors Equipment Floater
+- A nonfiled inland marine class. ISO's Contractors Equipment Coverage Form (IH 00 68, 12 13 edition) covers the insured's contractor's equipment described in the Declarations and similar property of others in its care, custody or control. Examples are cranes, backhoes, trenchers, pavers, rollers, scaffolds and power tools. [ISO IH 00 68 12 13, A.1 (FC&S 2018); Verisk Commercial Inland Marine program sheet (2022)]
+- Each item is scheduled with its own limit; miscellaneous items can be covered on a blanket basis by endorsement. [FC&S "Contractors Equipment Coverage Form" (2018)]
+- Not covered: autos, trucks and trailers licensed for public roads; aircraft and watercraft; plans and blueprints; property while waterborne (except on ferries) or underground or under water; property the insured loans, leases or rents to others; and employees' tools and clothing. [ISO IH 00 68 12 13, A.2 (FC&S 2018)]
+- Open perils; newly acquired equipment is covered for 60 days for the lesser of 25% of the scheduled total or $50,000. [ISO IH 00 68 12 13, A.3, A.4.a (FC&S 2018)]
+
+### IM Coverage Forms > Electronic Data Processing
+- EDP ("computer systems") coverage is a nonfiled inland marine class. ISO's Computer Systems Coverage Form (IH 00 75, 09 09 edition) covers "computer equipment," "data" and "media" the insured owns, plus similar property of others in its care, custody or control. [Verisk Commercial Inland Marine program sheet (2022); ISO IH 00 75 09 09, A.1 (FC&S 2018)]
+- Covered causes are risks of direct physical loss (open perils) except listed exclusions. [ISO IH 00 75 09 09, A.3 (FC&S 2018)]
+- Not covered in that edition: property leased or rented to others while away from the described premises; accounts, bills, valuable papers and records unless converted to data; portable personal computers such as laptops; and stock in trade. [ISO IH 00 75 09 09, A.2 (FC&S 2018)]
+- Additional coverages include newly acquired premises (60 days; lesser of 25% of scheduled items or $100,000) and virus or harmful code ($5,000 per policy year unless a higher limit is shown). [ISO IH 00 75 09 09, A.4.a, A.4.e (FC&S 2018)]
+- Valuable papers and records coverage does not fill this gap: its definition excludes converted data, programs and instructions used in data processing and the media on which data is recorded. [ISO CM 00 67 01 13, Definitions 1 (FC&S 2015)]
+
+### IM Coverage Forms > Equipment Dealers
+- A filed ISO class. The Equipment Dealers Coverage Form (CM 00 22) covers dealers in agricultural implements and contractors' equipment. Covered property is the dealer's stock in trade, consisting principally of mobile agricultural and construction equipment, and similar property of others in its care, custody or control. [Verisk Commercial Inland Marine program sheet (2022); ISO CM 00 22 03 10, A.1 (FC&S 2013)]
+- Open perils; may be written on a reporting or nonreporting basis. [ISO CM 00 22 03 10, A.3 (FC&S 2013)]
+- Not covered: autos, motor trucks, motorcycles, aircraft and watercraft; accounts, money and securities; property in the course of manufacture; property leased, rented or sold (including on a deferred payment agreement) after it leaves the dealer's custody; furniture, fixtures, improvements, machinery, tools, patterns and dies (can be added by the Additionally Covered Property endorsement); and property of others described in the Declarations. [ISO CM 00 22 03 10, A.2 (FC&S 2013)]
+- An 80% coinsurance clause applies (or value reporting when written on a reporting basis). [FC&S "Equipment Dealers Coverage" (2013)]
+- The farm program's Mobile Agricultural Machinery and Equipment Coverage Form, which can insure a farmer's own mobile machinery, is not designed for equipment dealers; dealers in agricultural implements use the Equipment Dealers form. [FC&S "Mobile Agricultural Machinery and Equipment" archive (2012)]
+
+### IM Coverage Forms > Installation Floater
+- An installation floater is inland marine coverage on property (usually equipment) being installed by a contractor. It is essentially a specialized type of builders risk coverage, often written on the same form. [IRMI glossary "installation floater"]
+- Installation is a nonfiled inland marine class. [Verisk Commercial Inland Marine program sheet (2022)]
+- Contrast: a contractors equipment floater covers the contractor's own machinery and tools, not materials or equipment it is installing. [ISO IH 00 68 12 13, A.1 (FC&S 2018)]
+
+### IM Coverage Forms > Jewelers Block
+- Jewelers block insurance covers jewelry that is the stock of jewelry retailers, wholesalers, manufacturers and pawnbrokers. [IRMI glossary "jewelers block insurance"]
+- ISO's filed Jewelers Block Coverage Form (CM 00 59, 01 13 edition) is for the retail jewelry trade. ISO's manual makes retailers with average inventories of $250,000 or more, wholesalers, manufacturers and pawnbrokers ineligible for it. [FC&S "Jewelers Block Coverage Form" (2014)]
+- Covered property: stock in trade (jewelry, precious and semiprecious stones, precious metals and other stock), property sold but not yet delivered, and similar property of others in the insured's care, custody or control. For others in the jewelry trade, coverage is limited to money advanced or the insured's legal liability. Open perils. [ISO CM 00 59 01 13, A.1, A.3 (FC&S 2014)]
+- Not covered: property sold on a deferred payment agreement after it leaves the premises; property at exhibitions or in showcases away from the premises; property while being worn by the insured or by any officer, director, employee, agent, member or messenger of the insured or of another jewelry-trade business, or by their family or friends (watches worn solely for adjustment are an exception); mail shipments other than registered mail; and shipments by express, rail, water, air or motor carriers, except armored car, merchant's parcel delivery and passenger parcel or baggage services. [ISO CM 00 59 01 13, A.2 (FC&S 2014)]
+- Optional coverages: show windows (smash-and-grab theft) and money in locked safes or vaults. Coverage territory is the United States, Puerto Rico and Canada. [ISO CM 00 59 01 13, A.6, Additional Conditions (FC&S 2014)]
+
+### IM Coverage Forms > Signs
+- A filed ISO class. Under ISO's manual, the Signs Coverage Form (CM 00 28, 01 13 edition) is only for neon, fluorescent, automatic or mechanical electric signs and lamps. Billboards and ordinary fixed signs are ineligible, even if lit by electric lights. [FC&S "Signs Coverage Form" (2015); Verisk Commercial Inland Marine program sheet (2022)]
+- Covered property: the insured's signs and similar property of others in its care, custody or control. Open perils. [ISO CM 00 28 01 13, A.1, A.3 (FC&S 2015)]
+- Excludes breakage during transportation, installation, repairing or dismantling, except breakage caused directly by fire, lightning or an accident to the carrying vehicle. Also excludes wear and tear and mechanical breakdown, and damage from artificially generated electrical or electromagnetic energy (resulting fire is covered). [ISO CM 00 28 01 13, B.2-3 (FC&S 2015)]
+- Coverage territory: the United States, Puerto Rico and Canada; a coinsurance clause applies if a percentage is shown in the Declarations. [ISO CM 00 28 01 13, Additional Conditions (FC&S 2015)]
+
+### IM Coverage Forms > Valuable Papers and Records
+- Pays the cost to research, replace or restore valuable papers and records. The Building and Personal Property form gives only limited coverage: up to $2,500 per described premises to restore lost information, and with the Special causes of loss only for the specified causes of loss and collapse. The separate inland marine form is open perils and is written for any limit. [IRMI glossary "valuable papers and records coverage"; ISO CP 00 10 10 12, A.5.c; FC&S "Valuable Papers and Records Coverage Form" (2015)]
+- "Valuable papers and records" means inscribed, printed or written documents, manuscripts or records, including abstracts, books, deeds, drawings, films, maps or mortgages. It excludes money, securities, and converted data, programs and instructions used in data processing, including the media they are recorded on. [ISO CM 00 67 01 13, Definitions 1 (FC&S 2015)]
+- Covers the insured's property and property of others in its care, custody or control. Property that cannot be replaced with like kind and quality is not covered unless it is specifically declared and described in the Declarations; for such items, the limit shown is the value. [ISO CM 00 67 01 13, A.1-2, Additional Conditions 1 (FC&S 2015)]
+- Not covered: samples or property held for delivery after sale, and property in storage away from the described premises. Coverage extensions: removal to a safe place because of imminent danger (written notice within 10 days), and property away from the premises up to $5,000 as additional insurance. [ISO CM 00 67 01 13, A.2, A.5 (FC&S 2015)]
+- Exclusions include errors or omissions in processing or copying, and electrical or magnetic injury or erasure of electronic recordings (lightning damage is covered). When the insured is closed, papers must be kept in the receptacles described in the Declarations. [ISO CM 00 67 01 13, B.2, Additional Conditions (FC&S 2015)]
+
+### Transportation Coverages > Motor Truck Cargo Forms
+- Motor truck cargo carriers coverage: legal liability coverage for a common or contract carrier shipping property of others. [Verisk transportation program sheet (VKUS22142, 2022)]
+- Motor truck cargo owners coverage: first-party coverage for a business's own property shipped on its own vehicles. [Verisk transportation program sheet (2022)]
+- Contingent cargo coverage: protects a transportation broker, on a contingent basis, for property it arranges to ship for which the carrier for hire is liable. [Verisk transportation program sheet (2022)]
+- A trucker may be liable for cargo as a common carrier under a bill of lading and DOT requirements, or as a contract carrier under its contract with the shipper. [FC&S "Motor Truck Cargo - AAIS" (2015)]
+- Motor truck cargo is an inland marine form covering property in transit, either by common carrier or on the insured's own vehicles, depending on the form used. [IRMI glossary "motor truck cargo"]
+
+### Transportation Coverages > Transit Coverage Forms
+- Annual transit coverage: first-party coverage for property a business ships by carriers for hire or on its own vehicles, covering shipments throughout the policy term. [Verisk transportation program sheet (2022); IRMI glossary "trip transit insurance"]
+- Trip transit coverage: first-party coverage for a single, specific shipment. [Verisk transportation program sheet (2022); IRMI glossary "trip transit insurance"]
+- Annual transit and trip transit are nonfiled ISO inland marine classes. [Verisk Commercial Inland Marine program sheet (2022)]
+
+### Farm Property > Coverage A - Dwellings
+- Since ISO split the 1994 combined form into separate forms (1998), the farm dwelling coverages (A Dwellings, B Other Private Structures, C Household Personal Property, D Loss of Use) are in the Farm Dwellings, Appurtenant Structures and Household Personal Property Coverage Form (FP 00 12; 04 16 edition). The coverages are modeled on the homeowners forms. [FC&S "Farm Coverage Program" (2017); FC&S "Farm Personal Exposures FP 00 12" (2016); FC&S "Mobile Agricultural Machinery and Equipment" archive (2012)]
+- Covered: each "dwelling" owned by the named insured with a limit shown in the Declarations, on or away from the insured location, with no limit on the number of dwellings. Also covered: attached structures (not those attached only by a fence or utility line), materials on the insured location for building, altering or repairing the dwelling, and equipment used to service the dwelling and grounds. [ISO FP 00 12 04 16, Cov. A, A.1 (FC&S 2016); FP 00 10 09 94, Cov. A 1]
+- Not covered: land, water, and trees, shrubs, plants or lawns (except under the coverage extension). [ISO FP 00 12 04 16, Cov. A, A.2 (FC&S 2016)]
+- Valuation: if the limit is at least 80% of full replacement cost, losses are paid at replacement cost (smallest of cost to replace, amount actually spent, or the limit). Below 80%, the insurer pays the larger of ACV or limit ÷ (80% of replacement cost) × replacement cost. If the cost of repair or replacement is more than either $5,000 or 5% of the limit, the 2016 form pays only actual cash value until repair or replacement is complete (2003 form: $2,500; 1994 form: $1,000). Intent to claim replacement cost must be given within 180 days. Code-upgrade costs are not paid. [ISO FP 00 12 04 16, Cov. A, B.1 (FC&S 2016); FP 00 10 09 94, Cov. A 7.a]
+
+### Farm Property > Coverage C - Household Personal Property
+- Covers household personal property owned or used by the named insured or resident family members on the insured location. After a loss and at the insured's request, it also covers others' household property in the part of the dwelling the insured occupies, or on grounds the insured owns. [ISO FP 00 12 04 16, Cov. C, A.1 (FC&S 2016); FP 00 10 09 94, Cov. C 1]
+- Covers "household" property only (narrower than homeowners Coverage C). Not covered: separately insured articles; aircraft (hobby models excepted); animals, birds or fish; business property (except the special limits); farm personal property other than office fixtures, furniture and equipment; most motor vehicles; credit cards; and (2016) "agritainment property". [ISO FP 00 12 04 16, Cov. C, A.2 (FC&S 2016)]
+- Household property away from the insured location is covered anywhere in the world, but property at another residence is limited to 10% of Coverage C or $1,000, whichever is greater. [ISO FP 00 12 04 16, Sec. II (FC&S 2016); FP 00 10 09 94, Coverage Extension c.(1)]
+- Valuation: actual cash value, not more than the cost to repair or replace. [ISO FP 00 12 04 16, Cov. C Loss Condition – Valuation (FC&S 2016)]
+
+### Farm Property > Coverage G - Other Farm Structures
+- In the 2016 program, Coverage G is on the Barns, Outbuildings and Other Farm Structures Coverage Form (FP 00 14; 04 16 edition). It applies only to property for which a limit is shown, and each structure must be designated RC or ACV in the Declarations. [FC&S "Farm Property-Barns, Outbuildings, and Other Farm Structures Coverage Form, FP 00 14" (2016)]
+- Covered: farm buildings and structures other than dwellings (including attached sheds and permanent fixtures); silos described in the Declarations or a schedule; portable buildings; fences (except field and pasture fences), corrals, pens, chutes and feed racks; outdoor radio and TV equipment and towers; tenant's improvements and betterments; and building materials on or next to the insured location. [ISO FP 00 14 04 16, A.1 (FC&S 2016); FP 00 10 09 94, Cov. G 1]
+- Not covered: land, water, field or pasture fences, below-ground foundations, pilings, piers, wharves or docks, excavation and grading costs, and (2016) private power and light poles except under the coverage extension. [ISO FP 00 14 04 16, A.2 (FC&S 2016)]
+- Valuation: actual cash value unless the Replacement Cost Basis option is shown in the Declarations; then the 80% replacement cost rule applies. Fences, corrals, pens, chutes and feed racks, and blanket portable buildings, are paid in the proportion the limit bears to their total value (in effect 100% coinsurance). [ISO FP 00 14 04 16, B.1-3 (FC&S 2016); FP 00 10 09 94, Cov. G 6]
+
+### Farm > Mobile Agricultural Machinery and Equipment Form
+- One of ISO's two farm inland marine forms (FP 00 30; FC&S listed the 04 16 edition as current in 2017). The other is the Livestock Coverage Form. It may be written as a monoline policy or combined with other farm forms. [FC&S "Farm Coverage Program" (2017); FC&S "Mobile Agricultural Machinery and Equipment" archive (2012)]
+- Covers "mobile agricultural machinery and equipment": mobile devices used in the everyday operation of the farm, including accessories and the tools and spare parts designed for them. It is written on a blanket basis (a single limit) or a scheduled basis (an individual limit per item). It is not designed for equipment dealers. [ISO FP 00 30 01 98, A.1, Definitions (FC&S 2012)]
+- In the 01 98 edition: open perils ("risks of direct physical loss"). Not covered: aircraft, watercraft, autos, trucks and road-licensed vehicles (other than farm wagons and trailers used mainly on the insured location); permanent fixtures such as bulk milk tanks; irrigation equipment; and cotton pickers, combines and four-wheel ATVs unless each is scheduled. Combines and cotton pickers used for hire, portable sawmills and logging machinery are ineligible. [ISO FP 00 30 01 98, A.2-3 (FC&S 2012)]
+
+### Farm > Definitions
+- "Livestock" means cattle, sheep, swine, goats, horses, mules and donkeys. "Poultry" (fowl kept for use or sale) is defined separately. [ISO FP 00 10 09 94, H.6, H.9; ISO FP 00 40 02 09 (FC&S 2016); IRMI glossary "livestock coverage form"]
+- "Dwelling" means a building used principally for family residential purposes, including mobile, modular and prefabricated homes. It does not include buildings used in agricultural operations such as storing farm produce, livestock or poultry. [ISO FP 00 10 09 94, H.2; FC&S 2016 (FP 00 90 04 16 definition)]
+- "Farm personal property" means equipment, supplies and products of farming or ranching operations, including feed, seed, fertilizer, livestock, other animals, poultry, grain, bees, fish, worms, produce and agricultural machinery, vehicles and equipment. "Business property" means property of any trade or occupation other than farming. [ISO FP 00 10 09 94, H.1, H.3]
+- "Vacancy" means a building lacks enough contents customary to its use. "Unoccupancy" means a dwelling is not lived in, or another structure is not used, even if furnished. [ISO FP 00 10 09 94, H.11-12]
+- 2016 addition: "agritainment" is a farm-related activity run mainly for tourism or entertainment for compensation (hay rides, corn mazes, catch-and-release fishing ponds). Agritainment property is excluded from Coverages C and F. [FC&S "Farm Personal Exposures FP 00 12" (2016); FC&S "Farm Personal Property Coverage Form FP 00 13" (2017)]
+- In the 2016 program, definitions shared by the farm property forms are in the Other Farm Provisions Form (FP 00 90). [FC&S "Farm Coverage Program" (2017)]
+
+### Farm > Causes of Loss (Basic, Broad, Special)
+- In the 2003 and 2016 programs, the perils are on a separate Causes of Loss Form – Farm Property (FP 10 60). The Declarations show Basic, Broad or Special for each coverage or item. [FC&S "Farm Coverage Program" (2017); ISO FP 10 60 09 03, A (FC&S 2012)]
+- Basic: fire or lightning, windstorm or hail, explosion, riot or civil commotion, aircraft, vehicles, smoke, vandalism, theft, sinkhole collapse and volcanic action. Coverages E and F add collision (farm machinery overturn; livestock killed in vehicle collision or struck on a public road; other farm personal property on a vehicle), plus earthquake and flood loss to livestock. [ISO FP 10 60 09 03, B.1-14 (FC&S 2012); FP 00 10 09 94, B.1]
+- Broad: Basic plus breakage of glass; falling objects; weight of ice, snow or sleet; sudden tearing apart of heating or air-conditioning systems; accidental discharge of water or steam; freezing; artificially generated electricity. It also adds livestock perils: electrocution; attack by dogs or wild animals (not sheep, and not animals owned by the insured, employees or residents); accidental shooting; drowning (not swine under 30 days old); and loading or unloading accidents. [ISO FP 10 60 09 03, C (FC&S 2012); FC&S "Farm Coverage Program" (2017); FP 00 10 09 94, B.2]
+- Special: risks of direct physical loss (open perils), subject to exclusions and limitations. Special may not be used for livestock or other animals, poultry, bees, fish or worms. FP 00 13 (2016) limits livestock under Coverage F to Basic or Broad. [FC&S 2012 (FP 10 60 09 03); ISO FP 00 13 04 16, Cov. F, A.1 (FC&S 2017)]
+- Some property has fixed named perils regardless of the level shown. Example: grain in the open is covered only for fire and lightning, vandalism, vehicles and theft. [ISO FP 00 13 04 16, Cov. E, A.1.b (FC&S 2017)]
+
+### Farm > Conditions
+- Coverage-specific loss conditions: Coverage A and B use the 80% replacement cost valuation; Coverage C pays ACV. Coverage F requires insurance of at least 80% of ACV (coinsurance) and settles at ACV. Coverage G pays ACV unless the RC option is shown. Coverage D has no deductible. [ISO FP 00 12 04 16; FP 00 13 04 16, Cov. F, B.2-3; FP 00 14 04 16, B.3 (FC&S 2016-2017)]
+- For livestock, "loss of or damage to" means death or destruction caused by, resulting from or made necessary by a covered cause of loss. [ISO FP 00 13 04 16, Cov. F, B.1 (FC&S 2017)]
+- Coverage F coinsurance relief: if machinery is bought within 30 days before a loss, up to $100,000 of newly purchased additional machinery and $75,000 of replacement machinery is left out of the required limit (2016; earlier editions $50,000). [ISO FP 00 13 04 16, Cov. F, B.2 (FC&S 2017)]
+- Farm property conditions in the 1994 combined form (in the 2016 program these conditions are in FP 00 90, whose text was not seen): no abandonment; appraisal; sworn proof of loss within 60 days after request; payment within 30 days after sworn proof of loss and agreement; legal action within 2 years after the loss; mortgage holder notice of cancellation 10 days (nonpayment) or 30 days (other reasons). [ISO FP 00 10 09 94, G]
+- 1994 form: if a building is vacant or unoccupied beyond 120 consecutive days, its limits and those on its contents drop by 50% unless extended by endorsement. The 2016 FP 00 90 text was not available to confirm. [ISO FP 00 10 09 94, G. Loss Condition 11; flag: FP 00 90 04 16 not seen]
+
+### Farm > Exclusions
+- The farm causes of loss exclude, regardless of any concurrent cause: ordinance or law; earth movement and volcanic eruption; governmental action (except destruction to stop a fire's spread); intentional loss; nuclear hazard; utility service failure away from the insured location; neglect; war and military action; and water (flood, surface water, mudflow, sewer or sump backup, underground water). [ISO FP 10 60 09 03, E.1-9 (FC&S 2012); FP 00 10 09 94, C.1-8]
+- The earthquake and flood exclusions do not apply to livestock or to farm machinery, vehicles and equipment covered for Special causes of loss. Resulting fire or explosion is covered. [ISO FP 10 60 09 03, E.2, E.9 (FC&S 2012); FP 00 10 09 94, C.2, C.8]
+- The intentional loss exclusion (2003) bars every insured, even one who did not take part, from recovering. [ISO FP 10 60 09 03, E.4 (FC&S 2012)]
+- Ordinance or law costs are not covered at any perils level, and the valuation conditions exclude code-upgrade costs from replacement cost. [ISO FP 10 60 09 03, E.1 (FC&S 2012); FP 00 14 04 16, B.3 (FC&S 2016)]
+
+### Farm > Limits
+- The most paid in any one occurrence is the applicable limit in the Declarations or the applicable special limit, whichever is less. Special limits are part of, not in addition to, the coverage limit. [ISO FP 00 10 09 94, E; FP 00 12 04 16, Cov. C, A.3 (FC&S 2016)]
+- Coverage B (2016): 10% of the Coverage A limit, as additional insurance. [ISO FP 00 12 04 16, Cov. B, A.3.a (FC&S 2016)]
+- Coverage C special limits (2016): $200 money, gold, platinum and silver; $1,500 securities, letters of credit, manuscripts and passports; $2,500 watercraft; $1,500 trailers not used with watercraft or for farming; $2,500 business property on, $1,500 off, the insured location. Theft only: $2,500 jewelry, furs and watches; $2,500 silverware and goldware; $3,000 firearms. (1994 theft limits: $1,500 jewelry; $2,500 firearms.) [ISO FP 00 12 04 16, Cov. C, A.3 (FC&S 2016); FP 00 10 09 94, Cov. C 3]
+- Coverage F per-head limits: $1,000 on any horse, mule or head of cattle under one year old; $2,000 on any other head of livestock. Same in the 1994 and 2016 editions. [ISO FP 00 13 04 16, Cov. F, A.3 (FC&S 2017); FP 00 10 09 94, Cov. F 3]
+- Deductible: the rules provide a standard $250 deductible for farm property. Only the highest deductible applies when one occurrence involves several coverages (1994 form). [FC&S "Farm Coverage Program" (2017); FP 00 10 09 94, F]
+
+### Farm > Additional Coverages
+- 2016 dwelling form (Section III): Removal of Fallen Trees, up to $1,000 per loss and $500 per tree, as additional insurance (1994: $500 total). Credit Card, Fund Transfer Card, Forgery and Counterfeit Currency, up to $500 unless a higher limit is shown. Grave markers, up to $5,000 at ACV, within the limit. [ISO FP 00 12 04 16, Sec. III (FC&S 2016); FP 00 10 09 94, D.2]
+- 1994 combined form, for Coverages A–C and E–G: debris removal (25% of the loss paid plus the deductible, plus an extra 5% of the limit if needed); reasonable repairs; property removed for safekeeping (30 days); and fire department service charge (in addition to the limit, no deductible). [ISO FP 00 10 09 94, D.1]
+- 1994 combined form, also: cost of restoring farm operations records, $2,000 (E or F); extra expense if a limit is shown (E, F or G); collapse (Broad or Special); pollutant cleanup, $10,000 per insured location per 12 months. In the 2016 program, additional coverages common to several forms are in FP 00 90, whose text was not seen. [ISO FP 00 10 09 94, D.3-6; FC&S "Farm Coverage Program" (2017)]
+
+### Farm Property > Coverage B - Other Private Structures
+- 2016 edition: covers private structures the insured owns, appurtenant to a covered dwelling and separated by clear space or attached only by a fence or utility line. The limit is 10% of Coverage A, as additional insurance. Not covered: structures (other than private garages) rented to someone who is not a tenant of the dwelling, and structures (other than private garages) used principally for farming; farm structures are insured under Coverage G. [ISO FP 00 12 04 16, Cov. B (FC&S 2016)]
+- The 1994 combined form allowed the 10% only for private garages; other private structures needed their own Coverage B limit. [ISO FP 00 10 09 94, Cov. B 1]
+
+### Farm Property > Coverage D - Loss of Use
+- Fair rental value is payable only when a covered cause of loss makes uninhabitable a part of a covered dwelling, or a Coverage B structure, that the insured rents or holds for rental to others as a residence or private garage. The Coverage D limit is the total for additional living expense, fair rental value and emergency prohibition of occupancy (2016). [ISO FP 00 12 04 16, Cov. D, A (FC&S 2016)]
+- Civil authority (emergency prohibition of occupancy) coverage runs up to three weeks in the 2016 edition (1994: 2 weeks). Coverage D is not cut off by policy expiration, and no deductible applies. [ISO FP 00 12 04 16, Cov. D, A.3 (FC&S 2016); FP 00 10 09 94, Cov. D 1.c]
+
+### Farm Property > Coverage F - Unscheduled Farm Personal Property
+- Covers all farm personal property on the insured location, plus listed property away from it, except property not covered. Not covered includes household property, poultry, bees, fish and worms, racehorses and show horses, crops in the open, vehicles primarily designed and licensed for road use (other than farm wagons and farm trailers), fences, irrigation equipment, portable buildings, cotton pickers and combines, and (2016) agritainment property. [ISO FP 00 13 04 16, Cov. F, A.1-2 (FC&S 2017); FP 00 10 09 94, Cov. F 1-2]
+- Coverage E (scheduled farm personal property) covers each class only if a limit is shown for it, such as grain, hay, poultry, farm machinery individually described, and livestock. [ISO FP 00 13 04 16, Cov. E (FC&S 2017)]
+
+### Farm > Livestock Coverage Form
+- Named perils inland marine form for livestock; "loss" means death or destruction. Perils are tailored to animals: fire, windstorm (not freezing or smothering), explosion, riot, aircraft, smoke, theft, sinkhole, volcanic action, collision, vandalism, earthquake and flood. [ISO FP 00 40 02 09, A.3 (FC&S 2016); IRMI glossary "livestock coverage form"]
+- Written on a blanket basis (per-animal limit with a class aggregate) or a scheduled basis. It is not used when livestock is covered under the farm personal property form. It excludes livestock with a common or contract carrier, at public stockyards or sales barns, or at packing plants. [ISO FP 00 40 02 09, A.1-2 (FC&S 2016)]
+- Available stand-alone; IRMI notes it suits a tenant farmer with no farm real property. [IRMI glossary "livestock coverage form"]
+
+### Farm Liability > Coverage H - BI and PD Liability
+- Coverage H (FL 00 20, 10 06 text) pays damages for bodily injury or property damage caused by an occurrence, with a duty to defend. The injury or damage must occur during the policy period. It tracks CGL Coverage A for commercial exposures and homeowners Section II for personal ones. [ISO FL 00 20 10 06, Cov. H 1 (FC&S 2013)]
+- Custom farming (planting or harvesting for pay at a farm that is not an insured location) is excluded only when custom farming receipts exceed $5,000 for the prior 12 months (10 06 edition). "Business" means a trade, profession, occupation or other activity for compensation other than farming or custom farming, so farming operations are not a business pursuit. [ISO FL 00 20 10 06, Cov. H 2.j, Sec. IV (FC&S 2013)]
+
+### Farm Liability > Coverage I - Personal and Advertising Injury
+- Coverage I pays damages for "personal injury" or "advertising injury." It applies on an offense basis: the offense must be committed during the policy period and, for personal injury, arise out of personal activities or operations usual or incidental to farming. [ISO FL 00 20 10 06, Cov. I 1 (FC&S 2013)]
+- "Personal injury" offenses: false arrest, detention or imprisonment; malicious prosecution; wrongful eviction or entry; slander, libel or disparagement of goods; and violation of privacy. Exclusions include knowing violation of rights, material published knowing it is false, criminal acts, non-farming business pursuits, and civic or public activities for pay. [ISO FL 00 20 10 06, Cov. I 2, Sec. IV (FC&S 2013)]
+
 ## Flags
 - CG 00 02 04 13 form text not obtained; claims-made/ERP/claim-information facts come from FC&S (2014) and Austin & Stanovich (2012) analyses (consistent with each other).
 - Crime: CR 00 20 (discovery) text not obtained; the 60-day discovery window is from Rough Notes PF&M. Several secondary sources say the discovery form gives employee-benefit-plan losses 1 year — not verified. Editions differ: the PSI outline lists Computer Fraud and Funds Transfer Fraud separately (2006 editions); the 11 15 edition combines them; a 06 22 edition reportedly has 8 insuring agreements (adds "Fidelity" and "Fraudulent Impersonation").
@@ -260,6 +519,221 @@ Edition relied on: BP 00 03 07 13 (form text read; © ISO 2012). Endorsements: I
 - Utility Services – Direct Damage (BP 04 56): covers direct damage to covered property from interruption of utility service caused by a covered cause of loss to off-premises utility property listed in the schedule. [FC&S "Businessowners Program Endorsements Described" (2020)]
 - Utility Services – Time Element (BP 04 57): covers Business Income/Extra Expense from such an interruption; utility types: water supply, communication supply, power supply (wastewater removal added 07 13); overhead transmission lines not covered unless indicated in the Schedule; electronic data excluded. [ISO BP 04 57 01 06; FC&S (2020)]
 - Hired Auto and Non-Owned Auto Liability (BP 04 04): covers BI/PD from use of a hired auto by you or your employees in your business, and use of a non-owned auto in your business by any person; requires a premium shown in the Declarations. [FC&S "Businessowners Program Endorsements Described" (2020)]
+
+## More outline topics
+
+- **Edition note:** ISO implemented revised businessowners forms and rules in Michigan for policies written on or after July 1, 2025. The revision changed some rules this guide relies on: for a variety of property provisions the 100-foot coverage radius became 1,000 feet, motor vehicle registration no longer determines the "auto"/"mobile equipment" definitions, the "insured contract" definition changed, and the Electronic Data and Interruption of Computer Operations additional coverages now exclude ransomware losses. These bullets therefore state the 2013 edition, and the new questions name "the 2013 ISO Businessowners Coverage Form" in the stem. [ISO circular LI-BP-2024-315 (Nov. 1, 2024), as listed in FC&S "Circular Tracker 11-1-2024"; IRMI "Major Changes to the 2025 ISO Businessowners Program" (Aug. 29, 2025)]
+
+### Section I - Property > Exclusions
+- The B.1 exclusions use anti-concurrent-causation wording. The loss is excluded "regardless of any other cause or event that contributes concurrently or in any sequence," and whether or not the event causes widespread damage. [ISO BP 00 03 07 13, Sec. I B.1]
+- B.1 exclusions:
+  - Ordinance or Law. The Increased Cost of Construction additional coverage gives a limited buy-back.
+  - Earth Movement: earthquake, landslide, mine subsidence, and earth sinking other than sinkhole collapse. Resulting fire or explosion is covered.
+  - Earth Movement also includes volcanic eruption, explosion or effusion. Resulting fire, building glass breakage and "volcanic action" are covered.
+  - Governmental Action. Destruction ordered to stop a covered fire from spreading is covered.
+  - Nuclear Hazard. Resulting fire is covered.
+  - Utility Services: failure of power, communication, water or other utility service that originates away from the described premises (or at the premises, if it involves equipment supplying the service from an off-premises source). A resulting Covered Cause of Loss is covered, and this exclusion does not apply to computers and electronic data.
+  - War and Military Action.
+  - Water: flood, surface water, waves, tides, overflow of a body of water, mudslide, sewer or drain backup and sump overflow, and underground water seeping through foundations. Resulting fire, explosion or sprinkler leakage is covered.
+  - Certain computer-related losses (inability to recognize dates).
+  - Fungi, wet rot or dry rot, except under the limited fungi additional coverage or when it results from fire or lightning.
+  - Virus or bacteria.
+  [ISO BP 00 03 07 13, Sec. I B.1.a-j]
+- B.2 exclusions (part 1):
+  - Electrical Apparatus. Computers are covered if the event, or the cause of a power interruption, surge, blackout or brownout, happened within 100 feet of the premises.
+  - Consequential Losses: delay, loss of use, loss of market.
+  - Smoke, vapor or gas from agricultural smudging or industrial operations.
+  - Steam Apparatus explosion, for steam boilers the insured owns, leases or controls.
+  - Frozen Plumbing, unless the insured did its best to maintain heat or drained the equipment and shut off the supply.
+  - Dishonesty: dishonest or criminal acts by the insured, its partners, members, officers, managers, employees, directors, trustees or authorized representatives, and theft by anyone the property was entrusted to. Acts of destruction by employees are covered, but theft by employees is not. This exclusion does not apply to the Employee Dishonesty optional coverage.
+  - False Pretense: voluntarily parting with property because of a trick or fraudulent scheme.
+  - Exposed Property: rain, snow, ice or sleet damage to personal property in the open.
+  [ISO BP 00 03 07 13, Sec. I B.2.a-h]
+- B.2 exclusions (part 2):
+  - Collapse, except as provided by the Collapse additional coverage, or collapse caused by a "specified cause of loss", breakage of building glass, weight of rain that collects on a roof, or weight of people or personal property.
+  - Pollution, unless the release is caused by a "specified cause of loss".
+  - Neglect to save and preserve property at and after a loss.
+  - Other Types of Loss: wear and tear; rust, corrosion, decay or latent defect; smog; settling or cracking; nesting or infestation by insects, birds, rodents or other animals; mechanical breakdown (except of computers); and, for personal property, dampness or dryness, temperature extremes, and marring or scratching. Resulting "specified causes of loss" or building glass breakage are covered.
+  - Errors or omissions in programming, processing or storing data, or in processing or copying "valuable papers and records". Resulting fire or explosion is covered.
+  - Faulty installation, testing or repair of computer systems. Resulting fire or explosion is covered.
+  - Electrical or magnetic injury, disturbance or erasure of electronic data, except as provided under the Section I Additional Coverages. Lightning is covered.
+  - Continuous or repeated seepage or leakage of water, or condensation of humidity, moisture or vapor, that occurs over 14 days or more.
+  [ISO BP 00 03 07 13, Sec. I B.2.i-p]
+- B.3 exclusions: weather conditions (only when they combine with a B.1 excluded event), acts or decisions of any person or governmental body, and faulty planning, design, workmanship, materials or maintenance. A resulting Covered Cause of Loss is paid. [ISO BP 00 03 07 13, Sec. I B.3]
+- Other exclusions:
+  - B.4 excludes damage to the insured's merchandise or products caused by an error or omission in developing, producing or using them.
+  - B.5 excludes any Extra Expense, or increase of Business Income loss, caused by strikers or others interfering with rebuilding at the site, or by suspension, lapse or cancellation of a license, lease or contract. There is an exception when the suspension, lapse or cancellation results directly from the suspension of operations.
+  - B.6 excludes, under Accounts Receivable, falsified records, bookkeeping errors, and losses provable only by audit or inventory.
+  [ISO BP 00 03 07 13, Sec. I B.4-6]
+- The form does not pay for property missing when the only evidence is an inventory shortage or other loss with no physical evidence. This limitation does not apply to the Money and Securities optional coverage. [ISO BP 00 03 07 13, Sec. I A.4.a(3)]
+
+### Section I - Property > Deductibles
+- The insurer pays nothing until the loss in one occurrence exceeds the Deductible shown in the Declarations. It then pays the excess up to the applicable Section I limit. The 2013 coverage form itself sets no dollar amount. [ISO BP 00 03 07 13, Sec. I D.1]
+- Optional Coverage Deductible: for loss under Money and Securities, Employee Dishonesty, Outdoor Signs and Forgery or Alteration, the most deducted in one occurrence is the Optional Coverage Deductible in the Declarations. It does not increase the Declarations deductible, and it counts toward satisfying that deductible. [ISO BP 00 03 07 13, Sec. I D.2]
+- No deductible applies to:
+  - Fire Department Service Charge
+  - Business Income
+  - Extra Expense
+  - Civil Authority
+  - Fire Extinguisher Systems Recharge Expense
+  [ISO BP 00 03 07 13, Sec. I D.3]
+- Business Income still begins only 72 hours after the direct physical loss, as set by the "period of restoration" definition. Extra Expense begins immediately. [ISO BP 00 03 07 13, Sec. I H.9.a(1)]
+- Equipment Breakdown Protection: a dollar deductible shown for this coverage applies to it. If none is chosen, the Property Deductible applies. If the Declarations show a time deductible for this coverage, it replaces the 72-hour period in the "period of restoration" definition: no Business Income loss is paid for that many consecutive hours after a mechanical breakdown or electrical failure. [ISO BP 00 03 07 13, Sec. I G.4.e-f]
+- ISO program rules (2025 overview):
+  - The base property deductible in the ISO BOP is $500.
+  - Optional fixed deductibles of $250, $1,000, $2,500, $5,000, $7,500 and $10,000 apply per occurrence, separately at each location damaged in one occurrence.
+  - Optional windstorm or hail deductibles of 1%, 2% or 5% apply separately to each building, to business personal property, and to personal property in the open.
+  - Property damage liability deductibles of $250, $500, $1,000 and $2,500 are available.
+  [ISO "Businessowners Policy (BOP) Program" overview (Feb. 11, 2025), p. 6]
+
+### Section I - Property > General Conditions
+- In the 2013 form, Section I General Conditions are Control of Property, Mortgageholders, No Benefit to Bailee, and Policy Period/Coverage Territory. Vacancy is a Property Loss Condition (E.8), not a General Condition. [ISO BP 00 03 07 13, Sec. I E.8, F.1-4]
+- Control of Property: an act or neglect of anyone beyond the insured's direction or control does not affect the insurance. A breach of condition at one location does not affect coverage at any location where no breach exists at the time of loss. [ISO BP 00 03 07 13, Sec. I F.1]
+- Mortgageholders (the term includes a trustee):
+  - Covered building loss is paid to each mortgageholder shown in the Declarations, in order of precedence, as interests may appear.
+  - The mortgageholder can receive loss payment even if it has started foreclosure or similar action.
+  [ISO BP 00 03 07 13, Sec. I F.2.a-c]
+- If the insurer denies the insured's claim because of the insured's acts or noncompliance, the mortgageholder can still collect if it:
+  - pays any premium due at the insurer's request;
+  - submits a signed, sworn proof of loss within 60 days after notice of the insured's failure to do so; and
+  - has reported known changes in ownership, occupancy or substantial change in risk.
+  The insurer is then subrogated to the mortgageholder's rights up to the amount paid, or it may pay off the whole mortgage principal plus accrued interest and take an assignment of the mortgage. [ISO BP 00 03 07 13, Sec. I F.2.d-e]
+- Notice to the mortgageholder:
+  - Cancellation: at least 10 days for nonpayment of premium, 30 days for any other reason.
+  - Nonrenewal: at least 10 days before expiration.
+  [ISO BP 00 03 07 13, Sec. I F.2.f-g]
+- Michigan's mandatory fire policy provisions also allow cancellation of a mortgagee's interest on not less than 10 days' written notice to the mortgagee. If the insured fails to render proof of loss, the mortgagee must do so within 60 days after notice. [MCL 500.2833(1)(j)]
+- No Benefit to Bailee: no one other than the insured who has custody of Covered Property benefits from the insurance. [ISO BP 00 03 07 13, Sec. I F.3]
+- Policy Period and Coverage Territory: covers loss commencing during the policy period within the United States (including its territories and possessions), Puerto Rico and Canada, or in transit between points in that territory. [ISO BP 00 03 07 13, Sec. I F.4]
+
+### Section I - Property > Definitions
+- "Computer": programmable electronic equipment that stores, retrieves and processes data, plus associated peripherals. It does not include computers used to operate production-type machinery. The Equipment Breakdown optional coverage includes those. [ISO BP 00 03 07 13, Sec. I H.1; G.4.g]
+- "Counterfeit money" is an imitation of money intended to deceive and be taken as genuine. "Electronic data" is information, facts or computer programs stored on or used with computer software and media. [ISO BP 00 03 07 13, Sec. I H.2-3]
+- "Fungi" includes mold or mildew and their mycotoxins, spores, scents or by-products. A "manager" serves in a directorial capacity for an LLC, and a "member" is an owner of an LLC. [ISO BP 00 03 07 13, Sec. I H.4-6]
+- "Money" means currency, coins and bank notes in current use with a face value, plus traveler's checks, register checks and money orders held for sale to the public. [ISO BP 00 03 07 13, Sec. I H.7]
+- "Securities" means negotiable and nonnegotiable instruments or contracts representing money or other property. It includes tokens, tickets, and revenue and other stamps in current use (including unused value in a meter), and evidences of debt from credit or charge cards not issued by the insured. It does not include money. [ISO BP 00 03 07 13, Sec. I H.11]
+- "Operations" means the insured's business activities at the described premises. [ISO BP 00 03 07 13, Sec. I H.8]
+- "Period of restoration":
+  - It begins 72 hours after the direct physical loss for Business Income, or immediately for Extra Expense.
+  - It ends on the earlier of the date the property should be repaired or replaced with reasonable speed and similar quality, or the date business resumes at a new permanent location.
+  - It excludes extra time needed to comply with ordinances or pollutant clean-up laws.
+  - Policy expiration does not cut it short.
+  [ISO BP 00 03 07 13, Sec. I H.9]
+- "Pollutants" means any solid, liquid, gaseous or thermal irritant or contaminant, including smoke, vapor, soot, fumes, acids, alkalis, chemicals and waste. [ISO BP 00 03 07 13, Sec. I H.10]
+- "Specified causes of loss":
+  - fire; lightning; explosion; windstorm or hail; smoke; aircraft or vehicles; riot or civil commotion;
+  - vandalism; leakage from fire extinguishing equipment; sinkhole collapse; volcanic action;
+  - falling objects; weight of snow, ice or sleet; water damage.
+  [ISO BP 00 03 07 13, Sec. I H.12]
+- Limits within the specified causes of loss:
+  - Sinkhole collapse does not include filling sinkholes or collapse into man-made cavities.
+  - Falling objects does not cover personal property in the open, or the interior of a building unless the roof or an outside wall is first damaged.
+  - Water damage means accidental discharge from a system or appliance containing water or steam (other than a sump system), or from a broken off-premises municipal water or sewer pipe when the break is caused by wear and tear.
+  [ISO BP 00 03 07 13, Sec. I H.12.a-c]
+- "Stock" is merchandise held in storage or for sale, raw materials, and in-process or finished goods, including packing and shipping supplies. "Valuable papers and records" are inscribed, printed or written documents, manuscripts and records, but not money or securities. [ISO BP 00 03 07 13, Sec. I H.13-14]
+
+### Section II - Liability > Exclusions
+- Business Liability exclusions (part 1):
+  - a. Expected or intended injury. Bodily injury from reasonable force to protect persons or property is covered.
+  - b. Contractual liability, except liability the insured would have without the contract, or liability assumed in an "insured contract".
+  - c. Liquor liability. This applies only if the insured is in the business of manufacturing, distributing, selling, serving or furnishing alcohol. Letting guests bring their own alcohol is not by itself that business.
+  - d. Workers' compensation and similar laws.
+  - e. Employer's liability: injury to employees, and to an employee's spouse, child, parent, brother or sister as a consequence.
+  - f. Pollution.
+  [ISO BP 00 03 07 13, Sec. II B.1.a-f]
+- Exclusion g. (aircraft, auto or watercraft owned, operated, rented or loaned to an insured) has exceptions for:
+  - watercraft ashore on premises the insured owns or rents;
+  - non-owned watercraft less than 51 feet long that does not carry persons or property for a charge;
+  - parking a non-owned auto on or next to the insured's premises;
+  - aircraft or watercraft liability assumed in an insured contract;
+  - operation of certain attached or listed equipment (cherry pickers, air compressors, pumps, generators).
+  [ISO BP 00 03 07 13, Sec. II B.1.g]
+- Business Liability exclusions (part 2):
+  - h. Mobile equipment, but only for its transport by an insured's auto, or its use in racing, speed, demolition or stunting.
+  - i. War.
+  - j. Professional services, including legal, accounting, advertising, engineering, medical, cosmetic, optometry, body piercing and pharmacy services.
+  - k. Damage to property the insured owns, rents or occupies, property loaned to it, or personal property in its care, custody or control. k.(1), (3) and (4) do not apply to non-fire damage to premises rented to the insured for 7 or fewer consecutive days.
+  [ISO BP 00 03 07 13, Sec. II B.1.h-k]
+- Business Liability exclusions (part 3):
+  - l. Damage to your product.
+  - m. Damage to your work. This exclusion does not apply when a subcontractor did the work.
+  - n. Damage to impaired property or property not physically injured.
+  - o. Product recall.
+  [ISO BP 00 03 07 13, Sec. II B.1.l-o]
+- Business Liability exclusions (part 4):
+  - p. Personal and advertising injury exclusions, including knowing violation, knowingly false publication, publication before the policy period, breach of contract, quality and price statements in ads, media and internet businesses, pollution, insured-hosted chatrooms, and intellectual property other than ad copyright, trade dress or slogan.
+  - q. Electronic data. There is an exception for bodily injury.
+  - r. Criminal acts (personal and advertising injury).
+  - s. Recording or distributing material in violation of law (TCPA, CAN-SPAM, FCRA and similar laws).
+  [ISO BP 00 03 07 13, Sec. II B.1.p-s]
+- Fire damage to premises rented to the insured, or temporarily occupied with the owner's permission, is not subject to exclusions c. through i. and k. through o. A separate Damage To Premises Rented To You limit applies. [ISO BP 00 03 07 13, Sec. II B.1 (final paragraph); D.3]
+- Medical Expenses does not pay for bodily injury to:
+  - any insured, except volunteer workers;
+  - a person hired to work for an insured or tenant;
+  - a person injured on the part of the premises he or she normally occupies;
+  - a person whose injury is covered by workers' compensation or a disability benefits law;
+  - a person injured while practicing, instructing or participating in physical exercises, games, sports or athletic contests;
+  - injuries in the products-completed operations hazard;
+  - injuries excluded under Business Liability.
+  [ISO BP 00 03 07 13, Sec. II B.2.a-g]
+- A Nuclear Energy Liability Exclusion applies to both Business Liability and Medical Expenses. [ISO BP 00 03 07 13, Sec. II B.3]
+
+### Section II - Liability > General Conditions
+- Bankruptcy: bankruptcy or insolvency of the insured or the insured's estate does not relieve the insurer of its obligations. Michigan requires liability policies to contain this kind of provision. [ISO BP 00 03 07 13, Sec. II E.1; MCL 500.3004, .3006]
+- Duties after an occurrence, offense, claim or suit:
+  - Notify the insurer as soon as practicable of an occurrence or offense that may result in a claim (how, when and where; names and addresses of injured persons and witnesses; nature and location of injury).
+  - If a claim or suit is brought, immediately record its details and date and give written notice as soon as practicable.
+  [ISO BP 00 03 07 13, Sec. II E.2.a-b]
+- Further duties: the insured and any other involved insured must immediately send copies of legal papers, authorize the insurer to obtain records, cooperate, and assist in enforcing rights against others. No insured may voluntarily make a payment, assume an obligation or incur an expense, other than for first aid, without the insurer's consent, except at its own cost. [ISO BP 00 03 07 13, Sec. II E.2.c-d]
+- Legal Action Against Us: no one may join the insurer in a suit seeking damages from an insured. No one may sue the insurer unless all policy terms have been complied with. A claimant may sue to recover on an agreed settlement (signed by the insurer, the insured and the claimant) or on a final judgment against an insured, up to the policy terms and limits. [ISO BP 00 03 07 13, Sec. II E.3]
+- Separation of Insureds: except for the Section II limits and rights or duties assigned to the first Named Insured, the insurance applies as if each Named Insured were the only Named Insured, and separately to each insured against whom a claim is made or suit is brought. [ISO BP 00 03 07 13, Sec. II E.4]
+
+### Section II - Liability > Definitions
+- "Advertisement": a notice broadcast or published to the general public or specific market segments to attract customers or supporters. It includes internet material, but only the part of a web site about the insured's goods, products or services. [ISO BP 00 03 07 13, Sec. II F.1]
+- "Auto" means a land motor vehicle, trailer or semitrailer designed for travel on public roads, or any other land vehicle subject to a compulsory or financial responsibility law or other motor vehicle insurance or registration law where licensed or principally garaged. It does not include mobile equipment. [ISO BP 00 03 07 13, Sec. II F.2]
+- "Bodily injury" means bodily injury, sickness or disease, including resulting death at any time. "Occurrence" means an accident, including continuous or repeated exposure to substantially the same general harmful conditions. [ISO BP 00 03 07 13, Sec. II F.3, F.13]
+- "Coverage territory":
+  - the United States (including its territories and possessions), Puerto Rico and Canada;
+  - international waters or airspace while traveling between those places;
+  - anywhere in the world for products made or sold in that territory, for people based there who are away for a short time on the insured's business, or for internet offenses, provided liability is decided in a suit on the merits in that territory or in a settlement the insurer agrees to.
+  [ISO BP 00 03 07 13, Sec. II F.4]
+- Worker definitions:
+  - "Employee" includes a "leased worker" (leased through a labor leasing firm) but not a "temporary worker" (furnished to substitute for an employee on leave or to meet seasonal or short-term workload).
+  - A "volunteer worker" donates work at the insured's direction and is not paid.
+  - An "executive officer" holds an officer position created by the charter, bylaws or similar document.
+  [ISO BP 00 03 07 13, Sec. II F.5-6, F.10, F.19-20]
+- "Hostile fire" is a fire that becomes uncontrollable or breaks out from where it was intended to be. "Impaired property" is tangible property that is less useful because it incorporates the insured's defective product or work, or because of a breach of contract, if it can be restored by repair, replacement or removal of the product or work, or by fulfilling the contract. [ISO BP 00 03 07 13, Sec. II F.7-8]
+- "Insured contract" includes:
+  - a lease of premises, except the part indemnifying for fire damage to premises rented to the insured;
+  - a sidetrack agreement;
+  - an easement or license agreement (except for construction or demolition within 50 feet of a railroad);
+  - an obligation required by ordinance to indemnify a municipality (except for work for the municipality);
+  - an elevator maintenance agreement;
+  - the part of any other business contract in which the insured assumes another party's tort liability for bodily injury or property damage to a third party, with carve-outs for railroad and architect/engineer/surveyor indemnities.
+  [ISO BP 00 03 07 13, Sec. II F.9]
+- "Loading or unloading" covers handling property from acceptance until final delivery. It does not cover movement by a mechanical device (other than a hand truck) not attached to the vehicle. [ISO BP 00 03 07 13, Sec. II F.11]
+- "Mobile equipment":
+  - It includes bulldozers, farm machinery, forklifts and other vehicles designed for use principally off public roads; vehicles used solely on or next to the insured's premises; crawler-tread vehicles; vehicles with permanently mounted cranes, shovels, loaders, diggers, drills or road construction equipment; and certain other vehicles not used to transport persons or cargo.
+  - Self-propelled vehicles carrying snow removal, road maintenance, street cleaning, cherry picker or air compressor/pump/generator equipment are "autos".
+  - Any land vehicle subject to a compulsory or financial responsibility law or motor vehicle insurance or registration law is an "auto".
+  [ISO BP 00 03 07 13, Sec. II F.12]
+- "Personal and advertising injury" means injury, including consequential bodily injury, from:
+  - false arrest, detention or imprisonment;
+  - malicious prosecution;
+  - wrongful eviction, wrongful entry or invasion of private occupancy by or for the owner, landlord or lessor;
+  - publication that slanders or libels a person or organization or disparages its goods, products or services;
+  - publication that violates a person's right of privacy;
+  - use of another's advertising idea in the insured's advertisement;
+  - infringing another's copyright, trade dress or slogan in the insured's advertisement.
+  [ISO BP 00 03 07 13, Sec. II F.14]
+- "Products-completed operations hazard":
+  - It covers bodily injury and property damage occurring away from premises the insured owns or rents and arising from its product or work, except products still in its possession and work not yet completed or abandoned.
+  - Work is completed at the earliest of: all contract work done; all work at the job site done; or that part put to its intended use by someone other than another contractor or subcontractor on the same project.
+  - It excludes transportation of property and the existence of tools, uninstalled equipment or abandoned or unused materials.
+  [ISO BP 00 03 07 13, Sec. II F.16]
+- "Property damage" means physical injury to tangible property, including resulting loss of use, or loss of use of tangible property that is not physically injured. Electronic data is not tangible property. [ISO BP 00 03 07 13, Sec. II F.17]
+- "Suit" is a civil proceeding seeking covered damages. It includes arbitration the insured must submit to, or submits to with the insurer's consent, and other alternative dispute resolution the insured submits to with consent. [ISO BP 00 03 07 13, Sec. II F.18]
+- "Your product" is goods or products (not real property) made, sold, handled, distributed or disposed of by the insured, plus containers, warranties and warnings. It does not include vending machines or other property rented to or located for others but not sold. "Your work" is work or operations performed by or for the insured, plus materials, warranties and warnings. [ISO BP 00 03 07 13, Sec. II F.21-22]
 
 ## Flags
 - BOP eligibility thresholds ($6M sales, 35,000 sq ft, etc.) vary by ISO rule edition and insurer filings — not tested as numbers.
@@ -331,6 +805,142 @@ Edition relied on: BP 00 03 07 13 (form text read; © ISO 2012). Endorsements: I
 - First-party cyber covers the insured's own costs: legal counsel on notification duties, customer notification and call center, forensic investigation, business interruption income loss, cyber extortion and fraud. [NAIC "Cyber Insurance" consumer guide]
 - Third-party cyber covers liability to others: claims by affected consumers, regulatory inquiry response. There are no standardized cyber policy forms. [NAIC "Cyber Insurance" consumer guide; NAIC RITF memo (2022)]
 - CGL CG 00 01 excludes electronic data damages (except BI) and BI/PD and P&AI arising from TCPA/CAN-SPAM/FCRA violations. [ISO CG 00 01 04 13, Cov. A Excl. p, q; Cov. B Excl. p]
+
+## More outline topics
+
+### Specialty Liability > Professional Liability
+- Professional liability (PL) protects professionals and businesses against liability for errors and omissions in performing their professional services. It covers traditional professionals (accountants, attorneys) and quasi-professionals (real estate brokers, consultants). [IRMI glossary "professional liability"]
+- Most PL policies cover only third parties' economic or financial losses, not the bodily injury and property damage claims a CGL policy covers. Exceptions include physicians, architects and engineers. [IRMI glossary "professional liability"]
+- Errors and omissions (E&O) insurance covers liability for an error or omission in performing professional duties. It is generally designed for financial losses rather than bodily injury or property damage. [IRMI glossary "errors and omissions insurance"]
+- Malpractice insurance, written for a professional practitioner, defends professional liability suits and pays damages up to a maximum limit. Medical malpractice insurance covers the acts, errors and omissions of physicians and surgeons. It includes physicians professional liability, hospital professional liability and allied healthcare (for example, nurses) professional liability. [IRMI glossary "malpractice insurance"; "medical malpractice insurance"]
+- Examples: [IRMI glossary "lawyers professional liability coverage"; "accountants professional liability insurance"; "architects and engineers liability coverage"]
+  - Lawyers PL covers third parties' financial loss from legal services. It excludes fraud, intentional and criminal acts, bodily injury and property damage, but most policies cover personal injury perils such as defamation and invasion of privacy.
+  - Accountants PL covers financial loss caused by accounting services, with similar exclusions.
+  - Architects and engineers liability insures design professionals against errors and omissions in their work. It normally excludes faulty construction work on the project.
+- Trigger: the vast majority of PL policies are claims-made. A claims-made policy is triggered when a claim is made against the insured during the policy period, regardless of when the wrongful act took place. [IRMI glossary "professional liability"; "claims-made policy"]
+- Defense within limits ("shrinking limits"): in most PL policies, defense costs the insurer pays reduce the available limit. Limits must therefore be high enough for expected defense costs as well as settlements. In a CGL policy, defense costs are supplementary payments that do not reduce the limits. [IRMI glossary "professional liability"; "defense within limits"; "shrinking limits defense provision"; ISO CG 00 01 04 13, Supplementary Payments – Coverages A and B]
+- Consent to settlement clause (also called the "hammer clause" or "blackmail settlement clause"): found in PL policies. The insurer must seek the insured's approval before settling a claim for a specific amount. If the insured rejects the recommended figure, the insurer is not liable for any additional amount needed to settle, or for defense costs that accrue after its recommendation. [IRMI glossary "consent to settlement clause"]
+  - Contrast the CGL, which does not require the insured's consent: "We may, at our discretion, investigate any 'occurrence' and settle any claim or 'suit' that may result." [ISO CG 00 01 04 13, Sec. I, Coverage A, 1.a]
+- Professional services exclusion: commonly endorsed onto CGL policies (and found in D&O policies) to separate professional (E&O) exposures from general liability. For a physician, a patient's fall in the office stays covered, but liability from providing medical care is excluded. [IRMI glossary "professional services exclusion"]
+
+### Surety Bonds > License and Permit Bonds
+- A license and permit bond is required by a municipality or other public body before it grants a license or permit for a specified activity. It guarantees that the party seeking the license or permit (the principal, or obligor) will comply with the applicable laws or regulations. [IRMI glossary "license and permit bond"]
+- The bond runs to the governmental unit that requires it, which is the obligee. The surety guarantees that the licensee will comply with all regulations on its activity. [FC&S "License and Permit Bonds" (Feb. 2010); IRMI glossary "surety bond"]
+- Purpose: to protect the public from unscrupulous business dealings. [FC&S "License and Permit Bonds" (Feb. 2010); IRMI glossary "license and permit bond"]
+  - Some of these bonds let members of the public sue on the bond directly. Typical wording allows suit by "any person or persons who may have a cause of action against said principal."
+  - A bond may also give indemnity guarantees to third parties. For example, a business that hangs a sign over a public sidewalk may have to guarantee indemnity for injuries to pedestrians.
+- Examples: [FC&S "License and Permit Bonds" (Feb. 2010)]
+  - State and local bonds for abstracters, master electricians, traveling merchants, public amusement businesses and wholesale produce dealers.
+  - At the federal level, the customs bond required of importers and customs brokers generates the most surety premium.
+- Michigan example, the vehicle dealer bond: [MCL 257.248(2) (as amended through 2022 PA 224)]
+  - An applicant for a new vehicle dealer, used or secondhand vehicle dealer, or broker license must file a **$25,000** bond, approved by the Secretary of State, with the application.
+  - The bond indemnifies or reimburses a purchaser, seller, lessee, financing agency or governmental agency for monetary loss caused by fraud, cheating or misrepresentation by the dealer or its employees, agents or salespersons. It also covers the state for sales or use tax deficiencies.
+  - The surety pays only after a court judgment or a final Secretary of State order issued after an administrative hearing. The surety's total liability cannot exceed the bond amount.
+  - The surety may cancel on at least **30 days'** written notice to the Secretary of State. It is not liable for breaches after the cancellation date.
+
+### Surety Bonds > Judicial Bonds
+- Judicial bonds are suretyship contracts prescribed by statute and filed in probate courts or courts of equity. They guarantee that the principal will fulfill obligations the statute specifies, such as faithful performance or financial responsibility, for the benefit of the obligee. If the principal fails, the surety is liable for damages up to the bond amount (the penalty). [FC&S "Judicial Bonds" (Aug. 2000)]
+- Judicial bonds fall into two general classes: [FC&S "Judicial Bonds" (Aug. 2000); IRMI glossary "fiduciary bond"]
+  - **Fiduciary bonds** guarantee that persons the court entrusts with the property of others (for example, under estates) will perform their duties faithfully and in good faith, account for all property received, and make good any deficiency the court holds them liable for.
+  - **Court (litigation) bonds** guarantee payment of damages, court costs or both if the bonded party's court action fails. They protect the obligee if the principal turns out not to be legally entitled to the remedy it sought.
+- Court bonds in civil cases are plaintiff's bonds or defendant's bonds, and several come in pairs: [FC&S "Judicial Bonds" (Aug. 2000)]
+  - **Attachment bond:** posted by a plaintiff who has the defendant's property attached. It pays the defendant's damages if the court decides against the plaintiff. A **release of attachment bond** lets the defendant regain the property by guaranteeing payment of the judgment and costs.
+  - **Replevin bond:** posted by a plaintiff who takes immediate possession of specific property before trial. It guarantees the property's return, with damages, if the plaintiff loses. A **counter-replevin bond** lets the defendant regain possession of the property pending the decision.
+  - **Injunction bond:** posted by a plaintiff who obtains an injunction. It reimburses the defendant's damages if a permanent injunction is refused.
+- **Appeal bond:** a losing party who appeals posts a bond guaranteeing payment of the entire judgment plus interest and court costs if the higher court rules against it. A stay of execution bond halts enforcement of the lower court's decision until the appeal is decided. [FC&S "Judicial Bonds" (Aug. 2000)]
+- **Bail bond:** in criminal proceedings, guarantees that the bonded person will appear in court as required, or the full bond penalty is forfeited. [FC&S "Judicial Bonds" (Aug. 2000)]
+- Court bonds, like fiduciary bonds, have terms prescribed by statute. They cannot be canceled and continue until the matter is settled or the statute of limitations runs. Sureties often require collateral, such as cash, certificates of deposit or government bonds. [FC&S "Judicial Bonds" (Aug. 2000)]
+- Michigan fiduciary bonds under the Estates and Protected Individuals Code:
+  - **Personal representative, informal proceedings:** no bond is required unless a special personal representative is appointed, the will expressly requires bond, or an interested person or creditor demands it in writing. A demand qualifies when the person's interest or claim exceeds a dollar threshold (base $30,000, adjusted under section 1210). [MCL 700.3603(1); 700.3605]
+  - **Personal representative, formal proceedings:** the court may order bond. [MCL 700.3603(2)]
+  - **Amount and sureties:** if the will or order does not set the amount, the bond must be at least the sworn estimate of the decedent's personal estate plus the income expected from the personal and real estate during the next year. It is executed by a corporate surety, or by individual sureties secured by pledge, mortgage or other adequate security. [MCL 700.3604]
+  - **Conservator:** the court may require a bond. If the cash and readily convertible property in the conservator's control exceed the small-estate limit of section 3982 (adjusted under section 1210), the court must require one unless a listed exception applies. The bond is conditioned upon "faithful discharge of all duties of the conservator's trust according to law." [MCL 700.5410(1)-(2)]
+
+### Other Policies > Boatowners
+- The boatowners policy is the most common type of watercraft policy for individuals and families. It combines property, liability, medical payments and uninsured boatowners coverage. It fills the coverage gap found in most homeowners policies, particularly for property. [IRMI glossary "boatowners policy"]
+- Homeowners gap (2011 ISO program): [ISO HO 00 03 05 11, Sec. I, Coverage C, Special Limits 3.c; Coverage C perils 2 and 9.b.(4)(b)]
+  - Coverage C has a **$1,500** special limit on watercraft of all types, including their trailers, furnishings, equipment and outboard engines or motors.
+  - Coverage C covers watercraft only for named perils. Windstorm or hail loss to watercraft is covered only while they are inside a fully enclosed building.
+  - Theft of watercraft away from the residence premises is not covered.
+  - The homeowners Section II watercraft liability limits are in the `ho` section.
+- The AAIS Boatowners Policy (BT 0100) is a package for the family pleasure boat: [AAIS BT 0100 (2008 program), as quoted in FC&S "AAIS Boatowners Program" (July 2008)]
+  - Open perils ("direct physical loss") property coverage on the boats, motors and boat trailers listed in the declarations. Each item is listed with its own limit; coverage is not blanket.
+  - Coverage X – Personal Liability, on an occurrence basis.
+  - Coverage Y – Medical Payments.
+  - Coverage Z – Uninsured Boaters.
+- AAIS 2008 program eligibility (insurer rules may differ): an individually owned pleasure craft no longer than 30 feet, not capable of more than 50 mph, generally 20 years old or less, and valued at no more than $75,000. [FC&S "AAIS Boatowners Program" (July 2008)]
+- Property not covered (BT 0100): [AAIS BT 0100, as quoted in FC&S (July 2008)]
+  - property used in a business, hired out or chartered, used to carry people or goods for a fee, or rented to others;
+  - loss from racing or stunt contests (sailboat races are excepted);
+  - a boat used as a primary or permanent residence.
+- Property exclusions (BT 0100): animals and marine life; bubbling or delamination; wear and tear, marring or scratching; freezing; and the process of repair or maintenance (resulting fire or explosion is covered). Mechanical breakdown is excluded, but a covered loss that results from it is covered. [AAIS BT 0100, as quoted in FC&S (July 2008)]
+- Additional property coverages (BT 0100, 2008 amounts): [AAIS BT 0100, as quoted in FC&S (July 2008)]
+  - boating equipment up to $2,500 ($500 for equipment on or lost from a personal watercraft in use);
+  - newly acquired boats up to 30 feet, motors and trailers, up to $25,000, for 30 days or until reported, whichever comes first;
+  - towing and labor after a covered boat or motor is disabled (labor must be performed at the place of disablement), up to $500 per incident, with no deductible.
+- Coverage X pays sums an insured is legally liable for because of bodily injury or property damage caused by an occurrence arising out of the ownership, maintenance or use of covered property or a non-owned boat (up to 30 feet). [AAIS BT 0100, as quoted in FC&S (July 2008)]
+  - "Insured" includes permissive users, but not people using the boat in a business.
+  - Claims and defense costs are paid in addition to the limit.
+  - Removal of sunken property (raising, removing or destroying a wreck when law or a governmental authority requires it) is covered up to 25% of the applicable Coverage X limit.
+- Liability exclusions (BT 0100) include: [AAIS BT 0100, as quoted in FC&S (July 2008)]
+  - business use, charter or rental;
+  - injury or damage while the boat is being transported by a land vehicle or trailer (coverage follows the land vehicle);
+  - non-permissive users;
+  - towing a parasail, kite or hang glider;
+  - racing (sailboats excepted);
+  - pollution, unless sudden and accidental;
+  - professional services;
+  - bodily injury to you, your resident relatives, or persons under 21 living in your household and in your care or a resident relative's care;
+  - injury to employees, and benefits under workers compensation or the U.S. Longshore and Harbor Workers' Compensation Act.
+- Coverage Y pays necessary medical expenses for bodily injury arising out of covered property or a non-owned boat, if incurred or medically determined within 3 years of the accident. Unlike homeowners Medical Payments to Others, insureds are eligible. The AAIS base limits, which can be increased, are $100,000 liability and $1,000 medical payments. [AAIS BT 0100, as quoted in FC&S (July 2008)]
+- Coverage Z pays the compensatory damages an insured is legally entitled to recover from the owner or operator of an uninsured boat because of an insured's bodily injury. For this coverage, "insured" means only anyone in, on, or getting into or out of the covered boat or a non-owned boat, including a water-skier being towed, and anyone entitled to recover damages because of that person's covered bodily injury. [AAIS BT 0100, as quoted in FC&S (July 2008)]
+- Insurers typically require a marine survey (inspection and appraisal) for boats over 10 years old or of high value (for example, over $35,000). [IRMI glossary "marine survey"]
+- Vessels and cargo in commercial shipping are a separate line, ocean marine insurance. It covers goods in transit, damage to the vessels, and legal liability arising in the course of shipment. [IRMI glossary "ocean marine insurance"]
+
+### Other Policies > Miscellaneous (Recreational) Type Vehicles
+- Why an endorsement is needed: [ISO PP 00 01 09 18, Part A Exclusions B.1; Part B Exclusions 1]
+  - The Personal Auto Policy's Liability Coverage excludes any vehicle that has fewer than four wheels or is designed mainly for use off public roads. The exclusion does not apply to a trailer, a non-owned golf cart, or such a vehicle while an insured uses it in a medical emergency.
+  - Its Medical Payments Coverage excludes injury sustained while occupying any motorized vehicle with fewer than four wheels.
+- The ISO Miscellaneous Type Vehicle Endorsement (PP 03 23 09 18, listed for use in Michigan) lets an insurer cover these vehicles under the Personal Auto Policy. [FC&S "Miscellaneous Type Vehicle Endorsement" (Sept. 2018); Wolters Kluwer Personal Automobile Policy Forms and Endorsements index (PP 03 23 09 18, MI listed)]
+  - "Miscellaneous type vehicle" means "a motor home, motorcycle or other similar type vehicle, all-terrain vehicle, dune buggy or golf cart."
+  - ISO rules classify mopeds, motorscooters, motorbikes and go-carts as motorcycles.
+- Snowmobiles are not covered by this endorsement; ISO has a separate Snowmobile Endorsement (PP 03 20 09 18, also listed for Michigan). [FC&S (Sept. 2018); Wolters Kluwer forms index]
+- The endorsement can provide all the usual Personal Auto Policy coverages: liability, medical payments, uninsured motorists, collision and other than collision. A schedule describes each vehicle with its premiums and limits. It can also add physical damage coverage for trailers or pickup camper bodies. [FC&S (Sept. 2018)]
+- Changes the endorsement makes: [FC&S (Sept. 2018); riskeducation.org PP 03 23 summary (Oct. 2022)]
+  - "Your covered auto" includes the miscellaneous type vehicles described in the schedule or declarations.
+  - A non-owned motor home, motorcycle, ATV, dune buggy or golf cart used as a temporary substitute for a covered auto that is out of normal use is also covered.
+  - The exclusion for vehicles with fewer than four wheels or designed mainly for off-road use is removed for the miscellaneous type vehicles shown in the schedule or declarations.
+- Medical payments for someone occupying a vehicle with fewer than four wheels apply only if the endorsement shows that coverage. [FC&S (Sept. 2018)]
+- **Passenger hazard exclusion (optional):** if selected on the endorsement or the declarations, there is no liability coverage for bodily injury to anyone occupying the described vehicle. This matters most for motorcycles carrying a passenger. [FC&S (Sept. 2018); riskeducation.org PP 03 23 summary (Oct. 2022)]
+- Physical damage: [FC&S (Sept. 2018)]
+  - The endorsement adds coverage for a scheduled motor home's facilities and equipment, such as cooking, dining, plumbing and refrigeration facilities and awnings or cabanas, while in or attached to it.
+  - It excludes clothing and luggage, business or office equipment, and sales samples or exhibition articles.
+  - The 2018 edition adds a fungi, wet or dry rot and bacteria exclusion.
+  - Payment is the lesser of the amount shown in the schedule or declarations, the actual cash value, or the cost to repair or replace with like kind and quality.
+  - It is not agreed-value coverage, so high-value classic or antique vehicles are better insured in a specialty market.
+- Michigan law: a motorcycle is not a "motor vehicle" under the no-fault act. Its owner must carry residual bodily injury and property damage liability meeting section 3009(1), and insurers must offer motorcycle owners first-party medical benefits in $5,000 increments. See the `auto` section for motorcycle PIP priority. [MCL 500.3101(3)(i); 500.3103(1)-(2)]
+
+### Alternative Funding > Self-Insured (optional additions)
+- Self-insurance is a formal decision to retain a risk rather than insure it: the firm sets aside money and pays losses from it instead of paying premium. A formalized plan or system to pay losses as they occur distinguishes it from noninsurance and from retention through deductibles. Noninsurance is a deliberate choice not to insure a known exposure, with losses absorbed as a direct expense. [IRMI glossary "self-insurance"; "noninsurance"; "retention"]
+- Self-insured retention (SIR) vs. deductible: [IRMI glossary "self-insured retention (SIR)"]
+  - **SIR:** the insured itself pays defense and indemnity costs until the SIR amount is reached. The insurer then pays further covered costs.
+  - **Deductible:** the insurer pays the claim and then seeks reimbursement of the deductible from the insured.
+  - IRMI's example: with a $100,000 claim, a $25,000 SIR means the insured pays the first $25,000 and the insurer pays $75,000. A $25,000 deductible means the insurer pays $100,000 and bills the insured $25,000.
+- Michigan no-fault self-insurance:
+  - A person with **more than 25** motor vehicles registered in its name may qualify as a self-insurer by obtaining a certificate of self-insurance from the commissioner (DIFS Director). The certificate is issued at the Director's discretion if the Director is satisfied that the person has and will continue to have the ability to pay judgments. [MCL 500.3101d(1)-(2) (2012 PA 204, eff. January 1, 2013)]
+  - The certificate may be canceled on reasonable grounds after at least 5 days' notice and a hearing. Failing to pay a judgment within 30 days after it becomes final is a reasonable ground. [MCL 500.3101d(3)]
+  - The certificate is security equivalent to a no-fault insurance policy. The rules count vehicles registered in Michigan, excluding trailers. [Mich. Admin. Code R 257.532(1)-(2) (eff. March 15, 2018)]
+  - The applicant must also have: a net worth over $15,000,000; a written agreement to comply with the no-fault and financial responsibility laws; no bankruptcy or financial manager in the prior 5 years; a fully funded loss reserve; and excess insurance acceptable to the Director. [Mich. Admin. Code R 257.532(1)-(3) (eff. March 15, 2018)]
+  - Applications go to DIFS on form FIS 2271. [DIFS FIS 2271 (04/25)]
+- The no-fault law also allows security "by any other method approved by the secretary of state as affording security equivalent to that afforded by a policy of insurance," with proof filed and kept with the Secretary of State. The person filing that security has all the obligations and rights of an insurer under the no-fault chapter. [MCL 500.3101(5) (as amended through 2024 PA 224)]
+- Self-insurers share the costs of the assigned claims plan with insurers. [MCL 500.3171(2)]
+- Workers' compensation self-insurance and group self-insurance (MCL 418.611) are covered in the `wc` section.
+
+### Flags
+- The ISO Miscellaneous Type Vehicle Endorsement (PP 03 23 09 18) form text was not available. The bullets come from FC&S's September 2018 analysis of the form and the riskeducation.org summary. The Wolters Kluwer forms index and FC&S both identify PP 03 23 as the Miscellaneous Type Vehicle Endorsement, and this file follows them. The Wolters Kluwer index also lists a Michigan-only "Snowmobile Endorsement/Miscellaneous Type Vehicle" form (PP 03 90 09 18) and a "Motorcycle Medical Payments Coverage – Michigan" form (PP 03 89 09 18), neither of which was read. It does not list the motor home rental amendment (PP 03 28 09 18) for Michigan, so that amendment is omitted here.
+- Boatowners details come from the AAIS BT 0100 form as quoted and analyzed by FC&S in July 2008; other insurers' boat forms were not reviewed. The dollar amounts and eligibility limits are from that 2008 AAIS program and are not tested.
+- The judicial bond and license bond classifications come from FC&S articles dated 2000 and 2010. These are long-standing surety concepts. Michigan's EPIC sections (MCL 700.3603–.3605, .5410) were read in October 2026.
+- 2012 PA 204, effective January 1, 2013, repealed the Michigan Vehicle Code's certificate of self-insurance section (MCL 257.531) and added MCL 500.3101d, under which the commissioner (DIFS Director) issues the certificate. Because the Secretary of State still approves "any other method" of security under MCL 500.3101(5), question comm-oth-15 asks only about the certificate of self-insurance and leaves the Secretary of State out of its options.
 
 ## Flags
 - NFIP: current FEMA Flood Insurance Manual could not be downloaded (Access Denied); deductibles taken from FEMA RR2.0 residential manufactured/mobile home guide — verify against current FIM Sec. 3. Limits ($250k/$100k; $500k/$500k) and ICC $30,000 are statutory/long-standing but subject to change. GFIP amounts change annually (not tested).

@@ -126,6 +126,80 @@ Outline weight: 10.5% (16 items). Concepts below are national and tested in gene
   - HO: a waiver or change must be in writing by the insurer, and requesting an appraisal or examination does not waive the insurer's rights. [ISO HO 00 03 05 11, Sec. I & II Cond. B]
   - WC: terms may be changed or waived only by endorsement. [WC 00 00 00 C, General Section A]
 
+## More outline topics
+
+### Risk Management Key Terms > Risk
+- Risk is the chance of loss or the uncertainty of loss. [National Alliance Research Academy glossary "risk"]
+- Pure risk is the chance of loss or no loss, with no chance of gain. Speculative risk is the chance of loss or gain and is often called a "business risk." [National Alliance Research Academy glossary "pure risk"; "speculative risk"]
+
+### Risk Management Key Terms > Loss
+- A loss is a reduction in value. It is the basis of a claim for damages under the terms of a policy. [National Alliance Research Academy glossary "loss"; IRMI glossary "loss"]
+- Risk managers group losses into four broad types: personnel, property, time element and legal liability. [IRMI glossary "loss"]
+
+### Methods of Handling Risk > Retention
+- Active retention is the planned acceptance of losses, financed internally through deductibles, loss-sensitive insurance plans and deliberate noninsurance. [National Alliance Research Academy glossary "active retention"]
+- Passive retention is the unplanned acceptance of losses because someone failed to identify a risk, failed to act or forgot to act. [National Alliance Research Academy glossary "passive retention"]
+- Self-insurance is a formal decision to retain risk rather than insure it. The firm sets aside its own money to pay losses as they occur. A formalized plan for paying losses distinguishes it from plain noninsurance or deductibles. [IRMI glossary "self-insurance"]
+- Self-insured organizations usually buy excess insurance for losses above the amount they retain. [National Alliance Research Academy glossary "self-insurance"]
+
+### Methods of Handling Risk > Sharing
+- Sharing distributes a potential loss exposure among a number of persons. [National Alliance Research Academy glossary "sharing"]
+
+### Methods of Handling Risk > Transfer
+- Transfer means one party shifts the uncertainty of loss to another party or parties. [National Alliance Research Academy glossary "transfer"]
+- A non-insurance contractual transfer shifts risk through a contract other than an insurance contract, for example a hold harmless agreement in a construction contract. [National Alliance Research Academy glossary "non-insurance contractual transfer"; IRMI glossary "hold harmless agreement"]
+
+### Types of Insurers > Stock Companies
+- A stock company is an incorporated insurer owned by its stockholders. [National Alliance Research Academy glossary "stock company"]
+- The stockholders need not be insureds. Shares of stock companies are usually traded on an organized stock exchange. [IRMI glossary "mutual company"; "stock company"]
+
+### Types of Insurers > Mutual Companies
+- A mutual company is an incorporated insurer owned by its policyholders. [National Alliance Research Academy glossary "mutual company"]
+
+### Authority and Powers of Producers > Express
+- Express authority may be given orally or in writing. [National Alliance Research Academy glossary "express authority"; Cornell LII Wex "express authority"]
+
+### Authority and Powers of Producers > Implied
+- Implied authority is a type of actual authority. When a principal expressly authorizes a task, the agent also has authority to take any steps reasonably necessary to complete it. [Cornell LII Wex "implied authority"]
+- Implied authority can also arise from a job title, or from the principal's failure to object to the agent's past actions. [Cornell LII Wex "implied authority"; IRMI glossary "implied authority"]
+
+### Elements of a Legal Contract > Offer and Acceptance
+- Under Michigan law, an application for insurance is a mere offer, which must be accepted before a contract of insurance exists. As a general rule, the insurer's silence or inaction is not acceptance. [Gorham v Peerless Life Ins Co, 368 Mich 335 (1962)]
+- Michigan exception: if the applicant paid the first premium with the application, and the insurer keeps it while delaying unreasonably, the law may imply acceptance. Whether a delay is unreasonable is a question of fact. [Gorham, 368 Mich 335 (1962); Wadsworth v New York Life Ins Co, 349 Mich 240 (1957), as quoted in Gorham]
+- The underwriter uses the application to decide whether the applicant qualifies for acceptance. [National Alliance Research Academy glossary "application"]
+
+### Elements of a Legal Contract > Competent Parties
+- A competent party has the legal capacity to enter into a contract: legal age, the mental capacity to understand the contract, and freedom from duress. [National Alliance Research Academy glossary "competent party"]
+- In Michigan, a person who is at least 18 is an adult of legal age for all purposes. That person has the legal capacity formerly acquired at 21. [MCL 722.52(1)]
+
+### Elements of a Legal Contract > Legal Purpose
+- An enforceable contract needs four things: competent parties, agreement (assent), legal consideration and a legal purpose. [National Alliance Research Academy glossary "contract law"]
+- Michigan courts treat contracts founded on acts a statute prohibits, or contracts that violate public policy, as void or unenforceable. [Maids Int'l, Inc v Saunders, Inc, 224 Mich App 508 (1997), citing Mahoney v Lincoln Brick Co, 304 Mich 694 (1943); Terrien v Zwit, 467 Mich 56 (2002)]
+
+### Distinct Characteristics > Personal Contract
+- The ISO forms use the same assignment wording: "Assignment of this policy will not be valid unless we give our written consent." [ISO HO 00 03 05 11 and HO 00 02 10 00, Secs. I & II Conditions, E. Assignment; ISO DP 00 01 07 88, Condition 21. Assignment]
+
+### Distinct Characteristics > Conditional Contract
+- In a conditional contract, the insurer's promise depends on certain things occurring or being done. [National Alliance Research Academy glossary "conditional contract"]
+
+### Legal Interpretations > Indemnity
+- Indemnity restores an injured party to the financial position it had before a loss, by reimbursing the amount of the loss. [National Alliance Research Academy glossary "indemnity"]
+- Other-insurance clauses apply the principle. Under the HO form, when other insurance also covers a loss, each policy pays only the proportion of the loss that its limit bears to the total insurance. [IRMI glossary "other insurance clause" (these clauses exist to comply with the principle of indemnity); ISO HO 00 03 05 11, Sec. I Cond. G]
+
+### Legal Interpretations > Utmost Good Faith
+- In a contract of utmost good faith, the parties rely heavily on each other's honesty and integrity. [National Alliance Research Academy glossary "utmost good faith"]
+
+### Legal Interpretations > Representations/Misrepresentations
+- Michigan defines a representation as a statement of past or present fact, made to the insurer by the applicant or with the applicant's authority, at or before the making of the contract, as an inducement to make it. A misrepresentation is a false representation. [MCL 500.2218(2)]
+- Evidence of the insurer's own practice in accepting or rejecting similar risks may be used to decide whether a misrepresentation is material. [MCL 500.2218(3)]
+
+### Legal Interpretations > Warranties
+- A warranty promises or guarantees that something is absolutely true, or will be true in the future. [National Alliance Research Academy glossary "warranty"]
+
+### Legal Interpretations > Fraud
+- Fraud is an intentional manipulation of the truth that someone relies on to their detriment. By contrast, the glossary defines a misrepresentation simply as a misstatement of facts about the subject of insurance. [National Alliance Research Academy glossary "fraud"; "misrepresentations"]
+- Every fire insurance policy issued or delivered in Michigan must state that it may be void because of misrepresentation, fraud or concealment. [MCL 500.2833(1)(c)]
+
 ## Flags
 - **Reasonable expectations in Michigan**: the PSI outline lists this as a generic concept. Michigan's Supreme Court in Wilkie (2003) declined to adopt the doctrine. Exam answers should use the generic definition. We did not read the full Wilkie opinion; secondary sources consistently report the holding.
 - **Elements of insurable risk**: the six-item list comes from a standard textbook (Rejda). Other texts phrase or number the items differently.
@@ -416,6 +490,187 @@ Outline weight: 20% (30 items). The Michigan-law sub-block (MPCGA, 500.2833 fire
   - If the claimant rejected an offer and later recovers no more than that offer, no interest is due. [MCL 500.2006(4)]
   - Where 500.2006 is specifically inconsistent with the No-Fault Act (ch. 31) or the WDCA, it does not apply. [MCL 500.2006(6)]
 
+## More outline topics
+
+### Hazards > Physical
+- **Physical hazard**: the material, structural, or operational features of a business that may create or increase the opportunity for injury or damage. IRMI's examples of hazards are poor housekeeping in a factory and inadequate lighting in a crime-prone area. [IRMI "physical hazard"; IRMI "hazard"]
+- A **peril** is the cause of loss (fire, windstorm, collision). A hazard is a condition that increases the chance of loss from a peril. [IRMI "peril"; IRMI "hazard"]
+
+### Hazards > Moral
+- Moral hazard is measured by the insured's character and by the circumstances of the insurance, especially how much the insured could lose or gain from a loss. Insurance on a thriving business carries less moral hazard than insurance on an unprofitable one. [IRMI "moral hazard"]
+
+### Loss Valuation > Stated Amount
+- **ISO Stated Amount Insurance endorsement (commercial auto, 2010 edition)**: for a scheduled auto, the most the insurer pays for a loss in any one accident is the least of (1) the actual cash value of the damaged or stolen property at the time of loss, (2) the cost of repairing or replacing it with property of like kind and quality, or (3) the Limit of Insurance (stated amount) shown in the Schedule. ACV for a total loss is adjusted for depreciation and physical condition, and the insurer does not pay for betterment. [ISO CA 99 28 03 10, B.1–3]
+- The deductible is subtracted from the actual cash value, from the repair or replacement cost, or from the damages otherwise payable, before the stated amount (Limit of Insurance) is applied. [ISO CA 99 28 03 10, C.1]
+- The endorsement's schedule warns that the stated amount "is not necessarily the amount you will receive at the time of 'loss'." So stated amount is a ceiling, not agreed value. [ISO CA 99 28 03 10, Schedule note]
+- Carrier stated-value forms follow the same rule. For example, one carrier's endorsement pays the lesser of the stated value, the actual cash value, or the repair/replace cost, and warns that the scheduled amount "may not be the amount you will receive as a result of loss or damage." [Essentia Insurance Co. AC 129 01 24 "Stated Value" endorsement]
+- *Worked example*: stated amount $50,000, actual cash value $42,000, like-kind replacement $45,000, $1,000 deductible, total loss. The least amount is the actual cash value, so the insurer pays $42,000 − $1,000 = **$41,000**. [method per ISO CA 99 28 03 10, B and C]
+- Edition note: the wording above was read in the 2010 edition (Virginia SCC specimen copy, via the Internet Archive). A forms index lists a November 2020 edition (CA 99 28 11 20) for Michigan and most other states; its text was not retrieved. [Wolters Kluwer Commercial Automobile Policy Forms and Endorsements index; retrieval note, 2026-10-13]
+
+### Policy Structure > Definitions
+- The Personal Auto Policy, Building and Personal Property Coverage Form, and CGL form all say that words in quotation marks are defined terms. The BPP sends the reader to Section H. Definitions, and the CGL to Section V – Definitions. [ISO CP 00 10 10 12, preamble; ISO CG 00 01 04 13, preamble; ISO PP 00 01 09 18, Definitions]
+- **"You" and "your"**:
+  - Personal Auto Policy and Homeowners: the named insured shown in the Declarations and the spouse if a resident of the same household. [ISO PP 00 01 09 18, Definitions A; ISO HO 00 03 05 11, Definitions A]
+  - BPP: the Named Insured shown in the Declarations. CGL: the Named Insured plus any other person or organization qualifying as a Named Insured. [ISO CP 00 10 10 12, preamble; ISO CG 00 01 04 13, preamble]
+- **PAP spouse rule**: a spouse who stops living in the household stays "you" only until the earliest of:
+  - 90 days after the change of residency,
+  - the effective date of another policy listing the spouse as a named insured, or
+  - the end of the policy period.
+
+  [ISO PP 00 01 09 18, Definitions A]
+- **"Family member" (PAP)**: a person related to you by blood, marriage or adoption who is a resident of your household, including a ward or foster child. [ISO PP 00 01 09 18, Definitions F]
+
+### Policy Structure > Insuring Agreement or Clause
+- **CGL Coverage A insuring agreement**: "We will pay those sums that the insured becomes legally obligated to pay as damages because of 'bodily injury' or 'property damage' to which this insurance applies." It also gives the insurer the right and duty to defend. [ISO CG 00 01 04 13, Sec. I, Cov. A.1.a]
+
+### Policy Structure > Conditions
+- **HO-3 Section I – Conditions** include, among others:
+  - B. Deductible
+  - C. Duties After Loss: prompt notice; a signed, sworn proof of loss within 60 days after the insurer's request
+  - I. Our Option
+  - J. Loss Payment
+  - Q. Policy Period
+  - S. Loss Payable Clause
+
+  [ISO HO 00 03 05 11, Section I – Conditions]
+- **HO-3 Sections I and II – Conditions** include E. Assignment. [ISO HO 00 03 05 11, Sections I and II – Conditions]
+- **CGL Section IV conditions**:
+  1. Bankruptcy
+  2. Duties In The Event Of Occurrence, Offense, Claim Or Suit
+  3. Legal Action Against Us
+  4. Other Insurance
+  5. Premium Audit
+  6. Representations
+  7. Separation Of Insureds
+  8. Transfer Of Rights Of Recovery Against Others To Us
+  9. When We Do Not Renew
+
+  [ISO CG 00 01 04 13, Sec. IV]
+
+### Policy Structure > Endorsements
+- **Common Policy Conditions, B. Changes**:
+  - The policy contains all the agreements between the insured and the insurer.
+  - The first Named Insured may change the policy's terms only with the insurer's consent.
+  - The terms can be amended or waived only by an endorsement issued by the insurer and made part of the policy.
+
+  [ISO IL 00 17 11 98, B]
+- **PAP**: the policy's terms may not be changed or waived except by an endorsement issued by the insurer. [ISO PP 00 01 09 18, Part F, Changes A]
+
+### Common Policy Provisions > Policy Period
+- **PAP**: the policy applies only to accidents and losses that occur both during the policy period shown in the Declarations and within the policy territory. [ISO PP 00 01 09 18, Part F, Policy Period and Territory A]
+- **CGL (occurrence form)**: the bodily injury or property damage must be caused by an "occurrence" in the coverage territory and must occur during the policy period. [ISO CG 00 01 04 13, Sec. I, Cov. A.1.b(1)–(2)]
+- **HO Section II**: applies only to bodily injury or property damage that occurs during the policy period. [ISO HO 00 03 05 11, Section II – Conditions, I]
+- **Commercial Property**: covers loss or damage commencing during the policy period. [ISO CP 00 90 07 88, H.1]
+
+### Common Policy Provisions > Policy Territory
+- **PAP policy territory**: the United States of America, its territories or possessions; Puerto Rico; or Canada. It also covers a covered auto while it is being transported between their ports. Mexico is not included. [ISO PP 00 01 09 18, Part F, Policy Period and Territory B]
+- **CGL "coverage territory"**:
+  - (a) The United States (including its territories and possessions), Puerto Rico and Canada.
+  - (b) International waters or airspace, but only during travel between places in (a).
+  - (c) All other parts of the world, if the injury or damage arises out of one of the following:
+    - goods or products the insured made or sold in (a);
+    - the activities of a person whose home is in (a) but who is away for a short time on the insured's business; or
+    - personal and advertising injury offenses through the Internet or similar electronic means.
+  - Under (c), the insured's responsibility to pay damages must be determined in a suit on the merits in (a), or in a settlement the insurer agrees to.
+
+  [ISO CG 00 01 04 13, Sec. V.4]
+
+### Common Policy Provisions > Deductibles
+- The deductible is subtracted from the loss before the insurer pays, up to its limits. Usually the deductible is not subtracted from the policy limit. [IRMI "deductible"]
+- **BPP Example 2**: the limit is $60,000, the deductible $250, and the loss $70,000. The loss minus the deductible is $69,750, so the insurer pays the **$60,000** limit. [ISO CP 00 10 10 12, D, Example 2]
+- **BPP Example 1**: the deductible is $250, with limits of $60,000 on Building 1 and $80,000 on Building 2.
+  - Building 1 has a $60,100 loss, which is less than its limit plus the deductible ($60,250). It is paid $59,850.
+  - Building 2 has a $90,000 loss. It is paid its $80,000 limit.
+  - Total paid: $139,850.
+
+  [ISO CP 00 10 10 12, D, Example 1]
+- **BPP multiple items**: when separate limits apply to the damaged items, the losses are not combined to apply the deductible. The deductible is still applied only once per occurrence. [ISO CP 00 10 10 12, D]
+
+### Other Insurance > Nonconcurrency
+- IRMI's example of why nonconcurrency matters involves an umbrella. If the umbrella and the underlying policies have different terms, a loss under an underlying policy's annual aggregate can use up part of the limit the umbrella requires underneath it, which violates the umbrella's underlying-limits requirement. [IRMI "nonconcurrency"]
+
+### Limits of Liability > Per Occurrence (Accident)
+- **Per occurrence limit**: the most the insurer pays for all claims from a single occurrence, no matter how many people are injured, how much property is damaged, or how many claimants there are. It is normally used with CGL insurance. [IRMI "per occurrence limit"]
+- **PAP Part A limits**:
+  - The each-person bodily injury limit is the most paid for one person's bodily injury in any one auto accident.
+  - Subject to that, the each-accident bodily injury limit is the most paid for all bodily injury from the accident.
+  - The each-accident property damage limit is the most paid for all property damage from the accident.
+  - These are the most the insurer will pay regardless of the number of insureds, claims, vehicles or premiums shown in the Declarations, or vehicles involved.
+
+  [ISO PP 00 01 09 18, Part A, Limit of Liability A]
+
+### Limits of Liability > Split
+- **Split limits** set three amounts for each accident, in this order:
+  1. per person (bodily injury to any one person);
+  2. per occurrence for all injured persons; and
+  3. per occurrence for property damage.
+
+  For example, $50,000/$100,000/$25,000. [IRMI "split limits"]
+- *Worked example*: limits are 50/100/25. One accident causes bodily injury of $70,000 and $40,000 and property damage of $30,000.
+  - Bodily injury: $50,000 + $40,000 = $90,000, which is within the $100,000 per-accident limit.
+  - Property damage: capped at $25,000.
+  - Total: **$115,000**.
+
+  [method per IRMI "split limits"; ISO PP 00 01 09 18, Part A]
+
+### Limits of Liability > Combined Single
+- **Combined single limit**: a single dollar limit that applies to any combination of bodily injury and property damage liability claims. Split limits instead apply three separate amounts per accident. [IRMI "combined single limits"]
+- **Business Auto Coverage Form**: "Regardless of the number of covered 'autos', 'insureds', premiums paid, claims made or vehicles involved in the 'accident', the most we will pay for the total of all damages and 'covered pollution cost or expense' combined resulting from any one 'accident' is the Limit Of Insurance for Covered Autos Liability Coverage shown in the Declarations." [ISO CA 00 01 10 13, Sec. II.C]
+
+### Common Policy Provisions > Property Limits
+- **BPP Limits of Insurance** [ISO CP 00 10 10 12, C]:
+  - The most paid for loss or damage in any one occurrence is the applicable Limit of Insurance shown in the Declarations.
+  - Outdoor signs, attached or not, are limited to $2,500 per sign in any one occurrence.
+  - The amounts for these Additional Coverages are separate from the Limit of Insurance: Fire Department Service Charge, Pollutant Clean-up and Removal, Increased Cost of Construction, and Electronic Data.
+  - Payments under Preservation of Property do not increase the applicable Limit of Insurance.
+
+### Named Insured Provisions > Assignment
+- **Assignment**: a transfer of legal rights under, or interest in, a policy to another party. In most cases it can be made only with the insurer's written consent. [IRMI "assignment"]
+- **PAP**:
+  - The insured's rights and duties may not be assigned without the insurer's written consent.
+  - If a named insured dies, coverage continues until the end of the policy period for the surviving spouse (if resident in the same household at the time of death).
+  - It also continues for the legal representative, but only for the representative's legal responsibility to maintain or use "your covered auto."
+
+  [ISO PP 00 01 09 18, Part F, Transfer of Your Interest in This Policy]
+- **Common Policy Conditions**:
+  - Rights and duties may not be transferred without the insurer's written consent, except when an individual named insured dies.
+  - They then pass to the legal representative, while acting within the scope of that role.
+  - Until a representative is appointed, anyone with proper temporary custody of the property has those rights and duties for that property.
+
+  [ISO IL 00 17 11 98, F]
+
+### Insurer Provisions > Salvage
+- **Salvage**: property after it has been partially damaged by an insured peril such as fire. As a verb, it means to save endangered property and to protect damaged property from further loss. [IRMI "salvage"]
+- **Insurer's right to take damaged property**:
+  - PAP: the insurer "may keep all or part of the property at an agreed or appraised value." [ISO PP 00 01 09 18, Part D, Payment of Loss]
+  - BPP: the insurer may "take all or any part of the property at an agreed or appraised value." [ISO CP 00 10 10 12, E.4.a(3)]
+- **Michigan salvage titles: insurer takes the vehicle** [MCL 257.217c(2)(a)]:
+  - Applies when an insurer licensed in Michigan acquires ownership of a late model vehicle by paying a claim. A stolen and recovered vehicle with no major component part removed, missing, destroyed, or damaged and not salvageable is excepted.
+  - The owner must assign the title to the insurer. The insurer surrenders it to the Secretary of State.
+  - The insurer applies for a salvage title if the estimated repair cost is at least 75% but less than 91% of the predamaged actual cash value, or a scrap title if it is 91% or more.
+  - The insurer may not sell the vehicle without first receiving that title.
+  - It may assign the title only to an automotive recycler, used or secondhand vehicle parts dealer, foreign salvage vehicle dealer, or vehicle scrap metal processor.
+- **Michigan salvage titles: owner keeps the vehicle**: if the owner keeps the vehicle after a total loss payment, the insurer has the owner sign the salvage or scrap title application and applies for that title in the owner's name. [MCL 257.217c(2)(b)]
+- **Title not surrendered**: if the owner or lienholder does not surrender the title within 30 days after a total loss payment, the insurer may apply for a title. It must give proof of payment and proof that it requested the title in writing on at least 2 separate occasions. [MCL 257.217c(3)]
+
+### Insurer Provisions > Claim Settlement Options
+- **PAP Payment of Loss**:
+  - The insurer may pay for loss in money or repair or replace the damaged or stolen property.
+  - It may return stolen property at its expense, and then pays for any damage from the theft.
+  - It may keep all or part of the property at an agreed or appraised value.
+  - A money payment includes the applicable sales tax.
+
+  [ISO PP 00 01 09 18, Part D, Payment of Loss]
+- **PAP physical damage limit**: the lesser of the actual cash value or the amount needed to repair or replace the property with like kind and quality. The most paid is $1,500 for a non-owned trailer and $1,000 for permanently installed electronic equipment in locations not used by the auto manufacturer. [ISO PP 00 01 09 18, Part D, Limit of Liability A]
+
+### Policy Provisions > Indemnification Provisions (hold harmless)
+- Broad form hold harmless agreements are unenforceable in a number of states. [IRMI "hold harmless agreement"]
+- **Michigan anti-indemnity statute**:
+  - In a contract for the design, construction, alteration, repair, or maintenance of a building, structure, highway, road, bridge, water or sewer line, or other improvement to real property, a provision that indemnifies the promisee against liability for bodily injury or property damage caused by the promisee's own sole negligence is void and unenforceable.
+  - A public entity may not require its Michigan-licensed architect, professional engineer, landscape architect, or professional surveyor, or its contractor, to defend the public entity or any other party from claims, or to assume liability or indemnify for any amount greater than the degree of fault of that party and its subconsultants or subcontractors.
+
+  [MCL 691.991(1)–(2), as amended by 2012 PA 468, eff. Mar. 1, 2013]
+
 ## Flags
 - **ISO editions used**:
   - CP 00 10 10 12 (copy at propertyinsurancecoveragelaw.com)
@@ -684,6 +939,82 @@ Outline weight: 5% (8 items). Statute text is from legislature.mi.gov ("MCL comp
   - Standard premium = manual premium adjusted by the experience mod. Example: $10,000 × 0.85 = $8,500. [IRMI "standard premium"]
 - **Premium discount**: a volume discount reflecting lower expense ratios on larger policies. It is applied after experience rating, to standard premium, at graduated rates. In the Michigan Placement Facility, discount applies only when total standard premium exceeds $10,000 (0% on the first $10,000, then 5.1% / 6.5% / 7.5% bands). Voluntary-market insurers file their own discount tables. It is not available with retrospective rating. [CAOM MWCPF Basic Manual (Ed. 09/26) Rule Seven C-D and Premium Discount Table; MCL 500.2406(3); IRMI "premium discount"]
 - **Audit**: payroll audit after expiration sets the earned (final) premium. [IRMI "payroll audit"; WC 00 00 00 C Part Five G]
+
+## More outline topics
+
+- **Edition note:** the 2026 MWCPF Basic Manual (Ed. 09/26) still reproduces the Workers Compensation and Employers Liability Insurance Policy as form WC 00 00 00 C, the form number of NCCI's Ed. 1-15 policy (the manual's copy prints the form number but not the edition date), and its Part Five G and Part Six A text substantively matches Ed. 1-15. The audit-period question names the 2015 edition because the 3-year figure was checked only in that edition. [MWCPF Basic Manual (Ed. 09/26), Part Four – Policy and Endorsement Forms, E "Policy and Endorsement Numbering System", and the reproduction of WC 00 00 00 C in that Part]
+
+### MI WDCA > Covered Injuries (418.301)
+- An injury from an activity whose major purpose is social or recreational is not covered, even on the employer's premises. A lawsuit for such an injury is "not subject to section 131", so the exclusive-remedy rule does not bar it. [MCL 418.301(3)]
+- For a disease, or an injury not attributable to a single event, the "date of injury" is the last day of work in the employment in which the employee was last subjected to the conditions that caused the disability or death. [MCL 418.301(1)]
+- The Act pays for an injury "arising out of and in the course of employment". It does not require proof of the employer's negligence, and the employee's own ordinary carelessness does not bar compensation. Only an injury caused by the employee's intentional and willful misconduct is not compensable. [MCL 418.301(1); MCL 418.305]
+
+### MI WDCA > Occupational Disease (418.401-.441)
+- If liability for an occupational disease is disputed, the employee claims against, and applies for a hearing against, the last employer only. [MCL 418.435]
+- The 2-year occupational disease claim period runs from the date the employee or dependents knew, reasonably believed, or with ordinary diligence could have discovered that the disease or death was work related. It does not run from the date of exposure or the last day of work. Otherwise, occupational disease claims follow the same claim requirements as other injuries. [MCL 418.441(1)-(2)]
+
+### Federal Laws > FELA
+- FELA's liability section applies to common carriers by railroad engaged in interstate or foreign commerce. (The Jones Act separately applies the federal railway-employee laws to seamen's suits.) [45 USC 51; 46 USC 30104(a)]
+- An employee of such a carrier is covered if any part of the employee's duties furthers that commerce, or directly or closely and substantially affects it. [45 USC 51]
+- An employee is not held to have assumed the risks of employment when the injury resulted in whole or in part from the carrier's negligence, or when the carrier's violation of a safety statute contributed to the injury. [45 USC 54]
+
+### Federal Laws > USL&HW Act
+- A covered "employee" is any person in maritime employment, including longshoremen and other persons in longshoring operations, and harbor workers such as ship repairmen, shipbuilders and ship-breakers. [33 USC 902(3)]
+- These workers are excluded if a state workers' compensation law covers them [33 USC 902(3)(A)-(F)]:
+  - individuals employed exclusively to perform office clerical, secretarial, security or data processing work;
+  - employees of a club, camp, recreational operation, restaurant, museum or retail outlet;
+  - marina employees not engaged in construction, replacement or expansion of the marina;
+  - certain suppliers, transporters and vendors temporarily on the premises;
+  - aquaculture workers;
+  - recreational-vessel builders (vessels under 65 feet) and recreational-vessel repairers.
+- These workers are always excluded [33 USC 902(3)(G)-(H)]:
+  - a master or crew member of any vessel (covered by the Jones Act instead);
+  - a person engaged by a master to load, unload or repair a small vessel under 18 tons net.
+- No compensation is payable to an officer or employee of the United States, of a state, or of a foreign government. [33 USC 903(b)]
+- No compensation is payable if the injury was caused solely by the employee's intoxication or by the employee's willful intent to injure or kill himself or herself or another. [33 USC 903(c)]
+- If a subcontractor fails to secure compensation, the contractor is liable for it and must secure it. [33 USC 904(a)]
+- The standard policy provides Longshore Act coverage only when the Longshore and Harbor Workers' Compensation Act Coverage Endorsement (WC 00 01 06 A) is added. The act is not entered in Item 3.A. In the Michigan Placement Facility, this coverage is available only as an adjunct to state-act coverage. [MWCPF Basic Manual (Ed. 09/26), Rule Two A; Rule Eleven A-B]
+
+### WC & EL Policy > General Section
+- The Michigan Law Endorsement (WC 21 03 04) applies when Michigan is shown in Item 3.A. In it, the insurer agrees to pay all compensation, medical, rehabilitation and last-sickness/burial expenses the employer owes under the Michigan Act. The policy is deemed to cover all businesses the employer is engaged in when the policy is issued or during its term, and all of the employer's employees in those businesses. [WC 21 03 04, items a-f, as reproduced in the MWCPF Basic Manual (Ed. 09/26); MCL 418.621(4)]
+
+### WC & EL Policy > Part Five - Premium
+- The employer must pay all premium when due, even if part or all of a workers compensation law is not valid. [WC 00 00 00 C (Ed. 1-15), Part Five D]
+- The employer must keep the records needed to compute premium and provide copies when the insurer asks. [WC 00 00 00 C (Ed. 1-15), Part Five F]
+- Final premium will not be less than the highest minimum premium for the classifications covered. [WC 00 00 00 C (Ed. 1-15), Part Five E]
+- Insurance rate service organizations have the same audit rights as the insurer. [WC 00 00 00 C (Ed. 1-15), Part Five G]
+- The policy's cancellation premium rules (pro rata if the insurer cancels; short rate if the employer cancels) apply "unless our manuals provide otherwise". The Michigan Placement Facility computes premium pro rata, even when the insured cancels, if any of these applies [WC 00 00 00 C (Ed. 1-15), Part Five E; MWCPF Basic Manual (Ed. 09/26), Rule Ten C]:
+  - the covered work is completed;
+  - the business is sold;
+  - the insured retires;
+  - the insured places the coverage in the voluntary market;
+  - the insured no longer has employees.
+- If an employer does not comply with the policy's audit condition, a Placement Facility servicing carrier may apply an Audit Noncompliance Charge of up to 2 times the estimated annual premium. The charge requires that the Audit Noncompliance Charge Endorsement (WC 00 04 24) was attached at inception and that two documented audit attempts were made. [MWCPF Basic Manual (Ed. 09/26), Rule Five H.2]
+
+### WC & EL Policy > Part Six - Conditions
+- Insurance rate service organizations have the same inspection rights as the insurer. [WC 00 00 00 C (Ed. 1-15), Part Six A]
+- In the Placement Facility, a one-year policy may be extended by at most 16 days, and no policy may be issued for longer than 1 year and 16 days. The policy's Long Term Policy condition therefore does not come into play there. [MWCPF Basic Manual (Ed. 09/26), Rule Three C; WC 00 00 00 C (Ed. 1-15), Part Six B]
+
+### Premium Computation > Premium Discounts
+- For the premium discount rule, "total standard premium" is the premium at authorized rates, plus additional coverages such as increased employers liability limits, adjusted by any experience modification and minimum premiums. The expense constant is excluded unless it is part of a minimum premium. [MWCPF Basic Manual (Ed. 09/26), Rule Seven B.1]
+- The expense constant is not subject to premium discount, the experience modification or retrospective rating. [MWCPF Basic Manual (Ed. 09/26), Rule Six D.3]
+- Policies issued to two or more legal entities eligible for combination may be combined to compute the premium discount. The policies must share a common expiration date and the same servicing carrier. [MWCPF Basic Manual (Ed. 09/26), Rule Seven E]
+- Manual arithmetic example: a total standard premium of $95,243 with a 4.60% discount gives a discount of $4,381. The expense constant ($200) is added after the discount. [MWCPF Basic Manual (Ed. 09/26), Rule Six I, arithmetic example]
+
+### Other Sources > Self-Insured Employers and Groups (418.611)
+- In the Act, "director" means the director of the bureau created by §201. Executive reorganization orders moved those powers to what is now the Workers' Disability Compensation Agency, in the Department of Labor and Economic Opportunity (E.R.O. 2003-1; E.R.O. 2019-3). This director is not the DIFS Director. [MCL 418.201 and compiler's notes]
+- For an individual self-insurer, the director may require security in any of these forms [MCL 418.611(1)(a)]:
+  - specific excess insurance;
+  - aggregate excess insurance through an authorized carrier;
+  - a surety bond;
+  - an irrevocable letter of credit;
+  - claims payment guarantees.
+- Public employers "of the same type of unit" may also form a group, for example [MCL 418.611(2)]:
+  - cities, townships, counties and villages and their agencies and authorities;
+  - universities, colleges, community colleges and local or intermediate school districts.
+- Each private employer member of a group must sign a written agreement to be jointly and severally liable for any lawful award against a member of the group, upheld if appealed. An award against a public employer member is a liability of the group jointly but not severally. [MCL 418.611(2)]
+- An authorized group self-insurer may also provide employers liability coverage for its members. [MCL 418.611(2)]
+- An employee's agreement to waive the right to compensation is not valid, except for the after-injury elections that §161 allows. [MCL 418.815]
 
 ## Flags
 - **2026 maximum weekly rate ($1,201; SAWW $1,333.88)**:

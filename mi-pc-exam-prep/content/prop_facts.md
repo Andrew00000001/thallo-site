@@ -442,6 +442,30 @@ Editions used:
   - Additional coverages: claim expenses, including loss of earnings up to **$250/day**; first aid; **damage to property of others up to $1,000** at replacement cost.
   - Its definitions and exclusions mirror HO Section II.
 
+## More outline topics
+
+### Selected Endorsements > Special Provisions - Michigan
+- ISO's state **Special Provisions** endorsements for the dwelling forms are numbered **DP 01 XX**, where XX is the number assigned to the state. They carry the state-mandated changes that remain, **notably to cancellation and nonrenewal**. [FC&S, "Dwelling Property Forms—Exclusions and Endorsements" (Aug. 12, 2024)]
+- Michigan's endorsement is **DP 01 21 Special Provisions – Michigan**. The current edition is **05 23**. [Wolters Kluwer, Dwelling Policy Forms and Endorsements index (Oct. 2026)]
+- The same index lists a separate DL-series form for Michigan, **DL 01 21 (11 14 edition)**, also titled Special Provisions – Michigan. DL is the series of the dwelling program's liability forms, which includes the Personal Liability Supplement (DL 24 01). [Wolters Kluwer, Dwelling Policy Forms and Endorsements index (Oct. 2026)]
+- The base dwelling forms listed for Michigan are the **07 14** editions of DP-1, DP-2 and DP-3 (DP 00 01, 00 02 and 00 03). [Wolters Kluwer, Dwelling Policy Forms and Endorsements index (Oct. 2026)]
+- We did not obtain the text of DP 01 21. Do not assume it repeats the homeowners endorsement (HO 01 21). Whatever it says, a Michigan fire policy must include the statutory provisions listed in the mi section of this guide: [MCL 500.2833(1)]
+  - payment within 30 days after proof of the amount of loss, except as Michigan's fire-loss withholding law provides; [MCL 500.2833(1)(p); MCL 500.2845]
+  - suit within 1 year or the policy's longer period, tolled from notice of loss until formal denial; [MCL 500.2833(1)(q)]
+  - competent, independent appraisers; if they cannot agree on an umpire within 15 days, either party may ask a circuit judge to select one; [MCL 500.2833(1)(m)]
+  - insurer cancellation on at least 10 days' notice; [MCL 500.2833(1)(i)]
+  - a minimum earned premium of the pro rata premium or $25, whichever is greater; [MCL 500.2833(1)(h)–(i)]
+  - an effective time of 12:01 a.m. standard time at the property's location. [MCL 500.2833(1)(s)]
+- **Home insurance termination:** if the dwelling policy is "home insurance", Michigan's termination rule also applies. [MCL 500.2103(2)–(3); MCL 500.2123]
+  - "Home insurance" includes fire insurance on an insured's dwelling of a type listed in the eligible-person definition: a house, condominium unit, cooperative unit, room or apartment of an owner-occupant or tenant, or an **owner-occupied** multiple-unit dwelling of not more than 4 residential units. [MCL 500.2103(2)–(3)]
+  - Except as the next two points provide, a termination needs at least **30 days'** written notice stating the effective date and each specific reason. [MCL 500.2123(1)]
+  - A notice mailed or delivered within the first **55 days** after the policy is first issued may take effect after not less than **20 days**. [MCL 500.2123(2)]
+  - Cancellation for nonpayment takes effect as the policy provides. [MCL 500.2123(3)]
+  - By contrast, the unendorsed DP-3 lets the insurer cancel a policy that has been in effect less than 60 days, and is not a renewal, for any reason on 10 days' notice. That is less notice than Michigan requires for home insurance. [ISO DP 00 03 07 14, Conditions P.2.b; MCL 500.2123(1)–(2)]
+- **Innocent co-insured (fire loss):** the unendorsed DP-3 denies coverage to every insured for an intentional loss, even those who took no part in it. Under its Concealment or Fraud condition, one insured's fraud voids coverage for all insureds. [ISO DP 00 03 07 14, General Exclusions A.8; Conditions C]
+  - Michigan courts hold that the fire policy law (MCL 500.2833(2), which keeps the coverage of the former standard fire policy) requires coverage for innocent co-insureds, despite any policy exclusion for intentional acts or fraud by an insured. [Wilson v. State Farm Fire & Cas. Co., No. 2:17-cv-11243 (E.D. Mich. Nov. 21, 2019), quoting Hicks v. Auto Club Grp. Ins. Co. (Mich. Ct. App. Jan. 24, 2012) and following Williams v. Auto Club Grp. Ins. Co., 224 Mich App 313 (1997)]
+  - We could not verify how DP 01 21 itself words this point. [Flag: DP 01 21 text not seen]
+
 ## Flags
 - **Editions:**
   - The current ISO dwelling forms are the 07 14 editions (DP 00 01/02/03 07 14). We verified DP-3 in both 12 02 and 07 14.
@@ -772,6 +796,38 @@ Editions used:
   - **wrongful eviction or entry**.
   - HO 24 10 is the same but with an aggregate limit.
 - **Home Business Insurance Coverage (HO 07 01):** a self-contained, extensive endorsement providing **property and liability** coverage for a described business operated in the residence or in an other structure on the residence premises. [PF&M 2014]
+
+## More outline topics
+
+### Selected Endorsements > Special Provisions - Michigan
+- Michigan's amendatory endorsement is **HO 01 21 Special Provisions – Michigan**. [Wolters Kluwer, Homeowners Policy Forms and Endorsements index (Oct. 2026)]
+  - The current edition is **05 23**. [Wolters Kluwer, Homeowners Policy Forms and Endorsements index (Oct. 2026)]
+  - The edition for the 2011 program was **HO 01 21 05 11**. [FC&S, "Special Provisions—Variations by State" (Sept. 1, 2011)]
+  - The base forms listed for Michigan are the **03 22** editions (2022 program) of HO-2, HO-3, HO-4, HO-5 and HO-6. The index does not list Michigan for the 03 22 HO-8. [Wolters Kluwer, Homeowners Policy Forms and Endorsements index (Oct. 2026)]
+- **History:** ISO revised HO 01 21 for policies written on or after **April 1, 1999**, in response to *Williams v. Auto Club Group Ins. Co.* (Mich. App. 1997). The revision amended the Intentional Loss exclusion and the Concealment or Fraud condition. They now cover innocent insureds who did not take part in, or direct, the intentional act that caused a covered **fire** loss. [Rough Notes, "ISO Form and Endorsement Changes" (March 1999)]
+- **Innocent co-insured law:** Michigan courts hold that the fire policy law (MCL 500.2833(2)) requires coverage for innocent co-insureds, despite any policy exclusion for intentional acts or fraud by an insured. [Wilson v. State Farm Fire & Cas. Co., No. 2:17-cv-11243 (E.D. Mich. Nov. 21, 2019), quoting Hicks v. Auto Club Grp. Ins. Co. (Mich. Ct. App. 2012) and following Williams, 224 Mich App 313 (1997)]
+  - Without the endorsement, the ISO HO-3 denies coverage to every insured for an intentional loss, including insureds who took no part in it. [ISO HO 00 03 05 11, Sec. I Excl. A.8]
+  - In Michigan, that rule does not hold for an innocent insured's **fire** loss. [FC&S (Sept. 1, 2011), Michigan HO 01 21 05 11; Wilson (E.D. Mich. 2019)]
+  - A federal court quoted one policy's Special Provisions – Michigan: the intentional loss exclusion does not apply, for a fire loss, to an insured who did not commit or conspire to commit the act, and that insured is covered "only to the extent of that insured's legal interest, but not exceeding the applicable limit of liability." The opinion does not give the form number or edition. [Brunk v. Amica Mut. Ins. Co., No. 06-15160 (E.D. Mich. Nov. 2, 2007)]
+- **What HO 01 21 05 11 changes:** the bullets below come from FC&S's summary. We have not seen the endorsement's text, and the current 05 23 edition may differ. [FC&S, "Special Provisions—Variations by State" (Sept. 1, 2011), Michigan]
+  - **Innocent insured, fire loss:** the Intentional Loss exclusion and the Concealment or Fraud condition do not apply to an insured who is innocent of a fire loss. That insured is covered to the extent of his or her **insurable interest**. [FC&S (Sept. 1, 2011)]
+  - Unlike some states' versions, Michigan's does **not** require the innocent insured to be a victim of domestic abuse. [FC&S (Sept. 1, 2011)]
+  - The insured who set the fire, or who concealed facts or committed fraud, is not covered, and the insurer may subrogate against the insured who caused the fire. [FC&S (Sept. 1, 2011)]
+  - For a loss by any **other peril**, fraud or material misrepresentation by any insured still bars coverage for all insureds. [FC&S (Sept. 1, 2011)]
+  - **Suit against us:** suit may be brought within **2 years** after the date of loss. The time is **tolled** from the insured's notice of loss until the insurer formally denies liability. [FC&S (Sept. 1, 2011)]
+    - The 2-year period is also in the unendorsed 2011 forms' Suit Against Us condition. Michigan law requires at least 1 year, or the policy's period if longer, with the same tolling. [ISO HO 00 03 05 11, Sec. I Cond. H; MCL 500.2833(1)(q)]
+  - **Appraisal:** each party must choose a "competent and independent appraiser." [FC&S (Sept. 1, 2011); MCL 500.2833(1)(m)]
+  - **Spouse who moves out** during the policy period: the spouse remains "you" until the end of the policy period or the effective date of another policy naming the spouse as a named insured, whichever comes first. [FC&S (Sept. 1, 2011)]
+  - **Inception:** if other coverage ends at noon standard time on the inception date, this policy's coverage does not begin until that coverage ends. [FC&S (Sept. 1, 2011)]
+  - **Loss payment** is due within 30 days after a settlement agreement. Where a municipality applies Michigan's loss-withholding law, part of the payment is withheld; the mortgage clause is amended to match. [FC&S (Sept. 1, 2011); see MCL 500.2845 and 500.2227 in the mi section]
+  - **Section II damages:** prejudgment interest is no longer part of damages. It is paid instead as a claim expense under the Section II additional coverages. [FC&S (Sept. 1, 2011)]
+  - **Controlled substances:** the exclusion does not apply to the legitimate use of prescription drugs as a licensed health care professional ordered. It also does not apply to an insured who did not know the substance was involved; the insurer must prove that knowledge by competent evidence. [FC&S (Sept. 1, 2011)]
+  - **Section II duties:** someone acting on the insured's behalf may perform them. For damage to property of others, the 60-day statement of loss is not required if it is not reasonably possible. [FC&S (Sept. 1, 2011)]
+  - **Coverage E suits:** no action may be brought until the insured's obligation is fixed by a final judgment or by an agreement the insurer signs. [FC&S (Sept. 1, 2011)]
+  - **Section II other insurance:** the insurer pays its pro rata share with other liability insurance. Coverage is excess for a vehicle or watercraft covered under the policy. [FC&S (Sept. 1, 2011)]
+  - **Cancellation during the first 55 days:** at least **30 days'** notice, except for nonpayment. The statute allows as little as 20 days. [FC&S (Sept. 1, 2011); MCL 500.2123(2)]
+  - **Cancellation after 55 days:** only for the reasons the endorsement lists, on 30 days' notice, except one listed reason (FC&S's "reason 1") that needs only 10 days. FC&S does not name the reasons. [FC&S (Sept. 1, 2011)]
+  - **Premium and nonrenewal:** the minimum earned premium is the pro rata premium or $25, whichever is greater. A nonrenewal notice must be sent at least **30 days** before the policy ends. [FC&S (Sept. 1, 2011); MCL 500.2833(1)(h)]
 
 ## Flags
 - **HO-2, HO-5 and HO-8:** verified only from the **10 00** edition texts.
