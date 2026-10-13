@@ -128,7 +128,7 @@
  {
   "group": "Licensing & Regulation",
   "item": "UTPA civil penalty",
-  "value": "$1,000 per violation, $10,000 aggregate; knowing: $5,000 per violation, $50,000 aggregate per 6 months",
+  "value": "$1,000 per violation, $10,000 aggregate; knew or reasonably should have known: $5,000 per violation, $50,000 aggregate per 6 months",
   "source": "MCL 500.2038(1)(a)"
  },
  {
@@ -229,9 +229,9 @@
  },
  {
   "group": "Exam Logistics",
-  "item": "NIPR license application fees",
-  "value": "$10 application + $5 transaction",
-  "source": "DIFS resident producer page"
+  "item": "NIPR license application fees (resident)",
+  "value": "Producer: $10 application + $5 transaction; solicitor: $20 ($10 application + $10 solicitor license) + $5 transaction",
+  "source": "DIFS resident producer page; DIFS solicitor page; MCL 500.240(1)(d),(e)"
  },
  {
   "group": "Exam Logistics",

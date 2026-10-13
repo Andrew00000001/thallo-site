@@ -19,7 +19,7 @@
  },
  {
   "front": "Named excluded driver",
-  "back": "With the insured's authorization, liability is void when the named person drives ('no one is insured'); the excluded operator also gets no PIP.",
+  "back": "With the insured's authorization, liability is void when the named person drives ('no one is insured'); the excluded person also gets no PIP if injured while operating a vehicle from which he or she is excluded.",
   "source": "MCL 500.3009(2); MCL 500.3113(d)",
   "topic": "auto"
  },
@@ -175,8 +175,8 @@
  },
  {
   "front": "Chapter 32 cancellation (auto)",
-  "back": "After 55 days or on renewal: only for a final license suspension/revocation. Notice: certified mail, at least 20 days; appeal within 7 days.",
-  "source": "MCL 500.3220, .3224, .3230",
+  "back": "After 55 days or on renewal: only for a final license suspension/revocation (nonpayment cancellations are outside Chapter 32). Notice: certified mail, at least 20 days; appeal within 7 days (no appeal for a cancellation in the first 55 days).",
+  "source": "MCL 500.3212, .3220, .3224, .3230",
   "topic": "auto"
  },
  {
@@ -199,7 +199,7 @@
  },
  {
   "front": "PAP 09 18: newly acquired auto",
-  "back": "Liability/med pay/UM: ask within 14 days. Collision/OTC: 14 days if any declared auto has it; otherwise 4 days, with a $500 deductible.",
+  "back": "Liability/med pay/UM: ask within 14 days. Collision/OTC: 14 days if any declared auto has it; otherwise 4 days, and a $500 deductible applies to a loss that occurs before you ask.",
   "source": "ISO PP 00 01 09 18, Definitions K",
   "topic": "auto"
  },

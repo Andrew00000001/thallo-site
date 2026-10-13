@@ -32,7 +32,7 @@ Statute text: Michigan Compiled Laws via legislature.mi.gov (complete through PA
 
   [MCL 500.1209(2)]
 - An auto or home termination may **not** be based primarily on the geographic location of the producer's business, its loss experience tied to that location, or the producer's performance of chapter 21 (Essential Insurance Act) obligations. [MCL 500.1209(3)]
-- These protections do not apply to captive or employee producers when the insurer owns the renewal rights. [MCL 500.1209(4)]
+- These protections do not apply to employee producers or captive producers (those representing only 1 insurer or affiliated group) when the insurer owns the renewal rights **and** the termination does not cause any home or auto policy to be canceled or nonrenewed. [MCL 500.1209(4)]
 
 ## Producer Regulation: Duties and Who Must Be Licensed
 
@@ -58,8 +58,8 @@ Statute text: Michigan Compiled Laws via legislature.mi.gov (complete through PA
 - An unlicensed person who must be licensed may not accept such payment. [MCL 500.1240(2)]
 - **Renewal and deferred commissions** may be paid if the person was licensed **at the time of the sale**. [MCL 500.1240(3)]
 - Commissions may be paid or assigned to an **insurance agency**, or to persons who do not sell, solicit or negotiate, unless the payment would be an illegal rebate under 2024. [MCL 500.1240(4)]
-Add: DIFS allows an unlicensed person to be paid a referral fee for leads only if the fee is not contingent on the referral applying for or buying a policy. An unlicensed person may also receive an override if he or she does not sell, solicit or negotiate insurance. [MCL 500.1240(4); DIFS Compensation & Rebating FAQ: Referral Fees, Override Commissions]
-- Solicitors have the same prohibition. [MCL 500.1216(3)]
+- DIFS allows an unlicensed person to be paid a referral fee for leads only if the fee is not contingent on the referral applying for or buying a policy. An unlicensed person may also receive an override if he or she does not sell, solicit or negotiate insurance. [MCL 500.1240(4); DIFS Compensation & Rebating FAQ: Referral Fees, Override Commissions]
+- An agent may not reward or remunerate any person for procuring or inducing business, furnishing leads or prospects, or otherwise acting as an agent. Exceptions: licensed solicitors and agent-to-agent contracts under 1211 and 1212, and placing refused coverage through another licensed agent under 1207(12). A solicitor likewise may not reward or remunerate anyone for procuring business, furnishing leads or prospects, or acting as an agent or solicitor. DIFS still allows a producer to pay an unlicensed person a referral fee for leads if the fee is not contingent on the referral applying for or buying a policy. [MCL 500.1207(11); MCL 500.1216(3); DIFS Compensation & Rebating FAQ: Referral Fees]
 - Medicare-eligible disability policies: the first-year commission may not exceed the commission paid in each of the next **2 renewal years**. [MCL 500.2011(1)]
 
 ## Types of Licensees: Producer (Lines of Authority)
@@ -251,7 +251,7 @@ The director may place a license on probation, suspend or revoke it, or fine und
   - suspension or revocation
 - **Knowingly violating a chapter 12 cease and desist order**: up to **$20,000 per violation**, with a **$100,000** cap per order, plus suspension or revocation. [MCL 500.1244(3)]
 - **Unfair Trade Practices Act violations** (sections 2001-2050), after a hearing, bring a cease and desist order plus [MCL 500.2038(1)]:
-  - up to **$1,000 per violation**, **$10,000 aggregate**; or, if knowing, up to **$5,000 per violation**, **$50,000 aggregate** for all violations in a **6-month** period
+  - up to **$1,000 per violation**, **$10,000 aggregate**; or, if the person **knew or reasonably should have known** of the violation, up to **$5,000 per violation**, **$50,000 aggregate** for all violations in a **6-month** period
   - suspension or revocation if the violations were **knowing and persistent**
   - refund of overcharges
 - **Violating a UTPA cease and desist order**: up to **$20,000 per violation**, and/or suspension or revocation. [MCL 500.2040(1)]
@@ -368,7 +368,7 @@ An intentional fraudulent report is cause for forfeiture of a domestic insurer's
 - **Timely claim payment**:
   - The insurer must specify what proof of loss it needs within **30 days** of receiving the claim.
   - A claim is timely if paid within **60 days** after proof of loss.
-  - Late benefits bear **12% simple interest per year** from 60 days after proof of loss.
+  - Late benefits to the insured (or a person directly entitled to benefits) bear **12% simple interest per year** from 60 days after proof of loss. A third-party tort claimant gets the 12% only if liability is not reasonably in dispute and a court has found that the insurer refused payment in bad faith.
 
   [MCL 500.2006(1),(3),(4)]
 - **Workers' compensation**: a premium deposit may not exceed **the greater of 25% of projected annual premium or $2,500**, and the insurer may not require buying other insurance. [MCL 500.2016(1)(b),(c)]
@@ -468,7 +468,7 @@ An intentional fraudulent report is cause for forfeiture of a domestic insurer's
 ### Safeguarding Rules (R 500.551-.560)
 
 - Title: "Standards for Safeguarding Customer Financial Information". [Mich Admin Code R 500.551]
-Since Jan. 20, 2021, MCL 500.555 requires a comprehensive written information security program, but licensees with fewer than 25 employees, including independent contractors, are exempt (500.565(1)). So is an agent covered by its principal's program (500.565(3)), and a HIPAA-compliant licensee is exempt from all but 559 and 561 (500.565(2)). A licensee must notify the director within 10 business days of a qualifying cybersecurity event (500.559(1)). R 500.551-.560 remain in the Admin Code, but MCL 500.550 makes chapter 5A exclusive.
+Chapter 5A took effect Jan. 20, 2021. MCL 500.555 requires a comprehensive written information security program; licensees had to implement it by Jan. 20, 2022, and the third-party service provider requirement in 555(6) by Jan. 20, 2023 (500.565(5)). Licensees with fewer than 25 employees, including independent contractors, are exempt from 555 (500.565(1)). So is an agent covered by its principal's program (500.565(3)), and a HIPAA-compliant licensee is exempt from all but 559 and 561 (500.565(2)). A licensee must notify the director within 10 business days of a qualifying cybersecurity event (500.559(1)). R 500.551-.560 remain in the Admin Code, but MCL 500.550 makes chapter 5A exclusive.
 - The program must ensure the security and confidentiality of customer information, protect against anticipated threats, and protect against unauthorized access that could cause substantial harm or inconvenience. [R 500.554]
 - Example steps that count as compliance [R 500.555-.559]:
   - assess risk
@@ -481,14 +481,14 @@ Since Jan. 20, 2021, MCL 500.555 requires a comprehensive written information se
 
 - **MCL 500.1204c amended by 2026 PA 78**, immediately effective **July 27, 2026**.
   - It adds association-participation CE credit of up to 4 hours (subsection 14).
-  - Subsection 15 also says "any activity by an insurance producer, as determined by the director, may be credited". Its scope is unclear, and I found no DIFS implementation guidance.
+  - Subsection 15 also says "any activity by an insurance producer, as determined by the director, may be credited". Its scope is unclear, and we found no DIFS implementation guidance.
   - The PSI outline (Sept 2021) predates this change. No questions test it.
-- **MCL 500.2082** was amended by 2025 PA 46 (eff. Mar. 24, 2026). The current fine is $1,000 per violation for the insurer; for an officer or agent, up to 1 year in jail and a $500-$1,000 fine. Older study materials may show different figures.
+- **MCL 500.2082** was amended by 2025 PA 46 (eff. Mar. 24, 2026). The current civil fine is $1,000 per violation for the insurer; for an officer or agent, up to 1 year in jail, a $500-$1,000 fine, or both. Older study materials may show different figures.
 - **MCL 500.2027** was amended by 2023 PA 156 (eff. Feb. 13, 2024). It added gender, gender identity or expression, and sexual orientation. Older prep materials may omit these.
-- **MCL 500.2024b**: the P&C gift limit is **$50 per calendar year** (2018 PA 542). Older materials may show the original 2005 limit, which I did not verify.
+- **MCL 500.2024b**: the P&C gift limit is **$50 per calendar year** (2018 PA 542). Older materials may show the original 2005 limit, which we did not verify.
 - **CE lapse wording**: the statute (1204c(11)) says a 90-day grace period, then the license is "cancelled". The DIFS FAQ calls it a 90-day "suspension", then "terminated for education", with reinstatement within 1 year of the review date by completing 24 hours and reapplying through NIPR. The questions use the statute's terms of service-only conduct and a 90-day window.
 - **Solicitor prelicensing currency**: MCL 500.1214(2) says the solicitor's course must be completed within **6 months** before the application. MCL 500.1204(2), for producers, and the DIFS FAQ say **12 months**. This is a conflict for solicitors. The 6-month figure is not tested.
-- **Ethics hours in prelicensing**: the statute requires ethics instruction but sets no hour count. A secondary source claims "6 hours of ethics and Michigan law", which I could not verify; the rule R 500.1-.6 PDF could not be downloaded. Not tested.
+- **Ethics hours in prelicensing**: the statute requires ethics instruction but sets no hour count. A secondary source claims "6 hours of ethics and Michigan law", which we could not verify; the rule R 500.1-.6 PDF could not be downloaded. Not tested.
 - **Statutory fees in MCL 500.240** (for example, the $10 exam fee) apply only when the director administers exams. PSI charges its own fee; see Exam Logistics.
 - **Penalties outside the cited sections**: the 2069 misdemeanor penalties for 2064/2066 allow "imprisonment in the county jail" with no stated maximum term. Only the fine caps are tested.
 
@@ -530,12 +530,12 @@ Sources: PSI Candidate Information Bulletin "Effective 6/10/2025". The DIFS Exam
 - **Score validity**: passing results are valid **12 months** from the pass date. [PSI CIB p.2; NIPR Michigan state page]
 - **License application**:
   - It is filed electronically through **NIPR** (Electronic Resident Licensing). [PSI CIB p.2; DIFS resident producer page]
-  - Fees are a **$10 application fee plus a $5 NIPR transaction fee**. [DIFS resident producer page]
+  - Fees for a resident **producer** license are a **$10 application fee plus a $5 NIPR transaction fee**. A resident **solicitor** pays **$20** (the $10 application fee plus the $10 solicitor license fee) plus the $5 transaction fee. [DIFS resident producer page; DIFS "How to Become Licensed as a Solicitor"; MCL 500.240(1)(d),(e)]
   - An application is valid **180 days** from entry into the DIFS database. If the exam is not passed within 180 days, a new application and fee are required. [DIFS resident producer page]
 - **Retakes**: a new appointment cannot be made the same day. A candidate who fails on Wednesday can call Thursday and retest as soon as Friday, if space allows. There is no mandatory waiting period beyond that, but each attempt requires a new registration and fee. [PSI CIB p.5; MCL 500.1204(6)]
   - Retaking an exam already passed within the past year requires DIFS permission. [PSI CIB p.5]
 - **Background check and fingerprints**: DIFS states that it "performs several background checks on each applicant"; for agencies, the checks cover the designated responsible licensed producer, owners, partners, officers and directors. Neither DIFS's resident-producer licensing page nor the PSI bulletin lists a **fingerprint** requirement. See Flags. [DIFS "Insurance Producer Application Background Questions"]
-- **Content outline**: the P&C 16-81 outline that PSI links today ("PropCas Prod 16-81x.pdf" on proctor2.psionline.com) is **byte-identical** to the copy used for this project. The PDF's creation date is **Sept 2, 2021**, so **no revision after Sept 2021** was found as of October 12, 2026. [PSI outline PDF metadata; PSI CIB p.9 link]
+- **Content outline**: the P&C 16-81 outline that PSI links today ("PropCas Prod 16-81x.pdf" on proctor2.psionline.com) is **byte-identical** to the copy this guide is based on. The PDF's creation date is **Sept 2, 2021**, so **no revision after Sept 2021** was found as of October 12, 2026. [PSI outline PDF metadata; PSI CIB p.9 link]
 - **Contacts**: DIFS Licensing at 877-999-6442 or difs-licensing@michigan.gov. [PSI CIB p.2]
 
 ## Flags

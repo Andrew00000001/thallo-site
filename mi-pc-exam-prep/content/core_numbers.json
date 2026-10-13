@@ -55,9 +55,9 @@
  },
  {
   "group": "Policy Provisions & Claims",
-  "item": "HO loss payment",
-  "value": "60 days after proof of loss and agreement / final judgment / appraisal award; insurer's repair option requires written notice within 30 days",
-  "source": "ISO HO 00 03 05 11, Sec. I Conds. I, J"
+  "item": "HO loss payment (unendorsed ISO form)",
+  "value": "60 days after proof of loss and agreement / final judgment / appraisal award; insurer's repair option requires written notice within 30 days. Michigan fire policies: loss payable within 30 days after proof of the amount of loss (MCL 500.2833(1)(p))",
+  "source": "ISO HO 00 03 05 11, Sec. I Conds. I, J; MCL 500.2833(1)(p)"
  },
  {
   "group": "Policy Provisions & Claims",
@@ -80,7 +80,7 @@
  {
   "group": "Policy Provisions & Claims",
   "item": "Michigan timely payment / interest",
-  "value": "Paid within 60 days after proof of loss = timely; otherwise 12% per annum simple interest from day 60",
+  "value": "Paid within 60 days after proof of loss = timely; otherwise 12% per annum simple interest from day 60 for the insured or a person directly entitled to benefits under the policy. A third-party tort claimant gets the interest only if liability was not reasonably in dispute, the insurer refused payment in bad faith, and a court determined the bad faith",
   "source": "MCL 500.2006(3)-(4)"
  },
  {

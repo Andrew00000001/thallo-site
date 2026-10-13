@@ -81,7 +81,7 @@ Statute text read from legislature.mi.gov via the helper ("MCL complete through 
   - If the insured fails to file proof of loss, the mortgagee must file it **within 60 days** after notice.
   - If the insurer claims no liability to the owner, it is subrogated to the mortgagee's rights to the extent it pays the mortgagee. Alternatively, it may pay off the mortgage and take an assignment.
 - **Payment exception (500.2845):** on a fire or explosion loss to real property, when the final settlement exceeds 49% of the insurance, the insurer withholds **25%** of the ACV or final settlement, whichever is less. [MCL 500.2845(1),(15)]
-  - For residential property the withholding is capped at $12,000, CPI-adjusted from 2015.
+  - For residential property the withholding is capped at a $12,000 base (from 2015), CPI-adjusted each January 1. The cap is **$16,383** for 1/1/2026-12/31/2026. [MCL 500.2845(1); DIFS Bulletin 2025-27-INS] Section 2845 covers only municipalities with fewer than 50,000 people in counties with fewer than 425,000 people. Municipalities in counties of 425,000 or more, or with 50,000 or more people, use the parallel MCL 500.2227 instead. That statute also covers vandalism, malicious mischief, wind, hail, riot and civil commotion losses. Since July 1, 2024 (2024 PA 82) its residential cap has a $24,000 base, CPI-adjusted each July 1. That cap is **$25,090** for 7/1/2026-6/30/2027. [MCL 500.2845(12); MCL 500.2227(1),(12); DIFS Bulletin 2026-16-INS]
   - This applies only in participating cities, villages and townships, which can escrow the money to make sure the site is repaired or cleared.
 
 ## Appraisal (MCL 500.2833(1)(m))
@@ -106,7 +106,7 @@ Statute text read from legislature.mi.gov via the helper ("MCL complete through 
 - Where other parts of the Code conflict with chapter 21, chapter 21 governs auto and home insurance. [MCL 500.2106(4)]
 - **Casualty policies (all classes except workers' comp and mortgage guaranty), including motor vehicle coverage:** [MCL 500.3020(1)(a)–(c)]
   - The insured may cancel at any time and receives a pro rata refund.
-  - The insurer may cancel with **not less than 10 days'** written notice.
+  - The insurer may cancel with **not less than 10 days'** written notice. For a **private passenger auto** policy, 10 days' notice is enough only for cancellation for **nonpayment of premium**: chapter 32 does not apply to nonpayment, and under chapter 21 a nonpayment cancellation takes effect as provided in the policy [MCL 500.3212, 500.2123(3)]. Any other cancellation of a private passenger auto policy must also meet chapter 32 (at least **20 days'** notice by certified mail [MCL 500.3224]) and chapter 21 (**30 days'** notice for a termination, or 20 days within the first 55 days [MCL 500.2123]).
   - Minimum earned premium is the greater of pro rata or **$25**, except for auto.
 - An insurer may refuse to renew a **malpractice** policy only with **not less than 60 days'** written notice. [MCL 500.3020(1)(d)]
 - Cancellation does not affect claims that arose before it. Mailing the notice is prima facie proof of notice, and delivery counts the same as mailing. [MCL 500.3020(5)]
@@ -160,7 +160,7 @@ Statute text read from legislature.mi.gov via the helper ("MCL complete through 
   - life insurers and their producers;
   - employee producers;
   - captive (single-insurer or single-group) producers, if the insurer owns the renewals and the change does not cancel or nonrenew any policy.
-- **Auto and home producers may be terminated only for these reasons:** [MCL 500.1209(2)]
+- **Auto and home producers may be terminated only for these reasons** (this does not apply to employee producers or captive producers when the insurer owns the renewals and the termination does not cause any home or auto policy to be canceled or nonrenewed [MCL 500.1209(4)]): [MCL 500.1209(2)]
   - (a) malfeasance;
   - (b) breach of fiduciary duty or trust;
   - (c) violation of the Insurance Code;
@@ -170,7 +170,7 @@ Statute text read from legislature.mi.gov via the helper ("MCL complete through 
   - the **geographic location** of the producer's business;
   - loss experience tied to that location;
   - the producer's performance of Essential Insurance Act (chapter 21) duties.
-- The insurer must notify the Director within 30 days after a termination takes effect. It must mail a copy to the producer within 15 days of notifying the Director (certified mail if the termination is for cause). The producer may file comments within 30 days. [MCL 500.1208b(1),(2),(4)]
+- The insurer must notify the Director within 30 days after a termination takes effect. It must mail a copy to the producer within 15 days of notifying the Director (for a 1239 for-cause termination, by certified mail, return receipt requested, or by nationally recognized overnight delivery). The producer may file comments within 30 days. [MCL 500.1208b(1),(2),(4)]
 
 ## Essential Insurance Act (MCL 500.2101–.2131)
 
@@ -215,7 +215,7 @@ Statute text read from legislature.mi.gov via the helper ("MCL complete through 
   - (c) **for renewal**, the claim history in the preceding **3 years**, but only claims arising from the insured's negligence, or the insured's failure to correct a physical condition after written notice;
   - (d) the relationship between market value and replacement cost, but only if the insurer offers a repair cost policy;
   - (e) **for nonrenewal**, paid-claim history excluding liability claims: **3 paid claims in 3 years** totaling at least **$3,000** excluding weather claims, or at least **$4,000** including weather claims;
-    - The dollar figures are base amounts, CPI-adjusted on Jan 1, 2006 and every 6th year after.
+    - The dollar figures are statutory base amounts, CPI-adjusted on Jan 1, 2006 and every 6th year after. Since **Jan. 1, 2024** the adjusted amounts are **$5,000** (excluding weather claims) and **$6,600** (including weather claims). The next adjustment is Jan. 1, 2030. [MCL 500.2117(5); DIFS Bulletin 2024-02-INS]
     - An insurer may also use a 3-claim rule for insureds who have been with it continuously for a period it sets between 5 and 10 years.
   - (f) a number of residences that is inconsistent with the insurer's approved forms;
   - (g) a dwelling **unoccupied more than 60 days** with evidence of intent to vacate;
@@ -236,7 +236,7 @@ Statute text read from legislature.mi.gov via the helper ("MCL complete through 
   - marital status or sex;
   - residence or age;
   - disability or lawful occupation.
-- Add: "An insurer may use additional factors if consistent with the act's purposes and reflecting anticipated loss or expense differences [MCL 500.2111(9)]." [MCL 500.2111(7)–(8)]
+- **Home insurance rating classifications** (other than inland marine floaters or endorsements) may be based only on the factors below. Separately, an insurer may use additional factors if the plan is consistent with the act's purposes and reflects reasonably anticipated increases or reductions in losses or expenses [MCL 500.2111(9)]. [MCL 500.2111(7)–(8)]
   - amount and type of coverage;
   - security and safety devices;
   - repairable structural defects;
@@ -304,8 +304,8 @@ Statute text read from legislature.mi.gov via the helper ("MCL complete through 
   - H.R. 7128 (passed the House June 2026) and S. 4395 (passed the Senate by unanimous consent Sept 28, 2026, per trade press) would extend it to 2034. The House bill would also raise the $5M certification threshold to $10M starting in 2029.
   - As of 10/12/2026 neither bill had been confirmed as enacted. Recheck before the exam.
   - The PSI outline cites only P.L. 107-297, 109-144 and 110-160, so it is outdated.
-- **500.2117(2)(e) nonrenewal claim thresholds:** $3,000 and $4,000 are statutory base figures, CPI-adjusted every 6 years since 2006. I could not find the current adjusted amounts.
-- **500.2845 residential withholding cap:** $12,000 base, CPI-adjusted since 2015. I did not verify the current figure.
+- **500.2117(2)(e) nonrenewal claim thresholds:** $3,000 and $4,000 are statutory base figures, CPI-adjusted every 6th year (Jan. 1, 2006, 2012, 2018, 2024). Since Jan. 1, 2024 the amounts are **$5,000** excluding weather claims and **$6,600** including weather claims (DIFS Bulletin 2024-02-INS). The next adjustment is Jan. 1, 2030.
+- **Fire-loss withholding residential caps:** MCL 500.2845 has a $12,000 base, CPI-adjusted each January 1. The cap is **$16,383** for 1/1/2026-12/31/2026 (DIFS Bulletin 2025-27-INS). MCL 500.2227 (larger municipalities) has had a $24,000 base since July 1, 2024 (2024 PA 82), CPI-adjusted each July 1. That cap is **$25,090** for 7/1/2026-6/30/2027 (DIFS Bulletin 2026-16-INS).
 - **Essential Insurance Act purpose:** there is no express purpose section. The "availability for eligible persons" purpose is inferred from 2117 and 2118.
 - **Fire cancellation notice conflict:** 500.2833(1)(i) allows a 10-day notice for fire policies generally. For home insurance, 500.2123 requires 30 days (20 days during the first 55 days), and chapter 21 controls under 500.2106(4).
 
@@ -320,7 +320,7 @@ Editions used:
 - The ISO Dwelling Policy Program Manual (© ISO 2003) Rule 510 for theft endorsements.
 
 ## Characteristics and Purpose
-- The dwelling forms cover a **1- to 4-family dwelling** used principally for dwelling purposes, at the "Described Location." [ISO DP 00 03 12 02, Coverage A; DP 00 01 07 88, Coverage A]
+- The dwelling forms cover a dwelling used principally for dwelling purposes, at the "Described Location." [ISO DP 00 03 12 02, Coverage A; DP 00 01 07 88, Coverage A] Under the ISO Dwelling Program eligibility rules, the forms may be used for a **1- to 4-family** residential building. [ISO Dwelling Policy Program Manual eligibility, per FC&S "ISO Dwelling Program"]
 - Coverage applies only to coverages with a limit and perils with a premium shown in the Declarations. [DP 00 03 12 02, Coverages]
 - The forms contain **no liability or medical payments coverage**. Those are added with the **Personal Liability Supplement (DL 24 01)**. [DL 24 01 12 02]
 - The DP forms define only "you" (named insured and resident spouse) and have no HO-style "insured" definition. Coverage C still covers personal property of family members residing with you, on the Described Location. [DP 00 03 12 02, Definitions]
@@ -413,15 +413,15 @@ Editions used:
 - **Appraisal:** 20 days to name appraisers, 15 days for the umpire. [DP 00 03 12 02, Cond. G]
 - **Other insurance:** pro rata with other fire insurance. Coverage is excess over a service agreement. [DP 00 03 12 02, Cond. H]
 - **Suit against us:** within **2 years** after the loss (12 02); within **1 year** (07 88). Michigan law requires at least 1 year with tolling. [DP 00 03 12 02, Cond. J; DP 00 01 07 88, Cond. 11; MCL 500.2833(1)(q)]
-- **Loss payment:** 60 days after proof of loss and agreement, judgment or appraisal award. The **insurer's option** to repair or replace requires written notice within **30 days** after proof of loss. [DP 00 03 12 02, Cond. K–L]
+- **Loss payment:** 60 days after proof of loss and agreement, judgment or appraisal award under the unendorsed ISO form. Michigan statute requires payment within **30 days** after proof of the amount of loss. The **insurer's option** to repair or replace requires written notice within **30 days** after proof of loss. [DP 00 03 12 02, Cond. K–L; MCL 500.2833(1)(p)]
 - **Mortgage clause:** the mortgagee gets **10 days'** notice of cancellation or nonrenewal and must file a sworn statement of loss within 60 days after notice. [DP 00 03 12 02, Cond. N]
-- **Cancellation and nonrenewal:** same as the HO forms: 10 days (nonpayment, or the first 60 days), 30 days otherwise, nonrenewal 30 days. [DP 00 03 12 02, Cond. P–Q]
+- **Cancellation and nonrenewal:** under the unendorsed ISO form, the same as the HO forms: 10 days (nonpayment, or the first 60 days), 30 days otherwise, nonrenewal 30 days. In Michigan, for home insurance (for example, an owner-occupied dwelling), MCL 500.2123 controls. A termination (cancellation or nonrenewal for any reason other than nonpayment) needs at least **30 days'** written notice, or not less than **20 days** if the notice is mailed or delivered within the first **55 days** after the policy is first issued. Nonpayment cancellation takes effect as the policy provides. [DP 00 03 12 02, Cond. P–Q; MCL 500.2123, 500.2104(5)]
 - **Liberalization:** a broadening applies if it is implemented within 60 days before or during the policy period. [DP 00 03 12 02, Cond. R]
 - **No benefit to bailee.** [DP 00 03 12 02, Cond. O]
 - **Volcanic eruptions within 72 hours** count as one eruption. [DP 00 03 12 02, Cond. X]
 
 ## Selected Endorsements
-- **Special Provisions – Michigan:** Michigan's state-specific amendatory endorsement for the dwelling program. I could not find or verify the ISO form text (see Flags). It must conform the policy to Michigan law, including these requirements: [MCL 500.2833(1); MCL 500.2123]
+- **Special Provisions – Michigan:** Michigan's state-specific amendatory endorsement for the dwelling program. We could not find or verify the ISO form text (see Flags). It must conform the policy to Michigan law, including these requirements: [MCL 500.2833(1); MCL 500.2123]
   - loss payable within 30 days of proof of the amount of loss;
   - suit within at least 1 year, tolled from notice until denial;
   - appraisal umpire chosen by a circuit court judge if the appraisers cannot agree;
@@ -444,19 +444,19 @@ Editions used:
 
 ## Flags
 - **Editions:**
-  - The current ISO dwelling forms are the 07 14 editions (DP 00 01/02/03 07 14). I verified DP-3 in both 12 02 and 07 14.
+  - The current ISO dwelling forms are the 07 14 editions (DP 00 01/02/03 07 14). We verified DP-3 in both 12 02 and 07 14.
   - DP-1 and DP-2 are verified only in the **07 88** edition. Some of their values differ in later editions:
     - DP-1 rental value: 10% in 07 88; trade press reports 20% in the newer DP-1.
     - Vacancy for V&MM: 30 days in 07 88 versus 60 days in DP-3 12 02.
     - Suit limit: 1 year versus 2 years.
-- **Special Provisions – Michigan (dwelling):** NOT FOUND. A study-site cites form "DP 01 21 04 12", but I could not verify it or its text. The bullets above describe Michigan statutory requirements, not the endorsement's wording.
-- **Broad Theft (DP 04 72):** I did not verify the form's internal special sub-limits (money, jewelry and so on). Only the manual rules (eligibility, on/off premises, $1,000 minimum) are verified.
+- **Special Provisions – Michigan (dwelling):** NOT FOUND. A study-site cites form "DP 01 21 04 12", but we could not verify it or its text. The bullets above describe Michigan statutory requirements, not the endorsement's wording.
+- **Broad Theft (DP 04 72):** We did not verify the form's internal special sub-limits (money, jewelry and so on). Only the manual rules (eligibility, on/off premises, $1,000 minimum) are verified.
 
 # ho: Homeowners Policy
 
 Editions used:
 - ISO **HO 00 03 05 11**, **HO 00 04 05 11** and **HO 00 06 05 11** (2011 program, © ISO 2010), read in full.
-- HO-2, HO-5 and HO-8 are verified from the **10 00** editions (HO 00 02 10 00, HO 00 05 10 00, HO 00 08 10 00) because I could not obtain the 05 11 texts.
+- HO-2, HO-5 and HO-8 are verified from the **10 00** editions (HO 00 02 10 00, HO 00 05 10 00, HO 00 08 10 00) because we could not obtain the 05 11 texts.
 - Endorsements:
   - HO 04 90 05 11;
   - HO 04 27 04 02;
@@ -629,7 +629,7 @@ Editions used:
   - inboard or inboard-outdrive boats of **50 hp or less not owned** by an insured, or more than 50 hp not owned by or rented to an insured;
   - **outboard motors totaling 25 hp or less**;
   - outboards over 25 hp if not owned by an insured, or acquired during the policy period, or owned before the period but declared at inception or reported **within 45 days**.
-- **Coverage E only excludes:** [Sec. II Excl. F]
+- **Coverage E exclusions** (Excl. F; Coverage F separately excludes workers' compensation-eligible injuries and nuclear under Excl. G): [Sec. II Excl. F]
   - contractual liability, except written contracts relating to the insured location or assumed before the occurrence;
   - **property damage to property owned by an insured**;
   - PD to property rented to or in an insured's care, **except fire, smoke or explosion**;
@@ -713,7 +713,7 @@ Editions used:
   - **Waiver** must be in writing.
   - **Cancellation:**
     - 10 days for nonpayment;
-    - 10 days for any reason if in force under 60 days and not a renewal;
+    - 10 days for any reason if in force under 60 days and not a renewal (unendorsed ISO form; in Michigan, MCL 500.2123 requires at least 30 days' notice for a home insurance termination other than for nonpayment, or not less than 20 days after mailing or delivery if the notice is mailed or delivered within the first 55 days after the policy is first issued);
     - 30 days for misrepresentation or substantial change in risk after 60 days;
     - 30 days at the anniversary of a multi-year policy;
     - refunds are **pro rata**.
@@ -729,11 +729,11 @@ Editions used:
 - **HO-8 Coverage D** = **10% of A**, the same in both manuals checked. [NC Rate Bureau HO Manual; Universal P&C MA HO Manual]
 
 ## Selected Endorsements
-- **Special Provisions – Michigan (HO 01 21):** Michigan's amendatory endorsement. I could not find or verify the form text (see Flags). Michigan law requires the policy to conform on these points: [MCL 500.2833(1), 500.2123]
+- **Special Provisions – Michigan (HO 01 21):** Michigan's amendatory endorsement. We could not find or verify the form text (see Flags). Michigan law requires the policy to conform on these points: [MCL 500.2833(1), 500.2123]
   - 30-day loss payment after proof of the amount of loss;
-  - suit within 1 year (or the policy period if longer), tolled from notice until denial;
-  - an independent appraiser and a circuit-court umpire;
-  - 30-day termination notice (20 days during the first 55 days) with specific reasons.
+  - suit within 1 year after the loss (or the longer time the policy specifies), tolled from notice of loss until formal denial;
+  - each side picks a competent, independent appraiser within 20 days; the appraisers pick the umpire, and a circuit court judge picks one only if they cannot agree within 15 days;
+  - 30-day termination notice stating each specific reason (a notice mailed or delivered within the first 55 days after the policy is first issued may take effect not less than 20 days after mailing or delivery; a nonpayment cancellation takes effect as the policy provides).
 - **Limited Fungi, Wet or Dry Rot, or Bacteria Coverage:** [HO 04 27 04 02, Schedule & E.13; PF&M 2014]
   - HO 04 27: HO-3 and HO-5. HO 04 26: all other forms. HO 04 28: HO-4 with HO 05 24, or HO-6 with HO 17 31 or 17 32.
   - The schedule shows **$10,000** for the Section I additional coverage. That covers loss, removal, tear-out and testing, and applies only when caused by an insured peril during the policy period.
@@ -742,7 +742,7 @@ Editions used:
   - covers a **described business** run in the dwelling or in an other structure on the premises;
   - a described other structure is insured for its own scheduled limit, not under Coverage B;
   - the full **Coverage C** limit applies to the business property;
-  - the Section II business exclusion does not apply to the described business;
+  - the Section II business exclusion does not apply to the necessary or incidental use of the residence premises to conduct the described business;
   - there is still **no coverage for bodily injury to employees** of the business.
 - **Earthquake (HO 04 54):** [HO 04 54 10 00]
   - covers earthquake, including land shock waves before, during or after a volcanic eruption;
@@ -762,7 +762,7 @@ Editions used:
 - **Home Day Care:** [HO 00 03 05 11, Def. B.3; PF&M 2014 (HO 04 96, HO 04 97)]
   - The base policy treats paid home day care as a "business," so it is excluded under Section II, unless it is a mutual exchange or care for a relative.
   - **HO 04 97 Home Day Care Coverage** adds limited property coverage and day-care liability coverage.
-  - HO 04 96 confirms there is no Section II coverage for day care, and limits day-care business property to $2,500 on premises and $500 off premises.
+  - HO 04 96 confirms there is no Section II coverage for day care. Day-care business property stays subject to the Coverage C business-property special limits: $2,500 on premises and, under the 05 11 HO-3, HO-4 and HO-6 forms, $1,500 off premises. The 10 00 edition of HO 04 96 shows $500 because that was the off-premises limit in the 2000-program forms. [HO 04 96 10 00, E.2; HO 00 03 05 11, Coverage C.3.h-i]
 - **Business Pursuits (HO 24 71):** covers an insured's liability from business activities where the insured is **not the owner or a partner**, such as clerical workers, salespersons, collectors, messengers and **teachers**. Teachers may add corporal punishment coverage. [PF&M 2014]
 - **Watercraft (HO 24 75):** adds liability coverage for described watercraft the base form excludes, such as owned outboards over 25 total hp and larger sailing vessels. [PF&M 2014; HO 00 03 05 11, Sec. II Excl. B]
 - **Personal Injury (HO 24 82):** adds coverage for injury arising out of: [PF&M 2014]
@@ -780,11 +780,11 @@ Editions used:
 - **Coverage D percentages:** the manuals conflict.
   - The ISO 2000 program example (RIJRA) shows HO-3 Coverage D at **30% of A**.
   - The Universal P&C (MA/HI) and NC Rate Bureau manuals show **20% of A** for HO-3, **20% of C** for HO-4, and **40% of C** for HO-6.
-  - Study guides commonly say HO-4 is 30% of C and HO-6 is 50% of C (2000+ program), but I could not verify that from an ISO manual.
-  - Test-writers may use either. I did not write any question that depends on it.
+  - Study guides commonly say HO-4 is 30% of C and HO-6 is 50% of C (2000+ program), but we could not verify that from an ISO manual.
+  - Test-writers may use either. We did not write any question that depends on it.
 - **Earthquake HO 04 54:** the $250 minimum deductible is from the 10 00 edition. Later editions may use a different minimum.
 - **HO 04 90:** a 03 22 edition reportedly raised the $500 ACV-until-repaired threshold to $1,000 (secondary source). The 05 11 edition says $500.
 - **ISO's current homeowners forms are the 03 22 editions (2022 program).** This guide uses the 05 11 (2011 program) amounts, so every HO dollar figure should be labeled "05 11 edition".
 - **Special Provisions – Michigan (HO 01 21 05 11):** form text NOT FOUND or verified. A study deck suggests it covers suit limitation with tolling, duties after loss and spousal definition changes. Only the Michigan statutory requirements are stated as fact here.
 - **Endorsements described from PF&M (Rough Notes) summaries, not the form text:** HO 04 61, HO 04 97, HO 24 71, HO 24 75, HO 24 82, HO 07 01. Specific dollar sub-limits inside these endorsements (beyond those listed) were not verified.
-- **Michigan statute versus the unendorsed ISO form:** On suit limitation, the policy's 2-year period applies because it is longer than the statutory 1-year minimum. Michigan adds tolling from notice of loss until formal denial, and HO 01 21 05 11 provides 2 years with tolling.
+- **Michigan statute versus the unendorsed ISO form:** On suit limitation, the policy's 2-year period applies because it is longer than the statutory 1-year minimum. Michigan adds tolling from notice of loss until formal denial. The wording of Special Provisions – Michigan (HO 01 21) on this point was not verified.

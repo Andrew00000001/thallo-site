@@ -44,13 +44,13 @@
  {
   "topic": "mi",
   "front": "Fire policy: cancellation and minimum earned premium",
-  "back": "The insured may cancel at any time. The insurer may cancel on at least 10 days' mailed notice. Minimum earned premium = greater of pro rata or $25. (For HOME insurance, 500.2123 requires 30 days, or 20 days during the first 55 days.)",
+  "back": "The insured may cancel at any time. The insurer may cancel on at least 10 days' mailed notice. Minimum earned premium = greater of pro rata or $25. (For HOME insurance, 500.2123 requires 30 days, or 20 days during the first 55 days, for a termination other than for nonpayment; a nonpayment termination takes effect as the policy provides.)",
   "source": "MCL 500.2833(1)(h)-(i); 500.2123"
  },
  {
   "topic": "mi",
   "front": "Fire policy: loss payment and suit deadline",
-  "back": "Loss is payable within 30 days after receipt of proof of the amount of loss (subject to 2845). Suit must be filed within 1 year after the loss, or the policy period if longer, tolled from notice of loss until formal denial.",
+  "back": "Loss is payable within 30 days after receipt of proof of the amount of loss (subject to 2845). Suit must be filed within 1 year after the loss or within the time period stated in the policy, whichever is longer, tolled from notice of loss until formal denial.",
   "source": "MCL 500.2833(1)(p)-(q)"
  },
  {
@@ -74,8 +74,8 @@
  {
   "topic": "mi",
   "front": "500.2845 fire/explosion withholding",
-  "back": "In participating municipalities, when a real-property fire or explosion settlement exceeds 49% of the insurance, the insurer withholds 25% of the ACV or settlement, whichever is less (residential cap $12,000 base, CPI-adjusted), to secure repair or cleanup.",
-  "source": "MCL 500.2845(1),(15)"
+  "back": "In participating municipalities under 50,000 population in counties under 425,000 (municipalities of 50,000+ or in counties of 425,000+ use 500.2227), when a real-property fire or explosion final settlement exceeds 49% of the insurance, the insurer withholds 25% of the ACV or the settlement, whichever is less, to secure repair or cleanup. Residential cap: $12,000 base, CPI-adjusted each Jan 1; $16,383 for 1/1/2026-12/31/2026.",
+  "source": "MCL 500.2845(1),(12),(15); 500.2227(12); DIFS Fire Insurance Withholding Maximum Escrow (2026)"
  },
  {
   "topic": "mi",
@@ -116,7 +116,7 @@
  {
   "topic": "mi",
   "front": "Permitted reasons to terminate a home/auto producer",
-  "back": "Malfeasance; breach of fiduciary duty or trust; violation of the Code; failure to perform the contract; fewer than 25 home and auto applications in the prior 12 months. NOT permitted: geographic location or location-related loss experience.",
+  "back": "Malfeasance; breach of fiduciary duty or trust; violation of the Code; failure to perform the contract; fewer than 25 home and auto applications in the prior 12 months. NOT permitted as the primary basis: geographic location, location-related loss experience, or the producer's performance of Essential Insurance Act (chapter 21) obligations.",
   "source": "MCL 500.1209(2)-(3)"
  },
  {
@@ -224,13 +224,13 @@
  {
   "topic": "ho",
   "front": "HO-3 (HO 00 03 05 11) key condition time limits",
-  "back": "Proof of loss: within 60 days of the insurer's request. Appraisal: 20 days to name appraisers, 15 days to agree on an umpire. Our option: 30 days after proof of loss. Loss payment: 60 days (Michigan statute: 30 days after proof of the amount of loss). Suit: within 2 years. Michigan law requires at least 1 year or the policy period if longer, tolled from notice of loss until formal denial. Notice of intent to claim replacement cost: 180 days. Mortgagee notice: 10 days. Liberalization: 60 days.",
+  "back": "Proof of loss: within 60 days of the insurer's request. Appraisal: 20 days to name appraisers, 15 days to agree on an umpire. Our option: 30 days after proof of loss. Loss payment: 60 days (Michigan statute: 30 days after proof of the amount of loss). Suit: within 2 years. Michigan law requires at least 1 year, or the period stated in the policy if longer, tolled from notice of loss until formal denial. Notice of intent to claim replacement cost: 180 days. Mortgagee notice: 10 days. Liberalization: 60 days.",
   "source": "ISO HO 00 03 05 11, Sec. I Cond. C, F, H-J, L; Secs I & II Cond. A; MCL 500.2833(1)(p)-(q)"
  },
  {
   "topic": "ho",
   "front": "HO-3 cancellation by insurer",
-  "back": "Nonpayment: 10 days. New policy in force under 60 days: any reason, 10 days. After 60 days or on renewal: only material misrepresentation or substantial change in risk, 30 days. Nonrenewal: 30 days. (Michigan home insurance: 30 days, or 20 days in the first 55 days, per 500.2123.)",
+  "back": "Nonpayment: 10 days. New policy in force under 60 days: any reason, 10 days. After 60 days or on renewal: only material misrepresentation or substantial change in risk, 30 days. Nonrenewal: 30 days. (Michigan home insurance, for terminations other than nonpayment: 30 days, or 20 days in the first 55 days, per 500.2123; a nonpayment termination takes effect as the policy provides.)",
   "source": "ISO HO 00 03 05 11, Secs I & II Cond. C-D; MCL 500.2123"
  },
  {

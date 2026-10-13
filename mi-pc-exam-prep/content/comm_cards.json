@@ -62,7 +62,7 @@
  {
   "topic": "cpp",
   "front": "Commercial property vacancy",
-  "back": "Vacant more than 60 consecutive days: no coverage for vandalism, sprinkler leakage, building glass, water damage, theft or attempted theft; other losses reduced 15%. Owner's building is vacant unless at least 31% is rented/used.",
+  "back": "Vacant more than 60 consecutive days: no coverage for vandalism, sprinkler leakage (unless the system was protected against freezing), building glass breakage, water damage, theft or attempted theft; other covered losses reduced 15%. An owner's building is vacant unless at least 31% of its total square footage is rented/used for customary operations.",
   "source": "ISO CP 00 10 10 12, E.6"
  },
  {
@@ -122,8 +122,8 @@
  {
   "topic": "cpp",
   "front": "Crime: loss sustained vs discovery tail",
-  "back": "Loss sustained (CR 00 21): 1 year after cancellation to discover loss. Discovery (CR 00 20): occurrence can be any time; 60 days after the policy ends to discover.",
-  "source": "ISO CR 00 21 11 15, E.1.g; Rough Notes PF&M 251.4-2"
+  "back": "Loss sustained (CR 00 21): a loss sustained before cancellation can be discovered up to 1 year after cancellation. Discovery (CR 00 20): occurrence can be any time; 60 days after cancellation to discover. In both forms, this extended period ends immediately when replacement insurance takes effect, except that employee benefit plan losses keep 1 year after cancellation.",
+  "source": "ISO CR 00 21 11 15, E.1.g; ISO CR 00 20 11 15, E.1.g (text reproduced in FC&S 'Commercial Crime Coverage Form', July 9, 2018); Rough Notes PF&M 251.4-2"
  },
  {
   "topic": "cpp",
@@ -181,15 +181,15 @@
  },
  {
   "topic": "bop",
-  "front": "BOP 5-day cancellation",
-  "back": "Allowed if the building is vacant/unoccupied 60+ days, repairs not started within 30 days of loss payment, under a vacate/demolition order, fixtures being removed, or no utilities 30+ days / taxes unpaid over 1 year.",
-  "source": "ISO BP 00 03 07 13, Sec. III A.2.a"
+  "front": "BOP 5-day cancellation (2013 ISO form)",
+  "back": "Allowed if the building is vacant/unoccupied 60+ days, repairs not started within 30 days of loss payment, under a vacate/demolition order, fixtures being removed, or no utilities 30+ days / taxes unpaid over 1 year. In Michigan, state law requires the insurer to mail its cancellation notice at least 10 days before cancellation for both fire and casualty insurance.",
+  "source": "ISO BP 00 03 07 13, Sec. III A.2.a; MCL 500.2833(1)(i); MCL 500.3020(1)(b)"
  },
  {
   "topic": "bop",
   "front": "Protective safeguard symbols",
-  "back": "P-1 sprinkler; P-2 automatic fire alarm; P-3 security service; P-4 private fire dept contract; P-9 described system. Fire is excluded if the insured knew of an impairment and didn't notify the insurer.",
-  "source": "ISO IL 04 15 04 98; FC&S (2020) re BP 04 30"
+  "back": "P-1 automatic sprinkler system; P-2 automatic fire alarm; P-3 security service; P-4 private fire dept service contract; P-9 described system (the BOP version, BP 04 30, adds P-5 commercial cooking exhaust and extinguishing system). Fire is excluded if, before the fire, the insured knew of a suspension or impairment of a listed safeguard and didn't notify the insurer, or failed to keep a listed safeguard it controlled in complete working order. No notice is needed if a sprinkler system (BOP: also a P-5 system) shut off due to breakage, leakage, freezing or opened sprinkler heads is fully restored within 48 hours.",
+  "source": "ISO IL 04 15 04 98, A.-B.; ISO BP 04 30 07 13, A.-B."
  },
  {
   "topic": "bop",

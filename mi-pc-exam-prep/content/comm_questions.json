@@ -311,7 +311,7 @@
    "Covered, but the payment is reduced by 50%"
   ],
   "answer": 2,
-  "explain": "Under the 2012 edition of CP 00 10, after more than 60 consecutive days of vacancy, vandalism, sprinkler leakage, building glass breakage, water damage, theft and attempted theft are not covered. Other covered losses, such as windstorm, are reduced by 15%.",
+  "explain": "Under the 2012 edition of CP 00 10, after more than 60 consecutive days of vacancy, vandalism, sprinkler leakage (unless the system was protected against freezing), building glass breakage, water damage, theft and attempted theft are not covered. Other covered losses, such as windstorm, are reduced by 15%.",
   "source": "ISO CP 00 10 10 12, E.6.b"
  },
  {
@@ -521,7 +521,7 @@
    "Counterfeit bills accepted in good faith in a sale"
   ],
   "answer": 0,
-  "explain": "In the 2015 form, this agreement covers money and securities inside the premises (or a financial institution's premises) against theft, disappearance or destruction. Merchandise is 'other property', covered only for robbery of a custodian or safe burglary (Insuring Agreement 4); ordinary burglary of merchandise from the sales floor is not covered. Employee embezzlement falls under Employee Theft, and counterfeit bills under Money Orders and Counterfeit Money.",
+  "explain": "In the 2015 form, this agreement covers money and securities inside the premises (or a financial institution's premises) against theft, disappearance or destruction. Merchandise is 'other property'. Against outside thieves on the premises, it is covered only for robbery of a custodian or safe burglary (Insuring Agreement 4), so ordinary burglary of merchandise from the sales floor is not covered. Employee Theft covers money, securities and other property, so employee embezzlement falls there; counterfeit bills fall under Money Orders and Counterfeit Money.",
   "source": "ISO CR 00 21 11 15, A.1, A.3, A.4, A.7"
  },
  {
@@ -761,8 +761,8 @@
    "A retail clothing store"
   ],
   "answer": 1,
-  "explain": "Per IRMI's summary of ISO rules, bars and pubs, auto repair and dealers, manufacturers, places of amusement, and banks are ineligible regardless of size. Apartments, offices and mercantile risks are eligible classes.",
-  "source": "IRMI white paper 'Businessowners Policy Basics'"
+  "explain": "Ordinary bars and taverns are not an eligible class under ISO's businessowners program, so a neighborhood bar is ineligible at any size. Apartments (any size), offices and retail stores are eligible classes. ISO's 2025 program revision (forms dated August 2024, effective in most states July 1, 2025) added auto service risks, such as repair shops, body shops, car washes and tire dealers, and specialty restaurants such as brew pubs and wine bars, within size and seating limits. Auto dealers remain ineligible. ISO's 2025 overview also lists light manufacturing as eligible, so older lists that exclude all auto repair risks and all manufacturers are out of date.",
+  "source": "ISO 'Businessowners Policy (BOP) Program' overview (Feb. 11, 2025); IA Magazine 'Multi-State ISO BOP Revision Allows Certain Auto Service Risks' (July 28, 2025); IRMI 'Major Changes to the 2025 ISO Businessowners Program' (Aug. 29, 2025)"
  },
  {
   "id": "comm-052",
@@ -806,8 +806,8 @@
    "The insured changes agents or moves its business to a new location"
   ],
   "answer": 0,
-  "explain": "In the 2013 ISO BOP, the 5-day cancellation applies to listed building conditions such as 60+ consecutive days of vacancy or unoccupancy (other than seasonal unoccupancy or construction, renovation or addition), repairs not started within 30 days of loss payment, or a vacate or demolition order. Nonpayment requires 10 days, and other reasons 30 days.",
-  "source": "ISO BP 00 03 07 13, Sec. III A.2"
+  "explain": "In the 2013 ISO BOP, the 5-day cancellation applies to listed building conditions such as 60+ consecutive days of vacancy or unoccupancy (other than seasonal unoccupancy or construction, renovation or addition), repairs not started within 30 days of loss payment, or a vacate or demolition order. Nonpayment requires 10 days, and other reasons 30 days. For a policy issued in Michigan, however, state law requires the insurer to mail its cancellation notice at least 10 days before cancellation, for both fire and casualty insurance.",
+  "source": "ISO BP 00 03 07 13, Sec. III A.2; MCL 500.2833(1)(i); MCL 500.3020(1)(b)"
  },
  {
   "id": "comm-055",
@@ -821,8 +821,8 @@
    "Service contract with a privately owned fire department"
   ],
   "answer": 2,
-  "explain": "P-1 is automatic sprinkler system, P-2 automatic fire alarm, P-3 security service, P-4 service contract with a private fire department, and P-9 a system described in the schedule.",
-  "source": "ISO IL 04 15 04 98; FC&S 'Businessowners Program Endorsements Described' (2020, BP 04 30 07 13)"
+  "explain": "In the 2013 Businessowners Protective Safeguards endorsement (BP 04 30 07 13), P-1 is an automatic sprinkler system, P-2 an automatic fire alarm, P-3 a security service, P-4 a service contract with a privately owned fire department, P-5 an automatic commercial cooking exhaust and extinguishing system, and P-9 a system described in the schedule. The commercial property version (CP 04 11 10 12) also has P-5; the older interline version (IL 04 15 04 98) lists only P-1 through P-4 and P-9.",
+  "source": "ISO BP 04 30 07 13, A.2; ISO CP 04 11 10 12, A.2; ISO IL 04 15 04 98, A.2"
  },
  {
   "id": "comm-056",

@@ -44,8 +44,8 @@
  {
   "group": "Michigan Property Laws",
   "item": "Fire policy: insurer cancellation notice",
-  "value": "Not less than 10 days",
-  "source": "MCL 500.2833(1)(i)"
+  "value": "Not less than 10 days (home insurance, other than for nonpayment: at least 30 days, or 20 days in the first 55 days, per 500.2123)",
+  "source": "MCL 500.2833(1)(i); 500.2123(1)-(3); 500.2104(5); 500.2106(4)"
  },
  {
   "group": "Michigan Property Laws",
@@ -80,14 +80,14 @@
  {
   "group": "Michigan Property Laws",
   "item": "Fire policy: suit deadline",
-  "value": "1 year after loss or policy period if longer; tolled notice-to-denial",
+  "value": "1 year after loss or the suit period stated in the policy, whichever is longer; tolled notice-to-denial",
   "source": "MCL 500.2833(1)(q)"
  },
  {
   "group": "Michigan Property Laws",
-  "item": "Fire/explosion withholding (participating municipalities)",
-  "value": "25% of ACV or settlement (lesser); residential cap $12,000 base, CPI-adj.; applies when settlement > 49% of insurance",
-  "source": "MCL 500.2845(1),(15)"
+  "item": "Fire/explosion withholding, MCL 500.2845 (participating municipalities under 50,000 people in counties under 425,000)",
+  "value": "25% of ACV or settlement (lesser); residential cap $12,000 base, CPI-adj. each Jan. 1 ($16,383 for 1/1/2026-12/31/2026); applies when settlement > 49% of insurance",
+  "source": "MCL 500.2845(1),(12),(15); DIFS Bulletin 2025-27-INS"
  },
  {
   "group": "Michigan Property Laws",
@@ -169,9 +169,9 @@
  },
  {
   "group": "Michigan Property Laws",
-  "item": "Nonrenewal claim rule (base amounts)",
-  "value": "3 paid claims in 3 yrs totaling $3,000 excl. weather or $4,000 incl. weather (CPI-adj. every 6 yrs)",
-  "source": "MCL 500.2117(2)(e)"
+  "item": "Nonrenewal claim rule (current amounts)",
+  "value": "3 paid claims in 3 yrs totaling $5,000 excl. weather or $6,600 incl. weather (since 1/1/2024; statutory bases $3,000 / $4,000, CPI-adj. every 6th year; next 1/1/2030)",
+  "source": "MCL 500.2117(2)(e),(5); DIFS Bulletin 2024-02-INS"
  },
  {
   "group": "Dwelling Policy",
@@ -392,7 +392,7 @@
  {
   "group": "Homeowners Policy",
   "item": "Watercraft: outboard hp / sailboat length",
-  "value": "25 hp total / 26 feet; report newly owned outboard within 45 days",
+  "value": "25 hp total / 26 feet; owned outboard over 25 hp is covered if acquired during the policy period, or if acquired before it and declared at inception or reported in writing within 45 days after acquisition",
   "source": "ISO HO 00 03 05 11, Sec. II Excl. B"
  },
  {

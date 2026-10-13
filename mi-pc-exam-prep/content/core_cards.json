@@ -49,8 +49,8 @@
  },
  {
   "front": "A.M. Best Financial Strength Rating tiers",
-  "back": "A++/A+ Superior; A/A- Excellent; B++/B+ Good; B/B- Fair; C++/C+ Marginal; C/C- Weak; D Poor; E Under Regulatory Supervision; F In Liquidation; S Suspended.",
-  "source": "A.M. Best, Guide to Best's Financial Strength Ratings",
+  "back": "A++/A+ Superior; A/A- Excellent; B++/B+ Good; B/B- Fair; C++/C+ Marginal; C/C- Weak; D Poor (the lowest rating). E (court-ordered conservation or rehabilitation), F (court-ordered liquidation) and S (rating suspended) are non-rating designations, not ratings; NR = not rated. Older (2009) guides listed E, F and S as ratings.",
+  "source": "A.M. Best, Guide to Best's Financial Strength Ratings (Version 121719)",
   "topic": "gen"
  },
  {
@@ -193,7 +193,7 @@
  },
  {
   "front": "BPP vacancy rule",
-  "back": "Vacant more than 60 consecutive days: no coverage for vandalism, sprinkler leakage, building glass breakage, water damage, theft, or attempted theft; other covered losses reduced 15%. An owner's building is vacant unless at least 31% of its square footage is used for customary operations.",
+  "back": "Vacant more than 60 consecutive days: no coverage for vandalism, sprinkler leakage (unless the system was protected against freezing), building glass breakage, water damage, theft, or attempted theft; other covered losses reduced 15%. An owner's building is vacant unless at least 31% of its square footage is used for customary operations.",
   "source": "ISO CP 00 10 10 12, E.6",
   "topic": "basics"
  },

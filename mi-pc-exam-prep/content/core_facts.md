@@ -66,11 +66,8 @@ Outline weight: 10.5% (16 items). Concepts below are national and tested in gene
   | C++, C+ | Marginal |
   | C, C- | Weak |
   | D | Poor |
-  | E | Under Regulatory Supervision |
-  | F | In Liquidation |
-  | S | Suspended |
 
-  "Secure" covers A++ through B+; "Vulnerable" covers B and below. [A.M. Best Guide]
+  The FSR scale itself ends at D (Poor), the lowest rating. E, F and S are not ratings but "Financial Strength Non-Rating Designations": E = placed by court order into conservation or rehabilitation (or, without a court order, regulators have clearly acted to delay or limit policyholder payments); F = placed by court order into liquidation after a finding of insolvency; S = the outstanding FSR is suspended, e.g., when sudden, significant events make the rating impossible to evaluate. NR means not rated. Older guides (2009) listed E (Under Regulatory Supervision), F (In Liquidation) and S (Suspended) as ratings and grouped A++ through B+ as "Secure" and B and below as "Vulnerable". The current guide drops those group labels, though its definitions for Fair (B, B-) and below still say financial strength is "vulnerable" to adverse changes. [AM Best, Guide to Best's Financial Strength Ratings, Version 121719]
 - An FSR is not a recommendation to buy a policy. It does not address claims-payment practices. [A.M. Best Guide, Rating Disclosure]
 
 ## Distribution Systems
@@ -122,7 +119,7 @@ Outline weight: 10.5% (16 items). Concepts below are national and tested in gene
 - **Concealment**: willfully holding back pertinent information even though the insurer did not ask about it. Concealment can void the policy. [IRMI "concealment"]
 - **Fraud**: deception intended to cheat or mislead. Fraud in procuring insurance may void the policy. [IRMI "fraud"] Examples in the forms:
   - The CP form is void for fraud at any time, or for intentional concealment or misrepresentation of a material fact about the coverage, property, interest, or claim. [ISO CP 00 90 07 88, A]
-  - The HO form gives no coverage to any insured who intentionally concealed or misrepresented a material fact, engaged in fraudulent conduct, or made false statements, before or after a loss. [ISO HO 00 03 05 11, Sec. I Cond. R]
+  - The HO form (Section I) provides coverage to no insureds if, before or after a loss, any insured intentionally concealed or misrepresented a material fact, engaged in fraudulent conduct, or made false statements relating to the insurance, so one insured's fraud bars every insured. [ISO HO 00 03 05 11, Sec. I Cond. R] Under Section II, only the insured who did so loses coverage. [ISO HO 00 03 05 11, Sec. II Cond. J]
 - **Waiver**: the intentional, voluntary surrender of a known right. [IRMI "waiver"]
 - **Estoppel**: a party cannot contradict its own earlier conduct when another party reasonably relied on it. Example: an insurer that repeatedly accepted late premiums may be estopped from canceling for late payment. [IRMI "estoppel"]
 - Policies limit oral waivers:
@@ -130,9 +127,9 @@ Outline weight: 10.5% (16 items). Concepts below are national and tested in gene
   - WC: terms may be changed or waived only by endorsement. [WC 00 00 00 C, General Section A]
 
 ## Flags
-- **Reasonable expectations in Michigan**: the PSI outline lists this as a generic concept. Michigan's Supreme Court in Wilkie (2003) declined to adopt the doctrine. Exam answers should use the generic definition. I did not read the full Wilkie opinion; secondary sources consistently report the holding.
+- **Reasonable expectations in Michigan**: the PSI outline lists this as a generic concept. Michigan's Supreme Court in Wilkie (2003) declined to adopt the doctrine. Exam answers should use the generic definition. We did not read the full Wilkie opinion; secondary sources consistently report the holding.
 - **Elements of insurable risk**: the six-item list comes from a standard textbook (Rejda). Other texts phrase or number the items differently.
-- **A.M. Best scale**: from the A.M. Best guide (2009 version, hosted on a Nevada state site). The current ambest.com page returned 404, but the rating symbols have been stable.
+- **A.M. Best scale**: checked against the current AM Best guide (ambest.com/ratings/guide.pdf, Version 121719). Symbols A++ through D and their descriptors match the 2009 guide, but E, F and S are now non-rating designations, and the Secure/Vulnerable grouping no longer appears.
 - **Harts duty-to-advise**: authorities disagree on whether the rule covers independent agents as well as captive agents. This is not tested.
 
 # basics: Property & Casualty Insurance Basics
@@ -147,7 +144,7 @@ Outline weight: 20% (30 items). The Michigan-law sub-block (MPCGA, 500.2833 fire
 ## Underwriting
 - **Function**: deciding whether to accept a risk and, if so, how much insurance to write and at what rate. [IRMI "underwriting"]
 - **Loss ratio** = incurred losses ÷ earned premium. Example: $50,000 ÷ $100,000 = 50%. [IRMI "loss ratio"]
-- Expense ratio = underwriting expenses ÷ written premium (statutory/trade basis) or ÷ earned premium (GAAP basis). Or delete the bullet; only the loss ratio is on the outline.
+- **Expense ratio** = underwriting expenses ÷ premium, most typically written premium (some calculations use earned premium). [IRMI "expense ratio"]
 - **Combined ratio** = loss ratio (including loss adjustment expense) + expense ratio. Under 100% means an underwriting profit. [IRMI "combined ratio"]
 
 ## Hazards
@@ -166,7 +163,7 @@ Outline weight: 20% (30 items). The Michigan-law sub-block (MPCGA, 500.2833 fire
   - If the plaintiff's fault is greater than the combined fault of all others (that is, more than 50%), economic damages are still reduced but noneconomic damages are not awarded. [MCL 600.2959]
   - In practice: comparative fault for economic damages, with a more-than-50% bar on noneconomic damages. [MCL 600.2959]
 - **Michigan fault allocation**: each person's liability is allocated in direct proportion to their percentage of fault. Nonparties' fault is also considered. [MCL 600.2957(1)]
-- **Michigan auto no-fault tort**: damages are also assessed on comparative fault. [MCL 500.3135(2)(b)]
+- **Michigan auto no-fault tort**: in a suit for noneconomic loss (or a nonresident's economic loss), damages are assessed on comparative fault, but no damages are assessed in favor of a party who is more than 50% at fault. [MCL 500.3135(2)(b)] The same rule applies to mini-tort vehicle damage claims. [MCL 500.3135(4)(a)]
 
 ## Damages
 - **Compensatory damages** make amends for the actual loss. [IRMI "compensatory damages"] They come in two types:
@@ -346,7 +343,7 @@ Outline weight: 20% (30 items). The Michigan-law sub-block (MPCGA, 500.2833 fire
 - **Loss payment timing**:
   - CP: within 30 days after the sworn proof of loss, provided there is agreement on the amount or an appraisal award. [ISO CP 00 10 10 12, E.4.g]
   - HO: 60 days after proof of loss, plus agreement, a final judgment, or an appraisal award. [ISO HO 00 03 05 11, Sec. I Cond. J]
-  - Michigan statute also applies; see Claims Handling below. [MCL 500.2006]
+  - Michigan statute also applies. Every fire insurance policy issued in Michigan (including a homeowners policy) must make the loss payable within 30 days after the insurer receives proof of the amount of loss, except as provided in 500.2845. The separate timely-payment rule (60 days after proof of loss, then 12% interest) is under Claims Handling below. [MCL 500.2833(1)(p); MCL 500.2006]
 - **Duty to defend**: the insurer has the right and duty to defend suits seeking covered damages. [ISO CG 00 01 04 13, Sec. I Cov. A.1.a]
   - The duty is broader than the duty to indemnify: a potential for coverage is enough, and doubts are resolved for the insured. [IRMI "duty to defend"]
   - The duty ends when the applicable limit is used up paying judgments or settlements. [ISO CG 00 01 04 13, Sec. I Cov. A.1.a(2)]
@@ -393,7 +390,7 @@ Outline weight: 20% (30 items). The Michigan-law sub-block (MPCGA, 500.2833 fire
 - **Adjuster types** [IRMI "adjuster"; "independent adjuster"; "public adjuster"]:
   - *Staff adjuster*: an employee of the insurer.
   - *Independent adjuster*: works on contract for insurers or self-insureds, often in catastrophe or overflow situations.
-  - *Public adjuster*: represents the insured, not the insurer, and is usually paid a percentage of the settlement (about 2–15%).
+  - *Public adjuster*: represents the insured, not the insurer, and is usually paid a percentage of the settlement. In Michigan, an adjuster for the insured may not charge more than 10% of the amount the insurer pays in settlement, and must contract in writing on a commissioner-approved form. [MCL 500.1226(3), (4)]
 - **Typical process**:
   1. Notice of loss.
   2. Investigation: inspection, records, examination under oath.
@@ -425,12 +422,12 @@ Outline weight: 20% (30 items). The Michigan-law sub-block (MPCGA, 500.2833 fire
   - CP 00 90 07 88 and CP 03 21 10 12 (Conifer Michigan hospitality forms)
   - HO 00 03 05 11 (copy downloaded by the homeowners research agent)
   - CG 00 01 04 13 limits and duty-to-defend text (Argo annotated copy)
-  - CG "Method Of Sharing" wording from a Law Insider reproduction of the standard ISO text. I did not view the full ISO PDF.
-- **IL 00 17 11 98 Common Policy Conditions**: I could not get an ISO copy. The 10/30-day commercial cancellation notice is from a carrier form reproducing ISO language (Accelerant N CP 0169), confirmed by secondary summaries. Michigan statutes and amendatory endorsements govern actual notice periods (see the Michigan sub-block file).
+  - CG "Method Of Sharing" wording from a Law Insider reproduction of the standard ISO text. We did not view the full ISO PDF.
+- **IL 00 17 11 98 Common Policy Conditions**: We could not get an ISO copy. The 10/30-day commercial cancellation notice is from a carrier form reproducing ISO language (Accelerant N CP 0169), confirmed by secondary summaries. Michigan statutes and amendatory endorsements govern actual notice periods (see the Michigan sub-block file).
 - **Stated amount**: the "least of stated amount / ACV / repair cost" rule comes from secondary summaries of ISO CA 99 28. The Virginia SCC form PDF would not download.
 - **Absolute vs. strict liability**: legal sources often use these terms interchangeably. Exam-prep convention uses "absolute" for ultrahazardous activities and "strict" for defective products. Michigan has not adopted Restatement §402A strict products liability as such; design-defect claims use a negligence risk-utility test [Prentis v Yale Mfg Co, 421 Mich 670 (1984)]. This is generic exam content; avoid Michigan-specific products questions.
 - **Restoration of limits**: no single primary source covers the "property limits restored, liability aggregates eroded" convention. Use it as general guidance only.
-- **Punitive damages**: Michigan citations are from the IADC Michigan Damages Compendium (2026), which quotes Gilbert (2004) and Casey (2006). I did not read the opinions themselves.
+- **Punitive damages**: Michigan citations are from the IADC Michigan Damages Compendium (2026), which quotes Gilbert (2004) and Casey (2006). We did not read the opinions themselves.
 - **Michigan HO forms**: Michigan uses a "Special Provisions – Michigan" endorsement that can modify the HO loss payment, appraisal, suit, and cancellation terms quoted here.
 
 # wc: Workers' Compensation
@@ -665,7 +662,7 @@ Outline weight: 5% (8 items). Statute text is from legislature.mi.gov ("MCL comp
 - **Inspection**: the insurer may inspect, but its inspections are not safety inspections and it does not warrant safety. [Part Six A]
 - **Long-term policy**: a policy period longer than **1 year and 16 days** is treated as a new policy at each anniversary. [Part Six B]
 - **Transfer of rights and duties**: requires written consent. If the insured dies and the insurer is notified within **30 days**, the legal representative is covered. [Part Six C]
-- **Cancellation**: the insured may cancel with advance written notice. The insurer must give **at least 10 days'** advance written notice, but conflicting state law controls. [Part Six D]
+- **Cancellation**: the insured may cancel with advance written notice. The insurer must give **at least 10 days'** advance written notice, but conflicting state law controls. [Part Six D] **Michigan**: the insurer must also file a notice with the Workers' Disability Compensation Agency at least **20 days** before a cancellation or termination takes effect, and the cancellation is not effective as to the insured's employees until 20 days after the agency receives that notice. [MCL 418.621(4)(g); Michigan Law Endorsement WC 21 03 04]
 - **Sole representative**: the first named insured. [Part Six E]
 
 ### Voluntary Compensation Endorsement (WC 00 03 11 A, Ed. 8-91)
@@ -685,7 +682,7 @@ Outline weight: 5% (8 items). Statute text is from legislature.mi.gov ("MCL comp
 - **Experience modification**: compares the employer's actual losses with the expected losses for its classes and payroll. [Pinnacol; EMC] The mod is usually based on 3 years of experience, excluding the most recent completed policy year. [Pinnacol; EMC]
   - A mod of 1.00 is average, under 1.00 is a credit, and over 1.00 is a debit. [Pinnacol; EMC; IRMI "experience modification"]
   - Standard premium = manual premium adjusted by the experience mod. Example: $10,000 × 0.85 = $8,500. [IRMI "standard premium"]
-- **Premium discount**: a volume discount reflecting lower expense ratios on larger policies. It is applied after experience rating, to standard premium, at graduated rates. In the Michigan Placement Facility, discount applies only when total standard premium exceeds $10,000 (0% on the first $10,000, then 5.1% / 6.5% / 7.5% bands). Voluntary-market insurers file their own discount tables. It is not available with retrospective rating. [IRMI "premium discount"]
+- **Premium discount**: a volume discount reflecting lower expense ratios on larger policies. It is applied after experience rating, to standard premium, at graduated rates. In the Michigan Placement Facility, discount applies only when total standard premium exceeds $10,000 (0% on the first $10,000, then 5.1% / 6.5% / 7.5% bands). Voluntary-market insurers file their own discount tables. It is not available with retrospective rating. [CAOM MWCPF Basic Manual (Ed. 09/26) Rule Seven C-D and Premium Discount Table; MCL 500.2406(3); IRMI "premium discount"]
 - **Audit**: payroll audit after expiration sets the earned (final) premium. [IRMI "payroll audit"; WC 00 00 00 C Part Five G]
 
 ## Flags
@@ -693,9 +690,9 @@ Outline weight: 5% (8 items). Statute text is from legislature.mi.gov ("MCL comp
   - michigan.gov blocked direct download (403), so the figure comes from the search-engine snippet of the official 2026 rate book plus a law-firm post dated Feb. 12, 2026. The figure is consistent with the §355 formula.
   - It applies to injuries in calendar 2026 only, and the maximum changes every January 1.
   - Avoid exam reliance on the specific dollar figure.
-- **EL standard limits** (100k/500k/100k): verified in the NC Rate Bureau Basic Manual (an NCCI-style manual). Michigan WC data and experience mods are handled by CAOM, not NCCI. The NCCI policy form is used nationally, but I did not see a Michigan-specific manual rule on EL limits.
-- **Premium discount threshold**: the $5,000 figure is from IRMI and NCCI-style practice. Thresholds vary by state (e.g., Massachusetts uses $10,000). Michigan is a loss-cost state where insurers file their own rates and discounts. Treat the $5,000 figure as conceptual.
+- **EL standard limits** (100k/500k/100k): verified in the NC Rate Bureau Basic Manual (an NCCI-style manual). Michigan WC data and experience mods are handled by CAOM, not NCCI. The NCCI policy form is used nationally, but we did not see a Michigan-specific manual rule on EL limits.
+- **Premium discount threshold**: the $10,000 threshold and the 5.1% / 6.5% / 7.5% bands come from the CAOM Michigan Workers' Compensation Placement Facility Basic Manual (Ed. 09/26), Rule Seven D and its Premium Discount Table. IRMI's generic definition uses $5,000, and thresholds vary by state. Michigan voluntary-market insurers file their own rates and rating systems, including discount tables (MCL 500.2406(3)).
 - **Experience mod period** (3 years, excluding the most recent year): from carrier explainers (Pinnacol/EMC), not CAOM's Michigan plan. The Michigan specifics were not verified.
-- **WC policy cancellation**: the policy says at least 10 days' notice, "changed to comply" with any conflicting state law. Michigan-specific WC cancellation rules were not researched.
+- **WC policy cancellation**: the policy says at least 10 days' notice, "changed to comply" with any conflicting state law. Michigan law requires every WC policy to provide that the insurer files notice with the Workers' Disability Compensation Agency at least 20 days before a cancellation or termination, and that the termination is not effective as to employees until 20 days after the agency receives the notice (MCL 418.621(4)(g); Michigan Law Endorsement WC 21 03 04).
 - **Jones Act citation**: the outline cites 46 USC 688, which was recodified in 2006 as 46 USC 30104.
-- **Placement Facility statutes**: the board composition and rating plans are from MCL 500.2310 and 500.2312. I could not retrieve every section of 500.2301 et seq. (several section numbers returned no text, possibly repealed or unused).
+- **Placement Facility statutes**: the board composition and rating plans are from MCL 500.2310 and 500.2312. We could not retrieve every section of 500.2301 et seq. (several section numbers returned no text, possibly repealed or unused).

@@ -93,7 +93,7 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
   - $250,000 [MCL 500.3107c(1)]
   - $500,000 [MCL 500.3107c(1)]
   - No limit (unlimited) [MCL 500.3107c(1)]
-- $250,000 with exclusions: an insurer must offer anyone choosing the $250,000 level an exclusion for persons with QHC (non-Medicare). [MCL 500.3109a(2)]
+- $250,000 with exclusions: an insurer must offer anyone choosing the $250,000 level an exclusion for persons with QHC. An excluded named insured must have QHC that is not Medicare; an excluded spouse or resident relative needs only QHC (Medicare Parts A and B qualifies). [MCL 500.3109a(2),(5); DIFS Insurance Agents FAQ]
   - If the named insured, spouse and all resident relatives have QHC that covers auto injuries, the PIP medical premium is reduced 100%. [MCL 500.3109a(2)]
   - Excluded persons are not eligible for PIP medical under the policy. [MCL 500.3109a(2)]
 - Opt-out: the named insured may elect no PIP medical coverage only if: [MCL 500.3107d(1),(7)]
@@ -166,7 +166,7 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
 - Residual liability covers BI and PD occurring in the US, its territories and possessions, or Canada. It provides coverage equivalent to the financial responsibility law where the injury or damage occurs, and in Michigan the liability retained by 3135. [MCL 500.3131(1)]
 - Noneconomic loss (pain and suffering): tort liability remains only if the injured person suffered death, serious impairment of body function, or permanent serious disfigurement. [MCL 500.3135(1)]
 - Serious impairment of body function: objectively manifested; an impairment of an important body function; and it affects the person's general ability to lead his or her normal life. There is no minimum duration. [MCL 500.3135(5)]
-- Comparative fault applies; a party more than 50% at fault recovers no noneconomic damages. A person who was operating his or her own vehicle without the required security cannot recover noneconomic (pain and suffering) damages, and an uninsured damaged vehicle cannot recover under the mini-tort. [MCL 500.3135(2)(b),(c)]
+- Comparative fault applies; a party more than 50% at fault recovers no noneconomic damages. A person who was operating his or her own vehicle without the required security cannot recover noneconomic (pain and suffering) damages, and no mini-tort damages are assessed if the damaged vehicle was being operated without the required security. [MCL 500.3135(2)(b),(c),(4)(e)]
 - Tort liability is otherwise abolished for an insured vehicle, except for: [MCL 500.3135(3)]
   - intentional harm; [MCL 500.3135(3)]
   - threshold noneconomic loss; [MCL 500.3135(3)]
@@ -177,7 +177,7 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
   - A party more than 50% at fault cannot recover. [MCL 500.3135(3)(e),(4)]
   - The suit is brought in small claims when possible. [MCL 500.3135(3)(e),(4)]
   - It is not part of required residual liability. [MCL 500.3135(3)(e),(4)]
-  - No recovery if the damaged vehicle was uninsured. [MCL 500.3135(3)(e),(4)]
+  - No recovery if the damaged vehicle was being operated without the required security (uninsured). [MCL 500.3135(3)(e),(4)]
 
 ### Michigan Catastrophic Claims Association (MCCA) (MCL 500.3104)
 - The MCCA is an unincorporated nonprofit association created in 1978 (no liability for losses before July 1, 1978). Every insurer writing Michigan no-fault security must be a member. [MCL 500.3104(1),(27)]
@@ -240,7 +240,7 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
 - Liability policies must meet the 3009(1) limits for vehicles registered or principally garaged in Michigan. [MCL 500.3009(1)]
 - A rental company leasing for 30 days or less is liable as owner only when an authorized driver or a listed immediate-family member is driving. Unless the lessor was negligent, its liability is capped at $20,000 per person / $40,000 per accident BI, and the lessee must be notified of this cap. [MCL 257.401(3),(4)]
 - A lessor under a lease of more than 30 days has no common-law owner liability. [MCL 257.401(2)]
-- PAP: Part A liability and Part D physical damage follow the insured to a non-owned auto (including a rental). Under the PAP (09 18), Part D covers loss of use of a non-owned auto (up to $30/day) when the policy has collision or OTC on any covered auto. [ISO PP 00 01 09 18, Part A; Part D]
+- PAP: Part A liability and Part D physical damage follow the insured to a non-owned auto (including a rental). Under the PAP (09 18), Part D Transportation Expenses pay loss-of-use charges the insured is legally responsible for on a non-owned auto (up to $30/day, within the $900 maximum): for a collision loss only if Collision Coverage is shown for any covered auto, and for an other-than-collision loss only if Other Than Collision Coverage is shown. [ISO PP 00 01 09 18, Part A; Part D]
 - Rental-car sellers of incidental auto insurance (rentals of 90 days or less) are exempt from producer licensing. [MCL 500.1202(2)(h)]
 
 ### Aftermarket Crash Parts Act (1991 PA 158, MCL 257.1361–.1364)
@@ -298,11 +298,11 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
   - intentional injury; [PP 00 01 09 18, Part A, Exclusions A]
   - damage to property owned or transported by the insured; [PP 00 01 09 18, Part A, Exclusions A]
   - damage to property rented to, used by or in the care of the insured (except a residence or private garage); [PP 00 01 09 18, Part A, Exclusions A]
-  - employee injury (except domestic employees not covered by workers' comp); [PP 00 01 09 18, Part A, Exclusions A]
+  - employee injury during the course of employment (except a domestic employee, unless workers' comp benefits are required or available for that domestic employee); [PP 00 01 09 18, Part A, Exclusions A]
   - public or livery conveyance, including time logged into a TNC platform as a driver (share-the-expense car pools and volunteer/charitable use are excepted); [PP 00 01 09 18, Part A, Exclusions A]
-  - the auto business (selling, repairing, servicing, storing, parking); [PP 00 01 09 18, Part A, Exclusions A]
+  - the auto business (selling, repairing, servicing, storing, parking vehicles designed for use mainly on public highways), except for the ownership, maintenance or use of your covered auto by you, a family member, or a partner, agent or employee of you or a family member; [PP 00 01 09 18, Part A, Exclusions A]
   - other business use of vehicles other than private passenger autos, pickups or vans (or trailers used with them); [PP 00 01 09 18, Part A, Exclusions A]
-  - using a vehicle without a reasonable belief of entitlement; [PP 00 01 09 18, Part A, Exclusions A]
+  - using a vehicle without a reasonable belief of entitlement (this does not apply to a family member using your covered auto that you own); [PP 00 01 09 18, Part A, Exclusions A]
   - nuclear; [PP 00 01 09 18, Part A, Exclusions A]
   - personal vehicle sharing programs. [PP 00 01 09 18, Part A, Exclusions A]
 - Vehicle exclusions: [PP 00 01 09 18, Part A, Exclusions B]
@@ -315,7 +315,7 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
 
 ### Part B: Medical Payments
 - Reasonable medical and funeral expenses for services rendered within 3 years from the date of the accident. [PP 00 01 09 18, Part B, Insuring Agreement A]
-- Insureds: you or family members while occupying a motor vehicle or as a pedestrian struck by one, and any other person occupying your covered auto. [PP 00 01 09 18, Part B, B]
+- Insureds: you or family members while occupying, or as a pedestrian when struck by, a motor vehicle designed for use mainly on public roads or a trailer of any type, and any other person occupying your covered auto. [PP 00 01 09 18, Part B, B]
 - Excludes: [PP 00 01 09 18, Part B, Exclusions]
   - motorized vehicles with fewer than 4 wheels; [PP 00 01 09 18, Part B, Exclusions]
   - public or livery use (including TNC); [PP 00 01 09 18, Part B, Exclusions]
@@ -485,7 +485,7 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
 ## Flags
 - Values that change over time, with effective dates:
   - **Work loss and survivor's loss maximum** (per 30-day period, by accident date): $7,455 for Oct. 1, 2026 – Sept. 30, 2027. Prior years: $7,201 (2025–26), $7,014 (2024–25), $6,811 (2023–24). [DIFS Bulletin 2026-20-INS]
-  - **MCCA retention:** $675,000 for policies issued or renewed July 1, 2025 – June 30, 2027. The next change is due July 1, 2027. [michigancatastrophic.com] I could not find the retention in a statute or DIFS document. The figure is consistent with $635,000 × 1.06 rounded to the nearest $5,000.
+  - **MCCA retention:** $675,000 for policies issued or renewed July 1, 2025 – June 30, 2027. The next change is due July 1, 2027. [michigancatastrophic.com] The dollar figure is not printed in the statute: MCL 500.3104(2)(o) sets $580,000 for July 1, 2019 – June 30, 2021 and requires an increase every July 1 of odd-numbered years by the lesser of 6% or CPI, rounded to the nearest $5,000. The MCCA calculates and publishes each new figure. $675,000 is consistent with the July 1, 2023 – June 30, 2025 retention of $635,000 × 1.06, rounded to the nearest $5,000.
   - **MCCA assessment for July 1, 2026 – June 30, 2027:** $84 per vehicle for unlimited PIP ($65 + $19), $19 for all other levels. [MCCA chart and press release] It changes every July 1.
   - **QHC deductible cap:** $6,579 for July 1, 2026 – June 30, 2027. [DIFS Bulletin 2026-08-INS]
   - **Fee schedule:** the percentages in 3157 are those for services after July 1, 2023. A 3157 CPI adjustment bulletin exists (2026-09-INS) but was not read in detail.
@@ -500,10 +500,10 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
   - ISO PAP: 10/20 days and a 60-day window.
   - Questions here test the Chapter 32 rules the outline cites (3204, 3220, 3224) and name the statute in the stem.
 - **UM/UIM.** No statute mandating an offer or rejection was found in the Insurance Code sections reviewed. "Optional" is based on DIFS consumer material and Rory v Continental (2005). The PSI outline lists "UM/UIM Rejection / Required Limits," which is likely generic national content.
-- **Effective date of the priority changes.** The changes to 3114(4) and 3115 (MACP instead of the owner's or operator's insurer) came in 2019 PA 21, which took immediate effect June 11, 2019. The act's enacting sections give no separate applicability date for them. I did not verify which accident dates they apply to.
+- **Effective date of the priority changes.** The changes to 3114(4) and 3115 (MACP instead of the owner's or operator's insurer) came in 2019 PA 21, which took immediate effect June 11, 2019. The act's enacting sections give no separate applicability date for them. We did not verify which accident dates they apply to.
 - **Outline mismatch.** The outline pairs "Rental Vehicle Coverage" with 500.3009 and .3105(2). Neither section mentions rentals expressly. The rental facts above are assembled from 3101(3)(l), 3105, 3114(1), MCL 257.401(3) and PAP Part D.
 - **Form editions.**
-  - The PAP numbers come from PP 00 01 09 18: bail $250; loss of earnings $250/day; transportation $30/day, max $900. A secondary summary of the older PP 00 01 01 05 gives transportation as $20/day, max $600. I did not verify the other older-edition amounts, so questions name the 09 18 edition.
+  - The PAP numbers come from PP 00 01 09 18: bail $250; loss of earnings $250/day; transportation $30/day, max $900. A secondary summary of the older PP 00 01 01 05 gives transportation as $20/day, max $600. We did not verify the other older-edition amounts, so questions name the 09 18 edition.
   - The BAP numbers come from CA 00 01 11 20 (transportation and loss of use $30/$900). The 10 13 edition was $20/$600.
   - The Garage form symbols come from CA 00 05 07 97.
 - **Not verified from primary form text.**
