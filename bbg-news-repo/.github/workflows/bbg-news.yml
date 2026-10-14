@@ -3,35 +3,41 @@ name: BBG News auto-post
 on:
   schedule:
     - cron: "4,19,34,49 * * * *" # every 15 min, off the top of the hour; the bot decides what's due
-  workflow_dispatch:
+  workflow_dispatch: # also started by the Discord app (relay/worker.js) with a clip
     inputs:
       preview:
         description: "Only render preview images and sample Reels (nothing is posted)"
         type: boolean
         default: false
+      clip_url:
+        description: "Clip from Discord (filled in by the Send to BBG News app)"
+        required: false
+      credit:
+        description: "Credit shown on the Reel"
+        required: false
+      caption:
+        description: "Caption (optional)"
+        required: false
+      notify:
+        description: "Discord reply to update (filled in by the app)"
+        required: false
 
 permissions:
   contents: write # state commits, the bbg-media branch and the fallback media release
 
 concurrency:
   group: bbg-news
-  cancel-in-progress: false
+  queue: max # clip runs wait their turn instead of being replaced by the next scheduled run
 
 jobs:
   post:
     runs-on: ubuntu-24.04 # pinned: ffmpeg settings were tested on 24.04's ffmpeg 6.1
     timeout-minutes: 30
-    defaults:
-      run:
-        working-directory: bbg-news
     env:
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-      DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
       YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-      DISCORD_OWNER_ID: ${{ vars.DISCORD_OWNER_ID }}
-      DISCORD_CLIPS_CHANNEL_ID: ${{ vars.DISCORD_CLIPS_CHANNEL_ID }}
-      DISCORD_FEED_CHANNEL_ID: ${{ vars.DISCORD_FEED_CHANNEL_ID }}
       GH_TOKEN: ${{ github.token }}
+      # Clip inputs are read by bot.py from the event file, never via env, so they stay out of the public log.
     steps:
       - uses: actions/checkout@v4
         with:
@@ -54,9 +60,9 @@ jobs:
         if: ${{ inputs.preview }}
         with:
           name: bbg-news-preview
-          path: bbg-news/out/preview
+          path: out/preview
 
-      - name: Check Discord clips and pick the next post
+      - name: Pick the next post
         id: prepare
         if: ${{ !inputs.preview }}
         run: python bot.py prepare
@@ -74,6 +80,10 @@ jobs:
       - name: Publish to Instagram
         if: steps.prepare.outputs.has_post == 'true'
         run: python bot.py publish
+
+      - name: Tell the owner a sent clip failed
+        if: ${{ (failure() || cancelled()) && github.event_name == 'workflow_dispatch' && !inputs.preview }}
+        run: python bot.py clip-failed
 
       - name: Save state
         if: ${{ always() && !inputs.preview }}

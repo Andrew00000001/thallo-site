@@ -15,6 +15,7 @@ def steam_release(app=APP):
         params={"appids": app, "filters": "release_date"},
         timeout=30,
     )
+    r.raise_for_status()
     rd = r.json()[str(app)]["data"]["release_date"]
     try:
         return datetime.strptime(rd["date"], "%b %d, %Y").date(), rd["coming_soon"]

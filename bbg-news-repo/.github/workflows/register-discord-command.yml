@@ -1,0 +1,22 @@
+name: Register Discord command
+
+# Run once (Actions > Register Discord command > Run workflow) after setting discord_app_id in
+# config.json and the DISCORD_BOT_TOKEN secret. It adds "Send to BBG News" to the app.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  register:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python bot.py register-command
