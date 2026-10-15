@@ -9,7 +9,7 @@ Posts to the BBG News Instagram (an unofficial Battle Bears Gold fan page) from 
 | **Community clips** | Right after you send one from Discord with the **Send to BBG News** app | Any server you're in, e.g. the official Battle Bears server |
 | Official news | Within ~15 min of a new SkyVu announcement on the Battle Bears Gold Steam page | Steam News API |
 | New official video | Within ~15 min of a new upload on the Battle Bears YouTube channel (a card that points to it; the video isn't reposted) | YouTube Data API (optional) |
-| Official trailer Reels | Off by default. Turn on `official_trailers` only after SkyVu OKs reposting | Steam store trailers |
+| Official trailer Reels | One per new trailer, credited to SkyVu (SkyVu OK'd reposting on Oct 14, 2026). Turn off with `official_trailers` | Steam store trailers |
 | Countdown | 21, 14, 10, 7, 5, 3, 2, 1 days out, plus launch day, at 5pm ET | Release date read live from Steam |
 | Fact post | 5pm ET on days without a countdown | `content/evergreen.json` (15 sourced facts) |
 

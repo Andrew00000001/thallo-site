@@ -12,7 +12,7 @@
   "max_posts_per_day": 3,
   "max_video_seconds": 90,
   "max_clip_mb": 100,
-  "official_trailers": false,
+  "official_trailers": true,
   "discord_app_id": "",
   "countdown_milestones": [21, 14, 10, 7, 5, 3, 2, 1, 0],
   "hashtags": [

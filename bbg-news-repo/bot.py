@@ -272,7 +272,7 @@ def choose(state, t):
     if not auto_room:
         return None
 
-    # 3. Official Steam trailers, only once SkyVu has OK'd reposting (config: official_trailers).
+    # 3. Official Steam trailers, credited to SkyVu, which OK'd reposting (config: official_trailers).
     if CFG["official_trailers"]:
         for tr in sources.steam_trailers(APP):
             if tr["id"] not in state["trailers_done"] and fresh(f"trailer-{tr['id']}"):
