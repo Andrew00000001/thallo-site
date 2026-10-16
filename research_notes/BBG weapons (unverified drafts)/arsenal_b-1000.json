@@ -1,0 +1,268 @@
+{
+ "weapons": [
+  {
+   "name": "Grenader",
+   "slot": "primary",
+   "status": "Default primary [Fan-wiki: infobox 'Price: Default', 'Level Required: 1', Category:Default]. A launch weapon: its wiki page was created 2013-05-20, in BBG's launch week, and its beta name was 'Grrnade Launcher' [Fan-wiki]. CONFLICT: the wiki's beta-era text (rev 37475, 2013-05-20) called the Bearail Gun 'the default weapon for the B-1000 class'. Today the wiki lists the Grenader as default. Unresolved [Fan-wiki]. Stat rework recorded only by a single unsourced wiki edit on 2020-11-09 (user Alphabbr, rev 77023): explosives 55-75 to 45-70, AoE 85/215 to 125/250, rate of fire 1 s to 1.5 s, ammo 3 to 4, reload 5.25 s to 5 s, projectile speed 700 to 750 u/s. The in-game patch and date are [Unverified]. A B-1000 holds it in a 2026 Steam store screenshot (screen_04) [Observed]; that screenshot's capture date is unknown. Whether it is in the 2026 build is [Unverified]. BBR: none (B-1000 did not exist in BBR). BBH: not part of B1000's listed kit [Fan-wiki].",
+   "official_text": "\"Got a weak arm? Fear not! This honey of a weapon does the throwing for you. Now you can sit back and relax while pelting your enemies with explosives from afar.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Grenader",
+   "mechanics": "FIRE: semi-auto launcher. It 'shoots grenades in an arc' that explode on contact with a player or any surface [Fan-wiki]. IMPACT: 'they will explode into a damaging, golden orb'; 'a rather huge and bright blast' dealing 45-70 explosive damage; AoE listed as 'Max Dmg 125.0, Min Dmg 250.0', which are probably the max-damage and min-damage radii in game units [Inference]. High self-damage risk because of the low arm position and the arc [Fan-wiki]. 'The grenades launched have a significant knockback effect when they hit airborne players' [Fan-wiki]. PROJECTILE LOOK (wiki prose only): 'The projectile looks like it's set on fire with something else rotating or orbiting it, also emitting fire' [Fan-wiki]. RELOAD LOOK: 'the barrel will look like it's charging like the Power Glove, but with strong golden light, eventually forming a golden orb' [Fan-wiki]. STATS (current wiki): rate of fire 1.5 s, ammo 4 (the usage prose still says 'ammo clip of three', an internal conflict), reload 5 s, projectile speed 750 u/s; affected by Ammo+ and Explosions+ [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Grenader.png and png/Axecutioner.png]: a chunky cylindrical launcher fitted to B-1000's RIGHT forearm. It has an octagonal body of riveted white panels framed in orange, a black octagonal muzzle tube, a black ribbed hose arcing over the top like a carry handle, a black ribbed side panel and small orange fin spikes. [Observed: Steam screenshot /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_04.jpg, crop at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/trfull/s04_crop.jpg]: the same white-and-orange cylinder with a black looping hose and its muzzle pointing down, carried by an orange-and-blue B-1000 (probably the Orange skin on the blue team [Inference]). The projectile and explosion were NOT observed in any image or frame I opened. Depiction for shorts: [BBG News invention] a small flaming grenade with a little spinning ring lobs in a high arc and bursts into a bright golden sphere with knockback. This matches the wiki prose but has not been checked against footage.",
+   "image_leads": [
+    "File:Grenader.jpg https://static.wikia.nocookie.net/battlebears/images/0/00/Grenader.jpg/revision/latest?cb=20130722023941 (local PNG: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Grenader.png)",
+    "File:Axecutioner.jpg (Grenader on the right arm, front view)",
+    "File:Last_Resort.jpg and File:Metal_Crush.jpg (Grenader seen from behind)",
+    "Steam screenshot /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_04.jpg (B-1000 left of centre)",
+    "GRENADER store icon in File:SRCG.jpg (v2.7 store) and File:Imageedc.jpg",
+    "No firing image or video found; best lead is the JustNubz 2026 showcase, Assault chapter 0:00-4:35 (not viewable here)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Grenader",
+    "https://battlebears.fandom.com/api.php?action=parse&page=Grenader&prop=wikitext|images&format=json",
+    "wiki diff rev 75686 to 77023 (2020-11-09) via api.php?action=compare&fromrev=77023&torelative=prev",
+    "https://battlebears.fandom.com/wiki/Bearail_Gun (beta-era rev 37475 default claim)",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_04.jpg"
+   ]
+  },
+  {
+   "name": "Bearail Gun",
+   "slot": "primary",
+   "status": "Unlock: 110,000 Joules, level 1 [Fan-wiki infobox]. A launch weapon: page created 2013-05-20. The wiki's beta text reads 'Gun go boom - beta description' and calls it 'the default weapon for the B-1000 class' [Fan-wiki]. Visual change: 'Upon its initial release, the Bearail Gun originally had no golden laser from the shooter to the target... SkyVu added the bullet effect in a later update' [Fan-wiki; version unknown]. Stat change in the 2020-11-09 wiki edit: explosives 55-75 to 75-90, reload 3.5 s to 3 s [Fan-wiki]. It appears in a B-1000 shot of the 2026 Steam trailer, which is probably reused 2013 footage [Observed; Inference]. Whether it is in the 2026 build is [Unverified]. BBH (2024): the wiki lists B1000's attack as 'Shock N Claw + Bearail Gun' [Fan-wiki]. Official BBH copy says only 'twin functionality attack ... offers both range and melee' [Canon].",
+   "official_text": "\"This devastating laser creates a colossal explosion upon impact. Anything this powerful takes time so keep the enemies in your sight while it builds up. Trust us, vaporizing your friend has never been more fun!\" [Game text via wiki] https://battlebears.fandom.com/wiki/Bearail_Gun ; beta text quoted by the wiki: \"Gun go boom\" [Fan-wiki]",
+   "mechanics": "FIRE: it 'charges for 1 second, with a glowing gold light, then fires a fast and short beam laser'. The shot is hitscan: 'no travel time, infinite range', zero dispersion and no zoom [Fan-wiki]. IMPACT: 'exploding with a large AoE, emitting particles and light. It also produces a dim light wave'; 'a colossal explosion upon impact with any surface or player'; explosives 75-90 (prose says 70-90), AoE 90/220 [Fan-wiki]. Ammo 1, which Ammo+ does not change; reload 3 s. The charging light shows even while the user is cloaked [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Bearail_G.png, png/B-1000Skin.png, png/Gold1000.png, png2/B-1000_default.png]: a long rectangular arm-gun on the RIGHT forearm, with a black core, an orange frame along its length, white end panels and a small round port underneath. In the idle pose it is often held vertically, muzzle up, and in Bearail_G.png its tip glows orange. FIRING [Observed]: the official in-game 'B1000 BATTLE PACK' banner (File:B1000battlepackbundle.png, wiki upload 2015) shows a thin, straight yellow-gold beam leaving the muzzle and ending in a starburst of yellow sparks. In thumbnails of the fan 'Bearail Gun Demonstration' (YouTube 4OtByuL2bI4, a 2014 Everyplay clip) the HUD reads ammo '1 / 1'; in hq3 a 'RELOAD' prompt shows with an orange-yellow fiery burst ahead of the gun. CONCEPT [Observed: png/B-1000_concept_1.png]: under 'B-1000 PRIMARY ATTACKS ... Bearail Gun' the sheet shows 'Charge-up' (a round emitter with a red glowing core), then a large red glowing orb, 'then a quick particle blast' (a red beam hitting a silhouette). The concept is red, while the wiki and the 2015 banner show gold. TRAILER [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4 at 4.45-4.6 s, strip at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/trfull/strip_4.45-4.95.jpg]: B-1000 points it point-blank at a Demo just before the claw kill. No clean beam shot is visible in the trailer.",
+   "image_leads": [
+    "File:Bearail_G.jpg https://static.wikia.nocookie.net/battlebears/images/b/b5/Bearail_G.jpg/revision/latest?cb=20130611084013",
+    "File:B1000battlepackbundle.png https://static.wikia.nocookie.net/battlebears/images/8/81/B1000battlepackbundle.png/revision/latest?cb=20150508223801 (beam plus spark impact)",
+    "File:B-1000_concept_1.png https://static.wikia.nocookie.net/battlebears/images/2/27/B-1000_concept_1.png/revision/latest?cb=20130604102154 (charge and blast concept)",
+    "File:Bearail_Gun.jpeg (v2.0 store stat panel and icon)",
+    "File:Bearail-gun-navi-icon.png",
+    "File:B-1000Skin.jpg, File:Gold1000.jpg, File:B-1000_default.jpeg, File:Mu123.PNG, File:Orange1000.jpg (all held in idle)",
+    "File:B-1000.jpg (pre-launch Sky View gameplay, ammo 1/1, held vertically)",
+    "File:Bearail Gun Demonstration = YouTube 4OtByuL2bI4; thumbnails https://i.ytimg.com/vi/4OtByuL2bI4/hq1.jpg, hq2.jpg, hq3.jpg, maxresdefault.jpg",
+    "Steam trailer /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4 at 2.0-6.5 s"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Bearail_Gun",
+    "wiki early revisions 37462-37486 (2013-05-20) and diff rev 75774 to 77024 (2020-11-09)",
+    "https://battlebears.fandom.com/wiki/File:Bearail_Gun_Demonstration (metadata: videoId 4OtByuL2bI4, Everyplay recording)",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Heroes (BBH kit table)",
+    "https://battlebears.com/pages/characters (fetched 2026-10-15)"
+   ]
+  },
+  {
+   "name": "Energy Overflow",
+   "slot": "primary",
+   "status": "Unlock: 60 Gas, level 1 [Fan-wiki]. A 60 Gas price is visible in a v2.7 store screenshot (File:SRCG.jpg) [Observed]. Released in BBG 2.3, Sept 27, 2013 [Fan-wiki Updates]. A fan video's description (Aug 28, 2013) quotes '2.3 (Beta) Release Notes ... New Weapons -B-1000: Energy Overflow, Shield' [Unverified as SkyVu text]. 2.6.1 (Jan 4, 2014): 'Assault will no longer fire Energy Overflow on respawn' [Game text via wiki, Updates transcription]. The 2020-11-09 wiki edit changed: charged damage 130 to 140, reload 6 s to 4 s, stat modifier '10% Health Reduction' to '+10% Speed Modifier'. A 2026-09-20 wiki edit (Alphabbr; same day as closed playtest #4) added 'Charge Time 3' with no source [Fan-wiki]. 2026 build presence: [Unverified]. BBH (2024): the wiki lists Energy Overflow as B1000's ULTIMATE [Fan-wiki]. The official site says only 'his lethal Ultimate, which boasts stun capability' [Canon].",
+   "official_text": "\"Sometimes you have hold it in and wait for the right moment, then release all over your enemy. What? I'm talking about this energy shotgun. What'd you think I was talking about?\" [Game text via wiki] https://battlebears.fandom.com/wiki/Energy_Overflow (note the innuendo when deciding audience suitability)",
+   "mechanics": "FIRE: a chargeable 'energy shotgun'. Uncharged, it fires 2 shots of 45. A full charge (3 s) fires one blast of 140 that empties the clip. A partial charge uses 1 ammo, which regenerates [Fan-wiki]. All shotguns use hitscan spreads per the Weapon Statistics page [Fan-wiki], so it is probably hitscan [Inference]. CHARGE LOOK: 'particles converge on the barrel of the gun'; 'Once fully charged, orbs of light will appear at the tip of the barrel' [Fan-wiki]. SHOT LOOK: 'a single golden burst of damaging energy' [Fan-wiki]. Very short range, reload 4 s. Damage+ affects only the uncharged shot [Fan-wiki]. CONFLICT: the current infobox says '+10% Speed Modifier', but the usage prose says '10% health reduction' and the Weapon Statistics page lists it among negative Health modifiers [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/EnergyOverflow.png]: a short, wide cylinder on the right forearm with white and orange armour plates, a grey hexagonal muzzle and a ring of small cyan lights around the muzzle rim. The store and HUD icon shows a finned version with three white fins and glowing cyan inner panels [Observed: png2/SRCG_s.png list icon; YouTube gL12RHDQ_mI maxresdefault]. A SkyVu-watermarked concept sheet (File:B1000_weapons2-3-787x1024.png) shows an orange/black/white cylinder with fold-out white fins carrying cyan glowing panels and a hex muzzle ringed with cyan dots [Observed]. FIRING [Observed, low-res: fan 'Energy Overflow Demonstration' thumbnails, YouTube gL12RHDQ_mI hq2/hq3/maxresdefault]: short yellow-gold streaks fly toward the target and a yellow oval glow sits on the floor ahead of B-1000; ammo reads '2 / 2'. PRE-RELEASE [Observed: File:Imageedc.jpg, 2013-09-01]: 'ENERGY OVERFLOW EQUIPPED' shown on the Gold skin with a flat grey untextured placeholder model; the image's origin is [Unverified].",
+   "image_leads": [
+    "File:EnergyOverflow.jpg https://static.wikia.nocookie.net/battlebears/images/2/2c/EnergyOverflow.jpg/revision/latest?cb=20130928011029",
+    "File:B1000_weapons2-3-787x1024.png https://static.wikia.nocookie.net/battlebears/images/8/84/B1000_weapons2-3-787x1024.png/revision/latest?cb=20130924113344 (SkyVu-watermarked concept, Energy Barrier and Energy Overflow)",
+    "File:Imageedc.jpg https://static.wikia.nocookie.net/battlebears/images/2/20/Imageedc.jpg/revision/latest?cb=20130901171437 (pre-release placeholder)",
+    "File:SRCG.jpg (v2.7 store list icon, 60 gas)",
+    "File:Energy Overflow Demonstration = YouTube gL12RHDQ_mI; https://i.ytimg.com/vi/gL12RHDQ_mI/maxresdefault.jpg, hq1.jpg, hq2.jpg, hq3.jpg",
+    "File:Update 2.3 (beta) Battle Bears Gold = YouTube XlZo37G6hs4 (fan video of the 2.3 beta; its thumbnails do not show B-1000)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Energy_Overflow",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/Weapon_Statistics",
+    "wiki diffs rev 72021 to 77025 to 77026 (2020-11-09) and 77724 (2026-09-20)",
+    "https://battlebears.fandom.com/wiki/File:Update_2.3_(beta)_Battle_Bears_Gold (metadata description)",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Heroes",
+    "https://battlebears.com/pages/characters"
+   ]
+  },
+  {
+   "name": "Super Rapid Chain Gun (SRCG)",
+   "slot": "primary",
+   "status": "Released in BBG v2.7, Jan 23, 2014 [Fan-wiki page]. The wiki's Updates list for 2.7 omits it, but it appears in a v2.7 store screenshot [Observed: File:SRCG.jpg, 'BUY NOW 100' gas]. Price: 100 Gas at v2.7 [Observed]. The wiki infobox has said 60 Gas since the 2020-11-09 edit, while its prose still says 'It costs 100 Gas' [Fan-wiki]. The same 2020 edit changed: damage 8 to 5, explosive 5-7 to 2-4, rate of fire 0.09 s to 0.08 s, reload 5.7 s to 5.25 s, Ammo+ +4/+7 to +5/+10, and added dispersion 0.06 [Fan-wiki]. 2026 build presence: [Unverified]. No BBR or BBH equivalent.",
+   "official_text": "\"Everything about B1000 is loud and explosive, so why not give him a chain gun that fires explosive bullets?\" [Game text via wiki] https://battlebears.fandom.com/wiki/Super_Rapid_Chain_Gun",
+   "mechanics": "FIRE: full-auto minigun with 'wind-up and wind-down delays' [Fan-wiki]. It fires explosive bullets with a 'noticeable AoE' (50/100), dealing 5 direct plus 2-4 explosive. Ammo 40, rate of fire 0.08 s, dispersion 0.06, reload 5.25 s [Fan-wiki]. The Bass Cannon page calls the SRCG hitscan [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/SRCG_(r).png and png2/SRCG_s.png, both on the Silver skin]: a wide orange-and-white drum on the right forearm with stacked, stepped concentric rings narrowing toward the front, an orange end cap with a small black square port with several holes, and a cyan light window on the side. The store icon shows a tiered, drill-like gold/silver barrel tip [Observed]. The bullets and their impacts were NOT observed. Depiction for shorts: [BBG News invention] a rapid stream of small tracer rounds, each popping in a tiny orange-gold puff, with an audible spin-up and spin-down.",
+   "image_leads": [
+    "File:SRCG_(r).png https://static.wikia.nocookie.net/battlebears/images/4/45/SRCG_%28r%29.png/revision/latest?cb=20140125180656",
+    "File:SRCG.jpg https://static.wikia.nocookie.net/battlebears/images/0/05/SRCG.jpg/revision/latest?cb=20140124013942 (v2.7 store, primaries list with prices)",
+    "File:SRCGdmg1.jpg and File:SRCGdmg2.jpg (Damage+ equipment panels; not the weapon itself)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Super_Rapid_Chain_Gun",
+    "wiki diff rev 75617 to 77027 (2020-11-09)",
+    "https://battlebears.fandom.com/wiki/Bass_Cannon (hitscan trivia)",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png2/SRCG_s.png"
+   ]
+  },
+  {
+   "name": "Lightning Bolt",
+   "slot": "primary",
+   "status": "Released in BBG 2.7, Jan 23, 2014 [Fan-wiki Updates]. Unlock: 150,000 Joules, no level lock [Fan-wiki]. The 2020-11-09 wiki edit changed: damage 48 to 50, rate of fire 1 s to 2 s, reload 5 s to 6 s, Damage+ +3/+6 to +2.5/+5 [Fan-wiki]. 2026 build presence: [Unverified]. No BBR or BBH equivalent.",
+   "official_text": "\"Pew pew pew Lightning Bolt! What no explosion? At least it fires quickly and packs a whallop!\" [Game text via wiki] https://battlebears.fandom.com/wiki/Lightning_Bolt",
+   "mechanics": "FIRE: 'will fire a purple bolt of damaging energy'. It is fully accurate hitscan, 'with no AoE, projectile or travel time', semi-automatic and sniper-like [Fan-wiki]. The wiki puts it in Category:Automatic even though its prose calls it semi-auto. Damage 50, ammo 3, rate of fire 2 s, reload 6 s. No explosion; the official text jokes 'What no explosion?' [Game text via wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Lighting_bold_(cr).png, Silver skin]: a rounded orange-and-white arm cannon. Its black octagonal muzzle holds a glowing CYAN lens, a cyan light strip with dots runs along the side, and a small black scope or tube sits on top. A similar rounded orange cannon with a cyan glow appears in png/Image4_x3.png. The bolt was NOT observed. Depiction for shorts: [BBG News invention] an instant, jagged purple bolt from muzzle to target with a brief crackle, and no explosion on hit.",
+   "image_leads": [
+    "File:Lighting_bold_(cr).png https://static.wikia.nocookie.net/battlebears/images/d/dc/Lighting_bold_%28cr%29.png/revision/latest?cb=20140125012149 (note the misspelt file name)",
+    "File:Image4.PNG (likely the same cannon in the background) https://static.wikia.nocookie.net/battlebears/images/1/1a/Image4.PNG/revision/latest?cb=20150705194620"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Lightning_Bolt",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "wiki diff rev 75873 to 77030 (2020-11-09)"
+   ]
+  },
+  {
+   "name": "Bass Cannon",
+   "slot": "primary",
+   "status": "Released in BBG 2.20, May 29, 2015 [Fan-wiki Updates]. Level 10 lock [Fan-wiki]. Price: a 2015 store screenshot on its wiki page shows 'BUY NOW' 100 gas [Observed: File:Bass_cannon_.jpg]. The wiki infobox has said 60 Gas since the 2020-11-09 edit, which also changed AoE 100/200 to 75/150 and stat modifiers '-10% Health;+10% Speed' to '-10% Health' [Fan-wiki]. It was missing from the class page until 2020-11-09 [Fan-wiki]. 2026 build presence: [Unverified]. No BBR or BBH equivalent.",
+   "official_text": "\"Blow your opponents away with the Bass Canon! Explosive melody that does aoe damage \" [Game text via wiki; the 'Canon' misspelling is in the original per wiki trivia] https://battlebears.fandom.com/wiki/Bass_Cannon",
+   "mechanics": "FIRE: 'a continuously-firing projectile weapon that emits cyan sound waves that explode on contact'. Each wave does 10 direct damage plus 10-20 explosive in a small radius (AoE 75/150) [Fan-wiki]. Ammo 20, rate of fire 0.25 s, projectile 1,200 u/s, reload 4 s, -10% health [Fan-wiki]. AUDIO: 'It plays a generic dubstep loop that is paused and continued as the player stops and starts firing' [Fan-wiki]. 'Rarely, the Bass Cannon can blow your enemy away if they are hit by it while in midair' [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Bass_cannon_.png]: a dark olive/black cylindrical cannon on the right forearm with an orange middle band, dark-blue rectangular windows and two round black ports. Its muzzle face is a speaker- or turbine-like disc: curved white vanes over a pale-blue cone. The sound waves were NOT observed.",
+   "image_leads": [
+    "File:Bass_cannon_.jpg https://static.wikia.nocookie.net/battlebears/images/9/90/Bass_cannon_.jpg/revision/latest?cb=20150617005719 (store, 100 gas)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Bass_Cannon",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "wiki diff rev 75772 to 77031 (2020-11-09)"
+   ]
+  },
+  {
+   "name": "Last Resort",
+   "slot": "secondary",
+   "status": "REMOVED per the wiki. On 2020-11-09 (rev 77032) a wiki editor headed the page 'NOTE: THIS WEAPON IS REMOVED' and changed 'is the default secondary' to 'was the default secondary'. In the same session the editor changed Smoke Screen from 100,000 Joules to 'Default' [Fan-wiki]. No version, date or SkyVu note for the removal was found [Unverified]; it happened sometime before Nov 2020, i.e. before BBG 3.0 (Nov 2021). A launch weapon: page created 2013-05-19 [Fan-wiki]. It is still visible as the backpack in 2014 fan demo thumbnails [Observed]. 2026: [Unverified]. No BBR or BBH equivalent.",
+   "official_text": "\"Winning takes sacrifice, and in this case that means blowing yourself up. Press and hold the fire button initiate a self-destruct sequence, wait 3 seconds and then boom!\" [Game text via wiki] https://battlebears.fandom.com/wiki/Last_Resort",
+   "mechanics": "FIRE: hold fire to start a self-destruct. The official text says 3 s; the wiki's usage prose says 4 s. Moving or releasing cancels it and starts a 3.5 s reload [Fan-wiki]. IMPACT: B-1000 explodes, dealing 200-400 explosive damage with AoE 200/400, 'the highest damage of any explosive weapon in Battle Bears Gold'. The user dies, which counts as a suicide [Fan-wiki]. Explosions+ +20/+40. Bug: Jump Pad launches go further while it is active [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Last_Resort.png, png2/Last_resort.png, png2/Last_Resort-Figure_2.png]: a BACKPACK of two stacked orange boxes with black panels. Each box holds a large dark, round speaker-like disc plus small round dials, with white triangle accents. The same pack appears on B-1000's back in the fan demo thumbnails YouTube 4OtByuL2bI4 and gL12RHDQ_mI [Observed]. The countdown and the explosion were NOT observed. Depiction for shorts: [BBG News invention] the orange pods flash and beep for a beat, then a huge golden blast, and B-1000 breaks into chunky parts (BBG kills break bodies into chunky pieces; see Notes).",
+   "image_leads": [
+    "File:Last_Resort.jpg https://static.wikia.nocookie.net/battlebears/images/e/e6/Last_Resort.jpg/revision/latest?cb=20130727003625 (back view)",
+    "File:Last_resort.jpeg https://static.wikia.nocookie.net/battlebears/images/d/df/Last_resort.jpeg/revision/latest?cb=20130520100909",
+    "File:Last_Resort-Figure_2.jpg https://static.wikia.nocookie.net/battlebears/images/9/92/Last_Resort-Figure_2.jpg/revision/latest?cb=20131020201446 (isolated module)",
+    "YouTube 4OtByuL2bI4 and gL12RHDQ_mI thumbnails (pack worn in play)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Last_Resort",
+    "wiki diff rev 75833 to 77032 (2020-11-09) and Smoke Screen rev 68137 to 77035",
+    "https://battlebears.fandom.com/wiki/Special:Contributions/Alphabbr"
+   ]
+  },
+  {
+   "name": "Metal Crush",
+   "slot": "secondary",
+   "status": "A launch weapon: page created 2013-05-19 under the beta name 'Leap N Destroy' [Fan-wiki]. Price history: 100 gas in the v2.7 store [Observed: File:Satellite_.jpg and File:Smoke_screen.jpg list]; 2.20 (May 29, 2015) 'Metal Crush reduced from 100 gas cans to 70 gas cans' [Game text via wiki, Updates transcription]; 60 Gas in the current wiki (2020-11-09 edit) [Fan-wiki]. Reload timing changed in v2.0, v2.2 and v2.3 [Fan-wiki trivia]. The 2020 edit also changed explosives 70-90 to 70-110, AoE 150/300 to 125/400 and reload 5.1 s to 5 s [Fan-wiki]. An official 'TOOLS OF DESTRUCTION' bundle sold Shock N Claw, Metal Crush, Rusty Devil and Iron Bear for '375 GAS' [Observed: File:Assaultsale.jpg, wiki upload 2013-08-31]. It is worn in the Steam trailer [Observed]. 2026 build presence: [Unverified].",
+   "official_text": "\"Render the space between you and your opponent meaningless in the most lethal and awesomest way possible.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Metal_Crush",
+   "mechanics": "FIRE: 'the Assault will leap through the air at high speed at the angle of roughly 35 degrees before landing'. Hitting a wall drops him straight down [Fan-wiki]. IMPACT: 'the Assault class uses its left arm to smash the ground, creating a damage-dealing golden shockwave that spreads out like the splash made by the Happy Hour'. It deals 70-110 explosive (prose says 55-110) with AoE 125/400. He is immobile for 2.5 s after landing, then a 5 s reload follows [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Metal_Crush.png]: a back unit of two riveted white plates, like folded wings, over orange lower sections perforated with round holes, on a black centre spine with an orange core. LEAP [Observed: Steam trailer /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4 at 2.45-3.85 s; frames /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/trfull/strip_leap.jpg, trfull/t_2.75.jpg, trfull/t_3.3.jpg]: B-1000, wearing this pack, crouches forward, then goes airborne with a large orange-yellow flame burst at his back and sails across the arena with an orange glow behind him. I infer this is the Metal Crush leap and that the perforated orange sections act as thrusters [Inference]; the wiki does not mention flames. The landing and golden shockwave were NOT observed because the trailer cuts away.",
+   "image_leads": [
+    "File:Metal_Crush.jpg https://static.wikia.nocookie.net/battlebears/images/8/86/Metal_Crush.jpg/revision/latest?cb=20130727003810",
+    "File:Assaultsale.jpg https://static.wikia.nocookie.net/battlebears/images/4/40/Assaultsale.jpg/revision/latest?cb=20130831005445 (TOOLS OF DESTRUCTION bundle banner)",
+    "File:B-1000.jpg https://static.wikia.nocookie.net/battlebears/images/8/86/B-1000.jpg/revision/latest?cb=20130515133331 (pre-launch gameplay, pack on back)",
+    "File:B1000battlepackbundle.png (pack visible)",
+    "Steam trailer at 2.0-3.9 s; trailer frames /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/t_0005.jpg to t_0008.jpg",
+    "Steam screenshot screen_04.jpg (pack on the orange/blue B-1000)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Metal_Crush",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "wiki diff rev 70989 to 77033 (2020-11-09); first revisions 37384-37389 (2013-05-19, 'Leap N Destroy')",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4"
+   ]
+  },
+  {
+   "name": "Energy Barrier",
+   "slot": "secondary",
+   "status": "Released in BBG 2.3, Sept 27, 2013 [Fan-wiki Updates]. Beta name 'Shield': the wiki page was created 2013-09-02 as 'Shield', and the fan 2.3-beta video description lists 'B-1000: Energy Overflow, Shield' [Fan-wiki; Unverified]. Unlock: 120,000 Joules [Fan-wiki; Observed in the v2.7 store list]. The 2020-11-09 wiki edit changed: duration 6.0 s to 2.0 s, ammo 1 to 2, reload 4.5 s to 5 s [Fan-wiki]. 2026 build presence: [Unverified].",
+   "official_text": "\"Make those pesky bullets less pesky with this brand new shield! Upon activation all damage recieved is reduced by 50%!\" [Game text via wiki; 'recieved' as quoted] https://battlebears.fandom.com/wiki/Energy_Barrier",
+   "mechanics": "EFFECT: self-buff. 'All damage received will be weakened by 50%' for 2.0 s. 'When activated, the player will begin to glow their team coloured' [Fan-wiki]. Status Effects page: 'Damage Resistance \u2014 No overhead icon shown. Players affected receive 50% less damage. Effect stacks' [Fan-wiki]. Ammo 2; the 5 s reload starts on activation; equipment does not affect it [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Energy_barrier.png]: a rounded black-and-orange BACKPACK. Four white hexagonal pods at its corners each hold a dark, round grille-like emitter, with mirrored white-and-orange chevron shapes in the centre. CONCEPT [Observed: png/B1000_weapons2-3-787x1024.png, SkyVu Entertainment watermark, 'ENERGY BARRIER & ENERGY OVERFLOW']: handwritten notes read 'Shield emits from Sides', 'Shield emits from top when opened/initiated' and 'opens to emit Shield', alongside orange/white/black colour variants. The in-game team-colour glow was NOT observed.",
+   "image_leads": [
+    "File:Energy_barrier.jpg https://static.wikia.nocookie.net/battlebears/images/9/97/Energy_barrier.jpg/revision/latest?cb=20130928085444",
+    "File:B1000_weapons2-3-787x1024.png (concept with shield-emission notes)",
+    "File:Satellite_.jpg and File:Smoke_screen.jpg (v2.7 store list icon, 120,000 Joules)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Energy_Barrier",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "wiki first revisions 52149-52206 (2013-09-02, 'Shield'); diff rev 67761 to 77034 (2020-11-09)",
+    "https://battlebears.fandom.com/wiki/File:Update_2.3_(beta)_Battle_Bears_Gold"
+   ]
+  },
+  {
+   "name": "Smoke Screen",
+   "slot": "secondary",
+   "status": "Released in BBG 2.7, Jan 23, 2014 [Fan-wiki Updates]. It cost 100,000 Joules in v2.7 [Observed in the store list on File:Satellite_.jpg and File:Smoke_screen.jpg; Fan-wiki pre-2020]. Since the 2020-11-09 wiki edit it is listed as the DEFAULT secondary, with cooldown 2.0 s to 1.0 s and reload 5.0 s to 3.0 s [Fan-wiki]. I infer it replaced the removed Last Resort as default; the date is unknown [Inference]. 2026 build presence: [Unverified].",
+   "official_text": "\"B1000 has his own version of hide and seek. It is called: Hide in smoke and then kill everyone!\" [Game text via wiki] https://battlebears.fandom.com/wiki/Smoke_Screen",
+   "mechanics": "EFFECT: 'the Smoke Screen will instantly release a huge, harmless white cloud' that disorients enemies, especially in small enclosed areas. It lasts 5.0 s, with ammo 2, cooldown 1.0 s and reload 3.0 s [Fan-wiki]. 'Unlike the Sniper's Fairy's Dust, it can only be activated directly from the Assault's backpack' [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Smoke_screen_(cr).png and png2/Smoke_screen_s.png, Silver skin]: a white, rounded, shield-shaped BACKPACK with a thick orange outline and segmented white panels. The smoke cloud was NOT observed. Depiction for shorts: [BBG News invention] a thick white cloud bursts from the backpack around B-1000.",
+   "image_leads": [
+    "File:Smoke_screen_(cr).jpg https://static.wikia.nocookie.net/battlebears/images/5/52/Smoke_screen_%28cr%29.jpg/revision/latest?cb=20140125015812",
+    "File:Smoke_screen.jpg https://static.wikia.nocookie.net/battlebears/images/2/20/Smoke_screen.jpg/revision/latest?cb=20140124014253 (v2.7 store, 100,000 Joules)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Smoke_Screen",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "wiki diff rev 68137 to 77035 (2020-11-09)"
+   ]
+  },
+  {
+   "name": "Satellite",
+   "slot": "secondary",
+   "status": "Released in BBG 2.7, Jan 23, 2014 [Fan-wiki Updates]. Price: 100 gas in the v2.7 store [Observed: File:Satellite_.jpg 'BUY NOW 100']. The wiki says 60 Gas since the 2020-11-09 edit, which also changed: ammo 1 to '8 disc fires', 'fire two missiles' to 'eight missiles', explosive 25-45 to 20-50, AoE 100/250 to 125/250, reload 4 s to 5 s [Fan-wiki]. The page is a stub. 2026 build presence: [Unverified].",
+   "official_text": "\"A small orb that fires missiles whenever he fires, the satellite is a B1000's best friend!\" [Game text via wiki] https://battlebears.fandom.com/wiki/Satellite",
+   "mechanics": "FIRE: on activation 'the Satellite will fire eight missiles' and then reloads for 5 s [Fan-wiki]. The official text says it fires 'whenever he fires', so its shots are probably tied to B-1000's own trigger [Inference]. Missiles do 20-50 explosive with AoE 125/250 at 1,500 u/s; duration 15 s [Fan-wiki]. The infobox's '8 disc fires' wording is unexplained. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Satellite_(cr).png and png2/Satellite_s.png, Silver skin]: on B-1000's BACK, an orange octagonal frame cradles a glossy white sphere with a cyan, liquid-like band inside, with two cyan lights on top of the frame. No source shows the orb detaching or orbiting [Unverified]. The missiles were NOT observed.",
+   "image_leads": [
+    "File:Satellite_(cr).jpg https://static.wikia.nocookie.net/battlebears/images/1/1c/Satellite_%28cr%29.jpg/revision/latest?cb=20140125015712",
+    "File:Satellite_.jpg https://static.wikia.nocookie.net/battlebears/images/0/0d/Satellite_.jpg/revision/latest?cb=20140124014354 (v2.7 store, front view, 100 gas)",
+    "File:Huggable-suction-pose.png is embedded on the Satellite page but is unrelated (Huggable art)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Satellite",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "wiki diffs rev 75626 to 77036 to 77037 to 77038 (2020-11-09)"
+   ]
+  },
+  {
+   "name": "Axecutioner",
+   "slot": "melee",
+   "status": "Default melee [Fan-wiki, Category:Default]. A launch weapon: page created 2013-05-19 as 'Ax time'; trivia says it was 'once tenatively called \"Axe Time\"' [Fan-wiki]. The 2020-11-09 wiki edit changed damage 30 to 70 and Melee+ +5/+10 to +10/+20 [Fan-wiki]. Under BBG 3.0 (Nov 15, 2021), '+1' equipment was removed [Fan-wiki Updates]. 2026 build presence: [Unverified]. No BBH equivalent is listed.",
+   "official_text": "\"Why carry an axe in your hand when you can replace your hand with an axe?\" [Game text via wiki] https://battlebears.fandom.com/wiki/Axecutioner ; beta description per wiki trivia: \"Smack you with axe, you go boom.\" [Fan-wiki]",
+   "mechanics": "Melee, 70 damage, no stat modifiers [Fan-wiki]. 'It is the blade of an axe attached to B-1000's arm'; 'The axe head which B-1000 has is similar to a Battleaxe head' [Fan-wiki]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Axecutioner.png, plus back views png/Last_Resort.png and png/Metal_Crush.png]: B-1000's LEFT forearm ends in an axe. A grey, stone-textured block head with a hammer-like back carries a large curved grey-white blade marked with scratches and orange tabs or rivets. It attaches through a white ribbed sleeve and an orange octagonal cuff studded with white squares, with an orange fin on top. It has NO glow and no cyan. The swing and impact were NOT observed.",
+   "image_leads": [
+    "File:Axecutioner.jpg https://static.wikia.nocookie.net/battlebears/images/3/36/Axecutioner.jpg/revision/latest?cb=20130727002359",
+    "File:Last_Resort.jpg and File:Metal_Crush.jpg (axe seen from behind)",
+    "File:Imageedc.jpg (axe on the Gold skin)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Axecutioner",
+    "wiki diff rev 75765 to 77039 (2020-11-09); first revision 2013-05-19"
+   ]
+  },
+  {
+   "name": "Shock N Claw",
+   "slot": "melee",
+   "status": "A launch weapon: page created 2013-05-19 [Fan-wiki]. Unlock: 45,000 Joules, no level lock [Fan-wiki]. Sold in the official 'TOOLS OF DESTRUCTION' bundle (375 GAS) [Observed: File:Assaultsale.jpg, 2013]. The 2020-11-09 wiki edit changed: damage 50 to 45, special speed +10% to +30%, Melee+ +5/+10 to +10/+20 [Fan-wiki]. It is B-1000's most-shown melee: the Steam trailer, the pre-launch screenshots, the class portrait art and nearly every store render show it [Observed]. BBH (2024): the wiki lists B1000's attack as 'Shock N Claw + Bearail Gun' [Fan-wiki]. 2026 build presence: [Unverified].",
+   "official_text": "\"As if a half-ton murderous robot wasn't dangerous enough on its own, we've gone and added 3 razor sharp claws, you're welcome.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Shock_N_Claw",
+   "mechanics": "Melee, 45 damage, 'used in a swinging motion'. It carries a '+30% special speed' modifier; per the wiki this actually shortens the Special's recharge [Fan-wiki]. 'It appears as a robotic gauntlet with cyan-colored claws protruding outwards' [Fan-wiki]. The name is a pun on 'Shock and Awe' [Fan-wiki]; no electric effect is documented [Unverified]. MODEL [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Shock_N_Claw.png]: a black/orange/white armoured gauntlet on the LEFT forearm with THREE long, parallel, translucent cyan blades streaked with white. A white segmented hose with cyan rings loops from the gauntlet back to the arm. IN ACTION [Observed: Steam trailer /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4 at 4.62-5.6 s; frames /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/trfull/w_4.62.jpg, trfull/strip_4.45-4.95.jpg and trfull/strip_5.3-6.0.jpg]: B-1000 swings the claws into a green Demo at point-blank range. A tall yellow-white light column flares behind him, then horizontal orange-yellow streaks fill the frame. The Demo then breaks apart into separate chunky pieces (head with blue bandana, torso, arm, held item) that fly upward, while the cyan claws sweep across the camera. Whether the flash and streaks come from the claw hit or are trailer styling is [Unverified].",
+   "image_leads": [
+    "File:Shock_N_Claw.jpg https://static.wikia.nocookie.net/battlebears/images/7/73/Shock_N_Claw.jpg/revision/latest?cb=20130727002433",
+    "File:Assaultsale.jpg (TOOLS OF DESTRUCTION banner with claws)",
+    "File:B-1000Skin.jpg, File:Gold1000.jpg, File:EnergyOverflow.jpg, File:SRCG_(r).png, File:Lighting_bold_(cr).png, File:Bass_cannon_.jpg (claws on the left arm)",
+    "File:B-1000.png and File:Assaultimage.jpg (2D class portrait; claws drawn on the viewer's left, a MIRRORED layout)",
+    "Steam trailer at 4.45-6.5 s; Steam screenshot screen_04.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Shock_N_Claw",
+    "https://battlebears.fandom.com/wiki/Weapon_Statistics",
+    "wiki diff rev 67004 to 77040 (2020-11-09)",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Heroes",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4"
+   ]
+  },
+  {
+   "name": "Primus Sword",
+   "slot": "melee",
+   "status": "Released in BBG 2.21, July 3, 2015 [Fan-wiki Updates]. Unlock: 60 Gas, level 5 lock; it was 75 Gas before the 2020-11-09 wiki edit [Fan-wiki]. That edit also changed its modifiers from '-10% Health decrease and a +10% Special Speed Increase' to '10% Health increase' [Fan-wiki]. The page is a stub. 2026 build presence: [Unverified].",
+   "official_text": "\"A swing of the primus sword can send even the mightiest bear retreating with their tails behind their legs.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Primus_Sword",
+   "mechanics": "Melee, 85 damage, 'the highest damaging melee in Battle Bears Gold'; +10% health; Melee+ +5/+10 [Fan-wiki]. Trivia: 'a reference to the sword of Primus in Transfomers' [Fan-wiki]. MODEL [Observed, low-res 254x303: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/Image4_x3.png]: a long, flat, angular silver-grey blade with hot-pink/magenta edge trim, a thin cyan inner line, and an angular X-shaped crossguard by the hand. It is shown on a bright red skin that matches Mega Ursatron [Inference from comparing File:Mu123.PNG, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/skins_mu_orange.png]. The swing was NOT observed.",
+   "image_leads": [
+    "File:Image4.PNG https://static.wikia.nocookie.net/battlebears/images/1/1a/Image4.PNG/revision/latest?cb=20150705194620 (only image; low-res)",
+    "File:Mu123.PNG https://static.wikia.nocookie.net/battlebears/images/9/93/Mu123.PNG/revision/latest?cb=20150711220305 (Mega Ursatron skin, for comparison)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Primus_Sword",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "wiki diffs rev 74549 to 77041 to 77042 (2020-11-10)"
+   ]
+  }
+ ],
+ "notes": "I built B-1000's (Assault) arsenal from the wiki's class page and all 14 weapon pages, and checked the looks against images and trailer frames. Two things are missing: SkyVu's archived patch notes (unreachable today) and any 2026 weapon list (none exists publicly).\n\nARSENAL AND ERAS\n- Wiki class page (https://battlebears.fandom.com/wiki/Assault_(BBG)) lists 14 weapons. Primary: Grenader, Bearail Gun, Energy Overflow, Super Rapid Chain Gun, Lightning Bolt, Bass Cannon. Secondary: Last Resort (removed), Metal Crush, Energy Barrier, Smoke Screen, Satellite. Melee: Axecutioner, Shock N Claw, Primus Sword. \"Assault (BBG)/Weapons\" is an empty stub, and none of the 5 \"_unassigned\" pages belongs to the Assault.\n- Launch kit (BBG 1.0, May 24, 2013): Grenader, Bearail Gun, Last Resort, Metal Crush, Axecutioner, Shock N Claw. I inferred this from wiki page creation dates of 2013-05-19/20 [Fan-wiki; Inference]. It matches a wiki-hosted screenshot of SkyVu's BBG FAQ (File:Assault_Class_announced.jpg), which reads \"New Assault Class: The B-1000! -9 Skins Available -2 Primary Weapons -2 Secondary Weapons -2 Melee...\" [Observed; original page not checked].\n- Later additions per the wiki's Updates transcription [Fan-wiki]:\n  - 2.3 (Sep 27, 2013): Energy Overflow and Energy Barrier.\n  - 2.7 (Jan 23, 2014): Lightning Bolt, Smoke Screen, Satellite. SRCG is missing from that list, but its own page says v2.7 and it appears in a v2.7 store screenshot.\n  - 2.20 (May 29, 2015): Bass Cannon.\n  - 2.21 (Jul 3, 2015): Primus Sword.\n- Early beta names [Fan-wiki]: Grrnade Launcher (Grenader), Leap N Destroy (Metal Crush), Ax time / Axe Time (Axecutioner), Shield (Energy Barrier).\n- Unshipped concept: File:B-1000_concept_1.png, titled \"B-1000 PRIMARY ATTACKS\", also shows \"focus Rods\", red eye-lasers [Observed]. Nothing shows it was ever released.\n- Most current wiki stats come from one unsourced editor (Alphabbr) in a sweep on 2020-11-09/10. Before that, values date from 2013-2019. Per-weapon status fields give old-to-new values. The edits reflect the BBG 2.5x era, not 2026. I found no SkyVu note behind any of these changes, including Last Resort's removal.\n- BBG 3.0 (Nov 15, 2021) per the wiki's transcription: \"All +1 Equipment has been removed except Speed +1\"; \"Equipment Slot 2 has been removed\". The +1 rows in the equipment tables therefore no longer apply [Fan-wiki].\n- Class template [Fan-wiki]: added in BBG 1.0; health 180 (200 before 2020); forward speed 215; description \"A mysterious foe ... transmitting their data to the bad guys.\"\n\nBBR, BBH AND 2026\n- BBR: B-1000 never existed in BBR. The BBR 1.4.3 notes (Apr 15, 2013) say only \"Coming soon to Battle Bears!! \u2605 NEW Character Class- the B-1000! A robot made to kill.\" [Game text via wiki]. An April 2013 Facebook teaser shows a red-eyed silhouette and \"BATTLE BEARS COMING SOON\" [Observed: File:17819_10152742464095174_1895889212_n.png]. BBG itself began as the 2.0 rebrand of BBR.\n- BBH (2024):\n  - Official site (fetched 2026-10-15): \"B1000s twin functionality attack 'Slice n Bite' offers both range and melee, a powerful combo. The former, paired with his lethal Ultimate, which boasts stun capability., makes B1000 a dangerous foe on the battlefield.\" [Canon] https://battlebears.com/pages/characters\n  - Wiki: attack \"Shock N Claw + Bearail Gun\", Ultimate \"Energy Overflow\", 1200 Shards, March 2024. The Oct 14, 2024 notes say \"B1000 Ranged Attack Damage Increased (+15%)\" [Fan-wiki].\n  - \"Slice n Bite\" is the wiki's name for Huggy's attack, so its use for B1000 is probably a copy error [Inference].\n- 2026: Steam names \"ASSAULT: B-1000\" and claims \"80+ PRIMARY WEAPONS 60+ SECONDARY WEAPONS 50+ MELEES\" [Canon], with no per-class list.\n  - JustNubz's showcase description says it covers \"all skins, taunts, primaries, secondaries, and melee in the closed playtest of BBG (the 4th one)\" [fan upload]. I did not view it, and the chapter-thumbnail URLs in the page HTML return 404. Its maxres thumbnail shows a build label \"3.0.5_2026.11.19_B1\" on a Heavy menu screen [Observed].\n  - Wiki edit 2026-09-20 added Energy Overflow \"Charge Time 3\" with no source.\n\nTHE LOOK ACROSS THE KIT [all Observed in the images cited per weapon]\n- \"The only class that displays all of its weapons all the time\" [Fan-wiki]. Every render shows the same layout:\n  - Primary is built onto the RIGHT forearm. The \"Falling Apart\" taunt agrees: \"his right arm, the one that carries his Primary weapon, suddenly snaps off\" [Fan-wiki].\n  - Melee is built onto the LEFT forearm.\n  - Secondary is a BACKPACK module. B-1000 holds nothing in his hands.\n- Weapon colours stay the same on every skin: orange, white and black hardware with cyan accents. Skins recolour only the armour. The exceptions are the Primus Sword (pink and silver) and the Bass Cannon (olive and blue).\n- The 2D class portrait (File:B-1000.png, File:Assaultimage.jpg) draws the claws on the viewer's left and the gun on the right, the mirror of in-game. Don't copy its arm layout.\n- Signature promo loadout: Bearail Gun + Shock N Claw + Metal Crush backpack. It appears in the 2013 pre-launch Sky View gameplay shot (File:B-1000.jpg), File:B-1000_default.jpeg, most store renders and the Steam trailer. BBH's kit matches it [Inference].\n- Steam trailer (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4): the B-1000 segment runs 1.5-6.5 s.\n  - Its Graham, Tillman and Oliver cards match the 2013 BBG trailer (rfAyqVJrli4) thumbnails, so this footage is probably 2013 [Inference].\n  - Kill result [Observed]: BBG kills break bodies into chunky separate pieces. See the trailer at 4.95-5.3 s and red pieces flying in Steam screen_04.\n  - Rainbow streaks fan up from a pink target at 3.3-3.85 s [Observed]. I could not tell what caused them.\n- Splash size from wiki AoE numbers, largest to smallest (probably max/min-damage radii [Inference]): Last Resort 200/400, Metal Crush 125/400, Grenader 125/250, Satellite 125/250, Bearail 90/220, Bass Cannon 75/150, SRCG 50/100. Lightning Bolt and Energy Overflow have no AoE.\n- Never observed: Grenader shell and golden-orb blast, SRCG rounds, purple Lightning Bolt, cyan Bass Cannon waves, Metal Crush landing shockwave, Energy Barrier glow, smoke cloud, Satellite missiles, Last Resort blast.\n\nERRORS IN /home/user/thallo-site/bbg-news-repo/characters/b-1000.md\n1. \"Defaults: Grenader, Last Resort, Axecutioner\": the wiki has marked Last Resort removed since 2020 and lists Smoke Screen as default. This is era-dependent.\n2. \"gun-arm = Grenader [Inference]\": the long orange-and-white gun-arm in the default screenshots (B-1000Skin.jpg) is the BEARAIL GUN. The Grenader is a cylinder with a black hose handle.\n3. \"blue energy blade [Observed]\": this is the Shock N Claw's three cyan claw-blades, not a single blade.\n4. The prompt pack says \"left forearm a heavy axe blade with a glowing cyan edge\" and \"orange-and-white grenade-launcher arm\". This mixes two weapons. The Axecutioner is a grey axe with no glow; the cyan belongs to the Shock N Claw. Pick one consistent loadout: wiki defaults (Grenader + Axecutioner + Smoke Screen) or the signature (Bearail + Shock N Claw + Metal Crush).\n5. \"Satellite circles him like a pet\" is invention. In every image the Satellite is a back-mounted orb in an orange cradle, and nothing documents it floating free. Keep the label.\n\nDEMO RESEARCHER LEAD (Bearzooka conflict)\n- In the trailer at 3.9-4.95 s, a green Demo wearing a blue bandana fires a salmon-red launcher with orange window panels and grey checkered end caps [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/trfull/t_4.0.jpg]. That fits the wiki's \"red and orange lines\" better than green with hazard stripes. That it is the Bearzooka is [Inference].\n\nACCESS NOTES\n- The Internet Archive answered \"Temporarily Offline\" all session (web.archive.org reset; WebFetch refused), so SkyVu's archived notes could not be read. Snapshots exist for later retry:\n  - 2.6 change log: http://web.archive.org/web/20151029082739/http://battlebears.com/battle-bears-gold-2-6-change-log/\n  - 2.8 balance: http://web.archive.org/web/20151029082740/http://battlebears.vanillaforums.com/discussion/34447/balance-update-2-8/p1\n  - 2.17 balance: http://web.archive.org/web/20151029082740/http://battlebears.vanillaforums.com/discussion/42525/update-2-17-balance-changes\n  - The BBG 2.7 and 2.8 change-log URLs and the concept-sheet upload had no snapshots.\n- Wiki images arrive as WebP whatever their extension. Converted PNGs are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/png/ and png2/.\n- YouTube thumbnails are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/yt/.\n- Trailer extracts are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/trfull/ and tr10/.\n- Raw wiki JSON and diffs are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000/pages/ and diffs/.\n- I watched no videos. I saw only thumbnails and the local Steam trailer file."
+}

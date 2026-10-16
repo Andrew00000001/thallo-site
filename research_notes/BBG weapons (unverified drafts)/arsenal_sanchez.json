@@ -1,0 +1,293 @@
+{
+ "weapons": [
+  {
+   "name": "Bind Gun (renamed and reworked as Adrenaline Gun in 2021)",
+   "slot": "primary",
+   "status": "Default (free, level 1). In the BBG 2.6 launch kit, Dec 20, 2013 [Fan-wiki: Arbiter (BBG) changelog; Updates]; '2.6 notes: Primary Weapon: Bind Gun' [Canon, quoted in prior notes; could not re-open the archived page today, so Unverified today]. Rework: per the wiki, 'This weapon used to be called Bind Gun with a speedMultiplier of 0.8, but it was changed into the adrenaline gun on the 19th of June 2021' [Fan-wiki]. The page history matches: SSP Rism edited on 2021-06-18 UTC, and Thecheeselover moved Bind Gun to Adrenaline Gun on 2021-07-17 ('New name for the weapon') [Fan-wiki revision history]. That is before BBG 3.0 (Nov 15, 2021) [Fan-wiki Updates]. Effect reversed from SLOWING the target to SPEEDING it UP. 2026 re-release: in a fan playtest video, the Arbiter chapter thumbnail shows the same blue default gun model [Observed, see mechanics]. Its 2026 name and effect are [Unverified].",
+   "official_text": "Bind Gun (2013\u20132021): \"One weapon to slow them all!\" [Game text via wiki] (https://battlebears.fandom.com/index.php?oldid=58371 ; current page https://battlebears.fandom.com/wiki/Adrenaline_Gun). Adrenaline Gun (2021): \"The only bad thing about being faster than light is that you always live in darkness\". The wiki calls this the 'Official Battle Bears Gold description, submitted by community member Wilpower784' [Game text via wiki; fan-written per the wiki] (https://battlebears.fandom.com/wiki/Adrenaline_Gun). Class-level: \"Use his unique weaponry to slow down opponents and finish them off with his devastating melee attacks.\" [Game text via wiki, BBG 2.6 class blurb] (https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions). \"Using his unique slowing weapons, Sanchez can change the tide of a match!\" [Canon, Microsoft Store 2014, quoted in prior notes; Unverified today] (https://web.archive.org/web/20140330042343/http://apps.microsoft.com/windows/en-us/app/battle-bears-gold/b59fe74f-8081-4bfc-8738-446619cf9c7a). The official Dec 2013 weapon card (wiki copy) labels the gun 'BIND GUN' with an arrow [Observed, .../dl/sanchez/png/Sanchez_weapons.png]. BBH-era (2024), a different game: \"Sanchez's \"Adrenaline Gun\" rapidly fires four staggered projectiles with a fast reload time.\" [Canon, re-fetched live today 2026-10-16] (https://battlebears.com/pages/characters).",
+   "mechanics": "Fire mode: automatic [Fan-wiki]. Projectile: 'shoots a purple beam' [Fan-wiki, all revisions 2013\u20132021]. Inaccurate: the beam 'tends to move left and right slightly' (Dec 2013 wording), later 'tends to move in an oval-like wave' (2020) [Fan-wiki]. Glitch: firing while moving backwards can hit and even kill yourself [Fan-wiki]. Bind effect (2013\u20132021): each hit slows the target briefly and stacks ('The longer the target is under the effect, the slower they will become, possibly to the point of becoming immobile') [Fan-wiki rev 61247, Mar 2014]. Overhead icon: the Slowed status is 'a yellow Z' over the head [Fan-wiki Status Effects]. 2014 bug: teammates hit by the purple beam displayed the Slowed icon [Fan-wiki rev 61247]. Shielded targets get the effect but take no damage [Fan-wiki]. Stats over time [Fan-wiki]: Dec 2013 ammo 50. Mar 2014 damage 5.25, reload 3.5 s. Apr 2020 damage 6.0, slow 10% per hit, RoF 0.15 s, ammo 45, reload 4 s, slow lasts 1 s. Nov 2020 damage 5.0, 20% per hit, ammo 55, slow lasts 1.25 s. Adrenaline Gun (2021\u2013): damage 7.0, 'Speed Effect 50% per hit', lasts 0.5 s, RoF 0.15 s, ammo 55, reload 4 s, +2% Speed stat modifier. Targets are 'drastically sped up', 'an easy way to cause them to fall off the map, run into a Sanchez melee or barely miss their intended destination'. Ammo+1/+2: +5/+10 bullets [Fan-wiki]. LOOK [Observed, .../dl/sanchez/png/Bind_Gun.png, in-game loadout render]: a chunky, glossy, faceted cyan/sky-blue sci-fi blaster. Darker blue panel lines. A round muzzle with a glowing white-blue core. Held two-handed at the hip, the red-black prosthetic hand on the gun. Sampled colours: midtone about #3A8DAD; highlights on the official card about #35BBF1 [Observed, Sanchez_weapons.png]. The card shows a longer, brighter cyan version [Observed, Sanchez_weapons.png and Arbiter_sanchez.png]. 2D promo art draws it darker steel/royal blue (about #195178\u2013#274F6B), with a large round barrel, a blue lens and glowing blue glyphs on the side [Observed, Arbiter_Class.png and Sanchez_Release.png]. 2026: the 'Arbiter (Sanchez)' chapter thumbnail of the fan playtest showcase (JustNubz, Sept 20, 2026; frame near 47:35) shows the same blue gun with a glowing white muzzle. Sanchez is in the Tron-Tastic! skin on the loadout screen [Observed, .../dl/sanchez/yt/chap_arbiter_336.jpg and .../dl/sanchez/crops/chap_arbiter_x4.png; the video itself was NOT watched]. The beam's colour/shape was never observed in any image I opened; 'purple' is [Fan-wiki] only. Depiction for shorts: a thin wavering violet stream from the white-cyan muzzle; slowed targets wade with a yellow 'Z' icon overhead (2013\u20132021 era). For a 2021+ gag, the same stream makes targets zoom off [BBG News invention, built on the wiki effects above].",
+   "image_leads": [
+    "File:Bind_Gun.png",
+    "File:Arbiter.png",
+    "File:Sanchez_weapons.jpg (wiki copy of SkyVu's Dec 2013 weapon card; same 900x691 size as official sanchez_weapon_ad2-900x691.jpg)",
+    "File:Arbiter_sanchez.jpg (textless card, uploaded 2013-12-18)",
+    "File:Arbiter_Class.png",
+    "File:Sanchez_Release.jpg (2.6 banner)",
+    "File:Arbiter_(BBG)-infobox.jpg",
+    "https://web.archive.org/web/20140310213203/http://battlebears.com/wp-content/uploads/2013/12/sanchez_weapon_ad2-900x691.jpg (snapshot confirmed by availability API; content not fetchable today)",
+    "https://i.ytimg.com/vi/-lAtv-j9Sms/hqdefault_2855033.jpg?sqp=-oaymwE9CNACELwBSFryq4qpAy8IARUAAAAAGAElAADIQj0AgKJDeAHwAQH4Af4JgALQBYoCDAgAEAEYSCBlKEgwDw==&rs=AOn4CLCrq7ey34ckQk2sji9WWjb4H4C7EQ (2026 playtest chapter thumbnail)",
+    "File:Images_(3).jpg (status icon example, Stunned; not Slowed)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Adrenaline_Gun",
+    "https://battlebears.fandom.com/index.php?oldid=58371",
+    "https://battlebears.fandom.com/index.php?oldid=61247",
+    "https://battlebears.fandom.com/index.php?oldid=76600",
+    "https://battlebears.fandom.com/index.php?oldid=77107",
+    "https://battlebears.fandom.com/wiki/Arbiter_(BBG)",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.com/pages/characters",
+    "https://www.youtube.com/watch?v=-lAtv-j9Sms",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Bind_Gun.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Sanchez_weapons.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/yt/chap_arbiter_336.jpg"
+   ]
+  },
+  {
+   "name": "Glue Bomb",
+   "slot": "primary",
+   "status": "Unlock, level 1. Launch kit BBG 2.6 (Dec 20, 2013) at 90,000 Joules [Fan-wiki: 2.6 page, class changelog, Dec 2013 revision]. The current page says 60,000 Joules ('It used to cost 90,000 Joules'); no date is given for the cut [Fan-wiki]. Listed in the 2.6 notes as 'Primary Weapon 2: Glue Bomb' [Canon, quoted in prior notes; Unverified today].",
+   "official_text": "\"Glue plus bomb equals very slow battle bears.\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Glue_Bomb). The official Dec 2013 weapon card (wiki copy) labels it 'GLUE BOMB' / 'Throw at Enemy' [Observed, .../dl/sanchez/png/Sanchez_weapons.png].",
+   "mechanics": "Thrown explosive [Fan-wiki]. It flies in an arc and 'stick[s] to the first solid object it comes into contact with', then explodes. Delay: the wiki contradicts itself. The text says 'after a one second delay', the infobox says 'Explosion Delay 0 seconds', and the Usage paragraph also says 'explodes on impact' [Fan-wiki]. It damages everyone in the AoE and slows them (Slow Amount 80%, Slow Duration 2 s). It 'affects a large radius, potentially bring whole teams to a standstill' [Fan-wiki]. Slowed icon: yellow Z [Fan-wiki Status Effects]. Current stats: explosives 15\u201340, RoF 2.25 s, ammo 4, reload 4 s. Explosions+ +4/+8, Ammo+ +1/+2 [Fan-wiki]. The Dec 2013 page gave ammo 3 [Fan-wiki rev 58550]. A Dec 2013 fan screenshot shows the HUD '2 / 3' with the Glue Bomb icon [Observed, Glue_bomb_on_a_wall.png]. LOOK, held [Observed, .../dl/sanchez/png/Glue_Bomb.png]: a black/gunmetal sphere of rounded armour plates (about #363847). Glowing magenta-violet seams form a cross/X (about #B15FC1). Carried in the red-black prosthetic right hand. HUD icon: the same sphere with a bright pink cross seam [Observed, Glue_bomb_on_a_wall.png]. STUCK [Observed, .../dl/sanchez/png/Glue_bomb_on_a_wall.png, fan gameplay screenshot Dec 22, 2013]: a small dark sphere with a glowing pink cross, stuck flat on a corridor wall. DETONATION [Observed, .../dl/sanchez/png/Sonic_wave_glue_bomb.png, fan screenshot captioned on the wiki 'A Glue Bomb releasing a slowing field']: two large concentric thin blue rings expanding outward, a small pale-cyan inner ring, and no fireball in that frame. Card diagram: a stick figure throws a purple ball; the target stands in blue ripple rings, wrapped in a crackling purple outline [Observed, Sanchez_weapons.png / Arbiter_sanchez.png]. Depiction for shorts: black-and-magenta orb lobbed in an arc, sticks with a 'thwack', then pulses out blue shock rings. Victims in the rings move in slow motion with purple crackle and a yellow Z [BBG News invention assembled from the observed rings, card aura and wiki slow].",
+   "image_leads": [
+    "File:Glue_Bomb.png",
+    "File:Glue_bomb_on_a_wall.jpg",
+    "File:Sonic_wave_glue_bomb.jpg",
+    "File:Sanchez_weapons.jpg",
+    "File:Arbiter_sanchez.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Glue_Bomb",
+    "https://battlebears.fandom.com/index.php?oldid=58550",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://battlebears.fandom.com/wiki/Arbiter_(BBG)",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Glue_Bomb.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Glue_bomb_on_a_wall.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Sonic_wave_glue_bomb.png"
+   ]
+  },
+  {
+   "name": "Greased Lightning",
+   "slot": "primary",
+   "status": "REMOVED. Unlock, 75 Gas, level 1 [Fan-wiki]. Added in the 2.9-era rollout: the class changelog lists it under 2.9 [Fan-wiki], but the wiki's 2.9 entry (May 8, 2014) lists only Saberi weapons. The 2.9 notes said 'Additional content from 2.9 will be rolled out over time' [Canon, quoted in prior notes; Unverified today]. SkyVu's Jun 6, 2014 post said 'Two brand new Sanchez weapons are also now available in the game!' [Canon, quoted in prior notes; Unverified today]. The wiki page was created Jun 7, 2014 [Fan-wiki history], so this was probably one of those two [Inference]. Removal: a 'NOTE: THIS WEAPON IS REMOVED!' banner was added on 2020-11-10. No removal date or official source is given [Fan-wiki]. Reworked stats: Jun 2014 had a +10% Speed modifier; it is now -5% [Fan-wiki].",
+   "official_text": "\"It's automatic! It's systematic! Hydromatic!? Why it's Greased Lightning!!??\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Greased_Lightning). The name references the 1978 film Grease [Fan-wiki].",
+   "mechanics": "Automatic [Fan-wiki]. Projectile: 'fires a red version of the Bind Gun' (Jun 2014 wording) or 'fires red-violetish lasers at a rapid rate' (current) [Fan-wiki]. No secondary/status effect [Fan-wiki]. 'The weapon has a slight AOE, unfortunately that AOE deals no damage' [Fan-wiki]. Stats [Fan-wiki]: Jun 2014 damage 5.0, RoF 0.1 s, ammo 40, reload 4 s, +10% speed. Current damage 6.0, RoF 0.13 s, ammo 30, reload 4 s, -5% speed. Ammo+ +5/+10, Damage+ +0.5/+1.0. LOOK [Observed, .../dl/sanchez/png/Greased_Lightning.png (252x360, uploaded 2014-06-09) and .../dl/sanchez/crops/greased_x5.png]: a red assault-rifle-shaped gun. White jagged lightning-bolt decals on the sides. A silver ribbed rail/barrel shroud on top, a grey-silver lower rail, and a tan/beige block at the top rear. Held two-handed at chest height. The beam was never observed [Unverified]. Depiction for shorts: rapid red-violet laser bolts in the Bind Gun's wavering style, with no lingering effect on the target [BBG News invention from the wiki wording]. Flag it as a retired weapon if used.",
+   "image_leads": [
+    "File:Greased_Lightning.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Greased_Lightning",
+    "https://battlebears.fandom.com/index.php?oldid=65732",
+    "https://battlebears.fandom.com/wiki/Arbiter_(BBG)",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://web.archive.org/web/20140617141419/http://battlebears.com/tillman-overhaul-new-sanchez-weapons-in-bbg/",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Greased_Lightning.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/crops/greased_x5.png"
+   ]
+  },
+  {
+   "name": "Parashoot",
+   "slot": "primary",
+   "status": "Unlock, level 20. Added in BBG 2.18 (Apr 3, 2015) [Fan-wiki]. Price conflict [Fan-wiki]: the Apr 2015 page and the 2.20 notes ('Parashoot reduced from 300,000 joules to 200,000 joules', May 29, 2015) say it launched at 300,000 J. The class changelog says 2.18 'New: Parashoot Primary / 200,000 Joules'. The current infobox says 150,000 J.",
+   "official_text": "\"Make your opponents take cover, IN YOUR PARACHUTE! \" [Game text via wiki] (https://battlebears.fandom.com/wiki/Parashoot).",
+   "mechanics": "Semi-automatic, 'able to fire projectiles in quick succession' [Fan-wiki]. On hitting an enemy, the projectile 'will be opened in a parachute that sticks to the enemy, damaging the enemy and also blocking his/her view'. The effect lasts 1.5 s [Fan-wiki]. Stats [Fan-wiki]: Apr 2015 damage 9, RoF 0.2 s, ammo 15, reload 4 s, projectile 1,200 u/s. Current damage 10, RoF 0.1 s, ammo 20, reload 5 s, projectile 1,400 u/s. Ammo+ +2/+4, Damage+ +1/+2. LOOK [Observed, .../dl/sanchez/png/Para_shoot.png, loadout render uploaded 2015-04-27]: a chunky silver-white launcher with a wide black hexagonal muzzle block. A pale icy-blue glowing panel, a purple accent stripe near the rear, and a white hooked fin on the top rear. Held at shoulder height with the prosthetic hand. The parachute projectile/effect was never observed [Unverified]. The wiki's demo video thumbnail (BBG_How_to_Parashoot) shows only a snowy map and HUD; no effect is visible [Observed, .../dl/sanchez/png/BBG_How_to_Parashoot.png]. Its YouTube video 0zBUHqR6Wkc now returns 404 for all thumbnails, probably deleted [Inference]. Depiction for shorts: puffs fired from the hex muzzle pop open into small parachute canopies that slap over the victim's face/visor for a beat [BBG News invention from the wiki wording].",
+   "image_leads": [
+    "File:Para_shoot.jpg",
+    "File:BBG_How_to_Parashoot (YouTube 0zBUHqR6Wkc; Everyplay 15602969)",
+    "File:SpinBabySpin.jpeg (loadout side panel: top icon is a silver gun with pink accents, possibly Parashoot [Inference])"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Parashoot",
+    "https://battlebears.fandom.com/index.php?oldid=70152",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://battlebears.fandom.com/wiki/Arbiter_(BBG)",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Para_shoot.png"
+   ]
+  },
+  {
+   "name": "Spin Baby Spin",
+   "slot": "primary",
+   "status": "Unlock, level 1. Added in BBG 2.27 (May 29, 2017), alongside Fidget Boomer (Sniper) and Hazard Toy (Assassin) [Fan-wiki Updates]. Launched at 150 Gas, now 60 Gas [Fan-wiki rev 74992 vs current]. Not listed in the class page changelog [Fan-wiki gap].",
+   "official_text": "\"When I spin you spin!\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Spin_Baby_Spin).",
+   "mechanics": "Projectile explosive, 1,300 u/s, 'explodes on contact' [Fan-wiki]. Everyone caught in the radius gets Controls Reversed [Fan-wiki]. That status shows 'a green question mark' over the head. Movement input is inverted; 'background music will be disabled and other sounds will feature an mild echo'. 'Originally, the aiming camera would also be inverted' [Fan-wiki Status Effects]. Duration 8 s [Fan-wiki infobox]. Stats [Fan-wiki]: May 2017 explosives 15\u201325, ammo 5. Current explosives 20\u201335, AoE values 100/200, RoF 1 s, ammo 6, reload 4 s. Explosions+ +5/+10, Ammo+ +1/+2. The wiki says it is based on the fidget spinner [Fan-wiki]. LOOK [Observed, .../dl/sanchez/png/SpinBabySpin.png, loadout render uploaded 2017-05-29]: a grey gunmetal three-lobed fidget-spinner shape held in the prosthetic hand. Each lobe is a rectangular block with a hole; the centre is a glassy chrome dome 'bearing'. The flight and blast were never observed [Unverified]. Depiction for shorts: the spinner flies whirring flat, bursts in a small blast, and victims get a green '?' and walk the wrong way [BBG News invention from the wiki effect].",
+   "image_leads": [
+    "File:SpinBabySpin.jpeg",
+    "File:FidgetBoomer.jpeg (sister weapon for comparison)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Spin_Baby_Spin",
+    "https://battlebears.fandom.com/index.php?oldid=74992",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://battlebears.fandom.com/wiki/Fidget_Boomer",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/SpinBabySpin.png"
+   ]
+  },
+  {
+   "name": "Kelowna",
+   "slot": "primary",
+   "status": "Unlock, level 1. Added in BBG 2.31 (Mar 8, 2018) [Fan-wiki Updates]. Launched at 500,000 Joules, now 150,000 Joules [Fan-wiki rev 75737 vs current]. Not in the class page changelog [Fan-wiki gap].",
+   "official_text": "none found. Wiki: 'This is the only Arbiter primary to lack a description' [Fan-wiki] (https://battlebears.fandom.com/wiki/Kelowna).",
+   "mechanics": "Fires 'a small projectile that explodes once it comes in contact with a surface' (800 u/s) [Fan-wiki]. On bursting, 'it will produce a clone of Arbiter doing the Creepin taunt among clouds of poison' [Fan-wiki]. Creepin = 'staggering like a zombie, similar to the zombies in Michael Jackson's Thriller' [Fan-wiki Taunts]. Enemies in the cloud are Poisoned. The icon is a 'purple/green skull' (Status Effects page) or 'a small purple skull over their head' (Mar 2018 revision) [Fan-wiki]. Damage over time: 8/s for 2 s now; 4/s at launch. The user can poison themselves [Fan-wiki]. 'When someone is killed by this, it plays Thriller by Michael Jackson' [Fan-wiki]. Stats [Fan-wiki]: Mar 2018 RoF 0.25 s, ammo 20, reload 3 s. Current RoF 0.75 s, ammo 10, reload 4 s. Not affected by Equipment. The wiki says it is named after the city where 'Screenzilla' lives [Fan-wiki]. LOOK [Observed, .../dl/sanchez/png/Kelowna.png, loadout render uploaded 2018-03-11]: a chunky dark gunmetal blaster with a glowing violet liquid canister slung underneath (about #A389FB). A scope with a glowing violet lens. The front is encased in a spiky white-lavender crystalline/frosty shell (about #EBE8F6), with a white ring muzzle and violet electric streaks on the body. Sanchez wears an unidentified black-and-gold skin (three gold stars on the helmet band). The cloud, clone and skull were never observed [Unverified]. Depiction for shorts: violet pellet pops into a purple-green haze where a ghostly Sanchez double does a zombie shuffle; victims get a purple skull. Evoke the zombie stagger without copying Thriller choreography or music [BBG News invention].",
+   "image_leads": [
+    "File:Kelowna.jpeg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Kelowna",
+    "https://battlebears.fandom.com/index.php?oldid=75737",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://battlebears.fandom.com/wiki/Taunts",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Kelowna.png"
+   ]
+  },
+  {
+   "name": "Speed Field",
+   "slot": "secondary",
+   "status": "Default (free, level 1). Launch kit BBG 2.6 (Dec 20, 2013) [Fan-wiki]. In the 2.6 notes as 'Secondary Weapon 2: Speed Field' [Canon, quoted in prior notes; Unverified today]. The wiki infobox wrongly gives Type 'Primary' [Fan-wiki error]. A 'Speed Field' also exists as Sanchez's Super in BB Heroes (2024) [Canon BBH, see official_text].",
+   "official_text": "\"Gotta go fast! Any player who enters the field gets their speed doubled!\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Speed_Field). The official Dec 2013 card (wiki copy) reads 'SPEED FIELD' / 'Creates Dome-like Structure', with a 'NORMAL | FAST | NORMAL' diagram [Observed, .../dl/sanchez/png/Sanchez_weapons.png]. BBH (2024): \"His Super, \"Speed Field,\" creates an area that significantly boosts his and his allies' movement speed, whilst causing chaos to groups of enemies.\" [Canon, re-fetched today] (https://battlebears.com/pages/characters).",
+   "mechanics": "Utility, no damage [Fan-wiki]. Activation: 'Sanchez hits a button on his arm'; a 'hazy, light yellow orb' appears 'from a command gauntlet on his arm' (current text). The Dec 2013 text says he places 'a bright yellow orb with a hazy texture on the ground' [Fan-wiki]. Works mid-air but is better on the ground [Fan-wiki]. Field: a dome 'similar in size to the Pain Field', with 'a somewhat translucent light yellow haze' [Fan-wiki]. 'Any player, even an opponent' inside gets +150 u/s while inside. Sanchez's base speed is 275 u/s [Fan-wiki]. Lasts 8 s, reload 1.5 s, ammo 2, passive +1% Speed modifier [Fan-wiki]. 2013 trivia: the field orb does not show in his hands, 'This may be a visual glitch' [Fan-wiki rev 58375]. LOOK [Observed, .../dl/sanchez/png/Sanchez_weapons.png]: card icon is a glossy yellow sphere (about #DED029) with an engraved hexagon/honeycomb pattern. The diagram dome is a yellow arc labelled FAST, with a stick figure running with speed lines. The loadout render for the field pages shows Sanchez empty-handed [Observed, .../dl/sanchez/png/Arbiter_jpg.png]. The in-game dome was never observed [Unverified]. Depiction for shorts: yellow honeycomb orb pops into a translucent yellow dome; anyone inside blurs at double speed with speed lines [BBG News invention from the card and wiki].",
+   "image_leads": [
+    "File:Sanchez_weapons.jpg",
+    "File:Arbiter_sanchez.jpg",
+    "File:Arbiter.jpg (Speed Field infobox; empty hands)",
+    "File:THE_MOST_INTENSE_BBG_MATCH_OF_ALL_TIME_(ALMOST_DIED) (wiki video file; thumbnail shows a BBZ bear, not useful)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Speed_Field",
+    "https://battlebears.fandom.com/index.php?oldid=58674",
+    "https://battlebears.fandom.com/index.php?oldid=58375",
+    "https://battlebears.fandom.com/wiki/Speed_and_Distance",
+    "https://battlebears.fandom.com/wiki/Pain_Field",
+    "https://battlebears.com/pages/characters",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Sanchez_weapons.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Arbiter_jpg.png"
+   ]
+  },
+  {
+   "name": "Cloak Field",
+   "slot": "secondary",
+   "status": "Unlock, level 1. Launch kit BBG 2.6 (Dec 20, 2013) at 80 Gas [Fan-wiki: 2.6 page, changelog, Dec 2013 revision; the current page body also says 80 Gas]. The current infobox says 60 Gas and wrongly gives Type 'Primary' [Fan-wiki conflict/error]. In the 2.6 notes as 'Secondary Weapon: Cloak Field' [Canon, quoted in prior notes; Unverified today].",
+   "official_text": "\"Sanchez is really good at hide and seek. Any player who enters the field gains cloaking!\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Cloak_Field). The official card (wiki copy) reads 'Cloak Field' / 'Creates Dome-like Structure' [Observed, .../dl/sanchez/png/Sanchez_weapons.png].",
+   "mechanics": "Utility, no damage [Fan-wiki]. A 'hazy, light purple orb' appears from the arm gauntlet. It does not work in mid-air [Fan-wiki]. Dome the size of the Pain Field, with 'a somewhat translucent light purple haze' [Fan-wiki]. Any player, even an opponent, who stays inside 0.75 s is cloaked while the field lasts (15 s). Attacking reveals you until you stop [Fan-wiki]. Visibility 0%: 'the first weapon to make you 100% invisible while moving as long as you remain in the field' [Fan-wiki]. Radar cannot detect cloaked players unless they move or shoot [Fan-wiki Pro-Mode Features]. Reload 4 s, ammo 2 [Fan-wiki]. LOOK [Observed, .../dl/sanchez/png/Sanchez_weapons.png and Arbiter_sanchez.png]: card icon is a glossy lilac/purple sphere (about #C795EA) wrapped in white circuit-like bands. The diagram shows a stick figure behind a purple dome arc, with a shot (dash lines) coming at it from the right. The in-game dome and the cloaked look were never observed [Unverified]. Depiction for shorts: lilac orb blooms into a faint violet dome; characters inside fade to nothing, then flicker back visible when they fire [BBG News invention from the card and wiki].",
+   "image_leads": [
+    "File:Sanchez_weapons.jpg",
+    "File:Arbiter_sanchez.jpg",
+    "File:Arbiter.jpg (Cloak Field infobox; empty hands)",
+    "File:Cloaking.png (the separate Cloaking special, for the cloak look)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Cloak_Field",
+    "https://battlebears.fandom.com/index.php?oldid=58375",
+    "https://battlebears.fandom.com/wiki/Cloaking",
+    "https://battlebears.fandom.com/wiki/Pro-Mode_Features",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Sanchez_weapons.png"
+   ]
+  },
+  {
+   "name": "Invulnerable Field",
+   "slot": "secondary",
+   "status": "Unlock, no level lock. Added in the 2.9-era rollout: the class changelog lists it under 2.9 at 1,000,000 Joules [Fan-wiki]. The wiki page was created Jun 7, 2014, a day after SkyVu's 'Two brand new Sanchez weapons' post (Jun 6, 2014) [Fan-wiki history; Canon quoted in prior notes, Unverified today; the pairing is Inference]. Price cut 1,000,000 \u2192 250,000 J in 2.20 (May 29, 2015) [Fan-wiki Versions]. The current infobox says 150,000 J [Fan-wiki conflict]. Rebalanced: duration 10 s \u2192 4 s, RoF 0.75 \u2192 1.5 s, reload 7.5 \u2192 5 s [Fan-wiki revs 64941 vs current].",
+   "official_text": "\"With great power comes great invulnerability\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Invulnerable_Field).",
+   "mechanics": "Utility, no damage [Fan-wiki]. A 'hazy, light blue orb' appears 'from a command gauntlet on his arm'. Grounded only [Fan-wiki]. Dome similar in size to the Pain Field/Speed Field [Fan-wiki]. Anyone inside takes 50% less damage. Fields stack multiplicatively ('0.5^(Number of Field)'): two fields mean 25% damage taken, not 0% [Fan-wiki]. Status: 'Damage Resistance', 'No overhead icon shown' [Fan-wiki Status Effects]. Ammo 2 [Fan-wiki]. LOOK [Observed, .../dl/sanchez/png/480px-InvulnerableField.png, loadout render uploaded 2014-06-08]: Sanchez stands empty-handed; no orb or emitter prop is visible. The dome was never observed [Unverified]. Depiction for shorts: pale-blue translucent dome; bullets inside hit with dulled half-size sparks; no icon over heads [BBG News invention from the wiki].",
+   "image_leads": [
+    "File:480px-InvulnerableField.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Invulnerable_Field",
+    "https://battlebears.fandom.com/index.php?oldid=64941",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://battlebears.fandom.com/wiki/Arbiter_(BBG)",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/480px-InvulnerableField.png"
+   ]
+  },
+  {
+   "name": "Carpet Bomb",
+   "slot": "secondary",
+   "status": "Unlock, level 10. Added in BBG 2.15 (Dec 20, 2014) [Fan-wiki]. Price conflict: 275,000 J on the Dec 2014 page; 250,000 J in the class changelog; 150,000 J in the current infobox [Fan-wiki]. Rebalanced over time; see mechanics.",
+   "official_text": "\"This carpet has been through years of training to prepare for war!\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Carpet_Bomb).",
+   "mechanics": "Explosive, launched 'in an arc'. It stops when it hits 'an object, a solid base or a player, even a teammate' [Fan-wiki]. Then 'the carpet will be opened and fire starts to burst around it'; 'It does 3 rapid explosions, before stopping' [Fan-wiki]. Large AoE, so self-kill risk in tight spaces [Fan-wiki]. Stats [Fan-wiki]: Dec 2014 explosives 30\u201345, AoE 150/300, RoF 2.8 s, ammo 2, reload 4.6 s, projectile 950 u/s. Current explosives 7.5\u201315, AoE 120/320, RoF 1 s, ammo 3, reload 3 s, projectile 600 u/s. Explosions+ +2.5/+5. LOOK, held [Observed, .../dl/sanchez/png/Carpetbomb.png, loadout render uploaded 2015-02-15]: a rolled rug carried diagonally across the chest. Black, with tan/orange ornate borders (meander/key and knotwork patterns). IN PLAY [Observed, .../dl/sanchez/png/Death_by_Carpet.png, fan screenshot uploaded 2016-07-26]: from behind, Sanchez (dark blue armoured skin) holds the rolled carpet upright; a short dark fuse/tip pokes from its top end. Downrange, a large yellow-white fireball with an orange ring on the ground engulfs an enemy. HUD ammo reads '1 / 2'. Depiction for shorts: rolled rug lobbed end-over-end; on landing it flops open and three quick fire bursts ripple across it [BBG News invention built on the wiki text and the observed fireball].",
+   "image_leads": [
+    "File:Carpetbomb.jpg",
+    "File:Death_by_Carpet.png",
+    "File:Batte_Bears_Gold_-_Carpet_Bomb (YouTube I7I02IwJIec, Everyplay 12329340; YouTube thumbnails now 404)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Carpet_Bomb",
+    "https://battlebears.fandom.com/index.php?oldid=68521",
+    "https://battlebears.fandom.com/index.php?oldid=69058",
+    "https://battlebears.fandom.com/wiki/Arbiter_(BBG)",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Carpetbomb.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Death_by_Carpet.png"
+   ]
+  },
+  {
+   "name": "Drain Field",
+   "slot": "secondary",
+   "status": "Unlock, 55 Gas, level 20. Added in BBG 2.16 (Jan 30, 2015) [Fan-wiki]. Rebalanced: drain 35/s, heal 20 per 1.5 s (Feb 2015) \u2192 25/s, heal 25 per 1 s (current) [Fan-wiki].",
+   "official_text": "\"Toss this sucker at the nearest enemy and watch as his life force is drained from him and transferred to you!\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Drain_Field).",
+   "mechanics": "Thrown 'in an arc' (800 u/s). The thrown creature is described as 'fish-like' (Feb 2015) or 'leech-like' (current) [Fan-wiki]. On touching a surface it forms 'a dark field ... with bats in it'. Enemies in range lose health and 'their lost health will be transferred to the user' (no overheal) [Fan-wiki]. Unlike Sanchez's other fields, it forms where it lands, not around the user [Fan-wiki]. 'The field formed appears to be a projection of a live creature wearing sunglasses' [Fan-wiki]. Against a shielded enemy, Sanchez still heals but the enemy takes no damage [Fan-wiki]. Ammo 1, reload 4.5 s [Fan-wiki]. LOOK, held [Observed, .../dl/sanchez/png/Drainfield_jpg.png, loadout render uploaded 2015-02-15]: an orange-brown curved slug/leech-like creature (about #A75E39) clutched in the prosthetic hand, with small dark markings near its tip. CONCEPT [Observed, .../dl/sanchez/png/Drainfield_png.png; the wiki file page says 'concept art for the drain field'; uploaded by fan editor Thecheeselover 2015-02-16; SkyVu provenance Unverified]: hand-lettered 'Sanchez drain field'. A red-orange drop/onion-shaped creature with a hooked pointed top and one sinister eye under a dark band, wrapped in swirling white wind rings with up-arrows, beside small bear silhouettes. Also a grey metal dome with a cross emblem and a syringe, a syringe draining red liquid, and health-cross icons emptying. The in-game dark bat field was never observed [Unverified]. Depiction for shorts: leech lobbed onto the floor spreads a dark pool with fluttering bats; red wisps flow from victims to Sanchez [BBG News invention from the wiki text].",
+   "image_leads": [
+    "File:Drainfield.jpg",
+    "File:Drainfield.png (concept art per wiki)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Drain_Field",
+    "https://battlebears.fandom.com/index.php?oldid=69128",
+    "https://battlebears.fandom.com/index.php?oldid=75523",
+    "https://battlebears.fandom.com/wiki/File:Drainfield.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Drainfield_jpg.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Drainfield_png.png"
+   ]
+  },
+  {
+   "name": "Blade Augment",
+   "slot": "melee",
+   "status": "Default (free). Launch kit BBG 2.6 (Dec 20, 2013) [Fan-wiki]. In the 2.6 notes as 'Melee: Blade Augment' [Canon, quoted in prior notes; Unverified today].",
+   "official_text": "\"Sanchez did not ask for this, but he still thinks it is really really cool.\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Blade_Augment). The official card (wiki copy) reads 'Blade Augment' / 'Attaches to Arm' [Observed, .../dl/sanchez/png/Sanchez_weapons.png].",
+   "mechanics": "Melee swing, 110 damage, no stat modifier. Melee+ +10/+20 [Fan-wiki]. 'a blade attached to Sanchez's arm by a metal rod' [Fan-wiki]. LOOK [Observed, .../dl/sanchez/png/Blade_Augment.png, loadout render uploaded 2013-12-21]: a long, slightly curved, single-edged silver blade with a jagged zigzag temper line. Mounted under the red-black prosthetic forearm/wrist, it extends well past the fist, roughly torso-length. Card icon: the long blade mounted along a dark red-black gauntlet with a glowing red light [Observed, Sanchez_weapons.png]. The card diagram shows a stick figure slashing with a red arc, then a stick figure running off [Observed]. Depiction for shorts: one wide arm-blade slash leaving a red arc trail [BBG News invention echoing the card's red arc].",
+   "image_leads": [
+    "File:Blade_Augment.png",
+    "File:Sanchez_weapons.jpg",
+    "File:Arbiter_sanchez.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Blade_Augment",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Blade_Augment.png",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Sanchez_weapons.png"
+   ]
+  },
+  {
+   "name": "Harvester",
+   "slot": "melee",
+   "status": "Unlock, no level lock. Launch kit BBG 2.6 (Dec 20, 2013) at 120 Gas [Fan-wiki: 2.6 page, changelog, Dec 2013 revision]. The current page says 'It costs 20 Gas' [Fan-wiki]; probably a typo for 120 [Inference]. In the 2.6 notes as 'Melee 2: Harvester' [Canon, quoted in prior notes; Unverified today]. Damage 65 \u2192 70; Melee+ +5/+10 \u2192 +10/+20 [Fan-wiki revs].",
+   "official_text": "\"It is Harvest time!\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Harvester). The official card (wiki copy) reads 'HARVESTER' / 'Similar to Clover Claws' [Observed, .../dl/sanchez/png/Sanchez_weapons.png].",
+   "mechanics": "Melee, 'used in a swinging motion'; 70 damage, +10% speed [Fan-wiki]. 'a gauntlet with three metallic claws protruding outwards' [Fan-wiki]. The wiki compares it to the Assault's Shock N Claw and to Shredder's claws [Fan-wiki]. LOOK [Observed, .../dl/sanchez/png/Harvester.png, loadout render uploaded 2013-12-20]: a silver/gunmetal gauntlet over the prosthetic fist, with a round glowing yellow lens on top. Three long, curved, polished silver claws project forward from the knuckles. The card diagram has three red jagged slash marks [Observed, Sanchez_weapons.png]. Depiction for shorts: claw swipe leaving three red slash streaks [BBG News invention echoing the card].",
+   "image_leads": [
+    "File:Harvester.jpg",
+    "File:Sanchez_weapons.jpg",
+    "File:Arbiter_sanchez.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Harvester",
+    "https://battlebears.fandom.com/index.php?oldid=59126",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Harvester.png"
+   ]
+  },
+  {
+   "name": "Stealth Knife",
+   "slot": "melee",
+   "status": "Unlock, no level lock. Added in BBG 2.21 (Jul 3, 2015), alongside Bearettas, Tonguechuks, Primus Sword, Selfie Stick and Crowbar [Fan-wiki]. Price conflict: 400,000 J in the class changelog vs 150,000 J on the weapon page [Fan-wiki].",
+   "official_text": "\"Salvaged from a stealth bomber, this melee weapon can sometimes strike without even being seen!\" [Game text via wiki] (https://battlebears.fandom.com/wiki/Stealth_Knife). The wiki ties 'stealth bomber' to the Pelican't Sanchez crashed in BB Zombies [Fan-wiki].",
+   "mechanics": "Melee, 70 damage, -10% Health, +20% Movement Speed. Melee+ +10/+20 [Fan-wiki]. No mechanic is documented for 'strike without even being seen' [Unverified]. LOOK [Observed, .../dl/sanchez/png/Image51.png (259x284, uploaded 2015-07-05) and .../dl/sanchez/crops/stealth_knife_x5.png]: a dark navy/indigo faceted blade-gauntlet shaped like a stealth bomber (chevron fins), with glowing cyan edge lines. A translucent cyan energy glow/blade extends from it back toward Sanchez's body. Sanchez wears the same unidentified black-and-gold skin as in the Kelowna image. Low resolution. Depiction for shorts: dark angular blade that blinks out of sight mid-swing, leaving only a cyan streak [BBG News invention from the official description].",
+   "image_leads": [
+    "File:Image51.PNG"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Stealth_Knife",
+    "https://battlebears.fandom.com/wiki/Arbiter_(BBG)",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Image51.png"
+   ]
+  }
+ ],
+ "notes": "COMPLETENESS: The class page \"Arbiter (BBG)\" lists 14 weapons: primaries Bind Gun, Parashoot, Glue Bomb, Greased Lightning, Spin Baby Spin, Kelowna; secondaries Speed Field, Cloak Field, Invulnerable Field, Carpet Bomb, Drain Field; melee Blade Augment, Stealth Knife, Harvester [Fan-wiki]. weapons_by_class.json[\"Sanchez\"] has only 13 of them. The default primary is missing because the class page links \"Bind Gun\", which redirects to \"Adrenaline Gun\", and that title sits in \"_unassigned\". Add \"Adrenaline Gun\" to Sanchez. The other 4 _unassigned pages are not Arbiter weapons. \"Arbiter (BBG)/Weapons\" is an empty stub (\"Detailed list of Arbiter Weapons\"). Template:WeaponLI's \"Bind Field\" belongs to Engineer (it is Graham's Slow Field), not Sanchez. The class changelog omits Spin Baby Spin (2.27, May 29, 2017) and Kelowna (2.31, Mar 8, 2018); both dates come from the wiki's Updates page [Fan-wiki].\n\nWIKI ERRORS AND CONFLICTS [Fan-wiki]: Speed Field and Cloak Field infoboxes say \"Type: Primary\". Price conflicts: Glue Bomb 90k vs 60k J; Cloak Field 80 vs 60 Gas; Harvester 120 vs \"20\" Gas; Parashoot 300k/200k/150k J; Carpet Bomb 275k/250k/150k J; Invulnerable Field 1M/250k/150k J; Stealth Knife 400k vs 150k J; Kelowna 500k vs 150k J; Spin Baby Spin 150 vs 60 Gas. Glue Bomb explosion delay: \"one second\" vs infobox \"0 seconds\". Stats changed often; dated numbers are in each entry. The removal date for Greased Lightning is undocumented; the wiki only tagged it REMOVED on 2020-11-10. The Adrenaline Gun's \"official description\" is said to be fan-submitted.\n\nOFFICIAL SOURCES TODAY: web.archive.org reset every connection (proxy status: ws_closed_mid_exchange, repeated). WebFetch refuses archive.org, archive.ph returned 429, and Memento/arquivo/archive-it failed. So every archived SkyVu quote above is labelled \"Canon, quoted in prior notes; Unverified today\". The archive.org availability API (which does work) confirms snapshots exist for: the 2.6 notes (http://web.archive.org/web/20140214154039/http://battlebears.com:80/battle-bears-gold-update-2-6-now-available-full-release-notes/), the 2.6 class teaser (\u2026/20141024224855/\u2026/battle-bears-gold-update-2-6-new-class-announcement/), the 2.6 change log (\u2026/20151029082739/\u2026/battle-bears-gold-2-6-change-log/), the 2.9 notes (\u2026/20160331174329/\u2026/battle-bears-gold-update-2-9-now-available/), and the official weapon card JPG (\u2026/20140310213203/http://battlebears.com/wp-content/uploads/2013/12/sanchez_weapon_ad2-900x691.jpg). The API returned none for the Jun 2014 \"tillman-overhaul-new-sanchez-weapons-in-bbg\" post (prior notes cite 20140617141419). The next agent should retry these to: (a) name the \"Two brand new Sanchez weapons\" (probably Greased Lightning and Invulnerable Field [Inference from wiki page creation on Jun 7, 2014]); (b) read the 2.6 change log and the vanillaforums balance notes for 2.8 and 2.17 (Arbiter nerfs/buffs). No SkyVu notes for 2.15/2.16/2.18/2.21/2.27/2.31 were found in the availability API under guessed slugs. Live battlebears.com (re-fetched 2026-10-16) carries only the BBH bio. Steam (app 4408320) lists \"ARBITER: Sanchez\" among 11 classes, with no kit text. The demo app 5225670 has no media. None of the 7 Steam news posts mention Sanchez or any of his weapons.\n\n2026 VISUALS: Sanchez does not appear in the official Steam trailer (all 108 frames at 0.5 s checked; hero cards are B-1000, Graham, Astoria, Wil, Tillman, Huggable, Riggs, Oliver) or in the 5 Steam screenshots [Observed: .../scratchpad/weapons/dl/sanchez/trsheets/sheet_01..07.jpg, .../dl/sanchez/steamsheet/sheet_01.jpg]. The only 2026 image is the YouTube chapter thumbnail for \"Arbiter (Sanchez)\" in the JustNubz showcase. It shows Tron-Tastic! Sanchez holding the same blue default gun [Observed]. The video itself was not watched. Whether that 2026 gun slows (Bind) or speeds up (Adrenaline) targets is Unverified.\n\nERA EQUIVALENTS: BB Zombies (2009): Sanchez is the Pelican't pilot who crashes; he has no weapon kit, though Oliver finds a Machine Gun in the wreckage [Fan-wiki]. BBR (2012): no Arbiter class and no playable Sanchez; the BBR-era Cloaking special is the ancestor of Cloak Field's effect [Fan-wiki Cloaking]. BBG 2013\u20132021: the kit above. BB Heroes (2024): \"Adrenaline Gun\" (\"rapidly fires four staggered projectiles\") plus Super \"Speed Field\" [Canon, live site]. The wiki's BBH table calls the attack \"Adrenaline Burst\" with damage \"4 x 400\", and says Sanchez was added Summer 2023 [Fan-wiki].\n\nERRORS IN /home/user/thallo-site/bbg-news-repo/characters/sanchez.md (flag, do not auto-edit):\n(1) The Prompt pack gives him \"a short forearm blade\" while holding the gun. The observed Blade Augment is LONG (roughly torso-length, curved, zigzag temper line). Loadout renders with the Bind Gun show no blade on the arm, because melee is a separate loadout item.\n(2) Bind Gun hex #1E6FD9 (saturated royal blue) does not match the 3D renders: the observed gun is cyan/sky-blue (about #35BBF1 highlights, #3A8DAD midtones). Only the 2D promo art is a darker steel/royal blue (about #195178\u2013#274F6B).\n(3) \"dark purple Glue Bomb orb\": the observed bomb is a black/gunmetal plated sphere with glowing magenta-violet cross seams.\n(4) \"Fields come from a command gauntlet on his arm\" is wiki text only. Loadout renders show empty hands for fields, and the 2013 wiki noted the orb isn't shown in his hands. The \"slaps a button on the arm to pop a shimmering yellow speed dome\" video prompt rests on Fan-wiki text, and the dome look is unobserved.\n(5) The open question \"Bind Gun or Adrenaline Gun in 2026\" can now note that the model in the 2026 playtest thumbnail is the same blue gun.\n\nIMAGE NOTES: all wiki images are WebP. My PNG conversions are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/. Note the filename collisions I fixed: Arbiter_jpg.png vs Arbiter_png.png, Drainfield_jpg.png vs Drainfield_png.png. Arbiter.png in that folder is the Bind Gun render. Crops are in .../dl/sanchez/crops/. Raw files and imginfo.json are in .../dl/sanchez/img/. Wiki JSON, including old revisions under rev/, is in .../dl/sanchez/wiki/. Two wiki gameplay videos (Parashoot 0zBUHqR6Wkc, Carpet Bomb I7I02IwJIec) return 404 on YouTube thumbnails, probably deleted; only the wiki's 480x269 thumbnails remain, and they are uninformative. No in-game image of any beam, dome field, parachute, poison cloud, spinner blast or bat field was found. Those looks rest on wiki text only."
+}

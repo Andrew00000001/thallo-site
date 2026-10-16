@@ -1,0 +1,228 @@
+{
+ "quickref": [
+  {
+   "weapon": "Grenader",
+   "owner": "B-1000 (Assault)",
+   "slot": "primary (default)",
+   "status": "2013 launch default; beta name 'Grrnade Launcher'; 2026 unconfirmed (Steam screenshot capture date unknown)",
+   "look": "Fat octagonal cylinder launcher on right forearm: white riveted panels framed in orange (#E58D2B lit), black octagonal muzzle, black ribbed hose arcing over the top, small orange fins; ~0.6x Oliver long",
+   "firing_and_projectile": "Semi-auto lob in an arc; glowing white-yellow ball (#FBFDDE core) with a fiery yellow-orange comet trail (#ECB235); a golden orb forms on the muzzle during reload [Observed low-res]; 750 u/s",
+   "impact_end_result": "Explodes on contact into a big bright golden orb blast, 45-70 explosive, AoE 125/250, knockback on airborne targets, high self-damage risk [Fan-wiki]; blast not clearly observed",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bearail Gun",
+   "owner": "B-1000 (Assault)",
+   "slot": "primary",
+   "status": "2013 launch, 110,000 J; beam effect added in a later update; seen in official 2026 playtest highlights and fan 2026 closed test",
+   "look": "Long black slab arm-gun on right forearm with orange frame rails and white end panels; often held muzzle-up; ~0.65x Oliver long",
+   "firing_and_projectile": "1 s gold charge glow, then a hitscan pencil-thin lemon-yellow beam (#EDDC31-#F7E95C, pale core #F9F2A3) with a spiky gold muzzle flare; 1 shot per 3 s reload",
+   "impact_end_result": "Large gold-white explosion with spark starburst and a dim light wave; 75-90 explosive, AoE 90/220 [Fan-wiki]; spark starburst observed on official banner",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Energy Overflow",
+   "owner": "B-1000 (Assault)",
+   "slot": "primary",
+   "status": "Added BBG 2.3 (Sep 27 2013), 60 Gas; BBH Ultimate per wiki; 2026 unconfirmed",
+   "look": "Short wide orange/white cylinder with grey hex muzzle and cyan light ring; in-game shows white fins with glowing cyan panels (fold-out per concept); ~0.5x Oliver",
+   "firing_and_projectile": "Chargeable energy shotgun: 2 uncharged shots or one full-charge golden burst; particles converge while charging, orbs of light at the tip when full [Fan-wiki]; short yellow-gold streaks observed",
+   "impact_end_result": "No AoE; yellow-white spark burst on the hit target [Observed low-res]; 45 uncharged / 140 charged",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Super Rapid Chain Gun (SRCG)",
+   "owner": "B-1000 (Assault)",
+   "slot": "primary",
+   "status": "Added v2.7 (Jan 23 2014); 40-round clip in 2015 HUD; possibly 75 at launch; 2026 unconfirmed",
+   "look": "Wide orange-and-silver stepped drum minigun on right forearm, orange end cap with multi-hole port, cyan side window; promo card adds a black multi-barrel cluster and top capsule; ~0.5x Oliver",
+   "firing_and_projectile": "Full-auto with wind-up and wind-down, 0.08 s rate, hitscan explosive bullets [Game text via wiki/Fan-wiki]; tracer look unconfirmed",
+   "impact_end_result": "Tiny explosive pops, 5 + 2-4 explosive, AoE 50/100 [Fan-wiki]; not observed",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Lightning Bolt",
+   "owner": "B-1000 (Assault)",
+   "slot": "primary",
+   "status": "Added BBG 2.7 (Jan 23 2014), 150,000 J; 3-shot clip seen 2014-2021; 2026 unconfirmed",
+   "look": "Rounded orange-and-white arm cannon with black octagonal muzzle holding a glowing cyan lens, cyan light strip, small black scope on top; ~0.45x Oliver",
+   "firing_and_projectile": "Semi-auto, instant hitscan 'purple bolt of damaging energy' [Fan-wiki]; bolt not observed",
+   "impact_end_result": "No explosion ('What no explosion?' [Game text via wiki]); 50 damage",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bass Cannon",
+   "owner": "B-1000 (Assault)",
+   "slot": "primary",
+   "status": "Added BBG 2.20 (May 29 2015), 100 gas then; SkyVu Facebook post lists '-B1000 Bass Cannon'; 2026 unconfirmed",
+   "look": "Dark olive/black cylinder with orange band, dark-blue windows and a speaker/turbine-disc muzzle (white vanes over pale-blue cone); ~0.45x Oliver",
+   "firing_and_projectile": "Continuous fire, 0.25 s per wave, dubstep loop plays while firing; nested octagonal cyan-blue rings (#58CAE3/#4589DC, pale #D8F9FD) fly out, about a bear's torso wide; maroon in one 2.20 clip",
+   "impact_end_result": "Rings pop in small blue-white spark bursts; 10 + 10-20 explosive, small AoE 75/150; can blow airborne enemies away",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Last Resort",
+   "owner": "B-1000 (Assault)",
+   "slot": "secondary (back)",
+   "status": "2013 launch default secondary; REMOVED per wiki note (date and patch unknown); 2026 unconfirmed",
+   "look": "Backpack of two stacked orange boxes with black panels, big round speaker-like discs, small dials, white triangle accents; ~0.45x Oliver",
+   "firing_and_projectile": "Hold fire about 3 s (4 s per wiki prose) to self-destruct; moving cancels it; no projectile",
+   "impact_end_result": "B-1000 explodes: 200-400 explosive, AoE 200/400, counts as SUICIDE; aftermath shows smoke puff and scattered red and white chunks [Observed low-res]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Metal Crush",
+   "owner": "B-1000 (Assault)",
+   "slot": "secondary (back)",
+   "status": "2013 launch (beta 'Leap N Destroy'); 100 gas (v2.7) then 70 (2.20) then 60 (wiki); in Steam trailer",
+   "look": "Back unit of two riveted white wing-like plates over orange perforated sections on a black spine; vents glow orange after use; ~0.5x Oliver",
+   "firing_and_projectile": "Leaps ~35 degrees at high speed; trailer shows an orange-yellow fireball and comet trail during flight",
+   "impact_end_result": "Left arm smashes the ground, golden shockwave like Happy Hour's splash, 70-110 explosive, AoE 125/400; 2.5 s stuck after landing [Fan-wiki]; shockwave not clearly observed",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Energy Barrier",
+   "owner": "B-1000 (Assault)",
+   "slot": "secondary (back)",
+   "status": "Added BBG 2.3 (beta 'Shield'), 120,000 J; seen in fan 2026 closed test",
+   "look": "Black and orange backpack with four white hexagonal pods holding dark round grilles, mirrored white/orange chevrons in the centre",
+   "firing_and_projectile": "Activation self-buff, 2 s, 2 charges, 5 s reload; concept says the shield emits from the sides and top when opened",
+   "impact_end_result": "Player glows team colour and takes 50% less damage; no overhead icon [Fan-wiki]; glow not observed",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Smoke Screen",
+   "owner": "B-1000 (Assault)",
+   "slot": "secondary (back)",
+   "status": "Added BBG 2.7, 100,000 J in v2.7; listed as default on the wiki since 2020; 2026 unconfirmed",
+   "look": "White rounded shield-shaped backpack with thick orange outline and segmented white panels",
+   "firing_and_projectile": "Activation from the backpack; 2 charges, 1 s cooldown, 3 s reload; no projectile",
+   "impact_end_result": "Instant huge harmless white cloud for 5 s that disorients enemies; a near-white in-game frame is consistent with it",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Satellite",
+   "owner": "B-1000 (Assault)",
+   "slot": "secondary (back)",
+   "status": "Added BBG 2.7, 100 gas in v2.7 (wiki now 60); stub page; 2026 unconfirmed",
+   "look": "Orange octagonal cradle on the back holding a glossy white sphere with a cyan liquid band and two cyan lights; never shown detached",
+   "firing_and_projectile": "Fires missiles whenever B-1000 fires; 8 missiles then 5 s reload; 1,500 u/s; missiles not confirmed in images",
+   "impact_end_result": "Explosive missiles, 20-50, AoE 125/250 [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Axecutioner",
+   "owner": "B-1000 (Assault)",
+   "slot": "melee (default)",
+   "status": "2013 launch default melee (early name 'Axe Time'); 2026 unconfirmed",
+   "look": "Left forearm ends in a grey stone-textured axe head with hammer back and a big curved scratched grey-white blade, orange cuff and fin; NO glow",
+   "firing_and_projectile": "Melee swing; no projectile",
+   "impact_end_result": "70 damage [Fan-wiki]; swing not observed",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Shock N Claw",
+   "owner": "B-1000 (Assault)",
+   "slot": "melee",
+   "status": "2013 launch, 45,000 J; signature promo melee; in Steam trailer and fan 2026 closed test; BBH attack per wiki",
+   "look": "Left-forearm gauntlet with three long translucent cyan blades (#2BDCF1, white streaks) and a looping white hose with cyan rings; ~0.6x Oliver",
+   "firing_and_projectile": "Upward swinging slash; no projectile; no electric effect documented",
+   "impact_end_result": "Trailer kill: gold-white flash and orange streaks, then the target breaks into chunky separate pieces flying upward; 45 damage, +30% special speed",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Primus Sword",
+   "owner": "B-1000 (Assault)",
+   "slot": "melee",
+   "status": "Added BBG 2.21 (Jul 3 2015), 60 Gas, level 5; pink X-guard blade seen in 2026 thumbnails (identity inferred)",
+   "look": "Long flat angular silver-grey blade (#A9B6BB) with hot-pink edge trim (#DB0954), thin inner line, dark magenta X-shaped crossguard; longest B-1000 weapon, about Oliver's height",
+   "firing_and_projectile": "Melee swing; no projectile",
+   "impact_end_result": "85 damage, highest melee in BBG, +10% health [Fan-wiki]; hit not observed",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "**Weapons:** orange-and-white gun-arm, blue energy blade [Observed: screenshot]; gun-arm right, claw-blades left [Observed: T-shirt].",
+   "correction": "In the default screenshot the gun-arm is the Bearail Gun (long black slab with orange frame rails and white end panels) and the 'blue energy blade' is the Shock N Claw (three translucent cyan claw blades with a looping white-and-cyan hose). Keep 'gun on his right arm, claws on his left'.",
+   "evidence": "File:B-1000Skin.jpg, File:Bearail_G.jpg, File:Shock_N_Claw.jpg (viewed as PNGs in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-dossier/r2/wiki_img/png/); official T-shirt art https://cdn.shopify.com/s/files/1/0370/2469/4408/files/BB_shirt_GreyB1000_model.png"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "gun-arm = Grenader is [Inference]",
+   "correction": "Wrong: the gun-arm in the default screenshots is the Bearail Gun. The Grenader is a fat octagonal white-and-orange launcher with a black ribbed hose looping over the top.",
+   "evidence": "File:Grenader.jpg vs File:Bearail_G.jpg and File:B-1000Skin.jpg (viewed); Steam screen_04 shows the Grenader's hose layout"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "Defaults: Grenader (\"does the throwing for you\"), Last Resort (\"wait 3 seconds and then boom!\"), Axecutioner (\"replace your hand with an axe\")",
+   "correction": "Make it era-dependent: 2013 launch defaults were Grenader, Last Resort, Axecutioner [Fan-wiki]. The wiki now headlines Last Resort 'NOTE: THIS WEAPON IS REMOVED' and lists Smoke Screen as the default secondary; no SkyVu date is known.",
+   "evidence": "https://battlebears.fandom.com/wiki/Last_Resort (rev 77032) and https://battlebears.fandom.com/wiki/Smoke_Screen (rev 77035), re-fetched via API 2026-10-16"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "Extras: Satellite, Smoke Screen, chain gun, Shock N Claw [Fan-wiki].",
+   "correction": "Incomplete: the kit has 14 items. Add Bearail Gun, Energy Overflow, Lightning Bolt and Bass Cannon (primaries); Metal Crush and Energy Barrier (secondaries); and Primus Sword (melee).",
+   "evidence": "https://battlebears.fandom.com/wiki/Assault_(BBG) weapon lists (rev 77028)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "**Idle:** slow scanning sweeps; the Satellite circles him like a pet [BBG News invention].",
+   "correction": "Keep the invention label, but every source shows the Satellite docked in an orange cradle on his back. Default to drawing it docked; a free-flying orb must stay labelled invention.",
+   "evidence": "File:Satellite_(cr).jpg and File:Satellite_.jpg (v2.7 store) viewed; YouTube DNcZwCdJSIk hq1-hq3 show it docked in play"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "right forearm a chunky orange-and-white grenade-launcher arm, left forearm a heavy axe blade with a glowing cyan edge",
+   "correction": "Mixed loadout: the axe never glows; the cyan belongs to the claws. Pick one: (a) defaults: 'right forearm a fat octagonal white-and-orange grenade launcher with a black ribbed hose looping over it; left forearm a grey stone-textured battle-axe head with a curved scratched grey-white blade, orange cuff, no glow'; or (b) signature: 'right forearm a long black rectangular rail-gun with orange frame rails and white end panels; left forearm a gauntlet with three long translucent cyan claw blades and a looping white-and-cyan hose; back a white winged jump-pack with orange perforated vents'.",
+   "evidence": "File:Axecutioner.jpg (grey, no glow), File:Shock_N_Claw.jpg (cyan claws), File:Grenader.jpg, File:Bearail_G.jpg, File:Metal_Crush.jpg; Steam trailer 1.5-6.6 s shows loadout (b)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "A hulking maroon-armoured robot bear with glowing cyan eye-slits, an orange-and-white gun-arm and an axe-blade arm stomps forward",
+   "correction": "Match the chosen loadout: either 'a white-and-orange grenade-launcher arm and a grey axe arm' (defaults) or 'a black-and-orange rail-gun arm and a three-blade cyan claw arm' (signature).",
+   "evidence": "Same renders as above; Steam trailer splash card at 5.8-6.6 s shows the rail-gun plus cyan claws"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "Unsampled estimates: eyes #5FE3FF, gun-arm orange #E07B2C / white #E8E6E1",
+   "correction": "Replace with values sampled from official in-game art (still estimates): eye cyan about #38D6D7; hardware orange about #E58D2B lit (#A75C10 shaded); cream-white #F3ECD2 / #E0D7CF; claw cyan #2BDCF1; Bearail beam lemon #EDDC31-#F7E95C.",
+   "evidence": "Pixel sampling of File:B1000battlepackbundle.png, File:Grenader.jpg and File:Shock_N_Claw.jpg with python PIL"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "the \"bringer of doom and destruction\" has a drone \"best friend\"",
+   "correction": "Say 'orb', not 'drone'. SkyVu's text is 'A small orb that fires missiles whenever he fires', and nothing shows it flying free.",
+   "evidence": "https://battlebears.fandom.com/wiki/Satellite official description [Game text via wiki]; Satellite images viewed"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "one eye-slit or two; axe, blade or claws as the default left arm;",
+   "correction": "Answer: the default melee is the Axecutioner (axe) [Fan-wiki Category:Default]. The Shock N Claw (45,000 J) is the promo/signature melee seen in the trailer, the T-shirt and most renders. The 'blade' was the claws.",
+   "evidence": "https://battlebears.fandom.com/wiki/Axecutioner; trailer and T-shirt viewed"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "what the 2026 build keeps (the [JustNubz showcase][showcase] is unviewed)",
+   "correction": "Partial answer: 2026 playtest thumbnails show the Bearail Gun (official highlights video C7uFxvSZ10c and fan jbdhitBvSL8), the Energy Barrier and Shock N Claw (jbdhitBvSL8), the Assault taunts in the store, and a pink X-guard blade that is probably the Primus Sword (-lAtv-j9Sms hq1) [Observed; identity Inference]. The other weapons are unconfirmed.",
+   "evidence": "https://i.ytimg.com/vi/C7uFxvSZ10c/hq1.jpg, https://i.ytimg.com/vi/jbdhitBvSL8/hq2.jpg, hq3.jpg, https://i.ytimg.com/vi/-lAtv-j9Sms/hq1.jpg"
+  }
+ ],
+ "open_questions": [
+  "When and why was Last Resort removed (the wiki notes it only from 2020-11-09), and is it in the 2026 build?",
+  "Which of the 14 B-1000 weapons ship in the Nov 4 2026 build? Only the Bearail Gun, Energy Barrier and Shock N Claw (plus a probable Primus Sword) are seen in 2026 footage thumbnails.",
+  "What does the Grenader blast look like on camera (size, golden-orb shape)? What is the 'rotating or orbiting' element on its shell?",
+  "What does the Lightning Bolt's 'purple bolt' look like? No frame I opened shows it.",
+  "What do the SRCG rounds and impact puffs look like? Was its launch clip 75 (Jan 2014 HUD) rather than 40?",
+  "What do the Satellite missiles look like, and does the orb ever leave its back cradle?",
+  "What does the Metal Crush landing 'golden shockwave' look like (ring vs dome, size, colour)?",
+  "What do the Energy Barrier team-colour glow and the Smoke Screen cloud volume look like in-game?",
+  "Are the Bass Cannon rings team-coloured (cyan in most clips, maroon in the 2.20 sneak peek)? Was the 2015 clip 31 rather than the wiki's 20?",
+  "Do the Energy Overflow's cyan-paneled fins fold out only while charging?",
+  "In the Steam trailer claw kill, are the light column and orange streaks the in-game hit effect or trailer editing? Is that footage from 2013 or 2026?",
+  "Grenader clip history (/4 in 2013, /6 in 2014, /3 in 2015): which counts reflect Ammo+ equipment, and what was the base clip in each era?",
+  "BBH: is 'Slice n Bite' a copy error, and what is the official name of B1000's stun Ultimate?",
+  "SkyVu's archived 2.3, 2.7, 2.20 and 2.21 release notes could not be read because the Internet Archive was offline (HTTP 503) on 2026-10-16; retry the archived battlebears.com change-log URLs."
+ ]
+}

@@ -1,0 +1,337 @@
+{
+ "quickref": [
+  {
+   "weapon": "Adrenaline Gun (formerly Bind Gun)",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "Primary (default)",
+   "status": "Bind Gun BBG 2.6 Dec 20 2013; reworked to speed-up Adrenaline Gun June 2021 (wiki); 2026 version unconfirmed",
+   "look": "Long angular glossy azure sci-fi rifle (#0991D4, lit #1CB5F3), glowing white-cyan round muzzle (#EBF0F5), ~0.7x Sanchez's height, two-handed [Observed: SkyVu-style card + 2013 shop shot]",
+   "firing_and_projectile": "Automatic purple beam that wobbles in an oval wave [Fan-wiki]; beam never seen in an image [Unverified]",
+   "impact_end_result": "2013-2021: target slowed, yellow 'Z' over head; 2021+: target sped up 50% per hit for 0.5 s, overshoots ledges or pick-ups; shields block damage but not the speed-up [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Catastrophe",
+   "owner": "Riggs (Heavy)",
+   "slot": "Melee",
+   "status": "BBR v1.3.1 (summer 2012), carried into BBG; misspelled 'CATASTOPHE' in game; 2026 unconfirmed",
+   "look": "Pair of calico cat-head gloves (brown #441D17, rust #924920, white #F3F2F0), one big glossy blue eye (#0072CF) per side, red mouth; each ~0.35x Riggs's height [Observed]",
+   "firing_and_projectile": "Melee punch, 40 damage per glove, doubled with both gloves [Fan-wiki]; no projectile",
+   "impact_end_result": "Hit effects undocumented [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "ClubCobra",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Melee",
+   "status": "BBG 2.20 May 29 2015; 2026 unconfirmed",
+   "look": "Gold (#F9C10A/#DF9B0C) carved club ending in a hooded cobra head with a jade-green eye (#29C74E), dark leather grip, gold pommel hook; ~0.6x Saberi's height [Observed]",
+   "firing_and_projectile": "Melee swing, 50 damage [Fan-wiki]; no projectile",
+   "impact_end_result": "Undocumented [Unverified]; health modifier +10% (screenshot) vs +15% (page)",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Hazard Toy",
+   "owner": "Botch (Assassin)",
+   "slot": "Primary (explosive/poison)",
+   "status": "BBG 2.27 May 29 2017 (summer fidget trio); missing from the wiki's Assassin page; 2026 unconfirmed",
+   "look": "Translucent green three-blade trefoil fidget spinner (#206321-#43883A) with a ringed hub, floating by Botch's paw, ~0.5x his height [Observed]",
+   "firing_and_projectile": "Straight-line projectile, 1,100 u/s, explodes on contact, 3 ammo, 1.5 s rate of fire [Fan-wiki]; what visibly flies is unknown [Unverified]",
+   "impact_end_result": "Explosion plus a stacking poison cloud (about 4 damage per tick over 5 s); purple/green skull over the victim's head [Fan-wiki]; cloud colour probably green [Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "The Incredible Riggs (skin, not a weapon)",
+   "owner": "Riggs (Heavy)",
+   "slot": "Skin",
+   "status": "BBG 2.15 Dec 20 2014, 400,000 Joules; seen in the Sept 2026 playtest loadout menu [Observed]",
+   "look": "Green muscular Riggs (#448B2F to #449C2E), torn maroon shorts, shell backpack; shown with the Beebeegun (gunmetal body, pink hive canister with a bee, magenta spiral coil) [Observed]",
+   "firing_and_projectile": "Skin only; the Beebeegun fires pink tracer streaks [Observed: 2026 Steam screenshot]",
+   "impact_end_result": "Cosmetic; Beebeegun hits show pale-yellow stars [Observed]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "MuskIt",
+   "owner": "Graham (Engineer)",
+   "slot": "Primary (radiation shotgun)",
+   "status": "BBG 2.12 Oct 2 2014; page missing from Category:BBG Weapons",
+   "look": "Musket: dark brown banded barrel with a gold ring, salmon-pink breech (#AF5649), yellow stock (#CEA218); ~0.8x Graham's height [Observed]",
+   "firing_and_projectile": "Short cone of green 'bug spray', damage 30, radiation 35.5-55.5, 3 ammo [Fan-wiki]",
+   "impact_end_result": "Irradiated: yellow circle becomes a radiation symbol with Geiger ticking; the target explodes at 100 RP [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bind Field (formerly Slow Field)",
+   "owner": "Graham (Engineer)",
+   "slot": "Secondary",
+   "status": "BBG 2.6 Dec 2013 as Slow Field, renamed later; page missing from the category",
+   "look": "Head-sized dark-brown ball with neon-green seams (#2AF944) and purple studs (#841783) [Observed]",
+   "firing_and_projectile": "Lobbed in an arc, detonates on a surface [Fan-wiki]",
+   "impact_end_result": "Force field slows enemies 75% for 3 s, no damage; yellow 'Z' icon; field colour unknown [Fan-wiki/Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Traffic Light",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Melee",
+   "status": "In BBG (image May 2015, release version unknown); page missing from the category",
+   "look": "Yellow pole with black bands topped by a spiky grey signal head with only red and green lamps [Observed]",
+   "firing_and_projectile": "Melee, 45 damage, +10% speed [Fan-wiki]",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Social Butterfly (BBG)",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Primary ('Saboteur')",
+   "status": "BBG 2.53 Apr 28 2018; stub page missing from the category",
+   "look": "Unknown; no image",
+   "firing_and_projectile": "0 damage, arcing projectile (gravity 1000), 1000 u/s, 5 ammo [Fan-wiki]",
+   "impact_end_result": "Effect lasts 0.5 s; nature unknown [Unverified]",
+   "confidence": "unknown"
+  },
+  {
+   "weapon": "Sci-Fi ASR",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary (automatic)",
+   "status": "BBR v1.3.1 (2012), retexture of the A Salt Rifle, in BBG; 2026 unconfirmed",
+   "look": "Chrome and gunmetal rifle; the salt shaker becomes a hex energy cell with red-orange stripes (#F94C14) and a glowing orange cap (#FEA11F); teal tip [Observed]",
+   "firing_and_projectile": "Automatic, rate of fire 0.15 s, 25 ammo [Fan-wiki]; tracer look unknown",
+   "impact_end_result": "Bullet damage only [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sci-Fi HASR",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary (automatic)",
+   "status": "BBR v1.3.1 (2012), retexture of the Heavy A Salt Rifle, in BBG",
+   "look": "Silver AK-style rifle with a dark gunmetal ring drum around the grip [Observed]",
+   "firing_and_projectile": "Automatic, rate of fire 0.125 s, 50 ammo, -10/-15% speed [Fan-wiki]",
+   "impact_end_result": "Bullet damage only [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bearzooka (BBG)",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary (default, explosive)",
+   "status": "Franchise weapon; BBR 1.0 (2011) to BBG to 2026 (named on Steam)",
+   "look": "Coral-red tube (#A54447 / #D05655) with glowing orange chevron windows (#EB7921-#FF8F25), grey bands, black bore, checkered flare; on the right shoulder, ~0.8x Oliver [Observed]",
+   "firing_and_projectile": "Single rocket, 1,000 u/s [Fan-wiki]; big yellow-orange blast at the muzzle [Observed t_0010, 4.5 s]",
+   "impact_end_result": "Explosion with 125/250 splash; 'very prone to suicide' [Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Twin Bearzookas",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary (explosive)",
+   "status": "BBG 2.17 Mar 8 2015",
+   "look": "Two olive-green tubes (#868F43) with black hex muzzles, one on each shoulder [Observed]",
+   "firing_and_projectile": "Rockets, 750 u/s, 3 ammo [Fan-wiki]",
+   "impact_end_result": "Explosive splash 15-25 [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Minigun (Soldier)",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary (automatic)",
+   "status": "In BBG (2.11, Aug 2014); shares its name with Saberi's backpack Minigun (Combat Tech)",
+   "look": "Dark gunmetal four-barrel minigun at the hip [Observed]",
+   "firing_and_projectile": "Rate of fire 0.075 s, 80 ammo [Fan-wiki]",
+   "impact_end_result": "Bullet damage [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bouncing Betty",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary (explosive)",
+   "status": "BBG 2.2 Aug 21 2013; REMOVED (date unknown)",
+   "look": "Big white and silver shoulder launcher with a wide black bore and a hazard-target decal [Observed]",
+   "firing_and_projectile": "Lobs a large black bomb with a lit fuse [Fan-wiki]",
+   "impact_end_result": "Explodes on each of three bounces; cannot hit players directly [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Greased Lightning",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "Primary (automatic)",
+   "status": "About 2014; REMOVED (wiki note Nov 2020)",
+   "look": "Glossy red rifle (#990608) with white lightning-crack decals and a grey toothed rail [Observed]",
+   "firing_and_projectile": "Rapid 'red-violetish lasers', 30 ammo [Fan-wiki]",
+   "impact_end_result": "Damage only; harmless tiny AoE [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Last Resort",
+   "owner": "B-1000 (Assault)",
+   "slot": "Secondary (default, self-destruct)",
+   "status": "BBG 1.0 2013; REMOVED (wiki)",
+   "look": "Orange-gold and black twin hex vent backpack seen on B-1000's back [Observed]; link to the weapon is [Inference]",
+   "firing_and_projectile": "Hold fire about 3 s to self-destruct [Game text via wiki]",
+   "impact_end_result": "Self-explosion for 200-400 damage [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Fidget Boomer",
+   "owner": "Astoria (Sniper)",
+   "slot": "Primary (explosive)",
+   "status": "BBG 2.27 May 29 2017",
+   "look": "Rose-chrome three-lobed spinner (#8B5160 / #DC8297) in a raised hand [Observed]",
+   "firing_and_projectile": "3000 u/s, the fastest projectile in the game [Fan-wiki]",
+   "impact_end_result": "Explodes after a short delay on surface contact, 40-70 damage, no status [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Spin Baby Spin",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "Primary (explosive)",
+   "status": "BBG 2.27 May 29 2017",
+   "look": "Gunmetal translucent spinner with a glass hub, held in the mechanical right hand [Observed]",
+   "firing_and_projectile": "Projectile 1,300 u/s, 6 ammo [Fan-wiki]",
+   "impact_end_result": "Explosion plus Controls Reversed for 8 s, green question mark over the head [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Let It Cold",
+   "owner": "Tillman (Demo)",
+   "slot": "Secondary (explosive)",
+   "status": "BBG 2.26 Jan 17 2017 (winter)",
+   "look": "Two shoulder racks of blue rockets (#2062DA) with grinning cartoon faces [Observed]",
+   "firing_and_projectile": "Rockets rain down [Fan-wiki]",
+   "impact_end_result": "Explosion plus a 3 s freeze [Fan-wiki]; freeze look unknown",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Snowtato Launcher",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Primary (explosive)",
+   "status": "BBG 2.26 Jan 17 2017 (winter)",
+   "look": "Silver barrel, lavender-blue body (#6D7DA9), white snow-heap hopper [Observed]",
+   "firing_and_projectile": "Exploding snowballs [Game text via wiki]",
+   "impact_end_result": "Lingering snow that blocks explosives [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "S'no Matter",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary (explosive)",
+   "status": "BBG 2.15 Dec 20 2014 (winter)",
+   "look": "Glowing icy cyan-white crystal device (#5FC4DB to #9BFEFD) [Observed]",
+   "firing_and_projectile": "Slow grey straight projectile, 800 u/s [Fan-wiki]",
+   "impact_end_result": "Freezes everyone in the blast for 2 s, teammates included [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Kelowna",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "Primary (poison)",
+   "status": "BBG 2.31 Mar 8 2018",
+   "look": "Black gun with a glowing violet canister (#5E2CFC), purple scope and white crystal-spike muzzle [Observed]",
+   "firing_and_projectile": "Small projectile, 800 u/s, 10 ammo [Fan-wiki]",
+   "impact_end_result": "Poison clouds with a dancing Sanchez clone; kills play 'Thriller' (do not use) [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Specials (Turkish SW Boots, Tesla Shield, Slow Motion Field, Iron Curtain, Caffeine Injection, Healing Tent, Propbearganda, Cloaking, Sixth Sense Goggles, Flawless Disguise)",
+   "owner": "All 11 classes (shared)",
+   "slot": "Special equipment",
+   "status": "BBR to BBG; Steam 2026 lists '10 SPECIAL EQUIPMENT' and names Turkish SW Boots [Canon]",
+   "look": "In-game 2D diagram art: jet boots, orange wireframe cage, snail with yellow zig-zags, green armour wall, coffee-cup sprint, canvas tent, loudspeaker mast, green ghost outline, purple goggles, 'THE ORANGE' cardboard box [Observed]",
+   "firing_and_projectile": "Abilities, not guns [Fan-wiki]",
+   "impact_end_result": "Icons: yellow Z (slow), coffee cup (speed), purple fist (+25% damage); red orb detonates rockets [Fan-wiki]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "I Lava You / Dragon Slayzer (BBG)",
+   "owner": "Astoria (Sniper) / Graham (Engineer)",
+   "slot": "Secondary / Secondary",
+   "status": "BBG 2.51 Apr 13 2018 (spring update)",
+   "look": "No BBG images [Unverified]",
+   "firing_and_projectile": "I Lava You: proximity mines fired in a line; Dragon Slayzer: 800 u/s projectile, 4 s duration [Fan-wiki]",
+   "impact_end_result": "I Lava You: 25-60 explosion when an enemy is within 100 units; Dragon Slayzer: unknown [Fan-wiki/Unverified]",
+   "confidence": "unknown"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
+   "correction": "The BBG Bearzooka is a coral-red tube (#A54447; #D05655 under 2026 trailer lighting) with glowing orange chevron windows (#EB7921-#FF8F25), grey bands, a black bore and a grey-and-red checkered flared end, carried on the right shoulder [Observed]. Green launchers are Tillman's Twin Bearzookas (olive #868F43) or the BBZ/BB-1 Bearzooka [Observed; Fan-wiki].",
+   "evidence": "Wiki 2013 screenshot Photo_19-04-13_12_02_26_PM.png; Bearzooka_Concept.png; Steam trailer t_0009 (4.0 s): a green-skinned Soldier carries the coral launcher and wears a gold-and-black bullet bandolier, which is the source of the 'green' and the 'hazard stripes'; Ohmagawdyas.png (Twin Bearzookas); wiki Bearzooka page: 'In BBG and BB0, it is a rocket launcher with red and orange lines.'"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "Bind Gun #1E6FD9",
+   "correction": "Bind Gun #0991D4 (lit #1CB5F3, highlight #6CCFF4; reads about #367494 in dim in-game light), glowing white-cyan round muzzle #EBF0F5 [Observed, sampled].",
+   "evidence": "Pixel sampling of Sanchez_weapons.png (the 900x691 weapon card labelled 'BIND GUN') and Bind_Gun.png (2013 shop screenshot)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "Holds a large glossy blue sci-fi gun (#1E6FD9).",
+   "correction": "Holds a large, angular, glossy azure sci-fi rifle (#0991D4 with #1CB5F3 highlights) with a glowing white-cyan round muzzle, about 0.7x his height, held two-handed across the chest.",
+   "evidence": "Sanchez_weapons.png card and Bind_Gun.png; size measured on the card."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "\"Adrenaline Gun\" (site) versus \"Adrenaline Burst\" (wiki).",
+   "correction": "Both names are on the wiki, for different games: 'Adrenaline Gun' is the BBG page (the Bind Gun with its stats changed from slowing to a 50% speed-up on 2021-06-18 UTC, page moved 2021-07-17); 'Adrenaline Burst' appears only in the wiki's BBH roster table, while SkyVu's BBH page says 'Adrenaline Gun'.",
+   "evidence": "Wiki revision history of Adrenaline Gun; wiki 'Battle Bears Heroes' page table; battlebears.com/pages/characters."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "Their look is undocumented, so designs, like the toothbrush prop, are [BBG News invention].",
+   "correction": "The Beebeegun's look is documented in images: a dark gunmetal riveted body with pink and blue striped vents, a glossy pink octagonal hive canister (#DB4ACF-#FC83FE) with a cartoon bee, small yellow-and-black bees and a glowing magenta spiral coil around the barrel; it fires pink tracer streaks, with pale-yellow stars at the target [Observed]. Other props stay [BBG News invention].",
+   "evidence": "Wiki Theincredibleriggs.jpg (2015 shop screenshot); Steam screenshot screen_00.jpg; trailer t_0070-t_0073 (34.5-36.0 s)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "Gold Riggs, Old Timey, No More Mr Ice Guy, Nature's Folly, Teen Wolf, The Incredible Riggs, Law Man, On A Roll, B and J, Rocky Horror.",
+   "correction": "Keep the list and note that The Incredible Riggs (green skin, torn maroon shorts; 'You won't like me when I'm green!' [Game text via wiki]) appears in the Sept 2026 playtest loadout menu [Observed]. Add the Catastrophe cat-head gloves (BBR 1.3.1 melee) to his extras.",
+   "evidence": "https://i.ytimg.com/vi/-lAtv-j9Sms/maxresdefault.jpg reads 'SKIN THE INCREDIBLE RIGGS'; wiki Catastrophe page and Catastrophe.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "Defaults: Grenader (\"does the throwing for you\"), Last Resort (\"wait 3 seconds and then boom!\"), Axecutioner (\"replace your hand with an axe\")",
+   "correction": "Mark Last Resort as removed: the wiki page carries 'THIS WEAPON IS REMOVED' (on the page by Nov 2020). It was the default secondary in the 2013-2020 era; the current and 2026 default secondary is unknown.",
+   "evidence": "Wiki Last Resort page and revision history."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "Energy Rifle, Plasma Machine Gun, Missiles, Minigun, Mallet, Sledgehammer; later Plasma Shotgun and Gamma Burst [Canon]",
+   "correction": "The list is incomplete. Add Toxic Rifle (2.15), Land Mine (2.19), ClubCobra (2.20, May 29 2015; 'A powerful melee made of jade and gold.' [Game text via wiki]; a gold cobra-head club with a jade eye [Observed]) and Social Butterfly (2.53, Apr 28 2018, look unknown) [Fan-wiki].",
+   "evidence": "Wiki Updates table; ClubCobra page and Clubcobra.jpg; Combat Tech (BBG) class page."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "extras include Orbs, Fear Orbit, Cosmic Bomb, Gravity Well and Toxic Plague",
+   "correction": "Add Hazard Toy (2.27, May 29 2017): a translucent green trefoil fidget spinner that fires a straight projectile, which explodes and poisons ('Banned from elementary schools world wide, this weapon is as dangerous as it looks!' [Game text via wiki]). It is missing from the wiki's Assassin class page.",
+   "evidence": "Wiki Hazard Toy page, HazardToy.jpeg, Updates 2.27."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "BBG defaults [Fan-wiki] Power Glove (...), Turret (...) and T Square (...); Gernobyl",
+   "correction": "Add MuskIt (2.12; a musket that sprays an irradiating green cone; 'The musk of the Gyrnobal has been known to turn people into mutants, but most blow up.') and Bind Field (2.6, originally Slow Field; a dark-brown ball with green seams and purple studs that makes a 75% slow field). Neither page is in Category:BBG Weapons.",
+   "evidence": "Wiki MuskIt and Bind Field pages; Musket.jpg and Slowfield.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "Senor Potato, Pie Bomb, Traffic Light [Fan-wiki]",
+   "correction": "Traffic Light has official item text, 'Why is there no yellow light you ask? Wil only travels in two modes. He stops and sometimes he has to go.' [Game text via wiki], and a documented look: a yellow and black pole with a spiky signal head showing only red and green lamps [Observed].",
+   "evidence": "Wiki Traffic Light page and Trafficlight.png."
+  }
+ ],
+ "open_questions": [
+  "Does the 2026 build's Arbiter default fire the slowing Bind Gun or the speeding Adrenaline Gun, and did the model change from the 2013 azure rifle?",
+  "What colour is the Bind Gun / Adrenaline Gun beam (the wiki says purple; no image), and is a sped-up target marked by any icon?",
+  "Hazard Toy: does the spinner itself fly, and what colour is its poison cloud?",
+  "Catastrophe, ClubCobra and Traffic Light swing animations and hit effects are undocumented.",
+  "Social Butterfly (BBG) has no image or effect description.",
+  "When exactly were Bouncing Betty, Greased Lightning and Last Resort removed, and are any of them in the 2026 build?",
+  "ClubCobra health modifier: +10% (shop screenshot, Health page) or +15% (ClubCobra page)?",
+  "Steam promises 80+ primaries / 60+ secondaries / 50+ melees against about 77/64/46 on the wiki: are there undocumented or new 2026 weapons?",
+  "The build string '3.0.5_2026.11.19_B1' appears in a Sept 20 2026 showcase thumbnail: what does the date field mean?",
+  "Archived SkyVu notes (BBR 1.3.1 blog, BBG 2.6, 2.20, 2.27) were unreachable via web.archive.org this run; release dates and official wording need re-verification.",
+  "Which Oliver skin is the green-skinned Soldier carrying the Bearzooka in trailer t_0009 (4.0 s)?",
+  "Were the seasonal weapons (S'no Matter, Let It Cold, Snowtato Launcher, the fidget trio) ever time-limited, and what does a frozen target look like?",
+  "What weapon or backpack does The Incredible Riggs show in the 2026 build (the menu thumbnail shows no gun in hand)?"
+ ]
+}

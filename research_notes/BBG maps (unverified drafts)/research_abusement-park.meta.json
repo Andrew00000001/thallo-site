@@ -1,0 +1,29 @@
+{
+ "quickref": [
+  {
+   "name": "Abusement Park",
+   "era": "Added in BBR v1.3.2 (iOS notes dated Aug 24, 2012 [Game text via wiki]); skybox fixed in 1.3.4 (Oct 20, 2012); carried into BBG (2013 onward) with no documented rework",
+   "in_2026": "Not named in the Steam store text [Canon]. Its red base appears in the official Steam trailer at about 17.75-22.0 s [Observed], and the 2026 OST opens with 'Abusement Park' (0:54) and adds 'Abusement Park (Full Version)' (3:05) [Canon]. Very likely in rotation [Inference], unconfirmed.",
+   "setting": "A run-down, horror-tinged night carnival sealed inside tall cracked stone walls [Observed]. 'Horror-themed carnival' [Fan-wiki]. Signs read 'ONLY ONE CAN LEAVE', '[NO ENTRY]', 'CONDEMNED', and the EXIT costs 'Only 400,000 Tix' [Observed]. No stated location.",
+   "palette_and_lighting": "Dusk-to-night plum sky #221127 with violet clouds #1c1739-#2a1b37 and a maroon horizon glow #462939-#643e45. Grey-mauve stone walls #786a71, grimy asphalt #3b3939. Warm salmon red-base deck #fea47e with red stencils #fd1b13; cool blue-side deck #9e8565-#bab9a0 with blue graffiti #074977. Tents: maroon/white #5f0903, orange/yellow #df6422/#fecc54, green #709342, blue/white with white sawtooth trim. Yellow U-rails #feb625, bunting red #a11104 / teal #2f8c9e, coaster cars #4ebe01 with pink Huggables #d7019d. Baked theatrical lighting with bulb marquees and teal jump pads.",
+   "landmarks": "Perimeter roller coaster on red-white candy-striped pylons, with lime-green cars ridden by grinning pink Huggables. Red base: '[RED]' stencil wall, red stars, salmon plank deck, yellow U-rails. The Mirrored House (mirror-written marquee, 'LIKE A HOUSE BUT BACKWARDS'). The Pump-A-Chump 'FULLA' LEAD' shooting gallery. A big maroon-and-white square tent with three green peaked tents and an octagonal striped gazebo. EXIT stairs under 'Only 400,000 Tix' and a metal arch daubed 'ONLY ONE CAN LEAVE'.",
+   "hazards_and_easter_eggs": "No environmental hazards documented. Jump pads; pickups (Bearscream Sandwich in the gazebo near Blue's spawn). Easter eggs: Battle Bears Fortress tower teaser posters ('Waste Chewer', 'Robowizardhat'); twin posters of an unreleased Soldier skin (per wiki); 'Not Wil's CANDY STASH' scrawl over a burnt hole; 'Jeepers Peepers! / WHAT'S IN THE BOX?' banner; 'SLOWBURN II - You're toast.' evil-toaster movie poster and toaster cutout; 'RED' painted in blue on the Blue side; 'BBR FOREVER' (wiki) or 'BBR #1' (as observed) graffiti; '[RATE US ...]' stencil with stars; 'Fried Stick on a Stick'; a 'CONDEMNED' crate; a Mos Delish poster (wiki, unverified).",
+   "confidence": "observed"
+  }
+ ],
+ "corrections": [],
+ "open_questions": [
+  "Exact official SkyVu blurb for Abusement Park: re-fetch https://web.archive.org/web/20130621012649/http://battlebears.com/games/battle-bears-royale/maps/abusement-park/ (Wayback reset every connection this session) and replace the elided quote in franchise_world.md with the full text.",
+  "Was 1.3.2 really released August 24, 2012? Its notes say 'iPhone 5 compatible!', but the iPhone 5 was announced on September 12, 2012. Check the archived SkyVu blog or App Store history.",
+  "Is Abusement Park confirmed in the 2026 rotation? It has trailer footage and OST track 1, but the store text does not name it. Which footage build is the Steam trailer from?",
+  "Do the roller-coaster cars move or run on a loop in-game, and can players legitimately reach the track?",
+  "Which poster is 'Mos Delish', which are the 'Soldier skin that never made it' posters (the two blue spiky-armour posters by the [RED] wall?), and where is the 'new game in the 2010's' poster?",
+  "Blue-side graffiti wording: the wiki says 'BBR FOREVER', the fan thumbnail KsddBonDY88 hq3 reads 'BBR #1'. Are both present?",
+  "Full text of the red-side '[RATE US ...]' stencil next to the stars.",
+  "Where did NewLevelLights.png (Unity editor capture, uploaded July 21, 2012) first appear? A SkyVu blog post?",
+  "True orientation: which compass side is Red and which is Blue relative to the Mirrored House and EXIT stairs? Only an editor top-down image of arbitrary orientation exists.",
+  "What is inside the Mirrored House: real reflections or a maze?",
+  "What does the 2026 'Lighting improvements' change do to this map's palette?",
+  "For the wider maps bible: the 2026 OST has 16 map-named tracks, including 'Castle Royale' and 'Huggable Factory' rather than 'H.I.P. Test Lab', and no 'Sky World'/'Sky Pirates' track. Does that list correspond to the store's '16 wacky maps'?"
+ ]
+}

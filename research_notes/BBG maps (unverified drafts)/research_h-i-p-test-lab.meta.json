@@ -1,0 +1,53 @@
+{
+ "quickref": [
+  {
+   "name": "H.I.P. Test Lab (originally Huggable Factory)",
+   "era": "BBR 1.0 launch map, 2011 (wiki: Oct 8, 2011), as 'Huggable Factory'. Renamed H.I.P. Test Lab around the BBG relaunch (wiki: May 24, 2013; page moved 2013-06-04). Hosts Team Battle, Plant the Bomb (BBR 1.3, May 2012) and FFA (BBG 2.5, Nov 2013). No rework documented.",
+   "in_2026": "Almost certainly included. The SkyVu 2026 OST lists 'Huggable Factory' (0:54) and the Full Version (2:52) [Canon]. The official Premium trailer shows it at 34.2\u201336.6 s, and Steam screenshot ss_487a600c\u2026 is the same shot [Observed]. The Steam text does not name it, and the displayed 2026 name is unverified.",
+   "setting": "Indoor H.I.P. Huggable lab and factory. Huggables float in glass tubes, dolls and crates ride conveyors, and storage lofts hold Huggable-emblem crates. The wiki says each base has an inaccessible loading bay with a Pelican't and a backdrop of a large ship in space. Exact location undocumented.",
+   "palette_and_lighting": "High-key, almost shadowless white interior. Lab white #D3CBCC, walkway #C8C0C3, graphite #3A3838, crate black #050405, magenta loft glow #6E085D to #F35DE9, doll pink #F05E86, team blue #0123F1, jump-pad cyan #03DAEE with hazard yellow #FEE54E, rainbow column. Tube room: pink wall #A44F83 with white diamond lights #FFDBEE, tube cyan #2FBBE4, lilac fluid #7A668B. Secret room: taupe #786356 with an amber floor pool #FDFB78. No sky visible.",
+   "landmarks": "1) Huggable tube room in each base (glass tubes with floating pink Huggables, pink diamond-light wall). 2) Twin octagonal towers and the centre bridge (Bearscream Sandwich) over a 35-crate floor. 3) Production line: overhead rail of hanging pink dolls, robotic claw, rainbow-striped column, magenta crate lofts. 4) Team-coloured portal doors and pillars with big blue arrow triangles beside a jump pad. 5) Hidden room of about 20 Huggables watching a monitor (wiki: Rho). 6) Inaccessible loading bay with a Pelican't.",
+   "hazards_and_easter_eggs": "Jump pads (BBR-era wiki: only two; one visible in 2026). Pickups: Bearscream Sandwich on the centre bridge, two Imperial Basket Grande on centre crates, Health Packs at the corners or beside base crates, Shields in the tube rooms. PTB bombs sit under the main bridge and the bomb tubes behind the Huggable containers. Easter eggs: the Huggable 'training' rooms behind a purple-pink force field (So Fly access patched BBR 1.4.2; still reachable with Mini Me plus Turkish SW Boots), a hidden Pelican't, and a kill floor in the loading bay. All Fan-wiki except the jump pad, which is Observed.",
+   "confidence": "observed"
+  }
+ ],
+ "corrections": [
+  {
+   "file": "research_notes/Battle Bears character lore/franchise_world.md",
+   "current_text": "  - **H.I.P. Test Lab**: Huggables in tubes and a hidden room of Huggables watching Rho on a screen. [Fandom](https://battlebears.fandom.com/wiki/H.I.P._Test_Lab)",
+   "correction": "Huggables floating in tubes in each base [Observed: map-select tile File:H.I.P._Test_Lab.png; official BBR 1.3 trailer thumbnail wNpM1woYv7k/hq1]. Two high side rooms, one per side, where about 20 Huggables in rows watch a monitor the wiki says shows Rho, behind a 'purple-pink force field' [Fan-wiki]. Reached only by glitching (So Fly, patched BBR 1.4.2 per the wiki changelog).",
+   "evidence": "Wiki H.I.P. Test Lab page: 'In each side of the stage are a high placed room \u2026 around twenty Huggables are standing in rows, staring at a screen with repeating images of Rho'. Wiki Rho page trivia ('behind a purple-pink force field'). Thumbnail https://i.ytimg.com/vi/sdX5LvCKXt0/hq1.jpg and wiki File:RhoBBG.jpg show the room. File:H.I.P._Test_Lab.png shows the tubes."
+  },
+  {
+   "file": "research_notes/Battle Bears character lore/franchise_world.md",
+   "current_text": "Official jokes include \"it all started as a valentines day gift\", an \"ancient huggable\u2026 god\" Necromancer, \"Modified\" Huggables, and a \"Huggable Factory\" map.",
+   "correction": "Add: SkyVu still titles this map's music \"Huggable Factory\" in the 2026 official soundtrack (track 5 'Huggable Factory' 0:54; track 21 'Huggable Factory (Full Version)' 2:52) [Canon], while BBG's in-game tile reads 'H.I.P. TEST LAB' [Game text via wiki]. The factory framing is current, not just a 2011\u201312 relic.",
+   "evidence": "Steam app 5321720 (BATTLE BEARS GOLD Soundtrack) track listing, fetched 2026-10-16. Wiki File:H.I.P._Test_Lab.png (uploaded 2013-06-15)."
+  },
+  {
+   "file": "bbg-news-repo/characters/huggable.md",
+   "current_text": "That H.I.P. made Huggables is wiki speculation [Fan-wiki] ([H.I.P.][whip]); never say it built this one.",
+   "correction": "Keep the rule, but add that on-screen, an H.I.P.-named lab keeps pink Huggables floating in glowing tubes and moves Huggable dolls and crates on conveyors [Observed: map tile File:H.I.P._Test_Lab.png; 2026 Steam trailer 34.2\u201336.6 s], and SkyVu calls the map music 'Huggable Factory' [Canon]. So 'H.I.P. grows or packages Huggables in its Test Lab' can be shown. 'H.I.P. created the species' and 'H.I.P. built this Huggable' stay Inference/Fan-wiki.",
+   "evidence": "File:H.I.P._Test_Lab.png; trailer frames /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/hip_test_lab/trailer/hr/f_014.png and t_0070.jpg; Steam app 5321720 track listing."
+  },
+  {
+   "file": "workflow brief (era key used for the maps bible)",
+   "current_text": "BBR (2012)",
+   "correction": "BBR is 2011. SkyVu's About page lists 'Battle Bears Royale (2011, iOS/Android)' and 'Battle Bears Gold (2012, iOS/Android/PC)'. SkyVu's BBR trailer, published Nov 23, 2011, says 'AVAILABLE NOW on the App Store'. The wiki gives Oct 8, 2011 (US) for BBR 1.0 and May 24, 2013 for the BBG relaunch.",
+   "evidence": "https://battlebears.com/pages/about (fetched 2026-10-16); YouTube 0gYEZCMQfmA (youtubei/next dateText 'Nov 23, 2011'); fan wiki BBR Version 1.0 and Updates pages."
+  }
+ ],
+ "open_questions": [
+  "Does the 2026 build display the map as 'H.I.P. Test Lab' or 'Huggable Factory'? SkyVu's 2026 OST uses 'Huggable Factory', and the Steam text names neither.",
+  "Is the map formally one of the Steam page's '16 wacky maps'? 15 map-named OST tracks plus the new Sky Pirates map would make 16 (inference).",
+  "Did the 2026 remaster change the geometry, the hidden Huggable rooms or the loading bay? Only about 2.4 s of official footage shows the map (trailer 34.2\u201336.6 s; Steam screenshot ss_487a600c\u2026 is the same shot).",
+  "Which exact BBR/BBG version renamed Huggable Factory to H.I.P. Test Lab? Probably the BBG 1.0 relaunch (wiki: May 24, 2013); the wiki page moved on 2013-06-04.",
+  "Did SkyVu's 2013\u20132016 battlebears.com have a map page or blurb for this map? The Wayback Machine (web.archive.org) reset every connection this session, and none of the guessed slugs (hip-test-lab, h-i-p-test-lab, huggable-factory, test-lab, \u2026) have archived snapshots. The 2012 maps-page quote in franchise_world.md was not re-verified.",
+  "Did the loading bay with the Pelican't exist from BBR, or was it added around Oct 2013, when the wiki first describes it? Is the unused wiki File:Pelican.jpg (Jan 2013, grey ship under a hazard-striped frame) from this map?",
+  "Who is on the secret monitor? In the fan screenshot (File:RhoBBG.jpg) it is a red-visored figure with a ring over its head, which does not match the dark, single-red-eye Rho art in File:Hip_sim.jpg.",
+  "Which compass side is the red base and which is blue? How many jump pads are there in BBG and 2026 (the BBR-era wiki said two), and where does each one launch to?",
+  "When was the So Fly access to the hidden rooms patched: BBR 1.4.2 (wiki changelog, Feb 28, 2013) or 'after the 1.4.3 update' (2013 map-page revision)?",
+  "Health Pack placement conflicts between wiki pages: 'far corners \u2026 near the inclines' versus 'Beside the stack of crates outside on the right side of each spawn point'.",
+  "Nobody has listened to the 'Huggable Factory' track. Its dubstep character is inferred only from the composer's 2012 title card ('DUBBSTEP'). The wiki's other music video, FDBN6FqHN3A, is no longer available."
+ ]
+}

@@ -1,0 +1,263 @@
+{
+ "weapons": [
+  {
+   "name": "Energy Rifle",
+   "slot": "primary (default)",
+   "status": "Default primary since Saberi's debut in BBG 2.4, Oct 24, 2013 [Canon: 2.4 notes list '2 Primary Weapons (Energy Rifle, Plasma Machine Gun)']. Price 'Default', level 1 [Fan-wiki]. Era change: fan gameplay thumbnails from 2013-14 show an ammo counter of '/4' with what looks like this gun (NcaNiWdT6dE, xuV8Rc4mGeU, jnkMl7m2qmk), a 2016 thumbnail shows '0 / 6' (uel_FVoF0L4), and the wiki now lists 6 [Observed; Inference that the base ammo rose from 4 to 6 at an undated point]. Not found in any 2026 source [Unverified].",
+   "official_text": "[Game text via wiki] \"Other babies have toys, Saberi had this Energy Rifle. She patched it and rebuilt it hundreds of times, but this trusty rapid firing gun has been with her forever.\" (https://battlebears.fandom.com/wiki/Energy_Rifle). SkyVu's own text gives only the name [Canon, 2.4 notes].",
+   "mechanics": "Fires a 'straight purple plasma ray in the exact direction of the crosshairs' that hits the first opponent, with 'no angle of dispersion'. Damage 20, rate of fire 1 s, ammo 6, reload 4 s [Fan-wiki]. The wiki's trivia notes that the 'rapid firing' description conflicts with the 1 s rate of fire [Fan-wiki]. LOOK: Saberi holds a chunky grey/silver rifle with a long barrel, a white cylindrical segment and a round dark muzzle [Observed: dl/saberi/png/EnergyRifle.png]. SHOT/IMPACT: one 2013 fan thumbnail shows a magenta-pink straight beam with a pink corkscrew swirl and pale violet wing-like flares near the muzzle, plus a pink-white glow where it lands (NcaNiWdT6dE hqdefault). Another 2014 thumbnail shows a small magenta half-dome glow on the ground at the impact point (xuV8Rc4mGeU hqdefault) [Observed, low-res fan thumbnails: dl/saberi/yt/crops/er24.png, xuv.png; that the gun is the Energy Rifle is Inference from the grey gun and the /4 ammo]. CONFLICT: a 2016 thumbnail (uel_FVoF0L4) shows a pale cyan-blue straight beam leaving Saberi's grey gun at '0 / 6' ammo [Observed: dl/saberi/yt/crops/uel.png]. The beam may be team-tinted [Inference/Unverified]. The visual researcher should resolve this from video.",
+   "image_leads": [
+    "File:EnergyRifle.jpg",
+    "File:Combat tech.jpg (2013 main menu, Saberi holding a grey gun)",
+    "https://i.ytimg.com/vi/NcaNiWdT6dE/hqdefault.jpg (magenta beam, 2013)",
+    "https://i.ytimg.com/vi/uel_FVoF0L4/hqdefault.jpg (cyan beam, 2016)",
+    "https://i.ytimg.com/vi/xuV8Rc4mGeU/hqdefault.jpg (pink impact dome)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Energy_Rifle",
+    "https://web.archive.org/web/20131101183026/http://battlebears.com/battle-bears-gold-update-2-4-now-available-release-notes/",
+    "https://www.youtube.com/watch?v=NcaNiWdT6dE",
+    "https://www.youtube.com/watch?v=uel_FVoF0L4",
+    "https://www.youtube.com/watch?v=xuV8Rc4mGeU"
+   ]
+  },
+  {
+   "name": "Plasma Machine Gun",
+   "slot": "primary",
+   "status": "Launch weapon in 2.4, Oct 24, 2013 [Canon]. Costs 60 Gas, level 1 [Fan-wiki]. Era change: 2014 fan thumbnails show '/30' ammo while the wiki now lists 40 [Observed: B7FHI1aDgsw, yKXifUx8lyY; Inference that the base ammo was raised]. 2026 status unknown [Unverified].",
+   "official_text": "[Game text via wiki] \"When others were learning to ride bikes, Saberi was building combustible engines. However that engine just so happened to be hooked up to power this machine gun.\" (https://battlebears.fandom.com/wiki/Plasma_Machine_Gun). SkyVu's own text gives only the name [Canon, 2.4 notes].",
+   "mechanics": "A 'standard hitscan automatic, firing beams in quick succession'. Damage 3, rate of fire 0.15 s, ammo 40, reload 4 s, dispersion 0.03 [Fan-wiki]. LOOK: seen head-on, a large octagonal grey metal muzzle housing with four dark vents around a glowing magenta core (about #F800FB, pixel-sampled), with white glow puffs at the sides [Observed: dl/saberi/png/PlasmaMachineGun.png]. SHOT: 2014 fan thumbnails at '/30' ammo show thin magenta-pink beam lines to the target and a white-pink burst on it [Observed, low-res: dl/saberi/yt/crops/ykx.png from yKXifUx8lyY hq1; identifying the gun as the PMG is Inference from the ammo count].",
+   "image_leads": [
+    "File:PlasmaMachineGun.jpg",
+    "https://i.ytimg.com/vi/yKXifUx8lyY/hq1.jpg",
+    "https://i.ytimg.com/vi/B7FHI1aDgsw/hq1.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Plasma_Machine_Gun",
+    "https://web.archive.org/web/20131101183026/http://battlebears.com/battle-bears-gold-update-2-4-now-available-release-notes/",
+    "https://www.youtube.com/watch?v=B7FHI1aDgsw",
+    "https://www.youtube.com/watch?v=yKXifUx8lyY"
+   ]
+  },
+  {
+   "name": "Plasma Shotgun",
+   "slot": "primary (shotgun)",
+   "status": "Added in 2.9, May 8, 2014 [Canon]. Teased May 1, 2014 in SkyVu's 'Saberi Update 2.9 Weapons Sneak Peek' [Canon]. Costs 50 Gas, level 1 [Fan-wiki]. Wiki stat history [Fan-wiki]: at launch (May 2014) damage 35, rate of fire 1.6 s; by Dec 2014 damage 40 plus 40 radiation, rate of fire 1.2 s; in Apr 2020 damage 30 plus 45 radiation, rate of fire 1 s; the current infobox reads damage 25, radiation 25, rate of fire 1 s. The wiki's first revision called it 'The Spreadshot', which is the name of a Soldier weapon, so it is probably a copy-paste error and not an alternative name [Inference]. 2026 status unknown [Unverified].",
+   "official_text": "[Canon] SkyVu 2.9 notes, May 8, 2014: \"New Saberi Weapons: Plasma Shotgun: You know a great way to exfoliate your skin, white hot plasma! Caution may cause severe salt\" (https://web.archive.org/web/20140512024150/http://battlebears.com/battle-bears-gold-update-2-9-now-available/). The wiki's in-game version adds asterisks: [Game text via wiki] \"You know a great way to exfoliate your skin, white hot plasma! *Caution may cause severe salt*\"",
+   "mechanics": "A 'Primary - Shotgun' that deals both damage and radiation: damage 25, radiation 25, rate of fire 1 s, ammo 5, reload 5 s [Fan-wiki]. The Status Effects page lists it among the 'Irradiated' sources [Fan-wiki]. Irradiated effect: a yellow circle over the victim's head that turns into the radiation symbol in stages (1-24 / 25-49 / 50-74 / 75-99 RP) while a Geiger-counter ticking speeds up. At 100 RP the target explodes 'regardless of any health remaining' (blast radius 150-200 units), and radiation decays at an estimated 3-5 RP/s [Fan-wiki]. LOOK: two stacked hexagonal silver barrels on a khaki/olive receiver, a magenta glowing crystal strip on top (about #DE36EA) and a round side housing with a glowing magenta ring [Observed: dl/saberi/png/Plasma_shotgun.png]. SkyVu's May 2014 art shows a matching gun: twin silver barrels with violet-glowing muzzles, an olive receiver with round portholes, a magenta crystal ridge and a silver rear housing with a swirling magenta core [Observed: dl/saberi/official/prior/saberi29.png]. The art does not name the gun; identifying it as the Plasma Shotgun is Inference (the 2.9 notes name only this gun and the Gamma Burst). SHOT/IMPACT: no projectile spread is documented anywhere [Unverified]. A 2015-16 fan thumbnail ('Saberi Radiation Shotgun/Gamma Burst gameplay', ammo '5 / 5') shows a purple-white sparkly burst around a downed enemy [Observed, low-res: dl/saberi/yt/crops/rad_hq1.png; whether the shotgun or the Gamma Burst caused it is Inference].",
+   "image_leads": [
+    "File:Plasma shotgun.jpg",
+    "https://web.archive.org/web/20140507101154/https://battlebears.com/wp-content/uploads/2014/05/2.9_saberi_art_big.png (local copy dl/saberi/official/prior/saberi29.png)",
+    "https://web.archive.org/web/20140507101154/https://battlebears.com/wp-content/uploads/2014/05/Saberi-Blog.png (not yet viewed)",
+    "https://i.ytimg.com/vi/0rQcyVwWSOs/hq1.jpg",
+    "File:Hazard-0.png..Hazard-3.png (radiation overhead icons)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Plasma_Shotgun",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://web.archive.org/web/20140512024150/http://battlebears.com/battle-bears-gold-update-2-9-now-available/",
+    "https://web.archive.org/web/20140507101154/http://battlebears.com/saberi-update-2-9-weapons-sneak-peek/",
+    "https://www.youtube.com/watch?v=0rQcyVwWSOs"
+   ]
+  },
+  {
+   "name": "Toxic Rifle",
+   "slot": "primary (poison, automatic)",
+   "status": "Added in 2.15, Dec 20, 2014 [Fan-wiki: Updates/Versions tables; the page was created the same day]. No SkyVu note was found [Unverified]. Costs 50 Gas, level 1 [Fan-wiki]. Wiki stat history [Fan-wiki]: Mar 2018 damage '4.0 per second for 3.0 seconds', rate of fire 0.2 s, ammo 13, reload 4 s; now '3.0 per second for 2 seconds', rate of fire 0.25 s, ammo 15, reload 5.5 s. Fan thumbnails from 2015-17 show '/17' ammo, which fits 13 base plus Ammo +1 [Observed; Inference]. 2026 status unknown [Unverified].",
+   "official_text": "[Game text via wiki] \"Spray your enemy with toxins that deal poison damage overtime and can stack with each bullet!\" (https://battlebears.fandom.com/wiki/Toxic_Rifle). No SkyVu-hosted text found.",
+   "mechanics": "An automatic rifle that inflicts Poisoned: damage over time that grows with each extra hit, at 3/s for 2 s per the current infobox. It carries a -10% Health stat modifier [Fan-wiki]. Poisoned status: 'a purple/green skull will appear over the player's head' [Fan-wiki, Status Effects]. LOOK in game: a hot-pink/magenta gun body with oval vents, a segmented scorpion-tail arm curling over the top that holds a poison bottle with a skull-and-crossbones label, and pink-liquid vials with skull labels hanging underneath (liquid about #F67BDE) [Observed: dl/saberi/png/Toxicrifle.png]. CONCEPT ART: the same design with a blade/bayonet at the muzzle, a bubbly magenta texture, a scorpion tail ending in a bottle and two skull-and-crossbones jars under the barrel [Observed: dl/saberi/png/Toxic_Rifle_concept_art.png]. A wiki user uploaded it in 2015 captioned 'Concept Art for the Toxic Rifle'; its author is unknown [Unverified]. SHOT: a 2017 fan thumbnail shows a magenta tracer streak from the gun ending in a pink-white impact flash (DyvVVZ_C8ME hq3). A 2016 'Toxic Rifle & Minigun' thumbnail shows pink crackling tendrils reaching an enemy wrapped in a pink glow (JO5-kfnENtM) [Observed, low-res: dl/saberi/yt/crops/tox_ice.png, tox_mg.png; which weapon made the second effect is Unverified].",
+   "image_leads": [
+    "File:Toxicrifle.jpg",
+    "File:Toxic Rifle concept art.png",
+    "File:Battlebears Gold toxic rifle gameplay (wiki video: Everyplay 13314980; probably the same as YouTube gvBdwTy5KEM)",
+    "https://i.ytimg.com/vi/DyvVVZ_C8ME/hq3.jpg",
+    "https://i.ytimg.com/vi/JO5-kfnENtM/hqdefault.jpg",
+    "https://i.ytimg.com/vi/DyvVVZ_C8ME/hqdefault.jpg (fan render of Saberi holding it)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Toxic_Rifle",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://www.youtube.com/watch?v=gvBdwTy5KEM",
+    "https://www.youtube.com/watch?v=DyvVVZ_C8ME",
+    "https://www.youtube.com/watch?v=JO5-kfnENtM"
+   ]
+  },
+  {
+   "name": "Social Butterfly (BBG)",
+   "slot": "primary (saboteur)",
+   "status": "Added in v2.53, Apr 28, 2018 ('New weapon for the Combat Tech - Social Butterfly (BBG)') [Fan-wiki, Updates]. Costs 40 Gas, level 1 [Fan-wiki]. The wiki page is a stub created in 2020. Its first revision gave damage 15, ammo 3, rate of fire 2 s, reload 4 s, gravity 750, speed 1250, duration 1 s. The current infobox gives damage 0, ammo 5, rate of fire 2 s, reload 5 s, gravity 1000 units, projectile speed 1000 u/s, duration 0.5 s [Fan-wiki]. A 2018 fan video (dgOyOegG6-E, labelled 2.53) shows '3 / 3' ammo and 2021 videos (ua2j5t23T80, 5Wsfn8XwT0g) show '/ 5' [Observed; Inference that ammo went from 3 to 5]. 2026 status unknown [Unverified]. Not to be confused with the Battle Bears Overclock weapon of the same name for Astoria [Fan-wiki].",
+   "official_text": "none found. The wiki has no item description, and no SkyVu text was found.",
+   "mechanics": "Typed 'Primary - Saboteur' [Fan-wiki]. On the wiki, 'Saboteur' marks non-damaging status weapons: Sake Bomb reverses controls, Sucker Punch stuns and Phantom Hug immobilises [Fan-wiki]. So it probably lobs an arcing projectile (it has a gravity value) that applies some 0.5 s effect and does no damage [Inference]. What the effect is remains undocumented [Unverified]. LOOK: fan thumbnails show a purple-and-gunmetal gun ringed with white spikes around a round body with a blue orb, both as a render in a fan thumbnail and as the HUD weapon icon. In gameplay Saberi holds a purple gun [Observed, low-res fan material: dl/saberi/yt/crops/sb_fanthumb.png, sb_icon.png, sb1.png]. The name suggests butterflies [Inference only]. Never depict a butterfly projectile as documented.",
+   "image_leads": [
+    "No wiki image (the page shows the placeholder File:Huggable-suction-pose.png)",
+    "https://i.ytimg.com/vi/dgOyOegG6-E/hqdefault.jpg (fan thumbnail with a weapon render)",
+    "https://i.ytimg.com/vi/5Wsfn8XwT0g/hq1.jpg",
+    "https://i.ytimg.com/vi/ua2j5t23T80/hq1.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Social_Butterfly_(BBG)",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/Social_Butterfly",
+    "https://battlebears.fandom.com/wiki/Sake_Bomb",
+    "https://www.youtube.com/watch?v=ua2j5t23T80",
+    "https://www.youtube.com/watch?v=5Wsfn8XwT0g",
+    "https://www.youtube.com/watch?v=dgOyOegG6-E"
+   ]
+  },
+  {
+   "name": "Missiles",
+   "slot": "secondary (default; timed backpack-arm activation)",
+   "status": "Default secondary since 2.4, Oct 24, 2013 [Canon: '2 Secondary Weapons (Missiles, Minigun)']. A 2013 beta-build store thumbnail shows 'MISSILES EQUIPPED' with a two-missile icon [Observed: dl/saberi/yt/crops/beta24_store.png from 66csovuHEAk]. The wiki stats have churned [Fan-wiki]: Sep 2017 explosives 20-30, AoE 75/300, reload 15 s; Apr 2020 12.5-25, AoE 100/200; current 35-50, AoE 100/250, reload 30 s. 2026 status unknown [Unverified].",
+   "official_text": "[Game text via wiki] \"Because she couldn't quite figure out where to attach his missiles to her rifle, Saberi decided to create herself a third arm and put them there.\" (sic, 'his') (https://battlebears.fandom.com/wiki/Missiles).",
+   "mechanics": "Activation: 'a pair of missile launchers slowly emerge from the right side of the Combat Tech's backpack'. The secondary button turns blue and stays locked. Each fire input then releases 'two explosive missiles, with short cooldowns in between'. The missiles fire on their own timer even while the primary reloads [Fan-wiki]. Explosives 35-50, AoE 'Max Dmg 100, Min Dmg 250.0' (radii), cooldown 0.8 s, ammo 10, duration 10 s, projectile speed 1,500 u/s, reload 30 s [Fan-wiki]. The wiki's trivia says the real duration is disputed [Fan-wiki]. In fan thumbnails the secondary button ring is cyan while active and red/green while recharging [Observed]. LOOK: on a jointed grey rod arm with tan/brass joint caps, two stacked missiles sit beside her head. Each has a pale grey-green body with a green stripe, a dark grey/black cone nose and black tail fins [Observed: dl/saberi/png/SideMissiles.png]. Seen from the front they show as two dark hexagonal ends on a grey bracket [Observed: dl/saberi/png/Missiles.png, SaberiSkin.png]. IMPACT: no frame of the explosion was found [Unverified].",
+   "image_leads": [
+    "File:SideMissiles.jpg",
+    "File:Missiles.jpg",
+    "File:SaberiSkin.jpg (missile arm in background)",
+    "https://i.ytimg.com/vi/66csovuHEAk/hq3.jpg (2013 beta store, Missiles icon)",
+    "https://i.ytimg.com/vi/wAQLCQDHUZk/hq1.jpg (white puff trail toward an enemy, unattributed)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Missiles",
+    "https://battlebears.fandom.com/wiki/Combat_Tech_(BBG)",
+    "https://web.archive.org/web/20131101183026/http://battlebears.com/battle-bears-gold-update-2-4-now-available-release-notes/",
+    "https://www.youtube.com/watch?v=66csovuHEAk"
+   ]
+  },
+  {
+   "name": "Minigun (Combat Tech)",
+   "slot": "secondary (timed backpack-arm activation)",
+   "status": "Launch weapon in 2.4, Oct 24, 2013 [Canon]. Price conflict: the wiki infobox says 60 Gas, the body text says 'It costs 80 Gas', and the Oct 2013 revision said 80 Gas [Fan-wiki]. A 2013 beta-build store thumbnail shows 'MINIGUN BUY NOW!' beside a lightning-bolt (Joules) icon and a partly cut-off '1' [Observed, low-res: dl/saberi/yt/crops/beta24_store.png]. Price unresolved. Damage history: 7.0, then 3.5 in Apr 2020, now 10 [Fan-wiki]. The wiki Versions table links the 2.4 'Minigun' to the Soldier's Minigun page, which is a wiki link error. The 'Minigun' added in 2.11 is the Soldier weapon [Fan-wiki]. 2026 status unknown [Unverified].",
+   "official_text": "[Game text via wiki] \"She already had built herself a third arm to hold more firepower. Why not add a minigun to it for good measure?\" (https://battlebears.fandom.com/wiki/Minigun_(Combat_Tech)). SkyVu's own text gives only the name [Canon, 2.4 notes].",
+   "mechanics": "Deploys for 10 s on tap; the button turns blue and locks. While active, the fire button shoots 'low-damage beams' (hitscan automatic) on top of the primary. A 30 s recharge follows. Damage 10, cooldown 0.1667 s, ammo 60 [Fan-wiki]. LOOK: from the side, a boxy grey-olive metal housing (about #636150) around a glowing magenta barrel cylinder (about #A8009B-#C300B3) on the same tan-jointed rod arm. Head-on, an octagonal grey housing with a big magenta glow [Observed: dl/saberi/png/SideMinigun.png, Minigun.png, Gold_Saberi.png]. The PMG muzzle is similar, but the PMG's has four vents [Observed]. SHOT: a 2014 thumbnail from '2.4 Saberi Weapons gameplay', with the Minigun button ringed cyan (active), shows thick magenta-white crackling beams from Saberi toward an enemy [Observed, low-res: dl/saberi/yt/crops/pmg24.png from B7FHI1aDgsw hq1; that these beams are the Minigun's is Inference].",
+   "image_leads": [
+    "File:SideMinigun.jpg",
+    "File:Minigun.jpg (Saberi; NOT File:Minigun.jpeg, which is Oliver)",
+    "File:Gold Saberi.jpg (minigun arm visible)",
+    "https://i.ytimg.com/vi/B7FHI1aDgsw/hq1.jpg",
+    "https://i.ytimg.com/vi/66csovuHEAk/hq3.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Minigun_(Combat_Tech)",
+    "https://battlebears.fandom.com/wiki/Minigun_(Soldier)",
+    "https://web.archive.org/web/20131101183026/http://battlebears.com/battle-bears-gold-update-2-4-now-available-release-notes/",
+    "https://www.youtube.com/watch?v=B7FHI1aDgsw"
+   ]
+  },
+  {
+   "name": "Landmine",
+   "slot": "secondary (explosives)",
+   "status": "Added in 2.19, Apr 26, 2015 ('Combat Tech's Land Mine') [Fan-wiki, Updates; page created Apr 28, 2015]. No SkyVu note found [Unverified]. Unlock: 100,000 Joules, level 15 lock [Fan-wiki]. Stat history [Fan-wiki]: 2015-2018 explosives 30-50, priming 5 s, rate of fire 3 s, ammo 2, reload 5 s, +5% speed, auto-detonate about 10 s; now explosives 30-80, priming 2.25 s, rate of fire 1.25 s, ammo 3, reload 6 s, +10% speed, auto-detonate about 30 s. The page's first version wrongly called it a 'primary' [Fan-wiki]. 2026 status unknown [Unverified].",
+   "official_text": "[Game text via wiki] \"Toss explosive packages everywhere, just like the mailman!\" (https://battlebears.fandom.com/wiki/Landmine).",
+   "mechanics": "Fires 'explosive packages' that fly straight, then arc over long distances. One that hits an enemy in the air explodes on contact. One that lands primes (2.25 s) and then explodes when an enemy comes within the 100-unit trigger radius, or by itself after about 30 s. AoE 'Max Dmg 100.0, Min Dmg 300.0' [Fan-wiki]. Up to two mines per activation. The wiki also claims 'whenever a mine explodes, the primary weapon will reload' [Fan-wiki, odd, Unverified]. LOOK on the arm: a grey cylindrical canister with glowing cyan circuit lines and dots (about #38B6BB) and a dark purple-black lid, topped by a pale tan box with black stripes, plausibly the 'package' [Observed: dl/saberi/png/Landmine.png; reading the box as a parcel is Inference]. That wiki screenshot shows Saberi in a tribal-paint skin that is probably 'Voodoo' [Inference]. The HUD secondary icon is a canister in a ring [Observed: dl/saberi/png/Battle_Bears_Gold_Land_Mine-------to_suicide...png]. IMPACT: no explosion frame found [Unverified].",
+   "image_leads": [
+    "File:Landmine.jpg",
+    "File:Battle Bears Gold Land Mine-------to suicide... (wiki video: Everyplay 16395630; same title as YouTube YpYjwP0rQjM)",
+    "https://www.youtube.com/watch?v=oKGMcUtq0Ys ('trolling a heavy with land mines')",
+    "https://www.youtube.com/watch?v=1zQ24uAvO0I ('hand cannon land mines'; probably Graham's Mine, not this weapon [Inference])"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Landmine",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://www.youtube.com/watch?v=YpYjwP0rQjM"
+   ]
+  },
+  {
+   "name": "Gamma Burst",
+   "slot": "secondary (radiation explosives; timed backpack-arm activation)",
+   "status": "Added in 2.9, May 8, 2014 [Canon]. Price per wiki [Fan-wiki]: first revision infobox 50 Gas with body '300,000 Joules'; 2015 infobox 300,000 Joules; Nov 2020 150,000 Joules (current). Stat history [Fan-wiki]: launch damage 10-15 (25-35 radiation), duration 8 s (6 s by Feb 2015), 5 uses, reload 15 s, AoE 200/400; current 30-40 (30-45 radiation), duration 10 s, 8 uses, reload 30 s, AoE 150/300, +5% speed. 2026 status unknown [Unverified].",
+   "official_text": "[Canon] SkyVu 2.9 notes: \"Gamma Burst: Saberi Smash! Creates a deadly radiation area around the player.\" (https://web.archive.org/web/20140512024150/http://battlebears.com/battle-bears-gold-update-2-9-now-available/). The wiki quotes the same line as game text.",
+   "mechanics": "Activation: 'a purple disk-like structure will emerge from the Combat Tech's backpack'. After a short sequence, 'the gamma burst will create a yellow dome-like structure around the user', and enemies inside take explosive damage and are irradiated. It can be triggered 8 times in the 10 s window and is close-range only [Fan-wiki]. Irradiated effect as under Plasma Shotgun: a yellow overhead circle stepping to the radiation symbol, faster Geiger ticking, and a self-explosion at 100 RP [Fan-wiki]. LOOK: on the tan-jointed arm, a flat saucer with a grey metal cap (holes, claw-like brackets) over a swirling glowing magenta energy ring (about #D13ADD) [Observed: dl/saberi/png/Gammaburst.png]. SkyVu's 2014 art shows the same saucer on a khaki jointed arm, with a magenta glow (about #E441ED) [Observed: saberi29.png; identification is Inference]. DOME: no frame of the yellow dome was found [Unverified]. A 2018 fan thumbnail ('SABERI RADIATION COMBAT') shows a lime-green bubbly cloud with a purple-white core around an enemy [Observed, low-res: dl/saberi/yt/crops/rad2_hq2.png], but the weapon that caused it is not identified [Unverified]. In the 2026 Steam trailer, frames t_0029-0033 show a magenta dome engulfing Astoria and t_0106-0107 show a yellow-orange cone with expanding octagonal rings. Neither shows Saberi, so do not attribute them to Saberi [Observed: visuals/trailer frames; attribution Unverified].",
+   "image_leads": [
+    "File:Gammaburst.jpg",
+    "https://web.archive.org/web/20140507101154/https://battlebears.com/wp-content/uploads/2014/05/2.9_saberi_art_big.png",
+    "https://i.ytimg.com/vi/0rQcyVwWSOs/hq1.jpg (HUD icon: grey disc with magenta ring)",
+    "https://i.ytimg.com/vi/_qdzLv19cWc/hq2.jpg",
+    "File:Hazard-0.png..Hazard-3.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Gamma_Burst",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://web.archive.org/web/20140512024150/http://battlebears.com/battle-bears-gold-update-2-9-now-available/",
+    "https://web.archive.org/web/20140507101154/http://battlebears.com/saberi-update-2-9-weapons-sneak-peek/",
+    "https://www.youtube.com/watch?v=0rQcyVwWSOs",
+    "https://www.youtube.com/watch?v=_qdzLv19cWc"
+   ]
+  },
+  {
+   "name": "Mallet",
+   "slot": "melee (default)",
+   "status": "Default melee since 2.4, Oct 24, 2013 [Canon: '2 Melee Weapons (Mallet, Sledgehammer)']. Damage per wiki: 45 (2013), 35 (Dec 2019), 70 (Nov 2020, current); no stat modifier [Fan-wiki]. 2026 status unknown [Unverified].",
+   "official_text": "[Game text via wiki] \"Sometimes in order to solve a problem you just need to hit it with a hammer.\" (https://battlebears.fandom.com/wiki/Mallet).",
+   "mechanics": "Melee swing, no projectile. Damage 70; Melee+1 adds 10, Melee+2 adds 20 [Fan-wiki]. Swing barks: 'Slam!', 'Smmmash!'. Melee-kill barks include 'Hammers fix anything!' and 'Imma pound some sense into you!' [Fan-wiki transcriptions]. LOOK: a wooden mallet whose head is a light-brown log/barrel with visible end-grain rings (about #A25113), on a short handle with a dark ribbed/wrapped grip and a tan end cap [Observed: dl/saberi/png/Mallet.png]. Hit effect undocumented [Unverified].",
+   "image_leads": [
+    "File:Mallet.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Mallet",
+    "https://battlebears.fandom.com/wiki/Combat_Tech_(BBG)",
+    "https://web.archive.org/web/20131101183026/http://battlebears.com/battle-bears-gold-update-2-4-now-available-release-notes/"
+   ]
+  },
+  {
+   "name": "Sledgehammer",
+   "slot": "melee",
+   "status": "Launch weapon in 2.4, Oct 24, 2013 [Canon]. Reworked in 2.6, Dec 20, 2013: [Canon] 2.6 change log 'Saberi Changes: Sledge Hammer / Damage increased from 45 to 50 / Speed modifier increased from -5% to 10%'. The Oct 2013 wiki revision said 60 damage, which contradicts SkyVu's 45 [Fan-wiki error]. Price never documented on the wiki [Unverified]. 2026 status unknown [Unverified].",
+   "official_text": "[Game text via wiki] \"Sometimes a bigger hammer is necessary for bigger problems.\" (https://battlebears.fandom.com/wiki/Sledgehammer).",
+   "mechanics": "Melee, 50 damage, +10% speed modifier [Canon 2.6; Fan-wiki]. Melee+1 adds 10, Melee+2 adds 20 [Fan-wiki]. The wiki says the damage meter shows only on the Windows version [Fan-wiki]. LOOK: a blocky grey steel head with a cross-head (Phillips) screw on its side, a pink/magenta collar under the head and a dark wrapped handle [Observed: dl/saberi/png/Sledgehammer.png]. Hit effect undocumented [Unverified].",
+   "image_leads": [
+    "File:Sledgehammer.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Sledgehammer",
+    "https://web.archive.org/web/20151029082644/http://battlebears.com/battle-bears-gold-2-6-change-log/",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "ClubCobra",
+   "slot": "melee",
+   "status": "Added in 2.20, May 29, 2015 [Fan-wiki; page created the same day]. No SkyVu note found [Unverified]. Unlock: 150,000 Joules, level 10 lock [Fan-wiki]. Damage 75 per the May 2015 revision, 50 now [Fan-wiki]. Health modifier conflict: the wiki text says '+15% Health', but the in-game shop screenshot on the wiki reads 'HEALTH +10%' [Observed: dl/saberi/png/Clubcobra.png]. That screenshot also shows a Joules lightning icon with a price starting '1...', which fits 150,000 [Observed]. 2026 status unknown [Unverified]. The wiki class mapping stored this page in '_unassigned' as 'ClubCobra'.",
+   "official_text": "[Game text via wiki] \"A powerful melee made of jade and gold.\" (https://battlebears.fandom.com/wiki/ClubCobra).",
+   "mechanics": "Melee, 50 damage, Health modifier (+10% in the in-game screenshot vs +15% in the wiki text) [Observed vs Fan-wiki]. LOOK: an angular golden club shaped like a rearing cobra head with an open mouth and a green-and-purple eye, with an engraved gold texture (about #F0B615), a dark brown wrapped grip and a gold crescent pommel [Observed: dl/saberi/png/Clubcobra.png]. Despite the 'jade' in the text, no green jade surfaces are visible apart from the eye [Observed].",
+   "image_leads": [
+    "File:Clubcobra.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/ClubCobra",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions"
+   ]
+  },
+  {
+   "name": "Huggable Splicer (BBH)",
+   "slot": "other (Battle Bears Heroes, 2024: main attack, not BBG)",
+   "status": "BBH-only. Saberi, recast as Medic, was added in 'Summer 2023' for 600 Shards [Fan-wiki]. Live on battlebears.com today [Canon]. Not in BBG or BBG 2026 as far as any source shows [Unverified].",
+   "official_text": "[Canon] battlebears.com/pages/characters (live 2026-10-16): \"SABERI - Medic Saberi, the powerful healer and momma bear, commands respect and excels in support roles, making her a cherished asset to any team. Saberi's \"Huggable Splicer\" attack unleashes a wide spray of huggable bits in a sweeping motion, ideal for hitting multiple enemies despite its inaccuracy. She's less effective in singular, long-range confrontations.\"",
+   "mechanics": "A wide, inaccurate, sweeping spray of 'huggable bits' [Canon]. Damage '15 x 190', range Normal, reload Very slow [Fan-wiki BBH table]. No visual reference viewed [Unverified].",
+   "image_leads": [
+    "https://cdn.shopify.com/s/files/1/0370/2469/4408/files/Saberi_BBH_HeroIcon_1_480x480.png?v=1713798491 (portrait only)",
+    "File:BBH Profile Saberi.png"
+   ],
+   "sources": [
+    "https://battlebears.com/pages/characters",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Heroes"
+   ]
+  },
+  {
+   "name": "Healing Turret (BBH)",
+   "slot": "other (Battle Bears Heroes, 2024: Ultimate, not BBG)",
+   "status": "BBH-only [Canon]; Summer 2023 [Fan-wiki].",
+   "official_text": "[Canon] battlebears.com/pages/characters: \"Her Ultimate, \"Healing Turret,\" provides a healing radius for her and her teammates, excluding non-player units.\"",
+   "mechanics": "A deployable healing radius for allies [Canon]. Healing 468/s, range 'Very long', with a 'HP of HealBox' stat, so it is a destructible box [Fan-wiki]. It is not related to BBG's Combat Tech kit [Inference].",
+   "image_leads": [
+    "none found"
+   ],
+   "sources": [
+    "https://battlebears.com/pages/characters",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Heroes"
+   ]
+  }
+ ],
+ "notes": "SCOPE AND FILES. I did read-only research and edited no repository files. Downloads are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/saberi/ (pages/ for wiki JSON, img/ and png/ for wiki images, revs/ for page histories and diffs, yt/ for fan thumbnails with sheets/ and crops/, official/ for the live characters page, Steam data and prior/). The sampling and helper scripts are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/scripts_saberi/.\n\nOFFICIAL SOURCES (the archive was down today, so these rest on an earlier session's copies). web.archive.org reset every connection today: curl failed with code 000 and WebFetch is blocked. All [Canon] SkyVu quotes therefore come from copies an earlier session (lore-verify-saberi_sanchez) saved on 2026-10-14. Their Wayback asset timestamps match the cited captures, and I re-read the copies today. Copies are in dl/saberi/official/prior/: u24.html.txt (2.4 notes, SkyVu Nick, Oct 24, 2013), u29.html.txt (2.9 notes, May 8, 2014), u29peek.html.txt (2.9 sneak peek, May 1, 2014), cl26.html.txt (2.6 change log) and saberi29.png (the 2014 '2.9_saberi_art_big.png'). I checked these live today: battlebears.com/pages/characters (the BBH Saberi text), Steam appdetails 4408320 ('-COMBAT TECH: Saberi' plus '80+ PRIMARY WEAPONS / 60+ SECONDARY WEAPONS / 50+ MELEES / 10 SPECIAL EQUIPMENT') and Steam news (7 items, none mentions Saberi or any weapon).\n\nCLASS-LEVEL FINDINGS.\n(1) The full BBG arsenal is 5 primaries (Energy Rifle, Plasma Machine Gun, Plasma Shotgun, Toxic Rifle, Social Butterfly), 4 secondaries (Missiles, Minigun, Landmine, Gamma Burst) and 3 melees (Mallet, Sledgehammer, ClubCobra) [Fan-wiki class page]. weapons_by_class.json[\"Saberi\"] misses two of these: Social Butterfly (BBG), which is not in Category:BBG Weapons, and ClubCobra, which sits in \"_unassigned\".\n(2) Timeline. Launch kit in 2.4, Oct 24, 2013 [Canon]. Sledgehammer buff in 2.6, Dec 20, 2013 [Canon]. Plasma Shotgun and Gamma Burst in 2.9, May 8, 2014 [Canon]. Then, per the wiki tables only [Fan-wiki]: Toxic Rifle 2.15 (Dec 20, 2014), Landmine 2.19 (Apr 26, 2015), ClubCobra 2.20 (May 29, 2015), Social Butterfly 2.53 (Apr 28, 2018), and the Chun B skin in 2.22/2.23 (the wiki's two tables disagree). No weapon is recorded as removed.\n(3) The 2.4 notes actually say \"Tightened the graphics on a few weapons!\" [Canon]. The wiki paraphrases this as \"Graphic enhancements for several weapons\".\n(4) Mechanics. Saberi is \"the only class that cannot switch weapons at all\" and has an extra HUD button. Every secondary deploys from the backpack on a jointed \"third arm\" for a timed window and then recharges; Missiles, Minigun and Gamma Burst run 10 s on and 30 s off by current stats [Fan-wiki]. Landmine uses ammo and reload instead.\n(5) The look of the arm differs by era. In game it is thin grey rods with tan/brass joint caps [Observed: SideMissiles.png, SideMinigun.png]. In SkyVu's 2014 art it is khaki/olive [Observed: saberi29.png].\n(6) Glow colour. Every glowing Combat Tech part I sampled is magenta/hot pink, roughly #C300B3 to #F800FB (PMG core, Minigun barrel, Gamma Burst ring, Plasma Shotgun crystal). The 2014 art glow is about #E441ED. The exception is the Landmine canister's cyan circuitry, about #38B6BB [Observed, pixel-sampled from the wiki images].\n(7) The wiki numbers churn heavily. A 2020-04-10 'updated stats' pass changed most infoboxes, and later edits changed them again, so treat all numbers as fan data for an unknown build.\n\nERRORS TO FLAG IN /home/user/thallo-site/bbg-news-repo/characters/saberi.md.\n(a) The 'Weapons/props' line lists only the 2.4 and 2.9 weapons. It omits Toxic Rifle, Landmine, ClubCobra and Social Butterfly, and it labels the whole list [Canon] although the later items are only [Fan-wiki].\n(b) The 'tech glow #9B4DFF' value and the 'arm metal #7A7F86' value are off. The observed glow is magenta (about #D13ADD to #F800FB), and the arm is grey rods with tan/brass joints in game or khaki in the 2014 art.\n(c) The prompt pack draws the disc and the double-barrel gun from the 2014 art. That is fine as a single 2.9 loadout, but call them the Gamma Burst and Plasma Shotgun only as [Inference].\n(d) 'Backpack weapon runs 10 s, reloads 30 s' holds for the current stats of Missiles, Minigun and Gamma Burst only. At launch the Gamma Burst ran 8 s on and 15 s off, and the Landmine uses ammo.\n(e) The research notes describe the 2014 gun as having a 'glowing purple core'. The core is magenta/pink-violet.\n\nCONFLICTS STILL OPEN.\n- Minigun price: 60 Gas (infobox) vs 80 Gas (body text) vs a Joules icon in a 2013 beta store thumbnail.\n- ClubCobra health modifier: +15% (wiki text) vs +10% (in-game screenshot).\n- Energy Rifle beam colour: magenta in 2013-14 thumbnails vs pale cyan in a 2016 thumbnail, possibly team-tinted.\n- Gamma Burst dome: the wiki calls it yellow, but no frame shows it.\n- Missiles duration: disputed on the wiki itself.\n- Social Butterfly's status effect: undocumented.\n\nOTHER ERAS.\n- BBR (2012): no Combat Tech existed. Saberi debuted in BBG 2.4 [Canon]. The only name overlap is the Soldier's BBG Minigun.\n- BB Overclock: 'Social Butterfly' is also an Astoria weapon there [Fan-wiki].\n- BBH (2024): Saberi is a Medic with Huggable Splicer and Healing Turret [Canon]. Store copy calls her 'Saberi the Healer'.\n- BBG 2026: Steam lists COMBAT TECH: Saberi [Canon]. No 2026 source names her weapons. The JustNubz playtest showcase gives Combat Tech the chapter from 44:12 to 47:23, about 3 min and the shortest of the eleven. I have not watched it (YouTube video access is blocked, and the auto thumbnails fall outside that chapter), so whether the 2026 kit matches is [Unverified].\n- Trailer and Steam screenshots: no identifiable Saberi in the official 54 s Steam trailer or in Steam screenshots 00-04 [Observed: visuals/trailer frames t_0001-t_0108 and the screens].\n\nPROVENANCE OF THE [Observed] CLAIMS. Every [Observed] description comes from images I opened: the wiki screenshots (2013-2015 uploads by fans, showing in-game models), SkyVu's 2014 art, and YouTube fan-video thumbnails at 480x360 or lower. The thumbnail evidence is low-resolution, and which weapon produced an effect is often [Inference]. The visual researcher should confirm projectiles and impacts from the actual videos: B7FHI1aDgsw (2.4 weapons), 0rQcyVwWSOs and _qdzLv19cWc (radiation), JO5-kfnENtM and DyvVVZ_C8ME (Toxic Rifle), ua2j5t23T80 and 5Wsfn8XwT0g (Social Butterfly plus Landmine), YpYjwP0rQjM (Landmine), and the -lAtv-j9Sms chapter at 44:12. YouTube rate-limited the watch pages (a Google 'sorry' redirect), so upload ages come from the search results: about 5-13 years old.\n\nDEPICTION FOR SHORTS. Where nothing documents a projectile or impact (missile explosion, Landmine blast, Gamma Burst dome, Social Butterfly effect, melee hit effects), any look we use must be labelled [BBG News invention]."
+}

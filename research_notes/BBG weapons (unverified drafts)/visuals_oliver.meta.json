@@ -1,0 +1,302 @@
+{
+ "quickref": [
+  {
+   "weapon": "A Salt Rifle (ASR)",
+   "owner": "Oliver (Soldier)",
+   "slot": "primary",
+   "status": "Default since BBR v1.0 (2011); named in SkyVu's 2026 Steam copy [Canon]",
+   "look": "Sage-green rifle (#95A092) with salmon panels, thin silver barrel, white salt shaker on top fed by a ribbed sleeve [Observed]",
+   "firing_and_projectile": "Auto 0.15 s, 25 rounds (x/25 seen 2013); small yellow-orange star muzzle flash [Observed]; salt implied by pun [Inference]",
+   "impact_end_result": "Yellow-orange star pop on target [Observed]; salt-grain puff is BBG News invention",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Heavy A Salt Rifle (HASR)",
+   "owner": "Oliver (Soldier)",
+   "slot": "primary",
+   "status": "BBR v1.0; 110,000 J; Apr 2014 Overhaul HUD shows x/30 vs 60 [Observed]",
+   "look": "AK-style olive/salmon rifle with big grey-and-red ring looping round the grip [Observed]",
+   "firing_and_projectile": "Auto 0.125 s, 60 rounds, slight spread [Fan-wiki]; rounds not visible",
+   "impact_end_result": "Grey-white puff with yellow core at range [Observed; attribution Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Soaker",
+   "owner": "Oliver (Soldier)",
+   "slot": "primary",
+   "status": "BBR v1.0; 60,000 J, lvl 10; nerfed later; v2.6 fix",
+   "look": "Super Soaker-style green-grey gun with big yellow red-striped tank on top [Observed]",
+   "firing_and_projectile": "Auto 0.1 s, 60 rounds (70 in a 2014 clip), close range; stream not observed [Unverified]",
+   "impact_end_result": "Undocumented; stars and flash on a target seen, attribution Unverified",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Urine Trouble",
+   "owner": "Oliver (Soldier)",
+   "slot": "primary",
+   "status": "BBR v1.3.1 wk 3 (2012); 60 vs 75 Gas conflict",
+   "look": "White and maroon Soaker retexture, green flame decals, amber tank, clear tube barrel with orange tip [Observed]",
+   "firing_and_projectile": "Auto 0.1 s, 40 rounds; bright yellow liquid jet, thin at muzzle, widening into droplets [Observed, File:Urine trouble range.jpeg]",
+   "impact_end_result": "Trail of yellow splats on floor [Observed]; no status effect [Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Sci-Fi ASR",
+   "owner": "Oliver (Soldier)",
+   "slot": "primary",
+   "status": "BBR v1.3.1 wk 2; 105,000 J; in SkyVu's Jul 6 2026 banner [Observed; ID Inference]",
+   "look": "Silver sci-fi rifle, 2x2 vent holes, teal tip, canister with glowing red-orange slits on top [Observed]",
+   "firing_and_projectile": "Auto 0.15 s, 25 (x/30 seen 2013); lasers implied by text [Inference]",
+   "impact_end_result": "Yellow-white flash on target in demo [Observed; attribution Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sci-Fi HASR",
+   "owner": "Oliver (Soldier)",
+   "slot": "primary",
+   "status": "BBR v1.3.1 wk 2; 85 Gas seen in 2013 store; possibly in 2026 trailer [Inference]",
+   "look": "Silver HASR retexture with dark gunmetal ring [Observed]",
+   "firing_and_projectile": "Auto 0.125 s, 50 rounds; 'little button' undocumented",
+   "impact_end_result": "Not observed [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "O.C.O. Gauntlet",
+   "owner": "Oliver (Soldier)",
+   "slot": "primary",
+   "status": "BBR v1.3.2 (2012); 20 Gas then 45,000 J [Observed store]",
+   "look": "Black armoured gauntlet with cyan claw stripes, 'OCO' lettering and keypad; cyan mitten with white circuitry [Observed]",
+   "firing_and_projectile": "Spawns up to 3 orbs, harmless 2 s, then rockets forward; faceted translucent pale cyan sphere with blue core [Observed + Fan-wiki]",
+   "impact_end_result": "Implodes on contact in a big pale green-cyan burst, AoE, self-kill risk [Observed + Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Minigun (Soldier)",
+   "owner": "Oliver (Soldier)",
+   "slot": "primary",
+   "status": "BBG v2.11 (Aug 27 2014); 45 Gas; overpowered at launch, then nerfed",
+   "look": "Boxy gunmetal rotary gun, three muzzles in a triangle, held at hip [Observed]",
+   "firing_and_projectile": "Very rapid 0.075 s, 80 rounds [Fan-wiki]; tracers not observed",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Acreambo Pistols",
+   "owner": "Oliver (Soldier)",
+   "slot": "primary",
+   "status": "BBG v2.18 (Apr 3 2015); BBH basic attack [Canon]",
+   "look": "Two blocky teal pistols with red-white candy chevrons, over-under muzzles [Observed]",
+   "firing_and_projectile": "Dual-wield, two bullets per ammo; 'The projectile looks like toothpaste.' [Fan-wiki]",
+   "impact_end_result": "No hit animation on surfaces [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bearzooka (BBG)",
+   "owner": "Oliver (Soldier)",
+   "slot": "secondary",
+   "status": "Default since BBR v1.0; named in 2026 Steam copy; BBH Ultimate [Canon]",
+   "look": "Coral-red hex tube with glowing orange panels and grey collars, wide flared muzzle; NOT the green BBZ tube [Observed]",
+   "firing_and_projectile": "1 rocket (two-shot text conflict), 1,000 u/s [Fan-wiki]; rocket model unseen",
+   "impact_end_result": "AoE blast, very prone to self-kill [Fan-wiki]; explosion style from generic BBG frames [Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Spreadshot (BBG)",
+   "owner": "Oliver (Soldier)",
+   "slot": "secondary",
+   "status": "BBR v1.0; 35,000 J; Overhaul 2014 shows x/3",
+   "look": "Salmon/sage chamber gun with stacks, hose and a ring of six red hex tubes at the muzzle (Steamshot silhouette) [Observed]",
+   "firing_and_projectile": "Shotgun, close range, 20 damage [Fan-wiki]; pellets unseen",
+   "impact_end_result": "White-yellow V spark on surfaces [Observed]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "TNT Launcher",
+   "owner": "Oliver (Soldier)",
+   "slot": "secondary",
+   "status": "BBR v1.0 (table); 45,000 J, lvl 13",
+   "look": "Grey Bearzooka retexture with orange panels and checker band at the muzzle [Observed]",
+   "firing_and_projectile": "Lobs 3 sticky charges in an arc; spiky yellow-orange muzzle starburst [Observed]; charge model unseen (dynamite concept)",
+   "impact_end_result": "Sticks, explodes after 1 s in a big AoE [Fan-wiki]; grey round smoke puffs [Observed]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Rockette Launcher",
+   "owner": "Oliver (Soldier)",
+   "slot": "secondary",
+   "status": "BBR v1.3.1 wk 4; 110,000 J",
+   "look": "Rope-bound stone tube, grey-green stone with lavender flagstone ends [Observed]",
+   "firing_and_projectile": "Fast arcing grey-blue faceted rocks [Observed]",
+   "impact_end_result": "Small AoE; rocks stay, roll and can shove players [Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Steamshot",
+   "owner": "Oliver (Soldier)",
+   "slot": "secondary",
+   "status": "BBR v1.3.1 wk 1; 30 Gas",
+   "look": "Brass steampunk gun, green glass chamber, gem-topped stacks, six-hole/honeycomb muzzle, grey hose [Observed]",
+   "firing_and_projectile": "'quick spread of damaging green steam' [Fan-wiki]; green not seen in frames",
+   "impact_end_result": "White puffs and pink-red flecks on hit targets [Observed; attribution Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sake Bomb",
+   "owner": "Oliver (Soldier)",
+   "slot": "secondary",
+   "status": "BBR v1.3.2; 50,000 J; aim reversal removed 'much later'",
+   "look": "Dark-brown Daruma-faced sake jug, red-orange leaf motifs, rope loop handle [Observed]",
+   "firing_and_projectile": "Non-damaging arcing shots, 4 ammo [Fan-wiki]; projectile undocumented",
+   "impact_end_result": "4 s controls reversed, green '?' over head, music off [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Solar Wind Scar",
+   "owner": "Oliver (Soldier)",
+   "slot": "secondary",
+   "status": "BBG v2.11 (Aug 27 2014); 60 vs 75 Gas",
+   "look": "Long broad silver blade, gold sparking guard, orange grip [Observed]",
+   "firing_and_projectile": "Orange slash travelling straight through walls [Fan-wiki]",
+   "impact_end_result": "Dark radiation ring; yellow radiation icon, Geiger clicks, explodes at 100 RP [Fan-wiki]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "B.E.A.R. Club",
+   "owner": "Oliver (Soldier)",
+   "slot": "melee",
+   "status": "Default since BBR v1.0",
+   "look": "Lime-green cricket bat with holes, hazard-striped grey lower, black grip [Observed]",
+   "firing_and_projectile": "Melee, 70 damage [Fan-wiki]",
+   "impact_end_result": "Yellow cartoon stars (melee style seen with Krikkit) [Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Krikkit Bat",
+   "owner": "Oliver (Soldier)",
+   "slot": "melee",
+   "status": "BBR v1.0; 30,000 J, lvl 11",
+   "look": "White/silver sci-fi bat with red tip light and blue circuit line [Observed]",
+   "firing_and_projectile": "Melee, 45 damage, +30% Special Speed [Fan-wiki]",
+   "impact_end_result": "Burst of big yellow 5-point stars [Observed]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Queensbury Rules",
+   "owner": "Oliver (Soldier)",
+   "slot": "melee",
+   "status": "BBR v1.0; 30,000 J, lvl 2",
+   "look": "Brown wooden bat with gold moustache, fist, 'QBR' and boxers [Observed]",
+   "firing_and_projectile": "Melee, 45 damage, +15% Health [Fan-wiki]",
+   "impact_end_result": "Generic melee stars [Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Disciplinarian",
+   "owner": "Oliver (Soldier)",
+   "slot": "melee",
+   "status": "BBR v1.3.1 wk 1; 20 vs 60 Gas conflict",
+   "look": "Orange-yellow ruler bat (1-6 markings), teacher face on the other side [Observed + Fan-wiki]",
+   "firing_and_projectile": "Melee, 45 damage, +10% speed [Fan-wiki]",
+   "impact_end_result": "Yellow spark burst on hit, kill registers [Observed]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Kumakiri",
+   "owner": "Oliver (Soldier)",
+   "slot": "melee",
+   "status": "BBR v1.3.2; 75,000 J, lvl 30",
+   "look": "Long curved katana, wavy hamon, black tsuba, black-and-gold hilt [Observed]",
+   "firing_and_projectile": "Melee, 110 damage, -10% Health; downward slash animation [Fan-wiki]",
+   "impact_end_result": "Generic melee stars [Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Turkish SW Boots",
+   "owner": "Shared Special (Tutorial; promoted with Oliver)",
+   "slot": "special",
+   "status": "40 Gas, lvl 8; named in 2026 Steam copy [Canon]; airborne use since v2.0, 4.5 s recharge since v2.6",
+   "look": "Chunky red boots with yellow studs [Observed, 2D art]",
+   "firing_and_projectile": "Big jump, chainable in mid-air, jump power 600 [Fan-wiki]",
+   "impact_end_result": "White jet plumes under the soles [Observed in art]",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
+   "correction": "The BBG Bearzooka is a coral-red hexagonal tube with glowing orange panels and grey hex collars, firing from its wide flared end [Observed]. That matches the wiki's 'red and orange lines' [Fan-wiki]. The green, hazard-striped 'BEARZOOKA' tube is the BB Zombies (2009) design.",
+   "evidence": "File:Photo_19-04-13_12_02_26_PM.png; BBR store File:BBR_Bearzooka.png (Mar 2012); wiki sprite tile 'bzk'; File:Bear.jpg (BBZ, green with hazard stripes); Bearzooka page: 'In BBG and BB0, it is a rocket launcher with red and orange lines. In BBZ and BB-1 it is just a dark green rocket launcher.'"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "He holds a chunky assault rifle and carries a green hazard-striped launcher tube on his back.",
+   "correction": "He holds the A Salt Rifle, a sage-green rifle with salmon-pink panels and a white salt shaker mounted on top. He shoulders the Bearzooka, a coral-red hexagonal launcher tube with glowing orange panels.",
+   "evidence": "File:Oliver3d.png; BBR store File:A_salt_rifle.png; File:ASRconcept.png (AR3); in-game Bearzooka photos as above"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "Green-and-dark-grey shoulder harness, small green backpack, no clothing.",
+   "correction": "For the BBG 2013 model: red headband, crossed bandolier of brass cartridges on dark-red straps, red wristbands, red knee bands with silver-ringed red buttons, pale grey-lavender backpack, no clothing.",
+   "evidence": "All 2013 'Photo 19-04-13' in-game item photos and the BBR store screenshots (2012) show this gear [Observed]. The green harness appears only in older 2D art (File:Sw_boots.png, File:Oliver-steamshot.png)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "A green-and-dark-grey harness with grey clips [Observed] and a small green backpack [Inference].",
+   "correction": "BBG 2013 in-game: brass-cartridge bandolier on dark-red straps and a pale grey-lavender backpack [Observed]. The green harness is pre-3D 2D art only.",
+   "evidence": "Sampled from File:Photo_19-04-13_12_02_36_PM.png: cartridges about #E9D85A, straps about #7F000A, pack about #745F7E"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "Oliver, a chunky low-poly brown teddy-bear soldier in a green-and-grey harness, swaggers in and fires an absurd improvised weapon with far too much confidence.",
+   "correction": "Replace 'in a green-and-grey harness' with 'in a red headband and brass-bullet bandolier'.",
+   "evidence": "Same in-game photos as above"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "Using the lighter #AB7A52 for the muzzle is a BBG News pick, as are the unsampled harness green #4E6B35, strap grey #3A3D40, clips #8E949A and nose #1B1B1B [BBG News invention].",
+   "correction": "For BBG framing, use the sampled gear colours instead of harness green and strap grey: headband about #A2000D, cartridges about #E9D85A, straps about #7F000A, knee buttons about #900611 with rings about #B2BBC1, pack about #745F7E [Observed].",
+   "evidence": "Pixel samples from File:Photo_19-04-13_12_02_36_PM.png (arena lighting, approximate)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "human body, pants or shirts, blue headband, gold or engraved skin",
+   "correction": "Remove 'blue headband' from the negative prompt and keep red as the default in the positive prompt. Blue headbands are a correct variant (probably the team colour [Inference]).",
+   "evidence": "Blue headband in 2013 demos AZt_huguhzc, HlYoml_9Wx0, sDq7aTPa4Uw, guopL_SYkYA, JQ4MjeJfp2M and others; red in P5EsIBxZS-k, 1pOpppsjyuQ and others [Observed]; the BBH portrait headband is blue [Observed]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "The gold trailer-card Oliver is likely a skin [Inference].",
+   "correction": "It matches the Gold Oliver skin (Gold Bundle, BBR v1.4, 1,710 Gas [Fan-wiki]). In the trailer (38.25-41.25 s) he holds a silver-grey gun with a black loop, possibly the Sci-Fi HASR [Inference].",
+   "evidence": "File:Gold_Oliver.jpg vs trailer frames [R]/tr/f_002-f_014.jpg and [R]/tr_gold_zoom.png [Observed match]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "He also has an improvised katana [Canon, channel unconfirmed] ([YouTube](https://www.youtube.com/watch?v=P6z5l7toC3w)).",
+   "correction": "Add the era: this is the BB-1 (2010) Katana. The BBG equivalent is the Kumakiri melee (BBR v1.3.2, 75,000 J, level 30), whose text 'It's baaack!' refers to it [Fan-wiki].",
+   "evidence": "Kumakiri page: 'The description refers to the Katana used by Oliver in Battle Bears -1'; Katana page"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "Bearzooka recoil blasts him through a wall. He comes back sooty: \"Meant to do that.\"",
+   "correction": "Optional: re-ground the gag in his own blast radius rather than recoil. No recoil is documented; self-damage is ('easy to kill yourself with it'). Keep it labelled [BBG News invention].",
+   "evidence": "Template:Class:Soldier (BBG) [Game text via wiki]; Bearzooka (BBG): 'The user is very prone to suicide' [Fan-wiki]"
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md",
+   "current_text": "A green launcher tube with yellow/black hazard stripes. [INFERENCE] This is probably the Bearzooka",
+   "correction": "Plausible, but this is the BB Zombies/BB-1 green Bearzooka design, not the BBG one (coral-red hex tube with orange panels).",
+   "evidence": "File:Bear.jpg (BBZ) vs File:Photo_19-04-13_12_02_26_PM.png (BBG); Bearzooka wiki page era note"
+  }
+ ],
+ "open_questions": [
+  "What do the rifle projectiles look like in flight (ASR, HASR, Soaker, Sci-Fi ASR/HASR, Minigun), and what does the Acreambo 'toothpaste' look like? Needs the 2026 showcase Soldier chapter (4:35-8:50) or the 2014 Overhaul video.",
+  "What do the Bearzooka rocket and its explosion look like, and the TNT charge, the Sake Bomb projectile and the Solar Wind Scar slash? No frame was available; the wiki's Solar Wind Scar and Acreambo videos have no thumbnails left.",
+  "Is the Steamshot's steam green (wiki) or white (2013 frames)? And what are the green wisps and magenta crackle in SkyVu's Apr 2014 Overhaul frames, taken while the Spreadshot was equipped?",
+  "What exactly did the Apr 25, 2014 Oliver Overhaul change, and in which build? The frames show the HASR at x/30, the Spreadshot at x/3 and an unidentified 8-round weapon. SkyVu's 2.6 change log (archive.org, HTTP 403) and the forum balance notes (proxy 502) are unreachable.",
+  "Is the silver gun with the black loop in the 2026 trailer the Sci-Fi HASR? Do 2026 prices and stats differ from the wiki?",
+  "Which prices are current for Urine Trouble, Acreambo, Solar Wind Scar and Disciplinarian (wiki 60 vs 75 vs 20 Gas)?",
+  "What does a defeated bear look like in BBG? Yellow-orange glow blobs appear after kills in 2013 frames, but their meaning is unconfirmed.",
+  "Does the 2026 build's 'LIGHTING, EFFECT & TEXTURE IMPROVEMENTS' change weapon effects relative to the 2012-14 references?"
+ ]
+}

@@ -1,0 +1,379 @@
+{
+ "weapons": [
+  {
+   "name": "Boomstick (default primary; short for Boomstick McShootington)",
+   "slot": "primary",
+   "status": "Default primary, level 1 [Fan-wiki]. Came with the class in BBR v1.3 (May 3, 2012) [Fan-wiki: BBR Version 1.3]. Carried into BBG 1.0 (May 24, 2013) [Fan-wiki]. BBG 2.6 (Dec 20, 2013) rebalance: damage 22\u219250, 'kill difference bonus' 7\u21922, fire rate .75\u21921 [Fan-wiki: Battle Bears Gold/Versions/2.6. That table cites SkyVu's change log at battlebears.com/battle-bears-gold-2-6-change-log/; a snapshot 20151029082739 exists, but web.archive.org reset every connection today, so not verified]. Trivia says it 'used to be affected by Kill/Death ratio', so the K/D scaling may since have been removed; no date given [Fan-wiki]. BBH (2023/24): Boomstick is Wil's basic attack, reworked June 20, 2023, reload 1.5\u21921.3 s on Aug 29, 2023 [Fan-wiki: Updates]. 2026 re-release: no documented change [Unverified].",
+   "official_text": "[Game text via wiki] \"Trusty Boomstick McShootington. This guy does more damage if your enemy has a higher K/D ratio and less damage if they have a lower K/D ratio.\" (https://battlebears.fandom.com/wiki/Boomstick). BBH only, not BBG: [Canon] \"Wil's \"Boomstick\" attack launches explosive pellets that burst on impact, covering a wide area.\" (https://battlebears.com/pages/characters, fetched live today)",
+   "mechanics": "BBG: a hitscan shotgun. The wiki describes 'a powerful, short ranged wave of bullets'. All shotguns share one range, and Wil works it like a pump-action [Fan-wiki]. Stats: 55 damage, 1 s rate of fire, 1 shell, 1.5 s reload, +5% speed [Fan-wiki infobox]. No splash and no status effect in BBG (hitscan) [Fan-wiki: Weapon Statistics]. Damage scales with the target's K/D [Game text via wiki]. Look: a dark grey/black SPAS-12-style pump shotgun with a small red mark near the receiver, held by Wil in the Gift Wrapped skin [Observed: dl/wil/img/BoomBoom.png]. BB-1 2D cutscene: a grey-green shotgun lit by Wil's lighter [Observed: dl/wil/img/Boomstick_McShootinton.png]. Muzzle flash, pellet and hit look are undocumented [Unverified]. Do not show BBH's exploding pellets in a BBG-era short [Inference]. Depiction for shorts: a short cone of white-yellow pellet streaks and a small muzzle puff, with no explosion on hit [BBG News invention].",
+   "image_leads": [
+    "File:BoomBoom.png",
+    "File:Boomstick_McShootinton.png (BB-1 2D)",
+    "File:0d37f11700f645dacbb39522684e33b7_zps46c0eca5.jpg (real SPAS-12 photo, not game art)",
+    "File:BBH_Profile_Wil.png (BBH portrait)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Boomstick",
+    "https://battlebears.fandom.com/wiki/Boomstick_McShootington",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.com/pages/characters"
+   ]
+  },
+  {
+   "name": "Doomstick",
+   "slot": "primary",
+   "status": "60 Gas, level 1; originally 150 Gas [Fan-wiki]. The BBR v1.3.1 page lists it among weapons 'released gradually over four weeks' (2012), but the Doomstick page says it 'came out in v.1.3' [Fan-wiki conflict]. Its 7% speed buff was removed in 1.4.2 (Feb 28, 2013) [Fan-wiki]. BBG 2.6 (Dec 20, 2013): damage 31\u219230, fire rate 1\u2192.25, clip 2\u21923, Ammo+1 0\u21921, Ammo+2 0\u21922, kill-difference bonus 4\u21922 [Fan-wiki]. Sold in these bundles: Paqueta Para PWNhombres (Oct 21\u2013Nov 1, 2012), Tricks and Treats (Oct 31\u2013Nov 1, 2012) and Chubby Bundle (from Dec 20, 2013) [Fan-wiki: Bundle Deals]. Internal code name 'KingSlayer' [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"We give Wil a hard time but, the truth is, he is a far braver man than I for even touching this thing... 0__0\" (https://battlebears.fandom.com/wiki/Doomstick)",
+   "mechanics": "A reskin of the Boomstick: the same hitscan short-range 'wave of bullets', used like a pump-action [Fan-wiki]. Current infobox: 55 damage, 0.75 s rate of fire, 2 ammo, 2.5 s reload, +5% speed [Fan-wiki]. The intro's 'three times the ammo' contradicts the infobox [Fan-wiki conflict]. Look: black body with an orange/yellow lava-crack pattern and yellow flame-shaped spikes along the top. A bloodshot eyeball sits in the middle. The double barrels and grip are flesh-pink and veined [Observed: dl/wil/img/TbwrU.png, dl/wil/img/Wil_doomstickers.png, dl/wil/img/Paqueta.png]. The 2D 'Chubby Bundle' store banner shows the same black-and-lava gun [Observed: dl/wil/img/Chubby_bundle.jpg]. Firing effect is undocumented [Unverified].",
+   "image_leads": [
+    "File:TbwrU.png ('THE DOOMSTICK' promo graphic; probably SkyVu art [Inference], origin unverified)",
+    "File:Wil_doomstickers.png",
+    "File:Doomstick.jpg",
+    "File:Doomstick.png (BBR menu, Speed +7%)",
+    "File:Paqueta.png (in-game bundle banner)",
+    "File:Tricksandtreats.jpg",
+    "File:Chubby_bundle.jpg",
+    "File:Chubby_Bundle.jpg",
+    "File:Chub_scout_setup.jpg",
+    "File:Chubby_scouty_setty.jpg",
+    "File:BBRWEAPONS.png (BBR 1.3.1 promo art, Doomstick at right)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Doomstick",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Bundle_Deals"
+   ]
+  },
+  {
+   "name": "Balance Beam",
+   "slot": "primary",
+   "status": "120,000 Joules, level 15 [Fan-wiki]. Came with the class in BBR v1.3 (May 3, 2012) [Fan-wiki]. BBG 2.6 (Dec 20, 2013): Ammo+1 12\u219210, Ammo+2 26\u219220, 'Scaling damage' 1\u2192.25 [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"The worse your team is doing than the other team, the more powerful this weapon is.\" (https://battlebears.fandom.com/wiki/Balance_Beam)",
+   "mechanics": "A hitscan automatic 'firing beams in quick succession'. It is perfectly accurate, with a long but finite range of 3000 units, and fires slightly below the crosshair [Fan-wiki]. Damage is 7.0, rising or falling by 0.25 per kill (or bomb plant) that the team trails or leads by, minimum 1. Rate of fire 0.15 s, 50 ammo, 4 s reload, -10% health [Fan-wiki]. It is the class's only long-range weapon [Fan-wiki: Chub Scout (BBG)]. Look: a white/silver gun body with a gold/orange rod carrying two hexagonal gold weights, like a barbell or scale. The rod ends are blue and red, and a white pentagon-shaped emitter at the front glows violet [Observed: dl/wil/img/Balancebeam.png, dl/wil/img/Balance_Beam.jpg]. Beam colour and impact are undocumented [Unverified]. Depiction for shorts: thin violet beam pulses, matching the emitter glow [BBG News invention].",
+   "image_leads": [
+    "File:Balancebeam.png",
+    "File:Balance_Beam.jpg",
+    "File:Balance_Beam.png (BBR 2012 menu)",
+    "File:PTB_balance_beam.jpg (results screen only, no beam)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Balance_Beam",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Chub_Scout_(BBG)"
+   ]
+  },
+  {
+   "name": "Se\u00f1or Potato (Senor Potato; 'Se\u00f1or Potato Cannon' in update notes)",
+   "slot": "primary",
+   "status": "60 Gas, level 1; originally 150 Gas [Fan-wiki]. Added in BBR 1.4.3 (Apr 15, 2013) [Fan-wiki: Updates]. BBG 2.6 (Dec 20, 2013): max-damage range 100\u2192200, min-damage range 300\u2192400 [Fan-wiki]. Wiki trivia: Wil 'was originally planned as a pyro class in BBG ( batterito, se\u00f1or potato) but was scrubbed later on.' [Fan-wiki: Wil].",
+   "official_text": "[Game text via wiki] \"You couldn't find a kinder gun if you tried! Not only does it fire a high velocity spud at your enemies, it also leaves piping hot fries behind to blister their feet.\" (https://battlebears.fandom.com/wiki/Senor_Potato). The wiki's Updates page also quotes v1.4.3 update text: \"-Se\u00f1or Potato Cannon: Wil shoots flaming spuds that explode on contact and leave piping hot french fries behi,Caution, fries do damage over time.\" [Fan-wiki transcription of SkyVu update notes; not checked against an archived store page, so Unverified as Canon]",
+   "mechanics": "Fires a potato projectile on an 'extreme arc' at 1000 u/s [Fan-wiki]. It 'bursts into fries when it hits a player or surface' [Fan-wiki]; the update text calls the spuds 'flaming' and says they 'explode on contact' [Fan-wiki quote]. Impact does 65 damage, with explosive 35-50 and AoE radii 125/250. The fries planted on the ground then deal damage over time, even to players 'a large depth below the ground they are planted on'. Self-damage is possible. 3 ammo, 1 s rate of fire, 3.5 s reload [Fan-wiki]. Look: a speckled tan potato on a pink-brown paper-tube barrel, with a white coffee cup on top, a red Mr.-Potato-Head-style nose and silver bicycle handlebars [Observed: dl/wil/img/Senor_Potato.jpg]. The wiki lists 'a coffee cup, a paper tube, bicycle handles, and a few \"Mr. Potatohead\" body parts' [Fan-wiki]. Concept sheet: four grey variants A-D with face, cup hat, handlebars and tube barrel [Observed: dl/wil/img/Se\u00f1or_Potato_Concept.jpg]. Fries and flames are not seen in any image [Unverified]. Depiction for shorts: a lobbed, smoking spud bursts into a scatter of glowing hot fries that stick in the floor [BBG News invention].",
+   "image_leads": [
+    "File:Senor_Potato.jpg",
+    "File:Se\u00f1or_Potato_Concept.jpg",
+    "File:Wil-pyro.png (scrubbed 'pyro Wil' concept with a cup-nozzle flamer; related design, not this weapon)",
+    "File:Chub_Scout_(BBG)-infobox.jpg (same pyro art)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Senor_Potato",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/Wil",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Pie Bomb",
+   "slot": "primary",
+   "status": "90,000 Joules, level 1 [Fan-wiki]. Added in BBG 2.2 (Aug 21, 2013) after being announced on the Battle Bears Facebook page [Fan-wiki: Versions; News page]. BBG 2.6: max-damage range 75\u2192100, min 150\u2192200 [Fan-wiki]. It formerly did more damage when its user was losing [Fan-wiki trivia].",
+   "official_text": "[Game text via wiki] \"This explosive weapon will make you enjoy your last supper. It'll clean your plate. Prepare to pie...I mean...die! Okay, okay, you get the idea. It's a pie with a bomb in it.\" (https://battlebears.fandom.com/wiki/Pie_Bomb)",
+   "mechanics": "Launches a pie with a bomb in it: a fast (1,100 u/s), large projectile with a relatively small AoE (150/300), so direct hits are advised. Explosive 25-50, 0.45 s rate of fire, 4 ammo, 3.5 s reload. Derived from the Rockette Launcher [Fan-wiki]. It is probably affected by gravity, since the wiki contrasts it with the Pop Tart Shuriken's 'unaffected by gravity' throw [Inference]. Look: a pie with a golden crust in a foil tin, with a round black cartoon bomb sitting in it and a lit, sparking fuse [Observed: dl/wil/img/Pie_Bomb.png]. The explosion look is undocumented [Unverified]. Depiction for shorts: a pie-tin frisbee arc, then a cartoon blast with crust and filling splatter [BBG News invention].",
+   "image_leads": [
+    "File:Pie_Bomb.png",
+    "File:Imagefdv.jpg (the wiki captions it 'Pie Bomb as shown on the BATTLE BEARS Facebook page', but the file shows a MOGA-controller giveaway with a Huggable on screen. Mislabeled; do not use)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Pie_Bomb",
+    "https://battlebears.fandom.com/wiki/News:_New_weapons_in_Battle_Bears_Gold_update_2.2",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Chainsaw Shotgun",
+   "slot": "primary",
+   "status": "60 Gas, no level lock. Added in BBG 2.2 (Aug 21, 2013) [Fan-wiki]. BBG 2.6: explosion delay .5\u2192.25 [Fan-wiki]. At launch it was said to have a shorter fuse when the team was losing [Fan-wiki trivia]. Sold in the 'Boom Bundle' (Nova, Explosives +2, Chainsaw Shotgun, Cosmic Bomb) [Fan-wiki: Bundle Deals].",
+   "official_text": "[Game text via wiki] \"Chainsaws are cool. Shotguns that shoot chainsaws are cooler. Thanks BRJ.\" (https://battlebears.fandom.com/wiki/Chainsaw_Shotgun)",
+   "mechanics": "Fires a chainsaw that sticks to any surface, players included. It detonates after a delay with a 'rather large' AoE (100/200) [Fan-wiki]. The infobox gives a 0.75 s delay; the usage text says 'a second or two' [Fan-wiki conflict]. Explosive 35-70, 0.75 s rate of fire, 3 ammo, 4.5 s reload. Derived from the TNT Launcher [Fan-wiki]. Known bug: the chainsaw hangs in mid-air at the impact point instead of sticking [Fan-wiki]. Look: a purple/violet sci-fi launcher with cyan light strips and a silver toothed chainsaw blade at the side, with a white glow at the muzzle [Observed: dl/wil/img/Chainsaw_Shotgun.png]. SkyVu's in-game 'Boom Bundle' banner shows a purple twin-tube launcher with a grey toothed chainsaw bar along it [Observed: dl/wil/img/Boombundle.png]. The chainsaw projectile's in-flight look is undocumented [Unverified]. Depiction for shorts: a spinning chainsaw blade thunks into the target, revs for a beat, then explodes [BBG News invention].",
+   "image_leads": [
+    "File:Chainsaw_Shotgun.png",
+    "File:Boombundle.png (in-game bundle banner)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Chainsaw_Shotgun",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Bundle_Deals"
+   ]
+  },
+  {
+   "name": "Bubble Gun",
+   "slot": "primary",
+   "status": "90 Gas, level 1. Added in BBG 2.12 (Oct 2, 2014) [Fan-wiki]. Based on Wil's BB Zero campaign Bubble Gun [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Bubble bubble pop, BUBBLE POP!\" (https://battlebears.fandom.com/wiki/Bubble_Gun)",
+   "mechanics": "Fires 'a blue projectile' at 800 u/s. When it touches a surface, 'a big bubble' appears there and explodes after 'a second or two', with a huge AoE (125/250) and explosive 25-50. Self-kill risk. 0.75 s rate of fire, 4 ammo, 3.5 s reload [Fan-wiki]. Look: a green sphere tank with yellow piping on top, a yellow body, and a light-blue barrel ending in a yellow square-frame muzzle like a bubble wand [Observed: dl/wil/img/Bubble.jpg]. The bubble and pop are not shown in any image [Unverified]. BB Zero (2012) version: it does no damage and deflects projectiles [Fan-wiki]. The 2D art shows green/orange/blue spheres, a trumpet-bell muzzle and a big iridescent soap bubble [Observed: dl/wil/img/Bubble_Gun.jpg]; concept art shows brass spheres with a pink bubbly porthole [Observed: dl/wil/img/Bubble_Gun.png]. Depiction for shorts: a blue glob splats, swells into a wobbling translucent bubble, then pops in a blast [BBG News invention].",
+   "image_leads": [
+    "File:Bubble.jpg (BBG model)",
+    "File:Bubble_Gun.jpg (BB Zero 2D)",
+    "File:Bubble_Gun.png (BB Zero concept)",
+    "File:Battle-bears-tv-series-main-six.jpg (Battle Bears TV poster, Wil firing bubbles)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Bubble_Gun",
+    "https://battlebears.fandom.com/wiki/Bubble_Gun_(BB0)",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions"
+   ]
+  },
+  {
+   "name": "Buster Cannon",
+   "slot": "primary",
+   "status": "Added in BBG 2.14 (Nov 29, 2014) [Fan-wiki]. Price cut from 425,000 to 300,000 Joules in 2.20 (May 29, 2015) [Fan-wiki: Versions]. The infobox now says 150,000 Joules; no date is given for that change [Fan-wiki/Unverified]. Level 1. BBG counterpart of BB Zero's 'Blaster Cannon' [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Don't be a busta. Charge up your cannon and blow your enemies away with a powerful energy ball\" (https://battlebears.fandom.com/wiki/Buster_Cannon)",
+   "mechanics": "Semi-automatic energy orbs. Uncharged: 20 damage, no AoE, 1400 u/s [Fan-wiki]. Full charge takes 2.5 s and fires an orb at 1500 u/s that does 50-80 direct damage plus an AoE burst (150/300) and uses the whole magazine [Fan-wiki]. While charged, 'a pulsating purple energy ring' forms around the glove; a dropped charge decays in about 1 s. 100 ammo, 0.2 rate of fire, 3 s reload [Fan-wiki]. Look: an arm-worn grey metal gauntlet cannon with a mesh grille, two spikes, an orange concentric-ring decal on the side and a glowing pale-blue cube emitter at the front [Observed: dl/wil/img/Bustercannon.jpg]. Orb colour is undocumented [Unverified]. The BB Zero Blaster Cannon concept is a kitchen-junk build: blue blender body, patterned oven mitt, orange spiral disc and salt shakers [Observed: dl/wil/img/STORY_WEAPON.png], 'powered by ABBi' [Fan-wiki].",
+   "image_leads": [
+    "File:Bustercannon.jpg",
+    "File:STORY_WEAPON.png (BB Zero Blaster Cannon concept)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Buster_Cannon",
+    "https://battlebears.fandom.com/wiki/Blaster_Cannon",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions"
+   ]
+  },
+  {
+   "name": "Snowtato Launcher",
+   "slot": "primary",
+   "status": "60 Gas, level 1. Added in BBG 2.26 (Jan 17, 2017) alongside the winter No Bear's Land map [Fan-wiki: Updates]. At launch it had no model in the equip menu [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"A makeshift potato launcher convertor to weapon of frosty devastation. Shoot snowballs that explode and turn them into flakes!\" (https://battlebears.fandom.com/wiki/Snowtato_Launcher)",
+   "mechanics": "Shoots exploding snowballs. AoE 150/300, explosive 35-65, cooldown 2.2, 6 ammo, 4.5 s reload [Fan-wiki]. After each shot, snow hangs in the air in the blast area 'for several seconds' and blocks explosives, including the user's own next shots, so self-kill risk is high [Fan-wiki]. It is the only Chub Scout primary unaffected by equipment [Fan-wiki]. Whether 'turn them into flakes' means a status effect is undocumented [Unverified]. Look: a frozen take on the Se\u00f1or Potato, with a pale lavender potato body, an ice-blue cup on top, a grey metal barrel and flat grey handlebars [Observed: dl/wil/img/Snowtato.jpeg]. Depiction for shorts: a snowball bursts into a lingering cloud of drifting flakes [BBG News invention, guided by the wiki's lingering-snow note].",
+   "image_leads": [
+    "File:Snowtato.jpeg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Snowtato_Launcher",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Batterito",
+   "slot": "secondary",
+   "status": "Default secondary. Came with the class in BBR v1.3 (May 3, 2012) [Fan-wiki]. BBG 2.6: damage 30\u219235, duration 10\u21926.5, reload 12\u21925 [Fan-wiki]. Current infobox: 70 DPS, 8 s duration, 3 s reload, +200 u/s speed [Fan-wiki]. The usage text gives 6 s and '7-second' instead [Fan-wiki internal conflict]. It is the one Wil weapon shown in SkyVu's 2026 Steam trailer [Observed]. In the BLAST cutscene the Batterito is Wil's favourite food (he steals Oliver's) [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Set you mouth and you opponent's faces ablaze with fiery power of the batterito. Once consumed, fire will spew from your mouth and movement speed is increased until the inferno dies down.\" (https://battlebears.fandom.com/wiki/Batterito_(BBG))",
+   "mechanics": "Eaten as an ability. Fire spews from the mouth for short-range continuous damage, plus a speed boost [Game text via wiki]. Damage starts 'a second or two' after eating. Until it ends, Wil cannot switch to primary, melee or Specials [Fan-wiki]. With the Not-So-Slenderman skin, eyes and a mouth appear when he breathes the flame [Fan-wiki]. In the 2026 trailer, Wil holds a bullet-shaped wrapped burrito: a grey wrapper with a green-to-yellow-to-orange stripe label reading 'BATTERITO' and a yellow rounded end (~17.8 s, dl/wil/frames/w_003.jpg). His eyes tear up, his cheeks flush red, his mouth gapes and he flings his arms up (~19.5-20.0 s, w_013/w_016). A bright orange-yellow glow fills the frame (~20.2 s, w_017). He runs forward with billowing orange-yellow flame clouds and smoke pouring from his face (~21.2-21.5 s, w_023/w_025). The 'Wil / CHUB SCOUT' title card shows a thick yellow-orange flame jet from his open, crying mouth hitting a panda-skinned bear whose white body glows (~23.0 s, w_034) [Observed: visuals/trailer.mp4; also t_0037-t_0048]. The BBG model matches [Observed: dl/wil/img/Wil.png]. The BLAST 2D version has a black wrapper with orange/yellow stripes, 'BATTERITO' and 'NUT FACT PEANUTS ARE NOT NUTS' [Observed: dl/wil/img/Batterup.jpg].",
+   "image_leads": [
+    "File:Wil.png (BBG model)",
+    "File:Batterito_(BBR).jpg (BBR menu)",
+    "File:Batterup.jpg (BLAST 2D)",
+    "File:Chub_Scout.jpg ('CHUB SCOUT (WIL)' art holding a Batterito)",
+    "File:Chub_scout_setup.jpg (menu icon)",
+    "Steam trailer 'Battle Bears Gold Premium - Trailer' (movie 257411324) at 17.8-23.0 s; frames dl/wil/frames/w_003, w_013, w_016, w_017, w_023, w_025, w_029, w_034 (w_N = 17.5 s + (N-1)/6 s)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Batterito_(BBG)",
+    "https://battlebears.fandom.com/wiki/Batterito",
+    "https://battlebears.fandom.com/wiki/Not-So-Slenderman",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://store.steampowered.com/app/4408320",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4"
+   ]
+  },
+  {
+   "name": "Killdoba",
+   "slot": "secondary",
+   "status": "175,000 Joules, level 1 [Fan-wiki]. The infobox mislabels it 'Primary'; the page category is Secondary [Fan-wiki error]. Added in BBR v1.3.1 (2012) [Fan-wiki]. Before v2.6 it had a 5% health deduction, also seen in a BBR menu showing 'HEALTH -5%' [Observed: dl/wil/img/Killdoba.png]. BBG 2.6: damage 37\u219245, duration 9\u21928, reload 13\u21927, health -5%\u21920 [Fan-wiki]. Sold in Paqueta Para PWNhombres (Oct 2012) and Hungry Scout Bundle (Sept 22\u2013Oct 14, 2013) [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"\"Muy caliente\" is what you might say if you weren't so busy spewing fire and running faster than a burning, headless chicken. This mega-bean packs a punch but burns coming out twice, if you know what I mean.\" (https://battlebears.fandom.com/wiki/Killdoba)",
+   "mechanics": "A Batterito reskin: eat it, breathe fire from the mouth and get +200 u/s speed. 70 DPS, 4 s duration, 3 s reload; primary, melee and Specials are locked out meanwhile [Fan-wiki]. Look: a big burrito in crinkled silver foil with a tan tortilla end [Observed: dl/wil/img/Killdoba.jpg]. SkyVu's in-game bundle banners show a white foil- or paper-wrapped burrito with red-brown chili/bean filling bulging from the top [Observed: dl/wil/img/Paqueta.png, dl/wil/img/HungryScoutBundle.png]. A tiny 180x135 in-game shot shows an orange-yellow fire burst in a corridor [Observed: dl/wil/img/180px-Ci0oml.jpg], but nothing in it confirms it is Killdoba fire [Unverified]. Fire look: use the Batterito trailer frames [Inference].",
+   "image_leads": [
+    "File:Killdoba.jpg",
+    "File:Killdoba.png (BBR menu, Health -5%)",
+    "File:Paqueta.png",
+    "File:HungryScoutBundle.png",
+    "File:180px-Ci0oml.jpg (low-res, unclear)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Killdoba",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Bundle_Deals"
+   ]
+  },
+  {
+   "name": "EZ Chee-Z",
+   "slot": "secondary",
+   "status": "60 Gas (earlier 75 Gas), level 15 [Fan-wiki]. The infobox mislabels it 'Primary' [Fan-wiki error]. Came with the class in BBR v1.3 (May 3, 2012) [Fan-wiki]. In the Chubby Bundle (from Dec 20, 2013) [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Chugging this can of cheese will cause you to swell up and explode, killing yourself and anyone unlucky enough to be caught in the blast.\" (https://battlebears.fandom.com/wiki/EZ_Chee-Z)",
+   "mechanics": "A self-destruct ability. Wil shakes the can, eats the contents and bloats, too big for some roofed areas. For 2 s he moves at -50 u/s, then explodes, killing himself and anyone in range. Explosive 150-225, AoE 150/400. Shields do not stop the self-kill. No reload; it resets on death [Fan-wiki]. Look: a spray-cheese can with a white/blue body, orange label and orange-yellow nozzle cap [Observed: dl/wil/img/EZ_Chee-Z.jpg]. In SkyVu's BBR 1.3 trailer thumbnail (the 'SECONDARY EDIBILITIES' card), two clips show Wil swollen into a huge round ball seen from behind, blue in one and tan/orange in the other, with tiny ears and limbs [Observed: dl/wil/yt/wNpM_hq2.jpg, YouTube thumbnail only, video not watched]. The explosion look is undocumented [Unverified].",
+   "image_leads": [
+    "File:EZ_Chee-Z.jpg",
+    "File:E-Z_Chee-Z.png (BBR menu)",
+    "File:Chubby_bundle.jpg (can icon)",
+    "YouTube wNpM1woYv7k 'Battle Bears Royale 1.3 Update Trailer' thumbnails hq1/hq2 (bloated Wil)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/EZ_Chee-Z",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3",
+    "https://battlebears.fandom.com/wiki/Bundle_Deals",
+    "https://www.youtube.com/watch?v=wNpM1woYv7k"
+   ]
+  },
+  {
+   "name": "Whipped Pain",
+   "slot": "secondary",
+   "status": "200,000 Joules, level 1. Added in BBR v1.3.1 (2012) [Fan-wiki]. Sold in the Purple Pain bundle (from Feb 1, 2013) [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"This hillarious party stunt is about to go all over the faces of your enemies. It may take a bit longer than the E-Z Chee-Z but the pay off packs a larger punch.\" (https://battlebears.fandom.com/wiki/Whipped_Pain)",
+   "mechanics": "An EZ Chee-Z reskin: bloat, then self-explode after 5 s instead of 2 s, with a wider blast. Explosive 225-400, AoE 250/600, -10% health. No reload; it resets on death [Fan-wiki]. Look: a red-and-white whipped-cream-style aerosol can with a red cap [Observed: dl/wil/img/Whipped_Pain.jpg]. A low-res in-game shot shows Wil hugely bloated (black outfit) holding the red can [Observed: dl/wil/img/Images(2).jpg; wiki caption 'Wil bloating up after using the Whipped Pain.']. The explosion look is undocumented. 'Go all over the faces of your enemies' suggests a cream splatter [Inference]. Depiction for shorts: a white cream burst [BBG News invention].",
+   "image_leads": [
+    "File:Whipped_Pain.jpg",
+    "File:Images(2).jpg (bloated Wil in-game)",
+    "File:Purple-Pain-bundle.png (banner shows no weapon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Whipped_Pain",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://battlebears.fandom.com/wiki/Bundle_Deals"
+   ]
+  },
+  {
+   "name": "Sole's Bane",
+   "slot": "secondary",
+   "status": "160,000 Joules, level 1. Added in BBR 1.4.3 (Apr 15, 2013) [Fan-wiki: Updates]. BBG 2.6: duration 4\u21926, reload 7\u21926, speed modifier 0\u219210% [Fan-wiki]. Current infobox: 50 damage, 4.5 s duration, 3 ammo, 3 s reload, 2 s rate of fire, +5% speed [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Wil doesn't want to share his toys but he's more than happy to share the pain of stepping on one of the buggers.\" (https://battlebears.fandom.com/wiki/Sole%27s_Bane). The wiki's Updates page quotes v1.4.3 update text: \"-Sole's Bane: Wil leaves a trail of pain with colorful mines that sure to give any opponent a sore foot.\" [Fan-wiki transcription of SkyVu update notes; Unverified as Canon]",
+   "mechanics": "The wiki says it is 'a pile of Lego bricks that Wil throws in the air when activated': small AoE, high damage, and it keeps working after Wil dies [Fan-wiki]. The update text describes it instead as dropping 'a trail of pain with colorful mines' [Fan-wiki quote]. The two accounts differ; the duration stat suggests the bricks sit on the ground as timed caltrop mines [Inference]. Look: Wil holds a heap of multicolored interlocking toy bricks (red, yellow, blue, green, orange, white, black) [Observed: dl/wil/img/SolesBane.jpeg]. The scatter and trigger look are undocumented [Unverified]. Depiction for shorts: bricks rain down behind him; an enemy steps on one and hops in pain [BBG News invention].",
+   "image_leads": [
+    "File:SolesBane.jpeg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Sole%27s_Bane",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Pop Tart Shuriken",
+   "slot": "secondary",
+   "status": "50 Gas, level 1. Added in BBG 2.25 (Mar 21, 2016) [Fan-wiki]. The original 'shining' sound on each throw was later changed to one sound per fire press [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Breakfast just got deadly.\" (https://battlebears.fandom.com/wiki/Pop_Tart_Shuriken)",
+   "mechanics": "Each press flings two shurikens in a straight line, unaffected by gravity, at 1,600 u/s. Small explosion: explosive 10-30, AoE 50/150. 3 ammo (6 shurikens), 0.5 s rate of fire, 3 s reload. It cannot hurt the user or blow up bodies [Fan-wiki]. 'The trail and appearance... resembles... Nyan Cat', i.e. likely a rainbow trail [Fan-wiki; trail not seen, Unverified]. Look: a six-pointed star pastry with a tan crust edge, pink-and-white frosting, green/pink/yellow sprinkles and a hole in the centre [Observed: dl/wil/img/218426BB-3EEC-43E7-B36F-4EA0806BD23A_1.png].",
+   "image_leads": [
+    "File:218426BB-3EEC-43E7-B36F-4EA0806BD23A_1.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Pop_Tart_Shuriken",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Bow",
+   "slot": "melee",
+   "status": "Default melee. Came with the class in BBR v1.3 (May 3, 2012) [Fan-wiki]. 70 damage, no stat modifiers. BBG 2.6: Melee+1 4\u21925, Melee+2 7\u219210 [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Last time Wil got Bow and Arrow together certain words were exchanged and hearts were broken. They haven't spoken in weeks. Wil doesn't want to talk about it.\" (https://battlebears.fandom.com/wiki/Bow)",
+   "mechanics": "A melee hit with the bow itself; no arrow is fired [Inference from the official joke]. Same range as the Arrow despite its length [Fan-wiki]. Look: a plain wooden bow with a taut string and a cream-wrapped grip [Observed: dl/wil/img/Bbooww.jpg, dl/wil/img/Bow.jpg]. The swing animation is undocumented [Unverified]. The wiki speculates it is the bow a Huggable used to shoot Wil in BB-1 [Fan-wiki].",
+   "image_leads": [
+    "File:Bbooww.jpg",
+    "File:Bow.jpg (BBG menu)",
+    "File:Bow.png (BBR menu)",
+    "File:Wil_and_bow_DEFAULT.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Bow",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Arrow (BBG; wiki page 'Arrow (BBG)')",
+   "slot": "melee",
+   "status": "110,000 Joules (originally 100,000), level 10. Came with the class in BBR v1.3 (May 3, 2012) [Fan-wiki]. BBG 2.6: damage 45\u219255, health modifier 0\u219210%, Melee+1 7\u21925, Melee+2 12\u219210 [Fan-wiki]. Now 45 damage and +15% health, so a later nerf is implied; date unknown [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Trusty old arrow. What say we get it stuck in someone else's leg this time?\" (https://battlebears.fandom.com/wiki/Arrow_(BBG))",
+   "mechanics": "A hand-held stab or swing; nothing is fired [Inference]. Same range as the Bow [Fan-wiki]. Look: a wooden shaft with a grey pointed stone/metal head and pale blue-white fletching, held like a short spear [Observed: dl/wil/img/Arrow.jpg, dl/wil/img/Wil_default.png]. BB-1 (2010) origin: the arrow a Huggable shot into Wil's leg, which he pulled out and used as a melee weapon and to open vents ('really rigid, pointy band-aid') [Fan-wiki]. 2010 press: 'an arrow that he pulled from his leg' [Press, per prior notes]. The BB-1 2D shows a grey stone head in fur [Observed: dl/wil/img/Arrow.png, dl/wil/img/Wil_in_pain.png].",
+   "image_leads": [
+    "File:Arrow.jpg",
+    "File:BBR_Arrow.jpg (BBR menu, 100,000 Joules)",
+    "File:Wil_default.png",
+    "File:Arrow.png (BB-1 2D)",
+    "File:Wil,_in_pain.png (BB-1 2D)",
+    "File:Chub_scout_setup.jpg (menu icon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Arrow_(BBG)",
+    "https://battlebears.fandom.com/wiki/Arrow",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Bow and Arrow",
+   "slot": "melee",
+   "status": "150,000 Joules [Fan-wiki]. The wiki's Versions table lists it under both 2.13 (Oct 31, 2014) and 2.16 (Jan 30, 2015) [Fan-wiki conflict]. The page was created Jan 31, 2015, which supports 2.16 [Inference]. Reworked: at page creation it was 65 damage, -10% speed, +15% health; now 45 damage, -10% speed, +20% health [Fan-wiki, page history].",
+   "official_text": "[Game text via wiki] \"Wil's bow and arrow has made up and joined forces to fight against evil! Too bad Wil doesn't know how to use it still. Maybe next time..\" (https://battlebears.fandom.com/wiki/Bow_and_Arrow)",
+   "mechanics": "A melee weapon. Per the official joke Wil still cannot shoot it, so it is used as a club with no projectile [Inference]. Look: Wil holds the wooden bow with the arrow laid along it in one hand [Observed: dl/wil/img/Bowandarrow.jpg].",
+   "image_leads": [
+    "File:Bowandarrow.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Bow_and_Arrow",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Traffic Light",
+   "slot": "melee",
+   "status": "150,000 Joules, no level lock; 45 damage, +10% speed [Fan-wiki]. At page creation (Nov 1, 2014) it was 45 damage, 12% speed and 200,000 Joules [Fan-wiki, page history]. No release version is listed; the page appeared the day after BBG 2.13 (Oct 31, 2014), whose melee may really have been this rather than Bow and Arrow [Inference]. The page is not in Category:BBG Weapons, which is why weapons_by_class.json[\"Wil\"] misses it [Observed: API categories].",
+   "official_text": "[Game text via wiki] \"Why is there no yellow light you ask? Wil only travels in two modes. He stops and sometimes he has to go.\" (https://battlebears.fandom.com/wiki/Traffic_Light)",
+   "mechanics": "A melee club [Inference]. Look: a yellow pole with black bands at the grip, topped by a dark grey signal head with a red lamp above a green lamp and no amber lamp. Wil is shown in a red-masked, superhero-style skin [Observed: dl/wil/img/Trafficlight.png, low-res]. Swing and hit effects are undocumented [Unverified].",
+   "image_leads": [
+    "File:Trafficlight.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Traffic_Light",
+    "https://battlebears.fandom.com/wiki/Chub_Scout_(BBG)"
+   ]
+  },
+  {
+   "name": "Selfie Stick",
+   "slot": "melee",
+   "status": "125,000 Joules, no level lock; 45 damage, -20% health, +20% speed [Fan-wiki]. Added in BBG 2.21 (Jul 3, 2015) [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"But first, let me hit you with this!\" (https://battlebears.fandom.com/wiki/Selfie_Stick)",
+   "mechanics": "A melee club [Inference]. Look: a yellow pole with a black-banded grip, topped by a yellow, bear-face-shaped head with a smiling face (perhaps a phone in a bear case). Wil is shown in the Lunchador mask [Observed: dl/wil/img/Image7.PNG, 277x282 low-res]. Hit effects are undocumented [Unverified].",
+   "image_leads": [
+    "File:Image7.PNG"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Selfie_Stick",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions"
+   ]
+  },
+  {
+   "name": "Sarcastic Air Strike (BBH only, not in BBG)",
+   "slot": "special",
+   "status": "BBH (soft launch May 2023; Wil default, 150 Shards) [Fan-wiki]. 'Reworked Wil Attack and Ultimate' on June 20, 2023 [Fan-wiki: Updates]. Not a BBG weapon; no BBG or BBG 2026 equivalent found [Unverified].",
+   "official_text": "[Canon] \"His Ultimate, \"Sarcastic Air Strike,\" features A.B.B.I., his mocking robot backpack, executing a devastating airstrike, raining destruction across the battlefield.\" (https://battlebears.com/pages/characters)",
+   "mechanics": "An area airstrike called in by ABBi [Canon]. No visual reference was opened [Unverified]. Use only in BBH-labelled content [Inference].",
+   "image_leads": [
+    "File:BBH_Profile_Wil.png",
+    "File:Wils_backpack.png (BBG ABBi backpack: grey shell, large camera lens)"
+   ],
+   "sources": [
+    "https://battlebears.com/pages/characters",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Heroes",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  }
+ ],
+ "notes": "I found 20 Wil (Chub Scout) weapons in BBG: 9 primaries, 6 secondaries and 5 melees. I also logged one BBH-only ability, Sarcastic Air Strike. Every page came through the wiki API, and I opened every wiki image I list.\n\n**How complete this is**\n- The class page also lists the melee Traffic Light. It is missing from Category:BBG Weapons, so it is not in weapons_by_class.json.\n- \"Batterito\" and \"Arrow\" without \"(BBG)\" are lore pages: the BLAST cutscene and BB-1. They are not separate weapons.\n- The \"/Weapons\" subpage is an empty stub.\n- Special equipment (Turkish SW Boots and others) is shared across classes, not Wil's own.\n\n**Class facts**\n- The class page notes reliance on explosives and one long-range gun, the Balance Beam [Fan-wiki].\n- Default loadout: Boomstick, Batterito, Bow [Fan-wiki].\n- Class blurb [Game text via wiki, class template]: \"The masticator of mayhem, a Chub Scout is always prepared to even the odds for his team. His appetite for destruction is perfect for those simply wishing to wreak sweet havoc on their enemy.\"\n- The wiki's class stats template gives health 150, forward speed 240, 200,000 Joules, id 114 [Fan-wiki].\n- Price history [Fan-wiki]:\n  - 600,000 Joules before BBR 1.4.\n  - 1 Joule for a limited time at BBG launch, then 100 Gas (class page trivia).\n  - 200,000 Joules from 2.20 (May 29, 2015, Versions page).\n\n**Era timeline** [Fan-wiki: BBR Version pages, Battle Bears Gold/Versions, Updates]\n- **BBR v1.3 (May 3, 2012):** Wil arrives with Boomstick, Balance Beam, Batterito, EZ Chee-Z, Bow and Arrow. The \"THE UPDATE YOU'VE ALL BEEN WAITING FOR! > NEW Class: Wil the \"Chub Scout\"\" text is in the official BBR 1.3 trailer description (YouTube wNpM1woYv7k, via wiki file metadata).\n- **BBR 1.3.1 (2012):** Doomstick, Killdoba, Whipped Pain.\n- **BBR 1.4.3 (Apr 15, 2013):** Se\u00f1or Potato, Sole's Bane.\n- **BBG 1.0 (May 24, 2013):** migration from BBR.\n- **BBG 2.2 (Aug 21, 2013):** Chainsaw Shotgun, Pie Bomb.\n- **BBG 2.6 (Dec 20, 2013):** big rebalance of the Chub Scout kit.\n- **BBG 2.12 (Oct 2, 2014):** Bubble Gun.\n- **BBG 2.13 (Oct 31, 2014):** probably Traffic Light [Inference].\n- **BBG 2.14 (Nov 29, 2014):** Buster Cannon.\n- **BBG 2.16 (Jan 30, 2015):** Bow and Arrow.\n- **BBG 2.21 (Jul 3, 2015):** Selfie Stick.\n- **BBG 2.25 (Mar 21, 2016):** Pop Tart Shuriken.\n- **BBG 2.26 (Jan 17, 2017):** Snowtato Launcher.\n- **BBG 2026:** I found no official per-weapon list or change notes. The Steam store text says only \"80+ PRIMARY WEAPONS 60+ SECONDARY WEAPONS 50+ MELEES\" [Canon]. SkyVu's Steam trailer shows only the Batterito for Wil [Observed]. None of the 5 Steam screenshots clearly shows Wil [Observed]. The JustNubz showcase thumbnails show no Wil [Observed]; the video was not watched.\n\n**Other games**\n- **BB-1 (2010):** the Arrow from his leg and Boomstick McShootington, a SPAS-12-style shotgun [Fan-wiki].\n- **BB Zero (2012):** Bubble Gun (deflects projectiles, no damage) and the ABBi-powered kitchen-junk \"Blaster Cannon\" [Fan-wiki]. Also \"Wil's sword\" (BB Zero) [Observed: File:Wils_sword.jpg] and a teaser Minigun avatar [Fan-wiki]. None of these are BBG items.\n- **BBH (2023/24):** Boomstick plus Sarcastic Air Strike [Canon]. In BBH the Boomstick fires \"explosive pellets that burst on impact\". BBG's Boomstick is a hitscan shotgun with no splash [Fan-wiki]. Keep the two apart.\n- **Scrubbed pyro concept:** Wil \"was originally planned as a pyro class in BBG ( batterito, se\u00f1or potato)\" [Fan-wiki]. Concept art: File:Wil-pyro.png and File:Chub_Scout_(BBG)-infobox.jpg.\n\n**Wil's default BBG look** [Observed: Wil_default.png, Doomstick.jpg, Wils_backpack.png, Pie_Bomb.png]\n- A red padded helmet with holes and a chin strap.\n- A white ribbed tank top with a red ice-pop graphic.\n- Black elbow pads and red-lit knee pads.\n- A grey backpack with a large camera lens (ABBi).\n- A concept sheet shows red-helmet/red-pop and blue-helmet/blue-pop versions; likely team colours [Observed: Wil_skin.png; Inference].\n\n**Errors to fix in /home/user/thallo-site/bbg-news-repo/characters/wil.md**\n1. It gives Wil a \"red cap\". In BBG the default is a red padded helmet [Observed].\n2. Its \"blue ice pop\" prop does not match the BBG default shirt, which carries a red ice-pop graphic [Observed].\n3. Its weapons line does not say that BBH's exploding Boomstick differs from BBG's hitscan shotgun.\n4. The prompt pack's \"chunky cartoon shotgun\" should be the dark grey SPAS-12-style pump shotgun [Observed]. Note the Doomstick reskin too.\n5. The Wil in the 2026 trailer wears a non-default skin: red headband, pink tank top, red shorts, striped bands and a red-black backpack. I could not identify it [Unverified].\n\n**Conflicts and wiki errors**\n- Bow and Arrow appears under both 2.13 and 2.16.\n- The Doomstick page says v1.3; the BBR 1.3.1 page lists it there.\n- The Doomstick intro says \"three times the ammo\", but the infobox says ammo 2.\n- Batterito duration is given as 8 s, 6 s and 7 s.\n- Killdoba and EZ Chee-Z infoboxes say \"Primary\".\n- Buster Cannon is 150,000 Joules in the infobox versus 300,000 after 2.20.\n- File:Imagefdv.jpg is captioned as the Pie Bomb but shows a MOGA controller.\n- Sole's Bane: the wiki says \"throws in the air\", the update text says \"trail of... colorful mines\".\n- All \"official description\" quotes come from the wiki, not game files [Game text via wiki].\n- The v1.4.3 update text for Se\u00f1or Potato and Sole's Bane is a wiki transcription and the only route to it.\n\n**Official sources I could not reach**\n- SkyVu's BBG 2.6 change log (battlebears.com/battle-bears-gold-2-6-change-log/). The archive.org availability API confirms snapshot 20151029082739, but web.archive.org reset every connection today: 8 tries with backoff, HTTP/1.1, plain HTTP (403) and WebFetch (refused).\n- Also unreached: the 2.6 full release notes, forum balance threads for 2.8 and 2.17, the 2015 App Store page, and a CDX search. The retry list is at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/scripts_wil/wb_list.tsv.\n- The live battlebears.com pages and Steam news have no Wil weapon text beyond the BBH character blurb.\n\n**Files**\n- Downloads: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/wil/\n  - Wiki JSON in the folder itself.\n  - Images in img/.\n  - Contact sheets and trailer frames in frames/.\n  - BBR 1.3 trailer thumbnails in yt/.\n- Trailer frames: frames/w_NNN.jpg, where w_N is at 17.5 s + (N-1)/6 s.\n\n**Visual gaps where the look is undocumented** (each weapon entry has a [BBG News invention] depiction where it seemed useful)\n- Projectiles and impacts for the Boomstick, Doomstick, Balance Beam, Se\u00f1or Potato fries, Pie Bomb blast, chainsaw in flight, Bubble Gun bubble, Buster Cannon orb, Snowtato flakes, Pop Tart trail and Sole's Bane brick scatter.\n- The explosions for EZ Chee-Z and Whipped Pain.\n- The melee swings.\n- Next step: gameplay footage, starting with the JustNubz showcase Chub Scout chapter at 28:11, if someone can watch it."
+}

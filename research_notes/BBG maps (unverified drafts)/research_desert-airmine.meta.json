@@ -1,0 +1,61 @@
+{
+ "quickref": [
+  {
+   "name": "Desert Airmine",
+   "era": "BBR 1.0 (Oct 8, 2011, per the fan wiki); drill made more erratic in BBR 1.4.3 (Apr 2013) [Fan-wiki]; removed at v2.0 (the BBG launch, about May 2013) [Fan-wiki]; returned in BBG v2.7 (Jan 23, 2014) [Fan-wiki; fan video titles agree]",
+   "in_2026": "Probably playable [Inference]. Track 12 'Desert Airmine' (1:13) is on the 2026 Steam OST [Canon]. A fan's Playtest #3 video lists '19:59 Desert Airmine FFA' [Unverified]. The map is not named in the Steam store copy and not shown in the trailer or the 5 screenshots [Canon/Observed].",
+   "setting": "Asymmetrical, three-tier cluster of floating sand-topped mesa islands over a deep red-rock canyon, built around a working mine and oil drill. The Red team spawns on the lowest tier, the Blue team on the middle tier around a helipad. The top tier has a windmill sniper perch, and a hidden island under the Blue base holds the Bearscream Sandwich [Fan-wiki; Observed].",
+   "palette_and_lighting": "In game: saturated golden sand #F1CE4C\u2013#FCBD32, powder-blue sky #95B0C7\u2013#A1BED6, terracotta canyon #805A45\u2013#8A5941, dark island undersides #6B351D, deep-green cacti #0B5208, cyan jump-pad glow #3DD8E6, flat bright daylight. The 2012\u201313 renders are warmer and hazier: aqua-white sky #B6D1CC/#E1FDFC, low late-afternoon sun bloom #FDFDE7, sand #E0A045, steel #444345\u2013#524C48 [Observed, approximate samples].",
+   "landmarks": "1. Central drill tower: octagonal head, slatted panel arms, Graham hard-hat/goggles/moustache emblem, a drill bit that rises over a square shaft. 2. Windmill lattice tower ('the tower') sniper perch. 3. Blue helipad with a red 'H'. 4. Floating mesa islands over the canyon. 5. Saguaro cacti in sombreros. 6. The plank across the gap, the corrugated Red-base hut and the portable toilet [Observed; Fan-wiki].",
+   "hazards_and_easter_eggs": "Falling into the canyon, hitting the drill mid-air and touching the windmill rotor all count as suicides [Fan-wiki]. Engineer mines on jump pads can trap players, especially on the hidden island's only exit [Fan-wiki]. Graham's face on the drill, read as a hint that he built the map (with 'a small toilet and three tool sheds') [Fan-wiki]. The wiki's claim that this was his 'first appearance' is too strong: he is in 2011 key art [Observed]. Bear-face barrels and sombrero cacti are visible but undocumented [Observed].",
+   "confidence": "partial"
+  }
+ ],
+ "corrections": [
+  {
+   "file": "research_notes/Battle Bears character lore/franchise_world.md",
+   "current_text": "and Haunted Castle and Desert Airmine were removed at 2.0 and Haunted Castle later returned",
+   "correction": "and Haunted Castle and Desert Airmine were removed at 2.0; Haunted Castle returned in v2.4 (Oct 24, 2013) and Desert Airmine in v2.7 (Jan 23, 2014) [Fan-wiki]. Desert Airmine also has a track on the 2026 Steam OST [Canon].",
+   "evidence": "The wiki's Desert Airmine page says 'It was re-released in v2.7' (added 2014-01-24, revision 60281). The BBG-style map icon File:DesertAirmine.png was uploaded 2014-01-29. Fan YouTube titles read 'Battle Bears Gold 2.7 Desert Airmine returns!' (vIuBsFEoy2o) and 'Battle Bears Gold Update 2.7 - Desert Airmine Map Returns!' (O1VFEtu79dE). The Steam OST app 5321720 track list includes '12 Desert Airmine 1:13'."
+  },
+  {
+   "file": "reports/Battle Bears character lore.md",
+   "current_text": "The wiki dates his class to BBR v1.4 and says his face first appeared on the spinning drill of the Desert Airmine map.",
+   "correction": "Keep the [Fan-wiki] attribution, but add that this can only be his first in-game appearance. SkyVu had already shown Graham in Sept 2011 (blog ortho) and in the 2011 'BATTLE BEARS ROYALE Sneak Peek' key art, and the emblem copies that look: yellow hard hat, teal goggles, white handlebar moustache [Observed]. Also note that the wiki's map page describes the drill as moving up and down, while the Graham page calls it 'spinning'.",
+   "evidence": "Thumbnail i.ytimg.com/vi/IucMFqzR_Qw/hq1.jpg (official BATTLE BEARS channel, about 2011), cropped to /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/desert_airmine/img/crop_sneakpeek_graham.png, shows Graham. The emblem in the wiki's Desert_Airmine2.jpg render (crop_a2_face.png) is the same design. The wiki's Desert Airmine page says the drill 'constantly alternates in going up and down'."
+  },
+  {
+   "file": "research_notes/Battle Bears character lore/astoria_graham_tillman.md",
+   "current_text": "The wiki also says a picture of Graham's face on the spinning drill of the Desert Airmine map \"was his first appearance.\"",
+   "correction": "Add: this can only be his first in-game appearance. Graham was already in SkyVu's 2011 BBR Sneak Peek key art and on the Sept 2011 blog. The map page describes the drill as moving up and down, not spinning.",
+   "evidence": "Same as for the lore report: the IucMFqzR_Qw thumbnail crop, the Desert_Airmine2.jpg emblem crop, and the Desert Airmine wiki page text."
+  },
+  {
+   "file": "research_notes/Battle Bears character lore/animation_reference.md",
+   "current_text": "[OFFICIAL, 2026] Steam \"BATTLE BEARS GOLD Soundtrack\" (release Nov 4, 2026): \"The official BATTLE BEARS GOLD Soundtrack featuring original map and menu music by Rob Ruiz, AnDrue Humphreys, and Benjamin Vavak.",
+   "correction": "Add the official track list (24 tracks). The 16 map themes are: Abusement Park, No Bears Land, Sky View, Gold Digger, Huggable Factory, Space Oddity, Skate Or Die, Marecraft, Shortest Parsec, Frozen Pundra, Haunted Castle, Desert Airmine (track 12, 1:13), Aztec Attack, Toxic Terror, Steamyard Blues, Castle Royale. The rest are Main Menu (BBG), Tutorial, After Match, Main Menu (BBR), Huggable Factory (Full Version), Abusement Park (Full Version), and the two vocal tracks.",
+   "evidence": "https://store.steampowered.com/app/5321720/ fetched 2026-10-16, parsed from the music_album_track_name elements."
+  },
+  {
+   "file": "bbg-news-repo/content/evergreen.json",
+   "current_text": "SkyVu ran four Battle Bears Gold playtests on the Battle Bears Discord between July and September 2026.",
+   "correction": "Out of date. A fifth, 'final' Discord playtest was announced for Thursday Oct 15, 2026 (Windows, iOS and Android), so this post should say five playtests from July to October 2026, or otherwise reflect the final test. The headline '4 PLAYTESTS DOWN' and the body line 'Four Discord playtests, July to September 2026' need the same change.",
+   "evidence": "Steam news API for app 4408320, item dated 2026-10-14: 'Final Discord Playtest this Thursday Oct 15' (https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706674102)."
+  }
+ ],
+ "open_questions": [
+  "Was Desert Airmine really in BBR 1.0 (Oct 8, 2011)? Only the fan wiki says so; SkyVu's 2011 launch copy and blog were unreachable because web.archive.org was down all session.",
+  "Did SkyVu publish an official map blurb at battlebears.com/games/battle-bears-royale/maps/desert-airmine/, as it did for other maps? I could not check it.",
+  "Is Desert Airmine in the Nov 4, 2026 launch rotation, and is it one of the '16 wacky maps'? Evidence for: the OST track and a fan playtest chapter title. It is not shown in the trailer or screenshots or named in the store copy.",
+  "What does the 2026 build look like after BBG 3.0's 'New Map Lighting' (2021) and the Oct 2026 'Lighting improvements'? A 2026 screenshot or demo capture is needed.",
+  "Who made the 'Desert Level model & textures' renders (watermark www.kevinsalki.com), and are they pre-release? The renders show a grey-steel drill with blue-lit slats; in game the drill head looks tan or cream.",
+  "What exactly does the drill do (spin, or move up and down), and how did BBR 1.4.3 change it? The wiki pages disagree.",
+  "Was Desert Airmine the first or the second asymmetrical stage? The wiki page says both.",
+  "Where exactly is the Health Pack? The map page and the Health Pack page disagree.",
+  "Does the map have grey metal truss bridges (2012 overhead), rope-and-plank bridges (about-2021 fan thumbnail), or both? Was it reworked?",
+  "Who composed the 'Desert Airmine' track? The OST credits only Rob Ruiz, AnDrue Humphreys and Benjamin Vavak, collectively.",
+  "Did the King of the Windmill mode (BBG 2.8\u20132.29) run on Desert Airmine?",
+  "Was the 2013 removal really decided by 'a poll on the Battle Bears website'? This is an unverified wiki claim.",
+  "Does Desert Airmine appear in BB Heroes (2024)? I found no evidence either way."
+ ]
+}

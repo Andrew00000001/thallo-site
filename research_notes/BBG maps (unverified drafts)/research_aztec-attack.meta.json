@@ -1,0 +1,58 @@
+{
+ "quickref": [
+  {
+   "name": "Aztec Attack (originally \"Facing Temples\")",
+   "era": "Added BBR v1.3.1, June 28, 2012, as \"Facing Temples\" [Game text via wiki]. Renamed Aztec Attack at the 2013 BBG relaunch: the wiki says \"up until version 2.0\", the page was moved 2013-06-04 and SkyVu used the aztec-attack URL slug by Aug 2013. No map-specific rework is documented; BBG 3.0 (Nov 15, 2021) brought game-wide \"New Map Lighting\". The wiki says servers shut down Mar 12, 2024.",
+   "in_2026": "Shown in the official Steam trailer at 12.0\u201316.0 s and 43.0\u201345.5 s [Observed]. \"Aztec Attack\" is track 13 (1:20) of the official 2026 OST [Canon]. A fan video of playtest #3 (Aug 21, 2026) has the chapter \"Aztec Attack FFA\". The Steam store text does not name it, so launch inclusion is a strong inference.",
+   "setting": "A night-time Mesoamerican-style temple arena on a peanut-shaped plateau island ringed by a lava sea. Two big stepped sandstone pyramids face each other; team bases are inside the temples [Fan-wiki]. A central lava pool holds a faceted obsidian rock and a line of stepping stones, with a ruined colonnaded pavilion on each side.",
+   "palette_and_lighting": "Night: deep indigo zenith #05032B with stars, then plum #450930, crimson #830E2D and a raspberry horizon #9D1238 over black-maroon hills #3B0605. Sand is burnt orange #D85C2B (2026; #78421F in 2012). Sandstone #A85732 to #B26137. Lava sea #FF9A11; pool core #FEA604 to #FBCF02. Obsidian #220301. Cyan pads #46C7D4; red-team panels #CD3823. Warm light thrown up from the lava, soft shadows, cool accents only from pads and gems. No weather or particles seen in stills.",
+   "landmarks": "(1) Twin stepped temples facing each other. (2) A grand front staircase to a dark doorway framed by teal, coral and violet gem-mosaic panels and scroll reliefs. (3) The central lava pool with an obsidian rock and stepping stones. (4) The lava sea around the island. (5) Two ruined colonnaded pavilions beside the pool. (6) Carved mask-face stone cubes on cracked sand. Also: summit shrines with pyramidal caps, and a colonnade of square pillars around each temple base.",
+   "hazards_and_easter_eggs": "Lava kills, and the death counts as a suicide [Fan-wiki]. Many jump pads: the wiki says 12, I counted 14 markers. Some go up the back of each temple to a summit sniper perch, some sit at the pool corners and two are on the central rock. The Bearscream Sandwich is on the central rock [Fan-wiki]. The wiki claims Over Clocked Oliver and Astoria symbols at the temple spawns [Fan-wiki, Unverified; not seen in any image]. The name may nod to Unreal Tournament's Facing Worlds [Fan-wiki speculation]. Flames seen in one fan thumbnail are a weapon glitch, not set dressing.",
+   "confidence": "observed"
+  }
+ ],
+ "corrections": [
+  {
+   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md",
+   "current_text": "- [OFFICIAL-FRAME] The BBG in-game 3D look (Steam screenshots and the Steam trailer; the lava caverns are from the trailer) uses chunky, simple low-poly models and highly saturated colour. Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves, and effects are bright magenta, cyan and yellow.",
+   "correction": "Replace \"lava/orange caverns\" and \"the lava caverns are from the trailer\". The trailer's lava is the open-air Aztec Attack map: a plateau island in a lava sea under a starry crimson-to-indigo night sky (12.0\u201316.0 s and 43.0\u201345.5 s) [Observed]. The enclosed red-orange space at about 38.5\u201341.0 s is a fleshy interior with veined walls and rib-like columns, probably Marecraft [Inference], not a lava cavern.",
+   "evidence": "Trailer frames /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/t_0025\u2013t_0033 (ground level, temple stairs, night sky), t_0087\u2013t_0091 (aerial view of the island in the lava sea) and t_0080 (fleshy interior). Contact sheets are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/aztec_attack/trailer_sheets/."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md",
+   "current_text": "    - The lava caverns are attributed to the trailer, not the screenshots.",
+   "correction": "Change to: \"The lava in the trailer is the open-air Aztec Attack map, not a cavern; the red interior at about 38.5\u201341 s is probably Marecraft [Inference].\"",
+   "evidence": "Same frames as above: t_0087\u2013t_0091 show an open lava sea around a sand plateau under the sky; t_0080 shows an enclosed fleshy interior."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md",
+   "current_text": "  - **Aztec Attack**: temple carvings of O.C.O. and Astoria. The wiki speculates this \"may show that Oliver has a crush on Astoria\", which is fan speculation. [Fandom](https://battlebears.fandom.com/wiki/Aztec_Attack)",
+   "correction": "Use the wiki's exact, hedged wording. The Aztec page: \"One temple has a symbol representing Over Clocked Oliver, while the other has a symbol representing Astoria.\" The OCO page: \"there seems to be a carving of Over Clocked Oliver, along with Astoria. Both are located at each team's spawn points.\" Note that no image checked from 2012 to 2026 shows these symbols; the visible carvings are generic Mesoamerican masks, scrolls and gem mosaics. Add the basics: two temples on a lava-ringed island; added in BBR v1.3.1 (June 28, 2012) as Facing Temples.",
+   "evidence": "Wiki API parse of Aztec_Attack and Over_Clocked_Oliver. Images opened: conv_IMG_0525.png, conv_Facing_Temples_Development.png, related/maxres100_43.png and trailer t_0025\u2013t_0033 / t_0087\u2013t_0091. None shows an OCO or Astoria emblem."
+  },
+  {
+   "file": "/home/user/thallo-site/reports/Battle Bears character lore.md",
+   "current_text": "an \"O+A\" heart carved in a tree on the BBG Toxic Terror map, and temple symbols on Aztec Attack; all three are wiki claims [Fan-wiki, Unverified]",
+   "correction": "The label is correct; no factual change is needed. Optional precision: \"temple symbols on Aztec Attack (wiki: 'One temple has a symbol representing Over Clocked Oliver, while the other has a symbol representing Astoria'; not visible in any 2012\u20132026 image checked)\". The same optional note applies to characters/oliver.md line 35 and characters/astoria.md line 32.",
+   "evidence": "Same image set as above. The wiki itself hedges (\"seems\", \"may\")."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/drafts/visuals_combat-vfx.md",
+   "current_text": "  - Lava borders the Aztec maps [Observed: trailer 43.5\u201346 s; Maxresdefault(100).png].",
+   "correction": "\"Lava surrounds the Aztec Attack map (one map) [Observed: trailer 43.0\u201345.5 s, t_0087\u2013t_0092; File:Maxresdefault(100).jpg].\" Separately, line 77 (\"The body is still there at 14.9 s, when the shot ends\"): the body is still visible at 15.0 s (t_0031), and the Aztec shot runs to 16.0 s (t_0033), before the Astoria card at 16.5 s.",
+   "evidence": "Trailer frames t_0087 (43.0 s) to t_0091 (45.0 s), crossfade at t_0092 (45.5 s); t_0031 and t_0033 viewed in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/aztec_attack/trailer_sheets/ground_29_34.jpg. The wiki file is File:Maxresdefault(100).jpg (JPEG), per the imageinfo API."
+  }
+ ],
+ "open_questions": [
+  "What does SkyVu's archived 2013 page say? The snapshot http://web.archive.org/web/20130815053638/http://battlebears.com:80/games/battle-bears-royale/maps/aztec-attack/ exists per the archive.org availability API, but web.archive.org reset every connection.",
+  "Do the wiki-claimed Over Clocked Oliver and Astoria symbols exist at the spawns inside the temples? No image I opened shows the temple interiors clearly.",
+  "Which temple is red and which is blue in BBG and in 2026? The 2012 top-down marks red around one temple; the 2026 aerial shows one temple with red glowing panels and one with teal gems; the mapping is inferred.",
+  "Is the jump-pad count 12 (the wiki's figure) or 14 (cyan markers I counted on the 2012 top-down: 4 up the back of each temple, 4 at the pool corners, 2 on the central rock)?",
+  "What is the glowing square panel on each temple summit in the 2012 top-down (orange on one, pale on the other): a light, a skylight or a gameplay marker?",
+  "Did the 2026 build change geometry, or only lighting (BBG 3.0's 'New Map Lighting')? Which 2026 modes will run on Aztec Attack at the Nov 4 launch?",
+  "Which credited composer (Rob Ruiz, AnDrue Humphreys or Benjamin Vavak) wrote the 'Aztec Attack' track, and what does it sound like?",
+  "What are the release dates and contents of the official 'BATTLE BEARS GOLD Developer Update - Astoria Overhaul' (wUWf9O-YX4A) and '- Tillman Overhaul' (q1Y8Siqfvn4) videos, whose thumbnails show this map?",
+  "Does Aztec Attack appear in BB Heroes (2024)?",
+  "Lead for the maps bible: the official 2026 OST lists 15 BBG map tracks plus 'Castle Royale'. Reconcile that with Steam's '16 wacky maps' and the new Sky Pirates / Sky World map."
+ ]
+}

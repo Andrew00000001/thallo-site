@@ -1,0 +1,329 @@
+{
+ "weapons": [
+  {
+   "name": "Big Shot",
+   "slot": "primary",
+   "status": "Default (level 1) [Fan-wiki]. Part of Tillman's launch loadout in BBR v1.0 (Oct 8, 2011), per the 2011 SkyVu blog. That quote is [Canon] as recorded in earlier research notes, but I could not re-open it today because web.archive.org reset every connection. No rework is recorded. In 2026 Tillman holds this launcher model in the official Steam trailer [Observed].",
+   "official_text": "[Game text via wiki] \"Launches a giant missile out at a straight trajectory.\" (https://battlebears.fandom.com/wiki/Big_Shot). [Canon, not re-verified today] 2011 blog \"STOP. TILLMAN TIME\": \"Primary: Big Shot (Chest Cannon)\u2026\", quoted from /home/user/thallo-site/research_notes/Battle Bears character lore/astoria_graham_tillman.md line 82 (source https://web.archive.org/web/20111026075100/http://www.battlebears.com/blog/2011/10/7/stop-tillman-time.html).",
+   "mechanics": "FIRE MODE / PROJECTILE: The wiki says it fires \"damaging missiles in an arc\", a \"black bullet-like missile that moves in an arc\" that explodes on contact with any surface or player, damaging players in its AoE. It says the projectile resembles Bullet Bill and notes that the official text says \"straight\" although the shot arcs. Infobox: 10-20 explosive damage, AoE max-damage 100 / min-damage 200, rate of fire 0.5 s, ammo 7 (the body text says 6), reload 4 s, projectile 1,100 u/s [Fan-wiki]. LOOK [Observed]: In /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Big_Shot.png (BBG loadout model) it is a squat drum- or turbine-shaped launcher held two-handed against the belly and chest. It has a grey frame with purple trim and a round yellow muzzle disc. It is not a hatch in his chest. The same model, held by Cyan Tillman (screen labelled 2.1), is in .../png/Demolition_holding_Big_Shot.png. The 2012 BBR loadout icon (in .../png2/Dark_Matter.png) shows the same purple-and-yellow drum. PROJECTILE [Observed]: The upscaled crop .../crops/bigshot_proj.png, taken from .../png/8_battle_bears_royale.png (wiki caption \"Big Shot projectile\"), shows a dark navy/black rounded bullet with white eye-like markings and a white smoke streak behind it. 2026 TRAILER [Observed]: In /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4 at about 18.5-21 s (my frames .../frames/f_023-f_039 and .../frames_bs/g_001-g_028), a blue-and-white-skinned Tillman holds this drum launcher at chest height. An orange fireball then hits a nearby bear, but the shot comes from off-screen, so it is NOT documented as a Big Shot impact [Inference]. IMPACT: no image found [Unverified]. Depiction for shorts: [BBG News invention] brace the drum launcher at the belly and lob a black bullet-with-eyes missile in a visible arc, with an orange fireball puff and grey smoke on impact.",
+   "image_leads": [
+    "File:Big Shot.jpg",
+    "File:Demolition holding Big Shot.jpg",
+    "File:8 battle bears royale.jpg",
+    "File:Dark Matter.PNG (2012 loadout icon)",
+    "Official trailer 18.5-21 s (local trailer.mp4)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Big_Shot",
+    "https://battlebears.fandom.com/wiki/Demo_(BBG)",
+    "https://web.archive.org/web/20111026075100/http://www.battlebears.com/blog/2011/10/7/stop-tillman-time.html (not re-opened today)",
+    "https://store.steampowered.com/app/4408320"
+   ]
+  },
+  {
+   "name": "Gold Member",
+   "slot": "primary",
+   "status": "Unlock: 25,000 Joules, level 3 [Fan-wiki]. Already sold in BBR: the 2012 loadout screenshot File:Dark_Matter.PNG (uploaded 2012-03-29) lists \"GOLD MEMBER BUY NOW! 25,000\" [Observed]. Patched in BBR 1.4.2 (Feb 28, 2013): cooldown 1.5 to 2.0 s, max damage 35 to 45, projectile speed 1000 to 1200 u/s [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"For gold medalist shooters only. Smaller explosion than the Big Shot but with more damage on direct impact.\" (https://battlebears.fandom.com/wiki/Gold_Member)",
+   "mechanics": "The wiki calls it a reskin of the Big Shot that fires a \"gold bullet-like missile that moves with a straight trajectory\" and explodes on impact, with no arc and a slower rate of fire. Infobox: 35-55 damage, AoE 75/150, rate of fire 1.5 s, ammo 8 (the text says 6), reload 3.5 s, 1,200 u/s [Fan-wiki]. CONFLICT: the wiki says the official text is wrong and the AoE is larger, but the wiki's own AoE numbers (75/150 against Big Shot's 100/200) agree with the official \"smaller explosion\" [Inference]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/GoldMember.png shows the same drum launcher in polished gold with an orange glowing muzzle. In .../png/Gold_Tillman.png the Gold Tillman skin holds it. PROJECTILE / IMPACT: no image [Unverified]. Depiction: [BBG News invention] a gold bullet-missile flying dead straight, with a tighter blast than the Big Shot's.",
+   "image_leads": [
+    "File:GoldMember.jpg",
+    "File:DEMO GOLD MEMBER.jpg",
+    "File:Gold Tillman.jpg",
+    "File:Dark Matter.PNG (list icon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Gold_Member",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2"
+   ]
+  },
+  {
+   "name": "Dark Matter",
+   "slot": "primary",
+   "status": "Unlock: 60,000 Joules, level 9 [Fan-wiki]. Price history per the wiki: 50,000, then 20,000, then 60,000 Joules (the last change in BBR 1.4.2, Feb 28, 2013). It existed in BBR by March 2012 (screenshot upload date) and is on the BBR class icon File:Demo-darkmatter.png [Observed]. Previous stats: 30-80 damage, 450 u/s, 0.75 s rate of fire [Fan-wiki]. A glowing tip (\"Purple pulsing light emitting from the spinning barrel\") was added in BBR 1.4.3 (2013) [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Amazing blast range, and utterly disorientating when consumed by one. Be very careful with friendly fire and consider using ammo equipment to up its 1 shot reserve!\" (https://battlebears.fandom.com/wiki/Dark_Matter_(BBG))",
+   "mechanics": "PROJECTILE: The wiki describes \"purple orbs that travel in straight lines and explode on impact\", a \"single, slow moving purple orb\". The explosion is \"notably large, dark, and electrified\", and \"a sphere of energy blocks the target's vision\u2026 unable to see for a second or two, regardless of whether they are a teammate or on the enemy team\". Infobox: 30-50 damage, AoE 125/250, rate of fire 1 s, ammo 4, reload 4 s, 600 u/s [Fan-wiki]. The BBR 1.2.1 notes (Jan 27, 2012) say \"Friendly Fire is GONE! - You still do self damage however\" [Fan-wiki transcription], so the friendly-fire warning probably refers to self-damage or the vision effect [Inference]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/DarkMatter.png shows a bulky purple blaster with a yellow slot and black-and-purple claw prongs around a glowing violet tip. The 2012 BBR model in .../png2/Dark_Matter.png is the same purple gun with a yellow stripe and prongs. In the 2D art (.../png/Demo-darkmatter.png, .../png/TILLMAN_Blog.png) the gun is purple with starry speckles and yellow panels, and black prongs hold a dark core in a violet glow. PROJECTILE [Observed]: .../png/Dearly_matter_close_up.png (wiki caption \"Dark Matter projectiles\") shows bright pink-magenta cores wrapped in curved pink blade-like swirls, with blue-white electric arcs. The orbs read as magenta, not deep purple. IMPACT: no captioned image. In the trailer at about 12.5-16 s (frames .../frames/f_005-f_015), a giant translucent magenta polygonal sphere swallows the view. The shooter is not shown, so attributing it to Dark Matter is [Inference]. Depiction: [BBG News invention] a slow magenta orb with crackling arcs that blooms into a dark-magenta sphere and blinds anyone inside for about 2 s.",
+   "image_leads": [
+    "File:DarkMatter.jpg",
+    "File:Dearly matter close up.jpeg",
+    "File:Dark Matter.PNG",
+    "File:Demo-darkmatter.png",
+    "File:TILLMAN Blog.png",
+    "File:Infinite Light Matter hacker.png (purple gun firing blue lightning; title and contents disagree)",
+    "Official trailer 12.5-16 s magenta sphere (attribution unconfirmed)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Dark_Matter_(BBG)",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.3",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Light Matter",
+   "slot": "primary",
+   "status": "Unlock: 70 Gas on the weapon page but 60 Gas on the class page [Fan-wiki conflict], level 1. Added in BBR 1.3.1 (June 28, 2012); that update's weapons were released gradually over four weeks [Fan-wiki]. Before 1.4.2 it cost 100,000 Joules. BBR 1.4.2 also raised projectile speed from 350 to 450 and cut reload from 5 to 4 s. A pulsing blue tip was added in 1.4.3 [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"It's not to be taken lightly WAKKA WAKKA WAKKA!\" (https://battlebears.fandom.com/wiki/Light_Matter)",
+   "mechanics": "The wiki calls it a reskin of the Dark Matter that fires a \"single, slow moving blue orb that explodes on contact\". The explosion is \"notably large, blinding, and electrified\". Infobox: 45-65 damage, AoE 100/300, rate of fire 1.5 s, ammo 2, reload 4.5 s, 750 u/s [Fan-wiki]. The page intro contradicts the infobox (\"deals less damage than Dark Matter\"). The wiki adds that fast classes can outrun the orb. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/LightMatter.png shows a white/silver body with black stripes and black-and-white claw prongs around a glowing cyan tip. The 2012 version (.../png2/Light_matter.png, on a pumpkin-head skin) is the same white gun. PROJECTILE [Observed]: .../png/Light_Matter_Orb.png (caption \"Light Matter projectile\") and .../png2/Light_matter_orb.png show a cyan-blue glowing orb with ring-like swirls and electric streaks. IMPACT [Observed]: .../png/Photo.png (caption \"Light Matter explosion\", uploaded June 2012; the HUD shows 0/1 ammo while a white Light Matter is held) shows a huge, opaque white polygonal dome ringed with cyan lightning. The same white dome with cyan lightning appears in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_03.jpg, in the trailer at about 8-10.5 s (frames .../frames_dome/d_011-d_021, Graham's segment, shooter not shown) and in the official \"Tillman Overhaul\" thumbnail .../yt/q1Y8Siqfvn4_hq1.jpg. Calling those Light Matter blasts is [Inference]. Depiction: [BBG News invention] a cyan orb, then a white-out dome crackling with blue lightning.",
+   "image_leads": [
+    "File:LightMatter.jpg",
+    "File:Light Matter Orb.jpeg",
+    "File:Light matter orb.jpeg",
+    "File:Photo.PNG",
+    "File:Light matter.png",
+    "File:Dark matter's opposite.jpeg",
+    "File:Light Matter.jpg",
+    "File:Demo setup.jpg",
+    "Steam screen_03.jpg; trailer 8-10.5 s white dome",
+    "YouTube q1Y8Siqfvn4 hq1.jpg thumbnail"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Light_Matter",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.3",
+    "https://www.youtube.com/watch?v=q1Y8Siqfvn4 (title via oEmbed only; not watched)"
+   ]
+  },
+  {
+   "name": "S'no Matter",
+   "slot": "primary",
+   "status": "Unlock: 60 Gas on the class page (70 Gas in the wiki's 2015 table), level 15 [Fan-wiki]. Added in BBG 2.15 (Dec 20, 2014) [Fan-wiki update table].",
+   "official_text": "[Game text via wiki] \"It S'no Matter how fast you can move, I can just freeze you! \" (https://battlebears.fandom.com/wiki/S%27no_Matter)",
+   "mechanics": "PROJECTILE: The wiki describes a \"slow moving gray projectile at a straight trajectory\" that explodes on contact with any surface or player. STATUS: it \"freezes anyone in the blast radius for 2 seconds, leaving them unable to move or rotate the camera\"; a reload in progress restarts, and teammates may be frozen too. Infobox: 25-40 damage, AoE 100/200, rate of fire 2 s, ammo 3, reload 4.5 s, freeze 2 s, 800 u/s, -10% movement speed [Fan-wiki]. LOOK [Observed]: in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Snomatter.png the held weapon is swamped by a bright icy cyan-white glow, so its shape is hard to read. The concept .../png/Snomatterconcpetar.png, hand-labelled \"Tillmans S'no Matter\", shows a gun wrapped in red tartan with white snowflake ornaments and cyan hexagonal gems. A small sketch beside it shows the shot lobbed in an arc and the target encased in a jagged cyan ice block. The concept's arc conflicts with the wiki's \"straight\" [Observed vs Fan-wiki]. In .../png/AcreamboPistolsandS'noMatterconceptart.png (BBR holiday key art, which the wiki calls S'no Matter concept art), a snowman-faced panda holds a clawed blaster with candy-cane stripes [Observed]. IN-GAME FREEZE LOOK: no image [Unverified]. Depiction: [BBG News invention] use the concept's ice-block encasement on a grey snowball shot.",
+   "image_leads": [
+    "File:Snomatter.jpg",
+    "File:Snomatterconcpetar.jpg",
+    "File:AcreamboPistolsandS'noMatterconceptart.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/S%27no_Matter",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Bouncing Betty",
+   "slot": "primary",
+   "status": "REMOVED. Released in BBG 2.2 (Aug 21, 2013) [Fan-wiki]. The page infobox shows 300,000 Joules at level 1, and the class page marks it \"Unavailable\". No removal date was found. The wiki page moved to past tense on May 22, 2020 [Fan-wiki revision history], so it was removed before then [Inference]. Stats were updated during the June 2014 \"Demo Overhaul\" [Fan-wiki edit summary].",
+   "official_text": "[Game text via wiki] \"The master of explosions has a lovely friend named Betty. Tillman and her go way back, bouncing around exploding everywhere. Oh, to be young and explosively in love!\" (https://battlebears.fandom.com/wiki/Bouncing_Betty)",
+   "mechanics": "PROJECTILE: The wiki says it \"lobbed a large, black bomb with a lit fuse\". On surface contact the bomb explodes, bounces and explodes again, reflecting at the angle it hit, for three bounces before the final detonation. It \"could not directly hit players\". Infobox: 16-32 damage (the body text says 30-50), AoE 125/250, rate of fire 1.5 s, ammo 3, reload 4 s, 1,000 u/s [Fan-wiki]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Bouncing_Betty.png shows a stubby, wide-mouthed launcher held at face height, with a white/grey shell, a crosshair emblem and a yellow-orange tab. In the first-person shot .../crops/betty_play.png (from File:Tillman_playing_with_Betty.png) the launcher is white with an orange \"PUSH\" band and a cartoon bomb decal. PROJECTILE [Observed]: the same image shows a round black bomb with white eyes, red lips and a sparking fuse, trailing pink puffs. .../crops/crazy.png (File:CRAZY_DEMO_LAND.jpg) shows several small fuse-lit black bombs arcing with faint pink-white sparkle trails. CONCEPTS [Observed]: .../png/Bouncing_Betty_Concept.png and .../png/Bouncingbettyconceptart.png carry a SkyVu watermark and BBG logo. They show olive, grey, white and black colour variants of the launcher with a \"PUSH\" label, a bomb-face icon and an arrow. EXPLOSION: no image [Unverified].",
+   "image_leads": [
+    "File:Bouncing Betty.png",
+    "File:Tillman playing with Betty.png",
+    "File:CRAZY DEMO LAND.jpg",
+    "File:Bouncing Betty Concept.jpg",
+    "File:Bouncingbettyconceptart.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Bouncing_Betty",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/Demo_(BBG)"
+   ]
+  },
+  {
+   "name": "Blast-O-Mole",
+   "slot": "primary",
+   "status": "Unlock: 80 Gas on the weapon page but 60 Gas on the class page [Fan-wiki conflict], level 1. Added in BBG 2.5 (Nov 27, 2013) [Fan-wiki]. It became Tillman's basic attack \"Blast-o-Mole\" in BB Heroes (soft launch May 2023, global Oct 3, 2024) [Canon; dates from Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Tillman's pet mole. Playing fetch has never been so explosive!\" (https://battlebears.fandom.com/wiki/Blast-O-Mole). BBH [Canon, fetched today from https://battlebears.com/pages/characters]: \"Tillman's \"Blast-o-Mole\" attack involves launching a robotic mole that burrows and explodes, damaging enemies within its blast zone until it vanishes.\"",
+   "mechanics": "FIRE MODE: The wiki says the Demo \"throws a mole-robot projectile in the direction of the player's aim with a slight arc\". IMPACT: \"huge damage-dealing jets of flame-like explosions burst forward from the site of impact. More explosions continue to erupt in a straight line until approximately six explosions have occurred\". Infobox: 30-50 damage, AoE 100/250, rate of fire 1.25 s, ammo 2, reload 4 s [Fan-wiki]. In BBH the mole burrows and explodes in a blast zone until it vanishes [Canon]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Blast-O-Mole.png shows a purple robotic mole held in both hands, with a silver spiral drill nose, a glowing pink-magenta eye and silver spikes. EXPLOSION CHAIN: no image [Unverified]. Depiction: [BBG News invention] a lobbed mole that digs in, then a line of six flame bursts marching forward.",
+   "image_leads": [
+    "File:Blast-O-Mole.jpg",
+    "File:BBH Profile Tillman.png (BBH portrait only)",
+    "battlebears.com Tillman_BBH_HeroIcon_1_480x480.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Blast-O-Mole",
+    "https://battlebears.com/pages/characters",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Heroes",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Twin Bearzookas",
+   "slot": "primary",
+   "status": "Unlock: 150,000 Joules on the weapon and class pages (325,000 Joules in the wiki's 2015 class table), level 10 [Fan-wiki]. Added in BBG 2.17 (Mar 8, 2015) [Fan-wiki update table]. The wiki records pre-release (\"incoming\") stats that differ from the final ones.",
+   "official_text": "none found (the wiki page quotes no in-game description)",
+   "mechanics": "Infobox: 15-25 damage, AoE 125/250, rate of fire 1 s, ammo 3, reload 5 s, -10% speed, projectile 750 u/s [Fan-wiki]. The wiki also says the weapon is \"an reference to Tillman's Twin Bearzookas in Battle Bears Zero\". LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Ohmagawdyas.png (zoom in .../crops/tbz.png) shows two pale olive/lime-green launcher tubes with thin dark seam lines, silver octagonal muzzle rims and black bores, one gripped on each shoulder. No red-and-orange lines and no hazard stripes are visible on these tubes. PROJECTILE / IMPACT: no image [Unverified]. Depiction: [BBG News invention] alternating shots from left and right tubes.",
+   "image_leads": [
+    "File:Ohmagawdyas.jpeg",
+    "File:Battle Bears Gold Twin Bearzookas (wiki video file)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Twin_Bearzookas",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Fireworks",
+   "slot": "secondary",
+   "status": "Default (level 1) [Fan-wiki]. Part of the BBR v1.0 launch loadout (2011 blog, [Canon] not re-verified today). BBR 1.4.2 (Feb 28, 2013) raised the clip from 10 to 30, the cooldown went from 1.0 to 0.5 s, lock time from 1.0 to 0.8 s, and reload from 4 to 9 s [Fan-wiki]. The wiki says the higher ammo was reverted in v2.6 (Dec 20, 2013). It also says the weapon can no longer lock, but gives no version for that change.",
+   "official_text": "[Game text via wiki] \"Quick to lock and fire these vertical missiles are great for harassing distant and slow moving opponents! Wait for targeting reticule to gain a full lock before firing.\" (https://battlebears.fandom.com/wiki/Fireworks). [Canon, not re-verified today] 2011 blog: \"Secondary: Fireworks: Low damage, High fire speed, lock on feature.\"",
+   "mechanics": "FIRE MODE: The wiki describes \"small, red firecrackers that are held in place by the wings of the Demo's jetpack\". Their fuse is lit and they are released into the air, \"landing a second or two later in a spiralling cascade of firecrackers\" where the reticule was at launch, then \"expode into a flurry of damaging, orange sparks\". The wiki says it cannot lock now, which conflicts with the official text and the 2011 blog. The Weapon Statistics page lists a trigger delay. Infobox: 10-20 damage, AoE 125/250, rate of fire 0.5 s, ammo 15, reload 3.5 s [Fan-wiki]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Fireworks.png (zoom .../crops/fw_crop.png) and .../png2/Demo_(Wide).png show four red firecrackers with orange cone tips, two per side on black-striped wing racks on the backpack, with gold fuse sticks hanging below. Each has a pink-purple mark that the wiki calls a Huggable face; at the available resolution it reads as a pink flame-like blotch. The 2012 loadout icon is four red rockets (.../png2/Happy_Hour.png list). IMPACT: no image [Unverified]. BBH successor: the \"Firework Flurry\" Ultimate (see notes).",
+   "image_leads": [
+    "File:Fireworks.jpg",
+    "File:Demo (Wide).png",
+    "File:Happy Hour.PNG (list icon)",
+    "File:Demolition holding Big Shot.jpg (list icon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Fireworks",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2",
+    "https://battlebears.fandom.com/wiki/Weapon_Statistics",
+    "https://battlebears.com/pages/characters"
+   ]
+  },
+  {
+   "name": "Happy Hour",
+   "slot": "secondary",
+   "status": "Unlock: 50,000 Joules, level 12 [Fan-wiki]. It existed in BBR by March 2012 (screenshot File:Happy_Hour.PNG uploaded 2012-03-29) [Observed]. BBR 1.4.2 made ascent and descent faster and cut lock time from 1.5 to 1.0 s. It had a -20% special-speed penalty before the 2014 \"Demo Overhaul\" and a -8% speed penalty before v2.6 [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Fires and lands a bit slower than Fireworks but with far more firepower and less reserve for spamming.\" (https://battlebears.fandom.com/wiki/Happy_Hour)",
+   "mechanics": "FIRE MODE: The wiki calls it a lock-on missile: \"a long, red missile on the Demo's jetpack with the words \"Happy Hour\" and a happy face\" that ascends into the air and falls back down, \"exploding into a damaging shock-wave\". Infobox: 20-40 damage, AoE 100/400, rate of fire 1.5 s, ammo 6 (the text says 5), reload 4 s, lock 2.5 s, homing rating 4 [Fan-wiki]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/HappyHour.png (zoom .../crops/hh_crop.png) shows a long red rocket over the right shoulder with yellow fins, small yellow window slots and a red-yellow-black nose. In .../png2/Happy_Hour_hacker.png (first person) the rocket shows white \"HAPPY\" lettering, and the launch trails are thin sparkling streaks into a night sky. IMPACT [Observed]: .../png/Happy_hour_explosion.png (wiki caption \"Happy Hour explosion\") shows a tall magenta cone of spiky light shards with a magenta ring spreading across the floor. The same magenta spike burst appears in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_01.jpg and in trailer frames t_0062-t_0065 (about 30.5-32 s), hitting near a Huggable. That attribution is [Inference].",
+   "image_leads": [
+    "File:HappyHour.jpg",
+    "File:Happy hour explosion.jpeg",
+    "File:Happy Hour.PNG",
+    "File:Happy Hour hacker.png",
+    "File:Tillman default.png",
+    "Steam screen_01.jpg; trailer t_0062-t_0065"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Happy_Hour",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2"
+   ]
+  },
+  {
+   "name": "Piece Maker",
+   "slot": "secondary",
+   "status": "Unlock: 20 Gas (25 Gas in the 2015 table), level 6 [Fan-wiki]. The wiki calls it \"one of demo's three original weapons\". Price history per the wiki: 100,000 Joules, then 10 Gas, then 25 Gas (BBR 1.4.2). It was originally named \"Peace Maker\" and the missile still reads \"Peace Maker\". v1.4.2 fixed the look-straight-up suicide trick. It had a 15% speed penalty before v2.6 [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Slow to lock, reload, & fire...but quick to destroy the entire enemy team! It may be tricky to use, but has a great potential to kill groups of enemies. Can be fired without lock to great effect.\" (https://battlebears.fandom.com/wiki/Piece_Maker)",
+   "mechanics": "FIRE MODE: The wiki describes a launchable nuclear missile strapped to the jetpack. It \"rises to a low, visible height before decending quickly\" and flights usually take 7-8 s. It homes in when locked; unlocked, it lands where the player aimed. Infobox: 30-70 damage, AoE 225/550, ammo 1, rate of fire 1.5 s, reload 9 s, lock 2.5 s, ascend 1,250 u/s, homing 10 [Fan-wiki]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/PeaceMaker.png and .../png2/Piece_maker.png (2012) show a fat missile on the back, painted with rainbow stripes and hippie-style art with \"MAKER\" lettering. FLIGHT [Observed]: .../png/Up2.png and .../png/Down2.png (montage .../crops/updown.png) show a small rainbow-tinted missile riding a long, spiky yellow flame trail up into, and down out of, a dusk sky. IMPACT [Observed]: .../png/Duo.png shows mushroom clouds built from translucent white-grey faceted puffs. .../png2/Multiple_Piece_Makers.png shows a yellow-white flash under a translucent grey cloud.",
+   "image_leads": [
+    "File:PeaceMaker.jpg",
+    "File:Piece maker.PNG",
+    "File:Up2.jpeg",
+    "File:Down2.jpeg",
+    "File:Duo.jpeg",
+    "File:Incoming piece maker.jpeg",
+    "File:Multiple Piece Makers.jpg",
+    "File:Demo setup.jpg (icon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Piece_Maker",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2"
+   ]
+  },
+  {
+   "name": "Phat Man",
+   "slot": "secondary",
+   "status": "Unlock: 15 Gas on the weapon page but 20 Gas on the class page [Fan-wiki conflict], level 1. Added in BBR 1.3.1 (June 28, 2012); the update text \"Tons of New Weapons like the Urine Trouble & Phat Man\" is a [Fan-wiki] transcription of the App Store notes. It cost 30 Gas until v1.4.2 (the 1.4.2 notes say 30 to 40). Before v2.6 it had a 15% speed penalty and a 20 s reload [Fan-wiki]. In 2026 it is visible in official Steam assets [Observed].",
+   "official_text": "[Game text via wiki] \"Phat chance that you'll be dodging this baby. Flies out of sight and, just when you've forgotten about it, hits fast and hard like a liquored up grandpa.\" (https://battlebears.fandom.com/wiki/Phat_Man). BBF version [Game text via wiki]: \"It's kind of like jalapenos wrapped in bacon. Satisfying with a good kick\" (https://battlebears.fandom.com/wiki/Tillman_(Hero)).",
+   "mechanics": "FIRE MODE: The wiki calls it a reskin of the Piece Maker. It \"rises to a high, invisible height. It remains hidden in the sky for some time, before flying slowly to the impact spot\". When locked it follows the target \"until that target dies\", and it sometimes spirals in a barrel roll. Infobox: 65-195 damage, AoE 200/600, ammo 1, reload 10 s, lock 4 s, -10% speed, homing 2.0 [Fan-wiki]. The trivia calls its homing the best, which conflicts with that rating. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Tillman_Phat_Man_copy.png shows a chubby olive-drab bomb with a yellow nose cap, a big yellow-and-black radiation trefoil, yellow-and-black hazard-striped fins and a yellow X-eyed smiley. In .../png2/Demo_(Closed).png it is worn on the back. FLIGHT [Observed]: .../png/Up1.png and .../png/Down1.png show a tiny bomb on a long, jagged yellow flame trail. IMPACT [Observed]: .../png/Duo.png shows a larger grey faceted mushroom cloud. 2026 OFFICIAL [Observed]: in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_04.jpg (crop .../crops/s04_center.png) the bomb dives nose-first into a red interior below a pale yellow light column. In trailer.mp4 at about 24.5-28 s (frames .../frames/f_047-f_061), the camera rides the falling olive bomb (yellow nose, black trefoil on yellow) past a space station; then a giant yellow-white faceted blast fills a room and flings body parts. The trailer's \"TILLMAN / DEMO\" card (t_0058-t_0060, 28.5-30 s) shows a red-and-black masked Tillman with an olive shell banded in yellow on his back. That shell is probably the Phat Man [Inference].",
+   "image_leads": [
+    "File:Tillman Phat Man copy.png",
+    "File:Up1.jpeg",
+    "File:Down1.jpeg",
+    "File:Duo.jpeg",
+    "File:Phat Man Incoming.jpeg",
+    "File:Demo (Closed).png",
+    "File:Nuclear explosion.jpeg (unattributed yellow blast, same 2013 uploader as the Phat Man and Piece Maker shots)",
+    "Steam screen_04.jpg",
+    "Official trailer 24.5-30 s",
+    "File:BBRWEAPONS.png (1.3.1 promo, radiation bomb)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Phat_Man",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://store.steampowered.com/app/4408320"
+   ]
+  },
+  {
+   "name": "Rocket Propelled Lance",
+   "slot": "secondary",
+   "status": "Unlock: 60 Gas (70 Gas in the 2015 table), level 10 [Fan-wiki]. Added in BBG 2.13 (Oct 31, 2014). Per the wiki, the 2.17 update (Mar 8, 2015) made it pause briefly before flying at the target.",
+   "official_text": "[Game text via wiki] \"Who uses a lance on a horse these days wen you can just launch one at your foes?\" [sic] (https://battlebears.fandom.com/wiki/Rocket_Propelled_Lance)",
+   "mechanics": "FIRE MODE: The wiki describes a fast projectile that \"will land on the area (a floor or ceiling) where the user was aiming\" and \"can fly into rooms unlike other demo secondaries\". It does not lock or home. Infobox: 20-40 damage, AoE 150/400, rate of fire 1.0 s, ammo 1, reload 5 s, ascend 50 u/s, descend 1,100 u/s [Fan-wiki], which suggests a slow lift, a hang, then a fast dive [Inference]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/RPL.png shows a red lance-shaped rocket with a pointed nose, a black-and-white checkerboard band, red fins and a yellow collar, mounted on the back and angled up over the shoulder. FLIGHT / IMPACT: no image [Unverified].",
+   "image_leads": [
+    "File:RPL.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Rocket_Propelled_Lance",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Reverse Fountain",
+   "slot": "secondary",
+   "status": "Unlock: 120,000 Joules, level 1 [Fan-wiki]. Added in BBG 2.5 (Nov 27, 2013) [Fan-wiki update table].",
+   "official_text": "[Game text via wiki] \"Tillman really likes fireworks, so much so he turns a beautiful fountain into a deadly shower of sparks and fire!\" (https://battlebears.fandom.com/wiki/Reverse_Fountain)",
+   "mechanics": "FIRE MODE: The wiki describes a lock-on firework (300-unit lock radius; lock takes 2 s in the text, 2.5 s in the infobox) that ascends for several seconds and drops back. It is NOT an explosive: it \"stops shortly before hitting a tangible surface and sprays a cascade of damaging sparks, dealing 55 damage per second over 3.25 seconds\" (the infobox says 60). Under a ceiling it stops short and sprays at once, which can kill the user. It has 1 ammo, it does not gib (Double Hug trivia), and the wiki categorises it as DPS. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Reverse_Fountain.png shows a thick green tube with a dark-green octagonal mouth and yellow shooting-star streak decals, worn on the back and aimed forward over the head. SPARK SHOWER: no image [Unverified]. Depiction: [BBG News invention] a hovering firework raining gold sparks straight down for about 3 s, with no blast.",
+   "image_leads": [
+    "File:Reverse Fountain.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Reverse_Fountain",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Let It Cold",
+   "slot": "secondary",
+   "status": "Unlock: 150,000 Joules, level 1 [Fan-wiki]. Added in BBG 2.26 (Jan 17, 2017) [Fan-wiki update table]. It is the most recent Demo weapon the wiki documents.",
+   "official_text": "[Game text via wiki] \"Your enemies won't have a skull or bones after being hit with ice cold rockets! These rockets explode on impact and freezes the opponent for a small duration\" (https://battlebears.fandom.com/wiki/Let_It_Cold)",
+   "mechanics": "FIRE MODE: The wiki describes \"launchable missiles that rain down on enemies\" that deal AoE damage and freeze targets. STATUS: freeze duration 3 s per the infobox. Infobox: 20-40 damage, AoE 150/300, rate of fire 0.5 s, ammo 4, reload 4 s. The RPL trivia says it neither locks nor homes. The page's Usage and Equipment sections are empty [Fan-wiki]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Letitcold.png shows four blue firecracker rockets with blue cone tips and grinning green-faced decals, two per side on the same black-striped backpack wing racks as Fireworks, with gold fuse sticks. FREEZE LOOK: no image [Unverified]. Depiction: [BBG News invention] use the same icy encasement as S'no Matter for consistency.",
+   "image_leads": [
+    "File:Letitcold.jpeg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Let_It_Cold",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Buzzard",
+   "slot": "melee",
+   "status": "Default (level 1) [Fan-wiki]. Part of the BBR v1.0 launch loadout (2011 blog, [Canon] not re-verified today).",
+   "official_text": "[Game text via wiki] \"Slow to activate but with great range - make sure you get the hang of their timing!\" (https://battlebears.fandom.com/wiki/Buzzard). [Canon, not re-verified today] 2011 blog: \"Melee: Buzzard: Double Buzzsaw Extension.\"",
+   "mechanics": "70 damage, no stat modifiers [Fan-wiki]. Per the class page, Demo melees have a slow draw and take about a second, but have long range: they \"can hit targets directly behind and a significant distance above the player\u2026 cannot hit targets directly in front\". Despite being doubled they do not deal double damage [Fan-wiki]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/Buzzards.png shows a long, curved white mechanical arm rising from the backpack and arching over his head, holding a large circular sawblade with a grey/black hub, with a second saw behind it. .../png2/Demo_(Melee).png shows two such white arms, one per side, with grey saw heads above his head. Depiction: [BBG News invention] the twin backpack saws chop down over his head and behind him, never straight ahead.",
+   "image_leads": [
+    "File:Buzzards.jpg",
+    "File:Demo (Melee).png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Buzzard",
+    "https://battlebears.fandom.com/wiki/Demo_(BBG)"
+   ]
+  },
+  {
+   "name": "Double Hug",
+   "slot": "melee",
+   "status": "Unlock: 20 Gas (15 Gas in the 2015 table), level 8. It originally cost Joules. The wiki calls it one of the original three Demo melees [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"What's stronger than spinning blades? Soft squishy huggables!\" (https://battlebears.fandom.com/wiki/Double_Hug)",
+   "mechanics": "45 damage, +10% speed. It does not gib players [Fan-wiki]. It uses the same overhead and behind arc as the other Demo melees [Fan-wiki class page]. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/DoubleHug.png and .../png2/Demo_setup.png show two pink Huggable plush heads on the ends of the two curved white backpack arms, held above his head.",
+   "image_leads": [
+    "File:DoubleHug.jpg",
+    "File:Demo setup.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Double_Hug"
+   ]
+  },
+  {
+   "name": "Good Morning",
+   "slot": "melee",
+   "status": "Unlock: 115,000 Joules, level 15 [Fan-wiki]. The wiki calls it one of the original three melees and says it was originally titled \"Good Mourning\". BBR 1.4.2 adjusted its Melee+ bonuses and made \"The plugs\u2026 completely in 3D\" [Fan-wiki].",
+   "official_text": "[Game text via wiki] \"Do you guys remember \"Battle Bots\"? That was a good show...\" (https://battlebears.fandom.com/wiki/Good_Morning)",
+   "mechanics": "45 damage, +15% health. The name references the morning star [Fan-wiki]. It uses the same overhead and behind arc as the other Demo melees. LOOK [Observed]: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/png/GoodMorning.png shows two black spiked balls with a grey grid pattern on the ends of the white backpack arms over his head. The loadout icon .../png2/Good_morning.png shows a spiked black ball on a jointed grey claw arm.",
+   "image_leads": [
+    "File:GoodMorning.jpg",
+    "File:Good morning.jpg",
+    "File:Happy hour explosion.jpeg (HUD melee icon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Good_Morning",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2"
+   ]
+  }
+ ],
+ "notes": "PATH KEY: every [Observed] path that starts \\\".../\\\" means /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman_arsenal/ (subfolders png, png2, crops, frames, frames_bs, frames_dome, yt). Wiki page JSON is in .../pages. My scripts are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/scripts_tillman_arsenal/.\n\nARSENAL IS COMPLETE AT 18 BBG ITEMS. The class page \\\"Demo (BBG)\\\" lists 8 primaries, 7 secondaries and 3 melees. Category:Demo, weapons_by_class.json[\\\"Tillman\\\"] and the old page revisions from 2015-2020 all match. \\\"Demo (BBG)/Weapons\\\" is a one-line stub. None of the 5 \\\"_unassigned\\\" pages are Demo weapons: Adrenaline Gun is Arbiter, Catastrophe is Heavy, ClubCobra is Combat Tech, Hazard Toy is Assassin, The Incredible Riggs is Heavy. Timeline [Fan-wiki update tables]:\n- BBR v1.0 (Oct 8, 2011): Big Shot, Fireworks, Buzzard.\n- By Mar-Oct 2012 (wiki screenshots): Dark Matter, Gold Member, Happy Hour, Piece Maker, Double Hug, Good Morning.\n- BBR 1.3.1 (Jun 28, 2012): Light Matter, Phat Man.\n- BBG (renamed; v1.0 May 24, 2013), additions: Bouncing Betty 2.2 (Aug 21, 2013, later removed), Blast-O-Mole and Reverse Fountain 2.5 (Nov 27, 2013), RPL 2.13 (Oct 31, 2014), S'no Matter 2.15 (Dec 20, 2014), Twin Bearzookas 2.17 (Mar 8, 2015), Let It Cold 2.26 (Jan 17, 2017).\n- 2.13 note: \\\"Demo's rockets now have homing capabilities\\\".\n- A \\\"Demo Overhaul\\\" (wiki edit summaries, June 6-7, 2014) matches the official YouTube video \\\"BATTLE BEARS GOLD Developer Update - Tillman Overhaul\\\" (title and channel \\\"BATTLE BEARS\\\" verified today via oEmbed; not watched).\n- BBG 3.0 (Nov 15, 2021) removed all +1 equipment except Speed +1 and removed Equipment Slot 2, so the wiki's Explosions+1 and Ammo+1 tables are pre-2021.\n- 2026: Steam lists only totals (\\\"80+ PRIMARY WEAPONS, 60+ SECONDARY WEAPONS, 50+ MELEES\\\") and \\\"DEMOLITION: Tillman\\\" [Canon]. No per-weapon 2026 text exists.\n\nCLASS-LEVEL OFFICIAL TEXT:\n- [Game text via wiki] \\\"Tillman does not have a weapon on hand that doesn't have splash damage! Throwing explosives into a group of enemies is a great way to turn the tides of a battle but be very careful to avoid hitting yourself!\\\" (2015 Demo page revision 69512). Earlier notes also cite it from the archived 2012 BBR classes page as [Canon], which I could not re-open.\n- Iron Curtain special [Game text via wiki]: \\\"Use Tillman's missiles to fire over the barrier\\\".\n- STAGING RULES FOR ANIMATORS [Observed across images]: the primary is held in his hands. Secondaries ride on the backpack (Fireworks and Let It Cold on side wing racks; Happy Hour, Piece Maker, Phat Man, RPL and Reverse Fountain on the back, over the shoulder). The three melees are paired white arms that swing up from the backpack over his head.\n\nLIMITS: web.archive.org reset every connection today. The proxy logged ws_closed_mid_exchange more than 20 times; WebFetch refuses the host. So these could NOT be re-verified: the 2011 \\\"STOP. TILLMAN TIME\\\" loadout quote, the 2012 BBR classes text, the official BBG 2.6 change log, and the 2.5 and 2.6 release notes (2.5 snapshot exists: web.archive.org/web/20140207101516/http://battlebears.com:80/battle-bears-gold-update-2-5-now-available-full-release-notes/; the 2.6 change log is at /web/20151029082644/). Retry these for official Demo balance lines. YouTube watch pages redirect to google.com/sorry; only oEmbed titles and thumbnails work. The JustNubz 2026 showcase thumbnails show Heavy, Huggable and a bundle screen, with no Demo content. The \\\"Tillman Overhaul\\\" thumbnails show the white-dome-plus-cyan-lightning blast, \\\"LOCKED\\\" reticles, and a red Happy-Hour-style missile and an olive bomb in the HUD [Observed, .../yt/].\n\nCONFLICTS TO KEEP VISIBLE:\n- Fireworks lock: official text and the 2011 blog say it locks; the wiki says it cannot.\n- Big Shot: official text says \\\"straight trajectory\\\"; the wiki says it arcs.\n- Gold Member AoE: the wiki prose contradicts both the wiki's own numbers and the official text.\n- Light Matter: the page intro contradicts its infobox.\n- Reverse Fountain: 55 vs 60 damage, 2 vs 2.5 s lock, and \\\"no equipment\\\" trivia vs a Damage+ table.\n- Prices: weapon page vs class page differ for Light Matter, Blast-O-Mole, Phat Man and Twin Bearzookas (325,000 J in 2015).\n- S'no Matter: concept sketch shows an arc; the wiki says straight.\n- Dark Matter: orbs are described as purple, but the captioned projectile image reads pink-magenta.\n\nFLAGS FOR /home/user/thallo-site/bbg-news-repo/characters/tillman.md:\n1. \\\"Cannon drawn as a chest hatch [BBG News invention]\\\" contradicts the observed Big Shot model. It is a hand-held drum launcher braced at the belly (File:Big_Shot.jpg). Draw that instead. The 2011 phrase \\\"(Chest Cannon)\\\" also still needs re-verification.\n2. The comedy beat \\\"salutes so hard the chest cannon fires\\\" depends on that hatch.\n3. \\\"masked red-and-black trailer-card skin with an olive artillery shell\\\": the shell is most likely the Phat Man nuke (olive body with a yellow band, matching the trailer's Phat Man drop) [Inference].\n4. \\\"everything does 'splash damage' [Canon]\\\" is official hyperbole. The wiki classes Reverse Fountain as DPS spray, not an explosive, and the melees do not explode.\n5. The \\\"teal backpack\\\" comes from the 2D art (File:Demo-darkmatter.png, which also shows two blue-tipped grey missiles on the pack). The BBG 3D default model instead shows black-striped wing racks carrying the secondaries.\nTwin Bearzookas (Tillman's, File:Ohmagawdyas.jpeg) are pale olive/lime with silver rims, with no red/orange lines and no hazard stripes. The separate Oliver Bearzooka colour dispute still needs its own image check.\n\nOTHER-ERA EQUIVALENTS:\n- BB Zero: the wiki says Tillman used Twin Bearzookas [Fan-wiki, Unverified].\n- BBF Battle Bears Fortress (2013), [Game text via wiki]: Mortar, \\\"Tillman's mortar is sure to kill more than one Huggable with large damage and area of effect.\\\", plus Phat Man. In .../png/Tillman_using_his_mortar.png a 2D Tillman holds a silver-and-blue tube, and the impacts are white-yellow puffs in a plus pattern [Observed].\n- BBO Battle Bears Overclock (c. 2014) [Fan-wiki]: Rocket Launcher (default), Minigun, Dark Matter (BBO), described as \\\"large, glowing purple projectiles\\\", Daisy Cutter (a turbine firing heat-seeking propeller projectiles, with Astoria nose art; File:DCNew.jpg [Observed: grey drum with pin-up bear decal]), and abilities Overdrive, Hand Gatling Guns and Nuke (\\\"marks a area upon which a nuke will drop\\\").\n- BBH (2023 soft launch / Oct 3, 2024): attack \\\"Blast-o-Mole\\\" and Ultimate, [Canon]: \\\"\\\"Firework Flurry,\\\" sends a series of fireworks over a targeted area, causing ongoing explosions and spreading wider with distance.\\\" BBH numbers (700 DPS; 5 x 612) are [Fan-wiki].\n\nUNRELEASED CONCEPT: File:Demolition_weapon.png, captioned \\\"Demolition Weapon Concept\\\" on the class page, is a sheet labelled \\\"Demolition / Tillman Trebuchet\\\" [Observed]. It shows a wooden catapult arm with a black cup holding a red cartoon bomb with a fuse, a grey crank handle and a red block counterweight. It matches no listed weapon [Inference: never released; possibly an ancestor of Bouncing Betty, Unverified].\n\nNO IMAGE FOUND (needs the visual researcher): explosions for Big Shot, Gold Member, Bouncing Betty, Blast-O-Mole and Twin Bearzookas; Fireworks spark landing; RPL dive; the Reverse Fountain spray; the S'no Matter and Let It Cold freeze looks."
+}

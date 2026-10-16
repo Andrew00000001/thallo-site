@@ -1,0 +1,436 @@
+{
+ "weapons": [
+  {
+   "name": "A Salt Rifle (ASR)",
+   "slot": "primary",
+   "status": "Default primary since BBR v1.0 (BBR released Oct 8, 2011 US; renamed BBG May 24, 2013) [Fan-wiki, Soldier (BBG)/Weapons; BBR Version 1.0; Battle Bears Gold/Versions]. Level 1 [Fan-wiki]. Named in SkyVu's 2026 Steam copy: \"Grab your A Salt Rifle, Bearzooka and those Turkish SW Boots and fight it out with friends across beloved Battle Bears locations.\" [Canon, Steam appdetails 4408320]. Tutorial uses a different version: rate of fire ~0.135 s, ammo 70, reload 1.5 s [Fan-wiki, Tutorial]. 2026 stat/price changes: none found [Unverified].",
+   "official_text": "\"Standard pun rifle issued to all soldiers. Help it out by equipping extra damage equipment!\" [Game text via wiki] https://battlebears.fandom.com/wiki/A_Salt_Rifle",
+   "mechanics": "FIRE: Primary - Automatic, long range, 'perfect accuracy'; damage 6, rate of fire 0.15 s, ammo 25, reload 3.0 s; Ammo+1/+2 = +8/+15 bullets, Damage+1/+2 = +0.5/+1.0 [Fan-wiki]. Name is a pun on 'Assault Rifle' [Fan-wiki]. PROJECTILE/IMPACT: no source describes tracer, bullet or hit effect [Unverified]. LOOK: chunky sage/grey-green rifle with salmon-red stripes and dark-red trim, long thin silver barrel, and a white salt-shaker bottle (white cap) mounted on top as the magazine; held at waist height by the 2012-13 Oliver model (dark-brown bear, red headband, brass-bullet bandolier, red wrist and knee bands) [Observed, File:Oliver3d.png]. Concept sheet shows variants AR1-AR4; AR3 (green body, white shaker on top) is closest to the in-game model [Observed, File:ASRconcept.png; variant match is Inference]. 2026: the official trailer's Oliver card (Gold Oliver skin) holds a silver-grey rifle with a black upper block (trailer.mp4 41.5-42.5 s, frames t_0084-t_0086) [Observed] that does NOT match the 2013 ASR model; which weapon it is [Unverified]. DEPICTION FOR SHORTS: keep the white salt shaker on top as the identifying feature (documented); small bright bullets with a puff of white salt grains on impact [BBG News invention].",
+   "image_leads": [
+    "File:Oliver3d.png",
+    "File:ASRconcept.png",
+    "File:Tutorial_BBG_.jpg",
+    "File:Tutorial_2.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/A_Salt_Rifle",
+    "https://battlebears.fandom.com/wiki/Soldier_(BBG)/Weapons",
+    "https://battlebears.fandom.com/wiki/Tutorial",
+    "https://static.wikia.nocookie.net/battlebears/images/e/e4/Oliver3d.png/revision/latest?cb=20121229012400",
+    "https://static.wikia.nocookie.net/battlebears/images/6/65/ASRconcept.png/revision/latest?cb=20121120090542",
+    "https://store.steampowered.com/api/appdetails?appids=4408320",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/t_0085.jpg"
+   ]
+  },
+  {
+   "name": "Heavy A Salt Rifle (HASR)",
+   "slot": "primary",
+   "status": "Unlock: 110,000 Joules, level 1 [Fan-wiki, infobox + class page]. Price history: 8,000 -> 10,000 -> 100,000 -> 110,000 Joules [Fan-wiki trivia]; class changelog lists it at 10,000 J in BBR v1.0 [Fan-wiki]. One of the original three primaries, BBR v1.0 (2011) [Fan-wiki].",
+   "official_text": "\"With higher capacity and lower damage the Heavy A Salt Rifle gives its owner more room for error before reloading but at the cost of stopping power.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Heavy_A_Salt_Rifle",
+   "mechanics": "FIRE: Primary - Automatic, mid range, 'partial inaccuracy'; damage 8, rate of fire 0.125 s, ammo 60, reload 5 s, dispersion angle 0.08, stat modifier -15% speed; Ammo+ +10/+20, Damage+ +0.5/+1 [Fan-wiki]. Note the official text says 'lower damage' while the current infobox damage (8) is higher than the ASR's (6), so stats changed after the text was written [Inference]. LOOK: AK-47-style rifle ('design seems to be based off of the AK-47' [Fan-wiki]) in green and salmon-red panels, with a big grey-and-red circular ring/drum looping around the receiver and grip [Observed, File:HASR_weapon_concept.png ('AR5'), File:Soldier_Weapon.png; in-game File:Photo_19-04-13_12_02_04_PM.png shows the ring]. IN ACTION: 2013 fan demo thumbnails (HlYoml_9Wx0) show HUD ammo x/60 and a white-grey puff at the far end of a walkway [Observed]; tracer look not visible [Unverified]. DEPICTION FOR SHORTS: ring-drum silhouette is the read; spray with slight spread, small brass casings flicking out [BBG News invention].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_04_PM.png",
+    "File:HASR_weapon_concept.png",
+    "File:Soldier_Weapon.png",
+    "File:Oliver_Secondary_-_Heavy_A_Salt_Rifle (YouTube HlYoml_9Wx0)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Heavy_A_Salt_Rifle",
+    "https://battlebears.fandom.com/wiki/Soldier_(BBG)",
+    "https://static.wikia.nocookie.net/battlebears/images/9/99/Photo_19-04-13_12_02_04_PM.png/revision/latest?cb=20130419022016",
+    "https://static.wikia.nocookie.net/battlebears/images/5/58/HASR_weapon_concept.png/revision/latest?cb=20121122095900",
+    "https://i.ytimg.com/vi/HlYoml_9Wx0/hqdefault.jpg"
+   ]
+  },
+  {
+   "name": "Soaker",
+   "slot": "primary",
+   "status": "Unlock: 60,000 Joules, level 10 [Fan-wiki]. One of the original three primaries, BBR v1.0 [Fan-wiki]. Reworked: once one of the fastest-firing Soldier primaries and 'the highest damaging primary (dealing 100 damage per second...)' after Urine Trouble 'before its stats were reduced' (date not given) [Fan-wiki]. BBG v2.6 (Dec 20, 2013): 'Soaker and Urine Trouble issues have been fixed' [Fan-wiki, Battle Bears Gold/Versions].",
+   "official_text": "\"The range is limited compared to other rifles, but it's way more accurate!\" [Game text via wiki] https://battlebears.fandom.com/wiki/Soaker",
+   "mechanics": "FIRE: Primary - Automatic, close range (range 950 units); damage 5, rate of fire 0.1 s, ammo 60, reload 4 s, +10% speed; Ammo+ +10/+20, Damage+ +0.5/+1 [Fan-wiki]. 'This weapon is based on the Super Soaker' [Fan-wiki]. PROJECTILE: what it sprays is not documented (no source says water) [Unverified]. LOOK: sage-green/grey water-gun rifle with salmon-red stripes, a big yellow pressure tank with red diagonal stripes on top, and a pump grip under the barrel [Observed, File:Soaker_Concept.png ('AR4'), File:ASRconcept.png; in-game File:Photo_19-04-13_12_02_08_PM.png shows the yellow tank]. IN ACTION: a 2014 Everyplay fan clip (dZWA5i0krBY) thumbnails show Oliver in a black skin with blue circuitry lines; no stream visible [Observed; skin identity Inference]. DEPICTION FOR SHORTS: a fast stream of clear-blue water droplets that splashes on hit [BBG News invention].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_08_PM.png",
+    "File:Soaker_Concept.png",
+    "File:ASRconcept.png",
+    "File:Another_Oliver_Gameplay_BattleBearsGold_Oliver_Soaker (YouTube dZWA5i0krBY)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Soaker",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://static.wikia.nocookie.net/battlebears/images/4/41/Photo_19-04-13_12_02_08_PM.png/revision/latest?cb=20130419022210",
+    "https://static.wikia.nocookie.net/battlebears/images/a/a1/Soaker_Concept.png/revision/latest?cb=20130208081223",
+    "https://i.ytimg.com/vi/dZWA5i0krBY/hqdefault.jpg"
+   ]
+  },
+  {
+   "name": "Urine Trouble",
+   "slot": "primary",
+   "status": "Unlock price CONFLICT: 60 Gas (weapon infobox and class page) vs 75 Gas (Soldier (BBG)/Weapons table and class changelog) [Fan-wiki]; originally 150,000 Joules [Fan-wiki]. Level 1. Released in the third week of BBR v1.3.1 (2012); given free early to 'Forum Appreciation' participants [Fan-wiki]. Wiki image uploads of 1.3.1 weapons date from Jul 22, 2012, so 1.3.1 was out by then [Inference from upload timestamps]. v2.6 (Dec 20, 2013) fixed 'Soaker and Urine Trouble issues' [Fan-wiki].",
+   "official_text": "\"Life is full of worries. Most of life's worries, however, can't get in your eyes, mouth, and nose at the same time.\" / \"This one can. And it will.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Urine_Trouble",
+   "mechanics": "FIRE: Primary - Automatic, close range (750 units); damage 6.25, rate of fire 0.1 s, ammo 40, reload 5 s, +10% speed; highest base DPS of the Soldier primaries [Fan-wiki]. 'It is a retexture of the Soaker' and 'As its name suggests, it fires urine' [Fan-wiki]. No status effect documented [Fan-wiki: not listed in Status Effects]. Name puns 'You're in trouble' [Fan-wiki]. LOOK: Soaker-shaped water gun in white and maroon-red with green flame decals, a large translucent amber-yellow tank on top, white nozzle with an orange tip [Observed, File:Qjc7y.png; also in the 'BBR 1.3.1 and BEYOND!' promo File:BBRWEAPONS.png]. IN ACTION: a 2013 fan demo thumbnail (sDq7aTPa4Uw hqdefault) shows a yellow streak next to a pink target [Observed; that it is the stream is low-confidence Inference]. DEPICTION FOR SHORTS: a cartoon yellow liquid stream with splashes and the target recoiling in disgust; keep it gag-level, not gross [BBG News invention].",
+   "image_leads": [
+    "File:Qjc7y.png",
+    "File:BBRWEAPONS.png",
+    "File:Oliver_Primary_-_Urine_Trouble (YouTube sDq7aTPa4Uw)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Urine_Trouble",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://static.wikia.nocookie.net/battlebears/images/6/63/Qjc7y.png/revision/latest?cb=20120722160208",
+    "https://static.wikia.nocookie.net/battlebears/images/3/37/BBRWEAPONS.png/revision/latest?cb=20121107131723",
+    "https://i.ytimg.com/vi/sDq7aTPa4Uw/hqdefault.jpg"
+   ]
+  },
+  {
+   "name": "Sci-Fi ASR (SFASR)",
+   "slot": "primary",
+   "status": "Unlock: 105,000 Joules, level 10 [Fan-wiki]; originally 90,000 Joules [Fan-wiki]. Released in the second week of BBR v1.3.1 (2012); free early for Forum Appreciation participants [Fan-wiki]. 2026: appears in SkyVu's own 'CLOSED TESTING' Steam banner (Jul 6, 2026 post) in Oliver's hands [Observed; weapon ID Inference, see mechanics].",
+   "official_text": "\"In the future, lasers will be the seasoning of choice among the elite while the common rabble shall continue to put analog salt-dust into their primitive bodies.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Sci-Fi_ASR",
+   "mechanics": "FIRE: Primary - Automatic; retexture of the A Salt Rifle; damage 5, rate of fire 0.15 s, ammo 25 ('lowest ammo of all automatics'), reload 2.0 s, +5% speed; Ammo+ +8/+15, Damage+ +0.5/+1.0 [Fan-wiki]. 2013 fan demo HUD shows x/30 ammo (P5EsIBxZS-k thumbnails) [Observed], vs 25 in the infobox [Fan-wiki]. PROJECTILE: the official text implies lasers [Game text via wiki -> Inference]; colour/shape undocumented [Unverified]. LOOK: chunky silver-grey sci-fi rifle with a four-hole vented barrel shroud, teal muzzle tip, and a tilted cylinder on top with glowing red-orange slits and a glowing orange end cap [Observed, File:Oliver_SciFi_Asalt.png]. 2026: the Closed Testing banner shows Oliver in the Sam-Are-I skin (grey headband, orange eye disc, matching File:SAm-Are-i.png) holding a silver gun topped by a dark canister striped with glowing red-orange slits [Observed, Steam clan image 3b7f9b97cdb4f799bbc696475d327f4d7c7a9523.png]; this matches the Sci-Fi ASR [Inference]. DEPICTION FOR SHORTS: short red-orange laser bolts matching the canister glow, with a small sizzle mark on impact [BBG News invention].",
+   "image_leads": [
+    "File:Oliver_SciFi_Asalt.png",
+    "File:Oliver_Primary_-_Sci-Fi_ASR (YouTube P5EsIBxZS-k)",
+    "Steam clan image https://clan.akamai.steamstatic.com/images/46006015/3b7f9b97cdb4f799bbc696475d327f4d7c7a9523.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Sci-Fi_ASR",
+    "https://static.wikia.nocookie.net/battlebears/images/0/08/Oliver_SciFi_Asalt.png/revision/latest?cb=20120722174851",
+    "https://clan.akamai.steamstatic.com/images/46006015/3b7f9b97cdb4f799bbc696475d327f4d7c7a9523.png",
+    "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=4408320",
+    "https://i.ytimg.com/vi/P5EsIBxZS-k/hq1.jpg"
+   ]
+  },
+  {
+   "name": "Sci-Fi HASR",
+   "slot": "primary",
+   "status": "Unlock price CONFLICT: 60 Gas (infobox, class page) vs 85 Gas (Weapons table, class changelog) [Fan-wiki]; originally 130,000 Joules [Fan-wiki]. Level 15. Released in the second week of BBR v1.3.1 [Fan-wiki]. 2026 trailer possibly shows it (see mechanics) [Inference].",
+   "official_text": "\"Look no further for reasons for people to get out of your way, you're holding the only one you need. Should a chump still refuse to step aside, this puppy has a convenient little button to change their mind.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Sci-Fi_HASR",
+   "mechanics": "FIRE: Primary - Automatic, mid range; retexture of the HASR; damage 7.0, rate of fire 0.125 s, ammo 50, reload 5 s, dispersion 0.05, -10% speed, '56 base DPS'; Ammo+ +15/+25, Damage+ +0.5/+1 [Fan-wiki]. The 'convenient little button' has no documented function [Unverified]. PROJECTILE: undocumented [Unverified]. LOOK: silver-grey sci-fi HASR with a dark/black ring around the receiver [Observed, File:Photo_19-04-13_12_01_58_PM.png]; 2013 fan demo shows a grey gun and HUD x/50 (ICIsRtcYckY) [Observed]. 2026: in the official Steam trailer, Oliver in the gold swirl skin (matches 'Gold Oliver', File:Gold_Oliver.jpg) stands on the lava map holding a grey gun with a black curved loop under it (trailer.mp4 ~38.5-41.25 s; hi-res frames h_013-h_016 extracted at 4 fps from 37.5 s) [Observed]; grey body + dark loop fits the Sci-Fi HASR [Inference, medium-low confidence]. DEPICTION FOR SHORTS: pale cyan energy rounds; the 'little button' fires one big charged shot [BBG News invention].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_01_58_PM.png",
+    "File:Oliver_Primary_-_Sci-Fi_HASR (YouTube ICIsRtcYckY)",
+    "trailer frames /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/trailer_hi/h_016.jpg (41.25 s)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Sci-Fi_HASR",
+    "https://static.wikia.nocookie.net/battlebears/images/9/91/Photo_19-04-13_12_01_58_PM.png/revision/latest?cb=20130419022149",
+    "https://i.ytimg.com/vi/ICIsRtcYckY/hqdefault.jpg",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4"
+   ]
+  },
+  {
+   "name": "O.C.O. Gauntlet",
+   "slot": "primary",
+   "status": "Unlock: 45,000 Joules, level 20; originally 20 Gas [Fan-wiki]. Released BBR v1.3.2 (2012; 1.3.2 promo image uploaded Nov 7, 2012) [Fan-wiki; date bound is Inference]. In-game spelled 'OCO Gauntlet'; O.C.O. = Over Clocked Oliver [Fan-wiki].",
+   "official_text": "\"Spawn orbs of energy that damage when touched and explode on direct impact.\" [Game text via wiki] https://battlebears.fandom.com/wiki/O.C.O._Gauntlet",
+   "mechanics": "FIRE: Primary - Explosives (not automatic). Spawns 'large, fast moving orbs, consisting of a dark blue core and a pulsing light blue field'; each orb appears stationary and harmless for 2 s, then accelerates very fast over a short distance in the aim direction; an enemy touching it makes it implode with AoE damage; orbs self-implode after 10 s; up to three orbs with a delay; an enemy right in front of a new orb triggers early implosion [Fan-wiki]. Stats: explosives 40-60 (+30 on direct hit), AoE max dmg 50 / min dmg 150 units, cooldown 1.0 s, ammo 1, reload 2.0 s, +10% speed, projectile speed 1,500 u/s, 12 s total life; Damage+ raises implosion, Explosions+ raises the field [Fan-wiki]. Cosmetic 'electrical charge being absorbed' effect [Fan-wiki]. Self-kill risk [Fan-wiki]. Glitches: orbs explode if spawned looking down; with Iron Curtain they fly upward [Fan-wiki]. Engineer's Power Glove is 'The precursor to the O.C.O. Glove' [Game text via wiki, Power Glove]. LOOK: chunky gauntlet(s): a black/gunmetal armoured mitt with glowing cyan claw-stripes, 'OCO' in cyan, and a keypad block on top; a white/silver mitten with glowing cyan circuitry and a cyan ring on the palm [Observed, File:OCO_Gauntlet.png; File:1.3.2WEAPONS.png shows the black glove]. Worn on Oliver's right hand in skin renders [Observed, File:Gold_Oliver.jpg, File:SAm-Are-i.png]. IN ACTION: 2013 fan demo thumbnails (1pOpppsjyuQ) show a big translucent pale cyan-white sphere with a blue core and a cyan bracket shape, and a large pale green-white translucent burst near a target; HUD shows x/2 [Observed] (infobox says ammo 1 [Fan-wiki]). DEPICTION FOR SHORTS: orb hangs in place crackling, then rockets forward and implodes in a cyan flash (sequence documented by the wiki); the inward-suck shape of the implosion is a [BBG News invention].",
+   "image_leads": [
+    "File:OCO_Gauntlet.png",
+    "File:1.3.2WEAPONS.png",
+    "File:Gold_Oliver.jpg",
+    "File:SAm-Are-i.png",
+    "File:Oliver_Primary_-_O.C.O._Gauntlet (YouTube 1pOpppsjyuQ)",
+    "File:Red_Blue_OCO.png (O.C.O. circuitry reference)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/O.C.O._Gauntlet",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.2",
+    "https://battlebears.fandom.com/wiki/Power_Glove",
+    "https://static.wikia.nocookie.net/battlebears/images/9/93/OCO_Gauntlet.png/revision/latest?cb=20121107115644",
+    "https://static.wikia.nocookie.net/battlebears/images/c/c5/1.3.2WEAPONS.png/revision/latest?cb=20121107124158",
+    "https://i.ytimg.com/vi/1pOpppsjyuQ/hq1.jpg",
+    "https://i.ytimg.com/vi/1pOpppsjyuQ/hqdefault.jpg"
+   ]
+  },
+  {
+   "name": "Minigun (Soldier)",
+   "slot": "primary",
+   "status": "Unlock: 45 Gas, level 1 [Fan-wiki]. Added BBG v2.11 (Aug 27, 2014) [Fan-wiki, Battle Bears Gold/Versions]. Reworked: 'insanely overpowered on release due to a typo in its explosive damage values... It has since been changed and the bullet damage has been nerfed as well.' [Fan-wiki]. Not the Combat Tech Minigun [Fan-wiki].",
+   "official_text": "\"Mini refers to your enemies after its done with them. \" [Game text via wiki] https://battlebears.fandom.com/wiki/Minigun_(Soldier)",
+   "mechanics": "FIRE: Primary - Automatic, very rapid; damage 3, rate of fire 0.075 s, ammo 80, reload 5 s, -10% speed, +20% health; Ammo+ +10/+20, Damage+ +0.3/+0.6 [Fan-wiki]. PROJECTILE/IMPACT: undocumented [Unverified]. LOOK: compact boxy gunmetal-black rotary gun with a barrel cluster (three muzzles visible) and small yellow accents, held at the hip [Observed, File:Mini.jpg, uploaded Oct 31, 2014]. DEPICTION FOR SHORTS: barrels spin up, a dense stream of small yellow tracers, a brass-casing waterfall [BBG News invention].",
+   "image_leads": [
+    "File:Mini.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Minigun_(Soldier)",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://static.wikia.nocookie.net/battlebears/images/4/46/Mini.jpg/revision/latest?cb=20141031110120"
+   ]
+  },
+  {
+   "name": "Acreambo Pistols",
+   "slot": "primary",
+   "status": "Unlock price CONFLICT: 60 Gas (infobox, class page) vs 75 Gas (Weapons table; class changelog 'Primary / 75 Gas') [Fan-wiki]. Level 1. Added BBG v2.18 (Apr 3, 2015) [Fan-wiki, Battle Bears Gold/Versions]. Carried into BB Heroes as Oliver's basic Attack (BBH soft launch May 23, 2023) [Canon for the weapon; date Fan-wiki].",
+   "official_text": "\"Cream your opponents with the all new dual wielding pistols! Run around and shoot like your in the matrix! \" [Game text via wiki, typo 'your' is in the original per wiki] https://battlebears.fandom.com/wiki/Acreambo_Pistols ; BBH era: \"His 'Acreambo Pistols' can cause problems for enemies at all ranges, with capabilities to fire lots of bullets in quick succession, these are complimented by his powerful 'Bearzooka' Ultimate which deals massive damage and destroys obstacles.\" [Canon] https://battlebears.com/pages/characters",
+   "mechanics": "FIRE: Primary - Automatic, dual-wielded; 'fires two bullets per one ammo spent'; damage 6.0, rate of fire 0.3 s, ammo 28, reload 5.0 s, -10% health, +10% speed; Ammo+ +6, Damage+ +2 [Fan-wiki]. PROJECTILE: 'The projectile looks like toothpaste.' [Fan-wiki]. IMPACT: 'It is the only weapon in the game to not have an animation when the projectile hits a surface.' [Fan-wiki]. Name puns 'akimbo' [Fan-wiki]. LOOK: two blocky teal-blue pistols with red-and-white candy-cane stripes along the top [Observed, File:Image-1428969087.jpg]; concept art shows gingerbread Oliver (Gingervitus skin) dual-wielding candy-striped pistols with yellow-white muzzle flashes on a snowy 'Battle Bears Royale' banner [Observed, File:AcreamboPistolsandS'noMatterconceptart.jpg]. BBH: damage '6 x 360', range 'Long' [Fan-wiki, Battle Bears Heroes]. DEPICTION FOR SHORTS: two pistols firing alternating toothpaste-like ribbons (documented) in red/white/teal stripes (colour is BBG News invention) that vanish on contact with no splat (documented); matrix-style sideways dive [Game text via wiki 'like your in the matrix'].",
+   "image_leads": [
+    "File:Image-1428969087.jpg",
+    "File:AcreamboPistolsandS'noMatterconceptart.jpg",
+    "File:Gingervitus.jpg (skin in concept)",
+    "File:BBH_Profile_Oliver.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Acreambo_Pistols",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Heroes",
+    "https://battlebears.com/pages/characters",
+    "https://static.wikia.nocookie.net/battlebears/images/f/fd/Image-1428969087.jpg/revision/latest?cb=20150413235127",
+    "https://static.wikia.nocookie.net/battlebears/images/6/6d/AcreamboPistolsandS%27noMatterconceptart.jpg/revision/latest?cb=20150509025447"
+   ]
+  },
+  {
+   "name": "Bearzooka (BBG)",
+   "slot": "secondary",
+   "status": "Default secondary since BBR v1.0 (2011) [Fan-wiki]; used in the Tutorial [Fan-wiki]. Named in SkyVu's 2026 Steam copy ('Grab your A Salt Rifle, Bearzooka and those Turkish SW Boots...') [Canon]. 'Incoming stats' it 'was supposed to' get (ammo 3, RoF 1 s, explosives 20-40, reload 3 s) [Fan-wiki]; whether they shipped is [Unverified]. SkyVu's 'BATTLE BEARS GOLD Developer Update - Oliver Overhaul' (Apr 25, 2014) reworked the Soldier: 'This week, Oliver receives the first overhaul! Trevor explains in detail all of the changes made to this elite Solider class.' [Canon, YouTube 9qYIIH8NV-4 description]; specific Bearzooka changes not readable here [Unverified]. In BB Heroes it is Oliver's Ultimate [Canon].",
+   "official_text": "\"The basic weapon of any Soldier. Does a good amount of damage, with a decent area of effect (AOE). Useful for all situations.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Bearzooka_(BBG) ; class blurb: \"Oliver the soldier is a well rounded fighter with decent speed and health. Use his starting Bearzooka carefully as it is easy to kill yourself with it!\" [Game text via wiki, Template:Class:Soldier (BBG)] ; BBH: \"...his powerful 'Bearzooka' Ultimate which deals massive damage and destroys obstacles.\" [Canon] https://battlebears.com/pages/characters",
+   "mechanics": "FIRE: Secondary - Explosives (the Weapons table wrongly lists its type as 'Primary' [Fan-wiki error, Inference]); explosives 40-60, AoE max dmg 125 / min dmg 250 units, rate of fire 1.5 s, ammo 1, reload 2.5 s, projectile speed 1,000 u/s; Ammo+ gives +0, Explosions+ +7.5/+15 [Fan-wiki]. CONFLICT: page text says 'has two shots without additional ammo' vs infobox ammo 1 [Fan-wiki]; 2013 fan demo HUD shows 0/1 and 1/1 (AZt_huguhzc) [Observed]; the official Overhaul thumbnail HUD shows an explosive-ammo icon at 1/3 but the equipped weapon is unclear [Observed, https://i.ytimg.com/vi/9qYIIH8NV-4/maxresdefault.jpg; ID Unverified]. 'very prone to suicide' [Fan-wiki]. PROJECTILE: a rocket ('rocket launcher' [Fan-wiki]); rocket model and trail undocumented [Unverified]. LOOK (BBG 2012-13): shoulder-carried coral/salmon-red tube with a hexagonal cross-section, glowing orange rectangular/chevron panels on the side, grey hex collars and a dark round muzzle [Observed, File:Photo_19-04-13_12_02_26_PM.png; fan demo thumbnails AZt_huguhzc show the same pink-red tube]. Concept: red tube with yellow-orange chevrons, a checkered red/grey flared rear and a black pistol grip, labelled 'ROCKET' [Observed, File:Bearzooka_Concept.png, File:Soldier_Weapon.png]. Wiki: 'In BBG and BB0, it is a rocket launcher with red and orange lines. In BBZ and BB-1 it is just a dark green rocket launcher.' [Fan-wiki, Bearzooka]; the green design is confirmed as BB Zombies (2009): dark green tube lettered 'BEARZOOKA' with yellow/black hazard stripes at the end [Observed, File:Bear.jpg]. IMPACT: no Bearzooka-specific source; BBG explosions in SkyVu's 2026 Steam screenshots and trailer are chunky, faceted, translucent yellow-white fireball clouds with flying debris chunks [Observed, steam_screens/screen_02.jpg, screen_03.jpg; trailer 26.5-27.5 s frames t_0054-t_0056, which follow Tillman's bomb, so they are not Oliver's]; using that style for the Bearzooka is [Inference]. BBH: damage '6 x 640', range 'Very long' [Fan-wiki]. DEPICTION FOR SHORTS: red-and-orange hex tube on the shoulder (documented); a stubby rocket with a short orange flame and grey puff trail (BBG News invention); blocky yellow-white fireball (style Observed); Oliver caught in his own blast (gag grounded in the 'easy to kill yourself' class text).",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_26_PM.png",
+    "File:Bearzooka_Concept.png",
+    "File:Soldier_Weapon.png",
+    "File:Bear.jpg (BBZ 2009 green version, for era contrast)",
+    "File:Oliver_Secondary_-_Bearzooka (YouTube AZt_huguhzc)",
+    "YouTube 9qYIIH8NV-4 (official Oliver Overhaul, thumbnails only)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Bearzooka_(BBG)",
+    "https://battlebears.fandom.com/wiki/Bearzooka",
+    "https://battlebears.fandom.com/wiki/Template:Class:Soldier_(BBG)",
+    "https://battlebears.com/pages/characters",
+    "https://store.steampowered.com/api/appdetails?appids=4408320",
+    "https://www.youtube.com/watch?v=9qYIIH8NV-4",
+    "https://static.wikia.nocookie.net/battlebears/images/0/00/Photo_19-04-13_12_02_26_PM.png/revision/latest?cb=20130419023149",
+    "https://static.wikia.nocookie.net/battlebears/images/9/91/Bearzooka_Concept.png/revision/latest?cb=20121126094526",
+    "https://static.wikia.nocookie.net/battlebears/images/5/57/Bear.jpg/revision/latest?cb=20130101105027",
+    "https://i.ytimg.com/vi/AZt_huguhzc/hq1.jpg",
+    "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_02.jpg"
+   ]
+  },
+  {
+   "name": "Spreadshot (BBG)",
+   "slot": "secondary",
+   "status": "Unlock: 35,000 Joules, level 4; originally 32,000 Joules [Fan-wiki]. One of the original three secondaries, BBR v1.0 [Fan-wiki]. Descends from BB-1's Spreadshot [Fan-wiki].",
+   "official_text": "\"Useless at range but devastating up close. Handy for close encounters...\" [Game text via wiki] https://battlebears.fandom.com/wiki/Spreadshot_(BBG)",
+   "mechanics": "FIRE: Secondary - Shotgun, close range; damage 20, rate of fire 0.75 s, ammo 6, reload 3 s; Ammo+ +1/+2, Damage+ +3/+6 [Fan-wiki]. 2013 fan demo HUD shows x/4 (JnGvsjOISNQ) [Observed] vs ammo 6 [Fan-wiki]. PELLETS: undocumented for BBG [Unverified]. IMPACT: a white-yellow V-shaped spark burst on a wall (JnGvsjOISNQ hq1) [Observed]. LOOK (in-game 2013): stubby sage-green and grey shotgun with a salmon-pink round front, grey hex housings, and a rear cluster of red hexagonal tubes [Observed, File:Photo_19-04-13_12_02_29_PM.png]. Concept 'SPREADSHOT 1': red-and-green multi-barrel gun with perforated side plates and a black grip [Observed, File:Shotgun_concept.png, File:Spreadshot_concept.png]; the concept differs from the shipped model [Observed]. BB-1 ancestor: 'a grey-coloured shotgun-like weapon with a shape resembling a flamethrower... five red projectiles', Hyper form fires many green projectiles ('Dreadshot') [Fan-wiki, Spreadshot; Observed File:Mzl.ywvsskvf.480x480-75.jpg]. DEPICTION FOR SHORTS: a wide cone of small red pellets (borrowed from BB-1's documented red pellets) ending in white-yellow V sparks (Observed) [colour choice is Inference].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_29_PM.png",
+    "File:Spreadshot_concept.png",
+    "File:Shotgun_concept.png",
+    "File:Mzl.ywvsskvf.480x480-75.jpg (BB-1)",
+    "File:Oliver_Secondary_-_Spreadshot (YouTube JnGvsjOISNQ)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Spreadshot_(BBG)",
+    "https://battlebears.fandom.com/wiki/Spreadshot",
+    "https://static.wikia.nocookie.net/battlebears/images/e/ee/Photo_19-04-13_12_02_29_PM.png/revision/latest?cb=20130419023442",
+    "https://static.wikia.nocookie.net/battlebears/images/2/2a/Shotgun_concept.png/revision/latest?cb=20121120090801",
+    "https://i.ytimg.com/vi/JnGvsjOISNQ/hq1.jpg"
+   ]
+  },
+  {
+   "name": "TNT Launcher",
+   "slot": "secondary",
+   "status": "Unlock: 45,000 Joules, level 13; originally 55,000 Joules [Fan-wiki]. One of the original three secondaries; the Weapons table dates it to BBR v1.0, though the class changelog's v1.0 list omits it [Fan-wiki, conflict]. Planned 'Incoming stats' (ammo 3, RoF 1.5 s, explosives 27-54, reload 5 s) [Fan-wiki]; whether shipped [Unverified].",
+   "official_text": "\"Use the TNT Launcher to fire multiple projectiles at at a time. Projectiles do not explode on contact but stick around and blow up after a second or two.\" [Game text via wiki] https://battlebears.fandom.com/wiki/TNT_Launcher",
+   "mechanics": "FIRE: Secondary - Explosives; 'a retexture of the Bearzooka, but is very different in function'; projectiles 'travel in an arc', 'stick to the first solid surface they land on', and explode after a 1.0 s delay in an AoE 'larger than that created by the Bearzooka'; they 'cannot hit other players directly' [Fan-wiki]. Only an Iron Curtain, Tesla Shield or Bass Cannon hit detonates them early [Fan-wiki]. Stats: explosives 35-75 (highest Soldier damage), AoE max dmg 100 / min dmg 250 units, rate of fire 1.0 s, ammo 3, reload 3.0 s, projectile speed 1,000 u/s; Ammo+ +1/+2, Explosions+ +7.5/+15 [Fan-wiki]. Self-kill risk [Fan-wiki]. LOOK: the Bearzooka's hex tube in light grey/silver with glowing orange panels [Observed, File:Photo_19-04-13_12_02_31_PM.png]; 2013 fan demo shows a checker-patterned grey/red muzzle end and a spiky yellow-orange starburst muzzle flash on firing; HUD 0/3-3/3 (JQ4MjeJfp2M hqdefault, hq1) [Observed]. PROJECTILE MODEL: undocumented [Unverified]; the Soldier concept sheet's 'THROWN MISSILE' sketches (a round red bomb with a lit fuse; a bundle of red dynamite sticks tied with a ribbon tail) may be its origin [Observed File:Soldier_Weapon.png; link to TNT is Inference]. DEPICTION FOR SHORTS: lob red dynamite bundles that stick with a 'thunk', fuse sparks for one beat, then a big blocky yellow-white blast [timing Fan-wiki; dynamite look Inference from concept; blast style Observed generic].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_31_PM.png",
+    "File:Soldier_Weapon.png",
+    "File:Bearzooka_Concept.png",
+    "File:Oliver_Secondary_-_TNT_Launcher (YouTube JQ4MjeJfp2M)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/TNT_Launcher",
+    "https://battlebears.fandom.com/wiki/Iron_Curtain",
+    "https://static.wikia.nocookie.net/battlebears/images/0/02/Photo_19-04-13_12_02_31_PM.png/revision/latest?cb=20130419023322",
+    "https://static.wikia.nocookie.net/battlebears/images/e/e8/Soldier_Weapon.png/revision/latest?cb=20121120103001",
+    "https://i.ytimg.com/vi/JQ4MjeJfp2M/hqdefault.jpg",
+    "https://i.ytimg.com/vi/JQ4MjeJfp2M/hq1.jpg"
+   ]
+  },
+  {
+   "name": "Rockette Launcher",
+   "slot": "secondary",
+   "status": "Unlock: 110,000 Joules, level 1; price history 200,000 -> 100,000 -> 110,000 Joules [Fan-wiki]. Released in the fourth and final week of BBR v1.3.1 [Fan-wiki]. Planned 'Incoming stats' (ammo 4, direct-hit bonus 10, explosives 9-18, reload 4.5 s) [Fan-wiki]; whether shipped [Unverified].",
+   "official_text": "\"You know, because it shoots those little rocks... you know what they're called, the little ones... the... uh... rockettes?\" / \"*Not affiliated with the Radio City Music Hall*\" [Game text via wiki] https://battlebears.fandom.com/wiki/Rockette_Launcher",
+   "mechanics": "FIRE: Secondary - Explosives (hybrid); 'shoots very fast projectiles that arc over long distances', small AoE, extra damage on direct hits; explosives 10-25 (+30 on direct hit), AoE 125/250, rate of fire 0.3 s, ammo 3, reload 4.0 s, projectile speed 1,300 u/s; Ammo+ +1/+2, Explosions+ +7.5/+15 [Fan-wiki]. 2013 fan demo HUD shows x/2 (5u0X3LDgwWM) [Observed] vs 3 [Fan-wiki]. END RESULT: rocks 'remain intact as a physical object for several seconds, rolling around the floor or remaining completely still' and sometimes push players, even teammates [Fan-wiki]. Self-kill risk [Fan-wiki]. PROJECTILE: a grey-blue faceted rock in flight against a sandy sky (5u0X3LDgwWM hq3) [Observed]. LOOK: a rough stone tube (pale grey-green segments, lavender/purple stone end caps) bound with rope, with a stone grip [Observed, File:Photo_19-04-13_12_02_24_PM.png, File:Rockette_Launcher_concept.png, File:BBRWEAPONS.png]. Name puns 'rocket' [Fan-wiki]. DEPICTION FOR SHORTS: rapid arcing rocks with small dusty pops, the rocks then lying or rolling on the floor (both documented); dust colour [BBG News invention].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_24_PM.png",
+    "File:Rockette_Launcher_concept.png",
+    "File:BBRWEAPONS.png",
+    "File:Oliver_Secondary_-_Rockette_Launcher (YouTube 5u0X3LDgwWM)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Rockette_Launcher",
+    "https://static.wikia.nocookie.net/battlebears/images/d/d2/Photo_19-04-13_12_02_24_PM.png/revision/latest?cb=20130419023242",
+    "https://static.wikia.nocookie.net/battlebears/images/f/ff/Rockette_Launcher_concept.png/revision/latest?cb=20121119054548",
+    "https://i.ytimg.com/vi/5u0X3LDgwWM/hq3.jpg"
+   ]
+  },
+  {
+   "name": "Steamshot",
+   "slot": "secondary",
+   "status": "Unlock: 30 Gas, level 1; originally 20 Gas; once sold for 1 Joule in a sale [Fan-wiki]. Released in the first week of BBR v1.3.1 [Fan-wiki]; the class changelog also lists it under BBR v1.0 at 20 Gas, which contradicts the 1.3.1 page [Fan-wiki conflict; the v1.0 entry is likely wrong, Inference].",
+   "official_text": "\"Steam power the demise of your enemies and look dapper while doing it. The gentleman's weapon, for a man who knows taste and isn't afraid to melt a face.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Steamshot",
+   "mechanics": "FIRE: Secondary - Shotgun, short range; 'a retexture of the Spreadshot (BBG), being the higher damage shotgun alternative'; 'When activated, it releases a quick spread of damaging green steam.' [Fan-wiki]. Damage 35, rate of fire 1.5 s, ammo 3, reload 5 s; Ammo+2 +1, Damage+ +2.5/+5 [Fan-wiki]. IN ACTION: SkyVu's official Oliver Overhaul thumbnail hq2 shows green wispy swirl effects around a hit target [Observed, https://i.ytimg.com/vi/9qYIIH8NV-4/hq2.jpg]; that these are Steamshot steam is [Inference]. A 2013 fan demo (F2rsMmK6K68) shows white puff clouds near hit enemies [Observed; attribution Unverified]. LOOK: brass/gold steampunk shotgun with a big green glass chamber in a brass cage, three brass chimney stacks capped with green gems, a segmented grey hose, a wooden stock piece, and a perforated honeycomb brass flared muzzle [Observed, File:Steamshot_concept.png, File:Photo_19-04-13_12_02_21_PM.png, File:BBRWEAPONS.png]. DEPICTION FOR SHORTS: a short cone of hissing green steam (documented) that leaves the target sooty and steaming [the soot is a BBG News invention].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_21_PM.png",
+    "File:Steamshot_concept.png",
+    "File:BBRWEAPONS.png",
+    "File:Oliver_Secondary_-_Steamshot-0 (YouTube F2rsMmK6K68)",
+    "YouTube 9qYIIH8NV-4 hq2 (official)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Steamshot",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://static.wikia.nocookie.net/battlebears/images/8/86/Steamshot_concept.png/revision/latest?cb=20121119053358",
+    "https://static.wikia.nocookie.net/battlebears/images/5/5e/Photo_19-04-13_12_02_21_PM.png/revision/latest?cb=20130419023222",
+    "https://i.ytimg.com/vi/9qYIIH8NV-4/hq2.jpg",
+    "https://i.ytimg.com/vi/F2rsMmK6K68/hq1.jpg"
+   ]
+  },
+  {
+   "name": "Sake Bomb",
+   "slot": "secondary",
+   "status": "Unlock: 50,000 Joules, level 1; originally 90,000 Joules; once 1 Joule and briefly given free to new players [Fan-wiki]. Released BBR v1.3.2 [Fan-wiki]. Reworked: originally also reversed the victim's aiming; 'This was eliminated in a much later update' (date not given) [Fan-wiki].",
+   "official_text": "\"A shot from this will make you wine and stumble.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Sake_Bomb",
+   "mechanics": "FIRE: Secondary - Saboteur; 'fires non-damaging projectiles in an arc'; anyone in its small AoE, including the user, gets 'a control reversal for 4 seconds'; rate of fire 1 s, ammo 4, reload 3 s, projectile speed 1000 u/s; exact AoE unknown; Ammo+ +1/+2 [Fan-wiki]. 'The Sake Bomb is the Soldier's only weapon that cannot damage opponents.' [Fan-wiki]. STATUS EFFECT 'Controls Reversed': 'a green question mark will appear over the player's head'; forward moves backward, left moves right; 'background music will be disabled and other sounds will feature an mild echo' [Fan-wiki, Status Effects]. LOOK: a squat dark-brown/maroon sake jug painted with a Daruma face (white face, heavy black brows, round staring eyes) and red/orange/yellow flame-leaf motifs, a cork stopper and a rope loop handle [Observed, File:SAKEBOMB.png, File:Sake_Bomb_Concept.png (caption 'Oliver's Sake Bomb (Secondary)'), File:1.3.2WEAPONS.png]. 'The face on the Weapon is a Daruma.' [Fan-wiki]. PROJECTILE: what flies out is undocumented [Unverified]. DEPICTION FOR SHORTS: the target staggers with a green '?' overhead and walks the wrong way for a 4-second beat (documented); a small sake-bottle projectile bursting into a pale mist is a [BBG News invention].",
+   "image_leads": [
+    "File:SAKEBOMB.png",
+    "File:Sake_Bomb_Concept.png",
+    "File:1.3.2WEAPONS.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Sake_Bomb",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://static.wikia.nocookie.net/battlebears/images/1/1e/SAKEBOMB.png/revision/latest?cb=20121115113206",
+    "https://static.wikia.nocookie.net/battlebears/images/a/ac/Sake_Bomb_Concept.png/revision/latest?cb=20121126105302"
+   ]
+  },
+  {
+   "name": "Solar Wind Scar",
+   "slot": "secondary",
+   "status": "Unlock price CONFLICT: 60 Gas (infobox) vs 75 Gas (Weapons table; class changelog 'Secondary / 75 Gas') [Fan-wiki]. Level 1. Added BBG v2.11 (Aug 27, 2014) [Fan-wiki]. Planned 'Incoming stats' (damage 70, duration 5 s, speed 900 u/s, radiation 60/s) [Fan-wiki]; whether shipped [Unverified].",
+   "official_text": "\"Cut a star in half and imbued it with power. It's said that even standing in it wake will singe the flesh.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Solar_Wind_Scar",
+   "mechanics": "FIRE: Secondary - Radiation Explosives; 'Solar Wind Scar creates an orange slash, that travels in a straight direction. It will travel through walls, and when it hits someone, a dark, circular radiation belt will spawn. Any enemy that enters the field will be irradiated, and receive physical damage.' [Fan-wiki]. Damage 45.0, radiation 70 per second, duration 4.0 s, ammo 1, reload 4.0 s, projectile speed 1000 u/s; the user can irradiate himself [Fan-wiki]. STATUS 'Irradiated': 'a yellow circle will appear over the player's head and a noise from a Geiger counter will begin sounding'; the circle breaks into the radioactivity symbol in stages; at 100 radiation points the target self-explodes (blast radius 150-200 units); radiation decays slowly if exposure stops [Fan-wiki, Status Effects]. LOOK in hand: a long, curved, single-edged silver blade with a gold/orange crossguard throwing yellow sparks and an orange grip, held upright [Observed, File:Solar.jpg]. Lore: the wiki ties it to Wil's sword that 'cut a star in half' in BB Zero [Fan-wiki]. DEPICTION FOR SHORTS: a sword swing launches a flat orange crescent that passes through a wall (documented) and leaves a dark ring on the floor where the target stands; the target gets the yellow radiation icon and Geiger clicks (documented); a heat-shimmer edge on the ring is a [BBG News invention].",
+   "image_leads": [
+    "File:Solar.jpg",
+    "File:Hazard-3.png",
+    "File:Hazard-2.png",
+    "File:Hazard-1.png",
+    "File:Hazard-0.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Solar_Wind_Scar",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions",
+    "https://static.wikia.nocookie.net/battlebears/images/a/a5/Solar.jpg/revision/latest?cb=20141031111754"
+   ]
+  },
+  {
+   "name": "B.E.A.R. Club",
+   "slot": "melee",
+   "status": "Default melee since BBR v1.0 [Fan-wiki]; Tutorial melee [Fan-wiki]. The class changelog also lists it a second time at 30,000 Joules under BBR v1.0, probably a copy error for Queensbury Rules [Fan-wiki conflict; Inference].",
+   "official_text": "\"Basic\" / \"Elongated\" / \"Assault\" / \"Rod\" / \"?\" [Game text via wiki] https://battlebears.fandom.com/wiki/B.E.A.R._Club",
+   "mechanics": "MELEE: 70 damage, no stat modifiers; Melee+1/+2 = +10/+20 damage; 'looks like a cricket bat' [Fan-wiki]. The official text is an acrostic: B.E.A.R. = Basic Elongated Assault Rod [Inference from Game text]. LOOK: lime-green cricket-bat blade with a row of holes, a grey lower section with a yellow/black hazard band, black handle; concept labelled 'Standard Issue Bear C.L.U.B.' [Observed, File:Photo_19-04-13_12_02_36_PM.png, File:BEARClubconcept.jpg]. Soldier melee-kill barks: 'Judo-super-karate!', 'Hurts, don't it? Ha ha!', 'Mama said 'knock you out'!' [Fan-wiki, Soldier (BBG)]. DEPICTION FOR SHORTS: a cricket-style swing with a cartoon 'thwack' [BBG News invention].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_36_PM.png",
+    "File:BEARClubconcept.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/B.E.A.R._Club",
+    "https://battlebears.fandom.com/wiki/Soldier_(BBG)",
+    "https://static.wikia.nocookie.net/battlebears/images/e/e2/Photo_19-04-13_12_02_36_PM.png/revision/latest?cb=20130419024357",
+    "https://static.wikia.nocookie.net/battlebears/images/c/c6/BEARClubconcept.jpg/revision/latest?cb=20121119114916"
+   ]
+  },
+  {
+   "name": "Krikkit Bat",
+   "slot": "melee",
+   "status": "Unlock: 30,000 Joules, level 11; price history 75,000 -> 60,000 -> 30,000 Joules [Fan-wiki]. One of the original three melee weapons, BBR v1.0 [Fan-wiki].",
+   "official_text": "\"Authorized for use in Brockian Ultra-Cricket - Remember: The winning team shall be the first team that wins.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Krikkit_Bat",
+   "mechanics": "MELEE: 45 damage, stat modifier +30% Special Speed; Melee+ +10/+20 [Fan-wiki]. 'All the Soldier's melee weapons with the exception of the Kumakiri resemble cricket bats.' [Fan-wiki]. LOOK: white/silver sci-fi cricket bat with a red light near the tip, a thin blue circuit line down the blade and a segmented black grip [Observed, File:KrikkitBatCR.jpg (held by Oliver in a white skin with red circuit lines), File:Krikkitbatconcept.jpg]. Hitchhiker's Guide reference in the text [Inference]. DEPICTION FOR SHORTS: the red tip-light flares on contact [BBG News invention].",
+   "image_leads": [
+    "File:KrikkitBatCR.jpg",
+    "File:Krikkitbatconcept.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Krikkit_Bat",
+    "https://static.wikia.nocookie.net/battlebears/images/5/5c/KrikkitBatCR.jpg/revision/latest?cb=20130727123058",
+    "https://static.wikia.nocookie.net/battlebears/images/a/af/Krikkitbatconcept.jpg/revision/latest?cb=20121119115452"
+   ]
+  },
+  {
+   "name": "Queensbury Rules",
+   "slot": "melee",
+   "status": "Unlock: 30,000 Joules, level 2; originally 20,000 Joules [Fan-wiki]. One of the original three melee weapons, BBR v1.0 [Fan-wiki].",
+   "official_text": "\"Suitable for use in winning reprieve from heavy English taxation as a scrappy underdog team in 1893 India.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Queensbury_Rules",
+   "mechanics": "MELEE: 45 damage, +15% Health; Melee+ +10/+20 [Fan-wiki]. Name references the boxing rules; 'the art on both sides of the bat resemble several elements of the sport' [Fan-wiki]. LOOK: brown wooden cricket bat decorated in gold with a handlebar moustache, boxing fists, 'QBR' lettering and boxer figures [Observed, File:Photo_19-04-13_12_02_56_PM.png, File:Queensburyrulesconcept.jpg]. The text alludes to the film 'Lagaan' [Inference]. DEPICTION FOR SHORTS: a gentlemanly boxing stance before the swing [BBG News invention].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_56_PM.png",
+    "File:Queensburyrulesconcept.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Queensbury_Rules",
+    "https://static.wikia.nocookie.net/battlebears/images/e/ef/Photo_19-04-13_12_02_56_PM.png/revision/latest?cb=20130419024626",
+    "https://static.wikia.nocookie.net/battlebears/images/d/de/Queensburyrulesconcept.jpg/revision/latest?cb=20121119115257"
+   ]
+  },
+  {
+   "name": "Disciplinarian",
+   "slot": "melee",
+   "status": "Unlock price CONFLICT: 20 Gas, no level lock (weapon page, class page) vs 60 Gas (Weapons table, class changelog 'Melee / 60 Gas'); trivia also mentions a 75,000 Joule price and a 37,500 Joule sale price that stuck [Fan-wiki]. Released in the first week of BBR v1.3.1 [Fan-wiki].",
+   "official_text": "\"Elbows on the table? That's a paddlin'. Skirt 6 inches above the knees? That's a paddlin'. Refusing a paddlin'? That's a paddlin'.\" [Game text via wiki] https://battlebears.fandom.com/wiki/Disciplinarian",
+   "mechanics": "MELEE: 45 damage, +10% speed; Melee+ +10/+20 [Fan-wiki]. 'the only bat where its two front faces are not identical, with one side resembling a short ruler and the other a traditional school teacher' [Fan-wiki]. LOOK: orange-yellow ruler-faced bat with black numbers 1-6 and tick marks [Observed, File:Photo_19-04-13_12_02_43_PM.png]; the 'BBR 1.3.1 and BEYOND!' promo shows a yellow ruler bat and an orange bat with a cartoon face at the tip [Observed, File:BBRWEAPONS.png; that the face is the Disciplinarian's teacher side is Inference]. Text riffs on The Simpsons' 'That's a paddlin'' [Inference]. DEPICTION FOR SHORTS: flip the bat to show the teacher face before a swat [BBG News invention].",
+   "image_leads": [
+    "File:Photo_19-04-13_12_02_43_PM.png",
+    "File:BBRWEAPONS.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Disciplinarian",
+    "https://battlebears.fandom.com/wiki/Soldier_(BBG)/Weapons",
+    "https://static.wikia.nocookie.net/battlebears/images/5/50/Photo_19-04-13_12_02_43_PM.png/revision/latest?cb=20130419024806",
+    "https://static.wikia.nocookie.net/battlebears/images/3/37/BBRWEAPONS.png/revision/latest?cb=20121107131723"
+   ]
+  },
+  {
+   "name": "Kumakiri",
+   "slot": "melee",
+   "status": "Unlock: 75,000 Joules, level 30 ('the highest level lock of all weapons') [Fan-wiki]. Released BBR v1.3.2 [Fan-wiki].",
+   "official_text": "\"It's baaack!\" [Game text via wiki] https://battlebears.fandom.com/wiki/Kumakiri",
+   "mechanics": "MELEE: 110 damage, -10% Health; Melee+ +10/+20; 'Unlike the Soldier's other melee weapons, it has a different animation which features a downward slash.' [Fan-wiki]. The text 'refers to the Katana used by Oliver in Battle Bears -1' [Fan-wiki]; BB-1 Katana: 'forged from a plumbing pipe, using the intense energy of a Red Huggable's hug', 75 damage, Hyper form larger [Fan-wiki, Katana]. Name may pun 'Kubikiri' (kuma = bear) [Fan-wiki; kuma gloss is Inference]. LOOK: katana with a broad curved blade, a wavy/jagged edge pattern, a gold guard and a black-and-gold wrapped hilt [Observed, File:Kumakiri_Edit.jpg, File:Kumakiri_Concept_2.png (caption 'Oliver's Kumakiri (Melee)'), File:1.3.2WEAPONS.png]; early concept was a straight katana [Observed, File:Kumakiri_concept.jpg]. BB-1 art shows Oliver slicing a red Huggable with a katana [Observed, File:Sword.png]. DEPICTION FOR SHORTS: overhead downward slash (documented) with a white arc smear [BBG News invention].",
+   "image_leads": [
+    "File:Kumakiri_Edit.jpg",
+    "File:Kumakiri_Concept_2.png",
+    "File:Kumakiri_concept.jpg",
+    "File:1.3.2WEAPONS.png",
+    "File:Sword.png (BB-1 Katana)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Kumakiri",
+    "https://battlebears.fandom.com/wiki/Katana",
+    "https://static.wikia.nocookie.net/battlebears/images/6/6b/Kumakiri_Edit.jpg/revision/latest?cb=20121023095630",
+    "https://static.wikia.nocookie.net/battlebears/images/c/c4/Kumakiri_Concept_2.png/revision/latest?cb=20121126104144",
+    "https://static.wikia.nocookie.net/battlebears/images/8/89/Sword.png/revision/latest?cb=20120320144047"
+   ]
+  },
+  {
+   "name": "Turkish SW Boots (shared Special, Tutorial/Steam-promoted with Oliver)",
+   "slot": "special",
+   "status": "Shared Special, not Soldier-exclusive: 40 Gas, level 8 [Fan-wiki]. The Tutorial's Special (with Oliver's defaults) [Fan-wiki]. Named with Oliver's defaults in the 2026 Steam copy [Canon]. Reworked: before v2.0 it could not be used airborne; recharge was 2.5 s before v2.6 (now 4.5 s); 7 s in an old Tutorial [Fan-wiki].",
+   "official_text": "\"You want to jump? These allow it!\" [Game text via wiki] https://battlebears.fandom.com/wiki/Turkish_SW_Boots ; \"Grab your A Salt Rifle, Bearzooka and those Turkish SW Boots and fight it out with friends across beloved Battle Bears locations.\" [Canon, Steam]",
+   "mechanics": "EFFECT: a jump bigger than the Pro-Mode Jump, usable in mid-air for a chained double jump; cooldown 4.5 s; jump power 600 [Fan-wiki]. LOOK: chunky red boots blasting white smoke jets, shown on Oliver (red headband, brass-bullet bandolier) in 2D promo art [Observed, File:TurkishSWBoots.jpg]; an older image shows white jet plumes under the boots of an Oliver with a blue headband and green harness [Observed, File:Sw_boots.png]. DEPICTION FOR SHORTS: twin white jet plumes on take-off (Observed in art).",
+   "image_leads": [
+    "File:TurkishSWBoots.jpg",
+    "File:Sw_boots.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Turkish_SW_Boots",
+    "https://battlebears.fandom.com/wiki/Tutorial",
+    "https://static.wikia.nocookie.net/battlebears/images/e/e4/TurkishSWBoots.jpg/revision/latest?cb=20130907093154",
+    "https://static.wikia.nocookie.net/battlebears/images/7/76/Sw_boots.png/revision/latest?cb=20130113093637"
+   ]
+  }
+ ],
+ "notes": "SCOPE AND COMPLETENESS. Oliver's BBG arsenal is 21 weapons: 9 primaries (A Salt Rifle, Heavy A Salt Rifle, Soaker, Urine Trouble, Sci-Fi ASR, Sci-Fi HASR, O.C.O. Gauntlet, Minigun (Soldier), Acreambo Pistols), 7 secondaries (Bearzooka, Spreadshot, TNT Launcher, Rockette Launcher, Steamshot, Sake Bomb, Solar Wind Scar) and 5 melees (B.E.A.R. Club, Krikkit Bat, Queensbury Rules, Disciplinarian, Kumakiri) [Fan-wiki, Soldier (BBG) + /Weapons; all 21 pages opened via the API]. I also included Turkish SW Boots: it is a shared Special, but Steam names it with Oliver's defaults. None of the 5 '_unassigned' pages is a Soldier item: Adrenaline Gun is Arbiter, Catastrophe is a Heavy melee, ClubCobra is a Combat Tech melee, Hazard Toy is Assassin, and The Incredible Riggs is a Heavy skin [Fan-wiki]. The class page links 'Minigun', but the page is titled 'Minigun (Soldier)'.\n\nERA TIMELINE [Fan-wiki unless marked]. BBR launched Oct 8, 2011 (US) and was renamed BBG on May 24, 2013. BBR v1.0 brought ASR/HASR/Soaker, Bearzooka/Spreadshot/TNT and B.E.A.R. Club/Krikkit/Queensbury. BBR v1.3.1 rolled out Steamshot and Disciplinarian (week 1), Sci-Fi ASR and Sci-Fi HASR (week 2), Urine Trouble (week 3) and Rockette (week 4). Wiki uploads show v1.3.1 was out by Jul 22, 2012 [Inference]. BBR v1.3.2 added the O.C.O. Gauntlet, Sake Bomb and Kumakiri (promo uploaded Nov 7, 2012). BBG v2.6 (Dec 20, 2013) fixed 'Soaker and Urine Trouble issues' and gave the Soldier back his backpack. SkyVu's 'BATTLE BEARS GOLD Developer Update - Oliver Overhaul' video (Apr 25, 2014) [Canon] is the first overhaul in a series, but its contents are unreadable here; YouTube video access is blocked. The wiki's 'Incoming stats' for the Bearzooka, TNT, Rockette and Solar Wind Scar may be from that overhaul [Inference/Unverified]. BBG v2.11 (Aug 27, 2014) added the Minigun and Solar Wind Scar, and BBG v2.18 (Apr 3, 2015) added the Acreambo Pistols. For the 2026 re-release (Nov 4, 2026), I found no Soldier-specific weapon notes in any of the 7 Steam posts [Canon, Steam News API]. SkyVu's Closed Testing 5 banner (Oct 14, 2026) lists 'LIGHTING, EFFECT & TEXTURE IMPROVEMENTS' [Observed in Steam clan image b7c8f8f1...png], so the 2026 VFX may differ from the 2012-14 references.\n\nLOOK OF THE BBR/BBG OLIVER MODEL (needed to frame weapon shots). He is a dark-brown bear with a red headband, a crossed bandolier of brass bullets, red wristbands, red knee bands with silver-ringed red buttons, and a pale grey/lavender backpack [Observed in File:Oliver-1024x609.jpg ('BATTLE BEARS ROYALE, OLIVER model & textures', kevinsalki.com), File:Oliver3d.png and the 2013 in-game photos]. In 2013 fan captures his headband is red in some matches and blue in others, probably the team colour [Observed; Inference]. The BBH portrait headband is blue [Observed, File:BBH_Profile_Oliver.png]. In SkyVu's own 2026 media, the Oliver trailer card (trailer.mp4 41.5-42.5 s, t_0084-t_0086) and the lava-map clip (38.5-41.25 s) show the 'Gold Oliver' skin [Observed match with File:Gold_Oliver.jpg; identification Inference]. The class emblem on that card is three silver cartridges [Observed]. The Closed Testing banner (Jul 6, 2026 post) shows Oliver in the 'Sam-Are-I' skin [Observed match with File:SAm-Are-i.png]. Generic BBG explosions in official 2026 media are chunky, faceted, translucent yellow-white fireballs with flying debris [Observed: steam_screens/screen_02.jpg, screen_03.jpg; trailer t_0054-t_0056, 26.5-27.5 s, a Tillman blast].\n\nFLAGS ON PRIOR FILES. (1) /home/user/thallo-site/bbg-news-repo/characters/oliver.md says 'The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference]', and its prompt pack has 'a green hazard-striped launcher tube'. Both are WRONG for BBG. The green, hazard-striped, 'BEARZOOKA'-lettered tube is the 2009 BB Zombies design [Observed, File:Bear.jpg]. The BBG Bearzooka is a coral-red hexagonal tube with glowing orange panels [Observed], which matches the wiki ('red and orange lines'). (2) The same file's 'green-and-dark-grey harness / small green backpack' and its negative-prompt term 'blue headband' conflict with the BBR/BBG model described above. The green harness appears only in older art (File:Sw_boots.png) [Observed]. The blue headband is canon-looking for blue-team captures and BBH, so it should not be in the negative prompt. (3) oliver.md says 'The gold trailer-card Oliver is likely a skin'. It matches the Gold Oliver skin (Gold Bundle, BBR v1.4, 1,710 Gas [Fan-wiki]). (4) research_notes/animation_reference.md line 116 calls a green hazard tube 'probably the Bearzooka'. That is plausible, but it is the BBZ-era design. (5) The research notes correctly say the Turkish SW Boots are not a weapon; the Tutorial uses them as a Special.\n\nWIKI CONFLICTS TO RESOLVE. Prices differ between the infobox/class page and the /Weapons table/changelog: Urine Trouble 60 vs 75 Gas, Sci-Fi HASR 60 vs 85, Acreambo 60 vs 75, Solar Wind Scar 60 vs 75, and Disciplinarian 20 vs 60 Gas. Bearzooka ammo is listed as 1 in the infobox but 'two shots' in the text; 2013 HUD captures show 1. Ammo counters in 2013 HUD captures [Observed] also differ from the infoboxes: Sci-Fi ASR x/30 vs 25, Spreadshot x/4 vs 6, Rockette x/2 vs 3 and OCO x/2 vs 1. The class changelog puts Steamshot in BBR v1.0, lists the B.E.A.R. Club twice and omits the TNT Launcher. The /Weapons table lists the Bearzooka's type as 'Primary'. The HASR's official text says 'lower damage', but its infobox damage is higher than the ASR's. BBH global launch: SkyVu's news post says '20 August 2024' [Canon], while the wiki says Oct 3, 2024.\n\nOTHER-ERA EQUIVALENTS (brief). BB Zombies (2009) had a dark-green Bearzooka that, per the wiki, Oliver reloads with Huggable pieces, plus an assault rifle default [Fan-wiki]. BB-1 (2010) had a Machine Gun default, a Spreadshot (grey, five red pellets; Hyper 'Dreadshot' fires green pellets), a rapid-fire green Bearzooka (the Hyper version is slow with 5x damage) and a pipe-forged Katana that the Kumakiri text references [Fan-wiki]. BB Fortress had a Rifle and a Katana [Fan-wiki via prior notes]. BB Heroes (soft launch May 2023) gives Oliver the Acreambo Pistols as his attack and the Bearzooka as his Ultimate [Canon]; the wiki lists 6x360 and 6x640 damage [Fan-wiki].\n\nACCESS LIMITS. web.archive.org was 'Blocked by egress policy', with connections reset on every attempt. archive.org's availability API does confirm a snapshot of SkyVu's official 2.6 change log: http://web.archive.org/web/20151029082739/http://battlebears.com/battle-bears-gold-2-6-change-log/ [lead, not read]. SkyVu forum balance notes are at battlebears.vanillaforums.com/discussion/34447 (2.8) and /42525 (2.17); the live host returns 502 [leads]. The archived 2012 BBR classes page was not re-read. I watched no videos; all YouTube evidence comes from i.ytimg.com thumbnails. The wiki demo videos are 2013 fan uploads (Dban1, 'BBR.wikia.com'). The 2026 JustNubz showcase thumbnails show Heavy/Huggable menus and no Soldier.\n\nOPEN QUESTIONS. These are undocumented and need gameplay footage (showcase Soldier chapter 4:35-8:50; the Oliver Overhaul video): tracer and projectile looks for the ASR, HASR, Soaker, both Sci-Fi rifles and the Minigun; the Bearzooka rocket model and trail; the TNT and Sake Bomb projectile models; Steamshot steam colour (the wiki says green and the official thumbnail shows green wisps, but a fan capture shows white puffs); and 2026 prices and stats. Local copies of every image I viewed are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/ (png/, png2/, png3/, png4/, vid/thumbs/, official/, trailer_hi/ and the contact sheets in sheets/)."
+}

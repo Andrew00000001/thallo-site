@@ -1,0 +1,275 @@
+{
+ "quickref": [
+  {
+   "weapon": "Beebeegun",
+   "owner": "Riggs (Heavy)",
+   "slot": "primary",
+   "status": "Default since BBR 2012; rebalanced BBG 2.6 (Dec 20 2013); 2026 unverified",
+   "look": "Long charcoal boxy minigun (#232423) with amber glowing slats (#E0AA44), gold faceted hive on top (#C7A93A), yellow-black striped tube, tiny white-winged bees; hip-held, ~0.7x Riggs height",
+   "firing_and_projectile": "Automatic minigun with wind-up/down, 0.1 s, hitscan [Fan-wiki]; item text says angry bees fired backwards [Game text via wiki]; no image of it firing found",
+   "impact_end_result": "No splash or status [Fan-wiki]; hit visual undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Provolowned",
+   "owner": "Riggs (Heavy)",
+   "slot": "primary",
+   "status": "BBR 1.3.1 week 1 (2012); 1.4.2 and 2.6 changes; 2026 unverified",
+   "look": "Pale-yellow cheese block (#FDDEA9) with red specks tied with twine, orange crust handle, silver box-grater barrel (#C3C3C3), white lump and silver plate on top",
+   "firing_and_projectile": "Beebeegun retexture minigun with a long wind-up, hitscan [Fan-wiki]; projectile undocumented (cheese implied by text)",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Field Medic",
+   "owner": "Riggs (Heavy)",
+   "slot": "primary",
+   "status": "BBR 1.3.1 week 4 (2012); -8% Health removed in 2.6; 2026 unverified",
+   "look": "Stubby rotary gun: cardboard-box centre (#D7CAB4), silver hex muzzle with six bores, teal Huggable (#106A7B) in olive army helmet on top",
+   "firing_and_projectile": "Automatic, 0.1 s, 40 ammo [Fan-wiki]; fan footage shows a cream spiky muzzle cone spraying small olive/tan chunks and bone-like bits ('amputated limbs' per wiki)",
+   "impact_end_result": "Chunks burst on target amid yellow-white spark spikes; no blood visible (low-res fan thumbnail)",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Big Iron",
+   "owner": "Riggs (Heavy)",
+   "slot": "primary",
+   "status": "BBR 1.3.2 (Aug 24 2012); changed 2.6; 2026 unverified",
+   "look": "Oversized gunmetal revolver (#695D5D), tally scratches on barrel, dark red wood grip (#872B26); two-handed at chest, ~0.5x Riggs",
+   "firing_and_projectile": "Semi-auto 0.5 s, 6 shots, real projectile 2,000 u/s, no AoE [Fan-wiki]; bullet look undocumented",
+   "impact_end_result": "Direct-hit damage only; visual undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Electric Honey (BBG)",
+   "owner": "Riggs (Heavy)",
+   "slot": "primary",
+   "status": "Original BBR 2012; 1.4.2 and 2.6 changes; PRESENT in official 2026 trailer and Steam screenshot",
+   "look": "Beebeegun mesh in black with violet glowing slats, hot-pink striped hive with two pink ball antennae, magenta energy rings (#D14CD9) spiralling round the barrel",
+   "firing_and_projectile": "Automatic minigun, hitscan [Fan-wiki]; 2026 trailer: rings pulse at the muzzle and a wide translucent dark-grey streak with pink fringes runs straight to the target",
+   "impact_end_result": "Starburst of long pink-magenta triangular shards plus soft white-pink puffs; target flashes paler; no explosion (trailer 34.8-35.6 s)",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Zombee Gun",
+   "owner": "Riggs (Heavy)",
+   "slot": "primary",
+   "status": "Original BBR 2012; changed 2.6; in SkyVu 2014 overhaul thumbnail; 2026 unverified",
+   "look": "Field Medic mesh in charcoal with blood-red blotches, concentric red-ring muzzle, lime-green grinning Huggable (#5AF32D) with antennae on top",
+   "firing_and_projectile": "Automatic, 300 ammo [Fan-wiki]; 'ground-up zombie Huggables' [Fan-wiki]; 2012 note: 'bones and green liquid' that wobbles; not seen",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bounce Lazer",
+   "owner": "Riggs (Heavy)",
+   "slot": "primary",
+   "status": "BBG 2.19 (Apr 26 2015); 2026 unverified",
+   "look": "Small slate-blue blaster (#3D5A6B), dark top muzzle, rainbow strip on grip, pink Huggable head (X eyes, tongue out) hanging as pommel; pistol-sized",
+   "firing_and_projectile": "Rainbow beam like Headlights, 40 dps, ricochets 10 or 25 times [Fan-wiki]; fan footage: thin straight rainbow-banded beam that reflects off a wall into a long second segment",
+   "impact_end_result": "Small bright flare at the bounce point; effect on targets not seen",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Flame Thrower",
+   "owner": "Riggs (Heavy)",
+   "slot": "primary",
+   "status": "BBG 2.14 (Nov 29 2014); 2026 unverified",
+   "look": "Tall red can (#A81F20) with flame/sun label on top of a wide black hexagonal ribbed barrel, silver grip; ~0.4x Riggs",
+   "firing_and_projectile": "Mid-range stream of 'red-colored flames' like Cosmic Fire [Fan-wiki]; not seen in BBG",
+   "impact_end_result": "Undocumented (BB Zombies ancestor shows orange fire and black smoke)",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Hivey League",
+   "owner": "Riggs (Heavy)",
+   "slot": "secondary",
+   "status": "Default since BBR 2012; improved BBR 1.3; speed penalty removed 2.6; 2026 unverified",
+   "look": "Grey boxy body with amber vent, gold hexagonal hive with bee emblem, honeycomb muzzle of hex holes with yellow honey inside; tiny bee nearby",
+   "firing_and_projectile": "Hitscan shotgun cone [Fan-wiki]; 'spreading cone of angry bees' [Game text via wiki]; not seen",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Plasma Orb",
+   "owner": "Riggs (Heavy)",
+   "slot": "secondary",
+   "status": "BBR 1.3.1 (2012); repriced 1.4.2; -10% Health removed 2.6; 2026 unverified",
+   "look": "Dark navy launcher with pistol grip, glowing magenta octagonal slatted muzzle (#D22477), dark glass globe with blue-violet lightning, blue sparkles",
+   "firing_and_projectile": "Shotgun re-skin of Hivey League; 'spreading blast of purple electricity' [Fan-wiki]; not seen",
+   "impact_end_result": "Text: 'smoldering husk'; visual undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Mother of Nature",
+   "owner": "Riggs (Heavy)",
+   "slot": "secondary",
+   "status": "BBR 1.3.2 (2012); changed 2.6/2.7; in SkyVu 2014 overhaul video; 2026 unverified",
+   "look": "Hollow splintered log cannon (#7C5643) with crimson and purple growths, yellow-green moss, bright green vine bands; hip-held",
+   "firing_and_projectile": "Lobbed large purple berry in an arc, 750 u/s, 2 shots [Fan-wiki]; berry not seen",
+   "impact_end_result": "Official 2014 frames: dark-purple poison cloud around target, purple haze ring on floor, big skull-faced berry-shaped purple puff, purple skull-berry icon over victim; poison 4/s for 10 s [Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Freeze Blast",
+   "owner": "Riggs (Heavy)",
+   "slot": "secondary",
+   "status": "BBG 2.12 (Oct 2 2014); 2026 unverified",
+   "look": "Ice-cyan block (#8ED1D3) with yellow-lit window and orange cap; two barrels ending in white jagged frost caps with black bores",
+   "firing_and_projectile": "Small blue projectiles in an arc [Fan-wiki]; not seen",
+   "impact_end_result": "Projectiles split into floor pools that severely slow enemies [Fan-wiki]; overhead icon unverified",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Buzz Kill",
+   "owner": "Riggs (Heavy)",
+   "slot": "secondary",
+   "status": "Original BBR 2012; improved BBR 1.3; 2026 unverified",
+   "look": "Grey Hivey-style body, gold hive (#DCC341) with bee emblem, black hex muzzle with yellow-orange chevron stripes, white smoke puff at the muzzle",
+   "firing_and_projectile": "Large queen-bee explosive at 800 u/s with an UPWARD arc, sticks to surfaces [Fan-wiki]; not seen",
+   "impact_end_result": "Explodes 1.5 s (or 2 s) after sticking or instantly on enemy contact, AoE 40-70; the Heavy's only true explosion [Fan-wiki]; visual undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sucker Punch",
+   "owner": "Riggs (Heavy)",
+   "slot": "secondary",
+   "status": "Original BBR 2012; ammo 1->6->3; 2026 unverified",
+   "look": "Compact grey box launcher with tan underside and a pink faceted grinning Huggable head (#F098A8) mounted on the front",
+   "firing_and_projectile": "Lobs a small pink Huggable-like head in an arc at 1,000 u/s; head stays intact and can shove players [Fan-wiki]",
+   "impact_end_result": "2.6 s stun with a blue Nuggs bird and white spin arcs overhead (Observed icon); official 2014 frame with this HUD icon (4/6) shows a yellow-white burst on the target (identity inferred)",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Barbed Gloves",
+   "owner": "Riggs (Heavy)",
+   "slot": "melee",
+   "status": "Default since BBR 2012; changed 2.6; 2026 unverified",
+   "look": "Huge mustard-yellow plush creature mitts (#BFB044) with dot eyes, wrapped in black barbed wire with red-brown scratch marks; head-sized each",
+   "firing_and_projectile": "Two-glove punch, second glove doubles damage [Fan-wiki]",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Catastrophe (in-game 'CATASTOPHE')",
+   "owner": "Riggs (Heavy)",
+   "slot": "melee",
+   "status": "BBR 1.3.1 week 1 (2012); 1.4.2 modifier change; 2026 unverified",
+   "look": "Blocky calico cat-head gloves (white/orange/brown), one huge glossy blue eye each (#318BD8), pink-red mouth at the punching end",
+   "firing_and_projectile": "Two-glove punch, 40 per glove [Fan-wiki]",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Blood Spurt",
+   "owner": "Riggs (Heavy)",
+   "slot": "melee",
+   "status": "BBR 1.3.2 (2012); 1.4.2 and 2.6 changes; PRESENT in official 2026 trailer",
+   "look": "Fists in tan cracked bandage tape (#E0BDA1), ice-blue knuckle blocks (#9AC2C8), long glassy spikes in green, gold and rose-copper",
+   "firing_and_projectile": "Two-glove punch, same swing as other Heavy melees [Fan-wiki]; trailer: cocked right jab from shoulder height into the face",
+   "impact_end_result": "Trailer 36.5-38 s: punch lands on a golden bear, near-white flash, freeze into RIGGS/HEAVY card with light glints on the spikes; no blood",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Sword and Stone",
+   "owner": "Riggs (Heavy)",
+   "slot": "melee",
+   "status": "Modelled 2012, released BBG 2.11 (Aug 27 2014); repriced 2.20; 2026 unverified",
+   "look": "Rune-etched longsword with bronze curved guard (#956C35) and brown grip, tip sunk in a mossy grey boulder (#827660); in-hand pose not seen",
+   "firing_and_projectile": "Melee, 40 per hit, doubled if both connect [Fan-wiki]; swing not seen",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Huggable Gloves",
+   "owner": "Riggs (Heavy)",
+   "slot": "melee",
+   "status": "Original BBR 2012; changed 2.6; 2026 unverified",
+   "look": "The same creature-mitt mesh in hot pink (#DE2162) with black dot eyes",
+   "firing_and_projectile": "Two-glove punch, 40 per glove, +10% Speed [Fan-wiki]",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Zombee Gloves",
+   "owner": "Riggs (Heavy)",
+   "slot": "melee",
+   "status": "Original BBR 2012; changed 2.6; 2026 unverified",
+   "look": "The same mitt mesh in zombie green (#559F3E) with red-edged open gashes showing pale rib stripes",
+   "firing_and_projectile": "Two-glove punch, 40 per glove [Fan-wiki]",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "Their look is undocumented, so designs, like the toothbrush prop, are [BBG News invention].",
+   "correction": "Their looks are documented [Observed] in 2012-2015 gear-up screenshots and renders on the fan wiki. Electric Honey and Blood Spurt also appear in the official 2026 Steam trailer and screenshot [Observed]. Defaults: the Beebeegun is a long charcoal boxy minigun with amber glowing slats and a gold faceted hive on top, held low at the hip. The Hivey League is a grey boxy shotgun with a gold hive and a honeycomb-hole muzzle. The Barbed Gloves are huge mustard-yellow plush creature-mitts wrapped in black barbed wire. Only the toothbrush prop is [BBG News invention]. See the Riggs weapons dossier.",
+   "evidence": "Opened File:Photo_19-04-13_12_50_44_PM.png, File:Heavy.png, File:Hivey_league.png and File:Photo_19-04-13_12_51_16_PM.png; Steam screen_00.jpg; trailer frames 34.3-38.2 s (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/riggs-weapons/sheets/tr_343_383.jpg)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "thick dark brawler gloves, chunky oversized close-range gun",
+   "correction": "oversized mustard-yellow plush creature-shaped gloves with black dot eyes wrapped in black barbed wire (#BFB044); a long charcoal boxy minigun with amber glowing slatted panels (#E0AA44) and a gold faceted beehive (#C7A93A) on top, held low at the hip",
+   "evidence": "File:Photo_19-04-13_12_51_16_PM.png and File:Barbed_gloves.png (no BBG Heavy melee is dark); File:Photo_19-04-13_12_50_44_PM.png and File:Beebee.png; colours sampled from these images"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "dark diagonal bandolier, green-and-black ribbed pack over one shoulder",
+   "correction": "This is the 2D card look. The file's declared default is BBG 2013 3D, red team, which wears a red segmented helmet (#8E1F1D), a red chest harness (#740303) with a round red medallion ringed in yellow-green (#D7D872), red forearm and shin bands, and a red round backpack. On the card itself the green ribbed piece reads as a shoulder pad on the strap rather than a pack. Apply the same fix to the video prompt starter ('a dark bandolier and green ribbed shoulder pack').",
+   "evidence": "2013 gear-ups File:BuzzKill.jpg, File:Big_Iron.jpg and File:Photo_19-04-13_12_50_*_PM.png (red gear; sampled); File:Heavy.png (same gear in blue); card File:RiggsDescription2.jpg; characters/README.md 'Team colour: red team by default'"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "The red card skin is unnamed [Open].",
+   "correction": "The red cracked-rock skin on the 2026 trailer card and Steam screenshot matches Rocky Horror: wiki price 250 Gas, released in BBR v1.3.1 week 4, 'a rock monster-like Riggs\u2026 cracked fragments of team coloured rock' [Fan-wiki name; Observed match].",
+   "evidence": "File:ROcky_Horror.png and File:SuckerPunch.jpg vs /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_00.jpg and trailer frames 34.3-38.2 s; wiki page Rocky Horror"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "the 2026 trailer card shows a red faceted skin instead [Observed]",
+   "correction": "the 2026 trailer shows him in the Rocky Horror skin, firing Electric Honey (34.3-36.4 s), then landing a Blood Spurt punch on a golden bear that freezes into the RIGGS / HEAVY card (36.5-38 s) [Observed]",
+   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/riggs-weapons/frames/f_006.jpg, f_025.jpg and f_035.jpg (same folder); crops tr_025.png and tr_035.png"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "**Fighting:** \"excels in close combat\"; \"astonishing leap and ground-smashing ability\" [Canon] ([characters][chars]).",
+   "correction": "Label these by era: they are SkyVu's BB Heroes (2023-24) hero text for the 'Beebee gun' burst attack and his BBH Ultimate [Canon, BBH era]. BBG has no leap-smash ability. In a BBG 2013 short his close-combat identity comes from the minigun or shotgun plus the two-glove melee punch [Fan-wiki].",
+   "evidence": "battlebears.com/pages/characters (fetched today): 'Riggs's Ultimate showcases his astonishing leap and ground-smashing ability\u2026 Wielding his \"Beebee gun,\" he excels in close combat, delivering a burst of shells'; wiki BB Heroes table: Beebee Gun '5 x 306', Ultimate 'He can fly now?'"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "Weapons:** BBG defaults Beebeegun, Hivey League, Barbed Gloves [Fan-wiki] ([Heavy (BBG)][wh]); \"Beebee gun\" is official in BBH [Canon]",
+   "correction": "Keep both, but do not merge them. The BBG Beebeegun item text says 'angry bees\u2026 fired backwards' [Game text via wiki], while the BBH 'Beebee gun' fires 'a burst of shells' [Canon, BBH]. Depict the BBG version as a minigun stream, not a shell burst.",
+   "evidence": "https://battlebears.fandom.com/wiki/Beebeegun; https://battlebears.com/pages/characters"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "The red card skin's name? What his weapons look like?",
+   "correction": "Both are answered (Rocky Horror; weapon looks in the dossier). Remaining open: what most projectiles and impacts look like (only Electric Honey, Bounce Lazer, Field Medic, Mother of Nature and Blood Spurt have been seen), and which weapons ship in 2026.",
+   "evidence": "This dossier's Observed sections"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "Contents of SkyVu's 2014 \"Riggs Overhaul\" developer video [Canon, unviewed] ([YouTube][ovh])",
+   "correction": "Partly answered from thumbnails only. Riggs fires Mother of Nature (purple poison cloud, a skull-faced berry puff, a purple skull-berry icon over the victim, HUD 1/2) and uses a Sucker Punch-style HUD weapon at 4/6. The menu shows version 2.9, about May 2014. A search snippet of the description says 'Game Designer SkyVu Trevor explains in detail all of the changes in store for Riggs' [wording Unverified]. The video itself is still unwatched.",
+   "evidence": "https://i.ytimg.com/vi/xp5B76ExuAI/maxresdefault.jpg, hq1.jpg, hq2.jpg and hq3.jpg; oEmbed author 'BATTLE BEARS'"
+  }
+ ],
+ "open_questions": [
+  "What do the projectiles and impacts look like for the 15 Heavy items not yet seen firing or swinging: Beebeegun, Provolowned, Big Iron, Zombee Gun, Flame Thrower, Hivey League, Plasma Orb, Freeze Blast, Buzz Kill (explosion), Sucker Punch (flight), Barbed Gloves, Catastrophe, Sword and Stone, Huggable Gloves, Zombee Gloves? The JustNubz 2026 playtest showcase (Heavy chapter 8:50-14:16) would answer most of this, but it must be watched by a person; I only saw its thumbnails, which show no Riggs weapon.",
+  "Which of the 20 BBG Heavy items ship in the Nov 4 2026 re-release? Only Electric Honey and Blood Spurt are confirmed by official 2026 media.",
+  "Does the Beebeegun or Electric Honey stream show individual bees in game? At 1080p the trailer shows only a dark tracer with pink fringes.",
+  "Is the yellow-white burst on the target in SkyVu's 2014 Riggs Overhaul thumbnail (hq3) the Sucker Punch hit effect, and what changed in that overhaul?",
+  "What is the official SkyVu text of the BBG 2.6 changelog? web.archive.org was unreachable (connection resets, HTTP 429), and the wiki's 2.6 numbers contradict its infoboxes.",
+  "What overhead icon does Freeze Blast give (the yellow-Z 'Slowed' icon?), and what do its floor pools look like?",
+  "What is the Buzz Kill explosion's colour and shape, and does the projectile visibly blink or buzz before it detonates?",
+  "Is the orange round emblem with circular holes behind 'RIGGS' on the 2026 trailer card a Heavy class icon (minigun barrels or revolver cylinder)?",
+  "Is the near-white flash after the Blood Spurt punch (trailer 36.8 s) an impact effect or an edit transition?",
+  "Who made the renders that carry the BATTLE BEARS logo (File:Provolowned.png, File:BBRWEAPONS.png)? They look like official SkyVu promo art, but their source is unconfirmed.",
+  "Weapon sound effects are undocumented for every Heavy item.",
+  "Wiki stat conflicts to settle in game: Hivey League ammo (4 vs 6) and damage ('1525'); Electric Honey ammo; Bounce Lazer bounce count (10 vs 25); Buzz Kill fuse (1.5 vs 2 s); Catastrophe, Field Medic and Zombee Gloves modifiers; Freeze Blast and Sword and Stone prices.",
+  "What do the HUD weapon icon and the '160/160' ammo in fan video 4A3sWm3hhso (overhauled-model Riggs) belong to? It may be the pre-2.6 Beebeegun clip, which the 2.6 page says was 160."
+ ]
+}

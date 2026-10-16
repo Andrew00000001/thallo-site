@@ -1,0 +1,205 @@
+{
+ "quickref": [
+  {
+   "weapon": "Bearzooka",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary (default)",
+   "status": "BBG 2013 default; named in 2026 Steam text",
+   "look": "Coral-red octagonal tube, pinched in the middle and flared at both ends (#DE604D in the 2026 trailer, #A14243 in a 2013 capture); a row of glowing orange window panels (#FF941F); grey metal collars; grey-checkered rear flare; black bore. Shouldered with the muzzle forward. Not green: the green in the trailer is the Green Oliver skin, and the 'hazard stripes' are his bullet bandolier.",
+   "firing_and_projectile": "2 shots before reloading [Fan-wiki]; planned stats were a 1 s rate of fire, 3 s reload and 1000 u/s rocket [Fan-wiki]. Rocket and muzzle look not observed.",
+   "impact_end_result": "Explosive area damage (AOE) [Game text via wiki]; the user easily blows himself up [Fan-wiki]. Explosion look unverified; use the general BBG grammar: faceted yellow-orange fireball, octagonal ground ring, faceted grey puff. Kills can gib.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Generic death (all classes)",
+   "owner": "All classes",
+   "slot": "n/a",
+   "status": "BBG 2013; seen in 2026 trailer",
+   "look": "Ordinary deaths: the victim goes limp and topples as one intact body, with no blood; the corpse stays at least about 1-2 s.",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "Explosive and radiation deaths break the body into 4-7 clean chunks (head, torso, limbs, backpack or flag) thrown up through a yellow faceted blast. Three Joule pickups drop at the death site [Fan-wiki].",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Gamma Ray / radiation (Gernobyl, Radiation Rod)",
+   "owner": "Graham (Engineer)",
+   "slot": "Primary / secondaries",
+   "status": "BBG v1.4.3+ (2013)",
+   "look": "Gamma Ray: short yellow beam [Fan-wiki]. Gernobyl: lime goo puddles (#A1D22C) [Observed]. Radiation Rod: placed glowing field [Fan-wiki].",
+   "firing_and_projectile": "Continuous beam, globs of goo, or a placed field",
+   "impact_end_result": "A yellow-black radiation trefoil grows above the victim's head with Geiger clicks; at 100% the victim explodes in a yellow-white blast and gibs, hurting others nearby.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Dead Eye",
+   "owner": "Astoria (Sniper)",
+   "slot": "Primary",
+   "status": "BBG v1.4.3 (2013)",
+   "look": "Bone rifle with an animal-skull scope [Fan-wiki]",
+   "firing_and_projectile": "A single red stream-like bullet [Fan-wiki]; a thin pale zigzag trail seen in the trailer [Observed]",
+   "impact_end_result": "A translucent red buffalo skull (#FE2B35) rises from the victim, who topples [Observed; identification is Inference]. A white-lock hit is an instant-kill headshot; the kill feed shows 'HEAD SHOT' with a red crosshair over the victim's portrait.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Phat Man / Piece Maker",
+   "owner": "Tillman (Demo)",
+   "slot": "Secondary",
+   "status": "BBG 2013",
+   "look": "Olive nuke with a yellow-black radiation trefoil, strapped to Tillman's jetpack",
+   "firing_and_projectile": "Rises on a yellow-white flame trail, then falls down a yellow light column onto the locked target",
+   "impact_end_result": "A translucent yellow faceted dome fills the area and flings gibs, followed by a mushroom cloud of translucent white faceted puffs.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Light Matter",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary",
+   "status": "BBG v1.3.1+",
+   "look": "Fires a blue orb [Fan-wiki]",
+   "firing_and_projectile": "Slow straight-flying orb",
+   "impact_end_result": "A huge, opaque, blinding white sphere wrapped in jagged cyan lightning (#80FFFE) [Observed]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Pain Field",
+   "owner": "Botch (Assassin)",
+   "slot": "Secondary (default)",
+   "status": "BBG 2013",
+   "look": "A small pink orb floating at Botch's side [Fan-wiki]",
+   "firing_and_projectile": "Grows into a large barrier of compact hexagons",
+   "impact_end_result": "A magenta faceted honeycomb dome (#D457EB / #CD20ED); everyone inside takes 50% more damage; no overhead icon.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Mother of Nature / Chaos Toss (poison)",
+   "owner": "Riggs (Heavy) / Botch (Assassin)",
+   "slot": "Secondary / primary",
+   "status": "BBG",
+   "look": "Mother of Nature: large purple berry. Chaos Toss: skeletal hand lobbing a gleaming orb [Fan-wiki].",
+   "firing_and_projectile": "Lobbed in an arc",
+   "impact_end_result": "A purple (Riggs) or green (Botch) poison cloud; a small purple or green skull over the victim; damage over time.",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Sucker Punch",
+   "owner": "Riggs (Heavy)",
+   "slot": "Secondary",
+   "status": "BBG",
+   "look": "Pink, cube-headed, Huggable-like launcher [Observed]",
+   "firing_and_projectile": "Lobs a small pink Huggable-like head that stays solid after hitting [Fan-wiki]",
+   "impact_end_result": "Victim fully stunned for 2.6 s; a blue Nugg bird circles above the dazed victim [Fan-wiki; icon Observed].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Glue Bomb / Bind Field / Phantom Hug",
+   "owner": "Sanchez (Arbiter) / Graham (Engineer) / Huggable",
+   "slot": "Primary / secondary / secondary",
+   "status": "BBG",
+   "look": "Glue Bomb: small purple sticky blob. Bind Field: prickly ball with purple nodes and green seams. Phantom Hug: glowing pink Huggable-shaped energy.",
+   "firing_and_projectile": "Thrown or lobbed in an arc",
+   "impact_end_result": "Slowed or held in place; blue concentric ground rings (Glue Bomb) [Observed]; a yellow 'Z' icon over slowed players [Fan-wiki].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bearscream Sandwich (pickup)",
+   "owner": "Map pickup",
+   "slot": "Pickup",
+   "status": "BBG",
+   "look": "Ice-cream sandwich with an angry brown bear face, red eyes and yellow teeth",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "Damage boost for 20 s (doubles or triples; the wiki conflicts). A swirling magenta-pink electric ring circles the player (#E76FE6).",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Shield (pickup and spawn protection)",
+   "owner": "Map pickup",
+   "slot": "Pickup",
+   "status": "BBG",
+   "look": "Four green shields orbit the player [Fan-wiki]; translucent green heater-shields seen in a low-resolution image [Observed]",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "Immune to damage for 10 s (4.5 s after respawning); falling off the map can still kill.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Health Pack / Imperial Basket Grande",
+   "owner": "Map pickups",
+   "slot": "Pickup",
+   "status": "BBG",
+   "look": "Health Pack: white-grey box with an orange cross. Imperial Basket Grande: red basket of golden fried chunks.",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "Health Pack heals up to 35 (respawns in 45 s); Imperial Basket Grande adds 50% of max health and can overheal to 200% (respawns in 60 s) [Fan-wiki].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Joules (death drop)",
+   "owner": "Any death",
+   "slot": "Pickup",
+   "status": "BBG v2.1+",
+   "look": "Blue lightning bolt on a dark hexagon",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "Three drop where a player dies, worth 25 Joules each, and vanish after 10 s; '+25' lines appear in the HUD feed.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Peek A Boo / So Fly / Double Rainbow!",
+   "owner": "Huggable",
+   "slot": "Secondary / primary / primary",
+   "status": "BBG",
+   "look": "Rainbow streak effects in red, yellow and green (#E35254 / #E3B935 / #41A13E)",
+   "firing_and_projectile": "Peek A Boo: an upward rainbow burst, then invisibility with neon team lines. So Fly: the Huggable flies forward in a stream of rainbow shards. Double Rainbow!: two rainbows spin around the user.",
+   "impact_end_result": "Each effect is identified only by Inference. The trailer's 3.3 s rainbow fan is not shown to be a death.",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
+   "correction": "In BBG the Bearzooka is a coral-red octagonal tube (~#DE604D in the 2026 trailer, ~#A14243 in a 2013 capture) with a row of glowing orange window panels (~#FF941F), grey metal collars and a grey-checkered flared rear [Observed]. This matches the wiki's 'rocket launcher with red and orange lines' [Fan-wiki]. Green Bearzookas belong to BB Zombies and BB-1 [Fan-wiki].",
+   "evidence": "Wiki infobox capture Photo_19-04-13_12_02_26_PM.png (2013), saved at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/combat-vfx/png/Photo_19-04-13_12_02_26_PM.png. Official 2026 Steam trailer 3.9-4.8 s (dl/combat-vfx/tr/bz_full_4.3.png and sheets/bz_sheet.jpg). Bearzooka_Concept.png. In that trailer shot the green is the Green Oliver skin's fur (GreenSkin.png) and the yellow-and-black 'hazard stripes' are his brass-bullet bandolier."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "He holds a chunky assault rifle and carries a green hazard-striped launcher tube on his back.",
+   "correction": "He holds a chunky assault rifle and carries a coral-red launcher tube with glowing orange window panels, grey metal collars and a grey-checkered flared end.",
+   "evidence": "Same as the previous correction: Photo_19-04-13_12_02_26_PM.png, trailer 3.9-4.8 s, Bearzooka_Concept.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "A green-and-dark-grey harness with grey clips [Observed] and a small green backpack [Inference].",
+   "correction": "Check before changing. The BBG 2013 in-game default shows a brass-bullet bandolier across the chest and red (team-colour) headband, wristbands and ankle bands with red gem studs [Observed]. The backpack seen in play is pale grey-lilac (~#A88EA4) with team-colour trim [Observed]. If the green harness comes from a specific 2012 card, cite it and keep it only for that era; the unsampled 'harness green #4E6B35' in line 49 depends on this.",
+   "evidence": "Wiki default-skin render OliverSkin.png (uploaded 2013-10-15), saved at dl/combat-vfx/png/OliverSkin.png. Trailer frame dl/combat-vfx/tr/bz_full_4.3.png (backpack sampled at #A88EA4 on the Green Oliver skin)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/README.md",
+   "current_text": "No blood, gore or organs: bears throw sparks, Huggables burst into rainbow confetti, robots shed bolts.",
+   "correction": "Keep the rule but label it, with the observed baseline: in BBG a normal death is an intact ragdoll collapse, and explosive or radiation deaths break the body into a few clean toy-like chunks [Observed]. BBG News dresses those chunks as sparks (bears), rainbow fluff (Huggables) and bolts (robots) [BBG News invention]. No source shows confetti.",
+   "evidence": "Official 2026 trailer at 4.9-5.6 s, 8.9-9.0 s, 12.6-14.9 s, 26.5-27.8 s and 31.7-32.7 s; Steam screenshots screen_03.jpg and screen_04.jpg. The prior research notes' fact-check also removed 'confetti' as unsourced."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "Huggable \"gore\" stays rainbow confetti.",
+   "correction": "Huggable \"gore\" stays rainbow fluff or confetti [BBG News invention]. SkyVu's rainbow Huggable blood comes from the earlier PvE games [Fan-wiki]; in BBG footage a killed Huggable breaks into plush pieces with gold sparkles [Observed].",
+   "evidence": "Wiki Huggable page ('rainbow blood that flies out from the body vertically when the Huggable is beheaded') and Headlights trivia (BB-1/BBZ/BB0 death animation); trailer 8.9 s; HuggyBiteMeCR.png (rainbow-smeared bear traps)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/README.md",
+   "current_text": "**Team colour:** red team by default.",
+   "correction": "Low-priority addition. Append: 'Team colour shows on accents (Soldier headband and cuffs, the Huggable's flag, Tillman's armour panels), on the HUD and kill feed, and on cloak, Peek A Boo and Energy Barrier glows. Weapon projectiles keep their own colours [Observed/Fan-wiki; Inference].'",
+   "evidence": "OliverSkin.png and GreenSkin.png (red bands in menus); trailer 3.9-4.8 s (blue bands on a blue-team player) and 18-22 s (blue-team Tillman in white and blue); A_life_upside_down.png (team-coloured HUD and kill feed); wiki Cloaking, Peek A Boo and Energy Barrier pages."
+  }
+ ],
+ "open_questions": [
+  "Does the 2026 build keep ragdolls and gibbing? Both appear in the official 2026 trailer, but the capture build is unverified. Check the Oct 19-26 Steam Next Fest demo or the JustNubz showcase if it can be viewed.",
+  "Is the thick black ink outline in the 2026 Steam screenshots and trailer an in-game rendering change or a marketing filter? 2013 captures have no outline.",
+  "Does a Huggable spray rainbow when it dies in BBG? The rainbow fan at 3.3-3.8 s in the trailer is most likely Peek A Boo; BBG footage shows Huggables breaking into plush chunks.",
+  "What do the Bearzooka's rocket, muzzle flash and explosion look like? No frame found; wiki demonstration video AZt_huguhzc seen only as thumbnails.",
+  "Do gibbed bears show the 'pink and red flesh' the wiki describes for Tillman? Not seen in any frame.",
+  "How do the Frozen state (S'no Matter, Let It Cold), the poison skull icons and the Drain Field look? No images found.",
+  "Is there a respawn or spawn-in effect or a death cam, and how long do corpses stay on screen?",
+  "What does the green 'OH BABY' HUD text mean? Possibly a killstreak call.",
+  "Which weapons made the trailer effects: the pink beam that irradiated the orange Huggable at 7-9 s, B-1000's kill of the green Soldier at 4.9 s, and the orange sky cone with octagonal shockwave rings at 52.6 s?",
+  "Does the Bearscream Sandwich double or triple damage? The wiki's Bearscream Sandwich and Pick-Ups pages conflict.",
+  "Archived SkyVu blog and patch notes were unreachable (web.archive.org connection resets; WebFetch refused the host). They might add canon wording on deaths, gibs or team colours."
+ ]
+}

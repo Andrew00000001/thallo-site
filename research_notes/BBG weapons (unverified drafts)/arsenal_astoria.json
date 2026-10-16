@@ -1,0 +1,405 @@
+{
+ "weapons": [
+  {
+   "name": "Viperifle (BBG)",
+   "slot": "primary",
+   "status": "Default primary: level 1, price \"Default\" [Fan-wiki]. Released with the Sniper class in BBR v1.1 on Nov 23, 2011 [Fan-wiki]. It was the Sniper's only primary until BBR v1.3 on May 3, 2012 [Fan-wiki]. BBG 2.6 (Dec 20, 2013) changed fire rate from 2.5 to 1.5 and reload from 5 to 4, per the wiki's transcription of the 2.6 log [Fan-wiki]. Current infobox: 45 damage, 3 ammo, 1.0 s rate of fire, 3.5 s reload, green lock 3 s, white lock 6 s [Fan-wiki]. 2026: the official Steam trailer shows a skinned Astoria holding it at \u224830.0\u201330.6 s [Observed], so it is probably in the 2026 build [Inference]. Its 2026 stats are [Unverified]. BBO carryover: the \"Viper Rifle\", a hitscan weapon first given as a reward to BBG players who linked accounts on launch day [Fan-wiki].",
+   "official_text": "\"Keep targets centered in the screen to lock onto them. When your crosshairs turn green you are 100% accurate. If you can hold the lock a bit longer until they turn white you will get a head shot.\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Viperifle_(BBG)",
+   "mechanics": "Lock-on sniper rifle, one shot per pull [Fan-wiki]. Lock has three stages [Fan-wiki]: (1) semi-lock, where shots spread; (2) green lock, 100% accurate but base damage only, and the target gets a small red crosshair over its head as a warning (wiki Status Effects calls this \"Scoped\"); (3) white lock, where a hit kills regardless of health (a \"headshot\"). No-scope shots spread despite a 0.0 dispersion stat [Fan-wiki]. PROJECTILE: \"it releases a single, green, stream-like bullet that erupts into a splash of what appears to be venom. Said venom is merely cosmetic\" [Fan-wiki]. No firing frame was found to confirm this. LOOK [Observed]: a black/dark-grey rifle with a glowing green capsule mounted on top, green fins and vents near the grip, and a long thin barrel ending in an angular snake-head muzzle with a glowing green eye. Seen in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/s01_astoria.png (2026 Steam screenshot_01) and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/viper_fire_grid.png (trailer \u224830.3\u201330.6 s; the yellow stars in those frames come from another player, not her rifle). The wiki design text agrees: black/dark grey with dark-green pipes and liquid containers; \"barrel end is shaped like a snake's mouth ... two green eyes\" [Fan-wiki]. HEADSHOT RESULT: the kill feed shows \"HEAD SHOT\" with a red-crosshair icon over the victim's portrait [Observed: official video thumbnail /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/yt/wUWf9O-YX4A_maxresdefault.jpg; the weapon used there is unidentified]. Depiction for shorts: a thin green streak, then a small green venom splash on the target [BBG News invention, following the Fan-wiki text].",
+   "image_leads": [
+    "File:Viperrifle.jpg (2013 Gear Up, Astoria holding it)",
+    "File:Viperifle.png (BBR Mar 2012 Gear Up 'VIPERIFLE EQUIPPED')",
+    "File:Viperifle.jpg (2015 Gear Up)",
+    "Steam 2026 screenshot_01 (local visuals/steam_screens/screen_01.jpg) crop: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/s01_astoria.png",
+    "Official Steam trailer \u224830.0\u201330.6 s: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/tr2/g_005.jpg..g_011.jpg",
+    "CAUTION File:Astoria-sniper-viperifle.png: the 2D promo art shows a generic grey real-world-style rifle, not the in-game Viperifle",
+    "CAUTION File:Viper.jpeg is a real-world rifle photoshopped with a snake, not game art"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Viperifle_(BBG)",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://battlebears.fandom.com/wiki/Viper_Rifle_(BBO)",
+    "https://store.steampowered.com/app/4408320 (trailer 'Battle Bears Gold Premium - Trailer', screenshots)"
+   ]
+  },
+  {
+   "name": "Capital Pains",
+   "slot": "primary",
+   "status": "Unlock: 150,000 Joules at level 15 [Fan-wiki infobox]. It was 200,000 Joules [Observed: 2013 Gear Up 'CAPITAL PAINS BUY NOW 200,000' in File:Another_dead_eye_view.jpg] and dropped to 150,000 in BBG 2.20 on May 29, 2015 [Fan-wiki Updates]. Released in BBR v1.3 on May 3, 2012 with the Daydreamer [Fan-wiki]. It was originally called the \"Stock Rifle\" (concept) [Fan-wiki]. BBG 2.6 changes [Fan-wiki]: fire rate 2.5\u21922, reload 5\u21924, lock radius 375\u2192350, Market Down lock time 6\u21921.5. REWORK: the wiki says \"Red Capital Pains is currently removed\" but gives no date [Fan-wiki]. Red still existed on Jan 4, 2014, the date of the wiki-hosted Everyplay video \"Red Capital Pains demonstration\" (YouTube QQrU7iCrGoo) [Fan-wiki file metadata]. 2026 status [Unverified].",
+   "official_text": "\"If the NASDAQ stock index is down the day before, it shoots much faster, has more ammo, but does less damage and locks slower.\" ~ Official Battle Bears Gold description [Game text via wiki]. The wiki adds that this text is outdated after stat changes. https://battlebears.fandom.com/wiki/Capital_Pains",
+   "mechanics": "Lock-on sniper with the same 3-stage lock and white-lock instant kill [Fan-wiki]. Its stats follow the NASDAQ: the game checks once a day at 00:00 GMT; a positive or zero change makes the rifle green, a negative change makes it red, for 24 h [Fan-wiki]. \"if it is negative, the bullets are red, if it is positive, the bullets are green\", and it \"is possible for the Capital Pains to be white\" with red stats [Fan-wiki]. LOOK [Observed]: gold \u20ac sign as the stock, gold $ sign as the grip and trigger guard, a ball/8-ball scope with a blue lens, and a zig-zag barrel shaped like a stock-chart line. The barrel is red in June 2012 (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Capital_Pains_Rifle.png.png) and green in Nov 2012 (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Gnifle-sniper-setup.png.png). In the 2015 Gear Up (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Capital_Pains.jpg.png) it is a silver-grey zig-zag barrel on a red body; the wiki captions that image \"in green\", which conflicts, and it may be the white state [Inference]. The menu icon is a green zig-zag with $\u20ac [Observed]. The Stock Rifle concept (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Stock_Rifle.png.png) shows a black-to-red chart-line barrel ending in a green arrow, a magic 8-ball scope, a green banknote-wad magazine, gold \u20ac/$ and a coin [Observed]. FIRING: the fan Everyplay video thumbnails show an ammo counter of x/5 and thin red streaks near a locked target [Observed, low-res fan thumbnails /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/redcp_hq3_zoom.png; the streaks are inconclusive]. IMPACT: not documented [Unverified].",
+   "image_leads": [
+    "File:Capital_Pains.jpg (2015 Gear Up)",
+    "File:Capital Pains Rifle.png (June 2012 Gear Up, red variant)",
+    "File:Gnifle-sniper-setup.png (Nov 2012 loadout, green variant)",
+    "File:Stock_Rifle.png (concept)",
+    "File:Red_Capital_Pains_Demonstration (YouTube QQrU7iCrGoo, fan Everyplay, 9 s)",
+    "File:Nasdaq-neutral-stock.png (wiki guide screenshot)",
+    "File:Aaaaa.jpg (HUD icon visible)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Capital_Pains",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/File:Red_Capital_Pains_Demonstration",
+    "https://i.ytimg.com/vi/QQrU7iCrGoo/hq3.jpg"
+   ]
+  },
+  {
+   "name": "Mamba's Boy",
+   "slot": "primary",
+   "status": "Unlock: 150,000 Joules, level 1 [Fan-wiki infobox]. Released in BBR v1.3.1 on June 28, 2012 (week 3 of a four-week weapon rollout) [Fan-wiki]. BBR 1.4.2 (Feb 28, 2013): clip 5\u21924, cooldown .35\u2192.4, dispersion .01\u2192.02 [Fan-wiki]. BBG 2.6: damage 23\u219222, fire rate .4\u2192.35, clip 4\u21923, reload 3\u21924, the -10% speed penalty removed, Ammo+ removed [Fan-wiki]. BBG 2.20 (May 29, 2015): \"Dead Eye and Mamba's Boy are nerfed\" [Fan-wiki Updates]. It was sold in the Mean Mamba Bundle, the Yo Mamba Bundle and the Astoria Weapon Starter Pack [Observed: banners on the wiki]. 2026 status [Unverified].",
+   "official_text": "\"This gun will send you crying back to your mamba. Trade aim and damage for a faster rate of fire.\" ~ Official Battle Bears Gold description [Game text via wiki]. The wiki notes it is now inaccurate after a rebalance. https://battlebears.fandom.com/wiki/Mamba%27s_Boy",
+   "mechanics": "Lock-on sniper with the fastest green lock, a small lock radius, low damage per shot and rapid fire. A white lock still kills outright [Fan-wiki]. Infobox: 20 damage, 4 ammo, 0.4 s rate of fire [Fan-wiki]. PROJECTILE/IMPACT: no description found anywhere [Unverified]. An official \"Astoria Overhaul\" video auto-thumbnail shows a pale white streak fired from a green rifle, with the ammo counter at 8/10 and a green rifle icon in the HUD [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/ov_hq1_big.png; identifying it as Mamba's Boy is my inference]. LOOK [Observed]: a bright lime/yellow-green snake-bodied rifle with a dark-green hexagonal scale pattern and a scope on top; the barrel ends in a snake head with a yellow eye, open pink/orange mouth and red tongue. Sources: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Mamba.jpg.png and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/bbrweapons_right.png (BBR 1.3.1 promo).",
+   "image_leads": [
+    "File:Mamba.jpg (2013 Gear Up)",
+    "File:Mamba's Boy.jpg (2015 Gear Up)",
+    "File:BBRWEAPONS.png ('BBR 1.3.1 and BEYOND!' promo, snake rifle at upper right)",
+    "File:Meanmambabundle.png (bundle banner; Astoria in green face-mask skin)",
+    "File:Yo Mamba Bundle.png",
+    "File:AstoriaStarter.jpg ('Astoria Weapon Starter Pack')",
+    "File:Sniper setup.jpg (Apr 2013 loadout icon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Mamba%27s_Boy",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Bundle_Deals",
+    "https://www.youtube.com/watch?v=wUWf9O-YX4A (thumbnails only)"
+   ]
+  },
+  {
+   "name": "Dead Eye",
+   "slot": "primary",
+   "status": "Unlock price conflicts. The infobox says 60 Gas [Fan-wiki], the body text says 120 Gas [Fan-wiki], and a May 2013 Gear Up shows 'DEAD EYE BUY NOW 120' Gas with HEALTH -5% [Observed]. Released in BBR 1.4.3 on Apr 15, 2013, which shipped as 1.4.3.1 on Apr 23 [Fan-wiki]. It was first shown on the SkyVu blog on Apr 13, 2012 (archived squarespace post; Wayback unreachable today) [Fan-wiki, Unverified]. BBG 2.6: reload 3.75\u21923, the -5% health penalty removed, lock radius 200\u2192350, warning time 3\u21922 [Fan-wiki]. BBG 2.20 (May 29, 2015): nerfed [Fan-wiki]. 2026: the official Steam trailer's ASTORIA / SNIPER title card shows her holding it [Observed], so it is probably in the 2026 build [Inference].",
+   "official_text": "\"Got a problem? The Deadeye is your solution. She may not have the biggest clip but she definitely has the biggest kick. If you understand the value of power, this is the rifle for you.\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Dead_Eye . BBR 1.4.3 release note: \"-The Dead Eye: Astoria's strong single shot sniper rifle.\" [Fan-wiki transcription of SkyVu release notes, not checked against the original] https://battlebears.fandom.com/wiki/Updates",
+   "mechanics": "Lock-on sniper with 1 round per clip and high damage (infobox 75, body text 85; the lock times also conflict between infobox and text) [Fan-wiki]. A white lock is an instant-kill headshot [Fan-wiki]. The scope is an animal skull \"moving as if it was biting something\" [Fan-wiki]. PROJECTILE/IMPACT per wiki: \"a single, red, stream-like bullet that erupts into a flurry of glowing, transparent buffalo skulls. These are merely cosmetic\" [Fan-wiki]. OFFICIAL TRAILER [Observed, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4]: at \u224812.3\u201312.5 s a thin WHITE jagged streak runs from Astoria (red jacket, on temple steps) to the target (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/tr/f_007.jpg). The target bursts into orange flames. At \u224813.1\u201313.4 s large translucent red smoke shapes rise from the impact, shaped like horned bull/buffalo skulls with big curved horns, plus a smaller orange one on the stairs; the target collapses dead (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/tr/f_013.jpg, f_016.jpg). That this shot is the Dead Eye is my inference from the skull effect and the title card. The streak colour (white in the trailer, red in the wiki) conflicts. LOOK [Observed]: a rifle built from cream/ivory bones lashed with brown-red leather cords, a toothed, beaked skull as the scope, and a long thin bone barrel with a square muzzle. Sources: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/tr/f_045.jpg (\u224816.3 s), f_055.jpg (\u224817.3 s, title card) and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/TheDeadEye-trans.png.png. The Apr 2012 concept is whiter bone with dark wraps, labelled \"Astoria's Deadeye (Primary)\" [Observed].",
+   "image_leads": [
+    "File:DeadEye.jpg (2013 Gear Up)",
+    "File:Dead Eye.jpg (2015 Gear Up)",
+    "File:TheDeadEye-trans.png (redesigned concept)",
+    "File:Deadeye-concept-trans.png and File:Dead Eye Concept.jpg (Apr 2012 concept)",
+    "File:Dead_eye_blog.jpg (3-view 'DEAD EYE PRIMARY' sheet)",
+    "File:143releasepic.png ('1.4.3 UPDATE COMING SOON / WILD N' WACKY WEAPONS' promo)",
+    "File:Another dead eye view.jpg and File:Yet another dead eye view!.jpg (Gear Up with price 120 Gas, HEALTH -5%)",
+    "Official Steam trailer \u224812.2\u201313.6 s (shot and skull smoke) and \u224816.3\u201317.9 s (held and title card): frames in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/tr/"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Dead_Eye",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.3",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://store.steampowered.com/app/4408320 (official trailer)"
+   ]
+  },
+  {
+   "name": "Crossbow (BBG) / \"Unicorn Crossbow 2.0\"",
+   "slot": "primary",
+   "status": "Unlock: 150,000 Joules, level 1 [Fan-wiki infobox]. It was 240,000 Joules and dropped to 150,000 in BBG 2.20 on May 29, 2015 [Fan-wiki]. Released in BBG 2.2 on Aug 21, 2013 [Fan-wiki]. SkyVu released a video titled \"BATTLE BEARS GOLD Update 2.2 Weapon Recap\" on its BATTLE BEARS channel [Canon: title and channel via YouTube oEmbed]. BBG 2.6: clip 100\u21922, heat per shot 12\u21921, damage 20\u219250, charged damage 50\u2192120 [Fan-wiki]. The current infobox says 15 ammo and 230 charged damage, so the stats are internally inconsistent. 2026 status [Unverified].",
+   "official_text": "\"Leave it to Astoria to make a rapid fire weapon that shoots unicorn horns. Even worse is that she can charge up the weapon and release a stronger attack! What's next jackelope weapons?\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Crossbow_(BBG)",
+   "mechanics": "Manual-aim rapid-fire weapon that shoots unicorn horns, with no lock-on and so no headshots [Fan-wiki]. CHARGE: the view zooms in more, the \"internal barrel with also rotate at a rapid rate and shine a bright purple aura\" [Fan-wiki]. A charged hit deals area damage on a player or object; the wiki files it under Explosives. A charged shot uses the whole magazine, and you can kill yourself with it [Fan-wiki]. The projectile is described as \"shining unicorn horns\" [Fan-wiki]. LOOK [Observed]: a pearl-white/silver crossbow with a unicorn-head motif, lavender string and a lavender-purple crystal horn bolt loaded. Sources: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Crossbow.jpg.png; the official 2.2 promo frame (Astoria in red jacket) /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/recap22_astoria_crossbow.png; and the 'CROSSBOW' teaser on a blue vortex, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Crossbow_coming_to_BBG!!!.jpg.png. The concept art shows silver, gold, gunmetal (red-glow chamber) and copper (cyan-glow) variants [Observed]. FIRING: an official \"Astoria Overhaul\" auto-thumbnail shows a pink-violet streak and a white-pink muzzle flash from a silver weapon, ammo 3/3 [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/ov_hq2_big.png; identifying it as the Crossbow is my inference]. LINEAGE: Oliver's Crossbow in Battle Bears: Zombies (2009) fires unicorn horns [Fan-wiki; Observed in File:The crossbow.png].",
+   "image_leads": [
+    "File:Crossbow.jpg (Astoria holding it)",
+    "File:UnicornCrossbowconceptart.jpg (4 colour variants)",
+    "File:Crossbow coming to BBG!!!.jpg (teaser frame)",
+    "YouTube BcEeAzXFChI auto-thumbnail hq1 (official 2.2 promo art)",
+    "YouTube wUWf9O-YX4A hq2 (firing)",
+    "File:The crossbow.png and File:Weapon_selected-_crossbow.png (BB Zombies ancestor)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Crossbow_(BBG)",
+    "https://battlebears.fandom.com/wiki/Crossbow",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=BcEeAzXFChI&format=json",
+    "https://i.ytimg.com/vi/BcEeAzXFChI/hq1.jpg"
+   ]
+  },
+  {
+   "name": "Blow Dart",
+   "slot": "primary",
+   "status": "Unlock: 60 Gas, level 1 [Fan-wiki]. Released in BBG 2.6 on Dec 20, 2013 [Fan-wiki]. 2026 status [Unverified].",
+   "official_text": "\"Just because it is the future does not mean there cannot be old school weaponry. Watch out for exploding darts!\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Blow_Dart",
+   "mechanics": "Manual-aim explosive with no lock [Fan-wiki]. It fires a small dart that sticks to any surface, players included, and detonates 6 s after contact; projectile speed 1,000 u/s [Fan-wiki]. The explosion is \"distinguishable because of its blue tinge and large Area of Effect\" (25\u201350 explosive damage) [Fan-wiki]. You can kill yourself with it. It is the only Sniper weapon boosted by Explosions+ equipment [Fan-wiki]. LOOK [Observed]: an orange-copper blowgun tube with glowing magenta/pink stripes and an angular, futuristic head at the muzzle. Sources: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Blowdart.png.png and BlowDart.jpg.png. The dart and the blue explosion were not observed [Unverified].",
+   "image_leads": [
+    "File:Blowdart.png",
+    "File:BlowDart.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Blow_Dart",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Art of War",
+   "slot": "primary",
+   "status": "Unlock: 60 Gas, level 1 [Fan-wiki]. Released in BBG 2.11 on Aug 27, 2014 [Fan-wiki]. It was revealed on the SkyVu blog on Apr 27, 2012, fully modelled. SkyVu declared it unused on Aug 8, 2013 (Facebook) before it shipped a year later [Fan-wiki citing SkyVu; Unverified, archive unreachable]. 2026 status [Unverified].",
+   "official_text": "\"Paint the battlefield red, or orange, or yellow, or green, or blue, or violet. It doesn't really matter as long as its your enemies pallet.\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Art_of_War",
+   "mechanics": "Non-locking rifle, so no headshots [Fan-wiki]. \"a single stream-like bullet will be fired in the exact same direction of the crosshairs, erupting into a flurry of paint, however, it is merely cosmetic\". It is accurate and hits hard but the shot is thin [Fan-wiki]. Infobox: 45 damage, 3 ammo [Fan-wiki]. LOOK [Observed]: a red barrel with the gold Chinese characters \u5b59\u5b50\u5175\u6cd5 (\"The Art of War\"), a black and yellow receiver, a paintball hopper on top full of multicolour balls, and a paintbrush tip loaded with multicolour paint at the muzzle (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Images_(1).jpeg.png). The concept line art is labelled \"The Art of War / Paintball Sniper Rifle\" and shows a scope, hopper and brush under the barrel [Observed]. The paint burst was not observed [Unverified]. Depiction for shorts: a rainbow paint splat on impact [BBG News invention, consistent with Fan-wiki].",
+   "image_leads": [
+    "File:Images_(1).jpeg (render)",
+    "File:ArtofWar.png (concept)",
+    "File:ArtofWarconceptart.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Art_of_War",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Fidget Boomer",
+   "slot": "primary",
+   "status": "Unlock: 60 Gas, level 1 [Fan-wiki]. Released in BBG 2.27 on May 29, 2017, alongside Spin Baby Spin and Hazard Toy [Fan-wiki]. 2026 status [Unverified].",
+   "official_text": "\"Have toy tricks gone too far!? Explosions are safe right?\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Fidget_Boomer",
+   "mechanics": "Explosive projectile: \"upon contact with a surface experiences a short delay before exploding (akin to the TNT Launcher)\", with no secondary status effect [Fan-wiki]. Infobox: 40\u201370 explosive damage, 0.3 s rate of fire, 4 ammo, 3 s reload, 3000 u/s [Fan-wiki]. The body text calls the projectile speed \"slow\", which conflicts. LOOK [Observed]: a large pink-mauve chrome three-lobed fidget spinner held up in one hand (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/FidgetBoomer.jpeg.png). The spinner itself is probably the thrown projectile [Inference]. The explosion was not observed [Unverified].",
+   "image_leads": [
+    "File:FidgetBoomer.jpeg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Fidget_Boomer",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Tomahawk",
+   "slot": "secondary",
+   "status": "Default secondary [Fan-wiki]. It was the Sniper's only secondary until BBR v1.3 on May 3, 2012 [Fan-wiki], and appears equipped in a Mar 2012 BBR Gear Up [Observed]. BBG 2.6: duration 15\u219210, reload 2\u21921.5 [Fan-wiki]. The infobox still says 15 s duration and 0.75 s reload, while the text says 10 s. 2026 status [Unverified]. An upgraded \"Toucan\" version was revealed in 2012 and never released (separate entry).",
+   "official_text": "\"Unleash a terrified and angry hawk that temporarily blinds any player it hits! Great for running away from opponents that get too close.\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Tomahawk",
+   "mechanics": "Thrown projectile with no damage and no area effect; it is hard to aim [Fan-wiki]. The tied hawk \"will rotate forward with straight trajectory. If the hawk comes into contact with an opposing player, it will be let free of its retrains and violently thrash around their face, blinding them with a flurry of wings and feathers\", a partial blind [Fan-wiki]. A bug can throw it backwards [Fan-wiki]. LOOK [Observed]: a brown hawk with a cream chest, blue-tipped feathers, yellow beak and talons, wrapped in rope (including around the beak), held by its feet. Sources: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Tomahawk.jpg.png and Tomahawk_concept.jpg.png. IMPACT [Observed, low-res fan screenshot /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/tomahawk_effect.png]: a mass of brown and cream feathers and wings, bigger than the head, engulfs the target's head and upper body.",
+   "image_leads": [
+    "File:Tomahawk.jpg (2013)",
+    "File:Tomahawk.png (BBR Mar 2012 Gear Up)",
+    "File:Tomahawk.PNG (June 2012 Gear Up)",
+    "File:Tomahawk_concept.jpg",
+    "File:Download_(16).jpg ('Tomahawk in effect', in-game)",
+    "File:Toucan.png (unreleased upgrade)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Tomahawk",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://battlebears.fandom.com/wiki/Sniper_(BBG)"
+   ]
+  },
+  {
+   "name": "Eagle Standard",
+   "slot": "secondary",
+   "status": "Unlock: 75,000 Joules, level 1 [Fan-wiki infobox]. A July 2012 Gear Up showed 'BUY NOW 37,500' Joules and 'SPECIAL SPEED -15%' in red [Observed]. Released in BBR v1.3.1 on June 28, 2012 [Fan-wiki]. BBG 2.6: reload 2.5\u21922, projectile speed 1000\u21921200, cooldown multiplier -15%\u2192-20% [Fan-wiki]. 2026 status [Unverified].",
+   "official_text": "\"Flapping around in someone's face, getting up in their business and ruining their day for your own selfish purposes? Sounds like blatant patriotism to me!\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Eagle_Standard",
+   "mechanics": "A reskin of the Tomahawk with the same throw and the same face-thrash partial blind, no damage [Fan-wiki]. It blinds for less time (infobox 4 s) but has more ammo (6) and a 0.2 s rate of fire [Fan-wiki]. The special-speed modifier conflicts: the infobox says +15%, the text says +20%, and trivia says it \"actually increases the amount of time\" the special needs to recharge. LOOK [Observed]: a bald eagle (white head, yellow beak) with a dark-brown body bound in gold/orange rope, mounted on a silver spike or pole-tip, a military \"standard\" (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/EagleStandard.jpg.png). The BBR 1.3.1 promo shows a bald eagle, wings spread, over red-white-blue rays (File:BBRWEAPONS.png) [Observed]. Its blind effect probably looks like the Tomahawk's feather flurry [Inference; not observed].",
+   "image_leads": [
+    "File:EagleStandard.jpg",
+    "File:Eagle-Standard.PNG (July 2012 Gear Up, price 37,500)",
+    "File:BBRWEAPONS.png (promo eagle)",
+    "File:AstoriaStarter.jpg (eagle in starter-pack banner)",
+    "Wiki video File:Trolling with Eagle Standard. Battle Bears Gold (YouTube 9s3y4u53B2Y; thumbnails now 404, video likely removed)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Eagle_Standard",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Daydreamer",
+   "slot": "secondary",
+   "status": "Unlock price conflicts: the infobox says 32 Gas, the text says 40 Gas, and the June 2012 Gear Up shows 'BUY NOW 40' Gas [Observed]. Level 10 lock [Fan-wiki]. Released in BBR v1.3 on May 3, 2012 [Fan-wiki]. BBR 1.4.2 (Feb 28, 2013): reload 0.1\u21921.0 [Fan-wiki]. BBG 2.6: clip 1\u21925, reload 1\u21922, Ammo+ removed [Fan-wiki]. REWORKS [Fan-wiki]: the victim's head icon changed from a turquoise feather to a green question mark in BBR v1.3.2 (Aug 24, 2012); the original effect also inverted aiming, which was removed \"in a much later update\" (date unknown). 2026 status [Unverified].",
+   "official_text": "\"Turn your opponents' daydream into a nightmare. Place this badboy on the ground and any yutz that steps on it will have their controls reversed for a few seconds.\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Daydreamer",
+   "mechanics": "Deployed trap with a 2 s placement delay and a small trigger radius; it does no damage [Fan-wiki]. Once placed it is \"almost invisible (it is only noticeable by a small white crystal sticking out from the ground)\" [Fan-wiki]. STATUS \"Controls Reversed\": movement is reversed for 8.0 s per the text (infobox 'Duration 20 s', which conflicts) [Fan-wiki]. A green question mark appears over the victim's head, background music cuts out and other sounds get a mild echo [Fan-wiki]. Explosives can set it off harmlessly [Fan-wiki]. LOOK [Observed]: a gold/bronze wire geodesic sphere (dream-catcher lattice) with a silver disc at its centre and a pale-blue crystal shard, held in one hand. Sources: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Daydreamer.jpg.png and Daydreamer.PNG.png. TRIGGER EFFECT [Observed, fan screenshot /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Detonate_daydreamer.jpeg.png]: a wide ring of magenta electric arcs crawls over the floor while columns of white sparkle-bubbles rise. The cyan stacked rings in that frame are probably a jump pad, not the Daydreamer [Inference].",
+   "image_leads": [
+    "File:Daydreamer.jpg",
+    "File:Daydreamer.PNG (June 2012 Gear Up, 40 Gas)",
+    "File:Astoria-daydreamer.png",
+    "File:Detonate daydreamer.jpeg (in-game trigger effect)",
+    "File:Images_(3).jpg (stun icon, for comparison)",
+    "File:Sniper setup.jpg and File:Gnifle-sniper-setup.png (loadout icon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Daydreamer",
+    "https://battlebears.fandom.com/wiki/Status_Effects",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.2",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Fairy's Dust",
+   "slot": "secondary",
+   "status": "Unlock: 125,000 Joules, no level lock [Fan-wiki]. It was 165,000 Joules and dropped to 125,000 in BBG 2.20 on May 29, 2015 [Fan-wiki]. Released in BBR 1.4.3 on Apr 15, 2013 (shipped as 1.4.3.1) [Fan-wiki]. BBG 2.6: duration 3.5\u21924, clip 2\u21921, projectile speed 900\u21921000, Ammo+ removed [Fan-wiki]. 2026: the official Steam trailer shows the sack and the cloud [Observed], so it is probably in the 2026 build [Inference].",
+   "official_text": "\"Enemy got you in their cross hairs? Toss this lil' sack-o-magic and give 'em the slip. This magical concoction can be a real life saver!\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Fairy%27s_Dust . BBR 1.4.3 release note: \"-Fairy's Dust: Astoria's magical concoction that confuses enemies and conceals movement.\" The 1.4.3.1 notes call it \"Fairy's Sparkle\" [Fan-wiki transcription of SkyVu release notes, not checked].",
+   "mechanics": "Thrown sack that \"will burst into a large, blinding cloud of 'fairy dust' upon coming into contact with a surface\". The cloud is harmless, lasts 4 s, and Sniper rifles can still lock on inside it [Fan-wiki]. LOOK [Observed]: a glittery pink-to-purple sack tied with a red ribbon under a blue/cyan crystal top, with yellow, pink and purple star sparkles floating off it (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/FairysDust.jpg.png). In flight it leaves a trail of tiny yellow and pink star sparkles (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Fairy's_dust_close_up_during_flight.jpeg.png). CLOUD [Observed]: a huge translucent hot-magenta/violet cloud with faceted edges and twinkling star sparkles, in a 2013 fan screenshot (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Cloud_for_fairy_dust.jpg.png) and in the OFFICIAL TRAILER. Trailer sequence: at \u224813.4\u201313.9 s Astoria holds the sack, then drops or throws it at her feet (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/fd_throw_grid.png). At \u224814.1 s a magenta haze with star sparkles appears, and by \u224814.2\u201314.4 s it has swallowed the temple stairs (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/fd_cloud_grid.png). At \u224816.1\u201316.3 s she steps out of the cloud toward the camera holding the Dead Eye (tr/f_045.jpg). The wiki calls the cloud \"purple\"; the observed colour is hot magenta to violet.",
+   "image_leads": [
+    "File:FairysDust.jpg",
+    "File:Fairy's dust close up during flight.jpeg",
+    "File:Cloud for fairy dust.jpg (in-game cloud)",
+    "File:Aaaaa.jpg (over-shoulder, sack in hand, Marecraft map)",
+    "File:143releasepic.png (sack icon in 1.4.3 promo)",
+    "Official Steam trailer \u224813.4\u201316.3 s (frames in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/tr/)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Fairy%27s_Dust",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.4.3",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6",
+    "https://store.steampowered.com/app/4408320 (official trailer)"
+   ]
+  },
+  {
+   "name": "Rake",
+   "slot": "secondary",
+   "status": "Unlock: 100,000 Joules, no level lock [Fan-wiki]. Release version not documented. The wiki image was uploaded Jan 25, 2014, so it existed by then [Inference]. Damage: \"It used to do 999 damage\", now 110 [Fan-wiki]. 2026 status [Unverified].",
+   "official_text": "\"Stop your opponents dead in their tracks with this exciting new gardening tool!\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Rake",
+   "mechanics": "Deployed trap: it \"is placed on the ground, much like the Daydreamer, and will spring up and damage any enemy that walks into the Rake\". It is single-use, several can be stacked on one spot for more damage, and explosives remove it [Fan-wiki]. Shooting it also triggers it, and it can kill its owner [Fan-wiki]. Infobox: 110 damage, 10 ammo, +5% health, +10% special speed [Fan-wiki]. The wiki calls it the only Sniper secondary that does damage, which ignores I Lava You. LOOK [Observed]: a grey riveted metal rake head with five bright turquoise teeth on a grey handle, shown in a Gear Up 'BUY' screen with Astoria in a black-and-red skin with three glowing red goggle lenses (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Rake.jpg.png). The spring-up animation and hit were not observed [Unverified]. Depiction for shorts: the classic step-on-rake, handle-to-face gag [BBG News invention].",
+   "image_leads": [
+    "File:Rake.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Rake"
+   ]
+  },
+  {
+   "name": "I Lava You (\"I Lava U\")",
+   "slot": "secondary",
+   "status": "Unlock: 60 Gas, level 1 [Fan-wiki]. Released in BBG 2.51 on Apr 13, 2018 [Fan-wiki Updates]. The wiki says it is based on the unreleased Battle Bears Ultimate \"Lavarifle\" [Fan-wiki]. 2026 status [Unverified].",
+   "official_text": "none found. The wiki page quotes no official description, and the infobox titles it \"I Lava U\". https://battlebears.fandom.com/wiki/I_Lava_You",
+   "mechanics": "\"It shoots proximity based mines in a straight line until it collides with a wall or floor. These explode if an enemy gets close to them. The mines can be detonated manually if you click the reload button.\" 25\u201360 explosive damage [Fan-wiki]. Infobox: trigger radius 100 units, priming time 1.0 s, projectile speed 1200 u/s, 4 ammo [Fan-wiki]. Explosions+ boosts it [Fan-wiki]. LOOK [Observed]: a compact gun whose body is dark-brown lava rock with glowing orange-red fissures, with grey metal barrel and scope pieces and a red glowing lens (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/ILavaU.jpeg.png; upload comment \"Sniper with I Lava U\", May 12, 2018). The mine and explosion were not observed [Unverified]. Depiction for shorts: glowing lava-rock blobs that stick and pulse, then erupt in orange fire [BBG News invention].",
+   "image_leads": [
+    "File:ILavaU.jpeg (also used in the Sniper (BBG) generic-skins gallery)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/I_Lava_You",
+    "https://battlebears.fandom.com/wiki/Updates"
+   ]
+  },
+  {
+   "name": "Battering Ram",
+   "slot": "melee",
+   "status": "Default melee [Fan-wiki]. Shown equipped in the BBR Mar 2012 Gear Up [Observed]. BBG 2.6: Melee+1 10\u21925, Melee+2 15\u219210 [Fan-wiki]. 2026 status [Unverified].",
+   "official_text": "\"Using revolutionary \"Ram Skull\" technology for maximum bashing ability, this is a weapon of last resort.\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Battering_Ram",
+   "mechanics": "Melee club: 30 damage, +40% special speed [Fan-wiki]. Melee barks: \"Watch it, swinging a club here!\", \"Eee-yaaa!\"; melee-kill line: \"I thought your head would be harder.\" [Fan-wiki]. LOOK [Observed]: a grey stone club whose head is a curled ram horn, wrapped in dark purple-brown leather straps with a leather grip. The in-game texture has orange and purple flecks. Sources: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Battering_ram.png.png and Battering_Ram_Concept.jpg.png. Hit effect not documented [Unverified].",
+   "image_leads": [
+    "File:Battering_ram.png (BBR Mar 2012 Gear Up)",
+    "File:Battering-ram.PNG (June 2012 Gear Up)",
+    "File:Battering_Ram_Concept.jpg",
+    "File:Sniper setup.jpg (loadout icon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Battering_Ram",
+    "https://battlebears.fandom.com/wiki/Sniper_(BBG)",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Brr-Ram-Ewe",
+   "slot": "melee",
+   "status": "Unlock: 105,000 Joules, level 13 [Fan-wiki]. It was originally 90,000 Joules [Fan-wiki], and the Mar and June 2012 Gear Ups show 'BUY NOW 90,000' [Observed]. BBG 2.6: damage 33\u219235, cooldown modifier 0\u21925% [Fan-wiki]. 2026 status [Unverified].",
+   "official_text": "\"Freshly shipped and still cold remains from an authentic once-living ram!\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Brr-Ram-Ewe",
+   "mechanics": "Melee club: 30 damage per the page (2.6 says 35), a special-speed modifier and +10% health [Fan-wiki]. LOOK [Observed]: an icy pale-blue crystalline ram-horn club with a dark wrapped handle (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Brr-ram-eve.PNG.png and Brr-ram-ewe.png.png). Any freeze or ice effect on hit is undocumented [Unverified].",
+   "image_leads": [
+    "File:Brr-ram-eve.PNG (June 2012 Gear Up)",
+    "File:Brr-ram-ewe.png (Mar 2012 Gear Up)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Brr-Ram-Ewe",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Cybernetic Ram",
+   "slot": "melee",
+   "status": "Unlock: the page text says 20 Gas at level 12, while trivia says the \"current price of 30 Gas\" [Fan-wiki, conflicting]. History: 300 Gas in Mar 2012 [Observed Gear Up], then 50 Gas by June 2012 [Observed Gear Up]. The wiki says the cut followed the Golden Dragon's release in BBR v1.3.1 [Fan-wiki]. BBG 2.6: damage 35\u219240, +10% speed modifier added [Fan-wiki]. 2026 status [Unverified].",
+   "official_text": "\"An ebony club imbued with needless fiery energy canals!\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Cybernetic_Ram",
+   "mechanics": "Melee club: 30 damage per the page, +10% speed, +20% special speed [Fan-wiki]. LOOK [Observed]: a black ram-horn club laced with glowing orange-red circuit or energy lines (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Cybernetic-ram.PNG.png and Cybernetic_ram.png.png). Hit effect undocumented [Unverified].",
+   "image_leads": [
+    "File:Cybernetic-ram.PNG (June 2012, 50 Gas)",
+    "File:Cybernetic ram.png (Mar 2012, 300 Gas)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Cybernetic_Ram",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Golden Dragon",
+   "slot": "melee",
+   "status": "Unlock: 50 Gas [Fan-wiki]. Released in BBR v1.3.1 on June 28, 2012 [Fan-wiki]. BBG 2.6: Melee+1 10\u21925, Melee+2 18\u219210 [Fan-wiki]. Its stat modifier conflicts: the wiki says +20% special speed, but a 2015 Gear Up shows 'HEALTH +10%' [Observed]. 2026 status [Unverified].",
+   "official_text": "\"Ever the connoisseur, an appreciator of the fine arts, it is up to you to make everyone else understand the beauty of this piece. Beating them up the side of the head with it is the logical place to start.\" ~ Official Battle Bears Gold description [Game text via wiki] https://battlebears.fandom.com/wiki/Golden_Dragon",
+   "mechanics": "Melee club, 55 damage [Fan-wiki]. LOOK [Observed]: a gold, scaled dragon-head club with a green gem eye, a dark-green crest and a scaled shaft (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/crops/bbrweapons_right.png, conv2/Golden-Dragon.PNG.png, conv2/Golden_Dragon.jpg.png). Hit effect undocumented [Unverified].",
+   "image_leads": [
+    "File:Golden-Dragon.PNG (July 2012 Gear Up)",
+    "File:Golden Dragon.jpg (2015 Gear Up, HEALTH +10%)",
+    "File:BBRWEAPONS.png (promo)",
+    "File:Aaaaa.jpg (HUD melee icon)"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Golden_Dragon",
+    "https://battlebears.fandom.com/wiki/BBR_Version_1.3.1",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions/2.6"
+   ]
+  },
+  {
+   "name": "Toucan (unreleased Tomahawk upgrade)",
+   "slot": "other",
+   "status": "Unreleased concept. The wiki says it was revealed on the SkyVu blog on Apr 27, 2012 as an \"upgraded Toucan version of the Snipers' Tomahawk\", together with the Art of War [Fan-wiki; the blog itself is unreachable, Unverified]. It is not in the BBG weapon category.",
+   "official_text": "none found",
+   "mechanics": "No mechanics documented. LOOK [Observed]: a painted toucan, wings spread, with black plumage, a yellow chest, an orange beak, a green-and-blue eye patch and red under-tail (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Toucan.png.png). Use it only as a labelled concept or easter egg.",
+   "image_leads": [
+    "File:Toucan.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Sniper_(BBG)",
+    "https://battlebears.fandom.com/wiki/Art_of_War"
+   ]
+  },
+  {
+   "name": "Astoria's Super Scope (unreleased concept)",
+   "slot": "other",
+   "status": "Unreleased concept art in the Sniper (BBG) gallery, uploaded Nov 22, 2012 [Fan-wiki]. No release is recorded.",
+   "official_text": "none found. The image itself is titled \"ASTORIA'S SUPER SCOPE\" [Observed].",
+   "mechanics": "No mechanics documented. LOOK [Observed]: a long telescoping spyglass-rifle with an engraved silver tube, a brown leather-wrapped cone stitched with X marks, gold bands, a big domed chrome lens, a small flintlock-style pistol grip, and a separate front view of the round lens (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Super_scope.jpg.png).",
+   "image_leads": [
+    "File:Super_scope.jpg"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Sniper_(BBG)"
+   ]
+  },
+  {
+   "name": "Slumberbun land mine (unreleased concept)",
+   "slot": "other",
+   "status": "Unreleased concept art in the Sniper (BBG) gallery, uploaded Nov 20, 2012 [Fan-wiki]. No release is recorded.",
+   "official_text": "none found. The concept is labelled \"Slumberbun- land mine\" [Observed].",
+   "mechanics": "LOOK [Observed]: a sleeping golden bread-bun dome (annotated \"Not Actual Size\") that, when triggered (arrow), wakes into a screaming bun with bulging red eyes and a gaping mouth (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/conv2/Slumberbun.png.png). It looks like an early relative of the Sniper's ground traps (Daydreamer/Rake) [Inference].",
+   "image_leads": [
+    "File:Slumberbun.png"
+   ],
+   "sources": [
+    "https://battlebears.fandom.com/wiki/Sniper_(BBG)"
+   ]
+  },
+  {
+   "name": "BB Heroes (2023/2024): Sniper Rifle + \"Explosive Retreat\" Ultimate",
+   "slot": "other",
+   "status": "BBH era, not BBG. Astoria was added in May 2023 for 300 Shards [Fan-wiki]. BBH soft-launched May 23, 2023 and launched globally Oct 3, 2024 [Fan-wiki]. The Oct 14, 2024 balance pass cut her max-range attack damage (about -20%) and raised her min-range damage (about +20%) [Fan-wiki].",
+   "official_text": "\"Astoria wields a sniper rifle for long-distance attacks, dealing more damage from afar. Up close, she's vulnerable but compensates with her \"Explosive Retreat\" Ultimate, diving away from the action when enemies get too close.\" [Canon, live battlebears.com/pages/characters, fetched 2026-10-16]",
+   "mechanics": "Sniper Rifle: \"2000 max\" damage, \"Very long\" range [Fan-wiki BBH table]. Explosive Retreat: \"4 x 670\" damage, a dive away from enemies [Fan-wiki; the dive is Canon]. Its look was not researched here [Unverified]. Older-era equivalents [Fan-wiki]: in BBO (2014\u201316) a hitscan \"Sniper Rifle\" with a white vapour trail, the \"Viper Rifle\" (a Viperifle carryover), and the abilities Healing Grenade, Ice Trap and Charge Shot.",
+   "image_leads": [
+    "File:BBH Profile Astoria.png (256x256, uploaded Oct 10, 2024)",
+    "File:SRNew.jpg and File:FSR.jpg (BBO Sniper Rifle)",
+    "File:Charge_shot.jpg and File:Ice_trap.jpg (BBO)"
+   ],
+   "sources": [
+    "https://battlebears.com/pages/characters",
+    "https://battlebears.fandom.com/wiki/Battle_Bears_Heroes",
+    "https://battlebears.fandom.com/wiki/Updates",
+    "https://battlebears.fandom.com/wiki/Sniper_Rifle",
+    "https://battlebears.fandom.com/wiki/Viper_Rifle_(BBO)",
+    "https://battlebears.fandom.com/wiki/Astoria_(BBO)"
+   ]
+  }
+ ],
+ "notes": "SCOPE AND METHOD. I re-fetched all 18 weapons_by_class.json[\"Astoria\"] pages through the wiki API, plus the class page \"Sniper (BBG)\" and the version and update pages. The \"Sniper (BBG)/Weapons\" subpage is a one-line stub. None of the 5 \"_unassigned\" pages is a Sniper weapon. The class page lists 8 primaries, 6 secondaries and 4 melees, and they match the category exactly. I viewed every weapon image named in these notes after converting it from WebP. Images and frames are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria/v2/ (conv2/ holds the converted wiki files as <File name>.png). Trailer frames are in v2/tr/f_NNN.jpg at \u224811.9+(N-1)*0.1 s and v2/tr2/g_NNN.jpg at \u224829.6+(N-1)*0.1 s. Crops are in v2/crops/ and contact sheets in v2/sheets/. Raw page JSON is in dl/astoria/pages_v2/.\n\nCLASS FACTS [Fan-wiki]. The Sniper has 90 HP. Most primaries lock on: green lock is 100% accurate, white lock kills outright. A green lock puts a red crosshair over the target's head (\"Scoped\"). Most secondaries do no damage; the wiki names only Rake as the exception, but I Lava You also deals damage. Quotes: \"Your giant head does all the aiming for me!\" and \"Do you mind not walking into my bullets, next time?\" The class price went from 300,000 Joules to 100 Gas (v1.4.1), then 30 Gas (v2.2), then a base of 200,000 Joules (v2.20).\n\nWEAPON TIMELINE. Sources: the wiki's version pages, the Updates page and the 2.6 transcription.\n- BBR v1.1 (Nov 23, 2011): Viperifle, Tomahawk, Battering Ram. Cybernetic Ram (300 Gas) and Brr-Ram-Ewe (90,000 J) were in the Mar 2012 Gear Up [Observed].\n- BBR v1.3 (May 3, 2012): Capital Pains, Daydreamer.\n- BBR v1.3.1 (June 28, 2012): Mamba's Boy, Eagle Standard, Golden Dragon.\n- BBR 1.4.3/1.4.3.1 (Apr 2013): Dead Eye, Fairy's Dust.\n- BBG 2.0 relaunch (May 24, 2013).\n- BBG 2.2 (Aug 21, 2013): Crossbow.\n- BBG 2.6 (Dec 20, 2013): Blow Dart, plus a Sniper-wide rebalance.\n- Rake: in the game by Jan 2014 [Inference].\n- BBG 2.11 (Aug 27, 2014): Art of War.\n- BBG 2.20 (May 29, 2015): Dead Eye and Mamba's Boy nerfed; price cuts.\n- BBG 2.27 (May 29, 2017): Fidget Boomer.\n- BBG 2.51 (Apr 13, 2018): I Lava You.\n- BBG 3.0 (Nov 15, 2021): all +1 equipment removed except Speed +1, and Equipment Slot 2 removed. This invalidates the wiki's equipment tables.\n- The wiki says BBG servers shut down on Mar 12, 2024.\n\n2026 RE-RELEASE. Steam lists \"-SNIPER: Astoria\" and \"80+ PRIMARY WEAPONS / 60+ SECONDARY WEAPONS / 50+ MELEES\" [Canon]. The per-weapon 2026 roster, stats and prices are [Unverified]. The official Steam trailer shows only three Sniper weapons [Observed]:\n- Dead Eye: shot at \u224812.3\u201313.5 s, title card at \u224816.4\u201317.9 s.\n- Fairy's Dust: \u224813.4\u201316.3 s.\n- Viperifle: \u224830.0\u201330.6 s, in the green face-mask / blue polka-dot skin.\nThe same skin carries the Viperifle in Steam screenshot_01 [Observed]. The JustNubz playtest showcase could not be viewed. Its auto-thumbnails show only Heavy and Huggable screens, so they say nothing about the Sniper. One of them carries the build string \"3.0.5_2026.11.19_B1\" [Observed].\n\nDATA CONFLICTS. Treat the wiki numbers as unreliable and era-mixed:\n- Dead Eye price: 60 Gas (infobox), 120 Gas (text), 120 Gas in a 2013 Gear Up [Observed].\n- Dead Eye damage: 75 vs 85. Its lock times also disagree.\n- Daydreamer price: 32 vs 40 Gas. Duration: 20 s (infobox) vs 8 s (text).\n- Tomahawk duration: 15 vs 10 s.\n- Eagle Standard modifier: +15% vs +20%, and possibly negative in effect.\n- Crossbow ammo: 15 vs 2 vs 100.\n- Cybernetic Ram price: 20 vs 30 Gas.\n- Golden Dragon: +20% special speed (wiki) vs HEALTH +10% (2015 Gear Up) [Observed].\n- Fidget Boomer speed: 3000 u/s vs \"slow\".\n- Capital Pains: the 2015 image is captioned \"green\" but shows a silver-grey barrel [Observed].\n- Dead Eye projectile: the wiki says a \"red\" bullet; the official trailer shows a white jagged streak, if that shot is the Dead Eye [Observed/Inference].\n- Fairy's Dust cloud: \"purple\" (wiki) vs hot magenta to violet [Observed].\n\nOFFICIAL SOURCES NOT REACHED. web.archive.org reset every connection, both by curl and through WebFetch, and a background retry loop also failed. The availability API does confirm snapshots worth retrying later:\n- https://web.archive.org/web/20151029082739/http://battlebears.com/battle-bears-gold-2-6-change-log/ (SkyVu's own 2.6 log, which the wiki transcribes)\n- https://web.archive.org/web/20151029075910/http://battlebears.squarespace.com/blog/2012/4/13/bbr-all-up-in-yo-grill.html (Dead Eye reveal)\n- https://web.archive.org/web/20151029081632/http://battlebears.squarespace.com/blog/2012/4/27/the-last-blog-ever-for-april-2012.html (Art of War and Toucan reveal)\n- Vanilla-forums 2.8 and 2.17 balance threads, archived 2015-10-29.\n- battlebears.com/bbr-classes, 2012-09-18.\nThe live legacy URLs return 404. Until these are checked, every patch-note line above is a [Fan-wiki] transcription.\n\nOFFICIAL VIDEO LEADS. SkyVu's channel posted \"BATTLE BEARS GOLD Developer Update - Astoria Overhaul\" (wUWf9O-YX4A) [Canon: title and channel via YouTube oEmbed]. Its date and contents are unknown because YouTube is blocked. The title suggests a Sniper rework at some point [Inference]. Its auto-thumbnails show [Observed]:\n- a green rifle firing a pale streak, ammo 8/10;\n- a silver weapon with a pink-violet streak, ammo 3/3;\n- a Viperifle-like icon with ammo 4/4 on Aztec Attack;\n- a \"HEAD SHOT\" kill feed.\nWatching this video is the top follow-up for the visual researcher. The \"Update 2.2 Weapon Recap\" (BcEeAzXFChI) is a second lead.\n\nERRORS IN /home/user/thallo-site/bbg-news-repo/characters/astoria.md (flag only; nothing was edited).\n1. The prompt pack's \"Grey-blue backpack (#6F8296) on dark straps, black woven ammo belt\" and \"Long scoped sniper rifle\" come from the 2D art File:Astoria-sniper-viperifle.png. That art shows a generic grey rifle and grey backpack. Every in-game BBG model I opened instead has team-coloured gear [Observed]: a red backpack and straps, a red belt with a dark-maroon quilted band, red pouches and gloves, and red-and-white boots. The wiki says gear takes the team colour. The default rifle is the black Viperifle with a green capsule and a snake-head muzzle, not a generic rifle.\n2. The \"teal-masked sniper ... Astoria only by [Inference]\" note can be strengthened. The same green face-mask and blue shirt outfit appears on the \"MEAN MAMBA BUNDLE\" banner (File:Meanmambabundle.png) holding Mamba's Boy, and in the official trailer with the Viperifle [Observed]. That it is Astoria is still an inference, but a strong one.\n3. The Tomahawk \"angry-bird gag, with no cultural styling\" is a fair invention. Keep the documented design [Observed]: a brown hawk bound in rope, blue-tipped feathers, yellow beak and talons. Keep the hit effect too: a feather-and-wing flurry over the victim's face.\n4. The eye colour (teal-green) disagrees with the in-game models, which show blue eyes [Observed]. This is not a weapon issue.\n5. The red jacket outfit (white sleeves, round belt emblem, dark pants, red boots) recurs. It appears in the Nov 2012 loadout (File:Gnifle-sniper-setup.png), the 2013 Gear Up (File:DeadEye.jpg), the official 2.2 promo and the 2026 trailer [Observed]. Its skin name is [Unverified].\n\nDO NOT USE: File:Viper.jpeg is a real-world photoshop, not game art."
+}
