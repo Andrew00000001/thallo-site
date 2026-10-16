@@ -1,0 +1,221 @@
+{
+ "quickref": [
+  {
+   "weapon": "Bind Gun (renamed and reworked as Adrenaline Gun, June 2021)",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "primary",
+   "status": "Default since BBG 2.6 (Dec 20, 2013). Renamed Adrenaline Gun and reversed from slowing to speeding mid-2021 [Fan-wiki]. 2026 name and effect unverified; the same cyan model is on the 2026 playtest loadout screen [Observed].",
+   "look": "Chunky glossy faceted cyan/teal blaster (#468FAB body, #6CBCD0 highlights, #1A465F panel lines). Round muzzle with a glowing white core (#E7F0F7). Held at the hip, about 0.35-0.4x his height. The card draws it brighter (#43B2D1); 2D promo art draws it darker steel blue (#326581).",
+   "firing_and_projectile": "Automatic (0.15 s). Continuous wavy hot pink-magenta-to-violet beam with a white core (#DEA2E0/#D67090/#FFEEF9) [Observed, 2013-2014 fan thumbnails]; the wiki says 'purple beam' that wavers. HUD ammo 50 (2014) and 55 (2022).",
+   "impact_end_result": "White-pink starburst with violet lightning tendrils at the hit point [Observed]. 2013-2021: the victim is slowed (stacking, up to immobile) and shows a yellow 'Z' between white curved arrows [Observed + Fan-wiki]. 2021+: the victim is sped up 50% for 0.5 s; no image [Fan-wiki only]. Shielded targets get the effect but no damage.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Glue Bomb",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "primary",
+   "status": "Unlock since BBG 2.6 (Dec 20, 2013); 90k J then, 60k J now [Fan-wiki].",
+   "look": "Palm-sized sphere (about 0.2x his height) of black/gunmetal armour plates (#1C1B23/#423C4F) with glowing magenta-violet cross seams (#CBA1D7); held in the prosthetic hand. Card: navy (#151826) with a violet (#463571) cross.",
+   "firing_and_projectile": "Lobbed in an arc; sticks to the first surface [Fan-wiki]. In flight: a small dark sphere with a pink cross [Observed]. Stuck: a dark ball with a glowing pink cross on a wall [Observed]. HUD 2/3 (2013), 2/5 (2014). The wiki contradicts itself on the delay (1 s vs 0 s).",
+   "impact_end_result": "Pale cyan bubble sphere with a ring, and/or expanding thin blue concentric rings; one Dec 2013 frame shows a big yellow-white flash [Observed]. Victims are slowed 80% for 2 s in a large radius and show the yellow-Z icon [Fan-wiki + Observed]. The card shows the victim in blue ripples with a purple crackle outline.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Greased Lightning",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "primary",
+   "status": "REMOVED. Added in the 2.9-era rollout (wiki page created Jun 7, 2014); 'REMOVED' note added on the wiki 2020-11-10; no official removal date [Fan-wiki].",
+   "look": "Red assault rifle (#A40908) with white jagged lightning decals, a silver ribbed top rail (#B9B2A9), a grey underside and a tan rear block (#C39A75); held across the chest, about 0.45x his height.",
+   "firing_and_projectile": "Automatic (0.1 s then 0.13 s) [Fan-wiki]. Thin straight hot pink-magenta laser with a white core [Observed, Apr 2016 fan thumbnail]; the wiki says 'red-violetish lasers'. The HUD showed a 22-round magazine in 2016 (the wiki says 40, then 30).",
+   "impact_end_result": "Damage only, no status effect; a zero-damage slight AoE [Fan-wiki]. Hit look unobserved.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Parashoot",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "primary",
+   "status": "Unlock, level 20; BBG 2.18 (Apr 3, 2015) to present [Fan-wiki]. Price conflict: 300k/200k/150k J.",
+   "look": "Chunky silver-white launcher with a wide black hexagonal muzzle, an icy-blue glowing panel (#DCF0EE), a violet rear accent and a white hooked fin; shouldered, about 0.45-0.5x his height.",
+   "firing_and_projectile": "Semi-auto, quick succession (0.2 s then 0.1 s), 1,200 then 1,400 u/s [Fan-wiki]. HUD 15 in 2015-2016 [Observed]. The projectile in flight was unobserved.",
+   "impact_end_result": "A parachute sticks to the enemy, damaging it and blocking its view for 1.5 s [Fan-wiki]. A low-res Apr 2015 fan frame shows a dark white-rimmed round dome with cyan streamers at a target's head [Observed low-res; Inference that it is the canopy].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Spin Baby Spin",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "primary",
+   "status": "Unlock; BBG 2.27 (May 29, 2017) to present; 150 then 60 Gas [Fan-wiki].",
+   "look": "Gunmetal three-lobed fidget spinner (#4F5B5A/#293436) with a hole in each lobe and a dark glossy domed hub; held flat in the prosthetic hand, about 0.3x his height across.",
+   "firing_and_projectile": "Projectile explosive, 1 s, 1,300 u/s, explodes on contact [Fan-wiki]. HUD 5 (2017), 6 (2022) [Observed]. Flight unobserved.",
+   "impact_end_result": "Green and lime star sparkles with curly lime swirls [Observed 2017]. A white blocky puff and a lime-green '?' over the victim [Observed 2022]. Controls Reversed for 8 s: inverted movement, music muted, echo [Fan-wiki].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Kelowna",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "primary",
+   "status": "Unlock; BBG 2.31 (Mar 8, 2018) to present; shown in SkyVu's official stream 'SkyVuBen rocks New Kelowna Weapon!' (Mar 9, 2018) [Canon title; Fan-wiki].",
+   "look": "Dark gunmetal blaster with a glowing violet underslung canister (#3B05D3/#7D6BC7), a violet-lens scope, a spiky white-lavender crystal front (#F5F2FD) and a white ring muzzle; about 0.45x his height. The render shows the Judge Sanchez skin.",
+   "firing_and_projectile": "Small projectile that bursts on surface contact; 0.25 s then 0.75 s; 800 u/s; ammo 20 then 10 [Fan-wiki]. HUD 20/20 in the official 2018 stream [Observed]. Flight unobserved.",
+   "impact_end_result": "A swarm of translucent purple puffs (#8759A2), some shaped like cartoon skulls with white eye holes [Observed, official stream and fan thumbnails]. Per the wiki, a clone of Sanchez does the Creepin taunt in the cloud; Poisoned (purple skull icon) damage over time; the user can poison himself [Fan-wiki]. The clone is unobserved.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Speed Field",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "secondary",
+   "status": "Default since BBG 2.6 (Dec 20, 2013) [Fan-wiki]. The infobox wrongly says 'Primary'. A different BB Heroes Super shares the name [Canon BBH].",
+   "look": "No held prop (empty-hand render, glowing red forearm lamp). Card icon: glossy yellow honeycomb-engraved sphere (#F5EA3C).",
+   "firing_and_projectile": "Activated by a button on his arm; a hazy light-yellow orb appears from the arm gauntlet [Fan-wiki]. Works mid-air. Ammo 2, reload 1.5 s, lasts 8 s.",
+   "impact_end_result": "Translucent light-yellow dome about the size of the Pain Field; anyone inside, enemies included, gets +150 u/s ('speed doubled' per the game text) [Fan-wiki / Game text via wiki]. The card shows a yellow arch marked FAST. One Jan 2018 fan frame shows yellow haze around Sanchez [Observed; Inference that it is this field].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Cloak Field",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "secondary",
+   "status": "Unlock since BBG 2.6 (Dec 20, 2013); 80 Gas (the infobox says 60 and wrongly says Primary) [Fan-wiki].",
+   "look": "No held prop. Card icon: glossy lilac-purple sphere (#783BB6) with white circuit bands.",
+   "firing_and_projectile": "A hazy light-purple orb appears from the arm gauntlet; grounded only; ammo 2, reload 4 s, lasts 15 s [Fan-wiki].",
+   "impact_end_result": "Translucent light-purple dome; anyone who stays inside 0.75 s is 100% invisible until the field ends; attacking reveals them; hidden from radar unless moving or shooting [Fan-wiki]. The card shows a stick figure sheltered behind a purple arch. No in-game image found.",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Invulnerable Field",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "secondary",
+   "status": "Unlock; 2.9-era rollout (wiki page created Jun 7, 2014); 1M then 250k (2.20) then 150k J; duration 10 s then 4 s [Fan-wiki].",
+   "look": "No prop: the render shows empty hands with the red forearm lamp lit [Observed]. The orb is 'hazy, light blue' [Fan-wiki].",
+   "firing_and_projectile": "Orb from the arm gauntlet, grounded only; ammo 2; rate of fire 1.5 s; reload 5 s [Fan-wiki].",
+   "impact_end_result": "Dome about the size of the Pain Field; everyone inside takes 50% less damage, stacking multiplicatively (0.5^n); no overhead icon [Fan-wiki]. Dome look undocumented beyond the light-blue orb.",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Carpet Bomb",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "secondary (the Dec 2014 wiki revision said primary)",
+   "status": "Unlock, level 10; BBG 2.15 (Dec 20, 2014) to present; price 275k/250k/150k J [Fan-wiki].",
+   "look": "Rolled rug, black with tan/orange ornate key and knot borders (#A27346). One end is a black cap with two white cartoon eyes and a grey screw-like spike: the carpet has a face [Observed]. About 0.6x his height; carried across the chest or upright.",
+   "firing_and_projectile": "Launched in an arc (950 then 600 u/s); the rolled carpet itself tumbles through the air [Observed Jan 2016]. HUD 2 rounds (2014-2016).",
+   "impact_end_result": "Stops on an object, the ground or a player, unrolls, and fire bursts around it in 3 rapid explosions; large AoE with self-kill risk [Fan-wiki]. Observed: a big yellow-white fireball with white smoke and an orange ground ring engulfing a victim.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Drain Field",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "secondary",
+   "status": "Unlock, level 20, 55 Gas; BBG 2.16 (Jan 30, 2015) to present [Fan-wiki].",
+   "look": "Orange-brown curved leech or slug creature (#7B3A23/#B56F47) with a sleepy slit eye, held in the prosthetic hand, about 0.3x his height. Fan-uploaded concept art: a red horned drop-creature with one eye under a dark band.",
+   "firing_and_projectile": "Tossed in an arc, 800 u/s; ammo 1; reload 4.5 s [Fan-wiki]. Flight unobserved.",
+   "impact_end_result": "Per the wiki, a dark field with bats where it lands drains enemies 25/s and heals Sanchez 25/s with no overheal; a 'projection of a live creature wearing sunglasses' [Fan-wiki]. Observed: a giant translucent RED creature projection with a ring of white fangs and a pink inner glow (Apr 2016). Bats unobserved.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Blade Augment",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "melee",
+   "status": "Default since BBG 2.6 (Dec 20, 2013) [Fan-wiki].",
+   "look": "Long (about 0.6x his height), gently curved, single-edged silver blade (#BFBEC2) with a dark zigzag temper line, rod-mounted under the red-black prosthetic forearm, reaching past the fist toward the knee [Observed].",
+   "firing_and_projectile": "Melee swing; 110 damage; no modifier [Fan-wiki].",
+   "impact_end_result": "The card diagram shows a grey swoosh arc, then a stick figure running off [Observed]. In-game hit unobserved.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Harvester",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "melee",
+   "status": "Unlock since BBG 2.6 (Dec 20, 2013); 120 Gas (the page says '20', probably a typo) [Fan-wiki].",
+   "look": "Dark gunmetal gauntlet with a round glowing yellow lens (#C9BE41) and three long curved polished silver claws from the knuckles; about 0.3x his height [Observed].",
+   "firing_and_projectile": "Swinging melee; 70 damage; +10% speed [Fan-wiki].",
+   "impact_end_result": "The card shows three red jagged slash marks (#A90D06) outlined in yellow [Observed]. In-game hit unobserved.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Stealth Knife",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "melee",
+   "status": "Unlock; BBG 2.21 (Jul 3, 2015) to present; 400k vs 150k J conflict [Fan-wiki].",
+   "look": "Dark navy/indigo faceted stealth-bomber-shaped blade-gauntlet (#1B1A3E) with glowing cyan edge lines and a translucent cyan energy flare (#23FEFA); about 0.35-0.4x his height. The render shows the Judge Sanchez skin; also seen held by Tron-Tastic! Sanchez in a Jul 2015 fan frame [Observed].",
+   "firing_and_projectile": "Melee; 70 damage; -10% health; +20% movement speed [Fan-wiki].",
+   "impact_end_result": "Official text says it 'can sometimes strike without even being seen!' [Game text via wiki]; no mechanic or hit visual documented.",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "arm #A3141E / #1B1A1C, Bind Gun #1E6FD9.",
+   "correction": "arm #A3141E / #1B1A1C, Bind Gun cyan/teal-blue: #468FAB body, #6CBCD0 highlights, #1A465F panel lines, white muzzle glow #E7F0F7 (the card draws it brighter, #43B2D1; only 2D promo art is darker steel blue, about #326581).",
+   "evidence": "[Observed] colour samples from the loadout render /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Bind_Gun.png, the official card copy /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/png/Sanchez_weapons.png, and the promo art Arbiter_Class.png. #1E6FD9 (saturated royal blue) matches none of them."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "glossy blue Bind Gun",
+   "correction": "glossy cyan Bind Gun that fires a wavy hot-pink/violet beam with a white core; hits throw a pink starburst with violet crackle, and victims get the yellow 'Z'-between-white-arrows Slowed swirl (2013-2021 look) [Observed]",
+   "evidence": "Fan gameplay thumbnails https://i.ytimg.com/vi/GoF3Hy4QQis/hq1.jpg and hq3.jpg (Jan 30, 2014) and Y2IbsH718QA hq3 (Dec 21, 2013), viewed in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-dossier/yt/sheets/bind_2014.png and vc_y2.png. The wiki says 'purple beam' [Fan-wiki]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "yellow Speed Field, purple Cloak Field and dark purple Glue Bomb orbs [Observed] ([card][card]).",
+   "correction": "a glossy yellow honeycomb Speed Field orb, a lilac-purple Cloak Field orb with white circuit bands, and a black/gunmetal plated Glue Bomb with glowing magenta-violet cross seams [Observed] ([card][card]).",
+   "evidence": "[Observed] Card icons in Sanchez_weapons.png (Glue Bomb navy #151826 plates with a violet #463571 cross; Speed #F5EA3C; Cloak #783BB6) and the 3D render Glue_Bomb.png (#1C1B23/#423C4F plates, #CBA1D7 seams), viewed via /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-dossier/crops/A_primaries.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "Fields come from \"a command gauntlet on his arm\" [Fan-wiki] ([Speed Field][speed]).",
+   "correction": "The wiki says the Speed, Cloak and Invulnerable Field orbs appear \"from a command gauntlet on his arm\", and only the Speed Field page says he \"hits a button on his arm\" [Fan-wiki]; the Dec 2013 text had him place the orb on the ground. Loadout renders for the fields show empty hands and a glowing red lamp on the prosthetic forearm [Observed]; no activation has been observed.",
+   "evidence": "Wikitext of Speed_Field, Cloak_Field and Invulnerable_Field (re-fetched 2026-10-16); rev 58375 trivia ('does not appear to be holding the orb... may be a visual glitch'); renders Arbiter_jpg.png and 480px-InvulnerableField.png in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-dossier/crops/B_secmelee.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "fields fire from a button on his arm [Fan-wiki] ([Speed Field][speed]).",
+   "correction": "the Speed Field is triggered by a button on his arm [Fan-wiki]; the Drain Field is thrown, and the Carpet Bomb is a lobbed explosive, not a field.",
+   "evidence": "Speed_Field wikitext ('To activate it, Sanchez hits a button on his arm'); Drain_Field ('toss the leech-like creature'); Carpet_Bomb ('fly in an arc')."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "with glowing red light strips and a short forearm blade; left arm normal size. Holds a large glossy blue sci-fi gun (#1E6FD9).",
+   "correction": "with glowing red light strips and a glowing red lamp panel on the forearm; left arm normal size. Holds a chunky glossy cyan/sky-blue faceted sci-fi blaster (#468FAB, highlights #6CBCD0, dark panel lines #1A465F) with a round glowing white muzzle, braced at the hip. (No blade in gun poses; the Blade Augment, when equipped, is LONG: about 0.6x his height, curved, single-edged silver with a dark zigzag temper line.)",
+   "evidence": "[Observed] Bind_Gun.png and Blade_Augment.png loadout renders (A_primaries.png and B_secmelee.png in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-dossier/crops/). No gun render shows a blade."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "slaps a button on the arm to pop a shimmering yellow speed dome, then lunges with a forearm blade.",
+   "correction": "taps the glowing red lamp on his mechanical forearm; a yellow honeycomb orb blooms into a translucent yellow dome that speeds up anyone inside, friend or foe; then he sweeps a long, curved, arm-mounted silver blade.",
+   "evidence": "The dome look is Fan-wiki text ('somewhat translucent light yellow haze'; 'Any player, even an opponent') plus one fan frame of yellow ground haze (5gKnLQX1sUc hq2, Jan 21, 2018) [Observed]. Blade length from Blade_Augment.png [Observed]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "Judge Sanchez (\"Are you ready? You do not look ready!\") ([Judge Sanchez][judge]).",
+   "correction": "Judge Sanchez (\"Are you ready? You do not look ready!\") ([Judge Sanchez][judge]); it is also the skin in the official Kelowna and Stealth Knife loadout renders. Tron-Tastic! (black with glowing lines, red-orange or cyan, probably by team) is the skin on the 2026 playtest loadout thumbnail [Observed].",
+   "evidence": "Kelowna.png and Image51.png match File:Judge_Sanchez.png (three gold stars on the helmet band, gold-rimmed visor, black suit with yellow stripes), compared in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-dossier/crops/skins7.png. The 2026 thumbnail is /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/crops/chap_arbiter_x4.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "Bind Gun or Adrenaline Gun in 2026, and which skins and taunts survive; the demo and [playtest showcase][showcase] are unviewed.",
+   "correction": "Bind Gun or Adrenaline Gun in 2026: the 2026 playtest loadout thumbnail shows the same cyan default gun (JustNubz, Sep 20, 2026, chapter 47:23), and a Sep 20, 2026 playtest thumbnail (JVEQQqyafzE) shows a magenta beam and the yellow-Z Slowed icon, so slowing exists in 2026 (shooter unseen). The weapon's 2026 name and effect are unverified; which skins and taunts survive; the videos themselves are unwatched.",
+   "evidence": "[Observed] /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez/crops/chap_arbiter_x4.png and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-dossier/yt/sheets/z2026.png and jv_beams.png. Dates are from the YouTube watch-page metadata."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "\"Creepin\" (Thriller-style zombie stagger)",
+   "correction": "\"Creepin\" (Thriller-style zombie stagger; per the wiki, the Kelowna's poison burst spawns a clone of Sanchez doing it [Fan-wiki]; the cloud is purple skull-shaped puffs [Observed])",
+   "evidence": "Kelowna wikitext (re-fetched 2026-10-16); the official SkyVu stream thumbnail https://i.ytimg.com/vi/0i1NRO9OS2k/hq2.jpg (Mar 9, 2018), viewed in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-dossier/yt/sheets/kel_off.png and kel_detail.png."
+  }
+ ],
+ "open_questions": [
+  "Is the 2026 default primary the Bind Gun (slows) or the Adrenaline Gun (speeds up)? The model is the same cyan gun. A 2026 frame shows a magenta beam and the Slowed 'Z', but not who fired it. Watching the JustNubz showcase's Arbiter chapter (47:23) or the playtests would settle it.",
+  "What does the Adrenaline Gun's speed-up look like on the victim (an icon or a trail)? No image exists, and the wiki documents no overhead icon.",
+  "Cloak Field and Invulnerable Field: no in-game image of either dome or of a cloaked player was found. Their colours rest on the wiki's 'light purple' and 'light blue' haze text and the card.",
+  "Kelowna: the wiki's Creepin clone was never seen in a frame. Does it exist in 2026, and is the Thriller-on-kill music still in the game? It must not be used in BBG News shorts either way.",
+  "Drain Field: the wiki says a 'dark field... with bats', but the only observed frame (Apr 2016) shows a red translucent fanged creature and no bats. Was it changed, or is the wiki wrong?",
+  "Parashoot: the only parachute evidence is a low-res Apr 2015 fan thumbnail. The canopy's colour and shape are unconfirmed.",
+  "Greased Lightning: when, officially, was it removed? Why did 2016 HUD frames show a 22-round magazine when the wiki says 40 (2014) or 30 (current)?",
+  "Carpet Bomb: primary or secondary at launch? The Dec 2014 wiki revision says Primary; later pages say Secondary. The unrolled carpet and its triple burst were never seen.",
+  "Glue Bomb detonation: is the bright yellow-white flash in the Dec 23, 2013 frame the Glue Bomb itself? The wiki also contradicts itself on the delay (1 s vs 0 s).",
+  "What causes the pink-magenta electric crackle around Sanchez's lower body or arm in several fan frames, often at 0 ammo? It might be a reload or self-slow effect; it is undocumented.",
+  "Which were SkyVu's 'Two brand new Sanchez weapons' (Jun 6, 2014)? Probably Greased Lightning and Invulnerable Field, but web.archive.org stayed blocked today ('Blocked by egress policy', then connection resets), so the 2.6 notes, the Jun 2014 post and the official weapon-card JPG remain unverified.",
+  "Does the BB Heroes kit (an 'Adrenaline Gun' firing 'four staggered projectiles' and a 'Speed Field' Super) have any bearing on the 2026 BBG re-release, or is it BBH-only? The live SkyVu site carries only BBH text.",
+  "Housekeeping: a shell command of mine stalled and left /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/crop.py at 0 bytes. I can't tell whether it held content before; no script I found references it. If another worker needed it, copies of crop helpers exist in the weapons scratchpad's scripts_*/crop.py folders. My own scripts are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/scripts_sanchez_dossier/, and all downloads are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-dossier/."
+ ]
+}

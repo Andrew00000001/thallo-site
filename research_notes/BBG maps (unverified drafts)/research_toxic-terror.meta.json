@@ -1,0 +1,64 @@
+{
+ "quickref": [
+  {
+   "name": "Toxic Terror",
+   "era": "BBG only. Added in BBG 2.3, Sep 27, 2013 (iOS date per the wiki). Official fly-through preview published Sep 13, 2013 by BATTLE BEARS. Beta name 'X Marks the Pain' (fan copy of the beta notes, Aug 2013, plus wiki page history; unverified). No rework recorded. Still playable in the ~2022 64-bit build.",
+   "in_2026": "Not named in the Steam store text. The official 2026 OST has track 14 'Toxic Terror' (1:18) [Canon]. Its tile is one of 16 map stills in SkyVu's official short 'BBG Maps Ranked part 1' [Observed]. That makes it likely in the '16 wacky maps' roster [Inference], but this is not confirmed. It does not appear in the Steam trailer or screenshots.",
+   "setting": "A radioactive sewer under a city street at night. Two-floor ('double-floored') cavernous sewer with green waste, and a big climbable tree growing up through the middle. Comic sewer-lair dressing: tally marks, a ninja-turtle weapon rack and chalk bear drawings.",
+   "palette_and_lighting": "Dark green-grey brick and concrete (#1A251D, #222A1E, #161815; ceiling #101B0E). Neon lime ooze and grate glow (#4BFE82, #53FC23, #13FE01; mint highlight #4BFFA7). Caged amber lamps (#FFD030, #FFDB66). Red accents and light (#952E1B, #840000; copper pipe #6B331C). Blue-violet rim light. Tree bark #4B361D/#251B13. Underground at night with low ambient light and green bounce everywhere. Concept art (not final) is slate-blue (#314557) with warmer light.",
+   "landmarks": "1) The central climbable twisted tree. 2) The heart carving on its bark ('O' and '+' legible). 3) The bent drain pipe pouring ooze into a glowing grated pool beside a poster pillar, DANGER sign and amber lamp (the official preview shot). 4) The Blue-base wall of chalk tally marks beside a rack of blue-hilted swords and a purple staff. 5) Glowing green floor grates and ooze channels. 6) A manhole shaft opening to the night sky.",
+   "hazards_and_easter_eggs": "No jump pads. Climbable tree. Pickups: Bearscream Sandwich and Imperial Basket Grande either side of the tree, 2 Health Packs on the upper spawn floors 'behind a brown lump', and 2 Shields behind barriers near the tree. You can spawn on a Health Pack. In PTB the bombs sit inside the spawns and the tubes by the tree. Whether the ooze does damage is unverified. Easter eggs: the O+A heart (fans read it as Oliver+Astoria; not canon); tally marks (the 2013 wiki said '22 days'); TMNT weapons; a wiki-claimed 'drawing of Botch' that no image confirms. Concept-only gags: a poopman, a ninja-masked bunny doll, a skeleton, 'THE END IS NE\u2026' graffiti.",
+   "confidence": "partial"
+  }
+ ],
+ "corrections": [
+  {
+   "file": "/home/user/thallo-site/reports/Battle Bears character lore.md",
+   "current_text": "an \"O+A\" heart carved in a tree on the BBG Toxic Terror map, and temple symbols on Aztec Attack; all three are wiki claims [Fan-wiki, Unverified]",
+   "correction": "The heart carving is in the game [Observed]. Only reading it as Oliver + Astoria, and the BBF crush line, are wiki claims [Fan-wiki, Unverified]. The romance remains not canon.",
+   "evidence": "Wiki File:O+A.jpg (uploaded 2013-10-30 by SirAdven) is a gameplay screenshot with the BBG green reticle, showing a heart outline carved in bark with 'O' and '+' legible. Viewed as /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic_terror/conv/O+A.png and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic_terror/crops/OA_enhanced.png"
+  },
+  {
+   "file": "/home/user/thallo-site/reports/Battle Bears character lore.md",
+   "current_text": "The radioactive sewer map Toxic Terror \"might be a hint to Botch's origins\", with tally marks and a drawing of him on its walls [Fan-wiki, speculation]",
+   "correction": "The tally marks are real [Observed]. They sit in the Blue base beside a rack of Ninja-Turtle-coloured weapons, which reads as a TMNT sewer-lair joke [Inference]. No image shows a drawing of Botch: the only wall drawings seen are three chalk bears, none identifiable as him [Observed]. Keep the Botch link as fan speculation and do not say a Botch drawing exists.",
+   "evidence": "WfTBPWZAQCs maxresdefault (2013 fan 'Toxic Terror Tour') shows tally marks beside two blue-hilted swords and a purple staff (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic_terror/conv/tour_maxres.jpg). SkyVu-watermarked concept panel 5 shows the full TMNT rack beside the tally marks (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic_terror/conv/concept_p5.png). The in-game preview tile's wall drawings are three chalk bears (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic_terror/crops/preview_drawings.png)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "an \"O+A\" heart carved in a tree on Toxic Terror and temple symbols on Aztec Attack [Fan-wiki, Unverified]",
+   "correction": "Label the carving [Observed]: it exists in game. Keep [Fan-wiki, Unverified] for the Oliver+Astoria reading and the BBF line.",
+   "evidence": "Wiki File:O+A.jpg gameplay screenshot (see /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic_terror/crops/OA_enhanced.png)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "a cut-off BBF line, an \"O+A\" carving and temple symbols [Fan-wiki, Unverified]",
+   "correction": "The O+A carving is [Observed] in game. Its meaning (Oliver+Astoria) remains [Fan-wiki, Unverified].",
+   "evidence": "Wiki File:O+A.jpg gameplay screenshot with the BBG reticle."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md",
+   "current_text": "**Toxic Terror**: a radioactive sewer, \"might be a hint to Botch's origins\u2026 a drawing of Botch\".",
+   "correction": "Add: added in BBG 2.3 (Sep 27, 2013 per the wiki), beta name 'X Marks the Pain' (unverified). The O+A carving is observed in game. No Botch drawing was found in any image. The tally marks sit beside a TMNT-style weapon rack.",
+   "evidence": "Wiki revision history (page created 2013-09-01 as 'X Marks the Pain', moved 2013-09-17). The fan video XlZo37G6hs4 description quotes the '2.3 (Beta) Release Notes \u2026 New Map: X Marks The Pain'. Images: O+A.jpg, Toxic-Terror-Preview.png, WfTBPWZAQCs maxresdefault."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md",
+   "current_text": "- Toxic Terror map (BBG 2.3): \"Because the map is filled with radioactive waste, it might be a hint to Botch's origins. There are also Tally marks on the walls and a drawing of Botch.\"",
+   "correction": "Add that the 2013 wording was 'scratch marks on the walls marking 22 days'. The marks sit next to a Ninja-Turtle weapon rack [Observed]. The 'drawing of Botch' is unconfirmed in every image viewed.",
+   "evidence": "Wiki revisions 54885 to 56592 of Toxic Terror contain 'scratch marks on the walls marking 22 days'. The concept panel shows about 22-23 strokes. Images I2, I4, I6-I8 show no Botch drawing."
+  }
+ ],
+ "open_questions": [
+  "What is the floor plan: which end is Red, how the two storeys connect (stairs, ramps, ladders), and where are the routes around the tree?",
+  "Does the radioactive ooze damage players? Are there kill pits?",
+  "Which concept gags made it into the final game: the poopman (is it the 'brown lump' by the Health Packs?), the ninja-masked bunny doll, the skeleton, 'THE END IS NE\u2026', '08B', and the red sai and orange nunchucks on the rack?",
+  "Is there a drawing of Botch anywhere on the map? Who are the three chalk bears on the preview tile?",
+  "What did SkyVu's own 2.3 release notes and blog post say about the map? Was 'X Marks the Pain' an official working title? (Wayback Machine unreachable this session; URL unknown.)",
+  "Is Toxic Terror in the Nov 4, 2026 launch rotation, and which of TDM, FFA and PTB run on it? Did the Oct 2026 'Lighting improvements' change its look?",
+  "Did King of the Windmill (added in 2.8) ever run on Toxic Terror?",
+  "Is the 'UPDATE 2.3 NOW AVAILABLE \u2026 New Map: Toxic Terror' banner seen in a fan thumbnail official SkyVu art?",
+  "What is the tall pale-figure poster, and is it the same object as the yellow-framed face panel in the ~2022 footage?",
+  "What does the 'Toxic Terror' theme (OST track 14, 1:18) sound like? It has not been listened to."
+ ]
+}

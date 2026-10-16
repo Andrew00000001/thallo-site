@@ -1,0 +1,52 @@
+{
+ "quickref": [
+  {
+   "name": "Steam Yard Blues (2026 spelling: \"Steamyard Blues\")",
+   "era": "BBG v2.8: March 4, 2014 per the wiki [Fan-wiki]; SkyVu preview posted Feb 21, 2014 [Canon]. Launched with King of the Windmill, which was retired in v2.29 (Jan 26, 2018) [Fan-wiki]. Not in BBR. Wiki layout notes date from 2014.",
+   "in_2026": "Probably returning. Steam jokes about \"that yearly match on Steamyard Blues, most likely just for the soundtrack\" [Canon]. Soundtrack track 15 is \"Steamyard Blues\" (0:51) [Canon]. SkyVu's \"BBG Maps Ranked part 1\" (Oct 11, 2026) shows its tile in the 16-map grid and puts it in the \"13-16\" tier [Observed]. Not in the 2026 trailer, the Steam screenshots or the news posts [Observed]. 2026 modes are TDM/FFA/PTB, so no King of the Windmill [Canon/Inference].",
+   "setting": "A steam-age airship yard high in the air at dusk, open at the edges [Observed; the label is Inference]. Three wiki 'levels': the deck at the top (4 jump pads up; Bearscream Sandwich on a 'lead off'; a gear-like wall to hide behind), the main ground (planes, Imperial Basket Grande, slopes with Shields), and green tunnels reached from jump pads on the plane wings (Health Pack at the intersection) [Fan-wiki]. Spawns and team sides undocumented.",
+   "palette_and_lighting": "Dusk: pale butter-yellow horizon glow #EEDC85-#F4D691 behind mauve-brown mountain silhouettes #492F38-#644B46, with a near-black maroon void below (#1C030E). Brass/gold #CE9430 (highlight #FEEA4F), copper #905122-#AD5C2D, purple airship fabric #240838-#390B53, slate-blue planes #304D5A-#325269, dark plank deck #21170B-#2F230B, cyan jump pads #5ADADB in acid-yellow gear housings #C6C209, green tunnels #688E45. Warm gold rim light, plum shadows; no steam or weather visible [Observed].",
+   "landmarks": "1) A purple blimp in a brass rib cage with stencilled propeller-and-monocle bear heads. 2) Twin slate-blue shark-mouth fighter planes with 'BBG' lettering and roundels, roped down, with a jump pad on each wing. 3) Cyan jump pads in brass gear housings, including gear-topped wicker drums with sandbags. 4) Green tunnels with octagonal mouths. 5) An upright purple-and-gold balloon on a copper crown-topped column. 6) The dusk mountain backdrop [Observed; layout from Fan-wiki].",
+   "hazards_and_easter_eggs": "'No interactive features' [Fan-wiki]. Jump pads; tunnel entrances reachable with the Turkish SW Boots; a ledge beneath one whole edge [Fan-wiki]. 2014-18 King of the Windmill: the windmill landed mid-map or on the deck's lead-off and could crush players [Fan-wiki]. Easter eggs: 'BBG' painted on the planes; RAF-style roundel and shark-mouth art; the bear emblem on the blimp [Observed]; hide behind the deck's gear wall [Fan-wiki]; SkyVu's 2026 'yearly match\u2026 just for the soundtrack' joke [Canon].",
+   "confidence": "partial"
+  }
+ ],
+ "corrections": [
+  {
+   "file": "research_notes/Battle Bears character lore/franchise_world.md",
+   "current_text": "  - **Steam Yard Blues**: a three-level map released in v2.8 with the King of the Windmill mode. [Fandom](https://battlebears.fandom.com/wiki/Steam_Yard_Blues)",
+   "correction": "Keep the line and add: v2.8 = March 4, 2014 [Fan-wiki], previewed by SkyVu Feb 21, 2014 [Canon]. King of the Windmill was retired in v2.29 (Jan 26, 2018) [Fan-wiki]. The wiki's 'first level' is the deck at the top. Look [Observed in SkyVu's preview frames]: a dusk airship yard with brass-caged purple blimps, roped-down shark-mouth slate-blue fighter planes, cyan jump pads in brass gear housings and green tunnels.",
+   "evidence": "Wiki Steam Yard Blues page (latest revision 2014-09-01) and Updates page (2.8 = March 4, 2014; 2.29 'King Of The Windmill is retired', Jan 26, 2018). RnCV0V5gWCI watch-page HTML (dateText 'Feb 21, 2014'; description). Thumbnails https://i.ytimg.com/vi/RnCV0V5gWCI/maxresdefault.jpg, hq1.jpg, hq2.jpg, hq3.jpg (opened)."
+  },
+  {
+   "file": "research_notes/Battle Bears character lore/animation_reference.md",
+   "current_text": "  - \"2.8 'Steam Yard Blues'\" (Feb 21, 2014) \u2014 [RnCV0V5gWCI](https://www.youtube.com/watch?v=RnCV0V5gWCI)",
+   "correction": "Give the exact title, 'BATTLE BEARS GOLD Update 2.8 \"Steam Yard Blues\" Map Preview', the length (35 s), and the description: \"Another new update on the horizon means another awesome new map! Check out this epic fly through of the new map, Steam Yard Blues, coming to BATTLE BEARS GOLD in Update 2.8!\"",
+   "evidence": "YouTube watch-page HTML for RnCV0V5gWCI (attributedDescription, dateText Feb 21, 2014; playback itself blocked); YouTube search metadata '35 seconds'; oEmbed title and channel BATTLE BEARS."
+  },
+  {
+   "file": "research_notes/Battle Bears character lore/franchise_world.md",
+   "current_text": "- **Map count.** [OFFICIAL] Steam 2026 says \"16 wacky maps\" ([Steam](https://store.steampowered.com/app/4408320)). [FAN-WIKI] The wiki lists 15 BBG maps across the original run,",
+   "correction": "Add: [OFFICIAL] the 2026 soundtrack (Steam app 5321720) lists 16 map themes, including track 15 'Steamyard Blues' (0:51). SkyVu's short 'BBG Maps Ranked part 1' (jkv6FHPghx8, Oct 11, 2026) shows a 16-tile grid that includes Steam Yard Blues, placed in its '13-16' tier. Caveat: the same grid is the thumbnail of Slinkster's fan uploads _kQfxlo7FGc and CbF_Y15Y7EQ, so the tiles may not show the 2026 build.",
+   "evidence": "Steam OST page track list (fetched live 2026-10-16). jkv6FHPghx8 Shorts page (publishDate Oct 11, 2026; description 'Maps ranked pt1, do you agree?'). https://i.ytimg.com/vi/jkv6FHPghx8/oar1.jpg and oar2.jpg (opened). https://i.ytimg.com/vi/_kQfxlo7FGc/hqdefault.jpg and https://i.ytimg.com/vi/CbF_Y15Y7EQ/hqdefault.jpg (opened)."
+  },
+  {
+   "file": "research_notes/BBG maps (unverified drafts)/research_frozen-pundra.md",
+   "current_text": "SkyVu's official short \"BBG Maps Ranked part 1\" (title verified by oEmbed; dated Oct 11, 2026 in our notes)",
+   "correction": "The date is now verified (Shorts page publishDate 'Oct 11, 2026'). In the next bullet (the oar2 '13-16' row), one of the 'two other maps' beside Frozen Pundra is Steam Yard Blues (third tile: a purple blimp in a brass cage over a slate-blue plane). The other is an unidentified crane-and-water map.",
+   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/steam_yard_blues/yt/watch_jkv6.html (publishDate for 'BBG Maps Ranked part 1'); crops oar2_syb_tile.jpg and oar1_syb_tile.jpg, matched against the SkyVu preview frame RnCV0V5gWCI_hq3.jpg."
+  }
+ ],
+ "open_questions": [
+  "Which side of Steam Yard Blues is Red and which is Blue, and where are the spawns?",
+  "Which modes ran on Steam Yard Blues in 2014-2021 besides King of the Windmill, and which of TDM, FFA and PTB will run on it in 2026?",
+  "What did SkyVu's 'balance-update-2-8' forum post say, and was there a 2.8 blog post or map blurb? web.archive.org was unreachable; archive.org's API lists a 2015 snapshot of the forum post.",
+  "What do the deck's 'lead off', the 'gear-like wall' and the edge slopes look like? No opened image clearly shows them.",
+  "What are the small red-white vertical glints by the plane noses and the violet-blue beam seen in the preview frames?",
+  "Who or what is the propeller-and-monocle bear stencilled on the blimp?",
+  "Did update 3.0's 'New Map Lighting' (2021) or the 2026 lighting improvements change the dusk look?",
+  "Is Steam Yard Blues confirmed in the Nov 4, 2026 launch roster, and where does it finish once 'BBG Maps Ranked' part 2 is out?",
+  "What does the 0:51 'Steamyard Blues' soundtrack track sound like? It was not heard.",
+  "Did the 16-tile ranking grid originate with SkyVu or with the fan Slinkster, and are its tiles 2014 or 2026 captures?"
+ ]
+}

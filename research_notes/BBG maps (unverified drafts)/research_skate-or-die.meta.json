@@ -1,0 +1,59 @@
+{
+ "quickref": [
+  {
+   "name": "Skate or Die",
+   "era": "BBG launch map (May\u2013June 2013). SkyVu's May 30, 2013 trailer description lists it in '3 New Maps: -Gold Digger -Skate or Die -Sky View' [Canon]. Not in BBR. No documented rework; game-wide 'New Map Lighting' in v3.0 (Nov 15, 2021) [Game text via wiki].",
+   "in_2026": "Not named on the Steam page [Canon]. Track 7 'Skate Or Die' (1:29) on the official 2026 soundtrack [Canon]. Shown in the official shorts 'Dangerous Skate Parks' (May 7, 2025) and 'BBG Maps Ranked part 1' (16-map grid) [Observed]. In 2026 PC playtests per fan footage: Team Battle (7/29/26) and FFA (Playtest #3) [Observed metadata and frames; Inference that it ships].",
+   "setting": "Open-air walled concrete skatepark under two crossing elevated highway decks on hammerhead piers, covered in Battle Bears graffiti; the wiki says 'a skating park below two highways' [Fan-wiki; Observed]. A large, wide, open map with no jump pads [Fan-wiki].",
+   "palette_and_lighting": "Clear daylight with a late-afternoon feel [Inference]: cornflower-blue sky #5776B1 fading to peach haze #EADFDC; warm cream sunlit concrete #E4C9B1; taupe-grey slabs #806F62\u2013#9C8879; charcoal overpass #302B2D; honey plywood ramps (#6C4C2D shade, #FD994B sun); rust rails #59311E; black steel ledges #181618; pale aqua painted 'water' bowls #B5DADD; graffiti accents: meadow green #419A02, Huggable pink #EA7197, rainbow orange #E97649, ABBi lens blue #246280. Long, hard shadows from the decks [Observed].",
+   "landmarks": "1) Overpass decks on hammerhead piers. 2) Dry bowls painted as water with a leaping painted goldfish. 3) Giant grey camera with a glowing blue lens beside the 'ABBi' tag (ABBi's eye [Inference]). 4) Pink bone-limbed Huggable mural beside the pier tagged 'Oops, Killed ya!' (the map icon). 5) 'BATTLE BEARS' TV-series mural [Fan-wiki caption]. 6) 'BATTLE BEARS.' billboard on a pole above the wall; also a meadow mural with pink Huggables and a rainbow-to-skull graffito [Observed].",
+   "hazards_and_easter_eggs": "No hazards documented or seen; no jump pads; two each of Bearscream Sandwich, Imperial Basket Grande, Health Pack and Shield [Fan-wiki]. Easter eggs: the BB TV series mural (cancelled W!LDBRAIN show); Oliver's kill line 'Oops, killed ya!' as graffiti; 'ABBi' tag and camera; a 'B-1000' heart tag; Huggables everywhere; a possible Tillman panda [Observed/Inference].",
+   "confidence": "observed"
+  }
+ ],
+ "corrections": [
+  {
+   "file": "research_notes/BBG weapons (unverified drafts)/visuals_2026.md",
+   "current_text": "| 43\u201353.5 s, aerial shots | Yellow tracer dots, a golden half-dome blast (47.0 s), pink laser lines, a yellow-orange cube blast with a white shock ring (50.5 s), a vertical yellow-orange cone, then orange octagonal ring shockwaves and white smoke (52.5\u201353.5 s). | none named |",
+   "correction": "Name the maps. 43.0\u201345.5 s is Aztec Attack. \u224845.5\u201347.5 s is Skate or Die (overhead of the painted-water bowl, wooden kicker, black box at an overpass pier and the giant ABBi camera); the yellow tracer dots and the golden blasts at \u224846.0 s (kicker base) and \u224847.0\u201347.2 s (large yellow half-dome at the pool edge) are on Skate or Die. From \u224847.5 s a construction-site map of wooden planks and teal tarps follows (probably Sky View, Inference); Gold Digger is \u224851.9\u201354 s.",
+   "evidence": "Steam trailer frames t_0093\u2013t_0096 (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/) and my 5 fps frames s_06 (46.0 s), s_12 (47.2 s), s_13 (47.4 s) in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/skate_or_die/trailer/; contact sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/skate_or_die/trailer_sheet.png"
+  },
+  {
+   "file": "bbg-news-repo/characters/wil.md",
+   "current_text": "- **ABBi:** a single camera eye [Fan-wiki] ([ABBi][wabbi]); probably the Zero teaser's one-eyed, minigun-armed unit [Observed; Inference].",
+   "correction": "Add an in-game BBG reference: Skate or Die has a giant grey cylindrical camera with a glowing blue lens (deep blue #246280 around a near-white cyan core, thick dark bezel) and a trailing black cable, beside a graffiti tag reading 'ABBi' [Observed]; read as ABBi's eye [Inference].",
+   "evidence": "Steam trailer t_0093\u2013t_0094 and s_05 (crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/skate_or_die/crops/tr_lens.png); 2013 fan flythrough vLNAENqXIf8 hq1 (crops/vLNA_hq1_3x.png); official 'BBG Maps Ranked part 1' grid tile (crops/jk_sodtile.png); wiki File:Skate_or_Die_4.jpg"
+  },
+  {
+   "file": "bbg-news-repo/characters/oliver.md",
+   "current_text": "\"Oops, killed ya!\" \u00b7 \"What's dead and eats my bullets? You! Ha ha ha!\"",
+   "correction": "Note that SkyVu itself used the phrase in BBG: 'Oops, Killed ya!' is painted as graffiti on a pier in Skate or Die and appears on the map-select icon [Observed]. So the phrase is SkyVu-authored in-game text; its attribution as Oliver's voice line stays [Fan-wiki].",
+   "evidence": "Wiki File:Skate_or_Die_4.jpg (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/skate_or_die/conv/sod4.png); File:Skate_Or_Die.png (conv/icon.png); Steam trailer t_0094\u2013t_0095; official short y5ThaIm-MYU oar3"
+  },
+  {
+   "file": "research_notes/Battle Bears character lore/franchise_world.md",
+   "current_text": "- [FAN-WIKI] BBG stages: H.I.P. Test Lab, Space Oddity, No Bear's Land, Aztec Attack, Abusement Park, Marecraft, Shortest Parsec, Sky View, Gold Digger, Haunted Castle, Toxic Terror, Skate or Die, Desert Airmine, Frozen Pundra, plus Steam Yard Blues (v2.8).",
+   "correction": "Add era and status for Skate or Die: one of three launch maps named in SkyVu's 2013 trailer description ('3 New Maps: -Gold Digger -Skate or Die -Sky View', published 2013-05-30) [Canon]; track 7 'Skate Or Die' (1:29) on the 2026 official soundtrack [Canon]; shown in the official shorts 'Dangerous Skate Parks' (May 7, 2025) and 'BBG Maps Ranked part 1' [Observed]; in the 2026 playtests per fan footage (Team Battle 7/29/26; FFA in Playtest #3) [Observed metadata and frames].",
+   "evidence": "Wiki-stored YouTube metadata for rfAyqVJrli4 (File:BATTLE BEARS GOLD Trailer Award-Winning Multiplayer Shooter Game); Steam app 5321720 track listing; oEmbed-verified official shorts y5ThaIm-MYU and jkv6FHPghx8; lFr8-yHbbzQ chapter 'Match 7 (Team Battle, Skate or Die, Botch)' at 26:03; _R4rvvGlRsM description '14:04 Skate or Die FFA'"
+  },
+  {
+   "file": "research_notes/Battle Bears character lore/oliver_riggs_wil.md",
+   "current_text": "- [WIKI] Battle Bears TV: a cartoon planned with WildBrain Entertainment for 2014, featuring Astoria, Oliver, Riggs, Graham, Wil and Tillman, set after BB Zero. It was \"presumably cancelled.\" It \"replaced the Battle Bears Movie.\"",
+   "correction": "Add that the series left a trace in BBG: a Skate or Die mural reproduces the 2012 'THE TELEVISION SERIES / COMING SOON!' key-art lettering (distressed black 'BATTLE BEARS' over a teal glow) with a brown, a yellow and a goggled bear [Observed]; the wiki captions it 'Battle Bears TV show in the map' [Fan-wiki].",
+   "evidence": "Wiki File:BB TV show graffiti on Skate Or Die.jpg (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/skate_or_die/conv/tvgraffiti.png) compared with File:Battle-bears-tv-series-coming-soon.jpg (conv/bbtv_coming_soon.png) and File:BBTV.jpg (conv/bbtv_banner.png)"
+  }
+ ],
+ "open_questions": [
+  "Which team (Red or Blue) spawns on the painted-pool side versus the ABBi-camera side? The wiki's pickup list implies the pool is on Red's side, but no image ties a team colour to a landmark.",
+  "Did SkyVu ever publish a battlebears.com map page or blurb for Skate or Die, as it did for the BBR maps? web.archive.org was unreachable, and availability lookups found no snapshot for the expected slug.",
+  "What does the full top-down layout look like? Where are the half-pipe, the large raised platform, the 'huge column' and the spawns relative to the trailer's overhead?",
+  "Who are the figures in the TV mural (Wil? Graham?) and in the grey robot-head graffito? Is the black-and-white figure Tillman? What is on the wheat-paste posters?",
+  "Where are the Plant the Bomb platforms and tubes on this map, and is it in the 2026 PTB rotation? 2026 fan evidence shows only Team Battle and FFA.",
+  "How different is the 2026 lighting after v3.0's 'New Map Lighting' and the October 2026 'Lighting improvements'?",
+  "Who took the May 2013 'New map.jpeg' Unity editor photo (a SkyVu teaser?), and when was it first posted?",
+  "Which composer wrote the 'Skate Or Die' track (1:29), and what does it sound like? Not listened to.",
+  "Did the official short 'Dangerous Skate Parks' rank Skate or Die #1? Only its title card and the Ramp 1 and Skate or Die entries are visible.",
+  "Is the white box pickup on the central black box the Health Pack? What was the white glowing octagon on the floor at 46.0 s in the trailer?",
+  "Is Skate or Die in Battle Bears Heroes (2024)? No evidence found."
+ ]
+}
