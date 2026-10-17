@@ -1,0 +1,260 @@
+{
+ "quickref": [
+  {
+   "weapon": "Double Rainbow!",
+   "owner": "Huggable (BBG class)",
+   "slot": "primary ability (default)",
+   "status": "Default; in BBR Gear Up by Oct 2012; BBR 1.4.2 and BBG 2.6 rebalances; no confirmed 2026 shot",
+   "look": "Gear Up card: two broad neon-green-rimmed rainbow arcs ring the Huggable's waist, blue/cyan to green, yellow, red, magenta [Observed]; 2011 official Sneak Peek: flat rainbow ribbon on grass (attribution Inference)",
+   "firing_and_projectile": "One tap, self-centred; 'two spinning rainbows that rotate around the user' for several seconds; melee cancels; no projectile [Fan-wiki]",
+   "impact_end_result": "Explosive-type AoE damage in range (falloff Inference from AoE row); the rainbows shrink to nothing at the end [Fan-wiki]; hit FX unknown",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Headlights",
+   "owner": "Huggable (BBG class)",
+   "slot": "primary ability (only long-range attack)",
+   "status": "32,000 J, level 4; in BBR by Feb 2012; range cut in BBG 2.1; not seen in 2026",
+   "look": "Card: head pulled off and set low in front of the bowed body; white sparkle at the neck; straight head-thick beam, violet on top to blue on the bottom [Observed]; official plush art: rainbow bursting from the neck [Observed]",
+   "firing_and_projectile": "One tap; continuous steerable rainbow beam for a few seconds, range 1250 units; no melee while firing; Hannible-head glitch [Fan-wiki]",
+   "impact_end_result": "Sustained beam damage while on target (60/s infobox) [Fan-wiki]; no hit FX documented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "So Fly",
+   "owner": "Huggable (BBG class); BBH Huggy's Ultimate",
+   "slot": "primary ability (movement attack)",
+   "status": "60 Gas (was 25,000 J until BBR 1.4.2); steering from v2.0; likely in the 2026 trailer at 30.2-30.8 s; BBH Ultimate [Canon]",
+   "look": "Card: Superman flight with a wavy seven-band rainbow trail and white sparkles at the feet [Observed]; 2026: rises leaving a broad translucent ribbon (red-orange, yellow, green), then flies belly-down head-first with bare cuffs [Observed; ID Inference]",
+   "firing_and_projectile": "One tap; the Huggable itself flies 'in a stream of rainbows' in any direction, steerable, 3 s, 575 u/s [Fan-wiki]",
+   "impact_end_result": "Contact damage 60-80 by proximity and time [Fan-wiki]; BBH adds a post-landing damage boost [Canon]; the 2026 magenta crystal pillar is Tillman's Happy Hour, not So Fly [Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Static Shuffle",
+   "owner": "Huggable (BBG class)",
+   "slot": "primary (chargeable shotgun-type)",
+   "status": "BBR 1.4.3 (15 Apr 2013; shipped as 1.4.3.1 on 23 Apr); 60 Gas (was 180); not seen in 2026",
+   "look": "Card: head raised on a long stretched stitched neck, four white-core cyan-edged lightning bolts [Observed]; concept A/B paws on head, C stretched neck [Observed]; HUD icon: face flanked by white-cyan lightning [Observed, fan thumbnails]",
+   "firing_and_projectile": "Tap, or hold up to 6 s while it rubs its head with rising static; a bright blue electric blast 'from where the Huggable's head should have been'; charged reaches further [Fan-wiki]",
+   "impact_end_result": "60 / 75 damage; electric particles linger and hurt enemies who touch them; dying mid-use leaves a headless body [Fan-wiki; decap screenshot Observed]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Losing Your Head",
+   "owner": "Huggable (BBG class)",
+   "slot": "primary (explosive)",
+   "status": "BBG 2.6 (20 Dec 2013); 100,000 J; no menu slide; not seen in 2026",
+   "look": "Normal 3D stance render with dark grey cuffs set with red lights [Observed]; fan thumbnail hq3 shows a cyan-white screen wash (blast reading Inference)",
+   "firing_and_projectile": "One tap; it shakes off its head, which lands at its feet and explodes almost instantly; works mid-air; melee before landing cancels [Fan-wiki]",
+   "impact_end_result": "Large spherical bright blue blast enveloping the Huggable, no self-damage, falloff with distance; then it grabs a new head 'out of nowhere'; like Phantom Hug's blast but a different colour [Fan-wiki]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Tough Love",
+   "owner": "Huggable (BBG class)",
+   "slot": "secondary ability (default)",
+   "status": "Default; in the 2012 BBR list; BBR 1.4.2 and BBG 2.6 changes",
+   "look": "Cards: Huggable chasing a brown bear in a red headband through glossy red hearts (#D73066/#B30D34) [Observed]; 2013 in-game: stream of small pink-red and lilac hearts trailing a Huggable (Dancing_Huggable.jpg) [Observed; Tough Love attribution Inference]",
+   "firing_and_projectile": "About 3 s of hand-waving (interruptible), then 'trailed by a stream of hearts'; no projectile [Fan-wiki]",
+   "impact_end_result": "+50% melee damage for the duration [Game text via wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Mini Me",
+   "owner": "Huggable (BBG class)",
+   "slot": "secondary ability (shrink)",
+   "status": "45,000 J, level 8; in the 2012 list; duration cut in BBG 2.6",
+   "look": "Card: three dark green-outlined afterimages stepping down to a small pink Huggable with green sparkles [Observed]",
+   "firing_and_projectile": "Same activation as Peek A Boo; giggle-like sound; becomes very tiny; no speed gain [Fan-wiki]",
+   "impact_end_result": "Harder to hit; no damage; death glitch may restore size and freeze [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Peek A Boo",
+   "owner": "Huggable (BBG class)",
+   "slot": "secondary ability (invisibility)",
+   "status": "115,000 J, level 17; team-colour outline added in 1.4.2, removed in BBG 2.6",
+   "look": "Card: black silhouette with a neon-green outline sinking into white clouds and bubbles [Observed]; 2026 rainbow burst at 3.27-3.85 s is a candidate [Inference]",
+   "firing_and_projectile": "'A short burst of rainbow energy will be emitted above the Huggable' and it becomes invisible; damage makes it flicker visible; attacking ends it [Fan-wiki]",
+   "impact_end_result": "No damage; blocks Sniper/Demo lock-on; the +10 melee bonus 'does not work' [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Super Size Me!",
+   "owner": "Huggable (BBG class)",
+   "slot": "secondary ability (grow + stomp AoE)",
+   "status": "BBG 2.20 (29 May 2015); 150,000 J, level 10; not seen in 2026",
+   "look": "No image anywhere on the wiki [Observed absence]",
+   "firing_and_projectile": "Grows, gains melee hitbox, is slowed 25%, and makes 'colored shockwaves similar to those of the Happy Hour and Metal Crush' [Fan-wiki]",
+   "impact_end_result": "Explosive 20-40 AoE shockwaves for 4 s [Fan-wiki]; colour and size unknown",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Phantom Hug",
+   "owner": "Huggable (BBG class)",
+   "slot": "secondary (saboteur projectile)",
+   "status": "BBG 2.2 (21 Aug 2013); 40 Gas; announced via the BB Facebook page per the wiki; not seen in 2026",
+   "look": "Promo art: translucent glowing pink ghost Huggable with a yellow-white rim wrapped over a screaming bear's face [Observed]",
+   "firing_and_projectile": "Single shot (ammo 1, reload 5 s); 'a cluster of pink energy in the shape of a Huggable'; passes the Iron Curtain [Fan-wiki]",
+   "impact_end_result": "Bursts in a moderate AoE on any surface or player; victims frozen in place 2.5 s, no damage; yellow 'Z' over their heads [Fan-wiki]; blast likely a pink sphere [Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Charged Run",
+   "owner": "Huggable (BBG class)",
+   "slot": "secondary ability (ground dash)",
+   "status": "BBG 2.6 (20 Dec 2013); 160 Gas at launch, 60 listed now; not seen in 2026",
+   "look": "Gear Up stance only: 3D Pink Huggable, one arm raised, red-light cuff [Observed]",
+   "firing_and_projectile": "Tap to run, or hold to charge (immobile; sparkles leak at full charge, Crossbow-like sound); runs 600 u/s for 1.5 s, or 4 s charged [Fan-wiki]",
+   "impact_end_result": "40 damage once per opponent run through; melee cancels [Fan-wiki]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Bite Me",
+   "owner": "Huggable (BBG class); version on BBH Huggy",
+   "slot": "melee (paired, default)",
+   "status": "Default; in the Aug 2011 Sneak Peek HUD and the 2012 BBR list; page now says 80 damage",
+   "look": "Two black C-shaped bear-trap jaws on round black wrist discs, zigzag teeth smeared iridescent rainbow, about 0.28x Oliver [Observed]",
+   "firing_and_projectile": "Two-paw melee swing, damage often doubled [Fan-wiki]; no projectile",
+   "impact_end_result": "Rainbow 'Huggable blood' on the teeth [Fan-wiki]; generic hit: white flash plus pale-yellow stars [Observed, 2026 on Punk Bands]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Seesaw",
+   "owner": "Huggable (BBG class)",
+   "slot": "melee (paired chainsaws)",
+   "status": "In the Oct 2012 list; price 20 vs 40 Gas conflict; 2.6 swapped special-cooldown for +10% speed",
+   "look": "Orange boxy housings (#C13C0C) over the paws, dark grey bars with iridescent rainbow teeth; official banner shows rainbow drips [Observed]",
+   "firing_and_projectile": "Two-paw melee, 40 per saw; slowest draw, longest duration, largest hitbox [Fan-wiki]",
+   "impact_end_result": "Rainbow 'blood' on the bar [Fan-wiki]; generic hit stars",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Whack-Tus",
+   "owner": "Huggable (BBG class)",
+   "slot": "melee (paired cactus clubs)",
+   "status": "One of the original three; formerly 'The Prick'; 50,000 J; seen in the 2026 Closed Playtest #4 Gear Up; a cactus club also in the BBH trailer",
+   "look": "Dark-green ridged cactus clubs (#20351A to #2B4B23) sheathing the forearms, lighter-green spikes, about 0.35x Oliver [Observed]",
+   "firing_and_projectile": "Clapping two-arm swing, short draw time [Fan-wiki]",
+   "impact_end_result": "No specific FX documented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Presidentures",
+   "owner": "Huggable (BBG class)",
+   "slot": "melee (paired wooden dentures)",
+   "status": "BBR 1.3.1 week 2 (June 2012); 30,000 J; a Bite Me reskin",
+   "look": "Carved wooden false-teeth jaws: dark bark edge, pale tan grained wood, sawtooth teeth, log-end hinge discs, black wrist straps [Observed]",
+   "firing_and_projectile": "Two-paw chomp like Bite Me, long draw, 70 damage [Fan-wiki]",
+   "impact_end_result": "None documented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Punk Bands",
+   "owner": "Huggable (BBG class)",
+   "slot": "melee (paired spiked cuffs)",
+   "status": "BBR 1.3.1 week 2; 110,000 J; claps once since 1.4.1; in the 2026 trailer (30.9-31.2 s, 35.6-36.3 s) and Steam screen_00",
+   "look": "Oversized black cylinders with white cone spikes on tan/cream square bases and a rounded pink cap (red in the Huggabundle art) [Observed]",
+   "firing_and_projectile": "Clapping two-arm haymaker; in 2026 the cuffs appear only during the swing [Observed; rule Inference]",
+   "impact_end_result": "Target flashes white, pale-yellow stars burst; the KO target lies face-down as the Huggable grins [Observed 2026]; big starbursts at 31.2-32.2 s may be Happy Hour [Unverified]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Bearettas",
+   "owner": "Huggable (BBG class)",
+   "slot": "melee (paired spiked pistol gauntlets)",
+   "status": "BBG 2.21 (3 Jul 2015); 20 Gas, level 5; not seen in 2026",
+   "look": "Magenta-pink and dark grey pistol gauntlets strapped along the forearms: cyan stripe, cyan 'B' emblem, grey barrels, two holes, white spikes [Observed; Beach Time skin render]",
+   "firing_and_projectile": "Melee only; never fired ('Huggables don't have thumbs') [Game text via wiki]; 65 damage, +20% speed [Fan-wiki]",
+   "impact_end_result": "None documented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Beaver Feaver",
+   "owner": "Huggable (BBG class)",
+   "slot": "melee (paired wooden chainsaws)",
+   "status": "BBR 1.3.1 week 2 (as 'Beaver Fever'); 20 Gas; a Seesaw reskin",
+   "look": "Maroon-brown waffle-carved wooden blades with orange-peach teeth in slatted crate housings with silver corners and lime-green tape [Observed]",
+   "firing_and_projectile": "Two-paw saw melee, 40 per saw, +20% health [Fan-wiki]",
+   "impact_end_result": "None documented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Unidentified rainbow burst (sub-topic)",
+   "owner": "Huggable (2026 trailer)",
+   "slot": "unknown ability",
+   "status": "2026 official Steam trailer, 3.27-3.85 s",
+   "look": "Two horizontal rainbow beams from a magenta point at the feet, fanning up into a V, then converging into a blue-violet column above; the Huggable glows pink-white [Observed]",
+   "firing_and_projectile": "Self-centred burst, about 0.6 s; no projectile [Observed]",
+   "impact_end_result": "None seen; ID candidates Peek A Boo/Mini Me activation or Double Rainbow! [Inference]",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "steel bear-trap jaws over both paws",
+   "correction": "two black bear-trap jaws (open C-shaped loops on round black wrist discs) clamped over both paws, zigzag teeth smeared with iridescent rainbow",
+   "evidence": "Photo_27-04-13_11_30_26_AM.png (Gear Up card), HuggyBiteMeCR.jpg and Bite_me.png (2012 BBR Gear Up screen), all opened today [Observed]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "Metal wristbands with blue gems, a metal knee brace",
+   "correction": "For the 3D BBG and 2026 look: dark grey wrist cuffs, each set with a round glossy red light, and no knee brace. Blue-gem bands and the knee brace belong to 2D card and comic art only.",
+   "evidence": "LYH.jpg and ChargedRunStance.jpg (uploaded 2013-12-21) and the official trailer at 32.6-32.7 s show red-light cuffs [Observed]; blue gems and the knee brace appear on Huggable-suction-pose.png and the Gear Up cards (knee brace on the Headlights card) [Observed]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "a small red team banner with three white symbols on its back",
+   "correction": "a tall, narrow red team banner on a pole rising above its head, three white symbols stacked vertically (blue-team Huggables carry blue banners)",
+   "evidence": "Official 2026 trailer at 3.0-3.9 s and the BBG screenshot Dancing_Huggable.jpg (2013-07-14) show a red vertical banner with pale symbols [Observed]; Steam screen_00 and screen_04 show blue banners [Observed]; Pink Huggable wiki page: 'team-coloured banner with three white symbols' [Fan-wiki]. The draft's correction calling this an invention was wrong."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "a boxy military-green radio with a white antenna",
+   "correction": "a boxy green radio with a thin grey antenna tipped with a red ball (2013 renders and 2026); 2012-13 in-game footage and 2D cards show a blue tip",
+   "evidence": "2013 CR renders, LYH.jpg and trailer 32.6 s show a red tip [Observed]; Static Shuffle fan thumbnails (jOTucJV9zRQ, c6MuK2LKDGk), the Mini Me in-use screenshot and the 2D cards show blue [Observed]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "a torn belly patch showing metal",
+   "correction": "a torn belly showing grey-and-white crumpled stuffing (the wiki calls the wound 'metalic'); label 'metal' [Fan-wiki], not [Observed]",
+   "evidence": "LYH.jpg, the Gear Up cards and the 2026 trailer at 32.7 s show grey-and-white crumpled material [Observed]; Pink Huggable page: 'metalic jagged wound' with 'stuffing bulging out' [Fan-wiki]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "Possibly official 2012 art adds metal wristbands with blue gems and a knee brace [Observed] ([art][art2012]).",
+   "correction": "Append: these are 2D-art only; the 3D Pink model wears dark grey cuffs with red lights (or the melee weapon's mount), and the orange skin in-game wears blue bands.",
+   "evidence": "LYH.jpg, ChargedRunStance.jpg, 2026 trailer 32.6 s, Presidentures Gear Up card and Steam screen_00 [Observed]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "defaults Bite Me (bear-trap hands, per the wiki), Double Rainbow! and Tough Love; extras include Headlights, a head-off \"cutting death beam of rainbow essence\" [Game text via wiki] ([Headlights][headlights]), So Fly, Mini Me, Super Size Me!, Seesaw chainsaw hands and the Bearettas.",
+   "correction": "List all 18: primaries Double Rainbow! (default), Headlights, So Fly, Static Shuffle, Losing Your Head; secondaries Tough Love (default), Mini Me, Peek A Boo, Super Size Me!, Phantom Hug, Charged Run; melees Bite Me (default; black bear-trap jaws with rainbow-smeared teeth [Observed]), Seesaw, Whack-Tus, Presidentures, Punk Bands, Bearettas, Beaver Feaver.",
+   "evidence": "Huggable (BBG) class page and Category:Huggable (class), re-fetched today [Fan-wiki]; Bite Me images [Observed]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "The Bearettas squirt out of its thumbless paws like soap, so it hugs them instead.",
+   "correction": "It aims the strapped-on Bearettas, has no thumbs to pull the triggers, nothing fires, so it clubs with the spiked guards instead.",
+   "evidence": "Image19.PNG shows pistol gauntlets strapped along the forearms [Observed]; official text 'Good thing Huggables don't have thumbs, otherwise they would actually be able to use these' [Game text via wiki]"
+  }
+ ],
+ "open_questions": [
+  "What do Double Rainbow!, Headlights, Static Shuffle, Losing Your Head, Mini Me, Peek A Boo, Super Size Me!, Phantom Hug and Charged Run look like in 3D in the 2026 build? (The JustNubz Huggable chapter, 14:16-17:44, is unwatchable here.)",
+  "Which ability is the 2026 trailer's rainbow burst at 3.27-3.85 s: Peek A Boo or Mini Me activation, Double Rainbow!, or something else?",
+  "Are the 31.2-32.2 s trailer starbursts Punk Bands kill FX, Happy Hour hits or edit FX? Is the 30.3-30.8 s flight definitely So Fly?",
+  "Static Shuffle in-game: does the head come off (wiki) or does the neck stretch (card)?",
+  "Is the cyan-white wash in the Losing Your Head demo thumbnail hq3 the documented 'bright blue blast'?",
+  "Is the 2013 heart stream in Dancing_Huggable.jpg Tough Love, as inferred, or a Double Rainbow glitch, as its uploader says?",
+  "What did BBG 2.11's 'Huggable overhaul' (27 Aug 2014) change? The official 2.6 change log is 404 live and the Wayback Machine was unreachable.",
+  "What are the 2026 prices and stats? Open conflicts: Seesaw 20 vs 40 Gas, Charged Run 60 vs 160 Gas, Bite Me 35 vs 80 damage, Punk Bands 45 vs 70 damage.",
+  "Does the yellow 'Z' show on Phantom Hug victims in 2026? What caused the 'Z' and the green disc in the Charged Run demo thumbnail?",
+  "What are Super Size Me!'s shockwave colour and size factor?",
+  "Peek A Boo activation: rainbow rays (wiki) or a cloud of bubbles (card)?",
+  "What colour is the Punk Bands cap on other skins (pink per the wiki, red in the Huggabundle art)? What colours do the Bearettas take on the default skin?",
+  "Is BBH Huggy's cactus club (official BBH trailer) the Whack-Tus by name?",
+  "In 2026, are melee weapons drawn only during swings as a rule? What are the team banner rules beyond red and blue?"
+ ]
+}

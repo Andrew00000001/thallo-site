@@ -1,0 +1,306 @@
+{
+ "quickref": [
+  {
+   "weapon": "Default BBG look (sub-topic)",
+   "owner": "Wil (Chub Scout)",
+   "slot": "character model",
+   "status": "BBR 1.3 (2012) and BBG; 2026 playtests show the red helmet in matches; a separate 2026 'CLASSIC WIL' skin has a headband",
+   "look": "Red padded helmet with chin strap; white ribbed tank top with red ice-pop print; black elbow and knee bands with red-lit pads; grey ABBi camera backpack. Helmet, print and pads are team-coloured (blue on blue team). Helmet #CF0012/#9C040E, shirt #E0E0DE, fur #A56C20-#B07B40",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "n/a. Card prop: dripping cyan-blue ice pop (#05C0DD)",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Boomstick",
+   "owner": "Wil (Chub Scout)",
+   "slot": "primary",
+   "status": "Default; BBR v1.3 (May 3, 2012) to BBG; 2.6 buff; BBH version differs; 2026 unverified",
+   "look": "Near-black SPAS-12-style pump shotgun, boxy holed top rail, red '00' LED readout on receiver; about 0.4x Wil, two-handed at belly",
+   "firing_and_projectile": "Hitscan short-range spread ('wave of bullets'), pump action, 1 s RoF; HUD clip 3 (BBG fan videos incl. 2.23) or 1 (one fan video); no travelling projectile",
+   "impact_end_result": "Small yellow-orange spark dots around the target in a 2.25 fan thumbnail [Observed; Inference = pellet hits]; no splash in BBG",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Doomstick",
+   "owner": "Wil (Chub Scout)",
+   "slot": "primary",
+   "status": "BBR 2012 (1.3 vs 1.3.1 conflict) to BBG; +7% speed removed in 1.4.2; 2.6 rebalance; code name KingSlayer",
+   "look": "Black and slate body with glowing lava cracks, flame spikes on top, bloodshot eyeball with orange iris in the side, flesh-pink veined double barrels and grip; about 0.45x Wil",
+   "firing_and_projectile": "Hitscan shotgun like the Boomstick, pump action; no projectile",
+   "impact_end_result": "Not seen; reuse Boomstick sparks [Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Balance Beam",
+   "owner": "Wil (Chub Scout)",
+   "slot": "primary",
+   "status": "Level 15; BBR v1.3 (2012) to BBG; 2.6 scaling 1 to .25",
+   "look": "White/silver body, gold rod with two gold hex weights, blue and red rod ends, white pentagon emitter glowing violet (also in SkyVu's 2012 animation test); about 0.5x Wil wide",
+   "firing_and_projectile": "Hitscan automatic beams, 0.15 s RoF, 3000-unit range, 50 ammo; magenta-pink emitter glow and faint thin pink line [Observed, low-res]",
+   "impact_end_result": "Not seen; damage scales up the worse his team is doing",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Se\u00f1or Potato",
+   "owner": "Wil (Chub Scout)",
+   "slot": "primary",
+   "status": "BBR 1.4.3 (Apr 15, 2013) to BBG",
+   "look": "Speckled golden potato with red clown nose, white coffee cup on top, silver bicycle handlebars, pink-tan cardboard-tube barrel; about 0.5x Wil, held at the hip",
+   "firing_and_projectile": "Lobbed spud on an extreme arc, 1000 u/s; 'flaming spuds' only in the update transcription; HUD clip 4 (BBR 1.4.3) and 6 (BBG fan video) vs infobox 3; flight not seen",
+   "impact_end_result": "Bursts into hot fries that burn over time (AoE 125/250); orange flame chunks and dark smoke at an enemy in a fan thumbnail [Observed, low-res]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Pie Bomb",
+   "owner": "Wil (Chub Scout)",
+   "slot": "primary",
+   "status": "BBG 2.2 (Aug 21, 2013); SkyVu caption 'Wil Primary Weapon'; seen in the 2026 final playtest",
+   "look": "Golden-crust pie in crimped foil tin with a round black cartoon bomb and sparking fuse; carried flat on one palm; about 0.35x Wil wide; over-the-shoulder view shows the bomb dome at bottom centre",
+   "firing_and_projectile": "Fast large projectile (1,100 u/s), 0.45 s RoF, probably arcing [Inference]; HUD 2/2 at launch, 4/4 later and in 2026",
+   "impact_end_result": "White-yellow-orange fireball with grey smoke [Observed]; explosive 25-50, AoE 150/300",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Chainsaw Shotgun",
+   "owner": "Wil (Chub Scout)",
+   "slot": "primary",
+   "status": "BBG 2.2 (Aug 21, 2013); Boom Bundle; 2.6 delay .5 to .25",
+   "look": "Boxy purple twin-tube launcher with cyan light strips and grey toothed chainsaw bar, white-hot muzzle; about 0.4x Wil, two-handed at chest",
+   "firing_and_projectile": "Fires a chainsaw that sticks to surfaces and players; yellow-white starburst muzzle flash [Observed]; HUD clip 4 (2.5) and 2 (2.22-2.23) vs infobox 3; saw in flight unclear",
+   "impact_end_result": "Detonates after a short delay (0.25-0.75 s or 'a second or two', sources conflict), explosive 35-70, AoE 100/200; small yellow-orange blast at distance [Observed, low-res]; bug: hangs mid-air",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bubble Gun",
+   "owner": "Wil (Chub Scout)",
+   "slot": "primary",
+   "status": "BBG 2.12 (Oct 2, 2014); based on BB Zero's non-damaging Bubble Gun",
+   "look": "Green sphere tank with yellow piping, yellow body, light-blue barrel ending in a yellow square 'wand' muzzle; about 0.5x Wil",
+   "firing_and_projectile": "Blue projectile at 800 u/s [Fan-wiki]; not seen",
+   "impact_end_result": "Big bubble appears where it lands and explodes after a second or two (AoE 125/250, explosive 25-50) [Fan-wiki]; not seen",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Buster Cannon",
+   "owner": "Wil (Chub Scout)",
+   "slot": "primary",
+   "status": "BBG 2.14 (Nov 29, 2014); price 425k to 300k J in 2.20; infobox now 150k",
+   "look": "Arm-worn gun-metal gauntlet cannon with mesh grille, two cone spikes, orange ring decal, glowing pale-blue cube emitter; about 0.45x Wil",
+   "firing_and_projectile": "Semi-auto energy orbs (20 dmg, 1400 u/s); 2.5 s charge shows swirling pink-magenta/violet rings around the gauntlet [Observed]; charged orb 1500 u/s uses the whole 100-round magazine; orb colour not isolated",
+   "impact_end_result": "Charged hit 50-80 plus AoE burst 150/300; pink-white burst on target and magenta electric crackle at the floor [Observed, low-res]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Snowtato Launcher",
+   "owner": "Wil (Chub Scout)",
+   "slot": "primary",
+   "status": "BBG 2.26 (Jan 17, 2017), with winter No Bear's Land",
+   "look": "Ice-toned Se\u00f1or Potato: lavender-blue potato, ice-blue cup, flat blue-grey side fins, fat grey barrel; about 0.45x Wil",
+   "firing_and_projectile": "Exploding snowballs, 2.2 cooldown, 6 ammo (5/5 in one fan HUD); flight not seen",
+   "impact_end_result": "Snow lingers several seconds and blocks explosives, including his own (AoE 150/300) [Fan-wiki]; dense violet-indigo puff cloud in a fan Snowtato video [Observed; Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Batterito",
+   "owner": "Wil (Chub Scout)",
+   "slot": "secondary",
+   "status": "Default; BBR v1.3 (2012) to BBG; shown in the official 2026 Steam trailer",
+   "look": "Bullet-shaped burrito, grey wrapper with green-yellow-orange 'BATTERITO' label and yellow pointed end cap; about 0.45-0.5x Wil long, hugged at belly",
+   "firing_and_projectile": "Eaten: speed +200 u/s, short-range mouth flame (70 DPS); trailer: tears, clenched teeth, arms up, then a yellow-core (#FFE436), orange-edged (#EEA13B) flame jet while he runs",
+   "impact_end_result": "Target lit pure white amid fire, orange smoke rolling [Observed; Inference that his flame caused it]; primary, melee and Specials locked meanwhile",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Killdoba",
+   "owner": "Wil (Chub Scout)",
+   "slot": "secondary",
+   "status": "BBR v1.3.1 (Jun 28, 2012) to BBG; 2.6 removed -5% health; infobox wrongly says Primary",
+   "look": "Big burrito in crinkled white-silver foil with tan tortilla end (banners: white wrap with red-brown chili filling); about 0.3x Wil",
+   "firing_and_projectile": "Batterito reskin: eat, breathe fire 4 s, +200 u/s",
+   "impact_end_result": "Mouth fire like the Batterito [Inference]; a fire patch in a 'Killdoba fire lasting forever' glitch thumbnail is unattributed",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "EZ Chee-Z",
+   "owner": "Wil (Chub Scout)",
+   "slot": "secondary",
+   "status": "Level 15; BBR v1.3 (2012) to BBG; infobox wrongly says Primary",
+   "look": "White and royal-blue spray-cheese can with orange label and orange-yellow nozzle cap; about 0.3x Wil, held up in one hand",
+   "firing_and_projectile": "Shake, eat, bloat too big for some roofed areas, waddle at -50 u/s for 2 s; no projectile",
+   "impact_end_result": "Self-destruct blast (explosive 150-225, AoE 150/400) killing him and anyone nearby; blast look not seen",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Whipped Pain",
+   "owner": "Wil (Chub Scout)",
+   "slot": "secondary",
+   "status": "BBR v1.3.1 (2012) to BBG; Purple Pain bundle",
+   "look": "Red-and-white whipped-cream aerosol can with red cap; about 0.3x Wil",
+   "firing_and_projectile": "Bloats like the EZ Chee-Z but for 5 s; -10% health; white spray streams from the nozzle while bloated [Observed, low-res]",
+   "impact_end_result": "Bigger self-blast (explosive 225-400, AoE 250/600); big flat white shapes cover the screen in one fan video [Observed; Inference = cream]; white puffs at distance [Observed]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sole's Bane",
+   "owner": "Wil (Chub Scout)",
+   "slot": "secondary",
+   "status": "BBR 1.4.3 (Apr 15, 2013) to BBG; 2.6 duration 4 to 6",
+   "look": "Armful heap of multicolour toy bricks; about 0.35x Wil; HUD icon = orange 2x4 brick",
+   "firing_and_projectile": "'Throws in the air' (wiki) vs 'trail of colorful mines' (update transcription); HUD clip 2 (2.23) and 3 (2.53); scatter not seen",
+   "impact_end_result": "Small-AoE, high-damage (50) bricks that keep working after he dies; trigger not seen",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Pop Tart Shuriken",
+   "owner": "Wil (Chub Scout)",
+   "slot": "secondary",
+   "status": "BBG 2.25 (Mar 21, 2016)",
+   "look": "Six-point star toaster pastry: tan crust, white and pink frosting, green/pink/yellow sprinkles, centre hole; about 0.2x Wil",
+   "firing_and_projectile": "Two stars per press in a straight, gravity-free line at 1,600 u/s; rainbow-stripe Nyan Cat trail with white sparkles [Observed]; fan HUDs read x/8",
+   "impact_end_result": "Small explosion (10-30, AoE 50/150) that can't hurt the user; pink-red puff chunks around the target [Observed, low-res]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Bow",
+   "owner": "Wil (Chub Scout)",
+   "slot": "melee",
+   "status": "Default; BBR v1.3 (2012) to BBG; same bow seen in the 2026 final playtest",
+   "look": "Plain wooden longbow with pale string and cream striped grip; about 0.85x Wil, held upright",
+   "firing_and_projectile": "Melee swing, no arrow fired [Inference]; 70 damage",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Arrow",
+   "owner": "Wil (Chub Scout)",
+   "slot": "melee",
+   "status": "Level 10; BBR v1.3 (2012) to BBG; 2.6 buff to 55, later nerfed to 45 with +15% health",
+   "look": "Single wooden arrow with silver-grey point and pale white-blue fletching, gripped near the fletching like a short spear; about 0.6x Wil",
+   "firing_and_projectile": "Hand-held stab, nothing fired [Inference]",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bow and Arrow",
+   "owner": "Wil (Chub Scout)",
+   "slot": "melee",
+   "status": "Listed under both 2.13 and 2.16; page created Jan 31, 2015, so probably 2.16 [Inference]; 65 to 45 dmg",
+   "look": "Wooden bow with the arrow laid along it in one hand; about 0.8x Wil",
+   "firing_and_projectile": "Melee club; the official joke says Wil still can't shoot it",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Traffic Light",
+   "owner": "Wil (Chub Scout)",
+   "slot": "melee",
+   "status": "No version listed; page created Nov 1, 2014, the day after 2.13, which also added the Fatman skin, so probably 2.13 [Inference]; not in Category:BBG Weapons",
+   "look": "Yellow pole with black bands, dark grey angular signal head with red over green lamps (no amber); icon shows the Fatman skin; about 0.8x Wil",
+   "firing_and_projectile": "Melee club [Inference]; 45 dmg, +10% speed",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Selfie Stick",
+   "owner": "Wil (Chub Scout)",
+   "slot": "melee",
+   "status": "BBG 2.21 (Jul 3, 2015)",
+   "look": "Yellow pole with black-striped grip topped by a smiling yellow bear-face head; icon shows the Lunchador skin; about 0.7x Wil",
+   "firing_and_projectile": "Melee club [Inference]; 45 dmg, -20% health, +20% speed",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sarcastic Air Strike",
+   "owner": "Wil (BBH)",
+   "slot": "special (BBH ultimate)",
+   "status": "BBH only (soft launch 2023; reworked Jun 20, 2023); not in BBG or BBG 2026 [Inference from 'Ultimate' wording]",
+   "look": "No visual opened; ABBi (grey shell, big camera lens) calls it",
+   "firing_and_projectile": "ABBi 'executing a devastating airstrike' [Canon]",
+   "impact_end_result": "'raining destruction across the battlefield' [Canon]; look unknown",
+   "confidence": "documented"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "Exception: no researcher has described his BBG 2013 in-game default, so until it is checked the model uses the closest observed proxies. \u2026 outfit from the March 2012 BBR animation-test frame, \"a brown bear in a red cap, white shirt and a grey backpack\" [Observed, low-res]",
+   "correction": "Describe the observed BBG default: red padded helmet with vent dimples and black chin strap; white ribbed tank top with a red ice-pop print; black elbow and knee bands with red-lit pads; grey ABBi backpack with a large camera lens. The helmet, print and pad lights are team-coloured (blue on blue team) [Observed concept; Inference]. The 'red cap' in SkyVu's March 2012 animation test is this padded helmet. In 2026, playtest matches still show the red helmet, but a separate skin named 'CLASSIC WIL' is a plain tan bear with a red tied headband and ABBi. Which is the 2026 default is unverified.",
+   "evidence": "SkyVu 'Wil's Got MOVES' thumbnails i.ytimg.com/vi/r7TipV3IYtI/hqdefault.jpg, hq1.jpg, hq3.jpg (stamp 'Wil Animations 21/03/2012'); File:Wil_default.png, Arrow.jpg, Bbooww.jpg, Doomstick.jpg, Wil's_backpack.png; concept File:Wil_skin.png (red and blue versions); wNpM1woYv7k hq1 (blue helmet); OqSi3rfMdl8 hq1 and MS2wiArCiCA hq1 (2026 red helmet); MS2wiArCiCA hq2/hq3 ('CLASSIC WIL' headband skin)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "The research never describes his BBG trailer card ([Steam][steam]) or the 2026 playtest showcase ([fan upload][showcase]); check both before locking the model.",
+   "correction": "The official Steam trailer's 'Wil / CHUB SCOUT' card (about 22.5-23.5 s) shows Wil in the Booty Duty skin: red headband, pink-white tank, red shorts, striped wristbands and leggings, and a red-and-black snack-covered backpack. He eats a Batterito (17.8-20 s) and breathes a yellow-core, orange-edged flame jet [Observed]. The JustNubz showcase is still unwatched; its thumbnails show no Wil.",
+   "evidence": "Trailer frames .../visuals/trailer/t_0037-t_0048.jpg; extractions .../dl/wil-verify/trailer/f_17.9.png, f_21.2.png, f_23.0.png; File:Booty_duty.png and File:Booty.png; wiki Booty Duty page ('team-coloured and black backpack'); -lAtv-j9Sms thumbnails"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "Unsampled picks [BBG News invention]: cap #C8352E, shirt #F2EFE6, ABBi grey #8B9299, eyes #141414, ice pop #3FA7E0.",
+   "correction": "Use sampled values: helmet (not cap) #CF0012 lit to #9C040E shaded; shirt #E0E0DE; shirt ice-pop print #D50010-#DD0110 (red team); ABBi shell #525253-#595A59 with lens #62778C (menu lighting); card ice-pop prop #05C0DD. Keep eyes #141414 as a pick.",
+   "evidence": "Median crops of File:Wil_default.png, File:Arrow.jpg, File:Wil's_backpack.png and File:Wil_description.jpg (sample.py in .../scripts_wil_verify/)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "researcher's estimates from the 2024 portrait, not official [Inference]: fur #D8AC57, mid #B88A46, shadow #754F26, light #DFCA95.",
+   "correction": "Add BBG-era samples: menu-render fur #A56C20 (shaded forehead) to #B07B40 (muzzle). The BBG model is a deeper orange-brown than the BBH portrait. The c.2012 card's fur samples about #DAA849.",
+   "evidence": "Crops of File:Wil_default.png and File:Wil_description.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "**Weapons & props:** default Boomstick [Fan-wiki] ([Chub Scout (BBG)][ws]), named in BBH [Canon] ([characters][chars]); BB-1's \"arrow that he pulled from his leg\" and \"Boomstick McShootington\" [Press] ([TouchArcade][ta]); Senor Potato, Pie Bomb, Traffic Light [Fan-wiki]; blue ice pop [Observed].",
+   "correction": "List the full BBG kit. Primaries: Boomstick, Doomstick, Balance Beam, Se\u00f1or Potato, Pie Bomb, Chainsaw Shotgun, Bubble Gun, Buster Cannon, Snowtato Launcher. Secondaries: Batterito, Killdoba, EZ Chee-Z, Whipped Pain, Sole's Bane, Pop Tart Shuriken. Melees: Bow, Arrow, Bow and Arrow, Traffic Light, Selfie Stick. Default loadout: Boomstick, Batterito, Bow. Pie Bomb is captioned 'Wil Primary Weapon' in SkyVu's 2.2 recap [Canon caption]. BBG's Boomstick is a hitscan pump shotgun with no splash [Fan-wiki]; the 'explosive pellets' Boomstick is the BBH version [Canon text; BBH by Inference]. Keep the blue ice pop but label it as the c.2012 card's snack prop [Observed]; it is distinct from the team-coloured ice-pop print on his BBG shirt.",
+   "evidence": "Wiki class page 'Chub Scout (BBG)' and Category:Chub Scout (39 pages); i.ytimg.com/vi/BcEeAzXFChI/maxresdefault.jpg caption; battlebears.com/pages/characters; File:Wil_description.jpg (blue ice pop prop); File:Wil_skin.png (red and blue team prints)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "**Fighting:** \"a highly situational class\" with \"a wide variety of explosive weapons\" [Fan-wiki] ([Chub Scout (BBG)][ws]); ABBi's \"Sarcastic Air Strike\" [Canon] ([characters][chars]).",
+   "correction": "Mark Sarcastic Air Strike as BBH only. In BBG his signature fighting beats are the edibles: Batterito fire breath (official 2026 trailer [Observed]) and the EZ Chee-Z / Whipped Pain inflate-and-explode [Game text via wiki].",
+   "evidence": "Trailer t_0037-t_0048; wiki official descriptions of EZ Chee-Z and Whipped Pain; battlebears.com text uses BBH 'Ultimate' wording; wiki Updates 'Reworked Wil Attack and Ultimate' (June 20, 2023, BBH)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "red cap, white shirt; compact grey robot backpack with one camera-eye lens; chunky cartoon shotgun; alternate pose with a dripping blue ice pop;",
+   "correction": "red padded sports helmet with black chin strap, white ribbed tank top with a red ice-pop print, black elbow and knee bands with glowing red pads; compact grey robot backpack with one camera-eye lens; dark grey pump shotgun with a small red digital readout; alternate pose with a dripping blue ice pop;",
+   "evidence": "r7TipV3IYtI hq1 (official, shows helmet, ABBi, red-lit pads and the Boomstick's red readout); File:Wil_default.png; File:BoomBoom.png zoom; File:Wil_description.jpg (ice-pop prop)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "A round golden-tan teddy-bear soldier in a red cap, with nub hands and a one-eyed robot backpack",
+   "correction": "A round golden-tan teddy-bear soldier in a red padded helmet, with nub hands and a one-eyed robot backpack",
+   "evidence": "r7TipV3IYtI thumbnails; BBG loadout renders; 2026 playtest thumbnails OqSi3rfMdl8 hq1 and MS2wiArCiCA hq1"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "the red-cap look as default [Observed + Inference]",
+   "correction": "the red padded helmet as default [Observed: SkyVu 2012 animation test; BBG loadout renders]",
+   "evidence": "r7TipV3IYtI hqdefault/hq1/hq3; File:Wil_default.png and other loadout renders"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "what his BBG card and 2026 default skin show (red cap? ABBi?)",
+   "correction": "Partly answered. The trailer card uses Booty Duty, whose snack backpack is not ABBi. 2026 playtest matches show the red padded helmet. A 2026 skin named 'CLASSIC WIL' is a headband-wearing tan bear with ABBi. Still open: which skin is the 2026 default, and whether 2026 changed his kit.",
+   "evidence": "Trailer frames t_0037-t_0048; OqSi3rfMdl8 hq1; MS2wiArCiCA hq1-hq3; wiki Gift Wrapped trivia (only default and Gift Wrapped carry ABBi)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "**Signature skins** [Fan-wiki] ([Chub Scout (BBG)][ws]): Gold Wil, Old Timey, Monster Hoodie, Lunchador, Sleepover, Chub Scout.",
+   "correction": "Add the skins seen on weapons: Booty Duty (2026 trailer), Fatman (Traffic Light icon), Lunchador (Selfie Stick icon), Gift Wrapped (Boomstick, Balance Beam and Doomstick renders), Dia De Los Muertos (BBR EZ Chee-Z and Killdoba menus), Not-So-Slenderman (BBR Doomstick menu), and 'Classic Wil' (2026 final playtest) [Observed].",
+   "evidence": "File:Booty_duty.png, Trafficlight.png, Fatman.PNG, Image7.PNG, Lunchador.png, BoomBoom.png, Balancebeam.png, Wil_doomstickers.png, E-Z_Chee-Z.png, Killdoba.png, Doomstick.png; MS2wiArCiCA hq2"
+  }
+ ],
+ "open_questions": [
+  "What do the Bubble Gun's blue projectile and bubble, and the chainsaw in flight, look like in BBG? No gameplay frame was found.",
+  "What colour is the Buster Cannon orb? The charge rings and hit bursts are pink-magenta, but the orb itself is not isolated. And what does the Balance Beam beam look like at full resolution?",
+  "Is the Snowtato's lingering cloud really violet, or white tinted by lighting or team?",
+  "What do the Se\u00f1or Potato fries look like on the ground, and does the spud visibly burn in flight? 'Flaming spuds' comes only from the wiki's transcription of the 1.4.3 notes.",
+  "Sole's Bane: does Wil throw the bricks or leave a trail of floor mines? What is the pink-violet lightning in V6FLnB_c_fk hq3?",
+  "What do the EZ Chee-Z and Whipped Pain explosions look like, and does the Whipped Pain's white nozzle spray start before the blast?",
+  "When did each clip size change (Boomstick 3 vs 1; Se\u00f1or Potato 4/6/3; Pie Bomb 2 vs 4; Chainsaw 4/2/3; Sole's Bane 2 vs 3; Pop Tart 8 vs 3), and how did v3.0's removal of +1 equipment and Equipment Slot 2 affect them?",
+  "When was the Boomstick's K/D damage scaling removed?",
+  "Which skin is Wil's 2026 default: the red-helmet look seen in playtest matches, or the 'CLASSIC WIL' headband skin? Did any Chub Scout weapon change, get renamed or get removed for 2026? Only the Pie Bomb, Bow and Batterito are seen in 2026 material. Check the JustNubz showcase from 28:11 and SkyVu's launch patch notes.",
+  "Was the 2.13 melee the Traffic Light, with Bow and Arrow in 2.16? Page histories point that way.",
+  "Which skin is the black-suited, white-handed Wil in the 2012 Whipped Pain clips?",
+  "SkyVu's BBG 2.6 change log and the archived blog remain unreached: web.archive.org reset connections and its availability API returned 'Temporarily Offline' today."
+ ]
+}

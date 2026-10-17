@@ -1,0 +1,270 @@
+{
+ "quickref": [
+  {
+   "weapon": "Radiation status & detonation (shared: Gamma Ray, Gernobyl, MuskIt, Radiation Rod)",
+   "owner": "Graham (Engineer)",
+   "slot": "status system",
+   "status": "Documented across BBG [Fan-wiki: Status Effects]; seen in the 2014 fan clip and in the Steam trailer gameplay (date unsettled) [Observed]",
+   "look": "A yellow disc over the head (#FBFE13) split into 6 wedges with a dark hub; wedges drop out (they show dark, not white) until three yellow-orange blades (#FFC20B) remain on a black disc (#150E09) [Observed: 0GuhKiAnNyc hq2; trailer f_08.25-08.75]",
+   "firing_and_projectile": "Builds per hit or while exposed; a Geiger tick speeds up and is 'audible to all players nearby'; decays about 3-5 RP/s [Fan-wiki]",
+   "impact_end_result": "At full radiation the target 'will die instantly in a relatively large explosion' (150-200 u, can hurt Graham), 'the same as the Piece Maker and Phat Man explosion animation' [Fan-wiki]. Trailer: toy-like orange body pieces fly out of a blocky white-yellow cloud with a white hex floor ring [Observed; that it is the radiation kill is Inference]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Slowed status (Bind Field)",
+   "owner": "Graham (Engineer)",
+   "slot": "status system",
+   "status": "Documented [Fan-wiki: Status Effects lists 'Slow Field']",
+   "look": "'a yellow Z will appear over the player's head' [Fan-wiki]; no image found [Unverified]",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "Reduced speed for the duration [Fan-wiki]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Power Glove",
+   "owner": "Graham (Engineer)",
+   "slot": "primary",
+   "status": "Default primary; BBR v1.4 (Nov 28, 2012) through BBG; 2026 unconfirmed [Unverified]",
+   "look": "Oversized pale-grey robotic glove (#7C8684) over his right hand: three fingers and a thumb, a glowing cyan hex core (#19C5CA to #27E5E9), cyan traces and fingertip dots; about 0.45 H; its design matches his silver-and-cyan 'Self-Enhanced Hand' art [Observed: File:Power_Glove.jpg, File:Power_glove.png, File:Graham_glove.png, File:Engineer-Graham.png; link Inference]",
+   "firing_and_projectile": "Semi-automatic 'small orbs of energy'; charged 'larger and more destructive orb' [Game text via wiki]; full charge shows 'a small energy ring formed around the Glove'; 1,400 u/s; a charged shot uses the whole 100-round magazine [Fan-wiki]. Orb colour [Unverified]",
+   "impact_end_result": "Uncharged: 20, no splash. Charged 'explodes on impact': 50 plus 60/30 splash out to 300 u [Game text via wiki; Fan-wiki]. Explosion look [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Gamma Ray",
+   "owner": "Graham (Engineer)",
+   "slot": "primary",
+   "status": "BBR v1.4 (Nov 28, 2012) through BBG; 2.6 damage 1 to 2, clip 120 to 80 [Fan-wiki]. Confirmed in 2026 closed playtest #4 (Old School skin loadout thumbnail) [Observed]",
+   "look": "Orange clamp-framed emitter: dark octagonal ring or drum with a bright green lens (#66FF08), orange brackets (#B8630A shade, #FF7700 lit on the card), vent slots, lime LEDs, and a white cylinder with a radiation sticker on top (2012); grey hex on the rear; held two-handed at the hip, about 0.3 H [Observed: File:Graham_default.png, File:Graham-gamma-ray.png; trailer card f_11.50]",
+   "firing_and_projectile": "Automatic 'short-ranged constant yellow beam', 1,000 u range, 0.08 s cooldown [Fan-wiki]; on screen pale-gold to white concentric arcs ripple from the muzzle, with no bullets [Observed: trailer f_08.25; 0GuhKiAnNyc maxres]",
+   "impact_end_result": "'very little damage' but builds radiation [Game text via wiki]: the target glows yellow and sparkles, the trefoil appears, then the shared detonation [Observed: trailer 8.0-9.0 s]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Rivet Gun",
+   "owner": "Graham (Engineer)",
+   "slot": "primary",
+   "status": "Previewed for BBR 1.4.3 (Apr 2013), delayed and reworked from beam-linked rivets; released BBG 2.1 (Jul 15, 2013) per its page and the Jul 17, 2013 edit [Fan-wiki; version Inference]; 2.6 field life 10 to 7 s",
+   "look": "Long boxy dark brown-black gun (#2E211A) with orange-brown bands (#9E6D40), a ribbed top rail, a black carry handle on silver posts, a silver tube/hex-nut muzzle, and a grey-tan underslung canister with an orange emblem and a looping hose [Observed: File:Rosie.png, File:1.4.3Weapons_B.png, File:Rivet_Gun.jpg]",
+   "firing_and_projectile": "'electrified rivets' [Game text via wiki]; 4 per clip, 1 s rate, 1,600 u/s [Fan-wiki]. Rivet look [Unverified]",
+   "impact_end_result": "Rivets stick to floors or walls and form 'light purple energy fields' for 7 s, square from above, 30 DPS strongest at the centre; the rivets themselves do no damage [Fan-wiki]. No image [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Hand Cannon",
+   "owner": "Graham (Engineer)",
+   "slot": "primary",
+   "status": "BBG 2.5 (Nov 27, 2013); 60 Gas; 2.6 projectile speed 400 to 750 (infobox now 800) [Fan-wiki]",
+   "look": "Short, fat orange-gold cylinder (#D5811B) with dark bands, a cream rim and a glowing green octagonal face (#43E641) plus green strips; held at mid-chest, about 0.25 H [Observed: File:Hand_Cannon.png, File:GIgramhambundle.png]",
+   "firing_and_projectile": "'This slow moving missile' [Game text via wiki]: 'a comically large green-black missile', 2 per clip, 1 s cooldown [Fan-wiki]. No image [Unverified]",
+   "impact_end_result": "'causes a massive explosion on contact' [Game text via wiki]; 20-40 damage, AoE 100/300 u, high suicide risk [Fan-wiki]. Explosion look [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Buzzsaw",
+   "owner": "Graham (Engineer)",
+   "slot": "primary",
+   "status": "BBG 2.6 (Dec 20, 2013) at 80 Gas; now 60 Gas [Fan-wiki]",
+   "look": "Boxy dark-grey launcher (#1B1F1D) with a silver side panel and a glowing green slot (#47C562); a white toothed blade (#CCCCCC) stands upright at the front, motion-blurred, about 0.4 H across [Observed: File:BuzzSaw.jpg]",
+   "firing_and_projectile": "'Gun that shoots spinning saw blades' [Game text via wiki]; 3 per clip, 1 s rate; blades dig into surfaces, home weakly, sink into the ground or hover; one of two projectiles that penetrate the Iron Curtain [Fan-wiki]",
+   "impact_end_result": "'explode on impact' [Game text via wiki]: 70 damage plus 35-70 explosive splash, the same at any distance [Fan-wiki]. Explosion look [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "MuskIt",
+   "owner": "Graham (Engineer)",
+   "slot": "primary",
+   "status": "BBG 2.12 (Oct 2, 2014); level 10, 60 Gas; stats changed since the first wiki revision; missing from Category:BBG Weapons [Fan-wiki]",
+   "look": "Long dark-maroon barrel (#663634) with white curved bands, a salmon-pink bulbous chamber (#BC6C5C) with a grey emblem, a yellow ribbed collar and a hanging yellow tank (#CBA41B); reads as a pump bug-sprayer [Observed: File:Musket.jpg; reading Inference]",
+   "firing_and_projectile": "Shotgun-like small cone, 1.5 s rate, 3 ammo; 'shoots green stuff of what appears to look like bug spray' [Fan-wiki]. No image [Unverified]",
+   "impact_end_result": "Damage plus radiation within 100-150 u, leading to the shared radiation detonation [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Turret",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "Default secondary; BBR v1.4 through BBG; 1.4.2 and 2.6 rebalances conflict with the current page [Fan-wiki]",
+   "look": "Carried: a white boxy case with vents, red stripes and a red knob, held in front with both hands. Deployed: a white boxy gun with a ribbed drum, team-colour diagonal stripes and handle (blue shown), a stepped barrel with a white tip, a Z-neck on an X-base with four feet [Observed: File:Turret.jpg, File:Turretdeploy.png; icon File:Turret_2.png]",
+   "firing_and_projectile": "2-3 s setup; 'cannot turn', 100-degree fixed cone, unlimited shots at 0.25 s, 1,800 u range in the page text, one target at a time, not fully accurate [Fan-wiki]. Bullet look undocumented; the 2012 wiki said Electric Honey bullets (bees) [Fan-wiki early; Unverified]",
+   "impact_end_result": "Small repeated hits; when destroyed, 'after two seconds of smoking, it will vanish'; immune to status effects, blind to cloaked or disguised players [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Proximity Mine",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "BBR v1.4 through BBG; 100,000 Joules; the red detonate button was later moved to reload [Fan-wiki]",
+   "look": "Olive-khaki four-pronged claw-star with dark prongs and a tan rim, held at his right side; placed mines are flat dark-olive stars with a glowing green centre and a thin red line sticking straight out (vertical on floors, horizontal from walls) [Observed: File:Proximity_Mine.jpg, File:So_many_mines.jpg, File:Dat_Engineer.jpg]",
+   "firing_and_projectile": "Tossed; sticks to any surface; rebounds off a player hit directly; 4 ammo [Fan-wiki]",
+   "impact_end_result": "Explodes when an enemy gets close or on remote detonation (not before landing); explosives 20-110, AoE 140/300 [Fan-wiki]. Beta thumbnail: a giant white starburst with cream rays and a yellow puff [Observed: U3XDJXo1Ej4 hq2; Inference that it is the mine]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Gernobyl",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "BBR 1.4.3 (store notes Apr 15, 2013; released as 1.4.3.1, Apr 23) through BBG; 90 Gas; 2.6 clip 1 to 3 [Fan-wiki]. Seen in the Steam trailer gameplay (date unsettled) [Observed]",
+   "look": "Fat tan gerbil (#D9BC74) with a brown back stripe and curled tail, glowing yellow eyes, an open red mouth with buck teeth, a black harness with a yellow-black hazard band, a silver-and-black carry handle, and lime goo patches (#BFDB3C); carried like a lantern, about 0.35 H [Observed: File:Gernobyl.jpg, File:Gernobil.jpg]",
+   "firing_and_projectile": "Lobs 'irradiating globs of light green goo' at 1,000 u/s that 'split into 2 to 3 droplets' [Fan-wiki]; small glowing yellow-green droplets with trails (#B3DC36) [Observed: File:Radioactive_goo.jpeg]; trailer: a chunky faceted lime glob [Observed: 7.4 s]",
+   "impact_end_result": "A hit gives radiation plus slight damage; a miss leaves a 4.5 s irradiating puddle [patch note via Fan-wiki; Fan-wiki]; a huge lumpy lime goo mass (#B1DA2D) with the trefoil on the HUD [Observed: File:Radioactive_puddle.jpeg]; then the shared detonation",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Black Hole",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "Out by Oct 31, 2014 (fan clip published that day); probably BBG 2.13 [Inference]; level 15, 150,000 Joules [Fan-wiki]",
+   "look": "Glossy magenta-purple sphere (#A734AE) with a lighter spiral swirl and a white highlight, held on his right palm, about 0.25 H [Observed: File:BlackHole.jpg; 7gdfSoWC2ZI thumbnails]",
+   "firing_and_projectile": "'The user throws the projectile' [Fan-wiki early]; 1,000 u/s, 1 ammo, 2.5 s rate [Fan-wiki]. In-flight look [Unverified]",
+   "impact_end_result": "Slows all opponents in its AoE by 65% for 4 s at about 30 DPS; suicide possible [Fan-wiki]. Field look [Unverified]; a fan kill frame shows chunks in a teal glow [Observed; link Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bind Field (formerly Slow Field)",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "Added as Slow Field in BBG 2.6 (Dec 20, 2013), 50,000 Joules; renamed with new text about Oct 2, 2014 (probably 2.12) [Fan-wiki revisions; Inference]; 2026 name [Unverified]",
+   "look": "Dark-brown sphere (#2D170C) netted with glowing lime lines (#33F247) in pentagon/hex cells, with purple spiky knobs (#801C7D) at the nodes; held in his right hand, about 0.27 H; pink-magenta glow on the Grahamzilla banner [Observed: File:Slowfield.png, File:Grahamzillabundle.png]",
+   "firing_and_projectile": "'firing a prickly purple-green ball in an arc' [Fan-wiki]; 1 ammo, 2.5 s rate",
+   "impact_end_result": "Detonates on a surface into 'a medium-sized force field' that slows opponents 75% for 3 s with no damage (2013: 50% for 5 s) [Fan-wiki]; slowed players show a yellow Z [Fan-wiki]. Field look [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Radiation Rod",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "BBG 2.5 (Nov 27, 2013); 75,000 Joules [Fan-wiki]",
+   "look": "Purple fuel-rod canister (#65286E to #7B337E) with a lime chevron stripe (#79F447), a green trefoil decal and an end cap of glowing green hex vents; held level at the waist in both hands, about 0.4 H [Observed: File:Radiation_Rod.png, File:Grahamzillabundle.png]",
+   "firing_and_projectile": "Placed, not fired: 'a placeable nuclear fuel rod'; 5 rods, 1 s apart, 10 s duration [Fan-wiki]",
+   "impact_end_result": "'creates a glowing radiation field' irradiating at 60/s, the fastest radiation weapon; blocks Sniper lock-ons; Graham is immune to his own radiation but not to the blast [Fan-wiki]. Field colour and radius [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Dragon Slayzer (BBG)",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "BBG 2.51 (Apr 13, 2018); 400,000 Joules [Fan-wiki]",
+   "look": "Red dragon head (#CA0101) with green eyes, white teeth, horns and small red wings, and a long silver double-edged blade from its mouth; held at the hip pointing down-forward, about 0.6 H; the 2018 render has black outlines [Observed: File:DragonSlayzer(BBG).jpeg]",
+   "firing_and_projectile": "BBG infobox: projectile 800 u/s, damage 35, explosives 10-20, 4 ammo, an unnamed 4 s 'Duration' [Fan-wiki]. What it fires in BBG [Unverified]; BBO's version fires an 'orange blast' laser [Fan-wiki, other game]",
+   "impact_end_result": "Unknown in BBG [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "T Square",
+   "owner": "Graham (Engineer)",
+   "slot": "melee",
+   "status": "Default melee; BBR v1.4 through BBG; 55 damage [Fan-wiki]",
+   "look": "Silver-grey ruler blade (#8B9292) with black ticks and a dark curved crossbar; gripped by the blade like a club with the crossbar as the head; blade about 0.55 H [Observed: File:T_Square.jpg, File:T_square.png]",
+   "firing_and_projectile": "Melee swing; Engineer melees have 'fast draw times'; class swing barks 'Whippersnapper!' and 'Delinquent!' [Fan-wiki]",
+   "impact_end_result": "Hit visual undocumented [Unverified]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Wrench",
+   "owner": "Graham (Engineer)",
+   "slot": "melee",
+   "status": "BBR v1.4 through BBG; 45,000 Joules; 2.6 added +10% speed [Fan-wiki]",
+   "look": "Big orange pipe wrench (#E7720B) with a dark-grey hook jaw, held upright against his right shoulder with the jaw beside his hat, about 0.75-0.8 H [Observed: File:Screen_Shot_2012-12-09_at_10.11.21_AM.png, File:Images_(5).jpg, File:GRAHAM_ER.jpg]",
+   "firing_and_projectile": "Melee swing, 30 damage; 'It makes metal noises when used.' [Fan-wiki]",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Double Wrench",
+   "owner": "Graham (Engineer)",
+   "slot": "melee",
+   "status": "BBG 2.12 (Oct 2, 2014); 140,000 Joules, level 10 [Fan-wiki]",
+   "look": "'an open end wrench ... two wrenches of different size on both ends' [Fan-wiki]; no image exists [checked]",
+   "firing_and_projectile": "Melee swing, 30 damage, +30% special speed [Fan-wiki]",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Crowbar",
+   "owner": "Graham (Engineer)",
+   "slot": "melee",
+   "status": "BBG 2.21 (Jul 3, 2015); 150,000 Joules; 55 damage, +15% health [Fan-wiki]",
+   "look": "Purple crowbar (#693A59) whose hook is a crow's head with spiky dark-purple feathers, a tan beak and a pale eye; held diagonally in front, about 0.8-0.85 H; shown with the White Graham skin [Observed: File:Image9.PNG]",
+   "firing_and_projectile": "Melee swing [Fan-wiki]",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "observed"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "Exception: the 2013 BBG trailer card shows a different look (rainbow-striped cap, black-rimmed glasses, red track jacket, orange drill-gun) [Observed] ([trailer][trailer13]), probably the \"Instagraham\" skin [Inference], so the card look stays the default; keep the trailer look for skin gags.",
+   "correction": "The trailer look IS the Instagraham skin [Observed]: brown cap with a rainbow stripe, dark-rimmed goggles with camera-lens lenses (not glasses), red-brown fur and a brown radio backpack. The 'orange drill-gun' is the Gamma Ray: orange housing, a black octagonal muzzle ring gripped by orange prongs, a green core and lime LEDs [Observed]. The 'red track jacket' is probably the skin's red-brown fur plus the standard white arm stripes [Inference]. The card is reused at 10.75-12.0 s of the 2026 Steam trailer, and 7.25-10.5 s show this skin firing the Gernobyl, then the Gamma Ray [Observed].",
+   "evidence": "File:Instagrahamrl.png shows the same cap, goggles and backpack holding the Gamma Ray; wiki: 'brown-coloured theme with a stripe of colours on his helmet and camera lens on his goggles' [Fan-wiki: Instagraham]; rfAyqVJrli4 hq1.jpg matches /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/frames/f_11.00.png; gun crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/frames/card_gun.png; face crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/insta.png"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "- **Weapons:** BBG defaults [Fan-wiki] Power Glove (\"This weapon can HANDle any situation.\"), Turret (\"Use it wisely, you only get one at a time.\") and T Square (\"Tee off on your opponents with this classic tool. Ouch.\") [Game text via wiki]",
+   "correction": "List all 17 BBG weapons with eras [Fan-wiki]. Primaries: Power Glove and Gamma Ray (v1.4, Nov 2012), Rivet Gun (2.1, Jul 2013), Hand Cannon (2.5, Nov 2013), Buzzsaw (2.6, Dec 2013), MuskIt (2.12, Oct 2014). Secondaries: Turret and Proximity Mine (v1.4), Gernobyl (1.4.3, Apr 2013), Radiation Rod (2.5), Bind Field, formerly Slow Field (2.6), Black Hole (by Oct 31, 2014), Dragon Slayzer (2.51, Apr 2018). Melees: T Square and Wrench (v1.4), Double Wrench (2.12), Crowbar (2.21, Jul 2015). Only the Gamma Ray is confirmed in the 2026 build [Observed].",
+   "evidence": "Engineer (BBG) class page weapon list (6 primaries, 7 secondaries, 4 melees), re-read via the MediaWiki API on Oct 17, 2026; Updates and Versions/2.6 rows; JustNubz closed-playtest #4 Engineer chapter thumbnail (34:52)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "Gernobyl, per the BBR v1.4.3 patch notes: \"This mid-sized rodent shoots irradiated goop.\" [Game text via wiki] ([Updates][wup])",
+   "correction": "The quote is truncated and its final full stop is not in the source. Transcribed note: \"Gernobyl: Engineer's radioactive launcher.This mid-sized rodent shoots irradiated goop: a hit will cause radiation damage and slight physical damage, if you miss an opponent it creates a radioactive puddle- any player who steps in it will receive radiation damage.\" Label it [Fan-wiki transcription of App Store notes; Unverified against the store], not [Game text via wiki]. Add the in-game text: \"Radioactive goo never hurt anyone, unless of course it came from the contaminated mouth of an adorable little mutated mammal. The longer your exposure the greater your chance of death!\" [Game text via wiki].",
+   "evidence": "Updates page 1.4.3 row (Apr 15, 2013) and 1.4.3.1 row (Apr 23, 2013); Gernobyl page 'Official Battle Bears Gold description'"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "a dark blue-grey mechanical gauntlet hand (side unrecorded; BBG News: right [BBG News invention])",
+   "correction": "The side is observed: File:Engineer-Graham.png puts a silver mechanical hand with cyan circuit lights on his RIGHT arm [Observed; SkyVu provenance Unverified]. The dark blue-grey version is the card art (File:Graham_description.jpg). The in-game BBG model shows two red-gloved hands; in game, the hand's silver-and-cyan design appears only as the Power Glove weapon (the wiki captions the 'Graham's Self-Enhanced Hand' concept 'Power Glove Concept') [Inference].",
+   "evidence": "File:Engineer-Graham.png (uploaded 2012-11-02), zoom /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/eg_zoom.png; File:Graham_glove.png and its class-gallery caption; red gloves on both hands in File:Rivet_Gun.jpg, File:Slowfield.png and File:Turret.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "olive-green backpack with twin exhaust pipes and a side vent",
+   "correction": "That is the card look only. Every in-game weapon render shows a boxy radio backpack with an antenna and a speaker grille: red by default, teal on the blue team, brown for Instagraham, a green warp pipe for Old School [Observed]. Shorts that show in-game weapons should match that era or mix knowingly.",
+   "evidence": "File:Power_glove.png, File:Turret.jpg and others (red); U3XDJXo1Ej4 hq2 and File:GIgramhambundle.png (teal); trailer frames f_07.25 onward (brown); JustNubz and playtest #3 thumbnails (green pipe); card File:Graham_description.jpg and File:Engineer-Graham.png (olive pack)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "dark blue-grey mechanical right hand, holding a T-square;",
+   "correction": "Specify which T-square. In game it is a silver-grey ruler blade (#8B9292) with black tick marks and a dark curved crossbar, gripped by the blade like a club with the crossbar as the head, the blade about 0.55 H. The card's T-square has a tan blade; File:Engineer-Graham.png's is silver-bladed.",
+   "evidence": "File:T_Square.jpg (measured, sheet tsq_grid.png), File:T_square.png (2012 melee list), File:Graham_description.jpg, File:Engineer-Graham.png"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "(1) his back cracks like a ratchet and the turret swivels with each click;",
+   "correction": "The BBG Turret 'cannot turn' and fires in a fixed 100-degree cone. Keep the swivel only as a knowing [BBG News invention], or have the turret ratchet up a notch per click as it 'rises up' (2012 wiki wording).",
+   "evidence": "Turret page: 'cannot turn, allowing only a small cone of fire', 'angle of 100\u00b0' [Fan-wiki]; first revision Nov 2, 2012: 'Graham lays the turret on the ground as the turret rises up' [Fan-wiki]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "2026 changes (Oct 19\u201326 demo; unviewed [fan showcase][showcase])",
+   "correction": "Partly answered: the closed-playtest #4 Engineer chapter thumbnail (34:52 of -lAtv-j9Sms, JustNubz, Sep 20, 2026) shows Graham in the Old School skin holding the Gamma Ray, and playtest #3 HUDs show an orange gun at 100/100 and 0/100 with 120 max health [Observed]. The other weapons are unconfirmed.",
+   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/yt/jn_ch_34m42_3x.png; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/yt/ch_qt43iTdANbM_hqdefault_491866.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/yt/ch_VHo1O41RNJE_hqdefault_1745866.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "Gold Graham, Old Timey, Graham Cracker, Holograham, Instagraham",
+   "correction": "Incomplete. The class page also lists the specials Invisible Graham, Spider Graham and Old School, plus the generic default Graham and five colour variants (Brown, Cyan, Green, Purple, White) [Fan-wiki]. Old School is the skin in all 2026 playtest footage [Observed]. It is a Mario reference ('It's a me!', a warp-pipe backpack) [Fan-wiki], so it is risky to feature in shorts [Inference].",
+   "evidence": "Engineer (BBG) class page Skins section; Old School page; JustNubz and playtest #3 thumbnails"
+  }
+ ],
+ "open_questions": [
+  "Power Glove: what colour are its orbs, its charge ring and its charged-orb explosion?",
+  "Rivet Gun: what do the rivets in flight and the 'light purple', square damage fields look like on screen?",
+  "Hand Cannon: what do the 'green-black missile' and its explosion look like?",
+  "Buzzsaw: what do the blade's flight, burrowing and explosion look like?",
+  "MuskIt: what does its 'bug spray' cone look like?",
+  "Turret: what are its bullets (Electric Honey bees per the 2012 wiki, unconfirmed), how tall is it deployed, and what are its 2026 damage and range?",
+  "Black Hole: what do the field's colour and shape look like; is the teal glow in the fan kill frame the field; does it show the yellow Z; and which update added it (2.12, 2.13 or unlogged)?",
+  "Bind Field: what does its force field look like, is it named Bind Field or Slow Field in 2026, what are its current slow values, and did the rename ship in 2.12?",
+  "Radiation Rod: what colour and radius does its field have?",
+  "Dragon Slayzer (BBG): what does it fire, and what is its 4-second 'Duration' effect?",
+  "Double Wrench: what does it look like? No image exists anywhere on the wiki.",
+  "2026 roster: which of the 17 Engineer weapons are in the build? The JustNubz Engineer chapter (34:42-39:57) would answer this, but YouTube playback is blocked (LOGIN_REQUIRED).",
+  "2026 Gamma Ray beam: are the pale-cyan hexagonal outlines in the VHo1O41RNJE 29:05 frame the beam?",
+  "Steam trailer: when was the Graham gameplay (7.25-10.5 s) captured? Its black outlines match 2018+ and 2026 renders, not 2012-2015 in-game images. And what makes the white flash edged with cyan lightning at 8.75-10.25 s?",
+  "SkyVu's archived 2.6 change log is unreachable (web.archive.org resets connections; WebFetch refuses), so all 2.6 numbers are unverified against SkyVu.",
+  "Radiation threshold: is it 100 RP (Status Effects) or the target's maximum health (Gamma Ray and Radiation Rod pages)? Is it 4.5 or 5 RP per Gamma Ray hit?",
+  "Rivet Gun release: was it 2.1? The page says so, but the Updates log omits it.",
+  "Art provenance: are File:Engineer-Graham.png, File:Graham_glove.png, File:Engineer1.png and File:Engineer2.png SkyVu art? The wiki gives no source."
+ ]
+}

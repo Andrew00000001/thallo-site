@@ -1,0 +1,295 @@
+{
+ "quickref": [
+  {
+   "weapon": "Big Shot",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "Default; BBR v1.0 (2011) \u2192 BBG; in the Steam trailer (probably 2013 footage)",
+   "look": "Squat ribbed olive-grey drum launcher in a dark-purple bracket frame with a notched yellow muzzle disc, held two-handed at the belly. About 0.45\u00d7 Tillman wide. Not a chest hatch.",
+   "firing_and_projectile": "Arcing lob per the wiki; the official text says straight. A dark navy/black rounded 'bullet with eyes' (Bullet Bill-like) on a pale smoke streak; 1,100\u20131,200 u/s; 6 rounds, 1 s cooldown (Dec 2013).",
+   "impact_end_result": "Explodes on contact (AoE 100/200). The trailer shows an orange-yellow fireball engulfing Wil while Tillman aims the Big Shot; attribution is probable, not proven.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Gold Member",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "25,000 Joules, level 3; BBR by Mar 2012 \u2192 BBG",
+   "look": "The Big Shot drum in polished gold with an orange glowing muzzle disc.",
+   "firing_and_projectile": "A gold bullet-like missile on a dead-straight line, 1,200 u/s, 1.5 s (wiki); no image.",
+   "impact_end_result": "Smaller blast than the Big Shot but more direct-hit damage (official text; the wiki and 2.6 numbers agree, the wiki prose disagrees); no image.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Dark Matter",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "60,000 Joules, level 9; BBR by Mar 2012 \u2192 BBG; tip glow added 1.4.3 (Apr 2013); clip 1\u21923 in 2.6 (Dec 2013)",
+   "look": "Long violet blaster with a yellow light slot and black-purple claw prongs around a glowing magenta-violet tip; about Tillman's height long; no glow in 2012.",
+   "firing_and_projectile": "A single slow orb (600 u/s): white-hot core in a hot-pink glow with pink blade swirls and pale-blue arcs (reads pink, not purple).",
+   "impact_end_result": "Large, dark, electrified blast; an energy sphere blinds anyone inside for 1\u20132 s, teammates included (wiki). No impact image; the trailer's magenta sphere is probably Astoria's.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Light Matter",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "70 Gas (60 on the class page); added BBR 1.3.1 (June 28, 2012) \u2192 BBG; cyan glow since 1.4.3; clip 1\u21922 in 2.6",
+   "look": "The Dark Matter body in white/silver with black stripes and white-black claw prongs; a cyan glowing tip from Apr 2013 (none in Jan 2013 or 2012).",
+   "firing_and_projectile": "Slow electric-blue orb with a white core in a ring of blue segments, trailing lightning; 500\u2013750 u/s.",
+   "impact_end_result": "A huge opaque white faceted dome wrapped in cyan lightning, with a floor ring; blinding (captioned 2012 image, official 2014 thumbnail, trailer, Steam screen 03).",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "S'no Matter",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "60 Gas, level 15; BBG 2.15 (Dec 20, 2014)",
+   "look": "In-game, hidden in an icy white-cyan glow; the concept is a red-tartan gun with a snowflake ornament, cyan hex gems and a hook nose.",
+   "firing_and_projectile": "Slow grey projectile, straight per the wiki (lobbed in the concept sketch), 800 u/s.",
+   "impact_end_result": "Freezes everyone in the blast for 2 s (no movement or camera; reloads restart), teammates included; the concept shows a jagged cyan ice-block encasement.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bouncing Betty",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "REMOVED. Added BBG 2.2 (Aug 21, 2013); tweaked in 2.10 and 2.31 (Mar 2018); past tense on the wiki May 2020; 'Unavailable' Nov 2020",
+   "look": "Stubby bell-mouthed launcher, white/grey with a red crosshair, a yellow tab and an orange 'PUSH' band with a red-lipped bomb decal, held at face height.",
+   "firing_and_projectile": "Lobs a round black bomb with white winking eyes, red lips and a sparking fuse, trailing pink puffs; 1,000 u/s.",
+   "impact_end_result": "Explodes on each surface bounce and detonates on the third; cannot hit players directly; no explosion image.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Blast-O-Mole",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "80 Gas (60 on the class page); BBG 2.5 (Nov 27, 2013); becomes BBH's basic attack 'Blast-o-Mole'",
+   "look": "Chunky purple robot mole with a silver spiral drill nose, glowing magenta eye and silver underside spikes, held at the belly.",
+   "firing_and_projectile": "The mole itself is thrown with a slight arc; 1.25 s, ammo 2.",
+   "impact_end_result": "A straight-line chain of about six flame-like explosions ('a column of fire', wiki); in BBH it burrows and explodes in a blast zone (official). No BBG image.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Twin Bearzookas",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "150,000 Joules, level 10; BBG 2.17 (Mar 8, 2015); clip 4 at release (fan thumbnails), 3 now (wiki)",
+   "look": "Two long pale olive-lime tubes with silver octagonal muzzle rims and black bores, one on each shoulder; NOT red/orange (that is Oliver's Bearzooka).",
+   "firing_and_projectile": "Rockets at 750 u/s, 1 s (wiki); a fan thumbnail shows small orange-tan glowing shots.",
+   "impact_end_result": "Explosive AoE 125/250 (wiki); a fan thumbnail shows a white starburst with yellow rays; no official image.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Fireworks",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary",
+   "status": "Default; BBR v1.0 2011 \u2192 BBG; locked on officially until at least Dec 2013, the wiki says no lock now",
+   "look": "Four slim red firecracker rockets with orange cone tips and pink marks, upright on a back bar with black and grey stripes, two per side, with gold fuse sticks.",
+   "firing_and_projectile": "Vertical missiles: fuses lit, launched straight up, then spiral down onto the reticle spot; 0.5 s.",
+   "impact_end_result": "A flurry of orange sparks (wiki), AoE 125/250; no image. BBH successor: Firework Flurry.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Happy Hour",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary",
+   "status": "50,000 Joules, level 12; BBR by Mar 2012 \u2192 BBG",
+   "look": "Long slim red rocket with yellow fins, window slots and a banded nose, worn diagonally over the shoulder (or vertical behind the head).",
+   "firing_and_projectile": "Lock-on (2.5 s); rises on a gold-white streak, then dives nose-first on a thin yellow streak (trailer 29.9\u201330.4 s).",
+   "impact_end_result": "A tall cone of hot-pink/magenta crystal shards plus a magenta shock ring across the floor (captioned image, trailer, Steam screen 01).",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Piece Maker",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary",
+   "status": "20 Gas, level 6; BBR original (as 'Peace Maker') \u2192 BBG",
+   "look": "Fat rainbow and hippie-art missile reading 'MAKER', on the back, angled over the head.",
+   "firing_and_projectile": "Lock-on or aimed; rises low and dives on a long jagged yellow-white flame trail; 7\u20138 s flight.",
+   "impact_end_result": "Yellow-white ground flash, floor ring and a translucent white-grey faceted mushroom cloud.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Phat Man",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary",
+   "status": "15 Gas (20 on the class page); BBR 1.3.1 (June 28, 2012) \u2192 BBG; also BBF (bundle promo is BBF); in the Steam trailer",
+   "look": "Chubby olive-drab bomb with a yellow-band cone nose, yellow-black radiation trefoil, X-eyed smiley badge and hazard-striped fins, worn nose-up on the back.",
+   "firing_and_projectile": "Climbs out of sight (official 'ascend time' 10), then streaks down nose-first on a long jagged yellow flame trail; homes on a locked target.",
+   "impact_end_result": "A room-filling translucent yellow faceted blast that flings pieces (trailer, Steam screen 04); a large white-grey faceted mushroom cloud in older footage.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Rocket Propelled Lance",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary",
+   "status": "60 Gas, level 10; BBG 2.13 (Oct 31, 2014); pause-before-dive added 2.17",
+   "look": "Long red lance-rocket with a black-white checkerboard band, red fins and a yellow collar, angled over the shoulder; about 0.9\u00d7 Tillman.",
+   "firing_and_projectile": "No lock or homing; slow lift, brief pause, then a fast dive to the exact aim point (floor or ceiling).",
+   "impact_end_result": "Explosive AoE 150/400 (wiki); no image.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Reverse Fountain",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary",
+   "status": "120,000 Joules; BBG 2.5 (Nov 27, 2013)",
+   "look": "Thick green tube with a dark-green octagonal mouth, yellow-orange shooting-star decals and black fins, aimed forward over the head.",
+   "firing_and_projectile": "Lock-on (300-unit radius); rises for several seconds, then drops and stops just above the surface.",
+   "impact_end_result": "Not explosive: sprays damaging sparks for 3.25 s (55\u201360 dps); does not gib (wiki); no image.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Let It Cold",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary",
+   "status": "150,000 Joules; BBG 2.26 (Jan 17, 2017)",
+   "look": "Four blue rockets with grinning pale-mint faces on the Fireworks back bar, with gold fuses and blue-white sparks.",
+   "firing_and_projectile": "Missiles that rain down; 0.5 s, ammo 4; no lock or homing.",
+   "impact_end_result": "Explodes and freezes targets for 3 s (wiki); no image.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Buzzard",
+   "owner": "Tillman (Demo)",
+   "slot": "melee",
+   "status": "Default; BBR v1.0 2011 \u2192 BBG",
+   "look": "Two curved white robotic arms on black ribbed hose joints arching over the head, each holding a big circular sawblade in a black-and-white housing.",
+   "firing_and_projectile": "Slow (about 1 s) overhead swing with long reach; hits behind and above, never straight ahead.",
+   "impact_end_result": "Melee damage (70 per the wiki text; 25 per the official 2.6 log); gibs by implication; no hit image.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Double Hug",
+   "owner": "Tillman (Demo)",
+   "slot": "melee",
+   "status": "20 Gas, level 8; one of the original three melees",
+   "look": "Two hot-pink Huggable plush heads on the two white arms above his head.",
+   "firing_and_projectile": "The same overhead-and-behind swing; +10% speed.",
+   "impact_end_result": "45 damage; does not gib (wiki).",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Good Morning",
+   "owner": "Tillman (Demo)",
+   "slot": "melee",
+   "status": "115,000 Joules, level 15; original melee (first titled 'Good Mourning')",
+   "look": "Two black spiked balls with grey grid pattern and white spikes on the white arms over his head.",
+   "firing_and_projectile": "The same overhead-and-behind swing; +15% health.",
+   "impact_end_result": "45 damage morning-star bonk; no hit image.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Model and staging (sub-topic)",
+   "owner": "Tillman (Demo)",
+   "slot": "all",
+   "status": "BBG 2013 in-game model vs 2D art and BBH",
+   "look": "BBG 3D: pale pink-white, cracked forehead, dark red-rimmed eye sockets with white diamond eyes, red sash, black red-striped limbs, treaded wheels. 2D art and BBH: teal pack.",
+   "firing_and_projectile": "Primaries in both hands (Twin Bearzookas on the shoulders); secondaries ride the backpack (bar for rockets, single missiles nose-up); melees are paired white back arms.",
+   "impact_end_result": "Wiki: gibs reveal 'pink and red flesh'; shorts use sparks and scrap only (BBG News invention).",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Other eras and concepts (sub-topic)",
+   "owner": "Tillman",
+   "slot": "various",
+   "status": "BBR trailer 2011, BBF, BBO, BBH 2023/2024, unreleased Trebuchet concept",
+   "look": "BBF mortar = silver-blue tube; BBO Daisy Cutter = grey drum with pin-up art; BBH = teal pack with two silver rockets with red tips; Trebuchet = wooden catapult with a red cartoon bomb.",
+   "firing_and_projectile": "BBO Dark Matter 'large, glowing purple projectiles'; BBH Blast-o-Mole burrows; Firework Flurry over a target area.",
+   "impact_end_result": "BBF mortar hits = white puffs in a plus pattern; BBF Phat Man = big yellow glowing blobs (Inference); BBO Nuke marks an area for a 225-damage drop.",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "Cannon drawn as a chest hatch [BBG News invention].",
+   "correction": "Big Shot = a hand-held drum launcher braced two-handed at the belly (ribbed olive-grey drum, dark-purple frame, notched yellow muzzle disc) [Observed: File:Big_Shot.jpg, File:Demolition holding Big Shot.jpg; Steam trailer about 21.7\u201322.2 s].",
+   "evidence": "File:Big_Shot.jpg and File:Demolition holding Big Shot.jpg (loadout screens, BBG 2.1) both show the drum held in the hands. Steam trailer frames at 21.7\u201322.2 s show Tillman holding the same drum at chest height. No hatch is visible anywhere."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "(1) salutes so hard the chest cannon fires;",
+   "correction": "(1) salutes so hard the Big Shot drum at his belly goes off; [BBG News invention]",
+   "evidence": "This beat depends on the chest-hatch invention, which the observed Big Shot model contradicts (see the previous correction)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "Big Shot \"(Chest Cannon)\", Fireworks (\"lock on feature\"), Buzzard (\"Double Buzzsaw Extension\") [Canon] ([blog][blog])",
+   "correction": "Keep it, and add: the 2011 blog wording could not be re-opened on 2026-10-16/17 (web.archive.org unreachable); all three names are independently official in the archived BBG 2.6 change log [Canon]; Fireworks still locked on officially in Dec 2013 ('Lock radius increased from 300 to 350 / Lock time increased from 0.8 to 1') [Canon], but the wiki now says 'It cannot lock on to targets' [Fan-wiki].",
+   "evidence": "The 2.6 change log (Wayback snapshot 20151029082739, saved copy) lists Big Shot, Fireworks and Buzzard with lock values for Fireworks. The current Fireworks wiki page (rev 76874) says it cannot lock. web.archive.org reset every connection today."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "masked red-and-black trailer-card skin with an olive artillery shell ([Steam trailer][trailer])",
+   "correction": "masked red-and-black trailer-card skin carrying the olive Phat Man nuke (olive cone with a yellow band; the card also shows a yellow bomb icon) [Observed card; Phat Man ID Inference, strong]; the same card is in SkyVu's 2013 BBG trailer (YouTube rfAyqVJrli4, published 2013-05-30), so it is 2013 footage.",
+   "evidence": "Steam trailer t_0057\u2013t_0060 show the card. YouTube rfAyqVJrli4 maxresdefault and hq2 thumbnails show the identical card, and wiki metadata gives its publish date as 2013-05-30. Steam screen_04 shows the Phat Man (olive, yellow band, trefoil) diving, with the masked red-and-black Tillman in the background. File:Tillman Phat Man copy.png shows the yellow-banded olive nose."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "nobody examined the in-game model.",
+   "correction": "the in-game BBG model (loadout screens) is pale pink-white with a cracked forehead, dark red-rimmed eye sockets with glowing white diamond eyes, a red diagonal sash, black segmented limbs with red stripes and treaded wheels [Observed: File:Tillman-default-front.png, File:Big_Shot.jpg].",
+   "evidence": "I opened VF/img/png_Tillman-default-front.png, png_Big_Shot.png, png_Buzzards.png and png_RPL.png. Sampled body colour is about #E1B5AE."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "cylindrical teal backpack on a diagonal teal chest strap [Observed]",
+   "correction": "teal pack and teal strap in the 2D art (File:Demo-darkmatter.png, File:Demolition.png) and a teal box pack in BBH [Observed]; the in-game BBG model has a red sash, and its backpack carries the secondaries on a black bar with grey stripes (four red Fireworks rockets by default) [Observed: File:Fireworks.jpg, File:DemoDefault.jpg; 'only used to carry the Demo's Secondary weapons' Fan-wiki].",
+   "evidence": "2D art (VF/crops/art2d.png) shows a teal pack and strap. The BBH trailer thumbnail (VF/crops/bbh_t.png) shows a teal box pack. The 3D loadout back views (File:Fireworks.jpg, File:Demo (Wide).png, File:Letitcold.jpeg) show the striped bar and a red sash. The Tillman wiki page states the backpack only carries the secondaries in BBG."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "BBG News uses wheels [BBG News invention].",
+   "correction": "Wheels are [Observed] on the BBG 3D model (treaded wheels: File:Tillman-default-front.png, File:Buzzards.jpg) and in the 2D art (File:Demo-darkmatter.png); no invention is needed.",
+   "evidence": "Every BBG loadout image I opened (Tillman-default-front, Big_Shot, Buzzards, Blast-O-Mole, RPL) shows black treaded wheels in place of feet. File:Demo-darkmatter.png shows wheels too."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "everything does \"splash damage\" [Canon] ([BBR][bbr])",
+   "correction": "Keep the official line, and add: also quoted on the wiki as the BBG class description [Game text via wiki]; in practice the Reverse Fountain is a non-explosive 'Secondary - DPS' spark spray, and the melees are saws, plush heads and maces [Fan-wiki/Observed].",
+   "evidence": "Demo (BBG) rev 69512 quotes the blurb as the official BBG description. The Reverse Fountain wiki page (rev 76883) gives type 'Secondary - DPS' and says 'the Reverse Fountain is not an explosive'. The melee images show saws, Huggable heads and spiked balls."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "cylindrical teal backpack on a diagonal teal chest strap, small armour cracks at top right of head and bottom left of body",
+   "correction": "For BBG-era shots use: red diagonal sash, a back bar with black and grey stripes holding four upright red firecracker rockets, a two-handed purple-and-grey drum launcher with a yellow muzzle, dark red-rimmed eye sockets with white diamond eyes, treaded wheels [Observed]. Keep the teal pack only for 2D-art or BBH versions.",
+   "evidence": "File:Fireworks.jpg, File:DemoDefault.jpg, File:Big_Shot.jpg and File:Tillman-default-front.png (BBG 3D model); File:Demo-darkmatter.png (2D teal pack)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "gleefully launches fireworks",
+   "correction": "fires four red firecracker rockets straight up off his back bar that rain down in orange sparks [Fan-wiki + Observed]",
+   "evidence": "The Fireworks wiki page: 'their fuse is lit and they are quickly released into the air, landing a second or two later in a spiralling cascade\u2026 expode into a flurry of damaging, orange sparks'. File:Fireworks.jpg shows the four red rockets on the back bar."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "Big Shot, Fireworks, Buzzard, Firework Flurry",
+   "correction": "The file names only four BBG weapons (Big Shot, Fireworks, Buzzard, Blast-O-Mole) plus BBH's Firework Flurry. Add the full 18-item BBG arsenal: Big Shot, Gold Member, Dark Matter, Light Matter, S'no Matter, Bouncing Betty (removed: live in 2.31, March 2018; past tense on the wiki May 2020; 'Unavailable' Nov 2020), Blast-O-Mole, Twin Bearzookas; Fireworks, Happy Hour, Piece Maker, Phat Man, Rocket Propelled Lance, Reverse Fountain, Let It Cold; Buzzard, Double Hug, Good Morning.",
+   "evidence": "Demo (BBG) rev 77289 lists 8 primaries, 7 secondaries and 3 melees, and Category:Demo \u2229 Category:BBG Weapons gives the same 18. Bouncing Betty revisions 75803, 76611 and 77258 give the dates."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "slow class, 160 health [Fan-wiki] ([Demo (BBG)][wd])",
+   "correction": "Add: official 2.6 log (Dec 2013): 'Tillman Base Health increased from 150 to 170' [Canon]; the wiki now says 160 and its 2015 revision said 170.",
+   "evidence": "2.6 change log, Tillman Changes section ('Tillman Base Speed increased from 235 to 240. Tillman Base Health increased from 150 to 170.'). Demo (BBG) rev 77289 says 160; rev 69512 (2015) says 170."
+  }
+ ],
+ "open_questions": [
+  "Can the 2011 'STOP. TILLMAN TIME' blog and the 2012 BBR classes page be re-verified? web.archive.org reset every connection on 2026-10-16/17, and the squarespace copy is 404 with no archive snapshot.",
+  "Does the 2026 build keep all 17 live Demo weapons and the 2014-overhaul stats, and does Bouncing Betty return? Steam gives totals only, and the playtest showcase thumbnails show no Demo content.",
+  "When did Fireworks lose lock-on: the June 2014 Demo Overhaul or 2.13 (Oct 2014)? It locked officially in Dec 2013, and the wiki says it cannot lock now.",
+  "Does the Big Shot fire in an arc (wiki) or straight (official text)? Is the orange-yellow fireball that hits Wil in the trailer at about 19.9 s really a Big Shot hit?",
+  "No image documents these impacts: Gold Member, the Dark Matter blind sphere, Bouncing Betty's bounce blasts, the Blast-O-Mole six-flame chain, official Twin Bearzookas, the Fireworks spark landing, the RPL dive, the Reverse Fountain spray, or the S'no Matter and Let It Cold in-game freezes.",
+  "What did the official 'BATTLE BEARS GOLD Developer Update - Tillman Overhaul' (q1Y8Siqfvn4) change? It is unwatched, and its thumbnails show Light Matter at 3/8 and 0/8, which does not fit the 2-round clip.",
+  "Why is 'Blast O Mole' listed under 'Graham Changes:' in the official 2.6 change log?",
+  "Twin Bearzookas: is there an official description, is the BB Zero origin real, and when did the clip go from 4 (release-week fan thumbnails) to 3?",
+  "Is the giant magenta sphere in the trailer at 14\u201316 s Astoria's Fairy's Dust or a Dark Matter blind sphere?",
+  "Is the overhead nuke dive and faceted cloud at 49.6\u201351.6 s (and Steam screen_02) a Piece Maker or a Phat Man?",
+  "Is the official Phat Man 'Ascend time decreased from 15 to 10' measured in seconds?",
+  "Do the wiki files 'Infinite Light Matter hacker.png' and 'Phat Man hacker.png' show cheating clients, and which weapons fired the effects in them?",
+  "What were the exact version and date of Bouncing Betty's removal (between Aug 2018 and May 2020)?",
+  "Is the Steam trailer entirely re-cut 2013 footage? Its eight class cards match the 2013 trailer's roster exactly.",
+  "Was the 'Tillman Trebuchet' concept ever planned for release?"
+ ]
+}

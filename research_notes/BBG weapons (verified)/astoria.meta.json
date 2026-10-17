@@ -1,0 +1,329 @@
+{
+ "quickref": [
+  {
+   "weapon": "Lock-on mechanic (sub-topic)",
+   "owner": "Astoria (Sniper)",
+   "slot": "Mechanic for the 4 locking primaries",
+   "status": "Applies to BBR and BBG; 2026 behaviour Unverified",
+   "look": "Reticle: black crosshair when hovering, then green (100% accurate), then white; the Dead Eye's white lock 'shows a red dot with white lines' [Fan-wiki]",
+   "firing_and_projectile": "Hold the target in the reticle: semi-lock, green lock, white lock. Firing unlocked is a 'no-scope' with spread. Victim gets a red crosshair over the head once the lock turns green ('Scoped' warning) [Fan-wiki]",
+   "impact_end_result": "White-lock shot kills outright regardless of health ('unless they have Shields'); kill feed shows HEAD SHOT with a red crosshair-in-circle icon and +100 [Observed, overhaul thumbnail]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Viperifle",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary (default)",
+   "status": "BBR 1.1 Nov 23 2011 to BBG; 2.6 fire rate 2.5 to 1.5, reload 5 to 4; shown in 2026 trailer (about 30.0-30.8 s) and Steam screenshot_01",
+   "look": "Black/charcoal rifle, dark-green liquid capsule on top (about #305216), green vents by the grip, long thin barrel ending in an angular snake-head muzzle with a glowing lime eye (about #84FE1F); 2-2.5 head-heights [Inference]",
+   "firing_and_projectile": "Lock-on, one shot per pull. Wiki: 'a single, green, stream-like bullet'. 2026 teaser thumbnail shows a bright-green tapered streak (about #01FC6F); that it is this weapon is [Inference]",
+   "impact_end_result": "Cosmetic green 'venom' splash (yellow-green in the teaser); 45 base damage on green lock; white lock = HEAD SHOT",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Capital Pains",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBR 1.3 May 3 2012 (concept name 'Stock Rifle'); 200,000 J (2013) to 150,000 J (2.20, 2015); red mode 'currently removed' (date unknown); 2026 Unverified",
+   "look": "Gold euro-sign stock and dollar-sign grip (about #D3B45C), red body (about #931917), 8-ball-topped scope with blue lens (2012), banknote magazine, zig-zag stock-chart barrel: red (June 2012), green (Nov 2012, 2013), silver-grey (2015)",
+   "firing_and_projectile": "Lock-on; colour and stats follow the NASDAQ check at 00:00 GMT. Bullets red on down days, green on up days [Fan-wiki]; fan red-mode thumbnails show thin red dotted streaks and ammo x/5",
+   "impact_end_result": "Undocumented [Unverified]; white-lock headshot kill",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Mamba's Boy",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBR 1.3.1 Jun 28 2012; nerfed 1.4.2, 2.6 (removed its -10% speed penalty, seen in 2012/2013 Gear Ups) and 2.20; four bundles 2012-13; 2026 Unverified",
+   "look": "Lime/yellow-green snake rifle (about #76AF14) with dark-green spots, lime capsule scope, snake-head muzzle with an open pink-orange mouth; about 2 head-heights",
+   "firing_and_projectile": "Rapid low-damage lock-on (the wiki's 'fastest green lock' conflicts with its own infobox). One official overhaul thumbnail shows a thin pale-white streak from a lime rifle (weapon identity Inference)",
+   "impact_end_result": "Undocumented [Unverified]; white-lock headshot kill",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Dead Eye",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "Shown Apr 2012; released BBR 1.4.3/1.4.3.1 Apr 15/23 2013; 120 Gas with HEALTH -5% (2013); 2.6 removed the health penalty; nerfed 2.20; on the 2026 trailer title card",
+   "look": "Ivory bone rifle lashed with red-brown cords, beaked and toothed skull scope that 'bites', shoulder-blade stock, very long thin bone barrel with a square muzzle; about 3 head-heights (longest)",
+   "firing_and_projectile": "Lock-on, 1 round, high damage (75/85 conflict). 2026 trailer: thin jagged lightning-like WHITE streak from her hands to the target's head (wiki says red)",
+   "impact_end_result": "Red translucent smoke at the target, then large glowing translucent red horned skulls rise (about #F32833); target topples. Wiki: 'glowing, transparent buffalo skulls', cosmetic. Flames in that clip come from another player",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Crossbow (Unicorn Crossbow 2.0)",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBG 2.2 Aug 21 2013; 2.6 clip 100 to 2, damage up; 240,000 to 150,000 J in 2.20; 2026 Unverified",
+   "look": "Pearl-white/silver unicorn-head crossbow with cream panels and diamond motifs, lavender crystal horn-bolt and string (about #D2AAEB); concept finishes silver, gold, gunmetal and copper",
+   "firing_and_projectile": "Manual aim, no lock. Rapid uncharged shots; on charge the inner barrel spins with a bright purple aura and the whole magazine is used. 'Shining unicorn horns'; overhaul thumbnail shows pink-violet streaks and a white-pink flash",
+   "impact_end_result": "Charged hit adds AoE on an opponent or object (230 direct, figures inconsistent); can self-kill; burst look Unverified",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Blow Dart",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBG 2.6 Dec 20 2013, 60 Gas; also on the Lunar New Year bundle; 2026 Unverified",
+   "look": "Orange-copper blowgun tube (about #AF4D22) with glowing magenta stripe panels (about #D755C7), a purple section and an angular head with a pink-glowing slot; held like a rifle",
+   "firing_and_projectile": "Manual aim, no lock; a small dart at 1,000 u/s that sticks to any surface, players included; 0.5 s rate of fire, 4 ammo",
+   "impact_end_result": "Explodes 6 s after sticking with a 'blue tinge and large Area of Effect'; 25-50 explosive damage; can self-kill; not observed",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Art of War",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "Revealed Apr 27 2012; declared unused Aug 8 2013; released BBG 2.11 Aug 27 2014; 60 Gas; 2026 Unverified",
+   "look": "Red barrel (about #DF372D) with gold characters for 'The Art of War', black-and-yellow receiver, paintball hopper of multicolour balls, blue gem, paintbrush muzzle with rainbow paint",
+   "firing_and_projectile": "No lock; a single thin stream-like bullet straight along the crosshair; 45 damage, 3 ammo",
+   "impact_end_result": "'Erupting into a flurry of paint', cosmetic; not observed",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Fidget Boomer",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBG 2.27 May 29 2017, 60 Gas; 2026 Unverified",
+   "look": "Large dusty-pink/mauve chrome three-lobed fidget spinner (about #6E4B55, highlights #AC838E) held up in one hand",
+   "firing_and_projectile": "Thrown explosive (the spinner itself by Inference); 0.3 s rate of fire, 4 ammo; speed conflict: 3000 u/s vs 'fastest' vs 'slow'",
+   "impact_end_result": "Short delay after contact, then explodes (40-70 damage); no secondary effect; not observed",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Tomahawk",
+   "owner": "Astoria (Sniper)",
+   "slot": "secondary (default)",
+   "status": "BBR 1.1 to BBG; only secondary before 1.3; 2.6 duration 15 to 10 s; 2026 Unverified",
+   "look": "Brown hawk with a cream chest, yellow hooked beak and talons and blue-tipped feathers, trussed in tan rope; held up by the legs; about 1.7 head-heights",
+   "firing_and_projectile": "Thrown; the tied hawk 'will rotate forward with straight trajectory'; no damage, hard to aim; a bug can throw it backwards",
+   "impact_end_result": "Ropes come free and the hawk thrashes around the victim's face, a flurry of wings and feathers; partial blind 10 s (infobox 15 s). Fan screenshot shows a brown feather mass over the target's head",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Eagle Standard",
+   "owner": "Astoria (Sniper)",
+   "slot": "secondary",
+   "status": "BBR 1.3.1 Jun 28 2012; 37,500 J (2012), now 75,000 J; special-speed modifier was a penalty pre-2.6, direction after 2.6 Unverified; 2026 Unverified",
+   "look": "Rope-bound bald eagle: white head, yellow-orange beak, dark-brown body, tan rope bands, yellow talons, white tail fan; promos show it with wings spread over red-white-blue rays",
+   "firing_and_projectile": "Tomahawk reskin: thrown tumbling; 6 ammo, 0.2 s rate of fire",
+   "impact_end_result": "Thrashes around the victim's face, a flurry of wings and feathers; partial blind 4 s; not observed (likely white and brown feathers, Inference)",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Daydreamer",
+   "owner": "Astoria (Sniper)",
+   "slot": "secondary (deployed trap)",
+   "status": "BBR 1.3 May 3 2012; 40 Gas (32 per infobox), level 10; status icon changed to a green '?' in 1.3.2; aim inversion removed later; 2026 Unverified",
+   "look": "Gold/bronze wire geodesic lattice (about #A28B5B) with a silver centre disc and a pale-blue crystal shard; once placed only a small white crystal shows",
+   "firing_and_projectile": "Placed on the ground with a 2 s delay and small trigger radius; no damage",
+   "impact_end_result": "'Controls Reversed': green question mark over the victim, movement reversed 8 s (20 s infobox), music off, 'an mild echo' on sounds; possible magenta-arc trigger ring in one fan screenshot (Inference)",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Fairy's Dust",
+   "owner": "Astoria (Sniper)",
+   "slot": "secondary",
+   "status": "BBR 1.4.3 Apr 2013 ('Fairy's Sparkle' in the 1.4.3.1 notes); 165,000 to 125,000 J in 2.20; shown in the 2026 trailer about 13.8-16.3 s",
+   "look": "Glittery pink-to-purple sack (about #DD7ADB) tied with red ribbon under a crumpled blue/cyan top, with yellow, pink and purple star sparkles",
+   "firing_and_projectile": "Thrown sack trailing tiny yellow and pink star sparkles; 1 ammo, 3 s reload",
+   "impact_end_result": "Bursts on contact into a huge harmless faceted cloud for 4 s: violet (about #9901E1) in 2013, hot magenta (#F323F4-#FE26FE) to violet in the 2026 trailer, with twinkles; snipers can still lock inside; she reappears with the Dead Eye",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Rake",
+   "owner": "Astoria (Sniper)",
+   "slot": "secondary (deployed trap)",
+   "status": "In BBG by Jan 2014 (release version undocumented); 100,000 J; once 999 damage, now 110; 2026 Unverified",
+   "look": "Dark-grey riveted metal rake head (about #42464A) with five bright turquoise teeth (about #34E6B8); Gear Up shown with the Solid Fisher skin",
+   "firing_and_projectile": "Placed on the ground like the Daydreamer; single-use and stackable; also triggered by being shot",
+   "impact_end_result": "Springs up and damages whoever walks into it; removed by explosives; can self-kill; spring-up not observed",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "I Lava You (I Lava U)",
+   "owner": "Astoria (Sniper)",
+   "slot": "secondary",
+   "status": "BBG 2.51 Apr 13 2018, 60 Gas; based on the unreleased BB Ultimate 'Lavarifle'; no official description found; 2026 Unverified",
+   "look": "Compact lava-rock gun, dark brown with glowing red-orange fissures (about #A03520, hot #FF6855), grey metal barrel and scope, red glowing lens; held two-handed",
+   "firing_and_projectile": "Shoots proximity mines in a straight line until they hit a wall or floor (1200 u/s, 4 ammo, 1.0 s priming); manual detonation with reload",
+   "impact_end_result": "Mines explode when an enemy comes within 100 units, 25-60 damage; not observed",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Battering Ram",
+   "owner": "Astoria (Sniper)",
+   "slot": "melee (default)",
+   "status": "BBR era (Mar 2012 Gear Up) to BBG; 30 damage, +40% special speed; 2026 Unverified",
+   "look": "Grey stone club whose head is a curled ram horn with tan ridges, lashed with dark purple-brown straps, wrapped grip, multicolour flecks; no skull despite the 'Ram Skull' game text",
+   "firing_and_projectile": "Melee swing; class-wide Sniper melee lines: 'Watch it, swinging a club here!', 'Eee-yaaa!'",
+   "impact_end_result": "Undocumented [Unverified]; melee-kill lines 'Not bad. You got closer to me than most corpses.' and 'I thought your head would be harder.'",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Brr-Ram-Ewe",
+   "owner": "Astoria (Sniper)",
+   "slot": "melee",
+   "status": "BBR era (Mar 2012, 90,000 J) to BBG (105,000 J, level 13); 2.6 damage 33 to 35; 2026 Unverified",
+   "look": "Icy pale-blue crystalline curled-horn club (about #5484A2, light #8DBAD8) with teal-blue wraps and a dark handle",
+   "firing_and_projectile": "Melee swing",
+   "impact_end_result": "Undocumented; no freeze status documented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Cybernetic Ram",
+   "owner": "Astoria (Sniper)",
+   "slot": "melee",
+   "status": "BBR era; 300 Gas (Mar 2012), 50 (June 2012), 30 (July 2012); page also says 20 Gas; 2.6 damage 35 to 40; 2026 Unverified",
+   "look": "Black curled-horn club laced with glowing orange-red circuit channels (about #D27D45, light #FFB673)",
+   "firing_and_projectile": "Melee swing",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Golden Dragon",
+   "owner": "Astoria (Sniper)",
+   "slot": "melee",
+   "status": "BBR 1.3.1 Jun 28 2012; 50 Gas, 55 damage; wiki says +20% special speed but the 2015 Gear Up shows HEALTH +10%; 2026 Unverified",
+   "look": "Gold scaled dragon-head club (about #9B6811, light #DEA00F) with a green gem eye and a scaled shaft",
+   "firing_and_projectile": "Melee swing",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Toucan (unreleased)",
+   "owner": "Astoria (Sniper)",
+   "slot": "other (planned Tomahawk upgrade)",
+   "status": "Concept revealed Apr 27 2012 per wiki (blog Unverified); never released",
+   "look": "Painted toucan with wings spread: black plumage, yellow chest, orange beak, green-and-blue eye patch, red under-tail",
+   "firing_and_projectile": "None documented",
+   "impact_end_result": "None documented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Astoria's Super Scope (unreleased)",
+   "owner": "Astoria (Sniper)",
+   "slot": "other (concept)",
+   "status": "Concept art, wiki upload Nov 22 2012; never released",
+   "look": "Telescoping spyglass-rifle: engraved silver tube, brown leather cone stitched with X marks, gold bands, big domed lens, flintlock-style grip",
+   "firing_and_projectile": "None documented",
+   "impact_end_result": "None documented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Slumberbun land mine (unreleased)",
+   "owner": "Astoria (Sniper)",
+   "slot": "other (concept)",
+   "status": "Concept art, wiki upload Nov 20 2012; never released",
+   "look": "Sleeping golden bread-bun dome that wakes into a screaming bun with bulging red eyes when triggered",
+   "firing_and_projectile": "None documented",
+   "impact_end_result": "None documented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Sniper Rifle + Explosive Retreat (BBH)",
+   "owner": "Astoria (BB Heroes)",
+   "slot": "other (BBH attack and Ultimate)",
+   "status": "BB Heroes, added May 2023; Oct 14 2024 balance; not BBG",
+   "look": "Not researched [Unverified]",
+   "firing_and_projectile": "Long-range rifle, '2000 max' damage, more damage from afar [Canon + Fan-wiki]",
+   "impact_end_result": "Explosive Retreat: 'diving away from the action', '4 x 670' damage [Canon + Fan-wiki]",
+   "confidence": "unknown"
+  },
+  {
+   "weapon": "Viper Rifle (BBO)",
+   "owner": "Astoria (BB Overclock)",
+   "slot": "other (BBO weapon)",
+   "status": "Battle Bears Overclock; 'a direct carryover of the Viperifle (BBG)'; first a launch-day account-link reward",
+   "look": "No image on the wiki page [Unverified]",
+   "firing_and_projectile": "Hitscan, zoomable; 70 damage, 7 ammo, 20% crit chance [Fan-wiki]",
+   "impact_end_result": "Undocumented",
+   "confidence": "unknown"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "- **Gear:** grey-blue backpack on dark straps, black woven utility belt [Observed].",
+   "correction": "- **Gear:** in-game BBG default (team colour; red team shown): red backpack and shoulder straps, red belt with a dark-maroon quilted band and red side pouch, red gloves, red-and-white striped boots [Observed]. The grey-blue backpack and black woven belt come from the 2D character card only [Observed].",
+   "evidence": "Every in-game Gear Up opened (File:Viperrifle.jpg, File:Crossbow.jpg, File:Mamba.jpg, File:FairysDust.jpg, File:Astoria-Default.png) shows red team gear. The wiki's Astoria (Skin) page: 'an ammo belt, a backpack and gloves with the colour of the team colour'. File:AstoriaDescription.jpg (the 2D card) is where the grey-blue backpack and black belt come from."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "Grey-blue backpack (#6F8296) on dark straps, black woven ammo belt, red gloves. Long scoped sniper rifle held upright, other hand on hip.",
+   "correction": "Red team-colour backpack and straps, red belt with a dark-maroon quilted band and red side pouch, red gloves, red-and-white striped boots. Holding the Viperifle two-handed: a black sniper rifle with a dark-green liquid capsule on top, green vents by the grip and an angular snake-head muzzle with a glowing lime eye.",
+   "evidence": "Same Gear Ups as above, plus Steam screenshot_01 (crop s01_ast.png) and the wiki's Viperifle design text: 'dark and green theme \u2026 The barrel end is shaped like a snake's mouth and is complemented with two green eyes'."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "eyes #2E9C8A, backpack #6F8296, belt/straps #1F1F24, gloves #CC1818 (red team)",
+   "correction": "Sampled in-game values: eyes about #5391A1 (blue-teal); backpack, straps, pouch and gloves about #9D0000-#BB2427; belt band about #462122-#512A27; fur highlight about #E8D7A4, shade about #B3A87C.",
+   "evidence": "PIL samples (python -I) from the wiki files Viperrifle.jpg, Viperifle.jpg, Mamba.jpg and Crossbow.jpg (eye value is the mean of the four), converted copies under /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/conv/."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "a teal-masked sniper in a 2026 Steam screenshot, which is Astoria only by [Inference]",
+   "correction": "the Call Off Duty skin (mint mud-mask with a cucumber slice over one eye, robe and polka-dot shorts, ice-cream tub on the belt; pink on Team Red, light blue on Team Blue) holding the Viperifle in Steam screenshot_01 and the official trailer at about 30.0-30.8 s [Observed; skin ID from the wiki's description].",
+   "evidence": "The wiki's Call Off Duty page: 'a mint-colored mud-mask with a cucumber piece on the left eye \u2026 Pink is changed to light blue if the player is on Team Blue \u2026 her ammo-belt features a bag of ice cream'. File:Call_off_duty.png (pink version), the official Mean Mamba Bundle banner (blue version) and trailer frames b_008-b_014 (vp_sheet.jpg) all match."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "the BBG splash card (blue eyes, red-and-white top, arms crossed; possibly a skin [Inference]; [Steam trailer][steam])",
+   "correction": "the 2026 trailer's ASTORIA / SNIPER title card: the Assassino skin (team-colour jacket, white sleeves, dark trousers, round belt emblem) holding the Dead Eye bone rifle upright [Observed; skin ID Inference, strong].",
+   "evidence": "Trailer at about 16.4-17.8 s (sheetA4.jpg). The wiki's Assassino page: 'a team colored jacket with a white shirt underneath, black pants, backpack and ammo belt'. File:Assasino1.PNG shows the same outfit with 'ASSASSINO BUY NOW 125,000', and File:DeadEye.jpg shows the outfit with the Dead Eye."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "the Battering Ram ram-skull club",
+   "correction": "the Battering Ram, a grey stone club whose head is a curled ram horn, lashed with dark straps (keep the game-text quote; the 'Ram Skull' in it is a joke, and the model shows a horn, not a skull)",
+   "evidence": "File:Battering_ram.png (Mar 2012 Gear Up) and File:Battering_Ram_Concept.jpg both show a curled stone horn with straps and no skull (crops bram_zoom.png and the concept image opened)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "Draw the hawk as an angry-bird gag, with no cultural styling [BBG News invention].",
+   "correction": "Keep the gag, but add the documented design and hit: a brown hawk with a cream chest, yellow hooked beak and talons and blue-tipped feathers, trussed in tan rope. Thrown, it tumbles; on contact the ropes pop and a flurry of wings and feathers smothers the target's face, a partial blind with no damage [Observed + Fan-wiki].",
+   "evidence": "File:Tomahawk.jpg, File:Tomahawk_concept.jpg and File:Download_(16).jpg ('Tomahawk in effect'); the Tomahawk page: 'it will be let free of its retrains and violently thrash around their face, blinding them with a flurry of wings and feathers'."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "- **Weapons/props:** a sniper rifle [Canon] (BBG default: the Viperifle [Fan-wiki] ([Sniper (BBG)][sniper])); the Tomahawk,",
+   "correction": "Add the two items the 2026 official trailer shows: the Dead Eye (bone rifle with a biting skull scope; fires a thin jagged white streak; red translucent horned-skull smoke on hit) and Fairy's Dust (a pink sparkle sack that bursts into a huge harmless magenta-violet faceted cloud; her vanish-and-reappear beat) [Observed, official Steam trailer].",
+   "evidence": "Trailer frames at about 12.2-17.8 s (sheetA1-A4.jpg, line_126.png, skull_pair.jpg); the wiki's Dead Eye and Fairy's Dust usage text."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "3. Her Explosive Retreat overshoots into a Huggable pile. She freezes, then tiptoes backward.",
+   "correction": "Explosive Retreat is a BB Heroes Ultimate, not a BBG item. For BBG-default shorts use Fairy's Dust (the trailer's own vanish beat) or the Tomahawk, or label the gag as BBH-era. The same applies to logline 3 ('Her Explosive Retreat lands her right back beside him.') and to the Fighting line's Explosive Retreat quote, which should be tagged BBH.",
+   "evidence": "battlebears.com/pages/characters [Canon] names it an Ultimate; the wiki's Battle Bears Heroes table lists 'Explosive Retreat' (4 x 670) for Astoria, added May 2023. It is not among the 18 BBG Sniper weapons on the Sniper (BBG) page."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "- **Eyes:** teal-green, heavy-lidded and unimpressed [Observed].",
+   "correction": "Eyes: blue/blue-teal (about #5391A1) on every in-game 3D model, 2012-2015 Gear Ups and the 2026 trailer; teal-green only on the 2D character card. Use blue-teal for 3D shorts, remove 'blue eyes' from the negative prompt, and change 'teal-green eyes' in the reference and video prompts.",
+   "evidence": "PIL eye samples from four Gear Ups (mean #5391A1); trailer title card at about 16.4-17.8 s; File:AstoriaDescription.jpg for the card's teal-green."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "- Are her eyes green or blue? Is the red-and-white outfit her default or a skin?",
+   "correction": "Answered: in-game eyes are blue/blue-teal. The red-and-white jacket is a skin, Assassino [Inference, strong]. The default skin is plain cream with team-colour backpack, belt and gloves.",
+   "evidence": "File:Astoria-Default.png; the wiki's Astoria (Skin) and Assassino pages; File:Assasino1.PNG; eye samples as above."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "- What default skin, taunts and audio does the 2026 build use? The [Astoria Overhaul][overhaul] and [2026 showcase][showcase] videos haven't been viewed.",
+   "correction": "Partly answered: 2026 official material shows Assassino with the Dead Eye and Fairy's Dust (trailer), Call Off Duty with the Viperifle (trailer and Steam screenshot_01), and a small default red-gear Astoria (screenshot_04). Taunts and audio remain open; both videos are still unviewed.",
+   "evidence": "Steam appdetails screenshots and trailer frames opened by the verifier (steam_sheet.jpg, s04_ast2.png, sheetA2-A4.jpg, sheetB.jpg)."
+  }
+ ],
+ "open_questions": [
+  "Which of the 18 Sniper weapons are in the 2026 build, and with what stats and prices? Only the Viperifle, Dead Eye and Fairy's Dust appear in official 2026 material; the JustNubz Closed Playtest #4 showcase (Sniper chapter at 22:30) needs a human viewer.",
+  "What is the date of the official 'BATTLE BEARS GOLD Developer Update - Astoria Overhaul' (wUWf9O-YX4A), and what did it change? Its thumbnail ammo counts (8/10, 4/4, 3/3, 0/2) only partly match wiki stats.",
+  "None of these has been observed: the Mamba's Boy projectile (beyond one pale streak), the Blow Dart dart and its 'blue tinge' explosion, the Fidget Boomer explosion, the I Lava U mines and blasts, the Art of War paint burst, the Rake spring-up, the charged Crossbow burst, and all four melee hit effects.",
+  "Is the Dead Eye bullet white (2026 trailer) or red (wiki), and did it change between eras?",
+  "When was red Capital Pains removed, is the 2015 silver barrel the 'white' state, and does the NASDAQ mechanic exist in 2026?",
+  "In which direction does the Eagle Standard's special-speed modifier work after BBG 2.6, and in 2026?",
+  "Does the fan screenshot 'Detonate daydreamer' (magenta arc ring, white bubbles) really show the Daydreamer trigger?",
+  "Which weapon is the black rifle with red-orange lava cracks held by the Dead Eye's victim in the trailer at about 12.2-13.4 s?",
+  "SkyVu's own 2.6 change log, the Apr 13 and Apr 27, 2012 blog posts and blog item 138 remain unreached; today's Wayback availability API returned no snapshots, so every patch-note line stays a [Fan-wiki] transcription."
+ ]
+}
