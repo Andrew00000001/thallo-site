@@ -1,0 +1,246 @@
+{
+ "quickref": [
+  {
+   "weapon": "Energy Rifle",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Primary (default)",
+   "status": "BBG 2.4 launch weapon, Oct 24 2013 [Canon]; ammo /4 in 2013, /6 from Mar 2014 [Fan-wiki; Observed]; 2026 unconfirmed",
+   "look": "Long weathered grey-tan rifle: ribbed ring (#60594E), pale segment (#828381), squared body, round black muzzle; about 0.5x her height [Observed: V/png/EnergyRifle.png, Combat_tech.png]",
+   "firing_and_projectile": "Single straight ray, no spread, 1 s [Fan-wiki]; 2013: magenta ribbon (#FF23B7) with pink corkscrew and violet wing flares; 2016: pale cyan beam (#A2CEE0) [Observed, fan thumbnails]",
+   "impact_end_result": "Pink-white half-dome flash or magenta ground dome (2013); white ripple rings (2016); a Nov 2013 kill shows toy-like chunks and a Joules pickup (weapon attribution Inference)",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Plasma Machine Gun",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Primary",
+   "status": "BBG 2.4 launch weapon [Canon]; ammo 30, then 40 by 2014 [Fan-wiki; Observed]; 2026 unconfirmed",
+   "look": "Octagonal grey muzzle housing (about 0.2x her height) with four dark vents around a magenta core (#FC00FE) and white side puffs [Observed: V/png/PlasmaMachineGun.png]",
+   "firing_and_projectile": "Hitscan automatic, 0.15 s [Fan-wiki]; thin magenta-pink beam lines converging on the target [Observed: yKXifUx8lyY maxres1, B7FHI1aDgsw hq3]",
+   "impact_end_result": "White-pink puff on the target; no status effect [Observed; Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Plasma Shotgun",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Primary (shotgun)",
+   "status": "BBG 2.9, May 8 2014 [Canon]; seen in a 2026 final-beta fan thumbnail [Observed]",
+   "look": "Twin dark-grey/silver barrels, khaki receiver with portholes, magenta crystal ridge (#E144EC in game, #FB4DFE in 2014 art), magenta rear core; about 0.6-0.7x her height [Observed: saberi29, V/png/Plasma_shotgun.png]",
+   "firing_and_projectile": "5 shells, 1 s, damage plus radiation [Fan-wiki]; pink-purple sparkle cloud at the muzzle; no pellets visible [Observed: Rn_X7MA23ho]",
+   "impact_end_result": "Big pink-white sparkle burst (#FAA0F9, white core); yellow Irradiated disc over the target; self-explosion at 100 RP [Observed; Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Toxic Rifle",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Primary (poison, automatic)",
+   "status": "BBG 2.15, Dec 20 2014 per the wiki [Fan-wiki]; no SkyVu note found; 2026 unconfirmed",
+   "look": "Hot-pink gun (#C651B0) with dark pyramid muzzle vent, segmented purple scorpion tail holding a skull-label bottle by her face, pink-liquid bottle (#F887E2) below [Observed: V/png/Toxicrifle.png]",
+   "firing_and_projectile": "Automatic, 0.25 s, stacking poison; ammo 13 (+4 with equipment shows /17) [Fan-wiki; Observed]; hot-pink tracer streak (#F58EF4) [Observed: DyvVVZ_C8ME 2017]",
+   "impact_end_result": "White-pink hit flash; target wrapped in pink glow under a dark-purple skull (#410C3A); damage over time [Observed: JO5-kfnENtM 2016; Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Social Butterfly (BBG)",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Primary (Saboteur)",
+   "status": "BBG 2.53, Apr 28 2018 per the wiki [Fan-wiki]; ammo 3 in 2018, 5 by 2021 [Observed]; no official text; 2026 unconfirmed",
+   "look": "Crossbow: purple-and-gunmetal stock, swept grey limbs, spike-ringed round body with blue orb; orange butterflies (#A0401F) on white bolt tips [Observed: 5Wsfn8XwT0g, Wre1oS8Lfkw, dgOyOegG6-E, ua2j5t23T80]",
+   "firing_and_projectile": "0 damage, 2 s, gravity 1000, 1000 u/s, duration 0.5 s [Fan-wiki]; butterfly-tipped bolts, probably lobbed [Observed; Inference]",
+   "impact_end_result": "Undocumented non-damaging 0.5 s effect [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Missiles",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Secondary (default, timed third arm)",
+   "status": "BBG 2.4 launch weapon [Canon]; 8 s on / 15 s recharge until Nov 2020, then 10 s / 30 s [Fan-wiki]; 2026 unconfirmed",
+   "look": "Two pale grey-green missiles (#787261) stacked one above the other, thin green stripe, black cone noses, dark fins, on a khaki rod arm with tan joints beside her head; each about 0.5x her height [Observed: V/png/SideMissiles.png, Missiles.png]",
+   "firing_and_projectile": "Launchers emerge from the backpack; each input fires two missiles, even while the primary reloads [Fan-wiki]; yellow-white launch flash and thin pale line to a white puff [Observed: 8F69eJnbIg8; attribution Inference]",
+   "impact_end_result": "Candidate blast: translucent yellow (#CCD928) and lime (#65EE49) faceted starburst with red streaks [Observed: wAQLCQDHUZk maxres3; attribution Inference]; splash radii 100/250 [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Minigun (Combat Tech)",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Secondary (timed third arm)",
+   "status": "BBG 2.4 launch weapon [Canon]; 60 vs 80 Gas on the wiki; the beta '1 Joule' price was a placeholder [Fan-wiki; Observed]; 2026 unconfirmed",
+   "look": "Boxy grey-khaki housing (#626152) around a glowing magenta banded barrel (#B504A8 lit); head-on an octagonal ring with a magenta glow (#BE00AF); about 0.35x her height [Observed: V/png/SideMinigun.png, Minigun.png]",
+   "firing_and_projectile": "10 s of low-damage hitscan beams on top of the primary [Fan-wiki]; 2013 thick magenta-white crackling beams; 2016 pale cyan crackling bolt (#5FC6E5) [Observed: B7FHI1aDgsw hq1; JO5-kfnENtM maxres2]",
+   "impact_end_result": "White-cyan spark burst with a pink streak on the target; no status effect [Observed, attribution Inference; Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Landmine",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Secondary (explosives)",
+   "status": "BBG 2.19, Apr 26 2015 per the wiki [Fan-wiki]; 2026 unconfirmed",
+   "look": "Grey canister with glowing cyan circuitry (#34C9D0 bright) and a glossy dark purple-black lid, topped by a tan box with black stripes, held by a tan claw on the arm; about 0.3x her height [Observed: V/png/Landmine.png]",
+   "firing_and_projectile": "Up to two mines per activation; mines fly straight then arc; contact-explode in the air, or prime 2.25 s and trigger within 100 units or after about 30 s [Fan-wiki]; button shows cyan/red-green rings [Observed]; flight look undocumented",
+   "impact_end_result": "Explosives 30-80, AoE 100/300; no explosion frame identified [Fan-wiki; Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Gamma Burst",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Secondary (radiation explosives, timed third arm)",
+   "status": "BBG 2.9, May 8 2014 [Canon]; seen in a 2026 final-beta fan thumbnail [Observed]",
+   "look": "Flat grey riveted saucer with a fat glowing magenta rim (#F643FE art, #C725DB-#F9A1FE in game) on the khaki arm; carried low beside her in play (2014, 2026); about 0.25-0.3x her height across [Observed]",
+   "firing_and_projectile": "Disc emerges, then up to 8 close-range bursts in a 10 s window (5 in 8 s at launch); no projectile [Fan-wiki]",
+   "impact_end_result": "Bright yellow-white field (#FFFF8B) around her ('yellow dome-like structure'); targets get the yellow Irradiated disc and can self-explode; 2018 variant shows lime-green curls [Observed; Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Mallet",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Melee (default)",
+   "status": "BBG 2.4 launch weapon [Canon]; damage 45, then 35 (2019), then 70 (2020) [Fan-wiki]",
+   "look": "Wooden mallet: light-brown log head (#B07632) with end-grain rings, yellow collar, dark ribbed grip, tan end cap; about 0.47x her height [Observed: V/png/Mallet.png]",
+   "firing_and_projectile": "Melee swing, no projectile; barks 'Slam!', 'Smmmash!' [Fan-wiki]",
+   "impact_end_result": "Yellow 5-point cartoon stars on contact [Observed 2015/2016; weapon unidentified]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Sledgehammer",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Melee",
+   "status": "BBG 2.4 launch weapon; 2.6 (Dec 20 2013): damage 45 to 50, speed -5% to +10% [Canon, saved copy]",
+   "look": "Blocky dark steel-grey head (#3A3D43) with a Phillips screw on the side, pink collar, dark wrapped handle; about 0.48x her height [Observed: V/png/Sledgehammer.png]",
+   "firing_and_projectile": "Melee swing, no projectile [Canon; Fan-wiki]",
+   "impact_end_result": "Undocumented; use the shared yellow melee stars [Inference]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "ClubCobra",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Melee",
+   "status": "BBG 2.20, May 29 2015 per the wiki [Fan-wiki]; 2026 unconfirmed",
+   "look": "Angular gold cobra-head club (#AE810D, lit #E9C237) with open jaws and a purple-green eye, brown grip, gold crescent pommel; about 0.6x her height [Observed: V/png/Clubcobra.png]",
+   "firing_and_projectile": "Melee; 75 damage, +10% Health, -5% speed (2015 wiki, matching the shop screenshot); 50 damage, +15% Health (2020 wiki) [Fan-wiki; Observed]",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Huggable Splicer",
+   "owner": "Saberi (Medic, BBH)",
+   "slot": "BBH main attack",
+   "status": "Battle Bears Heroes only ('Summer 2023' per the wiki); live on battlebears.com [Canon]",
+   "look": "No weapon image found [Unverified]; BBH portrait: blonde bangs, white bandana, navy suit, red backpack [Observed]",
+   "firing_and_projectile": "'a wide spray of huggable bits in a sweeping motion' [Canon]; '15 x 190', very slow reload [Fan-wiki]",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Healing Turret",
+   "owner": "Saberi (Medic, BBH)",
+   "slot": "BBH Ultimate",
+   "status": "Battle Bears Heroes only [Canon]",
+   "look": "No image found; a destructible 'HealBox' with 3360 HP [Fan-wiki]",
+   "firing_and_projectile": "Deployable healing radius, 468/s [Canon; Fan-wiki]",
+   "impact_end_result": "Heals her and teammates, 'excluding non-player units' [Canon]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Third arm and secondary button (sub-topic)",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Class mechanic",
+   "status": "BBG 2.4 onward; seen in 2026 [Observed]",
+   "look": "Thin khaki-grey rod arm (#5A5447) with tan/brass joint caps (#6A5C39) holding each secondary out to her right at head height (khaki in the 2014 art) [Observed]",
+   "firing_and_projectile": "Tap to deploy; button green when ready, cyan ('turn blue') while deployed, red ring refilling with green while recharging [Observed; Fan-wiki]",
+   "impact_end_result": "Only class that cannot switch weapons and that adds a HUD button [Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Irradiated and Poisoned icons (sub-topic)",
+   "owner": "Saberi (Combat Tech) and other classes",
+   "slot": "Status effects",
+   "status": "BBG 2013 onward; Irradiated trefoil visible in the 2026 trailer [Observed]",
+   "look": "Irradiated: yellow disc (#F0C30C) with six black-outlined wedges that drop out in stages to a yellow-and-black trefoil; Poisoned: round dark-purple skull (#410C3A) [Observed: wUWf9O-YX4A, Rn_X7MA23ho, trailer t_0018, JO5-kfnENtM]",
+   "firing_and_projectile": "Plasma Shotgun and Gamma Burst irradiate; Toxic Rifle poisons [Fan-wiki: Status Effects]",
+   "impact_end_result": "Geiger ticking speeds up; at 100 RP the target explodes (150-200 unit blast) regardless of health; poison deals damage over time [Fan-wiki]",
+   "confidence": "observed"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "- **Weapons/props:** Energy Rifle, Plasma Machine Gun, Missiles, Minigun, Mallet, Sledgehammer; later Plasma Shotgun and Gamma Burst [Canon] ([2.4 notes][n24]; [2.9 notes][n29]), probably the 2014 art's purple-core double-barrel gun and glowing disc [Inference]. BBH: Huggable Splicer, Healing Turret [Canon] ([characters][chars]).",
+   "correction": "- **Weapons/props:** Launch kit (2.4): Energy Rifle, Plasma Machine Gun, Missiles, Minigun, Mallet, Sledgehammer [Canon] ([2.4 notes][n24]). Plasma Shotgun and Gamma Burst in 2.9 [Canon] ([2.9 notes][n29]); SkyVu calls the 2014 art 'the preview art for Saberi\u2019s new weapons' [Canon] ([sneak peek][peek]), and its twin-barrel magenta-crystal gun and magenta-rimmed saucer match the in-game models the wiki captions as the Plasma Shotgun and Gamma Burst [Observed; Fan-wiki]. Later: Toxic Rifle (2.15), Landmine (2.19), ClubCobra (2.20), Social Butterfly (2.53) [Fan-wiki]; the Social Butterfly is a crossbow with butterfly-tipped bolts [Observed, fan footage]. BBH: Huggable Splicer, Healing Turret [Canon] ([characters][chars]).",
+   "evidence": "Saved SkyVu sneak-peek copy W/dl/saberi/official/prior/u29peek.html.txt ('higher resolution version of the preview art for Saberi\u2019s new weapons'); the art reads 'SABERI WEAPONS! 2.9 COMING SOON!' (V/official/saberi29_copy.png), which matches V/png/Plasma_shotgun.png and V/png/Gammaburst.png; wiki Updates table (2.15 Dec 20 2014, 2.19 Apr 26 2015, 2.20 May 29 2015, 2.53 Apr 28 2018); crossbow in V/yt/5Wsfn8XwT0g/maxres1.jpg."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "tech glow #9B4DFF, arm metal #7A7F86",
+   "correction": "tech glow magenta \u2248#C000B0\u2013#FC00FE in game (PMG core #FC00FE, Plasma Shotgun crystal \u2248#E144EC), \u2248#F643FE\u2013#FF45FF in the 2014 art; third arm: thin khaki-grey rods \u2248#5A5447 (lit #736C5C) with rounded tan/brass joint caps \u2248#6A5C39 (lit \u2248#807152) [Observed, sampled]",
+   "evidence": "Pixel samples of V/png/PlasmaMachineGun.png (core #FC00FE), V/png/Minigun.png (#BE00AF), V/png/Plasma_shotgun.png (#E144EC), V/png/SideMissiles.png (arm rod and caps) and V/official/saberi29_copy.png (#F643FE-#FF45FF). None of the glowing parts is violet #9B4DFF, and the arm is warm khaki, not blue-grey #7A7F86."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "One mechanical third arm (#7A7F86) rises from a backpack, holding a purple-glowing disc (#9B4DFF); she holds a chunky double-barrelled gun with a glowing purple core and has a short mallet at her side.",
+   "correction": "One thin jointed khaki-grey mechanical arm with tan joint caps rises from behind her, holding above her head a flat grey riveted saucer with a glowing magenta rim (#F643FE); she holds a twin-barrelled olive-and-silver plasma shotgun with a glowing magenta crystal ridge and a magenta core in a silver rear housing, and has a wooden log-headed mallet with a dark ribbed grip at her side.",
+   "evidence": "V/official/saberi29_copy.png (SkyVu 2.9 preview art: saucer above her head on a khaki jointed arm, twin silver barrels, olive receiver with portholes, magenta ridge and rear core); V/png/Mallet.png (light-brown log head #B07632, yellow collar, dark ribbed grip)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "fires a burst of cartoon missiles",
+   "correction": "swings a twin missile pod (two pale grey-green missiles stacked one above the other, each with a thin green stripe, black nose cone and dark fins) up beside her head and fires them in pairs with a yellow-white flash",
+   "evidence": "V/png/SideMissiles.png and V/png/Missiles.png show a stacked two-missile pod beside her head; the wiki Missiles page says the launchers 'release two explosive missiles'; V/yt/8F69eJnbIg8/sddefault.jpg shows a yellow-white flash while the Missiles button is cyan (deployed)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "the backpack weapon runs 10 s, reloads 30 s",
+   "correction": "the backpack secondaries Missiles, Minigun and Gamma Burst run 10 s and recharge 30 s by the wiki's Nov 2020 stats; earlier wiki values were Missiles 8 s/15 s, Minigun 8 s/10 s (from Apr 2014) and Gamma Burst 8 s/15 s at launch, then 6 s; the Landmine also deploys from the same button but is listed with ammo (3), a 1.25 s rate of fire and a 6 s reload instead of a duration [Fan-wiki]",
+   "evidence": "Wiki revision histories fetched today (V/revs/Missiles.json, Minigun__Combat_Tech_.json, Gamma_Burst.json, Landmine.json); Landmine secondary button with cyan and red-green rings in V/yt/ua2j5t23T80/maxres1.jpg and maxresdefault.jpg."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "Her 2026 model is unconfirmed; neither the 2013 BBG trailer nor the 2026 Steam trailer shows a splash card for her, and whether one exists elsewhere is unknown [Observed].",
+   "correction": "A 2026 final-beta fan thumbnail shows her from behind with dark-brown fur, the red white-dotted bandana and red top, wielding the Plasma Shotgun with the Gamma Burst saucer out [Observed, low-res fan thumbnail]. The 2026 Steam trailer has class cards for B-1000, Graham, Astoria, Wil, Tillman, the Huggable, Riggs and Oliver but none for her, and she is not identifiable in its gameplay [Observed].",
+   "evidence": "V/yt/s9W6eLXj9qc/maxres3.jpg (M1kaa717, 'BATTLE BEARS GOLD 2026 FINAL BETA HIGHLIGHTS', Oct 16 2026, ammo 3/5, saucer HUD icon); W/visuals/trailer/t_0001-t_0108 reviewed as V/crops/trailer_sheet_0..3.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "backpack-mounted per the wiki [Fan-wiki] ([Missiles][missiles]; [Minigun][minigun])",
+   "correction": "backpack-mounted per the wiki [Fan-wiki] ([Missiles][missiles]; [Gamma Burst](https://battlebears.fandom.com/wiki/Gamma_Burst)); the wiki's in-game screenshots show the arm reaching out from behind her back to hold each secondary beside her head [Observed]",
+   "evidence": "The Minigun (Combat Tech) page (re-fetched today) never mentions a backpack. The Missiles page ('emerge from the right side of the Combat Tech's backpack') and the Gamma Burst page ('emerge from the Combat Tech's backpack') do. Images: V/png/SideMissiles.png, V/png/SideMinigun.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "- Gun and disc names, Undead as the banner bear, BBH hex values [Inference].",
+   "correction": "- Undead as the banner bear, BBH hex values [Inference]. The 2014 art is SkyVu's 'preview art for Saberi\u2019s new weapons' [Canon]; gun = Plasma Shotgun and disc = Gamma Burst via matching wiki-captioned in-game models [Observed; Fan-wiki].",
+   "evidence": "u29peek.html.txt; V/official/saberi29_copy.png compared with V/png/Plasma_shotgun.png (caption 'Saberi with the Plasma Shotgun') and V/png/Gammaburst.png (caption 'Combat Tech with the Gamma Burst')."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "- Does 2026 keep the Combat Tech kit and polka-dot look? The October demo and [playtest showcase][showcase] are unviewed.",
+   "correction": "- The 2026 final beta keeps the red polka-dot bandana look, the Plasma Shotgun and the Gamma Burst (bright yellow burst field) [Observed, fan thumbnail]; the rest of the 2026 kit is unverified (the showcase's Combat Tech chapter, 44:12\u201347:23, is unwatched).",
+   "evidence": "V/yt/s9W6eLXj9qc/maxres3.jpg; showcase description timestamps in W/dl/2026-changes/yt/next_-lAtv-j9Sms.json ('44:12 Combat Tech (Saberi)', '47:23 Arbiter (Sanchez)')."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/saberi_sanchez.md",
+   "current_text": "Gear: she holds a chunky double-barrelled gun with a glowing purple core. A mechanical \"third arm\" rises from behind her and holds a purple-glowing disc.",
+   "correction": "Gear: she holds a twin-barrelled olive-and-silver gun with a magenta crystal ridge and a magenta core. A khaki jointed \"third arm\" rises from behind her and holds a grey riveted saucer with a glowing magenta rim.",
+   "evidence": "V/official/saberi29_copy.png samples: crystal ridge \u2248#FB4DFE, rear core \u2248#FF45FF, saucer rim \u2248#F643FE, arm \u2248#6B5942 (khaki)."
+  },
+  {
+   "file": "/home/user/thallo-site/reports/Battle Bears character lore.md",
+   "current_text": "holds a chunky double-barrelled gun with a glowing purple core, and has a mechanical third arm rising behind her with a purple-glowing disc [Observed]",
+   "correction": "holds a twin-barrelled olive-and-silver gun with a glowing magenta crystal ridge and magenta core, and has a khaki jointed third arm rising behind her with a grey saucer whose rim glows magenta [Observed]",
+   "evidence": "Same 2014 art and samples as the research-notes correction (V/official/saberi29_copy.png)."
+  }
+ ],
+ "open_questions": [
+  "Energy Rifle: what colour is the beam in each era (magenta ribbon in 2013, pale cyan in 2016)? Is the change a patch, a team tint or a skin effect? The 2016 cyan frame also had the Missiles deployed.",
+  "Missiles: is the Nov 2013 yellow-and-lime faceted starburst (wAQLCQDHUZk maxres3) really the Missiles' blast? What do the Landmine explosion and the thrown mine look like? What was the glossy magenta sphere in the May 2015 'Land Mine to suicide' thumbnail?",
+  "Minigun: did its beam colour change from magenta-white crackling (2013) to pale cyan crackling (2016)?",
+  "Social Butterfly: which 0.5 s 'Saboteur' effect does it apply (controls reversed, stun or slow, as for Sake Bomb, Sucker Punch and Phantom Hug)? Do the butterfly bolts fly visibly?",
+  "Gamma Burst: is the field a yellow dome (wiki; bright yellow glow in 2026), lime-green curls (2018), or both in sequence? No frame shows a dome edge.",
+  "2026 kit: does the 2026 build keep the Energy Rifle, PMG, Toxic Rifle, Social Butterfly, Missiles, Minigun, Landmine and the three melees? The JustNubz chapter 44:12-47:23 is unwatched. What does the beta build label '3.0.7_2026.11.19_b7' mean?",
+  "2.9 preview art: was the 'Developer Update video' that first showed it the Apr 25 2014 'Oliver Overhaul' episode? Its description calls it the 'first edition', and the next edition came only on May 7, after the May 1 sneak peek, so this is very likely but still Inference.",
+  "'Saberi Redesign (Early 2.11)' (wRXMFQqYxRQ, Aug 28 2014): what changed, a model change or a skin?",
+  "Toxic Rifle concept art: who made the art uploaded to the wiki on Feb 20 2015, and is it official?",
+  "Minigun price: is it 60 Gas (Nov 2020 infobox) or 80 Gas (every earlier revision and the body text)?",
+  "SkyVu text: is there SkyVu text for 2.15, 2.19, 2.20 or 2.53? What does the 2014 'Saberi-Blog.png' show? web.archive.org refused all 119 attempts on 2026-10-17, so the 2.4, 2.6 and 2.9 [Canon] quotes rest on copies saved on 2026-10-14.",
+  "Landmine mechanics: are the wiki's claims right that a mine explosion reloads the primary, and that one activation fires 'up to two mines'? Is the in-game name 'Landmine' or 'Land Mine'?"
+ ]
+}

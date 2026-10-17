@@ -1,0 +1,445 @@
+{
+ "quickref": [
+  {
+   "weapon": "Official 2026 statements (sub-topic)",
+   "owner": "SkyVu",
+   "slot": "n/a",
+   "status": "Steam store, 7 Steam posts, battlebears.com, YouTube descriptions (2026)",
+   "look": "No weapon visuals; Steam names A Salt Rifle, Bearzooka, Turkish SW Boots [Canon]",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "No announced weapon change [Inference]; Oct 14 banner lists 'LIGHTING, EFFECT & TEXTURE IMPROVEMENTS' [Canon]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Roster size vs wiki (sub-topic)",
+   "owner": "all classes",
+   "slot": "n/a",
+   "status": "Steam 80+/60+/50+/10 vs wiki 76/64/46/10",
+   "look": "n/a",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "Small gap; cannot tell new items from wiki gaps (wiki lists include removed Last Resort, omit Hazard Toy)",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Builds seen in 2026 footage (sub-topic)",
+   "owner": "n/a",
+   "slot": "n/a",
+   "status": "2.54.0 (July), 3.0.0, 3.0.2, 3.0.3, 3.0.5_2026.11.19_B1",
+   "look": "Version stamps on thumbnails [Observed]",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "2026 HUD ammo numbers do not always match wiki ammo; trust weapon icons over counts [Inference]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Steam trailer is 2013 footage (sub-topic)",
+   "owner": "SkyVu",
+   "slot": "n/a",
+   "status": "'Battle Bears Gold Premium - Trailer' re-edits the May 2013 launch trailer; 5 screenshots are its frames",
+   "look": "Corrected IDs: Bearail Gun + Shock N Claw (B-1000), Gernobyl goo, Light Matter orbs/blast, Big Shot, Phat Man, Punk Bands, Electric Honey, Blood Spurt, Gamma Ray beam and card",
+   "firing_and_projectile": "See table; draft IDs (Grenader, Barbed Gloves, Gamma Ray at 7-10 s) withdrawn",
+   "impact_end_result": "Use as 2013 look reference only, never as '2026 gameplay'",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Fan showcase and playtest uploads (sub-topic)",
+   "owner": "JustNubz, Slinkster, foyth, droid BBG, others",
+   "slot": "n/a",
+   "status": "2026 fan videos; titles and thumbnails only, none watched",
+   "look": "Thumbnails show Whack-Tus, Primus Sword match, Bearail Gun, Shock N Claw, loadout text",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "Fan text names O.C.O./'Dark OCO' Gauntlet, Sci-Fi ASR, Steamshot, Bearail [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "2026 wiki edits (sub-topic)",
+   "owner": "Alphabbr (wiki editor)",
+   "slot": "n/a",
+   "status": "7 edits Sep 18-23, 2026, no 2026 source cited",
+   "look": "n/a",
+   "firing_and_projectile": "Hazard Toy 25-50 explosives / 4 dmg; Energy Overflow charge 3; Rake removable by explosives",
+   "impact_end_result": "Other edits: Soldier/Weapons tags, Category:Battle Bears X, Generalissimo, Gold Digger",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "A Salt Rifle",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary, default",
+   "status": "Named on 2026 Steam page; 2026 tutorial HUD icon (2.54.0)",
+   "look": "Mint-green (~#D8F0E8) and maroon (~#401010-#582010) rifle with white salt-shaker canister magazine (~#F8F8F8), held at hip, ~0.6x Oliver",
+   "firing_and_projectile": "Automatic, dmg 6, 0.15 s, 25 ammo, 3.0 s reload [Fan-wiki]; projectile undocumented",
+   "impact_end_result": "Undocumented [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bearzooka",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary, default",
+   "status": "Named on 2026 Steam page; same look in 2013 trailer and 2026 thumbnails",
+   "look": "Coral-red tube (~#DE604D) with glowing orange chevron windows (~#FC9C24), grey bands, grey-red checkered flared rear, pink hexagonal muzzle cap with dark bore; ~0.75-0.9x Oliver",
+   "firing_and_projectile": "1 ammo (HUD 1/1), 1.5 s, 2.5 s reload, 1,000 u/s; trailer rocket = grey hexagonal shell with glowing orange-yellow panels and spiky orange flame tail [Observed; ID Inference]",
+   "impact_end_result": "40-60 explosives, AoE 125/250; yellow (~#F8E838) blast with orange rim; point-blank blast flings the shooter (self-damage prone)",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Turkish SW Boots",
+   "owner": "Oliver (Soldier) and others",
+   "slot": "Special",
+   "status": "Named on 2026 Steam page; 2026 look unseen",
+   "look": "Red studded boots with white jet puffs (icon); older icon: twin white cloud columns",
+   "firing_and_projectile": "Jump power 600, 4.5 s cooldown (2.5 s before v2.6), airborne use since v2.0; no projectile [Inference]",
+   "impact_end_result": "Mobility only, no damage [Inference]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Grenader",
+   "owner": "B-1000 (Assault)",
+   "slot": "Primary, default",
+   "status": "Default loadout in official Aug 21, 2026 thumbnail; NOT in the Steam trailer",
+   "look": "Short boxy orange-and-white launcher, black hexagonal barrel, black ribbed band and hose, right arm",
+   "firing_and_projectile": "Arcing grenades; ammo 4 vs 3, rate 1.5 s vs 1 s (wiki conflicts); 'set on fire with something ... orbiting it' [Fan-wiki]",
+   "impact_end_result": "'damaging, golden orb', 'huge and bright blast', 45-70, AoE 125/250 [Fan-wiki]; not observed",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Axecutioner",
+   "owner": "B-1000 (Assault)",
+   "slot": "Melee, default",
+   "status": "Default loadout in official Aug 21, 2026 thumbnail",
+   "look": "Grey battleaxe head with orange spikes on left forearm, white-and-orange cuff, ~0.4x Oliver",
+   "firing_and_projectile": "Melee, 70 dmg, no projectile",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bearail Gun",
+   "owner": "B-1000 (Assault)",
+   "slot": "Primary",
+   "status": "2013 trailer (gun-arm); official Aug 16, 2026 thumbnail and fan 3.0.5 thumbnails",
+   "look": "Long black slab gun-arm with orange edges and white top cap, right arm, ~0.6x Oliver",
+   "firing_and_projectile": "1 s gold charge then instant golden laser, 1 ammo (HUD 0/1), 3 s reload; beam added after initial release (date unknown); 2026 pale-gold streak (~#F8F8A8)",
+   "impact_end_result": "'colossal explosion', 75-90 (infobox) / 70-90 (text), dim light wave; 2026 white starburst with sparks",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Shock N Claw",
+   "owner": "B-1000 (Assault)",
+   "slot": "Melee",
+   "status": "2013 trailer; fan 2026 thumbnails; official Jul 6 banner by inference",
+   "look": "White-and-orange gauntlet with curved pale-blue hose and three long glowing cyan blades (~#08D8F8)",
+   "firing_and_projectile": "Melee swing, 45 dmg, +30% special speed; no projectile",
+   "impact_end_result": "Undocumented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Primus Sword",
+   "owner": "B-1000 (Assault)",
+   "slot": "Melee",
+   "status": "Visual match in 2026 JustNubz showcase thumbnail",
+   "look": "Broad silver-grey blade with hot-pink/red edge stripes, cyan inner lines, angular cross-guard",
+   "firing_and_projectile": "Melee, 85 dmg, +10% health (highest-damage BBG melee) [Fan-wiki]",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Gamma Ray",
+   "owner": "Graham (Engineer)",
+   "slot": "Primary",
+   "status": "2013 trailer (beam, card); official Aug 16, 2026 thumbnail; Jul 6 banner by inference; Slinkster 3.0.0 thumbnail",
+   "look": "Orange claw-tipped / octagonal emitter with black ring and green lens, ~0.3x Oliver",
+   "firing_and_projectile": "Short-ranged constant yellow beam (~#F8F858) with ripple rings, smoke-like vapour at the end; Geiger-counter ticking that speeds up",
+   "impact_end_result": "Trefoil over target fills in 4 stages; at full radiation the victim explodes (150-200 u, scales with size) in a yellow-white cube cluster throwing armour bits",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Gernobyl",
+   "owner": "Graham (Engineer)",
+   "slot": "Secondary",
+   "status": "2013 trailer only (7-10.5 s); 2026 unknown",
+   "look": "Tan mutant-gerbil launcher with glowing yellow eyes, carry handle, dripping lime-green goo",
+   "firing_and_projectile": "Lime-green goo globs that split into 2-3 droplets; 3 ammo, 4.5 s reload, 1,000 u/s",
+   "impact_end_result": "Radiation plus small damage; misses leave lime-green puddles (4.5 s); trailer victim flashes yellow-green, trefoil, yellow cube detonation",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Crossbow (wiki title 'Unicorn Crossbow 2.0')",
+   "owner": "Astoria (Sniper)",
+   "slot": "Primary",
+   "status": "Named in a 2026 fan loadout (3.0.2); added BBG v2.2",
+   "look": "White-silver winged crossbow, lilac string, purple crystal accents, ~0.6x Oliver",
+   "firing_and_projectile": "Chargeable; 'shining unicorn horns'; charged barrel spins with bright purple aura; stats caveated by the wiki",
+   "impact_end_result": "Charged hit adds AoE; look undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Fairy's Dust",
+   "owner": "Astoria (Sniper)",
+   "slot": "Secondary",
+   "status": "Named in a 2026 fan loadout; cloud in 2013 trailer",
+   "look": "Light pink-magenta sack (~#F8A8E8) with gathered blue-purple top (~#40A8E8/#9838D8), sparkles",
+   "firing_and_projectile": "Thrown sack; 1 ammo (2 before v2.6), 1,000 u/s",
+   "impact_end_result": "Huge harmless magenta-violet faceted cloud (~#F820F8, violet ~#A018F8) with sparkles, 4 s, blocks sight",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Battering Ram",
+   "owner": "Astoria (Sniper)",
+   "slot": "Melee, default",
+   "status": "Named in a 2026 fan loadout",
+   "look": "Single grey stone-textured spiral ram horn flecked yellow/red on a cord-wrapped stone shaft (not a skull)",
+   "firing_and_projectile": "Melee, 30 dmg, +40% special speed",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Whack-Tus",
+   "owner": "Huggable",
+   "slot": "Melee",
+   "status": "Seen in 2026 showcase thumbnail (Pink Huggable)",
+   "look": "Spiky dark-green cactus club over each wrist, ~0.3x Oliver",
+   "firing_and_projectile": "Melee, 60 dmg, +30% special speed",
+   "impact_end_result": "Undocumented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Seesaw",
+   "owner": "Huggable",
+   "slot": "Melee",
+   "status": "On official Jul 6, 2026 Steam banner (red Huggable)",
+   "look": "Two orange chainsaw housings with black vents, grey bars and rainbow teeth",
+   "firing_and_projectile": "Melee, 40 per saw (often doubled), +10% speed, largest hitbox",
+   "impact_end_result": "Undocumented; wiki trivia mentions blood on the model, do not reproduce",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Punk Bands",
+   "owner": "Huggable",
+   "slot": "Melee",
+   "status": "2013 trailer only; 2026 unknown",
+   "look": "Black cuffs studded with white spikes, pink top part",
+   "firing_and_projectile": "Clapping melee (one clap since v1.4.1), 70 dmg, +10% special speed",
+   "impact_end_result": "Trailer: dash with magenta crystal shards, white-pink flash on Astoria, who ends face-down",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "O.C.O. Gauntlet / 'Dark OCO Gauntlet'",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary",
+   "status": "Fan-reported in 2026; Dark O.C.O. skin seen in official 2026 thumbnail",
+   "look": "Grey-black armoured gauntlet with cyan 'OCO' lettering and keypad, plus big cyan-white mitten (~#00C0E8); Dark O.C.O. = black skin with orange-red glowing cracks",
+   "firing_and_projectile": "Orb hangs 2 s harmless then accelerates; wiki 'dark blue core' vs 2013 demo bright cyan core (~#50E0F8); ammo figures conflict",
+   "impact_end_result": "Implosion, 40-60 +30 direct, AoE 50/150; magenta glow in fan frames is a different, rifle-icon weapon",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sci-Fi ASR",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary",
+   "status": "Fan-reported in 2026 (9nA-OaYAVzU title)",
+   "look": "Silver-grey rifle with glowing orange red-striped hexagonal canister, round vents, teal tip",
+   "firing_and_projectile": "Automatic, dmg 5, 0.15 s, 25 ammo; game text says 'lasers'; magenta muzzle in fan thumbnails possibly this [Inference, weak]",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Steamshot",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary",
+   "status": "Fan-reported in 2026 (9nA-OaYAVzU title)",
+   "look": "Brass steampunk shotgun: green glass globe, copper canisters with green gems, wooden grip on hose, perforated barrel, honeycomb brass muzzle",
+   "firing_and_projectile": "Shotgun, 35 dmg, 3 ammo; 'a quick spread of damaging green steam' [Fan-wiki]",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Phat Man",
+   "owner": "Tillman (Demo)",
+   "slot": "Secondary",
+   "status": "2013 trailer only; 2026 unknown; stats changed in v2.6 and v1.4.2",
+   "look": "Olive-drab missile with yellow band, trefoil and yellow X-eyed smiley tag, strapped to the jetpack, ~0.7x Oliver",
+   "firing_and_projectile": "Lock-on; rises on spiky yellow exhaust, drops in a vertical yellow light column; 10 s reload (20 s and -15% speed before v2.6)",
+   "impact_end_result": "65-195, AoE 200/600; screen-filling flat yellow-white blast (~#FCE454) flinging armour; white faceted smoke cloud",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Big Shot",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary, default",
+   "status": "2013 trailer only; 2026 unknown",
+   "look": "Purple-grey drum cannon with gold muzzle ring, held at chest",
+   "firing_and_projectile": "Arcing black bullet-like missile (Bullet Bill-like) [Fan-wiki]; 0.5 s, ammo 7 vs 6, 1,100 u/s",
+   "impact_end_result": "10-20, AoE 100/200; trailer: Wil engulfed in yellow-orange blast and flung",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Light Matter",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary",
+   "status": "2013 trailer only; 2026 unknown",
+   "look": "White-and-black cannon with glowing cyan prongs",
+   "firing_and_projectile": "Slow blue orb with cyan zigzag lightning, 750 u/s, 2 ammo",
+   "impact_end_result": "Large blinding white dome edged with cyan lightning, 45-65, AoE 100/300",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Beebeegun",
+   "owner": "Riggs (Heavy)",
+   "slot": "Primary, default",
+   "status": "On official Jul 6, 2026 Steam banner",
+   "look": "Black gatling, orange-yellow striped side panels, striped hive with a bee on top (black barrels)",
+   "firing_and_projectile": "Minigun with wind-up, 0.1 s, 100 ammo; bees per game text, look unobserved",
+   "impact_end_result": "Undocumented",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Hivey League",
+   "owner": "Riggs (Heavy)",
+   "slot": "Secondary, default",
+   "status": "Not in 2013 or 2026 footage",
+   "look": "Grey multi-barrel gun with yellow-black barrel holes and a yellow bee-faced hive box",
+   "firing_and_projectile": "Shotgun, 'spreading cone of angry bees', 0.75 s, reload 6 s",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Electric Honey",
+   "owner": "Riggs (Heavy)",
+   "slot": "Primary",
+   "status": "2013 trailer only; 2026 unknown",
+   "look": "Black gatling with purple LED panels, pink cupcake-like hive, magenta energy rings",
+   "firing_and_projectile": "Minigun, 0.10 s, 120 ammo (140 before v2.6); pink-magenta streaks",
+   "impact_end_result": "Pink starburst on target",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Blood Spurt",
+   "owner": "Riggs (Heavy)",
+   "slot": "Melee",
+   "status": "2013 trailer only (replaces draft's Barbed Gloves ID); 2026 unknown",
+   "look": "Cracked tan-brown wrap gloves with pale-blue knuckle blocks (~#A8D8D8) and green/gold/white crystal spikes; name unsuitable on screen",
+   "firing_and_projectile": "Melee, 70 (doubled if both connect), -10% health, +10% speed",
+   "impact_end_result": "Undocumented; trailer shows a punch on a gold Huggable",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Barbed Gloves",
+   "owner": "Riggs (Heavy)",
+   "slot": "Melee, default",
+   "status": "Not in 2013 trailer or 2026 evidence",
+   "look": "Puffy bright-yellow gloves with dark spots, wrapped in black barbed wire",
+   "firing_and_projectile": "Melee, 70 (doubled by second glove)",
+   "impact_end_result": "Undocumented",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Last Resort",
+   "owner": "B-1000 (Assault)",
+   "slot": "Secondary, former default",
+   "status": "Removed ('THIS WEAPON IS REMOVED'), date unknown",
+   "look": "Not viewed",
+   "firing_and_projectile": "Hold-to-self-destruct",
+   "impact_end_result": "200-400 self-destruct blast; do not depict",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Unidentified items in 2026 art and footage (sub-topic)",
+   "owner": "various",
+   "slot": "n/a",
+   "status": "Jul 6 banner extras, store loop, map objects, trailer leftovers",
+   "look": "Panda's three-pronged white rifle, skull bear's lime camo gun, eye-patch bear's grey gun; gold Huggable faceted trail",
+   "firing_and_projectile": "Unknown",
+   "impact_end_result": "Blue bolt shapes are probably kill drops; 'Z' icon meaning unknown",
+   "confidence": "unknown"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
+   "correction": "In BBG the Bearzooka is a coral-red shoulder tube (\u2248 #DE604D lit, #D25443 shade) with glowing orange chevron windows (\u2248 #FC9C24), grey bands, a grey-and-red checkered flared rear and a pink hexagonal muzzle cap with a dark round bore [Observed: wiki Bearzooka_Concept.png and Photo_19-04-13_12_02_26_PM.png; Steam trailer 4.0\u20135.0 s; 2026 tutorial thumbnail]. The wiki: 'In BBG and BB0, it is a rocket launcher with red and orange lines. In BBZ and BB-1 it is just a dark green rocket launcher.' [Fan-wiki]. The dark-green tube with hazard stripes (wiki Bear.jpg) is that BBZ / BB-1 version [Observed; game per Fan-wiki].",
+   "evidence": "Opened /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/bz_w.png (Bearzooka_Concept, Photo_19-04-13_12_02_26_PM, Bear.jpg) and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/bzseq.png (trailer); the wiki Bearzooka page names BBZ and BB-1 for the green version. The trailer's green-skinned Oliver wears a hazard-striped belt, a likely source of the error."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "He holds a chunky assault rifle and carries a green hazard-striped launcher tube on his back.",
+   "correction": "He holds a mint-green and maroon rifle with a white salt-shaker canister on top as its magazine (A Salt Rifle) and shoulders a coral-red bazooka tube with glowing orange chevron windows, a checkered flared rear and a pink hexagonal muzzle cap (Bearzooka).",
+   "evidence": "Wiki Oliver3d.png and ASRconcept.png (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/asr.png; pixel-sampled), Bearzooka images as above."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "Green-and-dark-grey shoulder harness, small green backpack, no clothing.",
+   "correction": "Team-coloured bandana (headband), arm and leg bands and ammo straps, plus a backpack [Fan-wiki]. Red-team renders show a red headband, a bullet bandolier and red wrist and ankle bands with silver studs [Observed]. A green shoulder harness with a blue headband appears on the BBG-era icon Sw_boots.png (2013-01-13) [Observed], so the harness is a BBG option, not BB-1-only. Pick one look per short.",
+   "evidence": "Soldier (BBG)/Skins: 'featuring a bandana, arm and leg bands, and ammo straps, all coloured to the team. As with all characters, also a unique backpack.' Images: wiki Oliver3d.png, Photo_19-04-13_12_02_26_PM.png, Sw_boots.png (imageinfo timestamp 2013-01-13) in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/boots.png and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/bzdemo.png. This is a costume note outside weapons, flagged for the soul owner."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "a teal-masked sniper in a 2026 Steam screenshot, which is Astoria only by [Inference]",
+   "correction": "a teal-masked sniper in a Steam store screenshot that is a frame of the 2013 trailer footage reused on the 2026 store page (trailer 30.7 s), Astoria by [Inference]",
+   "evidence": "screen_01 matches trailer 30.7 s (pixel MSE; confirmed by both checks); the Steam trailer re-edits the May 2013 launch trailer."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "the 2026 trailer card shows a red faceted skin instead [Observed]",
+   "correction": "the Steam trailer card (2013 trailer footage reused on the 2026 store page) shows the red cracked-rock Rocky Horror skin instead [Observed; name per Fan-wiki]",
+   "evidence": "Trailer frames in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/punch.png match wiki ROcky_Horror.png (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/w_rskins.png); the Heavy (BBG) skin list has 'Rocky Horror' (250 Gas)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
+   "current_text": "Their look is undocumented, so designs, like the toothbrush prop, are [BBG News invention].",
+   "correction": "Their looks are documented by wiki in-game photos [Observed]. Beebeegun: a black gatling with orange-and-yellow striped panels and a striped hive with a bee on top; it is also on the official Jul 6, 2026 Steam banner. Hivey League: a grey multi-barrel gun with a yellow, bee-faced hive box. Barbed Gloves: puffy yellow gloves wrapped in black barbed wire. The glove in the Steam trailer (36.4\u201338.2 s) is the Blood Spurt, not a default. Only the toothbrush prop is [BBG News invention].",
+   "evidence": "Wiki Photo_19-04-13_12_50_44_PM.png and Photo_19-04-13_12_51_16_PM.png (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/beebee.png), Heavy.png (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-check/wiki/img/Heavy.png), Jul 6 banner (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/bee.png), glove comparison (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/glove_cmp.png)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "He has no splash card in the 2026 Steam trailer [Observed] and postdates the 2013 trailer's eight launch classes [Canon]",
+   "correction": "He has no splash card in the Steam trailer, which reuses the 2013 launch trailer's footage [Observed; Inference], and he postdates that trailer's eight launch classes [Canon: 'Choose from 8 classes']",
+   "evidence": "Trailer-provenance evidence (thumbnail and screenshot pixel matches); the 2013 YouTube description (rfAyqVJrli4) says 'Choose from 8 classes'."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "neither the 2013 BBG trailer nor the 2026 Steam trailer shows a splash card for her, and whether one exists elsewhere is unknown [Observed]",
+   "correction": "the Steam trailer is a re-edit of the 2013 BBG trailer footage and shows no splash card for her; whether one exists elsewhere is unknown [Observed; Inference]",
+   "evidence": "The 2013 YouTube thumbnails match Steam trailer frames (pixel MSE far below the median); only the 8 launch classes get cards."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "orange drill-gun",
+   "correction": "orange, claw-tipped emitter with a black ring and green lights (the Gamma Ray by [Inference]: it matches the wiki's Graham_default.png, 'Graham with the Gamma Ray', and the Gamma Ray HUD icon)",
+   "evidence": "Trailer card frames at 10.8 and 11.4 s (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-edit/sheet_cards.jpg); Graham_default.png (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/w_b1000.png); HUD icons in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/tref26.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "masked red-and-black trailer-card skin with an olive artillery shell",
+   "correction": "masked red-and-black trailer-card skin with the olive-and-yellow Phat Man missile on his back (its yellow X-eyed smiley tag shows in the trailer's missile-cam) [Observed; ID Inference]",
+   "evidence": "Trailer frames 28.4\u201329.0 s (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-edit/sheet_cards.jpg) and the 25.6\u201325.9 s missile-cam (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-check/tr/phat_sheet.png) match wiki Tillman_Phat_Man_copy.png (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/phat_w2.png). The wiki says it is 'a large, high damaging missile strapped to the Demo's jetpack'."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "orange-and-white gun-arm, blue energy blade [Observed: screenshot]",
+   "correction": "In the cited screenshot (wiki B-1000Skin.jpg, uploaded 2013-10-27) the right arm carries a long white, orange and black slab gun that matches the Bearail Gun (Bearail_G.jpg), not the Grenader's short orange drum; the 'blue energy blade' is three cyan claws on a white-and-orange gauntlet, the Shock N Claw [Observed comparison; ID Inference]. The default Grenader is the short orange-and-white launcher with a black hexagonal barrel and a black hose (wiki Grenader.jpg) [Observed]. Revisit 'gun-arm = Grenader is [Inference]' accordingly.",
+   "evidence": "Side-by-side /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-edit/b1000skin_cmp.png (B-1000Skin.jpg, downloaded via the wiki API, next to Bearail_G.jpg and Grenader.jpg); Shock N Claw wiki text: 'a robotic gauntlet with cyan-colored claws'."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "Last Resort (\"wait 3 seconds and then boom!\")",
+   "correction": "Last Resort, which the wiki now marks 'NOTE: THIS WEAPON IS REMOVED' (no date given) [Fan-wiki]; do not show it as a current default",
+   "evidence": "The Last Resort wiki page is headed 'NOTE: THIS WEAPON IS REMOVED' and says it 'was the default secondary weapon for the Assault class'."
+  }
+ ],
+ "open_questions": [
+  "Does the 2026 build add, remove or rebalance any weapon? No patch notes exist yet, and Steam's 80+ primaries and 50+ melees exceed the wiki's 76 and 46.",
+  "What did 'LIGHTING, EFFECT & TEXTURE IMPROVEMENTS' (final playtest, Oct 15) change in weapon effects?",
+  "Is the fan's 'Dark OCO Gauntlet' just the O.C.O. Gauntlet worn with the Dark O.C.O. skin, and what colour are its orbs in 2026?",
+  "Which weapon fires the magenta rounds in the IWGH-6K7fEc and 9nA-OaYAVzU thumbnails? Is it the Sci-Fi ASR?",
+  "O.C.O. Gauntlet: the wiki gives ammo 1 but also says 'Three orbs', and the 2013 demo HUD reads x/2. The wiki's 'dark blue core' also disagrees with the bright cyan core in the demo thumbnails. Which is right?",
+  "When did SkyVu add the Bearail Gun's visible golden beam, and was it present at the May 2013 launch?",
+  "When was the Last Resort removed, and what replaced it as the B-1000's default secondary?",
+  "On the Jul 6 banner, is the upright rainbow chainsaw the red Huggable's second Seesaw blade? What are the panda's three-pronged white rifle, the skull bear's lime camo gun and the eye-patched bear's grey gun?",
+  "What do the 'Z' on the Gamma Ray trefoil and the red translucent horned shape in the trailer's temple shot mean?",
+  "What do the Beebeegun and Hivey League bees, the Big Shot shell and the Grenader grenade look like in flight? No frame was found.",
+  "Why do 2026 HUD ammo readouts differ from wiki figures (A Salt Rifle 70/70 against 25; Gamma Ray 66/120 against 100)?",
+  "What does 'Premium' in the Steam trailer title mean? Will 2026 footage replace the 2013 recut on the store page?",
+  "What do the unwatched sources show? These are the JustNubz showcase (build 3.0.5), the Aug 21 livestream loadout chapter, the Oct 12 Q&A and the Oct 19\u201326 demo.",
+  "Did the Sept 2026 wiki stat edits (Hazard Toy, Energy Overflow, Rake) come from the 2026 playtests or from old knowledge?",
+  "What is the '2.54.0' build line? The wiki's version table stops at 2.25."
+ ]
+}

@@ -1,0 +1,249 @@
+{
+ "quickref": [
+  {
+   "weapon": "Doom Cloud",
+   "owner": "Botch (Assassin)",
+   "slot": "primary",
+   "status": "Default since BBG 2.1 (Jul 15, 2013); seen in 2026 playtests (Jul 30, Aug 9, Oct 2026); returns as Botch's Super in BB Heroes (2024)",
+   "look": "A translucent lime jelly-starfish blob (about #B0FF23) with about 5 drooping points; it looks bell-shaped from the side. It is 0.6-0.8 Botch-heads and floats at his shoulder or low in front. HUD icon: a plain lime five-armed splat (the 'white dome' is a separate second-slot icon).",
+   "firing_and_projectile": "Spins and rises overhead, then rains long tapering lime needles that turn yellow at the tips. The spread widens with height. Lasts 4 s; no melee or weapon switching meanwhile.",
+   "impact_end_result": "Damage only, and it hurts players under roofs. Yellow V-splashes on the floor; killed enemies fly apart. At the end it sinks and peters out in a green flash. It self-destructs if Botch dies or the cloud touches a surface.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Chaos Toss",
+   "owner": "Botch (Assassin)",
+   "slot": "primary",
+   "status": "100,000 Joules; on a 2.1 screen; changed in 2.6; in 2026 playtests. HUD clip shows 2 (2013-2014, Jul 2026) but 3 in one c.2013-14 HUD and on Oct 16, 2026 (cause unverified)",
+   "look": "A large translucent lime skeletal hand of faceted crystal bone segments (about #A5FD23), about 1 Botch-head, floating beside his paw. HUD icon: a lime skeletal hand.",
+   "firing_and_projectile": "Lobs a 'gleaming blob' on a slight arc at 1,250 u/s, about one per second. Yellow-green motes and green rays appear near targets; the blob itself has not been clearly seen.",
+   "impact_end_result": "No direct-hit damage. Bursts into a low rolling carpet of olive-green puffballs (about #477828) that poisons for 12/s over 6 s and stacks; Botch can poison himself. A skull icon appears over victims.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Toxic Plague",
+   "owner": "Botch (Assassin)",
+   "slot": "primary",
+   "status": "50 Gas, Level 10; added in 2.17 (Mar 8, 2015); not seen in 2026",
+   "look": "A pale-green lumpy cabbage/onion bulb with a stem below and a dark cap on top, about 0.3 Botch-heads, in a column of green glow. HUD icon: a round green cabbage-like ball (low resolution).",
+   "firing_and_projectile": "A thrown ball at 600 u/s that ricochets wildly off surfaces, projectiles and players, leaving a green gas trail. One per clip.",
+   "impact_end_result": "A tall glowing lime gas column or a broad yellow-green haze that poisons at 18/s for 3 s. It stacks the more victims move through it.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Cosmic Fire",
+   "owner": "Botch (Assassin)",
+   "slot": "primary",
+   "status": "60 Gas; added in 2.3 (Sep 27, 2013); changed in 2.6 (duration 5 vs 10 s conflict); not seen in 2026",
+   "look": "A palm flame with a white-hot core, lime tongues and teal sparks, about 0.5 Botch-heads. It is the 'green flame' in DefaultBotch2 and 7 skin shots. HUD icon: a lime flame with a white centre.",
+   "firing_and_projectile": "His palm thrusts forward and the flame becomes a broad, medium-range, pale yellow-lime flamethrower jet that passes through enemies. 2.3 concept art (BBG-branded 'Update 2.3 Botch Weapon Concept Art') shows a long wavy lime stream.",
+   "impact_end_result": "Continuous damage (65 DPS listed) to everyone in the cone. No status effect; Specials are blocked while firing.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Orbs",
+   "owner": "Botch (Assassin)",
+   "slot": "primary",
+   "status": "60 Gas; added in 2.7 (Jan 23, 2014); HUDs show a 50 clip vs the wiki's 60; not seen in 2026",
+   "look": "Two orbs, one hovering beside each paw (lime swirl core in a faceted yellow-white halo), about 0.25 Botch-heads each; they read bright yellow in play. HUD icon: a solid lime disc. They never circle him.",
+   "firing_and_projectile": "A continuous rapid laser (0.05 s, 3 damage per shot) until the clip is empty. A thin pale-yellow line is visible only at low resolution.",
+   "impact_end_result": "The target glows in a lime halo with white flashes. Hit damage only, then a long 5-6 s reload.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Energy Bombs",
+   "owner": "Botch (Assassin)",
+   "slot": "primary",
+   "status": "60 Gas; added in 2.7; 2.17 damage glitch fixed in 2.19 (Apr 26, 2015); 4-round clip on HUD (2017); not seen in 2026",
+   "look": "A glowing lime sea-mine ball with short pyramid spikes (about #ACF83F), about 0.25 Botch-heads, floating above his shoulder. HUD icon: a lime spiked ball.",
+   "firing_and_projectile": "One trigger fires bombs in all 4 directions around Botch. The bombs have not been clearly seen in flight.",
+   "impact_end_result": "Each explodes on contact with an enemy or solid object (25-35 splash); no status. No blast has been seen: the orange fireball in q8ExD3R4A7w is the enemy's own muzzle blast.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Hazard Toy",
+   "owner": "Botch (Assassin)",
+   "slot": "primary",
+   "status": "60 Gas; added in 2.27 (May 29, 2017); missing from the wiki class page but in Category:Assassin; HUD clip 2 (2017), 4 (2018), 3 (2021, 2024); not seen in 2026",
+   "look": "A three-bladed fidget spinner of dark translucent bottle-green (about #1F4C21) with lime rims and a ringed hub, about 1 Botch-head across. HUD icon: a black radiation trefoil with a lime hub.",
+   "firing_and_projectile": "Spinners fly straight at 1,100 u/s and skim low; 1.5 s rate of fire.",
+   "impact_end_result": "An explosion (25-50) plus weak stacking poison (4 per second over 5 s). Seen as purple skull-faced puffs in 2018 but green haze and a green skull icon in 2021, so the colour is unresolved.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Pain Field",
+   "owner": "Botch (Assassin)",
+   "slot": "secondary",
+   "status": "Default since 2.1; a pink second-slot icon in the Oct 16, 2026 HUD is probably this weapon",
+   "look": "Idle: a small pink-red honeycomb orb (about #E25572), about 0.3 Botch-heads, at his side. His only magenta weapon. HUD and store icon: a pink hex ball.",
+   "firing_and_projectile": "Deployed in place. It balloons into a huge translucent magenta-violet sphere of faceted hex plates (about #B557D5) lasting 15 s.",
+   "impact_end_result": "No damage of its own. Everyone inside, allies included, takes 50% more damage. No overhead icon and no slow.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Fear Orbit",
+   "owner": "Botch (Assassin)",
+   "slot": "secondary",
+   "status": "100 Gas in the 2.1 store (60 Gas per the wiki); in 2.1 after a pre-release poison change; changed in 2.6; seen in 2024 (build 2.53.6); not seen in 2026",
+   "look": "Two lime soccer-ball-lattice spheres, about 0.25 Botch-heads each, drifting around him and trailing yellow-green dots. HUD and store icon: a lime lattice ball.",
+   "firing_and_projectile": "On activation the spheres orbit him violently for 5 s at very short range; his primary stays usable.",
+   "impact_end_result": "Touch poisons for 24 DPS over the duration. Pale yellow-green skull-faced blobs seen in a 2024 Fear Orbit + Hazard Toy loadout (either weapon could have caused them).",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Cosmic Bomb",
+   "owner": "Botch (Assassin)",
+   "slot": "secondary",
+   "status": "120,000 Joules; added in 2.3 (Sep 27, 2013); minimum damage raised in 2.6 (infobox 450 vs the 2.6 note's 400); not seen in 2026",
+   "look": "Charge: a white-cored lime ball held at his chest, lighting him green, about 0.4 Botch-heads. Its HUD icon is probably the small white-domed second-slot icon (inference).",
+   "firing_and_projectile": "A 3 s charge, then a lob straight up through roofs. It falls back within a 10 s round trip as a vertical comet: yellow head at the bottom, white middle, pale cyan tail. It does not home.",
+   "impact_end_result": "A big translucent green sphere blast with a white core and a chain of rising green ellipses. It hits the first thing it meets, can hurt Botch, and projectiles can detonate it.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Nova",
+   "owner": "Botch (Assassin)",
+   "slot": "secondary",
+   "status": "60 Gas; added in 2.7 (Jan 23, 2014); seen in a 2021 loadout; not seen in 2026",
+   "look": "No held prop. HUD icon: a lime ring with radiating inner spikes (sunburst or iris).",
+   "firing_and_projectile": "A ground eruption: a 'huge column of green energy' springs up near Botch. A green-white flare is seen at use (attribution is inference).",
+   "impact_end_result": "Two explosive hits (15-30 each) in a moderate area. The column stops at Botch's feet, so a player under him is safe. No image of the column has been found.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Gravity Well",
+   "owner": "Botch (Assassin)",
+   "slot": "secondary",
+   "status": "150,000 Joules; added in 2.7; HUD 2/2 and disc in flight in the Sep 20, 2026 playtest",
+   "look": "A glowing lime frisbee disc with a bright centre and segmented ring (about #B3FD0C), about 0.5 Botch-heads, held tilted. HUD icon: a disc with a dashed ring.",
+   "firing_and_projectile": "A fast straight throw at 650 u/s, 2 per clip; seen in flight as a flat lime ellipse streak.",
+   "impact_end_result": "Explodes on any surface (40-50) as a translucent faceted lime half-dome about bear-sized, sometimes paler or with a cyan inner shell; enemies fly apart. Botch can kill himself with it.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Crass Knuckles",
+   "owner": "Botch (Assassin)",
+   "slot": "melee",
+   "status": "Default since 2.1 (on a 2.1 matchmaking screen); equipment bonuses cut in 2.6; not seen in 2026",
+   "look": "An oversized translucent lime crystal fist bristling with spikes (about #ADFE24), 1.0-1.2 Botch-heads, floating over his paw. Store icon: a lime spiked fist.",
+   "firing_and_projectile": "A punch; the giant crystal fist thrusts forward into the frame.",
+   "impact_end_result": "70 melee damage, no status.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Ball N Pain",
+   "owner": "Botch (Assassin)",
+   "slot": "melee",
+   "status": "45,000 Joules; on a 2.1 matchmaking screen; changed in 2.6; seen in the Sep 20, 2026 playtest menu",
+   "look": "A mottled green sphere with bright lime pyramid spikes (about #4ED611), about 0.9 Botch-heads, floating off his paw with no chain. Store icon: a lime spiked ball.",
+   "firing_and_projectile": "A swing; the huge spiked ball sweeps through the foreground.",
+   "impact_end_result": "40 melee damage and a +30% special-speed modifier. No status.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Tonguechuks",
+   "owner": "Botch (Assassin)",
+   "slot": "melee",
+   "status": "20 Gas, Level 5; added in 2.21 (Jul 3, 2015); not seen in 2026",
+   "look": "A physical nunchuck stick: black hex-mesh grip with red spiral stripes (about #AC192A), a silver spiked ball cap and a carved green fanged end, about 0.8 Botch-heads. The store icon shows the same single stick. Only one stick has been seen clearly.",
+   "firing_and_projectile": "A whirling nunchuck swing; a black-red stick with green ends was seen crossing an enemy (low resolution, 2018).",
+   "impact_end_result": "40 melee damage, +5% speed. No status. The chain or 'tongue' has not been seen.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Doom Star (BB Heroes only)",
+   "owner": "Botch (BB Heroes 2024)",
+   "slot": "other",
+   "status": "BB Heroes basic attack only; not in BBR or BBG; attack damage +15% in BBH 1.0.12 (Oct 3, 2024)",
+   "look": "Unknown: no image found (not on the wiki or in the BBH App Store screenshots).",
+   "firing_and_projectile": "Per official text, a boomerang that flies out and returns.",
+   "impact_end_result": "Can hit twice ('potentially dealing double damage'). No status stated.",
+   "confidence": "documented"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "green flame in one hand [Observed: screenshot].",
+   "correction": "Remove the flame from his base look, or tag it '(Cosmic Fire primary equipped; added 2.3)'. His 2.1 default loadout is Doom Cloud + Pain Field + Crass Knuckles; for the default look, show the lime starfish Doom Cloud beside him.",
+   "evidence": "The same palm flame is the Cosmic Fire infobox image (File:CosmicFire.jpg). It appears in File:DefaultBotch2.jpg and in Brown, Emo, Green, Jester, Purple and White Botch (all uploaded 2013-10-27) and Dry Bones (2013-10-24), all after 2.3 (Sep 27, 2013). File:BotchSkin.jpg (2.1) and https://i.ytimg.com/vi/3LlUZgQWmWQ/hq3.jpg show the Doom Cloud / Pain Field / Crass Knuckles loadout [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/botch-verify/sheets/skins_sheet.png; extra_sheet2.png; sheet_3LlUZgQWmWQ.png]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "[shot]: https://battlebears.fandom.com/wiki/File:DefaultBotch2.jpg",
+   "correction": "Point the default-look reference at https://battlebears.fandom.com/wiki/File:Botch_Skin.jpg (or File:BotchSkin.jpg). These show the default skin with the default Doom Cloud; DefaultBotch2.jpg has the Cosmic Fire equipped.",
+   "evidence": "Botch_Skin.jpg (2013-07-27) and BotchSkin.jpg (2013-07-23, '2.1' loadout: SKIN Botch, PRIMARY Doom Cloud, SECONDARY Pain Field) show the lime jelly Doom Cloud beside him [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/botch-verify/sheets/extra_sheet2.png]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "Floating a few inches up, feet dangling, faint lime-green particles below, a small green flame in one paw.",
+   "correction": "Floating a few inches up, feet dangling, faint lime-green particles below; a translucent lime-green starfish-shaped jelly blob (his default Doom Cloud) floats beside one shoulder.",
+   "evidence": "The palm flame is the Cosmic Fire weapon (see above). The Doom Cloud idle look appears in Botch_Skin.jpg, BotchSkin.jpg and the 2026 menu thumbnail https://i.ytimg.com/vi/Rt0mWn6rk0c/hqdefault.jpg [Observed]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "two glowing orbs circling him",
+   "correction": "Replace with 'a translucent lime-green starfish blob bobbing at his shoulder'. If orbiting is wanted, write 'two lime-green soccer-ball-lattice spheres orbiting him' (Fear Orbit). Never show the Orbs circling.",
+   "evidence": "Orbs: one yellow-lime orb beside each paw, firing beams; the wiki says 'Botch holds one floating orb each in his hands' (Orba.jpg; https://i.ytimg.com/vi/i2sOzyNII3c/hq1.jpg). Fear Orbit: two lattice spheres that 'circle the Assassin' (FearOrbitCR.jpg, FearOrbit2.jpg). Neither is a default [Observed; Fan-wiki]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "extras include Orbs, Fear Orbit, Cosmic Bomb, Gravity Well and Toxic Plague [Fan-wiki]",
+   "correction": "List all 15. Primaries: Doom Cloud (default), Chaos Toss, Toxic Plague, Cosmic Fire, Orbs, Energy Bombs, Hazard Toy. Secondaries: Pain Field (default), Fear Orbit, Cosmic Bomb, Nova, Gravity Well. Melees: Crass Knuckles (default), Ball N Pain, Tonguechuks [Fan-wiki]. BB Heroes only: Doom Star [Canon].",
+   "evidence": "Category:Assassin (API member list fetched 2026-10-17) contains exactly these 15 weapon pages. Hazard Toy is missing from the class page, but its infobox says Class: Assassin. Updates dates the additions to 2.1, 2.3, 2.7, 2.17, 2.21 and 2.27."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "**Idle:** a hover-bob with the Fear Orbit's \"orbs of poison spinning around\" him [Game text via wiki] ([Fear Orbit][fear]); using it as his idle, and the twitching notched ear, are [BBG News invention].",
+   "correction": "This may stay as a labelled invention, but draw two lime lattice spheres drifting passively; they 'orbit the Assassin violently' only when activated. Preferred: use the default Doom Cloud bobbing at his shoulder as his idle companion.",
+   "evidence": "Fear Orbit is a non-default secondary (100 Gas in the 2.1 store per File:FearOrbit.jpg; 60 Gas per the wiki). Its look is in FearOrbitCR.jpg and FearOrbit2.jpg. The 2.1 and 2026 menus show the Doom Cloud as the idle companion [Observed; Fan-wiki]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "toxic effects #6CF542 [BBG News invention]",
+   "correction": "Use these sampled values instead: constructs about #A5FD23-#B0FF23; Cosmic Bomb blast about #19EE50-#7DFB6C; Pain Field #E25572 idle and about #B557D5 deployed; Hazard Toy #1F4C21, with purple poison (about #471C63) in 2018 and green in 2021; Tonguechuks black, red #AC192A, silver and green; Orbs and the Cosmic Bomb comet yellow about #FEFE84.",
+   "evidence": "Script-sampled medians from DoomCloudCR, ChaosTossCR, CrassKnucklesCR, Explosion.jpeg, PainFieldCR, Imagef, HazardToy, the 3jvibvJFq44 hq3 thumbnail, Image41.PNG and Bolt.jpeg, re-downloaded 2026-10-17 [Observed; sampled]. #6CF542 (hue about 106\u00b0) is greener than the constructs (hue about 82\u00b0)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "skull (outside Dry Bones), brown, purple or pink fur (outside named skins), guns, logos, text, hazard symbols, watermarks",
+   "correction": "Add exceptions for weapon scenes: allow poison-status skull bubbles (green, yellow-green or purple) and the Hazard Toy's trefoil shape. Otherwise record that dropping them is a deliberate house-style choice.",
+   "evidence": "Status Effects: 'a purple/green skull will appear over the player's head' [Fan-wiki]. Skull-faced blobs appear in https://i.ytimg.com/vi/Vud8zYOqiUI/hq3.jpg (green), https://i.ytimg.com/vi/9eMX3h86_fc/hq1.jpg (yellow-green) and https://i.ytimg.com/vi/3jvibvJFq44/hq3.jpg (purple). The Hazard Toy HUD icon is a radiation trefoil, and the weapon is a three-bladed spinner (HazardToy.jpeg) [Observed]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "Glass cannon, 90 health, \"Ahh, destruction!\", the item-text jokes [Game text via wiki].",
+   "correction": "Say 'about 85 health on most in-game HUDs (2015, 2016, 2024, 2026; 2021 HUDs show 90; the wiki template says 90)'.",
+   "evidence": "2.4 (Oct 24, 2013): 'Assassin's health was slightly reduced and speed slightly increased' [Fan-wiki: Updates]. HUD 85/85 in ToxicPlague.PNG (2015), 'Wee!' Says Botch.png (2016), 9eMX3h86_fc hq1 (2024), vG31XcG7yT8 hq1 (Jul 30, 2026), dz4iqZE8nQE maxres (Oct 16, 2026) and 1MP1rFi4t-Q hq1 (Oct 2026). HUD 90/90 or 50/90 in Vud8zYOqiUI and i0T3nsHNoiM (Mar-Apr 2021) [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/botch-verify/crops/hp_stack.png and hp_stack2.png]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "a blue-lit band on the arm or wrist [Observed: icon]",
+   "correction": "Note that BBG in-game renders show grey arm guards with red lights. Blue-lit bands belong to promo and concept art (2013) and the 2024 BBH icon, not the in-game BBG model.",
+   "evidence": "Red-lit guards appear in DoomCloudCR, Orba, BallNPain and all the skin shots. Blue lights appear in File:Botch.jpg (promo, uploaded 2013-06-26), CosmicBombConceptArt.png (2.3 concept art) and the BBH icon [Observed]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "**Friends Are the Best:** Botch throws a birthday party for his two laser Orbs, and Wil, the only guest, dodges \"friendly\" fire all the way to the cake.",
+   "correction": "Keep the logline, but draw the Orbs accurately: one orb hovers beside each paw (lime core in a yellow-white halo, reading bright yellow in action) and fires thin yellow beams. They never orbit him, and targets that are hit glow green.",
+   "evidence": "Orba.jpg; https://i.ytimg.com/vi/i2sOzyNII3c/hq1.jpg; https://i.ytimg.com/vi/IxPMbHWYKuI/hq2.jpg [Observed]."
+  }
+ ],
+ "open_questions": [
+  "Which of Botch's 15 BBG weapons ship in the Nov 4, 2026 build? Fan thumbnails show Doom Cloud, Chaos Toss, Gravity Well and Ball N Pain, plus a pink second-slot icon (probably Pain Field) and a lime lattice-ball second-slot icon (possibly Fear Orbit). The JustNubz showcase (39:57-44:12) and the Oct 19-26 Next Fest demo are unwatched.",
+  "Chaos Toss clip: the wiki and most HUDs show 2, but Kal's c.2013-14 HUD and the Oct 16, 2026 HUD show 3. Is that Ammo+2 equipment or a 2026 rebalance?",
+  "Hazard Toy clip: HUDs show 2 (Jun 2017), 4 (May 2018) and 3 (2021, 2024). When and why did it change?",
+  "Hazard Toy poison colour: purple skull puffs in 2018 vs green haze and a green skull icon in 2021. Was it changed between versions, and which colour should shorts use?",
+  "Orbs: is the clip 50 (all HUDs 2014-2016) or 60 (wiki)? Is the reload 5 s or 6 s?",
+  "Fear Orbit price: 100 Gas in the 2.1 store (File:FearOrbit.jpg) vs 60 Gas on the wiki. When did it change?",
+  "Health: 85 on most HUDs but 90 on 2021 HUDs. Was it a version change or equipment?",
+  "Wiki conflicts: Cosmic Fire duration (5 vs 10 s) and stat modifier (None vs positive Health); Cosmic Bomb minimum damage (400 vs 450); Chaos Toss damage (12/s vs 15); Crass Knuckles and Ball N Pain melee bonuses.",
+  "What do the Nova column, the Energy Bombs bombs and blast, the Orbs beam (full resolution) and the Chaos Toss blob in flight look like? None has been seen.",
+  "What is the magenta electric crackle that wraps Botch across many weapons and years (hit reaction, special, pickup or team effect)?",
+  "Is the small white-dome second-slot HUD icon in Cosmic Bomb-titled videos really the Cosmic Bomb icon?",
+  "Tonguechuks: what links the sticks (chain or literal 'tongue')? Is the green fanged end a creature head?",
+  "What does the BB Heroes Doom Star look like? No image was found on the wiki or in the App Store screenshots.",
+  "Can SkyVu's own post of the BBG-logo 'Update 2.3 Botch Weapon Concept Art' graphic (File:Botch23Preview2.png, wiki upload 2013-09-24) be found to confirm it is official?",
+  "Need SkyVu's exact patch-note wording for 2.1, 2.3, 2.6, 2.7, 2.17 and 2.27. Wayback was unreachable again on 2026-10-17 (12 attempts)."
+ ]
+}
