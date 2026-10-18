@@ -1,418 +1,401 @@
-# Oliver (Soldier): gap addendum
+<!-- gap pass 1 -->
+# Oliver (Soldier): gap addendum, round 2
 ## Sake Bomb, Solar Wind Scar, Steamshot, Bearzooka, Minigun, Sci-Fi HASR, HASR, Soaker, Spreadshot, Kumakiri
 
-This addendum covers only the open gaps listed for Oliver. It builds on the verified dossier at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/oliver.md. Oliver is Battle Bears Gold's Soldier ("-SOLDIER: Oliver" [Canon, Steam]).
+This addendum covers only the open gaps listed for Oliver. Oliver is Battle Bears Gold's Soldier ("-SOLDIER: Oliver" [Canon, Steam]). It replaces the round-1 addendum at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/oliver.addendum.md. I re-opened that pass's key crops myself and checked them against new evidence. Where round 1 was wrong or incomplete, I say so.
 
-**What I could reach (Oct 17–18, 2026)**
-- **YouTube metadata.** I fetched titles, channels, upload dates, descriptions and chapter lists for 44 videos through youtubei/v1/next. That covers every video ID named in the gaps, plus new leads:
-  - m2Yp2QY2OCA, "Battle Bears Oliver Weapons Demonstrations", Bob Stuntsville, Aug 10, 2018.
-  - ucPTtnEjLbk, "I sucks but [I AM BACK]! Oliver overhaul gameplay.", Apr 26, 2014.
-  - G1Z5XxhF6CU, "BATTLE BEARS GOLD "OLIVER SETUP"", Jun 28, 2013.
-  - _JeiI0KrSbA, "Longest steam shot ever?!", Nov 1, 2015.
-  - 9nA-OaYAVzU, "SCI-FI ASR + STEAMSHOT Is a NASTY Combo", droid BBG, Sep 21, 2026.
-  - SkyVu's own 9qYIIH8NV-4.
-- **YouTube thumbnails.** I downloaded every available variant (hqdefault, hq1–3, sddefault, sd1–3, maxresdefault, maxres1–3; up to 1280×720) for 37 videos.
-- **YouTube chapter frames.** I downloaded YouTube's signed chapter frames for m2Yp2QY2OCA (at 27.0, 69.9, 182.8 and 361.833 s) and 9qYIIH8NV-4.
-- **Fan wiki (MediaWiki API).** Pages: Sake Bomb, Solar Wind Scar, Steamshot, Bearzooka (BBG), Minigun (Soldier), Sci-Fi HASR, Heavy A Salt Rifle, Soaker, Spreadshot (BBG), Kumakiri, Status Effects, Pick-Ups, Bearscream Sandwich, Shield, Battle Bears Gold/Versions and Soldier (BBG). I also downloaded File:A_life_upside_down.jpg at 2048×1536.
-- **Official Steam trailer.** I extracted my own frames at 15 fps from 1.8 to 3.2 s.
+**What is new this round: YouTube storyboard frames, including SkyVu's own video.** YouTube's player is still blocked here (LOGIN_REQUIRED). The public Invidious API at invidious.f5.si, however, returns each video's storyboard spec: the signed i.ytimg.com/sb/<id>/storyboard3_L<n>/M<k>.jpg URLs. Those sprite sheets download from i.ytimg.com.
+- I downloaded the largest storyboard level for 40 videos and sliced it into frames. That level is 120–320 px wide, one frame every 1, 2, 5 or 10 s depending on video length.
+- I watched no video. Every "t=" below is a storyboard tile time (tile index × interval). Each tile is YouTube's preview frame near that time [Inference from the storyboard convention].
+- The Invidious video-stream proxy sits behind an Anubis bot challenge. I did not try to bypass it.
 
-**Blocked**
-- YouTube player and storyboards:
-  - WEB, MWEB and ANDROID_VR returned LOGIN_REQUIRED.
-  - WEB_EMBEDDED_PLAYER returned "This video is unavailable".
-  - TVHTML5_SIMPLY_EMBEDDED returned "no longer supported".
-- YouTube transcripts: get_transcript returned 400 FAILED_PRECONDITION and timedtext returned 429. So Trevor's spoken overhaul notes could not be read.
-- web.archive.org reset the connection three times.
-- Everyplay, where most of these clips were recorded, is defunct.
+The most important new source is SkyVu's own **"BATTLE BEARS GOLD Developer Update - Oliver Overhaul"** (BATTLE BEARS channel, 9qYIIH8NV-4, Apr 25, 2014, 240 s; 320×180 storyboard every 2 s). Its frames show nearly every gap weapon firing in an official video, with the HUD naming the weapon in hand.
 
-**What the YouTube evidence is.** I watched no videos. All YouTube evidence below is single frames: YouTube's automatic thumbnails, which come from roughly 25/50/75% of the video [Inference], custom thumbnails, or signed chapter frames.
+**Other sources reached today**
+- Fan wiki (MediaWiki API), re-fetched: Sake Bomb, Solar Wind Scar, Steamshot, Bearzooka (BBG), Minigun (Soldier), Sci-Fi HASR, Heavy A Salt Rifle, Soaker, Spreadshot (BBG), Kumakiri, Status Effects, Bearscream Sandwich, Pick-Ups, Shield.
+- Wiki file metadata for the 2013 demo clips. "File:Oliver Secondary - Steamshot-0" = YouTube F2rsMmK6K68, Dban1, Apr 15, 2013, 37 s.
+- Storyboards of the 2026 showcase -lAtv-j9Sms (JustNubz, Sep 20, 2026, "(from Closed Playtest #4)"; 320×180 every 10 s), Soldier chapter 4:35–8:50.
 
-**Folder key.** [G] = /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-gaps/
-- thumbs/<id>_<variant>.jpg: copies of https://i.ytimg.com/vi/<id>/<variant>.jpg.
-- crops/: my sheets and zooms.
-- kf/<id>_<ms>_hqdefault.jpg: signed chapter frames.
-- tr_frames/r_NNN.png: trailer frame at 1.8 + (NNN−1)/15 s.
-- img/: wiki files.
-- next/: metadata.
+**Blocked:** the YouTube player, transcripts and the Invidious stream proxy. I did not retry web.archive.org this round.
 
-Hex values are medians I sampled with Python under game lighting, so treat them as approximate.
+**Folder key (absolute)**
+- [R] = /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/gaps_r2/
+  - sb/<id>/f_<ms>.jpg: storyboard frames.
+  - sb/<id>/cs_NN.jpg: contact sheets.
+  - z/: my zooms.
+  - inv/: Invidious metadata.
+  - wiki/: wikitext.
+  - thumbs/: 2013 demo thumbnails.
+- [G] = /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-gaps/ (round-1 crops and thumbnails, re-opened this round where cited).
 
-## Method notes and shared findings (they change how several gap observations read)
-- **The HUD weapon icon is the current weapon.**
-  - The top-right icon and the ammo counter under it belong to the weapon in hand.
-  - Proof from vUDdCvfaKK4 (Jun 4, 2021):
-    - The Sake Bomb icon shows 2/4 while the jug is in hand [Observed, [G]crops/vUDd_m3.jpg].
-    - A ring-rifle icon shows 16/50 while a rifle is in hand [Observed, [G]crops/vUDd_m1.jpg].
-  - I used this to tie frames to weapons [Inference from these observed pairs].
-- **Numbered thumbnails are not always in time order.**
-  - In 2B8GQKOWDbQ, maxres2 reads timer 2:55 with 5/5 ammo, and maxres1 reads 2:51 with 4/5 [Observed].
-  - The match timer counts down, so maxres2 comes first [Inference].
-- **Magenta crackling ring arcs come from a pickup, not from any gun.**
-  - File:A_life_upside_down.jpg (uploaded Apr 27, 2013 by ApplerGamers) is captioned on the wiki's Bearscream Sandwich page "A Solider with the Bearscream Sandwich." [Fan-wiki, "Solider" sic].
-  - It shows the Sam-Are-I Oliver ringed by crackling magenta arcs (≈ #F75FF6, bright #FE7FFF) [Observed, [G]img/A_life_small.jpg; zoom [G]crops/alife_arcs.jpg].
-  - The same arcs appear around the Minigun (3xfq8nO2cDY, whose kill feed reads "POWER UP"), around the Bearzooka (mTVPzAM0m7o sd3), and at a ring-rifle in 2021 (vUDdCvfaKK4 maxres1) [Observed].
-  - So they are the Bearscream Sandwich damage buff, not a weapon effect [Inference, high].
-  - The wiki conflicts on the buff's size: it "doubles the damage of all the player's weapons for 20 seconds" (Bearscream Sandwich page) vs "Triples the amount of damage the player deals for twenty seconds." (Pick-Ups page) [Fan-wiki].
-- **Green glow with green shield icons is the Shield pickup or respawn protection.**
-  - Wiki: "shields will circle around the player, making them immune to damage for 10 seconds" and "When the player respawns, they have the shields for 4.5 seconds (to discourage spawn killing)." [Fan-wiki, Shield].
-  - Seen on BLUESHOCK in 2B8GQKOWDbQ maxresdefault, and in IqHSyVVvCQw maxres3, sYpY-ZHHlkg hq3 and w2AhIi7WYRU maxres2 [Observed].
-- **Other overlays that are not weapon effects** [Fan-wiki, Status Effects]:
-  - Coffee mug = Caffeinated ("a coffee mug will appear over the player's head"; Caffeine Injection).
-  - Purple fist = Damage Enhanced ("a purple fist symbol"; Propbearganda).
-  - Yellow "Z" = Slowed.
-  - I saw all three in these clips [Observed].
+Hex values are medians I sampled with Python (scripts in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/scripts_oliver_gaps_r2/). They come from tiny, compressed frames under game lighting, so treat them as approximate.
+
+Scale follows the BBG News chart: Oliver = 1.0x.
+
+## Shared findings (they change how several gap observations read)
+
+**1. SkyVu's 2014 overhaul video is a weapon-by-weapon official reference.** Its on-screen text, in order:
+- "Battle Bears Gold BaLaNcE uPdAtE" (t=10 s);
+- "OLIVER OVERHAUL" (t=20–44 s), over a render of Oliver holding the brass Steamshot with HEALTH/SPEED bars;
+- "Secondary Weapon Changes" (t=120–122 s);
+- an end card "OLIVER OVERHAUL / BATTLE BEARS ULTIMATE / ROAD TO BBU" (t=210 s).
+
+These are [Canon: SkyVu on-screen text, Observed in storyboard frames [R]z/ov_cards.jpg]. The description reads: "This week, Oliver receives the first overhaul! Trevor explains in detail all of the changes made to this elite Solider class." [Canon, YouTube description via Invidious; "Solider" sic].
+
+HUD readings in that video [Observed; zooms [R]z/ov_icons_pri.jpg, ov_hud.jpg, ov_hud2.jpg, ov_148_hud.jpg, ov_190hud.jpg]:
+
+| Weapon | Time in video | HUD ammo |
+|---|---|---|
+| ASR | 56–60 s | white-shaker icon |
+| HASR | 66–68 s | 21/30, 10/30 |
+| Soaker | 72–82 s | 25/50, 0/50, 28/50 |
+| Sci-Fi HASR | 88–94 s | 17/20, 4/20, 16/20 |
+| Bearzooka | 126–134 s | 1/2 |
+| TNT-type grey tube | 138–146 s | 0/1 |
+| Spreadshot | 148–154 s | 2/3, 1/3 |
+| Sake Bomb | 162–180 s | 17/20 → 0/20 |
+| Rockette | 184–190 s | 1/4 |
+
+**2. Fan clips were recorded with equipment, so their magazines are not base values.** Ammo+ equipment adds rounds [Fan-wiki]. All the ammo readings below are "magazine seen on screen", not base stats [Inference].
+
+**3. The 2026 playtest build has every gap weapon** [Observed, -lAtv-j9Sms storyboard, grids [R]z/show_sold_a.jpg, show_sold_b.jpg, show_sold_c.jpg]. The Soldier loadout lists:
+- Primaries: ACREAMBO PISTOLS, MINIGUN, OCO GAUNTLET, SOAKER, SCI-FI HASR, SCI-FI ASR, A SALT RIFLE, HEAVY A SALT RIFLE, URINE TROUBLE (t=410–460 s).
+- Secondaries: SOLAR WIND SCAR, SAKE BOMB, STEAMSHOT, ROCKETTE LAUNCHER, BEARZOOKA, TNT LAUNCHER, SPREADSHOT (t=470–490 s).
+- Melees: KUMAKIRI, DISCIPLINARIAN, B.E.A.R. CLUB, QUEENSBURY RULES, KRIKKIT BAT (t=500–520 s).
+
+The 2026 in-game descriptions match the wiki's quoted texts word for word (details per weapon below). The class card (t=280 s) reads: "OLIVER THE SOLDIER IS A WELL ROUNDED FIGHTER WITH DECENT SPEED AND HEALTH. USE HIS STARTING BEARZOOKA CAREFULLY AS IT IS EASY TO KILL YOURSELF WITH IT!" [Observed: SkyVu game text in the 2026 playtest build, seen in a fan-video frame].
+
+Release content could still differ from Playtest #4 [Inference].
+
+**4. Overlays that are not weapon effects** [Fan-wiki, Status Effects/Shield; Observed in these clips]:
+- The white coffee mug is Caffeinated.
+- Green glow with shield icons is the Shield pickup or respawn protection: "shields will circle around the player, making them immune to damage for 10 seconds".
+- The yellow "Z" is Slowed.
+
+**5. Magenta crackling arcs are not tied to any one gun.** I saw them around:
+- the TNT-type tube in SkyVu's video (t=138–140 s, 0/1);
+- Oliver's hands in KZ4o3mztMtM (t=20–22 s);
+- the Solar Wind Scar in 6tCraoXnI_E (t=36, 118 s);
+- the Minigun in [G]crops/mini_3xfq_sd3.jpg.
+
+So they are a player-state effect, not a weapon effect [Inference, high]. Round 1 identified them as the Bearscream Sandwich buff from the wiki caption on File:A_life_upside_down.jpg. I did not re-open that image this round [Inference, carried over]. The wiki page says the pickup "doubles the damage of all the player's weapons for 20 seconds" [Fan-wiki, Bearscream Sandwich].
 
 ---
 
-## Sake Bomb (secondary; BBR v1.3.2, 2012; reworked to a ~20-round version around the Apr 2014 Oliver Overhaul; back to 4 rounds by Jun 2021)
+## Sake Bomb (secondary; BBR v1.3.2, 2012; x/20 sprayer in SkyVu's Apr 2014 overhaul; x/4–6 by 2021; listed in the 2026 playtest)
 - **Official text:** "A shot from this will make you wine and stumble." [Game text via wiki] (https://battlebears.fandom.com/wiki/Sake_Bomb).
-- **Wiki stats** [Fan-wiki]:
+- **Wiki** [Fan-wiki]:
   - "Secondary - Saboteur"; ammo 4; rate of fire 1 s; reload 3 s; duration 4.0 s; 1000 u/s.
-  - Equipment: "Ammo +1 | + 1 bullets", "Ammo +2 | + 2 bullets".
-  - "fires non-damaging projectiles in an arc ... they will receive a control reversal for 4 seconds".
-- **SkyVu on the overhaul:** "This week, Oliver receives the first overhaul! Trevor explains in detail all of the changes made to this elite Solider class." [Canon, description of 9qYIIH8NV-4, BATTLE BEARS channel, Apr 25, 2014; "Solider" sic]. The changes themselves are spoken in the video and could not be read here.
-- **Era evidence (HUD readings with the Sake Bomb icon)** [Observed]:
-  - Jan 5, 2014: 4/5 and 5/5 (2B8GQKOWDbQ, CheeseclanBBG, "Sake Bomb Demonstration"). That is 4 plus Ammo +1 [Inference].
-  - Apr 26, 2014: 20/20 (ucPTtnEjLbk sd1, fan title "Oliver overhaul gameplay") [[G]crops/ucPT_sd1_hud.jpg].
-  - Apr 29, 2014: 13/28 and 28/28 (DxHcbyg9oPg, Hammad Shahid, fan title "Oliver Overhaul: Sci Fi ASR+Sake Bomb!") [[G]crops/DxHc_def_hud.jpg].
-  - Jan 25, 2018: 5/28, 23/28 and 15/28 (zQMAJ2DRVhw, SW, title "... - Battle Bears Gold 2.28") [[G]crops/zQMA_m1_hud.jpg].
-  - Aug 10, 2018: 1/20 (m2Yp2QY2OCA chapter frame at 361.833 s) [[G]crops/m2Yp_361_z.jpg].
-  - Jun 4, 2021: 2/4 (vUDdCvfaKK4 maxres3).
-  - Jun 23, 2021: 2/6 and 6/6 (L0REouUo-68 sddefault and maxres3). That is 4 plus Ammo +2 [Inference].
-- **What the readings mean.**
-  - The 20- and 28-round magazines cannot come from the wiki's 4 + 1/+2.
-  - So the Sake Bomb became a roughly 20-round weapon right after SkyVu's Apr 25, 2014 overhaul. That version lasted at least to Aug 2018, and the weapon was back to 4 rounds by Jun 2021 [Inference from dated HUD readings]. 28 is probably 20 plus Ammo equipment [Inference].
-  - No changelog reached confirms the dates. The wiki page does not mention the 20-round version.
-  - 2026 status: no 2026 source names the Sake Bomb [Unverified].
-- **Look in play**
-  - **From behind, in hand.** It is held at his right shoulder: a squat, faceted, dark-maroon body (≈ #66181A–#6F1920). It carries red-orange teardrop or flame decals (≈ #EC4727, bright #FB7143) outlined in yellow (≈ #FAD044), plus a round red-orange emblem with a spiral, kanji-like mark [Observed: [G]thumbs/2B8GQKOWDbQ_maxres1.jpg, _maxres2.jpg; [G]crops/NORn_m2.jpg; [G]crops/vUDd_m3.jpg; [G]crops/L0RE_m2_spikes.jpg; [G]crops/m2Yp_361_z.jpg].
-  - These decals match the "leaf motifs" and emblem on the wiki's SAKEBOMB.png [Inference]. About head-sized, 0.3–0.35x [Inference].
-  - **Front.** A white Daruma face with heavy black brows, a dark open neck and a tan rope loop:
-    - in the 2018 demo's "Secondaries" card, an in-game render ([G]crops/m2Yp_182_z.jpg, 182.8 s);
-    - carried by a teammate in Nov 2017 ([G]crops/hasr_xvZd_m1.jpg);
-    - on the HUD icon ([G]crops/L0RE_m2_hud.jpg) [Observed].
-- **Firing**
-  - Lob version (2012–early 2014 and again by 2021): "fires non-damaging projectiles in an arc" [Fan-wiki]. No frame shows it in flight [Unverified].
-  - ~20-round version (from Apr 2014): with 13/28 on the HUD, a cream-white crown of liquid (≈ #DFD7BE) splashes up out of the jug's neck. Small white droplet streaks fly ahead toward the crosshair [Observed, [G]crops/DxHc_def_jug.jpg from DxHcbyg9oPg maxresdefault; same frame as maxres2].
-  - In an Apr 26, 2014 overhead frame at 20/20, long curving trails of cream-white beads cross the grass near Oliver [Observed, [G]crops/sake_ucPT_sd1.jpg]. That they are sake is an [Inference].
-- **Projectile**
-  - Lob version: undocumented [Unverified].
-  - ~20-round version: white droplets in a short spray [Observed, as above].
-- **Impact / end result**
-  - **Jan 2014 (lob era)**
-    - With 4/5 on the HUD (one jug just thrown), a burst engulfs the target "SIRIS": chunky, faceted cream puffs (≈ #D5BBAD–#D0BAA6) and smooth white ovals (≈ #E4E4E3) [Observed, [G]crops/sake_puff.jpg].
-    - In another frame of the same clip, a glossy, slime-like lime "?" floats beside SIRIS's name tag. It has a dark outline (shade ≈ #51A406, light ≈ #61E51A) and a separate oval "dot" [Observed, [G]crops/sake_qmark.jpg]. SIRIS is in the foreground under its name tag, so the "?" is read as SIRIS's [Inference]. This is the controls-reversed icon.
-    - Wiki: "a green question mark will appear over the player's head"; "background music will be disabled and other sounds will feature an mild echo" [Fan-wiki, Status Effects; "an mild" sic].
-  - **Correcting the gap note**
-    - In 2B8GQKOWDbQ maxresdefault, the green glow with three shield icons is on a different player, BLUESHOCK. That is the Shield effect, not the Sake Bomb.
-    - In maxres3 the yellow five-point stars and short yellow bars burst around SIRIS while the HUD reads 52/80 with the Sci-Fi HASR icon equipped. So the stars are rifle hits [Observed; Inference].
-  - **2015–2018 (~20-round era)**
-    - May 2015: a small green "?" over a distant target, with grey-white puffs around it [Observed, [G]crops/NORn_m2.jpg].
-    - Jan 2018 [Observed, [G]thumbs/zQMAJ2DRVhw_maxres2.jpg, _maxres3.jpg; [G]crops/zQMA_m3_center.jpg, zQMA_m1.jpg]:
-      - white puff balls and faceted chunks, and flat white disc "splats" on the floor;
-      - the big lime "?" over nearby players;
-      - a small "?" under the shooter's own HUD portrait, so he reversed himself, which the wiki allows ("including the user").
-    - Aug 2018 (361.833 s): a white foamy splash spreads on the ice at Oliver's feet. A multicolour flash (magenta, white, yellow, green, cyan) with cream puffs bursts at a target as a kill registers [Observed, [G]crops/m2Yp_361_z.jpg]. Attribution is an [Inference, low].
-  - **Jun 2021 (lob era again)**
-    - With 2/6 on the HUD, a crown of lime-green crystalline spikes (≈ #9AFE31, bright #D1FF41) bursts from a ledge just under a white enemy [Observed, [G]crops/L0RE_m2_spikes.jpg].
-    - That this is the Sake Bomb's landing splash is an [Inference, medium].
-  - The weapon does no damage: "The Sake Bomb is the Soldier's only weapon that cannot damage opponents." [Fan-wiki].
-- **Images viewed**
-  - [G]crops/2B8GQKOWDbQ_sheet.jpg; [G]thumbs/2B8GQKOWDbQ_maxresdefault.jpg, _maxres1.jpg, _maxres2.jpg, _maxres3.jpg; [G]crops/sake_def_icon.jpg, sake_qmark.jpg, sake_puff.jpg
-  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-final/crops/sprite_soldier.png
-  - [G]crops/vUDdCvfaKK4_sheet.jpg, vUDd_m3.jpg
-  - [G]crops/zQMAJ2DRVhw_sheet.jpg; [G]thumbs/zQMAJ2DRVhw_maxres2.jpg, _maxres3.jpg; [G]crops/zQMA_m3_center.jpg, zQMA_m1.jpg, zQMA_m1_hud.jpg
-  - [G]crops/L0REouUo-68_sheet.jpg, L0RE_m2_spikes.jpg, L0RE_m2_hud.jpg
-  - [G]crops/NORn6h4Qq7Y_sheet.jpg, NORn_m1.jpg, NORn_m2.jpg
-  - [G]crops/DxHcbyg9oPg_sheet.jpg, DxHc_def_hud.jpg, DxHc_def_jug.jpg
-  - [G]crops/ucPTtnEjLbk_sheet.jpg, sake_ucPT_sd1.jpg, ucPT_sd1_hud.jpg, ucPT_def_hud.jpg
-  - [G]crops/m2Yp_kf_sheet.jpg (from [G]kf/m2Yp2QY2OCA_{27000,69900,182800,361833}_hqdefault.jpg), m2Yp_361_z.jpg, m2Yp_182_z.jpg
-  - [G]crops/hasr_xvZd_m1.jpg
-- **Depiction for shorts**
-  - Classic (2013) version: Oliver lobs the Daruma jug in an arc.
-    - On contact, a pop of chunky cream puffs and white ovals swallows the target.
-    - A glossy lime "?" with a separate dot springs up over the target's head.
-    - The target walks the wrong way for a 4-second beat while the music cuts out.
-    - All of this is observed or documented.
-  - 2014–18 version: the jug sprays a cream-white splash from its neck, and the splats land as flat white discs [Observed].
-  - A cartoon "hic!" from the victim is a [BBG News invention].
-- **Confidence:** partial. Impact and status icon are observed; the lob-era projectile is unknown.
-
-## Solar Wind Scar (secondary; BBG v2.11, Aug 27, 2014; Gas item)
-- **Official text:** "Cut a star in half and imbued it with power. It's said that even standing in it wake will singe the flesh." [Game text via wiki] (https://battlebears.fandom.com/wiki/Solar_Wind_Scar; "it wake" sic).
-- **Wiki stats:** "Secondary - Radiation Explosives"; damage 45.0; radiation 70 per second; duration 4.0 s; ammo 1; reload 4.0 s; 1000 u/s [Fan-wiki].
-- **HUD readings:** 1/1 and 0/1 in Dec 2014 (KZ4o3mztMtM), Sep 2015 (6tCraoXnI_E), Feb–Apr 2016 (IqHSyVVvCQw, cKOHCD5LBN8, IY1AVcEzDr8) [Observed]. That matches ammo 1.
-- **Look in play**
-  - A long silver blade held upright in the right hand, rising above his head (about 1.0–1.2x), with a dark-and-gold/orange hilt.
-  - The HUD icon is the sword with a gold-orange guard.
-  - Sources [Observed]: [G]crops/sws_KZ4o_sd1.jpg (tan skin, blue headband, lava map); [G]thumbs/IqHSyVVvCQw_maxres1.jpg (black skin with glowing orange lava cracks); [G]crops/sws_6tCr_m2.jpg; [G]crops/sws_IY1A_m1.jpg. Scale is an [Inference].
-- **Firing:** one swing, then the HUD drops to 0/1 and a 4 s reload [Observed; Fan-wiki].
-- **Projectile**
-  - A long, thin orange crescent or streak, tapered at both ends, slightly curved, with flame texture: ≈ #EB7F0D, bright core ≈ #F69520 [Observed].
-    - In flight in mid-air over Sky View (cKOHCD5LBN8 maxres2, timer 2:56, HUD 0/1) [[G]crops/sws_cKOH_crescent.jpg].
-    - Leaving the blade diagonally at launch, in two custom thumbnails built on gameplay frames (6tCraoXnI_E and IqHSyVVvCQw maxresdefault) [[G]crops/sws_6tCr_def.jpg, sws_IqHS_def.jpg].
-  - At mid range the crescent is about as long as a bear is tall [Inference].
-  - Wiki: "creates an orange slash, that travels in a straight direction. It will travel through walls" [Fan-wiki]. Passing through walls is not observed.
-- **Impact / end result**
-  - **Radiation icon.** A flat yellow disc (≈ #FBCC0B) split into six segments by thin black spokes around a black centre hole, floating near a bear's head [Observed]:
-    - IqHSyVVvCQw maxres2, Feb 2016 [[G]crops/sws_IqHS_m2_icon.jpg];
-    - IY1AVcEzDr8 maxres1, Apr 2016, over an enemy whose whole model is tinted bright lime [[G]crops/sws_IY1A_m1.jpg].
-    - This matches the wiki: "a yellow circle will appear over the player's head and a noise from a Geiger counter will begin sounding"; "three portions of the circle will dissolve into the common radioactivity symbol"; at 100 RP the target explodes with a blast radius "between 150-200 units" [Fan-wiki, Status Effects].
-  - The lime tint looks like the Shield glow seen elsewhere, so it may not be a radiation effect [Inference, low].
-  - In cKOHCD5LBN8 maxres2, a dark bear tumbles in mid-air with pink flecks just behind the flying crescent [Observed]. Cause: [Inference].
-  - The "dark, circular radiation belt" [Fan-wiki] is not seen in any frame [Unverified].
-  - Unattributed in cKOH (maxresdefault and maxres2): a straight lime-green line (≈ #56DA34, bright #96F352) from near Oliver's blade to a bear on the fort [Observed; source unknown].
-- **Images viewed**
-  - [G]crops/cKOHCD5LBN8_sheet.jpg; [G]thumbs/cKOHCD5LBN8_maxresdefault.jpg, _maxres2.jpg; [G]crops/sws_cKOH_crescent.jpg
-  - [G]crops/IqHSyVVvCQw_sheet.jpg, sws_IqHS_def.jpg, sws_IqHS_m2_icon.jpg; [G]thumbs/IqHSyVVvCQw_maxres1.jpg
-  - [G]crops/6tCraoXnI_E_sheet.jpg, sws_6tCr_def.jpg, sws_6tCr_m2.jpg
-  - [G]crops/KZ4o3mztMtM_sheet.jpg, sws_KZ4o_sd1.jpg
-  - [G]crops/IY1AVcEzDr8_sheet.jpg, sws_IY1A_m1.jpg
-- **Depiction for shorts**
-  - One big two-handed swing flings a long flaming-orange crescent that flies straight (observed).
-  - The struck bear gets the yellow six-segment radiation disc over its head and Geiger clicks (observed and documented).
-  - The dark radiation ring on the floor is documented but its look is unseen. A dark smoky ring is a [BBG News invention].
-  - Show any 100-RP pop as a cartoon burst with confetti.
-- **Confidence:** observed (slash and icon); belt unknown.
-
-## Steamshot (secondary; BBR v1.3.1 week 1, 2012; 30 Gas): no new visual of the steam
-- **Official text:** "Steam power the demise of your enemies and look dapper while doing it. The gentleman's weapon, for a man who knows taste and isn't afraid to melt a face." [Game text via wiki] (https://battlebears.fandom.com/wiki/Steamshot).
-- **Wiki:** "When activated, it releases a quick spread of damaging green steam." [Fan-wiki].
-- **Look** [Observed, [G]crops/m2Yp_182_z.jpg, 2018 demo "Secondaries" card at 182.8 s]:
-  - a brass body;
-  - a green glass dome in a brass cage;
-  - two copper stacks with green gems;
-  - a silver rod barrel;
-  - a gold honeycomb muzzle disc with round holes.
-  - This matches the verified dossier.
-- **Firing, projectile, impact:** still not seen. What I checked:
-  - **sDVr1PqEHC4** (Hammad Shahid, Mar 22, 2015, "BBG- Oliver ASR+Steamshot Combo Gameplay"; 264 s per the wiki file metadata).
-    - Wiki file page File:BBG- Oliver ASR+Steamshot Combo Gameplay: uploaded May 2, 2015 by Thecheeselover. The API's imageusage lists no page embedding it today.
-    - In its 1280×720 maxresdefault and maxres1–3, the HUD shows only the ASR icon, and the ammo digits are missing [Observed].
-    - There is no Steamshot on screen and no green steam.
-    - maxres1 shows a dark-brown splatter on the boardwalk floor [Observed; unattributed].
-  - **_JeiI0KrSbA** ("Longest steam shot ever?!", Nov 1, 2015) [Observed]: a blue x/36 primary; a pale yellow-green translucent cone at the muzzle; and a bat at 0/2. No Steamshot icon or model can be identified.
-  - **9nA-OaYAVzU** (2026, "SCI-FI ASR + STEAMSHOT") [Observed]: only the grey rifle with magenta muzzle glow and magenta orbs, plus a white smoke column rising to an airborne enemy. That column is probably a jump plume [Inference].
-- **Images viewed:** [G]crops/sDVr1PqEHC4_sheet.jpg; [G]thumbs/sDVr1PqEHC4_maxres1.jpg; [G]crops/_JeiI0KrSbA_sheet.jpg, steam_Jei_def.jpg, steam_Jei_sd1.jpg, steam_Jei_sd3.jpg; [G]crops/9nA-OaYAVzU_sheet.jpg, 9nA_def.jpg, 9nA_m3.jpg; [G]crops/m2Yp_182_z.jpg.
-- **Depiction for shorts:** unchanged from the verified dossier. A short cone of steam from the honeycomb muzzle; its colour is [Unverified] (green per the wiki). A pale green-white mix stays a compromise [Inference].
-- **Confidence:** partial (look); projectile unknown.
-
-## Bearzooka (BBG) (secondary; default since BBR v1.0, 2011; named in SkyVu's 2026 Steam copy; seen in the 2026 trailer)
-- **Official text:** "The basic weapon of any Soldier. Does a good amount of damage, with a decent area of effect (AOE). Useful for all situations." [Game text via wiki] (https://battlebears.fandom.com/wiki/Bearzooka_(BBG)). Steam: "Grab your A Salt Rifle, Bearzooka and those Turkish SW Boots..." [Canon].
+  - "fires non-damaging projectiles in an arc. If any opponents (including the user) are hit within its small AoE, they will receive a control reversal for 4 seconds."
+  - "The face on the Weapon is  a Daruma."
+- **Version history from HUD readings with the Daruma-jug icon** [Observed]:
+  - Jan 5, 2014: 4/5 and 5/5 (2B8GQKOWDbQ; [G]crops/2B8GQKOWDbQ_sheet.jpg). This is pre-overhaul; 4 plus Ammo+1 [Inference].
+  - **Apr 25, 2014, SkyVu's own video:** 17/20, 9/20, 4/20, 3/20, 5/20, 0/20, RELOAD (9qYIIH8NV-4 t=162–180 s; [R]z/ov_sake.jpg, ov_sake2.jpg).
+  - Apr 26, 2014: 20/20 ([G]crops/ucPT_sd1_hud.jpg).
+  - Jan 25, 2018: 5/28 ([G]crops/zQMA_m1_hud.jpg). 28 is probably 20 plus Ammo equipment [Inference].
+  - Aug 10, 2018: 1/20 (m2Yp2QY2OCA chapter frame at 361.833 s; [G]crops/m2Yp_361_z.jpg). Also 6 left at t=345 s ([R]z/m2Yp_345.jpg).
+  - Jun 4, 2021: 2/4 ([G]crops/vUDd_m3.jpg).
+  - Jun 23, 2021: 2–5 (L0REouUo-68 t=2–74 s; [R]z/L0RE_hud.jpg). Round 1 read a max of 6; the "/6" is too small to read in my zoom.
+  - **Conclusion:** the overhaul made it a ~20-round weapon. That lasted at least to Aug 2018, and it was back to the wiki's 4 (+equipment) by Jun 2021 [Inference from dated, official and fan HUD readings].
+  - 2026: "SAKE BOMB" is in the Playtest #4 secondary list [Observed, [R]z/show_sold_b.jpg t=470–480 s]. Its 2026 magazine was not shown.
 - **Look**
-  - **Which end is the muzzle (settled).** In the 2015 custom thumbnail of 0ZbJ0-Za5Ws, Oliver points the tube at the camera [Observed, [G]crops/bz_0ZbJ_muzzle.jpg from [G]thumbs/0ZbJ0-Za5Ws_maxresdefault.jpg]:
-    - the wide end has a pink hexagonal end cap (tube ≈ #A95E54) around a dark round bore;
-    - a band of grey-and-coral checkers sits directly behind that cap on the flared section;
-    - glowing yellow-orange rectangular panels (≈ #E79925, bright #F4A936) sit between grey hex collars;
-    - the narrower rear has a grey hex collar.
-    - The thumbnail looks like an in-game render [Inference].
-    - So the checker band, the pink hex cap and the bore are all on the same muzzle end.
-  - Jun 2013 loadout (G1Z5XxhF6CU sd2, "2.0" in the corner): the Zombie skin holds it muzzle-on, showing the pink hex rim and dark bore [Observed, [G]crops/G1Z5_sd2.jpg].
-  - Mar 2014: candy-cane skin, rear plate toward the camera, 3/3 [Observed, [G]crops/bz_7WSX_def.jpg].
-  - Aug 2014: rear view at 4/4 [Observed, [G]crops/mTVPzAM0m7o_sheet.jpg sd1 and sd3]. The magenta arcs in sd3 are the Bearscream buff.
+  - **From behind, in hand:** a squat, faceted, dark-maroon jug (body ≈ #471D15 in shadow) with yellow-outlined red-orange flame or teardrop decals (≈ #D89550 sampled from few pixels; round 1 measured ≈ #EC4727 in a sharper frame). It is held at his right shoulder [Observed, [R]z/ov_sake.jpg].
+  - **Front, shown when he flips it during reload** (SkyVu video t=180 s; L0REouUo-68 t=24 s): a white Daruma face with heavy black brows, and a round red emblem with a gold kanji-like mark [Observed, [R]z/ov_sake2.jpg, [R]z/L0RE_a.jpg]. The HUD icon has the same face and a tan rope loop [Observed, [R]z/sake_huds.jpg].
+  - About head-sized, roughly 0.3–0.35x his height [Inference].
+- **Firing**
+  - On every shot, in 2014, 2018 and 2021 alike, **a cream-white "crown" of liquid splashes up out of the jug's neck**, with small white droplets flying ahead [Observed]:
+    - SkyVu video t=168 s at 4/20 ([R]z/ov_sake.jpg);
+    - m2Yp2QY2OCA t=345 s ([R]z/m2Yp_345.jpg);
+    - L0REouUo-68 t=26, 46, 50, 52, 72 s at 4/5/4/2/3 ([R]z/L0RE_a.jpg);
+    - DxHcbyg9oPg ([G]crops/DxHc_def_jug.jpg).
+  - So the neck splash is the firing effect of both the 20-round and the 4-round versions. That corrects round 1, which tied it to the 20-round version only [Observed; Inference].
+  - Muzzle-splash colour: cream-white. Round 1 measured ≈ #DFD7BE; I did not re-sample it.
+  - Sound is undocumented.
+- **Projectile**
+  - Small white droplets and blobs [Observed, SkyVu video t=168 s; L0REouUo-68 t=26 s].
+  - In Jan 2018, white blobs mid-air and flat white disc "splats" on the floor ([G]thumbs/zQMAJ2DRVhw_maxres2.jpg, [G]crops/zQMA_m3_center.jpg) [Observed].
+  - Whether the arc the wiki describes is visible cannot be judged from single frames [Unverified].
+- **Impact / end result**
+  - **SkyVu video, Apr 2014** [Observed, [R]z/ov_sake.jpg, ov_sake2.jpg, ov_sake_tgt.jpg]:
+    - at t=166–178 s, grey smoke puffs (≈ #888987) and then cream puff chunks (≈ #E1DCE0) swallow the target "PLAYER 152192";
+    - a small green "?" (≈ #6BB058, a few pixels) sits under the target's name tag at t=162–170 s.
+  - **Jan 2014 (2B8GQKOWDbQ)** [Observed, [G]crops/2B8GQKOWDbQ_sheet.jpg]:
+    - maxres1 (4/5): SIRIS is engulfed in cream and white puffs;
+    - maxresdefault: a big glossy lime "?" with a separate dot under the name "SIRIS".
+  - **Nov 2017:** the shooter of the HASR clip xvZdk873arU has a big green "?" beside his own HUD, with white puffs nearby, so an enemy Sake Bomb hit him [Observed, [R]sb/xvZdk873arU/cs_01.jpg t=78 s].
+  - **Aug 2018:** a white foamy splash at his feet and a multicolour kill flash at the target [Observed, [G]crops/m2Yp_361_z.jpg]. Crediting the flash to the Sake Bomb is an [Inference, low].
+  - **Jun 2021:** a lime spike splash under an enemy ([G]crops/L0RE_m2_spikes.jpg) [Observed]. Crediting it to the Sake Bomb is an [Inference, medium].
+  - Wiki on the status [Fan-wiki, Status Effects]: "a green question mark will appear over the player's head"; "background music will be disabled and other sounds will feature an mild echo" ("an mild" sic).
+  - "The Sake Bomb is the Soldier's only weapon that cannot damage opponents." [Fan-wiki].
+- **Images viewed:** [R]z/ov_sake.jpg, ov_sake2.jpg, ov_sake_tgt.jpg, L0RE_a.jpg, L0RE_hud.jpg, m2Yp_345.jpg, sake_huds.jpg, sake_prev.jpg, vUDd_a.jpg, m2Yp_kf_182_361.jpg; [R]sb/9qYIIH8NV-4/cs_00–05.jpg; [R]sb/xvZdk873arU/cs_01.jpg; [R]sb/NORn6h4Qq7Y/cs_01.jpg; [G]crops/2B8GQKOWDbQ_sheet.jpg, DxHc_def_jug.jpg, zQMA_m3_center.jpg, L0RE_m2_spikes.jpg; [G]thumbs/zQMAJ2DRVhw_maxres2.jpg.
+- **Depiction for shorts**
+  - Oliver swings the maroon flame-decal jug forward. A cream-white crown splashes from its neck and white droplets fly out (observed).
+  - Where they land, grey smoke and cream puffs pop around the target, flat white splats mark the floor, and a glossy lime "?" with a separate dot springs up over the victim's head (observed). The victim walks the wrong way for 4 seconds while the music drops out (documented).
+  - On reload he flips the jug to flash the Daruma face (observed).
+  - A cartoon "hic!" is a [BBG News invention].
+- **Confidence:** observed.
+
+## Solar Wind Scar (secondary; BBG v2.11, Aug 27, 2014; Gas item; listed in the 2026 playtest)
+- **Official text:** "Cut a star in half and imbued it with power. It's said that even standing in it wake will singe the flesh." [Game text via wiki] (https://battlebears.fandom.com/wiki/Solar_Wind_Scar; "it wake" sic). The same words appear in the 2026 build: "CUT A STAR IN HALF AND IMBUED IT WITH POWER. IT'S SAID THAT EVEN STANDING IN IT WAKE WILL SINGE THE FLESH." [Observed, -lAtv-j9Sms t=470 s, [R]z/show_sold_b.jpg]. The 2026 stat panel shows a "RADIATION" bar; its value is not legible at 320×180 [Observed, [R]z/show_stats2.jpg].
+- **Wiki** [Fan-wiki]:
+  - "Secondary - Radiation Explosives"; damage 45.0; radiation 70 per second; duration 4.0 s; ammo 1; reload 4.0 s; 1000 u/s.
+  - "creates an orange slash, that travels in a straight direction. It will travel through walls, and when it hits someone, a dark, circular radiation belt will spawn."
+- **Look**
+  - A long silver blade with a gold/orange guard, held upright in the right hand and rising above his head (about 1.0–1.2x) [Observed: m2Yp2QY2OCA t=190–205 s with a sword icon at 0, [R]z/m2Yp_b.jpg; scale Inference].
+  - Round 1 also logged the upright blade in KZ4o/IqHS/IY1A thumbnails. The wiki sprite "sws" is a straight silver blade with a gold guard [Observed, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-final/crops/sprite_soldier.png].
+- **Firing:** one swing [Fan-wiki: ammo 1]. The blade sparkles yellow at the hilt just after a swing (m2Yp t=200 s) [Observed].
+- **Projectile**
+  - **A long, thin, flame-textured orange crescent**, tapered at both ends and slightly curved: ≈ #E07C0F–#E47D10, bright core ≈ #F49810–#F59A10 [Observed].
+  - **In 6tCraoXnI_E (Sep 30, 2015):** at t=36, 72, 84, 118, 198 and 204 s it leaves Oliver's right side diagonally up and to the right. On screen it is longer than the bear is tall [Observed, [R]z/sws_6tCr.jpg; scale Inference].
+  - **In cKOHCD5LBN8 (Apr 22, 2016):** in flight at t=0–1 and 5–7 s [Observed, [R]z/cKOH_a.jpg].
+  - **In IY1AVcEzDr8:** at t=370 s [Observed, [R]z/sws_IY1A.jpg].
+  - Passing through walls is not seen [Unverified].
+- **Impact / end result**
+  - **Radiation icon.** In IqHSyVVvCQw (Feb 13, 2016), a flat yellow disc (≈ #E7C038, bright #F4CE40) floats in mid-air at t=70 and t=164–172 s [Observed, [R]z/sws_IqHS_rad.jpg]:
+    - at t=164–166 s it is a full disc with a dark centre;
+    - at t=168, 170 and 172 s a wedge is missing, and the wedge grows.
+  - That this is the Irradiated stage icon matches the wiki: "a yellow circle will appear over the player's head and a noise from a Geiger counter will begin sounding"; "three portions of the circle will dissolve into the common radioactivity symbol" [Fan-wiki, Status Effects]. The match is an [Inference]. At this resolution only one missing wedge is visible.
+  - Whose head the disc floats over is not clear; it hangs above Oliver's side of the frame [Unverified].
+  - At 100 RP the target explodes; "The blast radius caused by an exploding irradiated opponent is between 150-200 units." [Fan-wiki].
+  - The "dark, circular radiation belt" is not seen in any frame [Unverified].
+  - **Unattributed:** a lime-green line (≈ #68C142, bright #91E95A) in cKOHCD5LBN8 at t=5 s [Observed; source unknown].
+- **Images viewed:** [R]z/sws_6tCr.jpg, sws_6tCr_after.jpg, cKOH_a.jpg, sws_IqHS_rad.jpg, IqHS_a.jpg, sws_IY1A.jpg, sws_KZ4o.jpg, m2Yp_b.jpg, show_sold_b.jpg, show_stats2.jpg; [R]sb/cKOHCD5LBN8/cs_00.jpg; [R]sb/IqHSyVVvCQw/cs_00.jpg, cs_01.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-final/crops/sprite_soldier.png.
+- **Depiction for shorts**
+  - One big upward-diagonal swing flings a long flaming-orange crescent that flies straight (observed).
+  - The struck bear gets a yellow disc over its head that loses wedges as Geiger clicks speed up (observed and documented).
+  - A dark smoky ring on the floor for the documented "radiation belt" is a [BBG News invention]. Show any 100-RP pop as a confetti burst.
+- **Confidence:** observed (slash and icon); the belt is unknown.
+
+## Steamshot (secondary; BBR v1.3.1 week 1, 2012; 30 Gas; listed in the 2026 playtest): the green steam is now seen
+- **Official text:** "Steam power the demise of your enemies and look dapper while doing it. The gentleman's weapon, for a man who knows taste and isn't afraid to melt a face." [Game text via wiki] (https://battlebears.fandom.com/wiki/Steamshot). The identical text appears in the 2026 build [Observed, -lAtv-j9Sms t=480 s].
+- **Wiki** [Fan-wiki]:
+  - "Secondary - Shotgun"; damage 35; rate of fire 1.5 s; ammo 3; reload 5 s.
+  - "It is a retexture of the [[Spreadshot (BBG)]]".
+  - "When activated, it releases a quick spread of damaging green steam."
+  - The page embeds "File:Oliver Secondary - Steamshot-0" as "Steamshot Weapon Demonstration". Its file metadata gives videoId F2rsMmK6K68, "[Oliver]: Secondary - Steamshot", Dban1, 37 s, uploaded Apr 15, 2013 [Fan-wiki file metadata via API].
+- **Look:** a brass body, green glass domes, copper stacks and a honeycomb hex muzzle. This is the gun Oliver holds in SkyVu's "OLIVER OVERHAUL" title render (9qYIIH8NV-4 t=30–44 s) [Observed, [R]z/ov_cards.jpg]. It matches the verified dossier. About 0.55–0.7x [Inference].
+- **Firing / projectile**
+  - **2013 wiki demo F2rsMmK6K68:** at t=3, 17 and 26 s a **spiky lime-green starburst** (≈ #80BC41, bright ≈ #99CD54) bursts at the muzzle and fans forward [Observed, [R]z/F2rs_a.jpg, F2rs_burst.jpg].
+    - The HUD icon in these frames has the same shape as the brass Steamshot icon in the clip's thumbnails, which read 1/3, 0/3, 1/3 and 2/3 [Observed, [R]z/F2rs_hud.jpg, F2rs_thumbs.jpg].
+    - This is late BBR, one month before the BBG rename [Inference from date].
+  - **2018 demo m2Yp2QY2OCA:** at t=245 s the HUD shows the brass Steamshot icon at 2 (3 at t=235 s). **A long column of streaky lime-green spray** (bright ≈ #88F760) streams forward from the gun toward the targets [Observed, 160×90, [R]z/m2Yp_235.jpg, m2Yp_245_z.jpg, m2Yp_hud3.jpg].
+  - So the "green steam" is real: a short, spiky lime burst at the muzzle that streams forward as green streaks. The wiki's "green" is right, and the verified dossier's white-or-green question is settled for colour [Observed].
+- **sDVr1PqEHC4 (the gap's named source, Hammad Shahid, Mar 22, 2015, "BBG- Oliver ASR+Steamshot Combo Gameplay"):**
+  - I checked the HUD every 4 s (67 frames, [R]z/sDVr_icons.jpg) and the 9 greenest frames ([R]z/sDVr_green.jpg).
+  - Every readable icon is the ASR. No Steamshot icon and no green steam appear [Observed absence].
+  - Shots are 1.5 s apart and the storyboard samples every 2 s, so the clip may still contain Steamshot shots [Inference].
+- **Impact / end result**
+  - In the 2013 demo thumbnail hq1 (0/3, just after a shot), the target throws off a white puff and a trail of small pink flecks [Observed, [R]z/F2rs_thumbs.jpg]. Crediting this to the Steamshot is an [Inference].
+  - Whether the steam lingers on the target is [Unverified].
+- **Images viewed:** [R]z/F2rs_a.jpg, F2rs_b.jpg, F2rs_burst.jpg, F2rs_hud.jpg, F2rs_thumbs.jpg; [R]sb/F2rsMmK6K68/cs_00.jpg, cs_01.jpg; [R]z/m2Yp_235.jpg, m2Yp_245_z.jpg, m2Yp_hud3.jpg, m2Yp_c.jpg, m2Yp_d.jpg; [R]z/sDVr_icons.jpg, sDVr_green.jpg, sDVr_full_a.jpg, sDVr_28.jpg, sDVr_hud.jpg, sDVr_def_hud.jpg, sDVr_m1_center.jpg; [G]crops/sDVr1PqEHC4_sheet.jpg; [R]z/ov_cards.jpg.
+- **Depiction for shorts**
+  - The dapper brass gun hisses out a short, spiky lime-green burst that streams forward as green streaks (observed).
+  - The target is left coughing in a white puff with pink flecks (observed style).
+  - Keep "melt a face" offscreen: a sooty, steaming bear is a [BBG News invention].
+- **Confidence:** partial. Firing and projectile are now observed at low resolution; the impact is only an Inference.
+
+## Bearzooka (BBG) (secondary; default since BBR v1.0, 2011; x/2 in SkyVu's Apr 2014 overhaul; named in SkyVu's 2026 Steam copy; in the 2026 trailer and playtest)
+- **Official text**
+  - "The basic weapon of any Soldier. Does a good amount of damage, with a decent area of effect (AOE). Useful for all situations." [Game text via wiki] (https://battlebears.fandom.com/wiki/Bearzooka_(BBG)).
+  - Steam: "Grab your A Salt Rifle, Bearzooka and those Turkish SW Boots..." [Canon].
+  - 2026 class card: "USE HIS STARTING BEARZOOKA CAREFULLY AS IT IS EASY TO KILL YOURSELF WITH IT!" [Observed, 2026 playtest text, -lAtv-j9Sms t=280 s].
+- **Look** [Observed]
+  - A coral hexagonal shoulder tube (≈ #9F5D5E, highlight #B4696C), with glowing orange-yellow panels and a pink hexagonal muzzle cap around a dark round bore.
+  - SkyVu's official store render in the overhaul video shows Oliver shouldering it muzzle-to-camera (t=198 s, [R]z/ov_198.jpg).
+  - The 2026 playtest render shows the same design on a black lava-crack skin (t=490 s; tube ≈ #9E5E5D, bright #B5625C; [R]z/show_bear500.jpg).
+  - In a 2015 render the checker band sits right behind the pink muzzle cap ([G]crops/bz_0ZbJ_muzzle.jpg).
+  - It is the same design from 2013 to 2026. About 0.6–0.7x his height [Inference].
 - **Firing**
   - **HUD history** [Observed]:
-    - 0/1 and 1/1 in Apr 2013 (verified dossier);
-    - 3/3 on Mar 10, 2014 (7WSXU2LaxYo);
-    - 4/4 on Aug 14, 2014 (mTVPzAM0m7o);
-    - 4/4, 0/4 and 2/4 on Jul 25, 2015 (0ZbJ0-Za5Ws; the uploader's listed set includes "Ammo+2").
-  - **Wiki conflicts** [Fan-wiki]:
-    - infobox ammo 1;
-    - text "has two shots without additional ammo";
-    - equipment table Ammo +1/+2 = "+ 0 bullets";
-    - planned "Incoming stats": ammo 3, Ammo +1 "+1 rocket", Ammo +2 "+2 rockets".
-  - 4 rounds with Ammo +2 fits a base of 2 plus 1 per level. It does not fit the Incoming stats (3 + 2 = 5). So by 2014–15 the base was probably 2 [Inference].
-  - **Launch (2015).** At 2/4, just after a shot, round grey smoke puffs (≈ #605751–#6A5B52 under lava light) bunch at the muzzle. A dotted line of grey puffs leads to a bigger grey puff cloud downrange. The rocket body itself is not visible [Observed, [G]thumbs/0ZbJ0-Za5Ws_maxres3.jpg].
-- **Projectile (2026 official trailer, 2.87–3.00 s)** [Observed, [G]tr_frames/r_017.png–r_019.png; crops [G]crops/tr_rocket_017.jpg, tr_rocket_018.jpg, tr_rocket_019.jpg]:
-  - a hexagonal rocket with a grey hex nose cone;
-  - a grey body with glowing orange-yellow rectangular panels (≈ #FFAF0E, highlights #FFE329);
-  - a dark rear collar studded with small red squares;
-  - a tail of 3–4 long, spiky orange-yellow flames.
-  - It flies from near a distant green-furred, blue-headbanded bear toward and past the camera.
-  - That this is a Bearzooka rocket is an [Inference, medium-high]. It shares the tube's hex-and-glowing-panel design, and the verified dossier shows that green bear shouldering the Bearzooka at about 4 s.
-  - Its size against a bear cannot be measured, because it passes close to the camera.
-- **Impact / end result (2026 trailer, 2.67–2.87 s)** [Observed, [G]crops/tr_blast_strip.jpg from r_014–r_017]:
-  - 2.73 s: a faceted orange-yellow blast outlined with white crackle lines hits the B-1000's chest.
-  - 2.87 s: a large soft yellow fireball (core ≈ #FFE01E) as the B-1000 is flung upward trailing flame.
-  - That a Bearzooka rocket caused it is an [Inference].
-  - 2015: a grey puff cloud downrange (0ZbJ0 maxres3) [Observed].
-- **Excluded** [Observed; Inference]:
-  - 574_vzigCqI ("Update 2.17 Bearzooka", Mar 11, 2015): a panda-skinned player with an olive-green tube and a red missile icon, 0/3 and 2/3. Not the Soldier's coral Bearzooka; probably Tillman's Twin Bearzookas from v2.17 [Inference]. Its maxres3 shows a soft yellow ground blast [Observed, [G]crops/574_m3.jpg].
-  - sxM32PyNNRs: a glitch clip of a Riggs loadout ("2.23") holding the Iron Curtain with Oliver's TNT Launcher (3/3). No Bearzooka rocket.
-- **Images viewed**
-  - [G]crops/0ZbJ0-Za5Ws_sheet.jpg; [G]thumbs/0ZbJ0-Za5Ws_maxresdefault.jpg, _maxres3.jpg; [G]crops/bz_0ZbJ_muzzle.jpg
-  - [G]crops/G1Z5XxhF6CU_sheet.jpg, G1Z5_sd2.jpg
-  - [G]crops/7WSXU2LaxYo_sheet.jpg, bz_7WSX_def.jpg, bz_7WSX_m1.jpg
-  - [G]crops/mTVPzAM0m7o_sheet.jpg
-  - [G]crops/574_vzigCqI_sheet.jpg, 574_m3.jpg, 574_def_icon.jpg
-  - [G]crops/sxM32PyNNRs_sheet.jpg
-  - [G]crops/tr_rocket_sheet.jpg, tr_rocket_017.jpg, tr_rocket_018.jpg, tr_rocket_019.jpg, tr_blast_strip.jpg
+    - 1/1 in Apr 2013 (verified dossier);
+    - 3/3 on Mar 10, 2014 (round 1, 7WSXU2LaxYo);
+    - **1/2 in SkyVu's own overhaul video** (t=126–134 s; [R]z/ov_hud2.jpg);
+    - 3/4 and 2/4 on Aug 14, 2014 ([R]z/sfh_mTVP_hud.jpg, t=12–16 and 54 s);
+    - 2/4 on Jul 25, 2015 ([G]thumbs/0ZbJ0-Za5Ws_maxres3.jpg). The uploader's description lists "-Ammo+2".
+  - So after the overhaul the base was 2 rounds and Ammo+2 made 4 [Inference]. This contradicts the wiki's equipment table, where Ammo +1/+2 = "+ 0 bullets", and agrees with its text, "has two shots without additional ammo".
+  - 2026 stat panel at t=490 s, read at low resolution: "EXPLOSIVES 60", "AOE 250", "COOLDOWN 1.5", reload "2.5" [Observed, low-res, [R]z/show_stats2.jpg and show_sold_b.jpg]. That matches the wiki infobox (40–60, 250, 1.5 s, 2.5 s).
+  - **Launch:** round grey smoke puffs at the muzzle and a dotted trail of grey puffs downrange [Observed, [G]thumbs/0ZbJ0-Za5Ws_maxres3.jpg].
+- **Projectile**
+  - **BBG-era footage:** the rocket body is never visible [Unverified].
+  - **2026 official trailer** (round-1 crop, re-opened): a rocket with a grey hexagonal nose cone, a body of glowing orange and yellow squares, a grey rear collar and fin, and a spiky orange-yellow flame tail [Observed, [G]crops/tr_rocket_018.jpg]. That it is a Bearzooka rocket is an [Inference, medium-high]: it shares the tube's hex-and-glowing-panel design.
+- **Impact / end result**
+  - **Mar 10, 2014 (7WSXU2LaxYo t=56 s):** a big faceted yellow polygonal blast (≈ #F8EB6F) with a grey smoke puff (≈ #9C9B90) at its centre [Observed, [R]z/bz7W_a.jpg].
+  - **Jul 25, 2015 (0ZbJ0-Za5Ws t=38 s, HUD 0):** a faceted yellow blast (≈ #F7E04F, bright #FFF259) beside a billowing dark-grey smoke cloud (≈ #5E5B63) [Observed, [R]z/bz0Z_38.jpg].
+  - Crediting both blasts to the Bearzooka is an [Inference, high]: the titles are "Bearzooka" gameplay, and the 2015 uploader's primary is Urine Trouble, which does not explode.
+  - **2026 trailer:** a white-edged orange-yellow blast, then a soft yellow fireball that flings the B-1000 upward [Observed, [G]crops/tr_blast_strip.jpg; cause Inference].
+  - **Excluded:** a huge magenta-white cloud in mTVPzAM0m7o at t=10–14 s is already present while the Sci-Fi HASR is in hand (10/30), before the Bearzooka shot [Observed, [R]z/sfh_mTVP_12.jpg], so it is not a Bearzooka blast [Inference]. 574_vzigCqI and sxM32PyNNRs were not re-opened this round. Round 1 excluded them as other weapons.
+- **Images viewed:** [R]z/ov_198.jpg, ov_bz.jpg, ov_hud2.jpg, show_bear500.jpg, show_sold_b.jpg, show_stats2.jpg, show_txt1.jpg, show_txt2.jpg, show_txt3.jpg, bz0Z_a.jpg, bz0Z_38.jpg, bz7W_a.jpg, sfh_mTVP.jpg, sfh_mTVP_hud.jpg, sfh_mTVP_12.jpg, AZt_a.jpg, AZt_thumbs.jpg, AZt_sd3_sd1_zoom.jpg, AZt_sd3_zoom.jpg; [R]sb/AZt_huguhzc/cs_00.jpg, cs_01.jpg; [G]crops/bz_0ZbJ_muzzle.jpg, tr_rocket_018.jpg, tr_blast_strip.jpg; [G]thumbs/0ZbJ0-Za5Ws_maxres3.jpg.
 - **Depiction for shorts**
-  - Shoulder the coral hex tube, muzzle forward: pink hex cap, dark bore, checker band right behind the cap.
-  - Fire with a burst of grey round puffs.
-  - Use the observed 2026 rocket: grey hex nose, glowing orange panels, red-studded collar, spiky orange flame tail. Give it a dotted grey puff trail.
-  - End in a soft yellow fireball, faceted and white-edged at first contact.
-  - The rocket at about 0.3x a bear's length is a [BBG News invention].
-- **Confidence:** observed (look, launch smoke, 2026 rocket); the link between the trailer rocket and the Bearzooka is an Inference.
+  - Shoulder the coral hex tube, pink hex muzzle forward. Fire with a burst of round grey puffs and a dotted grey puff trail (observed).
+  - The rocket is the observed 2026 design: grey hex nose, glowing orange-yellow squares, spiky flame tail.
+  - It lands in a faceted yellow polygon blast with a grey or dark-grey smoke ball (observed). The target pops apart into toy pieces (observed 2026 style, see verified dossier).
+  - Showing the rocket at about 0.3x a bear's length is a [BBG News invention].
+- **Confidence:** observed (look, launch smoke, blast). The rocket model rests on the 2026 trailer and an Inference.
 
-## Minigun (Soldier) (primary; BBG v2.11, Aug 27, 2014; 45 Gas; changed after release)
+## Minigun (Soldier) (primary; BBG v2.11, Aug 27, 2014; 45 Gas; magazine changed after release; listed in the 2026 playtest)
 - **Official text:** "Mini refers to your enemies after its done with them." [Game text via wiki] (https://battlebears.fandom.com/wiki/Minigun_(Soldier); "its" sic).
 - **Wiki** [Fan-wiki]:
-  - ammo 80; Ammo +1 "+ 10 bullets", Ammo +2 "+ 20 bullets", so 100 at most;
-  - "This weapon was insanely overpowered on release due to a typo in its explosive damage values ... It has since been changed and the bullet damage has been nerfed as well."
-- **HUD readings with the dark-green Minigun icon** [Observed]:
-  - 130/130, 0/130 and 66/130 on Aug 30, 2014 (Kal, 3xfq8nO2cDY);
-  - 130/130 and 104/130 on Aug 30, 2014 (Kal, EhIA-6KzfBo);
-  - 130/130 on Dec 31, 2014 (KZ4o3mztMtM sddefault);
-  - 100/100 and 51/100 on Feb 26, 2016 (jGNMEN83ABo). That is 80 + 20 [Inference].
-  - The 130-round magazine of 2014 cannot be reached with the wiki's numbers. So the release version had a larger magazine, and it was later cut [Inference]. That fits "It has since been changed".
-- **Firing / projectile:** long, thin, white-cream streaks run from the gun to the target [Observed, [G]crops/mini_3xfq_sd1.jpg, mini_3xfq_sd3.jpg, mini_EhIA_sd3.jpg]. They are tracers [Inference].
+  - ammo 80; Ammo +1 "+ 10 bullets", Ammo +2 "+ 20 bullets";
+  - "This weapon was insanely overpowered on release due to a typo in its explosive damage values, which made it able to kill any enemy in less than 2 seconds from full health. It has since been changed and the bullet damage has been nerfed as well."
+- **HUD** [Observed]:
+  - x/130 on Aug 30, 2014: 130 at t=50 and 76 s, 66/130 in sd3 (3xfq8nO2cDY; [R]z/mini_a.jpg; [G]crops/mini_3xfq_sd3.jpg).
+  - 130 cannot be reached from 80 + 20, so the release magazine was larger and later cut [Inference]. Round 1 also logged 100/100 in Feb 2016 (jGNMEN83ABo); I did not re-open it.
+  - 2026: "MINIGUN" is in the Playtest #4 primary list [Observed, [R]z/show_sold_b.jpg t=410–420 s].
+- **Look:** dark gunmetal with three barrels (verified dossier). It is not clear in these third-person frames [Unverified].
+- **Firing / projectile:** a long thin white streak (tracer) runs from the gun to the target at t=60 s [Observed, [R]z/mini_a.jpg]. That it is a tracer is an [Inference].
 - **Impact / end result**
-  - A large cream-white starburst (core ≈ #FAF4DA–#FBFBEA) with long pale-peach rays (≈ #F4CF9E–#F5D1AD) swallows the struck bear [Observed, 3xfq8nO2cDY sd3 at 66/130 and EhIA-6KzfBo sd3 at 104/130].
-  - 2016: a big white smoke burst with debris at a target [Observed, jGNMEN83ABo maxres3; attribution Inference].
-  - The release-era "explosive damage values" may explain the blast-sized hit flash [Inference].
-- **Not the gun's effect**
-  - The magenta-violet crackling arcs around the gun in 3xfq8nO2cDY are the Bearscream Sandwich buff: the kill feed reads "POWER UP", and the arcs match the wiki-captioned A_life_upside_down.jpg.
-  - EhIA-6KzfBo, the same uploader on the same day, shows no arcs [Observed; Inference, high].
-  - The coffee mug over his head is the Caffeinated icon.
-- **Images viewed:** [G]crops/3xfq8nO2cDY_sheet.jpg, mini_3xfq_sd1.jpg, mini_3xfq_sd3.jpg, mini_3xfq_icon.jpg; [G]crops/EhIA-6KzfBo_sheet.jpg, mini_EhIA_sd3.jpg; [G]crops/jGNMEN83ABo_sheet.jpg; [G]crops/KZ4o3mztMtM_sheet.jpg; [G]img/A_life_small.jpg; [G]crops/alife_arcs.jpg.
-- **Depiction for shorts:** a hose of thin white tracer streaks that ends in a big cream-white starburst with peach rays on the target (observed). Barrel spin-up and a casing waterfall are a [BBG News invention]. Do not add magenta arcs unless the scene includes a Bearscream Sandwich pickup.
-- **Confidence:** observed (tracers and hit flash); the model in third person is still unclear.
+  - White-cream starburst flashes with rays burst on targets at t=50, 52, 60 and 64 s (core ≈ #FBECC2) [Observed, [R]z/mini_a.jpg].
+  - In sd3 the starburst swallows the struck bear [Observed, [G]crops/mini_3xfq_sd3.jpg].
+  - A lime-yellow glow (≈ #EAF88F) at t=66 s, during RELOAD, is unattributed [Observed].
+  - The release-era "explosive damage" may explain the blast-sized hit flash [Inference].
+  - The magenta crackle at the gun's base in sd3 is a player-state effect, not the Minigun (Shared finding 5) [Inference].
+- **Images viewed:** [R]z/mini_a.jpg; [R]sb/3xfq8nO2cDY/cs_01.jpg; [G]crops/mini_3xfq_sd3.jpg; [R]z/show_sold_b.jpg.
+- **Depiction for shorts**
+  - A hose of thin white tracer streaks that ends in a big white-cream starburst on the target (observed).
+  - Barrel spin-up and a casing waterfall are a [BBG News invention]. Add no magenta arcs unless the scene shows a power-up.
+- **Confidence:** observed (tracer and hit flash); the third-person model is partial.
 
-## Sci-Fi HASR (primary; BBR v1.3.1 week 2, 2012; level 15)
-- **Official text:** "Look no further for reasons for people to get out of your way, you're holding the only one you need. Should a chump still refuse to step aside, this puppy has a convenient little button to change their mind." [Game text via wiki].
-- **Wiki:** ammo 50; Ammo +1 "+ 15 bullets", Ammo +2 "+ 25 bullets" [Fan-wiki].
-- **HUD readings with the silver ring-rifle icon** [Observed]:
-  - 23/50 on Apr 27, 2013 ([G]img/A_life_small.jpg; matches the wiki's 50);
-  - 78/80 and 52/80 on Jan 5, 2014 (2B8GQKOWDbQ, [G]crops/sake_def_icon.jpg). 80 cannot be reached from 50 +15/+25 [Inference];
-  - 0/30 on Aug 14, 2014 (mTVPzAM0m7o);
-  - 60/60 and 0/60 on May 15, 2016 (vSoYuP-8QzM);
-  - 23/60 and 0/60 on Jun 14, 2016 (Gqv2NiOpntU).
-  - So the magazine changed several times. The x/30 reading fits the overhaul period [Inference].
-  - DSmQtBO8HvI ("New Sci-Fi HASR sucks. Sorry Skyvu.", Apr 27, 2014) shows a Huggable loadout in its frames, so it is not usable [Observed, [G]crops/DSmQ_def.jpg, DSmQ_sd1_hud.jpg].
-- **Firing:** a soft magenta glow at the muzzle (≈ #F43AD2, bright #FD69F5) [Observed: 2B8GQKOWDbQ maxresdefault; [G]crops/sfh_mTVP_def.jpg; [G]crops/sfh_Gqv2_m1.jpg].
-- **Projectile:** small magenta dots hang between the muzzle and a distant target [Observed, [G]crops/sfh_mTVP_def.jpg]. That they are bolts is an [Inference].
+## Sci-Fi HASR (primary; BBR v1.3.1 week 2, 2012; level 15; x/20 in SkyVu's Apr 2014 overhaul; listed in the 2026 playtest)
+- **Official text:** "Look no further for reasons for people to get out of your way, you're holding the only one you need. Should a chump still refuse to step aside, this puppy has a convenient little button to change their mind." [Game text via wiki] (https://battlebears.fandom.com/wiki/Sci-Fi_HASR).
+- **Wiki:** ammo 50; Ammo +1 "+ 15 bullets", Ammo +2 "+ 25 bullets"; "It is a retexture of the standard [[Heavy A Salt Rifle]]" [Fan-wiki].
+- **HUD with the dark-ring rifle icon** [Observed]:
+  - 50 in Apr 2013 (verified dossier);
+  - 78/80 and 52/80 on Jan 5, 2014 ([G]crops/2B8GQKOWDbQ_sheet.jpg);
+  - **17/20, 4/20 and 16/20 in SkyVu's video** (t=88–94 s; [R]z/ov_icons_pri.jpg, ov_sfh.jpg);
+  - 30, 27, 10, 15 and 19 of 30 in Aug 2014 (mTVPzAM0m7o; [R]z/sfh_mTVP_hud.jpg);
+  - 46/60 and 60/60 in Jun 2016 (Gqv2NiOpntU t=160–170 s; [R]z/sfh_Gqv2.jpg).
+  - So the magazine changed over time, and the overhaul cut it to a 20 base [Inference].
+  - 2026: "SCI-FI HASR" is in the Playtest #4 list [Observed, t=430–440 s].
+- **Look:** a silver-white HASR with a dark gunmetal ring loop (verified dossier; HUD icon [Observed]).
+- **Firing:** a strong magenta glow at the muzzle (≈ #EC1BF8, bright #F21FFE) [Observed]. Seen in the SkyVu video at t=88 and 94 s, in vSoYuP-8QzM at t=56–60, 160 and 248 s, in Gqv2NiOpntU at t=160 s, and in mTVPzAM0m7o at t=8–10 and 52 s.
+- **Projectile:**
+  - small magenta dots between muzzle and target (vSoYuP-8QzM t=56 s);
+  - a magenta beam-like streak toward a target (mTVPzAM0m7o t=52 s).
+  - [Observed, [R]z/sfh_vSoY.jpg, sfh_mTVP.jpg]. Reading them as bolts is an [Inference].
 - **Impact / end result**
-  - 2016: a bright magenta-pink orb burst with a white core (≈ #FE7CFC) on the struck bear's chest, with short yellow streaks [Observed, [G]crops/sfh_Gqv2_m1.jpg].
-  - Jan 2014: yellow five-point stars and short yellow bars around the target [Observed, [G]thumbs/2B8GQKOWDbQ_maxres3.jpg].
-- **Correcting the gap note:** in mTVPzAM0m7o the crackling arcs are in sd3, around the Bearzooka (4/4), not at the Sci-Fi HASR. They are the Bearscream buff. The Sci-Fi HASR frames (sddefault and sd2, 0/30) show only the soft glow [Observed].
-- **Related:** in 2026 the grey Sci-Fi ASR (identified only by the fan title of 9nA-OaYAVzU) also shows a magenta muzzle glow and magenta orbs flying toward the target [Observed, [G]crops/9nA_m3.jpg]. The 2013 Sci-Fi ASR demo had a pink-magenta bar (verified dossier). So magenta seems to be the "Sci-Fi" family colour [Inference].
-- The "convenient little button" remains undocumented [Unverified].
-- **Images viewed:** [G]img/A_life_small.jpg; [G]crops/sake_def_icon.jpg; [G]thumbs/2B8GQKOWDbQ_maxresdefault.jpg, _maxres3.jpg; [G]crops/mTVPzAM0m7o_sheet.jpg, sfh_mTVP_def.jpg; [G]crops/vSoYuP-8QzM_sheet.jpg; [G]crops/Gqv2NiOpntU_sheet.jpg, sfh_Gqv2_m1.jpg; [G]crops/DSmQtBO8HvI_sheet.jpg, DSmQ_def.jpg, DSmQ_sd1_hud.jpg; [G]crops/9nA_m3.jpg.
-- **Depiction for shorts:** the silver rifle with its dark ring glows magenta at the muzzle and spits small magenta bolts, which pop as magenta-pink orbs with white cores on hit (observed). A special "button" shot is a [BBG News invention].
-- **Confidence:** observed (muzzle glow and hit burst); partial for the bolts.
+  - SkyVu video t=94 s: a magenta-white burst on a pink bear [Observed, [R]z/ov_sfh.jpg].
+  - Gqv2NiOpntU t=160–170 s: magenta splashes on the far ledge and wall [Observed, [R]z/sfh_Gqv2.jpg].
+  - Jan 2014: yellow five-point stars and bars around the target [Observed, [G]crops/2B8GQKOWDbQ_sheet.jpg maxres3].
+  - The "convenient little button" has no documented function [Unverified].
+- **Images viewed:** [R]z/ov_sfh.jpg, ov_icons_pri.jpg, sfh_vSoY.jpg, sfh_Gqv2.jpg, sfh_mTVP.jpg, sfh_mTVP_hud.jpg, sfh_mTVP_12.jpg, show_sold_b.jpg; [G]crops/2B8GQKOWDbQ_sheet.jpg.
+- **Depiction for shorts:** the silver rifle with the dark ring glows hot magenta at the muzzle and spits small magenta bolts that pop as magenta-white bursts on hit (observed). Any special "button" shot is a [BBG News invention].
+- **Confidence:** observed.
 
-## Heavy A Salt Rifle (HASR) (primary; BBR v1.0, 2011; 110,000 Joules)
-- **Official text:** "With higher capacity and lower damage the Heavy A Salt Rifle gives its owner more room for error before reloading but at the cost of stopping power." [Game text via wiki].
-- **HUD readings** [Observed]:
-  - Nov 13, 2017 (xvZdk873arU, title "Battle bears gold heavy a salt rifle gameplay", a "2.27" in the custom thumbnail): the salmon rifle icon with a red ring at 46/60 and 60/60. This matches the wiki's 60.
-  - Jun 4, 2021 (vUDdCvfaKK4 maxres1): a red-grey ring-rifle icon, closer to the HASR sprite than the Sci-Fi HASR's black ring, at 16/50. 50 is not a HASR value in the wiki (60, +10/+20), so the identification is [Unverified] [[G]crops/vUDd_m1_icon.jpg].
+## Heavy A Salt Rifle (HASR) (primary; BBR v1.0, 2011; 110,000 Joules; x/30 in SkyVu's Apr 2014 overhaul; listed in the 2026 playtest)
+- **Official text:** "With higher capacity and lower damage the Heavy A Salt Rifle gives its owner more room for error before reloading but at the cost of stopping power." [Game text via wiki] (https://battlebears.fandom.com/wiki/Heavy_A_Salt_Rifle).
+- **HUD with the red-ring rifle icon** [Observed]:
+  - 60 in 2013 (verified dossier);
+  - **21/30 and 10/30 in SkyVu's video** (t=66–68 s; [R]z/ov_icons_pri.jpg, ov_hasr.jpg);
+  - 60 again in Nov 2017 (xvZdk873arU t=46–50 s; [R]sb/xvZdk873arU/cs_01.jpg).
+  - 2026: "HEAVY A SALT RIFLE" is in the Playtest #4 list [Observed, t=440–460 s].
 - **Firing / projectile**
-  - 2017: tiny white-yellow sparkle flecks at the muzzle; no tracer visible [Observed, [G]crops/hasr_xvZd_m1.jpg].
-  - 2021: magenta crackle at the muzzle, which is the Bearscream type [Inference], and a magenta starburst near the targets. But a panda enemy fires a magenta-glowing gun in the same frame, so the attribution is [Unverified] [Observed, [G]crops/vUDd_m1_muzzle.jpg, vUDd_m1_flash.jpg].
-- **Impact / end result:** no new attributable frame [Unverified].
-- **Images viewed:** [G]crops/xvZdk873arU_sheet.jpg, hasr_xvZd_m1.jpg; [G]crops/vUDdCvfaKK4_sheet.jpg, vUDd_m1.jpg, vUDd_m1_icon.jpg, vUDd_m1_muzzle.jpg, vUDd_m1_flash.jpg.
-- **Depiction for shorts:** unchanged. A fast spray with small white-yellow muzzle sparkles (observed, 2017). Hit pops follow the shared yellow-star style [Inference].
+  - SkyVu video t=66 s: a thin red streak from muzzle to target [Observed]. Whether it is a tracer or an aim line is an [Inference].
+  - Nov 2017, t=58–60 s (HUD 29, 17): a long pale-cream tracer streak from the muzzle toward the targets [Observed].
+- **Impact / end result:** white sparkle flecks at the targets (xvZdk873arU t=62 s, HUD 6) [Observed]. Attribution is an [Inference, medium].
+- **Images viewed:** [R]z/ov_hasr.jpg, ov_icons_pri.jpg; [R]sb/xvZdk873arU/cs_01.jpg; [R]z/show_sold_b.jpg.
+- **Depiction for shorts:** a fast spray of pale-cream tracers ending in small white sparkle pops (observed). Brass casings are a [BBG News invention].
 - **Confidence:** partial.
 
-## Soaker (primary; BBR v1.0, 2011; 60,000 Joules, level 10)
-- **Official text:** "The range is limited compared to other rifles, but it's way more accurate!" [Game text via wiki].
-- **HUD readings** [Observed]:
-  - Jan 11, 2014 (fjBn5OQZfyE, Benedict Siow, "21 kills with soaker!"): Soaker icon (yellow tank) at 80/80 and 0/80. That is 60 + Ammo +2, which adds "+ 20 bullets" [Fan-wiki; Inference].
-- **Correcting the gap note.** The "small yellow droplets near the muzzle" are two rounded yellow parts fixed to the front of the gun's dark body. They match the Soaker's yellow tanks (see the store art in the verified dossier) [Observed, [G]crops/soak_fjBn_nozzle.jpg; that they are part of the gun is an Inference, medium].
-- **Projectile:** still not seen [Unverified].
-- **Impact / end result (unattributed)** [Observed, [G]crops/soak_oe7A_def.jpg]:
-  - In oe7AqC-1mhM (SW, Nov 9, 2015, "URINE & SOAKER SUICIDE GLTICH!?"), three red-orange spiky spark bursts sit on a box at the wall just after the magazine empties (0/65).
-  - The weapon icon is hidden under a KineMaster watermark ([G]crops/soak_oe7A_icon.jpg), and the title names both guns, so which gun it is remains [Unverified].
-  - Its maxres1 shows big pale-yellow stars bursting around the shooter himself, matching the "suicide" in the title [Observed; Inference].
-- **Images viewed:** [G]crops/fjBn5OQZfyE_sheet.jpg, soak_fjBn_def.jpg, soak_fjBn_nozzle.jpg, soak_fjBn_sd1.jpg; [G]crops/oe7AqC-1mhM_sheet.jpg, soak_oe7A_def.jpg, soak_oe7A_icon.jpg.
-- **Depiction for shorts:** unchanged. The yellow-tank water gun is the identifier. A clear water jet is a [BBG News invention].
+## Soaker (primary; BBR v1.0, 2011; 60,000 Joules, level 10; x/50 in SkyVu's Apr 2014 overhaul; listed in the 2026 playtest): the stream is now seen
+- **Official text:** "The range is limited compared to other rifles, but it's way more accurate!" [Game text via wiki] (https://battlebears.fandom.com/wiki/Soaker). The same line appears in the 2026 build [Observed, -lAtv-j9Sms t=420 s]. Its 2026 stat panel reads "AMMO 50" [Observed, low-res, [R]z/show_stats2.jpg].
+- **Wiki** [Fan-wiki]: damage 5; rate of fire 0.1 s; ammo 60; reload 4 s; range 950 units; "This weapon is based on the Super Soaker".
+- **HUD with the yellow-tank icon** [Observed]:
+  - 60 in 2013 (verified dossier);
+  - 80 on Jan 11, 2014 (fjBn5OQZfyE; round 1);
+  - **25/50, 0/50 (RELOAD) and 28/50 in SkyVu's video** (t=72–82 s; [R]z/ov_soaker.jpg, ov_icons_pri.jpg).
+- **Look:** in hand, its front is a **bright yellow nozzle block** [Observed, SkyVu video t=72–82 s]. The gap note's "yellow droplets near the muzzle" in fjBn5OQZfyE are these yellow gun parts [Observed, [G]crops/soak_fjBn_nozzle.jpg; Inference].
+- **Firing / projectile**
+  - **SkyVu video:** a straight **pale cyan-white water jet** (bright ≈ #CCF5F4, body ≈ #91BBBC) runs from the yellow nozzle to the target. Small droplets scatter beside the gun [Observed, [R]z/ov_soaker.jpg t=72, 80, 82 s].
+  - **Fan footage, Jan 2014:** the same pale jet at t=58 and 68 s [Observed, [R]z/soak_fjBn.jpg].
+- **Impact / end result**
+  - A white-cyan splash bursts on the struck bear: core ≈ #F5FBFB, edges ≈ #C7F5F3, with droplets flying off (SkyVu video t=72 and 80 s; fjBn5OQZfyE t=64 s) [Observed].
+  - No status effect [Fan-wiki: not on the Status Effects list].
+  - In oe7AqC-1mhM ("URINE & SOAKER SUICIDE GLTICH!?"), a pale-blue splash bursts next to the shooter at t=58 s [Observed, [R]z/soak_oe7A.jpg]. Which gun made it is [Unverified].
+- **Images viewed:** [R]z/ov_soaker.jpg, ov_icons_pri.jpg, soak_fjBn.jpg, soak_oe7A.jpg, show_sold_b.jpg, show_stats2.jpg; [G]crops/soak_fjBn_nozzle.jpg.
+- **Depiction for shorts:** the yellow-nozzled water gun fires a straight pale cyan-white jet that bursts into a white-cyan splash with flying droplets on the target (observed). A soaked, dripping, annoyed target is a [BBG News invention].
+- **Confidence:** observed.
+
+## Spreadshot (BBG) (secondary; BBR v1.0, 2011; 35,000 Joules, level 4; x/3 in SkyVu's Apr 2014 overhaul; rapid-fire rework by Oct 2021; listed in the 2026 playtest)
+- **Official text:** "Useless at range but devastating up close. Handy for close encounters..." [Game text via wiki] (https://battlebears.fandom.com/wiki/Spreadshot_(BBG)).
+- **Wiki:** "Secondary - Shotgun"; damage 20; rate of fire 0.75 s; ammo 6; reload 3 s [Fan-wiki].
+- **HUD with the salmon six-tube icon** [Observed]:
+  - 4 in 2013 and Mar 2014 (verified dossier and round 1);
+  - **2/3 and 1/3 in SkyVu's video** (t=148–154 s; [R]z/ov_148_hud.jpg);
+  - 4/4 in LHrWhD7-vGg (t=245 s);
+  - x/20 in Oct 2021 (round 1, w2AhIi7WYRU).
+  - The uploader of w2AhIi7WYRU, Sorapie, wrote: "They tweaked the spreadshot to be a weird rapid fire weapon. It does higher dps than before, but is overall way worse in my opinion." [Unverified: fan description, quoted via Invidious].
+  - 2026: "SPREADSHOT" is in the Playtest #4 list [Observed, t=490 s]. Whether 2026 uses the classic or the 2021 version is [Unverified].
+- **Look:** a salmon six-tube muzzle with a sage chamber (verified dossier).
+- **Firing / projectile:** pellets are not visible in any frame [Unverified].
+- **Impact / end result**
+  - **SkyVu video t=148 s (2/3, a shot just fired):** a billowing **lime-green cloud** (≈ #779A5E, bright ≈ #96C378) envelops the white target "PLAYER 152192" from the feet up [Observed, [R]z/ov_148_z.jpg, ov_sec.jpg].
+  - Crediting it to the Spreadshot is an [Inference, medium]. It matches the "green swirling wisps" round 1 saw in sd2, and the Steamshot, the Spreadshot's retexture, shows green too.
+  - **LHrWhD7-vGg t=175 s:** a big yellow five-point star at close range [Observed, [R]z/sps_LHrW.jpg; attribution Inference].
+  - **2021 (w2AhIi7WYRU):** orange-yellow fire bursts and a yellow-green-white burst at targets (t=26, 116 s) [Observed, [R]z/sps_w2Ah.jpg]. Other players are firing in those frames, so attribution is [Unverified].
+- **Images viewed:** [R]z/ov_148_z.jpg, ov_148_hud.jpg, ov_sec.jpg, ov_sec2.jpg, sps_w2Ah.jpg, sps_LHrW.jpg, show_sold_b.jpg.
+- **Depiction for shorts**
+  - A short cone blast from the six-tube muzzle that wraps the target in a puff of lime-green smoke (observed in the official video; attribution Inference), with yellow star pops.
+  - Pellet colour is a [BBG News invention]. Use the 3–6-round pump-shotgun version for classic-era shorts.
 - **Confidence:** partial.
 
-## Spreadshot (BBG) (secondary; BBR v1.0, 2011; 35,000 Joules, level 4; reworked to rapid fire in 2021)
-- **Official text:** "Useless at range but devastating up close. Handy for close encounters..." [Game text via wiki].
-- **HUD history** [Observed]:
-  - 4 in Apr 2013 (verified dossier);
-  - 3/4 and 4/4 on Mar 1, 2014 (LHrWhD7-vGg);
-  - 3 in SkyVu's Apr 2014 overhaul video (verified dossier);
-  - 0/20 RELOAD on Oct 9, 2021 (w2AhIi7WYRU), with the Spreadshot icon and the Spreadshot in hand [[G]crops/sps_w2Ah_m1.jpg, sps_w2Ah_m2.jpg].
-  - The wiki infobox says ammo 6, 0.75 s [Fan-wiki].
-- **2021 rework.** Uploader Sorapie's description: "They tweaked the spreadshot to be a weird rapid fire weapon. It does higher dps than before, but is overall way worse in my opinion." [Unverified: fan description; the 20-round magazine is Observed].
-- **Look 2021:** the same model as before: a ring of six pink hex tubes at the muzzle, a sage-green chamber and a pink hose [Observed, w2AhIi7WYRU maxres2 and its render thumbnail].
-- **Projectile, impact:** pellets still not seen [Unverified].
-- **Related:** the magenta crackle at Oliver's gun in SkyVu's 2014 overhaul frames (open question in the verified dossier) matches the Bearscream arcs [Inference].
-- **Images viewed:** [G]crops/w2AhIi7WYRU_sheet.jpg, sps_w2Ah_m1.jpg, sps_w2Ah_m2.jpg; [G]crops/LHrWhD7-vGg_sheet.jpg.
-- **Depiction for shorts:** for a classic short, a short cone of pellets from the six-tube muzzle with white-yellow sparks (verified dossier). Pellet colour is a [BBG News invention]. Do not use the 2021 rapid-fire version for the classic era.
-- **Confidence:** partial.
-
-## Kumakiri (melee; BBR v1.3.2, 2012; 75,000 Joules, level 30)
-- **Official text:** "It's baaack!" [Game text via wiki].
-- **Look in game** [Observed, [G]crops/G1Z5_def.jpg; scale Inference]:
-  - Jun 28, 2013 loadout (G1Z5XxhF6CU; "2.0" in the corner; Zombie skin).
-  - A long, slightly curved silver katana with a wavy edge line, a black guard, a gold collar and a dark hilt.
-  - Held upright one-handed, the blade is about as tall as the bear (0.9–1.0x).
-  - The same loadout lists Special "FLAWLESS DISGUISE", Equipment "EXPLOSIONS +2" and "AMMO +2" [Observed].
-- **HUD:** the melee slot shows the curved Kumakiri icon on the Sam-Are-I Oliver in Apr 2013 [Observed, [G]img/A_life_small.jpg].
-- **Firing:** "a different animation which features a downward slash" [Fan-wiki].
-- **Impact / end result:** still unseen. sYpY-ZHHlkg ("spreadshot, oco gauntlel and kumakiri", Feb 21, 2014) shows no Kumakiri in its frames: a menu with a grey-skin Oliver holding a cyan electric gun, a "HEAD SHOT" kill notice, and a teammate with shields [Observed, [G]crops/sYpY-ZHHlkg_sheet.jpg].
-- **Images viewed:** [G]crops/G1Z5XxhF6CU_sheet.jpg, G1Z5_def.jpg; [G]img/A_life_small.jpg; [G]crops/sYpY-ZHHlkg_sheet.jpg.
-- **Depiction for shorts:** an overhead downward slash (documented) with the shared melee stars (observed style). A white arc smear is a [BBG News invention].
+## Kumakiri (melee; BBR v1.3.2, 2012; 75,000 Joules, level 30; listed in the 2026 playtest)
+- **Official text:** "It's baaack!" [Game text via wiki] (https://battlebears.fandom.com/wiki/Kumakiri).
+- **Wiki** [Fan-wiki]:
+  - "It deals 110 damage. Unlike the Soldier's other melee weapons, it has a different animation which features a downward slash. It has a Stat Modifier of -10% Health."
+  - "The description refers to the [[Katana]] used by [[Oliver]] in [[Battle Bears -1]]."
+- **Look**
+  - In sYpY-ZHHlkg (Feb 21, 2014, fan title "spreadshot,oco gauntlel and kumakiri"), a grey-skinned Oliver with a red headband holds a long, thin silver blade upright or slanted in his right hand, about his own height (1.0x) [Observed, [R]z/kum_a.jpg t=150, 160, 285, 340 s; scale Inference].
+  - The blade is slightly curved at t=160 s [Observed]. The wiki sprite "kum" is a curved silver blade with a dark hilt [Observed, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-final/crops/sprite_soldier.png].
+  - **2026:** "KUMAKIRI" heads the Playtest #4 melee list. In the t=500 s render the bear holds a long straight blade upright that reads pale yellow-green under the menu's green light (≈ #87A158) [Observed, [R]z/show_bear500.jpg]. Which row is selected is not legible, so that this blade is the Kumakiri is an [Inference].
+- **Firing:** "a downward slash" [Fan-wiki]. Not seen in frames.
+- **Impact / end result:** still unseen. A melee clash at t=265 s in sYpY-ZHHlkg shows white puffs and a yellow-white starburst around a long white blade, but who swung it is unclear [Observed; Unverified attribution].
+- **Images viewed:** [R]z/kum_a.jpg; [R]sb/sYpY-ZHHlkg/cs_00.jpg–cs_03.jpg; [R]z/show_bear500.jpg, show_sold_c.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-final/crops/sprite_soldier.png.
+- **Depiction for shorts:** an overhead downward slash with the slightly curved silver katana (documented and observed), ending in white puffs and a yellow star spark (observed shared melee style). A white arc smear is a [BBG News invention].
 - **Confidence:** partial.
 
 ---
 
-## Corrections to the gap notes and the verified dossiers (evidence above)
-**Gap notes**
+## Corrections to the gap notes and to round 1
 - **Sake Bomb, 2B8GQKOWDbQ.**
-  - The green "?" belongs to the foreground player SIRIS.
-  - The green-glowing target with shield icons is BLUESHOCK, under the Shield effect.
-  - The yellow stars in hq3 happen with the Sci-Fi HASR in hand (52/80).
-  - The "round red-orange object with flame decals" is the Sake Bomb jug seen from behind.
-- **Minigun.** The magenta-violet arcs are the Bearscream Sandwich buff, not the gun.
-- **Sci-Fi HASR, mTVPzAM0m7o.** The arcs surround the Bearzooka in sd3. The Sci-Fi HASR frames show only a soft magenta glow.
-- **Soaker, fjBn5OQZfyE.** The "yellow droplets" are most likely the gun's yellow tank parts.
-
-**/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/oliver.md**
-- **Sake Bomb, "Projectile: Undocumented".** Add the 20/28-round version from Apr 2014 (cream spray from the neck, white puffs and splats) and the return to 4 rounds by Jun 2021. Impact visuals are now observed (cream-white puff burst, lime "?").
-- **Solar Wind Scar.** The orange crescent is now observed, and so is the six-segment radiation disc.
-- **Bearzooka.**
-  - Add HUD 3/3 (Mar 2014) and 4/4 (Aug 2014; Jul 2015 with Ammo +2).
-  - Add the grey puff launch trail and the 2026 trailer rocket.
-- **Minigun, "Projectile: Undocumented and not seen".** Now: white tracer streaks and a cream-white starburst; 130-round magazine in 2014, 100 in 2016.
-- **Sci-Fi HASR, "None visible".** Now: magenta muzzle glow, magenta dots and a magenta orb hit.
-- **Spreadshot.** Add the 2021 rework (x/20 rounds).
-- **Open question on "magenta crackle ... with the Spreadshot equipped".** Probably the Bearscream Sandwich buff [Inference].
-
-**/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/2026.md**
-- Its Bearzooka line "a grey-and-red checkered flared rear end, and a pink hexagonal muzzle cap with a dark round bore" puts the checker band on the rear.
-- In the 2015 render, the checker band is directly behind the pink hex muzzle cap, on the wide front end ([G]crops/bz_0ZbJ_muzzle.jpg).
+  - The green "?" belongs to SIRIS.
+  - The green-glowing bear with shield icons is BLUESHOCK under the Shield pickup.
+  - The yellow stars come with the Sci-Fi HASR in hand (52/80).
+  - The "round red-orange object with flame decals" is the Sake Bomb jug seen from behind. SkyVu's video confirms it: the same object is held under the Sake Bomb icon and flipped to show the Daruma face at t=180 s.
+- **Round 1 tied the neck "splash crown" to the 20-round version only.** The 2021 4-to-6-round version shows it too (L0REouUo-68 t=26–72 s), so it is the Sake Bomb's firing effect in every era.
+- **Steamshot, "steam not seen".** It is now observed as lime-green: in the wiki's own 2013 demo (F2rsMmK6K68 t=3, 17, 26 s) and the 2018 demo (m2Yp2QY2OCA t=245 s). The named source sDVr1PqEHC4 shows only the ASR in its storyboard.
+- **Bearzooka.** SkyVu's own overhaul shows 1/2. The 4-round readings fit 2 + Ammo+2 [Inference]. The wiki's "+ 0 bullets" for Ammo+ on the Bearzooka does not fit.
+- **Minigun.** The magenta arcs are a player-state effect, not the gun.
+- **Soaker.** The "yellow droplets" are the gun's yellow nozzle parts. The actual stream is pale cyan-white.
+- **Verified dossier (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/oliver.md).**
+  - Its Bearzooka bullet treats the class-card line as "[Fan-wiki ... that it appears in game is Unverified]". The line is now observed in the 2026 build.
+  - "Projectile: Undocumented" for the Sake Bomb, Minigun, Soaker and Sci-Fi HASR should be replaced with the observations above.
 
 ## Corrections for the character file (/home/user/thallo-site/bbg-news-repo/characters/oliver.md)
 1. **Line 51.** Current: "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference]."
-   - Correction: "In BBG the Bearzooka is a coral hexagonal shoulder tube with glowing orange panels and grey hex collars. Its wide muzzle end has a pink hex cap around a dark bore, with a grey-and-coral checker band right behind the cap [Observed: 2013 loadout, 2015 render, 2026 trailer]. It fires with a burst of round grey smoke puffs [Observed, 2015]. The 2026 trailer shows a grey hex rocket with glowing orange panels and a spiky orange flame tail [Observed; that it is the Bearzooka's is Inference]. The green hazard-striped tube is the BB Zombies design [Observed, File:Bear.jpg]."
+   - Correction: "In BBG the Bearzooka is a coral hexagonal shoulder tube with glowing orange panels and a pink hex muzzle cap around a dark bore [Observed: SkyVu's Apr 2014 overhaul video store render at 3:18; 2015 render; 2026 playtest render]. It fires with round grey smoke puffs and explodes in a faceted yellow blast with grey smoke [Observed, fan footage 2014–15]. The green hazard-striped tube is the 2009 BB Zombies design [Observed, File:Bear.jpg, per the verified dossier]."
 2. **Line 75 (character reference prompt).** Current: "He holds a chunky assault rifle and carries a green hazard-striped launcher tube on his back."
-   - Correction: "He holds the A Salt Rifle and shoulders the Bearzooka: a coral hexagonal tube with glowing orange panels, a pink hex muzzle cap with a dark bore and a checker band just behind it."
-3. **Line 61 (comedy beat 1).** Current: "Bearzooka recoil blasts him through a wall. He comes back sooty: "Meant to do that.""
-   - Correction: no recoil is documented. Re-ground the beat in self-damage ("The user is very prone to suicide while using the Bearzooka." [Fan-wiki]).
-   - Use the observed visuals: a grey puff trail, the hex rocket with its spiky orange tail, and a soft yellow fireball.
-   - The beat itself stays a [BBG News invention].
-4. **Line 51 (katana).** Current: "He also has an improvised katana [Canon, channel unconfirmed]".
-   - Add: in BBG the sword is the Kumakiri melee, a long, slightly curved silver katana with a wavy edge line, black guard, gold collar and dark hilt, held upright one-handed at about his own height [Observed: Jun 2013 in-game loadout, G1Z5XxhF6CU].
-5. **Line 97 (open questions).** Current: "The [2026 showcase] and [Oliver Overhaul] videos have not been viewed."
-   - Correction: keep "not viewed", and add the following.
-   - SkyVu's Apr 25, 2014 description: "This week, Oliver receives the first overhaul! Trevor explains in detail all of the changes made to this elite Solider class." [Canon].
-   - Fan footage dated Apr 26–29, 2014 shows the Sake Bomb as a ~20-round sprayer afterwards [Observed].
-   - Transcripts are blocked from this sandbox.
+   - Correction: "He holds the A Salt Rifle (green-and-salmon rifle with a white salt shaker on top) and shoulders the Bearzooka: a coral hexagonal tube with glowing orange panels and a pink hex muzzle cap with a dark bore."
+3. **Line 57.** Current: "whose Bearzooka is "easy to kill yourself with" [Game text via wiki]".
+   - Correction: re-label as observed in game. The 2026 playtest class card reads "USE HIS STARTING BEARZOOKA CAREFULLY AS IT IS EASY TO KILL YOURSELF WITH IT!" [Observed, -lAtv-j9Sms storyboard t=280 s].
+4. **Line 61 (comedy beat 1).** Current: "Bearzooka recoil blasts him through a wall."
+   - Correction: no recoil is documented. Ground the gag in self-damage: the 2026 card's "EASY TO KILL YOURSELF WITH IT!" and the wiki's "very prone to suicide".
+   - Use the observed visuals: grey puff launch, faceted yellow blast, grey smoke, toy-piece break-apart.
+   - The gag itself stays a [BBG News invention].
+5. **Line 51 (katana).** Current: "He also has an improvised katana [Canon, channel unconfirmed]".
+   - Add: "In BBG the katana is the Kumakiri melee ("It's baaack!" [Game text via wiki], referring to his BB-1 katana [Fan-wiki]). It is a long, slightly curved silver blade about his own height [Observed, 2013 and 2014 fan footage], and it is still listed in the 2026 playtest [Observed]."
+6. **Line 97 (open questions).** Current: "The [2026 showcase] and [Oliver Overhaul] videos have not been viewed."
+   - Correction: "Neither video has been watched. Their storyboard frames have been reviewed, though.
+     - SkyVu's Apr 25, 2014 Oliver Overhaul shows changed magazines: HASR 30, Soaker 50, Sci-Fi HASR 20, Bearzooka 2, Spreadshot 3, Sake Bomb 20.
+     - The Sept 2026 Closed Playtest #4 showcase lists all 21 classic Soldier weapons with their original descriptions [Observed, storyboard frames].
+     - Trevor's spoken explanations are still unheard."
 
 ## Open questions
-- What exactly did the Apr 2014 Oliver Overhaul change? The frames suggest: the Sake Bomb at ~20 rounds; the Sci-Fi HASR at x/30; the Spreadshot at x/3; the Bearzooka at 3–4. SkyVu's spoken notes and forum changelog are unreachable here.
-- When did the Sake Bomb return to a 4-round lob (between Aug 2018 and Jun 2021)? Which version ships in 2026?
-- In the lob version, what flies? Does the jug itself sail through the air?
-- Is the lime-green spike splash in 2021 (L0REouUo-68) the Sake Bomb's landing effect?
-- Solar Wind Scar: what does the "dark, circular radiation belt" look like? Does the crescent visibly pass through walls? What is the straight lime line in cKOHCD5LBN8?
-- Steamshot: is the steam green (wiki) or white? No frame anywhere shows it firing.
-- What does the Soaker's stream look like? What do the Spreadshot's pellets look like? Does 2026 use the classic 4–6-round Spreadshot or the 2021 rapid-fire one?
-- What are the 2026 stats for the Minigun (2014: 130 rounds; 2016: 100; wiki: 80) and the Sci-Fi HASR (50 / 80 / 30 / 60 over time)?
-- What does a Kumakiri hit look like? Is its modifier +10% or −10% health?
-- Is the 2026 trailer rocket (2.87–3.00 s) really from the Bearzooka, rather than the TNT Launcher or another weapon?
-- Does the Bearscream Sandwich double or triple damage (wiki conflict)? Does it still show the magenta arcs in 2026?
+- What exactly did Trevor say in the Apr 2014 overhaul? The frames show the new magazines (HASR 30, Soaker 50, Sci-Fi HASR 20, Bearzooka 2, Spreadshot 3, Sake Bomb 20, TNT 1), but not damage or reload changes, and no transcript is reachable.
+- Which Sake Bomb ships in 2026 (4-round lob or 20-round)? When between Aug 2018 and Jun 2021 did it revert?
+- Does the Spreadshot's lime-green cloud (SkyVu video t=148 s) belong to the Spreadshot, and is it the same effect as the Steamshot's green burst? What do the pellets look like?
+- Solar Wind Scar: what does the "dark, circular radiation belt" look like? Does the crescent visibly pass through walls? Over whose head does the yellow disc in IqHSyVVvCQw float, and is the single missing wedge the wiki's three-wedge stage at low resolution?
+- What are the 2026 magazine sizes for the Minigun (130 in 2014, 100 in 2016, 80 on the wiki), the Sci-Fi HASR (50/80/20/30/60 over time) and the Soaker (the 2026 panel reads about 50)? The 320×180 storyboard is too small to confirm the digits.
+- Is the 2026 trailer rocket the Bearzooka's (shared hex-and-glowing-panel design), or the TNT Launcher's or another weapon's?
+- What does a Kumakiri hit look like? Is the long, straight, pale blade in the 2026 render at t=500 s really the Kumakiri?
+- Does the Steamshot's green steam linger as a cloud on the target, and what does a Steamshot kill look like?
+- Does a higher-resolution source exist? The Invidious API also lists 320×180 storyboards for some videos (9qYIIH8NV-4, Gqv2NiOpntU, -lAtv-j9Sms). A watchable copy of the overhaul video would settle most of these questions.

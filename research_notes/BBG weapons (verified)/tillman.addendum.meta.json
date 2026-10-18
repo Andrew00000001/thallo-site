@@ -1,0 +1,164 @@
+{
+ "quickref": [
+  {
+   "weapon": "Twin Bearzookas",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "Added BBG 2.17 (Mar 8, 2015); in fan footage to Jul 2016; 2026 status unknown",
+   "look": "Two pale olive-lime tubes (#93994A-#9A9F4F) with silver octagonal muzzles, one on each shoulder; first person, olive tubes jut from the lower screen corners. HUD icon: one olive segmented tube with a pistol grip. Not red-orange.",
+   "firing_and_projectile": "1 s rate of fire, 750 u/s, -10% speed (wiki). A yellow-orange flash at the tube mouth sends two stubby silver-grey rockets out side by side, each with a gold collar band and yellow star-shaped tail fins (#EFC63F), trailing grey low-poly smoke puffs. At range they read as a thin white streak. Fan HUD clip counts vary 3-5 with Ammo+ equipment.",
+   "impact_end_result": "Huge white jagged starburst (#FEFDFF) with long yellow rays (#FCFE60) in a cyan haze; on a target, an orange-pink fireball with peach smoke; grey faceted smoke puffs linger. AoE 125/250 (wiki). No kill frame. All evidence is 2015-16 fan thumbnails, and attribution is moderate.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Fireworks",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary (default)",
+   "status": "BBR launch loadout 2011 to BBG; seen in 2015-16 fan footage; BBH successor is Firework Flurry; 2026 status unknown",
+   "look": "Four slim red rockets (#D02C34) with orange-red cones; each has a grinning pink-violet Huggable face (big dark eyes, wide white toothy grin). They stand upright on a black-and-grey back bar with gold fuses. HUD icon: four red rockets with grey tips.",
+   "firing_and_projectile": "Rockets leap straight up past the camera in pairs on long yellow-white flame plumes. 0.5 s rate of fire. The official clip was cut from 30 to 10 in Dec 2013, but 2015-16 HUDs read 30-35. They tip over and fall in a 'spiralling cascade' onto the reticle spot; a descending one reads as an orange nose with a white-yellow streak. The official text says they lock on; the wiki says they cannot now.",
+   "impact_end_result": "A scattered cluster of chunky low-poly orange fire puffs (#E7912A) with yellow and white-hot cores and red, pink and white spark flecks ('a flurry of damaging, orange sparks'). No single big blast. AoE 125/250. No kill frame. Possibly also the row of burning floor flames in the Steam trailer at about 30-32 s (weak).",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Rocket Propelled Lance",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary",
+   "status": "Added BBG 2.13 (Oct 31, 2014); changed in 2.17 (Mar 2015) to pause before diving; seen in the Oct 2026 final playtest build 3.0.7",
+   "look": "Long red rocket-lance (#D72631-#EC1A30): pointed nose with canard fins, black-and-white checkered band behind the nose, yellow collar (#F8E312), big swept red tail fins. Worn diagonally on the back over the right shoulder; held diagonally in first person. About 0.9x Tillman's height.",
+   "firing_and_projectile": "No lock. Slow lift (50 u/s), a brief hang, then a fast dive (1,100 u/s) nose-first onto the aim point (floor or ceiling), trailing a thick white smoke column (#FDFAF9) with blue-grey puffs. 1 round, 5 s reload.",
+   "impact_end_result": "Explosive with the largest AoE of these five (150/400, wiki). No image of the blast was found, so its look is undocumented (BBG News invention needed).",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Gold Member",
+   "owner": "Tillman (Demo)",
+   "slot": "primary",
+   "status": "In BBR by Mar 2012 to BBG; in SkyVu's Jun 2014 overhaul loadout; magazine 8 (BBR) cut to 6 (Dec 2013); 2026 status unknown",
+   "look": "The Big Shot drum in polished gold with an orange glowing muzzle disc, held two-handed at the belly; first person, a pale gold drum. HUD icon: a gold drum with a yellow turbine face.",
+   "firing_and_projectile": "A 'gold bullet-like missile' on a straight path with no arc (wiki); 1.5 s rate of fire, 1,200 u/s. Fan frames show a thin straight white-to-pale-yellow tracer.",
+   "impact_end_result": "A compact lemon-yellow starburst (#F1EB58) with a near-white core and short white star spikes; at point blank, a white star-spiked flash over a flat orange floor ring. Officially a smaller explosion than the Big Shot's. No kill frame.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Reverse Fountain",
+   "owner": "Tillman (Demo)",
+   "slot": "secondary",
+   "status": "Added BBG 2.5 (Nov 27, 2013); wiki page still current; 2026 status unknown",
+   "look": "Thick green tube with a darker octagonal mouth, yellow-orange shooting-star decals and black fins, worn on the back aimed forward; first person, the green tube with orange-yellow star swirls is held low-left. HUD icon: a green cone with yellow-orange stars; 1 round.",
+   "firing_and_projectile": "Green crescent lock brackets close on the target (lock in 2-2.5 s within 300 units). The tube shoots up for several seconds, drops, and stops just above the floor (or short under a ceiling).",
+   "impact_end_result": "Not an explosive. It sprays 'a deadly shower of sparks and fire' downward for about 3.25 s (55 dps) and can hit its user. No gib. No image of the spray was found, so the spray look is undocumented.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Blast-O-Mole",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary",
+   "status": "Added BBG 2.5 (Nov 27, 2013) [Fan-wiki]; live in fan footage through 2.26 (~2017); BBH basic attack 'Blast-o-Mole' [Canon]",
+   "look": "Chunky purple robot mole (#675992\u2013#7865B3, shadow #2F2654) with a long silver-white cone drill nose (pink-magenta glow at base, #D174D3), white claws, dark spiky whiskers; held two-handed at belly; ~0.4x Tillman, ~0.35x Oliver [Observed: WAvg_EsRfBA sd1, -PRKUALJwR4 sd1, OFcrVn3MuVQ maxres1; size Inference]",
+   "firing_and_projectile": "Lobbed in a slight arc [Fan-wiki]; the mole itself flies nose-first or tumbles, no visible trail [Observed]; HUD clip reads 1, 2 or 3 across uploads [Observed]",
+   "impact_end_result": "Tall soft billowing flame pillars (core #FFFFFF, lemon #FEFC68, orange #FB9B42, edge #C85620) rise from the floor and stand in a receding row, ~6 in a straight line per wiki [Observed: 4gVS6wpj0JY maxres3, PcNh1B1AyA8 maxresdefault, Gb1o4kcPxgk maxres1, tOi19pdqQXk maxres1; count Fan-wiki]; victims burst into toy pieces with blue bolt tokens; self-kill possible (SUICIDE feed, OFcrVn3MuVQ) [Observed; attribution Inference, strong]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Bouncing Betty",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary",
+   "status": "Added BBG 2.2 (Aug 21, 2013); wiki 'removed later' (2020) and class page 'Unavailable' [Fan-wiki]; fan videos titled 'is back' ~2021 [Unverified]; 2026 unknown",
+   "look": "White/silver bell-mouthed launcher, orange band with bomb-face decal and white 'PUSH' lettering, yellow tab [Observed: ZB6ajSQ2qF8 sd2, YpIzNzI0wrY maxres3, iqINXuuoO9k maxres2]",
+   "firing_and_projectile": "Lobs a round near-black (#181317) cartoon bomb: one white slit eye under angry brow, red lips, curled lit fuse; bounces, exploding at each contact, final blast on 3rd bounce, cannot hit players directly [Observed bomb 2014 and 2021; Fan-wiki mechanics]",
+   "impact_end_result": "Close-up: translucent low-poly faceted orange dome (shell #CF4D1C, mid #F18D36, yellow #FEFD68, white core) beside the bomb [Observed: iqINXuuoO9k maxres2, ZB6ajSQ2qF8 sd2]; at contact/distance: yellow star/ray burst (#F4FC5E) [Observed: mgxkTERq5XM hq2, fWDn0EY0xBI sd1]; grey-white smoke puffs; kill = white flash, victim breaks into toy pieces [Observed: 2aYkjM3xQSI maxres1]; magenta domes in Betty videos are Pain Fields, not Betty [Inference]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Dark Matter",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary",
+   "status": "BBR (by Mar 2012) to BBG; live in BBG 2.22 footage (~2015) [Fan video title]; 2026 unknown",
+   "look": "Purple clawed blaster with glowing violet tip and yellow light slot (unchanged from verified dossier) [Observed again: FGEi-rBIKyQ maxres1]",
+   "firing_and_projectile": "Launch: white flash with pale-pink bloom (#FEC4FF) and cyan arcs (#9BE7E0) at the claw tip, white streak out [Observed: aBTIM7VlKwk maxres3, FGEi-rBIKyQ maxres3]; slow hot-pink orb with white core and cyan arcs [Observed in verified dossier]",
+   "impact_end_result": "BBR 2012: opaque pure-black spheres (#000000) wrapped in jagged cyan-blue lightning (#8ADCF5/#367BB5), big enough to fill a doorway (~1.5-2x a bear) [Observed: oQ9YCxd7kq4 sd1, sd2; Dark Matter attribution Inference, strong]; blocks the victim's vision 1-2 s [Fan-wiki]; BBG blast not yet seen, only a 2.22 kill aftermath with armour pieces and blue bolt tokens [Observed: OPqn8iD3nwY maxres2]",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "gleefully launches fireworks as explosions rattle him",
+   "correction": "fires red firecracker rockets with grinning pink Huggable faces straight up off his back on long yellow-white flames; they rain down into a cluster of chunky orange-and-yellow fire puffs with red and white sparks",
+   "evidence": "[Observed] TG/crops/JW_m2_rocket.jpg and JW_face_zoom.jpg (JWxY0Ung2Rs_maxres2, Feb 7 2016, HUD 19/35); TG/crops/V8_m1_right.jpg (V8XLmy-1wgY_maxres1, HUD 20/35). Wiki trivia 'The Fireworks have a Huggable's face on its surface' and 'a flurry of damaging, orange sparks' [Fan-wiki, Fireworks rev 76874]. TG = /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman-gaps"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "Fireworks (\"lock on feature\")",
+   "correction": "Fireworks (\"lock on feature\") (four red firecracker rockets, each with a grinning pink Huggable face [Observed]; the lock-on is official into Dec 2013 [Canon], but the wiki says it cannot lock now [Fan-wiki])",
+   "evidence": "JWxY0Ung2Rs_maxres2 [Observed]; official BBG 2.6 change log 'Lock radius increased from 300 to 350 / Lock time increased from 0.8 to 1' [Canon]; Fireworks rev 76874 'It cannot lock on to targets.' [Fan-wiki]"
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/tillman.md",
+   "current_text": "So in release week the clip was 4, matching the \"incoming\" stats; it was later 3 [Inference].",
+   "correction": "Fan HUDs disagree even in release week: 0/3 (Mar 9 and Mar 11, 2015), 4/4 (Mar 13), 5/5 (Jul 2015), 4/4 (2016). Ammo +2 adds a bullet [Fan-wiki], so these counts cannot date a clip change [Observed/Inference].",
+   "evidence": "TG/thumbs/vS8uDIRxgu8_maxres1-3 (0/3), 574_vzigCqI_maxres1-3 (0/3, 2/3), eSQAtmxfypw_maxres1 and _maxres3 (5/5, 0/5), GORd_pL67eg_maxres1-3 (0/4, 4/4); Twin Bearzookas rev 76871 equipment table 'Ammo +2 | + 1 bullets'."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/tillman.md",
+   "current_text": "fire the left and right tubes alternately (the stagger is [BBG News invention])",
+   "correction": "two rockets fly side by side, so fire both tubes together [Observed fan: NuhUIKiiGtM_maxresdefault, GORd_pL67eg_maxresdefault; firing together Inference]",
+   "evidence": "TG/crops/Nu_def_proj.jpg (two silver rockets with yellow star fins abreast, grey puff trails) and TG/crops/GO_def.jpg (two grey rockets with yellow bands flying parallel)."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/tillman.md",
+   "current_text": "No in-flight image exists [Unverified].",
+   "correction": "A fan frame shows two rockets with Huggable faces rising vertically on long yellow-white flames (JWxY0Ung2Rs_maxres2, Feb 2016) [Observed]. A descending rocket reads as an orange nose with a white-yellow streak (HpfErDNAcB0_sd3) [Observed; Inference].",
+   "evidence": "TG/crops/JW_m2_rocket.jpg; TG/crops/Hp_sd3.jpg (HUD 10/35)."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/tillman.md",
+   "current_text": "No image of the shot exists [Unverified].",
+   "correction": "Fan frames show a thin, straight white tracer ending in a compact lemon-yellow starburst with a white core (931QvCYv6CA_maxres2; uK1o6eadZYA_hq1) [Observed; the HUD icon shows the Gold Member]. BBR 2012 HUDs read 8 and 2014-2016 HUDs read 6, matching the official 8->6 change [Observed/Canon].",
+   "evidence": "TG/crops/931_m2.jpg (3/6), uK_hq1.jpg (0/6 RELOAD), uK_icon.jpg (gold drum icon), DI_m1.jpg; TG/thumbs/umQbeUnErf4_hqdefault.jpg and zuKD1sG8JoU_sddefault.jpg (8/8); 2.6 log 'Magazine Size decreased from 8 to 6' [Canon]."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/tillman.md",
+   "current_text": "the Fireworks spark landing; the RPL dive;",
+   "correction": "List only the RPL blast and the Reverse Fountain spray as undocumented. Note that fan or 2026 frames now show the Fireworks landing bursts, the RPL dive, the Gold Member hit and the Twin Bearzookas blast (see the tillman-gaps addendum). Also drop the open question 'When did the clip drop from 4 (release-week fan thumbnails) to 3?'.",
+   "evidence": "TG/crops/V8_m1_right.jpg, Pd_m2_rpl.jpg (RPL diving nose-first on a white smoke column, Oct 2026 build 3.0.7), 931_m2.jpg, Nu_m1_flash.jpg."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "Blast-O-Mole, \"Tillman's pet mole\" [Game text via wiki] ([mole][wmole]);",
+   "correction": "Keep, and add: a purple robot mole with a silver drill nose, lobbed in a slight arc [Observed; Fan-wiki]; in BBG it erupts into a straight line of tall white-yellow-orange flame pillars [Observed in fan-video thumbnails; Fan-wiki 'approximately six explosions']; in BBH it 'burrows and explodes' [Canon].",
+   "evidence": "Fan-video thumbnail frames with the mole HUD icon or the mole in view: WAvg_EsRfBA sd1, -PRKUALJwR4 sd1, OFcrVn3MuVQ maxres1, Gb1o4kcPxgk maxres1, PcNh1B1AyA8 maxresdefault (also 4gVS6wpj0JY maxres3 and tOi19pdqQXk maxres1). Wiki Blast-O-Mole rev 76870 usage text. battlebears.com/pages/characters re-fetched 2026-10-18."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "(2) the Blast-O-Mole fetches the bomb back to his wheels;",
+   "correction": "(2) Tillman throws the Blast-O-Mole like a fetch toy and it 'brings back' its marching line of flame pillars to his wheels [BBG News invention].",
+   "evidence": "In BBG the mole is itself the explosive projectile; there is no separate bomb [Fan-wiki usage; Observed in flight, WAvg_EsRfBA sd1]. Bombs belong to the Bouncing Betty [Fan-wiki]. The mole's own blast can kill its thrower: the kill feed reads SUICIDE beside a mole blast in OFcrVn3MuVQ maxres1 [Observed]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/tillman.md",
+   "current_text": "what the 2014 \"Tillman Overhaul\" ([YouTube][overhaul]) and the 2026 build changed;",
+   "correction": "Add: a fan upload (https://www.youtube.com/watch?v=IczzjY63vBY, ~Sept 2026) shows build 3.0.2 with the Big Shot equipped; whether the Bouncing Betty (removed per the wiki in 2020, fan-reported 'back' around 2021) is in the 2026 build is unknown.",
+   "evidence": "IczzjY63vBY maxres1 thumbnail shows '3.0.2 / 12195161' and a Big Shot HUD icon [Observed]. Fan video titles iqINXuuoO9k ('THE BOUNCING BETTY IS BACK!') and SrLurk7IKug ('Bouncing Betty is back!'), both ~5 years ago, with the Betty HUD icon in iqINXuuoO9k. Bouncing Betty wiki rev 76868 added 'and removed later'."
+  }
+ ],
+ "open_questions": [
+  "What does the RPL blast look like? No frame was found. Leads: the Tillman chapters of HKbwq7PolNc (56:16, 1:00:25) and aujTcdFuxdE (0:00, 42:39), and Pd0VvQ1TBRM itself, all of which need a person to watch.",
+  "What does the Reverse Fountain spray look like (colour, shape, how high it hovers)? No frame was found in fan thumbnails from 2013-2021.",
+  "Which of the five weapons are in the 2026 build? Only the RPL (beside Light Matter) is seen in the Oct 2026 final-playtest frag movie.",
+  "Are the six burning floor flames in the Steam trailer's Tillman segment (about 30.0-32.1 s) landed Fireworks or something else?",
+  "Fireworks clip and lock history: the clip was officially cut from 30 to 10 in Dec 2013, but 2015-16 HUDs read 30 and 35. Did the June 2014 Tillman Overhaul restore the clip and remove the lock-on?",
+  "Twin Bearzookas: does each trigger pull fire both tubes, and does it use one round or two? Are the violet electric squiggles in its frames a power-up aura?",
+  "Are the yellow-orange sky starbursts in the JWxY0Ung2Rs custom thumbnail in-game or added by the editor?",
+  "Tillman's 2026 first-person arms are white with a red arrow decal in one frame and a blue one in another (Pd0VvQ1TBRM). Is that a team-coloured skin or the new default?",
+  "What does the 'Secondary Changes' chapter (1:10) of SkyVu's Tillman Overhaul video (q1Y8Siqfvn4, Jun 6 2014) change for the Fireworks and the other lock-on secondaries?",
+  "Blast-O-Mole: does the flame line march away from the thrower, how many pillars are there (the wiki says about six), and how fast? Watch tOi19pdqQXk around 1:09, Gb1o4kcPxgk around 1:06 and -PRKUALJwR4 (0:22 long).",
+  "Bouncing Betty: are the translucent orange faceted dome and the yellow ray-burst two phases of one blast, or the bounce blast versus the final third-bounce blast? Watch ZB6ajSQ2qF8 (0:09), iqINXuuoO9k around 2:04 and mgxkTERq5XM around 2:40.",
+  "Dark Matter: does the BBR black sphere with cyan lightning carry into BBG (2013+)? What does a caught player's screen show? Candidates: aBTIM7VlKwk, FGEi-rBIKyQ, OPqn8iD3nwY (2.22), stTBTZMX5P0, h1QuN6cRxBU.",
+  "Bouncing Betty status: did it officially return around 2021 (fan videos iqINXuuoO9k and SrLurk7IKug), in which version, and is it in the 2026 build (3.0.2 seen in IczzjY63vBY)?",
+  "Does the BBG Blast-O-Mole burrow at all, or is burrowing only in BBH?",
+  "HUD clip sizes vary across uploads (mole 1/2/3; Betty 3/4/5). Which come from Ammo equipment and which from version changes?",
+  "Exact upload dates and the 2.2 and 2.5 official patch notes are still unread: YouTube watch pages redirect to a bot check and web.archive.org resets every connection."
+ ]
+}

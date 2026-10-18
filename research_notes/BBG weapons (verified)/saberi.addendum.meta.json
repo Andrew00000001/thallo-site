@@ -1,0 +1,62 @@
+{
+ "quickref": [
+  {
+   "weapon": "Huggable Splicer",
+   "owner": "Saberi (BBH Medic)",
+   "slot": "BBH main Attack",
+   "status": "BB Heroes only (added Summer 2023 per wiki; BBH still live Sept 2026); not in BBG 2013-2021 or BBG 2026",
+   "look": "Squat teal-blue drum launcher (#35729B-#3F89AF) with a yellow band (#F6E03F), white side lamps and a brown-wrapped top handle (#44332C). Engraved grey face plate with four silver-rimmed bores, each loaded with a hot-pink Huggable (#E83ACD-#F13CDD). About 0.3x her height across the face; carried at the hip by the handle or heaved onto the right shoulder. Skins recolour it, e.g. a gold frame with an olive body [Observed]",
+   "firing_and_projectile": "Wide grey aim wedge, roughly 40-50 degrees; wiki says 15 x 190 damage with 'Very slow' reload [Fan-wiki]. Muzzle flash is a violet-pink starburst (#D0AAE3) with pink streaks, and the bores glow pink. 'Huggable bits' [Canon] show in matches as a fan of magenta streaks and star-puffs with white/pale-yellow sparkles reaching about 3-4 bear-lengths; one hero-screen tile shows a whole pink Huggable flying out [Observed, low-res]",
+   "impact_end_result": "Pink-and-orange fleck bursts on hit (#BC629C/#C7795A) [Observed]. 'HAS KILLED' banners appear, but the defeat look, status effects and knockback are unverified",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Healing Turret",
+   "owner": "Saberi (BBH Medic)",
+   "slot": "BBH Ultimate",
+   "status": "BB Heroes only; the in-game skill panel names it 'Healing Turret' (2026 upload); not in BBG",
+   "look": "Small object (the wiki's 'HealBox', 3360 HP) on a pale-blue ring (#80C8DA) with its own HP readout. It is only a few pixels at storyboard resolution (dark brown/olive with green on top) and no gun barrel is visible. It projects a translucent green dome about 6 bear-widths across (fill #4C7335-#547B3A, rim #76AC5F, highlight #A7E579) [Observed]",
+   "firing_and_projectile": "Does not fire. Pale-green '+' sparkles (#BCEC84) drift up inside the dome [Observed]; 468 healing per second, Range 'Very long' [Fan-wiki]. Deploy method and duration unverified",
+   "impact_end_result": "Heals Saberi and teammates inside the radius, 'excluding non-player units' [Canon]. The box has HP and can be destroyed [Fan-wiki; Observed readout 3198]; its destruction look and any heal glow on allies are unverified",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "BBH model and skin recheck (sub-topic)",
+   "owner": "Saberi",
+   "slot": "sub-topic",
+   "status": "BBH 2023/2024 to present",
+   "look": "Default 3D model: white knotted bandana with ear-like ends (#DAD9E3), blonde fringe, tan-brown fur (#726242), dark eyes, near-black navy suit (#2E2F39) with a yellow chest cross, yellow sleeves, teal gloves (#60D1CB), yellow tool belt and red backpack. The long blonde hair, gold tiara and white top in 'Matches with Saberi' is a skin of unknown name. Other Medic skins: Huggable Hunter, Skull Driver, and a pink-hoodie boxing look in SkyVu shorts [Observed]",
+   "firing_and_projectile": "Not applicable",
+   "impact_end_result": "Not applicable. Official BBH key art also shows the classic red polka-dot Saberi holding an unidentified orange gun with a flared grey cone nozzle [Observed; identity unverified]",
+   "confidence": "observed"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "BBH: Huggable Splicer, Healing Turret [Canon] ([characters][chars]).",
+   "correction": "BBH: Huggable Splicer (a teal four-bore drum launcher loaded with hot-pink Huggables, carried by a top handle and fired from the shoulder in a wide pink spray [Observed]) and Healing Turret (a small box the wiki calls a 'HealBox' [Fan-wiki], projecting a translucent green healing dome with pale-green '+' sparkles [Observed]) [Canon names] ([characters][chars]).",
+   "evidence": "These scratchpad files under /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/saberi-bbh-gaps/: thumbs/8C7JH7STmyo_maxres2.jpg (Splicer close-up); crops/sb_8C7_saberi_27_32.png and crops/muzzle_zoom.png (storyboard t=27-32 s of 8C7JH7STmyo, and KLcjIqjf5sc t=27-28 s); crops/cup_d.png and crops/cup_heal_zoom2.png (CuptyqnRweM storyboard t=530-740 s, green dome with a HealBox HP readout of 3198); wiki 'Battle Bears Heroes' table: 'HP of HealBox 3360'."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "Alternative: the 2024 BBH redesign (light tan fur, blonde bangs, cream bandana, winking teal eyes, navy suit, red backpack) [Observed] ([icon][icon]).",
+   "correction": "Keep, then add: the in-game 3D default adds a yellow chest cross, yellow sleeves, teal gloves and a yellow tool belt, with mid tan-brown fur (#726242) and dark eyes (the teal wink is icon-only) [Observed]. The long-blonde / gold-tiara / white-top look in fan match videos is a skin, not the default [Inference].",
+   "evidence": "thumbs/8C7JH7STmyo_maxres2.jpg and the KLcjIqjf5sc 2026 skill-screen storyboard t=27-28 s (crops/kl_saberi.png) both show the white-bandana default. thumbs/CuptyqnRweM_maxres1.jpg and CuptyqnRweM_maxresdefault.jpg show the gold-tiara look carrying a gold-and-olive Splicer variant. The official icon is official/Saberi_BBH_HeroIcon_1_full.png. All are in the same saberi-bbh-gaps scratchpad folder."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "BBH portrait, k-means sampled [Inference]: fur #9C8564 / #796247, light #EEE4C7.",
+   "correction": "Add: in-game 3D: fur #726242, suit #2E2F39, gloves #60D1CB, bandana #DAD9E3, Splicer teal #35729B / yellow #F6E03F / pink #E83ACD [Observed, sampled].",
+   "evidence": "Median samples with a hue mask from thumbs/8C7JH7STmyo_maxres2.jpg (scripts sample.py, huemask.py and palette.py in scripts_saberi_bbh_gaps)."
+  }
+ ],
+ "open_questions": [
+  "What does the HealBox itself look like (crate, medkit or a small turret)? How long does it last, does it stay put, and how does it break? The storyboard tiles (390x180) are too coarse to tell.",
+  "What is the long-blonde / gold-tiara / white-top Medic skin called, and how is it unlocked? Does every Saberi skin re-colour the Huggable Splicer?",
+  "What is the orange flared-nozzle gun Saberi holds in SkyVu's BBH key art (wiki file BBH_Splash.png; same art as the official skins-tour thumbnail and the trailer end card): early Splicer concept art, a skin weapon, or decoration?",
+  "How does a Huggable Splicer kill or knockback look in BBH, and is there any hit status effect? What do the Splicer and the turret sound like?",
+  "Does the Splicer fire whole Huggables or only 'bits'? One 2026 hero-screen tile shows a whole pink Huggable flying from the muzzle; gameplay tiles show only magenta puffs.",
+  "Will any BBH element (Medic role, Huggable Splicer, Healing Turret) carry over to BBG 2026? Steam still lists only '-COMBAT TECH: Saberi'."
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "quickref": [
+  {
+   "weapon": "Frozen status (S'no Matter / Let It Cold hit)",
+   "owner": "Tillman (Demo)",
+   "slot": "Status effect from primary / secondary",
+   "status": "BBG 2.15+ (Dec 20 2014) / 2.26+ (Jan 17 2017); seen in fan footage Oct 2015; 2026 unverified",
+   "look": "In game: the victim sits inside a closed, faceted ice chunk, about as wide as it is tall. Its top is opaque white-lavender (#F8F6FB / #C0BBC6) and its lower half translucent teal (#287D7B; highlights #8DB2BE), with a dim figure and a green bar showing through; no overhead icon [Observed: uBXgVYop_-0 maxresdefault, Oct 24 2015, low-res; frozen-player identity Inference]. Concept (provenance unverified): a jagged white-capped teal mound catches the target's legs and back, not a full encasement [Observed concept].",
+   "firing_and_projectile": "S'no Matter: a slow 'gray' projectile on a straight path at 800 u/s [Fan-wiki]; a white orb (#F0F2F5) is seen in flight [Observed: kRBhGYrQQ2U; identity Inference]. Let It Cold: missiles 'rain down' [Fan-wiki]; no image.",
+   "impact_end_result": "Frozen for 2 s (S'no Matter) or 3 s (Let It Cold): cannot move or turn the camera, reloads restart, teammates freeze too [Fan-wiki]. Status Effects has no Frozen entry [Fan-wiki]. How the ice ends (shatter or melt) and any sound are unknown [Unverified].",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "S'no Matter",
+   "owner": "Tillman (Demo)",
+   "slot": "Primary (explosive)",
+   "status": "BBG 2.15, Dec 20 2014; fan footage Oct 2015 (2.22); 2026 unverified",
+   "look": "Menu render: a glowing white-cyan crystalline mass with a dark round muzzle (#FDFEFE / #CCFCFD) [Observed]. In-game HUD icon: grey body, pale ice-shard crest, cyan gem orbs, red rear wrap; it matches the concept's grey second variant, not the tartan one [Observed; match Inference].",
+   "firing_and_projectile": "2 s rate of fire, ammo 3, 800 u/s, straight per the wiki, -10% move speed [Fan-wiki]; the concept lobs in an arc [Observed concept]; a white glowing orb is seen in flight with no trail [Observed; identity Inference].",
+   "impact_end_result": "Explodes on any surface; 2 s freeze for everyone in the radius, teammates included [Fan-wiki]. The result is the white-and-teal ice chunk [Observed]. The burst look is unknown [Unverified].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Let It Cold",
+   "owner": "Tillman (Demo)",
+   "slot": "Secondary (explosive)",
+   "status": "BBG 2.26, Jan 17 2017; fan footage Jan 22 2017; 2026 unverified",
+   "look": "A black striped bar across the shoulders, each end with two blue rockets (#2663D9, cone #2A2ADB), mint-green grinning faces, gold fuse sticks and cyan ice sparkles; HUD icon: a blue rocket with black fins, 0/4 [Observed].",
+   "firing_and_projectile": "Missiles that 'rain down'; 0.5 s, ammo 4, reload 4.0 s [Fan-wiki]; no image of flight [Unverified].",
+   "impact_end_result": "Explosion (AoE 150/300) plus a 3 s freeze [Fan-wiki]; no image. It probably reuses the S'no Matter ice chunk [Inference].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Drain Field",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "Secondary (unlock, level 20, 55 Gas)",
+   "status": "BBG v2.16, Jan 30, 2015 [Fan-wiki: Updates]. In-play frames are from uploader-titled 2.25 videos (Mar 24 and Apr 27, 2016). Infobox changed from 35/s and 20 per 1.5 s to 25/s and 25 per 1 s in a Nov 11, 2020 wiki edit. In the 2026 re-release: Unverified.",
+   "look": "Held: a glossy orange-brown slug or leech (#B36B44, dark rim #6D2919) with a small dark slit mark, about 0.35x Sanchez's height, in the prosthetic hand [Observed: File:Drainfield.jpg; size Inference]. Field: a giant deep-red creature head (#7B2825 to #9E3621) wearing dark-grey sunglasses (#4C4455) with white glints, with a ring of white triangular fangs (#F7ECEA). Two small black bat-like figures with glowing red eyes (#F50012) sit at its edge [Observed: xAp9gFMriAU hq1; 5twbNI7iakw maxres]. Concept art: a red-orange hooked blob with an eye patch or lens, wrapped in white swirl rings [Observed: File:Drainfield.png, fan-uploaded].",
+   "firing_and_projectile": "Tosses 'the leech-like creature that flies in an arc'; 800 u/s, ammo 1, reload 4.5 s [Fan-wiki]. HUD reads '1 / 1' [Observed: xAp9gFMriAU hq2, hq3]. The leech in flight, the launch effect and the sound were never seen [Unverified].",
+   "impact_end_result": "Forms a field where it hits a solid surface. Enemies in range take 25/s and the user gets their lost health, with no overheal; shielded enemies give health but take no damage [Fan-wiki]. In play (2016) the field is the red, sunglasses-wearing, fanged creature projection, with a pale-pink haze (#E77A6D) rising from its mouth and red-eyed black bats at its edge. It is red, not the wiki's 'dark field' [Observed]. It stays up while Sanchez fires the Bind Gun at a slowed target inside it [Observed HUD; persistence Inference]. Heal transfer, kill and duration visuals: Unverified.",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/combat-vfx.md",
+   "current_text": "    - the target encased in jagged cyan and white ice crystals",
+   "correction": "    - a jagged ice mound (white caps, translucent teal body) bursting up where the lobbed shot lands; the silhouetted target stands at its right edge with legs and back caught, not fully encased [Observed: concept art; SkyVu provenance unverified]",
+   "evidence": "Concept image opened and zoomed: FZ/crops/concept_ice.png from Snomatterconcpetar.jpg (wiki upload 2015-03-29 by Thecheeselover). The bear silhouette's upper body is outside the ice."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/combat-vfx.md",
+   "current_text": "  - The in-game frozen-state visual is [Unverified].",
+   "correction": "  - In game, the frozen target sits inside a closed, faceted ice chunk with an opaque white-lavender top (#F8F6FB / #C0BBC6) and a translucent teal lower half (#287D7B, highlights #8DB2BE), with a dim figure and a green bar visible inside [Observed: SW, 'EVERYBODY FREEZE!!!(SNO-MATTER GAMEPLAY) - Battle Bears Gold 2.22', uBXgVYop_-0 maxresdefault, Oct 24 2015, low-res; that it is a frozen player is Inference]. Let It Cold's freeze has no image [Unverified].",
+   "evidence": "FZ/yt/uBXgVYop_-0_maxresdefault.jpg (1152x720) and hq720; crops FZ/crops/uBX_max_ice.png, FZ/crops/uBX_720_floor.png; colours sampled with scripts_combat_vfx_frozen/px2.py; upload date from the youtubei next endpoint."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/combat-vfx.md",
+   "current_text": "- **Depiction for shorts:** encase the victim in jagged cyan-and-white ice crystals, as in the concept art [Observed: concept art; in-game look Unverified], and hold for the 2 s beat [Fan-wiki].",
+   "correction": "- **Depiction for shorts:** snap a faceted ice chunk shut around the victim, with a frosted white-lavender cap over a clear teal lower half and the victim dimly visible inside [Observed: in-game still, 2015]; hold 2 s (S'no Matter) or 3 s (Let It Cold) [Fan-wiki]; end it with a crack into white and teal shards and a puff of snow [BBG News invention].",
+   "evidence": "Same in-game still as above. Durations from the S'no Matter (rev 76873) and Let It Cold (rev 77278) infoboxes."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/combat-vfx.meta.json",
+   "current_text": "Frozen for 2 s, unable to move or turn [Fan-wiki]. Concept art encases the target in jagged cyan-white ice; the in-game look is Unverified.",
+   "correction": "Frozen for 2 s (S'no Matter) or 3 s (Let It Cold), unable to move or turn [Fan-wiki]. In game, a closed faceted ice chunk with a white top and teal lower half [Observed: uBXgVYop_-0, 2015, low-res]; the concept's jagged mound catches only the target's legs and back [Observed concept]. How the ice ends is Unverified.",
+   "evidence": "FZ/yt/uBXgVYop_-0_maxresdefault.jpg; FZ/crops/concept_ice.png."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/tillman.md",
+   "current_text": "  - The concept shows the target encased in a jagged cyan ice block [Observed concept].",
+   "correction": "  - The concept shows a jagged white-capped teal ice mound bursting up at the landing point and catching the silhouetted target's legs and back; the target is not fully encased [Observed concept; SkyVu provenance unverified].",
+   "evidence": "FZ/crops/concept_ice.png (zoom of Snomatterconcpetar.jpg)."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/tillman.md",
+   "current_text": "  - No in-game freeze image exists [Unverified].",
+   "correction": "  - In game (fan video, Oct 24 2015, BBG 2.22), the frozen target sits inside a closed, faceted ice chunk with a white-lavender top and a translucent teal lower half [Observed: uBXgVYop_-0 maxresdefault; frozen-player identity Inference].",
+   "evidence": "FZ/yt/uBXgVYop_-0_maxresdefault.jpg; the HUD shows the S'no Matter icon (FZ/crops/uBX_max_hudicon.png)."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/tillman.md",
+   "current_text": "  - A concept sheet hand-labelled \"Tillmans S'no Matter\" shows a red tartan gun body with a white snowflake ornament on top, cyan hexagonal gems and a dark curved hook nose. A second variant has a grey studded body with ice shards [Observed: VF/img/png_Snomatterconcpetar.png].",
+   "correction": "Keep the text, and add: The in-game HUD icon (grey body, ice-shard crest, cyan gem orbs, red rear wrap) matches the second, grey variant, not the tartan one [Observed: wyhDD9PVKyY and uBXgVYop_-0 HUD icons; match Inference from a low-res icon].",
+   "evidence": "FZ/crops/wyh_max_hud.png; FZ/crops/uBX_max_hudicon.png; side-by-side FZ/crops/cmp_conceptB_vs_hud.png."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/tillman.md",
+   "current_text": "- **Depiction for shorts:** four grinning blue rockets rain down. Reuse the S'no Matter concept ice block for the freeze so the two weapons match [BBG News invention].",
+   "correction": "- **Depiction for shorts:** four grinning blue rockets rain down [Fan-wiki]. Reuse the in-game S'no Matter ice chunk (white top, teal lower half) for the freeze and hold it 3 s [Observed look; Fan-wiki duration]; that Let It Cold uses the same chunk is [Inference].",
+   "evidence": "In-game freeze still FZ/yt/uBXgVYop_-0_maxresdefault.jpg; Let It Cold infobox freeze 3 s (rev 77278)."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/shared.md",
+   "current_text": "  - **Frozen-target look:** only the S'no Matter concept shows it. A lobbed arc lands as a jagged cyan-and-white ice mound encasing the target's lower body [Observed; provenance unverified].",
+   "correction": "  - **Frozen-target look:** in game (fan video uBXgVYop_-0, Oct 24 2015), a closed, faceted ice chunk with an opaque white-lavender top (#F8F6FB / #C0BBC6) and a translucent teal lower half (#287D7B) holds the victim [Observed, low-res; identity Inference]. The concept instead shows a lobbed arc landing as a jagged ice mound that catches the target's legs and back [Observed; provenance unverified].",
+   "evidence": "FZ/yt/uBXgVYop_-0_maxresdefault.jpg; FZ/crops/concept_ice.png."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/shared.md",
+   "current_text": "  - **S'no Matter, concept:** \"Tillmans S'no Matter\" (Snomatterconcpetar.jpg, uploaded 2015-03-29; SkyVu provenance unverified) shows two variants of a launcher wrapped in red tartan cloth, with silver and grey bands, a white snowflake fin on top and cyan hexagonal gem studs [Observed, re-opened].",
+   "correction": "  - **S'no Matter, concept:** \"Tillmans S'no Matter\" (Snomatterconcpetar.jpg, uploaded 2015-03-29; SkyVu provenance unverified) shows two variants, each with a white snowflake fin and cyan hexagonal gems: (1) a red tartan-wrapped body with a dark hook nose; (2) a grey studded body with ice shards and a plain red wrap. The in-game HUD icon matches variant 2 [Observed; match Inference].",
+   "evidence": "FZ/img/Snomatterconcpetar_v.png; FZ/crops/cmp_conceptB_vs_hud.png."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/shared.meta.json",
+   "current_text": "Explosion plus a 3 s freeze [Fan-wiki]; freeze look unknown",
+   "correction": "Explosion plus a 3 s freeze [Fan-wiki]; no image of the Let It Cold freeze [Unverified]; the S'no Matter freeze is a faceted white-topped teal ice chunk [Observed: fan video 2015], which it probably shares [Inference]",
+   "evidence": "FZ/yt/uBXgVYop_-0_maxresdefault.jpg; Let It Cold rev 77278."
+  },
+  {
+   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/tillman.meta.json",
+   "current_text": "Freezes everyone in the blast for 2 s (no movement or camera; reloads restart), teammates included; the concept shows a jagged cyan ice-block encasement.",
+   "correction": "Freezes everyone in the blast for 2 s (no movement or camera; reloads restart), teammates included [Fan-wiki]; in game the victim sits in a closed, faceted white-and-teal ice chunk [Observed: fan video 2015]; the concept's mound catches only the legs and back [Observed concept].",
+   "evidence": "FZ/yt/uBXgVYop_-0_maxresdefault.jpg; FZ/crops/concept_ice.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "Fields come from \"a command gauntlet on his arm\" [Fan-wiki] ([Speed Field][speed]).",
+   "correction": "Narrow this to the Speed, Cloak and Invulnerable Fields, whose orbs 'appear from a command gauntlet on his arm' [Fan-wiki]. The Drain Field is not an orb from the arm. Sanchez throws a leech that 'flies in an arc', and the field forms where it lands; in play it appears as a giant red, sunglasses-wearing, fanged creature projection with red-eyed bats [Fan-wiki; Observed 2016]. This duplicates sanchez-topic correction 4.",
+   "evidence": "Wiki API, 2026-10-18: Speed_Field, Cloak_Field and Invulnerable_Field all contain 'which appears from a command gauntlet on his arm'. Drain_Field says 'the Arbiter will toss the leech-like creature that flies in an arc' and 'the other fields are formed around the user while the Drain Field won't'. Frames: https://i.ytimg.com/vi/xAp9gFMriAU/hq1.jpg and https://i.ytimg.com/vi/5twbNI7iakw/maxresdefault.jpg [Observed]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "fields fire from a button on his arm [Fan-wiki] ([Speed Field][speed]).",
+   "correction": "Only the Speed Field page says 'To activate it, Sanchez hits a button on his arm' [Fan-wiki]. The Drain Field is thrown in an arc and forms where it lands [Fan-wiki]. Write 'the Speed Field fires from a button on his arm' and do not generalise to all fields. This duplicates sanchez-topic correction 5.",
+   "evidence": "Wiki API, 2026-10-18: the only 'button' match among the Speed, Cloak and Invulnerable Field pages is on Speed_Field ('To activate it, Sanchez hits a button on his arm'). The Drain_Field Usage section describes a toss."
+  }
+ ],
+ "open_questions": [
+  "How does the Frozen ice end (shatter, melt or pop), and is there a freeze or thaw sound? This needs playback of uBXgVYop_-0 around 2:05 or of kRBhGYrQQ2U; both are blocked here.",
+  "Does Let It Cold's 3 s freeze use the same ice chunk as S'no Matter, and does its rocket burst look icy? No image found.",
+  "What are the four upright shards in blue-violet floor halos beside the ice in uBXgVYop_-0: freeze or explosion debris, gibs, or pickups?",
+  "Is the green bar visible inside the ice the frozen player's health or name bar, and does a frozen teammate look different from a frozen enemy?",
+  "Is the S'no Matter projectile grey (wiki) or near-white (2015 still), and straight (wiki) or lobbed (concept)?",
+  "Are S'no Matter and Let It Cold in the Nov 4, 2026 re-release? JustNubz's showcase Demolition chapter (17:44) could answer this but cannot be played here.",
+  "Is the 'Tillmans S'no Matter' concept really SkyVu art? It was uploaded by wiki user Thecheeselover on 2015-03-29 with no source.",
+  "What did SkyVu's 2.15 (Dec 2014) and 2.26 (Jan 2017) patch notes or forum posts say about the freeze? web.archive.org was unreachable throughout this session (repeated connection resets).",
+  "What does the thrown leech look like in flight, and is there a splat or other landing effect before the creature projection appears? No image shows it.",
+  "What are the field's radius and duration? The wiki infobox gives neither (only reload 4.5 s and ammo 1).",
+  "Is the creature projection translucent? It reads as solid red in xAp9gFMriAU hq1 (Mar 2016) and only faintly see-through in 5twbNI7iakw maxres (Apr 2016).",
+  "Are the black red-eyed figures at the creature's edge bats with wings, and do they fly or orbit? At 480x360 they read only as pointed-eared silhouettes.",
+  "Is the pale-pink haze rising from the creature's mouth the visible drain stream? What are the small green specks near the mouth?",
+  "Is there a visible health-transfer effect on Sanchez or the victims, and how does a Drain Field kill look?",
+  "Was the field ever 'dark', as the wiki wrote on Feb 1, 2015 for v2.16, and then recoloured red by 2.25 (2016)? No patch note found; web.archive.org was unreachable.",
+  "When did the in-game stats change from 35/s and 20 per 1.5 s to 25/s and 25 per 1 s? The only date is the wiki edit, rev 77118 (Nov 11, 2020).",
+  "Is the 'Sanchez drain field' concept art (File:Drainfield.png, uploaded 2015-02-16 by fan editor Thecheeselover) by SkyVu?",
+  "Is the Drain Field in the BBG 2026 re-release? The playtest showcase's Arbiter chapter (47:23) has not been watched, and the Steam text names no secondaries."
+ ]
+}

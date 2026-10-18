@@ -1,0 +1,152 @@
+{
+ "quickref": [
+  {
+   "weapon": "Se\u00f1or Potato",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Primary",
+   "status": "BBR 1.4.3 (Apr 15, 2013) \u2192 BBG; clip 4 (2014) then 3 (from Jan 2015); seen firing in Oct 2026 final playtest build 3.0.7",
+   "look": "Golden potato body with red Potato Head nose, pink ear and googly eye; coffee cup on top, bicycle handlebars, pink-tan cardboard-tube barrel; held at hip, about 0.5\u00d7 Wil long [Observed]",
+   "firing_and_projectile": "1 s rate of fire, 1000 u/s, extreme arc [Fan-wiki]; plain brown-gold spud (\u2248#CC9231, dark spots) leaves the tube inside a broad white-hot trail (\u2248#FEFFFA core, #F0B65D edges); spud itself not burning [Observed, 2026]",
+   "impact_end_result": "Flat orange/yellow fireball (\u2248#F28E36/#FFFC53/#FEFEAE) [Observed 2.21]; cluster of ~5\u20137 stubby yellow fry blocks with orange flame tongues and smoke wisps that fade within about 2 s [Observed BBR 2013 and official trailer 30.0\u201331.6 s; that they are Se\u00f1or Potato fries is Inference]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Doomstick",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Primary",
+   "status": "BBR v1.3/1.3.1 (2012) \u2192 BBG; 2.6 (Dec 20, 2013) clip 2\u21923 (5/5 with Ammo+2 in 2014); not seen in 2026 material",
+   "look": "Red-black lava-cracked pump shotgun with glowing yellow-orange dots along the top, eyeball in the receiver, fleshy red barrels [Observed: HUD icons, renders]",
+   "firing_and_projectile": "Hitscan pump-action shotgun, no visible projectile [Fan-wiki]; big soft cream-white blast bloom (\u2248#F7CDA2) at close range [Observed BBR 2012; muzzle-flash ID Inference]",
+   "impact_end_result": "Target collapses intact, face-down, with three blue lightning-bolt Joules icons above the body [Observed 2013; Joules ID Inference]; no pellet spark isolated [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Balance Beam",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Primary",
+   "status": "BBR v1.3 (May 3, 2012) \u2192 BBG; level 15; seen firing in Oct 2026 build 3.0.7 (HUD 27/70 = 50 + Ammo+2)",
+   "look": "White gun body, gold rod with two gold hex weights, blue tip and red end, white pentagon emitter glowing violet; held level at the waist; HUD icon shows it side-on [Observed]",
+   "firing_and_projectile": "Hitscan automatic, 0.15 s, range 3000 [Fan-wiki]; thin straight magenta beam strands (\u2248#C73DA6\u2013#CA36A3; 2026 \u2248#CA23A9 with pale-pink core) from emitter to target, white sparkle dots along it [Observed 2019, 2026]",
+   "impact_end_result": "Small magenta spiky star-flare on the hit enemy; target glows white-pink [Observed 2019]; 2026 shows a small yellow-white flare at the hit point [Observed low-res; ID Inference]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Bubble Gun",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Primary",
+   "status": "BBG 2.12 (Oct 2, 2014); seen in a 2.53.5 fan upload (Nov 2021); 2026 unconfirmed",
+   "look": "Green sphere tank with yellow piping, yellow body, light-blue barrel with yellow square-frame muzzle; about 0.5\u00d7 Wil [Observed]",
+   "firing_and_projectile": "0.75 s rate of fire, 800 u/s, clip 4 (6 with Ammo+2) [Fan-wiki; Observed 6/6]; solid teal-blue ball (\u2248#2CA7BC) with a white splash-puff [Observed; that it is the projectile is Inference]",
+   "impact_end_result": "Huge translucent iridescent dome bubbles on the floor (blue-teal \u2248#6CA4B9, violet fringes \u2248#8C50A2, white highlights), several bear-widths across [Observed]; pop/explosion after 1\u20132 s with AoE not seen [Fan-wiki; Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Snowtato Launcher",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Primary",
+   "status": "BBG 2.26 (Jan 17, 2017); HUD clip 5/5 in 2017 and 2018 (infobox says 6); 2026 unconfirmed",
+   "look": "Se\u00f1or Potato build in ice tones: lavender-blue potato, ice-blue cup, blue-grey fins, grey barrel; HUD icon is a slate potato with a brown grip [Observed]",
+   "firing_and_projectile": "Exploding snowballs, cooldown 2.2, reload 4.5 s [Game text via wiki; Fan-wiki]; snowball in flight not seen [Unverified]",
+   "impact_end_result": "Lingering snow that blocks explosives [Fan-wiki]; 2018 frame shows dozens of violet-indigo puff particles (\u2248#3E197D) filling a corridor [Observed]; snow ID is Inference (Fairy's Dust also makes purple clouds)",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sole's Bane",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Secondary",
+   "status": "BBR 1.4.3 (Apr 15, 2013) \u2192 BBG; 2.6 duration 4\u21926; HUD icon present in 2026 builds 3.0.2 and 3.0.7",
+   "look": "Armful heap of studded toy bricks (red \u2248#CE1A0E, orange #E68114, yellow #D6A323, green #65B42D, blue #198CCD) hugged at the belly; HUD icon an orange 2\u00d74 brick [Observed]",
+   "firing_and_projectile": "Bricks thrown in the air on activation [Fan-wiki] or a 'trail of \u2026 colorful mines' [Fan-wiki transcription of update note]; one blue 2\u00d72 brick seen mid-air at HUD 0/2 while the heap stays in hand [Observed 2015]",
+   "impact_end_result": "Small AoE, 50 damage, 4.5 s duration [Fan-wiki]; floor carpet and step-on trigger not seen [Unverified]; earlier 'pink lightning' frames are probably not this weapon [Inference]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sarcastic Air Strike",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Ultimate (BBH only)",
+   "status": "BBH, soft launch May 23, 2023; kit reworked June 20, 2023 (Fan-wiki Updates); still live 2026; not in BBG or BBG 2026",
+   "look": "Caster is ABBi. BBH 2024 key art shows a gunmetal shield-shaped robot (#575F66/#292D31) with a navy plate (#041333), three yellow bars (#D2A824) and one violet-blue lens (#4A4388 iris, #22548A ring), about 0.3x Wil's height [Observed; identifying it as ABBi is Inference]. The strike itself was not seen [Unverified]",
+   "firing_and_projectile": "'Wil deploys A.B.B.I ... A.B.B.I. flies in a straight line across the battlefield, dropping bombs ...' [Game text in fan frame, Jul 1, 2023]. 441 DPS on the card, 369 on the wiki; range VERY LONG. Bomb look, count and speed [Unverified]",
+   "impact_end_result": "'executing a devastating airstrike, raining destruction across the battlefield' [Canon, battlebears.com, fetched 2026-10-18]. The damage is per second, so probably damage over time along the line [Inference]. No impact visual found [Unverified]; the red-disc rows in Brick Battle frames are map features, not this strike [Inference]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Boomstick (BBH attack, era guard)",
+   "owner": "Wil (Chub Scout)",
+   "slot": "Attack (BBH only)",
+   "status": "BBH post-rework (June 20, 2023 to now); reload 1.5 s to 1.3 s on Aug 29, 2023 [Fan-wiki]. Do not apply to the BBG Boomstick",
+   "look": "Charcoal-black pump shotgun (#212524-#353430) with vent holes, a red two-digit LED '00' readout (#9B2815) and a cyan streak on top, held two-handed in silver mitts [Observed: Zgplo6qdclk maxresdefault]",
+   "firing_and_projectile": "'fires three explosive pellets in a wide spread' [Game text in fan frame]; 3 x 538 on the card, 3 x 450 on the wiki; range Short; a white wedge aim cone [Observed JKnjdFW7ISE maxres2; Inference]; brass casings eject [Observed]",
+   "impact_end_result": "'explode upon impact producing a small AOE' [Game text]. Pale cream-yellow crackle bursts, brightest #EEE8C7 [Observed: Zgplo6qdclk maxres2]",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "Senor Potato, Pie Bomb, Traffic Light [Fan-wiki]",
+   "correction": "Se\u00f1or Potato (the wiki page title spells it \"Senor Potato\") [Fan-wiki]. It is seen firing in the Oct 2026 final playtest build 3.0.7: a brown spud in a white-hot trail, plus burning fry stubs [Observed: ORYnnvqn19w maxres2; official trailer 30.0\u201331.6 s, fries ID Inference]. Pie Bomb and Traffic Light [Fan-wiki]. The Balance Beam (magenta beam) and the Sole's Bane HUD icon also appear in 2026 builds 3.0.2\u20133.0.7 [Observed: HKbwq7PolNc maxres1; aujTcdFuxdE maxres3].",
+   "evidence": "$G/crops/ory_m2_potato.png; $G/crops/tr303_fries.png; $G/crops/hkb_m1_icon.png; $G/crops/hkb_m1_beam.png; $G/crops/auj_m3_icon.png ($G = /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/wil/gaps)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "whether 2026 changed his kit, barks or taunts",
+   "correction": "whether 2026 changed his kit (the Se\u00f1or Potato, Balance Beam and Sole's Bane are present in 2026 playtest builds 3.0.2\u20133.0.7 [Observed]; the Doomstick, Bubble Gun and Snowtato Launcher are unconfirmed), barks or taunts",
+   "evidence": "ORYnnvqn19w maxres2 (build stamp 3.0.7_2026.11.19_b7); HKbwq7PolNc maxres1 (Balance Beam, 27/70, Sole's Bane icon); aujTcdFuxdE maxres3 (build 3.0.2, Sole's Bane icon)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "The research never describes his BBG trailer card ([Steam][steam]) or the 2026 playtest showcase ([fan upload][showcase]); check both before locking the model.",
+   "correction": "Add: the Oct 2026 build 3.0.7 shows a default-look Wil (red vented helmet, white ribbed tank top with a red ice pop) and a Wil in the white-headed, black-suited Not-So-Slenderman skin [Observed: ORYnnvqn19w sddefault and maxres2; skin ID Inference]. The JustNubz showcase is still unwatched.",
+   "evidence": "$G/yt/ORYnnvqn19w_sddefault.jpg; $G/crops/ory_m2_potato.png; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/wil-verify/png/x_ot_so_slenderman.png"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "2. \"The Chub Scout, known as the masticator of mayhem, thrives on balancing the battlefield with his insatiable appetite for destruction. Many have made the mistake of underestimating Wil, many have faced the consequences. Just ask Tillman. \u2026 His Ultimate, 'Sarcastic Air Strike,' features A.B.B.I., his mocking robot backpack, executing a devastating airstrike.\" [Canon, BBH-era site text] ([characters][chars])",
+   "correction": "Quote the sentence in full: '... executing a devastating airstrike, raining destruction across the battlefield.' Tag the anchor 'BBH (2023-) only', and note that the elided sentence ('Wil's \"Boomstick\" attack launches explosive pellets that burst on impact, covering a wide area.') describes the BBH-only Boomstick.",
+   "evidence": "Live text at https://battlebears.com/pages/characters, fetched 2026-10-18 (header 'Wil - Scout'). Saved at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/wil-airstrike/official/characters.html"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "ABBi's \"Sarcastic Air Strike\" [Canon] ([characters][chars]).",
+   "correction": "BBH only (soft launch May 23, 2023; 'Reworked Wil Attack and Ultimate' June 20, 2023 [Fan-wiki]): Wil's Ultimate 'Sarcastic Air Strike'. 'Wil deploys A.B.B.I: his sarcastic robot backpack who carries out a powerful airstrike. A.B.B.I. flies in a straight line across the battlefield, dropping bombs ...' [Game text in fan frame]. It does not exist in BBG or BBG 2026.",
+   "evidence": "Hero card in https://i.ytimg.com/vi/Zgplo6qdclk/maxresdefault.jpg (uploaded Jul 1, 2023); wiki Updates page (API); Steam appdetails 4408320 has no Ultimates"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "- **Weapons & props:** default Boomstick [Fan-wiki] ([Chub Scout (BBG)][ws]), named in BBH [Canon] ([characters][chars]);",
+   "correction": "Add an era guard: the BBH Boomstick 'fires three explosive pellets in a wide spread ... explode upon impact producing a small AOE' [Game text]. The BBG Boomstick is a 1-shell pump shotgun that 'releases a powerful, short ranged wave of bullets' [Fan-wiki]. Never give the BBG Boomstick explosive pellets.",
+   "evidence": "Card crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/completeness-r3/crops/wil_card.png; wiki Boomstick page (API)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "- **ABBi:** a single camera eye [Fan-wiki] ([ABBi][wabbi]); probably the Zero teaser's one-eyed, minigun-armed unit [Observed; Inference].",
+   "correction": "Split the design by era. BB Zero 2012: a round silver-grey lens housing behind Wil's head with a cracked cover, an 'ABBi' label and a blue iris slit, plus two articulated arms ending in dark rotary multi-barrel drums with cyan lights [Observed]. BBH 2024 key art: a gunmetal shield-shaped robot with a navy lower plate, three yellow bars and one large violet-blue lens, about 0.3x Wil's height [Observed; identifying it as ABBi is Inference]. Use the BBH design only in BBH-labelled content.",
+   "evidence": "https://i.ytimg.com/vi/wNDCES4VieM/maxres3.jpg (official BB Zero teaser); official key art in the Google Play screenshot and https://i.ytimg.com/vi/POXHAk2bKyo/maxresdefault.jpg; wiki File:BBH_Splash.png crop at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/wil-airstrike/crops/splash_wil_abbi.png"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "Unsampled picks [BBG News invention]: cap #C8352E, shirt #F2EFE6, ABBi grey #8B9299, eyes #141414, ice pop #3FA7E0.",
+   "correction": "For BBH content, replace 'ABBi grey #8B9299' with values sampled from the official 2024 key art: frame #575F66 (lit) / #292D31 (shade), plate #041333, bars #D2A824, lens ring #22548A, iris #4A4388, glint #BDC9DF. Keep #8B9299 only as an invention for the unobserved BBG backpack.",
+   "evidence": "Pixel samples from /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/wil-airstrike/crops/splash_wil_abbi.png (4096 px wiki copy of the official BBH key art)"
+  }
+ ],
+ "open_questions": [
+  "Se\u00f1or Potato in 2026: how many fries, how long they burn, and does the spud ever show flame? The only 2026 frame shows an unburnt spud in a white-hot trail.",
+  "What is the pale ring at the top of ORYnnvqn19w maxres2: an impact ring or something unrelated?",
+  "Doomstick: is there a pellet hit spark, and is the Doomstick in the 2026 build?",
+  "Balance Beam: does the beam visibly thicken or change colour as its damage scales, or with team colour?",
+  "Bubble Gun: what does the pop look like, how long does the dome last, does it block shots, and is it in 2026?",
+  "Snowtato: what does the snowball look like in flight? Is the lingering snow violet or white (versus Fairy's Dust's purple cloud)? Is the clip 5 (HUD) or 6 (infobox)? Is it in 2026?",
+  "Sole's Bane: thrown overhead or laid as a floor trail of 'mines'? How many bricks, and what is the step-on trigger visual?",
+  "SkyVu's own 1.4.3, 2.6, 2.12 and 2.26 patch notes were unreachable (web.archive.org 429, WebFetch blocked).",
+  "Unwatched 2026 Wil chapters: HKbwq7PolNc Match 5 (17:43) and Match 16 (1:04:35); aujTcdFuxdE Matches 4 (12:33), 9 (34:19) and 12 (47:49); JustNubz showcase Chub Scout at 28:11. These need a human viewer.",
+  "What is the full 'Show More' text of the Sarcastic Air Strike card (bomb count, any slow or knockback)?",
+  "What does the flyover look like: does ABBi detach, what is her flight height and speed, is a target line shown, what do the bombs and explosions look like and what colour are they, how long does it last? This needs a logged-in viewer for Zgplo6qdclk (5:34) or JKnjdFW7ISE (15 min).",
+  "What were Wil's BBH attack and Ultimate before the June 20, 2023 rework? dExPQiFiC1c (uploaded May 23, 2023) should show the old kit.",
+  "Is the 2024 key-art shield-shaped ABBi the in-game BBH model, and are the bubble helmet and ice-pop tank top Wil's BBH default or a skin?",
+  "Does ABBi speak during the BBH Ultimate, and who voices her in BBH?",
+  "What are the rows of three red discs in Brick Battle maps: a static hazard, pads, or the store text's 'Angry Bombs'?",
+  "The BlueStacks BBH tier list says Wil is 'the best long-range hero' with 'camouflage', which contradicts SkyVu's card (RANGE SHORT). Treat it as unreliable."
+ ]
+}

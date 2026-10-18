@@ -1,0 +1,157 @@
+{
+ "quickref": [
+  {
+   "weapon": "Slowed status icon",
+   "owner": "Shared status (Bind Field/Slow Field, Slow Motion Field special, Bind Gun, Glue Bomb; Black Hole likely)",
+   "slot": "status effect",
+   "status": "BBG 2014\u20132023 footage; present in Sep 2026 playtest",
+   "look": "Chunky lemon-yellow block 'Z' (#F2EA23\u2013#FDFE03; 2026 #F6FE0E) with thin dark outline, inside two thick white crescent arcs (#DDDCDD\u2013#E5E5E5) forming a tilted orbit ring; floats above the slowed bear's head, ~1\u20131.5 head widths",
+   "firing_and_projectile": "n/a (appears when slowed)",
+   "impact_end_result": "Marks a slowed player; also shows over your own bear; spin animation unverified",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Radiation Rod",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "BBG 2.5 (Nov 27, 2013); 2026 unconfirmed",
+   "look": "Purple fuel-rod cylinder with lime chevron and green trefoil cap, held low at right; HUD purple-capped white canister",
+   "firing_and_projectile": "Placed, no projectile; clip 2 (3 with Ammo+) in 2013\u201314 HUDs vs wiki 5",
+   "impact_end_result": "Translucent green-to-cyan glow (#3EB65C, highlights #86D9B8\u2013#8AF8E5) with slanted light shafts around targets, ~1 bear-height radius; fast radiation disc then detonation",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Rivet Gun",
+   "owner": "Graham (Engineer)",
+   "slot": "primary",
+   "status": "Old version in BBG 2.0 beta (Jul 2013); released 2.1 (Jul 2013)",
+   "look": "Boxy dark gun (prior pass); beta rivets are silver hex-nut heads on coiled-spring shanks",
+   "firing_and_projectile": "Clip 3 in Nov 2013 (0/3); beta clip 6; released rivet in flight unverified",
+   "impact_end_result": "Big mottled hot pink-magenta glowing field with white core (#FC91FC/#FECAFE), bear-sized, some straight box-like edges, ~7 s; beta: two rivets linked by a thin violet beam",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Buzzsaw",
+   "owner": "Graham (Engineer)",
+   "slot": "primary",
+   "status": "BBG 2.6 (Dec 20, 2013)",
+   "look": "Dark launcher with a white saw blade upright at the front",
+   "firing_and_projectile": "3-blade clip; blades dig in edge-up, each in a blue-violet glow pool (#5769DE)",
+   "impact_end_result": "Explosion look unverified; gap note's 'pink-white line' is an unrelated rainbow beam",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Turret",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary (default)",
+   "status": "BBR v1.4 through BBG; placed turrets seen in Sep 2026 playtest",
+   "look": "White boxy auto-gun, long barrel, team-colour stripe or top (blue or red), dark Z-neck, black X base with feet",
+   "firing_and_projectile": "Auto-fire in fixed 100\u00b0 cone; thin hot-pink/magenta streaks (#F1ADE1), attribution inferred (early wiki: same bullets as Electric Honey)",
+   "impact_end_result": "Small pink hits with pale-yellow star pops (inferred); destroyed turret smokes 2 s then vanishes",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Hand Cannon",
+   "owner": "Graham (Engineer)",
+   "slot": "primary",
+   "status": "BBG 2.5 (Nov 27, 2013)",
+   "look": "Short orange-gold barrel with a bright green front face, held at right",
+   "firing_and_projectile": "2-shot clip; 'comically large green-black missile' per wiki; missile in flight not observed",
+   "impact_end_result": "Huge dense dark smoke cloud after kills (attribution inferred); victims break into team-coloured bolt-decal chunks (generic death)",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Black Hole",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "Between BBG 2.12 and Oct 31, 2014",
+   "look": "Glossy magenta-purple orb held at lower right",
+   "firing_and_projectile": "Thrown, 1/1 clip; in flight a small glowing magenta-pink ball with white core (#D67DBB)",
+   "impact_end_result": "Orb hovers mid-air inside a big soft green sphere (#2FDE7E) glowing cyan at the core (#39FED2), ~8\u201310\u00d7 orb size; victims break into chunks, yellow Z likely",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bind Field (formerly Slow Field)",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "BBG 2.6 (Dec 20, 2013); renamed c. 2.12",
+   "look": "Prickly ball: dark maroon body (#411E25), bright lime lattice, magenta spiky knobs (#8A3480), about head-sized",
+   "firing_and_projectile": "Arced throw; HUD 1/2 in 2018 vs wiki 1",
+   "impact_end_result": "Slows enemies (yellow Z); no distinct dome seen; possible lavender screen wash unverified",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Dragon Slayzer (BBG)",
+   "owner": "Graham (Engineer)",
+   "slot": "secondary",
+   "status": "BBG 2.51 (Apr 13, 2018; in-app 'Battle Bears Royale' splash from 2.50)",
+   "look": "Small red dragon head with bat wings and a long silver blade, held forward in the right hand",
+   "firing_and_projectile": "3-shot clip (wiki says 4); white glow at the mouth; projectile in flight not seen",
+   "impact_end_result": "Big yellow-orange fireballs with flame tongues (#FCFC77 core, #DFA741 edges) at targets; kills follow",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "MuskIt",
+   "owner": "Graham (Engineer)",
+   "slot": "Primary",
+   "status": "Added BBG 2.12 (Oct 2, 2014) [Fan-wiki]; seen in fan footage Oct 2014 and Feb 2016 (BBG 2.24); 2026 unconfirmed",
+   "look": "Musket-like sprayer: dark maroon barrel (#4A3432) with white bands, salmon-pink breech (#C16D5E) with grey emblem, yellow collar (#F2B20D), hanging mustard tank (#C79219) with black label; about 0.5x Graham's height visible; raised up and forward to fire [Observed: File:Musket.jpg; FQ4HBNLcHS0 maxres2]",
+   "firing_and_projectile": "Shotgun-like 'small cone', 1.5 s per shot, 2 ammo (2014 wiki) or 3 (2020 wiki), 4.5 s reload [Fan-wiki]. On screen: one flat, opaque lime jet (#B8DE2F core, #CFEC32 tip, #A1CE2B shade), widest at Graham and narrowing to a point at the target, with a few green flecks [Observed: FQ4HBNLcHS0 maxres2; that it is the MuskIt is Inference]; 3D shape and sound [Unverified]",
+   "impact_end_result": "Damage plus radiation; a yellow six-wedge disc (#F9CF0B, black hub) seen beside the target in the firing frame [Observed]; Geiger ticks, and at full radiation the shared radiation explosion [Fan-wiki]; a green puff cloud on the edited title card is unattributed [Observed/Unverified]",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "Turret (\"Use it wisely, you only get one at a time.\")",
+   "correction": "Keep the quote and add: \"In game: a white boxy auto-gun on a dark Z-shaped neck and black X-foot base, with a team-colour stripe or top (blue or red). It fires thin pink-magenta tracer streaks, and hits pop small yellow stars (bullet attribution [Inference]). Two placed Turrets appear in a Sep 20, 2026 playtest frame [Observed; ID Inference strong].\"",
+   "evidence": "Observed: https://i.ytimg.com/vi/KBbEgOLyYGM/maxres1.jpg and maxres3.jpg (Sep 4, 2013), https://i.ytimg.com/vi/T_EJ2DmboPU/maxresdefault.jpg (Jul 28, 2013), https://i.ytimg.com/vi/JVEQQqyafzE/maxres2.jpg (Sep 20, 2026). Fan-wiki first revision (Nov 2012): \"It shoots the same bullets as the Electric Honey.\""
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "2026 changes (Oct 19\u201326 demo; unviewed [fan showcase][showcase])",
+   "correction": "Add: \"A Sep 20, 2026 playtest thumbnail (JVEQQqyafzE, Mika_do) shows default Graham with the Gamma Ray (24/100), two placed Turrets, the yellow-Z Slowed icon over Graham, and a radiation disc over an enemy. The other Engineer weapons are still unconfirmed.\"",
+   "evidence": "Observed: https://i.ytimg.com/vi/JVEQQqyafzE/maxres1.jpg, maxres2.jpg and maxres3.jpg; corner text \"3.0.5_2026.11.19_B1\"."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "Gold Graham, Old Timey, Graham Cracker, Holograham, Instagraham",
+   "correction": "Add a style note: \"Gold Graham and the circuit-pattern skins render with thick black toon outlines already in 2013 footage; 2013 Instagraham and the default skin did not (the default has them by 2023).\"",
+   "evidence": "Observed: T_EJ2DmboPU maxresdefault (Gold, Jul 2013); KBbEgOLyYGM and Edbw2qUVZtw (circuit skins, Sep\u2013Nov 2013); XQXjXiJCzss sd1 and sObQVUSjJ2U sd1 (Instagraham, Dec 2013, no outlines); 5SwnBsYrETY maxresdefault (default, 2023, outlined)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "Gernobyl, per the BBR v1.4.3 patch notes: \"This mid-sized rodent shoots irradiated goop.\" [Game text via wiki] ([Updates][wup]);",
+   "correction": "Omission: add after it \"MuskIt (primary, BBG 2.12, Oct 2014 [Fan-wiki]): 'The musk of the Gyrnobal has been known to turn people into mutants, but most blow up.' [Game text via wiki]. A musket-like sprayer: dark maroon barrel with white bands, salmon breech, hanging yellow tank [Observed: File:Musket.jpg]. It fires one flat lime jet (#B8DE2F) that narrows to a point at the target, which then shows the yellow radiation disc [Observed: FQ4HBNLcHS0 thumbnail; that it is the MuskIt is Inference];\"",
+   "evidence": "File:Musket.jpg (wiki, uploaded 2015-05-08); https://i.ytimg.com/vi/FQ4HBNLcHS0/maxres2.jpg (SW, Feb 25 2016): HUD 2/3, MuskIt-pattern barrel in hand, long-gun-with-yellow-canister HUD icon, lime jet sampled #B8DE2F/#CFEC32, six-wedge yellow disc; UB1S7sNG8Kk sd1 (Oct 28 2014): same icon with 3/3; Fan-wiki Updates 2.12 and MuskIt revision history"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "olive-green backpack with twin exhaust pipes and a side vent",
+   "correction": "Keep this as the card look only. In-game weapon shots, including MuskIt firing, need the boxy red radio backpack with a round speaker grille and an antenna. Earlier verified notes (graham.md correction 5) already flagged this.",
+   "evidence": "Observed: File:Musket.jpg; https://i.ytimg.com/vi/FQ4HBNLcHS0/maxres1.jpg, maxres2.jpg, maxres3.jpg (2016); https://i.ytimg.com/vi/UB1S7sNG8Kk/sd3.jpg (2014)"
+  }
+ ],
+ "open_questions": [
+  "Hand Cannon: what do the missile in flight and the flash of its explosion look like?",
+  "Buzzsaw: what do its explosion and its homing travel look like?",
+  "Bind Field: what does the force field look like? Is the lavender screen wash in 8uufYQrJs6A maxres2 the field?",
+  "Radiation Rod: is the field a dome or a column, and what is its exact radius? What does the rod look like once planted?",
+  "Released Rivet Gun: what do the rivets look like in flight and on a surface? Is it the beta's hex-head spring rivet?",
+  "Turret: are the pink-magenta streaks its bullets? How tall is it when deployed?",
+  "Black Hole: does it always apply the Slowed Z? Is there a vortex up close?",
+  "Dragon Slayzer (BBG): what does the shot look like in flight, what is the 4-second 'Duration' effect, and what makes the pink crackle around Graham?",
+  "Clip conflicts: Radiation Rod 2 vs 5, Rivet Gun 3 vs 4, Dragon Slayzer 3 vs 4, Bind Field 2 vs 1. Which values hold in the 2026 build?",
+  "Which Engineer weapons besides the Gamma Ray and the Turret are in the 2026 build? The JustNubz Engineer chapter (34:42\u201339:57) is still unviewable.",
+  "What does the 2026 build string '3.0.5_2026.11.19_B1' mean?",
+  "Is SkyVu's 'v2.32' (Mar 28, 2018) the same update as the wiki's 2.50? Was 'Battle Bears Royale' the store name in 2018?",
+  "The MuskIt jet's 3D shape (cone, fan or stretched sprite), how long it stays on screen, and whether it leaves a lingering cloud. Video frames are needed, but YouTube playback and storyboards are blocked (LOGIN_REQUIRED).",
+  "Is the dense green puff cloud on FQ4HBNLcHS0's edited title card the MuskIt spray, a radiation detonation or a Gernobyl puddle?",
+  "Whose six-wedge yellow disc appears in FQ4HBNLcHS0 maxres2: the sprayed target's overhead icon or a HUD warning (Graham is at about 10/120 HP)?",
+  "The MuskIt's real ammo by era: the wiki says 2 from 2014 to 2020 and 3 after an unsourced Nov 2020 edit. Is the MuskIt in the 2026 build? None of the 40 thumbnails from 10 videos from 2026 shows it.",
+  "Is the January 2013 sketch 'C' in the wiki's Gernobyl gallery (pump T-handle, hanging radiation canister) official SkyVu concept art for the MuskIt?",
+  "The official SkyVu 2.12 patch notes (Oct 2014) could not be checked: web.archive.org connections kept resetting.",
+  "The MuskIt's firing sound is undocumented."
+ ]
+}

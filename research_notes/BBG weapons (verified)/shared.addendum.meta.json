@@ -1,0 +1,404 @@
+{
+ "quickref": [
+  {
+   "weapon": "Sci-Fi ASR",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary",
+   "status": "BBR v1.3.1 wk2 2012; BBG; HUD icon in 2026 PT4/PT5 builds (3.0.5, 3.0.7)",
+   "look": "Silver-grey rifle with a top canister of glowing red-orange slits (HUD icon) [Observed]",
+   "firing_and_projectile": "Automatic; clip 30 (2013), 20+8 (2014), 25 (+15 = 40 in 2017; 25 in 2026). Soft round magenta muzzle bloom #EF33F9/#EC30F8 (2017, 2026) and short magenta bolts/orbs with a white-hot tip [Observed]; no long tracer line",
+   "impact_end_result": "Magenta-pink flashes on the target #D534EE (2026); pink-violet sparkle ring on the chest (2013) [Observed]; no status effect [Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Social Butterfly (BBG)",
+   "owner": "Saberi (Combat Tech)",
+   "slot": "Primary (Saboteur)",
+   "status": "BBG 2.53, Apr 28 2018; 2026 unconfirmed",
+   "look": "Crossbow: purple stock #8F0A93, gunmetal body, grey swept limbs, orange butterflies (#A33C17) on white bolt tips; HUD icon ringed with pale green spikes [Observed]",
+   "firing_and_projectile": "One bolt per 2 s; clip 3 (2018) then 5 (2021) [Observed]; white bolt with an orange butterfly on the tip, arcing (gravity 1000) [Observed / Inference]",
+   "impact_end_result": "0 damage [Fan-wiki]; pink-lilac and white wing-petal flecks (#CA98B9) burst around targets, one rainbow ray burst [Observed; attribution Inference]; a 0.5 s effect, possibly gravity per fan titles [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "I Lava You (I Lava U)",
+   "owner": "Astoria (Sniper)",
+   "slot": "Secondary (proximity mines)",
+   "status": "BBG 2.51, Apr 13 2018; 2026 unconfirmed",
+   "look": "Compact gun of dark-brown lava rock (#6E290E) with glowing red-orange fissures (#F25D41), a gunmetal scope with a red lens, a gunmetal nose cone [Observed: File:ILavaU.jpeg]",
+   "firing_and_projectile": "Fires proximity mines in a straight line at 1200 u/s; 4 ammo, 1 s priming, manual detonation [Fan-wiki]; the mine itself has never been seen [Unverified]",
+   "impact_end_result": "Proximity blast, 25\u201360 damage [Fan-wiki]; the blast look is undocumented [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Dragon Slayzer (BBG)",
+   "owner": "Graham (Engineer)",
+   "slot": "Secondary",
+   "status": "BBG 2.51, Apr 13 2018; 2026 unconfirmed",
+   "look": "Red dragon head (#BF0102) with green eyes, white teeth and red bat wings, and a long silver double-edged blade from its jaws; about 0.55\u20130.6\u00d7 Oliver, held at the hip [Observed: File:DragonSlayzer(BBG).jpeg, 2018 gameplay]",
+   "firing_and_projectile": "Clip 3 in 2018 HUDs (wiki 4) [Observed]; fan text says it breathes fire; projectile not seen in flight [Unverified]",
+   "impact_end_result": "Large soft yellow-orange fire burst (core #FEFD2A, edge #D88C3B) at the enemy after shots [Observed; attribution Inference]; explosives 10\u201320 [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Adrenaline Gun (formerly Bind Gun)",
+   "owner": "Sanchez (Arbiter)",
+   "slot": "Primary (default)",
+   "status": "Bind Gun BBG 2.6 Dec 2013 \u2192 reworked Jun 19 2021; the cyan model is in the 2026 PT4 menu; 2026 effect unconfirmed",
+   "look": "Chunky cyan/teal faceted blaster (#327792\u2013#56A5C3) with a glowing white round muzzle [Observed 2014, 2026]",
+   "firing_and_projectile": "Continuous wavering, crackling hot-pink/magenta beam with white flecks (#EF7ED8) (2013\u201314) [Observed]; a straight magenta white-core beam (#DC41E2) in 2026 [Observed; shooter offscreen]",
+   "impact_end_result": "White-pink starburst with violet tendrils plus yellow Z and swirl arrows (Slowed) (2013\u20132021, and with the 2026 beam) [Observed]; post-2021 speed-up has never been seen [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Melee hit convention (all melees)",
+   "owner": "All classes",
+   "slot": "Melee",
+   "status": "BBR Apr 2013, BBG 2021, 2013 launch footage re-used on Steam 2026; no 2026-build frame",
+   "look": "n/a",
+   "firing_and_projectile": "Swing; no projectile",
+   "impact_end_result": "4\u20137 yellow five-point cartoon stars at contact (#EAD94C in 2013; pale #FFFFC7 in the trailer footage; #F0F62E in 2021), a bright flash, the KO victim collapses face-down [Observed]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Barbed Gloves",
+   "owner": "Riggs",
+   "slot": "Melee (default)",
+   "status": "BBR 2012 \u2192 BBG; not seen in 2026",
+   "look": "Puffy mustard-yellow mitts (#C2B23E) wrapped in black barbed wire [Observed]",
+   "firing_and_projectile": "Two-glove punch, damage can double [Fan-wiki]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]; weapon-specific FX unknown",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Catastrophe",
+   "owner": "Riggs",
+   "slot": "Melee",
+   "status": "BBR v1.3.1 2012 \u2192 BBG",
+   "look": "Calico cat-head gloves with one big blue eye each [Observed]",
+   "firing_and_projectile": "Two-glove punch [Fan-wiki]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sword and Stone",
+   "owner": "Riggs",
+   "slot": "Melee",
+   "status": "Modelled 2012, released around v2.11",
+   "look": "Rune-etched sword stuck in a mossy grey boulder, swung as a club [Observed]",
+   "firing_and_projectile": "Two hits, damage can double [Fan-wiki]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Huggable Gloves",
+   "owner": "Riggs",
+   "slot": "Melee",
+   "status": "Original BBR trio \u2192 BBG",
+   "look": "Hot-pink mitts (#D91758) with black dot eyes [Observed]",
+   "firing_and_projectile": "Two-glove punch [Fan-wiki]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Zombee Gloves",
+   "owner": "Riggs",
+   "slot": "Melee",
+   "status": "Original BBR trio \u2192 BBG",
+   "look": "Rot-green mitts (#549A3A) with stitched red patches [Observed]",
+   "firing_and_projectile": "Two-glove punch [Fan-wiki]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bow",
+   "owner": "Wil",
+   "slot": "Melee (default)",
+   "status": "BBG",
+   "look": "Long wooden recurve bow, white-wrapped grip, swung like a stick [Observed]",
+   "firing_and_projectile": "Swing; same range as the Arrow [Fan-wiki]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Arrow",
+   "owner": "Wil",
+   "slot": "Melee",
+   "status": "BBG",
+   "look": "Single wooden arrow with a steel head and white fletching [Observed]",
+   "firing_and_projectile": "Stab/poke [Inference]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bow and Arrow",
+   "owner": "Wil",
+   "slot": "Melee",
+   "status": "BBG (image 2015)",
+   "look": "Bow with a nocked arrow, held vertical [Observed]",
+   "firing_and_projectile": "Swing [Inference]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Traffic Light",
+   "owner": "Wil",
+   "slot": "Melee",
+   "status": "BBG (image 2015)",
+   "look": "Yellow pole with black bands and a head with only red and green lamps [Observed]",
+   "firing_and_projectile": "Mace-style swing [Inference]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Selfie Stick",
+   "owner": "Wil",
+   "slot": "Melee",
+   "status": "BBG 2.21, Jul 2015 (fan text)",
+   "look": "Yellow stick (#D7A30D) topped with a smiling yellow bear head [Observed]",
+   "firing_and_projectile": "Swing [Inference]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "T Square",
+   "owner": "Graham",
+   "slot": "Melee (default)",
+   "status": "BBR v1.4 \u2192 BBG",
+   "look": "Big flat steel ruler-square with tick marks [Observed]",
+   "firing_and_projectile": "Swing",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Wrench",
+   "owner": "Graham",
+   "slot": "Melee",
+   "status": "BBR v1.4 \u2192 BBG",
+   "look": "Oversized orange pipe wrench with a dark steel jaw [Observed]",
+   "firing_and_projectile": "Swing; makes metal noises [Fan-wiki]",
+   "impact_end_result": "Pale-yellow stars plus glowing gold coins at a 2021 kill [Observed; ID by title]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Double Wrench",
+   "owner": "Graham",
+   "slot": "Melee",
+   "status": "BBG 2.12 (per graham dossier)",
+   "look": "An open-end wrench [Fan-wiki]; no image",
+   "firing_and_projectile": "Swing",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "documented"
+  },
+  {
+   "weapon": "Crowbar",
+   "owner": "Graham",
+   "slot": "Melee",
+   "status": "BBG 2.21, Jul 2015 (fan text)",
+   "look": "Purple bar (#4F3C55) topped by a spiky dark-violet crow head with a yellow beak [Observed]",
+   "firing_and_projectile": "Swing",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Battering Ram",
+   "owner": "Astoria",
+   "slot": "Melee (default)",
+   "status": "BBR \u2192 BBG; named in a 2026 loadout",
+   "look": "Grey-brown curled-horn ram skull on a short haft [Observed]",
+   "firing_and_projectile": "Bash",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Brr-Ram-Ewe",
+   "owner": "Astoria",
+   "slot": "Melee",
+   "status": "BBR \u2192 BBG",
+   "look": "Icy-blue ram-skull club (#4D7692) [Observed]",
+   "firing_and_projectile": "Bash",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Cybernetic Ram",
+   "owner": "Astoria",
+   "slot": "Melee",
+   "status": "BBR \u2192 BBG",
+   "look": "Black ram-skull club with glowing orange canals (#E3914B) [Observed]",
+   "firing_and_projectile": "Bash",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Golden Dragon",
+   "owner": "Astoria",
+   "slot": "Melee",
+   "status": "BBR v1.3.1 \u2192 BBG",
+   "look": "Gold dragon-head club (#946A19) [Observed]",
+   "firing_and_projectile": "Bash",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "ClubCobra",
+   "owner": "Saberi",
+   "slot": "Melee",
+   "status": "BBG 2.20, May 29 2015",
+   "look": "Gold glyph-carved cobra head with a green eye and green skull emblem, dark grip, gold hook [Observed]",
+   "firing_and_projectile": "Swing",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Axecutioner",
+   "owner": "B-1000",
+   "slot": "Melee (default)",
+   "status": "BBG 2013; in a 2026 loadout",
+   "look": "Grey stone-textured axe head with a curved white blade, replacing the left forearm [Observed]",
+   "firing_and_projectile": "Swing",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Primus Sword",
+   "owner": "B-1000",
+   "slot": "Melee",
+   "status": "BBG 2.21, 2015; seen on the 2026 PT4 menu",
+   "look": "Long silver blade with hot-pink trim (#BA1540), cyan inner lines and an X guard [Observed]",
+   "firing_and_projectile": "Swing",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Kumakiri",
+   "owner": "Oliver",
+   "slot": "Melee",
+   "status": "BBR v1.3.2 \u2192 BBG",
+   "look": "Curved silver katana with a serrated back edge, black-and-orange hilt [Observed]",
+   "firing_and_projectile": "Downward-slash animation [Fan-wiki]",
+   "impact_end_result": "Generic yellow star pop [Observed convention]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Whack-Tus",
+   "owner": "Huggable",
+   "slot": "Melee",
+   "status": "Original Huggable trio \u2192 BBG; seen on the 2026 PT4 loadout",
+   "look": "Two dark-green spiky cactus clubs over the wrists (#36522F; 2026 #2B6323) [Observed]",
+   "firing_and_projectile": "Short draw and duration [Fan-wiki]",
+   "impact_end_result": "Yellow star in a 2021 'whack' clip [Observed; ID Inference]; generic convention",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bearzooka (BBG)",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary",
+   "status": "Default since BBR v1.0 [Fan-wiki]; in BBG; named in SkyVu's 2026 Steam text; rocket seen in the official 2026 Steam trailer (capture build unknown)",
+   "look": "Coral-salmon hex tube (~#E36F61-#E7725F) with glowing orange chevron panels (~#FFA82F), grey collars and a grey-checkered flared end, carried on the shoulder [Observed]",
+   "firing_and_projectile": "Launch: white smoke burst with an orange core (trailer 1.92 s). Rocket: grey stepped hex nose, glowing yellow/orange checker panels in chevron bands (#FFE300/#FFA400), grey collars and flared skirt, maroon tail with pink-red square lights, spiky orange-yellow flame shards, white puffs trailing at range; straight flight (trailer 1.92-3.05 s) [Observed]. The Bearzooka link is an Inference (high). Stats: 1.5 s rate of fire, 1,000 u/s [Fan-wiki]",
+   "impact_end_result": "Not shown in official media: the trailer rocket leaves the frame without detonating [Observed]. Blast look Unverified. 2015 fan footage shows grey smoke puffs downrange. AoE 125/250 units and self-damage ('very prone to suicide') [Fan-wiki]. The trailer's 2.69-3.05 s flame is the B-1000's Metal Crush jet, not a Bearzooka blast.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Phat Man",
+   "owner": "Tillman (Demo)",
+   "slot": "Secondary",
+   "status": "BBR 1.3.1 to BBG; seen in fan review footage uploaded May 13, 2015 (XtvV0oUOBWc)",
+   "look": "First person: yellow nose disc (~#EBCC30) with a black radiation trefoil on an olive-drab body with yellow-black chevron hazard stripes; HUD shows an olive-yellow bomb icon [Observed, low-res storyboard]",
+   "firing_and_projectile": "Red '{ }' lock bracket turns green; a wide pale-yellow streak shoots skyward and the HUD reads RELOAD; a tiny white-yellow streak high in the sky; about 16 s later a thin pale-yellow line drops straight down onto the target [Observed]",
+   "impact_end_result": "Cream-white flash and a lumpy yellow-white fireball with the sky washed pale, then a rising dark-grey smoke cloud with yellow debris; the kill feed shows KILLS, XP +25, +100 Joules [Observed]. AoE 200/600 [Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Metal Crush",
+   "owner": "B-1000 (Assault)",
+   "slot": "Secondary",
+   "status": "2013 launch; jet leap seen in the official 2026 Steam trailer at 2.69-3.85 s (capture build unknown)",
+   "look": "Back unit of two white plates over orange perforated blocks with round holes [Observed, trailer 1.92-2.65 s from behind]",
+   "firing_and_projectile": "At 2.69 s a long orange-yellow flame jets from the back unit and he lifts off; airborne at 2.72-2.85 s; a big soft yellow ovoid flame at 2.85-3.05 s as he flips; he flies on upside down trailing a flame plume to 3.85 s [Observed]. The Metal Crush link is an Inference. Leap at about 35 degrees [Fan-wiki]",
+   "impact_end_result": "Landing not in this shot. Wiki: a golden shockwave from a left-arm ground smash, 70-110 explosive, immobile 2.5 s [Fan-wiki]. Landing ring: see the B-1000 dossier (trailer about 52 s).",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/README.md",
+   "current_text": "bears throw sparks, Huggables burst into rainbow confetti, robots shed bolts.",
+   "correction": "Keep, and add: \"Melee contact pops a cluster of yellow five-point cartoon stars [Observed: 2013 and 2021 footage, and SkyVu's 2013 launch-trailer footage re-used on Steam in 2026]. The Sci-Fi rifles glow and hit in magenta [Observed].\"",
+   "evidence": "https://i.ytimg.com/vi/JFi380KnDUM/hq1.jpg (stars #EAD94C, Apr 2013); visuals/steam_screens/screen_00.jpg (#FFFFC7; 2013 trailer footage per the verified 2026 dossier); https://i.ytimg.com/vi/xmGGSzep5mQ/maxres3.jpg and L-ND0C4rDB8/maxres2.jpg (2021); q-vHN73-aE4 maxresdefault (2026 Sci-Fi ASR magenta)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/saberi.md",
+   "current_text": "Energy Rifle, Plasma Machine Gun, Missiles, Minigun, Mallet, Sledgehammer; later Plasma Shotgun and Gamma Burst [Canon]",
+   "correction": "Keep, and add: \"Social Butterfly (primary, 2.53, Apr 28 2018 [Fan-wiki]): a purple-and-gunmetal crossbow with grey swept limbs that fires white bolts with orange butterflies riding the tips; zero damage, a 0.5 s 'Saboteur' effect [Observed; Fan-wiki].\" This supersedes the verified shared dossier's 'no image'.",
+   "evidence": "https://i.ytimg.com/vi/5Wsfn8XwT0g/maxres1.jpg (Jul 20 2021, 4/5); M3r-Z0UPTVo maxres2 and QAn6ELDTMwA maxres2/3 (2018, 2/3 and 0/3); Social Butterfly (BBG) wiki infobox."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
+   "current_text": "BBH turret \"from scrap\" [Canon] ([characters][chars]).",
+   "correction": "Insert before it: \"Dragon Slayzer (secondary, 2.51, Apr 2018 [Fan-wiki]): a red dragon head with green eyes and red wings, with a long silver blade from its jaws, held at the hip; in 2018 play a big yellow-orange fire burst follows its shots [Observed; attribution Inference].\"",
+   "evidence": "File:DragonSlayzer(BBG).jpeg (uploaded 2018-05-12, \"Engineer with the Dragon Slayzer in BBG\"); https://i.ytimg.com/vi/EuYnY6WyI-8/maxres3.jpg (1/3 ammo, fire burst); CqdNWGZUUD0 maxres2; KYa2eJC03dI maxres1\u20133; the Dragon Slayzer (BBG) wiki stub."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "the Battering Ram ram-skull club, \"a weapon of last resort\" [Game text via wiki] ([link][ram]).",
+   "correction": "Keep, and add: \"I Lava U (secondary, 2.51, Apr 2018 [Fan-wiki]): a compact dark-brown lava-rock gun with glowing red-orange fissures, a gunmetal scope with a red lens and a gunmetal nose cone; it shoots proximity mines in a straight line [Observed; Fan-wiki]. The mine and blast looks are undocumented [Unverified].\" Melee hits on the Battering Ram follow the yellow-star convention [Observed convention].",
+   "evidence": "File:ILavaU.jpeg (2018-05-12, \"Sniper with I Lava U\"); I Lava You wiki page; https://i.ytimg.com/vi/jbibBRRCxkY/maxresdefault.jpg."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "**Fighting:** slow them, then \"finish them off with his devastating melee attacks\" [Game text via wiki] ([BBG Versions][vers]);",
+   "correction": "Era-tag it: \"2013\u2013Jun 2021: slow them with the Bind Gun's crackling hot-pink beam (target shows a yellow Z with swirl arrows) [Observed], then finish them in melee. After Jun 19 2021 the same gun (renamed Adrenaline Gun) speeds targets up instead [Fan-wiki]; no image of that exists. A Sep 2026 playtest frame shows a magenta beam with the yellow Z, so 2026 may still slow [Observed; Inference].\"",
+   "evidence": "https://i.ytimg.com/vi/GoF3Hy4QQis/maxres1.jpg and maxres3.jpg (2014 beam and Z); https://i.ytimg.com/vi/JVEQQqyafzE/maxres2.jpg (2026 beam and Z); Adrenaline Gun wiki trivia; EXf5g_uzhc0 maxres2/3 (2022, 55-round HUD, no beam)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/sanchez.md",
+   "current_text": "the wiki says BBG's Bind Gun was reworked into an Adrenaline Gun that speeds enemies up in June 2021 [Fan-wiki]",
+   "correction": "Keep, and append: \"No image of the speed-up effect is known, and the Status Effects page documents no speed-up icon. The beam itself is observed as a wavering, crackling hot-pink to magenta ribbon (#EF7ED8) with white flecks [Observed].\"",
+   "evidence": "Status Effects wiki page (re-fetched; Bind Gun still under Slowed); GoF3Hy4QQis maxres1; EXf5g_uzhc0 maxres2/3 (May 2022, no beam visible)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
+   "current_text": "Senor Potato, Pie Bomb, Traffic Light [Fan-wiki]",
+   "correction": "Keep, and add the observed looks: \"Traffic Light, a yellow pole with a red-and-green-only lamp head; Selfie Stick (2.21, 2015), a yellow stick topped by a smiling yellow bear head ('But first, let me hit you with this!' [Game text via wiki]) [Observed]. Melee hits pop yellow cartoon stars [Observed convention].\"",
+   "evidence": "Trafficlight.png; Image7.PNG (Selfie Stick, uploaded 2015-07-05); https://i.ytimg.com/vi/iTJ94TmSrGk/maxres1.jpg; Selfie Stick wiki page."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
+   "correction": "The Bearzooka is a coral-red hexagonal shoulder tube with glowing orange chevron panels, grey collars and a grey-checkered flared end [Observed]. Its rocket has a grey stepped hex nose, glowing yellow-orange checker panels, grey collars, a maroon tail with pink-red lights and a spiky orange flame tail, leaving white smoke puffs [Observed: SkyVu's 2026 Steam trailer 1.92-3.05 s; that it is the Bearzooka's is Inference, high]. Its blast is undocumented [Unverified]. The green hazard-striped tube is the BB Zombies design.",
+   "evidence": "Official Steam trailer frames, all in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/shared-r3/: tr/f_0086.png and tr/f_0088.png (rocket); crops/rocket_n88.png; crops/bz_n132.png (tube at 4.42 s, coral ~#E36F61, panels ~#FFA82F); sheets/rocket_track.jpg (launch from the green Soldier at 1.92 s, exit at 3.05 s)"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "He holds a chunky assault rifle and carries a green hazard-striped launcher tube on his back.",
+   "correction": "He holds a chunky assault rifle and shoulders a coral-red hexagonal rocket-launcher tube with glowing orange panels, grey collars and a checkered flared end.",
+   "evidence": "Trailer 3.92-4.52 s (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/shared-r3/sheets/overview.jpg and crops/bz_n132.png): the tube is coral with orange panels and is carried on the shoulder, not the back; no green or hazard stripes [Observed]"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "Bearzooka recoil blasts him through a wall. He comes back sooty: \"Meant to do that.\"",
+   "correction": "No knockback is documented. Re-ground the beat in self-splash: his own Bearzooka rocket goes off too close and he comes back sooty: \"Meant to do that.\" (The wiki: \"The user is very prone to suicide while using the Bearzooka.\" [Fan-wiki])",
+   "evidence": "In the official trailer the shooter stays planted after firing at 1.92 s; only the tube end swings up at 2.02-2.15 s [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/shared-r3/crops/rocket_early.jpg]. Bearzooka (BBG) wiki page fetched today."
+  }
+ ],
+ "open_questions": [
+  "Social Butterfly: what is its 0-damage, 0.5 s 'Saboteur' effect? Fan titles ('BUTTERFLY GRAVITY CHAOS!', 'Gravity gone insane!') and the 'Gravity 1000 units' stat hint at a gravity effect. Are the pink-lilac wing-petal flecks and the rainbow ray burst (QAn6ELDTMwA maxres2/3) its hit effect? A human should watch M3r-Z0UPTVo, lQPsVJ_Z1hM or Wre1oS8Lfkw.",
+  "I Lava U: what do the mines look like in flight, stuck to a surface, and when they explode? No frame was found. T3cQQTFP0a4 (11:09) and jbibBRRCxkY (9:55, SW 2.51 review) are the leads.",
+  "Dragon Slayzer: does it really breathe a fireball (EuYnY6WyI-8 suggests so)? What is the 4-second 'Duration' effect? Why is the 2018 clip 3 when the wiki says 4? What are the pink-lilac crackles around Graham's own body in two separate matches?",
+  "Bind Gun / Adrenaline Gun: in the 2026 build, does Sanchez's default slow (Bind) or speed up (Adrenaline)? JVEQQqyafzE maxres2 shows a magenta beam with the yellow Z, but the shooter is off screen. No image of the post-2021 speed-up exists.",
+  "Sci-Fi ASR: the 2014 clips show HUD values (13/13, 8/8, 13/28) and a cream-white muzzle starburst that do not fit the wiki or the later magenta look. Is that an Oliver-overhaul-era change or a different weapon?",
+  "Melee: no 2026-build frame of any melee hit was found. The Steam trailer and screen_00 stars are 2013 footage. The JustNubz showcase (-lAtv-j9Sms) melee segments, and the Huggable/Riggs matches of HKbwq7PolNc, need a human viewer to confirm whether 2026 keeps the yellow-star hit convention.",
+  "What are the glowing gold coin discs that burst from a Botch at a 2021 wrench kill (L-ND0C4rDB8 maxres2), given that 2021 Joule pickups were blue bolt tokens?",
+  "Selfie Stick, Crowbar and Primus Sword are dated to 2.21 (Jul 2015) only by a fan video description and wiki upload dates. The official 2.21 notes were not reached.",
+  "What does a Bearzooka rocket's detonation look like? No official image or frame shows one; the only in-game evidence is grey smoke puffs in 2015 fan footage (0ZbJ0-Za5Ws maxres3).",
+  "At 1.69-1.92 s in the trailer, which end of the green Soldier's tube points at the camera? The figure is only about 25 px tall.",
+  "What are the two blue orbs with cyan lightning arcs in the trailer's 1.5-3.8 s shot (a weapon, a Satellite or a map effect)?",
+  "Is the trailer's gameplay footage from a 2026 build or older capture?",
+  "What does LXSXL say in the eight audio-only Gun Craze episodes? A person needs to listen or fetch the auto-captions with a signed-in client; Bearail Gun (beam date) and TNT Launcher (impact) are the priority.",
+  "Does the B-1000 dossier's Dec 2013 Bearail streak evidence (q77eEbDzOiY hq2, '2.5') hold on re-check? It would date the beam to Dec 2013 or earlier.",
+  "Unexamined audio leads: 6NNAq3cwbPQ 'Battle Bears Forum Podcast #4: BBG 2.17 info + Videobombing' and TaYxpborS9s 'Podcast 4 - Starring Tehlews, LXSXL, and Brony Assasin'.",
+  "Every timestamp taken from the shared t_ frame series is about 0.22 s early (t_N is really (N-1)*0.5 + 0.22 s). Should the other dossiers be re-timed?"
+ ]
+}

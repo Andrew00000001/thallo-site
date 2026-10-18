@@ -1,0 +1,157 @@
+{
+ "quickref": [
+  {
+   "weapon": "Lightning Bolt",
+   "owner": "B-1000 (Assault)",
+   "slot": "Primary",
+   "status": "BBG 2.7 (Jan 23 2014); listed in the 2026 Closed Playtest #4 Gear Up [Observed]",
+   "look": "Rounded orange-and-white arm cannon, black octagonal muzzle in a thick orange ring, cyan lens; about 0.45x Oliver [dossier; Observed 2026 Gear Up preview, low-res]",
+   "firing_and_projectile": "Semi-auto hitscan, 3-round clip [Fan-wiki; HUD Observed]. Instant thin STRAIGHT magenta-pink beam with a white core, about #E061C3 to #F96DFF [Observed: dgSVmVGMYAQ thumbnail, BJQS1vCgLxc 68 s, jXdcze9skQY 56 s, y6TUr1Ffg5w thumbnail]",
+   "impact_end_result": "No explosion [Game text via wiki]; a small white flash (#ECF7F9) at the target, or a white glow with a pale-yellow rim (#EBD595) and white puffs [Observed]; 50 dmg [Fan-wiki]; kill look not observed",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Energy Barrier",
+   "owner": "B-1000 (Assault)",
+   "slot": "Secondary",
+   "status": "BBG 2.3 (2013); in the 2026 Closed Playtest #4 list; 2026 text says 'RECEIVED' [Observed]",
+   "look": "Rounded black-and-orange backpack with four white hexagonal pods [dossier]",
+   "firing_and_projectile": "Activated self-buff, 2 charges, 5 s reload, 2 s duration (6 s before 2020) [Fan-wiki]; no projectile",
+   "impact_end_result": "Whole body washed in team colour with brighter rims: red #C34C44 to #C56A60 (sViZH-3shTM 148-150 s; LJyV35r98FM 190/224 s), blue-team cyan #5AADC2 to #6DABB6 (y6TUr1Ffg5w 24-28 s) [Observed]; 50% damage reduction; no overhead icon [Fan-wiki]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Last Resort",
+   "owner": "B-1000 (Assault)",
+   "slot": "Secondary",
+   "status": "2013 launch default; wiki marks it REMOVED; not among the visible 2026 secondaries [Observed; scroll caveat]",
+   "look": "Gold-orange lattice backpack with black panels and dark discs [Observed: mX-wRChpK1w, NJKRl54kc54]",
+   "firing_and_projectile": "Hold fire 3 s (official) or 4 s (wiki) to self-destruct; moving cancels [Fan-wiki]; arms spread wide in the frame before detonation [Observed; pose meaning Inference]; no projectile",
+   "impact_end_result": "Screen whites out (46-80% near-white, #FAFAF8 to #FDFDFB, once cream #FBF7D3); B-1000 bursts into head, red-white plates, cyan-edged claw blades and gun; then a top-down view of scattered parts in lavender-pink haze (#B8A1AF to #E3B6DE) [Observed: mX-wRChpK1w 8/48/74/94/126/188/232 s]; 200-400 dmg, AoE 200/400, counts as SUICIDE [Fan-wiki; dossier]",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Satellite",
+   "owner": "B-1000 (Assault)",
+   "slot": "Secondary",
+   "status": "BBG 2.7 (2014); in the 2026 list and equipped in a 2026 loadout [Observed]",
+   "look": "Glossy white orb (#FDFEF9) docked on the upper back in an orange octagonal cradle (#AA7B2B) with cyan light pads (#14C8F3); stays docked while firing [Observed: 6zv-C5K11i4]",
+   "firing_and_projectile": "'Fires missiles whenever he fires' [Game text via wiki; same text in-game in 2026, Observed]; 2 or 8 missiles at 1,500 u/s [Fan-wiki, conflicting]; candidate white-lavender streaks rising from behind his shoulders (DNcZwCdJSIk 44/54 s) [Observed; attribution Unverified]",
+   "impact_end_result": "Explosive, 20-50 dmg with AoE 125/250 since 2020 [Fan-wiki]; candidate white starbursts with pale-pink rays at targets [Observed; attribution Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Grenader",
+   "owner": "B-1000 (Assault)",
+   "slot": "Primary (default)",
+   "status": "2013 launch default; in fan clips 2013-2018 and in build 2.53.6 (Sep 8, 2022)",
+   "look": "Orange-and-white octagonal launcher on the right forearm, about 0.6x Oliver long. Black muzzle tube, orange riveted collar (~#D98628), black ribbed hose looping down the outer side. Back end: an orange-rimmed black octagon [Observed]. The four-vent disc seen on the back is the Energy Barrier, not part of the gun [Observed].",
+   "firing_and_projectile": "Lobbed arcing grenades, 1.5 s (infobox) or 1 s (prose) per shot, 5 s reload [Fan-wiki]. On reload a lemon-gold orb (core ~#F5FCEC to #FFFF80) swells on the muzzle, 3-4x the muzzle's width [Observed]. Projectile: a white orb with an orange-yellow flame tongue to a small spark, and a chain of yellow-orange beads [Observed in one still; ID by Inference].",
+   "impact_end_result": "Big low-poly faceted burst: white core with lemon-yellow facets (~#FDFE40 to #FFFF4C) and flying white cubes [Observed; attribution Inference]. Damage 45-70, large AoE, knockback on airborne targets, self-harm risk [Fan-wiki]. The same style is shared by other BBG explosives [Observed].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Grenader (2026 build)",
+   "owner": "B-1000 (Assault)",
+   "slot": "Primary (default)",
+   "status": "Equipped in a live match in the official 'BBG Livestream', Aug 21, 2026 (HUD 4/4, Sky Pirates) [Observed]; on the loadout screen with an axe [Observed]; Nov 4 shipping [Unverified]",
+   "look": "The same orange-and-white launcher and the same HUD icon as in 2013-2022 [Observed: loadout and HUD only; no close 3D view of the 2026 model]",
+   "firing_and_projectile": "Not observed in 2026 [Unverified]. Use the 2013-2022 behaviour.",
+   "impact_end_result": "No 2026 Grenader blast found [Unverified]. 2026 explosions from other weapons are lemon and white faceted bursts (~#FBFF74 / #FEFEFC) [Observed].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Energy Barrier",
+   "owner": "B-1000 (Assault)",
+   "slot": "Secondary (back pack)",
+   "status": "Added in BBG 2.3 [Fan-wiki]; on B-1000 backs 2014-2022 [Observed]",
+   "look": "White disc on the upper back with FOUR dark vents in white hex sleeves around orange V and inverted-V panels [Observed]",
+   "firing_and_projectile": "Activated ability: 2.0 s, 2 charges, 5 s reload; the wearer glows team-coloured [Fan-wiki]. No projectile.",
+   "impact_end_result": "The wearer takes 50% less damage for 2 s [Game text via wiki / Fan-wiki]. The glow was not observed [Unverified].",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "2. \"A mysterious foe who has taken a keen interest in the combat prowess of the Battle Bears. Hobbies include: annihilating all Battle Bears and transmitting their data to the bad guys.\" [Game text via wiki] ([class template][tmpl])",
+   "correction": "Keep the quote and add that the same text appears in-game in the 2026 Closed Playtest #4 ASSAULT panel [Observed: in-game text in a fan storyboard frame].",
+   "evidence": "-lAtv-j9Sms storyboard 10 s: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/sb/-lAtv-j9Sms/cs_0_00.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "the \"bringer of doom and destruction\" has a drone \"best friend\"",
+   "correction": "Say 'orb', not 'drone'. The 2026 in-game text reads \"A SMALL ORB THAT FIRES MISSILES WHENEVER HE FIRES, THE SATELLITE IS A B1000'S BEST FRIEND!\"",
+   "evidence": "-lAtv-j9Sms storyboard 240 s: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/crops/sc_text_sat.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "**Idle:** slow scanning sweeps; the Satellite circles him like a pet [BBG News invention].",
+   "correction": "Keep the invention label, but note the evidence: the orb stays docked on his upper back in an orange octagonal cradle with cyan pads (#14C8F3), even while he fires. Draw it docked by default.",
+   "evidence": "6zv-C5K11i4 maxres1-3 and storyboard 0-158 s: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/crops/sat_maxres.jpg and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/crops/sat_6zv_max2.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "Extras: Satellite, Smoke Screen, chain gun, Shock N Claw [Fan-wiki].",
+   "correction": "Replace with the 2026 Closed Playtest #4 Gear Up lists [Observed]. Primaries: Bass Cannon, Bearail Gun, Grenader, Energy Overflow, SRCG, Lightning Bolt. Secondaries: Metal Crush, Energy Barrier, Smoke Screen, Satellite. Melees: Primus Sword, Shock N Claw, Axecutioner.",
+   "evidence": "-lAtv-j9Sms storyboard 140-260 s: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/sb/-lAtv-j9Sms/cs_0_01.jpg, cs_0_02.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/crops/sc_panels.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "Defaults: Grenader (\"does the throwing for you\"), Last Resort (\"wait 3 seconds and then boom!\"), Axecutioner (\"replace your hand with an axe\")",
+   "correction": "Mark Last Resort as a 2013-era default: the wiki marks it removed, and it is absent from the four visible 2026 secondaries (scroll caveat). Its observed blast is a full-screen white-out with B-1000 breaking into head, armour plates, claw blades and gun.",
+   "evidence": "mX-wRChpK1w storyboard: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/crops/mx_lr_seq1.jpg and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/crops/mx_pre.jpg; 2026 list: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/crops/sc_panels.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "Sparks and loose bolts, never blood [BBG News invention].",
+   "correction": "Keep it, and cite the observed basis: in-game his self-destruct throws his head, plates, cyan claw blades and gun outward in a white flash, then shows the scattered parts in a lavender haze. No gore.",
+   "evidence": "mX-wRChpK1w storyboard 8-12 s and 74-78 s: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/crops/mx_lr_seq1.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "what the 2026 build keeps (the [JustNubz showcase][showcase] is unviewed)",
+   "correction": "Partly answered from storyboard frames (the video is still unwatched): 13 weapons are listed in Closed Playtest #4, with Last Resort not visible. 2026 match frames show a white-and-orange winged back unit (probably Metal Crush) and 1-, 37- and 52-round primaries.",
+   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/sb/-lAtv-j9Sms/cs_0_00.jpg to cs_0_02.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/crops/au_m5_zoom2.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b1000-gaps/sb/HKbwq7PolNc/cs_2878_00.jpg"
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "Defaults: Grenader (\"does the throwing for you\"), Last Resort (\"wait 3 seconds and then boom!\"), Axecutioner (\"replace your hand with an axe\") [Game text via wiki] ([Grenader][gren]; [Last Resort][last]; [Axecutioner][axe]); gun-arm = Grenader is [Inference].",
+   "correction": "Keep, and append: \"The Grenader is an orange-and-white octagonal launcher on the right forearm with a black muzzle tube and a black ribbed hose looping down its outer side; from behind, an orange-rimmed black octagonal end [Observed]. It lobs glowing grenades that burst into a big lemon-yellow-and-white faceted flash [Observed; attribution Inference]; on reload a lemon-gold orb swells on the muzzle [Observed; Fan-wiki 'golden orb']. It was equipped in a live match in SkyVu's Aug 21, 2026 'BBG Livestream' (HUD 4/4) [Observed].\"",
+   "evidence": "Look and reload orb: https://i.ytimg.com/vi/sxYKPH3GAx0/maxres2.jpg, https://i.ytimg.com/vi/6zv-C5K11i4/maxres1.jpg, https://i.ytimg.com/vi/SJx-s0--z7I/maxres3.jpg, https://i.ytimg.com/vi/LSvBLAQc4hM/maxres3.jpg. Blast: https://i.ytimg.com/vi/-RMnP3ubmD4/maxres2.jpg (HUD 0/6, RELOAD, build 2.53.6). 2026 match: https://i.ytimg.com/vi/xP27fWSCSKs/maxres3.jpg, with youtubei dateText 'Streamed live on Aug 21, 2026' and oEmbed author 'BATTLE BEARS'."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "right forearm a chunky orange-and-white grenade-launcher arm, left forearm a heavy axe blade with a glowing cyan edge; menacing stance.",
+   "correction": "Launcher part only: \"right forearm a chunky orange-and-white octagonal grenade launcher with a black muzzle tube, an orange riveted collar and a black ribbed hose looping down its outer side (back end: an orange-rimmed black octagon)\". Add \"vented disc on the gun-arm\" to the negative prompt; the four-vent disc belongs on his back only when the Energy Barrier is equipped.",
+   "evidence": "HD rear views: https://i.ytimg.com/vi/sxYKPH3GAx0/maxres2.jpg and https://i.ytimg.com/vi/SJx-s0--z7I/maxres3.jpg. Energy Barrier match: wiki Energy_barrier.jpg (caption 'B-1000 with the Energy Barrier') against https://i.ytimg.com/vi/-RMnP3ubmD4/maxres2.jpg; comparison strip /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/b-1000-grenader-r4/crops/eb_vs_rear.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "plants and fires heavy area weapons, then stalls on reloads (\"Ammunition repopulated!\") [Fan-wiki]",
+   "correction": "Append: \"(with the Grenader, the reload stall shows a lemon-gold orb swelling on the muzzle for 5 s [Observed; Fan-wiki])\".",
+   "evidence": "Frames in the RELOAD state at 0/x with a muzzle orb: sxYKPH3GAx0 maxres2, 6zv-C5K11i4 maxres1, 6-bciTQmJn4 sddefault/sd2, ZEwCAXkkplc sddefault/sd2, LSvBLAQc4hM maxres3. Wiki infobox: 'Reload 5 seconds'; usage text: 'strong golden light, eventually forming a golden orb'."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
+   "current_text": "what the 2026 build keeps (the [JustNubz showcase][showcase] is unviewed).",
+   "correction": "Append: \"The Grenader appears equipped in a live 2026 match in SkyVu's Aug 21 'BBG Livestream' (maxres3, HUD 4/4, Sky Pirates) [Observed]; whether it ships Nov 4 is [Unverified].\"",
+   "evidence": "https://i.ytimg.com/vi/xP27fWSCSKs/maxres3.jpg (Grenader HUD icon, 4/4, B-1000 portrait at 0/180); official description 'Join Ben and Gold44 as they test the latest build.' [Canon]."
+  }
+ ],
+ "open_questions": [
+  "What do Satellite missiles look like? Are the white-lavender streaks rising behind B-1000 in DNcZwCdJSIk (44, 54 s) missiles or SRCG explosive rounds? Does it fire 2 or 8 per load in 2026?",
+  "What does a Lightning Bolt kill look like? Does the beam crackle, and is the white halo in the y6TUr1Ffg5w thumbnail a hit flash or a kill effect?",
+  "Is the Energy Barrier glow 2 s in the 2026 build? Do the four pods visibly open on activation?",
+  "Is Last Resort truly gone from the 2026 build, or hidden above the scroll of the secondary list? What countdown cues (arms-wide pose, lights, sound) precede the white-out?",
+  "What fired the long violet beam at aujTcdFuxdE 17:20 (HUD 14/37)? Which 2026 B-1000 primaries have the 37-round and 52-round clips?",
+  "Can a higher-resolution source read the 2026 stat-panel numbers (Lightning Bolt cooldown, Satellite AOE and ammo)?",
+  "Is foodood's hq2/maxres2 burst (about 2:13 of -RMnP3ubmD4) the player's own grenade? Settling it needs a viewing.",
+  "What is the grey rounded object inside that burst: the grenade casing or a smoke puff?",
+  "In SJx-s0--z7I maxres3, is the white orb at the muzzle the reload orb or a projectile in flight, and does the small spark orbit it?",
+  "What does a Grenader blast look like in the 2026 build? The only 2026 Grenader frame is a death camera.",
+  "Which B-1000 primary has the orange pod icon with a cyan bar and a /6 clip in 'I AM MACHINE' (3.0.5 playtest build)? Its yellow faceted blasts look like the Grenader's.",
+  "What is the base Grenader clip in 2026 (the livestream HUD shows 4/4 with unknown equipment), and will the Grenader ship on Nov 4?",
+  "What does the Energy Barrier's team-colour activation glow look like?"
+ ]
+}

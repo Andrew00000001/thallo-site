@@ -1,3 +1,4 @@
+<!-- gap pass 1 -->
 # Astoria (Sniper): addendum for the gaps (2026-10-17)
 
 This addendum covers only four open gaps in the verified Astoria dossier (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/verified/astoria.md):

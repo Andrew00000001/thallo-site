@@ -1,0 +1,102 @@
+{
+ "quickref": [
+  {
+   "weapon": "Doom Star",
+   "owner": "Botch (Assassin)",
+   "slot": "BB Heroes basic attack (wiki column 'Attack'); Ultimate is Doom Cloud",
+   "status": "BB Heroes only. Botch added 2024 ('Spring 2024' per wiki; official 'NEW HERO' teaser Jul 3, 2024); BBH global launch Oct 3, 2024; Botch 'Attack Damage Increased (+15%)' in the 1.0.12 notes the wiki dates Oct 14, 2024. Not in BBR or BBG; not seen in BBG 2026 [Unverified]",
+   "look": "A glowing yellow-lime domed star with four or five drooping, blunt-tipped arms, pale outline seams and zig-zag crack seams (glow about #F8FE4C; render about #B4D960, seams #CBE181). About 0.5-0.75 of Botch's head width. It hovers unheld at his shoulder and sheds lime sparkles [Observed: official BBH splash, key art, store screenshots]. It is a remodel of his 2013 Doom Cloud blob. That it is the Doom Star is [Inference]",
+   "firing_and_projectile": "'acts as a boomerang' [Canon]; range Short, reload Very slow [Fan-wiki]; a 3-segment ammo bar is seen in a fan HUD [Observed]. The throw, flight path, spin and trail are unobserved [Unverified]",
+   "impact_end_result": "'potentially dealing double damage' [Canon]; wiki '2 x 730' implies one hit going out and one coming back [Inference]. The hit visual is unobserved. A lime whirlwind around Botch and a lime ground disc with -70 ticks were seen, but neither is attributable to the Doom Star [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Energy Bombs",
+   "owner": "Botch (Assassin)",
+   "slot": "Primary",
+   "status": "Added 2.7, Jan 23, 2014; 75 Gas in the 2.7 store (wiki: 60 Gas); 2.17 damage glitch, 'Fixed' in 2.19 (Apr 26, 2015); HUD clip 3 in 2014\u20132015 and 4 in 2017 (wiki: 4); not seen in 2026",
+   "look": "A glowing lime ball with short pyramid spikes, like a sea mine (#B2F546\u2013#B3F84F). It floats beside his head, about 0.3 of his head width. The HUD, store and loadout icon is the same spiked ball. The 2015 'Bombs Away!' bundle art instead shows glossy, smooth green spheres (#6AE742) with mint swoosh trails.",
+   "firing_and_projectile": "'Fires an explosion in all 4 directions from Botch' [Game text via wiki]; one shot per 1.0 s [Fan-wiki]. A spiked lime ball is seen by his paw just after the clip empties [Observed; that it was launched is Inference]. Its flight is otherwise unseen.",
+   "impact_end_result": "Bursts on contact with an enemy or surface; no status effect [Fan-wiki]. Candidate blast: a white-cream dome (#F6F8F3) with a lime base glow (#A1E250), rising lime vapour and a scorched brown ring, where an enemy died (three blue Joule bolts) [Observed in SW's 2016 custom thumbnail; attribution Inference, Nova not excluded]. The yellow-lime floor rings are unattributed.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Slow Motion Field",
+   "owner": "Any class (seen in Botch's Dec 2015 set)",
+   "slot": "Special",
+   "status": "BBG Special; 20 Gas, level 4, 10 s duration, 20 s cooldown [Fan-wiki]; seen in 2015 (2.23) footage",
+   "look": "Card art shows a bear beside a snail. The HUD special button is an hourglass with a cooldown ring [Observed; identity Inference].",
+   "firing_and_projectile": "Activated around the user; no projectile [Fan-wiki].",
+   "impact_end_result": "A huge translucent yellow dome with faceted, polygon edges (#FCFB31\u2013#FDFD5D) covers the area [Observed]. Slowed enemies show a lime-yellow 'Z' in white swirl brackets over their heads [Observed; Fan-wiki: 'yellow Z', 100 u/s slow].",
+   "confidence": "observed"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "BBH adds the boomerang \"Doom Star\" [Canon] ([characters][chars]).",
+   "correction": "Keep it, then add: \"In BBH menus and key art a glowing yellow-lime, domed five-armed star (\u2248#F8FE4C glow; render \u2248#B4D960 with paler seams), about half to three-quarters of his head wide, hovers unheld at his shoulder shedding lime sparkles; it is a remodel of his 2013 Doom Cloud blob and most likely the Doom Star [Observed: official BBH lineup splash, store 'Hundreds of Skins' screenshot; identification Inference]. Its throw, flight and hit effects are unseen.\"",
+   "evidence": "Wiki File:BBH_Splash.png at 4096 px, which matches the official BATTLE BEARS channel frames of o0qNL2DHufw, b6K9Z9mVskU, ISutMIXTUc8 and ihkXJS4Oatk; Google Play screenshot 12; iPad App Store screenshot BBHsep24GRsshotiPad_150Skins.png; official teaser eQBsn_45x5w frame 1. Crops: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/botch-doomstar/crops/splash_star.jpg, crops/gp12_star.jpg, crops/ios12_botch.jpg; comparison in sheets/compare_bbg_bbh.jpg."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "Alternative: the 2024 BBH portrait, charcoal on a purple swirl ([icon][icon]) [Observed].",
+   "correction": "Add: \"Full-body BBH renders also exist: the official BBH lineup splash/key art and the store skin-screen shot show dark plum-brown fur, grey wristbands with red lights, and the lime star hovering beside him [Observed].\"",
+   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/botch-doomstar/crops/splash_botch.jpg; crops/gp12_botch_panel.jpg; crops/ios12_botch.jpg; crops/newhero_full.jpg (official, Jul 3, 2024)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "Prompt pack (no BBH-era line)",
+   "correction": "Add an optional line, \"BBH-era only: a glowing yellow-lime five-armed star hovers beside his shoulder, trailing lime sparkles\", and leave it out of BBG-era prompts.",
+   "evidence": "Same official images as the Weapons correction; the BBG-era default stays the Doom Cloud blob (wiki DoomCloudCR.jpg and Botch_Skin.jpg)."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/botch.md",
+   "current_text": "No image of it found. The wiki has no Doom Star page or file, and none of the six BB Heroes App Store screenshots shows Botch [Observed; Unverified].",
+   "correction": "\"The wiki has no Doom Star page or file [Fan-wiki]. Today's iPad App Store screenshot 'BBHsep24GRsshotiPad_150Skins' and Google Play screenshot 12 show default Botch with a hovering lime star, as do the official BBH lineup render (File:BBH_Splash.png), the key art and the official short 6a55EdwBmZM [Observed].\" The same text is in the scratchpad copy out/verified/botch.md.",
+   "evidence": "App Store lookup id 6479357768 today lists 7 iPhone and 7 iPad screenshots; Google Play com.skyvu.bbh lists 16. See /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/botch-doomstar/sheets/ios_all.jpg, sheets/gp_b.jpg and crops/ios12_botch.jpg."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/botch.md",
+   "current_text": "BBH 1.0.12 (Oct 3, 2024): Botch's attack damage +15% [Fan-wiki: Updates].",
+   "correction": "\"BBH 1.0.12 balance notes, dated October 14, 2024 on the wiki (1.0.12 global launch Oct 3, 2024): Botch 'Attack Damage Increased (+15%)' [Fan-wiki: Updates]\". The same date fix applies at line 119.",
+   "evidence": "Wiki 'Updates' wikitext fetched 2026-10-18. The 1.0.12 rowspan has a launch row dated October 3, 2024 and a balance row dated October 14, 2024."
+  },
+  {
+   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/botch.md",
+   "current_text": "If a BBH crossover needs it, a lime throwing-star boomerang is [BBG News invention].",
+   "correction": "The star's look is now observed: a glowing yellow-lime domed five-armed star. Only its flight path and hit effect remain [BBG News invention].",
+   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/botch-doomstar/crops/gp12_star.jpg; crops/splash_star.jpg."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "extras include Orbs, Fear Orbit, Cosmic Bomb, Gravity Well and Toxic Plague [Fan-wiki] ([Assassin (BBG)][assassin]).",
+   "correction": "extras include Orbs, Energy Bombs (glowing lime spiked energy mines, fired four at a time in all four directions; added 2.7, Jan 23, 2014), Nova, Fear Orbit, Cosmic Bomb, Gravity Well and Toxic Plague [Fan-wiki] ([Assassin (BBG)][assassin]).",
+   "evidence": "Wiki Energy Bombs page and Updates 2.7 list Energy Bombs and Nova as Assassin weapons [Fan-wiki]. In-game 2.7 store row 'ENERGY BOM[BS] BUY NOW! 75' [Observed: https://i.ytimg.com/vi/bbxXsjlvbow/sd1.jpg]. Lime spiked-ball HUD icon in 2014, 2015, 2016 and 2017 clips (cDg2nI7ghMM sd3, q-IQ7Se03qo maxres2, JmYpkkNi3xg maxres1, q8ExD3R4A7w maxres1) [Observed]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "\"Sometimes when a person gets lonely they talk to themselves. Botch, however, created two friends that rapidly fire deadly lasers... friends are the best!\" [Game text via wiki] ([Orbs][orbs])",
+   "correction": "Keep the quote and add the stronger label: [Observed: in-game 2.7 store popup, Jan 2014, https://i.ytimg.com/vi/bbxXsjlvbow/sd1.jpg]. This is an optional label upgrade; the wording is confirmed.",
+   "evidence": "The store popup reads, in capitals, 'SOMETIMES WHEN A PERSON GETS LONELY THEY TALK TO THEMSELVES. BOTCH, HOWEVER, CREATED TWO FRIENDS THAT RAPIDLY FIRE DEADLY LASERS... FRIENDS ARE THE BEST!' (crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/botch/eb_crops/bbx_orbs_text.png)."
+  }
+ ],
+ "open_questions": [
+  "Is the hovering lime star the Doom Star, or the BBH Doom Cloud (Super) model kept from BBG? Settling it needs a frame of the basic throw, or the in-game 'i' info panel on Botch's SKILL tab, which in the frames I saw names only the Ultimate.",
+  "How does the Doom Star fly (straight out and back, or curved; spin; trail), and what does each of its two hits look like?",
+  "Which on-screen effect is the Doom Cloud Super: the lime whirlwind centred on Botch (store screenshots ss_06/ss_14 and official short 6a55EdwBmZM, ammo full), or the lime-rimmed ground disc with puddles and stacked -70 ticks (fan _vc1P7jwWEc, ammo nearly empty)?",
+  "Do skins swap the star? The fan Plague Doctor thumbnail shows a dark-green marbled orb in its place; Blotch, Emo and the other skins are unchecked.",
+  "Release date: the wiki says 'Spring 2024', but the official 'NEW HERO' teaser (eQBsn_45x5w) is dated Jul 3, 2024.",
+  "Does the Doom Star exist in the BBG 2026 re-release? No playtest frame or Steam post shows it.",
+  "Outside this gap: fan video 3hA9WatT6vo (Dec 16, 2025) shows an unreleased BBH 'PISH & POSH \u2013 Assassin' hero screen (Ultimate 'Posh-Catching'). Should the soul file's Pish & Posh line note this?",
+  "Blast: is the white dome with lime vapour in the JmYpkkNi3xg custom thumbnail an Energy Bombs blast or a Nova? Settling it needs real frames from that 4:54 video or from q8ExD3R4A7w (12:35).",
+  "Clip: was the base Energy Bombs clip 3 (HUDs 2014\u20132015) or 4 (HUD 2017; wiki 4)? Was the change Ammo +2's '+1' or a rebalance?",
+  "Rings: what are the yellow-lime rings seen in Energy Bombs and Nova clips (q-IQ7Se03qo, cDg2nI7ghMM, JmYpkkNi3xg, IlZ2QS3NmRs)?",
+  "Splat-stars: are the two small lime splat-stars in the 2.7-beta graphic (WPVJTueNX1o sd3) the bombs in flight or their bursts?",
+  "Price: launch price was 75 Gas (2.7 store); the wiki says 60 Gas. When did it change?",
+  "2026: are the Energy Bombs in the 2026 build? No 2026 thumbnail I checked shows the icon.",
+  "Release notes: what do SkyVu's archived 2.7 notes say (http://web.archive.org/web/20140201092451/http://battlebears.com/battle-bears-gold-update-2-7-now-available-full-release-notes/)? web.archive.org reset every connection from this sandbox.",
+  "Special icon: is Botch's frequent special icon (two red boot shapes over white puffs) the Turkish SW Boots, not the Healing Tent the main dossier assumed?",
+  "Nova: are the Boom Bundle banner and the cyan-cylinder image in the 2.7-beta graphic the in-game Nova column?"
+ ]
+}

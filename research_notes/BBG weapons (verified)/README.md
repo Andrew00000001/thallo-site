@@ -1,11 +1,25 @@
 # BBG weapons research (verified)
 
-One dossier per class (and, once finished, per side topic). Each was written from the wiki, official SkyVu text, the 2026 Steam trailer and screenshots, and the images the researchers opened. Then one adversarial checker re-fetched every quote, re-opened every cited image, and corrected the dossier.
+Start with `00_OVERVIEW.md`. It covers sources, the shared combat effects, rules for showing weapons in shorts, the main corrections and the confidence summary.
 
-- `<class>.md`: the verified dossier. For every weapon it gives the official text, look, firing, projectile, impact and a depiction note for shorts, with a source label on every claim.
-- `<class>.meta.json`:
-  - `quickref`: one row per weapon (look, projectile, impact, confidence).
+Each class (`b-1000`, `oliver`, `riggs`, `huggable`, `tillman`, `astoria`, `wil`, `graham`, `botch`, `saberi`, `sanchez`) and each topic (`combat-vfx`, `2026`, `shared`) has:
+- `<key>.md`: the verified dossier. For every weapon it gives the official text, look, firing, projectile, impact and a depiction note for shorts, with a source label on every claim.
+- `<key>.meta.json`:
+  - `quickref`: one row per weapon.
   - `soul_corrections`: verified fixes for the character files.
   - `open_questions`.
+- `<key>.addendum.md` and `<key>.addendum.meta.json`: the gap passes run after the completeness critic, same format.
 
-Classes still being checked, the three side topics (combat effects, 2026 changes, shared weapons) and the overview are added as they finish. The earlier drafts in `BBG weapons (unverified drafts)` are superseded by these files.
+Indexes:
+- `quickref_all.json`: all 443 quick-reference rows.
+- `corrections_all.json`: all 262 verified character-file corrections.
+
+**How it was checked:**
+1. Draft.
+2. Source check: every quote re-fetched.
+3. Image check: every cited image re-opened.
+4. Edit.
+5. Completeness critic and gap passes.
+6. Overview.
+
+**Not reachable:** web.archive.org (connection resets) and YouTube playback. YouTube evidence comes from thumbnails and storyboard frames only.

@@ -1,0 +1,149 @@
+{
+ "quickref": [
+  {
+   "weapon": "Super Size Me!",
+   "owner": "Huggable",
+   "slot": "Secondary (ability)",
+   "status": "Added in BBG 2.20 (29 May 2015; Fan-wiki, and the SkyVu Facebook post seen in a fan frame); 150,000 Joules, level 10; sold in the Loud & Proud and World Cup 2015 bundles; once healed, no longer does (undated); 2026 status unknown",
+   "look": "Official Loud & Proud bundle art: a giant orchid-pink Huggable (#F273F5, highlights #FCC3FC) with a tan head band (#D9CCB2), round plum eyes and an open grin, towering over B-1000; even the cropped head is more than 3x B-1000's head width; white-lilac lightning; lime background. In game (2.25 fan screenshot): a high, steep camera over a black Old-Timey-skin Huggable with its radio, consistent with a giant; multiplier unverified",
+   "firing_and_projectile": "Tap to grow for 4 s (recharge 6 s); bigger melee hitbox; the user is slowed (wiki: 25%; a yellow 'Z' with curved white arrows is observed over the giant's head); no projectile, foot stomps make AoE shockwaves (20-40 explosive damage per wiki)",
+   "impact_end_result": "A flat, glowing ground ring with straight edges around the giant: yellow core #F3F32B, orange band #F3950E, lime rim #BCF61C (one fan frame; its link to SSM is inference); a nearby enemy also wears the yellow 'Z' (cause unverified); fits BBG's octagon-shockwave family (Metal Crush, 2026 trailer 52.9-53.7 s); kill look unverified",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Double Rainbow!",
+   "owner": "Huggable",
+   "slot": "Primary (ability), default",
+   "status": "Default since the BBR Gear Up (Oct 2012) and through BBG; 2.6 changed duration 3 to 5 s, infobox now says 4.0 s, recharge 7 s; no post-death spin since v2.2; seen in the 2026 official trailer at 7.2-8.5 s",
+   "look": "Flat, flat-shaded ribbon about 3/4 of the Huggable's head wide, six solid stripes outer to inner: red #C22024-#FD5F4B, orange #DA6542-#FB9866, yellow #DDD426-#FEFE44, green #49BC21-#68FE54, sky blue #4B9BB7-#69EDFE, violet #432C70-#5E2FD1; curves made of straight segments; no glow rim in game (the green rim is card-only); orbit at hip height about 2.4-3x the Huggable's height across (about 1.5-2x Oliver)",
+   "firing_and_projectile": "One tap, centred on the user; two rainbows spin around it for about 4 s and shrink at the end; melee cancels it; no projectile",
+   "impact_end_result": "Continuous explosive-type area damage per second (45-90, falloff, +Explosions+); no frame shows the contact effect (hit FX unverified); kills nearby are intact face-down ragdolls seen from BBG's overhead death camera, one with a small yellow-white sparkle squiggle on the ribbon; no confetti or stuffing observed",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Phantom Hug",
+   "owner": "Huggable",
+   "slot": "secondary (saboteur)",
+   "status": "BBG 2.2 (21 Aug 2013); still in 2014 footage; not seen in 2026",
+   "look": "No launcher. The Huggable fires from an empty, open paw (the raised-arm pose is its general in-game idle). Menu and HUD icon: a white Huggable face followed by three grey copies, labelled PHANTOM HUG EQUIPPED, with SPEED +5% in the 2.2 menu [Observed]. The CANDY! box in thumbnails is the Gummable skin, not the weapon [Observed + Fan-wiki].",
+   "firing_and_projectile": "Single shot, reload 5 s [Fan-wiki]. A small pale pink-white Huggable-shaped ghost trailed by 2-3 hollow pink rings (#F87B99 to #F99AF6). Seen head-on it is a white-hot silhouette with pink outlines (#E3AEDB, core #F7FFFF). A full-size bright magenta 'clone' (#F19ACE) can stand briefly beside the user [Observed; clone reading is Inference].",
+   "impact_end_result": "A soft pink-white cloud flares on the target (#F29DD4 to #FFD3FF). The victim is frozen about 2.5 s [Fan-wiki] under a yellow block Z (#FDFC04) with two white crescent arrows, with a glowing pink ring around its waist (#CB9FC3, highlights #EFA3FF) and pink ghost arms. It can still be meleed (yellow stars). Violet rings (#5748C7 to #8F75D8) drift afterwards. No damage [Fan-wiki].",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Losing Your Head",
+   "owner": "Huggable",
+   "slot": "primary (explosive)",
+   "status": "BBG 2.6 (20 Dec 2013); not seen in 2026",
+   "look": "No model. The head itself is the bomb; the Gear Up uses the normal stance [Fan-wiki].",
+   "firing_and_projectile": "The Huggable shakes its head off; it lands at its feet and explodes almost at once [Fan-wiki]. The drop is not caught in any storyboard frame.",
+   "impact_end_result": "A large spherical bright-blue blast enveloping the Huggable [Fan-wiki]. Three LYH-titled clips show the screen flooded cyan (#2FFDF9 to #78FDFC) with a curved sphere edge and a kill popup [Observed; attribution Inference]. A new head appears afterwards [Fan-wiki].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Charged Run",
+   "owner": "Huggable",
+   "slot": "secondary (dash)",
+   "status": "BBG 2.6 (20 Dec 2013); not seen in 2026",
+   "look": "No model; the Huggable itself charges and runs [Fan-wiki].",
+   "firing_and_projectile": "Hold to charge while immobile, then run at 600 u/s for 1.5 s (4 s charged) [Fan-wiki]. In two 2.6 clips a yellow Z with white crescent arrows hovers over the user's own head for at least 5 s, with green streaks around its body (#3C9857 to #7CB980) [Observed]. That this marks charge immobility is Inference. The run itself was not captured.",
+   "impact_end_result": "40 damage once per opponent run through [Fan-wiki]. Hit visuals cannot be told apart from melee stars [Unverified].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Static Shuffle",
+   "owner": "Huggable",
+   "slot": "primary (charge shot)",
+   "status": "BBR 1.4.3 (Apr 2013) to BBG (still in 2.25, 2016); not seen in 2026",
+   "look": "No model. The head stays on in every frame that shows sparks [Observed]. The in-game BBR text was seen in fan footage.",
+   "firing_and_projectile": "While charging, magenta-violet crackles wrap the body (#C852AA, #E847E3, #FA6EEB) [Observed; charge reading is Inference]. The shot is a short cyan-white electric burst (#36F9FD, #7FDBF0, #81FEFA) [Observed].",
+   "impact_end_result": "The target is wrapped in cyan fizz (#54E2EC, #5BF3F4) [Observed]. Thin white-to-pale-cyan zig-zag lightning lines (#8ABEC9 to #ADD8E8) stay on the floor for several seconds [Observed], matching the wiki's lingering damaging particles.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Headlights",
+   "owner": "Huggable",
+   "slot": "primary (beam)",
+   "status": "BBR by Feb 2012 to BBG; only BBR footage examined; not seen in 2026",
+   "look": "The head is absent while firing and back on afterwards in BBR footage (Dec 2012) [Observed, 116x90]. The rainbow bands come from the Gear Up card [Observed earlier].",
+   "firing_and_projectile": "A straight, head-thick beam from the neck to the target. At low resolution it reads warm peach to white with pink-orange edges (#F19262, #E2C871, #FFF8E5) [Observed].",
+   "impact_end_result": "A yellow-white starburst at the beam's end (#FFF298, #FFF15D) [Observed]. A mint, yellow and gold ray burst on an airborne target (#80EDC6, #FFFCAB, #FFD24B) is a probable hit [Inference].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Mini Me",
+   "owner": "Huggable",
+   "slot": "secondary (shrink)",
+   "status": "BBR by Oct 2012 to BBG",
+   "look": "Gear Up card only: green ghost outlines shrinking to a small Huggable. In-game scale was not resolvable in the 120x90 storyboards [Unverified].",
+   "firing_and_projectile": "Same activation as Peek A Boo per the wiki, with a laughing sound [Fan-wiki]. No projectile.",
+   "impact_end_result": "None on enemies [Fan-wiki].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Peek A Boo",
+   "owner": "Huggable",
+   "slot": "secondary (invisibility)",
+   "status": "BBR by Oct 2012 to BBG (outline removed in 2.6)",
+   "look": "Gear Up card: a black silhouette with a neon outline in white clouds and bubbles [Observed earlier]. No in-game frame isolates it. The coffee mug over Huggables in 2.5 footage is Caffeine Injection [Fan-wiki].",
+   "firing_and_projectile": "A short burst of rainbow energy above the Huggable, then invisibility [Fan-wiki]. No projectile.",
+   "impact_end_result": "None on enemies; it ends on attack [Fan-wiki]. Pink-white clouds in a 2014 clip are unattributed [Unverified].",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Gummable skin 'CANDY!' gum box (not a weapon)",
+   "owner": "Huggable",
+   "slot": "skin head item (replaces the radio)",
+   "status": "Images uploaded Nov 2012 to Jan 2013; seen in BBG 2.2 to 2.25 fan footage",
+   "look": "Glossy gummy body, red #FC0025 or blue #00AFEC by team. A pink-and-lime box (#EB4BCC, #E3F84D) reading 'CANDY!' with teal candies is strapped on the head, with a green-ball antenna [Observed + Fan-wiki].",
+   "firing_and_projectile": "n/a: cosmetic. It was mistaken for a Phantom Hug launcher in earlier notes.",
+   "impact_end_result": "n/a",
+   "confidence": "observed"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "So Fly, Mini Me, Super Size Me!, Seesaw chainsaw hands and the Bearettas.",
+   "correction": "Addition, not an error: \"So Fly, Mini Me, Super Size Me! (BBG 2.20, May 2015: the Huggable grows giant, slowed under a yellow \"Z\", and its stomps send out a flat glowing yellow-orange ground ring) [Fan-wiki; Observed: official Loud & Proud bundle art and a 2.25 fan screenshot], Seesaw chainsaw hands and the Bearettas.\" Also append to the earlier \"Double Rainbow!\": \"(two flat six-stripe rainbow ribbons, red outside to violet inside, orbiting at hip height) [Observed]\".",
+   "evidence": "Wiki Super Size Me! page (rev 76783) and Battle Bears Gold/Versions (2.20, May 29th, 2015). Official art File:LoudandProud.jpg, which is also the photo in SkyVu's 2.20 Facebook post seen in https://i.ytimg.com/vi/cDW-mWikVAk/hq1.jpg. In-game ring and Z: https://i.ytimg.com/vi/WMihcFT73j0/maxresdefault.jpg. Double Rainbow! in game: 2026 Steam trailer 7.2-8.5 s, and fan frames 7UM6p6CbT8s maxres2, hqQgvnMIj4E maxres3, wLsMF1T1v44 maxres3."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "Oliver, laughing at him, catches the Double Rainbow.",
+   "correction": "Keep the beat but stage it accurately: \"Oliver, laughing at him, gets clipped by the whirling hip-high rainbow ribbons and flops face-down.\" Double Rainbow! is an orbiting ribbon, not a beam, and BBG kills show intact face-down ragdolls.",
+   "evidence": "Wiki: 'creates two spinning rainbows that rotate around the user'. Observed ribbons orbiting at hip height (2026 trailer 7.4 s; 7UM6p6CbT8s maxres2). Intact face-down bodies in the death-camera frames 7UM6p6CbT8s maxres2 and hqQgvnMIj4E maxres2."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "extras include Headlights, a head-off \"cutting death beam of rainbow essence\" [Game text via wiki] ([Headlights][headlights]), So Fly, Mini Me, Super Size Me!, Seesaw chainsaw hands and the Bearettas.",
+   "correction": "Add: \"Phantom Hug (no gadget: an open paw throws a glowing pink ghost-Huggable; frozen foes get a yellow Z with two white orbiting arrows and a pink ring around the waist) [Observed, 2013 fan footage]\" and \"Static Shuffle (magenta static, a short cyan-white zap, white floor sparks that linger) [Observed]\". Keep Headlights; head removal while firing is now also observed in BBR footage.",
+   "evidence": "Storyboards and thumbnails from fan videos NhymMnwYDGk (hq2, hq3 menu 'PHANTOM HUG EQUIPPED', 42-104 s), HhqYgxFKCdw (hq2, 370 s), m9abgJLwXus (10 s, 26 s), Ac4XjUzc6tY (14 s), lgYvyOnEcCY, -PWReHfzNTI and GUnwrIctxtc (50-70 s), in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/huggable-gaps2/sheets and crops."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/huggable.md",
+   "current_text": "- **Skins** [Game text via wiki]: Black Huggable (\"Black is the new black?\", [Black Huggable][wblack]), Hugly Sweater and Gray Matter (\"Behold the terror.\", [Gray Matter][wgray]).",
+   "correction": "Add Gummable: a glossy red (#FC0025) or blue (#00AFEC) gummy-bear body with a pink-and-lime 'CANDY!' gum box in place of the radio. It is a skin item, not a weapon, and appears in much 2013-16 footage. Its official description ('...enough ritalin to slow you down!') should stay out of 13+ shorts.",
+   "evidence": "Fan-wiki Gummable page ('a box of gum in the place of a walkie-talkie on its head'). Observed in Gummable_expanded_model.png (CANDY! tile) and Gummable_skin.png, saved under /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/huggable-gaps2/img/, and in https://i.ytimg.com/vi/NhymMnwYDGk/hq2.jpg."
+  }
+ ],
+ "open_questions": [
+  "What is Super Size Me!'s exact size multiplier? Does 'periodic increase in size' mean the giant pulses? Leads: SW's three 4:30 videos kF_HVINg6J4, PxxNUN145d4 and WMihcFT73j0 (playback is blocked here).",
+  "Is the Super Size Me! stomp ring always yellow, orange and lime? It was seen in only one 2.25 fan screenshot. Is it team-coloured, or does it vary by stomp?",
+  "Does the Super Size Me! stomp slow enemies (the victim KIKI shows a yellow 'Z'), or is the 25% slow only on the user? Super Size Me! is not on the wiki's Slowed list.",
+  "What does the hourglass icon on the ability button mean during Super Size Me!?",
+  "Does Super Size Me! exist in the 2026 build? Leads: the JustNubz showcase Huggable chapter (14:16-17:44) and [LA]Huggable's 16 'WE ARE BACK' videos (2026 build stamp 3.0.7_2026.11.19_b7).",
+  "What does Double Rainbow! show at the moment of contact: a white flash, sparks, knockback, or nothing? No frame shows it. Clip leads: hqQgvnMIj4E, wLsMF1T1v44, 2oq8cQP9GVo, mD_QhhaDdBo, 7UM6p6CbT8s.",
+  "Who killed the player in 7UM6p6CbT8s? The kill-feed icon (white, skull-faced, red-eyed) does not visibly match the pink Huggable whose rainbow surrounds the body.",
+  "Is the 2026 Double Rainbow! one hoop or two speed-blurred arcs, and does it still shrink before vanishing?",
+  "What do Double Rainbow! and Super Size Me! sound like? The fan rip PLqiq1cIhwI is unheard, and no SkyVu patch note was reachable because web.archive.org reset every connection.",
+  "At full resolution, is Phantom Hug's hit burst a sphere or a soft cloud? How fast is the ghost, and how long does the full-size magenta 'clone' stand?",
+  "Are the magenta crackles around the Huggable's arms the Static Shuffle charge? They appear in Static Shuffle, Phantom Hug, LYH/Peek A Boo and Mini Me clips.",
+  "Is the yellow Z over the user's own head in both Charged Run clips (eRL6OoX--zA 2-7 s, UI8QcuP8fkg 104-106 s) charge immobility or an enemy Phantom Hug?",
+  "Does Static Shuffle remove the head at the instant of firing (wiki) or keep it on (every sampled frame)?",
+  "Ac4XjUzc6tY shows the Z for at least 3 s against the wiki's 2.5 s: one hold or two?",
+  "What is the white-cream puff cloud at 4slsx2ppvxk 10 s: LYH, Peek A Boo or something else?",
+  "What do Mini Me's in-game scale, Peek A Boo's activation and BBG-era Headlights (rainbow bands at full resolution) look like? Unexamined: SFRvwmZkidg, 8tZQSt-zaF4, u-QwOhGeKdM, gYk2dQC-S4k, 2ZsPfrLqO34, 2PgaAK7JqAA; unavailable: DNcQvYu5T1s, sShVWYc6MpQ, 6LyalOvB1dA.",
+  "Are any of these seven abilities in the 2026 build? The JustNubz showcase Huggable chapter (14:16-17:44) is still unviewed."
+ ]
+}
