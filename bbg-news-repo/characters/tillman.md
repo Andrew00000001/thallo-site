@@ -73,7 +73,7 @@ Note: web.archive.org reset every connection on 2026-10-16/17, so the weapons re
 - **Colours** (estimates, not official codes):
   - **Body:** pale pink-white, about #E1B5AE, sampled from the 3D loadout shots [Observed, sampled]. Those shots carry a green-and-pink cast, so keep him a pale, warm pink-white and never a saturated pink [BBG News invention].
   - **2024 portrait:** white #DDDEE2, shade #BDBEC7, dark #162D32, gunmetal #4B555F [Inference]. The white and shade are for the BBH and alternate looks only; the 3D default body stays #E1B5AE. Use the dark for his black limbs and the gunmetal for his joints on any look [BBG News invention]. A tiny #B6420A swatch there may be rim or background, so keep it off the body.
-  - **Red sash and limb stripes:** unsampled; placeholder #B8302E [BBG News invention]. Team colour shows on his armour accents [Observed/Fan-wiki]. That the sash and stripes are the team-coloured parts is [Inference].
+  - **Red sash and limb stripes:** unsampled; placeholder #B3302A [BBG News invention]. Team colour shows on his armour accents [Observed/Fan-wiki]. That the sash and stripes are the team-coloured parts is [Inference].
   - **Teal pack:** #3F7F86 is an unsampled placeholder, for 2D-art and BBH looks only [BBG News invention].
 - **Face:**
   - **In 3D:** dark eye sockets rimmed in red, with glowing white diamond-shaped eyes, and a cracked forehead [Observed] ([front][wfront]).
@@ -116,7 +116,7 @@ The default loadout is Big Shot / Fireworks / Buzzard: the BBR launch loadout (2
     - The game text says "Launches a giant missile out at a straight trajectory." [Game text via wiki]; the wiki says it "fires damaging missiles in an arc" [Fan-wiki].
     - As of Dec 2013 it held 6 rounds with a 1 s cooldown [Canon].
     - The round is a dark navy/black rounded bullet with white eye-like markings, trailing a pale smoke streak [Observed, BBR-era image: File:8 battle bears royale.jpg].
-  - **Impact:** it explodes on contact (AoE 100/200) [Fan-wiki]. In the trailer an orange-yellow fireball engulfs Wil and flings him while Tillman aims the Big Shot [Observed; attribution Inference, moderate].
+  - **Impact:** it explodes on contact (AoE 100/200) [Fan-wiki]. In the trailer (about 18.5–22 s; the fireball itself about 19.9–20.4 s) an orange-yellow fireball engulfs Wil and flings him, intact, while Tillman aims the Big Shot [Observed per the Tillman, 2026 and combat-VFX dossiers; attribution Inference, moderate]. The Wil dossier reads the same seconds as Wil's own Batterito fire breath [Observed there] ([wil.md](wil.md)), so the event is [Open]: never caption or stage "Tillman blasts Wil" as trailer fact, and re-check the frames before quoting the trailer in a short.
 - **Fireworks** (secondary, default) ([Fireworks][wfw]). Confidence: partial.
   - **Look:** four slim red firecracker rockets (#D02C34–#E23126) with orange-red cone tips (#DA4122), upright on the black-and-grey back bar, two per side, with gold fuse sticks [Observed, sampled].
     - Each rocket carries a grinning pink-violet Huggable face: round ears, big dark eyes and a wide white toothy grin (#C0598E–#CF4770) [Observed].
@@ -297,6 +297,7 @@ The rest, at a glance:
 - **Negative prompt** (use the parts that fit the shot):
   - **Every shot:** photorealistic fur, realistic anatomy, blood, gore, sexual content, real-person likeness, official logos, text, watermarks, morphing, extra limbs, low-poly, flat 2D, real panda, cute pupils, Kung Fu Panda styling, brown fur, bright pink fur, human hands, human feet or boots, exposed insides, wounds, red liquid, cigars, alcohol, readable profanity, chest hatch cannon, cannon built into the chest, jetpack flight, plain military artillery shell, Bullet Bill styling, mushroom cloud, real-war or WWII bomb imagery, mole burrowing underground, melting or changing weapon parts.
   - **3D-default shots** (model sheet, video starter, weapon snippets): add teal backpack, teal chest strap, missing back bar.
+  - **Phat Man and Light Matter shots** (and any other shot that prompts crystal-cut shards or ice): swap "low-poly" for "low-poly character models", so the crystal-cut blast survives.
   - **Twin Bearzookas shots:** add coral-red launcher tubes.
   - **Dark Matter shots:** add dizzy stars.
   - **Double Hug shots:** drop "bright pink fur".
@@ -319,11 +320,12 @@ The rest, at a glance:
   - The other looks: the cards' and 2D art's white body and teal pack and strap (the two blue-tipped missiles are 2D art only); the BBH teal box pack with two dark-red-tipped rockets.
   - The masked trailer-card skin with the Phat Man on its back (ID Inference, strong); team colours on his accents.
   - The game's kill looks: an intact collapse or clean toy pieces, and blue bolt tokens where a player dies (three per death is Fan-wiki).
-  - Every weapon look, projectile and impact marked [Observed] above, much of it from fan thumbnails.
+  - Every weapon look, projectile and impact marked [Observed] above, much of it from fan thumbnails, except the trailer fireball on Wil, which is [Open].
 - **Game text via wiki:** "Plain old vanilla Tillman!", the Cyborg skin line, "Tillman's pet mole", the BBG class blurb and the weapon descriptions quoted above. Quote them as "the in-game text, as the wiki quotes it".
 - **Fan-wiki / invented — present as fan material:**
-  - [Fan-wiki]: the BB Zero plot, the H.I.P. alliance, Skiles and Swanny as his Delta Bear teammates (Swanny himself is canon, as an "Alpha Bears" member), the comic, where the cracks sit, the "pink and red flesh" gibs (never shown), kits, skins, barks and taunts.
+  - [Fan-wiki]: the BB Zero plot, the H.I.P. alliance, Skiles and Swanny as his Delta Bear teammates (Swanny himself is canon, as an "Alpha Bears" member), where the cracks sit, the "pink and red flesh" gibs (never shown), kits, skins, barks and taunts.
   - [Fan-wiki]: the 18-item BBG arsenal with its dates and stats: Big Shot, Gold Member, Dark Matter, Light Matter, S'no Matter, Bouncing Betty (removed: still live in 2.31, March 2018; past tense on the wiki May 2020; "Unavailable" Nov 2020), Blast-O-Mole, Twin Bearzookas; Fireworks, Happy Hour, Piece Maker, Phat Man, Rocket Propelled Lance, Reverse Fountain, Let It Cold; Buzzard, Double Hug, Good Morning. Also the claim that Fireworks no longer lock.
+  - [Fan-wiki, Unverified]: the comic that puts him and Astoria "on another ship".
   - [Inference]: the Wil grudge, weapon sizes, weapon IDs for trailer and fan-footage shots, and the Bouncing Betty's return around 2021 (resting on [Fan video titles]; unconfirmed [Unverified]).
   - [Unverified] (no source or image found): what decides intact versus pieces, the RPL blast, the Reverse Fountain spray, the Buzzard hit, burrowing in BBG and an official Twin Bearzookas description.
   - [BBG News invention]: everything so marked, including his fur-over-shell surfaces, the soft stylized rendering of the game's faceted effects, his 3D ears, the red placeholder hex, the styling of the Big Shot round, the RPL blast, the Reverse Fountain spray, Huggable confetti, the per-shot negative lists and all weapon sounds.
@@ -351,7 +353,7 @@ The rest, at a glance:
   - Which of his 17 live BBG weapons survive? Only the Big Shot, Light Matter and RPL have been seen in 2026 fan footage.
   - Are his white 2026 first-person arms with red or blue arrow decals a team-coloured skin or the new default?
   - The cheapest fix is to record the Steam Next Fest demo (Oct 19–26, 2026) [Canon: dates].
-- **Big Shot:** does it fire in an arc (wiki) or straight (official text)? Is the trailer fireball that hits Wil at about 19.9 s really a Big Shot hit?
+- **Big Shot:** does it fire in an arc (wiki) or straight (official text)? Is the trailer fireball that hits Wil at about 19.9 s really a Big Shot hit, or Wil's own Batterito fire breath ([wil.md](wil.md))? The Tillman, 2026 and combat-VFX dossiers read these seconds (about 18.5–22 s) as a blast engulfing Wil; the Wil dossier reads them as his fire breath.
 - **Kills:** what decides whether a kill leaves the body intact or breaks it into pieces?
 - **Undocumented impacts:** the RPL blast and the Reverse Fountain spray (no frame found); the Dark Matter's BBG-era blast, and what a caught player sees.
 - **Blast-O-Mole:** does the flame line march away from the thrower, how many pillars are there, and how fast? Does the BBG mole burrow at all, or only in BBH?
