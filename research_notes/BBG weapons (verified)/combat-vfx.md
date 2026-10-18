@@ -71,7 +71,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - star-shaped hit sparks
   - 2D icons above heads
 
-  2026 media add a thick black ink outline to characters [Observed]. Whether the outline is in-game is [Unverified].
+  Characters have a thick black ink outline in SkyVu's May 2013 trailer footage and in 2026 in-game captures with HUD, but not in 2012–14 player captures on the wiki [Observed]. So the outline was not added in 2026. Tying it to the 2013 trailer's advertised "HD Graphics" mode is [Inference].
 - **Team colours:**
   - **Where they show:** character accents, the HUD, the kill feed and Plant the Bomb gear [Observed / Fan-wiki].
   - **Effects:** the only team-coloured effect the wiki documents for later BBG is the Energy Barrier glow (v2.3+). The Cloaking aura (BBR v1.4.2 only) and the Peek A Boo neon lines (v1.4.2 to v2.6) were removed [Fan-wiki].
@@ -95,7 +95,7 @@ This is the edited version of the draft. I applied the source check and the imag
     2. Painterly, semi-transparent cartoon flame shapes in orange (#F47E3E / #FAA751), as around the victim at 12.4–13.0 s [Observed: C/sheets/tl_zoom.jpg].
   - **Smoke:** faceted white and grey puffs after big blasts [Observed: Duo.png; trailer 51.3–51.7 s]. Soft dark smoke goes with the particle fire [Observed: wf.jpg].
   - **Shockwaves:** flat octagonal rings on the floor [Observed: screen_02.jpg; C2/sheets2/ta6.jpg, ta7.jpg, th2.jpg]:
-    - white on the space station (50.5–51.1 s)
+    - white on Shortest Parsec (50.5–51.1 s)
     - white and grey in the cave (9.0–10.4 s)
     - an orange cone from the sky, then orange and white rings together, in the cave (52.5–53.5 s)
   - **Beams:** long flat ribbons with a white-hot core [Observed: screen_03.jpg; trailer 7.2–10.5 s, 38.3–41 s; C2/sheets2/tf3.jpg, tf4.jpg; rk30.jpg]:
@@ -110,10 +110,12 @@ This is the edited version of the draft. I applied the source check and the imag
   - **Status indicators:** flat 2D sprites above heads [Observed: trailer 8.2–8.8 s; Images_(3).png; 0GuhKiAnNyc hq1/hq2].
   - **Hearts:** a stream of pink cartoon hearts trails a Huggable at 26.0 s [Observed: C2/crops2/hearts.png]. The wiki says Tough Love leaves the Huggable "trailed by a stream of hearts" [Fan-wiki], so it is probably Tough Love [Inference].
 - **Ink outline:**
-  - In the 2026 Steam screenshots, the trailer gameplay and the Steam loop video, characters have a thick black ink outline [Observed: C/sheets/outline_compare.jpg; C/sheets/steam_extra.jpg].
-  - BBR-era captures on the wiki have none (A_life_upside_down.png, uploaded 2013-04-27; Photo_19-04-13_12_02_26_PM.png, uploaded 2013-04-19) [Observed].
+  - **The Steam media are 2013 footage:** the Steam trailer's class cards are pixel-identical to SkyVu's May 30, 2013 "BATTLE BEARS GOLD Trailer" (rfAyqVJrli4, channel BATTLE BEARS) [Observed: greyscale MSE about 1–6 against medians of about 5,700–7,500]. The Steam screenshots are frames of the trailer [Observed: screen_02 matches trailer ≈50.6 s]. So the trailer gameplay and the screenshots are May 2013 footage [Inference, strong].
+  - In the Steam screenshots, the trailer gameplay and the Steam loop video, characters have a thick black ink outline [Observed: C/sheets/outline_compare.jpg; C/sheets/steam_extra.jpg]. The 2013 trailer's own class cards show it too [Observed: rfAyqVJrli4 maxres1–3]. So the outline was already in SkyVu's 2013 footage, not added in 2026.
+  - It also appears in 2026 in-game captures with HUD [Observed: C7uFxvSZ10c maxresdefault, SkyVu's "Official Playtest Highlights", build "3.0.0"; HKbwq7PolNc maxres1, InstableGR's "Final PC Playtest (10/15/26)", build "3.0.7_2026.11.19_b7"]. So it is rendered in-game in 2026 [Observed].
+  - 2012–14 player captures on the wiki have none (A_life_upside_down.png, uploaded 2013-04-27; Photo_19-04-13_12_02_26_PM.png, uploaded 2013-04-19; Screenshot_(509).png, uploaded 2014-03-16; Imawe.jpg, uploaded 2014-05-05) [Observed].
   - The JustNubz "Closed Playtest #4" thumbnail shows the Gear Up menu (build text "3.0.5_2026.11.19_B1") with no thick outline on the menu model [Observed: C2/yt/lAtv_maxresdefault.jpg, C2/crops/lAtv_build.png].
-  - So whether the outline is the in-game 2026 look or a marketing treatment is [Unverified].
+  - The 2013 trailer description advertises "HD Graphics (Only available on higher end devices. App automatically detects what graphic mode to show)" [Canon: YouTube description of rfAyqVJrli4, May 30, 2013]. Tying the outline to that mode is [Inference]. Whether 2026 always shows it or makes it a setting is [Unverified].
 - **HUD palette (BBR v1.4.x capture, April 2013):** health bar green ~#178602–#178702, red team ~#FC0101–#FD0101, blue team ~#003CFC–#023DF6 [Observed: A_life_upside_down.png].
   - A later BBG health bar "tells how much health a character has with numbers" [Fan-wiki: Health, Newhealthbar.png caption].
 - **Firing / Projectile / Impact:** see the sections below.
@@ -127,7 +129,7 @@ This is the edited version of the draft. I applied the source check and the imag
     - hard-edged, flat-shaded, semi-transparent faceted shapes for nukes, radiation bursts and energy shards
     - flat octagonal rings sliding along the floor for shockwaves
     - star sparks on hits [Observed]
-  - Ink outline on characters for the 2026 look, none for the 2013 look [Observed; whether it is in-game is Unverified].
+  - Ink outline on characters for the 2026 look and for SkyVu's 2013 trailer look; none for the look of 2012–14 player captures [Observed].
   - Exact frame counts and holds are [BBG News invention].
 - **Confidence:** observed
 
@@ -759,7 +761,11 @@ This is the edited version of the draft. I applied the source check and the imag
   - Wil (Chub Scout): "Force field, FORCE FIELD!" (Shield) and "Omnomnomnom..." (Health Pack) [Fan-wiki: Chub Scout (BBG)].
   - Tillman: "Gives me chills!" (Shield) [Fan-wiki: Demo (BBG)].
 - **Firing / Projectile:** n/a.
-- **Impact / end result:** see Look. Which pickups survive into 2026 is [Unverified].
+- **Impact / end result:** see Look.
+- **2026 status (partly answered):**
+  - Three floating blue lightning bolts appear in a frame thumbnail of SkyVu's "Official Playtest Highlights" video [Observed: C7uFxvSZ10c hq2]. They match the Joule icon and the three-per-death drop, so Joule drops survive into 2026 [Inference, strong].
+  - The Oct 14, 2026 Steam banner for the final playtest, set on No Bear's Land, shows a floating angry bear face (the Bearscream Sandwich design) and a green shield-with-plus icon on the keep roof [Observed: Steam news image b7c8f8f133ad960899cce9f3d232b42847891d08.png]. The wiki puts the Shield "on the top of each base tower" [Fan-wiki: No Bear's Land]. Reading the two icons as the Sandwich and the Shield is [Inference].
+  - Whether the Health Pack and Imperial Basket Grande survive is [Unverified].
 - **Images viewed:**
   - draft: `C/sheets/icons.jpg`; `C/crops/shield_crop.png`; `C/crops/shield_crop2.png`; `C/png/Maxresdefault(100).png`
   - check: `C2/yt2/0GuhKiAnNyc_maxresdefault.jpg`; `C2/crops2/joule2.png`
@@ -776,7 +782,7 @@ This is the edited version of the draft. I applied the source check and the imag
 - **Hazards:**
   - "There are also natural hazards which can instantly kill a player regardless of any other factors, with the exception of Shortest Parsec's laser, which does damage quickly over time. These hazards will cause a suicide and deduct a kill in addition to causing a death." [Fan-wiki: Health]
   - "Suicides are penalized in team battle" arrived in BBG v2.19, April 26, 2015 [Fan-wiki: Versions].
-  - Lava borders the Aztec maps [Observed: trailer 43.5–46 s; Maxresdefault(100).png].
+  - Lava surrounds the Aztec Attack map, which is the only Aztec map [Observed: trailer ≈43.1–45.7 s; File:Maxresdefault(100).jpg; Fan-wiki: Category:BBG Maps]. That trailer shot is 2013 footage [Inference, strong].
 - **Firing / Projectile:** n/a.
 - **Impact / end result:** see Look.
 - **Images viewed:**
@@ -896,7 +902,7 @@ All paths are under `/home/user/thallo-site/bbg-news-repo/characters/`. The READ
    - No Next Fest demo is listed on today's Steam page; the only event is "Final Discord Playtest this Thursday Oct 15".
    - The JustNubz "Closed Playtest #4" showcase or the Nov 4 launch build could confirm.
 2. **Gibs:** what decides whether a kill breaks the body apart or leaves it intact? And is the Green Oliver break-up at 4.9 s gameplay, or trailer staging (orange streak background leading into the B-1000 intro card)?
-3. **Ink outline:** is the black ink outline in the 2026 screenshots and trailer an in-game rendering change or a marketing treatment? The 2026 playtest menu thumbnail shows none.
+3. **Ink outline:** partly answered. The outline is in SkyVu's May 2013 trailer footage and in 2026 in-game captures (builds 3.0.0 and 3.0.7), but not in 2012–14 player captures [Observed]. Was it the 2013 "HD Graphics" mode [Inference]? Is it always on in 2026, or a graphics setting? The 2026 playtest menu thumbnail shows none on the Gear Up model.
 4. **Huggable flags:** is the white rainbow-dot Huggable flag in 2026 media a skin flag or a change to team flags?
 5. **Huggable death spray:** does a BBG Huggable spray rainbow when it dies? Official merch art says rainbow column and stuffing; BBG footage shows plush chunks. The 3.3–3.8 s rainbow fan is most likely Peek A Boo.
 6. **Bearzooka:**

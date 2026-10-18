@@ -237,7 +237,8 @@ Hex values are medians I sampled with Python from the named image. They were tak
 ## Unidentified 2026 trailer rifle (Gold Oliver) (sub-topic; official Steam trailer, 2026)
 - **Official text:** none. The trailer title is "Battle Bears Gold Premium - Trailer" [Canon].
 - **Look:**
-  - On the lava map (about 38.0–41.5 s), a gold bear holds a small grey gun with a **black curved loop hanging below it** [Observed, [F]/crops/tr_gun3.jpg from [F]/tr3/full_39.65.png, full_39.9.png, full_41.15.png].
+  - On the Marecraft map (about 38.3–41.5 s; the flesh interior of the Marecraft Carrier, not lava), a gold bear holds a small grey gun with a **black curved loop hanging below it** [Observed, [F]/crops/tr_gun3.jpg from [F]/tr3/full_39.65.png, full_39.9.png, full_41.15.png].
+  - The setting is an enclosed space: orange flesh walls lined with dark-red veins, huge pale rib columns, a smooth salmon-red floor, dark metal forts and a tower topped with a satellite dish. There is no sky and no lava [Observed, maps-research frames f_39.0, f_39.6 and f_40.6]. It matches the wiki's "THE MARECRAFT / Coming soon..." image, File:Imagefbvhiqhb.jpg [Observed match]. That players fight "inside the Carrier's body" is [Fan-wiki]. Until about 38.3 s the frame still shows the Riggs class card [Observed, my frames at 38.0, 38.2 and 38.27 s]. Full write-up: BBG maps (verified)/marecraft-map.md.
   - The bear is gold with swirl engravings and red eyes, matching File:Gold_Oliver.jpg [Observed match]. The Gold Bundle skin is listed at 1,710 Gas, BBR v1.4 [Fan-wiki].
   - On the Oliver class card (41.5–42.75 s), he holds a silver-grey blocky gun with a dark-grey angular upper block, next to an emblem of three silver cartridges and the word "SOLDIER" [Observed, [F]/crops/card_422_half.jpg].
 - **Firing / projectile:**
@@ -248,7 +249,7 @@ Hex values are medians I sampled with Python from the named image. They were tak
   - A blue bear with a large purple-glowing back shield flashes white-blue while the line crosses it, then lies face-down by about 41.2 s.
   - Both fall whole, with no breakup [Observed].
   - That the violet line is this gun's shot, not just a tracer, is an [Inference, medium]. That the gun is the Sci-Fi HASR, because of its silver body and dark loop, is an [Inference, low-medium]. A new 2026 weapon is also possible [Unverified].
-- **Images viewed:** [F]/crops/tr_gun3.jpg; [F]/crops/tr_violet.jpg; [F]/crops/tr_kill.jpg; [F]/crops/tr_purple.jpg; [F]/crops/card_422_half.jpg; [V]/trailer/t_0077–t_0087; [F]/png/Gold_Oliver.png.
+- **Images viewed:** [F]/crops/tr_gun3.jpg; [F]/crops/tr_violet.jpg; [F]/crops/tr_kill.jpg; [F]/crops/tr_purple.jpg; [F]/crops/card_422_half.jpg; [V]/trailer/t_0077–t_0087; [F]/png/Gold_Oliver.png; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/aztec_attack_verify/trailer/interior.jpg (f_39.0, f_39.6, f_40.6); /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/marecraft/png/img_Aaaaa.png and img_Imagefbvhiqhb.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/oliver_chk/sheet.jpg (my frames at 38.0, 38.2, 38.27, 38.33, 38.4, 41.4, 41.5 and 41.6 s).
 - **Depiction for shorts:** If you reuse this moment, the documented beats are a thin violet line, a white-blue hit flash and the opponent dropping flat. Do not caption the gun's name.
 - **Confidence:** partial.
 
