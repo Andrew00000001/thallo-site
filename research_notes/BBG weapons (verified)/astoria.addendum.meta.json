@@ -1,0 +1,153 @@
+{
+ "quickref": [
+  {
+   "weapon": "New 2026 Astoria weapon A (unnamed; navy bottle-scope rifle)",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary (HUD primary slot)",
+   "status": "New in final playtest Oct 15, 2026 (build 3.0.7); name unverified; could also be a re-skin [Unverified]",
+   "look": "HUD icon only: long dark-navy rifle (~#2A3C56) with a pale stripe (~#C2CBEA), black box muzzle, a light-blue capped-bottle scope (~#96C6E0), black grip, a cream block with two dots, a big dark-red oval stock (~#8E0C1E) [Observed, HKbwq7PolNc maxres2]",
+   "firing_and_projectile": "Not observed; HUD ammo 2/4 [Observed]",
+   "impact_end_result": "Not observed [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "New 2026 Astoria weapon B (unnamed)",
+   "owner": "Astoria (Sniper)",
+   "slot": "unknown",
+   "status": "Fan claim of 'two new weapons for Astoria' (InstableGR); SkyVu only says 'a couple of surprises' [Canon]",
+   "look": "No image found [Unverified]",
+   "firing_and_projectile": "Unknown",
+   "impact_end_result": "Unknown",
+   "confidence": "unknown"
+  },
+  {
+   "weapon": "Art of War",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBG 2.11 (Aug 27, 2014); in the Aug 2026 beta, build 3.0.0, with a 4-round clip [Observed, B-8uQcs1DFA]",
+   "look": "Red barrel with gold characters, black and yellow receiver, grey paint hopper, brush tip (2026 HUD icon) [Observed]",
+   "firing_and_projectile": "Manual aim, no lock; one long thin straight rainbow-banded beam: magenta #F122CC, violet #A829F4, blue #305AEA, sky #35AFFF, cyan #39F2ED, green #58F75C, yellow #F8F41F, orange #F8680F, red #DC211C [Observed, rnbGzc0Gm0g 2016]",
+   "impact_end_result": "Small white-lavender starburst plus a pink blob at contact; a few red, green, blue and violet flecks on the target (low-res) [Observed; that they are paint is Inference]; wiki: 'merely cosmetic' paint flurry",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Blow Dart",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBG 2.6 (Dec 20, 2013); seen in 2022 and 2023 fan footage; 2026 unverified",
+   "look": "Copper tube with a pink chevron and stripe, purple bands, angular pink-lipped muzzle (HUD icon) [Observed]",
+   "firing_and_projectile": "Manual aim; thin pale cream-yellow straight streak (~#FDFBDF) [Observed low-res; attribution Inference]; the dart itself unresolved",
+   "impact_end_result": "White blade-like shard starburst plus a large pale-cyan dome (~#B3E4E1/#BAFEFC) with the victim flung into the air [Observed; that it is the Blow Dart is Inference, strong]; 6 s fuse per wiki",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Crossbow (Unicorn Crossbow 2.0), charged shot",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBG 2.2 (Aug 21, 2013); 100-round clip pre-2.6, 15 in 2023\u201324 HUD [Observed]",
+   "look": "White unicorn-head crossbow with a lavender horn [Observed]",
+   "firing_and_projectile": "Thin lavender line; while charging, a glittery pink-violet aura plus pink and white star sparkles at the muzzle [Observed; that it is the charge is Inference]",
+   "impact_end_result": "Charged AoE burst not observed [Unverified]; wiki: AoE, can self-kill",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Capital Pains",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBR 1.3 \u2192 BBG; red mode later removed (date unknown); 2026 unverified",
+   "look": "HUD icon stays a green \u20ac-zig-zag even in red-mode videos [Observed]",
+   "firing_and_projectile": "Lock-on; red mode: a thin vertical red streak flecked with white (low-res) [Observed; attribution Inference]; red-mode clip x/5 (2013) [Observed]",
+   "impact_end_result": "Not observed [Unverified]; white-lock hit is a headshot kill [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Mamba's Boy",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBR 1.3.1 \u2192 BBG; 2026 unverified",
+   "look": "Lime snake rifle with an open snake-head muzzle; a thin red sight line from the mouth [Observed, 2018]",
+   "firing_and_projectile": "Lock-on; mint-green tracer, thin (2013) or flat and blade-like, tapering from the muzzle (2018), ~#55CD8D to #00FA64 [Observed]",
+   "impact_end_result": "Small lime-green spark puff at the hit point [Observed, one frame]; white-lock headshot kill [Fan-wiki]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Fidget Boomer",
+   "owner": "Astoria (Sniper)",
+   "slot": "primary",
+   "status": "BBG 2.27 (May 29, 2017); 2026 unverified",
+   "look": "Dusty-pink chrome three-lobed spinner held overhead by one lobe; HUD clips 3/3 (2017) and 2/2 (2018) [Observed]",
+   "firing_and_projectile": "Thrown spinner [Inference]; not observed",
+   "impact_end_result": "Explosion not observed [Unverified]; wiki: short delay then blast 'akin to the TNT Launcher'",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Rake",
+   "owner": "Astoria (Sniper)",
+   "slot": "secondary",
+   "status": "In BBG by Jan 2014; in the Aug 2026 beta (HUD icon match, health 94 = 90 \u00d7 1.05) [Observed; Inference]",
+   "look": "Dark-grey square head with five turquoise teeth on a grey handle, held up one-handed; ammo 6/10 [Observed, 2023]",
+   "firing_and_projectile": "Placed trap (wiki); not observed",
+   "impact_end_result": "Spring-up not observed [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "I Lava You / I Lava U",
+   "owner": "Astoria (Sniper)",
+   "slot": "secondary",
+   "status": "BBG 2.51 (Apr 13, 2018); 2026 unverified",
+   "look": "Long dark lava-textured rifle with red glow and grey scope (2022 HUD icon, consistent with wiki art) [Observed; ID Inference]",
+   "firing_and_projectile": "Straight-flying proximity mines (wiki); not observed",
+   "impact_end_result": "Not observed [Unverified]",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "BB Heroes Sniper Rifle",
+   "owner": "Astoria (BBH)",
+   "slot": "main attack (BBH, not BBG)",
+   "status": "BBH, Astoria added May 2023",
+   "look": "Varies by skin [Inference]: Viperifle-like (green capsule, snake muzzle) with a Solid-Fisher-like helmet; Art-of-War-style paint rifle (official key art; 2025 lobby); white unicorn-head weapon in the official lineup; pink fish gun with James Pond - Red [Observed]",
+   "firing_and_projectile": "Long thin mint-aqua tracer (~#89E6D4/#7BF0C4, core #3BF089), seen top-down [Observed, fan 2023]",
+   "impact_end_result": "Not observed",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Explosive Retreat (BBH Ultimate)",
+   "owner": "Astoria (BBH)",
+   "slot": "Ultimate (BBH, not BBG)",
+   "status": "BBH only [Canon text]",
+   "look": "No frame found in official or fan material [Unverified]",
+   "firing_and_projectile": "'diving away from the action when enemies get too close' [Canon]",
+   "impact_end_result": "Wiki '4 x 670' damage [Fan-wiki]; look undocumented",
+   "confidence": "documented"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "- **Weapons/props:** a sniper rifle [Canon] (BBG default: the Viperifle [Fan-wiki] ([Sniper (BBG)][sniper])); the Tomahawk, \"Unleash a terrified and angry hawk that temporarily blinds any player it hits!\" [Game text via wiki] ([link][tomahawk]); the Battering Ram ram-skull club, \"a weapon of last resort\" [Game text via wiki] ([link][ram]). Draw the hawk as an angry-bird gag, with no cultural styling [BBG News invention].",
+   "correction": "After the main dossier's item 8 (add the Dead Eye and Fairy's Dust), append: \"2026 build: fan beta footage (Aug 2, 2026, build 3.0.0) shows the Art of War (a brush-tipped paintball rifle that fires a thin rainbow beam) and the Rake equipped [Observed, fan video B-8uQcs1DFA]. The Oct 15, 2026 final playtest added 'two new weapons for Astoria' [fan claim, InstableGR]; SkyVu only promised 'a couple of surprises' [Canon]. One appears only as a HUD icon (a navy rifle with a light-blue bottle-shaped scope and a red oval stock); neither is named [Unverified].\"",
+   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-gaps/crops2/icon_compare.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-gaps/crops2/rake_icon_compare.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-gaps/thumbs/aow_B-8uQcs1DFA_maxres2.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-gaps/thumbs/gap1_HKbwq7PolNc_maxres2.jpg; the official ZMhLVXWT6OY description and the Steam post of Oct 14, 2026 ('a couple of surprises'); the InstableGR HKbwq7PolNc description."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "\"Up close, she's vulnerable but compensates with her 'Explosive Retreat' Ultimate, diving away from the action\" [Canon] ([characters][chars]).",
+   "correction": "Keep the quote and tag it BBH. Add: \"Its look is undocumented: no official BBH tour, trailer or store screenshot and no fan BBH frame shows it [Unverified], so any dive or blast design is [BBG News invention].\" The main dossier's item 9 (swap the BBH beats on lines 68 and 76 for Fairy's Dust or the Tomahawk, or label them BBH) still applies.",
+   "evidence": "Auto-frames of the official o0qNL2DHufw, ihkXJS4Oatk, ISutMIXTUc8 and b6K9Z9mVskU; the 15 Google Play BBH screenshots (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-gaps/crops2/gp_sheet_0.jpg and gp_sheet_1.jpg); the fan BBH Astoria videos ugDSh4yIMiI, R8MqgiIcJ8Q, sxXRsKt649A and E5vWKwOhc8k. None shows the move."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
+   "current_text": "- What default skin, taunts and audio does the 2026 build use? The [Astoria Overhaul][overhaul] and [2026 showcase][showcase] videos haven't been viewed.",
+   "correction": "Keep it, and add a new open question: \"What are the two new Astoria weapons from the Oct 15, 2026 final playtest called, and what do they fire? One is seen only as a HUD icon (navy rifle, light-blue bottle scope, red oval stock, 4-round clip) in InstableGR's HKbwq7PolNc.\"",
+   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-gaps/thumbs/gap1_HKbwq7PolNc_maxres2.jpg; the official live-chat replay of ZMhLVXWT6OY, where '@bold3703: Did Astoria get two new weapons' (18:55) has no written answer; the wiki has no new page (recent changes Oct 10\u201317 empty)."
+  }
+ ],
+ "open_questions": [
+  "What are the names, slots, firing modes and impacts of the two new Astoria weapons from the Oct 15, 2026 final playtest? Is the navy bottle-scope rifle (HUD ammo x/4, HKbwq7PolNc auto-frame maxres2) one of them, or a 2026 re-skin? A human viewer could check HKbwq7PolNc Matches 2, 3 and 9 (5:14, 9:24, 35:30), JustNubz 1MP1rFi4t-Q, and the official ZMhLVXWT6OY stream around 18:55 for Ben Vu's spoken answer.",
+  "Will the Steam Next Fest demo (Oct 19\u201321, 2026) or SkyVu's scheduled 'Steam Next Fest Demo Party with BBG Devs' stream (Sf01OOF_X3Q, Oct 19) show or name the new weapons?",
+  "Still unseen and needing a human viewer of the fan videos: the charged Crossbow burst, the Fidget Boomer blast, the I Lava U mines and blasts, the Rake spring-up, and the Capital Pains hit.",
+  "Are the white blade-shard starburst and the pale-cyan dome definitely the Blow Dart detonation? A frame-accurate look at A_1aki1oFTg or kaV9iJ0gttc would settle it.",
+  "What does the BBH 'Explosive Retreat' look like? Is the BBH rifle model tied to each skin: Viperifle-like with the Solid-Fisher-like helmet, Art-of-War-like with James Pond and the black-cap look, a fish gun with James Pond - Red?",
+  "Why do 2026 HUD clip sizes differ from the pre-2021 wiki infoboxes (Art of War 4 vs 3), when BBG 3.0 removed the +1 equipment except Speed?",
+  "Is the Assassino-style red jacket Astoria's default in build 3.0.7, or a skin chosen by that player?"
+ ]
+}

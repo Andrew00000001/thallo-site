@@ -1,0 +1,148 @@
+{
+ "quickref": [
+  {
+   "weapon": "Sake Bomb",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary",
+   "status": "BBR v1.3.2 (2012), 4-round lob. Became ~20 rounds (28 with gear) after SkyVu's Apr 25, 2014 Oliver Overhaul, through at least Aug 2018. Back to 4 by Jun 2021. 2026 unconfirmed.",
+   "look": "Squat Daruma jug: white face, black brows, dark neck, tan rope loop. From behind: dark-maroon faceted body (~#66181A) with yellow-outlined red-orange flame decals (~#EC4727) and a round emblem. About 0.3x a bear.",
+   "firing_and_projectile": "Lob era: non-damaging arcing shot (wiki); never seen in flight. 2014-18 version: a cream splash crown (~#DFD7BE) spurts from the neck with white droplets (DxHcbyg9oPg).",
+   "impact_end_result": "Chunky cream puffs (~#D5BBAD) and white ovals engulf the target. A glossy lime '?' with a separate dot (~#51A406-#61E51A) floats over victims, including the thrower. Controls reversed 4 s, music cut. 2018: white puffs and flat white splats. 2021: lime spike splash (~#9AFE31), attribution inferred. No damage.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Solar Wind Scar",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary",
+   "status": "BBG v2.11 (Aug 27, 2014), Gas item. HUD x/1 in 2014-2016. 2026 unconfirmed.",
+   "look": "Long silver blade held upright in the right hand, rising above the head (~1.0-1.2x), dark-and-gold/orange hilt. HUD icon: sword with gold-orange guard.",
+   "firing_and_projectile": "One swing launches a long, thin, tapered, slightly curved flame-textured orange crescent (~#EB7F0D, core #F69520) that flies straight. Wiki: passes through walls (not observed).",
+   "impact_end_result": "Struck bears get a yellow disc (~#FBCC0B) with six black spokes and a black centre over the head (radiation stage icon), plus Geiger clicks; 100 RP = explosion (wiki). The 'dark, circular radiation belt' is unseen.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Steamshot",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary",
+   "status": "BBR v1.3.1 week 1 (2012), 30 Gas. Fan-titled in 2026 (9nA-OaYAVzU) but not visible there.",
+   "look": "Brass steampunk shotgun: green glass dome in a brass cage, two copper stacks with green gems, silver rod barrel, gold honeycomb muzzle disc (2018 demo render).",
+   "firing_and_projectile": "Wiki: 'a quick spread of damaging green steam'. No frame shows it firing: sDVr1PqEHC4, _JeiI0KrSbA and 9nA-OaYAVzU frames show other weapons.",
+   "impact_end_result": "Unknown. The steam colour (green vs white) is unverified.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Bearzooka (BBG)",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary (default)",
+   "status": "Default since BBR v1.0. HUD 1 (2013), 3 (Mar 2014), 4 (Aug 2014; Jul 2015 with Ammo +2). Named on Steam 2026 and seen in the 2026 trailer.",
+   "look": "Coral hex shoulder tube with glowing orange panels and grey hex collars. The muzzle end has a pink hex cap around a dark bore, with a grey-coral checker band right behind the cap. About 0.7x long.",
+   "firing_and_projectile": "Launch: a burst of round grey smoke puffs and a dotted grey puff trail (2015). 2026 trailer rocket: grey hex nose, glowing orange panels (~#FFAF0E), red-studded rear collar, spiky orange flame tail (Bearzooka link inferred).",
+   "impact_end_result": "2026 trailer: a faceted orange-yellow, white-edged blast, then a soft yellow fireball (~#FFE01E) that flings the target upward (cause inferred). 2015: grey puff cloud downrange. Self-damage documented ('very prone to suicide').",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Minigun (Soldier)",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary",
+   "status": "BBG v2.11 (Aug 27, 2014), 45 Gas. HUD x/130 in 2014 vs wiki 80 (100 max with gear); 100/100 in 2016. Nerfed after release.",
+   "look": "Dark gunmetal three-barrel gun (HUD icon dark green). Not clearly seen in third person in these frames.",
+   "firing_and_projectile": "Thin white-cream tracer streaks from gun to target.",
+   "impact_end_result": "Big cream-white starburst (core ~#FAF4DA) with long pale-peach rays (~#F4CF9E) swallowing the target. The magenta arcs seen around the gun are the Bearscream Sandwich buff, not the weapon.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Sci-Fi HASR",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary",
+   "status": "BBR v1.3.1 week 2 (2012), level 15. HUD 50 (2013), 80 (Jan 2014), 30 (Aug 2014), 60 (2016).",
+   "look": "Silver-white HASR retexture with a dark gunmetal ring loop.",
+   "firing_and_projectile": "Soft magenta muzzle glow (~#F43AD2); small magenta dots/bolts in flight (bolt reading inferred). 2026 Sci-Fi ASR also fires magenta orbs.",
+   "impact_end_result": "Magenta-pink orb burst with white core (~#FE7CFC) on the struck bear (2016). Yellow stars and bars in Jan 2014. 'Button' function undocumented.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Heavy A Salt Rifle (HASR)",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary",
+   "status": "Original BBR v1.0 primary, 110,000 J. HUD 60/60 in Nov 2017 (matches wiki). A 2021 ring-rifle at x/50 has an uncertain identity.",
+   "look": "Olive/salmon AK-style rifle with a large red-grey ring loop (HUD icon salmon with red ring).",
+   "firing_and_projectile": "Tiny white-yellow sparkle flecks at the muzzle (2017); no tracer seen.",
+   "impact_end_result": "No attributable hit frame (2021 magenta flashes are confounded by a magenta-firing enemy).",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Soaker",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary",
+   "status": "Original BBR v1.0 primary, 60,000 J, level 10. HUD 80/80 in Jan 2014 (60 + Ammo +2).",
+   "look": "Super-Soaker-style water gun with yellow tanks. The 'yellow droplets' in fjBn5OQZfyE are most likely its yellow tank parts.",
+   "firing_and_projectile": "Stream never seen in frames.",
+   "impact_end_result": "Unattributed red-orange spark bursts on a wall box in a Urine/Soaker clip; unknown.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Spreadshot (BBG)",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary",
+   "status": "Original BBR v1.0 secondary, 35,000 J. HUD 4 (2013 and Mar 2014), 3 (Apr 2014 overhaul). Reworked to rapid fire in 2021 (0/20 HUD; fan description).",
+   "look": "Pink six-hex-tube muzzle ring, sage-green hex chamber, pink bulb rear, curled pink hose; unchanged in 2021.",
+   "firing_and_projectile": "Pellets never seen. 2021 version is rapid fire with a 20-round magazine.",
+   "impact_end_result": "Unknown.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Kumakiri",
+   "owner": "Oliver (Soldier)",
+   "slot": "Melee",
+   "status": "BBR v1.3.2 (2012), 75,000 J, level 30. In-game model confirmed in the Jun 2013 v2.0 loadout.",
+   "look": "Long, slightly curved silver katana with a wavy edge line, black guard, gold collar, dark hilt, held upright one-handed at about bear height.",
+   "firing_and_projectile": "Melee; overhead downward slash (wiki).",
+   "impact_end_result": "Not seen; use shared melee stars (inference).",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
+   "correction": "In BBG the Bearzooka is a coral hexagonal shoulder tube with glowing orange panels and grey hex collars. Its wide muzzle end has a pink hex cap around a dark bore, with a grey-and-coral checker band right behind the cap. It fires with a burst of round grey smoke puffs [Observed]. The 2026 trailer shows a grey hex rocket with glowing orange panels and a spiky orange flame tail [Observed; that it is the Bearzooka's is Inference]. The green hazard-striped tube is the BB Zombies design.",
+   "evidence": "0ZbJ0-Za5Ws in-game render, crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-gaps/crops/bz_0ZbJ_muzzle.jpg; G1Z5XxhF6CU sd2 (Jun 2013 loadout); 0ZbJ0-Za5Ws maxres3 (grey puff launch); official trailer frames dl/oliver-gaps/tr_frames/r_017-r_019 (2.87-3.00 s); File:Bear.jpg (BBZ) per the verified dossier."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "He holds a chunky assault rifle and carries a green hazard-striped launcher tube on his back.",
+   "correction": "He holds the A Salt Rifle and shoulders the Bearzooka: a coral hexagonal tube with glowing orange panels, a pink hex muzzle cap with a dark bore and a grey-coral checker band just behind it.",
+   "evidence": "Same as above. The checker band sits at the muzzle end in the 2015 render (crops/bz_0ZbJ_muzzle.jpg)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "1. Bearzooka recoil blasts him through a wall. He comes back sooty: \"Meant to do that.\"",
+   "correction": "No recoil is documented. Re-ground the gag in self-damage ('The user is very prone to suicide while using the Bearzooka.' [Fan-wiki]) and use the observed visuals: grey puff trail, hex rocket with spiky orange tail, soft yellow fireball. The beat stays a [BBG News invention].",
+   "evidence": "Wiki Bearzooka (BBG) page (re-fetched Oct 17, 2026); 0ZbJ0-Za5Ws maxres3; trailer frames r_014-r_019 (crops/tr_blast_strip.jpg, tr_rocket_019.jpg)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "He also has an improvised katana [Canon, channel unconfirmed]",
+   "correction": "Add the BBG version: the Kumakiri melee (BBR v1.3.2, level 30; 'It's baaack!' [Game text via wiki]). In game it is a long, slightly curved silver katana with a wavy edge line, black guard, gold collar and dark hilt, held upright one-handed at about his own height [Observed].",
+   "evidence": "G1Z5XxhF6CU sddefault (Jun 28, 2013 loadout, '2.0'), crop dl/oliver-gaps/crops/G1Z5_def.jpg; Kumakiri icon in the melee slot of File:A_life_upside_down.jpg (Apr 2013)."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "The [2026 showcase](https://www.youtube.com/watch?v=-lAtv-j9Sms) and [Oliver Overhaul](https://www.youtube.com/watch?v=9qYIIH8NV-4) videos have not been viewed.",
+   "correction": "Keep 'not viewed' (transcripts and storyboards are blocked) and add: SkyVu's Apr 25, 2014 description reads 'This week, Oliver receives the first overhaul! Trevor explains in detail all of the changes made to this elite Solider class.' [Canon]. Fan footage dated Apr 26-29, 2014 shows the Sake Bomb as a ~20-round sprayer right after it [Observed].",
+   "evidence": "youtubei /next metadata for 9qYIIH8NV-4; HUD 20/20 in ucPTtnEjLbk sd1 (Apr 26, 2014) and 13/28 and 28/28 in DxHcbyg9oPg (Apr 29, 2014), crops/ucPT_sd1_hud.jpg and crops/DxHc_def_hud.jpg."
+  }
+ ],
+ "open_questions": [
+  "What exactly did SkyVu's Apr 25, 2014 Oliver Overhaul change? Frames suggest: Sake Bomb ~20 rounds, Sci-Fi HASR x/30, Spreadshot x/3, Bearzooka 3-4. The video transcript and forum changelog are unreachable here.",
+  "When did the Sake Bomb return to a 4-round lob (between Aug 2018 and Jun 2021)? Which version ships in 2026?",
+  "In the lob version of the Sake Bomb, what flies? Does the jug itself sail through the air? Is the 2021 lime-green spike splash (L0REouUo-68) its landing effect?",
+  "What does the Solar Wind Scar's 'dark, circular radiation belt' look like? Does the crescent visibly pass through walls? What is the straight lime line in cKOHCD5LBN8?",
+  "Is the Steamshot's steam green (wiki) or white? No frame anywhere shows it firing.",
+  "What do the Soaker's stream and the Spreadshot's pellets look like? Does 2026 use the classic Spreadshot or the 2021 rapid-fire one?",
+  "What are the 2026 stats for the Minigun (130 / 100 / wiki 80) and the Sci-Fi HASR (50 / 80 / 30 / 60)?",
+  "Is the hex rocket at 2.87-3.00 s in the 2026 trailer really a Bearzooka rocket?",
+  "What does a Kumakiri hit look like, and is its modifier +10% or -10% health?",
+  "Does the Bearscream Sandwich double or triple damage (wiki conflict), and does it still show magenta arcs in 2026?"
+ ]
+}

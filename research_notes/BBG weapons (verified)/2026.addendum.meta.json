@@ -1,0 +1,134 @@
+{
+ "quickref": [
+  {
+   "weapon": "2026 playtest uploads (sub-topic)",
+   "owner": "All classes",
+   "slot": "sub-topic",
+   "status": "28 fan uploads (Jul 9-Oct 17, 2026) catalogued with titles, dates, run times and chapters. Builds: PT1 2.54.0, PT2 3.0.0 (inferred), PT3 3.0.2, PT4 3.0.5_2026.11.19_b1 (or _01), PT5 3.0.7_2026.11.19_b7. The second stamp line is a per-account number.",
+   "look": "n/a",
+   "firing_and_projectile": "Chapters name maps, modes and characters only, never weapons. Automatic thumbnails (now also at 1280x720 as maxres1-3) are not at fixed 25/50/75% points.",
+   "impact_end_result": "No 2026 frame shows the Hazard Toy, Energy Overflow or Rake. Per-class chapter timestamps (B-1000, Botch, Astoria, Oliver) are listed for a watcher to check.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Hazard Toy",
+   "owner": "Botch (Assassin)",
+   "slot": "Primary (explosives)",
+   "status": "BBG 2.27 (May 29, 2017). Wiki stats edited 2026-09-18 (35-50 to 25-50 explosives, 5 to 4 damage) with no source, two days before PT4. Not seen in any 2026 frame.",
+   "look": "Translucent bottle-green three-bladed fidget spinner (blades about #1F4D21, edges #42A731) with a concentric-ring hub (#1D2A20/#215825), about Botch's head wide (~0.5x Oliver). HUD icon: dark-green trefoil with a lime ring centre.",
+   "firing_and_projectile": "Straight, fast thrown spinner: 1,100 u/s, 3 ammo, 1.5 s, 3.5 s reload (wiki). Seen skimming low along floors in 2018 and 2024 frames.",
+   "impact_end_result": "Explodes on contact (25-50) and poisons in the radius, stacking across clouds (wiki). Dark-purple puff clouds where it landed plus a purple/green skull status icon overhead (2018 frame; cloud attribution inferred).",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Energy Overflow",
+   "owner": "B-1000 (Assault)",
+   "slot": "Primary (chargeable energy shotgun)",
+   "status": "BBG 2.3 (image Sep 28, 2013). Wiki 'Charge Time 3' added 2026-09-20 05:17 UTC, before PT4, with no source. Not seen in 2026; the only 2026 B-1000 HUD reads 0/1 (probably the Bearail Gun).",
+   "look": "Short wide forearm cylinder: white panels (#DED6CF) framed in orange (#A85E1A), a dark hex muzzle with a grey rim, a ring of cyan lights (#30BED3). Opens three white fins with cyan panels in play. About 0.5x Oliver long.",
+   "firing_and_projectile": "Two uncharged shots (45) or one charged blast (140); while charging, particles converge on the barrel, and at full charge orbs of light appear at the tip (wiki). Short yellow-gold streaks and a yellow floor glow in a 2014 frame.",
+   "impact_end_result": "No AoE (wiki). A yellow-white burst with spark rays on the target (2013 frame).",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Rake",
+   "owner": "Astoria (Sniper)",
+   "slot": "Secondary (deployed trap)",
+   "status": "In BBG by Jan 2014. Held at 6/10 in a 2023 match (build 2.53.6). Wiki 'Rakes can be removed by explosives' added 2026-09-23 with no source. Not seen in 2026 frames.",
+   "look": "Dark-grey riveted rectangular head (#43474A / #3F494B) with five flat turquoise teeth (#32E3B5 / #35E6B6) on a long dark-grey handle. The head is about the wielder's head width; the whole rake is about 0.8x Oliver.",
+   "firing_and_projectile": "Placed on the ground; single use, stackable; can be triggered by shooting it or by reloading; 10 ammo, 1 s reload (wiki).",
+   "impact_end_result": "Springs up on whoever steps on it for 110 damage; removed by explosives; can self-kill (wiki). The spring-up has never been observed.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "A Salt Rifle",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary (default)",
+   "status": "Named on the 2026 Steam page [Canon]. In 2026 tutorials (70/70 at 2.54.0, 53/70 at 3.0.5) and a PT4 match (40/40 = 25 + Ammo+2), paired with the Bearzooka.",
+   "look": "2026 HUD icon: grey-green rifle with maroon-red panels (#683231-#873742), a thin silver barrel, and a white salt shaker (#CFDFDE-#ECF3F9) on a ribbed sleeve on top. Pale sage-grey in hand (#7C8E7A). About 0.6x Oliver.",
+   "firing_and_projectile": "Automatic, damage 6, 0.15 s, 25 ammo, 3.0 s reload (wiki). 2026 frame: white-grey muzzle puff with white sparks. Tracer not distinguishable.",
+   "impact_end_result": "A spiky yellow starburst (#F4E04B) with long rays on the struck enemy in the same 2026 frame (attribution inferred). No status effect.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Sci-Fi ASR",
+   "owner": "Oliver (Soldier)",
+   "slot": "Primary",
+   "status": "BBR 1.3.1 (2012). It is the 25-round rifle in [LA]Huggable's final-playtest Oliver games and in droid BBG's PT4 videos (HUD icon match).",
+   "look": "Silver-grey rifle, five barrel holes (three over two), a tilted canister with glowing red-orange slits on top, dark teal tip. Held at chest height.",
+   "firing_and_projectile": "Automatic, damage 5, 0.15 s, 25 ammo (40 with Ammo+2), 2.0 s reload (wiki). Round magenta-pink muzzle bloom (#EC30F8) every burst; a small white-hot bolt.",
+   "impact_end_result": "Magenta-pink flashes (#D534EE) on the struck target. No status effect.",
+   "confidence": "observed"
+  },
+  {
+   "weapon": "Bearzooka",
+   "owner": "Oliver (Soldier)",
+   "slot": "Secondary (default)",
+   "status": "Named on the 2026 Steam page [Canon]. Held at 1/1 in the 2.54.0 tutorial (Jul 9, 2026); second weapon in a PT4 loadout (HUD icon).",
+   "look": "Coral-red hexagonal tube (#AF5860 in dim light) with glowing orange-gold chevron panels (#CF7F3A-#FCA74C), a grey checker band at the flared muzzle, and a bolted round rear plate. Held under the arm. About 0.7x Oliver. NOT green or hazard-striped.",
+   "firing_and_projectile": "1 rocket, 1.5 s, 2.5 s reload, 1,000 u/s (wiki). Rocket model and trail unseen in any build; the 2026 red checker-band rocket with white smoke is Tillman's.",
+   "impact_end_result": "Explosives 40-60, AoE 125/250, easy to kill yourself (wiki). Unattributed 2026 explosions are pale-yellow translucent faceted blasts (#FAFFB0); using that style is an inference.",
+   "confidence": "partial"
+  },
+  {
+   "weapon": "Blue lightning-bolt tokens (sub-topic)",
+   "owner": "Shared pickup",
+   "slot": "sub-topic",
+   "status": "Seen in 2023 (2.53.6) and 2026 (3.0.5, 3.0.7) footage.",
+   "look": "Blue bolt (#478CD2) with a white rim on a dark-maroon hexagonal prism (#3F2523); the same design as the Joules currency icon.",
+   "firing_and_projectile": "n/a",
+   "impact_end_result": "Lie or float where players died. Whether they are Joule drops or Kill Confirmed tags is unverified.",
+   "confidence": "partial"
+  }
+ ],
+ "soul_corrections": [
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
+   "correction": "In BBG, including the 2026 build, the Bearzooka is a coral-red hexagonal tube with glowing orange-gold chevron panels, grey collars, a flared muzzle with a grey checker band and a bolted round rear plate [Observed]. The green hazard-striped tube is the 2009 BB Zombies design.",
+   "evidence": "2026 tutorial frame https://i.ytimg.com/vi/-RSuAlfOUow/maxres3.jpg (build 2.54.0; crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-gaps/crops/RS_m3_bz.jpg); PT4 HUD icon in https://i.ytimg.com/vi/DAchqX_mi6Y/maxres3.jpg; wiki File:Photo_19-04-13_12_02_26_PM.png [Observed]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "Green-and-dark-grey shoulder harness, small green backpack, no clothing. He holds a chunky assault rifle and carries a green hazard-striped launcher tube on his back.",
+   "correction": "Red headband (blue on the blue team), a brass-bullet bandolier across the chest, red wrist and knee bands, and a pale lavender-grey backpack. He holds the A Salt Rifle (a sage-grey rifle with maroon-red panels, a thin silver barrel and a white salt shaker on top) and carries the Bearzooka (a coral-red hex tube with glowing orange chevron panels).",
+   "evidence": "2026 default-Oliver frames [Observed]: https://i.ytimg.com/vi/EQwloJnrOko/maxres3.jpg (red headband, gold bandolier, white backpack with red spots); https://i.ytimg.com/vi/lgd9Gqw6ahA/maxres1.jpg and -RSuAlfOUow (red headband); https://i.ytimg.com/vi/DAchqX_mi6Y/maxres1.jpg and maxres3.jpg (blue headband, gold bandolier, ASR + Bearzooka HUD icons); https://i.ytimg.com/vi/MhJakRqd9ew/maxres3.jpg (blue headband, lavender backpack); wiki File:Oliver3d.png."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "pants or shirts, blue headband, gold or engraved skin,",
+   "correction": "Remove 'blue headband' from the negative prompt. The default Oliver wears a blue headband in several 2026 matches, probably the team colour.",
+   "evidence": "https://i.ytimg.com/vi/DAchqX_mi6Y/maxres1.jpg, maxres3.jpg and https://i.ytimg.com/vi/MhJakRqd9ew/maxres3.jpg show the default brown Oliver with a blue headband and the gold bandolier [Observed]; the team-colour link is [Inference]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
+   "current_text": "Oliver, a chunky low-poly brown teddy-bear soldier in a green-and-grey harness,",
+   "correction": "Oliver, a chunky low-poly brown teddy-bear soldier with a red headband and a brass-bullet bandolier,",
+   "evidence": "Same 2026 frames as the reference-prompt correction (EQwloJnrOko maxres3, lgd9Gqw6ahA maxres1, DAchqX_mi6Y maxres3); no green harness appears in any 2026 frame [Observed]."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "extras include Orbs, Fear Orbit, Cosmic Bomb, Gravity Well and Toxic Plague [Fan-wiki]",
+   "correction": "Add: 'and the Hazard Toy (BBG 2.27, 2017), a translucent green three-bladed fidget spinner that explodes into poison clouds [Fan-wiki; Observed]'. 2026 presence is [Unverified].",
+   "evidence": "https://battlebears.fandom.com/wiki/Hazard_Toy infobox 'Class: Assassin' [Fan-wiki]; File:HazardToy.jpeg (2017) and https://i.ytimg.com/vi/3jvibvJFq44/maxres1.jpg (2018) [Observed]. This is an omission, not an error."
+  },
+  {
+   "file": "/home/user/thallo-site/bbg-news-repo/characters/botch.md",
+   "current_text": "skull (outside Dry Bones), brown, purple or pink fur (outside named skins), guns, logos, text, hazard symbols,",
+   "correction": "For any Hazard Toy or poison shot, drop 'skull' and 'hazard symbols' from the negative prompt. Poisoned players show a purple/green skull overhead, and the Hazard Toy's HUD icon is trefoil-shaped. Keep both terms for plain character sheets.",
+   "evidence": "Status Effects page: 'a purple/green skull will appear over the player's head' [Fan-wiki]; https://i.ytimg.com/vi/3jvibvJFq44/maxres1.jpg and maxres3.jpg (trefoil HUD icon, purple and green skull icons) [Observed]."
+  }
+ ],
+ "open_questions": [
+  "Are the Energy Overflow, Hazard Toy and Rake in the 2026 store or loadouts? Watch the JustNubz showcase -lAtv-j9Sms (Assault 0:00, Sniper 22:30, Assassin 39:57) and InstableGR HKbwq7PolNc Matches 2, 3, 5, 6, 9, 12, 14 and aujTcdFuxdE Matches 3, 5, 8 with normal YouTube access.",
+  "Where did Alphabbr's Sept 18-23, 2026 wiki edits come from (Hazard Toy 25-50/4, Energy Overflow 'Charge Time 3', Rake 'removed by explosives')? The first two predate PT4.",
+  "What are the 'two new weapons for Astoria' (InstableGR, final test)? Is the navy-barrelled rifle with a water-bottle scope and red rear bulb (HKbwq7PolNc maxres2, 2/4) one of them?",
+  "What do the Bearzooka's rocket model, trail and explosion look like in 2026? Is the pale-yellow faceted blast the shared explosion style?",
+  "Does the A Salt Rifle show a tracer, and is the spiky yellow starburst its own hit effect or a generic one?",
+  "Is magenta specific to the Sci-Fi rifles, or a broader 2026 VFX convention (Riggs's minigun and several Huggable shots are also magenta)?",
+  "Are the blue bolt tokens on dark-maroon hexagons Joule drops, Kill Confirmed tags, or both?",
+  "What does '2026.11.19' in the PT4 and PT5 build strings mean?",
+  "Was PT4 on iOS too (Vada Zora's 'iPad Gameplay!' title)?",
+  "Is the Sake Bomb's white milky splash (pR3AHrKj3ng maxresdefault) the launch or the impact? This is a lead for the Oliver dossier."
+ ]
+}
