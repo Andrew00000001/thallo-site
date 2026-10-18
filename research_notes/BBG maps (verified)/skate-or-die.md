@@ -119,7 +119,7 @@ My evidence folder is /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a
   - The final playtest (Oct 15, 2026) lists "Lighting improvements" [Canon], so the final 2026 lighting may differ from 2013 and from the playtest thumbnails [Inference].
 - **The Steam trailer's Skate or Die shot:**
   - The trailer ("Battle Bears Gold Premium - Trailer") shows the map HUD-free from ≈46.0 to 47.2 s. It cross-fades in from Aztec Attack (≈45.25–45.9 s) and out to Sky View (≈47.3–47.6 s) [Observed: my frames].
-  - The same overhead footage appears in the 2025 short (oar3) [Observed]. Earlier work found that this trailer reuses 2013 character cards [per the Gold Digger draft], so this is probably 2013-era capture [Inference].
+  - The same overhead footage appears in the 2025 short (oar3) [Observed]. The trailer's class cards are pixel-identical to SkyVu's May 30, 2013 trailer (rfAyqVJrli4), and its gameplay matches that trailer's 160×90 YouTube storyboard at a constant offset of about 4 s, this shot included (2013 50–51 s = Steam 45.95–46.95 s) [Observed, storyboard size: maps overview, section 0, item 1; side by side in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps_ed_r2/pairs.jpg]. So this is 2013 footage [Inference, strong].
 - **Battle Bears Heroes (2024):** no evidence that it appears there. The wiki's BBH page does not mention it [Fan-wiki, checked; Unverified].
 
 ## Setting
@@ -423,15 +423,15 @@ Every element is observed in official 2013 footage, the wiki screenshots or 2026
      - ≈49.5–51.5 s is a space station, Shortest Parsec per that map's dossier (the yellow-orange cube blast with a white shock ring, ≈50.5 s).
      - ≈51.9–54 s is Gold Digger (the vertical yellow-orange cone ≈52.5 s, then the orange octagonal ring shockwaves).
    - **Evidence:** my frames /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/skate_or_die_verify/frames/f_001–f_050.png (44.0–48.9 s) and frames2/g_001–g_048.png (42–54 s), sheet crops/sheet_42_54.png; provided t_0095.jpg (47.0 s, golden dome at the black box). The first draft's version of this correction left out the Shortest Parsec segment.
-2. **`bbg-news-repo/characters/wil.md`, line 53**
+2. **`bbg-news-repo/characters/wil.md`, "Look (for animation)", the "ABBi, by era" bullet (formerly line 53).** Applied: it now has a "BBG, in a map (Skate or Die)" sub-bullet.
    - **Current text:** "- **ABBi:** a single camera eye [Fan-wiki] ([ABBi][wabbi]); probably the Zero teaser's one-eyed, minigun-armed unit [Observed; Inference]."
    - **Correction:** add the in-game BBG depiction. Skate or Die has a giant round camera eye set into a wall: a thick grey bezel, a grey half-shutter, and a blue lens (≈#194C84, range #082566–#398EB0) with a near-white octagonal core. A thick black cable loops from it past a graffiti tag "ABBi" [Observed]. The wiki's ABBi page captions this screenshot "ABBi in Battle Bears Gold" [Fan-wiki]. The lens matches the wiki's ABBi close-up art (File:ABBi.png) [Observed comparison].
    - **Evidence:** File:ABBi in Battle Bears Gold.jpg (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/skate_or_die_verify/conv/abbi_bbg.png; crop crops/abbi_bbg_lens.png); File:ABBi.png (conv/abbi_closeup.png); trailer frame frames/f_022.png (crop crops/tr_lens_v.png); official "BBG Maps Ranked part 1" grid tile (crops/jk_sodtile_v.png).
-3. **`bbg-news-repo/characters/oliver.md`, line 21**
+3. **`bbg-news-repo/characters/oliver.md`, "Voice", the "Known lines" bullet (line 21 when last checked).** Applied in that file's "Canon vs invention ledger" and "Open questions", which now note the Skate or Die graffiti.
    - **Current text:** "\"Oops, killed ya!\" · \"What's dead and eats my bullets? You! Ha ha ha!\""
    - **Correction:** note that the phrase also appears in BBG's own art. "Oops, Killed ya!" is sprayed in red on a pier in Skate or Die and appears on the map icon [Observed], so SkyVu used the line in-game [Inference]. Its attribution as Oliver's voice line remains [Fan-wiki].
    - **Evidence:** wiki File:Skate_or_Die_4.jpg (conv/sod4.png); File:ABBi in Battle Bears Gold.jpg (conv/abbi_bbg.png); File:Skate_Or_Die.png (conv/icon.png); trailer frames f_027 and f_032 (46.6–47.1 s); official short y5ThaIm-MYU oar3.
-4. **`research_notes/Battle Bears character lore/franchise_world.md`, line 216**
+4. **`research_notes/Battle Bears character lore/franchise_world.md`, Q2 §E "Settings and maps (wiki)", the "BBG stages" bullet (formerly line 216).** Applied: a Skate or Die sub-bullet now follows it.
    - **Current text:** "- [FAN-WIKI] BBG stages: H.I.P. Test Lab, Space Oddity, No Bear's Land, Aztec Attack, Abusement Park, Marecraft, Shortest Parsec, Sky View, Gold Digger, Haunted Castle, Toxic Terror, Skate or Die, Desert Airmine, Frozen Pundra, plus Steam Yard Blues (v2.8)."
    - **Correction:** add era and status for Skate or Die:
      - one of three new BBG maps in SkyVu's trailer description ("3 New Maps: -Gold Digger -Skate or Die -Sky View", published 2013-05-30) [Canon];
@@ -439,7 +439,7 @@ Every element is observed in official 2013 footage, the wiki screenshots or 2026
      - shown in the official shorts "Dangerous Skate Parks" (published 2025-05-07) [Canon date] and "BBG Maps Ranked part 1" (16-map grid; 2026 end card) [Observed];
      - played in the 2026 playtests per fan uploads: Team Battle in Playtest #2 (July 29, 2026) and FFA in Playtest #3 (Aug 21, 2026) [Observed metadata and frames].
    - **Evidence:** wiki-stored YouTube metadata for rfAyqVJrli4; the Steam app 5321720 track listing; the y5ThaIm-MYU watch-page publishDate; lFr8-yHbbzQ chapter "Match 7 (Team Battle, Skate or Die, Botch)"; the _R4rvvGlRsM description snippet "14:04 Skate or Die FFA"; Steam news posts of July 28 and Aug 19, 2026.
-5. **`research_notes/Battle Bears character lore/oliver_riggs_wil.md`, line 224**
+5. **`research_notes/Battle Bears character lore/oliver_riggs_wil.md`, "Cancelled media (wiki-only)", the Battle Bears TV bullet (formerly line 224).** Applied: the mural sub-bullet now follows it.
    - **Current text:** "- [WIKI] Battle Bears TV: a cartoon planned with WildBrain Entertainment for 2014, featuring Astoria, Oliver, Riggs, Graham, Wil and Tillman, set after BB Zero. It was \"presumably cancelled.\" It \"replaced the Battle Bears Movie.\""
    - **Correction:** add that the series left a trace in BBG. A Skate or Die mural is a spray-paint copy of the TV key art File:Battle-bears-tv-series-main-six.jpg, with the same distressed "BATTLE BEARS" lettering on a teal glow and magenta spray for the Huggable horde. Its figures are Wil with bubbles, Tillman with a green bazooka, and Oliver in front with a cyan beam [Observed comparison]. The wiki captions it "Battle Bears TV show in the map" [Fan-wiki]. (The first draft wrongly read the panda's face as "a goggled bear" or Graham.)
    - **Evidence:** /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/skate_or_die_verify/crops/tv_vs_mainsix.png (conv/tvgraffiti.png next to conv/bbtv_main_six.png).

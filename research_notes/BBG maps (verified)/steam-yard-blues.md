@@ -408,7 +408,7 @@ Notes:
 
 ## Corrections to our notes
 
-1. **research_notes/Battle Bears character lore/franchise_world.md, line 222**
+1. **research_notes/Battle Bears character lore/franchise_world.md, Q2 §E "Settings and maps (wiki)", the Steam Yard Blues entry under "Map details" (formerly line 222).** Applied: the entry now has the dates, the look and the 2026 builds as sub-bullets.
    - Current text: "  - **Steam Yard Blues**: a three-level map released in v2.8 with the King of the Windmill mode. [Fandom](https://battlebears.fandom.com/wiki/Steam_Yard_Blues)"
    - Correction: keep the line and add the following.
      - v2.8 was March 4, 2014 [Fan-wiki]; SkyVu previewed the map Feb 21, 2014 [Canon]. King of the Windmill was retired in v2.29, Jan 26, 2018 [Fan-wiki]. The wiki's "first level" is the deck at the top.
@@ -422,12 +422,12 @@ Notes:
      - It appears in the 2026 playtest builds (thumbnails stamped 3.0.2 and 3.0.7) [Observed].
    - Evidence: the wiki Steam Yard Blues and Updates pages; RnCV0V5gWCI watch-page dateText and description; thumbnails RnCV0V5gWCI maxresdefault and maxres1–3; HKbwq7PolNc maxres2/3, ORYnnvqn19w maxres1/2 and 3Zw0Q3aR2q4 maxres3 (build stamps visible).
 
-2. **research_notes/Battle Bears character lore/animation_reference.md, Q1 §A, "Map fly-throughs" (line 82). Applied: the entry now carries the exact title, the 0:35 length and the description.**
+2. **research_notes/Battle Bears character lore/animation_reference.md, Q1 §A, "Map fly-throughs", the Steam Yard Blues entry. Applied: the entry now carries the exact title, the 0:35 length and the description.**
    - Text at the time: "  - \"2.8 'Steam Yard Blues'\" (Feb 21, 2014) — [RnCV0V5gWCI](https://www.youtube.com/watch?v=RnCV0V5gWCI)"
    - Correction: give the exact title, 'BATTLE BEARS GOLD Update 2.8 "Steam Yard Blues" Map Preview', the length (0:35), and the description: "Another new update on the horizon means another awesome new map! Check out this epic fly through of the new map, Steam Yard Blues, coming to BATTLE BEARS GOLD in Update 2.8!"
    - Evidence: oEmbed title and author; watch-page attributedDescription and dateText "Feb 21, 2014"; YouTube search lengthText "35 seconds" / "0:35".
 
-3. **research_notes/Battle Bears character lore/franchise_world.md, line 276**
+3. **research_notes/Battle Bears character lore/franchise_world.md, Q3 §B "Class and title naming conflicts", the "Map count" bullet (formerly line 276).** Applied: its "Soundtrack", "New map" and "Ranking short" sub-bullets carry these points, the fan-thumbnail caveat included.
    - Current text: "- **Map count.** [OFFICIAL] Steam 2026 says \"16 wacky maps\" ([Steam](https://store.steampowered.com/app/4408320)). [FAN-WIKI] The wiki lists 15 BBG maps across the original run, …"
    - Correction: add the following.
      - [OFFICIAL] The 2026 soundtrack (Steam app 5321720, 24 tracks) has "Steamyard Blues" as track 15 (0:51). Tracks 1–16 carry location names, including "Huggable Factory" and "Castle Royale", and track 18 is "Tutorial". So the soundtrack alone does not fix the 16-map roster [Inference].
@@ -448,9 +448,9 @@ Notes:
 
 **No change needed:**
 - `bbg-news-repo/content/evergreen.json` "fact-maps" quotes the Steam line exactly.
-- `franchise_world.md` line 275 (both spellings official), and lines 107 and 216, are accurate.
+- `franchise_world.md` is accurate in its Q3 §B "Map spellings" bullet (both spellings official; formerly line 275), its Q1 §F quote of the Steam page's "Steamyard Blues" line (formerly line 107) and its Q2 §E "BBG stages" bullet (formerly line 216).
 - `animation_reference.md` is accurate in its Q1 §C quote of the Steam page's "Steamyard Blues" line (formerly line 171) and in its Q3 "Spelling drift" map entry (formerly line 527).
-- `research_notes/BBG weapons (verified)/2026.addendum.md` line 8 is accurate: aujTcdFuxdE's Match 4 is "Kill Confirmed, Steamyard Blues, Wil" at 12:33, re-checked in the chapter list.
+- `research_notes/BBG weapons (verified)/2026.addendum.md` is accurate in its "What I could reach" note on automatic frames (formerly line 8): aujTcdFuxdE's Match 4 is "Kill Confirmed, Steamyard Blues, Wil" at 12:33, re-checked in the chapter list.
 - The lore report contains no Steam Yard Blues statements.
 
 ## Open questions

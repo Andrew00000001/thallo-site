@@ -459,7 +459,7 @@ Everything above is documented [Observed/Fan-wiki], except:
    - **Ranking short.**
      - Current: `jkv6FHPghx8 hqdefault/hq2/hq3 ("BBG Maps Ranked part 1"; a 16-slot tier list, but this map's rank is not readable)`.
      - Its maxres1 and maxresdefault frames show this map as the first tile of SkyVu's 16-map grid. Only its final rank is not visible.
-2. **research_notes/Battle Bears character lore/franchise_world.md, line 219.** The text is correct but thin; this is an addition, not an error.
+2. **research_notes/Battle Bears character lore/franchise_world.md, Q2 §E "Settings and maps (wiki)", the No Bear's Land entry under "Map details" (formerly line 219).** The text is correct but thin; this is an addition, not an error. Applied: layout and era sub-bullets now follow the entry.
    - Current: "**No Bear's Land**: a grassy WWI-style trench field with two downed Pelican'ts."
    - Add the layout:
      - a square, cut-cornered, rotationally symmetric plateau
@@ -470,11 +470,11 @@ Everything above is documented [Observed/Fan-wiki], except:
      - "Battlefield Airpad" in BBR 1.0 (Oct 8, 2011), renamed with BBG's launch (May 24, 2013)
      - reskins: winter 2.26 (Jan 2017; back in 2.28, Dec 2017), summer 2.27 (May 2017), spring 2.51 (Apr 2018)
      - confirmed for 2026
-3. **research_notes/Battle Bears character lore/franchise_world.md, line 275.** An addition.
+3. **research_notes/Battle Bears character lore/franchise_world.md, Q3 §B "Class and title naming conflicts", the "Map spellings" bullet (formerly line 275).** An addition. Applied: a sub-bullet on the slug and the map-select tile now follows it.
    - Current: "[OFFICIAL] "No Bears Land" and "Steamyard Blues" (Steam 2026) vs "No Bear's Land" (official 2014 page; wiki)".
    - The 2014 page could not be re-opened, and its URL slug is "no-bears-land". The checkable official source for the apostrophe spelling is the in-game BBG map-select tile, which reads "NO BEAR'S LAND" (File:No bear's Land.png, uploaded 2013-06-15).
    - The 2026 OST track is "No Bears Land", matching the store page.
-4. **research_notes/Battle Bears character lore/saberi_sanchez.md, line 124.** The wiki quote is accurate; this is an addition.
+4. **research_notes/Battle Bears character lore/saberi_sanchez.md, Q2 Cited Findings, the Pelican't bullet (line 124 when last checked).** The wiki quote is accurate; this is an addition. Applied: a bullet on the two wrecks' look now follows it.
    - Current: "[FAN-WIKI] The Pelican't is "a dark green ship, with four engines on the sides of the vehicle"."
    - Add the observed look of the No Bear's Land wrecks:
      - dark grey hulls with an olive cast, four fat cylindrical engine pods on stub wings

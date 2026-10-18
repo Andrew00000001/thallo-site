@@ -411,26 +411,26 @@ Provenance of each element:
 
 **B. Corrections to our lore notes.** Each "current text" was re-checked verbatim.
 
-1. **/home/user/thallo-site/reports/Battle Bears character lore.md (line 53)**
+1. **/home/user/thallo-site/reports/Battle Bears character lore.md (the Oliver section, "Oliver (Soldier) causes the disaster…", the romance sentence; formerly line 53).** Applied: the carving is now [Observed].
    - Current text: 'an "O+A" heart carved in a tree on the BBG Toxic Terror map, and temple symbols on Aztec Attack; all three are wiki claims [Fan-wiki, Unverified]'
    - Correction: the carving itself is in the game [Observed: wiki File:O+A.jpg, a gameplay capture with BBG's green bracket reticle]. Only the Oliver+Astoria reading and the BBF line are wiki claims [Fan-wiki, Unverified].
-2. **Same file (line 131)**
+2. **Same file (the Botch section, "Botch (Assassin) is a radioactive loner…", the Toxic Terror sentence; formerly line 131).** Applied.
    - Current text: 'The radioactive sewer map Toxic Terror "might be a hint to Botch's origins", with tally marks and a drawing of him on its walls [Fan-wiki, speculation]'
    - Correction: the tally marks are real [Observed]. They sit beside a Ninja-Turtle weapon rack, which reads as a TMNT sewer-lair joke [Observed + Inference].
    - No image shows an identifiable Botch drawing. The drawings seen are three chalk bears [Observed]. Keep "Botch origin" as fan speculation.
-3. **/home/user/thallo-site/bbg-news-repo/characters/oliver.md (line 35)**
+3. **/home/user/thallo-site/bbg-news-repo/characters/oliver.md ("Relationships", the Astoria bullet; formerly line 35).** Applied.
    - Current text: 'an "O+A" heart carved in a tree on Toxic Terror and temple symbols on Aztec Attack [Fan-wiki, Unverified]'
    - Correction: label the carving [Observed]; keep [Fan-wiki, Unverified] for its meaning and for the BBF line.
-4. **/home/user/thallo-site/bbg-news-repo/characters/astoria.md (line 32)**
+4. **/home/user/thallo-site/bbg-news-repo/characters/astoria.md ("Relationships", the Oliver bullet; formerly line 32).** Applied.
    - Current text: 'a cut-off BBF line, an "O+A" carving and temple symbols [Fan-wiki, Unverified]'
    - Correction: same as item 3.
-5. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md (line 224)**
+5. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md (Q2 §E "Settings and maps (wiki)", the Toxic Terror entry under "Map details"; formerly line 224).** Applied.
    - Current text: '**Toxic Terror**: a radioactive sewer, "might be a hint to Botch's origins… a drawing of Botch".'
    - Correction: add the following.
      - It was added in BBG 2.3 (Sep 27, 2013, iOS, per the wiki); beta name "X Marks the Pain" [Unverified fan copy; wiki history].
      - The O+A carving and the tally marks beside a TMNT rack are [Observed]; no Botch drawing was found.
      - It appears in SkyVu's 2026 final-playtest livestream thumbnail [Observed].
-6. **/home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md (line 278)**
+6. **/home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md (Key Question 2, "Botch — wiki", the Toxic Terror bullet under "Teasers and origin hints"; formerly line 278).** Applied.
    - Current text: '- Toxic Terror map (BBG 2.3): "Because the map is filled with radioactive waste, it might be a hint to Botch's origins. There are also Tally marks on the walls and a drawing of Botch."'
    - Correction: add the following.
      - The 2013 wording was "scratch marks on the walls marking 22 days" (wiki revisions 54885–56594).
@@ -443,8 +443,8 @@ Provenance of each element:
    - the SkyVu-watermarked concept art [Observed]
 
 **Checked, no change needed:**
-- /home/user/thallo-site/research_notes/Battle Bears character lore/astoria_graham_tillman.md, lines 153 and 345. Both are accurate wiki quotes and inferences.
-- /home/user/thallo-site/bbg-news-repo/characters/botch.md, line 87. It correctly files the Toxic Terror origin as fan material.
+- /home/user/thallo-site/research_notes/Battle Bears character lore/astoria_graham_tillman.md, "Astoria: wiki claims" (the map-trivia bullet) and the wiki section's Inferences (the romance bullet); formerly lines 153 and 345. Both are accurate wiki quotes and inferences.
+- /home/user/thallo-site/bbg-news-repo/characters/botch.md, "Canon vs invention ledger", the fan-material bullet (formerly line 87). It correctly files the Toxic Terror origin as fan material.
 
 ## Open questions
 

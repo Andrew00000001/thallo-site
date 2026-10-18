@@ -320,7 +320,7 @@ Vertical 9:16 establishing shot inside a vast, fully enclosed ice cave, from a s
 ---
 
 ## Corrections to our notes
-1. **/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md, Q1 §A, "Map fly-throughs" (line 81). Applied: the entry now carries the full title, the 0:31 length, the description and the Jan 22, 2014 date, which the Frozen Pundra addendum verified.**
+1. **/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md, Q1 §A, "Map fly-throughs", the Frozen Pundra entry. Applied: the entry now carries the full title, the 0:31 length, the description and the Jan 22, 2014 date, which the Frozen Pundra addendum verified.**
    - Text at the time: `"2.7 'Frozen Pundra'" (Jan 22, 2014) — [Ev5WvMIp1_4](https://www.youtube.com/watch?v=Ev5WvMIp1_4)`
    - Correction: use the exact official title, `BATTLE BEARS GOLD Update 2.7 "Frozen Pundra" Map Preview`, with length 0:31. The description begins "Check out this epic fly through of the new map coming to BATTLE BEARS GOLD in Update 2.7! Are you excited? Get Battle Bears ...". Mark the Jan 22, 2014 date as not re-verified (YouTube shows "12y ago").
    - Evidence: oEmbed for Ev5WvMIp1_4; YouTube search page at `…/frozen_pundra_verify/yt/search_pundra.html`.
@@ -331,15 +331,15 @@ Vertical 9:16 establishing shot inside a vast, fully enclosed ice cave, from a s
      - The same grid is the thumbnail of a fan upload (wbA2-0AfJ7A) and contains no Sky World tile, so it is not proof of the 2026 roster.
      - Also add "Playtest Highlights Part 2" (SZZ38et45Xs, Aug 26, 2026). Its oar1 frame probably shows Frozen Pundra in a 2026 playtest, in a team mode.
    - Evidence: https://i.ytimg.com/vi/jkv6FHPghx8/oar1.jpg and oar2.jpg; https://i.ytimg.com/vi/wbA2-0AfJ7A/maxresdefault.jpg; https://i.ytimg.com/vi/SZZ38et45Xs/oar1.jpg; the Shorts page publishDate "Aug 26, 2026", saved at `…/frozen_pundra_verify/yt/shorts_SZZ38.html`.
-3. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md, line 216.**
+3. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md, Q2 §E "Settings and maps (wiki)", the "BBG stages" bullet (formerly line 216).** Applied: the bullet now dates Frozen Pundra (v2.7, January 23, 2014), and its new Frozen Pundra sub-bullet carries track 10.
    - Current text: `Desert Airmine, Frozen Pundra, plus Steam Yard Blues (v2.8)`
    - Correction: optionally write "Frozen Pundra (v2.7, January 23, 2014 per wiki)" and add "its theme returns as track 10 'Frozen Pundra' (0:54) on the official 2026 soundtrack".
    - Evidence: wiki Updates and Versions pages; Steam store page for app 5321720.
-4. **/home/user/thallo-site/reports/Battle Bears character lore.md, line 29.**
+4. **/home/user/thallo-site/reports/Battle Bears character lore.md, the section "Battle Bears Gold grew from five classes to eleven, and 2026 adds no lore", the teaser-frame sentence (formerly line 29).** Applied: it now cites hq1 and hq2.
    - Current text: `Teaser frames read "SAME / ICONIC / GAMEPLAY" and put "NEW MAP!" over a gold, swirl-engraved Oliver [Observed] ([teaser frame](https://i.ytimg.com/vi/d2ByJWrsoec/hq1.jpg))`
    - Correction: "SAME / ICONIC / GAMEPLAY" is hq1, but "NEW MAP!" is in hq2 (https://i.ytimg.com/vi/d2ByJWrsoec/hq2.jpg). Cite both frames.
    - Evidence: both frames opened (`…/frozen_pundra_verify/crops/teaser_hq12.jpg`).
-5. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md, lines 19 and 253.**
+5. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md, the Q1 and Q3 Takeaways (formerly lines 19 and 253).** Applied: both now name one new-to-BBG map shown under two names (that file's "Maps corrections (2026-10-18)", item 1).
    - Current text: `new maps (Sky World, Sky Pirates)`
    - Correction: these are almost certainly one map. Write "a new map, Sky World (shown in videos as 'Sky Pirates')". SkyVu's homepage does promise "new modes, maps" in the plural.
    - Evidence: the official short "Sky Pirates in BBG!" (Sep 7, 2026) has the description "Enjoy the highlights from our Sky World playtest!"; Steam news, Aug 19, 2026, has "New Map: Sky World"; battlebears.com has "packed with new modes, maps, skins and more!".

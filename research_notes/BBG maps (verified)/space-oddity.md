@@ -368,14 +368,14 @@ Vertical 9:16 interior establishing shot of a compact, mirror-symmetric spaceshi
      - screen_02 shows a red and white station floating in open space, with red circular Huggable floor emblems.
      - Space Oddity's tile, its trailer shot (30.0–32.8 s, the same framing as screen_01) and screen_01 show an enclosed amber, olive and cyan interior with no H.I.P. logo.
      - The Shortest Parsec dossier makes the same correction.
-2. **research_notes/Battle Bears character lore/franchise_world.md, line 221**
+2. **research_notes/Battle Bears character lore/franchise_world.md, Q2 §E "Settings and maps (wiki)", the Space Oddity entry under "Map details" (formerly line 221).** Applied: the entry now has the BBR 1.0 launch, the colour by era and the disputed hologram.
    - **Current:** "**Space Oddity**: a small, symmetrical, yellow-themed spaceship map (originally "Spacecraft") with a hologram of the Mecha-Bearzerker."
    - **Correction:** keep this as a fan-wiki paraphrase, but add:
      - The map was a BBR 1.0 launch map in 2011.
      - Official images show an amber-orange, olive and cyan interior with yellow trim.
      - The wiki contradicts itself on the hologram. The Spaceboss page says "A hologram of Spaceboss can be seen in the map Space Oddity in Battle Bears Gold." The only hologram image on the map page is a cyan wireframe sphere captioned "Space Oddity "Death Star"". Treat the hologram's subject as Unverified.
    - **Evidence:** wiki Space Oddity trivia; Bearzerker trivia; Spaceboss trivia; File:Death_Star.jpg (opened); BBR Version 1.0 page; trailer frame at 30.0 s; screen_01.
-3. **research_notes/Battle Bears character lore/franchise_world.md, line 385**
+3. **research_notes/Battle Bears character lore/franchise_world.md, Fact-check log, "Corrected" item 15 (small wording fixes), the Space Oddity sub-bullet (formerly line 385).** Applied: the sub-bullet now records the reversal, and "interior" is back in Q2 §E.
    - **Current:** "    - Space Oddity: removed the unsupported "interior"."
    - **Correction:** "interior" is supported and can go back in.
    - **Evidence:** the wiki's first infobox (revision 16502) says "Type = Indoor". Every official view is enclosed, with ceilings, bulkheads and window walls (screen_01; trailer 30.0–32.8 s; BBG tile). The renders are captioned "Spaceship Level".

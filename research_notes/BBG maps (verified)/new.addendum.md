@@ -418,12 +418,12 @@ All files are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a9
 ---
 
 # Corrections to our notes
-1. **`/home/user/thallo-site/research_notes/BBG weapons (verified)/2026.addendum.md` line 23**
+1. **`/home/user/thallo-site/research_notes/BBG weapons (verified)/2026.addendum.md`, "Uncited 2026 playtest uploads", the "Official schedule" entry for the Aug 19 post (line 23 when last checked)**. Applied.
    - Current: "Fans call this map "Sky Pirates" [Unverified: fan titles and descriptions]."
    - Correction: SkyVu itself calls it Sky Pirates [Canon]:
      - "Battle Bears Gold 2026 - Sky Pirates Map Reveal" (r91WkR10W2A), with a "SKY PIRATES" title card at 0:02.
      - "Sky Pirates in BBG!" (CwxpBZg6Fi4), whose description reads "Enjoy the highlights from our Sky World playtest!".
-2. **`/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md` line 108**
+2. **`/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md`, Q1 §F "Official settings and maps", the "Sky World" bullet (formerly line 108)**. Applied: two sub-bullets now link the names and give the lineage.
    - Current: it lists "Sky World" and the "Sky Pirates Map Reveal" side by side, unlinked.
    - Correction: link them through CwxpBZg6Fi4's description [Canon]. Add the lineage:
      - A Battle Bears Ultimate 2014 launch map [Fan-wiki].
@@ -448,7 +448,7 @@ All files are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a9
 8. **`/home/user/thallo-site/research_notes/BBG maps (unverified drafts)/research_haunted-castle.md` lines 187 and 264, and the `.meta.json` open question**
    - Current: "a separate "Castle Royale" track (1:56). Nothing ties it to this map [Unverified]" and "Is the "Castle Royale" soundtrack track related to this map?"
    - Correction: Castle Royale is the 2018 Battle Royale map. It is a daylight twin-island sky fortress, distinct from Haunted Castle. They share a castle kit (walls, portcullis, banners, graveyard, pumpkins) [Observed], and asset reuse is [Inference] only.
-9. **`/home/user/thallo-site/research_notes/BBG weapons (verified)/graham.addendum.md` lines 291 and 296**
+9. **`/home/user/thallo-site/research_notes/BBG weapons (verified)/graham.addendum.md`, "Incidental findings", item 3, "2018 branding" (formerly lines 291 and 296)**. Applied.
    - Current: "over a panda bear with a green-lit cannon" and "SkyVu's "v2.32" against the wiki's 2.50 is an open conflict [Unverified]".
    - Correction:
      - The panda is Tillman [Inference].

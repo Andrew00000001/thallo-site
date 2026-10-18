@@ -61,7 +61,7 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
 - Tagline: "In space, EVERYONE can hear you scream."
 - Body, piece 1: "this place kind of looks familiar, doesn't it? Kinda like a robotic someone I've seen before exploded a few miles away and peppered it with its body parts. Kinda has a sinister feeling, like some kind of private arms dealer uses it to transfer power to its facilities…"
 - Body, piece 2: "…like some kind of private arms dealer uses it to transfer power to its facilities based on the surface of a mysterious planet on the fringes of the known galaxy. That's all just a hunch, though."
-- **Label:** Canon per our notes (/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md lines 88 and 106; /home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md line 70). The quotes above match those files exactly. I could not open the capture again, so treat the wording as [Unverified this session].
+- **Label:** Canon per our notes (/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md, Q1 §E "Official descriptions of other factions and villains", the H.I.P.-in-official-copy bullet, and Q1 §F "Official settings and maps", the Shortest Parsec tagline; /home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md, Key Question 1, "B-1000 (Assault)", the archived map-page bullet). The quotes above match those files exactly. I could not open the capture again, so treat the wording as [Unverified this session].
 - The two pieces overlap on "private arms dealer uses it to transfer power to its facilities", so they read as one passage [Inference]. Any text before "this place…" is missing [Unverified].
 
 **2026 Steam soundtrack** "BATTLE BEARS GOLD Soundtrack" (app 5321720, release date "Nov 4, 2026") [Canon] ([Steam](https://store.steampowered.com/app/5321720)):
@@ -76,7 +76,8 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
 
 **The Steam trailer.** SkyVu put it on the 2026 Steam page under the title "Battle Bears Gold Premium - Trailer" [Canon]. The map appears in it (see below) [Observed].
 - Its class cards are pixel-identical to those of SkyVu's May 30, 2013 BBG trailer (rfAyqVJrli4), and each of the five Steam screenshots is a frame of it [Observed: /home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1; re-opened as /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/lineup_verify/sheets/tr2013.jpg].
-- So its gameplay, and the screenshots, are most likely 2013 footage [Inference, strong]. The one exception is a Space Oddity clip (about 30.0–32.8 s, and screen_01), whose capture date is open [Unverified]. The Shortest Parsec shots are therefore not evidence of how the map looks in the 2026 build.
+- Its gameplay matches that trailer's 160×90 YouTube storyboard at a constant offset of about 4 s (45 of the 55 frames from 5 to 59 s), both Shortest Parsec shots included (2013 28–31 s = Steam 23.95–26.95 s; 2013 54–55 s = Steam 49.95–50.95 s) [Observed, storyboard size: same overview item; side by side in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps_ed_r2/pairs.jpg].
+- So its gameplay, and the screenshots, are most likely 2013 footage [Inference, strong]. The Space Oddity clip (about 30.0–32.8 s, and screen_01) is no exception: the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed]. Only why its pillar top blooms more than fan captures is [Unverified]. The Shortest Parsec shots are therefore not evidence of how the map looks in the 2026 build.
 
 ## Era and status
 
@@ -144,7 +145,7 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
   - The final playtest announcement (posted Oct 14, for the Oct 15, 2026 test) lists "Lighting improvements" [Canon].
   - InstableGR's description of that build says there is "an overhauled lighting for all maps, attempting to restore what they looked like back in the day" [Unverified: fan video description].
 - **Store screenshots may change.** The same announcement asks testers for footage "for our Steam and store pages" [Canon], so the current screenshots may be replaced [Inference].
-- **Trailer build:** apart from one Space Oddity clip, the trailer and screenshot footage is most likely re-edited 2013 launch footage [Inference, strong] (see Official text). Only the class cards have been pixel-matched to the 2013 trailer [Observed]; whether the Shortest Parsec gameplay shots also match it is [Unverified].
+- **Trailer build:** the trailer and screenshot footage, the Space Oddity clip included, is most likely re-edited 2013 launch footage [Inference, strong] (see Official text). The class cards are pixel-identical to the 2013 trailer at full size [Observed], and the gameplay, both Shortest Parsec shots included, matches that trailer's storyboard at 160×90 [Observed, storyboard size].
 
 **BB Heroes (2024):** the wiki's BBH page and a wiki-wide search for "Parsec" show no link to this map [Fan-wiki, checked by absence]. Whether it appears there is [Unverified].
 
@@ -510,21 +511,21 @@ All of these were opened with Read this session.
    - Current text: "- **The H.I.P. logo** (a Vitruvian-style Huggable in a circle) appears on Space Oddity [Observed: Steam screen_02]. It was **not** seen in any H.I.P. Test Lab image I opened [Observed]."
    - Correction: Steam screen_02 is **Shortest Parsec**, not Space Oddity. List the emblem under Shortest Parsec: a red floor medallion on the spine walkway, and an outline engraving on the far-tower wall.
    - Evidence: screen_02 matches trailer 50.67 s. It shows the red-panelled laser tower, the round red-rimmed laser pad (beam off in this frame; it is lit at 49.75–50.25 s), the cracked red floor with the green console, the red medallion and the outline engraving with the skewered Huggable. All of these match the wiki's Shortest Parsec images.
-2. **/home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md, line 167.**
+2. **/home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md, Key Question 2, "Huggable (class) — wiki", the Shortest Parsec Easter-egg trivia (line 167 when last checked).** Applied: it is marked contested and outdated, with a note below it.
    - Current text: "  - Only the Huggable can reach the Shortest Parsec Easter egg."
    - Correction: label this a contested, outdated fan claim. Only the Huggable (BBG) page says it. The map page now says the red-base meteorite "can be reached only by using So Fly[Huggable] and Metal Crush[B-1000]", and it lists several Easter eggs reachable with So Fly and/or the Turkish Jump Boots.
 3. **/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_huggable.md, line 166.**
    - Current text: "- It can reach places no other class can, such as the Shortest Parsec Easter egg [Fan-wiki]."
    - Correction: the same as item 2.
-4. **/home/user/thallo-site/research_notes/BBG weapons (verified)/huggable.md, line 194.**
+4. **/home/user/thallo-site/research_notes/BBG weapons (verified)/huggable.md, the So Fly section, the Shortest Parsec Easter-egg bullet (formerly line 194).** Applied: it now says "This is contested".
    - Current text: "- It is "the only class that can reach" the Shortest Parsec Easter egg [Fan-wiki]."
    - Correction: keep the quote, but add that it is contested. It echoes 2013–2014 map-page wording that was replaced on 2014-05-27 (rev 64712), and the map page now credits B-1000's Metal Crush too.
 5. **/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_2026.md, line 101.**
    - Correction: name the map. The station is Shortest Parsec, and the red-and-white room is its central module ("middle dome"). The yellow light column is weapon VFX, not the map's laser.
-6. **/home/user/thallo-site/research_notes/BBG weapons (verified)/2026.md, line 134.** The same as item 5.
-7. **/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_tillman.md, line 236, and /home/user/thallo-site/research_notes/BBG weapons (verified)/tillman.md, line 360.**
+6. **/home/user/thallo-site/research_notes/BBG weapons (verified)/2026.md, "The Steam trailer is 2013 footage", the weapon-shot table's 24.0–29.5 s row (formerly line 134).** The same as item 5. Applied.
+7. **/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_tillman.md, line 236, and /home/user/thallo-site/research_notes/BBG weapons (verified)/tillman.md, "Phat Man", the official-trailer impact bullet (formerly line 360).** Applied in tillman.md.
    - Correction: change "…down onto a space station" to "…down onto the Shortest Parsec station".
-8. **/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_combat-vfx.md, line 56, and /home/user/thallo-site/research_notes/BBG weapons (verified)/combat-vfx.md, line 98.**
+8. **/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_combat-vfx.md, line 56, and /home/user/thallo-site/research_notes/BBG weapons (verified)/combat-vfx.md, "Overall VFX style", the "Shockwaves" bullet (formerly line 98).** Applied in combat-vfx.md.
    - Correction: change "white on the space station" to "white on Shortest Parsec". Add that the octagonal glow around the central module in screen_02 is this weapon VFX, not map geometry.
 9. **/home/user/thallo-site/research_notes/BBG maps (unverified drafts)/research_shortest-parsec.md**, the copy of the draft. Replace it with this dossier. The main fixes:
    - **The sign's location.** The sign is on the back of the laser tower, not on its top. It is read from the blue-side meteorite, which needs So Fly **or** the Jump Boots, not So Fly plus the Jump Boots plus a meteorite.
@@ -552,7 +553,7 @@ All of these were opened with Read this session.
 - Are the hex-holed teal "meteorites" meant as the "body parts" of the "robotic someone" in the blurb? Is the robot-like top-down footprint intentional?
 - Did the map run FFA (BBG 2.5) or King of the Windmill (BBG 2.8–2.29) in the original BBG? Will it host PTB and FFA at launch? Fan chapters show FFA in the Aug 21 test and Team Battle in the Oct 15 test. JustNubz's Oct 15 stills show the tag mode fans call Kill Confirmed [Observed prompt].
 - What does the map look like after the 2026 "Lighting improvements"? Watching HKbwq7PolNc from 35:30 (Match 9, Team Battle, final playtest) and aujTcdFuxdE from 34:19 would settle this. It needs someone with normal YouTube access. The storyboard stills of 1MP1rFi4t-Q (5:00–13:00, 57:00–61:00) show the Oct 15 build but are too small to judge the lighting.
-- Apart from one Space Oddity clip, the Steam trailer and screenshots are most likely 2013 footage [Inference, strong]. Can matching their gameplay shots, not just the class cards, to SkyVu's 2013 trailer rfAyqVJrli4 confirm it? Will SkyVu replace the screenshots with 2026 footage?
+- The Steam trailer and screenshots, the Space Oddity clip included, are most likely 2013 footage [Inference, strong]. Their gameplay matches SkyVu's 2013 trailer rfAyqVJrli4 at storyboard size (160×90) [Observed]. Would a full-resolution copy of rfAyqVJrli4 confirm the gameplay match at full size? Will SkyVu replace the screenshots with 2026 footage?
 - Where did the Jan 2013 preview renders, the watermarked overhead and the name "The Shortest Parsec" (on the wiki by Jan 26, 2013) first appear: SkyVu's site, Facebook or forums?
 - Where exactly is the Killerbear500 graffiti? The probable spot is the lower level under the far tower, blue side. Are the "weeping eye" smudges under the beam pad deliberate?
 - Does the map appear in BB Heroes (2024)?

@@ -46,7 +46,7 @@ Sky View is a Battle Bears Gold (BBG) map set on a construction site on the open
   - So Sky View was announced together with the B-1000 [Canon].
 - **BBR 1.4.3 App Store notes (Apr 15, 2013)** [Game text via wiki, Updates page]: "Coming soon to Battle Bears!!<br />★ NEW Character Class- the B-1000! A robot made to kill.<br />★ 3 NEW maps!"
   - The three maps are not named there. That they are Gold Digger, Skate or Die and Sky View is [Inference] from the trailer.
-- **SkyVu's map blurb, 2014:** "gun your opponents down high above this nondescript city… a construction site." [Canon per our notes (franchise_world.md line 102); Unverified this session] ([archived page](https://web.archive.org/web/20140507011952/http://battlebears.com/games/battle-bears-royale/maps/sky-view/)).
+- **SkyVu's map blurb, 2014:** "gun your opponents down high above this nondescript city… a construction site." [Canon per our notes (franchise_world.md, Q1 §F "Official settings and maps", the Sky View blurb); Unverified this session] ([archived page](https://web.archive.org/web/20140507011952/http://battlebears.com/games/battle-bears-royale/maps/sky-view/)).
   - The ellipses hide text that nobody has re-checked.
 - **Official soundtrack** ("BATTLE BEARS GOLD Soundtrack", Steam app 5321720, "Coming soon", Nov 4, 2026):
   - Track 3 is "Sky View", 1:03 long [Canon].
@@ -129,7 +129,7 @@ Sky View is a Battle Bears Gold (BBG) map set on a construction site on the open
     - It is clean from about 47.8 to 49.2 s.
     - It has cross-faded to a space-station map by about 49.6 s.
     - It is the trailer's only Sky View shot [Observed: contact sheets of all 108 frames].
-    - The footage is most likely 2013 footage that SkyVu re-used on the 2026 Steam page [Inference, strong]. The trailer's class cards are pixel-matched to SkyVu's May 30, 2013 trailer (rfAyqVJrli4), and it shows only the 2013 launch's 8 classes and maps that existed in May 2013 (maps overview, section 0, item 1). So it does not show the 2026 build.
+    - The footage is most likely 2013 footage that SkyVu re-used on the 2026 Steam page [Inference, strong]. The trailer's class cards are pixel-matched to SkyVu's May 30, 2013 trailer (rfAyqVJrli4); its gameplay matches that trailer's 160×90 YouTube storyboard at a constant offset of about 4 s, this Sky View shot included (2013 52–53 s = Steam 47.95–48.95 s) [Observed, storyboard size: side by side in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps_ed_r2/pairs.jpg]; and it shows only the 2013 launch's 8 classes and maps that existed in May 2013 (maps overview, section 0, item 1). So it does not show the 2026 build.
   - **Soundtrack:** has the "Sky View" track [Canon].
   - **SkyVu's ranking short:**
     - Sky View is one of 16 map stills in the oar1 thumbnail grid, at row 4, column 2 [Observed: `yt/th/jkv6FHPghx8_oar1.jpg`, `frames/z_oar1_grid3x.png`].
@@ -419,14 +419,14 @@ Verification downloads: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de
 
 ## Corrections to our notes
 
-1. **`research_notes/Battle Bears character lore/oliver_riggs_wil.md`, line 252.**
+1. **`research_notes/Battle Bears character lore/oliver_riggs_wil.md`, the Takeaway of "Where do games disagree, and what changed in the 2026 Battle Bears Gold re-release?", the new-map bullet (formerly line 252).** Applied.
    - Current: "- a new map: the third Steam playtest note lists "New Map: Sky World," and a 2026-08-31 YouTube upload is titled "Sky Pirates Map Reveal." Whether these are the same map is my [INFERENCE]; no source says so."
    - Correction:
      - SkyVu's short "Sky Pirates in BBG!" (CwxpBZg6Fi4, Sep 7, 2026) has the description "Enjoy the highlights from our Sky World playtest!" [OFFICIAL], which links the two names.
      - The fan wiki lists Sky Pirates as a Battle Bears Overclock launch map, and BBO 3.0's notes mention "Skyworld". So it is new to BBG, not newly made [INFERENCE].
      - It is not the 2013 rooftop map Sky View.
-   - Line 554 needs the same fix.
-2. **`research_notes/Battle Bears character lore/franchise_world.md`, lines 19 and 253.**
+   - The Fact-check log's "Sky World / Sky Pirates" entry (formerly line 554) needed the same fix. Applied there too.
+2. **`research_notes/Battle Bears character lore/franchise_world.md`, the Q1 and Q3 Takeaways (formerly lines 19 and 253).** Applied (that file's "Maps corrections (2026-10-18)", item 1).
    - Current: "...but it does add new maps (Sky World, Sky Pirates), a demo, and sign-up skins." and "...new maps (Sky World, Sky Pirates), a demo and sign-up skins..."
    - Correction: one new-to-BBG map shown under two names (Sky Pirates, called "Sky World" in the Aug 19 Steam post and in the "Sky Pirates in BBG!" short), not two maps.
 3. **`research_notes/Battle Bears character lore/animation_reference.md`, Q3 Takeaway, the "Credit spellings also drift" paragraph (formerly line 488). Applied: the paragraph now cites both "Sky World" sources, the BBO origin and the Sky View warning.**
@@ -438,18 +438,18 @@ Verification downloads: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de
    - So the grid does not support "15 + Sky World = 16", and the 16 count stays unresolved.
 5. **`research_notes/BBG maps (unverified drafts)/research_gold-digger.md` line 41 and `research_skate-or-die.md` line 67.**
    - The "2.0 update" question is resolved. The wiki uses "2.0" for the BBG launch in the gallery captions, the icon caption and the Team Battle page, while its Versions table calls the same release "1.0".
-6. **`bbg-news-repo/content/evergreen.json`, line 145.**
+6. **`bbg-news-repo/content/evergreen.json`, the "fact-playtests" caption.** Applied: it now counts five playtests and names Sky Pirates.
    - The "four playtests ... between July and September" caption is now out of date. A fifth, "final" playtest ran Oct 15, 2026 (Steam post, Oct 14).
    - Consider "(the Sky Pirates map)" after "Sky World" so readers don't confuse it with Sky View.
-7. **`research_notes/BBG weapons (verified)/oliver.addendum.md` line 152 and `_critic_r1.json` line 41.**
+7. **`research_notes/BBG weapons (verified)/oliver.addendum.md`, "Solar Wind Scar", the cKOHCD5LBN8 projectile bullet (formerly line 152), and `_critic_r1.json` line 41.** oliver.addendum.md no longer names Sky View there.
    - cKOHCD5LBN8 maxres2/hq2 is **not** Sky View. It is a daytime map with green grass, sandbag walls and a dark bunker, consistent with No Bear's Land.
-8. **`research_notes/BBG weapons (verified)/2026.md` line 140 and `research_notes/BBG weapons (unverified drafts)/visuals_2026.md` line 105.**
+8. **`research_notes/BBG weapons (verified)/2026.md`, "The Steam trailer is 2013 footage", the weapon-shot table's aerial-shots row (formerly line 140), and `research_notes/BBG weapons (unverified drafts)/visuals_2026.md` line 105.** Applied in 2026.md.
    - The "43-53.5 s, aerial shots" row should name the Sky View segment (about 47.4-49.6 s). The pink laser lines (with a green one) cross the Sky View deck at about 48.4 s.
 9. **`research_notes/BBG maps (unverified drafts)/research_skate-or-die.md`, line 324.**
    - Change "probably Sky View, Inference" to Sky View [Observed]. It matches the wiki gallery's bolt-holed red I-beams, grating, plywood screens and blue tarps.
 10. **`research_notes/BBG maps (unverified drafts)/research_space-oddity.md`, line 72.**
     - The "one other tile" in the "13-16" row is Steam Yard Blues: a brass airship with purple bear-face panels, matching RnCV0V5gWCI.
-11. **Status note, not a correction:** `research_notes/Battle Bears character lore/franchise_world.md` line 102's Sky View blurb could not be re-opened this session (web.archive.org was reset at the proxy and WebFetch is blocked). Keep it, but treat the ellipses as unchecked.
+11. **Status note, not a correction:** `research_notes/Battle Bears character lore/franchise_world.md`'s Sky View blurb (Q1 §F "Official settings and maps") could not be re-opened this session (web.archive.org was reset at the proxy and WebFetch is blocked). Keep it, but treat the ellipses as unchecked.
 
 ## Open questions
 

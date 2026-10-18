@@ -59,7 +59,7 @@ H.I.P. Test Lab is a Battle Bears Royale (BBR) launch map from 2011. It was firs
   - One of its preview frames shows a 4×4 grid of 16 map images. Top row, second tile: this map's tube room, the same composition as the classic map tile, without its caption [Observed: https://i.ytimg.com/vi/jkv6FHPghx8/oar1.jpg].
   - The tier list in another frame has slots "1-4", "5-8", "9-12" and "13-16" [Observed: oar2.jpg].
 - **In-game name.** The wiki's map-select tile reads "H.I.P. TEST LAB" in orange-gold bevelled capitals [Observed: wiki File:H.I.P._Test_Lab.png, uploaded 2013-06-15]. That this is the game's own tile art [Inference] is supported by the official 2026 short reusing the same picture. So the name is [Game text via wiki].
-- **2012 map list.** Our notes quote an archived 2012 BBR maps page: "Haunted Castle, Abusement Park, Facing Temples, Battlefield Airpad, Desert Airmine, Huggable Factory, Spacecraft." [Canon per our notes. **Unverified in this pass**, because the Wayback Machine was unreachable] (franchise_world.md line 98).
+- **2012 map list.** Our notes quote an archived 2012 BBR maps page: "Haunted Castle, Abusement Park, Facing Temples, Battlefield Airpad, Desert Airmine, Huggable Factory, Spacecraft." [Canon per our notes. **Unverified in this pass**, because the Wayback Machine was unreachable] (franchise_world.md, Q1 §F "Official settings and maps").
 - **"H.I.P." = "Huggable Instrumentality Project".** This is official per our notes, from the archived 2024 BB Heroes page: "joined the HIP (Huggable Instrumentality Project)" [Canon per our notes; not re-fetched; the same sentence is reproduced on the wiki's Battle Bears Heroes page]. The map page's trivia line "H.I.P. stands for Huggable Instrumentality Project" is [Fan-wiki].
 - **No SkyVu sentence describing this map was found** [Unverified].
 
@@ -114,7 +114,7 @@ H.I.P. Test Lab is a Battle Bears Royale (BBR) launch map from 2011. It was firs
     - a fixed camera on the blue-side walkway (34.3 to 36.5 s)
     - then a reverse angle (about 36.5 to 36.8 s)
   - Steam screenshot ss_487a600c is byte-identical to local screen_00.jpg [Observed: pixel diff 0]. It is the same walkway shot, and its closest trailer frame is at about 36.4 s [Observed].
-  - This trailer footage and screen_00 are most likely 2013 footage that SkyVu re-used on the 2026 Steam page [Inference, strong]: the trailer's class cards are pixel-matched to SkyVu's May 30, 2013 trailer (rfAyqVJrli4), and it shows only the 2013 launch's 8 classes and maps that existed in May 2013 (maps overview, section 0, item 1). They do not show the 2026 build; the final-playtest frames below do.
+  - This trailer footage and screen_00 are most likely 2013 footage that SkyVu re-used on the 2026 Steam page [Inference, strong]: the trailer's class cards are pixel-matched to SkyVu's May 30, 2013 trailer (rfAyqVJrli4); its gameplay matches that trailer's 160×90 YouTube storyboard at a constant offset of about 4 s, this walkway shot included (2013 39–40 s = Steam 34.95–35.95 s) [Observed, storyboard size: side by side in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps_ed_r2/pairs.jpg]; and it shows only the 2013 launch's 8 classes and maps that existed in May 2013 (maps overview, section 0, item 1). They do not show the 2026 build; the final-playtest frames below do.
   - The official "BBG Maps Ranked part 1" short includes the map's tube-room art among 16 map images [Observed].
   - Fan uploads from the Oct 15, 2026 final playtest show the map with the build stamp "3.0.7_2026.11.19_b7" [Observed]:
     - the tube room, Huggable-face crates and hanging dolls ([2F2Jzrgz-xs](https://www.youtube.com/watch?v=2F2Jzrgz-xs), "[LA]Huggable", Oct 17, 2026, maxresdefault, maxres1 and maxres3)
@@ -466,11 +466,11 @@ Sources:
 
 ## Corrections to our notes
 
-1. **research_notes/Battle Bears character lore/franchise_world.md, line 223.**
+1. **research_notes/Battle Bears character lore/franchise_world.md, Q2 §E "Settings and maps (wiki)", the H.I.P. Test Lab entry under "Map details" (formerly line 223).** Applied.
    - Current text: "  - **H.I.P. Test Lab**: Huggables in tubes and a hidden room of Huggables watching Rho on a screen."
    - Correction: "Huggables float in glowing tubes in each base's tube room [Observed: map tile; 2012 and 2026 footage]. In addition there are two high hidden rooms, one on each side, where about twenty Huggables stand in rows facing a monitor the wiki says shows Rho [Fan-wiki]. They are reachable only by glitching (So Fly; fixed in BBR 1.4.2 per the wiki)."
    - Evidence: the wiki map page ("In each side of the stage are a high placed room in otherwise unreachable height. In these rooms, around twenty Huggables are standing in rows, staring at a screen with repeating images of Rho"); thumbnail sdX5LvCKXt0/hq1.
-2. **reports/Battle Bears character lore.md, line 21.**
+2. **reports/Battle Bears character lore.md, the section "A cyborg crew fights love-crazed Huggables across a joke cosmos", the H.I.P. paragraph (line 21 when last checked).** Applied.
    - Current text: "a "Huggable Factory" map hinting that H.I.P. made the Huggables"
    - Correction: "a map renamed "H.I.P. Test Lab" in BBG (originally "Huggable Factory"), whose H.I.P. name the wiki says suggests H.I.P. "could be involved in the creation of the Huggables" [Fan-wiki]; on screen it keeps Huggables floating in tubes [Observed]"
    - Evidence: wiki H.I.P. page ("One of the game's stages, H.I.P. Test Lab, references to the H.I.P., suggesting that they could be involved in the creation of the Huggables"). The hint comes from the H.I.P. Test Lab name, and the wiki says "could be involved", not "made".

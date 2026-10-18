@@ -122,7 +122,7 @@
  {
   "name": "Space Oddity",
   "era": "BBR 1.0 launch map as 'Spacecraft' (wiki date Oct 8, 2011) [Fan-wiki]. Renamed for BBG ('version 2.0'), which launched on iOS May 24, 2013; the page moved Jun 4, 2013 [Fan-wiki]. BBR fixes: Huggable spawn-suicide bug (1.4) and Mini Me glitch (1.4.2, Feb 28, 2013) [Fan-wiki]. Centre pickup listed as 'Bearzerker' until Dec 30, 2012, then Bearscream Sandwich [Fan-wiki history]. Game-wide 'New Map Lighting' in v3.0 (Nov 15, 2021) [Game text via wiki]. Servers shut Mar 12, 2024 [Fan-wiki]",
-  "in_2026": "Named by SkyVu on Steam as a returning 'Iconic Map' [Canon]. OST track 6 'Space Oddity' (0:54) [Canon]. In Steam screenshot screen_01 and the Steam trailer at about 30.0-32.8 s [Observed]. That clip is 2013 footage too [Inference, strong]: the same moment, bloom included, is in the storyboard of SkyVu's May 2013 trailer (2013 35-36 s = Steam 30.85-31.95 s) [Observed]. Its tile render is row 3, col 3 of the 16-still grid in SkyVu's short 'BBG Maps Ranked part 1'; row 1, col 3 looks like a second Space Oddity view [Observed; Inference]. Not in any 2026 Steam news post. Which 2026 modes run on it, and any relighting, are unknown",
+  "in_2026": "Named by SkyVu on Steam as a returning 'Iconic Map' [Canon]. OST track 6 'Space Oddity' (0:54) [Canon]. In Steam screenshot screen_01 and the Steam trailer at about 30.0-32.8 s [Observed]. That clip is 2013 footage too [Inference, strong]: the same moment, bloom included, is in the storyboard of SkyVu's May 2013 trailer (2013 35-36 s = Steam 30.85-31.95 s) [Observed]. Its tile render is row 3, col 3 of the 16-still grid in SkyVu's short 'BBG Maps Ranked part 1'; row 1, col 3 looks like a second Space Oddity view [Observed; Inference]. Not in any 2026 Steam news post. Its 2026 modes and the Oct 15 relighting are recorded in the 'Space Oddity: 2026 final-build addendum' entry",
   "setting": "A compact, enclosed spaceship interior in space ['Indoor' Fan-wiki; Observed]. Amber-tinted window walls show stars, and a base window shows a white star [Observed]. 2012 fan footage from outside shows yellow-rimmed octagonal hull grilles, a blue-white planet and a starfield [Observed]. Whose ship is undocumented; the pink Huggable-faced crates, paw-print 'CRYO' pods and paw-print wall sign hint at the Huggable side [Inference]",
   "palette_and_lighting": "Warm amber against cool cyan, matte, mid-saturation, with glowing yellow trim. Window glass #7B3006 to #E68F1E. Grey-green catwalks #48665A. Pillar near-black olive #1F2010 with mustard chevrons #80700E. Floor tan #AD924B with ochre inlays #A57230. Cyan lights #35DAEE and glows #FCFFFD. Crates #2D3C35 with pink faces #B15E68. Tile: cream-olive #868448, yellow trim #DDDE00. Amber light shafts slant through the windows; cyan ring light, light cone, pipes and pads; no time of day [Observed]",
   "landmarks": "1) Central dark olive octagonal pillar (portholes, mustard chevrons) with a striped white-cyan top, under a cyan ring-light ceiling unit and light cone; Bearscream Sandwich on top, 4 jump pads around it. 2) Long amber star-window walls with two tiers of grey-green catwalks and twin-screen consoles (the wiki's 'bridges'). 3) Corner stacks of charcoal crates with pink grinning Huggable faces (Engineer turret spot). 4) Two-level bases at each end: consoles under a giant hex-glass window, and a yellow-edged floor opening down to a basement of 'CRYO' pods. 5) Yellow-framed octagonal doorways and glowing orange alcoves [Observed; Fan-wiki]",
@@ -232,7 +232,7 @@
  {
   "name": "Shortest Parsec",
   "era": "BBR 1.4.2 (Feb 28, 2013) [Game text via wiki]",
-  "in_2026": "Very likely: fan PT3 TDM, PT5 TB [Unverified]; no confident 2026 image [Unverified]",
+  "in_2026": "Very likely: fan PT3 TDM, PT5 TB [Unverified]; 2026 images: PICK LEVEL tile in SkyVu's Oct 15 stream (ZMhLVXWT6OY 19:50) [Observed match] and JustNubz final-playtest storyboard stills (1MP1rFi4t-Q 5:00\u201313:00, 57:00\u201361:00) [Observed]",
   "setting": "Red-and-white modular space station floating in a starfield, almost no walls [Fan-wiki; Observed]",
   "palette_and_lighting": "Steam screenshot screen_02, 2013 footage [Inference, strong]: space #1A113B, red panels #E91D25, white panels #FFFFFF; red and violet practical light [Observed]",
   "landmarks": "White-red station modules with red roundel emblems; teal asteroids with hex holes; interior hall with red angled ceiling panels and red/violet-lit doors; a giant laser between the bases; a floor switch [Observed; Fan-wiki]",
@@ -242,7 +242,7 @@
  {
   "name": "Marecraft",
   "era": "BBR 1.4.3 (Apr 15, 2013): \"Fight or die inside a giant living unicorn! The goriest battlefield ever!\" [Game text via wiki]",
-  "in_2026": "Very likely: fan PT2 KC x2 / TB, PT3 TDM x2, PT5 PTB [Unverified]; no 2026 image (the Q&A thumbnail reuses the Steam trailer shot [Observed], 2013 footage [Inference, strong])",
+  "in_2026": "Very likely: fan PT2 KC x2 / TB, PT3 TDM x2, PT5 PTB [Unverified]; a fan playtest thumbnail stamped build 3.0.2 shows it (_R4rvvGlRsM) [Observed; map identification Inference, strong]; the Q&A thumbnail reuses the Steam trailer shot [Observed], 2013 footage [Inference, strong]",
   "setting": "Inside the Marecraft carrier's digestive system [Fan-wiki]",
   "palette_and_lighting": "Steam trailer, 2013 footage [Inference, strong]: flesh walls #ED551C, flesh floor #FF402D, dark battlements #331D19 [Observed]",
   "landmarks": "Huge veined orange-red rib arches; red flesh floor; dark battlements; a dark tower topped with a satellite dish; a grey piston column; sniper towers each side; central bridge with the Bearscream Sandwich [Observed; Fan-wiki]",
@@ -422,7 +422,7 @@
  {
   "name": "Map roster and 2026 status",
   "era": "BBR 2011\u201313 (10 maps), BBG 2013\u201314 (+5), 2026 re-release (+Sky World/Sky Pirates)",
-  "in_2026": "Steam: '16 wacky maps'; 12 classic maps plus Sky Pirates appear in 2026 fan playtest chapter titles; Skate or Die likely in an official thumbnail; H.I.P. Test Lab and Toxic Terror unseen",
+  "in_2026": "Steam: '16 wacky maps'; 12 classic maps plus Sky Pirates appear in 2026 fan playtest chapter titles; Skate or Die likely in an official thumbnail; H.I.P. Test Lab seen in Oct 15 build 3.0.7 fan captures [Observed]; Toxic Terror unseen",
   "setting": "15 classic arenas + Sky World (an Overclock map, 'Skyworld' in BBO 3.0 notes; SkyVu calls it both Sky Pirates and Sky World)",
   "palette_and_lighting": "Steam trailer and screenshots: most likely May 2013 footage re-used on the 2026 Steam page [Inference, strong], the Space Oddity clip and screen_01 included (the same moment is in the 2013 trailer's storyboard [Observed]); none shows the 2026 look",
   "landmarks": "Named on Steam: No Bears Land, Gold Digger, Space Oddity, Steamyard Blues",
@@ -462,7 +462,7 @@
  {
   "name": "H.I.P. complex (Battle Bears Zero)",
   "era": "BB0 Oct 26 2012 [Fan-wiki] / 2013 [Canon About list]. H.I.P. emblem on the BB-1 Spaceboss (2010); H.I.P. Test Lab (BBR 1.0 'Huggable Factory', 2011) and Shortest Parsec (BBR 1.4.2, Feb 28 2013) in multiplayer [Fan-wiki]",
-  "in_2026": "No complex map [Unverified]. 'Huggable Factory' and 'Shortest Parsec' are in the 2026 OST [Canon]. H.I.P. Test Lab is in a build 3.0.7 capture from Oct 15, 2026 (2F2Jzrgz-xs) and Shortest Parsec's tile is in the PICK LEVEL carousel of SkyVu's Oct 15 stream [Observed]. In the Steam trailer (2013 footage) [Inference, strong], H.I.P. Test Lab is at 34.5-36.5 s and screen_00; Shortest Parsec at 24.0-28.0 and 49.5-51.5 s and screen_02, with the H.I.P. emblem on its floor discs [Observed].",
+  "in_2026": "No complex map [Unverified]. 'Huggable Factory' and 'Shortest Parsec' are in the 2026 OST [Canon]. H.I.P. Test Lab is in a build 3.0.7 capture from Oct 15, 2026 (2F2Jzrgz-xs) [Observed], and Shortest Parsec's tile is in the PICK LEVEL carousel of SkyVu's Oct 15 stream [Observed match]. In the Steam trailer (2013 footage) [Inference, strong], H.I.P. Test Lab is at 34.5-36.5 s and screen_00; Shortest Parsec at 24.0-28.0 and 49.5-51.5 s and screen_02, with the H.I.P. emblem on its floor discs [Observed].",
   "setting": "An H.I.P. spaceport and lab base on the planet's surface, where the seized Ursa Major is landed [Fan-wiki; Observed window onto green hills; Inference].",
   "palette_and_lighting": "High-key white and pale grey labs: hangar wall #A8A092, floor #5D6768, red leg strips #A30C15, hills through window #67C48C. Plant lab white #FDFFFF with blue power cell #18B5EE. Delta room cyan strip #87E1D4. Turret room gunmetal #656D80 with red lasers #A02B37 [Observed].",
   "landmarks": "Landed Ursa Major on four black legs; Plant Boss bulb on a glowing blue power cell; checkerboard kitchen with copper pans; glowing H.I.P. roundel; Rho's single red eye under ceiling turrets [Observed].",

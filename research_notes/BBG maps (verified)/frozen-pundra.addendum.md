@@ -249,11 +249,11 @@ Use the pale-yellow faceted blasts, grey faceted smoke and bolt tokens only as a
 ---
 
 ## Corrections to our notes
-1. **/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md, Q1 §A, "Map fly-throughs" (line 81). Applied: the entry now reads as the correction below.**
+1. **/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md, Q1 §A, "Map fly-throughs", the Frozen Pundra entry. Applied: the entry now reads as the correction below.**
    - Text at the time: `  - "2.7 'Frozen Pundra'" (Jan 22, 2014) — [Ev5WvMIp1_4](https://www.youtube.com/watch?v=Ev5WvMIp1_4)`
    - Correction: `  - "BATTLE BEARS GOLD Update 2.7 "Frozen Pundra" Map Preview" (Jan 22, 2014, 0:31): "Check out this epic fly through of the new map coming to BATTLE BEARS GOLD in Update 2.7! Are you excited?" — [Ev5WvMIp1_4](...)`. The Jan 22 date is now verified. This replaces the main dossier's advice to mark it "not re-verified".
    - Evidence: the Invidious record at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/critic/inv/inv_Ev5WvMIp1_4.json (author "BATTLE BEARS", published 1390348800 = 2014-01-22, lengthSeconds 31, full description).
-2. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md, line 216.**
+2. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md, Q2 §E "Settings and maps (wiki)", the "BBG stages" bullet and its Frozen Pundra sub-bullet (formerly line 216).** Applied, with the playtest modes.
    - Current: `Desert Airmine, Frozen Pundra, plus Steam Yard Blues (v2.8)`
    - Correction: `Desert Airmine, Frozen Pundra (v2.7; SkyVu preview Jan 22, 2014; wiki date Jan 23, 2014), plus Steam Yard Blues (v2.8)`. Optionally add that it was played in the 2026 playtests (Team Battle in PT2, Free for All in PT3, Plant the Bomb in the final playtest).
    - Evidence: the official video title and date above; wiki Updates 2.7 row; the frames listed in this addendum.

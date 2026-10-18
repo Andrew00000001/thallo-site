@@ -282,14 +282,14 @@ A comparison board of frames 1, 2, 3, 4, 5 (the f_1500000 room), 7, 8 and 9 is a
 6. **Same file, lines 284 and 288 (open questions).**
    - Interior frames now exist (section 3). The symbols are still unconfirmed.
    - 2026 playtest modes are answered (section 2). The launch rotation stays open.
-7. **/home/user/thallo-site/research_notes/BBG weapons (verified)/2026.addendum.md, line 303.**
+7. **/home/user/thallo-site/research_notes/BBG weapons (verified)/2026.addendum.md, "Blue lightning-bolt tokens (sub-topic; the gap's "Joule tokens")" (formerly line 303).** Applied: that sub-topic and its open question 7 now say the bolt tokens are not KC tags and are probably Joule drops.
    - Current text: "  - Whether the tokens are Joule drops, Kill Confirmed tags or both is [Unverified]."
    - Correction: the blue-bolt hex tokens also appear in non-KC Aztec matches:
      - the chaptered PTB match (aujTcdFuxdE f_2590000, 43:10, and f_2760000, 46:00);
      - the FFA match (MhJakRqd9ew, ≈3:56).
    - KC "SCORED/DENIED" feed entries use a different, tag-shaped icon (1MP1rFi4t-Q maxres1; MS2wiArCiCA f_2360000). So the bolt tokens are not KC tags. That they are Joule drops is [Inference, likely].
-   - The same applies to open question 7 at line 359.
-8. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md, line 225** ("**Aztec Attack**: temple carvings of O.C.O. and Astoria.").
+   - The same applies to open question 7 in that file's first "Open questions" list (formerly line 359).
+8. **/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md, Q2 §E "Settings and maps (wiki)", the Aztec Attack entry under "Map details" (formerly line 225)** ("**Aztec Attack**: temple carvings of O.C.O. and Astoria."). Applied: the entry now carries the hedged wiki wording, the 2013-07-06 date and the 2026 spawn-room note.
    - In addition to the earlier draft's fix (use the hedged wiki wording), append: "2026 playtest frames of both spawn rooms show no identifiable OCO or Astoria carving; the wiki line dates from 2013-07-06."
    - The labels in the lore report and in characters/oliver.md and characters/astoria.md ("[Fan-wiki, Unverified]") remain correct.
 

@@ -43,7 +43,7 @@ So the map's first era runs from late 2011 to May 2013.
   Desert Airmine is also absent from all 7 Steam news posts [Canon].
 - **battlebears.com:** "This year we're bringing it back to Steam PC and Mobile, packed with new modes, maps, skins and more!" [Canon]
 - **play.battlebears.com:** "Play the demo on Steam from October 19-26" [Canon].
-- **Official BBR maps list, Nov 2012:** "Haunted Castle, Abusement Park, Facing Temples, Battlefield Airpad, Desert Airmine, Huggable Factory, Spacecraft." [Canon per our prior notes (franchise_world.md line 98); Unverified this session because the Wayback Machine was unreachable] ([archived maps page](https://web.archive.org/web/20121130022926/http://www.battlebears.com/games/battle-bears-royale/maps)).
+- **Official BBR maps list, Nov 2012:** "Haunted Castle, Abusement Park, Facing Temples, Battlefield Airpad, Desert Airmine, Huggable Factory, Spacecraft." [Canon per our prior notes (franchise_world.md, Q1 §F "Official settings and maps"); Unverified this session because the Wayback Machine was unreachable] ([archived maps page](https://web.archive.org/web/20121130022926/http://www.battlebears.com/games/battle-bears-royale/maps)).
 - **In-game map-select tile:** gold block letters "DESERT AIRMINE" in an orange-framed square, over a view of the drill tower [Observed] (wiki File:DesertAirmine.png, 256×256, uploaded 2014-01-29). The wiki uses it in its BBG stage grid, so it is probably the BBG map-select icon [Inference].
 - **Patch notes quoted on the wiki:** none mention Desert Airmine [Game text via wiki] ([Updates](https://battlebears.fandom.com/wiki/Updates)).
   - The BBR 1.0 row reads only "Battle Bears Royale".
@@ -333,7 +333,7 @@ Where this description stands against the sources:
 ---
 
 ## Corrections to our notes
-1. **research_notes/Battle Bears character lore/franchise_world.md, line 276**
+1. **research_notes/Battle Bears character lore/franchise_world.md, Q3 §B "Class and title naming conflicts", the "Map count" bullet (formerly line 276)**. Applied: its "Removals and returns" sub-bullet now has both returns.
    - Current: "and Haunted Castle and Desert Airmine were removed at 2.0 and Haunted Castle later returned"
    - Correction: "and Haunted Castle and Desert Airmine were removed at 2.0. Haunted Castle returned in v2.4 (Oct 24, 2013) and Desert Airmine in v2.7 (Jan 23, 2014) [Fan-wiki]. Desert Airmine also has track 12 on the 2026 Steam OST [Canon] and appears in Oct 2026 playtest footage [Observed, fan frame]."
    - Evidence:
@@ -341,18 +341,18 @@ Where this description stands against the sources:
      - The Updates 2.4 row says "Haunted Castle returns as a playable stage".
      - Steam OST app 5321720 lists "12 Desert Airmine 1:13".
      - https://i.ytimg.com/vi/1MP1rFi4t-Q/maxres3.jpg shows the map in build 3.0.7.
-2. **reports/Battle Bears character lore.md, line 113**
+2. **reports/Battle Bears character lore.md, the Graham section ("Graham (Engineer) is the oldest bear…"), the Desert Airmine drill sentence (formerly line 113)**. Applied.
    - Current: "The wiki dates his class to BBR v1.4 and says his face first appeared on the spinning drill of the Desert Airmine map."
    - Correction (a clarification; the attribution is accurate): keep it, and add that this can at most be his first in-game appearance. SkyVu's own 2011 "BATTLE BEARS ROYALE Sneak Peek" already shows Graham in key art [Observed], and the Desert Airmine page describes the drill as moving "up and down", not spinning [Fan-wiki].
    - Evidence:
      - IucMFqzR_Qw ("15y ago"; snippet "BATTLE BEARS ROYALE for iOS coming very soon!") auto-frame hq1 shows a bear with a yellow hard hat, teal goggles and a white moustache.
      - The drill emblem in Desert_Airmine2.jpg shows the same design.
      - The map page says "constantly alternates in going up and down".
-3. **research_notes/Battle Bears character lore/astoria_graham_tillman.md, line 183**
+3. **research_notes/Battle Bears character lore/astoria_graham_tillman.md, "Graham: wiki claims", the "first appeared" bullet (formerly line 183)**. Applied: a "Clarification" sub-bullet now follows it.
    - Current: "The wiki also says a picture of Graham's face on the spinning drill of the Desert Airmine map "was his first appearance.""
    - Correction: the same clarification as item 2.
    - Evidence: as in item 2. The Graham page reads "in which that was his first appearance in Battle Bears".
-4. **research_notes/Battle Bears character lore/animation_reference.md, Q1 §C, the Steam soundtrack entry (formerly line 170)** (an addition, not an error). Applied: the 24-track list now follows that entry.
+4. **research_notes/Battle Bears character lore/animation_reference.md, Q1 §C "Official music credits", the Steam "BATTLE BEARS GOLD Soundtrack" entry (formerly line 170)** (an addition, not an error). Applied: the 24-track list now follows that entry.
    - Current: "[OFFICIAL, 2026] Steam "BATTLE BEARS GOLD Soundtrack" (release Nov 4, 2026): "The official BATTLE BEARS GOLD Soundtrack featuring original map and menu music by Rob Ruiz, AnDrue Humphreys, and Benjamin Vavak. …""
    - Addition: the track list. 24 tracks, 16 map-named:
      1. Abusement Park 0:54
@@ -374,7 +374,7 @@ Where this description stands against the sources:
 
      Then Main Menu (BBG), Tutorial, After Match, Main Menu (BBR), two "(Full Version)" tracks and two vocal tracks.
    - Evidence: https://store.steampowered.com/app/5321720/ (fetched 2026-10-18) and its track-list screenshot.
-5. **bbg-news-repo/content/evergreen.json, "fact-playtests", lines 138–147**
+5. **bbg-news-repo/content/evergreen.json, the "fact-playtests" entry**. Applied: it now says five playtests, ending with the Oct 15 final, and that the reveal video calls Sky World "Sky Pirates".
    - Current: "SkyVu ran four Battle Bears Gold playtests on the Battle Bears Discord between July and September 2026." (headline "4 PLAYTESTS DOWN")
    - Correction: this is out of date. A fifth, final playtest ran Thursday Oct 15, 2026, on Windows, iOS and Android. Also, the playtest-3 map announced on Steam as "New Map: Sky World" is titled "Sky Pirates" in SkyVu's later official video.
    - Evidence:
@@ -402,7 +402,7 @@ Where this description stands against the sources:
     - Correction: a 2026 final-playtest frame (build 3.0.7) now shows the map: pale blue sky, red canyon, sand islands, green-slatted drill arms, a rust-brown block over a square shaft, a plank, and post-and-fence railings.
     - Evidence: https://i.ytimg.com/vi/1MP1rFi4t-Q/maxres3.jpg
 
-*Considered and not adopted:* the draft suggested adding to bbg-news-repo/characters/graham.md line 49 that the drill emblem shows "that same head". The emblem's hard hat is plain yellow, while graham.md's card look is an orange hat with white stripes. So any note there should say the emblem is a simplified yellow-hat version, not the same design.
+*Considered and not adopted:* the draft suggested adding to bbg-news-repo/characters/graham.md ("Look (for animation)", by the card-look bullet) that the drill emblem shows "that same head". The emblem's hard hat is plain yellow, while graham.md's card look is an orange hat with white stripes. So any note there should say the emblem is a simplified yellow-hat version, not the same design.
 
 ## Open questions
 - Is Desert Airmine in the Nov 4, 2026 launch rotation and the Oct 19–26 Steam demo, and is it one of the "16 wacky maps"? The playtest evidence says yes for the playtest builds only.

@@ -88,6 +88,7 @@ Path shorthand: **[V]** = `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51
   - **Steam trailer:** it shows the map at ≈12.25–16.4 s and ≈43.1–45.7 s [Observed], but this is 2013 footage [Inference, strong]:
     - its eight class cards (B-1000, Graham, Astoria, Wil, Tillman, Huggable, Riggs, Oliver) are the 2013 trailer's "8 classes";
     - the 2013 trailer's hq/maxres/sd thumbnails match Steam-trailer frames at 11.92 s, 28.89 s and 42.85 s with pixel MSE 11–13, against a median of about 7,000 [Observed: my pixel comparison];
+    - its gameplay matches the 2013 trailer's 160×90 YouTube storyboard at a constant offset of about 4 s, both Aztec shots included (2013 17–20 s = Steam 12.85–15.85 s; 2013 48–49 s = Steam 43.95–44.95 s) [Observed, storyboard size: maps overview, section 0, item 1; side by side in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps_ed_r2/pairs.jpg];
     - Assassin, Combat Tech and Arbiter are absent.
   - **Lighting caution:** SkyVu's Oct 14, 2026 post lists "Lighting improvements" for the final playtest [Canon]. The launch build may not match the 2013 look.
   - **Launch roster:** inclusion in the Nov 4, 2026 launch is a strong [Inference]; the store text does not confirm it. The 2026 modes are TDM, FFA and PTB [Canon]. That FFA ran on this map in the Aug 2026 playtest is from the fan chapter title. Which modes run at launch is [Unverified].
@@ -336,14 +337,15 @@ Path shorthand: **[V]** = `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51
      - The enclosed red-orange space at ≈38.5–41 s is a flesh interior with vein-lined walls and rib columns, probably Marecraft [Inference].
      - The Steam trailer re-edits the May 2013 launch trailer, so it shows the 2013 look, not the 2026 build [Inference, strong].
 2. **Same file, Fact-check log, "Corrected" item 17 (formerly line 667)** ("The lava caverns are attributed to the trailer, not the screenshots."). Same fix. Applied: that sub-bullet now says the lava-caverns fix was superseded on 2026-10-18.
-3. **`franchise_world.md`, line 225** ("**Aztec Attack**: temple carvings of O.C.O. and Astoria.").
+3. **`franchise_world.md`, Q2 §E "Settings and maps (wiki)", the Aztec Attack entry under "Map details" (formerly line 225)** ("**Aztec Attack**: temple carvings of O.C.O. and Astoria."). Applied: the entry now uses the wiki's hedged wording and says no image the maps research opened shows the symbols.
    - Use the wiki's hedged wording: "One temple has a symbol representing Over Clocked Oliver, while the other has a symbol representing Astoria" (Aztec page, added 2013-07-06), and "there seems to be a carving of Over Clocked Oliver, along with Astoria. Both are located at each team's spawn points" (OCO page).
    - Add that no image from 2012–2026 shows them.
-4. **`research_notes/BBG weapons (verified)/combat-vfx.md`, line 779**, plus the same line in combat-vfx.meta.json (line 228), the unverified draft visuals_combat-vfx.md (line 463) and the scratchpad weapons draft.
+4. **`research_notes/BBG weapons (verified)/combat-vfx.md`, "Respawn, suicide and hazards", the Aztec lava bullet under "Hazards" (formerly line 779)**, plus the same line in combat-vfx.meta.json (the "look" field of the "Respawn, suicide and hazards" entry), the unverified draft visuals_combat-vfx.md (line 463) and the scratchpad weapons draft.
    - "Lava borders the Aztec maps [Observed: trailer 43.5–46 s; Maxresdefault(100).png]" → "Lava surrounds the Aztec Attack map (one map) [Observed: trailer ≈43.1–45.7 s, 2013 footage; File:Maxresdefault(100).jpg]".
-5. **`research_notes/BBG weapons (verified)/oliver.md`, line 240** ("On the lava map (about 38.0–41.5 s)"), and the unverified visuals_oliver.md, line 186.
-   - That shot is the flesh interior (probably Marecraft), not a lava map.
-6. **`research_notes/BBG weapons (verified)/2026.md`, line 138** ("38.6–41.0 s, lava cave").
+   - Applied in both verified files.
+5. **`research_notes/BBG weapons (verified)/oliver.md`, "Unidentified Steam-trailer rifle (Gold Oliver)", the Marecraft-shot bullet (formerly line 240)** ("On the lava map (about 38.0–41.5 s)"), and the unverified visuals_oliver.md, line 186.
+   - That shot is the flesh interior (probably Marecraft), not a lava map. Applied in oliver.md.
+6. **`research_notes/BBG weapons (verified)/2026.md`, "The Steam trailer is 2013 footage", the weapon-shot table's Marecraft row (formerly line 138)** ("38.6–41.0 s, lava cave"). Applied.
    - Change to: "38.5–41 s, Marecraft-style flesh interior (not lava) [ID Inference]".
 7. **Unverified weapons draft `visuals_combat-vfx.md`, line 77** (repo and scratchpad copies): "The body is still there at 14.9 s, when the shot ends".
    - The Aztec shot runs to ≈16.4 s, and the body is visible at 15.5 s. The verified combat-vfx.md already has the fix.
@@ -353,7 +355,7 @@ Path shorthand: **[V]** = `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51
    - Line 46: there is no numbering conflict.
    - Line 84: "summit shrine with a pyramidal roof cap" becomes a truncated-pyramid upper tier with stairs up to a square summit.
 
-The lore report (lines 53 and 91) and characters/oliver.md (line 35) and astoria.md (line 32) label the temple symbols correctly as wiki claims; no change is needed. astoria_graham_tillman.md (line 153) quotes the wiki exactly.
+The lore report (its Oliver and Astoria sections) and characters/oliver.md and astoria.md (each under "Relationships") label the temple symbols correctly as wiki claims; no change is needed. astoria_graham_tillman.md ("Astoria: wiki claims", the map-trivia bullet) quotes the wiki exactly.
 
 ## Open questions
 
