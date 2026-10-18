@@ -5,7 +5,7 @@
    "owner": "All classes",
    "slot": "n/a",
    "status": "BBR/BBG 2013 captures, the Steam media's 2013 footage and 2026 playtest captures",
-   "look": "Mixed effect looks: soft billowing particle fire with dark smoke; painterly cartoon flames (#F47E3E / #FAA751); hard-edged translucent faceted volumes only for specific blasts (nuke dome, radiation burst, shard bursts, white faceted puffs). Pink beams #FF5DFE, cyan lightning #80FFFE. Characters have a thick black ink outline in SkyVu's May 2013 trailer footage (re-used in the Steam trailer and screenshots [Inference, strong], apart from the undated Space Oddity shot and screen_01) and in 2026 playtest captures (builds 3.0.0, 3.0.7), but not in 2012-14 player captures on the wiki [Observed].",
+   "look": "Mixed effect looks: soft billowing particle fire with dark smoke; painterly cartoon flames (#F47E3E / #FAA751); hard-edged translucent faceted volumes only for specific blasts (nuke dome, radiation burst, shard bursts, white faceted puffs). Pink beams #FF5DFE, cyan lightning #80FFFE. Characters have a thick black ink outline in SkyVu's May 2013 trailer footage (re-used in the Steam trailer and screenshots, the Space Oddity shot and screen_01 included [Inference, strong]; the gameplay matches the 2013 trailer's 160x90 storyboard [Observed, storyboard size]) and in 2026 playtest captures (builds 3.0.0, 3.0.7), but not in the 2012-14 player captures on the wiki [Observed]. Some 2013 fan videos of Graham do have it [Observed: graham.addendum.md, Incidental findings 1].",
    "firing_and_projectile": "Beams are flat ribbons with white-hot cores (pink, thick yellow with concentric muzzle arcs, thin purple); thin yellow tracers.",
    "impact_end_result": "Flat octagonal floor rings (white on Shortest Parsec, white/grey by a Gold Digger tunnel mouth, orange and white over Gold Digger's open pit); pink 4-point star sparks for beam hits, yellow 5-point stars for melee; 2D status icons above heads. The outline is rendered in-game in 2026 [Observed]; whether it is always on or a setting is Unverified.",
    "confidence": "observed"
@@ -14,7 +14,7 @@
    "weapon": "Ordinary death (intact collapse)",
    "owner": "All classes",
    "slot": "n/a",
-   "status": "Seen in the Steam trailer (2013 footage; the 31.7 s Space Oddity shot is undated); BBR/BBG",
+   "status": "Seen in the Steam trailer (2013 footage, the 31.7 s Space Oddity shot included); BBR/BBG",
    "look": "Victim goes limp and topples whole, face-down, with no blood. Examples at 12.6 s, 31.7 s, about 40.1 s and 41.1 s in the trailer.",
    "firing_and_projectile": "n/a",
    "impact_end_result": "In one shot the corpse vanished in a single frame about 3 s after the fall, with no fade. Three Joule pickups drop at the death site (since BBG v2.1) [Fan-wiki].",
@@ -282,7 +282,7 @@
    "file": "/home/user/thallo-site/bbg-news-repo/characters/README.md",
    "current_text": "No blood, gore or organs: bears throw sparks, Huggables burst into rainbow confetti, robots shed bolts.",
    "correction": "Keep the rule, but label it and add the observed baseline. In BBG footage many deaths are an intact ragdoll collapse; some kills (a nuke blast, an irradiated target, one B-1000 close-range kill) break the body into a few clean toy-like chunks [Observed]. What decides which is unknown. SkyVu's own merch art shows a headless Huggable with white stuffing and a vertical rainbow column [Canon: official 2023 merch art, not gameplay]. BBG News dresses the chunks as sparks (bears), white fluff plus a rainbow column (Huggables) and bolts (robots) [BBG News invention, except the Huggable look above]. No source shows confetti.",
-   "evidence": "Steam trailer (2013 footage; the 31.7-32.7 s Space Oddity shot is undated) 4.6-5.6 s, 9.0 s, 12.6-16.0 s, 26.6-27.8 s, 31.7-32.7 s, 40.1 s, 41.1-41.4 s (.../dl/combat-vfx-check/sheets2/ta3.jpg, ta6.jpg, tb3.jpg, td1.jpg, te1.jpg, tf4.jpg). battlebears.com product 'Huggable Rainbow Explosion T-shirt Black' ('Official Huggable Rainbow Explosion T-shirt in Black.', published 2023-05-05): .../dl/combat-vfx-check/web/rainbow_shirt_cu_view.jpg, JSON re-fetched live to .../dl/combat-vfx-edit/web/shirt.json."
+   "evidence": "Steam trailer (2013 footage, the 31.7-32.7 s Space Oddity shot included) 4.6-5.6 s, 9.0 s, 12.6-16.0 s, 26.6-27.8 s, 31.7-32.7 s, 40.1 s, 41.1-41.4 s (.../dl/combat-vfx-check/sheets2/ta3.jpg, ta6.jpg, tb3.jpg, td1.jpg, te1.jpg, tf4.jpg). battlebears.com product 'Huggable Rainbow Explosion T-shirt Black' ('Official Huggable Rainbow Explosion T-shirt in Black.', published 2023-05-05): .../dl/combat-vfx-check/web/rainbow_shirt_cu_view.jpg, JSON re-fetched live to .../dl/combat-vfx-edit/web/shirt.json."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",

@@ -87,7 +87,7 @@ I watched no video. Every YouTube [Observed] tag means a still thumbnail I opene
   - The model shown is a **plain golden-tan bear with a thin red headband**, with no helmet and no shirt [Observed, low-res].
   - hq3 shows the same look from behind: the headband is tied at the back with two tails, and he wears the ABBi backpack and holds the Bow [Observed, low-res].
   - Which skin is the 2026 default is [Unverified].
-- **Steam trailer:** the Wil in the trailer wears the **Booty Duty** skin [Observed match: `$T/t_0037.jpg`–`t_0043.jpg` vs File:Booty_duty.png and File:Booty.png concept]. It has:
+- **Steam trailer** (2013 footage [Inference, strong], so this is the classic look, not the 2026 build): the Wil in the trailer wears the **Booty Duty** skin [Observed match: `$T/t_0037.jpg`–`t_0043.jpg` vs File:Booty_duty.png and File:Booty.png concept]. It has:
   - a red headband and a pink-white tank top;
   - red shorts, and red and orange striped wristbands and leggings;
   - a **red-and-black backpack covered in snacks** (cookie, candy, lollipop) [Observed: `$V/crops/tr_212.png`].
@@ -533,7 +533,7 @@ I watched no video. Every YouTube [Observed] tag means a still thumbnail I opene
    - Evidence: i.ytimg.com/vi/r7TipV3IYtI/hqdefault.jpg, hq1, hq3 ("Wil Animations 21/03/2012", SkyVu channel); File:Wil_default.png, Arrow.jpg, Bbooww.jpg, Doomstick.jpg, Wil's_backpack.png; File:Wil_skin.png; wNpM1woYv7k hq1; OqSi3rfMdl8 hq1; MS2wiArCiCA hq1–hq3.
 2. **Line 49.**
    - Current: "The research never describes his BBG trailer card ([Steam][steam]) or the 2026 playtest showcase ([fan upload][showcase]); check both before locking the model."
-   - Correction: The Steam trailer's "Wil / CHUB SCOUT" card (22.5–23.5 s) shows Wil in the Booty Duty skin: red headband, pink-white tank, red shorts, striped wristbands and leggings, and a red-and-black snack-covered backpack. He eats a Batterito at 17.8–20 s and breathes a yellow-core, orange-edged flame jet [Observed]. The JustNubz showcase is still unwatched; its thumbnails show no Wil.
+   - Correction: The Steam trailer's "Wil / CHUB SCOUT" card (22.5–23.5 s; 2013 footage [Inference, strong]) shows Wil in the Booty Duty skin: red headband, pink-white tank, red shorts, striped wristbands and leggings, and a red-and-black snack-covered backpack. He eats a Batterito at 17.8–20 s and breathes a yellow-core, orange-edged flame jet [Observed]. The JustNubz showcase is still unwatched; its thumbnails show no Wil.
    - Evidence: `$T/t_0037`–`t_0048.jpg`; `$V/trailer/f_17.9.png`, `f_21.2.png`, `f_23.0.png`; File:Booty_duty.png; wiki Booty Duty page.
 3. **Colours, line 51.**
    - Current: "Unsampled picks [BBG News invention]: cap #C8352E, shirt #F2EFE6, ABBi grey #8B9299, eyes #141414, ice pop #3FA7E0."

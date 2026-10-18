@@ -32,31 +32,32 @@ So no SkyVu patch note was read. Every per-version number below is the wiki's tr
 - Hex colours are means of small pixel patches, so they are approximate.
 - Scale: the BBG News chart sets Oliver = 1.0x and the Huggable at about 0.65x [BBG News invention]. Weapon sizes are proportions measured on Gear Up renders, multiplied by 0.65 [Inference].
 - Era: the 2D "menu display" cards on the wiki are April 2013 captures (Photo_27-04-13_*). The same cards already appear in October 2012 BBR Gear Up screenshots [Observed]. I call them "Gear Up cards (BBR, by Oct 2012)".
-- Era of the Steam media (added 2026-10-18, from the verified maps research): the trailer SkyVu put on the 2026 Steam page ("Battle Bears Gold Premium - Trailer") and the five Steam screenshots, which are frames of it, are most likely re-edited 2013 launch footage [Inference, strong]. Its class cards are pixel-matched to SkyVu's May 30, 2013 BBG trailer rfAyqVJrli4 [Observed, per research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1], and its gameplay matches that trailer's YouTube storyboard at a constant offset of about 4 s (45 of 55 frames) [Observed, per research_notes/BBG weapons (verified)/2026.md, trailer section]. So I call it "the Steam trailer" and never treat it as 2026 gameplay.
-  - Exception: the Space Oddity clip (about 30.0-32.8 s; Steam screenshot 01), which holds the So Fly shot, the first Punk Bands swing, the kill and the colour samples at 32.6-32.7 s. Its pillar top blooms to near-white, unlike 2013 and 2021 fan captures, so it may be a newer or relit capture [Inference, per research_notes/BBG maps (verified)/space-oddity.md]. Its capture date is open in the maps notes [Unverified]. I tag it "Space Oddity clip, date open".
-    - Against that, the same moment is in the 2013 storyboard: its 35-36 s frames match Steam 30.85-31.95 s at greyscale MSE 596 and 830, against medians of about 7,400-8,600 [Observed, per 2026.md; I opened /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg]. So this clip is most likely 2013 footage too [Inference, strong], and why its pillar top blooms is [Unverified]. I keep the tag until the maps notes take this up. Either way it is not 2026 evidence.
+- Era of the Steam media (added 2026-10-18, from the verified maps research): the trailer SkyVu put on the 2026 Steam page ("Battle Bears Gold Premium - Trailer") and the five Steam screenshots, which are frames of it, are most likely re-edited 2013 launch footage [Inference, strong]. Its class cards are pixel-matched to SkyVu's May 30, 2013 BBG trailer rfAyqVJrli4 [Observed, per research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1], and its gameplay matches that trailer's 160x90 YouTube storyboard at a constant offset of about 4 s (45 of 55 frames from 5-59 s) [Observed at storyboard size, per research_notes/BBG weapons (verified)/2026.md, "The Steam trailer is 2013 footage"]. So I call it "the Steam trailer" and never treat it as 2026 gameplay.
+  - The Space Oddity clip (about 30.0-32.8 s; Steam screenshot screen_01 is a frame of it) is no exception. It holds the So Fly shot, the first Punk Bands swing, the kill and the colour samples at 32.6-32.7 s, and it is 2013 footage too [Inference, strong].
+    - The same moment, bloom included, is in the 2013 storyboard: its 35-36 s frames match Steam 30.85-31.95 s at greyscale MSE 596 and 830, against medians of about 7,400-8,600 [Observed, per 2026.md, "The Steam trailer is 2013 footage"; I opened /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg]. The Space Oddity dossier now says so too [per research_notes/BBG maps (verified)/space-oddity.md, "Age of the official footage"].
+    - Only why its pillar top blooms to near-white, unlike 2013 and 2021 fan captures, is [Unverified]. I tag it "Space Oddity clip, 2013 footage [Inference, strong]". It is not 2026 evidence.
   - The genuine 2026 evidence here is the Closed Playtest #4 Gear Up frame (see Whack-Tus) and SkyVu's 2026 short "New Skin! Classic Oliver is here!" (byri_kQBUS4, Jul 6, 2026).
 
 **Model notes for every weapon:**
-- **Colour.** In the Steam trailer the pink is about #FE7BAC lit, #E24981 mid-tone and #A03559 shadow [Observed: trailer 32.7 s, Space Oddity clip, date open]. The 2013 render highlight is about #EEA1CD [Observed: LYH.jpg]. In the 2026 Closed Playtest #4 Gear Up frame the Pink Huggable reads a deeper magenta-pink, about #DD75B4 lit, #9E3F77 mid-tone and #851F5C shadow, under menu lighting [Observed, sampled on a 480x360 thumbnail: https://i.ytimg.com/vi/-lAtv-j9Sms/hq3.jpg].
+- **Colour.** In the Steam trailer the pink is about #FE7BAC lit, #E24981 mid-tone and #A03559 shadow [Observed: trailer 32.7 s, Space Oddity clip, 2013 footage [Inference, strong]]. The 2013 render highlight is about #EEA1CD [Observed: LYH.jpg]. In the 2026 Closed Playtest #4 Gear Up frame the Pink Huggable reads a deeper magenta-pink, about #DD75B4 lit, #9E3F77 mid-tone and #851F5C shadow, under menu lighting [Observed, sampled on a 480x360 thumbnail: https://i.ytimg.com/vi/-lAtv-j9Sms/hq3.jpg].
 - **Face.** A red glossy button eye with a stitched scar running up to a cream head bandage, a small black dot eye and a huge white grin [Observed].
 - **Head radio.** A green box with a thin grey antenna [Observed].
-  - The ball tip is red on the 2013 Gear Up renders, in the Steam trailer (32.6 s, Space Oddity clip, date open) and in the 2026 Closed Playtest #4 Gear Up frame [Observed; the playtest frame is low resolution].
+  - The ball tip is red on the 2013 Gear Up renders, in the Steam trailer (32.6 s, Space Oddity clip, 2013 footage [Inference, strong]) and in the 2026 Closed Playtest #4 Gear Up frame [Observed; the playtest frame is low resolution].
   - It is blue in 2012-13 in-game fan footage, in the Mini Me screenshot and on the 2D cards [Observed].
   - Skins vary: the red Seesaw render has a green tip [Observed].
 - **Body.** A zip-stitched chest scar and a torn belly showing grey-and-white crumpled material [Observed]. The 2026 Closed Playtest #4 Gear Up frame shows both on the Pink Huggable [Observed, low resolution]. The wiki calls it a "metalic jagged wound" with "what appears to be stuffing bulging out" [Fan-wiki: Pink Huggable].
 - **Wrists.**
-  - 3D default Pink: dark grey cuffs, each set with a round glossy red light [Observed: LYH.jpg and ChargedRunStance.jpg, uploaded 2013-12-21; Steam trailer 32.6-32.7 s, Space Oddity clip, date open]. In the 2026 Closed Playtest #4 Gear Up frame the cactus clubs sit at both paws and no cuff can be made out, so no 2026 frame shows the bare cuffs yet [Observed, low resolution].
+  - 3D default Pink: dark grey cuffs, each set with a round glossy red light [Observed: LYH.jpg and ChargedRunStance.jpg, uploaded 2013-12-21; Steam trailer 32.6-32.7 s, Space Oddity clip, 2013 footage [Inference, strong]]. In the 2026 Closed Playtest #4 Gear Up frame the cactus clubs sit at both paws and no cuff can be made out, so no 2026 frame shows the bare cuffs yet [Observed, low resolution].
   - 2013 melee Gear Up renders: the weapon's mount covers the wrist, and the Presidentures card shows black wrist straps [Observed].
   - 2D cards mostly show cuffs with blue gems [Observed]. The exception is the August 2013 Tough Love infobox card, which shows plain dark bands [Observed].
   - The orange skin in-game wears blue wrist bands [Observed: Steam screen_00; LYH fan thumbnails].
-- **Melee display in the Steam trailer (Space Oddity clip, date open).** The Punk Bands show only during the swing (30.9-31.2 s). The arms show bare cuffs during the flight (30.4-30.8 s) and after the kill (32.6-32.7 s) [Observed]. That this is a general rule is [Inference]. Whether 2026 does the same is [Unverified].
+- **Melee display in the Steam trailer (Space Oddity clip, 2013 footage [Inference, strong]).** The Punk Bands show only during the swing (30.9-31.2 s). The arms show bare cuffs during the flight (30.4-30.8 s) and after the kill (32.6-32.7 s) [Observed]. That this is a general rule is [Inference]. Whether 2026 does the same is [Unverified].
 - **Team banner.**
   - Red team: a tall, narrow red banner on a pole rising above the head, with three pale symbols stacked vertically [Observed: Steam trailer 3.0-3.9 s, 2013 footage [Inference, strong]; Dancing_Huggable.jpg, 2013].
   - Blue team: blue banners [Observed]. Steam screen_00 shows blue with orange shapes. Steam screen_04 / trailer 26.0 s shows dark blue with a teal swirl.
   - The wiki says the three white symbols are "lined up horizontally" [Fan-wiki: Pink Huggable], which the images contradict.
 - **Generic melee hit FX.**
-  - In the Steam trailer the target flashes pure white (30.9-31.1 s, Space Oddity clip, date open), and pale-yellow five-point stars burst at contact (35.7-36.3 s; Steam screen_00; 2013 footage [Inference, strong]) [Observed].
+  - In the Steam trailer the target flashes pure white (30.9-31.1 s, Space Oddity clip, 2013 footage [Inference, strong]), and pale-yellow five-point stars burst at contact (35.7-36.3 s; Steam screen_00; 2013 footage [Inference, strong]) [Observed].
   - Yellow hit stars also appear in a 2013 BBG fan thumbnail [Observed: https://i.ytimg.com/vi/Ac4XjUzc6tY/hq3.jpg].
   - In 2026, yellow five-point stars pop on a melee (katana) hit in SkyVu's short "New Skin! Classic Oliver is here!" (Jul 6, 2026). The attacker wears the new Classic Oliver skin, so this is a 2026 capture [Inference] [Observed: byri_kQBUS4 oar2 thumbnail, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-r4/thumbs/byri_kQBUS4_oar2.jpg; see 2026.addendum.md, Katana swing]. A 2026 white hit flash is [Unverified].
 
@@ -160,7 +161,7 @@ So no SkyVu patch note was read. Every per-version number below is the wiki's tr
 
 ---
 
-## So Fly (primary ability, movement attack; BBR by Oct 2012, then BBG; likely shown in the Steam trailer's Space Oddity clip, date open; also BBH Huggy's Ultimate)
+## So Fly (primary ability, movement attack; BBR by Oct 2012, then BBG; likely shown in the Steam trailer's Space Oddity clip, 2013 footage; also BBH Huggy's Ultimate)
 
 **Official text:**
 - "Fly forward with a burst of speed while damaging all in your way. Also very useful for getting around the maps! Aim up fly up!" [Game text via wiki] (https://battlebears.fandom.com/wiki/So_Fly)
@@ -181,12 +182,13 @@ So no SkyVu patch note was read. Every per-version number below is the wiki's tr
 - Trail bands, sampled in the draft and consistent with my view: violet #5D00EB, magenta #A309A0, red #DF181E, yellow #E6F71F, green #2DC138, cyan #27DFED, blue #0F27F1 [Observed].
 - List icon: a face with a rainbow flag trail [Observed].
 
-**Steam trailer, Space Oddity clip, 30.1-30.8 s** (capture date open in the maps notes, though the 2013 storyboard match points to 2013 footage [Inference, strong]; see Method; not evidence of the 2026 build) [Observed: frames f_007 to f_014 and s_007 to s_025]:
+**Steam trailer, Space Oddity clip, 30.1-30.8 s** (2013 footage [Inference, strong]: the same moment is in the 2013 storyboard; see Method; not evidence of the 2026 build) [Observed: frames f_007 to f_014 and s_007 to s_025]:
 - At 30.17-30.30 s the pink Huggable rises from below a ledge.
 - From 30.30 s a broad, translucent vertical ribbon appears under its feet as it climbs.
   - Colours run in rainbow order, red-orange nearest the Huggable (#FE9558), then bright yellow (#FFF671), then a green fringe further down (#82DC4A, #47AB47) [Observed, sampled].
 - From 30.5 s it flies horizontally, belly down and head first, arms swept back with bare cuffs, antenna up [Observed].
 - Identifying this as So Fly is [Inference]: the "Aim up fly up" rise and the card pose match, and there is no HUD.
+- A Charged Run reading does not fit [Inference]. The Charged Run runs "forward on the ground" [Fan-wiki], but here the Huggable rises and flies through the air, and the magenta shards are not a trail: they form a pillar that stays at the missile's landing point while the Huggable moves on (30.70-31.15 s) [Observed: frames at 30.70-31.70 s, re-checked 2026-10-18, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/hug_ed3/sheet.jpg]. The Charged Run was also only added in BBG 2.6 (20 Dec 2013) [Fan-wiki], while this moment is already in the storyboard of SkyVu's May 30, 2013 trailer [Observed at storyboard size; see Method].
 
 **The magenta crystal burst is not So Fly.**
 - Tillman's "TILLMAN / DEMO" splash card plays at 28.5-29.9 s [Observed].
@@ -218,9 +220,9 @@ So no SkyVu patch note was read. Every per-version number below is the wiki's tr
 - Steam screenshots: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/huggable-verify/crops/steam_sheet.jpg (screen_01 to screen_04)
 - Happy Hour reference: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/huggable-verify/crops/hh_small.jpg (from .../png/Happy_hour_explosion.png)
 
-**Depiction for shorts:** a crouch, then a pop upward that leaves a broad, washed-out rainbow ribbon (red at its feet, yellow, then green) standing in the air, then a head-first Superman streak trailing a wavy seven-band rainbow with white sparkles at its feet [ribbon observed in the Steam trailer's Space Oddity clip, date open; contrail from the card]. Bears it clips spin away in sparkles [BBG News invention]. Never add a magenta crystal pillar, which belongs to Tillman's Happy Hour [Inference].
+**Depiction for shorts:** a crouch, then a pop upward that leaves a broad, washed-out rainbow ribbon (red at its feet, yellow, then green) standing in the air, then a head-first Superman streak trailing a wavy seven-band rainbow with white sparkles at its feet [ribbon observed in the Steam trailer's Space Oddity clip, 2013 footage [Inference, strong]; contrail from the card]. Bears it clips spin away in sparkles [BBG News invention]. Never add a magenta crystal pillar, which belongs to Tillman's Happy Hour [Inference].
 
-**Confidence:** partial (the card is observed; the trailer flight is observed but identified by inference, and its capture date is open).
+**Confidence:** partial (the card is observed; the trailer flight is observed but identified by inference, and it shows the 2013 look [Inference, strong], not the 2026 build).
 
 ---
 
@@ -692,12 +694,12 @@ So no SkyVu patch note was read. Every per-version number below is the wiki's tr
 - BBG 2.6: damage 51 to 45, and "Changed Speed Reduction of -17% to Special Cooldown reduction of 10%" [Fan-wiki; the 1.4.2 and 2.6 damage figures don't chain].
 - The page now says 70 damage with "a +10% special speed stat modifier" [Fan-wiki].
 - In the Aug 2013 Huggabundle [Fan-wiki].
-- In the Steam trailer and Steam screenshot 00 [Observed]. The H.I.P. Test Lab shot (35.6-36.3 s, screen_00) is 2013 footage [Inference, strong]; the Space Oddity clip (30.9-32.7 s) has an open capture date. Not seen in 2026.
+- In the Steam trailer and Steam screenshot 00 [Observed]. The H.I.P. Test Lab shot (35.6-36.3 s, screen_00) is 2013 footage [Inference, strong]; the Space Oddity clip (30.9-32.7 s) is 2013 footage too [Inference, strong]. Not seen in 2026.
 
 **Look:**
 - Oversized black cylindrical cuffs over each forearm, with rows of white cone spikes on gold-tan square bases (#DEA437) and a rounded pink end cap (#DB4784) [Observed: 2013 card and render].
 - About 0.5x the Huggable's height long and 0.17x thick: about 0.33x and 0.11x Oliver [Inference].
-- Steam trailer, 30.9 s (Space Oddity clip, date open): the spike studs read cream-white with pale tan edges, and the cap stays pink [Observed].
+- Steam trailer, 30.9 s (Space Oddity clip, 2013 footage [Inference, strong]): the spike studs read cream-white with pale tan edges, and the cap stays pink [Observed].
 - "The top 'hand' part of this weapon will always remain pink no matter what skin" [Fan-wiki].
 - But the official Huggabundle banner shows a red cap on a red glossy Huggable [Observed], while the cyan Huggable in the Steam trailer (35.6-36.3 s, 2013 footage [Inference, strong]) has a pink cap [Observed].
 - The wiki's equipped render is on the Topsy Scurvy pirate skin (brown spotted bandana, striped shirt) [Observed; skin identified from the Topsy Scurvy page, Fan-wiki].
@@ -705,11 +707,11 @@ So no SkyVu patch note was read. Every per-version number below is the wiki's tr
 **Firing:**
 - A clapping swing with both arms [Fan-wiki].
 - Steam trailer [Observed]:
-  - At 30.9-31.1 s (Space Oddity clip, date open) the pink Huggable swings a Punk Band at a sniper bear (teal face mask, blue polka-dot outfit), who renders pure white (hit flash) at 31.0-31.1 s.
+  - At 30.9-31.1 s (Space Oddity clip, 2013 footage [Inference, strong]) the pink Huggable swings a Punk Band at a sniper bear (teal face mask, blue polka-dot outfit), who renders pure white (hit flash) at 31.0-31.1 s.
   - At 35.6-35.7 s (H.I.P. Test Lab, 2013 footage [Inference, strong]), a cyan Huggable wearing Punk Bands on both arms swings at an orange Huggable. From 35.8 to 36.3 s pale-yellow five-point stars burst at impact and around the targets' feet. Steam screen_00 is a still of this exchange.
 
 **Impact / end result:**
-- Steam trailer, 31.2-32.2 s (Space Oddity clip, date open): a run of big starburst flashes engulfs the sniper [Observed]:
+- Steam trailer, 31.2-32.2 s (Space Oddity clip, 2013 footage [Inference, strong]): a run of big starburst flashes engulfs the sniper [Observed]:
   - red-orange flame shards (31.2-31.3 s);
   - a bright yellow starburst (#FDF351, 31.4-31.7 s);
   - white bursts with lavender-purple edges (#9978F6, 31.8-32.2 s).
@@ -844,7 +846,7 @@ Neither is confirmed: the Huggable does not visibly vanish or shrink before the 
    - The 2013 melee renders are not "bare": the weapon mounts cover the wrists, with black straps on the Presidentures card.
    - The Aug 2013 Tough Love card shows plain dark bands, not blue gems.
    - The orange skin in-game has blue bands.
-3. **Antenna tip.** It is red on Gear Up renders, in the Steam trailer (Space Oddity clip, date open) and in the 2026 Closed Playtest #4 Gear Up frame, and blue in 2012-13 in-game footage and 2D cards.
+3. **Antenna tip.** It is red on Gear Up renders, in the Steam trailer (Space Oddity clip, 2013 footage [Inference, strong]) and in the 2026 Closed Playtest #4 Gear Up frame, and blue in 2012-13 in-game footage and 2D cards.
 4. **So Fly.** The column rises from the Huggable's feet in rainbow order, so it is its own trail. The falling Happy Hour missile lands at the column's base just before the magenta burst, which strengthens the Happy Hour attribution. I added the wiki-embedded So Fly gameplay video (Do3Ja12MpSI), now gone from YouTube.
 5. **NEW trailer shot.** I added the unidentified rainbow burst at 3.27-3.85 s of the Steam trailer, which is 2013 footage [Inference, strong].
 6. **Tough Love.** I added the 2013 in-game heart stream (Dancing_Huggable.jpg). The uploader reads it as Double Rainbow.
@@ -852,7 +854,7 @@ Neither is confirmed: the Huggable does not visibly vanish or shrink before the 
 8. **Mini_Me_glitch.jpg.** It has no wiki caption, so "inside a wall" is inference.
 9. **Bearettas.** The cyan "B" emblem is now observed.
 10. **Whack-Tus.** Added a BBH-era cactus club from the official BBH trailer thumbnail.
-11. **Steam trailer melee display (Space Oddity clip, date open).** Weapons appear only during swings; idle arms show red-light cuffs.
+11. **Steam trailer melee display (Space Oddity clip, 2013 footage [Inference, strong]).** Weapons appear only during swings; idle arms show red-light cuffs.
 12. **Labels and wording.**
     - So Fly v2.0 is relabelled [Fan-wiki] instead of [Inference].
     - Double Rainbow's damage falloff is relabelled [Inference] instead of a quoted infobox claim.
@@ -864,7 +866,7 @@ Neither is confirmed: the Huggable does not visibly vanish or shrink before the 
 13. **Team banner.** The red banner with three pale symbols is observed in BBG 2013 (Dancing_Huggable.jpg) and in the Steam trailer, which is also 2013 footage [Inference, strong]. No 2026 frame shows a Huggable banner. This reverses the draft's character-file correction #3.
 14. **Torn belly.** The wiki does call the wound "metalic". The draft wrongly called "metal" unverified.
 15. **So Fly, Shortest Parsec Easter egg (2026-10-18, from the verified maps research).** The class page's "only class that can reach" claim is now marked contested. It echoes map-page wording first added on 2013-04-20 (rev 32031) and replaced on 2014-05-27 (rev 64712). The current map page credits B-1000's Metal Crush as well as So Fly for the red-base meteorite, and since rev 68868 (2015-01-18) it lists a second egg, the blue-side meteorite, reachable "with the So Fly or the Turkish Jump Boots".
-16. **Steam trailer era (2026-10-18, from the verified maps research).** Every "2026 trailer" caption is relabelled "Steam trailer": 2013 footage [Inference, strong], or "Space Oddity clip, date open" for 30.0-32.8 s. Where a 2026 claim rested only on the trailer, I cite the 2026 Closed Playtest #4 Gear Up frame (antenna tip, belly, pink) or SkyVu's Jul 6, 2026 short (hit stars), or restate it for the trailer's era. A review the same day added the 2013 storyboard match, which also covers the Space Oddity clip (see Method).
+16. **Steam trailer era (2026-10-18, from the verified maps research).** Every "2026 trailer" caption is relabelled "Steam trailer": 2013 footage [Inference, strong]. At first I tagged 30.0-32.8 s "Space Oddity clip, date open". Where a 2026 claim rested only on the trailer, I cite the 2026 Closed Playtest #4 Gear Up frame (antenna tip, belly, pink) or SkyVu's Jul 6, 2026 short (hit stars), or restate it for the trailer's era. A review the same day added the 2013 storyboard match, which also covers the Space Oddity clip (see Method). Once the Space Oddity dossier took that match up ("Age of the official footage"), the tag became "Space Oddity clip, 2013 footage [Inference, strong]"; only why its pillar top blooms stays [Unverified].
 
 ## Corrections for the character file (/home/user/thallo-site/bbg-news-repo/characters/huggable.md)
 
@@ -873,7 +875,7 @@ Neither is confirmed: the Huggable does not visibly vanish or shrink before the 
    - Evidence: Photo_27-04-13_11_30_26_AM.png, HuggyBiteMeCR.jpg and Bite_me.png (2012 Gear Up) [Observed].
 2. **Prompt pack, "Metal wristbands with blue gems, a metal knee brace".**
    - For the 3D BBG look, use dark grey wrist cuffs, each with a round glossy red light, and no knee brace. No 2026 frame shows the bare wrists yet: in the 2026 Closed Playtest #4 Gear Up frame the cactus clubs sit at both paws and no cuff can be made out [Observed, low resolution].
-   - Evidence for the red lights: LYH.jpg and ChargedRunStance.jpg (2013-12-21) and the Steam trailer at 32.6-32.7 s (Space Oddity clip, date open) [Observed].
+   - Evidence for the red lights: LYH.jpg and ChargedRunStance.jpg (2013-12-21) and the Steam trailer at 32.6-32.7 s (Space Oddity clip, 2013 footage [Inference, strong]) [Observed].
    - Blue-gem bands and the knee brace appear only on 2D art: Huggable-suction-pose.png and the Gear Up cards, with the knee brace on the Headlights card [Observed].
 3. **Prompt pack, "a small red team banner with three white symbols on its back".**
    - Keep red with three white symbols, which is observed in BBG 2013 (Dancing_Huggable.jpg) and in the Steam trailer at 3.0-3.9 s (2013 footage [Inference, strong]).
@@ -882,7 +884,7 @@ Neither is confirmed: the Huggable does not visibly vanish or shrink before the 
    - The draft's proposed correction, that 2026 shows only blue or white banners, is wrong: it rested on the Steam trailer, which shows red banners too and is 2013 footage. 2026 banners are [Unverified].
 4. **Prompt pack, "a boxy military-green radio with a white antenna".**
    - Change to "a boxy green radio with a thin grey antenna tipped with a red ball (2013 renders and 2026); 2012-13 in-game footage and 2D cards show a blue tip".
-   - Evidence: the 2013 CR renders, LYH.jpg, the Steam trailer at 32.6 s (Space Oddity clip, date open) and the 2026 Closed Playtest #4 Gear Up frame (https://i.ytimg.com/vi/-lAtv-j9Sms/hq3.jpg, low resolution) show red; the Static Shuffle fan thumbnails (2013) and the Mini Me in-use screenshot show blue [Observed].
+   - Evidence: the 2013 CR renders, LYH.jpg, the Steam trailer at 32.6 s (Space Oddity clip, 2013 footage [Inference, strong]) and the 2026 Closed Playtest #4 Gear Up frame (https://i.ytimg.com/vi/-lAtv-j9Sms/hq3.jpg, low resolution) show red; the Static Shuffle fan thumbnails (2013) and the Mini Me in-use screenshot show blue [Observed].
 5. **Prompt pack, "a torn belly patch showing metal"; Look line, "a torn belly showing metal [Observed]".**
    - Refine to "a torn belly showing grey-and-white crumpled stuffing". Images show grey and white crumpled material [Observed], and the wiki says "metalic jagged wound" with "stuffing bulging out" [Fan-wiki: Pink Huggable].
    - So "metal" is [Fan-wiki], not [Observed].
@@ -902,7 +904,7 @@ Neither is confirmed: the Huggable does not visibly vanish or shrink before the 
 
 - What do Double Rainbow!, Headlights, Static Shuffle, Losing Your Head, Mini Me, Peek A Boo, Super Size Me!, Phantom Hug and Charged Run look like in 3D in 2026? This needs gameplay frames. The JustNubz showcase Huggable chapter (14:16-17:44) is the best lead, but YouTube video is blocked here.
 - Which ability is the Steam trailer's rainbow burst at 3.27-3.85 s (2013 footage): Peek A Boo or Mini Me activation, Double Rainbow!, or something else?
-- Are the 31.2-32.2 s starbursts Punk Bands kill FX, Happy Hour hits or edit FX? Is the 30.3-30.8 s flight definitely So Fly? The 2013 storyboard match points to 2013 for that Space Oddity clip [Inference, strong]; why does its pillar top bloom when 2013 and 2021 fan captures do not?
+- Are the 31.2-32.2 s starbursts Punk Bands kill FX, Happy Hour hits or edit FX? Is the 30.3-30.8 s flight definitely So Fly? That Space Oddity clip is 2013 footage [Inference, strong], and the 2013 storyboard already shows its bloom [Observed]; why does its pillar top bloom more than 2013 and 2021 fan captures?
 - Shortest Parsec Easter egg: can only the Huggable reach it (the class page), or can B-1000's Metal Crush reach the red-base meteorite too (the map page since 2014, where some players also claim a Jump Boots double jump)? Since 2015 the map page also lists a blue-side meteorite reachable with So Fly or the Turkish Jump Boots. Are these still reachable in 2026?
 - Static Shuffle in-game: does the head come off (wiki) or does the neck stretch (card)?
 - Is the cyan-white wash in the LYH demo thumbnail hq3 the "bright blue blast"?

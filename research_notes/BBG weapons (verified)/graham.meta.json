@@ -14,8 +14,8 @@
    "weapon": "Slowed status (Bind Field)",
    "owner": "Graham (Engineer)",
    "slot": "status system",
-   "status": "Documented [Fan-wiki: Status Effects lists 'Slow Field']",
-   "look": "'a yellow Z will appear over the player's head' [Fan-wiki]; no image found [Unverified]",
+   "status": "Documented [Fan-wiki: Status Effects lists 'Slow Field']; the icon is present in the Sep 20, 2026 playtest (JVEQQqyafzE maxres1 and maxres2) [Observed], though it does not show which weapon slowed the player [Inference]",
+   "look": "'a yellow Z will appear over the player's head' [Fan-wiki]; on screen a lemon-yellow block Z inside two white crescent arcs, floating just above the slowed bear's head, also over your own bear [Observed: BBG fan footage 2014-2023 and JVEQQqyafzE maxres1 and maxres2, per graham.addendum.md, Slowed status icon]",
    "firing_and_projectile": "n/a",
    "impact_end_result": "Reduced speed for the duration [Fan-wiki]",
    "confidence": "documented"
@@ -84,7 +84,7 @@
    "weapon": "Turret",
    "owner": "Graham (Engineer)",
    "slot": "secondary",
-   "status": "Default secondary; BBR v1.4 through BBG; 1.4.2 and 2.6 rebalances conflict with the current page [Fan-wiki]",
+   "status": "Default secondary; BBR v1.4 through BBG; 1.4.2 and 2.6 rebalances conflict with the current page [Fan-wiki]. Likely in the 2026 build: two placed turrets in a Sep 20, 2026 playtest frame (JVEQQqyafzE maxres2) [Observed; ID Inference, strong]",
    "look": "Carried: a white boxy case with vents, red stripes and a red knob, held in front with both hands. Deployed: a white boxy gun with a ribbed drum, team-colour diagonal stripes and handle (blue shown), a stepped barrel with a white tip, a Z-neck on an X-base with four feet [Observed: File:Turret.jpg, File:Turretdeploy.png; icon File:Turret_2.png]",
    "firing_and_projectile": "2-3 s setup; 'cannot turn', 100-degree fixed cone, unlimited shots at 0.25 s, 1,800 u range in the page text, one target at a time, not fully accurate [Fan-wiki]. Bullet look undocumented; the 2012 wiki said Electric Honey bullets (bees) [Fan-wiki early; Unverified]",
    "impact_end_result": "Small repeated hits; when destroyed, 'after two seconds of smoking, it will vanish'; immune to status effects, blind to cloaked or disguised players [Fan-wiki]",
@@ -196,13 +196,13 @@
    "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
    "current_text": "Exception: the 2013 BBG trailer card shows a different look (rainbow-striped cap, black-rimmed glasses, red track jacket, orange drill-gun) [Observed] ([trailer][trailer13]), probably the \"Instagraham\" skin [Inference], so the card look stays the default; keep the trailer look for skin gags.",
    "correction": "The trailer look IS the Instagraham skin [Observed]: brown cap with a rainbow stripe, dark-rimmed goggles with camera-lens lenses (not glasses), red-brown fur and a brown radio backpack. The 'orange drill-gun' is the Gamma Ray: orange housing, a black octagonal muzzle ring gripped by orange prongs, a green core and lime LEDs [Observed]. The 'red track jacket' is probably the skin's red-brown fur plus the standard white arm stripes [Inference]. The card is reused at 10.75-12.0 s of the Steam trailer SkyVu put on the 2026 Steam page, and its gameplay at 7.25-10.5 s (2013 footage [Inference, strong]) shows this skin firing the Gernobyl, then the Gamma Ray [Observed].",
-   "evidence": "File:Instagrahamrl.png shows the same cap, goggles and backpack holding the Gamma Ray; wiki: 'brown-coloured theme with a stripe of colours on his helmet and camera lens on his goggles' [Fan-wiki: Instagraham]; rfAyqVJrli4 hq1.jpg matches /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/frames/f_11.00.png; gun crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/frames/card_gun.png; face crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/insta.png"
+   "evidence": "File:Instagrahamrl.png shows the same cap, goggles and backpack holding the Gamma Ray; wiki: 'brown-coloured theme with a stripe of colours on his helmet and camera lens on his goggles' [Fan-wiki: Instagraham]; rfAyqVJrli4 hq1.jpg matches /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/frames/f_11.00.png; gun crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/frames/card_gun.png; face crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/insta.png; 2013 dating of the gameplay: Steam 7.5, 8.5 and 9.5 s match rfAyqVJrli4's 160x90 storyboard at 12, 13 and 14 s [Observed, storyboard size], sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/steam_vs_2013_sb.jpg"
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
    "current_text": "- **Weapons:** BBG defaults [Fan-wiki] Power Glove (\"This weapon can HANDle any situation.\"), Turret (\"Use it wisely, you only get one at a time.\") and T Square (\"Tee off on your opponents with this classic tool. Ouch.\") [Game text via wiki]",
-   "correction": "List all 17 BBG weapons with eras [Fan-wiki]. Primaries: Power Glove and Gamma Ray (v1.4, Nov 2012), Rivet Gun (2.1, Jul 2013), Hand Cannon (2.5, Nov 2013), Buzzsaw (2.6, Dec 2013), MuskIt (2.12, Oct 2014). Secondaries: Turret and Proximity Mine (v1.4), Gernobyl (1.4.3, Apr 2013), Radiation Rod (2.5), Bind Field, formerly Slow Field (2.6), Black Hole (by Oct 31, 2014), Dragon Slayzer (2.51, Apr 2018). Melees: T Square and Wrench (v1.4), Double Wrench (2.12), Crowbar (2.21, Jul 2015). Only the Gamma Ray is confirmed in the 2026 build [Observed].",
-   "evidence": "Engineer (BBG) class page weapon list (6 primaries, 7 secondaries, 4 melees), re-read via the MediaWiki API on Oct 17, 2026; Updates and Versions/2.6 rows; JustNubz closed-playtest #4 Engineer chapter thumbnail (34:52)"
+   "correction": "List all 17 BBG weapons with eras [Fan-wiki]. Primaries: Power Glove and Gamma Ray (v1.4, Nov 2012), Rivet Gun (2.1, Jul 2013), Hand Cannon (2.5, Nov 2013), Buzzsaw (2.6, Dec 2013), MuskIt (2.12, Oct 2014). Secondaries: Turret and Proximity Mine (v1.4), Gernobyl (1.4.3, Apr 2013), Radiation Rod (2.5), Bind Field, formerly Slow Field (2.6), Black Hole (by Oct 31, 2014), Dragon Slayzer (2.51, Apr 2018). Melees: T Square and Wrench (v1.4), Double Wrench (2.12), Crowbar (2.21, Jul 2015). Only the Gamma Ray is confirmed in the 2026 build [Observed]. The Turret is likely: two placed turrets appear in a Sep 20, 2026 playtest frame (JVEQQqyafzE maxres2) [Observed; ID Inference, strong].",
+   "evidence": "Engineer (BBG) class page weapon list (6 primaries, 7 secondaries, 4 melees), re-read via the MediaWiki API on Oct 17, 2026; Updates and Versions/2.6 rows; JustNubz closed-playtest #4 Engineer chapter thumbnail (34:52); https://i.ytimg.com/vi/JVEQQqyafzE/maxres2.jpg (Mika_do, Sep 20, 2026), crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham/gaps/crops/JVEQ_m2_bt.jpg"
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
@@ -237,8 +237,8 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
    "current_text": "2026 changes (Oct 19\u201326 demo; unviewed [fan showcase][showcase])",
-   "correction": "Partly answered: the closed-playtest #4 Engineer chapter thumbnail (34:52 of -lAtv-j9Sms, JustNubz, Sep 20, 2026) shows Graham in the Old School skin holding the Gamma Ray, and playtest #3 HUDs show an orange gun at 100/100 and 0/100 with 120 max health [Observed]. The other weapons are unconfirmed.",
-   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/yt/jn_ch_34m42_3x.png; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/yt/ch_qt43iTdANbM_hqdefault_491866.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/yt/ch_VHo1O41RNJE_hqdefault_1745866.jpg"
+   "correction": "Partly answered: the closed-playtest #4 Engineer chapter thumbnail (34:52 of -lAtv-j9Sms, JustNubz, Sep 20, 2026) shows Graham in the Old School skin holding the Gamma Ray, and playtest #3 HUDs show an orange gun at 100/100 and 0/100 with 120 max health [Observed]. A Sep 20, 2026 playtest thumbnail (JVEQQqyafzE, Mika_do) shows default Graham with the Gamma Ray at 24/100, two placed turrets (likely Turrets [Inference, strong]), the yellow-Z Slowed icon over Graham, and an early-stage radiation disc over an enemy [Observed]. The other weapons are unconfirmed.",
+   "evidence": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/yt/jn_ch_34m42_3x.png; https://i.ytimg.com/vi/JVEQQqyafzE/maxres1.jpg, maxres2.jpg and maxres3.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/yt/ch_qt43iTdANbM_hqdefault_491866.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/yt/ch_VHo1O41RNJE_hqdefault_1745866.jpg"
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
@@ -259,9 +259,9 @@
   "Radiation Rod: what colour and radius does its field have?",
   "Dragon Slayzer (BBG): what does it fire, and what is its 4-second 'Duration' effect?",
   "Double Wrench: what does it look like? No image exists anywhere on the wiki.",
-  "2026 roster: which of the 17 Engineer weapons are in the build? The JustNubz Engineer chapter (34:42-39:57) would answer this, but YouTube playback is blocked (LOGIN_REQUIRED).",
+  "2026 roster: which of the 17 Engineer weapons besides the Gamma Ray and (likely) the Turret are in the build? The JustNubz Engineer chapter (34:42-39:57) would answer this, but YouTube playback is blocked (LOGIN_REQUIRED).",
   "2026 Gamma Ray beam: are the pale-cyan hexagonal outlines in the VHo1O41RNJE 29:05 frame the beam?",
-  "Steam trailer: why is the Graham gameplay (7.25-10.5 s, 2013 footage [Inference, strong]) outlined when Dec 2013 fan captures of Instagraham are not, and did the outline follow SkyVu's 2013 'HD Graphics' mode? Some 2013 fan captures (Gold and circuit-pattern skins) already have outlines, so the outline does not date the segment to 2018 or later. And what makes the white flash edged with cyan lightning at 8.75-10.25 s?",
+  "Steam trailer: why is the Graham gameplay (7.25-10.5 s, 2013 footage [Inference, strong]) outlined when Dec 2013 fan captures of Instagraham are not, and did the outline follow SkyVu's 2013 'HD Graphics' mode? Some 2013 fan captures (Gold and circuit-pattern skins) already have outlines, so the outline does not date the segment to 2018 or later; its 2013 date is settled by the match with rfAyqVJrli4's 160x90 storyboard at 12-14 s [Observed, storyboard size]. And what makes the white flash edged with cyan lightning at 8.75-10.25 s?",
   "SkyVu's archived 2.6 change log is unreachable (web.archive.org resets connections; WebFetch refuses), so all 2.6 numbers are unverified against SkyVu.",
   "Radiation threshold: is it 100 RP (Status Effects) or the target's maximum health (Gamma Ray and Radiation Rod pages)? Is it 4.5 or 5 RP per Gamma Ray hit?",
   "Rivet Gun release: was it 2.1? The page says so, but the Updates log omits it.",

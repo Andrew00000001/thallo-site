@@ -41,7 +41,7 @@ Eras used below:
   - the ASTORIA / SNIPER card: 16.9 s, MSE 158;
   - the Space Oddity clip with the Call Off Duty Viperifle: 30.9 and 31.9 s, MSE 121 and 150. The Steam clip runs without a cut from 30.0 s.
   - Unrelated frames score about 7,000–8,700.
-- The maps notes leave the Space Oddity clip's capture date open, because its pillar top blooms to near-white. The storyboard match puts that clip in the May 2013 trailer as well, so it is 2013 footage too [Inference, strong]. Screenshot_01 is a frame of it; screenshot_04 is a Shortest Parsec frame.
+- The storyboard match puts the Space Oddity clip, bloom included, in the May 2013 trailer as well [Observed], so it is 2013 footage too [Inference, strong]; the maps research's Space Oddity dossier now says so. Only why its pillar top blooms to near-white, more than fan captures, is [Unverified]. Screenshot_01 is a frame of it; screenshot_04 is a Shortest Parsec frame.
 - None of it shows the Oct 2026 build. The 3.0.7 playtest build lights Space Oddity in a warmer, more golden grade than screenshot_01 [Observed].
 - Below, these are "the Steam trailer" and "Steam screenshot_0N", dated "(2013 footage [Inference, strong])". 2026 claims rest on 2026 captures and SkyVu's 2026 thumbnails.
 - Images viewed for this note:
@@ -317,7 +317,7 @@ Eras used below:
 
 ---
 
-## Crossbow / "Unicorn Crossbow 2.0" (primary · BBG 2.2, Aug 21 2013; reworked 2.6; 2026 status unverified)
+## Crossbow / "Unicorn Crossbow 2.0" (primary · BBG 2.2, Aug 21 2013; reworked 2.6; named in a 2026 playtest loadout)
 
 - **Official text:** "Leave it to Astoria to make a rapid fire weapon that shoots unicorn horns. Even worse is that she can charge up the weapon and release a stronger attack! What's next jackelope weapons?" ~ Official Battle Bears Gold description [Game text via wiki] (https://battlebears.fandom.com/wiki/Crossbow_(BBG)).
 - **Status and history:**
@@ -327,6 +327,7 @@ Eras used below:
   - BBG 2.20: 240,000→150,000 J [Fan-wiki].
   - Current infobox: 15 ammo; damage "Uncharged:15*" / "Charged: 230*"; 2 s reload; 1.5 s charge; "20% Special Speed Increase". The numbers are self-contradictory: the page notes "Damage stats listed in game are different than tested damage stats" [Fan-wiki].
   - "It is called '2.0' due to Oliver having a weapon called the 'Unicorn Crossbow' in Battle Bears: Zombies" [Fan-wiki].
+  - 2026: the hq3 thumbnail of JustNubz's "Battle Bears Gold Playtest #3 Part 1" (qt43iTdANbM, build 3.0.2) shows a Sniper loadout reading "PRIMARY CROSSBOW" with a white winged-crossbow icon; the menu model holds a white winged crossbow with lavender accents [Observed, low-res; title via oEmbed; also in 2026.md].
 - **Look** [Observed]:
   - A pearl-white/silver crossbow with cream inset panels and diamond motifs, and a unicorn-head front.
   - A lavender crystal horn-bolt (≈#D2AAEB; deep ≈#B278F2) is loaded at the front; the string is lavender.
@@ -345,6 +346,7 @@ Eras used below:
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/xbow_stack.png (Crossbow.jpg, UnicornCrossbowconceptart.jpg, Crossbow_coming_to_BBG!!!.jpg)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/recap_stack.png
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/ov_stack.png
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-changes/yt/thumbs/qt43iTdANbM_hq3.jpg, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-changes/crops/qt43_hq3_panel.png and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/edit_astoria_heads/qt43_hold.png (2026 loadout and menu model)
 - **Depiction for shorts:** a white unicorn-head crossbow spitting quick lavender horn-bolts. On charge, the inner barrel spins and glows purple, and one big horn flies and bursts. The burst style (a lavender sparkle pop) is [BBG News invention].
 - **Confidence:** observed (look, muzzle); partial (projectile, impact).
 
@@ -374,12 +376,13 @@ Eras used below:
 
 ---
 
-## Art of War (primary · revealed Apr 27 2012, declared unused Aug 8 2013, released BBG 2.11 Aug 27 2014; 2026 status unverified)
+## Art of War (primary · revealed Apr 27 2012, declared unused Aug 8 2013, released BBG 2.11 Aug 27 2014; seen in the Aug 2026 beta, build 3.0.0)
 
 - **Official text:** "Paint the battlefield red, or orange, or yellow, or green, or blue, or violet. It doesn't really matter as long as its your enemies pallet." ~ Official Battle Bears Gold description [Game text via wiki] (https://battlebears.fandom.com/wiki/Art_of_War).
 - **Status:**
   - 60 Gas. Infobox: 45 damage, 3 ammo, 1.0 s, 5.5 s reload [Fan-wiki].
   - Revealed on the blog Apr 27, 2012 "fully modelled and textured" alongside the Toucan; declared unused Aug 8, 2013; released in 2.11 [Fan-wiki; blog and Facebook unreachable, Unverified].
+  - 2026: Takishi's "Astoria - The "Art of War" (Battle Bears Gold)" (B-8uQcs1DFA, Aug 2, 2026; description "(Battle Bears Gold - Beta testing)") shows Astoria with its HUD icon (black-and-yellow receiver, grey hopper, red barrel, brush tip), ammo out of 4 (the infobox above says 3) and the build string "3.0.0" [Observed, fan auto-frames; title via oEmbed; details in the addendum].
 - **Look** [Observed]:
   - A red barrel (≈#DF372D) with gold Chinese characters. The render and concepts show the traditional form 孫子兵法; the wiki types the simplified 孙子兵法 ("The Art of War").
   - A black-and-yellow receiver, a paintball hopper on top full of multicolour balls, and a blue gem on the side.
@@ -391,6 +394,7 @@ Eras used below:
 - **Impact / end result:** "erupting into a flurry of paint, however, it is merely cosmetic and has no added functionality" [Fan-wiki]. Not observed [Unverified].
 - **Images viewed:**
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/aow_stack.png (Images_(1).jpeg, ArtofWar.png, ArtofWarconceptart.png)
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-gaps/thumbs/aow_B-8uQcs1DFA_maxres1.jpg, _maxres2.jpg and _maxres3.jpg (2026 beta)
 - **Depiction for shorts:** a brush-tipped paintball rifle fires a thin streak that splats into a burst of red, orange, yellow, green, blue and violet paint (the official text's list). The splat shape is [BBG News invention].
 - **Confidence:** observed (look); documented (projectile, impact).
 
@@ -535,7 +539,7 @@ Eras used below:
 
 ---
 
-## Rake (secondary · in BBG by Jan 2014, release version undocumented; 2026 status unverified)
+## Rake (secondary · in BBG by Jan 2014, release version undocumented; HUD icon seen in the Aug 2026 beta, build 3.0.0)
 
 - **Official text:** "Stop your opponents dead in their tracks with this exciting new gardening tool!" ~ Official Battle Bears Gold description [Game text via wiki] (https://battlebears.fandom.com/wiki/Rake).
 - **Status:**
@@ -543,6 +547,7 @@ Eras used below:
   - "It used to do 999 damage" [Fan-wiki].
   - The only image was uploaded 2014-01-25 by ApplerGamers [Fan-wiki file metadata].
   - The page calls it "the only secondary that deals damage", which ignores I Lava You (25–60 explosive damage) [Fan-wiki, conflicting].
+  - 2026: the secondary HUD icon in Takishi's Aug 2, 2026 beta frames (B-8uQcs1DFA maxres1–3, build 3.0.0, the same video as the Art of War) matches the Rake's HUD icon in Rumi2004's 2023 Rake video [Observed side-by-side comparison]. Health there reads 94/94, which fits 90 × 1.05 (94.5, shown as 94) for the Rake's "5% Health Increase" [the arithmetic is Inference; details in the addendum].
 - **Look** [Observed]:
   - A dark-grey riveted metal rake head (≈#42464A) with five bright turquoise teeth (≈#34E6B8). The Gear Up shows it held head-up; the handle is mostly hidden.
   - The skin in that image matches File:Solid_Fisher.png: black suit, red stripes, three glowing red head-lamps [Observed comparison].
@@ -552,6 +557,7 @@ Eras used below:
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/rake_small.png
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/rake_teeth.png
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/misc.jpg (Solid_Fisher.png)
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-gaps/crops2/rake_icon_compare.jpg and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-gaps/thumbs/aow_B-8uQcs1DFA_maxres1.jpg to _maxres3.jpg (2026 beta)
 - **Depiction for shorts:** the classic step-on-the-rake gag: the turquoise-toothed rake springs up and the handle bonks the victim's face, with stars and no injury [BBG News invention, consistent with "spring up and damage"].
 - **Confidence:** observed (look); documented (effect).
 
@@ -575,13 +581,14 @@ Eras used below:
 
 ---
 
-## Battering Ram (melee · default · BBR era → BBG; 2026 status unverified)
+## Battering Ram (melee · default · BBR era → BBG; named in a 2026 playtest loadout)
 
 - **Official text:** "Using revolutionary "Ram Skull" technology for maximum bashing ability, this is a weapon of last resort." ~ Official Battle Bears Gold description [Game text via wiki] (https://battlebears.fandom.com/wiki/Battering_Ram).
 - **Status:**
   - Default melee: "It deals 30 damage and provides a 40% boost to the player's special speed" [Fan-wiki].
   - Equipped in the Mar 2012 BBR Gear Up [Observed].
   - BBG 2.6: Melee+1 10→5, Melee+2 15→10 [Fan-wiki transcription]. The page still lists +10/+20.
+  - 2026: the same Playtest #3 loadout as the Crossbow and Fairy's Dust (qt43iTdANbM hq3, build 3.0.2) reads "MELEE BATTERING RAM" with a curled-horn icon [Observed, low-res; also in 2026.md].
 - **Look** [Observed]:
   - A grey stone club whose head is a curled ram horn (tan ridged rings, ≈#5A533C mean, light ≈#D2C394), lashed with dark purple-brown straps, with a wrapped grip. The in-game texture has orange, purple and green flecks near the horn.
   - The concept art shows the same horn shape and no skull.
@@ -594,6 +601,7 @@ Eras used below:
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/bram_zoom.png
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/conv/Battering_Ram_Concept.jpg.png
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/ssetup.png (loadout icon)
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-changes/crops/qt43_hq3_panel.png (2026 loadout)
 - **Depiction for shorts:** a reluctant "last resort" bonk with the curled stone horn. The cartoon "thunk", the stars and the stagger are [BBG News invention].
 - **Confidence:** observed (look); unknown (hit effect).
 

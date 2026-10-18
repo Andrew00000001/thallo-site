@@ -16,13 +16,16 @@ This dossier covers the BBG weapons that fall outside the per-class files:
 - In this edit (2026-10-17) I re-fetched every disputed wiki page live through the MediaWiki API. The copies are in `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/shared-edit/wiki/`.
 - I also fetched the YouTube oEmbed titles of the cited demo videos and re-opened the key images and trailer frames.
 - "Images viewed" lists files opened by the draft author or the image check. "(re-opened)" marks the files I opened again in this edit.
+- In an Oct 18 2026 edit I applied the round-3 Bearzooka corrections from shared.addendum.md ("Shared addendum (round 3)": the trailer rocket, its timing and the open question), after re-opening its trailer frames and re-matching t_0008–t_0010 to exact frames of trailer.mp4. I also brought the trailer dating below in line with the storyboard match.
 
 **Sources reachable**
 - **Wiki:** the fan wiki through its MediaWiki API (wikitext, categories, revisions, image info).
 - **Official sites:** battlebears.com, play.battlebears.com, the Steam appdetails API and the Steam news API.
 - **Video:** i.ytimg.com thumbnails and YouTube oEmbed titles.
-- **Local:** the official Steam screenshots and the official Steam trailer (t_N is at (N-1)×0.5 s).
-  - Apart from one Space Oddity clip, the trailer and the screenshots are SkyVu's 2013 launch footage re-used on the 2026 Steam page (2013 footage [Inference, strong]: the class cards are pixel-matched to SkyVu's May 30 2013 trailer rfAyqVJrli4; /home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1). So they show the 2013 look, not the 2026 build. The maps research leaves the date of that Space Oddity clip (about 30.0–32.8 s) and of screen_01, a frame of it, open; this dossier cites neither.
+- **Local:** the official Steam screenshots and the official Steam trailer (t_N is nominally at (N-1)×0.5 s).
+  - Matched against exact frames, t_N is really about 0.22 s later: t_0008, t_0009 and t_0010 are at 3.72, 4.22 and 4.72 s [Observed: shared.addendum.md, round 3, "Important timing finding" (t_0005–t_0008); t_0008–t_0010 re-matched in the Oct 18 edit]. So trailer times read off the t_ series below are about 0.22 s early unless re-timed.
+  - The trailer and the screenshots are SkyVu's 2013 launch footage re-used on the 2026 Steam page (2013 footage [Inference, strong]). The class cards are pixel-identical to SkyVu's May 30 2013 trailer rfAyqVJrli4 at full size, and the gameplay matches that trailer's 160×90 YouTube storyboard at an offset of about 4 s (45 of 55 frames from 5 to 59 s) [Observed, storyboard size] (/home/user/thallo-site/research_notes/BBG weapons (verified)/2026.md, "The Steam trailer is 2013 footage"; /home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1). So they show the 2013 look, not the 2026 build.
+  - That includes the Space Oddity clip (about 30.0–32.8 s) and screen_01, a frame of it: the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed], so it is 2013 footage too [Inference, strong]. Only why its pillar top blooms more than fan captures is [Unverified]. This dossier cites neither.
   - In this edit I also compared the gameplay shots cited below with the storyboard of rfAyqVJrli4 (160×90, one frame per second): the B-1000 and Bearzooka shots (1.5–5 s), the Graham segment (7.25–10.5 s) and the Electric Honey shot (34.5–36 s) are all in it [Observed, low-res: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/steam_vs_2013_sb.jpg].
 
 **Sources not reachable**
@@ -90,7 +93,7 @@ Weapon sizes below are measured on the images [Observed] and converted with that
    - the Irradiated status icon: SkyVu's Aug 16 2026 "Official Playtest Highlights" thumbnail (C7uFxvSZ10c, HUD build 3.0.0) shows the yellow disc with black radiation wedges, stacked with a Slowed Z, over the target of a gold Graham's yellow beam [Observed, per 2026.addendum.md; crop c7u_icon.jpg re-opened];
    - **The Incredible Riggs** skin and a "BUNDLE DEALS" menu banner (thumbnail of a fan's Sept 2026 playtest showcase) [Observed].
 
-   **Not 2026 evidence:** the Bearzooka at trailer 3.9–4.4 s, the Electric Honey in Steam screenshot screen_00 and at trailer 34.5–36 s, and the Irradiated status icon at trailer about 8.5 s (the Graham segment) are 2013 footage [Inference, strong]. They show the 2013 look.
+   **Not 2026 evidence:** the Bearzooka at trailer 3.89–4.59 s and its rocket at 1.92–3.05 s (the rocket's Bearzooka link is [Inference, high]), the Electric Honey in Steam screenshot screen_00 and at trailer 34.5–36 s, and the Irradiated status icon at trailer about 8.5 s (the Graham segment) are 2013 footage [Inference, strong]. They show the 2013 look.
 
    Everything else here is unconfirmed for 2026 [Unverified].
 
@@ -304,7 +307,7 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - "a yellow circle will appear over the player's head and a noise from a Geiger counter will begin sounding". As exposure grows, "three portions of the circle will dissolve into the common radioactivity symbol".
   - At 100 radiation points the target explodes; the blast radius is 150–200 units.
   - The icon stages are the wiki files Hazard-0.png to Hazard-3.png [Fan-wiki].
-  - **Steam trailer (2013 footage [Inference, strong]), same status from a different weapon:** a Graham weapon with yellow ring-wave muzzle effects, likely the Gamma Ray [Inference]. This is the Graham segment (about 7.25–10.5 s). graham.md now dates it to 2013 and withdraws its earlier "2018 or later" reading, because some 2013 fan captures already have the toon outlines (graham.addendum.md, Incidental findings 1). The same shots are also at t=12–14 s in the storyboard of SkyVu's May 30 2013 trailer rfAyqVJrli4 [Observed, low-res]. The icon is also in official 2026 media: SkyVu's Aug 16 2026 "Official Playtest Highlights" thumbnail (C7uFxvSZ10c, HUD build 3.0.0) shows the yellow disc with black radiation wedges, stacked with a Slowed Z, over the target of a gold Graham's yellow beam [Observed, per 2026.addendum.md; crop re-opened].
+  - **Steam trailer (2013 footage [Inference, strong]), same status from a different weapon:** a Graham weapon with yellow ring-wave muzzle effects, likely the Gamma Ray [Inference]. This is the Graham segment (about 7.25–10.5 s, Gold Digger [Inference, per the maps research]). It is in the storyboard of SkyVu's May 30 2013 trailer rfAyqVJrli4 (2013 12–13 s = Steam 7.95–8.95 s) [Observed, storyboard size]. graham.md has withdrawn its earlier "2018 or later" reading, because some 2013 fan captures already have the toon outlines (graham.addendum.md, Incidental findings 1). Why the trailer's Graham is outlined when Dec 2013 fan captures of its Instagraham skin are not stays [Unverified]. The icon is also in official 2026 media: SkyVu's Aug 16 2026 "Official Playtest Highlights" thumbnail (C7uFxvSZ10c, HUD build 3.0.0) shows the yellow disc with black radiation wedges, stacked with a Slowed Z, over the target of a gold Graham's yellow beam [Observed, per 2026.addendum.md; crop re-opened].
     - About 8.5 s: a **yellow disc with a black radiation trefoil** hovers over the target's head.
     - About 9.0 s: the target bursts apart with a white flash and a white hexagonal shockwave ring [Observed].
   - The same icon should appear on MuskIt hits [Inference: shared status visuals].
@@ -498,18 +501,18 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - **Muzzle end:** it flares. It is a **grey-and-red checkered cone** in the Steam trailer footage (pointing at the target at about 4.4 s), on the 2026 "Classic Oliver" card and in the concept; the BBR April 2013 shop model shows only faint grey mottling there [Observed].
   - **How it is carried:** on the right shoulder, in the 2013 shop shot, in Dban1's demo "[Oliver]:Secondary - Bearzooka" (BBR, April 2013), in the Steam trailer (2013 footage [Inference, strong]) and on the 2026 "Classic Oliver" card [Observed].
   - **Concept image:** Bearzooka_Concept.png (captioned "Bearzooka concepts") is a crop of Soldier_Weapon.png, uploaded by a wiki user in Nov 2012 with no watermark. SkyVu provenance is [Inference].
-  - **Steam trailer, 3.9–4.4 s** (frame t_0009 at 4.0 s; 2013 footage [Inference, strong]: the same shot is at t=8 s in the storyboard of SkyVu's May 30 2013 trailer rfAyqVJrli4 [Observed, low-res]): the carrier is a **green-skinned** bear with a blue bandana mask, a waist belt of gold bullets with blue spikes, and a lavender-and-blue slab on its back [Observed]. The skin is unidentified. The Bearzooka is a Soldier weapon, so this is probably an Oliver skin [Inference].
+  - **Steam trailer, 3.89–4.59 s** (t_0009 is really 4.22 s; 2013 footage [Inference, strong]: the same shot is at t=8 s in the storyboard of SkyVu's May 30 2013 trailer rfAyqVJrli4 [Observed, low-res]): the carrier is a **green-skinned** bear with a blue bandana mask, a waist belt of gold bullets with blue spikes, and a lavender-and-blue slab on its back [Observed]. The skin is unidentified. The Bearzooka is a Soldier weapon, so this is probably an Oliver skin [Inference].
   - **Green launchers in other contexts:**
     - The **BB: Zombies Bearzooka** (Bear.jpg, "Bearzooka in BBZ") is a dark-green tube stencilled "BEARZOOKA" with an arrow and yellow-and-black hazard stripes at the muzzle [Observed]. This is almost certainly where oliver.md's "green, hazard-striped tube" came from [Inference].
     - **Tillman's Twin Bearzookas** (Demo primary, BBG 2.17, Mar 8 2015) are two **yellow-olive tubes** (#71793C–#ABB157, median #8A9246) with dashed seams and **octagonal black muzzles with silver-grey rims**, one over each shoulder [Observed, Ohmagawdyas.png, re-opened]. Stats: explosives 15–25, 3 ammo, 750 u/s, −10% speed [Fan-wiki].
 - **Firing:**
   - One rocket per shot; rate of fire 1.5 s, reload 2.5 s, projectile 1,000 u/s, explosives 40–60, AoE max-damage range 125 units and min-damage range 250 units [Fan-wiki].
   - **Ammo conflict:** the infobox says "Ammo 1"; the prose says it "has two shots without additional ammo" [Fan-wiki]. The April 2013 demo HUD reads "1 / 1", then "0 / 1" with RELOAD [Observed, re-opened]. Unused "incoming stats" listed 3 ammo [Fan-wiki].
-- **Projectile:** the rocket's look is undocumented; no image shows it [Unverified].
+- **Projectile:** the Steam trailer SkyVu put on the 2026 Steam page shows one rocket in flight from 1.92 s to 3.05 s [Observed]. The footage is from 2013 [Inference, strong]: the trailer's class cards are pixel-identical to SkyVu's May 30 2013 trailer rfAyqVJrli4, and this shot is in that trailer's storyboard too (t=6–7 s) [Observed, storyboard size]. It does not show the 2026 build. It is fired by a distant green-furred, blue-team Soldier holding a coral tube; the launch is a white smoke burst with an orange core. The rocket has a grey stepped hex nose, glowing yellow/orange checker panels in chevron bands, grey collars and a flared skirt, a maroon tail with pink-red square lights, and spiky orange-yellow flame shards, with white puffs trailing it at range. It flies toward and past the camera, under the airborne B-1000, and leaves the frame without detonating. That it is the Bearzooka's rocket is [Inference, high]: the same green character carries the coral Bearzooka at 3.89–4.59 s. (See shared.addendum.md, round 3, "Bearzooka (BBG) rocket", for the frame-by-frame trace and the reasons for the attribution.)
 - **Impact / end result:**
   - An explosion with splash. "The user is very prone to suicide while using the Bearzooka." [Fan-wiki]
-  - The blast's colour and shape are [Unverified].
-  - **The trailer is not evidence for the blast.** At 4.4–5.2 s no rocket leaves the tube. The yellow-white wipe and the streak backdrop belong to B-1000's entrance: he slashes with a cyan blade, the green bear breaks apart, and the shot cuts to the "B-1000 / ASSAULT" title card [Observed].
+  - The blast's colour and shape are [Unverified]. The Steam trailer rocket (2013 footage [Inference, strong]) leaves the frame at 3.05 s without detonating [Observed].
+  - **The trailer is not evidence for the blast.** At 4.4–5.2 s on the t_ grid no rocket leaves the tube; on exact frames the cyan slash starts at 4.59 s (n137) [Observed: bz_shot_sheet.jpg]. The yellow-white wipe and the streak backdrop belong to B-1000's entrance: he slashes with a cyan blade, the green bear breaks apart, and the shot cuts to the "B-1000 / ASSAULT" title card [Observed].
 - **Images viewed:**
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned/png/Photo_19-04-13_12_02_26_PM.png
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/v2/bz2013_zoom.png (re-opened)
@@ -517,7 +520,10 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/png/Bear.png ([File:Bear.jpg](https://battlebears.fandom.com/wiki/File:Bear.jpg)) (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned/png/Ohmagawdyas.png (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/v2/twin_muzzle.png (re-opened)
-  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/t_0009.jpg (4.0 s)
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/t_0009.jpg (4.22 s; nominally 4.0 s)
+  - Oct 18 edit, re-opened from the round-3 trace (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/shared-r3/): sheets/rocket_track.jpg, sheets/green_launch.jpg, sheets/green45_71.jpg, sheets/s74_85.jpg and tr/f_0088.png (the rocket, 1.92–3.05 s)
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/b1000_shot.jpg (Steam t_0004–t_0007 against the 2013 storyboard's t=5–8 s)
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_r3_chk/bz_shot_sheet.jpg (exact frames n116–n150, 3.89–5.02 s)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/v2/tr/bz_full6.jpg (3.9–5.2 s) (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/v2/tr/bz_full4.jpg (4.4–4.7 s) (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned/web/AZt_huguhzc_strip.jpg (re-opened)
@@ -525,9 +531,9 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/steam_vs_2013_sb.jpg (Steam trailer frames against the rfAyqVJrli4 storyboard)
 - **Depiction for shorts:**
   - A coral-red tube with glowing orange panels on Oliver's right shoulder.
-  - The rocket and its blast are a [BBG News invention]: suggest a fat yellow-orange cartoon blast, plus comic soot when it backfires (a gag built on the wiki's "prone to suicide" line).
+  - The rocket follows the Steam trailer's 2013 footage: grey stepped hex nose, glowing yellow-orange checker panels, maroon tail, spiky orange flame shards and white puffs [Observed; its Bearzooka link is Inference, high]. The blast is a [BBG News invention]: suggest a fat yellow-orange cartoon blast, plus comic soot when it backfires (a gag built on the wiki's "prone to suicide" line).
   - Never draw it green, except for Tillman's twin tubes or a BB: Zombies / BB-1 flashback.
-- **Confidence:** observed (look); partial (firing, impact).
+- **Confidence:** observed (look; the rocket, in 2013 footage, with its Bearzooka link an Inference, high); partial (firing, impact).
 
 ## BBR-era weapons still in BBG (BBR Oct 2011–Apr 2013 → BBG relaunch May 24 2013)
 Looks belong in the class dossiers. Dates are from the wiki's version pages and weapon pages [Fan-wiki], with the gaps noted.
@@ -750,7 +756,7 @@ Every "current text" below was checked to exist verbatim in /home/user/thallo-si
    - **Evidence:**
      - Photo_19-04-13_12_02_26_PM.png (Bearzooka (BBG) infobox, "Oliver with the Bearzooka").
      - Dban1's "[Oliver]:Secondary - Bearzooka" thumbnails (April 2013).
-     - Steam trailer frames at 3.9–4.4 s (t_0009; 2013 footage [Inference, strong]).
+     - Steam trailer frames at 3.89–4.59 s (t_0009, really 4.22 s; 2013 footage [Inference, strong]).
      - SkyVu's Jul 6 2026 "Classic Oliver" short (byri_kQBUS4; crop byri_zooka.jpg, 2026.addendum.md).
      - Bear.jpg ("Bearzooka in BBZ") and Ohmagawdyas.png.
      - The wiki's "In BBG and BB0, it is a rocket launcher with red and orange lines."
@@ -840,7 +846,7 @@ Every "current text" below was checked to exist verbatim in /home/user/thallo-si
 - Catastrophe, ClubCobra and Traffic Light: swing animations and hit effects are undocumented.
 - Catastrophe's real stats: 40 or 25 damage? −20% or +15% speed? +10%, +5% or −5% health? (The page, the trivia, the Health page, the 2.6 notes and the 2012 screenshot disagree.)
 - ClubCobra's health modifier: +10% (screenshot and Health page) or +15% (its own page)?
-- Bearzooka ammo: 1 (infobox, 2013 HUD) or 2 ("two shots" in the prose)? What do its rocket and its explosion look like in BBG? No image found.
+- Bearzooka ammo: 1 (infobox, 2013 HUD) or 2 ("two shots" in the prose)? Rocket: answered (Steam trailer 1.92–3.05 s, 2013 footage [Inference, strong]). Explosion: still open.
 - Doomstick: BBR 1.3 (its own page) or 1.3.1 (the version page)?
 - Social Butterfly has no image or effect description at all.
 - When exactly were Bouncing Betty (after Mar 2018, before May 2020), Greased Lightning and Last Resort removed, and are any of them in the 2026 build?

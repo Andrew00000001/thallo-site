@@ -67,9 +67,9 @@ The overview summarises those dossiers and does not repeat their per-weapon deta
    - The trailer is a re-edit of SkyVu's May 30, 2013 launch trailer, rfAyqVJrli4 [Observed: thumbnail pixel matches, MSE about 17–495 against a median of about 9,000; dating Inference, strong].
    - Each of the five screenshots is a frame of that trailer [Observed].
    - Use them as a 2013 look reference only, and never caption them as 2026 gameplay [Inference].
-   - The gameplay matches too: the 2013 trailer's YouTube storyboard lines up with the Steam trailer at a constant offset of about 4 s, 45 of 55 frames [Observed, per 2026.md, "The Steam trailer is 2013 footage"].
-   - That includes the Space Oddity clip (about 30.0–32.8 s) and screen_01, a frame of it. The maps research's Space Oddity dossier left its date open, because its pillar top blooms to near-white, unlike 2013–2021 fan captures, so it might be a newer or relit capture [Inference]. But the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed], so it is 2013 footage too [Inference, strong; research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1]. Why it blooms is [Unverified]. It does not show the Oct 2026 lighting either [Observed, per the maps overview].
-   - The Graham segment (about 7.25–10.5 s) is 2013 footage too: it is in the same storyboard (2013 12–13 s = Steam 7.95–8.95 s) [Observed, per 2026.md]. Its toon outlines do not date it to 2018 or later: some 2013 fan captures already have them (graham.addendum.md, Incidental findings 1) [Observed].
+   - The gameplay matches too: the 2013 trailer's YouTube storyboard (160×90) lines up with the Steam trailer at a constant offset of about 4 s, 45 of 55 frames [Observed at storyboard size, per 2026.md, "The Steam trailer is 2013 footage"].
+   - That includes the Space Oddity clip (about 30.0–32.8 s) and screen_01, a frame of it: the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed], so it is 2013 footage too [Inference, strong; research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1]. The maps research's Space Oddity dossier now dates it to 2013 as well (space-oddity.md, "Era and status"). Only why its pillar top blooms to near-white, unlike 2013–2021 fan captures, is [Unverified]. It does not show the Oct 2026 lighting either [Observed, per the maps overview].
+   - The Graham segment (about 7.25–10.5 s, Gold Digger) is 2013 footage too [Inference, strong]: it is in the same storyboard (2013 12–13 s = Steam 7.95–8.95 s) [Observed, per 2026.md]. The "2018 or later" reading from its toon outlines is withdrawn: some 2013 fan captures already have them (graham.addendum.md, Incidental findings 1) [Observed]. Why the trailer's Graham is outlined when Dec 2013 fan captures of its Instagraham skin are not is [Unverified].
 2. **The JustNubz "BBG All Classes Showcase" (-lAtv-j9Sms, Sep 20, 2026, Closed Playtest #4, build "3.0.5_2026.11.19_B1") is a Gear Up menu walkthrough.**
    - All 309 storyboard frames (0–3080 s) show the loadout menu: 3D models, item lists, description pop-ups and stat panels [Observed].
    - Whether any combat appears between the 10 s samples is [Unverified].
@@ -260,8 +260,8 @@ The dossiers hold about 150 correction entries. Below they are deduplicated and 
 ### 4.1 Cross-file fixes (apply everywhere)
 1. **"2026 trailer" / "2026 Steam screenshot" means 2013 footage.**
    - Re-label in `astoria.md` (line 49), `riggs.md` (line 52), `botch.md` (line 53), `saberi.md` (line 53), `graham.md` (line 49) and `tillman.md` (line 48).
-   - Evidence: thumbnail pixel matches of rfAyqVJrli4 to Steam-trailer frames; the screenshots are trailer frames [Observed].
-   - This includes the Space Oddity clip (about 30.0–32.8 s) and screen_01. The Space Oddity dossier left their date open, but the same moment is in the 2013 trailer's storyboard [Observed] (see section 1, fact 1). Only the clip's bloom is unexplained [Unverified].
+   - Evidence: thumbnail pixel matches of rfAyqVJrli4 to Steam-trailer frames; the gameplay matches that trailer's storyboard at storyboard size; the screenshots are trailer frames [Observed].
+   - This includes the Space Oddity clip (about 30.0–32.8 s) and screen_01: the same moment, bloom included, is in the 2013 trailer's storyboard [Observed], so they are 2013 footage too [Inference, strong], and the Space Oddity dossier now says so (see section 1, fact 1). Only why the clip's pillar top blooms is unexplained [Unverified].
 2. **BBH items presented as BBG.**
    - Astoria's Explosive Retreat (loglines and the Fighting line).
    - Riggs's "astonishing leap and ground-smashing ability" and "Beebee gun … burst of shells".

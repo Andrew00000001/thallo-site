@@ -34,10 +34,10 @@
    "weapon": "Steam trailer is 2013 footage (sub-topic)",
    "owner": "SkyVu",
    "slot": "n/a",
-   "status": "'Battle Bears Gold Premium - Trailer' re-edits the May 2013 launch trailer; 5 screenshots are its frames. The 2013 trailer's storyboard matches its gameplay at a ~4.0 s offset (first 4 s and end cards cut), including the Graham segment and the Space Oddity clip (screen_01; the maps research's Space Oddity dossier leaves its date open) [Observed]; so all of it is 2013 footage [Inference, strong]",
+   "status": "'Battle Bears Gold Premium - Trailer' re-edits the May 2013 launch trailer; 5 screenshots are its frames. The 2013 trailer's storyboard matches its gameplay at a ~4.0 s offset (first 4 s and end cards cut), including the Graham segment (about 7.25-10.5 s) and the Space Oddity clip (about 30.0-32.8 s; screen_01) [Observed, storyboard size]; the class cards are pixel-identical at full size [Observed]; so all of it is 2013 footage [Inference, strong], the Space Oddity clip included, as the maps research's Space Oddity dossier now says too",
    "look": "Corrected IDs: Bearail Gun + Shock N Claw (B-1000), Gernobyl goo, Light Matter orbs/blast, Big Shot, Phat Man, Punk Bands, Electric Honey, Blood Spurt, Gamma Ray beam and card",
    "firing_and_projectile": "See table; draft IDs (Grenader, Barbed Gloves, Gamma Ray at 7-10 s) withdrawn",
-   "impact_end_result": "Use as 2013 look reference only, never as '2026 gameplay'",
+   "impact_end_result": "Use as 2013 look reference only: caption it 'the Steam trailer' or 'Steam screenshot screen_0N' ('classic 2013 look' where the era matters), never '2026 gameplay', and never rest a 2026-build claim on it alone",
    "confidence": "observed"
   },
   {
@@ -154,7 +154,7 @@
    "weapon": "Gernobyl",
    "owner": "Graham (Engineer)",
    "slot": "Secondary",
-   "status": "2013 trailer only (7-10.5 s); 2026 unknown",
+   "status": "2013 trailer only (7.25-10.5 s); 2026 unknown",
    "look": "Tan mutant-gerbil launcher with glowing yellow eyes, carry handle, dripping lime-green goo",
    "firing_and_projectile": "Lime-green goo globs that split into 2-3 droplets; 3 ammo, 4.5 s reload, 1,000 u/s",
    "impact_end_result": "Radiation plus small damage; misses leave lime-green puddles (4.5 s); trailer victim flashes yellow-green, trefoil, yellow cube detonation",
@@ -217,7 +217,7 @@
    "status": "2013 trailer only; 2026 unknown",
    "look": "Black cuffs studded with white spikes, pink top part",
    "firing_and_projectile": "Clapping melee (one clap since v1.4.1), 70 dmg, +10% special speed",
-   "impact_end_result": "Trailer: dash with magenta crystal shards, white-pink flash on Astoria, who ends face-down",
+   "impact_end_result": "Steam trailer (2013 footage [Inference, strong]): the Huggable flies in on a rainbow ribbon (probably So Fly; not the Charged Run, a ground run added in BBG 2.6, Dec 2013) and swings; white-pink flash on Astoria, who ends face-down. The magenta crystal shards in that shot are Tillman's Happy Hour, not the Huggable's [Inference]",
    "confidence": "observed"
   },
   {
@@ -347,7 +347,7 @@
    "status": "Jul 6 banner extras, store loop, map objects; Steam-trailer leftovers (2013 footage [Inference, strong])",
    "look": "Panda's three-pronged white rifle, skull bear's lime camo gun, eye-patch bear's grey gun; gold Huggable faceted trail",
    "firing_and_projectile": "Unknown; in the Steam trailer, a thin violet line from the gold bear's gun (38.3-40.8 s) [Observed], weapon unidentified",
-   "impact_end_result": "Blue bolt shapes are probably kill drops; green shields around players are the Shield pickup or the 4.5 s respawn shield [Unverified]; 'Z' icon meaning unknown",
+   "impact_end_result": "Blue bolt shapes are probably kill drops; green shields around players are the Shield pickup or the 4.5 s respawn shield [Unverified]; the yellow 'Z' is the Slowed status icon, stacked on the Irradiated disc in the official highlights [Fan-wiki: Status Effects; Observed]; its 2026 cause is [Unverified]",
    "confidence": "unknown"
   }
  ],
@@ -374,7 +374,7 @@
    "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
    "current_text": "a teal-masked sniper in a 2026 Steam screenshot, which is Astoria only by [Inference]",
    "correction": "a teal-masked sniper in Steam screenshot screen_01, a frame of the Steam trailer's Space Oddity clip (trailer 30.7 s; 2013 footage [Inference, strong], re-used on the 2026 store page), Astoria by [Inference]",
-   "evidence": "screen_01 matches trailer 30.7 s (pixel MSE; confirmed by both checks); the Steam trailer re-edits the May 2013 launch trailer. The maps research's Space Oddity dossier leaves the clip undated, but the same moment is in the 2013 trailer's storyboard (Steam 30.85 and 31.95 s against 2013 35 and 36 s; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/edit2026_tr/sb_match.txt)."
+   "evidence": "screen_01 matches trailer 30.7 s (pixel MSE; confirmed by both checks); the Steam trailer re-edits the May 2013 launch trailer. The same moment, bloom included, is in the 2013 trailer's storyboard (Steam 30.85 and 31.95 s against 2013 35 and 36 s; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/edit2026_tr/sb_match.txt), and the maps research's Space Oddity dossier now dates the clip to 2013 too."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
@@ -434,7 +434,7 @@
   "When did SkyVu add the Bearail Gun's visible golden beam, and was it present at the May 2013 launch?",
   "When was the Last Resort removed, and what replaced it as the B-1000's default secondary?",
   "On the Jul 6 banner, is the upright rainbow chainsaw the red Huggable's second Seesaw blade? What are the panda's three-pronged white rifle, the skull bear's lime camo gun and the eye-patched bear's grey gun?",
-  "What do the 'Z' on the Gamma Ray trefoil and the red translucent horned shape in the trailer's temple shot mean?",
+  "What slowed the Dark O.C.O. target in the official highlights (the 'Z' on the Gamma Ray trefoil is the Slowed icon)? What is the red translucent horned shape in the trailer's temple shot?",
   "What do the Beebeegun and Hivey League bees, the Big Shot shell and the Grenader grenade look like in flight? No frame was found.",
   "Why do 2026 HUD ammo readouts differ from wiki figures (A Salt Rifle 70/70 against 25; Gamma Ray 66/120 against 100)?",
   "What does 'Premium' in the Steam trailer title mean? Will 2026 footage replace the 2013 recut on the store page?",

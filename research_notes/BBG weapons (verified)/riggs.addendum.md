@@ -524,7 +524,7 @@ Upload dates come from YouTube InnerTube; build stamps and loadouts are read fro
 - **Yl26Ukn3qSA "Battle Bears Gold Heavy Gameplay 1v1"** (PanoramicBB, Aug 23 2013, Everyplay): Beebeegun at 0/160 and 159/160, plus Sucker Punch. Riggs, in the red cracked-rock Rocky Horror skin, holds the Beebeegun in maxres1 and maxres3 [Observed].
 - **vHHlwQUiOGQ "#33 Heavy Gameplay – Battle Bears Royale"** (xBlush Bangarang, Dec 4 2012): Electric Honey (120) plus a hive-family secondary showing **2 / 3** rounds [Observed]. See the Buzz Kill section.
 - **ftGRzdV33a8** (Hammad Shahid, Mar 9 2014): Big Iron (10 rounds) plus a hive-family secondary whose muzzle is hidden [Observed].
-- **IucMFqzR_Qw**, the official BBR Sneak Peek (2011): sd3 shows "0 / 3" and grey smoke puffs [Observed]. The HUD icon is the purple Big Shot drum [Observed], so this is Tillman, **not a Buzz Kill shot**. Do not reuse it for Riggs.
+- **IucMFqzR_Qw**, the official BBR Sneak Peek (2011): sd3 shows "0 / 3" and grey smoke puffs [Observed]. Zoomed, the weapon icon in the top-right RELOAD box is the purple-framed Big Shot drum (grey drum, yellow muzzle disc; matches File:Big_Shot.jpg), and the HUD portrait at top left is a panda [Observed]. The small icon beside "0 / 3" is a cluster of brass shells, not the drum [Observed]. So the player is Tillman [Inference], and this is **not a Buzz Kill shot**. Do not reuse it for Riggs.
 - **No bee weapon in any thumbnail frame:** SodtU3IU63g, wpg8_7XT4w8, TZzqZ3N3ya0, MoFiMk7otxQ, uGYhJnoHTmA, qmlxB5Zs7YY, OdCUgvvEt9Y, oYKPEZZctFw, 5nNN4Iv-sy4, b-14FpvlP5g, tE1l2LVL2CI, NRs1Wao1irI, iXr7wjY2eRI, wwumLJSv7Lc, S1xFILDzfsI, 3G3a9EVFnyA, K2Dl31lpb10, wgcJIio0PhI, dJ6efITC_Yc, qszQzHQWte4, EzvSW6mLOgk, MsbKQ7Wo6LY, CtbZrp5E6UE, MTIL555mNXI, aeEtor1v-0E, kyd1Imy3n9w, eWqBEhym3zA [Observed].
 
 **2026 Steam community screenshots** (73 images, builds 2.54.0–3.0.7):
@@ -670,7 +670,7 @@ Upload dates come from YouTube InnerTube; build stamps and loadouts are read fro
 - **DArtist900 "x/120":** this is **Electric Honey** (120 rounds), not a Beebeegun. The secondary is the Hivey League [Observed].
 - **Rexnado01 IqQJgohemMM:** uploaded **Aug 21 2026**, build "3.0.2". It is Tillman's point of view, and the starburst is not attributable to Riggs [Observed].
 - **Beebeegun size conflict:** research_notes/BBG weapons (verified)/2026.md says "about 0.7× Oliver's height", but riggs.md says "≈ 0.7× Riggs ≈ 0.85× Oliver". Make them agree on 0.7× Riggs, which is about 0.85× Oliver [Inference].
-- **IucMFqzR_Qw sd3** (0/3 rounds, grey smoke): this is the Big Shot (Tillman), not a Buzz Kill [Observed].
+- **IucMFqzR_Qw sd3** (0/3 rounds, grey smoke): the weapon icon in the RELOAD box is the Big Shot drum and the HUD portrait is a panda [Observed]. The icon beside "0 / 3" is a cluster of brass shells, not the drum [Observed]. So this is Tillman [Inference], not a Buzz Kill.
 
 ## Open questions
 - What do Beebeegun bees, the Hivey League bee cone and the Buzz Kill queen bee and blast look like in motion? It needs actual video. The best candidates are:

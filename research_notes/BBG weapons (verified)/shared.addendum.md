@@ -20,9 +20,8 @@ This addendum covers only the five "shared" gaps. It builds on /tmp/claude-0/-ho
 
 **What the YouTube evidence is.** All YouTube evidence is single frames. Their times are unknown: automatic frames are not reliably at 25/50/75%.
 
-**Key change of premise (affects the melee and Punk Bands rows).** The verified 2026 dossier showed that the Steam trailer and the Steam screenshots are a re-edit of SkyVu's **May 2013** launch trailer [Inference, strong; the class cards are pixel-matched to rfAyqVJrli4]. So the "pale cream stars in 2026 media" (oliver.md "Shared VFX", huggable.md Punk Bands, combat-vfx) are **2013 footage re-used on Steam in 2026**, not the 2026 build. In the frames I examined, **no 2026-build frame shows a melee hit** [Observed absence].
-- **Exception (edit, Oct 18 2026):** the maps research leaves the capture date of the Space Oddity clip (about 30.0–32.8 s) and screen_01 open: it may be a newer or relit capture [Inference] (/home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1). The trailer's Punk Bands melee at 30.5–32.5 s is in that clip.
-- But the same shot is in SkyVu's May 30 2013 trailer: the storyboard of rfAyqVJrli4 (160×90, one frame per second) shows it at t=35–36 s, with the same camera, the same bears and an equally bright pillar top [Observed, low-res: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/steam_vs_2013_sb.jpg and so_pillar_cmp.png]. So that clip is probably 2013 footage too [Inference]. Either way it is not evidence of the 2026 build.
+**Key change of premise (affects the melee and Punk Bands rows).** The verified 2026 dossier showed that the Steam trailer and the Steam screenshots are a re-edit of SkyVu's **May 2013** launch trailer [Inference, strong]: the class cards are pixel-identical to rfAyqVJrli4 at full size, and the gameplay matches that trailer's 160×90 YouTube storyboard at an offset of about 4 s (45 of 55 frames from 5 to 59 s) [Observed, storyboard size; 2026.md, "The Steam trailer is 2013 footage"]. So the "pale cream stars in 2026 media" (oliver.md "Shared VFX", huggable.md Punk Bands, combat-vfx) are **2013 footage re-used on Steam in 2026**, not the 2026 build. In the frames I examined, **no 2026-build frame shows a melee hit** [Observed absence].
+- **The Space Oddity clip is no exception (edit, Oct 18 2026).** The trailer's Punk Bands melee at 30.5–32.5 s is in the Space Oddity clip (about 30.0–32.8 s; screen_01 is a frame of it). An earlier edit of this note left that clip's date open. It is 2013 footage too [Inference, strong]: the same moment, bloom included, is in the storyboard of rfAyqVJrli4 (2013 35–36 s = Steam 30.85–31.95 s), with the same camera, the same bears and an equally bright pillar top [Observed, storyboard size: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/steam_vs_2013_sb.jpg and so_pillar_cmp.png; /home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1]. Only why its pillar top blooms more than fan captures is [Unverified]. It is not evidence of the 2026 build.
 
 All downloads are under /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/shared-gaps-r2/, written below as "R/". Scripts are in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/scripts_shared_gaps_r2/. Hex values are medians or 90th-percentile brights that I sampled from compressed frames, so treat them as approximate.
 
@@ -229,7 +228,7 @@ This replaces "Undocumented" for the melee rows below.
 - **Observed convention: a cluster of five-point cartoon stars at the point of contact**
   - **Apr 2013 (BBR v1.4.3):** chunky saturated-yellow stars (#EAD94C, bright #FFF278) on and around the struck target after a Krikkit Bat swing [Observed: https://i.ytimg.com/vi/JFi380KnDUM/hq1.jpg, Dban1 "[Oliver]: Melee - Krikkit Bat"; crop R/crops/jfi_hq1_z.png].
   - **Steam screenshot screen_00 (May 2013 launch-trailer footage [Inference, strong], re-used on Steam in 2026):** pale cream-yellow stars (#FFFFC7, bright #FFFFD9) at the feet of a cyan Huggable swinging Punk Bands [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_00.jpg; crop R/crops/s00_melee.png].
-  - **Steam trailer, Space Oddity clip, 30.5–32.5 s** (capture date open in the maps research [Unverified]; the same shot is at t=35–36 s in the storyboard of SkyVu's May 30 2013 trailer [Observed, low-res], so probably 2013 footage [Inference]): a Punk Bands swing (t_0063, 31.0 s), then a big white-and-yellow starburst over the target (t_0064, 31.5 s), then a white burst with pink streaks (t_0065, 32.0 s). The victim then lies face-down while the Huggable grins (t_0066, 32.5 s) [Observed: R/frames/tr_melee.jpg from /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/t_0062–t_0066.jpg]. Missiles also fall in that shot (huggable.md), so attributing the big burst is [Unverified].
+  - **Steam trailer, Space Oddity clip, 30.5–32.5 s** (2013 footage [Inference, strong]: the same moment, bloom included, is at t=35–36 s in the storyboard of SkyVu's May 30 2013 trailer (= Steam 30.85–31.95 s) [Observed, storyboard size]): a Punk Bands swing (t_0063, 31.0 s), then a big white-and-yellow starburst over the target (t_0064, 31.5 s), then a white burst with pink streaks (t_0065, 32.0 s). The victim then lies face-down while the Huggable grins (t_0066, 32.5 s) [Observed: R/frames/tr_melee.jpg from /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/t_0062–t_0066.jpg]. Missiles also fall in that shot (huggable.md), so attributing the big burst is [Unverified].
   - The pale versus saturated difference may come from capture and compression rather than era [Inference].
   - **May 2021:**
     - A Graham wrench kill on a Botch (title "Botch gets brain damage from wrench") throws pale-yellow five-point stars **plus glowing gold coin discs** (with the stars, #F9FD58) from the target. The feed shows "KILLS", "3 STREAK" and three "+50" lines [Observed: https://i.ytimg.com/vi/L-ND0C4rDB8/maxres2.jpg; crop R/crops/lnd_m2_coins.png; maxres1 shows the swing].
@@ -410,7 +409,7 @@ Looks below are from the wiki infobox images I opened today, on contact sheets R
    - "use orange-yellow energy tracers [BBG News invention]" → use magenta.
 2. **shared.md, Social Butterfly.** "no image and no effect description … do not depict it" and correction 10's "(… no image)" → the crossbow look, projectile and ammo are observed in 2018 and 2021 fan thumbnails.
 3. **shared.md, Late-era drops.** "Dragon Slayzer (BBG) … A stub with no image" → File:DragonSlayzer(BBG).jpeg exists (2018-05-12). It shows a red dragon head with green eyes, red wings and a silver blade [Observed].
-4. **oliver.md "Shared VFX", huggable.md (Punk Bands, "2026 melee"), combat-vfx (Damage feedback)** → the pale cream stars and white hit flash are from **2013 launch-trailer footage re-used on Steam in 2026**, not the 2026 build (verified 2026 dossier, trailer section). The white flash and starbursts at 30.5–32.5 s are in the Space Oddity clip, whose capture date the maps research leaves open; the same shot is in the 2013 trailer's storyboard, so it is probably 2013 footage too [Inference]. It is not 2026-build evidence either way.
+4. **oliver.md "Shared VFX", huggable.md (Punk Bands, "2026 melee"), combat-vfx (Damage feedback)** → the pale cream stars and white hit flash are from **2013 launch-trailer footage re-used on Steam in 2026**, not the 2026 build (verified 2026 dossier, trailer section). The white flash and starbursts at 30.5–32.5 s are in the Space Oddity clip, which is 2013 footage too [Inference, strong]: the same moment, bloom included, is in the 2013 trailer's storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed]. It is not 2026-build evidence.
 5. **sanchez.md, 2026 note** → the aujTcdFuxdE Match 6 chapter frame (about 20:54) shows only Oliver at spawn, not Sanchez [Observed].
 
 ## Corrections for the character file
@@ -437,7 +436,7 @@ This addendum covers only two gaps for the "shared" topic:
 
 **Sources I could reach (Oct 18, 2026)**
 - **Official Steam trailer** "Battle Bears Gold Premium - Trailer" (local trailer.mp4: 1920×1080, 30 fps, 54.02 s).
-  - SkyVu put it on the 2026 Steam page, but it is 2013 footage [Inference, strong]: its class cards are pixel-matched to SkyVu's May 30 2013 trailer rfAyqVJrli4 (/home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1). The 1.5–5 s shots used below are also in that trailer's storyboard, at t=6–9 s, framed a little tighter [Observed, low-res: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/b1000_shot.jpg; edit, Oct 18 2026]. So nothing below shows the 2026 build.
+  - SkyVu put it on the 2026 Steam page, but it is 2013 footage [Inference, strong]: its class cards are pixel-identical to SkyVu's May 30 2013 trailer rfAyqVJrli4 at full size, and its gameplay matches that trailer's 160×90 storyboard at an offset of about 4 s [Observed, storyboard size] (/home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1). The 1.5–5 s shots used below are also in that storyboard, at t=6–9 s, framed a little tighter [Observed, storyboard size: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/b1000_shot.jpg; edit, Oct 18 2026]. So nothing below shows the 2026 build.
   - I extracted every frame from n0 to n170. True time = 0.021 + n/30 s, from the stream's pts.
   - I cross-checked this against `ffmpeg -ss 2.5`: that frame is n75 (2.52 s).
   - The gameplay shot at the start runs unbroken from 1.49 s to 3.85 s, with a fixed camera. It cuts to the moonlit shot at 3.89 s (n116) [Observed: scene-cut detection plus the frames].
@@ -555,13 +554,14 @@ This addendum covers only two gaps for the "shared" topic:
 ### One attribution for all four rows (replacement text)
 Use this text in each row:
 
-> **Projectile:** the Steam trailer SkyVu put on the 2026 Steam page shows one rocket in flight from 1.92 s to 3.05 s [Observed]. The footage is from 2013 [Inference, strong]: the trailer's class cards are pixel-matched to SkyVu's May 30 2013 trailer rfAyqVJrli4, and this shot is in that trailer too. It does not show the 2026 build. It is fired by a distant green-furred, blue-team Soldier holding a coral tube; the launch is a white smoke burst with an orange core. The rocket has a grey stepped hex nose, glowing yellow/orange checker panels in chevron bands, grey collars and a flared skirt, a maroon tail with pink-red square lights, and spiky orange-yellow flame shards, with white puffs trailing it at range. It flies toward and past the camera, under the airborne B-1000, and leaves the frame without detonating. That it is the Bearzooka's rocket is [Inference, high]: the same green character carries the coral Bearzooka at 3.89–4.59 s.
+> **Projectile:** the Steam trailer SkyVu put on the 2026 Steam page shows one rocket in flight from 1.92 s to 3.05 s [Observed]. The footage is from 2013 [Inference, strong]: the trailer's class cards are pixel-identical to SkyVu's May 30 2013 trailer rfAyqVJrli4, and this shot is in that trailer's storyboard too (t=6–7 s) [Observed, storyboard size]. It does not show the 2026 build. It is fired by a distant green-furred, blue-team Soldier holding a coral tube; the launch is a white smoke burst with an orange core. The rocket has a grey stepped hex nose, glowing yellow/orange checker panels in chevron bands, grey collars and a flared skirt, a maroon tail with pink-red square lights, and spiky orange-yellow flame shards, with white puffs trailing it at range. It flies toward and past the camera, under the airborne B-1000, and leaves the frame without detonating. That it is the Bearzooka's rocket is [Inference, high]: the same green character carries the coral Bearzooka at 3.89–4.59 s.
 >
 > **Impact:** not shown in any official media [Unverified]. The trailer's 2.69–3.05 s flame and yellow ball are the B-1000's Metal Crush jet, not a Bearzooka blast [Observed].
 >
 > The red checker-band rocket in fan footage Pd0VvQ1TBRM is a different, Tillman weapon [Observed].
 
 **1. shared.md, Bearzooka**
+- **Status (edit, Oct 18 2026): applied in shared.md**, together with the matching shared.meta.json row and open question. Before applying I re-opened [R]sheets/rocket_track.jpg, green_launch.jpg, green45_71.jpg, s74_85.jpg and [R]tr/f_0088.png, and re-matched t_0008–t_0010 to exact frames of trailer.mp4: n111, n126 and n141 (3.72, 4.22 and 4.72 s); the shot cuts in at n116 (3.89 s) and B-1000's slash begins at n137 (4.59 s) [Observed: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_r3_chk/bz_shot_sheet.jpg]. The "Current:" quotes below are the pre-edit text.
 - **Projectile.** Current: "- **Projectile:** the rocket's look is undocumented; no image shows it [Unverified]."
   - Replace with the paragraph above.
 - **Impact.** Current: "The blast's colour and shape are [Unverified]."
@@ -580,19 +580,19 @@ Use this text in each row:
   - Keep, and note that the trailer does not show it.
 
 **3. oliver.addendum.md, Bearzooka**
-- (Edit, Oct 18 2026: oliver.addendum.md has since relabelled these shots "Steam trailer … (2013 footage [Inference, strong])". The "2026 trailer" wording in the quotes below is its old text, not a dating.)
-- **Impact.** Current: "- **Impact / end result (2026 trailer, 2.67–2.87 s)** … 2.73 s: a faceted orange-yellow blast outlined with white crackle lines hits the B-1000's chest. 2.87 s: a large soft yellow fireball (core ≈ #FFE01E) as the B-1000 is flung upward trailing flame. That a Bearzooka rocket caused it is an [Inference]."
+- (Re-quoted, edit Oct 18 2026: oliver.addendum.md has since relabelled and rewritten these lines, so the quotes of this pass no longer exist there. The "Current:" quotes below are its text as of today, each found with grep. The corrections are still unapplied there.)
+- **Impact.** Current: "- **Steam trailer (2013 footage [Inference, strong]):** a white-edged orange-yellow blast, then a soft yellow fireball that flings the B-1000 upward [Observed, [G]crops/tr_blast_strip.jpg; cause Inference]." (This pass quoted the older "- **Impact / end result (2026 trailer, 2.67–2.87 s)** … That a Bearzooka rocket caused it is an [Inference].")
   - Correction: no rocket hits the B-1000 [Observed]:
     - At 2.69 s his back unit (the white plates over the orange perforated vents) fires a long orange-yellow flame and he lifts off. That is the Metal Crush jet leap.
     - The "white crackle lines" are the cyan lightning of two blue orbs at the top of the frame.
     - The yellow ball at 2.85–3.05 s is his jet flame seen end-on, and he flies on upside down, trailing flame, until 3.85 s.
     - The rocket passes under his feet at 2.82 s.
-- **Projectile timing.** Current: "**Projectile (2026 official trailer, 2.87–3.00 s)**".
+- **Projectile timing.** Current: "**Steam trailer, 2.87–3.00 s** (2013 footage [Inference, strong]: …)" under "**Projectile**". (This pass quoted the older "**Projectile (2026 official trailer, 2.87–3.00 s)**".)
   - Change to "1.92–3.05 s; design clearest 2.89–3.02 s".
-- **Depiction.** Current: "End in a soft yellow fireball, faceted and white-edged at first contact."
-  - Change to: the blast is a [BBG News invention]; nothing official shows it.
-- **Open question.** Current: "Is the 2026 trailer rocket (2.87–3.00 s) really from the Bearzooka, rather than the TNT Launcher or another weapon?"
-  - Answer: it is fired from the green Soldier's coral tube and flies straight. The TNT Launcher (lobbed red hex charges) is excluded. The Bearzooka link is [Inference, high].
+- **Depiction.** Current: "It lands in a faceted yellow polygon blast with a grey or dark-grey smoke ball (observed). The target pops apart into toy pieces (observed in the Steam trailer, 2013 footage [Inference, strong]; see verified dossier)." (The line this pass quoted, "End in a soft yellow fireball, faceted and white-edged at first contact.", is gone.)
+  - Correction, adjusted to the current line: nothing official shows the blast. The current line already takes its faceted yellow blast from 2014–15 fan footage (its own Impact bullets), not from the trailer, so keep it and add that no official media show the blast. The trailer's toy-pieces break-up of the green bear follows B-1000's entrance slash (from 4.59 s), not a Bearzooka blast [Observed: shared.md, Bearzooka, Impact; bz_shot_sheet.jpg].
+- **Open question.** Current: "Is the Steam-trailer rocket (2013 footage) the Bearzooka's (shared hex-and-glowing-panel design), or the TNT Launcher's or another weapon's? What does the 2026 rocket look like?" (This pass quoted the older "Is the 2026 trailer rocket (2.87–3.00 s) really from the Bearzooka, rather than the TNT Launcher or another weapon?")
+  - Answer: it is fired from the green Soldier's coral tube and flies straight. The TNT Launcher (lobbed red hex charges) is excluded. The Bearzooka link is [Inference, high]. The 2026 rocket is still unseen.
 
 **4. 2026.addendum.md, Bearzooka**
 - **Heading.** Current: "rocket still unseen".
@@ -633,7 +633,7 @@ Use this text in each row:
 - **Correction to b-1000.md (the dossier):**
   - **The 3.0 s "close pass".** Current: "3.0 s: a close pass shows the glowing vents with spiky yellow jet flames, and a large yellow-orange flash fills the top of the frame."
     - Correction: the close pass (2.89–3.05 s) is the green Soldier's **Bearzooka rocket**, tracked continuously from 1.92 s. Only the yellow-orange glow at the top of the frame is the B-1000's jet [Observed].
-  - **"A green Demo" (lines 47, 196, 600, 603).**
+  - **"A green Demo"** (as of Oct 18 2026 it is in two places: the "House look" bullet "Steam trailer 4.95–5.3 s: a green Demo comes apart …" and "Shock N Claw", "B-1000 sweeps the claws up into a green Demo at point-blank range."; this pass's line numbers 47, 196, 600 and 603 are stale).
     - Correction: it is a green-furred **Soldier** carrying the single coral Bearzooka [Observed]; that it is the Green Oliver skin is [Inference].
 
 ---
@@ -713,6 +713,8 @@ All metadata below is [Observed: Invidious API, invidious.f5.si/api/v1/videos/<i
 ---
 
 ## Corrections for the character file
+
+- (Status, edit Oct 18 2026: none of the three "Current" lines below is still in /home/user/thallo-site/bbg-news-repo/characters/oliver.md [checked with grep]. Its rewritten Bearzooka bullets (*Look*, *Not green*, *Fires*, *Hits*), its Bearzooka reference snippet and its comedy beat 1 already carry the coral tube on the shoulder, the observed trailer rocket and the no-recoil self-splash gag, so these three read as applied. Line numbers are this pass's.)
 
 1. **oliver.md line 51.** Current: "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference]."
    - Correction: "The Bearzooka is a coral-red hexagonal shoulder tube with glowing orange chevron panels, grey collars and a grey-checkered flared end [Observed]. Its rocket has a grey stepped hex nose, glowing yellow-orange checker panels, grey collars, a maroon tail with pink-red lights and a spiky orange flame tail, leaving white smoke puffs [Observed: the Steam trailer SkyVu put on the 2026 Steam page, 1.92–3.05 s, which is 2013 footage (Inference, strong); that it is the Bearzooka's is Inference, high]. Its blast is undocumented [Unverified]. The green hazard-striped tube is the BB Zombies design."

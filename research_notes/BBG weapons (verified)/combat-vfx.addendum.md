@@ -205,7 +205,7 @@ The main new finding: there is now an **in-game image of the freeze**, from a fa
 - **Rework or removal:** none recorded [Fan-wiki, by absence].
 - **2026 re-release:** no evidence either weapon is in it [Unverified]:
   - absent from the Steam text [Observed]
-  - not in the 5 Steam screenshots or the trailer grids either [Observed], but those re-use SkyVu's 2013 footage [Inference, strong; the Space Oddity clip and screen_01 are undated], older than both weapons, so they say nothing about 2026 [Inference]
+  - not in the 5 Steam screenshots or the trailer grids either [Observed], but those re-use SkyVu's 2013 footage [Inference, strong; the Space Oddity clip and screen_01 included], older than both weapons, so they say nothing about 2026 [Inference]
   - absent from the Oct 16, 2026 Tillman frag movie thumbnails, whose primary icon is a different white launcher [Observed: FZ/crops/s_Pd0VvQ1TBRM.png, FZ/crops/Pd0_hq2_hud.png]
   - absent from the official Aug 16, 2026 playtest-highlights thumbnails [Observed: FZ/crops/s_C7uFxvSZ10c.png]
 - **Other candidates checked, no freeze visible:**

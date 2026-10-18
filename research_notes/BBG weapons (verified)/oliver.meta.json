@@ -114,8 +114,8 @@
    "weapon": "Bearzooka (BBG)",
    "owner": "Oliver (Soldier)",
    "slot": "secondary",
-   "status": "Default since BBR v1.0; named in 2026 Steam copy; BBH Ultimate [Canon]; seen in the Steam trailer (2013 footage [Inference, strong]); held in the 2026 tutorial and playtest [Observed, fan footage]",
-   "look": "Coral-red hex tube (#A44D4E 2013 photo, #DB6251 Steam trailer) with glowing orange panels, grey collars, flared muzzle with grey checker band; same coral tube and orange panels in 2026 fan footage; NOT the green BBZ tube [Observed]",
+   "status": "Default since BBR v1.0; named in 2026 Steam copy; BBH Ultimate [Canon]; seen in the Steam trailer (2013 footage [Inference, strong]); held in the 2026 tutorial and playtest [Observed, fan footage]; a launcher of the same design shouldered on SkyVu's official Jul 6, 2026 'Classic Oliver' card (byri_kQBUS4 oar1) [Observed; that it is the Bearzooka, Inference]",
+   "look": "Coral-red hex tube (#A44D4E 2013 photo, #DB6251 Steam trailer) with glowing orange panels, grey collars, flared muzzle with grey checker band; same coral tube and orange panels in 2026 fan footage; SkyVu's Jul 6, 2026 'Classic Oliver' card shows the coral-red tube, orange panels, grey band and grey-checkered flared muzzle (2026 art [Inference]; in-game render [Unverified]); NOT the green BBZ tube [Observed]",
    "firing_and_projectile": "1 rocket (two-shot text conflict), 1,000 u/s [Fan-wiki]; rocket model unseen",
    "impact_end_result": "AoE blast, 'very prone to suicide' [Fan-wiki]; explosion style from generic frames [Inference]",
    "confidence": "partial"
@@ -245,8 +245,8 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
    "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
-   "correction": "The BBG Bearzooka is a coral-red hexagonal tube with glowing orange panels, grey hex collars and a grey checker band on the flared muzzle [Observed, 2012-13 in-game and the Steam trailer (2013 footage [Inference, strong])], matching the wiki's 'red and orange lines' [Fan-wiki]. The green, hazard-striped 'BEARZOOKA' tube is the BB Zombies (2009) design [Observed, File:Bear.jpg].",
-   "evidence": "File:BBR Bearzooka.png (store, Mar 2012), File:Photo 19-04-13 12 02 26 PM.png, official Steam trailer about 3.6-5.0 s (local crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-final/crops/tr_bz.jpg), File:Bear.jpg ('Weapon Selected: BEARZOOKA', BBZ); wiki Bearzooka page: 'In BBG and BB0, it is a rocket launcher with red and orange lines. In BBZ and BB-1 it is just a dark green rocket launcher.'"
+   "correction": "The BBG Bearzooka is a coral-red hexagonal tube with glowing orange panels, grey hex collars and a grey checker band on the flared muzzle [Observed, 2012-13 in-game and the Steam trailer (2013 footage [Inference, strong])], matching the wiki's 'red and orange lines' [Fan-wiki]. SkyVu's own Jul 6, 2026 'Classic Oliver' card shows the same coral-red tube, orange panels, grey band and grey-checkered flared muzzle [Observed]. The green, hazard-striped 'BEARZOOKA' tube is the BB Zombies (2009) design [Observed, File:Bear.jpg].",
+   "evidence": "File:BBR Bearzooka.png (store, Mar 2012), File:Photo 19-04-13 12 02 26 PM.png, official Steam trailer about 3.6-5.0 s (local crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-final/crops/tr_bz.jpg), File:Bear.jpg ('Weapon Selected: BEARZOOKA', BBZ); SkyVu's short 'New Skin! Classic Oliver is here!' (byri_kQBUS4, Jul 6, 2026, BATTLE BEARS channel) frame oar1 (local /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-r4/thumbs/byri_kQBUS4_oar1.jpg, crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-r4/crops/byri_zooka.jpg); wiki Bearzooka page: 'In BBG and BB0, it is a rocket launcher with red and orange lines. In BBZ and BB-1 it is just a dark green rocket launcher.'"
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",

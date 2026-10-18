@@ -154,10 +154,10 @@
    "weapon": "Bearzooka (BBG)",
    "owner": "Oliver (Soldier)",
    "slot": "Secondary (default, explosive)",
-   "status": "Franchise weapon; BBR to BBG; in the Steam trailer at 3.9-4.4 s (2013 footage [Inference, strong]); named on the 2026 Steam page [Canon] and seen in SkyVu's Jul 6 2026 'Classic Oliver' short [Observed]",
+   "status": "Franchise weapon; BBR to BBG; in the Steam trailer at 3.89-4.59 s, its rocket at 1.92-3.05 s (2013 footage [Inference, strong]; the rocket's Bearzooka link is [Inference, high]); named on the 2026 Steam page [Canon] and seen in SkyVu's Jul 6 2026 'Classic Oliver' short [Observed]",
    "look": "Coral-red tube (#A54447 in the April 2013 shop shot / #D05655 in the Steam trailer's 2013 footage) with a row of glowing orange window panels (#EB7921-#FEA53C; rectangular on the April 2013 BBR model, chevron-like in the trailer footage and on the 2026 'Classic Oliver' card), grey bands, black bore, flared muzzle end that is grey-and-red checkered in the trailer footage and on the 2026 card; on the right shoulder, ~0.8x Oliver [Observed]",
-   "firing_and_projectile": "One rocket per shot, 1,000 u/s, rate of fire 1.5 s, reload 2.5 s; ammo 1 (infobox, 2013 HUD) vs 'two shots' (prose) [Fan-wiki; Observed]; rocket look unknown [Unverified]",
-   "impact_end_result": "Explosion 40-60 with 125/250 splash; 'very prone to suicide' [Fan-wiki]; blast look unknown, and the trailer's 4.5 s flash is B-1000's entrance, not a Bearzooka blast [Observed]",
+   "firing_and_projectile": "One rocket per shot, 1,000 u/s, rate of fire 1.5 s, reload 2.5 s; ammo 1 (infobox, 2013 HUD) vs 'two shots' (prose) [Fan-wiki; Observed]; in the Steam trailer (2013 footage [Inference, strong]) a distant green-furred Soldier fires one rocket at 1.92 s with a white smoke burst with an orange core; the rocket has a grey stepped hex nose, glowing yellow/orange checker panels in chevron bands, grey collars and a flared skirt, a maroon tail with pink-red square lights and spiky orange-yellow flame shards, trails white puffs at range, and flies past the camera until 3.05 s [Observed]; that it is the Bearzooka's rocket is [Inference, high]",
+   "impact_end_result": "Explosion 40-60 with 125/250 splash; 'very prone to suicide' [Fan-wiki]; blast look unknown: the Steam trailer rocket (2013 footage [Inference, strong]) leaves the frame at 3.05 s without detonating, and the trailer's 4.5 s flash is B-1000's entrance, not a Bearzooka blast [Observed]",
    "confidence": "observed"
   },
   {
@@ -326,7 +326,7 @@
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
    "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
    "correction": "The BBG Bearzooka is a coral-red tube (#A54447 on the April 2013 BBR model; #D05655 under Steam-trailer light, 2013 footage [Inference, strong]) with a row of glowing orange window panels (#EB7921-#FEA53C; rectangular on the April 2013 BBR model, pointed and chevron-like in the Steam trailer footage and on SkyVu's Jul 6 2026 'Classic Oliver' card), grey bands, a black bore and a flared muzzle end (grey-and-red checkered in the trailer footage and on the 2026 card). It rests on his right shoulder and is about 0.8x his height [Observed]. The green, hazard-striped launcher is the BB: Zombies Bearzooka (wiki File:Bear.jpg), the likely source of this line [Observed; Inference]. The only green launchers in BBG are Tillman's yellow-olive Twin Bearzookas.",
-   "evidence": "Photo_19-04-13_12_02_26_PM.png (Bearzooka (BBG) infobox, 'Oliver with the Bearzooka'); Dban1 '[Oliver]:Secondary - Bearzooka' thumbnails (April 2013); Steam trailer frames 3.9-4.4 s (t_0009; 2013 footage [Inference, strong]); SkyVu's Jul 6 2026 'Classic Oliver' short (byri_kQBUS4; crop byri_zooka.jpg); Bear.jpg ('Bearzooka in BBZ'); Ohmagawdyas.png; the wiki's 'In BBG and BB0, it is a rocket launcher with red and orange lines.'"
+   "evidence": "Photo_19-04-13_12_02_26_PM.png (Bearzooka (BBG) infobox, 'Oliver with the Bearzooka'); Dban1 '[Oliver]:Secondary - Bearzooka' thumbnails (April 2013); Steam trailer frames 3.89-4.59 s (t_0009, really 4.22 s; 2013 footage [Inference, strong]); SkyVu's Jul 6 2026 'Classic Oliver' short (byri_kQBUS4; crop byri_zooka.jpg); Bear.jpg ('Bearzooka in BBZ'); Ohmagawdyas.png; the wiki's 'In BBG and BB0, it is a rocket launcher with red and orange lines.'"
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
@@ -408,7 +408,7 @@
   "Catastrophe, ClubCobra and Traffic Light swing animations and hit effects are undocumented.",
   "Catastrophe's real stats: 40 or 25 damage, -20% or +15% speed, +10%, +5% or -5% health? (The page, the trivia, the Health page, the 2.6 notes and the 2012 screenshot disagree.)",
   "ClubCobra's health modifier: +10% (screenshot and Health page) or +15% (its own page)?",
-  "Bearzooka ammo: 1 (infobox, 2013 HUD) or 2 ('two shots' in the prose)? What do its rocket and explosion look like in BBG? No image found.",
+  "Bearzooka ammo: 1 (infobox, 2013 HUD) or 2 ('two shots' in the prose)? Rocket: answered (Steam trailer 1.92-3.05 s, 2013 footage [Inference, strong]). Explosion: still open.",
   "Doomstick: BBR 1.3 (its own page) or 1.3.1 (the BBR Version 1.3.1 page)?",
   "Social Butterfly (BBG) has no image or effect description at all.",
   "When exactly were Bouncing Betty (after Mar 2018, before May 2020), Greased Lightning and Last Resort removed, and are any of them in the 2026 build?",
