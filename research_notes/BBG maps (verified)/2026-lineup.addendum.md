@@ -453,13 +453,15 @@ The Tutorial was not counted. It is single-player and not a PvP arena; HK's end 
    - Current: the filename implies Frozen Pundra and Steam Yard Blues.
    - Correction: the non-ice frames (0:40–3:20 and 25:00–30:00) are Sky View, not Steam Yard Blues. They show a yellow tower crane, wooden crate decks and teal tarps under a dusk sky.
    - Evidence: eq_fp_syb2.jpg.
-3. **research_notes/Battle Bears character lore/franchise_world.md, line 276.**
-   - Current: "[FAN-WIKI] The wiki lists 15 BBG maps across the original run, and Haunted Castle and Desert Airmine were removed at 2.0 and Haunted Castle later returned".
+3. **research_notes/Battle Bears character lore/franchise_world.md, Q3 section B ("Class and title naming conflicts"), the "Map count" bullet.**
+   - Current (when written): "[FAN-WIKI] The wiki lists 15 BBG maps across the original run, and Haunted Castle and Desert Airmine were removed at 2.0 and Haunted Castle later returned".
    - Correction: Desert Airmine also returned: "It was re-released in v2.7" [Fan-wiki]. Add that all 15, plus Sky Pirates, appear in 2026 playtest footage, which accounts for "16 wacky maps" [Inference, strong].
-4. **research_notes/Battle Bears character lore/franchise_world.md, line 404 (open question).**
-   - Current: "Sky Pirates as a BBO map that returns in BBG 2026."
+   - Status (re-checked Oct 18): applied there, in the "Removals and returns" and "What the 16 rests on" sub-bullets.
+4. **research_notes/Battle Bears character lore/franchise_world.md, Fact-check log, "Added (sourced, found while checking)" list.**
+   - Current (when written): "Sky Pirates as a BBO map that returns in BBG 2026."
    - Correction: answered. Sky Pirates is playable in 2026 playtests 3–5 [Observed], and SkyVu calls it "the new Sky Pirates map" [Canon].
-5. **research_notes/Battle Bears character lore/oliver_riggs_wil.md, lines 252 and 554.**
+   - Status (re-checked Oct 18): applied there, as a "Corrected 2026-10-18" note on that entry.
+5. **research_notes/Battle Bears character lore/oliver_riggs_wil.md, the 2026 section ("Where do games disagree, and what changed in the 2026 Battle Bears Gold re-release?") and the Fact-check log's "Relabelled" list.** Status (re-checked Oct 18): applied; see that log's "Corrections from the verified maps research (2026-10-18)", item 3.
    - Current: "Whether these are the same map is my [INFERENCE]; no source says so."
    - Correction: SkyVu's "Sky Pirates in BBG!" short (CwxpBZg6Fi4) is described as "Enjoy the highlights from our Sky World playtest!" [Canon]. That ties the two names (animation_reference.md already records it: the Fact-check log's "Added (sourced)" list, and the Q1 section A list of 2026 Shorts).
 6. **bbg-news-repo/content/evergreen.json, fact-playtests.**
@@ -839,16 +841,16 @@ All local paths are absolute. The storyboard stills were saved by earlier sessio
 
 ## Corrections to our notes
 
-1. **Toxic Terror is in the 2026 build.** research_toxic-terror.md (repo and scratch copies) line 64 currently says the grid and the "16 wacky maps" claim make it "likely", unconfirmed by SkyVu. The correction: SkyVu's own final-playtest thumbnail shows the map; its tile is in SkyVu's Sep 20 PICK LEVEL carousel; and a fan played it on Oct 15. Only a SkyVu text naming it is still missing.
-2. **The tile is not an old capture.** research_toxic-terror.md line 65 suggests the tile "may be an old capture". The same image is the 2026 in-game PICK LEVEL tile (r 0.87–0.91).
-3. **Space Oddity's open question is answered.** research_space-oddity.md line 346: r1c3 is Space Oddity's 2026 PICK LEVEL tile. So the Maps Ranked grid holds Space Oddity twice.
-4. **"15 + 1 new" does not hold for the grid.** research_frozen-pundra.md line 220, research_gold-digger.md line 56 and research_skate-or-die.md line 84 read the 16 grid tiles as "15 legacy + 1 new" or as "16 wacky maps". The grid holds 15 unique legacy maps and no Sky Pirates. The 16 count rests instead on 2026 build evidence.
-5. **The grid is the level-select art.** research_marecraft-map.md line 46 calls the grid a possible "older community collage". Its tiles are the 2026 level-select art.
-6. **H.I.P. Test Lab naming.** research_h-i-p-test-lab.md line 56: add the jukebox "Huggable Factor…" music label and the absence of any tile name.
-7. **Castle Royale lead.** research_haunted-castle.md line 187: add the 2018 Battle Royale castle map as the "Castle Royale" lead.
-8. **Tutorial status.** research_tutorial.md line 85: it is present in the Oct 15 build too.
-9. **Map count.** franchise_world.md line 276: add the 2026-build roster evidence.
-10. **Platforms (outside map scope).** The lore report line 29 says "Steam (Windows and Mac)". Steam lists Windows only.
+1. **Toxic Terror is in the 2026 build.** research_toxic-terror.md (repo and scratch copies), "Era and status" (the 2026 bullet on the 16-tile grid), currently says the grid and the "16 wacky maps" claim make it "likely", unconfirmed by SkyVu. The correction: SkyVu's own final-playtest thumbnail shows the map; its tile is in SkyVu's Sep 20 PICK LEVEL carousel; and a fan played it on Oct 15. Only a SkyVu text naming it is still missing.
+2. **The tile is not an old capture.** research_toxic-terror.md, "Era and status" (the next bullet), suggests the tile "may be an old capture". The same image is the 2026 in-game PICK LEVEL tile (r 0.87–0.91).
+3. **Space Oddity's open question is answered.** research_space-oddity.md, "Open questions" (the tile row 1, column 3 question): r1c3 is Space Oddity's 2026 PICK LEVEL tile. So the Maps Ranked grid holds Space Oddity twice.
+4. **"15 + 1 new" does not hold for the grid.** research_frozen-pundra.md ("Corrections to our notes", the "New Map: Sky World" evidence line), research_gold-digger.md ("Era and status", the "BBG Maps Ranked part 1" bullet) and research_skate-or-die.md ("Era and status", the official-shorts bullet) read the 16 grid tiles as "15 legacy + 1 new" or as "16 wacky maps". The grid holds 15 unique legacy maps and no Sky Pirates. The 16 count rests instead on 2026 build evidence.
+5. **The grid is the level-select art.** research_marecraft-map.md, "Era and status" (item (d), the "BBG Maps Ranked part 1" grid), calls the grid a possible "older community collage". Its tiles are the 2026 level-select art.
+6. **H.I.P. Test Lab naming.** research_h-i-p-test-lab.md, "Era and status" (the display-name bullet): add the jukebox "Huggable Factor…" music label and the absence of any tile name.
+7. **Castle Royale lead.** research_haunted-castle.md, "Sound and music" (the "Castle Royale" bullet): add the 2018 Battle Royale castle map as the "Castle Royale" lead.
+8. **Tutorial status.** research_tutorial.md, "Era and status" (the playtest bullet): it is present in the Oct 15 build too.
+9. **Map count.** franchise_world.md, Q3 section B, "Map count" bullet: add the 2026-build roster evidence. (Applied there as "What the 16 rests on"; re-checked Oct 18.)
+10. **Platforms (outside map scope).** The lore report's section "Battle Bears Gold grew from five classes to eleven, and 2026 adds no lore" (the 2026 revival paragraph) said "Steam (Windows and Mac)". Steam lists Windows only. (Applied there; re-checked Oct 18.)
 
 Exact text, corrections and evidence are in the corrections list.
 

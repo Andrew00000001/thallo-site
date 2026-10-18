@@ -17,7 +17,7 @@ The Tutorial is Battle Bears' single-player training level. It is a game mode, n
   - Soundtrack app 5321720: the API, plus the store page for the track list.
 - **battlebears.com (live):** sitemap, about, games, characters and community pages. None mentions the Tutorial.
 - **Local official visuals:**
-  - All 108 trailer frames, plus my own 10 fps re-scan of trailer.mp4.
+  - All 108 Steam trailer frames, plus my own 10 fps re-scan of trailer.mp4.
   - The five Steam screenshots.
 - **YouTube:**
   - Thumbnails only (no video was watched).
@@ -355,8 +355,9 @@ All files are under /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92
 - Official 0gYEZCMQfmA (BBR trailer): hqdefault, hq1–3. No Tutorial.
 - gcXJknC1fTg (BBR menus): hqdefault, hq1–3. No Tutorial.
 - 2026 fan showcase -lAtv-j9Sms: maxresdefault, hq1–3. Menus only, no Tutorial.
+- 5SwnBsYrETY (Rumi2004, "Battle Bears Gold, full Graham radiation weapon", Apr 25, 2023; title and channel from oEmbed, date from the YouTube "next" endpoint): maxresdefault, local copy /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/ed_maps5/yt5s/maxres.jpg. Not a Tutorial video; cited only for its "2.53.6 / 12110032" build stamp.
 
-**Official trailer:**
+**Steam trailer** ("Battle Bears Gold Premium - Trailer", the one on the 2026 Steam page):
 - All 108 frames, t_0001–t_0108, in sheets/tr1.jpg–tr3.jpg. No Tutorial shot [Observed].
 - A 10 fps re-scan of trailer.mp4 at 240 px wide found at most 5.3% saturated-green pixels. That peak is the Huggable title card at about 33–34 s (frame trailer10/f_0338.png, opened). The Tutorial images score 13.5% (2026 maxres) and 15.4% (Tutorial_BBG_.jpg). So the Tutorial is not in the trailer [Observed by measurement].
 
@@ -415,8 +416,8 @@ All files are under /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92
    - Evidence: BBG Maps wikitext lists 15 links. The categorymembers API for Category:BBG_Maps returns the 15 maps plus "Tutorial" and the "BBG Maps" page. Steam app 5321720's track list: 17 Main Menu (BBG), 18 Tutorial, 19 After Match, 20 Main Menu (BBR).
 4. **research_notes/BBG weapons (unverified drafts)/visuals_2026.md**, lines 71 and 448.
    - Current text: "the wiki's version table stops at 2.25 [Fan-wiki]" (line 71) and "The wiki's version table stops at 2.25." (line 448).
-   - Correction: "Only 'Battle Bears Gold/Versions' stops at 2.25. The wiki's Updates page continues the BBG table: 2.25.2, 2.26–2.31, 2.50–2.53.3 (Aug 31, 2018), 3.0 (Nov 15, 2021, incl. 'New Map Lighting') and 3.0.1 (Dec 18, 2021). Fan captures add 2.53.6 (Mar 30, 2025) and 2.54.0 (the Jul 9, 2026 PC playtest tutorial uploads). A Sep 20, 2026 touch-HUD Tutorial upload shows a build string reading about '3.0.5_2026…'. So both a 2.5x line and a 3.0.x line appear in 2026; which one ships on Nov 4 is unverified."
-   - Evidence: Updates and Battle Bears Gold/Versions wikitext (API, 2026-10-18); thumbnails i.ytimg.com/vi/6mredTN7z-k/sd1.jpg ("2.53.6"), -RSuAlfOUow/maxresdefault.jpg ("2.54.0") and lgd9Gqw6ahA/sd1.jpg and sd3.jpg ("3.0.5_2026…", low-res).
+   - Correction: "Only 'Battle Bears Gold/Versions' stops at 2.25. The wiki's Updates page continues the BBG table: 2.25.2, 2.26–2.31, 2.50–2.53.3 (Aug 31, 2018), 3.0 (Nov 15, 2021, incl. 'New Map Lighting') and 3.0.1 (Dec 18, 2021). Fan captures add 2.53.6 (Mar 30, 2025; already in an Apr 25, 2023 capture, 5SwnBsYrETY) and 2.54.0 (the Jul 9, 2026 PC playtest tutorial uploads). A Sep 20, 2026 touch-HUD Tutorial upload shows a build string reading about '3.0.5_2026…'. So both a 2.5x line and a 3.0.x line appear in 2026; which one ships on Nov 4 is unverified."
+   - Evidence: Updates and Battle Bears Gold/Versions wikitext (API, 2026-10-18); thumbnails i.ytimg.com/vi/6mredTN7z-k/sd1.jpg ("2.53.6"), i.ytimg.com/vi/5SwnBsYrETY/maxresdefault.jpg ("2.53.6 / 12110032", Rumi2004, Apr 25, 2023), -RSuAlfOUow/maxresdefault.jpg ("2.54.0") and lgd9Gqw6ahA/sd1.jpg and sd3.jpg ("3.0.5_2026…", low-res).
 5. **research_notes/BBG maps (unverified drafts)/research_tutorial.md**, line 64 (wiki revision attributions).
    - Current text: "Editors re-tagged the page for BBG on June 1, 2013 and rewrote it for BBG on June 16, 2013 [Fan-wiki revisions 39165, 42878]."
    - Correction: "Tagged Battle Bears Gold on Jun 1, 2013 (rev 39165), rewritten 'In Battle Bears Gold' the same day (revs 39243/39246), moved to BBG Game Modes Jun 3 (rev 39709); rev 42878 (Jun 16, 2013) only added the BBG card Tutorial_2.jpg."

@@ -44,7 +44,10 @@ It also identifies the map in every gameplay shot of the official Steam trailer 
 - **The best-supported reading of 16 is the 15 legacy BBG maps plus Sky Pirates** [Inference].
   - Fan playtest chapter lists from July–October 2026 place 14 of the 15 legacy maps, and Sky Pirates, in the 2026 builds [Unverified: fan chapter text; videos not watched].
   - Fan and official thumbnails independently show No Bear's Land, Skate or Die, Frozen Pundra, Space Oddity, H.I.P. Test Lab, Steam Yard Blues, Abusement Park (probable), Desert Airmine and Sky Pirates in 2026 builds [Observed thumbnails; map identity is Inference where noted].
-- **Toxic Terror is the only legacy map with no 2026 sighting.** It has a 2026 soundtrack track [Canon]. A fresh YouTube search and about 40 more 2026 fan thumbnails turned up no Toxic Terror gameplay [Unverified absence]. Its 2026 status is unknown.
+- **Toxic Terror is in the 2026 builds too, though no fan chapter lists it and no SkyVu text names it** [Canon by absence]. It has a 2026 soundtrack track [Canon]. This pass's YouTube search and about 40 more 2026 fan thumbnails turned up no Toxic Terror gameplay [Unverified absence], but the addendum (gap pass 1, section 5; gap pass 2, section 4) found it [Observed; map identity Inference, strong]:
+  - in SkyVu's own final-playtest livestream thumbnail (ZMhLVXWT6OY: green-lit grid grate, STOP sign, amber lamps, build stamp "3.0.7_2026.11.19_b7");
+  - as a PICK LEVEL tile in SkyVu's Sep 20 stream and a fan's Oct 15 stream;
+  - in Oct 15 fan matches, in PTB and FFA.
 - **Nothing is confirmed removed in 2026.** The documented removals are older:
   - King of the Windmill was "retired" in v2.29 (Jan 26, 2018) [Game text via wiki].
   - Battle Royale (v2.50, Apr 5, 2018) is not among the 2026 store modes [Canon by absence].
@@ -61,7 +64,7 @@ It also identifies the map in every gameplay shot of the official Steam trailer 
   - It shows only the 8 classes the 2013 description advertises ("Choose from 8 classes") [Observed; Canon].
   - It shows no map added after BBG's launch [Observed].
   - The Oct 12, 2026 Q&A thumbnail reuses the trailer's Oliver-on-Marecraft shot [Observed].
-  - The Space Oddity clip (30.0–32.5 s; screen_01 is a frame of it) is 2013 footage too [Inference, strong]. Its bloomed pillar top had left its date open, but the same moment, bloom included, is in the 2013 storyboard [Observed]. Why it blooms more than fan captures is [Unverified]. It does not show the Oct 2026 lighting either [Observed]. See section 5.
+  - The Space Oddity clip (about 30.0–32.8 s; screen_01 is a frame of it) is 2013 footage too [Inference, strong]. Its bloomed pillar top had left its date open, but the same moment, bloom included, is in the 2013 storyboard [Observed]. Why it blooms more than fan captures is [Unverified]. It does not show the Oct 2026 lighting either [Observed]. See section 5.
 - **Official 2026-build imagery:**
   - The Oct 14 "Closed Testing 5" banner, showing No Bear's Land [Observed].
   - The Sky Pirates reveal and Short frames [Observed].
@@ -147,7 +150,7 @@ It also identifies the map in every gameplay shot of the official Steam trailer 
   - I do not count it as a competitive map. The soundtrack lists "Tutorial" with the menu tracks [Inference].
 
 **Arithmetic:** 15 legacy maps + Sky Pirates = 16, which matches Steam's number [Inference]. The alternatives cannot be ruled out [Unverified]:
-- Toxic Terror is out, and Castle Royale or another map fills the 16th slot.
+- Toxic Terror is out, and Castle Royale or another map fills the 16th slot. This is now unlikely: the addendum observed Toxic Terror in 2026 builds (Bottom line).
 - More than one new map exists. battlebears.com says "new modes, maps" in the plural [Canon], but only Sky Pirates is documented.
 
 ### 2.2 Evidence matrix
@@ -170,14 +173,14 @@ The "Other 2026 image" column lists official and fan 2026 thumbnails I opened [O
 | H.I.P. Test Lab | BBR 1.0 as "Huggable Factory" | #5, #21 ("Huggable Factory") | No | 34.5–36.5 s; screen_00 | Fan final-playtest ORYnnvqn19w hq3 (white lab, black crates, pink Huggable) | PT2 TB; PT3 TDM | Very likely |
 | Aztec Attack | BBR 1.3.1 (Jun 28, 2012) as "Facing Temples" | #13 | No | 12.2–16.3 s, 43.1–45.5 s | Fan PT2 lFr8-yHbbzQ hq1 (sandstone columns under a crimson sky) | PT2 KC; PT3 FFA | Very likely |
 | Abusement Park | BBR 1.3.2 (Aug 24, 2012) | #1, #22 | No | 18.0–22.0 s | Teaser hq1 "SAME" panel; fan mobile 5szTpCKfl-c (Sep 20) carnival booth and "[RED]"-style wall | PT3 TDM | Very likely |
-| Shortest Parsec | BBR 1.4.2 (Feb 28, 2013) | #9 | No | 24.0–28.0 s, 50.0–51.0 s; screen_02, screen_04 | None identified with confidence (C7uFxvSZ10c hq2 starfield is unidentified) | PT3 TDM; PT5 TB | Very likely |
+| Shortest Parsec | BBR 1.4.2 (Feb 28, 2013) | #9 | No | 24.0–28.0 s, 50.0–51.0 s; screen_02, screen_04 | PICK LEVEL tile (station in a starfield) in SkyVu's Oct 15 stream, ZM 19:50 [Observed match to the Maps Ranked tile r2c4]; fan final-playtest storyboard stills JN 5:00–13:00 and 57:00–61:00 (1MP1rFi4t-Q: white-and-red station in a starfield) [Observed; map Inference] (2026-lineup.addendum.md). C7uFxvSZ10c hq2 starfield is still unidentified | PT3 TDM; PT5 TB | Very likely |
 | Marecraft | BBR 1.4.3 (Apr 15, 2013) / 1.4.3.1 (Apr 23) | #8 | No | 38.5–41.5 s | None. The Q&A thumbnail reuses the Steam trailer shot (2013 footage [Inference, strong]) | PT2 KC ×2, TB; PT3 TDM ×2; PT5 PTB | Very likely |
 | Sky View | BBG launch, 2013 | #3 | No | 48.0–49.0 s | Maps Ranked oar2 background clip (night deck, probably 2026) | PT5 TB | Very likely |
 | Skate or Die | BBG launch, 2013 | #7 | No | 46.0–47.0 s | Livestream hq2–3; C7uFxvSZ10c hq1; "Playtest Highlights Part 1" oar2; fan final-playtest ECARJ0b3T-0 | PT2 TB; PT3 FFA | **In** (seen in official 2026 playtest footage) [Observed; map Inference] |
 | Desert Airmine | BBR 1.0; cut at the BBG relaunch; back in 2.7 (Jan 23, 2014) | #12 | No | Not shown | Fan HKbwq7PolNc hq1 (derrick, red mesa) | PT3 FFA; PT5 TB ×2, FFA | Likely |
 | Haunted Castle | BBR 1.3.3 (Oct 10, 2012); cut at the relaunch; back in 2.4 (Oct 24, 2013) | #11 | No | Not shown | Fan 2iJozU8jTJI hq1 (night, low-res) | PT2 KC; PT5 PTB; dBBG "Haunted Castle FFA" (Sep 25) and TDM (Oct 9) | Likely |
 | Frozen Pundra | BBG 2.7 (Jan 23, 2014) | #10 | No | Not shown | "Playtest Highlights Part 2" oar1 (icy blue cave); fan pR3AHrKj3ng (Aug 21); fan MS2wiArCiCA (final) | PT2 TB; PT5 PTB | Very likely |
-| Toxic Terror | BBG 2.3 (Sep 27, 2013) | #14 | No | Not shown | Legacy collage tile only | None found | **Unknown** |
+| Toxic Terror | BBG 2.3 (Sep 27, 2013) | #14 | No | Not shown | SkyVu's final-playtest livestream thumbnail ZMhLVXWT6OY, stamped "3.0.7_2026.11.19_b7"; PICK LEVEL tile in SkyVu's EJ 8:40 and fan L4D 46:10, 51:00; Maps Ranked tile r4c4 (2026-lineup.addendum.md) | None found. Oct 15 fan storyboards show PTB and FFA [Observed, per the addendum] | Very likely [Observed in 2026 builds; map identity Inference, strong] |
 | Sky Pirates / Sky World | BB Ultimate (Jun 25, 2014) / Overclock launch map [Fan-wiki] | None | No | Not shown | Reveal and Short frames; teaser "NEW MAP!"; livestream art; fans pR3AHrKj3ng (Aug 21), uNZA3nlABOA (Sep 20), dz4iqZE8nQE and Pd0VvQ1TBRM (final) | PT3 KC ×3, TDM ×2, FFA; PT5 TB ×2, KC; dBBG FFA (Oct 2) | **In (new)** [Canon] |
 | Castle Royale | 2018 Battle Royale map [Inference] | #16 | No | Not shown | None | None | Unknown. Battle Royale is not a listed 2026 mode [Canon by absence] |
 
@@ -187,7 +190,7 @@ The official Short's frame `oar1` shows a presenter with a 4×4 collage of 16 ma
 
 | Row | Col 1 | Col 2 | Col 3 | Col 4 |
 |---|---|---|---|---|
-| 1 | No Bear's Land | H.I.P. Test Lab (pink-lit wall, ceiling claw arms, tubes) | **Unidentified**: amber room with a cyan ceiling disc and a sunken floor, probably a second Space Oddity view | Desert Airmine (derrick, sunset, red mesa) |
+| 1 | No Bear's Land | H.I.P. Test Lab (pink-lit wall, ceiling claw arms, tubes) | Space Oddity, a second view: amber room with a cyan ceiling disc and a sunken floor. It is the Space Oddity tile of the 2026 PICK LEVEL carousel (2026-lineup.addendum.md, gap pass 2, section 2) | Desert Airmine (derrick, sunset, red mesa) |
 | 2 | Aztec Attack (temple stairs) | Abusement Park (striped carnival booth with a lit marquee; text illegible) | Haunted Castle (night, dark column, terracotta floor) | Shortest Parsec (station in a starfield with teal asteroids) |
 | 3 | Marecraft (fleshy rib arches, dark towers) | Steam Yard Blues (brass and dark-blue glass) | Space Oddity | Frozen Pundra (snow cave, snow-capped rock block) |
 | 4 | Skate or Die (lens-eye, mural) | Sky View (yellow crane, teal tarps, night sky) | Gold Digger (stacked rock wall, stars) | Toxic Terror (dark sewer, green puddle, hazard stripes) |
@@ -198,7 +201,7 @@ The collage cannot stand as a 2026 roster:
 - **It has no Sky Pirates tile** [Observed].
 - **The same collage is the thumbnail and video frame of a fan's soundtrack uploads** [Observed]. Slinkster's "Battle Bears Gold Soundtrack: No Bears Land" (vzMlV_kGfnU) and "Battle Bears Gold Soundtrack: Toxic Terror" (zQ0g4GLGs5A), both dated Sep 4, 2026, predate the Oct 11 Short.
 
-It is a legacy-map collage [Inference]. Who made it first is unknown.
+It shows the 15 legacy maps, with Space Oddity twice (r1c3 and r3c3) [Observed]. This pass read it as a legacy-map collage unrelated to 2026; the addendum overturns that part. Eight of its tiles are the same images as the 2026 custom-match PICK LEVEL tiles (r 0.82–0.98) [Observed: 2026-lineup.addendum.md, gap pass 2, section 2], so it is the game's level-select tile art [Inference, strong]. It is still not a 2026 roster: it has no Sky Pirates tile. Who first assembled the grid is unknown.
 
 Frame `oar2` shows a tier list with rows "1-4 / 5-8 / 9-12 / 13-16" [Observed]:
 - So far, Sky View, Frozen Pundra and Steam Yard Blues sit in "13-16", with one slot empty.
@@ -256,7 +259,7 @@ The SkyVu video says Battle Royale was "coming in update v2.32" [Canon]. The wik
     - a yellow-trimmed galleon flying a black Jolly Roger;
     - orange-canopy birch trees and white flagstones.
   - BBO was "a first-person multiplayer shooter" with "a completely new art style" [Fan-wiki]. The 2026 map is played in BBG's third person [Observed].
-- **Legacy maps:** 14 of 15 are seen in 2026 playtest builds [Unverified: fan chapters]. For 9 of them, the 2026 build is also shown in thumbnails I opened [Observed]. Toxic Terror is unaccounted for [Unverified].
+- **Legacy maps:** 14 of 15 are seen in 2026 playtest builds [Unverified: fan chapters]. For 9 of them, the 2026 build is also shown in thumbnails I opened [Observed]. Toxic Terror, the one missing from the fan chapters, is in the 2026 builds too: the addendum found it in SkyVu's final-playtest thumbnail, the PICK LEVEL carousel and Oct 15 fan matches [Observed; map identity Inference, strong]. So all 15 are accounted for.
 - **Not in the 2026 mode list:** King of the Windmill (already retired in 2018) and Battle Royale [Canon by absence]. Whether Castle Royale or "Bridge to Terabearthia" exist in 2026 is unknown [Unverified].
 - **Seasonal No Bear's Land reskins (winter, summer, spring):** no 2026 evidence either way [Unverified].
 - **Names:**
@@ -320,8 +323,8 @@ The SkyVu video says Battle Royale was "coming in update v2.32" [Canon]. The wik
   - The Q&A thumbnail (pmE2jKQLSms, Oct 12, 2026) is the same gold Oliver in the same pose, over the trailer's Marecraft plate [Observed: `sheets/qa_vs_trailer.jpg`].
   - The gameplay matches too: the 2013 trailer's YouTube storyboard (160×90, one frame a second) matches the Steam trailer at a constant offset of about 4 s, in 45 of its 55 frames from 5 to 59 s [Observed: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/edit2026_tr/sb_match.txt`; 00_OVERVIEW.md, section 0, item 1]. The cards are matched at full size, the gameplay only at storyboard size.
   - So the trailer and screenshots are 2013 BBG capture that SkyVu re-used on the 2026 Steam page [Inference, strong]. The Oct 14 request for UI-free footage "for our Steam and store pages" suggests they will be replaced [Inference].
-  - **The Space Oddity clip (30.0–32.5 s) and screen_01 are 2013 footage too** [Inference, strong]. Its pillar top blooms to near-white, which 2013 and 2021 fan thumbnails lack [Observed, per the Space Oddity dossier], so that dossier leaves its capture date open and allows a newer or relit capture [Inference]. But the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg`]. Why SkyVu's capture blooms more than fan captures is [Unverified]. It does not show the Oct 15, 2026 lighting either: the 3.0.7 build is warmer and more golden [Observed: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/environment-conventions/sheets/so_steam_vs_hk.jpg`].
-  - **The Graham segment (7.0–10.0 s, Gold Digger tunnel, screen_03) is 2013 footage too** [Inference, strong]: it is in the 2013 storyboard (2013 12–13 s = Steam 7.95–8.95 s) [Observed: `sb_match.txt` above]. Its Graham has black toon outlines, but some 2013 fan captures already have them (Gold Graham, Jul 2013; circuit-skin Graham, Sep–Nov 2013) [Observed, per graham.addendum.md, Incidental findings 1], so the outlines do not date it to 2018 or later. Dec 2013 fan captures of its Instagraham skin have none [Observed, per graham.addendum.md], so why the trailer's Graham is outlined stays open [Unverified].
+  - **The Space Oddity clip (about 30.0–32.8 s) and screen_01 are 2013 footage too** [Inference, strong]. Its pillar top blooms to near-white, which 2013 and 2021 fan thumbnails lack [Observed, per the Space Oddity dossier]. That once suggested a newer or relit capture [Inference], and the Space Oddity dossier left its capture date open. But the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg`], and that dossier now dates the clip to 2013 as well ("Age of the official footage"). Why SkyVu's capture blooms more than fan captures is [Unverified]. It does not show the Oct 15, 2026 lighting either: the 3.0.7 build is warmer and more golden [Observed: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/environment-conventions/sheets/so_steam_vs_hk.jpg`].
+  - **The Graham segment (about 7.25–10.5 s, Gold Digger tunnel, screen_03) is 2013 footage too** [Inference, strong]: it is in the 2013 storyboard (2013 12–13 s = Steam 7.95–8.95 s) [Observed: `sb_match.txt` above]. Its Graham has black toon outlines, but some 2013 fan captures already have them (Gold Graham, Jul 2013; circuit-skin Graham, Sep–Nov 2013) [Observed, per graham.addendum.md, Incidental findings 1], so the outlines do not date it to 2018 or later. Dec 2013 fan captures of its Instagraham skin have none [Observed, per graham.addendum.md], so why the trailer's Graham is outlined stays open [Unverified].
 - **Jukebox:** a fan says songs "you can even assign … to maps" [Unverified]. So a map's in-game music may not be fixed in 2026 [Inference].
 
 ## 6. Frame by frame: the official Steam trailer and screenshots
@@ -343,7 +346,7 @@ The SkyVu video says Battle Royale was "coming in update v2.32" [Canon]. The wik
 | 11.0–11.5 | t_0023–0024 | Card "Graham / ENGINEER" | — |
 | 12.2–16.0 | t_0025–0033 | Low angle up a temple's grand staircase; small figure at the top; a player knocked down; magenta cloud from ~14 s; Astoria in the cloud ~16 s | **Aztec Attack**: carved sandstone stairs, gem-mosaic panels, colonnades, starry crimson-to-indigo sky [Observed] |
 | 16.5–17.5 | t_0034–0036 | Card "ASTORIA / SNIPER" | — |
-| 18.0–22.0 | t_0037–0045 | Wil (holding a "BATTERITO" snack) panics and is blown up; panda-faced bomber; pan along the base | **Abusement Park** red base [Observed]: salmon plank deck; yellow U-rails; red-and-teal pennant bunting; two blue posters of a spiky ice-or-rock-armoured figure; cracked grey stone wall stencilled "[RED]" with red stars; maroon-and-white striped tent; overhead cable. The wiki mentions "2 duplicate posters of a Soldier skin that never made it in the game" [Fan-wiki]; that these are those posters is [Inference] |
+| 18.0–22.0 | t_0037–0045 | Wil (holding a "BATTERITO" snack) eats it and cries; an orange-yellow glow engulfs him (Tillman's shot or the start of his own Batterito fire: open); he heads for a panda-faced bomber (Tillman) while a faceted orange ball of unverified source flies overhead; cut and pan along the base to Tillman, engulfed in fire at about 22.0–22.2 s, most likely Wil's Batterito fire-breath [Inference] (tillman.md, Big Shot) | **Abusement Park** red base [Observed]: salmon plank deck; yellow U-rails; red-and-teal pennant bunting; two blue posters of a spiky ice-or-rock-armoured figure; cracked grey stone wall stencilled "[RED]" with red stars; maroon-and-white striped tent; overhead cable. The wiki mentions "2 duplicate posters of a Soldier skin that never made it in the game" [Fan-wiki]; that these are those posters is [Inference] |
 | 22.5–23.5 | t_0046–0048 | Card "Wil / CHUB SCOUT" | — |
 | 24.0–25.5 | t_0049–0052 | Camera rides in on a **yellow bomb marked with a black radiation trefoil, with an olive tail**, toward a white-and-red space station; teal asteroids with hexagonal holes float nearby | **Shortest Parsec** exterior: modular white-red station with red roundel emblems, cyan-teal asteroids, purple-blue starfield [Observed: `tf/f_24.0.jpg`, `tf/f_25.5.jpg`]. The foreground object is not an asteroid [Observed] |
 | 26.0–28.0 | t_0053–0057 | Interior firefight; huge yellow blast; Tillman close-up under blue-white arches | **Shortest Parsec** interior: red angled ceiling panels, pinkish-white walls, red-lit door on the left and violet-lit door on the right, a yellow radiation bomb [Observed]. **screen_04** = 26.4 s |
@@ -589,6 +592,7 @@ All relative paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f
 - The 2013 storyboard match table `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/edit2026_tr/sb_match.txt`.
 - `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg` and `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/review_ov/so_sb_check.jpg` (Space Oddity and Graham, 2013 storyboard against the Steam trailer).
 - `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/environment-conventions/sheets/so_steam_vs_hk.jpg` (screen_01 against 3.0.7).
+- `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/trailer_wil_fire_chk/` sheets `sheet_0.png`, `sheet_a.png`, `sheet_b.png`, `sheet_c.png`, `sheet_glow.png` and `sheet_run.png` (the Wil/Tillman shot at 0.1 s steps, 17.5–23.4 s).
 
 **Wiki, opened with Read:**
 - `wimg/Bearscream_Sandwich_v.jpg`, `wimg/A_life_upside_down_v.jpg`, `wimg/Uumhfc_v.jpg`.
@@ -606,7 +610,7 @@ All relative paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f
 - The new map and the four store-named maps are documented [Canon].
 - Trailer and screenshot identifications are observed. Their 2013 dating is [Inference, strong].
 - The 2026 presence of the other legacy maps rests on fan chapter text, plus 2026 thumbnails for most of them.
-- Toxic Terror and Castle Royale are unknown.
+- Castle Royale is unknown. Toxic Terror, unknown in this pass, is seen in 2026 builds per the addendum [Observed; map identity Inference, strong].
 - Only No Bear's Land and Sky Pirates have official 2026 images good enough to describe the 2026 look in detail.
 
 ## Corrections to our notes
@@ -618,7 +622,7 @@ All relative paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f
 5. **oliver_riggs_wil.md:252:** "Whether these are the same map is my [INFERENCE]; no source says so." → SkyVu's own Short pairs the two names, BBO 2020 notes use "Skyworld", and fan chapters for the Aug 21 test say "Sky Pirates"; a strong [Inference].
 6. **Lore report, line 29 (teaser frames):** add that hq2's "NEW MAP!" backdrop is probably Sky Pirates and hq1's "SAME" panel matches the Abusement Park red base [both Inference]; cite hq2 alongside hq1.
 7. **Lore report, line 29 ("Steam (Windows and Mac)"):** Steam lists Windows only (`mac: false`); a Mac requirements block exists but Mac is not a supported platform.
-8. **research_gold-digger.md:56:** the 16-tile Maps Ranked collage is a legacy collage, not the 2026 roster; use the Steam text naming Gold Digger.
+8. **research_gold-digger.md:56:** the 16-tile Maps Ranked grid is level-select art for 15 legacy maps (Space Oddity twice, no Sky Pirates), not the 2026 roster; use the Steam text naming Gold Digger.
 9. **research_frozen-pundra.md:42 and 223:** the collage is not roster evidence; cite the fan PT2/PT5 chapters and the official "Playtest Highlights Part 2" Short (SZZ38et45Xs oar1, icy cave, 2026 playtest footage).
 10. **research_marecraft-map.md:48:** fan chapters put Marecraft in PT2, PT3 and PT5; also, the Q&A thumbnail reuses the Steam trailer shot (2013 footage [Inference, strong]).
 11. **research_haunted-castle.md:239:** "unknown" → likely in (fan PT2/PT5 chapters; droid BBG uploads).
@@ -628,11 +632,11 @@ All relative paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f
 15. **research_shortest-parsec.md:168 (and the line-400 open question):** the "2026 trailer" is the Steam trailer, most likely 2013 footage [Inference, strong].
 16. **research_skate-or-die.md:84:** replace the collage with the official 2026 playtest-footage images.
 17. **research_sky-view.md:63:** collage note; add the PT5 chapter.
-18. **research_toxic-terror.md:64:** the collage is not roster evidence; no 2026 sighting; status unknown.
+18. **research_toxic-terror.md:64:** the collage is not roster evidence. Toxic Terror is seen in 2026 builds (SkyVu's final-playtest thumbnail, PICK LEVEL tiles, Oct 15 fan matches in PTB and FFA) [Observed, per 2026-lineup.addendum.md]; no SkyVu text names it.
 
 ## Open questions
 
-1. What is SkyVu's actual list of the "16 wacky maps"? Is Toxic Terror in it? Is the 16th slot Sky Pirates, or could Castle Royale or another map count?
+1. What is SkyVu's actual list of the "16 wacky maps"? Toxic Terror is in the 2026 builds (addendum), so is the 16th slot Sky Pirates, or could Castle Royale or another map count?
 2. Does the Oct 19–26 Steam demo ship with a fixed map pool, and which maps are in it?
 3. Is Kill Confirmed a launch mode?
 4. Does Sky Pirates support Plant the Bomb? Where are its team spawns and pickups? Do its galleons move, as in BBO?
@@ -641,7 +645,7 @@ All relative paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f
 7. Is "Castle Royale" the 2018 Battle Royale castle map? Does Battle Royale or "Bridge to Terabearthia" survive in any form?
 8. What does the Oct 15 lighting pass change on each map?
 9. Will SkyVu replace the Steam trailer and screenshots (2013 footage [Inference, strong]) with 2026 captures? Why does the pillar top in its Space Oddity clip bloom more than in fan captures?
-10. What is tile row 1, column 3 of the Maps Ranked collage? Who made the collage, and what is the final ranking?
+10. Who first assembled the Maps Ranked grid, and what is the final ranking? (Tile row 1, column 3 is answered: Space Oddity's 2026 PICK LEVEL tile, per the addendum.)
 11. What did the Sep 20 livestream "map tour" and the Oct 12 "Q&A with the Creator" say about maps?
 12. Will Steam add Mac support?
 13. Are the Oct 14 referral pyramid and the 2026 Aztec Attack temples related?

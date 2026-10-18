@@ -72,13 +72,13 @@
   "evidence": "File:NewLevelLights.png bottom panel; File:AP1.png."
  },
  {
-  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md (Q1 section B 'Art style as seen in official frames', 'In-game 3D and logo' entry; formerly line 150; applied 2026-10-18)",
   "current_text": "- [OFFICIAL-FRAME] The BBG in-game 3D look (Steam screenshots and the Steam trailer; the lava caverns are from the trailer) uses chunky, simple low-poly models and highly saturated colour. Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves, and effects are bright magenta, cyan and yellow.",
   "correction": "Remove \"lava/orange caverns\" and \"the lava caverns are from the trailer\". The trailer's only lava is the open-air Aztec Attack map: a plateau island in a lava sea under a starry crimson-to-indigo night sky (\u224812.25\u201316.4 s and \u224843.1\u201345.7 s) [Observed]. The enclosed red-orange space at \u224838.5\u201341 s is a flesh interior with vein-lined walls and pale rib columns, probably Marecraft [Inference]. Also note that the Steam trailer re-edits SkyVu's May 30, 2013 launch trailer, so these frames show the 2013 look, not the 2026 build [Inference, strong].",
   "evidence": "Full-resolution frames I extracted: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/aztec_attack_verify/trailer/f_12.5.jpg, f_43.5.jpg and f_45.0.jpg (temple, island, lava sea, sky), plus interior.jpg (f_39.0, f_39.6, f_40.6: a flesh interior). The 2013 trailer rfAyqVJrli4 thumbnails match Steam-trailer frames at 11.92, 28.89 and 42.85 s with MSE 11\u201313 against a median of about 7,000. The wiki-hosted YouTube metadata gives a publish date of 2013-05-30, 69 s, and \"Choose from 8 classes\"; the Steam trailer has exactly those 8 class cards."
  },
  {
-  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md (Fact-check log, 'Corrected' item 17; formerly line 667; applied 2026-10-18)",
   "current_text": "    - The lava caverns are attributed to the trailer, not the screenshots.",
   "correction": "Change to: \"The trailer's lava is the open-air Aztec Attack map, not a cavern; the red interior at \u224838.5\u201341 s is a flesh interior, probably Marecraft [Inference]; the trailer is re-edited 2013 footage [Inference, strong].\"",
   "evidence": "Same frames as above: f_43.5.jpg and f_45.0.jpg show an open lava sea around a sand plateau under the sky, and f_39.0, f_39.6 and f_40.6 show an enclosed flesh interior."
@@ -92,7 +92,7 @@
  {
   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/combat-vfx.md",
   "current_text": "  - Lava borders the Aztec maps [Observed: trailer 43.5\u201346 s; Maxresdefault(100).png].",
-  "correction": "\"Lava surrounds the Aztec Attack map (a single map) [Observed: trailer \u224843.1\u201345.7 s, which is 2013 footage; File:Maxresdefault(100).jpg].\" Apply the same fix to combat-vfx.meta.json line 228 (\"lava borders on the Aztec maps\"), the unverified draft research_notes/BBG weapons (unverified drafts)/visuals_combat-vfx.md line 463, and the scratchpad weapons draft.",
+  "correction": "\"Lava surrounds the Aztec Attack map (a single map) [Observed: trailer \u224843.1\u201345.7 s; File:Maxresdefault(100).jpg]. That trailer shot is 2013 footage [Inference, strong].\" Apply the same fix to combat-vfx.meta.json line 228 (\"lava borders on the Aztec maps\"), the unverified draft research_notes/BBG weapons (unverified drafts)/visuals_combat-vfx.md line 463, and the scratchpad weapons draft.",
   "evidence": "Only one Aztec map exists (Category:BBG Maps). Cut detection on the trailer puts the aerial shot's cut at \u224843.12 s and its crossfade out from \u224845.5 s (f_45.5.jpg already blends). The wiki imageinfo API gives the file as Maxresdefault(100).jpg (image/jpeg, 1280\u00d7720, 2013-05-23)."
  },
  {
@@ -110,7 +110,7 @@
  {
   "file": "/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_combat-vfx.md",
   "current_text": "  1. A white-headed, black-suited bear (skin unidentified) on the Aztec temple map falls backwards and lies face-down. The body is still there at 14.9 s, when the shot ends [Observed: trailer 12.6\u201314.9 s].",
-  "correction": "The Aztec ground shot does not end at 14.9 s. It runs from \u224812.25 s to a cut at \u224816.39 s (the Astoria card). The body is still visible at 15.5 s, and the bear collapses forward (face-down). The verified combat-vfx.md (lines 138\u2013142) already has the right timing. Apply the same fix to the scratchpad copy, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/drafts/visuals_combat-vfx.md line 77.",
+  "correction": "The Aztec ground shot does not end at 14.9 s. It runs from \u224812.25 s to a cut at \u224816.39 s (the Astoria card). The body is still visible at 15.5 s, and the bear collapses forward (face-down). The verified combat-vfx.md ('Ordinary deaths: intact collapse', example 1, the temple victim; formerly lines 138\u2013142) already has the right timing. Apply the same fix to the scratchpad copy, /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/out/drafts/visuals_combat-vfx.md line 77.",
   "evidence": "Frame-difference cut detection on the trailer: cuts at \u224812.254 s and \u224816.388 s. Frames [V]trailer/f_14.0.jpg and f_15.5.jpg show the body face-down at the foot of the stairs; f_16.25.jpg shows Astoria; f_16.5.jpg shows the Astoria card."
  },
  {
@@ -122,7 +122,7 @@
  {
   "file": "/home/user/thallo-site/research_notes/BBG maps (unverified drafts)/research_aztec-attack.md",
   "current_text": "  - The 2026 trailer shows the same layout as the 2012 top-down render [Observed], with brighter, more saturated orange ground than the 2012 screenshot [Observed]. That the 3.0 lighting pass explains the change is [Inference].",
-  "correction": "\"The Steam-page trailer (re-edited May 2013 launch-trailer footage [Inference, strong]) shows the same layout as the 2012 top-down [Observed]. The brighter orange look already appears in May 2013 BBG captures (Maxresdefault(100).jpg), so it came with the 2013 relaunch, which advertised 'HD Graphics' [Inference]. BBG 3.0's lighting pass is not needed to explain it, and its effect on this map is unseen.\" Relabel every \"2026 trailer\" or \"2026 aerial\" in the draft as 2013 footage.",
+  "correction": "\"The Steam-page trailer (re-edited May 2013 launch-trailer footage [Inference, strong]) shows the same layout as the 2012 top-down [Observed]. The brighter orange look already appears in May 2013 BBG captures (Maxresdefault(100).jpg), so it came with the 2013 relaunch, which advertised 'HD Graphics' [Inference]. BBG 3.0's lighting pass is not needed to explain it, and its effect on this map is unseen.\" Relabel every \"2026 trailer\" or \"2026 aerial\" in the draft as the Steam trailer (2013 footage [Inference, strong]).",
   "evidence": "The rfAyqVJrli4 thumbnails match Steam-trailer frames (MSE 11\u201313 vs a median of about 7,000). The wiki-hosted metadata gives a publish date of 2013-05-30, 69 s, \"Choose from 8 classes\" and \"HD Graphics\". Sampled sand: May 2013 capture #C8681E; trailer #D85C2D; 2012 BBR screenshot #7B4521."
  },
  {
@@ -156,7 +156,7 @@
   "evidence": "The Graham wiki page trivia reads 'The spinning drill on Desert Airmine map has a picture of Graham's face on it, in which that was his first appearance in Battle Bears.' IucMFqzR_Qw hq1 auto-frame shows Graham in key art. Desert_Airmine page: 'constantly alternates in going up and down'."
  },
  {
-  "file": "research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "research_notes/Battle Bears character lore/animation_reference.md (Q1 section C 'Official music credits', Steam soundtrack entry; formerly line 170; applied 2026-10-18)",
   "current_text": "[OFFICIAL, 2026] Steam \"BATTLE BEARS GOLD Soundtrack\" (release Nov 4, 2026): \"The official BATTLE BEARS GOLD Soundtrack featuring original map and menu music by Rob Ruiz, AnDrue Humphreys, and Benjamin Vavak.",
   "correction": "Addition (not an error): append the track list. 24 tracks, starting with 16 map themes: 1 Abusement Park 0:54, 2 No Bears Land 0:44, 3 Sky View 1:03, 4 Gold Digger 0:38, 5 Huggable Factory 0:54, 6 Space Oddity 0:54, 7 Skate Or Die 1:29, 8 Marecraft 0:57, 9 Shortest Parsec 1:13, 10 Frozen Pundra 0:54, 11 Haunted Castle 1:01, 12 Desert Airmine 1:13, 13 Aztec Attack 1:20, 14 Toxic Terror 1:18, 15 Steamyard Blues 0:51, 16 Castle Royale 1:56. Then Main Menu (BBG), Tutorial, After Match, Main Menu (BBR), Huggable Factory (Full Version), Abusement Park (Full Version), and the two vocal tracks.",
   "evidence": "https://store.steampowered.com/app/5321720/ track listing (fetched 2026-10-18), plus the official track-list store screenshot ss_2bf14fd834fd285f751b3ef1651c1bed8439116b.1920x1080.jpg."
@@ -198,13 +198,13 @@
   "evidence": "https://i.ytimg.com/vi/1MP1rFi4t-Q/maxres3.jpg (JustNubz, 'Battle Bears Gold FINAL PLAYTEST'), build stamp '3.0.7_\u2026'. InstableGR's HKbwq7PolNc chapter: 'Match 3 (Free-for-All, Desert Airmine, Astoria/Huggable/Oliver)'."
  },
  {
-  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md (Q1 section A 'Official animated and cinematic media catalogue', 'Map fly-throughs' item, Frozen Pundra preview; formerly line 81; applied 2026-10-18)",
   "current_text": "\"2.7 'Frozen Pundra'\" (Jan 22, 2014) \u2014 [Ev5WvMIp1_4](https://www.youtube.com/watch?v=Ev5WvMIp1_4)",
   "correction": "Use the exact official title, BATTLE BEARS GOLD Update 2.7 \"Frozen Pundra\" Map Preview, with length 0:31. The description begins \"Check out this epic fly through of the new map coming to BATTLE BEARS GOLD in Update 2.7! Are you excited? Get Battle Bears ...\". Mark the Jan 22, 2014 upload date as not re-verified (YouTube shows \"12y ago\").",
   "evidence": "YouTube oEmbed for Ev5WvMIp1_4 (title, channel BATTLE BEARS). YouTube search results give 0:31, \"12y ago\" and the description snippet; saved at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/frozen_pundra_verify/yt/search_pundra.html."
  },
  {
-  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md (Q1 section A, '2026 BBG re-release videos' list, Shorts entry; formerly line 100; applied 2026-10-18)",
   "current_text": "\"BBG Maps Ranked part 1\" (Oct 11)",
   "correction": "Addition: its frames show a 16-tile map grid that includes Frozen Pundra, and a tier list (rows 1-4/5-8/9-12/13-16) with Frozen Pundra in \"13-16\". Caveat: the same grid is the thumbnail of the fan upload wbA2-0AfJ7A and has no Sky World tile, so it is not proof of the 2026 roster. Also add the official short \"Playtest Highlights Part 2\" (SZZ38et45Xs, Aug 26, 2026), whose oar1 frame probably shows Frozen Pundra in a 2026 playtest team match.",
   "evidence": "Opened https://i.ytimg.com/vi/jkv6FHPghx8/oar1.jpg and oar2.jpg, https://i.ytimg.com/vi/wbA2-0AfJ7A/maxresdefault.jpg, and https://i.ytimg.com/vi/SZZ38et45Xs/oar1.jpg. The SZZ38et45Xs Shorts page gives publishDate \"Aug 26, 2026\" and channel BATTLE BEARS (saved at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/frozen_pundra_verify/yt/shorts_SZZ38.html)."
@@ -248,11 +248,11 @@
  {
   "file": "research_notes/Battle Bears character lore/franchise_world.md",
   "current_text": "  - **Gold Digger**: a mine. Out-of-bounds, \"the background is the same as Sky View\". [Fandom](https://battlebears.fandom.com/wiki/Gold_Digger)",
-  "correction": "  - **Gold Digger**: the wiki calls it \"a mining cave\"; out of bounds \"the background is the same as [[Sky View]], with all of its buildings\" [FAN-WIKI]. Official frames show the central pit is open to a navy starry night sky, with a full moon in the 2013 trailer; only the side rail tunnels are roofed [OFFICIAL-FRAME]. [Fandom](https://battlebears.fandom.com/wiki/Gold_Digger)",
+  "correction": "  - **Gold Digger**: the wiki calls it \"a mining cave\"; out of bounds \"the background is the same as [[Sky View]], with all of its buildings\" [FAN-WIKI]. Official frames show the central pit is open to a navy starry night sky, with a full moon in the Steam trailer (classic 2013 look); only the side rail tunnels are roofed [OFFICIAL-FRAME]. [Fandom](https://battlebears.fandom.com/wiki/Gold_Digger)",
   "evidence": "Steam trailer frames t_0009 and t_0011 (4.0 s and 5.0 s) show a full moon and stars above Gold Digger's stacked-rock walls. The Gold Digger tile in the official short jkv6FHPghx8 (i.ytimg.com/vi/jkv6FHPghx8/oar1.jpg, row 4 column 3) shows stars above the walls. Wiki Gold_Digger_4.jpg shows a roofed timber rail tunnel. The wiki wording is from the Gold Digger page wikitext (API, 2026-10-18)."
  },
  {
-  "file": "research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "research_notes/Battle Bears character lore/animation_reference.md (Q1 section B 'Art style as seen in official frames', 'In-game 3D and logo' entry; formerly line 150; applied 2026-10-18)",
   "current_text": "uses chunky, simple low-poly models and highly saturated colour. Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves",
   "correction": "Add after \"rocky caves\": \"(the rocky caves are the Gold Digger map: Steam screenshot screen_03 and trailer ~1.5\u201310 s and 51.9\u201354 s). Gold Digger's environment is low-key and desaturated, not highly saturated; saturation is limited to glowing props (gold load #DDA612\u2013#FFD50E, blue gem #0206E7, jump-pad cyan #31BFE1) and weapon effects.\"",
   "evidence": "Pixel samples: rock-wall median #170E0F (trailer 52.1 s, region 1300\u20131700 x 10\u2013150) and #0F0708 (t_0007); dirt-floor median #3D2B15 (t_0007); t_0105 frame mean RGB(33,22,14). screen_03 shows the same timber tunnel mouth and blue gem as trailer frames t_0015\u2013t_0019."
@@ -291,7 +291,7 @@
   "file": "research_notes/BBG maps (unverified drafts)/research_gold-digger.md",
   "current_text": "  - So the 2026 build may not look like the 2013 images [Inference].",
   "correction": "  - The 2026 final-playtest storyboard shows the same navy starry sky, stacked-rock walls, glowing gold carts, timber rail tunnel and red and blue gems [Observed]; it reads somewhat brighter and greyer, which could be the 2026 'Lighting improvements' or capture and encoding [Inference].",
-  "evidence": "HKbwq7PolNc storyboard frames f_1890000\u2013f_2120000 (gd26_a\u2013d.png, f2080_big.png). 2026 sky median #0E2B40 vs 2013 #00172B; 2026 frame means ~RGB(52\u201355,47\u201352,37\u201341) vs 2013 trailer ~RGB(33\u201337,22\u201331,14\u201330)."
+  "evidence": "HKbwq7PolNc storyboard frames f_1890000\u2013f_2120000 (gd26_a\u2013d.png, f2080_big.png). 2026 sky median #0E2B40 vs Steam trailer (classic 2013 look) #00172B; 2026 frame means ~RGB(52\u201355,47\u201352,37\u201341) vs Steam trailer ~RGB(33\u201337,22\u201331,14\u201330)."
  },
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_gold-digger.md",
@@ -411,7 +411,7 @@
   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/2026.md",
   "current_text": "| 38.6\u201341.0 s, lava cave |",
   "correction": "| 38.3\u201341.5 s, Marecraft (inside the Marecraft Carrier: orange-red flesh, not lava) |",
-  "evidence": "Same trailer frames as the visuals_2026.md correction (line 138 of this file carries the identical row)."
+  "evidence": "Same trailer frames as the visuals_2026.md correction (this file carried the identical row in the weapon-shots table of 'The Steam trailer is 2013 footage', formerly line 138)."
  },
  {
   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/oliver.md",
@@ -420,10 +420,10 @@
   "evidence": "Trailer extracts f_38.4\u2013f_41.4 show the Marecraft interior (veined orange flesh, pale ribs, a dish-topped tower, a dark bridge). Before 38.3 s the frame is the Riggs class card."
  },
  {
-  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md (Q1 section B 'Art style as seen in official frames', 'In-game 3D and logo' entry; formerly line 150; applied 2026-10-18)",
   "current_text": "(Steam screenshots and the Steam trailer; the lava caverns are from the trailer) ... there are lava/orange caverns and rocky caves",
-  "correction": "The trailer's orange 'cavern' at about 38.3\u201341.5 s is the Marecraft map's flesh interior, inside a giant unicorn, not lava. The trailer's only lava is Aztec Attack's central lava pool and surrounding lava sea in the aerial shot at about 43.0\u201345.5 s. The Aztec temple shots at 12\u201316 s show a crimson sky, not lava. At least the class cards are reused from the 2013 BBG trailer.",
-  "evidence": "t_0078\u2013t_0083 and extracts f_38.4\u2013f_41.4 (Marecraft); t_0087\u2013t_0091 (Aztec lava plateau); t_0025\u2013t_0033 (temple stairs, crimson sky, no lava). https://i.ytimg.com/vi/rfAyqVJrli4/maxres3.jpg matches the Steam trailer at 42.8 s (greyscale MSE 15.5, against about 6,000\u20137,800 for unrelated frames)."
+  "correction": "The trailer's orange 'cavern' at about 38.3\u201341.5 s is the Marecraft map's flesh interior, inside a giant unicorn, not lava. The trailer's only lava is Aztec Attack's central lava pool and surrounding lava sea in the aerial shot at about 43.0\u201345.5 s. The Aztec temple shots at 12\u201316 s show a crimson sky, not lava. The class cards are pixel-identical to the 2013 BBG trailer's, and the gameplay matches that trailer at storyboard size, so these shots are 2013 footage [Inference, strong].",
+  "evidence": "t_0078\u2013t_0083 and extracts f_38.4\u2013f_41.4 (Marecraft); t_0087\u2013t_0091 (Aztec lava plateau); t_0025\u2013t_0033 (temple stairs, crimson sky, no lava). https://i.ytimg.com/vi/rfAyqVJrli4/maxres3.jpg matches the Steam trailer at 42.8 s (greyscale MSE 15.5, against about 6,000\u20137,800 for unrelated frames). The 160\u00d790 storyboard of rfAyqVJrli4 matches the Steam trailer's gameplay at a ~4 s offset (45 of 55 frames from 5\u201359 s, the Marecraft shot included: 2013 44\u201345 s = Steam 39.95\u201340.95 s), per research_notes/BBG weapons (verified)/2026.md, \"The Steam trailer is 2013 footage\"."
  },
  {
   "file": "/home/user/thallo-site/reports/Battle Bears character lore.md",
@@ -507,19 +507,19 @@
   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md",
   "current_text": "  - Only the Huggable can reach the Shortest Parsec Easter egg.",
   "correction": "Label this a contested, outdated fan claim. Only the Huggable (BBG) wiki page says it (\"the Huggable is the only class that can reach the map's Easter Egg\"). The Shortest Parsec page now says the red-base meteorite \"can be reached only by using So Fly[Huggable] and Metal Crush[B-1000]\", and it lists further Easter eggs reachable with So Fly and/or the Turkish Jump Boots.",
-  "evidence": "Fan wiki API: the current Shortest Parsec wikitext (Trivia) and the Huggable (BBG) page. The Shortest Parsec page history shows its own wording \"There is an Easter Egg on this map that can only be reach by Huggables\" (from 2013-04-21) was replaced on 2014-08-06 (revision 66693) by the So Fly + Metal Crush text. The Metal Crush page also says an Assault can \"jump from the tower on Shortest Parsec to either team's spawn points\"."
+  "evidence": "Fan wiki API: the current Shortest Parsec wikitext (Trivia) and the Huggable (BBG) page. The Shortest Parsec page history shows its own wording \"There is an Easter Egg on this map that can only be reached by Huggables\" (from 2013-04-20, rev 32031; spelled \"reach\" in revs 32031\u201332590) was replaced on 2014-05-27 (revision 64712) by the So Fly + Metal Crush text. The Metal Crush page also says an Assault can \"jump from the tower on Shortest Parsec to either team's spawn points\"."
  },
  {
   "file": "/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_huggable.md",
   "current_text": "- It can reach places no other class can, such as the Shortest Parsec Easter egg [Fan-wiki].",
   "correction": "Say that only the Huggable (BBG) wiki page claims this, echoing 2013\u20132014 map-page wording. The current Shortest Parsec page credits So Fly (Huggable) together with Metal Crush (B-1000) for the red-base meteorite, and Turkish Jump Boots routes for other eggs.",
-  "evidence": "Fan wiki: the Shortest Parsec page Trivia and its revision 66693 (2014-08-06); the Huggable (BBG) page Trivia; the Metal Crush page Trivia."
+  "evidence": "Fan wiki: the Shortest Parsec page Trivia and its revision 64712 (2014-05-27); the Huggable (BBG) page Trivia; the Metal Crush page Trivia."
  },
  {
   "file": "/home/user/thallo-site/research_notes/BBG weapons (verified)/huggable.md",
   "current_text": "- It is \"the only class that can reach\" the Shortest Parsec Easter egg [Fan-wiki].",
-  "correction": "Keep the quote, but add that it is contested. The Shortest Parsec page now says the red-base meteorite \"can be reached only by using So Fly[Huggable] and Metal Crush[B-1000]\". The Huggable-only wording dates from 2013\u20132014 map-page text that was replaced in August 2014.",
-  "evidence": "Fan wiki: the current Shortest Parsec wikitext; Shortest Parsec revisions 32589 (2013-04-21, \"can only be reach by Huggables\") and 66693 (2014-08-06, So Fly + Metal Crush text); the Huggable (BBG) page."
+  "correction": "Keep the quote, but add that it is contested. The Shortest Parsec page now says the red-base meteorite \"can be reached only by using So Fly[Huggable] and Metal Crush[B-1000]\". The Huggable-only wording dates from 2013\u20132014 map-page text that was replaced on 2014-05-27 (rev 64712).",
+  "evidence": "Fan wiki: the current Shortest Parsec wikitext; Shortest Parsec revisions 32589 (2013-04-21, \"can only be reach by Huggables\") and 64712 (2014-05-27, So Fly + Metal Crush text); the Huggable (BBG) page."
  },
  {
   "file": "/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_2026.md",
@@ -566,7 +566,7 @@
  {
   "file": "/home/user/thallo-site/research_notes/BBG maps (unverified drafts)/research_shortest-parsec.md",
   "current_text": "- **Central module:** a big white block. Inside is a long hall with red walls and white tiled ends, each end carrying a jump pad.",
-  "correction": "\"\u2026Inside is a long hall with red ceiling beams and red door frames, pale panelled walls (mauve-beige in 2026, lilac-white in the 2013 preview), a dark slate floor and white-tiled floor at both ends. A jump pad sits at the laser-tower end.\"",
+  "correction": "\"\u2026Inside is a long hall with red ceiling beams and red door frames, pale panelled walls (mauve-beige in Steam screen_04, most likely 2013 footage [Inference, strong]; lilac-white in the Jan 2013 preview), a dark slate floor and white-tiled floor at both ends. A jump pad sits at the laser-tower end.\"",
   "evidence": "screen_04 (wall panels sample #976562, ceiling beams #BF0108); File:New_map_2.jpg (walls #A385BC); the overhead File:Shortest_Parsec.jpg and trailer 25.75 s both show a jump pad only at the laser-tower end of the hall, with white tiles but no pad at the far end."
  },
  {
@@ -660,7 +660,7 @@
   "evidence": "Same sources as the line-19 correction, plus the wiki's Sky Pirates page ('one of the six launch maps in Battle Bears Overclock')."
  },
  {
-  "file": "research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "research_notes/Battle Bears character lore/animation_reference.md (Q3 Takeaway; formerly line 488; applied 2026-10-18)",
   "current_text": "It also adds a new Sky Pirates map (called \"Sky World\" in one official short) and a \"human artists\" pledge, and re-issues the OST.",
   "correction": "It also adds a Sky Pirates map, new to BBG and a Battle Bears Overclock map per the fan wiki. It is called \"Sky World\" in SkyVu's Aug 19, 2026 Steam post (\"New Map: Sky World\") and in the description of the short \"Sky Pirates in BBG!\" (\"Enjoy the highlights from our Sky World playtest!\"). It also adds a \"human artists\" pledge and re-issues the OST. Do not confuse the map with the 2013 map Sky View.",
   "evidence": "Steam News API, app 4408320, Aug 19, 2026; CwxpBZg6Fi4 page metadata (Sep 7, 2026); wiki Sky Pirates page."
@@ -716,7 +716,7 @@
  {
   "file": "research_notes/BBG weapons (unverified drafts)/visuals_2026.md",
   "current_text": "  | 43\u201353.5 s, aerial shots | Yellow tracer dots, a golden half-dome blast (47.0 s), pink laser lines, a yellow-orange cube blast with a white shock ring (50.5 s), a vertical yellow-orange cone, then orange octagonal ring shockwaves and white smoke (52.5\u201353.5 s). | none named |",
-  "correction": "Same as 2026.md line 140: about 47.4-49.6 s is Sky View (overhead of the construction deck), and the pink and green laser lines cross it at about 48.4 s.",
+  "correction": "Same as the 2026.md correction for this row (the '43\u201353.5 s, aerial shots' row of the weapon-shots table in 'The Steam trailer is 2013 footage'; formerly line 140): about 47.4-49.6 s is Sky View (overhead of the construction deck), and the pink and green laser lines cross it at about 48.4 s.",
   "evidence": "Trailer frames maps/dl/sky_view_verify/frames/tr/v_008.jpg (48.4 s) and tr_sheet_v.png; wiki Sky View gallery."
  },
  {
@@ -750,7 +750,7 @@
   "evidence": "Wiki revision 16502 (2012-11-28) infobox: 'Type = Indoor'. Every official view I opened is enclosed, with ceilings, bulkheads and window walls: Steam screen_01, trailer 30.0-32.8 s, File:Space_Oddity.png. The wiki renders Spacecraft1-3.jpg are captioned 'Spaceship Level'."
  },
  {
-  "file": "research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "research_notes/Battle Bears character lore/animation_reference.md (Q1 section B 'Art style as seen in official frames', 'In-game 3D and logo' entry; formerly line 150; applied 2026-10-18)",
   "current_text": "Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves",
   "correction": "Add that the Steam screenshots also include a matte amber-orange, olive and cyan spaceship interior: Space Oddity, screen_01 and the trailer at about 30.0-32.8 s. The glossy white and red interiors are Shortest Parsec (screen_02, screen_04) and the white and magenta lab (screen_00).",
   "evidence": "Live Steam screenshots are byte-identical to the local screen_00-04. Pixel medians from the trailer frame at 30.0 s: window glass #7B3006-#9D430F, catwalk #48665A, pillar #1F2111, floor #A88F48, jump-pad cyan #38D5E4."
@@ -782,8 +782,8 @@
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_space-oddity.md",
   "current_text": "So its Space Oddity gameplay is probably 2013-era footage too [Inference].",
-  "correction": "The date of the Space Oddity clip is Unverified. In it the pillar top blooms to near-white, while 2013 and 2021 fan thumbnails show the same top as grey-white stripes without bloom, which may point to a newer capture [Inference].",
-  "evidence": "Trailer frame at 30.0 s (full-res extraction). Fan thumbnails ckiTgau1IbQ hq1 ('Battle Bears Gold 2.5 Space Oddity\u2026') and n5wT1jEd_WY hq1 ('5y ago'), opened. The class cards do match the 2013 trailer rfAyqVJrli4 hq1-3, but that dates only the cards."
+  "correction": "So its Space Oddity gameplay is 2013 footage too [Inference, strong]: the same moment, bloom included, is in the storyboard of SkyVu's May 2013 trailer (2013 35\u201336 s = Steam 30.85\u201331.95 s) [Observed]. Its pillar top blooms to near-white, while 2013 and 2021 fan thumbnails show grey-white stripes without bloom; why is Unverified. (An earlier version of this correction left the clip's date Unverified; the storyboard check overturned it, and the Space Oddity dossier's correction 9 now reads the same.)",
+  "evidence": "Trailer frame at 30.0 s (full-res extraction). Fan thumbnails ckiTgau1IbQ hq1 ('Battle Bears Gold 2.5 Space Oddity\u2026') and n5wT1jEd_WY hq1 ('5y ago'), opened. The class cards match the 2013 trailer rfAyqVJrli4 hq1-3, and the clip itself is in that trailer's 160\u00d790 storyboard: side by side in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/review_ov/so_sb_check.jpg (space-oddity.md, \"Era and status\", \"Age of the official footage\")."
  },
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_space-oddity.md",
@@ -804,7 +804,7 @@
   "evidence": "Wiki Steam Yard Blues page (last revision 2014-09-01) and Updates page (2.8 'March 4, 2014'; 2.29 'King Of The Windmill is retired', 'January 26, 2018'). RnCV0V5gWCI watch page (dateText 'Feb 21, 2014'). https://i.ytimg.com/vi/RnCV0V5gWCI/maxresdefault.jpg and maxres1.jpg, maxres2.jpg, maxres3.jpg (opened). https://i.ytimg.com/vi/HKbwq7PolNc/maxres2.jpg, maxres3.jpg; https://i.ytimg.com/vi/ORYnnvqn19w/maxres1.jpg, maxres2.jpg; https://i.ytimg.com/vi/3Zw0Q3aR2q4/maxres3.jpg (opened; stamps 3.0.7_2026.11.19_b7 and 3.0.2)."
  },
  {
-  "file": "research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "research_notes/Battle Bears character lore/animation_reference.md (Q1 section A 'Official animated and cinematic media catalogue', 'Map fly-throughs' item, Steam Yard Blues preview; formerly line 82; applied 2026-10-18)",
   "current_text": "  - \"2.8 'Steam Yard Blues'\" (Feb 21, 2014) \u2014 [RnCV0V5gWCI](https://www.youtube.com/watch?v=RnCV0V5gWCI)",
   "correction": "Give the exact title 'BATTLE BEARS GOLD Update 2.8 \"Steam Yard Blues\" Map Preview', the length (0:35), and the description: \"Another new update on the horizon means another awesome new map! Check out this epic fly through of the new map, Steam Yard Blues, coming to BATTLE BEARS GOLD in Update 2.8!\"",
   "evidence": "oEmbed for RnCV0V5gWCI (title; author BATTLE BEARS); watch-page HTML (attributedDescription; dateText 'Feb 21, 2014'); YouTube search result lengthText '35 seconds' / '0:35'."
@@ -998,29 +998,29 @@
  {
   "file": "research_notes/Battle Bears character lore/animation_reference.md (Q1 section B 'Art style as seen in official frames', 'In-game 3D and logo' entry; formerly line 150; applied 2026-10-18)",
   "current_text": "(Steam screenshots and the Steam trailer; the lava caverns are from the trailer) \u2026 Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves",
-  "correction": "There are no lava caverns. The lava is open-air Aztec Attack, a temple plateau in a lava sea under a starry crimson sky (~12.2\u201316.3 s and 43.1\u201345.5 s). The orange-red enclosed space is Marecraft, the inside of a giant unicorn (~38.5\u201341.5 s). The \"rocky caves\" are Gold Digger, a moonlit open-roofed mine with timber-shored tunnels (~1.5\u201310 s and 52\u201354 s). The white interiors are H.I.P. Test Lab and the red-white ones Shortest Parsec. All of this is 2013 footage, not 2026 renders.",
-  "evidence": "Trailer frames t_0025\u20130033, t_0087\u20130091, t_0078\u20130083, t_0004\u20130021, t_0105\u20130108 and full-res frames f_44.0, f_40.5, f_53.0; Steam screenshots pixel-matched to trailer times 36.4/30.7/50.6/9.8/26.4 s; class cards identical to the May 30, 2013 trailer rfAyqVJrli4 hq1\u20133/maxres."
+  "correction": "There are no lava caverns. The lava is open-air Aztec Attack, a temple plateau in a lava sea under a starry crimson sky (~12.2\u201316.3 s and 43.1\u201345.5 s). The orange-red enclosed space is Marecraft, the inside of a giant unicorn (~38.5\u201341.5 s). The \"rocky caves\" are Gold Digger, a moonlit open-roofed mine with timber-shored tunnels (~1.5\u201310 s and 52\u201354 s). The white interiors are H.I.P. Test Lab and the red-white ones Shortest Parsec. All of this is most likely 2013 footage, not 2026 renders [Inference, strong].",
+  "evidence": "Trailer frames t_0025\u20130033, t_0087\u20130091, t_0078\u20130083, t_0004\u20130021, t_0105\u20130108 and full-res frames f_44.0, f_40.5, f_53.0; Steam screenshots pixel-matched to trailer times 36.4/30.7/50.6/9.8/26.4 s; class cards identical to the May 30, 2013 trailer rfAyqVJrli4 hq1\u20133/maxres; the trailer's gameplay matches that trailer's 160\u00d790 storyboard at a ~4 s offset (research_notes/BBG weapons (verified)/2026.md, \"The Steam trailer is 2013 footage\")."
  },
  {
-  "file": "research_notes/Battle Bears character lore/franchise_world.md (line 227)",
+  "file": "research_notes/Battle Bears character lore/franchise_world.md (Q2 section E 'Settings and maps (wiki)', Neo-Omaha and Sky Pirates entry; formerly line 227; applied 2026-10-18)",
   "current_text": "[OFFICIAL] It returns in the 2026 BBG as \"the new Sky Pirates map\"",
   "correction": "Sky Pirates does not \"return\" to BBG. It is new to BBG in 2026. It was a Battle Bears Ultimate/Overclock v1.0 map (BBU launched Jun 25, 2014; BBO notes still mention \"Skyworld\" in 3.0, Jul 3, 2020) and was never in BBG 2013\u20132021. It entered BBG at playtest 3 (Aug 21, 2026).",
   "evidence": "Steam news Aug 19, 2026, \"3rd Discord Playtest this Friday! A New Map comes to BBG!\" / \"New Map: Sky World\"; wiki BBG update log and Category:BBG Maps contain no Sky Pirates; wiki Sky Pirates page: \"one of the six launch maps in Battle Bears Overclock\"; wiki Updates, BBO 3.0: \"Upgraded Map Lighting, check out how Skyworld has benefitted!\""
  },
  {
-  "file": "research_notes/Battle Bears character lore/oliver_riggs_wil.md (line 252)",
+  "file": "research_notes/Battle Bears character lore/oliver_riggs_wil.md (Q3 'Where do games disagree, and what changed in the 2026 Battle Bears Gold re-release?', Takeaway, new-map bullet; formerly line 252; applied 2026-10-18)",
   "current_text": "Whether these are the same map is my [INFERENCE]; no source says so.",
   "correction": "An official pairing links them. SkyVu's Short \"Sky Pirates in BBG!\" (Sep 7, 2026) is described \"Enjoy the highlights from our Sky World playtest!\". BBO's 2020 notes also called a map \"Skyworld\", and the wiki's BBO map list has Sky Pirates but no \"Skyworld\". Fan chapter lists for the Aug 21 playtest name \"Sky Pirates\". Treat them as one map (strong [Inference]).",
   "evidence": "YouTube CwxpBZg6Fi4 metadata (innertube); wiki Updates (BBO 3.0, Jul 3, 2020) and Battle Bears Overclock map list; JustNubz qt43iTdANbM (\"8:05 Sky Pirates KC\") and VHo1O41RNJE (\"2:44 Sky Pirates KC \u2026 36:07 Sky Pirates KC\"), both dated Aug 21, 2026."
  },
  {
-  "file": "reports/Battle Bears character lore.md (line 29)",
+  "file": "reports/Battle Bears character lore.md (section 'Battle Bears Gold grew from five classes to eleven, and 2026 adds no lore', line 29; applied 2026-10-18)",
   "current_text": "Teaser frames read \"SAME / ICONIC / GAMEPLAY\" and put \"NEW MAP!\" over a gold, swirl-engraved Oliver [Observed] ([teaser frame](https://i.ytimg.com/vi/d2ByJWrsoec/hq1.jpg))",
   "correction": "The two captions are in different frames: \"SAME / ICONIC / GAMEPLAY\" is hq1 and \"NEW MAP!\" is hq2. The \"NEW MAP!\" backdrop (rust-orange low-poly canopies, white cottage with a red-brown roof, wooden fence) is probably Sky Pirates [Inference]. The \"SAME\" panel's red stencil and star on grey stone match the Abusement Park red base [Inference]. Cite hq2 as well.",
   "evidence": "https://i.ytimg.com/vi/d2ByJWrsoec/hq1.jpg and https://i.ytimg.com/vi/d2ByJWrsoec/hq2.jpg, compared with trailer t_0037\u20130045 and r91WkR10W2A maxres (opened Oct 18, 2026)."
  },
  {
-  "file": "reports/Battle Bears character lore.md (line 29)",
+  "file": "reports/Battle Bears character lore.md (section 'Battle Bears Gold grew from five classes to eleven, and 2026 adds no lore', line 29; applied 2026-10-18)",
   "current_text": "launches November 4, 2026 on Steam (Windows and Mac), iOS and Google Play",
   "correction": "Steam lists Windows only (platforms: windows true, mac false, linux false). A Mac requirements block exists in the API, but Mac is not a listed platform. battlebears.com says \"Steam PC, iOS and Google Play\".",
   "evidence": "store.steampowered.com/api/appdetails?appids=4408320 (fetched Oct 18, 2026); store HTML has only data-os=\"win\"; battlebears.com home text."
@@ -1040,7 +1040,7 @@
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_marecraft-map.md (line 48)",
   "current_text": "No 2026 playtest thumbnail I opened shows Marecraft [Observed, absence].",
-  "correction": "Fan chapter lists put Marecraft in every documented 2026 playtest: PT2 Kill Confirmed x2 and Team Battle x1; PT3 \"1:28 Marecraft TDM\" and \"1:08 Marecraft TDM\"; PT5 \"Match 16 (Plant the Bomb, Marecraft, Wil)\". Upgrade to \"very likely in 2026 (fan-documented)\". Note that the official Oct 12 Q&A thumbnail shows Marecraft, but it reuses the 2013 trailer shot, so it is not 2026 evidence.",
+  "correction": "Fan chapter lists put Marecraft in every documented 2026 playtest: PT2 Kill Confirmed x2 and Team Battle x1; PT3 \"1:28 Marecraft TDM\" and \"1:08 Marecraft TDM\"; PT5 \"Match 16 (Plant the Bomb, Marecraft, Wil)\". Upgrade to \"very likely in 2026 (fan-documented)\". Note that the official Oct 12 Q&A thumbnail shows Marecraft, but it reuses the Steam trailer shot (2013 footage [Inference, strong]), so it is not 2026 evidence.",
   "evidence": "lFr8-yHbbzQ, qt43iTdANbM, _R4rvvGlRsM and HKbwq7PolNc metadata; pmE2jKQLSms maxres compared with trailer frame at 41.7 s (sheets/qa_vs_trailer.jpg)."
  },
  {
@@ -1064,14 +1064,14 @@
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_aztec-attack.md (line 54)",
   "current_text": "The 2026 trailer shows the same layout as the 2012 top-down render [Observed], with brighter, more saturated orange ground than the 2012 screenshot [Observed]. That the 3.0 lighting pass explains the change is [Inference].",
-  "correction": "The Steam \"Battle Bears Gold Premium - Trailer\" is 2013 BBG footage, not a 2026 or post-2021 capture. Its class cards are identical to the May 30, 2013 trailer, and it shows only the 8 launch classes and launch-era maps. So the 2021 3.0 lighting pass cannot explain its look. The brighter ground reflects the 2013 BBG relaunch or the capture, not 3.0 [Inference].",
-  "evidence": "Trailer frames t_0024/t_0059/t_0086 vs rfAyqVJrli4 hq1\u20133/maxres (sheets/tr2013.jpg); rfAyqVJrli4 description \"Choose from 8 classes \u2026 Coming June 2013!\"; wiki Updates: BBG 3.0 dated Nov 15, 2021."
+  "correction": "The Steam \"Battle Bears Gold Premium - Trailer\" is most likely 2013 BBG footage, not a 2026 or post-2021 capture [Inference, strong]. Its class cards are identical to the May 30, 2013 trailer, its gameplay matches that trailer's storyboard [Observed, storyboard size], and it shows only the 8 launch classes and launch-era maps. So the 2021 3.0 lighting pass is unlikely to explain its look. The brighter ground reflects the 2013 BBG relaunch or the capture, not 3.0 [Inference].",
+  "evidence": "Trailer frames t_0024/t_0059/t_0086 vs rfAyqVJrli4 hq1\u20133/maxres (sheets/tr2013.jpg); storyboard match of the gameplay per research_notes/BBG weapons (verified)/2026.md, \"The Steam trailer is 2013 footage\"; rfAyqVJrli4 description \"Choose from 8 classes \u2026 Coming June 2013!\"; wiki Updates: BBG 3.0 dated Nov 15, 2021."
  },
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_shortest-parsec.md (line 168, and the open question at line 400)",
   "current_text": "\"The Jan 2013 previews look cooler and lilac-tinted. The 2026 trailer looks more saturated red [Observed; reason unknown].\" and \"Which build did the 2026 trailer and screenshot footage come from?\"",
-  "correction": "The \"2026 trailer\" and the five Steam screenshots are 2013 BBG footage: the screenshots are stills from the trailer, and its class cards are identical to the May 30, 2013 BBG trailer. Call it \"the Steam trailer (2013 footage)\". The colour difference is preview vs shipped 2013 BBG, not 2026.",
-  "evidence": "Screenshot-to-trailer matches at 50.6 s (screen_02) and 26.4 s (screen_04); sheets/tr2013.jpg comparison with rfAyqVJrli4."
+  "correction": "The \"2026 trailer\" and the five Steam screenshots are 2013 BBG footage [Inference, strong]: the screenshots are stills from the trailer, its class cards are identical to the May 30, 2013 BBG trailer, and its gameplay matches that trailer at storyboard size [Observed]. Call it \"the Steam trailer\" (2013 footage [Inference, strong]). The colour difference is most likely preview vs shipped 2013 BBG, not 2026 [Inference].",
+  "evidence": "Screenshot-to-trailer matches at 50.6 s (screen_02) and 26.4 s (screen_04); sheets/tr2013.jpg comparison with rfAyqVJrli4; storyboard match per research_notes/BBG weapons (verified)/2026.md, \"The Steam trailer is 2013 footage\"."
  },
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_skate-or-die.md (line 84)",
@@ -1110,16 +1110,16 @@
   "evidence": "Steam store page app 5321720 track listing."
  },
  {
-  "file": "research_notes/BBG weapons (verified)/combat-vfx.md (line 601) and research_notes/BBG weapons (unverified drafts)/visuals_combat-vfx.md (line 346)",
+  "file": "research_notes/BBG weapons (verified)/combat-vfx.md ('Fire and burning' section, Look list, screen_01 flames entry; formerly line 601; applied 2026-10-18) and research_notes/BBG weapons (unverified drafts)/visuals_combat-vfx.md (line 346)",
   "current_text": "Orange flame jets rise from floor vents [Observed: screen_01.jpg]. Whether they are a hazard or jump pads is [Unverified].",
-  "correction": "Small flames rise from short orange-yellow rectangular bits lying on the floor beside a jump pad, not from vents [Observed]. They fit the Se\u00f1or Potato Cannon's \"piping hot french fries\" [Inference]. No fire hazard is documented on Space Oddity [Fan-wiki]. screen_01 is a frame of the May 2013 trailer (\u224830.7 s).",
-  "evidence": "crops/s1_flames.png (2.5\u00d7 crop of screen_01); pixel match of screen_01 to Steam trailer frame at 30.7 s (MSE 210 vs median 6,574); 1.4.3 update note quoted on the wiki Updates page."
+  "correction": "Small flames rise from short orange-yellow rectangular bits lying on the floor beside a jump pad, not from vents [Observed]. They fit the Se\u00f1or Potato Cannon's \"piping hot french fries\" [Inference]. No fire hazard is documented on Space Oddity [Fan-wiki]. screen_01 is a frame of the Steam trailer's Space Oddity clip (\u224830.7 s) [Observed], which is 2013 footage [Inference, strong]: the same moment is in the storyboard of SkyVu's May 2013 trailer [Observed].",
+  "evidence": "crops/s1_flames.png (2.5\u00d7 crop of screen_01); pixel match of screen_01 to Steam trailer frame at 30.7 s (MSE 210 vs median 6,574); storyboard comparison /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/review_ov/so_sb_check.jpg (2013 35\u201336 s = Steam 30.85\u201331.95 s); 1.4.3 update note quoted on the wiki Updates page."
  },
  {
   "file": "research_notes/BBG weapons (verified)/combat-vfx.md",
   "current_text": "In the 2026 Steam screenshots, the trailer gameplay and the Steam loop video, characters have a thick black ink outline",
-  "correction": "The Steam screenshots and trailer are May 2013 trailer footage, so the outline was already in SkyVu's 2013 footage, not added in 2026. It also appears in 2026 in-game captures with HUD (Playtest Highlights maxres, build \"3.0.0\"; fan final-playtest thumbnails, build \"3.0.7\"). It is absent from 2012\u201314 phone captures. The 2013 trailer description advertises \"HD Graphics (Only available on higher end devices\u2026)\"; tying the outline to that is [Inference]. Line 74 (\"2026 media add a thick black ink outline\u2026 Whether the outline is in-game is [Unverified]\") should change the same way.",
-  "evidence": "rfAyqVJrli4 thumbnails match Steam trailer frames (MSE 3.6\u20136.2 vs medians 6,490\u20137,476); C7uFxvSZ10c maxresdefault; HKbwq7PolNc maxres1; A_life_upside_down.jpg, Imawe.jpg, Screenshot_(509).png; YouTube next-endpoint description of rfAyqVJrli4 (May 30, 2013)."
+  "correction": "The Steam screenshots and trailer are May 2013 trailer footage [Inference, strong], so the outline was already in SkyVu's 2013 footage, not added in 2026. It also appears in 2026 in-game captures with HUD (Playtest Highlights maxres, build \"3.0.0\"; fan final-playtest thumbnails, build \"3.0.7\"). It is absent from the 2012\u201314 player captures on the wiki, but some 2013 fan videos already show it (Gold Graham in the July 2013 2.0 beta, T_EJ2DmboPU) [Observed]. The 2013 trailer description advertises \"HD Graphics (Only available on higher end devices\u2026)\"; tying the outline to that is [Inference]. The outline sentence in 'Quick summary of the conventions' (formerly line 74: \"2026 media add a thick black ink outline\u2026 Whether the outline is in-game is [Unverified]\") should change the same way.",
+  "evidence": "rfAyqVJrli4 thumbnails match Steam trailer frames (MSE 3.6\u20136.2 vs medians 6,490\u20137,476), and the trailer's gameplay matches rfAyqVJrli4's 160\u00d790 storyboard (research_notes/BBG weapons (verified)/2026.md, \"The Steam trailer is 2013 footage\"); C7uFxvSZ10c maxresdefault; HKbwq7PolNc maxres1; A_life_upside_down.jpg, Imawe.jpg, Screenshot_(509).png; T_EJ2DmboPU maxresdefault (outlined Gold Graham, July 2013; graham.addendum.md, Incidental findings 1); YouTube next-endpoint description of rfAyqVJrli4 (May 30, 2013)."
  },
  {
   "file": "research_notes/BBG weapons (verified)/combat-vfx.md",
@@ -1142,13 +1142,13 @@
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_aztec-attack.md",
   "current_text": "The 2026 trailer shows the same layout as the 2012 top-down render [Observed], with brighter, more saturated orange ground than the 2012 screenshot [Observed]. That the 3.0 lighting pass explains the change is [Inference].",
-  "correction": "The Steam trailer's gameplay is May 2013 footage (class cards pixel-match the May 30, 2013 trailer; only BBG 2.0 maps and the 8 May-2013 classes appear), so the brighter look predates the 2021 3.0 \"New Map Lighting\" and cannot be explained by it.",
-  "evidence": "Pixel match of rfAyqVJrli4 hq1/hq3/maxresdefault to Steam trailer frames at 11.9 s, 42.8 s and 29.9 s; trailer contact sheets tr1\u2013tr3; 2013 trailer description (\"Choose from 8 classes\", \"3 New Maps\")."
+  "correction": "The Steam trailer's gameplay is May 2013 footage [Inference, strong] (class cards pixel-match the May 30, 2013 trailer; the gameplay matches that trailer at storyboard size [Observed]; only BBG 2.0 maps and the 8 May-2013 classes appear), so the brighter look most likely predates the 2021 3.0 \"New Map Lighting\" and is unlikely to be explained by it.",
+  "evidence": "Pixel match of rfAyqVJrli4 hq1/hq3/maxresdefault to Steam trailer frames at 11.9 s, 42.8 s and 29.9 s; storyboard match of the gameplay at a ~4 s offset (research_notes/BBG weapons (verified)/2026.md, \"The Steam trailer is 2013 footage\"); trailer contact sheets tr1\u2013tr3; 2013 trailer description (\"Choose from 8 classes\", \"3 New Maps\")."
  },
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_shortest-parsec.md",
   "current_text": "The official 2026 Steam trailer shows it, and so do two of the five 2026 Steam screenshots.",
-  "correction": "Say \"two of the five screenshots on the 2026 Steam page\": they are frames of the May 2013 trailer (screen_02 \u2248 50.6 s, screen_04 \u2248 26.4 s) and show the 2013 build, not 2026.",
+  "correction": "Say \"two of the five screenshots on the 2026 Steam page\": they are frames of the Steam trailer (screen_02 \u2248 50.6 s, screen_04 \u2248 26.4 s), which is May 2013 footage [Inference, strong], so they show the classic 2013 look, not the 2026 build.",
   "evidence": "Pixel match: screen_02 vs trailer frame 50.6 s MSE 422, screen_04 vs 26.4 s MSE 1,019 (medians 8,735 and 7,135)."
  },
  {
@@ -1158,7 +1158,7 @@
   "evidence": "File:Comics_12.jpg (re-downloaded via the wiki API and opened; crop crops/c12_text.png) shows the speech balloon 'NEGATIVE OLIVER! WE'RE IN PERFECT POSITION TO GO AFTER THAT TREASURE. MALCOLM AND THE OTHERS CAN TAKE CARE OF THEMSELVES.' The comic's credits page File:Comics_2.jpg reads 'STORY: BENJAMIN VU, JOSH BLAYLOCK' with the SkyVu pictures logo. File:Malcum_from_battle_bears.png shows the bridge pilot."
  },
  {
-  "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md (line 45); /home/user/thallo-site/bbg-news-repo/characters/saberi.md (line 49); /home/user/thallo-site/bbg-news-repo/characters/sanchez.md (line 57)",
+  "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md (Relationships, 'Jackson, Captain Malcolm' entry; formerly line 45); /home/user/thallo-site/bbg-news-repo/characters/saberi.md (Relationships, 'Captain Malcolm' entry, line 49); /home/user/thallo-site/bbg-news-repo/characters/sanchez.md (Relationships, 'Captain Malcolm' entry; formerly line 57); all applied 2026-10-18",
   "current_text": "astoria.md: \"Malcolm is wiki-only [Fan-wiki]\"; saberi.md: \"**Captain Malcolm:** wiki-only [Fan-wiki]\"; sanchez.md: \"**Captain Malcolm:** wiki-only \\\"pilot of the Ursa Major\\\" [Fan-wiki]\"",
   "correction": "Replace 'wiki-only' with: 'named in SkyVu's comic (\"MALCOLM AND THE OTHERS CAN TAKE CARE OF THEMSELVES\") [Canon comic text] and shown piloting the ship in BB-1 cutscene art [Observed]; his rank \"Captain\" and \"leader\" role are wiki-only [Fan-wiki].'",
   "evidence": "Same as above: File:Comics_12.jpg and File:Malcum_from_battle_bears.png, both opened this session."
@@ -1190,8 +1190,8 @@
  {
   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md",
   "current_text": "I found no official page using the word \"Pelican't\".",
-  "correction": "The dropship's name is official. SkyVu's comic writes it without the apostrophe: 'RIGGS TO ALL PELICANT SHIPS.' (File:Page1.jpg) and 'DO YOU THINK THE OTHER PELICANTS WERE ABLE TO STICK TOGETHER DURING THE EVACUATION?' (File:Comics_11.jpg) [Canon comic text; Observed]. Only the apostrophe spelling 'Pelican't' is the wiki's [Fan-wiki]. The same applies to the lore report's '\"Pelican't\", a pun on Halo's Pelican [Fan-wiki]' (line 21): the name is Canon; the pun reading is the wiki's.",
-  "evidence": "File:Page1.jpg and File:Comics_11.jpg re-downloaded and opened this session; both show 'PELICANT' with no apostrophe."
+  "correction": "The dropship's name is official. SkyVu's comic writes it without the apostrophe: 'RIGGS TO ALL PELICANT SHIPS.' (File:Page1.jpg) and 'DO YOU THINK THE OTHER PELICANTS WERE ABLE TO STICK TOGETHER DURING THE EVACUATION?' (File:Comics_11.jpg) [Canon comic text; Observed]. SkyVu also uses the apostrophe spelling: its 2010 BB-1 soundtrack titles track 11 'Get To the Pelican'ts!' [Canon: Apple Music album 383419699, \u2117 2010 SkyVu Pictures Inc.], so 'Pelican't' is not the wiki's alone. The same applies to the lore report's '\"Pelican't\", a pun on Halo's Pelican [Fan-wiki]' (section 'A cyborg crew fights love-crazed Huggables across a joke cosmos', line 21): the name is Canon; the pun reading is the wiki's.",
+  "evidence": "File:Page1.jpg and File:Comics_11.jpg re-downloaded and opened this session; both show 'PELICANT' with no apostrophe. iTunes lookup for album 383419699 (re-fetched 2026-10-18): 'Battle Bears - 1 (Original Game Soundtrack)', released 2010-07-04, '\u2117 2010 SkyVu Pictures Inc.', track 11 'Get To the Pelican'ts!'."
  },
  {
   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md",
@@ -1202,7 +1202,7 @@
  {
   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md",
   "current_text": "**Space Oddity**: a small, symmetrical, yellow-themed spaceship map (originally \"Spacecraft\") with a hologram of the Mecha-Bearzerker.",
-  "correction": "The hologram is disputed on the wiki itself: the Space Oddity and Bearzerker pages say Mecha-Bearzerker, the Spaceboss page says 'A hologram of Spaceboss can be seen in the map Space Oddity' [Fan-wiki, conflicting]. The only hologram image on the Space Oddity page is a cyan wireframe sphere captioned 'Space Oddity \"Death Star\"' [Observed: File:Death_Star.jpg]. The 'spaceship interior' reading the notes removed is in fact supported by renders captioned 'Spaceship Level' showing an interior with windows onto space [Observed: File:Spacecraft1-3.jpg; 2026 trailer t_0061].",
+  "correction": "The hologram is disputed on the wiki itself: the Space Oddity and Bearzerker pages say Mecha-Bearzerker, the Spaceboss page says 'A hologram of Spaceboss can be seen in the map Space Oddity' [Fan-wiki, conflicting]. The only hologram image on the Space Oddity page is a cyan wireframe sphere captioned 'Space Oddity \"Death Star\"' [Observed: File:Death_Star.jpg]. The 'spaceship interior' reading the notes removed is in fact supported by renders captioned 'Spaceship Level' showing an interior with windows onto space [Observed: File:Spacecraft1-3.jpg; Steam trailer t_0061].",
   "evidence": "Wiki Space Oddity, Bearzerker and Spaceboss pages re-fetched; File:Death_Star.jpg and File:Spacecraft1.jpg-3.jpg opened (sheet crops/so_bbtv.png)."
  },
  {
@@ -1308,7 +1308,7 @@
   "evidence": "See the frames above. Steam News Oct 14, 2026 lists '-Lighting improvements' [Canon]; the storyboards cannot show a lighting difference."
  },
  {
-  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md (Q1 section A 'Official animated and cinematic media catalogue', 'Map fly-throughs' item, Frozen Pundra preview; formerly line 81; applied 2026-10-18)",
   "current_text": "  - \"2.7 'Frozen Pundra'\" (Jan 22, 2014) \u2014 [Ev5WvMIp1_4](https://www.youtube.com/watch?v=Ev5WvMIp1_4)",
   "correction": "  - \"BATTLE BEARS GOLD Update 2.7 \"Frozen Pundra\" Map Preview\" (Jan 22, 2014, 0:31): \"Check out this epic fly through of the new map coming to BATTLE BEARS GOLD in Update 2.7! Are you excited?\" \u2014 [Ev5WvMIp1_4](https://www.youtube.com/watch?v=Ev5WvMIp1_4). The Jan 22, 2014 date is now verified, which replaces the earlier draft's advice to mark it as not re-verified.",
   "evidence": "Invidious API record at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/critic/inv/inv_Ev5WvMIp1_4.json: author 'BATTLE BEARS', published 1390348800 (2014-01-22), lengthSeconds 31, with the full description."
@@ -1368,22 +1368,22 @@
   "evidence": "eq_fp_syb2.jpg viewed; compare grid tile r4c2 in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/lineup_gap/grid_x3.png"
  },
  {
-  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md (line 276)",
+  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md (Q3 section B 'Class and title naming conflicts', 'Map count' entry and its sub-bullets; formerly line 276; applied 2026-10-18)",
   "current_text": "[FAN-WIKI] The wiki lists 15 BBG maps across the original run, and Haunted Castle and Desert Airmine were removed at 2.0 and Haunted Castle later returned",
   "correction": "Desert Airmine also returned (\"It was re-released in v2.7\"). Add: all 15 legacy maps plus the new Sky Pirates map appear in 2026 playtest footage, which accounts for Steam's \"16 wacky maps\" [Inference, strong].",
   "evidence": "Wiki API Desert_Airmine wikitext fetched 2026-10-18; 2026 frame evidence in the addendum's section 6 table"
  },
  {
-  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md (line 404)",
+  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/franchise_world.md (Fact-check log, 'Added (sourced, found while checking)' list; formerly line 404; applied 2026-10-18)",
   "current_text": "Sky Pirates as a BBO map that returns in BBG 2026.",
   "correction": "Resolved: Sky Pirates is playable in the 2026 playtests (3rd to final) and SkyVu calls it \"the new Sky Pirates map\".",
   "evidence": "HKbwq7PolNc 48:00-60:10 frames (hk_rest.jpg, critic hk_kc.jpg); r91WkR10W2A description \"Gameplay highlights from the new Sky Pirates map!\""
  },
  {
-  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/oliver_riggs_wil.md (lines 252, 554)",
+  "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/oliver_riggs_wil.md (Q3 Takeaway new-map bullet, formerly line 252; Fact-check log 'Relabelled' list, Sky World / Sky Pirates item, formerly line 554; both applied 2026-10-18)",
   "current_text": "Whether these are the same map is my [INFERENCE]; no source says so.",
   "correction": "SkyVu links the names: its short \"Sky Pirates in BBG!\" is described as \"Enjoy the highlights from our Sky World playtest!\" [Canon]. Same map [Inference, strong].",
-  "evidence": "CwxpBZg6Fi4 metadata (critic/inv/inv_CwxpBZg6Fi4.json), published 2026-09-07; animation_reference.md already records it (Fact-check log, 'Added (sourced)' list; also quoted in the Shorts item of Q1 section A's '2026 BBG re-release videos' list)"
+  "evidence": "CwxpBZg6Fi4 metadata (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/critic/inv/inv_CwxpBZg6Fi4.json), published 2026-09-07; animation_reference.md already records it (Fact-check log, 'Added (sourced)' list; also quoted in the Shorts item of Q1 section A's '2026 BBG re-release videos' list)"
  },
  {
   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/bbg-news-repo/content/evergreen.json (fact-playtests)",
@@ -1596,7 +1596,7 @@
   "evidence": "BBR 2012 fan thumbnail XlFSvuNEqF0 hqdefault (cream-yellow, yellow trim); 3.0.7 frames HK f_1120000, f_1130000 and official ZMhLVXWT6OY f_1500000; 3.0.2 frames aujTcdFuxdE f_2310000 and f_2370000; zoom grid/holo_screens.jpg."
  },
  {
-  "file": "research_notes/Battle Bears character lore/animation_reference.md",
+  "file": "research_notes/Battle Bears character lore/animation_reference.md (Q1 section B 'Art style as seen in official frames', 'In-game 3D and logo' entry; formerly line 150; applied 2026-10-18)",
   "current_text": "Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves",
   "correction": "Add: 'The Steam screenshots also include Space Oddity (screen_01), a matte amber-orange, olive and cyan spaceship interior. Its 2026 final-build lighting is warmer and more golden, with bright yellow trim, so the store media predate the 2026 lighting pass.'",
   "evidence": "environment-conventions/sheets/so_steam_vs_hk.jpg (Steam ss_1 against HK 3.0.7 frames); Steam news 2026-10-14 'Lighting improvements' and the request for UI-free footage 'for our Steam and store pages' [Canon]."
@@ -1604,8 +1604,8 @@
  {
   "file": "research_notes/BBG weapons (verified)/wil.addendum.md",
   "current_text": "  - **Fries, official trailer (2013 footage):**",
-  "correction": "  - **Fries, official trailer (footage date unverified; probably 2013-era [Inference]):**",
-  "evidence": "No source dates the trailer's gameplay, and the Space Oddity draft labels '2013-era' as [Inference]. The trailer shot's hue profile matches no 2026 playtest build and is only weakly closer to BBG 2.5 thumbnails (distance 34) than to 3.0.2 (52) or BBR (58)."
+  "correction": "  - **Fries, official Steam trailer (Space Oddity clip; 2013 footage [Inference, strong]):**",
+  "evidence": "The Space Oddity clip, bloom included, is in the 160\u00d790 storyboard of SkyVu's May 30, 2013 trailer rfAyqVJrli4 (2013 35\u201336 s = Steam 30.85\u201331.95 s), and the rest of the trailer's gameplay matches that storyboard at the same ~4 s offset (research_notes/BBG weapons (verified)/2026.md, \"The Steam trailer is 2013 footage\"; space-oddity.md, \"Age of the official footage\"). The trailer shot's hue profile matches no 2026 playtest build and is only weakly closer to BBG 2.5 thumbnails (distance 34) than to 3.0.2 (52) or BBR (58). An earlier version of this correction made the footage date unverified (\"probably 2013-era [Inference]\"); the storyboard check overturned it, and wil.addendum.md now carries the heading above."
  },
  {
   "file": "/home/user/thallo-site/research_notes/BBG maps (unverified drafts)/research_aztec-attack.md",

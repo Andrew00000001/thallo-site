@@ -102,8 +102,8 @@ Abusement Park is a night-time carnival arena with a horror streak, walled in by
 - **Store text:** it does not name the map [Canon].
 - **Official Steam trailer** ("Battle Bears Gold Premium - Trailer", 54 s): its only shot of this map is the red base, from about 17.6 s to 22.0 s (t_0037–t_0045; my full-resolution frames f_02–f_19) [Observed].
   - Visible: the "[RED]" stencil wall with dripping red stars, the salmon plank deck, yellow U-rails, the twin blue posters, the maroon-and-white striped tent wall, the coaster rail overhead, and the "[RA…E US" stencil.
-  - Wil holds a Batterito, then is blown up by Tillman's shot.
-  - Which build the footage is from is not stated [Unverified]. It is most likely 2013 footage that SkyVu re-used [Inference, strong]: the trailer's class cards are pixel-matched to SkyVu's May 30, 2013 trailer (rfAyqVJrli4), and it shows only the 2013 launch's 8 classes and maps that existed in May 2013 (maps overview, section 0, item 1).
+  - Wil holds and eats a Batterito (about 17.9–18.4 s), then cries. An orange-yellow glow engulfs him (about 19.5–20.4 s): Tillman's shot or the start of his own Batterito fire, which is open [Observed; attribution Unverified]. He then heads for Tillman, arms out, while a faceted orange ball with grey smoke puffs, from a shooter not shown, flies away overhead (about 20.5–21.5 s) [Observed; source Unverified]. In the next shot, fire rolls in behind Tillman and engulfs him (about 22.0–22.2 s), most likely Wil's Batterito fire-breath [Inference], before the Wil card. Frames: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/trailer_wil_fire_chk/ (0.1 s steps, 17.5–23.4 s); reading as in research_notes/BBG weapons (verified)/tillman.md, Big Shot.
+  - Which build the footage is from is not stated [Unverified]. It is most likely 2013 footage that SkyVu re-used [Inference, strong]: the trailer's class cards are pixel-matched to SkyVu's May 30, 2013 trailer (rfAyqVJrli4); its gameplay, this red-base shot included (2013 22–24 s = Steam 17.95–19.95 s), matches that trailer's 160×90 YouTube storyboard at a ~4 s offset [Observed, storyboard size; research_notes/BBG weapons (verified)/2026.md, "The Steam trailer is 2013 footage"]; and it shows only the 2013 launch's 8 classes and maps that existed in May 2013 (maps overview, section 0, item 1).
 - **Official teaser (d2ByJWrsoec, maxres1 at 1280×720):** the "SAME" panel shows the grey stone wall with "…ED]" and a dripping red star above a plank deck with U-rails [Observed]. That is the red base [Inference, strong visual match]. The light is cooler and paler than in the trailer [Observed].
 - **Official Short "BBG Maps Ranked part 1" (jkv6FHPghx8):**
   - The thumbnail's background grid of map images includes the Abusement Park map-select art, the mirror-lettered "THE MIRRORED HOUSE" marquee over the orange-striped booth [Observed].
@@ -367,6 +367,7 @@ All opened with the Read tool in this pass. Local files are under /tmp/claude-0/
 - t_0037.jpg and t_0044.jpg in full; sheets/tr_34_48.png.
 - My full-resolution extraction /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/abusement_park_verify/frames/f_01–f_20.jpg (f_N = 17.5 s + (N-1)×0.25 s), via sheets/fr_14_20.png and sheets/tr_start.png. Crops: crops/tr_rateus.png (f_17) and crops/tr_posters.png (f_03).
 - frames2/g_04.jpg (Sky View check).
+- Wil/Tillman re-check (review pass, Oct 18): /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/trailer_wil_fire_chk/sheet_0.png, sheet_a.png, sheet_b.png, sheet_c.png, sheet_glow.png and sheet_run.png (0.1 s steps, 17.5–23.4 s).
 
 **Steam screenshots:** /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_00–04.jpg, via sheets/steam.png. None shows this map [Observed].
 
@@ -402,7 +403,7 @@ All opened with the Read tool in this pass. Local files are under /tmp/claude-0/
 **Staging spots**
 1. **Red base deck at the stencilled wall.**
    - Flat salmon planks, yellow U-rails, striped tent on one side, coaster rail overhead [Observed].
-   - The official trailer stages Wil (holding a Batterito) being blown up by Tillman here [Observed, about 17.6–22 s]. Good for a stand-off or an explosive punchline.
+   - The Steam trailer stages Wil and Tillman here [Observed, about 17.9–22.2 s]: Wil eats a Batterito, is engulfed in an orange-yellow glow, and heads for Tillman, who is then engulfed in fire. Whether the glow on Wil is Tillman's shot or Wil's own fire is open; the fire on Tillman is most likely Wil's fire-breath [Inference] (see 2026 above). Good for a stand-off or an explosive punchline.
    - The specific gag is a [BBG News invention].
 2. **The EXIT stairs under "Only 400,000 Tix".**
    - The official joke is that 400,000 tickets buy your freedom and "ONLY ONE CAN LEAVE" [Canon per prior notes, Unverified; signage Observed].

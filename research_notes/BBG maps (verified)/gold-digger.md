@@ -85,7 +85,7 @@ Gold Digger is a Battle Bears Gold (BBG) map set in a gold mine at night. The ma
   - **Lighting.**
     - The final playtest notes list "Lighting improvements" [Canon], and the "CLOSED TESTING 5" banner reads "-LIGHTING, EFFECT & TEXTURE IMPROVEMENTS" [Observed]. The banner image shows No Bear's Land, not Gold Digger [Observed].
     - The fan uploader writes of "an overhauled lighting for all maps, attempting to restore what they looked like back in the day", naming No Bear's Land, Desert Airmine and Space Oddity but not Gold Digger [Unverified: fan claim].
-    - In the storyboard frames, Gold Digger keeps its 2013 look: night sky, rock walls, carts and gems. It reads slightly brighter and greyer than the 2013 trailer (see Look) [Observed, low resolution].
+    - In the storyboard frames, Gold Digger keeps its 2013 look: night sky, rock walls, carts and gems. It reads slightly brighter and greyer than the Steam trailer's 2013 footage (see Look) [Observed, low resolution].
   - **The official October 15 livestream** ("BBG Livestream Final Playtest before Steam NextFest Oct 19") shows no Gold Digger match in its 620 storyboard frames [Observed] ([ZMhLVXWT6OY](https://www.youtube.com/watch?v=ZMhLVXWT6OY)).
   - **Steam news.** None of the seven 2026 posts mentions Gold Digger. I checked the text through the news API on 2026-10-18 [Unverified: absence check].
   - **Demo.**
@@ -106,7 +106,7 @@ Gold Digger is a Battle Bears Gold (BBG) map set in a gold mine at night. The ma
 - **The wiki:** "It appears to be a mining cave, hence the name." [Fan-wiki]
 - **SkyVu's blurb:** "narrow tunnels deep underground… a pit full of gold" [Canon per our notes; Unverified this session].
 - **The main arena is open to the night sky.**
-  - **2013 trailer.** A dark navy sky with small white stars and a bright, textured full moon with a soft halo sits above the rock walls (`t_0009` at 4.0 s, `t_0011` at 5.0 s) [Observed].
+  - **Steam trailer (2013 footage [Inference, strong]).** A dark navy sky with small white stars and a bright, textured full moon with a soft halo sits above the rock walls (`t_0009` at 4.0 s, `t_0011` at 5.0 s) [Observed].
   - **2026 official short.** The Gold Digger still shows stars above a curved wall of stacked rock [Observed].
   - **2026 playtest.** A frame shows the same navy starry sky above tiered rock walls (fan video storyboard, about 2080 s). No moon is in view there [Observed].
 - **The side tunnels are roofed.** They have timber frames, an earthen brown ceiling and hanging lamps (wiki `Gold_Digger_4.jpg`, map icon) [Observed].
@@ -185,8 +185,8 @@ All rows are [Observed].
 - Sky median #0E2B40 (f_2080000) [Observed].
 - Walls #211915–#261E1B, floor #31251A–#3A2F28, gold load median #7B7413 (highlight #B09707), tunnel cobble #4F4027 [Observed].
 - Blue gem #1006DC and red gem #82131A [Observed].
-- The official short's Gold Digger tile: sky #0D2B3D, wall #231D1F [Observed]. Those values sit close to the 2026 playtest frames, so the tile is probably a 2026-build still [Inference].
-- Whole-frame means of about RGB(52–55,47–52,37–41) against about RGB(33–37,22–31,14–30) for the 2013 trailer. The 2026 frames read brighter and less orange. HUD, characters and video encoding inflate these numbers, so they are only an indication [Observed numbers; Inference on cause].
+- The official short's Gold Digger tile: sky #0D2B3D, wall #231D1F [Observed]. Those values sit close to the 2026 playtest frames, but the tile is level-select art, not a gameplay still: it matches the Gold Digger tile in the PICK LEVEL carousel of SkyVu's Oct 15, 2026 stream (ZMhLVXWT6OY, about 45:30) [Observed, low resolution], and the maps overview (section 0, item 3) reads the whole Ranked grid as level-select art, not proof of a 2026 look. When the tile was rendered is [Unverified].
+- Whole-frame means of about RGB(52–55,47–52,37–41) against about RGB(33–37,22–31,14–30) for the Steam trailer's 2013 footage. The 2026 frames read brighter and less orange. HUD, characters and video encoding inflate these numbers, so they are only an indication [Observed numbers; Inference on cause].
 
 - **Lighting and time of day.**
   - It is night [Observed].
@@ -275,6 +275,7 @@ All paths are absolute.
 - `cmp_cards.png`: rfAyqVJrli4 hq1, hq2, hq3 and maxresdefault against `t_0023`, `t_0059`, `t_0085` and `t_0001`.
 - `ls_mega_00.jpg`–`ls_mega_05.jpg` and `ls_check.png` (the official livestream ZMhLVXWT6OY storyboard).
 - Fan video HKbwq7PolNc storyboard: `sb/HKbwq7PolNc/cs_09.jpg`, `sb/HKbwq7PolNc/cs_10.jpg`, `gd26_a.png`–`gd26_d.png` (frames at 1880–2120 s), `hexgrid.png`, `f2080_big.png` and `build_str.png`.
+- PICK LEVEL check: the ZMhLVXWT6OY storyboard frame `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic-terror-gap/frames/ZMhLVXWT6OY/f_2730000.jpg` (45:30), tile crop `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/ed_maps5/zm2730_tile.png`; greyscale correlation r 0.81 against `jk_gdtile_big.png`.
 
 ## Prompt pack
 
@@ -360,6 +361,6 @@ All paths are absolute.
 - **2.6.1 patch.** Did it say Arbiter (Updates and Versions pages; likelier) or Assault (the 2015 sub-page)?
 - **2026 look.** Does the 2026 build keep the full moon? What are its true colours under "Lighting improvements"? The storyboard is 429×180. The Steam demo (October 19–26) or the iPad playtest video dz4iqZE8nQE could settle this.
 - **2026 effects.** Is the orange-red hexagonal wireframe in the 2026 frames at about 1890–1910 s a weapon or special effect, or a new spawn barrier? Which pickup glows green in a wall recess at about 2080–2090 s?
-- **Steam trailer and screenshots.** Are they entirely 2013-era footage? Most likely: the character cards match the 2013 trailer exactly, and the gameplay, the Space Oddity clip included, matches that trailer's 160×90 storyboard, so the maps overview (section 0, item 1) reads all of it as 2013 footage [Inference, strong]. No full-resolution match of the gameplay exists yet.
+- **Steam trailer and screenshots.** Are they entirely 2013-era footage? Most likely: the character cards match the 2013 trailer exactly, and the gameplay, the Space Oddity clip included, matches that trailer's 160×90 storyboard, so the maps overview (section 0, item 1) reads all of it as 2013 footage [Inference, strong]. The cards are matched at full size, the gameplay at storyboard size [Observed].
 - **The music.** Who composed the "Gold Digger" track (0:38)?
 - **Battle Bears Heroes.** Does Gold Digger or a variant appear there? SkyVu says BBH has "all the famous … maps", but no source names this one.

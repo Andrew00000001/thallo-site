@@ -10,6 +10,8 @@ Start with `00_OVERVIEW.md`. It covers sources, the confirmed 2026 lineup and mo
 - `<key>.addendum.md`: gap passes run after the completeness critic.
 - `quickref_all.json`: one row per map or topic item. `corrections_all.json`: verified corrections to our notes.
 
+**File:line references** in these notes (for example "research_gold-digger.md:56") were correct when written and may have moved since; search for the quoted text.
+
 **How it was checked:**
 1. Draft.
 2. One combined source and image check per dossier: every quote re-fetched, every cited image re-opened.

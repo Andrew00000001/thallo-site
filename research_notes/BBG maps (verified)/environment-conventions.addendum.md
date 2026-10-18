@@ -343,7 +343,7 @@ Unless a full path is given, storyboard frames are named `f_<milliseconds>.jpg`.
 **Space Oddity**
 - **Before:** Steam screenshot `screen_01`, a frame of the Steam trailer's Space Oddity clip (about 30.0–32.8 s).
   - My local copy was saved Oct 15, 20:52 (container clock), before the 3 PM PDT (22:00 UTC) playtest. It is byte-identical to today's store file (md5 d36d6af6…) [Observed].
-  - So it predates the Oct 15 build [Inference]. It is not a 2026 "before" either: the same moment, bloom included, is in the storyboard of SkyVu's May 30, 2013 trailer (rfAyqVJrli4 35–36 s = Steam 30.85–31.95 s) [Observed: so_clip_2013_vs_steam.jpg; 00_OVERVIEW.md, section 0, item 1], so it is 2013 footage [Inference, strong]. space-oddity.md had left its date open and allowed a newer or relit capture [Inference].
+  - So it predates the Oct 15 build [Inference]. It is not a 2026 "before" either: the same moment, bloom included, is in the storyboard of SkyVu's May 30, 2013 trailer (rfAyqVJrli4 35–36 s = Steam 30.85–31.95 s) [Observed: so_clip_2013_vs_steam.jpg; 00_OVERVIEW.md, section 0, item 1], so it is 2013 footage [Inference, strong]. space-oddity.md had left its date open and allowed a newer or relit capture [Inference]; it now dates the clip to 2013 as well ("Age of the official footage"). Only why its pillar top blooms more than fan captures is [Unverified].
   - A real 2026 "before" is in space-oddity.addendum.md: InstableGR's Aug 21 capture (build 3.0.2, aujTcdFuxdE) and Sep 20–21 fan captures (build 3.0.5) show cooler grey-teal metal (#3D4E44) with orange angular panels [Observed there; I re-opened its era_compare.jpg].
 - **After:** HK 17:50–21:30 (Oct 15).
 - **Warm surfaces** (windows and floor):
