@@ -11,8 +11,8 @@ Each class (`b-1000`, `oliver`, `riggs`, `huggable`, `tillman`, `astoria`, `wil`
 - `<key>.addendum.md` and `<key>.addendum.meta.json`: the gap passes run after the completeness critic, same format.
 
 Indexes:
-- `quickref_all.json`: all 443 quick-reference rows.
-- `corrections_all.json`: all 262 verified character-file corrections.
+- `quickref_all.json`: all 453 quick-reference rows (rebuilt from the per-file metas on 2026-10-18).
+- `corrections_all.json`: all 267 verified character-file corrections (rebuilt from the per-file metas on 2026-10-18).
 
 **How it was checked:**
 1. Draft.
