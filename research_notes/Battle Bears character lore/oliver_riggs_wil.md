@@ -206,7 +206,7 @@ Many specific quotes, the voice actors and the relationship beats (Oliver's crus
 - [WIKI] ABBi (Artificial Battle Bears Intelligence):
   - She is the Ursa Major's AI and "initially appears a sadistic, menacing, 'crazy' antagonist in BB-1, tormenting Wil." She "seemingly redeems itself prior to and during Battle Bears Zero." The wiki also notes that ABBi "technically has no gender" but "has a robotic, female voice."
   - She attaches to Wil as a backpack.
-  - Her lenses read "Property of the Battle Bears" and "Exposure to fat may evoke sarcasm."
+  - The wiki says her lenses read "Property of the Battle Bears" (upper side) and "Exposure to fat may evoke sarcasm" (lower side). In the wiki's close-up art (File:ABBi.png) the lower lens rim actually reads "Warning: Exposure to fat evokes sarcasm." [INFERENCE: my reading of the image] "Property of the Battle Bears" is not visible in that frame, so it stays a wiki-only claim. [WIKI; UNVERIFIED] — [File:ABBi.png](https://battlebears.fandom.com/wiki/File:ABBi.png)
   - When Wil asks what "ABBi" stands for, she replies "It stands for 'Move your fat legs, we've been compromised'!"
   - She "appears on the Chub Scout's default skin… as the backpack in Battle Bears Gold."
 
@@ -222,6 +222,7 @@ Many specific quotes, the voice actors and the relationship beats (Oliver's crus
 
 #### Cancelled media (wiki-only)
 - [WIKI] Battle Bears TV: a cartoon planned with WildBrain Entertainment for 2014, featuring Astoria, Oliver, Riggs, Graham, Wil and Tillman, set after BB Zero. It was "presumably cancelled." It "replaced the Battle Bears Movie." — [Wiki: Battle Bears TV](https://battlebears.fandom.com/wiki/Battle_Bears_TV)
+  - The series left a trace in BBG. A mural on the Skate or Die map is a spray-paint copy of the TV key art File:Battle-bears-tv-series-main-six.jpg: the same distressed "BATTLE BEARS" lettering on a teal glow, magenta spray standing in for the Huggable horde, Wil with bubbles, Tillman with a green bazooka, and Oliver in front with a cyan beam. [INFERENCE: my side-by-side reading of the two images] The wiki captions its screenshot of the mural "Battle Bears TV show in the map." [WIKI] — [Wiki: Skate or Die](https://battlebears.fandom.com/wiki/Skate_or_Die); [File:BB TV show graffiti on Skate Or Die.jpg](https://battlebears.fandom.com/wiki/File:BB_TV_show_graffiti_on_Skate_Or_Die.jpg); [File:Battle-bears-tv-series-main-six.jpg](https://battlebears.fandom.com/wiki/File:Battle-bears-tv-series-main-six.jpg)
 
 ### Inferences
 - [INFERENCE] Of the wiki's relationship claims, the Oliver→Wil "best friends" and "Oliver drags Wil into danger" dynamic is the best supported. It matches the official Wil card ("usually from Oliver") and the official site's "Oliver and Wil's childish antics." "Lives with Oliver" and "lowest ranked" are plausible but uncorroborated.
@@ -249,7 +250,7 @@ For 2026, official sources confirm only:
 - the same 11 classes with Oliver, Riggs and Wil in their original roles
 - PC, iOS and Android release on Nov 4, 2026
 - the content counts on the Steam page
-- a new map: the third Steam playtest note lists "New Map: Sky World," and a 2026-08-31 YouTube upload is titled "Sky Pirates Map Reveal." Whether these are the same map is my [INFERENCE]; no source says so.
+- a map new to BBG: the third Steam playtest note lists "New Map: Sky World," and a 2026-08-31 YouTube upload is titled "Sky Pirates Map Reveal." SkyVu's own short "Sky Pirates in BBG!" (2026-09-07) is described "Enjoy the highlights from our Sky World playtest!" [OFFICIAL], which pairs the two names. So Sky World and Sky Pirates are one map (a strong [INFERENCE]). The fan wiki lists Sky Pirates as one of the six launch maps of Battle Bears Overclock, and BBO 3.0's 2020 notes, as the wiki quotes them, say "check out how Skyworld has benefitted!" [WIKI]. So it is a returning BBO map, new only to BBG [INFERENCE]. It is not the 2013 BBG rooftop map Sky View.
 - legacy-account and sign-up skin rewards
 - an all-human-made-assets pledge
 
@@ -318,13 +319,15 @@ Sources for the table:
 - From YouTube descriptions:
   - "BBG LAUNCHES NOV 4 on Steam & Mobile with new stuff! SIGN UP & WISHLIST for a Limited Zombie Skin Reward… Old accounts are good! Sign up to get your Legacy Skin Reward" (teaser, 2026-10-02)
   - "Battle Bears Gold 2026 - Sky Pirates Map Reveal" (2026-08-31; description: "Gameplay highlights from the new Sky Pirates map!")
+  - "Sky Pirates in BBG!  #battlebears #wishlist #steam" (a Short, 2026-09-07; description: "Enjoy the highlights from our Sky World playtest!")
 
-  — [YouTube channel RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCwPClz0LJVpdkRjoidDZjEg); re-confirmed through YouTube page data: [YouTube d2ByJWrsoec](https://www.youtube.com/watch?v=d2ByJWrsoec), [YouTube r91WkR10W2A](https://www.youtube.com/watch?v=r91WkR10W2A)
+  — [YouTube channel RSS](https://www.youtube.com/feeds/videos.xml?channel_id=UCwPClz0LJVpdkRjoidDZjEg); re-confirmed through YouTube page data: [YouTube d2ByJWrsoec](https://www.youtube.com/watch?v=d2ByJWrsoec), [YouTube r91WkR10W2A](https://www.youtube.com/watch?v=r91WkR10W2A), [YouTube CwxpBZg6Fi4](https://www.youtube.com/shorts/CwxpBZg6Fi4)
 - The Steam BBG Soundtrack page (release Nov 4, 2026) credits "Original Score: Rob Ruiz, AnDrue Humphreys, and Benjamin Vavak; Bonus Vocal Tracks: Vivyd, Brian Bell & Leck One." A BBG Demo is listed for "October 2026." — [Steam: BBG Soundtrack](https://store.steampowered.com/app/5321720/); [Steam: BBG Demo](https://store.steampowered.com/app/5225670/)
 - Weapon names used in BBH ('Acreambo Pistols', 'Beebee gun', 'Boomstick') match BBG weapons on the wiki. Acreambo Pistols was added to the Soldier in BBG v2.18. — [Wiki: Soldier (BBG)](https://battlebears.fandom.com/wiki/Soldier_(BBG)); [Wiki: Heavy (BBG)](https://battlebears.fandom.com/wiki/Heavy_(BBG)); [Wiki: Chub Scout (BBG)](https://battlebears.fandom.com/wiki/Chub_Scout_(BBG))
 
 ### Inferences
 - [INFERENCE] The 2026 Steam roster and its class labels are identical to the original BBG classes on the wiki: Soldier/Oliver, Heavy/Riggs, Chub Scout/Wil, introduced in BBR 1.0 and 1.3. This suggests the trio's BBG identities, voice barks and weapon themes carry over unchanged. Not confirmed by gameplay.
+- [INFERENCE, strong] "Sky World" and "Sky Pirates" are one map, new to BBG but returning from Battle Bears Overclock (BBO). SkyVu's own Short pairs the two names (above). The wiki says "Sky Pirates is one of the six launch maps in Battle Bears Overclock," and its BBO map list has Sky Pirates but no "Skyworld"; its Updates page quotes the BBO 3.0 notes (July 3, 2020): "Upgraded Map Lighting, check out how Skyworld has benefitted!" [WIKI]. Fan uploader JustNubz's chapter lists for two "Battle Bears Gold Playtest #3" videos, dated Aug 21, 2026, include "8:05 Sky Pirates KC" and "2:44 Sky Pirates KC" (fan text; videos not watched). It is not the 2013 BBG rooftop map Sky View. — [Wiki: Sky Pirates](https://battlebears.fandom.com/wiki/Sky_Pirates); [Wiki: Battle Bears Overclock](https://battlebears.fandom.com/wiki/Battle_Bears_Overclock); [Wiki: Updates](https://battlebears.fandom.com/wiki/Updates); [YouTube qt43iTdANbM](https://www.youtube.com/watch?v=qt43iTdANbM); [YouTube VHo1O41RNJE](https://www.youtube.com/watch?v=VHo1O41RNJE)
 - [INFERENCE] The "Limited Zombie Skin Reward" may be a Zombie-variant skin for one or more classes; the wiki lists a "Zombie" skin for the Soldier. Which class gets the 2026 reward is unconfirmed.
 
 ### Gaps
@@ -388,10 +391,10 @@ Keep Wil free of profanity. Let Oliver be the boastful improviser and Riggs the 
 #### BBG roles and loadouts (WIKI)
 - **Soldier:** balanced health and speed, "versatile class that is relatively easy to use."
   - Defaults: A Salt Rifle / Bearzooka / B.E.A.R. Club.
-  - It is the only class that can access the Tutorial, with Turkish SW Boots. Corroborated by the Steam copy naming the A Salt Rifle, Bearzooka and Turkish SW Boots.
+  - It is the only class that can access the Tutorial. The wiki's Tutorial page restricts the Tutorial kit to the Oliver skin, the A Salt Rifle (a Tutorial version with 70 rounds), the Bearzooka, the B.E.A.R. Club, the Turkish SW Boots and Pro-Mode Jump. Tutorial footage thumbnails show the Bearzooka with a single round (HUD "1 / 1") [INFERENCE: my reading of the images]. The 2026 Steam copy names the A Salt Rifle, Bearzooka and Turkish SW Boots but never mentions the Tutorial, so linking that line to the Tutorial kit is my [INFERENCE], not corroboration.
   - Other weapons include Heavy A Salt Rifle, Soaker, Urine Trouble, Sci-Fi ASR, O.C.O. Gauntlet, Minigun, Acreambo Pistols, Spreadshot, TNT Launcher, Rockette Launcher, Steamshot, Sake Bomb, Solar Wind Scar, Krikkit Bat, Queensbury Rules, Disciplinarian and Kumakiri.
 
-  — [Wiki: Soldier (BBG)](https://battlebears.fandom.com/wiki/Soldier_(BBG)); [Steam](https://store.steampowered.com/app/4408320/)
+  — [Wiki: Soldier (BBG)](https://battlebears.fandom.com/wiki/Soldier_(BBG)); [Wiki: Tutorial](https://battlebears.fandom.com/wiki/Tutorial); [Steam](https://store.steampowered.com/app/4408320/); Tutorial thumbnails [B_9buMqrVHY sd2](https://i.ytimg.com/vi/B_9buMqrVHY/sd2.jpg) and [-RSuAlfOUow sd3](https://i.ytimg.com/vi/-RSuAlfOUow/sd3.jpg)
 - **Heavy:** "high health… although most are only effective at close range… slow movement speed." It is tied with Assault for the slowest base speed.
   - Defaults: Beebeegun / Hivey League / Barbed Gloves.
   - Others include Provolowned, Field Medic, Big Iron, Electric Honey, Zombee Gun, Bounce Lazer, Flame Thrower, Plasma Orb, Mother of Nature, Freeze Blast, Buzz Kill, Sucker Punch, Catastophe, Blood Spurt, Sword and Stone, Huggable Gloves and Zombee Gloves.
@@ -551,7 +554,7 @@ Most claims checked out verbatim. That includes every official quote, every wiki
 - "This officially pairs Oliver and Wil": now [INFERENCE].
 - The section 1 takeaway called Wil "food-obsessed" as official canon. That trait is wiki-sourced, with only an inferred official hint.
 - The "corroborated by official text" list included the 2009 press, which is not SkyVu text. Official and press sources are now separated.
-- "Sky World / Sky Pirates" as one new map: whether they are the same map is now [INFERENCE].
+- "Sky World / Sky Pirates" as one new map: whether they are the same map is now [INFERENCE]. (Update, 2026-10-18, from the maps research: SkyVu's own short "Sky Pirates in BBG!" describes "highlights from our Sky World playtest" [OFFICIAL], so the identity is now a strong [INFERENCE]. The map is new to BBG, but per the fan wiki it is a Battle Bears Overclock map [WIKI].)
 - The voice-line lists were described as "corroborated only by fan uploads." They are not corroborated at all; the fan upload was never viewed.
 - The bee and honey theme in the Heavy's weapons is now [INFERENCE].
 - "Riggs the Battle Bear" = "Talking Riggs" is now [INFERENCE], because the names differ.
@@ -574,3 +577,11 @@ Most claims checked out verbatim. That includes every official quote, every wiki
 - the comic's "maintenance bear" line
 - the H.I.P. "most dangerous" file
 - all voice-actor credits
+- ABBi's "Property of the Battle Bears" lens text (not visible in File:ABBi.png)
+
+**Corrections from the verified maps research (2026-10-18)**
+Each was re-checked against its source before editing: the wiki API, the Steam appdetails and News APIs, YouTube oEmbed and page data, and the images themselves.
+1. Battle Bears TV: added the Skate or Die mural, a spray-paint copy of the TV key art (my image comparison), and the wiki's caption "Battle Bears TV show in the map."
+2. ABBi's lenses: File:ABBi.png shows the lower rim reading "Warning: Exposure to fat evokes sarcasm," not the wiki's "may evoke." "Property of the Battle Bears" is not visible and stays wiki-only.
+3. Sky World / Sky Pirates: SkyVu's Short "Sky Pirates in BBG!" (CwxpBZg6Fi4, Sep 7, 2026) pairs the two names, so "no source says so" was wrong. The identity is now a strong [INFERENCE], and the map's Overclock origin is [WIKI].
+4. Tutorial: the full wiki kit is now listed. The Steam copy never mentions the Tutorial (no "tutorial" anywhere in the appdetails, re-fetched 2026-10-18), so "Corroborated by the Steam copy" was withdrawn and the link is now my [INFERENCE].

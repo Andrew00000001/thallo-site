@@ -357,7 +357,7 @@ The 2D art differs. It shows a white body, black eye patches, a teal pack, a tea
   - The official overhaul thumbnail hq3 shows a yellow-black bomb-like HUD icon at 0/1 with a lock bracket [Observed: VF/yt/q1Y8Siqfvn4_hq3.jpg; reading it as Phat Man is Inference].
 - **Impact / end result:**
   - A larger white-grey faceted mushroom cloud [Observed: VF/img/png_Duo.png].
-  - Official trailer at 24–28 s: the camera rides the olive bomb with its yellow band down onto a space station [Observed: V/trailer t_0049–t_0052]. Then a giant translucent **yellow** faceted blast fills a red room and flings pieces [Observed: t_0054–t_0056].
+  - Official trailer at 24–28 s: the camera rides the olive bomb with its yellow band down onto the Shortest Parsec station [Observed: V/trailer t_0049–t_0052]. Then a giant translucent **yellow** faceted blast fills a red room and flings pieces [Observed: t_0054–t_0056].
   - Steam screen_04: the bomb dives **nose-first** under a white-yellow light column while red armour chunks fly. The masked red-and-black Tillman stands in the background [Observed: VF/crops/s04_bomb2.png].
   - The Tillman/DEMO card (t_0057–t_0060) shows an olive nose cone with a yellow band over the masked Tillman's shoulder, plus a yellow bomb icon [Observed]. That cone is the Phat Man [Inference, strong].
   - File:Nuclear explosion.jpeg shows a translucent yellow faceted blast in the Marecraft. It is unused and uncaptioned, from the same uploader and day as the Up/Down/Duo shots [Observed; attribution Inference].

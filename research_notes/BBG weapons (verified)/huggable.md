@@ -191,7 +191,9 @@ So no SkyVu patch note was read. Every per-version number below is the wiki's tr
 
 **Firing:**
 - One tap, after which the Huggable "will fly forward a short distance in a stream of rainbows". It "can be used in any direction", and steering has worked since v2.0 [Fan-wiki].
-- It is "the only class that can reach" the Shortest Parsec Easter egg [Fan-wiki].
+- It is "the only class that can reach" the Shortest Parsec Easter egg [Fan-wiki: Huggable (BBG) trivia]. This is contested:
+  - It echoes a line the map page carried from April 2013 to May 2014, "There is an Easter Egg on this map that can only be reach by Huggables" [Fan-wiki: Shortest Parsec rev 32589, 2013-04-21; spelt "reached" from later that day].
+  - An edit on 2014-05-27 replaced that line (rev 64712, "Fixed Trivia feature: Easter Egg"). The current map page says the red-base meteorite "can be reached only by using So Fly[Huggable] and Metal Crush[B-1000]" [Fan-wiki: Shortest Parsec, re-fetched 2026-10-18; the same text is in rev 66693, 2014-08-06].
 
 **Projectile:** the Huggable itself, "in a stream of rainbows" [Fan-wiki].
 

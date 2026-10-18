@@ -45,8 +45,10 @@ This is the edited version of the draft. I applied the source check and the imag
 - `C` = `W/dl/combat-vfx` (draft downloads)
 - `C2` = `W/dl/combat-vfx-check` (check downloads)
 - `E` = `W/dl/combat-vfx-edit` (this edit; holds today's re-fetch of the shirt JSON)
+- `M` = `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl` (maps-research downloads)
+- `MC` = `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps_corr/cvfx_chk` (contact sheets and wiki copies made while applying the maps-research corrections)
 - **Trailer frames:** `t_N` frames sit at (N−1)×0.5 s. The draft's and the image check's own extractions differ by about 0.2 s, so treat every trailer time as ±0.2 s.
-- **"Images viewed" lists** have three groups: "draft" (opened by the drafter), "check" (opened by the image checker) and "edit" (re-opened by me during this edit).
+- **"Images viewed" lists** have three groups: "draft" (opened by the drafter), "check" (opened by the image checker) and "edit" (re-opened by me during this edit). Sections changed by the maps-research corrections add a fourth group, "maps check" (opened for those corrections).
 
 **Colour samples:** hex values are approximate median samples from the named image, not official codes [Inference]. Where two samplers disagree, I give the range.
 
@@ -110,10 +112,10 @@ This is the edited version of the draft. I applied the source check and the imag
   - **Status indicators:** flat 2D sprites above heads [Observed: trailer 8.2–8.8 s; Images_(3).png; 0GuhKiAnNyc hq1/hq2].
   - **Hearts:** a stream of pink cartoon hearts trails a Huggable at 26.0 s [Observed: C2/crops2/hearts.png]. The wiki says Tough Love leaves the Huggable "trailed by a stream of hearts" [Fan-wiki], so it is probably Tough Love [Inference].
 - **Ink outline:**
-  - **The Steam media are 2013 footage:** the Steam trailer's class cards are pixel-identical to SkyVu's May 30, 2013 "BATTLE BEARS GOLD Trailer" (rfAyqVJrli4, channel BATTLE BEARS) [Observed: greyscale MSE about 1–6 against medians of about 5,700–7,500]. The Steam screenshots are frames of the trailer [Observed: screen_02 matches trailer ≈50.6 s]. So the trailer gameplay and the screenshots are May 2013 footage [Inference, strong].
+  - **The Steam media are 2013 footage:** the Steam trailer's class cards are pixel-identical to SkyVu's May 30, 2013 "BATTLE BEARS GOLD Trailer: Award-Winning Multiplayer Shooter Game" (rfAyqVJrli4, channel BATTLE BEARS) [Observed: greyscale MSE about 1–6 against medians of about 5,700–7,500]. The Steam screenshots are frames of the trailer [Observed: screen_02 matches trailer ≈50.6 s]. So the trailer gameplay and the screenshots are May 2013 footage [Inference, strong].
   - In the Steam screenshots, the trailer gameplay and the Steam loop video, characters have a thick black ink outline [Observed: C/sheets/outline_compare.jpg; C/sheets/steam_extra.jpg]. The 2013 trailer's own class cards show it too [Observed: rfAyqVJrli4 maxres1–3]. So the outline was already in SkyVu's 2013 footage, not added in 2026.
   - It also appears in 2026 in-game captures with HUD [Observed: C7uFxvSZ10c maxresdefault, SkyVu's "Official Playtest Highlights", build "3.0.0"; HKbwq7PolNc maxres1, InstableGR's "Final PC Playtest (10/15/26)", build "3.0.7_2026.11.19_b7"]. So it is rendered in-game in 2026 [Observed].
-  - 2012–14 player captures on the wiki have none (A_life_upside_down.png, uploaded 2013-04-27; Photo_19-04-13_12_02_26_PM.png, uploaded 2013-04-19; Screenshot_(509).png, uploaded 2014-03-16; Imawe.jpg, uploaded 2014-05-05) [Observed].
+  - 2012–14 player captures on the wiki have none (Oliver-battlefield-airpad-red-base-front.png, uploaded 2012-11-22; A_life_upside_down.png, uploaded 2013-04-27; Photo_19-04-13_12_02_26_PM.png, uploaded 2013-04-19; Screenshot_(509).png, uploaded 2014-03-16; Imawe.jpg, uploaded 2014-05-05) [Observed].
   - The JustNubz "Closed Playtest #4" thumbnail shows the Gear Up menu (build text "3.0.5_2026.11.19_B1") with no thick outline on the menu model [Observed: C2/yt/lAtv_maxresdefault.jpg, C2/crops/lAtv_build.png].
   - The 2013 trailer description advertises "HD Graphics (Only available on higher end devices. App automatically detects what graphic mode to show)" [Canon: YouTube description of rfAyqVJrli4, May 30, 2013]. Tying the outline to that mode is [Inference]. Whether 2026 always shows it or makes it a setting is [Unverified].
 - **HUD palette (BBR v1.4.x capture, April 2013):** health bar green ~#178602–#178702, red team ~#FC0101–#FD0101, blue team ~#003CFC–#023DF6 [Observed: A_life_upside_down.png].
@@ -123,6 +125,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - draft: `W/visuals/steam_screens/screen_00.jpg`–`screen_04.jpg`; `C/sheets/trailer_sheet_0.jpg`–`trailer_sheet_8.jpg` (from `W/visuals/trailer/t_0001.jpg`–`t_0108.jpg`); `C/sheets/outline_compare.jpg`; `C/png/A_life_upside_down.png`; `C/sheets/steam_extra.jpg` (frames of https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4408320/extras/f7ecb9b2e78f0fd754cc7cf8220ad9b0.mp4); `C/png/Duo.png`
   - check: `C2/sheets2/t67.jpg`, `wf.jpg`, `te1.jpg`, `ta6.jpg`, `ta7.jpg`, `th2.jpg`
   - edit: `C/sheets/outline_compare.jpg`; `C/sheets/tl_zoom.jpg`; `C2/sheets2/t67.jpg`, `wf.jpg`, `ro.jpg`, `ta6.jpg`, `ta7.jpg`, `th2.jpg`, `te1.jpg`, `tf3.jpg`, `tf4.jpg`; `C2/crops2/hearts.png`; `C2/yt/lAtv_maxresdefault.jpg`; `C2/crops/lAtv_build.png`; `C2/png/A_life_upside_down.png`
+  - maps check: `M/shortest_parsec_verify/frames/f_49.50.jpg`–`f_51.75.jpg` and `MC/sp_sheet.png` (Shortest Parsec); `MC/rf_sheet.png` (rfAyqVJrli4 maxres1–3 and maxresdefault); `M/shared_conventions/yt/th_C7uFxvSZ10c_maxresdefault.jpg`; `M/desert_airmine_verify/yt/th/HKbwq7PolNc_maxres1.jpg` and `MC/hk_crop.png`; `MC/wiki/s509.jpg` (File:Screenshot_(509).png); `MC/wiki/Imawe.jpg`; `M/shared_conventions/conv/Oliver-battlefield-airpad-red-base-front.png`
 - **Depiction for shorts:**
   - Use the effect type that matches the source:
     - soft billowing fire with dark smoke for flames and fireballs
@@ -770,6 +773,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - draft: `C/sheets/icons.jpg`; `C/crops/shield_crop.png`; `C/crops/shield_crop2.png`; `C/png/Maxresdefault(100).png`
   - check: `C2/yt2/0GuhKiAnNyc_maxresdefault.jpg`; `C2/crops2/joule2.png`
   - edit: `C2/sheets/icons_check.jpg` (HealthPack, Imperial-basket-grande, Bearscream_Sandwich, Joule, Gas); `C2/sheets2/yt_gr.jpg`, `misc_z.jpg` (shield2 crop); `C2/png/Joule.png` (sampled)
+  - maps check: `M/shared_conventions_verify/crops/c7hq2.png` (C7uFxvSZ10c hq2); `M/shared_conventions/news/b7c8f8f133ad960899cce9f3d232b42847891d08.png` (the banner); `M/shared_conventions_verify/crops/pt5_center.png`, `pt5_keep.png`
 - **Depiction for shorts:** four green crest-shields orbiting a bear, and a sneering ice-cream sandwich that turns its eater pink-electric [Observed/Fan-wiki]. Exact pickup idle spin and bob is [BBG News invention].
 - **Confidence:** partial
 
@@ -788,6 +792,7 @@ This is the edited version of the draft. I applied the source check and the imag
 - **Images viewed:**
   - draft: `C/sheets/yt_0GuhKiAnNyc.jpg`; `C/sheets/trailer_sheet_7.jpg`; `C/png/Plant_the_bombbbbbb_b.png`
   - edit: `C2/sheets2/yt_gr.jpg`
+  - maps check: `MC/aztec_sheet.png` (trailer 43.05–46.7 s); `M/aztec_attack_verify/img/Maxres100.jpg` (File:Maxresdefault(100).jpg)
 - **Depiction for shorts:** the bear pops in under orbiting green shields [Fan-wiki]. Any teleport sparkle is [BBG News invention].
 - **Confidence:** partial
 

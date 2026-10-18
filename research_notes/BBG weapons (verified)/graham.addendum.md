@@ -288,12 +288,17 @@ Graham is BBG's Engineer, added in BBR v1.4 (Nov 28, 2012) and carried into BBG 
    - "2.53.6 / 12110032" appears in an April 2023 upload (5SwnBsYrETY), while the wiki's last 2.x entry is 2.53.3 (Aug 31, 2018) [Observed vs Fan-wiki].
    - "3.0.5_2026.11.19_B1 / 12195224" appears in a Sep 20, 2026 upload (JVEQQqyafzE; crop jveq_build.jpg) [Observed]. The date-like part is later than the upload date, so it is not a past build date; its meaning is [Unverified].
 3. **2018 branding.**
-   - The 2.50 splash art reads "BATTLE BEARS ROYALE" over a panda bear with a green-lit cannon [Observed: File:Battle_Bears_Royale_Battle_Royale_Update.png; the wiki captions it "The splash screen for the Battle Royale update in 2.50", Fan-wiki].
+   - The 2.50 splash art reads "BATTLE BEARS ROYALE" over a robot panda with a green-lit cannon [Observed: File:Battle_Bears_Royale_Battle_Royale_Update.png; the wiki captions it "The splash screen for the Battle Royale update in 2.50", Fan-wiki]. The panda is Tillman, the robot-panda Demo [Inference].
    - The wiki also calls it "BBG 2.50 or AKA Battle Bears Royale", with a new grey robo-panda icon holding grenades [Fan-wiki; Observed: File:Screenshot_20180407-085431~2.jpg].
    - SkyVu's own pre-launch materials still said Battle Bears Gold:
      - The video is titled "Battle Bears Gold Battle Royale Map!" (bOEK6skhDKU, Mar 28, 2018), described "New Battle Royale Mode and Map coming in update v2.32! See you on the battlefield." [Canon].
      - The Facebook teaser says "Battle Bears Gold Players" [Canon].
-   - So the gap note's "Battle Bears Royale 2.51" matches the in-app splash from 2.50 [Observed; Inference]. SkyVu's "v2.32" against the wiki's 2.50 is an open conflict [Unverified].
+   - So the gap note's "Battle Bears Royale 2.51" matches the in-app splash from 2.50 [Observed; Inference].
+   - **"v2.32" vs 2.50, resolved:** the Battle Royale mode shipped as 2.50 on Apr 5, 2018. "v2.32" was SkyVu's pre-release number, dropped when the version jumped to 2.50 with the rebrand [Inference].
+     - The wiki's iOS table goes straight from 2.31 (Mar 8, 2018) to 2.50 (Apr 5, 2018), "New Battle Royale mode implented.Winners in gas". Thecheeselover first wrote the 2.50 row on Apr 22, 2018 (revisions 75753 and 75754) with its date cell blank; "April 5, 2018" was added later (the cell is still blank in revision 75759, May 27, 2018) [Fan-wiki: Updates].
+     - Three release-week fan uploads title the build 2.50: aeEtor1v-0E ("battle bears royale 2.50 battle royale", Apr 5, 2018), oHIZFR1tHxI ("NEW UPDATE - NEW MODE BATTLE ROYALE | BATTLE BEARS ROYALE 2.50", Apr 5, 2018) and f73cfKOIetg ("BattleBearsRoyale 2.50 (Battle Royale with Cheese)…", Apr 11, 2018) [Observed: metadata; fan titles, Unverified].
+     - A build stamp in aeEtor1v-0E appears to read "2.50" [Observed, low-res: crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/new_maps/yt/ae_stamp.png].
+     - Whether any Android or PC build ever carried 2.32 is [Unverified]; the wiki table is iOS-only. Source: the maps dossier, /home/user/thallo-site/research_notes/BBG maps (verified)/new.addendum.md (Castle Royale, Era and status).
 
 ## Corrections to the gap notes and to the verified dossier
 1. **Buzzsaw (-TA9nsCnBbE):** the "pink-white line" is a rainbow-banded beam, not a saw path. The yellow-orange glow is on a console away from that beam and is unattributed [Observed].
@@ -340,7 +345,7 @@ File: /home/user/thallo-site/bbg-news-repo/characters/graham.md. The corrections
   - Bind Field: 2 vs 1.
 - Which Engineer weapons besides the Gamma Ray and the Turret are in the 2026 build? The JustNubz Engineer chapter (34:42–39:57) is still unviewable.
 - What does the 2026 build string "3.0.5_2026.11.19_B1" mean?
-- Is SkyVu's "v2.32" the same update as the wiki's 2.50? Was "Battle Bears Royale" the store name in 2018?
+- Was "Battle Bears Royale" the store name in 2018? (SkyVu's "v2.32" is resolved as the pre-release number for 2.50; see Incidental findings 3.)
 
 
 ---

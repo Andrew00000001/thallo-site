@@ -164,11 +164,12 @@ The wiki gives full BBG kits, voice-line transcriptions, stats, skins and releas
 - [FAN-WIKI] Trivia:
   - "The Huggable has improved its vocabulary in Battle Bears Gold, possibly due to the radio attached to its head."
   - It has no backpack and instead carries "a flag respective to the team color that only shows up in a match".
-  - Only the Huggable can reach the Shortest Parsec Easter egg.
+  - On Shortest Parsec, "the Huggable is the only class that can reach the map's Easter Egg". *Contested and outdated; see the note below.*
   - The "Kangabble" pouch glitch (Halloween 2012).
   - The price dropped from 45,000 to 1,000 Joules in v1.4.
 
   — [Fandom: Huggable (BBG)](https://battlebears.fandom.com/wiki/Huggable_%28BBG%29)
+  - *Shortest Parsec Easter egg, contested:* a wiki full-text search finds the "only class that can reach" claim on the Huggable (BBG) page alone. It echoes the map page's own early wording, "There is an Easter Egg on this map that can only be reached by Huggables". That line stood from 20 Apr 2013 to 18 May 2014 (revs 32031–64622; the first revisions read "reach") and was replaced on 2014-05-27 (rev 64712). [FAN-WIKI] The current Shortest Parsec page says the red-base meteorite "can be reached only by using So Fly[Huggable] and Metal Crush[B-1000]", adding that "Some players claim to reach the asteroid with Double Jump[Jump Pro Mode feature + Turkish Jump Boots]". It lists further Easter eggs reached with So Fly and/or the Turkish Jump Boots. The Metal Crush page says an Assault with Turkish SW Boots and Jump can "jump from the tower on Shortest Parsec to either team's spawn points". — [Fandom: Shortest Parsec](https://battlebears.fandom.com/wiki/Shortest_Parsec), [revision history](https://battlebears.fandom.com/wiki/Shortest_Parsec?action=history), [Fandom: Metal Crush](https://battlebears.fandom.com/wiki/Metal_Crush)
 - [FAN-WIKI] Default skin appearance: "covered in tears, scars, bandages and implants… one small black, beady eye, while the other appears to be a button… stuffing bulging out… One side of its head is heavily bandaged." It carries "a team-coloured banner with three white symbols". *Corroborated by my observation of the BBG image (above).* — [Fandom: Pink Huggable](https://battlebears.fandom.com/wiki/Pink_Huggable)
 - [FAN-WIKI] BB Heroes Huggy:
   - Infobox caption "Hug me!", voice actor "Benjamin Vu".
@@ -276,6 +277,9 @@ The wiki gives full BBG kits, voice-line transcriptions, stats, skins and releas
 - [FAN-WIKI] Teasers and origin hints:
   - Marecraft map (BBR 1.4.3, Apr 2013) Easter egg: "two mysterious outlines of the same bear with a chewed-off ear, probably of the Assassin class… pink fur and yellow skin". The class page calls it "the first known instance of a class being intentionally leaked in an Easter Egg".
   - Toxic Terror map (BBG 2.3): "Because the map is filled with radioactive waste, it might be a hint to Botch's origins. There are also Tally marks on the walls and a drawing of Botch."
+    - The 2013 wording was "There are also scratch marks on the walls marking 22 days and a drawing of Botch" (revisions 54885–56594, 30 Sep to 30 Oct 2013). It became "Tally marks" on 30 Oct 2013. A later trivia line puts "the weapons of the Teenage Mutant Ninja Turtles just beside the tally marks" on the Blue base's ground floor.
+    - [MY OBSERVATION, fan video] The tallies are real. A thumbnail from a 2013 fan tour video ("Battle Bears Toxic Terror Tour and Soundtrack") shows about five groups of chalk tally marks on a dark brick wall, beside a rack holding two blue-hilted swords and a purple-wrapped staff (Ninja-Turtle weapons).
+    - The "drawing of Botch" is unconfirmed. No image opened in the maps research shows an identifiable Botch drawing. [MY OBSERVATION] The wiki's Toxic Terror preview tile (2013) shows three chalk bears on a wall. [MY OBSERVATION, fan video] A thumbnail of a later fan video ("Battle bears gold 64-bit update- Toxic Terror", about 2022) shows only faint chalk outlines. None is identifiable as Botch. — [Fandom: Toxic Terror revision history](https://battlebears.fandom.com/wiki/Toxic_Terror?action=history), [Fandom: File:Toxic-Terror-Preview.png](https://battlebears.fandom.com/wiki/File:Toxic-Terror-Preview.png), [YouTube: WfTBPWZAQCs](https://www.youtube.com/watch?v=WfTBPWZAQCs), [YouTube: 8etwC5n2olg](https://www.youtube.com/watch?v=8etwC5n2olg)
 
   These are wiki observations and speculation, not confirmed lore. — [Fandom: Marecraft (Map)](https://battlebears.fandom.com/wiki/Marecraft_%28Map%29), [Fandom: Assassin (BBG)](https://battlebears.fandom.com/wiki/Assassin_%28BBG%29), [Fandom: Toxic Terror](https://battlebears.fandom.com/wiki/Toxic_Terror)
 - [FAN-WIKI] The class page says "one of three classes that are not based on current characters from the Battle Bears series (the others being the Assault and Combat Tech) and hence is of completely unknown origin." — [Fandom: Assassin (BBG)](https://battlebears.fandom.com/wiki/Assassin_%28BBG%29)
@@ -492,3 +496,7 @@ Independent re-check on 2026-10-14. The following were re-fetched:
 - The Wayback Machine holds only a 2020 HTML capture for the 2011 ortho image URL.
 
 Scratch files for this check are in /tmp/claude-0/lore-verify-huggable_botch_b1000/.
+
+**Maps-research corrections (2026-10-18).** These come from the verified maps notes in /home/user/thallo-site/research_notes/BBG maps (verified)/ (shortest-parsec.md, toxic-terror.md), re-checked against the wiki API, the page histories and the cited image crops:
+1. KQ2 Huggable trivia. "Only the Huggable can reach the Shortest Parsec Easter egg" is now marked as a contested, outdated claim. The map page replaced its own "only… by Huggables" wording on 2014-05-27 (rev 64712) and now credits So Fly and Metal Crush, plus the Turkish Jump Boots for other Easter eggs.
+2. KQ2 Toxic Terror hint. Added the 2013 "scratch marks… marking 22 days" wording (revs 54885–56594), my observation of the tallies beside a Ninja-Turtle weapon rack, and a note that the "drawing of Botch" is unconfirmed in every image opened.
