@@ -738,6 +738,8 @@ Eras used below:
 - **Other channel uploads (RSS, Aug 20–Oct 16, 2026):** the thumbnails I opened show no identifiable Sniper weapon [Observed].
 - **Not shown:** the other 15 Sniper weapons appear in no official 2026 material I could open, and the Dead Eye and Fairy's Dust appear only in the re-used 2013 footage. In official material, their 2026 presence, stats and prices are [Unverified]. Fan 2026 captures add a few: Fairy's Dust, the Crossbow and the Battering Ram in a Playtest #3 loadout (2026.md), and the Art of War and the Rake in the Aug 2026 beta (addendum).
 - **JustNubz showcase:** "BBG All Classes Showcase [Skins, Taunts, Weapons, and Melee] (from Closed Playtest #4)" [title via oEmbed]. Its auto-thumbnails show only Gear Up screens of other classes [Observed]. The Sniper chapter at 22:30 needs a human viewer.
+  - **A different JustNubz upload does show a Sniper loadout** (fan footage, not official). The hq3 auto-frame of "Battle Bears Gold Playtest #3 Part 1" (qt43iTdANbM, Aug 21, 2026; build stamp 3.0.2) is a Sniper Gear Up screen reading TAUNT NONE, PRIMARY CROSSBOW, SECONDARY FAIRY'S DUST and MELEE BATTERING RAM, and the menu model holds a white winged crossbow with lavender accents [Observed, low-res; title and date via oEmbed and YouTube metadata; see the Crossbow, Fairy's Dust and Battering Ram headings above and 2026.md]. So one full Sniper loadout, one weapon per slot, is confirmed in build 3.0.2.
+  - With Takishi's Aug 2 beta (build 3.0.0: the Art of War and the Rake, by HUD icon; addendum), fan 2026 captures now show 5 of the 18 wiki weapons. The other 13, their 2026 stats and prices, and the "two new weapons for Astoria" that one fan description reports for the Oct 15 playtest [fan claim; addendum] are still [Unverified].
 - **Images viewed:**
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/steam_sheet.jpg
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/astoria-verify/crops/qp_stack.png
@@ -843,7 +845,10 @@ Flagged only; nothing was edited.
 
 ## Open questions
 
-- Which of the 18 Sniper weapons are in the 2026 build, and with what stats and prices? The Viperifle, Dead Eye and Fairy's Dust appear in the Steam trailer and screenshots, but that is 2013 footage [Inference, strong]. Among real 2026 sources, SkyVu's teaser thumbnail probably shows a Viperifle shot [Inference], and fan captures show Fairy's Dust, the Crossbow and the Battering Ram (Playtest #3 loadout, 2026.md) and the Art of War and the Rake (Aug 2026 beta, addendum). The JustNubz Closed Playtest #4 showcase (Sniper chapter at 22:30) needs a human viewer.
+- Which of the other Sniper weapons are in the 2026 build, and with what stats and prices? Partly answered. Five of the 18 are in 2026 fan captures [Observed, low-res]:
+  - the Crossbow, Fairy's Dust and Battering Ram, as one full loadout (one per slot) on the Gear Up screen of JustNubz's Playtest #3 (qt43iTdANbM hq3, Aug 21, 2026, build 3.0.2), with the menu model holding the white winged crossbow (see those weapons' headings and 2026.md);
+  - the Art of War and the Rake, by HUD icon, in Takishi's Aug 2 beta (B-8uQcs1DFA, build 3.0.0; addendum).
+  - Still open: the other 13. The Viperifle, Dead Eye and Fairy's Dust appear in the Steam trailer and screenshots, but that is 2013 footage [Inference, strong]; SkyVu's teaser thumbnail probably shows a Viperifle shot [Inference]. Also open: all 2026 stats and prices, and what the "two new weapons for Astoria" in the Oct 15 final playtest are [fan claim; addendum]. The JustNubz Closed Playtest #4 showcase (Sniper chapter at 22:30) needs a human viewer.
 - What is the date of "BATTLE BEARS GOLD Developer Update - Astoria Overhaul" (wUWf9O-YX4A), and what did it change? Its thumbnail ammo counts (8/10, 4/4, 3/3, 0/2) only partly match wiki stats.
 - None of these has been observed:
   - the Mamba's Boy projectile (beyond one pale streak);

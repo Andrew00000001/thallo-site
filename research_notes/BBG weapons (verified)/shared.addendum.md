@@ -434,6 +434,14 @@ This addendum covers only two gaps for the "shared" topic:
 1. **The Bearzooka rocket and blast.** The four Bearzooka rows (shared, combat-vfx, oliver addendum, 2026 addendum) disagree. I re-traced the official trailer frame by frame so all four rows can use one attribution.
 2. **The uncited review videos.** These are the eight "Gun Craze w/ LXSXL" episodes and "Battle Bears Gold Weapon Review #2: Phat Man".
 
+**Status of this pass's corrections (edit, Oct 18 2026; details under each):**
+- 1, shared.md: applied earlier the same day.
+- 2, combat-vfx.md: applied, with the 2014–15 fan-footage blast added to the Explosion line.
+- 3, oliver.addendum.md: all four applied.
+- 4, 2026.addendum.md: applied, except "only the blast is an invention". That part is rejected because 2014–15 fan footage shows the blast (oliver.addendum.md, Bearzooka, Impact).
+- b-1000.md (Metal Crush section): both applied, with two labels adjusted.
+- This pass's own "the blast's colour and shape stay [Unverified]" is superseded by that fan footage for pre-2026 BBG; the blast is still unseen in official and 2026 media.
+
 **Sources I could reach (Oct 18, 2026)**
 - **Official Steam trailer** "Battle Bears Gold Premium - Trailer" (local trailer.mp4: 1920×1080, 30 fps, 54.02 s).
   - SkyVu put it on the 2026 Steam page, but it is 2013 footage [Inference, strong]: its class cards are pixel-identical to SkyVu's May 30 2013 trailer rfAyqVJrli4 at full size, and its gameplay matches that trailer's 160×90 storyboard at an offset of about 4 s [Observed, storyboard size] (/home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1). The 1.5–5 s shots used below are also in that storyboard, at t=6–9 s, framed a little tighter [Observed, storyboard size: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/b1000_shot.jpg; edit, Oct 18 2026]. So nothing below shows the 2026 build.
@@ -517,6 +525,7 @@ This addendum covers only two gaps for the "shared" topic:
   - **2015 fan footage:** "Battle Bears Gold | 2.21 | Bearzooka Gameplay" (0ZbJ0-Za5Ws, uploader's thumbnail text "YT SUPER-WARRIORBB PRESENTA"). Its maxres3 frame (HUD 2/4, just after a shot) shows grey smoke puffs at the pink-capped muzzle and drifting downrange. There is no visible fireball [Observed: [R]sheets/0ZbJ_sheet.jpg, re-opened from dl/oliver-gaps/thumbs].
   - **Wiki:** splash "Max Dmg: 125 units / Min Dmg: 250 units" and "The user is very prone to suicide while using the Bearzooka." [Fan-wiki].
   - The blast's colour and shape stay [Unverified].
+  - (Edit, Oct 18 2026: superseded in part. Storyboard frames of two Bearzooka fan videos show the blast: a faceted yellow polygon blast with a grey smoke puff (7WSXU2LaxYo, Mar 10 2014, t=56 s) and a faceted yellow blast beside a dark-grey smoke cloud (0ZbJ0-Za5Ws, Jul 25 2015, t=38 s) [Observed, per oliver.addendum.md, Bearzooka, Impact; crops /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/gaps_r2/z/bz7W_a.jpg and bz0Z_38.jpg opened]. The Bearzooka link is [Inference, high]. The maxres3 frame above is a different moment, just after a shot. The blast is still unseen in official and 2026 media. shared.md now records this.)
 
 - **Why the rocket is attributed to the Bearzooka** [Inference, high]:
   1. It is fired by a green-furred, blue-headband bear whose model carries the coral Bearzooka in the very next shot (3.89–4.59 s) [Observed].
@@ -545,7 +554,7 @@ This addendum covers only two gaps for the "shared" topic:
 
 - **Depiction for shorts**
   - **Observed:** Oliver shoulders the coral hex tube with glowing orange chevrons. A white smoke burst with an orange core marks the launch. The rocket has a grey stepped hex nose, glowing yellow-orange checker chevrons, grey collars and a maroon tail with pink-red lights, and it trails white puffs that become spiky orange flame shards up close.
-  - **The blast is undocumented:** draw a chunky yellow-orange cartoon burst with round grey smoke puffs [BBG News invention; the grey puffs follow the 2015 footage].
+  - **The blast is undocumented:** draw a chunky yellow-orange cartoon burst with round grey smoke puffs [BBG News invention; the grey puffs follow the 2015 footage]. (Edit, Oct 18 2026: superseded. Use the faceted yellow polygon blast with grey smoke seen in 2014–15 fan footage [Observed, low-res; Bearzooka link Inference, high]; see the note under Impact.)
   - **Kills** break into sparks or toy-like chunks, no gore [BBG News invention; the chunk style follows the B-1000 dossier's observed kills].
   - **Self-splash gags** use the wiki's "prone to suicide" line [Fan-wiki].
 
@@ -566,12 +575,17 @@ Use this text in each row:
   - Replace with the paragraph above.
 - **Impact.** Current: "The blast's colour and shape are [Unverified]."
   - Keep it, and add: "The Steam trailer rocket (2013 footage [Inference, strong]) leaves the frame at 3.05 s without detonating [Observed]."
+  - (A later Oct 18 2026 edit replaced the kept "[Unverified]" in shared.md with the 2014–15 fan-footage blast, and kept the trailer sentence; see the note under Impact above.)
 - **Timing.** Current: "**Steam trailer, 3.9–4.4 s** (frame t_0009 at 4.0 s; …)" (relabelled from "2026 trailer" in the Oct 18 edit).
   - Change to "3.89–4.59 s (t_0009 is really 4.22 s)".
 - **Open question.** Current: "What do its rocket and its explosion look like in BBG? No image found."
   - Change to: "Rocket: answered (official trailer 1.92–3.05 s). Explosion: still open."
 
 **2. combat-vfx.md, Bearzooka**
+- **Status (edit, Oct 18 2026): applied in combat-vfx.md**, with the matching combat-vfx.meta.json row and open question. Before applying I re-opened [R]sheets/green_launch.jpg, green45_71.jpg, rocket_track.jpg, s74_85.jpg and s86_97.jpg.
+  - Launch timing and Orange wash: applied as written. The wash's source (the jet) is labelled [Inference], as in this pass's Metal Crush section.
+  - Explosion: applied with an addition. Besides "the trailer does not show it", the row now records the faceted yellow blast with grey smoke in 2014–15 fan footage (oliver.addendum.md; crops bz7W_a.jpg and bz0Z_38.jpg opened), which this pass's "blast colour and shape stay [Unverified]" had missed.
+  - The rocket's Bearzooka link there was raised from [Inference] to [Inference, high], on this pass's trace.
 - **Launch timing.** Current: "At about 2.8–3.0 s a rocket launches with a small white puff from beside the distant green-furred Soldier and flies right, past the pink Huggable, while the camera follows it [Observed: C2/sheets2/ro.jpg, rk30.jpg]."
   - Correction: the launch is at 1.92 s, from the Soldier himself. The white puff at about 2.8 s is the trailing smoke. The camera is static and does not follow the rocket. The rocket passes under the airborne B-1000 at 2.82 s and in front of the distant pink bear at 2.89–2.95 s [Observed].
 - **Orange wash.** Current: "The frame then washes orange [Observed]; the cause is [Unverified]."
@@ -581,6 +595,9 @@ Use this text in each row:
 
 **3. oliver.addendum.md, Bearzooka**
 - (Re-quoted, edit Oct 18 2026: oliver.addendum.md has since relabelled and rewritten these lines, so the quotes of this pass no longer exist there. The "Current:" quotes below are its text as of today, each found with grep. The corrections are still unapplied there.)
+- **Status (later edit, Oct 18 2026): all four applied in oliver.addendum.md** (Impact, Projectile timing, Depiction, Open question). Also updated in oliver.addendum.meta.json: the two Bearzooka quickref rows, the comedy-beat soul correction ("soft yellow fireball" became the faceted fan-footage blast, since the fireball is the B-1000's jet) and two open questions.
+  - Re-opened first: [G]crops/tr_blast_strip.jpg, [R]sheets/s74_85.jpg, s86_97.jpg, rocket_track.jpg and green_launch.jpg, and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_r3_chk/bz_shot_sheet.jpg.
+  - Labels: the Metal Crush link stays [Inference, high] and "the yellow ball is his jet seen end-on" is [Inference] for the source, as in the Metal Crush section below. The Bearzooka link in oliver.addendum.md's Projectile bullet was raised from [Inference, medium-high] to [Inference, high] on this trace.
 - **Impact.** Current: "- **Steam trailer (2013 footage [Inference, strong]):** a white-edged orange-yellow blast, then a soft yellow fireball that flings the B-1000 upward [Observed, [G]crops/tr_blast_strip.jpg; cause Inference]." (This pass quoted the older "- **Impact / end result (2026 trailer, 2.67–2.87 s)** … That a Bearzooka rocket caused it is an [Inference].")
   - Correction: no rocket hits the B-1000 [Observed]:
     - At 2.69 s his back unit (the white plates over the orange perforated vents) fires a long orange-yellow flame and he lifts off. That is the Metal Crush jet leap.
@@ -595,6 +612,10 @@ Use this text in each row:
   - Answer: it is fired from the green Soldier's coral tube and flies straight. The TNT Launcher (lobbed red hex charges) is excluded. The Bearzooka link is [Inference, high]. The 2026 rocket is still unseen.
 
 **4. 2026.addendum.md, Bearzooka**
+- **Status (edit, Oct 18 2026):** checked against 2026.addendum.md's current text (all five "Current" quotes were still there) and the same sheets.
+  - Heading, Projectile (the paragraph above, used as written), Tillman's rocket and Firing: applied.
+  - Depiction: applied in part. The rocket model and trail are now marked observed in the 2013 footage. But the blast is not an invention either: 2014–15 fan footage shows a faceted yellow blast with grey smoke (oliver.addendum.md). So the line now marks the blast as observed in that footage, and only the chunks, the tumble and the soot stay [BBG News invention]. Rejected: "only the blast is an invention".
+  - The matching quickref row and open question in 2026.addendum.meta.json were updated too.
 - **Heading.** Current: "rocket still unseen".
   - Change to "rocket seen in the Steam trailer, 2013 footage [Inference, strong]; still unseen in 2026 frames".
 - **Projectile.** Current: "The model, trail and colour are still unseen in any build [Unverified]."
@@ -631,6 +652,9 @@ Use this text in each row:
   - A Bearzooka rocket whooshing under his boots is a good dodge gag [the observed trailer moment; the gag framing is BBG News invention].
 - **Confidence:** observed (jet); the Metal Crush link is an Inference.
 - **Correction to b-1000.md (the dossier):**
+  - **Status (edit, Oct 18 2026): both applied in b-1000.md**: the 3.0 s close pass (Metal Crush, Firing) and "a green Demo" (House look; Shock N Claw, where "The Demo comes apart" was fixed too). b-1000.meta.json's Shock N Claw row was updated as well.
+    - Re-opened first: [R]sheets/s74_85.jpg, s86_97.jpg and rocket_track.jpg; …/dl/b1000-edit/crops/leap_sheet.jpg; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_r3_chk/bz_shot_sheet.jpg.
+    - Two labels were adjusted. The glow at the top of the frame centres on his jet [Observed], but that the jet is its source is [Inference], as in this section's own wording. The green bear and its single coral Bearzooka are [Observed]; that it is a Soldier is [Inference] from the weapon, and the Green Oliver skin stays [Inference].
   - **The 3.0 s "close pass".** Current: "3.0 s: a close pass shows the glowing vents with spiky yellow jet flames, and a large yellow-orange flash fills the top of the frame."
     - Correction: the close pass (2.89–3.05 s) is the green Soldier's **Bearzooka rocket**, tracked continuously from 1.92 s. Only the yellow-orange glow at the top of the frame is the B-1000's jet [Observed].
   - **"A green Demo"** (as of Oct 18 2026 it is in two places: the "House look" bullet "Steam trailer 4.95–5.3 s: a green Demo comes apart …" and "Shock N Claw", "B-1000 sweeps the claws up into a green Demo at point-blank range."; this pass's line numbers 47, 196, 600 and 603 are stale).
@@ -717,8 +741,8 @@ All metadata below is [Observed: Invidious API, invidious.f5.si/api/v1/videos/<i
 - (Status, edit Oct 18 2026: none of the three "Current" lines below is still in /home/user/thallo-site/bbg-news-repo/characters/oliver.md [checked with grep]. Its rewritten Bearzooka bullets (*Look*, *Not green*, *Fires*, *Hits*), its Bearzooka reference snippet and its comedy beat 1 already carry the coral tube on the shoulder, the observed trailer rocket and the no-recoil self-splash gag, so these three read as applied. Line numbers are this pass's.)
 
 1. **oliver.md line 51.** Current: "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference]."
-   - Correction: "The Bearzooka is a coral-red hexagonal shoulder tube with glowing orange chevron panels, grey collars and a grey-checkered flared end [Observed]. Its rocket has a grey stepped hex nose, glowing yellow-orange checker panels, grey collars, a maroon tail with pink-red lights and a spiky orange flame tail, leaving white smoke puffs [Observed: the Steam trailer SkyVu put on the 2026 Steam page, 1.92–3.05 s, which is 2013 footage (Inference, strong); that it is the Bearzooka's is Inference, high]. Its blast is undocumented [Unverified]. The green hazard-striped tube is the BB Zombies design."
-   - Evidence: [R]tr/f_0086.png, f_0088.png; [R]crops/rocket_n88.png; [R]crops/bz_n132.png; [R]sheets/rocket_track.jpg.
+   - Correction: "The Bearzooka is a coral-red hexagonal shoulder tube with glowing orange chevron panels, grey collars and a grey-checkered flared end [Observed]. Its rocket has a grey stepped hex nose, glowing yellow-orange checker panels, grey collars, a maroon tail with pink-red lights and a spiky orange flame tail, leaving white smoke puffs [Observed: the Steam trailer SkyVu put on the 2026 Steam page, 1.92–3.05 s, which is 2013 footage (Inference, strong); that it is the Bearzooka's is Inference, high]. Its blast is seen only in low-res 2014–15 fan footage: a faceted yellow polygon blast with grey smoke [Observed; that it is the Bearzooka's is Inference, high]; no official or 2026 media show it. The green hazard-striped tube is the BB Zombies design." (Blast sentence changed in an Oct 18 2026 edit; this pass had "Its blast is undocumented [Unverified]".)
+   - Evidence: [R]tr/f_0086.png, f_0088.png; [R]crops/rocket_n88.png; [R]crops/bz_n132.png; [R]sheets/rocket_track.jpg. Blast: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/gaps_r2/z/bz7W_a.jpg and bz0Z_38.jpg (per oliver.addendum.md).
 2. **oliver.md line 75 (Character reference prompt).** Current: "He holds a chunky assault rifle and carries a green hazard-striped launcher tube on his back."
    - Correction: "He holds a chunky assault rifle and shoulders a coral-red hexagonal rocket-launcher tube with glowing orange panels, grey collars and a checkered flared end."
    - Evidence: the same frames.
@@ -726,7 +750,7 @@ All metadata below is [Observed: Invidious API, invidious.f5.si/api/v1/videos/<i
    - Correction: no knockback is shown. In the trailer the shooter stays planted while the tube end swings up [Observed, n57–n64]. Re-ground the beat in self-splash ("The user is very prone to suicide while using the Bearzooka." [Fan-wiki]): his own rocket goes off too close and he comes back sooty.
 
 ## Open questions
-- What does a Bearzooka rocket's detonation look like? No official image or frame shows one. The only in-game evidence is the 2015 grey smoke puffs (0ZbJ0-Za5Ws maxres3).
+- What does a Bearzooka rocket's detonation look like? No official image or frame shows one. The only in-game evidence is the 2015 grey smoke puffs (0ZbJ0-Za5Ws maxres3). (Edit, Oct 18 2026: partly answered. Storyboard frames of 7WSXU2LaxYo (2014, t=56 s) and 0ZbJ0-Za5Ws (2015, t=38 s) show a faceted yellow polygon blast with grey smoke [Observed, per oliver.addendum.md; Bearzooka link Inference, high]. Still open for official and 2026 media.)
 - Which end of the shooter's tube points at the camera at 1.69–1.92 s? It is only about 25 px tall.
 - What are the two blue orbs with cyan lightning in the 1.5–3.8 s trailer shot? They could be a weapon, a Satellite or a map effect.
 - Is the trailer gameplay from a 2026 build or older footage? Answered (edit, Oct 18 2026): 2013 footage [Inference, strong; maps overview, section 0, item 1]. The shots used here are also in the storyboard of SkyVu's May 30 2013 trailer [Observed, low-res].

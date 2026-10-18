@@ -17,6 +17,7 @@ This dossier covers the BBG weapons that fall outside the per-class files:
 - I also fetched the YouTube oEmbed titles of the cited demo videos and re-opened the key images and trailer frames.
 - "Images viewed" lists files opened by the draft author or the image check. "(re-opened)" marks the files I opened again in this edit.
 - In an Oct 18 2026 edit I applied the round-3 Bearzooka corrections from shared.addendum.md ("Shared addendum (round 3)": the trailer rocket, its timing and the open question), after re-opening its trailer frames and re-matching t_0008–t_0010 to exact frames of trailer.mp4. I also brought the trailer dating below in line with the storyboard match.
+- In a later Oct 18 2026 edit I added the Bearzooka blast that oliver.addendum.md (Bearzooka, Impact) records in 2014–15 fan footage, after opening its two storyboard crops (bz7W_a.jpg, bz0Z_38.jpg) and the two videos' Invidious metadata (titles and upload dates). What the Steam trailer shows, and that no 2026 frame shows the blast, are unchanged.
 
 **Sources reachable**
 - **Wiki:** the fan wiki through its MediaWiki API (wikitext, categories, revisions, image info).
@@ -511,7 +512,11 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
 - **Projectile:** the Steam trailer SkyVu put on the 2026 Steam page shows one rocket in flight from 1.92 s to 3.05 s [Observed]. The footage is from 2013 [Inference, strong]: the trailer's class cards are pixel-identical to SkyVu's May 30 2013 trailer rfAyqVJrli4, and this shot is in that trailer's storyboard too (t=6–7 s) [Observed, storyboard size]. It does not show the 2026 build. It is fired by a distant green-furred, blue-team Soldier holding a coral tube; the launch is a white smoke burst with an orange core. The rocket has a grey stepped hex nose, glowing yellow/orange checker panels in chevron bands, grey collars and a flared skirt, a maroon tail with pink-red square lights, and spiky orange-yellow flame shards, with white puffs trailing it at range. It flies toward and past the camera, under the airborne B-1000, and leaves the frame without detonating. That it is the Bearzooka's rocket is [Inference, high]: the same green character carries the coral Bearzooka at 3.89–4.59 s. (See shared.addendum.md, round 3, "Bearzooka (BBG) rocket", for the frame-by-frame trace and the reasons for the attribution.)
 - **Impact / end result:**
   - An explosion with splash. "The user is very prone to suicide while using the Bearzooka." [Fan-wiki]
-  - The blast's colour and shape are [Unverified]. The Steam trailer rocket (2013 footage [Inference, strong]) leaves the frame at 3.05 s without detonating [Observed].
+  - **Seen only in 2014–15 fan footage** (YouTube storyboard frames, low-res; per oliver.addendum.md, Bearzooka, Impact; crops opened in the later Oct 18 edit) [Observed]:
+    - "Battle Bears Gold- Bearzooka Oliver Gameplay!" (7WSXU2LaxYo, Hammad Shahid, Mar 10 2014), t=56 s: a big faceted yellow polygon blast (≈ #F8EB6F) with a grey smoke puff (≈ #9C9B90) at its centre.
+    - "Battle Bears Gold | 2.21 | Bearzooka Gameplay" (0ZbJ0-Za5Ws, SW, Jul 25 2015), t=38 s, HUD 0: a faceted yellow blast (≈ #F7E04F, bright #FFF259) beside a billowing dark-grey smoke cloud (≈ #5E5B63).
+    - Crediting both blasts to the Bearzooka is [Inference, high]: both titles are Bearzooka gameplay, and the 2015 uploader's listed primary (Urine Trouble) does not explode.
+  - **Not seen:** no official SkyVu media shows the blast. The Steam trailer rocket (2013 footage [Inference, strong]) leaves the frame at 3.05 s without detonating [Observed]. No 2026 frame shows a Bearzooka blast [Unverified for 2026]; the pale-yellow faceted blasts in 2026 fan frames are unattributed (2026.addendum.md, Bearzooka).
   - **The trailer is not evidence for the blast.** At 4.4–5.2 s on the t_ grid no rocket leaves the tube; on exact frames the cyan slash starts at 4.59 s (n137) [Observed: bz_shot_sheet.jpg]. The yellow-white wipe and the streak backdrop belong to B-1000's entrance: he slashes with a cyan blade, the green bear breaks apart, and the shot cuts to the "B-1000 / ASSAULT" title card [Observed].
 - **Images viewed:**
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned/png/Photo_19-04-13_12_02_26_PM.png
@@ -529,11 +534,13 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned/web/AZt_huguhzc_strip.jpg (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-r4/crops/byri_zooka.jpg (SkyVu's Jul 6 2026 "Classic Oliver" short) and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/gaps_r2/z/show_bear500.jpg (2026 playtest loadout render)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/steam_vs_2013_sb.jpg (Steam trailer frames against the rfAyqVJrli4 storyboard)
+  - Later Oct 18 edit (the blast): /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/gaps_r2/z/bz7W_a.jpg (7WSXU2LaxYo, t=56 s) and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/gaps_r2/z/bz0Z_38.jpg (0ZbJ0-Za5Ws, t=36–42 s); metadata /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/gaps_r2/inv/inv_7WSXU2LaxYo.json and inv_0ZbJ0-Za5Ws.json
 - **Depiction for shorts:**
   - A coral-red tube with glowing orange panels on Oliver's right shoulder.
-  - The rocket follows the Steam trailer's 2013 footage: grey stepped hex nose, glowing yellow-orange checker panels, maroon tail, spiky orange flame shards and white puffs [Observed; its Bearzooka link is Inference, high]. The blast is a [BBG News invention]: suggest a fat yellow-orange cartoon blast, plus comic soot when it backfires (a gag built on the wiki's "prone to suicide" line).
+  - The rocket follows the Steam trailer's 2013 footage: grey stepped hex nose, glowing yellow-orange checker panels, maroon tail, spiky orange flame shards and white puffs [Observed; its Bearzooka link is Inference, high]. It never detonates on screen there.
+  - The blast follows the 2014–15 fan footage: a faceted yellow polygon blast with a grey or dark-grey smoke ball [Observed, low-res; its Bearzooka link is Inference, high]. Its 2026 look is unseen. Comic soot when it backfires is a [BBG News invention] (a gag built on the wiki's "prone to suicide" line).
   - Never draw it green, except for Tillman's twin tubes or a BB: Zombies / BB-1 flashback.
-- **Confidence:** observed (look; the rocket, in 2013 footage, with its Bearzooka link an Inference, high); partial (firing, impact).
+- **Confidence:** observed (look; the rocket, in 2013 footage, with its Bearzooka link an Inference, high); partial (firing; impact, seen only in low-res 2014–15 fan footage with its Bearzooka link an Inference, high, and in no official or 2026 frame).
 
 ## BBR-era weapons still in BBG (BBR Oct 2011–Apr 2013 → BBG relaunch May 24 2013)
 Looks belong in the class dossiers. Dates are from the wiki's version pages and weapon pages [Fan-wiki], with the gaps noted.
@@ -846,7 +853,7 @@ Every "current text" below was checked to exist verbatim in /home/user/thallo-si
 - Catastrophe, ClubCobra and Traffic Light: swing animations and hit effects are undocumented.
 - Catastrophe's real stats: 40 or 25 damage? −20% or +15% speed? +10%, +5% or −5% health? (The page, the trivia, the Health page, the 2.6 notes and the 2012 screenshot disagree.)
 - ClubCobra's health modifier: +10% (screenshot and Health page) or +15% (its own page)?
-- Bearzooka ammo: 1 (infobox, 2013 HUD) or 2 ("two shots" in the prose)? Rocket: answered (Steam trailer 1.92–3.05 s, 2013 footage [Inference, strong]). Explosion: still open.
+- Bearzooka ammo: 1 (infobox, 2013 HUD) or 2 ("two shots" in the prose)? Rocket: answered (Steam trailer 1.92–3.05 s, 2013 footage [Inference, strong]). Explosion: partly answered. A faceted yellow blast with grey smoke is seen only in low-res 2014–15 fan footage (Bearzooka link [Inference, high]); no official or 2026 frame shows it.
 - Doomstick: BBR 1.3 (its own page) or 1.3.1 (the version page)?
 - Social Butterfly has no image or effect description at all.
 - When exactly were Bouncing Betty (after Mar 2018, before May 2020), Greased Lightning and Last Resort removed, and are any of them in the 2026 build?

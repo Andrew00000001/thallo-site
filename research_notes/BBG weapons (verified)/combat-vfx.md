@@ -829,24 +829,26 @@ This is the edited version of the draft. I applied the source check and the imag
   - The current infobox says Ammo 1, Rate of Fire 1.5 seconds, Reload 2.5 seconds, Projectile Speed 1,000 u/s and Explosives 40–60. The body text says it "has two shots without additional ammo" [Fan-wiki].
   - The BBR-era AZt_huguhzc thumbnails show the HUD at "0/1" with a RELOAD prompt and at "1/1" with the Bearzooka equipped [Observed: C2/sheets2/yt_az.jpg]. That suggests one rocket loaded plus one in reserve, two in total [Inference].
   - Planned "Incoming stats" were Ammo 3, a 1 second rate of fire, a 3 second reload and 1000 u/s [Fan-wiki].
-  - The muzzle effect is [Unverified].
+  - Close up, the muzzle effect is [Unverified]. At a distance the Steam trailer shows the launch as a white smoke burst with an orange core (see Projectile) [Observed].
 - **Projectile:**
-  - At about 2.8–3.0 s a rocket launches with a small white puff from beside the distant green-furred Soldier and flies right, past the pink Huggable, while the camera follows it [Observed: C2/sheets2/ro.jpg, rk30.jpg].
+  - The launch is at 1.92 s, from the distant green-furred Soldier himself: a white smoke burst with an orange core at his shoulder. The white puff at about 2.8 s is the rocket's trailing smoke. The camera is static and does not follow the rocket. The rocket passes under the airborne B-1000 at 2.82 s and in front of the distant pink bear at 2.89–2.95 s, then leaves the frame at 3.05 s without detonating [Observed: exact-frame trace in shared.addendum.md, round 3; its sheets re-opened in an Oct 18 edit]. (This replaces "At about 2.8–3.0 s a rocket launches with a small white puff from beside the distant green-furred Soldier and flies right, past the pink Huggable, while the camera follows it" [C2/sheets2/ro.jpg, rk30.jpg].)
   - It has a grey hex-stepped nose cone, glowing yellow-orange checker panels (#FCD22C / #F08000), grey collars and fins, a dark rear section with red squares, and a spiky orange flame exhaust [Observed].
-  - The frame then washes orange [Observed]; the cause is [Unverified].
-  - That this is the Bearzooka's rocket is [Inference] from where it launches and its panel pattern. The object at about 4.3 s is B-1000's arm cannon, not a rocket (source check).
+  - The frame then washes orange (3.02–3.15 s). The wash centres on the B-1000's jet flame [Observed]; that the jet is its source is [Inference]. No rocket detonation is on screen [Observed].
+  - That this is the Bearzooka's rocket is [Inference, high] (raised in the Oct 18 edit on the round-3 trace: it is fired by the green Soldier who shoulders the coral Bearzooka at 3.89 s) from where it launches and its panel pattern. The object at about 4.3 s is B-1000's arm cannon, not a rocket (source check).
 - **Impact / end result:**
   - Explosive area damage (AOE) [Game text via wiki]; "The user is very prone to suicide while using the Bearzooka." [Fan-wiki]
-  - The explosion look for this weapon specifically is [Unverified]; use the general explosion grammar above [Inference].
+  - The explosion look for this weapon in official media is [Unverified]; the Steam trailer does not show it [Observed]. Use the general explosion grammar above [Inference].
+  - Fan footage from 2014–15 shows a faceted yellow polygon blast with a grey or dark-grey smoke ball (7WSXU2LaxYo, Mar 10, 2014; 0ZbJ0-Za5Ws, Jul 25, 2015; low-res storyboard frames) [Observed, per oliver.addendum.md; Bearzooka link Inference, high]. No 2026 frame shows the blast [Unverified for 2026].
 - **Images viewed:**
   - draft: `C/png/Photo_19-04-13_12_02_26_PM.png`; `C/crops/bz_grid.png`; `C/png/Bearzooka_Concept.png`; `C/sheets/bz_sheet.jpg`; `C/tr/bz_full_4.3.png`; `C/crops/bz_trailer_grid.png`; `C/sheets/yt_AZt_huguhzc.jpg` (https://i.ytimg.com/vi/AZt_huguhzc/hqdefault.jpg, hq1, hq2, hq3); `C/sheets/oliver_skins.jpg`; `C/sheets/misc4.jpg`
   - check: `C2/sheets2/x_1.jpg` (Bear.jpg), `yt_az.jpg`, `ro.jpg`, `rk30.jpg`, `bzcmp.jpg`; `C2/crops2/rocket_z.png`; `C2/tr/rk/topright.jpg`
   - edit: `C2/png/Photo_19-04-13_12_02_26_PM.png` (sampled), `OliverSkin.png`, `Ohmagawdyas.png`; `C2/png2/Bear.png`; `C2/sheets2/ta2.jpg`, `ta3.jpg`, `yt_az.jpg`, `ro.jpg`, `rk30.jpg`, `x_1.jpg`; `C/tr/bz_full_4.3.png` (sampled only)
+  - Oct 18 edit (round-3 corrections from shared.addendum.md): `W/dl/shared-r3/sheets/green_launch.jpg`, `green45_71.jpg`, `rocket_track.jpg`, `s74_85.jpg`, `s86_97.jpg`; `W/dl/oliver/gaps_r2/z/bz7W_a.jpg`, `bz0Z_38.jpg` (the 2014–15 blasts)
 - **Depiction for shorts:**
   - A coral-red octagonal tube with glowing orange window chevrons, grey collars and a checkered back flare, on Oliver's shoulder [Observed].
-  - The rocket is grey-nosed with glowing yellow-orange checker panels and a spiky orange flame [Observed; identification Inference].
-  - The explosion and the comic recoil are [BBG News invention].
-- **Confidence:** partial (look observed; rocket probable; impact not seen)
+  - The rocket is grey-nosed with glowing yellow-orange checker panels and a spiky orange flame [Observed; identification Inference, high].
+  - The explosion follows the 2014–15 fan footage: a faceted yellow polygon blast with grey smoke [Observed, low-res; Bearzooka link Inference, high]. The comic recoil is [BBG News invention]; no recoil is documented.
+- **Confidence:** partial (look observed; rocket probable, Inference, high; impact seen only in low-res 2014–15 fan footage, not in official media)
 
 ---
 
@@ -916,7 +918,7 @@ All paths are under `/home/user/thallo-site/bbg-news-repo/characters/`. The READ
 4. **Huggable flags:** is the white rainbow-dot Huggable flag in the Steam trailer and screenshots (2013 footage) a skin flag or a change to team flags?
 5. **Huggable death spray:** does a BBG Huggable spray rainbow when it dies? Official merch art says rainbow column and stuffing; BBG footage shows plush chunks. The 3.3–3.8 s rainbow fan is most likely Peek A Boo.
 6. **Bearzooka:**
-   - What do its explosion and muzzle flash look like? Is the 2.8–3.0 s rocket really a Bearzooka rocket?
+   - What do its explosion and muzzle flash look like in official and 2026 media? (2014–15 fan footage shows a faceted yellow blast with grey smoke; the Steam trailer shows a white launch burst with an orange core at 1.92 s.) Is the 1.92–3.05 s rocket really a Bearzooka rocket? (Inference, high, per shared.addendum.md, round 3.)
    - Is it one rocket loaded plus one in reserve (HUD "0/1" and "1/1"), or two shots, as the body text says?
 7. **Tillman gibs:** do gibbed bears show the "pink and red flesh" the wiki describes for Tillman?
 8. **Status visuals with no images:** how do the in-game Frozen state, the poison skull icons, the Combat Tech and Arbiter poison clouds, and the Drain Field in play look?

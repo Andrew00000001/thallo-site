@@ -66,8 +66,8 @@
    "slot": "Secondary (default)",
    "status": "Named on the 2026 Steam page [Canon]. Held at 1/1 in the 2.54.0 tutorial (Jul 9, 2026); second weapon in a PT4 loadout (HUD icon).",
    "look": "Coral-red hexagonal tube (#AF5860 in dim light) with glowing orange-gold chevron panels (#CF7F3A-#FCA74C), a grey checker band at the flared muzzle, and a bolted round rear plate. Held under the arm. About 0.7x Oliver. NOT green or hazard-striped.",
-   "firing_and_projectile": "1 rocket, 1.5 s, 2.5 s reload, 1,000 u/s (wiki). Rocket model and trail unseen in any build; the 2026 red checker-band rocket with white smoke is Tillman's.",
-   "impact_end_result": "Explosives 40-60, AoE 125/250, easy to kill yourself (wiki). Unattributed 2026 explosions are pale-yellow translucent faceted blasts (#FAFFB0); using that style is an inference.",
+   "firing_and_projectile": "1 rocket, 1.5 s, 2.5 s reload, 1,000 u/s (wiki). Steam trailer rocket 1.92-3.05 s (2013 footage [Inference, strong]): white launch burst with an orange core; grey stepped hex nose, glowing yellow/orange checker panels, maroon tail with pink-red lights, spiky orange-yellow flame shards, white puff trail; it leaves the frame without detonating [Observed; Bearzooka link Inference, high]. Unseen in 2026 frames; the 2026 red checker-band rocket with white smoke is Tillman's.",
+   "impact_end_result": "Explosives 40-60, AoE 125/250, easy to kill yourself (wiki). Blasts credited to it appear only in low-res 2014-15 fan footage: a faceted yellow polygon blast with grey or dark-grey smoke [Observed, per oliver.addendum.md; Bearzooka link Inference, high]; the Steam trailer shows none. Unattributed 2026 explosions are pale-yellow translucent faceted blasts (#FAFFB0); using that style for the 2026 Bearzooka is an inference.",
    "confidence": "partial"
   },
   {
@@ -265,7 +265,7 @@
   "Are the Energy Overflow, Hazard Toy and Rake in the 2026 store or loadouts? Watch the JustNubz showcase -lAtv-j9Sms (Assault 0:00, Sniper 22:30, Assassin 39:57) and InstableGR HKbwq7PolNc Matches 2, 3, 5, 6, 9, 12, 14 and aujTcdFuxdE Matches 3, 5, 8 with normal YouTube access.",
   "Where did Alphabbr's Sept 18-23, 2026 wiki edits come from (Hazard Toy 25-50/4, Energy Overflow 'Charge Time 3', Rake 'removed by explosives')? The first two predate PT4.",
   "What are the 'two new weapons for Astoria' (InstableGR, final test)? Is the navy-barrelled rifle with a water-bottle scope and red rear bulb (HKbwq7PolNc maxres2, 2/4) one of them?",
-  "What do the Bearzooka's rocket model, trail and explosion look like in 2026? Is the pale-yellow faceted blast the shared explosion style?",
+  "What do the Bearzooka's rocket model, trail and explosion look like in 2026? (The rocket is seen in the Steam trailer's 2013 footage and the blast in 2014-15 fan footage; both Bearzooka links are Inference, high.) Is the pale-yellow faceted blast the shared explosion style?",
   "Does the A Salt Rifle show a tracer, and is the spiky yellow starburst its own hit effect or a generic one?",
   "Is magenta specific to the Sci-Fi rifles, or a broader 2026 VFX convention (Riggs's minigun and several Huggable shots are also magenta)?",
   "Are the blue bolt tokens on dark-maroon hexagons Joule drops? Probably [Inference, likely]; they are not KC tags [Inference]. Still open: what the in-world KC tag looks like, and a SkyVu text or on-screen pickup that confirms the tokens' function.",
