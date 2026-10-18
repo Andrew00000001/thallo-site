@@ -77,7 +77,7 @@ Gold Digger is a Battle Bears Gold (BBG) map set in a gold mine at night. The ma
   - **Servers** "have shut down since March 12, 2024" [Fan-wiki].
 - **The 2026 re-release.**
   - Named on Steam as a returning classic [Canon], and it has its own soundtrack track [Canon].
-  - **In SkyVu's official short.** Gold Digger is one of 16 map stills in the "BBG Maps Ranked part 1" thumbnail: row 4, column 3 of a 4×4 grid in `oar1.jpg` [Observed]. A second thumbnail (`oar2.jpg`) shows a tier list with rows "1-4", "5-8", "9-12" and "13-16" [Observed], which matches "16 wacky maps" [Inference]. The short's storyboard does not show Gold Digger being ranked in part 1 [Observed: 76 storyboard frames].
+  - **In SkyVu's official short.** Gold Digger is one of 16 map tiles (level-select art; see Look) in the "BBG Maps Ranked part 1" thumbnail: row 4, column 3 of a 4×4 grid in `oar1.jpg` [Observed]. A second thumbnail (`oar2.jpg`) shows a tier list with rows "1-4", "5-8", "9-12" and "13-16" [Observed], which matches "16 wacky maps" [Inference]. The short's storyboard does not show Gold Digger being ranked in part 1 [Observed: 76 storyboard frames].
   - **In the October 15, 2026 final playtest.**
     - A fan video, "Battle Bears Gold - Final PC Playtest (10/15/26)" by InstableGR (published Oct 17, 2026), lists "31:20 - Match 8 (Team Battle, Gold Digger, Huggable/Riggs/Graham)" [Unverified: fan source] ([HKbwq7PolNc](https://www.youtube.com/watch?v=HKbwq7PolNc)).
     - Its storyboard frames at about 1890–2120 s show Gold Digger in the 2026 build, with a red-vs-blue team score HUD [Observed: storyboard sprites]. So the map is in the 2026 build and ran at least as a team mode [Observed + Inference].
@@ -86,7 +86,7 @@ Gold Digger is a Battle Bears Gold (BBG) map set in a gold mine at night. The ma
     - The final playtest notes list "Lighting improvements" [Canon], and the "CLOSED TESTING 5" banner reads "-LIGHTING, EFFECT & TEXTURE IMPROVEMENTS" [Observed]. The banner image shows No Bear's Land, not Gold Digger [Observed].
     - The fan uploader writes of "an overhauled lighting for all maps, attempting to restore what they looked like back in the day", naming No Bear's Land, Desert Airmine and Space Oddity but not Gold Digger [Unverified: fan claim].
     - In the storyboard frames, Gold Digger keeps its 2013 look: night sky, rock walls, carts and gems. It reads slightly brighter and greyer than the Steam trailer's 2013 footage (see Look) [Observed, low resolution].
-  - **The official October 15 livestream** ("BBG Livestream Final Playtest before Steam NextFest Oct 19") shows no Gold Digger match in its 620 storyboard frames [Observed] ([ZMhLVXWT6OY](https://www.youtube.com/watch?v=ZMhLVXWT6OY)).
+  - **The official October 15 livestream** ("BBG Livestream Final Playtest before Steam NextFest Oct 19") shows no Gold Digger match in its 620 storyboard frames [Observed] ([ZMhLVXWT6OY](https://www.youtube.com/watch?v=ZMhLVXWT6OY)). Its PICK LEVEL carousel does show the Gold Digger tile, at about 45:30 (see Look) [Observed, low resolution].
   - **Steam news.** None of the seven 2026 posts mentions Gold Digger. I checked the text through the news API on 2026-10-18 [Unverified: absence check].
   - **Demo.**
     - play.battlebears.com: "Play the demo on Steam from October 19-26" [Canon].
@@ -107,7 +107,7 @@ Gold Digger is a Battle Bears Gold (BBG) map set in a gold mine at night. The ma
 - **SkyVu's blurb:** "narrow tunnels deep underground… a pit full of gold" [Canon per our notes; Unverified this session].
 - **The main arena is open to the night sky.**
   - **Steam trailer (2013 footage [Inference, strong]).** A dark navy sky with small white stars and a bright, textured full moon with a soft halo sits above the rock walls (`t_0009` at 4.0 s, `t_0011` at 5.0 s) [Observed].
-  - **2026 official short.** The Gold Digger still shows stars above a curved wall of stacked rock [Observed].
+  - **2026 official short.** Its Gold Digger tile shows stars above a curved wall of stacked rock [Observed]. The tile is level-select art; when it was rendered is [Unverified] (see Look).
   - **2026 playtest.** A frame shows the same navy starry sky above tiered rock walls (fan video storyboard, about 2080 s). No moon is in view there [Observed].
 - **The side tunnels are roofed.** They have timber frames, an earthen brown ceiling and hanging lamps (wiki `Gold_Digger_4.jpg`, map icon) [Observed].
 - **Best reading:** a night-time open-pit gold mine, with timber-roofed rail tunnels leading off the pit [Inference].
@@ -299,7 +299,7 @@ All paths are absolute.
 
 ## Confidence
 
-**observed.** The look and layout rest on official 2013-era frames (the Steam trailer, Steam `screen_03` and the wiki gallery), one official 2026 thumbnail tile, and fan-recorded 2026 storyboard frames that match them. These remain only partly known:
+**observed.** The look and layout rest on official 2013-era frames (the Steam trailer, Steam `screen_03` and the wiki gallery), one level-select tile in an official 2026 thumbnail, and fan-recorded 2026 storyboard frames that match them. These remain only partly known:
 - which side is red and which is blue;
 - the modes on Gold Digger in each era;
 - where the jump pads send you;
@@ -310,8 +310,8 @@ All paths are absolute.
 
 ## Corrections to our notes
 
-1. **`research_notes/Battle Bears character lore/franchise_world.md`, line 220.**
-   - Current: "**Gold Digger**: a mine. Out-of-bounds, "the background is the same as Sky View"."
+1. **`research_notes/Battle Bears character lore/franchise_world.md`, the Gold Digger entry under "E. Settings and maps (wiki)" (formerly line 220). Applied: the entry now quotes "a mining cave" and the full Sky View line, and an [OBSERVED; CORRECTED 2026-10-18] sub-bullet records the open sky.**
+   - Text at the time: "**Gold Digger**: a mine. Out-of-bounds, "the background is the same as Sky View"."
    - Correction: The wiki calls it "a mining cave". Out of bounds, "the background is the same as [[Sky View]], with all of its buildings" [FAN-WIKI]. Official frames show the central pit is open to a navy starry night sky, with a full moon in the 2013 trailer; only the side rail tunnels are roofed [OFFICIAL-FRAME].
    - Evidence: Steam trailer frames `t_0009` and `t_0011` (4.0 s and 5.0 s); the Gold Digger tile in `jkv6FHPghx8` `oar1.jpg` (row 4, column 3); wiki `Gold_Digger_4.jpg` (roofed tunnel); Gold Digger page wikitext (API, 2026-10-18).
 2. **`research_notes/Battle Bears character lore/animation_reference.md`, Q1 §B "Art style as seen in official frames", the in-game 3D look entry under "In-game 3D and logo" (formerly line 150). Applied: the entry now names the rocky caves as Gold Digger and gives these samples.**

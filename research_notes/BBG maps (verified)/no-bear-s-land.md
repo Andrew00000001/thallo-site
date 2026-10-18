@@ -474,7 +474,7 @@ Everything above is documented [Observed/Fan-wiki], except:
    - Current: "[OFFICIAL] "No Bears Land" and "Steamyard Blues" (Steam 2026) vs "No Bear's Land" (official 2014 page; wiki)".
    - The 2014 page could not be re-opened, and its URL slug is "no-bears-land". The checkable official source for the apostrophe spelling is the in-game BBG map-select tile, which reads "NO BEAR'S LAND" (File:No bear's Land.png, uploaded 2013-06-15).
    - The 2026 OST track is "No Bears Land", matching the store page.
-4. **research_notes/Battle Bears character lore/saberi_sanchez.md, Q2 Cited Findings, the Pelican't bullet (line 124 when last checked).** The wiki quote is accurate; this is an addition. Applied: a bullet on the two wrecks' look now follows it.
+4. **research_notes/Battle Bears character lore/saberi_sanchez.md, Q2 §A "Sanchez (wiki)", the Pelican't bullet (line 124 when last checked).** The wiki quote is accurate; this is an addition. Applied: a bullet on the two wrecks' look now follows it.
    - Current: "[FAN-WIKI] The Pelican't is "a dark green ship, with four engines on the sides of the vehicle"."
    - Add the observed look of the No Bear's Land wrecks:
      - dark grey hulls with an olive cast, four fat cylindrical engine pods on stub wings

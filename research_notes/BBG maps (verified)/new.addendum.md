@@ -428,7 +428,7 @@ All files are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a9
    - Correction: link them through CwxpBZg6Fi4's description [Canon]. Add the lineage:
      - A Battle Bears Ultimate 2014 launch map [Fan-wiki].
      - Called "Skyworld" in the BBO 3.0 notes of Jul 3, 2020 [Game text via wiki].
-3. **`/home/user/thallo-site/bbg-news-repo/content/evergreen.json`, "fact-playtests"**
+3. **`/home/user/thallo-site/bbg-news-repo/content/evergreen.json`, "fact-playtests"**. Partly applied: the entry now counts five playtests, ending with the Oct 15 final, and says SkyVu's reveal video calls Sky World "Sky Pirates". It still calls Sky World "a new map", not "a map new to BBG".
    - Current: "SkyVu ran four Battle Bears Gold playtests … between July and September 2026. The third playtest added auto matchmaking and a new map: Sky World."
    - Correction:
      - There were five playtests. The final one was Oct 15, 2026 [Canon, Steam Oct 14].

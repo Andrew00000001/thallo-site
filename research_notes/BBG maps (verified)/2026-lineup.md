@@ -204,7 +204,7 @@ The collage cannot stand as a 2026 roster:
 It shows the 15 legacy maps, with Space Oddity twice (r1c3 and r3c3) [Inference, from the tile identities above]. This pass read it as a legacy-map collage unrelated to 2026; the addendum overturns that part. Eight of its tiles are the same images as the 2026 custom-match PICK LEVEL tiles (r 0.82–0.98) [Observed: 2026-lineup.addendum.md, gap pass 2, section 2], so it is the game's level-select tile art [Inference, strong]. It is still not a 2026 roster: it has no Sky Pirates tile. Who first assembled the grid is unknown.
 
 Frame `oar2` shows a tier list with rows "1-4 / 5-8 / 9-12 / 13-16" [Observed]:
-- So far, Sky View, Frozen Pundra and Steam Yard Blues sit in "13-16", with one slot empty. Later in the Short, Toxic Terror fills that tier's fourth slot [Observed, per 2026-lineup.addendum.md, gap pass 1, section 6; tile-to-row read from low-res frames].
+- So far, Sky View, Frozen Pundra and Steam Yard Blues sit in "13-16", with one slot empty. Later in the Short (by 0:40), a fourth tile, Toxic Terror, joins that tier [Observed, per 2026-lineup.addendum.md, gap pass 1, section 6; tile-to-row read from low-res frames].
 - The clip behind the tier list is a night-time deck match: wooden planks, a lit building, a dark navy sky, HUD "0 – 0", and player tags "グラハムユウキ" and "SEAL".
 - The map is probably Sky View [Inference]. That the clip is 2026 footage is [Inference].
 
@@ -593,6 +593,11 @@ All relative paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f
 - `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg` and `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/review_ov/so_sb_check.jpg` (Space Oddity and Graham, 2013 storyboard against the Steam trailer).
 - `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/environment-conventions/sheets/so_steam_vs_hk.jpg` (screen_01 against 3.0.7).
 - `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/trailer_wil_fire_chk/` sheets `sheet_0.png`, `sheet_a.png`, `sheet_b.png`, `sheet_c.png`, `sheet_glow.png` and `sheet_run.png` (the Wil/Tillman shot at 0.1 s steps, 17.5–23.4 s).
+
+**Addendum evidence re-opened (review pass, Oct 18), outside the folder above:**
+- `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/2026-lineup/yt/th/ZMhLVXWT6OY_maxresdefault.jpg` (Toxic Terror thumbnail, build stamp).
+- `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/2026-lineup/zoom/pick_tiles.jpg` and `wiki_vs_ranked.jpg` (PICK LEVEL tiles; Maps Ranked r1c3, r3c3, r2c4).
+- `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/lineup_gap/jn_all_0.jpg`, `jn_kc.jpg` and `jkv_tiers.jpg` (JustNubz station stills; the Maps Ranked tier list).
 
 **Wiki, opened with Read:**
 - `wimg/Bearscream_Sandwich_v.jpg`, `wimg/A_life_upside_down_v.jpg`, `wimg/Uumhfc_v.jpg`.
