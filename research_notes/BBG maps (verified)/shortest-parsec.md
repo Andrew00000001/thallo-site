@@ -9,8 +9,8 @@ Shortest Parsec is a small space station floating in a starfield, with almost no
 **History.**
 - **Added:** iOS update 1.4.2 (Feb 28, 2013). That update renamed Battle Bears Royale (BBR) to plain "Battle Bears" [Game text via wiki; Fan-wiki].
 - **BBG:** carried into Battle Bears Gold (BBG) and still there in 2021 [Fan-wiki; Observed].
-- **2026 official material:** the 2026 Steam trailer shows it, and so do two of the five Steam screenshots [Observed]. The 2026 soundtrack lists "Shortest Parsec" as track 9 [Canon].
-- **2026 playtests:** fan video chapters record matches on it in the Aug 21 and Oct 15, 2026 playtests [Unverified: fan video description].
+- **2026 official material:** the Steam trailer SkyVu put on the 2026 store page shows it, and so do two of the five Steam screenshots [Observed]. That footage is most likely re-edited 2013 footage, so it shows the 2013 look, not the 2026 build [Inference, strong]. The 2026 soundtrack lists "Shortest Parsec" as track 9 [Canon].
+- **2026 playtests:** fan video chapters record matches on it in the Aug 21 and Oct 15, 2026 playtests [Unverified: fan video description]. Storyboard stills of a fan upload of the Oct 15 final playtest show it in the 2026 build [Observed], and its tile appears in the PICK LEVEL carousel of SkyVu's Oct 15 stream [Observed match] (see Era and status, "2026").
 
 This is the verified and edited version of the draft at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/out/drafts/research_shortest-parsec.md. An identical copy of that draft is at /home/user/thallo-site/research_notes/BBG maps (unverified drafts)/research_shortest-parsec.md. Every cited page and image was fetched again and opened on 2026-10-18.
 
@@ -25,6 +25,7 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
   - The Steam News API.
   - The five BBG screenshots. Their MD5 hashes match the local screen_00 to screen_04.
 - **Official trailer:** the local trailer.mp4. I used the 0.5 s frames and my own frames extracted at 0.25 s and 1/30 s steps.
+- **2026 build frames:** YouTube storyboard stills (320 × 180, one every 10 s) of JustNubz's "Battle Bears Gold FINAL PLAYTEST" (1MP1rFi4t-Q, Oct 15, 2026), and the PICK LEVEL crops from SkyVu's Oct 15 stream (ZMhLVXWT6OY). Both were saved by the 2026-lineup pass, and I opened them again.
 - **battlebears.com (live):** a site search for "parsec" returns "0 results found" [Canon]. The homepage says the re-release is "packed with new modes, maps, skins and more!" [Canon].
 - **YouTube text metadata** from the innertube `next` and `search` endpoints: titles, dates and descriptions only. I also loaded the thumbnails and auto-frames (maxres1–3 or hq1–3) of 16 videos.
   - All of these are fan uploads except where stated. **I watched no video.**
@@ -73,7 +74,9 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
 - It lists the modes "Team Deathmatch (TDM) / Free for All (FFA) / Plant the Bomb (PTB)".
 - It does **not** name Shortest Parsec.
 
-**2026 Steam trailer.** The official title is "Battle Bears Gold Premium - Trailer" [Canon]. The map appears in it (see below) [Observed].
+**The Steam trailer.** SkyVu put it on the 2026 Steam page under the title "Battle Bears Gold Premium - Trailer" [Canon]. The map appears in it (see below) [Observed].
+- Its class cards are pixel-identical to those of SkyVu's May 30, 2013 BBG trailer (rfAyqVJrli4), and each of the five Steam screenshots is a frame of it [Observed: /home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1; re-opened as /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/lineup_verify/sheets/tr2013.jpg].
+- So its gameplay, and the screenshots, are most likely 2013 footage [Inference, strong]. The one exception is a Space Oddity clip (about 30.0–32.8 s, and screen_01), whose capture date is open [Unverified]. The Shortest Parsec shots are therefore not evidence of how the map looks in the 2026 build.
 
 ## Era and status
 
@@ -110,7 +113,7 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
   - Free-For-All arrived in BBG 2.5 (Nov 27, 2013) [Game text via wiki].
   - King of the Windmill arrived in 2.8 (Mar 4, 2014) and was "retired" in 2.29 (Jan 26, 2018) [Game text via wiki].
   - Whether this map ran either mode during the original BBG run is [Unverified].
-- **2026 playtests:** InstableGR's chapter lists name "34:19 - Match 9 (Free-for-All, Shortest Parsec, Wil)" for the Aug 21, 2026 playtest (aujTcdFuxdE) and "35:30 - Match 9 (Team Battle, Shortest Parsec, Riggs/Astoria)" for the Oct 15, 2026 final playtest (HKbwq7PolNc) [Unverified: fan video description].
+- **2026 playtests:** InstableGR's chapter lists name "34:19 - Match 9 (Free-for-All, Shortest Parsec, Wil)" for the Aug 21, 2026 playtest (aujTcdFuxdE) and "35:30 - Match 9 (Team Battle, Shortest Parsec, Riggs/Astoria)" for the Oct 15, 2026 final playtest (HKbwq7PolNc) [Unverified: fan video description]. JustNubz's Oct 15 storyboard stills show it in the tag mode, "COLLECT ENEMY TAGS TO SCORE POINTS" [Observed prompt] (see 2026 below).
 
 **Removed or reworked:**
 - No removal or rework is documented [Unverified].
@@ -119,18 +122,29 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
 **2026:**
 - **Official evidence:**
   - The soundtrack has its theme [Canon].
-  - The official trailer shows it at 24.0–28.25 s and 49.5–51.75 s, including dissolves at both ends of the second shot [Observed].
+  - The Steam trailer SkyVu put on the 2026 page shows it at 24.0–28.25 s and 49.5–51.75 s, including dissolves at both ends of the second shot [Observed].
   - Steam screen_04 matches trailer 26.40 s and screen_02 matches 50.67 s, each to within one 30 fps frame (mean pixel difference 7.4 and 5.0) [Observed].
+  - These trailer shots and screenshots are most likely 2013 footage [Inference, strong] (see Official text). They show that SkyVu chose this map for the 2026 store page, not how it looks in the 2026 build.
+- **2026-build evidence:**
+  - **PICK LEVEL tile.** In SkyVu's Oct 15 stream (ZMhLVXWT6OY), the custom-match carousel at 19:50 shows a dark starfield tile that matches the Shortest Parsec tile of SkyVu's "BBG Maps Ranked part 1" grid (r 0.88) [Observed match: /home/user/thallo-site/research_notes/BBG maps (verified)/2026-lineup.addendum.md, section 2; tile re-opened in pick_tiles.jpg].
+  - **Final-playtest frames.** Storyboard stills of JustNubz's "Battle Bears Gold FINAL PLAYTEST" (1MP1rFi4t-Q, Oct 15) show the map at 5:00–13:00 and 57:00–61:00 [Observed]:
+    - the orange cone onto the round pad (57:00, 59:20);
+    - the red-beamed hall with warm pale walls, seen through its side opening (6:40, 11:20);
+    - the red H.I.P. floor medallion and the far tower's outline engraving (6:00, 10:40);
+    - teal hex-holed asteroids (5:40, 6:00, 8:20) against a starfield washed with violet-magenta;
+    - a dark scrawl on a purple-lit panel that resembles the Killerbear500 graffiti (61:00) [Observed; identification Inference].
+  - **Mode in those frames.** The HUD reads "COLLECT ENEMY TAGS TO SCORE POINTS" (9:40, 57:00, 59:20), with SCORED and DENIED badges. That is the tag mode fans call Kill Confirmed [Observed prompt; mode name Unverified: fan label].
+  - At 320 × 180 these stills are too small for palette sampling or a lighting comparison [Inference].
 - **The store text does not name it** [Canon]. SkyVu has not published the 16-map roster [Unverified].
 - **The soundtrack is not the roster** [Inference]:
   - Tracks 1–16 are named after locations, starting "Abusement Park, No Bears Land…" and ending "Steamyard Blues, Castle Royale" [Canon].
   - That list includes the BBR-era names "Huggable Factory" and "Castle Royale". It omits H.I.P. Test Lab, Tutorial (a separate menu-group track) and the new 2026 map "Sky World" ("New Map: Sky World", Steam news, Aug 19, 2026 [Canon]).
-- **Launch inclusion:** likely, given the trailer, the screenshots and the fan playtest chapters, but not confirmed by SkyVu [Inference].
+- **Launch inclusion:** likely, given the PICK LEVEL tile, the Oct 15 build frames, the fan playtest chapters and SkyVu's choice of its 2013 footage for the store page, but not confirmed by SkyVu [Inference].
 - **Lighting:**
   - The final playtest announcement (posted Oct 14, for the Oct 15, 2026 test) lists "Lighting improvements" [Canon].
   - InstableGR's description of that build says there is "an overhauled lighting for all maps, attempting to restore what they looked like back in the day" [Unverified: fan video description].
 - **Store screenshots may change.** The same announcement asks testers for footage "for our Steam and store pages" [Canon], so the current screenshots may be replaced [Inference].
-- **Trailer build:** which build the trailer and screenshot footage came from is unknown [Unverified].
+- **Trailer build:** apart from one Space Oddity clip, the trailer and screenshot footage is most likely re-edited 2013 launch footage [Inference, strong] (see Official text). Only the class cards have been pixel-matched to the 2013 trailer [Observed]; whether the Shortest Parsec gameplay shots also match it is [Unverified].
 
 **BB Heroes (2024):** the wiki's BBH page and a wiki-wide search for "Parsec" show no link to this map [Fan-wiki, checked by absence]. Whether it appears there is [Unverified].
 
@@ -228,7 +242,7 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
 - **Spikes.** Antenna spikes with red tips sit on the tower tops and pods. Small white spikes and nubs hang under the platforms.
 - **Hall interior** [Observed: screen_04, New_map_2]:
   - Saturated red ceiling beams and red door frames.
-  - Pale panelled walls: mauve-beige in 2026, lilac-white in the 2013 preview.
+  - Pale panelled walls: mauve-beige in Steam screen_04 (2013 footage [Inference, strong]), lilac-white in the Jan 2013 preview. The Oct 15, 2026 storyboard stills also show warm pale walls under red beams [Observed, 320 × 180].
   - Red angled benches or consoles, and a dark slate floor.
 
 **Sky.** There is no sun, planet or ground [Observed].
@@ -243,7 +257,8 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
 - **Beam:** a warm orange spill from the beam when it is on.
 - **Hall:** saturated red, with a red-lit door on one side and a purple-lit door on the other. In the 2013 preview this door is pink-red.
 - **Lower level:** lavender-purple light [Observed: screen_04, New_map_2, New_Map_4, overhead].
-- **Then and now:** the Jan 2013 previews look cooler and lilac-tinted, and the 2026 trailer looks more saturated red [Observed]. The reason is unknown. The 1.4.2.1 "graphical rollbacks" and the 2026 "Lighting improvements" are candidates [Inference].
+- **Preview versus shipped game:** the Jan 2013 preview renders look cooler and lilac-tinted, and the Steam trailer and screenshots (2013 footage [Inference, strong]) look more saturated red [Observed]. The reason is unknown. Since both are probably from 2013, the 2026 "Lighting improvements" would not explain it; the 1.4.2.1 "graphical rollbacks" (Mar 1, 2013), or renders that simply differ from the shipped game, are candidates [Inference].
+- **2026 build:** the Oct 15, 2026 storyboard stills keep the red hall and show a starfield washed with violet-magenta [Observed]. They are too small to say how the 2026 lighting differs [Unverified].
 - **Time of day:** none; the map is in space [Observed].
 
 **Particles and weather.** The beam is full of drifting sparkles [Observed: Scary_Light]. There is no weather [Observed].
@@ -254,7 +269,7 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
 - **Far-tower dressing:** red-and-white or black-and-white striped poles with red tips and a black cable (overhead, EE3, New_map_3).
 - **Hall furniture:** red angled benches or consoles (New_map_2).
 
-**Palette.** Each value is the median of a 15 × 15 px sample. The draft's values were spot-checked by re-sampling the same elements, and the "Re-check" column gives my values. Treat all of them as approximate and lighting-dependent [Inference]. My marked sample sheets are the m_*.jpg files in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/shortest_parsec_verify/work/.
+**Palette.** Each value is the median of a 15 × 15 px sample. The draft's values were spot-checked by re-sampling the same elements, and the "Re-check" column gives my values. Treat all of them as approximate and lighting-dependent [Inference]. "Steam" and "trailer" values come from the Steam screenshots and trailer, which are most likely 2013 footage [Inference, strong]; "preview" values come from the Jan 2013 preview renders. No value is sampled from the 2026 build. My marked sample sheets are the m_*.jpg files in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/shortest_parsec_verify/work/.
 
 | Element | Approx. hex (draft) | Re-check | Sampled from |
 |---|---|---|---|
@@ -272,19 +287,19 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
 | Laser-tower orange emblem | — | #FFA478 | trailer 24.5 s |
 | Hall red beams or upper walls, seen from above | #982029 | #932127 (shadow #5F131A) | trailer 25.75 s |
 | Hall floor, dark slate | #131D26 / #141D24 | #101B21; #131B26 | trailer 25.75 s; screen_04 |
-| Hall ceiling beams | #DD0208 (2026) / #A73638 (2013) | #BF0108 (2026); #6F1723 shaded (2013) | screen_04; New_map_2 |
-| Hall wall panels | #986562 to #9C635C (2026); #C294C3 lilac (2013) | #976562; #A385BC | screen_04; New_map_2 |
+| Hall ceiling beams | #DD0208 (Steam) / #A73638 (preview) | #BF0108 (Steam); #6F1723 shaded (preview) | screen_04; New_map_2 |
+| Hall wall panels | #986562 to #9C635C (Steam); #C294C3 lilac (preview) | #976562; #A385BC | screen_04; New_map_2 |
 | Red-side door glow | #FF3A55 | #FF384A | screen_04 |
-| Purple-side door glow | #924FFF (2026); #310DAD (2013) | #B24EFF (2026); #7B59F4 (2013) | screen_04; New_map_2 |
+| Purple-side door glow | #924FFF (Steam); #310DAD (preview) | #B24EFF (Steam); #7B59F4 (preview) | screen_04; New_map_2 |
 | Pink-red door glow, 2013 preview | — | #F27CA7 | New_map_2 |
-| Hall floor, navy (2013) | #272C49 | #23263A | New_map_2 |
+| Hall floor, navy (preview) | #272C49 | #23263A | New_map_2 |
 | H.I.P. floor medallion | #B73E45 (lit) / #814336 | #B5474F; #B0263A | screen_02 |
 | Far-tower cracked red floor | #B13245 | #B7354B | New_map_3 |
 | Switch console green | #2F9957 | #1F8D64 | New_map_3 |
 | Jump-pad core | #4ACCE2 | #4ED9D8; #3ACDCB | New_map_2; screen_02 |
-| Teal asteroid | #006F7D (2026) / #556767 (2013) | #014E61 (2026); #526464 (2013) | trailer 24.5 s; New_map_1 |
+| Teal asteroid | #006F7D (trailer) / #556767 (preview) | #014E61 (trailer); #526464 (preview) | trailer 24.5 s; New_map_1 |
 | Blue-arm deck | #495877 | #4B5473 | trailer 25.75 s |
-| Lower-level floor (2013) | — | #433777 / #2B244E | New_Map_4 |
+| Lower-level floor (preview) | — | #433777 / #2B244E | New_Map_4 |
 | Purple-lit wall (graffiti) | #645188 | #60497E | EE4 |
 
 **Not map geometry:**
@@ -371,7 +386,7 @@ This is the verified and edited version of the draft at /tmp/claude-0/-home-user
   - EE2 and EE3 are taken standing on teal meteorites [Observed].
 - **"Only the Huggable can reach it."**
   - The Huggable (BBG) page says "the Huggable is the only class that can reach the map's Easter Egg" [Fan-wiki].
-  - It echoes the map page's own 2013–2014 wording, "There is an Easter Egg on this map that can only be reach by Huggables". That wording was replaced in August 2014 by the So Fly plus Metal Crush text [Fan-wiki: page history].
+  - It echoes the map page's own 2013–2014 wording, "There is an Easter Egg on this map that can only be reached by Huggables" (spelled "reach" in revisions 32031–32590, Apr 20–21, 2013). That wording was replaced on 2014-05-27 (rev 64712) by the So Fly plus Metal Crush text [Fan-wiki: page history].
   - So it is a contested, outdated claim [Inference].
 - **A "face" on the pad block.** The white support block under the beam pad has two dark, drippy scorch smudges placed like closed, weeping eyes [Observed: EE2, captioned "Meteorite Easter Egg"]. Whether this is a deliberate face is [Unverified].
 - **"Killerbear500":**
@@ -428,6 +443,10 @@ All of these were opened with Read this session.
 - The pad sequence /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/shortest_parsec_verify/work/pad_zoom.jpg (50.25 s, 50.5 s, screen_02).
 - The 1/30 s match frames in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/shortest_parsec_verify/frames/match/.
 
+**2026 build stills** (fan and SkyVu streams, storyboard size 320 × 180):
+- JustNubz 1MP1rFi4t-Q stills in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/lineup_gap/sb/1MP1rFi4t-Q/ and the sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/lineup_gap/jn_kc.jpg. My sheets of 5:00–13:00 and 56:40–61:00: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/sp_edit/jn_a.jpg, jn_b.jpg, jn_c.jpg and jn_zoom.jpg.
+- SkyVu's PICK LEVEL crops: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/2026-lineup/zoom/pick_tiles.jpg (ZM 19:50).
+
 **Crops**, in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/shortest_parsec_verify/work/: s02_medallion.jpg, ov_emblems.jpg, ov_laser.jpg, nm1_tower.jpg, f2450_laser.jpg, ee1_text.jpg, ee2_item.jpg, and the palette sheets m_*.jpg.
 
 **YouTube auto-frames and thumbnails**, all fan uploads, saved in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/shortest_parsec_verify/yt/th/. Sheets: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/shortest_parsec_verify/yt/sheet_old1.jpg, sheet_old2.jpg, sheet_old3.jpg, sheet_2026.jpg and sheet_yt.jpg.
@@ -480,10 +499,10 @@ All of these were opened with Read this session.
 
 ## Confidence
 
-- **Look, landmarks and palette:** observed. Sources: official 2013 preview renders, the official 2026 trailer and Steam screenshots, wiki screenshots, and fan thumbnails from 2013–2021. The palette was spot-checked by re-sampling.
+- **Look, landmarks and palette:** observed. Sources: official 2013 preview renders, the Steam trailer and Steam screenshots (most likely 2013 footage [Inference, strong]), wiki screenshots, and fan thumbnails from 2013–2021. The palette was spot-checked by re-sampling. For the 2026 build there are only low-resolution storyboard stills of the Oct 15 final playtest.
 - **Mechanics, pickups and Easter eggs:** documented on the fan wiki only. Several pages contradict each other, and one description survives only in a removed 2014 revision.
 - **Official text:** partial. The update notes come via the wiki. The SkyVu blurb could not be re-opened (Wayback unreachable on 2026-10-18).
-- **2026 inclusion:** partial. The soundtrack, trailer and screenshots support it, and so do fan playtest chapters [Unverified]. The store text does not name the map.
+- **2026 inclusion:** partial. The soundtrack, the PICK LEVEL tile and the Oct 15 build stills support it, and so do fan playtest chapters [Unverified]. The Steam trailer and screenshots show only that SkyVu re-used 2013 footage of the map on the store page [Inference, strong]. The store text does not name the map.
 
 ## Corrections to our notes
 
@@ -499,7 +518,7 @@ All of these were opened with Read this session.
    - Correction: the same as item 2.
 4. **/home/user/thallo-site/research_notes/BBG weapons (verified)/huggable.md, line 194.**
    - Current text: "- It is "the only class that can reach" the Shortest Parsec Easter egg [Fan-wiki]."
-   - Correction: keep the quote, but add that it is contested. It echoes 2013–2014 map-page wording that was replaced in August 2014, and the map page now credits B-1000's Metal Crush too.
+   - Correction: keep the quote, but add that it is contested. It echoes 2013–2014 map-page wording that was replaced on 2014-05-27 (rev 64712), and the map page now credits B-1000's Metal Crush too.
 5. **/home/user/thallo-site/research_notes/BBG weapons (unverified drafts)/visuals_2026.md, line 101.**
    - Correction: name the map. The station is Shortest Parsec, and the red-and-white room is its central module ("middle dome"). The yellow light column is weapon VFX, not the map's laser.
 6. **/home/user/thallo-site/research_notes/BBG weapons (verified)/2026.md, line 134.** The same as item 5.
@@ -531,9 +550,9 @@ All of these were opened with Read this session.
 - Does Shield or a caffeine boost protect against the laser, and which projectiles does the beam block? Wiki pages disagree on both.
 - Is the orange bear emblem on the laser tower the H.I.P. symbol the H.I.P. page mentions?
 - Are the hex-holed teal "meteorites" meant as the "body parts" of the "robotic someone" in the blurb? Is the robot-like top-down footprint intentional?
-- Did the map run FFA (BBG 2.5) or King of the Windmill (BBG 2.8–2.29) in the original BBG? Will it host PTB and FFA at launch? Fan chapters show FFA in the Aug 21 test and Team Battle in the Oct 15 test.
-- What does the map look like after the 2026 "Lighting improvements"? Watching HKbwq7PolNc from 35:30 (Match 9, Team Battle, final playtest) and aujTcdFuxdE from 34:19 would settle this. It needs someone with normal YouTube access.
-- Which build did the 2026 trailer and Steam screenshots come from, and will SkyVu replace the screenshots?
+- Did the map run FFA (BBG 2.5) or King of the Windmill (BBG 2.8–2.29) in the original BBG? Will it host PTB and FFA at launch? Fan chapters show FFA in the Aug 21 test and Team Battle in the Oct 15 test. JustNubz's Oct 15 stills show the tag mode fans call Kill Confirmed [Observed prompt].
+- What does the map look like after the 2026 "Lighting improvements"? Watching HKbwq7PolNc from 35:30 (Match 9, Team Battle, final playtest) and aujTcdFuxdE from 34:19 would settle this. It needs someone with normal YouTube access. The storyboard stills of 1MP1rFi4t-Q (5:00–13:00, 57:00–61:00) show the Oct 15 build but are too small to judge the lighting.
+- Apart from one Space Oddity clip, the Steam trailer and screenshots are most likely 2013 footage [Inference, strong]. Can matching their gameplay shots, not just the class cards, to SkyVu's 2013 trailer rfAyqVJrli4 confirm it? Will SkyVu replace the screenshots with 2026 footage?
 - Where did the Jan 2013 preview renders, the watermarked overhead and the name "The Shortest Parsec" (on the wiki by Jan 26, 2013) first appear: SkyVu's site, Facebook or forums?
 - Where exactly is the Killerbear500 graffiti? The probable spot is the lower level under the far tower, blue side. Are the "weeping eye" smudges under the beam pad deliberate?
 - Does the map appear in BB Heroes (2024)?

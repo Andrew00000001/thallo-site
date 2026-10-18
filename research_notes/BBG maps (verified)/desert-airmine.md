@@ -90,7 +90,7 @@ So the map's first era runs from late 2011 to May 2013.
       - an "INSTABLEGR" nameplate.
 
       That matches InstableGR's FFA Desert Airmine match [Inference].
-  - **Missing:** it is not in the 54 s Steam trailer, the 5 store screenshots or the store copy [Observed/Canon].
+  - **Missing:** it is not in the 54 s Steam trailer, the 5 store screenshots or the store copy [Observed/Canon]. The trailer and screenshots are most likely 2013 launch footage [Inference, strong], from the BBG launch that dropped this map, so their silence says nothing about 2026 [Inference].
   - **"16 wacky maps":**
     - The wiki's BBG Maps page lists 15 maps, Desert Airmine among them [Fan-wiki]. Add the new 2026 map, announced as "New Map: Sky World" and later titled "Sky Pirates" by SkyVu [Canon], and you get 16 [Inference].
     - SkyVu's own 16-tile collage and 16-slot ranking point the same way [Inference].
@@ -352,7 +352,7 @@ Where this description stands against the sources:
    - Current: "The wiki also says a picture of Graham's face on the spinning drill of the Desert Airmine map "was his first appearance.""
    - Correction: the same clarification as item 2.
    - Evidence: as in item 2. The Graham page reads "in which that was his first appearance in Battle Bears".
-4. **research_notes/Battle Bears character lore/animation_reference.md, line 170** (an addition, not an error)
+4. **research_notes/Battle Bears character lore/animation_reference.md, Q1 §C, the Steam soundtrack entry (formerly line 170)** (an addition, not an error). Applied: the 24-track list now follows that entry.
    - Current: "[OFFICIAL, 2026] Steam "BATTLE BEARS GOLD Soundtrack" (release Nov 4, 2026): "The official BATTLE BEARS GOLD Soundtrack featuring original map and menu music by Rob Ruiz, AnDrue Humphreys, and Benjamin Vavak. …""
    - Addition: the track list. 24 tracks, 16 map-named:
      1. Abusement Park 0:54

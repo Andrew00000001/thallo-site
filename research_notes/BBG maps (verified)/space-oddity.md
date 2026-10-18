@@ -7,7 +7,7 @@ The map launched in Battle Bears Royale 1.0 (wiki date October 8, 2011) as **"Sp
 **Verification pass, 2026-10-18.** I re-fetched every source and re-opened every image this dossier cites. Changes from the draft:
 - Wrong dates and revision numbers are fixed.
 - Pickup quotes that came from the pickup pages, not the map page, are now attributed to those pages.
-- The over-strong "2013-era footage" inference is removed.
+- The over-strong "2013-era footage" inference is removed. A later check the same day restored the 2013 dating on new evidence, the storyboard of SkyVu's May 2013 trailer (see "Age of the official footage").
 - New observations come from fan BBG thumbnails, a closer look at the trailer frame and the BBR renders, and the official "Maps Ranked" grid.
 
 **What I could reach:**
@@ -87,7 +87,7 @@ The map launched in Battle Bears Royale 1.0 (wiki date October 8, 2011) as **"Sp
   - **Servers:** "Battle Bears Gold servers have shut down since March 12, 2024" [Fan-wiki, re-checked].
 - **The 2026 re-release:**
   - **Named and scored.** SkyVu names the map as a returning "Iconic Map", and it has its own soundtrack track [Canon].
-  - **Trailer and screenshot.** The map appears in the official Steam trailer "Battle Bears Gold Premium - Trailer" from about 30.0 to 32.8 s (frames t_0061–t_0066), and in Steam screenshot screen_01, which has the same framing as the 30.0 s frame [Observed]. The trailer has no other Space Oddity footage [Observed: all 108 frames].
+  - **Trailer and screenshot.** The map appears in the official Steam trailer "Battle Bears Gold Premium - Trailer" from about 30.0 to 32.8 s (frames t_0061–t_0066), and in Steam screenshot screen_01, which has the same framing as the 30.0 s frame [Observed]. The trailer has no other Space Oddity footage [Observed: all 108 frames]. SkyVu put this footage on the 2026 Steam page, but it is most likely 2013 footage (see "Age of the official footage" below) [Inference, strong], so it is not evidence of the 2026 build's look.
   - **"BBG Maps Ranked part 1."** This is SkyVu's official short (jkv6FHPghx8; oEmbed author "BATTLE BEARS"). Its oar1 thumbnail frame shows a 4×4 grid of 16 map stills.
     - **Row 3, column 3** is the Space Oddity tile render without its lettering [Observed].
     - **Row 1, column 3** shows an amber room: huge angled glowing windows, a cyan ceiling disc, consoles along the window, and a long sunken floor opening with cyan-lit shapes below. It matches the base command deck and basement pods of Spacecraft2.jpg closely [Observed]. It is very likely a second Space Oddity view [Inference]. That leaves the "16 maps" count unexplained (see Open questions).
@@ -97,7 +97,8 @@ The map launched in Battle Bears Royale 1.0 (wiki date October 8, 2011) as **"Sp
   - **Lighting.** The 2026 playtests list lighting changes [Canon; Observed banner]. Any official still may differ from the launch build [Inference].
 - **Age of the official footage.**
   - The Steam trailer's class cards (Tillman, Graham, Oliver) match the 2013 BBG trailer thumbnails (rfAyqVJrli4 hq1–hq3) [Observed].
-  - The Space Oddity clip itself cannot be dated [Unverified]. Its pillar top blooms to near-white, while 2013 and 2021 fan thumbnails show the same top as grey-white stripes without bloom [Observed]. So the clip may be a newer or relit capture [Inference].
+  - The Space Oddity clip itself is in the 160×90 storyboard of that 2013 trailer: the same moment, bloom included, at 2013 35–36 s = Steam 30.85–31.95 s [Observed: side by side in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/review_ov/so_sb_check.jpg; maps overview, section 0, item 1]. So it is 2013 footage too [Inference, strong]. The match is at storyboard size only [Observed].
+  - Its pillar top blooms to near-white, while 2013 and 2021 fan thumbnails show the same top as grey-white stripes without bloom [Observed]. This once suggested a newer or relit capture [Inference], but the storyboard shows the bloom already in 2013. Why SkyVu's capture blooms more than fan captures is [Unverified].
 - **Battle Bears Heroes (2024):** the wiki's BBH page does not mention Space Oddity [Fan-wiki, checked by absence]. BBH is a 3v3 MOBA with "three-lane maps" [Fan-wiki]. Status [Unverified].
 
 ## Setting
@@ -356,7 +357,7 @@ Vertical 9:16 interior establishing shot of a compact, mirror-symmetric spaceshi
 
 **Unknown:** SkyVu's own description of the map (no archived per-map page found, and the Wayback Machine itself is unreachable), which side is red or blue, which boss hologram exists, and which 2026 modes include the map.
 
-**Partial:** the exact look of the 2026 build. The trailer clip cannot be dated, and the 2026 playtests list lighting and texture changes.
+**Partial:** the exact look of the 2026 build. The trailer clip is most likely 2013 footage [Inference, strong], and the 2026 playtests list lighting and texture changes. For the 2026 look, use the final-playtest (3.0.7) captures in the Space Oddity addendum, including SkyVu's own livestream, not the trailer or screen_01.
 
 ## Corrections to our notes
 
@@ -378,8 +379,8 @@ Vertical 9:16 interior establishing shot of a compact, mirror-symmetric spaceshi
    - **Current:** "    - Space Oddity: removed the unsupported "interior"."
    - **Correction:** "interior" is supported and can go back in.
    - **Evidence:** the wiki's first infobox (revision 16502) says "Type = Indoor". Every official view is enclosed, with ceilings, bulkheads and window walls (screen_01; trailer 30.0–32.8 s; BBG tile). The renders are captioned "Spaceship Level".
-4. **research_notes/Battle Bears character lore/animation_reference.md, line 150**
-   - **Current:** "Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves"
+4. **research_notes/Battle Bears character lore/animation_reference.md, Q1 §B "Art style as seen in official frames", the in-game 3D look entry under "In-game 3D and logo" (formerly line 150). Applied: the entry now names Space Oddity (screen_01; trailer about 30.0–32.8 s), Shortest Parsec and the H.I.P. Test Lab.**
+   - **Text at the time:** "Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves"
    - **Correction:** add that the Steam screenshots also include a matte amber-orange, olive and cyan spaceship interior: Space Oddity, screen_01, and the trailer at about 30.0–32.8 s. The glossy white and red interiors are Shortest Parsec (screen_02, screen_04) and the white and magenta lab (screen_00).
    - **Evidence:** pixel samples from the 30.0 s frame: window #7B3006–#9D430F, catwalk #48665A, pillar #1F2111, floor #A88F48, jump-pad cyan #38D5E4.
 5. **research_notes/BBG maps (unverified drafts)/research_space-oddity.md, line 52** (the repo copy of this draft)
@@ -402,8 +403,8 @@ Vertical 9:16 interior establishing shot of a compact, mirror-symmetric spaceshi
    - **Evidence:** File:Space_Oddity.png has no description, and the Battle Bears Gold page shows it only as a gallery image.
 9. **Same file, line 75**
    - **Current:** "So its Space Oddity gameplay is probably 2013-era footage too [Inference]."
-   - **Correction:** "The date of the Space Oddity clip is Unverified. In it the pillar top blooms to near-white. 2013 and 2021 fan thumbnails show the same top as grey-white stripes without bloom, which may point to a newer capture."
-   - **Evidence:** trailer frame at 30.0 s; ckiTgau1IbQ hq1 (BBG 2.5); n5wT1jEd_WY hq1 ("5y ago").
+   - **Correction (revised 2026-10-18):** "So its Space Oddity gameplay is 2013 footage too [Inference, strong]: the same moment, bloom included, is in the storyboard of SkyVu's May 2013 trailer (2013 35–36 s = Steam 30.85–31.95 s) [Observed]. Its pillar top blooms to near-white, while 2013 and 2021 fan thumbnails show grey-white stripes without bloom; why is Unverified." An earlier version of this correction made the date Unverified; the storyboard check overturned it.
+   - **Evidence:** trailer frame at 30.0 s; ckiTgau1IbQ hq1 (BBG 2.5); n5wT1jEd_WY hq1 ("5y ago"); the storyboard sheets named under "Age of the official footage".
 10. **Same file, line 72**
     - **Current:** "In the short's tier-list frame (oar2), the "13-16" row holds Sky View, Frozen Pundra and one other tile, and not Space Oddity [Observed]."
     - **Correction:** the third tile is Steam Yard Blues: brass ribs and a purple blimp, matching the Steam Yard Blues dossier.
@@ -420,7 +421,7 @@ Vertical 9:16 interior establishing shot of a compact, mirror-symmetric spaceshi
 - Which end of the map is red and which is blue?
 - Is row 1, column 3 of the "BBG Maps Ranked part 1" grid a second Space Oddity view, as it appears? If so, which map fills the 16th slot of "16 wacky maps"? And where did Space Oddity rank?
 - Which 2026 modes (TDM, FFA, PTB) include Space Oddity? Do both bombs still start on the central platform?
-- Did v3.0's "New Map Lighting" (2021) or the 2026 "Lighting improvements" change the palette? When was the Steam trailer's Space Oddity clip captured?
+- Did v3.0's "New Map Lighting" (2021) or the 2026 "Lighting improvements" change the palette? Why does the Steam trailer's Space Oddity clip (2013 footage [Inference, strong]) bloom more at the pillar top than 2013 fan captures?
 - What does the ship's exterior look like beyond the yellow-rimmed octagonal grilles? What are the eight rods on the top-down image, and which planet does the ship orbit?
 - Is the blue, cloudy background of the top-down image the in-game backdrop or an editor background?
 - Was the 2012 centre pickup really called "Bearzerker" in BBR, or was that a wiki naming error?

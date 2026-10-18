@@ -51,7 +51,7 @@ Marecraft is the BBG arena set inside the Marecraft Carrier, the giant unicorn t
   - 1.4.3: April 15, 2013 [Fan-wiki: Updates].
   - "This update has been released, but as 1.4.3.1" [Fan-wiki: BBR Version 1.4.3]. 1.4.3.1: Apr 23, 2013 [Fan-wiki: Battle Bears Royale infobox and Updates].
   - The wiki map page was created Apr 23, 2013 and last edited Aug 7, 2014 [Observed: API revision list, 48 revisions]. It therefore describes the 2013–14 game.
-  - The map page says "added in Update 1.4.3 of Battle Bears Gold", because BBR became BBG [Fan-wiki].
+  - The map page says "added in Update 1.4.3 of Battle Bears Gold", because the wiki files BBG as the same game, "previously known as Battle Bears Royale" [Fan-wiki]. BBG was not a plain rename: the wiki's own History section says the game "was re-released on the App Store as Battle Bears Gold, shutting down the original Battle Bears Royale app" on May 24, 2013, and its BBR page calls BBG "a completely separate app" [Fan-wiki].
 - **New weapons in the same update:** Dead Eye, Fairy's Dust (called "Fairy's Sparkle" in the 1.4.3.1 notes), Static Shuffle, Señor Potato Cannon, Sole's Bane and Gernobyl [Fan-wiki transcription].
 - **BBR and BBG lists:**
   - The BBR stage table lists Marecraft, illustrated with File:Imagefbvhiqhb.jpg [Fan-wiki].
@@ -67,7 +67,7 @@ Marecraft is the BBG arena set inside the Marecraft Carrier, the giant unicorn t
 - **2026 status: very likely in the launch roster, but not confirmed by name in official text** [Inference, strong]. The evidence:
   - (a) The Steam store text does not name Marecraft [Canon].
   - (b) The official soundtrack has track 8, "Marecraft", inside "the complete collection of map and menu music" [Canon].
-  - (c) The Steam trailer ("Battle Bears Gold Premium - Trailer", confirmed in the Steam API) shows Marecraft from about **38.3 to 41.5 s**. The shot starts just after the Riggs card (38.27 s) and ends where gold Oliver cuts to his class card (about 41.55 s) [Observed: my extracted frames]. The Oliver card at 42.8 s matches the 2013 BBG trailer thumbnail rfAyqVJrli4/maxres3: greyscale MSE 15.5, against about 6,000–7,800 for unrelated frames [Observed: my comparison]. So this shot is very likely 2013 footage [Inference, strong].
+  - (c) The Steam trailer ("Battle Bears Gold Premium - Trailer", confirmed in the Steam API) shows Marecraft from about **38.3 to 41.5 s**. The shot starts just after the Riggs card (38.27 s) and ends where gold Oliver cuts to his class card (about 41.55 s) [Observed: my extracted frames]. The Oliver card at 42.8 s matches the 2013 BBG trailer thumbnail rfAyqVJrli4/maxres3: greyscale MSE 15.5, against about 6,000–7,800 for unrelated frames [Observed: my comparison]. So this shot is very likely 2013 footage [Inference, strong]. It shows that SkyVu re-used Marecraft footage on the 2026 Steam page, not how the map looks in the 2026 build; for that, see (e).
   - (d) The official Short "BBG Maps Ranked part 1" (jkv6FHPghx8, BATTLE BEARS channel) was labelled "6 days ago" on Oct 18, 2026, so it was posted about Oct 12 [Observed: channel and Shorts pages].
     - Its oar1 thumbnail shows a 4 × 4 grid of 16 map tiles, with Marecraft at row 3, column 1 [Observed].
     - Its oar2 thumbnail shows a tier list in four rows (1–4, 5–8, 9–12, 13–16). Three non-Marecraft tiles are already placed in 13–16 [Observed].
@@ -284,8 +284,8 @@ Vertical 9:16 establishing shot from a low three-quarter angle, looking down the
    - Current text: "On the lava map (about 38.0–41.5 s)"
    - Correction: "On the Marecraft map (about 38.3–41.5 s; the flesh interior of the Marecraft Carrier, not lava)".
    - Evidence: same frames as item 1. Before 38.3 s the frame is the Riggs card.
-4. **/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md, line 150**
-   - Current text: "(Steam screenshots and the Steam trailer; the lava caverns are from the trailer)" and "there are lava/orange caverns and rocky caves".
+4. **/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md, Q1 §B "Art style as seen in official frames", the in-game 3D look entry under "In-game 3D and logo" (formerly line 150). Applied: the entry now names the Marecraft flesh interior and the Aztec Attack lava, and dates the trailer as most likely 2013 footage [Inference, strong].**
+   - Text at the time: "(Steam screenshots and the Steam trailer; the lava caverns are from the trailer)" and "there are lava/orange caverns and rocky caves".
    - Correction: the trailer's orange "cavern" at about 38.3–41.5 s is Marecraft's flesh interior, inside a giant unicorn. The trailer's only lava is Aztec Attack's central lava pool and surrounding lava sea, in the aerial shot at about 43.0–45.5 s. The Aztec temple shots at 12–16 s show a crimson sky, not lava. At least the class cards are reused from the 2013 BBG trailer.
    - Evidence: t_0078–t_0083 and my extracts f_38.4–f_41.4 (Marecraft); t_0087–t_0091 (Aztec lava); t_0025–t_0033 (temple, no lava). rfAyqVJrli4/maxres3 matches the Steam trailer at 42.8 s with MSE 15.5.
 5. **/home/user/thallo-site/reports/Battle Bears character lore.md, line 131**
@@ -298,7 +298,7 @@ Vertical 9:16 establishing shot from a low three-quarter angle, looking down the
    - Evidence: teaser maxresdefault zoom (work/tz_tower.png); _R4rvvGlRsM/maxres1; File:Jump_Pad.jpg; File:Aaaaa.jpg; search-page dates.
 7. **Additions, not errors:**
    - franchise_world.md line 347 quotes the patch line correctly. It is dated April 15, 2013 (1.4.3) and April 23, 2013 (1.4.3.1) on the wiki's Updates page.
-   - animation_reference.md line 76 quotes only the teaser's first sentence. The rest reads: "Now you can! Gear up, it's time to Battle Bears. New level coming to Battle Bears in update 1.4.3 on iOS and Android in April, 2013".
+   - animation_reference.md (Q1 §A, the Marecraft teaser entry; still line 76) quotes only the teaser's first sentence. The rest reads: "Now you can! Gear up, it's time to Battle Bears. New level coming to Battle Bears in update 1.4.3 on iOS and Android in April, 2013".
 
 ## Open questions
 - **Archived official page.** What exactly does battlebears.com/games/battle-bears-royale/maps/marecraft/ say: its headline, full blurb, the "projectile vomit" context, the Astoria tip and its images? Which capture should we cite: 20130621014954, or the "Sep 22, 2013" one linked only as /web/2013/ in astoria_graham_tillman.md, the lore report and bbg-news-repo/characters/astoria.md?

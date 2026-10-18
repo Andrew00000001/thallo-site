@@ -3,6 +3,7 @@
 Research date: 2026-10-13. Labels used throughout:
 - **[OFFICIAL]**: SkyVu-published text, such as battlebears.com, Steam or App Store copy written by SkyVu, or SkyVu-made character cards and videos.
 - **[OFFICIAL-ART via wiki]**: an image of an official SkyVu character card. The image is hosted on the fan wiki, and I have not verified where it was first published.
+- **[OFFICIAL, comic text]** (added 2026-10-18): text on a page of SkyVu's own comic. I read it from scans hosted on the fan wiki and, as with the cards, have not verified where the scans were first published.
 - **[WIKI]**: a claim found only on the fan-written Battle Bears Fandom wiki (battlebears.fandom.com). It has not been corroborated.
 - **[PRESS]**: third-party journalism.
 - **[INFERENCE]**: my own reasoning or my own reading of an image. It is not a sourced fact.
@@ -152,7 +153,10 @@ Many specific quotes, the voice actors and the relationship beats (Oliver's crus
 - [WIKI] He "is proven to be a robot or cyborg like Tillman": circuitry shows in his O.C.O. form and on the BBG "Skinless" skin, and machinery is visible in BB-1. This is partly corroborated by the 2009 press description "an advanced robotic teddy bear named Oliver." — [Wiki: Oliver](https://battlebears.fandom.com/wiki/Oliver); [Silicon Prairie News](https://siliconprairienews.com/?p=361)
 - [WIKI] "Oliver is classified as the most dangerous Battle Bear according to the H.I.P. files due to his ability to overclock." No source is given; wiki-only. — [Wiki: Oliver](https://battlebears.fandom.com/wiki/Oliver)
 - [WIKI] Comic lore: "Mentioned on Battle Bears: The Comic, Oliver is actually a maintenance bear, but he has a soldier's pack on his back just in case." — [Wiki: Oliver](https://battlebears.fandom.com/wiki/Oliver)
+  - The comic itself carries the "maintenance bear" line. On a page of Chapter 1, "No Re-Entry", Oliver tells Riggs: "I'M JUST A MAINTENANCE BEAR. YOU GUYS ARE THE PROS." The next page in the wiki's gallery has the captions "YOU MAY WORK AS THIS SHIP'S MAINTENANCE BEAR..." / "...BUT YOU'VE GOT THE MAKNGS [sic] OF A SOLDIER IF I'VE EVER SEEN ONE." [OFFICIAL, comic text] — [File:Comics_7_(Real).jpg](https://battlebears.fandom.com/wiki/File:Comics_7_(Real).jpg); [File:Comics_8.jpg](https://battlebears.fandom.com/wiki/File:Comics_8.jpg)
+    - [INFERENCE] The speakers are my reading of the art: the brown bear whose head Riggs pats answers "C'MON RIGGS." in the next panel, and the Comics_8 captions read as Riggs's praise continuing. Oliver wears green pack straps in Comics_7_(Real), but neither page mentions a "soldier's pack… just in case," which stays [WIKI].
   - The comics were "written by SkyVu Entertainment and published by Devils Due Digital Inc." They fill gaps between BB-1, BB Zombies and BB Zero "from the perspective of Oliver and Riggs." — [Wiki: Battle Bears Comics](https://battlebears.fandom.com/wiki/Battle_Bears_Comics)
+    - The Chapter 1 credits page, also a wiki-hosted scan, reads "STORY: BENJAMIN VU, JOSH BLAYLOCK" and "SCRIPT: JOSH BLAYLOCK, BENJAMIN VU" and carries the SkyVu pictures and POPCULT logos. [OFFICIAL, comic text] — [File:Comics_2.jpg](https://battlebears.fandom.com/wiki/File:Comics_2.jpg). So SkyVu's Ben Vu (the About page's "Coraline animator Ben Vu") co-wrote Chapter 1 at least [INFERENCE]. The page does not say who co-writer Josh Blaylock worked for, so "written by SkyVu" is only partly borne out. The publisher (Devils Due Digital), the number of comics and SkyVu's authorship of the other issues stay [WIKI].
 - [WIKI] "Oliver's character design is based on the Brown bear." — [Wiki: Oliver](https://battlebears.fandom.com/wiki/Oliver)
 - [WIKI] The only boss Oliver fears is the Colbear, "because of its gigantic size and terrifying voice." — [Wiki: Oliver](https://battlebears.fandom.com/wiki/Oliver)
 - [WIKI] O.C.O. (Over-Clocked Oliver):
@@ -232,7 +236,7 @@ Many specific quotes, the voice actors and the relationship beats (Oliver's crus
 ### Gaps
 - No official confirmation of any voice actor. Game credits and MobyGames were not reachable or not found.
 - I could not verify the BBF dialogue claims (Astoria crush, dislike of Riggs, BFF toe rings) or the BB-1 "time paradox bad ending" without the cutscene videos, which YouTube blocked.
-- The comic content ("maintenance bear") could not be checked. The comics are reportedly no longer accessible.
+- The comic's "maintenance bear" line is now checked against wiki-hosted scans: "I'M JUST A MAINTENANCE BEAR. YOU GUYS ARE THE PROS." (File:Comics_7_(Real).jpg) and the caption "YOU MAY WORK AS THIS SHIP'S MAINTENANCE BEAR..." (File:Comics_8.jpg) [OFFICIAL, comic text]. Still open: the comics themselves are reportedly no longer accessible (the wiki says neither the physical nor the mobile version can be publicly accessed), so only the pages the wiki hosts can be read, and the wiki's "soldier's pack… just in case" is not in the two pages quoted.
 
 ---
 
@@ -575,7 +579,7 @@ Most claims checked out verbatim. That includes every official quote, every wiki
 **Still unverified (wiki-only; kept with [WIKI] labels):**
 - the BBF dialogue beats (Astoria crush, dislike of Riggs, BFF toe rings)
 - the BB-1 "time paradox bad ending"
-- the comic's "maintenance bear" line
+- the comic's "soldier's pack… just in case" detail (the "maintenance bear" line itself is now [OFFICIAL, comic text]; see correction 6 below)
 - the H.I.P. "most dangerous" file
 - all voice-actor credits
 - ABBi's "Property of the Battle Bears" lens text (not visible in File:ABBi.png)
@@ -587,3 +591,5 @@ Each was re-checked against its source before editing: the wiki API, the Steam a
 3. Sky World / Sky Pirates: SkyVu's Short "Sky Pirates in BBG!" (CwxpBZg6Fi4, Sep 7, 2026) pairs the two names, so "no source says so" was wrong. The identity is now a strong [INFERENCE], and the map's Overclock origin is [WIKI].
 4. Tutorial: the full wiki kit is now listed. The Steam copy never mentions the Tutorial (no "tutorial" anywhere in the appdetails, re-fetched 2026-10-18), so "Corroborated by the Steam copy" was withdrawn and the link is now my [INFERENCE].
 5. Playtests: the list of Discord playtest announcements stopped at the fourth. The Steam News API (re-fetched 2026-10-18) has a fifth post, dated 2026-10-14, for "The next and final" playtest on Oct 15, so five playtests were announced, not four. Added as the fifth entry.
+6. Maintenance bear: wiki-hosted scans of SkyVu's comic carry the line. "I'M JUST A MAINTENANCE BEAR. YOU GUYS ARE THE PROS." (File:Comics_7_(Real).jpg) and the caption "YOU MAY WORK AS THIS SHIP'S MAINTENANCE BEAR..." (File:Comics_8.jpg) are now [OFFICIAL, comic text]. The wiki's paraphrase stays [WIKI], the Gaps entry ("could not be checked") was replaced, and only the "soldier's pack" detail stays on the unverified list.
+7. Comic credits: the Chapter 1 credits page reads "STORY: BENJAMIN VU, JOSH BLAYLOCK" and carries the SkyVu pictures logo (File:Comics_2.jpg). So SkyVu's Ben Vu co-wrote Chapter 1 at least [INFERENCE], which partly bears out the wiki's "written by SkyVu"; the page does not say who Josh Blaylock worked for. The publisher, the number of comics and SkyVu's authorship of the other issues stay [WIKI].

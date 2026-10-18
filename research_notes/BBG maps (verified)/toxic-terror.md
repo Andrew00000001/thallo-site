@@ -255,7 +255,7 @@ Image IDs (I1–I20) refer to "Images viewed".
 - **The O+A heart.** The carving is in the game [Observed: I1]. The wiki reads it as Oliver + Astoria, "for in Battle Bears Fortress, Oliver states that he has a crush on Astoria" [Fan-wiki, Unverified]. The 2013 text read "Oliver says that he loves Astoria" [Fan-wiki rev 56455]. The romance is not canon [Inference from the absence of SkyVu text].
 - **Tally marks.**
   - In game: about five chalk tally groups on the Blue-base wall [Observed: I6].
-  - The 2013 wiki text said "scratch marks on the walls marking 22 days" (revisions 54885–56592), later "Tally marks" [Fan-wiki].
+  - The 2013 wiki text said "scratch marks on the walls marking 22 days" (revisions 54885–56594), later "Tally marks" [Fan-wiki].
   - The concept shows about 22–23 strokes [Observed concept: I5 panel 5; count approximate].
 - **Teenage Mutant Ninja Turtles weapons** beside the tallies [Fan-wiki][Observed: I6; concept I5]. A sewer, Turtle weapons, tally marks and a masked critter read as a TMNT sewer-lair gag [Inference].
 - **"Drawing of Botch":** a wiki claim [Fan-wiki]. It is not identifiable in any image I opened. The visible wall drawings are three chalk bears (I2), plus faint outlines in I8 hq3. None is identifiable as Botch [Observed].
@@ -433,7 +433,7 @@ Provenance of each element:
 6. **/home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md (line 278)**
    - Current text: '- Toxic Terror map (BBG 2.3): "Because the map is filled with radioactive waste, it might be a hint to Botch's origins. There are also Tally marks on the walls and a drawing of Botch."'
    - Correction: add the following.
-     - The 2013 wording was "scratch marks on the walls marking 22 days" (wiki revisions 54885–56592).
+     - The 2013 wording was "scratch marks on the walls marking 22 days" (wiki revisions 54885–56594).
      - The tallies are [Observed].
      - The "drawing of Botch" is unconfirmed in every image opened.
 7. **Gap, not an error.** No note records any of these yet:

@@ -97,7 +97,7 @@ This is the verified and edited version of the draft. Everything below was re-fe
      - oar2 shows a tier list with rows "1-4", "5-8", "9-12" and "13-16". The Frozen Pundra tile sits in "13-16" between a night crane-and-water tile and the Steam Yard Blues tile [Observed]. That reads as a bottom-four placing, but I cannot see the end of the video [Inference].
      - **Caveat:** the same grid image is the thumbnail of a fan upload (wbA2-0AfJ7A, "Battle Bears Gold Soundtrack: Frozen Pundra", "1mo ago") [Observed]. It shows no tile of the new Sky World village [Observed]. So the grid is a collage of classic-era tiles of unknown capture date, not proof of the 2026 roster [Inference].
   4. Steam's "16 wacky maps" [Canon]. 15 legacy maps plus the one named new map, "New Map: Sky World" (Steam news, Aug 19, 2026) [Canon], would make 16 [Inference]. SkyVu's homepage, though, promises "new modes, maps" in the plural [Canon], so the count is not settled.
-- **Not shown elsewhere in 2026:** the map is not in the Steam trailer, the five Steam screenshots, the four Steam news banners, the frames of the other official 2026 videos and shorts I checked, or the auto-frames of seven fan 2026 playtest videos [Observed].
+- **Not shown elsewhere in 2026:** the map is not in the Steam trailer or the five Steam screenshots (most likely 2013 footage [Inference, strong], from before this 2014 map), the four Steam news banners, the frames of the other official 2026 videos and shorts I checked, or the auto-frames of seven fan 2026 playtest videos [Observed].
 - **2026 modes:**
   - Steam lists "-Team Deathmatch (TDM) -Free for All (FFA) -Plant the Bomb (PTB)" [Canon].
   - A team mode appears on (probably) this map in the Aug 2026 frame [Observed + Inference].
@@ -320,12 +320,12 @@ Vertical 9:16 establishing shot inside a vast, fully enclosed ice cave, from a s
 ---
 
 ## Corrections to our notes
-1. **/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md, line 81.**
-   - Current text: `"2.7 'Frozen Pundra'" (Jan 22, 2014) — [Ev5WvMIp1_4](https://www.youtube.com/watch?v=Ev5WvMIp1_4)`
+1. **/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md, Q1 §A, "Map fly-throughs" (line 81). Applied: the entry now carries the full title, the 0:31 length, the description and the Jan 22, 2014 date, which the Frozen Pundra addendum verified.**
+   - Text at the time: `"2.7 'Frozen Pundra'" (Jan 22, 2014) — [Ev5WvMIp1_4](https://www.youtube.com/watch?v=Ev5WvMIp1_4)`
    - Correction: use the exact official title, `BATTLE BEARS GOLD Update 2.7 "Frozen Pundra" Map Preview`, with length 0:31. The description begins "Check out this epic fly through of the new map coming to BATTLE BEARS GOLD in Update 2.7! Are you excited? Get Battle Bears ...". Mark the Jan 22, 2014 date as not re-verified (YouTube shows "12y ago").
    - Evidence: oEmbed for Ev5WvMIp1_4; YouTube search page at `…/frozen_pundra_verify/yt/search_pundra.html`.
-2. **Same file, line 100 (an addition).**
-   - Current text: `"BBG Maps Ranked part 1" (Oct 11)`
+2. **Same file, Q1 §A, the 2026 Shorts entry (formerly line 100; an addition). Applied: its two sub-bullets now carry the grid and tier-list frames, the fan-upload caveat and the "Playtest Highlights Part 2" short.**
+   - Text at the time: `"BBG Maps Ranked part 1" (Oct 11)`
    - Correction: add the following.
      - Its frames show a 16-tile map grid that includes Frozen Pundra, and a tier list (rows 1-4 / 5-8 / 9-12 / 13-16) with Frozen Pundra in "13-16".
      - The same grid is the thumbnail of a fan upload (wbA2-0AfJ7A) and contains no Sky World tile, so it is not proof of the 2026 roster.

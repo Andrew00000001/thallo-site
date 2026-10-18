@@ -51,12 +51,15 @@ This page does not repeat per-map detail. Where the inputs disagreed, I re-opene
 
 ## 0. Five facts that change how the evidence reads
 
-1. **The Steam trailer and all five Steam screenshots show the classic 2013 look, not the 2026 build.**
+1. **The Steam trailer and all five Steam screenshots do not show the 2026 look. They are most likely re-used 2013 footage.**
    - The trailer is "Battle Bears Gold Premium - Trailer" [Canon]. Its class cards are pixel-identical to SkyVu's May 30, 2013 trailer rfAyqVJrli4 [Observed: greyscale MSE 3.6–6.2 against medians of 6,490–7,476].
+   - Its gameplay matches that trailer's YouTube storyboard (160×90, one frame a second) at a constant offset of about 4 s: 45 of the 55 storyboard frames from 5 to 59 s match, including the Graham segment and the Space Oddity clip [Observed: storyboard comparison recorded in research_notes/BBG weapons (verified)/2026.md, "The Steam trailer is 2013 footage"; sheets and frames re-opened for this page, side by side in scratchpad review_ov/so_sb_check.jpg].
    - It shows exactly the 8 classes of the 2013 description, "Choose from 8 classes" [Canon; Observed].
    - It shows only maps that existed in May 2013 [Observed].
    - Each screenshot is a frame of the trailer [Observed].
-   - So the gameplay is 2013 footage [Inference, strong]. Only the cards are pixel-matched, and one Space Oddity shot has a bloomed pillar top that 2013–2021 fan captures lack [Observed]. Caption these images "classic 2013 look", never "2026 gameplay".
+   - So the gameplay is 2013 footage that SkyVu re-used on the 2026 Steam page [Inference, strong]. The cards are matched at full size, the gameplay only at storyboard size [Observed]. Call these images "the Steam trailer" or "Steam screenshot screen_0N", caption them "classic 2013 look" where the era matters, and never "2026 gameplay".
+   - **The Space Oddity clip** (about 30.0–32.8 s; screen_01 is a frame of it) is 2013 footage too [Inference, strong]. The Space Oddity dossier leaves its capture date open, because its pillar top blooms to near-white, which 2013–2021 fan captures lack [Observed], and allows a newer or relit capture [Inference]. But the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed]. Why SkyVu's capture blooms more than fan captures is [Unverified]. It does not show the Oct 2026 lighting either [Observed: so_steam_vs_hk.jpg, Space Oddity addendum].
+   - **The Graham segment** (about 7.25–10.5 s, Gold Digger) is 2013 footage too [Inference, strong]: it is in the 2013 storyboard (2013 12–13 s = Steam 7.95–8.95 s) [Observed]. graham.md once dated it "probably a 2018-or-later capture" from its toon outlines alone, but some 2013 fan captures already have outlines (Gold Graham, Jul 2013; circuit-skin Graham, Sep–Nov 2013) [Observed: graham.addendum.md, Incidental findings 1]. Dec 2013 fan captures of its Instagraham skin have none [Observed], so why the trailer's Graham is outlined stays open [Unverified].
 2. **SkyVu's 2026 text names only five maps** [Canon]:
    - four on Steam: "No Bears Land, Gold Digger and Space Oddity" and "Steamyard Blues";
    - the new "Sky World" / "Sky Pirates".
@@ -217,7 +220,7 @@ Full evidence is in the conventions dossier.
 - The Oct 2026 No Bear's Land banner shows the Sandwich face and a green shield icon on the keep roof [Observed; identification Inference].
 
 **Jump pads**
-- One design everywhere: a dark octagon with a yellow-and-black hazard rim, a glowing cyan star core and stacked cyan rings. It is the same in 2013 and in 3.0.7 [Observed].
+- One design everywhere: a dark octagon with a yellow-and-black hazard rim, a glowing cyan star core and stacked cyan rings. It is the same in the Steam trailer (2013 footage [Inference, strong]) and in 3.0.7 [Observed].
 - None on Skate or Die, Sky View or Toxic Terror [Fan-wiki].
 - The wiki says Aztec has 12; the top-down render shows 14 markers [Fan-wiki; Observed].
 
@@ -241,7 +244,7 @@ Full evidence is in the conventions dossier.
 **Art direction of the game**
 - Chunky low-poly geometry with hand-painted textures [Observed].
 - One dominant hue plus an accent per map, mood carried by coloured practical light (lava, moon, neon, gems, the laser) [Observed].
-- No ink outline on environments [Observed]. Characters have a thick outline in the 2013 trailer and in 2026 captures, but not in 2012–14 phone captures [Observed].
+- No ink outline on environments [Observed]. Characters have a thick outline in the Steam trailer (2013 footage [Inference, strong]) and in 2026 captures [Observed]. It is absent from most 2012–14 phone captures (some 2013 fan captures of Gold and circuit-skin Graham have it; graham.addendum.md, Incidental findings 1) [Observed].
 - "All assets in this game are created by human artists." [Canon]
 
 **Scale**
@@ -311,7 +314,7 @@ These rules are production policy. Their basis is the house files, `bbg-news-rep
 
    If a gag needs one of these, its description says it is a fan take.
 3. **Pick one era per short and say which.**
-   - **"Classic 2013 look":** the trailer, the screenshots and 2013–14 captures.
+   - **"Classic 2013 look":** the Steam trailer and screenshots (2013 footage [Inference, strong]; section 0) and 2013–14 captures.
    - **"2026 look":** only from 3.0.7 frames, the CT5 banner, or demo footage.
    - Level-select tile art and pre-Oct-15 2026 footage are not proof of the 2026 look (section 0).
 4. **Keep the documented time of day and one lighting setup per scene**, per STYLE.md [house style]:
@@ -378,15 +381,20 @@ Each fix lists its evidence. Minor per-map fixes are indexed at the end of this 
 
 **A. What a short would show**
 
-1. **The trailer and screenshots are classic 2013 footage.**
-   - Where: research_aztec-attack.md:54; research_shortest-parsec.md:3, 168 and the line-400 question; combat-vfx.md:74 and 113, which say the ink outline was "added in 2026"; and every "2026 trailer" caption.
-   - Fix: write "Steam trailer (2013 footage) [Inference, strong]". The ink outline is already in 2013 footage, also appears in 2026 in-game captures, and is absent from 2012–14 phone captures [Observed].
+1. **The Steam trailer and screenshots are classic 2013 footage, the Space Oddity clip included.**
+   - Where:
+     - research_aztec-attack.md:54; research_shortest-parsec.md:3, 168 and the line-400 question;
+     - combat-vfx.md (Quick summary of the conventions; Overall VFX style, "Ink outline"; formerly lines 74 and 113), which said the ink outline was "added in 2026" (applied);
+     - graham.md ("Two big caveats" item 1; Shared visual systems, "Outlines"; Verifier's corrections, item 1; the "2026 Steam trailer" caption under Corrections for the character file), which dated the Graham segment "2018-or-later" from its outlines and called it "the only official 2026 depiction of Graham's weapons" (applied);
+     - every "2026 trailer" caption: applied in abusement-park.md, h-i-p-test-lab.md, shortest-parsec.md, sky-view.md, steam-yard-blues.md and story-locations.md; still open in quickref_all.json (Abusement Park "palette_and_lighting", Sky View "in_2026");
+     - every note that calls the Space Oddity clip's capture date open, for example space-oddity.md (Era and status, "Age of the official footage"; Confidence), space-oddity.addendum.md ("Trailer age"), 2026-lineup.md, environment-conventions.md, story-locations.md, shortest-parsec.md, animation_reference.md (Q1 §A, the Steam store trailer entry; Q1 §B, the Era bullet) and, in the weapons notes, tillman.md ("Era warning"), huggable.md, wil.addendum.md and combat-vfx.md ("Eras", BBG 2026).
+   - Fix: write "Steam trailer (2013 footage) [Inference, strong]", for the Space Oddity clip (about 30.0–32.8 s) and screen_01 too: the clip is in the storyboard of SkyVu's May 2013 trailer [Observed] (section 0, item 1). Only its bloom is unexplained [Unverified]. The ink outline is already in the Steam trailer's 2013 footage and in some 2013 fan captures (Gold and circuit-skin Graham; graham.addendum.md, Incidental findings 1). It also appears in 2026 in-game captures and is absent from most 2012–14 phone captures [Observed; trailer date Inference, strong]. So the outline does not date the Graham segment to 2018 or later.
    - Evidence: section 0, item 1.
 2. **There are no "lava caverns".**
    - Where:
-     - animation_reference.md:150 and its sub-bullet;
+     - animation_reference.md, Q1 §B "Art style as seen in official frames" (the in-game 3D look entry and its sub-bullets; formerly line 150; applied);
      - oliver.md and visuals_oliver.md:186 ("lava map");
-     - 2026.md, including line 138, and the scratchpad visuals_2026.md ("38.6–41.0 s, lava cave");
+     - 2026.md, including the 38.3–41.5 s row of the trailer table (The Steam trailer is 2013 footage; formerly line 138; applied), and the scratchpad visuals_2026.md ("38.6–41.0 s, lava cave");
      - combat-vfx.md, combat-vfx.meta.json:228 and visuals_combat-vfx.md:463 ("Aztec maps", plural).
    - Fix [Observed]:
      - The lava is the single open-air Aztec Attack map (≈12.2–16.4 s, 43.1–45.5 s).
@@ -402,7 +410,7 @@ Each fix lists its evidence. Minor per-map fixes are indexed at the end of this 
      - cKOHCD5LBN8's crescent flies over No Bear's Land, not Sky View (oliver.addendum.md, _critic_r1.json).
    - Evidence: cut detection on the trailer; the screenshot pixel matches; wiki overheads.
 4. **Space Oddity's "flame jets" are fries VFX from the Señor Potato Cannon, not map vents.**
-   - Where: combat-vfx.md:601 and visuals_combat-vfx.md:346.
+   - Where: combat-vfx.md, Fire and burning (formerly line 601; applied) and visuals_combat-vfx.md:346.
    - Evidence: screen_01 crop [Observed]; no fire hazard is documented [Fan-wiki].
 5. **Haunted Castle's lights are carved jack-o'-lanterns on plank brackets, not flame torches.**
    - Where: research_haunted-castle.md (intro, palette, prompt) and the conventions dossier §3 and §10 ("orange wall torches", "lit by orange torches").
@@ -412,7 +420,7 @@ Each fix lists its evidence. Minor per-map fixes are indexed at the end of this 
    - Where: franchise_world.md ("mining cave"), animation_reference.md, research_gold-digger.md.
    - Also: the rock stays warm to its crest (no "cool moonlight" on it), and the carts hold a flat glowing gold load [Observed].
 7. **The Toxic Terror "O+A" carving.**
-   - Where: the lore report, oliver.md, astoria.md, franchise_world.md:224, huggable_botch_b1000.md.
+   - Where: the lore report, oliver.md, astoria.md, franchise_world.md:238 (Q2-E), huggable_botch_b1000.md.
    - Fix:
      - A heart carved in bark is in the game [Observed: File:O+A.jpg, re-opened: BBG reticle, heart outline]. Its inner ring- and cross-like marks are too faint to read with confidence, so "O+A" stays [Fan-wiki], and the Oliver+Astoria meaning is not canon.
      - Tally marks beside a Ninja-Turtle-style weapon rack are observed [Observed]; the 2013 wiki said "22 days" [Fan-wiki].
@@ -425,7 +433,7 @@ Each fix lists its evidence. Minor per-map fixes are indexed at the end of this 
 **B. 2026 lineup and status**
 
 9. **Five playtests, not four. Sky World and Sky Pirates are one map, new to BBG.**
-   - Where: evergreen.json fact-playtests (headline "4 PLAYTESTS DOWN", body, caption); franchise_world.md:19, 227 ("returns"), 253, 404; oliver_riggs_wil.md:252, 554; animation_reference.md (Sky Pirates line); 2026.addendum.md ("Fans call this map 'Sky Pirates'").
+   - Where: evergreen.json fact-playtests (headline "4 PLAYTESTS DOWN", body, caption); franchise_world.md:20 (Q1 takeaway), 246 ("returns"; Q2-E), 272 (Q3 takeaway), 430 (fact-check log); oliver_riggs_wil.md (the 2026 Takeaway's "a map new to BBG" bullet; the fact-check log's "Sky World / Sky Pirates" entry); animation_reference.md (Sky Pirates line); 2026.addendum.md ("Fans call this map 'Sky Pirates'").
    - Evidence:
      - Oct 14 post: "The next and final … playtest" [Canon, re-fetched].
      - CwxpBZg6Fi4 "Sky Pirates in BBG!": "Enjoy the highlights from our Sky World playtest!" [Canon].
@@ -454,7 +462,7 @@ Each fix lists its evidence. Minor per-map fixes are indexed at the end of this 
     - research_space-oddity.md and its meta: all three store modes plus the relight;
     - research_aztec-attack.md (modes);
     - research_gold-digger.md (modes).
-14. **Steam lists Windows only.** Where: the lore report line 29, "Steam (Windows and Mac)". Evidence: appdetails `{'windows': True, 'mac': False, 'linux': False}` [Canon, re-fetched today].
+14. **Steam lists Windows only.** Where: the lore report line 29, "Steam (Windows and Mac)" (applied); franchise_world.md (Q1-I, Q3 takeaway, Q3-D; applied). Evidence: appdetails `{'windows': True, 'mac': False, 'linux': False}` [Canon, re-fetched today].
 15. **Prompt wording conflicts with the house style.**
     - Where: research_gold-digger.md:228; the lineup dossier's Sky Pirates prompt ("chunky low-poly geometry"); the conventions dossier's example prompt ("low-poly shapes").
     - Fix: drop "low-poly" (it is on the shared negative list) and apply rule 10. Also replace the Jolly Roger "keep it" note with rule 7.
@@ -468,24 +476,24 @@ Each fix lists its evidence. Minor per-map fixes are indexed at the end of this 
 17. **Haunted Castle and Desert Airmine both returned.**
     - Haunted Castle in 2.4 (Oct 24, 2013): "To celebrate the holiday, the Haunted Castle map has made a return!" [Canon, saved 2.4 notes].
     - Desert Airmine in 2.7 [Fan-wiki].
-    - Fix franchise_world.md:276.
+    - Fix franchise_world.md:297 (Q3-B, map count).
 18. **Castle Royale and Steam Yard Blues.**
     - "Castle Royale" is most likely the 2018 Battle Royale map [Inference]. It shares a castle kit with Haunted Castle but is a different map [Observed].
     - Steam Yard Blues was the last new *team-mode* arena, not the last arena (research_steam-yard-blues.md).
     - "v2.32" was SkyVu's pre-release number for what shipped as 2.50 [Inference] (graham.addendum.md).
 19. **Version tables.**
-    - The wiki's Updates page continues past 2.25 to 3.0.1, Dec 18, 2021 [Game text via wiki] (visuals_2026.md).
+    - The wiki's Updates page continues past 2.25 to 3.0.1, Dec 18, 2021 [Game text via wiki] (visuals_2026.md; research_notes/BBG weapons (verified)/2026.md, Builds seen in 2026 footage, "Context", and the "2.54.0" open question; formerly lines 100 and 877; applied).
     - Both 2.54.0 and 3.0.x builds appear in 2026 [Observed]. Which one ships is unverified.
 
 **D. Lore-side, from the story-locations pass**
 
 20. **Captain Malcolm is named in SkyVu's own comic:** "MALCOLM AND THE OTHERS CAN TAKE CARE OF THEMSELVES" [Canon comic text; Observed: Comics_12.jpg]. Only "Captain" and "leader" are wiki-only.
-    - Where: the lore report; astoria.md:45, saberi.md:49, sanchez.md:57.
-21. **The comics carry SkyVu credits:** "STORY: BENJAMIN VU, JOSH BLAYLOCK" [Observed: Comics_2.jpg]. Only the count and the publisher (Devil's Due Digital) are wiki-only [Fan-wiki].
+    - Where: the lore report; the character files astoria.md:46, saberi.md:49, sanchez.md:58; franchise_world.md (Q2 takeaway, Q2-B; applied).
+21. **The comic's Chapter 1 credits page carries SkyVu credits:** it reads "STORY: BENJAMIN VU, JOSH BLAYLOCK" beside the SkyVu pictures logo [Observed: Comics_2.jpg]. That is the only credits page seen. The count of comics, the publisher (Devil's Due Digital) and SkyVu's authorship of the other issues are wiki-only [Fan-wiki].
 22. **ABBi's lens reads "Warning: Exposure to fat evokes sarcasm."** [Observed: ABBi.png]. "Property of the Battle Bears" is not visible [Unverified].
     - Where: the lore report, franchise_world.md, oliver_riggs_wil.md.
-23. **"Pelicant" (no apostrophe) is SkyVu's spelling** [Canon comic text]. The apostrophe form is the wiki's [Fan-wiki].
-    - Where: franchise_world.md, lore report line 21.
+23. **SkyVu uses both spellings, "Pelicant" and "Pelican't".** The comic writes "PELICANT SHIPS" and "PELICANTS" [Canon comic text]. SkyVu's 2010 BB-1 soundtrack titles track 11 "Get To the Pelican'ts!" [Canon: Apple Music album 383419699, ℗ 2010 SkyVu Pictures Inc.]. So the apostrophe form is not the wiki's alone; only the Halo-pun reading is [Fan-wiki].
+    - Where: franchise_world.md (Q2-B, Q4-B, fact-check item 10 and maps-corrections item 7, which treated the apostrophe form and the track title as wiki-only; applied); story-locations.md (§4.1 and Corrections item 4, which called them the wiki's; applied); lore report line 21 (applied).
 24. **The gravestone is a credits-style easter egg, not evidence that Grimes died.** The wiki says "It is unknown whether he died" [Fan-wiki].
     - Where: franchise_world.md, saberi_sanchez.md.
 25. **The Space Oddity hologram subject is conflicting** (Mecha-Bearzerker or Spaceboss) [Fan-wiki]. The only image is a "Death Star" wireframe sphere [Observed]. "Interior" is supported and should be restored [Observed].
@@ -496,6 +504,8 @@ Each fix lists its evidence. Minor per-map fixes are indexed at the end of this 
     - The Assassin-leak quote belongs to the Assassin (BBG) page [Fan-wiki] (lore report).
     - The Huggable-only Shortest Parsec egg claim is contested and outdated [Fan-wiki] (huggable_botch_b1000.md, huggable.md, visuals_huggable.md).
     - The Steam copy never mentions the Tutorial, so it does not corroborate the Tutorial kit [Canon, by absence] (oliver_riggs_wil.md, lore report).
+    - Oliver's "maintenance bear" job is SkyVu's comic text, not wiki-only: "I'M JUST A MAINTENANCE BEAR. YOU GUYS ARE THE PROS." and "YOU MAY WORK AS THIS SHIP'S MAINTENANCE BEAR..." [Canon comic text; Observed: Comics_7_(Real).jpg, Comics_8.jpg; recorded in story-locations.md §1] (lore report and oliver_riggs_wil.md, which had labelled it wiki-only; applied).
+    - The comic's Astoria line is cut off: "BUT WHAT ABOUT ASTORIA AND THE-" [Canon comic text; Observed: Comics_13.jpg; recorded in story-locations.md §1]. That she and Tillman were "on another ship" is the wiki's reading [Fan-wiki] (lore report and astoria_graham_tillman.md; applied).
     - H.I.P. as an Evangelion parody is stated by the wiki [Fan-wiki] (research_h-i-p-test-lab.md).
 
 **E. Workflow briefs**
@@ -531,7 +541,7 @@ This table summarises the dossiers' confidence lines [Inference].
 | Map | Classic look | 2026 look | Layout | In 2026 |
 |---|---|---|---|---|
 | No Bears Land | observed | observed (banner; low-res storyboards) | observed (overhead) | Canon |
-| Gold Digger | observed | partial | partial (2013 aerial; no overhead) | Canon |
+| Gold Digger | observed | partial | partial (Steam trailer aerial, 2013 footage; no overhead) | Canon |
 | Space Oddity | observed | observed, low-res | partial | Canon |
 | Steamyard Blues | observed (2014 preview) | observed, low-res | partial (no overhead) | Canon |
 | Sky Pirates | n/a | partial (pre-Oct 15 only) | unknown | Canon |
@@ -540,8 +550,8 @@ This table summarises the dossiers' confidence lines [Inference].
 | Abusement Park | observed | partial | observed (overhead) | strong inference |
 | Shortest Parsec | observed | partial | observed (overhead) | strong inference |
 | Marecraft | observed | partial | observed (overhead) | strong inference |
-| Sky View | observed | partial | partial (2013 aerial) | strong inference |
-| Skate or Die | observed | partial | partial (2013 aerial) | strong inference |
+| Sky View | observed | partial | partial (Steam trailer aerial, 2013 footage) | strong inference |
+| Skate or Die | observed | partial | partial (Steam trailer aerial, 2013 footage) | strong inference |
 | Desert Airmine | observed | observed, low-res | observed (overhead) | strong inference |
 | Haunted Castle | observed | observed, low-res | observed (overhead) | strong inference |
 | Frozen Pundra | partial (preview) | observed, low-res | partial (no overhead) | strong inference |

@@ -93,10 +93,12 @@ Gold Digger is a Battle Bears Gold (BBG) map set in a gold mine at night. The ma
     - The livestream description says "Steam Next Fest Oct 19-21" [Canon].
     - An official stream, "Steam Next Fest Demo Party with BBG Devs", is scheduled for Oct 19, 2026 [Canon].
     - Whether the demo includes Gold Digger is unknown [Unverified].
-- **The Steam trailer is probably 2013-era gameplay.**
+- **The Steam trailer is most likely 2013 gameplay that SkyVu re-used on the 2026 Steam page.**
   - Its Graham, Tillman and Oliver cards (frames `t_0023`, `t_0059`, `t_0085`) match the 2013 trailer's auto-thumbnails `rfAyqVJrli4` hq1, hq2, hq3 and maxresdefault exactly [Observed].
   - It opens on the current logo (`t_0002`) [Observed].
   - Its Gold Digger footage is therefore probably 2013-era [Inference].
+  - A later check matched the gameplay too, not only the cards, against the 160×90 storyboard of that 2013 trailer. Storyboard frames at 2013 8 s, 12–13 s and 57 s match the Steam trailer at about 4.0 s (B-1000 under the moon), 8.0–9.0 s (Graham) and 53.0 s (the overhead), one in each Gold Digger segment [Observed: match table `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/edit2026_tr/sb_match.txt`, cited in the maps overview, section 0, item 1; side by side in `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/rev_gd/gd_sb_check.jpg`]. So the Gold Digger footage is 2013 footage [Inference, strong].
+  - The Graham shot at 7.0–10.0 s is no exception: its frames at about 8.0 and 9.0 s are among those storyboard matches [Observed]. A weapons note had dated it "2018 or later" from Graham's toon outlines, but some 2013 fan captures already show those outlines (Gold Graham, July 2013; the circuit-pattern skins, September–November 2013) [Observed, per `research_notes/BBG weapons (verified)/graham.addendum.md`, Incidental findings 1]. Why this Graham is outlined when December 2013 fan captures of the same Instagraham skin are not stays open [Unverified]. It is not 2026 evidence.
 - **Battle Bears Heroes (2024).** battlebears.com says BBH features "all the famous characters, weapons, and maps" [Canon]. No source names Gold Digger in BBH, and the wiki has no BBH map page for it [Unverified].
 
 ## Setting
@@ -260,7 +262,7 @@ All paths are absolute.
   - My own 1920×1080 extractions `v_52.1.png`, plus `v_51.6`, `v_51.9`, `v_52.6`, `v_53.0`, `v_53.4` and `v_53.8` in `v_sheet.png`.
   - Zooms: `z_pickup_cart.png`, `z_fence.png`, `z_pads.png`, `z_crest.png`, `z_shieldspot.png`, `z_ledge526.png`.
   - Sample checks: `sample_sheet1.png`–`sample_sheet3.png`.
-- Gold Digger appears at 1.5–5.0 s (B-1000 by a boulder at the trench rim, then the moonlit walls), 7.0–10.0 s (Graham at a timber mouth with the blue gem) and 51.9–54.0 s (overhead of the twin shafts, crossfading in from Space Oddity at 51.6–51.9 s).
+- Gold Digger appears at 1.5–5.0 s (B-1000 by a boulder at the trench rim, then the moonlit walls), 7.0–10.0 s (Graham at a timber mouth with the blue gem) and 51.9–54.0 s (overhead of the twin shafts, crossfading in from Shortest Parsec at 51.6–51.9 s).
 
 **Steam screenshots.**
 - `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_03.jpg` (opened full size), and all five in `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/gold_digger_verify/steam/steam_sheet.png`.
@@ -311,8 +313,8 @@ All paths are absolute.
    - Current: "**Gold Digger**: a mine. Out-of-bounds, "the background is the same as Sky View"."
    - Correction: The wiki calls it "a mining cave". Out of bounds, "the background is the same as [[Sky View]], with all of its buildings" [FAN-WIKI]. Official frames show the central pit is open to a navy starry night sky, with a full moon in the 2013 trailer; only the side rail tunnels are roofed [OFFICIAL-FRAME].
    - Evidence: Steam trailer frames `t_0009` and `t_0011` (4.0 s and 5.0 s); the Gold Digger tile in `jkv6FHPghx8` `oar1.jpg` (row 4, column 3); wiki `Gold_Digger_4.jpg` (roofed tunnel); Gold Digger page wikitext (API, 2026-10-18).
-2. **`research_notes/Battle Bears character lore/animation_reference.md`, line 150.**
-   - Current: "uses chunky, simple low-poly models and highly saturated colour. Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves"
+2. **`research_notes/Battle Bears character lore/animation_reference.md`, Q1 §B "Art style as seen in official frames", the in-game 3D look entry under "In-game 3D and logo" (formerly line 150). Applied: the entry now names the rocky caves as Gold Digger and gives these samples.**
+   - Text at the time: "uses chunky, simple low-poly models and highly saturated colour. Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves"
    - Correction: Add that the "rocky caves" are the Gold Digger map (Steam screenshot `screen_03`; trailer 1.5–10 s and 51.9–54 s). Its environment is low-key and desaturated, not highly saturated. Saturation is limited to glowing props (gold load #DDA612–#FFD50E, blue gem #0206E7, jump-pad cyan #31BFE1) and weapon effects.
    - Evidence: Pixel samples. Rock walls median #170E0F (52.1 s) and #0F0708 (`t_0007`); dirt floor median #3D2B15 (`t_0007`); mean RGB(33,22,14) for `t_0105`.
 3. **`research_notes/BBG maps (unverified drafts)/research_gold-digger.md`, Look section.**
@@ -358,6 +360,6 @@ All paths are absolute.
 - **2.6.1 patch.** Did it say Arbiter (Updates and Versions pages; likelier) or Assault (the 2015 sub-page)?
 - **2026 look.** Does the 2026 build keep the full moon? What are its true colours under "Lighting improvements"? The storyboard is 429×180. The Steam demo (October 19–26) or the iPad playtest video dz4iqZE8nQE could settle this.
 - **2026 effects.** Is the orange-red hexagonal wireframe in the 2026 frames at about 1890–1910 s a weapon or special effect, or a new spawn barrier? Which pickup glows green in a wall recess at about 2080–2090 s?
-- **Steam trailer and screenshots.** Are they entirely 2013-era footage? The character cards match the 2013 trailer exactly.
+- **Steam trailer and screenshots.** Are they entirely 2013-era footage? Most likely: the character cards match the 2013 trailer exactly, and the gameplay, the Space Oddity clip included, matches that trailer's 160×90 storyboard, so the maps overview (section 0, item 1) reads all of it as 2013 footage [Inference, strong]. No full-resolution match of the gameplay exists yet.
 - **The music.** Who composed the "Gold Digger" track (0:38)?
 - **Battle Bears Heroes.** Does Gold Digger or a variant appear there? SkyVu says BBH has "all the famous … maps", but no source names this one.

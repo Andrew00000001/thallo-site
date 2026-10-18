@@ -461,7 +461,7 @@ The Tutorial was not counted. It is single-player and not a PvP arena; HK's end 
    - Correction: answered. Sky Pirates is playable in 2026 playtests 3–5 [Observed], and SkyVu calls it "the new Sky Pirates map" [Canon].
 5. **research_notes/Battle Bears character lore/oliver_riggs_wil.md, lines 252 and 554.**
    - Current: "Whether these are the same map is my [INFERENCE]; no source says so."
-   - Correction: SkyVu's "Sky Pirates in BBG!" short (CwxpBZg6Fi4) is described as "Enjoy the highlights from our Sky World playtest!" [Canon]. That ties the two names (animation_reference.md line 676 already records it).
+   - Correction: SkyVu's "Sky Pirates in BBG!" short (CwxpBZg6Fi4) is described as "Enjoy the highlights from our Sky World playtest!" [Canon]. That ties the two names (animation_reference.md already records it: the Fact-check log's "Added (sourced)" list, and the Q1 section A list of 2026 Shorts).
 6. **bbg-news-repo/content/evergreen.json, fact-playtests.**
    - Current: "Four Discord playtests, July to September 2026".
    - Correction: five. Steam news Oct 14: "The next and final BATTLE BEARS GOLD playtest will take place on Thursday 15th October" [Canon].

@@ -341,16 +341,17 @@ Unless a full path is given, storyboard frames are named `f_<milliseconds>.jpg`.
 - **Toward the old look?** The hue moved toward the 2014 in-game yellow (36°), but saturation is far below 2014. It is no closer to the BBR renders, which are not in-game captures anyway [Inference].
 
 **Space Oddity**
-- **Before:** Steam store screenshot `screen_01`.
+- **Before:** Steam screenshot `screen_01`, a frame of the Steam trailer's Space Oddity clip (about 30.0–32.8 s).
   - My local copy was saved Oct 15, 20:52 (container clock), before the 3 PM PDT (22:00 UTC) playtest. It is byte-identical to today's store file (md5 d36d6af6…) [Observed].
-  - So it shows a pre-October build, or an earlier marketing capture [Inference].
+  - So it predates the Oct 15 build [Inference]. It is not a 2026 "before" either: the same moment, bloom included, is in the storyboard of SkyVu's May 30, 2013 trailer (rfAyqVJrli4 35–36 s = Steam 30.85–31.95 s) [Observed: so_clip_2013_vs_steam.jpg; 00_OVERVIEW.md, section 0, item 1], so it is 2013 footage [Inference, strong]. space-oddity.md had left its date open and allowed a newer or relit capture [Inference].
+  - A real 2026 "before" is in space-oddity.addendum.md: InstableGR's Aug 21 capture (build 3.0.2, aujTcdFuxdE) and Sep 20–21 fan captures (build 3.0.5) show cooler grey-teal metal (#3D4E44) with orange angular panels [Observed there; I re-opened its era_compare.jpg].
 - **After:** HK 17:50–21:30 (Oct 15).
 - **Warm surfaces** (windows and floor):
-  - Steam: #AB6425, hue 28.5°, saturation 0.79, warm share 20%.
+  - Steam screenshot screen_01: #AB6425, hue 28.5°, saturation 0.79, warm share 20%.
   - October: #A27635, hue 34.3°, saturation 0.68, warm share 10%.
   - Cyan share about the same (1.6% vs 1.3%) [Observed, Python-sampled].
-- **Visually:** in October the window walls read amber-ochre and the bulkheads olive-grey, with soft amber light shafts. The Steam still is vivid red-orange with hot cyan neon [Observed: so_steam_vs_hk.jpg].
-- **Caveat:** I found no July–September 2026 Space Oddity capture, so a same-pipeline "before" is missing [Unverified].
+- **Visually:** in October the window walls read amber-ochre and the bulkheads olive-grey, with soft amber light shafts. screen_01 is vivid red-orange with hot cyan neon [Observed: so_steam_vs_hk.jpg].
+- **Caveat:** I found no July–September 2026 Space Oddity capture myself, so my numbers compare against screen_01 (2013 footage [Inference, strong]), not against a 2026 build. space-oddity.addendum.md has the same-channel pair (InstableGR, 3.0.2 on Aug 21 vs 3.0.7 on Oct 15) and measures warm share rising from 14% to 45% on its own method [Observed there].
 
 **Frozen Pundra** (incidental)
 - InstableGR Jul 29 (Team Battle) vs Oct 15 (Plant the Bomb): both captures show saturated cyan-blue ice [Observed: fp_pair.jpg]. No clear change is visible at storyboard resolution [Inference].
@@ -359,7 +360,7 @@ Unless a full path is given, storyboard frames are named `f_<milliseconds>.jpg`.
 - For 2026-accurate shorts, use the October look [Inference]:
   - No Bear's Land: a paler sky (about #859DE5), deeper shadow faces, a slightly less saturated field.
   - Desert Airmine: butter-yellow sand (#E1AB5C–#F2B762) over unchanged terracotta canyons.
-  - Space Oddity: amber-ochre glass rather than red-orange.
+  - Space Oddity: amber-ochre glass and olive-grey bulkheads, warmer than the grey-teal Aug–Sep builds and less red-orange than screen_01.
 - The Steam trailer and store screenshots are not proof of the launch lighting [Inference].
 - The Next Fest demo (from Oct 19) should settle this at full resolution [Inference].
 
@@ -368,6 +369,7 @@ Unless a full path is given, storyboard frames are named `f_<milliseconds>.jpg`.
 - `.../environment-conventions/sheets/nbl_same_channel.jpg`, `official_nbl_pair.jpg`, `eq_nbl.jpg`, `ej_nbl.jpg` and `bbr_refs.jpg`
 - `.../environment-conventions/sheets/hk_da.jpg`, `r4_da.jpg`, `c7_da.jpg` and `c7_da2.jpg`
 - `.../environment-conventions/sheets/so_steam_vs_hk.jpg` (with `.../steam/ss_1.jpg`) and `fp_pair.jpg`
+- `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg` (the Space Oddity clip, 2013 storyboard against Steam; review pass)
 - `.../environment-conventions/sheets/labels.jpg` and `labels2.jpg`; `.../yt/th/boAnKP4zIlg_maxres2.jpg`
 - Frame sources:
   - `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic-terror-gap/frames/HKbwq7PolNc/`
@@ -385,7 +387,7 @@ Unless a full path is given, storyboard frames are named `f_<milliseconds>.jpg`.
 - Space Oddity: "amber-ochre star windows (#A27635), olive-grey bulkheads, soft amber light shafts, restrained cyan accents".
 - Each is a 2026-build reading [Observed, low-res]. The exact hexes are approximations [Inference].
 
-**Confidence:** partial. The pass is official. The change is visible for No Bear's Land and Desert Airmine. The "BBR look" claim is only partly supported, and Space Oddity lacks a matched "before".
+**Confidence:** partial. The pass is official. The change is visible for No Bear's Land and Desert Airmine. The "BBR look" claim is only partly supported, and my Space Oddity numbers lack a matched 2026 "before" (screen_01 is 2013 footage [Inference, strong]; space-oddity.addendum.md supplies the Aug 21 one).
 
 ---
 
@@ -420,7 +422,7 @@ Unless a full path is given, storyboard frames are named `f_<milliseconds>.jpg`.
 9. **research_aztec-attack.md:** "The 2026 modes are TDM, FFA and PTB [Canon]. Which of them run on Aztec Attack at launch is [Unverified]."
    - → Add: Aztec Attack hosted Kill Confirmed in the Jul 29 playtest. lFr8 match 1 shows a blue tag at 1:20 and SCORED/DENIED in the feed [Observed]. Launch rotation still unverified.
 10. **research_space-oddity.md:** "The 2026 look may differ from the frames below [Inference]."
-    - → Observed Oct 15 (HK 17:50–21:30): same geometry. Warm surfaces read amber-ochre (#A27635, hue 34°) rather than the Steam still's red-orange (#AB6425, hue 28.5°), at half the warm-pixel share. Joule tokens appear in Free-for-All [Observed, low-res].
+    - → Observed Oct 15 (HK 17:50–21:30): same geometry. Warm surfaces read amber-ochre (#A27635, hue 34°) rather than the red-orange of Steam screenshot screen_01 (#AB6425, hue 28.5°), at half the warm-pixel share. screen_01 is 2013 footage [Inference, strong], not the 2026 pre-pass look; for that, use the Aug–Sep 2026 builds in space-oddity.addendum.md. Joule tokens appear in Free-for-All [Observed, low-res].
 11. **franchise_world.md** (lore notes, "What changed or is new in the 2026 BBG"): '"An experimental new gamemode" ([Jul 28 post](...))'
     - → Add: on-screen banners and fan chapters identify the playtest mode as Kill Confirmed ("COLLECT ENEMY TAGS TO SCORE POINTS") [Observed]. SkyVu's Steam posts never name it [Canon, by absence].
     - Also add the Oct 14 post's "Lighting improvements" and "Jukebox" [Canon].
@@ -514,7 +516,7 @@ Addendum to the environment-conventions dossier. It covers the 3D room behind BB
   - Build 3.0.0, recorded Jul 30, 2026 (fan video, Rt0mWn6rk0c), and the official Aug 21 livestream: "TAP TO CHAT" bar, blue "CREATE MATCH", a "BATTLEBEARS.COM" merch monitor where STORE was, "GET GAS" / "GET JOULES".
   - Sep 20 official livestream and the JustNubz Playtest #4 video (build stamp "3.0.5_…"): orange "CUSTOM MATCH" and a green "QUESTS" monitor.
   - The final layout for the Nov 4, 2026 launch is [Unverified].
-- **Not in the 2026 trailer or screenshots.** The menu does not appear in the 54-frame official Steam trailer contact sheets or the five Steam screenshots [Observed].
+- **Not in the Steam trailer or screenshots.** The menu does not appear in the official Steam trailer contact sheets (all 108 frames) or the five Steam screenshots [Observed].
 - **BB Heroes (2024).** Not checked [Unverified]. BBH has its own quests ("Complete a wide variety of fun quests to earn Bear Points") [Fan-wiki], but nothing shows it uses this room.
 
 ## Setting

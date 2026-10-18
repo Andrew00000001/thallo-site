@@ -34,7 +34,7 @@ The images show a steampunk airship yard at dusk [Observed: SkyVu preview frames
   - the fan 2026 playtest uploads HKbwq7PolNc and aujTcdFuxdE, with their chapter lists.
 - **Thumbnails** (hq, maxres, `maxres1-3`, `oar1-3`): SkyVu's preview (the 1280×720 `maxres1-3` frames are new to this pass), SkyVu's 2026 shorts, 2014 fan gameplay, and 27 fan 2026 playtest uploads. **I watched no videos.**
 - **Local Steam media:**
-  - the 2026 trailer: all 108 frames at 0.5 s, plus my own 10 fps re-extraction scanned by colour;
+  - the Steam trailer (on the 2026 Steam page; most likely 2013 footage [Inference, strong]): all 108 frames at 0.5 s, plus my own 10 fps re-extraction scanned by colour;
   - the five Steam screenshots.
 - **battlebears.com (live):** the homepage, /pages/games, /pages/characters, /pages/about and the sitemaps.
 
@@ -116,7 +116,7 @@ The images show a steampunk airship yard at dusk [Observed: SkyVu preview frames
     - Frame `oar2` shows a tier list with only the "13-16" row filled: Sky View, Frozen Pundra, Steam Yard Blues [Observed]. The Sky View match comes from comparison with the wiki's Sky_View_2.jpg: yellow tower crane, glossy blue tarps, plank walkways [Inference from Observed].
     - That is one frame, not necessarily the final ranking [Inference]. There is no part 2 on the channel as of 2026-10-18 [Observed, @battlebears Shorts listing].
   - **The grid may be fan-made.** The same 16-tile grid is the thumbnail of two fan uploads by Slinkster dated Sep 4, 2026: "Battle Bears Gold Soundtrack: Marecraft Carrier" (_kQfxlo7FGc) and "Battle Bears Gold Soundtrack: Steam Yard Blues" (CbF_Y15Y7EQ) [Observed]. SkyVu's 2026 shorts openly reuse community clips with on-screen credits such as "HUBBLE", "INSTABLEGR" and "MIKAA717" [Observed: NnjUom5NFC4, SZZ38et45Xs, CwxpBZg6Fi4 oar frames]. So the grid may be community-made, and its tiles may show the old build [Inference].
-  - **Not shown elsewhere.** The map does not appear in the 2026 Steam trailer, the five Steam screenshots, or any other official 2026 short frame I opened [Observed].
+  - **Not shown elsewhere.** The map does not appear in the Steam trailer, the five Steam screenshots, or any other official 2026 short frame I opened [Observed]. The trailer and screenshots are most likely 2013 footage [Inference, strong], from before this 2014 map, so their silence says nothing about 2026 [Inference].
   - **2026 modes.** Steam lists TDM, FFA and PTB [Canon]. "Team Battle" in the store text and the fan chapters is presumably TDM [Inference]. King of the Windmill is not listed, so the mode this map launched with is apparently not returning [Inference]. Playtests ran FFA, Team Battle and Kill Confirmed here [Unverified: fan chapters]. No Plant the Bomb match on this map appears in those chapter lists [Unverified].
 - **BB Heroes (2024):** no source puts Steam Yard Blues in BBH [Unverified]. A wiki search for "Steam Yard" finds 5 pages (Steam Yard Blues, BBG Maps, Battle Bears Gold/Versions, Updates, Battle Bears Gold), none of them about BBH [Fan-wiki].
 
@@ -331,7 +331,7 @@ All local paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51
   - 27 uploads, maxresdefault and maxres1–3, via `crops/pt_s1.jpg`–`crops/pt_s4.jpg` and `crops/pt_cand.jpg`.
   - This map is in `pt/HKbwq7PolNc_maxres2.jpg`, `pt/HKbwq7PolNc_maxres3.jpg`, `pt/ORYnnvqn19w_maxres1.jpg`, `pt/ORYnnvqn19w_maxres2.jpg` and `pt/3Zw0Q3aR2q4_maxres3.jpg`.
   - `pt/HKbwq7PolNc_maxres1.jpg` and `pt/3Zw0Q3aR2q4_maxres1.jpg` are Desert Airmine.
-- **2026 Steam trailer** (`/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/t_0001.jpg`–`t_0108.jpg`):
+- **Steam trailer** (2013 footage [Inference, strong]; `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer/t_0001.jpg`–`t_0108.jpg`):
   - viewed via `crops/trailer_a.jpg`, `crops/trailer_b.jpg`, `crops/trailer_c.jpg`;
   - my 10 fps extraction (`frames/f_*.jpg`) was colour-scanned and its top candidates viewed in `crops/trailer_candidates.jpg`.
   - **The map is not in the trailer.**
@@ -422,8 +422,8 @@ Notes:
      - It appears in the 2026 playtest builds (thumbnails stamped 3.0.2 and 3.0.7) [Observed].
    - Evidence: the wiki Steam Yard Blues and Updates pages; RnCV0V5gWCI watch-page dateText and description; thumbnails RnCV0V5gWCI maxresdefault and maxres1–3; HKbwq7PolNc maxres2/3, ORYnnvqn19w maxres1/2 and 3Zw0Q3aR2q4 maxres3 (build stamps visible).
 
-2. **research_notes/Battle Bears character lore/animation_reference.md, line 82**
-   - Current text: "  - \"2.8 'Steam Yard Blues'\" (Feb 21, 2014) — [RnCV0V5gWCI](https://www.youtube.com/watch?v=RnCV0V5gWCI)"
+2. **research_notes/Battle Bears character lore/animation_reference.md, Q1 §A, "Map fly-throughs" (line 82). Applied: the entry now carries the exact title, the 0:35 length and the description.**
+   - Text at the time: "  - \"2.8 'Steam Yard Blues'\" (Feb 21, 2014) — [RnCV0V5gWCI](https://www.youtube.com/watch?v=RnCV0V5gWCI)"
    - Correction: give the exact title, 'BATTLE BEARS GOLD Update 2.8 "Steam Yard Blues" Map Preview', the length (0:35), and the description: "Another new update on the horizon means another awesome new map! Check out this epic fly through of the new map, Steam Yard Blues, coming to BATTLE BEARS GOLD in Update 2.8!"
    - Evidence: oEmbed title and author; watch-page attributedDescription and dateText "Feb 21, 2014"; YouTube search lengthText "35 seconds" / "0:35".
 
@@ -449,7 +449,7 @@ Notes:
 **No change needed:**
 - `bbg-news-repo/content/evergreen.json` "fact-maps" quotes the Steam line exactly.
 - `franchise_world.md` line 275 (both spellings official), and lines 107 and 216, are accurate.
-- `animation_reference.md` lines 171 and 527 are accurate.
+- `animation_reference.md` is accurate in its Q1 §C quote of the Steam page's "Steamyard Blues" line (formerly line 171) and in its Q3 "Spelling drift" map entry (formerly line 527).
 - `research_notes/BBG weapons (verified)/2026.addendum.md` line 8 is accurate: aujTcdFuxdE's Match 4 is "Kill Confirmed, Steamyard Blues, Wil" at 12:33, re-checked in the chapter list.
 - The lore report contains no Steam Yard Blues statements.
 

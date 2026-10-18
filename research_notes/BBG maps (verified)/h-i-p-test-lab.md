@@ -2,7 +2,7 @@
 
 H.I.P. Test Lab is a Battle Bears Royale (BBR) launch map from 2011. It was first called "Huggable Factory" and was renamed for Battle Bears Gold (BBG) in 2013. It is a bright white, two-level Huggable lab and factory with point-symmetric team bases. Each base has a tube room where pink Huggables float in glowing glass tubes in front of a pink wall of diamond lights. Two octagonal towers stand in the main hall, joined by bridges over a floor of black crates. Overhead rails carry hanging pink Huggable dolls, and lofts lit magenta hold crates stamped with a Huggable face. A secret monitor room, which the wiki says shows Rho, sits out of reach. The map is in 2026 material:
 - SkyVu's 2026 soundtrack still calls its music "Huggable Factory".
-- It appears in the official 2026 trailer and in Steam screenshot 1.
+- It appears in the trailer SkyVu put on the 2026 Steam page and in Steam screenshot screen_00, a frame of that trailer. Both are most likely 2013 footage [Inference, strong].
 - Its tube-room art is in the 16-map grid of an official October 2026 short.
 - Fans recorded it in the October 2026 final playtest.
 
@@ -114,6 +114,7 @@ H.I.P. Test Lab is a Battle Bears Royale (BBR) launch map from 2011. It was firs
     - a fixed camera on the blue-side walkway (34.3 to 36.5 s)
     - then a reverse angle (about 36.5 to 36.8 s)
   - Steam screenshot ss_487a600c is byte-identical to local screen_00.jpg [Observed: pixel diff 0]. It is the same walkway shot, and its closest trailer frame is at about 36.4 s [Observed].
+  - This trailer footage and screen_00 are most likely 2013 footage that SkyVu re-used on the 2026 Steam page [Inference, strong]: the trailer's class cards are pixel-matched to SkyVu's May 30, 2013 trailer (rfAyqVJrli4), and it shows only the 2013 launch's 8 classes and maps that existed in May 2013 (maps overview, section 0, item 1). They do not show the 2026 build; the final-playtest frames below do.
   - The official "BBG Maps Ranked part 1" short includes the map's tube-room art among 16 map images [Observed].
   - Fan uploads from the Oct 15, 2026 final playtest show the map with the build stamp "3.0.7_2026.11.19_b7" [Observed]:
     - the tube room, Huggable-face crates and hanging dolls ([2F2Jzrgz-xs](https://www.youtube.com/watch?v=2F2Jzrgz-xs), "[LA]Huggable", Oct 17, 2026, maxresdefault, maxres1 and maxres3)
@@ -161,9 +162,9 @@ H.I.P. Test Lab is a Battle Bears Royale (BBR) launch map from 2011. It was firs
   - In the top-down, the lower-left tower and the left-half wall triangles are red, and the upper-right tower and right-half triangles are blue [Observed].
   - So the top-left tube room is probably the red base's and the bottom-right one the blue base's [Inference].
   - Door frames glow in team colour [Observed]:
-    - blue in the 2026 trailer and in a May 2013 fan screenshot looking through a blue door into a tube room (File:Vvnyftfvg.jpg)
+    - blue in the Steam trailer and in a May 2013 fan screenshot looking through a blue door into a tube room (File:Vvnyftfvg.jpg)
     - red in BBG fan footage (https://i.ytimg.com/vi/1MQ9bS-Ewrs/hq1.jpg, and a tube room in https://i.ytimg.com/vi/1NuJT2vl1sQ/hq3.jpg)
-  - A BBG flythrough shows the red-side mirror of the 2026 walkway: a raised walkway to a red-framed door, with red neon wall slots [Observed: https://i.ytimg.com/vi/ECjUEVStmyg/sd3.jpg].
+  - A BBG flythrough shows the red-side mirror of the Steam-trailer walkway: a raised walkway to a red-framed door, with red neon wall slots [Observed: https://i.ytimg.com/vi/ECjUEVStmyg/sd3.jpg].
   - Compass sides are [Unverified].
 - **Team bases.** Each base is "split into two connected sections, in which players can spawn virtually anywhere" [Fan-wiki]:
   - The tube room: "a group of tubes, containing Huggables in an unknown fluid, is placed and connected to both floor and roof" [Fan-wiki].
@@ -184,7 +185,7 @@ H.I.P. Test Lab is a Battle Bears Royale (BBR) launch map from 2011. It was firs
     - In the classic tile, a dark monitor showing a red figure, with a row of small magenta Huggables below it, is visible **through** the translucent pink wall [Observed: File:H.I.P._Test_Lab.png crops].
     - In the May 2013 fan screenshot, warm yellow-orange light and a pink stepped shape show through that wall [Observed: Vvnyftfvg.jpg].
     - The secret room itself has an amber floor glow [Observed: RhoBBG.jpg].
-- **Verticality.** The official 2026 shot shows a long raised white walkway leading to a blue-framed doorway, with a magenta crate loft above it and a lower floor to the side [Observed: screen_00.jpg]. That this is one of the wiki's inclines is [Inference].
+- **Verticality.** Steam screenshot screen_00 (a Steam-trailer frame; 2013 footage [Inference, strong]) shows a long raised white walkway leading to a blue-framed doorway, with a magenta crate loft above it and a lower floor to the side [Observed: screen_00.jpg]. That this is one of the wiki's inclines is [Inference].
 - **Plant the Bomb.** "Both bombs are located under the main bridge next to each other. The bomb tubes are located at each base behind the huggable containers" [Fan-wiki].
 - **Fan note.** "The glitch on getting on the top of the map only works on blue side." [Unverified fan description: w_HSRoQibic].
 
@@ -194,7 +195,7 @@ H.I.P. Test Lab is a Battle Bears Royale (BBR) launch map from 2011. It was firs
 
 All hexes are approximate. I re-sampled them with my own scripts, and they agree with the draft's values within normal sampling spread.
 
-2026 official walkway shot (Steam screen_00.jpg = trailer 34.3–36.5 s) [Observed]:
+Steam walkway shot (Steam screen_00.jpg = trailer 34.3–36.5 s; 2013 footage [Inference, strong]) [Observed]:
 
 | Element | Approx. hex |
 |---|---|
@@ -269,7 +270,7 @@ All [Observed] unless marked:
   - White pillars carry a blue-lit slot and recess above two large stacked blue up-pointing triangles. Blue down-triangles sit over other doors.
   - The pillar-and-triangles set existed by May 2013 (Sxesxfbhmjmvf.jpg, captioned "Above jump pads").
 - **Display capsules on white shelves.**
-  - 2026: pink-and-white diamond backing, a blue-lit cap and a tiny blue Huggable figure (trailer reverse angle).
+  - Steam trailer (2013 footage [Inference, strong]): pink-and-white diamond backing, a blue-lit cap and a tiny blue Huggable figure (trailer reverse angle).
   - BBR 2012: a red-lit twin (wNpM1woYv7k hq1).
   - That they are team-paired is [Inference].
 - **Hanging-crate conveyor** over a yellow-walled bay with a dark ship-like mass (w_HSRoQibic hqdefault, Sep 2012). That this is the loading bay is [Inference].
@@ -290,7 +291,7 @@ The raised walkway shows lengthwise streaks, but its texture does **not** scroll
 
 1. **The Huggable tube room** in each base. Glowing glass tubes hold floating pink Huggables in front of a translucent pink diamond-light wall [Observed: tile; 2012, 2013 and 2026 footage]. Shields spawn "in the Huggable Tube room" [Fan-wiki], and fan footage there shows the HUD "SHIELDS" [Observed: 1NuJT2vl1sQ hqdefault and hq2].
 2. **The twin octagonal towers and the centre bridge** over the 35-crate floor. The Bearscream Sandwich sits "on the second-floor center bridge connecting the two towers, in the dead center of the stage" [Fan-wiki]. The towers are visible in the top-down [Observed].
-3. **The production line.** Overhead rails of hanging pink dolls, the grey claw, the rainbow column and the magenta crate lofts [Observed: 2026 trailer, screen_00, 2026 playtest].
+3. **The production line.** Overhead rails of hanging pink dolls, the grey claw, the rainbow column and the magenta crate lofts [Observed: Steam trailer, screen_00, 2026 playtest].
 4. **Team portal doors and arrow pillars,** with a jump pad at the pillar base [Observed: screen_00].
 5. **The hidden "training" rooms.** "around twenty Huggables are standing in rows, staring at a screen with repeating images of Rho" [Fan-wiki]; seen in 2012 footage [Observed: https://i.ytimg.com/vi/sdX5LvCKXt0/hq1.jpg].
 6. **The loading bay with a Pelican't**, inaccessible [Fan-wiki]. Probably the hanging-crate bay seen in Sep 2012 footage [Inference].
@@ -300,7 +301,7 @@ The raised walkway shows lengthwise streaks, but its texture does **not** scroll
 - **Jump pads.**
   - The infobox said "Jump Pads: Yes" [Fan-wiki].
   - A trivia line present from Dec 10, 2012 to Jun 4, 2013, and removed on Jun 18, 2013, said "The Huggable Factory has the least number of Jump Pads of any map, with only two" [Fan-wiki].
-  - In 2026 one pad is visible beside the blue-arrow pillar: octagonal, with a yellow-and-black hazard rim, a cyan star centre and holographic rings [Observed: screen_00; it matches wiki File:Jump_Pad.jpg].
+  - In Steam screenshot screen_00 (2013 footage [Inference, strong]) one pad is visible beside the blue-arrow pillar: octagonal, with a yellow-and-black hazard rim, a cyan star centre and holographic rings [Observed: screen_00; it matches wiki File:Jump_Pad.jpg].
   - The up-arrows over the pad suggest it launches upward to the upper level [Inference]. Its actual target is [Unverified].
 - **Pickups** [Fan-wiki]:
   - Bearscream Sandwich on the centre bridge. It "doubles the damage of all the player's weapons for 20 seconds" and "respawns every 90 seconds".
@@ -421,7 +422,7 @@ YouTube thumbnails (https://i.ytimg.com/vi/ID/{hqdefault,hq1,hq2,hq3}.jpg plus s
 
 ### Establishing shot A: production hall
 
-This is closest to the official 2026 angle.
+This is closest to the Steam trailer's walkway angle (screen_00; 2013 footage [Inference, strong]).
 
 > Vertical 9:16 establishing shot inside a spotless toy-factory laboratory. A long raised white walkway with soft rounded edges and faint lengthwise streaks recedes toward a doorway framed in glowing electric blue, crowned by a small lit blue disc emblem. On the right, a tall white pillar holds a blue-lit slot above two large stacked blue upward-pointing triangles. At its foot sits an octagonal floor pad with a yellow-and-black hazard-striped rim, a glowing cyan star-pattern centre and faint holographic octagon rings rising from it. Above the walkway, a deep-magenta-lit storage loft is stacked with matte charcoal crates with tiny red corner lights. Some crates are X-braced; others carry a round pink grinning teddy-bear face emblem, with no text. A vertical column painted in diagonal rainbow stripes rises above a wall-mounted black funnel with a ribbed grey hose. Along the ceiling, an overhead rail carries a line of small pink plush teddy dolls hanging from hooks. A dark wall monitor sits in a white bezel. Bright, flat, high-key white lighting with almost no shadows, and accents in magenta, electric blue and cyan. No characters, no readable text, no logos.
 
@@ -453,7 +454,7 @@ Sources:
 ## Confidence
 
 - **Observed** for the look:
-  - the official 2026 trailer and Steam screenshot
+  - the Steam trailer and Steam screenshot screen_00 (2013 footage [Inference, strong])
   - the official 2026 short's map grid
   - fan frames from the 2026 final playtest
   - the classic tile and the 2012 top-down render

@@ -4,7 +4,7 @@ Abusement Park is a night-time carnival arena with a horror streak, walled in by
 
 - **Added:** Battle Bears Royale (BBR) update 1.3.2, notes dated Aug 24, 2012 [Game text via wiki].
 - **BBG:** stayed in BBG from the 2013 relaunch through the BBG 3.0 "New Map Lighting" update of Nov 15, 2021 [Game text via wiki] [Observed].
-- **2026, official media:** the map appears in the official Steam trailer (red base), in the "SAME" panel of the official teaser, and on the map tile in the thumbnail of the official Short "BBG Maps Ranked part 1" [Observed]. The 2026 soundtrack opens with "Abusement Park" [Canon].
+- **2026, official media:** the map appears in the Steam trailer SkyVu put on the 2026 Steam page (red base; 2013 footage [Inference, strong]), in the "SAME" panel of the official teaser, and on the map tile in the thumbnail of the official Short "BBG Maps Ranked part 1" [Observed]. The 2026 soundtrack opens with "Abusement Park" [Canon].
 - **2026, playtests:** fan uploads from playtest #3 (Aug 2026) list matches on it, and one 2026 build frame shows its EXIT stairs [Unverified fan text] [Observed].
 - **Not named:** no official text, including the Steam store copy, names the map.
 
@@ -103,7 +103,7 @@ Abusement Park is a night-time carnival arena with a horror streak, walled in by
 - **Official Steam trailer** ("Battle Bears Gold Premium - Trailer", 54 s): its only shot of this map is the red base, from about 17.6 s to 22.0 s (t_0037–t_0045; my full-resolution frames f_02–f_19) [Observed].
   - Visible: the "[RED]" stencil wall with dripping red stars, the salmon plank deck, yellow U-rails, the twin blue posters, the maroon-and-white striped tent wall, the coaster rail overhead, and the "[RA…E US" stencil.
   - Wil holds a Batterito, then is blown up by Tillman's shot.
-  - Which build the footage is from is not stated [Unverified].
+  - Which build the footage is from is not stated [Unverified]. It is most likely 2013 footage that SkyVu re-used [Inference, strong]: the trailer's class cards are pixel-matched to SkyVu's May 30, 2013 trailer (rfAyqVJrli4), and it shows only the 2013 launch's 8 classes and maps that existed in May 2013 (maps overview, section 0, item 1).
 - **Official teaser (d2ByJWrsoec, maxres1 at 1280×720):** the "SAME" panel shows the grey stone wall with "…ED]" and a dripping red star above a plank deck with U-rails [Observed]. That is the red base [Inference, strong visual match]. The light is cooler and paler than in the trailer [Observed].
 - **Official Short "BBG Maps Ranked part 1" (jkv6FHPghx8):**
   - The thumbnail's background grid of map images includes the Abusement Park map-select art, the mirror-lettered "THE MIRRORED HOUSE" marquee over the orange-striped booth [Observed].
@@ -212,7 +212,7 @@ Abusement Park is a night-time carnival arena with a horror streak, walled in by
 - 2012 lighting was baked: the editor panel shows Use Lightmaps and Show Probes ticked [Observed] → [Inference].
 - Post-3.0 (2021+) footage is darker and bluer, with cyan-lit white tent stripes [Observed] (NRvvHAgjkTw maxres1–3).
 - The 2026 playtest frame shows a dark teal floor and a red-lit stairwell, with the EXIT sign reading dim olive rather than bright yellow [Observed] (3Trxex7dVDw maxresdefault).
-- The 2026 trailer's red base is still warm salmon [Observed].
+- The Steam trailer's red base is warm salmon [Observed], but that is 2013 footage [Inference, strong]. The official 2026 teaser's "SAME" panel shows the red base in cooler, paler light [Observed].
 
 **Materials [Observed]**
 - Cracked grey-mauve stone-block perimeter walls.
@@ -240,7 +240,7 @@ Abusement Park is a night-time carnival arena with a horror streak, walled in by
 | Night sky, 2012–14 | #231228 / #251128 | Abusement_Park.png, HuggableCart.jpg |
 | Cloud band | #1d1939 – #2b1f3b | HuggableCart.jpg, Abusement_Park.png |
 | Horizon glow | #3f253b – #473244 (draft: up to #643e45) | Abusement_Park.png, HuggableCart.jpg |
-| Night sky, 2021+ / 2026 trailer | #100515 / #180519 | NRvvHAgjkTw maxres2 / trailer t_0044 |
+| Night sky, 2021+ / Steam trailer (2013 footage [Inference, strong]) | #100515 / #180519 | NRvvHAgjkTw maxres2 / trailer t_0044 |
 | Stone walls | #796c72 | Abusement_Park.png |
 | Asphalt | #4d4c4c – #625a41 | Abusement_Park.png, IMG_0667 |
 | Red-base deck, lit | #ffa67f / #ea8768 | trailer t_0044 / t_0037 |
@@ -419,7 +419,7 @@ All opened with the Read tool in this pass. Local files are under /tmp/claude-0/
 - **Look and landmarks: observed.** Many in-game, editor and official 2026 frames were opened, across 2012, 2013–14, 2018, 2021+ and 2026.
 - **Era: documented.** Wiki-quoted store notes (1.3.2, 1.3.4, 2.5, 3.0), the banner and the 2026 soundtrack agree. The 1.3.2 date is in slight doubt (iPhone 5 line).
 - **Layout: partial.** It is traced from one editor top-down image, an overview render, fan thumbnails and wiki prose. The compass orientation is unknown, and the EXIT-near-red placement is an inference.
-- **2026 status: observed, not named.** The map appears in the official trailer, the teaser and the Maps Ranked thumbnail, and in a 2026 playtest-build frame. The soundtrack opens with its theme. No official text names it.
+- **2026 status: observed, not named.** The map appears in the official trailer SkyVu put on the 2026 Steam page (2013 footage [Inference, strong]), the teaser and the Maps Ranked thumbnail, and in a 2026 playtest-build frame. The soundtrack opens with its theme. No official text names it.
 - **Official blurb: unknown this session.** Wayback was unreachable, although a snapshot exists.
 
 ---

@@ -27,7 +27,7 @@ This is the verified edition. I re-fetched every cited page and re-opened every 
 - I watched no video. I saw only frames I extracted from the Steam trailer and the store loop, plus YouTube thumbnails.
 
 **Provenance warning (applies to everything below):**
-- The Steam trailer "Battle Bears Gold Premium - Trailer" [Canon] re-uses SkyVu's trailer "BATTLE BEARS GOLD Trailer: Award-Winning Multiplayer Shooter Game" (rfAyqVJrli4, uploaded May 30, 2013) [Canon: title, date].
+- The Steam trailer "Battle Bears Gold Premium - Trailer" [Canon] is a re-edit of SkyVu's trailer "BATTLE BEARS GOLD Trailer: Award-Winning Multiplayer Shooter Game" (rfAyqVJrli4, uploaded May 30, 2013) [Canon: title, date; re-edit Inference, strong].
   - Its thumbnails hq1, hq3, maxresdefault and hqdefault match Steam-trailer frames at 11.9 s (Graham card), 42.8 s (Oliver card) and 29.9 s (Tillman card).
   - The scores are greyscale 160×90 MSE 3.6–6.2. hq2 scores 477. The medians against all 540 frames are 6,490–7,476 [Observed: my pixel comparison against frames at 10 fps].
 - The five Steam screenshots are frames of the same trailer: screen_00 ≈ 36.4 s, screen_01 ≈ 30.7 s, screen_02 ≈ 50.6 s, screen_03 ≈ 9.8 s and screen_04 ≈ 26.4 s. Their MSE is 147–1,074 against medians of 6,574–10,812 [Observed]. The copies on the store today are byte-identical to our local copies [Observed].
@@ -36,7 +36,10 @@ This is the verified edition. I re-fetched every cited page and re-opened every 
   - Its gameplay shows only maps that existed in BBG 2.0: Gold Digger, Aztec Attack, Abusement Park, Shortest Parsec, Space Oddity, H.I.P. Test Lab, Marecraft, Skate or Die and Sky View [Observed].
   - It shows none of the maps removed at 2.0 (Desert Airmine, Haunted Castle) and none added later (Toxic Terror, Frozen Pundra, Steam Yard Blues) [Observed; removals and additions per Fan-wiki].
   - The 2013 trailer's description says "Choose from 8 classes" and "3 New Maps: -Gold Digger -Skate or Die -Sky View" [Canon].
-  - **So every gameplay frame from the Steam trailer or screenshots shows May 2013 (BBG 2.0) environments, not the 2026 build [Inference, strong].**
+  - The gameplay matches the 2013 trailer's YouTube storyboard (160×90, one frame a second) at a constant offset of about 4 s: 45 of its 55 frames from 5 to 59 s match [Observed: storyboard match table and sheets recorded in research_notes/BBG weapons (verified)/2026.md, "The Steam trailer is 2013 footage"; 00_OVERVIEW.md, section 0, item 1].
+  - **So the gameplay in the Steam trailer and screenshots is most likely May 2013 (BBG 2.0) footage that SkyVu re-used on the 2026 Steam page, not the 2026 build [Inference, strong].** The class cards are matched at full size, the gameplay only at storyboard size.
+  - **The Space Oddity clip** (about 30.0–32.8 s; screen_01 is a frame of it) is 2013 footage too [Inference, strong]. Its pillar top blooms to near-white, which a BBG 2.5 fan capture of the same pillar lacks [Observed: screen_01 vs ckiTgau1IbQ hq1], so space-oddity.md left its capture date open and allowed a newer or relit capture [Inference]. But the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed: so_clip_2013_vs_steam.jpg; 00_OVERVIEW.md, section 0, item 1]. Why SkyVu's capture blooms more than fan captures is [Unverified]. It does not show the Oct 2026 lighting either [Observed: so_steam_vs_hk.jpg; environment-conventions.addendum.md §5].
+  - **The Graham segment** (about 7.25–10.5 s, Gold Digger; screen_03 is a frame of it) is 2013 footage too [Inference, strong]: it is in the 2013 storyboard (2013 12–13 s = Steam 7.95–8.95 s) [Observed: 00_OVERVIEW.md, section 0, item 1]. Its toon outlines were once read as a sign of a 2018-or-later capture, but 2013 fan captures already outline Gold Graham (T_EJ2DmboPU, Jul 28, 2013) and the circuit-pattern skins (KBbEgOLyYGM, Sep 4, 2013; Edbw2qUVZtw, Nov 29, 2013) [Observed: graham.addendum.md, Incidental findings 1]. Nothing in it is newer either: Instagraham is one of Graham's original skins, and the Gamma Ray and Gernobyl date from 2012 and Apr 2013 [Fan-wiki, per graham.md]. Dec 2013 fan captures of Instagraham have no outline [Observed: graham.addendum.md], so why the trailer's Graham is outlined stays open [Unverified].
 - The genuine 2026-build images I saw:
   - SkyVu's final-playtest banner (No Bear's Land) [Observed];
   - the official "Battle Bears Gold launches Nov 4, 2026 - Official Playtest Highlights" thumbnails (build label "3.0.0"). Its description says "Highlights from our first two Discord playtests" [Canon];
@@ -122,15 +125,15 @@ It is a personal page, so it is [Unverified] as SkyVu's voice. That the author w
 | Map (old name) | Added | Removed / reworked | 2026 evidence |
 |---|---|---|---|
 | No Bear's Land (Battlefield Airpad until 2.0) | BBR 1.0, Oct 8, 2011 [Fan-wiki; date Game text via wiki] | Reskins: winter 2.26 (Jan 17, 2017), summer 2.27 (May 29, 2017), "Winter Map is back" 2.28 (Dec 20, 2017), spring 2.51 (Apr 13, 2018) [Game text via wiki] | Named on Steam [Canon]; final-playtest banner and Playtest Highlights maxres [Observed]; OST track 2 [Canon] |
-| H.I.P. Test Lab (Huggable Factory) | BBR 1.0 [Fan-wiki] | – | OST track 5 "Huggable Factory" [Canon]; 2013 footage only [Observed]; no 2026 sighting found [Unverified] |
-| Space Oddity (Spacecraft) | BBR 1.0 [Fan-wiki] | – | Named on Steam [Canon]; OST 6 [Canon]; 2013 footage (30–32.5 s, screen_01) [Observed] |
+| H.I.P. Test Lab (Huggable Factory) | BBR 1.0 [Fan-wiki] | – | OST track 5 "Huggable Factory" [Canon]; Steam trailer only [Observed] (2013 footage [Inference, strong]); no 2026 sighting found [Unverified] |
+| Space Oddity (Spacecraft) | BBR 1.0 [Fan-wiki] | – | Named on Steam [Canon]; OST 6 [Canon]; Steam trailer (about 30.0–32.8 s) and screen_01 [Observed] (2013 footage [Inference, strong]); Oct 15 fan playtest frames (HK 17:50–21:30) [Observed: environment-conventions.addendum.md §5] |
 | Desert Airmine | BBR 1.0 [Fan-wiki] | Removed 2.0 (May 2013), returned 2.7 [Fan-wiki] | OST 12 [Canon]; fan final-playtest thumbnails, build 3.0.7 [Observed: fan upload] |
-| Aztec Attack (Facing Temples) | BBR 1.3.1, Jun 28, 2012 [Game text via wiki] | – | OST 13 [Canon]; 2013 footage [Observed] |
-| Abusement Park | BBR 1.3.2, Aug 24, 2012 [Game text via wiki] | Skybox fix 1.3.4 [Game text via wiki] | OST 1 [Canon]; 2013 footage [Observed] |
+| Aztec Attack (Facing Temples) | BBR 1.3.1, Jun 28, 2012 [Game text via wiki] | – | OST 13 [Canon]; Steam trailer [Observed] (2013 footage [Inference, strong]) |
+| Abusement Park | BBR 1.3.2, Aug 24, 2012 [Game text via wiki] | Skybox fix 1.3.4 [Game text via wiki] | OST 1 [Canon]; Steam trailer [Observed] (2013 footage [Inference, strong]) |
 | Haunted Castle | BBR 1.3.3, Oct 10, 2012 [Game text via wiki] | Removed 2.0, returned 2.4 (Oct 24, 2013) [Fan-wiki] | OST 11 [Canon] |
-| Shortest Parsec | BBR 1.4.2, Feb 28, 2013 [Game text via wiki] | – | OST 9 [Canon]; 2013 footage [Observed]; a 2026 fan thumbnail of a red-and-white space deck with a jump pad [Observed; identification Inference] |
-| Marecraft | BBR 1.4.3, Apr 15, 2013 [Game text via wiki] | – | OST 8 [Canon]; 2013 footage [Observed] |
-| Gold Digger, Skate or Die, Sky View | BBG launch, May 24, 2013 (the "2.0 update" in the wiki's map pages; the Versions table labels it 1.0) [Fan-wiki]; "3 New Maps" [Canon: May 30, 2013 trailer description] | – | Gold Digger named on Steam [Canon]; OST 4, 7, 3 [Canon]; 2013 footage of all three [Observed]; a 2026 Playtest Highlights thumbnail on a concrete skatepark [Observed; identification as Skate or Die is Inference] |
+| Shortest Parsec | BBR 1.4.2, Feb 28, 2013 [Game text via wiki] | – | OST 9 [Canon]; Steam trailer [Observed] (2013 footage [Inference, strong]); a 2026 fan thumbnail of a red-and-white space deck with a jump pad [Observed; identification Inference] |
+| Marecraft | BBR 1.4.3, Apr 15, 2013 [Game text via wiki] | – | OST 8 [Canon]; Steam trailer [Observed] (2013 footage [Inference, strong]) |
+| Gold Digger, Skate or Die, Sky View | BBG launch, May 24, 2013 (the "2.0 update" in the wiki's map pages; the Versions table labels it 1.0) [Fan-wiki]; "3 New Maps" [Canon: May 30, 2013 trailer description] | – | Gold Digger named on Steam [Canon]; OST 4, 7, 3 [Canon]; Steam trailer footage of all three [Observed] (2013 footage [Inference, strong]); a 2026 Playtest Highlights thumbnail on a concrete skatepark [Observed; identification as Skate or Die is Inference] |
 | Toxic Terror | 2.3, Sep 27, 2013 [Fan-wiki] | – | OST 14 [Canon]; no 2026 sighting found [Unverified] |
 | Frozen Pundra | 2.7, Jan 23, 2014 [Fan-wiki] | – | OST 10 [Canon] |
 | Steam Yard Blues | 2.8, Mar 4, 2014 [Fan-wiki] | – | Named on Steam as "Steamyard Blues" [Canon]; OST 15 [Canon]; fan final-playtest thumbnails [Observed: fan upload] |
@@ -177,7 +180,7 @@ It is a personal page, so it is [Unverified] as SkyVu's voice. That the author w
   - The two crashed Pelican'ts carry team stripes: red on one, blue on the other [Observed: Battlefield.png]. A blue-banded Pelican't appears in the 2012 capture, and a dark wreck with red markings in the 2026 banner [Observed].
   - Perimeter posts are capped red at one end and blue at the other (≈ #C71512 / #293AA6) [Observed: Battlefield.png].
 - **H.I.P. Test Lab:**
-  - A white lab with a blue-lit doorframe, a blue crest above it (≈ #4E73E2) and a blue double-arrow pillar (≈ #0129ED) [Observed: trailer 35.0 s / screen_00, 2013].
+  - A white lab with a blue-lit doorframe, a blue crest above it (≈ #4E73E2) and a blue double-arrow pillar (≈ #0129ED) [Observed: trailer 35.0 s / screen_00] (2013 footage [Inference, strong]).
   - The 2012 overhead shows red-lit trim on one half and blue on the other [Observed: Factory.png].
   - The wiki says the rooms mirror "with the exception of the team colors and each team base" [Fan-wiki].
 - **Shortest Parsec:**
@@ -192,7 +195,7 @@ It is a personal page, so it is [Unverified] as SkyVu's voice. That the author w
   - A blue faceted gem glows by a timber tunnel mouth [Observed: screen_03].
   - Red faceted crystals lie near the pits [Observed: trailer 53.0 s]. That they mark the red side is [Inference].
 - **Aztec Attack:**
-  - In the 2013 overhead, one temple has red-glowing panels (≈ #BC351C) and the other teal, pink and blue gem inlays [Observed: trailer 43.5 s].
+  - In the Steam trailer's overhead (2013 footage [Inference, strong]), one temple has red-glowing panels (≈ #BC351C) and the other teal, pink and blue gem inlays [Observed: trailer 43.5 s].
   - The gem temple also has cyan orb lights at its door [Observed: IMG_0525.PNG, 2012].
   - That the red temple is the red base is [Inference]. "Each team's base is on the inside of each temple" [Fan-wiki].
 - **Marecraft:**
@@ -284,7 +287,7 @@ It is a personal page, so it is [Unverified] as SkyVu's voice. That the author w
 | Joules | Before 2.1: a map pickup worth 150. Since 2.1 ("Kill confirm Joule drops", Jul 15, 2013): three drop where a player dies, 25 each, gone after 10 s [Fan-wiki; 2.1 line Game text via wiki]. The Team Battle page says "3 +50 Joule coins" [Fan-wiki, contradictory] | A blue lightning bolt on a dark hexagon-like badge [Observed: Joule.png]. In 2026, three floating blue lightning bolts hover over a deck [Observed: C7uFxvSZ10c hq2, official]. Blue bolt tokens also appear in a final-playtest thumbnail [Observed: HKbwq7PolNc maxres3, fan]. The HUD uses the bolt ("ASSIST +11", 2013; "+200" and "+25", 2026) [Observed] | Wherever someone dies |
 
 **How pickups sit in the world:**
-- In 2013 Gold Digger footage, a small floating food item hovers over a rock ledge beside a yellow glow arc [Observed: trailer 52.5–53.0 s]. Enlarged, it has a white rim, a golden-yellow top and a pink layer beneath, and reads more like an egg-and-ham stack than the basket art [Observed: crops/gd53_pick.png]. Its identity is [Unverified]. The wiki's Gold Digger Grande "On a raised area near the shield pickup" makes the Grande the likeliest match [Inference].
+- In the Steam trailer's Gold Digger footage (2013 footage [Inference, strong]), a small floating food item hovers over a rock ledge beside a yellow glow arc [Observed: trailer 52.5–53.0 s]. Enlarged, it has a white rim, a golden-yellow top and a pink layer beneath, and reads more like an egg-and-ham stack than the basket art [Observed: crops/gd53_pick.png]. Its identity is [Unverified]. The wiki's Gold Digger Grande "On a raised area near the shield pickup" makes the Grande the likeliest match [Inference].
 - In the Oct 2026 No Bear's Land banner, an angry brown bear face (the Sandwich design) floats above a concrete post near the middle of the view [Observed]. Its identity as the Sandwich is [Inference]. Beside it sits a red-and-yellow capsule with a round bear-face badge, which I could not identify [Unverified].
 - On the overheads, pickups are small white squares at the wiki's listed spots, for example on Marecraft's towers and cross-walkway [Observed; the match is Inference].
 - Spin or bob animation is [Unverified].
@@ -307,7 +310,7 @@ It is a personal page, so it is [Unverified] as SkyVu's voice. That the author w
 - An octagonal dark-metal pad with a yellow-and-black hazard ring (≈ #CED01D) [Observed].
 - A glowing icy-cyan star core (≈ #42D2E1) [Observed].
 - Faint translucent cyan octagon rings stacked above it [Observed].
-- Sources: Jump_Pad.jpg (a studio-style render on a green-grid background); 2013 trailer footage of H.I.P. (35.0 s), Space Oddity (screen_01) and Gold Digger (52.5–53.0 s).
+- Sources: Jump_Pad.jpg (a studio-style render on a green-grid background); Steam trailer footage of H.I.P. (35.0 s), Space Oddity (screen_01) and Gold Digger (52.5–53.0 s) (2013 footage [Inference, strong]).
 - **The same design appears in a 2026 final-playtest thumbnail** on a red-and-white space deck [Observed: 1MP1rFi4t-Q maxres2, fan upload, build 3.0.7].
 - Aztec's pads read as small round teal discs around and on the lava-pool rock [Observed: trailer 43.5 s; Maxresdefault(100).jpg]. That they are jump pads is [Inference]; the wiki puts "two jump pads at the largest floating platform" [Fan-wiki].
 
@@ -411,7 +414,7 @@ It is a personal page, so it is [Unverified] as SkyVu's voice. That the author w
 
 | Map | Sky | Source |
 |---|---|---|
-| Gold Digger | Deep navy night (≈ #001A2D), stars, a big pale full moon (≈ #B3CCDD) over the rock rim | [Observed: trailer 4.0 s, 2013] |
+| Gold Digger | Deep navy night (≈ #001A2D), stars, a big pale full moon (≈ #B3CCDD) over the rock rim | [Observed: trailer 4.0 s] (2013 footage [Inference, strong]) |
 | Sky View | Dusk: deep blue at the top grading to a pink-orange glow, with distant skyscraper silhouettes [Observed: Sky_View_1.jpg, 2013]. A navy night in a 2026 clip [Observed: jkv6FHPghx8 hq2; identification as Sky View is Inference]. "This map uses the same skybox as Gold Digger" [Fan-wiki]; the 2013 dusk frame does not look like Gold Digger's moonlit night [Observed], so the claim is doubtful | as cited |
 | Aztec Attack | Magenta-to-crimson haze (≈ #7B063B) over dark ridges, stars at the top, lava below | [Observed: IMG_0525.PNG 2012; Maxresdefault(100).jpg 2013; trailer 12–16 s] |
 | Shortest Parsec | Open space: near-black indigo, dense white stars, a violet band | [Observed: trailer 24–25.5 s, 49.5–51.5 s] |
@@ -448,7 +451,7 @@ All of these are approximate, from single frames; perspective adds error.
 - "New Map Lighting" (BBG 3.0, 2021) [Game text via wiki]. "Upgraded Map Lighting… Skyworld" (Overclock 3.0, 2020) [Game text via wiki].
 - BBG 2.0 offered "HD Graphics (Only available on higher end devices. App automatically detects what graphic mode to show)" [Canon: May 30, 2013 trailer description].
 
-**Common traits I observed (2012–14 captures, 2013 trailer footage, 2026 thumbnails):**
+**Common traits I observed (2012–14 captures; the Steam trailer, 2013 footage [Inference, strong]; 2026 thumbnails):**
 - Chunky, low-poly, hard-edged geometry with hand-painted textures: stone blocks, wood grain, panel lines, cracks, paint drips [Observed].
 - Each map is built around one dominant hue plus a contrasting accent [Observed: trailer, overheads, the 14 map icons, preview thumbnails]:
   - Aztec Attack: orange lava and magenta sky;
@@ -466,8 +469,8 @@ All of these are approximate, from single frames; perspective adds error.
 - Strong coloured light sources do the mood work: lava underglow, neon strips, torches, the moon, gem glows, the laser [Observed].
 - **Ink outline:**
   - Environments carry no ink outline in any era I saw [Observed].
-  - Characters have a thick black outline in the May 2013 trailer footage and in every 2026 in-game capture with HUD that I saw [Observed: C7uFxvSZ10c maxres, build 3.0.0; HKbwq7PolNc maxres1, build 3.0.7; the Steam store loop's flying Huggable].
-  - The outline is absent from the 2012–14 phone captures on the wiki [Observed: Oliver-battlefield…png, A_life_upside_down.jpg, Maxresdefault(100).jpg, Imawe.jpg, Screenshot_(509).png].
+  - Characters have a thick black outline in the Steam trailer (2013 footage [Inference, strong]) and in every 2026 in-game capture with HUD that I saw [Observed: C7uFxvSZ10c maxres, build 3.0.0; HKbwq7PolNc maxres1, build 3.0.7]. The Steam store loop's flying Huggable (no HUD, date unknown) is outlined too [Observed: sheets/extra.png].
+  - The outline is absent from most 2012–14 phone captures, including all five on the wiki that I opened [Observed: Oliver-battlefield…png, A_life_upside_down.jpg, Maxresdefault(100).jpg, Imawe.jpg, Screenshot_(509).png]. Some 2013 fan captures of Gold and circuit-skin Graham have it (T_EJ2DmboPU, Jul 2013; KBbEgOLyYGM and Edbw2qUVZtw, Sep–Nov 2013; graham.addendum.md, Incidental findings 1) [Observed].
   - That the outline belonged to the 2013 "HD Graphics" mode is [Inference]. Whether 2026 lets players turn it off is [Unverified].
 - Gag set dressing is everywhere [Observed; Fan-wiki]:
   - posters (Abusement Park); graffiti (Skate or Die, including "ABBi"; Abusement Park's blue "RED");
@@ -586,6 +589,7 @@ Local paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9
 - `sheets/final_pt.png` (HKbwq7PolNc maxres1–3 and maxresdefault, InstableGR, fan).
 - `sheets/jn_final.png` (1MP1rFi4t-Q maxres1–3, JustNubz, fan).
 - Pixel matches (computed, not opened as images): `yt/th_rfAyqVJrli4_hq1/hq2/hq3/maxresdefault/hqdefault.jpg` against `tr10/f_*.jpg` (the trailer at 10 fps).
+- Storyboard check (review pass): `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/edit2026_tr/sb/M1.jpg` (rfAyqVJrli4's 2013 storyboard), the match table `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/edit2026_tr/sb_match.txt`, and `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg` (the Space Oddity clip, 2013 storyboard against Steam); `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham/gaps/yt/ckiTgau1IbQ__hq1.jpg`.
 
 ---
 
@@ -599,7 +603,7 @@ Local paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9
   - a team-coloured running light along one arm of a structure.
 
   Keep the map's own base materials [Inference].
-- **B. Jump pad:** an octagonal dark-steel floor pad with a yellow-and-black hazard ring and a glowing icy-cyan star core; faint stacked cyan octagon rings shimmer above it [Observed, 2013 and 2026].
+- **B. Jump pad:** an octagonal dark-steel floor pad with a yellow-and-black hazard ring and a glowing icy-cyan star core; faint stacked cyan octagon rings shimmer above it [Observed: the Steam trailer (2013 footage [Inference, strong]) and a 2026 fan thumbnail].
 - **C. Centre pickup:** a bear-head-shaped ice-cream sandwich, standing upright and hovering at chest height above a small post; brown cookie face, angry red eyes, open mouth with yellow teeth, white cream edge with dark flecks [Observed design and 2026 banner placement]. A soft warm glow under it is [BBG News invention].
 - **D. Bomb stand (Plant the Bomb):** a glossy round cartoon bomb in team colour with a stubby grey fuse cap, seated in a square team-coloured slab with a round socket [Observed, 2012].
 - **E. Health props:** a small white-grey case with an orange cross on its side; a red mesh basket of golden fried chunks [Observed designs; the basket is menu art]. Their in-world pedestals are [BBG News invention].
@@ -627,10 +631,10 @@ Local paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9
 | Team colours | observed (2012–14 frames plus several 2026 images) |
 | Spawn shield and spawn layouts | documented, partly observed |
 | Pickups | Sandwich, Health Pack and Joule designs observed; Joule drops observed in 2026; in-world Grande and Shield models unknown |
-| Jump pads | observed (2013 and 2026) |
+| Jump pads | observed (the Steam trailer, 2013 footage [Inference, strong]; a 2026 fan thumbnail) |
 | Plant the Bomb | partial (stand and blast observed; tube only in mode art; no 2026 visuals) |
 | Hazards | documented, partly observed |
-| Skies | partial (2013 for most maps; 2026 for No Bear's Land, Sky Pirates, Desert Airmine and Steam Yard Blues via thumbnails) |
+| Skies | partial (2012–14 captures and the Steam trailer, 2013 footage [Inference, strong], for most maps; 2026 for No Bear's Land, Sky Pirates, Desert Airmine and Steam Yard Blues via thumbnails) |
 | Scale | partial (single frames, approximate) |
 | Music | documented (the 2026 track list is Canon) |
 | 2026 status | partial (13 maps seen in 2026 playtest chapter titles or thumbnails; H.I.P. Test Lab and Toxic Terror unseen; Wayback-only sources not re-checked) |
@@ -650,13 +654,13 @@ Local paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9
    - Correction: 15 map-named tracks (Desert Airmine is track 12) plus "Castle Royale" as track 16; no Sky World/Sky Pirates track.
 4. **research_notes/BBG weapons (verified)/combat-vfx.md** (line 601), and the same line in **research_notes/BBG weapons (unverified drafts)/visuals_combat-vfx.md** (line 346).
    - Current: "Orange flame jets rise from floor vents [Observed: screen_01.jpg]. Whether they are a hazard or jump pads is [Unverified]."
-   - Correction: small flames rise from short orange-yellow rectangular bits lying on the floor beside a jump pad, not from vents [Observed: screen_01 crop]. They fit the Señor Potato Cannon's "piping hot french fries" [Inference]. No fire hazard is documented on Space Oddity [Fan-wiki]. screen_01 is a frame of the May 2013 trailer at about 30.7 s.
+   - Correction: small flames rise from short orange-yellow rectangular bits lying on the floor beside a jump pad, not from vents [Observed: screen_01 crop]. They fit the Señor Potato Cannon's "piping hot french fries" [Inference]. No fire hazard is documented on Space Oddity [Fan-wiki]. screen_01 is a frame of the Steam trailer at about 30.7 s [Observed], inside its Space Oddity clip, which is also in the storyboard of SkyVu's May 2013 trailer [Observed]. So it is 2013 footage [Inference, strong]; do not caption it as 2026.
 5. **research_notes/BBG weapons (verified)/combat-vfx.md** (lines 74 and 113, ink outline).
    - Current: "2026 media add a thick black ink outline to characters [Observed]. Whether the outline is in-game is [Unverified]." and "In the 2026 Steam screenshots, the trailer gameplay and the Steam loop video, characters have a thick black ink outline".
    - Correction:
-     - The Steam screenshots and trailer are May 2013 trailer footage (pixel matches), so the outline was already in SkyVu's 2013 footage, not added in 2026.
+     - The Steam screenshots are frames of the Steam trailer [Observed], and the trailer is most likely May 2013 footage [Inference, strong]: its class cards pixel-match SkyVu's May 30, 2013 trailer, and its gameplay matches that trailer's storyboard [Observed]. So the outline was most likely already in SkyVu's 2013 footage, not added in 2026. Some 2013 fan captures (Gold and circuit-skin Graham, Jul–Nov 2013) also have it [Observed: graham.addendum.md, Incidental findings 1].
      - The outline also appears in 2026 in-game captures with HUD (Playtest Highlights maxres, build "3.0.0"; fan final-playtest thumbnails, build "3.0.7"). So it is rendered in-game in 2026.
-     - It is absent in 2012–14 phone captures.
+     - It is absent from most 2012–14 phone captures (some 2013 fan captures of Gold and circuit-skin Graham have it).
      - SkyVu's 2013 trailer description advertises "HD Graphics (Only available on higher end devices…)"; tying the outline to that mode is [Inference].
 6. **research_notes/BBG weapons (verified)/combat-vfx.md** (line 762, pickups).
    - Current: "Which pickups survive into 2026 is [Unverified]."
@@ -671,10 +675,10 @@ Local paths are under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9
    - Refinement: the wiki's File:O+A.jpg (528×427) shows a faint heart outline in bark, but the letters are not legible at that size [Observed]. Keep "O+A" as [Fan-wiki].
 9. **research_notes/BBG maps (unverified drafts)/research_aztec-attack.md** (line 54).
    - Current: "The 2026 trailer shows the same layout as the 2012 top-down render [Observed], with brighter, more saturated orange ground than the 2012 screenshot [Observed]. That the 3.0 lighting pass explains the change is [Inference]."
-   - Correction: the Steam trailer's gameplay is May 2013 footage. Its class cards pixel-match the May 30, 2013 trailer, and it shows only BBG 2.0 maps and classes. So the brighter look predates the 2021 3.0 "New Map Lighting" and cannot be explained by it.
+   - Correction: the Steam trailer's gameplay is most likely May 2013 footage [Inference, strong]. Its class cards pixel-match the May 30, 2013 trailer, its gameplay (the Aztec shots included) matches that trailer's storyboard [Observed], and it shows only BBG 2.0 maps and classes. So the brighter look most likely predates the 2021 3.0 "New Map Lighting" and cannot be explained by it. Call it "the Steam trailer (2013 footage [Inference, strong])", not "the 2026 trailer".
 10. **research_notes/BBG maps (unverified drafts)/research_shortest-parsec.md** (line 3).
     - Current: "The official 2026 Steam trailer shows it, and so do two of the five 2026 Steam screenshots."
-    - Correction: say "two of the five screenshots on the 2026 Steam page". They are frames of the May 2013 trailer (screen_02 ≈ 50.6 s, screen_04 ≈ 26.4 s) and show the 2013 build, not 2026.
+    - Correction: say "The Steam trailer SkyVu put on the 2026 Steam page shows it, and so do two of the five screenshots on that page". They are frames of the Steam trailer (screen_02 ≈ 50.6 s, screen_04 ≈ 26.4 s) [Observed], which is most likely May 2013 footage [Inference, strong]. So they most likely show the 2013 build, not 2026.
 11. **The brief itself (not a file).** "pickups (Gas, health, ammo)" is wrong for BBG. Gas is a currency and gates matches through the Gas Meter; there is no ammo pickup. The real pickups are the Bearscream Sandwich, Shield, Imperial Basket Grande, Health Pack and Joule drops [Fan-wiki; Observed icons].
 
 ## Open questions

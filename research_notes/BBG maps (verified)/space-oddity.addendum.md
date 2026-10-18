@@ -158,7 +158,7 @@ For contrast, the 3.0.2 build (aujTcdFuxdE f_2360000–f_2370000):
 | Door trim | #323226 | #A0BD90 |
 | Cryo tubes | #26545C | #6CC2D0 |
 
-The 2013-era trailer and screen_01 values in the main draft (window #7B3006–#E68F1E, cyan #35DAEE) are deeper orange-red than 3.0.7 [Observed by comparison].
+The Steam trailer and screen_01 values in the main draft (window #7B3006–#E68F1E, cyan #35DAEE) are deeper orange-red than 3.0.7 [Observed by comparison]. That clip is most likely 2013 footage [Inference, strong]; see "Trailer age" below.
 
 ### Lighting and other look notes
 
@@ -166,7 +166,7 @@ The 2013-era trailer and screen_01 values in the main draft (window #7B3006–#E
 - **Light shafts:** diagonal shafts through the windows are not clearly resolvable at this resolution [Unverified].
 - **Stars:** whether stars still show through the glass is [Unverified] at this resolution.
 - **Steam store media do not show the 3.0.7 lighting.** screen_01 and the trailer shot (30–32.6 s) are more saturated, with orange-red glass and teal shadows [Observed: `so_steam_vs_hk.jpg`]. SkyVu asked testers for UI-free footage "for our Steam and store pages" [Canon], so the store media may be replaced [Inference].
-- **Trailer age:** the trailer's hue profile sits closer to the BBG 2.5 thumbnails (distance 34) than to 3.0.2 (52) or to BBR (58). That weakly supports the draft's view that it is 2013-era footage [Inference, weak].
+- **Trailer age:** the trailer's hue profile sits closer to the BBG 2.5 thumbnails (distance 34) than to 3.0.2 (52) or to BBR (58). That weakly supports the draft's view that it is 2013-era footage [Inference, weak]. Its pillar top blooms to near-white, which 2013–2021 fan captures lack [Observed, per the verified Space Oddity dossier], which once suggested a newer or relit capture [Inference]. A later check settled it: the same moment, bloom included, is in the 160×90 storyboard of SkyVu's May 2013 trailer (2013 35–36 s = Steam 30.85–31.95 s) [Observed, per the verified Space Oddity dossier and the maps overview, section 0, item 1]. So the clip and screen_01 are 2013 footage [Inference, strong]. Why SkyVu's capture blooms more than fan captures is [Unverified]. Caption them "Steam trailer" or "Steam screenshot screen_01" with "(2013 footage)" where the era matters, never as 2026.
 
 ## Landmarks: confirmed present in 3.0.7
 
@@ -290,14 +290,16 @@ Vertical 9:16 interior establishing shot of a compact, mirror-symmetric spaceshi
    - Current: "  - **Space Oddity**: a small, symmetrical, yellow-themed spaceship map (originally "Spacecraft") with a hologram of the Mecha-Bearzerker."
    - Correction: amend the draft's earlier proposed fix. Do not drop "yellow-themed" outright. Suggested text: "a small, symmetrical spaceship interior (originally 'Spacecraft', a BBR 1.0 launch map). Cream-yellow with glowing yellow trim in BBR (2012) and in the final 2026 playtest build; amber-orange, olive and teal in the Steam trailer, screen_01 and the Aug–Sep 2026 builds. The hologram's subject is unverified: wiki pages disagree (Mecha-Bearzerker or Spaceboss), and wall screens show cyan line drawings including a bear-shaped mech."
    - Evidence: XlFSvuNEqF0 hqdefault (BBR 2012); HK f_1120000 and f_1130000 and the official ZMhLVXWT6OY f_1500000 (3.0.7); aujTcdFuxdE f_2310000 and f_2370000 (3.0.2).
-6. **`research_notes/Battle Bears character lore/animation_reference.md`, line 150**
-   - Current: "Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves"
+6. **`research_notes/Battle Bears character lore/animation_reference.md`, Q1 §B "Art style as seen in official frames", the in-game 3D look entry under "In-game 3D and logo" (formerly line 150). Applied: the entry now names Space Oddity (screen_01) and has a sub-bullet saying its 2026 lighting is warmer and more golden, so the store media predate the 2026 lighting pass.**
+   - Text at the time: "Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves"
    - Correction: add "The Steam screenshots also include Space Oddity (screen_01), a matte amber-orange, olive and cyan spaceship interior. Its 2026 final-build lighting is warmer and more golden, with bright yellow trim, so the store media predate the 2026 lighting pass."
    - Evidence: `so_steam_vs_hk.jpg`; Steam news 2026-10-14 "Lighting improvements" [Canon].
-7. **`research_notes/BBG weapons (verified)/wil.addendum.md`, line 86**
-   - Current: "  - **Fries, official trailer (2013 footage):**"
-   - Correction: "  - **Fries, official trailer (footage date unverified; probably 2013-era [Inference]):**"
-   - Evidence: no source dates the trailer's gameplay. The main Space Oddity draft labels "2013-era" as [Inference]. Its palette matches no 2026 playtest build and is only weakly closer to BBG 2.5 thumbnails.
+7. **`research_notes/BBG weapons (verified)/wil.addendum.md`, line 86 (the "Fries, official Steam trailer" entry). Revised 2026-10-18; not yet applied in this form.**
+   - Text at the time: "  - **Fries, official trailer (2013 footage):**"
+   - First correction (applied): "  - **Fries, official trailer (footage date unverified; probably 2013-era [Inference]):**". A later weapons pass changed the line to "  - **Fries, official Steam trailer (Space Oddity clip; capture date open [Unverified]):**", which is the current text.
+   - Correction now: "  - **Fries, official Steam trailer (Space Oddity clip; 2013 footage [Inference, strong]):**". Make the same change in that file's correction 1 for the character file ("whose capture date is open").
+   - Evidence: the same moment, bloom included, is in the 160×90 storyboard of SkyVu's May 2013 trailer (2013 35–36 s = Steam 30.85–31.95 s) [Observed: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/astoria_trailer_check/so_clip_2013_vs_steam.jpg`, `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/review_ov/so_sb_check.jpg`]. The maps overview (section 0, item 1; section 6, A1) dates the clip this way and lists wil.addendum.md among the notes to change. Why its pillar top blooms more than in 2013–2021 fan captures stays [Unverified].
+   - Keep this correction, the verified Space Oddity dossier and wil.addendum.md in step: none of them should call the clip's date open, or call it 2026 footage.
 
 ## Open questions
 

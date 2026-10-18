@@ -329,13 +329,13 @@ Path shorthand: **[V]** = `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51
 
 ## Corrections to our notes
 
-1. **`/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md`, line 150.**
-   - Current text: "(Steam screenshots and the Steam trailer; the lava caverns are from the trailer) … there are lava/orange caverns and rocky caves".
+1. **`/home/user/thallo-site/research_notes/Battle Bears character lore/animation_reference.md`, Q1 §B "Art style as seen in official frames", the in-game 3D look entry under "In-game 3D and logo" (formerly line 150). Applied: that entry now names the Aztec Attack lava and the Marecraft flesh interior.**
+   - Text at the time: "(Steam screenshots and the Steam trailer; the lava caverns are from the trailer) … there are lava/orange caverns and rocky caves".
    - Correction: the trailer has no lava cavern.
      - Its lava is the open-air Aztec Attack map: a plateau island in a lava sea under a starry crimson-to-indigo sky (≈12.25–16.4 s and ≈43.1–45.7 s).
      - The enclosed red-orange space at ≈38.5–41 s is a flesh interior with vein-lined walls and rib columns, probably Marecraft [Inference].
      - The Steam trailer re-edits the May 2013 launch trailer, so it shows the 2013 look, not the 2026 build [Inference, strong].
-2. **Same file, line 667** ("The lava caverns are attributed to the trailer, not the screenshots."). Same fix.
+2. **Same file, Fact-check log, "Corrected" item 17 (formerly line 667)** ("The lava caverns are attributed to the trailer, not the screenshots."). Same fix. Applied: that sub-bullet now says the lava-caverns fix was superseded on 2026-10-18.
 3. **`franchise_world.md`, line 225** ("**Aztec Attack**: temple carvings of O.C.O. and Astoria.").
    - Use the wiki's hedged wording: "One temple has a symbol representing Over Clocked Oliver, while the other has a symbol representing Astoria" (Aztec page, added 2013-07-06), and "there seems to be a carving of Over Clocked Oliver, along with Astoria. Both are located at each team's spawn points" (OCO page).
    - Add that no image from 2012–2026 shows them.

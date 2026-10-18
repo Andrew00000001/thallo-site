@@ -7,7 +7,7 @@ Sky View is a Battle Bears Gold (BBG) map set on a construction site on the open
 - **Time of day:** dusk turning to night [Observed].
 - **Edges:** nothing stops you falling off [Fan-wiki].
 - **Origin:** it launched with BBG in 2013 as one of SkyVu's "3 New Maps" [Canon].
-- **In 2026:** the 2026 Steam text does not name it [Canon]. But it is in the official 2026 Steam trailer [Observed], has its own track on the official 2026 soundtrack [Canon], and appears in SkyVu's short "BBG Maps Ranked part 1" (Oct 11, 2026) [Observed in thumbnails]. A fan uploader's playtest chapter lists show it was played in the Aug 21 and Oct 15, 2026 playtests [Unverified: fan chapter titles].
+- **In 2026:** the 2026 Steam text does not name it [Canon]. But it is in the Steam trailer SkyVu put on the 2026 Steam page [Observed] (2013 footage [Inference, strong]), has its own track on the official 2026 soundtrack [Canon], and appears in SkyVu's short "BBG Maps Ranked part 1" (Oct 11, 2026) [Observed in thumbnails]. A fan uploader's playtest chapter lists show it was played in the Aug 21 and Oct 15, 2026 playtests [Unverified: fan chapter titles].
 
 **What I could reach (verification pass, 2026-10-18):**
 - **Fan wiki (MediaWiki API):**
@@ -129,7 +129,7 @@ Sky View is a Battle Bears Gold (BBG) map set on a construction site on the open
     - It is clean from about 47.8 to 49.2 s.
     - It has cross-faded to a space-station map by about 49.6 s.
     - It is the trailer's only Sky View shot [Observed: contact sheets of all 108 frames].
-    - The build or era of the footage is [Unverified].
+    - The footage is most likely 2013 footage that SkyVu re-used on the 2026 Steam page [Inference, strong]. The trailer's class cards are pixel-matched to SkyVu's May 30, 2013 trailer (rfAyqVJrli4), and it shows only the 2013 launch's 8 classes and maps that existed in May 2013 (maps overview, section 0, item 1). So it does not show the 2026 build.
   - **Soundtrack:** has the "Sky View" track [Canon].
   - **SkyVu's ranking short:**
     - Sky View is one of 16 map stills in the oar1 thumbnail grid, at row 4, column 2 [Observed: `yt/th/jkv6FHPghx8_oar1.jpg`, `frames/z_oar1_grid3x.png`].
@@ -141,7 +141,7 @@ Sky View is a Battle Bears Gold (BBG) map set on a construction site on the open
     - "20:51 - Match 6 (Plant the Bomb, Sky View, Oliver/Sanchez)" in "Battle Bears Gold - PC Playtest #3 (8/21/26)" (aujTcdFuxdE, Aug 21, 2026);
     - "39:40 - Match 10 (Team Battle, Sky View, Riggs)" in "Battle Bears Gold - Final PC Playtest (10/15/26)" (HKbwq7PolNc, Oct 17, 2026).
     - These are [Unverified: fan chapter titles]. I could not watch the videos, and none of their auto-frames shows Sky View.
-  - **Launch status:** very likely in the Nov 4, 2026 game. The evidence is the official 2026 trailer, the soundtrack, SkyVu's ranking short and the two playtest chapter lists [Inference]. No SkyVu text says so outright [Canon, by absence].
+  - **Launch status:** very likely in the Nov 4, 2026 game. The evidence is the trailer SkyVu chose for the 2026 Steam page (2013 footage [Inference, strong]), the soundtrack, SkyVu's ranking short and the two playtest chapter lists [Inference]. No SkyVu text says so outright [Canon, by absence].
   - **2026 modes:**
     - Steam lists "Team Deathmatch (TDM) -Free for All (FFA) -Plant the Bomb (PTB)" [Canon].
     - The fan chapters put Sky View in Plant the Bomb and Team Battle [Unverified]. FFA on Sky View in 2026 is unknown.
@@ -242,7 +242,7 @@ Sky View is a Battle Bears Gold (BBG) map set on a construction site on the open
 
 **Palette.** Approximate hex values I sampled myself, as hue-band medians from `scripts_sv_verify/huemask.py` and box samples from `samp.py`. Lighting varies.
 
-| Element | 2013 wiki gallery / icon | Official 2026 Steam trailer (v_008, 48.4 s) | SkyVu 2026 short (oar2) |
+| Element | 2013 wiki gallery / icon | Steam trailer (v_008, 48.4 s; 2013 footage [Inference, strong]) | SkyVu 2026 short (oar2) |
 |---|---|---|---|
 | Upper sky navy | #092A4D (SV1, SV2, SV4); B-1000 #082B49 | little sky visible | #102E48 |
 | Mid-sky purple | #442F52 (SV4) | - | - |
@@ -385,7 +385,7 @@ Verification downloads: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de
   - sky, sunset and skyline: SV1, SV4 and B-1000;
   - the horizon silhouettes: SV2 and the 2014 developer update.
 - **The portrait framing** that fits the deck, the crane and the sunset into one frame is a composition choice [BBG News invention].
-- **For a 2026-styled version**, swap in warmer, redder planks (#824E36), teal tarps (#15797B) and salmon facades [Observed: trailer, oar2].
+- **For a version matching SkyVu's Oct 2026 short**, swap in darker, redder planks (#824E36) and salmon facades (#D7B3B4) [Observed: oar2]. That frame's build is unknown [Unverified]. Do not take the Steam trailer's teal tarps (#15797B) as a 2026 look: that overhead is 2013 footage [Inference, strong].
 - **Do not add** a moon, wind-blown tarps, cones, tools, signs or working floodlights [none observed; BBG News invention if used].
 
 **Spots where a short could stage a scene:**
@@ -406,13 +406,13 @@ Verification downloads: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de
 - **Look:** observed. These all agree on materials, crane, tarps and sky:
   - four 2013 wiki screenshots, the map icon and the pre-launch teaser;
   - two official SkyVu video frames (the Android Preview and the Apr 2014 developer update);
-  - the official 2026 Steam trailer overhead;
+  - the Steam trailer overhead (2013 footage [Inference, strong]);
   - SkyVu's 2026 short frame.
 - **Layout, pickups and hazards:** documented (fan wiki, 2013-14). The pickup pages conflict, the PtB carry direction is ambiguous, and which side is Red or Blue is unknown.
 - **Modes:**
   - 2013-21: Team (observed HUD), PtB (fan-wiki), FFA (observed HUD plus fan-wiki).
   - 2026: PtB and Team Battle per fan chapter titles only.
-- **2026 status:** partial, but strong. It is in the official 2026 Steam trailer, on the OST, and in SkyVu's ranking short, and fan chapter lists show it in two 2026 playtests. No SkyVu text names it in the launch rotation, and the 2026 lighting is not confirmed.
+- **2026 status:** partial, but strong. It is in the trailer SkyVu re-used on the 2026 Steam page (2013 footage [Inference, strong]), on the OST, and in SkyVu's ranking short, and fan chapter lists show it in two 2026 playtests. No SkyVu text names it in the launch rotation, and the 2026 lighting is not confirmed.
 - **Official map blurb:** unknown this session, because the archive could not be reached.
 
 ---
@@ -429,8 +429,8 @@ Verification downloads: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de
 2. **`research_notes/Battle Bears character lore/franchise_world.md`, lines 19 and 253.**
    - Current: "...but it does add new maps (Sky World, Sky Pirates), a demo, and sign-up skins." and "...new maps (Sky World, Sky Pirates), a demo and sign-up skins..."
    - Correction: one new-to-BBG map shown under two names (Sky Pirates, called "Sky World" in the Aug 19 Steam post and in the "Sky Pirates in BBG!" short), not two maps.
-3. **`research_notes/Battle Bears character lore/animation_reference.md`, line 488.**
-   - Current: "It also adds a new Sky Pirates map (called "Sky World" in one official short)"
+3. **`research_notes/Battle Bears character lore/animation_reference.md`, Q3 Takeaway, the "Credit spellings also drift" paragraph (formerly line 488). Applied: the paragraph now cites both "Sky World" sources, the BBO origin and the Sky View warning.**
+   - Text at the time: "It also adds a new Sky Pirates map (called "Sky World" in one official short)"
    - Correction: the name "Sky World" is in the Aug 19, 2026 Steam post ("New Map: Sky World") and in the short's description ("highlights from our Sky World playtest"). The map comes from BBO per the wiki. Do not confuse it with Sky View.
 4. **`research_notes/BBG maps (unverified drafts)/research_frozen-pundra.md`, lines 45 and 220.**
    - Both lines claim the 16 = 15 legacy maps plus Sky World.
@@ -455,7 +455,7 @@ Verification downloads: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de
 
 - What is the full text of SkyVu's 2014 Sky View blurb (Wayback 20140507011952)? Retry when web.archive.org is reachable.
 - Is Sky View in the Nov 4, 2026 launch rotation, and in which of TDM, FFA and PTB? Fan chapters show PTB (Aug 21) and Team Battle (Oct 15). A frame at aujTcdFuxdE 20:51 or HKbwq7PolNc 39:40 would confirm the map and show the 2026 lighting.
-- Did BBG 3.0's "New Map Lighting" (2021) or the 2026 "Lighting improvements" change Sky View's sky, tarps or wood tones? Which build is the Steam trailer's Sky View overhead from, and which build is the Oct 11 short's frame from?
+- Did BBG 3.0's "New Map Lighting" (2021) or the 2026 "Lighting improvements" change Sky View's sky, tarps or wood tones? The Steam trailer's Sky View overhead is most likely 2013 footage [Inference, strong], so it cannot answer this. Which build is the Oct 11 short's frame from?
 - On Sky View's PtB layout, does the carrier take the bomb to their own side's "right corner" or to the enemy tube? Which side is Red and which is Blue? Where are the 2026 pickups?
 - Does the shared Gold Digger skybox put a full moon somewhere over Sky View? No Sky View image I opened shows one.
 - Are the horizon silhouettes stylised trees or distant spires?
@@ -470,7 +470,7 @@ Verification downloads: `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de
 - The glitch trivia was added 2014-05-18 (rev 64623), not 2014-08-06.
 - **"Launch in May 2013"** is now "late May to June 2013", because SkyVu's own trailer said "Coming June 2013!".
 - **New 2026 evidence:**
-  - Sky View is in the official 2026 Steam trailer (47.4-49.6 s);
+  - Sky View is in the Steam trailer SkyVu put on the 2026 Steam page (47.4-49.6 s), though that footage is most likely from 2013 [Inference, strong];
   - fan playtest chapters list it in PTB and Team Battle;
   - the "13-16" third tile is identified as Steam Yard Blues.
 - **New 2013-14 evidence:**

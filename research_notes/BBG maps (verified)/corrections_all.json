@@ -927,7 +927,7 @@
   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/huggable_botch_b1000.md",
   "current_text": "- Toxic Terror map (BBG 2.3): \"Because the map is filled with radioactive waste, it might be a hint to Botch's origins. There are also Tally marks on the walls and a drawing of Botch.\"",
   "correction": "Add the following: the 2013 wording was 'scratch marks on the walls marking 22 days'; the tallies are observed next to a Ninja-Turtle weapon rack; and the 'drawing of Botch' is unconfirmed in every image opened.",
-  "evidence": "Wiki revisions 54885\u201356592 (re-fetched) contain 'scratch marks on the walls marking 22 days'; images crops/tour_tally_rack.png and crops/tile_drawings.png under /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic_terror_verify/"
+  "evidence": "Wiki revisions 54885\u201356594 (re-fetched) contain 'scratch marks on the walls marking 22 days'; images crops/tour_tally_rack.png and crops/tile_drawings.png under /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/toxic_terror_verify/"
  },
  {
   "file": "research_notes/Battle Bears character lore/oliver_riggs_wil.md",
@@ -950,8 +950,8 @@
  {
   "file": "research_notes/BBG weapons (unverified drafts)/visuals_2026.md",
   "current_text": "- **Context:** the wiki's version table stops at 2.25 [Fan-wiki]. \"2.54.0\" is probably the late legacy client, matching \"no new features\" in July, and 3.0.x is the re-release branch [Inference].",
-  "correction": "Only the 'Battle Bears Gold/Versions' page stops at 2.25. The wiki's Updates page continues the BBG table: 2.25.2, 2.26\u20132.31, 2.50\u20132.53.3 (Aug 31, 2018), 3.0 (Nov 15, 2021, incl. 'New Map Lighting') and 3.0.1 (Dec 18, 2021). Fan captures add 2.53.6 (Mar 30, 2025) and 2.54.0 (the Jul 9, 2026 PC playtest tutorial uploads). A Sep 20, 2026 touch-HUD Tutorial upload shows a build string reading about '3.0.5_2026\u2026'. So both a 2.5x line and a 3.0.x line appear in 2026; which one ships Nov 4 is unverified. Apply the same fix to line 448 ('The wiki's version table stops at 2.25.').",
-  "evidence": "Updates and Battle Bears Gold/Versions wikitext via the MediaWiki API (2026-10-18). Thumbnails: https://i.ytimg.com/vi/6mredTN7z-k/sd1.jpg ('2.53.6', skybood, Mar 30, 2025); https://i.ytimg.com/vi/-RSuAlfOUow/maxresdefault.jpg and gNimZS6GtMA/sddefault.jpg ('2.54.0', Jul 9, 2026); https://i.ytimg.com/vi/lgd9Gqw6ahA/sd1.jpg and sd3.jpg ('3.0.5_2026\u2026', Mika_do, Sep 20, 2026, low-res)."
+  "correction": "Only the 'Battle Bears Gold/Versions' page stops at 2.25. The wiki's Updates page continues the BBG table: 2.25.2, 2.26\u20132.31, 2.50\u20132.53.3 (Aug 31, 2018), 3.0 (Nov 15, 2021, incl. 'New Map Lighting') and 3.0.1 (Dec 18, 2021). Fan captures add 2.53.6 (Mar 30, 2025; already in an Apr 25, 2023 capture, 5SwnBsYrETY) and 2.54.0 (the Jul 9, 2026 PC playtest tutorial uploads). A Sep 20, 2026 touch-HUD Tutorial upload shows a build string reading about '3.0.5_2026\u2026'. So both a 2.5x line and a 3.0.x line appear in 2026; which one ships Nov 4 is unverified. Apply the same fix to line 448 ('The wiki's version table stops at 2.25.').",
+  "evidence": "Updates and Battle Bears Gold/Versions wikitext via the MediaWiki API (2026-10-18). Thumbnails: https://i.ytimg.com/vi/6mredTN7z-k/sd1.jpg ('2.53.6', skybood, Mar 30, 2025); https://i.ytimg.com/vi/5SwnBsYrETY/maxresdefault.jpg ('2.53.6 / 12110032', Rumi2004, Apr 25, 2023); https://i.ytimg.com/vi/-RSuAlfOUow/maxresdefault.jpg and gNimZS6GtMA/sddefault.jpg ('2.54.0', Jul 9, 2026); https://i.ytimg.com/vi/lgd9Gqw6ahA/sd1.jpg and sd3.jpg ('3.0.5_2026\u2026', Mika_do, Sep 20, 2026, low-res)."
  },
  {
   "file": "research_notes/BBG maps (unverified drafts)/research_tutorial.md",
@@ -996,7 +996,7 @@
   "evidence": "YouTube r91WkR10W2A \"Battle Bears Gold 2026 - Sky Pirates Map Reveal\" (Aug 31, 2026); Short CwxpBZg6Fi4 \"Sky Pirates in BBG!\" (Sep 7, 2026), description \"Enjoy the highlights from our Sky World playtest!\""
  },
  {
-  "file": "research_notes/Battle Bears character lore/animation_reference.md (line 150)",
+  "file": "research_notes/Battle Bears character lore/animation_reference.md (Q1 section B 'Art style as seen in official frames', 'In-game 3D and logo' entry; formerly line 150; applied 2026-10-18)",
   "current_text": "(Steam screenshots and the Steam trailer; the lava caverns are from the trailer) \u2026 Interiors are glossy white and red sci-fi, there are lava/orange caverns and rocky caves",
   "correction": "There are no lava caverns. The lava is open-air Aztec Attack, a temple plateau in a lava sea under a starry crimson sky (~12.2\u201316.3 s and 43.1\u201345.5 s). The orange-red enclosed space is Marecraft, the inside of a giant unicorn (~38.5\u201341.5 s). The \"rocky caves\" are Gold Digger, a moonlit open-roofed mine with timber-shored tunnels (~1.5\u201310 s and 52\u201354 s). The white interiors are H.I.P. Test Lab and the red-white ones Shortest Parsec. All of this is 2013 footage, not 2026 renders.",
   "evidence": "Trailer frames t_0025\u20130033, t_0087\u20130091, t_0078\u20130083, t_0004\u20130021, t_0105\u20130108 and full-res frames f_44.0, f_40.5, f_53.0; Steam screenshots pixel-matched to trailer times 36.4/30.7/50.6/9.8/26.4 s; class cards identical to the May 30, 2013 trailer rfAyqVJrli4 hq1\u20133/maxres."
@@ -1383,7 +1383,7 @@
   "file": "/home/user/thallo-site/research_notes/Battle Bears character lore/oliver_riggs_wil.md (lines 252, 554)",
   "current_text": "Whether these are the same map is my [INFERENCE]; no source says so.",
   "correction": "SkyVu links the names: its short \"Sky Pirates in BBG!\" is described as \"Enjoy the highlights from our Sky World playtest!\" [Canon]. Same map [Inference, strong].",
-  "evidence": "CwxpBZg6Fi4 metadata (critic/inv/inv_CwxpBZg6Fi4.json), published 2026-09-07; animation_reference.md line 676 already records it"
+  "evidence": "CwxpBZg6Fi4 metadata (critic/inv/inv_CwxpBZg6Fi4.json), published 2026-09-07; animation_reference.md already records it (Fact-check log, 'Added (sourced)' list; also quoted in the Shorts item of Q1 section A's '2026 BBG re-release videos' list)"
  },
  {
   "file": "/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/bbg-news-repo/content/evergreen.json (fact-playtests)",

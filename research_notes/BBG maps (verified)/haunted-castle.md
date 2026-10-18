@@ -1,6 +1,6 @@
 # Haunted Castle
 
-Haunted Castle is the Battle Bears Halloween map. A blocky slate-blue walled castle stands at night on a figure-8 island. Inside the walls is a terracotta courtyard with a tall central tower on legs, lit by jack-o'-lanterns. Outside the walls, graveyard lawns hold each team's spawn [Observed]. The sky has a grey full moon carved with a jack-o'-lantern face [Observed, 2013 gameplay screenshot]. The map debuted in **Battle Bears Royale (BBR) v1.3.3**, dated October 10, 2012 by the wiki [Game text via wiki; Fan-wiki]. BBR was the app later renamed Battle Bears Gold (BBG). The map was dropped at the 2013 BBR-to-BBG switch [Fan-wiki; Inference] and came back in **BBG 2.4 (24 Oct 2013)** "To celebrate the holiday" [Canon]. SkyVu has not named it for the 2026 re-release. However, fan video metadata places it in the July and September 2026 playtest builds [Unverified].
+Haunted Castle is the Battle Bears Halloween map. A blocky slate-blue walled castle stands at night on a figure-8 island. Inside the walls is a terracotta courtyard with a tall central tower on legs, lit by jack-o'-lanterns. Outside the walls, graveyard lawns hold each team's spawn [Observed]. The sky has a grey full moon carved with a jack-o'-lantern face [Observed, 2013 gameplay screenshot]. The map debuted in **Battle Bears Royale (BBR) v1.3.3**, dated October 10, 2012 by the wiki [Game text via wiki; Fan-wiki]. Battle Bears Gold (BBG) was a separate app that replaced BBR on May 24, 2013 [Fan-wiki]. The map was dropped at the 2013 BBR-to-BBG switch [Fan-wiki; Inference] and came back in **BBG 2.4 (24 Oct 2013)** "To celebrate the holiday" [Canon]. SkyVu has not named it for the 2026 re-release. However, fan video metadata places it in the July and September 2026 playtest builds [Unverified].
 
 **Verification pass (18 Oct 2026).** I re-fetched every wiki page and revision cited, re-downloaded and opened every wiki image, re-checked the Steam store, soundtrack and news data, and re-read the YouTube metadata. Main changes from the draft:
 - The jack-o'-lantern moon appears in a 2013 gameplay screenshot, so it is in the game, not promo-only.
@@ -23,7 +23,7 @@ Haunted Castle is the Battle Bears Halloween map. A blocky slate-blue walled cas
 - So I could not re-open the 2014 official Haunted Castle page or the Nov 2012 BBR maps page.
 - YouTube watch pages and the player API returned a bot check, so no storyboards were available.
 
-**No Haunted Castle in official 2026 visuals [Observed].** None of the 108 trailer frames (t_0001–t_0108) and none of the 5 Steam screenshots shows it. The current Steam screenshots are identical to the local screen_00–04.
+**No Haunted Castle in the Steam trailer or Steam screenshots [Observed].** None of the 108 trailer frames (t_0001–t_0108) and none of the 5 Steam screenshots shows it. The current Steam screenshots are identical to the local screen_00–04. SkyVu put them on the 2026 Steam page, but they are most likely 2013 launch footage [Inference, strong], from the BBG launch that dropped this map, so their silence says nothing about 2026 [Inference].
 - The night "moon" shots t_0004–t_0012 are a rocky quarry with mine timbers [Observed]. That this is Gold Digger is [Inference].
 - t_0103–t_0104 are a space station, and t_0105–t_0108 are an overhead rocky pit [Observed].
 
@@ -51,7 +51,7 @@ Haunted Castle is the Battle Bears Halloween map. A blocky slate-blue walled cas
   - Plant the Bomb already existed; BBR 1.3 added it on May 3, 2012 [Game text via wiki].
   - A fan upload dated Oct 13, 2012, "Battle Bears Royale: Halloween skins and new map" (5bmlVjX-oK8), has the description "I play with the Demo in the new Haunted Castle..." [Unverified, fan metadata].
 - **The page's own wording is anachronistic.** It says "added to Battle Bears Gold in v1.3.3"; a 4 Jun 2013 edit summarised "Changed BBR to BBG" made that change [Fan-wiki].
-  - BBG is "previously known as Battle Bears Royale", and its relaunch was May 24, 2013 [Fan-wiki]. In Oct 2012 the game was BBR [Inference].
+  - The wiki's BBG intro says BBG was "previously known as Battle Bears Royale", but its History section says that on May 24, 2013 the game "was re-released on the App Store as Battle Bears Gold, shutting down the original Battle Bears Royale app", and its BBR page calls BBG "a completely separate app" [Fan-wiki]. So BBG was a new app that replaced BBR, not a rename [Inference]. In Oct 2012 the game was BBR [Inference].
 - **Late 2012 to spring 2013 (BBR):**
   - Our notes list the map on the official BBR maps page of Nov 2012 ("Haunted Castle, Abusement Park, Facing Temples, Battlefield Airpad, Desert Airmine, Huggable Factory, Spacecraft.") [Unverified this session].
   - Fan upload "Battle Bears Royale: Gnifle & RJC in the Haunted Castle" is dated Dec 3, 2012 [Unverified].
