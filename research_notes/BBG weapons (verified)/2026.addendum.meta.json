@@ -74,7 +74,7 @@
    "weapon": "Blue lightning-bolt tokens (sub-topic)",
    "owner": "Shared pickup",
    "slot": "sub-topic",
-   "status": "Seen in 2023 (2.53.6) and 2026 (3.0.5, 3.0.7) footage.",
+   "status": "Seen in 2023 (2.53.6) and 2026 (3.0.2, 3.0.5, 3.0.7) footage.",
    "look": "Blue bolt (#478CD2) with a white rim on a dark-maroon hexagonal prism (#3F2523); the same design as the Joules currency icon.",
    "firing_and_projectile": "n/a",
    "impact_end_result": "Lie or float where players died. Whether they are Joule drops or Kill Confirmed tags is unverified.",
@@ -135,7 +135,7 @@
    "owner": "Oliver (Soldier)",
    "slot": "secondary (default)",
    "status": "BBG default; carried by the 2026 'Classic Oliver' skin card (Jul 6, 2026)",
-   "look": "Coral-red tube (\u2248 #D35A56 in the trailer, #A2565A on the darkened card) with glowing orange oblong panels (\u2248 #FE922F), a grey band and a grey-checkered flared muzzle [Observed]. The green tube is BB-1/BBZ only [Fan-wiki].",
+   "look": "Coral-red tube (\u2248 #D35A56 in the Steam trailer, 2013 footage [Inference, strong]; #A2565A on the darkened 2026 card) with glowing orange oblong panels (\u2248 #FE922F), a grey band and a grey-checkered flared muzzle [Observed]. The green tube is BB-1/BBZ only [Fan-wiki].",
    "firing_and_projectile": "Not shown in the short [Unverified].",
    "impact_end_result": "Not shown in the short [Unverified].",
    "confidence": "observed"
@@ -154,7 +154,7 @@
    "weapon": "Light Matter",
    "owner": "Tillman (Demo)",
    "slot": "primary",
-   "status": "BBR v1.3.1; its orb appears in 2013 trailer footage reused by SkyVu on Mar 4, 2026",
+   "status": "BBR v1.3.1; its orb appears in Steam-trailer footage (2013 footage [Inference, strong]) reused by SkyVu on Mar 4, 2026",
    "look": "Orb with a white-hot core inside three cyan arc segments (\u2248 #18F8F8, blue edges #1868D8), with cross-spikes and a cyan lightning bolt to the floor [Observed match to Light_Matter_Orb.jpeg].",
    "firing_and_projectile": "'a single, slow moving blue orb' [Fan-wiki].",
    "impact_end_result": "'notably large, blinding, and electrified': a white dome laced with cyan lightning [Fan-wiki; Observed in the trailer at 8.5\u201310 s].",
@@ -164,7 +164,7 @@
    "weapon": "Gamma Ray / Gernobyl radiation kill (rainbow-cap Graham)",
    "owner": "Graham (Engineer)",
    "slot": "primary (Gamma Ray) / secondary (Gernobyl)",
-   "status": "2013 trailer footage (7.0\u201310.5 s) reused by SkyVu on Mar 4, 2026",
+   "status": "Steam-trailer footage (7.0\u201310.5 s; 2013 footage [Inference, strong]: the same shots are in the May 2013 trailer's storyboard) reused by SkyVu on Mar 4, 2026",
    "look": "Orange claw-ringed emitter with a pale hexagonal lens, matching the trailer Graham card and Graham_default.png [Observed; ID Inference].",
    "firing_and_projectile": "Lime-green goo globs (Gernobyl, 'irradiating globs of light green goo' [Fan-wiki]), then a white-cored lemon-yellow (\u2248 #FFFF24) spiky starburst on the target [Observed].",
    "impact_end_result": "A radiation trefoil fills over the target, then a yellow cube-cluster detonation with white hex floor rings and flying chunks, no gore [Observed in the trailer].",
@@ -283,7 +283,7 @@
   "Who is the eyepatched samurai bear with a katana on the Mar 4, 2026 Steam end card?",
   "The Huggable banner seen here is blue with darker-blue circle motifs, not 'three white symbols' [Fan-wiki]. Is it skin-specific?",
   "Which skins are the white/red O.C.O. wielder (Jun 25) and the brown, indigo-headband wielder (Jul 2)?",
-  "Other official BATTLE BEARS shorts are still uncited: 6ghQ4IUBqEY 'The Most ICONIC Weapon in Battle Bears Gold?', BTMmLCUKH7E, CwxpBZg6Fi4 'Sky Pirates in BBG!', oDZdTN7M0-E and SZZ38et45Xs (Playtest Highlights Parts 1 and 2), jkv6FHPghx8, ExbmKt64YFE and 02nCZfwYzEA.",
+  "Other official BATTLE BEARS shorts are still unexamined for weapons (the maps research viewed their frames for maps only): 6ghQ4IUBqEY 'The Most ICONIC Weapon in Battle Bears Gold?', BTMmLCUKH7E, CwxpBZg6Fi4 'Sky Pirates in BBG!', oDZdTN7M0-E and SZZ38et45Xs (Playtest Highlights Parts 1 and 2), jkv6FHPghx8, ExbmKt64YFE and 02nCZfwYzEA.",
   "out/verified/oliver.md lists the 2013 demo orb core as #5689EF, but resampling 1pOpppsjyuQ gives cyan (#36E0F9 to #54FAF9). That row should be rechecked."
  ]
 }

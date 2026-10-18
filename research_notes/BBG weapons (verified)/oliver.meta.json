@@ -4,10 +4,10 @@
    "weapon": "Shared VFX and how a defeat looks",
    "owner": "Oliver (Soldier) / all classes",
    "slot": "sub-topic",
-   "status": "2012-14 captures + 2026 official trailer/screens",
-   "look": "Team-coloured gear (red or blue) [Fan-wiki]; 2013 melee stars saturated yellow #F1E24A, 2026 stars pale cream [Observed]",
+   "status": "2012-14 captures + Steam trailer/screenshots (2013 footage [Inference, strong]; same shots in SkyVu's May 2013 trailer storyboard [Observed]) + one 2026 playtest blast",
+   "look": "Team-coloured gear (red or blue) [Fan-wiki]; melee stars saturated yellow #F1E24A in a 2013 fan demo, pale cream in Steam screenshot 0 (2013 footage) [Observed]",
    "firing_and_projectile": "Small yellow-orange star muzzle flash; white-yellow V sparks on surfaces; grey puffs at range [Observed]",
-   "impact_end_result": "2026: defeated bear either breaks into toy pieces (head flies off) or drops flat whole; hit model flashes white-blue; red/green hit flecks (draw as confetti) [Observed]",
+   "impact_end_result": "Steam trailer (2013 footage): defeated bear either breaks into toy pieces (head flies off) or drops flat whole; hit model flashes white-blue; red/green hit flecks (draw as confetti) [Observed]. 2026: a pale-yellow faceted blast in a Playtest #3 capture (EQwloJnrOko) [Observed]; in SkyVu's Jun 2026 short (uHk4iE_e2xo) a vanished target leaves backpack, armour piece and blue bolt token on the floor [Observed; the kill is Inference]; the break-apart itself unseen in 2026",
    "confidence": "observed"
   },
   {
@@ -67,14 +67,14 @@
    "status": "BBR v1.3.1 wk 2; 85 Gas in 2013 store [Observed]; 60 vs 85 conflict",
    "look": "Silver HASR retexture with dark gunmetal ring (#212226) [Observed]",
    "firing_and_projectile": "Auto 0.125 s, 50 rounds; 'little button' undocumented",
-   "impact_end_result": "Not observed [Unverified]; possibly the 2026 trailer gun [Inference low-medium]",
+   "impact_end_result": "Not observed [Unverified]; possibly the Steam-trailer gun (2013 footage) [Inference low-medium]",
    "confidence": "partial"
   },
   {
-   "weapon": "Unidentified 2026 trailer rifle (Gold Oliver)",
+   "weapon": "Unidentified Steam-trailer rifle (Gold Oliver)",
    "owner": "Oliver (Soldier), Gold Oliver skin",
    "slot": "primary (sub-topic)",
-   "status": "Official 2026 Steam trailer 38-43 s; identity Unverified",
+   "status": "Steam trailer 38-43 s, 2013 footage [Inference, strong] (same shot in SkyVu's May 30 2013 trailer [Observed]); identity Unverified",
    "look": "Small grey gun with a black curved loop below; card shows silver-grey blocky gun with dark angular top [Observed]",
    "firing_and_projectile": "Thin straight violet line (#9539F8) runs from the gun across the arena [Observed]",
    "impact_end_result": "Hit bear flashes white-blue; two opponents drop flat whole [Observed]",
@@ -114,8 +114,8 @@
    "weapon": "Bearzooka (BBG)",
    "owner": "Oliver (Soldier)",
    "slot": "secondary",
-   "status": "Default since BBR v1.0; named in 2026 Steam copy and seen in 2026 trailer; BBH Ultimate [Canon]",
-   "look": "Coral-red hex tube (#A44D4E 2013, #DB6251 2026) with glowing orange panels, grey collars, flared muzzle with grey checker band; NOT the green BBZ tube [Observed]",
+   "status": "Default since BBR v1.0; named in 2026 Steam copy; BBH Ultimate [Canon]; seen in the Steam trailer (2013 footage [Inference, strong]); held in the 2026 tutorial and playtest [Observed, fan footage]",
+   "look": "Coral-red hex tube (#A44D4E 2013 photo, #DB6251 Steam trailer) with glowing orange panels, grey collars, flared muzzle with grey checker band; same coral tube and orange panels in 2026 fan footage; NOT the green BBZ tube [Observed]",
    "firing_and_projectile": "1 rocket (two-shot text conflict), 1,000 u/s [Fan-wiki]; rocket model unseen",
    "impact_end_result": "AoE blast, 'very prone to suicide' [Fan-wiki]; explosion style from generic frames [Inference]",
    "confidence": "partial"
@@ -245,7 +245,7 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
    "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
-   "correction": "The BBG Bearzooka is a coral-red hexagonal tube with glowing orange panels, grey hex collars and a grey checker band on the flared muzzle [Observed, 2012-13 in-game and the 2026 trailer], matching the wiki's 'red and orange lines' [Fan-wiki]. The green, hazard-striped 'BEARZOOKA' tube is the BB Zombies (2009) design [Observed, File:Bear.jpg].",
+   "correction": "The BBG Bearzooka is a coral-red hexagonal tube with glowing orange panels, grey hex collars and a grey checker band on the flared muzzle [Observed, 2012-13 in-game and the Steam trailer (2013 footage [Inference, strong])], matching the wiki's 'red and orange lines' [Fan-wiki]. The green, hazard-striped 'BEARZOOKA' tube is the BB Zombies (2009) design [Observed, File:Bear.jpg].",
    "evidence": "File:BBR Bearzooka.png (store, Mar 2012), File:Photo 19-04-13 12 02 26 PM.png, official Steam trailer about 3.6-5.0 s (local crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-final/crops/tr_bz.jpg), File:Bear.jpg ('Weapon Selected: BEARZOOKA', BBZ); wiki Bearzooka page: 'In BBG and BB0, it is a rocket launcher with red and orange lines. In BBZ and BB-1 it is just a dark green rocket launcher.'"
   },
   {
@@ -282,7 +282,7 @@
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
    "current_text": "pants or shirts, blue headband, gold or engraved skin",
    "correction": "Remove 'blue headband' from the negative prompt. Blue is the documented blue-team colour of the default skin. Fix red as the house default in the positive prompt instead.",
-   "evidence": "Soldier (BBG)/Skins ('all coloured to the team') [Fan-wiki]; blue headband in many April 2013 (late BBR) demo thumbnails (e.g. guopL_SYkYA, AZt_huguhzc, JQ4MjeJfp2M), in the 2026 trailer (green-furred Oliver) and in the BBH portrait [Observed]."
+   "evidence": "Soldier (BBG)/Skins ('all coloured to the team') [Fan-wiki]; blue headband in many April 2013 (late BBR) demo thumbnails (e.g. guopL_SYkYA, AZt_huguhzc, JQ4MjeJfp2M), in the Steam trailer (green-furred Oliver; 2013 footage [Inference, strong]) and in the BBH portrait [Observed]."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
@@ -299,7 +299,7 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
    "current_text": "Bearzooka recoil blasts him through a wall. He comes back sooty: \"Meant to do that.\"",
-   "correction": "No recoil is documented. Re-ground the gag in his own blast radius: 'The user is very prone to suicide while using the Bearzooka.' [Fan-wiki]. Keep it marked as a [BBG News invention]. The 2026 trailer shows defeated bears breaking into toy-like pieces [Observed], which suits a bloodless self-blast gag.",
+   "correction": "No recoil is documented. Re-ground the gag in his own blast radius: 'The user is very prone to suicide while using the Bearzooka.' [Fan-wiki]. Keep it marked as a [BBG News invention]. The Steam trailer (2013 footage [Inference, strong]) shows defeated bears breaking into toy-like pieces [Observed], which suits a bloodless self-blast gag.",
    "evidence": "Bearzooka (BBG) wiki page; official trailer about 5.1 s (local crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver-final/crops/tr_ollie_pieces.jpg)."
   }
  ],
@@ -310,7 +310,7 @@
   "Is the Steamshot's steam green (wiki) or white (2013 frames)?",
   "What are the magenta crackle and lime-green wisps in SkyVu's 2014 Overhaul frames, taken with the Spreadshot equipped?",
   "What did the Apr 2014 Oliver Overhaul change, and in which build? Frames show HASR x/30, Spreadshot x/3, a grey launcher at x/1 (144.9 s) and an unidentified x/8 weapon. SkyVu change logs and forum notes are blocked (archive.org reset, vanillaforums 502).",
-  "What is the gold Oliver's gun in the 2026 trailer, and is the thin violet line its shot? Does the 2026 Sci-Fi HASR fire a violet beam?",
+  "What is the gold Oliver's gun in the Steam trailer (2013 footage), and is the thin violet line its shot? Did the 2013 Sci-Fi HASR fire a violet line, and what does it fire in 2026?",
   "When does a defeated bear break into pieces, and when does it collapse whole? Is it by damage type?",
   "What are the glowing floor blobs after kills (pickups?), and the red/lime-green hit flecks?",
   "Which Kumakiri health modifier is right (+10% in 2012/2013 screenshots vs -10% on the wiki), and what is it in 2026?",

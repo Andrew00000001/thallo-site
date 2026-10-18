@@ -4,7 +4,7 @@
    "weapon": "Radiation status & detonation (shared: Gamma Ray, Gernobyl, MuskIt, Radiation Rod)",
    "owner": "Graham (Engineer)",
    "slot": "status system",
-   "status": "Documented across BBG [Fan-wiki: Status Effects]; seen in the 2014 fan clip and in the Steam trailer gameplay (date unsettled) [Observed]",
+   "status": "Documented across BBG [Fan-wiki: Status Effects]; seen in the 2014 fan clip and in the Steam trailer gameplay (2013 footage [Inference, strong]) [Observed]",
    "look": "A yellow disc over the head (#FBFE13) split into 6 wedges with a dark hub; wedges drop out (they show dark, not white) until three yellow-orange blades (#FFC20B) remain on a black disc (#150E09) [Observed: 0GuhKiAnNyc hq2; trailer f_08.25-08.75]",
    "firing_and_projectile": "Builds per hit or while exposed; a Geiger tick speeds up and is 'audible to all players nearby'; decays about 3-5 RP/s [Fan-wiki]",
    "impact_end_result": "At full radiation the target 'will die instantly in a relatively large explosion' (150-200 u, can hurt Graham), 'the same as the Piece Maker and Phat Man explosion animation' [Fan-wiki]. Trailer: toy-like orange body pieces fly out of a blocky white-yellow cloud with a white hex floor ring [Observed; that it is the radiation kill is Inference]",
@@ -104,7 +104,7 @@
    "weapon": "Gernobyl",
    "owner": "Graham (Engineer)",
    "slot": "secondary",
-   "status": "BBR 1.4.3 (store notes Apr 15, 2013; released as 1.4.3.1, Apr 23) through BBG; 90 Gas; 2.6 clip 1 to 3 [Fan-wiki]. Seen in the Steam trailer gameplay (date unsettled) [Observed]",
+   "status": "BBR 1.4.3 (store notes Apr 15, 2013; released as 1.4.3.1, Apr 23) through BBG; 90 Gas; 2.6 clip 1 to 3 [Fan-wiki]. Seen in the Steam trailer gameplay (2013 footage [Inference, strong]) [Observed]",
    "look": "Fat tan gerbil (#D9BC74) with a brown back stripe and curled tail, glowing yellow eyes, an open red mouth with buck teeth, a black harness with a yellow-black hazard band, a silver-and-black carry handle, and lime goo patches (#BFDB3C); carried like a lantern, about 0.35 H [Observed: File:Gernobyl.jpg, File:Gernobil.jpg]",
    "firing_and_projectile": "Lobs 'irradiating globs of light green goo' at 1,000 u/s that 'split into 2 to 3 droplets' [Fan-wiki]; small glowing yellow-green droplets with trails (#B3DC36) [Observed: File:Radioactive_goo.jpeg]; trailer: a chunky faceted lime glob [Observed: 7.4 s]",
    "impact_end_result": "A hit gives radiation plus slight damage; a miss leaves a 4.5 s irradiating puddle [patch note via Fan-wiki; Fan-wiki]; a huge lumpy lime goo mass (#B1DA2D) with the trefoil on the HUD [Observed: File:Radioactive_puddle.jpeg]; then the shared detonation",
@@ -195,7 +195,7 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/graham.md",
    "current_text": "Exception: the 2013 BBG trailer card shows a different look (rainbow-striped cap, black-rimmed glasses, red track jacket, orange drill-gun) [Observed] ([trailer][trailer13]), probably the \"Instagraham\" skin [Inference], so the card look stays the default; keep the trailer look for skin gags.",
-   "correction": "The trailer look IS the Instagraham skin [Observed]: brown cap with a rainbow stripe, dark-rimmed goggles with camera-lens lenses (not glasses), red-brown fur and a brown radio backpack. The 'orange drill-gun' is the Gamma Ray: orange housing, a black octagonal muzzle ring gripped by orange prongs, a green core and lime LEDs [Observed]. The 'red track jacket' is probably the skin's red-brown fur plus the standard white arm stripes [Inference]. The card is reused at 10.75-12.0 s of the 2026 Steam trailer, and 7.25-10.5 s show this skin firing the Gernobyl, then the Gamma Ray [Observed].",
+   "correction": "The trailer look IS the Instagraham skin [Observed]: brown cap with a rainbow stripe, dark-rimmed goggles with camera-lens lenses (not glasses), red-brown fur and a brown radio backpack. The 'orange drill-gun' is the Gamma Ray: orange housing, a black octagonal muzzle ring gripped by orange prongs, a green core and lime LEDs [Observed]. The 'red track jacket' is probably the skin's red-brown fur plus the standard white arm stripes [Inference]. The card is reused at 10.75-12.0 s of the Steam trailer SkyVu put on the 2026 Steam page, and its gameplay at 7.25-10.5 s (2013 footage [Inference, strong]) shows this skin firing the Gernobyl, then the Gamma Ray [Observed].",
    "evidence": "File:Instagrahamrl.png shows the same cap, goggles and backpack holding the Gamma Ray; wiki: 'brown-coloured theme with a stripe of colours on his helmet and camera lens on his goggles' [Fan-wiki: Instagraham]; rfAyqVJrli4 hq1.jpg matches /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/frames/f_11.00.png; gun crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/frames/card_gun.png; face crop /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/insta.png"
   },
   {
@@ -261,7 +261,7 @@
   "Double Wrench: what does it look like? No image exists anywhere on the wiki.",
   "2026 roster: which of the 17 Engineer weapons are in the build? The JustNubz Engineer chapter (34:42-39:57) would answer this, but YouTube playback is blocked (LOGIN_REQUIRED).",
   "2026 Gamma Ray beam: are the pale-cyan hexagonal outlines in the VHo1O41RNJE 29:05 frame the beam?",
-  "Steam trailer: when was the Graham gameplay (7.25-10.5 s) captured? Its black outlines match 2018+ and 2026 renders, not 2012-2015 in-game images. And what makes the white flash edged with cyan lightning at 8.75-10.25 s?",
+  "Steam trailer: why is the Graham gameplay (7.25-10.5 s, 2013 footage [Inference, strong]) outlined when Dec 2013 fan captures of Instagraham are not, and did the outline follow SkyVu's 2013 'HD Graphics' mode? Some 2013 fan captures (Gold and circuit-pattern skins) already have outlines, so the outline does not date the segment to 2018 or later. And what makes the white flash edged with cyan lightning at 8.75-10.25 s?",
   "SkyVu's archived 2.6 change log is unreachable (web.archive.org resets connections; WebFetch refuses), so all 2.6 numbers are unverified against SkyVu.",
   "Radiation threshold: is it 100 RP (Status Effects) or the target's maximum health (Gamma Ray and Radiation Rod pages)? Is it 4.5 or 5 RP per Gamma Ray hit?",
   "Rivet Gun release: was it 2.1? The page says so, but the Updates log omits it.",

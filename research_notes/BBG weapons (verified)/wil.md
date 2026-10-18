@@ -302,7 +302,7 @@ I watched no video. Every YouTube [Observed] tag means a still thumbnail I opene
 - **Depiction for shorts:** A thunk, then a snowball bursts into a hanging cloud of chunky flakes. A second shot clinks off the cloud, per the wiki's blocking note. Keep the flakes white-lavender until gameplay is checked; that colour is a [BBG News invention].
 - **Confidence:** partial.
 
-## Batterito (secondary; default; BBR v1.3, May 3, 2012 → BBG → official 2026 trailer)
+## Batterito (secondary; default; BBR v1.3, May 3, 2012 → BBG; in the Steam trailer, 2013 footage [Inference, strong])
 - **Official text:** "Set you mouth and you opponent's faces ablaze with fiery power of the batterito. Once consumed, fire will spew from your mouth and movement speed is increased until the inferno dies down." [Game text via wiki]
 - **Look:** a bullet-shaped wrapped burrito hugged across the belly, **about 0.45–0.5× Wil's height long** (the draft's 0.3× was too small) [Observed: trailer 17.9 s, `$V/crops/batt_179.png`, `$V/crops/grid_179.png`; File:Wil.png]:
   - a dark grey wrapper (#554B4A–#6E656D);
@@ -314,7 +314,7 @@ I watched no video. Every YouTube [Observed] tag means a still thumbnail I opene
   - He eats it. Damage starts "a second or two" later. Primary, melee and Specials are locked until it ends [Fan-wiki].
   - 70 DPS, +200 u/s [Fan-wiki]. Duration is 8 s in the infobox but "6 seconds" and "7-second" in the text [Fan-wiki conflict].
   - 2.6: damage 30→35, duration 10→6.5, reload 12→5 [Fan-wiki].
-- **Official 2026 trailer** ("Battle Bears Gold Premium - Trailer") [Observed: `$T/t_0037.jpg`–`t_0048.jpg`; my extractions `$V/trailer/f_17.9.png`, `f_21.2.png`, `f_22.2.png`, `f_23.0.png`; tiles `$V/crops/tr_seq177.png`, `tr_seq186.png`]:
+- **Steam trailer** ("Battle Bears Gold Premium - Trailer", which SkyVu put on the 2026 Steam page; 2013 footage [Inference, strong], so this is the classic look, not evidence of the 2026 build) [Observed: `$T/t_0037.jpg`–`t_0048.jpg`; my extractions `$V/trailer/f_17.9.png`, `f_21.2.png`, `f_22.2.png`, `f_23.0.png`; tiles `$V/crops/tr_seq177.png`, `tr_seq186.png`]:
   - **17.8–17.9 s:** Wil (Booty Duty) hugs the Batterito at his belly.
   - **18.0 s:** both hands go to his mouth.
   - **18.5 s:** blue tears stream and his teeth clench.
@@ -507,7 +507,7 @@ I watched no video. Every YouTube [Observed] tag means a still thumbnail I opene
 ## Corrections to the previous inventory (arsenal_wil.json and the draft)
 1. **Boomstick "small red mark":** it is a red two-digit LED readout ("00") on the receiver [Observed: BoomBoom.png zoom; SkyVu 2012 animation test].
 2. **EZ Chee-Z in the BBR 1.3 trailer:** the "SECONDARY EDIBILITIES" clips do not prove bloating; one shows a blue team helmet [Observed]. Mark it [Unverified].
-3. **The 2026 trailer skin is Booty Duty** (unidentified in the arsenal). Its backpack is **red-and-black** (team-coloured), not black.
+3. **The Steam trailer skin is Booty Duty** (unidentified in the arsenal; the trailer is 2013 footage [Inference, strong]). Its backpack is **red-and-black** (team-coloured), not black.
 4. **Traffic Light icon skin = Fatman** (the arsenal said "red-masked superhero-style skin").
 5. **Pie Bomb:** SkyVu's 2.2 recap captions it "Wil Primary Weapon" with a 2/2 HUD [Canon caption; Observed]. Gameplay is third-person over the shoulder, not first person.
 6. **Batterito size:** about 0.45–0.5× Wil's height, not 0.3×.
@@ -562,7 +562,7 @@ I watched no video. Every YouTube [Observed] tag means a still thumbnail I opene
    - Evidence: wiki class page and Category:Chub Scout; BcEeAzXFChI maxres caption; battlebears.com/pages/characters; File:Wil_description.jpg; File:Wil_skin.png.
 6. **Fighting, line 61.**
    - Current: "**Fighting:** "a highly situational class" with "a wide variety of explosive weapons" [Fan-wiki] ([Chub Scout (BBG)][ws]); ABBi's "Sarcastic Air Strike" [Canon] ([characters][chars])."
-   - Correction: Mark Sarcastic Air Strike as BBH only. In BBG his signature beats are the edibles: Batterito fire breath (official 2026 trailer [Observed]) and the EZ Chee-Z / Whipped Pain inflate-and-explode [Game text via wiki].
+   - Correction: Mark Sarcastic Air Strike as BBH only. In BBG his signature beats are the edibles: Batterito fire breath (Steam trailer [Observed]; 2013 footage [Inference, strong]) and the EZ Chee-Z / Whipped Pain inflate-and-explode [Game text via wiki].
    - Evidence: trailer frames t_0037–t_0048; wiki EZ Chee-Z and Whipped Pain descriptions; the battlebears.com text uses BBH "Ultimate" wording.
 7. **Prompt pack, line 76.**
    - Current: "red cap, white shirt; compact grey robot backpack with one camera-eye lens; chunky cartoon shotgun; alternate pose with a dripping blue ice pop;"
@@ -587,7 +587,7 @@ I watched no video. Every YouTube [Observed] tag means a still thumbnail I opene
 11. **Signature skins, line 55** (addition).
     - Current: "**Signature skins** [Fan-wiki] ([Chub Scout (BBG)][ws]): Gold Wil, Old Timey, Monster Hoodie, Lunchador, Sleepover, Chub Scout."
     - Correction: Add the skins seen on weapons:
-      - Booty Duty (2026 trailer);
+      - Booty Duty (Steam trailer, 2013 footage [Inference, strong]);
       - Fatman (Traffic Light icon);
       - Lunchador (Selfie Stick icon);
       - Gift Wrapped (Boomstick, Balance Beam and Doomstick renders);
@@ -606,7 +606,7 @@ I watched no video. Every YouTube [Observed] tag means a still thumbnail I opene
 - What do the EZ Chee-Z and Whipped Pain explosions look like, and does the white spray from the Whipped Pain nozzle start before the blast?
 - Clip sizes changed across versions (Boomstick 3 vs 1; Señor Potato 4 vs 6 vs 3; Pie Bomb 2 vs 4; Chainsaw 4 vs 2 vs 3; Sole's Bane 2 vs 3; Pop Tart 8 vs 3). When did each change, and how did v3.0's removal of +1 equipment and Equipment Slot 2 affect them?
 - When was the Boomstick's K/D damage scaling removed?
-- Which skin is Wil's 2026 default: the red-helmet look seen in matches, or the "CLASSIC WIL" headband skin? Did any Chub Scout weapon change, get renamed or get removed for 2026? The Pie Bomb, Bow and Batterito are seen in 2026 material; the others are unverified. Watch the JustNubz showcase from 28:11 and check SkyVu's launch patch notes.
+- Which skin is Wil's 2026 default: the red-helmet look seen in matches, or the "CLASSIC WIL" headband skin? Did any Chub Scout weapon change, get renamed or get removed for 2026? The Pie Bomb and Bow are seen in 2026 material. The Batterito is only probable: a 2026 Playtest 4 thumbnail shows his blue-tear "too hot" face (OqSi3rfMdl8 hq1) [Inference], and its clear Steam-trailer shot is 2013 footage [Inference, strong]. The others are unverified. Watch the JustNubz showcase from 28:11 and check SkyVu's launch patch notes.
 - Is the 2.13 melee the Traffic Light, with Bow and Arrow in 2.16 (page histories point that way)?
 - Which skin is the black-suited, white-handed Wil in the 2012 Whipped Pain clips (Dia De Los Muertos or another)?
 - SkyVu's BBG 2.6 change log and the archived blog remain unreached: web.archive.org reset connections, and its availability API returned "Temporarily Offline" today.

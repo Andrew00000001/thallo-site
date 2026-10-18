@@ -18,7 +18,7 @@ The main new finding: there is now an **in-game image of the freeze**, from a fa
   - all sizes of the three cited videos
   - seven more candidates from twelve new searches
   - dates and descriptions from the youtubei `next` endpoint
-- **Already-saved files:** the Steam screenshots and the official trailer frames.
+- **Already-saved files:** the Steam screenshots and the Steam trailer frames.
 
 **Sources I could not reach:**
 - YouTube playback and storyboards: LOGIN_REQUIRED / "Sign in to confirm you're not a bot" on five clients. Watch pages redirect to google.com/sorry. I watched no video.
@@ -194,7 +194,7 @@ The main new finding: there is now an **in-game image of the freeze**, from a fa
   - Snow lingers in its area "for several seconds and block[s] any explosives" [Fan-wiki]. No freeze duration is listed [Fan-wiki].
 - **Big white domes with cyan lightning arcs:**
   - Seen in SW Tillman videos: 0i1TEJqDxt4 hq3 (Dec 31, 2015, BBG 2.23) and Rjxp848LabU hq2 (Dec 31, 2017, BBG 2.28) [Observed: FZ/crops/s_0i1TEJqDxt4.png, FZ/crops/Rjx_hq2_c.png].
-  - A similar dome appears in the official trailer at 9.0–10.0 s [Observed: FZ/crops/tr_g2.png? no, FZ/crops/tr_g1.png].
+  - A similar dome appears in the Steam trailer at 9.0–10.0 s [Observed: FZ/crops/tr_g1.png].
   - These are explosions, not ice. Which weapon makes them is [Unverified].
 - **Painted-water bowls on Skate or Die:** pale aqua with white foam. They can pass for ice in low-res stills (uBXgVYop_-0 hq1) [Observed; Inference].
 
@@ -204,7 +204,8 @@ The main new finding: there is now an **in-game image of the freeze**, from a fa
 - **Let It Cold:** added BBG 2.26, Jan 17, 2017, alongside Snowtato Launcher and a winter No Bear's Land [Fan-wiki]. In fan footage on Jan 22, 2017 [Observed: wyhDD9PVKyY].
 - **Rework or removal:** none recorded [Fan-wiki, by absence].
 - **2026 re-release:** no evidence either weapon is in it [Unverified]:
-  - absent from the Steam text, the 5 Steam screenshots and the trailer grids [Observed]
+  - absent from the Steam text [Observed]
+  - not in the 5 Steam screenshots or the trailer grids either [Observed], but those re-use SkyVu's 2013 footage [Inference, strong; the Space Oddity clip and screen_01 are undated], older than both weapons, so they say nothing about 2026 [Inference]
   - absent from the Oct 16, 2026 Tillman frag movie thumbnails, whose primary icon is a different white launcher [Observed: FZ/crops/s_Pd0VvQ1TBRM.png, FZ/crops/Pd0_hq2_hud.png]
   - absent from the official Aug 16, 2026 playtest-highlights thumbnails [Observed: FZ/crops/s_C7uFxvSZ10c.png]
 - **Other candidates checked, no freeze visible:**
@@ -272,7 +273,7 @@ This addendum fixes one gap in the combat-vfx dossier: the Drain Field part of t
 - **YouTube thumbnails, downloaded fresh:** hqdefault, hq1, hq2, hq3 and maxresdefault for the two videos the sanchez topic cited, xAp9gFMriAU and 5twbNI7iakw.
   - Titles and channel came from oEmbed today.
   - Upload dates came from the watch pages saved on Oct 16 at `dl/sanchez-dossier/yt/watch/`. Today's fresh fetch returned 302/429 (Google "sorry" page).
-- **Official trailer and Steam screenshots:** an automated red-pixel scan of all 108 trailer frames and the 5 Steam screenshots. I viewed the 6 reddest frames.
+- **Steam trailer and Steam screenshots:** an automated red-pixel scan of all 108 trailer frames and the 5 Steam screenshots. I viewed the 6 reddest frames.
 
 **What I did not do**
 - **I watched no video.** Every YouTube [Observed] tag below means a still thumbnail I opened. hq1, hq2 and hq3 are YouTube's automatic frames from about 25%, 50% and 75% of the runtime [Inference]. hqdefault and maxresdefault of both videos are custom thumbnails made by the uploader: a game frame with title text, the BBG app icon and a Unity logo laid over it [Observed].
@@ -335,7 +336,7 @@ This addendum fixes one gap in the combat-vfx dossier: the Drain Field part of t
   - **Wiki vs frames:** the frames confirm the wiki's sunglasses-wearing creature projection and its bats. They do not support "dark field": in 2.25 the field is red [Observed vs Fan-wiki].
     - "Dark field" was written for the Feb 2015 v2.16 build, and both frames are from 2.25 (2016). A colour change between those builds is undocumented, but it cannot be ruled out [Unverified].
   - **Unseen:** how health visibly moves to Sanchez, any effect on the victims, and how a Drain Field kill looks [Unverified].
-  - **Trailer:** the 6 reddest frames of the 2026 trailer (t_0001, t_0027, t_0078, t_0080, t_0081, t_0083) show the logo fire, lava and a red sky, not a Drain Field [Observed]. No official image of the field in play was found.
+  - **Trailer:** the 6 reddest frames of the Steam trailer (2013 footage [Inference, strong]) (t_0001, t_0027, t_0078, t_0080, t_0081, t_0083) show the logo fire, Aztec Attack's red sky with a translucent red horned skull (t_0027) and Marecraft's red flesh interior (t_0078–t_0083), not a Drain Field [Observed]. No official image of the field in play was found.
 - **Images viewed** (all under `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/combat-vfx/drain-gap/`):
   - `yt/xAp9gFMriAU_hq1.jpg` (https://i.ytimg.com/vi/xAp9gFMriAU/hq1.jpg)
   - `yt/5twbNI7iakw_maxresdefault.jpg` (https://i.ytimg.com/vi/5twbNI7iakw/maxresdefault.jpg)

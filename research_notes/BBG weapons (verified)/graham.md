@@ -19,12 +19,14 @@ His BBG arsenal is **17 weapons**: 6 primaries, 7 secondaries and 4 melees [Fan-
 - BBG re-release on Steam: Nov 4, 2026 [Canon: Steam]. BB Heroes (2024) is a different game.
 
 **Two big caveats**
-1. **The Steam trailer mixes 2013 art with gameplay of unsettled date.**
+1. **The Steam trailer is 2013 footage [Inference, strong], re-used on the 2026 Steam page. It does not show the 2026 build.**
    - The "Graham / ENGINEER" card (10.75–12.0 s) is identical to the card in SkyVu's "BATTLE BEARS GOLD Trailer: Award-Winning Multiplayer Shooter Game" (rfAyqVJrli4, channel "BATTLE BEARS", date text "May 30, 2013") [Observed: https://i.ytimg.com/vi/rfAyqVJrli4/hq1.jpg vs /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/frames/f_11.00.png; Canon: oEmbed and YouTube metadata].
-   - The Graham gameplay before the card (7.25–10.5 s) draws thick black toon outlines. No 2012–2015 in-game image I checked has them, while the May 2018 Dragon Slayzer render and the 2026 playtest thumbnails do [Observed: compare sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/outline_cmp.png]. So the footage is probably a 2018-or-later capture [Inference]. The 2013 card art also uses outlines, though, so a 2013 trailer render cannot be ruled out [Unverified].
-   - Either way it is SkyVu's official 2026 marketing [Canon]. The earlier draft's "probably 2013 footage" is withdrawn.
+   - The Graham gameplay before the card (7.25–10.5 s, on Gold Digger per the maps research) draws thick black toon outlines [Observed: compare sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/outline_cmp.png]. An earlier version of this file read the outlines as a sign of a 2018-or-later capture. That argument is withdrawn: some 2013 fan captures already have them, namely Gold Graham in the Jul 2013 2.0 beta (T_EJ2DmboPU) and the circuit-pattern skins in Sep–Nov 2013 (KBbEgOLyYGM, Edbw2qUVZtw) [Observed: graham.addendum.md, Incidental findings 1; re-opened crops /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham/gaps/crops/TEJ_m0.jpg and KBb_m1.jpg, and sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham/gaps/sheets/sheet_Edbw2qUVZtw.jpg]. The 2013 card art draws them too [Observed: sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/rfa.png].
+   - The maps research pixel-matches the trailer's class cards to rfAyqVJrli4 and finds only the 8 classes and the maps of May 2013 in it [Observed, per /home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1]. Nothing in the Graham segment is newer: Instagraham is "one of the original skins that came out with Graham" [Fan-wiki: Instagraham], the Gamma Ray dates from 2012 and the Gernobyl from Apr 2013 [Fan-wiki]. So the segment is 2013 footage [Inference, strong]. Only the cards are pixel-matched; whether this gameplay also appears in the 2013 trailer is [Unverified]. The maps research's one exception, the Space Oddity clip (about 30.0–32.8 s), has an open capture date [Unverified] and lies outside the Graham segment.
+   - Still open: Dec 2013 fan captures of Instagraham have no outlines [Observed: graham.addendum.md], so why the trailer's Graham is outlined is [Unverified]. SkyVu's 2013 "HD Graphics" mode is one lead [Inference, per the maps research].
+   - SkyVu put the trailer on the 2026 Steam page [Canon], but it is not evidence of how the 2026 build looks. The earlier draft's "probably 2013 footage" stands again, now on the maps research's evidence.
 2. **Only the Gamma Ray is confirmed in the 2026 build.** The evidence is a fan closed-playtest chapter thumbnail [Observed].
-   - The Gernobyl appears in the official trailer's gameplay, but that footage's date is unsettled [Observed; date Unverified].
+   - The Gernobyl appears in the Steam trailer's gameplay, but that is 2013 footage [Observed; ID and date Inference, strong], so it says nothing about 2026.
    - The other 15 weapons are unconfirmed for 2026 [Unverified].
 
 **Scale, colours and image key**
@@ -48,7 +50,7 @@ His BBG arsenal is **17 weapons**: 6 primaries, 7 secondaries and 4 melees [Fan-
   - white stripe bands on the upper arms
 - **Team colour:** the backpack is red by default and teal-blue on the blue team [Observed: https://i.ytimg.com/vi/U3XDJXo1Ej4/hq2.jpg; File:GIgramhambundle.png, where the backpack and gloves are teal]. The skin concept File:InstaGraham.jpg shows the same skin in a brown/red version and a teal version [Observed]. That the colour follows the team is [Inference].
 - **Weapon hand:** one-handed weapons sit in his right hand, the viewer's left in front-facing renders [Observed].
-- **Outlines:** 2012–2015 in-game images have none [Observed: U3XDJXo1Ej4 maxres; 0GuhKiAnNyc maxres; File:So_many_mines.jpg]. The May 2018 render, the Steam trailer gameplay and the 2026 playtest thumbnails all have thick black outlines [Observed].
+- **Outlines:** 2012–2015 in-game images have none [Observed: U3XDJXo1Ej4 maxres; 0GuhKiAnNyc maxres; File:So_many_mines.jpg], except some 2013 footage: the Gold and circuit-pattern skins in 2013 fan captures (T_EJ2DmboPU, Jul 2013; KBbEgOLyYGM and Edbw2qUVZtw, Sep–Nov 2013) [Observed: graham.addendum.md, Incidental findings 1], and Instagraham in the Steam trailer gameplay (2013 footage [Inference, strong]) [Observed]. Dec 2013 fan captures of Instagraham have none [Observed: graham.addendum.md]. The May 2018 render and the 2026 playtest thumbnails also have thick black outlines [Observed].
 - **Skins seen with weapons:**
   - **Instagraham** in the Steam trailer: brown cap with a rainbow stripe, dark-rimmed goggles with camera-lens lenses, red-brown fur and a brown radio backpack. It matches File:Instagrahamrl.png, which also holds the Gamma Ray [Observed]. The wiki notes the "stripe of colours on his helmet and camera lens on his goggles" [Fan-wiki: Instagraham].
   - **Old School** in all 2026 playtest thumbnails: red cap with a "G", red overalls, white shirt and a green warp-pipe backpack [Observed]. The wiki calls it a Mario reference ("It's a me!", a warp-pipe backpack) [Fan-wiki: Old School].
@@ -130,7 +132,7 @@ His BBG arsenal is **17 weapons**: 6 primaries, 7 secondaries and 4 melees [Fan-
   - It is in the "Groundhog Day" bundle [Fan-wiki].
 - **Look:**
   - **2012 render:** a dark round drum or emitter with a bright green octagonal lens (#66FF08), framed by orange clamp-like brackets (#B8630A in shade). A small white cylinder with a yellow radiation sticker sits on top, and the housing has vent slots [Observed: File:Graham_default.png, File:Gamma_ray.png, File:Graham-gamma-ray.png; the cylinder is clearest in Graham-gamma-ray.png].
-  - **Card (2013 art, reused in the 2026 trailer):** a bright orange blocky housing (#FF7700 lit, #A14F13 in shade) with black vent slots, a dark panel with small lime LEDs, a glowing green core visible behind a big black octagonal ring, and orange prongs gripping the ring [Observed: frames/card_gun.png at 11.5 s and card_gun_1075.png].
+  - **Card (2013 art, reused in the Steam trailer):** a bright orange blocky housing (#FF7700 lit, #A14F13 in shade) with black vent slots, a dark panel with small lime LEDs, a glowing green core visible behind a big black octagonal ring, and orange prongs gripping the ring [Observed: frames/card_gun.png at 11.5 s and card_gun_1075.png].
   - From behind, a grey hexagon sits on the rear block [Observed: f_08.25.png; 0GuhKiAnNyc maxres].
   - Held two-handed at the hip, about head-sized and roughly 0.3 H long [Observed, approximate].
   - HUD/nav icon: an orange gun with green tube segments [Observed: File:Gamma-ray-navi-icon.png].
@@ -316,7 +318,7 @@ His BBG arsenal is **17 weapons**: 6 primaries, 7 secondaries and 4 melees [Fan-
 - **Depiction for shorts:** mines clack onto the floor and walls, each with its little red line sticking out [Observed]. An enemy steps close and a white-and-yellow starburst flashes [Observed basis, low-res]. Confetti and bolts replace damage [BBG News invention].
 - **Confidence:** partial.
 
-## Gernobyl (secondary; BBR 1.4.3, Apr 2013, through BBG; in the Steam trailer's gameplay of unsettled date)
+## Gernobyl (secondary; BBR 1.4.3, Apr 2013, through BBG; in the Steam trailer's 2013 footage [Inference, strong])
 - **Official text:**
   - In-game: "Radioactive goo never hurt anyone, unless of course it came from the contaminated mouth of an adorable little mutated mammal. The longer your exposure the greater your chance of death!" [Game text via wiki] (https://battlebears.fandom.com/wiki/Gernobyl)
   - Patch note, 1.4.3 row (Apr 15, 2013): "Gernobyl: Engineer's radioactive launcher.This mid-sized rodent shoots irradiated goop: a hit will cause radiation damage and slight physical damage, if you miss an opponent it creates a radioactive puddle- any player who steps in it will receive radiation damage."
@@ -529,7 +531,7 @@ His BBG arsenal is **17 weapons**: 6 primaries, 7 secondaries and 4 melees [Fan-
 - **BBG 3.0.1 (Dec 18, 2021):** "Scale down weapon Graham in Home Menu" [Fan-wiki: Updates].
 
 ## Verifier's corrections to the draft and to the arsenal inventory
-1. **Steam trailer dating.** The card (10.75–12.0 s) is the May 30, 2013 card [Observed]. The gameplay at 7.25–10.5 s is not "probably 2013 footage". Its black outlines match the 2018+ and 2026 renders, not the 2012–2015 in-game images, so its date is unsettled [Observed; Inference]. It is still the only official 2026 depiction of Graham's weapons; the playtest images are fan footage.
+1. **Steam trailer dating (revised).** The card (10.75–12.0 s) is the May 30, 2013 card [Observed]. The gameplay at 7.25–10.5 s is 2013 footage too [Inference, strong: the maps research pixel-matches the cards to rfAyqVJrli4 and finds only May 2013 classes and maps], so the draft's "probably 2013 footage" was right. This pass's earlier reading (black outlines, so probably 2018 or later and of unsettled date) is withdrawn: some 2013 fan captures already have the outlines [Observed: graham.addendum.md, Incidental findings 1]. SkyVu put the trailer on the 2026 Steam page [Canon], but it does not depict the 2026 build. For 2026, use the playtest captures, which are fan footage [Observed].
 2. **The trailer skin is Instagraham**, matched to File:Instagrahamrl.png, which also holds the Gamma Ray [Observed]. This upgrades the earlier [Inference].
 3. **File:Black_Hole_Shot.png is not a Graham concept.** It was uploaded 2012-11-22 as "Black Hole Shot Concepts" for BB Zero's Black Hole Shot, a weapon of Wil's [Fan-wiki].
 4. **Bind Field.** It was renamed from Slow Field on the wiki on 2014-10-02 (the 2.12 release day). Its official text changed from "...will be slowed by 50%" to "...stop and dream about bingo", and its slow values changed several times [Fan-wiki revisions].
@@ -550,7 +552,7 @@ File: /home/user/thallo-site/bbg-news-repo/characters/graham.md
    - Correction: the skin *is* Instagraham. It matches File:Instagrahamrl.png: brown cap with a rainbow stripe, dark-rimmed goggles with camera-lens lenses (not glasses), red-brown fur, brown radio backpack [Observed]. The wiki calls it a "brown-coloured theme with a stripe of colours on his helmet and camera lens on his goggles" [Fan-wiki: Instagraham].
    - The "orange drill-gun" is the **Gamma Ray**, which Instagrahamrl.png also holds [Observed].
    - The "red track jacket" is probably the skin's red-brown fur plus the model's standard white arm stripes [Inference].
-   - The same card is reused at 10.75–12.0 s of the 2026 Steam trailer, and the gameplay at 7.25–10.5 s shows this skin firing the Gernobyl, then the Gamma Ray [Observed].
+   - The same card is reused at 10.75–12.0 s of the Steam trailer SkyVu put on the 2026 Steam page, and its gameplay at 7.25–10.5 s, 2013 footage [Inference, strong], shows this skin firing the Gernobyl, then the Gamma Ray [Observed].
 2. **The Weapons bullet is incomplete.**
    - Current: "**Weapons:** BBG defaults [Fan-wiki] Power Glove (...), Turret (...) and T Square (...) ... BBH turret "from scrap" [Canon]".
    - Correction: list all 17 BBG weapons with eras [Fan-wiki]:
@@ -609,7 +611,7 @@ File: /home/user/thallo-site/bbg-news-repo/characters/graham.md
 - 2026 roster: which of the 17 Engineer weapons are in the build? The JustNubz Engineer chapter (34:42–39:57) would answer this, but YouTube playback is blocked from this sandbox.
 - 2026 Gamma Ray beam: are the pale-cyan hexagonal outlines in the VHo1O41RNJE 29:05 frame the beam?
 - Steam trailer:
-  - When was the Graham gameplay (7.25–10.5 s) captured: 2013, 2018 or later, or the 2026 build?
+  - Why is the Graham gameplay (7.25–10.5 s, 2013 footage [Inference, strong]) outlined when Dec 2013 fan captures of Instagraham are not? Did the outline follow SkyVu's 2013 "HD Graphics" mode? A frame match of that gameplay against rfAyqVJrli4 would also settle its date.
   - What makes the white flash edged with cyan lightning at 8.75–10.25 s?
 - SkyVu's archived 2.6 change log is still unreachable (web.archive.org resets connections). All 2.6 numbers are unverified against SkyVu.
 - Radiation threshold: is it 100 RP (Status Effects) or the target's maximum health (the Gamma Ray and Radiation Rod pages)? Is it 4.5 or 5 RP per Gamma Ray hit?

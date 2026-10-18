@@ -14,7 +14,7 @@
    "weapon": "Viperifle",
    "owner": "Astoria (Sniper)",
    "slot": "primary (default)",
-   "status": "BBR 1.1 Nov 23 2011 to BBG; 2.6 fire rate 2.5 to 1.5, reload 5 to 4; shown in 2026 trailer (about 30.0-30.8 s) and Steam screenshot_01",
+   "status": "BBR 1.1 Nov 23 2011 to BBG; 2.6 fire rate 2.5 to 1.5, reload 5 to 4; shown in the Steam trailer (about 30.0-30.8 s, Space Oddity clip) and Steam screenshot_01, both 2013 footage [Inference, strong]; 2026: probably the teaser thumbnail's green shot [Inference]",
    "look": "Black/charcoal rifle, dark-green liquid capsule on top (about #305216), green vents by the grip, long thin barrel ending in an angular snake-head muzzle with a glowing lime eye (about #84FE1F); 2-2.5 head-heights [Inference]",
    "firing_and_projectile": "Lock-on, one shot per pull. Wiki: 'a single, green, stream-like bullet'. 2026 teaser thumbnail shows a bright-green tapered streak (about #01FC6F); that it is this weapon is [Inference]",
    "impact_end_result": "Cosmetic green 'venom' splash (yellow-green in the teaser); 45 base damage on green lock; white lock = HEAD SHOT",
@@ -44,9 +44,9 @@
    "weapon": "Dead Eye",
    "owner": "Astoria (Sniper)",
    "slot": "primary",
-   "status": "Shown Apr 2012; released BBR 1.4.3/1.4.3.1 Apr 15/23 2013; 120 Gas with HEALTH -5% (2013); 2.6 removed the health penalty; nerfed 2.20; on the 2026 trailer title card",
+   "status": "Shown Apr 2012; released BBR 1.4.3/1.4.3.1 Apr 15/23 2013; 120 Gas with HEALTH -5% (2013); 2.6 removed the health penalty; nerfed 2.20; on the Steam trailer's title card (2013 footage [Inference, strong]); 2026 Unverified",
    "look": "Ivory bone rifle lashed with red-brown cords, beaked and toothed skull scope that 'bites', shoulder-blade stock, very long thin bone barrel with a square muzzle; about 3 head-heights (longest)",
-   "firing_and_projectile": "Lock-on, 1 round, high damage (75/85 conflict). 2026 trailer: thin jagged lightning-like WHITE streak from her hands to the target's head (wiki says red)",
+   "firing_and_projectile": "Lock-on, 1 round, high damage (75/85 conflict). Steam trailer (2013 footage [Inference, strong]): thin jagged lightning-like WHITE streak from her hands to the target's head (wiki says red); 2026 colour Unverified",
    "impact_end_result": "Red translucent smoke at the target, then large glowing translucent red horned skulls rise (about #F32833); target topples. Wiki: 'glowing, transparent buffalo skulls', cosmetic. Flames in that clip come from another player",
    "confidence": "observed"
   },
@@ -124,10 +124,10 @@
    "weapon": "Fairy's Dust",
    "owner": "Astoria (Sniper)",
    "slot": "secondary",
-   "status": "BBR 1.4.3 Apr 2013 ('Fairy's Sparkle' in the 1.4.3.1 notes); 165,000 to 125,000 J in 2.20; shown in the 2026 trailer about 13.8-16.3 s",
+   "status": "BBR 1.4.3 Apr 2013 ('Fairy's Sparkle' in the 1.4.3.1 notes); 165,000 to 125,000 J in 2.20; shown in the Steam trailer about 13.8-16.3 s (2013 footage [Inference, strong]); named in a fan 2026 Playtest #3 loadout (qt43iTdANbM hq3, build 3.0.2) [Observed, low-res]",
    "look": "Glittery pink-to-purple sack (about #DD7ADB) tied with red ribbon under a crumpled blue/cyan top, with yellow, pink and purple star sparkles",
    "firing_and_projectile": "Thrown sack trailing tiny yellow and pink star sparkles; 1 ammo, 3 s reload",
-   "impact_end_result": "Bursts on contact into a huge harmless faceted cloud for 4 s: violet (about #9901E1) in 2013, hot magenta (#F323F4-#FE26FE) to violet in the 2026 trailer, with twinkles; snipers can still lock inside; she reappears with the Dead Eye",
+   "impact_end_result": "Bursts on contact into a huge harmless faceted cloud for 4 s: violet (about #9901E1) in 2013 fan screenshots, hot magenta (#F323F4-#FE26FE) to violet in the Steam trailer (also 2013 footage [Inference, strong]), with twinkles; snipers can still lock inside; she reappears with the Dead Eye",
    "confidence": "observed"
   },
   {
@@ -263,14 +263,14 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
    "current_text": "a teal-masked sniper in a 2026 Steam screenshot, which is Astoria only by [Inference]",
-   "correction": "the Call Off Duty skin (mint mud-mask with a cucumber slice over one eye, robe and polka-dot shorts, ice-cream tub on the belt; pink on Team Red, light blue on Team Blue) holding the Viperifle in Steam screenshot_01 and the official trailer at about 30.0-30.8 s [Observed; skin ID from the wiki's description].",
-   "evidence": "The wiki's Call Off Duty page: 'a mint-colored mud-mask with a cucumber piece on the left eye \u2026 Pink is changed to light blue if the player is on Team Blue \u2026 her ammo-belt features a bag of ice cream'. File:Call_off_duty.png (pink version), the official Mean Mamba Bundle banner (blue version) and trailer frames b_008-b_014 (vp_sheet.jpg) all match."
+   "correction": "the Call Off Duty skin (mint mud-mask with a cucumber slice over one eye, robe and polka-dot shorts, ice-cream tub on the belt; pink on Team Red, light blue on Team Blue) holding the Viperifle in Steam screenshot_01 and the Steam trailer at about 30.0-30.8 s (2013 footage [Inference, strong]) [Observed; skin ID from the wiki's description].",
+   "evidence": "The wiki's Call Off Duty page: 'a mint-colored mud-mask with a cucumber piece on the left eye \u2026 Pink is changed to light blue if the player is on Team Blue \u2026 her ammo-belt features a bag of ice cream'. File:Call_off_duty.png (pink version), the official Mean Mamba Bundle banner (blue version) and trailer frames b_008-b_014 (vp_sheet.jpg) all match. The same Space Oddity moment is in SkyVu's May 30, 2013 trailer rfAyqVJrli4: its storyboard frames at 35.0 and 36.0 s match the Steam trailer at 30.9 and 31.9 s (greyscale MSE 121 and 150 at 160x90)."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
    "current_text": "the BBG splash card (blue eyes, red-and-white top, arms crossed; possibly a skin [Inference]; [Steam trailer][steam])",
-   "correction": "the 2026 trailer's ASTORIA / SNIPER title card: the Assassino skin (team-colour jacket, white sleeves, dark trousers, round belt emblem) holding the Dead Eye bone rifle upright [Observed; skin ID Inference, strong].",
-   "evidence": "Trailer at about 16.4-17.8 s (sheetA4.jpg). The wiki's Assassino page: 'a team colored jacket with a white shirt underneath, black pants, backpack and ammo belt'. File:Assasino1.PNG shows the same outfit with 'ASSASSINO BUY NOW 125,000', and File:DeadEye.jpg shows the outfit with the Dead Eye."
+   "correction": "the Steam trailer's ASTORIA / SNIPER title card (2013 footage [Inference, strong]): the Assassino skin (team-colour jacket, white sleeves, dark trousers, round belt emblem) holding the Dead Eye bone rifle upright [Observed; skin ID Inference, strong].",
+   "evidence": "Trailer at about 16.4-17.8 s (sheetA4.jpg); the same card is at 21 s in the storyboard of SkyVu's May 30, 2013 trailer rfAyqVJrli4. The wiki's Assassino page: 'a team colored jacket with a white shirt underneath, black pants, backpack and ammo belt'. File:Assasino1.PNG shows the same outfit with 'ASSASSINO BUY NOW 125,000', and File:DeadEye.jpg shows the outfit with the Dead Eye."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
@@ -287,8 +287,8 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
    "current_text": "- **Weapons/props:** a sniper rifle [Canon] (BBG default: the Viperifle [Fan-wiki] ([Sniper (BBG)][sniper])); the Tomahawk,",
-   "correction": "Add the two items the 2026 official trailer shows: the Dead Eye (bone rifle with a biting skull scope; fires a thin jagged white streak; red translucent horned-skull smoke on hit) and Fairy's Dust (a pink sparkle sack that bursts into a huge harmless magenta-violet faceted cloud; her vanish-and-reappear beat) [Observed, official Steam trailer].",
-   "evidence": "Trailer frames at about 12.2-17.8 s (sheetA1-A4.jpg, line_126.png, skull_pair.jpg); the wiki's Dead Eye and Fairy's Dust usage text."
+   "correction": "Add the two items the Steam trailer shows: the Dead Eye (bone rifle with a biting skull scope; fires a thin jagged white streak; red translucent horned-skull smoke on hit) and Fairy's Dust (a pink sparkle sack that bursts into a huge harmless magenta-violet faceted cloud; her vanish-and-reappear beat) [Observed, Steam trailer] (2013 footage [Inference, strong]). In 2026, only Fairy's Dust is seen, as loadout text in a fan Playtest #3 thumbnail [Observed, low-res]; the Dead Eye's 2026 status is [Unverified].",
+   "evidence": "Trailer frames at about 12.2-17.8 s (sheetA1-A4.jpg, line_126.png, skull_pair.jpg); the wiki's Dead Eye and Fairy's Dust usage text; JustNubz qt43iTdANbM hq3 (2026 loadout, build 3.0.2)."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
@@ -299,7 +299,7 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
    "current_text": "- **Eyes:** teal-green, heavy-lidded and unimpressed [Observed].",
-   "correction": "Eyes: blue/blue-teal (about #5391A1) on every in-game 3D model, 2012-2015 Gear Ups and the 2026 trailer; teal-green only on the 2D character card. Use blue-teal for 3D shorts, remove 'blue eyes' from the negative prompt, and change 'teal-green eyes' in the reference and video prompts.",
+   "correction": "Eyes: blue/blue-teal (about #5391A1) on every in-game 3D model, 2012-2015 Gear Ups and the Steam trailer (2013 footage [Inference, strong]); teal-green only on the 2D character card. Use blue-teal for 3D shorts, remove 'blue eyes' from the negative prompt, and change 'teal-green eyes' in the reference and video prompts.",
    "evidence": "PIL eye samples from four Gear Ups (mean #5391A1); trailer title card at about 16.4-17.8 s; File:AstoriaDescription.jpg for the card's teal-green."
   },
   {
@@ -311,15 +311,15 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
    "current_text": "- What default skin, taunts and audio does the 2026 build use? The [Astoria Overhaul][overhaul] and [2026 showcase][showcase] videos haven't been viewed.",
-   "correction": "Partly answered: 2026 official material shows Assassino with the Dead Eye and Fairy's Dust (trailer), Call Off Duty with the Viperifle (trailer and Steam screenshot_01), and a small default red-gear Astoria (screenshot_04). Taunts and audio remain open; both videos are still unviewed.",
-   "evidence": "Steam appdetails screenshots and trailer frames opened by the verifier (steam_sheet.jpg, s04_ast2.png, sheetA2-A4.jpg, sheetB.jpg)."
+   "correction": "Still open for the 2026 build. The Steam trailer and screenshots cannot answer it: they show Assassino with the Dead Eye and Fairy's Dust, Call Off Duty with the Viperifle (trailer and Steam screenshot_01) and a small default red-gear Astoria (screenshot_04), but all of it is 2013 footage [Inference, strong]. The 2026 fan frames in the addendum show two looks: plain cream fur and a team-colour backpack (blue in maxres2, red in maxres1), with no jacket visible, in Takishi's Aug 2 beta (B-8uQcs1DFA, build 3.0.0) [Observed], which fits the default skin [Inference]; and the Assassino-style red jacket in the Oct 15 playtest (HKbwq7PolNc maxres2, build 3.0.7) [Observed; Astoria by Inference]. Whether the jacket is the 3.0.7 default or that player's skin is open. Taunts and audio remain open; both videos are still unviewed.",
+   "evidence": "Steam appdetails screenshots and trailer frames opened by the verifier (steam_sheet.jpg, s04_ast2.png, sheetA2-A4.jpg, sheetB.jpg); the storyboard of SkyVu's May 30, 2013 trailer rfAyqVJrli4, which holds the same Astoria shots; the addendum's thumbs/aow_B-8uQcs1DFA_maxres1.jpg and _maxres2.jpg, and thumbs/gap1_HKbwq7PolNc_maxres2.jpg."
   }
  ],
  "open_questions": [
-  "Which of the 18 Sniper weapons are in the 2026 build, and with what stats and prices? Only the Viperifle, Dead Eye and Fairy's Dust appear in official 2026 material; the JustNubz Closed Playtest #4 showcase (Sniper chapter at 22:30) needs a human viewer.",
+  "Which of the 18 Sniper weapons are in the 2026 build, and with what stats and prices? The Viperifle, Dead Eye and Fairy's Dust appear in the Steam trailer and screenshots, but that is 2013 footage [Inference, strong]. Among real 2026 sources, SkyVu's teaser thumbnail probably shows a Viperifle shot [Inference], and fan captures show Fairy's Dust, the Crossbow and the Battering Ram (Playtest #3 loadout, 2026.md) and the Art of War and the Rake (Aug 2026 beta, addendum); the JustNubz Closed Playtest #4 showcase (Sniper chapter at 22:30) needs a human viewer.",
   "What is the date of the official 'BATTLE BEARS GOLD Developer Update - Astoria Overhaul' (wUWf9O-YX4A), and what did it change? Its thumbnail ammo counts (8/10, 4/4, 3/3, 0/2) only partly match wiki stats.",
   "None of these has been observed: the Mamba's Boy projectile (beyond one pale streak), the Blow Dart dart and its 'blue tinge' explosion, the Fidget Boomer explosion, the I Lava U mines and blasts, the Art of War paint burst, the Rake spring-up, the charged Crossbow burst, and all four melee hit effects.",
-  "Is the Dead Eye bullet white (2026 trailer) or red (wiki), and did it change between eras?",
+  "Is the Dead Eye bullet white (Steam trailer, 2013 footage [Inference, strong]) or red (wiki), did it change between eras, and what colour is it in the 2026 build?",
   "When was red Capital Pains removed, is the 2015 silver barrel the 'white' state, and does the NASDAQ mechanic exist in 2026?",
   "In which direction does the Eagle Standard's special-speed modifier work after BBG 2.6, and in 2026?",
   "Does the fan screenshot 'Detonate daydreamer' (magenta arc ring, white bubbles) really show the Daydreamer trigger?",

@@ -34,7 +34,7 @@
    "weapon": "Steam trailer is 2013 footage (sub-topic)",
    "owner": "SkyVu",
    "slot": "n/a",
-   "status": "'Battle Bears Gold Premium - Trailer' re-edits the May 2013 launch trailer; 5 screenshots are its frames",
+   "status": "'Battle Bears Gold Premium - Trailer' re-edits the May 2013 launch trailer; 5 screenshots are its frames. The 2013 trailer's storyboard matches its gameplay at a ~4.0 s offset (first 4 s and end cards cut), including the Graham segment and the Space Oddity clip (screen_01; the maps research's Space Oddity dossier leaves its date open) [Observed]; so all of it is 2013 footage [Inference, strong]",
    "look": "Corrected IDs: Bearail Gun + Shock N Claw (B-1000), Gernobyl goo, Light Matter orbs/blast, Big Shot, Phat Man, Punk Bands, Electric Honey, Blood Spurt, Gamma Ray beam and card",
    "firing_and_projectile": "See table; draft IDs (Grenader, Barbed Gloves, Gamma Ray at 7-10 s) withdrawn",
    "impact_end_result": "Use as 2013 look reference only, never as '2026 gameplay'",
@@ -76,8 +76,8 @@
    "slot": "Secondary, default",
    "status": "Named on 2026 Steam page; same look in 2013 trailer and 2026 thumbnails",
    "look": "Coral-red tube (~#DE604D) with glowing orange chevron windows (~#FC9C24), grey bands, grey-red checkered flared rear, pink hexagonal muzzle cap with dark bore; ~0.75-0.9x Oliver",
-   "firing_and_projectile": "1 ammo (HUD 1/1), 1.5 s, 2.5 s reload, 1,000 u/s; trailer rocket = grey hexagonal shell with glowing orange-yellow panels and spiky orange flame tail [Observed; ID Inference]",
-   "impact_end_result": "40-60 explosives, AoE 125/250; yellow (~#F8E838) blast with orange rim; point-blank blast flings the shooter (self-damage prone)",
+   "firing_and_projectile": "1 ammo (HUD 1/1), 1.5 s, 2.5 s reload, 1,000 u/s; Steam trailer rocket (2013 footage [Inference, strong]) = grey hexagonal shell with glowing orange-yellow panels and spiky orange flame tail [Observed; ID Inference]",
+   "impact_end_result": "40-60 explosives, AoE 125/250, self-damage prone [Fan-wiki]; Steam trailer (2013 footage [Inference, strong]): yellow (~#F8E838) blast with orange rim, point-blank blast flings the shooter; no 2026 blast attributed to it yet",
    "confidence": "observed"
   },
   {
@@ -341,13 +341,13 @@
    "confidence": "documented"
   },
   {
-   "weapon": "Unidentified items in 2026 art and footage (sub-topic)",
+   "weapon": "Unidentified items in 2026 art and footage, and in the Steam trailer (sub-topic)",
    "owner": "various",
    "slot": "n/a",
-   "status": "Jul 6 banner extras, store loop, map objects, trailer leftovers",
+   "status": "Jul 6 banner extras, store loop, map objects; Steam-trailer leftovers (2013 footage [Inference, strong])",
    "look": "Panda's three-pronged white rifle, skull bear's lime camo gun, eye-patch bear's grey gun; gold Huggable faceted trail",
-   "firing_and_projectile": "Unknown",
-   "impact_end_result": "Blue bolt shapes are probably kill drops; 'Z' icon meaning unknown",
+   "firing_and_projectile": "Unknown; in the Steam trailer, a thin violet line from the gold bear's gun (38.3-40.8 s) [Observed], weapon unidentified",
+   "impact_end_result": "Blue bolt shapes are probably kill drops; green shields around players are the Shield pickup or the 4.5 s respawn shield [Unverified]; 'Z' icon meaning unknown",
    "confidence": "unknown"
   }
  ],
@@ -373,13 +373,13 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/astoria.md",
    "current_text": "a teal-masked sniper in a 2026 Steam screenshot, which is Astoria only by [Inference]",
-   "correction": "a teal-masked sniper in a Steam store screenshot that is a frame of the 2013 trailer footage reused on the 2026 store page (trailer 30.7 s), Astoria by [Inference]",
-   "evidence": "screen_01 matches trailer 30.7 s (pixel MSE; confirmed by both checks); the Steam trailer re-edits the May 2013 launch trailer."
+   "correction": "a teal-masked sniper in Steam screenshot screen_01, a frame of the Steam trailer's Space Oddity clip (trailer 30.7 s; 2013 footage [Inference, strong], re-used on the 2026 store page), Astoria by [Inference]",
+   "evidence": "screen_01 matches trailer 30.7 s (pixel MSE; confirmed by both checks); the Steam trailer re-edits the May 2013 launch trailer. The maps research's Space Oddity dossier leaves the clip undated, but the same moment is in the 2013 trailer's storyboard (Steam 30.85 and 31.95 s against 2013 35 and 36 s; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/edit2026_tr/sb_match.txt)."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
    "current_text": "the 2026 trailer card shows a red faceted skin instead [Observed]",
-   "correction": "the Steam trailer card (2013 trailer footage reused on the 2026 store page) shows the red cracked-rock Rocky Horror skin instead [Observed; name per Fan-wiki]",
+   "correction": "the Steam trailer card (2013 footage [Inference, strong], re-used on the 2026 store page) shows the red cracked-rock Rocky Horror skin instead [Observed; name per Fan-wiki]",
    "evidence": "Trailer frames in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/punch.png match wiki ROcky_Horror.png (/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-vcheck/sh/w_rskins.png); the Heavy (BBG) skin list has 'Rocky Horror' (250 Gas)."
   },
   {
@@ -440,6 +440,6 @@
   "What does 'Premium' in the Steam trailer title mean? Will 2026 footage replace the 2013 recut on the store page?",
   "What do the unwatched sources show? These are the JustNubz showcase (build 3.0.5), the Aug 21 livestream loadout chapter, the Oct 12 Q&A and the Oct 19\u201326 demo.",
   "Did the Sept 2026 wiki stat edits (Hazard Toy, Energy Overflow, Rake) come from the 2026 playtests or from old knowledge?",
-  "What is the '2.54.0' build line? The wiki's version table stops at 2.25."
+  "What is the '2.54.0' build line, and which line ships on Nov 4? The wiki's Updates page ends the 2.5x numbering at 2.53.3 (Aug 31, 2018) and then lists 3.0 (Nov 15, 2021) and 3.0.1 (Dec 18, 2021), yet 2022\u20132024 fan uploads still show 2.53.6 clients."
  ]
 }

@@ -4,17 +4,17 @@
    "weapon": "Overall VFX style",
    "owner": "All classes",
    "slot": "n/a",
-   "status": "BBR/BBG 2013 captures vs BBG 2026 media",
-   "look": "Mixed effect looks: soft billowing particle fire with dark smoke; painterly cartoon flames (#F47E3E / #FAA751); hard-edged translucent faceted volumes only for specific blasts (nuke dome, radiation burst, shard bursts, white faceted puffs). Pink beams #FF5DFE, cyan lightning #80FFFE. 2026 media add a thick black ink outline to characters; 2013 captures have none.",
+   "status": "BBR/BBG 2013 captures, the Steam media's 2013 footage and 2026 playtest captures",
+   "look": "Mixed effect looks: soft billowing particle fire with dark smoke; painterly cartoon flames (#F47E3E / #FAA751); hard-edged translucent faceted volumes only for specific blasts (nuke dome, radiation burst, shard bursts, white faceted puffs). Pink beams #FF5DFE, cyan lightning #80FFFE. Characters have a thick black ink outline in SkyVu's May 2013 trailer footage (re-used in the Steam trailer and screenshots [Inference, strong], apart from the undated Space Oddity shot and screen_01) and in 2026 playtest captures (builds 3.0.0, 3.0.7), but not in 2012-14 player captures on the wiki [Observed].",
    "firing_and_projectile": "Beams are flat ribbons with white-hot cores (pink, thick yellow with concentric muzzle arcs, thin purple); thin yellow tracers.",
-   "impact_end_result": "Flat octagonal floor rings (white on the station, white/grey and orange in the cave); pink 4-point star sparks for beam hits, yellow 5-point stars for melee; 2D status icons above heads. Whether the 2026 outline is in-game is Unverified.",
+   "impact_end_result": "Flat octagonal floor rings (white on Shortest Parsec, white/grey by a Gold Digger tunnel mouth, orange and white over Gold Digger's open pit); pink 4-point star sparks for beam hits, yellow 5-point stars for melee; 2D status icons above heads. The outline is rendered in-game in 2026 [Observed]; whether it is always on or a setting is Unverified.",
    "confidence": "observed"
   },
   {
    "weapon": "Ordinary death (intact collapse)",
    "owner": "All classes",
    "slot": "n/a",
-   "status": "Seen in the 2026 trailer; BBR/BBG",
+   "status": "Seen in the Steam trailer (2013 footage; the 31.7 s Space Oddity shot is undated); BBR/BBG",
    "look": "Victim goes limp and topples whole, face-down, with no blood. Examples at 12.6 s, 31.7 s, about 40.1 s and 41.1 s in the trailer.",
    "firing_and_projectile": "n/a",
    "impact_end_result": "In one shot the corpse vanished in a single frame about 3 s after the fall, with no fade. Three Joule pickups drop at the death site (since BBG v2.1) [Fan-wiki].",
@@ -24,7 +24,7 @@
    "weapon": "Break-apart death ('gib')",
    "owner": "All classes (bears, robots, Huggables)",
    "slot": "n/a",
-   "status": "Seen in the 2026 trailer; wiki ties it to most Demo explosives",
+   "status": "Seen in the Steam trailer (2013 footage); wiki ties it to most Demo explosives",
    "look": "The body breaks into about 4-7 large, clean, toy-like pieces (head, torso and legs, backpack or flag) with no insides visible.",
    "firing_and_projectile": "Observed after a Phat Man blast, an irradiated Huggable bursting, and one B-1000 close-range attack (cyan claw swipe, flash, then the break-up at 4.9 s).",
    "impact_end_result": "Pieces fly up and tumble; on the Huggable they are orange plush with blue stitching plus gold sparkles. What decides break-apart vs intact is Unverified; Tillman's 'pink and red flesh' [Fan-wiki] was not seen.",
@@ -44,7 +44,7 @@
    "weapon": "Damage feedback",
    "owner": "All classes",
    "slot": "n/a",
-   "status": "BBR/BBG; 2026 trailer",
+   "status": "BBR/BBG; the Steam trailer (2013 footage)",
    "look": "A one-frame flat bright flash on the target (the gold bear turns lemon yellow at 38.3 s); star sparks; green health bar that degrades to red (numbers added later).",
    "firing_and_projectile": "n/a",
    "impact_end_result": "No damage numbers seen. A red '( ! )' bracket reticle appears in Assassin and Engineer views (meaning Unverified). Some characters flicker between two colours (base Unverified).",
@@ -74,8 +74,8 @@
    "weapon": "Team colours",
    "owner": "All classes",
    "slot": "n/a",
-   "status": "BBR/BBG; 2026 media",
-   "look": "Red/blue on accents (Soldier headband, cuffs and ammo straps; Huggable flag; Tillman's armour), the HUD, kill-feed outlines and Plant the Bomb gear. Some 2026 Huggables carry a white rainbow-dot flag instead.",
+   "status": "BBR/BBG; Steam media (2013 footage)",
+   "look": "Red/blue on accents (Soldier headband, cuffs and ammo straps; Huggable flag; Tillman's armour), the HUD, kill-feed outlines and Plant the Bomb gear. Some Huggables in the Steam trailer (2013 footage) carry a white rainbow-dot flag instead.",
    "firing_and_projectile": "Projectiles keep their own colours, not team colours [Inference from Observed].",
    "impact_end_result": "The only team-coloured effect documented for later BBG is the Energy Barrier glow (v2.3+). The Cloaking aura existed only in BBR v1.4.2; the Peek A Boo neon lines ran from v1.4.2 to v2.6.",
    "confidence": "observed"
@@ -84,7 +84,7 @@
    "weapon": "Phat Man / Piece Maker",
    "owner": "Tillman (Demo)",
    "slot": "Secondary",
-   "status": "BBR/BBG; Phat Man seen in the 2026 trailer and screen_04",
+   "status": "BBR/BBG; Phat Man seen in the Steam trailer (2013 footage) and screen_04",
    "look": "Phat Man: an olive bomb with a yellow-black trefoil and a yellow X-eyed smiley nose (matches the wiki render). Piece Maker: a rainbow-striped bomb.",
    "firing_and_projectile": "Rises on a yellow-white flame trail, then dives back down on it (the 'yellow column' is its own trail); can follow a locked target [Fan-wiki].",
    "impact_end_result": "A translucent yellow faceted dome fills the room and flings bodies apart; then a mushroom cloud of white faceted puffs. Users are 'prone to suicide' [Fan-wiki].",
@@ -225,7 +225,7 @@
    "owner": "Match flow",
    "slot": "n/a",
    "status": "BBR/BBG; Loadouts v2.2, suicide penalty v2.19",
-   "look": "'Tap to Respawn' with a Loadouts button; a 'SHIELDS' HUD tag; lava borders on the Aztec maps.",
+   "look": "'Tap to Respawn' with a Loadouts button; a 'SHIELDS' HUD tag; lava surrounds Aztec Attack, the only Aztec map.",
    "firing_and_projectile": "n/a",
    "impact_end_result": "Natural hazards kill instantly and count as a suicide (except Shortest Parsec's laser) [Fan-wiki]. No spawn-in effect documented.",
    "confidence": "partial"
@@ -235,7 +235,7 @@
    "owner": "Oliver (Soldier)",
    "slot": "Secondary (default)",
    "status": "BBR v1.0 onward through BBG; named in the 2026 Steam text",
-   "look": "Coral-red octagonal tube, pinched in the middle and flared at both ends (~#E05F4F in the 2026 trailer, ~#A24D4E in the April 2013 BBR capture); a row of glowing orange window panels (~#F48D20 to #FF931F); grey collars; grey-checkered rear flare; black bore. Not green: the dark green, hazard-striped Bearzooka is BB Zombies'.",
+   "look": "Coral-red octagonal tube, pinched in the middle and flared at both ends (~#E05F4F in the Steam trailer's 2013 footage, ~#A24D4E in the April 2013 BBR capture); a row of glowing orange window panels (~#F48D20 to #FF931F); grey collars; grey-checkered rear flare; black bore. Not green: the dark green, hazard-striped Bearzooka is BB Zombies'.",
    "firing_and_projectile": "Infobox: 1 ammo, 1.5 s rate of fire, 2.5 s reload, 1,000 u/s; body text says 'two shots'; the HUD shows 0/1 and 1/1 (one loaded plus one reserve, Inference). Probable rocket at trailer 2.8-3.0 s: grey hex nose, glowing yellow-orange checker panels, spiky orange flame.",
    "impact_end_result": "Explosive area damage [Game text via wiki]; the user is 'very prone to suicide' [Fan-wiki]. Explosion look Unverified.",
    "confidence": "partial"
@@ -245,8 +245,8 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
    "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
-   "correction": "In BBR/BBG the Bearzooka is a coral-red octagonal tube (~#E05F4F in the 2026 trailer, ~#A24D4E in an April 2013 BBR capture). It has a row of glowing orange window panels (~#F48D20-#FF931F), grey metal collars and a grey-checkered flared rear [Observed]. This matches the wiki's 'rocket launcher with red and orange lines' [Fan-wiki]. The dark green, hazard-striped Bearzooka is the BB Zombies one [Observed: wiki 'Bearzooka in BBZ'].",
-   "evidence": "Wiki Bearzooka (BBG) infobox image Photo_19-04-13_12_02_26_PM.png (uploaded 2013-04-19), at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/combat-vfx-check/png/Photo_19-04-13_12_02_26_PM.png. Official 2026 Steam trailer 3.9-4.8 s (.../dl/combat-vfx/tr/bz_full_4.3.png; .../dl/combat-vfx-check/sheets2/ta2.jpg). Bearzooka_Concept.png. Bear.jpg, captioned 'Bearzooka in BBZ' on the wiki Bearzooka page (.../dl/combat-vfx-check/png2/Bear.png), shows the green hazard-striped tube."
+   "correction": "In BBR/BBG the Bearzooka is a coral-red octagonal tube (~#E05F4F in the Steam trailer (2013 footage [Inference, strong]), ~#A24D4E in an April 2013 BBR capture). It has a row of glowing orange window panels (~#F48D20-#FF931F), grey metal collars and a grey-checkered flared rear [Observed]. This matches the wiki's 'rocket launcher with red and orange lines' [Fan-wiki]. The dark green, hazard-striped Bearzooka is the BB Zombies one [Observed: wiki 'Bearzooka in BBZ'].",
+   "evidence": "Wiki Bearzooka (BBG) infobox image Photo_19-04-13_12_02_26_PM.png (uploaded 2013-04-19), at /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/combat-vfx-check/png/Photo_19-04-13_12_02_26_PM.png. Steam trailer (2013 footage) 3.9-4.8 s (.../dl/combat-vfx/tr/bz_full_4.3.png; .../dl/combat-vfx-check/sheets2/ta2.jpg). Bearzooka_Concept.png. Bear.jpg, captioned 'Bearzooka in BBZ' on the wiki Bearzooka page (.../dl/combat-vfx-check/png2/Bear.png), shows the green hazard-striped tube."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
@@ -282,7 +282,7 @@
    "file": "/home/user/thallo-site/bbg-news-repo/characters/README.md",
    "current_text": "No blood, gore or organs: bears throw sparks, Huggables burst into rainbow confetti, robots shed bolts.",
    "correction": "Keep the rule, but label it and add the observed baseline. In BBG footage many deaths are an intact ragdoll collapse; some kills (a nuke blast, an irradiated target, one B-1000 close-range kill) break the body into a few clean toy-like chunks [Observed]. What decides which is unknown. SkyVu's own merch art shows a headless Huggable with white stuffing and a vertical rainbow column [Canon: official 2023 merch art, not gameplay]. BBG News dresses the chunks as sparks (bears), white fluff plus a rainbow column (Huggables) and bolts (robots) [BBG News invention, except the Huggable look above]. No source shows confetti.",
-   "evidence": "Official 2026 trailer 4.6-5.6 s, 9.0 s, 12.6-16.0 s, 26.6-27.8 s, 31.7-32.7 s, 40.1 s, 41.1-41.4 s (.../dl/combat-vfx-check/sheets2/ta3.jpg, ta6.jpg, tb3.jpg, td1.jpg, te1.jpg, tf4.jpg). battlebears.com product 'Huggable Rainbow Explosion T-shirt Black' ('Official Huggable Rainbow Explosion T-shirt in Black.', published 2023-05-05): .../dl/combat-vfx-check/web/rainbow_shirt_cu_view.jpg, JSON re-fetched live to .../dl/combat-vfx-edit/web/shirt.json."
+   "evidence": "Steam trailer (2013 footage; the 31.7-32.7 s Space Oddity shot is undated) 4.6-5.6 s, 9.0 s, 12.6-16.0 s, 26.6-27.8 s, 31.7-32.7 s, 40.1 s, 41.1-41.4 s (.../dl/combat-vfx-check/sheets2/ta3.jpg, ta6.jpg, tb3.jpg, td1.jpg, te1.jpg, tf4.jpg). battlebears.com product 'Huggable Rainbow Explosion T-shirt Black' ('Official Huggable Rainbow Explosion T-shirt in Black.', published 2023-05-05): .../dl/combat-vfx-check/web/rainbow_shirt_cu_view.jpg, JSON re-fetched live to .../dl/combat-vfx-edit/web/shirt.json."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
@@ -294,20 +294,20 @@
    "file": "/home/user/thallo-site/bbg-news-repo/characters/riggs.md",
    "current_text": "calm amid rainbow confetti (canon, channel unconfirmed: \"good, clean fun\"; [Fan-wiki] \"Thank you, may I have another?\").",
    "correction": "calm amid rainbow confetti [BBG News invention] (canon, channel unconfirmed: \"good, clean fun\"; [Fan-wiki] \"Thank you, may I have another?\").",
-   "evidence": "No source checked (wiki, Steam text and media, the 2026 trailer, battlebears.com merch) shows confetti. As written, the confetti sits inside a 'canon' clause."
+   "evidence": "No source checked (wiki, Steam text and media, the Steam trailer, battlebears.com merch) shows confetti. As written, the confetti sits inside a 'canon' clause."
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/README.md",
    "current_text": "**Team colour:** red team by default.",
-   "correction": "Optional addition, append: Team colour shows on accents (the Soldier's headband, cuffs and ammo straps; the Huggable's flag; Tillman's armour panels), on the HUD and kill feed, and on Plant the Bomb gear [Observed/Fan-wiki]. Among effects, only the Energy Barrier glow (v2.3+) is team-coloured in later BBG; the cloak aura (BBR v1.4.2 only) and the Peek A Boo neon lines (v1.4.2-v2.6) were removed [Fan-wiki]. Weapon projectiles keep their own colours [Inference from Observed]. Some 2026 Huggables carry a white rainbow-dot flag [Observed].",
+   "correction": "Optional addition, append: Team colour shows on accents (the Soldier's headband, cuffs and ammo straps; the Huggable's flag; Tillman's armour panels), on the HUD and kill feed, and on Plant the Bomb gear [Observed/Fan-wiki]. Among effects, only the Energy Barrier glow (v2.3+) is team-coloured in later BBG; the cloak aura (BBR v1.4.2 only) and the Peek A Boo neon lines (v1.4.2-v2.6) were removed [Fan-wiki]. Weapon projectiles keep their own colours [Inference from Observed]. Some Huggables in the Steam trailer (2013 footage [Inference, strong]) carry a white rainbow-dot flag [Observed].",
    "evidence": "Wiki Cloaking ('After Update 1.4.2\u2026 aura\u2026 sports the user's team color\u2026 in Update 1.4.3 Cloaking was improved'), Peek A Boo ('In v2.6, the neon outline was removed'), Energy Barrier and Soldier (BBG)/Skins pages; trailer 3.9-4.8 s and 18-22 s; .../dl/combat-vfx-check/sheets2/flags.jpg and cy.jpg."
   }
  ],
  "open_questions": [
-  "Deaths in the 2026 build: does it keep intact collapses, break-apart deaths and one-frame corpse removal? All appear in the official 2026 trailer, but the capture build is unverified. No Next Fest demo is listed on today's Steam page (the only event is 'Final Discord Playtest this Thursday Oct 15'); the JustNubz Closed Playtest #4 showcase, if viewable, or the Nov 4 launch build could confirm.",
+  "Deaths in the 2026 build: does it keep intact collapses, break-apart deaths and one-frame corpse removal? All appear in the Steam trailer, but that is SkyVu's May 2013 footage [Inference, strong], so it says nothing about the 2026 build. No Next Fest demo is listed on today's Steam page (the only event is 'Final Discord Playtest this Thursday Oct 15'); the JustNubz Closed Playtest #4 showcase, if viewable, or the Nov 4 launch build could confirm.",
   "What decides whether a kill breaks the body apart or leaves it intact? And is the Green Oliver break-up at 4.9 s gameplay, or trailer staging (orange streak background leading into the B-1000 intro card at 5.8 s)?",
-  "Is the thick black ink outline in the 2026 Steam screenshots and trailer an in-game rendering change or a marketing treatment? The 2026 playtest Gear Up menu thumbnail shows none.",
-  "Is the white rainbow-dot Huggable flag in 2026 media (cyan Huggable at about 35 s, red Huggable in screen_04) a skin flag or a change to the team-coloured flag?",
+  "Ink outline, partly answered: the outline is in SkyVu's May 2013 trailer footage and in 2026 in-game captures (builds 3.0.0 and 3.0.7), but not in the 2012-14 player captures on the wiki [Observed]. Some 2013 fan videos of Graham have it too [Observed: graham.addendum.md]. Was it the 2013 'HD Graphics' mode [Inference]? Is it always on in 2026, or a graphics setting? The 2026 playtest menu thumbnail shows none on the Gear Up model.",
+  "Is the white rainbow-dot Huggable flag (cyan Huggable at about 35 s, red Huggable in screen_04; Steam trailer and screenshots, 2013 footage) a skin flag or a change to the team-coloured flag?",
   "Does a BBG Huggable spray rainbow when it dies? SkyVu's 2023 merch art shows a rainbow column and white stuffing; BBG footage shows plush chunks with gold sparkles. The 3.3-3.8 s rainbow fan is most likely Peek A Boo.",
   "What do the Bearzooka's explosion and muzzle flash look like? Is the 2.8-3.0 s rocket really a Bearzooka rocket? Is it one loaded plus one in reserve (HUD '0/1', '1/1') or two shots, as the body text says?",
   "Do gibbed bears show the 'pink and red flesh' the wiki describes for Tillman?",

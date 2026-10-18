@@ -54,10 +54,10 @@ Saberi is the Combat Tech class in Battle Bears Gold (BBG). SkyVu added her in u
   - The "2013 HUD icon" citation pointed at a 2016 video. It is now fixed to an Oct 2013 frame.
   - A Nov 2013 Energy Rifle kill frame shows the victim breaking into chunks.
 - **Secondary button colours:** green = ready, cyan = deployed, red ring refilling with green = recharging. The draft had cyan for "ready or active".
-- **Irradiated icon:** the wiki says "three stages" but shows four icons. The full trefoil stage is visible in the 2026 trailer.
+- **Irradiated icon:** the wiki says "three stages" but shows four icons. The full trefoil stage is visible in the Steam trailer at 8.5 s (2013 footage [Inference, strong]).
 - **ClubCobra:** "+10% vs +15% Health" is not a contradiction. +10% (with -5% speed) was the 2015 value, and +15% is the wiki's Nov 2020 value.
 - **Landmine:** it also uses the backpack button (cyan when active, red-green while recharging). It is not purely an ammo weapon.
-- **2026:** the full build stamp on the 2026 beta thumbnail reads "3.0.7_2026.11.19_b7". The Steam-trailer claim is corrected: it has no Saberi card, but its gameplay is not proven to be 2013 footage.
+- **2026:** the full build stamp on the 2026 beta thumbnail reads "3.0.7_2026.11.19_b7". The Steam-trailer claim is corrected: it has no Saberi card. Its gameplay is most likely 2013 footage too [Inference, strong; research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1], so it says nothing about her 2026 model.
 - **Dates:** B7FHI1aDgsw is dated Oct 28 2013 (the draft said "probably"). The Minigun beta "1 Joule" price is confirmed as a placeholder by the uploader's note "IGNORE THE PRICES, THIS IS BETA".
 
 ## Class-wide visual rules (apply to every weapon below)
@@ -84,7 +84,7 @@ Saberi is the Combat Tech class in Battle Bears Gold (BBG). SkyVu added her in u
   - **Irradiated (in game):**
     - At low radiation, a yellow disc split by thin black lines into six wedges around a black centre floats over the target [Observed: official SkyVu footage V/yt/wUWf9O-YX4A/maxres2.jpg, May 21 2014].
     - Mid-stage it shows a yellow disc with black cut-outs [Observed: V/yt/Rn_X7MA23ho/maxres1.jpg, Jun 4 2014; V/yt/Q46ZMPrChm4/maxres1.jpg, Oct 5 2017].
-    - At the top stage a bold yellow-and-black radiation trefoil appears [Observed: 2026 Steam trailer W/visuals/trailer/t_0018.jpg, 8.5 s, on a target hit by an Engineer; V/crops/t18_rad.png].
+    - At the top stage a bold yellow-and-black radiation trefoil appears [Observed: Steam trailer W/visuals/trailer/t_0018.jpg, 8.5 s, on a target hit by an Engineer, 2013 footage [Inference, strong]; V/crops/t18_rad.png].
     - Yellow samples: ≈#F0C30C (2014).
   - **Irradiated (wiki account):**
     - "a yellow circle will appear over the player's head and a noise from a Geiger counter will begin sounding, indicating a chance at a premature death by self explosion, regardless of any health remaining" [Fan-wiki: Status Effects].
@@ -100,9 +100,9 @@ Saberi is the Combat Tech class in Battle Bears Gold (BBG). SkyVu added her in u
     - It shows Saberi from behind: dark-brown fur, a red white-dotted bandana and a red top.
     - She holds the Plasma Shotgun with the Gamma Burst saucer out.
     - The corner build stamp reads "3.0.7_2026.11.19_b7 / 11502154" [Observed: V/crops/s9w_stamp2.png]. What the "2026.11.19" in the build label means is [Unverified].
-  - **The Steam trailer:**
+  - **The Steam trailer (SkyVu re-used it on the 2026 Steam page; not 2026 evidence):**
     - It has class cards for B-1000, Graham, Astoria, Wil, Tillman, the Huggable, Riggs and Oliver, but none for Saberi. I could not identify her in any gameplay frame [Observed: W/visuals/trailer/t_0001-t_0108; V/crops/trailer_sheet_0..3.png].
-    - The Graham verifier matched the cards to SkyVu's May 30 2013 trailer. The gameplay's capture date is unsettled [cross-reference: out/verified/graham.md].
+    - The Graham verifier matched the cards to SkyVu's May 30 2013 trailer. The verified maps research finds only the 8 classes and the maps of May 2013 in it, so the gameplay is most likely 2013 footage too [Inference, strong; cross-reference: research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1]. That footage predates her 2.4 debut (Oct 2013), which fits her absence [Inference].
   - The JustNubz showcase lists "44:12 Combat Tech (Saberi)" and "47:23 Arbiter (Sanchez)" in its description [Observed: YouTube metadata W/dl/2026-changes/yt/next_-lAtv-j9Sms.json]. It is unwatched.
 
 ## Energy Rifle (primary, default; BBG 2.4, Oct 24 2013 onward; 2026 unconfirmed)
@@ -504,7 +504,7 @@ File: /home/user/thallo-site/bbg-news-repo/characters/saberi.md. Every "Current"
    - **Evidence:** wiki revision histories (V/revs/Missiles.json, Minigun__Combat_Tech_.json, Gamma_Burst.json, Landmine.json); Landmine button rings in V/yt/ua2j5t23T80/maxres1.jpg and maxresdefault.jpg.
 6. **Line 53, 2026 model.**
    - **Current:** "Her 2026 model is unconfirmed; neither the 2013 BBG trailer nor the 2026 Steam trailer shows a splash card for her, and whether one exists elsewhere is unknown [Observed]."
-   - **Correction:** "A 2026 final-beta fan thumbnail shows her from behind with dark-brown fur, the red white-dotted bandana and red top, wielding the Plasma Shotgun with the Gamma Burst saucer out [Observed, low-res fan thumbnail]. The 2026 Steam trailer has class cards for B-1000, Graham, Astoria, Wil, Tillman, the Huggable, Riggs and Oliver but none for her, and she is not identifiable in its gameplay [Observed]."
+   - **Correction:** "A 2026 final-beta fan thumbnail shows her from behind with dark-brown fur, the red white-dotted bandana and red top, wielding the Plasma Shotgun with the Gamma Burst saucer out [Observed, low-res fan thumbnail]. The Steam trailer that SkyVu re-used on the 2026 Steam page is most likely the 2013 trailer footage [Inference, strong]; it has class cards for B-1000, Graham, Astoria, Wil, Tillman, the Huggable, Riggs and Oliver but none for her, and she is not identifiable in its gameplay [Observed]."
    - **Evidence:** V/yt/s9W6eLXj9qc/maxres3.jpg (M1kaa717, Oct 16 2026); W/visuals/trailer/t_0001-t_0108 (V/crops/trailer_sheet_0..3.png).
 7. **Line 54, backpack-mount citation.**
    - **Current:** "backpack-mounted per the wiki [Fan-wiki] ([Missiles][missiles]; [Minigun][minigun])"

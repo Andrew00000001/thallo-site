@@ -112,10 +112,11 @@ This is the edited version of the draft. I applied the source check and the imag
   - **Status indicators:** flat 2D sprites above heads [Observed: trailer 8.2–8.8 s; Images_(3).png; 0GuhKiAnNyc hq1/hq2].
   - **Hearts:** a stream of pink cartoon hearts trails a Huggable at 26.0 s [Observed: C2/crops2/hearts.png]. The wiki says Tough Love leaves the Huggable "trailed by a stream of hearts" [Fan-wiki], so it is probably Tough Love [Inference].
 - **Ink outline:**
-  - **The Steam media are 2013 footage:** the Steam trailer's class cards are pixel-identical to SkyVu's May 30, 2013 "BATTLE BEARS GOLD Trailer: Award-Winning Multiplayer Shooter Game" (rfAyqVJrli4, channel BATTLE BEARS) [Observed: greyscale MSE about 1–6 against medians of about 5,700–7,500]. The Steam screenshots are frames of the trailer [Observed: screen_02 matches trailer ≈50.6 s]. So the trailer gameplay and the screenshots are May 2013 footage [Inference, strong].
+  - **The Steam media are 2013 footage:** the Steam trailer's class cards are pixel-identical to SkyVu's May 30, 2013 "BATTLE BEARS GOLD Trailer: Award-Winning Multiplayer Shooter Game" (rfAyqVJrli4, channel BATTLE BEARS) [Observed: greyscale MSE about 1–6 against medians of about 5,700–7,500]. The Steam screenshots are frames of the trailer [Observed: screen_02 matches trailer ≈50.6 s]. So the trailer gameplay and the screenshots are May 2013 footage [Inference, strong]. The exception is the Space Oddity shot (about 30.0–32.8 s) and its frame screen_01: their date is [Unverified], though probably 2013-era [Inference] (see Fire and burning).
   - In the Steam screenshots, the trailer gameplay and the Steam loop video, characters have a thick black ink outline [Observed: C/sheets/outline_compare.jpg; C/sheets/steam_extra.jpg]. The 2013 trailer's own class cards show it too [Observed: rfAyqVJrli4 maxres1–3]. So the outline was already in SkyVu's 2013 footage, not added in 2026.
   - It also appears in 2026 in-game captures with HUD [Observed: C7uFxvSZ10c maxresdefault, SkyVu's "Official Playtest Highlights", build "3.0.0"; HKbwq7PolNc maxres1, InstableGR's "Final PC Playtest (10/15/26)", build "3.0.7_2026.11.19_b7"]. So it is rendered in-game in 2026 [Observed].
   - 2012–14 player captures on the wiki have none (Oliver-battlefield-airpad-red-base-front.png, uploaded 2012-11-22; A_life_upside_down.png, uploaded 2013-04-27; Photo_19-04-13_12_02_26_PM.png, uploaded 2013-04-19; Screenshot_(509).png, uploaded 2014-03-16; Imawe.jpg, uploaded 2014-05-05) [Observed].
+  - Some 2013 fan videos do show it: Gold Graham in the July 2013 2.0 beta and the circuit-pattern Graham skins in Sept–Nov 2013. Dec 2013 fan captures of Instagraham do not [Observed in the weapons research: graham.addendum.md, Incidental findings 1]. So the outline does not date the Steam trailer's Graham segment (about 7.25–10.5 s) to a later build; it stays 2013 footage [Inference, strong; graham.md, Verifier's corrections, item 1]. Why that segment's Graham is outlined when the Dec 2013 Instagraham captures are not is [Unverified].
   - The JustNubz "Closed Playtest #4" thumbnail shows the Gear Up menu (build text "3.0.5_2026.11.19_B1") with no thick outline on the menu model [Observed: C2/yt/lAtv_maxresdefault.jpg, C2/crops/lAtv_build.png].
   - The 2013 trailer description advertises "HD Graphics (Only available on higher end devices. App automatically detects what graphic mode to show)" [Canon: YouTube description of rfAyqVJrli4, May 30, 2013]. Tying the outline to that mode is [Inference]. Whether 2026 always shows it or makes it a setting is [Unverified].
 - **HUD palette (BBR v1.4.x capture, April 2013):** health bar green ~#178602–#178702, red team ~#FC0101–#FD0101, blue team ~#003CFC–#023DF6 [Observed: A_life_upside_down.png].
@@ -132,14 +133,14 @@ This is the edited version of the draft. I applied the source check and the imag
     - hard-edged, flat-shaded, semi-transparent faceted shapes for nukes, radiation bursts and energy shards
     - flat octagonal rings sliding along the floor for shockwaves
     - star sparks on hits [Observed]
-  - Ink outline on characters for the 2026 look and for SkyVu's 2013 trailer look; none for the look of 2012–14 player captures [Observed].
+  - Ink outline on characters for the 2026 look and for SkyVu's 2013 trailer look; none for the look of the 2012–14 player captures on the wiki [Observed].
   - Exact frame counts and holds are [BBG News invention].
 - **Confidence:** observed
 
 ## Ordinary deaths: intact collapse (all classes; BBR/BBG and the Steam trailer's 2013 footage)
 - **Official text:** none found [Unverified].
   - The wiki implies a death animation exists. A Huggable using Mini Me "may occasionally… freeze in its position of death without going through the death animation" [Fan-wiki: Mini Me].
-- **Look:** the victim goes limp and topples as one intact body. Four examples, all from the Steam trailer (2013 footage):
+- **Look:** the victim goes limp and topples as one intact body. Four examples, all from the Steam trailer (2013 footage, except example 2, which is in the Space Oddity shot, whose date is [Unverified]; see Fire and burning):
   1. **Temple victim (12.6–16.0 s):**
      - A white-headed, black-suited bear (skin unidentified) holding a red-and-black patterned long gun falls face-down after flames and a red skull, at 12.6–13.0 s [Observed: C/sheets/tl_zoom.jpg].
      - The body stays until about 15.9 s. At about 16.0 s it vanishes in one frame, with no fade, about 3 s after the fall [Observed: C2/sheets2/fz.jpg, tb3.jpg].
@@ -911,7 +912,7 @@ All paths are under `/home/user/thallo-site/bbg-news-repo/characters/`. The READ
    - No Next Fest demo is listed on today's Steam page; the only event is "Final Discord Playtest this Thursday Oct 15".
    - The JustNubz "Closed Playtest #4" showcase or the Nov 4 launch build could confirm.
 2. **Gibs:** what decides whether a kill breaks the body apart or leaves it intact? And is the Green Oliver break-up at 4.9 s gameplay, or trailer staging (orange streak background leading into the B-1000 intro card)?
-3. **Ink outline:** partly answered. The outline is in SkyVu's May 2013 trailer footage and in 2026 in-game captures (builds 3.0.0 and 3.0.7), but not in 2012–14 player captures [Observed]. Was it the 2013 "HD Graphics" mode [Inference]? Is it always on in 2026, or a graphics setting? The 2026 playtest menu thumbnail shows none on the Gear Up model.
+3. **Ink outline:** partly answered. The outline is in SkyVu's May 2013 trailer footage and in 2026 in-game captures (builds 3.0.0 and 3.0.7), but not in the 2012–14 player captures on the wiki [Observed]. Some 2013 fan videos of Graham have it too [Observed: graham.addendum.md]. Was it the 2013 "HD Graphics" mode [Inference]? Is it always on in 2026, or a graphics setting? The 2026 playtest menu thumbnail shows none on the Gear Up model.
 4. **Huggable flags:** is the white rainbow-dot Huggable flag in the Steam trailer and screenshots (2013 footage) a skin flag or a change to team flags?
 5. **Huggable death spray:** does a BBG Huggable spray rainbow when it dies? Official merch art says rainbow column and stuffing; BBG footage shows plush chunks. The 3.3–3.8 s rainbow fan is most likely Peek A Boo.
 6. **Bearzooka:**

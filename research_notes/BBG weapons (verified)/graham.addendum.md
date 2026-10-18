@@ -162,7 +162,7 @@ Graham is BBG's Engineer, added in BBR v1.4 (Nov 28, 2012) and carried into BBG 
     - Small pale-yellow five-point stars pop around that Huggable, and a white flash sits mid-streak.
     - The turret is the only visible shooter on that side.
   - **https://i.ytimg.com/vi/Udgrwl8KCpc/maxres2.jpg** (SW, "Graham's Turret Madness - Battle Bears Gold 2022", Sep 23, 2022): the Turret is selected at 0/2, and violet-white zap streaks with sparkles strike an enemy.
-  - **Why the streaks are probably the turret's:** both fit the first wiki revision's "It shoots the same bullets as the Electric Honey." [Fan-wiki, Nov 2012]. They also fit Electric Honey's look in the official trailer: a pink-magenta streak with pink shards and pale-yellow stars [Observed, riggs dossier].
+  - **Why the streaks are probably the turret's:** both fit the first wiki revision's "It shoots the same bullets as the Electric Honey." [Fan-wiki, Nov 2012]. They also fit Electric Honey's look in the Steam trailer (2013 footage [Inference, strong]): a pink-magenta streak with pink shards and pale-yellow stars [Observed, riggs dossier].
   - This is still not a firm ID [Unverified].
 - **Impact / end result:**
   - Small pink-magenta hits and yellow star pops [Observed; Inference].
@@ -284,8 +284,8 @@ Graham is BBG's Engineer, added in BBR v1.4 (Nov 28, 2012) and carried into BBG 
    - Already outlined in 2013: Gold Graham in the July 2013 2.0 beta (T_EJ2DmboPU) and the blue and red circuit-pattern skins in Sept to Nov 2013 (KBbEgOLyYGM; Edbw2qUVZtw) [Observed].
    - Not outlined: Instagraham in Dec 2013 (XQXjXiJCzss sd1; sObQVUSjJ2U sd1; crop insta_outline.jpg) [Observed].
    - Default Graham is outlined by 2023 (5SwnBsYrETY) and in 2026 (JVEQQqyafzE) [Observed].
-   - The Steam trailer's outlined Instagraham [Observed: verified dossier; sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/outline_cmp.png] is 2013 footage [Inference, strong: /home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1]. The maps research pixel-matches the trailer's class cards to SkyVu's May 30, 2013 trailer (rfAyqVJrli4) and finds only the 8 classes and the maps of May 2013 in the trailer; the gameplay itself is not pixel-matched [Observed, per the maps research]. So the same skin is outlined in SkyVu's 2013 footage but not in Dec 2013 fan captures, and the outline is not simply skin-specific [Inference]. Whether it followed the 2013 "HD Graphics" mode ("Only available on higher end devices" [Canon: May 30, 2013 trailer description, via the maps research]), as the maps research suggests [Inference], is [Unverified].
-   - The verified dossier's statement that 2012–2015 in-game images have no outlines needs "except some 2013 footage". Its Steam-trailer dating argument (outlines mean a 2018-or-later capture) no longer holds [Inference, strong, per the maps research].
+   - The Steam trailer's outlined Instagraham [Observed: verified dossier; sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/graham-verify/sheets/outline_cmp.png] is 2013 footage [Inference, strong: /home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1]. The maps research pixel-matches the trailer's class cards to SkyVu's May 30, 2013 trailer (rfAyqVJrli4) and finds only the 8 classes and the maps of May 2013 in the trailer; the gameplay itself is not pixel-matched [Observed, per the maps research]. So the same skin is outlined in the Steam trailer's 2013 footage but not in Dec 2013 fan captures, and the outline is not simply skin-specific [Inference]. Whether it followed the 2013 "HD Graphics" mode ("Only available on higher end devices" [Canon: May 30, 2013 trailer description, via the maps research]), as the maps research suggests [Inference], is [Unverified].
+   - The verified dossier's statement that 2012–2015 in-game images have no outlines needs "except some 2013 footage". Its Steam-trailer dating argument (outlines mean a 2018-or-later capture) no longer holds [Inference, strong, per the maps research]. Both fixes are now applied in graham.md; graham.meta.json, which has no outline statement, carries the dating fix.
 2. **Build texts.**
    - "2.53.6 / 12110032" appears in an April 2023 upload (5SwnBsYrETY), while the wiki's last 2.x entry is 2.53.3 (Aug 31, 2018) [Observed vs Fan-wiki].
    - "3.0.5_2026.11.19_B1 / 12195224" appears in a Sep 20, 2026 upload (JVEQQqyafzE; crop jveq_build.jpg) [Observed]. The date-like part is later than the upload date, so it is not a past build date; its meaning is [Unverified].
@@ -326,7 +326,7 @@ File: /home/user/thallo-site/bbg-news-repo/characters/graham.md. The corrections
    - Correction: add "A Sep 20, 2026 playtest thumbnail (JVEQQqyafzE) shows default Graham with the Gamma Ray (24/100), two placed Turrets, the yellow-Z Slowed icon over Graham, and a radiation disc over an enemy. The other Engineer weapons are still unconfirmed." [Observed]
 3. **Skins line, for animation style.**
    - Current: `Gold Graham, Old Timey, Graham Cracker, Holograham, Instagraham`
-   - Correction: add "Gold Graham and the circuit-pattern skins render with thick black toon outlines already in 2013 fan footage; 2013 fan footage of Instagraham and the default skin does not (the default has them by 2023), although SkyVu's 2013 trailer footage already outlines Instagraham." [Observed: T_EJ2DmboPU, KBbEgOLyYGM, Edbw2qUVZtw, XQXjXiJCzss, 5SwnBsYrETY, Steam trailer; trailer dating Inference, strong, per the maps research]
+   - Correction: add "Gold Graham and the circuit-pattern skins render with thick black toon outlines already in 2013 fan footage; 2013 fan footage of Instagraham and the default skin does not (the default has them by 2023), although the Steam trailer (2013 footage [Inference, strong]) already outlines Instagraham." [Observed: T_EJ2DmboPU, KBbEgOLyYGM, Edbw2qUVZtw, XQXjXiJCzss, 5SwnBsYrETY, Steam trailer; trailer dating Inference, strong, per the maps research]
 
 ## Open questions
 - Hand Cannon: what do the missile in flight and the flash of its explosion look like?
@@ -347,7 +347,7 @@ File: /home/user/thallo-site/bbg-news-repo/characters/graham.md. The corrections
   - Bind Field: 2 vs 1.
 - Which Engineer weapons besides the Gamma Ray and the Turret are in the 2026 build? The JustNubz Engineer chapter (34:42–39:57) is still unviewable.
 - What does the 2026 build string "3.0.5_2026.11.19_B1" mean?
-- Toon outlines: why is Instagraham outlined in SkyVu's 2013 trailer footage but not in Dec 2013 fan captures? Did the outline follow the 2013 "HD Graphics" mode? (See Incidental findings 1.)
+- Toon outlines: why is Instagraham outlined in the Steam trailer (2013 footage [Inference, strong]) but not in Dec 2013 fan captures? Did the outline follow the 2013 "HD Graphics" mode? (See Incidental findings 1.)
 - Was "Battle Bears Royale" the store name in 2018? (SkyVu's "v2.32" is resolved as the pre-release number for 2.50; see Incidental findings 3.)
 
 

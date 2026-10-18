@@ -118,7 +118,7 @@
     - kso2WuRLZpo hqdefault (2/15, so it is not tied only to an empty magazine)
     - vcwRC2cQ1ik maxres
   - Its cause is [Unverified]. Do not animate it as a weapon effect.
-- **2026 trailer and Steam screenshots:** Sanchez is in none of the 108 trailer frames (hero cards: B-1000, Graham, Astoria, Wil, Tillman, Huggable, Riggs, Oliver) and none of the 5 screenshots. screen_04 shows a B-1000 and a red-spotted bear, not Sanchez [Observed].
+- **The Steam trailer and Steam screenshots** (SkyVu re-used them on the 2026 Steam page; 2013 footage [Inference, strong], from before BBG 2.6 added the Arbiter): Sanchez is in none of the 108 trailer frames (hero cards: B-1000, Graham, Astoria, Wil, Tillman, Huggable, Riggs, Oliver) and none of the 5 screenshots. screen_04 shows a B-1000 and a red-spotted bear, not Sanchez [Observed].
 - **Images viewed:**
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-verify/sheets/gof_crops.png
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/sanchez-verify/sheets/glue.png

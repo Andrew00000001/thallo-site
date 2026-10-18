@@ -85,8 +85,8 @@
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",
    "current_text": "Senor Potato, Pie Bomb, Traffic Light [Fan-wiki]",
-   "correction": "Se\u00f1or Potato (the wiki page title spells it \"Senor Potato\") [Fan-wiki]. It is seen firing in the Oct 2026 final playtest build 3.0.7: a brown spud in a white-hot trail, plus burning fry stubs [Observed: ORYnnvqn19w maxres2; official trailer 30.0\u201331.6 s, fries ID Inference]. Pie Bomb and Traffic Light [Fan-wiki]. The Balance Beam (magenta beam) and the Sole's Bane HUD icon also appear in 2026 builds 3.0.2\u20133.0.7 [Observed: HKbwq7PolNc maxres1; aujTcdFuxdE maxres3].",
-   "evidence": "$G/crops/ory_m2_potato.png; $G/crops/tr303_fries.png; $G/crops/hkb_m1_icon.png; $G/crops/hkb_m1_beam.png; $G/crops/auj_m3_icon.png ($G = /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/wil/gaps)"
+   "correction": "Se\u00f1or Potato (the wiki page title spells it \"Senor Potato\") [Fan-wiki]. It is seen firing in the Oct 2026 final playtest build 3.0.7: a brown spud in a white-hot trail [Observed: ORYnnvqn19w maxres2], with a low-res flame patch that is probably fries [Observed, low-res; Inference]. Burning fry stubs also show in the official Steam trailer's Space Oddity shot, which is 2013 footage [Observed: trailer 30.0\u201331.6 s; fries ID Inference; dating Inference, strong]. Pie Bomb and Traffic Light [Fan-wiki]. The Balance Beam (magenta beam) and the Sole's Bane HUD icon also appear in 2026 builds 3.0.2\u20133.0.7 [Observed: HKbwq7PolNc maxres1; aujTcdFuxdE maxres3].",
+   "evidence": "$G/crops/ory_m2_potato.png; $G/crops/ory_m2_floor.png; $G/crops/tr303_fries.png; $G/crops/hkb_m1_icon.png; $G/crops/hkb_m1_beam.png; $G/crops/auj_m3_icon.png ($G = /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/wil/gaps)"
   },
   {
    "file": "/home/user/thallo-site/bbg-news-repo/characters/wil.md",

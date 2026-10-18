@@ -67,6 +67,9 @@ The overview summarises those dossiers and does not repeat their per-weapon deta
    - The trailer is a re-edit of SkyVu's May 30, 2013 launch trailer, rfAyqVJrli4 [Observed: thumbnail pixel matches, MSE about 17–495 against a median of about 9,000; dating Inference, strong].
    - Each of the five screenshots is a frame of that trailer [Observed].
    - Use them as a 2013 look reference only, and never caption them as 2026 gameplay [Inference].
+   - The gameplay matches too: the 2013 trailer's YouTube storyboard lines up with the Steam trailer at a constant offset of about 4 s, 45 of 55 frames [Observed, per 2026.md, "The Steam trailer is 2013 footage"].
+   - That includes the Space Oddity clip (about 30.0–32.8 s) and screen_01, a frame of it. The maps research's Space Oddity dossier left its date open, because its pillar top blooms to near-white, unlike 2013–2021 fan captures, so it might be a newer or relit capture [Inference]. But the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed], so it is 2013 footage too [Inference, strong; research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1]. Why it blooms is [Unverified]. It does not show the Oct 2026 lighting either [Observed, per the maps overview].
+   - The Graham segment (about 7.25–10.5 s) is 2013 footage too: it is in the same storyboard (2013 12–13 s = Steam 7.95–8.95 s) [Observed, per 2026.md]. Its toon outlines do not date it to 2018 or later: some 2013 fan captures already have them (graham.addendum.md, Incidental findings 1) [Observed].
 2. **The JustNubz "BBG All Classes Showcase" (-lAtv-j9Sms, Sep 20, 2026, Closed Playtest #4, build "3.0.5_2026.11.19_B1") is a Gear Up menu walkthrough.**
    - All 309 storyboard frames (0–3080 s) show the loadout menu: 3D models, item lists, description pop-ups and stat panels [Observed].
    - Whether any combat appears between the 10 s samples is [Unverified].
@@ -84,7 +87,7 @@ The `combat-vfx` dossier holds the full evidence. Gap-pass upgrades are folded i
   - **Hard-edged, flat-shaded, translucent faceted volumes**, used for specific blasts: domes, shard bursts, ice chunks, white faceted smoke puffs.
 - **Shockwaves** are flat octagonal rings sliding along the floor: white on the space station, white/grey or orange in the cave [Observed].
 - **Status effects** are flat 2D sprites floating over heads [Observed].
-- **Ink outline.** 2026 marketing media give characters a thick black ink outline [Observed]. This is not a clean 2026-only change:
+- **Ink outline.** The Steam trailer and its screenshots (2013 footage [Inference, strong]) and the Steam store loop video (date not established) give characters a thick black ink outline [Observed]. 2026 in-game captures with a HUD show it too: SkyVu's "Official Playtest Highlights" (build 3.0.0) and InstableGR's Oct 15 final-playtest upload (build 3.0.7) [Observed: combat-vfx.md, Ink outline]. This is not a clean 2026-only change:
   - 2013 footage already shows outlines on Gold Graham and the circuit-pattern Graham skins [Observed].
   - The default Graham has one by 2023 [Observed].
   - The 2026 playtest menu model shows none [Observed].
@@ -180,7 +183,7 @@ Era-locked traps:
 | Healing Tent cross | Red until 2.53.5, then green | [Fan-wiki] |
 | Peek A Boo and Cloaking outlines | Team-coloured only in BBR v1.4.2 (Cloaking) or v1.4.2–v2.6 (Peek A Boo) | [Fan-wiki] |
 | Tillman's look | Teal pack in 2D art and BBH. In BBG 3D: red sash, a back bar carrying the secondaries, treaded wheels. | [Observed] |
-| Steam trailer and screenshots | 2013 footage only | [Inference, strong] |
+| Steam trailer and screenshots | 2013 footage only, the Space Oddity clip (about 30.0–32.8 s) and screen_01 included; why that clip's pillar top blooms is unexplained | [Inference, strong; bloom cause Unverified] |
 | BBH-only kit | Never in BBG shorts: Explosive Retreat, Sarcastic Air Strike, Doom Star, Huggable Splicer, Healing Turret, Firework Flurry, Photon Refractor, Turret Summon. Also never use BBH behaviour: the Boomstick's explosive pellets, the Adrenaline Gun's four staggered shots, the "Beebee gun" shell burst, Riggs's leap-smash. | [Canon BBH text; Inference] |
 | Story-game Bearzooka | Green with hazard stripes is BB Zombies / BB-1 only | [Observed; Fan-wiki] |
 
@@ -244,7 +247,7 @@ Every other sound effect is [BBG News invention].
 
 ### 3.7 Captions and HUD
 - **Captions:**
-  - Say "classic 2013 look" for anything taken from the Steam trailer or screenshots.
+  - Say "classic 2013 look" for anything taken from the Steam trailer or screenshots, the Space Oddity clip (about 30.0–32.8 s) and screen_01 included. Name the source "the Steam trailer" or "Steam screenshot screen_0N", never "2026 trailer".
   - Say "2026 playtest" only for frames from the 3.0.x builds.
 - **HUD-style elements** (kill feed, HEAD SHOT card, icons) are redrawn in original art, with no game UI or logos [BBG News invention].
 
@@ -258,6 +261,7 @@ The dossiers hold about 150 correction entries. Below they are deduplicated and 
 1. **"2026 trailer" / "2026 Steam screenshot" means 2013 footage.**
    - Re-label in `astoria.md` (line 49), `riggs.md` (line 52), `botch.md` (line 53), `saberi.md` (line 53), `graham.md` (line 49) and `tillman.md` (line 48).
    - Evidence: thumbnail pixel matches of rfAyqVJrli4 to Steam-trailer frames; the screenshots are trailer frames [Observed].
+   - This includes the Space Oddity clip (about 30.0–32.8 s) and screen_01. The Space Oddity dossier left their date open, but the same moment is in the 2013 trailer's storyboard [Observed] (see section 1, fact 1). Only the clip's bloom is unexplained [Unverified].
 2. **BBH items presented as BBG.**
    - Astoria's Explosive Retreat (loglines and the Fighting line).
    - Riggs's "astonishing leap and ground-smashing ability" and "Beebee gun … burst of shells".

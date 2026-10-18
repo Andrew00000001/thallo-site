@@ -26,7 +26,9 @@ Tillman is the Demo class in Battle Bears Gold. Steam lists the class as "DEMOLI
 - Its eight class cards are B-1000, Graham, Astoria, Wil, Tillman, Huggable, Riggs and Oliver [Observed: V/trailer t_0013, t_0023, t_0035, t_0046, t_0058, t_0067, t_0075, t_0085]. That is exactly the "8 classes" of SkyVu's 2013 trailer "BATTLE BEARS GOLD Trailer: Award-Winning Multiplayer Shooter Game" (YouTube rfAyqVJrli4).
 - The wiki's metadata for rfAyqVJrli4 gives published 1369947857 = 2013-05-30, duration 69 s, and a description ending "Coming June 2013!" [Fan-wiki-hosted metadata].
 - Its thumbnails show the same Tillman/DEMO, Graham and Oliver cards [Observed: VF/yt/rfAyqVJrli4_maxresdefault.jpg, _hq1, _hq2, _hq3].
+- Its gameplay matches the 2013 trailer too: that video's YouTube storyboard lines up with the Steam trailer at a constant offset of about 4 s, 45 of 55 frames [Observed, per research_notes/BBG weapons (verified)/2026.md, "The Steam trailer is 2013 footage"].
 - So read trailer visuals as the 2013 look, not as a confirmed 2026 build.
+- That includes the Space Oddity clip (about 30.0–32.8 s), which holds the Happy Hour burst below, and Steam screen_01, a frame of it. The maps research's Space Oddity dossier left its date open, because its pillar top blooms to near-white, unlike 2013–2021 fan captures, so it might be a newer or relit capture [Inference, per research_notes/BBG maps (verified)/space-oddity.md]. But the same moment, bloom included, is in the 2013 storyboard (2013 35–36 s = Steam 30.85–31.95 s) [Observed], so it is 2013 footage too [Inference, strong; research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1]. Why it blooms is [Unverified].
 
 **Path key**
 - **VF** = /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/tillman-verify. This is my folder:
@@ -71,7 +73,7 @@ The 2D art differs. It shows a white body, black eye patches, a teal pack, a tea
 - I reframed File:Infinite Light Matter hacker.png.
 - I attributed the Phat Man bundle promo to BBF (Bundle Deals page).
 - I added four pieces of trailer and screen evidence:
-  - a probable Big Shot fireball at about 19.9–20.4 s;
+  - a possible Big Shot fireball at about 19.9–20.4 s (contested on 2026-10-18 by the Batterito reading; see Big Shot);
   - a nuke dive, flash and faceted cloud sequence at about 49.5–51.75 s, plus Steam screen_02;
   - Happy Hour rising before it dives;
   - the masked red-and-black Tillman standing behind the Phat Man in Steam screen_04.
@@ -105,15 +107,18 @@ The 2D art differs. It shows a white body, black eye patches, a teal pack, a tea
 - **Impact / end result:**
   - The wiki says the missile explodes on contact with any surface or player, "damaging any opposing players within its AoE" (AoE "Max Dmg 100, Min Dmg 200") [Fan-wiki].
   - No captioned impact image exists [Unverified].
-  - Trailer, Wil's segment: at 19.0–19.8 s the white-and-blue Tillman faces Wil across the "[RED]" arena. At about 19.9–20.4 s an orange-yellow fireball engulfs Wil and flings him toward the camera [Observed: VF/frames/bs_01–10, bsf_01–08].
-  - The launch is not shown, but Tillman is the only shooter visible. So this is probably a Big Shot hit: a hot orange-yellow fireball [Inference, moderate].
-  - The orange glowing faceted ball with grey smoke puffs that then flies away from Wil (about 20.5–21.5 s), and the fire burst behind Tillman at 21.5–22.2 s, look like Wil's return fire (a flaming spud) rather than the Big Shot [Observed: M/small/bs_proj_zoom.jpg, M/small/bs_mid.jpg, VF/frames/bsh_04–06; attribution Inference].
+  - Trailer, Wil's segment, on Abusement Park's red base (the "[RED]" stencil wall; map ID per research_notes/BBG maps (verified)/abusement-park.md): at 19.0–19.8 s the white-and-blue Tillman faces Wil. At about 19.9–20.4 s an orange-yellow fiery glow engulfs Wil and he lurches toward the camera [Observed: VF/frames/bs_01–10, bsf_01–08].
+  - The launch is not shown, but Tillman is the only other bear visible. So this may be a Big Shot hit: a hot orange-yellow fireball [Inference; contested by the next bullet].
+  - Competing reading (frames re-extracted at 0.1 s steps for 17.5–23.4 s on 2026-10-18): Wil holds a Batterito at 17.9 s, eats it at about 18.1–18.4 s, then shows blue tears and a gaping mouth [Observed]. The glow at 19.5–20.4 s floods in from the right, the side his open mouth faces, while Tillman stands at left with no launch shown, and Wil then turns his back to the camera and heads for Tillman, arms out and feet often off the floor [Observed]. Whether he runs or is hurled is unclear. So the glow may be the start of Wil's own Batterito fire, as the Wil dossier reads it [Inference]. The maps research also sees Wil holding the Batterito here, but reads the glow as Tillman's shot (abusement-park.md; 2026-lineup.md). Which reading is right is open.
+  - The orange glowing faceted ball with grey smoke puffs that then flies away above Wil's head (about 20.5–21.5 s) is a separate projectile whose shooter is not shown [Observed: M/small/bs_proj_zoom.jpg, M/small/bs_mid.jpg]. An earlier reading made it Wil's return fire (a flaming spud). But once the Batterito is eaten, "the player cannot switch to their primary weapon … until the attack ends" [Fan-wiki: Batterito (BBG)], so a spud from Wil is unlikely [Inference], and its source is [Unverified].
+  - The fire that rolls in behind Tillman at about 22.0–22.2 s and lights him white is most likely Wil's Batterito fire-breath, not the Big Shot [Inference]. Wil is out of frame then. But flame plumes billow beside his head as he heads for Tillman (20.5–21.5 s), and the "Wil / CHUB SCOUT" card that follows (22.5–23.5 s) shows a flame jet from his open mouth reaching the same white-lit Tillman [Observed: VF/frames/bsh_04–06; VF/crops/bsh_all.png; the re-extracted frames].
 - **Images viewed:**
   - VF/img/png_Big_Shot.png, png_Demolition_holding_Big_Shot.png, png_8_battle_bears_royale.png and VF/crops/bbr8_zoom.png, png_Dark_Matter.png (in VF/crops/set_bigshot.png and set_dm.png);
   - VF/crops/bs_frames.png, bsf.png, bsh_all.png;
-  - M/small/bs_proj_zoom.jpg, M/small/bs_mid.jpg.
-- **Depiction for shorts:** Tillman braces the purple-and-grey drum at his belly. A black "bullet with eyes" leaves the yellow muzzle on a white smoke streak in a shallow lob [Fan-wiki arc]. It ends in an orange-yellow fireball pop that tosses the target back with sparks and grey smoke [trailer fireball, attribution Inference; sparks and confetti are BBG News invention].
-- **Confidence:** partial (look and projectile observed; impact probable from the trailer).
+  - M/small/bs_proj_zoom.jpg, M/small/bs_mid.jpg;
+  - re-extracted frames (2026-10-18): /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/trailer_wil_fire_chk/sheet_0.png, sheet_a.png, sheet_b.png, sheet_c.png, sheet_glow.png and sheet_run.png in the same folder.
+- **Depiction for shorts:** Tillman braces the purple-and-grey drum at his belly. A black "bullet with eyes" leaves the yellow muzzle on a white smoke streak in a shallow lob [Fan-wiki arc]. It ends in an orange-yellow fireball pop that tosses the target back with sparks and grey smoke [trailer fireball, attribution Inference and contested; sparks and confetti are BBG News invention].
+- **Confidence:** partial (look and projectile observed; the trailer impact is possible but contested).
 
 ## Gold Member (primary; BBR by March 2012 → BBG; 25,000 Joules, level 3)
 - **Official text:**
@@ -512,7 +517,7 @@ The 2D art differs. It shows a white body, black eye patches, a teal pack, a tea
 - **2011–2012 official sources.** "STOP. TILLMAN TIME" (2011) and the BBR classes page (2012) are still not re-verified. web.archive.org reset every connection on 2026-10-16/17, and the squarespace copy is 404 with no archive snapshot.
 - **2026 build.** Does it keep all 17 live Demo weapons and the 2014-overhaul stats? Does Bouncing Betty return? Steam gives totals only, and the playtest showcase thumbnails show no Demo content.
 - **Fireworks lock-on.** It locked officially in Dec 2013; the wiki says it cannot now. Was it removed in the June 2014 Demo Overhaul or in 2.13 (Oct 2014)?
-- **Big Shot path and blast.** Is the shot an arc (wiki) or straight (official text)? Is the trailer fireball that hits Wil at about 19.9 s really a Big Shot hit?
+- **Big Shot path and blast.** Is the shot an arc (wiki) or straight (official text)? Is the trailer fireball that hits Wil at about 19.9 s really a Big Shot hit, or the start of Wil's own Batterito fire (he has just eaten one)? Who fires the faceted ball at 20.5–21.5 s?
 - **Undocumented visuals.** No image documents these impacts: Gold Member; the Dark Matter "dark sphere"; Bouncing Betty's bounce blasts; the Blast-O-Mole six-flame chain; Twin Bearzookas (official); the Fireworks spark landing; the RPL dive; the Reverse Fountain spray; the S'no Matter and Let It Cold in-game freezes.
 - **Overhaul video.** The official "BATTLE BEARS GOLD Developer Update - Tillman Overhaul" (q1Y8Siqfvn4) is unwatched. Its thumbnails show Light Matter at 3/8 and 0/8, which does not fit the 2-round clip. What did the overhaul change?
 - **Blast O Mole placement.** Why is it listed under "Graham Changes:" in the official 2.6 log?
@@ -522,5 +527,5 @@ The 2D art differs. It shows a white body, black eye patches, a teal pack, a tea
 - **Phat Man climb.** Is the official "Ascend time … 10" in seconds?
 - **"Hacker" screenshots.** Do File:Infinite Light Matter hacker.png and File:Phat Man hacker.png show cheating clients?
 - **Bouncing Betty removal.** What were the exact removal version and date?
-- **Trailer era.** Is the Steam trailer entirely re-cut 2013 footage? Its eight class cards match the 2013 roster exactly.
+- **Trailer era.** Largely answered: the cards are pixel-matched to rfAyqVJrli4, the gameplay matches its 2013 storyboard (the Space Oddity clip included), and only the 2013 classes and the maps of May 2013 appear, so the trailer is most likely re-cut 2013 footage [Inference, strong] (research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1; 2026.md, trailer section). Still open: why the Space Oddity clip's pillar top (about 30.0–32.8 s, with the Happy Hour burst and Steam screen_01) blooms to near-white when 2013–2021 fan captures do not [Unverified].
 - **Tillman Trebuchet.** Was the concept ever planned for release?

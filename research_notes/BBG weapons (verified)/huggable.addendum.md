@@ -29,7 +29,7 @@ The Huggable is the fastest BBG class, with 90 health. Its default kit is Double
 1. **Super Size Me! now has official art.** SkyVu's "Loud & Proud Bundle" art shows a giant pink Huggable towering over B-1000. It was posted with SkyVu's 2.20 announcement on 29 May 2015.
 2. **An in-game frame shows the stomp ring.** A 2.25 fan thumbnail shows a flat, glowing yellow-orange ground ring around a giant Huggable, with a yellow slow "Z" over the Huggable's own head.
 3. **Double Rainbow! in game** is a flat, six-stripe ribbon (red outside to violet inside) made of straight segments. It orbits at hip height.
-4. **It appears in the 2026 official trailer** as a rainbow hoop around an orange Huggable (7.2–8.5 s).
+4. **It appears in the Steam trailer** as a rainbow hoop around an orange Huggable (7.2–8.5 s). That trailer, the one SkyVu put on the 2026 Steam page, is 2013 footage [Inference, strong], so this is the 2013 look, not the 2026 build.
 5. **No frame shows a Double Rainbow! hit at the moment of contact.** Victims near the rainbow are intact ragdolls, seen from BBG's overhead death camera.
 
 **Frame naming**
@@ -108,7 +108,7 @@ None. The damage comes from foot stomps ("Damage foes with the stomps of your fe
 - **Attribution:** I read the ring as the Super Size Me! shockwave [Inference: video title, the ring centred on the giant, and the wiki's "colored shockwaves"].
 - **Glow:** the ring's glow washes over KIKI, tinting the figure yellow [Observed]. It may be additive glow [Inference].
 - **On victims:** KIKI shows the same yellow "Z" with white arrows, plus red lock-on brackets [Observed]. Whether the stomp slows enemies, or KIKI was slowed by something else, is [Unverified]. KIKI's body is low and crumpled in the glare, and its pose cannot be read [Observed].
-- **Style family** (official 2026 trailer, Metal Crush, the Assault's leap-and-smash secondary that the wiki compares this ability to) [Observed: crops/tr_end.jpg, mc_ring_015.png; Fan-wiki: Metal Crush]:
+- **Style family** (Steam trailer, 2013 footage [Inference, strong]; Metal Crush, the Assault's leap-and-smash secondary that the wiki compares this ability to) [Observed: crops/tr_end.jpg, mc_ring_015.png; Fan-wiki: Metal Crush]:
   - 52.5 s: a light column;
   - 52.6–52.9 s: an orange flame funnel;
   - 52.9–53.7 s: concentric flat octagon rings, banded orange-gold with a white outer octagon outline, expanding outward.
@@ -140,7 +140,7 @@ None. The damage comes from foot stomps ("Damage foes with the stomps of your fe
 
 ---
 
-## Double Rainbow! (primary ability, default; BBR Gear Up by Oct 2012, then BBG; seen in the 2026 official trailer)
+## Double Rainbow! (primary ability, default; BBR Gear Up by Oct 2012, then BBG; seen in the Steam trailer's 2013 footage; not confirmed in 2026)
 
 **Official text**
 - "Attack in all directions for a brief period of time. Use when diving into large groups of hapless victims!" [Game text via wiki] (https://battlebears.fandom.com/wiki/Double_Rainbow!)
@@ -150,10 +150,13 @@ None. The damage comes from foot stomps ("Damage foes with the stomps of your fe
 - The default primary [Fan-wiki].
 - Infobox [Fan-wiki]: Explosives (per second) 45–90; AoE "Max Dmg 125.0, Min Dmg 250.0"; Duration 4.0 s; Recharge 7 s.
 - History (from the main dossier): BBG 2.6 changed the duration from 3 to 5, which conflicts with today's 4.0. Since v2.2 it no longer keeps spinning after the Huggable dies [Fan-wiki].
-- **2026:** the official Steam trailer shows a rainbow hoop around an orange Huggable at 7.2–8.5 s [Observed]. I identify it as Double Rainbow! [Inference, strong]: it matches the Gear Up card pose (arms out, ring at the waist) and the wiki's "rotate around the user".
+- **Steam trailer:** it shows a rainbow hoop around an orange Huggable at 7.2–8.5 s [Observed]. I identify it as Double Rainbow! [Inference, strong]: it matches the Gear Up card pose (arms out, ring at the waist) and the wiki's "rotate around the user".
+  - **Era (re-checked 2026-10-18):** the shot is in the trailer's Graham segment on Gold Digger (about 7.25–10.5 s; Steam screenshot 03). graham.md dated that segment "2018 or later" from its toon outlines. graham.addendum.md now finds the same outlines in 2013 footage: Gold Graham in the July 2013 2.0 beta (T_EJ2DmboPU) and the circuit-pattern skins in Sept to Nov 2013 (KBbEgOLyYGM), which I re-opened [Observed]. So the outlines no longer point past 2013, and the segment falls under the maps research's dating of the whole trailer: 2013 footage [Inference, strong: research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1].
+    - The segment is also in the storyboard of SkyVu's May 30, 2013 trailer: its 12–13 s frames match Steam 7.95–8.95 s at greyscale MSE 153 and 565, against medians of about 8,100–10,900 [Observed, per research_notes/BBG weapons (verified)/2026.md, trailer section; I opened the storyboard sheet /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/huggable-gaps2/sb/rfAyqVJrli4/cs_00.jpg]. Why the trailer's Instagraham is outlined while Dec 2013 fan captures of that skin are not stays [Unverified] (graham.addendum.md, Incidental findings 1).
+- **2026:** no confirmed shot [Unverified].
 
 ### Look (new in-game evidence)
-**2026 official trailer** (D/trailer/dr_007–dr_020, D/trailer/dr_7p40.png; crops trz_sheet.jpg, dr_7p40_zoom.png, dr_7p40_wide.png):
+**Steam trailer, 2013 footage [Inference, strong]** (D/trailer/dr_007–dr_020, D/trailer/dr_7p40.png; crops trz_sheet.jpg, dr_7p40_zoom.png, dr_7p40_wide.png):
 - An orange Huggable carrying a blue team flag stands with its arms out in a T. A thin, flat rainbow hoop circles its belly and hips, seen almost edge-on [Observed].
 - The hoop's outer diameter is about 331 px against the Huggable's ears-to-feet height of about 137 px, so roughly 2.4× the Huggable's height [Observed, measured at 7.4 s]. On the BBG News scale chart (Huggable = 0.65× Oliver), that is about 1.5× Oliver's height across [Inference].
 - Stripes at the hoop's left tip run from red-orange outside (#DE4A36, #FF6A3D, #FFA83B) through yellow-green (#BBC340) to blue-violet inside. The samples blend because of motion blur [Observed, sampled].
@@ -200,7 +203,7 @@ None. The ribbons orbit the user [Fan-wiki; Observed].
      - A pink Hugly Sweater Huggable stands nearby, and the kill feed reads [pink Huggable] KILLS [yellow Huggable].
      - No rainbow is on screen in that frame, so the weapon is [Unverified].
   3. **hqQgvnMIj4E maxres3:** the violet wisps on the enemy Huggable's paws come with a purple fist icon over its head [Observed]. The wiki defines that icon as "Damage Enhanced" from Propbearganda, a +25% damage buff [Fan-wiki: Status Effects]. It is not a Double Rainbow! hit effect [Inference].
-  4. **2026 trailer, 7.2–9.7 s:** the Double Rainbow! Huggable itself is the one being hit [Observed: tr_dr_sheetA.jpg, tr_dr_sheetB.jpg, trz_sheet.jpg]:
+  4. **Steam trailer, 7.2–9.7 s (2013 footage [Inference, strong]):** the Double Rainbow! Huggable itself is the one being hit [Observed: tr_dr_sheetA.jpg, tr_dr_sheetB.jpg, trz_sheet.jpg]:
      - Graham's lime goo strikes it, tinting it yellow-green.
      - Gold-white sparkles burst at 8.1–8.2 s, and a radiation trefoil appears over its head by 8.5 s.
      - A white flash and plush break-apart follow with white octagon floor rings at about 9.0–9.7 s.
@@ -230,7 +233,7 @@ None. The ribbons orbit the user [Fan-wiki; Observed].
 - The ribbons shrink inward and vanish after about 4 s [Fan-wiki].
 - Optional gag line: "DOUBLE RAINBOW! ACROSS THE SKY" [Game text via wiki].
 
-**Confidence:** partial. The look is observed, in 2026 and in fan footage. The hit FX are unknown.
+**Confidence:** partial. The look is observed, in the Steam trailer's 2013 footage and in fan footage from about 2018–2019. Its 2026 look and the hit FX are unknown.
 
 ---
 
@@ -240,7 +243,7 @@ I found no factual errors about these two weapons. I suggest two additions so pr
 1. **Weapons bullet, line 60.**
    - Current: "So Fly, Mini Me, Super Size Me!, Seesaw chainsaw hands and the Bearettas."
    - Proposed: "So Fly, Mini Me, Super Size Me! (BBG 2.20, May 2015: the Huggable grows giant, slowed under a yellow "Z", and its stomps send out a flat glowing yellow-orange ground ring) [Fan-wiki; Observed: official Loud & Proud bundle art and a 2.25 fan screenshot], Seesaw chainsaw hands and the Bearettas."
-   - Also, after "Double Rainbow!", add "(two flat six-stripe rainbow ribbons, red outside to violet inside, orbiting at hip height) [Observed: 2026 trailer 7.2–8.5 s; fan footage]".
+   - Also, after "Double Rainbow!", add "(two flat six-stripe rainbow ribbons, red outside to violet inside, orbiting at hip height) [Observed: Steam trailer 7.2–8.5 s, 2013 footage; fan footage]".
 2. **Logline 3.**
    - Current: "Oliver, laughing at him, catches the Double Rainbow."
    - This is fine as a story beat. For visual accuracy, stage it as "gets clipped by the whirling hip-high rainbow ribbons and flops face-down". The ribbons are not a beam, so nothing should be "caught" mid-air [Observed look; the flop is the BBG ragdoll convention].
@@ -249,7 +252,7 @@ I found no factual errors about these two weapons. I suggest two additions so pr
 - **verified/huggable.md, Super Size Me! Look:** "No official image found [Unverified]" is wrong. Official art exists: File:LoudandProud.jpg on the wiki's Bundle Deals page, which is also the photo in SkyVu's 2.20 Facebook post.
 - **verified/huggable.md:** "Super Size Me!'s own colour and scale factor are [Unverified]". The ring colour is now observed (yellow core, orange band, lime rim; one fan frame). The scale is still unverified.
 - **Gap note:** "In kF_HVINg6J4 hq2 the camera is very high above the arena, which fits a giant Huggable". This is wrong. The frame is hq3, and it is the death camera (0/90 health, a kill-feed entry, and "KILLED BY KOOKE" in the previous frame).
-- **verified/huggable.md, Double Rainbow! 2026:** "no confirmed shot … 3.27–3.85 s is a candidate". The stronger 2026 shot is the rainbow hoop around the orange Huggable at 7.2–8.5 s.
+- **verified/huggable.md, Double Rainbow! 2026:** "no confirmed shot … 3.27–3.85 s is a candidate". The stronger in-game shot is the rainbow hoop around the orange Huggable at 7.2–8.5 s. Both are Steam-trailer 2013 footage [Inference, strong], so 2026 still has no confirmed shot.
 - **verified/huggable.md, Double Rainbow! Depiction:** "flat rainbow ribbons with green-glow rims". The green rims come from the Gear Up card only. In game there is no rim, and the inner stripe is violet.
 
 ## Open questions
@@ -258,7 +261,7 @@ I found no factual errors about these two weapons. I suggest two additions so pr
 - What does the hourglass on the ability button mean?
 - Does Super Size Me! exist in the 2026 build? Leads: the JustNubz showcase Huggable chapter (14:16–17:44), and [LA]Huggable's 16 "WE ARE BACK" videos (2026 build stamp 3.0.7_2026.11.19_b7), whose thumbnails show neither a giant nor a rainbow.
 - What does Double Rainbow! show on contact: a flash, sparks, knockback? This needs a clip (hqQgvnMIj4E, wLsMF1T1v44, 2oq8cQP9GVo, mD_QhhaDdBo, 7UM6p6CbT8s). Who scored the kill in 7UM6p6CbT8s?
-- Is the 2026 rainbow one hoop or two blurred arcs, and does it still shrink at the end?
+- Is the Steam trailer's rainbow (2013 footage) one hoop or two blurred arcs? Does the 2026 build keep that look, and does it still shrink at the end?
 - Sounds for both abilities: the fan rip PLqiq1cIhwI is unheard.
 
 

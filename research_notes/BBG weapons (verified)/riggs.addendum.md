@@ -678,7 +678,7 @@ Upload dates come from YouTube InnerTube; build stamps and loadouts are read fro
   - TYTotVgZpq4 (Hivey League equipped, 2022);
   - vHHlwQUiOGQ (probable Buzz Kill, Dec 2012);
   - the Heavy chapter (8:50) of JustNubz's showcase -lAtv-j9Sms (2026 playtest).
-- Are the Beebeegun, Hivey League and Buzz Kill in the Nov 4 2026 build? The 2026 Steam screenshots show only the Provolowned, Sucker Punch and Huggable Gloves for Riggs.
+- Are the Beebeegun, Hivey League and Buzz Kill in the Nov 4 2026 build? The 73 Steam community screenshots from 2026 builds show only the Provolowned, Sucker Punch and Huggable Gloves for Riggs.
 - Is the white line in vHHlwQUiOGQ a Buzz Kill arc or a map rope?
 - Are the white flecks by the Beebeegun hive the cosmetic circling bees?
 - The SkyVu 2.6 changelog and the BBR 1.3 patch notes ("Improved… Hivey League", "Improved Buzz Kill") are still unread, because the archive was unreachable.

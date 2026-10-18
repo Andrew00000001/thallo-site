@@ -22,6 +22,8 @@ This dossier covers the BBG weapons that fall outside the per-class files:
 - **Official sites:** battlebears.com, play.battlebears.com, the Steam appdetails API and the Steam news API.
 - **Video:** i.ytimg.com thumbnails and YouTube oEmbed titles.
 - **Local:** the official Steam screenshots and the official Steam trailer (t_N is at (N-1)×0.5 s).
+  - Apart from one Space Oddity clip, the trailer and the screenshots are SkyVu's 2013 launch footage re-used on the 2026 Steam page (2013 footage [Inference, strong]: the class cards are pixel-matched to SkyVu's May 30 2013 trailer rfAyqVJrli4; /home/user/thallo-site/research_notes/BBG maps (verified)/00_OVERVIEW.md, section 0, item 1). So they show the 2013 look, not the 2026 build. The maps research leaves the date of that Space Oddity clip (about 30.0–32.8 s) and of screen_01, a frame of it, open; this dossier cites neither.
+  - In this edit I also compared the gameplay shots cited below with the storyboard of rfAyqVJrli4 (160×90, one frame per second): the B-1000 and Bearzooka shots (1.5–5 s), the Graham segment (7.25–10.5 s) and the Electric Honey shot (34.5–36 s) are all in it [Observed, low-res: /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/steam_vs_2013_sb.jpg].
 
 **Sources not reachable**
 - **web.archive.org.** The connection is reset on every attempt, including three more retries in this edit. So no archived SkyVu blog post or patch note (BBR 1.3.1, BBG 2.6, 2.20, 2.27) was re-checked. Version dates below come from the wiki's Updates table [Fan-wiki].
@@ -76,16 +78,19 @@ Weapon sizes below are measured on the images [Observed] and converted with that
    - The BBG Bearzooka is **coral-red with glowing orange window panels** in all three images [Observed]:
      - the BBR April 2013 in-game shop shot;
      - the wiki's concept image (official provenance unverified);
-     - the 2026 Steam trailer.
+     - the Steam trailer (2013 footage [Inference, strong]).
+   - It is still coral-red in 2026: SkyVu's own Jul 6 2026 "Classic Oliver" short (byri_kQBUS4) shows it with orange panels and a grey-checkered flared end, and a 2026 playtest loadout render shows the same tube [Observed, re-opened; 2026.addendum.md and oliver.addendum.md].
    - The green, hazard-striped launcher is the **BB: Zombies** Bearzooka (wiki image Bear.jpg, captioned "Bearzooka in BBZ"). That is the likely origin of oliver.md's description [Observed; Inference].
    - The other green launchers are Tillman's yellow-olive **Twin Bearzookas** [Observed].
 
 5. **What in this dossier is visible or named in a 2026 source:**
-   - the Bearzooka (Steam text [Canon]; trailer at 3.9–4.4 s [Observed]);
+   - the Bearzooka (Steam text [Canon]; SkyVu's Jul 6 2026 "Classic Oliver" short and a 2026 playtest loadout render [Observed]);
    - the Turkish SW Boots and the "10 SPECIAL EQUIPMENT" count (Steam text) [Canon];
-   - the **Electric Honey**, shown here with The Incredible Riggs (Steam screenshot screen_00 and trailer 34.5–36 s) [Observed];
-   - the Irradiated status icon (trailer about 8.5 s) [Observed];
+   - the **Electric Honey**, the gun this dossier shows with The Incredible Riggs (Oct 2026 playtest frames: a white-furred Riggs carries it in droid BBG's CmYil-JJdC0, HUD 93/120 [Observed, re-opened]; that it is the Electric Honey is [Inference, strong], riggs.addendum.md);
+   - the Irradiated status icon: SkyVu's Aug 16 2026 "Official Playtest Highlights" thumbnail (C7uFxvSZ10c, HUD build 3.0.0) shows the yellow disc with black radiation wedges, stacked with a Slowed Z, over the target of a gold Graham's yellow beam [Observed, per 2026.addendum.md; crop c7u_icon.jpg re-opened];
    - **The Incredible Riggs** skin and a "BUNDLE DEALS" menu banner (thumbnail of a fan's Sept 2026 playtest showcase) [Observed].
+
+   **Not 2026 evidence:** the Bearzooka at trailer 3.9–4.4 s, the Electric Honey in Steam screenshot screen_00 and at trailer 34.5–36 s, and the Irradiated status icon at trailer about 8.5 s (the Graham segment) are 2013 footage [Inference, strong]. They show the 2013 look.
 
    Everything else here is unconfirmed for 2026 [Unverified].
 
@@ -253,7 +258,7 @@ Weapon sizes below are measured on the images [Observed] and converted with that
   - If he fires the pink coil gun, call it the Electric Honey. If he uses his default Beebeegun, draw the black-and-gold version (see riggs.md correction).
 - **Confidence:** observed (skin look and its presence in the 2026 playtest thumbnail).
 
-## Electric Honey (BBG), the gun shown with The Incredible Riggs (Primary, Heavy / Riggs; original BBR primary; seen in the 2026 Steam screenshot and trailer)
+## Electric Honey (BBG), the gun shown with The Incredible Riggs (Primary, Heavy / Riggs; original BBR primary; in Steam screenshot screen_00 and the Steam trailer, 2013 footage [Inference, strong]; seen in the Oct 2026 playtest)
 This is a Riggs weapon, covered fully in the Riggs dossier. It is here because the draft misidentified it.
 - **Official text:** "Electrically charged bees are slightly smaller* allowing for a higher bees-per-hive ratio and thus longer continuous fire!" [Game text via wiki] ([Electric Honey (BBG)](https://battlebears.fandom.com/wiki/Electric_Honey_(BBG))).
 - **Identification:**
@@ -264,9 +269,10 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - A glossy pink octagonal hive (#DB4ACF–#FC83FE; #CB3ADC–#DF56F6 in the 2013 shot) with a cartoon bee peeking out.
   - Small yellow-and-black bees.
   - A glowing magenta spiral coil around the barrel, and a black muzzle.
+- **2026:** in the Oct 2026 playtest (droid BBG's CmYil-JJdC0, first person) the gun has a glowing pink hexagonal hive with violet rings on a black body, and the HUD shows its icon with ammo at 93/120 [Observed, re-opened]. That it is the Electric Honey, on the classic model, is [Inference, strong] (riggs.addendum.md: HUD icon, 120 ammo, 200 health).
 - **Firing / projectile:**
   - An automatic minigun, 120 ammo, 0.10 s rate of fire, with wind-up [Fan-wiki].
-  - In the 2026 Steam screenshot (screen_00), a rock-skinned Riggs fires it: the coil flares and thin pink tracer streaks fly out [Observed].
+  - In Steam screenshot screen_00 (2013 footage [Inference, strong]), a rock-skinned Riggs fires it: the coil flares and thin pink tracer streaks fly out [Observed].
   - In trailer frames from 34.5 to 36.2 s, the hits are **pink-white starbursts** (about 34.8, 35.1 and 35.6 s) and the target flashes cyan-white [Observed].
 - **Impact / end result:**
   - The pale-yellow stars in screen_00 and at 35.8–36.1 s appear while the orange bear and the teal bear are fighting in melee. So they probably come from the melee, not the gun [Inference].
@@ -277,6 +283,7 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned/frames/s00_beebee_zoom.png, a crop of /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/steam_screens/screen_00.jpg (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/v2/tr/eh_sheet.jpg (trailer, 34.6–36.2 s) (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned/frames/irigg_gun_zoom.png
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/riggs-gaps-r2/crops/cm_m2_gun.png and cm_max_hud.png (Oct 2026 playtest, CmYil-JJdC0) (re-opened)
 - **Depiction for shorts:** the coil flares magenta and a stream of thin pink tracers pops into pink-white starbursts on the target. Tiny electric bees in the stream are a [BBG News invention] built on the official "Electrically charged bees" line.
 - **Confidence:** observed.
 
@@ -297,7 +304,7 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - "a yellow circle will appear over the player's head and a noise from a Geiger counter will begin sounding". As exposure grows, "three portions of the circle will dissolve into the common radioactivity symbol".
   - At 100 radiation points the target explodes; the blast radius is 150–200 units.
   - The icon stages are the wiki files Hazard-0.png to Hazard-3.png [Fan-wiki].
-  - **2026 trailer, same status from a different weapon:** a Graham weapon with yellow ring-wave muzzle effects, likely the Gamma Ray [Inference].
+  - **Steam trailer (2013 footage [Inference, strong]), same status from a different weapon:** a Graham weapon with yellow ring-wave muzzle effects, likely the Gamma Ray [Inference]. This is the Graham segment (about 7.25–10.5 s). graham.md now dates it to 2013 and withdraws its earlier "2018 or later" reading, because some 2013 fan captures already have the toon outlines (graham.addendum.md, Incidental findings 1). The same shots are also at t=12–14 s in the storyboard of SkyVu's May 30 2013 trailer rfAyqVJrli4 [Observed, low-res]. The icon is also in official 2026 media: SkyVu's Aug 16 2026 "Official Playtest Highlights" thumbnail (C7uFxvSZ10c, HUD build 3.0.0) shows the yellow disc with black radiation wedges, stacked with a Slowed Z, over the target of a gold Graham's yellow beam [Observed, per 2026.addendum.md; crop re-opened].
     - About 8.5 s: a **yellow disc with a black radiation trefoil** hovers over the target's head.
     - About 9.0 s: the target bursts apart with a white flash and a white hexagonal shockwave ring [Observed].
   - The same icon should appear on MuskIt hits [Inference: shared status visuals].
@@ -306,6 +313,7 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned/frames/musket_zoom.png
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/v2/tr/t18_icon.png (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/v2/tr/graham_seq.jpg (re-opened)
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-r4/crops/c7u_icon.jpg (Aug 16 2026 highlights thumbnail, C7uFxvSZ10c) (re-opened)
 - **Depiction for shorts:**
   - A green bug-spray puff.
   - A yellow disc over the target fills in to a black radiation trefoil while a Geiger counter ticks faster.
@@ -478,19 +486,19 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
 
 ## PART E: Cross-game carryovers
 
-## Bearzooka (Secondary, explosive; Soldier / Oliver default; franchise weapon since BB Zombies; in BBR and BBG; named on Steam and seen in the trailer in 2026)
+## Bearzooka (Secondary, explosive; Soldier / Oliver default; franchise weapon since BB Zombies; in BBR and BBG; in the Steam trailer, 2013 footage [Inference, strong]; named on the 2026 Steam page and seen in SkyVu's Jul 6 2026 "Classic Oliver" short)
 - **Official text:**
   - "The basic weapon of any Soldier. Does a good amount of damage, with a decent area of effect (AOE). Useful for all situations." [Game text via wiki] ([Bearzooka (BBG)](https://battlebears.fandom.com/wiki/Bearzooka_(BBG))).
   - "Grab your A Salt Rifle, Bearzooka…" [Canon, Steam 2026].
   - "his powerful 'Bearzooka' Ultimate which deals massive damage and destroys obstacles" [Canon, BBH only].
 - **The wiki on colour:** "In BBG and BB0, it is a rocket launcher with red and orange lines. In BBZ and BB-1 it is just a dark green rocket launcher." [Fan-wiki] ([Bearzooka](https://battlebears.fandom.com/wiki/Bearzooka)).
 - **Look (resolved):**
-  - **Body:** a **coral-red tube**, #A54447–#A34842 in the BBR April 2013 shop shot and #D05655–#CE544F under 2026 trailer lighting [Observed]. Length about 0.8× Oliver.
-  - **Windows:** a row of **glowing orange window panels** (#EB7921–#FEA53C). They are **rectangular** on the 2013 model, **pointed, chevron-like hex panels** on the 2026 model, and chevrons in the concept image. Grey metal bands and a black bore [Observed].
-  - **Muzzle end:** it flares. It is a **grey-and-red checkered cone** on the 2026 model (pointing at the target at about 4.4 s) and in the concept; the 2013 model shows only faint grey mottling there [Observed].
-  - **How it is carried:** on the right shoulder, in the 2013 shop shot, in Dban1's demo "[Oliver]:Secondary - Bearzooka" (BBR, April 2013) and in the 2026 trailer [Observed].
+  - **Body:** a **coral-red tube**, #A54447–#A34842 in the BBR April 2013 shop shot and #D05655–#CE544F under Steam-trailer lighting (2013 footage [Inference, strong]) [Observed]. On SkyVu's darkened Jul 6 2026 "Classic Oliver" card it reads ≈ #A2565A [Observed, per 2026.addendum.md; crop re-opened]. Length about 0.8× Oliver.
+  - **Windows:** a row of **glowing orange window panels** (#EB7921–#FEA53C). They are **rectangular** on the BBR April 2013 model, **pointed, chevron-like hex panels** in the Steam trailer footage, and chevrons in the concept image. The 2026 "Classic Oliver" card also shows pointed panels. Grey metal bands and a black bore [Observed].
+  - **Muzzle end:** it flares. It is a **grey-and-red checkered cone** in the Steam trailer footage (pointing at the target at about 4.4 s), on the 2026 "Classic Oliver" card and in the concept; the BBR April 2013 shop model shows only faint grey mottling there [Observed].
+  - **How it is carried:** on the right shoulder, in the 2013 shop shot, in Dban1's demo "[Oliver]:Secondary - Bearzooka" (BBR, April 2013), in the Steam trailer (2013 footage [Inference, strong]) and on the 2026 "Classic Oliver" card [Observed].
   - **Concept image:** Bearzooka_Concept.png (captioned "Bearzooka concepts") is a crop of Soldier_Weapon.png, uploaded by a wiki user in Nov 2012 with no watermark. SkyVu provenance is [Inference].
-  - **2026 trailer, 3.9–4.4 s** (frame t_0009 at 4.0 s): the carrier is a **green-skinned** bear with a blue bandana mask, a waist belt of gold bullets with blue spikes, and a lavender-and-blue slab on its back [Observed]. The skin is unidentified. The Bearzooka is a Soldier weapon, so this is probably an Oliver skin [Inference].
+  - **Steam trailer, 3.9–4.4 s** (frame t_0009 at 4.0 s; 2013 footage [Inference, strong]: the same shot is at t=8 s in the storyboard of SkyVu's May 30 2013 trailer rfAyqVJrli4 [Observed, low-res]): the carrier is a **green-skinned** bear with a blue bandana mask, a waist belt of gold bullets with blue spikes, and a lavender-and-blue slab on its back [Observed]. The skin is unidentified. The Bearzooka is a Soldier weapon, so this is probably an Oliver skin [Inference].
   - **Green launchers in other contexts:**
     - The **BB: Zombies Bearzooka** (Bear.jpg, "Bearzooka in BBZ") is a dark-green tube stencilled "BEARZOOKA" with an arrow and yellow-and-black hazard stripes at the muzzle [Observed]. This is almost certainly where oliver.md's "green, hazard-striped tube" came from [Inference].
     - **Tillman's Twin Bearzookas** (Demo primary, BBG 2.17, Mar 8 2015) are two **yellow-olive tubes** (#71793C–#ABB157, median #8A9246) with dashed seams and **octagonal black muzzles with silver-grey rims**, one over each shoulder [Observed, Ohmagawdyas.png, re-opened]. Stats: explosives 15–25, 3 ammo, 750 u/s, −10% speed [Fan-wiki].
@@ -513,6 +521,8 @@ This is a Riggs weapon, covered fully in the Riggs dossier. It is here because t
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/v2/tr/bz_full6.jpg (3.9–5.2 s) (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned-check/v2/tr/bz_full4.jpg (4.4–4.7 s) (re-opened)
   - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/unassigned/web/AZt_huguhzc_strip.jpg (re-opened)
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/2026-r4/crops/byri_zooka.jpg (SkyVu's Jul 6 2026 "Classic Oliver" short) and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/gaps_r2/z/show_bear500.jpg (2026 playtest loadout render)
+  - /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/shared_trailer_rule/steam_vs_2013_sb.jpg (Steam trailer frames against the rfAyqVJrli4 storyboard)
 - **Depiction for shorts:**
   - A coral-red tube with glowing orange panels on Oliver's right shoulder.
   - The rocket and its blast are a [BBG News invention]: suggest a fat yellow-orange cartoon blast, plus comic soot when it backfires (a gag built on the wiki's "prone to suicide" line).
@@ -732,15 +742,16 @@ Every "current text" below was checked to exist verbatim in /home/user/thallo-si
 1. **oliver.md, line 51**
    - **Current text:** "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference]."
    - **Correction:**
-     - The BBG Bearzooka is a coral-red tube (#A54447 on the April 2013 BBR model; #D05655 under 2026 trailer light) with a row of glowing orange window panels (#EB7921–#FEA53C), grey bands and a black bore.
-     - The panels are rectangular in 2013 and pointed and chevron-like in 2026.
-     - The flared muzzle end is grey-and-red checkered on the 2026 model.
+     - The BBG Bearzooka is a coral-red tube (#A54447 on the April 2013 BBR model; #D05655 under Steam-trailer light, 2013 footage [Inference, strong]) with a row of glowing orange window panels (#EB7921–#FEA53C), grey bands and a black bore.
+     - The panels are rectangular on the April 2013 BBR model, and pointed and chevron-like in the Steam trailer footage and on SkyVu's Jul 6 2026 "Classic Oliver" card.
+     - The flared muzzle end is grey-and-red checkered in the Steam trailer footage and on the 2026 card.
      - It rests on his right shoulder and is about 0.8× his height [Observed].
      - The green, hazard-striped launcher is the BB: Zombies Bearzooka (wiki File:Bear.jpg), the likely source of this line [Observed; Inference]. The only green launchers in BBG are Tillman's yellow-olive Twin Bearzookas.
    - **Evidence:**
      - Photo_19-04-13_12_02_26_PM.png (Bearzooka (BBG) infobox, "Oliver with the Bearzooka").
      - Dban1's "[Oliver]:Secondary - Bearzooka" thumbnails (April 2013).
-     - 2026 trailer frames at 3.9–4.4 s (t_0009).
+     - Steam trailer frames at 3.9–4.4 s (t_0009; 2013 footage [Inference, strong]).
+     - SkyVu's Jul 6 2026 "Classic Oliver" short (byri_kQBUS4; crop byri_zooka.jpg, 2026.addendum.md).
      - Bear.jpg ("Bearzooka in BBZ") and Ohmagawdyas.png.
      - The wiki's "In BBG and BB0, it is a rocket launcher with red and orange lines."
 2. **oliver.md, line 75 (reference prompt)**
@@ -767,12 +778,13 @@ Every "current text" below was checked to exist verbatim in /home/user/thallo-si
    - **Current text:** "Their look is undocumented, so designs, like the toothbrush prop, are [BBG News invention]."
    - **Correction:**
      - The Beebeegun's look is documented in an in-game image: a black riveted minigun body (#262625–#282727) with orange-and-black striped vent panels, a glossy gold octagonal hive (#AF862A, highlights #D4AF38) with a cartoon bee, and yellow bee-wing fins; no coil [Observed, BBR April 2013 shop shot].
-     - The pink-hive gun with a glowing magenta spiral coil is the Electric Honey, not the Beebeegun. It appears with The Incredible Riggs, in the 2026 Steam screenshot and in the 2026 trailer at 34.5–36 s. In 2026 it fires pink tracer streaks with pink-white starburst hits [Observed].
+     - The pink-hive gun with a glowing magenta spiral coil is the Electric Honey, not the Beebeegun. It appears with The Incredible Riggs, in Steam screenshot screen_00 and in the Steam trailer at 34.5–36 s (2013 footage [Inference, strong]), where it fires pink tracer streaks with pink-white starburst hits [Observed]. The Oct 2026 playtest also shows it (droid BBG's CmYil-JJdC0, HUD 93/120) [Observed; that it is the Electric Honey is Inference, strong].
      - No image of Beebeegun fire is known [Unverified]. The toothbrush prop remains [BBG News invention].
    - **Evidence:**
      - Beebeegun infobox: Photo_19-04-13_12_50_44_PM.png, "Riggs with the Beebeegun".
      - Electric Honey (BBG) infobox: Photo_19-04-13_12_50_47_PM.png, "Riggs with the Electric Honey".
-     - Theincredibleriggs.png, Steam screen_00.jpg, and trailer frames 34.6–36.2 s.
+     - Theincredibleriggs.png, Steam screen_00.jpg, and trailer frames 34.6–36.2 s (2013 footage [Inference, strong]).
+     - Oct 2026 playtest: CmYil-JJdC0 crops cm_m2_gun.png and cm_max_hud.png (riggs.addendum.md).
 7. **riggs.md, line 56 (weapons list)**
    - **Current text:** "BBG defaults Beebeegun, Hivey League, Barbed Gloves [Fan-wiki] ([Heavy (BBG)][wh]);"
    - **Correction:** keep the line, and add an extra melee: Catastrophe (BBR 1.3.1, 2012; spelled "CATASTOPHE" in game), a pair of calico cat-head gloves with one big blue eye per side [Observed]. riggs.md has no separate extras list, so add it here.

@@ -194,7 +194,7 @@ So they are a player-state effect, not a weapon effect [Inference, high]. Round 
   - Keep "melt a face" offscreen: a sooty, steaming bear is a [BBG News invention].
 - **Confidence:** partial. Firing and projectile are now observed at low resolution; the impact is only an Inference.
 
-## Bearzooka (BBG) (secondary; default since BBR v1.0, 2011; x/2 in SkyVu's Apr 2014 overhaul; named in SkyVu's 2026 Steam copy; in the 2026 trailer and playtest)
+## Bearzooka (BBG) (secondary; default since BBR v1.0, 2011; x/2 in SkyVu's Apr 2014 overhaul; named in SkyVu's 2026 Steam copy; in the Steam trailer, 2013 footage [Inference, strong]; in the 2026 playtest)
 - **Official text**
   - "The basic weapon of any Soldier. Does a good amount of damage, with a decent area of effect (AOE). Useful for all situations." [Game text via wiki] (https://battlebears.fandom.com/wiki/Bearzooka_(BBG)).
   - Steam: "Grab your A Salt Rifle, Bearzooka and those Turkish SW Boots..." [Canon].
@@ -217,20 +217,20 @@ So they are a player-state effect, not a weapon effect [Inference, high]. Round 
   - **Launch:** round grey smoke puffs at the muzzle and a dotted trail of grey puffs downrange [Observed, [G]thumbs/0ZbJ0-Za5Ws_maxres3.jpg].
 - **Projectile**
   - **BBG-era footage:** the rocket body is never visible [Unverified].
-  - **2026 official trailer** (round-1 crop, re-opened): a rocket with a grey hexagonal nose cone, a body of glowing orange and yellow squares, a grey rear collar and fin, and a spiky orange-yellow flame tail [Observed, [G]crops/tr_rocket_018.jpg]. That it is a Bearzooka rocket is an [Inference, medium-high]: it shares the tube's hex-and-glowing-panel design.
+  - **Steam trailer, 2.87–3.00 s** (2013 footage [Inference, strong]: SkyVu re-used it on the 2026 Steam page, and the same shot is at t=7 s in the storyboard of SkyVu's May 30, 2013 trailer rfAyqVJrli4 [Observed, 160×90]; round-1 crop, re-opened): a rocket with a grey hexagonal nose cone, a body of glowing orange and yellow squares, a grey rear collar and fin, and a spiky orange-yellow flame tail [Observed, [G]crops/tr_rocket_018.jpg]. That it is a Bearzooka rocket is an [Inference, medium-high]: it shares the tube's hex-and-glowing-panel design.
 - **Impact / end result**
   - **Mar 10, 2014 (7WSXU2LaxYo t=56 s):** a big faceted yellow polygonal blast (≈ #F8EB6F) with a grey smoke puff (≈ #9C9B90) at its centre [Observed, [R]z/bz7W_a.jpg].
   - **Jul 25, 2015 (0ZbJ0-Za5Ws t=38 s, HUD 0):** a faceted yellow blast (≈ #F7E04F, bright #FFF259) beside a billowing dark-grey smoke cloud (≈ #5E5B63) [Observed, [R]z/bz0Z_38.jpg].
   - Crediting both blasts to the Bearzooka is an [Inference, high]: the titles are "Bearzooka" gameplay, and the 2015 uploader's primary is Urine Trouble, which does not explode.
-  - **2026 trailer:** a white-edged orange-yellow blast, then a soft yellow fireball that flings the B-1000 upward [Observed, [G]crops/tr_blast_strip.jpg; cause Inference].
+  - **Steam trailer (2013 footage [Inference, strong]):** a white-edged orange-yellow blast, then a soft yellow fireball that flings the B-1000 upward [Observed, [G]crops/tr_blast_strip.jpg; cause Inference].
   - **Excluded:** a huge magenta-white cloud in mTVPzAM0m7o at t=10–14 s is already present while the Sci-Fi HASR is in hand (10/30), before the Bearzooka shot [Observed, [R]z/sfh_mTVP_12.jpg], so it is not a Bearzooka blast [Inference]. 574_vzigCqI and sxM32PyNNRs were not re-opened this round. Round 1 excluded them as other weapons.
 - **Images viewed:** [R]z/ov_198.jpg, ov_bz.jpg, ov_hud2.jpg, show_bear500.jpg, show_sold_b.jpg, show_stats2.jpg, show_txt1.jpg, show_txt2.jpg, show_txt3.jpg, bz0Z_a.jpg, bz0Z_38.jpg, bz7W_a.jpg, sfh_mTVP.jpg, sfh_mTVP_hud.jpg, sfh_mTVP_12.jpg, AZt_a.jpg, AZt_thumbs.jpg, AZt_sd3_sd1_zoom.jpg, AZt_sd3_zoom.jpg; [R]sb/AZt_huguhzc/cs_00.jpg, cs_01.jpg; [G]crops/bz_0ZbJ_muzzle.jpg, tr_rocket_018.jpg, tr_blast_strip.jpg; [G]thumbs/0ZbJ0-Za5Ws_maxres3.jpg.
 - **Depiction for shorts**
   - Shoulder the coral hex tube, pink hex muzzle forward. Fire with a burst of round grey puffs and a dotted grey puff trail (observed).
-  - The rocket is the observed 2026 design: grey hex nose, glowing orange-yellow squares, spiky flame tail.
-  - It lands in a faceted yellow polygon blast with a grey or dark-grey smoke ball (observed). The target pops apart into toy pieces (observed 2026 style, see verified dossier).
+  - The rocket is the design observed in the Steam trailer (2013 footage): grey hex nose, glowing orange-yellow squares, spiky flame tail.
+  - It lands in a faceted yellow polygon blast with a grey or dark-grey smoke ball (observed). The target pops apart into toy pieces (observed in the Steam trailer, 2013 footage [Inference, strong]; see verified dossier).
   - Showing the rocket at about 0.3x a bear's length is a [BBG News invention].
-- **Confidence:** observed (look, launch smoke, blast). The rocket model rests on the 2026 trailer and an Inference.
+- **Confidence:** observed (look, launch smoke, blast). The rocket model rests on the Steam trailer (2013 footage) and an Inference; no 2026 frame shows it.
 
 ## Minigun (Soldier) (primary; BBG v2.11, Aug 27, 2014; 45 Gas; magazine changed after release; listed in the 2026 playtest)
 - **Official text:** "Mini refers to your enemies after its done with them." [Game text via wiki] (https://battlebears.fandom.com/wiki/Minigun_(Soldier); "its" sic).
@@ -395,7 +395,7 @@ So they are a player-state effect, not a weapon effect [Inference, high]. Round 
 - Does the Spreadshot's lime-green cloud (SkyVu video t=148 s) belong to the Spreadshot, and is it the same effect as the Steamshot's green burst? What do the pellets look like?
 - Solar Wind Scar: what does the "dark, circular radiation belt" look like? Does the crescent visibly pass through walls? Over whose head does the yellow disc in IqHSyVVvCQw float, and is the single missing wedge the wiki's three-wedge stage at low resolution?
 - What are the 2026 magazine sizes for the Minigun (130 in 2014, 100 in 2016, 80 on the wiki), the Sci-Fi HASR (50/80/20/30/60 over time) and the Soaker (the 2026 panel reads about 50)? The 320×180 storyboard is too small to confirm the digits.
-- Is the 2026 trailer rocket the Bearzooka's (shared hex-and-glowing-panel design), or the TNT Launcher's or another weapon's?
+- Is the Steam-trailer rocket (2013 footage) the Bearzooka's (shared hex-and-glowing-panel design), or the TNT Launcher's or another weapon's? What does the 2026 rocket look like?
 - What does a Kumakiri hit look like? Is the long, straight, pale blade in the 2026 render at t=500 s really the Kumakiri?
 - Does the Steamshot's green steam linger as a cloud on the target, and what does a Steamshot kill look like?
 - Does a higher-resolution source exist? The Invidious API also lists 320×180 storyboards for some videos (9qYIIH8NV-4, Gqv2NiOpntU, -lAtv-j9Sms). A watchable copy of the overhaul video would settle most of these questions.
