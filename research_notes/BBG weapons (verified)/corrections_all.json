@@ -345,7 +345,7 @@
   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
   "current_text": "A hulking maroon-armoured robot bear with glowing cyan eye-slits, an orange-and-white gun-arm and an axe-blade arm stomps forward",
   "correction": "Match the chosen loadout: either 'a white-and-orange grenade-launcher arm and a grey axe arm' (defaults) or 'an orange-and-black rail-gun arm and a three-blade cyan claw arm' (signature).",
-  "evidence": "Same renders as above; the Steam trailer title card at 5.8-7.0 s shows the rail-gun plus cyan claws"
+  "evidence": "Same renders as above; the Steam trailer title card at about 5.8-7.2 s shows the rail-gun plus cyan claws"
  },
  {
   "file": "/home/user/thallo-site/bbg-news-repo/characters/b-1000.md",
@@ -806,8 +806,8 @@
  {
   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
   "current_text": "1. Bearzooka recoil blasts him through a wall. He comes back sooty: \"Meant to do that.\"",
-  "correction": "No recoil is documented. Re-ground the gag in self-damage ('The user is very prone to suicide while using the Bearzooka.' [Fan-wiki]) and use the observed visuals: grey puff trail, hex rocket with spiky orange tail, soft yellow fireball. The beat stays a [BBG News invention].",
-  "evidence": "Wiki Bearzooka (BBG) page (re-fetched Oct 17, 2026); 0ZbJ0-Za5Ws maxres3; trailer frames r_014-r_019 (crops/tr_blast_strip.jpg, tr_rocket_019.jpg)."
+  "correction": "No recoil is documented. Re-ground the gag in self-damage ('The user is very prone to suicide while using the Bearzooka.' [Fan-wiki]) and use the observed visuals: grey puff trail, hex rocket with spiky orange tail, faceted yellow blast with grey smoke. The beat stays a [BBG News invention].",
+  "evidence": "Wiki Bearzooka (BBG) page (re-fetched Oct 17, 2026); 0ZbJ0-Za5Ws maxres3; trailer frames r_017-r_019 (crops/tr_rocket_019.jpg; the rocket, 2013 footage); blasts in [R]z/bz7W_a.jpg and [R]z/bz0Z_38.jpg (2014-15 fan footage). Oct 18 edit: the trailer's 'soft yellow fireball' (crops/tr_blast_strip.jpg) is the B-1000's own jet leap, not a Bearzooka blast (shared.addendum.md, round 3), so it was dropped."
  },
  {
   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
@@ -1262,8 +1262,8 @@
  {
   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",
   "current_text": "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference].",
-  "correction": "The Bearzooka is a coral-red hexagonal shoulder tube with glowing orange chevron panels, grey collars and a grey-checkered flared end [Observed]. Its rocket has a grey stepped hex nose, glowing yellow-orange checker panels, grey collars, a maroon tail with pink-red lights and a spiky orange flame tail, leaving white smoke puffs [Observed: the Steam trailer SkyVu put on the 2026 Steam page, 1.92-3.05 s, which is 2013 footage (Inference, strong); that it is the Bearzooka's is Inference, high]. Its blast is undocumented [Unverified]. The green hazard-striped tube is the BB Zombies design.",
-  "evidence": "Official Steam trailer frames, all in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/shared-r3/: tr/f_0086.png and tr/f_0088.png (rocket); crops/rocket_n88.png; crops/bz_n132.png (tube at 4.42 s, coral ~#E36F61, panels ~#FFA82F); sheets/rocket_track.jpg (launch from the green Soldier at 1.92 s, exit at 3.05 s)"
+  "correction": "The Bearzooka is a coral-red hexagonal shoulder tube with glowing orange chevron panels, grey collars and a grey-checkered flared end [Observed]. Its rocket has a grey stepped hex nose, glowing yellow-orange checker panels, grey collars, a maroon tail with pink-red lights and a spiky orange flame tail, leaving white smoke puffs [Observed: the Steam trailer SkyVu put on the 2026 Steam page, 1.92-3.05 s, which is 2013 footage (Inference, strong); that it is the Bearzooka's is Inference, high]. Its blast is seen only in low-res 2014-15 fan footage: a faceted yellow polygon blast with grey smoke [Observed; that it is the Bearzooka's is Inference, high]; no official or 2026 media show it. The green hazard-striped tube is the BB Zombies design.",
+  "evidence": "Official Steam trailer frames, all in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/shared-r3/: tr/f_0086.png and tr/f_0088.png (rocket); crops/rocket_n88.png; crops/bz_n132.png (tube at 4.42 s, coral ~#E36F61, panels ~#FFA82F); sheets/rocket_track.jpg (launch from the green Soldier at 1.92 s, exit at 3.05 s). Blast (Oct 18 edit): /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/dl/oliver/gaps_r2/z/bz7W_a.jpg (7WSXU2LaxYo, 2014, t=56 s) and bz0Z_38.jpg (0ZbJ0-Za5Ws, 2015, t=38 s), per oliver.addendum.md"
  },
  {
   "file": "/home/user/thallo-site/bbg-news-repo/characters/oliver.md",

@@ -65,8 +65,8 @@
   "slot": "Secondary (default)",
   "status": "Named on the 2026 Steam page [Canon]. Held at 1/1 in the 2.54.0 tutorial (Jul 9, 2026); second weapon in a PT4 loadout (HUD icon).",
   "look": "Coral-red hexagonal tube (#AF5860 in dim light) with glowing orange-gold chevron panels (#CF7F3A-#FCA74C), a grey checker band at the flared muzzle, and a bolted round rear plate. Held under the arm. About 0.7x Oliver. NOT green or hazard-striped.",
-  "firing_and_projectile": "1 rocket, 1.5 s, 2.5 s reload, 1,000 u/s (wiki). Rocket model and trail unseen in any build; the 2026 red checker-band rocket with white smoke is Tillman's.",
-  "impact_end_result": "Explosives 40-60, AoE 125/250, easy to kill yourself (wiki). Unattributed 2026 explosions are pale-yellow translucent faceted blasts (#FAFFB0); using that style is an inference.",
+  "firing_and_projectile": "1 rocket, 1.5 s, 2.5 s reload, 1,000 u/s (wiki). Steam trailer rocket 1.92-3.05 s (2013 footage [Inference, strong]): white launch burst with an orange core; grey stepped hex nose, glowing yellow/orange checker panels, maroon tail with pink-red lights, spiky orange-yellow flame shards, white puff trail; it leaves the frame without detonating [Observed; Bearzooka link Inference, high]. Unseen in 2026 frames; the 2026 red checker-band rocket with white smoke is Tillman's.",
+  "impact_end_result": "Explosives 40-60, AoE 125/250, easy to kill yourself (wiki). Blasts credited to it appear only in low-res 2014-15 fan footage: a faceted yellow polygon blast with grey or dark-grey smoke [Observed, per oliver.addendum.md; Bearzooka link Inference, high]; the Steam trailer shows none. Unattributed 2026 explosions are pale-yellow translucent faceted blasts (#FAFFB0); using that style for the 2026 Bearzooka is an inference.",
   "confidence": "partial"
  },
  {
@@ -125,8 +125,8 @@
   "slot": "secondary",
   "status": "BBG 2.51 (Apr 2018) [Fan-wiki]; held by player ZITROUN in SkyVu's Jun 20, 2026 short",
   "look": "Red dragon head with small dark wings and white teeth, with a long silver blade jutting from its mouth, held at the hip; about 0.6× Oliver [Observed; ID by shape].",
-  "firing_and_projectile": "Unknown in BBG [Unverified]. In BBO (another game) it fires 'an orange blast' [Fan-wiki].",
-  "impact_end_result": "Unknown [Unverified].",
+  "firing_and_projectile": "Unknown in 2026 frames [Unverified]. In Apr-Jun 2018 fan footage the clip is 3 (infobox 4) and a small white glow with a pink-violet flare shows at the dragon's mouth [Observed, per graham.addendum.md]; the shot in flight is unseen [Unverified]. In BBO (another game) it fires 'an orange blast' [Fan-wiki]; the 2018 BBG footage shows no visible laser.",
+  "impact_end_result": "Unknown in 2026 [Unverified]. In Apr 2018 fan footage, big yellow-orange fire bursts with orange tongues engulf the crates ahead and fill a distant doorway, with kills in the feed (dvL_S1yaUXE maxres2, EuYnY6WyI-8 maxres3) [Observed, per graham.addendum.md]; that they are Dragon Slayzer hits is [Inference, strong].",
   "confidence": "partial"
  },
  {
@@ -255,8 +255,8 @@
   "slot": "Secondary, default",
   "status": "Named on 2026 Steam page; same look in 2013 trailer and 2026 thumbnails",
   "look": "Coral-red tube (~#DE604D) with glowing orange chevron windows (~#FC9C24), grey bands, grey-red checkered flared rear, pink hexagonal muzzle cap with dark bore; ~0.75-0.9x Oliver",
-  "firing_and_projectile": "1 ammo (HUD 1/1), 1.5 s, 2.5 s reload, 1,000 u/s; Steam trailer rocket (2013 footage [Inference, strong]) = grey hexagonal shell with glowing orange-yellow panels and spiky orange flame tail [Observed; ID Inference]",
-  "impact_end_result": "40-60 explosives, AoE 125/250, self-damage prone [Fan-wiki]; Steam trailer (2013 footage [Inference, strong]): yellow (~#F8E838) blast with orange rim, point-blank blast flings the shooter; no 2026 blast attributed to it yet",
+  "firing_and_projectile": "1 ammo (HUD 1/1), 1.5 s, 2.5 s reload, 1,000 u/s; Steam trailer rocket 1.92-3.05 s (2013 footage [Inference, strong]) = grey stepped hex nose, glowing yellow-orange checker panels, maroon tail, spiky orange flame shards, white puff trail; it leaves the frame without detonating [Observed; Bearzooka link Inference, high]",
+  "impact_end_result": "40-60 explosives, AoE 125/250, self-damage prone [Fan-wiki]; the Steam trailer shows no Bearzooka blast: the flame around the B-1000 at 2.69-3.85 s is his own jet leap, and the 4.59-5.2 s wipe is his claw slash [Observed]; 2014-15 fan footage only: a faceted yellow polygon blast with grey or dark-grey smoke [Observed, per oliver.addendum.md; Bearzooka link Inference, high]; no 2026 blast attributed to it yet",
   "confidence": "observed"
  },
  {
@@ -443,10 +443,10 @@
   "weapon": "Big Shot",
   "owner": "Tillman (Demo)",
   "slot": "Primary, default",
-  "status": "2013 trailer only; 2026 unknown",
+  "status": "2013 trailer; one 2026 fan sighting: build 3.0.2 with the Big Shot HUD icon equipped (IczzjY63vBY, ~Sept 2026) [Observed]; that it is the 2026 build is [Inference]",
   "look": "Purple-grey drum cannon with gold muzzle ring, held at chest",
   "firing_and_projectile": "Arcing black bullet-like missile (Bullet Bill-like) [Fan-wiki]; 0.5 s, ammo 7 vs 6, 1,100 u/s",
-  "impact_end_result": "10-20, AoE 100/200; trailer: Wil engulfed in yellow-orange blast and flung",
+  "impact_end_result": "10-20, AoE 100/200 [Fan-wiki]; Steam trailer (2013 footage [Inference, strong]): no certain Big Shot hit. A yellow-orange glow engulfs Wil at about 19.5-20.4 s with no launch shown; it may be his own Batterito fire (contested) [Observed; Inference]. A faceted orange ball at 20.5-21.5 s is a separate projectile of unverified source, and the fire that lights Tillman white at about 22.0-22.2 s is most likely Wil's Batterito fire-breath [Inference]",
   "confidence": "partial"
  },
  {
@@ -1086,7 +1086,7 @@
   "status": "2013 launch, 45,000 J; signature promo melee. 2020 edit: 50 dmg/+10% to 45 dmg/+30% special speed. Probable cyan claw tips in the fan 2026 closed test. BBH attack per wiki.",
   "look": "Left-forearm black/orange/white gauntlet with three long translucent cyan blades (#2BDCF1 with white streaks) and a looping white hose with cyan rings. About 0.6x Oliver.",
   "firing_and_projectile": "Rising swing; no projectile; no electric effect documented.",
-  "impact_end_result": "Trailer kill: a light column, then the Demo breaks into chunky pieces that fly upward [Observed]. The orange streaks are probably trailer overlay [Inference].",
+  "impact_end_result": "Trailer kill: a light column, then a green-furred bear carrying the coral Bearzooka (a Soldier, probably the Green Oliver skin [Inference]; not a Demo) breaks into chunky pieces that fly upward [Observed]. The orange streaks are probably trailer overlay [Inference].",
   "confidence": "observed"
  },
  {
@@ -1575,8 +1575,8 @@
   "slot": "Secondary (default)",
   "status": "BBR v1.0 onward through BBG; named in the 2026 Steam text",
   "look": "Coral-red octagonal tube, pinched in the middle and flared at both ends (~#E05F4F in the Steam trailer's 2013 footage, ~#A24D4E in the April 2013 BBR capture); a row of glowing orange window panels (~#F48D20 to #FF931F); grey collars; grey-checkered rear flare; black bore. Not green: the dark green, hazard-striped Bearzooka is BB Zombies'.",
-  "firing_and_projectile": "Infobox: 1 ammo, 1.5 s rate of fire, 2.5 s reload, 1,000 u/s; body text says 'two shots'; the HUD shows 0/1 and 1/1 (one loaded plus one reserve, Inference). Probable rocket at trailer 2.8-3.0 s: grey hex nose, glowing yellow-orange checker panels, spiky orange flame.",
-  "impact_end_result": "Explosive area damage [Game text via wiki]; the user is 'very prone to suicide' [Fan-wiki]. Explosion look Unverified.",
+  "firing_and_projectile": "Infobox: 1 ammo, 1.5 s rate of fire, 2.5 s reload, 1,000 u/s; body text says 'two shots'; the HUD shows 0/1 and 1/1 (one loaded plus one reserve, Inference). Probable rocket (Bearzooka link Inference, high) in the Steam trailer (2013 footage [Inference, strong]): launched at 1.92 s by the green Soldier with a white smoke burst and an orange core; grey hex nose, glowing yellow-orange checker panels, spiky orange flame; static camera; it leaves the frame at 3.05 s without detonating [Observed].",
+  "impact_end_result": "Explosive area damage [Game text via wiki]; the user is 'very prone to suicide' [Fan-wiki]. Explosion look Unverified in official media (the trailer does not show it; its 3.02-3.15 s orange wash centres on the B-1000's jet). 2014-15 fan footage shows a faceted yellow polygon blast with grey or dark-grey smoke [Observed, per oliver.addendum.md; Bearzooka link Inference, high].",
   "confidence": "partial"
  },
  {
@@ -1683,9 +1683,9 @@
   "weapon": "Radiation status & detonation (shared: Gamma Ray, Gernobyl, MuskIt, Radiation Rod)",
   "owner": "Graham (Engineer)",
   "slot": "status system",
-  "status": "Documented across BBG [Fan-wiki: Status Effects]; seen in the 2014 fan clip and in the Steam trailer gameplay (2013 footage [Inference, strong]) [Observed]",
-  "look": "A yellow disc over the head (#FBFE13) split into 6 wedges with a dark hub; wedges drop out (they show dark, not white) until three yellow-orange blades (#FFC20B) remain on a black disc (#150E09) [Observed: 0GuhKiAnNyc hq2; trailer f_08.25-08.75]",
-  "firing_and_projectile": "Builds per hit or while exposed; a Geiger tick speeds up and is 'audible to all players nearby'; decays about 3-5 RP/s [Fan-wiki]",
+  "status": "Documented across BBG [Fan-wiki: Status Effects]; seen in the 2014 fan clip and in the Steam trailer gameplay (2013 footage [Inference, strong]) [Observed]; also in Radiation Rod (Jan 2014) and MuskIt (Feb 2016) fan frames, and over an enemy in the Sep 20, 2026 playtest (JVEQQqyafzE) [Observed, per graham.addendum.md]",
+  "look": "A yellow disc over the head (#FBFE13) split into 6 wedges with a dark hub; wedges drop out (they show dark, not white) until three yellow-orange blades (#FFC20B) remain on a black disc (#150E09) [Observed: 0GuhKiAnNyc hq2; trailer f_08.25-08.75]. Early stages in fan frames: a full six-wedge disc (#F9CF0B) with black hub and rim (MuskIt, FQ4HBNLcHS0 maxres2) and a yellow-orange disc (#F7CB10) with its top wedge gone (Radiation Rod, 9cVbS04AWyo sd2) [Observed, per graham.addendum.md]",
+  "firing_and_projectile": "Builds per hit or while exposed; a Geiger tick speeds up and is 'audible to all players nearby'; decays about 3-5 RP/s [Fan-wiki]. Applied by the Gamma Ray beam, Gernobyl goo, the MuskIt's flat lime jet and the Radiation Rod's green-to-cyan field (the last two observed in fan frames, per graham.addendum.md; tying each frame to its weapon is Inference, strong)",
   "impact_end_result": "At full radiation the target 'will die instantly in a relatively large explosion' (150-200 u, can hurt Graham), 'the same as the Piece Maker and Phat Man explosion animation' [Fan-wiki]. Trailer: toy-like orange body pieces fly out of a blocky white-yellow cloud with a white hex floor ring [Observed; that it is the radiation kill is Inference]",
   "confidence": "observed"
  },
@@ -1723,10 +1723,10 @@
   "weapon": "Rivet Gun",
   "owner": "Graham (Engineer)",
   "slot": "primary",
-  "status": "Previewed for BBR 1.4.3 (Apr 2013), delayed and reworked from beam-linked rivets; released BBG 2.1 (Jul 15, 2013) per its page and the Jul 17, 2013 edit [Fan-wiki; version Inference]; 2.6 field life 10 to 7 s",
+  "status": "Previewed for BBR 1.4.3 (Apr 2013), delayed and reworked from beam-linked rivets; the beam-linked version is in a BBG 2.0 beta fan video (T_EJ2DmboPU, Jul 28, 2013) [Observed, per graham.addendum.md]; released BBG 2.1 (Jul 15, 2013) per its page and the Jul 17, 2013 edit [Fan-wiki; version Inference]; 2.6 field life 10 to 7 s",
   "look": "Long boxy dark brown-black gun (#2E211A) with orange-brown bands (#9E6D40), a ribbed top rail, a black carry handle on silver posts, a silver tube/hex-nut muzzle, and a grey-tan underslung canister with an orange emblem and a looping hose [Observed: File:Rosie.png, File:1.4.3Weapons_B.png, File:Rivet_Gun.jpg]",
-  "firing_and_projectile": "'electrified rivets' [Game text via wiki]; 4 per clip, 1 s rate, 1,600 u/s [Fan-wiki]. Rivet look [Unverified]",
-  "impact_end_result": "Rivets stick to floors or walls and form 'light purple energy fields' for 7 s, square from above, 30 DPS strongest at the centre; the rivets themselves do no damage [Fan-wiki]. No image [Unverified]",
+  "firing_and_projectile": "'electrified rivets' [Game text via wiki]; 4 per clip, 1 s rate, 1,600 u/s [Fan-wiki]; the HUD reads 0/3 in Nov 2013, matching the July 2013 wiki's clip of 3 [Observed; Fan-wiki early]. The released rivet in flight is [Unverified]. The 2.0-beta rivets are silver hex-nut heads on coiled-spring shanks, joined by a thin violet-pink beam (#E186C5-#EB93D4), with a beta clip of 6 [Observed: T_EJ2DmboPU maxresdefault, per graham.addendum.md, Rivet Gun]",
+  "impact_end_result": "Rivets stick to floors or walls and form 'light purple energy fields' for 7 s, square from above, 30 DPS strongest at the centre; the rivets themselves do no damage [Fan-wiki]. In game the field is a large, mottled, flame-textured hot pink-magenta glow (#FC91FC; lighter #FECAFE-#FDC8FD) with a white-hot core and some straight, box-like edges, about 1-1.5 H across [Observed: gDEIJf9uYgg maxres2, DTQR6tlnRpA maxres1, per graham.addendum.md, Rivet Gun]; the square footprint fits but is unproven [Inference]",
   "confidence": "partial"
  },
  {
@@ -1735,8 +1735,8 @@
   "slot": "primary",
   "status": "BBG 2.5 (Nov 27, 2013); 60 Gas; 2.6 projectile speed 400 to 750 (infobox now 800) [Fan-wiki]",
   "look": "Short, fat orange-gold cylinder (#D5811B) with dark bands, a cream rim and a glowing green octagonal face (#43E641) plus green strips; held at mid-chest, about 0.25 H [Observed: File:Hand_Cannon.png, File:GIgramhambundle.png]",
-  "firing_and_projectile": "'This slow moving missile' [Game text via wiki]: 'a comically large green-black missile', 2 per clip, 1 s cooldown [Fan-wiki]. No image [Unverified]",
-  "impact_end_result": "'causes a massive explosion on contact' [Game text via wiki]; 20-40 damage, AoE 100/300 u, high suicide risk [Fan-wiki]. Explosion look [Unverified]",
+  "firing_and_projectile": "'This slow moving missile' [Game text via wiki]: 'a comically large green-black missile', 2 per clip, 1 s cooldown [Fan-wiki]; the HUD reads 2/2, 1/2 and 0/2 [Observed, per graham.addendum.md, Hand Cannon]. The missile in flight is in none of the opened frames from 11 videos [Unverified]",
+  "impact_end_result": "'causes a massive explosion on contact' [Game text via wiki]; 20-40 damage, AoE 100/300 u, high suicide risk [Fan-wiki]. The flash is [Unverified]. Aftermath: a huge, dense, dark smoke cloud with blue-team bolt-decal pieces flying out, after two kills at HUD 1/2 (1qRFaBIz3dY maxres3, Jan 2014) [Observed, per graham.addendum.md, Hand Cannon; that it is the Hand Cannon's blast is Inference]; victims break into the generic chunky pieces [Observed; Inference]",
   "confidence": "partial"
  },
  {
@@ -1745,7 +1745,7 @@
   "slot": "primary",
   "status": "BBG 2.6 (Dec 20, 2013) at 80 Gas; now 60 Gas [Fan-wiki]",
   "look": "Boxy dark-grey launcher (#1B1F1D) with a silver side panel and a glowing green slot (#47C562); a white toothed blade (#CCCCCC) stands upright at the front, motion-blurred, about 0.4 H across [Observed: File:BuzzSaw.jpg]",
-  "firing_and_projectile": "'Gun that shoots spinning saw blades' [Game text via wiki]; 3 per clip, 1 s rate; blades dig into surfaces, home weakly, sink into the ground or hover; one of two projectiles that penetrate the Iron Curtain [Fan-wiki]",
+  "firing_and_projectile": "'Gun that shoots spinning saw blades' [Game text via wiki]; 3 per clip, 1 s rate; blades dig into surfaces, home weakly, sink into the ground or hover; one of two projectiles that penetrate the Iron Curtain [Fan-wiki]. HUD 3/3, 1/3, 0/3; dug-in blades stand edge-up, half sunk in the floor, each in a soft blue-violet glow pool (#5769DE) (-TA9nsCnBbE maxres2, Oct 2015) [Observed, per graham.addendum.md, Buzzsaw; ID Inference, strong]",
   "impact_end_result": "'explode on impact' [Game text via wiki]: 70 damage plus 35-70 explosive splash, the same at any distance [Fan-wiki]. Explosion look [Unverified]",
   "confidence": "partial"
  },
@@ -1753,10 +1753,10 @@
   "weapon": "MuskIt",
   "owner": "Graham (Engineer)",
   "slot": "primary",
-  "status": "BBG 2.12 (Oct 2, 2014); level 10, 60 Gas; stats changed since the first wiki revision; missing from Category:BBG Weapons [Fan-wiki]",
+  "status": "BBG 2.12 (Oct 2, 2014); level 10, 60 Gas; stats changed since the first wiki revision; missing from Category:BBG Weapons [Fan-wiki]; seen in fan footage Oct 2014 (UB1S7sNG8Kk) and Feb 2016 (FQ4HBNLcHS0, BBG 2.24); 2026 unconfirmed [Observed; per graham.addendum.md, MuskIt]",
   "look": "Long dark-maroon barrel (#663634) with white curved bands, a salmon-pink bulbous chamber (#BC6C5C) with a grey emblem, a yellow ribbed collar and a hanging yellow tank (#CBA41B); reads as a pump bug-sprayer [Observed: File:Musket.jpg; reading Inference]",
-  "firing_and_projectile": "Shotgun-like small cone, 1.5 s rate, 3 ammo; 'shoots green stuff of what appears to look like bug spray' [Fan-wiki]. No image [Unverified]",
-  "impact_end_result": "Damage plus radiation within 100-150 u, leading to the shared radiation detonation [Fan-wiki]",
+  "firing_and_projectile": "Shotgun-like small cone, 1.5 s rate, 2 ammo (2014 wiki) or 3 (2020 wiki), 4.5 s reload; 'shoots green stuff of what appears to look like bug spray' [Fan-wiki]. On screen: one flat, opaque lime jet (#B8DE2F core, #CFEC32 tip, #A1CE2B shade), widest at Graham and narrowing to a point at the target, with a few green flecks [Observed: FQ4HBNLcHS0 maxres2, per graham.addendum.md, MuskIt; that it is the MuskIt is Inference, strong]; 3D shape, duration and sound [Unverified]",
+  "impact_end_result": "Damage plus radiation within 100-150 u, leading to the shared radiation detonation [Fan-wiki]; a full yellow six-wedge disc (#F9CF0B, black hub) beside the target in the firing frame [Observed, per graham.addendum.md]; no MuskIt-specific kill frame [Unverified]",
   "confidence": "partial"
  },
  {
@@ -1765,8 +1765,8 @@
   "slot": "secondary",
   "status": "Default secondary; BBR v1.4 through BBG; 1.4.2 and 2.6 rebalances conflict with the current page [Fan-wiki]. Likely in the 2026 build: two placed turrets in a Sep 20, 2026 playtest frame (JVEQQqyafzE maxres2) [Observed; ID Inference, strong]",
   "look": "Carried: a white boxy case with vents, red stripes and a red knob, held in front with both hands. Deployed: a white boxy gun with a ribbed drum, team-colour diagonal stripes and handle (blue shown), a stepped barrel with a white tip, a Z-neck on an X-base with four feet [Observed: File:Turret.jpg, File:Turretdeploy.png; icon File:Turret_2.png]",
-  "firing_and_projectile": "2-3 s setup; 'cannot turn', 100-degree fixed cone, unlimited shots at 0.25 s, 1,800 u range in the page text, one target at a time, not fully accurate [Fan-wiki]. Bullet look undocumented; the 2012 wiki said Electric Honey bullets (bees) [Fan-wiki early; Unverified]",
-  "impact_end_result": "Small repeated hits; when destroyed, 'after two seconds of smoking, it will vanish'; immune to status effects, blind to cloaked or disguised players [Fan-wiki]",
+  "firing_and_projectile": "2-3 s setup; 'cannot turn', 100-degree fixed cone, unlimited shots at 0.25 s, 1,800 u range in the page text, one target at a time, not fully accurate [Fan-wiki]. In 2013 a thin hot-pink/magenta streak (#F1ADE1, pale core) runs along the floor to an enemy, with a placed Turret the only visible shooter on that side (KBbEgOLyYGM maxres1); in 2022, with the Turret selected at 0/2, violet-white zap streaks strike an enemy (Udgrwl8KCpc maxres2) [Observed, per graham.addendum.md, Turret]; that they are its bullets is [Inference], in line with the 2012 wiki's 'the same bullets as the Electric Honey' [Fan-wiki early]",
+  "impact_end_result": "Small repeated hits: small pink-magenta hits with pale-yellow star pops [Observed; attribution Inference, per graham.addendum.md]; when destroyed, 'after two seconds of smoking, it will vanish'; immune to status effects, blind to cloaked or disguised players [Fan-wiki]",
   "confidence": "partial"
  },
  {
@@ -1795,8 +1795,8 @@
   "slot": "secondary",
   "status": "Out by Oct 31, 2014 (fan clip published that day); probably BBG 2.13 [Inference]; level 15, 150,000 Joules [Fan-wiki]",
   "look": "Glossy magenta-purple sphere (#A734AE) with a lighter spiral swirl and a white highlight, held on his right palm, about 0.25 H [Observed: File:BlackHole.jpg; 7gdfSoWC2ZI thumbnails]",
-  "firing_and_projectile": "'The user throws the projectile' [Fan-wiki early]; 1,000 u/s, 1 ammo, 2.5 s rate [Fan-wiki]. In-flight look [Unverified]",
-  "impact_end_result": "Slows all opponents in its AoE by 65% for 4 s at about 30 DPS; suicide possible [Fan-wiki]. Field look [Unverified]; a fan kill frame shows chunks in a teal glow [Observed; link Unverified]",
+  "firing_and_projectile": "'The user throws the projectile' [Fan-wiki early]; 1,000 u/s, 1 ammo, 2.5 s rate [Fan-wiki]; HUD 1/1, then 0/1 [Observed]. In flight: a small glowing magenta-pink ball with a white-pink core (#D67DBB; core #FBC6F6) (KM6WsYQopGc maxres1, May 2015) [Observed, per graham.addendum.md, Black Hole; that it is the thrown orb is Inference]",
+  "impact_end_result": "Slows all opponents in its AoE by 65% for 4 s at about 30 DPS; suicide possible [Fan-wiki]. Field: the glossy orb (#902F81) hangs in mid-air inside a large, soft, glowing green sphere (#2FDE7E) that brightens to cyan at its core (#39FED2), about 8-10x the orb's diameter, with no visible vortex (1NKJnLmnDJg maxres1, May 2015) [Observed, per graham.addendum.md, Black Hole]. A kill frame (7gdfSoWC2ZI maxres3, Oct 2014) shows the victim breaking into chunks inside a teal-green glow with a small yellow Z among them [Observed, low-res; that the glow is the field and the Z the Slowed icon is Inference]",
   "confidence": "partial"
  },
  {
@@ -1804,9 +1804,9 @@
   "owner": "Graham (Engineer)",
   "slot": "secondary",
   "status": "Added as Slow Field in BBG 2.6 (Dec 20, 2013), 50,000 Joules; renamed with new text about Oct 2, 2014 (probably 2.12) [Fan-wiki revisions; Inference]; 2026 name [Unverified]",
-  "look": "Dark-brown sphere (#2D170C) netted with glowing lime lines (#33F247) in pentagon/hex cells, with purple spiky knobs (#801C7D) at the nodes; held in his right hand, about 0.27 H; pink-magenta glow on the Grahamzilla banner [Observed: File:Slowfield.png, File:Grahamzillabundle.png]",
-  "firing_and_projectile": "'firing a prickly purple-green ball in an arc' [Fan-wiki]; 1 ammo, 2.5 s rate",
-  "impact_end_result": "Detonates on a surface into 'a medium-sized force field' that slows opponents 75% for 3 s with no damage (2013: 50% for 5 s) [Fan-wiki]; slowed players show a yellow Z [Fan-wiki]. Field look [Unverified]",
+  "look": "Dark-brown sphere (#2D170C) netted with glowing lime lines (#33F247) in pentagon/hex cells, with purple spiky knobs (#801C7D) at the nodes; held in his right hand, about 0.27 H; pink-magenta glow on the Grahamzilla banner [Observed: File:Slowfield.png, File:Grahamzillabundle.png]. In play (2018), thrown balls hang in mid-air at head height: dark-maroon body (#411E25), bright lime lattice, magenta-purple knobs (#8A3480), about head-sized [Observed: 8uufYQrJs6A maxres1-3, per graham.addendum.md, Bind Field]",
+  "firing_and_projectile": "'firing a prickly purple-green ball in an arc' [Fan-wiki]; 1 ammo, 2.5 s rate [Fan-wiki]; the HUD reads 1/2 in 2018 [Observed, per graham.addendum.md], against the infobox's 1",
+  "impact_end_result": "Detonates on a surface into 'a medium-sized force field' that slows opponents 75% for 3 s with no damage (2013: 50% for 5 s) [Fan-wiki]; slowed players show a yellow Z [Fan-wiki]. No distinct dome is visible in the 2018 frames; a lavender-purple wash over the whole view (8uufYQrJs6A maxres2) may be the camera inside a field [Observed; that it is the field is Unverified; per graham.addendum.md]",
   "confidence": "partial"
  },
  {
@@ -1815,8 +1815,8 @@
   "slot": "secondary",
   "status": "BBG 2.5 (Nov 27, 2013); 75,000 Joules [Fan-wiki]",
   "look": "Purple fuel-rod canister (#65286E to #7B337E) with a lime chevron stripe (#79F447), a green trefoil decal and an end cap of glowing green hex vents; held level at the waist in both hands, about 0.4 H [Observed: File:Radiation_Rod.png, File:Grahamzillabundle.png]",
-  "firing_and_projectile": "Placed, not fired: 'a placeable nuclear fuel rod'; 5 rods, 1 s apart, 10 s duration [Fan-wiki]",
-  "impact_end_result": "'creates a glowing radiation field' irradiating at 60/s, the fastest radiation weapon; blocks Sniper lock-ons; Graham is immune to his own radiation but not to the blast [Fan-wiki]. Field colour and radius [Unverified]",
+  "firing_and_projectile": "Placed, not fired: 'a placeable nuclear fuel rod'; 5 rods, 1 s apart, 10 s duration [Fan-wiki]. The HUD clip reads 2/2 to 0/2 in Nov 2013-Jan 2014 (3/3 in two videos, probably with Ammo +1), against the infobox's 5 [Observed, per graham.addendum.md, Radiation Rod; Fan-wiki]. In play it is held low at his right [Observed: UMf7lK8XzFo maxresdefault]",
+  "impact_end_result": "'creates a glowing radiation field' irradiating at 60/s, the fastest radiation weapon; blocks Sniper lock-ons; Graham is immune to his own radiation but not to the blast [Fan-wiki]. In the one frame (9cVbS04AWyo sd2, Jan 2, 2014): a translucent green-to-cyan glow (#3EB65C, highlights #86D9B8-#8AF8E5) with slanted lime light shafts envelops the target, about one bear-height in radius, with an early-stage radiation disc over it [Observed, per graham.addendum.md, Radiation Rod; that the glow is the Rod's field is Inference, strong]. Dome or column shape, and exact radius [Unverified]",
   "confidence": "partial"
  },
  {
@@ -1825,8 +1825,8 @@
   "slot": "secondary",
   "status": "BBG 2.51 (Apr 13, 2018); 400,000 Joules [Fan-wiki]",
   "look": "Red dragon head (#CA0101) with green eyes, white teeth, horns and small red wings, and a long silver double-edged blade from its mouth; held at the hip pointing down-forward, about 0.6 H; the 2018 render has black outlines [Observed: File:DragonSlayzer(BBG).jpeg]",
-  "firing_and_projectile": "BBG infobox: projectile 800 u/s, damage 35, explosives 10-20, 4 ammo, an unnamed 4 s 'Duration' [Fan-wiki]. What it fires in BBG [Unverified]; BBO's version fires an 'orange blast' laser [Fan-wiki, other game]",
-  "impact_end_result": "Unknown in BBG [Unverified]",
+  "firing_and_projectile": "BBG infobox: projectile 800 u/s, damage 35, explosives 10-20, 4 ammo, an unnamed 4 s 'Duration' [Fan-wiki]. In 2018 fan footage the clip is 3 (3/3 to 0/3), and a small white glow with a pink-violet flare shows at the dragon's mouth (EuYnY6WyI-8 maxres1) [Observed, per graham.addendum.md, Dragon Slayzer (BBG)]. The shot in flight is unseen [Unverified]; BBO's version fires an 'orange blast' laser [Fan-wiki, other game]",
+  "impact_end_result": "Big yellow fireballs and flame bursts with orange tongues (core #FCFC77, edges #DFA741; #FDFD2A with orange #DA8B3D), one engulfing the crates ahead and one filling a distant doorway, with kills in the feed (dvL_S1yaUXE maxres2, EuYnY6WyI-8 maxres3, Apr 2018) [Observed, per graham.addendum.md, Dragon Slayzer (BBG); that they are Dragon Slayzer hits is Inference, strong]",
   "confidence": "partial"
  },
  {
@@ -2195,8 +2195,8 @@
   "slot": "Secondary (default)",
   "status": "Default since BBR v1.0. HUD 1 (2013), 3 (Mar 2014), 4 (Aug 2014; Jul 2015 with Ammo +2). Named on Steam 2026; seen in the Steam trailer (2013 footage [Inference, strong]).",
   "look": "Coral hex shoulder tube with glowing orange panels and grey hex collars. The muzzle end has a pink hex cap around a dark bore, with a grey-coral checker band right behind the cap. About 0.7x long.",
-  "firing_and_projectile": "Launch: a burst of round grey smoke puffs and a dotted grey puff trail (2015). Steam-trailer rocket (2013 footage): grey hex nose, glowing orange panels (~#FFAF0E), red-studded rear collar, spiky orange flame tail (Bearzooka link inferred).",
-  "impact_end_result": "Steam trailer (2013 footage): a faceted orange-yellow, white-edged blast, then a soft yellow fireball (~#FFE01E) that flings the target upward (cause inferred). 2015: grey puff cloud downrange. Self-damage documented ('very prone to suicide').",
+  "firing_and_projectile": "Launch: a burst of round grey smoke puffs and a dotted grey puff trail (2015). Steam-trailer rocket (2013 footage), in flight 1.92-3.05 s: grey hex nose, glowing orange panels (~#FFAF0E), red-studded rear collar, spiky orange flame tail; it leaves the frame without detonating (Bearzooka link Inference, high).",
+  "impact_end_result": "2014-15 fan footage: a faceted yellow polygon blast with a grey or dark-grey smoke ball (Bearzooka link Inference, high). The Steam trailer (2013 footage) shows no Bearzooka blast: the rocket passes under the B-1000 and leaves the frame undetonated, and its yellow fireball centres on his own jet leap (that the jet is its source is Inference) (shared.addendum.md, round 3). 2015: grey puff cloud downrange. Self-damage documented ('very prone to suicide').",
   "confidence": "observed"
  },
  {
@@ -2295,8 +2295,8 @@
   "slot": "Secondary (default)",
   "status": "Default since BBR v1.0. HUD 1 (2013), 3 (Mar 2014), 2 in SkyVu's overhaul (Apr 2014), 4 with Ammo+2 (2014-15). Named on Steam 2026; in the Steam trailer (2013 footage [Inference, strong]); in the 2026 playtest (stats ~60 explosives / 250 AoE / 1.5 cooldown / 2.5 reload).",
   "look": "Coral hex shoulder tube (~#9F5D5E) with glowing orange-yellow panels. Pink hex muzzle cap around a dark bore, checker band behind the cap. About 0.6-0.7x. Same design 2013-2026; NOT the green hazard-striped BB Zombies tube.",
-  "firing_and_projectile": "Launch: round grey smoke puffs and a dotted grey puff trail. Rocket (Steam trailer, 2013 footage; link inferred): grey hex nose, glowing orange and yellow square panels, grey collar and fin, spiky orange-yellow flame tail.",
-  "impact_end_result": "A faceted yellow polygon blast (~#F7E04F-#F8EB6F) with a grey or dark-grey smoke ball (2014-15). Steam trailer (2013 footage): white-edged orange blast, then a soft yellow fireball that flings the target. Easy to kill yourself (2026 class card).",
+  "firing_and_projectile": "Launch: round grey smoke puffs and a dotted grey puff trail. Rocket (Steam trailer, 2013 footage, 1.92-3.05 s; Bearzooka link Inference, high): grey hex nose, glowing orange and yellow square panels, grey collar and fin, spiky orange-yellow flame tail; it leaves the frame without detonating.",
+  "impact_end_result": "A faceted yellow polygon blast (~#F7E04F-#F8EB6F) with a grey or dark-grey smoke ball (2014-15 fan footage; Bearzooka link Inference, high). No official media show the blast: the Steam trailer rocket (2013 footage) leaves the frame undetonated, and the trailer's yellow fireball centres on the B-1000's own jet leap, not a Bearzooka hit (that the jet is its source is Inference; shared.addendum.md, round 3). Easy to kill yourself (2026 class card).",
   "confidence": "observed"
  },
  {
@@ -2475,8 +2475,8 @@
   "slot": "secondary",
   "status": "Default since BBR v1.0; named in 2026 Steam copy; BBH Ultimate [Canon]; seen in the Steam trailer (2013 footage [Inference, strong]); held in the 2026 tutorial and playtest [Observed, fan footage]; a launcher of the same design shouldered on SkyVu's official Jul 6, 2026 'Classic Oliver' card (byri_kQBUS4 oar1) [Observed; that it is the Bearzooka, Inference]",
   "look": "Coral-red hex tube (#A44D4E 2013 photo, #DB6251 Steam trailer) with glowing orange panels, grey collars, flared muzzle with grey checker band; same coral tube and orange panels in 2026 fan footage; SkyVu's Jul 6, 2026 'Classic Oliver' card shows the coral-red tube, orange panels, grey band and grey-checkered flared muzzle (2026 art [Inference]; in-game render [Unverified]); NOT the green BBZ tube [Observed]",
-  "firing_and_projectile": "1 rocket (two-shot text conflict), 1,000 u/s [Fan-wiki]; rocket model unseen",
-  "impact_end_result": "AoE blast, 'very prone to suicide' [Fan-wiki]; explosion style from generic frames [Inference]",
+  "firing_and_projectile": "1 rocket (two-shot text conflict), 1,000 u/s [Fan-wiki]; Steam trailer rocket 1.92-3.05 s (2013 footage [Inference, strong]): grey stepped hex nose, glowing yellow-orange checker panels, maroon tail with pink-red lights, spiky orange flame shards, white puff trail; it leaves the frame without detonating [Observed, per shared.md; Bearzooka link Inference, high]; no 2026 frame shows the rocket [Unverified for 2026]",
+  "impact_end_result": "AoE blast, 'very prone to suicide' [Fan-wiki]; 2014-15 fan footage (low-res storyboard frames): a faceted yellow polygon blast with a grey or dark-grey smoke ball (7WSXU2LaxYo t=56 s; 0ZbJ0-Za5Ws t=38 s) [Observed, per oliver.addendum.md; Bearzooka link Inference, high]; no official or 2026 frame shows the blast",
   "confidence": "partial"
  },
  {
@@ -3606,7 +3606,7 @@
   "status": "Default since BBR v1.0 [Fan-wiki]; in BBG; named in SkyVu's 2026 Steam text; rocket seen in the official Steam trailer (2013 footage [Inference, strong]); no 2026 frame shows the rocket",
   "look": "Coral-salmon hex tube (~#E36F61-#E7725F) with glowing orange chevron panels (~#FFA82F), grey collars and a grey-checkered flared end, carried on the shoulder [Observed: Steam trailer, 2013 footage (Inference, strong); the same design is on SkyVu's Jul 6 2026 'Classic Oliver' card]",
   "firing_and_projectile": "Launch: white smoke burst with an orange core (trailer 1.92 s). Rocket: grey stepped hex nose, glowing yellow/orange checker panels in chevron bands (#FFE300/#FFA400), grey collars and flared skirt, maroon tail with pink-red square lights, spiky orange-yellow flame shards, white puffs trailing at range; straight flight (trailer 1.92-3.05 s) [Observed]. The Bearzooka link is an Inference (high). Stats: 1.5 s rate of fire, 1,000 u/s [Fan-wiki]",
-  "impact_end_result": "Not shown in official media: the trailer rocket leaves the frame without detonating [Observed]. Blast look Unverified. 2015 fan footage shows grey smoke puffs downrange. AoE 125/250 units and self-damage ('very prone to suicide') [Fan-wiki]. The trailer's 2.69-3.05 s flame is the B-1000's Metal Crush jet, not a Bearzooka blast.",
+  "impact_end_result": "Not shown in official media: the trailer rocket leaves the frame without detonating [Observed]. Seen only in low-res 2014-15 fan footage: a faceted yellow polygon blast with a grey or dark-grey smoke ball (7WSXU2LaxYo t=56 s; 0ZbJ0-Za5Ws t=38 s) [Observed, per oliver.addendum.md; Bearzooka link Inference, high]; no 2026 frame shows it. 2015 fan footage also shows grey smoke puffs downrange after a shot. AoE 125/250 units and self-damage ('very prone to suicide') [Fan-wiki]. The trailer's 2.69-3.05 s flame is the B-1000's Metal Crush jet, not a Bearzooka blast.",
   "confidence": "partial"
  },
  {
@@ -3786,7 +3786,7 @@
   "status": "Franchise weapon; BBR to BBG; in the Steam trailer at 3.89-4.59 s, its rocket at 1.92-3.05 s (2013 footage [Inference, strong]; the rocket's Bearzooka link is [Inference, high]); named on the 2026 Steam page [Canon] and seen in SkyVu's Jul 6 2026 'Classic Oliver' short [Observed]",
   "look": "Coral-red tube (#A54447 in the April 2013 shop shot / #D05655 in the Steam trailer's 2013 footage) with a row of glowing orange window panels (#EB7921-#FEA53C; rectangular on the April 2013 BBR model, chevron-like in the trailer footage and on the 2026 'Classic Oliver' card), grey bands, black bore, flared muzzle end that is grey-and-red checkered in the trailer footage and on the 2026 card; on the right shoulder, ~0.8x Oliver [Observed]",
   "firing_and_projectile": "One rocket per shot, 1,000 u/s, rate of fire 1.5 s, reload 2.5 s; ammo 1 (infobox, 2013 HUD) vs 'two shots' (prose) [Fan-wiki; Observed]; in the Steam trailer (2013 footage [Inference, strong]) a distant green-furred Soldier fires one rocket at 1.92 s with a white smoke burst with an orange core; the rocket has a grey stepped hex nose, glowing yellow/orange checker panels in chevron bands, grey collars and a flared skirt, a maroon tail with pink-red square lights and spiky orange-yellow flame shards, trails white puffs at range, and flies past the camera until 3.05 s [Observed]; that it is the Bearzooka's rocket is [Inference, high]",
-  "impact_end_result": "Explosion 40-60 with 125/250 splash; 'very prone to suicide' [Fan-wiki]; blast look unknown: the Steam trailer rocket (2013 footage [Inference, strong]) leaves the frame at 3.05 s without detonating, and the trailer's 4.5 s flash is B-1000's entrance, not a Bearzooka blast [Observed]",
+  "impact_end_result": "Explosion 40-60 with 125/250 splash; 'very prone to suicide' [Fan-wiki]; 2014-15 fan footage only (storyboard frames, low-res): a big faceted yellow polygon blast (~#F8EB6F) with a grey smoke puff (7WSXU2LaxYo, Mar 10 2014, t=56 s) and a faceted yellow blast (~#F7E04F) beside a dark-grey smoke cloud (0ZbJ0-Za5Ws, Jul 25 2015, t=38 s) [Observed, per oliver.addendum.md; Bearzooka link Inference, high]; no official media shows the blast: the Steam trailer rocket (2013 footage [Inference, strong]) leaves the frame at 3.05 s without detonating, and the trailer's 4.5 s flash is B-1000's entrance, not a Bearzooka blast [Observed]; no 2026 frame shows it [Unverified for 2026]",
   "confidence": "observed"
  },
  {

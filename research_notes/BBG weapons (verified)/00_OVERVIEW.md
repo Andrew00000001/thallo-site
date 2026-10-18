@@ -122,7 +122,7 @@ The `combat-vfx` dossier holds the full evidence. Gap-pass upgrades are folded i
 | White electric dome | Light Matter: white sphere wrapped in cyan lightning [Observed] |
 | Black electric sphere | Dark Matter: opaque black sphere in cyan lightning [Observed, BBR 2012] |
 | Coloured crystal or energy domes | Happy Hour (magenta crystal cone and ring), Cosmic Bomb (green sphere), Gravity Well (lime half-dome), Pain Field (magenta hex dome, not an explosion), Losing Your Head and Blow Dart (cyan) [Observed; some attribution Inference] |
-| Soft fireball with dark smoke | Big Shot, Dragon Slayzer, Pie Bomb, Carpet Bomb [Observed] |
+| Soft fireball with dark smoke | Pie Bomb, Carpet Bomb [Observed]; Dragon Slayzer (big yellow-orange fire bursts in 2018 fan footage, no smoke noted; that they are its hits is [Inference, strong], per graham.addendum.md). The Big Shot is not an observed example: its only candidate, the yellow-orange glow on Wil in the Steam trailer at about 19.5–20.4 s (2013 footage [Inference, strong]), is contested and may be Wil's own Batterito fire (tillman.md, Big Shot; 2026.md, Big Shot). |
 | Columns and scatters | Blast-O-Mole (a marching row of flame pillars), Fireworks (scattered orange fire puffs with spark flecks), Metal Crush (light column, then nested orange octagonal rings) [Observed] |
 | Smoke | White or grey faceted puffs; Phat Man adds a white faceted mushroom cloud [Observed]. Shorts use no mushroom framing; see 3.5. |
 

@@ -160,7 +160,7 @@ This is the edited version of the draft. I applied the source check and the imag
 - **Impact / end result:**
   - At the death site, "Three [Joules pickups] are dropped… and disappear after 10 seconds" [Fan-wiki: Pick-Ups; Joules]. This arrived as "Kill confirm Joule drops" in BBG v2.1, July 15, 2013 [Fan-wiki: Versions].
   - How long corpses stay in general is [Unverified]; one trailer corpse lasted about 3 s.
-  - Separately, Wil is hurled through fire with his limbs splayed, screaming, still intact. Whether that blast killed him is [Unverified] [Observed: trailer 19.5–21.5 s; C2/sheets2/wf.jpg].
+  - Separately, Wil moves through fire with his limbs splayed and his feet often off the floor, still intact [Observed: trailer 19.5–21.5 s; C2/sheets2/wf.jpg]. Whether he runs or is hurled is unclear: frames at 0.1 s steps show him just after eating a Batterito, so the fire may be his own (2026.md, trailer table; tillman.md, Big Shot) [Observed; Inference]. Whether it killed him is [Unverified]. (Oct 18 review: this replaced "Wil is hurled through fire … screaming".)
 - **Images viewed:**
   - draft: `C/sheets/seq_tl.jpg`; `C/sheets/tl_zoom.jpg`; `C/sheets/seq_as.jpg`; `C/sheets/seq_sh.jpg`; `C/sheets/seq_wl.jpg`; `W/visuals/trailer/t_0066.jpg`; `C/png/A_life_upside_down.png`
   - check: `C2/sheets2/fz.jpg`, `tb3.jpg`, `tf4.jpg`, `te1.jpg`; `C2/crops2/alu_kf.png`, `alu_h.png`
