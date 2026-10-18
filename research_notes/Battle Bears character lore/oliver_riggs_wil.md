@@ -315,7 +315,8 @@ Sources for the table:
   - First: posted 2026-07-06, "this Thursday."
   - Second: posted 2026-07-28, covering "Controller Support (gameplay only for now)" and "An experimental new gamemode."
   - Third: Friday 21 August, covering "Auto matchmaking / New Map: Sky World."
-  - Fourth: Sunday 20 September. — [Steam News API for app 4408320](https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=4408320&count=30&maxlength=0&format=json)
+  - Fourth: Sunday 20 September.
+  - Fifth: posted 2026-10-14, "The next and final BATTLE BEARS GOLD playtest," on Thursday 15 October, available on "Windows, iOS and Android," with the headline additions "Custom keybinds," "Jukebox," "UI controller support," "Lighting improvements" and "Lots of bug fixes." — [Steam News API for app 4408320](https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=4408320&count=30&maxlength=0&format=json)
 - From YouTube descriptions:
   - "BBG LAUNCHES NOV 4 on Steam & Mobile with new stuff! SIGN UP & WISHLIST for a Limited Zombie Skin Reward… Old accounts are good! Sign up to get your Legacy Skin Reward" (teaser, 2026-10-02)
   - "Battle Bears Gold 2026 - Sky Pirates Map Reveal" (2026-08-31; description: "Gameplay highlights from the new Sky Pirates map!")
@@ -585,3 +586,4 @@ Each was re-checked against its source before editing: the wiki API, the Steam a
 2. ABBi's lenses: File:ABBi.png shows the lower rim reading "Warning: Exposure to fat evokes sarcasm," not the wiki's "may evoke." "Property of the Battle Bears" is not visible and stays wiki-only.
 3. Sky World / Sky Pirates: SkyVu's Short "Sky Pirates in BBG!" (CwxpBZg6Fi4, Sep 7, 2026) pairs the two names, so "no source says so" was wrong. The identity is now a strong [INFERENCE], and the map's Overclock origin is [WIKI].
 4. Tutorial: the full wiki kit is now listed. The Steam copy never mentions the Tutorial (no "tutorial" anywhere in the appdetails, re-fetched 2026-10-18), so "Corroborated by the Steam copy" was withdrawn and the link is now my [INFERENCE].
+5. Playtests: the list of Discord playtest announcements stopped at the fourth. The Steam News API (re-fetched 2026-10-18) has a fifth post, dated 2026-10-14, for "The next and final" playtest on Oct 15, so five playtests were announced, not four. Added as the fifth entry.

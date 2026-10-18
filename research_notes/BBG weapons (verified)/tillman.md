@@ -72,7 +72,7 @@ The 2D art differs. It shows a white body, black eye patches, a teal pack, a tea
 - I attributed the Phat Man bundle promo to BBF (Bundle Deals page).
 - I added four pieces of trailer and screen evidence:
   - a probable Big Shot fireball at about 19.9–20.4 s;
-  - a nuke dive, flash and faceted cloud sequence at 49.6–51.6 s, plus Steam screen_02;
+  - a nuke dive, flash and faceted cloud sequence at about 49.5–51.75 s, plus Steam screen_02;
   - Happy Hour rising before it dives;
   - the masked red-and-black Tillman standing behind the Phat Man in Steam screen_04.
 - I added BBH dates and BBO and BBF details.
@@ -329,7 +329,7 @@ The 2D art differs. It shows a white body, black eye patches, a teal pack, a tea
 - **Impact / end result:**
   - A mushroom cloud of translucent white-grey faceted puffs [Observed: VF/img/png_Duo.png; caption "Piece Maker's mushroom cloud in comparison to the Phat Man's"].
   - A hot yellow-white ground flash under a translucent white faceted cloud, inside the Marecraft [Observed: VF/img/png_Multiple_Piece_Makers.png; identified only by the file title].
-  - Trailer at 49.6–51.6 s: a long yellow streak dives into the space-station deck, then a white starburst flash, then yellow-white faceted puffs with a glowing white octagonal floor ring and a rising grey faceted cloud [Observed: VF/crops/overhead.png, V/trailer t_0100–t_0104; Steam screen_02 shows the same moment]. This is a Demo nuke (Piece Maker or Phat Man) [Inference].
+  - Trailer at about 49.5–51.75 s (including the dissolves in and out): a long yellow streak dives into the deck of the Shortest Parsec station, then a white starburst flash, then yellow-white faceted puffs with a glowing white octagonal floor ring and a rising grey faceted cloud [Observed: VF/crops/overhead.png, V/trailer t_0100–t_0104; Steam screen_02 shows the same moment; shot edges from the maps research frames f_49.25 (still Sky View) to f_52.00 (Gold Digger) in /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/shortest_parsec_verify/frames/, map ID from that research]. This is a Demo nuke (Piece Maker or Phat Man) [Inference].
   - AoE 225/550 [Fan-wiki].
 - **Images viewed:** VF/img/png_PeaceMaker.png, png_Piece_maker.png (VF/crops/nukes_hold.png); VF/crops/updown.png (Up1, Down1, Up2, Down2, Incoming piece maker, Phat Man Incoming); VF/img/png_Incoming_piece_maker.png; VF/crops/duo_multi.png; VF/crops/overhead.png; VF/crops/steam_sheet.png.
 - **Depiction for shorts:** the rainbow "peace" missile launches on a yellow flame streak, arcs low and dives. It lands with a white-yellow flash, a floor ring and a puffy white faceted mushroom cloud [Observed]. Characters come out sooty, not hurt [BBG News invention].
@@ -518,7 +518,7 @@ The 2D art differs. It shows a white body, black eye patches, a teal pack, a tea
 - **Blast O Mole placement.** Why is it listed under "Graham Changes:" in the official 2.6 log?
 - **Twin Bearzookas.** There is no official in-game description, and the BB Zero origin is unconfirmed. When did the clip drop from 4 (release-week fan thumbnails) to 3?
 - **Trailer magenta sphere (14–16 s).** Is it Astoria's Fairy's Dust or a Dark Matter blind sphere?
-- **Overhead nuke (49.6–51.6 s; Steam screen_02).** Is it a Piece Maker or a Phat Man?
+- **Overhead nuke (49.5–51.75 s; Steam screen_02).** Is it a Piece Maker or a Phat Man?
 - **Phat Man climb.** Is the official "Ascend time … 10" in seconds?
 - **"Hacker" screenshots.** Do File:Infinite Light Matter hacker.png and File:Phat Man hacker.png show cheating clients?
 - **Bouncing Betty removal.** What were the exact removal version and date?

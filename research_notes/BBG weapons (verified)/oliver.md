@@ -7,13 +7,13 @@ Oliver is the Soldier class in Battle Bears Gold. SkyVu's Steam copy lists him a
 The 2026 Steam copy also promises "80+ PRIMARY WEAPONS", "60+ SECONDARY WEAPONS", "50+ MELEES" and "10 SPECIAL EQUIPMENT" [Canon]. None of SkyVu's 7 Steam news posts (Feb 24 to Oct 14, 2026) gives a Soldier weapon list, stat change or price [Canon, absence re-checked today].
 
 **Sources I reached today, all re-fetched or re-downloaded by me:**
-- Fan wiki through the MediaWiki API: all 21 weapon pages, Soldier (BBG) and its /Weapons and /Skins subpages, Template:Class:Soldier (BBG), Battle Bears Gold/Versions, Status Effects, Bearzooka, Spreadshot, Night Bear, Turkish SW Boots and Template:WeaponLI. I also read MediaWiki:Common.css through the API, which gives the weapon-icon sprite offsets.
+- Fan wiki through the MediaWiki API: all 21 weapon pages, Soldier (BBG) and its /Weapons and /Skins subpages, Template:Class:Soldier (BBG), Battle Bears Gold/Versions, Status Effects, Bearzooka, Spreadshot, Night Bear, Turkish SW Boots, Template:WeaponLI and, for the trailer-rifle setting, Marecraft (Map). I also read MediaWiki:Common.css through the API, which gives the weapon-icon sprite offsets.
 - About 100 wiki File: images, re-downloaded from static.wikia.nocookie.net. These include the wiki-hosted video thumbnails and the video metadata (YouTube IDs, upload dates, durations).
 - Steam appdetails, the Steam news API and the Steam clan banners.
 - battlebears.com/pages/characters.
 - i.ytimg.com thumbnails for 21 videos.
 - YouTube oEmbed titles.
-- SkyVu's official Steam trailer. I extracted my own frames at 8 to 10 fps for 3.6–6.0 s and 37.9–43.1 s.
+- SkyVu's official Steam trailer. I extracted my own frames at 8 to 10 fps for 3.6–6.0 s and 37.9–43.1 s. For the Marecraft shot I also took single frames at 38.0–38.4 s and 41.4–41.6 s, and every frame (30 fps) at 38.29–41.05 s.
 
 **Blocked today.**
 - web.archive.org: connection reset.
@@ -242,14 +242,14 @@ Hex values are medians I sampled with Python from the named image. They were tak
   - The bear is gold with swirl engravings and red eyes, matching File:Gold_Oliver.jpg [Observed match]. The Gold Bundle skin is listed at 1,710 Gas, BBR v1.4 [Fan-wiki].
   - On the Oliver class card (41.5–42.75 s), he holds a silver-grey blocky gun with a dark-grey angular upper block, next to an emblem of three silver cartridges and the word "SOLDIER" [Observed, [F]/crops/card_422_half.jpg].
 - **Firing / projectile:**
-  - From about 39.4 to 41.0 s, a **thin, straight violet line (about #9539F8)** runs from the gold bear's gun across the arena [Observed, [F]/crops/tr_violet.jpg, [F]/crops/tr_kill.jpg; frames [F]/tr4/m_01–m_18 at about 39.3–41.0 s].
-  - Earlier (about 39.3 s), an Engineer-type bear (orange hard hat, teal box backpack) points an orange gear-shaped device at the gold bear, and yellow concentric rings flash around the gold bear's head [Observed].
+  - From the second frame of the Marecraft shot (about 38.3 s; the shot's first frame has no line) to about 40.8 s, a **thin, straight violet line (about #9539F8)** runs from the gold bear's gun across the arena. It blinks rather than holding steady: at 30 fps it is mostly on for two frames and off for two, with longer gaps at about 39.1–39.3 s and 40.2–40.4 s [Observed, [F]/crops/tr_violet.jpg, [F]/crops/tr_kill.jpg; frames [F]/tr4/m_01–m_18 at about 39.3–41.0 s; my 30 fps frames at 38.29–41.05 s].
+  - At about 39.3 s, an Engineer-type bear (orange hard hat, teal box backpack) points an orange gear-shaped device at the gold bear, and yellow concentric rings flash around the gold bear's head [Observed].
 - **Impact / end result:**
   - The Engineer-type bear falls flat by about 40.4 s.
   - A blue bear with a large purple-glowing back shield flashes white-blue while the line crosses it, then lies face-down by about 41.2 s.
   - Both fall whole, with no breakup [Observed].
   - That the violet line is this gun's shot, not just a tracer, is an [Inference, medium]. That the gun is the Sci-Fi HASR, because of its silver body and dark loop, is an [Inference, low-medium]. A new 2026 weapon is also possible [Unverified].
-- **Images viewed:** [F]/crops/tr_gun3.jpg; [F]/crops/tr_violet.jpg; [F]/crops/tr_kill.jpg; [F]/crops/tr_purple.jpg; [F]/crops/card_422_half.jpg; [V]/trailer/t_0077–t_0087; [F]/png/Gold_Oliver.png; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/aztec_attack_verify/trailer/interior.jpg (f_39.0, f_39.6, f_40.6); /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/marecraft/png/img_Aaaaa.png and img_Imagefbvhiqhb.png; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/oliver_chk/sheet.jpg (my frames at 38.0, 38.2, 38.27, 38.33, 38.4, 41.4, 41.5 and 41.6 s).
+- **Images viewed:** [F]/crops/tr_gun3.jpg; [F]/crops/tr_violet.jpg; [F]/crops/tr_kill.jpg; [F]/crops/tr_purple.jpg; [F]/crops/card_422_half.jpg; [V]/trailer/t_0077–t_0087; [F]/png/Gold_Oliver.png; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/aztec_attack_verify/trailer/interior.jpg (f_39.0, f_39.6, f_40.6); /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/maps/dl/marecraft/png/img_Aaaaa.png and img_Imagefbvhiqhb.png; /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/oliver_chk/sheet.jpg (my frames at 38.0, 38.2, 38.27, 38.33, 38.4, 41.4, 41.5 and 41.6 s); /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/oliver_edit/violet_sheet.jpg (my frames at 38.33–39.27 s, from /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons/visuals/trailer.mp4); /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/oliver_rev/line30_a.jpg and /tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/oliver_rev/line30_b.jpg (every frame at 38.29–41.05 s, 30 fps, from the same trailer.mp4).
 - **Depiction for shorts:** If you reuse this moment, the documented beats are a thin violet line, a white-blue hit flash and the opponent dropping flat. Do not caption the gun's name.
 - **Confidence:** partial.
 

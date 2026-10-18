@@ -15,6 +15,7 @@
 - The local official Steam trailer and the five Steam screenshots.
 - battlebears.com/pages/characters, the plush product page and its product images.
 - YouTube oEmbed titles and thumbnails. YouTube video playback is blocked here, so I watched no video, only thumbnails.
+- Added 2026-10-18 for the So Fly Easter-egg note, from the verified maps research: the fan-wiki Shortest Parsec page, its revision history and revisions 32589, 64712 and 66693.
 
 **Sources not reached.**
 - web.archive.org reset the connection three times through curl, and WebFetch refused it.
@@ -855,6 +856,7 @@ Neither is confirmed: the Huggable does not visibly vanish or shrink before the 
     - The Gear Up card era is corrected to "BBR, by Oct 2012".
 13. **Team banner.** The red banner with three pale symbols is observed in both 2013 and 2026. This reverses the draft's character-file correction #3.
 14. **Torn belly.** The wiki does call the wound "metalic". The draft wrongly called "metal" unverified.
+15. **So Fly, Shortest Parsec Easter egg (2026-10-18, from the verified maps research).** The class page's "only class that can reach" claim is now marked contested. It echoes map-page wording replaced on 2014-05-27 (rev 64712), and the current map page credits B-1000's Metal Crush as well as So Fly.
 
 ## Corrections for the character file (/home/user/thallo-site/bbg-news-repo/characters/huggable.md)
 
@@ -893,6 +895,7 @@ Neither is confirmed: the Huggable does not visibly vanish or shrink before the 
 - What do Double Rainbow!, Headlights, Static Shuffle, Losing Your Head, Mini Me, Peek A Boo, Super Size Me!, Phantom Hug and Charged Run look like in 3D in 2026? This needs gameplay frames. The JustNubz showcase Huggable chapter (14:16-17:44) is the best lead, but YouTube video is blocked here.
 - Which ability is the 2026 trailer's rainbow burst at 3.27-3.85 s: Peek A Boo or Mini Me activation, Double Rainbow!, or something else?
 - Are the 31.2-32.2 s starbursts Punk Bands kill FX, Happy Hour hits or edit FX? Is the 30.3-30.8 s flight definitely So Fly?
+- Shortest Parsec Easter egg: can only the Huggable reach it (the class page), or can B-1000's Metal Crush reach the red-base meteorite too (the map page since 2014, where some players also claim a Jump Boots double jump)? Is it still reachable in 2026?
 - Static Shuffle in-game: does the head come off (wiki) or does the neck stretch (card)?
 - Is the cyan-white wash in the LYH demo thumbnail hq3 the "bright blue blast"?
 - Is the 2013 heart stream in Dancing_Huggable.jpg Tough Love, as inferred, or a Double Rainbow glitch, as the uploader says?

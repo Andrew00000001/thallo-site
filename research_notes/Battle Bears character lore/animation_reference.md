@@ -3,11 +3,11 @@
 Labels used throughout:
 - **[OFFICIAL]**: live SkyVu/BattleCo text (battlebears.com, Steam, official YouTube titles and descriptions, the official Creator Program form).
 - **[OFFICIAL-ARCHIVED]**: SkyVu text that survives only in a Wayback capture.
-- **[OFFICIAL-FRAME]**: what I saw myself in an official image or video frame. This covers the Steam trailer (downloaded and frame-sampled), Steam screenshots, the official hero icons, and YouTube's auto-generated frames (`hqdefault`, `hq1`, `hq2`, `hq3`) of official uploads. The description is my observation; the image itself is official.
+- **[OFFICIAL-FRAME]**: what I saw myself in an official image or video frame. This covers the Steam trailer (downloaded and frame-sampled), Steam screenshots, the official hero icons, and YouTube's thumbnails and auto-generated frames (`hqdefault`, `hq1`, `hq2`, `hq3`, `maxresdefault`, and the Shorts frames `oar1`, `oar2`) of official uploads. The description is my observation; the image itself is official.
 - **[FAN-WIKI]**: battlebears.fandom.com.
 - **[FAN-UPLOAD]**: a YouTube video posted by a non-SkyVu channel.
 - **[PRESS]**: third-party press.
-- **[INFERENCE]**: my own reasoning.
+- **[INFERENCE]**: my own reasoning. **[INFERENCE, strong]** marks reasoning that the evidence comes close to proving, though no source states it.
 
 Method notes:
 - YouTube watch pages and the player API returned "Sign in to confirm you're not a bot", and the transcript API returned HTTP 400 "FAILED_PRECONDITION". I could not listen to or transcribe any video.
@@ -15,8 +15,8 @@ Method notes:
   - @BattleBears (UCwPClz0LJVpdkRjoidDZjEg)
   - @BattleBearsGame (UCXcfJ9HMyEvFdSkC8roUDDw)
   - @SkyVu (UC2uNjmvDfcXdPAOMfxQKLvA)
-- I downloaded the Steam trailer and sampled it at one frame per second.
-- I checked this on 2026-10-13/14.
+- I downloaded the Steam trailer and sampled it at one frame per second. For the 2026-10-18 maps corrections it was re-checked at two frames per second with scene-cut detection and full-resolution extracts, so the map timings in "In-game 3D and logo" are good to about ±0.5 s.
+- I checked this on 2026-10-13/14. The maps corrections were checked on 2026-10-18 (see the fact-check log).
 
 ## Q1. What does official SkyVu material say? (animated media, art style, music, voices, fan-content stance, art sources)
 
@@ -91,7 +91,7 @@ I found no evidence that a series was ever produced. [PRESS] A TV-series develop
 - [OFFICIAL] "BATTLE BEARS HEROES Official Trailer 4K" (Oct 4, 2024, 2:17) — [ihkXJS4Oatk](https://www.youtube.com/watch?v=ihkXJS4Oatk)
 - [OFFICIAL] "Season 3 is here - Jackson returns!" (Mar 5, 2025): "Play the new season now on Mobile, Epic Games, and Bluestacks!" — [KaS7rEIP1pU](https://www.youtube.com/watch?v=KaS7rEIP1pU). This is a BB Heroes season: an official short on the same channel is titled "Season 3 of #BattleBears Heroes has arrived!" ([lYhRbDXTVLg](https://www.youtube.com/shorts/lYhRbDXTVLg)).
 
-**2026 BBG re-release videos** (all on @BattleBears)
+**2026 BBG re-release videos** (all on @BattleBears except the Steam store trailer)
 - "Battle Bears Gold launches Nov 4, 2026 - Official Playtest Highlights" (Aug 16, 2026, 3:01): "Highlights from our first two Discord playtests" — [C7uFxvSZ10c](https://www.youtube.com/watch?v=C7uFxvSZ10c)
 - "Battle Bears Gold 2026 - Sky Pirates Map Reveal" (Aug 31, 2026, 2:01): "Gameplay highlights from the new Sky Pirates map!" — [r91WkR10W2A](https://www.youtube.com/watch?v=r91WkR10W2A)
 - "TEASER TRAILER - Battle Bears Gold Returns November 4th 2026" (Oct 2, 2026, 0:31): "BBG LAUNCHES NOV 4 on Steam & Mobile with new stuff! SIGN UP & WISHLIST for a Limited Zombie Skin Reward… Old accounts are good! Sign up to get your Legacy Skin Reward" — [d2ByJWrsoec](https://www.youtube.com/watch?v=d2ByJWrsoec)
@@ -100,7 +100,7 @@ I found no evidence that a series was ever produced. [PRESS] A TV-series develop
 - Shorts: "Never let them know your next move!" (Sep 17), "Sky Pirates in BBG!" (Sep 7; description: "Enjoy the highlights from our Sky World playtest!"), "BBG Maps Ranked part 1" (Oct 11). — [qp5cFGLojyw](https://www.youtube.com/shorts/qp5cFGLojyw), [CwxpBZg6Fi4](https://www.youtube.com/shorts/CwxpBZg6Fi4), [jkv6FHPghx8](https://www.youtube.com/shorts/jkv6FHPghx8)
   - [OFFICIAL-FRAME] "BBG Maps Ranked part 1" shows a 16-tile map grid that includes Frozen Pundra's icy cave ([oar1](https://i.ytimg.com/vi/jkv6FHPghx8/oar1.jpg)), then a tier list with rows "1-4", "5-8", "9-12" and "13-16", with Frozen Pundra in "13-16" ([oar2](https://i.ytimg.com/vi/jkv6FHPghx8/oar2.jpg)). Caveat: the same grid is the thumbnail of a [FAN-UPLOAD], Slinkster's "Battle Bears Gold Soundtrack: Frozen Pundra" ([wbA2-0AfJ7A maxresdefault](https://i.ytimg.com/vi/wbA2-0AfJ7A/maxresdefault.jpg)), and it has no Sky World tile, so it is not proof of the 2026 map roster [INFERENCE].
   - [OFFICIAL] "Playtest Highlights Part 2 #battlebears #battlebearsgold" (Aug 26, 2026): "Wishlist the game on Steam to help us build momentum!" — [SZZ38et45Xs](https://www.youtube.com/shorts/SZZ38et45Xs). [OFFICIAL-FRAME] Its [oar1](https://i.ytimg.com/vi/SZZ38et45Xs/oar1.jpg) frame shows 2026 playtest gameplay in an icy blue cave, with the 2026 HUD, a red-vs-blue "13 : 13" team score and the caption "INSTABLEGR". That the map is Frozen Pundra is [INFERENCE].
-- [OFFICIAL] Steam store trailer: "Battle Bears Gold Premium - Trailer". It is 54 seconds long, per the downloaded HLS stream. — [Steam app 4408320](https://store.steampowered.com/app/4408320)
+- [OFFICIAL] Steam store trailer: "Battle Bears Gold Premium - Trailer". It is 54 seconds long, per the downloaded HLS stream. It is posted for the 2026 release, but its footage is most likely 2013's, not the 2026 build's ([INFERENCE, strong]; see "In-game 3D and logo"). — [Steam app 4408320](https://store.steampowered.com/app/4408320)
 
 **Creator background and unrealized animation projects**
 - [OFFICIAL] "NOOBIES" (SkyVu channel, uploaded Jul 13, 2008): "A short animated film about a man who wanted to be left alone. Animated and directed by Benjamin Vu. Produced by Skyvu Pictures in 2005." — [YouTube vXf9WEieY-8](https://www.youtube.com/watch?v=vXf9WEieY-8)
@@ -516,9 +516,9 @@ The wiki's voice-actor list matches the official 2012 BBR credits for the origin
 
 ### Takeaway
 Character looks vary a lot by era and by skin (all of the following are from official frames):
-- Oliver goes from a plain grey-brown bear (2009–2011 cutscenes), to a brown bear with a blue headband (2024 portrait), to a gold swirl-patterned skin on the BBG card.
-- Riggs goes from pale blue-grey (cutscenes and portrait) to a red faceted skin on the card.
-- Graham goes from a grey bear with a hard hat (portrait) to a red jacket and rainbow cap on the card.
+- Oliver goes from a plain grey-brown bear (2009–2011 cutscenes), to a gold swirl-patterned skin on the BBG card (2013 art, reused in the Steam trailer), to a brown bear with a blue headband (2024 portrait).
+- Riggs is pale blue-grey in the cutscenes and the 2024 portrait, but wears a red faceted skin on the BBG card.
+- Graham goes from a red jacket and rainbow cap on the BBG card (2013 art) to a grey bear with a hard hat (2024 portrait).
 
 Credit spellings also drift. The 2026 release keeps the 2013 BBG presentation and the 11-class roster BBG already had by late 2013. (Corrected on re-check: the three classes beyond the 2013 launch eight, Botch, Saberi and Sanchez, are *not* new in 2026. Per the fan wiki they were added in BBG updates in July, October and December 2013; see "Roster size over time" below.) It also adds a Sky Pirates map, new to BBG; per the fan wiki it is one of the launch maps of Battle Bears Overclock. SkyVu also calls it "Sky World": in its Aug 19, 2026 Steam post ("New Map: Sky World") and in the description of the short "Sky Pirates in BBG!" ("Enjoy the highlights from our Sky World playtest!"). Do not confuse it with the 2013 map Sky View. The release also adds a "human artists" pledge and re-issues the OST.
 
@@ -553,7 +553,7 @@ Credit spellings also drift. The 2026 release keeps the 2013 BBG presentation an
 - [OFFICIAL] BBG, 2013: "Choose from 8 classes… New Assault Class: The B-1000" ([rfAyqVJrli4](https://www.youtube.com/watch?v=rfAyqVJrli4)).
 - [FAN-WIKI] BBG 2013 updates added the other three classes: v2.1, July 15, 2013, "New character class - Assassin: Botch"; v2.4, October 24, 2013, "New Combat Tech class: Saberi"; v2.6, December 20, 2013, "New Class: Arbiter", quoting "Back from the brink of death, Sanchez has been rebuilt from the arm up!" — [Wiki: Battle Bears Gold/Versions](https://battlebears.fandom.com/wiki/Battle_Bears_Gold/Versions). [OFFICIAL] corroboration that Sanchez was in BBG well before 2026: "Two brand new Sanchez weapons are also now available in the game!" (BBG Tillman Overhaul, Jun 6, 2014; [q1Y8Siqfvn4](https://www.youtube.com/watch?v=q1Y8Siqfvn4)).
 - [OFFICIAL] BBG, 2026: "Choose from 11 unique classes… 16 wacky maps" ([Steam app 4408320](https://store.steampowered.com/app/4408320)).
-- [OFFICIAL-FRAME] The 2026 Steam trailer shows splash cards for only eight classes: B-1000, Graham, Astoria, Wil, Tillman, Huggable, Riggs and Oliver. There are no cards for Botch, Saberi or Sanchez. The 2013 trailer's auto frames show the same Tillman, Graham and Oliver cards. — [Steam app 4408320](https://store.steampowered.com/app/4408320), [rfAyqVJrli4 hq1](https://i.ytimg.com/vi/rfAyqVJrli4/hq1.jpg)
+- [OFFICIAL-FRAME] The Steam store trailer (posted for the 2026 release, but most likely re-edited 2013 footage [INFERENCE, strong]; see "In-game 3D and logo") shows splash cards for only eight classes: B-1000, Graham, Astoria, Wil, Tillman, Huggable, Riggs and Oliver. There are no cards for Botch, Saberi or Sanchez. The 2013 trailer's auto frames show the same Tillman, Graham and Oliver cards. — [Steam app 4408320](https://store.steampowered.com/app/4408320), [rfAyqVJrli4 hq1](https://i.ytimg.com/vi/rfAyqVJrli4/hq1.jpg)
 
 **Spelling drift**
 - Composer: "Drue Humphrey" (BBR credits, 2012; [Wayback](https://web.archive.org/web/20121130022922/http://www.battlebears.com/games/battle-bears-royale/credits)) vs "AnDrue Humphreys" (Steam OST, 2026; [Steam 5321720](https://store.steampowered.com/app/5321720)).
@@ -575,12 +575,12 @@ Credit spellings also drift. The 2026 release keeps the 2013 BBG presentation an
 - [OFFICIAL] Steam age ratings for BBG 2026: Germany USK "12" with "Fantasy-Gewalt"; Brazil DEJUS "14" with "Violência fantasiosa"; Indonesia IGRS "13" with "Interaksi Daring" / "Kekerasan". — [Steam app 4408320](https://store.steampowered.com/app/4408320) (store API `ratings` field)
 
 ### Inferences
-- [INFERENCE] The 2026 "Premium" trailer appears to reuse the 2013 BBG trailer's character-card art, which is why it shows exactly the May 2013 launch roster of eight. No splash cards for Botch, Saberi or Sanchez appear in either trailer; whether any exist elsewhere is unknown.
+- [INFERENCE, strong] The "Premium" trailer on the 2026 Steam page re-edits the 2013 BBG launch trailer, which is why it shows exactly the May 2013 launch roster of eight. Its Graham, Tillman and Oliver cards, the three that the 2013 trailer's auto frames show, are near pixel-identical to those frames ([OFFICIAL-FRAME]: my pixel comparison; see "In-game 3D and logo"). No splash cards for Botch, Saberi or Sanchez appear in either trailer; whether any exist elsewhere is unknown.
 - [INFERENCE] The splash cards seem to deliberately show *skins*: gold Oliver, red faceted Riggs, rainbow-cap Graham, masked Tillman. One likely match: [FAN-WIKI] the wiki's "Instagraham" Engineer skin has a "brown-coloured theme with a stripe of colours on his helmet and camera lens on his goggles" ([Wiki: Instagraham](https://battlebears.fandom.com/wiki/Instagraham)), which fits the Graham card. That match is my inference. The wiki's Soldier (BBG) skin list also includes "Gold Oliver", but nothing confirms it is the swirl-engraved card look. A fan short should decide up front whether each bear appears in its default look or a named skin, and use the BB-1/BBH looks as "default" reference.
 - [INFERENCE] The age ratings (12–14, fantasy violence) and the Terms' ban on placing "Sexually explicit" or "harmful to minors" content *on the BattleCo website* (Terms section III.A, which governs the site, not fan works generally) suggest a sensible content ceiling for fan films meant to sit alongside official material. One of Astoria's wiki-listed taunts ("Tea-Bagging") and some voice lines are cruder than that ceiling.
 
 ### Gaps
-- I could not confirm which default skins, voices and taunts ship in the 2026 build. YouTube video content was not viewable, and there are no 2026 patch notes describing assets.
+- I could not confirm which default skins, voices and taunts ship in the 2026 build. YouTube video content was not viewable. SkyVu's 2026 Steam playtest posts list features such as "New Map: Sky World" and "Lighting improvements", but none mentions skins, voices or taunts.
 - I could not determine whether any 2026 audio was re-recorded or recast.
 - I could not verify the identity of the armoured bear in the 2026 teaser thumbnail, or of the gold Oliver and red Riggs card skins, by name.
 
@@ -724,6 +724,8 @@ All quoted official text, credits, track lists, dates, durations and wiki quotes
 - The in-game 3D entry no longer mentions "lava/orange caverns". The trailer's lava is the open-air Aztec Attack map, its orange-red interior is Marecraft's flesh, and its "rocky caves" are Gold Digger, a dark, muted map rather than a saturated one. The Space Oddity, H.I.P. Test Lab and Shortest Parsec screenshots are now named. The trailer and screenshots are marked as most likely 2013 footage that predates the 2026 lighting pass. Checked against frames I extracted, the official Marecraft teaser frame, the 2013 trailer's auto frames (pixel comparison), the live Steam screenshots (byte-identical) and the Oct 14, 2026 Steam post.
 - The Frozen Pundra and Steam Yard Blues previews now carry their exact titles, lengths (0:31, 0:35) and descriptions. YouTube's `next` endpoint gives the dates as Jan 22, 2014 and Feb 21, 2014.
 - Added: the 24-track 2026 OST list; the "BBG Maps Ranked part 1" frames and the "Playtest Highlights Part 2" short; and Sky World's Aug 19, 2026 Steam post and the wiki's Battle Bears Overclock origin.
+- The "Bonus Vocal Tracks" inference now cites the 2026 track list as [OFFICIAL] for the two titles and their featured artists; only "original 2009 recordings" remains inference.
+- Follow-on consistency fixes: the Q3 inference that the Premium trailer "appears to reuse" the 2013 card art now reads as a pixel-checked card match plus an [INFERENCE, strong] re-edit; the Q3 roster line (which called it "the 2026 Steam trailer") and its Q1 entry under the 2026 videos now note its 2013 footage as [INFERENCE, strong], and that heading no longer places the Steam trailer on @BattleBears; the Q3 Takeaway puts Oliver's and Graham's BBG cards (2013 art) before their 2024 portraits and no longer implies Riggs's card came after his portrait; the Q3 card-match sentence now names the three cards that were compared; the Q3 skins Gap now reflects SkyVu's 2026 Steam playtest posts; and the label list and method notes now cover `maxresdefault` and Shorts frames, [INFERENCE, strong], and the finer trailer sampling.
 
 **Still unverifiable**
 - All video audio. The player API returns LOGIN_REQUIRED, so no voice timbre or spoken dialogue was checked.

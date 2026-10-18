@@ -9,7 +9,7 @@
   - Thumbnails for 30+ videos, including the higher-resolution `maxres1/2/3` (1280×720) and `sd1/2/3` (640×480) frames. `maxresN` is the same frame as `hqN`: the RMS pixel difference is 5–9, against 41–91 for a different frame (checked on ORYnnvqn19w, HKbwq7PolNc and w1lx3MdRaDQ) [Observed via pixel comparison].
   - Titles and channels via oEmbed; upload dates, descriptions and chapters via YouTube's `next` endpoint.
   - I watched no video. Every YouTube [Observed] below is a still thumbnail I opened.
-- **Official 2026 Steam trailer** (`visuals/trailer.mp4`, 1920×1080). I made new extractions at 26.0–32.0 s and 38.8–40.8 s. The trailer re-edits 2013 launch footage (see `out/verified/2026.md`).
+- **Official Steam trailer** (on the 2026 Steam page; `visuals/trailer.mp4`, 1920×1080). I made new extractions at 26.0–32.0 s and 38.8–40.8 s. The trailer re-edits 2013 launch footage [Inference] (see `out/verified/2026.md`), but only its class cards are pixel-matched to 2013. Its Space Oddity clip, which holds the fries below, cannot itself be dated: its pillar top blooms to near-white, unlike 2013 and 2021 fan captures (`research_notes/BBG maps (verified)/space-oddity.md`, Observed there) [Unverified].
 - **Steam news API for app 4408320:** 7 SkyVu announcements, Feb–Oct 2026. None names a Wil weapon. The Oct 14 post lists "Custom keybinds -Jukebox -UI controller support -Lighting improvements -Lots of bug fixes" [Canon].
 
 **Not reached.**
@@ -85,7 +85,7 @@
   - **Fries, BBR (Apr 25, 2013):** "Battle Bears Royale: Wil Senor Potato Gameplay!…" maxres2 (RELOAD 0/4, Gold Wil) shows about five vertical flame columns rising from small yellow blocky stubs on the floor where an enemy stood [Observed: `$G/crops/enp_m2_fire.png`]. The flames are orange-red (≈ #E38E4E) with yellow cores.
   - **Fries, official trailer (footage date unverified; probably 2013-era [Inference]):** At 30.0–31.2 s on Space Oddity, beside a jump pad behind the central pillar, there are about 7 stubby yellow-orange fry blocks (highlights ≈ #FFD356). Each has an orange flame tongue (≈ #D3883B) and a grey-white smoke wisp. Flame plus stub is roughly as tall as a bear standing near the pillar; the stub alone is short [Observed, approximate: `$G/trailer/f_30.3.png`, `$G/crops/tr303_fries.png`, `$G/crops/tr303_full.png`, sequence `$G/sheets/tr_fries_seq.jpg`].
     - The flames shrink by 31.6 s and are nearly gone at 32.0 s, though the shot is edited [Observed].
-    - That these are Señor Potato fries is [Inference]: they match the BBR clip and the official text. This also supports the [Inference] in `research_notes/BBG maps (unverified drafts)/research_space-oddity.md`.
+    - That these are Señor Potato fries is [Inference]: they match the BBR clip and the official text. This also supports the [Inference] in `research_notes/BBG maps (verified)/space-oddity.md` (Particles and weather), which replaced the unverified Space Oddity draft.
   - **Fries at a distance:** In "Señor Potato Gameplay - Battle Bears Gold 2.22", maxres3 (2/3), three or four pink-red flame tongues (≈ #B82955, paler cores) stand on a temple roof against Aztec Attack's magenta sky [Observed: `$G/crops/1pp_m3_pink.png`]. Fries tinted by the sky is [Inference].
   - **Fries, 2026:** a low-res patch of orange flame (≈ #E4852E) with yellow blocky bits at the lower edge of ORYnnvqn19w maxres2 [Observed, low-res: `$G/crops/ory_m2_floor.png`]. That these are fries is [Inference].
   - Mechanics: the fries also hurt players "a large depth below the ground they are planted on". Impact 65; explosive 35–50 [Fan-wiki].
@@ -261,14 +261,15 @@
 5. `out/verified/wil.md`, Doomstick
    - Add the clip timeline: 2 in 2012–Aug 2013, then 5/5 in 2014 (3 + Ammo +2).
    - Add the white muzzle bloom and the intact kill with three Joules bolts.
-6. `research_notes/BBG maps (unverified drafts)/research_space-oddity.md`
-   - Add that the trailer's "orange flame sticks … probably … burning fries" now match the BBR Señor Potato footage (ENP2hDgNL_8 maxres2). This remains [Inference].
+6. `research_notes/BBG maps (verified)/space-oddity.md`, Particles and weather (it replaced the unverified draft `research_space-oddity.md` this item first targeted)
+   - Current: "The orange flame sticks on the floor in the trailer look like the "piping hot french fries" that the Señor Potato Cannon leaves [Game text via wiki for the fries; their presence here is Inference]."
+   - Add that the flame sticks also match the BBR Señor Potato footage (ENP2hDgNL_8 maxres2). This remains [Inference].
 
 ## Corrections for the character file (`bbg-news-repo/characters/wil.md`)
 1. **Weapons & props**
    - Current: "Senor Potato, Pie Bomb, Traffic Light [Fan-wiki]"
-   - Correction: "Señor Potato (wiki page title "Senor Potato") [Fan-wiki]. It is seen firing in the Oct 2026 final playtest build 3.0.7: a brown spud in a white-hot trail, plus burning fry stubs [Observed: ORYnnvqn19w maxres2; trailer 30.0–31.6 s]. Also Pie Bomb and Traffic Light [Fan-wiki]. The Balance Beam (magenta beam) and the Sole's Bane HUD icon also appear in 2026 builds 3.0.2–3.0.7 [Observed: HKbwq7PolNc maxres1; aujTcdFuxdE maxres3]."
-   - Evidence: `$G/crops/ory_m2_potato.png`, `$G/crops/tr303_fries.png`, `$G/crops/hkb_m1_icon.png`, `$G/crops/auj_m3_icon.png`.
+   - Correction: "Señor Potato (wiki page title "Senor Potato") [Fan-wiki]. It is seen firing in the Oct 2026 final playtest build 3.0.7: a brown spud in a white-hot trail [Observed: ORYnnvqn19w maxres2], with a low-res flame patch that is probably fries [Observed, low-res; Inference]. Burning fry stubs also show in the official Steam trailer's Space Oddity shot, whose footage date is unverified (probably 2013-era) [Observed: trailer 30.0–31.6 s; fries ID and date Inference]. Also Pie Bomb and Traffic Light [Fan-wiki]. The Balance Beam (magenta beam) and the Sole's Bane HUD icon also appear in 2026 builds 3.0.2–3.0.7 [Observed: HKbwq7PolNc maxres1; aujTcdFuxdE maxres3]."
+   - Evidence: `$G/crops/ory_m2_potato.png`, `$G/crops/ory_m2_floor.png`, `$G/crops/tr303_fries.png`, `$G/crops/hkb_m1_icon.png`, `$G/crops/auj_m3_icon.png`.
 2. **Open questions**
    - Current: "whether 2026 changed his kit, barks or taunts"
    - Correction: "whether 2026 changed his kit (the Señor Potato, Balance Beam and Sole's Bane are present in 2026 playtest builds [Observed]; the Doomstick, Bubble Gun and Snowtato Launcher are unconfirmed), barks or taunts"

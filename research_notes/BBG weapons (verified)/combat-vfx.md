@@ -15,7 +15,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - about 110 pages, re-fetched for the source check
   - about 135 wiki images (the draft's 45, re-downloaded byte-identical, plus 90 more)
   - upload dates from `imageinfo`
-- **Official 2026 Steam media:**
+- **Official Steam media (on the 2026 store page):**
   - the five Steam screenshots
   - the 54 s "Battle Bears Gold Premium - Trailer"
   - the 1.4 s loop video in the store description (`extras/f7ecb9b2e78f0fd754cc7cf8220ad9b0.mp4`)
@@ -38,7 +38,7 @@ This is the edited version of the draft. I applied the source check and the imag
 - **BBR:** the wiki dates Battle Bears Royale to "October 8th, 2011 in the US and December 5th, 2011 worldwide" [Fan-wiki: Battle Bears Gold]. The BBG News era key calls this era "BBR (2012)". BBR versions run 1.0 to 1.4.x.
 - **BBG:** the wiki's BBG version list starts "1.0 | Migration from Battle Bears Royale to Battle Bears Gold | May 24th, 2013". It then runs 2.1 (July 15, 2013) to 2.31 [Fan-wiki: Battle Bears Gold/Versions].
 - **Wiki captures:** any wiki image uploaded before May 24, 2013 is a BBR capture. An upload date is only the latest possible capture date.
-- **BBG 2026:** the Steam re-release, "Nov 4, 2026" [Canon: Steam]. Which build the 2026 trailer and screenshots were captured on is [Unverified].
+- **BBG 2026:** the Steam re-release, "Nov 4, 2026" [Canon: Steam]. The Steam trailer and screenshots were not captured on a 2026 build: they re-use SkyVu's May 2013 trailer footage [Inference, strong; see Overall VFX style, Ink outline]. Only the class cards are pixel-matched to the 2013 trailer, though, and the Space Oddity shot (screen_01) cannot itself be dated [Unverified; see Fire and burning].
 
 **Path key** (used in every "Images viewed" list):
 - `W` = `/tmp/claude-0/-home-user-thallo-site/91c60972-6d3f-51de-9a92-c1d563bcf5a4/scratchpad/weapons`
@@ -77,12 +77,12 @@ This is the edited version of the draft. I applied the source check and the imag
 - **Team colours:**
   - **Where they show:** character accents, the HUD, the kill feed and Plant the Bomb gear [Observed / Fan-wiki].
   - **Effects:** the only team-coloured effect the wiki documents for later BBG is the Energy Barrier glow (v2.3+). The Cloaking aura (BBR v1.4.2 only) and the Peek A Boo neon lines (v1.4.2 to v2.6) were removed [Fan-wiki].
-  - **2026 exception:** some Huggables in 2026 media carry a white flag with rainbow dots, not a team flag [Observed].
-- **Bearzooka:** coral-red with glowing orange panels in both BBR/BBG and 2026 media [Observed]. The green, hazard-striped Bearzooka is the BB Zombies one [Observed: wiki "Bearzooka in BBZ"].
+  - **Exception:** some Huggables in the Steam trailer and screenshots (2013 footage [Inference, strong]) carry a white flag with rainbow dots, not a team flag [Observed].
+- **Bearzooka:** coral-red with glowing orange panels in both an April 2013 BBR capture and the Steam trailer (2013 footage [Inference, strong]) [Observed]. For 2026, the 2026 dossier sees the same tube in tutorial and item-overview thumbnails [Observed, low-res: 2026.md, Bearzooka]. The green, hazard-striped Bearzooka is the BB Zombies one [Observed: wiki "Bearzooka in BBZ"].
 
 ---
 
-## Overall VFX style (all weapons; BBR/BBG 2013 captures vs BBG 2026 media)
+## Overall VFX style (all weapons; BBR/BBG 2013 captures, the Steam media's 2013 footage and 2026 playtest captures)
 - **Official text:**
   - "All assets in this game are created by human artists." [Canon] (Steam store text, app 4408320)
   - "An award-winning 4v4 class shooter with more personality than sense!" [Canon] (Steam short description)
@@ -90,7 +90,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - **Faceted, hard-edged volumes** are used for specific blasts, not as a general rule. Cores run near-white to lemon (#FFFFEA, #FFFF6B, #FEF376) [Observed: screen_02.jpg; trailer 26.5–27.8 s, 50.6–51.8 s]. Examples:
     - the nuke dome (26.6–27.8 s)
     - the burst on the irradiated Huggable (9.0–10.4 s)
-    - the space-station blast (50.5–51.7 s)
+    - the Shortest Parsec blast (50.5–51.7 s)
     - magenta and yellow shard bursts with white cores (30.8–32.2 s, screen_01)
   - **Fire comes in two looks:**
     1. Soft, blurred, billowing particle fire with dark orange-brown smoke. Examples: the plume off B-1000 at about 2.5–2.9 s, and the fire behind Wil at about 20–22 s [Observed: t_0006.jpg; C2/sheets2/t67.jpg, wf.jpg, ro.jpg].
@@ -98,8 +98,8 @@ This is the edited version of the draft. I applied the source check and the imag
   - **Smoke:** faceted white and grey puffs after big blasts [Observed: Duo.png; trailer 51.3–51.7 s]. Soft dark smoke goes with the particle fire [Observed: wf.jpg].
   - **Shockwaves:** flat octagonal rings on the floor [Observed: screen_02.jpg; C2/sheets2/ta6.jpg, ta7.jpg, th2.jpg]:
     - white on Shortest Parsec (50.5–51.1 s)
-    - white and grey in the cave (9.0–10.4 s)
-    - an orange cone from the sky, then orange and white rings together, in the cave (52.5–53.5 s)
+    - white and grey by a Gold Digger tunnel mouth (9.0–10.4 s)
+    - an orange cone from the sky, then orange and white rings together, over Gold Digger's open pit (52.5–53.5 s)
   - **Beams:** long flat ribbons with a white-hot core [Observed: screen_03.jpg; trailer 7.2–10.5 s, 38.3–41 s; C2/sheets2/tf3.jpg, tf4.jpg; rk30.jpg]:
     - pink beams (#FF5DFE / #FD51B1)
     - a thick yellow ribbon with pale concentric arc rings at the muzzle (38.5–39.4 s)
@@ -125,7 +125,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - draft: `W/visuals/steam_screens/screen_00.jpg`–`screen_04.jpg`; `C/sheets/trailer_sheet_0.jpg`–`trailer_sheet_8.jpg` (from `W/visuals/trailer/t_0001.jpg`–`t_0108.jpg`); `C/sheets/outline_compare.jpg`; `C/png/A_life_upside_down.png`; `C/sheets/steam_extra.jpg` (frames of https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4408320/extras/f7ecb9b2e78f0fd754cc7cf8220ad9b0.mp4); `C/png/Duo.png`
   - check: `C2/sheets2/t67.jpg`, `wf.jpg`, `te1.jpg`, `ta6.jpg`, `ta7.jpg`, `th2.jpg`
   - edit: `C/sheets/outline_compare.jpg`; `C/sheets/tl_zoom.jpg`; `C2/sheets2/t67.jpg`, `wf.jpg`, `ro.jpg`, `ta6.jpg`, `ta7.jpg`, `th2.jpg`, `te1.jpg`, `tf3.jpg`, `tf4.jpg`; `C2/crops2/hearts.png`; `C2/yt/lAtv_maxresdefault.jpg`; `C2/crops/lAtv_build.png`; `C2/png/A_life_upside_down.png`
-  - maps check: `M/shortest_parsec_verify/frames/f_49.50.jpg`–`f_51.75.jpg` and `MC/sp_sheet.png` (Shortest Parsec); `MC/rf_sheet.png` (rfAyqVJrli4 maxres1–3 and maxresdefault); `M/shared_conventions/yt/th_C7uFxvSZ10c_maxresdefault.jpg`; `M/desert_airmine_verify/yt/th/HKbwq7PolNc_maxres1.jpg` and `MC/hk_crop.png`; `MC/wiki/s509.jpg` (File:Screenshot_(509).png); `MC/wiki/Imawe.jpg`; `M/shared_conventions/conv/Oliver-battlefield-airpad-red-base-front.png`
+  - maps check: `M/shortest_parsec_verify/frames/f_49.50.jpg`–`f_51.75.jpg` and `MC/sp_sheet.png` (Shortest Parsec); `MC/rf_sheet.png` (rfAyqVJrli4 maxres1–3 and maxresdefault); `M/shared_conventions/yt/th_C7uFxvSZ10c_maxresdefault.jpg`; `M/desert_airmine_verify/yt/th/HKbwq7PolNc_maxres1.jpg` and `MC/hk_crop.png`; `MC/wiki/s509.jpg` (File:Screenshot_(509).png); `MC/wiki/Imawe.jpg`; `M/shared_conventions/conv/Oliver-battlefield-airpad-red-base-front.png`; `C2/sheets2/ta6.jpg`, `ta7.jpg`, `th2.jpg` (Gold Digger)
 - **Depiction for shorts:**
   - Use the effect type that matches the source:
     - soft billowing fire with dark smoke for flames and fireballs
@@ -136,10 +136,10 @@ This is the edited version of the draft. I applied the source check and the imag
   - Exact frame counts and holds are [BBG News invention].
 - **Confidence:** observed
 
-## Ordinary deaths: intact collapse (all classes; BBR/BBG and 2026 trailer)
+## Ordinary deaths: intact collapse (all classes; BBR/BBG and the Steam trailer's 2013 footage)
 - **Official text:** none found [Unverified].
   - The wiki implies a death animation exists. A Huggable using Mini Me "may occasionally… freeze in its position of death without going through the death animation" [Fan-wiki: Mini Me].
-- **Look:** the victim goes limp and topples as one intact body. Four examples, all from the 2026 trailer:
+- **Look:** the victim goes limp and topples as one intact body. Four examples, all from the Steam trailer (2013 footage):
   1. **Temple victim (12.6–16.0 s):**
      - A white-headed, black-suited bear (skin unidentified) holding a red-and-black patterned long gun falls face-down after flames and a red skull, at 12.6–13.0 s [Observed: C/sheets/tl_zoom.jpg].
      - The body stays until about 15.9 s. At about 16.0 s it vanishes in one frame, with no fade, about 3 s after the fall [Observed: C2/sheets2/fz.jpg, tb3.jpg].
@@ -167,7 +167,7 @@ This is the edited version of the draft. I applied the source check and the imag
 - **Depiction for shorts:** a floppy cartoon pratfall onto the floor, with the body staying whole [Observed]. Then the body pops out of existence or there is a hard cut [Observed once]. Dizzy spirals or orbiting stars on the KO are [BBG News invention]. Never show blood; none appears in the game [Observed].
 - **Confidence:** observed
 
-## Break-apart deaths: clean chunks (bears, robots, Huggables; BBR/BBG and 2026 trailer)
+## Break-apart deaths: clean chunks (bears, robots, Huggables; BBR/BBG and the Steam trailer's 2013 footage)
 - **Official text** (joke item text; neither describes how a gib looks):
   - "Your enemies won't have a skull or bones after being hit with ice cold rockets!" [Game text via wiki] (Let It Cold)
   - "Just when you thought the huggable could not be any more dangerous, it takes it's head off and tries to kill you... to death." [Game text via wiki] (Losing Your Head)
@@ -270,7 +270,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - "Rainbow confetti" appears in no source; label it [BBG News invention].
 - **Confidence:** partial
 
-## Damage feedback (all classes; BBR/BBG and 2026 trailer)
+## Damage feedback (all classes; BBR/BBG and the Steam trailer's 2013 footage)
 - **Official text:** none found [Unverified].
 - **Look:**
   - **Hit flash:** the clearest one is the gold bear turning flat lemon yellow under the yellow beam at 38.3 s [Observed: C2/sheets2/tf3.jpg]. The orange Huggable turns bright yellow at 7.9 s and 8.2 s [Observed].
@@ -348,7 +348,7 @@ This is the edited version of the draft. I applied the source check and the imag
 - **Depiction for shorts:** a red-vs-blue portrait strip with "KILLS" (red X on the loser) or "HEAD SHOT" and a lightning-bolt reward, redrawn in original art with no game UI or logos [BBG News invention].
 - **Confidence:** observed
 
-## Team colours, red vs blue (all classes and effects; BBR/BBG and 2026 media)
+## Team colours, red vs blue (all classes and effects; BBR/BBG and the Steam media's 2013 footage)
 - **Official text:** "compete for dominance across competitive 4v4 multiplayer modes" [Canon] (Steam).
 - **Look, characters (accents):**
   - **Soldier:**
@@ -358,8 +358,8 @@ This is the edited version of the draft. I applied the source check and the imag
   - **Huggable flag:**
     - The Huggable "has a flag respective to the team color that only shows up in a match" [Fan-wiki: Huggable (BBG)].
     - Team flags are observed: red at trailer 3.3 s; blue at 7.2–9 s, in screen_00.jpg and on the pink Huggable in screen_04.jpg [Observed].
-    - 2026 media also show Huggables with a white flag carrying rainbow-coloured dots: the cyan Huggable at about 34.8–35.6 s, and a red Huggable in screen_04.jpg [Observed: C2/sheets2/flags.jpg, cy.jpg].
-    - Whether that is a skin flag or a 2026 change is [Unverified].
+    - The Steam trailer and screenshots also show Huggables with a white flag carrying rainbow-coloured dots: the cyan Huggable at about 34.8–35.6 s, and a red Huggable in screen_04.jpg [Observed: C2/sheets2/flags.jpg, cy.jpg].
+    - That footage is from 2013 [Inference, strong], so the flag is not a 2026 change [Inference]. Whether it is a skin flag or a change to team flags is [Unverified].
   - **Tillman:**
     - Red and black on the red team, in the 3D shot at about 27.9–28.3 s that leads into his intro card, and on the card itself [Observed: C2/sheets2/te1.jpg, td1.jpg]. The menu render Ohmagawdyas.png is red and black too.
     - White, blue and black on the blue team [Observed: trailer 18–22 s; wf.jpg].
@@ -390,7 +390,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - A team-coloured glow is accurate only for the Energy Barrier in a 2014+ setting. A red or blue cloak rim is accurate only for a BBR v1.4.2 setting (cloak) or a v1.4.2–v2.6 setting (Peek A Boo) [Fan-wiki].
 - **Confidence:** observed
 
-## Explosions in general (all explosive weapons; BBR/BBG and 2026 trailer)
+## Explosions in general (all explosive weapons; BBR/BBG and the Steam trailer's 2013 footage)
 - **Official text:**
   - "Phat chance that you'll be dodging this baby. Flies out of sight and, just when you've forgotten about it, hits fast and hard like a liquored up grandpa." [Game text via wiki] (Phat Man)
   - "It's not to be taken lightly WAKKA WAKKA WAKKA!" [Game text via wiki] (Light Matter)
@@ -416,9 +416,9 @@ This is the edited version of the draft. I applied the source check and the imag
     - The projectiles are pink-magenta swirling orbs with cyan lightning (wiki caption "Dark Matter projectiles") [Observed: Dearly_matter_close_up.jpeg via extra_z.jpg].
   - **Plant the Bomb:** the detonation is a huge white-grey faceted cloud [Observed: Plant_the_bombbbbbb_b.png, BBR era]. The bomb beeps and pulses during its last 30 s [Fan-wiki].
   - **Shockwave rings:**
-    - Expanding white octagonal rings, with a yellow faceted blast and white faceted puffs, on the space station (50.5–51.7 s) [Observed: th2.jpg].
-    - White and grey rings in the cave (9.0–10.4 s) [Observed: ta6.jpg, ta7.jpg].
-    - An orange cone from the sky, then orange and white rings together, in the cave (52.5–53.5 s) [Observed: th2.jpg].
+    - Expanding white octagonal rings, with a yellow faceted blast and white faceted puffs, on Shortest Parsec (50.5–51.7 s) [Observed: th2.jpg].
+    - White and grey rings by a Gold Digger tunnel mouth (9.0–10.4 s) [Observed: ta6.jpg, ta7.jpg].
+    - An orange cone from the sky, then orange and white rings together, over Gold Digger's open pit (52.5–53.5 s) [Observed: th2.jpg].
     - Thin yellow vertical streaks come down from the sky at about 49.6–50.3 s (reported by the source check) and 51.3–51.5 s [Observed: th2.jpg]. Both they and the 52.5 s cone resemble a falling nuke [Inference]. Which weapons made these effects is [Unverified].
   - **Other explosive looks:**
     - Fireworks "expode into a flurry of damaging, orange sparks" [Fan-wiki]. The menu render shows Tillman with red rockets [Observed: C2/sheets2/x_3.jpg].
@@ -434,6 +434,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - draft: `W/visuals/trailer/t_0006.jpg`; `C/sheets/seq_wl.jpg`; `C/sheets/seq_bm.jpg`; `C/sheets/nuke_gibs.jpg`; `C/sheets/effects1.jpg`; `C/sheets/effects2.jpg`; `C/sheets/misc3.jpg`; `C/sheets/seq_ov.jpg`; `W/visuals/steam_screens/screen_02.jpg`; `W/visuals/steam_screens/screen_04.jpg`
   - check: `C2/sheets2/t67.jpg`, `wf.jpg`, `td1.jpg`, `th2.jpg`, `extra_z.jpg`
   - edit: `C2/sheets2/t67.jpg`, `wf.jpg`, `ro.jpg`, `td1.jpg`, `th2.jpg`, `ta6.jpg`, `ta7.jpg`, `extra_z.jpg`, `x_3.jpg`; `W/visuals/steam_screens/screen_04.jpg`
+  - maps check: `MC/sp_sheet.png` (Shortest Parsec); `C2/sheets2/th2.jpg`, `ta6.jpg`, `ta7.jpg` (Gold Digger)
 - **Depiction for shorts:**
   - **Ordinary fireball:** a soft, billowing orange fireball with dark smoke [Observed].
   - **Nuke:** the smiley-nosed bomb dives on its flame trail. Then a hard-edged translucent yellow faceted dome, flat octagonal rings sliding along the floor, and white faceted mushroom puffs [Observed].
@@ -441,7 +442,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - A soot-face gag on a survivor is [BBG News invention].
 - **Confidence:** observed
 
-## Irradiated (Gamma Ray, Gernobyl, Radiation Rod, MuskIt for the Engineer; Plasma Shotgun and Gamma Burst for the Combat Tech; Solar Wind Scar for the Soldier; BBR v1.4.3 to BBG v2.9+; seen in the 2026 trailer)
+## Irradiated (Gamma Ray, Gernobyl, Radiation Rod, MuskIt for the Engineer; Plasma Shotgun and Gamma Burst for the Combat Tech; Solar Wind Scar for the Soldier; BBR v1.4.3 to BBG v2.9+; seen in the Steam trailer's 2013 footage)
 - **Official text:**
   - "Turn your enemies in to walking explosives with this radioactive ray gun. It does very little damage on initial impact, but once you charge them up all the way...BOOM! The radioactive symbol over their head indicates how charged they are. The bigger they are, the longer it takes to blow them up, however yielding a much larger and more aggressive explosion." [Game text via wiki] (Gamma Ray)
   - "Straight from the core of the Ursa Major. Warning may cause spontaneous bear combustion if in contact for long periods of time." [Game text via wiki] (Radiation Rod, v2.5)
@@ -453,7 +454,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - "a yellow circle will appear over the player's head and a noise from a Geiger counter will begin sounding… three portions of the circle will dissolve into the common radioactivity symbol" [Fan-wiki: Status Effects].
   - The wiki's four stage icons cut progressively more wedges out of a disc (1–24, 25–49, 50–74 and 75–99 radiation points; 100 points means explosion) [Fan-wiki; Observed: Hazard-3.png, Hazard-0.png].
   - The clicking speeds up as radiation rises, and "the radioactivity symbol will gradually deform and the effect will wear off" when exposure stops [Fan-wiki].
-  - **2026 trailer:** a final-stage trefoil (yellow ~#FACD21–#FCCD25 on a black disc) at full size from its first frame (about 8.27 s) until the burst (about 8.9 s) [Observed: C2/sheets2/tz.jpg]. No ring-to-trefoil progression is shown. The draft's "grows over about 0.6 s" was not supported.
+  - **Steam trailer (2013 footage):** a final-stage trefoil (yellow ~#FACD21–#FCCD25 on a black disc) at full size from its first frame (about 8.27 s) until the burst (about 8.9 s) [Observed: C2/sheets2/tz.jpg]. No ring-to-trefoil progression is shown. The draft's "grows over about 0.6 s" was not supported.
   - **2014 fan footage (BBG):** a large yellow wedge-disc, an intermediate stage, above the target [Observed: 0GuhKiAnNyc hq2 via C2/sheets2/yt_gr.jpg].
 - **Firing:**
   - **Gamma Ray:**
@@ -603,7 +604,9 @@ This is the edited version of the draft. I applied the source check and the imag
 - **Look:**
   - No burning status appears in the wiki's Status Effects list [Fan-wiki]. Flame weapons do contact damage only [Fan-wiki].
   - Painterly orange-yellow flame shapes (#F47E3E / #FAA751) lick around a victim just before his death [Observed: trailer 12.4–13.0 s; C/sheets/tl_zoom.jpg]. Their source is [Unverified].
-  - Orange flame jets rise from floor vents [Observed: screen_01.jpg]. Whether they are a hazard or jump pads is [Unverified].
+  - In screen_01 small flames rise from short orange-yellow sticks lying on the floor beside a jump pad, not from vents [Observed: screen_01.jpg; s1_flames.png crop]. screen_01 is a frame of the Steam trailer's Space Oddity shot at about 30.7 s [Observed]. That shot's date is [Unverified]: its pillar top blooms to near-white, unlike 2013 and 2021 fan captures [Observed in the maps research: space-oddity.md]. It is probably 2013-era like the rest of the trailer [Inference].
+    - The flames fit the Señor Potato Cannon's "piping hot french fries", which "do damage over time" [Fan-wiki transcription of SkyVu's 1.4.3.1 notes], so they are weapon VFX, not a map feature [Inference]. The Wil dossier's addendum covers the fries.
+    - No fire hazard is documented on Space Oddity [Fan-wiki: Space Oddity].
   - Flame Thrower render: Riggs with a red fuel can and a black barrel [Observed: Flamethrower_.png via C2/sheets2/x_3.jpg].
   - Cosmic Fire render: a green-white flame in Botch's palm [Observed: CosmicFire.png via extra_z.jpg].
 - **Firing:**
@@ -617,6 +620,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - draft: `C/sheets/tl_zoom.jpg`; `W/visuals/steam_screens/screen_01.jpg`
   - check: `C2/sheets2/fire_check.jpg`, `wilfire.jpg`
   - edit: `C/sheets/tl_zoom.jpg`; `C2/sheets2/x_3.jpg`, `extra_z.jpg`, `wf.jpg`
+  - maps check: `W/visuals/steam_screens/screen_01.jpg`; `M/shared_conventions_verify/crops/s1_flames.png` (screen_01 crop)
 - **Depiction for shorts:** cartoon flames on contact; Wil breathing fire after a Batterito is documented [Game text via wiki]. A smoking bottom or a sooty face afterwards is [BBG News invention]. No lingering burn icon [Fan-wiki].
 - **Confidence:** partial
 
@@ -805,10 +809,10 @@ This is the edited version of the draft. I applied the source check and the imag
 - **Look:**
   - **Shape:** an octagonal tube that pinches in the middle and flares at both ends [Observed: Photo_19-04-13_12_02_26_PM.png (BBR v1.4.x capture, uploaded 2013-04-19); trailer 3.9–4.8 s].
   - **Body colour:** coral to brick red [Observed]:
-    - ~#D35550–#E16957 in the 2026 trailer (my sample #E05F4F from `C/tr/bz_full_4.3.png`)
+    - ~#D35550–#E16957 in the Steam trailer's 2013 footage (my sample #E05F4F from `C/tr/bz_full_4.3.png`)
     - ~#A14243–#B36161 in the April 2013 BBR capture (my sample #A24D4E)
   - **Details** [Observed]:
-    - a row of glowing orange chevron and rectangle window panels (~#F08020–#FFAA31 in the trailer, ~#F18922–#F48D20 in 2013)
+    - a row of glowing orange chevron and rectangle window panels (~#F08020–#FFAA31 in the trailer, ~#F18922–#F48D20 in the April 2013 capture)
     - two grey metal collars (#7F7D7C)
     - a grey-on-red checkered rear flare
     - a black bore with a grey rim
@@ -817,7 +821,7 @@ This is the edited version of the draft. I applied the source check and the imag
   - **Carry:** shouldered with the muzzle forward [Observed: 2013 capture; trailer 3.9–4.8 s], or held low at the hip from behind [Observed: AZt_huguhzc thumbnails, BBR era].
 - **Where "green, hazard-striped" came from:**
   - BB Zombies' Bearzooka is literally that. Bear.jpg (wiki caption "Bearzooka in BBZ", uploaded 2013-01-01) shows a weapon-select screen with a dark green tube, yellow-and-black hazard stripes and a "BEARZOOKA" stencil [Observed: C2/png2/Bear.png].
-  - Separately, the 2026 trailer's coral Bearzooka is held by a green-furred bear (the Green Oliver recolour skin, here on the blue team) whose brass-bullet bandolier reads as yellow-and-black stripes [Observed: C2/sheets2/ta2.jpg; GreenSkin.png].
+  - Separately, the Steam trailer's coral Bearzooka is held by a green-furred bear (the Green Oliver recolour skin, here on the blue team) whose brass-bullet bandolier reads as yellow-and-black stripes [Observed: C2/sheets2/ta2.jpg; GreenSkin.png].
   - Which of these misled the character file is [Unverified]. Either way, green with hazard stripes is not the BBR/BBG Bearzooka.
   - BBG's other green "Bearzookas" are Tillman's yellow-green Twin Bearzookas (Demo primary, v2.17, March 8, 2015) [Observed: Ohmagawdyas.png; Fan-wiki]. That they are the only green ones in BBG is [Inference].
 - **Firing:**
@@ -851,8 +855,8 @@ All paths are under `/home/user/thallo-site/bbg-news-repo/characters/`. The READ
 
 1. **`oliver.md` line 51.**
    - *Current:* "The Bearzooka is drawn as a green, hazard-striped tube [Observed; Inference]."
-   - *Correction:* "In BBR/BBG the Bearzooka is a coral-red octagonal tube (~#E05F4F in the 2026 trailer, ~#A24D4E in an April 2013 BBR capture). It has a row of glowing orange window panels (~#F48D20–#FF931F), grey metal collars and a grey-checkered flared rear [Observed]. This matches the wiki's 'rocket launcher with red and orange lines' [Fan-wiki]. The dark green, hazard-striped Bearzooka is the BB Zombies one [Observed: wiki 'Bearzooka in BBZ']."
-   - *Evidence:* Photo_19-04-13_12_02_26_PM.png (Bearzooka (BBG) infobox, uploaded 2013-04-19); 2026 trailer 3.9–4.8 s (`C/tr/bz_full_4.3.png`, `C2/sheets2/ta2.jpg`); Bearzooka_Concept.png; Bear.jpg (caption "Bearzooka in BBZ", `C2/png2/Bear.png`).
+   - *Correction:* "In BBR/BBG the Bearzooka is a coral-red octagonal tube (~#E05F4F in the Steam trailer (2013 footage [Inference, strong]), ~#A24D4E in an April 2013 BBR capture). It has a row of glowing orange window panels (~#F48D20–#FF931F), grey metal collars and a grey-checkered flared rear [Observed]. This matches the wiki's 'rocket launcher with red and orange lines' [Fan-wiki]. The dark green, hazard-striped Bearzooka is the BB Zombies one [Observed: wiki 'Bearzooka in BBZ']."
+   - *Evidence:* Photo_19-04-13_12_02_26_PM.png (Bearzooka (BBG) infobox, uploaded 2013-04-19); Steam trailer (2013 footage) 3.9–4.8 s (`C/tr/bz_full_4.3.png`, `C2/sheets2/ta2.jpg`); Bearzooka_Concept.png; Bear.jpg (caption "Bearzooka in BBZ", `C2/png2/Bear.png`).
 2. **`oliver.md` line 75 (character reference prompt), launcher.**
    - *Current:* "He holds a chunky assault rifle and carries a green hazard-striped launcher tube on his back."
    - *Correction:* "He holds a chunky assault rifle and carries a coral-red octagonal launcher tube with glowing orange window panels, grey metal collars and a grey-checkered flared end."
@@ -898,17 +902,17 @@ All paths are under `/home/user/thallo-site/bbg-news-repo/characters/`. The READ
       - "Team colour shows on accents (the Soldier's headband, cuffs and ammo straps; the Huggable's flag; Tillman's armour panels), on the HUD and kill feed, and on Plant the Bomb gear [Observed/Fan-wiki]."
       - "Among effects, only the Energy Barrier glow (v2.3+) is team-coloured in later BBG. The cloak aura (BBR v1.4.2 only) and the Peek A Boo neon lines (v1.4.2–v2.6) were removed [Fan-wiki]."
       - "Weapon projectiles keep their own colours [Inference from Observed]."
-      - "Some 2026 Huggables carry a white rainbow-dot flag [Observed]."
+      - "Some Huggables in the Steam trailer (2013 footage [Inference, strong]) carry a white rainbow-dot flag [Observed]."
     - *Evidence:* wiki Cloaking, Peek A Boo, Energy Barrier and Soldier (BBG)/Skins pages; trailer 3.9–4.8 s, 18–22 s; `C2/sheets2/flags.jpg`.
 
 ## Open questions
 1. **Deaths in the 2026 build:**
-   - Does it keep intact collapses, break-apart deaths and instant corpse removal? All appear in the official 2026 trailer, but the capture build is unverified.
+   - Does it keep intact collapses, break-apart deaths and instant corpse removal? All appear in the Steam trailer, but that is SkyVu's May 2013 footage [Inference, strong], so it says nothing about the 2026 build.
    - No Next Fest demo is listed on today's Steam page; the only event is "Final Discord Playtest this Thursday Oct 15".
    - The JustNubz "Closed Playtest #4" showcase or the Nov 4 launch build could confirm.
 2. **Gibs:** what decides whether a kill breaks the body apart or leaves it intact? And is the Green Oliver break-up at 4.9 s gameplay, or trailer staging (orange streak background leading into the B-1000 intro card)?
 3. **Ink outline:** partly answered. The outline is in SkyVu's May 2013 trailer footage and in 2026 in-game captures (builds 3.0.0 and 3.0.7), but not in 2012–14 player captures [Observed]. Was it the 2013 "HD Graphics" mode [Inference]? Is it always on in 2026, or a graphics setting? The 2026 playtest menu thumbnail shows none on the Gear Up model.
-4. **Huggable flags:** is the white rainbow-dot Huggable flag in 2026 media a skin flag or a change to team flags?
+4. **Huggable flags:** is the white rainbow-dot Huggable flag in the Steam trailer and screenshots (2013 footage) a skin flag or a change to team flags?
 5. **Huggable death spray:** does a BBG Huggable spray rainbow when it dies? Official merch art says rainbow column and stuffing; BBG footage shows plush chunks. The 3.3–3.8 s rainbow fan is most likely Peek A Boo.
 6. **Bearzooka:**
    - What do its explosion and muzzle flash look like? Is the 2.8–3.0 s rocket really a Bearzooka rocket?
