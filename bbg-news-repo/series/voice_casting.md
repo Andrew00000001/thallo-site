@@ -15,4 +15,8 @@ Bryce ruled on 2026-10-20 that voices may be original AI voices: Higgsfield pres
 - Sanchez: "Oliver, we'll getcha... home. This arm, I did not ask for. But look at it."
 - Oliver: "Sanchez! Buddy! You look great! ...Fry? ...That's their ship."
 
-**Status:** the audition batch was refused on 2026-10-20 by Higgsfield's grace-period daily generation limit, which counts audio as well as images and video. It runs as soon as there is free daily capacity.
+**Status:** the audition batch was refused on 2026-10-20 by Higgsfield's grace-period daily generation limit, which counts audio as well as images and video. Because the limit is tight, the pick is now made from the free preset previews.
+
+- On 2026-10-21 Bryce was sent three free audition reels: each character's four shortlisted preset previews, in shortlist order, with 1.5 s gaps.
+- Once he picks one voice per character, Episode 1's lines are generated directly in that voice, so the 12-line audition is skipped.
+- It only runs if two voices are too close to call.
