@@ -39,13 +39,123 @@ function renderWatch(opts){
   </div>`;
 }
 
+/* --- audio sources ---
+   The viewer may refuse to stream media files, so the narration tries, in order:
+   0 the MP3 file itself, 1 the same bytes fetched and played from a blob: URL,
+   2 Web Audio (decoded in the page, outside media-element rules), then silent captions. */
+let ACTX = null;
+function unlockAudio(){
+  try{
+    if(!ACTX){ const AC = window.AudioContext || window.webkitAudioContext; if(AC) ACTX = new AC(); }
+    if(ACTX && ACTX.state === 'suspended') ACTX.resume().catch(()=>{});
+  }catch(e){ ACTX = null; }
+}
+class WAPlayer {
+  constructor(bytes){ this.bytes=bytes; this.buf=null; this.node=null; this.offset=0; this.t0=0; this.rate=1; this.paused=true; this.running=false; this.ls={}; this.tu=0; }
+  addEventListener(k, f){ (this.ls[k] = this.ls[k] || []).push(f); }
+  emit(k){ (this.ls[k] || []).forEach(f=>{ try{ f(); }catch(e){} }); }
+  get duration(){ return this.buf ? this.buf.duration : NaN; }
+  get currentTime(){ return this.running && ACTX ? Math.min(this.duration, this.offset + (ACTX.currentTime - this.t0) * this.rate) : this.offset; }
+  set currentTime(t){ const on=this.running; if(on) this.stopNode(); this.offset=Math.max(0, +t || 0); if(on) this.startNode(); }
+  get playbackRate(){ return this.rate; }
+  set playbackRate(r){ const t=this.currentTime, on=this.running; if(on) this.stopNode(); this.rate=+r || 1; this.offset=t; if(on) this.startNode(); }
+  decode(){
+    if(this.buf) return Promise.resolve(this.buf);
+    if(!ACTX) return Promise.reject(new Error('no audio context'));
+    return new Promise((res, rej)=>{ const p = ACTX.decodeAudioData(this.bytes.slice(0), res, rej); if(p && p.then) p.then(res, rej); }).then(b=>(this.buf=b));
+  }
+  startNode(){
+    if(!this.buf || this.offset >= this.buf.duration - 0.01) return;
+    const n = ACTX.createBufferSource(); n.buffer=this.buf; n.playbackRate.value=this.rate; n.connect(ACTX.destination);
+    n.onended = ()=>{ if(this.node===n){ this.offset=this.currentTime; this.running=false; this.paused=true; this.node=null; clearInterval(this.tu); this.emit('ended'); } };
+    this.t0 = ACTX.currentTime; n.start(0, this.offset); this.node=n; this.running=true;
+    clearInterval(this.tu); this.tu=setInterval(()=>this.emit('timeupdate'), 250);
+  }
+  stopNode(){ if(this.node){ const n=this.node; this.offset=this.currentTime; this.node=null; n.onended=null; try{ n.stop(); }catch(e){} } this.running=false; clearInterval(this.tu); }
+  play(){
+    if(!this.paused) return Promise.resolve();
+    this.paused=false; unlockAudio();
+    return this.decode().then(()=>{ if(!this.paused && !this.running) this.startNode(); }).catch(e=>{ this.paused=true; this.emit('error'); throw e; });
+  }
+  pause(){ this.paused=true; this.stopNode(); }
+  removeAttribute(){ this.pause(); }
+  load(){}
+}
+function attachMedia(m, L){
+  m.addEventListener('error', ()=>{ if(LP.L===L) nextSource(m); });
+  m.addEventListener('ended', ()=>{ if(LP.L===L && LP.audio===m) lpFinish(); });
+  m.addEventListener('timeupdate', ()=>{ if(LP.L===L && LP.audio===m && LP.playing) lpTick(false); });
+  return m;
+}
+function fetchBytes(L){
+  if(typeof fetch!=='function' || location.protocol==='file:') return Promise.resolve(null);
+  return fetch(L.audio).then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.arrayBuffer(); }).then(b=>{ if(LP.L===L) LP.bytes=b; return b; }).catch(()=>null);
+}
+// Source order: 0 the fetched bytes from a blob: URL (seekable on any host), 1 the MP3 file itself,
+// 2 Web Audio, then silent captions.
+function startSources(L){
+  LP.srcStage=0; LP.bytes=null; LP.audio=null; LP.pendingPlay=false;
+  setReady(false);
+  LP.bytesP = fetchBytes(L);
+  let settled=false;
+  const timer=setTimeout(()=>{ if(!settled && LP.L===L && !LP.audio){ settled=true; LP.srcStage=1; useSource(directSource(L), L); } }, 8000);
+  LP.bytesP.then(b=>{
+    if(settled || LP.L!==L) return; settled=true; clearTimeout(timer);
+    if(b && window.URL && URL.createObjectURL){
+      LP.blobUrl = URL.createObjectURL(new Blob([b], {type:'audio/mpeg'}));
+      const a=new Audio(); a.preload='auto'; a.src=LP.blobUrl; useSource(a, L);
+    } else { LP.srcStage=1; useSource(directSource(L), L); }
+  });
+}
+function directSource(L){ const a=new Audio(); a.preload='auto'; a.src=L.audio; return a; }
+function useSource(m, L){
+  if(LP.L!==L || LP.virtual) return;
+  attachMedia(m, L);
+  const t=lpTime();
+  LP.audio=m;
+  try{ m.currentTime=t; }catch(e){}
+  try{ m.playbackRate=LP.rate; }catch(e){}
+  setReady(true);
+  if(LP.playing || LP.pendingPlay){ LP.pendingPlay=false; LP.playing=true; playMedia(m); lpLoop(); lpUI(); }
+}
+function setReady(on){
+  const b=$('#lp-over [data-act="lp-start"]'); if(b){ b.disabled=!on; if(!on){ b.dataset.label=b.dataset.label||b.innerHTML; b.textContent='Loading audio…'; } else if(b.dataset.label){ b.innerHTML=b.dataset.label; } }
+}
+async function nextSource(from){
+  const L = LP.L;
+  if(!L || LP.virtual || from!==LP.audio || from._failed) return;
+  from._failed = true;
+  const was = LP.playing;
+  try{ from.pause(); }catch(e){}
+  LP.playing = was;
+  while(LP.L===L){
+    LP.srcStage++;
+    if(LP.srcStage===1){ useSource(directSource(L), L); return; }
+    if(LP.srcStage===2){
+      const bytes = await LP.bytesP; if(LP.L!==L) return;
+      if(bytes && (window.AudioContext || window.webkitAudioContext)){ useSource(new WAPlayer(bytes), L); return; }
+      continue;
+    }
+    goVirtual(lpTime(), was); return;
+  }
+}
+function playMedia(m){
+  const pr = m.play();
+  if(pr && pr.then) pr.then(()=>{ const o=$('#lp-note'); if(o && !LP.virtual) o.hidden=true; }, ()=>{});
+  if(pr && pr.catch) pr.catch(e=>{
+    if(!LP.L || LP.audio!==m) return;
+    if(e && e.name==='NotAllowedError'){ LP.playing=false; lpUI(); const o=$('#lp-note'); if(o){ o.hidden=false; o.textContent='Tap Play to start the sound.'; } }
+    else nextSource(m);
+  });
+}
+
 /* --- player state --- */
-const LP = {L:null, audio:null, virtual:false, playing:false, vbase:0, vt0:0, rate:1, raf:0, scene:-1, sig:'', quiz:{}, awaiting:-1, ended:false, lastSave:0};
+const LP = {L:null, audio:null, virtual:false, playing:false, vbase:0, vt0:0, rate:1, raf:0, scene:-1, sig:'', quiz:{}, awaiting:-1, ended:false, lastSave:0, srcStage:0, bytes:null, bytesP:null, blobUrl:null};
 function lpDur(){ return LP.L ? LP.L.timing.dur : 0; }
 function lpTime(){
   if(!LP.L) return 0;
   if(LP.virtual) return LP.playing ? Math.min(lpDur(), LP.vbase + (performance.now()-LP.vt0)/1000*LP.rate) : LP.vbase;
-  return LP.audio ? LP.audio.currentTime : 0;
+  return LP.audio ? LP.audio.currentTime : (LP.vbase || 0);
 }
 function lpPlay(){
   if(!LP.L) return;
@@ -54,7 +164,8 @@ function lpPlay(){
   hideOverlay();
   LP.playing=true;
   if(LP.virtual){ LP.vt0=performance.now(); }
-  else { LP.audio.playbackRate=LP.rate; const pr=LP.audio.play(); if(pr && pr.catch) pr.catch(()=>{ if(LP.audio && LP.audio.error) goVirtual(); else { LP.playing=false; lpUI(); } }); }
+  else if(!LP.audio){ unlockAudio(); LP.playing=false; LP.pendingPlay=true; const o=$('#lp-note'); if(o){ o.hidden=false; o.textContent='Loading audio…'; } lpUI(); return; }
+  else { unlockAudio(); try{ LP.audio.playbackRate=LP.rate; }catch(e){} playMedia(LP.audio); }
   lpLoop(); lpUI();
 }
 function lpPause(){
@@ -68,12 +179,14 @@ function lpSeek(t){
   t=Math.max(0, Math.min(lpDur(), t));
   if(LP.virtual){ LP.vbase=t; LP.vt0=performance.now(); }
   else if(LP.audio){ try{ LP.audio.currentTime=t; }catch(e){} }
+  else LP.vbase=t;
   LP.ended = false;
   lpTick(true, t);
 }
-function goVirtual(){
-  const t = LP.audio ? LP.audio.currentTime : 0;
-  if(LP.audio){ LP.audio.pause(); LP.audio.removeAttribute('src'); }
+function goVirtual(tIn, wasIn){
+  const t = tIn!=null ? tIn : (LP.audio ? LP.audio.currentTime : 0);
+  if(wasIn!=null) LP.playing = wasIn;
+  if(LP.audio){ try{ LP.audio.pause(); LP.audio.removeAttribute('src'); }catch(e){} }
   LP.virtual=true; LP.vbase=t||0; LP.vt0=performance.now(); LP.cc=true;
   const n=$('#lp-note'); if(n){ n.hidden=false; n.textContent='Audio could not load here, so captions are on and the lesson plays silently.'; }
   if(LP.playing){ LP.vt0=performance.now(); lpLoop(); }
@@ -83,8 +196,9 @@ function lpLoop(){ cancelAnimationFrame(LP.raf); const f=()=>{ if(!LP.L || !LP.p
 function lpClose(){
   if(LP.L){ lpSavePos(true); }
   cancelAnimationFrame(LP.raf);
-  if(LP.audio){ LP.audio.pause(); LP.audio.removeAttribute('src'); try{ LP.audio.load(); }catch(e){} }
-  Object.assign(LP, {L:null, audio:null, virtual:false, playing:false, scene:-1, sig:'', quiz:{}, awaiting:-1, ended:false});
+  if(LP.audio){ try{ LP.audio.pause(); LP.audio.removeAttribute('src'); LP.audio.load(); }catch(e){} }
+  if(LP.blobUrl){ try{ URL.revokeObjectURL(LP.blobUrl); }catch(e){} }
+  Object.assign(LP, {L:null, audio:null, virtual:false, playing:false, scene:-1, sig:'', quiz:{}, awaiting:-1, ended:false, srcStage:0, bytes:null, bytesP:null, blobUrl:null});
 }
 function lpSavePos(force){
   if(!LP.L) return;
@@ -252,10 +366,7 @@ function openLesson(id, opts){
       <p class="small muted" style="margin:10px 0 0">Sources: ${sources}</p>
     </details>
   </div>`;
-  LP.audio = new Audio(); LP.audio.preload='auto'; LP.audio.src=L.audio;
-  LP.audio.addEventListener('error', ()=>{ if(LP.L===L && !LP.virtual) goVirtual(); });
-  LP.audio.addEventListener('ended', ()=>{ if(LP.L===L) lpFinish(); });
-  LP.audio.addEventListener('timeupdate', ()=>{ if(LP.L===L && LP.playing) lpTick(false); });
+  startSources(L);
   $('#lp-range').addEventListener('input', e=>{ lpSeek(+e.target.value); });
   $('#lp-rate').addEventListener('change', e=>{ const t=lpTime(); LP.rate=+e.target.value; P.settings.lessonRate=LP.rate; save(); if(LP.virtual){ LP.vbase=t; LP.vt0=performance.now(); } else if(LP.audio) LP.audio.playbackRate=LP.rate; });
   LP.scene=-1; lpSeek(resume); lpUI();
