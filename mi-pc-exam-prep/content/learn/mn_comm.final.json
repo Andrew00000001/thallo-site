@@ -1,0 +1,523 @@
+[
+ {
+  "id": "mn-mn_comm-01",
+  "sec": "cpp",
+  "title": "Common Policy Conditions: the six conditions and their numbers",
+  "technique": "acrostic",
+  "hook": "Taped to the deer camp door: \"Can Chuck's Examiner Inspect Pete's Truck?\" Can = Cancellation, Chuck's = Changes, Examiner = Examination of books, Inspect = Inspections, Pete's = Premiums, Truck = Transfer. To cancel, the insurer gives 10 days for not paying and 30 days for anything else. The books stay open 3 years after the policy ends.",
+  "unpack": [
+   "Cancellation: the first Named Insured may cancel by mailing or delivering advance written notice. The insurer must mail or deliver written notice to the first Named Insured at least 10 days before cancellation for nonpayment of premium, or at least 30 days before for any other reason. If the insurer cancels, the refund is pro rata; if the first Named Insured cancels, it may be less than pro rata.",
+   "Changes: the first Named Insured may change the policy's terms with the insurer's consent. The policy can be amended or waived only by an endorsement the insurer issues.",
+   "Examination of your books and records: the insurer may examine and audit them during the policy period and up to 3 years afterward.",
+   "Inspections and surveys: the insurer has the right, but no obligation, to inspect. Inspections relate only to insurability and premium; the insurer does not make safety inspections or warrant that conditions are safe.",
+   "Premiums: the first Named Insured is responsible for paying all premiums and is the payee for any return premiums.",
+   "Transfer of your rights and duties: not allowed without the insurer's written consent, except when an individual named insured dies (rights and duties pass to the legal representative)."
+  ],
+  "watch_out": "These six conditions apply to every coverage part in the policy. Vacancy is NOT one of them; it is a loss condition in property forms such as the Building and Personal Property Coverage Form. The six words follow the form's A-F order, but the order has no legal meaning and exam questions do not depend on it. The 10-day, 30-day and 3-year numbers are from the 1998 edition (IL 00 17 11 98); state amendatory endorsements can change the notice periods.",
+  "source": "ISO IL 00 17 11 98, A.-F.",
+  "question_ids": [
+   "comm-001",
+   "comm-002"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-02",
+  "sec": "cpp",
+  "title": "CGL Coverages A, B and C, and which limit each one uses",
+  "technique": "first-letter-cue",
+  "hook": "A is for Accidents, B is for Big mouth, C is for Care. Then picture two buckets: the Products-Completed Operations bucket holds only A's claims from products and finished work; the General Aggregate bucket holds everything else from A, B and C.",
+  "unpack": [
+   "A = Accidents: Coverage A pays bodily injury and property damage the insured is legally obligated to pay, caused by an \"occurrence\" (an accident, including continuous or repeated exposure to substantially the same general harmful conditions), and the insurer has the right and duty to defend.",
+   "B = Big mouth: Coverage B pays personal and advertising injury caused by an offense (such as slander, libel or false arrest) arising out of your business and committed in the coverage territory during the policy period.",
+   "C = Care: Coverage C pays medical expenses for bodily injury caused by an accident on premises you own or rent, on ways next to them, or because of your operations, regardless of fault, if the expenses are incurred and reported within one year of the accident.",
+   "Products-Completed Operations bucket: the most paid under Coverage A for bodily injury and property damage in the products-completed operations hazard, which is injury or damage away from premises you own or rent arising out of your product or your work. It does not include products still in your physical possession or work not yet completed or abandoned.",
+   "General Aggregate bucket: the most paid for the sum of Coverage C medical expenses, Coverage A damages (except products-completed operations), and Coverage B damages.",
+   "Inside the buckets: the Each Occurrence Limit caps Coverage A damages plus Coverage C medical expenses from one occurrence; the Damage To Premises Rented To You Limit and the per-person Medical Expense Limit sit inside it. The Personal and Advertising Injury Limit applies per person or organization."
+  ],
+  "watch_out": "Injury from work still in progress (a board dropped while framing) is a premises and operations loss in the General Aggregate, not products-completed operations. Coverage C's exclusions include injury to any insured (volunteer workers excepted), to a person hired to work for an insured or a tenant, to someone whose benefits are payable under a workers' compensation or disability benefits law, and injury in the products-completed operations hazard, among others. The one-year medical payments window is from the 2013 ISO CGL (CG 00 01 04 13).",
+  "source": "ISO CG 00 01 04 13, Sec. I Cov. A 1.a, Cov. B 1.b, Cov. C 1-2; Sec. III 2-7; Sec. V defs. 13, 16",
+  "question_ids": [
+   "comm-007",
+   "comm-008",
+   "comm-cpa-01"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-03",
+  "sec": "cpp",
+  "title": "Personal and advertising injury: the seven offenses in four groups",
+  "technique": "chunking",
+  "hook": "Coverage B's four Ps: Police, Property, Publication, Promotion.",
+  "unpack": [
+   "Police: false arrest, detention or imprisonment; malicious prosecution.",
+   "Property: wrongful eviction from, wrongful entry into, or invasion of the right of private occupancy of a room, dwelling or premises a person occupies, committed by or on behalf of its owner, landlord or lessor.",
+   "Publication: oral or written publication, in any manner, of material that slanders or libels a person or organization or disparages its goods, products or services; and of material that violates a person's right of privacy.",
+   "Promotion: use of another's advertising idea in your \"advertisement\"; infringing another's copyright, trade dress or slogan in your \"advertisement\".",
+   "The offense must arise out of your business and be committed in the coverage territory during the policy period. The order of the four groups does not matter."
+  ],
+  "watch_out": "Bodily injury from a defective product is a Coverage A claim, not a Coverage B offense. Patent, trademark and trade secret infringement are excluded; only copyright, trade dress or slogan infringement in your advertisement is covered. Coverage B also excludes knowing violation of another's rights, material published with knowledge of its falsity, material first published before the policy period, and criminal acts.",
+  "source": "ISO CG 00 01 04 13, Sec. I Cov. B 1.b, 2.a-d, 2.i; Sec. V def. 14",
+  "question_ids": [
+   "comm-009"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-04",
+  "sec": "cpp",
+  "title": "CGL Supplementary Payments: the $250 twins that ride outside the limit",
+  "technique": "imagery",
+  "hook": "Heading Up North, the canoe rides on the roof rack, not in a seat. Supplementary Payments ride the same way: on top of the limit. Two $250 twins sit in the canoe: $250 for a bail bond and $250 a day for time off work.",
+  "unpack": [
+   "On top of the limit: for Coverages A and B, \"These payments will not reduce the limits of insurance.\"",
+   "$250 bail bond: up to $250 for the cost of bail bonds required because of accidents or traffic law violations arising out of the use of any vehicle to which the Bodily Injury Liability Coverage applies. The insurer does not have to furnish the bonds.",
+   "$250 a day: all reasonable expenses the insured incurs at the insurer's request to help investigate or defend the claim or suit, including actual loss of earnings up to $250 a day because of time off from work.",
+   "Also in the canoe: all expenses the insurer incurs; the cost of bonds to release attachments (only for bond amounts within the limit); court costs taxed against the insured; prejudgment interest on the part of the judgment the insurer pays; and interest after judgment until the insurer pays, offers to pay or deposits in court its share."
+  ],
+  "watch_out": "Court costs taxed against the insured are paid, but attorneys' fees or attorneys' expenses taxed against the insured are not. Supplementary Payments are written for Coverages A and B, not Coverage C (Medical Payments). The $250 amounts are those in the 2013 ISO CGL (CG 00 01 04 13).",
+  "source": "ISO CG 00 01 04 13, Supplementary Payments - Coverages A and B, 1.a-g",
+  "question_ids": [
+   "comm-005",
+   "comm-006"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-05",
+  "sec": "cpp",
+  "title": "Claims-made CGL: the two gates and the two tails",
+  "technique": "number-peg",
+  "hook": "Two gates, two tails. Gate 1: the injury happens on or after the retro date and before the policy ends. Gate 2: the claim is first made during the policy period. The free tail: 60 days, or 5 years for occurrences you reported within 60 days. The bought tail: ask in writing within 60 days, pay no more than 200% of the annual premium, and it never ends.",
+  "unpack": [
+   "Gate 1: the bodily injury or property damage must not occur before the retroactive date shown in the Declarations or after the end of the policy period. Injury before the retro date is not covered, even if the claim is made during the policy period.",
+   "Gate 2: the claim must be first made against an insured during the policy period (or during an extended reporting period). An occurrence form is triggered differently: by injury or damage that occurs during its policy period, whenever the claim comes.",
+   "Free tail (Basic Extended Reporting Period): automatic, at no charge, when the coverage is canceled or nonrenewed, or is renewed or replaced with insurance that has a later retroactive date or is not claims-made. It covers claims made within 60 days after the policy ends, or within 5 years for claims arising from an occurrence reported to the insurer not later than 60 days after the policy ends. It does not increase or reinstate limits, and it does not apply to claims covered by later insurance the insured buys.",
+   "Bought tail (Supplemental Extended Reporting Period): optional, by endorsement for an extra charge; the insured must request it in writing within 60 days after the policy period ends; the additional premium cannot exceed 200% of the annual premium for the coverage part; it has unlimited duration, starts when the basic tail ends, and provides supplemental aggregate limits equal to the amounts shown in the Declarations."
+  ],
+  "watch_out": "Neither tail covers injury that happened before the retro date or after the policy period ended; the tails only extend the time to make a claim. Only the bought tail resets the aggregate limits. These numbers are from the 2013 ISO claims-made CGL (CG 00 02 04 13), whose text was not available directly; both sources below agree on every number.",
+  "source": "FC&S \"Claims-Made CGL Form\" (PropertyCasualty360, Feb. 2014, quoting ISO CG 00 02 04 13, Sec. V Extended Reporting Periods 1, 3-5); Austin & Stanovich, \"The Claims-Made CGL Policy\" (IRMI Expert Commentary, Nov. 2012); Rough Notes PF&M 270.4-3 (CG 27 10 Supplemental Extended Reporting Period Endorsement: written request within 60 days, no time limit, supplemental aggregate limits)",
+  "question_ids": [
+   "comm-014",
+   "comm-015",
+   "comm-016"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-06",
+  "sec": "cpp",
+  "title": "Commercial property vacancy: more than 60 days, the 15% cut and the 31% rule",
+  "technique": "story",
+  "hook": "Day 61 in an empty Detroit warehouse: vandals tag the walls and smash the glass, an unwinterized sprinkler leaks, a pipe leaks, and copper thieves (and would-be thieves) work the back door. The insurer pays none of that. A windstorm hits the same week? Paid, minus 15%. Keep at least 31% of the floor in use and the building was never vacant.",
+  "unpack": [
+   "Trigger: the building where the loss occurs has been vacant for more than 60 consecutive days before the loss.",
+   "Not paid at all, even though they are covered causes of loss: vandalism; sprinkler leakage (unless the system was protected against freezing); building glass breakage; water damage; theft; attempted theft.",
+   "Any other covered cause of loss (windstorm, fire and so on): the payment is reduced by 15%.",
+   "31% rule: when the policy is issued to the owner or general lessee, the building is vacant unless at least 31% of its total square footage is rented to and used by tenants for their customary operations and/or used by the owner for its customary operations.",
+   "Tenant's policy: the tenant's unit is vacant when it does not contain enough business personal property to conduct customary operations. Buildings under construction or renovation are not considered vacant."
+  ],
+  "watch_out": "It takes MORE than 60 consecutive days of vacancy before the loss. Sprinkler leakage stays covered if the system was protected against freezing. The 31% test applies when the policy is issued to the building owner or general lessee; a tenant's unit uses the enough-property-to-operate test. Vacancy is a loss condition in the 2012 Building and Personal Property Coverage Form (CP 00 10 10 12), not one of the Common Policy Conditions. The 2013 ISO Businessowners form uses the same 60-day, 15% and 31% rules.",
+  "source": "ISO CP 00 10 10 12, E.6.a-b; ISO BP 00 03 07 13, Sec. I E.8",
+  "question_ids": [
+   "comm-021",
+   "comm-002"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-07",
+  "sec": "cpp",
+  "title": "Coinsurance: the Did-over-Should formula",
+  "technique": "rhyme",
+  "hook": "Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost.",
+  "unpack": [
+   "Should: multiply the value of the covered property at the time of loss by the coinsurance percentage. That is the minimum insurance needed to meet the requirement.",
+   "Did over Should: divide the Limit of Insurance carried by that figure.",
+   "Times the Loss: multiply the total amount of loss, before the deductible, by that ratio.",
+   "Take off the Deductible: subtract the deductible. The insurer pays that amount or the Limit of Insurance, whichever is less.",
+   "2012 form example (CP 00 10 10 12, Example 1): $250,000 value x 80% = $200,000; $100,000 limit / $200,000 = .50; $40,000 loss x .50 = $20,000; minus the $250 deductible = $19,750."
+  ],
+  "watch_out": "Value is measured at the time of loss, not when the policy was bought. If Did is at least Should, there is no penalty: the insurer pays the loss minus the deductible, up to the limit. The 2013 ISO Businessowners form has no coinsurance clause; instead, if the limit is under 80% of full replacement cost, it pays the greater of actual cash value or (limit / 80% of full replacement cost) x the cost to repair or replace after the deductible, but not more than the limit.",
+  "source": "ISO CP 00 10 10 12, F.1 (steps and Example 1); ISO BP 00 03 07 13, Sec. I E.5.d(1)(b)",
+  "question_ids": [
+   "comm-022",
+   "comm-046"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-08",
+  "sec": "cpp",
+  "title": "Business Income timing: 72 hours, 1 mile, 4 weeks, 60 days",
+  "technique": "number-peg",
+  "hook": "72-1-4-60 at a Mackinac Island fudge shop: income loss is paid starting 72 hours after the fire (Extra Expense from minute one). If the fire is at the hotel next door and authorities close the street, Civil Authority covers a shop up to 1 mile away for up to 4 weeks. Reopened but the tourists are slow to come back? Extended Business Income adds up to 60 days.",
+  "unpack": [
+   "72 hours: the period of restoration for Business Income begins 72 hours after the direct physical loss; for Extra Expense it begins immediately.",
+   "1 mile: Civil Authority applies when a covered cause of loss damages other property and civil authority prohibits access to the described premises, which must be within the prohibited area and not more than one mile from the damaged property.",
+   "4 weeks: Civil Authority Business Income begins 72 hours after the first action of civil authority and lasts up to four consecutive weeks. Civil Authority Extra Expense begins immediately and ends four consecutive weeks after that action or when Civil Authority Business Income ends, whichever is later.",
+   "60 days: Extended Business Income runs after the property is repaired and operations resume, until income could be restored to its pre-loss level or 60 consecutive days pass, whichever is earlier. The Extended Period of Indemnity option replaces 60 with a larger number.",
+   "The period of restoration ends on the earlier of the date the property should be repaired, rebuilt or replaced with reasonable speed and similar quality, or the date business resumes at a new permanent location. Policy expiration does not cut it short."
+  ],
+  "watch_out": "The 72-hour wait applies to Business Income, not to Extra Expense. These are the 2012 ISO Business Income (and Extra Expense) Coverage Form rules. The 2013 ISO Businessowners form also starts Business Income 72 hours after the loss and also gives 60 days of Extended Business Income, but limits Business Income to 12 consecutive months.",
+  "source": "ISO CP 00 30 10 12, A.5.a, A.5.c, E.4, F.3; ISO BP 00 03 07 13, Sec. I A.5.f, H.9",
+  "question_ids": [
+   "comm-024",
+   "comm-045"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-09",
+  "sec": "cpp",
+  "title": "Causes of Loss forms: what Broad adds to Basic, and Special's theft limits",
+  "technique": "imagery",
+  "hook": "Broad is Basic plus a Michigan winter: things fall on you, snow and ice pile on the roof, and the pipes let go (plus a collapse coverage). Special is everything that isn't excluded, but it puts thieves on a budget: $2,500 for furs, jewelry, and patterns and dies; $250 for stamps, tickets and letters of credit.",
+  "unpack": [
+   "Basic (CP 10 10): fire; lightning; explosion; windstorm or hail; smoke; aircraft or vehicles; riot or civil commotion; vandalism; sprinkler leakage; sinkhole collapse; volcanic action.",
+   "Broad (CP 10 20) adds: falling objects; weight of snow, ice or sleet; water damage (accidental discharge or leakage of water or steam from a cracked or broken plumbing, heating, air conditioning or other system or appliance on the premises); and an Additional Coverage for collapse.",
+   "Special (CP 10 30): \"direct physical loss unless the loss is excluded or limited\" (open perils). Theft is not a Basic or Broad peril, but Special can cover it.",
+   "Special form theft limits (per theft occurrence, unless higher limits are shown): $2,500 for furs, fur garments and garments trimmed with fur; $2,500 for jewelry, watches, precious stones and metals (does not apply to jewelry and watches worth $100 or less per item); $2,500 for patterns, dies, molds and forms; $250 for stamps, tickets (including lottery tickets held for sale) and letters of credit."
+  ],
+  "watch_out": "Sprinkler leakage and sinkhole collapse are already Basic perils, so they are not what Broad adds. The theft limits are part of, not in addition to, the Limit of Insurance. Editions: 2012 Basic and Broad forms, 2017 Special form.",
+  "source": "ISO CP 10 10 10 12, A.1-11; ISO CP 10 20 10 12, A.12-14, C.; ISO CP 10 30 09 17, A., C.3",
+  "question_ids": [
+   "comm-028",
+   "comm-029"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-10",
+  "sec": "cpp",
+  "title": "Ordinance or Law Coverage: what Coverages A, B and C pay",
+  "technique": "first-letter-cue",
+  "hook": "A = All that's still standing (the value you lose when the law makes you tear it down), B = Bulldozer (demolish it and haul it away), C = Code upgrade (the extra cost to rebuild to code).",
+  "unpack": [
+   "Coverage A - Loss to the Undamaged Portion of the Building: pays the loss in value of the undamaged portion when an ordinance or law requires demolition of undamaged parts of the same building. It is included within the building's Limit of Insurance and does not increase it.",
+   "Coverage B - Demolition Cost: pays the cost to demolish and clear the site of undamaged parts of the same building when an ordinance or law requires their demolition. The Coinsurance Additional Condition does not apply to it.",
+   "Coverage C - Increased Cost of Construction: pays the increased cost to repair or reconstruct damaged portions, and to reconstruct or remodel undamaged portions, when the increase results from complying with the minimum standards of the ordinance or law.",
+   "Each coverage applies only if it is chosen in the Schedule for that building, and only after the building sustains covered direct physical damage."
+  ],
+  "watch_out": "All three Causes of Loss forms (Basic, Broad and Special) exclude ordinance or law, so this endorsement buys the coverage back. It pays only for the minimum requirements of the law, and nothing for a law the insured was already required to comply with before the loss. Edition: CP 04 05 09 17.",
+  "source": "ISO CP 04 05 09 17, A., B.3, B.4, B.7, C.1-3; ISO CP 10 10 10 12, B.1.a; ISO CP 10 20 10 12, B.1.a; ISO CP 10 30 09 17, B.1.a",
+  "question_ids": [
+   "comm-030"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-11",
+  "sec": "cpp",
+  "title": "Robbery, burglary, safe burglary and theft: what each one needs",
+  "technique": "contrast",
+  "hook": "Crimes at a Flint party store: a gun in the clerk's face is ROBBERY (it needs a person). A thief who hides in the walk-in cooler and pries the back door open to leave is BURGLARY (it needs a break-in or break-out). Crowbar marks on the safe, or the whole safe carted off, is SAFE BURGLARY. THEFT is the big umbrella over all of them.",
+  "unpack": [
+   "Robbery: the unlawful taking of property from the care and custody of a person by one who has caused or threatened to cause that person bodily harm, or committed an obviously unlawful act witnessed by that person.",
+   "Burglary (general insurance term): theft of property from within premises by a person who unlawfully enters or exits the premises. Some insurance definitions, such as the National Alliance glossary, add that the entry or exit must be evidenced by marks of forcible entry or exit.",
+   "Safe burglary: the unlawful taking of property from within a locked safe or vault by a person unlawfully entering it, as evidenced by marks of forcible entry on its exterior; or the taking of a safe or vault itself from inside the premises.",
+   "Theft: the unlawful taking of property to the deprivation of the insured. It is the broadest of the four terms."
+  ],
+  "watch_out": "Robbery needs no weapon: a threat, or an obviously unlawful act the victim witnesses, is enough. A thief who hides inside and breaks OUT is still a burglar. Opening a locked safe with the correct combination and leaving no marks is not safe burglary (unless the whole safe is taken). The 2015 ISO crime form defines robbery, safe burglary and theft; burglary comes from insurance glossaries.",
+  "source": "ISO CR 00 21 11 15, F.20, F.21, F.23; IRMI glossary \"burglary\"; National Alliance Research Academy glossary \"burglary\"",
+  "question_ids": [
+   "comm-032",
+   "comm-cpa-11",
+   "comm-cpa-12",
+   "comm-cpa-13",
+   "comm-cpa-19"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-12",
+  "sec": "cpp",
+  "title": "The seven insuring agreements of the 2015 ISO Commercial Crime form",
+  "technique": "acrostic",
+  "hook": "Every Fisherman In Ice Outlasts Cold Mornings: seven words for the seven insuring agreements, in the form's 1-7 order. And remember: money is the VIP. Money and securities are covered for theft, disappearance or destruction inside or outside, while other property is covered only against robbery (plus safe burglary inside).",
+  "unpack": [
+   "1 Every = Employee Theft: money, securities and other property stolen by an employee, acting alone or in collusion. Here \"theft\" also includes forgery.",
+   "2 Fisherman = Forgery or Alteration: forgery or alteration of checks, drafts, promissory notes or similar written promises to pay a sum certain in money, made or drawn by or drawn upon the insured (or made or drawn by its agent).",
+   "3 In = Inside the Premises - Theft of Money and Securities: money and securities inside the premises or a financial institution's premises, against theft by a person present there, disappearance or destruction.",
+   "4 Ice = Inside the Premises - Robbery or Safe Burglary of Other Property: other property inside the premises, only against actual or attempted robbery of a custodian or actual or attempted safe burglary.",
+   "5 Outlasts = Outside the Premises: money and securities in the care of a messenger or an armored motor vehicle company, against theft, disappearance or destruction; other property in their care only against actual or attempted robbery.",
+   "6 Cold = Computer and Funds Transfer Fraud: fraudulent entry or change of electronic data or programs in a computer system the insured owns, leases or operates; and fraudulent instructions directing a financial institution to debit the insured's transfer account.",
+   "7 Mornings = Money Orders and Counterfeit Money: money orders not paid upon presentation, and counterfeit money, accepted in good faith in exchange for merchandise, money or services."
+  ],
+  "watch_out": "The two I-words are the two Inside the Premises agreements: In = money and securities, Ice = other property. The 1-7 order is just the form's numbering and has no legal meaning. Embezzlement by an employee goes under Employee Theft, not the inside or outside agreements. Merchandise a burglar takes off open shelves, with no robbery of a custodian and no safe burglary, is not covered by Insuring Agreement 4. Older editions (and the PSI outline) list Computer Fraud and Funds Transfer Fraud as separate agreements; the 2015 form combines them as number 6.",
+  "source": "ISO CR 00 21 11 15, A.1-7; F.4 (custodian), F.15 (messenger)",
+  "question_ids": [
+   "comm-035",
+   "comm-cpa-16",
+   "comm-cpa-18",
+   "comm-cpa-20",
+   "comm-cpa-21",
+   "comm-cpa-23"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-13",
+  "sec": "cpp",
+  "title": "Crime: loss sustained form vs. discovery form",
+  "technique": "contrast",
+  "hook": "Loss sustained asks, \"Did it HAPPEN on my watch?\" and gives 1 extra year after cancellation to find it. Discovery asks, \"Did I FIND it on my watch?\" and gives 60 extra days.",
+  "unpack": [
+   "Loss sustained form (2015 ISO CR 00 21): covers loss from an occurrence taking place during the policy period that is discovered during the policy period or the extended period to discover loss.",
+   "1 extra year: loss sustained before cancellation is covered if discovered no later than one year after cancellation, but that period ends immediately when replacement insurance takes effect (the one-year period for an employee benefit plan does not end early).",
+   "Discovery form: covers loss from an occurrence taking place at any time that is discovered during the policy period, plus an extended period of 60 days after cancellation to discover loss. That 60-day period also ends immediately when replacement insurance takes effect.",
+   "\"Discover\" means the time when the insured first becomes aware of facts that would cause a reasonable person to assume a covered loss has been or will be incurred, even if the exact amount or details are not yet known.",
+   "After discovery (2015 loss sustained form): give a detailed sworn proof of loss within 120 days; no suit until 90 days after filing proof of loss, and suit must be brought within 2 years after discovery."
+  ],
+  "watch_out": "Don't swap the tails: 1 year goes with the loss sustained form, 60 days with the discovery form. The 60-day discovery period appears in ISO discovery forms across editions (the 2000 commercial forms and the 2015 government discovery form, CR 00 26 11 15).",
+  "source": "ISO CR 00 21 11 15, A. (preamble), E.1.e, E.1.g, E.1.i, F.5; ISO CR 00 26 11 15 (Government Crime Policy, Discovery Form), A. (preamble), E.1.i; IRMI, Robinson, \"The New ISO Commercial Crime Program Hits the Streets\" (Sept. 2000)",
+  "question_ids": [
+   "comm-033",
+   "comm-034"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-14",
+  "sec": "cpp",
+  "title": "Nationwide Marine Definition: the six classes inland marine may insure",
+  "technique": "acrostic",
+  "hook": "\"I.E., Do Bridges Please Customers?\" Six words, six classes: Imports and Exports cross the Ambassador Bridge, Domestic shipments roll up I-75, the Mackinac Bridge itself is an instrumentality of transportation, and the trucks carry Personal and Commercial floaters.",
+  "unpack": [
+   "I = Imports.",
+   "E = Exports.",
+   "Do = Domestic shipments.",
+   "Bridges = Bridges, tunnels and other instrumentalities of transportation and communication: also piers, wharves, docks and dry docks; pipelines; power transmission and telephone and telegraph lines; radio and TV communication equipment and towers; outdoor cranes and loading bridges. Buildings, their improvements and betterments, furniture and furnishings, fixed contents and supplies held in storage are excluded.",
+   "Please = Personal property floater risks, such as personal jewelry, fur, fine arts, stamp and coin, and musical instrument floaters.",
+   "Customers = Commercial property floater risks, such as physicians' and surgeons' instrument, theatrical, film and salesmen's samples floaters, and builders risk or installation risks."
+  ],
+  "watch_out": "Buildings and their fixed contents are not marine risks. The acrostic follows the model's A-F order, but the order has no significance. Michigan has its own statutory definition of marine insurance (MCL 500.614), which covers transit risks, personal property floater risks, jewelers block insurance, and bridges, tunnels and other instrumentalities of transportation and communication (excluding buildings and their contents).",
+  "source": "NAIC Model 701, Nationwide Inland Marine Definition (July 1996 reprint, as amended per the 1977 NAIC Proceedings), Sec. 2.A-F, Sec. 3; MCL 500.614",
+  "question_ids": [
+   "comm-036"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-15",
+  "sec": "cpp",
+  "title": "Farm coverage letters A through J",
+  "technique": "first-letter-cue",
+  "hook": "A-B-C-D is the farmhouse, lettered just like homeowners. E is Each class listed (scheduled), F is the Farm stuff in one blanket (unscheduled), G is the barn and silo Group (other farm structures). Then H-I-J ride like CGL A-B-C: Harm, Insults, and Jabs at the doctor's office (medical payments).",
+  "unpack": [
+   "A = Dwellings. B = Other Private Structures Appurtenant to Dwellings. C = Household Personal Property. D = Loss of Use.",
+   "E = Scheduled Farm Personal Property: covers each class of farm personal property (such as grain, hay, livestock, or individually described machinery) only if a limit is shown for that class.",
+   "F = Unscheduled Farm Personal Property: one blanket limit for all farm personal property on the insured location (plus certain property away from it), except property not covered.",
+   "G = Other Farm Structures: farm buildings and structures other than dwellings, such as barns and attached sheds, silos described in the Declarations, portable buildings, and fences other than field and pasture fences.",
+   "H = Bodily Injury and Property Damage Liability (like CGL Coverage A). I = Personal and Advertising Injury Liability (like CGL Coverage B). J = Medical Payments (like CGL Coverage C), for reasonable medical expenses incurred or medically ascertained within 3 years from the date of the accident (2006 ISO Farm Liability Coverage Form, FL 00 20 10 06)."
+  ],
+  "watch_out": "A structure used principally for farming, like a machine shed, is insured under G, not B. Farm Medical Payments allows 3 years (FL 00 20 10 06), while 2013 CGL Coverage C allows only 1 year. Letters A-G are from the 1994 combined Farm Property form (FP 00 10 09 94); the 2016 program splits them among FP 00 12 (A-D), FP 00 13 (E-F) and FP 00 14 (G) but keeps the letters.",
+  "source": "ISO FP 00 10 09 94, Coverages A-G, Cov. B 2.d; FC&S \"Farm Liability Coverage Form\" (PropertyCasualty360, Nov. 2013, quoting ISO FL 00 20 10 06, Cov. H, I, J); FC&S \"Farm Coverage Program\" (2017); FC&S \"Farm Property - Barns, Outbuildings and Other Farm Structures Coverage Form FP 00 14\" (2016); ISO CG 00 01 04 13, Cov. C 1.a",
+  "question_ids": [
+   "comm-041",
+   "comm-042",
+   "comm-cpb-21",
+   "comm-cpb-45",
+   "comm-cpb-47"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-16",
+  "sec": "cpp",
+  "title": "Farm livestock: who counts, the Broad livestock perils and the per-head limits",
+  "technique": "story",
+  "hook": "Old MacDonald's livestock is seven animals: cattle, sheep, swine, goats, horses, mules and donkeys. The chickens don't count. On a farm in the Thumb, Broad's five livestock perils are five bad days: a downed power line (electrocution), coyotes (attack by dogs or wild animals), a deer hunter's stray shot (accidental shooting), a calf through the pond ice (drowning), and a slip on the trailer ramp (loading or unloading).",
+  "unpack": [
+   "\"Livestock\" means cattle, sheep, swine, goats, horses, mules and donkeys. Poultry is a separate term, so chickens and turkeys are not livestock.",
+   "Electrocution of covered livestock.",
+   "Attacks on covered livestock by dogs or wild animals: does not cover loss to sheep, or attacks by dogs or wild animals owned by the insured, its employees or others living on the insured location.",
+   "Accidental shooting of covered livestock: does not cover shooting by the insured, any other insured, employees or others living on the insured location.",
+   "Drowning of covered livestock from external causes: does not cover swine under 30 days old.",
+   "Loading or unloading accidents that kill covered livestock while being loaded onto or unloaded from vehicles: does not cover loss from disease.",
+   "Basic already includes earthquake loss and flood loss to livestock.",
+   "Coverage F per-head limits: $1,000 on any horse, mule or head of cattle under one year of age at the time of loss, and $2,000 on any other head of livestock."
+  ],
+  "watch_out": "Sheep get no dog or wild animal attack coverage, and piglets under 30 days get no drowning coverage. Broad also adds perils that are not about livestock (such as falling objects, weight of ice, snow or sleet, and glass breakage); the five here are only its livestock perils, in no particular order. The farm Earth Movement and Water exclusions do not apply to earthquake or flood loss to livestock. A grown dairy cow falls in the $2,000 per-head class, and the per-head limits are part of, not in addition to, the Coverage F limit.",
+  "source": "ISO FP 00 10 09 94, B.1.m-n, B.2.o-s, C.2.a, C.8, Cov. F 3, Definition 6; FC&S \"Farm Property Covered Causes of Loss\" (2012, quoting ISO FP 10 60 09 03: same livestock perils and exceptions); FC&S \"Farm Personal Property Coverage Form FP 00 13\" (2017) (same per-head limits in the 2016 edition)",
+  "question_ids": [
+   "comm-cpb-32",
+   "comm-cpb-36",
+   "comm-cpb-39",
+   "comm-cpb-42"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-17",
+  "sec": "bop",
+  "title": "BOP vs. commercial property: the numbers that flip",
+  "technique": "contrast",
+  "hook": "The BOP is the generous cousin up north with one stingy habit. The fire department bill, outdoor property and valuable papers all get MORE in the BOP. An outdoor sign gets LESS: $1,000 in the BOP vs. $2,500 in commercial property.",
+  "unpack": [
+   "Fire Department Service Charge: BOP $2,500 per premises; commercial property (CP 00 10) $1,000 per premises. No deductible applies in either.",
+   "Outdoor property (fences, antennas, trees, shrubs and plants; the BOP version also includes signs not attached to buildings; covered only for fire, lightning, explosion, riot or civil commotion, and aircraft): BOP $2,500, with no more than $1,000 per tree, shrub or plant; CP 00 10 $1,000, with no more than $250 per tree, shrub or plant.",
+   "Valuable papers and records: BOP $10,000 at the described premises and $5,000 away from it; CP 00 10 $2,500 per described premises to replace or restore the lost information.",
+   "Outdoor signs: BOP pays no more than $1,000 per sign (signs attached to buildings) in one occurrence unless the Outdoor Signs optional coverage is added; CP 00 10 pays no more than $2,500 per sign, attached or not.",
+   "Same in both: Newly Acquired or Constructed Property, $250,000 per building and $100,000 business personal property, for up to 30 days; personal property off premises, $10,000."
+  ],
+  "watch_out": "These are the 2013 ISO Businessowners Coverage Form (BP 00 03 07 13) and the 2012 ISO Building and Personal Property Coverage Form (CP 00 10 10 12) amounts, used unless higher limits are shown in the Declarations. In the BOP, signs not attached to buildings fall under the Outdoor Property extension rather than the $1,000 per-sign limit.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.c, A.6.a-c, A.6.e, C.2, D.3; ISO CP 00 10 10 12, A.4.c, A.5.a, A.5.c-e, C.",
+  "question_ids": [
+   "comm-049",
+   "comm-023",
+   "comm-050"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-18",
+  "sec": "bop",
+  "title": "BOP Business Income: 12 months, no dollar limit, and the no-deductible five",
+  "technique": "number-peg",
+  "hook": "In the BOP, time-off coverage runs on a calendar, not a dollar sign: up to 12 months of Business Income with no dollar limit, payroll for 60 days, and 60 more days to ramp back up. Five coverages skip the deductible: the two fire helpers (fire department service charge, fire extinguisher recharge) and the three downtime coverages (Business Income, Extra Expense, Civil Authority).",
+  "unpack": [
+   "12 months: Business Income pays the actual loss sustained during the period of restoration that occurs within 12 consecutive months after the direct physical loss. It is not subject to the Section I Limits of Insurance.",
+   "Payroll 60 days: ordinary payroll expenses are covered only for 60 days after the loss, unless a greater number of days is shown in the Declarations.",
+   "60 more days: Extended Business Income continues after operations resume, until income could be restored or for 60 consecutive days (unless more are shown), whichever is earlier.",
+   "Extra Expense is also covered only within 12 consecutive months after the loss and is not subject to the Section I limits.",
+   "No deductible applies to: Fire Department Service Charge; Business Income; Extra Expense; Civil Authority; Fire Extinguisher Systems Recharge Expense."
+  ],
+  "watch_out": "No deductible does not mean no waiting period: Business Income still begins 72 hours after the direct physical loss under the \"period of restoration\" definition, while Extra Expense begins immediately. Money and Securities, Employee Dishonesty, Outdoor Signs and Forgery or Alteration use the Optional Coverage Deductible instead. These are the 2013 ISO Businessowners form (BP 00 03 07 13) rules.",
+  "source": "ISO BP 00 03 07 13, Sec. I A.5.f(1)(b), A.5.f(2), A.5.f(4), A.5.g(4), D.2-3, H.9",
+  "question_ids": [
+   "comm-044",
+   "comm-045",
+   "comm-bop-04"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-19",
+  "sec": "bop",
+  "title": "BOP limits that grow on their own, and the double aggregates",
+  "technique": "number-peg",
+  "hook": "8, 25, times 2. The building limit creeps up 8% a year, business personal property gets a 25% holiday bump if it was insured to 100% of value, and each liability aggregate is 2 times the Liability and Medical Expenses limit.",
+  "unpack": [
+   "8: the Building limit automatically increases by 8% a year (prorated by days), unless a different annual percentage is shown in the Declarations. Form example: $100,000 x .08 x 146/365 = $3,200.",
+   "25: the Business Personal Property limit automatically increases by 25% (unless another percentage is shown) for seasonal variations, but only if the BPP limit is at least 100% of average monthly values during the lesser of the 12 months before the loss or the time in business.",
+   "Times 2: the products-completed operations aggregate is twice the Liability and Medical Expenses limit, and the general aggregate (all other bodily injury and property damage, plus medical expenses and personal and advertising injury) is also twice that limit."
+  ],
+  "watch_out": "With a $1,000,000 Liability and Medical Expenses limit, each aggregate is $2,000,000. On a CGL, by contrast, the aggregate limits are shown separately in the Declarations. The 25% seasonal increase needs no endorsement or value reports, only the 100% test. These are the 2013 ISO Businessowners form (BP 00 03 07 13) amounts.",
+  "source": "ISO BP 00 03 07 13, Sec. I C.4-5, Sec. II D.4; ISO CG 00 01 04 13, Sec. III 1-3",
+  "question_ids": [
+   "comm-047",
+   "comm-052"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-20",
+  "sec": "bop",
+  "title": "Protective Safeguards: what the P-symbols mean",
+  "technique": "first-letter-cue",
+  "hook": "P-1 Pours water (sprinklers). P-2 Phones it in (fire alarm). P-3 Patrols (guard on hourly rounds). P-4 Pays a private fire department. P-5 Protects the kitchen (cooking hood system). P-9 Plus whatever the schedule describes.",
+  "unpack": [
+   "P-1: Automatic Sprinkler System, including related supervisory services.",
+   "P-2: Automatic Fire Alarm protecting the entire building, connected to a central station or reporting to a public or private fire alarm station.",
+   "P-3: Security Service with a recording system or watch clock, making hourly rounds covering the entire building when the premises are not in actual operation.",
+   "P-4: Service Contract with a privately owned fire department providing fire protection service to the described premises.",
+   "P-5: Automatic Commercial Cooking Exhaust and Extinguishing System on cooking appliances (hood, grease removal device, duct system, and wet chemical fire extinguishing equipment). It appears in the 2017 commercial property version (CP 04 11 09 17) but not in the older interline version (IL 04 15 04 98).",
+   "P-9: the protective system described in the Schedule.",
+   "The penalty: no coverage for loss caused by fire if, before the fire, the insured knew of a suspension or impairment of a listed safeguard and failed to notify the insurer, or failed to keep a listed safeguard it controls in complete working order. The 2017 commercial property version also requires keeping any listed automatic fire alarm or other automatic system switched on at all times. If part of a sprinkler system is shut off by breakage, leakage, freezing or opened sprinkler heads, no notice is needed if full protection is restored within 48 hours."
+  ],
+  "watch_out": "Only FIRE losses are excluded when a safeguard is not maintained; a windstorm or theft loss is not affected by this endorsement. The forms list no P-6, P-7 or P-8; the catch-all symbol is P-9.",
+  "source": "ISO IL 04 15 04 98, A.2, B.; ISO CP 04 11 09 17, A.-C.",
+  "question_ids": [
+   "comm-055",
+   "comm-056"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-21",
+  "sec": "other",
+  "title": "Surety bonds: the three parties and the three contract bonds",
+  "technique": "story",
+  "hook": "On a road job in the U.P.: the Principal (the contractor) Promises, the Obligee (the owner) is Owed, and the Surety Stands behind the promise, then Sends the bill back to the principal. Then the contract bonds: the Bid bond (\"If I win, I'll sign and bond up\") comes at bid time; the Performance bond (\"I'll finish\") and the Payment bond (\"I'll pay my crew and suppliers\") are the bonds the winner then furnishes for the contract.",
+  "unpack": [
+   "Principal: the bidder or contractor who executes the bond and whose obligations are guaranteed.",
+   "Obligee: the third party the bond protects, such as the project owner or a government. If the principal's obligations are not met, the bond pays the obligee's loss to the extent stipulated.",
+   "Surety: the second party that guarantees the principal's obligations to the obligee.",
+   "Sends the bill back: a surety bond is not insurance but is like an extension of credit. The surety does not expect a loss, and the principal and any other indemnitors must reimburse the surety for losses it pays, commonly under a General Agreement of Indemnity.",
+   "Bid bond (bid guarantee): assures the bidder will not withdraw its bid within the acceptance period and will sign the contract and furnish the required bonds.",
+   "Performance bond: secures performance and fulfillment of the contractor's obligations under the contract.",
+   "Payment bond: assures payment to all persons supplying labor or material for the work."
+  ],
+  "watch_out": "The surety is not the protected party; the obligee is. On a license and permit bond, the obligee is the government body that requires the bond and the principal is the person seeking the license. The order of the three parties in the story doesn't matter.",
+  "source": "FAR 48 CFR 28.001 (\"Bid guarantee\"; \"Bond,\" including payment and performance bonds); IRMI glossary \"surety bond\"; NASBP Pipeline, Perkins, \"The General Agreement of Indemnity: Nine Selected Provisions to Discuss with Your Contractor\" (Mar. 2013); IRMI glossary \"license and permit bond\"; FC&S \"License and Permit Bonds\" (Feb. 2010)",
+  "question_ids": [
+   "comm-065",
+   "comm-066",
+   "comm-067",
+   "comm-oth-08"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-22",
+  "sec": "other",
+  "title": "Michigan surplus lines: the red-ink notice and the key numbers",
+  "technique": "number-peg",
+  "hook": "Red ink, 10-point type, 2 and a half percent. The tax is 2% plus a 0.5% fee, paid with sworn reports due Feb 15 and Aug 15. Written proof of coverage goes out within 30 days. And if 3 licensed insurers would readily write it at competitive terms, it is presumed to stay home.",
+  "unpack": [
+   "Red ink, 10-point type: each policy or cover note must show on its face, in red ink and at least 10-point type: \"This insurance has been placed with an insurer that is not licensed by the state of Michigan. In case of insolvency, payment of claims may not be guaranteed.\" The notice may not be covered over or concealed.",
+   "2% + 0.5%: the licensee pays a 2% tax on premiums written plus a 0.5% regulatory fee.",
+   "Feb 15 and Aug 15: sworn statements are due for the 6-month periods ending December 31 and June 30.",
+   "30 days: when acting on prior written authority from the eligible unauthorized insurer, or on its written or oral communication, the licensee must deliver the policy, written binder, certificate or other written evidence of insurance within 30 days after the risk was bound or the insured was told coverage has been or will be obtained.",
+   "Stays home: insurance may not be placed with an unauthorized insurer if it is available from an authorized insurer. Coverage is presumed available if it is readily available from 3 or more authorized insurers at competitive terms. It is also presumed available for no-fault auto (except for self-insurers), private passenger auto physical damage, owner-occupied homeowners within Michigan Basic Property Insurance Association limits, and workers' compensation (except for partially self-insured employers)."
+  ],
+  "watch_out": "Coverage the licensee cannot get after a diligent search among authorized insurers, and risks only partly acceptable to authorized insurers, are presumed UNAVAILABLE, so they may be placed in the surplus lines market. Before placement, the licensee must also tell the insured that the insurer is not licensed in Michigan and that payment of loss may not be guaranteed if it becomes insolvent.",
+  "source": "MCL 500.1905(3)(d), (5); MCL 500.1910(1)-(3); MCL 500.1912; MCL 500.1922",
+  "question_ids": [
+   "comm-068",
+   "comm-069",
+   "comm-070"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-23",
+  "sec": "other",
+  "title": "NFIP: the coverage limits, the 30-day wait and Write Your Own",
+  "technique": "number-peg",
+  "hook": "Homes: 250 and 100. Businesses: 500 and 500. Code compliance: 30 grand. The wait: 30 days, but none when you buy it as part of a loan closing.",
+  "unpack": [
+   "Homes: single-family and 2-4 family buildings, $250,000 building coverage; residential contents, $100,000.",
+   "Businesses: non-residential buildings, $500,000 building and $500,000 contents.",
+   "Other residential buildings (including multifamily buildings, such as those with 5 or more units): $500,000 building, but contents stay at the $100,000 residential limit.",
+   "30 grand: Increased Cost of Compliance pays up to $30,000 to elevate, demolish, relocate or floodproof a building the community declares substantially damaged or a repetitive loss structure. It is paid in addition to the building claim, but building plus ICC cannot exceed the building maximum.",
+   "30 days: a new policy, added coverage or increase takes effect at 12:01 a.m. on the 30th calendar day after the application date. No wait when the initial purchase is in connection with making, increasing, extending or renewing a loan (it starts at closing). A 1-day wait applies in some cases within 13 months after a flood map revision and for certain post-wildfire flooding on federal land.",
+   "Write Your Own: private property and casualty insurers write and service NFIP policies in their own names while the federal government pays all losses. They must issue the Standard Flood Insurance Policy and follow NFIP rates, so the coverage is the same as from NFIP Direct.",
+   "Residential minimum deductibles (Risk Rating 2.0): $1,000 for building coverage of $100,000 or less, $1,250 for more than $100,000 ($1,500 and $2,000 for pre-FIRM buildings receiving a statutory discount); contents $1,000."
+  ],
+  "watch_out": "Building and contents are bought separately, each with its own deductible. The loan-closing exception is about the purchase being tied to the loan, not about where the building is. Deductible minimums come from FEMA guidance and can change.",
+  "source": "44 CFR 61.6; 44 CFR 61.11(a)-(d); 44 CFR 62.23(c), (h)(2); FEMA \"Federal Disaster Assistance: Meeting the Flood Insurance Requirement\" (07-2024); FEMA \"Summary of Coverage - Commercial Property\" (01-2024); FEMA \"Risk Rating 2.0 Simple Guide - Single-Family Homes\" (07-2025) and \"- Residential Manufactured/Mobile Homes\"",
+  "question_ids": [
+   "comm-071",
+   "comm-072",
+   "comm-073",
+   "comm-074"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-24",
+  "sec": "other",
+  "title": "Risk retention groups: what makes them different",
+  "technique": "chunking",
+  "hook": "An RRG is a club of \"onlys\": owned only by its members, sells only liability, answers mainly to only one home state, and gets only a warning label instead of a guaranty fund. Its name says so: \"Risk Retention Group.\"",
+  "unpack": [
+   "Owned only by its members: its owners are only persons who are insured by it (or a single organization owned only by such insureds), and the members are engaged in similar or related businesses or activities with similar or related liability exposure.",
+   "Sells only liability: it provides only liability insurance for its members (plus reinsurance for similar groups). Under the act, liability does not include personal risk liability or an employer's liability to its employees (except under the Federal Employers' Liability Act).",
+   "One home state: it is chartered or licensed as a liability insurer in one state, which regulates its formation and operation; it is exempt from most other states' laws that would regulate its operation.",
+   "Warning label, no guaranty fund: a state may not require or permit an RRG to join its insurance guaranty association, and each policy must carry a 10-point notice that \"State insurance insolvency guaranty funds are not available for your risk retention group.\"",
+   "Its name must include the phrase \"Risk Retention Group.\""
+  ],
+  "watch_out": "An RRG is an insurer owned by its members. Don't confuse it with a purchasing group, which only buys liability insurance on a group basis for its members. An RRG cannot sell to the general public or write property insurance. The four \"onlys\" can be remembered in any order.",
+  "source": "15 U.S.C. 3901(a)(2)-(5); 15 U.S.C. 3902(a)",
+  "question_ids": [
+   "comm-075"
+  ]
+ },
+ {
+  "id": "mn-mn_comm-25",
+  "sec": "other",
+  "title": "D&O liability: Sides A, B and C",
+  "technique": "first-letter-cue",
+  "hook": "Side A covers the directors All by themselves. Side B pays Back the Business for indemnifying them. Side C covers the Corporation itself.",
+  "unpack": [
+   "Side A: direct coverage for the organization's directors and officers, paying them for acts the organization is not legally required to indemnify.",
+   "Side B (corporate reimbursement): covers the organization's obligation to indemnify its directors and officers for claims arising from their acts for the organization. That obligation usually comes from the charter or bylaws and sometimes from state statute.",
+   "Side C (entity securities coverage): covers the organization itself for claims involving securities it issued, usually after a corporate action lowers the stock's value. It typically costs additional premium."
+  ],
+  "watch_out": "Side B pays the company, even though the underlying claim is against the directors and officers. Side A is the part that pays the individuals directly.",
+  "source": "IRMI glossary \"Side A coverage\"; IRMI glossary \"corporate reimbursement coverage\"; IRMI glossary \"entity securities coverage\"",
+  "question_ids": [
+   "comm-061"
+  ]
+ }
+]

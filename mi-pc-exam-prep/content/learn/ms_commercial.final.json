@@ -1,0 +1,666 @@
+[
+ {
+  "id": "ms-ms_commercial-01",
+  "sec": "cpp",
+  "title": "Common Policy Conditions: the six conditions (ISO IL 00 17 11 98)",
+  "pairs": [
+   {
+    "a": "Cancellation",
+    "b": "Insurer's notice: 10 days for nonpayment, 30 days for other reasons"
+   },
+   {
+    "a": "Changes",
+    "b": "Policy terms amended or waived only by endorsement"
+   },
+   {
+    "a": "Examination of Your Books and Records",
+    "b": "Insurer may audit your records up to 3 years after the policy"
+   },
+   {
+    "a": "Inspections and Surveys",
+    "b": "Insurer may inspect but makes no safety inspections or warranties"
+   },
+   {
+    "a": "Premiums",
+    "b": "First Named Insured pays all premiums and receives return premiums"
+   },
+   {
+    "a": "Transfer of Rights and Duties",
+    "b": "Needs insurer's written consent, except when an individual named insured dies"
+   }
+  ],
+  "source": "ISO IL 00 17 11 98, A-F (form text)."
+ },
+ {
+  "id": "ms-ms_commercial-02",
+  "sec": "cpp",
+  "title": "CGL coverages, supplementary payments and limits (ISO CG 00 01 04 13)",
+  "pairs": [
+   {
+    "a": "Coverage A",
+    "b": "Bodily injury and property damage liability caused by an occurrence"
+   },
+   {
+    "a": "Coverage B",
+    "b": "Liability for offenses like libel, slander, false arrest, privacy violation"
+   },
+   {
+    "a": "Coverage C",
+    "b": "Others' medical expenses from accidents, paid regardless of fault"
+   },
+   {
+    "a": "Supplementary Payments",
+    "b": "Defense costs, bail bonds and interest, paid without reducing limits"
+   },
+   {
+    "a": "General Aggregate Limit",
+    "b": "Cap on Coverages A, B and C, except products-completed operations"
+   },
+   {
+    "a": "Products-Completed Operations Aggregate",
+    "b": "Cap on Coverage A injury from your products or completed work"
+   },
+   {
+    "a": "Each Occurrence Limit",
+    "b": "Cap on Coverage A plus Coverage C for one occurrence"
+   },
+   {
+    "a": "Personal and Advertising Injury Limit",
+    "b": "Cap on Coverage B damages for any one person or organization"
+   }
+  ],
+  "source": "ISO CG 00 01 04 13, Sec. I Cov. A 1.a, Cov. B 1.a and Sec. V def. 14, Cov. C 1.b ('regardless of fault'), Supplementary Payments 1.a-g ('These payments will not reduce the limits of insurance'), Sec. III 2-5."
+ },
+ {
+  "id": "ms-ms_commercial-03",
+  "sec": "cpp",
+  "title": "CGL key terms: occurrence form and claims-made features (ISO CG 00 01 and CG 00 02, 04 13 editions)",
+  "pairs": [
+   {
+    "a": "Occurrence",
+    "b": "An accident, including continuous or repeated exposure to harmful conditions"
+   },
+   {
+    "a": "Hostile fire",
+    "b": "A fire that becomes uncontrollable or breaks out where unintended"
+   },
+   {
+    "a": "Insured contract",
+    "b": "Includes premises leases, sidetrack agreements, elevator maintenance agreements"
+   },
+   {
+    "a": "Products-completed operations hazard",
+    "b": "Injury away from your premises from your product or finished work"
+   },
+   {
+    "a": "Mobile equipment",
+    "b": "Bulldozers, forklifts, farm machinery and similar off-road vehicles"
+   },
+   {
+    "a": "Retroactive date",
+    "b": "Claims-made: injury occurring before this date is not covered"
+   },
+   {
+    "a": "Basic Extended Reporting Period",
+    "b": "Free automatic tail: 60 days, or 5 years for timely reported occurrences"
+   },
+   {
+    "a": "Supplemental Extended Reporting Period",
+    "b": "Optional, extra-premium tail of unlimited duration with reinstated aggregates"
+   }
+  ],
+  "source": "ISO CG 00 01 04 13, Sec. V defs. 7, 9, 12, 13, 16 (form text); claims-made CG 00 02 04 13 as quoted in FC&S 'Claims-Made CGL Form' (propertycasualty360.com, Feb. 2014): retroactive date ('did not occur before the Retroactive Date'); 'A Basic Extended Reporting Period is automatically provided without additional charge' - five years for claims from occurrences reported not later than 60 days after the end of the policy period, sixty days for occurrences not previously reported; 'A Supplemental Extended Reporting Period of unlimited duration is available, but only by an endorsement' for additional premium (not over 200% of annual premium) with supplemental aggregate limits; consistent with Austin & Stanovich, 'The Claims-Made CGL Policy' (Nov. 2012)."
+ },
+ {
+  "id": "ms-ms_commercial-04",
+  "sec": "auto",
+  "title": "Business auto covered auto symbols (ISO CA 00 01 11 20)",
+  "pairs": [
+   {
+    "a": "Symbol 1",
+    "b": "Any auto: owned, hired or non-owned"
+   },
+   {
+    "a": "Symbol 2",
+    "b": "Owned autos only, of any type"
+   },
+   {
+    "a": "Symbol 3",
+    "b": "Only the private passenger autos you own"
+   },
+   {
+    "a": "Symbol 4",
+    "b": "Only owned autos that are not private passenger type"
+   },
+   {
+    "a": "Symbol 5",
+    "b": "Only owned autos required to have no-fault benefits"
+   },
+   {
+    "a": "Symbol 7",
+    "b": "Only autos described in the Declarations with a premium shown"
+   },
+   {
+    "a": "Symbol 8",
+    "b": "Only autos you lease, hire, rent or borrow, not from employees, etc."
+   },
+   {
+    "a": "Symbol 9",
+    "b": "Only autos you don't own, hire or borrow, used in your business"
+   }
+  ],
+  "source": "ISO CA 00 01 11 20, Sec. I.A symbol table (symbol 7 = autos described in Item Three with a premium charge shown; symbol 8 excludes autos leased, hired, rented or borrowed from your employees, partners, LLC members or their household members; symbol 9 includes employees' autos only while used in your business or personal affairs)."
+ },
+ {
+  "id": "ms-ms_commercial-05",
+  "sec": "cpp",
+  "title": "Commercial property coverage forms and the conditions form (ISO)",
+  "pairs": [
+   {
+    "a": "Building and Personal Property",
+    "b": "ISO's key direct-damage form for buildings and business personal property"
+   },
+   {
+    "a": "Condominium Association",
+    "b": "Association's building; insurer waives recovery against unit-owners"
+   },
+   {
+    "a": "Condominium Commercial Unit-Owners",
+    "b": "Unit-owner's business property; excess over the association's insurance"
+   },
+   {
+    "a": "Builders Risk",
+    "b": "Building under construction, including materials meant to be installed"
+   },
+   {
+    "a": "Business Income (and Extra Expense)",
+    "b": "Lost net income plus continuing expenses during the period of restoration"
+   },
+   {
+    "a": "Extra Expense",
+    "b": "Costs to keep operating; payment capped by percentages per time period"
+   },
+   {
+    "a": "Legal Liability",
+    "b": "Your liability for damage to others' property in your care"
+   },
+   {
+    "a": "Commercial Property Conditions",
+    "b": "Shared conditions, e.g., suit within 2 years, 45-day liberalization"
+   }
+  ],
+  "source": "ISO CP 00 10 10 12, A.1 and IRMI glossary 'building and personal property coverage form' ('the key ISO direct damage commercial property coverage form'); CP 00 17 10 12, E.9 (waiver of rights of recovery against unit-owners); CP 00 18 10 12, A.1.a and Loss Condition 3 ('intended to be excess, and not to contribute'); CP 00 20 06 95, A.1 (building in the course of construction, including building materials and supplies); CP 00 30 10 12, A.1; CP 00 50 10 12, C.3 (percentages of the limit by length of the period of restoration); CP 00 40 10 12, A. and A.1; CP 00 90 07 88, D-E."
+ },
+ {
+  "id": "ms-ms_commercial-06",
+  "sec": "cpp",
+  "title": "Commercial property causes of loss forms, endorsements and options",
+  "pairs": [
+   {
+    "a": "Causes of Loss - Basic Form",
+    "b": "Eleven named perils, from fire and lightning to volcanic action"
+   },
+   {
+    "a": "Causes of Loss - Broad Form",
+    "b": "Basic perils plus falling objects, weight of snow, water damage"
+   },
+   {
+    "a": "Causes of Loss - Special Form",
+    "b": "Direct physical loss unless excluded or limited (open perils)"
+   },
+   {
+    "a": "Ordinance or Law Coverage",
+    "b": "Undamaged portion, demolition cost and increased construction cost"
+   },
+   {
+    "a": "Spoilage Coverage",
+    "b": "Perishable stock lost to refrigeration breakdown, refrigerant contamination or power outage"
+   },
+   {
+    "a": "Peak Season Limit of Insurance",
+    "b": "Extra personal property limit only during scheduled dates"
+   },
+   {
+    "a": "Value Reporting Form",
+    "b": "Final premium based on the average of your periodic value reports"
+   },
+   {
+    "a": "Agreed Value (optional coverage)",
+    "b": "Coinsurance suspended until the agreed value expiration date"
+   }
+  ],
+  "source": "ISO CP 10 10 10 12, A.1-11; CP 10 20 10 12, A.12-14 (falling objects; weight of snow, ice or sleet; water damage); CP 10 30 09 17, A.; CP 04 05 09 17, C.1-3; CP 04 40 06 07, A. and C.3 (Breakdown or Contamination - contamination by the refrigerant; Power Outage); CP 12 30 06 95 (limit on covered personal property increased only during the scheduled periods); CP 13 10 04 02, C.1 (advance premium; final premium based on the average of your reports of value); CP 00 10 10 12, G.1."
+ },
+ {
+  "id": "ms-ms_commercial-07",
+  "sec": "cpp",
+  "title": "Commercial crime insuring agreements (ISO CR 00 21 11 15)",
+  "pairs": [
+   {
+    "a": "Employee Theft",
+    "b": "Theft by your employees, acting alone or with others"
+   },
+   {
+    "a": "Forgery or Alteration",
+    "b": "Forged or altered checks or drafts drawn by or upon you"
+   },
+   {
+    "a": "Inside Premises - Money and Securities",
+    "b": "Money and securities inside: theft, disappearance or destruction"
+   },
+   {
+    "a": "Inside Premises - Robbery/Safe Burglary",
+    "b": "Other property inside: robbery of a custodian or safe burglary only"
+   },
+   {
+    "a": "Outside the Premises",
+    "b": "Property in a messenger's or armored car company's custody"
+   },
+   {
+    "a": "Computer and Funds Transfer Fraud",
+    "b": "Fraudulent computer entries or fake transfer instructions to your bank"
+   },
+   {
+    "a": "Money Orders and Counterfeit Money",
+    "b": "Unpaid money orders or counterfeit money accepted in good faith"
+   }
+  ],
+  "source": "ISO CR 00 21 11 15, A.1-7 (form text). The 2006 ISO crime forms (e.g., CR 00 22 05 06, A.6-7) listed Computer Fraud and Funds Transfer Fraud as separate insuring agreements, as the PSI outline does; the 11 15 edition combines them."
+ },
+ {
+  "id": "ms-ms_commercial-08",
+  "sec": "cpp",
+  "title": "Commercial crime definitions (ISO CR 00 21 11 15) and the two crime forms",
+  "pairs": [
+   {
+    "a": "Robbery",
+    "b": "Taking from a person by harm, threat, or unlawful act they witness"
+   },
+   {
+    "a": "Safe burglary",
+    "b": "Taking from a locked safe with forced-entry marks, or the safe itself"
+   },
+   {
+    "a": "Custodian",
+    "b": "Insured, partner or employee holding property inside; not janitors or watchpersons"
+   },
+   {
+    "a": "Messenger",
+    "b": "Insured, relative, partner or employee holding property outside the premises"
+   },
+   {
+    "a": "Forgery",
+    "b": "Signing another's name to deceive; never one's own signature"
+   },
+   {
+    "a": "Discover",
+    "b": "When you first learn facts making a reasonable person assume loss"
+   },
+   {
+    "a": "Loss sustained form",
+    "b": "Loss occurring during the policy period; 1-year extended discovery period"
+   },
+   {
+    "a": "Discovery form",
+    "b": "Loss may occur anytime; discovered in period or within 60 days"
+   }
+  ],
+  "source": "ISO CR 00 21 11 15, F. defs. 4, 5, 11, 15, 20, 21; A. preamble and E.1.g (loss sustained: occurrence during the policy period, discovered no later than one year from cancellation). Discovery form: ISO CR 00 22 05 06 and CR 00 22 06 22 (Commercial Crime Policy, Discovery Form), A. preamble ('occurrence' taking place at any time) and E.1.j (discovered no later than 60 days from cancellation; 1 year for employee benefit plans); CR 00 20 is the coverage-form version of the same discovery form."
+ },
+ {
+  "id": "ms-ms_commercial-09",
+  "sec": "cpp",
+  "title": "Inland marine coverage forms (who and what they cover)",
+  "pairs": [
+   {
+    "a": "Accounts Receivable",
+    "b": "Uncollectible customer balances after your records are damaged"
+   },
+   {
+    "a": "Bailee's Customers",
+    "b": "Customers' goods left with you for cleaning, repair or storage"
+   },
+   {
+    "a": "Commercial Articles",
+    "b": "Cameras and musical instruments used professionally or commercially"
+   },
+   {
+    "a": "Contractors Equipment Floater",
+    "b": "A contractor's equipment and tools, like cranes and power shovels"
+   },
+   {
+    "a": "Electronic Data Processing",
+    "b": "Computer equipment, data and media"
+   },
+   {
+    "a": "Equipment Dealers",
+    "b": "Dealer's stock of mobile farm and construction equipment"
+   },
+   {
+    "a": "Installation Floater",
+    "b": "Property, usually equipment, a contractor is installing"
+   }
+  ],
+  "source": "IRMI glossary 'accounts receivable coverage' (sums owed by customers that become uncollectible after records are damaged); ISO IH 00 85 12 13, A.1 and IRMI 'bailee coverage' (property entrusted for storage, repair or servicing; dry cleaners) (FC&S 2018); ISO CM 00 20, A.1 (cameras, musical instruments and related equipment) and FC&S 'Commercial Articles Coverage Form' (2014) (professional or commercial use); ISO IH 00 68 12 13, A.1 (your contractor's equipment) with FC&S (2018) examples (cranes, shovels); ISO IH 00 75 09 09, A.1 (computer equipment, data and media) (FC&S 2018); ISO CM 00 22, A.1 (stock in trade consisting principally of mobile agricultural and construction equipment) (FC&S 2013); IRMI glossary 'installation floater'."
+ },
+ {
+  "id": "ms-ms_commercial-10",
+  "sec": "cpp",
+  "title": "Inland marine: more forms, transportation coverages and conditions",
+  "pairs": [
+   {
+    "a": "Jewelers Block",
+    "b": "Jewelry stock of retailers, wholesalers, manufacturers and pawnbrokers"
+   },
+   {
+    "a": "Signs",
+    "b": "Neon, fluorescent, automatic or mechanical electric signs"
+   },
+   {
+    "a": "Valuable Papers and Records",
+    "b": "Cost to reconstruct damaged or destroyed valuable papers and records"
+   },
+   {
+    "a": "Motor Truck Cargo - Carriers",
+    "b": "Trucker's legal liability for others' goods it hauls"
+   },
+   {
+    "a": "Contingent Cargo",
+    "b": "Broker's backup for cargo a hired carrier is liable for"
+   },
+   {
+    "a": "Annual Transit",
+    "b": "Your shipments throughout the whole policy term"
+   },
+   {
+    "a": "Trip Transit",
+    "b": "One specific, individual shipment"
+   },
+   {
+    "a": "Inland Marine Conditions (CM 00 01)",
+    "b": "No abandonment to insurer; claims generally don't reduce limits"
+   }
+  ],
+  "source": "IRMI glossary 'jewelers block insurance', 'valuable papers and records coverage', 'trip transit insurance'; FC&S 'Signs Coverage Form' (ISO manual: neon, fluorescent, automatic or mechanical electric signs and lamps); Verisk transportation program sheet (2022) (motor truck cargo carriers = legal liability for a carrier hauling property of others; contingent cargo for brokers, for property for which the carrier for hire is liable; annual and trip transit); ISO CM 00 01 09 04, A. and I. (limit not reduced except total loss of a scheduled item)."
+ },
+ {
+  "id": "ms-ms_commercial-11",
+  "sec": "cpp",
+  "title": "Farm property coverage letters A-G (ISO farm program)",
+  "pairs": [
+   {
+    "a": "Coverage A",
+    "b": "Farm dwellings, including attached structures"
+   },
+   {
+    "a": "Coverage B",
+    "b": "Other private structures appurtenant to dwellings, like garages"
+   },
+   {
+    "a": "Coverage C",
+    "b": "Household personal property"
+   },
+   {
+    "a": "Coverage D",
+    "b": "Loss of use: additional living expense and fair rental value"
+   },
+   {
+    "a": "Coverage E",
+    "b": "Scheduled farm personal property, each class with its own limit"
+   },
+   {
+    "a": "Coverage F",
+    "b": "Unscheduled (blanket) farm personal property, 80% coinsurance"
+   },
+   {
+    "a": "Coverage G",
+    "b": "Barns, outbuildings, silos and other farm structures"
+   }
+  ],
+  "source": "ISO FP 00 10 09 94, Coverages A-G (form text; Cov. E limits shown for each specific type of property; Cov. F Loss Condition - Coinsurance, at least 80% of ACV; Cov. G covers farm buildings and silos described in the Declarations). FC&S (2017) on FP 00 13: Coverage F 80% coinsurance unchanged in the 2016 form."
+ },
+ {
+  "id": "ms-ms_commercial-12",
+  "sec": "cpp",
+  "title": "Farm liability coverages and farm inland marine forms",
+  "pairs": [
+   {
+    "a": "Coverage H",
+    "b": "Farm bodily injury and property damage liability"
+   },
+   {
+    "a": "Coverage I",
+    "b": "Farm personal and advertising injury liability"
+   },
+   {
+    "a": "Coverage J",
+    "b": "Farm medical payments to others, paid regardless of fault"
+   },
+   {
+    "a": "Mobile Agricultural Machinery and Equipment",
+    "b": "A farm's mobile machinery, written blanket or scheduled"
+   },
+   {
+    "a": "Livestock Coverage Form",
+    "b": "Named perils for death or destruction of livestock"
+   }
+  ],
+  "source": "ISO FL 00 20 Coverages H, I, J (FC&S 'Farm Liability Coverage Form' (2013), quoting form text: Coverage J 'We will make these payments regardless of fault'); ISO FP 00 30, A.1 (scheduled items with individual limits and/or unscheduled items under a single limit; blanket basis) (FC&S 2012); ISO FP 00 40 02 09, A.3 and defs. ('loss' means death or destruction of livestock; named causes of loss) (FC&S 2016)."
+ },
+ {
+  "id": "ms-ms_commercial-13",
+  "sec": "other",
+  "title": "Surety bonds: the three parties and common bond types",
+  "pairs": [
+   {
+    "a": "Principal",
+    "b": "Party whose obligation is guaranteed, such as the contractor"
+   },
+   {
+    "a": "Obligee",
+    "b": "Party the bond protects, paid if the principal fails"
+   },
+   {
+    "a": "Surety",
+    "b": "Guarantor that pays the obligee, then seeks repayment from the principal"
+   },
+   {
+    "a": "Bid bond",
+    "b": "Guarantees bidder won't withdraw, and will sign contract and furnish bonds"
+   },
+   {
+    "a": "Performance bond",
+    "b": "Guarantees the contractor will perform the contract's obligations"
+   },
+   {
+    "a": "Payment bond",
+    "b": "Guarantees job workers and material suppliers will be paid"
+   },
+   {
+    "a": "License and permit bond",
+    "b": "Guarantees a licensee follows the laws governing its licensed activity"
+   },
+   {
+    "a": "Fiduciary bond",
+    "b": "Guarantees a court-appointed fiduciary faithfully handles others' property"
+   }
+  ],
+  "source": "FAR 48 CFR 28.001 ('Bond', 'Bid guarantee', 'Payment bond', 'Performance bond'); surety.org 'What is a Surety Bond?' and SFAA/AGC Surety Claims Guide (principal indemnifies the surety); IRMI glossary 'license and permit bond', 'fiduciary bond'; FC&S 'Judicial Bonds' (2000)."
+ },
+ {
+  "id": "ms-ms_commercial-14",
+  "sec": "wc",
+  "title": "Workers compensation and employers liability policy: the six parts (NCCI WC 00 00 00 C)",
+  "pairs": [
+   {
+    "a": "Part One",
+    "b": "Workers compensation: state-required benefits, no dollar limit"
+   },
+   {
+    "a": "Part Two",
+    "b": "Employers liability: employee injury suits, limits in Item 3.B"
+   },
+   {
+    "a": "Part Three",
+    "b": "Other states insurance for states listed in Item 3.C"
+   },
+   {
+    "a": "Part Four",
+    "b": "Duties after injury: notify insurer at once, provide required medical care"
+   },
+   {
+    "a": "Part Five",
+    "b": "Premium: rate times payroll; audit used to set final premium"
+   },
+   {
+    "a": "Part Six",
+    "b": "Conditions: inspection, cancellation, transfer of rights, sole representative"
+   }
+  ],
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part One B (benefits required by the workers compensation law; no limit of liability), Part Two A and G (limits shown in Item 3.B), Part Three A (Item 3.C), Part Four, Part Five C, E and G, Part Six A-E."
+ },
+ {
+  "id": "ms-ms_commercial-15",
+  "sec": "wc",
+  "title": "Which workers comp law or coverage applies?",
+  "pairs": [
+   {
+    "a": "FELA",
+    "b": "Interstate railroad workers sue employers for negligence"
+   },
+   {
+    "a": "USL&HW Act",
+    "b": "Longshore, harbor and shipyard workers; benefits regardless of fault"
+   },
+   {
+    "a": "Jones Act",
+    "b": "Injured seamen (vessel crew) sue employers, using FELA rules"
+   },
+   {
+    "a": "Michigan WDCA (ch. 418)",
+    "b": "Michigan's comp law; exclusive remedy except intentional torts"
+   },
+   {
+    "a": "Voluntary Compensation Endorsement",
+    "b": "Pays statutory-level benefits to workers the law doesn't require covering"
+   }
+  ],
+  "source": "45 USC 51; 33 USC 902(3)(G), 904(b) ('irrespective of fault'); 46 USC 30104; MCL 418.131(1); NCCI WC 00 03 11 A, A-C; NCRB Basic Manual Rule 5 (USL&HW covers longshore workers, harbor workers, ship repairers and shipbuilders; not masters or crew of a vessel)."
+ },
+ {
+  "id": "ms-ms_commercial-16",
+  "sec": "other",
+  "title": "Specialty liability and umbrella/excess policies",
+  "pairs": [
+   {
+    "a": "Errors and Omissions (E&O)",
+    "b": "Clients' financial loss from mistakes in your professional services"
+   },
+   {
+    "a": "Directors and Officers (D&O)",
+    "b": "Claims against directors and officers for acts in those roles"
+   },
+   {
+    "a": "Fiduciary Liability",
+    "b": "Errors administering employee benefit plans under ERISA"
+   },
+   {
+    "a": "Employment Practices Liability (EPLI)",
+    "b": "Discrimination, harassment and wrongful termination claims"
+   },
+   {
+    "a": "Liquor Liability",
+    "b": "Injury liability from selling, serving or furnishing alcohol"
+   },
+   {
+    "a": "Cyber Insurance",
+    "b": "Data breach costs like notification and forensics, plus related liability"
+   },
+   {
+    "a": "Umbrella Liability",
+    "b": "Excess limits, plus some claims underlying policies don't cover"
+   },
+   {
+    "a": "Follow-Form Excess",
+    "b": "Higher limits following the underlying policy's terms, no broadening"
+   }
+  ],
+  "source": "IRMI glossary 'errors and omissions insurance', 'directors and officers liability insurance', 'fiduciary liability', 'employment practices liability insurance', 'umbrella liability policy', 'follow form'; ISO CG 00 33 04 13, Sec. I 1.a; NAIC 'Cyber Insurance' consumer guide."
+ },
+ {
+  "id": "ms-ms_commercial-17",
+  "sec": "other",
+  "title": "National Flood Insurance Program terms (SFIP Dwelling Form)",
+  "pairs": [
+   {
+    "a": "Write Your Own (WYO)",
+    "b": "Private insurers issue and service policies; government pays losses"
+   },
+   {
+    "a": "NFIP Direct",
+    "b": "FEMA's wholly owned company that issues NFIP policies directly"
+   },
+   {
+    "a": "Flood",
+    "b": "Temporary inundation of 2+ acres of dry land or 2+ properties"
+   },
+   {
+    "a": "Coverage A",
+    "b": "Building property"
+   },
+   {
+    "a": "Coverage B",
+    "b": "Personal property (contents)"
+   },
+   {
+    "a": "Coverage C",
+    "b": "Other coverages: debris removal, loss avoidance, condo assessments"
+   },
+   {
+    "a": "Coverage D",
+    "b": "Increased Cost of Compliance, up to $30,000"
+   },
+   {
+    "a": "Standard waiting period",
+    "b": "Usually 30 days before a new policy takes effect"
+   }
+  ],
+  "source": "FEMA 'Federal Disaster Assistance: Meeting the Flood Insurance Requirement' (07-2024), p. 5 (NFIP Direct is FEMA's wholly owned insurance company; WYO companies write and service policies in their own names while the federal government pays all losses); 44 CFR Pt. 61 App. A(1) (SFIP Dwelling Form), II.B (definition of flood), III.A-D (Coverage D limit: up to $30,000); 42 USC 4013(c) (30-day waiting period, with exceptions)."
+ },
+ {
+  "id": "ms-ms_commercial-18",
+  "sec": "bop",
+  "title": "Businessowners optional coverages and selected endorsements (2013 ISO Businessowners)",
+  "pairs": [
+   {
+    "a": "Money and Securities",
+    "b": "Theft, disappearance or destruction at premises, bank, homes or in transit"
+   },
+   {
+    "a": "Employee Dishonesty",
+    "b": "Employee dishonest acts, discovered within 1 year after policy ends"
+   },
+   {
+    "a": "Equipment Breakdown Protection",
+    "b": "Mechanical breakdown or electrical failure of machinery and equipment"
+   },
+   {
+    "a": "Protective Safeguards",
+    "b": "Keep listed safeguards like sprinklers working, or fire loss is excluded"
+   },
+   {
+    "a": "Utility Services - Direct Damage",
+    "b": "Property damage from interrupted off-premises utility service"
+   },
+   {
+    "a": "Utility Services - Time Element",
+    "b": "Business income or extra expense from interrupted off-premises utility service"
+   },
+   {
+    "a": "Hired and Non-Owned Auto Liability",
+    "b": "Liability from rented autos and others' autos used in your business"
+   }
+  ],
+  "source": "ISO BP 00 03 07 13, Sec. I G.2, G.3.a and g, G.4.a; ISO IL 04 15 04 98 and FC&S (2016, 2020) on the BOP version BP 04 30 (fire excluded if the insured knew of an impairment and failed to notify, or failed to maintain a listed safeguard); ISO BP 04 56 07 13, A. and C.; ISO BP 04 57 07 13, A. and C.; ISO BP 04 04 01 10, A.1-2 (hired auto used by you or your employees in the course of your business; non-owned auto used in your business by any person)."
+ }
+]

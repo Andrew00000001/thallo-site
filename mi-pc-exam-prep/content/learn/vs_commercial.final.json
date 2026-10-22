@@ -1,0 +1,496 @@
+[
+  {
+    "id": "vs-vs_commercial-01",
+    "sec": "cpp",
+    "title": "CGL coverage parts at a glance (2013 ISO CGL, CG 00 01 04 13)",
+    "kind": "table",
+    "columns": [
+      "Part",
+      "What it pays",
+      "Trigger or key rule",
+      "Limits that apply"
+    ],
+    "rows": [
+      [
+        "Coverage A – Bodily Injury and Property Damage",
+        "Damages the insured legally owes for BI or PD, plus defense",
+        "BI/PD caused by an occurrence in the coverage territory, occurring during the policy period, and not known to a listed insured before the policy period",
+        "Each Occurrence; General Aggregate (or Products-Completed Operations Aggregate for that hazard); Damage to Premises Rented to You sublimit"
+      ],
+      [
+        "Coverage B – Personal and Advertising Injury",
+        "Damages for listed offenses: false arrest; malicious prosecution; wrongful eviction or entry; libel, slander or disparagement; privacy violation; using another's advertising idea, or infringing copyright, trade dress or slogan, in your ad; plus defense",
+        "Offense arising out of your business, committed in the coverage territory during the policy period",
+        "Personal and Advertising Injury Limit (per person or organization); General Aggregate"
+      ],
+      [
+        "Coverage C – Medical Payments",
+        "Medical expenses for BI from an accident on your premises, on ways next to them, or because of your operations",
+        "Accident in the coverage territory during the policy period; paid regardless of fault; expenses must be incurred and reported within 1 year of the accident",
+        "Medical Expense Limit (per person), within Each Occurrence; General Aggregate"
+      ],
+      [
+        "Supplementary Payments (A and B)",
+        "All expenses the insurer incurs (e.g., defense); up to $250 for bail bonds; release-of-attachment bonds; insured's expenses, including lost earnings up to $250 a day; court costs (not attorney fees); interest",
+        "Apply to claims the insurer investigates or settles and suits it defends",
+        "Paid in addition to the limits"
+      ]
+    ],
+    "notes": [
+      "General Aggregate = Coverage A (except products-completed operations) + Coverage B + Coverage C.",
+      "Products-Completed Operations Aggregate applies only to Coverage A BI/PD in the products-completed operations hazard.",
+      "Each Occurrence Limit is the most paid for Coverage A + Coverage C from any one occurrence.",
+      "The duty to defend ends when the applicable limit is used up paying judgments or settlements (A or B) or medical expenses (C).",
+      "Coverage C exclusions include injury to any insured (volunteer workers excepted), to a person injured while practicing, instructing or participating in exercises, games, sports or athletic contests, and injury within the products-completed operations hazard."
+    ],
+    "source": "ISO CG 00 01 04 13: Sec. I Cov. A 1.a-b; Cov. B 1.a-b; Cov. C 1.a-b and 2.a, 2.e, 2.f; Supplementary Payments - Coverages A and B 1.a-g; Sec. III 2-7; Sec. V def. 14"
+  },
+  {
+    "id": "vs-vs_commercial-02",
+    "sec": "cpp",
+    "title": "Claims-made CGL timeline: retroactive date, trigger and the two tails",
+    "kind": "timeline",
+    "steps": [
+      {
+        "label": "Retroactive date",
+        "detail": "Shown in the Declarations. BI or PD that occurred before this date is not covered, even if the claim is made during the policy period. The date tests when the injury or damage happened, not when the act that caused it happened."
+      },
+      {
+        "label": "Injury or damage occurs",
+        "detail": "To be covered it must occur after the retroactive date and before the end of the policy period. (On an occurrence CGL, this is the trigger.)"
+      },
+      {
+        "label": "Claim first made during the policy period",
+        "detail": "This is the claims-made trigger. A claim first made after the policy ends is generally not covered unless an extended reporting period applies."
+      },
+      {
+        "label": "Policy ends",
+        "detail": "The extended reporting periods apply if the policy is canceled or nonrenewed, the insurer advances the retroactive date, or the insurer replaces it with an occurrence policy."
+      },
+      {
+        "label": "Basic Extended Reporting Period (automatic, no charge)",
+        "detail": "5 years after the policy ends for claims from an occurrence reported to the insurer within 60 days after the policy ends; only 60 days after the policy ends for claims from incidents not reported. Does not reinstate or increase limits, and does not apply if later insurance covers the claim."
+      },
+      {
+        "label": "Supplemental Extended Reporting Period (optional, extra premium)",
+        "detail": "Must be elected in writing within 60 days after the policy ends; the extra premium cannot exceed 200% of the annual premium. Starts when the Basic ERP ends, lasts an unlimited time, reinstates the aggregate limits, and is excess over other insurance."
+      }
+    ],
+    "notes": [
+      "Neither tail covers injury or damage that occurs after the policy ends. Both only add time to report claims for injury or damage that occurred after the retroactive date and before the policy ended.",
+      "Form: ISO Commercial General Liability Coverage Form - Claims-Made (CG 00 02). The study guide's analysis of the 2013 edition (CG 00 02 04 13) gives the same tail rules."
+    ],
+    "source": "Craig F. Stanovich, \"The Claims-Made CGL Policy\" (IRMI Expert Commentary, Nov. 2012; Austin & Stanovich), sections on the claims-made trigger, Retroactive Date, Basic Extended Reporting Period and Supplemental Extended Reporting Period; FC&S \"Claims-Made CGL Form\" (2014) as summarized in comm_facts.md; ISO CG 00 01 04 13, Sec. I Cov. A 1.b (occurrence trigger)"
+  },
+  {
+    "id": "vs-vs_commercial-03",
+    "sec": "cpp",
+    "title": "Commercial property causes of loss: Basic vs. Broad vs. Special",
+    "kind": "table",
+    "columns": [
+      "Cause of loss",
+      "Basic (CP 10 10)",
+      "Broad (CP 10 20)",
+      "Special (CP 10 30)"
+    ],
+    "rows": [
+      [
+        "Fire, lightning, explosion",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Windstorm or hail; smoke",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Aircraft or vehicles; riot or civil commotion",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Vandalism; sprinkler leakage",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Sinkhole collapse; volcanic action",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Falling objects",
+        "No",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Weight of snow, ice or sleet",
+        "No",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Water damage (accidental discharge from a system or appliance)",
+        "No",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Collapse (Additional Coverage)",
+        "No",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Theft",
+        "No",
+        "No",
+        "Yes, with special theft limits"
+      ],
+      [
+        "Any other direct physical loss not excluded or limited",
+        "No",
+        "No",
+        "Yes"
+      ]
+    ],
+    "notes": [
+      "Basic and Broad are named perils. Special covers \"direct physical loss unless the loss is excluded or limited\" (open perils).",
+      "The vandalism peril does not cover theft, except building damage caused by burglars breaking in or out. The vehicles peril does not cover vehicles you own or that are operated in your business.",
+      "Special form theft limits per occurrence (unless higher limits are shown): $2,500 furs; $2,500 jewelry, watches, precious stones and metals (this limit does not apply to jewelry and watches worth $100 or less per item); $2,500 patterns, dies, molds and forms; $250 stamps, tickets (including lottery tickets held for sale) and letters of credit. These limits are part of, not in addition to, the limit of insurance.",
+      "All three forms exclude earth movement and water (including flood), and all three give limited fungus coverage of $15,000 in a 12-month period.",
+      "Editions: CP 10 10 10 12, CP 10 20 10 12, CP 10 30 09 17."
+    ],
+    "source": "ISO CP 10 10 10 12, A.1-11, B.1.b and B.1.g (exclusions), C (limited fungus, $15,000); ISO CP 10 20 10 12, A.12-14, B.1.b and B.1.g, C (Additional Coverage - Collapse), D ($15,000); ISO CP 10 30 09 17, A, B.1.b and B.1.g, C.3 (theft special limits), D (Collapse), E ($15,000), G (specified causes of loss)"
+  },
+  {
+    "id": "vs-vs_commercial-04",
+    "sec": "cpp",
+    "title": "Commercial crime insuring agreements (2015 ISO Commercial Crime Coverage Form, CR 00 21 11 15)",
+    "kind": "table",
+    "columns": [
+      "#",
+      "Insuring agreement",
+      "What it covers"
+    ],
+    "rows": [
+      [
+        "1",
+        "Employee Theft",
+        "Theft of money, securities or other property by an employee, identified or not; includes forgery by an employee"
+      ],
+      [
+        "2",
+        "Forgery or Alteration",
+        "Forged or altered checks, drafts, promissory notes and similar orders to pay made or drawn by or drawn upon you (or your agent)"
+      ],
+      [
+        "3",
+        "Inside the Premises – Theft of Money and Securities",
+        "Money and securities inside the premises or a financial institution's premises: theft by a person present there, disappearance or destruction; plus damage to the premises and to a locked safe, vault, cash register, cash box or cash drawer"
+      ],
+      [
+        "4",
+        "Inside the Premises – Robbery or Safe Burglary of Other Property",
+        "Other property inside: actual or attempted robbery of a custodian or safe burglary; plus damage to a locked safe or vault, and to premises you own or are liable for"
+      ],
+      [
+        "5",
+        "Outside the Premises",
+        "Property in the care of a messenger or armored car company: money and securities for theft, disappearance or destruction; other property for actual or attempted robbery only"
+      ],
+      [
+        "6",
+        "Computer and Funds Transfer Fraud",
+        "(a) Fraudulent entry or change of data or a program in a computer system you own, lease or operate that causes property to be transferred or your bank account to be debited; (b) fraudulent instructions directing your bank to debit your transfer account"
+      ],
+      [
+        "7",
+        "Money Orders and Counterfeit Money",
+        "Money orders not paid on presentation, and counterfeit money, accepted in good faith in exchange for merchandise, money or services"
+      ]
+    ],
+    "notes": [
+      "An insuring agreement applies only if a Limit of Insurance is shown for it in the Declarations.",
+      "Edition history: the PSI outline lists Computer Fraud and Funds Transfer Fraud separately, as the 2006 ISO crime forms did (05 06 edition: 8 insuring agreements, with Computer Fraud as No. 6 and Funds Transfer Fraud as No. 7). ISO's 2013 crime revision (08 13 edition forms) combined them into one Computer And Funds Transfer Fraud agreement, and the 2015 edition keeps them combined.",
+      "Loss Sustained form (CR 00 21): the loss must come from an occurrence during the policy period (except as the prior-insurance conditions E.1.k-l allow) and be discovered during the policy period or no later than 1 year after cancellation. That extended period ends at once if replacement insurance is bought.",
+      "Discovery form (CR 00 20): the occurrence may take place at any time, but the loss must be discovered during the policy period or, for loss sustained before cancellation, no later than 60 days after cancellation (1 year for employee benefit plans). The 60 days end at once if replacement insurance is bought."
+    ],
+    "source": "ISO CR 00 21 11 15, A. (preamble) and A.1-7, E.1.g; ISO CR 00 22 05 06 (Commercial Crime Policy - Discovery Form, 2006 edition), A. (preamble), A.6-8, E.1.j; FC&S \"Commercial Crime Coverage Form\" (Oct. 26, 2015, republished July 9, 2018; quotes CR 00 20 11 15 Extended Period To Discover Loss: 60 days, 1 year for employee benefit plans); FC&S \"Commercial Crime Policy\" (Nov. 24, 2014, republished July 9, 2018; ISO crime program updated in 2013, CR 00 22 08 13 and CR 00 23 08 13: \"Computer fraud and funds transfer fraud have been combined\"); PSI Series 16-81 content outline (Commercial Crime coverages)"
+  },
+  {
+    "id": "vs-vs_commercial-05",
+    "sec": "bop",
+    "title": "Businessowners policy (BOP) vs. commercial package policy (CPP)",
+    "kind": "table",
+    "columns": [
+      "Feature",
+      "BOP (2013 ISO BP 00 03 07 13)",
+      "CPP (ISO coverage parts)"
+    ],
+    "rows": [
+      [
+        "How it is built",
+        "One businessowners form: Section I Property, Section II Liability, Section III Common Policy Conditions",
+        "Common Policy Declarations and Conditions (IL 00 17) plus two or more coverage parts, e.g., Commercial Property and CGL"
+      ],
+      [
+        "Who uses it",
+        "Small businesses that meet ISO type and size rules (generally no more than 35,000 sq ft and $6 million annual gross sales per location); some businesses are not an eligible class at any size (e.g., an ordinary bar or tavern)",
+        "Commercial package policies are used for businesses not eligible for a BOP (any business may choose one)"
+      ],
+      [
+        "Rating",
+        "Special businessowners rules and rates",
+        "Each part rated by monoline rules and rates; a package discount applies to eligible policies"
+      ],
+      [
+        "Property causes of loss",
+        "Built in: direct physical loss unless excluded or limited (open perils)",
+        "Choose Basic, Broad or Special causes of loss form"
+      ],
+      [
+        "Insurance to value",
+        "No coinsurance clause; replacement cost if the limit is at least 80% of full replacement cost (below 80%: the greater of ACV or a proportion of replacement cost)",
+        "Coinsurance clause (percentage in Declarations); ACV unless the Replacement Cost option is chosen"
+      ],
+      [
+        "Business income",
+        "Included: actual loss sustained within 12 months after the loss; not subject to a dollar limit",
+        "Must be added with a separate form (e.g., Business Income (and Extra Expense) CP 00 30), subject to its limit"
+      ],
+      [
+        "Liability limits",
+        "One Liability and Medical Expenses limit per occurrence (plus Medical Expenses per-person and Damage To Premises Rented To You limits); each aggregate is twice that limit",
+        "CGL shows separate Each Occurrence, General Aggregate, Products-Completed Operations Aggregate and Personal and Advertising Injury limits"
+      ],
+      [
+        "Sample built-in amounts",
+        "Building limit grows 8% a year automatically (unless another % is shown); fire department service charge $2,500; electronic data $10,000",
+        "Inflation Guard only if chosen; fire department service charge $1,000; electronic data $2,500"
+      ]
+    ],
+    "notes": [
+      "BOP column is the 2013 ISO Businessowners Coverage Form. ISO's revised BOP forms took effect in Michigan for policies written on or after July 1, 2025, so newer policies may differ.",
+      "CPP column amounts are from the Building and Personal Property Coverage Form (CP 00 10 10 12).",
+      "Both are package policies: each combines property and liability coverage in one policy."
+    ],
+    "source": "ISO BP 00 03 07 13, Sec. I A.3, A.5.c, A.5.f(1)(b), A.5.f(4), A.5.p(3), C.4, E.5.d(1); Sec. II D.2-4; Sec. III heading; ISO IL 00 17 11 98 preamble; ISO CP 00 10 10 12, A.4.c, A.4.f(4), E.7, F.1, G.2-3; ISO CP 00 30 10 12, A.1; IRMI white paper \"Businessowners Policy Basics\" (eligibility by type and size, ineligible classes, BOP rules and rates, monoline rating with package discount, package policies for businesses not eligible for the BOP); IRMI glossary \"commercial package policy\"; IRMI \"Major Changes to the 2025 ISO Businessowners Program\" (Aug. 29, 2025) and ISO circular LI-BP-2024-315 as cited in comm_facts.md; ISO \"Businessowners Policy (BOP) Program\" overview (Feb. 11, 2025), pp. 2-3 (eligible types and size limits)"
+  },
+  {
+    "id": "vs-vs_commercial-06",
+    "sec": "wc",
+    "title": "The workers compensation and employers liability policy, part by part (NCCI WC 00 00 00 C, Ed. 1-15)",
+    "kind": "table",
+    "columns": [
+      "Part",
+      "What it does",
+      "Key points"
+    ],
+    "rows": [
+      [
+        "General Section",
+        "Defines the policy, who is insured, the workers compensation law (states in Item 3.A) and covered workplaces",
+        "Federal WC and occupational disease laws not included; changes only by endorsement; a partner is insured only as an employer"
+      ],
+      [
+        "Part One – Workers Compensation Insurance",
+        "Pays promptly the benefits required by the WC law of an Item 3.A state",
+        "No dollar limit (statutory); defense paid in addition; employer repays extra benefits caused by its own violations (e.g., serious and willful misconduct)"
+      ],
+      [
+        "Part Two – Employers Liability Insurance",
+        "Pays damages the employer legally owes for employee bodily injury (e.g., third-party-over suits, loss of services, family members' consequential injury)",
+        "Limits (Item 3.B): accident–each accident; disease–policy limit; disease–each employee. Exclusions include FELA, USL&HW Act and other federal comp laws, vessel masters and crew, employment practices"
+      ],
+      [
+        "Part Three – Other States Insurance",
+        "If states are listed in Item 3.C and you begin work in one after the effective date (not otherwise insured), the policy applies as if that state were in Item 3.A",
+        "Tell insurer at once; work you already have on the effective date in a state not listed in Item 3.A is covered only if the insurer is notified within 30 days"
+      ],
+      [
+        "Part Four – Your Duties If Injury Occurs",
+        "Employer's duties after an injury",
+        "Tell insurer at once; provide required medical care; give names and witnesses; forward papers; cooperate; protect recovery rights; no voluntary payments"
+      ],
+      [
+        "Part Five – Premium",
+        "Premium = rate × premium basis (usually payroll)",
+        "Premium shown is an estimate; final premium uses actual exposure, found by audit (during the policy and up to 3 years after); unless the manuals say otherwise, insurer cancels = pro rata, insured cancels = short rate"
+      ],
+      [
+        "Part Six – Conditions",
+        "Inspection, long-term policy, transfer, cancellation, sole representative",
+        "Inspections are not safety inspections; a policy over 1 year and 16 days = new policy each anniversary; insurer cancels on at least 10 days' notice (state law controls); first named insured acts for all"
+      ]
+    ],
+    "notes": [
+      "Michigan (MCL 418.621(4)(g)): the insurer must also file notice of a cancellation or termination with the state workers' compensation agency (the statute's \"bureau of workmen's compensation\") at least 20 days before it takes effect, and it is not effective as to employees until 20 days after the agency receives the notice.",
+      "Employers liability limits: the policy sets no amount; the limits are shown in Item 3.B. Standard manual limits in the North Carolina Rate Bureau Basic Manual, Rule 5 (an NCCI-style manual, not a Michigan rule): $100,000 bodily injury by accident–each accident; $500,000 bodily injury by disease–policy limit; $100,000 bodily injury by disease–each employee. Higher limits may be bought.",
+      "In the Michigan Workers Compensation Placement Facility, a mandatory Residual Market Limited Other States Insurance Endorsement (WC 00 03 26 A) replaces Part Three."
+    ],
+    "source": "NCCI WC 00 00 00 C (Ed. 1-15): General Section A-E; Part One A-D, F; Part Two A-C, G; Part Three A-B; Part Four; Part Five A, C, E, G; Part Six A-E; MCL 418.621(4)(g); North Carolina Rate Bureau Basic Manual, Rule 5 (\"Standard Limits for Employers Liability Insurance\"); MWCPF Basic Manual (Ed. 09/26), Rule Two C (Part Three endorsement)"
+  },
+  {
+    "id": "vs-vs_commercial-07",
+    "sec": "wc",
+    "title": "Federal compensation laws: FELA vs. USL&HW Act vs. Jones Act",
+    "kind": "table",
+    "columns": [
+      "Law",
+      "Who it covers",
+      "How the worker recovers",
+      "On the standard WC policy"
+    ],
+    "rows": [
+      [
+        "FELA (45 USC 51-60)",
+        "Employees of railroads engaged in interstate or foreign commerce",
+        "Sues the railroad for damages; injury must result in whole or in part from the railroad's negligence; the worker's own negligence reduces but does not bar recovery (no reduction if the railroad's safety-statute violation contributed)",
+        "Excluded from Part Two; add the Federal Employers' Liability Act Coverage Endorsement (WC 00 01 04)"
+      ],
+      [
+        "U.S. Longshore and Harbor Workers' Compensation Act (33 USC 901 et seq.)",
+        "Maritime workers (longshoremen, harbor workers, ship repairers, shipbuilders) injured on navigable waters or adjoining piers, docks, terminals and similar areas",
+        "No-fault compensation benefits, payable \"irrespective of fault\"",
+        "Not in Part One (federal laws excluded) and excluded from Part Two; add the Longshore and Harbor Workers' Compensation Act Coverage Endorsement (WC 00 01 06 A)"
+      ],
+      [
+        "Jones Act (46 USC 30104; formerly 46 USC 688)",
+        "Seamen: masters and crew members of vessels",
+        "Sues the employer at law, with a jury trial; the federal railway-worker (FELA) rules apply",
+        "Masters and crew excluded from Part Two; add the Maritime Coverage Endorsement (WC 00 02 01 B)"
+      ]
+    ],
+    "notes": [
+      "The USL&HW Act does not cover a master or member of a crew of any vessel; those workers fall under the Jones Act.",
+      "FELA and the Jones Act are negligence-based lawsuits for damages. The USL&HW Act is a no-fault benefit system like state workers compensation.",
+      "The USL&HW Act is not entered in Item 3.A of the Information Page; coverage comes only from the endorsement."
+    ],
+    "source": "45 USC 51, 53; 33 USC 902(3) and 902(3)(G), 903(a), 904(b); 46 USC 30104(a); NCCI WC 00 00 00 C (Ed. 1-15), General Section C and Part Two C.8-C.10; MWCPF Basic Manual (Ed. 09/26), Rule Two A-B (endorsements WC 00 01 06 A, WC 00 02 01 B, WC 00 01 04); North Carolina Rate Bureau Basic Manual Rule 5 (USL&HW not entered in Item 3.A)"
+  },
+  {
+    "id": "vs-vs_commercial-08",
+    "sec": "other",
+    "title": "Surety bond types: what each one guarantees",
+    "kind": "table",
+    "columns": [
+      "Category",
+      "Bond",
+      "The surety guarantees that…",
+      "Protects"
+    ],
+    "rows": [
+      [
+        "Contract",
+        "Bid bond",
+        "The bidder will not withdraw its bid during the acceptance period and will sign the contract and furnish the required bonds",
+        "Project owner (obligee)"
+      ],
+      [
+        "Contract",
+        "Performance bond",
+        "The contractor will perform the contract",
+        "Project owner (obligee)"
+      ],
+      [
+        "Contract",
+        "Payment bond",
+        "The contractor will pay the people who supply labor or material for the work",
+        "Laborers, subcontractors and suppliers (primary beneficiaries)"
+      ],
+      [
+        "License and permit",
+        "License and permit bond",
+        "The licensee will comply with the laws and regulations that govern the licensed activity",
+        "Government body requiring it (obligee) and the public"
+      ],
+      [
+        "Judicial",
+        "Fiduciary bond",
+        "A person the court appoints to manage others' property will perform those duties in good faith and be accountable for any shortage",
+        "The people whose property is managed (e.g., an estate's heirs and beneficiaries)"
+      ],
+      [
+        "Judicial",
+        "Court (litigation) bond, e.g., attachment or injunction bond",
+        "If the bonded party's court action fails, the other side's damages or costs will be paid",
+        "The opposing party in the lawsuit"
+      ]
+    ],
+    "notes": [
+      "Three parties: the principal (whose obligation is guaranteed), the obligee (the protected party, which usually requires the bond) and the surety (the guarantor that issues the bond).",
+      "Unlike insurance, the surety is only secondarily liable: the principal stays primarily liable and must reimburse (indemnify) the surety for any loss the surety pays, so the surety underwrites expecting the principal to meet its obligations.",
+      "Michigan example: an applicant for a new or used vehicle dealer (or broker) license must include a $25,000 bond, approved by the Secretary of State, with the application; the surety may cancel on at least 30 days' written notice to the Secretary of State."
+    ],
+    "source": "FAR 48 CFR 28.001 (\"bid guarantee\"; \"bond\" (5)-(6) payment and performance bonds); AGC \"The Contract Surety Bond Claims Process\" (Apr. 2014) (three-party contract, surety secondarily liable, principal reimburses the surety, payment bonds primarily benefit suppliers and subcontractors); SFAA \"Contract Surety Bonds: Protecting Taxpayer Dollars\" (three-party vs. two-party); IRMI glossary \"license and permit bond\" and \"fiduciary bond\"; FC&S \"Judicial Bonds\" (Aug. 2000; fiduciary bonds cover property of others under estates; court/litigation bonds; attachment and injunction bonds) and \"License and Permit Bonds\" (Feb. 2010); MCL 257.248(2)"
+  },
+  {
+    "id": "vs-vs_commercial-09",
+    "sec": "other",
+    "title": "National Flood Insurance Program (NFIP) key numbers",
+    "kind": "table",
+    "columns": [
+      "Item",
+      "Rule or amount"
+    ],
+    "rows": [
+      [
+        "Who sells it",
+        "NFIP Direct (FEMA) or Write Your Own (WYO) private insurers; both issue the Standard Flood Insurance Policy and use the same rating engine; the federal government pays all losses"
+      ],
+      [
+        "\"Flood\" means",
+        "A general and temporary inundation of 2 or more acres of normally dry land, or of 2 or more properties (one of them yours), from overflow of inland or tidal waters, unusual and rapid accumulation or runoff of surface waters, or mudflow (also certain shoreline collapse caused by waves or currents)"
+      ],
+      [
+        "Coverages",
+        "A Building Property; B Personal Property; C Other Coverages; D Increased Cost of Compliance"
+      ],
+      [
+        "Residential building (1-4 family)",
+        "Up to $250,000 building; up to $100,000 contents"
+      ],
+      [
+        "Non-residential (business) building",
+        "Up to $500,000 building; up to $500,000 contents"
+      ],
+      [
+        "Increased Cost of Compliance",
+        "Up to $30,000 (building coverage required) to elevate, floodproof, relocate or demolish after substantial or repeated flood damage; building + ICC payments cannot exceed the building maximum"
+      ],
+      [
+        "Property removed to safety (Dwelling Form)",
+        "Up to $1,000 of expenses; property covered for 45 consecutive days at the safe location"
+      ],
+      [
+        "Waiting period",
+        "30 days: coverage starts 12:01 a.m. on the 30th day after the application and premium payment. Exceptions for an initial purchase: in connection with making, increasing, extending or renewing a loan, no wait (effective at loan closing if applied and paid for by then); during the 13 months after a revised flood map takes effect for the community, 1 day; for post-wildfire flooding on federal land, 1 day if bought within 60 days after the fire is contained"
+      ],
+      [
+        "Minimum deductibles (1-4 family residential, standard)",
+        "Building: $1,000 if building coverage is $100,000 or less; $1,250 if over $100,000. Contents: $1,000"
+      ],
+      [
+        "How deductibles apply",
+        "Separate deductibles for building and contents; taken from the loss, not from the limit"
+      ]
+    ],
+    "notes": [
+      "Pre-FIRM buildings receiving a statutory discount have higher minimum building deductibles ($1,500 if building coverage is $100,000 or less; $2,000 if over).",
+      "Building and contents coverage are bought separately.",
+      "The 30-day wait also applies to added coverage or an increase in coverage on an existing policy (44 CFR 61.11(d)-(e)).",
+      "Map-revision exception wording: the statute (42 U.S.C. 4013(c)(2)(B)) covers an initial purchase made because of a flood map revision during the 1 year after notice of the revision is published; FEMA's rule (44 CFR 61.11(a)) uses the 13 months starting on the revised map's effective date.",
+      "ICC floodproofing is allowed only for non-residential buildings and for residential buildings with basements that meet FEMA standards; no separate deductible applies to ICC.",
+      "Limits are set by federal law (42 U.S.C. 4013(b)); deductible amounts are from FEMA's Risk Rating 2.0 Simple Guides (Nov. 2022) and can change."
+    ],
+    "source": "42 U.S.C. 4013(b)(2)-(4) (limits) and 4013(c) (30-day waiting period and exceptions); 44 CFR 61.11(a)-(e) (effective dates); 44 CFR Pt. 61 App. A(1) (SFIP Dwelling Form), II.B (flood), III.A-D (Coverages A-D), III.C.2.b (property removed to safety), III.D.1-2 (ICC $30,000; floodproofing limits; no deductible); FEMA brochure \"Federal Disaster Assistance: Meeting the Flood Insurance Requirement\" (07-2024), Sec. 2 (NFIP Direct and WYO, federal government pays all losses, same rating engine); FEMA \"Summary of Coverage - Commercial Property\" (01-2024) ($500,000/$500,000, ICC $30,000, separate deductibles taken from the loss, contents bought separately); FEMA NFIP Risk Rating 2.0 \"Simple Guide for Single-Family Homes\" and \"Simple Guide for Two-to-Four Family Buildings\" (Nov. 2022) (limits and minimum deductibles)"
+  }
+]

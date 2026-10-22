@@ -1,0 +1,374 @@
+[
+ {
+  "id": "vs-vs_personal-01",
+  "sec": "ho",
+  "title": "Homeowners forms at a glance: HO-2, HO-3, HO-4, HO-5, HO-6, HO-8",
+  "kind": "table",
+  "columns": [
+   "Form",
+   "Who it is for",
+   "Dwelling (Coverage A/B) perils",
+   "Contents (Coverage C) perils"
+  ],
+  "rows": [
+   [
+    "HO-2 Broad (2000 ISO, ed. 10 00)",
+    "Owner-occupant of a 1-4 family dwelling",
+    "Named perils (16)",
+    "Named perils (same 16)"
+   ],
+   [
+    "HO-3 Special (2011 ISO, ed. 05 11)",
+    "Owner-occupant of a 1-4 family dwelling",
+    "Open perils (direct physical loss unless excluded)",
+    "Named perils (16)"
+   ],
+   [
+    "HO-4 Contents Broad (2011 ISO, ed. 05 11)",
+    "Tenants; also owners living in a building they own that is not a 1- or 2-family dwelling",
+    "No Coverage A or B. Building additions and alterations made at the insured's expense: up to 10% of C, as additional insurance",
+    "Named perils (16)"
+   ],
+   [
+    "HO-5 Comprehensive (2000 ISO, ed. 10 00)",
+    "Owner-occupant of a 1-4 family dwelling",
+    "Open perils",
+    "Open perils"
+   ],
+   [
+    "HO-6 Unit-Owners (2011 ISO, ed. 05 11)",
+    "Condo unit owners and co-op shareholders (need not live in the unit)",
+    "Named perils (16) on Coverage A (no Coverage B). A covers the unit's alterations, appliances, fixtures and improvements, plus certain other unit-related property",
+    "Named perils (16)"
+   ],
+   [
+    "HO-8 Modified Coverage (2000 ISO, ed. 10 00)",
+    "Owner-occupant of a 1-4 family dwelling that may not meet insurer standards for other forms (e.g., an older home whose replacement cost far exceeds its market value)",
+    "10 named perils (the same 10 apply to A, B and C)",
+    "Same 10 named perils. Theft: on the residence premises only, max $1,000 per loss"
+   ]
+  ],
+  "notes": [
+   "Editions: HO-3, HO-4 and HO-6 were checked in the 2011 ISO forms (05 11). HO-2, HO-5 and HO-8 were checked only in the 2000 ISO forms (10 00), because the 05 11 texts could not be obtained. The Institutes' description of the 2011 program gives HO-2 (named perils on A, B and C) and HO-5 (open perils on A, B and C) the same perils basis.",
+   "The 16 named perils: fire or lightning; windstorm or hail; explosion; riot or civil commotion; aircraft; vehicles; smoke; vandalism or malicious mischief; theft; falling objects; weight of ice, snow or sleet; accidental discharge or overflow of water or steam; sudden and accidental tearing apart, cracking, burning or bulging; freezing; sudden and accidental damage from artificially generated electrical current; volcanic eruption.",
+   "HO-8's 10 perils: fire or lightning, windstorm or hail, explosion, riot or civil commotion, aircraft, vehicles, smoke, vandalism or malicious mischief, theft, volcanic eruption. Its theft limits (residence premises only, $1,000 per loss) apply to any theft loss under the policy.",
+   "Eligibility comes from ISO's program rules, not the policy forms: HO-2, HO-3, HO-5 and HO-8 may be issued only to the owner-occupant of a 1- to 4-family dwelling, and not on farm premises.",
+   "Open perils = covered for direct physical loss unless the form excludes it. Named perils = covered only for the perils listed."
+  ],
+  "source": "ISO HO 00 03 05 11, HO 00 04 05 11 and HO 00 06 05 11, Section I - Property Coverages and Perils Insured Against (HO-4 Additional Coverage 10, Building Additions And Alterations; HO-6 Coverage A); ISO HO 00 02 10 00, HO 00 05 10 00 and HO 00 08 10 00, Section I - Perils Insured Against (HO-8 Peril 9, Theft); The Institutes, AIC 43 (ISO 2011 Homeowners program eligibility and form descriptions); IRMI 'homeowners modified form 8'"
+ },
+ {
+  "id": "vs-vs_personal-02",
+  "sec": "dwelling",
+  "title": "Dwelling forms compared: DP-1, DP-2, DP-3",
+  "kind": "table",
+  "columns": [
+   "Form",
+   "Dwelling and other structures (A, B)",
+   "Personal property (C)",
+   "Building loss settlement",
+   "Additional living expense (Coverage E)"
+  ],
+  "rows": [
+   [
+    "DP-1 Basic (1988 ISO)",
+    "Fire, lightning, internal explosion. Extended Coverage perils and V&MM only if their premiums are shown",
+    "Same perils as A and B",
+    "Actual cash value",
+    "None (Fair Rental Value, Coverage D, only)"
+   ],
+   [
+    "DP-2 Broad (1988 ISO)",
+    "16 named broad perils",
+    "Same 16 named perils",
+    "Replacement cost if insured to at least 80% of replacement cost",
+    "Yes"
+   ],
+   [
+    "DP-3 Special (2002 ISO)",
+    "Open perils (risk of direct physical loss unless excluded)",
+    "16 named broad perils",
+    "Replacement cost if insured to at least 80% of replacement cost",
+    "Yes"
+   ]
+  ],
+  "notes": [
+   "Editions: DP-1 and DP-2 are the 07 88 ISO forms and DP-3 is the 12 02 ISO form. The current ISO forms are the 07 14 editions, and some DP-1 and DP-2 amounts changed in later editions.",
+   "DP-1 Extended Coverage perils: windstorm or hail, explosion (replacing internal explosion), riot or civil commotion, aircraft, vehicles, smoke, volcanic eruption. Vandalism or malicious mischief (V&MM) is a separate optional premium.",
+   "DP-2 and DP-3: a building insured for less than 80% of replacement cost is paid the greater of ACV or the proportional share of the repair cost, up to the limit. Personal property is paid at ACV in all three forms, and DP-2 and DP-3 also pay ACV for awnings, carpeting, household appliances, outdoor antennas and equipment, and structures that are not buildings.",
+   "The DP-2 and DP-3 named perils include 'damage by burglars' but not theft. Under ISO's dwelling manual (Rule 510), theft is added by endorsement: Broad Theft (DP 04 72, on and off premises) when the named insured occupies the dwelling, unit or apartment; Limited Theft (DP 04 73, on-premises only) for non-owner-occupied risks.",
+   "No dwelling form includes liability or medical payments. Add them with the Personal Liability Supplement (DL 24 01).",
+   "Eligibility is set by ISO's dwelling manual rules, not by the forms. FC&S describes the program as usable for a one- to four-family residential building, owner-occupied or not, and not for farm property."
+  ],
+  "source": "ISO DP 00 01 07 88 (Coverages A-D; Perils 1A-9; Condition 5, Loss Settlement); ISO DP 00 02 07 88 (Coverage E; Perils 1-16; Condition 5); ISO DP 00 03 12 02 (Coverage E; Perils Insured Against A-B; Condition E); ISO Dwelling Policy Program Manual (2003), Rule 510 (theft endorsements); ISO DL 24 01 12 02; FC&S, 'ISO Dwelling Program' (June 10, 2014) (eligibility)"
+ },
+ {
+  "id": "vs-vs_personal-03",
+  "sec": "auto",
+  "title": "Michigan PIP medical choices (policies issued or renewed after July 1, 2020)",
+  "kind": "table",
+  "columns": [
+   "Level",
+   "Who may choose it",
+   "Conditions and effect"
+  ],
+  "rows": [
+   [
+    "Unlimited",
+    "Any named insured",
+    "No dollar cap. Applies if no valid choice is made (unless the premium paid shows another level) or an opt-out fails"
+   ],
+   [
+    "$500,000",
+    "Any named insured",
+    "No extra eligibility conditions"
+   ],
+   [
+    "$250,000",
+    "Any named insured",
+    "No extra eligibility conditions. The insurer must also offer the qualified health coverage (QHC) exclusion option"
+   ],
+   [
+    "$250,000 with exclusions",
+    "Named insured who chooses $250,000",
+    "Only people with QHC can be excluded (for an excluded named insured, QHC other than Medicare). Excluded people get no PIP medical under the policy"
+   ],
+   [
+    "$50,000",
+    "Named insured enrolled in Medicaid",
+    "Spouse and resident relatives must have QHC, Medicaid, or PIP medical under another auto policy"
+   ],
+   [
+    "No PIP medical (opt-out)",
+    "Named insured with Medicare Parts A and B",
+    "Spouse and resident relatives must have QHC or PIP medical under another auto policy"
+   ]
+  ],
+  "notes": [
+   "Each level is per individual per loss occurrence and limits PIP allowable expenses (medical) under MCL 500.3107(1)(a). The chosen level applies to the named insured, spouse, resident relatives and anyone else claiming PIP under the policy.",
+   "The insurer must offer an excess attendant-care rider with the $50,000, $250,000 and $500,000 levels.",
+   "QHC = health or accident coverage that does not exclude or limit auto-accident injuries and has an annual deductible per individual at or under the cap ($6,579 for July 1, 2026 - June 30, 2027), or Medicare Parts A and B. DIFS's form says Medicaid is not QHC.",
+   "If QHC ends during the term of an opt-out or exclusion policy, the named insured has 30 days to get PIP medical coverage. A person hurt during those 30 days may claim through the Michigan Assigned Claims Plan.",
+   "DIFS's selection form (Ed. 2025) numbers these Options 1-6 in the order shown and requires proof of QHC, Medicare or Medicaid at issue and each renewal for Options 4-6. Without that proof, it issues Option 4 as $250,000 with no exclusions and Options 5 and 6 as unlimited.",
+   "The statute's opt-out test is Medicare Parts A and B. DIFS (its selection form and agents' FAQ) also accepts a Medicare Advantage plan, because those plans cover all Part A and Part B services. DIFS also notes that opting out or excluding removes only PIP medical; wage loss and replacement services stay on the policy.",
+   "A transportation network company may choose only $250,000, $500,000 or unlimited."
+  ],
+  "source": "MCL 500.3107c(1),(3)-(8); MCL 500.3107d(1),(2),(4),(6),(7); MCL 500.3109a(2),(5); DIFS Bulletin 2026-08-INS; DIFS form 'Michigan Selection of Personal Injury Protection (PIP) Medical Coverage - Individuals' (Ed. 2025); DIFS, 'Information for Insurance Agents' FAQ (Medicare Advantage; coverages kept after opt-out or exclusion)"
+ },
+ {
+  "id": "vs-vs_personal-04",
+  "sec": "auto",
+  "title": "Who pays Michigan PIP? Order of priority for car occupants and pedestrians",
+  "kind": "steps",
+  "steps": [
+   {
+    "label": "Check the two occupant special cases",
+    "detail": "Operator or passenger of a vehicle operated in the business of transporting passengers: that vehicle's insurer pays (MCL 500.3114(2)). Employee, or the employee's spouse or resident relative, occupying a vehicle owned or registered by the employer: the insurer of the furnished vehicle pays (MCL 500.3114(3))."
+   },
+   {
+    "label": "Own policy, then household policy",
+    "detail": "Otherwise the person claims under his or her own policy, or the policy of a spouse or a relative living in the same household. If the person has an own policy, that insurer pays all benefits up to its PIP level and gets no recoupment from a relative's insurer (MCL 500.3114(1))."
+   },
+   {
+    "label": "No own or household policy: Michigan Assigned Claims Plan",
+    "detail": "An occupant with no own or household PIP policy claims through the MACP (MCL 500.3114(4)). A non-occupant, such as a pedestrian or bicyclist, with no own or household policy also claims through the MACP (MCL 500.3115)."
+   }
+  ],
+  "notes": [
+   "Step 1 applies only to vehicle occupants. A non-occupant starts at Step 2. The two special cases in Step 1 do not depend on each other, so their order does not matter.",
+   "The for-hire rule does not apply to passengers in school buses, common-carrier buses, government-program buses, nonprofit buses, taxicabs, buses run by a canoe, watercraft, bicycle or horse livery, transportation network company vehicles, or vehicles on an opt-out or QHC-exclusion policy, unless the passenger has no other PIP.",
+   "The MACP rule in 3114(4) does not apply to a person on a PIP medical opt-out or QHC-exclusion policy; the 30-day loss-of-QHC rules decide when that person may use the MACP.",
+   "Before 2019 PA 21, these occupants and non-occupants claimed from the insurer of a vehicle's owner or operator; older study materials may still say so.",
+   "Motorcyclists follow their own order (see the motorcycle priority summary)."
+  ],
+  "source": "MCL 500.3114(1)-(4), as amended by 2019 PA 21; MCL 500.3115; MCL 500.3107d(6)(c); MCL 500.3109a(2)(d)(ii)"
+ },
+ {
+  "id": "vs-vs_personal-05",
+  "sec": "auto",
+  "title": "Motorcyclist hurt in an accident involving a motor vehicle: PIP order of priority",
+  "kind": "steps",
+  "steps": [
+   {
+    "label": "Insurer of the motor vehicle's owner or registrant",
+    "detail": "First, the insurer of the owner or registrant of the motor vehicle (for example, the car) involved in the accident."
+   },
+   {
+    "label": "Insurer of the motor vehicle's operator",
+    "detail": "Next, the insurer of the person driving that motor vehicle."
+   },
+   {
+    "label": "Motor vehicle insurer of the motorcycle operator",
+    "detail": "Next, the motorcycle operator's own motor vehicle (auto) insurer."
+   },
+   {
+    "label": "Motor vehicle insurer of the motorcycle owner or registrant",
+    "detail": "Last, the motor vehicle (auto) insurer of the motorcycle's owner or registrant."
+   }
+  ],
+  "notes": [
+   "Applies to a motorcycle operator or passenger when the accident shows evidence that a motor vehicle was involved. A motorcycle is not a 'motor vehicle' under the no-fault act.",
+   "Levels 3 and 4 mean motor vehicle (auto) insurance, not a motorcycle policy.",
+   "A policy with a PIP medical opt-out or QHC exclusion is skipped: use other policies at the same level, then the next level, and if no level is left, the Michigan Assigned Claims Plan.",
+   "Two or more policies at the same level: benefits are capped at the highest single limit, and the paying insurer gets partial recoupment from the others."
+  ],
+  "source": "MCL 500.3114(5)-(8); MCL 500.3101(3)(g),(i),(j)"
+ },
+ {
+  "id": "vs-vs_personal-06",
+  "sec": "auto",
+  "title": "Michigan auto liability cancellation and nonrenewal timeline (Insurance Code Chapter 32)",
+  "kind": "timeline",
+  "steps": [
+   {
+    "label": "First 55 days of a new policy",
+    "detail": "The insurer may cancel because the risk is unacceptable. This cancellation cannot be appealed (MCL 500.3220(a), 500.3224(1))."
+   },
+   {
+    "label": "After 55 days (at once for a renewal)",
+    "detail": "Except for nonpayment of premium (outside Chapter 32), cancellation is allowed only if the named insured, or a driver who lives in the household or customarily drives the insured auto, had a driver's license suspended or revoked during the policy period and it has become final (MCL 500.3220(b))."
+   },
+   {
+    "label": "At least 20 days before cancellation takes effect",
+    "detail": "Written notice goes by certified mail, return receipt requested (delivery counts as mailing), to the last known address. It must give the reasons and say in bold type that the insured may appeal to the department within 7 days of mailing (MCL 500.3224(2),(3))."
+   },
+   {
+    "label": "Within 7 days after the postmark",
+    "detail": "To contest, the insured files a written hearing request with the commissioner (MCL 500.3230)."
+   },
+   {
+    "label": "Within 10 days after the appeal is received",
+    "detail": "The commissioner holds a hearing, with notice mailed to both sides at least 4 days before it, and decides in writing (MCL 500.3234, 500.3240)."
+   },
+   {
+    "label": "Nonrenewal: at least 20 days before the policy ends",
+    "detail": "A refusal to renew is not a cancellation if the insurer mails notice by first-class mail at least 20 days before the termination date (MCL 500.3204(2))."
+   }
+  ],
+  "notes": [
+   "Chapter 32 does not apply to cancellation for nonpayment of premium or to termination at the end of a policy period (MCL 500.3208, 500.3212).",
+   "Nonpayment: MCL 500.3020 requires casualty policies, including auto, to allow insurer cancellation on not less than 10 days' written notice, and a nonpayment notice under MCL 500.2123 takes effect as the policy provides. Every auto cancellation notice must also warn that the vehicle may not be driven unless insured as required by law (MCL 500.3020(6)).",
+   "Michigan's Essential Insurance Act (MCL 500.2123) separately requires 30 days' written notice stating each specific reason for a 'termination' (20 days if mailed within the first 55 days), and it does not allow terminating an auto policy in violation of Chapter 32. Check which statute a question names.",
+   "The unendorsed 2018 ISO Personal Auto Policy uses 10- and 20-day notices and a 60-day window; Michigan law controls."
+  ],
+  "source": "MCL 500.3204, 500.3208, 500.3212, 500.3220, 500.3224, 500.3230, 500.3234, 500.3240; MCL 500.2123; MCL 500.3020(1)(b),(6); ISO PP 00 01 09 18, Part F, Termination"
+ },
+ {
+  "id": "vs-vs_personal-07",
+  "sec": "basics",
+  "title": "Coinsurance penalty step by step, with the ISO form's own example",
+  "kind": "steps",
+  "steps": [
+   {
+    "label": "Required insurance = value at time of loss x coinsurance %",
+    "detail": "Example: $250,000 x 80% = $200,000 (the least insurance that meets the requirement)."
+   },
+   {
+    "label": "Ratio = limit carried / required insurance",
+    "detail": "Example: $100,000 / $200,000 = 0.50."
+   },
+   {
+    "label": "Multiply the loss (before the deductible) by the ratio",
+    "detail": "Example: $40,000 x 0.50 = $20,000."
+   },
+   {
+    "label": "Subtract the deductible",
+    "detail": "Example: $20,000 - $250 = $19,750."
+   },
+   {
+    "label": "Pay the lesser of Step 4 or the limit",
+    "detail": "Example: the insurer pays $19,750. The other $20,250 of the loss is not covered."
+   }
+  ],
+  "notes": [
+   "Source form: 2012 ISO Building and Personal Property Coverage Form (CP 00 10 10 12), Additional Condition F.1, Example 1.",
+   "No penalty if the limit meets the requirement: the same loss with a $200,000 limit pays $40,000 - $250 = $39,750 (Example 2).",
+   "Value is measured at the time of loss, not when the policy started.",
+   "Total loss check: value $300,000, 80%, limit $200,000, loss $300,000, no deductible. Step 3 gives $250,000, but payment is capped at the $200,000 limit.",
+   "The 2011 ISO HO-3 uses a different rule for buildings: full replacement cost on Coverages A and B only if insured to at least 80% of replacement cost."
+  ],
+  "source": "ISO CP 00 10 10 12, F. Additional Conditions, 1. Coinsurance (Examples 1-2); ISO HO 00 03 05 11, Section I Conditions D.2"
+ },
+ {
+  "id": "vs-vs_personal-08",
+  "sec": "gen",
+  "title": "Elements of a legal contract",
+  "kind": "table",
+  "columns": [
+   "Element",
+   "What it means",
+   "Insurance example"
+  ],
+  "rows": [
+   [
+    "Offer and acceptance (agreement)",
+    "One party offers; the other accepts the same terms",
+    "The application is usually the offer; the insurer accepts, e.g., by issuing the policy or a binder. Silence or delay alone generally is not acceptance"
+   ],
+   [
+    "Consideration",
+    "Something of value given by each party",
+    "Insured: the premium plus compliance with policy conditions. Insurer: its promise to pay covered losses"
+   ],
+   [
+    "Competent parties",
+    "Legal capacity: legal age, mental capacity to understand the contract, freedom from duress",
+    "In Michigan a person 18 or older is of legal age"
+   ],
+   [
+    "Legal purpose",
+    "A lawful subject matter that does not violate public policy",
+    "Michigan courts treat contracts founded on acts a statute prohibits, or against public policy, as void or unenforceable"
+   ]
+  ],
+  "notes": [
+   "The PSI outline lists these four elements; the order of the rows does not matter.",
+   "The Michigan Supreme Court states five elements: competent parties, a proper subject matter, legal consideration, mutuality of agreement, and mutuality of obligation.",
+   "Consideration wording in the 2011 ISO Homeowners: coverage is provided 'in return for the premium and compliance with all applicable provisions of this policy.'",
+   "Michigan exception on acceptance: if the applicant paid the first premium with the application and the insurer keeps it while delaying unreasonably, acceptance may be implied."
+  ],
+  "source": "AFT Michigan v Michigan, 497 Mich 197 (2015); Gorham v Peerless Life Ins Co, 368 Mich 335 (1962) (quoting Wadsworth v New York Life Ins Co, 349 Mich 240 (1957)); IRMI 'binder'; ISO HO 00 03 05 11, Agreement; National Alliance Research Academy glossary 'competent party', 'contract law'; MCL 722.52(1); Maids Int'l, Inc v Saunders, Inc, 224 Mich App 508 (1997); PSI Michigan P&C content outline"
+ },
+ {
+  "id": "vs-vs_personal-09",
+  "sec": "basics",
+  "title": "The property claims process, step by step",
+  "kind": "steps",
+  "steps": [
+   {
+    "label": "Notice of loss",
+    "detail": "The insured gives prompt notice to the insurer or agent, notifies police of a theft, and protects the property from further damage (2011 ISO Homeowners, Duties After Loss)."
+   },
+   {
+    "label": "Investigation",
+    "detail": "The insured cooperates, shows the damaged property, provides records, and may have to submit to an examination under oath. In Michigan, the insurer must say in writing what makes a satisfactory proof of loss within 30 days after receiving the claim, unless it settles the claim within those 30 days."
+   },
+   {
+    "label": "Sworn proof of loss",
+    "detail": "Under the 2011 ISO Homeowners, the insured sends a signed, sworn proof of loss within 60 days after the insurer asks for it."
+   },
+   {
+    "label": "Coverage determination",
+    "detail": "The insurer decides whether the policy covers the loss."
+   },
+   {
+    "label": "Valuation, with appraisal if the amount is disputed",
+    "detail": "Michigan fire policies: after a written demand, each side names an independent appraiser within 20 days; if the appraisers cannot agree on an umpire within 15 days, a circuit judge may pick one. Written agreement of any two sets the loss."
+   },
+   {
+    "label": "Payment or denial",
+    "detail": "Michigan fire policies: loss payable within 30 days after proof of the amount of loss, except as MCL 500.2845 provides (the unendorsed ISO HO form says 60 days after proof of loss plus an agreement, final judgment or appraisal award). An insurer that chooses to repair or replace must give written notice within 30 days after the signed, sworn proof of loss (2011 ISO Homeowners). Late benefits to the insured bear 12% simple interest from 60 days after satisfactory proof of loss."
+   },
+   {
+    "label": "Subrogation or salvage",
+    "detail": "After paying, the insurer may recover from a responsible third party; if it asks, the insured must assign those rights and cooperate (an insured may waive them in writing before a loss). Under the ISO commercial property form, the insurer may also take all or part of the damaged property at an agreed or appraised value (the Personal Auto Policy has a similar option)."
+   }
+  ],
+  "notes": [
+   "This is the typical order; in practice steps can overlap.",
+   "Under the 2011 ISO Homeowners, the insurer has no duty to provide coverage if the insured's failure to perform these duties is prejudicial to the insurer.",
+   "Adjusters: a staff adjuster is the insurer's employee; an independent adjuster works on contract for insurers; a public adjuster represents the insured. In Michigan a public adjuster may charge no more than 10% of the insurer's settlement and must use a written contract on a commissioner-approved form."
+  ],
+  "source": "ISO HO 00 03 05 11, Section I Conditions C (Duties After Loss), F (Appraisal), I (Our Option), J (Loss Payment); Sections I and II Conditions F (Subrogation); ISO CP 00 10 10 12, E.4.a(3); ISO PP 00 01 09 18, Part D, Payment of Loss; MCL 500.2833(1)(m),(p); MCL 500.2006(3),(4); MCL 500.1226(3),(4); IRMI 'adjuster', 'independent adjuster', 'public adjuster'"
+ }
+]

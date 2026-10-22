@@ -1,0 +1,627 @@
+[
+ {
+  "id": "mn-mn_core-01",
+  "sec": "gen",
+  "title": "Risk vocabulary: exposure, risk, hazard, peril, loss",
+  "technique": "story",
+  "hook": "Your Up North cabin story: owning the cabin is your exposure. Not knowing whether it will burn is the risk, and a pure one (you can only lose, unlike a casino bet). The oily rags by the wood stove are the hazard, the fire is the peril, and the burned value you claim is the loss.",
+  "unpack": [
+   "Exposure: the state of being subject to loss because of some hazard or contingency. The word is also used for the rating unit or premium base of a risk.",
+   "Risk: the uncertainty arising from the possible occurrence of given events, such as a loss. The word also refers to the insured person or property.",
+   "Pure vs. speculative: pure risk offers only a chance of loss or no loss and is generally insurable. Speculative risk offers a chance of gain or loss (a business venture, gambling) and generally is not insurable.",
+   "Hazard: a condition that increases the probability of loss, such as poor housekeeping in a factory or inadequate lighting in a crime-prone area.",
+   "Peril: the cause of loss, such as fire, windstorm or collision.",
+   "Loss: the basis of a claim for damages under the policy. A direct loss comes from direct damage to property; a consequential (indirect) loss, such as lost rent, results from that damage."
+  ],
+  "watch_out": "The classic trap is hazard vs. peril. The fire (or a windstorm) is the peril because it causes the loss; the oily rags are the hazard because they make a fire more likely. Investing in a new business is speculative risk even though you could lose money, because a gain is also possible.",
+  "source": "IRMI glossary: exposure; risk; pure risk; speculative risk; hazard; peril; loss; direct loss; consequential loss",
+  "question_ids": [
+   "core-001",
+   "core-gen-01",
+   "core-gen-02",
+   "core-gen-03",
+   "core-gen-05",
+   "core-gen-06"
+  ]
+ },
+ {
+  "id": "mn-mn_core-02",
+  "sec": "gen",
+  "title": "Five methods of handling risk",
+  "technique": "acronym",
+  "hook": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
+  "unpack": [
+   "Share: spread a potential loss among a group, with each member's premiums and losses allocated within the group by a predetermined formula.",
+   "Transfer: shift the risk to another party, either by buying insurance or by a noninsurance contract such as a hold harmless (indemnity) agreement in a construction contract.",
+   "Avoid: prevent the risk entirely by not engaging in the activity, such as a contractor that declines environmental remediation jobs.",
+   "Reduce (loss control): lower the chance that a loss happens (driver training) or the severity of losses that do happen (sprinklers, firewalls).",
+   "Retain: plan to pay losses yourself through deductibles, deliberate noninsurance or loss-sensitive plans. Self-insurance is a formal decision to retain risk, with a plan for paying losses as they occur."
+  ],
+  "watch_out": "Order does not matter; STARR is only a memory string. Installing sprinklers is reduction, not avoidance, because you still own the warehouse and its risk. With a deductible, you retain the part of each loss up to the deductible, and the part above it is transferred to the insurer.",
+  "source": "IRMI glossary: risk sharing; noninsurance risk transfer; hold harmless agreement; avoidance; loss control; loss reduction; risk retention; self-insurance",
+  "question_ids": [
+   "core-002",
+   "core-003",
+   "core-gen-07",
+   "core-gen-08",
+   "core-gen-09",
+   "core-gen-11"
+  ]
+ },
+ {
+  "id": "mn-mn_core-03",
+  "sec": "gen",
+  "title": "Characteristics of an ideally insurable risk",
+  "technique": "acronym",
+  "hook": "An ideally insurable risk is a CLEAN Deal: Calculable, Large numbers, Economically feasible premium, Accidental, Not catastrophic, Determinable.",
+  "unpack": [
+   "Calculable chance of loss: the insurer can estimate how often losses will occur and how severe they will be.",
+   "Large number of exposure units: under the law of large numbers, the more units independently exposed to loss, the more likely actual losses will match expected losses.",
+   "Economically feasible premium: the premium must be affordable for buyers.",
+   "Accidental and unintentional loss.",
+   "Not catastrophic: a large share of the exposure units should not suffer losses at the same time.",
+   "Determinable and measurable loss: definite as to cause, time, place and amount."
+  ],
+  "watch_out": "Order does not matter. A favorite EXCEPT answer is 'the potential loss should be catastrophic.' It should NOT be. Other textbooks word or number this list a little differently, so learn the six ideas rather than exact phrasing.",
+  "source": "Rejda & McNamara, Principles of Risk Management and Insurance (13th ed.), 'Characteristics of an Ideally Insurable Risk'; IRMI glossary: law of large numbers",
+  "question_ids": [
+   "core-004",
+   "core-006"
+  ]
+ },
+ {
+  "id": "mn-mn_core-04",
+  "sec": "gen",
+  "title": "Stock vs. mutual vs. reciprocal insurers",
+  "technique": "contrast",
+  "hook": "Stock = Stockholders own it (and they don't have to buy a policy). Mutual = 'My policy makes me an owner.' Reciprocal = neighbors swapping risks, with an attorney-in-fact running the exchange.",
+  "unpack": [
+   "Stock company: owned by stockholders, who are not necessarily insureds. It has a capital fund paid in by stockholders, in addition to surplus and reserve funds.",
+   "Mutual company: owned by its insureds. Every owner is an insured and every insured is an owner; there are no stockholders.",
+   "Reciprocal (interinsurance exchange): an unincorporated group of subscribers who agree to pool risks, managed by an attorney-in-fact."
+  ],
+  "watch_out": "Don't hand a stock company's ownership to its policyholders, or a mutual's to stockholders. Lloyd's of London is not an insurance company at all; it is a marketplace of independent underwriters.",
+  "source": "IRMI glossary: stock company; mutual company; reciprocal; Lloyd's of London",
+  "question_ids": [
+   "core-009",
+   "core-gen-12",
+   "core-gen-13",
+   "core-gen-14"
+  ]
+ },
+ {
+  "id": "mn-mn_core-05",
+  "sec": "gen",
+  "title": "Express, implied and apparent authority",
+  "technique": "first-letter-cue",
+  "hook": "Express is Explained, Implied is Inferred, Apparent is how it Appears.",
+  "unpack": [
+   "Express (Explained): authority the insurer expressly grants the agent, in the agency agreement or by clear oral instructions.",
+   "Implied (Inferred): authority not spelled out, but needed to carry out the express authority. An agent authorized to collect premiums may also take the steps reasonably necessary to do it, such as giving receipts. Implied authority can also arise from a job title, or when the insurer does not object to the agent's actions.",
+   "Apparent (Appears): the power a reasonable person would assume the agent has, based on the insurer's (principal's) conduct. It is tied to estoppel: an insurer that leaves a terminated agent with its signs and blank binder forms may be bound when a customer reasonably believes the agent can still bind."
+  ],
+  "watch_out": "Implied authority is a type of actual authority that flows from the insurer's grant; apparent authority instead rests on what a third party reasonably believes from the insurer's conduct. In Michigan, a producer license by itself creates no actual, apparent or inherent authority to represent or commit an insurer.",
+  "source": "IRMI glossary: express authority; implied authority; apparent agency; Cornell LII Wex: express authority; implied authority; Restatement (Third) of Agency §2.03; MCL 500.1201(h)",
+  "question_ids": [
+   "core-012",
+   "core-gen-15",
+   "core-gen-16",
+   "core-gen-17"
+  ]
+ },
+ {
+  "id": "mn-mn_core-06",
+  "sec": "gen",
+  "title": "Elements of a legal contract",
+  "technique": "acrostic",
+  "hook": "Our Agent Collects Cash Legally: Offer, Acceptance, Consideration, Competent parties, Legal purpose.",
+  "unpack": [
+   "Offer: the applicant's application is the offer. Under Michigan case law an application for insurance is only an offer, which must be accepted before a contract exists.",
+   "Acceptance: the insurer accepts by issuing the policy or a binder (temporary evidence of insurance until the policy is issued).",
+   "Consideration: the insured gives the premium plus compliance with the policy's provisions; the insurer gives its promise to pay. The 2011 ISO Homeowners policy provides coverage 'in return for the premium and compliance with all applicable provisions of this policy.'",
+   "Competent parties: each party must have the legal capacity to contract. In Michigan, a person 18 or older is an adult of legal age with full legal capacity.",
+   "Legal purpose: Michigan courts treat contracts founded on acts a statute prohibits, or contracts that violate public policy, as void, so a policy insuring a shipment of illegal drugs is unenforceable."
+  ],
+  "watch_out": "The order in the hook is only for memory. The Michigan Supreme Court states the test as five elements: parties competent to contract, a proper subject matter, legal consideration, mutuality of agreement (offer and acceptance) and mutuality of obligation. Capacity is about legal age and mental capacity, but it is not all-or-nothing: Michigan lets a person between 16 and 18 make a valid life or disability insurance contract. Don't flip the consideration: the insurer's promise to pay is the insurer's consideration, not the insured's.",
+  "source": "AFT Michigan v Michigan, 497 Mich 197 (2015); Gorham v Peerless Life Ins Co, 368 Mich 335 (1962); IRMI glossary: binder; ISO HO 00 03 05 11, Agreement; MCL 722.52(1); MCL 500.2205; Michelson v Voison, 254 Mich App 691 (2003), citing Maids Int'l, Inc v Saunders, Inc, 224 Mich App 508 (1997)",
+  "question_ids": [
+   "core-015",
+   "core-gen-18",
+   "core-gen-19",
+   "core-gen-20",
+   "core-gen-21",
+   "core-gen-22"
+  ]
+ },
+ {
+  "id": "mn-mn_core-07",
+  "sec": "gen",
+  "title": "Distinct characteristics of an insurance contract",
+  "technique": "acronym",
+  "hook": "Every policy is served in A CUP, A: Adhesion, Conditional, Unilateral, Personal, Aleatory.",
+  "unpack": [
+   "Adhesion: the insurer writes it and the insured accepts or rejects it whole, without bargaining over the wording, so courts construe ambiguities against the insurer.",
+   "Conditional: the insurer's promise depends on the insured meeting conditions. For example, the 2011 ISO Homeowners policy (HO-3) owes no coverage if the insured's failure to perform the duties after loss prejudices the insurer.",
+   "Unilateral: only the insurer makes a legally enforceable promise (to pay covered claims); the insured only has to meet conditions such as paying premium and reporting losses.",
+   "Personal: the contract is with the insured person, so assignment of the policy is not valid unless the insurer gives written consent. Selling the house does not hand the policy to the buyer.",
+   "Aleatory: an agreement about an uncertain event with an unequal exchange of value. One month's premium might buy a $300,000 fire payment, or years of premium might buy nothing."
+  ],
+  "watch_out": "Order does not matter. The two A's are the trap: Adhesion is about who wrote it; Aleatory is about an unequal, chance-driven exchange (picture a roll of the dice). Some states use the reasonable expectations doctrine to give coverage an insured reasonably expected even when the wording doesn't; Michigan's Supreme Court (Wilkie, 2003) held that it has no application in Michigan, though Michigan still construes truly ambiguous wording against the insurer. If a question just describes that doctrine, its name is still 'reasonable expectations.'",
+  "source": "IRMI glossary: contract of adhesion; unilateral contract; aleatory contract; reasonable expectations doctrine; ISO HO 00 03 05 11, Section I Conditions C (Duties After Loss) and Sections I and II Conditions E (Assignment); Wilkie v Auto-Owners Ins Co, 469 Mich 41 (2003)",
+  "question_ids": [
+   "core-016",
+   "core-017",
+   "core-020",
+   "core-gen-23",
+   "core-gen-24",
+   "core-gen-25"
+  ]
+ },
+ {
+  "id": "mn-mn_core-08",
+  "sec": "gen",
+  "title": "Representation, warranty, concealment and fraud",
+  "technique": "contrast",
+  "hook": "Four voices on an application: 'To the best of my knowledge' (representation). 'I guarantee it' (warranty). 'You didn't ask' (concealment). 'Gotcha' (fraud).",
+  "unpack": [
+   "Representation: a statement in the application that the applicant represents as correct to the best of their knowledge. If the insurer relied on it and it was false when made, the insurer may have grounds to void the contract.",
+   "Warranty: a statement of fact about the risk, given by the insured, that will void the policy if it is untrue.",
+   "Concealment: willfully holding back information pertinent to issuing the policy, even though the insurer did not ask about it. It can void the policy.",
+   "Fraud: deception used to cheat or intentionally mislead; the intent to deceive is what separates it from an innocent misstatement. Fraud in procuring insurance may lead to denial of coverage and voiding of the policy."
+  ],
+  "watch_out": "Michigan statute: no misrepresentation voids a policy or defeats recovery unless it was material, and it is material only if knowing the true facts would have led the insurer to refuse to make the contract. The statute's test is refusal to contract; it does not require that the misstatement relate to the cause of the loss. All of these rest on utmost good faith: both parties are presumed to disclose all pertinent facts.",
+  "source": "IRMI glossary: representation; warranty; concealment; fraud; uberrimae fidei; MCL 500.2218(1)-(2)",
+  "question_ids": [
+   "core-018",
+   "core-gen-28",
+   "core-gen-29",
+   "core-gen-30",
+   "core-gen-31",
+   "core-gen-32"
+  ]
+ },
+ {
+  "id": "mn-mn_core-09",
+  "sec": "gen",
+  "title": "Waiver vs. estoppel",
+  "technique": "contrast",
+  "hook": "Waiver: you WAVE goodbye to a right on purpose. Estoppel: the law says STOP, you can't go back on conduct someone reasonably relied on.",
+  "unpack": [
+   "Waiver: the intentional or voluntary surrender of a right, claim or privilege.",
+   "Estoppel: a party is barred from contradicting its own earlier actions when another party reasonably relied on them.",
+   "Classic example: an insurer that has repeatedly accepted late premium payments may be estopped from canceling for nonpayment, because the insured was led to believe late payments were acceptable."
+  ],
+  "watch_out": "Waiver is chosen by the party giving up the right; estoppel is imposed because of the other side's reasonable reliance. Policies guard against casual waivers: the 2011 ISO Homeowners policy says a waiver or change must be in writing by the insurer, and the Workers Compensation and Employers Liability Insurance Policy's terms may be changed or waived only by an endorsement the insurer issues.",
+  "source": "IRMI glossary: waiver; estoppel; ISO HO 00 03 05 11, Sections I and II Conditions B; NCCI WC 00 00 00 C (Ed. 1-15), General Section A",
+  "question_ids": [
+   "core-019",
+   "core-wcg-12"
+  ]
+ },
+ {
+  "id": "mn-mn_core-10",
+  "sec": "basics",
+  "title": "Physical, moral and morale hazards",
+  "technique": "first-letter-cue",
+  "hook": "Physical = the Property (oily rags by the furnace). Moral = the Person's character (a fraud record, a money-losing business). Morale = 'Meh' (careless because insurance will pay).",
+  "unpack": [
+   "Physical hazard: material, structural or operational features that create or increase the opportunity for injury or damage, such as poor housekeeping or inadequate lighting in a crime-prone area.",
+   "Moral hazard: arises from the character or circumstances of the insured, such as dishonesty or a financial incentive to cause a loss. Insurance on an unprofitable business carries more moral hazard than insurance on a thriving one.",
+   "Morale hazard: indifference to loss because insurance will cover it, such as no longer locking the back door. It reflects attitude, not character or integrity."
+  ],
+  "watch_out": "The extra 'e' in morale can stand for the 'eh, whatever' attitude. A fire or a tornado is a peril (a cause of loss), not a hazard. Underwriters are wary of vacant buildings partly because of moral hazard: the temptation to set a fire for the insurance money.",
+  "source": "IRMI glossary: physical hazard; hazard; moral hazard; morale hazard; peril",
+  "question_ids": [
+   "core-023",
+   "core-bas-03",
+   "core-bas-04",
+   "core-bas-05",
+   "core-bas-06"
+  ]
+ },
+ {
+  "id": "mn-mn_core-11",
+  "sec": "basics",
+  "title": "Four elements of negligence",
+  "technique": "acrostic",
+  "hook": "Don't Break People's Doors: Duty, Breach, Proximate cause, Damage.",
+  "unpack": [
+   "Duty: the defendant owed the plaintiff a legal duty of care.",
+   "Breach: the defendant breached that duty by failing to use the care that was reasonable under the circumstances (by an act or an omission).",
+   "Proximate cause: the breach set in motion a reasonably foreseeable chain of events that led to the plaintiff's harm.",
+   "Damage: the plaintiff suffered an actual injury or damage."
+  ],
+  "watch_out": "The plaintiff must prove all four. Intent to harm is not an element of negligence, so 'the defendant intended to cause harm' is the usual EXCEPT answer.",
+  "source": "IRMI glossary: negligence; proximate cause",
+  "question_ids": [
+   "core-024"
+  ]
+ },
+ {
+  "id": "mn-mn_core-12",
+  "sec": "basics",
+  "title": "Negligence defenses and Michigan's comparative fault rule",
+  "technique": "contrast",
+  "hook": "Contributory: any fault of yours, zero dollars. Comparative: you lose your percentage. Michigan: you lose your percentage, and if you are MORE to blame than everyone else combined, the pain-and-suffering money is gone, but reduced economic damages remain.",
+  "unpack": [
+   "Contributory negligence (common law): if the plaintiff's own negligence contributed to the injury, recovery is barred. Many states have replaced this rule.",
+   "Comparative negligence: the plaintiff's damages are reduced by the plaintiff's percentage of fault.",
+   "Assumption of risk: a person who knows the consequences of an act and voluntarily accepts the risk is responsible for the resulting injury.",
+   "Michigan general tort rule: a plaintiff's contributory fault does not bar recovery; damages are reduced by the plaintiff's percentage of fault. At 30% fault on $100,000 of economic damages, the plaintiff recovers $70,000.",
+   "Michigan: if the plaintiff's fault is greater than the combined fault of all others, economic damages are still awarded (reduced by the plaintiff's percentage), but noneconomic damages are not awarded. At 60% fault: economic damages less 60%, and nothing for pain and suffering."
+  ],
+  "watch_out": "Michigan's general tort rule is not 'over 50% gets nothing.' At exactly 50%, the plaintiff is not more at fault than everyone else, so noneconomic damages are not cut off (they are reduced by 50%). Auto no-fault tort suits follow a different rule: no damages are assessed in favor of a party who is more than 50% at fault.",
+  "source": "IRMI glossary: contributory negligence; comparative negligence; assumption of risk; MCL 600.2958; MCL 600.2959; MCL 500.3135(2)(b)",
+  "question_ids": [
+   "core-025",
+   "core-026"
+  ]
+ },
+ {
+  "id": "mn-mn_core-13",
+  "sec": "basics",
+  "title": "Special, general and punitive damages",
+  "technique": "first-letter-cue",
+  "hook": "Special = Spreadsheet (bills you can add up). General = Gut (pain and suffering). Punitive = Punish. In Michigan, Punish needs Permission from the Legislature.",
+  "unpack": [
+   "Compensatory damages make amends for the actual loss; special and general damages are both compensatory.",
+   "Special damages: objectively assessed awards for quantifiable, tangible losses such as medical expenses, wage loss, nursing care and loss of use.",
+   "General damages: a subjective award to compensate an injured person for pain and suffering.",
+   "Punitive (exemplary) damages: amounts beyond what compensates the plaintiff, imposed to punish particularly wanton or willful wrongdoing.",
+   "Michigan: punitive damages are generally not recoverable; they are available only when expressly authorized by the Legislature."
+  ],
+  "watch_out": "Medical bills and lost wages are special damages, not general. On a Michigan question about punitive damages, look for 'not recoverable unless a statute expressly authorizes them,' not jury discretion or a multiple of compensatory damages.",
+  "source": "IRMI glossary: compensatory damages; special damages; general damages; punitive damages; Gilbert v DaimlerChrysler Corp, 685 NW2d 391, 400 (Mich 2004) and Casey v Auto Owners Ins Co, 729 NW2d 277, 286 (Mich App 2006), as quoted in the IADC Michigan Damages Compendium",
+  "question_ids": [
+   "core-027",
+   "core-bas-07",
+   "core-bas-08"
+  ]
+ },
+ {
+  "id": "mn-mn_core-14",
+  "sec": "basics",
+  "title": "Absolute, strict and vicarious liability",
+  "technique": "imagery",
+  "hook": "Absolute = KABOOM (blasting, wild animals): being careful is no defense. Strict = the toaster that shocks you: its maker pays even after using every care. Vicarious = Via someone else: the boss pays for the delivery driver's crash.",
+  "unpack": [
+   "Absolute liability (exam usage): liability without fault for abnormally dangerous (ultrahazardous) activities such as blasting, and for keeping certain dangerous animals. Even the utmost care is no defense.",
+   "Strict liability: liability imposed without regard to fault or negligence. The classic example is the manufacturer or distributor of a dangerous product, regardless of the care it used.",
+   "Vicarious liability: a principal's liability for the acts of its agents, such as an employer held liable for an employee's negligence while making deliveries. It can also arise from the acts of partners, independent contractors and children."
+  ],
+  "watch_out": "Many legal sources use 'absolute' and 'strict' liability interchangeably. Exam convention: explosives and wild animals = absolute; dangerous or defective products = strict. Vicarious liability is the one triggered by someone else's act. These are the generic definitions the exam uses. For design-defect suits against manufacturers, Michigan's Supreme Court adopted a pure negligence, risk-utility test (Prentis v Yale Mfg Co, 1984), so don't carry the toaster example into a Michigan product-law question.",
+  "source": "Restatement (Second) of Torts §§519-520; Cornell LII Wex: strict liability; IRMI glossary: strict liability; vicarious liability; Prentis v Yale Mfg Co, 421 Mich 670 (1984)",
+  "question_ids": [
+   "core-028",
+   "core-029",
+   "core-bas-09",
+   "core-bas-10"
+  ]
+ },
+ {
+  "id": "mn-mn_core-15",
+  "sec": "basics",
+  "title": "Parts of a policy",
+  "technique": "acronym",
+  "hook": "Roll the DICE: Declarations, Insuring agreement, Conditions, Exclusions. Definitions explain the words in quotes; endorsements change the game.",
+  "unpack": [
+   "Declarations: the front page(s) showing the named insured, address, policy period, location of premises, limits and other information that varies from insured to insured.",
+   "Insuring agreement: the insurer's promise to pay. It outlines a broad scope of coverage that exclusions and definitions then narrow.",
+   "Conditions: the rules both parties must follow, such as duties after an occurrence or loss, other insurance and cancellation.",
+   "Exclusions: the hazards, perils, circumstances or property not covered, such as earth movement and flood in the 2011 ISO Homeowners policy (HO-3).",
+   "Definitions: words and phrases in quotation marks have the special meanings given in the Definitions section.",
+   "Endorsements: forms that change or add to the policy, by broadening or restricting coverage, clarifying it, adding insureds or adding locations."
+  ],
+  "watch_out": "DICE is a memory list, not the printed order of every policy. Quick sort: who, where, when and how much = Declarations; the promise = Insuring agreement; the rules = Conditions; the 'we don't cover' list = Exclusions.",
+  "source": "IRMI glossary: declarations; insuring agreement; exclusion; endorsement; ISO CG 00 01 04 13, Section IV Conditions; ISO IL 00 17 11 98, A. Cancellation; ISO CP 00 10 10 12, preamble; ISO HO 00 03 05 11, Section I Exclusions A.2-A.3",
+  "question_ids": [
+   "core-036",
+   "core-bas-13",
+   "core-bas-15",
+   "core-bas-17",
+   "core-bas-19",
+   "core-bas-21"
+  ]
+ },
+ {
+  "id": "mn-mn_core-16",
+  "sec": "basics",
+  "title": "Replacement cost vs. actual cash value",
+  "technique": "contrast",
+  "hook": "Replacement cost buys it new. ACV blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
+  "unpack": [
+   "Replacement cost: the cost to replace damaged property with materials of like kind and quality, without any deduction for depreciation.",
+   "Actual cash value is typically calculated one of three ways: repair or replacement cost minus depreciation, fair market value, or the broad evidence rule (all relevant evidence of value).",
+   "Example: a roof that would cost $20,000 to replace, depreciated 40%, has an ACV of $20,000 - $8,000 = $12,000.",
+   "Functional replacement cost: the cost of property that performs the same function with equal efficiency, even if it is not identical."
+  ],
+  "watch_out": "In the roof example, $8,000 is the depreciation, not the ACV. Which ACV method applies depends on the policy wording and state law. The 2012 ISO Building and Personal Property form's Valuation condition starts at actual cash value; its Replacement Cost optional coverage changes that.",
+  "source": "IRMI glossary: replacement cost; actual cash value; functional replacement cost; ISO CP 00 10 10 12, E.7.a and G.3",
+  "question_ids": [
+   "core-034"
+  ]
+ },
+ {
+  "id": "mn-mn_core-17",
+  "sec": "basics",
+  "title": "Agreed value vs. stated amount",
+  "technique": "contrast",
+  "hook": "Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise: you get the LEAST of ACV, repair cost or the stated amount.",
+  "unpack": [
+   "Agreed Value (optional coverage, 2012 ISO Building and Personal Property form): the Coinsurance condition does not apply to that property, for losses before the Agreed Value expiration date or the policy expiration, whichever comes first.",
+   "Under Agreed Value, the insurer pays no more than the proportion that the Limit of Insurance bears to the Agreed Value in the Declarations. If the Agreed Value expiration date is not extended, coinsurance is reinstated.",
+   "Stated amount (2010 ISO Stated Amount Insurance endorsement for scheduled autos): the most paid for loss in any one accident is the least of the actual cash value, the cost to repair or replace with like kind and quality, or the stated amount (the Limit of Insurance in the Schedule).",
+   "Example: stated amount $50,000, ACV $42,000, like-kind replacement $45,000, $1,000 deductible, total loss: $42,000 - $1,000 = $41,000."
+  ],
+  "watch_out": "The stated amount endorsement itself warns that the amount shown 'is not necessarily the amount you will receive.' Don't confuse Agreed Value with Inflation Guard (which raises the limit by a set annual percentage) or with Replacement Cost.",
+  "source": "ISO CP 00 10 10 12, G.1 and G.2; ISO CA 99 28 03 10, Schedule note, B.1 and C.1",
+  "question_ids": [
+   "core-035",
+   "core-bas-11",
+   "core-bas-12"
+  ]
+ },
+ {
+  "id": "mn-mn_core-18",
+  "sec": "basics",
+  "title": "Other-insurance methods and the principle of indemnity",
+  "technique": "imagery",
+  "hook": "Splitting the check after a Coney Island dinner: Pro rata = pay by the size of your appetite (your limit). Equal shares = everyone chips in the same until a wallet runs dry. Primary/excess = one friend pays first, the other covers only what's left. And nobody leaves richer than they came (indemnity).",
+  "unpack": [
+   "Pro rata (contribution by limits): each insurer pays the share its limit bears to the total of all limits. Limits of $300,000 and $200,000 on a $100,000 loss: A pays 3/5 = $60,000 and B pays 2/5 = $40,000.",
+   "Equal shares (2013 ISO CGL, when all the other insurance also permits it): each insurer pays equal amounts until it has paid its limit or the loss is paid. A $250,000 loss with limits of $100,000 and $300,000: each pays $100,000, then B pays the last $50,000 (A $100,000, B $150,000).",
+   "Primary and excess: primary insurance pays first; excess insurance applies only to loss above a stated amount or above the primary insurance or self-insurance.",
+   "Indemnity: other-insurance clauses exist to carry out the principle that an insured should not profit from a loss. Under the 2011 ISO Homeowners other-insurance condition, two $100,000 policies on a $50,000 loss pay $25,000 each, $50,000 in total."
+  ],
+  "watch_out": "Under the CGL, if any of the other insurance does not permit equal shares, the insurers contribute by limits instead (the same $250,000 loss by limits: A $62,500, B $187,500). Don't confuse these sharing methods with nonconcurrency, which means two policies on the same exposure have different inception and expiration dates.",
+  "source": "IRMI glossary: contribution by limits; contribution by equal shares; excess insurance; other insurance clause; nonconcurrency; ISO HO 00 03 05 11, Section I Conditions G; ISO CG 00 01 04 13, Section IV Conditions 4.c",
+  "question_ids": [
+   "core-037",
+   "core-038",
+   "core-bas-30",
+   "core-gen-26",
+   "core-gen-27"
+  ]
+ },
+ {
+  "id": "mn-mn_core-19",
+  "sec": "basics",
+  "title": "Coinsurance formula",
+  "technique": "chunking",
+  "hook": "Did over Should, times the Loss, minus the Deductible. 'Did' is the limit you carried; 'Should' is the value at the time of loss times the coinsurance percentage.",
+  "unpack": [
+   "Should: value of the covered property at the time of loss x the coinsurance percentage = the minimum amount of insurance required.",
+   "Did over Should: divide the Limit of Insurance carried (Did) by that minimum (Should) to get the payment ratio.",
+   "Times the Loss: multiply the total amount of loss, before the deductible, by the ratio.",
+   "Minus the Deductible: subtract the deductible last. The insurer pays the result or the Limit of Insurance, whichever is less.",
+   "Example: $400,000 value x 80% = $320,000 should; $240,000 did / $320,000 = 0.75; $50,000 loss x 0.75 = $37,500; minus the $1,000 deductible = $36,500."
+  ],
+  "watch_out": "Use the value at the time of loss, not at inception. If Did meets or beats Should, there is no penalty: pay the loss minus the deductible. The limit is still a cap: $200,000 carried on a $300,000 building at 80% computes to $250,000 on a total loss (no deductible), but the insurer pays only the $200,000 limit. The 2011 ISO Homeowners policy uses a different test for dwelling replacement cost (insurance of at least 80% of full replacement cost).",
+  "source": "ISO CP 00 10 10 12, F.1 (with Examples 1-2) and D. Deductible; ISO HO 00 03 05 11, Section I Conditions D (Loss Settlement)",
+  "question_ids": [
+   "core-039",
+   "core-040"
+  ]
+ },
+ {
+  "id": "mn-mn_core-20",
+  "sec": "basics",
+  "title": "Split limits, per person, per accident and CSL",
+  "technique": "chunking",
+  "hook": "Read split limits as Person / People / Property: 50/100/25 means $50,000 for any one person's injuries, $100,000 for all injuries in the accident, and $25,000 for property damage. A combined single limit is one big bucket for all of it.",
+  "unpack": [
+   "First number (per person): the most paid for bodily injury to any one person in one accident.",
+   "Second number (per accident): subject to the per-person cap, the most paid for all bodily injury from one accident.",
+   "Third number: the most paid for all property damage from one accident.",
+   "Combined single limit: a single dollar limit that applies to any combination of bodily injury and property damage liability claims.",
+   "Example at 50/100/25: injuries of $70,000 and $40,000 plus $30,000 of property damage pay $50,000 + $40,000 + $25,000 = $115,000."
+  ],
+  "watch_out": "Apply the per-person cap first, then the per-accident cap: at 100/300, four people with $100,000 of damages each collect $300,000 in total, not $400,000. With a $300,000 combined single limit, $330,000 of combined bodily injury and property damage pays $300,000, with no separate per-person or property damage cap.",
+  "source": "IRMI glossary: split limits; per person limit; combined single limits; ISO PP 00 01 09 18, Part A Limit Of Liability A",
+  "question_ids": [
+   "core-bas-32",
+   "core-bas-33",
+   "core-bas-35",
+   "core-bas-36",
+   "core-bas-37",
+   "core-bas-38"
+  ]
+ },
+ {
+  "id": "mn-mn_core-21",
+  "sec": "basics",
+  "title": "Standard mortgage clause vs. loss payable clause",
+  "technique": "contrast",
+  "hook": "The mortgagee brings its own umbrella; a loss payee stands under yours. If the homeowner torches the house, the bank can still collect (if it follows the clause's rules), but a loss payee usually can't.",
+  "unpack": [
+   "Standard mortgage clause (2011 ISO Homeowners): losses under Coverage A or B are paid to the mortgagee and you, as interests appear. If more than one mortgagee is named, they are paid in order of precedence.",
+   "Its own umbrella: if the insurer denies your claim, the denial does not apply to the mortgagee's valid claim, provided the mortgagee (a) notifies the insurer of any change in ownership, occupancy or substantial change in risk it knows of, (b) pays any premium due on demand if you neglected to, and (c) submits a signed, sworn statement of loss within 60 days after notice of your failure to do so.",
+   "The mortgagee is notified at least 10 days before a cancellation or nonrenewal takes effect.",
+   "Loss payable clause: authorizes payment to someone other than the named insured with an insurable interest, such as an auto lender, 'as its interest may appear.' Under a typical clause, the insurer owes the loss payee nothing if it can deny payment to the insured."
+  ],
+  "watch_out": "If the insurer pays the mortgagee but denies you, it is subrogated to the mortgagee's rights (or may pay off the whole mortgage and take an assignment). In the 2011 ISO Homeowners policy, a loss payee shown for listed personal property is treated as an 'insured' for that property and is notified in writing of cancellation or nonrenewal. The 10-day mortgagee notice is the homeowners form's rule; the 2012 ISO Building and Personal Property form gives a mortgageholder at least 10 days' notice of cancellation for nonpayment of premium, 30 days for any other reason, and 10 days before a nonrenewal.",
+  "source": "ISO HO 00 03 05 11, Section I Conditions L (Mortgage Clause) and S (Loss Payable Clause); ISO CP 00 10 10 12, F.2.f-g; IRMI glossary: loss payable clause",
+  "question_ids": [
+   "core-045",
+   "core-bas-48",
+   "core-bas-49"
+  ]
+ },
+ {
+  "id": "mn-mn_core-22",
+  "sec": "basics",
+  "title": "Staff, independent and public adjusters",
+  "technique": "first-letter-cue",
+  "hook": "Staff = on the insurer's Staff. Independent = Insurer-hired on contract. Public = for the Policyholder, paid a Percentage (Michigan cap: 10%).",
+  "unpack": [
+   "Staff adjuster: an employee of the insurer.",
+   "Independent adjuster: works on a contract basis for insurers, self-insured firms and governmental entities; often used when an insurer is overloaded (as after a catastrophe), for claims in remote places, or when special expertise is needed.",
+   "Public adjuster: represents the insured in a property loss and negotiates the settlement with the insurer's claim representative; paid a percentage of the payable loss.",
+   "Michigan: an adjuster for the insured may not charge more than 10% of the amount the insurer pays in settlement, and must contract in writing, on a commissioner-approved form, before providing services."
+  ],
+  "watch_out": "Only the public adjuster works for the insured; 'independent' means not on the insurer's payroll, not on your side. In Michigan, a public adjuster contract signed within 48 hours after the loss-producing occurrence ends is voidable by the insured for 10 days after it is signed.",
+  "source": "IRMI glossary: adjuster; independent adjuster; public adjuster; MCL 500.1226(3)-(4)",
+  "question_ids": [
+   "core-049"
+  ]
+ },
+ {
+  "id": "mn-mn_core-23",
+  "sec": "wc",
+  "title": "Exclusive remedy and the intentional tort exception",
+  "technique": "imagery",
+  "hook": "Workers' comp is a room with one door: benefits are the only way out against your employer. The single trapdoor is an intentional tort, and 'really, really careless' doesn't open it.",
+  "unpack": [
+   "Exclusive remedy: WC benefits are the employee's exclusive remedy against the employer for a personal injury or occupational disease.",
+   "The only exception is an intentional tort, which exists only when the employee is injured by a deliberate act of the employer and the employer specifically intended an injury.",
+   "Deemed intent: the employer is treated as having intended the injury if it had actual knowledge that an injury was certain to occur and willfully disregarded that knowledge.",
+   "Whether an act was an intentional tort is a question of law for the court."
+  ],
+  "watch_out": "Negligence, even gross negligence, or a safety-rule violation is not by itself an intentional tort: the statute requires a deliberate act with specific intent to injure (or actual knowledge that injury was certain plus willful disregard). Knowing an injury was possible is not knowing it was certain. Separate rule: an employer that fails to secure WC coverage (or willfully has employees pose as contractors to evade the act, section 171(4)) can be sued in a civil action despite the exclusive remedy, and in that suit it may not defend by citing the employee's ordinary negligence, a fellow employee's negligence or assumption of risk.",
+  "source": "MCL 418.131(1); MCL 418.641(2); MCL 418.171(4); MCL 418.141",
+  "question_ids": [
+   "core-054",
+   "core-055"
+  ]
+ },
+ {
+  "id": "mn-mn_core-24",
+  "sec": "wc",
+  "title": "Which Michigan employers must carry WC",
+  "technique": "number-peg",
+  "hook": "3 at once, or 1 at 35 for 13 (out of the last 52). Public employers: every one, any size.",
+  "unpack": [
+   "3 at once: private, non-farm employers that regularly employ 3 or more employees at one time are covered.",
+   "1 at 35 for 13: private, non-farm employers with fewer than 3 employees are covered if at least 1 has been regularly employed by them 35 or more hours per week for 13 weeks or longer during the preceding 52 weeks.",
+   "Public employers: all are covered, regardless of the number of employees.",
+   "Farms: covered for 3 or more regular employees paid hourly wages or salary (not piecework) who work 35+ hours a week for 13+ consecutive weeks in the preceding 52 weeks. A farm with 1 or more employees working 35+ hours a week for 5+ consecutive weeks must provide medical and hospital coverage for their work injuries."
+  ],
+  "watch_out": "Payroll size and years in business don't decide it. Note the wording: the non-farm rule says '13 weeks or longer during the preceding 52 weeks,' while the farm rules say 'consecutive' weeks. Household domestic workers have their own threshold: an employer is not liable to a household domestic employed less than 35 hours a week for 13 weeks or longer in the preceding 52 weeks, and family members living in the home are not counted as employees. Any other private employer may voluntarily come under the act; buying a WC policy counts, except that domestic and farm employees must be added by specific endorsement.",
+  "source": "MCL 418.115(a)-(e); MCL 418.118; MCL 418.121",
+  "question_ids": [
+   "core-056"
+  ]
+ },
+ {
+  "id": "mn-mn_core-25",
+  "sec": "wc",
+  "title": "Waiting period and weekly benefit rate",
+  "technique": "number-peg",
+  "hook": "Wait 7, paid from day 8, back-paid at 2 weeks. Then 80% of after-tax wages, capped at 90% of the state average.",
+  "unpack": [
+   "Wait 7: no compensation is paid unless the incapacity lasts at least 1 week.",
+   "Day 8: if the incapacity extends beyond 1 week, compensation begins on the 8th day after the injury.",
+   "Back-paid at 2 weeks: if the incapacity continues for 2 weeks or longer (or death results), compensation is computed from the date of injury.",
+   "80%: total disability pays 80% of the employee's after-tax average weekly wage, for the duration of the disability.",
+   "90% cap: each January 1, the maximum weekly rate for injuries that year is set at 90% of the state average weekly wage as of the prior June 30, rounded up to the next $1."
+  ],
+  "watch_out": "The 80% is of AFTER-TAX average weekly wage (2/3 of average weekly wage was Michigan's older, pre-1982 standard), and 90% is the cap, not the benefit. There is no minimum weekly benefit for total disability. Separate rule: after 28 days from the start of medical care, the employee may switch to a physician of his or her own choice by notifying the employer, who may petition to object.",
+  "source": "MCL 418.311; MCL 418.351(1),(3); MCL 418.355(2); MCL 418.356(4); MCL 418.315(1)",
+  "question_ids": [
+   "core-057",
+   "core-058"
+  ]
+ },
+ {
+  "id": "mn-mn_core-26",
+  "sec": "wc",
+  "title": "Death and funeral benefits",
+  "technique": "number-peg",
+  "hook": "500 weeks, till 21, and $6,000 to say goodbye.",
+  "unpack": [
+   "500 weeks: wholly dependent survivors receive 80% of the employee's after-tax average weekly wage for 500 weeks from the date of death.",
+   "Till 21: if a dependent is under 21 when the 500 weeks end, a magistrate may order payments to continue until that dependent reaches 21.",
+   "$6,000: funeral and burial costs are paid up to $6,000 or the actual cost, whichever is less. The employer also pays the reasonable expense of the last sickness."
+  ],
+  "watch_out": "The age-21 extension is a 'may,' not automatic. Partially dependent survivors get a proportional amount. The minimum weekly death benefit is 50% of the state average weekly wage. Don't mix up 500 weeks (death benefits) with 800 weeks (the limit on the conclusive presumption of total and permanent disability).",
+  "source": "MCL 418.321; MCL 418.345; MCL 418.356(2); MCL 418.351(1)",
+  "question_ids": [
+   "core-059"
+  ]
+ },
+ {
+  "id": "mn-mn_core-27",
+  "sec": "wc",
+  "title": "Specific loss schedule and the Second Injury Fund",
+  "technique": "number-peg",
+  "hook": "Arm is king at 269. Hand and leg tie at 215. Foot and eye tie at 162. The thumb hitchhikes at 65. Lose a second of those big five at work, and the Second Injury Fund steps in.",
+  "unpack": [
+   "Arm: 269 weeks.",
+   "Hand: 215 weeks. Leg: 215 weeks.",
+   "Foot: 162 weeks. Eye: 162 weeks (80% loss of vision in one eye counts as total loss of that eye).",
+   "Thumb: 65 weeks. Fingers: first 38, second 33, third 22, fourth 16. Great toe 33; any other toe 11.",
+   "Second Injury Fund: an employee who already has a permanent loss of a hand, arm, foot, leg or eye and then loses another of them in a work injury is conclusively presumed totally and permanently disabled. The Second Injury Fund pays total and permanent disability benefits, starting when the payments for the second loss end, after subtracting the weeks already paid for both losses."
+  ],
+  "watch_out": "Scheduled weeks are paid at 80% of the after-tax average weekly wage, subject to the maximum and minimum rates. Amputation lines: 6 or more inches below the elbow is a hand (above that, an arm); 7 or more inches below the tibial table is a foot (above that, a leg). Losing the first phalange is half the digit; more than one phalange is the whole digit; and payment for more than one finger can't exceed the payment for a hand.",
+  "source": "MCL 418.361(2); MCL 418.521(1)",
+  "question_ids": [
+   "core-060",
+   "core-061"
+  ]
+ },
+ {
+  "id": "mn-mn_core-28",
+  "sec": "wc",
+  "title": "Federal acts: FELA, Longshore Act and Jones Act",
+  "technique": "imagery",
+  "hook": "Rails, shore, ship: FELA rides the rails, the Longshore Act works the shore, and Jones sails the ship. The rails and the ship sue for negligence; the shore gets no-fault comp.",
+  "unpack": [
+   "FELA (Federal Employers' Liability Act): railroad common carriers in interstate or foreign commerce are liable in damages to employees injured through the railroad's negligence, in whole or in part.",
+   "Under FELA, the employee's contributory negligence does not bar recovery but reduces damages in proportion, and there is no reduction if the railroad's violation of a safety statute contributed to the injury.",
+   "Longshore and Harbor Workers' Compensation Act: covers maritime workers such as longshoremen, ship repairmen, shipbuilders and ship-breakers, for injuries on U.S. navigable waters or adjoining piers, wharves, dry docks and terminals. Compensation is payable irrespective of fault.",
+   "Jones Act (46 USC 30104, formerly 46 USC 688): a seaman injured in the course of employment may sue the employer at law, with a jury trial, and the federal laws for railway employees (FELA) apply to the suit."
+  ],
+  "watch_out": "The Longshore Act excludes a master or member of a crew of any vessel; ship's crew go to the Jones Act. The standard Workers Compensation and Employers Liability Insurance Policy covers only the state laws listed in Item 3.A and excludes federal comp laws, so Longshore, FELA or maritime (crew) exposures need an endorsement.",
+  "source": "45 USC 51, 53; 33 USC 902(3), 903(a), 904(b); 46 USC 30104(a); IRMI glossary: Jones Act; NCCI WC 00 00 00 C (Ed. 1-15), General Section C and Part Two C.8-C.10; MWCPF Basic Manual (Ed. 09/26), Rule Two A-B and Rule Eleven",
+  "question_ids": [
+   "core-063",
+   "core-wcg-07",
+   "core-wcg-08",
+   "core-wcg-09",
+   "core-wcg-10"
+  ]
+ },
+ {
+  "id": "mn-mn_core-29",
+  "sec": "wc",
+  "title": "Six parts of the WC and employers liability policy",
+  "technique": "number-peg",
+  "hook": "Six C's, in order: 1 Comp, 2 Court (employers liability suits), 3 Crossing state lines, 4 Call us at once, 5 Cash (premium), 6 Conditions.",
+  "unpack": [
+   "Part One, Workers Compensation Insurance: the insurer pays promptly when due the benefits the WC law requires of the employer. Part One has no dollar limit of liability.",
+   "Part Two, Employers Liability Insurance: pays sums the employer legally must pay as damages because of bodily injury to its employees, up to the limits in Item 3.B (standard manual limits: $100,000 each accident / $500,000 disease-policy limit / $100,000 disease-each employee; higher limits can be bought).",
+   "Part Three, Other States Insurance: applies only if states are listed in Item 3.C.",
+   "Part Four, Your Duties If Injury Occurs: tell the insurer at once; provide immediate medical and other services required by law; give names and addresses of injured persons and witnesses; promptly forward notices and legal papers; cooperate; do nothing to interfere with recovery from others; don't voluntarily make payments except at your own cost.",
+   "Part Five, Premium: the premium shown is an estimate. The final premium is figured after the policy ends from the actual premium basis (most commonly remuneration, meaning payroll), and the 2015 edition lets the insurer audit during the policy period and within 3 years after it ends.",
+   "Part Six, Conditions: inspection (not safety inspections), long term policy, transfer of your rights and duties, cancelation, and the first-named insured as sole representative."
+  ],
+  "watch_out": "Part One has no limit; Part Two does. Part One F: the employer must reimburse the insurer for payments above the benefits the WC law regularly provides, such as extra benefits owed because the employer knowingly employed someone in violation of law (in Michigan, an illegally employed minor under 18 gets double compensation unless permits or age certificates were used fraudulently). Unless the insurer's manuals provide otherwise, if the employer cancels mid-term the final premium is more than pro rata (short rate); if the insurer cancels, it is pro rata.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Parts One-Six (incl. Part One F, Part Two B and G, Part Five E and G); MWCPF Basic Manual (Ed. 09/26), Rule Eight A-B; NCRB Basic Manual Rule 5 (standard employers liability limits, mirroring NCCI); MCL 418.161(1)(l)",
+  "question_ids": [
+   "core-064",
+   "core-067",
+   "core-wcg-13",
+   "core-wcg-14",
+   "core-wcg-15",
+   "core-wcg-16"
+  ]
+ },
+ {
+  "id": "mn-mn_core-30",
+  "sec": "wc",
+  "title": "Item 3.A vs. Item 3.C (other states coverage)",
+  "technique": "first-letter-cue",
+  "hook": "3.A = Already Active (your home states). 3.C = Could Come later. Start work in a 3.C state mid-term? It's treated like a 3.A state; just tell the insurer at once.",
+  "unpack": [
+   "Item 3.A: the states whose workers compensation and occupational disease laws the policy covers; Part One pays the benefits those laws require.",
+   "Item 3.C: Part Three (Other States Insurance) applies only if states are listed here.",
+   "If the employer begins work in a 3.C state after the effective date and is not otherwise insured or self-insured there, the policy applies as though that state were listed in Item 3.A.",
+   "Notice: tell the insurer at once if work begins in any state listed in Item 3.C."
+  ],
+  "watch_out": "Different rule for work already underway: if the employer has work on the policy's effective date in a state not listed in Item 3.A, there is no coverage for that state unless the insurer is notified within 30 days. A state not listed in Item 3.C gets no Part Three coverage.",
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), General Section C and Part Three A.1-A.4 and B",
+  "question_ids": [
+   "core-065"
+  ]
+ }
+]

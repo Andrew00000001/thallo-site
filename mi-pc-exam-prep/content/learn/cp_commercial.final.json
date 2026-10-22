@@ -1,0 +1,847 @@
+[
+ {
+  "id": "cp-cp_commercial-01",
+  "sec": "cpp",
+  "title": "Occurrence vs. Claims-Made CGL",
+  "sides": [
+   {
+    "name": "Occurrence form",
+    "points": [
+     "Triggered when bodily injury or property damage occurs during the policy period (caused by an \"occurrence\" in the coverage territory).",
+     "The policy in force when the injury happened responds, even if the claim or suit comes years after it expired.",
+     "No retroactive date, and no extended reporting period (\"tail\") is offered or needed.",
+     "ISO form CG 00 01."
+    ]
+   },
+   {
+    "name": "Claims-made form",
+    "points": [
+     "Triggered by a claim first made against an insured during the policy period (or an extended reporting period).",
+     "Injury or damage before the retroactive date is not covered, even if the claim is made during the policy period; injury after the policy period ends is not covered either.",
+     "A claim is deemed made when notice of it is received and recorded by any insured or by the insurer, whichever comes first. Its conditions add that notice of an \"occurrence\" is not notice of a claim.",
+     "ISO form CG 00 02; it builds in Basic and Supplemental Extended Reporting Periods."
+    ]
+   }
+  ],
+  "tell": "Find the trigger date: when the injury or damage happened (occurrence) or when the claim is first made (claims-made).",
+  "drills": [
+   {
+    "prompt": "A customer is hurt on the insured's premises in 2024. The insured never reported it and bought no tail. The lawsuit arrives in 2027, after the policy expired, and the 2024 policy still pays.",
+    "answer": "Occurrence form",
+    "why": "The occurrence form is triggered by injury during the policy period, no matter when the claim comes; an expired claims-made policy with no tail would not answer a 2027 claim on an unreported incident."
+   },
+   {
+    "prompt": "The declarations show a retroactive date of January 1, 2020.",
+    "answer": "Claims-made form",
+    "why": "Only the claims-made CGL uses a retroactive date."
+   },
+   {
+    "prompt": "The injury happened before the retroactive date, so there is no coverage even though the claim was first made during the policy period.",
+    "answer": "Claims-made form",
+    "why": "Under the claims-made form, injury before the retroactive date is not covered."
+   },
+   {
+    "prompt": "Its conditions state that notice of an \"occurrence\" or offense is not notice of a claim.",
+    "answer": "Claims-made form",
+    "why": "That sentence is in the claims-made CGL's Duties condition (CG 00 02, Sec. IV 2.a); the occurrence form has no such wording because the claim date does not trigger it."
+   },
+   {
+    "prompt": "This form has no extended reporting period, because the date of the injury or damage (not the date of the claim) decides which policy pays.",
+    "answer": "Occurrence form",
+    "why": "A tail is not available for, or needed by, an occurrence-based CGL."
+   }
+  ],
+  "source": "ISO CG 00 01 04 13, Sec. I Cov. A 1.b; FC&S \"Claims-Made CGL Form\" (propertycasualty360.com, Feb. 18, 2014, quoting CG 00 02 04 13 Sec. I Cov. A 1.b-c, Sec. IV 2.a, Sec. V); Craig F. Stanovich, \"The Claims-Made CGL Policy\" (Austin & Stanovich / IRMI, Nov. 2012)"
+ },
+ {
+  "id": "cp-cp_commercial-02",
+  "sec": "cpp",
+  "title": "Basic vs. Supplemental Extended Reporting Period (claims-made CGL)",
+  "sides": [
+   {
+    "name": "Basic ERP",
+    "points": [
+     "Automatic and free when a claims-made CGL is canceled or nonrenewed, the retroactive date is advanced, or it is replaced by occurrence coverage.",
+     "5 years for claims from occurrences reported to the insurer no later than 60 days after the policy ends; only 60 days for claims from occurrences not reported.",
+     "Does not reinstate or increase limits, and does not apply if later insurance covers the claim.",
+     "Like the Supplemental ERP, it covers only injury or damage that occurred after the retroactive date and before the policy ended."
+    ]
+   },
+   {
+    "name": "Supplemental ERP",
+    "points": [
+     "Optional: added by endorsement for an extra premium of no more than 200% of the annual premium.",
+     "The insured must request it in writing within 60 days after the policy period ends.",
+     "Starts when the Basic ERP ends and has unlimited duration.",
+     "Provides supplemental (reinstated) aggregate limits and applies excess over other valid insurance."
+    ]
+   }
+  ],
+  "tell": "Free, automatic and short = Basic; requested within 60 days, up to 200% of premium, unlimited, with fresh aggregates = Supplemental.",
+  "drills": [
+   {
+    "prompt": "The insurer nonrenews a claims-made CGL, and this tail applies automatically at no charge.",
+    "answer": "Basic ERP",
+    "why": "The Basic ERP is provided automatically without additional charge."
+   },
+   {
+    "prompt": "The insured must ask for it in writing within 60 days after the policy ends and pay up to 200% of the annual premium.",
+    "answer": "Supplemental ERP",
+    "why": "Those are the Supplemental ERP's request deadline and premium cap."
+   },
+   {
+    "prompt": "No Supplemental ERP was bought. A claim made 3 years after expiration is still covered because the insured reported the incident to the insurer 30 days after the policy ended.",
+    "answer": "Basic ERP",
+    "why": "The Basic ERP runs 5 years for claims from occurrences reported within 60 days after the policy ends."
+   },
+   {
+    "prompt": "A claim is made 2 years after expiration from an incident never reported to the insurer, and the expired policy still covers it.",
+    "answer": "Supplemental ERP",
+    "why": "The Basic ERP gives only 60 days for unreported occurrences; the Supplemental ERP's unlimited period reaches this claim."
+   },
+   {
+    "prompt": "It restores the aggregate limits for the claims it covers.",
+    "answer": "Supplemental ERP",
+    "why": "Only the Supplemental ERP provides supplemental aggregate limits; the Basic ERP does not reinstate limits."
+   },
+   {
+    "prompt": "It does not apply at all if a later policy covers the claim.",
+    "answer": "Basic ERP",
+    "why": "The Basic ERP steps aside for subsequent insurance, while the Supplemental ERP applies excess over it."
+   }
+  ],
+  "source": "FC&S \"Claims-Made CGL Form\" (propertycasualty360.com, Feb. 18, 2014, quoting CG 00 02 04 13 Sec. V 3-6); Craig F. Stanovich, \"The Claims-Made CGL Policy\" (Austin & Stanovich / IRMI, Nov. 2012)"
+ },
+ {
+  "id": "cp-cp_commercial-03",
+  "sec": "cpp",
+  "title": "Burglary vs. Robbery vs. Theft",
+  "sides": [
+   {
+    "name": "Burglary",
+    "points": [
+     "Theft of property from within premises by a person who unlawfully enters or exits the premises.",
+     "No one has to be present or threatened.",
+     "The 2015 ISO crime form uses \"safe burglary\": taking property from a locked safe or vault, with marks of forcible entry on its exterior, or taking the safe or vault itself from inside the premises.",
+     "In that form, \"other property\" inside the premises is covered only for robbery of a custodian or safe burglary, not an ordinary break-in."
+    ]
+   },
+   {
+    "name": "Robbery",
+    "points": [
+     "Unlawful taking of property from the care and custody of a person by someone who caused or threatened bodily harm to that person.",
+     "Also robbery: an obviously unlawful act witnessed by that person, such as grabbing cash in plain view.",
+     "A person with custody of the property must be there."
+    ]
+   },
+   {
+    "name": "Theft",
+    "points": [
+     "Any unlawful taking of property to the deprivation of the insured.",
+     "The broadest term: every burglary and robbery is also a theft, so pick theft only when neither narrower term fits.",
+     "Examples: shoplifting, or an employee secretly taking money."
+    ]
+   }
+  ],
+  "tell": "Was a person with the property threatened, or did they watch it happen? Robbery. Were the premises (or a safe) unlawfully entered? Burglary. Any other unlawful taking is theft.",
+  "drills": [
+   {
+    "prompt": "Most specific term: overnight, someone pries open a shop's back door and carries out laptops while no one is there.",
+    "answer": "Burglary",
+    "why": "Property was taken from inside premises by unlawful entry, with no one confronted."
+   },
+   {
+    "prompt": "Most specific term: during business hours, a man shows a gun and orders the cashier to empty the register.",
+    "answer": "Robbery",
+    "why": "Property was taken from a person's custody by threat of bodily harm."
+   },
+   {
+    "prompt": "Most specific term: during business hours, a customer slips a watch into a pocket and walks out unnoticed.",
+    "answer": "Theft",
+    "why": "There was no unlawful entry and no one was threatened or watched, so only the broad term fits."
+   },
+   {
+    "prompt": "Most specific term under ISO crime definitions: a thief snatches cash from the register while the clerk watches, without any threat.",
+    "answer": "Robbery",
+    "why": "ISO's robbery definition includes an obviously unlawful act witnessed by the person who has custody of the property."
+   },
+   {
+    "prompt": "Most specific term: a bookkeeper quietly diverts company funds to her own account over two years.",
+    "answer": "Theft",
+    "why": "No break-in and no confrontation; it is an unlawful taking to the insured's loss."
+   }
+  ],
+  "source": "IRMI glossary \"burglary\"; ISO CR 00 21 11 15 (2015 Commercial Crime Coverage Form, Loss Sustained), A.4 and F. definitions 20 (robbery), 21 (safe burglary), 23 (theft)"
+ },
+ {
+  "id": "cp-cp_commercial-04",
+  "sec": "cpp",
+  "title": "Loss Sustained vs. Discovery Crime Forms",
+  "sides": [
+   {
+    "name": "Loss Sustained form",
+    "points": [
+     "The loss must come from an occurrence during the policy period and be discovered during the policy period or the extended period to discover (ISO CR 00 21).",
+     "Extended period to discover: no later than 1 year after cancellation; except for employee benefit plan losses, it ends at once when replacement insurance takes effect.",
+     "Has conditions that pay loss sustained under prior canceled insurance when coverage was continuous.",
+     "Its trigger is likened to an occurrence liability policy."
+    ]
+   },
+   {
+    "name": "Discovery form",
+    "points": [
+     "Covers loss sustained at any time, as long as it is discovered during the policy period or the extended period (ISO CR 00 20).",
+     "Extended period to discover: no later than 60 days after cancellation, ending early once other crime insurance takes effect (1 year for employee benefit plan losses).",
+     "The insurer may limit losses from before inception with a retroactive date.",
+     "Its trigger is likened to a claims-made liability policy."
+    ]
+   }
+  ],
+  "tell": "Ask when the loss had to happen: during this policy period (loss sustained) or any time, if it is found during the policy period (discovery).",
+  "drills": [
+   {
+    "prompt": "A theft that took place entirely 2 years before this policy began is discovered mid-term. The business had no earlier crime coverage, and no retroactive date applies.",
+    "answer": "Discovery form",
+    "why": "The discovery form covers loss sustained at any time if it is discovered during the policy period."
+   },
+   {
+    "prompt": "A theft of money during the policy period is discovered 9 months after the policy was canceled, and no replacement coverage was bought.",
+    "answer": "Loss Sustained form",
+    "why": "The loss sustained form allows 1 year after cancellation to discover; the discovery form allows only 60 days."
+   },
+   {
+    "prompt": "Its trigger works like a claims-made liability policy.",
+    "answer": "Discovery form",
+    "why": "Coverage depends on when the loss is discovered, much as claims-made depends on when the claim is made."
+   },
+   {
+    "prompt": "It has conditions for paying loss sustained partly during a prior canceled policy issued by the same insurer.",
+    "answer": "Loss Sustained form",
+    "why": "Loss Sustained During Prior Insurance conditions are specific to the loss sustained form."
+   },
+   {
+    "prompt": "After cancellation, it gives only 60 days to discover a loss (1 year for employee benefit plan losses).",
+    "answer": "Discovery form",
+    "why": "The discovery form's extended period to discover is 60 days; the loss sustained form allows up to 1 year."
+   }
+  ],
+  "source": "ISO CR 00 21 11 15, A. (preamble), E.1.g, E.1.k-l; IRMI, William Austin, \"Crime - Getting More Out of the Policy\" (Apr. 1, 2010, ISO 05 06 crime forms); FC&S \"Commercial Crime Coverage Form\" (propertycasualty360.com, July 9, 2018)"
+ },
+ {
+  "id": "cp-cp_commercial-05",
+  "sec": "cpp",
+  "title": "Business Income vs. Extra Expense",
+  "sides": [
+   {
+    "name": "Business Income",
+    "points": [
+     "Pays the net income (profit or loss before taxes) you would have earned plus continuing normal operating expenses, including payroll.",
+     "The loss must come from a necessary suspension of operations caused by direct physical loss at the described premises from a Covered Cause of Loss.",
+     "The period of restoration starts 72 hours after the direct physical loss; Extended Business Income runs up to 60 consecutive days after you reopen (longer with the Extended Period of Indemnity option).",
+     "The form's Coinsurance condition applies to it when a coinsurance percentage is shown (some optional coverages suspend it)."
+    ]
+   },
+   {
+    "name": "Extra Expense",
+    "points": [
+     "Pays necessary expenses during the period of restoration you would not have had without the loss, to avoid or minimize the suspension (for example, moving to and equipping a temporary location).",
+     "Starts immediately after the direct physical loss, and immediately after a civil authority action.",
+     "The Coinsurance condition does not apply to it.",
+     "In CP 00 30 it applies only where Business Income is shown; the separate Extra Expense Coverage Form (CP 00 50) insures it with its own limit."
+    ]
+   }
+  ],
+  "tell": "Lost profit and continuing bills while closed = Business Income; extra money spent to keep going or reopen sooner = Extra Expense.",
+  "drills": [
+   {
+    "prompt": "A bakery is closed for 6 weeks after a fire and loses the profit it would have earned.",
+    "answer": "Business Income",
+    "why": "Lost net income during the suspension is Business Income."
+   },
+   {
+    "prompt": "After a fire, a dental office rents and equips a temporary office so it can keep seeing patients.",
+    "answer": "Extra Expense",
+    "why": "Costs to continue operations at a temporary location are Extra Expense."
+   },
+   {
+    "prompt": "Under the 2012 ISO form, this coverage begins 72 hours after the direct physical loss.",
+    "answer": "Business Income",
+    "why": "The 72-hour wait applies to Business Income; Extra Expense starts immediately."
+   },
+   {
+    "prompt": "The 2012 ISO Business Income (and Extra Expense) form's Coinsurance condition does not apply to it.",
+    "answer": "Extra Expense",
+    "why": "The form says the Coinsurance condition does not apply to Extra Expense Coverage."
+   },
+   {
+    "prompt": "Payroll for employees keeps being paid while the store is closed for repairs.",
+    "answer": "Business Income",
+    "why": "Continuing normal operating expenses, including payroll, are part of Business Income."
+   },
+   {
+    "prompt": "Under Civil Authority, this coverage begins immediately after the order that prohibits access.",
+    "answer": "Extra Expense",
+    "why": "Civil Authority for Business Income begins 72 hours after the action; for Extra Expense it begins immediately."
+   }
+  ],
+  "source": "ISO CP 00 30 10 12 (2012 Business Income (and Extra Expense) Coverage Form), A.1, A.2, A.5.a, A.5.c, D. (Coinsurance), F.3; ISO CP 00 50 10 12, A."
+ },
+ {
+  "id": "cp-cp_commercial-06",
+  "sec": "cpp",
+  "title": "Basic vs. Broad vs. Special Causes of Loss",
+  "sides": [
+   {
+    "name": "Basic",
+    "points": [
+     "Named perils: fire, lightning, explosion, windstorm or hail, smoke, aircraft or vehicles, riot or civil commotion, vandalism, sprinkler leakage, sinkhole collapse, volcanic action.",
+     "Vandalism does not include theft (except building damage caused by burglars breaking in or out).",
+     "Vehicles does not include vehicles you own or that are operated in the course of your business."
+    ]
+   },
+   {
+    "name": "Broad",
+    "points": [
+     "All the Basic perils plus falling objects; weight of snow, ice or sleet; and water damage (accidental discharge from a system or appliance on the premises).",
+     "Adds an Additional Coverage for abrupt collapse.",
+     "Still named perils: no theft peril (looting is covered only as part of riot or civil commotion, as in Basic)."
+    ]
+   },
+   {
+    "name": "Special",
+    "points": [
+     "Open perils: \"direct physical loss unless the loss is excluded or limited.\"",
+     "The only one of the three that covers theft in general, subject to special theft limits (for example, $2,500 for furs, $2,500 for jewelry and watches, $250 for stamps, tickets and letters of credit).",
+     "Exclusions such as earth movement and water (flood) still apply."
+    ]
+   }
+  ],
+  "tell": "Name the narrowest form that covers the cause: Basic = 11 named perils; Broad = Basic plus falling objects, weight of snow/ice/sleet and water damage; Special = anything not excluded (the only one with a general theft peril).",
+  "drills": [
+   {
+    "prompt": "Narrowest form that covers it: the automatic sprinkler system leaks and soaks inventory.",
+    "answer": "Basic",
+    "why": "Sprinkler leakage is already a Basic peril."
+   },
+   {
+    "prompt": "Narrowest form that covers it: on a calm day, a tree limb falls and punches through the roof.",
+    "answer": "Broad",
+    "why": "Falling objects is added by the Broad form."
+   },
+   {
+    "prompt": "Narrowest form that covers the stolen stock: burglars break in overnight and carry off inventory.",
+    "answer": "Special",
+    "why": "Basic and Broad cover only the building damage from the break-in (under vandalism); only the Special form covers the theft itself, subject to its limits."
+   },
+   {
+    "prompt": "Narrowest form that covers it: a water heater on the premises suddenly cracks and leaks, soaking stock in the stockroom.",
+    "answer": "Broad",
+    "why": "Water damage from a system or appliance is added by the Broad form."
+   },
+   {
+    "prompt": "Narrowest form that covers it: heavy snow piled on the roof damages the building.",
+    "answer": "Broad",
+    "why": "Weight of snow, ice or sleet is added by the Broad form."
+   },
+   {
+    "prompt": "Narrowest form that covers it: a customer's car crashes into the storefront.",
+    "answer": "Basic",
+    "why": "Aircraft or vehicles is a Basic peril (vehicles the insured owns or operates in its business are excluded)."
+   }
+  ],
+  "source": "ISO CP 10 10 10 12 (2012 Basic), A.1-11; ISO CP 10 20 10 12 (2012 Broad), A.12-14, C.; ISO CP 10 30 09 17 (2017 Special), A., B.1, B.2.h, C.3"
+ },
+ {
+  "id": "cp-cp_commercial-07",
+  "sec": "cpp",
+  "title": "Computer Fraud vs. Funds Transfer Fraud",
+  "sides": [
+   {
+    "name": "Computer Fraud",
+    "points": [
+     "A fraudulent entry or change of electronic data or a computer program in a computer system the insured owns, leases or operates.",
+     "It must cause money, securities or other property to be transferred, paid or delivered, or the insured's bank account to be debited or deleted.",
+     "Not covered when done by someone with authorized access to the system, except an employee acting in good faith on a fraudulent instruction from the insured's software contractor.",
+     "In the 2015 ISO form both coverages sit in one insuring agreement, Computer And Funds Transfer Fraud (6.a.(1) and 6.a.(2)); older forms and the PSI outline list them separately."
+    ]
+   },
+   {
+    "name": "Funds Transfer Fraud",
+    "points": [
+     "A \"fraudulent instruction\" directs a financial institution to debit the insured's transfer account and transfer, pay or deliver money or securities.",
+     "The instruction (electronic, fax, phone, or a written electronic-transfer instruction not covered by Forgery or Alteration) appears to come from the insured but was issued by someone else without its knowledge or consent.",
+     "Neither part covers an employee of the insured who is tricked into sending money or property (Fraudulent Instructions exclusion)."
+    ]
+   }
+  ],
+  "tell": "Was the insured's own computer system tampered with (computer fraud), or was the bank fooled by a fake instruction in the insured's name (funds transfer fraud)?",
+  "drills": [
+   {
+    "prompt": "Coverage requires a fraudulent entry or change of data or a program in a computer system the insured owns, leases or operates.",
+    "answer": "Computer Fraud",
+    "why": "Computer fraud (6.a.(1)) turns on tampering with the insured's own computer system; funds transfer fraud turns on a fraudulent instruction to a financial institution, which can come by phone or fax."
+   },
+   {
+    "prompt": "A caller posing as the company treasurer phones the insured's bank and has it wire $80,000 out of the company account.",
+    "answer": "Funds Transfer Fraud",
+    "why": "The bank acted on a fraudulent instruction that appeared to come from the insured."
+   },
+   {
+    "prompt": "A hacker plants malware in the insured's inventory system that causes merchandise to be shipped from its warehouse to the hacker's address.",
+    "answer": "Computer Fraud",
+    "why": "Computer fraud also covers other property delivered because of a fraudulent data change; funds transfer fraud covers only money and securities."
+   },
+   {
+    "prompt": "A forged written instruction (not a check) tells the bank to make an electronic funds transfer out of the insured's transfer account.",
+    "answer": "Funds Transfer Fraud",
+    "why": "A written instruction directing an electronic funds transfer, issued without the insured's consent, is a fraudulent instruction."
+   },
+   {
+    "prompt": "An employee, in good faith, changes a program because of a fraudulent instruction from the insured's software contractor, which has a written agreement with the insured.",
+    "answer": "Computer Fraud",
+    "why": "Paragraph 6.b. treats this as a fraudulent entry or change under computer fraud."
+   }
+  ],
+  "source": "ISO CR 00 21 11 15 (2015 Commercial Crime Coverage Form), A.6.a-b, D.4.a-d, F.12, F.24; FC&S \"Commercial Crime Policy\" (propertycasualty360.com, 2018)"
+ },
+ {
+  "id": "cp-cp_commercial-08",
+  "sec": "bop",
+  "title": "Utility Services - Direct Damage vs. Time Element (2013 BOP endorsements)",
+  "sides": [
+   {
+    "name": "Direct Damage (BP 04 56)",
+    "points": [
+     "Pays for loss of or damage to the Covered Property shown in its Schedule caused by an interruption of utility service to the described premises.",
+     "A Utility Services limit, if shown, is part of, not in addition to, the limit for that Covered Property; Section I deductibles apply.",
+     "Utility types: water supply, communication supply and power supply property.",
+     "Both endorsements need the outage to come from direct physical loss by a Covered Cause of Loss to the utility property checked in the Schedule; overhead transmission lines only if the Schedule says so."
+    ]
+   },
+   {
+    "name": "Time Element (BP 04 57)",
+    "points": [
+     "Pays loss of Business Income or Extra Expense at the described premises caused by the interruption.",
+     "The most it pays per occurrence is the Utility Services limit in its Schedule.",
+     "The 07 13 edition adds wastewater removal property (but not interruptions from heavy rainfall or flooding).",
+     "Why buy either: the 2013 BOP excludes loss from failure of power, communication, water or other utility service that originates away from the described premises (a resulting Covered Cause of Loss is still covered)."
+    ]
+   }
+  ],
+  "tell": "Damaged property = Direct Damage; lost income or extra costs while the utility is out = Time Element.",
+  "drills": [
+   {
+    "prompt": "It pays for loss of or damage to the Covered Property listed in its Schedule caused by an interruption of utility service to the described premises.",
+    "answer": "Direct Damage (BP 04 56)",
+    "why": "Loss of or damage to Covered Property is what the direct damage endorsement pays."
+   },
+   {
+    "prompt": "A fire at the electric utility's substation (power supply property is scheduled) forces a florist to close for a week, and it loses the income it would have earned.",
+    "answer": "Time Element (BP 04 57)",
+    "why": "Lost Business Income from the interruption is the time element coverage."
+   },
+   {
+    "prompt": "A fire at a scheduled power substation cuts electricity to a bakery, which rents a generator so it can stay open.",
+    "answer": "Time Element (BP 04 57)",
+    "why": "That cost is Extra Expense, which the time element endorsement pays."
+   },
+   {
+    "prompt": "Its Utility Services limit is part of, not in addition to, the limit shown for the covered property.",
+    "answer": "Direct Damage (BP 04 56)",
+    "why": "BP 04 56 says its limit does not increase the Covered Property limit."
+   },
+   {
+    "prompt": "In the 07 13 edition, it lists wastewater removal property as a covered utility type.",
+    "answer": "Time Element (BP 04 57)",
+    "why": "BP 04 57 07 13 includes wastewater removal property; BP 04 56 07 13 lists only water, communication and power supply."
+   }
+  ],
+  "source": "ISO BP 04 56 07 13, A.-C., E.; ISO BP 04 57 07 13, A.-C., E.; ISO BP 04 57 01 06 (earlier edition, no wastewater category); ISO BP 00 03 07 13 (2013 Businessowners Coverage Form), Sec. I B.1.e"
+ },
+ {
+  "id": "cp-cp_commercial-09",
+  "sec": "other",
+  "title": "Umbrella vs. Excess (Follow-Form) Liability",
+  "sides": [
+   {
+    "name": "Umbrella",
+    "points": [
+     "Designed to protect against catastrophic losses; written over primary policies such as CGL, business auto and employers liability (a personal umbrella sits over homeowners, personal auto and watercraft liability).",
+     "Pays excess limits when underlying limits are used up, and drops down when an underlying aggregate limit is exhausted.",
+     "Can cover some claims the underlying policies do not, after the insured pays a self-insured retention (a personal umbrella's is often called a retained limit).",
+     "Individual umbrella provisions may also \"follow form\" (apply the way the underlying policy does)."
+    ]
+   },
+   {
+    "name": "Excess",
+    "points": [
+     "A follow-form excess policy follows the underlying policies for most provisions and may stand alone only for certain exclusions or conditions.",
+     "Usually written over scheduled underlying insurance that the insured must maintain.",
+     "No broader than the underlying policy; its sole purpose is to add limits, so it does not fill coverage gaps (it can even sit over an umbrella).",
+     "Wording varies by insurer, so read the actual policy."
+    ]
+   }
+  ],
+  "tell": "Can it pay a claim the primary policy does not cover (after a self-insured retention)? Umbrella. Does it only add limits on the underlying policy's terms? Excess.",
+  "drills": [
+   {
+    "prompt": "A claim falls outside every underlying policy, but this policy's own insuring agreement covers it once the insured pays a $10,000 self-insured retention.",
+    "answer": "Umbrella",
+    "why": "Covering some claims the underlying policies do not, subject to an SIR, is an umbrella function."
+   },
+   {
+    "prompt": "It sits on top of the insured's umbrella policy and only adds another layer of limits.",
+    "answer": "Excess",
+    "why": "An excess policy's underlying policy can be, and often is, an umbrella; it adds limits without broadening coverage."
+   },
+   {
+    "prompt": "Its sole purpose is to add limits, so it is never broader than the policy beneath it.",
+    "answer": "Excess",
+    "why": "IRMI defines the excess liability policy as no broader than the underlying policy, existing only to add limits."
+   },
+   {
+    "prompt": "Besides adding limits, this is the type of policy that can be broader than the underlying coverage.",
+    "answer": "Umbrella",
+    "why": "Broader-than-primary coverage is the umbrella's distinguishing feature."
+   }
+  ],
+  "source": "IRMI glossary \"umbrella liability policy\", \"personal umbrella policy\", \"excess liability policy\", \"follow form\""
+ },
+ {
+  "id": "cp-cp_commercial-10",
+  "sec": "other",
+  "title": "Surety Bond vs. Insurance Policy",
+  "sides": [
+   {
+    "name": "Surety bond",
+    "points": [
+     "Three parties: the principal obtains the bond from a surety, and the bond protects the obligee.",
+     "The surety is only secondarily liable; the principal stays primarily liable and must reimburse the surety for any loss it pays.",
+     "Underwritten like credit: the surety prequalifies the principal on credit strength, ability to perform and character, and does not expect losses.",
+     "Guarantees the principal's performance or payment of an obligation (for example, bid, performance, payment, and license and permit bonds)."
+    ]
+   },
+   {
+    "name": "Insurance policy",
+    "points": [
+     "Two parties: the insurer and the insured; coverage bought by the insured protects the insured.",
+     "Spreads fortuitous losses among a large group of similar risks.",
+     "The insurer expects losses and generally does not get covered claim payments back from its insured (though it may subrogate against a responsible third party)."
+    ]
+   }
+  ],
+  "tell": "Who bears the loss in the end? If the buyer must repay the company, it is a surety bond; if the company keeps the loss, it is insurance.",
+  "drills": [
+   {
+    "prompt": "The contractor that buys it must reimburse the company for any claim the company pays.",
+    "answer": "Surety bond",
+    "why": "The principal must reimburse the surety for losses."
+   },
+   {
+    "prompt": "A two-party contract in which the buyer is the one protected.",
+    "answer": "Insurance policy",
+    "why": "Insurance is between insurer and insured and protects the insured."
+   },
+   {
+    "prompt": "Underwriting is a close review of the buyer's credit, ability and character, and the company does not expect to pay losses.",
+    "answer": "Surety bond",
+    "why": "Surety prequalification screens the principal because the surety does not expect losses."
+   },
+   {
+    "prompt": "Premiums from many similar risks pay the fortuitous losses of the few.",
+    "answer": "Insurance policy",
+    "why": "Spreading fortuitous losses among a large group is how insurance works."
+   },
+   {
+    "prompt": "A contractor's performance bond protects the project owner who required it, not the contractor who bought it.",
+    "answer": "Surety bond",
+    "why": "A surety bond protects the obligee, not the principal."
+   }
+  ],
+  "source": "RLI Corp., \"Surety Bonds vs. Insurance Policies\" (rlicorp.com); IRMI glossary \"surety bond\", \"surety\"; AGC/SFAA, \"The Contract Surety Bond Claims Process\" (2014); FAR 48 CFR 28.001 \"Bond\""
+ },
+ {
+  "id": "cp-cp_commercial-11",
+  "sec": "other",
+  "title": "Principal vs. Obligee vs. Surety",
+  "sides": [
+   {
+    "name": "Principal",
+    "points": [
+     "The party bound to perform a contract or duty or to pay a debt, such as a contractor or a license applicant.",
+     "Obtains the bond; stays primarily liable and must reimburse the surety for losses."
+    ]
+   },
+   {
+    "name": "Obligee",
+    "points": [
+     "The party protected by the bond, to whom the principal (and then the surety) is obligated.",
+     "Usually the one that requires the bond, such as a project owner or the public body issuing a license or permit.",
+     "When a prime contractor requires bonds from its subcontractor, the prime contractor is normally the obligee and the subcontractor is the principal."
+    ]
+   },
+   {
+    "name": "Surety",
+    "points": [
+     "The company (usually an insurance company) that guarantees the principal's performance or payment to the obligee.",
+     "Secondarily liable: if the principal defaults, it must perform or pay the obligee up to the bond amount, then recover from the principal."
+    ]
+   }
+  ],
+  "tell": "The principal promises, the obligee is protected, the surety guarantees.",
+  "drills": [
+   {
+    "prompt": "A city requires a performance bond from the contractor that wins its road project. The city is the...",
+    "answer": "Obligee",
+    "why": "The project owner that requires and is protected by the bond is the obligee."
+   },
+   {
+    "prompt": "The road contractor that must finish the job and repay any loss on the bond is the...",
+    "answer": "Principal",
+    "why": "The party whose performance is guaranteed is the principal."
+   },
+   {
+    "prompt": "A prime contractor requires a payment bond from its subcontractor. The prime contractor is the...",
+    "answer": "Obligee",
+    "why": "When the prime contractor requires the bond, it is the obligee and the subcontractor is the principal."
+   },
+   {
+    "prompt": "A used-car dealer files the $25,000 bond Michigan requires with its dealer license application. The dealer is the...",
+    "answer": "Principal",
+    "why": "The licensee whose conduct the bond guarantees is the principal."
+   },
+   {
+    "prompt": "The insurance company that is secondarily liable and can recover its payment from the contractor is the...",
+    "answer": "Surety",
+    "why": "The surety backs the principal and has a right of reimbursement."
+   }
+  ],
+  "source": "IRMI glossary \"principal\", \"obligee\", \"surety\", \"license and permit bond\"; AGC/SFAA, \"The Contract Surety Bond Claims Process\" (2014); FAR 48 CFR 28.001 \"Bond\"; MCL 257.248(2)"
+ },
+ {
+  "id": "cp-cp_commercial-12",
+  "sec": "other",
+  "title": "Admitted vs. Surplus Lines Insurer (Michigan)",
+  "sides": [
+   {
+    "name": "Admitted insurer",
+    "points": [
+     "Holds a certificate of authority from the DIFS director to transact insurance in Michigan.",
+     "Admitted property and casualty insurers must belong to the Michigan Property and Casualty Guaranty Association, which pays covered claims if a member becomes insolvent (within statutory limits).",
+     "Coverage available from admitted insurers may not go to the surplus lines market. Presumed available (rebuttable): no-fault auto, private passenger auto physical damage, homeowners on owner-occupied dwellings valued below MBPIA maximum limits, workers' comp for employers not partially self-insured, and coverage readily available from 3 or more admitted insurers on competitive terms."
+    ]
+   },
+   {
+    "name": "Surplus lines insurer",
+    "points": [
+     "An \"eligible unauthorized insurer\": not authorized in Michigan but eligible to write under chapter 19; it is not a guaranty association member.",
+     "A producer needs a surplus lines license to place it, and a licensee may use it only when the coverage is not available from authorized insurers.",
+     "The policy face must carry a red-ink, 10-point notice that the insurer is not licensed by Michigan and that claims may not be guaranteed if it becomes insolvent.",
+     "Its rates and forms are largely outside the Insurance Code (rates may not be unfairly discriminatory; forms may not misrepresent the policy); the licensee pays a 2% premium tax plus a 0.5% regulatory fee."
+    ]
+   }
+  ],
+  "tell": "Licensed by Michigan and backed by the guaranty association = admitted; not licensed here and placed by a surplus lines licensee only when admitted insurers won't write it = surplus lines.",
+  "drills": [
+   {
+    "prompt": "Printed on the policy face in red ink: \"This insurance has been placed with an insurer that is not licensed by the state of Michigan.\"",
+    "answer": "Surplus lines insurer",
+    "why": "MCL 500.1922 requires this notice on surplus lines policies."
+   },
+   {
+    "prompt": "If this insurer goes insolvent, the Michigan Property and Casualty Guaranty Association handles covered claims.",
+    "answer": "Admitted insurer",
+    "why": "Only authorized P&C insurers are guaranty association members; surplus lines insurers are not."
+   },
+   {
+    "prompt": "Homeowners coverage on an owner-occupied dwelling valued below the MBPIA maximum limits is presumed (rebuttably) to be available from this kind of insurer.",
+    "answer": "Admitted insurer",
+    "why": "MCL 500.1910(2)(c) presumes it available from authorized insurers, and coverage available from an authorized insurer may not be placed with an unauthorized one."
+   },
+   {
+    "prompt": "Its rates are not regulated by the Insurance Code, except that they may not be unfairly discriminatory.",
+    "answer": "Surplus lines insurer",
+    "why": "MCL 500.1904 sets that rule for unauthorized insurers."
+   },
+   {
+    "prompt": "It holds a certificate of authority issued by the DIFS director.",
+    "answer": "Admitted insurer",
+    "why": "A certificate of authority is what makes an insurer authorized (admitted) in Michigan."
+   }
+  ],
+  "source": "MCL 500.402; 500.1903(1)(a),(d); 500.1904; 500.1905(1), (3)(d), (5); 500.1910(1)-(3); 500.1922; 500.7911(1)-(2); 500.7921; 500.7925"
+ },
+ {
+  "id": "cp-cp_commercial-13",
+  "sec": "other",
+  "title": "NFIP Direct vs. Write Your Own (WYO)",
+  "sides": [
+   {
+    "name": "NFIP Direct",
+    "points": [
+     "FEMA's wholly owned insurance company that issues NFIP flood policies.",
+     "If a claim is denied, the insured may sue FEMA in the federal district court where the damage occurred, within 1 year of the written denial.",
+     "Same Standard Flood Insurance Policy and same rating engine as the WYO companies; FEMA is responsible for underwriting both."
+    ]
+   },
+   {
+    "name": "WYO company",
+    "points": [
+     "A private property and casualty insurer participating in the NFIP that writes and services federal flood policies in its own name.",
+     "It writes the policies and processes claims, while the federal government pays all losses.",
+     "If a claim is denied, the insured must sue the flood insurer (the WYO company), in the federal district court where the damage occurred, within 1 year of the written denial.",
+     "Not the same as a private (non-NFIP) flood insurer, which pays losses itself and may set its own premiums and coverage maximums."
+    ]
+   }
+  ],
+  "tell": "Whose name is on the policy: FEMA's own NFIP Direct, or a private insurer writing the federal policy (WYO)? Coverage and rates are the same either way.",
+  "drills": [
+   {
+    "prompt": "The agent's regular home and auto carrier participates in the NFIP and issues the flood policy under its own name.",
+    "answer": "WYO company",
+    "why": "WYO companies write federal flood policies in their own names."
+   },
+   {
+    "prompt": "The flood policy is issued by FEMA's wholly owned insurance company.",
+    "answer": "NFIP Direct",
+    "why": "That is how FEMA describes NFIP Direct."
+   },
+   {
+    "prompt": "After a written claim denial, the insured files suit against FEMA in federal court.",
+    "answer": "NFIP Direct",
+    "why": "Only an NFIP Direct policyholder sues FEMA; all others sue their flood insurer."
+   },
+   {
+    "prompt": "A private property and casualty insurer issues the flood policy in its own name and processes the claim, but the federal government pays the loss.",
+    "answer": "WYO company",
+    "why": "WYO companies process claims while the federal government pays all losses."
+   },
+   {
+    "prompt": "After a written claim denial, the insured must sue the private company that issued the SFIP.",
+    "answer": "WYO company",
+    "why": "For insurers other than NFIP Direct, the suit is against the flood insurer."
+   }
+  ],
+  "source": "FEMA, \"Federal Disaster Assistance: Meeting the Flood Insurance Requirement\" (07-2024), Standard Flood Insurance Policy and Private Insurers sections; FEMA, NFIP Claims Handbook (08-2024), \"File a Lawsuit\""
+ },
+ {
+  "id": "cp-cp_commercial-14",
+  "sec": "wc",
+  "title": "FELA vs. USL&HW Act vs. Jones Act",
+  "sides": [
+   {
+    "name": "FELA",
+    "points": [
+     "Covers employees of railroads engaged in interstate or foreign commerce (45 U.S.C. 51-60).",
+     "Not a no-fault benefit system: the worker sues for damages and must show the railroad's negligence caused the injury in whole or in part.",
+     "Contributory negligence reduces damages but does not bar recovery; there is no reduction if the railroad's violation of a safety statute contributed."
+    ]
+   },
+   {
+    "name": "USL&HW Act",
+    "points": [
+     "Covers maritime workers such as longshoremen, harbor workers, ship repairers, shipbuilders and ship-breakers (33 U.S.C. 901 et seq.).",
+     "Applies to injuries on U.S. navigable waters or adjoining piers, wharves, dry docks, terminals and similar areas used to load, unload, repair or build vessels.",
+     "No-fault: compensation is payable irrespective of fault, and every employer must secure it.",
+     "Excludes a master or member of a crew of any vessel."
+    ]
+   },
+   {
+    "name": "Jones Act",
+    "points": [
+     "Covers a seaman (a vessel's crew member) injured in the course of employment.",
+     "The seaman may sue the employer at law, with a jury trial; the federal laws for railway employees (FELA) apply.",
+     "Contributory negligence reduces but does not bar recovery.",
+     "Now 46 U.S.C. 30104 (the PSI outline cites the old 46 U.S.C. 688)."
+    ]
+   }
+  ],
+  "tell": "Railroad worker = FELA; dock or shipyard worker = USL&HW Act; ship's crew = Jones Act.",
+  "drills": [
+   {
+    "prompt": "A brakeman for an interstate railroad is hurt when a coupler fails and sues the railroad for negligence.",
+    "answer": "FELA",
+    "why": "FELA gives interstate railroad workers a negligence action for damages."
+   },
+   {
+    "prompt": "A longshoreman is injured unloading cargo on a pier.",
+    "answer": "USL&HW Act",
+    "why": "Longshore work on an adjoining pier is covered by the USL&HW Act."
+   },
+   {
+    "prompt": "A cook who is a crew member on a cargo ship is injured aboard and sues his employer before a jury.",
+    "answer": "Jones Act",
+    "why": "The Jones Act lets an injured seaman sue the employer with a jury trial."
+   },
+   {
+    "prompt": "Under this federal act, compensation is payable \"irrespective of fault.\"",
+    "answer": "USL&HW Act",
+    "why": "33 U.S.C. 904(b) makes Longshore Act compensation no-fault."
+   },
+   {
+    "prompt": "A shipyard employee (not a member of the ship's crew) is injured while repairing a cargo ship in a dry dock.",
+    "answer": "USL&HW Act",
+    "why": "Ship repairers working in a dry dock are Longshore Act employees."
+   },
+   {
+    "prompt": "A jury reduces the railroad worker's damages in proportion to his own negligence.",
+    "answer": "FELA",
+    "why": "Under FELA, contributory negligence reduces damages instead of barring recovery."
+   }
+  ],
+  "source": "45 U.S.C. 51, 53; 33 U.S.C. 902(3), 903(a), 904(a)-(b); 46 U.S.C. 30104(a); IRMI glossary \"Jones Act\""
+ },
+ {
+  "id": "cp-cp_commercial-15",
+  "sec": "wc",
+  "title": "WC Policy Part One (Workers Compensation) vs. Part Two (Employers Liability)",
+  "sides": [
+   {
+    "name": "Part One",
+    "points": [
+     "Pays promptly when due the benefits required of the employer by the workers compensation law of the states listed in Item 3.A.",
+     "No dollar limit is shown; the law sets the benefits.",
+     "The insurer defends claims for benefits and pays defense costs in addition; it is directly and primarily liable to injured workers."
+    ]
+   },
+   {
+    "name": "Part Two",
+    "points": [
+     "Pays damages the employer legally must pay because of bodily injury to employees arising out of and in the course of employment, where the law permits recovery.",
+     "Examples: third-party-over suits, care and loss of services, consequential bodily injury to a spouse, child, parent, brother or sister, and dual-capacity suits.",
+     "Limits in Item 3.B: bodily injury by accident (each accident), by disease (policy limit) and by disease (each employee).",
+     "Excludes obligations under workers comp laws, injury you intentionally cause or aggravate, employment practices claims, and work under the USL&HW Act, FELA or as vessel crew."
+    ]
+   }
+  ],
+  "tell": "Benefits the comp law requires = Part One (no dollar limit); lawsuits for damages over an employee's injury = Part Two (has limits).",
+  "drills": [
+   {
+    "prompt": "An injured Michigan worker receives the wage-loss and medical benefits the Workers' Disability Compensation Act requires.",
+    "answer": "Part One",
+    "why": "Part One pays the benefits required by the workers compensation law."
+   },
+   {
+    "prompt": "Where the law allows it, an employee hurt by a machine sues its manufacturer, which then sues the employer to recover those damages (third-party-over).",
+    "answer": "Part Two",
+    "why": "This third-party-over action is covered by Employers Liability."
+   },
+   {
+    "prompt": "No dollar limit appears on the Information Page for this coverage.",
+    "answer": "Part One",
+    "why": "Part One pays whatever the state law requires."
+   },
+   {
+    "prompt": "Its limits read: bodily injury by accident - each accident; bodily injury by disease - policy limit; bodily injury by disease - each employee.",
+    "answer": "Part Two",
+    "why": "These are the Employers Liability limits shown in Item 3.B."
+   },
+   {
+    "prompt": "Where the law allows such a suit, an employee sues his employer as the maker of the product that injured him (dual capacity).",
+    "answer": "Part Two",
+    "why": "Part Two covers claims against the employer in a capacity other than as employer."
+   }
+  ],
+  "source": "NCCI WC 00 00 00 C (Ed. 1-15), Part One A-D, H; Part Two A-C, G"
+ }
+]

@@ -1,0 +1,576 @@
+[
+ {
+  "id": "mn-mn_prop-01",
+  "sec": "basics",
+  "title": "Michigan Property and Casualty Guaranty Association: who's in and the key numbers",
+  "technique": "number-peg",
+  "hook": "No license, no lifeboat. And the lifeboat runs on 5s: a $50 floor, a $500 refund cap, a $5 million cap, a $25 million (5 x 5) net-worth bouncer, and a 30-day ride before it docks.",
+  "unpack": [
+   "No license, no lifeboat: every insurer authorized to write insurance other than life or disability in Michigan must be a member. A surplus lines insurer is not treated as authorized, so it is not a member and its insureds are not protected. Life and disability insurers may not be members, and the FAIR plan pool (Michigan Basic Property Insurance Association) is exempt.",
+   "$50 floor: no unearned-premium refund of less than $50 is made.",
+   "$500 refund: unearned premium is a covered claim only up to the first $500 per person per insolvent insurer. That is the statutory base, adjusted yearly for cost of living ($2,063 for July 1, 2026 - June 30, 2027).",
+   "$5 million cap: the part of a claim over $5,000,000 is not a covered claim, except workers' compensation claims and no-fault PIP claims, which are not capped. The base is CPI-adjusted each January 1 ($7,980,000 for 2026).",
+   "$25 million bouncer: no first- or third-party claim by or against an insured whose net worth (including affiliates) exceeded $25,000,000 on December 31 of the year before the insolvency. CPI-adjusted each January 1 ($39,920,000 for 2026).",
+   "30-day ride: in-force policies continue until they expire, are replaced by the insured, or are canceled by the association, but never more than 30 days after the receiver is appointed. Claims incurred up to 30 days after that appointment can be covered claims."
+  ],
+  "watch_out": "Exam items may use the statutory base amounts ($500, $5 million, $25 million) or the current adjusted figures, so read the wording. The association never pays above the policy limit, and a claimant must first use up his or her own other insurance (the claimant's own life or disability policies don't count).",
+  "source": "MCL 500.7911(1)-(2); MCL 500.7911a; MCL 500.7925(1)(d)-(e),(2)(a),(4),(5),(6); MCL 500.7931(3)-(4); DIFS Bulletins 2026-04-INS and 2026-13-INS",
+  "question_ids": [
+   "prop-001",
+   "prop-002",
+   "prop-003",
+   "prop-004",
+   "prop-005",
+   "comm-068"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-02",
+  "sec": "basics",
+  "title": "The minimum coverage every Michigan fire policy must give",
+  "technique": "imagery",
+  "hook": "The policy clocks in at 12:01 a.m. That night lightning hits a farmhouse near Lake Huron, and the owner drags the couch to the neighbor's barn. The law's minimum promise: Fire and Lightning, paid at ACV, and the couch is covered pro rata for 5 days at the neighbor's.",
+  "unpack": [
+   "Minimum value: the actual cash value of the property at the time of loss.",
+   "Minimum perils: direct loss by fire and lightning.",
+   "The couch: property moved to another location to protect it from a covered peril is covered pro rata for 5 days.",
+   "12:01 a.m.: each fire policy takes effect at 12:01 a.m. standard time at the location of the property.",
+   "Every fire policy must also give at least the coverage of the former standard fire policy (the prescribed form itself was repealed effective Jan. 1, 1992).",
+   "Other required provisions include: the policy may be void for misrepresentation, fraud or concealment; the insurer may repair, replace, rebuild or take the property; there can be no abandonment of property to the insurer; the insurer pays only its pro rata share with other insurance; and the insurer is subrogated to the insured's rights of recovery."
+  ],
+  "watch_out": "These are minimums, not limits: a homeowners form may pay replacement cost and cover many more perils. A vacancy suspension is NOT a required provision (a popular wrong answer); the law only requires the policy to state whatever conditions suspend or restrict the insurance.",
+  "source": "MCL 500.2833(1)(a)-(f),(k),(n),(o),(r),(s); MCL 500.2833(2); MCL 500.2832",
+  "question_ids": [
+   "prop-006",
+   "prop-007"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-03",
+  "sec": "basics",
+  "title": "Michigan fire policy deadlines and dollar amounts",
+  "technique": "number-peg",
+  "hook": "10-25-30-60-1. The insurer needs 10 days to cancel, keeps at least $25, pays within 30 days of proof, the mortgagee files proof within 60 days, and you get at least 1 year to sue, with the clock on pause while the insurer decides.",
+  "unpack": [
+   "10: the insurer may cancel by mailing at least 10 days' written notice to each named insured. It may also cancel the mortgagee's interest on 10 days' written notice to the mortgagee.",
+   "$25: the insured may cancel at any time. Whoever cancels, the minimum earned premium is the pro rata premium or $25, whichever is greater.",
+   "30: loss is payable within 30 days after the insurer receives proof of the amount of loss (except where Michigan's fire-loss withholding law, MCL 500.2845, applies).",
+   "60: if the insured fails to file proof of loss, the mortgagee must file it within 60 days after notice.",
+   "1: suit must begin within 1 year after the loss or within the period the policy states, whichever is longer. The time is tolled (paused) from when the insured notifies the insurer of the loss until the insurer formally denies liability."
+  ],
+  "watch_out": "For home insurance, the Essential Insurance Act overrides the 10-day rule: a termination for any reason other than nonpayment needs at least 30 days' notice (20 days if mailed within the first 55 days). Under the 2011 ISO homeowners form, suit is allowed within 2 years; that longer period applies because the statute only sets a 1-year minimum.",
+  "source": "MCL 500.2833(1)(h),(i),(j),(p),(q); MCL 500.2123(1)-(3); MCL 500.2106(4); ISO HO 00 03 05 11, Sec. I Cond. H",
+  "question_ids": [
+   "prop-008",
+   "prop-009",
+   "prop-010"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-04",
+  "sec": "basics",
+  "title": "Appraisal under Michigan's fire policy law",
+  "technique": "story",
+  "hook": "Lions vs. Packers over the amount of a fire loss: each side names its appraiser within 20 days, the two appraisers get 15 days to pick an umpire (or a circuit judge picks one), and any 2 of the 3 can sign the final score. Each side pays its own appraiser; the umpire's bill is split 50/50.",
+  "unpack": [
+   "Trigger: the insured and insurer disagree on the actual cash value or the amount of loss, and either one makes a written demand for appraisal.",
+   "20: within 20 days after receiving the demand, each party selects a competent, independent appraiser and tells the other side who it is.",
+   "15: the two appraisers select a competent, impartial umpire. If they can't agree within 15 days, the insured or insurer may ask a circuit court judge for the county where the loss occurred or the property is located to select one.",
+   "2 of 3: the appraisers set ACV and the loss item by item. If they agree, their written report sets the loss. If not, they submit their differences to the umpire, and a written agreement signed by any 2 of the 3 sets the amount of loss.",
+   "Costs: each party pays the appraiser it selected. The umpire and the other appraisal expenses are split equally between the insured and the insurer."
+  ],
+  "watch_out": "Don't flip the numbers: 20 days to name appraisers, then 15 days to agree on the umpire. Appraisal is for disagreements over actual cash value or the amount of loss. The unendorsed 2011 ISO HO-3 and 2002 ISO DP-3 use the same 20/15 steps but say 'a judge of a court of record in the state'; Michigan's statute names a circuit court judge in the county.",
+  "source": "MCL 500.2833(1)(m); ISO HO 00 03 05 11, Sec. I Cond. F; ISO DP 00 03 12 02, Cond. G",
+  "question_ids": [
+   "prop-011",
+   "prop-012"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-05",
+  "sec": "basics",
+  "title": "Home insurance termination notice vs. ordinary casualty cancellation",
+  "technique": "imagery",
+  "hook": "Picture a Michigan road sign for home and auto policies: 'FIRST 55 DAYS: 20 DAYS' NOTICE. AFTER THAT: 30. GIVE EVERY REASON.' Nonpayment takes the exit the policy describes. Other casualty policies only need 10 days; a malpractice nonrenewal needs 60.",
+  "unpack": [
+   "What's covered: under the Essential Insurance Act a 'termination' is a refusal to continue to insure (cancellation or nonrenewal) for any reason other than nonpayment of premium. It also includes moving the insured to an affiliate at higher rates or with less coverage, or offering less favorable terms than before, unless the insured asked for it (or, for less favorable terms, the old terms are no longer available from the insurer anywhere in the state).",
+   "30: a termination of home or auto insurance is effective only if written notice is delivered or mailed to the named insured at least 30 days before the termination date, stating the effective date and each specific reason.",
+   "55 and 20: a notice mailed or delivered within the first 55 days after the policy is first issued may take effect not less than 20 days after it is mailed or delivered.",
+   "Nonpayment: a termination notice for nonpayment of premium takes effect as provided in the policy.",
+   "The reasons must conform to the insurer's underwriting rules, and chapter 21 controls over conflicting parts of the Insurance Code for home and auto insurance.",
+   "10: other casualty policies (except workers' compensation and mortgage guaranty) may be canceled by the insurer on not less than 10 days' written notice. The insured may cancel at any time; the refund is generally figured pro rata (an insurer may file a short rate for motorcycle, watercraft, off-road vehicle and snowmobile policies), with a minimum earned premium of $25 on non-auto policies.",
+   "60: a malpractice policy may be nonrenewed only on not less than 60 days' written notice."
+  ],
+  "watch_out": "The 20-day rule turns on when the notice is mailed or delivered (within the first 55 days), and 20 days is the minimum after mailing. Example: a new homeowners policy issued 40 days ago can be terminated (other than for nonpayment) no sooner than 20 days after the notice is mailed. Private passenger auto cancellations also have their own chapter 32 rules.",
+  "source": "MCL 500.2104(5); MCL 500.2123(1)-(5); MCL 500.2106(4); MCL 500.3020(1)(a)-(d),(4)",
+  "question_ids": [
+   "prop-013",
+   "prop-014"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-06",
+  "sec": "basics",
+  "title": "Essential Insurance Act: who is an eligible person for home insurance",
+  "technique": "number-peg",
+  "hook": "Live there (and if you own the building, 4 units max). Then meet the 5-5-2-2 bouncers: 5 years since an arson conviction, 5 years since a claim was denied for arson or fraud, 2 years since a nonpayment cancellation, and property taxes 2 or more years behind.",
+  "unpack": [
+   "Live there (owners: 4 units max): an eligible person is the owner-occupant or tenant of a house, condominium unit, cooperative unit, room or apartment, or the owner-occupant of a multiple-unit dwelling of not more than 4 residential units.",
+   "5: not eligible if convicted in the preceding 5 years of arson, conspiracy to commit arson, or certain related crimes.",
+   "5: not eligible if, in the preceding 5 years, an insurer successfully denied payment of a home insurance claim based on evidence of arson or fraud (or conspiracy to commit either) by or on behalf of the person.",
+   "2: not eligible if a home insurance policy was canceled for nonpayment in the preceding 2 years, unless the premium due is paid in full before issuance or renewal.",
+   "2: not eligible if the real property taxes on the dwelling have been delinquent for 2 or more years.",
+   "Also not eligible: refusing to buy at least 80% of replacement cost (replacement cost policy), 100% of market value (repair cost policy) or 100% of ACV (tenant policy); insured value under $15,000 (repair cost) or under $35,000 (replacement cost, or another amount the director sets); a dwelling used for an illegal or demonstrably hazardous purpose; physical conditions that clearly present an extreme likelihood of a significant loss; failing to keep a club or group membership the insurer uniformly requires."
+  ],
+  "watch_out": "An owner-occupant of a 3- or 4-unit building is eligible. A landlord who doesn't live in the rental house is neither an owner-occupant nor a tenant, so he is not an eligible person. Don't borrow the auto test (suspended license, more than 6 insurance eligibility points) for home insurance.",
+  "source": "MCL 500.2103(2)(a)-(k)",
+  "question_ids": [
+   "prop-020"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-07",
+  "sec": "basics",
+  "title": "Essential Insurance Act: what home underwriting may use, and how to say no",
+  "technique": "contrast",
+  "hook": "Judge the house's condition, never its birthday or its zip code. And if you say no, say why: in writing if they applied in writing; out loud if they asked out loud, plus a written copy if they ask within 90 days.",
+  "unpack": [
+   "Underwriting rules for home insurance may be based only on the criteria the act lists. They must be in writing, applied uniformly throughout the state, and filed with the commissioner before use.",
+   "Condition, yes: physical condition may be used if the rules are objective, directly related to the perils insured against, based on specific housing or safety code provisions (or similar standards), and applied without regard to the age of the structure. A government certificate of substantial code compliance creates a rebuttable presumption that the dwelling meets those rules.",
+   "Birthday, no: the age of the dwelling is not an allowed underwriting criterion.",
+   "Zip code, no: refusing to insure, refusing to continue to insure, or limiting coverage because of the location of the risk is redlining, and it is prohibited.",
+   "Other allowed criteria include: a dwelling unoccupied more than 60 days with evidence of intent to vacate; an adjacent physical hazard (neighboring residential property and traffic patterns don't count); and, for nonrenewal, 3 paid claims (excluding liability claims) in the preceding 3 years totaling at least $3,000 excluding weather claims or $4,000 including them. Those are the statutory bases; since Jan. 1, 2024 the adjusted amounts are $5,000 and $6,600.",
+   "Saying no: a declination includes an agent refusing to submit an application, an insurer refusing to issue, offering coverage at higher rates with a different insurer than the one requested, or offering less favorable terms than requested. The insurer or agent must give each specific reason.",
+   "Refusing to provide an application form on request counts as a declination."
+  ],
+  "watch_out": "Age of the dwelling is the classic EXCEPT answer: physical condition is allowed, age is not. The 90 days is the applicant's window to ask for a written explanation after an oral application, not the insurer's deadline to decide.",
+  "source": "MCL 500.2117(1),(2)(b),(e),(g),(h),(5); MCL 500.2119(1),(2),(5); MCL 500.2108(8); MCL 500.2102(4); MCL 500.2122(1)-(2); DIFS Bulletin 2024-02-INS (Mar. 27, 2024)",
+  "question_ids": [
+   "prop-021",
+   "prop-022",
+   "prop-023"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-08",
+  "sec": "basics",
+  "title": "TRIA (Terrorism Risk Insurance Program): who certifies, the numbers, and the lines",
+  "technique": "number-peg",
+  "hook": "Uncle Sam's terror ladder: the Treasury Secretary stamps it (consulting Homeland Security and the Attorney General) only past $5 million in losses. Insurers eat a deductible of 20% of last year's premium, Uncle Sam pays 80% above it, nothing flows until industry losses top $200 million, nobody pays past $100 billion, and the lights go out Dec. 31, 2027.",
+  "unpack": [
+   "Certify: the Secretary of the Treasury certifies an act of terrorism, in consultation with the Secretary of Homeland Security and the Attorney General. The act must be violent or dangerous to human life, property or infrastructure; cause damage in the U.S. (or to certain U.S. air carriers or vessels, or a U.S. mission abroad); and be committed as part of an effort to coerce the U.S. civilian population or influence U.S. government policy or conduct by coercion.",
+   "No certification for an act committed as part of a war declared by Congress (this bar doesn't apply to workers' compensation coverage). Certification decisions are final and not subject to judicial review.",
+   "$5 million: no certification unless aggregate property and casualty insurance losses from the act exceed $5,000,000.",
+   "20%: each insurer's deductible is 20% of its direct earned premium for the preceding calendar year.",
+   "80%: the federal share is 80% of insured losses above the insurer's deductible (it was 85% through 2015, then dropped 1 point a year beginning in 2016 until it reached 80% in 2020).",
+   "$200 million: no federal payment unless aggregate industry insured losses from certified acts exceed $200,000,000 for the year (2020 and later).",
+   "$100 billion: neither the Treasury nor an insurer that has met its deductible pays any part of annual aggregate insured losses above $100,000,000,000.",
+   "Lines: commercial property and casualty, including excess, workers' compensation and directors and officers liability. Excluded: crop and livestock; farmowners multiple peril; private mortgage and title; financial guaranty; surety; medical malpractice; health and life; professional liability; commercial auto; burglary and theft; NFIP flood; reinsurance. Insurers must make terrorism coverage available in all their covered policies, on terms not materially different from other coverage. To receive the federal share, the insurer must have clearly disclosed the terrorism premium and the federal share to the policyholder."
+  ],
+  "watch_out": "Don't swap 20% (insurer deductible) and 80% (federal share). Workers' compensation is in; commercial auto is out. Dec. 31, 2027 is the end date under current law; as of October 2026, bills extending the program to 2034 had passed the House (H.R. 7128) and Senate (S. 4395) in different versions but were not confirmed enacted, and the House version would raise the $5 million certification threshold to $10 million starting in 2029. Recheck before your exam.",
+  "source": "TRIA (P.L. 107-297, as amended; 15 U.S.C. 6701 note) §§102(1)(A)-(C), 102(7), 102(11), 103(b)-(c), 103(e)(1)(A)-(B), 103(e)(2), 108(a); Carlton Fields, \"Senate Passes TRIA Reauthorization as House-Senate Differences Await Resolution\" (Oct. 1, 2026), on H.R. 7128 / S. 4395",
+  "question_ids": [
+   "prop-015",
+   "prop-016",
+   "prop-017"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-09",
+  "sec": "dwelling",
+  "title": "Dwelling Basic Form (1988 DP-1): its perils and what makes it bare-bones",
+  "technique": "acronym",
+  "hook": "DP-1 starts with Fire, Lightning and an Internal Explosion. Pay for Extended Coverage and the Lake Michigan WHARVES open: Windstorm, Hail, Aircraft, Riot, Vehicles, Explosion, Smoke - plus a surprise Volcano. Vandalism costs extra.",
+  "unpack": [
+   "Always included: fire or lightning, and internal explosion.",
+   "Extended Coverage premium adds (WHARVES + V): windstorm or hail, aircraft, riot or civil commotion, vehicles, explosion (replacing internal explosion), smoke, and volcanic eruption. The letters are only a memory aid; their order doesn't matter.",
+   "Vandalism or malicious mischief is covered only if a separate V&MM premium is shown in the Declarations.",
+   "Loss settlement: actual cash value at the time of loss, but not more than the cost to repair or replace. No replacement cost.",
+   "Coverages A through D only: there is no Coverage E (additional living expense) in the 1988 DP-1.",
+   "Property removed to protect it from a covered peril: covered for 5 days (1988 DP-2 and the 2002 and 2014 DP-3: 30 days).",
+   "Other structures: up to 10% of Coverage A, and that payment reduces the Coverage A limit."
+  ],
+  "watch_out": "WHARVES counts windstorm and hail as one peril. Volcanic eruption is part of Extended Coverage, but V&MM is its own extra premium. These values come from the 1988 edition the practice questions cite; later editions may differ, so check the edition a question names.",
+  "source": "ISO DP 00 01 07 88, Coverages A-D, Other Coverages 1 and 7, Perils Insured Against 1-9, Condition 5; ISO DP 00 02 07 88, Other Coverage 7; ISO DP 00 03 12 02 and 07 14, Other Coverage 7",
+  "question_ids": [
+   "prop-024",
+   "prop-029"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-10",
+  "sec": "dwelling",
+  "title": "Broad vs. Special vs. Comprehensive: which coverages get open perils",
+  "technique": "contrast",
+  "hook": "Broad = a named list for everything. Special = the house is special (open perils on A and B), but your stuff stays on the named list (C). Comprehensive = completely open, and of these forms only HO-5 has it.",
+  "unpack": [
+   "DP-2 and HO-2 (Broad Form): named perils for Coverages A, B and C.",
+   "DP-3 and HO-3 (Special Form): Coverages A and B are covered against risk of direct physical loss unless excluded (open perils); Coverage C is covered for named perils only.",
+   "HO-5 (Comprehensive Form): open perils for Coverages A, B and C. None of the DP-1, DP-2 or DP-3 forms covers personal property on an open-perils basis.",
+   "The named list: HO-2 and the HO-3 Coverage C use the same 16 named perils. The DP-2 and DP-3 Coverage C list is essentially the same 16 perils, except 'Damage by Burglars' sits where the homeowners forms have 'Theft'."
+  ],
+  "watch_out": "'Special' does not mean everything is open: HO-3 and DP-3 still insure personal property only for named perils. 'Open perils' is not 'all risks': the exclusions still apply.",
+  "source": "ISO DP 00 02 07 88, Perils 1-16; ISO DP 00 03 12 02, Perils Insured Against A-B; ISO HO 00 02 10 00, Sec. I Perils; ISO HO 00 03 05 11, Sec. I Perils A-B; ISO HO 00 05 10 00, Sec. I Perils; The Institutes, AIC 43 excerpt",
+  "question_ids": [
+   "prop-025",
+   "prop-033",
+   "prop-gap-08"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-11",
+  "sec": "dwelling",
+  "title": "Dwelling policy coverage letters A-E, the DP-3 percentages, and where liability comes from",
+  "technique": "acrostic",
+  "hook": "A landlord's alphabet: A = the house (Abode), B = the Backyard shed or garage Beside it, C = Contents, D = Dollars from tenants (fair rental value), E = Extra living costs. Liability isn't in the alphabet at all: bolt on the PLS, with L for Liability and M for Medical.",
+  "unpack": [
+   "Coverage A - Dwelling: the dwelling at the described location, structures attached to it, and materials and supplies for its construction or repair. Land is not covered.",
+   "Coverage B - Other Structures: structures separated from the dwelling by clear space (not structures used in whole or in part for commercial, manufacturing or farming purposes, with a narrow storage exception).",
+   "Coverage C - Personal Property: property usual to a dwelling, owned or used by you or resident family members, while on the described location.",
+   "Coverage D - Fair Rental Value: the fair rental value of the part rented or held for rental, less expenses that don't continue while it is unfit to live in.",
+   "Coverage E - Additional Living Expense: the necessary increase in living expenses (DP-2 and DP-3; the 1988 DP-1 has no Coverage E). In the 2002 DP-3, for both D and E, a civil authority prohibition of use is covered up to 2 weeks.",
+   "DP-3 Other Coverages (2002 and 2014 editions): other structures up to 10% of A (additional insurance); fair rental value and ALE together up to 20% of A (additional insurance); worldwide coverage for Coverage C property up to 10% of C (this one reduces C, and doesn't apply to rowboats and canoes).",
+   "No dwelling form includes liability or medical payments. The Personal Liability Supplement (DL 24 01) adds Coverage L - Personal Liability and Coverage M - Medical Payments to Others."
+  ],
+  "watch_out": "The letters shift between policies: in the dwelling forms D is fair rental value and E is additional living expense, but in the homeowners forms D is Loss of Use (ALE and fair rental value together) and E is Personal Liability.",
+  "source": "ISO DP 00 03 12 02, Coverages A-E and Other Coverages 1, 4, 5; ISO DP 00 03 07 14 (same percentages); ISO DP 00 01 07 88; ISO DL 24 01 12 02, Coverages L-M",
+  "question_ids": [
+   "prop-028",
+   "prop-gap-01",
+   "prop-gap-02",
+   "prop-gap-03",
+   "prop-gap-04",
+   "prop-030"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-12",
+  "sec": "dwelling",
+  "title": "Theft under the dwelling forms",
+  "technique": "contrast",
+  "hook": "The DP-2 and DP-3 pay for the burglar's crowbar dents, not his loot. To cover the loot, check who lives there: the named insured lives there = Broad Theft (on and off premises); the named insured doesn't (a landlord) = Limited Theft (on premises only).",
+  "unpack": [
+   "The DP-2 and DP-3 Coverage C perils include 'Damage by Burglars' (damage to covered property caused by burglars), not theft.",
+   "The dwelling forms' vandalism or malicious mischief peril does not include pilferage, theft, burglary or larceny. (In the 1988 DP-1, V&MM, if its premium is paid, does cover burglar damage to the covered building.)",
+   "Theft is added by endorsement under the ISO Dwelling Policy Program Manual (Rule 510).",
+   "Broad Theft Coverage (DP 04 72): for owner-occupied dwellings, co-op or condo units, and apartments occupied by a tenant who is the named insured. Covers theft and V&MM resulting from theft, on and off premises.",
+   "Off-premises coverage is available only when on-premises coverage is bought, and its limit can't be greater than the on-premises limit. The manual minimum limit is $1,000 each (2003 ISO Dwelling Policy Program Manual).",
+   "Limited Theft Coverage (DP 04 73): for non-owner-occupied dwellings, co-op or condo units, and apartments occupied by a tenant other than the named insured. On-premises coverage only."
+  ],
+  "watch_out": "The homeowners forms list theft as a named peril; the dwelling forms do not. Choose the theft endorsement by occupancy, not by price: an owner-occupant (or a tenant who is the named insured) gets Broad Theft, a landlord who doesn't live there gets Limited Theft.",
+  "source": "ISO DP 00 03 12 02, Coverage C Perils 8-9; ISO DP 00 02 07 88, Perils 8-9; ISO DP 00 01 07 88, Peril 9; ISO Dwelling Policy Program Manual (© ISO 2003) Rule 510.A",
+  "question_ids": [
+   "prop-026",
+   "prop-027"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-13",
+  "sec": "ho",
+  "title": "The homeowners forms by number",
+  "technique": "number-peg",
+  "hook": "2 = Broad (a named list). 3 = Special (the house is open). 4 = For renters: the four walls aren't yours. 5 = High-five: open on everything. 6 = the condo unit's 'sticks' (fixtures and improvements). 8 = the eight-track tape: older homes, Modified coverage.",
+  "unpack": [
+   "HO-2 Broad: named perils for A, B and C. HO-2, HO-3, HO-5 and HO-8 may be issued only to the owner-occupant of a 1- to 4-family dwelling, and not on farm premises.",
+   "HO-3 Special: open perils for A and B; named perils for C.",
+   "HO-4 Contents Broad: for tenants (and for owners who live in a building that isn't a 1- or 2-family dwelling). Section I is Coverages C and D only, no A or B. In the 2011 HO-4, a tenant's improvements are covered up to 10% of C as additional insurance (Building Additions and Alterations).",
+   "HO-5 Comprehensive: open perils for A, B and C.",
+   "HO-6 Unit-Owners: for condo unit owners and co-op shareholders, who need not live in the unit. Coverage A covers the alterations, appliances, fixtures and improvements that are part of the building within the unit, real property pertaining only to the unit, property that is the owner's insurance responsibility under the association agreement, and structures owned solely by the insured at the location. A and C are named perils.",
+   "HO-8 Modified (2000 edition): for owner-occupants whose homes may not meet insurer standards for the other forms; it is intended for older homes whose replacement cost is well above market value. 10 named perils; theft only on the residence premises, up to $1,000 per loss; a building repaired at the same site within 180 days is paid no more than the cost of common construction materials and methods that are functionally equivalent."
+  ],
+  "watch_out": "HO-4 has no Coverage A or B at all. HO-6 Coverage A is not the whole condo building; it is the unit's fixtures and improvements plus what the association agreement makes the owner insure.",
+  "source": "The Institutes, AIC 43 excerpt (ISO 2011 HO program); ISO HO 00 04 05 11, Sec. I and Add'l Cov. 10; ISO HO 00 06 05 11, Coverage A and Sec. I Perils; ISO HO 00 08 10 00, Peril 9 and Sec. I Cond. C.2; IRMI, \"Homeowners Modified Form 8\" definition",
+  "question_ids": [
+   "prop-034",
+   "prop-gap-10",
+   "prop-gap-11",
+   "prop-035",
+   "prop-036"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-14",
+  "sec": "ho",
+  "title": "Homeowners coverage letters A through F (2011 ISO Homeowners)",
+  "technique": "acrostic",
+  "hook": "A = Abode, B = Backyard buildings, C = Contents, D = Displaced (loss of use), E = 'Excuse me, you're being sued' (personal liability), F = a Friend's Fall (medical payments to others).",
+  "unpack": [
+   "Coverage A - Dwelling: the dwelling and structures attached to it (an attached garage is A), plus materials and supplies on or next to the residence premises for its construction or repair. Land is not covered.",
+   "Coverage B - Other Structures: structures set apart from the dwelling by clear space, like a detached shed or garage. 10% of A, and using it does not reduce A.",
+   "Coverage C - Personal Property: property owned or used by an insured, anywhere in the world.",
+   "Coverage D - Loss of Use: one limit covering additional living expense, fair rental value, and civil authority prohibiting use (up to 2 weeks). The time periods aren't cut off by the policy's expiration.",
+   "Coverage E - Personal Liability: damages an insured is legally liable for because of bodily injury or property damage from an occurrence, plus a defense even if the suit is groundless, false or fraudulent. The duty to settle or defend ends when the limit for the occurrence is exhausted by paying a judgment or settlement.",
+   "Coverage F - Medical Payments to Others: necessary medical expenses incurred or medically ascertained within 3 years of the accident. It does not apply to you or regular residents of your household, except residence employees."
+  ],
+  "watch_out": "Section I is A-D (property); Section II is E-F (liability). Don't carry these letters over to the dwelling forms, where D is fair rental value and E is additional living expense.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverages A-D; Sec. II Coverages E-F",
+  "question_ids": [
+   "prop-gap-12",
+   "prop-gap-13",
+   "prop-044",
+   "prop-052",
+   "prop-053"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-15",
+  "sec": "ho",
+  "title": "The 16 named perils (HO-2; HO-3 and HO-4 Coverage C) = 10 basic + 6 broad",
+  "technique": "chunking",
+  "hook": "The 10 basic (even HO-8 gets them): Fire and Lightning + the WHARVES (Windstorm/Hail, Aircraft, Riot, Vehicles, Explosion, Smoke) + Vandalism + Theft + a Volcano. The 6 broad = a Michigan January: a frozen limb crashes through the roof, snow caves the roof in on the couch, the washer hose bursts, the water heater splits, the pipes freeze, a power surge zaps the house.",
+  "unpack": [
+   "The 10 basic perils (the HO-8 list): fire or lightning; windstorm or hail; explosion; riot or civil commotion; aircraft; vehicles; smoke; vandalism or malicious mischief; theft; volcanic eruption. In the 2000 HO-8, theft is covered only on the residence premises and only up to $1,000 per loss.",
+   "Limb crashes through the roof = falling objects.",
+   "Snow caves the roof in = weight of ice, snow or sleet.",
+   "Washer hose bursts = accidental discharge or overflow of water or steam (from a plumbing, heating, air conditioning or fire sprinkler system, or a household appliance).",
+   "Water heater splits = sudden and accidental tearing apart, cracking, burning or bulging (of a steam or hot water heating system, an air conditioning or fire sprinkler system, or an appliance for heating water).",
+   "Pipes freeze = freezing of a plumbing, heating, air conditioning or fire sprinkler system or a household appliance.",
+   "Power surge = sudden and accidental damage from artificially generated electrical current.",
+   "Order doesn't matter on the exam. The forms happen to number theft as peril 9 and volcanic eruption as peril 16."
+  ],
+  "watch_out": "Fine print on the broad perils: freezing is covered only if you used reasonable care to maintain heat or shut off the water and drain the systems; falling objects cover property inside only if the roof or an outside wall is damaged first; and the power-surge peril does NOT cover tubes, transistors, electronic components or circuitry in appliances, computers or home entertainment units. Accidental discharge doesn't pay for the appliance or system the water escaped from. The dwelling forms swap theft for 'damage by burglars'.",
+  "source": "ISO HO 00 03 05 11, Sec. I Perils B.1-16; ISO HO 00 02 10 00, Sec. I Perils; ISO HO 00 08 10 00, Sec. I Perils 1-10 (Peril 9 theft limits); ISO HO 00 04 05 11",
+  "question_ids": [
+   "prop-gap-09",
+   "prop-035"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-16",
+  "sec": "ho",
+  "title": "Coverage C special limits of liability (2011 ISO Homeowners)",
+  "technique": "memory-palace",
+  "hook": "Walk through the house: the kitchen cookie jar of cash ($200), the hall desk of passports and deeds ($1,500), the garage fishing boat with its trailer and motor ($1,500) and the utility trailer ($1,500), the bedroom jewelry box ($1,500 theft), the basement gun safe ($2,500 theft), the dining room silver ($2,500 theft), the home office ($2,500), and finally the car in the driveway: work samples in the trunk ($1,500), the portable electronics ($1,500) and the disks in the glovebox ($250).",
+  "unpack": [
+   "Cookie jar, $200: money, bank notes, bullion, gold, silver and platinum other than goldware, silverware and platinumware, coins, medals, scrip, stored value cards and smart cards.",
+   "Hall desk, $1,500: securities, accounts, deeds, evidences of debt, letters of credit, notes other than bank notes, manuscripts, personal records, passports, tickets and stamps.",
+   "Garage, $1,500: watercraft of all types, including their trailers, furnishings, equipment and outboard motors. Another $1,500 for trailers or semitrailers not used with watercraft.",
+   "Jewelry box, $1,500: loss by THEFT of jewelry, watches, furs, and precious and semiprecious stones.",
+   "Gun safe, $2,500: loss by THEFT of firearms and related equipment.",
+   "Silver, $2,500: loss by THEFT of silverware, goldware, platinumware and pewterware (including plated ware, trays and trophies).",
+   "Home office, $2,500: property on the residence premises used primarily for business.",
+   "Car trunk, $1,500: business property away from the residence premises. Car electronics, $1,500: portable electronic equipment in or on a motor vehicle that can run on the vehicle's power. Glovebox, $250: antennas, tapes, wires, records, disks and other media in or on a motor vehicle."
+  ],
+  "watch_out": "Jewelry, firearms and silverware limits apply only to THEFT; jewelry destroyed in a fire is paid up to the Coverage C limit. Each special limit is the total per loss for that category and does not increase Coverage C. These are 05 11 (2011 program) amounts; the 2022 ISO program changed some of them. (In the 2000-edition HO-5, the jewelry, firearms and silverware limits apply to theft, misplacing or losing.)",
+  "source": "ISO HO 00 03 05 11, Coverage C.3.a-k; ISO HO 00 05 10 00, Coverage C.3.e-g",
+  "question_ids": [
+   "prop-041",
+   "prop-042",
+   "comm-oth-13"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-17",
+  "sec": "ho",
+  "title": "Section I additional coverages: the 10s, the 5s and the price list (2011 ISO HO-3)",
+  "technique": "chunking",
+  "hook": "Tens for other structures, stuff kept elsewhere, and ordinance or law. Fives for the yard and the junk pile (trees, extra debris removal). Price list: $500 fire truck and stolen card (no deductible), $1,000 assessment and tree haul-away, $2,500 landlord's furniture, $5,000 grave marker.",
+  "unpack": [
+   "Other structures (Coverage B): 10% of A, and using it does not reduce A.",
+   "Property usually kept at an insured's other residence, or in a self-storage facility: 10% of C or $1,000, whichever is greater. (Not applied to property moved out while the residence premises is being repaired; the other-residence limit also isn't applied for 30 days to a newly acquired principal residence.)",
+   "Ordinance or law: up to 10% of A, as additional insurance. (2011 HO-4: 10% of the Building Additions and Alterations limit. In the 2011 HO-4 and HO-6, trees get 10% of C.)",
+   "Trees, shrubs and other plants: up to 5% of A, no more than $500 for any one tree, shrub or plant, additional insurance. Covered perils: fire or lightning, explosion, riot or civil commotion, aircraft, vehicles not owned or operated by a resident, V&MM, and theft.",
+   "Debris removal: included in the limit for the damaged property, plus an additional 5% of that limit if the damage plus debris removal exceeds the limit.",
+   "Price list: fire department service charge $500 (no deductible; not if the property is within the limits of the jurisdiction furnishing the fire department); credit card, EFT card, forgery and counterfeit money $500 (no deductible); loss assessment $1,000; tree removal $1,000 per loss, $500 per tree; landlord's furnishings $2,500 per rented apartment (Coverage C perils other than theft); grave markers $5,000. Property removed to protect it is covered for up to 30 days."
+  ],
+  "watch_out": "Windstorm is NOT a covered peril for trees, shrubs and plants, so wind-blown trees aren't replaced. But tree REMOVAL pays to haul away trees felled by windstorm or hail or by weight of ice, snow or sleet (or a neighbor's tree felled by a Coverage C peril), if they damage a covered structure or block a driveway or handicap ramp.",
+  "source": "ISO HO 00 03 05 11, Coverages B-C.2 and Sec. I Add'l Cov. E.1-12; ISO HO 00 04 05 11 and HO 00 06 05 11, Add'l Coverages",
+  "question_ids": [
+   "prop-039",
+   "prop-040",
+   "prop-045",
+   "prop-046"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-18",
+  "sec": "ho",
+  "title": "Who is an 'insured,' and what counts as a 'business' (2011 ISO HO-3)",
+  "technique": "number-peg",
+  "hook": "21, 24 and $2,000. Your 22-year-old daughter at Michigan State is still an insured (a relative under 24); your 25-year-old son in grad school is not. A non-relative counts only under 21 and in your care. And a money-making activity that isn't your trade or occupation isn't a 'business' if no insured got more than $2,000 for it in the 12 months before the policy began.",
+  "unpack": [
+   "'You': the named insured and a spouse who lives in the same household.",
+   "Insured: residents of your household who are your relatives, or other persons under 21 in the care of you or a resident relative.",
+   "Insured: a full-time student who lived in your household before leaving for school, if under 24 and your relative, or under 21 and in the care of you or a resident relative.",
+   "'Business' means a trade, profession or occupation (full-time, part-time or occasional), or any other activity for money. The $2,000 carve-out applies only to those other activities: one for which no insured received more than $2,000 in total compensation in the 12 months before the policy period began is not a 'business.'",
+   "Also not a 'business': volunteer work (no pay beyond expenses); home day care done only as a mutual exchange of services; home day care for a relative of an insured.",
+   "So paid day care for unrelated children is a business when it is the insured's occupation or paid more than $2,000 in that 12-month window, and the Section II business exclusion then removes liability coverage for it (unless endorsed, for example with Home Day Care Coverage HO 04 97).",
+   "Section II business exclusion exceptions include occasional rental of the insured location as a residence; renting part of it as a residence (unless a single-family unit is meant to lodge more than two roomers or boarders), or as an office, school, studio or private garage; and an insured under 21 in a part-time or occasional self-employed business with no employees."
+  ],
+  "watch_out": "The ages are 'under' 21 and 'under' 24, so a 24-year-old student is out. An unrelated adult roommate is not an insured, and a relative must live in your household (a sister who lives across town is not an insured).",
+  "source": "ISO HO 00 03 05 11, Definitions A, B.3, B.5; Sec. II Excl. E.2; PF&M 2014 (HO 04 97)",
+  "question_ids": [
+   "prop-037",
+   "prop-038",
+   "prop-063"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-19",
+  "sec": "ho",
+  "title": "Section II numbers: medical payments, minimum limits and additional coverages (2011 ISO HO-3)",
+  "technique": "number-peg",
+  "hook": "$100,000 and $1,000 to start, 3 years for a guest's medical bills, $250 a day for your time helping with the defense, and $1,000 to fix what your kid broke. Your 8-year-old breaks the neighbor's borrowed Switch by accident: paid. Your 15-year-old smashes a mailbox on purpose: not paid.",
+  "unpack": [
+   "Minimum limits in the ISO homeowners manual (as reproduced in the Rhode Island JRA manual; a Massachusetts insurer manual shows the same): Coverage E $100,000; Coverage F $1,000 per person.",
+   "Coverage F pays necessary medical expenses incurred or medically ascertained within 3 years of the accident, for people on the insured location with permission, and for some off-premises injuries (caused by a condition on the insured location, an insured's activities, a residence employee, or an animal owned by or in the care of an insured). Not for you or regular household residents, except residence employees.",
+   "Paid in addition to the limits: claim expenses (defense costs, bond premiums, the insured's loss of earnings up to $250 a day for assisting the insurer, post-judgment interest) and first aid to others.",
+   "Damage to property of others: up to $1,000 per occurrence at replacement cost. Not for damage caused intentionally by an insured 13 or older; property owned by an insured (or by a tenant of an insured or a household resident); or damage arising from a business or from motor vehicles, aircraft, hovercraft or watercraft (a narrow off-road-vehicle exception applies).",
+   "Loss assessment: up to $1,000.",
+   "Coverage E excludes property damage to property rented to, occupied or used by, or in the care of an insured, except damage caused by fire, smoke or explosion. It also excludes property damage to property owned by an insured."
+  ],
+  "watch_out": "The damage-to-property-of-others age trap is 13 or older AND intentional: an accident by a 15-year-old can still be covered, and so can intentional damage by a 10-year-old. Coverage F is not for you or regular residents of your household (other than residence employees). Coverage E is one limit per occurrence no matter how many insureds or claimants.",
+  "source": "ISO HO 00 03 05 11, Sec. II Coverages E-F, Exclusion F.2-3, Additional Coverages A-D, Cond. A; ISO Homeowners Policy Program Manual Table 301 (RIJRA HO Manual eff. 11/1/2021); Universal P&C MA Homeowners Manual (Section II limits)",
+  "question_ids": [
+   "prop-052",
+   "prop-055",
+   "prop-056",
+   "prop-066"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-20",
+  "sec": "ho",
+  "title": "Watercraft liability under the 2011 ISO HO-3",
+  "technique": "number-peg",
+  "hook": "Up North on the lake: 25 horses on the back, under 26 feet of sail, an inboard only if it isn't yours (and over 50 hp, not rented by you either), and 45 days to report the big outboard you already owned.",
+  "unpack": [
+   "Never covered when the boat is being raced (sailing vessels and predicted log cruises excepted), rented to others, used to carry persons or cargo for a charge, or used for business.",
+   "Stored watercraft: covered.",
+   "26 feet of sail: a sailing vessel under 26 feet is covered; 26 feet or longer is covered only if not owned by or rented to an insured.",
+   "50 inside: an inboard or inboard-outdrive of 50 hp or less is covered only if not owned by an insured; over 50 hp only if not owned by or rented to an insured.",
+   "25 on the back: outboard engines totaling 25 hp or less are covered. Over 25 hp is covered if the motor isn't owned by an insured; or an insured acquired it during the policy period; or an insured acquired it before the policy period and you declared it at inception or reported your intent to insure it in writing within 45 days after acquiring it.",
+   "For an owned boat the base form won't cover (a bigger owned outboard, an owned sailboat of 26 feet or more), add the Watercraft endorsement (HO 24 75): it gives Section II liability coverage for the described boat.",
+   "Property side: Coverage C limits watercraft, including trailers, furnishings, equipment and outboard motors, to $1,500."
+  ],
+  "watch_out": "An owned inboard is not covered by the base form, whatever its horsepower, unless it is stored. A 40-hp outboard owned before the policy period and never declared or reported is not covered (again, unless stored). The Watercraft endorsement adds liability, not physical damage coverage for the boat.",
+  "source": "ISO HO 00 03 05 11, Sec. II Excl. B and Coverage C.3.c; ISO HO 24 75 04 91; PF&M 2014 (HO 24 75)",
+  "question_ids": [
+   "prop-054",
+   "prop-gap-16",
+   "prop-gap-17",
+   "comm-oth-13"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-21",
+  "sec": "ho",
+  "title": "Settling a homeowners property claim: the 80% rule and the claim clock (2011 ISO HO-3)",
+  "technique": "story",
+  "hook": "Insure the house to at least 80% of replacement cost and you get full replacement cost. Fall short and you get the bigger of ACV or the 'Did over Should' fraction: what you Did carry divided by what you Should have carried (80% of replacement cost), times the repair cost.",
+  "unpack": [
+   "80% or more: the insurer pays the cost to repair or replace without depreciation, but not more than the least of the limit, the cost to replace with like kind and quality, or the amount actually spent.",
+   "Under 80%: the insurer pays the GREATER of (1) the ACV of the damage or (2) (insurance carried / 80% of replacement cost) x the cost to repair or replace, up to the limit.",
+   "Worked example: $210,000 carried on a $300,000 home, so 80% = $240,000. A $40,000 loss with an ACV of $28,000 pays $210,000 / $240,000 x $40,000 = $35,000 once repairs are complete, because that beats $28,000.",
+   "Foundations below the lowest basement floor, excavations, and underground flues, pipes, wiring and drains are left out when figuring 80% of replacement cost.",
+   "Until repairs are complete, only ACV is paid, unless the cost is both under 5% of the insurance on the building AND under $2,500.",
+   "The insured may take ACV now and claim the rest by notifying the insurer, within 180 days after the loss, of the intent to repair or replace.",
+   "Personal property, awnings, carpeting, appliances, outdoor antennas and equipment, and structures that aren't buildings are paid at ACV (unless the Personal Property Replacement Cost endorsement is added).",
+   "Claim clock (unendorsed form): sworn proof of loss within 60 days after the insurer's request; the insurer's option to repair or replace requires written notice within 30 days after the sworn proof of loss; payment 60 days after proof of loss plus an agreement, judgment or appraisal award; suit within 2 years after the loss."
+  ],
+  "watch_out": "Under 80% you get the GREATER of the two amounts, not the lesser. The small-loss shortcut needs BOTH tests. In Michigan the statute also requires payment within 30 days after proof of the amount of loss, and suit time is tolled from notice of loss until formal denial.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. C.8, D.1-2, I, J, H; MCL 500.2833(1)(p)-(q)",
+  "question_ids": [
+   "prop-049",
+   "prop-050",
+   "prop-051",
+   "core-bas-46"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-22",
+  "sec": "ho",
+  "title": "The 9 Section I exclusions, plus the 60-day vacancy rule (2011 ISO HO-3)",
+  "technique": "acrostic",
+  "hook": "Old Ernie's Wet Pontoon Never Went North In Grayling: Ordinance or law, Earth movement, Water, Power failure, Neglect, War, Nuclear hazard, Intentional loss, Governmental action.",
+  "unpack": [
+   "Ordinance or law (except the Ordinance or Law additional coverage).",
+   "Earth movement, such as earthquake, landslide or sinkhole. Ensuing direct loss by fire, explosion or theft is covered.",
+   "Water: flood, surface water, waves and storm surge; water that backs up through sewers or drains or overflows from a sump; water below the ground surface. Ensuing direct loss by fire, explosion or theft is covered.",
+   "Power failure that takes place off the residence premises. But if it causes a loss by a Peril Insured Against on the residence premises, that peril's loss is paid.",
+   "Neglect: failing to use all reasonable means to save and preserve property at and after the time of a loss.",
+   "War (a nuclear weapon discharge counts as war, even if accidental) and nuclear hazard.",
+   "Intentional loss: an act an insured commits or conspires to commit with intent to cause a loss; no insured is covered, even one who took no part.",
+   "Governmental action: destruction, confiscation or seizure of covered property by order of a governmental or public authority. Exception: acts ordered at the time of a fire to prevent its spread, if the fire loss itself would be covered.",
+   "These exclusions apply regardless of any other cause contributing at the same time or in any sequence. The order in the sentence matches the form, but order doesn't matter on the exam. The 2002 and 2014 DP-3 have the same 9 general exclusions (there, ensuing fire or explosion is covered).",
+   "Separate 60-day rule for Coverages A and B: no coverage for vandalism or malicious mischief, and no glass breakage coverage, if the dwelling was vacant more than 60 consecutive days right before the loss (a dwelling under construction isn't vacant; glass broken by earth movement is still covered)."
+  ],
+  "watch_out": "Water accidentally discharged from inside a plumbing system or household appliance (a burst washer hose) is not the excluded 'Water'; it is covered, subject to the form's own limits. Sewer or drain backup and flood are excluded. The neglect and vacancy items are different things: neglect is about protecting property after a loss. In Michigan, an innocent co-insured is still covered for a fire loss despite the intentional loss exclusion (see the innocent co-insured hook).",
+  "source": "ISO HO 00 03 05 11, Sec. I Excl. A.1-9; Sec. I Perils A.2.c(4); Add'l Cov. E.9; ISO DP 00 03 12 02 and DP 00 03 07 14, General Exclusions A.1-9",
+  "question_ids": [
+   "prop-048",
+   "prop-047",
+   "prop-gap-05",
+   "prop-gap-06"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-23",
+  "sec": "ho",
+  "title": "When one insured does wrong: intentional loss, concealment or fraud, and Michigan's innocent co-insured rule",
+  "technique": "contrast",
+  "hook": "One bad apple spoils the property barrel (Section I: no insured is paid), but only the bad apple loses its liability coverage (Section II). Michigan pulls the innocent apple out of the FIRE: an innocent co-insured is covered for a fire loss, to the extent of his or her interest.",
+  "unpack": [
+   "Intentional loss (Section I, unendorsed ISO form): if an insured commits or conspires to commit an act intended to cause a loss, no insured is covered, even insureds who did not take part.",
+   "Concealment or fraud (Section I): if any insured intentionally conceals or misrepresents a material fact, engages in fraudulent conduct, or makes false statements relating to the insurance, coverage is provided to no insureds.",
+   "Concealment or fraud (Section II): coverage is denied only to the insured who did it.",
+   "Michigan: courts hold that the fire policy law requires coverage for innocent co-insureds despite intentional-act or fraud exclusions. The Special Provisions - Michigan endorsement (HO 01 21) covers an insured who is innocent of a fire loss to the extent of his or her insurable interest, with no domestic-abuse requirement. The insured who set the fire is not covered.",
+   "For a loss by any other peril, fraud or material misrepresentation by any insured still bars coverage for all insureds under the Michigan endorsement.",
+   "Michigan suit rule with the 2011 program and HO 01 21: suit within 2 years after the loss, tolled from notice of loss until the insurer formally denies liability."
+  ],
+  "watch_out": "The innocent spouse recovers only her own interest, not the whole loss, and the insurer may subrogate against the insured who set the fire. The HO 01 21 points come from FC&S's summary of the 05 11 edition and Michigan case law, not the endorsement text; the current edition may differ.",
+  "source": "ISO HO 00 03 05 11, Sec. I Excl. A.8, Sec. I Cond. R, Sec. II Cond. J; FC&S, 'Special Provisions - Variations by State' (Sept. 1, 2011), Michigan HO 01 21 05 11; Wilson v. State Farm Fire & Cas. Co. (E.D. Mich. Nov. 21, 2019); Williams v. Auto Club Grp. Ins. Co., 224 Mich App 313 (1997); MCL 500.2833(1)(q),(2)",
+  "question_ids": [
+   "prop-067",
+   "prop-gap-14",
+   "prop-gap-15"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-24",
+  "sec": "ho",
+  "title": "Liability endorsements: Personal Injury, Business Pursuits, home businesses",
+  "technique": "story",
+  "hook": "Your tenant sues you, claiming you had him falsely Arrested, maliciously Prosecuted him, wrongfully Evicted him, Slandered him and Snooped on him (invaded his privacy). Coverage E pays only for bodily injury and property damage, so a suit like this needs the Personal Injury endorsement. Your day job as a teacher needs Business Pursuits; the piano studio in your living room needs Permitted Incidental Occupancies.",
+  "unpack": [
+   "Personal Injury (HO 24 82) adds coverage for injury arising from offenses committed during the policy period: false arrest, detention or imprisonment; malicious prosecution; wrongful eviction, wrongful entry, or invasion of the right of private occupancy; oral or written publication that slanders or libels a person or organization or disparages its goods or services; and oral or written publication that violates a person's right of privacy.",
+   "Even with the endorsement, there is no coverage for personal injury the insured caused knowing it would violate another's rights, publication the insured knew was false, material first published before the policy period, criminal acts, or a business (with the usual rental and under-21 exceptions).",
+   "Business Pursuits (HO 24 71): covers an insured's liability from business activities other than a business the insured solely owns or is a partner in. Typical insureds: clerical office employees, salespersons, collectors, messengers and teachers (teachers can add corporal punishment coverage).",
+   "Permitted Incidental Occupancies - Residence Premises (HO 04 42): for a described business run in the dwelling or in an other structure on the residence premises. The Section II business exclusion doesn't apply to the necessary or incidental use of the residence premises for that business, but Coverages E and F still don't cover bodily injury to its employees. The Coverage C limit applies to the described business's property.",
+   "Home day care: paid care for unrelated children is a 'business' when it is an occupation or paid more than $2,000 in the 12 months before the policy period, and is then excluded from Section II; Home Day Care Coverage (HO 04 97) adds limited property and day-care liability coverage.",
+   "Home Business Insurance Coverage (HO 07 01): a self-contained, extensive endorsement giving property and liability coverage for a described business operated in the residence or an other structure on the residence premises."
+  ],
+  "watch_out": "The endorsement covers accusations of these offenses, not deliberate wrongs: knowing violations and knowingly false statements are excluded. Business Pursuits is for employees, not owners or partners. 'Personal injury' here is not bodily injury: a dog bite or a slip on icy steps is already a Coverage E bodily injury claim.",
+  "source": "ISO HO 24 82 04 02; PF&M 2014 (HO 24 71, HO 04 97, HO 07 01); ISO HO 04 42 10 00; ISO HO 00 03 05 11, Sec. II Coverage E and Def. B.3",
+  "question_ids": [
+   "prop-061",
+   "prop-062",
+   "prop-060",
+   "prop-063",
+   "prop-065"
+  ]
+ },
+ {
+  "id": "mn-mn_prop-25",
+  "sec": "ho",
+  "title": "Property endorsements by the numbers: scheduled property, replacement cost on contents, earthquake, fungi",
+  "technique": "number-peg",
+  "hook": "New bling rule '25-10-30': a new ring is covered for 25% of the jewelry schedule or $10,000, whichever is less, if you report it within 30 days. Fine art gets 90 days. Grandma's antique clock stays ACV even with replacement cost on contents. An earthquake (2000 HO 04 54) is one quake per 72 hours. Mold money (2002 HO 04 27): $10,000 and $50,000.",
+  "unpack": [
+   "Scheduled Personal Property (HO 04 61, as described in PF&M's July 2017 analysis): listed classes (jewelry, furs, cameras, musical instruments, silverware, golfer's equipment, fine arts, stamps, coins) covered against risks of direct loss (open perils), worldwide, and not subject to the policy deductible.",
+   "Newly acquired jewelry, furs, cameras or musical instruments in a class already scheduled: covered for the lesser of 25% of that class's limit or $10,000, if reported within 30 days. Example: $20,000 jewelry schedule, new $8,000 ring lost two weeks later and reported: pays $5,000.",
+   "Newly acquired fine arts: covered at actual cash value, up to 25% of the fine arts limit, if reported within 90 days.",
+   "Personal Property Replacement Cost (HO 04 90, 05 11): pays replacement cost for Coverage C property plus awnings, carpeting, appliances and outdoor equipment. Not eligible: antiques, fine arts, paintings and similar rarities; memorabilia, souvenirs and collectors' items; articles not maintained in good or workable condition; outdated or obsolete articles that are stored or not being used. If the cost is over $500, only ACV is paid until the item is actually repaired or replaced.",
+   "Earthquake (HO 04 54, 10 00): shocks within 72 hours count as one earthquake. The deductible is a percentage of the Coverage A or Coverage C limit, whichever is greater, but not less than $250. Not covered: exterior masonry veneer (unless that exclusion is removed; stucco isn't veneer), flood caused by the earthquake, and the cost of filling land.",
+   "Limited Fungi, Wet or Dry Rot, or Bacteria Coverage (HO 04 27, 04 02 edition): the schedule shows $10,000 for the Section I additional coverage and a $50,000 Coverage E aggregate sublimit, which is within Coverage E, not added to it."
+  ],
+  "watch_out": "The newly acquired rule works only for a class already on the schedule. Earthquake is excluded by the base form (earth movement); volcanic eruption is a separate named peril. Later editions may change these amounts, so note the edition in each question.",
+  "source": "PF&M, HO 04 61 Scheduled Personal Property (July 2017); ISO HO 04 90 05 11; ISO HO 04 54 10 00; ISO HO 04 27 04 02",
+  "question_ids": [
+   "prop-057",
+   "prop-058",
+   "prop-059",
+   "prop-064"
+  ]
+ }
+]

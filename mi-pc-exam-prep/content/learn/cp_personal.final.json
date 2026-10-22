@@ -1,0 +1,843 @@
+[
+ {
+  "id": "cp-cp_personal-01",
+  "sec": "basics",
+  "title": "Physical vs. Moral vs. Morale Hazard",
+  "sides": [
+   {
+    "name": "Physical hazard",
+    "points": [
+     "The material, structural, or operational features that may create or increase the chance of injury or damage.",
+     "IRMI's examples of hazards: poor housekeeping in a factory, and inadequate lighting in a crime-prone area."
+    ]
+   },
+   {
+    "name": "Moral hazard",
+    "points": [
+     "Comes from the insured's character or circumstances, such as dishonesty.",
+     "It grows when the insured could gain from a loss: insurance on an unprofitable business carries more moral hazard than insurance on a thriving one.",
+     "Underwriters hesitate to insure vacant and unoccupied buildings because an owner may be tempted to set a fire to collect."
+    ]
+   },
+   {
+    "name": "Morale hazard",
+    "points": [
+     "Indifference to loss, most often because insurance will cover it.",
+     "It reflects the insured's attitude (carelessness), not the insured's character or integrity."
+    ]
+   }
+  ],
+  "tell": "Ask why a loss is more likely: a condition of the property (physical), dishonesty or a motive to profit (moral), or carelessness because insurance will pay (morale).",
+  "drills": [
+   {
+    "prompt": "A store sits in a high-crime area with poor outdoor lighting.",
+    "answer": "Physical hazard",
+    "why": "It is a condition of the premises; IRMI uses inadequate lighting in a crime-prone area as its example."
+   },
+   {
+    "prompt": "A restaurant owner who is deep in debt buys a large fire policy on the failing business.",
+    "answer": "Moral hazard",
+    "why": "The insured's circumstances create a motive to profit from a loss."
+   },
+   {
+    "prompt": "A driver leaves his keys in the car because he figures insurance will pay if it is stolen.",
+    "answer": "Morale hazard",
+    "why": "This is carelessness because insurance will pay, an attitude problem, not dishonesty."
+   },
+   {
+    "prompt": "An applicant has two prior convictions for insurance fraud.",
+    "answer": "Moral hazard",
+    "why": "It reflects the insured's character and honesty."
+   },
+   {
+    "prompt": "After buying renters coverage, a tenant stops bothering to lock her apartment door.",
+    "answer": "Morale hazard",
+    "why": "She is indifferent to loss because insurance will cover it."
+   },
+   {
+    "prompt": "A home has frayed, outdated electrical wiring.",
+    "answer": "Physical hazard",
+    "why": "It is a structural feature of the property that raises the chance of a fire."
+   }
+  ],
+  "source": "IRMI glossary: hazard; physical hazard; moral hazard; morale hazard"
+ },
+ {
+  "id": "cp-cp_personal-02",
+  "sec": "gen",
+  "title": "Express vs. Implied vs. Apparent Authority",
+  "sides": [
+   {
+    "name": "Express authority",
+    "points": [
+     "The rights and powers explicitly given to the agent in the agency contract.",
+     "It is given directly by the insurer and may be oral or written."
+    ]
+   },
+   {
+    "name": "Implied authority",
+    "points": [
+     "Not spelled out, but consistent with (reasonably necessary for) carrying out the express authority.",
+     "It can also come from the insurer's failure to object: actions beyond the contract that draw no response from the insurer are treated as within the contract."
+    ]
+   },
+   {
+    "name": "Apparent authority",
+    "points": [
+     "The authority an agent appears to have to a reasonable person.",
+     "It arises when a third party reasonably infers from the insurer's conduct that the insurer gave the agent that power, even though it was never expressly or impliedly granted.",
+     "IRMI ties it to estoppel. In Michigan, a producer license by itself creates no actual, apparent, or inherent authority to commit an insurer."
+    ]
+   }
+  ],
+  "tell": "Granted by the insurer in words, written or spoken = express; needed to do the granted job, or tolerated without objection = implied; only what the public reasonably believes from the insurer's conduct = apparent.",
+  "drills": [
+   {
+    "prompt": "The agency contract says the agent may bind homeowners coverage up to $500,000.",
+    "answer": "Express authority",
+    "why": "The power is spelled out in the agency contract."
+   },
+   {
+    "prompt": "An insurer's vice president phones the agent and clearly tells her she may also bind boat policies.",
+    "answer": "Express authority",
+    "why": "Express authority can be given orally as well as in writing."
+   },
+   {
+    "prompt": "The contract lets the agent sell auto policies but never mentions handing customers their ID cards, a step reasonably necessary to complete the sale.",
+    "answer": "Implied authority",
+    "why": "It is not spelled out but is needed to carry out the express authority."
+   },
+   {
+    "prompt": "For years the agent has issued certificates of insurance without written permission, and the insurer has never objected.",
+    "answer": "Implied authority",
+    "why": "IRMI: actions beyond the contract that draw no response from the insurer are treated as authorized."
+   },
+   {
+    "prompt": "An insurer ends an agent's contract but leaves him its signs, forms and binders. A customer who knows nothing of the termination buys a binder from him.",
+    "answer": "Apparent authority",
+    "why": "The agent has no actual authority, but the customer reasonably believed he did because of what the insurer allowed."
+   }
+  ],
+  "source": "IRMI glossary: express authority; implied authority; apparent agency. National Alliance Research Academy glossary: express (actual) authority; implied authority; apparent authority. Cornell LII Wex: express authority; implied authority; apparent authority. MCL 500.1201(h)"
+ },
+ {
+  "id": "cp-cp_personal-03",
+  "sec": "gen",
+  "title": "Representation vs. Warranty vs. Concealment",
+  "sides": [
+   {
+    "name": "Representation",
+    "points": [
+     "A statement in the application that the applicant says is correct to the best of their knowledge.",
+     "Michigan: a statement of past or present fact, made at or before the contract, to induce the insurer to make it.",
+     "Michigan, MCL 500.2218(1): no misrepresentation avoids the contract or defeats recovery \"unless the misrepresentation was material,\" and none is deemed material \"unless knowledge by the insurer of the facts misrepresented would have led to a refusal by the insurer to make the contract.\""
+    ]
+   },
+   {
+    "name": "Warranty",
+    "points": [
+     "A statement of fact about the risk, given by the insured, that will void the policy if untrue.",
+     "It promises or guarantees that something is absolutely true, or will be true in the future."
+    ]
+   },
+   {
+    "name": "Concealment",
+    "points": [
+     "Willfully holding back information pertinent to the policy, even though the insurer did not ask about it.",
+     "It can void the policy. Every Michigan fire policy must state that it may be void for misrepresentation, fraud, or concealment."
+    ]
+   }
+  ],
+  "tell": "Said and believed true = representation; guaranteed true now or in the future = warranty; kept quiet on purpose = concealment.",
+  "drills": [
+   {
+    "prompt": "On the application, an applicant states that to the best of her knowledge she has had no property losses in five years.",
+    "answer": "Representation",
+    "why": "It is a statement she believes true to the best of her knowledge."
+   },
+   {
+    "prompt": "As a condition of coverage, the insured guarantees that a central-station burglar alarm will be kept in working order.",
+    "answer": "Warranty",
+    "why": "It guarantees something will be true in the future."
+   },
+   {
+    "prompt": "An applicant knows his basement floods every spring but says nothing, since the application never asks about water.",
+    "answer": "Concealment",
+    "why": "He willfully held back pertinent information he was not asked about."
+   },
+   {
+    "prompt": "Under MCL 500.2218(1), a false one of these cannot void the policy unless it was material, and it is not material unless the insurer, knowing the true facts, would have refused to make the contract.",
+    "answer": "Representation",
+    "why": "MCL 500.2218 sets this materiality test for misrepresentations, which it defines as false representations."
+   },
+   {
+    "prompt": "A statement that must be absolutely true, not merely true to the best of the applicant's knowledge.",
+    "answer": "Warranty",
+    "why": "A warranty guarantees truth; a representation only needs to be the applicant's honest belief."
+   }
+  ],
+  "source": "IRMI glossary: representation; warranty; concealment. National Alliance Research Academy glossary: warranty; concealment. MCL 500.2218(1)-(2); MCL 500.2833(1)(c)"
+ },
+ {
+  "id": "cp-cp_personal-04",
+  "sec": "gen",
+  "title": "Waiver vs. Estoppel",
+  "sides": [
+   {
+    "name": "Waiver",
+    "points": [
+     "The intentional and voluntary relinquishment (giving up) of a known right.",
+     "Under HO 00 03 05 11, a waiver or change of a policy provision must be in writing by the insurer, and asking for an appraisal or examination does not waive the insurer's rights."
+    ]
+   },
+   {
+    "name": "Estoppel",
+    "points": [
+     "Prevents a party from contradicting its own earlier conduct when another party reasonably relied on that conduct.",
+     "IRMI's example: an insurer that repeatedly accepted late premiums may be estopped from canceling for late payment.",
+     "IRMI describes apparent agency as a doctrine applied in connection with estoppel."
+    ]
+   }
+  ],
+  "tell": "Waiver: a party knowingly and voluntarily gives up its own right. Estoppel: a party is blocked from going back on its conduct because the other side reasonably relied on it.",
+  "drills": [
+   {
+    "prompt": "An insurer knows the insured reported a claim late but tells him in writing that it will pay anyway, knowingly giving up its right to deny for late notice.",
+    "answer": "Waiver",
+    "why": "The insurer intentionally and voluntarily gave up a known right."
+   },
+   {
+    "prompt": "For two years an insurer accepted an insured's premiums 10 days late without comment. When the next payment is late it tries to cancel. The insured argues it cannot, because she reasonably relied on that past practice. Which doctrine is she using?",
+    "answer": "Estoppel",
+    "why": "Her argument rests on reasonable reliance on the insurer's conduct, which is IRMI's own estoppel example."
+   },
+   {
+    "prompt": "The doctrine that turns on the other party's reasonable reliance on your earlier conduct.",
+    "answer": "Estoppel",
+    "why": "Reliance by another party is the core of estoppel."
+   },
+   {
+    "prompt": "Under HO 00 03 05 11, this must be in writing by the insurer to be valid.",
+    "answer": "Waiver",
+    "why": "The Waiver Or Change Of Policy Provisions condition requires it to be in writing by the insurer."
+   }
+  ],
+  "source": "IRMI glossary: waiver; estoppel; apparent agency. Quality Products & Concepts Co v Nagel Precision, Inc, 469 Mich 362 (2003). ISO HO 00 03 05 11, Secs. I and II Conditions, B. Waiver Or Change Of Policy Provisions"
+ },
+ {
+  "id": "cp-cp_personal-05",
+  "sec": "basics",
+  "title": "Actual Cash Value vs. Replacement Cost vs. Functional Replacement Cost",
+  "sides": [
+   {
+    "name": "Actual cash value",
+    "points": [
+     "IRMI: typically figured one of three ways: replacement cost minus depreciation, fair market value, or the broad evidence rule (all relevant evidence of value).",
+     "An unendorsed HO 00 03 05 11 pays personal property, awnings, carpeting and household appliances at ACV, but not more than the amount required to repair or replace.",
+     "The DP-1 Basic Form (DP 00 01 07 88) settles covered losses at ACV."
+    ]
+   },
+   {
+    "name": "Replacement cost",
+    "points": [
+     "The cost to replace with material of like kind and quality, with no deduction for depreciation.",
+     "HO 00 03 05 11 pays Coverage A and B buildings at replacement cost if insured to at least 80% of full replacement cost just before the loss."
+    ]
+   },
+   {
+    "name": "Functional replacement cost",
+    "points": [
+     "The cost of property that performs the same function with equal efficiency, even if it is not identical.",
+     "HO-8 (HO 00 08 10 00): a building repaired at the same site for the same use within 180 days is paid no more than the cost of common construction materials and methods that are functionally equivalent to, and less costly than, obsolete, antique or custom ones."
+    ]
+   }
+  ],
+  "tell": "New of like kind and quality with no depreciation = replacement cost; replacement cost minus wear and tear (or another value method) = ACV; something that does the same job, even if not identical = functional replacement cost.",
+  "drills": [
+   {
+    "prompt": "A 10-year-old sofa is destroyed by fire. The insurer pays the price of a comparable new sofa minus 10 years of depreciation.",
+    "answer": "Actual cash value",
+    "why": "Replacement cost minus depreciation is the usual ACV method."
+   },
+   {
+    "prompt": "Fire damages a house insured to 100% of its replacement cost. The insurer pays the full cost to repair it with like kind and quality, with no deduction for wear.",
+    "answer": "Replacement cost",
+    "why": "There is no depreciation deduction, and the 80% requirement is met."
+   },
+   {
+    "prompt": "Under an unendorsed HO 00 03 05 11, a destroyed laptop is valued this way.",
+    "answer": "Actual cash value",
+    "why": "The form's Loss Settlement condition pays personal property at ACV."
+   },
+   {
+    "prompt": "Under HO-8 (HO 00 08 10 00), a building repaired within 180 days is paid no more than the cost of common materials and methods that do the same job as the obsolete, antique or custom ones and cost less.",
+    "answer": "Functional replacement cost",
+    "why": "Paying for cheaper property that performs the same function, rather than like kind and quality or a depreciated value, is functional replacement cost."
+   }
+  ],
+  "source": "IRMI glossary: actual cash value; replacement cost; functional replacement cost. ISO HO 00 03 05 11, Sec. I Cond. D; ISO DP 00 01 07 88, Cond. 5; ISO HO 00 08 10 00, Sec. I Cond. C.2"
+ },
+ {
+  "id": "cp-cp_personal-06",
+  "sec": "basics",
+  "title": "Named Perils vs. Open Perils",
+  "sides": [
+   {
+    "name": "Named perils",
+    "points": [
+     "Covers only loss caused by the perils specifically listed as covered.",
+     "Michigan puts the burden of proving coverage on the insured, so the insured must show that a listed peril caused the loss.",
+     "Examples: HO-3 Coverage C (16 perils) (HO 00 03 05 11), HO-2 (HO 00 02 10 00), and the DP-1 and DP-2 (07 88 editions)."
+    ]
+   },
+   {
+    "name": "Open perils",
+    "points": [
+     "Covers all causes of loss except those specifically excluded. It was traditionally called \"all risks\" and is also called special perils.",
+     "No list of covered causes to prove: the insuring agreement covers direct physical loss, and Michigan puts the burden of proving that an exclusion applies on the insurer.",
+     "Examples: HO-3 Coverages A and B (HO 00 03 05 11), HO-5 Coverages A, B and C (HO 00 05 10 00), and DP-3 Coverages A and B (DP 00 03 12 02)."
+    ]
+   }
+  ],
+  "tell": "If the policy lists what IS covered, it is named perils; if it lists only what is NOT covered (exclusions), it is open perils.",
+  "drills": [
+   {
+    "prompt": "HO-3 Coverage C, Personal Property (HO 00 03 05 11).",
+    "answer": "Named perils",
+    "why": "Coverage C is covered only for 16 listed perils."
+   },
+   {
+    "prompt": "HO-3 Coverage A, Dwelling (HO 00 03 05 11).",
+    "answer": "Open perils",
+    "why": "The form insures against direct physical loss to Coverages A and B unless excluded."
+   },
+   {
+    "prompt": "After damage from an unknown cause, the insured has to show that one of the listed causes did it.",
+    "answer": "Named perils",
+    "why": "The insured must prove coverage, and named-perils coverage exists only when a listed peril caused the loss."
+   },
+   {
+    "prompt": "A sudden, accidental loss from a cause the policy never mentions, as covered or as excluded, is still covered.",
+    "answer": "Open perils",
+    "why": "Everything not excluded is covered."
+   },
+   {
+    "prompt": "A DP-1 Basic Form (DP 00 01 07 88) insuring fire or lightning and internal explosion.",
+    "answer": "Named perils",
+    "why": "The DP-1 covers only the perils it lists, plus the extended coverage and vandalism perils when their premiums are shown."
+   },
+   {
+    "prompt": "HO-5 coverage on personal property (HO 00 05 10 00).",
+    "answer": "Open perils",
+    "why": "HO-5 (HO 00 05 10 00) insures against risk of direct physical loss to Coverages A, B and C."
+   }
+  ],
+  "source": "IRMI glossary: named perils coverage; open perils; special perils. Heniser v Frankenmuth Mut Ins Co, 449 Mich 155 (1995) (\"insured bears the burden of proving coverage, while the insurer must prove that an exclusion to coverage is applicable\"). ISO HO 00 03 05 11, Sec. I Perils Insured Against A-B; ISO HO 00 05 10 00, Sec. I Perils Insured Against; ISO HO 00 02 10 00, Sec. I Perils Insured Against; ISO DP 00 01 07 88 and DP 00 02 07 88, Perils Insured Against; ISO DP 00 03 12 02, Perils Insured Against A-B"
+ },
+ {
+  "id": "cp-cp_personal-07",
+  "sec": "basics",
+  "title": "Direct Loss vs. Indirect (Consequential) Loss",
+  "sides": [
+   {
+    "name": "Direct loss",
+    "points": [
+     "Loss from direct physical damage to the property itself.",
+     "Examples: fire chars a kitchen, or wind tears off shingles."
+    ]
+   },
+   {
+    "name": "Indirect loss",
+    "points": [
+     "A loss that arises as a result of the direct damage, for example loss of rent.",
+     "Also called consequential loss. IRMI contrasts direct loss with time element and other indirect losses.",
+     "In homeowners policies, Coverage D, Loss of Use (additional living expense and fair rental value), insures this kind of loss."
+    ]
+   }
+  ],
+  "tell": "Is it the physical damage itself (direct), or a money loss that follows because of the damage (indirect)?",
+  "drills": [
+   {
+    "prompt": "Fire chars the kitchen cabinets.",
+    "answer": "Direct loss",
+    "why": "The property itself is physically damaged."
+   },
+   {
+    "prompt": "While the fire-damaged kitchen is rebuilt, the family pays for a hotel and restaurant meals above their normal costs.",
+    "answer": "Indirect loss",
+    "why": "The extra living costs result from the direct damage."
+   },
+   {
+    "prompt": "A landlord loses rent because a windstorm made the tenant's unit unlivable.",
+    "answer": "Indirect loss",
+    "why": "IRMI uses loss of rent as its example of a consequential loss."
+   },
+   {
+    "prompt": "Smoke from a fire stains the living-room furniture.",
+    "answer": "Direct loss",
+    "why": "The furniture itself is physically damaged."
+   },
+   {
+    "prompt": "A tree falls on the detached garage and crushes its roof.",
+    "answer": "Direct loss",
+    "why": "The garage is physically damaged."
+   }
+  ],
+  "source": "IRMI glossary: direct loss; consequential loss. ISO HO 00 03 05 11, Sec. I Coverage D"
+ },
+ {
+  "id": "cp-cp_personal-08",
+  "sec": "basics",
+  "title": "Vacant vs. Unoccupied",
+  "sides": [
+   {
+    "name": "Vacant",
+    "points": [
+     "The building contains little or no furniture or other personal property.",
+     "HO 00 03 05 11: if the dwelling was vacant more than 60 consecutive days before the loss, there is no coverage for vandalism and malicious mischief to the dwelling or other structures, and the glass breakage coverage does not apply on the residence premises (except breakage from earth movement).",
+     "A dwelling being constructed is not considered vacant (HO 00 03 05 11; DP 00 03 12 02)."
+    ]
+   },
+   {
+    "name": "Unoccupied",
+    "points": [
+     "People are absent, even though the furniture and belongings are still there.",
+     "HO 00 03 05 11 and DP 00 03 12 02 tie their 60-day restrictions to vacancy; neither form uses the word \"unoccupied.\"",
+     "IRMI notes some other forms restrict coverage when a building is \"vacant or unoccupied,\" so always read the form."
+    ]
+   }
+  ],
+  "tell": "Look for the stuff: no furniture or belongings = vacant; belongings still there but nobody home = unoccupied.",
+  "drills": [
+   {
+    "prompt": "The owners moved to a new home and took all their furniture. The old house sits empty while it is for sale.",
+    "answer": "Vacant",
+    "why": "It contains little or no personal property."
+   },
+   {
+    "prompt": "A retired couple spends four months in Florida. Their Michigan house stays fully furnished.",
+    "answer": "Unoccupied",
+    "why": "The people are gone, but the contents remain."
+   },
+   {
+    "prompt": "Under HO 00 03 05 11, vandalism to the dwelling is not covered after more than 60 consecutive days of this condition.",
+    "answer": "Vacant",
+    "why": "The form's V&MM restriction applies when the dwelling has been vacant more than 60 consecutive days."
+   },
+   {
+    "prompt": "A family takes a three-week vacation and leaves everything in place.",
+    "answer": "Unoccupied",
+    "why": "Nobody is home, but the house is still furnished."
+   },
+   {
+    "prompt": "HO-3 and DP-3 both say a dwelling being constructed is not considered this.",
+    "answer": "Vacant",
+    "why": "Both forms state that a dwelling being constructed is not considered vacant."
+   }
+  ],
+  "source": "IRMI glossary: vacant; unoccupied. ISO HO 00 03 05 11, Sec. I Perils Insured Against A.2.c(4) and Sec. I Additional Coverage E.9; ISO DP 00 03 12 02, Perils Insured Against A.2.c(6) and Other Coverage 11"
+ },
+ {
+  "id": "cp-cp_personal-09",
+  "sec": "basics",
+  "title": "Standard Mortgage Clause vs. Loss Payable Clause",
+  "sides": [
+   {
+    "name": "Standard mortgage clause",
+    "points": [
+     "Coverage A or B losses are paid to the mortgagee and the insured as interests appear (HO 00 03 05 11).",
+     "If the insurer denies the insured's claim, the mortgagee's valid claim still stands if it reports known changes in ownership, occupancy or substantial change in risk, pays premium due on demand if the insured has not, and files a signed, sworn statement of loss within 60 days after notice that the insured failed to.",
+     "The mortgagee gets at least 10 days' notice of cancellation or nonrenewal.",
+     "An insurer that pays the mortgagee but denies the insured is subrogated to the mortgagee's rights, or may pay off the mortgage and take an assignment."
+    ]
+   },
+   {
+    "name": "Loss payable clause",
+    "points": [
+     "Authorizes payment to someone other than the named insured who has an insurable interest, such as an auto lender or equipment lessor, \"as its interest may appear.\"",
+     "Under a typical loss payable clause, the insurer owes the loss payee nothing if it can deny the insured's claim.",
+     "HO 00 03 05 11: a loss payee shown for listed personal property is treated as an \"insured\" for that property and is notified in writing of cancellation or nonrenewal."
+    ]
+   }
+  ],
+  "tell": "If the insured's claim is denied, can the lender still collect? Mortgage clause: yes, if it meets its conditions. Loss payable: typically no.",
+  "drills": [
+   {
+    "prompt": "A homeowner deliberately burns down her house. The bank holding her mortgage still collects for the dwelling loss after meeting the clause's conditions.",
+    "answer": "Standard mortgage clause",
+    "why": "The denial of the insured's claim does not apply to the mortgagee's valid claim."
+   },
+   {
+    "prompt": "The bank that financed Joe's new pickup is listed on his auto policy to be paid \"as its interest may appear.\"",
+    "answer": "Loss payable clause",
+    "why": "IRMI says loss payable clauses are common for financed vehicles."
+   },
+   {
+    "prompt": "Under a typical clause of this kind, the finance company listed on the policy gets nothing because the insured's claim was denied for fraud.",
+    "answer": "Loss payable clause",
+    "why": "The insurer usually owes the loss payee nothing when it can deny the insured."
+   },
+   {
+    "prompt": "The lender must file a signed, sworn statement of loss within 60 days after notice that the insured failed to do so.",
+    "answer": "Standard mortgage clause",
+    "why": "This is one of the mortgagee's conditions under HO 00 03 05 11."
+   },
+   {
+    "prompt": "Under HO 00 03 05 11, the named lender must be notified at least 10 days before cancellation or nonrenewal takes effect.",
+    "answer": "Standard mortgage clause",
+    "why": "The mortgage clause sets the 10-day notice; the loss payable clause just says the payee is notified in writing."
+   },
+   {
+    "prompt": "Under HO 00 03 05 11, this clause makes the named party an \"insured\" for certain listed personal property.",
+    "answer": "Loss payable clause",
+    "why": "Condition S changes the definition of \"insured\" to include the loss payee for that property."
+   }
+  ],
+  "source": "ISO HO 00 03 05 11, Sec. I Conditions L. Mortgage Clause and S. Loss Payable Clause. IRMI glossary: loss payable clause"
+ },
+ {
+  "id": "cp-cp_personal-10",
+  "sec": "ho",
+  "title": "HO-2 vs. HO-3 vs. HO-5",
+  "sides": [
+   {
+    "name": "HO-2",
+    "points": [
+     "Broad Form (HO 00 02 10 00): named perils for the dwelling, other structures and personal property (Coverages A, B and C).",
+     "Its 16 named perils carry the same names as the 16 perils HO-3 (HO 00 03 05 11) lists for Coverage C."
+    ]
+   },
+   {
+    "name": "HO-3",
+    "points": [
+     "Special Form (HO 00 03 05 11): dwelling and other structures (A and B) are covered for direct physical loss unless excluded (open perils).",
+     "Personal property (C) is covered only for 16 named perils, including theft.",
+     "The theft peril includes attempted theft and loss from a known place when it is likely the property was stolen."
+    ]
+   },
+   {
+    "name": "HO-5",
+    "points": [
+     "Comprehensive Form (HO 00 05 10 00): risk of direct physical loss unless excluded (open perils) for Coverages A, B and C.",
+     "Its $1,500 special limit on jewelry, watches and furs applies to loss by \"theft, misplacing or losing,\" so a lost item can be covered up to that limit."
+    ]
+   }
+  ],
+  "tell": "Count the open-perils coverages: HO-2 none, HO-3 the buildings only, HO-5 buildings and personal property.",
+  "drills": [
+   {
+    "prompt": "Dwelling on open perils, personal property on 16 named perils.",
+    "answer": "HO-3",
+    "why": "HO-3 is open perils for Coverages A and B and named perils for Coverage C."
+   },
+   {
+    "prompt": "Dwelling, other structures and personal property all covered for named perils only.",
+    "answer": "HO-2",
+    "why": "HO-2 names its perils for Coverages A, B and C."
+   },
+   {
+    "prompt": "A diamond ring slips off at the lake and is lost; nothing suggests it was stolen. Which form can cover it, subject to the jewelry special limit?",
+    "answer": "HO-5",
+    "why": "HO-5 covers personal property on open perils, and its jewelry limit applies to misplacing or losing. Losing a ring is not one of the named perils in HO-2 or HO-3."
+   },
+   {
+    "prompt": "Damage to the house itself is covered only if one of 16 listed perils caused it.",
+    "answer": "HO-2",
+    "why": "Only HO-2 covers the dwelling on a named-perils basis; HO-3 and HO-5 cover it on open perils."
+   },
+   {
+    "prompt": "Personal property is covered against any direct physical loss that is not excluded.",
+    "answer": "HO-5",
+    "why": "HO-5 is the only one of the three with open perils on Coverage C."
+   }
+  ],
+  "source": "ISO HO 00 02 10 00, Sec. I Perils Insured Against (Peril 9, Theft); ISO HO 00 03 05 11, Sec. I Perils Insured Against A-B (Peril 9, Theft); ISO HO 00 05 10 00, Sec. I Perils Insured Against and Coverage C.3.e"
+ },
+ {
+  "id": "cp-cp_personal-11",
+  "sec": "dwelling",
+  "title": "DP-1 vs. DP-2 vs. DP-3",
+  "sides": [
+   {
+    "name": "DP-1",
+    "points": [
+     "Basic Form (DP 00 01 07 88): named perils of fire or lightning and internal explosion.",
+     "Extended coverage perils (windstorm or hail, explosion, riot or civil commotion, aircraft, vehicles, smoke, volcanic eruption) apply only when that premium is shown; vandalism or malicious mischief needs its own premium.",
+     "Covered losses are settled at actual cash value, and there is no Coverage E, Additional Living Expense (07 88 edition)."
+    ]
+   },
+   {
+    "name": "DP-2",
+    "points": [
+     "Broad Form (DP 00 02 07 88): 16 named broad perils for the dwelling, other structures and personal property.",
+     "Adds perils such as damage by burglars, falling objects, weight of ice, snow or sleet, and freezing.",
+     "Buildings are paid at replacement cost if insured to at least 80% of full replacement cost, and Coverage E, Additional Living Expense, is included."
+    ]
+   },
+   {
+    "name": "DP-3",
+    "points": [
+     "Special Form (DP 00 03 12 02): dwelling and other structures covered for risk of direct physical loss unless excluded (open perils).",
+     "Personal property is covered only for named broad perils, which include damage by burglars but not theft."
+    ]
+   }
+  ],
+  "tell": "Basic, Broad, Special: DP-1 is a short named list, DP-2 is a long named list, DP-3 is open perils on the buildings.",
+  "drills": [
+   {
+    "prompt": "Covers fire or lightning and internal explosion, with extended coverage and vandalism available for extra premium.",
+    "answer": "DP-1",
+    "why": "Those are the DP-1 Basic Form perils and options."
+   },
+   {
+    "prompt": "The dwelling is covered against risk of direct physical loss unless the loss is excluded.",
+    "answer": "DP-3",
+    "why": "Only DP-3 insures Coverages A and B on an open-perils basis."
+   },
+   {
+    "prompt": "The dwelling is covered for a list of 16 named perils that includes freezing and weight of ice, snow or sleet.",
+    "answer": "DP-2",
+    "why": "DP-1 does not list those perils, and DP-3 covers the dwelling on open perils."
+   },
+   {
+    "prompt": "Comparing DP-1 07 88, DP-2 07 88 and DP-3 12 02: the form that settles every covered loss, even to the building, at actual cash value.",
+    "answer": "DP-1",
+    "why": "The DP-1 Loss Settlement condition pays ACV; DP-2 and DP-3 pay buildings at replacement cost if the 80% test is met."
+   },
+   {
+    "prompt": "Comparing DP-1 07 88, DP-2 07 88 and DP-3 12 02: the form with no Coverage E, Additional Living Expense.",
+    "answer": "DP-1",
+    "why": "DP-1 07 88 lists only Coverages A through D; DP-2 07 88 and DP-3 12 02 both include Coverage E."
+   }
+  ],
+  "source": "ISO DP 00 01 07 88, Coverages A-D, Perils Insured Against 1-9, Cond. 5; ISO DP 00 02 07 88, Coverage E, Perils Insured Against 1-16, Cond. 5; ISO DP 00 03 12 02, Coverage E, Perils Insured Against A-B, Cond. E"
+ },
+ {
+  "id": "cp-cp_personal-12",
+  "sec": "auto",
+  "title": "PIP vs. PPI vs. Residual Liability (Michigan No-Fault)",
+  "sides": [
+   {
+    "name": "PIP",
+    "points": [
+     "Personal injury protection pays, without regard to fault, for accidental bodily injury arising out of the ownership, operation, maintenance or use of a motor vehicle as a motor vehicle.",
+     "Benefits include allowable expenses (medical care, with no 3-year cutoff), work loss and replacement services (both limited to the first 3 years after the accident), and survivor's loss (also limited to the first 3 years)."
+    ]
+   },
+   {
+    "name": "PPI",
+    "points": [
+     "Property protection insurance pays, without regard to fault, for accidental damage to tangible property, such as buildings, fences, and properly parked vehicles.",
+     "Up to $1,000,000 per policy for all property damage from one accident.",
+     "Not payable for accidents outside Michigan. Vehicles are excluded unless parked so as not to cause unreasonable risk, so it does not pay for the car you were driving."
+    ]
+   },
+   {
+    "name": "Residual liability",
+    "points": [
+     "Covers the tort liability Michigan keeps, such as pain-and-suffering suits for death, serious impairment of body function or permanent serious disfigurement.",
+     "Covers bodily injury and property damage in the US, its territories and possessions, and Canada, meeting the financial responsibility law of the place where the injury or damage occurs.",
+     "Required limits are at least $250,000 per person and $500,000 per accident for bodily injury, and $10,000 property damage, unless the insured chooses lower bodily injury limits (not below $50,000/$100,000) by completing the director's form."
+    ]
+   }
+  ],
+  "tell": "Bodily injury paid regardless of fault = PIP; damage in Michigan to other people's property, such as buildings, fences or properly parked cars = PPI (not moving or improperly parked cars: their owners look to collision coverage or the mini-tort); your legal liability, such as a lawsuit or property damage out of state = residual liability.",
+  "drills": [
+   {
+    "prompt": "After a crash in Lansing, your hospital bills and lost wages are paid by your own insurer, no matter who caused it.",
+    "answer": "PIP",
+    "why": "PIP pays medical expenses and work loss without regard to fault."
+   },
+   {
+    "prompt": "You slide on ice in Kalamazoo and knock down a homeowner's fence.",
+    "answer": "PPI",
+    "why": "PPI pays for damage to tangible property in Michigan without regard to fault."
+   },
+   {
+    "prompt": "You rear-end a car in Toledo, Ohio, and damage it.",
+    "answer": "Residual liability",
+    "why": "PPI is not payable for out-of-state accidents; property damage liability applies anywhere in the US and Canada."
+   },
+   {
+    "prompt": "A pedestrian you hit suffers a serious impairment of body function and sues you for pain and suffering.",
+    "answer": "Residual liability",
+    "why": "Tort liability for noneconomic loss remains when the threshold injury is met."
+   },
+   {
+    "prompt": "You sideswipe a car that is legally parked at the curb in Detroit.",
+    "answer": "PPI",
+    "why": "PPI covers a vehicle parked so as not to cause unreasonable risk of the damage."
+   },
+   {
+    "prompt": "Your injured spouse needs someone to do the housework and yard work for a few months.",
+    "answer": "PIP",
+    "why": "Replacement services, up to $20 a day, are a PIP benefit."
+   }
+  ],
+  "source": "MCL 500.3105; MCL 500.3107(1); MCL 500.3108; MCL 500.3121(1),(2),(5); MCL 500.3123(1)-(2); MCL 500.3131(1); MCL 500.3135(1),(3); MCL 500.3009(1),(5); DIFS auto insurance FAQ"
+ },
+ {
+  "id": "cp-cp_personal-13",
+  "sec": "auto",
+  "title": "Collision vs. Other Than Collision (PAP Part D)",
+  "sides": [
+   {
+    "name": "Collision",
+    "points": [
+     "The upset of your covered auto or a non-owned auto, or its impact with another vehicle or object.",
+     "Paid only if the Declarations show Collision Coverage for that auto.",
+     "Glass broken in a collision may be treated as a collision loss, at the insured's option."
+    ]
+   },
+   {
+    "name": "Other than collision",
+    "points": [
+     "Pays for direct and accidental loss caused by something other than collision. It is commonly called comprehensive, the term DIFS uses.",
+     "The PAP lists these as other than collision: missiles or falling objects; fire; theft or larceny; explosion or earthquake; windstorm; hail, water or flood; vandalism; riot or civil commotion; contact with bird or animal; breakage of glass.",
+     "Paid only if the Declarations show Other Than Collision Coverage for that auto."
+    ]
+   }
+  ],
+  "tell": "Did the car roll over or hit a vehicle or object? Collision. Was it hit by an animal, the weather, a falling object, fire, a thief or a vandal? Other than collision.",
+  "drills": [
+   {
+    "prompt": "You hit a deer on M-37.",
+    "answer": "Other than collision",
+    "why": "Contact with bird or animal is listed as other than collision."
+   },
+   {
+    "prompt": "You swerve to miss a deer and hit a tree.",
+    "answer": "Collision",
+    "why": "The car's impact with an object (the tree) is collision."
+   },
+   {
+    "prompt": "Your car rolls over on an icy curve without hitting anything.",
+    "answer": "Collision",
+    "why": "Upset of the auto is collision."
+   },
+   {
+    "prompt": "Hail dents the hood and roof.",
+    "answer": "Other than collision",
+    "why": "Hail is listed as other than collision."
+   },
+   {
+    "prompt": "A tree limb falls on your parked car during a storm.",
+    "answer": "Other than collision",
+    "why": "Falling objects are listed as other than collision."
+   }
+  ],
+  "source": "ISO PP 00 01 09 18, Part D, Insuring Agreement A-B. DIFS auto insurance FAQ (collision and comprehensive). MCL 500.3037(8)(a)"
+ },
+ {
+  "id": "cp-cp_personal-14",
+  "sec": "auto",
+  "title": "Limited vs. Broad Form vs. Standard Collision (Michigan)",
+  "sides": [
+   {
+    "name": "Limited collision",
+    "points": [
+     "Pays for collision damage only if the driver was not substantially at fault; it pays nothing if the driver was more than 50% at fault.",
+     "For a private passenger auto, insurers must offer it without a deductible at a new applicant's initial written application; limited collision with a deductible may also be offered."
+    ]
+   },
+   {
+    "name": "Broad form collision",
+    "points": [
+     "Pays for collision damage regardless of fault.",
+     "The deductible is waived if the driver was not substantially at fault (50% or less); a driver more than 50% at fault pays the deductible.",
+     "Insurers must offer it at a new applicant's initial written application."
+    ]
+   },
+   {
+    "name": "Standard collision",
+    "points": [
+     "DIFS: pays whether the driver was more than 50% at fault or 50% or less, and the driver pays the deductible either way.",
+     "Insurers may offer it, with deductibles approved by the director, but it is not one of the two coverages the statute requires them to offer."
+    ]
+   }
+  ],
+  "tell": "Two questions: Does it pay when you were more than 50% at fault? (Limited: no.) Is the deductible waived when you were not? (Broad form: yes. Standard: no.)",
+  "drills": [
+   {
+    "prompt": "Pat was 70% at fault in a crash. Which option pays nothing for Pat's car?",
+    "answer": "Limited collision",
+    "why": "Limited collision pays only if the driver was not substantially (more than 50%) at fault."
+   },
+   {
+    "prompt": "Lee's coverage paid for her car minus her deductible when she was 80% at fault, and paid with no deductible when she was 20% at fault.",
+    "answer": "Broad form collision",
+    "why": "Broad form pays regardless of fault and waives the deductible when the driver is not substantially at fault."
+   },
+   {
+    "prompt": "Sam's coverage paid for his car minus his deductible when he was 80% at fault, and he paid his deductible again when he was only 10% at fault.",
+    "answer": "Standard collision",
+    "why": "DIFS's chart: standard collision pays regardless of fault, minus the deductible whether or not the driver was at fault."
+   },
+   {
+    "prompt": "Of the three, the only one Michigan does not require an insurer to offer a new applicant.",
+    "answer": "Standard collision",
+    "why": "MCL 500.3037(1) requires limited collision (without a deductible) and broad form collision to be offered; under 3037(2), standard collision may be offered."
+   }
+  ],
+  "source": "MCL 500.3037(1),(2),(8)(b). DIFS, \"The Three Types of Collision Coverage\" (FIS-PUB 0200, 11/19), chart of what each type pays at more than 50% and at 50% or less at fault (the PUB's cover note says it was written for policies issued on or before July 1, 2020; its collision chart matches current MCL 500.3037). DIFS FAQ \"Information on Purchasing Auto Insurance\" (three kinds of collision: limited, standard and broad form)"
+ },
+ {
+  "id": "cp-cp_personal-15",
+  "sec": "reg",
+  "title": "Twisting vs. Rebating vs. Misrepresentation",
+  "sides": [
+   {
+    "name": "Twisting",
+    "points": [
+     "Knowingly making a misleading representation, or an incomplete or fraudulent comparison of policies, to get someone to lapse, surrender, terminate or convert a policy, or to take one with another insurer.",
+     "Michigan's rule (MCL 500.2005a(a)) applies to any insurance policy, not only life insurance.",
+     "It is a specific kind of misrepresentation (MCL 500.2005(f) also bars misrepresenting to induce a lapse or exchange). When the goal is getting a policy dropped or replaced, the name for it is twisting."
+    ]
+   },
+   {
+    "name": "Rebating",
+    "points": [
+     "Offering or giving any rebate of premium, part of the commission, or any valuable consideration or inducement not specified in the policy.",
+     "P&C exception: an article of merchandise costing the insurer $50 or less per calendar year.",
+     "An insured who knowingly accepts a rebate has the insurance reduced in proportion and commits a misdemeanor (fine up to $100)."
+    ]
+   },
+   {
+    "name": "Misrepresentation",
+    "points": [
+     "Any statement, illustration, circular or sales presentation that, by omitting or misstating a material fact, misrepresents a policy's terms, benefits, advantages or conditions.",
+     "Also covers misrepresenting dividends, an insurer's financial condition, or the true nature of a policy through a misleading name."
+    ]
+   }
+  ],
+  "tell": "What is the agent after? Getting a policy dropped or switched through a misleading comparison = twisting; handing over something of value the policy does not specify = rebating; misstating what a policy or insurer offers = misrepresentation.",
+  "drills": [
+   {
+    "prompt": "To get a client to drop her current auto policy and buy one from his company, an agent shows a side-by-side comparison that leaves out the new policy's much higher deductibles.",
+    "answer": "Twisting",
+    "why": "It is an incomplete comparison used to get someone to drop one policy and take another, which is the specific practice called twisting."
+   },
+   {
+    "prompt": "An agent offers to send a prospect $200 of his commission if she buys a homeowners policy.",
+    "answer": "Rebating",
+    "why": "Returning part of the commission is a rebate not specified in the policy."
+   },
+   {
+    "prompt": "An agent tells a buyer that the homeowners policy covers flood damage, though it excludes flood.",
+    "answer": "Misrepresentation",
+    "why": "It misstates the policy's terms and benefits; no switch of policies is involved."
+   },
+   {
+    "prompt": "An agent tells a prospect that his insurer has billions in surplus and has never had a losing year, which is false.",
+    "answer": "Misrepresentation",
+    "why": "Misrepresenting an insurer's financial condition is a listed misrepresentation."
+   },
+   {
+    "prompt": "A policyholder who knowingly accepts a $300 gift card for buying a policy has his coverage reduced in proportion.",
+    "answer": "Rebating",
+    "why": "MCL 500.2070 reduces the insurance of an insured who knowingly accepts a rebate."
+   }
+  ],
+  "source": "MCL 500.2005; MCL 500.2005a(a); MCL 500.2066(1); MCL 500.2024b; MCL 500.2070. IRMI glossary: twisting; rebating"
+ }
+]

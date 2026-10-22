@@ -253,7 +253,7 @@ Outline weight: 20% (30 items). The Michigan-law sub-block (MPCGA, 500.2833 fire
 - **Vicarious liability**: a principal is liable for the acts of its agents, for example an employer for its employees acting in the scope of employment (respondeat superior). It can also apply to partners, independent contractors, and children. [IRMI "vicarious liability"; LII Wex "vicarious liability"]
 
 ## Causes of Loss (Perils): Named vs. Open
-- **Named perils**: covers only the perils listed. The insured must prove a listed peril caused the loss. [IRMI "named perils coverage"]
+- **Named perils**: covers only the perils listed. [IRMI "named perils coverage"] In Michigan, the insured bears the burden of proving coverage, while the insurer must prove that an exclusion applies. [Heniser v Frankenmuth Mut Ins Co, 449 Mich 155 (1995)]
 - **Special (open) perils**: covers all causes of loss except those specifically excluded. It was formerly called "all risks." [IRMI "open perils"; "special perils"]
 
 ## Direct vs. Consequential (Indirect) Loss
@@ -288,12 +288,12 @@ Outline weight: 20% (30 items). The Michigan-law sub-block (MPCGA, 500.2833 fire
 - **CP Replacement Cost optional coverage**:
   - It does not pay RC until the property is actually repaired or replaced, as soon as reasonably possible. [ISO CP 00 10 10 12, G.3.d]
   - The insured may settle on an ACV basis and still claim the RC difference by giving notice within 180 days. [ISO CP 00 10 10 12, G.3.c]
-- **Functional replacement cost**: the cost of property that performs the same function with equal efficiency, even if it is not identical. An example is plaster walls replaced with drywall. [IRMI "functional replacement cost"]
+- **Functional replacement cost**: the cost of property that performs the same function with equal efficiency, even if it is not identical. [IRMI "functional replacement cost"]
 - **Agreed value (CP optional coverage)**:
   - The Coinsurance condition is suspended until the agreed value expiration date. [ISO CP 00 10 10 12, G.1.a–c]
   - Recovery is limited to the proportion that the limit bears to the Agreed Value shown in the Declarations. [ISO CP 00 10 10 12, G.1.a–c]
   - If the agreed value is not extended, coinsurance is reinstated. [ISO CP 00 10 10 12, G.1.b]
-- **Stated amount**: commonly used for auto physical damage. The insurer pays the least of the stated amount, ACV, or the cost to repair or replace, so the stated amount is a ceiling, not a guaranteed payment. [ISO CA 99 28 "Stated Amount Insurance" (VA SCC filing, summary only); see Flags]
+- **Stated amount**: commonly used for auto physical damage. The insurer pays the least of the stated amount, ACV, or the cost to repair or replace, so the stated amount is a ceiling, not a guaranteed payment. [ISO CA 99 28 03 10, B.1–3]
 
 ## Policy Structure (D-I-C-E + endorsements)
 - **Declarations**: names the named insured, address, policy period, location, limits, and other information specific to the insured. [IRMI "declarations"]
@@ -679,7 +679,7 @@ Outline weight: 20% (30 items). The Michigan-law sub-block (MPCGA, 500.2833 fire
   - CG 00 01 04 13 limits and duty-to-defend text (Argo annotated copy)
   - CG "Method Of Sharing" wording from a Law Insider reproduction of the standard ISO text. We did not view the full ISO PDF.
 - **IL 00 17 11 98 Common Policy Conditions**: We could not get an ISO copy. The 10/30-day commercial cancellation notice is from a carrier form reproducing ISO language (Accelerant N CP 0169), confirmed by secondary summaries. Michigan statutes and amendatory endorsements govern actual notice periods (see the Michigan sub-block file).
-- **Stated amount**: the "least of stated amount / ACV / repair cost" rule comes from secondary summaries of ISO CA 99 28. The Virginia SCC form PDF would not download.
+- **Stated amount**: the "least of stated amount / ACV / repair cost" rule was confirmed in the 2010 edition of ISO CA 99 28 (Virginia SCC specimen, via the Internet Archive). The text of the November 2020 edition (CA 99 28 11 20) was not retrieved.
 - **Absolute vs. strict liability**: legal sources often use these terms interchangeably. Exam-prep convention uses "absolute" for ultrahazardous activities and "strict" for defective products. Michigan has not adopted Restatement §402A strict products liability as such; design-defect claims use a negligence risk-utility test [Prentis v Yale Mfg Co, 421 Mich 670 (1984)]. This is generic exam content; avoid Michigan-specific products questions.
 - **Restoration of limits**: no single primary source covers the "property limits restored, liability aggregates eroded" convention. Use it as general guidance only.
 - **Punitive damages**: Michigan citations are from the IADC Michigan Damages Compendium (2026), which quotes Gilbert (2004) and Casey (2006). We did not read the opinions themselves.
@@ -700,6 +700,7 @@ Outline weight: 5% (8 items). Statute text is from legislature.mi.gov ("MCL comp
 - Private employers (other than agricultural) that regularly employ **3 or more employees at one time**. [MCL 418.115(a)]
 - Private employers with **fewer than 3** employees if at least 1 has been regularly employed by that employer **35+ hours per week for 13+ weeks during the preceding 52 weeks**. [MCL 418.115(b)]
 - **All public employers**, regardless of the number of employees. [MCL 418.115(c)]
+- **Household domestic servants** (special rule): a private employer is not liable under the Act to a household domestic servant employed less than 35 hours per week for 13 weeks or longer during the preceding 52 weeks, unless the employer voluntarily assumes liability. A spouse, child or other family member living in the home is not an employee for household work. [MCL 418.118(1),(2)]
 - Agricultural employers of **3+ regular employees** paid hourly or salary (not piecework) and employed **35+ hours per week for 13+ consecutive weeks** during the preceding 52 weeks. [MCL 418.115(d)]
 - Agricultural employers of **1+ employees** working **35+ hours per week for 5+ consecutive weeks** must provide medical and hospital coverage (§315) for work injuries. [MCL 418.115(e)]
 - Any other private employer may voluntarily assume coverage. Buying a WC policy counts as assuming it, except for domestic and agricultural employees, who may be included by specific endorsement. [MCL 418.121]

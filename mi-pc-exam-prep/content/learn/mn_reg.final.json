@@ -1,0 +1,383 @@
+[
+  {
+    "id": "mn-mn_reg-01",
+    "sec": "reg",
+    "title": "Appointment and termination deadlines",
+    "technique": "chunking",
+    "hook": "Hire 15. Fire 30. Mail 15. Talk back 30. Picture a revolving agency door with four stickers: in, out, envelope, reply.",
+    "unpack": [
+      "Hire 15: the insurer files the notice of appointment within 15 days from the date the agency contract is executed or the first insurance application is submitted.",
+      "Fire 30: when an insurer terminates a producer, whether for a 1239 cause or for any other reason, it notifies the director within 30 days after the termination's effective date.",
+      "Mail 15: no later than 15 days after notifying the director, the insurer mails the producer a copy at the last known address. For a 1239 for-cause termination, the copy goes by certified mail, return receipt requested, or by nationally recognized overnight delivery.",
+      "Talk back 30: within 30 days after receiving the notice, the producer may file written comments with the director, sending a copy to the insurer at the same time."
+    ],
+    "watch_out": "The termination notice is due within 30 days AFTER the effective date, not before, and a termination for low production still must be reported. Don't confuse Hire 15 with the director's separate deadline of up to 30 days to verify eligibility. A producer may not bind coverage for an insurer until that insurer appoints the producer. The Mail 15 copy rule does not apply to an employee producer or a captive producer (one who represents only 1 insurer or affiliated group) when the insurer owns the renewal rights and no home or auto policy is canceled or nonrenewed as a result.",
+    "source": "MCL 500.1208a(2),(3),(4); MCL 500.1208b(1),(2),(4); MCL 500.1209(4)",
+    "question_ids": [
+      "reg-001",
+      "reg-002",
+      "reg-003",
+      "reg-004"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-02",
+    "sec": "reg",
+    "title": "When an auto/home insurer may terminate a producer",
+    "technique": "contrast",
+    "hook": "Fired for Conduct or Count, not for County: you can be let go for what you did or how few applications you sent, but not mainly because of where your business is located.",
+    "unpack": [
+      "Conduct: malfeasance; breach of fiduciary duty or trust; a violation of the Insurance Code; or failure to perform as the contract requires.",
+      "Count: submitting fewer than 25 applications for home and auto insurance in the immediately preceding 12 months.",
+      "Not 'County': a termination may not be based primarily on the geographic location of the producer's home or auto business, or on loss experience tied in whole or in part to that location.",
+      "Also not a permitted basis: the producer's performance of chapter 21 (Essential Insurance Act) obligations."
+    ],
+    "watch_out": "'County' is only a cue for any geographic location, not literally county lines, and the ban is on a termination based primarily on location. These limits cover a producer's authority for auto and home insurance. They do not protect an employee producer or a captive producer (one who represents only 1 insurer or affiliated group) when the insurer owns the renewal rights and no home or auto policy is canceled or nonrenewed.",
+    "source": "MCL 500.1209(2),(3),(4)",
+    "question_ids": [
+      "reg-005"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-03",
+    "sec": "reg",
+    "title": "Controlled business limit",
+    "technique": "imagery",
+    "hook": "The 15% potluck: over any 12 months, the food you dish out to yourself, your boss, your staff and your business buddies can't be more than 15% of all the food (premium) you serve.",
+    "unpack": [
+      "Limit: insurance an agent places on his or her own risks plus those of employees, employer or business associates may not exceed 15% of the total premium the agent placed.",
+      "Window: any 12-month period.",
+      "Measure: premium dollars, not the number of policies."
+    ],
+    "watch_out": "The statute's list is your own risks, your employees, your employer and your business associates. Don't be tempted by 10%, 20% or 25%.",
+    "source": "MCL 500.1208",
+    "question_ids": [
+      "reg-007"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-04",
+    "sec": "reg",
+    "title": "What a solicitor needs",
+    "technique": "first-letter-cue",
+    "hook": "A solicitor is a resident producer's sidekick with 3 L's: Leash, License, Letter.",
+    "unpack": [
+      "Sidekick: a solicitor is a natural person who solicits applications and collects premiums on behalf of a licensed insurance producer resident in Michigan.",
+      "Leash: a written contract with that producer that specifies the extent of the solicitor's authority.",
+      "License: the solicitor must be licensed as a solicitor, and may act for the sponsoring producer only after receiving the license.",
+      "Letter: the producer must notify the director, in writing, of the solicitor's appointment."
+    ],
+    "watch_out": "All three L's are required; the hook is a checklist, not a sequence. A solicitor works for a resident producer, not directly for an insurer or for a consumer. When a solicitor's authority ends, the agent must notify the commissioner immediately, with full disclosure of any violations. A solicitor is a fiduciary for all money received.",
+    "source": "MCL 500.1211(1); MCL 500.1212(1); MCL 500.1214(1),(5); MCL 500.1216(1); MCL 500.1218",
+    "question_ids": [
+      "reg-016"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-05",
+    "sec": "reg",
+    "title": "The insurance counselor's written agreement",
+    "technique": "number-peg",
+    "hook": "2-2-0: 2 signatures before the work, 2 years of record-keeping after, 0 fee waivers ever.",
+    "unpack": [
+      "2 signatures: before providing any counselor service, the counselor prepares a written agreement signed by both the counselor and the client.",
+      "Contents: the agreement outlines the work, states the fee, and discloses that the counselor will receive a commission from the insurer on any insurance placed while acting as an agent.",
+      "0 waivers: the agreement must clearly state that the counselor's fee may not be waived under any circumstances.",
+      "2 years: the counselor keeps a copy for at least 2 years after completing the services, available to the commissioner."
+    ],
+    "watch_out": "A classic trap says the fee will be waived if the client buys insurance through the counselor. That is exactly what the agreement must rule out. A licensed agent's customary advice, and a person admitted to practice law in Michigan, do not need a counselor license.",
+    "source": "MCL 500.1232; MCL 500.1236",
+    "question_ids": [
+      "reg-017",
+      "reg-018",
+      "reg-019"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-06",
+    "sec": "reg",
+    "title": "Name, address and assumed-name changes",
+    "technique": "contrast",
+    "hook": "Moved from Kalamazoo to Traverse City, or changed your legal name? 30 days. Hanging a new trade-name sign? Tell DIFS before the first nail.",
+    "unpack": [
+      "Change of legal name or address: inform the commissioner within 30 days of the change.",
+      "Mailing or email address: agents, solicitors, counselors and adjusters report any change within 30 days after the change.",
+      "Assumed name: a producer doing business under any name other than his or her legal name must notify the commissioner before using it."
+    ],
+    "watch_out": "The assumed-name rule is 'before,' not 'within 30 days after.' Keep your address current: DIFS may serve hearing notices by first-class mail to the mailing address you reported.",
+    "source": "MCL 500.1206(5); MCL 500.1238(1),(2); MCL 500.1211a",
+    "question_ids": [
+      "reg-022",
+      "reg-023"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-07",
+    "sec": "reg",
+    "title": "When to report administrative and criminal actions",
+    "technique": "contrast",
+    "hook": "Admin at the finish line, criminal at the starting gun. Both get 30 days.",
+    "unpack": [
+      "Administrative action (in another jurisdiction, or by another Michigan agency): report within 30 days after the final disposition, with a copy of the order, consent order or other relevant documents.",
+      "Criminal prosecution (in any jurisdiction): report within 30 days after the initial pretrial hearing date, with the initial complaint, the order resulting from the hearing and other relevant documents."
+    ],
+    "watch_out": "The criminal clock does not wait for a conviction or a guilty plea, and it applies to any criminal prosecution, not only felonies. Both reports go to the commissioner (the DIFS director).",
+    "source": "MCL 500.1247(1),(2)",
+    "question_ids": [
+      "reg-024",
+      "reg-025"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-08",
+    "sec": "reg",
+    "title": "Continuing education numbers",
+    "technique": "number-peg",
+    "hook": "Every 2 years, spend 1 full day (24 hours) learning, 3 of them on ethics. Leftovers? Take home a dozen (12) at most, and ethics never keeps.",
+    "unpack": [
+      "2: CE hours are reviewed every 2 years.",
+      "24: at least 24 hours of approved CE each 2-year period; classroom, home study and online courses all count.",
+      "3: at least 3 of the 24 hours must be in ethics.",
+      "12: up to 12 hours above the 24 may carry over to the next 2-year period.",
+      "Ethics never keeps: extra ethics hours never count toward the next period's ethics requirement; the 3 ethics hours must be completed in each period."
+    ],
+    "watch_out": "Even if you take 40 hours, only 12 can carry over, and hours from repeating the same course can't carry over. A CE 'hour' is at least 50 minutes.",
+    "source": "MCL 500.1204c(1),(2),(13),(18)(a); DIFS CE Carryover FAQ",
+    "question_ids": [
+      "reg-026",
+      "reg-027"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-09",
+    "sec": "reg",
+    "title": "The 90-day CE grace period",
+    "technique": "imagery",
+    "hook": "The 90-day Zamboni: you may resurface the ice you already have and keep collecting on it, but you can't start any new games.",
+    "unpack": [
+      "Trigger: CE not completed by the license expiration date starts a 90-day grace period.",
+      "No new games: during the 90 days the producer may not solicit or sell new policies, bind coverage, or otherwise act as a producer.",
+      "Resurface the ice: the producer may service policies previously sold and receive commissions on them.",
+      "Final buzzer: if CE is still incomplete when the 90 days end, the director cancels the license. To act as a producer again, the producer has to apply for a license again (section 1204)."
+    ],
+    "watch_out": "Binding is off-limits during the grace period, and enrolling in a course doesn't restore selling rights. Trap answers take away the commissions, but commissions on policies previously sold are allowed. DIFS's licensee locator shows this status as 'Suspended for Education.'",
+    "source": "MCL 500.1204c(11); DIFS Insurance Licensee CE FAQ",
+    "question_ids": [
+      "reg-028"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-10",
+    "sec": "reg",
+    "title": "Who must get a CE waiver",
+    "technique": "story",
+    "hook": "A soldier, a luggage clerk and a credit clerk walk into DIFS. The director must wave all three past the CE line.",
+    "unpack": [
+      "Soldier: the director must waive CE for a producer who can't comply because of military service. The director must also waive it when the director determines enforcement would cause severe hardship.",
+      "Luggage clerk: a producer licensed to write only travel or baggage insurance whose employment is for a purpose other than selling those policies.",
+      "Credit clerk: a producer licensed to write only limited line credit insurance."
+    ],
+    "watch_out": "Years of experience, a CPCU or other designation, or a personal-lines-only license does not earn a CE waiver. Designations can let the director waive prelicensing education or the exam, not CE. The order of the three doesn't matter. The travel/baggage waiver needs both parts: only travel or baggage, and a job whose purpose is something else.",
+    "source": "MCL 500.1204c(9); MCL 500.1204(2)",
+    "question_ids": [
+      "reg-029"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-11",
+    "sec": "reg",
+    "title": "Reinstate, move in, temporary license: 12-90-180",
+    "technique": "chunking",
+    "hook": "A year, a season, a half-year: 12 months to reinstate, 90 days to move in, 180 days on a temp license.",
+    "unpack": [
+      "12 months: a producer whose license lapsed for a reason other than unmet CE may reinstate the same license without a written exam no later than 12 months after the lapse.",
+      "90 days: a producer licensed in another state who moves to Michigan must apply for a resident license within 90 days after establishing legal residence. No prelicensing education or exam is needed for qualifications already held.",
+      "180 days: the director may issue a temporary producer license, with no exam, for up to 180 days. Examples: the surviving spouse or court-appointed personal representative of a producer who dies or becomes disabled, or the designee of a producer entering active military service."
+    ],
+    "watch_out": "The 12-month no-exam reinstatement does not cover a lapse for unmet CE; that license is canceled after the 90-day grace period, and the producer reapplies. A temporary license can't continue after the business is disposed of.",
+    "source": "MCL 500.1206(3); MCL 500.1206b(2); MCL 500.1211b(1),(2); MCL 500.1204c(11)",
+    "question_ids": [
+      "reg-030",
+      "reg-014",
+      "reg-015"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-12",
+    "sec": "reg",
+    "title": "Felonies and mandatory license denial",
+    "technique": "imagery",
+    "hook": "The 10-year rearview mirror: a felony still in the mirror means no license. Violent, sex and money felonies are 'closer than they appear'; they never leave the mirror.",
+    "unpack": [
+      "In the mirror: for a felony conviction within 10 years before the application was filed, the director shall not issue the license.",
+      "Never leaves the mirror: regardless of the conviction date, the same mandatory denial applies to a felony involving violence or threat of violence (including domestic violence), criminal sexual conduct, or a fiduciary or financial crime such as fraud, embezzlement, bribery or extortion.",
+      "Out of the mirror: an older felony of any other kind is a discretionary ground; the director may refuse the license."
+    ],
+    "watch_out": "Know 'shall not issue' from 'may refuse.' Forging another's name to an insurance document and knowingly accepting business from an unlicensed person are also 'shall not issue' causes. Improperly using notes during the licensing exam is a 'may refuse' cause. Any of these can also lead to probation, suspension, revocation or a fine for a current licensee.",
+    "source": "MCL 500.1239(1)(d),(e),(h),(i); MCL 500.1239(2)(b),(d)",
+    "question_ids": [
+      "reg-031",
+      "reg-032"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-13",
+    "sec": "reg",
+    "title": "Chapter 12 (licensing) fines",
+    "technique": "number-peg",
+    "hook": "Oops 1, Knew 5, Cap 50. Defy 20, Cap 100. (All in thousands of dollars.)",
+    "unpack": [
+      "Oops 1: after an opportunity for a hearing, the director issues a cease and desist order and may fine up to $1,000 per violation of chapter 12.",
+      "Knew 5: up to $5,000 per violation if the person knew or reasonably should have known of the violation.",
+      "Cap 50: one order may not require more than $50,000 in fines.",
+      "Defy 20: knowingly violating a chapter 12 cease and desist order can bring a fine of up to $20,000 per violation, suspension or revocation, or both.",
+      "Cap 100: one such order may not require more than $100,000 in fines."
+    ],
+    "watch_out": "'Reasonably should have known' gets the same $5,000 tier as 'knew.' The director may also order refunds of overcharges, restitution, or suspension or revocation. Don't mix these up with the Uniform Trade Practices Act numbers (see the 'times ten' hook).",
+    "source": "MCL 500.1244(1),(3)",
+    "question_ids": [
+      "reg-034",
+      "reg-035"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-14",
+    "sec": "reg",
+    "title": "Unfair trade practice (UTPA) fines",
+    "technique": "number-peg",
+    "hook": "Trade-practice fines go 'times ten': $1,000 each, capped at $10,000. Knew it (or should have)? $5,000 each, capped at $50,000. Defy the order: $20,000 each.",
+    "unpack": [
+      "Didn't know: up to $1,000 per violation, with a $10,000 aggregate cap.",
+      "Knew or reasonably should have known: up to $5,000 per violation, with a $50,000 aggregate cap for all violations committed in a 6-month period.",
+      "Also possible: suspension or revocation for knowing and persistent violations, and a refund of overcharges.",
+      "Violating a UTPA cease and desist order while it is in effect: up to $20,000 per violation, suspension or revocation, or both."
+    ],
+    "watch_out": "'Times ten' is only a memory cue for these two caps. It doesn't fit the chapter 12 licensing fines ($1,000 or $5,000 per violation, one $50,000 cap per order). The 6-month window belongs to the $50,000 knowing-tier cap.",
+    "source": "MCL 500.2038(1); MCL 500.2040(1)",
+    "question_ids": [
+      "reg-036"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-15",
+    "sec": "reg",
+    "title": "Twisting and its two cousins",
+    "technique": "imagery",
+    "hook": "Three carnival barkers at the Michigan State Fair: one twists your old policy into a balloon animal, one jumps out in a scary mask, one hides behind a 'free survey' sign. Twist, Scare, Sneak.",
+    "unpack": [
+      "Twist (twisting): knowingly making a misleading representation, or an incomplete or fraudulent comparison of policies, to get someone to lapse, forfeit, surrender, terminate, retain, pledge, assign, borrow on or convert a policy, or to take out a policy with another insurer.",
+      "Scare: any marketing method that induces, or tends to induce, the purchase of insurance through force, fright or threat (explicit or implied), or through undue pressure.",
+      "Sneak: any marketing method that fails to disclose conspicuously that a purpose is soliciting insurance and that an insurance agent or insurance company will make contact.",
+      "All three are unfair methods of competition and unfair or deceptive acts under the Uniform Trade Practices Act."
+    ],
+    "watch_out": "The order of the three doesn't matter. Twisting needs a knowing misleading representation or an incomplete or fraudulent comparison; an honest replacement isn't twisting. Rebating is a different violation: an inducement not specified in the policy.",
+    "source": "MCL 500.2005a(a),(b),(c)",
+    "question_ids": [
+      "reg-038",
+      "reg-047"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-16",
+    "sec": "reg",
+    "title": "Defamation of an insurer",
+    "technique": "imagery",
+    "hook": "De-FAME: a billboard on I-94 falsely shouting 'Rival Mutual is going broke!' to steal its customers.",
+    "unpack": [
+      "What: making, publishing or circulating (or aiding, abetting or encouraging someone else to circulate) an oral or written statement, pamphlet, circular, article or literature.",
+      "Content: false, or maliciously critical of or derogatory to, the financial condition of a person in the business of insurance.",
+      "Purpose: calculated to injure that person.",
+      "It is an unfair method of competition and an unfair or deceptive act under the Uniform Trade Practices Act."
+    ],
+    "watch_out": "The tell is an attack on someone's financial condition meant to injure them. Defamation doesn't need a billboard; oral statements count. A misleading comparison to make a client drop a policy is twisting, and a concerted refusal to deal points to boycott.",
+    "source": "MCL 500.2009",
+    "question_ids": [
+      "reg-043"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-17",
+    "sec": "reg",
+    "title": "Boycott, coercion and intimidation",
+    "technique": "acrostic",
+    "hook": "BCI = Bullies Can't Insure: Boycott, Coercion, Intimidation.",
+    "unpack": [
+      "Rule: agreeing to commit, or by concerted action committing, any act of boycott, coercion or intimidation that results or tends to result in unreasonable restraint of the business of insurance is an unfair trade practice.",
+      "Boycott example: insurers agreeing that none of them will write policies for a particular agency's customers, unreasonably restraining that agency's business.",
+      "Bully lender: no one may require, as a condition of a loan or credit, that the borrower buy insurance through a particular agent or insurer. Each violation is a misdemeanor with a fine of up to $100.",
+      "What a lender may do: reasonably approve or disapprove the insurance the borrower picks, but it may not disapprove a policy because its coverage exceeds the basic coverage the lender requires.",
+      "No one may sell insurance by intimidation or threats, or induce a purchase through a particular agent or insurer by promising, or threatening to refuse, to sell goods, lend money or provide services."
+    ],
+    "watch_out": "The order of B, C and I doesn't matter. A lender keeps a reasonable right to approve the insurance the borrower selects; what it can't do is steer the borrower to a particular agent or insurer. Narrow exception: an insurer lending its own funds may require the borrower to insure his or her own life with that insurer for a reasonable amount.",
+    "source": "MCL 500.2012; MCL 500.2077(1),(3),(4),(5); MCL 500.1207(13)",
+    "question_ids": [
+      "reg-042",
+      "reg-046"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-18",
+    "sec": "reg",
+    "title": "Rebating and the $50 gift",
+    "technique": "imagery",
+    "hook": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at $50 a year.",
+    "unpack": [
+      "Allowed gift: a P&C insurer or P&C producer may give an applicant or insured an article of merchandise costing the insurer $50 or less per calendar year.",
+      "Rebate: no insurer, agent or solicitor may give any rebate of premium or commission, or any valuable consideration or inducement not specified in the policy, including stocks or securities.",
+      "Agent penalty: on satisfactory evidence, the commissioner revokes the license (after written notice and an opportunity for a hearing), and no new license may be issued within 1 year. Rebating is also a misdemeanor, with a fine of up to $100 per violation or county jail.",
+      "Insured penalty: an insured who knowingly accepts a rebate has the insurance reduced in proportion to the rebate's share of the total premium, and commits a misdemeanor with a fine of up to $100."
+    ],
+    "watch_out": "$50 is the P&C limit: per calendar year, measured by cost to the insurer, for merchandise. Life insurance has its own limit of merchandise with an invoice value of $5 or less per applicant. Older study materials may show a different P&C figure; the statute as amended by 2018 PA 542 says $50. DIFS also says that in personal lines a producer may not reduce the commission to lower the cost of a policy; that is an illegal inducement.",
+    "source": "MCL 500.2024a; MCL 500.2024b (am. 2018 PA 542); MCL 500.2066(1),(2); MCL 500.2068(1); MCL 500.2069; MCL 500.2070(2); DIFS Compensation & Rebating FAQ: Rebating/Inducement",
+    "question_ids": [
+      "reg-039",
+      "reg-040",
+      "reg-041"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-19",
+    "sec": "reg",
+    "title": "Insurance fraud penalties",
+    "technique": "contrast",
+    "hook": "Solo 4, Squad 10: committing fraud risks 4 years; plotting it with a partner risks 10. Either way, up to $50,000 and you pay it back.",
+    "unpack": [
+      "Fraudulent insurance act: done knowingly and with intent to injure, defraud or deceive, such as presenting a claim or application statement with false material information.",
+      "Solo 4: committing a fraudulent insurance act is a felony, up to 4 years in prison, a fine of up to $50,000, or both, plus court-ordered restitution.",
+      "Squad 10: entering an agreement or conspiracy to commit one is a felony, up to 10 years, a fine of up to $50,000, or both, plus restitution.",
+      "Runner, capper or steerer: a person who gets a benefit from a practitioner for bringing in clients or patients so the practitioner can obtain insurance benefits or assert claims. Employing, using or acting as one with intent to defraud is a fraudulent insurance act.",
+      "Reporting shield: a person who reports suspected fraud without malice is not civilly liable for libel, slander or other torts, unless the person knows the information is false."
+    ],
+    "watch_out": "The $50,000 fine cap is the same for both; only the prison maximum changes. A practitioner who gets clients through public media advertising is not a runner, capper or steerer. The reporting shield is lost with malice or knowingly false information.",
+    "source": "MCL 500.4501(h); MCL 500.4503; MCL 500.4509(1),(3); MCL 500.4511(1),(2)",
+    "question_ids": [
+      "reg-052",
+      "reg-053",
+      "reg-054",
+      "reg-055"
+    ]
+  },
+  {
+    "id": "mn-mn_reg-20",
+    "sec": "reg",
+    "title": "Privacy notices",
+    "technique": "acronym",
+    "hook": "Think PAPER for privacy notices: Personal, At the start, Periodic, Exit, Real copy.",
+    "unpack": [
+      "Personal: chapter 5 covers nonpublic personal financial information about individuals who obtain insurance primarily for personal, family or household purposes. It does not cover companies, or individuals buying for business, commercial or agricultural purposes.",
+      "At the start: a clear and conspicuous initial notice no later than when the customer relationship is established. For a producer, that is when the consumer obtains insurance through that licensee; for an insurer, when the policy is delivered.",
+      "Periodic: an annual notice at least once in any period of 12 consecutive months while the customer relationship continues.",
+      "Exit: before sharing with a nonaffiliated third party (unless a statutory exception in sections 535, 537 or 539 applies), give an opt-out notice and a reasonable opportunity to opt out. Letting the consumer opt out by mail form, toll-free number or other reasonable means within 30 days from mailing qualifies.",
+      "Real copy: deliver it so the consumer can reasonably expect actual notice in writing (or electronically, if the consumer agrees), such as by hand delivery or mail. Never solely by oral explanation, in person or by phone."
+    ],
+    "watch_out": "PAPER is a checklist, not a legal sequence. A sign in the office or general advertising doesn't count, and neither does emailing a consumer who doesn't obtain insurance electronically. No annual notice is needed for former customers, or when the licensee shares only under the statutory exceptions (sections 535, 537 and 539) and its privacy policies haven't changed. The initial notice may come later only if the relationship wasn't the customer's choice, or if earlier notice would substantially delay the transaction and the customer agrees. A violation of chapter 5 is itself an unfair trade practice.",
+    "source": "MCL 500.501(1); MCL 500.507(1)(a); MCL 500.509(1); MCL 500.511(1); MCL 500.513(1),(2),(3); MCL 500.527(1),(2),(4); MCL 500.529(1),(2)(a); MCL 500.535(1); MCL 500.537(1); MCL 500.539; MCL 500.2013",
+    "question_ids": [
+      "reg-056",
+      "reg-057",
+      "reg-058",
+      "reg-059",
+      "reg-060"
+    ]
+  }
+]

@@ -1,0 +1,505 @@
+[
+ {
+  "id": "mn-mn_auto-01",
+  "sec": "auto",
+  "title": "The PIP medical (allowable expense) levels for policies issued or renewed after July 1, 2020",
+  "technique": "imagery",
+  "hook": "Climb the PIP ladder: 50 - 250 - 500 - the Sky. Or step off the ladder completely (opt-out).",
+  "unpack": [
+   "$50,000 per individual per loss occurrence: only for a named insured enrolled in Medicaid whose household also qualifies (see the Medicaid/Medicare hook).",
+   "$250,000 per individual per loss occurrence. At this level the insurer must also offer an exclusion for people with qualified health coverage.",
+   "$500,000 per individual per loss occurrence.",
+   "The Sky = no limit (unlimited).",
+   "Step off = elect no PIP medical coverage at all (opt-out): only for a named insured with Medicare Parts A and B whose household also qualifies.",
+   "The applicant or named insured picks one level on a DIFS-approved form. The level applies to the named insured, spouse, resident relatives and anyone else claiming PIP under the policy."
+  ],
+  "watch_out": "$100,000 and $1,000,000 are NOT PIP medical choices (popular wrong answers). The levels limit only allowable expenses (medical); work loss, replacement services and survivor's loss keep their own statutory limits. A transportation network company may choose only $250,000, $500,000 or unlimited.",
+  "source": "MCL 500.3107c(1),(5),(7); MCL 500.3107d(1),(7)(c); MCL 500.3109a(2)",
+  "question_ids": [
+   "auto-018",
+   "auto-019",
+   "auto-020"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-02",
+  "sec": "auto",
+  "title": "Who may choose the $50,000 PIP level, and who may opt out",
+  "technique": "contrast",
+  "hook": "Medic-AID gets a little aid ($50,000). Medic-ARE folks ARE allowed out (opt-out).",
+  "unpack": [
+   "$50,000 level: the applicant or named insured must be enrolled in Medicaid, AND the spouse and every resident relative must have qualified health coverage, be enrolled in Medicaid, or have PIP medical coverage under another auto policy.",
+   "Opt-out (no PIP medical): the applicant or named insured must be a 'qualified person' (enrolled in Medicare Parts A and B), AND the spouse and every resident relative must have qualified health coverage or PIP medical coverage under another auto policy.",
+   "To opt out, the insured must also give the insurer a document from the qualified health coverage provider naming everyone it covers."
+  ],
+  "watch_out": "Both tests look at the whole household, not just the named insured. Being on Medicaid opens the $50,000 level only; the opt-out is tied to Medicare Parts A and B.",
+  "source": "MCL 500.3107c(1)(a); MCL 500.3107d(1),(2),(7)(c)",
+  "question_ids": [
+   "auto-019",
+   "auto-020"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-03",
+  "sec": "auto",
+  "title": "What applies when no effective PIP level or liability limit is chosen",
+  "technique": "imagery",
+  "hook": "Blank form = blank check: no effective choice means the big defaults - 250/500 liability and unlimited PIP (unless the premium paid shows a different PIP level).",
+  "unpack": [
+   "No effective PIP selection, but a premium or installment was paid: there is a rebuttable presumption that the premium paid reflects the PIP level that applies.",
+   "No effective PIP selection and no premium presumption: unlimited PIP medical applies.",
+   "No effective opt-out election: the policy is treated as providing unlimited PIP medical.",
+   "No effective choice of lower liability limits: the $250,000 / $500,000 bodily injury limits apply."
+  ],
+  "watch_out": "The premium presumption is checked first and can be rebutted. Unlimited PIP is the fallback only when neither a valid selection nor the premium presumption applies.",
+  "source": "MCL 500.3107c(3),(4); MCL 500.3107d(4); MCL 500.3009(8)",
+  "question_ids": [
+   "auto-021",
+   "auto-001"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-04",
+  "sec": "auto",
+  "title": "Qualified health coverage (QHC) and its deductible cap",
+  "technique": "number-peg",
+  "hook": "QHC = Medicare A and B, or a health plan that covers crash injuries with a deductible of $6,579 or less (July 1, 2026 - June 30, 2027). Number trick: start at 6, then count the odd numbers 5-7-9.",
+  "unpack": [
+   "QHC type 1: health or accident coverage that does not exclude or limit coverage for auto-accident injuries, with an annual deductible at or below the cap per individual.",
+   "The cap is $6,579 for July 1, 2026 - June 30, 2027 (the statute's base figure is $6,000).",
+   "QHC type 2: Medicare Parts A and B.",
+   "The cap is reviewed each July 1 using the medical part of the CPI, but it changes only when the adjustment (plus earlier unadded adjustments) reaches $500. It stayed at $6,579 for 2026-27."
+  ],
+  "watch_out": "A plan that excludes or limits auto-accident injuries is not QHC, however low its deductible. QHC shows up in the $50,000 household test, the opt-out household test and the $250,000 exclusion.",
+  "source": "MCL 500.3107d(7)(b); DIFS Bulletin 2026-08-INS",
+  "question_ids": [
+   "auto-022"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-05",
+  "sec": "auto",
+  "title": "When qualified health coverage ends during the policy term",
+  "technique": "story",
+  "hook": "Your health plan quits mid-season? You get a 30-day grace lap. Crash during the lap: the Assigned Claims Plan catches you (up to $2 million). Still uncovered after the lap: no PIP medical.",
+  "unpack": [
+   "This applies to an opt-out policy, or a $250,000 policy with a QHC exclusion, when a person who needed QHC loses it.",
+   "The named insured has 30 days after the QHC ends to obtain PIP medical coverage.",
+   "A person injured during those 30 days may claim through the Michigan Assigned Claims Plan, which pays allowable expenses up to $2,000,000 for these claimants.",
+   "If coverage still is not obtained, an injured person gets no PIP medical for the period without coverage, unless another policy applies.",
+   "An insurer may not refuse to insure, limit coverage, charge a reinstatement fee or raise premiums for an eligible person solely because the person missed the 30-day deadline."
+  ],
+  "watch_out": "The normal Assigned Claims Plan medical cap is $250,000. The $2,000,000 cap is only for people injured in this 30-day gap.",
+  "source": "MCL 500.3107d(3)(e),(6); MCL 500.3109a(2)(d),(e),(3); MCL 500.3172(7)",
+  "question_ids": [
+   "auto-023",
+   "auto-040"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-06",
+  "sec": "auto",
+  "title": "Two or more policies paying PIP medical (no stacking)",
+  "technique": "contrast",
+  "hook": "Tallest, not total: when two policies pay PIP medical, you get the tallest single limit, not the sum.",
+  "unpack": [
+   "If allowable expenses are payable under 2 or more policies, the total payable equals the highest limit available under any one policy.",
+   "Example: a $250,000 policy plus a $500,000 policy = $500,000 total, not $750,000.",
+   "The same highest-single-limit cap applies when 2 or more policies sit at the same level of the motorcycle priority list."
+  ],
+  "watch_out": "Adding the limits together (stacking) is the trap answer.",
+  "source": "MCL 500.3107c(6); MCL 500.3114(7)",
+  "question_ids": [
+   "auto-024"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-07",
+  "sec": "auto",
+  "title": "The four kinds of PIP benefits",
+  "technique": "acrostic",
+  "hook": "Michigan Winters Can Snow: Medical, Wages, Chores, Survivors.",
+  "unpack": [
+   "Medical = allowable expenses: reasonable charges for reasonably necessary products, services and accommodations for care, recovery or rehabilitation, up to the PIP level chosen. Funeral and burial are included, up to the policy amount ($1,750 to $5,000).",
+   "Wages = work loss: lost income for work the person would have done in the first 3 years after the accident, reduced 15% (pays 85%) unless the claimant proves a smaller tax advantage, with a cap per 30-day period.",
+   "Chores = replacement services: up to $20 per day for ordinary and necessary services (like housework or yard work) the injured person would have done, for the first 3 years.",
+   "Survivors = survivor's loss: dependents' lost contributions of tangible things of economic value (not services), plus up to $20 per day for replacement services, under the same 30-day cap as work loss, for the first 3 years."
+  ],
+  "watch_out": "Order doesn't matter. Medical has no 3-year cutoff; its dollar cap is the PIP level chosen; Wages, Chores and Survivors all stop 3 years after the accident. Hospital room charges above the semiprivate rate are not covered unless special or intensive care is needed.",
+  "source": "MCL 500.3107(1)(a)-(c); MCL 500.3108",
+  "question_ids": [
+   "auto-013",
+   "auto-016",
+   "auto-017",
+   "auto-014"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-08",
+  "sec": "auto",
+  "title": "PIP work loss: the 85% rule and the 30-day cap",
+  "technique": "number-peg",
+  "hook": "Tax-free wages, so 15% stays home: PIP pays 85%. The cap: seven grand, a 4 and a double nickel (55) = $7,455 per 30 days for accidents from Oct. 1, 2026 to Sept. 30, 2027.",
+  "unpack": [
+   "Work loss benefits are reduced 15% because they are not taxable income, unless the claimant proves a lower tax advantage.",
+   "Maximum for work loss, and for survivor's loss, per 30-day period: $7,455 for accidents Oct. 1, 2026 - Sept. 30, 2027.",
+   "Prior year: $7,201 for accidents Oct. 1, 2025 - Sept. 30, 2026.",
+   "The cap is adjusted every October 1, and a new cap applies only to accidents after the change.",
+   "Work loss covers income the person would have earned during the first 3 years after the accident; nothing is payable for any period after death."
+  ],
+  "watch_out": "Pick the cap by the accident date, not the payment date. For work loss, the cap counts the benefit plus any income the person earns in the same 30-day period. For survivor's loss, one cap is shared by all survivors.",
+  "source": "MCL 500.3107(1)(b); MCL 500.3108(1),(2); DIFS Bulletin 2026-20-INS",
+  "question_ids": [
+   "auto-015",
+   "auto-017"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-09",
+  "sec": "auto",
+  "title": "PIP funeral and burial range",
+  "technique": "rhyme",
+  "hook": "From seventeen-fifty up to five grand - that's where the PIP funeral must land.",
+  "unpack": [
+   "Funeral and burial expenses are part of PIP allowable expenses.",
+   "The policy sets the amount, which must be at least $1,750 and no more than $5,000."
+  ],
+  "watch_out": "The policy picks an amount inside the range; it is not automatically $5,000.",
+  "source": "MCL 500.3107(1)(a)(ii)",
+  "question_ids": [
+   "auto-014"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-10",
+  "sec": "auto",
+  "title": "PIP order of priority: the general rule and its main exceptions",
+  "technique": "imagery",
+  "hook": "Kitchen-table rule: first look at the policies on your own kitchen table - yours, your spouse's, or a relative's who lives with you. Nothing on the table? Go to the Assigned Claims Plan. Exceptions: an employer's car, or a vehicle in the business of carrying passengers, sends you to that vehicle's insurer.",
+  "unpack": [
+   "General rule: an injured person claims PIP under their own policy, or the policy of a spouse or of a relative living in the same household.",
+   "If the person has their own policy, their own insurer pays everything up to its PIP level, with no recoupment from a relative's insurer.",
+   "An employee (or the employee's spouse or resident relative) hurt while an occupant of a vehicle owned or registered by the employer claims from the insurer of the furnished vehicle.",
+   "An operator or passenger of a vehicle operated in the business of transporting passengers claims from that vehicle's insurer. For passengers in school buses, certain other buses, taxicabs, TNC vehicles and opt-out or excluded vehicles, this applies only if the passenger has no other PIP.",
+   "No household policy: an occupant claims through the Michigan Assigned Claims Plan, and so does a non-occupant such as a pedestrian or bicyclist."
+  ],
+  "watch_out": "Under the current law (as amended by 2019 PA 21), an occupant or pedestrian with no own or household policy goes to the Assigned Claims Plan, not to the insurer of the car involved. Some people get no PIP at all, such as the owner or registrant of an uninsured vehicle involved in the accident. Bus, taxi and ride-share passengers use their own household policy first; the vehicle's insurer pays them only if they have no other PIP. A person hurt in a short-term rental car still looks first to their own household policy. Motorcyclists follow their own list (see the ABBA hook).",
+  "source": "MCL 500.3114(1)-(5); MCL 500.3115; MCL 500.3113(b)",
+  "question_ids": [
+   "auto-026",
+   "auto-027",
+   "auto-028",
+   "auto-047"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-11",
+  "sec": "auto",
+  "title": "PIP priority for a motorcyclist hurt in an accident involving a motor vehicle",
+  "technique": "chunking",
+  "hook": "Mamma Mia, it's ABBA! Car Owner, car Operator - then bike Operator, bike Owner. The car pays first, and the bike half runs backwards.",
+  "unpack": [
+   "A (1st): the insurer of the owner or registrant of the motor vehicle involved.",
+   "B (2nd): the insurer of the operator of the motor vehicle involved.",
+   "B (3rd): the motor vehicle insurer of the operator of the motorcycle.",
+   "A (4th): the motor vehicle insurer of the owner or registrant of the motorcycle."
+  ],
+  "watch_out": "Order matters. This list applies only when a motor vehicle is involved; a motorcycle is not a 'motor vehicle' under no-fault. An opt-out or excluded policy is skipped: use another policy at the same level if there is one, otherwise move to the next level, and after the last level, the Assigned Claims Plan. Policies at the same level share, capped at the highest single limit.",
+  "source": "MCL 500.3114(5)-(8); MCL 500.3101(3)(h),(i)",
+  "question_ids": [
+   "auto-029"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-12",
+  "sec": "auto",
+  "title": "Property protection insurance (PPI): what it pays",
+  "technique": "rhyme",
+  "hook": "Moving cars? PPI's not paying. Fences, buildings, properly parked cars in the mitten? PPI's paying - up to a million.",
+  "unpack": [
+   "PPI pays, without regard to fault, for accidental damage to tangible property arising from the use of a motor vehicle: physical injury, destruction and loss of use.",
+   "Benefit: the lesser of reasonable repair cost or replacement cost less depreciation, plus loss of use.",
+   "Maximum: $1,000,000 under one policy for all property damaged in one accident.",
+   "Road vehicles powered by something other than muscle (including trailers) and their contents are excluded unless the vehicle was parked so as not to cause unreasonable risk; a properly parked car is covered.",
+   "Accidents in Michigan only (the mitten)."
+  ],
+  "watch_out": "PPI won't pay for your own car in your own accident; look to collision coverage, or the mini-tort against an at-fault driver. A suit for PPI benefits must be filed within 1 year after the accident.",
+  "source": "MCL 500.3121(1)-(5); MCL 500.3123(1),(2); MCL 500.3145(5)",
+  "question_ids": [
+   "auto-030",
+   "auto-031",
+   "auto-032"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-13",
+  "sec": "auto",
+  "title": "PPI exclusions",
+  "technique": "first-letter-cue",
+  "hook": "PPI's four M's it won't pay: Moving cars, Mine (my household's stuff), the Mechanic's shop, and anything outside the Mitten.",
+  "unpack": [
+   "Moving: road vehicles powered by something other than muscle (including trailers) and their contents, unless the vehicle was parked so as not to cause unreasonable risk.",
+   "Mine: property of the named insured, spouse or a resident relative, if one of them was the owner, registrant or operator of a vehicle involved in the accident.",
+   "Mechanic: damage to property other than the insured vehicle that happens in the course of a business of repairing, servicing or maintaining motor vehicles.",
+   "Mitten: accidents outside Michigan."
+  ],
+  "watch_out": "Order doesn't matter. 'Mine' applies only when someone in your household owned, registered or drove a vehicle involved. A car parked so as to cause unreasonable risk is excluded too, while a stranger's properly parked car IS covered. One rarer exclusion: certain damage to utility transmission lines, wires or cables.",
+  "source": "MCL 500.3121(1); MCL 500.3123(1)-(3)",
+  "question_ids": [
+   "auto-031",
+   "auto-032",
+   "auto-gap-09",
+   "auto-gap-10"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-14",
+  "sec": "auto",
+  "title": "Michigan residual liability limits and the lower-limit option",
+  "technique": "chunking",
+  "hook": "Default limits: a quarter-million, a half-million, and a skinny ten grand for property - $250,000 / $500,000 / $10,000. Sign the DIFS form and you may trade the BI down to 50/100, never lower.",
+  "unpack": [
+   "Quarter-million: $250,000 bodily injury per person (policies after July 1, 2020).",
+   "Half-million: $500,000 bodily injury per accident.",
+   "Ten grand: $10,000 property damage.",
+   "Lower option: the applicant or named insured may choose lower BI limits, but not below $50,000 per person / $100,000 per accident, and only by completing the director's (DIFS) form.",
+   "On every new policy and renewal the insurer must give the liability options, a price for each, and the form. The form must state the risks of lower limits, and the person marks it to acknowledge and signs it.",
+   "No effective choice = $250,000 / $500,000.",
+   "Before July 2, 2020 the minimum was $20,000 / $40,000 / $10,000."
+  ],
+  "watch_out": "Only the BI limits can be lowered; the $10,000 PD minimum stays. Older materials still show 20/40/10, which is the pre-July 2, 2020 rule.",
+  "source": "MCL 500.3009(1),(5)-(8)",
+  "question_ids": [
+   "auto-001",
+   "auto-002",
+   "auto-003"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-15",
+  "sec": "auto",
+  "title": "The tort threshold for pain and suffering (noneconomic loss)",
+  "technique": "acronym",
+  "hook": "To sue for pain and suffering, ask: DID it happen? Death, serious Impairment of body function, or permanent serious Disfigurement. For the 'I', check the OIL.",
+  "unpack": [
+   "D: death.",
+   "I: serious impairment of body function.",
+   "D: permanent serious disfigurement.",
+   "OIL test for serious impairment - O: objectively manifested (observable or perceivable by someone other than the injured person).",
+   "I: an impairment of an important body function.",
+   "L: it affects the person's general ability to lead his or her normal life.",
+   "No noneconomic damages for a party more than 50% at fault, or for a person who was operating his or her own vehicle without the required no-fault security."
+  ],
+  "watch_out": "Order doesn't matter in either list. Any one of the three D-I-D injuries is enough, but all three OIL parts are required for serious impairment, and there is no minimum time the impairment must last. The threshold is for noneconomic loss; economic loss above the PIP limits is a separate exception (see the MINNE hook).",
+  "source": "MCL 500.3135(1),(2)(b),(2)(c),(5)",
+  "question_ids": [
+   "auto-033",
+   "auto-034"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-16",
+  "sec": "auto",
+  "title": "What you can still sue for in a Michigan auto accident",
+  "technique": "acronym",
+  "hook": "Michigan tort survives only in MINNE(sota): Mini-tort, Intentional harm, Noneconomic loss over the threshold, Nonresidents' economic loss, Excess economic loss.",
+  "unpack": [
+   "M: mini-tort - up to $3,000 for vehicle damage not covered by insurance (accidents after July 1, 2020).",
+   "I: intentionally caused harm to persons or property.",
+   "N: noneconomic loss (pain and suffering), only for death, serious impairment of body function or permanent serious disfigurement.",
+   "N: economic loss of a nonresident, who must also have a threshold injury.",
+   "E: excess economic loss - allowable expenses, work loss and survivor's loss above the PIP limits (the chosen medical level, or the daily, monthly and 3-year limits), or medical without limit if the person opted out or was excluded."
+  ],
+  "watch_out": "Order doesn't matter. Apart from these five, tort liability for using an insured motor vehicle in Michigan is abolished.",
+  "source": "MCL 500.3135(3)(a)-(e)",
+  "question_ids": [
+   "auto-036",
+   "auto-035",
+   "auto-033"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-17",
+  "sec": "auto",
+  "title": "The mini-tort",
+  "technique": "chunking",
+  "hook": "Mini-tort = the three-grand small-claims fix: up to $3,000 for the car damage your insurance didn't pay, unless you were more than half at fault or were driving uninsured.",
+  "unpack": [
+   "Up to $3,000 for accidents after July 1, 2020 (up to $1,000 before).",
+   "Covers damage to a motor vehicle only to the extent it is not covered by insurance (for example, your collision deductible).",
+   "Comparative fault applies, and a party more than 50% at fault recovers nothing.",
+   "Brought in small claims court whenever legally possible.",
+   "Not part of the residual liability coverage the law requires you to carry.",
+   "No recovery if the damaged vehicle was being operated without the required no-fault security."
+  ],
+  "watch_out": "Exactly 50% at fault can still recover a reduced amount; only MORE than 50% bars recovery. Older consumer pages may still say $1,000.",
+  "source": "MCL 500.3135(3)(e),(4)",
+  "question_ids": [
+   "auto-035"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-18",
+  "sec": "auto",
+  "title": "Michigan auto cancellation and nonrenewal (Chapter 32)",
+  "technique": "number-peg",
+  "hook": "Speed limit 55, then the signs read 20-7-10-4: after day 55, only a lost license gets you pulled over (cancelled). Mail 20 days ahead, appeal in 7, hearing within 10, with 4 days' warning.",
+  "unpack": [
+   "55: during the first 55 days of a new policy, the insurer may cancel because the risk is unacceptable, and that cancellation cannot be appealed.",
+   "After 55 days (or right away on a renewal), the insurer may cancel only if the named insured, or a household member or customary driver, has had a license suspended or revoked during the policy period and it has become final.",
+   "20: written cancellation notice by certified mail, return receipt requested, mailed at least 20 days before the effective date, stating the reasons.",
+   "7: the notice must say in bold type that the insured may appeal to the department within 7 days from mailing (a written hearing request to the commissioner within 7 days after the postmark).",
+   "10: the hearing is held within 10 days after the appeal is received.",
+   "4: notice of the hearing is mailed at least 4 days before the hearing.",
+   "Nonrenewal is not a cancellation if the insurer mails notice by first-class mail at least 20 days before the policy ends."
+  ],
+  "watch_out": "Cancel = Certified mail; Nonrenew = Normal first-class mail (both 20 days). Chapter 32 does not cover cancellation for nonpayment of premium or the end of a policy term. Don't mix in the Essential Insurance Act (MCL 500.2123), which separately requires 30 days' written notice with each specific reason for a 'termination' (20 days in the first 55 days), or the ISO Personal Auto Policy's own termination clause (10 or 20 days, 60-day window).",
+  "source": "MCL 500.3204(2); MCL 500.3208; MCL 500.3212; MCL 500.3220; MCL 500.3224; MCL 500.3230; MCL 500.3234; MCL 500.2123; ISO PP 00 01 09 18, Part F",
+  "question_ids": [
+   "auto-042",
+   "auto-043",
+   "auto-044"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-19",
+  "sec": "auto",
+  "title": "When to use the Michigan Assigned Claims Plan (MACP)",
+  "technique": "chunking",
+  "hook": "The MACP is for the four No's: No PIP, No ID, No agreement, No money. Tell the MAIPF within a year; medical tops out at $250,000.",
+  "unpack": [
+   "No PIP: no PIP insurance applies to the injury.",
+   "No ID: no applicable PIP insurance can be identified.",
+   "No agreement: two or more auto insurers dispute who must pay.",
+   "No money: the only identifiable PIP coverage falls short because an insurer is financially unable to pay.",
+   "The claimant must notify the Michigan Automobile Insurance Placement Facility, which adopts and maintains the plan, within 1 year after the accident.",
+   "Allowable expenses are capped at $250,000 ($2,000,000 for people injured in the 30-day gap after losing qualified health coverage)."
+  ],
+  "watch_out": "Order doesn't matter. For No PIP, No ID and No money claims, benefits are reduced by other benefit sources (not counting Medicaid or Medicare); this reduction does not apply to insurer-dispute claims.",
+  "source": "MCL 500.3171(2); MCL 500.3172(1),(5),(7); MCL 500.3174",
+  "question_ids": [
+   "auto-028",
+   "auto-039",
+   "auto-040"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-20",
+  "sec": "auto",
+  "title": "The six parts of the Personal Auto Policy, in order",
+  "technique": "acrostic",
+  "hook": "Let Me Use Dad's Dodge, Gramps? - Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
+  "unpack": [
+   "Part A: Liability Coverage.",
+   "Part B: Medical Payments Coverage.",
+   "Part C: Uninsured Motorists Coverage.",
+   "Part D: Coverage for Damage to Your Auto.",
+   "Part E: Duties After an Accident or Loss.",
+   "Part F: General Provisions."
+  ],
+  "watch_out": "Order matters: the words run A through F. The base ISO form has no PIP or PPI part.",
+  "source": "ISO PP 00 01 09 18",
+  "question_ids": []
+ },
+ {
+  "id": "mn-mn_auto-21",
+  "sec": "auto",
+  "title": "Newly acquired auto reporting windows (2018 ISO Personal Auto Policy)",
+  "technique": "contrast",
+  "hook": "A fortnight for most, four days for first-timers: report within 14 days, but only 4 days if no car on your policy already has that physical damage coverage (and a $500 deductible if the loss happens before you call).",
+  "unpack": [
+   "Coverages other than Damage to Your Auto (liability, medical payments, uninsured motorists): the new auto gets the broadest coverage on any vehicle in the Declarations if you ask the insurer to insure it within 14 days after you become the owner.",
+   "Collision or Other Than Collision: coverage begins the day you become the owner if you ask within 14 days and the Declarations show that coverage on at least one auto.",
+   "If no auto in the Declarations has that coverage: ask within 4 days, and a $500 deductible applies to a loss that happened before you asked.",
+   "If you ask after the time period, coverage begins on the day you ask."
+  ],
+  "watch_out": "These periods come from the 2018 edition (PP 00 01 09 18), so name the edition. Collision and Other Than Collision are checked separately. A fortnight = 14 days.",
+  "source": "ISO PP 00 01 09 18, Definitions K",
+  "question_ids": [
+   "auto-050",
+   "auto-051"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-22",
+  "sec": "auto",
+  "title": "Transportation expenses under Part D (2018 ISO Personal Auto Policy)",
+  "technique": "number-peg",
+  "hook": "Thirty times thirty is nine hundred: $30 a day, $900 max. Thieves get a 2-day head start (expenses count from 48 hours after the theft); other losses need the car out of use more than 1 day (24 hours).",
+  "unpack": [
+   "Pays temporary transportation expenses up to $30 per day, $900 maximum, with no deductible, after a loss to your covered auto.",
+   "A collision loss is paid only if Collision Coverage applies to that auto; an other-than-collision loss only if Other Than Collision Coverage applies.",
+   "Total theft: expenses count beginning 48 hours after the theft.",
+   "Other losses: expenses count once the auto is withdrawn from use for more than 24 hours.",
+   "Also pays loss-of-use charges you owe for a non-owned auto, up to $30 per day, within the same $900 maximum."
+  ],
+  "watch_out": "$900 is a dollar ceiling, not a 30-day time limit; payment also stops after the time reasonably needed to repair or replace the auto. These amounts are from the 2018 edition, so name the edition.",
+  "source": "ISO PP 00 01 09 18, Part D, Transportation Expenses",
+  "question_ids": [
+   "auto-056"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-23",
+  "sec": "auto",
+  "title": "Collision vs. Other Than Collision (OTC) under Part D of the Personal Auto Policy",
+  "technique": "imagery",
+  "hook": "Bambi is not a collision: hitting a deer (or a bird) is Other Than Collision. Hitting a tree, another car, or rolling over is Collision.",
+  "unpack": [
+   "Collision = the upset of the auto, or its impact with another vehicle or object.",
+   "OTC includes: missiles or falling objects; fire; theft or larceny; explosion or earthquake; windstorm; hail, water or flood; malicious mischief or vandalism; riot or civil commotion; contact with bird or animal; breakage of glass.",
+   "Glass broken in a collision may be treated as Collision, at the insured's option."
+  ],
+  "watch_out": "Swerve to miss the deer and hit a tree instead? That is an impact with an object, so it is Collision. The 2020 ISO Business Auto form likewise pays glass breakage, hitting a bird or animal, and falling objects or missiles under Comprehensive.",
+  "source": "ISO PP 00 01 09 18, Part D, B; ISO CA 00 01 11 20, Section III.A.3",
+  "question_ids": [
+   "auto-055",
+   "auto-gap-20"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-24",
+  "sec": "auto",
+  "title": "Business Auto covered auto symbols (2020 ISO Business Auto Coverage Form)",
+  "technique": "number-peg",
+  "hook": "1 = All. 2-6 = Mine (2 all mine, 3 my cars, 4 my non-cars, 5 my no-fault ones, 6 my UM-law ones). 7 = Named. 8 = Hired. 9 = Non-owned. 19 = mobile equipment that auto-insurance law makes you insure.",
+  "unpack": [
+   "1: any auto.",
+   "2: owned autos only.",
+   "3: owned private passenger autos only ('my cars').",
+   "4: owned autos other than private passenger autos ('my non-cars').",
+   "5: owned autos required to have no-fault benefits where licensed or principally garaged (think Michigan PIP).",
+   "6: owned autos that must carry uninsured motorists coverage that cannot be rejected, under the law where licensed or principally garaged.",
+   "7: specifically described autos (listed in the Declarations).",
+   "8: hired autos only - autos you lease, hire, rent or borrow, but not from your employees, partners, LLC members or their household members.",
+   "9: non-owned autos only - autos you don't own, lease, hire, rent or borrow that are used in your business, including employees' own cars while used in your business or personal affairs.",
+   "19: land vehicles that would be mobile equipment except that a compulsory, financial responsibility or other motor vehicle insurance law applies to them.",
+   "Autos you acquire later are covered automatically under 1-6 and 19. Under 7, only if you already cover all owned autos for that coverage (or it replaces one that had it) and you tell the insurer within 30 days."
+  ],
+  "watch_out": "Hired (8) vs. non-owned (9): an employee's own car used for company errands is a 9, not an 8. Symbol 7 is the only one that needs a call within 30 days for a newly acquired auto.",
+  "source": "ISO CA 00 01 11 20, Section I.A, I.B",
+  "question_ids": [
+   "auto-060",
+   "auto-061",
+   "auto-gap-29"
+  ]
+ },
+ {
+  "id": "mn-mn_auto-25",
+  "sec": "auto",
+  "title": "Garagekeepers coverage: the three ways it can pay",
+  "technique": "contrast",
+  "hook": "Three ways a repair shop says sorry about your car. Legal liability: 'only if it was my fault.' Direct excess: 'even if it wasn't, but your own insurer pays first.' Direct primary: 'even if it wasn't, and I pay first.'",
+  "unpack": [
+   "Legal liability (no direct option chosen): pays only what the insured legally must pay for loss to a customer's auto left in its care.",
+   "Direct excess: still covers legal liability, and also pays without regard to the insured's legal liability, but excess over any other collectible insurance (such as the customer's own).",
+   "Direct primary: pays without regard to the insured's legal liability, as primary insurance.",
+   "Coverages are shown by location: Comprehensive, Specified Causes of Loss (fire, lightning or explosion; theft; mischief or vandalism) and Collision."
+  ],
+  "watch_out": "Legal liability is the basic form; each direct option adds payment without regard to the insured's legal liability. Customers' autos are covered while the insured is attending, servicing, repairing, parking or storing them in its garage operations. The CA 99 37 endorsement attaches to the Business Auto, Motor Carrier and Truckers forms.",
+  "source": "ISO CA 99 37 10 01",
+  "question_ids": [
+   "auto-063"
+  ]
+ }
+]

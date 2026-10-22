@@ -1,0 +1,614 @@
+[
+ {
+  "id": "ms-ms_personal-01",
+  "sec": "ho",
+  "title": "Homeowners coverage letters A-F (2011 ISO HO-3, HO 00 03 05 11)",
+  "pairs": [
+   {
+    "a": "Coverage A",
+    "b": "Dwelling: the house and structures attached to it"
+   },
+   {
+    "a": "Coverage B",
+    "b": "Other Structures: set apart from the dwelling by clear space"
+   },
+   {
+    "a": "Coverage C",
+    "b": "Personal Property: an insured's belongings, anywhere in the world"
+   },
+   {
+    "a": "Coverage D",
+    "b": "Loss of Use: additional living expense, fair rental value, civil authority"
+   },
+   {
+    "a": "Coverage E",
+    "b": "Personal Liability: damages plus defense, even for groundless suits"
+   },
+   {
+    "a": "Coverage F",
+    "b": "Medical Payments to Others: expenses incurred or ascertained within 3 years"
+   }
+  ],
+  "source": "ISO HO 00 03 05 11, Section I Coverages A-D (Coverage C.1 'anywhere in the world'; Coverage D.1-3) and Section II Coverages E-F (Coverage F: expenses incurred or medically ascertained within three years)"
+ },
+ {
+  "id": "ms-ms_personal-02",
+  "sec": "ho",
+  "title": "Homeowners policy forms and who or what they fit (ISO HO program)",
+  "pairs": [
+   {
+    "a": "HO-2 Broad Form",
+    "b": "Broad named perils on dwelling, other structures and personal property"
+   },
+   {
+    "a": "HO-3 Special Form",
+    "b": "Open perils on dwelling and other structures; named perils on contents"
+   },
+   {
+    "a": "HO-4 Contents Broad Form",
+    "b": "Tenants: personal property and loss of use, no dwelling coverage"
+   },
+   {
+    "a": "HO-5 Comprehensive Form",
+    "b": "Open perils on dwelling, other structures and personal property"
+   },
+   {
+    "a": "HO-6 Unit-Owners Form",
+    "b": "Condo unit owners and co-op shareholders; occupancy not required"
+   },
+   {
+    "a": "HO-8 Modified Coverage Form",
+    "b": "Owner-occupants who may not meet insurer standards for other forms"
+   }
+  ],
+  "source": "The Institutes, AIC 43 excerpt (ISO 2011 HO program), form table and eligibility; ISO HO 00 02 10 00, Sec. I Perils Insured Against (named perils, A, B and C); ISO HO 00 03 05 11, Sec. I Perils A-B; ISO HO 00 04 05 11, Coverages C and D only; ISO HO 00 05 10 00, Sec. I Perils (risk of direct physical loss to A, B and C); ISO HO 00 06 05 11; ISO HO 00 08 10 00; ISO HO 00 08 10 00, Sec. I Perils Insured Against (10 named perils on A, B and C)"
+ },
+ {
+  "id": "ms-ms_personal-03",
+  "sec": "dwelling",
+  "title": "Dwelling policy coverage letters (ISO DP-3, DP 00 03 12 02) plus the Personal Liability Supplement (DL 24 01 12 02)",
+  "pairs": [
+   {
+    "a": "Coverage A",
+    "b": "Dwelling: the dwelling on the Described Location, plus attached structures"
+   },
+   {
+    "a": "Coverage B",
+    "b": "Other Structures: set apart from the dwelling by clear space"
+   },
+   {
+    "a": "Coverage C",
+    "b": "Personal Property: household goods of you and resident family"
+   },
+   {
+    "a": "Coverage D",
+    "b": "Fair Rental Value: rent lost on space rented or held for rental"
+   },
+   {
+    "a": "Coverage E",
+    "b": "Additional Living Expense, not liability as in homeowners forms"
+   },
+   {
+    "a": "Coverage L",
+    "b": "Personal Liability, added by the Personal Liability Supplement"
+   },
+   {
+    "a": "Coverage M",
+    "b": "Medical Payments to Others, added by the Personal Liability Supplement"
+   }
+  ],
+  "source": "ISO DP 00 03 12 02, Coverages A-E; ISO DL 24 01 12 02, Coverages L and M; ISO HO 00 03 05 11, Section II Coverage E (Personal Liability)"
+ },
+ {
+  "id": "ms-ms_personal-04",
+  "sec": "dwelling",
+  "title": "Dwelling forms and key dwelling endorsements",
+  "pairs": [
+   {
+    "a": "DP-1 Basic Form",
+    "b": "Fire, lightning, internal explosion; extended coverage and V&MM optional"
+   },
+   {
+    "a": "DP-2 Broad Form",
+    "b": "Broad named perils on Coverages A, B and C"
+   },
+   {
+    "a": "DP-3 Special Form",
+    "b": "Open perils on A and B; named perils on C"
+   },
+   {
+    "a": "Personal Liability Supplement (DL 24 01)",
+    "b": "Adds personal liability and medical payments to others"
+   },
+   {
+    "a": "Broad Theft Coverage (DP 04 72)",
+    "b": "On-premises theft, optional off-premises; owner-occupants or named-insured tenants"
+   },
+   {
+    "a": "Limited Theft Coverage (DP 04 73)",
+    "b": "On-premises theft only, when the named insured doesn't occupy"
+   },
+   {
+    "a": "Automatic Increase (DP 04 11)",
+    "b": "Raises A and B limits yearly by a set percentage"
+   },
+   {
+    "a": "Dwelling Under Construction (DP 11 43)",
+    "b": "Provisional Coverage A limit that grows with construction value"
+   }
+  ],
+  "source": "ISO DP 00 01 07 88, Perils Insured Against 1A-1B, 2-8 (Extended Coverage premium) and 9 (V&MM premium); ISO DP 00 02 07 88, Perils 1-16; ISO DP 00 03 12 02, Perils Insured Against A-C; ISO DL 24 01 12 02, Coverages L-M; ISO Dwelling Policy Program Manual Rule 510.A.1-2 (as reproduced in the NC dwelling manual); ISO DP 04 11 12 02; ISO DP 11 43 12 02"
+ },
+ {
+  "id": "ms-ms_personal-05",
+  "sec": "auto",
+  "title": "Personal Auto Policy parts (ISO PP 00 01 09 18)",
+  "pairs": [
+   {
+    "a": "Part A",
+    "b": "Liability: BI and PD an insured is legally responsible for"
+   },
+   {
+    "a": "Part B",
+    "b": "Medical Payments: medical and funeral services within 3 years"
+   },
+   {
+    "a": "Part C",
+    "b": "Uninsured Motorists: BI an uninsured or hit-and-run driver owes"
+   },
+   {
+    "a": "Part D",
+    "b": "Damage to Your Auto: collision and other than collision"
+   },
+   {
+    "a": "Part E",
+    "b": "Duties After an Accident or Loss: notice, cooperation, proof of loss"
+   },
+   {
+    "a": "Part F",
+    "b": "General Provisions: territory, cancellation, nonrenewal, fraud"
+   }
+  ],
+  "source": "ISO PP 00 01 09 18, Part A Insuring Agreement; Part B Insuring Agreement A; Part C Insuring Agreement A and 'uninsured motor vehicle' definition (hit-and-run); Part D Insuring Agreement A-B; Part E A-D; Part F (Policy Period and Territory, Termination, Fraud)"
+ },
+ {
+  "id": "ms-ms_personal-06",
+  "sec": "auto",
+  "title": "Michigan: which coverage pays for car and property damage (accidents after July 1, 2020)",
+  "pairs": [
+   {
+    "a": "Property protection insurance (PPI)",
+    "b": "Damage in Michigan to others' buildings, fences, properly parked cars"
+   },
+   {
+    "a": "Residual PD liability",
+    "b": "$10,000 minimum; matters mainly for damage in other states"
+   },
+   {
+    "a": "Mini-tort",
+    "b": "Tort claim up to $3,000 for car damage insurance didn't pay"
+   },
+   {
+    "a": "Limited collision",
+    "b": "Own car, no deductible, only if driver not substantially at fault"
+   },
+   {
+    "a": "Broad form collision",
+    "b": "Own car regardless of fault; deductible waived if not substantially at fault"
+   },
+   {
+    "a": "Comprehensive (other than collision)",
+    "b": "Own car: theft, fire, flood, vandalism, hitting an animal"
+   },
+   {
+    "a": "Substantially at fault",
+    "b": "More than 50% of the cause of the accident"
+   }
+  ],
+  "source": "MCL 500.3121(1)-(2),(5); MCL 500.3123(1)(a),(2); MCL 500.3009(1)(c); MCL 500.3135(3),(3)(e),(4); MCL 500.3037(1)(a)-(b),(8); DIFS auto insurance FAQ (PPI pays for damage your vehicle does in Michigan to buildings, fences and properly parked vehicles; residual PD for damage in another state; comprehensive covers theft, falling objects, collision with an animal, fire, flood, vandals); ISO PP 00 01 09 18, Part D.B (other than collision includes contact with bird or animal)"
+ },
+ {
+  "id": "ms-ms_personal-07",
+  "sec": "auto",
+  "title": "Michigan no-fault: injury coverages and the plans behind them",
+  "pairs": [
+   {
+    "a": "Personal injury protection (PIP)",
+    "b": "Your own injury benefits, paid without regard to fault"
+   },
+   {
+    "a": "Residual BI liability",
+    "b": "Your tort liability when you injure or kill someone"
+   },
+   {
+    "a": "Uninsured motorists (UM)",
+    "b": "Optional coverage if an uninsured driver seriously injures you"
+   },
+   {
+    "a": "Catastrophic Claims Association (MCCA)",
+    "b": "Reimburses insurers for unlimited-PIP losses above the retention"
+   },
+   {
+    "a": "Assigned Claims Plan (MACP)",
+    "b": "Pays PIP when no policy applies or can be identified"
+   },
+   {
+    "a": "Managed care option (Ch. 31A)",
+    "b": "Optional discounted PIP medical, e.g., provider networks; never emergency care"
+   }
+  ],
+  "source": "MCL 500.3105(2); MCL 500.3131(1); MCL 500.3135(1),(3); DIFS auto insurance FAQ (BI/PD pays defense and damages when someone is killed or seriously injured; UM/UIM listed as optional and pays if an uninsured or underinsured motorist seriously injures you or a household member); Rory v Continental Ins Co, 473 Mich 457 (2005); MCL 500.3104(1)-(2); MCL 500.3172(1)(a)-(b); MCL 500.3181; MCL 500.3183(b)-(c)"
+ },
+ {
+  "id": "ms-ms_personal-08",
+  "sec": "auto",
+  "title": "Michigan PIP benefits and limits",
+  "pairs": [
+   {
+    "a": "Allowable expenses",
+    "b": "Reasonable charges for care, recovery and rehabilitation"
+   },
+   {
+    "a": "Work loss",
+    "b": "Lost income for 3 years, generally reduced 15% for taxes"
+   },
+   {
+    "a": "Replacement services",
+    "b": "Up to $20 a day for chores you can't do while injured"
+   },
+   {
+    "a": "Survivor's loss",
+    "b": "Dependents' lost support after the injured person's death"
+   },
+   {
+    "a": "Funeral and burial",
+    "b": "Policy-set amount between $1,750 and $5,000"
+   },
+   {
+    "a": "Work loss waiver",
+    "b": "Age 60 or older and not eligible for work loss"
+   }
+  ],
+  "source": "MCL 500.3107(1)(a)-(c); MCL 500.3107(1)(a)(ii) (funeral and burial $1,750-$5,000); MCL 500.3107(1)(b) (first 3 years, 15% reduction unless claimant proves a lower tax advantage); MCL 500.3107(2)(a) (work loss waiver at reduced premium); MCL 500.3108(1)"
+ },
+ {
+  "id": "ms-ms_personal-09",
+  "sec": "auto",
+  "title": "Michigan PIP medical (allowable expense) choices, policies issued or renewed after July 1, 2020",
+  "pairs": [
+   {
+    "a": "$50,000 per person",
+    "b": "Named insured on Medicaid; household otherwise covered"
+   },
+   {
+    "a": "$250,000 per person",
+    "b": "Insurer must also offer an exclusion for people with qualified health coverage"
+   },
+   {
+    "a": "$500,000 per person",
+    "b": "Highest of the capped PIP medical levels"
+   },
+   {
+    "a": "Unlimited",
+    "b": "Default when no valid selection is made and no premium presumption applies"
+   },
+   {
+    "a": "Opt-out (no PIP medical)",
+    "b": "Named insured has Medicare Parts A and B; household covered"
+   }
+  ],
+  "source": "MCL 500.3107c(1)(a)-(d),(3)-(4); MCL 500.3107d(1),(7)(b)-(c); MCL 500.3109a(2)"
+ },
+ {
+  "id": "ms-ms_personal-10",
+  "sec": "basics",
+  "title": "Perils, hazards, and direct vs. consequential loss",
+  "pairs": [
+   {
+    "a": "Peril",
+    "b": "The cause of loss, such as fire or windstorm"
+   },
+   {
+    "a": "Physical hazard",
+    "b": "Tangible condition, such as inadequate lighting in a crime-prone area"
+   },
+   {
+    "a": "Moral hazard",
+    "b": "From the insured's character or circumstances, e.g., dishonesty"
+   },
+   {
+    "a": "Morale hazard",
+    "b": "Indifference to loss because insurance will pay"
+   },
+   {
+    "a": "Direct loss",
+    "b": "Loss from direct physical damage to property"
+   },
+   {
+    "a": "Consequential (indirect) loss",
+    "b": "Loss flowing from direct damage, such as lost rent"
+   }
+  ],
+  "source": "IRMI glossary: 'peril', 'hazard' (inadequate lighting in a crime-prone area), 'physical hazard', 'moral hazard', 'morale hazard', 'direct loss', 'consequential loss'"
+ },
+ {
+  "id": "ms-ms_personal-11",
+  "sec": "basics",
+  "title": "Loss valuation methods",
+  "pairs": [
+   {
+    "a": "Actual cash value (ACV)",
+    "b": "Repair/replace cost minus depreciation, market value, or broad evidence rule"
+   },
+   {
+    "a": "Replacement cost",
+    "b": "Like kind and quality, with no deduction for depreciation"
+   },
+   {
+    "a": "Functional replacement cost",
+    "b": "Property doing the same job equally well, not identical"
+   },
+   {
+    "a": "Agreed value",
+    "b": "CP option: coinsurance suspended until the agreed value expiration date"
+   },
+   {
+    "a": "Stated amount",
+    "b": "Pays the least of stated amount, ACV, or repair/replacement cost"
+   }
+  ],
+  "source": "IRMI glossary: 'actual cash value', 'replacement cost', 'functional replacement cost'; ISO CP 00 10 10 12, G.1 (Agreed Value); ISO CA 99 28 03 10, B.1-3 and Schedule note (Stated Amount Insurance)"
+ },
+ {
+  "id": "ms-ms_personal-12",
+  "sec": "gen",
+  "title": "Methods of handling risk",
+  "pairs": [
+   {
+    "a": "Avoidance",
+    "b": "A builder refuses all environmental remediation projects"
+   },
+   {
+    "a": "Retention",
+    "b": "Keeping losses yourself, e.g., by choosing a deductible"
+   },
+   {
+    "a": "Sharing",
+    "b": "Group members' premiums and losses allocated by formula"
+   },
+   {
+    "a": "Transfer",
+    "b": "Shifting loss to another party: insurance or hold-harmless"
+   },
+   {
+    "a": "Loss prevention (frequency)",
+    "b": "Driver training to make accidents less likely"
+   },
+   {
+    "a": "Loss reduction (severity)",
+    "b": "Sprinklers or firewalls to limit how severe a fire gets"
+   }
+  ],
+  "source": "IRMI glossary: 'avoidance', 'risk retention', 'risk sharing', 'hold harmless agreement', 'loss control' (driver training reduces likelihood; sprinklers reduce severity), 'loss reduction'; Risk & Insurance Education Alliance glossary: 'transfer', 'sharing', 'reduction (loss control)'"
+ },
+ {
+  "id": "ms-ms_personal-13",
+  "sec": "gen",
+  "title": "Agent authority and whom the agent represents",
+  "pairs": [
+   {
+    "a": "Express authority",
+    "b": "Powers expressly granted by the insurer, e.g., in the agency contract"
+   },
+   {
+    "a": "Implied authority",
+    "b": "Unstated powers reasonably needed to carry out express ones"
+   },
+   {
+    "a": "Apparent authority",
+    "b": "Authority a third party reasonably infers from the insurer's conduct"
+   },
+   {
+    "a": "Agent of the insurer (MI)",
+    "b": "Sells, solicits or negotiates as the insurer's representative"
+   },
+   {
+    "a": "Agent of the insured (MI)",
+    "b": "Producer not appointed by the insurer that writes the policy"
+   },
+   {
+    "a": "A producer license by itself",
+    "b": "Creates no actual, apparent or inherent authority to represent an insurer"
+   },
+   {
+    "a": "Agent's fiduciary duty (MI)",
+    "b": "Premiums segregated from the agent's own money in a separate account"
+   }
+  ],
+  "source": "IRMI glossary: 'express authority', 'implied authority', 'apparent agency'; Cornell LII Wex: 'express authority', 'implied authority', 'apparent authority'; MCL 500.1201(b),(c),(h); MCL 500.1207(1)-(2)"
+ },
+ {
+  "id": "ms-ms_personal-14",
+  "sec": "gen",
+  "title": "Distinct characteristics of an insurance contract",
+  "pairs": [
+   {
+    "a": "Adhesion",
+    "b": "Take it or leave it; ambiguities construed against the insurer"
+   },
+   {
+    "a": "Aleatory",
+    "b": "Unequal exchange of values that depends on chance"
+   },
+   {
+    "a": "Unilateral",
+    "b": "Only the insurer makes legally enforceable promises"
+   },
+   {
+    "a": "Conditional",
+    "b": "Insurer's promise depends on the insured meeting conditions"
+   },
+   {
+    "a": "Personal",
+    "b": "Insures a person, so assignment needs insurer's written consent"
+   },
+   {
+    "a": "Utmost good faith",
+    "b": "Both parties presumed to fully disclose pertinent facts"
+   },
+   {
+    "a": "Indemnity",
+    "b": "Restores the pre-loss financial position, without profit"
+   }
+  ],
+  "source": "IRMI glossary: 'contract of adhesion', 'unilateral contract', 'uberrimae fidei'; Risk & Insurance Education Alliance glossary: 'aleatory contract', 'conditional contract', 'indemnity'; ISO HO 00 03 05 11, Sections I and II Conditions, Assignment ('will not be valid unless we give our written consent'); ISO HO 00 03 05 11, Sec. I Cond. A (no insured paid more than its interest)"
+ },
+ {
+  "id": "ms-ms_personal-15",
+  "sec": "gen",
+  "title": "Legal interpretations: statements, concealment, fraud, waiver and estoppel",
+  "pairs": [
+   {
+    "a": "Representation",
+    "b": "Application statement believed true to the best of knowledge"
+   },
+   {
+    "a": "Warranty",
+    "b": "Statement guaranteed true; voids the policy if untrue"
+   },
+   {
+    "a": "Concealment",
+    "b": "Willfully withholding pertinent facts, even ones the insurer didn't ask"
+   },
+   {
+    "a": "Fraud",
+    "b": "Deception or trickery used to cheat or intentionally mislead"
+   },
+   {
+    "a": "Waiver",
+    "b": "Intentional or voluntary surrender of a right"
+   },
+   {
+    "a": "Estoppel",
+    "b": "Can't contradict own past conduct another reasonably relied on"
+   },
+   {
+    "a": "Material misrepresentation (Michigan rule)",
+    "b": "Voids only if the insurer would have refused the contract"
+   }
+  ],
+  "source": "IRMI glossary: 'representation', 'warranty', 'concealment', 'fraud', 'waiver', 'estoppel'; Risk & Insurance Education Alliance glossary: 'warranty'; MCL 500.2218(1)"
+ },
+ {
+  "id": "ms-ms_personal-16",
+  "sec": "reg",
+  "title": "Michigan producer lines and license types",
+  "pairs": [
+   {
+    "a": "Property line",
+    "b": "Direct or consequential loss or damage to property"
+   },
+   {
+    "a": "Casualty line",
+    "b": "Legal liability for death, injury or property damage"
+   },
+   {
+    "a": "Personal lines line",
+    "b": "P&C for individuals and families, primarily noncommercial"
+   },
+   {
+    "a": "Solicitor license",
+    "b": "Solicits and collects premiums under a resident producer's written contract"
+   },
+   {
+    "a": "Counselor license",
+    "b": "Advises on policies for a fee under a signed written agreement"
+   },
+   {
+    "a": "Temporary license",
+    "b": "Up to 180 days, no exam, e.g., after producer's death"
+   },
+   {
+    "a": "Business entity license",
+    "b": "Must designate a licensed individual responsible for compliance"
+   },
+   {
+    "a": "Nonresident license",
+    "b": "Good standing in home state plus reciprocity"
+   }
+  ],
+  "source": "MCL 500.1206(1)(c),(d),(f); MCL 500.1211(1); MCL 500.1232; MCL 500.1236; MCL 500.1211b(1); MCL 500.1205(2)(b); MCL 500.1206a(1)(a),(d)"
+ },
+ {
+  "id": "ms-ms_personal-17",
+  "sec": "reg",
+  "title": "Unfair trade practices (Michigan Uniform Trade Practices Act)",
+  "pairs": [
+   {
+    "a": "Twisting",
+    "b": "Misleading comparison to induce dropping or replacing a policy"
+   },
+   {
+    "a": "Rebating",
+    "b": "Giving back premium or commission, or value not in the policy"
+   },
+   {
+    "a": "Defamation",
+    "b": "False or malicious statements about an insurance business's finances"
+   },
+   {
+    "a": "Boycott, coercion and intimidation",
+    "b": "Concerted acts unreasonably restraining the business of insurance"
+   },
+   {
+    "a": "False advertising",
+    "b": "Untrue, deceptive or misleading insurance advertisements"
+   },
+   {
+    "a": "Unfair discrimination",
+    "b": "Treating people of the same class and risk differently"
+   }
+  ],
+  "source": "MCL 500.2005a(a) (the practice commonly called twisting); MCL 500.2066(1); MCL 500.2009; MCL 500.2012; MCL 500.2007; MCL 500.2019, 500.2020, 500.2027"
+ },
+ {
+  "id": "ms-ms_personal-18",
+  "sec": "reg",
+  "title": "Michigan unfair trade practice rules and penalties",
+  "pairs": [
+   {
+    "a": "P&C gift limit",
+    "b": "Merchandise costing the insurer $50 or less per calendar year"
+   },
+   {
+    "a": "Insured who knowingly accepts rebate",
+    "b": "Insurance reduced proportionally; misdemeanor fine up to $100"
+   },
+   {
+    "a": "Producer who gives a rebate",
+    "b": "License revoked; none reissued for 1 year"
+   },
+   {
+    "a": "UTPA fine, not knowing",
+    "b": "Up to $1,000 each, $10,000 aggregate"
+   },
+   {
+    "a": "UTPA fine, knew or should know",
+    "b": "Up to $5,000 each, $50,000 aggregate per 6 months"
+   },
+   {
+    "a": "Unfair claims practices",
+    "b": "Count only as a course of conduct, not isolated incidents"
+   },
+   {
+    "a": "Location for property insurance",
+    "b": "Can't refuse or limit unless statistically significant ZIP-code fire-loss link"
+   },
+   {
+    "a": "Prior denial by another insurer",
+    "b": "Can't be the sole reason to refuse insurance"
+   }
+  ],
+  "source": "MCL 500.2024b; MCL 500.2070(2); MCL 500.2066(2); MCL 500.2038(1)(a); MCL 500.2026(1); MCL 500.2027(a)(iii),(b)"
+ }
+]

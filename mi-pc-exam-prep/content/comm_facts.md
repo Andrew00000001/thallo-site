@@ -162,7 +162,7 @@ Editions relied on (form text read directly unless noted): IL 00 17 11 98; CG 00
 - Money Orders and Counterfeit Money: money orders not paid on presentation and counterfeit money accepted in good faith in exchange for merchandise, money or services. [ISO CR 00 21 11 15, A.7]
 - Loss sustained form: occurrence during the policy period, discovered during the policy period or within the extended period to discover — no later than 1 year after cancellation (ends immediately if replacement insurance is obtained). [ISO CR 00 21 11 15, A.; E.1.g]
 - Loss sustained form covers losses from prior insurance (by same insurer, or another insurer whose discovery period expired) if coverage was continuous; for another insurer's prior policy, payment is the lesser of the limits. [ISO CR 00 21 11 15, E.1.k-l]
-- Discovery form: occurrence may take place at any time; loss must be discovered during the policy period or within 60 days after cancellation. [RNC PF&M 251.4-2 (06 22 edition analysis)]
+- Discovery form: occurrence may take place at any time; loss must be discovered during the policy period or within 60 days after cancellation (1 year for "employee benefit plans"). The extended period ends at once if replacement insurance takes effect. [ISO CR 00 22 05 06 (discovery policy form), E.1.j(1)-(2); RNC PF&M 251.4-2]
 - "Discover" = when you first become aware of facts that would cause a reasonable person to assume a covered loss has been or will be incurred. [ISO CR 00 21 11 15, F. def. 5]
 - Duties: notify insurer as soon as possible (and police if a law was violated, except for employee theft/forgery); detailed sworn proof of loss within 120 days. Legal action not until 90 days after proof of loss and within 2 years of discovery. [ISO CR 00 21 11 15, E.1.e, E.1.i]
 - Employee Theft terminates as to an employee as soon as you (or a non-colluding partner/officer etc.) learn of theft or dishonesty by that employee (before or after hiring), or on 30 days' notice from insurer. [ISO CR 00 21 11 15, E.2.a]
@@ -458,7 +458,7 @@ Edition note. Inland marine and farm form wording below comes from ISO form text
 
 ## Flags
 - CG 00 02 04 13 form text not obtained; claims-made/ERP/claim-information facts come from FC&S (2014) and Austin & Stanovich (2012) analyses (consistent with each other).
-- Crime: CR 00 20 (discovery) text not obtained; the 60-day discovery window is from Rough Notes PF&M. Several secondary sources say the discovery form gives employee-benefit-plan losses 1 year — not verified. Editions differ: the PSI outline lists Computer Fraud and Funds Transfer Fraud separately (2006 editions); the 11 15 edition combines them; a 06 22 edition reportedly has 8 insuring agreements (adds "Fidelity" and "Fraudulent Impersonation").
+- Crime: the 60-day extended period to discover (1 year for employee benefit plans) was confirmed in ISO discovery-form text (CR 00 22 05 06, E.1.j); the CR 00 20 11 15 coverage-form text itself was not obtained. Editions differ: the PSI outline lists Computer Fraud and Funds Transfer Fraud separately (2006 editions); the 11 15 edition combines them; a 06 22 edition reportedly has 8 insuring agreements (adds "Fidelity" and "Fraudulent Impersonation").
 - Vacancy is a Loss Condition in CP 00 10, not in CP 00 90 (the CP 00 90 07 88 form has no vacancy clause).
 - Builders risk facts are from CP 00 20 06 95; current edition may word them differently.
 - Value Reporting form (CP 13 10) text not obtained — facts from IRMI only.
@@ -476,7 +476,7 @@ Edition relied on: BP 00 03 07 13 (form text read; © ISO 2012). Endorsements: I
 ## Characteristics and Purpose / Eligibility
 - BOP packages property and liability for small-to-medium businesses; liability uses a single "Liability and Medical Expenses" limit; products-completed operations aggregate and general aggregate are each twice that limit. [IRMI white paper "Businessowners Policy Basics"; ISO BP 00 03 07 13, Sec. II D.4]
 - ISO eligibility rules (current per IRMI): no more than $6 million annual gross sales and no location over 35,000 sq ft; eligible classes include apartments, offices, mercantile, processing/service, wholesale, motels, restaurants, contractors with restrictions. [IRMI white paper "Businessowners Policy Basics"]
-- Ineligible regardless of size: manufacturers; auto repair/service stations, auto/motor home/mobile home/motorcycle dealers, parking lots/garages; bars and pubs; places of amusement; banks and financial institutions. [IRMI white paper "Businessowners Policy Basics"]
+- Older IRMI list of classes ineligible regardless of size: manufacturers; auto repair/service stations, auto/motor home/mobile home/motorcycle dealers, parking lots/garages; bars and pubs; places of amusement; banks and financial institutions. [IRMI white paper "Businessowners Policy Basics"] ISO's current program overview (Feb. 2025) now lists light manufacturing and auto service risks as eligible, and brew pubs and wine bars as eligible specialty restaurants within size and seating limits. An ordinary bar or tavern is still not an eligible class. [ISO "Businessowners Policy (BOP) Program" overview (Feb. 11, 2025), pp. 2-3]
 
 ## Section I — Property
 - Covered causes: direct physical loss unless excluded or limited (open perils). [ISO BP 00 03 07 13, Sec. I A.3]
