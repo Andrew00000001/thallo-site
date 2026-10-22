@@ -87,7 +87,13 @@ function attachMedia(m, L){
   m.addEventListener('timeupdate', ()=>{ if(LP.L===L && LP.audio===m && LP.playing) lpTick(false); });
   return m;
 }
+function embeddedEl(L){ return L.audio && L.audio[0]==='#' ? document.getElementById(L.audio.slice(1)) : null; }
+function embeddedBytes(L){
+  const el=embeddedEl(L); if(!el) return null;
+  try{ const s=atob(el.textContent.trim()); const u=new Uint8Array(s.length); for(let i=0;i<s.length;i++) u[i]=s.charCodeAt(i); return u.buffer; }catch(e){ return null; }
+}
 function fetchBytes(L){
+  if(embeddedEl(L)) return Promise.resolve(embeddedBytes(L));
   if(typeof fetch!=='function' || location.protocol==='file:') return Promise.resolve(null);
   return fetch(L.audio).then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.arrayBuffer(); }).then(b=>{ if(LP.L===L) LP.bytes=b; return b; }).catch(()=>null);
 }
@@ -102,12 +108,17 @@ function startSources(L){
   LP.bytesP.then(b=>{
     if(settled || LP.L!==L) return; settled=true; clearTimeout(timer);
     if(b && window.URL && URL.createObjectURL){
-      LP.blobUrl = URL.createObjectURL(new Blob([b], {type:'audio/mpeg'}));
+      LP.blobUrl = URL.createObjectURL(new Blob([b], {type: L.audioType || 'audio/mpeg'}));
       const a=new Audio(); a.preload='auto'; a.src=LP.blobUrl; useSource(a, L);
     } else { LP.srcStage=1; useSource(directSource(L), L); }
   });
 }
-function directSource(L){ const a=new Audio(); a.preload='auto'; a.src=L.audio; return a; }
+function directSource(L){
+  const a=new Audio(); a.preload='auto';
+  const el=embeddedEl(L);
+  a.src = el ? 'data:' + (L.audioType || 'audio/webm') + ';base64,' + el.textContent.trim() : L.audio;
+  return a;
+}
 function useSource(m, L){
   if(LP.L!==L || LP.virtual) return;
   attachMedia(m, L);
@@ -189,7 +200,9 @@ function goVirtual(tIn, wasIn){
   if(LP.audio){ try{ LP.audio.pause(); LP.audio.removeAttribute('src'); }catch(e){} }
   LP.virtual=true; LP.vbase=t||0; LP.vt0=performance.now(); LP.cc=true;
   const n=$('#lp-note');
-  if(n){ n.hidden=false; n.textContent = location.protocol==='file:'
+  if(n){ n.hidden=false; n.textContent = (LP.L && embeddedEl(LP.L))
+    ? 'This browser could not play the lesson audio, so captions are on. Chrome, Edge and Firefox play it.'
+    : location.protocol==='file:'
     ? 'No sound: the "lessons" folder with the audio files was not found next to this page. If you opened it from a .zip file, extract the whole zip first (right-click the zip, then Extract All), and open index.html from the extracted folder. Captions are on for now.'
     : 'Audio could not load here, so captions are on and the lesson plays silently.'; }
   if(LP.playing){ LP.vt0=performance.now(); lpLoop(); }

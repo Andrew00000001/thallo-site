@@ -2,7 +2,7 @@
 
 Interactive study app for the Michigan Property & Casualty Producer/Solicitor exam (PSI Series 16-81: 150 items, 2.5 hours, 74% to pass).
 
-Open `index.html` in a browser (keep the `lessons/` folder next to it for the narrated lessons). Progress is saved in that browser.
+Open `index.html` in a browser. It is one self-contained file: the lesson narration is built into the page, so nothing else needs to sit next to it. Progress is saved in that browser.
 
 - **Today**: daily plan with due reviews and new questions, streak, daily goal, XP and levels, badges, exam countdown, projected score and a mastery map of every outline section.
 - **Watch**: 24 narrated, animated video lessons (about 132 minutes in all), one or more per outline area. Each pauses for quick-check questions, has captions, a transcript, speed control and resume, and ends with exam-style questions from the bank.
@@ -18,12 +18,12 @@ Content was checked in October 2026 against the Michigan Compiled Laws (legislat
 
 ## Rebuild
 
-`content/` holds the source data (`content/learn/` the memory aids, `content/lessons/` the lesson scripts), `lessons/` the narration audio with its timing and transcript checks, and `build/` the build scripts:
+`content/` holds the source data (`content/learn/` the memory aids, `content/lessons/` the lesson scripts), `lessons/` the narration (MP3 masters, the 10 kbps Opus copies that get embedded in the page, timing and transcript checks), and `build/` the build scripts:
 
 ```
 RES=content LEARN=content/learn LESSONS=content/lessons AUDIO=lessons ICONS=build/icons VALIDATOR=build python3 build/build.py out.html
 ```
 
-The script writes the page body; `index.html` wraps it in a full HTML document. The build refuses lesson audio that no longer matches its script.
+The script writes the page body; `index.html` wraps it in a full HTML document. The build refuses lesson audio that no longer matches its script, and embeds each lesson's Opus copy (`EMBED_AUDIO=0` links the MP3 files instead).
 
 Lesson scripts follow `build/BRIEF.md` and must pass `python3 build/validate.py <lesson.json>`. Narration is made by `build/narrate.py` with the open Kokoro-82M voice model (ONNX, Apache-2.0; set `TTS_MODEL` to a folder with `model.onnx` and `voices.npz`), and every line is transcribed back with faster-whisper (`small.en`, MIT) and compared word for word with the script; reviewed transcription differences are listed in `lessons/accepted.json`. Icons are from Lucide (ISC license, `build/icons/LICENSE`).

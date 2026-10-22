@@ -1087,7 +1087,7 @@ function start(hot){
   go((hot && hot.VIEW && hot.VIEW!=='games') ? hot.VIEW : (EX && !EX.submitted ? 'exam' : 'home'));
   initSync();
 }
-window.__mipc = { gen: GEN, srsAnswer, levelOf, P: ()=>P, ses: ()=>SES, today, lp: { state: ()=>({id: LP.L&&LP.L.id, src: LP.virtual ? 'silent' : (['blob','file','webaudio'][LP.srcStage]||'?'), t: lpTime(), playing: LP.playing, scene: LP.scene, awaiting: LP.awaiting, virtual: LP.virtual, ended: LP.ended, quiz: LP.quiz}), seek: lpSeek, play: lpPlay, pause: lpPause, virtual: goVirtual } }; // test hooks
+window.__mipc = { gen: GEN, srsAnswer, levelOf, P: ()=>P, ses: ()=>SES, today, lp: { state: ()=>({id: LP.L&&LP.L.id, src: LP.virtual ? 'silent' : (['blob', LP.L && LP.L.audio && LP.L.audio[0]==='#' ? 'data' : 'file', 'webaudio'][LP.srcStage]||'?'), t: lpTime(), playing: LP.playing, scene: LP.scene, awaiting: LP.awaiting, virtual: LP.virtual, ended: LP.ended, quiz: LP.quiz}), seek: lpSeek, play: lpPlay, pause: lpPause, virtual: goVirtual } }; // test hooks
 if(window.claude && window.claude.hot){ try{ window.claude.hot.snapshot(()=>({EX, SES, VIEW})); }catch(e){} }
 if(window.claude && window.claude.hot && window.claude.hot.ready) window.claude.hot.ready(start);
 else start((window.claude && window.claude.hot && window.claude.hot.data) || {});

@@ -106,6 +106,10 @@ def main():
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'f32le', '-ar', str(SR), '-ac', '1', '-i', '-',
                         '-af', 'loudnorm=I=-18:TP=-1.5:LRA=11', '-ar', str(SR), '-ac', '1',
                         '-c:a', 'libmp3lame', '-b:a', '48k', '-write_xing', '1', mp3], input=wav.tobytes(), check=True)
+        webm = os.path.join(a.out, f'{lid}.webm')   # small Opus copy embedded in the single-file page
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', mp3, '-ac', '1', '-c:a', 'libopus', '-b:a', '10k', '-vbr', 'on',
+                        '-application', 'voip', '-frame_duration', '60', '-compression_level', '10', webm], check=True)
+        json.dump({'from': os.path.basename(mp3), 'sha256': hashlib.sha256(open(mp3, 'rb').read()).hexdigest(), 'bitrate': '10k'}, open(webm + '.json', 'w'))
         dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', mp3],
                                    capture_output=True, text=True, check=True).stdout.strip())
         shash = hashlib.sha256(json.dumps(says).encode()).hexdigest()[:16]

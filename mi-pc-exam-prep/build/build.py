@@ -127,6 +127,9 @@ ICON_DIR = os.environ.get('ICONS') or os.path.join(HERE, '..', 'lessons', 'icons
 VALIDATOR = os.environ.get('VALIDATOR') or os.path.join(HERE, '..', 'lessons')
 LAX = os.environ.get('LESSONS_LAX') == '1'
 os.environ.setdefault('RES', RES); os.environ.setdefault('LEARN', LEARN); os.environ.setdefault('ICONS', ICON_DIR)
+EMBED = os.environ.get('EMBED_AUDIO', '1') == '1'   # put each lesson's Opus audio inside the page (single file)
+embeds = []
+import base64, hashlib
 lessons = []
 UI_ICONS = ['play', 'pause', 'skip-back', 'skip-forward', 'maximize', 'chevron-left', 'lightbulb', 'circle-check', 'brain', 'user']
 used_icons = set(UI_ICONS)
@@ -163,7 +166,18 @@ if lesson_files:
             for x in [s] + list(s.get('items', []) if isinstance(s.get('items'), list) else []) + list(s.get('columns', []) if s.get('type') == 'compare' else []):
                 if isinstance(x, dict) and x.get('icon'): used_icons.add(x['icon'])
         L['timing'] = {'dur': T['dur'], 'scenes': T['scenes']}
-        L['audio'] = f'lessons/{lid}.mp3'
+        L['audio'], L['audioType'] = f'lessons/{lid}.mp3', 'audio/mpeg'
+        if EMBED:
+            wp = os.path.join(AUDIO_DIR, f'{lid}.webm')
+            try:
+                side = json.load(open(wp + '.json'))
+                fresh = side['sha256'] == hashlib.sha256(open(os.path.join(AUDIO_DIR, f'{lid}.mp3'), 'rb').read()).hexdigest()
+            except Exception:
+                fresh = False
+            if not fresh:
+                errors.append(f'{lid}: embedded audio {lid}.webm missing or not made from the current {lid}.mp3 (re-run narrate.py)'); continue
+            embeds.append((lid, base64.b64encode(open(wp, 'rb').read()).decode('ascii')))
+            L['audio'], L['audioType'] = f'#aud-{lid}', 'audio/webm'
         lessons.append(L)
     if len({l['id'] for l in lessons}) != len(lessons): errors.append('duplicate lesson ids')
 icons = {}
@@ -264,7 +278,8 @@ def compose():
     js = open(os.path.join(HERE, 'app.js')).read()
     assert js.count('/*@@LESSONS@@*/') == 1
     js = js.replace('/*@@LESSONS@@*/', open(os.path.join(HERE, 'lessons.js')).read())
-    return head + '\n' + extra + '\n</style>\n' + SHELL + '\n<script id="data" type="application/json">__DATA__</script>\n<script>\n' + js + '\n</script>\n'
+    audio = ''.join(f'<script type="application/octet-stream" id="aud-{lid}">{b64}</script>\n' for lid, b64 in embeds)
+    return head + '\n' + extra + '\n</style>\n' + SHELL + '\n<script id="data" type="application/json">__DATA__</script>\n' + audio + '<script>\n' + js + '\n</script>\n'
 
 meta = {
     'verified': os.environ.get('VERIFIED', 'October 2026'),
