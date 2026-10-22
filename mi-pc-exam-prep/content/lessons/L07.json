@@ -1,0 +1,456 @@
+{
+ "id": "L07",
+ "sec": "basics",
+ "guide": "basics",
+ "title": "Policy structure, insureds, limits and other insurance",
+ "summary": "How a policy is built, who the insureds are, when and where it covers, and how deductibles, limits and other insurance divide a loss.",
+ "objectives": [
+  "Sort policy wording into declarations, insuring agreement, conditions and exclusions",
+  "Tell named, first named and additional insureds apart",
+  "Split a loss between insurers: primary and excess, pro rata, equal shares",
+  "Apply deductibles, split limits and combined single limits to a loss"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Policy structure, insureds, limits and other insurance",
+   "subtitle": "Roll the DICE, then follow the money: who is insured, what comes off, and who pays",
+   "icon": "file-text",
+   "beats": [
+    {
+     "text": "Policy structure and common provisions are part of P&C Basics, 20% of your exam.",
+     "say": "Policy structure and common provisions are part of P and C Basics, twenty percent of your exam."
+    },
+    {
+     "text": "In this lesson: policy parts, insureds, deductibles, limits and other insurance.",
+     "say": "In this lesson: policy parts, insureds, deductibles, limits and other insurance."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "The parts of a policy",
+   "src": "IRMI glossary: declarations, insuring agreement, exclusion, endorsement; ISO CP 00 10 10 12 preamble; ISO HO 00 03 05 11 (2011 HO-3)",
+   "mn": "mn-mn_core-15",
+   "hook": "Roll the DICE: Declarations, Insuring agreement, Conditions, Exclusions. Definitions explain the words in quotes; endorsements change the game.",
+   "items": [
+    "Declarations: who, where, when and how much (named insured, location, period, limits)",
+    "Insuring agreement: the promise to pay, which exclusions and definitions narrow",
+    "Conditions: the rules, such as duties after loss, cancellation and other insurance",
+    "Exclusions: what is not covered, such as earth movement and flood in the 2011 HO-3"
+   ],
+   "beats": [
+    {
+     "text": "Roll the DICE. Declarations show who, where, when and how much: the named insured, the location, the policy period and the limits.",
+     "say": "Roll the DICE. Declarations show who, where, when and how much: the named insured, the location, the policy period and the limits.",
+     "show": 1
+    },
+    {
+     "text": "The insuring agreement is the insurer's promise to pay. It starts broad, and exclusions and definitions narrow it.",
+     "say": "The insuring agreement is the insurer's promise to pay. It starts broad, and exclusions and definitions narrow it.",
+     "show": 2
+    },
+    {
+     "text": "Conditions are the rules both sides follow, such as duties after a loss, cancellation, and how other insurance is shared.",
+     "say": "Conditions are the rules both sides follow, such as duties after a loss, cancellation, and how other insurance is shared.",
+     "show": 3
+    },
+    {
+     "text": "Exclusions list what is not covered. The 2011 HO-3, for example, excludes earth movement and flood.",
+     "say": "Exclusions list what is not covered. The twenty eleven H O three, for example, excludes earth movement and flood.",
+     "show": 4
+    },
+    {
+     "text": "Words in quotation marks are defined terms. Endorsements change the policy: they broaden or restrict coverage, or add insureds or locations.",
+     "say": "Words in quotation marks are defined terms. Endorsements change the policy: they broaden or restrict coverage, or add insureds or locations.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A policy requires the insured to give prompt notice of a loss. Which part of the policy contains that duty?",
+   "choices": [
+    "Declarations",
+    "Insuring agreement",
+    "Conditions",
+    "Exclusions"
+   ],
+   "answer": 2,
+   "why": "Conditions are the rules both parties must follow, including duties after a loss, cancellation and other insurance.",
+   "beats": [
+    {
+     "text": "Quick check. A policy requires the insured to give prompt notice of a loss. Which part holds that duty? Pick an answer.",
+     "say": "Quick check. A policy requires the insured to give prompt notice of a loss. Which part holds that duty? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The conditions. Duties after a loss are rules the insured must follow, and the rules live in the conditions.",
+     "say": "The conditions. Duties after a loss are rules the insured must follow, and the rules live in the conditions."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Named, first named and additional insureds",
+   "src": "IRMI glossary: named insured, first named insured, additional insured; ISO IL 00 17 11 98",
+   "items": [
+    {
+     "label": "Named insured",
+     "detail": "Anyone specifically designated by name in the policy",
+     "icon": "user"
+    },
+    {
+     "label": "First named insured",
+     "detail": "Listed first in the declarations: pays the premium, gets cancellation notices and return premiums",
+     "icon": "badge-check"
+    },
+    {
+     "label": "Additional insured",
+     "detail": "Added at the named insured's request, such as a landlord or project owner",
+     "icon": "user-plus"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Who is insured? A named insured is anyone specifically designated by name in the policy.",
+     "say": "Who is insured? A named insured is anyone specifically designated by name in the policy.",
+     "show": 1
+    },
+    {
+     "text": "The first named insured is the one listed first in the declarations. That insured pays the premium and receives cancellation notices and return premiums.",
+     "say": "The first named insured is the one listed first in the declarations. That insured pays the premium and receives cancellation notices and return premiums.",
+     "show": 2,
+     "hl": 1
+    },
+    {
+     "text": "An additional insured is added at the named insured's request, such as a landlord.",
+     "say": "An additional insured is added at the named insured's request, such as a landlord.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "When and where coverage applies",
+   "src": "ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. Q; ISO PP 00 01 09 18 (2018 PAP), Part F; ISO CP 00 90 07 88, H",
+   "items": [
+    {
+     "label": "Policy period",
+     "detail": "2011 HO Section I: loss must occur during it. 2018 PAP: accident during it and in the territory",
+     "icon": "calendar"
+    },
+    {
+     "label": "Territory: 2018 PAP",
+     "detail": "U.S., its territories or possessions, Puerto Rico and Canada. Mexico is not included.",
+     "icon": "car"
+    },
+    {
+     "label": "Territory: 1988 commercial property",
+     "detail": "U.S. (including territories and possessions), Puerto Rico and Canada",
+     "icon": "building-2"
+    }
+   ],
+   "beats": [
+    {
+     "text": "When? Under the 2011 homeowners forms, Section I loss must occur during the policy period. The 2018 Personal Auto Policy also requires the accident to be within the policy territory.",
+     "say": "When? Under the twenty eleven homeowners forms, Section one loss must occur during the policy period. The twenty eighteen Personal Auto Policy also requires the accident to be within the policy territory.",
+     "show": 1
+    },
+    {
+     "text": "Where? That auto territory is the United States, its territories or possessions, Puerto Rico and Canada. Not Mexico. The 1988 Commercial Property Conditions list the same places.",
+     "say": "Where? That auto territory is the United States, its territories or possessions, Puerto Rico and Canada. Not Mexico. The nineteen eighty-eight Commercial Property Conditions list the same places.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Three deductible rules",
+   "src": "ISO CP 00 10 10 12 (2012 BPP), C and D, Examples 1-2; ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. B",
+   "items": [
+    {
+     "label": "Off the loss, not the limit",
+     "detail": "2012 BPP: a $70,000 loss minus $250 is $69,750, so the insurer pays the $60,000 limit",
+     "icon": "calculator"
+    },
+    {
+     "label": "Once per occurrence",
+     "detail": "2012 BPP: one fire, two buildings with separate limits, one deductible",
+     "icon": "flame"
+    },
+    {
+     "label": "Homeowners: only the highest",
+     "detail": "2011 HO: if two or more deductibles apply to one loss, only the highest applies",
+     "icon": "house"
+    }
+   ],
+   "beats": [
+    {
+     "text": "First, a deductible comes off the loss, not the limit.",
+     "say": "First, a deductible comes off the loss, not the limit.",
+     "show": 1
+    },
+    {
+     "text": "In the 2012 Building and Personal Property form's example, a loss of $70,000 minus the deductible of $250 is $69,750. So the insurer pays its limit, $60,000.",
+     "say": "In the twenty twelve Building and Personal Property form's example, a loss of seventy thousand dollars minus the deductible of two hundred fifty dollars is sixty-nine thousand seven hundred fifty dollars. So the insurer pays its limit, sixty thousand dollars.",
+     "show": 1
+    },
+    {
+     "text": "Second, under that form it applies once per occurrence, even if one fire damages two buildings with separate limits.",
+     "say": "Second, under that form it applies once per occurrence, even if one fire damages two buildings with separate limits.",
+     "show": 2
+    },
+    {
+     "text": "Third, under the 2011 homeowners forms, if two or more deductibles apply to one loss, only the highest applies.",
+     "say": "Third, under the twenty eleven homeowners forms, if two or more deductibles apply to one loss, only the highest applies.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "When two policies cover the same loss",
+   "src": "IRMI 'excess insurance', 'nonconcurrency', 'contribution by equal shares'; ISO CP 00 90 07 88, G.1; ISO CG 00 01, Sec. IV Cond. 4.c",
+   "items": [
+    {
+     "label": "Primary and excess",
+     "detail": "Primary pays first; excess pays only above a stated amount or above the primary",
+     "icon": "layers"
+    },
+    {
+     "label": "Pro rata (contribution by limits)",
+     "detail": "Each pays its share of all limits: on a $100,000 loss, $300,000 and $200,000 limits pay $60,000 and $40,000",
+     "icon": "chart-pie"
+    },
+    {
+     "label": "Contribution by equal shares",
+     "detail": "CGL: equal payments until a limit is used up, only if all the other insurance permits it",
+     "icon": "scale"
+    },
+    {
+     "label": "Nonconcurrency",
+     "detail": "Policies on the same exposure don't match, such as different inception and expiration dates",
+     "icon": "calendar"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Two policies, one loss. Primary insurance pays first; excess pays only above a stated amount or above the primary.",
+     "say": "Two policies, one loss. Primary insurance pays first; excess pays only above a stated amount or above the primary.",
+     "show": 1
+    },
+    {
+     "text": "Pro rata, or contribution by limits, pays by each insurer's share of the total limits. Limits of $300,000 and $200,000 split a covered loss three-fifths and two-fifths.",
+     "say": "Pro rata, or contribution by limits, pays by each insurer's share of the total limits. Limits of three hundred thousand dollars and two hundred thousand dollars split a covered loss three-fifths and two-fifths.",
+     "show": 2
+    },
+    {
+     "text": "Contribution by equal shares is the CGL method. Each insurer pays the same amount until it has paid its limit or the loss is paid. If any other insurance doesn't permit equal shares, they contribute by limits.",
+     "say": "Contribution by equal shares is the C G L method. Each insurer pays the same amount until it has paid its limit or the loss is paid. If any other insurance doesn't permit equal shares, they contribute by limits.",
+     "show": 3
+    },
+    {
+     "text": "Don't confuse these with nonconcurrency: policies on the same exposure that don't match, such as different inception and expiration dates.",
+     "say": "Don't confuse these with nonconcurrency: policies on the same exposure that don't match, such as different inception and expiration dates.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Two CGL policies cover a $250,000 claim, and both permit equal shares. Policy 1 has a $100,000 limit; Policy 2 has $300,000. How much does Policy 2 pay?",
+   "choices": [
+    "$125,000",
+    "$150,000",
+    "$187,500",
+    "$250,000"
+   ],
+   "answer": 1,
+   "why": "Each pays $100,000, which uses up Policy 1's limit. Policy 2 then pays the remaining $50,000, for $150,000. $187,500 would be Policy 2's share by limits.",
+   "beats": [
+    {
+     "text": "Two CGL policies, both permitting equal shares, cover a claim of $250,000. Policy 1 has a limit of $100,000; Policy 2 has $300,000. How much does Policy 2 pay? Pick an answer.",
+     "say": "Two C G L policies, both permitting equal shares, cover a claim of two hundred fifty thousand dollars. Policy one has a limit of one hundred thousand dollars; Policy two has three hundred thousand dollars. How much does Policy two pay? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$150,000. Each pays $100,000, which uses up the first policy's limit. Policy 2 pays the last $50,000 alone. The trap, $187,500, is its share by limits.",
+     "say": "One hundred fifty thousand dollars. Each pays one hundred thousand dollars, which uses up the first policy's limit. Policy two pays the last fifty thousand dollars alone. The trap, one hundred eighty-seven thousand five hundred dollars, is its share by limits."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Limits of liability",
+   "src": "IRMI 'per person limit', 'split limits', 'combined single limits'; ISO CG 00 01 04 13 (2013 CGL), Sec. III",
+   "items": [
+    {
+     "label": "Per person",
+     "detail": "The most paid for one person's bodily injury",
+     "icon": "user"
+    },
+    {
+     "label": "Per occurrence (accident)",
+     "detail": "The most paid for all injury and damage from one occurrence, however many claimants",
+     "icon": "siren"
+    },
+    {
+     "label": "Split limits",
+     "detail": "Three amounts: bodily injury per person, bodily injury per accident, property damage per accident",
+     "icon": "split"
+    },
+    {
+     "label": "Combined single limit",
+     "detail": "One limit for bodily injury and property damage together, per accident",
+     "icon": "shield"
+    },
+    {
+     "label": "CGL aggregates",
+     "detail": "General aggregate, plus a separate products-completed operations aggregate",
+     "icon": "layers"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Now limits. A per-person limit caps one person's bodily injury. A per-occurrence limit caps everything from one occurrence, however many people claim.",
+     "say": "Now limits. A per-person limit caps one person's bodily injury. A per-occurrence limit caps everything from one occurrence, however many people claim.",
+     "show": 2
+    },
+    {
+     "text": "Split limits list three amounts: bodily injury per person, bodily injury per accident, and property damage. A combined single limit is one limit for all of it.",
+     "say": "Split limits list three amounts: bodily injury per person, bodily injury per accident, and property damage. A combined single limit is one limit for all of it.",
+     "show": 4
+    },
+    {
+     "text": "The CGL adds annual aggregates: a general aggregate, and a separate one for products-completed operations.",
+     "say": "The C G L adds annual aggregates: a general aggregate, and a separate one for products-completed operations.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "formula",
+   "title": "Worked example: split limits 50, 100, 25",
+   "src": "IRMI 'split limits', 'per person limit'; ISO PP 00 01 09 18 (2018 PAP), Part A, Limit of Liability A",
+   "given": [
+    "Limits: $50,000, $100,000, $25,000",
+    "Two people hurt: $70,000 and $40,000",
+    "Property damage: $30,000"
+   ],
+   "items": [
+    {
+     "label": "Person 1, capped per person",
+     "expr": "$70,000, capped at $50,000",
+     "value": "$50,000"
+    },
+    {
+     "label": "Person 2, under the cap",
+     "expr": "$40,000",
+     "value": "$40,000"
+    },
+    {
+     "label": "All bodily injury vs. $100,000",
+     "expr": "$50,000 + $40,000",
+     "value": "$90,000 (within)"
+    },
+    {
+     "label": "Property damage, capped",
+     "expr": "$30,000, capped at $25,000",
+     "value": "$25,000"
+    },
+    {
+     "label": "Total paid",
+     "expr": "$90,000 + $25,000",
+     "value": "$115,000"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Split limits of 50, 100, 25. One accident injures two people, with damages of $70,000 and $40,000, plus $30,000 of property damage.",
+     "say": "Split limits of fifty, one hundred, twenty-five. One accident injures two people, with damages of seventy thousand dollars and forty thousand dollars, plus thirty thousand dollars of property damage.",
+     "show": 0
+    },
+    {
+     "text": "Per-person cap first: the first person gets $50,000, the second the full $40,000. $90,000 is within the $100,000 per-accident limit.",
+     "say": "Per-person cap first: the first person gets fifty thousand dollars, the second the full forty thousand dollars. Ninety thousand dollars is within the one hundred thousand dollars per-accident limit.",
+     "show": 3
+    },
+    {
+     "text": "Property damage is capped at $25,000. Total: $115,000.",
+     "say": "Property damage is capped at twenty-five thousand dollars. Total: one hundred fifteen thousand dollars.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "An auto policy has a $300,000 combined single limit. One accident causes $200,000 of injury to one person and $50,000 of property damage. How much does the insurer pay?",
+   "choices": [
+    "$50,000",
+    "$200,000",
+    "$250,000",
+    "$300,000"
+   ],
+   "answer": 2,
+   "why": "A combined single limit is one limit for bodily injury and property damage together, with no separate per-person or property damage cap. $250,000 fits within $300,000.",
+   "beats": [
+    {
+     "text": "A combined single limit of $300,000. One accident: $200,000 of injury to one person, plus $50,000 of property damage. What does the insurer pay? Pick an answer.",
+     "say": "A combined single limit of three hundred thousand dollars. One accident: two hundred thousand dollars of injury to one person, plus fifty thousand dollars of property damage. What does the insurer pay? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$250,000. A combined single limit is one bucket for bodily injury and property damage, with no per-person cap, and $250,000 fits inside it.",
+     "say": "Two hundred fifty thousand dollars. A combined single limit is one bucket for bodily injury and property damage, with no per-person cap, and two hundred fifty thousand dollars fits inside it."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "DICE: declarations, insuring agreement, conditions, exclusions",
+    "First named insured pays premium and gets notices and refunds",
+    "Deductible comes off the loss; the limit still caps the payment",
+    "Pro rata shares by limits; equal shares pay alike till a limit is used",
+    "Split limits: cap each person first, then the accident"
+   ],
+   "beats": [
+    {
+     "text": "Recap: roll the DICE. The first named insured handles premium and notices. The deductible comes off the loss, and the limit caps the payment.",
+     "say": "Recap: roll the DICE. The first named insured handles premium and notices. The deductible comes off the loss, and the limit caps the payment.",
+     "show": 3
+    },
+    {
+     "text": "Pro rata shares by limits, equal shares pay alike until a limit is used up, and split limits cap each person first.",
+     "say": "Pro rata shares by limits, equal shares pay alike until a limit is used up, and split limits cap each person first.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "core-036",
+  "core-053",
+  "core-bas-27",
+  "core-038",
+  "core-bas-36"
+ ],
+ "hooks": [
+  "mn-mn_core-15"
+ ],
+ "sources": [
+  "IRMI glossary: declarations, insuring agreement, exclusion, endorsement, named insured, first named insured, additional insured",
+  "IRMI glossary: excess insurance, nonconcurrency, contribution by equal shares, per person limit, split limits, combined single limits",
+  "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012), preamble, C, D",
+  "ISO CP 00 90 07 88 (Commercial Property Conditions, 1988), G, H",
+  "ISO IL 00 17 11 98 (Common Policy Conditions, 1998)",
+  "ISO HO 00 03 05 11 (Homeowners 3, 2011), Sec. I Exclusions, Cond. B and Q",
+  "ISO PP 00 01 09 18 (Personal Auto Policy, 2018), Part A Limit of Liability, Part F",
+  "ISO CG 00 01 04 13 (Commercial General Liability, 2013), Sec. III; Sec. IV Cond. 4.c",
+  "PSI Series 16-81 content outline"
+ ]
+}

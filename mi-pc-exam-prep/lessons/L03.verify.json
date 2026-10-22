@@ -1,0 +1,76 @@
+{
+ "id": "L03",
+ "beats": 45,
+ "mismatches": [
+  {
+   "scene": 1,
+   "beat": 3,
+   "say": "A peril is the cause of loss: fire, windstorm, collision.",
+   "heard": "Apparel is the cause of loss. Fire, windstorm collision.",
+   "wer": 0.2
+  },
+  {
+   "scene": 3,
+   "beat": 2,
+   "say": "The fire is the peril, the cause. The burned value you claim is the loss.",
+   "heard": "The fire is the peril, the cause. The burned value claim is the loss.",
+   "wer": 0.067
+  },
+  {
+   "scene": 5,
+   "beat": 0,
+   "say": "Five ways to handle risk. Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
+   "heard": "Five ways to handle risk. Handle risk like a star. Share it, transfer it, avoid it, reduce it, or retain it.",
+   "wer": 0.048
+  },
+  {
+   "scene": 7,
+   "beat": 2,
+   "say": "Not catastrophic. Watch out: an EXCEPT question may claim the loss should be catastrophic. It shouldn't.",
+   "heard": "Not catastrophic. Watch out. An accept question may claim the loss should be catastrophic. It should not.",
+   "wer": 0.059
+  },
+  {
+   "scene": 8,
+   "beat": 1,
+   "say": "Adverse selection is the threat: people who see a high chance of loss buy insurance far more often. Underwriting exists largely to counter it.",
+   "heard": "Adverse selection is the threat. People who see a high chance of loss by insurance far more often. Underwriting exists largely to counter it.",
+   "wer": 0.042
+  },
+  {
+   "scene": 9,
+   "beat": 0,
+   "say": "Insurers buy insurance too. A reinsurer, for a premium, covers part or all of the liability of the primary insurer, called the ceding company.",
+   "heard": "Insurers buy insurance too. A re-insurer for a premium covers part or all of the liability of the primary insurer, called the seating company.",
+   "wer": 0.125
+  },
+  {
+   "scene": 9,
+   "beat": 2,
+   "say": "Quota share, a pro rata form, shares premium and losses at the same percentage. Excess of loss pays only above the ceding company's retention, up to a limit.",
+   "heard": "QuotaShare, a pro-rata form, shares premium and losses at the same percentage. Excess of loss pays only above the seeding company's retention, up to a limit.",
+   "wer": 0.111
+  },
+  {
+   "scene": 10,
+   "beat": 0,
+   "say": "Try this. A reinsurer takes an agreed percentage of the premium on every policy in a class and pays that percentage of every loss. Which type is it? Pick an answer.",
+   "heard": "Try this. A re-insurer takes an agreed percentage of the premium on every policy in a class and pays that percentage of every loss. Which type is it? Pick an answer.",
+   "wer": 0.067
+  },
+  {
+   "scene": 13,
+   "beat": 0,
+   "say": "To recap: a hazard is the condition, a peril the cause. Pure risk is generally insurable; speculative can bring a gain.",
+   "heard": "To recap, a hazard is the condition, apparel the cause. Pure risk is generally insurable. Speculative can bring a gain.",
+   "wer": 0.095
+  },
+  {
+   "scene": 13,
+   "beat": 1,
+   "say": "Handle risk like a STARR. Ideally insurable risks are a CLEAN Deal. Stockholders own a stock company; policyholders own a mutual.",
+   "heard": "Handle risk like a star. Ideally insurable risks are a clean deal. Stockholders own a stock company. Policyholders own a mutual.",
+   "wer": 0.048
+  }
+ ]
+}

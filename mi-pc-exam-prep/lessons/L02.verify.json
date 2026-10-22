@@ -1,0 +1,27 @@
+{
+ "id": "L02",
+ "beats": 44,
+ "mismatches": [
+  {
+   "scene": 4,
+   "beat": 0,
+   "say": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at fifty dollars a year.",
+   "heard": "A Traversity Cherry basket is a thank you. A cashback envelope is a rebate. Keep the basket at $50 a year.",
+   "wer": 0.167
+  },
+  {
+   "scene": 4,
+   "beat": 3,
+   "say": "An insured who knowingly accepts a rebate has coverage reduced in proportion, plus a fine of up to one hundred dollars.",
+   "heard": "and insured who knowingly accepts a rebate has coverage reduced in proportion, plus a fine of up to $100.",
+   "wer": 0.048
+  },
+  {
+   "scene": 12,
+   "beat": 0,
+   "say": "Recap: twisting switches, rebating pays back, misrepresentation misstates. P and C gifts stay at fifty dollars a year. Premiums are fiduciary money.",
+   "heard": "RECAP, twisting switches, rebating pays back, misrepresentation mistakes. P and C gifts stay at $50 a year. Premiums are fiduciary money.",
+   "wer": 0.048
+  }
+ ]
+}

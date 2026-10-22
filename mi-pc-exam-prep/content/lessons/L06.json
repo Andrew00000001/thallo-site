@@ -1,0 +1,535 @@
+{
+  "id": "L06",
+  "sec": "basics",
+  "guide": "basics",
+  "title": "Hazards, perils, losses and valuation",
+  "summary": "Insurable interest, underwriting and the loss ratio, three hazards, named vs open perils, direct vs indirect loss, construction and loss valuation.",
+  "objectives": [
+    "Explain insurable interest, underwriting and the loss ratio",
+    "Tell physical, moral and morale hazards apart",
+    "Contrast named vs open perils and direct vs consequential loss",
+    "Value a loss: ACV, replacement cost, agreed value and stated amount"
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Hazards, perils, losses and valuation",
+      "subtitle": "How insurers size up a risk, and how they put a dollar value on a loss",
+      "icon": "house",
+      "beats": [
+        {
+          "text": "Property and Casualty Insurance Basics is 20% of your exam, about 30 questions.",
+          "say": "Property and Casualty Insurance Basics is twenty percent of your exam, about thirty questions."
+        },
+        {
+          "text": "Here's how insurers size up a risk and value a loss.",
+          "say": "Here's how insurers size up a risk and value a loss."
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "Insurable interest and underwriting",
+      "src": "IRMI glossary: insurable interest; underwriting; ISO HO 00 03 05 11, Sec. I Cond. A; ISO CP 00 10 10 12, E.4.d",
+      "items": [
+        {
+          "label": "Insurable interest",
+          "detail": "Your financial or legal relationship to what's insured",
+          "icon": "link"
+        },
+        {
+          "label": "Property: at the time of loss",
+          "detail": "You're paid no more than your interest when the loss happens",
+          "icon": "house"
+        },
+        {
+          "label": "Liability: potential legal liability",
+          "detail": "The interest comes from your potential legal liability",
+          "icon": "scale"
+        },
+        {
+          "label": "Underwriting",
+          "detail": "Accept the risk? How much insurance? At what rate?",
+          "icon": "clipboard-list"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Insurable interest is your financial or legal relationship to what's insured.",
+          "say": "Insurable interest is your financial or legal relationship to what's insured.",
+          "show": 1
+        },
+        {
+          "text": "For property insurance, it must exist at the time of the loss, and you're paid no more than your interest.",
+          "say": "For property insurance, it must exist at the time of the loss, and you're paid no more than your interest.",
+          "show": 2
+        },
+        {
+          "text": "For liability insurance, it comes from your potential legal liability.",
+          "say": "For liability insurance, it comes from your potential legal liability.",
+          "show": 3
+        },
+        {
+          "text": "Underwriting decides whether to accept a risk, how much insurance to write, and at what rate. Paying claims is claims handling, not underwriting.",
+          "say": "Underwriting decides whether to accept a risk, how much insurance to write, and at what rate. Paying claims is claims handling, not underwriting.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "title": "Loss ratio",
+      "src": "IRMI glossary: loss ratio; expense ratio; combined ratio",
+      "given": [
+        "Incurred losses: $50,000",
+        "Earned premium: $100,000"
+      ],
+      "items": [
+        {
+          "label": "Formula",
+          "expr": "Incurred losses ÷ earned premium",
+          "value": "Loss ratio"
+        },
+        {
+          "label": "This example",
+          "expr": "$50,000 ÷ $100,000",
+          "value": "50%"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Underwriters watch the loss ratio: incurred losses divided by earned premium.",
+          "say": "Underwriters watch the loss ratio: incurred losses divided by earned premium.",
+          "show": 1
+        },
+        {
+          "text": "$50,000 of incurred losses on $100,000 of earned premium is a 50% loss ratio.",
+          "say": "Fifty thousand dollars of incurred losses on one hundred thousand dollars of earned premium is a fifty percent loss ratio.",
+          "show": 2
+        },
+        {
+          "text": "Add the expense ratio to get the combined ratio. Under 100% means an underwriting profit.",
+          "say": "Add the expense ratio to get the combined ratio. Under one hundred percent means an underwriting profit.",
+          "show": 2
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Three kinds of hazard",
+      "src": "IRMI glossary: hazard; physical, moral and morale hazard (adapted from hook mn-mn_core-10)",
+      "hook": "Physical = the Property. Moral = the Person's character. Morale = 'Meh': careless because insurance will pay.",
+      "items": [
+        "Physical: a tangible condition, like oily rags stored by a furnace",
+        "Moral: dishonesty, or a motive to profit from a loss, like a money-losing business",
+        "Morale: indifference, like leaving doors unlocked because insurance will pay",
+        "A fire or a tornado is a peril, not a hazard"
+      ],
+      "beats": [
+        {
+          "text": "A hazard raises the chance of loss. Physical is the Property, Moral is the Person, Morale is Meh.",
+          "say": "A hazard raises the chance of loss. Physical is the Property, Moral is the Person, Morale is Meh.",
+          "show": 0
+        },
+        {
+          "text": "A physical hazard is a tangible condition, like oily rags stored next to a furnace.",
+          "say": "A physical hazard is a tangible condition, like oily rags stored next to a furnace.",
+          "show": 1
+        },
+        {
+          "text": "A moral hazard comes from the insured's character or circumstances, like dishonesty or a motive to profit from a loss. A money-losing business carries more of it.",
+          "say": "A moral hazard comes from the insured's character or circumstances, like dishonesty or a motive to profit from a loss. A money-losing business carries more of it.",
+          "show": 2
+        },
+        {
+          "text": "A morale hazard is indifference: the insured gets careless because insurance will pay. It's about attitude, not honesty.",
+          "say": "A morale hazard is indifference: the insured gets careless because insurance will pay. It's about attitude, not honesty.",
+          "show": 3
+        },
+        {
+          "text": "And a fire or a tornado is a peril, not a hazard.",
+          "say": "And a fire or a tornado is a peril, not a hazard.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "After buying renters coverage, a tenant stops bothering to lock her apartment door. This is an example of:",
+      "choices": [
+        "Physical hazard",
+        "Moral hazard",
+        "Morale hazard",
+        "Peril"
+      ],
+      "answer": 2,
+      "why": "She is careless because insurance will cover the loss. That is morale hazard: attitude, not dishonesty.",
+      "beats": [
+        {
+          "text": "Try this. After buying renters coverage, a tenant stops bothering to lock her apartment door. Which hazard is that? Pick an answer.",
+          "say": "Try this. After buying renters coverage, a tenant stops bothering to lock her apartment door. Which hazard is that? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "Morale hazard. She's careless because insurance will pay. Moral hazard would mean dishonesty, like a record of insurance fraud.",
+          "say": "Morale hazard. She's careless because insurance will pay. Moral hazard would mean dishonesty, like a record of insurance fraud."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Named perils vs. open perils",
+      "src": "IRMI glossary: named perils; open perils; special perils; Heniser v Frankenmuth Mut Ins Co, 449 Mich 155 (1995)",
+      "columns": [
+        {
+          "name": "Named perils",
+          "icon": "clipboard-list",
+          "points": [
+            "Covers only the perils listed",
+            "Michigan: the insured must prove coverage"
+          ]
+        },
+        {
+          "name": "Special (open) perils",
+          "icon": "umbrella",
+          "points": [
+            "Covers all causes of loss except exclusions",
+            "Formerly called all risks",
+            "Michigan: the insurer must prove an exclusion applies"
+          ]
+        }
+      ],
+      "tell": "A list of what IS covered means named perils. A list of only exclusions means open perils.",
+      "beats": [
+        {
+          "text": "Named perils coverage covers only the perils listed. In Michigan, the insured bears the burden of proving coverage.",
+          "say": "Named perils coverage covers only the perils listed. In Michigan, the insured bears the burden of proving coverage.",
+          "show": 1
+        },
+        {
+          "text": "Special, or open, perils covers all causes of loss except those specifically excluded. It used to be called all risks. In Michigan, the insurer must prove an exclusion applies.",
+          "say": "Special, or open, perils covers all causes of loss except those specifically excluded. It used to be called all risks. In Michigan, the insurer must prove an exclusion applies.",
+          "show": 2
+        },
+        {
+          "text": "So: a list of what's covered means named perils; a list of only exclusions means open.",
+          "say": "So: a list of what's covered means named perils; a list of only exclusions means open.",
+          "show": 2,
+          "tell": true
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Direct vs. consequential loss",
+      "src": "IRMI glossary: direct loss; consequential loss",
+      "columns": [
+        {
+          "name": "Direct loss",
+          "icon": "flame",
+          "points": [
+            "Direct physical damage to the property",
+            "Example: fire chars a kitchen"
+          ]
+        },
+        {
+          "name": "Consequential (indirect) loss",
+          "icon": "receipt",
+          "points": [
+            "Results from the direct damage",
+            "Loss of rent, business income, extra expense"
+          ]
+        }
+      ],
+      "tell": "Is it the physical damage itself, or a money loss that follows because of it?",
+      "beats": [
+        {
+          "text": "A direct loss comes from direct physical damage to the property, like fire charring a kitchen.",
+          "say": "A direct loss comes from direct physical damage to the property, like fire charring a kitchen.",
+          "show": 1
+        },
+        {
+          "text": "A consequential, or indirect, loss results from that damage: loss of rent, business income or extra expense.",
+          "say": "A consequential, or indirect, loss results from that damage: loss of rent, business income or extra expense.",
+          "show": 2
+        },
+        {
+          "text": "Ask: is it the damage itself, or a money loss that follows?",
+          "say": "Ask: is it the damage itself, or a money loss that follows?",
+          "show": 2,
+          "tell": true
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Blanket vs. specific insurance",
+      "src": "ISO CP 03 21 10 12 (definitions); IRMI glossary: blanket limit; ISO CP 00 10 10 12, F.1.b",
+      "columns": [
+        {
+          "name": "Specific insurance",
+          "icon": "box",
+          "points": [
+            "Each item has its own limit",
+            "For example, each building separately"
+          ]
+        },
+        {
+          "name": "Blanket insurance",
+          "icon": "layers",
+          "points": [
+            "One limit covers two or more items or locations",
+            "Coinsurance applies to the total value under that limit"
+          ]
+        }
+      ],
+      "tell": "One limit for many items is blanket. A limit for each item is specific.",
+      "beats": [
+        {
+          "text": "With specific insurance, each item, like each building, has its own limit.",
+          "say": "With specific insurance, each item, like each building, has its own limit.",
+          "show": 1
+        },
+        {
+          "text": "With blanket insurance, one limit covers two or more items or locations, and coinsurance applies to the total value under it.",
+          "say": "With blanket insurance, one limit covers two or more items or locations, and coinsurance applies to the total value under it.",
+          "show": 2,
+          "tell": true
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Six construction classes",
+      "src": "IRMI glossary: construction classes (ISO Commercial Lines Manual codes 1 to 6)",
+      "columns": [
+        "Code",
+        "Class",
+        "Key feature"
+      ],
+      "items": [
+        [
+          "1",
+          "Frame",
+          "Wood or veneer exterior walls"
+        ],
+        [
+          "2",
+          "Joisted masonry",
+          "Masonry walls; combustible floor and roof"
+        ],
+        [
+          "3",
+          "Noncombustible",
+          "Noncombustible walls, floor and supports"
+        ],
+        [
+          "4",
+          "Masonry noncombustible",
+          "Masonry walls; noncombustible floor and roof"
+        ],
+        [
+          "5",
+          "Modified fire resistive",
+          "Rated 1 hour to under 2 hours"
+        ],
+        [
+          "6",
+          "Fire resistive",
+          "Rated at least 2 hours"
+        ]
+      ],
+      "beats": [
+        {
+          "text": "There are six construction classes. Code 1, frame, is the least fire-resistive. Code 2 is joisted masonry.",
+          "say": "There are six construction classes. Code one, frame, is the least fire-resistive. Code two is joisted masonry.",
+          "show": 2
+        },
+        {
+          "text": "Code 3 is noncombustible, and code 4 is masonry noncombustible.",
+          "say": "Code three is noncombustible, and code four is masonry noncombustible.",
+          "show": 4
+        },
+        {
+          "text": "Code 5, modified fire resistive, is rated at least 1 hour but under 2. Code 6, fire resistive, is rated at least 2 hours, the most fire-resistive.",
+          "say": "Code five, modified fire resistive, is rated at least one hour but under two. Code six, fire resistive, is rated at least two hours, the most fire-resistive.",
+          "show": 6
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Three ways to value property",
+      "src": "IRMI glossary: replacement cost; actual cash value; functional replacement cost",
+      "mn": "mn-mn_core-16",
+      "hook": "Replacement cost buys it new. ACV blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
+      "items": [
+        "Replacement cost: like kind and quality, no deduction for depreciation",
+        "Actual cash value: often replacement cost minus depreciation",
+        "It can also be fair market value or the broad evidence rule",
+        "Functional replacement: does the same job equally well, need not be identical"
+      ],
+      "beats": [
+        {
+          "text": "Now, valuing a loss. Replacement cost buys it new. Actual cash value blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
+          "say": "Now, valuing a loss. Replacement cost buys it new. Actual cash value blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
+          "show": 0
+        },
+        {
+          "text": "Replacement cost means like kind and quality, with no deduction for depreciation.",
+          "say": "Replacement cost means like kind and quality, with no deduction for depreciation.",
+          "show": 1
+        },
+        {
+          "text": "Actual cash value is often replacement cost minus depreciation. Depending on the policy and state law, it can also be fair market value or the broad evidence rule.",
+          "say": "Actual cash value is often replacement cost minus depreciation. Depending on the policy and state law, it can also be fair market value or the broad evidence rule.",
+          "show": 3
+        },
+        {
+          "text": "Functional replacement cost pays for property that does the same job with equal efficiency, even if it isn't identical.",
+          "say": "Functional replacement cost pays for property that does the same job with equal efficiency, even if it isn't identical.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "title": "Actual cash value of a roof",
+      "src": "IRMI glossary: actual cash value (example as in hook mn-mn_core-16 and question core-034)",
+      "given": [
+        "Replacement cost today: $20,000",
+        "Depreciation: 40%"
+      ],
+      "items": [
+        {
+          "label": "Depreciation",
+          "expr": "40% × $20,000",
+          "value": "$8,000"
+        },
+        {
+          "label": "Actual cash value",
+          "expr": "$20,000 − $8,000",
+          "value": "$12,000"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Let's work one. A roof would cost $20,000 to replace today and has depreciated 40%. What's its actual cash value?",
+          "say": "Let's work one. A roof would cost twenty thousand dollars to replace today and has depreciated forty percent. What's its actual cash value?",
+          "show": 0
+        },
+        {
+          "text": "Depreciation is 40% of $20,000, or $8,000.",
+          "say": "Depreciation is forty percent of twenty thousand dollars, or eight thousand dollars.",
+          "show": 1
+        },
+        {
+          "text": "So actual cash value is $20,000 minus $8,000, or $12,000. Watch out: $8,000 is the depreciation, not the answer.",
+          "say": "So actual cash value is twenty thousand dollars minus eight thousand dollars, or twelve thousand dollars. Watch out: eight thousand dollars is the depreciation, not the answer.",
+          "show": 2
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Agreed value vs. stated amount",
+      "src": "ISO CP 00 10 10 12, G.1 (2012 BPP); ISO CA 99 28 03 10, B.1-3 and Schedule note (2010 Stated Amount endorsement)",
+      "mn": "mn-mn_core-17",
+      "hook": "Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise: you get the LEAST of ACV, repair cost or the stated amount.",
+      "items": [
+        "Agreed value (2012 BPP option): coinsurance suspended until its expiration date",
+        "Stated amount (2010 auto endorsement): pays the least of three amounts",
+        "Least of: actual cash value, cost to repair or replace, or stated amount",
+        "The stated amount is a ceiling, not a guaranteed payment"
+      ],
+      "beats": [
+        {
+          "text": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise.",
+          "say": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise.",
+          "show": 0
+        },
+        {
+          "text": "Agreed value is an optional coverage in the 2012 Building and Personal Property form. It suspends the Coinsurance condition until the agreed value expiration date.",
+          "say": "Agreed value is an optional coverage in the twenty twelve Building and Personal Property form. It suspends the Coinsurance condition until the agreed value expiration date.",
+          "show": 1
+        },
+        {
+          "text": "Stated amount is common for auto physical damage. Under the 2010 endorsement, the insurer pays the least of actual cash value, repair or replacement cost, or the stated amount.",
+          "say": "Stated amount is common for auto physical damage. Under the twenty ten endorsement, the insurer pays the least of actual cash value, repair or replacement cost, or the stated amount.",
+          "show": 3
+        },
+        {
+          "text": "So you can get less than the stated amount.",
+          "say": "So you can get less than the stated amount.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "Under the 2010 ISO Stated Amount endorsement, a van with a $30,000 stated amount is totaled. Its ACV is $26,000; like-kind replacement is $28,000. Ignoring the deductible, the insurer pays:",
+      "choices": [
+        "$26,000",
+        "$28,000",
+        "$30,000"
+      ],
+      "answer": 0,
+      "why": "Stated amount pays the least of actual cash value, repair or replacement cost, or the stated amount. The least here is the $26,000 actual cash value.",
+      "beats": [
+        {
+          "text": "Your turn. Under the 2010 endorsement, a van with a stated amount of $30,000 is totaled. Its actual cash value is $26,000, and like-kind replacement is $28,000. Ignoring the deductible, what's paid? Pick an answer.",
+          "say": "Your turn. Under the twenty ten endorsement, a van with a stated amount of thirty thousand dollars is totaled. Its actual cash value is twenty six thousand dollars, and like-kind replacement is twenty eight thousand dollars. Ignoring the deductible, what's paid? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "$26,000, the actual cash value, because it's the least of the three. The stated amount of $30,000 is only a ceiling.",
+          "say": "Twenty six thousand dollars, the actual cash value, because it's the least of the three. The stated amount of thirty thousand dollars is only a ceiling."
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Property insurable interest must exist at the time of loss",
+        "Physical is the property, moral the person, morale is 'meh'",
+        "Named perils lists what's covered; open perils lists exclusions",
+        "Actual cash value is often replacement cost minus depreciation",
+        "Stated amount is a ceiling; agreed value suspends coinsurance"
+      ],
+      "beats": [
+        {
+          "text": "To recap: property insurable interest must exist at the time of loss. Physical is the property, moral the person, morale is meh.",
+          "say": "To recap: property insurable interest must exist at the time of loss. Physical is the property, moral the person, morale is meh.",
+          "show": 2
+        },
+        {
+          "text": "Named perils lists what's covered. Actual cash value is often replacement cost minus depreciation. And stated amount is only a ceiling.",
+          "say": "Named perils lists what's covered. Actual cash value is often replacement cost minus depreciation. And stated amount is only a ceiling.",
+          "show": 5
+        }
+      ]
+    }
+  ],
+  "check": [
+    "core-021",
+    "core-bas-05",
+    "core-031",
+    "core-034",
+    "core-bas-11"
+  ],
+  "hooks": [
+    "mn-mn_core-16",
+    "mn-mn_core-17"
+  ],
+  "sources": [
+    "IRMI glossary",
+    "ISO HO 00 03 05 11, Sec. I Cond. A",
+    "ISO CP 00 10 10 12 (2012 BPP), E.4.d, E.7.a, F.1.b, G.1",
+    "ISO CP 03 21 10 12",
+    "ISO CA 99 28 03 10 (2010 Stated Amount Insurance endorsement)",
+    "Heniser v Frankenmuth Mut Ins Co, 449 Mich 155 (1995)",
+    "ISO Commercial Lines Manual construction codes (via IRMI)"
+  ]
+}

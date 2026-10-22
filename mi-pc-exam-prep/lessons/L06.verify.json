@@ -1,0 +1,20 @@
+{
+ "id": "L06",
+ "beats": 42,
+ "mismatches": [
+  {
+   "scene": 3,
+   "beat": 0,
+   "say": "A hazard raises the chance of loss. Physical is the Property, Moral is the Person, Morale is Meh.",
+   "heard": "A hazard raises the chance of loss. Physical is the property, moral is the person, morale is me.",
+   "wer": 0.056
+  },
+  {
+   "scene": 13,
+   "beat": 0,
+   "say": "To recap: property insurable interest must exist at the time of loss. Physical is the property, moral the person, morale is meh.",
+   "heard": "To recap, property insurable interest must exist at the time of loss. Physical is the property, moral the person, morale is me.",
+   "wer": 0.045
+  }
+ ]
+}

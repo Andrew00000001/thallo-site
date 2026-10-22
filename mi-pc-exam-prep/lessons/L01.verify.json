@@ -1,0 +1,41 @@
+{
+ "id": "L01",
+ "beats": 40,
+ "mismatches": [
+  {
+   "scene": 2,
+   "beat": 0,
+   "say": "For counselors: two, two, zero. Two signatures: counselor and client sign a written agreement before any work.",
+   "heard": "For counselors, 220. Two signatures, counselor and clients sign a written agreement before any work.",
+   "wer": 0.188
+  },
+  {
+   "scene": 2,
+   "beat": 3,
+   "say": "And two years: the counselor keeps a copy for at least two years after the services.",
+   "heard": "In two years, the counselor keeps a copy for at least two years after the services.",
+   "wer": 0.067
+  },
+  {
+   "scene": 3,
+   "beat": 1,
+   "say": "Ninety days: licensed in another state and moving to Michigan? Apply for a resident license, with no prelicensing education or exam for lines already held.",
+   "heard": "90 days, licensed in another state and moving to Michigan. Apply for a resident license with no pre-licensing education or exam for lines already held.",
+   "wer": 0.083
+  },
+  {
+   "scene": 7,
+   "beat": 0,
+   "say": "Keep your record current. Changed your legal name, address, mailing or email address? Tell the director within thirty days.",
+   "heard": "Keep your record current. Change your legal name, address, mailing, or email address. Tell the director within 30 days.",
+   "wer": 0.053
+  },
+  {
+   "scene": 9,
+   "beat": 1,
+   "say": "So you may service policies you already sold, and receive commissions on them.",
+   "heard": "so you may serve as policies you already sold and receive commissions on them.",
+   "wer": 0.167
+  }
+ ]
+}

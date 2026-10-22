@@ -1,0 +1,470 @@
+{
+ "id": "L01",
+ "sec": "reg",
+ "guide": "reg",
+ "title": "Producer licensing, appointments and CE",
+ "summary": "Michigan license types, appointment and termination deadlines, what you must report and when, and the CE rules that keep your license in force.",
+ "objectives": [
+  "Tell producer, business entity, solicitor and counselor licenses apart",
+  "Recall appointment and termination deadlines: Hire 15, Fire 30, Mail 15, Talk back 30",
+  "Know the reporting deadlines for name, address, assumed name and legal actions",
+  "Apply the CE numbers and the 90-day grace period rules"
+ ],
+ "check": [
+  "reg-001",
+  "reg-006",
+  "reg-018",
+  "reg-025",
+  "reg-028"
+ ],
+ "hooks": [
+  "mn-mn_reg-05",
+  "mn-mn_reg-11",
+  "mn-mn_reg-01",
+  "mn-mn_reg-02",
+  "mn-mn_reg-07",
+  "mn-mn_reg-08",
+  "mn-mn_reg-09"
+ ],
+ "sources": [
+  "MCL 500.1201a(1)",
+  "MCL 500.1205(2)",
+  "MCL 500.1206(2),(3),(5)",
+  "MCL 500.1206b(2)",
+  "MCL 500.1208a(2),(3),(4)",
+  "MCL 500.1208b(1),(2),(4)",
+  "MCL 500.1209(1),(2),(3)",
+  "MCL 500.1211(1); MCL 500.1212",
+  "MCL 500.1211a",
+  "MCL 500.1211b",
+  "MCL 500.1232; MCL 500.1236",
+  "MCL 500.1238(1)",
+  "MCL 500.1247(1),(2)",
+  "MCL 500.1204c(1),(2),(11),(13)",
+  "DIFS CE Carryover FAQ",
+  "PSI 16-81 content outline (Sept 2021)"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Producer licensing, appointments and CE",
+   "subtitle": "Who needs which license, the deadlines insurers and producers must meet, and how to keep your license",
+   "icon": "badge-check",
+   "beats": [
+    {
+     "text": "Regulation is 15 exam items, and licensing rules are a big part of it.",
+     "say": "Regulation is fifteen exam items, and licensing rules are a big part of it."
+    },
+    {
+     "text": "Here: license types, appointment and termination deadlines, reporting, and continuing education.",
+     "say": "Here: license types, appointment and termination deadlines, reporting, and continuing education."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Who holds which license",
+   "src": "MCL 500.1201a(1); .1205(2); .1211(1); .1212; .1232",
+   "items": [
+    {
+     "label": "Producer (agent)",
+     "detail": "Sells, solicits or negotiates; licensed for each line",
+     "icon": "user-check"
+    },
+    {
+     "label": "Business entity",
+     "detail": "Its own license, plus a designated licensed producer responsible for compliance",
+     "icon": "building-2"
+    },
+    {
+     "label": "Solicitor",
+     "detail": "Works for a licensed resident producer under a written contract",
+     "icon": "users"
+    },
+    {
+     "label": "Counselor",
+     "detail": "Gives advice or opinions on a policy's benefits, coverage or value",
+     "icon": "scale"
+    }
+   ],
+   "beats": [
+    {
+     "text": "First, licenses. To sell, solicit or negotiate insurance in Michigan, you need a producer license for each line.",
+     "say": "First, licenses. To sell, solicit or negotiate insurance in Michigan, you need a producer license for each line.",
+     "show": 1
+    },
+    {
+     "text": "A business entity needs its own license, plus a designated licensed producer responsible for its compliance.",
+     "say": "A business entity needs its own license, plus a designated licensed producer responsible for its compliance.",
+     "show": 2
+    },
+    {
+     "text": "A solicitor works for a licensed resident producer, under a written contract, after the producer notifies the director.",
+     "say": "A solicitor works for a licensed resident producer, under a written contract, after the producer notifies the director.",
+     "show": 3
+    },
+    {
+     "text": "A counselor license covers advice on a policy's benefits, coverage or value; a licensed agent's customary advice and Michigan attorneys are exempt.",
+     "say": "A counselor license covers advice on a policy's benefits, coverage or value; a licensed agent's customary advice and Michigan attorneys are exempt.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "The counselor's written agreement",
+   "src": "MCL 500.1236; MCL 500.1232",
+   "mn": "mn-mn_reg-05",
+   "hook": "2-2-0: 2 signatures before the work, 2 years of record-keeping after, 0 fee waivers ever.",
+   "items": [
+    "2 signatures: counselor and client sign before any service",
+    "States the work and the fee; discloses any commission as an agent",
+    "0 waivers: the fee may not be waived under any circumstances",
+    "2 years: keep a copy at least 2 years after the services"
+   ],
+   "beats": [
+    {
+     "text": "For counselors: 2-2-0. 2 signatures: counselor and client sign a written agreement before any work.",
+     "say": "For counselors: two, two, zero. Two signatures: counselor and client sign a written agreement before any work.",
+     "show": 1
+    },
+    {
+     "text": "It describes the work, states the fee, and discloses any commission the counselor earns as an agent.",
+     "say": "It describes the work, states the fee, and discloses any commission the counselor earns as an agent.",
+     "show": 2
+    },
+    {
+     "text": "0 waivers: the fee may not be waived under any circumstances, even if the client buys through the counselor.",
+     "say": "Zero waivers: the fee may not be waived under any circumstances, even if the client buys through the counselor.",
+     "show": 3
+    },
+    {
+     "text": "And 2 years: the counselor keeps a copy for at least 2 years after the services.",
+     "say": "And two years: the counselor keeps a copy for at least two years after the services.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Reinstate, move in, temporary license",
+   "src": "MCL 500.1206(3); MCL 500.1206b(2); MCL 500.1211b",
+   "mn": "mn-mn_reg-11",
+   "hook": "A year, a season, a half-year: 12 months to reinstate, 90 days to move in, 180 days on a temp license.",
+   "items": [
+    "12 months: reinstate a license that lapsed for a non-CE reason, no exam",
+    "90 days: moved to Michigan? Apply as a resident; no PE or exam for lines held",
+    "Up to 180 days: temporary license, no exam, for example after a producer dies"
+   ],
+   "beats": [
+    {
+     "text": "Next, 12 months: a license that lapsed for a non-CE reason can be reinstated without an exam.",
+     "say": "Next, twelve months: a license that lapsed for a non C E reason can be reinstated without an exam.",
+     "show": 1
+    },
+    {
+     "text": "90 days: licensed in another state and moving to Michigan? Apply for a resident license, with no prelicensing education or exam for lines already held.",
+     "say": "Ninety days: licensed in another state and moving to Michigan? Apply for a resident license, with no prelicensing education or exam for lines already held.",
+     "show": 2
+    },
+    {
+     "text": "Up to 180 days: a temporary license with no exam, for example for the surviving spouse of a producer who dies.",
+     "say": "Up to one hundred eighty days: a temporary license with no exam, for example for the surviving spouse of a producer who dies.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Appointment and termination deadlines",
+   "src": "MCL 500.1208a(2),(3); MCL 500.1208b(1),(2),(4)",
+   "mn": "mn-mn_reg-01",
+   "hook": "Hire 15. Fire 30. Mail 15. Talk back 30. Picture a revolving agency door with four stickers: in, out, envelope, reply.",
+   "items": [
+    "Hire 15: appointment filed within 15 days of contract or first application",
+    "Fire 30: director notified within 30 days after the termination's effective date",
+    "Mail 15: copy to the producer within 15 days after notifying the director",
+    "Talk back 30: producer may file written comments within 30 days"
+   ],
+   "beats": [
+    {
+     "text": "Now appointments. Your license alone doesn't let you bind for an insurer; that insurer must appoint you first.",
+     "say": "Now appointments. Your license alone doesn't let you bind for an insurer; that insurer must appoint you first.",
+     "show": 0
+    },
+    {
+     "text": "Hire 15: the insurer files your notice of appointment within 15 days of the agency contract or your first application, whichever comes first.",
+     "say": "Hire fifteen: the insurer files your notice of appointment within fifteen days of the agency contract or your first application, whichever comes first.",
+     "show": 1
+    },
+    {
+     "text": "Fire 30: after any termination, for cause or not, the insurer notifies the director within 30 days after the effective date.",
+     "say": "Fire thirty: after any termination, for cause or not, the insurer notifies the director within thirty days after the effective date.",
+     "show": 2
+    },
+    {
+     "text": "Mail 15: within 15 days after that, the insurer mails you a copy, by certified mail or overnight delivery if for cause.",
+     "say": "Mail fifteen: within fifteen days after that, the insurer mails you a copy, by certified mail or overnight delivery if for cause.",
+     "show": 3
+    },
+    {
+     "text": "Talk back 30: you may file written comments within 30 days after receiving it.",
+     "say": "Talk back thirty: you may file written comments within thirty days after receiving it.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "An insurer signs an agency contract with you on May 1, and your first application goes in on May 10. When must the insurer file your notice of appointment?",
+   "choices": [
+    "Within 15 days of May 1",
+    "Within 15 days of May 10",
+    "Within 30 days of May 1",
+    "Within 30 days of May 10"
+   ],
+   "answer": 0,
+   "why": "The notice is due within 15 days of whichever comes first: the contract or the first application. Thirty days is the director's limit to verify eligibility.",
+   "beats": [
+    {
+     "text": "Try this. An insurer signs an agency contract with you on May 1, and your first application goes in on May 10. When is your notice of appointment due? Pick an answer.",
+     "say": "Try this. An insurer signs an agency contract with you on May first, and your first application goes in on May tenth. When is your notice of appointment due? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Within 15 days of May 1, because the contract came first. Thirty days is the director's limit to verify your eligibility, not the filing deadline.",
+     "say": "Within fifteen days of May first, because the contract came first. Thirty days is the director's limit to verify your eligibility, not the filing deadline."
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "When an auto and home insurer ends a contract",
+   "src": "MCL 500.1208b(2); MCL 500.1209(1),(2),(3)",
+   "icon": "house",
+   "story": "Lakeshore Mutual, an auto and home insurer, ends its contract with Maria, a Grand Rapids producer. She sent 18 home and auto applications in the past 12 months. She owns the renewal rights, and her contract is silent about what happens next.",
+   "items": [
+    {
+     "label": "Allowed reason",
+     "detail": "Fewer than 25 home and auto applications in the preceding 12 months"
+    },
+    {
+     "label": "Never mainly for location",
+     "detail": "Not based primarily on where her business is located"
+    },
+    {
+     "label": "Notice to the director",
+     "detail": "Within 30 days after the termination's effective date"
+    },
+    {
+     "label": "Her existing policies",
+     "detail": "She may service them; no binding new risks, renewing, or increasing Lakeshore's obligation without approval"
+    }
+   ],
+   "answer": "Allowed. Maria may service her existing policies, and Lakeshore can't cancel or nonrenew them because her contract ended.",
+   "beats": [
+    {
+     "text": "Let's apply it. Lakeshore Mutual, an auto and home insurer, ends Maria's contract after just 18 home and auto applications in 12 months. Is that allowed? What can she still do?",
+     "say": "Let's apply it. Lakeshore Mutual, an auto and home insurer, ends Maria's contract after just eighteen home and auto applications in twelve months. Is that allowed? What can she still do?",
+     "show": 0
+    },
+    {
+     "text": "Auto and home insurers may end that authority only for conduct, like malfeasance or a Code violation, or for count: fewer than 25 applications in 12 months. Eighteen qualifies.",
+     "say": "Auto and home insurers may end that authority only for conduct, like malfeasance or a Code violation, or for count: fewer than twenty-five applications in twelve months. Eighteen qualifies.",
+     "show": 1
+    },
+    {
+     "text": "But never mainly because of where her business is located. Fired for Conduct or Count, not for County.",
+     "say": "But never mainly because of where her business is located. Fired for Conduct or Count, not for County.",
+     "show": 2
+    },
+    {
+     "text": "Lakeshore still notifies the director within 30 days after the effective date.",
+     "say": "Lakeshore still notifies the director within thirty days after the effective date.",
+     "show": 3
+    },
+    {
+     "text": "She owns renewal rights and her contract is silent, so she may service existing policies but not bind, renew or increase Lakeshore's obligation without approval. And Lakeshore can't cancel or nonrenew them because she was terminated.",
+     "say": "She owns renewal rights and her contract is silent, so she may service existing policies but not bind, renew or increase Lakeshore's obligation without approval. And Lakeshore can't cancel or nonrenew them because she was terminated.",
+     "show": 4,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Report it on time",
+   "src": "MCL 500.1206(5); .1238(1); .1211a; .1247(1),(2)",
+   "columns": [
+    "Event",
+    "Deadline"
+   ],
+   "items": [
+    [
+     "Legal name, address, mailing or email change",
+     "Within 30 days"
+    ],
+    [
+     "Using an assumed name",
+     "Before you use it"
+    ],
+    [
+     "Administrative action, other state or agency",
+     "30 days after final disposition"
+    ],
+    [
+     "Criminal prosecution, anywhere",
+     "30 days after the initial pretrial hearing"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "Keep your record current. Changed your legal name, address, mailing or email address? Tell the director within 30 days.",
+     "say": "Keep your record current. Changed your legal name, address, mailing or email address? Tell the director within thirty days.",
+     "show": 1
+    },
+    {
+     "text": "Doing business under any other name? Notify the director before you use it.",
+     "say": "Doing business under any other name? Notify the director before you use it.",
+     "show": 2
+    },
+    {
+     "text": "Administrative action by another state or Michigan agency? Report within 30 days after final disposition.",
+     "say": "Administrative action by another state or Michigan agency? Report within thirty days after final disposition.",
+     "show": 3
+    },
+    {
+     "text": "A criminal prosecution anywhere, felony or not? Within 30 days after the initial pretrial hearing date. Admin at the finish line, criminal at the starting gun.",
+     "say": "A criminal prosecution anywhere, felony or not? Within thirty days after the initial pretrial hearing date. Admin at the finish line, criminal at the starting gun.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Continuing education numbers",
+   "src": "MCL 500.1206(2); MCL 500.1204c(1),(2),(13); DIFS CE Carryover FAQ",
+   "mn": "mn-mn_reg-08",
+   "hook": "Every 2 years, spend 1 full day (24 hours) learning, 3 of them on ethics. Leftovers? Take home a dozen (12) at most, and ethics never keeps.",
+   "items": [
+    "24 hours of approved CE every 2 years",
+    "At least 3 of the 24 hours in ethics",
+    "Up to 12 extra hours carry over to the next period",
+    "Extra ethics hours never count toward the next period's ethics"
+   ],
+   "beats": [
+    {
+     "text": "Your producer license has no fixed expiration. It stays in force as long as you finish CE on time: 24 hours every 2 years.",
+     "say": "Your producer license has no fixed expiration. It stays in force as long as you finish C E on time: twenty-four hours every two years.",
+     "show": 1
+    },
+    {
+     "text": "At least 3 of those hours must be ethics.",
+     "say": "At least three of those hours must be ethics.",
+     "show": 2
+    },
+    {
+     "text": "Up to 12 extra hours carry over, but extra ethics hours never count toward the next period's ethics requirement.",
+     "say": "Up to twelve extra hours carry over, but extra ethics hours never count toward the next period's ethics requirement.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "The 90-day CE grace period",
+   "src": "MCL 500.1204c(11)",
+   "columns": [
+    {
+     "name": "You may",
+     "icon": "circle-check",
+     "points": [
+      "Service policies you already sold",
+      "Receive commissions on them"
+     ]
+    },
+    {
+     "name": "You may not",
+     "icon": "circle-x",
+     "points": [
+      "Sell or solicit new policies",
+      "Bind coverage",
+      "Otherwise act as a producer"
+     ]
+    }
+   ],
+   "tell": "Still incomplete after 90 days? The director cancels the license, and you must apply again.",
+   "beats": [
+    {
+     "text": "Miss your CE deadline, and a 90-day grace period starts: the 90-day Zamboni. You may resurface the ice you already have and keep collecting on it, but you can't start any new games.",
+     "say": "Miss your C E deadline, and a ninety-day grace period starts: the ninety-day Zamboni. You may resurface the ice you already have and keep collecting on it, but you can't start any new games.",
+     "show": 0
+    },
+    {
+     "text": "So you may service policies you already sold, and receive commissions on them.",
+     "say": "So you may service policies you already sold, and receive commissions on them.",
+     "show": 1
+    },
+    {
+     "text": "You may not sell, solicit, bind, or otherwise act as a producer.",
+     "say": "You may not sell, solicit, bind, or otherwise act as a producer.",
+     "show": 2
+    },
+    {
+     "text": "Still incomplete after 90 days? The director cancels your license, and you must apply again.",
+     "say": "Still incomplete after ninety days? The director cancels your license, and you must apply again.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Your CE deadline passed 20 days ago and your hours aren't done. A neighbor asks you to bind a new homeowners policy today. What may you do?",
+   "choices": [
+    "Bind it, because you're within the 90-day grace period",
+    "Bind it once you enroll in an approved CE course",
+    "Decline; you may only service existing policies and collect their commissions",
+    "Decline, and also stop taking commissions on policies you already sold"
+   ],
+   "answer": 2,
+   "why": "During the 90-day grace period you may service policies you already sold and receive commissions on them, but you may not sell, solicit or bind coverage.",
+   "beats": [
+    {
+     "text": "Your CE deadline passed 20 days ago with hours unfinished. A neighbor asks you to bind a new homeowners policy. What may you do? Pick an answer.",
+     "say": "Your C E deadline passed twenty days ago with hours unfinished. A neighbor asks you to bind a new homeowners policy. What may you do? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Decline. You may service existing policies and collect their commissions, but you can't bind or sell, even after enrolling in a course.",
+     "say": "Decline. You may service existing policies and collect their commissions, but you can't bind or sell, even after enrolling in a course."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "title": "Recap",
+   "items": [
+    "No binding for an insurer until it appoints you",
+    "Hire 15, Fire 30, Mail 15, Talk back 30",
+    "Name or address change: 30 days; assumed name: before use",
+    "Criminal prosecution: 30 days after initial pretrial hearing",
+    "CE: 24 hours every 2 years, 3 in ethics; 90-day service-only grace"
+   ],
+   "beats": [
+    {
+     "text": "To recap. No binding until the insurer appoints you. Hire 15, Fire 30, Mail 15, Talk back 30. Name or address changes: 30 days. Assumed names: before use.",
+     "say": "To recap. No binding until the insurer appoints you. Hire fifteen, Fire thirty, Mail fifteen, Talk back thirty. Name or address changes: thirty days. Assumed names: before use.",
+     "show": 3
+    },
+    {
+     "text": "Criminal prosecutions: 30 days after the initial pretrial hearing. And CE: 24 hours every 2 years, 3 in ethics, with a 90-day service-only grace period.",
+     "say": "Criminal prosecutions: thirty days after the initial pretrial hearing. And C E: twenty-four hours every two years, three in ethics, with a ninety-day service-only grace period.",
+     "show": 5
+    }
+   ]
+  }
+ ]
+}

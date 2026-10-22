@@ -1,0 +1,34 @@
+{
+ "id": "L21",
+ "beats": 37,
+ "mismatches": [
+  {
+   "scene": 0,
+   "beat": 0,
+   "say": "Businessowners questions are six percent of your exam, about nine items.",
+   "heard": "Business owners' questions are 6% of your exam, about 9 items.",
+   "wer": 0.182
+  },
+  {
+   "scene": 0,
+   "beat": 1,
+   "say": "We'll use the twenty thirteen form. Revised forms apply in Michigan to policies written on or after July first, twenty twenty-five, so newer policies may differ.",
+   "heard": "will use the 2013 form. Revised forms apply in Michigan to policies written on or after July 1, 2025, so newer policies may differ.",
+   "wer": 0.037
+  },
+  {
+   "scene": 1,
+   "beat": 0,
+   "say": "A businessowners policy, or B O P, packages property and liability for small-to-medium businesses. It has three sections: property, liability, and common policy conditions.",
+   "heard": "A Business Owner's Policy, or BOP, packages property and liability for small to medium businesses. It has three sections\u2014property, liability, and common policy conditions.",
+   "wer": 0.091
+  },
+  {
+   "scene": 10,
+   "beat": 3,
+   "say": "And Hired and Non-Owned Auto Liability covers hired autos, and autos you don't own, like an employee's car, used in your business.",
+   "heard": "and hired and non-owned auto liability covers hired autos, and autos you do not own, like an employee's car used in your business.",
+   "wer": 0.095
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "id": "L19",
+ "beats": 38,
+ "mismatches": [
+  {
+   "scene": 2,
+   "beat": 1,
+   "say": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. It also adds collapse coverage.",
+   "heard": "Broad is basic plus a Michigan winter. Folling objects, weight of snow, ice, or sleet, and water damage from a system or appliance. It also adds collapse coverage.",
+   "wer": 0.037
+  },
+  {
+   "scene": 3,
+   "beat": 1,
+   "say": "Broad. Falling objects is a peril Broad adds. Special covers it too, but Broad is narrower.",
+   "heard": "Broad, foaling objects is apparel broad ads. Special covers it too, but broad is narrower.",
+   "wer": 0.25
+  },
+  {
+   "scene": 8,
+   "beat": 0,
+   "say": "Try this. After a fire, a Traverse City dentist rents a temporary office to keep seeing patients. Which coverage pays, and when does it start? Pick an answer.",
+   "heard": "Try this. After a fire, a Traversity dentist runs a temporary office to keep seeing patients. Which coverage pays, and when does it start? Pick an answer.",
+   "wer": 0.111
+  },
+  {
+   "scene": 9,
+   "beat": 0,
+   "say": "A few more forms. The condominium association form is primary, and its insurer waives recovery against unit-owners. The commercial unit-owners form is excess over the association's insurance.",
+   "heard": "A few more forms. The condominium association form is primary and its insurer waves recovery against unit owners. The commercial unit owners form is excess over the association's insurance.",
+   "wer": 0.036
+  },
+  {
+   "scene": 11,
+   "beat": 1,
+   "say": "Coverage B, demolition cost. A is the loss to the undamaged portion, and C is the increased cost of construction.",
+   "heard": "Coverage B, demolition cost. O is the loss to the undamaged portion, and C is the increased cost of construction.",
+   "wer": 0.053
+  }
+ ]
+}

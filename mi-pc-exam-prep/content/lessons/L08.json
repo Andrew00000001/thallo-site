@@ -1,0 +1,503 @@
+{
+ "id": "L08",
+ "sec": "basics",
+ "guide": "basics",
+ "title": "Coinsurance, conditions and claims",
+ "summary": "Work the coinsurance formula step by step, then learn the policy conditions, lender and bailee clauses, and Michigan claim timing rules.",
+ "objectives": [
+  "Calculate a coinsurance payment in the right order",
+  "Explain vacancy, duties after loss, assignment and abandonment",
+  "Tell subrogation, salvage, settlement options and the duty to defend apart",
+  "Contrast the mortgage clause, loss payable clause and no benefit to bailee"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Coinsurance, conditions and claims",
+   "subtitle": "Work the formula, then learn the rules that decide who gets paid, and when",
+   "icon": "calculator",
+   "beats": [
+    {
+     "text": "Coinsurance problems hide trap answers, so the order of the steps matters.",
+     "say": "Coinsurance problems hide trap answers, so the order of the steps matters."
+    },
+    {
+     "text": "In this lesson: the formula, the conditions, third-party clauses and claims.",
+     "say": "In this lesson: the formula, the conditions, third-party clauses and claims."
+    }
+   ]
+  },
+  {
+   "type": "formula",
+   "title": "Did over Should, times the Loss, minus the Deductible",
+   "src": "ISO CP 00 10 10 12 (2012 BPP), F.1 Coinsurance and D Deductible; hook adapted from mn-mn_core-19",
+   "given": [
+    "Value at time of loss: $400,000",
+    "Coinsurance: 80%",
+    "Limit carried: $240,000",
+    "Loss: $50,000; deductible: $1,000"
+   ],
+   "items": [
+    {
+     "label": "Should: value × 80%",
+     "expr": "$400,000 × 80%",
+     "value": "$320,000"
+    },
+    {
+     "label": "Did over Should",
+     "expr": "$240,000 ÷ $320,000",
+     "value": "0.75"
+    },
+    {
+     "label": "Times the loss",
+     "expr": "$50,000 × 0.75",
+     "value": "$37,500"
+    },
+    {
+     "label": "Minus the deductible",
+     "expr": "$37,500 − $1,000",
+     "value": "$36,500"
+    },
+    {
+     "label": "That or the limit, whichever is less",
+     "expr": "$36,500 vs. $240,000 limit",
+     "value": "Pays $36,500"
+    }
+   ],
+   "beats": [
+    {
+     "text": "The coinsurance hook: Did over Should, times the Loss, minus the Deductible. Here it is under the 2012 BPP.",
+     "say": "The coinsurance hook: Did over Should, times the Loss, minus the Deductible. Here it is under the twenty twelve B P P.",
+     "show": 0
+    },
+    {
+     "text": "Should: the value at the time of loss, not at inception, times 80%. That's $320,000.",
+     "say": "Should: the value at the time of loss, not at inception, times eighty percent. That's three hundred twenty thousand dollars.",
+     "show": 1
+    },
+    {
+     "text": "Did, the limit carried, over Should is 75%.",
+     "say": "Did, the limit carried, over Should is seventy-five percent.",
+     "show": 2
+    },
+    {
+     "text": "75% of the loss, $50,000, is $37,500. Subtract the deductible last: $36,500.",
+     "say": "Seventy-five percent of the loss, fifty thousand dollars, is thirty-seven thousand five hundred dollars. Subtract the deductible last: thirty-six thousand five hundred dollars.",
+     "show": 4
+    },
+    {
+     "text": "The insurer pays that or the limit, whichever is less. A total loss that computes above the limit gets only the limit.",
+     "say": "The insurer pays that or the limit, whichever is less. A total loss that computes above the limit gets only the limit.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A building worth $500,000 at the time of loss is insured for $300,000 with 80% coinsurance and a $1,000 deductible. A $100,000 covered loss occurs. What does the insurer pay?",
+   "choices": [
+    "$59,000",
+    "$74,000",
+    "$74,250",
+    "$99,000"
+   ],
+   "answer": 1,
+   "why": "Should is 80% of $500,000, or $400,000. $300,000 divided by $400,000 is 0.75. $100,000 times 0.75 is $75,000, minus the $1,000 deductible: $74,000.",
+   "beats": [
+    {
+     "text": "A building worth $500,000 is insured for $300,000, with 80% coinsurance and a deductible of $1,000. The loss is $100,000. What does the insurer pay? Pick an answer.",
+     "say": "A building worth five hundred thousand dollars is insured for three hundred thousand dollars, with eighty percent coinsurance and a deductible of one thousand dollars. The loss is one hundred thousand dollars. What does the insurer pay? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$74,000. Should is $400,000, so the ratio is 75%: $75,000, minus the deductible.",
+     "say": "Seventy-four thousand dollars. Should is four hundred thousand dollars, so the ratio is seventy-five percent: seventy-five thousand dollars, minus the deductible."
+    },
+    {
+     "text": "The traps: $74,250 takes the deductible off first; $59,000 uses the full value.",
+     "say": "The traps: seventy-four thousand two hundred fifty dollars takes the deductible off first; fifty-nine thousand dollars uses the full value."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Vacant vs. unoccupied",
+   "src": "IRMI 'vacant', 'unoccupied'; ISO CP 00 10 10 12 (2012 BPP), E.6",
+   "columns": [
+    {
+     "name": "Vacant",
+     "icon": "warehouse",
+     "points": [
+      "Little or no furniture or personal property inside",
+      "2012 BPP, over 60 consecutive days: vandalism, theft and more excluded",
+      "All other covered losses reduced by 15%"
+     ]
+    },
+    {
+     "name": "Unoccupied",
+     "icon": "house",
+     "points": [
+      "People are away, but the contents remain",
+      "Example: owners spend four months in Florida; the house stays furnished"
+     ]
+    }
+   ],
+   "tell": "Look for the stuff: no furniture or belongings means vacant; belongings there but nobody home means unoccupied.",
+   "beats": [
+    {
+     "text": "Conditions. Vacant means little or no furniture or personal property inside.",
+     "say": "Conditions. Vacant means little or no furniture or personal property inside.",
+     "show": 1
+    },
+    {
+     "text": "Under the 2012 Building and Personal Property form, after more than 60 consecutive days vacant, losses such as vandalism, building glass breakage, water damage and theft aren't covered. Other covered losses are cut by 15%.",
+     "say": "Under the twenty twelve Building and Personal Property form, after more than sixty consecutive days vacant, losses such as vandalism, building glass breakage, water damage and theft aren't covered. Other covered losses are cut by fifteen percent.",
+     "show": 1
+    },
+    {
+     "text": "Unoccupied means people are away but their things remain. The tell: look for the stuff.",
+     "say": "Unoccupied means people are away but their things remain. The tell: look for the stuff.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "The insured's duties and limits",
+   "src": "ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. C, Secs. I and II Cond. E; ISO CP 00 10 10 12 (2012 BPP), E.1, E.3",
+   "items": [
+    {
+     "label": "Duties after loss",
+     "detail": "Prompt notice, police for theft, protect property, inventory, sworn proof of loss within 60 days of a request",
+     "icon": "clipboard-list"
+    },
+    {
+     "label": "Assignment",
+     "detail": "Not valid without the insurer's written consent",
+     "icon": "file-signature"
+    },
+    {
+     "label": "Abandonment",
+     "detail": "Not allowed: the insured can't force damaged property on the insurer",
+     "icon": "ban"
+    }
+   ],
+   "beats": [
+    {
+     "text": "After a loss, the insured gives prompt notice, notifies police of a theft, protects the property, prepares an inventory and, if asked, sends a sworn proof of loss within 60 days.",
+     "say": "After a loss, the insured gives prompt notice, notifies police of a theft, protects the property, prepares an inventory and, if asked, sends a sworn proof of loss within sixty days.",
+     "show": 1
+    },
+    {
+     "text": "Assignment of the policy needs the insurer's written consent.",
+     "say": "Assignment of the policy needs the insurer's written consent.",
+     "show": 2
+    },
+    {
+     "text": "And there's no abandonment: the insured can't force damaged property on the insurer.",
+     "say": "And there's no abandonment: the insured can't force damaged property on the insurer.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "The insurer's rights and duties",
+   "src": "IRMI 'liberalization clause', 'subrogation', 'salvage', 'duty to defend'; ISO CP 00 10 10 12 (2012 BPP), E.4; ISO CG 00 01 04 13",
+   "items": [
+    {
+     "label": "Liberalization",
+     "detail": "Broadened coverage adopted without extra premium applies automatically to existing policies",
+     "icon": "circle-check"
+    },
+    {
+     "label": "Subrogation",
+     "detail": "After paying, the insurer takes over the insured's right to recover from the party legally liable",
+     "icon": "gavel"
+    },
+    {
+     "label": "Salvage",
+     "detail": "Damaged property left after a loss; the insurer may take it at an agreed or appraised value",
+     "icon": "recycle"
+    },
+    {
+     "label": "Settlement options",
+     "detail": "The insurer's choice: pay the value, pay to repair or replace, take the property, or rebuild",
+     "icon": "hand-coins"
+    },
+    {
+     "label": "Duty to defend",
+     "detail": "Defends suits seeking covered damages; ends when the limit is used up paying judgments or settlements",
+     "icon": "shield-check"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Liberalization: broadened coverage adopted without extra premium applies automatically to existing policies.",
+     "say": "Liberalization: broadened coverage adopted without extra premium applies automatically to existing policies.",
+     "show": 1
+    },
+    {
+     "text": "Subrogation: after paying, the insurer takes over the insured's right to recover from the party legally liable.",
+     "say": "Subrogation: after paying, the insurer takes over the insured's right to recover from the party legally liable.",
+     "show": 2
+    },
+    {
+     "text": "Salvage is the damaged property left after a loss.",
+     "say": "Salvage is the damaged property left after a loss.",
+     "show": 3
+    },
+    {
+     "text": "Under the 2012 BPP, settlement options are the insurer's choice: pay the value, pay to repair or replace, take the property, or rebuild. It gives notice within 30 days after the sworn proof of loss.",
+     "say": "Under the twenty twelve B P P, settlement options are the insurer's choice: pay the value, pay to repair or replace, take the property, or rebuild. It gives notice within thirty days after the sworn proof of loss.",
+     "show": 4
+    },
+    {
+     "text": "Duty to defend: in the CGL, it ends when the limit is used up paying judgments or settlements.",
+     "say": "Duty to defend: in the C G L, it ends when the limit is used up paying judgments or settlements.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A plumber's torch starts a fire in Maria's kitchen. Her insurer pays her claim, then sues the plumber to recover what it paid. This is called:",
+   "choices": [
+    "Salvage",
+    "Subrogation",
+    "Liberalization",
+    "Abandonment"
+   ],
+   "answer": 1,
+   "why": "Subrogation: after paying a loss, the insurer takes over the insured's right to recover from the party legally liable.",
+   "beats": [
+    {
+     "text": "Quick check. A plumber's torch starts a fire in Maria's kitchen. Her insurer pays, then sues the plumber. What is that called? Pick an answer.",
+     "say": "Quick check. A plumber's torch starts a fire in Maria's kitchen. Her insurer pays, then sues the plumber. What is that called? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Subrogation. Having paid, the insurer steps into Maria's right to recover from the party responsible.",
+     "say": "Subrogation. Having paid, the insurer steps into Maria's right to recover from the party responsible."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Lenders and bailees",
+   "src": "ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. L, M, S; IRMI 'loss payable clause'; ISO CP 00 90 07 88, F",
+   "columns": [
+    {
+     "name": "Standard mortgage clause",
+     "icon": "landmark",
+     "points": [
+      "Pays the mortgagee and insured as interests appear",
+      "Mortgagee can collect even if the insured's claim is denied",
+      "If it reports risk changes, pays premium due, files proof in 60 days"
+     ]
+    },
+    {
+     "name": "Loss payable clause",
+     "icon": "forklift",
+     "points": [
+      "Pays a party such as an equipment lessor, as its interest may appear",
+      "Usually nothing if the insured's claim can be denied"
+     ]
+    },
+    {
+     "name": "No benefit to bailee",
+     "icon": "warehouse",
+     "points": [
+      "A bailee holding property for a fee can't benefit from the owner's insurance",
+      "Examples: a dry cleaner, mover or warehouse"
+     ]
+    }
+   ],
+   "tell": "If the insured's claim is denied, can the lender still collect? Mortgage clause: yes, if it meets its conditions. Loss payable: usually no.",
+   "beats": [
+    {
+     "text": "The standard mortgage clause pays the mortgagee and insured as interests appear. Even if the insured's claim is denied, the mortgagee can still collect.",
+     "say": "The standard mortgage clause pays the mortgagee and insured as interests appear. Even if the insured's claim is denied, the mortgagee can still collect.",
+     "show": 1
+    },
+    {
+     "text": "Under the 2011 homeowners form, it must report known changes in risk, pay premium due on demand, and file a sworn statement of loss within 60 days after notice.",
+     "say": "Under the twenty eleven homeowners form, it must report known changes in risk, pay premium due on demand, and file a sworn statement of loss within sixty days after notice.",
+     "show": 1
+    },
+    {
+     "text": "Under a typical loss payable clause, the payee usually gets nothing if the insurer can deny the insured.",
+     "say": "Under a typical loss payable clause, the payee usually gets nothing if the insurer can deny the insured.",
+     "show": 2,
+     "tell": true
+    },
+    {
+     "text": "And no benefit to bailee: a dry cleaner holding your clothes for a fee can't use your insurance for its own liability.",
+     "say": "And no benefit to bailee: a dry cleaner holding your clothes for a fee can't use your insurance for its own liability.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Joe's policy names an equipment leasing company as loss payee under a typical loss payable clause. The insurer properly denies Joe's claim. The leasing company:",
+   "choices": [
+    "Collects as its interest may appear",
+    "Usually collects nothing",
+    "Collects if it files a proof of loss within 60 days",
+    "Receives only the unearned premium"
+   ],
+   "answer": 1,
+   "why": "Unlike the standard mortgage clause, a typical loss payable clause gives the payee nothing when the insurer can deny the insured's claim. The 60-day proof belongs to the mortgage clause.",
+   "beats": [
+    {
+     "text": "Joe's policy names an equipment leasing company under a typical loss payable clause. The insurer properly denies Joe's claim. What does the leasing company usually get? Pick an answer.",
+     "say": "Joe's policy names an equipment leasing company under a typical loss payable clause. The insurer properly denies Joe's claim. What does the leasing company usually get? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Usually nothing, because the insurer can deny the insured. The 60-day proof belongs to the mortgage clause.",
+     "say": "Usually nothing, because the insurer can deny the insured. The sixty-day proof belongs to the mortgage clause."
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "A Michigan claim, start to finish",
+   "src": "MCL 500.2006(3),(4); MCL 500.1226(3),(4); IRMI 'adjuster', 'public adjuster'",
+   "icon": "cloud-hail",
+   "story": "Hail wrecks Dana's roof in Kalamazoo. She reports the claim to her homeowners insurer the next day and hires a public adjuster. Who does the adjuster work for, and what deadlines does Michigan's timely-payment law set?",
+   "items": [
+    {
+     "label": "Her public adjuster",
+     "detail": "Represents Dana, not the insurer. Michigan fee cap: 10% of what the insurer pays"
+    },
+    {
+     "label": "Within 30 days of the claim",
+     "detail": "The insurer says in writing what proof of loss it needs, unless it settles first"
+    },
+    {
+     "label": "60 days after proof of loss",
+     "detail": "Unpaid benefits start earning 12% simple interest a year"
+    }
+   ],
+   "answer": "The adjuster works for Dana. The insurer has 30 days to spell out proof of loss; 12% interest if unpaid 60 days after proof.",
+   "beats": [
+    {
+     "text": "A Michigan claim. Hail wrecks Dana's roof in Kalamazoo, and she hires a public adjuster. Who does the adjuster work for, and what deadlines apply?",
+     "say": "A Michigan claim. Hail wrecks Dana's roof in Kalamazoo, and she hires a public adjuster. Who does the adjuster work for, and what deadlines apply?",
+     "show": 0
+    },
+    {
+     "text": "Her public adjuster represents her, not the insurer. In Michigan, the fee can't exceed 10% of what the insurer pays.",
+     "say": "Her public adjuster represents her, not the insurer. In Michigan, the fee can't exceed ten percent of what the insurer pays.",
+     "show": 1
+    },
+    {
+     "text": "Within 30 days after receiving the claim, the insurer must say in writing what proof of loss it needs, unless it settles first.",
+     "say": "Within thirty days after receiving the claim, the insurer must say in writing what proof of loss it needs, unless it settles first.",
+     "show": 2
+    },
+    {
+     "text": "Benefits not paid within 60 days after satisfactory proof of loss bear 12% simple interest a year.",
+     "say": "Benefits not paid within sixty days after satisfactory proof of loss bear twelve percent simple interest a year.",
+     "show": 3
+    },
+    {
+     "text": "So: the adjuster works for Dana, the insurer has 30 days to spell out the proof, and 12% interest runs if she's unpaid 60 days after it.",
+     "say": "So: the adjuster works for Dana, the insurer has thirty days to spell out the proof, and twelve percent interest runs if she's unpaid sixty days after it.",
+     "show": 3,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Applications and binders",
+   "src": "IRMI 'representation', 'material misrepresentation', 'binder', 'express authority'; MCL 500.1201(h)",
+   "items": [
+    {
+     "label": "Application",
+     "detail": "Statements are representations; a material misrepresentation can void coverage",
+     "icon": "file-text"
+    },
+    {
+     "label": "Binder",
+     "detail": "Temporary evidence of insurance until the policy is issued",
+     "icon": "file-check"
+    },
+    {
+     "label": "A sound binder",
+     "detail": "In writing, with a definite time limit, naming the insurer",
+     "icon": "clipboard-check"
+    },
+    {
+     "label": "Binding authority",
+     "detail": "Only within actual or apparent authority; a license alone creates none",
+     "icon": "key-round"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Applications and binders. Application statements are representations; a material misrepresentation can void coverage.",
+     "say": "Applications and binders. Application statements are representations; a material misrepresentation can void coverage.",
+     "show": 1
+    },
+    {
+     "text": "A binder is temporary evidence of insurance until the policy is issued. It should be in writing, with a definite time limit, and name the insurer.",
+     "say": "A binder is temporary evidence of insurance until the policy is issued. It should be in writing, with a definite time limit, and name the insurer.",
+     "show": 3
+    },
+    {
+     "text": "And a producer binds only within actual or apparent authority.",
+     "say": "And a producer binds only within actual or apparent authority.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Did over Should, times the Loss, minus the Deductible; limit caps it",
+    "2012 BPP vacancy over 60 days: some perils out, the rest cut 15%",
+    "Subrogation: after paying, the insurer recovers from the party liable",
+    "A mortgagee can collect after a denial; a loss payee usually can't",
+    "Michigan: 12% to insureds if unpaid 60 days after satisfactory proof"
+   ],
+   "beats": [
+    {
+     "text": "To recap: Did over Should, times the Loss, minus the Deductible, capped by the limit. Under the 2012 BPP, long vacancy drops some perils and cuts the rest by 15%.",
+     "say": "To recap: Did over Should, times the Loss, minus the Deductible, capped by the limit. Under the twenty twelve B P P, long vacancy drops some perils and cuts the rest by fifteen percent.",
+     "show": 2
+    },
+    {
+     "text": "Subrogation recovers from the party liable. A mortgagee survives a denial; a loss payee usually doesn't. In Michigan, late benefits to the insured earn 12% interest.",
+     "say": "Subrogation recovers from the party liable. A mortgagee survives a denial; a loss payee usually doesn't. In Michigan, late benefits to the insured earn twelve percent interest.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "core-039",
+  "core-040",
+  "core-041",
+  "core-045",
+  "core-050"
+ ],
+ "hooks": [],
+ "sources": [
+  "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012), D, E.1, E.3, E.4, E.6, F.1",
+  "ISO CP 00 90 07 88 (Commercial Property Conditions, 1988), F",
+  "ISO HO 00 03 05 11 (Homeowners 3, 2011), Sec. I Cond. C, L, M, S; Secs. I and II Cond. E",
+  "ISO CG 00 01 04 13 (Commercial General Liability, 2013), Sec. I Cov. A.1.a",
+  "IRMI glossary: vacant, unoccupied, liberalization clause, subrogation, salvage, duty to defend, loss payable clause, binder, representation, adjuster, public adjuster",
+  "MCL 500.2006 (timely claim payment)",
+  "MCL 500.1226 (adjuster for the insured)",
+  "MCL 500.1201(h)"
+ ]
+}

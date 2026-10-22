@@ -461,8 +461,8 @@ Edition note. Inland marine and farm form wording below comes from ISO form text
 - Crime: the 60-day extended period to discover (1 year for employee benefit plans) was confirmed in ISO discovery-form text (CR 00 22 05 06, E.1.j); the CR 00 20 11 15 coverage-form text itself was not obtained. Editions differ: the PSI outline lists Computer Fraud and Funds Transfer Fraud separately (2006 editions); the 11 15 edition combines them; a 06 22 edition reportedly has 8 insuring agreements (adds "Fidelity" and "Fraudulent Impersonation").
 - Vacancy is a Loss Condition in CP 00 10, not in CP 00 90 (the CP 00 90 07 88 form has no vacancy clause).
 - Builders risk facts are from CP 00 20 06 95; current edition may word them differently.
-- Value Reporting form (CP 13 10) text not obtained — facts from IRMI only.
-- Pollution Liability Coverage Extension endorsement text not found; not tested.
+- Value Reporting Form facts come from the CP 13 10 04 02 form text (read); IRMI is cited only for the form's general purpose. No later edition was reviewed, so questions name the 2002 edition.
+- Pollution Liability Coverage Extension: the CG 04 22 11 85 endorsement text was read (its single operative sentence is quoted above). No later edition was reviewed, so questions name the 1985 edition.
 - Equipment breakdown: EB 00 20 01 13 / EB 99 59 09 07 from FC&S; a newer EB edition may exist. Older BM forms not reviewed.
 - Farm: coverage-letter details come from the older combined FP 00 10 09 94 form; current FP 00 12/13/14 (04 16 editions reportedly) may differ in sublimits.
 - FL 00 20: FC&S notes a discrepancy in loss-of-earnings amount ($250 vs $500 per day) — not tested.
@@ -738,7 +738,7 @@ Edition relied on: BP 00 03 07 13 (form text read; © ISO 2012). Endorsements: I
 ## Flags
 - BOP eligibility thresholds ($6M sales, 35,000 sq ft, etc.) vary by ISO rule edition and insurer filings — not tested as numbers.
 - Medical Expenses and Damage To Premises Rented To You amounts are set in the BOP Declarations, not the form — no default amounts tested.
-- BP 04 56/04 57 07 13 text not read; types/overhead-line rule from 01 06 edition plus FC&S summary of 07 13 changes.
+- BP 04 56 07 13 and BP 04 57 07 13 form text was read and agrees with the facts above: water, communication and power supply property in both; wastewater removal property only in BP 04 57 07 13 (not for interruptions from heavy rainfall or flooding); overhead transmission lines only if the Schedule says so; electronic data excepted.
 - BP 04 30 symbol wording taken from interline IL 04 15 04 98; BOP version adds P-5 per FC&S.
 
 # other: Other Coverages & Options
@@ -788,7 +788,7 @@ Edition relied on: BP 00 03 07 13 (form text read; © ISO 2012). Endorsements: I
 - Building: single-family and 2-4 family $250,000; other residential (5+ units) $500,000; residential condo building $250,000 x units; non-residential $500,000. Contents: residential $100,000; non-residential $500,000.; building and contents bought separately, each with its own deductible. [FEMA brochures (07-2024; Commercial Summary of Coverage 01-2024)]
 - ICC: up to $30,000 to elevate, demolish, relocate or floodproof after substantial/repetitive damage — paid in addition to the building claim but building + ICC cannot exceed the building maximum. [44 CFR Pt. 61 App. A(1) III.D; FEMA Commercial Summary of Coverage (01-2024)]
 - Residential minimum deductibles (Risk Rating 2.0): $1,000 if building coverage $100,000 or less; $1,250 if over $100,000; pre-FIRM statutorily discounted buildings $1,500 / $2,000; contents $1,000. [FEMA "Simple Guide for Residential Manufactured/Mobile Homes" (RR2.0), citing FIM Sec. 3]
-- Waiting period: typically 30 days; exceptions — purchase in connection with making, increasing, extending or renewing a loan; additional coverage on a renewal bill; building newly mapped into an SFHA (purchase within 13 months after map revision); burned federal land flooding (1-day if bought within 60 days of fire containment). [agents.floodsmart.gov "Flood Insurance 101"]
+- Waiting period: typically 30 days; exceptions — purchase in connection with making, increasing, extending or renewing a loan (no wait: effective at loan closing); additional coverage on a renewal bill; building newly mapped into an SFHA (1-day wait if bought within 13 months after the revised map takes effect); burned federal land flooding (1-day if bought within 60 days of fire containment). [agents.floodsmart.gov "Flood Insurance 101"; 44 CFR 61.11(a)-(d); FEMA NFIP Flood Insurance Manual (Apr. 2021), How To Endorse]
 - Basements: building and contents coverage in a basement (any zone), or below the lowest elevated floor of an elevated post-FIRM building in Zones A1-A30, AE, AH, AR or V1-V30/VE, is limited to listed items. [44 CFR Pt. 61 App. A(1), III.A.8, III.B.5]
 
 ## Other Policies

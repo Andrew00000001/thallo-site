@@ -1,0 +1,567 @@
+{
+  "id": "L03",
+  "sec": "gen",
+  "guide": "gen",
+  "title": "Risk, insurers and how insurance works",
+  "summary": "The words of risk, five ways to handle it, what makes a risk insurable, how reinsurance works, and who owns an insurer.",
+  "objectives": [
+    "Tell risk, exposure, hazard, peril and loss apart",
+    "Name the five methods of handling risk",
+    "List the traits of an insurable risk and explain the law of large numbers",
+    "Compare types of reinsurance, insurers and distribution systems"
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Risk, insurers and how insurance works",
+      "subtitle": "The vocabulary and machinery behind every policy",
+      "icon": "shield",
+      "beats": [
+        {
+          "text": "General Insurance is 10.5% of your exam, about 16 questions.",
+          "say": "General Insurance is ten point five percent of your exam, about sixteen questions."
+        },
+        {
+          "text": "This lesson covers the words of risk, the ways to handle it, and how insurers work.",
+          "say": "This lesson covers the words of risk, the ways to handle it, and how insurers work."
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "Five words of risk",
+      "src": "IRMI glossary: risk; exposure; hazard; peril; National Alliance glossary: loss",
+      "items": [
+        {
+          "label": "Risk",
+          "detail": "Uncertainty about whether a loss will happen",
+          "icon": "dices"
+        },
+        {
+          "label": "Exposure",
+          "detail": "Being subject to loss. Also a rating unit, like payroll",
+          "icon": "eye"
+        },
+        {
+          "label": "Hazard",
+          "detail": "A condition that increases the chance of loss",
+          "icon": "triangle-alert"
+        },
+        {
+          "label": "Peril",
+          "detail": "The cause of loss: fire, windstorm, collision",
+          "icon": "flame"
+        },
+        {
+          "label": "Loss",
+          "detail": "A reduction in value; the basis of a claim",
+          "icon": "trending-down"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Risk is uncertainty about whether a loss will happen.",
+          "say": "Risk is uncertainty about whether a loss will happen.",
+          "show": 1
+        },
+        {
+          "text": "Exposure is being subject to loss. It's also a rating unit, like payroll.",
+          "say": "Exposure is being subject to loss. It's also a rating unit, like payroll.",
+          "show": 2
+        },
+        {
+          "text": "A hazard is a condition that increases the chance of loss, like poor housekeeping.",
+          "say": "A hazard is a condition that increases the chance of loss, like poor housekeeping.",
+          "show": 3
+        },
+        {
+          "text": "A peril is the cause of loss: fire, windstorm, collision.",
+          "say": "A peril is the cause of loss: fire, windstorm, collision.",
+          "show": 4
+        },
+        {
+          "text": "A loss is a reduction in value, the basis of a claim.",
+          "say": "A loss is a reduction in value, the basis of a claim.",
+          "show": 5
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Pure vs. speculative risk",
+      "src": "IRMI glossary: pure risk; speculative risk; National Alliance glossary: speculative risk",
+      "columns": [
+        {
+          "name": "Pure risk",
+          "icon": "house",
+          "points": [
+            "Chance of loss or no loss",
+            "No chance of gain",
+            "Generally insurable",
+            "Example: a house damaged by fire"
+          ]
+        },
+        {
+          "name": "Speculative risk",
+          "icon": "dices",
+          "points": [
+            "Chance of loss or gain",
+            "Example: a new business, gambling",
+            "Often called a business risk",
+            "Generally not insurable"
+          ]
+        }
+      ],
+      "tell": "Ask: could this end in a gain? If yes, it's speculative.",
+      "beats": [
+        {
+          "text": "Pure risk ends only in loss or no loss, with no chance of gain. It's generally insurable.",
+          "say": "Pure risk ends only in loss or no loss, with no chance of gain. It's generally insurable.",
+          "show": 1
+        },
+        {
+          "text": "Speculative risk can bring a gain or a loss, like a new business or gambling. It's generally not insurable.",
+          "say": "Speculative risk can bring a gain or a loss, like a new business or gambling. It's generally not insurable.",
+          "show": 2
+        },
+        {
+          "text": "So ask: could this end in a gain?",
+          "say": "So ask: could this end in a gain?",
+          "show": 2,
+          "tell": true
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "title": "The cabin Up North",
+      "src": "IRMI glossary: exposure; hazard; peril; loss; hook mn-mn_core-01",
+      "icon": "flame",
+      "story": "You own a cabin Up North. Oily rags are piled next to the wood stove. One night a fire breaks out and burns part of the cabin, and you file a claim.",
+      "items": [
+        {
+          "label": "Exposure",
+          "detail": "Owning the cabin: you're subject to loss"
+        },
+        {
+          "label": "Hazard",
+          "detail": "The oily rags: they make a fire more likely"
+        },
+        {
+          "label": "Peril",
+          "detail": "The fire: it causes the loss"
+        },
+        {
+          "label": "Loss",
+          "detail": "The burned value you claim"
+        }
+      ],
+      "answer": "The rags are the hazard. The fire is the peril. Don't swap them.",
+      "beats": [
+        {
+          "text": "Here's a story. You own a cabin Up North, with oily rags piled by the wood stove. One night a fire burns part of it. Name each piece.",
+          "say": "Here's a story. You own a cabin Up North, with oily rags piled by the wood stove. One night a fire burns part of it. Name each piece.",
+          "show": 0
+        },
+        {
+          "text": "Owning the cabin is your exposure. The oily rags are the hazard, because they make a fire more likely.",
+          "say": "Owning the cabin is your exposure. The oily rags are the hazard, because they make a fire more likely.",
+          "show": 2
+        },
+        {
+          "text": "The fire is the peril, the cause. The burned value you claim is the loss.",
+          "say": "The fire is the peril, the cause. The burned value you claim is the loss.",
+          "show": 4
+        },
+        {
+          "text": "Don't swap them. The condition is the hazard; the cause is the peril.",
+          "say": "Don't swap them. The condition is the hazard; the cause is the peril.",
+          "show": 4,
+          "answer": true
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "A home has frayed, outdated electrical wiring that makes a fire more likely. In insurance terms, the wiring is a:",
+      "choices": [
+        "Peril",
+        "Hazard",
+        "Exposure",
+        "Loss"
+      ],
+      "answer": 1,
+      "why": "A hazard is a condition that increases the chance of loss. A fire caused by the wiring would be the peril.",
+      "beats": [
+        {
+          "text": "Your turn. Frayed, outdated wiring makes a house fire more likely. Is the wiring a peril, a hazard, an exposure or a loss? Pick an answer.",
+          "say": "Your turn. Frayed, outdated wiring makes a house fire more likely. Is the wiring a peril, a hazard, an exposure or a loss? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "It's a hazard: a condition that raises the chance of loss. A fire it starts would be the peril.",
+          "say": "It's a hazard: a condition that raises the chance of loss. A fire it starts would be the peril."
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Five ways to handle risk",
+      "src": "IRMI glossary: risk sharing; hold harmless agreement; avoidance; loss control; risk retention; self-insurance",
+      "mn": "mn-mn_core-02",
+      "hook": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
+      "items": [
+        "Share: a group pools losses by a set formula, like a reciprocal",
+        "Transfer: buy insurance, or shift it by contract, like a hold-harmless",
+        "Avoid: don't do the activity. Reduce: cut how often or how badly",
+        "Retain: pay losses yourself, through deductibles or self-insurance"
+      ],
+      "beats": [
+        {
+          "text": "Five ways to handle risk. Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
+          "say": "Five ways to handle risk. Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
+          "show": 0
+        },
+        {
+          "text": "Sharing spreads losses across a group by a set formula, like a reciprocal.",
+          "say": "Sharing spreads losses across a group by a set formula, like a reciprocal.",
+          "show": 1
+        },
+        {
+          "text": "Transfer shifts the financial consequences to someone else, by buying insurance or by a contract like a hold-harmless agreement.",
+          "say": "Transfer shifts the financial consequences to someone else, by buying insurance or by a contract like a hold-harmless agreement.",
+          "show": 2
+        },
+        {
+          "text": "Avoidance skips the activity. Reduction cuts how often losses happen, like driver training, or how bad they are, like sprinklers.",
+          "say": "Avoidance skips the activity. Reduction cuts how often losses happen, like driver training, or how bad they are, like sprinklers.",
+          "show": 3
+        },
+        {
+          "text": "Retention means paying losses yourself, with deductibles or self-insurance. A deductible retains the first part of each loss and transfers the rest.",
+          "say": "Retention means paying losses yourself, with deductibles or self-insurance. A deductible retains the first part of each loss and transfers the rest.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "A trucking company keeps its trucks on the road but starts a driver-training program so fewer accidents happen. Which method of handling risk is this?",
+      "choices": [
+        "Avoidance",
+        "Reduction",
+        "Transfer",
+        "Retention"
+      ],
+      "answer": 1,
+      "why": "Driver training lowers how often losses happen. The company still runs trucks, so it has not avoided the risk.",
+      "beats": [
+        {
+          "text": "Quick check. A trucking company keeps driving but starts driver training so fewer accidents happen. Which method is that? Pick an answer.",
+          "say": "Quick check. A trucking company keeps driving but starts driver training so fewer accidents happen. Which method is that? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "Reduction. Training cuts how often losses happen. It isn't avoidance, because the company still does the activity.",
+          "say": "Reduction. Training cuts how often losses happen. It isn't avoidance, because the company still does the activity."
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "What makes a risk insurable",
+      "src": "Rejda & McNamara, Principles of Risk Management and Insurance (13th ed.); hook mn-mn_core-03",
+      "mn": "mn-mn_core-03",
+      "hook": "An ideally insurable risk is a CLEAN Deal: Calculable, Large numbers, Economically feasible premium, Accidental, Not catastrophic, Determinable.",
+      "items": [
+        "Calculable chance of loss; a Large number of exposure units",
+        "Economically feasible premium; an Accidental, unintentional loss",
+        "Not catastrophic: a large share of units shouldn't be hit at once",
+        "Determinable and measurable loss"
+      ],
+      "beats": [
+        {
+          "text": "The ideal insurable risk is a CLEAN Deal.",
+          "say": "The ideal insurable risk is a CLEAN Deal.",
+          "show": 0
+        },
+        {
+          "text": "Calculable chance of loss. Large number of exposure units. Economically feasible premium. Accidental, unintentional loss.",
+          "say": "Calculable chance of loss. Large number of exposure units. Economically feasible premium. Accidental, unintentional loss.",
+          "show": 2
+        },
+        {
+          "text": "Not catastrophic. Watch out: an EXCEPT question may claim the loss should be catastrophic. It shouldn't.",
+          "say": "Not catastrophic. Watch out: an EXCEPT question may claim the loss should be catastrophic. It shouldn't.",
+          "show": 3
+        },
+        {
+          "text": "Determinable and measurable loss. Textbooks word this list differently, so learn the six ideas.",
+          "say": "Determinable and measurable loss. Textbooks word this list differently, so learn the six ideas.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Law of large numbers vs. adverse selection",
+      "src": "IRMI glossary: law of large numbers; adverse selection",
+      "columns": [
+        {
+          "name": "Law of large numbers",
+          "icon": "users",
+          "points": [
+            "More independent exposure units",
+            "Actual losses come closer to expected losses",
+            "A bigger pool makes the data more credible",
+            "It doesn't change any one unit's chance of loss"
+          ]
+        },
+        {
+          "name": "Adverse selection",
+          "icon": "user-x",
+          "points": [
+            "Those who see a high chance of loss buy more often",
+            "Creates an imbalance in the exposure group",
+            "Underwriting exists largely to counter it"
+          ]
+        }
+      ],
+      "tell": "Large numbers is about the size of the pool. Adverse selection is about who chooses to join it.",
+      "beats": [
+        {
+          "text": "The law of large numbers: the more independent exposure units, the more likely actual losses will equal expected losses.",
+          "say": "The law of large numbers: the more independent exposure units, the more likely actual losses will equal expected losses.",
+          "show": 1
+        },
+        {
+          "text": "Adverse selection is the threat: people who see a high chance of loss buy insurance far more often. Underwriting exists largely to counter it.",
+          "say": "Adverse selection is the threat: people who see a high chance of loss buy insurance far more often. Underwriting exists largely to counter it.",
+          "show": 2
+        },
+        {
+          "text": "One is the size of the pool; the other is who joins it.",
+          "say": "One is the size of the pool; the other is who joins it.",
+          "show": 2,
+          "tell": true
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Reinsurance: insurance for insurers",
+      "src": "IRMI glossary: reinsurance; ceding company; treaty; facultative; quota share; excess of loss; capacity; surplus relief",
+      "columns": [
+        "Type",
+        "How it works"
+      ],
+      "items": [
+        [
+          "Treaty",
+          "Whole classes; must accept all that qualify"
+        ],
+        [
+          "Facultative",
+          "Risk by risk; reinsurer may decline"
+        ],
+        [
+          "Quota share (pro rata)",
+          "Same set % of premium and of losses"
+        ],
+        [
+          "Excess of loss",
+          "Pays above the retention, up to a limit"
+        ]
+      ],
+      "beats": [
+        {
+          "text": "Insurers buy insurance too. A reinsurer, for a premium, covers part or all of the liability of the primary insurer, called the ceding company.",
+          "say": "Insurers buy insurance too. A reinsurer, for a premium, covers part or all of the liability of the primary insurer, called the ceding company.",
+          "show": 0
+        },
+        {
+          "text": "A treaty covers whole classes, and the reinsurer must accept every qualifying risk. Facultative goes risk by risk, and the reinsurer may decline.",
+          "say": "A treaty covers whole classes, and the reinsurer must accept every qualifying risk. Facultative goes risk by risk, and the reinsurer may decline.",
+          "show": 2
+        },
+        {
+          "text": "Quota share, a pro rata form, shares premium and losses at the same percentage. Excess of loss pays only above the ceding company's retention, up to a limit.",
+          "say": "Quota share, a pro rata form, shares premium and losses at the same percentage. Excess of loss pays only above the ceding company's retention, up to a limit.",
+          "show": 4
+        },
+        {
+          "text": "Insurers buy it for capacity, surplus relief, stable results and catastrophe protection.",
+          "say": "Insurers buy it for capacity, surplus relief, stable results and catastrophe protection.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "A reinsurer receives an agreed percentage of the premium on every policy in a class and pays that same percentage of every loss. This is:",
+      "choices": [
+        "Facultative reinsurance",
+        "Excess of loss reinsurance",
+        "Quota share reinsurance",
+        "A reciprocal exchange"
+      ],
+      "answer": 2,
+      "why": "Quota share is a pro rata form: premium and losses are shared at the same percentage. Excess of loss pays only above a retention; facultative goes risk by risk.",
+      "beats": [
+        {
+          "text": "Try this. A reinsurer takes an agreed percentage of the premium on every policy in a class and pays that percentage of every loss. Which type is it? Pick an answer.",
+          "say": "Try this. A reinsurer takes an agreed percentage of the premium on every policy in a class and pays that percentage of every loss. Which type is it? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "Quota share, a pro rata form. Excess of loss would pay only above the retention.",
+          "say": "Quota share, a pro rata form. Excess of loss would pay only above the retention."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Who owns the insurer?",
+      "src": "IRMI glossary: stock company; mutual company; reciprocal; Lloyd's of London",
+      "columns": [
+        {
+          "name": "Stock company",
+          "icon": "landmark",
+          "points": [
+            "Owned by stockholders",
+            "Stockholders need not be insureds",
+            "Capital fund paid in by stockholders"
+          ]
+        },
+        {
+          "name": "Mutual company",
+          "icon": "users",
+          "points": [
+            "Owned by its policyholders",
+            "Every owner is an insured, every insured an owner"
+          ]
+        },
+        {
+          "name": "Reciprocal",
+          "icon": "handshake",
+          "points": [
+            "Unincorporated group of subscribers",
+            "Subscribers pool their risks",
+            "Managed by an attorney-in-fact"
+          ]
+        }
+      ],
+      "tell": "Follow the owner. And Lloyd's is a marketplace of underwriters, not an insurer.",
+      "beats": [
+        {
+          "text": "Who owns the insurer? A stock company is owned by stockholders, who need not be insureds. They pay in a capital fund.",
+          "say": "Who owns the insurer? A stock company is owned by stockholders, who need not be insureds. They pay in a capital fund.",
+          "show": 1
+        },
+        {
+          "text": "A mutual is owned by its policyholders. Every owner is an insured, and every insured is an owner.",
+          "say": "A mutual is owned by its policyholders. Every owner is an insured, and every insured is an owner.",
+          "show": 2
+        },
+        {
+          "text": "A reciprocal is an unincorporated group of subscribers who pool risks, managed by an attorney-in-fact.",
+          "say": "A reciprocal is an unincorporated group of subscribers who pool risks, managed by an attorney-in-fact.",
+          "show": 3
+        },
+        {
+          "text": "And Lloyd's isn't an insurance company. It's a marketplace of independent underwriters.",
+          "say": "And Lloyd's isn't an insurance company. It's a marketplace of independent underwriters.",
+          "show": 3,
+          "tell": true
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "Ratings and distribution systems",
+      "src": "A.M. Best, Guide to Best's Financial Strength Ratings (Version 121719); IRMI: independent agency; exclusive agency; direct writer",
+      "items": [
+        {
+          "label": "A.M. Best: A++ and A+ Superior",
+          "detail": "A and A- Excellent. A rating is not a recommendation to buy",
+          "icon": "badge-check"
+        },
+        {
+          "label": "Independent agency system",
+          "detail": "Sells for one or more insurers; the agent owns the expirations",
+          "icon": "briefcase"
+        },
+        {
+          "label": "Exclusive (captive) agency",
+          "detail": "Represents only one company or group",
+          "icon": "building-2"
+        },
+        {
+          "label": "Direct writer",
+          "detail": "The insurer's own employed sales force",
+          "icon": "users"
+        }
+      ],
+      "beats": [
+        {
+          "text": "An A.M. Best financial strength rating is an independent opinion of an insurer's ability to meet its obligations. A plus plus and A plus are Superior; A and A minus are Excellent.",
+          "say": "An A M Best financial strength rating is an independent opinion of an insurer's ability to meet its obligations. A plus plus and A plus are Superior; A and A minus are Excellent.",
+          "show": 1
+        },
+        {
+          "text": "Independent agents sell for one or more insurers and own the expirations.",
+          "say": "Independent agents sell for one or more insurers and own the expirations.",
+          "show": 2
+        },
+        {
+          "text": "A captive agent represents one company or group. A direct writer uses its own employees.",
+          "say": "A captive agent represents one company or group. A direct writer uses its own employees.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "items": [
+        "A hazard is the condition; a peril is the cause of loss",
+        "Pure risk is generally insurable; speculative can bring a gain",
+        "STARR: Share, Transfer, Avoid, Reduce, Retain",
+        "An ideally insurable risk is a CLEAN Deal: not catastrophic",
+        "Stockholders own a stock company; policyholders own a mutual"
+      ],
+      "beats": [
+        {
+          "text": "To recap: a hazard is the condition, a peril the cause. Pure risk is generally insurable; speculative can bring a gain.",
+          "say": "To recap: a hazard is the condition, a peril the cause. Pure risk is generally insurable; speculative can bring a gain.",
+          "show": 2
+        },
+        {
+          "text": "Handle risk like a STARR. Ideally insurable risks are a CLEAN Deal. Stockholders own a stock company; policyholders own a mutual.",
+          "say": "Handle risk like a STARR. Ideally insurable risks are a CLEAN Deal. Stockholders own a stock company; policyholders own a mutual.",
+          "show": 5
+        }
+      ]
+    }
+  ],
+  "check": [
+    "core-001",
+    "core-gen-07",
+    "core-004",
+    "core-007",
+    "core-gen-13"
+  ],
+  "hooks": [
+    "mn-mn_core-02",
+    "mn-mn_core-03"
+  ],
+  "sources": [
+    "IRMI glossary",
+    "National Alliance Research Academy insurance glossary",
+    "Rejda & McNamara, Principles of Risk Management and Insurance (13th ed.)",
+    "A.M. Best, Guide to Best's Financial Strength Ratings (Version 121719)",
+    "PSI Michigan P&C content outline (Series 16-81)"
+  ]
+}

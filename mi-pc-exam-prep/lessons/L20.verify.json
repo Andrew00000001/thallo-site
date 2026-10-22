@@ -1,0 +1,48 @@
+{
+ "id": "L20",
+ "beats": 37,
+ "mismatches": [
+  {
+   "scene": 0,
+   "beat": 0,
+   "say": "Four more coverage parts: crime, inland marine, equipment breakdown and farm. Each has a few exam favorites.",
+   "heard": "For more coverage parts, crime, inland marine, equipment breakdown, and farm. Each has a few exam favorites.",
+   "wer": 0.062
+  },
+  {
+   "scene": 3,
+   "beat": 0,
+   "say": "The twenty fifteen crime form has seven insuring agreements. Employee Theft covers theft by employees of money, securities or other property.",
+   "heard": "The 2015 crime form has seven ensuring agreements. Employee theft covers theft by employees of money, securities, or other property.",
+   "wer": 0.048
+  },
+  {
+   "scene": 5,
+   "beat": 0,
+   "say": "Try this. A business with a discovery-form crime policy discovers, mid-term, a theft from two years before the policy began. No retroactive date applies. Is it covered? Pick an answer.",
+   "heard": "Try this. A business with a discovery form crime policy discovers, midterm, a theft from two years before the policy began. No retroactive date applies. Is it covered? Pick an answer.",
+   "wer": 0.062
+  },
+  {
+   "scene": 6,
+   "beat": 0,
+   "say": "On to inland marine. The Nationwide Marine Definition lists six classes. The first three are imports, exports, and domestic shipments.",
+   "heard": "Onto Inland Marine. The nationwide marine definition lists six classes. The first three are imports, exports, and domestic shipments.",
+   "wer": 0.105
+  },
+  {
+   "scene": 11,
+   "beat": 1,
+   "say": "Chickens. They're poultry, which is defined separately. Goats, mules and swine are all livestock.",
+   "heard": "chickens, their poultry, which is defined separately. Goats, mules, and swine are all livestock.",
+   "wer": 0.077
+  },
+  {
+   "scene": 12,
+   "beat": 1,
+   "say": "Marine classes exclude buildings. Equipment breakdown pays replacement cost unless endorsed. And farm runs A to J.",
+   "heard": "Marine classes exclude buildings, equipment breakdown pays replacement cost unless endorsed, and farm runs at a J.",
+   "wer": 0.125
+  }
+ ]
+}

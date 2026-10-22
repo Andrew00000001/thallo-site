@@ -1,0 +1,76 @@
+{
+ "id": "L04",
+ "beats": 42,
+ "mismatches": [
+  {
+   "scene": 1,
+   "beat": 0,
+   "say": "In Michigan, an agent of the insurer sells, solicits or negotiates as the insurer's representative.",
+   "heard": "In Michigan, an agent of the insurer's cells solicits or negotiates as the insurer's representative.",
+   "wer": 0.133
+  },
+  {
+   "scene": 2,
+   "beat": 3,
+   "say": "Apparent authority is what a reasonable person would assume you have from the insurer's conduct. It's tied to estoppel.",
+   "heard": "Apparent authority is what a reasonable person would assume you have from the insurer's conduct. It's tied to a stopple.",
+   "wer": 0.105
+  },
+  {
+   "scene": 5,
+   "beat": 4,
+   "say": "And the purpose must be legal. A policy insuring a shipment of illegal drugs is unenforceable.",
+   "heard": "and the purpose must be legal. A policy ensuring a shipment of illegal drugs is unenforceable.",
+   "wer": 0.067
+  },
+  {
+   "scene": 6,
+   "beat": 3,
+   "say": "Unilateral: only the insurer makes enforceable promises. Personal: it insures you, not the property, so assignment needs the insurer's written consent.",
+   "heard": "Unilateral, only the insurer makes enforceable promises. Personal, it ensures you, not the property, so assignment needs the insurer's written consent.",
+   "wer": 0.048
+  },
+  {
+   "scene": 6,
+   "beat": 4,
+   "say": "Aleatory: an unequal exchange that depends on an uncertain event. Don't confuse it with adhesion, which is about who wrote it.",
+   "heard": "Aleatori, an unequal exchange that depends on an uncertain event. Do not confuse it with adhesion, which is about who wrote it.",
+   "wer": 0.045
+  },
+  {
+   "scene": 7,
+   "beat": 0,
+   "say": "Check the two A's. One insured pays premiums for ten years with no claim. Another pays for one month and collects a large loss. Which trait is that? Pick an answer.",
+   "heard": "Check the two A's. One insured pays premiums for ten years with no claim. Another pays for one month and collects a large loss. Which trade is that? Pick an answer.",
+   "wer": 0.033
+  },
+  {
+   "scene": 7,
+   "beat": 1,
+   "say": "Aleatory. The exchange is unequal and depends on an uncertain event. Adhesion would be about who drafted the policy.",
+   "heard": "Aliyah Torrey. The exchange is unequal and depends on an uncertain event. Adhesion would be about who drafted the policy.",
+   "wer": 0.111
+  },
+  {
+   "scene": 8,
+   "beat": 3,
+   "say": "And utmost good faith presumes both parties disclose all pertinent facts.",
+   "heard": "An utmost good faith presumes both parties disclose all pertinent facts.",
+   "wer": 0.1
+  },
+  {
+   "scene": 11,
+   "beat": 1,
+   "say": "If an insurer keeps accepting late premiums, it may be estopped from canceling for late payment.",
+   "heard": "If an insurer keeps accepting late premiums, it may be estopped from cancelling for late payment.",
+   "wer": 0.062
+  },
+  {
+   "scene": 12,
+   "beat": 0,
+   "say": "In Michigan, a producer not appointed by the insurer writing the policy represents the insured. Express is explained, implied inferred, apparent appears.",
+   "heard": "In Michigan, a producer not appointed by the insurer writing the policy represents the insured. Express is explained, implied and furred, apparent appears.",
+   "wer": 0.045
+  }
+ ]
+}

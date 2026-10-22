@@ -1,0 +1,62 @@
+{
+ "id": "L13",
+ "beats": 28,
+ "mismatches": [
+  {
+   "scene": 1,
+   "beat": 1,
+   "say": "Coverage F, Medical Payments to Others, pays medical expenses incurred within three years of the accident. It never covers you or regular residents of your household, except residence employees.",
+   "heard": "Coverage F, medical payments to others, pays medical expenses incurred within three years of the accident. It never covers you or regular residents of your household, except residents' employees.",
+   "wer": 0.034
+  },
+  {
+   "scene": 3,
+   "beat": 1,
+   "say": "The nine-year-old's accident. Intentional damage by an insured thirteen or older isn't covered, and neither is property an insured owns.",
+   "heard": "the nine-year-old's accident. Intentional damage by an insured 13 or older is not covered, and neither is property and insured owns.",
+   "wer": 0.045
+  },
+  {
+   "scene": 4,
+   "beat": 0,
+   "say": "Jake owns a fishing boat with a forty horsepower outboard. He bought it three years ago and never reported it. On Houghton Lake, he injures a swimmer. Does his H O three Coverage E apply?",
+   "heard": "Jake owns a fishing boat with a 40 horsepower outboard. He bought it three years ago and never reported it. On Haughton Lake, he injures a swimmer. Does his H03 coverage e-apply?",
+   "wer": 0.03
+  },
+  {
+   "scene": 4,
+   "beat": 1,
+   "say": "Owned outboards totaling twenty five horsepower or less are covered. A bigger one is covered only if acquired during the policy period, or declared at inception, or reported within forty five days after he acquired it.",
+   "heard": "Owned-out boards totaling 25 horsepower or less are covered. A bigger one is covered only if acquired during the policy period, or declared at inception, or reported within 45 days after he acquired it.",
+   "wer": 0.056
+  },
+  {
+   "scene": 6,
+   "beat": 2,
+   "say": "Paid day care for unrelated children is a business when it's an occupation, or paid more than two thousand dollars in the twelve months before the policy period. Then its liability is excluded. Home Day Care Coverage adds limited coverage back.",
+   "heard": "Paid daycare for unrelated children is a business when it's an occupation or paid more than $2,000 in the 12 months before the policy period. Then its liability is excluded. Home daycare coverage adds limited coverage back.",
+   "wer": 0.098
+  },
+  {
+   "scene": 8,
+   "beat": 1,
+   "say": "The insured who set the fire isn't covered. Suit is due within two years, tolled from notice of loss until formal denial. These points summarize the twenty eleven Michigan endorsement; newer editions may differ.",
+   "heard": "The insured who set the fire is not covered. Suit is due within two years, told from notice of loss until formal denial. These points summarize the 2011 Michigan endorsement. Newer editions may differ.",
+   "wer": 0.029
+  },
+  {
+   "scene": 9,
+   "beat": 0,
+   "say": "Last one. In Michigan, Dan intentionally burns the home. His wife, Ana, took no part. What coverage does Ana have? Pick an answer.",
+   "heard": "Last one, in Michigan, Dan intentionally burns the home. His wife, Anna, took no part. What coverage does Anna have? Pick an answer.",
+   "wer": 0.087
+  },
+  {
+   "scene": 10,
+   "beat": 0,
+   "say": "To recap. Coverage E pays damages and defense; Coverage F pays others' medical bills, not your household's, except residence employees. Damage to property of others pays up to one thousand dollars.",
+   "heard": "To recap, Coverage E pays damages and defense. Coverage F pays others medical bills, not your households, except residents' employees. Damage to property of others pays up to $1,000.",
+   "wer": 0.033
+  }
+ ]
+}

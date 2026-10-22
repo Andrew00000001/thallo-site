@@ -1,0 +1,41 @@
+{
+ "id": "L17",
+ "beats": 31,
+ "mismatches": [
+  {
+   "scene": 0,
+   "beat": 0,
+   "say": "Businesses insure their vehicles on commercial auto forms. The Business Auto numbers here come from its twenty twenty edition.",
+   "heard": "businesses ensure their vehicles on commercial auto forms. The business auto numbers here come from its 2020 edition.",
+   "wer": 0.053
+  },
+  {
+   "scene": 1,
+   "beat": 1,
+   "say": "The Garage form combined liability, garagekeepers and physical damage for garage risks. The Business Auto Physical Damage form gave physical damage only. Both were eliminated in the twenty thirteen revision.",
+   "heard": "The garage form combined liability, garage keepers, and physical damage for garage risks. The business auto-physical damage form gave physical damage only. Both were eliminated in the 2013 revision.",
+   "wer": 0.069
+  },
+  {
+   "scene": 6,
+   "beat": 0,
+   "say": "Garagekeepers covers customers' autos left in your care while you service, repair, park or store them. Hail hits a customer's car at a repair shop with garagekeepers Comprehensive. The shop did nothing wrong. Does it pay?",
+   "heard": "GarageKeepers covers customers' autos left in your care while you service, repair, park, or store them. Hale hits a customer's car at a repair shop with GarageKeepers comprehensive. The shop did nothing wrong. Does it pay?",
+   "wer": 0.028
+  },
+  {
+   "scene": 7,
+   "beat": 2,
+   "say": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
+   "heard": "Without an endorsement, the business auto form covers mobile equipment for liability only while a covered auto carries or toes it.",
+   "wer": 0.048
+  },
+  {
+   "scene": 9,
+   "beat": 0,
+   "say": "Your turn. A Michigan plumbing company insures its vans on the Business Auto form. What provides its Michigan no-fault P I P? Pick an answer.",
+   "heard": "Your turn. A Michigan plumbing company ensures its vans on the business auto form. What provides its Michigan no-fault PIP? Pick an answer.",
+   "wer": 0.042
+  }
+ ]
+}

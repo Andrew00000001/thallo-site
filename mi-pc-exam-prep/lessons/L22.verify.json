@@ -1,0 +1,41 @@
+{
+ "id": "L22",
+ "beats": 36,
+ "mismatches": [
+  {
+   "scene": 2,
+   "beat": 0,
+   "say": "Who must carry comp in Michigan? The hook: three at once, or one at thirty-five for thirteen, out of the last fifty-two. Public employers: every one, any size.",
+   "heard": "who must carry comp in Michigan, the hook, three at once or one at 35 for 13 out of the last 52. Public employers, everyone any size.",
+   "wer": 0.067
+  },
+  {
+   "scene": 5,
+   "beat": 0,
+   "say": "Now Michigan's benefits. The hook: wait seven, paid from day eight, back-paid at two weeks. Then eighty percent of after-tax wages, capped at ninety percent of the state average.",
+   "heard": "Now Michigan's benefits. The hook, weight seven, paid from day eight, back paid at two weeks. Then 80% of after-tax wages, capped at 90% of the state average.",
+   "wer": 0.032
+  },
+  {
+   "scene": 6,
+   "beat": 1,
+   "say": "Second, the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to maritime workers, like ship repairers, on navigable waters, piers and dry docks.",
+   "heard": "Second, the Longshore and Harbor Workers' Compensation Act pays no fault benefits to maritime workers, like ship repairs, unnavigable waters, piers, and dry docks.",
+   "wer": 0.13
+  },
+  {
+   "scene": 7,
+   "beat": 0,
+   "say": "A cook on a Great Lakes freighter, a crew member, is hurt aboard and sues his employer before a jury. Which law? Pick an answer.",
+   "heard": "A cook on a Great Lakes freighter, a crew member, is heard aboard and sues his employer before a jury. Which law? Pick an answer.",
+   "wer": 0.042
+  },
+  {
+   "scene": 9,
+   "beat": 1,
+   "say": "Payroll divided by one hundred is two thousand five hundred. Times four dollars, the manual premium is ten thousand dollars.",
+   "heard": "Payroll divided by 100 is $2,500. Times $4, the manual premium is $10,000.",
+   "wer": 0.05
+  }
+ ]
+}

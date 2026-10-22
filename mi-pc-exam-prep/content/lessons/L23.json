@@ -1,0 +1,540 @@
+{
+ "id": "L23",
+ "sec": "other",
+ "guide": "other",
+ "title": "Umbrella, specialty liability, bonds, surplus lines and flood",
+ "summary": "Umbrella vs excess, professional and other specialty liability, surety bonds, Michigan surplus lines, NFIP flood, and self-insured retentions.",
+ "objectives": [
+  "Tell umbrella from excess and match specialty liability coverages to claims",
+  "Name the three parties to a surety bond and the main bond types",
+  "Know Michigan's surplus lines rules and the NFIP limits, wait and deductibles",
+  "Explain how a self-insured retention differs from a deductible"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Other coverages and options",
+   "subtitle": "Umbrella and excess, specialty liability, surety bonds, surplus lines, flood and self-insurance",
+   "icon": "umbrella",
+   "beats": [
+    {
+     "text": "Other coverages are 4% of your exam, about 6 questions.",
+     "say": "Other coverages are four percent of your exam, about six questions."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Umbrella vs excess liability",
+   "src": "IRMI glossary 'umbrella liability policy', 'follow form', 'excess liability policy'",
+   "columns": [
+    {
+     "name": "Umbrella",
+     "icon": "umbrella",
+     "points": [
+      "Adds limits when underlying limits are used up",
+      "Drops down when an underlying aggregate is exhausted",
+      "Covers some claims the underlying doesn't, after a self-insured retention"
+     ]
+    },
+    {
+     "name": "Excess (follow form)",
+     "icon": "layers",
+     "points": [
+      "Generally follows the underlying policy's terms",
+      "Adds limits; doesn't broaden coverage"
+     ]
+    }
+   ],
+   "tell": "Can it pay a claim the primary policy doesn't cover? Umbrella. Does it only add limits? Excess.",
+   "beats": [
+    {
+     "text": "An umbrella adds limits when underlying limits run out, drops down when an underlying aggregate is exhausted, and covers some claims the underlying doesn't, after a self-insured retention.",
+     "say": "An umbrella adds limits when underlying limits run out, drops down when an underlying aggregate is exhausted, and covers some claims the underlying doesn't, after a self-insured retention.",
+     "show": 1
+    },
+    {
+     "text": "An excess, or follow form, policy generally follows the underlying terms and adds limits. It doesn't broaden coverage.",
+     "say": "An excess, or follow form, policy generally follows the underlying terms and adds limits. It doesn't broaden coverage.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Specialty liability: match the claim",
+   "src": "IRMI glossary (E&O; Side A, corporate reimbursement, entity coverage; fiduciary liability; EPLI); ISO CG 00 33 04 13; MCL 436.1803(1)",
+   "columns": [
+    "Coverage",
+    "Responds to"
+   ],
+   "items": [
+    [
+     "Errors and omissions (E&O)",
+     "A client's financial loss from a mistake"
+    ],
+    [
+     "Directors and officers (D&O)",
+     "A: D&Os. B: company reimbursed. C: entity"
+    ],
+    [
+     "Fiduciary liability",
+     "Errors running ERISA employee benefit plans"
+    ],
+    [
+     "Employment practices (EPLI)",
+     "Discrimination, wrongful termination"
+    ],
+    [
+     "Liquor liability",
+     "Injury from selling or serving alcohol"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "Errors and omissions generally covers financial loss from a professional mistake, not bodily injury or property damage.",
+     "say": "Errors and omissions generally covers financial loss from a professional mistake, not bodily injury or property damage.",
+     "show": 1
+    },
+    {
+     "text": "D&O: Side A pays directors and officers directly, Side B reimburses the company for indemnifying them, and Side C covers the company itself.",
+     "say": "D and O: Side A pays directors and officers directly, Side B reimburses the company for indemnifying them, and Side C covers the company itself.",
+     "show": 2
+    },
+    {
+     "text": "Fiduciary liability covers errors in running ERISA employee benefit plans.",
+     "say": "Fiduciary liability covers errors in running E R I S A employee benefit plans.",
+     "show": 3
+    },
+    {
+     "text": "EPLI covers employment claims like discrimination, harassment and wrongful termination.",
+     "say": "E P L I covers employment claims like discrimination, harassment and wrongful termination.",
+     "show": 4
+    },
+    {
+     "text": "Liquor liability covers injury from selling or serving alcohol. Michigan retail liquor licensees must file proof of financial responsibility of at least $50,000.",
+     "say": "Liquor liability covers injury from selling or serving alcohol. Michigan retail liquor licensees must file proof of financial responsibility of at least fifty thousand dollars.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Jen, a producer, forgets to add a client's newly bought warehouse to his property policy. It burns, and he sues her for the uninsured loss. Which coverage is designed for this claim?",
+   "choices": [
+    "Commercial general liability",
+    "Errors and omissions",
+    "Directors and officers liability",
+    "Employment practices liability"
+   ],
+   "answer": 1,
+   "why": "The claim is a client's financial loss caused by a mistake in Jen's professional duties, which is what errors and omissions insurance is designed to cover.",
+   "beats": [
+    {
+     "text": "Jen, a producer, forgets to add a client's new warehouse to his property policy. It burns, and he sues her. Which coverage is designed for this? Pick an answer.",
+     "say": "Jen, a producer, forgets to add a client's new warehouse to his property policy. It burns, and he sues her. Which coverage is designed for this? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Errors and omissions. The client's financial loss came from a mistake in Jen's professional duties.",
+     "say": "Errors and omissions. The client's financial loss came from a mistake in Jen's professional duties."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Professional liability vs the CGL",
+   "src": "IRMI glossary 'professional liability', 'claims-made policy', 'defense within limits', 'consent to settlement clause'; ISO CG 00 01 04 13",
+   "columns": [
+    {
+     "name": "Professional liability",
+     "icon": "briefcase",
+     "points": [
+      "Most policies are claims-made",
+      "Defense costs reduce the limit (shrinking limits)",
+      "Insurer must seek your consent to settle (hammer clause)"
+     ]
+    },
+    {
+     "name": "CGL",
+     "icon": "shield",
+     "points": [
+      "Defense paid in addition to the limits",
+      "Insurer may settle at its discretion"
+     ]
+    }
+   ],
+   "tell": "Professional liability: claims-made, shrinking limits, and your consent to settle.",
+   "beats": [
+    {
+     "text": "Most professional liability policies are claims-made: a claim made during the policy period triggers them, whenever the error happened.",
+     "say": "Most professional liability policies are claims-made: a claim made during the policy period triggers them, whenever the error happened.",
+     "show": 1
+    },
+    {
+     "text": "Defense costs usually reduce the limit, called shrinking limits. And under a consent to settlement, or hammer, clause, the insurer must seek your approval before settling.",
+     "say": "Defense costs usually reduce the limit, called shrinking limits. And under a consent to settlement, or hammer, clause, the insurer must seek your approval before settling.",
+     "show": 1
+    },
+    {
+     "text": "In a CGL, defense is paid on top of the limits, and the insurer may settle at its discretion.",
+     "say": "In a C G L, defense is paid on top of the limits, and the insurer may settle at its discretion.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Surety bonds: three parties",
+   "src": "FAR 48 CFR 28.001 'Bond'; surety.org; SFAA and AGC surety claims guide; IRMI glossary 'surety bond', 'obligee'",
+   "columns": [
+    {
+     "name": "Principal",
+     "icon": "hard-hat",
+     "points": [
+      "Promises to perform, like a contractor",
+      "Must reimburse the surety for losses"
+     ]
+    },
+    {
+     "name": "Obligee",
+     "icon": "building-2",
+     "points": [
+      "Protected party, like the project owner",
+      "Usually requires the bond"
+     ]
+    },
+    {
+     "name": "Surety",
+     "icon": "shield-check",
+     "points": [
+      "Guarantees the principal's promise",
+      "Secondarily liable"
+     ]
+    }
+   ],
+   "tell": "The principal promises, the obligee is protected, the surety guarantees.",
+   "beats": [
+    {
+     "text": "A surety bond has three parties. The principal, like a contractor, promises to perform.",
+     "say": "A surety bond has three parties. The principal, like a contractor, promises to perform.",
+     "show": 1
+    },
+    {
+     "text": "The obligee, like the project owner, is protected. It usually requires the bond.",
+     "say": "The obligee, like the project owner, is protected. It usually requires the bond.",
+     "show": 2
+    },
+    {
+     "text": "The surety guarantees the promise. Unlike insurance, the principal must reimburse the surety for any loss it pays.",
+     "say": "The surety guarantees the promise. Unlike insurance, the principal must reimburse the surety for any loss it pays.",
+     "show": 3,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Bond types and what they guarantee",
+   "src": "FAR 48 CFR 28.001; IRMI 'license and permit bond', 'fiduciary bond'; FC&S 'Judicial Bonds' (2000), 'License and Permit Bonds' (2010)",
+   "columns": [
+    "Bond",
+    "Guarantees"
+   ],
+   "items": [
+    [
+     "Bid bond",
+     "Bidder will sign and furnish the bonds"
+    ],
+    [
+     "Performance bond",
+     "Contractor will perform the contract"
+    ],
+    [
+     "Payment bond",
+     "Labor and material suppliers get paid"
+    ],
+    [
+     "License and permit bond",
+     "Licensee will comply with the law"
+    ],
+    [
+     "Fiduciary bond (judicial)",
+     "Court-appointed fiduciary acts faithfully"
+    ],
+    [
+     "Court bond (judicial)",
+     "Damages or costs if the court action fails"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "Contract bonds: a bid bond guarantees the bidder will sign the contract and furnish the required bonds; a performance bond, that the contract is performed; a payment bond, that labor and material suppliers get paid.",
+     "say": "Contract bonds: a bid bond guarantees the bidder will sign the contract and furnish the required bonds; a performance bond, that the contract is performed; a payment bond, that labor and material suppliers get paid.",
+     "show": 3
+    },
+    {
+     "text": "A license and permit bond guarantees a licensee will comply with the laws for its activity.",
+     "say": "A license and permit bond guarantees a licensee will comply with the laws for its activity.",
+     "show": 4
+    },
+    {
+     "text": "Judicial bonds come in two classes: fiduciary bonds, for people the court trusts with others' property, and court bonds, like an attachment or injunction bond, which pay if the bonded party's court action fails.",
+     "say": "Judicial bonds come in two classes: fiduciary bonds, for people the court trusts with others' property, and court bonds, like an attachment or injunction bond, which pay if the bonded party's court action fails.",
+     "show": 6
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A township won't issue a business license until the applicant posts a bond guaranteeing it will follow township ordinances. Who is the obligee?",
+   "choices": [
+    "The township",
+    "The business applying for the license",
+    "The surety company",
+    "The producer who arranged the bond"
+   ],
+   "answer": 0,
+   "why": "On a license and permit bond, the government body that requires the bond and is protected by it is the obligee. The applicant is the principal; the surety guarantees.",
+   "beats": [
+    {
+     "text": "A township won't issue a business license until the applicant posts a bond promising to follow its ordinances. Who's the obligee? Pick an answer.",
+     "say": "A township won't issue a business license until the applicant posts a bond promising to follow its ordinances. Who's the obligee? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The township: it requires the bond and is protected by it. The applicant is the principal.",
+     "say": "The township: it requires the bond and is protected by it. The applicant is the principal."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Surplus lines in Michigan",
+   "src": "MCL 500.1903(1); 500.1905(1),(3)(d); 500.1910(1)-(3); 500.1922 (federal NRRA home-state rules not reviewed)",
+   "items": [
+    {
+     "label": "Unauthorized but eligible insurer",
+     "detail": "Not licensed in Michigan; placed only by a surplus lines licensee",
+     "icon": "file-signature"
+    },
+    {
+     "label": "Only if admitted insurers won't write it",
+     "detail": "Presumed available if 3 or more authorized insurers readily write it",
+     "icon": "search"
+    },
+    {
+     "label": "Red-ink notice, 10-point type",
+     "detail": "Insurer not licensed by Michigan; claims may not be guaranteed if it's insolvent",
+     "icon": "triangle-alert"
+    },
+    {
+     "label": "2% tax plus 0.5% fee",
+     "detail": "Set by Michigan statute; paid by the licensee",
+     "icon": "percent"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Surplus lines insurers aren't licensed in Michigan but are eligible to write here, through a surplus lines licensee.",
+     "say": "Surplus lines insurers aren't licensed in Michigan but are eligible to write here, through a surplus lines licensee.",
+     "show": 1
+    },
+    {
+     "text": "It's only for coverage authorized insurers won't provide; if 3 or more readily write it, it's presumed available.",
+     "say": "It's only for coverage authorized insurers won't provide; if three or more readily write it, it's presumed available.",
+     "show": 2
+    },
+    {
+     "text": "Each policy carries a red-ink notice in at least 10-point type: the insurer isn't licensed by Michigan, and claims may not be guaranteed if it's insolvent.",
+     "say": "Each policy carries a red-ink notice in at least ten-point type: the insurer isn't licensed by Michigan, and claims may not be guaranteed if it's insolvent.",
+     "show": 3
+    },
+    {
+     "text": "Under Michigan's statute, the licensee pays a 2% tax plus a 0.5% regulatory fee.",
+     "say": "Under Michigan's statute, the licensee pays a two percent tax plus a zero point five percent regulatory fee.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Flood: NFIP limits and the wait",
+   "src": "44 CFR 61.6; 44 CFR Pt. 61 App. A(1) III.D; FEMA brochures (07-2024; 01-2024); floodsmart.gov; amounts can change",
+   "mn": "mn-mn_comm-23",
+   "hook": "Homes: 250 and 100. Businesses: 500 and 500. Code compliance: 30 grand. The wait: 30 days, but none when you buy it as part of a loan closing.",
+   "items": [
+    "Homes (single-family, 2-4 family): $250,000 building; residential contents $100,000",
+    "Non-residential: $500,000 building and $500,000 contents",
+    "Increased Cost of Compliance: up to $30,000, within the building maximum",
+    "Wait: typically 30 days; none when bought in connection with a loan"
+   ],
+   "beats": [
+    {
+     "text": "Now the National Flood Insurance Program. The hook: homes, 250 and 100. Businesses, 500 and 500. Code compliance, 30 grand. The wait, 30 days, but none when you buy it as part of a loan closing.",
+     "say": "Now the National Flood Insurance Program. The hook: homes, two hundred fifty and one hundred. Businesses, five hundred and five hundred. Code compliance, thirty grand. The wait, thirty days, but none when you buy it as part of a loan closing.",
+     "show": 0
+    },
+    {
+     "text": "Homes, meaning single-family and 2 to 4 family, get $250,000 building and $100,000 contents. Non-residential gets $500,000 each.",
+     "say": "Homes, meaning single-family and two to four family, get two hundred fifty thousand dollars building and one hundred thousand dollars contents. Non-residential gets five hundred thousand dollars each.",
+     "show": 2
+    },
+    {
+     "text": "Increased Cost of Compliance adds up to $30,000 to elevate, demolish, relocate or floodproof, but building plus that payment can't exceed the building maximum.",
+     "say": "Increased Cost of Compliance adds up to thirty thousand dollars to elevate, demolish, relocate or floodproof, but building plus that payment can't exceed the building maximum.",
+     "show": 3
+    },
+    {
+     "text": "The loan exception covers making, increasing, extending or renewing a loan.",
+     "say": "The loan exception covers making, increasing, extending or renewing a loan.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "NFIP: who sells it, other exceptions, deductibles",
+   "src": "44 CFR 61.11; FEMA brochure (07-2024); agents.floodsmart.gov 'Flood Insurance 101'; FEMA RR2.0 Simple Guide (deductibles; can change)",
+   "items": [
+    {
+     "label": "NFIP Direct or Write Your Own (WYO)",
+     "detail": "WYO: private insurers write and service it in their own names; the government pays all losses",
+     "icon": "building-2"
+    },
+    {
+     "label": "Other exceptions to the 30-day wait",
+     "detail": "Added coverage on a renewal bill. Newly mapped into an SFHA: 1-day wait if bought within 13 months",
+     "icon": "calendar"
+    },
+    {
+     "label": "Flooding on burned federal land",
+     "detail": "1-day wait if bought within 60 days of fire containment",
+     "icon": "flame"
+    },
+    {
+     "label": "Minimum deductibles (Risk Rating 2.0)",
+     "detail": "Residential, no pre-FIRM discount: building $1,000 if $100,000 or less, $1,250 if more; contents $1,000",
+     "icon": "receipt"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Write Your Own companies are private insurers that write and service policies in their own names; the federal government pays all losses. Coverage matches NFIP Direct.",
+     "say": "Write Your Own companies are private insurers that write and service policies in their own names; the federal government pays all losses. Coverage matches N F I P Direct.",
+     "show": 1
+    },
+    {
+     "text": "Other exceptions: added coverage on a renewal bill, and a 1-day wait for a building newly mapped into a special flood hazard area.",
+     "say": "Other exceptions: added coverage on a renewal bill, and a one-day wait for a building newly mapped into a special flood hazard area.",
+     "show": 2
+    },
+    {
+     "text": "For flooding on burned federal land, the wait is 1 day if you buy within 60 days of fire containment.",
+     "say": "For flooding on burned federal land, the wait is one day if you buy within sixty days of fire containment.",
+     "show": 3
+    },
+    {
+     "text": "FEMA's Risk Rating 2.0 minimum deductibles, which can change: for a residential building with no pre-FIRM discount, $1,000 if coverage is $100,000 or less, $1,250 if more. Contents: a separate $1,000.",
+     "say": "FEMA's Risk Rating two point zero minimum deductibles, which can change: for a residential building with no pre-firm discount, one thousand dollars if coverage is one hundred thousand dollars or less, one thousand two hundred fifty dollars if more. Contents: a separate one thousand dollars.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "formula",
+   "title": "Self-insured retention vs deductible",
+   "src": "IRMI glossary 'self-insurance', 'self-insured retention (SIR)' (IRMI's own example)",
+   "given": [
+    "Covered liability claim: $100,000",
+    "Self-insured retention or deductible: $25,000"
+   ],
+   "items": [
+    {
+     "label": "SIR: insured pays first",
+     "expr": "Defense and damages up to the SIR",
+     "value": "$25,000"
+    },
+    {
+     "label": "SIR: insurer pays the rest",
+     "expr": "$100,000 − $25,000",
+     "value": "$75,000"
+    },
+    {
+     "label": "Deductible: insurer pays the claim",
+     "expr": "The full covered claim",
+     "value": "$100,000"
+    },
+    {
+     "label": "Deductible: insurer bills the insured",
+     "expr": "Reimbursement of the deductible",
+     "value": "$25,000"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Last, self-insurance: a formal decision to retain risk and pay losses from a set-aside fund. Here's a self-insured retention versus a deductible.",
+     "say": "Last, self-insurance: a formal decision to retain risk and pay losses from a set-aside fund. Here's a self-insured retention versus a deductible.",
+     "show": 0
+    },
+    {
+     "text": "With an SIR of $25,000, the insured pays the first $25,000 itself, and the insurer pays the other $75,000.",
+     "say": "With an S I R of twenty-five thousand dollars, the insured pays the first twenty-five thousand dollars itself, and the insurer pays the other seventy-five thousand dollars.",
+     "show": 2
+    },
+    {
+     "text": "With a deductible of $25,000, the insurer pays all $100,000, then bills the insured $25,000.",
+     "say": "With a deductible of twenty-five thousand dollars, the insurer pays all one hundred thousand dollars, then bills the insured twenty-five thousand dollars.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Umbrella can cover more; excess only adds limits",
+    "E&O and most professional liability: financial loss, claims-made",
+    "Bonds: principal promises, obligee protected, surety guarantees",
+    "Surplus lines: red-ink notice; Michigan's 2% tax plus 0.5% fee",
+    "NFIP homes: $250,000 and $100,000; 30-day wait, none with a loan"
+   ],
+   "beats": [
+    {
+     "text": "Let's recap: umbrella versus excess, professional liability, bond parties, surplus lines, and flood numbers.",
+     "say": "Let's recap: umbrella versus excess, professional liability, bond parties, surplus lines, and flood numbers.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "comm-060",
+  "comm-oth-04",
+  "comm-065",
+  "comm-072",
+  "comm-oth-14"
+ ],
+ "hooks": [
+  "mn-mn_comm-23"
+ ],
+ "sources": [
+  "IRMI glossary: umbrella liability policy; follow form; excess liability policy",
+  "IRMI glossary: errors and omissions; professional liability; defense within limits; consent to settlement clause; self-insurance; self-insured retention",
+  "IRMI glossary: Side A coverage; corporate reimbursement coverage; entity securities coverage; fiduciary liability; employment practices liability insurance",
+  "ISO CG 00 33 04 13; ISO CG 00 01 04 13",
+  "MCL 436.1803(1)",
+  "FAR 48 CFR 28.001",
+  "surety.org 'What is a Surety Bond?'; SFAA and AGC Surety Claims Guide",
+  "FC&S 'Judicial Bonds' (Aug. 2000); FC&S 'License and Permit Bonds' (Feb. 2010)",
+  "MCL 500.1903; 500.1905; 500.1910; 500.1922",
+  "44 CFR 61.6; 44 CFR 61.11; 44 CFR Pt. 61 App. A(1)",
+  "FEMA 'Meeting the Flood Insurance Requirement' (07-2024); FEMA Commercial Summary of Coverage (01-2024)",
+  "agents.floodsmart.gov 'Flood Insurance 101'",
+  "FEMA Risk Rating 2.0 Simple Guide (residential manufactured and mobile homes)",
+  "PSI Series 16-81 content outline"
+ ]
+}

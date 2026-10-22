@@ -1,0 +1,407 @@
+{
+ "id": "L11",
+ "sec": "ho",
+ "guide": "ho",
+ "title": "Homeowners forms and Section I coverages",
+ "summary": "Match HO-2 through HO-8 to who they fit and how they cover, then learn Coverages A to D, the special limits and key additional coverages.",
+ "objectives": [
+  "Match each homeowners form to its perils basis and who it fits",
+  "Place a property loss under Coverage A, B, C or D",
+  "Apply the 2011 Coverage C special limits, including the theft-only limits",
+  "Recall the tree and ordinance or law additional coverages"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Homeowners forms and Section I coverages",
+   "subtitle": "ISO 2011 homeowners program (05 11 forms); HO-2, HO-5 and HO-8 checked in the 2000 forms",
+   "icon": "house",
+   "beats": [
+    {
+     "text": "Homeowners is 15% of your exam: 22 items. This lesson covers the forms and the property coverages.",
+     "say": "Homeowners is fifteen percent of your exam: twenty two items. This lesson covers the forms and the property coverages."
+    },
+    {
+     "text": "Dollar amounts come from the 2011 forms unless another edition is named. The newer 2022 forms changed some of them.",
+     "say": "Dollar amounts come from the twenty eleven forms unless another edition is named. The newer twenty twenty two forms changed some of them."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Broad, Special, Comprehensive",
+   "src": "ISO HO 00 02 10 00; HO 00 03 05 11; HO 00 05 10 00, Sec. I Perils Insured Against; AIC 43 (eligibility)",
+   "columns": [
+    {
+     "name": "HO-2 Broad",
+     "icon": "layers",
+     "points": [
+      "Named perils on A, B and C",
+      "Same 16 perils as HO-3 Coverage C"
+     ]
+    },
+    {
+     "name": "HO-3 Special",
+     "icon": "house",
+     "points": [
+      "Open perils on A and B",
+      "16 named perils on C, including theft"
+     ]
+    },
+    {
+     "name": "HO-5 Comprehensive",
+     "icon": "shield-check",
+     "points": [
+      "Open perils on A, B and C"
+     ]
+    }
+   ],
+   "tell": "Count the open-perils coverages: HO-2 none, HO-3 the buildings only, HO-5 buildings and personal property.",
+   "beats": [
+    {
+     "text": "Start with three forms for the owner-occupant of a 1- to 4-family dwelling. HO-2, the Broad Form, covers the dwelling, other structures and personal property for named perils only.",
+     "say": "Start with three forms for the owner-occupant of a one to four family dwelling. H O two, the Broad Form, covers the dwelling, other structures and personal property for named perils only.",
+     "show": 1
+    },
+    {
+     "text": "HO-3, the Special Form, covers the dwelling and other structures for open perils: any direct physical loss not excluded. Personal property gets 16 named perils, including theft.",
+     "say": "H O three, the Special Form, covers the dwelling and other structures for open perils: any direct physical loss not excluded. Personal property gets sixteen named perils, including theft.",
+     "show": 2
+    },
+    {
+     "text": "HO-5, the Comprehensive Form, is open perils on all three. The quick tell: count the open-perils coverages.",
+     "say": "H O five, the Comprehensive Form, is open perils on all three. The quick tell: count the open-perils coverages.",
+     "show": 3,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "A number peg for the forms",
+   "src": "ISO HO 00 04 05 11; HO 00 06 05 11; HO 00 08 10 00; AIC 43; adapted from memory hook mn_prop-13",
+   "hook": "HO-2 Broad: a named list. HO-3 Special: the house is open. HO-4: renters. HO-5: high-five, open on everything. HO-6: the condo unit. HO-8: older homes.",
+   "items": [
+    "HO-4, tenants: Coverages C and D only, no A or B",
+    "HO-6, condo unit owners and co-op shareholders: A covers fixtures and improvements",
+    "HO-8 (2000 edition): 10 named perils; theft on premises only, up to $1,000"
+   ],
+   "beats": [
+    {
+     "text": "A number peg: HO-2 Broad, a named list. HO-3 Special, the house is open. HO-4, renters. HO-5, high-five, open on everything. HO-6, the condo unit. HO-8, older homes.",
+     "say": "A number peg: H O two Broad, a named list. H O three Special, the house is open. H O four, renters. H O five, high five, open on everything. H O six, the condo unit. H O eight, older homes.",
+     "show": 0
+    },
+    {
+     "text": "HO-4 is for tenants: Coverages C and D only, no A or B.",
+     "say": "H O four is for tenants: Coverages C and D only, no A or B.",
+     "show": 1
+    },
+    {
+     "text": "HO-6 is for condo unit owners and co-op shareholders. Its Coverage A isn't the whole building: it covers the unit's alterations, appliances, fixtures and improvements.",
+     "say": "H O six is for condo unit owners and co-op shareholders. Its Coverage A isn't the whole building: it covers the unit's alterations, appliances, fixtures and improvements.",
+     "show": 2
+    },
+    {
+     "text": "HO-8, in the 2000 edition, fits older homes whose replacement cost far exceeds market value. Theft is covered only on premises, up to $1,000 per loss.",
+     "say": "H O eight, in the two thousand edition, fits older homes whose replacement cost far exceeds market value. Theft is covered only on premises, up to one thousand dollars per loss.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Which homeowners form insures the dwelling on an open-perils basis but personal property only for named perils?",
+   "choices": [
+    "HO-2 Broad Form",
+    "HO-3 Special Form",
+    "HO-5 Comprehensive Form"
+   ],
+   "answer": 1,
+   "why": "HO-3 is open perils on Coverages A and B and named perils on Coverage C. HO-2 is named perils on all three; HO-5 is open perils on all three.",
+   "beats": [
+    {
+     "text": "Quick check. Which form covers the dwelling on open perils, but personal property only for named perils? Pick an answer.",
+     "say": "Quick check. Which form covers the dwelling on open perils, but personal property only for named perils? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "HO-3, the Special Form: the house is open perils, your belongings named perils.",
+     "say": "H O three, the Special Form: the house is open perils, your belongings named perils."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Section I: Coverages A to D (2011 HO-3)",
+   "src": "ISO HO 00 03 05 11, Sec. I Coverages A–D",
+   "columns": [
+    "Coverage",
+    "Covers",
+    "Key rule"
+   ],
+   "items": [
+    [
+     "A Dwelling",
+     "House and attached structures",
+     "Land is not covered"
+    ],
+    [
+     "B Other Structures",
+     "Set apart by clear space",
+     "10% of A; does not reduce A"
+    ],
+    [
+     "C Personal Property",
+     "Belongings, anywhere in the world",
+     "Other residence: 10% of C or $1,000"
+    ],
+    [
+     "D Loss of Use",
+     "Living expense and fair rental value",
+     "Civil authority: up to 2 weeks"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "Coverage A is the dwelling and structures attached to it, like an attached garage. The land is not covered.",
+     "say": "Coverage A is the dwelling and structures attached to it, like an attached garage. The land is not covered.",
+     "show": 1
+    },
+    {
+     "text": "Coverage B is other structures set apart by clear space, like a detached shed. It's 10% of Coverage A, and using it does not reduce A.",
+     "say": "Coverage B is other structures set apart by clear space, like a detached shed. It's ten percent of Coverage A, and using it does not reduce A.",
+     "show": 2
+    },
+    {
+     "text": "Coverage C is personal property, anywhere in the world. But property usually kept at another residence, or in self-storage, is limited to 10% of C or $1,000, whichever is greater.",
+     "say": "Coverage C is personal property, anywhere in the world. But property usually kept at another residence, or in self-storage, is limited to ten percent of C or one thousand dollars, whichever is greater.",
+     "show": 3
+    },
+    {
+     "text": "Coverage D, Loss of Use, is one limit for additional living expense and fair rental value. If a civil authority prohibits use of the home because of covered damage next door, it pays up to 2 weeks.",
+     "say": "Coverage D, Loss of Use, is one limit for additional living expense and fair rental value. If a civil authority prohibits use of the home because of covered damage next door, it pays up to two weeks.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "Belongings at the cottage",
+   "src": "ISO HO 00 03 05 11, Sec. I Coverage C.1–C.2",
+   "icon": "tree-pine",
+   "story": "Maya has a 2011 HO-3 with a $60,000 Coverage C limit. She keeps belongings with an actual cash value of $9,000 at her own cottage up north, a second residence. A covered fire destroys them. How much is paid, ignoring the deductible?",
+   "items": [
+    {
+     "label": "Fire is a named peril",
+     "detail": "Coverage C covers her property anywhere in the world"
+    },
+    {
+     "label": "But it's usually kept at another residence",
+     "detail": "Limit: 10% of C or $1,000, whichever is greater"
+    },
+    {
+     "label": "Do the math",
+     "detail": "10% of $60,000 is $6,000, which beats $1,000"
+    }
+   ],
+   "answer": "$6,000, not the full $9,000.",
+   "beats": [
+    {
+     "text": "Maya's Coverage C limit is $60,000. She keeps $9,000 of belongings at her own cottage up north, and a fire destroys them. What does her HO-3 pay?",
+     "say": "Maya's Coverage C limit is sixty thousand dollars. She keeps nine thousand dollars of belongings at her own cottage up north, and a fire destroys them. What does her H O three pay?",
+     "show": 0
+    },
+    {
+     "text": "Fire is a covered peril, and Coverage C goes anywhere. But property usually kept at another residence is limited to 10% of C or $1,000, whichever is greater.",
+     "say": "Fire is a covered peril, and Coverage C goes anywhere. But property usually kept at another residence is limited to ten percent of C or one thousand dollars, whichever is greater.",
+     "show": 2
+    },
+    {
+     "text": "10% of $60,000 is $6,000. That beats $1,000, so the policy pays $6,000.",
+     "say": "Ten percent of sixty thousand dollars is six thousand dollars. That beats one thousand dollars, so the policy pays six thousand dollars.",
+     "show": 3,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Coverage C special limits (2011 HO-3)",
+   "src": "ISO HO 00 03 05 11, Sec. I Coverage C.3.a–i",
+   "columns": [
+    "Limit",
+    "Property"
+   ],
+   "items": [
+    [
+     "$200",
+     "Money, bank notes, coins"
+    ],
+    [
+     "$1,500",
+     "Securities, deeds, passports, tickets"
+    ],
+    [
+     "$1,500",
+     "Watercraft, with trailers and motors"
+    ],
+    [
+     "$1,500",
+     "Theft of jewelry, watches, furs"
+    ],
+    [
+     "$2,500",
+     "Theft of firearms; theft of silverware"
+    ],
+    [
+     "$2,500",
+     "Business property on premises ($1,500 away)"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "Some property has a special limit per loss. Money and coins: $200. Securities, deeds and passports: $1,500. Watercraft, with trailers and motors: $1,500.",
+     "say": "Some property has a special limit per loss. Money and coins: two hundred dollars. Securities, deeds and passports: one thousand five hundred dollars. Watercraft, with trailers and motors: one thousand five hundred dollars.",
+     "show": 3
+    },
+    {
+     "text": "Now the trap. Jewelry, watches and furs: $1,500, but only for theft. Firearms and silverware: $2,500 each, also only for theft.",
+     "say": "Now the trap. Jewelry, watches and furs: one thousand five hundred dollars, but only for theft. Firearms and silverware: two thousand five hundred dollars each, also only for theft.",
+     "show": 5,
+     "hl": 3
+    },
+    {
+     "text": "Business property: $2,500 on premises, $1,500 away. These limits don't increase Coverage C.",
+     "say": "Business property: two thousand five hundred dollars on premises, one thousand five hundred dollars away. These limits don't increase Coverage C.",
+     "show": 6
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Under the 2011 HO-3, a fire destroys jewelry with an actual cash value of $4,000. Coverage C is $80,000. Ignoring the deductible, the policy pays:",
+   "choices": [
+    "$1,500",
+    "$2,500",
+    "$4,000"
+   ],
+   "answer": 2,
+   "why": "The $1,500 jewelry special limit applies only to loss by theft. A fire loss is paid in full, within the Coverage C limit.",
+   "beats": [
+    {
+     "text": "Your turn. A fire destroys jewelry with an actual cash value of $4,000. Coverage C is $80,000. Ignoring the deductible, what does the 2011 HO-3 pay? Pick an answer.",
+     "say": "Your turn. A fire destroys jewelry with an actual cash value of four thousand dollars. Coverage C is eighty thousand dollars. Ignoring the deductible, what does the twenty eleven H O three pay? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$4,000. The jewelry limit applies only to theft. If a burglar had taken it, the most paid would be $1,500.",
+     "say": "Four thousand dollars. The jewelry limit applies only to theft. If a burglar had taken it, the most paid would be one thousand five hundred dollars."
+    }
+   ]
+  },
+  {
+   "type": "bignum",
+   "title": "Additional coverages (2011 HO-3)",
+   "src": "ISO HO 00 03 05 11, Sec. I Additional Coverages E.1.b, E.3, E.11",
+   "items": [
+    {
+     "value": "5% of A",
+     "label": "Trees and plants: $500 per tree, not windstorm"
+    },
+    {
+     "value": "$1,000",
+     "label": "Tree removal per loss, $500 per tree"
+    },
+    {
+     "value": "10% of A",
+     "label": "Ordinance or law, additional insurance"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Trees, shrubs and plants get up to 5% of Coverage A, $500 per tree. Their perils include theft and vandalism, but not windstorm.",
+     "say": "Trees, shrubs and plants get up to five percent of Coverage A, five hundred dollars per tree. Their perils include theft and vandalism, but not windstorm.",
+     "show": 1
+    },
+    {
+     "text": "Don't confuse that with tree removal: up to $1,000 per loss, $500 per tree, to remove trees felled by windstorm, hail, or weight of ice, snow or sleet. The tree must damage a covered structure or block a driveway or handicap ramp.",
+     "say": "Don't confuse that with tree removal: up to one thousand dollars per loss, five hundred dollars per tree, to remove trees felled by windstorm, hail, or weight of ice, snow or sleet. The tree must damage a covered structure or block a driveway or handicap ramp.",
+     "show": 2
+    },
+    {
+     "text": "Ordinance or law pays up to 10% of Coverage A, as additional insurance, for increased costs from enforcing building ordinances after a covered loss.",
+     "say": "Ordinance or law pays up to ten percent of Coverage A, as additional insurance, for increased costs from enforcing building ordinances after a covered loss.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Under the 2011 HO-3, a windstorm knocks down a healthy backyard tree. It hits nothing and blocks nothing. What do the tree additional coverages pay?",
+   "choices": [
+    "Nothing",
+    "Up to $500 to replace the tree",
+    "Up to $1,000 to remove the tree"
+   ],
+   "answer": 0,
+   "why": "Windstorm is not a covered peril for trees, shrubs and plants. Tree removal applies only if the tree damages a covered structure or blocks a driveway or handicap ramp.",
+   "beats": [
+    {
+     "text": "One more. A windstorm knocks down a healthy backyard tree. It hits nothing and blocks nothing. What do the tree coverages pay? Pick an answer.",
+     "say": "One more. A windstorm knocks down a healthy backyard tree. It hits nothing and blocks nothing. What do the tree coverages pay? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Nothing. Windstorm isn't a covered peril for trees. And tree removal needs damage to a covered structure, or a blocked driveway or ramp.",
+     "say": "Nothing. Windstorm isn't a covered peril for trees. And tree removal needs damage to a covered structure, or a blocked driveway or ramp."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "HO-2 named; HO-3 open on A and B; HO-5 open on A, B and C",
+    "HO-4: C and D only. HO-6 A: the unit's fixtures and improvements",
+    "Attached structures are A; detached are B, at 10% of A",
+    "HO-3: jewelry, firearms and silverware limits are theft only",
+    "HO-3 trees: 5% of A, not windstorm. Ordinance or law: 10% of A"
+   ],
+   "beats": [
+    {
+     "text": "To recap. HO-2 is named perils, HO-3 is open on the buildings, and HO-5 is open on everything. HO-4 has C and D only.",
+     "say": "To recap. H O two is named perils, H O three is open on the buildings, and H O five is open on everything. H O four has C and D only.",
+     "show": 2
+    },
+    {
+     "text": "Attached structures are A; detached ones are B. HO-3 jewelry, firearms and silverware limits apply only to theft. And windstorm doesn't replace trees.",
+     "say": "Attached structures are A; detached ones are B. H O three jewelry, firearms and silverware limits apply only to theft. And windstorm doesn't replace trees.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "prop-033",
+  "prop-gap-10",
+  "prop-gap-12",
+  "prop-041",
+  "prop-045"
+ ],
+ "hooks": [
+  "mn-mn_prop-13"
+ ],
+ "sources": [
+  "ISO HO 00 03 05 11",
+  "ISO HO 00 04 05 11",
+  "ISO HO 00 06 05 11",
+  "ISO HO 00 02 10 00",
+  "ISO HO 00 05 10 00",
+  "ISO HO 00 08 10 00",
+  "The Institutes, AIC 43 (ISO 2011 HO program)",
+  "PSI Series 16-81 content outline"
+ ]
+}

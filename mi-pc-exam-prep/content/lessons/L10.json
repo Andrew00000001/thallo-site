@@ -1,0 +1,433 @@
+{
+ "id": "L10",
+ "sec": "dwelling",
+ "guide": "dwelling",
+ "title": "Dwelling policies: DP-1, DP-2, DP-3 and their add-ons",
+ "summary": "Compare the three ISO dwelling forms, their coverage letters A to E, key exclusions, theft options and the endorsements the exam tests.",
+ "objectives": [
+  "Tell DP-1, DP-2 and DP-3 apart by perils and loss settlement",
+  "Match dwelling Coverages A to E, and know liability needs the PLS",
+  "Pick Broad or Limited Theft by who lives in the dwelling",
+  "Spot key exclusions and the main dwelling endorsements"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Dwelling policies: DP-1, DP-2 and DP-3",
+   "subtitle": "ISO forms: 1988 DP-1 and DP-2, 2002 DP-3, plus the Personal Liability Supplement",
+   "icon": "house",
+   "beats": [
+    {
+     "text": "Dwelling forms can insure a 1- to 4-family residential building. Unlike homeowners forms, they include no liability coverage at all.",
+     "say": "Dwelling forms can insure a one to four family residential building. Unlike homeowners forms, they include no liability coverage at all."
+    },
+    {
+     "text": "In this lesson, DP-1 and DP-2 are the 1988 editions. DP-3 is the 2002 edition, and its numbers match the 2014 edition.",
+     "say": "In this lesson, D P one and D P two are the nineteen eighty eight editions. D P three is the two thousand two edition, and its numbers match the twenty fourteen edition."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Three forms: Basic, Broad, Special",
+   "src": "ISO DP 00 01 07 88; DP 00 02 07 88; DP 00 03 12 02 (Perils Insured Against; Loss Settlement)",
+   "columns": [
+    {
+     "name": "DP-1 Basic (1988)",
+     "icon": "flame",
+     "points": [
+      "Fire or lightning, internal explosion",
+      "Extended Coverage perils: extra premium",
+      "Vandalism and malicious mischief: extra premium",
+      "Losses paid at ACV"
+     ]
+    },
+    {
+     "name": "DP-2 Broad (1988)",
+     "icon": "layers",
+     "points": [
+      "16 named perils on A, B and C",
+      "Buildings: replacement cost if insured to 80%"
+     ]
+    },
+    {
+     "name": "DP-3 Special (2002)",
+     "icon": "shield-check",
+     "points": [
+      "Open perils on A and B",
+      "Named broad perils on C",
+      "Buildings: replacement cost if insured to 80%"
+     ]
+    }
+   ],
+   "tell": "DP-1 is a short named list, DP-2 a long named list, DP-3 open perils on the buildings.",
+   "beats": [
+    {
+     "text": "DP-1, the Basic Form, covers fire or lightning and internal explosion. Extended Coverage perils, like windstorm or hail, need their own premium. So does vandalism. Losses are paid at actual cash value.",
+     "say": "D P one, the Basic Form, covers fire or lightning and internal explosion. Extended Coverage perils, like windstorm or hail, need their own premium. So does vandalism. Losses are paid at actual cash value.",
+     "show": 1
+    },
+    {
+     "text": "DP-2, the Broad Form, covers 16 named perils on Coverages A, B and C.",
+     "say": "D P two, the Broad Form, covers sixteen named perils on Coverages A, B and C.",
+     "show": 2
+    },
+    {
+     "text": "DP-3, the Special Form, covers the dwelling and other structures for any direct physical loss not excluded. Personal property stays on a named list.",
+     "say": "D P three, the Special Form, covers the dwelling and other structures for any direct physical loss not excluded. Personal property stays on a named list.",
+     "show": 3
+    },
+    {
+     "text": "DP-2 and DP-3 pay buildings at replacement cost if they are insured to at least 80% of replacement cost.",
+     "say": "D P two and D P three pay buildings at replacement cost if they are insured to at least eighty percent of replacement cost.",
+     "show": 3,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Under the 2002 DP-3, which coverages are insured on an open-perils basis?",
+   "choices": [
+    "Coverages A, B and C",
+    "Coverages A and B only",
+    "Coverage C only"
+   ],
+   "answer": 1,
+   "why": "DP-3 covers the dwelling (A) and other structures (B) for direct physical loss unless excluded. Personal property (C) is covered for named perils only.",
+   "beats": [
+    {
+     "text": "Quick check. Under the 2002 DP-3, which coverages are open perils? Pick an answer.",
+     "say": "Quick check. Under the two thousand two D P three, which coverages are open perils? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Coverages A and B only. The buildings get open perils, but personal property stays named perils. No DP form covers contents on open perils.",
+     "say": "Coverages A and B only. The buildings get open perils, but personal property stays named perils. No D P form covers contents on open perils."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Dwelling coverage letters",
+   "src": "ISO DP 00 03 12 02, Coverages A–E; DP 00 01 07 88; DL 24 01 12 02, Coverages L–M",
+   "columns": [
+    "Letter",
+    "Covers"
+   ],
+   "items": [
+    [
+     "A",
+     "Dwelling and attached structures"
+    ],
+    [
+     "B",
+     "Other structures, set apart by clear space"
+    ],
+    [
+     "C",
+     "Contents on the Described Location"
+    ],
+    [
+     "D",
+     "Fair rental value of the rented part"
+    ],
+    [
+     "E",
+     "Additional living expense (not in 1988 DP-1)"
+    ],
+    [
+     "L and M",
+     "Liability and medical payments: PLS only"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "A is the dwelling and attached structures. B is other structures, set apart by clear space. C is personal property on the Described Location.",
+     "say": "A is the dwelling and attached structures. B is other structures, set apart by clear space. C is personal property on the Described Location.",
+     "show": 3
+    },
+    {
+     "text": "Now the trap letters. D is fair rental value: rent you lose on the part you rent out. E is additional living expense: your own necessary increase in living costs.",
+     "say": "Now the trap letters. D is fair rental value: rent you lose on the part you rent out. E is additional living expense: your own necessary increase in living costs.",
+     "show": 5,
+     "hl": 3
+    },
+    {
+     "text": "Liability isn't in the forms. The Personal Liability Supplement adds Coverage L, personal liability, and Coverage M, medical payments to others.",
+     "say": "Liability isn't in the forms. The Personal Liability Supplement adds Coverage L, personal liability, and Coverage M, medical payments to others.",
+     "show": 6
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "A landlord's lost rent",
+   "src": "ISO DP 00 03 12 02, Coverages D–E (same wording in DP 00 03 07 14)",
+   "icon": "banknote",
+   "story": "Dana rents out a house she owns in Lansing, insured under a DP-3. A covered fire makes it unfit to live in, and her tenant stops paying rent during repairs. Which coverage pays Dana's lost rent?",
+   "items": [
+    {
+     "label": "Damage to the house",
+     "detail": "Coverage A pays for the repairs"
+    },
+    {
+     "label": "Lost rent",
+     "detail": "Coverage D: fair rental value, less expenses that do not continue"
+    },
+    {
+     "label": "Not Coverage E",
+     "detail": "E pays the insured's own extra living costs, and Dana doesn't live there"
+    }
+   ],
+   "answer": "Coverage D, Fair Rental Value. The payment period is not cut off by the policy's expiration.",
+   "beats": [
+    {
+     "text": "Dana rents out a house she owns in Lansing, insured under a DP-3. A fire makes it unfit to live in, and the rent stops. Which coverage pays her lost rent?",
+     "say": "Dana rents out a house she owns in Lansing, insured under a D P three. A fire makes it unfit to live in, and the rent stops. Which coverage pays her lost rent?",
+     "show": 0
+    },
+    {
+     "text": "Coverage A repairs the house. The rent is fair rental value, less any expenses that do not continue while it's unfit. Coverage E doesn't fit: Dana doesn't live there.",
+     "say": "Coverage A repairs the house. The rent is fair rental value, less any expenses that do not continue while it's unfit. Coverage E doesn't fit: Dana doesn't live there.",
+     "show": 3
+    },
+    {
+     "text": "So Coverage D pays the lost rent, even if repairs run past the policy's expiration.",
+     "say": "So Coverage D pays the lost rent, even if repairs run past the policy's expiration.",
+     "show": 3,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "An owner-occupant's DP-3 home has a covered fire, and her family must stay in a hotel. Which coverage pays the necessary increase in living expenses?",
+   "choices": [
+    "Coverage D, Fair Rental Value",
+    "Coverage E, Additional Living Expense",
+    "Coverage L, Personal Liability"
+   ],
+   "answer": 1,
+   "why": "In the dwelling forms, D is fair rental value of a rented part; E pays the insured's necessary increase in living expenses.",
+   "beats": [
+    {
+     "text": "Now flip it. An owner-occupant's DP-3 home burns, and her family moves into a hotel. Which coverage pays the extra living costs? Pick an answer.",
+     "say": "Now flip it. An owner-occupant's D P three home burns, and her family moves into a hotel. Which coverage pays the extra living costs? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Coverage E, Additional Living Expense, because she lives there. In the DP-3, D and E together can also use up to 20% of Coverage A as additional insurance.",
+     "say": "Coverage E, Additional Living Expense, because she lives there. In the D P three, D and E together can also use up to twenty percent of Coverage A as additional insurance."
+    },
+    {
+     "text": "Watch the edition: the 1988 DP-2 allowed only 10% of Coverage A.",
+     "say": "Watch the edition: the nineteen eighty eight D P two allowed only ten percent of Coverage A."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Theft: added by endorsement",
+   "src": "ISO DP 00 03 12 02, Coverage C Perils; ISO Dwelling Policy Program Manual Rule 510",
+   "columns": [
+    {
+     "name": "Broad Theft Coverage",
+     "icon": "house",
+     "points": [
+      "Owner-occupied, or a tenant who is the named insured",
+      "Theft on and off premises",
+      "Off-premises only if on-premises is bought",
+      "Off-premises limit no higher than on-premises"
+     ]
+    },
+    {
+     "name": "Limited Theft Coverage",
+     "icon": "building-2",
+     "points": [
+      "Non-owner-occupied, such as a landlord's rental",
+      "Theft on premises only"
+     ]
+    }
+   ],
+   "tell": "Who lives there? The named insured lives there: Broad Theft. A landlord who doesn't: Limited Theft.",
+   "beats": [
+    {
+     "text": "Here's a gap. In the DP-2 and DP-3, personal property is covered for damage by burglars, but not for theft. Theft coverage is added by endorsement.",
+     "say": "Here's a gap. In the D P two and D P three, personal property is covered for damage by burglars, but not for theft. Theft coverage is added by endorsement.",
+     "show": 0
+    },
+    {
+     "text": "Broad Theft Coverage fits an owner-occupant, or a tenant who is the named insured. It covers theft on and off premises, but off-premises coverage requires on-premises coverage, at a limit no higher.",
+     "say": "Broad Theft Coverage fits an owner-occupant, or a tenant who is the named insured. It covers theft on and off premises, but off-premises coverage requires on-premises coverage, at a limit no higher.",
+     "show": 1
+    },
+    {
+     "text": "Limited Theft Coverage fits non-owner-occupied risks, like a landlord's rental. It covers theft on premises only. So choose by who lives there, not by price.",
+     "say": "Limited Theft Coverage fits non-owner-occupied risks, like a landlord's rental. It covers theft on premises only. So choose by who lives there, not by price.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "DP-3 general exclusions",
+   "src": "ISO DP 00 03 12 02, General Exclusions A.1–9; DP 00 03 07 14, General Exclusions A.2–A.3",
+   "items": [
+    {
+     "label": "Earth movement",
+     "detail": "Ensuing fire or explosion is covered",
+     "icon": "triangle-alert"
+    },
+    {
+     "label": "Water damage",
+     "detail": "Flood, sewer or drain backup, subsurface water; ensuing fire or explosion covered",
+     "icon": "waves"
+    },
+    {
+     "label": "Intentional loss",
+     "icon": "ban"
+    },
+    {
+     "label": "Also excluded",
+     "detail": "Ordinance or law, power failure off the location, neglect, war, nuclear hazard, governmental action"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Open perils still has exclusions, and they apply regardless of any other cause contributing to the loss.",
+     "say": "Open perils still has exclusions, and they apply regardless of any other cause contributing to the loss.",
+     "show": 0
+    },
+    {
+     "text": "Earth movement, like an earthquake, is excluded. So is water damage: flood, water backing up through sewers or drains, and subsurface water. In both, ensuing fire or explosion is covered.",
+     "say": "Earth movement, like an earthquake, is excluded. So is water damage: flood, water backing up through sewers or drains, and subsurface water. In both, ensuing fire or explosion is covered.",
+     "show": 2
+    },
+    {
+     "text": "Intentional loss is excluded too, along with ordinance or law, off-site power failure, neglect, war, nuclear hazard and governmental action.",
+     "say": "Intentional loss is excluded too, along with ordinance or law, off-site power failure, neglect, war, nuclear hazard and governmental action.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "An earthquake damages a DP-3 dwelling and breaks a gas line. The resulting fire damages the dwelling further. The policy covers:",
+   "choices": [
+    "The fire damage only",
+    "The earthquake damage only",
+    "Both the earthquake and the fire damage",
+    "Neither loss"
+   ],
+   "answer": 0,
+   "why": "Earth movement is excluded regardless of other causes, but direct loss by fire or explosion that results from it is covered.",
+   "beats": [
+    {
+     "text": "Try this. An earthquake damages a DP-3 dwelling and breaks a gas line. The fire that follows causes more damage. What's covered? Pick an answer.",
+     "say": "Try this. An earthquake damages a D P three dwelling and breaks a gas line. The fire that follows causes more damage. What's covered? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The fire damage only. The earthquake damage is excluded as earth movement, but the ensuing fire is covered.",
+     "say": "The fire damage only. The earthquake damage is excluded as earth movement, but the ensuing fire is covered."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Dwelling endorsements to know",
+   "src": "ISO DP 04 11 12 02; DP 11 43 12 02; DL 24 01 12 02; FC&S (Aug. 12, 2024) on Special Provisions DP 01 XX",
+   "items": [
+    {
+     "label": "Automatic Increase in Insurance",
+     "detail": "A and B limits rise annually by the percent shown, pro rata",
+     "icon": "percent"
+    },
+    {
+     "label": "Dwelling Under Construction",
+     "detail": "Provisional A limit, times actual value over completed value",
+     "icon": "hard-hat"
+    },
+    {
+     "label": "Special Provisions – Michigan",
+     "detail": "State-mandated changes, notably cancellation and nonrenewal",
+     "icon": "map-pin"
+    },
+    {
+     "label": "Personal Liability Supplement",
+     "detail": "Coverage L, personal liability; Coverage M, medical payments to others",
+     "icon": "scale"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown, applied pro rata.",
+     "say": "Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown, applied pro rata.",
+     "show": 1
+    },
+    {
+     "text": "Dwelling Under Construction makes the Coverage A limit provisional. On any date, the insurance is that limit times actual value divided by completed value.",
+     "say": "Dwelling Under Construction makes the Coverage A limit provisional. On any date, the insurance is that limit times actual value divided by completed value.",
+     "show": 2
+    },
+    {
+     "text": "Special Provisions, Michigan, makes the state-mandated changes, notably to cancellation and nonrenewal. And the Personal Liability Supplement adds Coverages L and M.",
+     "say": "Special Provisions, Michigan, makes the state-mandated changes, notably to cancellation and nonrenewal. And the Personal Liability Supplement adds Coverages L and M.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "DP-1: short named list, ACV. DP-2: 16 named perils. DP-3: open A and B",
+    "Dwelling D is fair rental value; E is additional living expense",
+    "No liability in DP forms: add the PLS for Coverages L and M",
+    "Theft by endorsement: Broad if owner-occupied, Limited if not",
+    "Earth movement and water excluded; ensuing fire is covered"
+   ],
+   "beats": [
+    {
+     "text": "To recap. DP-1 is a short named list paid at actual cash value. DP-2 names 16 perils. DP-3 is open perils on the buildings.",
+     "say": "To recap. D P one is a short named list paid at actual cash value. D P two names sixteen perils. D P three is open perils on the buildings.",
+     "show": 1
+    },
+    {
+     "text": "In dwelling forms, D is fair rental value and E is additional living expense. Liability needs the Personal Liability Supplement.",
+     "say": "In dwelling forms, D is fair rental value and E is additional living expense. Liability needs the Personal Liability Supplement.",
+     "show": 3
+    },
+    {
+     "text": "Theft comes by endorsement, chosen by occupancy. And when an earthquake or flood causes a fire, the fire is covered.",
+     "say": "Theft comes by endorsement, chosen by occupancy. And when an earthquake or flood causes a fire, the fire is covered.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "prop-025",
+  "prop-gap-01",
+  "prop-028",
+  "prop-026",
+  "prop-gap-05"
+ ],
+ "hooks": [],
+ "sources": [
+  "ISO DP 00 01 07 88",
+  "ISO DP 00 02 07 88",
+  "ISO DP 00 03 12 02",
+  "ISO DP 00 03 07 14",
+  "ISO DL 24 01 12 02",
+  "ISO DP 04 11 12 02",
+  "ISO DP 11 43 12 02",
+  "ISO Dwelling Policy Program Manual Rule 510",
+  "ISO Dwelling Program eligibility (FC&S)",
+  "FC&S, Dwelling Property Forms—Exclusions and Endorsements (Aug. 12, 2024)"
+ ]
+}

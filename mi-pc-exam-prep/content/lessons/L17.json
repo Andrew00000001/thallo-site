@@ -1,0 +1,485 @@
+{
+ "id": "L17",
+ "sec": "auto",
+ "guide": "auto",
+ "title": "Commercial auto",
+ "summary": "Commercial auto forms, Business Auto covered auto symbols, key liability and physical damage rules, garagekeepers, endorsements and federal truck minimums.",
+ "objectives": [
+  "Match each commercial auto form to the business it fits",
+  "Read the Business Auto covered auto symbols",
+  "Tell the three garagekeepers bases apart",
+  "Know the key endorsements, including Michigan PIP and PPI"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Commercial auto",
+   "subtitle": "Business auto forms, covered auto symbols, garagekeepers, endorsements and federal truck limits",
+   "icon": "truck",
+   "beats": [
+    {
+     "text": "Businesses insure their vehicles on commercial auto forms. The Business Auto numbers here come from its 2020 edition.",
+     "say": "Businesses insure their vehicles on commercial auto forms. The Business Auto numbers here come from its twenty twenty edition."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "The commercial auto forms",
+   "src": "CA 00 01 11 20; CA 00 05; CA 00 10 03 10; CA 00 12; CA 00 20 03 10; FC&S; Rough Notes (Oct. 2022)",
+   "columns": [
+    "Form",
+    "Built for"
+   ],
+   "items": [
+    [
+     "Business Auto",
+     "Liability, physical damage; five sections"
+    ],
+    [
+     "Garage",
+     "Liability, garagekeepers and physical damage"
+    ],
+    [
+     "Business Auto Physical Damage",
+     "Physical damage only, no liability"
+    ],
+    [
+     "Truckers",
+     "Hauling property by auto for hire"
+    ],
+    [
+     "Motor Carrier",
+     "For-hire and private carriers"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "The Business Auto form has five sections: covered autos, liability, physical damage, conditions and definitions.",
+     "say": "The Business Auto form has five sections: covered autos, liability, physical damage, conditions and definitions.",
+     "show": 1
+    },
+    {
+     "text": "The Garage form combined liability, garagekeepers and physical damage for garage risks. The Business Auto Physical Damage form gave physical damage only. Both were eliminated in the 2013 revision.",
+     "say": "The Garage form combined liability, garagekeepers and physical damage for garage risks. The Business Auto Physical Damage form gave physical damage only. Both were eliminated in the twenty thirteen revision.",
+     "show": 3
+    },
+    {
+     "text": "The Truckers form is for those hauling property by auto for hire. The Motor Carrier form is broader: it fits both for-hire carriers and private carriers hauling their own goods.",
+     "say": "The Truckers form is for those hauling property by auto for hire. The Motor Carrier form is broader: it fits both for-hire carriers and private carriers hauling their own goods.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Covered auto symbols (2020 Business Auto)",
+   "src": "CA 00 01 11 20, Section I.A-B",
+   "columns": [
+    "Symbol",
+    "Covers"
+   ],
+   "items": [
+    [
+     "1",
+     "Any auto"
+    ],
+    [
+     "2 to 6",
+     "Owned autos, by type or by law"
+    ],
+    [
+     "7",
+     "Specifically described autos"
+    ],
+    [
+     "8",
+     "Hired autos"
+    ],
+    [
+     "9",
+     "Non-owned autos, like employees' cars"
+    ],
+    [
+     "19",
+     "Mobile equipment subject to auto laws"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "Covered auto symbols show which autos get each coverage. Symbol 1 is any auto.",
+     "say": "Covered auto symbols show which autos get each coverage. Symbol one is any auto.",
+     "show": 1
+    },
+    {
+     "text": "2 through 6 are owned autos: 2 all owned, 3 private passenger, 4 other than private passenger, 5 those subject to no-fault, and 6 those subject to a compulsory uninsured motorists law.",
+     "say": "Two through six are owned autos: two all owned, three private passenger, four other than private passenger, five those subject to no-fault, and six those subject to a compulsory uninsured motorists law.",
+     "show": 2
+    },
+    {
+     "text": "7 is specifically described autos. A new auto is covered only if you already cover all owned autos for that coverage, or it's a replacement, and you tell the insurer within 30 days. Symbols 1 to 6 and 19 cover new autos automatically.",
+     "say": "Seven is specifically described autos. A new auto is covered only if you already cover all owned autos for that coverage, or it's a replacement, and you tell the insurer within thirty days. Symbols one to six and nineteen cover new autos automatically.",
+     "show": 3
+    },
+    {
+     "text": "8 is hired autos, but not ones borrowed from your employees. 9 is non-owned autos, including employees' own cars used in your business. 19 is mobile equipment subject to a compulsory or financial responsibility law.",
+     "say": "Eight is hired autos, but not ones borrowed from your employees. Nine is non-owned autos, including employees' own cars used in your business. Nineteen is mobile equipment subject to a compulsory or financial responsibility law.",
+     "show": 6
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A business wants liability coverage for employees' personal cars when they run company errands. Which Business Auto symbol applies?",
+   "choices": [
+    "Symbol 2: owned autos only",
+    "Symbol 7: specifically described autos",
+    "Symbol 8: hired autos only",
+    "Symbol 9: non-owned autos only"
+   ],
+   "answer": 3,
+   "why": "Symbol 9 covers autos you don't own, lease, hire, rent or borrow that are used in your business, including employees' cars. Symbol 8 excludes autos borrowed from employees.",
+   "beats": [
+    {
+     "text": "Quick check. A business wants liability coverage for employees' personal cars used on company errands. Which symbol applies? Pick an answer.",
+     "say": "Quick check. A business wants liability coverage for employees' personal cars used on company errands. Which symbol applies? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The answer is symbol 9, non-owned autos. Symbol 8, hired autos, leaves out autos borrowed from employees.",
+     "say": "The answer is symbol nine, non-owned autos. Symbol eight, hired autos, leaves out autos borrowed from employees."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Business Auto liability: key rules",
+   "src": "CA 00 01 11 20, Sections II.A.2.a, II.B.6, II.B.8, IV.B.5",
+   "items": [
+    {
+     "label": "Bail bonds up to $2,000",
+     "detail": "Lost earnings up to $250 a day. The personal auto policy's bail limit is $250",
+     "icon": "gavel"
+    },
+    {
+     "label": "Care, custody or control",
+     "detail": "Excludes property owned or transported by the insured, like cargo",
+     "icon": "package"
+    },
+    {
+     "label": "Mechanical devices",
+     "detail": "Excluded unless the device is attached to the auto, or is a hand truck",
+     "icon": "forklift"
+    },
+    {
+     "label": "Other insurance",
+     "detail": "Primary for owned autos, excess for non-owned autos",
+     "icon": "layers"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Liability supplementary payments include bail bonds up to $2,000, and lost earnings up to $250 a day. Don't mix that up with the personal auto policy's bail limit of $250.",
+     "say": "Liability supplementary payments include bail bonds up to two thousand dollars, and lost earnings up to two hundred fifty dollars a day. Don't mix that up with the personal auto policy's bail limit of two hundred fifty dollars.",
+     "show": 1
+    },
+    {
+     "text": "Two exclusions to know. Care, custody or control excludes property you own or transport, like packages in your van. And injury from moving property with a mechanical device is excluded, unless the device is attached to the covered auto.",
+     "say": "Two exclusions to know. Care, custody or control excludes property you own or transport, like packages in your van. And injury from moving property with a mechanical device is excluded, unless the device is attached to the covered auto.",
+     "show": 3
+    },
+    {
+     "text": "Other insurance: the form is primary for autos you own, and excess for autos you don't.",
+     "say": "Other insurance: the form is primary for autos you own, and excess for autos you don't.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Business Auto physical damage",
+   "src": "CA 00 01 11 20, Section III.A.1-3",
+   "columns": [
+    {
+     "name": "Comprehensive",
+     "points": [
+      "Glass breakage",
+      "Hitting a bird or animal",
+      "Falling objects or missiles"
+     ]
+    },
+    {
+     "name": "Specified Causes of Loss",
+     "points": [
+      "Fire, lightning, explosion, theft",
+      "Windstorm, hail, earthquake, flood",
+      "Mischief or vandalism",
+      "Sinking, burning, collision or derailment of a conveyance carrying it"
+     ]
+    },
+    {
+     "name": "Collision",
+     "points": [
+      "Hitting an object, like a guardrail",
+      "Glass broken in a collision, if you choose"
+     ]
+    }
+   ],
+   "tell": "Specified causes is a short named list. It doesn't include hitting a deer or glass breakage.",
+   "beats": [
+    {
+     "text": "Physical damage comes in three coverages. Comprehensive includes glass breakage, hitting a bird or animal, and falling objects.",
+     "say": "Physical damage comes in three coverages. Comprehensive includes glass breakage, hitting a bird or animal, and falling objects.",
+     "show": 1
+    },
+    {
+     "text": "Specified Causes of Loss is a named list: fire, lightning, explosion, theft, windstorm, hail, earthquake, flood, vandalism, and damage to a conveyance carrying the auto.",
+     "say": "Specified Causes of Loss is a named list: fire, lightning, explosion, theft, windstorm, hail, earthquake, flood, vandalism, and damage to a conveyance carrying the auto.",
+     "show": 2
+    },
+    {
+     "text": "Collision pays for hitting an object. So a van with only specified causes is covered for a flood, but not for hitting a deer.",
+     "say": "Collision pays for hitting an object. So a van with only specified causes is covered for a flood, but not for hitting a deer.",
+     "show": 3,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "Garagekeepers: three ways to pay",
+   "src": "CA 99 37 10 01",
+   "icon": "wrench",
+   "story": "Hail damages a customer's car while it sits at a repair shop for service. The shop carries garagekeepers Comprehensive and did nothing wrong. Which garagekeepers basis pays, and when?",
+   "items": [
+    {
+     "label": "Legal liability",
+     "detail": "Pays only if the shop is legally liable, so it pays nothing here"
+    },
+    {
+     "label": "Direct excess",
+     "detail": "Pays regardless of liability, but excess over the customer's own insurance"
+    },
+    {
+     "label": "Direct primary",
+     "detail": "Pays regardless of liability, as primary"
+    }
+   ],
+   "answer": "Direct excess or direct primary pays. Only direct primary pays first, before the customer's own insurance.",
+   "beats": [
+    {
+     "text": "Garagekeepers covers customers' autos left in your care while you service, repair, park or store them. Hail hits a customer's car at a repair shop with garagekeepers Comprehensive. The shop did nothing wrong. Does it pay?",
+     "say": "Garagekeepers covers customers' autos left in your care while you service, repair, park or store them. Hail hits a customer's car at a repair shop with garagekeepers Comprehensive. The shop did nothing wrong. Does it pay?",
+     "show": 0
+    },
+    {
+     "text": "It depends on the basis. Legal liability, the default, pays only if the shop is legally liable. So here, nothing.",
+     "say": "It depends on the basis. Legal liability, the default, pays only if the shop is legally liable. So here, nothing.",
+     "show": 1
+    },
+    {
+     "text": "Direct excess pays regardless of liability, but only over the customer's own insurance. Direct primary pays regardless of liability, and pays first.",
+     "say": "Direct excess pays regardless of liability, but only over the customer's own insurance. Direct primary pays regardless of liability, and pays first.",
+     "show": 3,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Auto or mobile equipment?",
+   "src": "CA 00 01 11 20, Sections I.C.2, V.B, V.K",
+   "columns": [
+    {
+     "name": "Mobile equipment",
+     "icon": "forklift",
+     "points": [
+      "Bulldozers, forklifts, farm machinery",
+      "Vehicles on crawler treads",
+      "Vehicles used solely on or next to your premises"
+     ]
+    },
+    {
+     "name": "Auto",
+     "icon": "truck",
+     "points": [
+      "Self-propelled with snow-removal, road-maintenance or street-cleaning gear",
+      "Cherry pickers on an auto or truck chassis",
+      "Any land vehicle subject to a compulsory or FR law"
+     ]
+    }
+   ],
+   "tell": "Unendorsed, Business Auto covers mobile equipment for liability only while a covered auto carries or tows it.",
+   "beats": [
+    {
+     "text": "Is it an auto or mobile equipment? Bulldozers, forklifts, farm machinery and crawler-tread vehicles are mobile equipment.",
+     "say": "Is it an auto or mobile equipment? Bulldozers, forklifts, farm machinery and crawler-tread vehicles are mobile equipment.",
+     "show": 1
+    },
+    {
+     "text": "But a self-propelled vehicle with permanently attached snow-removal, road-maintenance or street-cleaning equipment is an auto. So is any land vehicle subject to a compulsory or financial responsibility law.",
+     "say": "But a self-propelled vehicle with permanently attached snow-removal, road-maintenance or street-cleaning equipment is an auto. So is any land vehicle subject to a compulsory or financial responsibility law.",
+     "show": 2
+    },
+    {
+     "text": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
+     "say": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Key commercial auto endorsements",
+   "src": "CA 99 10 (IRMI); CA 99 17 (summaries); CA 20 01 11 20; CA 20 15 (FC&S, Rough Notes); CA 22 20; CA 22 24",
+   "items": [
+    {
+     "label": "Drive Other Car",
+     "detail": "Non-owned auto coverage for a named person, like an executive with a company car",
+     "icon": "user"
+    },
+    {
+     "label": "Individual Named Insured",
+     "detail": "For a sole proprietor: personal-auto-type coverage for the individual and family",
+     "icon": "users"
+    },
+    {
+     "label": "Lessor additional insured",
+     "detail": "The lessor becomes an insured; the leased auto counts as one you own",
+     "icon": "file-signature"
+    },
+    {
+     "label": "Mobile Equipment",
+     "detail": "Scheduled vehicles become covered autos, but not for operating their machinery",
+     "icon": "forklift"
+    },
+    {
+     "label": "Michigan PIP and PPI",
+     "detail": "Add no-fault benefits; symbol 5 marks owned autos subject to no-fault",
+     "icon": "landmark"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Now endorsements. Drive Other Car gives a named person, like an executive with a company car and no personal policy, non-owned auto coverage like a personal auto policy.",
+     "say": "Now endorsements. Drive Other Car gives a named person, like an executive with a company car and no personal policy, non-owned auto coverage like a personal auto policy.",
+     "show": 1
+    },
+    {
+     "text": "Individual Named Insured is for an individual, like a sole proprietor. It adds personal-auto-type coverage for that person and family members.",
+     "say": "Individual Named Insured is for an individual, like a sole proprietor. It adds personal-auto-type coverage for that person and family members.",
+     "show": 2
+    },
+    {
+     "text": "The lessor endorsement makes the leasing company an insured, and treats a scheduled leased auto as one you own. The Mobile Equipment endorsement treats scheduled vehicles as covered autos, but liability excludes operating their attached machinery.",
+     "say": "The lessor endorsement makes the leasing company an insured, and treats a scheduled leased auto as one you own. The Mobile Equipment endorsement treats scheduled vehicles as covered autos, but liability excludes operating their attached machinery.",
+     "show": 4
+    },
+    {
+     "text": "The Business Auto form has no PIP section. In Michigan, PIP and PPI endorsements add those benefits. Symbol 5 means owned autos subject to no-fault.",
+     "say": "The Business Auto form has no P I P section. In Michigan, P I P and P P I endorsements add those benefits. Symbol five means owned autos subject to no-fault.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A Michigan plumbing company insures its vans under the 2020 Business Auto Coverage Form. Its Michigan no-fault PIP is provided by:",
+   "choices": [
+    "Covered Autos Liability Coverage",
+    "The company's workers' compensation policy",
+    "A Michigan Personal Injury Protection endorsement",
+    "Comprehensive Coverage"
+   ],
+   "answer": 2,
+   "why": "The Business Auto form has no PIP section. ISO's Michigan Personal Injury Protection endorsement adds the PIP that Michigan's no-fault law requires.",
+   "beats": [
+    {
+     "text": "Your turn. A Michigan plumbing company insures its vans on the Business Auto form. What provides its Michigan no-fault PIP? Pick an answer.",
+     "say": "Your turn. A Michigan plumbing company insures its vans on the Business Auto form. What provides its Michigan no-fault P I P? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The answer is a Michigan Personal Injury Protection endorsement. The Business Auto form itself has no PIP section.",
+     "say": "The answer is a Michigan Personal Injury Protection endorsement. The Business Auto form itself has no P I P section."
+    }
+   ]
+  },
+  {
+   "type": "bignum",
+   "title": "Motor Carrier Act of 1980: federal minimums",
+   "src": "49 CFR 387.9; 387.15",
+   "items": [
+    {
+     "value": "$750,000",
+     "label": "For-hire, nonhazardous, GVWR 10,001 lbs or more"
+    },
+    {
+     "value": "$1 million",
+     "label": "Oil, hazardous waste, most hazmat"
+    },
+    {
+     "value": "$5 million",
+     "label": "Certain bulk hazmat, explosives, radioactive"
+    },
+    {
+     "value": "MCS-90",
+     "label": "Endorsement that proves coverage"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Finally, federal rules under the Motor Carrier Act of 1980. A for-hire interstate carrier hauling nonhazardous property in vehicles of 10,001 pounds or more needs at least $750,000.",
+     "say": "Finally, federal rules under the Motor Carrier Act of nineteen eighty. A for-hire interstate carrier hauling nonhazardous property in vehicles of ten thousand one pounds or more needs at least seven hundred fifty thousand dollars.",
+     "show": 1
+    },
+    {
+     "text": "Oil and most hazardous materials need $1 million. Certain bulk hazardous substances, explosives and radioactive materials need $5 million. Proof is the MCS-90 endorsement.",
+     "say": "Oil and most hazardous materials need one million dollars. Certain bulk hazardous substances, explosives and radioactive materials need five million dollars. Proof is the M C S ninety endorsement.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Truckers: hauling for hire; Motor Carrier: for-hire and private",
+    "Symbols: 1 any, 2 to 6 owned, 7 described, 8 hired, 9 non-owned",
+    "Business Auto bail bonds: $2,000; personal auto: $250",
+    "Garagekeepers: legal liability, direct excess, direct primary",
+    "Michigan PIP and PPI come by endorsement; symbol 5 for no-fault"
+   ],
+   "beats": [
+    {
+     "text": "Let's recap the key points on screen. Pause if you want to review them.",
+     "say": "Let's recap the key points on screen. Pause if you want to review them.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "auto-061",
+  "auto-062",
+  "auto-063",
+  "auto-066",
+  "auto-gap-30"
+ ],
+ "hooks": [],
+ "sources": [
+  "ISO CA 00 01 11 20 (Business Auto Coverage Form), Sections I-V",
+  "ISO CA 00 10 03 10 (Business Auto Physical Damage)",
+  "ISO CA 00 05 (Garage); Rough Notes PF&M (Oct. 2022)",
+  "ISO CA 00 12 10 01 (Truckers); ISO CA 00 20 03 10 (Motor Carrier); FC&S",
+  "ISO CA 99 37 10 01 (Garagekeepers)",
+  "CA 99 10 Drive Other Car (IRMI)",
+  "CA 99 17 Individual Named Insured (industry summaries)",
+  "CA 20 01 11 20 (Lessor - Additional Insured and Loss Payee)",
+  "CA 20 15 Mobile Equipment (FC&S 2015; Rough Notes 2022)",
+  "CA 22 20 and CA 22 24 (Michigan PIP and PPI endorsements, Wolters Kluwer list)",
+  "49 CFR 387.9; 387.15"
+ ]
+}

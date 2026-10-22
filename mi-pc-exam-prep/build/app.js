@@ -41,13 +41,13 @@ const money = n => '$'+Math.round(n).toLocaleString('en-US');
 /* ---------- progress store ---------- */
 const LS_KEY = 'mipc-progress-v1';
 function blank(){ return {v:2, q:{}, cards:{}, exams:[], xp:0, days:{}, badges:{}, journal:{}, bestCombo:0, bestStreak:0,
-  settings:{examDate:'', dailyGoal:40, recall:false, confidence:true}, games:{boss:{}, match:{}}, mn:{}, cp:{}, updated:0}; }
+  settings:{examDate:'', dailyGoal:40, recall:false, confidence:true, captions:false, lessonRate:1}, games:{boss:{}, match:{}}, mn:{}, cp:{}, lessons:{}, updated:0}; }
 function migrate(p){
   const b = blank();
   p = Object.assign(b, p||{});
   p.settings = Object.assign(blank().settings, p.settings||{});
   p.games = Object.assign({boss:{}, match:{}}, p.games||{});
-  ['q','cards','days','badges','journal','mn','cp'].forEach(k=>{ if(!p[k] || typeof p[k]!=='object') p[k]={}; });
+  ['q','cards','days','badges','journal','mn','cp','lessons'].forEach(k=>{ if(!p[k] || typeof p[k]!=='object') p[k]={}; });
   if(!Array.isArray(p.exams)) p.exams=[];
   Object.keys(p.q).forEach(id=>{ const s=p.q[id]; if(s.box==null){ s.box = s.last?1:0; s.due = s.last ? (s.t||Date.now())+DAY : 0; } });
   Object.keys(p.cards).forEach(id=>{ const c=p.cards[id]; if(typeof c==='number') p.cards[id]={box:c, due:0}; });
@@ -193,6 +193,9 @@ const BADGES = [
   {id:'hooks25', t:'Memory athlete', d:'Learn 25 memory hooks', f:()=>Object.keys(P.mn).length>=25},
   {id:'pairs5', t:'Sharp eye', d:'Ace 5 confusion drills', f:()=>Object.values(P.cp).filter(v=>v>=1).length>=5},
   {id:'math10', t:'Number cruncher', d:'Solve 10 math lab problems', f:()=>(P.games.math||0)>=10},
+  {id:'lesson1', t:'Opening scene', d:'Finish your first video lesson', f:()=>lessonsDone()>=1},
+  {id:'lesson5', t:'Binge learner', d:'Finish 5 video lessons', f:()=>lessonsDone()>=5},
+  {id:'lessonall', t:'Film school', d:'Finish every video lesson', f:()=>LESSONS.length>0 && lessonsDone()>=LESSONS.length},
 ].concat(SECTIONS.map(s=>({id:'m_'+s.key, t:'Mastered: '+s.name, d:'85% of the section answered right twice', f:()=>secMastery(s.key)>=0.85})));
 function checkBadges(){
   let earned=false;
@@ -228,10 +231,12 @@ let timers = [];
 function clearTimers(){ timers.forEach(t=>{ clearInterval(t); clearTimeout(t); }); timers=[]; }
 function go(v, opts){
   if(VIEW==='games' && v!=='games' && GAME && GAME.live) endGame(true);
+  if(VIEW==='watch' && v!=='watch') lpClose();
   VIEW = v;
   document.querySelectorAll('.tab').forEach(t=>{ const on=t.dataset.view===v; t.setAttribute('aria-selected', String(on)); if(on && t.scrollIntoView) t.scrollIntoView({block:'nearest',inline:'nearest'}); });
   document.querySelectorAll('.view').forEach(el=>el.hidden = (el.id!=='view-'+v));
   if(v==='home') renderHome();
+  if(v==='watch') renderWatch(opts);
   if(v==='study') renderStudy(opts&&opts.sec);
   if(v==='memory') renderMemory(opts);
   if(v==='practice') renderPractice(opts);
@@ -311,6 +316,7 @@ function renderHome(){
             <div class="row">
               <button class="btn primary cta-big" data-act="review">Start today's session</button>
               <button class="btn" data-act="lightning">Lightning round</button>
+              ${LESSONS.length?(()=>{ const n=nextLesson(); return n?`<button class="btn" data-act="watch-next">${icon('play','btn-ic')} ${lessonState(n.id)&&lessonState(n.id).pos>5?'Continue lesson':'Next lesson'}: ${esc(n.title)}</button>`:''; })():''}
             </div>
             <p class="small muted" style="margin:0">Today's session fills what's left of your daily goal (at least 10 questions). Due reviews come first, starting with confident-but-wrong answers, then your weakest questions. Any spots left go to new questions from every section, weighted like the exam, and once you have seen them all, to the questions coming due soonest.</p>
           </div>
@@ -407,6 +413,7 @@ function renderStudy(sec){
       <div class="eyebrow" style="color:var(--muted)">${esc(g.weight||'')}</div>
       <h2>${esc(g.title)}</h2>
       ${g.secs && g.secs.length ? `<div class="row" style="margin:12px 0 4px">${g.secs.map(k=>`<button class="btn primary" data-act="practice-sec" data-sec="${k}">Practice ${esc(SEC[k].name)}</button>`).join('')}${hooks?`<button class="btn" data-act="hooks-sec" data-sec="${g.secs[0]}">Memory hooks (${hooks})</button>`:''}<button class="btn" data-act="cards-sec" data-sec="${g.secs[0]}">Flashcards</button></div>`:''}
+      ${(()=>{ const ls=lessonsForGuide(g.id); return ls.length?`<div class="row lp-guidelinks">${ls.map(l=>`<button class="btn ghost small" data-act="lesson" data-id="${l.id}">${icon('play','btn-ic')} Watch lesson ${esc(l.id.slice(1))}: ${esc(l.title)}</button>`).join('')}</div>`:''; })()}
       <div id="guide-content">${g.html}</div>
     </article>
   </div>`;
@@ -1024,10 +1031,13 @@ function renderNumbers(){
   draw(''); $('#kn-q').addEventListener('input', e=>draw(e.target.value));
 }
 
+/*@@LESSONS@@*/
+
 /* ---------- global events ---------- */
 document.addEventListener('click', e=>{
   const b=e.target.closest('[data-act]'); if(!b) return;
   const act=b.dataset.act;
+  if(lessonActs(act, b)) return;
   if(act==='review'){ startReview(); go('practice'); }
   if(act==='lightning'){ go('games',{game:'lightning'}); }
   if(act==='survival'){ SES=null; go('games',{game:'survival'}); }
@@ -1046,6 +1056,7 @@ document.addEventListener('click', e=>{
 document.addEventListener('keydown', e=>{
   if(e.target.matches('input,select,textarea')) return;
   const k=e.key.toLowerCase();
+  if(lessonKeys(e, k)) return;
   const n=['1','2','3','4'].indexOf(k)>=0 ? ['1','2','3','4'].indexOf(k) : ['a','b','c','d'].indexOf(k);
   const sel = VIEW==='practice' ? '#view-practice' : VIEW==='games' ? '#view-games' : null;
   if(sel && SES && !SES.done && (VIEW==='practice' ? (SES.kind==='practice'||SES.kind==='review') : (SES.kind==='boss'||SES.kind==='survival')) && !(GAME&&GAME.live)){
@@ -1067,7 +1078,7 @@ document.addEventListener('keydown', e=>{
 });
 
 function renderFoot(){
-  $('#foot').innerHTML = `<p><strong>Sources.</strong> ${esc(DATA.meta.sourcesNote)}</p><p>Content verified ${esc(DATA.meta.verified)}. ${QS.length} questions · ${CARDS.length} flashcards · ${MN.length} memory hooks · ${CP.length} confusion pairs. Rules change: check PSI's current Michigan candidate bulletin and content outline before your test date.</p><p>Not affiliated with PSI or the Michigan Department of Insurance and Financial Services. Practice questions are original and are not actual exam questions.</p>`;
+  $('#foot').innerHTML = `<p><strong>Sources.</strong> ${esc(DATA.meta.sourcesNote)}</p><p>Content verified ${esc(DATA.meta.verified)}. ${QS.length} questions · ${CARDS.length} flashcards · ${MN.length} memory hooks · ${CP.length} confusion pairs${LESSONS.length?` · ${LESSONS.length} video lessons`:''}. Rules change: check PSI's current Michigan candidate bulletin and content outline before your test date.</p><p>Not affiliated with PSI or the Michigan Department of Insurance and Financial Services. Practice questions are original and are not actual exam questions.</p>`;
 }
 function start(hot){
   if(hot && hot.EX) EX=hot.EX; else { const ex=lsGet(EX_KEY); if(ex && ex.items && ex.items.every(i=>QBY[i.id])) EX=ex; }
@@ -1076,7 +1087,7 @@ function start(hot){
   go((hot && hot.VIEW && hot.VIEW!=='games') ? hot.VIEW : (EX && !EX.submitted ? 'exam' : 'home'));
   initSync();
 }
-window.__mipc = { gen: GEN, srsAnswer, levelOf, P: ()=>P, ses: ()=>SES, today }; // test hooks
+window.__mipc = { gen: GEN, srsAnswer, levelOf, P: ()=>P, ses: ()=>SES, today, lp: { state: ()=>({id: LP.L&&LP.L.id, t: lpTime(), playing: LP.playing, scene: LP.scene, awaiting: LP.awaiting, virtual: LP.virtual, ended: LP.ended, quiz: LP.quiz}), seek: lpSeek, play: lpPlay, pause: lpPause, virtual: goVirtual } }; // test hooks
 if(window.claude && window.claude.hot){ try{ window.claude.hot.snapshot(()=>({EX, SES, VIEW})); }catch(e){} }
 if(window.claude && window.claude.hot && window.claude.hot.ready) window.claude.hot.ready(start);
 else start((window.claude && window.claude.hot && window.claude.hot.data) || {});

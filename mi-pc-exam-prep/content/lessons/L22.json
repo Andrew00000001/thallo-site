@@ -1,0 +1,484 @@
+{
+ "id": "L22",
+ "sec": "wc",
+ "guide": "wc",
+ "title": "Workers' compensation: Michigan law, the policy and premium",
+ "summary": "Michigan's comp act, the federal acts, the six-part WC policy, and how to figure premium from payroll, rate and experience mod.",
+ "objectives": [
+  "Explain the exclusive remedy and which Michigan employers must carry comp",
+  "Tell covered from uncovered injuries; know the waiting period and 80% benefit",
+  "Match the federal acts to the right workers and name the policy's six parts",
+  "Compute WC premium from payroll, rate and experience mod"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Workers' compensation",
+   "subtitle": "Michigan's act, the federal acts, the six-part policy, and the premium math",
+   "icon": "hard-hat",
+   "beats": [
+    {
+     "text": "Workers' comp is 5% of your exam, about 8 questions.",
+     "say": "Workers' comp is five percent of your exam, about eight questions."
+    },
+    {
+     "text": "In this lesson: who must carry it, what it pays, federal acts, the policy, and premium math.",
+     "say": "In this lesson: who must carry it, what it pays, federal acts, the policy, and premium math."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "In Michigan: the exclusive remedy",
+   "src": "MCL 418.131(1)",
+   "items": [
+    {
+     "label": "Comp is the only remedy",
+     "detail": "Against the employer, for a work injury or occupational disease",
+     "icon": "lock"
+    },
+    {
+     "label": "One exception: an intentional tort",
+     "detail": "A deliberate act; the employer specifically intended an injury",
+     "icon": "gavel"
+    },
+    {
+     "label": "Deemed intent",
+     "detail": "Actual knowledge an injury was certain, willfully disregarded",
+     "icon": "eye"
+    },
+    {
+     "label": "Not enough: negligence",
+     "detail": "Even gross negligence is not an intentional tort",
+     "icon": "ban"
+    }
+   ],
+   "beats": [
+    {
+     "text": "In Michigan, comp benefits are the employee's exclusive remedy against the employer.",
+     "say": "In Michigan, comp benefits are the employee's exclusive remedy against the employer.",
+     "show": 1
+    },
+    {
+     "text": "The only exception is an intentional tort: a deliberate act with specific intent to injure.",
+     "say": "The only exception is an intentional tort: a deliberate act with specific intent to injure.",
+     "show": 2
+    },
+    {
+     "text": "Intent is deemed if the employer knew an injury was certain and willfully disregarded it.",
+     "say": "Intent is deemed if the employer knew an injury was certain and willfully disregarded it.",
+     "show": 3
+    },
+    {
+     "text": "Here's the trap: even gross negligence isn't enough, and knowing an injury was possible isn't knowing it was certain.",
+     "say": "Here's the trap: even gross negligence isn't enough, and knowing an injury was possible isn't knowing it was certain.",
+     "show": 4,
+     "hl": 3
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Michigan: which employers must carry comp",
+   "src": "MCL 418.115(a)-(e); 418.118",
+   "mn": "mn-mn_core-24",
+   "hook": "3 at once, or 1 at 35 for 13 (out of the last 52). Public employers: every one, any size.",
+   "items": [
+    "3 at once: private non-farm employers regularly employing 3 or more at one time",
+    "1 at 35 for 13: fewer than 3, but 1 works 35+ hours a week for 13+ of the last 52 weeks",
+    "Public employers: all of them, regardless of the number of employees",
+    "Farms and household workers have their own special rules"
+   ],
+   "beats": [
+    {
+     "text": "Who must carry comp in Michigan? The hook: 3 at once, or 1 at 35 for 13, out of the last 52. Public employers: every one, any size.",
+     "say": "Who must carry comp in Michigan? The hook: three at once, or one at thirty-five for thirteen, out of the last fifty-two. Public employers: every one, any size.",
+     "show": 0
+    },
+    {
+     "text": "A private, non-farm employer with fewer than 3 is covered if 1 works 35 hours or more a week for 13 weeks or more of the last 52.",
+     "say": "A private, non-farm employer with fewer than three is covered if one works thirty-five hours or more a week for thirteen weeks or more of the last fifty-two.",
+     "show": 2
+    },
+    {
+     "text": "Farms and household workers have special rules. Watch out: payroll size doesn't decide it.",
+     "say": "Farms and household workers have special rules. Watch out: payroll size doesn't decide it.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Michigan: what counts as a work injury",
+   "src": "MCL 418.301(1),(3); 418.305; 418.401(2)(b)",
+   "columns": [
+    {
+     "name": "Covered",
+     "icon": "circle-check",
+     "points": [
+      "Arises out of and in the course of employment",
+      "On the premises a reasonable time before or after work",
+      "Disease characteristic of and peculiar to the business"
+     ]
+    },
+    {
+     "name": "Not covered",
+     "icon": "circle-x",
+     "points": [
+      "Activity whose major purpose is social or recreational",
+      "Ordinary disease of life the public is exposed to",
+      "Injury from the employee's intentional, willful misconduct"
+     ]
+    }
+   ],
+   "tell": "The test is the work connection: arising out of and in the course of employment, not fault.",
+   "beats": [
+    {
+     "text": "Under Michigan's act, comp covers an injury arising out of and in the course of employment, with no need to prove the employer was negligent.",
+     "say": "Under Michigan's act, comp covers an injury arising out of and in the course of employment, with no need to prove the employer was negligent.",
+     "show": 1
+    },
+    {
+     "text": "On the premises a reasonable time before or after work, a worker is presumed to be in the course of employment. A disease characteristic of and peculiar to the business counts too.",
+     "say": "On the premises a reasonable time before or after work, a worker is presumed to be in the course of employment. A disease characteristic of and peculiar to the business counts too.",
+     "show": 1
+    },
+    {
+     "text": "Not covered: an activity whose major purpose is social or recreational, an ordinary disease of life, or the employee's intentional and willful misconduct.",
+     "say": "Not covered: an activity whose major purpose is social or recreational, an ordinary disease of life, or the employee's intentional and willful misconduct.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Maria twists her knee at her employer's bowling night, an event whose major purpose is social. Under Michigan's act, her injury is:",
+   "choices": [
+    "Covered, because the employer sponsored the event",
+    "Covered for medical benefits only",
+    "Not covered by the act",
+    "Covered only if it happened on the employer's premises"
+   ],
+   "answer": 2,
+   "why": "An injury from an activity whose major purpose is social or recreational is not covered by the act, even on the employer's premises.",
+   "beats": [
+    {
+     "text": "Maria hurts her knee at her employer's bowling night, whose major purpose is social. Is she covered? Pick an answer.",
+     "say": "Maria hurts her knee at her employer's bowling night, whose major purpose is social. Is she covered? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Not covered by the act. An activity whose major purpose is social or recreational is excluded, even on the employer's premises.",
+     "say": "Not covered by the act. An activity whose major purpose is social or recreational is excluded, even on the employer's premises."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Michigan: waiting period and weekly benefit",
+   "src": "MCL 418.311; 418.351(1); 418.355(2)",
+   "mn": "mn-mn_core-25",
+   "hook": "Wait 7, paid from day 8, back-paid at 2 weeks. Then 80% of after-tax wages, capped at 90% of the state average.",
+   "items": [
+    "Wait 7: nothing is paid unless the incapacity lasts at least 1 week",
+    "Day 8: pay starts; at 2 weeks or longer, it's computed from the date of injury",
+    "80% of the after-tax average weekly wage for total disability",
+    "Cap: 90% of the state average weekly wage, set each January 1"
+   ],
+   "beats": [
+    {
+     "text": "Now Michigan's benefits. The hook: wait 7, paid from day 8, back-paid at 2 weeks. Then 80% of after-tax wages, capped at 90% of the state average.",
+     "say": "Now Michigan's benefits. The hook: wait seven, paid from day eight, back-paid at two weeks. Then eighty percent of after-tax wages, capped at ninety percent of the state average.",
+     "show": 0
+    },
+    {
+     "text": "Nothing is paid unless incapacity lasts at least a week. Pay starts on day 8; at 2 weeks or longer, it's computed from the date of injury.",
+     "say": "Nothing is paid unless incapacity lasts at least a week. Pay starts on day eight; at two weeks or longer, it's computed from the date of injury.",
+     "show": 2
+    },
+    {
+     "text": "Watch out: 90% is the cap, not the benefit.",
+     "say": "Watch out: ninety percent is the cap, not the benefit.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Federal acts: rails, shore, ship",
+   "src": "45 USC 51, 53; 33 USC 902(3), 903(a), 904(b); 46 USC 30104(a); NCCI WC 00 00 00 C, Gen. C and Part Two C",
+   "columns": [
+    {
+     "name": "FELA",
+     "icon": "train-front",
+     "points": [
+      "Interstate railroad workers",
+      "Sue for damages; must show railroad negligence",
+      "Own negligence reduces recovery, doesn't bar it"
+     ]
+    },
+    {
+     "name": "Longshore Act (USL&HW)",
+     "icon": "anchor",
+     "points": [
+      "Longshore and harbor workers, ship repairers",
+      "Navigable waters, piers, wharves, dry docks",
+      "No-fault: paid irrespective of fault"
+     ]
+    },
+    {
+     "name": "Jones Act",
+     "icon": "ship",
+     "points": [
+      "Seamen: a vessel's master and crew",
+      "Sue the employer, with a jury trial",
+      "FELA's rules apply"
+     ]
+    }
+   ],
+   "tell": "Railroad worker: FELA. Dock or shipyard worker: Longshore Act. Ship's crew: Jones Act.",
+   "beats": [
+    {
+     "text": "Three federal laws sit outside Michigan's act. First, FELA: interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces recovery.",
+     "say": "Three federal laws sit outside Michigan's act. First, F E L A: interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces recovery.",
+     "show": 1
+    },
+    {
+     "text": "Second, the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to maritime workers, like ship repairers, on navigable waters, piers and dry docks.",
+     "say": "Second, the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to maritime workers, like ship repairers, on navigable waters, piers and dry docks.",
+     "show": 2
+    },
+    {
+     "text": "Third, the Jones Act: a ship's crew member sues the employer with a jury trial. Rails, shore, ship. On a standard comp policy, all three need endorsements.",
+     "say": "Third, the Jones Act: a ship's crew member sues the employer with a jury trial. Rails, shore, ship. On a standard comp policy, all three need endorsements.",
+     "show": 3,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A cook who is a crew member on a Great Lakes freighter is hurt aboard and sues his employer before a jury. Which law is he using?",
+   "choices": [
+    "FELA",
+    "The Longshore and Harbor Workers' Compensation Act",
+    "The Jones Act"
+   ],
+   "answer": 2,
+   "why": "The Jones Act lets an injured seaman (a vessel's crew member) sue the employer with a jury trial. The Longshore Act excludes crew; FELA is for railroad workers.",
+   "beats": [
+    {
+     "text": "A cook on a Great Lakes freighter, a crew member, is hurt aboard and sues his employer before a jury. Which law? Pick an answer.",
+     "say": "A cook on a Great Lakes freighter, a crew member, is hurt aboard and sues his employer before a jury. Which law? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The Jones Act, the law for a ship's crew. The Longshore Act excludes crew, and FELA is for railroads.",
+     "say": "The Jones Act, the law for a ship's crew. The Longshore Act excludes crew, and F E L A is for railroads."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "The WC policy's six parts",
+   "src": "NCCI WC 00 00 00 C (Ed. 1-15), Parts One to Six; MCL 418.621(4)(g); Michigan Law Endorsement WC 21 03 04",
+   "mn": "mn-mn_core-29",
+   "hook": "Six C's, in order: 1 Comp, 2 Court (employers liability suits), 3 Crossing state lines, 4 Call us at once, 5 Cash (premium), 6 Conditions.",
+   "items": [
+    "1 Comp: benefits the law requires, no dollar limit. 2 Court: employers liability, with limits",
+    "3 Crossing state lines: states listed in Item 3.C. 4 Call us at once after an injury",
+    "5 Cash: the premium shown is an estimate; an audit sets the final premium",
+    "6 Conditions: insurer gives 10 days' cancel notice; in Michigan, a 20-day agency filing too"
+   ],
+   "beats": [
+    {
+     "text": "The policy has six parts. Remember six C's: comp, court, crossing state lines, call us at once, cash, and conditions.",
+     "say": "The policy has six parts. Remember six C's: comp, court, crossing state lines, call us at once, cash, and conditions.",
+     "show": 0
+    },
+    {
+     "text": "Part One pays the benefits the comp law requires, with no dollar limit. Part Two, employers liability, has limits. Part Three applies to states listed in Item 3.C.",
+     "say": "Part One pays the benefits the comp law requires, with no dollar limit. Part Two, employers liability, has limits. Part Three applies to states listed in Item three C.",
+     "show": 2
+    },
+    {
+     "text": "Part Four: tell the insurer at once. Part Five: the premium is an estimate until the audit. Part Six: the insurer cancels on at least 10 days' notice; in Michigan it also files with the state agency at least 20 days ahead.",
+     "say": "Part Four: tell the insurer at once. Part Five: the premium is an estimate until the audit. Part Six: the insurer cancels on at least ten days' notice; in Michigan it also files with the state agency at least twenty days ahead.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "formula",
+   "title": "Figuring the premium",
+   "src": "NCRB Basic Manual Rule 5; IRMI 'manual premium', 'standard premium', 'premium discount'; NCCI WC 00 00 00 C, Part Five",
+   "given": [
+    "Payroll: $250,000 in one classification",
+    "Rate: $4.00 per $100 of payroll",
+    "Experience mod: 0.85"
+   ],
+   "items": [
+    {
+     "label": "Payroll in hundreds",
+     "expr": "$250,000 ÷ 100",
+     "value": "2,500"
+    },
+    {
+     "label": "Manual premium",
+     "expr": "2,500 × $4.00",
+     "value": "$10,000"
+    },
+    {
+     "label": "Standard premium (after the mod)",
+     "expr": "$10,000 × 0.85",
+     "value": "$8,500"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Rates are per $100 of payroll. Payroll is $250,000, the rate is $4, and the mod is 0.85.",
+     "say": "Rates are per one hundred dollars of payroll. Payroll is two hundred fifty thousand dollars, the rate is four dollars, and the mod is zero point eight five.",
+     "show": 0
+    },
+    {
+     "text": "Payroll divided by 100 is 2,500. Times $4, the manual premium is $10,000.",
+     "say": "Payroll divided by one hundred is two thousand five hundred. Times four dollars, the manual premium is ten thousand dollars.",
+     "show": 2
+    },
+    {
+     "text": "A mod under 1 is a credit; over 1 is a debit. $10,000 times 0.85 is $8,500, the standard premium.",
+     "say": "A mod under one is a credit; over one is a debit. Ten thousand dollars times zero point eight five is eight thousand five hundred dollars, the standard premium.",
+     "show": 3
+    },
+    {
+     "text": "A premium discount for larger policies comes after the mod.",
+     "say": "A premium discount for larger policies comes after the mod.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Payroll is $100,000, the rate is $5.00 per $100 of payroll, and the experience mod is 1.25. What is the premium after the mod?",
+   "choices": [
+    "$3,750",
+    "$5,000",
+    "$6,250",
+    "$625,000"
+   ],
+   "answer": 2,
+   "why": "$100,000 divided by 100 is 1,000. Times $5.00 is $5,000 manual premium. A 1.25 mod is a debit: $5,000 times 1.25 is $6,250.",
+   "beats": [
+    {
+     "text": "Your turn. Payroll is $100,000, the rate is $5, and the mod is 1.25. What's the premium after the mod? Pick an answer.",
+     "say": "Your turn. Payroll is one hundred thousand dollars, the rate is five dollars, and the mod is one point two five. What's the premium after the mod? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$6,250. Payroll divided by 100 is 1,000, times $5 is $5,000, times the 1.25 debit mod.",
+     "say": "Six thousand two hundred fifty dollars. Payroll divided by one hundred is one thousand, times five dollars is five thousand dollars, times the one point two five debit mod."
+    },
+    {
+     "text": "$5,000 forgets the mod; $3,750 treats the debit as a credit.",
+     "say": "Five thousand dollars forgets the mod; three thousand seven hundred fifty dollars treats the debit as a credit."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Other ways to secure comp",
+   "src": "MCL 418.611(1)-(2); MCL 418.201 and compiler's notes; MCL 500.2301; NCCI WC 00 03 11 A",
+   "items": [
+    {
+     "label": "Self-insure",
+     "detail": "Authorized by the Workers' Disability Compensation Agency (not DIFS), on proof of solvency",
+     "icon": "piggy-bank"
+    },
+    {
+     "label": "Group self-insurance",
+     "detail": "2 or more employers in the same industry with combined assets of $1,000,000 or more",
+     "icon": "users"
+    },
+    {
+     "label": "Placement Facility",
+     "detail": "Coverage for employers unable to get it normally; every authorized comp insurer participates",
+     "icon": "landmark"
+    },
+    {
+     "label": "Voluntary compensation endorsement",
+     "detail": "Statutory-level benefits for workers the law doesn't require you to cover",
+     "icon": "handshake"
+    }
+   ],
+   "beats": [
+    {
+     "text": "In Michigan, an employer insures with an authorized insurer or self-insures with the Workers' Disability Compensation Agency's authorization. 2 or more employers in one industry with combined assets of $1,000,000 or more may self-insure as a group.",
+     "say": "In Michigan, an employer insures with an authorized insurer or self-insures with the Workers' Disability Compensation Agency's authorization. Two or more employers in one industry with combined assets of one million dollars or more may self-insure as a group.",
+     "show": 2
+    },
+    {
+     "text": "The Placement Facility covers employers who can't get coverage normally; every authorized comp insurer must participate.",
+     "say": "The Placement Facility covers employers who can't get coverage normally; every authorized comp insurer must participate.",
+     "show": 3
+    },
+    {
+     "text": "Voluntary compensation pays comp-level benefits to workers you aren't required to cover, like farm or domestic workers.",
+     "say": "Voluntary compensation pays comp-level benefits to workers you aren't required to cover, like farm or domestic workers.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Comp is the exclusive remedy; only an intentional tort escapes it",
+    "Must carry: 3 at once, or 1 at 35 for 13 of 52 weeks; all public",
+    "Paid from day 8; from the injury date at 2 weeks; 80% after-tax AWW",
+    "Rails: FELA. Shore: Longshore Act. Ship's crew: Jones Act",
+    "Premium: payroll ÷ 100 × rate × experience mod"
+   ],
+   "beats": [
+    {
+     "text": "Let's recap: exclusive remedy, who must carry comp, day 8 and 80%, rails, shore and ship, and the premium formula.",
+     "say": "Let's recap: exclusive remedy, who must carry comp, day eight and eighty percent, rails, shore and ship, and the premium formula.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "core-054",
+  "core-056",
+  "core-wcg-02",
+  "core-063",
+  "core-066"
+ ],
+ "hooks": [
+  "mn-mn_core-24",
+  "mn-mn_core-25",
+  "mn-mn_core-29"
+ ],
+ "sources": [
+  "MCL 418.131(1)",
+  "MCL 418.115; 418.118",
+  "MCL 418.301(1),(3); 418.305",
+  "MCL 418.401(2)(b)",
+  "MCL 418.311; 418.351(1); 418.355(2)",
+  "MCL 418.611(1)-(2)",
+  "MCL 418.201 and compiler's notes (E.R.O. 2003-1; E.R.O. 2019-3)",
+  "MCL 418.621(4)(g); Michigan Law Endorsement WC 21 03 04",
+  "MCL 500.2301",
+  "45 USC 51, 53",
+  "33 USC 902(3), 903(a), 904(b)",
+  "46 USC 30104(a)",
+  "NCCI WC 00 00 00 C (Ed. 1-15)",
+  "NCCI WC 00 03 11 A",
+  "NCRB Basic Manual Rule 5",
+  "IRMI glossary: manual premium; standard premium; premium discount; experience modification",
+  "PSI Series 16-81 content outline"
+ ]
+}

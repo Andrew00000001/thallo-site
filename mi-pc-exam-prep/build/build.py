@@ -120,6 +120,59 @@ for k, v in Counter(allids).items():
 howto_path = os.path.join(LEARN, 'howto.final.md')
 howto_html = convert(open(howto_path).read()) if os.path.exists(howto_path) else ''
 
+# ---------- narrated lessons ----------
+LESSONS_DIR = os.environ.get('LESSONS') or os.path.join(HERE, '..', 'lessons', 'final')
+AUDIO_DIR = os.environ.get('AUDIO') or os.path.join(HERE, '..', 'lessons', 'audio')
+ICON_DIR = os.environ.get('ICONS') or os.path.join(HERE, '..', 'lessons', 'icons_dl', 'package', 'icons')
+VALIDATOR = os.environ.get('VALIDATOR') or os.path.join(HERE, '..', 'lessons')
+LAX = os.environ.get('LESSONS_LAX') == '1'
+os.environ.setdefault('RES', RES); os.environ.setdefault('LEARN', LEARN); os.environ.setdefault('ICONS', ICON_DIR)
+lessons = []
+UI_ICONS = ['play', 'pause', 'skip-back', 'skip-forward', 'maximize', 'chevron-left', 'lightbulb', 'circle-check', 'brain', 'user']
+used_icons = set(UI_ICONS)
+lesson_files = sorted(glob.glob(os.path.join(LESSONS_DIR, 'L*.json')))
+if lesson_files:
+    import hashlib
+    sys.path.insert(0, VALIDATOR)
+    import validate as lesson_validate
+    accepted = {}
+    ap = os.path.join(AUDIO_DIR, 'accepted.json')
+    if os.path.exists(ap): accepted = json.load(open(ap))
+    for path in lesson_files:
+        L = json.load(open(path)); lid = L.get('id', os.path.basename(path))
+        probs = lesson_validate.check(path)
+        for pr in probs: (warns if LAX else errors).append(f'{lid}: {pr}')
+        tp = os.path.join(AUDIO_DIR, f'{lid}.timing.json')
+        if not os.path.exists(tp) or not os.path.exists(os.path.join(AUDIO_DIR, f'{lid}.mp3')):
+            errors.append(f'{lid}: no narration audio/timing in {AUDIO_DIR}'); continue
+        T = json.load(open(tp))
+        says = [b['say'] for s in L['scenes'] for b in s['beats'] + s.get('reveal', [])]
+        if T.get('shash') != hashlib.sha256(json.dumps(says).encode()).hexdigest()[:16]:
+            if os.environ.get('LESSONS_STALE_OK') != '1':
+                errors.append(f'{lid}: script changed since the audio was made (re-run narrate.py)'); continue
+            warns.append(f'{lid}: stale audio allowed for a layout check')
+        if len(T['scenes']) != len(L['scenes']) or any(len(ts['beats']) != len(s['beats']) + len(s.get('reveal', [])) for ts, s in zip(T['scenes'], L['scenes'])):
+            errors.append(f'{lid}: timing does not match scenes/beats'); continue
+        vp = os.path.join(AUDIO_DIR, f'{lid}.verify.json')
+        if not os.path.exists(vp): errors.append(f'{lid}: missing transcript check'); continue
+        ok_say = set(accepted.get(lid, []))
+        for mm in json.load(open(vp))['mismatches']:
+            if mm['say'] not in ok_say:
+                (warns if LAX else errors).append(f'{lid}: unreviewed transcript mismatch: said "{mm["say"][:70]}" heard "{mm["heard"][:70]}"')
+        for s in L['scenes']:
+            for x in [s] + list(s.get('items', []) if isinstance(s.get('items'), list) else []) + list(s.get('columns', []) if s.get('type') == 'compare' else []):
+                if isinstance(x, dict) and x.get('icon'): used_icons.add(x['icon'])
+        L['timing'] = {'dur': T['dur'], 'scenes': T['scenes']}
+        L['audio'] = f'lessons/{lid}.mp3'
+        lessons.append(L)
+    if len({l['id'] for l in lessons}) != len(lessons): errors.append('duplicate lesson ids')
+icons = {}
+for n in sorted(used_icons):
+    fp = os.path.join(ICON_DIR, f'{n}.svg')
+    if not os.path.exists(fp): errors.append(f'icon missing: {n}'); continue
+    svg = open(fp).read()
+    icons[n] = re.sub(r'\s+', ' ', svg[svg.index('>', svg.index('<svg')) + 1: svg.rindex('</svg>')]).strip()
+
 def guide_html(md):
     # Wrap the Flags section in a callout so unverified/changing items stand out.
     m = re.search(r'^##\s+Flags.*$', md, flags=re.M)
@@ -174,6 +227,7 @@ SHELL = """
   <div class="wrap" style="display:flex">
     <nav class="tabs" role="tablist" aria-label="Sections">
       <button class="tab" role="tab" id="tab-home" data-view="home" aria-selected="true">Today</button>
+      <button class="tab" role="tab" id="tab-watch" data-view="watch" aria-selected="false">Watch</button>
       <button class="tab" role="tab" id="tab-study" data-view="study" aria-selected="false">Learn</button>
       <button class="tab" role="tab" id="tab-memory" data-view="memory" aria-selected="false">Memory aids</button>
       <button class="tab" role="tab" id="tab-practice" data-view="practice" aria-selected="false">Practice</button>
@@ -188,6 +242,7 @@ SHELL = """
 </div>
 <main class="wrap">
   <section class="view" id="view-home"></section>
+  <section class="view" id="view-watch" hidden></section>
   <section class="view" id="view-study" hidden></section>
   <section class="view" id="view-memory" hidden></section>
   <section class="view" id="view-practice" hidden></section>
@@ -205,8 +260,10 @@ SHELL = """
 def compose():
     v1 = open(os.path.join(HERE, 'template_v1.html')).read()
     head = v1[:v1.index('</style>')]
-    extra = open(os.path.join(HERE, 'extra.css')).read()
+    extra = open(os.path.join(HERE, 'extra.css')).read() + '\n' + open(os.path.join(HERE, 'lessons.css')).read()
     js = open(os.path.join(HERE, 'app.js')).read()
+    assert js.count('/*@@LESSONS@@*/') == 1
+    js = js.replace('/*@@LESSONS@@*/', open(os.path.join(HERE, 'lessons.js')).read())
     return head + '\n' + extra + '\n</style>\n' + SHELL + '\n<script id="data" type="application/json">__DATA__</script>\n<script>\n' + js + '\n</script>\n'
 
 meta = {
@@ -216,9 +273,9 @@ meta = {
                     'FEMA/NFIP; U.S. Treasury (TRIA); ISO and NCCI standard policy forms (editions named in each section).'),
 }
 data = {'questions': questions, 'cards': cards, 'numbers': numbers, 'guide': guide, 'meta': meta,
-        'mnemonics': mnemonics, 'pairs': pairs, 'visuals': visuals, 'matchsets': matchsets}
+        'mnemonics': mnemonics, 'pairs': pairs, 'visuals': visuals, 'matchsets': matchsets, 'lessons': lessons, 'icons': icons}
 
-print(f'questions {len(questions)}  cards {len(cards)}  numbers {len(numbers)}  guide {len(guide)}  hooks {len(mnemonics)}  pairs {len(pairs)}  visuals {len(visuals)}  matchsets {len(matchsets)}')
+print(f'questions {len(questions)}  cards {len(cards)}  numbers {len(numbers)}  guide {len(guide)}  hooks {len(mnemonics)}  pairs {len(pairs)}  visuals {len(visuals)}  matchsets {len(matchsets)}  lessons {len(lessons)}  icons {len(icons)}')
 print('per section:', dict(per_sec))
 print('answer positions:', dict(pos))
 for w in warns: print('WARN', w)

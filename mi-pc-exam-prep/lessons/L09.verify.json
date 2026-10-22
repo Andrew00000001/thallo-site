@@ -1,0 +1,55 @@
+{
+ "id": "L09",
+ "beats": 39,
+ "mismatches": [
+  {
+   "scene": 0,
+   "beat": 0,
+   "say": "Michigan laws and required provisions are part of the exam's Basics section. In this lesson, we'll pin down their key numbers.",
+   "heard": "Michigan laws and required provisions are part of the exam's basic section. In this lesson, we'll pin down their key numbers.",
+   "wer": 0.05
+  },
+  {
+   "scene": 1,
+   "beat": 1,
+   "say": "It takes effect at twelve oh one A M, standard time, at the property's location.",
+   "heard": "It takes effect at 1201 a.m., standard time, at the property's location.",
+   "wer": 0.286
+  },
+  {
+   "scene": 6,
+   "beat": 1,
+   "say": "Ana: she owns and lives in a building of up to four units. Ben doesn't live there, and Cal's arson and Dee's taxes disqualify them.",
+   "heard": "Anna, she owns and lives in a building of up to four units. Ben does not live there, and Cal's arson and Dee's taxes disqualify them.",
+   "wer": 0.043
+  },
+  {
+   "scene": 7,
+   "beat": 0,
+   "say": "T R I A created the federal Terrorism Risk Insurance Program. The Treasury Secretary certifies acts of terrorism, consulting the Homeland Security Secretary and the Attorney General.",
+   "heard": "TRI created the Federal Terrorism Risk Insurance Program. The Treasury Secretary certifies acts of terrorism, consulting the Homeland Security Secretary and the Attorney General.",
+   "wer": 0.043
+  },
+  {
+   "scene": 9,
+   "beat": 0,
+   "say": "When an insurer is insolvent, the Michigan Property and Casualty Guaranty Association pays covered claims. Insurers authorized for lines other than life or disability belong; surplus lines insurers don't.",
+   "heard": "When an insurer is insolvent, the Michigan Property and Casualty Guarantee Association pays covered claims. Insurers authorized for lines other than life or disability belong. Surplus lines insurers do not.",
+   "wer": 0.034
+  },
+  {
+   "scene": 10,
+   "beat": 0,
+   "say": "Which claim against an insolvent insurer is NOT subject to the guaranty association's cap? Pick an answer.",
+   "heard": "which claim against an insolvent insurer is not subject to the Guarantee Associations Cap. Pick an answer.",
+   "wer": 0.059
+  },
+  {
+   "scene": 11,
+   "beat": 1,
+   "say": "Home terminations: thirty days, or twenty in the first fifty-five. T R I A: twenty percent deductible, eighty percent federal. The guaranty cap spares P I P and workers' comp.",
+   "heard": "home terminations, 30 days or 20 in the first 55, TRIA, 20% deductible, 80% federal. The guarantee cap spares PIP and workers comp.",
+   "wer": 0.04
+  }
+ ]
+}

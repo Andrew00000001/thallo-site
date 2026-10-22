@@ -1,0 +1,546 @@
+{
+ "id": "L00",
+ "sec": "reg",
+ "guide": "logistics",
+ "title": "Your exam: format, scoring and a study plan",
+ "summary": "How the PSI 16-81 exam is built and scored, what to expect on test day, the steps to a license, and how to study with this app.",
+ "objectives": [
+  "Know the exam format: 150 scored items, 2.5 hours, 74% (111 correct) to pass",
+  "Use the section weights and a pacing plan to aim your study and your time",
+  "Follow test-day rules and the steps and time windows to a license",
+  "Use daily spaced review, recall and confidence ratings in the app"
+ ],
+ "check": [
+  "reg-012",
+  "reg-013",
+  "reg-031"
+ ],
+ "hooks": [],
+ "sources": [
+  "PSI Candidate Information Bulletin, eff. 6/10/2025",
+  "PSI Michigan P&C Producer/Solicitor 16-81 content outline (Sept 2021)",
+  "DIFS Insurance Examination Cut Scores PDF (eff. 5/1/2020)",
+  "DIFS Remote Examination Discontinuance (June 9, 2025)",
+  "DIFS Pre-licensing Education FAQ",
+  "DIFS How to become licensed as a Resident Producer",
+  "DIFS Insurance Producer Application Background Questions",
+  "MCL 500.1204(2), 500.1204(6), 500.1204a(1)(b), 500.1205(1), 500.1239(1)(d),(e)",
+  "Study guide: How to study (Roediger & Karpicke 2006; Cepeda et al. 2006; Butler et al. 2011)"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Your exam: format, scoring and a study plan",
+   "subtitle": "What the PSI 16-81 exam looks like, what it takes to pass, and how to get ready",
+   "icon": "clipboard-list",
+   "beats": [
+    {
+     "text": "Welcome. Before you study a single rule, know exactly what you're aiming at.",
+     "say": "Welcome. Before you study a single rule, know exactly what you're aiming at."
+    },
+    {
+     "text": "Coming up: scoring, test day, your path to a license, and how to study.",
+     "say": "Coming up: scoring, test day, your path to a license, and how to study."
+    }
+   ]
+  },
+  {
+   "type": "bignum",
+   "title": "The exam at a glance",
+   "src": "PSI CIB eff. 6/10/2025, p.9; DIFS Insurance Examination Cut Scores PDF; PSI 16-81 outline",
+   "items": [
+    {
+     "value": "150",
+     "label": "Scored items"
+    },
+    {
+     "value": "2.5 hours",
+     "label": "Exam time"
+    },
+    {
+     "value": "74%",
+     "label": "Score needed to pass"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your exam, PSI Series 16-81, has 150 scored items.",
+     "say": "Your exam, P S I Series sixteen eighty-one, has one hundred fifty scored items.",
+     "show": 1
+    },
+    {
+     "text": "You get 2.5 hours to finish.",
+     "say": "You get two point five hours to finish.",
+     "show": 2
+    },
+    {
+     "text": "And you need a score of 74% to pass.",
+     "say": "And you need a score of seventy-four percent to pass.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "formula",
+   "title": "Passing math",
+   "src": "PSI 16-81 outline: 150 items, 74% (111 correct to pass)",
+   "given": [
+    "150 scored items",
+    "Cut score: 74%"
+   ],
+   "items": [
+    {
+     "label": "Correct answers needed",
+     "expr": "74% × 150",
+     "value": "111"
+    },
+    {
+     "label": "Misses you can afford",
+     "expr": "150 − 111",
+     "value": "39"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Let's make that concrete. 74% of 150 is 111, so you need 111 correct answers.",
+     "say": "Let's make that concrete. Seventy-four percent of one hundred fifty is one hundred eleven, so you need one hundred eleven correct answers.",
+     "show": 1
+    },
+    {
+     "text": "That means you can miss up to 39 items and still pass.",
+     "say": "That means you can miss up to thirty-nine items and still pass.",
+     "show": 2
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Where the 150 items come from",
+   "src": "PSI 16-81 content outline (Sept 2021)",
+   "columns": [
+    "Section",
+    "Weight",
+    "Items"
+   ],
+   "items": [
+    [
+     "P&C Insurance Basics",
+     "20%",
+     "30"
+    ],
+    [
+     "Homeowners and Auto",
+     "15% each",
+     "22 each"
+    ],
+    [
+     "Commercial Package Policy (CPP)",
+     "12%",
+     "18"
+    ],
+    [
+     "General Insurance",
+     "10.5%",
+     "16"
+    ],
+    [
+     "Insurance Regulation",
+     "10%",
+     "15"
+    ],
+    [
+     "BOP, Workers' Comp, Other, Dwelling",
+     "17.5% total",
+     "27 total"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "The outline splits the exam into ten sections. The biggest is Property and Casualty Insurance Basics: 20%, or 30 items.",
+     "say": "The outline splits the exam into ten sections. The biggest is Property and Casualty Insurance Basics: twenty percent, or thirty items.",
+     "show": 1
+    },
+    {
+     "text": "Homeowners and Auto come next, at 15% and 22 items each.",
+     "say": "Homeowners and Auto come next, at fifteen percent and twenty-two items each.",
+     "show": 2
+    },
+    {
+     "text": "Then the Commercial Package Policy at 12%, and General Insurance at 10.5%.",
+     "say": "Then the Commercial Package Policy at twelve percent, and General Insurance at ten point five percent.",
+     "show": 4
+    },
+    {
+     "text": "Insurance Regulation is 10%, or 15 items.",
+     "say": "Insurance Regulation is ten percent, or fifteen items.",
+     "show": 5
+    },
+    {
+     "text": "The four smallest, Businessowners, Workers' Comp, Other Coverages and Dwelling, add up to 27 items. Don't skip them.",
+     "say": "The four smallest, Businessowners, Workers' Comp, Other Coverages and Dwelling, add up to twenty-seven items. Don't skip them.",
+     "show": 6,
+     "hl": 5
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Which exam section is worth the most items?",
+   "choices": [
+    "Homeowners",
+    "Insurance Regulation",
+    "P&C Insurance Basics",
+    "Auto"
+   ],
+   "answer": 2,
+   "why": "P&C Insurance Basics is 20% of the exam, or 30 items. Homeowners and Auto are 22 items each, and Regulation is 15.",
+   "beats": [
+    {
+     "text": "Quick check. Which section is worth the most items? Pick an answer.",
+     "say": "Quick check. Which section is worth the most items? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "It's P&C Insurance Basics: 20%, or 30 items. Homeowners and Auto tie for second at 22 each.",
+     "say": "It's P and C Insurance Basics: twenty percent, or thirty items. Homeowners and Auto tie for second at twenty-two each."
+    }
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Pacing checkpoints",
+   "src": "PSI CIB eff. 6/10/2025, p.8; study guide, test-day strategy",
+   "items": [
+    {
+     "at": "Start",
+     "label": "150 minutes on the clock",
+     "detail": "Plan for up to about 165 items at about 50 seconds each"
+    },
+    {
+     "at": "100 min left",
+     "label": "About 60 items done"
+    },
+    {
+     "at": "50 min left",
+     "label": "About 120 items done"
+    },
+    {
+     "at": "12 min left",
+     "label": "Go back to the items you noted"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Now pacing. PSI may add 1 to 10 unscored items, generally about 10% of the questions, that also use exam time. The bulletin doesn't say they're marked, so treat every item as scored.",
+     "say": "Now pacing. P S I may add one to ten unscored items, generally about ten percent of the questions, that also use exam time. The bulletin doesn't say they're marked, so treat every item as scored.",
+     "show": 1
+    },
+    {
+     "text": "Plan for up to about 165 items, at about 50 seconds each.",
+     "say": "Plan for up to about one hundred sixty-five items, at about fifty seconds each.",
+     "show": 1
+    },
+    {
+     "text": "Then you'll be about 60 items in when the clock shows 100 minutes left, and about 120 in at 50 minutes left.",
+     "say": "Then you'll be about sixty items in when the clock shows one hundred minutes left, and about one hundred twenty in at fifty minutes left.",
+     "show": 3
+    },
+    {
+     "text": "That leaves about 12 minutes to go back.",
+     "say": "That leaves about twelve minutes to go back.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Answering strategy",
+   "src": "PSI CIB eff. 6/10/2025, p.8; study guide, test-day strategy",
+   "items": [
+    {
+     "label": "Use the tutorial",
+     "detail": "Up to 15 minutes; it doesn't count toward exam time",
+     "icon": "book-open"
+    },
+    {
+     "label": "Read the question's last line first",
+     "detail": "Know what's being asked",
+     "icon": "search"
+    },
+    {
+     "label": "Watch for EXCEPT and NOT",
+     "detail": "Three choices fit the stem; pick the one that doesn't",
+     "icon": "triangle-alert"
+    },
+    {
+     "label": "Eliminate, guess, note, return",
+     "detail": "Write the item number on your scratch paper and move on",
+     "icon": "notebook-pen"
+    },
+    {
+     "label": "Never leave a blank",
+     "detail": "A blank can't be right",
+     "icon": "circle-check"
+    }
+   ],
+   "beats": [
+    {
+     "text": "A few habits help. Use the tutorial: it runs up to 15 minutes and doesn't count toward exam time.",
+     "say": "A few habits help. Use the tutorial: it runs up to fifteen minutes and doesn't count toward exam time.",
+     "show": 1
+    },
+    {
+     "text": "Read the question's last line first, so you know what's being asked.",
+     "say": "Read the question's last line first, so you know what's being asked.",
+     "show": 2
+    },
+    {
+     "text": "Watch for EXCEPT and NOT. In an EXCEPT item, three choices fit the stem. Pick the one that doesn't.",
+     "say": "Watch for except and not. In an except item, three choices fit the stem. Pick the one that doesn't.",
+     "show": 3
+    },
+    {
+     "text": "Stuck? Eliminate, pick your best answer, note the item number on scratch paper, and move on. You can change answers while time remains.",
+     "say": "Stuck? Eliminate, pick your best answer, note the item number on scratch paper, and move on. You can change answers while time remains.",
+     "show": 4
+    },
+    {
+     "text": "And never leave a blank. A blank can't be right.",
+     "say": "And never leave a blank. A blank can't be right.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Test day: bring and leave behind",
+   "src": "PSI CIB eff. 6/10/2025, p.5-7; DIFS Remote Examination Discontinuance (June 9, 2025)",
+   "columns": [
+    {
+     "name": "Bring and do",
+     "icon": "id-card",
+     "points": [
+      "Arrive 30 minutes early",
+      "One valid, unexpired, government-issued ID",
+      "ID shows your photo and signature",
+      "Name matches your registration"
+     ]
+    },
+    {
+     "name": "Leave behind",
+     "icon": "ban",
+     "points": [
+      "Phone and electronic watch",
+      "Handheld calculator",
+      "Reference materials",
+      "Food and drinks"
+     ]
+    }
+   ],
+   "tell": "You get a piece of scratch paper and a pencil at the test center.",
+   "beats": [
+    {
+     "text": "Test day is in person only, at a PSI test center. Arrive 30 minutes early. If you're not checked in by your start time, you can't test, and you lose your fee.",
+     "say": "Test day is in person only, at a P S I test center. Arrive thirty minutes early. If you're not checked in by your start time, you can't test, and you lose your fee.",
+     "show": 1
+    },
+    {
+     "text": "Bring one valid, unexpired, government-issued ID with photo and signature, like a state driver's license or US passport, in the name you registered under.",
+     "say": "Bring one valid, unexpired, government-issued ID with photo and signature, like a state driver's license or U S passport, in the name you registered under.",
+     "show": 1
+    },
+    {
+     "text": "Leave behind your phone, electronic watch, handheld calculator, reference materials, food and drinks.",
+     "say": "Leave behind your phone, electronic watch, handheld calculator, reference materials, food and drinks.",
+     "show": 2
+    },
+    {
+     "text": "You'll get scratch paper and a pencil, so practice math by hand.",
+     "say": "You'll get scratch paper and a pencil, so practice math by hand.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Which of these IDs will get you into your PSI exam?",
+   "choices": [
+    "Your state driver's license, which expired last month",
+    "A valid US passport in the name you registered under",
+    "A bank card with your photo and signature",
+    "A valid ID in a name different from your registration"
+   ],
+   "answer": 1,
+   "why": "PSI requires one valid, unexpired, government-issued ID with your photo and signature, and the name must match your registration.",
+   "beats": [
+    {
+     "text": "Your turn. Which of these IDs will get you into the exam? Pick an answer.",
+     "say": "Your turn. Which of these IDs will get you into the exam? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The valid US passport in your registered name. The others are expired, not government-issued, or in the wrong name.",
+     "say": "The valid U S passport in your registered name. The others are expired, not government-issued, or in the wrong name."
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "Your path to a license",
+   "src": "MCL 500.1204(2), .1204a(1)(b), .1205(1), .1239(1)(d),(e); DIFS PE FAQ; DIFS resident producer page; PSI CIB p.2-5",
+   "items": [
+    {
+     "label": "Finish prelicensing education",
+     "detail": "40 hours for combined P&C; certificate valid 12 months",
+     "icon": "graduation-cap"
+    },
+    {
+     "label": "Apply through NIPR",
+     "detail": "Producer: $10 application fee and $5 transaction fee; valid 180 days",
+     "icon": "file-signature"
+    },
+    {
+     "label": "Register with PSI and test",
+     "detail": "$41 fee; cancel or reschedule at least 2 days ahead",
+     "icon": "clipboard-list"
+    },
+    {
+     "label": "Pass inside both windows",
+     "detail": "Within 12 months of your course and 180 days of your application",
+     "icon": "calendar-clock"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Now, your path to a license. Finish prelicensing education first, or your exam results are invalidated: 40 hours for combined property and casualty.",
+     "say": "Now, your path to a license. Finish prelicensing education first, or your exam results are invalidated: forty hours for combined property and casualty.",
+     "show": 1
+    },
+    {
+     "text": "The certificate is good for 12 months. A designation such as CPCU can earn a waiver; request it in writing and get it granted before you schedule.",
+     "say": "The certificate is good for twelve months. A designation such as C P C U can earn a waiver; request it in writing and get it granted before you schedule.",
+     "show": 1
+    },
+    {
+     "text": "Apply through NIPR. For a producer license, you pay $10 for the application and $5 for the transaction, and the application is valid for 180 days.",
+     "say": "Apply through N I P R. For a producer license, you pay ten dollars for the application and five dollars for the transaction, and the application is valid for one hundred eighty days.",
+     "show": 2
+    },
+    {
+     "text": "You must be at least 18. A felony conviction within 10 years before you apply bars a license. So does a felony involving violence, criminal sexual conduct or financial crime, at any time.",
+     "say": "You must be at least eighteen. A felony conviction within ten years before you apply bars a license. So does a felony involving violence, criminal sexual conduct or financial crime, at any time.",
+     "show": 2
+    },
+    {
+     "text": "Register with PSI: $41, not refundable. Cancel or reschedule at least 2 days ahead, or you lose it.",
+     "say": "Register with P S I: forty-one dollars, not refundable. Cancel or reschedule at least two days ahead, or you lose it.",
+     "show": 3
+    },
+    {
+     "text": "Pass within 180 days of applying and 12 months of finishing your course. A pass stays valid for 12 months.",
+     "say": "Pass within one hundred eighty days of applying and twelve months of finishing your course. A pass stays valid for twelve months.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Your NIPR producer license application was just entered into the DIFS database. How long do you have to pass the exam?",
+   "choices": [
+    "90 days",
+    "180 days",
+    "12 months",
+    "2 years"
+   ],
+   "answer": 1,
+   "why": "A resident producer application is valid 180 days from entry into the DIFS database. After that, you need a new application and fee.",
+   "beats": [
+    {
+     "text": "Your NIPR producer application was just entered into the DIFS database. How long do you have to pass the exam? Pick an answer.",
+     "say": "Your N I P R producer application was just entered into the D I F S database. How long do you have to pass the exam? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "180 days. After that, you need a new application and fee. Twelve months is your course certificate, not your application.",
+     "say": "One hundred eighty days. After that, you need a new application and fee. Twelve months is your course certificate, not your application."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "How to study with this app",
+   "src": "Study guide: How to study (Roediger & Karpicke 2006; Cepeda et al. 2006; Butler et al. 2011)",
+   "items": [
+    {
+     "label": "Start today's session first",
+     "detail": "Misses come back next session; right answers after growing gaps",
+     "icon": "calendar-clock"
+    },
+    {
+     "label": "Answer from memory",
+     "detail": "In Practice, turn on Recall first (hide choices)",
+     "icon": "brain"
+    },
+    {
+     "label": "Mix the sections",
+     "detail": "Choose All sections (weighted like the exam)",
+     "icon": "layers"
+    },
+    {
+     "label": "Rate how sure you are",
+     "detail": "Misses you marked Sure come back first",
+     "icon": "target"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Last, this app. Each day, do Start today's session first. Misses come back next session, and right answers after growing gaps. Then add new material, roughly by weight.",
+     "say": "Last, this app. Each day, do Start today's session first. Misses come back next session, and right answers after growing gaps. Then add new material, roughly by weight.",
+     "show": 1
+    },
+    {
+     "text": "Answer from memory instead of rereading. In Practice, turn on Recall first to hide the choices.",
+     "say": "Answer from memory instead of rereading. In Practice, turn on Recall first to hide the choices.",
+     "show": 2
+    },
+    {
+     "text": "Mix the sections with All sections, weighted like the exam.",
+     "say": "Mix the sections with All sections, weighted like the exam.",
+     "show": 3
+    },
+    {
+     "text": "And keep Rate how sure I am on. Missed questions you marked Sure come back first.",
+     "say": "And keep Rate how sure I am on. Missed questions you marked Sure come back first.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "title": "Recap",
+   "items": [
+    "150 scored items, 2.5 hours; 74%, or 111 correct, to pass",
+    "Basics, Homeowners and Auto carry the most items",
+    "Arrive 30 minutes early with one valid government photo ID",
+    "Pass within 180 days of your NIPR application",
+    "Start every day with today's session"
+   ],
+   "beats": [
+    {
+     "text": "To recap: 150 scored items, 2.5 hours, and 74%, or 111 correct, to pass. Basics, Homeowners and Auto weigh the most.",
+     "say": "To recap: one hundred fifty scored items, two point five hours, and seventy-four percent, or one hundred eleven correct, to pass. Basics, Homeowners and Auto weigh the most.",
+     "show": 3
+    },
+    {
+     "text": "Arrive 30 minutes early with valid photo ID, pass within 180 days of applying, and start each day with today's session.",
+     "say": "Arrive thirty minutes early with valid photo ID, pass within one hundred eighty days of applying, and start each day with today's session.",
+     "show": 5
+    }
+   ]
+  }
+ ]
+}

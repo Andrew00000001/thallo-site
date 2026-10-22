@@ -1,0 +1,41 @@
+{
+ "id": "L12",
+ "beats": 29,
+ "mismatches": [
+  {
+   "scene": 2,
+   "beat": 1,
+   "say": "Freezing is covered only if you used reasonable care to maintain heat, or shut off the water and drained the system. Wear and tear, settling and pests aren't covered.",
+   "heard": "Freezing is covered only if you used reasonable care to maintain heat or shut off the water and drain the system. Wear and tear, settling and pests are not covered.",
+   "wer": 0.037
+  },
+  {
+   "scene": 6,
+   "beat": 0,
+   "say": "Now loss settlement. Insure the home to at least eighty percent of full replacement cost, and building losses are paid at replacement cost, with no depreciation.",
+   "heard": "Now lost settlement. Ensure the home to at least 80% of full replacement cost and building losses are paid at replacement cost with no depreciation.",
+   "wer": 0.08
+  },
+  {
+   "scene": 7,
+   "beat": 1,
+   "say": "Thirty thousand dollars. Eighty percent of three hundred thousand dollars is two hundred forty thousand dollars, so this home meets the test, and the full repair cost is paid. Don't multiply the loss by eighty percent.",
+   "heard": "$30,000. 80% of $300,000 is $240,000, so this home meets the test and the full repair cost is paid. Do not multiply the loss by 80%. percent.",
+   "wer": 0.028
+  },
+  {
+   "scene": 9,
+   "beat": 1,
+   "say": "In Michigan, though, courts require coverage for an innocent co-insured's fire loss. And if two deductibles apply to one loss, only the highest applies.",
+   "heard": "In Michigan, though, courts require coverage for an innocent co-insured fire loss. And if two deductibles apply to one loss, only the highest applies.",
+   "wer": 0.042
+  },
+  {
+   "scene": 10,
+   "beat": 1,
+   "say": "Insure to eighty percent for full replacement cost. Below that, pay the greater of actual cash value or the proportional amount. And in Michigan, payment is due thirty days after proof of the amount of loss.",
+   "heard": "ensure to 80% for full replacement cost. Below that, pay the greater of actual cash value or the proportional amount. And in Michigan, payment is due 30 days after proof of the amount of loss.",
+   "wer": 0.029
+  }
+ ]
+}

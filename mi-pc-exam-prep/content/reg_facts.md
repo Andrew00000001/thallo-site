@@ -32,7 +32,7 @@ Statute text: Michigan Compiled Laws via legislature.mi.gov (complete through PA
 
   [MCL 500.1209(2)]
 - An auto or home termination may **not** be based primarily on the geographic location of the producer's business, its loss experience tied to that location, or the producer's performance of chapter 21 (Essential Insurance Act) obligations. [MCL 500.1209(3)]
-- These protections do not apply to employee producers or captive producers (those representing only 1 insurer or affiliated group) when the insurer owns the renewal rights **and** the termination does not cause any home or auto policy to be canceled or nonrenewed. [MCL 500.1209(4)]
+- Exception for employee producers and captive producers (those who by contract represent only 1 insurer or affiliated group): when the insurer owns the renewal rights **and** the termination does not cause any home or auto policy to be canceled or nonrenewed, the auto/home termination limits above do not apply, and neither does the requirement to mail the producer a copy of the termination notice. [MCL 500.1209(4); MCL 500.1208b(4)] The 1209(1) rules (servicing after termination; no canceling an insured's policy because the producer's contract ended) have their own, differently worded exception: it also names life insurers and their producers, and its condition is that no insurance policy of any kind is canceled or nonrenewed as a result. [MCL 500.1209(1)]
 
 ## Producer Regulation: Duties and Who Must Be Licensed
 
@@ -519,7 +519,7 @@ Sources: PSI Candidate Information Bulletin "Effective 6/10/2025". The DIFS Exam
   [PSI CIB p.6-7]
 - **P&C Producer/Solicitor (16-81) format**: **150 scored items**, **2.5 hours**, cut score **74%**. [PSI CIB p.9; DIFS Insurance Examination Cut Scores PDF]
   - DIFS lists the 74% cut score as effective **5/1/2020**. Items were updated effective **July 2, 2020** for the 2019-2020 no-fault reforms. [DIFS Ins_Exam_Cut_Scores.pdf]
-  - Up to about 10% unscored experimental items (generally 1-10) may be added. They count against exam time. [PSI CIB p.8]
+  - A small number of unscored experimental items may be added: PSI says "one to ten experimental items, generally, approximately 10% of the number of questions." They are not scored but count against exam time. [PSI CIB p.8]
   - The tutorial, up to 15 minutes, does not count toward exam time. [PSI CIB p.8]
 - **Prelicensing education is required** for 16-81. The program is **40 hours** for the combined property and casualty producer/solicitor course; property-only, casualty-only or personal lines programs are 20 hours each. [MCL 500.1204a(1)(b); DIFS Pre-licensing Education FAQ; PSI CIB p.2]
   - Courses may be classroom or self-study. [DIFS PE FAQ]

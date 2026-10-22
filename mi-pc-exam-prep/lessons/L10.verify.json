@@ -1,0 +1,41 @@
+{
+ "id": "L10",
+ "beats": 31,
+ "mismatches": [
+  {
+   "scene": 0,
+   "beat": 0,
+   "say": "Dwelling forms can insure a one to four family residential building. Unlike homeowners forms, they include no liability coverage at all.",
+   "heard": "Dwelling forms can ensure a one-to-four family residential building. Unlike homeowners' forms, they include no liability coverage at all.",
+   "wer": 0.048
+  },
+  {
+   "scene": 2,
+   "beat": 0,
+   "say": "Quick check. Under the two thousand two D P three, which coverages are open perils? Pick an answer.",
+   "heard": "Quick check under the 2002 DP3, which coverages our open perils. Pick an answer.",
+   "wer": 0.059
+  },
+  {
+   "scene": 2,
+   "beat": 1,
+   "say": "Coverages A and B only. The buildings get open perils, but personal property stays named perils. No D P form covers contents on open perils.",
+   "heard": "Coverage is A and B only. The buildings get open perils, but personal property stays named perils. No DP form covers contents on open perils.",
+   "wer": 0.087
+  },
+  {
+   "scene": 5,
+   "beat": 0,
+   "say": "Now flip it. An owner-occupant's D P three home burns, and her family moves into a hotel. Which coverage pays the extra living costs? Pick an answer.",
+   "heard": "Now flip it, an owner occupants DP3 homeburns and her family moves into a hotel. Which coverage pays the extra living costs? Pick an answer.",
+   "wer": 0.077
+  },
+  {
+   "scene": 5,
+   "beat": 2,
+   "say": "Watch the edition: the nineteen eighty eight D P two allowed only ten percent of Coverage A.",
+   "heard": "Watch the addition. The 1988 DP2 allowed only 10% of coverage A.",
+   "wer": 0.062
+  }
+ ]
+}

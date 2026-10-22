@@ -1,0 +1,34 @@
+{
+ "id": "L08",
+ "beats": 39,
+ "mismatches": [
+  {
+   "scene": 1,
+   "beat": 2,
+   "say": "Did, the limit carried, over Should is seventy-five percent.",
+   "heard": "did the limit carried, overshoot is 75 percent.",
+   "wer": 0.2
+  },
+  {
+   "scene": 9,
+   "beat": 0,
+   "say": "A Michigan claim. Hail wrecks Dana's roof in Kalamazoo, and she hires a public adjuster. Who does the adjuster work for, and what deadlines apply?",
+   "heard": "A Michigan claim, Hale wrecks Dana's roof in Kalamazoo and she hires a public adjuster. Who does the adjuster work for and what deadlines apply?",
+   "wer": 0.043
+  },
+  {
+   "scene": 10,
+   "beat": 2,
+   "say": "And a producer binds only within actual or apparent authority.",
+   "heard": "and a producer binds only with an actual or apparent authority.",
+   "wer": 0.222
+  },
+  {
+   "scene": 11,
+   "beat": 1,
+   "say": "Subrogation recovers from the party liable. A mortgagee survives a denial; a loss payee usually doesn't. In Michigan, late benefits to the insured earn twelve percent interest.",
+   "heard": "Subrogation recovers from the party liable. A mortgagee survives a denial. A lost payee usually does not. In Michigan, late benefits to the insured earn 12% interest.",
+   "wer": 0.036
+  }
+ ]
+}

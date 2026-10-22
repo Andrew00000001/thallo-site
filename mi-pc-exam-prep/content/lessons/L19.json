@@ -1,0 +1,523 @@
+{
+ "id": "L19",
+ "sec": "cpp",
+ "guide": "cpp",
+ "title": "Commercial property and business income",
+ "summary": "How a commercial property coverage part is built, Basic vs Broad vs Special, vacancy, coinsurance math, business income and key endorsements.",
+ "objectives": [
+  "Tell what the Broad and Special causes of loss forms add to Basic",
+  "Apply the vacancy rule and work a coinsurance problem",
+  "Separate Business Income from Extra Expense and their start times",
+  "Match condo, builders risk, legal liability and the selected endorsements"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Commercial property and business income",
+   "subtitle": "Coverage forms, causes of loss, coinsurance and time element coverage",
+   "icon": "warehouse",
+   "beats": [
+    {
+     "text": "Commercial property questions love numbers: 60 days, 15%, 72 hours, 80%. Let's see where each one comes from.",
+     "say": "Commercial property questions love numbers: sixty days, fifteen percent, seventy-two hours, eighty percent. Let's see where each one comes from."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "How a commercial property part is built",
+   "src": "ISO CP 00 90 07 88, D.; MCL 500.2833(1)(q); ISO CP 00 10 10 12, A.1; vs-vs_commercial-05",
+   "items": [
+    {
+     "label": "Commercial Property Conditions",
+     "detail": "Shared conditions; suit within 2 years after the loss (Michigan tolls it)",
+     "icon": "clipboard-list"
+    },
+    {
+     "label": "Coverage form",
+     "detail": "Building and Personal Property: building, your property, others' property",
+     "icon": "building-2"
+    },
+    {
+     "label": "Causes of loss form",
+     "detail": "You choose Basic, Broad or Special",
+     "icon": "flame"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Commercial property keeps shared conditions in a separate form. The 1988 version allows 2 years after the loss to sue; Michigan pauses that clock from notice until denial.",
+     "say": "Commercial property keeps shared conditions in a separate form. The nineteen eighty-eight version allows two years after the loss to sue; Michigan pauses that clock from notice until denial.",
+     "show": 1
+    },
+    {
+     "text": "The main coverage form is Building and Personal Property. It covers the building, your business personal property in it or within 100 feet, and others' property in your care.",
+     "say": "The main coverage form is Building and Personal Property. It covers the building, your business personal property in it or within one hundred feet, and others' property in your care.",
+     "show": 2
+    },
+    {
+     "text": "Then you choose a causes of loss form: Basic, Broad or Special.",
+     "say": "Then you choose a causes of loss form: Basic, Broad or Special.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Causes of loss: Basic, Broad, Special",
+   "src": "ISO CP 10 10 10 12, A.1-11; CP 10 20 10 12, A.12-14, C.; CP 10 30 09 17, A., C.3",
+   "columns": [
+    {
+     "name": "Basic",
+     "icon": "flame",
+     "points": [
+      "Fire, lightning, explosion, windstorm or hail",
+      "Smoke, aircraft or vehicles, riot or civil commotion, vandalism",
+      "Sprinkler leakage, sinkhole collapse, volcanic action"
+     ]
+    },
+    {
+     "name": "Broad",
+     "icon": "snowflake",
+     "points": [
+      "All the Basic perils",
+      "Plus falling objects",
+      "Plus weight of snow, ice or sleet",
+      "Plus water damage, and collapse coverage"
+     ]
+    },
+    {
+     "name": "Special",
+     "icon": "shield-check",
+     "points": [
+      "Direct physical loss unless excluded or limited",
+      "The only one that covers theft",
+      "Theft limits: $2,500 furs or jewelry; $250 stamps or tickets"
+     ]
+    }
+   ],
+   "tell": "Basic is 11 named perils. Broad adds falling objects, weight of snow, ice or sleet, and water damage. Special is open perils.",
+   "beats": [
+    {
+     "text": "The 2012 Basic form names 11 perils: fire, lightning, explosion, windstorm or hail, smoke, aircraft or vehicles, riot or civil commotion, vandalism, sprinkler leakage, sinkhole collapse and volcanic action.",
+     "say": "The twenty twelve Basic form names eleven perils: fire, lightning, explosion, windstorm or hail, smoke, aircraft or vehicles, riot or civil commotion, vandalism, sprinkler leakage, sinkhole collapse and volcanic action.",
+     "show": 1
+    },
+    {
+     "text": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. It also adds collapse coverage.",
+     "say": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. It also adds collapse coverage.",
+     "show": 2
+    },
+    {
+     "text": "The 2017 Special form covers direct physical loss unless excluded or limited. It's the only one of the three that covers theft, with special theft limits.",
+     "say": "The twenty seventeen Special form covers direct physical loss unless excluded or limited. It's the only one of the three that covers theft, with special theft limits.",
+     "show": 3
+    },
+    {
+     "text": "Watch out: sprinkler leakage and sinkhole collapse are already Basic perils.",
+     "say": "Watch out: sprinkler leakage and sinkhole collapse are already Basic perils.",
+     "show": 3,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "On a calm day, a tree limb falls through a store's roof. Which is the narrowest causes of loss form that covers the damage?",
+   "choices": [
+    "Basic",
+    "Broad",
+    "Special only"
+   ],
+   "answer": 1,
+   "why": "Falling objects is one of the perils Broad adds to Basic. Special covers it too, but Broad is the narrowest form that does.",
+   "beats": [
+    {
+     "text": "Quick check. On a calm day, a tree limb falls through a store's roof. Which is the narrowest causes of loss form that covers it? Pick an answer.",
+     "say": "Quick check. On a calm day, a tree limb falls through a store's roof. Which is the narrowest causes of loss form that covers it? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Broad. Falling objects is a peril Broad adds. Special covers it too, but Broad is narrower.",
+     "say": "Broad. Falling objects is a peril Broad adds. Special covers it too, but Broad is narrower."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Vacancy: more than 60 days",
+   "src": "ISO CP 00 10 10 12, E.6 (2012 Building and Personal Property form)",
+   "items": [
+    {
+     "label": "Vacant more than 60 consecutive days",
+     "icon": "calendar"
+    },
+    {
+     "label": "Not paid at all",
+     "detail": "Vandalism, sprinkler leakage unless protected from freezing, glass breakage, water damage, theft",
+     "icon": "ban"
+    },
+    {
+     "label": "Other covered losses cut 15%",
+     "detail": "Windstorm or fire, for example",
+     "icon": "percent"
+    },
+    {
+     "label": "Owner's building: the 31% rule",
+     "detail": "Not vacant if at least 31% is rented and used, or used by the owner",
+     "icon": "building-2"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Vacancy is a loss condition in the 2012 Building and Personal Property form. It applies when the building was vacant more than 60 consecutive days before the loss.",
+     "say": "Vacancy is a loss condition in the twenty twelve Building and Personal Property form. It applies when the building was vacant more than sixty consecutive days before the loss.",
+     "show": 1
+    },
+    {
+     "text": "Then some losses aren't paid at all: vandalism, sprinkler leakage unless protected against freezing, building glass breakage, water damage, and theft or attempted theft.",
+     "say": "Then some losses aren't paid at all: vandalism, sprinkler leakage unless protected against freezing, building glass breakage, water damage, and theft or attempted theft.",
+     "show": 2
+    },
+    {
+     "text": "Any other covered loss is paid minus 15%.",
+     "say": "Any other covered loss is paid minus fifteen percent.",
+     "show": 3
+    },
+    {
+     "text": "For an owner, the building isn't vacant if at least 31% is rented and used by tenants, or used by the owner, for customary operations.",
+     "say": "For an owner, the building isn't vacant if at least thirty-one percent is rented and used by tenants, or used by the owner, for customary operations.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Coinsurance: Did over Should",
+   "src": "Hook mn-mn_comm-07; ISO CP 00 10 10 12, F.1",
+   "hook": "Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost.",
+   "mn": "mn-mn_comm-07",
+   "items": [
+    "Should: value at the time of loss times the coinsurance percentage",
+    "Did: the limit of insurance you actually carried",
+    "Did over Should, times the loss, minus the deductible",
+    "Never more than the limit; no penalty if Did is at least Should"
+   ],
+   "beats": [
+    {
+     "text": "Now coinsurance. Here's the hook: Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost.",
+     "say": "Now coinsurance. Here's the hook: Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost.",
+     "show": 0
+    },
+    {
+     "text": "Should is the value at the time of loss times the coinsurance percentage. Did is the limit you carried.",
+     "say": "Should is the value at the time of loss times the coinsurance percentage. Did is the limit you carried.",
+     "show": 2
+    },
+    {
+     "text": "Divide, multiply by the loss, and subtract the deductible. Never more than the limit, and no penalty if Did meets Should.",
+     "say": "Divide, multiply by the loss, and subtract the deductible. Never more than the limit, and no penalty if Did meets Should.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "formula",
+   "title": "Coinsurance worked example",
+   "src": "ISO CP 00 10 10 12, F.1 (2012 Building and Personal Property form)",
+   "given": [
+    "Building value at time of loss: $400,000",
+    "Coinsurance: 80%",
+    "Limit carried: $240,000",
+    "Loss: $60,000; deductible: $1,000"
+   ],
+   "items": [
+    {
+     "label": "Should carry",
+     "expr": "$400,000 × 80%",
+     "value": "$320,000"
+    },
+    {
+     "label": "Did over Should",
+     "expr": "$240,000 ÷ $320,000",
+     "value": "0.75"
+    },
+    {
+     "label": "Times the loss",
+     "expr": "$60,000 × 0.75",
+     "value": "$45,000"
+    },
+    {
+     "label": "Minus the deductible",
+     "expr": "$45,000 − $1,000",
+     "value": "$44,000"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Let's work one. A Kalamazoo warehouse is worth $400,000 at the time of loss, with 80% coinsurance. So it should carry $320,000.",
+     "say": "Let's work one. A Kalamazoo warehouse is worth four hundred thousand dollars at the time of loss, with eighty percent coinsurance. So it should carry three hundred twenty thousand dollars.",
+     "show": 1
+    },
+    {
+     "text": "It carries only $240,000. Did over Should is 0.75.",
+     "say": "It carries only two hundred forty thousand dollars. Did over Should is zero point seven five.",
+     "show": 2
+    },
+    {
+     "text": "A loss of $60,000 times 0.75 is $45,000.",
+     "say": "A loss of sixty thousand dollars times zero point seven five is forty-five thousand dollars.",
+     "show": 3
+    },
+    {
+     "text": "Subtract the deductible of $1,000, and the insurer pays $44,000.",
+     "say": "Subtract the deductible of one thousand dollars, and the insurer pays forty-four thousand dollars.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Business Income vs Extra Expense",
+   "src": "ISO CP 00 30 10 12, A.1-2, A.5.c, D., F.3 (2012 Business Income and Extra Expense form)",
+   "columns": [
+    {
+     "name": "Business Income",
+     "icon": "trending-down",
+     "points": [
+      "Lost net income plus continuing expenses, including payroll",
+      "Starts 72 hours after the direct physical loss",
+      "Extended Business Income: up to 60 days after reopening",
+      "Coinsurance can apply"
+     ]
+    },
+    {
+     "name": "Extra Expense",
+     "icon": "receipt",
+     "points": [
+      "Extra costs to avoid or minimize the shutdown",
+      "Like moving to a temporary location",
+      "Starts immediately",
+      "Coinsurance does not apply"
+     ]
+    }
+   ],
+   "tell": "Lost profit and continuing bills while closed: Business Income. Extra money spent to keep going: Extra Expense.",
+   "beats": [
+    {
+     "text": "Now time element coverage, from the 2012 Business Income form. It pays lost net income plus continuing operating expenses, including payroll.",
+     "say": "Now time element coverage, from the twenty twelve Business Income form. It pays lost net income plus continuing operating expenses, including payroll.",
+     "show": 1
+    },
+    {
+     "text": "Its period of restoration starts 72 hours after the direct physical loss. After you reopen, Extended Business Income runs up to 60 more days.",
+     "say": "Its period of restoration starts seventy-two hours after the direct physical loss. After you reopen, Extended Business Income runs up to sixty more days.",
+     "show": 1
+    },
+    {
+     "text": "Extra Expense pays extra costs to avoid or minimize the shutdown, like moving to a temporary location. It starts immediately.",
+     "say": "Extra Expense pays extra costs to avoid or minimize the shutdown, like moving to a temporary location. It starts immediately.",
+     "show": 2
+    },
+    {
+     "text": "So: lost profit while closed is Business Income. Extra money spent to keep going is Extra Expense.",
+     "say": "So: lost profit while closed is Business Income. Extra money spent to keep going is Extra Expense.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "After a fire, a Traverse City dentist rents and equips a temporary office to keep seeing patients. Under the 2012 ISO form, which coverage pays, and when does it start?",
+   "choices": [
+    "Business Income, after 72 hours",
+    "Extra Expense, immediately",
+    "Extra Expense, after 72 hours",
+    "Business Income, immediately"
+   ],
+   "answer": 1,
+   "why": "Costs to keep operating from a temporary location are Extra Expense, which starts immediately. The 72-hour wait applies to Business Income.",
+   "beats": [
+    {
+     "text": "Try this. After a fire, a Traverse City dentist rents a temporary office to keep seeing patients. Which coverage pays, and when does it start? Pick an answer.",
+     "say": "Try this. After a fire, a Traverse City dentist rents a temporary office to keep seeing patients. Which coverage pays, and when does it start? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Extra Expense, starting immediately. It's money spent to keep going. The 72-hour wait is only for Business Income.",
+     "say": "Extra Expense, starting immediately. It's money spent to keep going. The seventy-two-hour wait is only for Business Income."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Other commercial property forms",
+   "src": "ISO CP 00 17 10 12, E.6, E.9; CP 00 18 10 12, E.3; CP 00 20 06 95, A.1; CP 00 40 10 12, A.",
+   "columns": [
+    "Form",
+    "Key point"
+   ],
+   "items": [
+    [
+     "Condominium Association",
+     "Primary; no subrogation against unit-owners"
+    ],
+    [
+     "Condo Commercial Unit-Owners",
+     "Excess over the association's insurance"
+    ],
+    [
+     "Builders Risk (1995 form)",
+     "Building under construction, plus materials"
+    ],
+    [
+     "Legal Liability",
+     "Liability for others' property in your care"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "A few more forms. The condominium association form is primary, and its insurer waives recovery against unit-owners. The commercial unit-owners form is excess over the association's insurance.",
+     "say": "A few more forms. The condominium association form is primary, and its insurer waives recovery against unit-owners. The commercial unit-owners form is excess over the association's insurance.",
+     "show": 2
+    },
+    {
+     "text": "Builders risk covers a building under construction, including materials meant to become part of it.",
+     "say": "Builders risk covers a building under construction, including materials meant to become part of it.",
+     "show": 3
+    },
+    {
+     "text": "The legal liability form covers your liability for others' property in your care, like a tenant's liability for the landlord's building.",
+     "say": "The legal liability form covers your liability for others' property in your care, like a tenant's liability for the landlord's building.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Selected endorsements",
+   "src": "ISO CP 04 05 09 17, C.1-3; CP 04 40 06 07, A., C.3; CP 12 30 06 95; IRMI glossary 'reporting form coverage'",
+   "items": [
+    {
+     "label": "Ordinance or Law",
+     "detail": "A: undamaged portion. B: demolition cost. C: increased cost of construction",
+     "icon": "gavel"
+    },
+    {
+     "label": "Spoilage",
+     "detail": "Perishable stock: refrigeration breakdown, refrigerant contamination, power outage",
+     "icon": "refrigerator"
+    },
+    {
+     "label": "Peak Season Limit",
+     "detail": "Higher personal property limit only during scheduled dates",
+     "icon": "calendar"
+    },
+    {
+     "label": "Value Reporting",
+     "detail": "For fluctuating values; premium based on the values reported",
+     "icon": "clipboard-list"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Four endorsements. Ordinance or Law: A pays the loss to the undamaged portion, B pays demolition cost, and C pays the increased cost of construction.",
+     "say": "Four endorsements. Ordinance or Law: A pays the loss to the undamaged portion, B pays demolition cost, and C pays the increased cost of construction.",
+     "show": 1
+    },
+    {
+     "text": "Spoilage covers perishable stock for refrigeration breakdown or contamination, and for power outage.",
+     "say": "Spoilage covers perishable stock for refrigeration breakdown or contamination, and for power outage.",
+     "show": 2
+    },
+    {
+     "text": "Peak Season raises the personal property limit only during scheduled dates, like a toy store's holiday rush.",
+     "say": "Peak Season raises the personal property limit only during scheduled dates, like a toy store's holiday rush.",
+     "show": 3
+    },
+    {
+     "text": "Value Reporting suits fluctuating values like inventory. The limit is set for peak values, but premium is based on the values you report.",
+     "say": "Value Reporting suits fluctuating values like inventory. The limit is set for peak values, but premium is based on the values you report.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "After a covered fire, city code requires an owner to tear down the undamaged part of the building. Which Ordinance or Law coverage pays to demolish it and clear the site?",
+   "choices": [
+    "Coverage A",
+    "Coverage B",
+    "Coverage C"
+   ],
+   "answer": 1,
+   "why": "Coverage B is demolition cost. Coverage A pays the loss to the undamaged portion, and Coverage C pays the increased cost of construction.",
+   "beats": [
+    {
+     "text": "Last one. After a covered fire, city code makes an owner tear down the undamaged part of the building. Which Ordinance or Law coverage pays for the demolition? Pick an answer.",
+     "say": "Last one. After a covered fire, city code makes an owner tear down the undamaged part of the building. Which Ordinance or Law coverage pays for the demolition? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Coverage B, demolition cost. A is the loss to the undamaged portion, and C is the increased cost of construction.",
+     "say": "Coverage B, demolition cost. A is the loss to the undamaged portion, and C is the increased cost of construction."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "title": "Key takeaways",
+   "items": [
+    "Broad adds falling objects, snow and ice weight, water damage",
+    "Vacant over 60 days: some perils excluded, the rest cut 15%",
+    "Coinsurance: Did over Should, times loss, minus deductible",
+    "Business Income waits 72 hours; Extra Expense starts at once",
+    "Ordinance or Law: A undamaged part, B demolition, C code upgrade"
+   ],
+   "beats": [
+    {
+     "text": "Let's recap. Broad adds falling objects, snow and ice weight, and water damage. Vacancy over 60 days excludes some perils and cuts the rest by 15%.",
+     "say": "Let's recap. Broad adds falling objects, snow and ice weight, and water damage. Vacancy over sixty days excludes some perils and cuts the rest by fifteen percent.",
+     "show": 2
+    },
+    {
+     "text": "Coinsurance is Did over Should. Business Income waits 72 hours. And Ordinance or Law runs A, B, C.",
+     "say": "Coinsurance is Did over Should. Business Income waits seventy-two hours. And Ordinance or Law runs A, B, C.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "comm-021",
+  "comm-022",
+  "comm-024",
+  "comm-028",
+  "comm-030"
+ ],
+ "hooks": [
+  "mn-mn_comm-07"
+ ],
+ "sources": [
+  "ISO CP 00 90 07 88",
+  "MCL 500.2833(1)(q)",
+  "ISO CP 00 10 10 12",
+  "ISO CP 10 10 10 12",
+  "ISO CP 10 20 10 12",
+  "ISO CP 10 30 09 17",
+  "ISO CP 00 30 10 12",
+  "ISO CP 00 17 10 12",
+  "ISO CP 00 18 10 12",
+  "ISO CP 00 20 06 95",
+  "ISO CP 00 40 10 12",
+  "ISO CP 04 05 09 17",
+  "ISO CP 04 40 06 07",
+  "ISO CP 12 30 06 95",
+  "IRMI glossary 'reporting form coverage'",
+  "Memory hook mn-mn_comm-07; mn-mn_comm-09 (wording adapted in narration)"
+ ]
+}

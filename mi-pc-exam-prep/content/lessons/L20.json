@@ -1,0 +1,528 @@
+{
+ "id": "L20",
+ "sec": "cpp",
+ "guide": "cpp",
+ "title": "Crime, inland marine, equipment breakdown and farm",
+ "summary": "Crime definitions, insuring agreements and triggers; the Nationwide Marine Definition and key inland marine forms; equipment breakdown; farm coverages A-J.",
+ "objectives": [
+  "Tell robbery, burglary, safe burglary and theft apart",
+  "Compare the loss sustained and discovery crime forms",
+  "Name the marine classes and match common inland marine forms",
+  "Recall equipment breakdown valuation and the farm coverage letters"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Crime, inland marine, equipment breakdown and farm",
+   "subtitle": "Four more coverage parts with a few exam favorites each",
+   "icon": "lock",
+   "beats": [
+    {
+     "text": "Four more coverage parts: crime, inland marine, equipment breakdown and farm. Each has a few exam favorites.",
+     "say": "Four more coverage parts: crime, inland marine, equipment breakdown and farm. Each has a few exam favorites."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Robbery, burglary, safe burglary, theft",
+   "src": "ISO CR 00 21 11 15, F. defs. 20, 21, 23; IRMI glossary 'burglary'",
+   "columns": [
+    "Term",
+    "What it needs"
+   ],
+   "items": [
+    [
+     "Robbery",
+     "Taking from a person by harm or threat"
+    ],
+    [
+     "Burglary",
+     "Unlawful entry into or exit from premises"
+    ],
+    [
+     "Safe burglary",
+     "Forcing a locked safe, or taking the safe"
+    ],
+    [
+     "Theft",
+     "Any unlawful taking; the broadest term"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "The 2015 crime form defines robbery as taking property from a person by someone who causes or threatens bodily harm, or commits an obviously unlawful act the person witnesses.",
+     "say": "The twenty fifteen crime form defines robbery as taking property from a person by someone who causes or threatens bodily harm, or commits an obviously unlawful act the person witnesses.",
+     "show": 1
+    },
+    {
+     "text": "Burglary, a glossary term, is theft from premises by someone who unlawfully enters or exits. Breaking out counts too.",
+     "say": "Burglary, a glossary term, is theft from premises by someone who unlawfully enters or exits. Breaking out counts too.",
+     "show": 2
+    },
+    {
+     "text": "Safe burglary is taking property from a locked safe, with marks of forced entry on its outside, or taking the safe itself.",
+     "say": "Safe burglary is taking property from a locked safe, with marks of forced entry on its outside, or taking the safe itself.",
+     "show": 3
+    },
+    {
+     "text": "Theft is any unlawful taking of property to the insured's loss. It's the broadest term.",
+     "say": "Theft is any unlawful taking of property to the insured's loss. It's the broadest term.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "A bad week at a Flint party store",
+   "src": "ISO CR 00 21 11 15, F. defs. 20, 21, 23; IRMI glossary 'burglary'; hook mn-mn_comm-11",
+   "icon": "store",
+   "story": "A man points a gun at the clerk and takes the cash. A thief hides in the cooler after closing, then breaks out the back door with stock. Someone opens the safe with the right combination and takes the contents, leaving no marks.",
+   "items": [
+    {
+     "label": "Gun pointed at the clerk",
+     "detail": "Robbery: a person was threatened"
+    },
+    {
+     "label": "Hid inside, broke out the back door",
+     "detail": "Burglary: an unlawful exit counts"
+    },
+    {
+     "label": "Safe opened by combination, no marks",
+     "detail": "Not safe burglary: no marks of forced entry"
+    }
+   ],
+   "answer": "Robbery, burglary, and not a safe burglary. Every one of them is also a theft.",
+   "beats": [
+    {
+     "text": "Let's classify a bad week at a Flint party store. A man points a gun at the clerk and takes the cash. A thief hides in the cooler after closing, then breaks out the back door with stock.",
+     "say": "Let's classify a bad week at a Flint party store. A man points a gun at the clerk and takes the cash. A thief hides in the cooler after closing, then breaks out the back door with stock.",
+     "show": 0
+    },
+    {
+     "text": "And someone opens the safe with the right combination and takes the contents, leaving no marks. What is each one?",
+     "say": "And someone opens the safe with the right combination and takes the contents, leaving no marks. What is each one?",
+     "show": 0
+    },
+    {
+     "text": "The gun at the clerk is robbery: a person was threatened. The thief who broke out is a burglar: an unlawful exit counts.",
+     "say": "The gun at the clerk is robbery: a person was threatened. The thief who broke out is a burglar: an unlawful exit counts.",
+     "show": 2
+    },
+    {
+     "text": "The safe opened with no marks isn't a safe burglary. Still, every one of these is a theft.",
+     "say": "The safe opened with no marks isn't a safe burglary. Still, every one of these is a theft.",
+     "show": 3,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Crime insuring agreements: money vs property",
+   "src": "ISO CR 00 21 11 15, A.1-7; the PSI outline lists computer fraud and funds transfer fraud separately (older editions)",
+   "columns": [
+    "Agreement",
+    "Money and securities",
+    "Other property"
+   ],
+   "items": [
+    [
+     "Employee Theft",
+     "Theft by employees",
+     "Theft by employees"
+    ],
+    [
+     "Inside the Premises",
+     "Theft, disappearance, destruction",
+     "Robbery or safe burglary only"
+    ],
+    [
+     "Outside the Premises",
+     "Theft, disappearance, destruction",
+     "Robbery only"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "The 2015 crime form has seven insuring agreements. Employee Theft covers theft by employees of money, securities or other property.",
+     "say": "The twenty fifteen crime form has seven insuring agreements. Employee Theft covers theft by employees of money, securities or other property.",
+     "show": 1
+    },
+    {
+     "text": "Inside the premises, money and securities are covered for theft, disappearance or destruction. Other property, like merchandise, only for robbery of a custodian or safe burglary.",
+     "say": "Inside the premises, money and securities are covered for theft, disappearance or destruction. Other property, like merchandise, only for robbery of a custodian or safe burglary.",
+     "show": 2
+    },
+    {
+     "text": "Outside the premises, with a messenger or armored car company, money is covered the same way. Other property, only for robbery.",
+     "say": "Outside the premises, with a messenger or armored car company, money is covered the same way. Other property, only for robbery.",
+     "show": 3
+    },
+    {
+     "text": "Three more: Forgery or Alteration, Computer and Funds Transfer Fraud, and Money Orders and Counterfeit Money. The PSI outline lists the two fraud coverages separately.",
+     "say": "Three more: Forgery or Alteration, Computer and Funds Transfer Fraud, and Money Orders and Counterfeit Money. The P S I outline lists the two fraud coverages separately.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Loss sustained vs discovery",
+   "src": "ISO CR 00 21 11 15, A., E.1.g; discovery: CR 00 22 05 06, E.1.j and Rough Notes PF&M 251.4-2 (CR 00 20 11 15 text not seen)",
+   "columns": [
+    {
+     "name": "Loss sustained form",
+     "icon": "calendar",
+     "points": [
+      "Loss must occur during the policy period",
+      "Found during the policy or the extended period",
+      "Up to 1 year after cancellation to discover"
+     ]
+    },
+    {
+     "name": "Discovery form",
+     "icon": "search",
+     "points": [
+      "Loss may have occurred at any time",
+      "Must be discovered during the policy period",
+      "Up to 60 days after cancellation to discover"
+     ]
+    }
+   ],
+   "tell": "Did it happen on my watch? Loss sustained. Did I find it on my watch? Discovery.",
+   "beats": [
+    {
+     "text": "Crime forms come with two triggers. The loss sustained form covers loss that occurs during the policy period. After cancellation, you get up to 1 year to discover it.",
+     "say": "Crime forms come with two triggers. The loss sustained form covers loss that occurs during the policy period. After cancellation, you get up to one year to discover it.",
+     "show": 1
+    },
+    {
+     "text": "The discovery form covers loss that occurred at any time, as long as you discover it during the policy period, or within 60 days after cancellation.",
+     "say": "The discovery form covers loss that occurred at any time, as long as you discover it during the policy period, or within sixty days after cancellation.",
+     "show": 2
+    },
+    {
+     "text": "Ask: did it happen on my watch, or did I find it on my watch? And don't swap the tails: 1 year for loss sustained, 60 days for discovery.",
+     "say": "Ask: did it happen on my watch, or did I find it on my watch? And don't swap the tails: one year for loss sustained, sixty days for discovery.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Mid-term, a business with a discovery-form crime policy discovers a theft from two years before the policy began. It had no earlier crime coverage, and no retroactive date applies. Is it covered?",
+   "choices": [
+    "Yes, because it was discovered during the policy period",
+    "No, because it occurred before the policy began",
+    "Only if it was discovered within 60 days after the theft"
+   ],
+   "answer": 0,
+   "why": "The discovery form covers loss sustained at any time, as long as it is discovered during the policy period or the 60-day extended period.",
+   "beats": [
+    {
+     "text": "Try this. A business with a discovery-form crime policy discovers, mid-term, a theft from two years before the policy began. No retroactive date applies. Is it covered? Pick an answer.",
+     "say": "Try this. A business with a discovery-form crime policy discovers, mid-term, a theft from two years before the policy began. No retroactive date applies. Is it covered? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Yes. The discovery form doesn't care when the loss happened, only that it was discovered during the policy period.",
+     "say": "Yes. The discovery form doesn't care when the loss happened, only that it was discovered during the policy period."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Nationwide Marine Definition",
+   "src": "IMUA 'Nationwide Marine Definition'; MCL 500.614",
+   "items": [
+    {
+     "label": "Imports and exports",
+     "icon": "ship"
+    },
+    {
+     "label": "Domestic shipments",
+     "icon": "truck"
+    },
+    {
+     "label": "Instrumentalities of transportation",
+     "detail": "Bridges, tunnels, piers, pipelines, power lines, towers",
+     "icon": "waves"
+    },
+    {
+     "label": "Personal and commercial property floaters",
+     "icon": "package"
+    },
+    {
+     "label": "Not buildings or their fixed contents",
+     "icon": "ban"
+    }
+   ],
+   "beats": [
+    {
+     "text": "On to inland marine. The Nationwide Marine Definition lists six classes. The first three are imports, exports, and domestic shipments.",
+     "say": "On to inland marine. The Nationwide Marine Definition lists six classes. The first three are imports, exports, and domestic shipments.",
+     "show": 2
+    },
+    {
+     "text": "Next, bridges, tunnels and other instrumentalities of transportation and communication, like piers, pipelines and towers. Then personal and commercial property floater risks.",
+     "say": "Next, bridges, tunnels and other instrumentalities of transportation and communication, like piers, pipelines and towers. Then personal and commercial property floater risks.",
+     "show": 4
+    },
+    {
+     "text": "Buildings and their fixed contents are not marine risks. Michigan's own statutory definition of marine insurance excludes buildings and their contents too.",
+     "say": "Buildings and their fixed contents are not marine risks. Michigan's own statutory definition of marine insurance excludes buildings and their contents too.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Inland marine forms: who needs which",
+   "src": "IRMI glossary; Verisk Commercial Inland Marine and transportation program sheets (2022); ISO IH 00 68 12 13 (FC&S 2018)",
+   "columns": [
+    "Form",
+    "Covers"
+   ],
+   "items": [
+    [
+     "Bailees customers",
+     "Others' goods left for cleaning or repair"
+    ],
+    [
+     "Contractors equipment",
+     "A contractor's own machinery and tools"
+    ],
+    [
+     "Installation floater",
+     "Equipment a contractor is installing"
+    ],
+    [
+     "Jewelers block",
+     "A jeweler's stock and customers' jewelry"
+    ],
+    [
+     "Motor truck cargo, carriers",
+     "A trucker's liability for others' cargo"
+    ],
+    [
+     "Commercial articles",
+     "Cameras and instruments used commercially"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "Some inland marine forms. Bailees customers covers others' goods left for cleaning or repair, like at a dry cleaner. Contractors equipment covers a contractor's own machinery and tools.",
+     "say": "Some inland marine forms. Bailees customers covers others' goods left for cleaning or repair, like at a dry cleaner. Contractors equipment covers a contractor's own machinery and tools.",
+     "show": 2
+    },
+    {
+     "text": "An installation floater covers equipment a contractor is installing. Don't swap them.",
+     "say": "An installation floater covers equipment a contractor is installing. Don't swap them.",
+     "show": 3
+    },
+    {
+     "text": "Jewelers block covers a jeweler's stock. Motor truck cargo carriers coverage is a trucker's liability for others' cargo. Commercial articles covers cameras and musical instruments used commercially.",
+     "say": "Jewelers block covers a jeweler's stock. Motor truck cargo carriers coverage is a trucker's liability for others' cargo. Commercial articles covers cameras and musical instruments used commercially.",
+     "show": 6
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "An electrical contractor is installing new lighting equipment it bought for a customer's building. Which inland marine coverage is designed for that equipment while it's being installed?",
+   "choices": [
+    "Contractors equipment floater",
+    "Installation floater",
+    "Bailees customers coverage"
+   ],
+   "answer": 1,
+   "why": "An installation floater covers property, usually equipment, being installed by a contractor. Contractors equipment covers the contractor's own machinery and tools.",
+   "beats": [
+    {
+     "text": "Quick check. An electrical contractor is installing new lighting equipment it bought for a customer's building. Which coverage is designed for that equipment during installation? Pick an answer.",
+     "say": "Quick check. An electrical contractor is installing new lighting equipment it bought for a customer's building. Which coverage is designed for that equipment during installation? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The installation floater. Contractors equipment would cover the contractor's own tools, not what it's installing.",
+     "say": "The installation floater. Contractors equipment would cover the contractor's own tools, not what it's installing."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Equipment breakdown",
+   "src": "EB 00 20 01 13 and EB 99 59 as described by FC&S (2016); a newer edition may exist",
+   "items": [
+    {
+     "label": "Formerly boiler and machinery",
+     "icon": "factory"
+    },
+    {
+     "label": "A breakdown of covered equipment",
+     "detail": "Boilers, machinery, electrical and communication equipment",
+     "icon": "cpu"
+    },
+    {
+     "label": "Replacement cost unless the ACV endorsement",
+     "icon": "wrench"
+    },
+    {
+     "label": "Coverage can be suspended",
+     "detail": "On equipment found in a dangerous condition, by written notice",
+     "icon": "triangle-alert"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Equipment breakdown, formerly boiler and machinery, covers a breakdown of covered equipment: boilers, machinery, and electrical and communication equipment.",
+     "say": "Equipment breakdown, formerly boiler and machinery, covers a breakdown of covered equipment: boilers, machinery, and electrical and communication equipment.",
+     "show": 2
+    },
+    {
+     "text": "It values property at replacement cost by default. Attaching the Actual Cash Value endorsement changes that to actual cash value.",
+     "say": "It values property at replacement cost by default. Attaching the Actual Cash Value endorsement changes that to actual cash value.",
+     "show": 3
+    },
+    {
+     "text": "And the insurer can immediately suspend coverage on equipment found in a dangerous condition, by written notice.",
+     "say": "And the insurer can immediately suspend coverage on equipment found in a dangerous condition, by written notice.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Farm coverages A through J",
+   "src": "ISO FP 00 10 09 94 (letters A-G; 2016 forms keep them); FL 00 20 per FC&S (2013); FP 00 13 04 16 (FC&S 2017)",
+   "columns": [
+    {
+     "name": "Farmhouse: A to D",
+     "icon": "house",
+     "points": [
+      "A: Dwellings",
+      "B: Other private structures",
+      "C: Household personal property",
+      "D: Loss of use"
+     ]
+    },
+    {
+     "name": "Farm property: E to G",
+     "icon": "tractor",
+     "points": [
+      "E: Scheduled farm personal property",
+      "F: Unscheduled farm personal property",
+      "G: Other farm structures, like barns"
+     ]
+    },
+    {
+     "name": "Farm liability: H to J",
+     "icon": "scale",
+     "points": [
+      "H: Bodily injury and property damage",
+      "I: Personal and advertising injury",
+      "J: Medical payments"
+     ]
+    }
+   ],
+   "tell": "A to D are lettered like homeowners. H, I and J mirror CGL Coverages A, B and C.",
+   "beats": [
+    {
+     "text": "Last, farm. A through D are the farmhouse, lettered like homeowners: dwellings, other private structures, household personal property, and loss of use.",
+     "say": "Last, farm. A through D are the farmhouse, lettered like homeowners: dwellings, other private structures, household personal property, and loss of use.",
+     "show": 1
+    },
+    {
+     "text": "E is scheduled farm personal property, F is unscheduled, or blanket, farm personal property, and G is other farm structures, like barns.",
+     "say": "E is scheduled farm personal property, F is unscheduled, or blanket, farm personal property, and G is other farm structures, like barns.",
+     "show": 2
+    },
+    {
+     "text": "Farm liability uses H, I and J, which mirror CGL Coverages A, B and C.",
+     "say": "Farm liability uses H, I and J, which mirror C G L Coverages A, B and C.",
+     "show": 3,
+     "tell": true
+    },
+    {
+     "text": "Two more favorites: Coverage F needs insurance of at least 80% of actual cash value. And livestock means cattle, sheep, swine, goats, horses, mules and donkeys, not poultry.",
+     "say": "Two more favorites: Coverage F needs insurance of at least eighty percent of actual cash value. And livestock means cattle, sheep, swine, goats, horses, mules and donkeys, not poultry.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Under the ISO farm property forms, which animal is NOT included in the definition of \"livestock\"?",
+   "choices": [
+    "Goats",
+    "Chickens",
+    "Mules",
+    "Swine"
+   ],
+   "answer": 1,
+   "why": "Livestock means cattle, sheep, swine, goats, horses, mules and donkeys. Chickens are poultry, a separately defined term.",
+   "beats": [
+    {
+     "text": "Last one. Under the farm forms, which animal is not livestock? Pick an answer.",
+     "say": "Last one. Under the farm forms, which animal is not livestock? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Chickens. They're poultry, which is defined separately. Goats, mules and swine are all livestock.",
+     "say": "Chickens. They're poultry, which is defined separately. Goats, mules and swine are all livestock."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "title": "Key takeaways",
+   "items": [
+    "Robbery needs a person; burglary needs unlawful entry or exit",
+    "Loss sustained: 1 year to discover. Discovery: 60 days",
+    "Marine classes exclude buildings and their fixed contents",
+    "Equipment breakdown pays replacement cost unless ACV endorsed",
+    "Farm: A to D farmhouse, E to G farm property, H to J liability"
+   ],
+   "beats": [
+    {
+     "text": "Let's recap. Robbery needs a person; burglary needs an unlawful entry or exit. Loss sustained gives 1 year to discover; discovery gives 60 days.",
+     "say": "Let's recap. Robbery needs a person; burglary needs an unlawful entry or exit. Loss sustained gives one year to discover; discovery gives sixty days.",
+     "show": 2
+    },
+    {
+     "text": "Marine classes exclude buildings. Equipment breakdown pays replacement cost unless endorsed. And farm runs A to J.",
+     "say": "Marine classes exclude buildings. Equipment breakdown pays replacement cost unless endorsed. And farm runs A to J.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "comm-032",
+  "comm-034",
+  "comm-036",
+  "comm-040",
+  "comm-041"
+ ],
+ "hooks": [],
+ "sources": [
+  "ISO CR 00 21 11 15",
+  "ISO CR 00 22 05 06 (discovery form)",
+  "Rough Notes PF&M 251.4-2",
+  "IRMI glossary 'burglary', 'bailee coverage', 'installation floater', 'jewelers block insurance'",
+  "IMUA 'Nationwide Marine Definition'",
+  "MCL 500.614",
+  "Verisk Commercial Inland Marine and transportation program sheets (2022)",
+  "ISO IH 00 68 12 13 (as quoted in FC&S, 2018)",
+  "FC&S 'Equipment Breakdown Coverage Form' (2016)",
+  "ISO FP 00 10 09 94",
+  "ISO FP 00 13 04 16 (as quoted in FC&S, 2017)",
+  "ISO FL 00 20 (as described in FC&S, 2013)",
+  "Memory hooks mn-mn_comm-11, mn-mn_comm-13, mn-mn_comm-15 (ideas adapted, not shown)"
+ ]
+}

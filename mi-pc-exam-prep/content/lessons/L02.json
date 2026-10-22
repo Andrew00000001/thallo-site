@@ -1,0 +1,534 @@
+{
+ "id": "L02",
+ "sec": "reg",
+ "guide": "reg",
+ "title": "Unfair trade practices, discipline, fraud and privacy",
+ "summary": "Michigan's banned trade practices, the $50 gift rule, fiduciary duties, license discipline and fines, insurance fraud penalties, and privacy notices.",
+ "objectives": [
+  "Tell twisting, rebating and misrepresentation apart, plus other unfair practices",
+  "Apply the $50 gift limit, rebating penalties and fiduciary rules for premiums",
+  "Recall discipline tiers, fines, and fraud penalties and reporting immunity",
+  "Use PAPER to remember Michigan's privacy notice rules"
+ ],
+ "check": [
+  "reg-038",
+  "reg-040",
+  "reg-049",
+  "reg-055",
+  "reg-059"
+ ],
+ "hooks": [
+  "mn-mn_reg-18",
+  "mn-mn_reg-19",
+  "mn-mn_reg-20"
+ ],
+ "sources": [
+  "MCL 500.2005; 500.2005a(a); 500.2064(2)",
+  "MCL 500.2007; 500.2009; 500.2012; 500.2027(b); 500.2077(1)",
+  "MCL 500.2024b (am. 2018 PA 542); 500.2066; 500.2069; 500.2070",
+  "MCL 500.1207(1)-(4),(8)",
+  "MCL 500.1239(1),(2)",
+  "MCL 500.1244(1),(3); 500.2038(1); 500.2040(1)",
+  "MCL 500.4501(a),(h),(i); 500.4503; 500.4509(1),(3); 500.4511(1),(2)",
+  "MCL 500.501(1); 500.507(1)(a); 500.513(1); 500.527(1),(2),(4); 500.529(1),(2)(a)",
+  "Confusion pair cp-cp_personal-15"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Unfair trade practices, discipline, fraud and privacy",
+   "subtitle": "What Michigan bans, what discipline and fines follow, insurance fraud, and privacy notices",
+   "icon": "gavel",
+   "beats": [
+    {
+     "text": "What you must never do as a producer, and what follows when someone does: discipline, fines, fraud penalties and privacy rules.",
+     "say": "What you must never do as a producer, and what follows when someone does: discipline, fines, fraud penalties and privacy rules."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Twisting, rebating, misrepresentation",
+   "src": "MCL 500.2005; MCL 500.2005a(a); MCL 500.2066(1); cp-cp_personal-15",
+   "columns": [
+    {
+     "name": "Twisting",
+     "icon": "repeat",
+     "points": [
+      "Misleading or incomplete comparison of policies",
+      "Goal: get a policy dropped or replaced"
+     ]
+    },
+    {
+     "name": "Rebating",
+     "icon": "hand-coins",
+     "points": [
+      "Giving back premium or commission",
+      "Or any value not specified in the policy"
+     ]
+    },
+    {
+     "name": "Misrepresentation",
+     "icon": "triangle-alert",
+     "points": [
+      "Misstating a policy's terms or benefits",
+      "Or misstating an insurer's financial condition"
+     ]
+    }
+   ],
+   "tell": "What is the agent after? A switch is twisting; a payback is rebating; a false picture is misrepresentation.",
+   "beats": [
+    {
+     "text": "Three practices get mixed up. Twisting: a knowingly misleading representation or incomplete comparison of policies, to get a policy dropped or replaced.",
+     "say": "Three practices get mixed up. Twisting: a knowingly misleading representation or incomplete comparison of policies, to get a policy dropped or replaced.",
+     "show": 1
+    },
+    {
+     "text": "Rebating: giving back part of the premium or commission, or any valuable inducement not specified in the policy.",
+     "say": "Rebating: giving back part of the premium or commission, or any valuable inducement not specified in the policy.",
+     "show": 2
+    },
+    {
+     "text": "Misrepresentation: misstating a policy's terms or benefits, or an insurer's financial condition.",
+     "say": "Misrepresentation: misstating a policy's terms or benefits, or an insurer's financial condition.",
+     "show": 3
+    },
+    {
+     "text": "Ask what the agent is after: a switch is twisting, a payback is rebating, a false picture is misrepresentation.",
+     "say": "Ask what the agent is after: a switch is twisting, a payback is rebating, a false picture is misrepresentation.",
+     "show": 3,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "More unfair trade practices",
+   "src": "MCL 500.2007; .2009; .2012; .2077(1); .2027(b)",
+   "items": [
+    {
+     "label": "Defamation",
+     "detail": "False or malicious statements about an insurance business's finances, meant to injure",
+     "icon": "megaphone"
+    },
+    {
+     "label": "Boycott, coercion, intimidation",
+     "detail": "Concerted acts that unreasonably restrain the business of insurance",
+     "icon": "ban"
+    },
+    {
+     "label": "Lender coercion",
+     "detail": "No loan conditioned on buying through a particular agent or insurer",
+     "icon": "landmark"
+    },
+    {
+     "label": "False advertising",
+     "detail": "Untrue, deceptive or misleading, in any medium",
+     "icon": "eye"
+    },
+    {
+     "label": "Unfair discrimination",
+     "detail": "No refusing someone solely because another insurer denied coverage",
+     "icon": "scale"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Defamation: a false or maliciously critical statement about an insurance business's financial condition, meant to injure it.",
+     "say": "Defamation: a false or maliciously critical statement about an insurance business's financial condition, meant to injure it.",
+     "show": 1
+    },
+    {
+     "text": "Boycott, coercion or intimidation: concerted acts that unreasonably restrain the business of insurance.",
+     "say": "Boycott, coercion or intimidation: concerted acts that unreasonably restrain the business of insurance.",
+     "show": 2
+    },
+    {
+     "text": "A lender can't make a loan depend on buying insurance through a particular agent or insurer.",
+     "say": "A lender can't make a loan depend on buying insurance through a particular agent or insurer.",
+     "show": 3
+    },
+    {
+     "text": "Advertising can't be untrue, deceptive or misleading.",
+     "say": "Advertising can't be untrue, deceptive or misleading.",
+     "show": 4
+    },
+    {
+     "text": "And an insurer can't refuse you solely because another insurer denied you coverage.",
+     "say": "And an insurer can't refuse you solely because another insurer denied you coverage.",
+     "show": 5
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "An agent offers to send a prospect $200 of his commission if she buys a homeowners policy. This is:",
+   "choices": [
+    "Twisting",
+    "Rebating",
+    "Misrepresentation",
+    "Defamation"
+   ],
+   "answer": 1,
+   "why": "Returning part of the commission is a rebate: valuable consideration not specified in the policy.",
+   "beats": [
+    {
+     "text": "Which practice? An agent offers a prospect $200 of his commission if she buys a homeowners policy. Pick an answer.",
+     "say": "Which practice? An agent offers a prospect two hundred dollars of his commission if she buys a homeowners policy. Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Rebating: handing back commission is a payback, not a switch or a false statement.",
+     "say": "Rebating: handing back commission is a payback, not a switch or a false statement."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Rebating and the $50 gift",
+   "src": "MCL 500.2024b (am. 2018 PA 542); MCL 500.2066(1),(2); .2069; .2070",
+   "mn": "mn-mn_reg-18",
+   "hook": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at $50 a year.",
+   "items": [
+    "P&C gift: merchandise costing the insurer $50 or less per calendar year",
+    "Agent who rebates: license revoked; no new license for 1 year",
+    "Also a misdemeanor: fine up to $100 per violation",
+    "Insured who knowingly accepts: coverage reduced in proportion, plus fine up to $100"
+   ],
+   "beats": [
+    {
+     "text": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at $50 a year.",
+     "say": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at fifty dollars a year.",
+     "show": 1
+    },
+    {
+     "text": "That means merchandise costing the insurer $50 or less per calendar year. Older materials may show another figure; $50 is the 2018 amendment.",
+     "say": "That means merchandise costing the insurer fifty dollars or less per calendar year. Older materials may show another figure; fifty dollars is the twenty eighteen amendment.",
+     "show": 1
+    },
+    {
+     "text": "A rebating agent loses the license, with no new one for 1 year, plus a misdemeanor fine of up to $100 per violation.",
+     "say": "A rebating agent loses the license, with no new one for one year, plus a misdemeanor fine of up to one hundred dollars per violation.",
+     "show": 3
+    },
+    {
+     "text": "An insured who knowingly accepts a rebate has coverage reduced in proportion, plus a fine of up to $100.",
+     "say": "An insured who knowingly accepts a rebate has coverage reduced in proportion, plus a fine of up to one hundred dollars.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Premiums are fiduciary money",
+   "src": "MCL 500.1207(1),(2),(3),(4),(8)",
+   "items": [
+    {
+     "label": "Segregate; never commingle",
+     "detail": "Your own money only to open the account and to pay or avoid bank charges",
+     "icon": "lock"
+    },
+    {
+     "label": "Federally insured account",
+     "detail": "It may bear interest",
+     "icon": "landmark"
+    },
+    {
+     "label": "Holding a return premium",
+     "detail": "For future premiums only with the insured's written authorization",
+     "icon": "file-signature"
+    },
+    {
+     "label": "Late turnover",
+     "detail": "Prima facie evidence of a fiduciary violation",
+     "icon": "triangle-alert"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Premiums are fiduciary money: segregate them, never commingle. Add your own money only to open the account and to pay or avoid bank charges.",
+     "say": "Premiums are fiduciary money: segregate them, never commingle. Add your own money only to open the account and to pay or avoid bank charges.",
+     "show": 1
+    },
+    {
+     "text": "The account must be at a federally insured institution, and it may earn interest.",
+     "say": "The account must be at a federally insured institution, and it may earn interest.",
+     "show": 2
+    },
+    {
+     "text": "You may hold a return premium there for future premiums only with the insured's written authorization.",
+     "say": "You may hold a return premium there for future premiums only with the insured's written authorization.",
+     "show": 3
+    },
+    {
+     "text": "Late turnover of that money is prima facie evidence of a violation.",
+     "say": "Late turnover of that money is prima facie evidence of a violation.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "License discipline: shall not issue vs may refuse",
+   "src": "MCL 500.1239(1),(2)",
+   "columns": [
+    {
+     "name": "Shall not issue",
+     "icon": "ban",
+     "points": [
+      "Felony within 10 years before applying",
+      "Violent, sexual or financial felony, any date",
+      "Forging a name on an insurance document",
+      "Knowingly accepting business from an unlicensed person"
+     ]
+    },
+    {
+     "name": "May refuse",
+     "icon": "scale",
+     "points": [
+      "False or incomplete application information",
+      "Other felonies",
+      "License denied, suspended or revoked elsewhere",
+      "Using notes during the licensing exam"
+     ]
+    }
+   ],
+   "tell": "Any of these can also bring probation, suspension, revocation or a fine for a current licensee.",
+   "beats": [
+    {
+     "text": "Now discipline, in two tiers. Shall not issue: a felony conviction within 10 years before applying, or a violent, sexual or financial felony at any time.",
+     "say": "Now discipline, in two tiers. Shall not issue: a felony conviction within ten years before applying, or a violent, sexual or financial felony at any time.",
+     "show": 1
+    },
+    {
+     "text": "Also forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
+     "say": "Also forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
+     "show": 1
+    },
+    {
+     "text": "May refuse: false or incomplete application information, other felonies, a license action in another state, or using notes during the exam.",
+     "say": "May refuse: false or incomplete application information, other felonies, a license action in another state, or using notes during the exam.",
+     "show": 2
+    },
+    {
+     "text": "Any of these can also cost a current licensee: probation, suspension, revocation or a fine.",
+     "say": "Any of these can also cost a current licensee: probation, suspension, revocation or a fine.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "Maximum fines after a hearing",
+   "src": "MCL 500.1244(1),(3); MCL 500.2038(1); MCL 500.2040(1)",
+   "columns": [
+    "Violation",
+    "Licensing law",
+    "Trade practices law"
+   ],
+   "items": [
+    [
+     "Didn't know",
+     "$1,000 each; $50,000 cap per order",
+     "$1,000 each; $10,000 total"
+    ],
+    [
+     "Knew or should have known",
+     "$5,000 each; $50,000 cap per order",
+     "$5,000 each; $50,000 per 6 months"
+    ],
+    [
+     "Violating the cease and desist order",
+     "Knowingly: $20,000 each; $100,000 cap",
+     "$20,000 each"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "After a hearing, the director issues a cease and desist order and may fine up to $1,000 per violation if you didn't know,",
+     "say": "After a hearing, the director issues a cease and desist order and may fine up to one thousand dollars per violation if you didn't know,",
+     "show": 1
+    },
+    {
+     "text": "or up to $5,000 if you knew or reasonably should have known.",
+     "say": "or up to five thousand dollars if you knew or reasonably should have known.",
+     "show": 2
+    },
+    {
+     "text": "Caps: $50,000 per licensing order. For trade practices, $10,000 total, or $50,000 per 6 months if you knew or should have.",
+     "say": "Caps: fifty thousand dollars per licensing order. For trade practices, ten thousand dollars total, or fifty thousand dollars per six months if you knew or should have.",
+     "show": 2
+    },
+    {
+     "text": "Breaking the order itself, knowingly for a licensing order: up to $20,000 per violation.",
+     "say": "Breaking the order itself, knowingly for a licensing order: up to twenty thousand dollars per violation.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Insurance fraud penalties",
+   "src": "MCL 500.4501(h); MCL 500.4503; MCL 500.4511(1),(2)",
+   "mn": "mn-mn_reg-19",
+   "hook": "Solo 4, Squad 10: committing fraud risks 4 years; plotting it with a partner risks 10. Either way, up to $50,000 and you pay it back.",
+   "items": [
+    "Fraudulent act: done knowingly, with intent to injure, defraud or deceive",
+    "Solo 4: felony, up to 4 years and/or $50,000, plus restitution",
+    "Squad 10: agreement or conspiracy, up to 10 years and/or $50,000, plus restitution",
+    "Runner, capper or steerer: paid by a practitioner to bring in clients for claims"
+   ],
+   "beats": [
+    {
+     "text": "Fraud next. A fraudulent insurance act is done knowingly, with intent to injure, defraud or deceive, like false material information on an application or claim.",
+     "say": "Fraud next. A fraudulent insurance act is done knowingly, with intent to injure, defraud or deceive, like false material information on an application or claim.",
+     "show": 1
+    },
+    {
+     "text": "Solo 4: a felony, up to 4 years, a fine up to $50,000, or both, plus restitution.",
+     "say": "Solo four: a felony, up to four years, a fine up to fifty thousand dollars, or both, plus restitution.",
+     "show": 2
+    },
+    {
+     "text": "Squad 10: agreeing or conspiring to commit one, up to 10 years, same fine cap.",
+     "say": "Squad ten: agreeing or conspiring to commit one, up to ten years, same fine cap.",
+     "show": 3
+    },
+    {
+     "text": "And a runner, capper or steerer is someone a practitioner pays to bring in clients or patients for claims.",
+     "say": "And a runner, capper or steerer is someone a practitioner pays to bring in clients or patients for claims.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "Reporting suspected fraud",
+   "src": "MCL 500.4501(a),(i); MCL 500.4509(1),(3)",
+   "icon": "siren",
+   "story": "Tom, an agent in Lansing, thinks a client's repair estimate looks altered. In good faith, he reports it to the state police. The estimate turns out to be genuine, and the client sues Tom for slander.",
+   "items": [
+    {
+     "label": "An estimate is a statement",
+     "detail": "Fraud-law statements include estimates, invoices, bills and claim forms"
+    },
+    {
+     "label": "State police: an authorized agency",
+     "detail": "So are local police, prosecutors and DIFS"
+    },
+    {
+     "label": "No malice, not known to be false",
+     "detail": "The reporter isn't liable for libel, slander or other torts"
+    }
+   ],
+   "answer": "Tom isn't liable for slander: he reported without malice and didn't know the information was false.",
+   "beats": [
+    {
+     "text": "Tom, a Lansing agent, reports a repair estimate he believes is altered to the state police, in good faith. It's genuine, and the client sues for slander. Is Tom liable?",
+     "say": "Tom, a Lansing agent, reports a repair estimate he believes is altered to the state police, in good faith. It's genuine, and the client sues for slander. Is Tom liable?",
+     "show": 0
+    },
+    {
+     "text": "An estimate counts as a statement under the fraud law, and the state police are an authorized agency.",
+     "say": "An estimate counts as a statement under the fraud law, and the state police are an authorized agency.",
+     "show": 2
+    },
+    {
+     "text": "Someone who reports suspected fraud without malice isn't liable for libel, slander or other torts, unless he knows the information is false.",
+     "say": "Someone who reports suspected fraud without malice isn't liable for libel, slander or other torts, unless he knows the information is false.",
+     "show": 3
+    },
+    {
+     "text": "So Tom isn't liable for slander.",
+     "say": "So Tom isn't liable for slander.",
+     "show": 3,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Privacy notices",
+   "src": "MCL 500.501(1); .507(1)(a); .513(1); .527(1),(2),(4); .529(1),(2)(a)",
+   "mn": "mn-mn_reg-20",
+   "hook": "Think PAPER for privacy notices: Personal, At the start, Periodic, Exit, Real copy.",
+   "items": [
+    "Personal: personal, family or household insurance, not business buyers",
+    "At the start, then Periodic: at least once in any 12 consecutive months",
+    "Exit: an opt-out window of 30 days from mailing is reasonable",
+    "Real copy: in writing, or electronic if agreed; never solely oral"
+   ],
+   "beats": [
+    {
+     "text": "Privacy: think PAPER. Personal: the law covers personal, family or household insurance, not business buyers.",
+     "say": "Privacy: think PAPER. Personal: the law covers personal, family or household insurance, not business buyers.",
+     "show": 1
+    },
+    {
+     "text": "At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any 12 consecutive months.",
+     "say": "At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any twelve consecutive months.",
+     "show": 2
+    },
+    {
+     "text": "Exit: before sharing with a nonaffiliated third party, you generally must offer an opt-out. Allowing 30 days from mailing is reasonable.",
+     "say": "Exit: before sharing with a nonaffiliated third party, you generally must offer an opt-out. Allowing thirty days from mailing is reasonable.",
+     "show": 3
+    },
+    {
+     "text": "Real copy: in writing, or electronically if the consumer agrees. Never solely oral, and an office sign doesn't count.",
+     "say": "Real copy: in writing, or electronically if the consumer agrees. Never solely oral, and an office sign doesn't count.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Which is NOT an acceptable way to deliver a required privacy notice?",
+   "choices": [
+    "Mailing a printed copy to the consumer",
+    "Hand-delivering a printed copy",
+    "Posting it on a sign in your office lobby",
+    "Posting it online for an online customer who must acknowledge receipt"
+   ],
+   "answer": 2,
+   "why": "Notices go in writing, or electronically if the consumer agrees: by hand, by mail, or on a website with required acknowledgment. An office sign doesn't count.",
+   "beats": [
+    {
+     "text": "Which is NOT an acceptable way to deliver a privacy notice? Pick an answer.",
+     "say": "Which is not an acceptable way to deliver a privacy notice? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The office sign. A sign or general advertising doesn't count. Mail, hand delivery, or a website notice the online customer must acknowledge all work.",
+     "say": "The office sign. A sign or general advertising doesn't count. Mail, hand delivery, or a website notice the online customer must acknowledge all work."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "title": "Recap",
+   "items": [
+    "Twisting switches, rebating pays back, misrepresentation misstates",
+    "P&C gift limit: $50 per calendar year, cost to the insurer",
+    "Premiums are fiduciary money: segregate, never commingle",
+    "Fraud: 4 years alone, 10 for a conspiracy; up to $50,000",
+    "Privacy: PAPER; 30-day opt-out window; never solely oral"
+   ],
+   "beats": [
+    {
+     "text": "Recap: twisting switches, rebating pays back, misrepresentation misstates. P&C gifts stay at $50 a year. Premiums are fiduciary money.",
+     "say": "Recap: twisting switches, rebating pays back, misrepresentation misstates. P and C gifts stay at fifty dollars a year. Premiums are fiduciary money.",
+     "show": 3
+    },
+    {
+     "text": "Fraud is 4 years alone, 10 with a partner. And for privacy, think PAPER.",
+     "say": "Fraud is four years alone, ten with a partner. And for privacy, think PAPER.",
+     "show": 5
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "L05",
+ "beats": 32,
+ "mismatches": [
+  {
+   "scene": 1,
+   "beat": 3,
+   "say": "Watch out: intent to harm is not an element. On an EXCEPT question, intent is usually the odd one out.",
+   "heard": "Watch out, intent to harm is not an element. On an accept question, intent is usually the odd one out.",
+   "wer": 0.05
+  },
+  {
+   "scene": 8,
+   "beat": 0,
+   "say": "Absolute liability applies to ultrahazardous activities, like blasting or keeping wild animals. Being careful is no defense.",
+   "heard": "Absolute liability applies to ultra-hazardous activities like blasting or keeping wild animals. Being careful is no defense.",
+   "wer": 0.118
+  },
+  {
+   "scene": 9,
+   "beat": 1,
+   "say": "Vicarious liability. The company is liable for its employee's act in the scope of employment. Nothing here is ultrahazardous or a defective product.",
+   "heard": "Vicarious liability. The company is liable for its employees act in the scope of employment. Nothing here is ultra-hazardous or a defective product.",
+   "wer": 0.087
+  }
+ ]
+}

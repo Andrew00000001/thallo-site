@@ -455,12 +455,12 @@
     "name": "Loss payable clause",
     "points": [
      "Authorizes payment to someone other than the named insured who has an insurable interest, such as an auto lender or equipment lessor, \"as its interest may appear.\"",
-     "Under a typical loss payable clause, the insurer owes the loss payee nothing if it can deny the insured's claim.",
+     "Under a basic loss payable clause (for example, the Loss Payable option of commercial property endorsement CP 12 18, or the 2011 ISO Homeowners condition), the insurer owes the loss payee nothing if it can deny the insured's claim. The personal auto Loss Payable Clause endorsement is different: the lender's interest is not voided by the insured's fraud unless the loss results from the insured's conversion, secretion (hiding) or embezzlement of the car.",
      "HO 00 03 05 11: a loss payee shown for listed personal property is treated as an \"insured\" for that property and is notified in writing of cancellation or nonrenewal."
     ]
    }
   ],
-  "tell": "If the insured's claim is denied, can the lender still collect? Mortgage clause: yes, if it meets its conditions. Loss payable: typically no.",
+  "tell": "If the insured's claim is denied, can the lender still collect? Mortgage clause: yes, if it meets its conditions. Basic loss payable clause: typically no.",
   "drills": [
    {
     "prompt": "A homeowner deliberately burns down her house. The bank holding her mortgage still collects for the dwelling loss after meeting the clause's conditions.",
@@ -473,12 +473,12 @@
     "why": "IRMI says loss payable clauses are common for financed vehicles."
    },
    {
-    "prompt": "Under a typical clause of this kind, the finance company listed on the policy gets nothing because the insured's claim was denied for fraud.",
+    "prompt": "Under a basic clause of this kind on a business property policy, the equipment leasing company named as payee gets nothing because the insured's claim was denied for fraud.",
     "answer": "Loss payable clause",
-    "why": "The insurer usually owes the loss payee nothing when it can deny the insured."
+    "why": "Under a basic loss payable clause, such as the Loss Payable option of CP 12 18, the payee's rights are no greater than the insured's, so a proper denial of the insured's claim leaves the payee with nothing."
    },
    {
-    "prompt": "The lender must file a signed, sworn statement of loss within 60 days after notice that the insured failed to do so.",
+    "prompt": "Under HO 00 03 05 11, the lender must file a signed, sworn statement of loss within 60 days after notice that the insured failed to do so.",
     "answer": "Standard mortgage clause",
     "why": "This is one of the mortgagee's conditions under HO 00 03 05 11."
    },
@@ -493,7 +493,7 @@
     "why": "Condition S changes the definition of \"insured\" to include the loss payee for that property."
    }
   ],
-  "source": "ISO HO 00 03 05 11, Sec. I Conditions L. Mortgage Clause and S. Loss Payable Clause. IRMI glossary: loss payable clause"
+  "source": "ISO HO 00 03 05 11, Sec. I Conditions L. Mortgage Clause and S. Loss Payable Clause. ISO CP 12 18 06 07 (Loss Payable Provisions), C and D. ISO PP 03 05 (Loss Payable Clause, personal auto). IRMI glossary: loss payable clause"
  },
  {
   "id": "cp-cp_personal-10",

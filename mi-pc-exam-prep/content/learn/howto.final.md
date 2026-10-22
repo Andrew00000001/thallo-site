@@ -1,7 +1,7 @@
 ## 1. The techniques that work best
 
 **Retrieval practice.** Pull answers out of memory instead of rereading. In one study, students who took recall tests on a prose passage remembered more of it 2 days and 1 week later than students who reread it, even though rereading made them more confident. Rereading came out ahead only on a test given 5 minutes later [Roediger & Karpicke 2006].
-*In the app:* Practice, Flashcards, Math lab, Mock exam and all the Games (Lightning round, Survival, Match, Boss battles). In Practice, turn on **Recall first (hide choices)** to answer from memory before you see the options.
+*In the app:* Practice, Flashcards, Math lab, Mock exam, all the Games (Lightning round, Survival, Match, Boss battles) and the quick checks inside each lesson on the **Watch** tab, which pause the lesson until you answer. In Practice, turn on **Recall first (hide choices)** to answer from memory before you see the options.
 
 **Spaced repetition.** Review material in sessions spread over days instead of in one block. A review of 317 experiments found that spaced study consistently beat massed study, and that the best gap between study sessions grew as the test got further away [Cepeda et al. 2006].
 *In the app:* **Start today's session** on the Today tab brings questions back when they are due. Questions you miss come back in your next session, and questions you get right come back after gaps that grow. Streaks, XP and badges are there to help you show up every day.

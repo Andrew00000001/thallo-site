@@ -1,0 +1,389 @@
+{
+ "id": "L12",
+ "sec": "ho",
+ "guide": "ho",
+ "title": "Homeowners perils, exclusions, conditions and loss settlement",
+ "summary": "Learn the 16 named perils, what the HO-3 won't pay, how the 80% replacement cost rule works, and the claim deadlines, with Michigan's changes.",
+ "objectives": [
+  "Name the six broad perils and the HO-3 vacancy and freezing limits",
+  "List the nine Section I exclusions and tell covered water from excluded water",
+  "Work the 80% replacement cost formula step by step",
+  "Recall claim deadlines, including where Michigan law differs"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "HO perils, exclusions and loss settlement",
+   "subtitle": "2011 ISO HO-3 (HO 00 03 05 11): what's covered, what's excluded, and how a claim is paid",
+   "icon": "shield",
+   "beats": [
+    {
+     "text": "In this lesson: which losses the HO-3 pays, which it excludes, and how a claim gets settled, including the 80% replacement cost rule.",
+     "say": "In this lesson: which losses the H O three pays, which it excludes, and how a claim gets settled, including the eighty percent replacement cost rule."
+    },
+    {
+     "text": "Amounts and deadlines come from the 2011 forms. Where Michigan law changes a rule, you'll hear it.",
+     "say": "Amounts and deadlines come from the twenty eleven forms. Where Michigan law changes a rule, you'll hear it."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "The 16 named perils: 10 basic plus 6 broad",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils Insured Against B.1–16; HO 00 02 10 00; adapted from memory hook mn_prop-15",
+   "hook": "Six broad perils, one Michigan January: a falling limb, snow on the roof, a burst washer hose, a split water heater, frozen pipes and a power surge.",
+   "items": [
+    "Falling objects; weight of ice, snow or sleet",
+    "Accidental discharge or overflow of water or steam",
+    "Sudden and accidental tearing apart, cracking, burning or bulging; freezing",
+    "Sudden and accidental damage from artificially generated electrical current"
+   ],
+   "beats": [
+    {
+     "text": "HO-3 personal property, and everything under HO-2, gets 16 named perils. Ten are basic, like fire, windstorm, theft and vandalism. The other six feel like a Michigan January.",
+     "say": "H O three personal property, and everything under H O two, gets sixteen named perils. Ten are basic, like fire, windstorm, theft and vandalism. The other six feel like a Michigan January.",
+     "show": 0
+    },
+    {
+     "text": "A limb crashes through the roof: falling objects. Snow caves in the roof: weight of ice, snow or sleet. A washer hose bursts: accidental discharge of water.",
+     "say": "A limb crashes through the roof: falling objects. Snow caves in the roof: weight of ice, snow or sleet. A washer hose bursts: accidental discharge of water.",
+     "show": 2
+    },
+    {
+     "text": "A water heater splits: sudden and accidental tearing apart. Pipes freeze: freezing. And a power surge: artificially generated electrical current.",
+     "say": "A water heater splits: sudden and accidental tearing apart. Pipes freeze: freezing. And a power surge: artificially generated electrical current.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Open perils, but not these (Coverages A and B)",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A.2",
+   "items": [
+    {
+     "label": "Vandalism after 60 days vacant",
+     "detail": "Vacant more than 60 consecutive days before the loss; under construction isn't vacant",
+     "icon": "triangle-alert"
+    },
+    {
+     "label": "Freezing without reasonable care",
+     "detail": "Covered only if heat was maintained, or the water shut off and drained",
+     "icon": "snowflake"
+    },
+    {
+     "label": "Wear and tear",
+     "detail": "Also settling, rust, pollutants; birds, rodents, insects; animals an insured owns",
+     "icon": "wrench"
+    },
+    {
+     "label": "Exception: accidental discharge",
+     "detail": "Water escaping from plumbing or an appliance is covered, including tear-out",
+     "icon": "droplets"
+    }
+   ],
+   "beats": [
+    {
+     "text": "HO-3 covers the dwelling for open perils, but it lists losses it won't pay. Vandalism isn't covered if the dwelling was vacant more than 60 consecutive days before the loss.",
+     "say": "H O three covers the dwelling for open perils, but it lists losses it won't pay. Vandalism isn't covered if the dwelling was vacant more than sixty consecutive days before the loss.",
+     "show": 1
+    },
+    {
+     "text": "Freezing is covered only if you used reasonable care to maintain heat, or shut off the water and drained the system. Wear and tear, settling and pests aren't covered.",
+     "say": "Freezing is covered only if you used reasonable care to maintain heat, or shut off the water and drained the system. Wear and tear, settling and pests aren't covered.",
+     "show": 3
+    },
+    {
+     "text": "But water that accidentally escapes from plumbing or an appliance is covered, including necessary tear-out.",
+     "say": "But water that accidentally escapes from plumbing or an appliance is covered, including necessary tear-out.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "An HO-3 dwelling has been vacant for 70 consecutive days when vandals break in and spray-paint the walls. Under the 2011 HO-3, the vandalism loss to the dwelling is:",
+   "choices": [
+    "Not covered",
+    "Covered in full",
+    "Covered at 50% of the loss"
+   ],
+   "answer": 0,
+   "why": "Coverages A and B exclude vandalism and malicious mischief if the dwelling was vacant more than 60 consecutive days before the loss.",
+   "beats": [
+    {
+     "text": "Quick check. A dwelling has been vacant 70 consecutive days when vandals spray-paint the walls. Is the vandalism covered? Pick an answer.",
+     "say": "Quick check. A dwelling has been vacant seventy consecutive days when vandals spray-paint the walls. Is the vandalism covered? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Not covered. Seventy days is more than 60 consecutive days vacant, so vandalism to the dwelling is excluded.",
+     "say": "Not covered. Seventy days is more than sixty consecutive days vacant, so vandalism to the dwelling is excluded."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "The nine Section I exclusions",
+   "src": "ISO HO 00 03 05 11, Sec. I Exclusions A.1–9; adapted from memory hook mn_prop-22",
+   "hook": "Old Ernie's Wet Pontoon Never Went North In Grayling: the nine Section I exclusions.",
+   "items": [
+    "Ordinance or law, Earth movement, Water",
+    "Power failure off premises, Neglect, War",
+    "Nuclear hazard, Intentional loss, Governmental action",
+    "Water: flood, surface water, sewer or drain backup, sump overflow, subsurface water"
+   ],
+   "beats": [
+    {
+     "text": "Now the property exclusions. One Michigan sentence holds all nine: Old Ernie's Wet Pontoon Never Went North In Grayling.",
+     "say": "Now the property exclusions. One Michigan sentence holds all nine: Old Ernie's Wet Pontoon Never Went North In Grayling.",
+     "show": 0
+    },
+    {
+     "text": "Ordinance or law, earth movement, water. Power failure off premises, neglect, war. Nuclear hazard, intentional loss, governmental action.",
+     "say": "Ordinance or law, earth movement, water. Power failure off premises, neglect, war. Nuclear hazard, intentional loss, governmental action.",
+     "show": 3
+    },
+    {
+     "text": "The water exclusion includes flood, surface water, backup through sewers or drains, sump overflow and subsurface water. These exclusions apply no matter what other cause contributes.",
+     "say": "The water exclusion includes flood, surface water, backup through sewers or drains, sump overflow and subsurface water. These exclusions apply no matter what other cause contributes.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Which water loss to an HO-3 dwelling is covered under the 2011 form?",
+   "choices": [
+    "Water backing up through a basement floor drain",
+    "A washing machine hose bursts and soaks the laundry room",
+    "A river overflows and floods the basement"
+   ],
+   "answer": 1,
+   "why": "Accidental discharge from a household appliance is covered, including tear-out. Sewer or drain backup and flood fall under the Water exclusion.",
+   "beats": [
+    {
+     "text": "Here's a classic trap. Which of these water losses does the HO-3 cover? Pick an answer.",
+     "say": "Here's a classic trap. Which of these water losses does the H O three cover? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The burst washer hose. That's accidental discharge from an appliance. Drain backup and flood are both in the water exclusion.",
+     "say": "The burst washer hose. That's accidental discharge from an appliance. Drain backup and flood are both in the water exclusion."
+    }
+   ]
+  },
+  {
+   "type": "formula",
+   "title": "The 80% replacement cost rule, worked",
+   "src": "ISO HO 00 03 05 11, Sec. I Cond. D.2.a–b; memory hook mn_prop-21",
+   "given": [
+    "Replacement cost of the home: $250,000",
+    "Coverage A limit carried: $150,000",
+    "Loss: $20,000 to repair; ACV of the damage $12,000",
+    "Deductible: ignored in this example"
+   ],
+   "items": [
+    {
+     "label": "Should carry: 80% of replacement cost",
+     "expr": "80% × $250,000",
+     "value": "$200,000"
+    },
+    {
+     "label": "Did carry ÷ should carry",
+     "expr": "$150,000 ÷ $200,000",
+     "value": "0.75"
+    },
+    {
+     "label": "Proportional amount",
+     "expr": "0.75 × $20,000",
+     "value": "$15,000"
+    },
+    {
+     "label": "Pay the greater: ACV or proportional",
+     "expr": "$12,000 vs $15,000",
+     "value": "$15,000"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Now loss settlement. Insure the home to at least 80% of full replacement cost, and building losses are paid at replacement cost, with no depreciation.",
+     "say": "Now loss settlement. Insure the home to at least eighty percent of full replacement cost, and building losses are paid at replacement cost, with no depreciation.",
+     "show": 0
+    },
+    {
+     "text": "Fall short, and you get the greater of actual cash value, or what you did carry divided by what you should carry, times the repair cost.",
+     "say": "Fall short, and you get the greater of actual cash value, or what you did carry divided by what you should carry, times the repair cost.",
+     "show": 0
+    },
+    {
+     "text": "Let's work it. Replacement cost is $250,000, so you should carry 80%: $200,000. This owner carries $150,000.",
+     "say": "Let's work it. Replacement cost is two hundred fifty thousand dollars, so you should carry eighty percent: two hundred thousand dollars. This owner carries one hundred fifty thousand dollars.",
+     "show": 1
+    },
+    {
+     "text": "$150,000 divided by $200,000 is 0.75. Times the repair cost of $20,000, that's $15,000.",
+     "say": "One hundred fifty thousand dollars divided by two hundred thousand dollars is zero point seven five. Times the repair cost of twenty thousand dollars, that's fifteen thousand dollars.",
+     "show": 3
+    },
+    {
+     "text": "Compare with the actual cash value of $12,000. The greater amount wins, so the insurer pays $15,000 once repairs are done.",
+     "say": "Compare with the actual cash value of twelve thousand dollars. The greater amount wins, so the insurer pays fifteen thousand dollars once repairs are done.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A home with a $300,000 replacement cost is insured for $240,000. A covered loss costs $30,000 to repair; its ACV is $21,000. After repairs, ignoring the deductible, the 2011 HO-3 pays:",
+   "choices": [
+    "$21,000",
+    "$24,000",
+    "$30,000"
+   ],
+   "answer": 2,
+   "why": "$240,000 is exactly 80% of $300,000, so the 80% test is met and the loss is paid at replacement cost: the full $30,000.",
+   "beats": [
+    {
+     "text": "Your turn. Replacement cost is $300,000, and the home is insured for $240,000. Repairs cost $30,000, and the actual cash value of the damage is $21,000. What's paid after repairs? Pick an answer.",
+     "say": "Your turn. Replacement cost is three hundred thousand dollars, and the home is insured for two hundred forty thousand dollars. Repairs cost thirty thousand dollars, and the actual cash value of the damage is twenty one thousand dollars. What's paid after repairs? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$30,000. 80% of $300,000 is $240,000, so this home meets the test, and the full repair cost is paid. Don't multiply the loss by 80%.",
+     "say": "Thirty thousand dollars. Eighty percent of three hundred thousand dollars is two hundred forty thousand dollars, so this home meets the test, and the full repair cost is paid. Don't multiply the loss by eighty percent."
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "The claim clock (2011 HO-3, and Michigan)",
+   "src": "ISO HO 00 03 05 11, Sec. I Cond. C.8, D.2.d–e, H, I, J; MCL 500.2833(1)(p)–(q)",
+   "columns": [
+    "Rule",
+    "Detail"
+   ],
+   "items": [
+    [
+     "Small-loss shortcut",
+     "RC early if under 5% and under $2,500"
+    ],
+    [
+     "Claim RC after taking ACV",
+     "Notice within 180 days after the loss"
+    ],
+    [
+     "Sworn proof of loss",
+     "Within 60 days after insurer's request"
+    ],
+    [
+     "Insurer's option to repair",
+     "Notice within 30 days after proof"
+    ],
+    [
+     "Loss payment",
+     "Form: 60 days. Michigan law: 30 days"
+    ],
+    [
+     "Suit against the insurer",
+     "Form: 2 years. Michigan tolls the time"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "Until repairs are done, you get only actual cash value, unless the loss is under 5% of the insurance and under $2,500. You can take actual cash value now and claim the rest by giving notice within 180 days.",
+     "say": "Until repairs are done, you get only actual cash value, unless the loss is under five percent of the insurance and under two thousand five hundred dollars. You can take actual cash value now and claim the rest by giving notice within one hundred eighty days.",
+     "show": 2
+    },
+    {
+     "text": "Send a sworn proof of loss within 60 days after the insurer asks. The insurer may choose to repair or replace by giving notice within 30 days after your proof.",
+     "say": "Send a sworn proof of loss within sixty days after the insurer asks. The insurer may choose to repair or replace by giving notice within thirty days after your proof.",
+     "show": 4
+    },
+    {
+     "text": "The unendorsed form allows 60 days, but Michigan law requires payment within 30 days after proof of the amount of loss. Suit is due within 2 years, and Michigan tolls that time from notice of loss until formal denial.",
+     "say": "The unendorsed form allows sixty days, but Michigan law requires payment within thirty days after proof of the amount of loss. Suit is due within two years, and Michigan tolls that time from notice of loss until formal denial.",
+     "show": 6
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Two more conditions the exam likes",
+   "src": "ISO HO 00 03 05 11, Sec. I Cond. B and R, Sec. II Cond. J; MCL 500.2833(2) case law (Wilson, E.D. Mich. 2019)",
+   "items": [
+    {
+     "label": "Concealment or fraud",
+     "detail": "Section I: no insured is covered. Section II: only the insured involved",
+     "icon": "eye"
+    },
+    {
+     "label": "Michigan: innocent co-insured",
+     "detail": "Still covered for a fire loss (see the next lesson)",
+     "icon": "map-pin"
+    },
+    {
+     "label": "Two deductibles apply",
+     "detail": "Only the highest one applies",
+     "icon": "receipt"
+    }
+   ],
+   "beats": [
+    {
+     "text": "If any insured intentionally conceals or misrepresents a material fact, property coverage is lost for every insured. Liability coverage is lost only for the insured involved.",
+     "say": "If any insured intentionally conceals or misrepresents a material fact, property coverage is lost for every insured. Liability coverage is lost only for the insured involved.",
+     "show": 1
+    },
+    {
+     "text": "In Michigan, though, courts require coverage for an innocent co-insured's fire loss. And if two deductibles apply to one loss, only the highest applies.",
+     "say": "In Michigan, though, courts require coverage for an innocent co-insured's fire loss. And if two deductibles apply to one loss, only the highest applies.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Six broad perils: falling objects to power surge",
+    "No vandalism cover after 60 consecutive days vacant",
+    "Burst hose covered; flood and sewer backup excluded",
+    "Under 80%: greater of ACV or carried over required times loss",
+    "Proof of loss: 60 days. Michigan: pay within 30 days; suit tolled"
+   ],
+   "beats": [
+    {
+     "text": "To recap. Know the six broad perils, and the 60-day vacancy rule for vandalism. Water that escapes from plumbing is covered; flood and sewer backup are not.",
+     "say": "To recap. Know the six broad perils, and the sixty day vacancy rule for vandalism. Water that escapes from plumbing is covered; flood and sewer backup are not.",
+     "show": 3
+    },
+    {
+     "text": "Insure to 80% for full replacement cost. Below that, pay the greater of actual cash value or the proportional amount. And in Michigan, payment is due 30 days after proof of the amount of loss.",
+     "say": "Insure to eighty percent for full replacement cost. Below that, pay the greater of actual cash value or the proportional amount. And in Michigan, payment is due thirty days after proof of the amount of loss.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "prop-048",
+  "prop-049",
+  "prop-050",
+  "prop-051",
+  "prop-067"
+ ],
+ "hooks": [
+  "mn-mn_prop-15",
+  "mn-mn_prop-22",
+  "mn-mn_prop-21"
+ ],
+ "sources": [
+  "ISO HO 00 03 05 11",
+  "ISO HO 00 02 10 00",
+  "MCL 500.2833(1)(p)",
+  "MCL 500.2833(1)(q)",
+  "MCL 500.2833(2); Wilson v. State Farm (E.D. Mich. 2019)"
+ ]
+}

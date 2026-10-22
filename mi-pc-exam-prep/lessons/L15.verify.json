@@ -1,0 +1,41 @@
+{
+ "id": "L15",
+ "beats": 32,
+ "mismatches": [
+  {
+   "scene": 3,
+   "beat": 2,
+   "say": "A nonresident may drive a car not registered here for an aggregate of thirty days per calendar year without Michigan security.",
+   "heard": "A non-resident may drive a car, not registered here, for an aggregate of 30 days per calendar year without Michigan's security.",
+   "wer": 0.048
+  },
+  {
+   "scene": 4,
+   "beat": 1,
+   "say": "Ride-share drivers logged on but not on a ride need at least fifty thousand dollars and one hundred thousand dollars bodily injury and twenty-five thousand dollars property damage. During a prearranged ride: one million dollars combined single limit.",
+   "heard": "Rideshare drivers logged on, but not on a ride need, at least $50,000 and $100,000 bodily injury and $25,000 property damage. During a pre-arranged ride, $1 million combined single limit.",
+   "wer": 0.105
+  },
+  {
+   "scene": 7,
+   "beat": 0,
+   "say": "The Assigned Claims Plan is run by the Michigan Automobile Insurance Placement Facility, the M A I P F. Every insurer authorized to write auto insurance here must take part.",
+   "heard": "The assigned claims plan is run by the Michigan Automobile Insurance Placement Facility, the M, a IPF. Every insurer authorized to write auto insurance here must take part.",
+   "wer": 0.077
+  },
+  {
+   "scene": 7,
+   "beat": 3,
+   "say": "Assigned Claims Plan claimants must notify the M A I P F within one year after the accident. Medical benefits there are generally capped at two hundred fifty thousand dollars.",
+   "heard": "Assigned claims plan claimants must notify the M, a IPF within one year after the accident. Medical benefits, there are generally capped at $250,000.",
+   "wer": 0.077
+  },
+  {
+   "scene": 9,
+   "beat": 0,
+   "say": "Your turn. A new policy has been in force ninety days. Under Chapter thirty-two, for a reason other than nonpayment, when may the insurer cancel? Pick an answer.",
+   "heard": "Your turn, a new policy has been enforced 90 days. Under Chapter 32, for a reason other than nonpayment, when may the insurer cancel, pick an answer.",
+   "wer": 0.069
+  }
+ ]
+}

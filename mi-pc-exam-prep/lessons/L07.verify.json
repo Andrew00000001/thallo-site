@@ -1,0 +1,27 @@
+{
+ "id": "L07",
+ "beats": 34,
+ "mismatches": [
+  {
+   "scene": 1,
+   "beat": 1,
+   "say": "The insuring agreement is the insurer's promise to pay. It starts broad, and exclusions and definitions narrow it.",
+   "heard": "The Ensuring Agreement is the insurer's promise to pay. It starts broad and exclusions and definitions narrow it.",
+   "wer": 0.062
+  },
+  {
+   "scene": 6,
+   "beat": 1,
+   "say": "Pro rata, or contribution by limits, pays by each insurer's share of the total limits. Limits of three hundred thousand dollars and two hundred thousand dollars split a covered loss three-fifths and two-fifths.",
+   "heard": "Pro Rada, or contribution by limits, pays by each insurer's share of the total limits. Limits of $300,000 and $200,000 split a covered loss three-fifths and two-fifths.",
+   "wer": 0.03
+  },
+  {
+   "scene": 11,
+   "beat": 1,
+   "say": "Pro rata shares by limits, equal shares pay alike until a limit is used up, and split limits cap each person first.",
+   "heard": "Pro Rada shares buy limits, equal shares pay a like until a limit is used up, and split limits cap each person first.",
+   "wer": 0.19
+  }
+ ]
+}

@@ -1,0 +1,500 @@
+{
+ "id": "L16",
+ "sec": "auto",
+ "guide": "auto",
+ "title": "The Personal Auto Policy",
+ "summary": "The 2018 ISO Personal Auto Policy part by part: liability, med pay, uninsured motorists, damage to your auto, duties, and key endorsements.",
+ "objectives": [
+  "Name the six parts of the Personal Auto Policy in order",
+  "Recall Part A insureds, supplementary payments and key exclusions",
+  "Sort collision from other than collision, plus Michigan's collision options",
+  "Match the main endorsements, including Michigan's, to what they do"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "The Personal Auto Policy",
+   "subtitle": "The 2018 ISO form, Parts A through F, and the endorsements that change it",
+   "icon": "car",
+   "beats": [
+    {
+     "text": "Let's walk through the Personal Auto Policy. Its dollar amounts and time limits come from the 2018 edition.",
+     "say": "Let's walk through the Personal Auto Policy. Its dollar amounts and time limits come from the twenty eighteen edition."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Six parts, in order",
+   "src": "ISO PP 00 01 09 18, Parts A-F",
+   "mn": "mn-mn_auto-20",
+   "hook": "Let Me Use Dad's Dodge, Gramps? - Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
+   "items": [
+    "Part A Liability, Part B Medical Payments",
+    "Part C Uninsured Motorists, Part D Damage to Your Auto",
+    "Part E Duties After an Accident or Loss, Part F General Provisions",
+    "The base form has no PIP or PPI part"
+   ],
+   "beats": [
+    {
+     "text": "The policy has six parts, A through F. Let Me Use Dad's Dodge, Gramps? Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
+     "say": "The policy has six parts, A through F. Let Me Use Dad's Dodge, Gramps? Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
+     "show": 3
+    },
+    {
+     "text": "Notice what's missing: the base form has no PIP or PPI. In Michigan, endorsements add them.",
+     "say": "Notice what's missing: the base form has no P I P or P P I. In Michigan, endorsements add them.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Part A: Liability",
+   "src": "ISO PP 00 01 09 18, Part A: Insuring Agreement A-B; Supplementary Payments",
+   "items": [
+    {
+     "label": "Insureds",
+     "detail": "You or a family member in any auto; anyone using your covered auto",
+     "icon": "users"
+    },
+    {
+     "label": "Defense costs: on top of the limit",
+     "detail": "Duty to defend ends when the limit is used up",
+     "icon": "scale"
+    },
+    {
+     "label": "Bail bonds: up to $250",
+     "detail": "2018 edition; paid in addition to the limit",
+     "icon": "gavel"
+    },
+    {
+     "label": "Lost earnings: up to $250 a day",
+     "detail": "For hearings or trials at the insurer's request",
+     "icon": "banknote"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Part A pays bodily injury and property damage you're legally responsible for. Insureds include you or a family member in any auto, and anyone using your covered auto.",
+     "say": "Part A pays bodily injury and property damage you're legally responsible for. Insureds include you or a family member in any auto, and anyone using your covered auto.",
+     "show": 1
+    },
+    {
+     "text": "Defense costs are paid in addition to the limit. The duty to defend ends when the limit is used up.",
+     "say": "Defense costs are paid in addition to the limit. The duty to defend ends when the limit is used up.",
+     "show": 2
+    },
+    {
+     "text": "Supplementary payments are also on top of the limit: up to $250 for bail bonds, and up to $250 a day in lost earnings to attend hearings or trials at the insurer's request.",
+     "say": "Supplementary payments are also on top of the limit: up to two hundred fifty dollars for bail bonds, and up to two hundred fifty dollars a day in lost earnings to attend hearings or trials at the insurer's request.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Part A exclusions to know",
+   "src": "ISO PP 00 01 09 18, Part A, Exclusions A.5, B.1-B.2",
+   "items": [
+    {
+     "label": "Public or livery use",
+     "detail": "Includes time logged into a ride-share app as a driver. Share-the-expense car pools are not excluded",
+     "icon": "car-taxi-front"
+    },
+    {
+     "label": "Regular-use vehicles",
+     "detail": "Vehicles furnished or available for your regular use",
+     "icon": "key"
+    },
+    {
+     "label": "Fewer than 4 wheels, or built for off-road",
+     "detail": "With exceptions, such as trailers and non-owned golf carts",
+     "icon": "bike"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Three exclusions matter. First, public or livery use, including time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded.",
+     "say": "Three exclusions matter. First, public or livery use, including time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded.",
+     "show": 1
+    },
+    {
+     "text": "Second, vehicles furnished or available for your regular use. Third, vehicles with fewer than 4 wheels or built mainly for off-road use. Endorsements can remove these two for the right vehicles.",
+     "say": "Second, vehicles furnished or available for your regular use. Third, vehicles with fewer than four wheels or built mainly for off-road use. Endorsements can remove these two for the right vehicles.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Under Part A of the 2018 Personal Auto Policy, the public or livery conveyance exclusion applies to:",
+   "choices": [
+    "A share-the-expense car pool",
+    "Delivering meals to seniors as a volunteer",
+    "Time logged into a ride-share app as a driver",
+    "Commuting to and from work"
+   ],
+   "answer": 2,
+   "why": "The 2018 PAP's livery exclusion expressly includes time logged into a transportation network platform as a driver. Share-the-expense car pools and volunteer or charitable use are excepted.",
+   "beats": [
+    {
+     "text": "Quick check. Under the 2018 policy, which activity falls under the public or livery conveyance exclusion? Pick an answer.",
+     "say": "Quick check. Under the twenty eighteen policy, which activity falls under the public or livery conveyance exclusion? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The answer is time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded.",
+     "say": "The answer is time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Part B and Part C",
+   "src": "ISO PP 00 01 09 18, Part B A-B; Part C A, C; DIFS auto FAQ; Rory v Continental (2005)",
+   "columns": [
+    {
+     "name": "Part B: Medical Payments",
+     "icon": "hospital",
+     "points": [
+      "Medical and funeral expenses",
+      "Services within 3 years of the accident",
+      "You and family members, even as pedestrians",
+      "Anyone occupying your covered auto"
+     ]
+    },
+    {
+     "name": "Part C: Uninsured Motorists",
+     "icon": "shield",
+     "points": [
+      "Bodily injury an uninsured driver owes you",
+      "Includes hit-and-run and insolvent insurers",
+      "Not uninsured: government-owned vehicles",
+      "Michigan: listed by DIFS as optional"
+     ]
+    }
+   ],
+   "tell": "Part B: your medical bills, for services within 3 years. Part C: the injury damages an uninsured driver owes you.",
+   "beats": [
+    {
+     "text": "Part B, medical payments, pays medical and funeral expenses for services within 3 years of the accident. It covers you and family members, even as pedestrians, and anyone in your covered auto.",
+     "say": "Part B, medical payments, pays medical and funeral expenses for services within three years of the accident. It covers you and family members, even as pedestrians, and anyone in your covered auto.",
+     "show": 1
+    },
+    {
+     "text": "Part C, uninsured motorists, pays bodily injury damages an uninsured driver owes you. Hit-and-runs and insolvent insurers count. Government-owned vehicles don't.",
+     "say": "Part C, uninsured motorists, pays bodily injury damages an uninsured driver owes you. Hit-and-runs and insolvent insurers count. Government-owned vehicles don't.",
+     "show": 2
+    },
+    {
+     "text": "In Michigan, DIFS lists UM and UIM as optional coverages, and the Michigan Supreme Court treats UM as optional.",
+     "say": "In Michigan, D I F S lists U M and U I M as optional coverages, and the Michigan Supreme Court treats U M as optional.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Part D: collision or other than collision?",
+   "src": "ISO PP 00 01 09 18, Part D, Insuring Agreement B",
+   "mn": "mn-mn_auto-23",
+   "hook": "Bambi is not a collision: hitting a deer (or a bird) is Other Than Collision. Hitting a tree, another car, or rolling over is Collision.",
+   "items": [
+    "Collision: upset of the auto, or impact with a vehicle or object",
+    "Other than collision: fire, theft, windstorm, hail, flood, vandalism, falling objects",
+    "Hitting a bird or animal: other than collision",
+    "Glass broken in a collision: collision, at your option"
+   ],
+   "beats": [
+    {
+     "text": "Part D covers your own auto. Collision is the upset of your auto, or its impact with another vehicle or object.",
+     "say": "Part D covers your own auto. Collision is the upset of your auto, or its impact with another vehicle or object.",
+     "show": 1
+    },
+    {
+     "text": "Other than collision covers perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
+     "say": "Other than collision covers perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
+     "show": 2
+    },
+    {
+     "text": "And Bambi is not a collision: hitting a deer is other than collision. Swerve and hit a tree instead? Collision.",
+     "say": "And Bambi is not a collision: hitting a deer is other than collision. Swerve and hit a tree instead? Collision.",
+     "show": 3
+    },
+    {
+     "text": "Glass broken in a collision may be treated as collision, at your option.",
+     "say": "Glass broken in a collision may be treated as collision, at your option.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Michigan collision options",
+   "src": "MCL 500.3037(1),(2),(8)(b); DIFS FIS-PUB 0200",
+   "columns": [
+    {
+     "name": "Limited",
+     "points": [
+      "No deductible",
+      "Pays only if not substantially at fault"
+     ]
+    },
+    {
+     "name": "Broad form",
+     "points": [
+      "Pays regardless of fault",
+      "Deductible waived if not substantially at fault"
+     ]
+    },
+    {
+     "name": "Standard",
+     "points": [
+      "Pays regardless of fault",
+      "You pay the deductible either way"
+     ]
+    }
+   ],
+   "tell": "Substantially at fault means more than 50% of the cause.",
+   "beats": [
+    {
+     "text": "In Michigan, insurers must offer limited and broad form collision at a first private passenger application. Limited has no deductible, but pays only if the driver was not substantially at fault.",
+     "say": "In Michigan, insurers must offer limited and broad form collision at a first private passenger application. Limited has no deductible, but pays only if the driver was not substantially at fault.",
+     "show": 1
+    },
+    {
+     "text": "Broad form pays regardless of fault, and waives the deductible if the driver was not substantially at fault. Standard collision may also be offered: you pay the deductible either way.",
+     "say": "Broad form pays regardless of fault, and waives the deductible if the driver was not substantially at fault. Standard collision may also be offered: you pay the deductible either way.",
+     "show": 3
+    },
+    {
+     "text": "Substantially at fault means more than 50% of the cause.",
+     "say": "Substantially at fault means more than fifty percent of the cause.",
+     "show": 3,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "Sam's new car",
+   "src": "ISO PP 00 01 09 18, Definitions K.2",
+   "icon": "car-front",
+   "story": "Sam buys a second car on Monday. No auto on his policy has collision coverage. On Wednesday, before calling his insurer, he backs the new car into a pole. He calls on Thursday to ask for collision.",
+   "items": [
+    {
+     "label": "Any declared auto with collision?",
+     "detail": "No, so Sam had 4 days to ask, not 14"
+    },
+    {
+     "label": "Did he ask in time?",
+     "detail": "Yes, within 4 days, so coverage began when he became the owner"
+    },
+    {
+     "label": "Loss before he asked",
+     "detail": "A $500 deductible applies"
+    }
+   ],
+   "answer": "Covered, with a $500 deductible. Had he asked late, coverage would begin only when he asked.",
+   "beats": [
+    {
+     "text": "Sam buys a second car Monday. No auto on his policy has collision. Wednesday, before calling his insurer, he backs into a pole. Thursday, he asks for collision. Is he covered?",
+     "say": "Sam buys a second car Monday. No auto on his policy has collision. Wednesday, before calling his insurer, he backs into a pole. Thursday, he asks for collision. Is he covered?",
+     "show": 0
+    },
+    {
+     "text": "If a declared auto had collision, he'd have 14 days to ask. With none, the window is 4 days. Sam asked within 4 days.",
+     "say": "If a declared auto had collision, he'd have fourteen days to ask. With none, the window is four days. Sam asked within four days.",
+     "show": 2
+    },
+    {
+     "text": "So he's covered from the day he became the owner, but a deductible of $500 applies to a loss before he asked.",
+     "say": "So he's covered from the day he became the owner, but a deductible of five hundred dollars applies to a loss before he asked.",
+     "show": 3,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "bignum",
+   "title": "Transportation expenses (2018 edition)",
+   "src": "ISO PP 00 01 09 18, Part D, Transportation Expenses",
+   "items": [
+    {
+     "value": "$30 a day",
+     "label": "Temporary transportation, no deductible"
+    },
+    {
+     "value": "$900",
+     "label": "Maximum"
+    },
+    {
+     "value": "48 hours",
+     "label": "Total theft: payment starts after"
+    },
+    {
+     "value": "24 hours",
+     "label": "Other losses: car out of use more than"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Part D also pays transportation expenses with no deductible: up to $30 a day, to $900. Thirty times thirty is nine hundred.",
+     "say": "Part D also pays transportation expenses with no deductible: up to thirty dollars a day, to nine hundred dollars. Thirty times thirty is nine hundred.",
+     "show": 2
+    },
+    {
+     "text": "After a total theft, payment starts 48 hours after the theft. For other losses, the car must be out of use more than 24 hours.",
+     "say": "After a total theft, payment starts forty-eight hours after the theft. For other losses, the car must be out of use more than twenty-four hours.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Part E: duties after an accident or loss",
+   "src": "ISO PP 00 01 09 18, Part E, A-D",
+   "items": [
+    {
+     "label": "Prompt notice, cooperation, legal papers",
+     "icon": "mail"
+    },
+    {
+     "label": "Exams, records, proof of loss",
+     "icon": "clipboard-list"
+    },
+    {
+     "label": "Hit-and-run UM claim: tell police promptly",
+     "icon": "siren"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Part E lists your duties: prompt notice, cooperation, sending legal papers, exams, records and proof of loss. For a hit-and-run uninsured motorists claim, promptly notify the police.",
+     "say": "Part E lists your duties: prompt notice, cooperation, sending legal papers, exams, records and proof of loss. For a hit-and-run uninsured motorists claim, promptly notify the police.",
+     "show": 3
+    },
+    {
+     "text": "The insurer has no duty to provide coverage if your failure to comply is prejudicial to it.",
+     "say": "The insurer has no duty to provide coverage if your failure to comply is prejudicial to it.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Endorsements, including Michigan's",
+   "src": "PP 03 23 per FC&S summary (form text not read); PP 03 06 01 05; DIFS Bulletin 96-02; MCL 500.3107, 3109(3), 3121",
+   "items": [
+    {
+     "label": "Miscellaneous Type Vehicle",
+     "detail": "Motor homes, motorcycles, all-terrain vehicles, golf carts. Snowmobiles: separate form",
+     "icon": "caravan"
+    },
+    {
+     "label": "Extended Non-Owned",
+     "detail": "Removes the regular-use exclusion, for example a car an employer furnishes",
+     "icon": "briefcase"
+    },
+    {
+     "label": "Michigan: DIFS Bulletin 96-02",
+     "detail": "Non-owner endorsements give residual liability only, to named person and spouse",
+     "icon": "landmark"
+    },
+    {
+     "label": "Michigan PIP and PPI endorsements",
+     "detail": "Add the no-fault benefits. A PIP deductible applies only to your household",
+     "icon": "file-text"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Now endorsements. Miscellaneous Type Vehicle typically covers motor homes, motorcycles, all-terrain vehicles, dune buggies and golf carts. Snowmobiles use a separate endorsement.",
+     "say": "Now endorsements. Miscellaneous Type Vehicle typically covers motor homes, motorcycles, all-terrain vehicles, dune buggies and golf carts. Snowmobiles use a separate endorsement.",
+     "show": 1
+    },
+    {
+     "text": "Extended Non-Owned removes the regular-use exclusion for liability, and med pay if bought. It fits someone who regularly drives an employer's car.",
+     "say": "Extended Non-Owned removes the regular-use exclusion for liability, and med pay if bought. It fits someone who regularly drives an employer's car.",
+     "show": 2
+    },
+    {
+     "text": "But in Michigan, a DIFS bulletin says named non-owner and extended non-owned endorsements give residual liability only, for the named person and spouse. No PIP, no PPI, no physical damage.",
+     "say": "But in Michigan, a D I F S bulletin says named non-owner and extended non-owned endorsements give residual liability only, for the named person and spouse. No P I P, no P P I, no physical damage.",
+     "show": 3
+    },
+    {
+     "text": "Michigan PIP and PPI endorsements add the no-fault benefits. A PIP deductible applies only to the named insured, spouse and resident relatives.",
+     "say": "Michigan P I P and P P I endorsements add the no-fault benefits. A P I P deductible applies only to the named insured, spouse and resident relatives.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "According to DIFS, a named non-owner or extended non-owned endorsement on a Michigan no-fault policy provides:",
+   "choices": [
+    "PIP, PPI and residual liability for the whole household",
+    "Residual liability only, for the named person and spouse",
+    "Physical damage coverage only",
+    "PIP coverage only"
+   ],
+   "answer": 1,
+   "why": "DIFS Bulletin 96-02: these endorsements provide only residual liability, only for the named person and spouse. They give no PIP, PPI or physical damage, and don't meet no-fault requirements.",
+   "beats": [
+    {
+     "text": "Your turn. According to DIFS, what do these Michigan non-owner endorsements provide? Pick an answer.",
+     "say": "Your turn. According to D I F S, what do these Michigan non-owner endorsements provide? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The answer is residual liability only, for the named person and spouse. That's why such an endorsement doesn't meet Michigan's no-fault requirements.",
+     "say": "The answer is residual liability only, for the named person and spouse. That's why such an endorsement doesn't meet Michigan's no-fault requirements."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Parts A to F: Let Me Use Dad's Dodge, Gramps?",
+    "Part A (2018): defense plus $250 bail and $250 a day, on top of limits",
+    "Deer: other than collision. Rollover or hitting a tree: collision",
+    "New car (2018): 14 days to ask; 4 if no declared auto has it",
+    "Michigan non-owner endorsements: residual liability only"
+   ],
+   "beats": [
+    {
+     "text": "Let's recap the key points on screen. Pause if you want to review them.",
+     "say": "Let's recap the key points on screen. Pause if you want to review them.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "auto-052",
+  "auto-053",
+  "auto-055",
+  "auto-051",
+  "auto-057"
+ ],
+ "hooks": [
+  "mn-mn_auto-20",
+  "mn-mn_auto-23"
+ ],
+ "sources": [
+  "ISO PP 00 01 09 18 (Personal Auto Policy), Definitions, Parts A-F",
+  "ISO PP 03 06 01 05 (Extended Non-Owned Coverage)",
+  "ISO PP 03 23 (Miscellaneous Type Vehicle) per FC&S and riskeducation.org summaries",
+  "DIFS Bulletin 96-02 (June 25, 1996)",
+  "DIFS auto insurance FAQ",
+  "Rory v Continental Ins Co, 473 Mich 457 (2005)",
+  "MCL 500.3037(1),(2),(8)(b)",
+  "DIFS FIS-PUB 0200 (via confusion pair cp-cp_personal-14)",
+  "MCL 500.3107, 3108, 3109(3), 3121"
+ ]
+}

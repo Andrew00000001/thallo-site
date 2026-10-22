@@ -1,0 +1,412 @@
+{
+  "id": "L05",
+  "sec": "basics",
+  "guide": "basics",
+  "title": "Negligence, damages and liability",
+  "summary": "The four elements of negligence, Michigan's comparative fault rule, special, general and punitive damages, and absolute, strict and vicarious liability.",
+  "objectives": [
+    "Name the four elements of negligence and the main defenses",
+    "Apply Michigan's comparative fault rule to a damage award",
+    "Classify special, general and punitive damages",
+    "Tell absolute, strict and vicarious liability apart"
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Negligence, damages and liability",
+      "subtitle": "How the law decides who pays when someone gets hurt",
+      "icon": "gavel",
+      "src": "ISO CG 00 01 04 13, Sec. I, Cov. A.1.a",
+      "beats": [
+        {
+          "text": "Liability coverage, like the CGL, pays sums the insured becomes legally obligated to pay as damages. So you need to know how the law decides who's responsible.",
+          "say": "Liability coverage, like the C G L, pays sums the insured becomes legally obligated to pay as damages. So you need to know how the law decides who's responsible."
+        },
+        {
+          "text": "In this lesson: the elements of negligence, Michigan's fault rules, the kinds of damages, and three special kinds of liability.",
+          "say": "In this lesson: the elements of negligence, Michigan's fault rules, the kinds of damages, and three special kinds of liability."
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Four elements of negligence",
+      "src": "IRMI glossary: negligence; proximate cause",
+      "mn": "mn-mn_core-11",
+      "hook": "Don't Break People's Doors: Duty, Breach, Proximate cause, Damage.",
+      "items": [
+        "Duty: the defendant owed the plaintiff a legal duty of care",
+        "Breach: the defendant failed to use reasonable care",
+        "Proximate cause: the breach led, foreseeably, to the harm",
+        "Damage: the plaintiff suffered actual injury or damage"
+      ],
+      "beats": [
+        {
+          "text": "Negligence has four elements, and the plaintiff must prove all four. Here's the hook: Don't Break People's Doors.",
+          "say": "Negligence has four elements, and the plaintiff must prove all four. Here's the hook: Don't Break People's Doors.",
+          "show": 0
+        },
+        {
+          "text": "Duty: the defendant owed the plaintiff a legal duty of care. Breach: the defendant failed to use reasonable care.",
+          "say": "Duty: the defendant owed the plaintiff a legal duty of care. Breach: the defendant failed to use reasonable care.",
+          "show": 2
+        },
+        {
+          "text": "Proximate cause: the breach set off a foreseeable chain of events that led to the harm. Damage: an actual injury or loss.",
+          "say": "Proximate cause: the breach set off a foreseeable chain of events that led to the harm. Damage: an actual injury or loss.",
+          "show": 4
+        },
+        {
+          "text": "Watch out: intent to harm is not an element. On an EXCEPT question, intent is usually the odd one out.",
+          "say": "Watch out: intent to harm is not an element. On an EXCEPT question, intent is usually the odd one out.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Defenses against negligence",
+      "src": "IRMI glossary: contributory negligence; comparative negligence; assumption of risk",
+      "columns": [
+        {
+          "name": "Contributory negligence",
+          "icon": "ban",
+          "points": [
+            "Common-law rule",
+            "Any fault by the plaintiff bars recovery",
+            "Many states have replaced it"
+          ]
+        },
+        {
+          "name": "Comparative negligence",
+          "icon": "percent",
+          "points": [
+            "Damages reduced by the plaintiff's percentage of fault"
+          ]
+        },
+        {
+          "name": "Assumption of risk",
+          "icon": "triangle-alert",
+          "points": [
+            "Knowingly and voluntarily accepted a known risk",
+            "Can't recover for the resulting injury"
+          ]
+        }
+      ],
+      "tell": "Contributory: any fault, nothing. Comparative: you lose your share.",
+      "beats": [
+        {
+          "text": "These are the general defenses; Michigan's rule comes next. Under the old common-law rule of contributory negligence, any fault by the plaintiff bars recovery. Many states have replaced it.",
+          "say": "These are the general defenses; Michigan's rule comes next. Under the old common-law rule of contributory negligence, any fault by the plaintiff bars recovery. Many states have replaced it.",
+          "show": 1
+        },
+        {
+          "text": "Under comparative negligence, damages are reduced by the plaintiff's percentage of fault.",
+          "say": "Under comparative negligence, damages are reduced by the plaintiff's percentage of fault.",
+          "show": 2
+        },
+        {
+          "text": "And under assumption of risk, someone who knowingly and voluntarily accepts a known risk can't recover for the resulting injury.",
+          "say": "And under assumption of risk, someone who knowingly and voluntarily accepts a known risk can't recover for the resulting injury.",
+          "show": 3
+        },
+        {
+          "text": "In short: contributory means any fault, nothing. Comparative means you lose your share.",
+          "say": "In short: contributory means any fault, nothing. Comparative means you lose your share.",
+          "show": 3,
+          "tell": true
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "Michigan's comparative fault rule",
+      "src": "MCL 600.2958; MCL 600.2959; MCL 500.3135(2)(b)",
+      "items": [
+        {
+          "label": "Your fault doesn't bar recovery",
+          "detail": "Contributory fault is not a complete bar in Michigan",
+          "icon": "circle-check"
+        },
+        {
+          "label": "Damages drop by your percentage",
+          "detail": "Damages are reduced by the plaintiff's percentage of fault",
+          "icon": "percent"
+        },
+        {
+          "label": "More than 50% at fault",
+          "detail": "Economic damages still reduced; no noneconomic damages awarded",
+          "icon": "ban"
+        },
+        {
+          "label": "Auto no-fault suits differ",
+          "detail": "Noneconomic-loss suit: no damages for a party more than 50% at fault",
+          "icon": "car"
+        }
+      ],
+      "beats": [
+        {
+          "text": "In Michigan, a plaintiff's own fault does not bar recovery. Instead, damages are reduced by the plaintiff's percentage of fault.",
+          "say": "In Michigan, a plaintiff's own fault does not bar recovery. Instead, damages are reduced by the plaintiff's percentage of fault.",
+          "show": 2
+        },
+        {
+          "text": "But if the plaintiff's fault is greater than everyone else's combined, so more than 50%, economic damages are still reduced, and noneconomic damages, like pain and suffering, are not awarded.",
+          "say": "But if the plaintiff's fault is greater than everyone else's combined, so more than fifty percent, economic damages are still reduced, and noneconomic damages, like pain and suffering, are not awarded.",
+          "show": 3
+        },
+        {
+          "text": "Auto no-fault suits for noneconomic loss use a different rule: a party more than 50% at fault recovers nothing.",
+          "say": "Auto no-fault suits for noneconomic loss use a different rule: a party more than fifty percent at fault recovers nothing.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "title": "Working the Michigan rule",
+      "src": "MCL 600.2958; MCL 600.2959 (method as in question core-026)",
+      "given": [
+        "Michigan general negligence suit",
+        "Economic damages: $100,000",
+        "Plaintiff's fault: 30%"
+      ],
+      "items": [
+        {
+          "label": "Reduction for plaintiff's fault",
+          "expr": "30% × $100,000",
+          "value": "$30,000"
+        },
+        {
+          "label": "Plaintiff recovers",
+          "expr": "$100,000 − $30,000",
+          "value": "$70,000"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Let's work one. A Michigan plaintiff proves $100,000 of economic damages and is found 30% at fault. What does the plaintiff recover?",
+          "say": "Let's work one. A Michigan plaintiff proves one hundred thousand dollars of economic damages and is found thirty percent at fault. What does the plaintiff recover?",
+          "show": 0
+        },
+        {
+          "text": "First, the reduction: 30% of $100,000 is $30,000.",
+          "say": "First, the reduction: thirty percent of one hundred thousand dollars is thirty thousand dollars.",
+          "show": 1
+        },
+        {
+          "text": "So the plaintiff recovers $70,000. Under the old contributory rule, the answer would be zero.",
+          "say": "So the plaintiff recovers seventy thousand dollars. Under the old contributory rule, the answer would be zero.",
+          "show": 2
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "In a Michigan general negligence suit, the plaintiff is found exactly 50% at fault. What happens to her noneconomic damages, such as pain and suffering?",
+      "choices": [
+        "They are barred completely",
+        "They are reduced by 50%",
+        "They are paid in full"
+      ],
+      "answer": 1,
+      "why": "Michigan cuts off noneconomic damages only when the plaintiff's fault is more than 50%. At exactly 50%, they are reduced by her share.",
+      "beats": [
+        {
+          "text": "Here's a trap. A Michigan plaintiff is found exactly 50% at fault. What happens to her noneconomic damages? Pick an answer.",
+          "say": "Here's a trap. A Michigan plaintiff is found exactly fifty percent at fault. What happens to her noneconomic damages? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "They're reduced by 50%, not barred. The cutoff applies only when the plaintiff is more than 50% at fault, and 50 is not more than 50.",
+          "say": "They're reduced by fifty percent, not barred. The cutoff applies only when the plaintiff is more than fifty percent at fault, and fifty is not more than fifty."
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Kinds of damages",
+      "src": "IRMI glossary: compensatory, special, general, punitive damages; Gilbert v DaimlerChrysler (Mich 2004), via IADC compendium",
+      "mn": "mn-mn_core-13",
+      "hook": "Special = Spreadsheet (bills you can add up). General = Gut (pain and suffering). Punitive = Punish. In Michigan, Punish needs Permission from the Legislature.",
+      "items": [
+        "Special: measurable losses like medical bills, lost wages, loss of use",
+        "General: a subjective award for pain and suffering",
+        "Punitive: beyond compensation, to punish wanton or willful conduct",
+        "Michigan: punitive only when the Legislature expressly authorizes it"
+      ],
+      "beats": [
+        {
+          "text": "Now, damages. Compensatory damages make amends for the actual loss, and they come in two types. Special equals Spreadsheet. General equals Gut.",
+          "say": "Now, damages. Compensatory damages make amends for the actual loss, and they come in two types. Special equals Spreadsheet. General equals Gut.",
+          "show": 0
+        },
+        {
+          "text": "Special damages are losses you can add up: medical bills, lost wages, loss of use. General damages are a subjective award for pain and suffering.",
+          "say": "Special damages are losses you can add up: medical bills, lost wages, loss of use. General damages are a subjective award for pain and suffering.",
+          "show": 2
+        },
+        {
+          "text": "Punitive damages go beyond compensation, to punish wanton or willful conduct.",
+          "say": "Punitive damages go beyond compensation, to punish wanton or willful conduct.",
+          "show": 3
+        },
+        {
+          "text": "In Michigan, punish needs permission. Punitive damages are generally not recoverable unless the Legislature expressly authorizes them.",
+          "say": "In Michigan, punish needs permission. Punitive damages are generally not recoverable unless the Legislature expressly authorizes them.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "A jury awards a shopper who slipped in a store $25,000 for lost wages and $60,000 for pain and suffering. Which part is general damages?",
+      "choices": [
+        "The $25,000 for lost wages",
+        "The $60,000 for pain and suffering",
+        "Both awards",
+        "Neither; both are punitive"
+      ],
+      "answer": 1,
+      "why": "Pain and suffering is a subjective award, so it is general damages. Lost wages can be added up, so they are special. Both are compensatory.",
+      "beats": [
+        {
+          "text": "Quick check. A jury awards a shopper who slipped in a store $25,000 for lost wages and $60,000 for pain and suffering. Which part is general damages? Pick an answer.",
+          "say": "Quick check. A jury awards a shopper who slipped in a store twenty five thousand dollars for lost wages and sixty thousand dollars for pain and suffering. Which part is general damages? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "The $60,000 for pain and suffering. It's a subjective award, so it's general. The lost wages add up, so they're special. Both are compensatory.",
+          "say": "The sixty thousand dollars for pain and suffering. It's a subjective award, so it's general. The lost wages add up, so they're special. Both are compensatory."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "Absolute, strict and vicarious liability",
+      "src": "Restatement (2d) Torts §§519-520; IRMI glossary: strict liability; vicarious liability; LII Wex",
+      "columns": [
+        {
+          "name": "Absolute",
+          "icon": "bomb",
+          "points": [
+            "Ultrahazardous activities",
+            "Blasting, keeping wild animals",
+            "Exercising care is no defense"
+          ]
+        },
+        {
+          "name": "Strict",
+          "icon": "package",
+          "points": [
+            "Liability without regard to fault",
+            "Classic case: maker or seller of a defective, dangerous product"
+          ]
+        },
+        {
+          "name": "Vicarious",
+          "icon": "users",
+          "points": [
+            "Liable for someone else's acts",
+            "Employer for employee in the scope of employment",
+            "Also partners, independent contractors, children"
+          ]
+        }
+      ],
+      "tell": "Exam convention: blasting is absolute, defective products are strict, someone else's act is vicarious.",
+      "beats": [
+        {
+          "text": "Absolute liability applies to ultrahazardous activities, like blasting or keeping wild animals. Being careful is no defense.",
+          "say": "Absolute liability applies to ultrahazardous activities, like blasting or keeping wild animals. Being careful is no defense.",
+          "show": 1
+        },
+        {
+          "text": "Strict liability is imposed without regard to fault. The classic example is the maker or seller of a defective, dangerous product.",
+          "say": "Strict liability is imposed without regard to fault. The classic example is the maker or seller of a defective, dangerous product.",
+          "show": 2
+        },
+        {
+          "text": "Vicarious liability makes one party liable for someone else's acts, like an employer for an employee acting in the scope of employment. It can also apply to partners, independent contractors and children.",
+          "say": "Vicarious liability makes one party liable for someone else's acts, like an employer for an employee acting in the scope of employment. It can also apply to partners, independent contractors and children.",
+          "show": 3
+        },
+        {
+          "text": "Legal sources often use absolute and strict interchangeably. These are the generic exam definitions, not Michigan product law: blasting is absolute, defective products are strict.",
+          "say": "Legal sources often use absolute and strict interchangeably. These are the generic exam definitions, not Michigan product law: blasting is absolute, defective products are strict.",
+          "show": 3,
+          "tell": true
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "A landscaping company's employee, while mowing a customer's lawn, carelessly throws a rock through a neighbor's window. The company is held liable. This is:",
+      "choices": [
+        "Absolute liability",
+        "Strict liability",
+        "Vicarious liability",
+        "Contributory negligence"
+      ],
+      "answer": 2,
+      "why": "The company is liable for its employee's act within the scope of employment. That's vicarious liability.",
+      "beats": [
+        {
+          "text": "Last one. A landscaping company's employee, mowing a customer's lawn, carelessly throws a rock through a neighbor's window. The company is held liable. What kind of liability is that? Pick an answer.",
+          "say": "Last one. A landscaping company's employee, mowing a customer's lawn, carelessly throws a rock through a neighbor's window. The company is held liable. What kind of liability is that? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "Vicarious liability. The company is liable for its employee's act in the scope of employment. Nothing here is ultrahazardous or a defective product.",
+          "say": "Vicarious liability. The company is liable for its employee's act in the scope of employment. Nothing here is ultrahazardous or a defective product."
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Negligence: duty, breach, proximate cause, damage. No intent needed",
+        "Michigan: fault reduces damages; over 50% loses noneconomic damages",
+        "Special damages add up; general damages are pain and suffering",
+        "Michigan punitive damages need express legislative authority",
+        "Absolute: blasting. Strict: defective products. Vicarious: via others"
+      ],
+      "beats": [
+        {
+          "text": "To recap: negligence needs duty, breach, proximate cause and damage. In Michigan, your fault reduces your damages, and over 50% costs you noneconomic damages.",
+          "say": "To recap: negligence needs duty, breach, proximate cause and damage. In Michigan, your fault reduces your damages, and over fifty percent costs you noneconomic damages.",
+          "show": 2
+        },
+        {
+          "text": "Special damages add up; general damages are pain and suffering. Michigan punitive damages need the Legislature's permission. And absolute, strict and vicarious liability each have their classic case.",
+          "say": "Special damages add up; general damages are pain and suffering. Michigan punitive damages need the Legislature's permission. And absolute, strict and vicarious liability each have their classic case.",
+          "show": 5
+        }
+      ]
+    }
+  ],
+  "check": [
+    "core-024",
+    "core-025",
+    "core-bas-07",
+    "core-027",
+    "core-029"
+  ],
+  "hooks": [
+    "mn-mn_core-11",
+    "mn-mn_core-13"
+  ],
+  "sources": [
+    "MCL 600.2958",
+    "MCL 600.2959",
+    "MCL 500.3135(2)(b)",
+    "ISO CG 00 01 04 13, Sec. I, Cov. A.1.a",
+    "Gilbert v DaimlerChrysler Corp, 685 NW2d 391 (Mich 2004), via IADC Michigan Damages Compendium",
+    "Casey v Auto Owners Ins Co, 729 NW2d 277 (Mich App 2006), via IADC Michigan Damages Compendium",
+    "Restatement (Second) of Torts §§519-520",
+    "IRMI glossary",
+    "Cornell LII Wex"
+  ]
+}

@@ -658,8 +658,10 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
   - The PAP numbers come from PP 00 01 09 18: bail $250; loss of earnings $250/day; transportation $30/day, max $900. A secondary summary of the older PP 00 01 01 05 gives transportation as $20/day, max $600. We did not verify the other older-edition amounts, so questions name the 09 18 edition.
   - The BAP numbers come from CA 00 01 11 20 (transportation and loss of use $30/$900). The 10 13 edition was $20/$600.
   - The Garage form symbols come from CA 00 05 07 97.
+- **Commercial auto form text read (see More outline topics).**
+  - Truckers: CA 00 12 10 01 (symbols 41–50). Motor Carrier: CA 00 20 03 10 (symbols 61–71 and 79). Questions that use these symbols name those editions. The current Motor Carrier edition (CA 00 20 12 23) was not read.
+  - Individual Named Insured: CA 99 17 10 01. Lessor – Additional Insured And Loss Payee: CA 20 01 11 20.
 - **Not verified from primary form text.**
-  - Truckers (CA 00 12) and Motor Carrier (CA 00 20) form details and symbol numbers. The commonly cited ranges, 41–50 and 61–71, were NOT verified and are not used in questions.
-  - Individual Named Insured (CA 99 17), Lessor Additional Insured (CA 20 01) and Mobile Equipment endorsement wording. These are kept conceptual.
+  - Mobile Equipment endorsement (CA 20 15) wording: the facts and questions on it come from FC&S and Rough Notes summaries.
   - Miscellaneous Type Vehicle details come from FC&S and riskeducation.org summaries, not the form itself.
 - **49 CFR 387.33** (passenger carrier limits) shows an effective-date note that it was "suspended" Jan. 14, 2017 (a temporary 387.33T is in use). The amounts were not used in questions.

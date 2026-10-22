@@ -1,0 +1,20 @@
+{
+ "id": "L11",
+ "beats": 30,
+ "mismatches": [
+  {
+   "scene": 2,
+   "beat": 1,
+   "say": "H O four is for tenants: Coverages C and D only, no A or B.",
+   "heard": "HO4 is for tenants. Coverage is C and D only, no O or B.",
+   "wer": 0.231
+  },
+  {
+   "scene": 5,
+   "beat": 0,
+   "say": "Maya's Coverage C limit is sixty thousand dollars. She keeps nine thousand dollars of belongings at her own cottage up north, and a fire destroys them. What does her H O three pay?",
+   "heard": "Maya's coverage sea limit is $60,000. She keeps $9,000 of belongings at her own cottage up north, and a fire destroys them. What does her H-03 pay?",
+   "wer": 0.032
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": "L00",
+ "beats": 43,
+ "mismatches": [
+  {
+   "scene": 1,
+   "beat": 0,
+   "say": "Your exam, P S I Series sixteen eighty-one, has one hundred fifty scored items.",
+   "heard": "Your exam, PSI Series 1681, has 150 scored items.",
+   "wer": 0.308
+  },
+  {
+   "scene": 3,
+   "beat": 4,
+   "say": "The four smallest, Businessowners, Workers' Comp, Other Coverages and Dwelling, add up to twenty-seven items. Don't skip them.",
+   "heard": "The four smallest, business owners, workers comp, other coverages and dwelling, add up to 27 items. Do not skip them.",
+   "wer": 0.105
+  },
+  {
+   "scene": 6,
+   "beat": 2,
+   "say": "Watch for except and not. In an except item, three choices fit the stem. Pick the one that doesn't.",
+   "heard": "Watch for accept and not. In an accept item, three choices fit the stem. Pick the one that does not.",
+   "wer": 0.105
+  },
+  {
+   "scene": 8,
+   "beat": 0,
+   "say": "Your turn. Which of these IDs will get you into the exam? Pick an answer.",
+   "heard": "Your turn, which of these ID will get you into the exam? Pick an answer.",
+   "wer": 0.067
+  },
+  {
+   "scene": 9,
+   "beat": 0,
+   "say": "Now, your path to a license. Finish prelicensing education first, or your exam results are invalidated: forty hours for combined property and casualty.",
+   "heard": "Now, your path to a license. Finish pre-licensing education first or your exam results are invalidated. 40 hours for combined property and casualty.",
+   "wer": 0.091
+  },
+  {
+   "scene": 10,
+   "beat": 1,
+   "say": "One hundred eighty days. After that, you need a new application and fee. Twelve months is your course certificate, not your application.",
+   "heard": "After that, you need a new application and fee. Twelve months is your course certificate, not your application.",
+   "wer": 0.19
+  },
+  {
+   "scene": 11,
+   "beat": 0,
+   "say": "Last, this app. Each day, do Start today's session first. Misses come back next session, and right answers after growing gaps. Then add new material, roughly by weight.",
+   "heard": "Last this app, each day do start today's session first. Misses come back next session and write answers after growing gaps. Then add new material roughly by weight.",
+   "wer": 0.037
+  }
+ ]
+}

@@ -1,0 +1,508 @@
+{
+ "id": "L18",
+ "sec": "cpp",
+ "guide": "cpp",
+ "title": "The commercial package and the CGL",
+ "summary": "How a commercial package policy is built, what CGL Coverages A, B and C pay, its limits, and how claims-made triggers and tails work.",
+ "objectives": [
+  "Name the building blocks of a commercial package policy",
+  "Match CGL Coverages A, B and C to what they pay and how they trigger",
+  "Place a claim in the general or the products-completed operations aggregate",
+  "Apply the claims-made retroactive date and the basic and supplemental tails"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "The commercial package and the CGL",
+   "subtitle": "How a package policy is built, and how commercial general liability pays",
+   "icon": "building-2",
+   "beats": [
+    {
+     "text": "Commercial package policy questions are 12% of your exam, about 18 items.",
+     "say": "Commercial package policy questions are twelve percent of your exam, about eighteen items."
+    },
+    {
+     "text": "In this lesson: package basics, the three CGL coverages, limits, and claims-made.",
+     "say": "In this lesson: package basics, the three C G L coverages, limits, and claims-made."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "What's in a commercial package",
+   "src": "IRMI glossary 'commercial package policy'; ISO IL 00 17 11 98; ISO IL DS 00 09 08; ISO IL 04 15 04 98",
+   "items": [
+    {
+     "label": "Common Policy Declarations",
+     "detail": "Named insured, policy period, coverage parts and premiums",
+     "icon": "file-text"
+    },
+    {
+     "label": "Common Policy Conditions",
+     "detail": "Six conditions that apply to every coverage part",
+     "icon": "clipboard-list"
+    },
+    {
+     "label": "Interline endorsements",
+     "detail": "Modify more than one coverage part",
+     "icon": "layers"
+    },
+    {
+     "label": "Coverage parts",
+     "detail": "One part is monoline; two or more make a package",
+     "icon": "package"
+    }
+   ],
+   "beats": [
+    {
+     "text": "A commercial package policy gives a business property and liability coverage in one policy. It opens with the Common Policy Declarations.",
+     "say": "A commercial package policy gives a business property and liability coverage in one policy. It opens with the Common Policy Declarations.",
+     "show": 1
+    },
+    {
+     "text": "Next, the Common Policy Conditions. These six conditions apply to every coverage part.",
+     "say": "Next, the Common Policy Conditions. These six conditions apply to every coverage part.",
+     "show": 2
+    },
+    {
+     "text": "Interline endorsements modify more than one coverage part. Protective Safeguards, for one, modifies both commercial property and farm.",
+     "say": "Interline endorsements modify more than one coverage part. Protective Safeguards, for one, modifies both commercial property and farm.",
+     "show": 3
+    },
+    {
+     "text": "Then the coverage parts. One part is monoline; two or more make a package.",
+     "say": "Then the coverage parts. One part is monoline; two or more make a package.",
+     "show": 4,
+     "hl": 3
+    }
+   ]
+  },
+  {
+   "type": "bignum",
+   "title": "Common Policy Conditions: the numbers",
+   "src": "ISO IL 00 17 11 98, A-F; state amendatory endorsements can change the notice periods",
+   "items": [
+    {
+     "value": "10 days",
+     "label": "Insurer's cancellation notice for nonpayment"
+    },
+    {
+     "value": "30 days",
+     "label": "Insurer's cancellation notice, any other reason"
+    },
+    {
+     "value": "3 years",
+     "label": "Books and records audit after the policy"
+    }
+   ],
+   "beats": [
+    {
+     "text": "The six: cancellation, changes, examination of books, inspections, premiums, and transfer of rights.",
+     "say": "The six: cancellation, changes, examination of books, inspections, premiums, and transfer of rights.",
+     "show": 0
+    },
+    {
+     "text": "To cancel, the insurer gives 10 days' notice for nonpayment and 30 days for other reasons, under the 1998 form. State amendatory endorsements can change that.",
+     "say": "To cancel, the insurer gives ten days' notice for nonpayment and thirty days for other reasons, under the nineteen ninety-eight form. State amendatory endorsements can change that.",
+     "show": 2
+    },
+    {
+     "text": "The insurer may audit your books up to 3 years after the policy. And watch out: vacancy is not one of the six. It's a property loss condition.",
+     "say": "The insurer may audit your books up to three years after the policy. And watch out: vacancy is not one of the six. It's a property loss condition.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "title": "CGL Coverages A, B and C",
+   "src": "ISO CG 00 01 04 13, Sec. I Cov. A 1.a-b, Cov. B 1.b, Cov. C 1.a-b; Sec. V def. 13",
+   "columns": [
+    "Coverage",
+    "Pays",
+    "Trigger or rule"
+   ],
+   "items": [
+    [
+     "A: Bodily injury, property damage",
+     "Damages owed, plus defense",
+     "Occurrence; injury during policy period"
+    ],
+    [
+     "B: Personal and advertising injury",
+     "Damages for listed offenses",
+     "Offense during the policy period"
+    ],
+    [
+     "C: Medical payments",
+     "Medical expenses from accidents",
+     "No fault needed; within 1 year"
+    ]
+   ],
+   "beats": [
+    {
+     "text": "Now the CGL, 2013 edition. Coverage A pays bodily injury and property damage the insured legally owes, plus defense.",
+     "say": "Now the C G L, twenty thirteen edition. Coverage A pays bodily injury and property damage the insured legally owes, plus defense.",
+     "show": 1
+    },
+    {
+     "text": "Its trigger is an occurrence, an accident, that causes injury during the policy period.",
+     "say": "Its trigger is an occurrence, an accident, that causes injury during the policy period.",
+     "show": 1,
+     "hl": 0
+    },
+    {
+     "text": "Coverage B pays personal and advertising injury. It's triggered by an offense committed during the policy period.",
+     "say": "Coverage B pays personal and advertising injury. It's triggered by an offense committed during the policy period.",
+     "show": 2
+    },
+    {
+     "text": "Coverage C pays medical expenses for accidents on your premises or from your operations, regardless of fault. Expenses must be incurred and reported within 1 year of the accident.",
+     "say": "Coverage C pays medical expenses for accidents on your premises or from your operations, regardless of fault. Expenses must be incurred and reported within one year of the accident.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Coverage B: the four Ps",
+   "src": "Hook mn-mn_comm-03; ISO CG 00 01 04 13, Sec. V def. 14",
+   "hook": "Coverage B's four Ps: Police, Property, Publication, Promotion.",
+   "mn": "mn-mn_comm-03",
+   "items": [
+    "Police: false arrest, detention or imprisonment; malicious prosecution",
+    "Property: wrongful eviction, wrongful entry, invasion of private occupancy",
+    "Publication: slander, libel, disparagement; violating a right of privacy",
+    "Promotion: using another's ad idea; copyright, trade dress or slogan in your ad"
+   ],
+   "beats": [
+    {
+     "text": "Remember the Coverage B offenses with four Ps: Police, Property, Publication, Promotion.",
+     "say": "Remember the Coverage B offenses with four Ps: Police, Property, Publication, Promotion.",
+     "show": 0
+    },
+    {
+     "text": "Police is false arrest and malicious prosecution. Property is wrongful eviction or entry.",
+     "say": "Police is false arrest and malicious prosecution. Property is wrongful eviction or entry.",
+     "show": 2
+    },
+    {
+     "text": "Publication is slander, libel and privacy. Promotion is advertising offenses. Watch out: injury from a defective product is Coverage A, not B.",
+     "say": "Publication is slander, libel and privacy. Promotion is advertising offenses. Watch out: injury from a defective product is Coverage A, not B.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "Supplementary payments ride on top",
+   "src": "ISO CG 00 01 04 13, Supplementary Payments - Coverages A and B, 1.a-g",
+   "items": [
+    {
+     "label": "Paid on top of the limits",
+     "detail": "These payments will not reduce the limits",
+     "icon": "layers"
+    },
+    {
+     "label": "Bail bonds up to $250",
+     "icon": "banknote"
+    },
+    {
+     "label": "Lost earnings up to $250 a day",
+     "icon": "calendar"
+    },
+    {
+     "label": "Court costs, not attorney fees",
+     "detail": "As taxed against the insured",
+     "icon": "gavel"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Supplementary payments apply to Coverages A and B, and they're paid on top of the limits.",
+     "say": "Supplementary payments apply to Coverages A and B, and they're paid on top of the limits.",
+     "show": 1
+    },
+    {
+     "text": "They include up to $250 for bail bonds, and up to $250 a day for the insured's lost earnings while helping the defense.",
+     "say": "They include up to two hundred fifty dollars for bail bonds, and up to two hundred fifty dollars a day for the insured's lost earnings while helping the defense.",
+     "show": 3
+    },
+    {
+     "text": "Court costs taxed against the insured are paid. Attorney fees taxed against the insured are not. The exam likes that trap.",
+     "say": "Court costs taxed against the insured are paid. Attorney fees taxed against the insured are not. The exam likes that trap.",
+     "show": 4,
+     "hl": 3
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Two aggregate limits",
+   "src": "ISO CG 00 01 04 13, Sec. III 2-5; Sec. V def. 16.a",
+   "columns": [
+    {
+     "name": "General Aggregate",
+     "icon": "layers",
+     "points": [
+      "Coverage A, except products-completed operations",
+      "All of Coverage B",
+      "All of Coverage C"
+     ]
+    },
+    {
+     "name": "Products-Completed Ops Aggregate",
+     "icon": "package",
+     "points": [
+      "Coverage A only",
+      "Injury from your product or finished work",
+      "Away from premises you own or rent"
+     ]
+    }
+   ],
+   "tell": "Your product or finished work, away from your premises: products-completed operations. Work in progress: general aggregate.",
+   "beats": [
+    {
+     "text": "CGL limits work like two buckets. The general aggregate holds Coverage A, except products and completed operations, plus all of Coverages B and C.",
+     "say": "C G L limits work like two buckets. The general aggregate holds Coverage A, except products and completed operations, plus all of Coverages B and C.",
+     "show": 1
+    },
+    {
+     "text": "The products-completed operations aggregate holds only Coverage A injury or damage from your product or finished work, away from premises you own or rent.",
+     "say": "The products-completed operations aggregate holds only Coverage A injury or damage from your product or finished work, away from premises you own or rent.",
+     "show": 2
+    },
+    {
+     "text": "Work in progress isn't completed operations. And the each occurrence limit caps A plus C from one occurrence.",
+     "say": "Work in progress isn't completed operations. And the each occurrence limit caps A plus C from one occurrence.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A contractor's crew drops a board while still framing a house, injuring a passerby. Under the 2013 ISO CGL, which aggregate limit does this claim count against?",
+   "choices": [
+    "The General Aggregate",
+    "The Products-Completed Operations Aggregate",
+    "Neither; it's paid on top of the limits"
+   ],
+   "answer": 0,
+   "why": "Work still in progress is a premises and operations exposure, not completed operations, so its Coverage A damages count in the General Aggregate.",
+   "beats": [
+    {
+     "text": "Your turn. A crew drops a board while still framing a house and hurts a passerby. Which aggregate does this claim count against? Pick an answer.",
+     "say": "Your turn. A crew drops a board while still framing a house and hurts a passerby. Which aggregate does this claim count against? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The General Aggregate. The framing wasn't finished, so this is premises and operations, not completed operations.",
+     "say": "The General Aggregate. The framing wasn't finished, so this is premises and operations, not completed operations."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Occurrence vs claims-made",
+   "src": "ISO CG 00 01 04 13, Cov. A 1.b; CG 00 02 04 13 as described by FC&S (2014) and Austin and Stanovich (2012)",
+   "columns": [
+    {
+     "name": "Occurrence form",
+     "icon": "calendar",
+     "points": [
+      "Trigger: injury occurs during the policy period",
+      "The claim can come years later",
+      "No retroactive date, no tail needed"
+     ]
+    },
+    {
+     "name": "Claims-made form",
+     "icon": "file-signature",
+     "points": [
+      "Trigger: claim first made during the policy period",
+      "Injury after the retroactive date",
+      "Injury before the policy period ends"
+     ]
+    }
+   ],
+   "tell": "Find the trigger date: when the injury happened, or when the claim was first made.",
+   "beats": [
+    {
+     "text": "The occurrence form is triggered by injury during the policy period, even if the claim comes years later.",
+     "say": "The occurrence form is triggered by injury during the policy period, even if the claim comes years later.",
+     "show": 1
+    },
+    {
+     "text": "The claims-made form is triggered by a claim first made during the policy period, for injury after the retroactive date and before the policy ends.",
+     "say": "The claims-made form is triggered by a claim first made during the policy period, for injury after the retroactive date and before the policy ends.",
+     "show": 2
+    },
+    {
+     "text": "So find the trigger date: when the injury happened, or when the claim was first made.",
+     "say": "So find the trigger date: when the injury happened, or when the claim was first made.",
+     "show": 2,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "Claims-made: check both gates",
+   "src": "CG 00 02 04 13 as described by FC&S (2014) and Austin and Stanovich (2012)",
+   "icon": "calendar",
+   "story": "A Lansing caterer has a claims-made CGL from January 1, 2026, to January 1, 2027, with a retroactive date of January 1, 2024. A guest was injured at a 2023 event and first makes a claim in May 2026.",
+   "items": [
+    {
+     "label": "Claim first made during the policy?",
+     "detail": "Yes. May 2026 is inside the policy period."
+    },
+    {
+     "label": "Injury after the retroactive date?",
+     "detail": "No. The 2023 injury came before January 1, 2024."
+    }
+   ],
+   "answer": "Not covered. Injury before the retro date isn't covered, even when the claim is made during the policy period.",
+   "beats": [
+    {
+     "text": "Let's apply it. A Lansing caterer has a claims-made CGL from January 1, 2026, to January 1, 2027, with a retroactive date of January 1, 2024.",
+     "say": "Let's apply it. A Lansing caterer has a claims-made C G L from January first, twenty twenty-six, to January first, twenty twenty-seven, with a retroactive date of January first, twenty twenty-four.",
+     "show": 0
+    },
+    {
+     "text": "A guest was injured at a 2023 event and first makes a claim in May 2026. Is it covered?",
+     "say": "A guest was injured at a twenty twenty-three event and first makes a claim in May twenty twenty-six. Is it covered?",
+     "show": 0
+    },
+    {
+     "text": "First, the claim gate: was the claim first made during the policy period? Yes.",
+     "say": "First, the claim gate: was the claim first made during the policy period? Yes.",
+     "show": 1
+    },
+    {
+     "text": "Then the injury gate: was the injury after the retroactive date? No. So no coverage, even though the claim came during the policy.",
+     "say": "Then the injury gate: was the injury after the retroactive date? No. So no coverage, even though the claim came during the policy.",
+     "show": 2,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "timeline",
+   "title": "Claims-made tails: basic vs supplemental",
+   "src": "CG 00 02 04 13 as described by FC&S (2014) and Austin and Stanovich (2012); form text not seen",
+   "items": [
+    {
+     "at": "Policy ends",
+     "label": "Basic tail starts, automatic and free"
+    },
+    {
+     "at": "60 days",
+     "label": "Basic tail for unreported occurrences",
+     "detail": "Also the deadline to request the supplemental tail in writing"
+    },
+    {
+     "at": "5 years",
+     "label": "Basic tail for reported occurrences",
+     "detail": "Occurrence reported to the insurer within 60 days after the policy ends"
+    },
+    {
+     "at": "Unlimited",
+     "label": "Supplemental tail, if bought",
+     "detail": "Premium up to 200% of the annual premium; reinstates aggregate limits"
+    }
+   ],
+   "beats": [
+    {
+     "text": "When a claims-made policy is canceled or nonrenewed, a basic extended reporting period, or tail, starts automatically at no charge.",
+     "say": "When a claims-made policy is canceled or nonrenewed, a basic extended reporting period, or tail, starts automatically at no charge.",
+     "show": 1
+    },
+    {
+     "text": "It gives just 60 days for claims from occurrences you never reported.",
+     "say": "It gives just sixty days for claims from occurrences you never reported.",
+     "show": 2
+    },
+    {
+     "text": "But for occurrences you reported to the insurer within 60 days after the policy ended, claims can come up to 5 years later.",
+     "say": "But for occurrences you reported to the insurer within sixty days after the policy ended, claims can come up to five years later.",
+     "show": 3
+    },
+    {
+     "text": "The supplemental tail is optional. Request it in writing within 60 days. It costs up to 200% of the annual premium, has no time limit, and reinstates the aggregates. Neither tail covers injury after the policy ends.",
+     "say": "The supplemental tail is optional. Request it in writing within sixty days. It costs up to two hundred percent of the annual premium, has no time limit, and reinstates the aggregates. Neither tail covers injury after the policy ends.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "A claims-made CGL ends without renewal. Twenty days later, the insured reports an occurrence from the policy period (after the retro date). With no supplemental tail, a claim may be made up to:",
+   "choices": [
+    "60 days after the policy ends",
+    "1 year after the policy ends",
+    "5 years after the policy ends",
+    "Any time, with no limit"
+   ],
+   "answer": 2,
+   "why": "The basic tail gives 5 years for claims from occurrences reported within 60 days after the policy ends. Only the supplemental tail has unlimited duration.",
+   "beats": [
+    {
+     "text": "One more. A claims-made CGL isn't renewed. Twenty days later, the insured reports an occurrence from the policy period. With no supplemental tail, how long can a claim still be made? Pick an answer.",
+     "say": "One more. A claims-made C G L isn't renewed. Twenty days later, the insured reports an occurrence from the policy period. With no supplemental tail, how long can a claim still be made? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Five years. It was reported within 60 days after the policy ended, so the free basic tail runs 5 years.",
+     "say": "Five years. It was reported within sixty days after the policy ended, so the free basic tail runs five years."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "title": "Key takeaways",
+   "items": [
+    "Package: common declarations and conditions plus 2 or more parts",
+    "CGL A is BI and PD, B is offenses, C is med pay within 1 year",
+    "Supplementary payments sit on top of limits: $250 bail, $250 a day",
+    "Products-completed operations has its own aggregate",
+    "Claims-made: check the retro date; basic tail is 60 days or 5 years"
+   ],
+   "beats": [
+    {
+     "text": "Let's recap. A package is common declarations and conditions plus two or more coverage parts. A is bodily injury and property damage, B is offenses, C is medical payments.",
+     "say": "Let's recap. A package is common declarations and conditions plus two or more coverage parts. A is bodily injury and property damage, B is offenses, C is medical payments.",
+     "show": 2
+    },
+    {
+     "text": "Supplementary payments sit on top of limits. Completed operations has its own aggregate. And on claims-made forms, check the retro date and the tails.",
+     "say": "Supplementary payments sit on top of limits. Completed operations has its own aggregate. And on claims-made forms, check the retro date and the tails.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "comm-003",
+  "comm-005",
+  "comm-008",
+  "comm-015",
+  "comm-016"
+ ],
+ "hooks": [
+  "mn-mn_comm-03"
+ ],
+ "sources": [
+  "ISO IL 00 17 11 98",
+  "ISO IL DS 00 09 08",
+  "ISO IL 04 15 04 98",
+  "IRMI glossary 'commercial package policy'",
+  "ISO CG 00 01 04 13",
+  "ISO CG 00 02 04 13 (as described by FC&S 'Claims-Made CGL Form', 2014)",
+  "Austin and Stanovich, 'The Claims-Made CGL Policy' (2012)",
+  "PSI Series 16-81 content outline",
+  "Memory hook mn-mn_comm-03"
+ ]
+}

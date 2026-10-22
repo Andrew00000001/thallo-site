@@ -1,0 +1,468 @@
+{
+  "id": "L04",
+  "sec": "gen",
+  "guide": "gen",
+  "title": "Agency and contract law",
+  "summary": "Who a producer represents, the three kinds of authority, what makes a contract valid, and the doctrines courts use to read a policy.",
+  "objectives": [
+    "Tell express, implied and apparent authority apart",
+    "Name the elements of a legal contract, with Michigan's rules",
+    "Recognize adhesion, aleatory, conditional, unilateral and personal contracts",
+    "Separate representation, warranty, concealment, fraud, waiver and estoppel"
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Agency and contract law",
+      "subtitle": "Who the producer works for, and the legal rules inside every policy",
+      "icon": "scale",
+      "beats": [
+        {
+          "text": "This lesson covers agency and contract law.",
+          "say": "This lesson covers agency and contract law."
+        },
+        {
+          "text": "You'll learn who a producer represents, what makes a contract valid, and how courts read a policy.",
+          "say": "You'll learn who a producer represents, what makes a contract valid, and how courts read a policy."
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "Michigan: who the producer represents",
+      "src": "MCL 500.1201(b), (c), (h); MCL 500.1207(1), (2)",
+      "items": [
+        {
+          "label": "Agent of the insurer",
+          "detail": "Sells, solicits or negotiates as the insurer's representative",
+          "icon": "building-2"
+        },
+        {
+          "label": "Agent of the insured",
+          "detail": "Not appointed by the insurer writing the policy; represents the insured",
+          "icon": "user"
+        },
+        {
+          "label": "A license is not authority",
+          "detail": "A license alone creates no authority to commit an insurer",
+          "icon": "badge-check"
+        },
+        {
+          "label": "Fiduciary for premiums",
+          "detail": "Premiums go in a separate account, apart from the agent's own money",
+          "icon": "piggy-bank"
+        }
+      ],
+      "beats": [
+        {
+          "text": "In Michigan, an agent of the insurer sells, solicits or negotiates as the insurer's representative.",
+          "say": "In Michigan, an agent of the insurer sells, solicits or negotiates as the insurer's representative.",
+          "show": 1
+        },
+        {
+          "text": "A producer not appointed by the insurer writing the policy is an agent of the insured, and represents the insured.",
+          "say": "A producer not appointed by the insurer writing the policy is an agent of the insured, and represents the insured.",
+          "show": 2
+        },
+        {
+          "text": "A license by itself creates no authority to commit an insurer.",
+          "say": "A license by itself creates no authority to commit an insurer.",
+          "show": 3
+        },
+        {
+          "text": "And an agent is a fiduciary for money received as agent: premiums go in a separate account, apart from the agent's own money.",
+          "say": "And an agent is a fiduciary for money received as agent: premiums go in a separate account, apart from the agent's own money.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Three kinds of authority",
+      "src": "IRMI glossary: express authority; implied authority; apparent agency; Cornell LII Wex: express authority",
+      "mn": "mn-mn_core-05",
+      "hook": "Express is Explained, Implied is Inferred, Apparent is how it Appears.",
+      "items": [
+        "Express: spelled out by the insurer, orally or in writing",
+        "Implied: not stated, but reasonably necessary to do the granted job",
+        "Apparent: what a reasonable person would assume from the insurer's conduct"
+      ],
+      "beats": [
+        {
+          "text": "Authority comes in three kinds. Express is Explained, Implied is Inferred, Apparent is how it Appears.",
+          "say": "Authority comes in three kinds. Express is Explained, Implied is Inferred, Apparent is how it Appears.",
+          "show": 0
+        },
+        {
+          "text": "Express authority is spelled out by the insurer, orally or in writing, like the powers in the agency contract.",
+          "say": "Express authority is spelled out by the insurer, orally or in writing, like the powers in the agency contract.",
+          "show": 1
+        },
+        {
+          "text": "Implied authority isn't stated, but it's reasonably necessary to do the job you were given.",
+          "say": "Implied authority isn't stated, but it's reasonably necessary to do the job you were given.",
+          "show": 2
+        },
+        {
+          "text": "Apparent authority is what a reasonable person would assume you have from the insurer's conduct. It's tied to estoppel.",
+          "say": "Apparent authority is what a reasonable person would assume you have from the insurer's conduct. It's tied to estoppel.",
+          "show": 3
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "title": "The agent who kept the binders",
+      "src": "IRMI glossary: apparent agency; express authority; question core-012",
+      "icon": "file-signature",
+      "story": "An insurer ends an agent's binding authority but leaves him its signs and blank binder forms. A customer who reasonably believes he can still bind buys a binder from him.",
+      "items": [
+        {
+          "label": "Express authority?",
+          "detail": "No. The insurer withdrew it"
+        },
+        {
+          "label": "What did the customer see?",
+          "detail": "The insurer's signs and binder forms, left in place"
+        },
+        {
+          "label": "Was the belief reasonable?",
+          "detail": "Yes, based on the insurer's own conduct"
+        }
+      ],
+      "answer": "Apparent authority. The insurer may be estopped from denying it.",
+      "beats": [
+        {
+          "text": "Here's a story. An insurer ends an agent's binding authority but leaves him its signs and blank binders. A customer buys a binder. What authority is that?",
+          "say": "Here's a story. An insurer ends an agent's binding authority but leaves him its signs and blank binders. A customer buys a binder. What authority is that?",
+          "show": 0
+        },
+        {
+          "text": "Not express. The insurer withdrew it. But the customer saw the insurer's signs and forms, and reasonably believed he could bind.",
+          "say": "Not express. The insurer withdrew it. But the customer saw the insurer's signs and forms, and reasonably believed he could bind.",
+          "show": 3
+        },
+        {
+          "text": "That's apparent authority. Because of its own conduct, the insurer may be estopped from denying it.",
+          "say": "That's apparent authority. Because of its own conduct, the insurer may be estopped from denying it.",
+          "show": 3,
+          "answer": true
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "An agent's contract lets her sell auto policies but never mentions giving customers ID cards, a step reasonably necessary to complete the sale. Her authority to hand out ID cards is:",
+      "choices": [
+        "Express authority",
+        "Implied authority",
+        "Apparent authority"
+      ],
+      "answer": 1,
+      "why": "It isn't spelled out, so it isn't express. It's reasonably necessary to do the job she was given, so it's implied.",
+      "beats": [
+        {
+          "text": "Your turn. An agent may sell auto policies, but her contract never mentions handing out ID cards, a step she needs to finish the sale. What authority covers the ID cards? Pick an answer.",
+          "say": "Your turn. An agent may sell auto policies, but her contract never mentions handing out ID cards, a step she needs to finish the sale. What authority covers the ID cards? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "Implied authority. It isn't written down, but it's reasonably necessary to carry out what she was expressly allowed to do.",
+          "say": "Implied authority. It isn't written down, but it's reasonably necessary to carry out what she was expressly allowed to do."
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Elements of a legal contract",
+      "src": "AFT Michigan v Michigan (2015); Gorham v Peerless Life (1962); MCL 722.52(1); ISO HO 00 03 05 11, Agreement",
+      "mn": "mn-mn_core-06",
+      "hook": "Our Agent Collects Cash Legally: Offer, Acceptance, Consideration, Competent parties, Legal purpose.",
+      "items": [
+        "Offer and acceptance: the application offers; a policy or binder accepts",
+        "Consideration: premium plus compliance, for the insurer's promise to pay",
+        "Competent parties: legal age and mental capacity; 18 in Michigan",
+        "Legal purpose: contracts for acts a statute prohibits are void or unenforceable"
+      ],
+      "beats": [
+        {
+          "text": "Now, contracts. Our Agent Collects Cash Legally: Offer, Acceptance, Consideration, Competent parties, Legal purpose.",
+          "say": "Now, contracts. Our Agent Collects Cash Legally: Offer, Acceptance, Consideration, Competent parties, Legal purpose.",
+          "show": 0
+        },
+        {
+          "text": "In Michigan, the application is a mere offer, and the insurer's silence generally isn't acceptance. The insurer accepts by issuing the policy or a binder.",
+          "say": "In Michigan, the application is a mere offer, and the insurer's silence generally isn't acceptance. The insurer accepts by issuing the policy or a binder.",
+          "show": 1
+        },
+        {
+          "text": "The insured's consideration is the premium plus compliance with the policy. The insurer's is its promise to pay. Don't flip them.",
+          "say": "The insured's consideration is the premium plus compliance with the policy. The insurer's is its promise to pay. Don't flip them.",
+          "show": 2
+        },
+        {
+          "text": "Competent parties have legal age and the mental capacity to understand the contract. In Michigan, legal age is 18.",
+          "say": "Competent parties have legal age and the mental capacity to understand the contract. In Michigan, legal age is eighteen.",
+          "show": 3
+        },
+        {
+          "text": "And the purpose must be legal. A policy insuring a shipment of illegal drugs is unenforceable.",
+          "say": "And the purpose must be legal. A policy insuring a shipment of illegal drugs is unenforceable.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "What makes insurance contracts different",
+      "src": "IRMI glossary: adhesion; aleatory; unilateral; ISO HO 00 03 05 11, Sec. I Cond. C; Secs. I and II Cond. E",
+      "mn": "mn-mn_core-07",
+      "hook": "Every policy is served in A CUP, A: Adhesion, Conditional, Unilateral, Personal, Aleatory.",
+      "items": [
+        "Adhesion: the insurer drafts it; take it or leave it",
+        "Conditional: payment depends on the insured meeting conditions",
+        "Unilateral: only the insurer promises. Personal: no assignment without consent",
+        "Aleatory: an unequal exchange that depends on an uncertain event"
+      ],
+      "beats": [
+        {
+          "text": "Insurance contracts have five traits. Every policy is served in A CUP, A.",
+          "say": "Insurance contracts have five traits. Every policy is served in A CUP, A.",
+          "show": 0
+        },
+        {
+          "text": "Adhesion: the insurer drafts it; you take it or leave it. So ambiguities are read against the insurer.",
+          "say": "Adhesion: the insurer drafts it; you take it or leave it. So ambiguities are read against the insurer.",
+          "show": 1
+        },
+        {
+          "text": "Conditional: the insurer's duty to pay depends on you meeting conditions, like your duties after a loss.",
+          "say": "Conditional: the insurer's duty to pay depends on you meeting conditions, like your duties after a loss.",
+          "show": 2
+        },
+        {
+          "text": "Unilateral: only the insurer makes enforceable promises. Personal: it insures you, not the property, so assignment needs the insurer's written consent.",
+          "say": "Unilateral: only the insurer makes enforceable promises. Personal: it insures you, not the property, so assignment needs the insurer's written consent.",
+          "show": 3
+        },
+        {
+          "text": "Aleatory: an unequal exchange that depends on an uncertain event. Don't confuse it with adhesion, which is about who wrote it.",
+          "say": "Aleatory: an unequal exchange that depends on an uncertain event. Don't confuse it with adhesion, which is about who wrote it.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "One insured pays premiums for ten years and never has a claim. Another pays for one month and collects a large loss. This unequal exchange shows that an insurance policy is:",
+      "choices": [
+        "A contract of adhesion",
+        "An aleatory contract",
+        "A unilateral contract",
+        "A personal contract"
+      ],
+      "answer": 1,
+      "why": "Aleatory means an unequal exchange of value that depends on an uncertain event. Adhesion is about who drafted the policy.",
+      "beats": [
+        {
+          "text": "Check the two A's. One insured pays premiums for ten years with no claim. Another pays for one month and collects a large loss. Which trait is that? Pick an answer.",
+          "say": "Check the two A's. One insured pays premiums for ten years with no claim. Another pays for one month and collects a large loss. Which trait is that? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "Aleatory. The exchange is unequal and depends on an uncertain event. Adhesion would be about who drafted the policy.",
+          "say": "Aleatory. The exchange is unequal and depends on an uncertain event. Adhesion would be about who drafted the policy."
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "How courts read a policy",
+      "src": "IRMI glossary; Wilkie v Auto-Owners Ins Co, 469 Mich 41 (2003); National Alliance glossary: indemnity",
+      "items": [
+        {
+          "label": "Ambiguities",
+          "detail": "Construed against the insurer, the drafter",
+          "icon": "search"
+        },
+        {
+          "label": "Reasonable expectations",
+          "detail": "Some courts give the coverage an insured would reasonably expect. Michigan declined it",
+          "icon": "eye"
+        },
+        {
+          "label": "Indemnity",
+          "detail": "Restore the insured to the pre-loss position, without profit",
+          "icon": "scale"
+        },
+        {
+          "label": "Utmost good faith",
+          "detail": "Both parties presumed to disclose all pertinent facts",
+          "icon": "handshake"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Courts read policies with a few rules. Ambiguous wording is construed against the insurer, which drafted it.",
+          "say": "Courts read policies with a few rules. Ambiguous wording is construed against the insurer, which drafted it.",
+          "show": 1
+        },
+        {
+          "text": "Some courts apply the reasonable expectations doctrine, giving the coverage an insured would reasonably expect. Michigan declined to adopt it, but that's still its name.",
+          "say": "Some courts apply the reasonable expectations doctrine, giving the coverage an insured would reasonably expect. Michigan declined to adopt it, but that's still its name.",
+          "show": 2
+        },
+        {
+          "text": "Indemnity restores you to your position before the loss, without profit. Even with two policies, you can't collect more than the loss.",
+          "say": "Indemnity restores you to your position before the loss, without profit. Even with two policies, you can't collect more than the loss.",
+          "show": 3
+        },
+        {
+          "text": "And utmost good faith presumes both parties disclose all pertinent facts.",
+          "say": "And utmost good faith presumes both parties disclose all pertinent facts.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Four voices on an application",
+      "src": "IRMI glossary: representation; warranty; concealment; fraud; MCL 500.2218(1), (2)",
+      "mn": "mn-mn_core-08",
+      "hook": "Four voices on an application: 'To the best of my knowledge' (representation). 'I guarantee it' (warranty). 'You didn't ask' (concealment). 'Gotcha' (fraud).",
+      "items": [
+        "Representation: believed true. In Michigan, a false one voids only if material",
+        "Warranty: guaranteed true; voids the policy if untrue",
+        "Concealment: willfully withholding facts the insurer didn't ask about",
+        "Fraud: intent to deceive, unlike an innocent misstatement"
+      ],
+      "beats": [
+        {
+          "text": "Picture four voices on an application. To the best of my knowledge. I guarantee it. You didn't ask. Gotcha.",
+          "say": "Picture four voices on an application. To the best of my knowledge. I guarantee it. You didn't ask. Gotcha.",
+          "show": 0
+        },
+        {
+          "text": "A representation is believed true. In Michigan, a misrepresentation voids the policy only if it's material: the insurer would have refused the contract had it known.",
+          "say": "A representation is believed true. In Michigan, a misrepresentation voids the policy only if it's material: the insurer would have refused the contract had it known.",
+          "show": 1
+        },
+        {
+          "text": "A warranty is guaranteed true, and it voids the policy if it's untrue.",
+          "say": "A warranty is guaranteed true, and it voids the policy if it's untrue.",
+          "show": 2
+        },
+        {
+          "text": "Concealment is willfully holding back pertinent facts, even when the insurer didn't ask. Fraud means intent to deceive.",
+          "say": "Concealment is willfully holding back pertinent facts, even when the insurer didn't ask. Fraud means intent to deceive.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "An applicant knows his basement floods every spring but says nothing, because the application never asks about water. This is:",
+      "choices": [
+        "Representation",
+        "Warranty",
+        "Concealment",
+        "Waiver"
+      ],
+      "answer": 2,
+      "why": "Concealment is willfully holding back pertinent information even though the insurer did not ask. It can void the policy.",
+      "beats": [
+        {
+          "text": "Try this. An applicant knows his basement floods every spring, but says nothing because the application never asks about water. What is that? Pick an answer.",
+          "say": "Try this. An applicant knows his basement floods every spring, but says nothing because the application never asks about water. What is that? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "Concealment. He willfully held back a pertinent fact he wasn't asked about, and that can void the policy.",
+          "say": "Concealment. He willfully held back a pertinent fact he wasn't asked about, and that can void the policy."
+        }
+      ]
+    },
+    {
+      "type": "hook",
+      "title": "Waiver vs. estoppel",
+      "src": "IRMI glossary: waiver; estoppel; ISO HO 00 03 05 11 (2011 homeowners), Secs. I and II Cond. B",
+      "mn": "mn-mn_core-09",
+      "hook": "Waiver: you WAVE goodbye to a right on purpose. Estoppel: the law says STOP, you can't go back on conduct someone reasonably relied on.",
+      "items": [
+        "Waiver: the intentional, voluntary surrender of a known right",
+        "Estoppel: can't contradict earlier conduct someone reasonably relied on",
+        "An insurer that kept accepting late premiums may be estopped from canceling",
+        "2011 homeowners form: a waiver must be in writing by the insurer"
+      ],
+      "beats": [
+        {
+          "text": "Last pair. Waiver: you wave goodbye to a right on purpose. Estoppel: the law says stop, you can't go back on conduct someone reasonably relied on.",
+          "say": "Last pair. Waiver: you wave goodbye to a right on purpose. Estoppel: the law says stop, you can't go back on conduct someone reasonably relied on.",
+          "show": 2
+        },
+        {
+          "text": "If an insurer keeps accepting late premiums, it may be estopped from canceling for late payment.",
+          "say": "If an insurer keeps accepting late premiums, it may be estopped from canceling for late payment.",
+          "show": 3
+        },
+        {
+          "text": "Policies limit casual waivers. The 2011 homeowners form requires a waiver to be in writing by the insurer.",
+          "say": "Policies limit casual waivers. The twenty eleven homeowners form requires a waiver to be in writing by the insurer.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Michigan: not appointed by the insurer writing it? Insured's agent",
+        "Express is explained, implied inferred, apparent how it appears",
+        "Offer, acceptance, consideration, competent parties, legal purpose",
+        "A CUP, A: adhesion, conditional, unilateral, personal, aleatory",
+        "A warranty is guaranteed; concealment is silence on purpose"
+      ],
+      "beats": [
+        {
+          "text": "In Michigan, a producer not appointed by the insurer writing the policy represents the insured. Express is explained, implied inferred, apparent appears.",
+          "say": "In Michigan, a producer not appointed by the insurer writing the policy represents the insured. Express is explained, implied inferred, apparent appears.",
+          "show": 2
+        },
+        {
+          "text": "Contracts need offer, acceptance, consideration, competent parties and legal purpose. Policies come in A CUP, A. A warranty is guaranteed; concealment is silence on purpose.",
+          "say": "Contracts need offer, acceptance, consideration, competent parties and legal purpose. Policies come in A CUP, A. A warranty is guaranteed; concealment is silence on purpose.",
+          "show": 5
+        }
+      ]
+    }
+  ],
+  "check": [
+    "core-012",
+    "core-gen-18",
+    "core-016",
+    "core-018",
+    "core-019"
+  ],
+  "hooks": [
+    "mn-mn_core-05",
+    "mn-mn_core-06",
+    "mn-mn_core-07",
+    "mn-mn_core-08",
+    "mn-mn_core-09"
+  ],
+  "sources": [
+    "MCL 500.1201(b), (c), (h)",
+    "MCL 500.1207(1), (2)",
+    "MCL 500.2218(1), (2)",
+    "MCL 722.52(1)",
+    "AFT Michigan v Michigan, 497 Mich 197 (2015)",
+    "Gorham v Peerless Life Ins Co, 368 Mich 335 (1962)",
+    "Wilkie v Auto-Owners Ins Co, 469 Mich 41 (2003)",
+    "ISO HO 00 03 05 11 (2011 homeowners form)",
+    "IRMI glossary",
+    "National Alliance Research Academy insurance glossary",
+    "Cornell LII Wex"
+  ]
+}

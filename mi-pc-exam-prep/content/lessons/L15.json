@@ -1,0 +1,444 @@
+{
+  "id": "L15",
+  "sec": "auto",
+  "guide": "auto",
+  "title": "Michigan auto laws: limits, proof, cancellation, placement facility",
+  "summary": "Michigan's liability limits, who must carry no-fault and prove it, who pays PIP first, the placement facility, and Chapter 32 cancellation rules.",
+  "objectives": [
+    "Know Michigan's default and lowest liability limits, with their dates",
+    "Spot who must carry no-fault, and the penalties for skipping it",
+    "Find who pays PIP first, including in a short-term rental",
+    "Apply Chapter 32 cancellation and nonrenewal rules"
+  ],
+  "scenes": [
+    {
+      "type": "title",
+      "title": "Michigan auto laws",
+      "subtitle": "Limits, proof of insurance, who pays PIP, the placement facility, and cancellation",
+      "icon": "landmark",
+      "beats": [
+        {
+          "text": "Michigan auto law runs on exact rules: limits, deadlines and notice periods. Let's pin them down.",
+          "say": "Michigan auto law runs on exact rules: limits, deadlines and notice periods. Let's pin them down."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Michigan liability limits",
+      "src": "MCL 500.3009(1),(5)-(8); DIFS FIS-PUB 6310",
+      "columns": [
+        "Rule",
+        "BI per person",
+        "BI per accident",
+        "PD"
+      ],
+      "items": [
+        [
+          "Default, policies after July 1, 2020",
+          "$250,000",
+          "$500,000",
+          "$10,000"
+        ],
+        [
+          "Lowest you may elect, DIFS form",
+          "$50,000",
+          "$100,000",
+          "$10,000"
+        ],
+        [
+          "Before July 2, 2020",
+          "$20,000",
+          "$40,000",
+          "$10,000"
+        ]
+      ],
+      "beats": [
+        {
+          "text": "For policies issued after July 1, 2020, the default liability limits are $250,000 per person and $500,000 per accident for bodily injury, plus $10,000 for property damage.",
+          "say": "For policies issued after July first, twenty twenty, the default liability limits are two hundred fifty thousand dollars per person and five hundred thousand dollars per accident for bodily injury, plus ten thousand dollars for property damage.",
+          "show": 1
+        },
+        {
+          "text": "You may choose lower bodily injury limits, but never below $50,000 and $100,000, and only by completing the DIFS form that explains the risks. No effective choice? The defaults apply.",
+          "say": "You may choose lower bodily injury limits, but never below fifty thousand dollars and one hundred thousand dollars, and only by completing the D I F S form that explains the risks. No effective choice? The defaults apply.",
+          "show": 2
+        },
+        {
+          "text": "Before July 2, 2020, the minimums were $20,000, $40,000 and $10,000. Older materials may still show them, so watch the dates.",
+          "say": "Before July second, twenty twenty, the minimums were twenty thousand dollars, forty thousand dollars and ten thousand dollars. Older materials may still show them, so watch the dates.",
+          "show": 3
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "A Michigan auto policy is issued on March 1, 2026. The named insured never completes a form choosing lower limits. Which bodily injury limits apply?",
+      "choices": [
+        "$20,000 per person and $40,000 per accident",
+        "$50,000 per person and $100,000 per accident",
+        "$250,000 per person and $500,000 per accident"
+      ],
+      "answer": 2,
+      "why": "With no effective choice, the $250,000 and $500,000 limits apply. $50,000 and $100,000 is the lowest you may elect; $20,000 and $40,000 is the rule before July 2, 2020.",
+      "beats": [
+        {
+          "text": "Try this. A policy issued March 1, 2026, has no completed form choosing lower limits. Which bodily injury limits apply? Pick an answer.",
+          "say": "Try this. A policy issued March first, twenty twenty-six, has no completed form choosing lower limits. Which bodily injury limits apply? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "It's $250,000 per person and $500,000 per accident. Lower limits need the completed form, and the old limits ended in 2020.",
+          "say": "It's two hundred fifty thousand dollars per person and five hundred thousand dollars per accident. Lower limits need the completed form, and the old limits ended in twenty twenty."
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "Who must carry it, and proving it",
+      "src": "MCL 500.3101(1),(3)(l); 500.3102(1),(2); MCL 257.328(1),(6)",
+      "items": [
+        {
+          "label": "Owner or registrant: PIP, PPI, liability",
+          "detail": "Collision is optional",
+          "icon": "car"
+        },
+        {
+          "label": "Renting over 30 days makes you an owner",
+          "detail": "30 days or less: not an owner",
+          "icon": "key"
+        },
+        {
+          "label": "Nonresidents: 30 days per calendar year",
+          "detail": "Aggregate, in a car not registered in Michigan",
+          "icon": "map-pin"
+        },
+        {
+          "label": "Driving uninsured: misdemeanor",
+          "detail": "$200 to $500 fine, up to 1 year in jail, or both",
+          "icon": "siren"
+        },
+        {
+          "label": "No proof for an officer: civil infraction",
+          "detail": "Phone copy is fine. Knowingly false proof: misdemeanor",
+          "icon": "id-card"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Who must carry no-fault? The owner or registrant of a vehicle that must be registered in Michigan. Required: PIP and PPI, plus residual liability. Collision is optional.",
+          "say": "Who must carry no-fault? The owner or registrant of a vehicle that must be registered in Michigan. Required: P I P and P P I, plus residual liability. Collision is optional.",
+          "show": 1
+        },
+        {
+          "text": "An owner includes someone renting or using a vehicle for more than 30 days.",
+          "say": "An owner includes someone renting or using a vehicle for more than thirty days.",
+          "show": 2
+        },
+        {
+          "text": "A nonresident may drive a car not registered here for an aggregate of 30 days per calendar year without Michigan security.",
+          "say": "A nonresident may drive a car not registered here for an aggregate of thirty days per calendar year without Michigan security.",
+          "show": 3
+        },
+        {
+          "text": "Operating without the required security is a misdemeanor: a fine of $200 to $500, up to 1 year in jail, or both.",
+          "say": "Operating without the required security is a misdemeanor: a fine of two hundred dollars to five hundred dollars, up to one year in jail, or both.",
+          "show": 4
+        },
+        {
+          "text": "No proof when an officer asks? A civil infraction, and a phone copy counts. Knowingly showing false proof is a misdemeanor.",
+          "say": "No proof when an officer asks? A civil infraction, and a phone copy counts. Knowingly showing false proof is a misdemeanor.",
+          "show": 5
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "Special drivers and crash parts",
+      "src": "MCL 500.3009(2); 500.3113(d); MCL 257.518b; MCL 257.1363",
+      "items": [
+        {
+          "label": "Named excluded driver",
+          "detail": "All liability void while that person drives, and no PIP for them",
+          "icon": "ban"
+        },
+        {
+          "label": "Ride-share driver logged on, no ride",
+          "detail": "$50,000 and $100,000 BI, $25,000 PD, plus PIP and PPI",
+          "icon": "smartphone"
+        },
+        {
+          "label": "Ride-share during a prearranged ride",
+          "detail": "$1 million combined single limit, plus PIP and PPI",
+          "icon": "car-taxi-front"
+        },
+        {
+          "label": "Non-OEM crash parts",
+          "detail": "Written estimate names each part, with a 10-point bold notice",
+          "icon": "wrench"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Special rules. When a named excluded driver drives, all liability coverage is void. No one is insured, and that driver gets no PIP.",
+          "say": "Special rules. When a named excluded driver drives, all liability coverage is void. No one is insured, and that driver gets no P I P.",
+          "show": 1
+        },
+        {
+          "text": "Ride-share drivers logged on but not on a ride need at least $50,000 and $100,000 bodily injury and $25,000 property damage. During a prearranged ride: $1 million combined single limit.",
+          "say": "Ride-share drivers logged on but not on a ride need at least fifty thousand dollars and one hundred thousand dollars bodily injury and twenty-five thousand dollars property damage. During a prearranged ride: one million dollars combined single limit.",
+          "show": 3
+        },
+        {
+          "text": "If an insurer asks for non-OEM crash parts, the written estimate must identify each one, with a notice in at least 10-point bold type.",
+          "say": "If an insurer asks for non O E M crash parts, the written estimate must identify each one, with a notice in at least ten-point bold type.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "title": "Who pays PIP first?",
+      "src": "MCL 500.3114(1),(3),(4); 500.3115, as amended by 2019 PA 21",
+      "items": [
+        {
+          "label": "Employee in the employer's vehicle",
+          "detail": "The insurer of the furnished vehicle pays",
+          "icon": "briefcase"
+        },
+        {
+          "label": "Otherwise: own or household policy",
+          "detail": "Yours, your spouse's, or a resident relative's",
+          "icon": "house"
+        },
+        {
+          "label": "No own or household policy",
+          "detail": "Claim through the Michigan Assigned Claims Plan",
+          "icon": "landmark"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Now, who pays PIP first? One special case to know: an employee hurt in a vehicle owned or registered by the employer claims from that vehicle's insurer.",
+          "say": "Now, who pays P I P first? One special case to know: an employee hurt in a vehicle owned or registered by the employer claims from that vehicle's insurer.",
+          "show": 1
+        },
+        {
+          "text": "Otherwise, look to your own policy, or the policy of your spouse or a relative who lives with you.",
+          "say": "Otherwise, look to your own policy, or the policy of your spouse or a relative who lives with you.",
+          "show": 2
+        },
+        {
+          "text": "No own or household policy? Under the law as amended in 2019, an occupant or a pedestrian claims through the Michigan Assigned Claims Plan.",
+          "say": "No own or household policy? Under the law as amended in twenty nineteen, an occupant or a pedestrian claims through the Michigan Assigned Claims Plan.",
+          "show": 3
+        }
+      ]
+    },
+    {
+      "type": "scenario",
+      "title": "Hurt in a rental car",
+      "src": "MCL 500.3101(3)(l); 500.3105(2); 500.3114(1); MCL 257.401(3),(4)",
+      "icon": "key",
+      "story": "Lisa has her own Michigan no-fault policy. She rents a car for a one-week vacation in Michigan and is hurt in a crash.",
+      "items": [
+        {
+          "label": "Is Lisa an owner of the rental?",
+          "detail": "No. Renting for 30 days or less doesn't make you an owner"
+        },
+        {
+          "label": "Which policy comes first?",
+          "detail": "Her own policy, under the household rule"
+        }
+      ],
+      "answer": "Her own auto insurer pays her PIP first.",
+      "beats": [
+        {
+          "text": "Lisa has her own Michigan no-fault policy. She rents a car for a one-week Michigan vacation and is hurt in a crash. Who pays her PIP first?",
+          "say": "Lisa has her own Michigan no-fault policy. She rents a car for a one-week Michigan vacation and is hurt in a crash. Who pays her P I P first?",
+          "show": 0
+        },
+        {
+          "text": "Renting for 30 days or less doesn't make her an owner. So the household rule applies, and her own auto insurer pays first.",
+          "say": "Renting for thirty days or less doesn't make her an owner. So the household rule applies, and her own auto insurer pays first.",
+          "show": 2,
+          "answer": true
+        },
+        {
+          "text": "Another rental rule: for rentals of 30 days or less, a rental company that wasn't negligent is liable as owner only up to $20,000 per person and $40,000 per accident.",
+          "say": "Another rental rule: for rentals of thirty days or less, a rental company that wasn't negligent is liable as owner only up to twenty thousand dollars per person and forty thousand dollars per accident.",
+          "show": 2
+        }
+      ]
+    },
+    {
+      "type": "bullets",
+      "title": "The placement facility (MAIPF)",
+      "src": "MCL 500.3301; 500.3365(3); 500.3171(2); 500.3172(7); 500.3174",
+      "items": [
+        {
+          "label": "Every auto insurer must take part",
+          "icon": "users"
+        },
+        {
+          "label": "Guarantees coverage",
+          "detail": "For people who can't get it through ordinary methods",
+          "icon": "shield-check"
+        },
+        {
+          "label": "Yearly eligibility notice",
+          "detail": "Voluntary-market standards, at least once each year",
+          "icon": "mail"
+        },
+        {
+          "label": "Runs the Assigned Claims Plan",
+          "detail": "Notice within 1 year; medical generally capped at $250,000",
+          "icon": "landmark"
+        }
+      ],
+      "beats": [
+        {
+          "text": "The Assigned Claims Plan is run by the Michigan Automobile Insurance Placement Facility, the MAIPF. Every insurer authorized to write auto insurance here must take part.",
+          "say": "The Assigned Claims Plan is run by the Michigan Automobile Insurance Placement Facility, the M A I P F. Every insurer authorized to write auto insurance here must take part.",
+          "show": 1
+        },
+        {
+          "text": "It guarantees coverage for people who can't get it through ordinary methods.",
+          "say": "It guarantees coverage for people who can't get it through ordinary methods.",
+          "show": 2
+        },
+        {
+          "text": "At least once each year, facility insureds must be told the standards for buying in the voluntary market.",
+          "say": "At least once each year, facility insureds must be told the standards for buying in the voluntary market.",
+          "show": 3
+        },
+        {
+          "text": "Assigned Claims Plan claimants must notify the MAIPF within 1 year after the accident. Medical benefits there are generally capped at $250,000.",
+          "say": "Assigned Claims Plan claimants must notify the M A I P F within one year after the accident. Medical benefits there are generally capped at two hundred fifty thousand dollars.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Chapter 32: cancelling auto liability",
+      "src": "MCL 500.3204(2), 3208, 3212, 3220, 3224, 3230; MCL 500.2123",
+      "items": [
+        {
+          "at": "Days 1 to 55",
+          "label": "May cancel: risk unacceptable",
+          "detail": "This cancellation can't be appealed"
+        },
+        {
+          "at": "After day 55",
+          "label": "Only for a final license loss",
+          "detail": "Named insured, or a household or customary driver: suspended or revoked"
+        },
+        {
+          "at": "20 days ahead",
+          "label": "Cancellation: certified mail",
+          "detail": "Reasons, plus a bold notice: appeal within 7 days of mailing"
+        },
+        {
+          "at": "20 days ahead",
+          "label": "Nonrenewal: first-class mail",
+          "detail": "Mailed this way, it isn't a cancellation"
+        }
+      ],
+      "beats": [
+        {
+          "text": "Now Chapter 32 cancellation. In the first 55 days, the insurer may cancel because the risk is unacceptable, with no appeal.",
+          "say": "Now Chapter thirty-two cancellation. In the first fifty-five days, the insurer may cancel because the risk is unacceptable, with no appeal.",
+          "show": 1
+        },
+        {
+          "text": "After 55 days, or right away on a renewal, it may cancel only for a final license suspension or revocation of the named insured or a household or customary driver. Nonpayment falls outside Chapter 32.",
+          "say": "After fifty-five days, or right away on a renewal, it may cancel only for a final license suspension or revocation of the named insured or a household or customary driver. Nonpayment falls outside Chapter thirty-two.",
+          "show": 2
+        },
+        {
+          "text": "Notice goes by certified mail at least 20 days ahead, with reasons. It must say in bold that the insured may appeal within 7 days of mailing.",
+          "say": "Notice goes by certified mail at least twenty days ahead, with reasons. It must say in bold that the insured may appeal within seven days of mailing.",
+          "show": 3
+        },
+        {
+          "text": "Nonrenewal isn't a cancellation if notice goes by first-class mail at least 20 days before the policy ends. Cancel: certified. Nonrenew: normal first-class.",
+          "say": "Nonrenewal isn't a cancellation if notice goes by first-class mail at least twenty days before the policy ends. Cancel: certified. Nonrenew: normal first-class.",
+          "show": 4
+        },
+        {
+          "text": "Watch out: the Essential Insurance Act requires 30 days' notice, or 20 in the first 55. Check which statute the question names.",
+          "say": "Watch out: the Essential Insurance Act requires thirty days' notice, or twenty in the first fifty-five. Check which statute the question names.",
+          "show": 4
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "q": "Under Michigan's Chapter 32, a new auto policy has been in force for 90 days. For a reason other than nonpayment, the insurer may cancel it only if:",
+      "choices": [
+        "The insurer now judges the risk unacceptable",
+        "The insured has two at-fault accidents",
+        "A household driver's license was suspended this term, and it's final",
+        "The insured moves to another Michigan county"
+      ],
+      "answer": 2,
+      "why": "After 55 days, Chapter 32 allows cancellation only for a final license suspension or revocation of the named insured or a household or customary driver. Unacceptable risk: first 55 days only.",
+      "beats": [
+        {
+          "text": "Your turn. A new policy has been in force 90 days. Under Chapter 32, for a reason other than nonpayment, when may the insurer cancel? Pick an answer.",
+          "say": "Your turn. A new policy has been in force ninety days. Under Chapter thirty-two, for a reason other than nonpayment, when may the insurer cancel? Pick an answer."
+        }
+      ],
+      "reveal": [
+        {
+          "text": "The answer is a final license suspension of a household driver. Unacceptable risk only works in the first 55 days.",
+          "say": "The answer is a final license suspension of a household driver. Unacceptable risk only works in the first fifty-five days."
+        }
+      ]
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Default $250,000, $500,000, $10,000; lowest elected $50,000, $100,000",
+        "Owner includes a renter over 30 days; uninsured driving: misdemeanor",
+        "PIP: employer car, then own or household policy, then the MACP",
+        "MAIPF guarantees coverage and runs the Assigned Claims Plan",
+        "Chapter 32: 55-day window, 20 days certified, appeal within 7 days"
+      ],
+      "beats": [
+        {
+          "text": "Let's recap the key rules on screen. Pause here if you want to review them.",
+          "say": "Let's recap the key rules on screen. Pause here if you want to review them.",
+          "show": 5
+        }
+      ]
+    }
+  ],
+  "check": [
+    "auto-001",
+    "auto-008",
+    "auto-042",
+    "auto-043",
+    "auto-047"
+  ],
+  "hooks": [],
+  "sources": [
+    "MCL 500.3009(1),(2),(5)-(8)",
+    "DIFS FIS-PUB 6310",
+    "MCL 500.3101(1),(3)(l)",
+    "MCL 500.3102(1),(2)",
+    "MCL 257.328(1),(6)",
+    "MCL 500.3113(d)",
+    "MCL 257.518b",
+    "MCL 257.1363",
+    "MCL 500.3105(2)",
+    "MCL 500.3114(1),(3),(4); 500.3115 (2019 PA 21)",
+    "MCL 257.401(3),(4)",
+    "MCL 500.3301; 500.3365(3)",
+    "MCL 500.3171(2); 500.3172(7); 500.3174",
+    "MCL 500.3204(2), 3208, 3212, 3220, 3224, 3230, 3234",
+    "MCL 500.2123"
+  ]
+}

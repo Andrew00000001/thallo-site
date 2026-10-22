@@ -1,0 +1,426 @@
+{
+ "id": "L14",
+ "sec": "auto",
+ "guide": "auto",
+ "title": "Michigan no-fault: PIP, PPI and residual liability",
+ "summary": "The three coverages every Michigan auto policy carries: PIP benefits and medical levels, PPI, and the lawsuits Michigan still allows.",
+ "objectives": [
+  "Tell PIP, PPI and residual liability apart",
+  "Name the four PIP benefits and apply the dated work loss cap",
+  "Match each PIP medical level to who may choose it",
+  "Know when Michigan still allows a suit, including the mini-tort"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Michigan no-fault: PIP, PPI and residual liability",
+   "subtitle": "The three coverages every Michigan auto policy must include",
+   "icon": "car",
+   "beats": [
+    {
+     "text": "Auto insurance is 15% of your exam: 22 items. Every Michigan auto policy must include three coverages.",
+     "say": "Auto insurance is fifteen percent of your exam: twenty-two items. Every Michigan auto policy must include three coverages."
+    },
+    {
+     "text": "PIP for injuries, PPI for property, and residual liability for your legal liability.",
+     "say": "P I P for injuries, P P I for property, and residual liability for your legal liability."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Three required coverages",
+   "src": "MCL 500.3101(1), 3105, 3121(1),(5), 3131(1), 3135(1),(3); DIFS auto FAQ",
+   "columns": [
+    {
+     "name": "PIP",
+     "icon": "heart-pulse",
+     "points": [
+      "Bodily injury, without regard to fault",
+      "Medical, wages, chores, survivors"
+     ]
+    },
+    {
+     "name": "PPI",
+     "icon": "fence",
+     "points": [
+      "Others' property damaged in Michigan",
+      "Up to $1 million per accident"
+     ]
+    },
+    {
+     "name": "Residual liability",
+     "icon": "scale",
+     "points": [
+      "The tort liability Michigan keeps",
+      "Accidents in other states, too"
+     ]
+    }
+   ],
+   "tell": "Injuries regardless of fault: PIP. Others' property in Michigan, but not moving cars: PPI. Your legal liability: residual liability.",
+   "beats": [
+    {
+     "text": "PIP, personal injury protection, pays for bodily injury from an auto accident, without regard to fault.",
+     "say": "P I P, personal injury protection, pays for bodily injury from an auto accident, without regard to fault.",
+     "show": 1
+    },
+    {
+     "text": "PPI, property protection insurance, pays for damage your car does in Michigan to others' property, like fences and properly parked cars, up to $1 million per accident.",
+     "say": "P P I, property protection insurance, pays for damage your car does in Michigan to others' property, like fences and properly parked cars, up to one million dollars per accident.",
+     "show": 2
+    },
+    {
+     "text": "Residual liability covers the tort liability Michigan still allows, and accidents in other states.",
+     "say": "Residual liability covers the tort liability Michigan still allows, and accidents in other states.",
+     "show": 3
+    },
+    {
+     "text": "Quick test. Injuries regardless of fault: PIP. Others' property in Michigan, but not moving cars: PPI. Your legal liability: residual liability.",
+     "say": "Quick test. Injuries regardless of fault: P I P. Others' property in Michigan, but not moving cars: P P I. Your legal liability: residual liability.",
+     "show": 3,
+     "tell": true
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "The four PIP benefits",
+   "src": "MCL 500.3107(1)(a)-(c), 3108",
+   "mn": "mn-mn_auto-07",
+   "hook": "Michigan Winters Can Snow: Medical, Wages, Chores, Survivors.",
+   "items": [
+    "Medical: allowable expenses, capped by the level you choose",
+    "Wages: work loss, 85% of lost income, first 3 years",
+    "Chores: replacement services, up to $20 a day, first 3 years",
+    "Survivors: dependents' lost support, first 3 years"
+   ],
+   "beats": [
+    {
+     "text": "PIP pays four kinds of benefits. Remember them this way: Michigan Winters Can Snow.",
+     "say": "P I P pays four kinds of benefits. Remember them this way: Michigan Winters Can Snow.",
+     "show": 0
+    },
+    {
+     "text": "Medical means allowable expenses for care, recovery and rehabilitation, up to the medical level you choose.",
+     "say": "Medical means allowable expenses for care, recovery and rehabilitation, up to the medical level you choose.",
+     "show": 1
+    },
+    {
+     "text": "Wages means work loss: lost income for the first 3 years, reduced 15% for the tax advantage.",
+     "say": "Wages means work loss: lost income for the first three years, reduced fifteen percent for the tax advantage.",
+     "show": 2
+    },
+    {
+     "text": "Chores means replacement services, like housework or yard work: up to $20 a day for 3 years. Survivors means dependents' lost support after a death, also for 3 years.",
+     "say": "Chores means replacement services, like housework or yard work: up to twenty dollars a day for three years. Survivors means dependents' lost support after a death, also for three years.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "formula",
+   "title": "Work loss: Dan's 30-day check",
+   "src": "MCL 500.3107(1)(b); DIFS Bulletin 2026-20-INS",
+   "given": [
+    "Accident on November 15, 2026",
+    "Dan earned $10,000 a month",
+    "Cap, accidents Oct 1, 2026 to Sep 30, 2027: $7,455"
+   ],
+   "items": [
+    {
+     "label": "Lost income, one 30-day period",
+     "expr": "One month of Dan's pay",
+     "value": "$10,000"
+    },
+    {
+     "label": "Less 15% for the tax advantage",
+     "expr": "85% × $10,000",
+     "value": "$8,500"
+    },
+    {
+     "label": "Apply the 30-day cap",
+     "expr": "Lesser of $8,500 or $7,455",
+     "value": "$7,455"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Dan is hurt in a Michigan crash on November 15, 2026. He earned $10,000 a month, and can't work.",
+     "say": "Dan is hurt in a Michigan crash on November fifteenth, twenty twenty-six. He earned ten thousand dollars a month, and can't work.",
+     "show": 1
+    },
+    {
+     "text": "Work loss is cut 15% for the tax advantage, unless he proves a lower one. 85% of $10,000 is $8,500.",
+     "say": "Work loss is cut fifteen percent for the tax advantage, unless he proves a lower one. Eighty-five percent of ten thousand dollars is eight thousand five hundred dollars.",
+     "show": 2
+    },
+    {
+     "text": "Now the cap. For accidents from October 1, 2026, through September 30, 2027, it's $7,455 per 30 days. So PIP pays Dan $7,455.",
+     "say": "Now the cap. For accidents from October first, twenty twenty-six, through September thirtieth, twenty twenty-seven, it's seven thousand four hundred fifty-five dollars per thirty days. So P I P pays Dan seven thousand four hundred fifty-five dollars.",
+     "show": 3
+    },
+    {
+     "text": "The cap changes every October 1, so always pick it by the accident date.",
+     "say": "The cap changes every October first, so always pick it by the accident date.",
+     "show": 3
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "PIP medical levels",
+   "src": "Policies issued or renewed after July 1, 2020. MCL 500.3107c(1),(3),(4); 3107d(1),(7); 3109a(2)",
+   "mn": "mn-mn_auto-01",
+   "hook": "Climb the PIP ladder: 50 - 250 - 500 - the Sky. Or step off the ladder completely (opt-out).",
+   "items": [
+    "$50,000: named insured on Medicaid, household covered",
+    "$250,000: insurer must also offer a QHC exclusion",
+    "$500,000, or the Sky: unlimited, also the default",
+    "Step off: opt out, only with Medicare Parts A and B"
+   ],
+   "beats": [
+    {
+     "text": "For policies issued or renewed after July 1, 2020, the named insured picks a PIP medical level. Climb the PIP ladder: 50, 250, 500, the Sky. Or step off completely.",
+     "say": "For policies issued or renewed after July first, twenty twenty, the named insured picks a P I P medical level. Climb the P I P ladder: fifty, two hundred fifty, five hundred, the sky. Or step off completely.",
+     "show": 0
+    },
+    {
+     "text": "$50,000 is only for a named insured on Medicaid. The spouse and resident relatives also need qualified health coverage, Medicaid, or other auto PIP.",
+     "say": "Fifty thousand dollars is only for a named insured on Medicaid. The spouse and resident relatives also need qualified health coverage, Medicaid, or other auto P I P.",
+     "show": 1
+    },
+    {
+     "text": "At $250,000, the insurer must also offer an exclusion for people with qualified health coverage. There's no level at $100,000.",
+     "say": "At two hundred fifty thousand dollars, the insurer must also offer an exclusion for people with qualified health coverage. There's no level at one hundred thousand dollars.",
+     "show": 2
+    },
+    {
+     "text": "Unlimited is also the default when no valid choice is made, unless the premium paid shows another level.",
+     "say": "Unlimited is also the default when no valid choice is made, unless the premium paid shows another level.",
+     "show": 3
+    },
+    {
+     "text": "Stepping off means opting out of PIP medical. That needs Medicare Parts A and B, and the spouse and resident relatives need qualified health coverage or other auto PIP.",
+     "say": "Stepping off means opting out of P I P medical. That needs Medicare Parts A and B, and the spouse and resident relatives need qualified health coverage or other auto P I P.",
+     "show": 4
+    },
+    {
+     "text": "Memory trick: Medic-AID gets a little aid. Medic-ARE folks ARE allowed out.",
+     "say": "Memory trick: Medic-aid gets a little aid. Medic-are folks are allowed out.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Which named insured may opt out of PIP medical coverage entirely, if the household is covered?",
+   "choices": [
+    "One enrolled in Medicaid",
+    "One enrolled in Medicare Parts A and B",
+    "Anyone age 60 or older",
+    "Anyone who signs the DIFS selection form"
+   ],
+   "answer": 1,
+   "why": "Only a named insured with Medicare Parts A and B may opt out, and the spouse and resident relatives need QHC or other auto PIP. Medicaid opens only the $50,000 level.",
+   "beats": [
+    {
+     "text": "Quick check. Which named insured may opt out of PIP medical entirely, if the household is covered? Pick an answer.",
+     "say": "Quick check. Which named insured may opt out of P I P medical entirely, if the household is covered? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The answer is the one enrolled in Medicare Parts A and B. Medicaid opens only the level of $50,000, not the opt-out.",
+     "say": "The answer is the one enrolled in Medicare Parts A and B. Medicaid opens only the level of fifty thousand dollars, not the opt-out."
+    }
+   ]
+  },
+  {
+   "type": "scenario",
+   "title": "Which damage does PPI pay?",
+   "src": "MCL 500.3121(1),(5); 500.3123(1)(a); 500.3135(3)(e); DIFS auto FAQ",
+   "icon": "fence",
+   "story": "On an icy Michigan road, a driver loses control. The car damages three things owned by strangers: a fence, a properly parked car, and a car moving in the next lane.",
+   "items": [
+    {
+     "label": "The fence",
+     "detail": "Tangible property damaged in Michigan: PPI pays"
+    },
+    {
+     "label": "The properly parked car",
+     "detail": "Parked without unreasonable risk: PPI pays"
+    },
+    {
+     "label": "The moving car",
+     "detail": "Vehicles are excluded unless properly parked"
+    }
+   ],
+   "answer": "The fence and the parked car. The moving car's owner looks to collision coverage or the mini-tort.",
+   "beats": [
+    {
+     "text": "A driver slides on Michigan ice and hits a stranger's fence, a properly parked car, and a car moving in the next lane. What does PPI pay for?",
+     "say": "A driver slides on Michigan ice and hits a stranger's fence, a properly parked car, and a car moving in the next lane. What does P P I pay for?",
+     "show": 0
+    },
+    {
+     "text": "PPI pays for the fence. It also pays for the parked car, because it was parked without unreasonable risk.",
+     "say": "P P I pays for the fence. It also pays for the parked car, because it was parked without unreasonable risk.",
+     "show": 2
+    },
+    {
+     "text": "But PPI excludes vehicles unless properly parked. So the answer is the fence and the parked car. The moving car's owner looks to collision coverage or the mini-tort.",
+     "say": "But P P I excludes vehicles unless properly parked. So the answer is the fence and the parked car. The moving car's owner looks to collision coverage or the mini-tort.",
+     "show": 3,
+     "answer": true
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Same kind of crash, but in Toledo, Ohio, and it damages a building there. What pays for the building?",
+   "choices": [
+    "PPI, up to $1 million",
+    "Residual property damage liability",
+    "The driver's collision coverage"
+   ],
+   "answer": 1,
+   "why": "PPI is not payable for accidents outside Michigan. Property damage liability, at least $10,000, covers damage your car does in other states.",
+   "beats": [
+    {
+     "text": "Now predict. The same crash happens in Toledo, Ohio, and damages a building. What pays for the building? Pick an answer.",
+     "say": "Now predict. The same crash happens in Toledo, Ohio, and damages a building. What pays for the building? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The answer is residual property damage liability. PPI pays only for accidents in Michigan. That's why the property damage minimum of $10,000 still matters.",
+     "say": "The answer is residual property damage liability. P P I pays only for accidents in Michigan. That's why the property damage minimum of ten thousand dollars still matters."
+    }
+   ]
+  },
+  {
+   "type": "bullets",
+   "title": "When you can still sue",
+   "src": "MCL 500.3135(1),(2)(b),(3)(c),(3)(e),(4),(5)",
+   "items": [
+    {
+     "label": "Pain and suffering: threshold injury",
+     "detail": "Death, serious impairment of body function, or permanent serious disfigurement",
+     "icon": "gavel"
+    },
+    {
+     "label": "Economic loss above your PIP limits",
+     "detail": "For example, medical bills above the level you chose",
+     "icon": "hospital"
+    },
+    {
+     "label": "Mini-tort: up to $3,000",
+     "detail": "Car damage insurance didn't pay, for accidents after July 1, 2020",
+     "icon": "car-front"
+    },
+    {
+     "label": "More than 50% at fault?",
+     "detail": "No pain-and-suffering damages, and no mini-tort",
+     "icon": "ban"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Now residual liability. Michigan abolished most tort liability for insured vehicles. Here are three claims that survive.",
+     "say": "Now residual liability. Michigan abolished most tort liability for insured vehicles. Here are three claims that survive.",
+     "show": 0
+    },
+    {
+     "text": "First, pain and suffering, but only for death, serious impairment of body function, or permanent serious disfigurement. Serious impairment has no minimum duration.",
+     "say": "First, pain and suffering, but only for death, serious impairment of body function, or permanent serious disfigurement. Serious impairment has no minimum duration.",
+     "show": 1
+    },
+    {
+     "text": "Second, economic loss above your PIP limits. Chose $250,000, and your medical bills hit $400,000? You can sue the at-fault driver for the rest.",
+     "say": "Second, economic loss above your P I P limits. Chose two hundred fifty thousand dollars, and your medical bills hit four hundred thousand dollars? You can sue the at-fault driver for the rest.",
+     "show": 2
+    },
+    {
+     "text": "Third, the mini-tort: up to $3,000 for car damage your insurance didn't pay, for accidents after July 1, 2020. It used to be $1,000. It's not part of required residual liability.",
+     "say": "Third, the mini-tort: up to three thousand dollars for car damage your insurance didn't pay, for accidents after July first, twenty twenty. It used to be one thousand dollars. It's not part of required residual liability.",
+     "show": 3
+    },
+    {
+     "text": "Watch out: a party more than 50% at fault gets no pain-and-suffering damages, and no mini-tort.",
+     "say": "Watch out: a party more than fifty percent at fault gets no pain-and-suffering damages, and no mini-tort.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Under Michigan no-fault, a suit for pain and suffering against a negligent insured driver requires:",
+   "choices": [
+    "Medical bills over $3,000",
+    "Death, serious impairment of body function, or permanent serious disfigurement",
+    "An injury that lasts at least 1 year",
+    "Any injury that needed hospital care"
+   ],
+   "answer": 1,
+   "why": "That is the tort threshold for noneconomic loss. Serious impairment has no minimum duration, and $3,000 is the mini-tort amount, not a threshold.",
+   "beats": [
+    {
+     "text": "Last check. What does a pain-and-suffering suit against a negligent insured driver require? Pick an answer.",
+     "say": "Last check. What does a pain-and-suffering suit against a negligent insured driver require? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The answer is death, serious impairment of body function, or permanent serious disfigurement. There's no minimum duration, and $3,000 is the mini-tort.",
+     "say": "The answer is death, serious impairment of body function, or permanent serious disfigurement. There's no minimum duration, and three thousand dollars is the mini-tort."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "PIP: injuries regardless of fault; PPI: others' property in Michigan",
+    "Work loss cap: $7,455 per 30 days, accidents Oct 1, 2026–Sep 30, 2027",
+    "Medical: $50,000 Medicaid, $250,000, $500,000, unlimited",
+    "Opt-out needs Medicare A and B; default level is unlimited",
+    "Suits survive: threshold injury, excess economic loss, mini-tort"
+   ],
+   "beats": [
+    {
+     "text": "Let's recap. Three coverages, a dated work loss cap, the medical ladder, and the few suits Michigan still allows.",
+     "say": "Let's recap. Three coverages, a dated work loss cap, the medical ladder, and the few suits Michigan still allows.",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "auto-015",
+  "auto-020",
+  "auto-021",
+  "auto-031",
+  "auto-033"
+ ],
+ "hooks": [
+  "mn-mn_auto-07",
+  "mn-mn_auto-01",
+  "mn-mn_auto-02"
+ ],
+ "sources": [
+  "MCL 500.3101(1)",
+  "MCL 500.3105",
+  "MCL 500.3107(1)(a)-(c)",
+  "MCL 500.3108",
+  "MCL 500.3107c(1),(3),(4)",
+  "MCL 500.3107d(1),(7)",
+  "MCL 500.3109a(2)",
+  "MCL 500.3121(1),(5)",
+  "MCL 500.3123(1)(a),(2)",
+  "MCL 500.3131(1)",
+  "MCL 500.3135(1),(2)(b),(3),(4),(5)",
+  "MCL 500.3009(1)",
+  "DIFS Bulletin 2026-20-INS",
+  "DIFS auto insurance FAQ",
+  "PSI outline: Automobile Insurance 15% (22 items)"
+ ]
+}
