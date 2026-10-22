@@ -18,12 +18,12 @@ These are the Element sheets: one 4K model sheet per character, in the feature-f
 | Tillman | `tillman-demolition` | 17b76e5f-993a-4ecd-913d-afe450592e59 (edit of 09ba5b80) | 2026-10-21 | Minor |
 | Huggable | `huggable-huggable` | b2a3f65d-8cfd-4e1b-a9f8-cf8cabc80828 (edit of 0680a612) | 2026-10-21 | Fix (queued) |
 | Astoria | `astoria-sniper` | 64d65c16-9fee-4a3d-a172-1069e1f65869; mirrored upload fcc7f1f4-8599-4812-b509-b0782b6f53a5 | 2026-10-20 | Pass, mirrored |
-| Wil | `wil-chub-scout` | 20f40c63-0d5a-49dd-895a-e7f6fad27c50 | 2026-10-19 | Minor (fix queued) |
+| Wil | `wil-chub-scout` | 5b633f8e-10ee-445f-ba46-ba62e1b26f90 (edit of 20f40c63) | 2026-10-22 | Pass |
 | Graham | `graham-engineer` | 55c688d8-bcd6-4a48-9060-b21ef3051a2a (edit of a0a6b54f); mirrored upload d70599fa-9bd9-48b6-b88f-a4884ecce247 | 2026-10-21 | Minor, mirrored |
-| B-1000 | `b-1000-assault-signature` | 981cb097-1709-4236-b1a3-3b6914a4df87 (edit of 1f7259ce); trimmed upload 6e0f1d8f-7123-4b28-b67d-3bf114cdf1cd | 2026-10-21 | Fix (queued) |
+| B-1000 | `b-1000-assault-signature` | 72dd6050-d1d8-4b2f-9912-1c6ceb7408ac (third edit, from 1f7259ce) | 2026-10-22 | Minor |
 | Botch | `botch-assassin` | b6d6028f-8288-42ad-9277-ca9fdcebf9f8 | 2026-10-20 | Minor |
 | Saberi | `saberi-combat-tech` | 8635a36f-35b4-472e-8f8f-945eae9905e8; mirrored upload bf7b803c-eba5-4840-99a7-7c8d93b260fc | 2026-10-20 | Pass, mirrored |
-| Sanchez | `sanchez-arbiter` | d3d31719-ebf4-459d-94db-d96e2b1316f8 | 2026-10-21 | Fix (queued) |
+| Sanchez | `sanchez-arbiter` | 859e4e24-d0f5-4e2b-b02a-352dd7df85b3 (edit of d3d31719) | 2026-10-22 | Pass |
 
 ## QA notes
 
@@ -52,19 +52,20 @@ These are the Element sheets: one 4K model sheet per character, in the feature-f
   - Still wrong: the bandage and radio stayed on its left.
   - Next step (queued):
     - The sheet has been mirrored locally, which puts the bandage and radio on its right but the button eye on its left.
-    - The queued edit moves the button eye and its scar under the bandage.
+    - The queued edit moves the button eye and its stitches under the bandage.
+    - The Oct 22 try was refused by Higgsfield's content filter, a false positive on a plush toy; it was not charged. It is queued again with plainer wording.
   - The preview here is the unmirrored edit.
 - **Astoria: pass, mirrored.**
   - The raw output had her pouch and the hand on her hip on her left. The mirrored file puts both on her right, as the soul says.
   - Matches the soul: cream plush, heavy-lidded teal eyes, red gloves, quilted maroon belt and red-and-white boots.
   - Minor: the backpack straps are brown leather; the soul calls them red.
-- **Wil: minor.**
+- **Wil: pass** (after the Oct 22 edit).
   - Matches the soul:
     - the upright ears, and the red padded helmet with vents and chin strap;
     - the ice-pop tank top with drip and stick;
-    - the glowing red knee pads;
+    - black elbow bands with glowing red pads, matching the glowing red knee pads;
     - the rear-facing lens backpack.
-  - Minor: the elbow bands sit high and have no glowing red pads. A fix is queued.
+  - Nothing else changed in the edit.
 - **Graham: minor, mirrored** (after the Oct 21 edit).
   - The edit landed:
     - soft plush fur instead of vinyl;
@@ -75,16 +76,16 @@ These are the Element sheets: one 4K model sheet per character, in the feature-f
     - the radio pack's top sits at shoulder height, not level with the hat brim;
     - after the mirror, the antenna rises from the pack's top right corner instead of its top left.
   - Usable.
-- **B-1000: fix** (after the Oct 21 edit).
-  - The edit landed:
+- **B-1000: minor** (after three edits, Oct 21-22).
+  - Matches the soul:
+    - no hands: the rail-gun is built onto his right forearm (the viewer's left in the front view), hanging muzzle-down;
+    - the rail-gun is an orange-and-black slab with an orange hexagonal plate, a white light bar and a glowing yellow-orange tip;
+    - the claws come straight out of a black end cap on the left forearm, with the looping white hose with cyan rings;
     - the plain round chest disc;
-    - the looping white hose with cyan rings.
-  - Both the original and the edit have a second back view, upper right, with claws on both arms. It was blanked locally, which leaves four views.
-  - Still wrong:
-    - a black hand still grips the rail-gun;
-    - the claws still come out of a black fist;
-    - in the back view, a hose sits on the rail-gun arm too.
-  - The soul says neither forearm has a hand. A stronger "arm cannon" edit is queued first, because Episode 1's cold open needs it.
+    - the white-and-orange winged jump-pack;
+    - the low head with cyan eye-slits.
+  - The first edit's sheet had a second, wrong back view, which was blanked locally before the later edits. This sheet has four views.
+  - Minor: a short stretch of the white hose also shows on the rail-gun arm in the back and three-quarter views. A cleanup edit is written.
 - **Botch: minor.**
   - Matches the soul: plum-black plush, the big round head, grey muzzle, glowing lime eyes with no pupils, silver arm guards with red lights, the small backpack with red circle markings, and the float with lime particles.
   - Minor: the bite notch in one ear is missing.
@@ -99,29 +100,24 @@ These are the Element sheets: one 4K model sheet per character, in the feature-f
     - log mallet with a yellow collar.
   - Minor: this sheet has three views; it has no three-quarter view.
 
-- **Sanchez: fix** (new on Oct 21).
+- **Sanchez: pass** (after the Oct 22 edit). This is the unarmed Element variant.
   - Matches the soul:
+    - a dark maroon helmet with rounded maroon ear bumps moulded into it, and no furry ears;
+    - a rounded red-and-black armoured shoulder on the mechanical arm;
     - the mechanical arm is on his right, thicker than his left arm, with red light strips and the forearm lamp;
-    - opaque glowing red visor with no eyes, light tan face, goatee and flat mouth;
-    - grey-khaki chest plate over grey-and-white camo, olive-and-tan camo trousers and dark boots;
+    - an opaque glowing red visor with no eyes, a light tan face, a goatee and a flat mouth;
+    - a grey-khaki chest plate over grey-and-white camo, olive-and-tan camo trousers and dark boots;
+    - a dark grey glove on his left hand;
     - empty hands.
-  - Wrong:
-    - furry tan ears stick up through the helmet; the soul has rounded maroon ear bumps moulded into the helmet;
-    - the camo sleeve covers the top of the arm; the soul has a rounded red-and-black armoured shoulder;
-    - the left glove is khaki; the soul says dark grey.
-  - A fix is queued with B-1000's, for Episode 1.
 
 ## Queued for the next daily reset
 
-The edit prompts are in the research scratchpad (`shorts/sheets_v2/fix_prompts_v2.json`). Each one keeps the sheet and changes only the listed details. They run in this order:
+The edit prompts are in the research scratchpad (`shorts/sheets_v2/fix_prompts_v3.json`). Each one keeps the sheet and changes only the listed details. They run in this order:
 
-1. B-1000: no hands; the rail-gun is fused to the forearm, and the claws come out of an end cap.
-2. Sanchez: helmet ear bumps, an armoured shoulder and a dark grey glove.
-3. Wil: elbow bands with glowing red pads.
-4. Huggable: the button eye moves under the bandage (on the mirrored sheet).
+1. Huggable: the button eye moves under the bandage (on the mirrored sheet).
+2. The blue-team Huggable, made from slot 1's result if it passes.
+3. Tillman: remove the waist sash, and add wheel housings.
+4. Graham: three arm stripes, a taller pack, and the antenna on the top left.
 5. The first that applies:
-   - a retry of B-1000 or Sanchez if it fails QA;
-   - otherwise the blue-team Huggable;
-   - otherwise the Tillman cleanup.
-
-Graham's remaining minors (stripe count, pack height, antenna corner) wait until the daily limit lifts.
+   - a retry of slot 1;
+   - otherwise the B-1000 hose cleanup.
