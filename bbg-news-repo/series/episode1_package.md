@@ -8,6 +8,21 @@
 
 ## 0. Before anything is generated (blockers found 2026-10-20)
 
+**Status on 2026-10-22:**
+- Blocker 1: the low-poly Elements are gone. New Elements are made from the house-style sheets only after an independent review panel passes them (SHEETS.md). `sanchez-arbiter` is live; B-1000 and Oliver follow their Oct 23 fixes.
+- Blocker 2 is done: Sanchez's sheet passed and his Element is live.
+- Blocker 3: the Huggable fix is queued for Oct 24, with the blue sheet after it.
+- Blocker 4 is done: Bryce approved AI voices and left the casting to BBG News. Cast: Orion (B-1000), Jasper (Sanchez), John (Oliver); see `voice_casting.md`.
+- Blocker 5: B-1000 now has no hands. His head (pointed plated ears, jaw plate) is fixed on Oct 23.
+
+The teaser path:
+- Oct 23: B-1000's sheet, plate P1 and B-1000's voice lines.
+- Oct 24: the C1 start still and clip.
+- Oct 25-27: a C1 retake if needed, and the dub and edit.
+
+Higgsfield's 5-a-day generation limit sets this pace.
+
+
 1. **The Higgsfield Elements are still the old low-poly ones.** A read-only listing of the workspace on 2026-10-20 shows `oliver-soldier` (5e079b47…), `huggable-huggable` (e188dc42…) and `riggs-heavy` (1475a232…), all created on Oct 15 from the retired low-poly sheets (their descriptions say "low-poly"). No Element has been made from any SHEETS.md sheet, and there is no `b-1000-assault-signature` Element at all.
    - Create the new Elements from the SHEETS.md jobs (type `image_job`): B-1000 from the fixed sheet once blocker 5 clears (the current sheet is `1f7259ce-23ed-4398-9a91-cdbf429dfeed`; use it only under Bryce's recorded exception), Oliver `909ea0bd-843e-4324-ae88-193c2eeb84cb`; Sanchez and the blue Huggable once their sheets pass QA. Creating an Element cost nothing on Oct 15.
    - Names are unique per workspace, and a clash gets a numeric suffix. **Bryce's call (open item 1):** delete or rename the low-poly Elements in the Higgsfield web UI first (the MCP tool can list and create Elements, not delete or rename them), or accept suffixed names. Either way, write each new Element's UUID into SHEETS.md and attach only by UUID, so a low-poly sheet can never be attached by mistake.

@@ -41,9 +41,9 @@ Created on 2026-10-22, after Bryce deleted the old Elements. To use one, put `<<
 | `saberi-combat-tech` | a0bb390a-5997-4e83-bf0b-1320e20d27b9 | mirrored upload bf7b803c |
 | `sanchez-arbiter` | e6122a2f-99de-423a-a310-733554bf48bb | locally fixed upload c143c1df |
 
-**Stale:** the Oliver, Botch, Astoria and Saberi Elements were made before the second review panel, which then found real errors in those sheets. Don't use them in videos. They are replaced as their fixes land, and Bryce deletes the old ones so the names can be reused.
+**Deleted:** Bryce deleted the stale Oliver, Botch, Astoria and Saberi Elements, and a listing confirmed it on 2026-10-22. The second review panel had found real errors in those sheets. Their rows above are kept for history only. The current Elements are `sanchez-arbiter` and `riggs-heavy`.
 
-Not created yet, and waiting for their queued fixes: B-1000, Wil, the Huggable (red and blue), Graham and Tillman.
+Not created yet, and waiting for their queued fixes: B-1000, Oliver, Botch, Astoria, Saberi, Wil, the Huggable (red and blue), Graham and Tillman. The checked prompts for the fresh Tillman and Saberi sheets and the Astoria edit are in the research scratchpad (`shorts/sheets_v2/redo_prompts.json`).
 
 ## QA notes
 

@@ -1,0 +1,3745 @@
+[
+ {
+  "name": "Grady",
+  "voice_id": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/e2a2d2e6-9ed2-59cd-82af-feaa27f8a678/preview-c07e730034d0926d.mp3",
+  "file": "Grady.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.0,
+  "duration_s": 2.16,
+  "pitch_floor_hz": 71.2,
+  "pitch_ceiling_hz": 233.1,
+  "f0_median_hz": 112.5,
+  "f0_p10_hz": 76.8,
+  "f0_p90_hz": 166.7,
+  "f0_range_p10_p90_st": 13.42,
+  "f0_semitone_sd": 5.02,
+  "voiced_frames": 115,
+  "speech_time_s": 2.16,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 8,
+  "articulation_rate_nuclei_per_s": 3.7,
+  "transcript_syllables": 9,
+  "articulation_rate_transcript_syl_per_s": 4.17,
+  "voiced_fraction_of_speech": 0.53,
+  "hnr_mean_db": 9.19,
+  "jitter_local_pct": 3.068,
+  "shimmer_local_pct": 10.55,
+  "f1_median_hz": 417.0,
+  "f2_median_hz": 1456.0,
+  "f3_median_hz": 2413.0,
+  "f4_median_hz": 3340.0,
+  "formant_spacing_hz": 958.0,
+  "apparent_vtl_cm": 18.27,
+  "apparent_vtl_f3f4_cm": 18.27,
+  "formant_frames": 115,
+  "fixed5000_f1_f4_hz": [
+   367.0,
+   1453.0,
+   2476.0,
+   3453.0
+  ],
+  "fixed5000_vtl_cm": 17.81,
+  "vtl_ceiling_spread_cm": 1.22,
+  "centroid_hz": 894.0,
+  "flatness": 0.001,
+  "tilt_db_per_oct": -3.76,
+  "alpha_ratio_db": -13.19,
+  "power_share_below_300hz": 0.612,
+  "rms_sd_db": 10.39,
+  "rms_range_p10_p90_db": 22.87,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.993
+   ],
+   [
+    "cy",
+    0.004
+   ],
+   [
+    "nn",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.993,
+  "whisper_p_en_range": [
+   0.992,
+   0.995
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.004
+  ],
+  "transcript": "Pull up a chair and tell your story.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Holden",
+  "voice_id": "3c9d6053-6334-592c-8997-4e325286af3f",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/3c9d6053-6334-592c-8997-4e325286af3f/preview-bddba899f043d6a8.mp3",
+  "file": "Holden.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 13.7,
+  "duration_s": 2.08,
+  "pitch_floor_hz": 75.6,
+  "pitch_ceiling_hz": 241.8,
+  "f0_median_hz": 118.0,
+  "f0_p10_hz": 80.8,
+  "f0_p90_hz": 171.2,
+  "f0_range_p10_p90_st": 12.99,
+  "f0_semitone_sd": 4.47,
+  "voiced_frames": 143,
+  "speech_time_s": 2.08,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 5,
+  "articulation_rate_nuclei_per_s": 2.4,
+  "transcript_syllables": 9,
+  "articulation_rate_transcript_syl_per_s": 4.33,
+  "voiced_fraction_of_speech": 0.69,
+  "hnr_mean_db": 11.96,
+  "jitter_local_pct": 2.536,
+  "shimmer_local_pct": 7.03,
+  "f1_median_hz": 329.0,
+  "f2_median_hz": 1409.0,
+  "f3_median_hz": 2329.0,
+  "f4_median_hz": 3208.0,
+  "formant_spacing_hz": 921.0,
+  "apparent_vtl_cm": 19.01,
+  "apparent_vtl_f3f4_cm": 18.99,
+  "formant_frames": 143,
+  "fixed5000_f1_f4_hz": [
+   363.0,
+   1434.0,
+   2344.0,
+   3367.0
+  ],
+  "fixed5000_vtl_cm": 18.39,
+  "vtl_ceiling_spread_cm": 2.18,
+  "centroid_hz": 886.0,
+  "flatness": 0.001,
+  "tilt_db_per_oct": -7.46,
+  "alpha_ratio_db": -11.47,
+  "power_share_below_300hz": 0.609,
+  "rms_sd_db": 10.22,
+  "rms_range_p10_p90_db": 21.53,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.994
+   ],
+   [
+    "nn",
+    0.002
+   ],
+   [
+    "cy",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.994,
+  "whisper_p_en_range": [
+   0.989,
+   0.997
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.002
+  ],
+  "transcript": "Why is there a canoe in the kitchen?",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Arthur",
+  "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3",
+  "file": "Arthur.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.5,
+  "duration_s": 25.44,
+  "pitch_floor_hz": 91.8,
+  "pitch_ceiling_hz": 291.4,
+  "f0_median_hz": 138.6,
+  "f0_p10_hz": 103.5,
+  "f0_p90_hz": 194.9,
+  "f0_range_p10_p90_st": 10.96,
+  "f0_semitone_sd": 4.22,
+  "voiced_frames": 1426,
+  "speech_time_s": 20.08,
+  "n_internal_pauses": 9,
+  "syllable_nuclei": 83,
+  "articulation_rate_nuclei_per_s": 4.13,
+  "transcript_syllables": 94,
+  "articulation_rate_transcript_syl_per_s": 4.68,
+  "voiced_fraction_of_speech": 0.71,
+  "hnr_mean_db": 13.36,
+  "jitter_local_pct": 2.732,
+  "shimmer_local_pct": 8.98,
+  "f1_median_hz": 336.0,
+  "f2_median_hz": 1493.0,
+  "f3_median_hz": 2597.0,
+  "f4_median_hz": 3347.0,
+  "formant_spacing_hz": 982.0,
+  "apparent_vtl_cm": 17.82,
+  "apparent_vtl_f3f4_cm": 17.78,
+  "formant_frames": 1426,
+  "fixed5000_f1_f4_hz": [
+   338.0,
+   1509.0,
+   2601.0,
+   3410.0
+  ],
+  "fixed5000_vtl_cm": 17.61,
+  "vtl_ceiling_spread_cm": 1.95,
+  "centroid_hz": 968.0,
+  "flatness": 0.0011,
+  "tilt_db_per_oct": -7.51,
+  "alpha_ratio_db": -9.41,
+  "power_share_below_300hz": 0.718,
+  "rms_sd_db": 8.99,
+  "rms_range_p10_p90_db": 20.29,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.994
+   ],
+   [
+    "cy",
+    0.002
+   ],
+   [
+    "fr",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.994,
+  "whisper_p_en_range": [
+   0.992,
+   0.995
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.002
+  ],
+  "transcript": "Hello I'm Arthur. I specialise in a gentle, intelligent delivery that feels both authoritative and incredibly kind. My sound is defined by a soft-spoken British clarity, ideal for educational series historical documentaries or nighttime stories. I don't just provide information, I provide a sense of belonging and discovery.",
+  "self_description": true,
+  "stated_accent": [
+   "british"
+  ],
+  "stated_style": [
+   "soft-spoken",
+   "soft",
+   "gentle",
+   "authoritative",
+   "clarity",
+   "kind"
+  ],
+  "style_quotes": [
+   "I specialise in a gentle, intelligent delivery that feels both authoritative and incredibly kind.",
+   "My sound is defined by a soft-spoken British clarity, ideal for educational series historical documentaries or nighttime stories.",
+   "I don't just provide information, I provide a sense of belonging and discovery."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: british",
+  "flags": []
+ },
+ {
+  "name": "Archie",
+  "voice_id": "bd072316-f77c-588b-b6e5-e46b9b03d008",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/bd072316-f77c-588b-b6e5-e46b9b03d008/preview-225ae0482643b360.mp3",
+  "file": "Archie.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 5.52,
+  "pitch_floor_hz": 90.4,
+  "pitch_ceiling_hz": 270.7,
+  "f0_median_hz": 131.8,
+  "f0_p10_hz": 114.8,
+  "f0_p90_hz": 164.5,
+  "f0_range_p10_p90_st": 6.24,
+  "f0_semitone_sd": 2.58,
+  "voiced_frames": 194,
+  "speech_time_s": 3.15,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 11,
+  "articulation_rate_nuclei_per_s": 3.49,
+  "transcript_syllables": 11,
+  "articulation_rate_transcript_syl_per_s": 3.49,
+  "voiced_fraction_of_speech": 0.61,
+  "hnr_mean_db": 10.6,
+  "jitter_local_pct": 2.266,
+  "shimmer_local_pct": 9.98,
+  "f1_median_hz": 493.0,
+  "f2_median_hz": 1412.0,
+  "f3_median_hz": 2245.0,
+  "f4_median_hz": 3301.0,
+  "formant_spacing_hz": 930.0,
+  "apparent_vtl_cm": 18.82,
+  "apparent_vtl_f3f4_cm": 18.86,
+  "formant_frames": 194,
+  "fixed5000_f1_f4_hz": [
+   483.0,
+   1414.0,
+   2268.0,
+   3328.0
+  ],
+  "fixed5000_vtl_cm": 18.67,
+  "vtl_ceiling_spread_cm": 1.28,
+  "centroid_hz": 1019.0,
+  "flatness": 0.0007,
+  "tilt_db_per_oct": -8.53,
+  "alpha_ratio_db": -7.13,
+  "power_share_below_300hz": 0.145,
+  "rms_sd_db": 11.05,
+  "rms_range_p10_p90_db": 28.39,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.999
+   ],
+   [
+    "nn",
+    0.0
+   ],
+   [
+    "cy",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.999,
+  "whisper_p_en_range": [
+   0.998,
+   0.999
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.0
+  ],
+  "transcript": "Our backyard telescope found Saturn's bright rings.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Fraser",
+  "voice_id": "6705e465-7b52-5915-a1d8-b1222885e01d",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/6705e465-7b52-5915-a1d8-b1222885e01d/preview-b989520a55bc22fd.mp3",
+  "file": "Fraser.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.1,
+  "duration_s": 2.56,
+  "pitch_floor_hz": 62.5,
+  "pitch_ceiling_hz": 191.2,
+  "f0_median_hz": 89.5,
+  "f0_p10_hz": 71.4,
+  "f0_p90_hz": 128.8,
+  "f0_range_p10_p90_st": 10.22,
+  "f0_semitone_sd": 3.49,
+  "voiced_frames": 138,
+  "speech_time_s": 2.17,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 8,
+  "articulation_rate_nuclei_per_s": 3.68,
+  "transcript_syllables": 9,
+  "articulation_rate_transcript_syl_per_s": 4.14,
+  "voiced_fraction_of_speech": 0.63,
+  "hnr_mean_db": 11.29,
+  "jitter_local_pct": 2.936,
+  "shimmer_local_pct": 7.73,
+  "f1_median_hz": 353.0,
+  "f2_median_hz": 1266.0,
+  "f3_median_hz": 2256.0,
+  "f4_median_hz": 3219.0,
+  "formant_spacing_hz": 904.0,
+  "apparent_vtl_cm": 19.36,
+  "apparent_vtl_f3f4_cm": 19.15,
+  "formant_frames": 138,
+  "fixed5000_f1_f4_hz": [
+   350.0,
+   1282.0,
+   2329.0,
+   3350.0
+  ],
+  "fixed5000_vtl_cm": 18.71,
+  "vtl_ceiling_spread_cm": 2.98,
+  "centroid_hz": 833.0,
+  "flatness": 0.0007,
+  "tilt_db_per_oct": -7.64,
+  "alpha_ratio_db": -9.28,
+  "power_share_below_300hz": 0.519,
+  "rms_sd_db": 11.03,
+  "rms_range_p10_p90_db": 26.79,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.999
+   ],
+   [
+    "nn",
+    0.0
+   ],
+   [
+    "cy",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.999,
+  "whisper_p_en_range": [
+   0.998,
+   1.0
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.0
+  ],
+  "transcript": "The final clue points beneath the bridge.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy",
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 2.98 cm); trust FormantPath value loosely"
+  ]
+ },
+ {
+  "name": "Benji",
+  "voice_id": "e6f9b893-51b1-51d3-afe9-9e0482cb7ac1",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/e6f9b893-51b1-51d3-afe9-9e0482cb7ac1/preview-d7f1d3d8ca52125c.mp3",
+  "file": "Benji.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 2.48,
+  "pitch_floor_hz": 73.7,
+  "pitch_ceiling_hz": 228.8,
+  "f0_median_hz": 107.3,
+  "f0_p10_hz": 93.1,
+  "f0_p90_hz": 137.7,
+  "f0_range_p10_p90_st": 6.77,
+  "f0_semitone_sd": 2.95,
+  "voiced_frames": 152,
+  "speech_time_s": 2.48,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 9,
+  "articulation_rate_nuclei_per_s": 3.63,
+  "transcript_syllables": 10,
+  "articulation_rate_transcript_syl_per_s": 4.03,
+  "voiced_fraction_of_speech": 0.61,
+  "hnr_mean_db": 10.87,
+  "jitter_local_pct": 2.216,
+  "shimmer_local_pct": 8.98,
+  "f1_median_hz": 404.0,
+  "f2_median_hz": 1371.0,
+  "f3_median_hz": 2519.0,
+  "f4_median_hz": 3566.0,
+  "formant_spacing_hz": 1002.0,
+  "apparent_vtl_cm": 17.47,
+  "apparent_vtl_f3f4_cm": 17.24,
+  "formant_frames": 152,
+  "fixed5000_f1_f4_hz": [
+   395.0,
+   1373.0,
+   2468.0,
+   3584.0
+  ],
+  "fixed5000_vtl_cm": 17.53,
+  "vtl_ceiling_spread_cm": 0.69,
+  "centroid_hz": 922.0,
+  "flatness": 0.0007,
+  "tilt_db_per_oct": -5.34,
+  "alpha_ratio_db": -12.95,
+  "power_share_below_300hz": 0.323,
+  "rms_sd_db": 8.83,
+  "rms_range_p10_p90_db": 23.14,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.999
+   ],
+   [
+    "cy",
+    0.0
+   ],
+   [
+    "nn",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.999,
+  "whisper_p_en_range": [
+   0.998,
+   0.999
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.0
+  ],
+  "transcript": "Slow waves folded across the empty beach.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Cillian",
+  "voice_id": "d8ba9f14-8a24-44db-932b-99e16c45bd32",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/0641e334-cdc1-427c-9957-6d0677fb79fd.mp3",
+  "file": "Cillian.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.0,
+  "duration_s": 24.56,
+  "pitch_floor_hz": 78.8,
+  "pitch_ceiling_hz": 257.7,
+  "f0_median_hz": 124.6,
+  "f0_p10_hz": 89.7,
+  "f0_p90_hz": 170.0,
+  "f0_range_p10_p90_st": 11.06,
+  "f0_semitone_sd": 3.97,
+  "voiced_frames": 1239,
+  "speech_time_s": 19.66,
+  "n_internal_pauses": 9,
+  "syllable_nuclei": 77,
+  "articulation_rate_nuclei_per_s": 3.92,
+  "transcript_syllables": 91,
+  "articulation_rate_transcript_syl_per_s": 4.63,
+  "voiced_fraction_of_speech": 0.63,
+  "hnr_mean_db": 12.72,
+  "jitter_local_pct": 2.84,
+  "shimmer_local_pct": 8.01,
+  "f1_median_hz": 392.0,
+  "f2_median_hz": 1406.0,
+  "f3_median_hz": 2493.0,
+  "f4_median_hz": 3504.0,
+  "formant_spacing_hz": 990.0,
+  "apparent_vtl_cm": 17.67,
+  "apparent_vtl_f3f4_cm": 17.5,
+  "formant_frames": 1239,
+  "fixed5000_f1_f4_hz": [
+   365.0,
+   1400.0,
+   2519.0,
+   3623.0
+  ],
+  "fixed5000_vtl_cm": 17.28,
+  "vtl_ceiling_spread_cm": 1.78,
+  "centroid_hz": 799.0,
+  "flatness": 0.0007,
+  "tilt_db_per_oct": -5.62,
+  "alpha_ratio_db": -14.0,
+  "power_share_below_300hz": 0.737,
+  "rms_sd_db": 10.05,
+  "rms_range_p10_p90_db": 23.4,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.99
+   ],
+   [
+    "cy",
+    0.004
+   ],
+   [
+    "la",
+    0.002
+   ]
+  ],
+  "whisper_p_en": 0.99,
+  "whisper_p_en_range": [
+   0.986,
+   0.992
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.004
+  ],
+  "transcript": "I'm Killian. I believe that the best way to teach is to talk, not lecture. My sound is defined by a warm, melodic Irish lilt that's as approachable as a conversation over tea. I specialise in a narration style that's rooted in kindness and clarity, perfect for children's education, wellness apps or community-focused documentaries.",
+  "self_description": true,
+  "stated_accent": [
+   "irish"
+  ],
+  "stated_style": [
+   "warm",
+   "melodic",
+   "lilt",
+   "clarity",
+   "kindness"
+  ],
+  "style_quotes": [
+   "My sound is defined by a warm, melodic Irish lilt that's as approachable as a conversation over tea.",
+   "I specialise in a narration style that's rooted in kindness and clarity, perfect for children's education, wellness apps or community-focused documentaries."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: irish",
+  "flags": []
+ },
+ {
+  "name": "Dylan",
+  "voice_id": "b847bc29-f184-583a-8ad9-d1f1e16d1a60",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/b847bc29-f184-583a-8ad9-d1f1e16d1a60/preview-b5fc7cee4a00b4c5.mp3",
+  "file": "Dylan.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.5,
+  "duration_s": 2.96,
+  "pitch_floor_hz": 102.3,
+  "pitch_ceiling_hz": 320.1,
+  "f0_median_hz": 151.4,
+  "f0_p10_hz": 114.3,
+  "f0_p90_hz": 243.2,
+  "f0_range_p10_p90_st": 13.07,
+  "f0_semitone_sd": 4.35,
+  "voiced_frames": 216,
+  "speech_time_s": 2.96,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 12,
+  "articulation_rate_nuclei_per_s": 4.05,
+  "transcript_syllables": 12,
+  "articulation_rate_transcript_syl_per_s": 4.05,
+  "voiced_fraction_of_speech": 0.73,
+  "hnr_mean_db": 9.31,
+  "jitter_local_pct": 2.57,
+  "shimmer_local_pct": 13.57,
+  "f1_median_hz": 453.0,
+  "f2_median_hz": 1562.0,
+  "f3_median_hz": 2683.0,
+  "f4_median_hz": 3554.0,
+  "formant_spacing_hz": 1034.0,
+  "apparent_vtl_cm": 16.92,
+  "apparent_vtl_f3f4_cm": 16.91,
+  "formant_frames": 216,
+  "fixed5000_f1_f4_hz": [
+   459.0,
+   1561.0,
+   2667.0,
+   3514.0
+  ],
+  "fixed5000_vtl_cm": 17.06,
+  "vtl_ceiling_spread_cm": 1.7,
+  "centroid_hz": 1295.0,
+  "flatness": 0.003,
+  "tilt_db_per_oct": -8.49,
+  "alpha_ratio_db": -3.76,
+  "power_share_below_300hz": 0.155,
+  "rms_sd_db": 9.66,
+  "rms_range_p10_p90_db": 25.01,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.994
+   ],
+   [
+    "el",
+    0.001
+   ],
+   [
+    "ru",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.994,
+  "whisper_p_en_range": [
+   0.993,
+   0.995
+  ],
+  "whisper_top_non_en": [
+   "el",
+   0.001
+  ],
+  "transcript": "The puppy proudly delivered one muddy shoe.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Reid",
+  "voice_id": "66469f5a-10db-586a-bab1-72f6ee66ba69",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/66469f5a-10db-586a-bab1-72f6ee66ba69/preview-d369773b53804ce8.mp3",
+  "file": "Reid.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.6,
+  "duration_s": 3.6,
+  "pitch_floor_hz": 106.9,
+  "pitch_ceiling_hz": 336.7,
+  "f0_median_hz": 170.1,
+  "f0_p10_hz": 131.6,
+  "f0_p90_hz": 198.9,
+  "f0_range_p10_p90_st": 7.15,
+  "f0_semitone_sd": 2.82,
+  "voiced_frames": 252,
+  "speech_time_s": 3.29,
+  "n_internal_pauses": 1,
+  "syllable_nuclei": 9,
+  "articulation_rate_nuclei_per_s": 2.74,
+  "transcript_syllables": 11,
+  "articulation_rate_transcript_syl_per_s": 3.34,
+  "voiced_fraction_of_speech": 0.77,
+  "hnr_mean_db": 9.01,
+  "jitter_local_pct": 2.007,
+  "shimmer_local_pct": 10.85,
+  "f1_median_hz": 526.0,
+  "f2_median_hz": 1814.0,
+  "f3_median_hz": 2749.0,
+  "f4_median_hz": 3571.0,
+  "formant_spacing_hz": 1065.0,
+  "apparent_vtl_cm": 16.44,
+  "apparent_vtl_f3f4_cm": 16.71,
+  "formant_frames": 252,
+  "fixed5000_f1_f4_hz": [
+   525.0,
+   1814.0,
+   2714.0,
+   3360.0
+  ],
+  "fixed5000_vtl_cm": 17.07,
+  "vtl_ceiling_spread_cm": 1.83,
+  "centroid_hz": 1817.0,
+  "flatness": 0.005,
+  "tilt_db_per_oct": -6.3,
+  "alpha_ratio_db": -0.23,
+  "power_share_below_300hz": 0.141,
+  "rms_sd_db": 7.17,
+  "rms_range_p10_p90_db": 19.24,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.994
+   ],
+   [
+    "ja",
+    0.001
+   ],
+   [
+    "nn",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.994,
+  "whisper_p_en_range": [
+   0.992,
+   0.997
+  ],
+  "whisper_top_non_en": [
+   "ja",
+   0.001
+  ],
+  "transcript": "Pack Lightly, the Northern Trail opens today.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Emmett",
+  "voice_id": "3c7d32be-0182-5c5e-aa6a-663409bfbb26",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/3c7d32be-0182-5c5e-aa6a-663409bfbb26/preview-eb4f23d8867ce233.mp3",
+  "file": "Emmett.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.3,
+  "duration_s": 2.64,
+  "pitch_floor_hz": 82.5,
+  "pitch_ceiling_hz": 266.9,
+  "f0_median_hz": 126.2,
+  "f0_p10_hz": 91.2,
+  "f0_p90_hz": 181.2,
+  "f0_range_p10_p90_st": 11.88,
+  "f0_semitone_sd": 4.08,
+  "voiced_frames": 194,
+  "speech_time_s": 2.64,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 7,
+  "articulation_rate_nuclei_per_s": 2.65,
+  "transcript_syllables": 9,
+  "articulation_rate_transcript_syl_per_s": 3.41,
+  "voiced_fraction_of_speech": 0.73,
+  "hnr_mean_db": 13.2,
+  "jitter_local_pct": 2.235,
+  "shimmer_local_pct": 5.7,
+  "f1_median_hz": 371.0,
+  "f2_median_hz": 1439.0,
+  "f3_median_hz": 2341.0,
+  "f4_median_hz": 3283.0,
+  "formant_spacing_hz": 938.0,
+  "apparent_vtl_cm": 18.67,
+  "apparent_vtl_f3f4_cm": 18.67,
+  "formant_frames": 194,
+  "fixed5000_f1_f4_hz": [
+   396.0,
+   1465.0,
+   2415.0,
+   3339.0
+  ],
+  "fixed5000_vtl_cm": 18.27,
+  "vtl_ceiling_spread_cm": 1.73,
+  "centroid_hz": 933.0,
+  "flatness": 0.0007,
+  "tilt_db_per_oct": -8.59,
+  "alpha_ratio_db": -11.3,
+  "power_share_below_300hz": 0.617,
+  "rms_sd_db": 8.11,
+  "rms_range_p10_p90_db": 16.82,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.994
+   ],
+   [
+    "zh",
+    0.001
+   ],
+   [
+    "cy",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.994,
+  "whisper_p_en_range": [
+   0.993,
+   0.995
+  ],
+  "whisper_top_non_en": [
+   "zh",
+   0.001
+  ],
+  "transcript": "Good news arrived with the morning mail.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [
+   "news"
+  ],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Desmond",
+  "voice_id": "563f728c-e249-5a85-97ab-8461e8c09da6",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/563f728c-e249-5a85-97ab-8461e8c09da6/preview-df657d3e601522e1.mp3",
+  "file": "Desmond.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 3.2,
+  "pitch_floor_hz": 71.0,
+  "pitch_ceiling_hz": 221.0,
+  "f0_median_hz": 104.9,
+  "f0_p10_hz": 85.6,
+  "f0_p90_hz": 133.4,
+  "f0_range_p10_p90_st": 7.67,
+  "f0_semitone_sd": 3.01,
+  "voiced_frames": 210,
+  "speech_time_s": 3.2,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 11,
+  "articulation_rate_nuclei_per_s": 3.44,
+  "transcript_syllables": 11,
+  "articulation_rate_transcript_syl_per_s": 3.44,
+  "voiced_fraction_of_speech": 0.66,
+  "hnr_mean_db": 14.11,
+  "jitter_local_pct": 2.497,
+  "shimmer_local_pct": 7.72,
+  "f1_median_hz": 350.0,
+  "f2_median_hz": 1302.0,
+  "f3_median_hz": 2562.0,
+  "f4_median_hz": 3449.0,
+  "formant_spacing_hz": 981.0,
+  "apparent_vtl_cm": 17.83,
+  "apparent_vtl_f3f4_cm": 17.52,
+  "formant_frames": 210,
+  "fixed5000_f1_f4_hz": [
+   307.0,
+   1276.0,
+   2558.0,
+   3664.0
+  ],
+  "fixed5000_vtl_cm": 17.27,
+  "vtl_ceiling_spread_cm": 2.56,
+  "centroid_hz": 548.0,
+  "flatness": 0.0003,
+  "tilt_db_per_oct": -6.88,
+  "alpha_ratio_db": -15.84,
+  "power_share_below_300hz": 0.774,
+  "rms_sd_db": 9.35,
+  "rms_range_p10_p90_db": 23.04,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.995
+   ],
+   [
+    "nn",
+    0.002
+   ],
+   [
+    "cy",
+    0.002
+   ]
+  ],
+  "whisper_p_en": 0.995,
+  "whisper_p_en_range": [
+   0.99,
+   0.997
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.002
+  ],
+  "transcript": "Moonlight floated through the curtains like water.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy",
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 2.56 cm); trust FormantPath value loosely"
+  ]
+ },
+ {
+  "name": "Cody",
+  "voice_id": "1ffcdbb3-078b-5491-959d-359e3021e917",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/1ffcdbb3-078b-5491-959d-359e3021e917/preview-3907aace99c2401c.mp3",
+  "file": "Cody.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.2,
+  "duration_s": 3.6,
+  "pitch_floor_hz": 162.8,
+  "pitch_ceiling_hz": 486.0,
+  "f0_median_hz": 242.4,
+  "f0_p10_hz": 206.6,
+  "f0_p90_hz": 270.8,
+  "f0_range_p10_p90_st": 4.68,
+  "f0_semitone_sd": 1.81,
+  "voiced_frames": 173,
+  "speech_time_s": 3.06,
+  "n_internal_pauses": 1,
+  "syllable_nuclei": 9,
+  "articulation_rate_nuclei_per_s": 2.94,
+  "transcript_syllables": 8,
+  "articulation_rate_transcript_syl_per_s": 2.61,
+  "voiced_fraction_of_speech": 0.57,
+  "hnr_mean_db": 13.17,
+  "jitter_local_pct": 2.222,
+  "shimmer_local_pct": 14.25,
+  "f1_median_hz": 520.0,
+  "f2_median_hz": 1653.0,
+  "f3_median_hz": 2982.0,
+  "f4_median_hz": 3891.0,
+  "formant_spacing_hz": 1134.0,
+  "apparent_vtl_cm": 15.43,
+  "apparent_vtl_f3f4_cm": 15.36,
+  "formant_frames": 173,
+  "fixed5000_f1_f4_hz": [
+   511.0,
+   1494.0,
+   2847.0,
+   3803.0
+  ],
+  "fixed5000_vtl_cm": 16.03,
+  "vtl_ceiling_spread_cm": 3.94,
+  "centroid_hz": 1390.0,
+  "flatness": 0.0057,
+  "tilt_db_per_oct": -3.9,
+  "alpha_ratio_db": -8.23,
+  "power_share_below_300hz": 0.402,
+  "rms_sd_db": 10.47,
+  "rms_range_p10_p90_db": 28.91,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.962
+   ],
+   [
+    "cy",
+    0.03
+   ],
+   [
+    "nn",
+    0.004
+   ]
+  ],
+  "whisper_p_en": 0.962,
+  "whisper_p_en_range": [
+   0.941,
+   0.973
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.03
+  ],
+  "transcript": "At midnight the portrait blinked twice.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy",
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 3.94 cm); trust FormantPath value loosely"
+  ]
+ },
+ {
+  "name": "Ian",
+  "voice_id": "472a562a-4c33-5114-8210-d6ffa1e4e2c5",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/472a562a-4c33-5114-8210-d6ffa1e4e2c5/preview-ed06fa132813bf17.mp3",
+  "file": "Ian.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.6,
+  "duration_s": 2.8,
+  "pitch_floor_hz": 89.6,
+  "pitch_ceiling_hz": 289.3,
+  "f0_median_hz": 126.7,
+  "f0_p10_hz": 103.6,
+  "f0_p90_hz": 172.6,
+  "f0_range_p10_p90_st": 8.84,
+  "f0_semitone_sd": 3.47,
+  "voiced_frames": 162,
+  "speech_time_s": 2.8,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 10,
+  "articulation_rate_nuclei_per_s": 3.57,
+  "transcript_syllables": 8,
+  "articulation_rate_transcript_syl_per_s": 2.86,
+  "voiced_fraction_of_speech": 0.58,
+  "hnr_mean_db": 10.35,
+  "jitter_local_pct": 1.769,
+  "shimmer_local_pct": 8.95,
+  "f1_median_hz": 405.0,
+  "f2_median_hz": 1170.0,
+  "f3_median_hz": 2543.0,
+  "f4_median_hz": 3395.0,
+  "formant_spacing_hz": 962.0,
+  "apparent_vtl_cm": 18.2,
+  "apparent_vtl_f3f4_cm": 17.75,
+  "formant_frames": 162,
+  "fixed5000_f1_f4_hz": [
+   417.0,
+   1176.0,
+   2567.0,
+   3480.0
+  ],
+  "fixed5000_vtl_cm": 17.87,
+  "vtl_ceiling_spread_cm": 2.91,
+  "centroid_hz": 1175.0,
+  "flatness": 0.0018,
+  "tilt_db_per_oct": -5.78,
+  "alpha_ratio_db": -8.29,
+  "power_share_below_300hz": 0.387,
+  "rms_sd_db": 10.12,
+  "rms_range_p10_p90_db": 26.32,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.997
+   ],
+   [
+    "cy",
+    0.0
+   ],
+   [
+    "nn",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.997,
+  "whisper_p_en_range": [
+   0.996,
+   0.997
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.0
+  ],
+  "transcript": "No storm will move us from this path.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy",
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 2.91 cm); trust FormantPath value loosely"
+  ]
+ },
+ {
+  "name": "Evan",
+  "voice_id": "f7a46aa0-183a-5327-b554-e71d8c0071bb",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/f7a46aa0-183a-5327-b554-e71d8c0071bb/preview-55ccebc8c46f904a.mp3",
+  "file": "Evan.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.3,
+  "duration_s": 2.72,
+  "pitch_floor_hz": 114.8,
+  "pitch_ceiling_hz": 444.3,
+  "f0_median_hz": 180.3,
+  "f0_p10_hz": 146.2,
+  "f0_p90_hz": 279.2,
+  "f0_range_p10_p90_st": 11.2,
+  "f0_semitone_sd": 4.52,
+  "voiced_frames": 169,
+  "speech_time_s": 2.72,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 11,
+  "articulation_rate_nuclei_per_s": 4.04,
+  "transcript_syllables": 13,
+  "articulation_rate_transcript_syl_per_s": 4.78,
+  "voiced_fraction_of_speech": 0.62,
+  "hnr_mean_db": 13.57,
+  "jitter_local_pct": 1.724,
+  "shimmer_local_pct": 7.27,
+  "f1_median_hz": 544.0,
+  "f2_median_hz": 1723.0,
+  "f3_median_hz": 3046.0,
+  "f4_median_hz": 4193.0,
+  "formant_spacing_hz": 1197.0,
+  "apparent_vtl_cm": 14.61,
+  "apparent_vtl_f3f4_cm": 14.53,
+  "formant_frames": 169,
+  "fixed5000_f1_f4_hz": [
+   536.0,
+   1586.0,
+   2732.0,
+   3383.0
+  ],
+  "fixed5000_vtl_cm": 17.24,
+  "vtl_ceiling_spread_cm": 4.75,
+  "centroid_hz": 1317.0,
+  "flatness": 0.0018,
+  "tilt_db_per_oct": -6.71,
+  "alpha_ratio_db": -9.05,
+  "power_share_below_300hz": 0.279,
+  "rms_sd_db": 10.68,
+  "rms_range_p10_p90_db": 24.21,
+  "whisper_lang_top3": [
+   [
+    "ca",
+    0.84
+   ],
+   [
+    "es",
+    0.099
+   ],
+   [
+    "en",
+    0.033
+   ]
+  ],
+  "whisper_p_en": 0.033,
+  "whisper_p_en_range": [
+   0.016,
+   0.047
+  ],
+  "whisper_top_non_en": [
+   "ca",
+   0.84
+  ],
+  "transcript": "All photographs keep ordinary moments alive.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "strong non-native cue: Whisper hears ca (p_en=0.033); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy",
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 4.75 cm); trust FormantPath value loosely"
+  ]
+ },
+ {
+  "name": "Jasper",
+  "voice_id": "a7b8abe9-47f1-553e-a9df-87945a7e5bc8",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/a7b8abe9-47f1-553e-a9df-87945a7e5bc8/preview-1f30d3a4f7854909.mp3",
+  "file": "Jasper.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 2.72,
+  "pitch_floor_hz": 55.4,
+  "pitch_ceiling_hz": 199.0,
+  "f0_median_hz": 82.8,
+  "f0_p10_hz": 67.5,
+  "f0_p90_hz": 144.1,
+  "f0_range_p10_p90_st": 13.14,
+  "f0_semitone_sd": 5.28,
+  "voiced_frames": 166,
+  "speech_time_s": 2.72,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 9,
+  "articulation_rate_nuclei_per_s": 3.31,
+  "transcript_syllables": 10,
+  "articulation_rate_transcript_syl_per_s": 3.68,
+  "voiced_fraction_of_speech": 0.61,
+  "hnr_mean_db": 10.28,
+  "jitter_local_pct": 3.217,
+  "shimmer_local_pct": 9.42,
+  "f1_median_hz": 297.0,
+  "f2_median_hz": 1343.0,
+  "f3_median_hz": 2305.0,
+  "f4_median_hz": 3431.0,
+  "formant_spacing_hz": 949.0,
+  "apparent_vtl_cm": 18.44,
+  "apparent_vtl_f3f4_cm": 18.22,
+  "formant_frames": 166,
+  "fixed5000_f1_f4_hz": [
+   294.0,
+   1366.0,
+   2310.0,
+   3481.0
+  ],
+  "fixed5000_vtl_cm": 18.24,
+  "vtl_ceiling_spread_cm": 0.66,
+  "centroid_hz": 679.0,
+  "flatness": 0.0004,
+  "tilt_db_per_oct": -5.84,
+  "alpha_ratio_db": -15.65,
+  "power_share_below_300hz": 0.782,
+  "rms_sd_db": 10.08,
+  "rms_range_p10_p90_db": 21.02,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.989
+   ],
+   [
+    "cy",
+    0.008
+   ],
+   [
+    "nn",
+    0.002
+   ]
+  ],
+  "whisper_p_en": 0.989,
+  "whisper_p_en_range": [
+   0.982,
+   0.993
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.008
+  ],
+  "transcript": "Summer evenings still smell like pine trees.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Alden",
+  "voice_id": "fec5acae-d801-5761-8d2c-4c2c75db3e2a",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/fec5acae-d801-5761-8d2c-4c2c75db3e2a/preview-2f4a527ceeb1fc2a.mp3",
+  "file": "Alden.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.3,
+  "duration_s": 2.48,
+  "pitch_floor_hz": 81.6,
+  "pitch_ceiling_hz": 259.7,
+  "f0_median_hz": 124.4,
+  "f0_p10_hz": 90.0,
+  "f0_p90_hz": 161.6,
+  "f0_range_p10_p90_st": 10.14,
+  "f0_semitone_sd": 3.46,
+  "voiced_frames": 166,
+  "speech_time_s": 2.48,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 8,
+  "articulation_rate_nuclei_per_s": 3.23,
+  "transcript_syllables": 11,
+  "articulation_rate_transcript_syl_per_s": 4.44,
+  "voiced_fraction_of_speech": 0.67,
+  "hnr_mean_db": 14.36,
+  "jitter_local_pct": 1.931,
+  "shimmer_local_pct": 6.95,
+  "f1_median_hz": 321.0,
+  "f2_median_hz": 1508.0,
+  "f3_median_hz": 2335.0,
+  "f4_median_hz": 3222.0,
+  "formant_spacing_hz": 930.0,
+  "apparent_vtl_cm": 18.81,
+  "apparent_vtl_f3f4_cm": 18.92,
+  "formant_frames": 166,
+  "fixed5000_f1_f4_hz": [
+   307.0,
+   1478.0,
+   2318.0,
+   3330.0
+  ],
+  "fixed5000_vtl_cm": 18.54,
+  "vtl_ceiling_spread_cm": 2.85,
+  "centroid_hz": 840.0,
+  "flatness": 0.0008,
+  "tilt_db_per_oct": -6.66,
+  "alpha_ratio_db": -14.04,
+  "power_share_below_300hz": 0.795,
+  "rms_sd_db": 9.27,
+  "rms_range_p10_p90_db": 21.78,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.992
+   ],
+   [
+    "mi",
+    0.004
+   ],
+   [
+    "cy",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.992,
+  "whisper_p_en_range": [
+   0.987,
+   0.996
+  ],
+  "whisper_top_non_en": [
+   "mi",
+   0.004
+  ],
+  "transcript": "Tomorrow brings another clean page to fill.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy",
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 2.85 cm); trust FormantPath value loosely"
+  ]
+ },
+ {
+  "name": "Knox",
+  "voice_id": "195e386a-cb61-5c1b-a53b-0e2f0669c408",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/195e386a-cb61-5c1b-a53b-0e2f0669c408/preview-cb24afb3a797d372.mp3",
+  "file": "Knox.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.6,
+  "duration_s": 3.2,
+  "pitch_floor_hz": 76.3,
+  "pitch_ceiling_hz": 236.7,
+  "f0_median_hz": 110.7,
+  "f0_p10_hz": 95.3,
+  "f0_p90_hz": 163.6,
+  "f0_range_p10_p90_st": 9.36,
+  "f0_semitone_sd": 3.33,
+  "voiced_frames": 194,
+  "speech_time_s": 3.2,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 8,
+  "articulation_rate_nuclei_per_s": 2.5,
+  "transcript_syllables": 9,
+  "articulation_rate_transcript_syl_per_s": 2.81,
+  "voiced_fraction_of_speech": 0.61,
+  "hnr_mean_db": 9.18,
+  "jitter_local_pct": 2.738,
+  "shimmer_local_pct": 8.98,
+  "f1_median_hz": 311.0,
+  "f2_median_hz": 1589.0,
+  "f3_median_hz": 2732.0,
+  "f4_median_hz": 3431.0,
+  "formant_spacing_hz": 1018.0,
+  "apparent_vtl_cm": 17.19,
+  "apparent_vtl_f3f4_cm": 17.19,
+  "formant_frames": 194,
+  "fixed5000_f1_f4_hz": [
+   339.0,
+   1726.0,
+   2756.0,
+   3619.0
+  ],
+  "fixed5000_vtl_cm": 16.47,
+  "vtl_ceiling_spread_cm": 1.84,
+  "centroid_hz": 1150.0,
+  "flatness": 0.0021,
+  "tilt_db_per_oct": -4.96,
+  "alpha_ratio_db": -7.71,
+  "power_share_below_300hz": 0.677,
+  "rms_sd_db": 9.95,
+  "rms_range_p10_p90_db": 25.17,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.849
+   ],
+   [
+    "cy",
+    0.092
+   ],
+   [
+    "mi",
+    0.028
+   ]
+  ],
+  "whisper_p_en": 0.849,
+  "whisper_p_en_range": [
+   0.836,
+   0.875
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.092
+  ],
+  "transcript": "Three bright kites raced above the meadow.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "mild cue: cy p=0.09 (p_en=0.849); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Barrett",
+  "voice_id": "d603a8cd-3fe1-55e0-9245-617a2589131e",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/d603a8cd-3fe1-55e0-9245-617a2589131e/preview-00167e6e5fdfbf02.mp3",
+  "file": "Barrett.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 2.96,
+  "pitch_floor_hz": 71.3,
+  "pitch_ceiling_hz": 228.6,
+  "f0_median_hz": 105.2,
+  "f0_p10_hz": 74.2,
+  "f0_p90_hz": 175.4,
+  "f0_range_p10_p90_st": 14.89,
+  "f0_semitone_sd": 5.21,
+  "voiced_frames": 149,
+  "speech_time_s": 2.65,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 12,
+  "articulation_rate_nuclei_per_s": 4.54,
+  "transcript_syllables": 12,
+  "articulation_rate_transcript_syl_per_s": 4.54,
+  "voiced_fraction_of_speech": 0.56,
+  "hnr_mean_db": 10.83,
+  "jitter_local_pct": 3.74,
+  "shimmer_local_pct": 8.56,
+  "f1_median_hz": 219.0,
+  "f2_median_hz": 2162.0,
+  "f3_median_hz": 2710.0,
+  "f4_median_hz": 4068.0,
+  "formant_spacing_hz": 1160.0,
+  "apparent_vtl_cm": 15.08,
+  "apparent_vtl_f3f4_cm": 15.41,
+  "formant_frames": 149,
+  "fixed5000_f1_f4_hz": [
+   213.0,
+   2121.0,
+   2726.0,
+   4058.0
+  ],
+  "fixed5000_vtl_cm": 15.12,
+  "vtl_ceiling_spread_cm": 2.91,
+  "centroid_hz": 1323.0,
+  "flatness": 0.0018,
+  "tilt_db_per_oct": -2.78,
+  "alpha_ratio_db": -10.56,
+  "power_share_below_300hz": 0.897,
+  "rms_sd_db": 10.99,
+  "rms_range_p10_p90_db": 29.51,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.995
+   ],
+   [
+    "nn",
+    0.001
+   ],
+   [
+    "cy",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.995,
+  "whisper_p_en_range": [
+   0.994,
+   0.997
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.001
+  ],
+  "transcript": "A peacock wandered straight into the bakery.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy",
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 2.91 cm); trust FormantPath value loosely"
+  ]
+ },
+ {
+  "name": "Landon",
+  "voice_id": "dc1c0a41-53cd-53af-aec5-ab637840505f",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/dc1c0a41-53cd-53af-aec5-ab637840505f/preview-27c57ad4dd45ecde.mp3",
+  "file": "Landon.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.5,
+  "duration_s": 2.4,
+  "pitch_floor_hz": 55.4,
+  "pitch_ceiling_hz": 162.9,
+  "f0_median_hz": 80.2,
+  "f0_p10_hz": 69.4,
+  "f0_p90_hz": 110.3,
+  "f0_range_p10_p90_st": 8.03,
+  "f0_semitone_sd": 3.0,
+  "voiced_frames": 133,
+  "speech_time_s": 2.4,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 10,
+  "articulation_rate_nuclei_per_s": 4.17,
+  "transcript_syllables": 10,
+  "articulation_rate_transcript_syl_per_s": 4.17,
+  "voiced_fraction_of_speech": 0.55,
+  "hnr_mean_db": 11.26,
+  "jitter_local_pct": 3.297,
+  "shimmer_local_pct": 7.88,
+  "f1_median_hz": 282.0,
+  "f2_median_hz": 1508.0,
+  "f3_median_hz": 2547.0,
+  "f4_median_hz": 3321.0,
+  "formant_spacing_hz": 971.0,
+  "apparent_vtl_cm": 18.02,
+  "apparent_vtl_f3f4_cm": 18.0,
+  "formant_frames": 133,
+  "fixed5000_f1_f4_hz": [
+   286.0,
+   1578.0,
+   2577.0,
+   3506.0
+  ],
+  "fixed5000_vtl_cm": 17.31,
+  "vtl_ceiling_spread_cm": 2.56,
+  "centroid_hz": 1091.0,
+  "flatness": 0.0023,
+  "tilt_db_per_oct": -2.88,
+  "alpha_ratio_db": -13.6,
+  "power_share_below_300hz": 0.883,
+  "rms_sd_db": 10.79,
+  "rms_range_p10_p90_db": 26.81,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.995
+   ],
+   [
+    "cy",
+    0.003
+   ],
+   [
+    "nn",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.995,
+  "whisper_p_en_range": [
+   0.994,
+   0.997
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.003
+  ],
+  "transcript": "Footsteps faded beyond the library door.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy",
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 2.56 cm); trust FormantPath value loosely"
+  ]
+ },
+ {
+  "name": "Callan",
+  "voice_id": "d8061b90-ff25-5882-8384-7a6a28806f30",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/d8061b90-ff25-5882-8384-7a6a28806f30/preview-fd7abd90cecffdea.mp3",
+  "file": "Callan.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.6,
+  "duration_s": 2.64,
+  "pitch_floor_hz": 90.1,
+  "pitch_ceiling_hz": 307.7,
+  "f0_median_hz": 140.7,
+  "f0_p10_hz": 107.5,
+  "f0_p90_hz": 197.6,
+  "f0_range_p10_p90_st": 10.54,
+  "f0_semitone_sd": 3.97,
+  "voiced_frames": 157,
+  "speech_time_s": 2.64,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 9,
+  "articulation_rate_nuclei_per_s": 3.41,
+  "transcript_syllables": 9,
+  "articulation_rate_transcript_syl_per_s": 3.41,
+  "voiced_fraction_of_speech": 0.59,
+  "hnr_mean_db": 8.99,
+  "jitter_local_pct": 2.326,
+  "shimmer_local_pct": 10.11,
+  "f1_median_hz": 432.0,
+  "f2_median_hz": 1341.0,
+  "f3_median_hz": 2570.0,
+  "f4_median_hz": 3355.0,
+  "formant_spacing_hz": 971.0,
+  "apparent_vtl_cm": 18.02,
+  "apparent_vtl_f3f4_cm": 17.82,
+  "formant_frames": 157,
+  "fixed5000_f1_f4_hz": [
+   429.0,
+   1376.0,
+   2598.0,
+   3359.0
+  ],
+  "fixed5000_vtl_cm": 17.9,
+  "vtl_ceiling_spread_cm": 1.8,
+  "centroid_hz": 1435.0,
+  "flatness": 0.0026,
+  "tilt_db_per_oct": -5.53,
+  "alpha_ratio_db": -2.61,
+  "power_share_below_300hz": 0.245,
+  "rms_sd_db": 8.87,
+  "rms_range_p10_p90_db": 23.69,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.997
+   ],
+   [
+    "cy",
+    0.0
+   ],
+   [
+    "nn",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.997,
+  "whisper_p_en_range": [
+   0.996,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.0
+  ],
+  "transcript": "We keep climbing until the clouds clear.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [
+   "clear"
+  ],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Miles",
+  "voice_id": "e18664a7-ee4f-5273-acf8-533eb24cd366",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice/e18664a7-ee4f-5273-acf8-533eb24cd366/preview-0ae20b7a11f4bcc2.mp3",
+  "file": "Miles.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 3.52,
+  "pitch_floor_hz": 129.0,
+  "pitch_ceiling_hz": 426.6,
+  "f0_median_hz": 201.9,
+  "f0_p10_hz": 165.8,
+  "f0_p90_hz": 374.2,
+  "f0_range_p10_p90_st": 14.09,
+  "f0_semitone_sd": 5.36,
+  "voiced_frames": 226,
+  "speech_time_s": 2.92,
+  "n_internal_pauses": 0,
+  "syllable_nuclei": 12,
+  "articulation_rate_nuclei_per_s": 4.1,
+  "transcript_syllables": 9,
+  "articulation_rate_transcript_syl_per_s": 3.08,
+  "voiced_fraction_of_speech": 0.77,
+  "hnr_mean_db": 16.53,
+  "jitter_local_pct": 2.045,
+  "shimmer_local_pct": 8.43,
+  "f1_median_hz": 371.0,
+  "f2_median_hz": 1226.0,
+  "f3_median_hz": 2561.0,
+  "f4_median_hz": 3414.0,
+  "formant_spacing_hz": 970.0,
+  "apparent_vtl_cm": 18.04,
+  "apparent_vtl_f3f4_cm": 17.64,
+  "formant_frames": 226,
+  "fixed5000_f1_f4_hz": [
+   374.0,
+   1254.0,
+   2606.0,
+   3479.0
+  ],
+  "fixed5000_vtl_cm": 17.7,
+  "vtl_ceiling_spread_cm": 1.71,
+  "centroid_hz": 1091.0,
+  "flatness": 0.001,
+  "tilt_db_per_oct": -7.49,
+  "alpha_ratio_db": -7.66,
+  "power_share_below_300hz": 0.09,
+  "rms_sd_db": 10.92,
+  "rms_range_p10_p90_db": 24.75,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.997
+   ],
+   [
+    "cy",
+    0.001
+   ],
+   [
+    "ja",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.997,
+  "whisper_p_en_range": [
+   0.995,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.001
+  ],
+  "transcript": "The robot learned to make perfect waffles!",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "John",
+  "voice_id": "6b528d43-c056-4a2f-9d82-1591a7ba13b0",
+  "preview_url": "https://cdn.higgsfield.ai/audio_voice/fda261dc-1245-4bba-b47b-4debd425b31a.mp3",
+  "file": "John.mp3",
+  "native_sr": 24000,
+  "native_bandwidth_khz": 10.9,
+  "duration_s": 17.33,
+  "pitch_floor_hz": 117.3,
+  "pitch_ceiling_hz": 362.2,
+  "f0_median_hz": 173.5,
+  "f0_p10_hz": 142.4,
+  "f0_p90_hz": 235.4,
+  "f0_range_p10_p90_st": 8.7,
+  "f0_semitone_sd": 3.26,
+  "voiced_frames": 1268,
+  "speech_time_s": 17.0,
+  "n_internal_pauses": 1,
+  "syllable_nuclei": 60,
+  "articulation_rate_nuclei_per_s": 3.53,
+  "transcript_syllables": 76,
+  "articulation_rate_transcript_syl_per_s": 4.47,
+  "voiced_fraction_of_speech": 0.75,
+  "hnr_mean_db": 14.89,
+  "jitter_local_pct": 1.479,
+  "shimmer_local_pct": 6.64,
+  "f1_median_hz": 549.0,
+  "f2_median_hz": 1551.0,
+  "f3_median_hz": 2513.0,
+  "f4_median_hz": 3449.0,
+  "formant_spacing_hz": 998.0,
+  "apparent_vtl_cm": 17.54,
+  "apparent_vtl_f3f4_cm": 17.64,
+  "formant_frames": 1268,
+  "fixed5000_f1_f4_hz": [
+   552.0,
+   1564.0,
+   2566.0,
+   3444.0
+  ],
+  "fixed5000_vtl_cm": 17.42,
+  "vtl_ceiling_spread_cm": 1.79,
+  "centroid_hz": 1428.0,
+  "flatness": 0.0024,
+  "tilt_db_per_oct": -8.38,
+  "alpha_ratio_db": -3.56,
+  "power_share_below_300hz": 0.251,
+  "rms_sd_db": 9.96,
+  "rms_range_p10_p90_db": 21.95,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.995
+   ],
+   [
+    "nn",
+    0.001
+   ],
+   [
+    "ja",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.995,
+  "whisper_p_en_range": [
+   0.99,
+   0.997
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.001
+  ],
+  "transcript": "Hey, yay! The name's John! Yeah, you hear that? A voice with character, a little nasal, a lot memorable. I'm not your standard announcer guy. And that's the whole point. Quirky sidekicks, oddball villains, weird commercials, bold stuff nobody else dares to try. That's where I shine, baby. Go on, pick the weird option.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "bold",
+   "nasal",
+   "quirky",
+   "memorable",
+   "oddball",
+   "villains",
+   "sidekicks"
+  ],
+  "style_quotes": [
+   "A voice with character, a little nasal, a lot memorable."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "source band-limited to ~10.9 kHz (spectral stats use 0-8 kHz so still comparable)"
+  ]
+ },
+ {
+  "name": "Callum",
+  "voice_id": "858499d9-fef5-40e1-bc29-b4dc661dc283",
+  "preview_url": "https://cdn.higgsfield.ai/audio_voice/40a9b67a-5d11-4f60-91d8-9ae4f3327ff1.wav",
+  "file": "Callum.wav",
+  "native_sr": 40000,
+  "native_bandwidth_khz": 16.7,
+  "duration_s": 27.88,
+  "pitch_floor_hz": 69.5,
+  "pitch_ceiling_hz": 234.6,
+  "f0_median_hz": 111.7,
+  "f0_p10_hz": 77.9,
+  "f0_p90_hz": 152.4,
+  "f0_range_p10_p90_st": 11.62,
+  "f0_semitone_sd": 4.36,
+  "voiced_frames": 737,
+  "speech_time_s": 10.62,
+  "n_internal_pauses": 8,
+  "syllable_nuclei": 46,
+  "articulation_rate_nuclei_per_s": 4.33,
+  "transcript_syllables": 61,
+  "articulation_rate_transcript_syl_per_s": 5.74,
+  "voiced_fraction_of_speech": 0.69,
+  "hnr_mean_db": 10.57,
+  "jitter_local_pct": 3.34,
+  "shimmer_local_pct": 10.55,
+  "f1_median_hz": 442.0,
+  "f2_median_hz": 1430.0,
+  "f3_median_hz": 2501.0,
+  "f4_median_hz": 3463.0,
+  "formant_spacing_hz": 988.0,
+  "apparent_vtl_cm": 17.72,
+  "apparent_vtl_f3f4_cm": 17.62,
+  "formant_frames": 737,
+  "fixed5000_f1_f4_hz": [
+   417.0,
+   1411.0,
+   2524.0,
+   3517.0
+  ],
+  "fixed5000_vtl_cm": 17.55,
+  "vtl_ceiling_spread_cm": 0.83,
+  "centroid_hz": 945.0,
+  "flatness": 0.0021,
+  "tilt_db_per_oct": -5.59,
+  "alpha_ratio_db": -13.64,
+  "power_share_below_300hz": 0.289,
+  "rms_sd_db": 9.41,
+  "rms_range_p10_p90_db": 24.15,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.997
+   ],
+   [
+    "cy",
+    0.002
+   ],
+   [
+    "nn",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.997,
+  "whisper_p_en_range": [
+   0.995,
+   0.999
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.002
+  ],
+  "transcript": "Hey, my name is Callum, this is how my voice sounds, and I'm a perfect fit for news delivery. Officials confirmed the update this morning, and more details are expected later today. Anyway, that is all for today. Thank you for watching!",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "news"
+  ],
+  "style_quotes": [
+   "Hey, my name is Callum, this is how my voice sounds, and I'm a perfect fit for news delivery."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "different preview template (40 kHz stereo WAV with long pauses)"
+  ]
+ },
+ {
+  "name": "Bram",
+  "voice_id": "549ff70a-3ee7-4f04-a4d9-89a24fab7709",
+  "preview_url": "https://cdn.higgsfield.ai/audio_voice/92b784d6-f194-414b-8d78-fb7108ba4d5a.wav",
+  "file": "Bram.wav",
+  "native_sr": 40000,
+  "native_bandwidth_khz": 16.9,
+  "duration_s": 17.0,
+  "pitch_floor_hz": 124.0,
+  "pitch_ceiling_hz": 413.8,
+  "f0_median_hz": 203.8,
+  "f0_p10_hz": 140.0,
+  "f0_p90_hz": 273.4,
+  "f0_range_p10_p90_st": 11.58,
+  "f0_semitone_sd": 4.15,
+  "voiced_frames": 647,
+  "speech_time_s": 11.76,
+  "n_internal_pauses": 7,
+  "syllable_nuclei": 47,
+  "articulation_rate_nuclei_per_s": 4.0,
+  "transcript_syllables": 58,
+  "articulation_rate_transcript_syl_per_s": 4.93,
+  "voiced_fraction_of_speech": 0.55,
+  "hnr_mean_db": 10.78,
+  "jitter_local_pct": 2.643,
+  "shimmer_local_pct": 9.58,
+  "f1_median_hz": 406.0,
+  "f2_median_hz": 1762.0,
+  "f3_median_hz": 2814.0,
+  "f4_median_hz": 3685.0,
+  "formant_spacing_hz": 1085.0,
+  "apparent_vtl_cm": 16.14,
+  "apparent_vtl_f3f4_cm": 16.24,
+  "formant_frames": 647,
+  "fixed5000_f1_f4_hz": [
+   409.0,
+   1762.0,
+   2807.0,
+   3621.0
+  ],
+  "fixed5000_vtl_cm": 16.31,
+  "vtl_ceiling_spread_cm": 1.76,
+  "centroid_hz": 1648.0,
+  "flatness": 0.0083,
+  "tilt_db_per_oct": -4.59,
+  "alpha_ratio_db": -6.59,
+  "power_share_below_300hz": 0.312,
+  "rms_sd_db": 10.5,
+  "rms_range_p10_p90_db": 27.17,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.995
+   ],
+   [
+    "ja",
+    0.001
+   ],
+   [
+    "nn",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.995,
+  "whisper_p_en_range": [
+   0.994,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "ja",
+   0.001
+  ],
+  "transcript": "Hey, my name is Bram. This is how my voice sounds, and I'm a perfect fit for faceless YouTube videos. Stick around, because what happens at the end of this video will completely change how you think. Anyway, that is all for today.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "faceless youtube"
+  ],
+  "style_quotes": [
+   "This is how my voice sounds, and I'm a perfect fit for faceless YouTube videos."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "different preview template (40 kHz stereo WAV with long pauses)"
+  ]
+ },
+ {
+  "name": "Marcus",
+  "voice_id": "6f98d3dd-324f-4845-8c28-c1d1647a06cd",
+  "preview_url": "https://cdn.higgsfield.ai/audio_voice/cd7a989c-89ba-43c8-bc02-44a8c429825f.wav",
+  "file": "Marcus.wav",
+  "native_sr": 40000,
+  "native_bandwidth_khz": 13.1,
+  "duration_s": 29.1,
+  "pitch_floor_hz": 79.3,
+  "pitch_ceiling_hz": 256.2,
+  "f0_median_hz": 118.9,
+  "f0_p10_hz": 95.3,
+  "f0_p90_hz": 160.2,
+  "f0_range_p10_p90_st": 8.99,
+  "f0_semitone_sd": 3.53,
+  "voiced_frames": 928,
+  "speech_time_s": 13.4,
+  "n_internal_pauses": 12,
+  "syllable_nuclei": 52,
+  "articulation_rate_nuclei_per_s": 3.88,
+  "transcript_syllables": 58,
+  "articulation_rate_transcript_syl_per_s": 4.33,
+  "voiced_fraction_of_speech": 0.69,
+  "hnr_mean_db": 13.41,
+  "jitter_local_pct": 2.722,
+  "shimmer_local_pct": 8.02,
+  "f1_median_hz": 458.0,
+  "f2_median_hz": 1515.0,
+  "f3_median_hz": 2510.0,
+  "f4_median_hz": 3573.0,
+  "formant_spacing_hz": 1013.0,
+  "apparent_vtl_cm": 17.27,
+  "apparent_vtl_f3f4_cm": 17.24,
+  "formant_frames": 928,
+  "fixed5000_f1_f4_hz": [
+   433.0,
+   1522.0,
+   2549.0,
+   3633.0
+  ],
+  "fixed5000_vtl_cm": 17.02,
+  "vtl_ceiling_spread_cm": 0.8,
+  "centroid_hz": 898.0,
+  "flatness": 0.0019,
+  "tilt_db_per_oct": -5.5,
+  "alpha_ratio_db": -11.79,
+  "power_share_below_300hz": 0.486,
+  "rms_sd_db": 8.62,
+  "rms_range_p10_p90_db": 21.2,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.996
+   ],
+   [
+    "nn",
+    0.001
+   ],
+   [
+    "la",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.996,
+  "whisper_p_en_range": [
+   0.995,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.001
+  ],
+  "transcript": "Hey, my name is Marcus. This is how my voice sounds, and I'm a perfect fit for audiobooks. The old house stood quietly at the end of the lane, waiting, as it always had, for someone to remember it. Anyway, that is all for today.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "audiobooks"
+  ],
+  "style_quotes": [
+   "This is how my voice sounds, and I'm a perfect fit for audiobooks."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "different preview template (40 kHz stereo WAV with long pauses)"
+  ]
+ },
+ {
+  "name": "Brooks",
+  "voice_id": "c2acff45-84b2-4974-892d-89fa2d4e5598",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/205ba406-f52c-4b61-b3f8-fd04cf683af5.mp3",
+  "file": "Brooks.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.1,
+  "duration_s": 26.0,
+  "pitch_floor_hz": 65.6,
+  "pitch_ceiling_hz": 197.0,
+  "f0_median_hz": 96.8,
+  "f0_p10_hz": 77.5,
+  "f0_p90_hz": 117.9,
+  "f0_range_p10_p90_st": 7.25,
+  "f0_semitone_sd": 2.82,
+  "voiced_frames": 1631,
+  "speech_time_s": 21.05,
+  "n_internal_pauses": 6,
+  "syllable_nuclei": 76,
+  "articulation_rate_nuclei_per_s": 3.61,
+  "transcript_syllables": 92,
+  "articulation_rate_transcript_syl_per_s": 4.37,
+  "voiced_fraction_of_speech": 0.77,
+  "hnr_mean_db": 15.65,
+  "jitter_local_pct": 2.47,
+  "shimmer_local_pct": 8.1,
+  "f1_median_hz": 352.0,
+  "f2_median_hz": 1378.0,
+  "f3_median_hz": 2460.0,
+  "f4_median_hz": 3513.0,
+  "formant_spacing_hz": 985.0,
+  "apparent_vtl_cm": 17.76,
+  "apparent_vtl_f3f4_cm": 17.55,
+  "formant_frames": 1631,
+  "fixed5000_f1_f4_hz": [
+   279.0,
+   1345.0,
+   2453.0,
+   3596.0
+  ],
+  "fixed5000_vtl_cm": 17.6,
+  "vtl_ceiling_spread_cm": 0.72,
+  "centroid_hz": 591.0,
+  "flatness": 0.0002,
+  "tilt_db_per_oct": -7.89,
+  "alpha_ratio_db": -16.61,
+  "power_share_below_300hz": 0.882,
+  "rms_sd_db": 9.86,
+  "rms_range_p10_p90_db": 21.83,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.988
+   ],
+   [
+    "la",
+    0.002
+   ],
+   [
+    "cy",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.988,
+  "whisper_p_en_range": [
+   0.987,
+   0.989
+  ],
+  "whisper_top_non_en": [
+   "la",
+   0.002
+  ],
+  "transcript": "Hello I'm Brooks. I specialize in a soothing intelligent delivery that makes every listener feel like they're the only one in the room. My sound is defined by a gentle middle American clarity perfect for educational series memoirs or wellness apps. I provide a calm steady hand to guide your audience through even the most complex stories.",
+  "self_description": true,
+  "stated_accent": [
+   "middle american"
+  ],
+  "stated_style": [
+   "gentle",
+   "calm",
+   "soothing",
+   "clarity"
+  ],
+  "style_quotes": [
+   "I specialize in a soothing intelligent delivery that makes every listener feel like they're the only one in the room.",
+   "My sound is defined by a gentle middle American clarity perfect for educational series memoirs or wellness apps.",
+   "I provide a calm steady hand to guide your audience through even the most complex stories."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: middle american",
+  "flags": []
+ },
+ {
+  "name": "Gideon",
+  "voice_id": "1ad38ba4-9cc4-4f2f-9fde-b0fefdf67ae5",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/07a76edf-11cb-45dc-b00d-d6deb5fe6901.mp3",
+  "file": "Gideon.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.6,
+  "duration_s": 22.48,
+  "pitch_floor_hz": 45.2,
+  "pitch_ceiling_hz": 132.7,
+  "f0_median_hz": 65.7,
+  "f0_p10_hz": 55.0,
+  "f0_p90_hz": 79.1,
+  "f0_range_p10_p90_st": 6.29,
+  "f0_semitone_sd": 2.53,
+  "voiced_frames": 1158,
+  "speech_time_s": 16.78,
+  "n_internal_pauses": 9,
+  "syllable_nuclei": 61,
+  "articulation_rate_nuclei_per_s": 3.64,
+  "transcript_syllables": 77,
+  "articulation_rate_transcript_syl_per_s": 4.59,
+  "voiced_fraction_of_speech": 0.69,
+  "hnr_mean_db": 11.14,
+  "jitter_local_pct": 3.802,
+  "shimmer_local_pct": 13.51,
+  "f1_median_hz": 286.0,
+  "f2_median_hz": 1513.0,
+  "f3_median_hz": 2271.0,
+  "f4_median_hz": 3394.0,
+  "formant_spacing_hz": 951.0,
+  "apparent_vtl_cm": 18.4,
+  "apparent_vtl_f3f4_cm": 18.44,
+  "formant_frames": 1158,
+  "fixed5000_f1_f4_hz": [
+   605.0,
+   2020.0,
+   3049.0,
+   3990.0
+  ],
+  "fixed5000_vtl_cm": 14.75,
+  "vtl_ceiling_spread_cm": 4.88,
+  "centroid_hz": 1622.0,
+  "flatness": 0.0056,
+  "tilt_db_per_oct": -1.59,
+  "alpha_ratio_db": -11.94,
+  "power_share_below_300hz": 0.857,
+  "rms_sd_db": 6.45,
+  "rms_range_p10_p90_db": 12.04,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.996
+   ],
+   [
+    "nn",
+    0.001
+   ],
+   [
+    "la",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.996,
+  "whisper_p_en_range": [
+   0.993,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.001
+  ],
+  "transcript": "I'm Gideon, I speak from the shadows, textured, deep, and unapologetically bold. My delivery is rooted in a seasoned, gritty confidence that demands total attention. For projects that require a sense of mystery, danger, or raw narrative power, I am the voice that defines the stakes.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "deep",
+   "textured",
+   "gritty",
+   "bold",
+   "mystery",
+   "danger",
+   "shadows",
+   "confidence",
+   "seasoned"
+  ],
+  "style_quotes": [
+   "I'm Gideon, I speak from the shadows, textured, deep, and unapologetically bold.",
+   "My delivery is rooted in a seasoned, gritty confidence that demands total attention."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 4.88 cm); trust FormantPath value loosely",
+   "very low f0 (creak/fry likely): jitter, shimmer, HNR inflated/deflated"
+  ]
+ },
+ {
+  "name": "Sterling",
+  "voice_id": "dc382508-c8bd-443c-8cb2-46e57b8d2e6f",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/ed37f856-236b-413e-9f4d-9c746648ea72.mp3",
+  "file": "Sterling.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 21.12,
+  "pitch_floor_hz": 59.2,
+  "pitch_ceiling_hz": 178.8,
+  "f0_median_hz": 88.5,
+  "f0_p10_hz": 71.8,
+  "f0_p90_hz": 118.4,
+  "f0_range_p10_p90_st": 8.67,
+  "f0_semitone_sd": 3.32,
+  "voiced_frames": 1167,
+  "speech_time_s": 15.67,
+  "n_internal_pauses": 8,
+  "syllable_nuclei": 68,
+  "articulation_rate_nuclei_per_s": 4.34,
+  "transcript_syllables": 89,
+  "articulation_rate_transcript_syl_per_s": 5.68,
+  "voiced_fraction_of_speech": 0.74,
+  "hnr_mean_db": 9.81,
+  "jitter_local_pct": 3.141,
+  "shimmer_local_pct": 12.54,
+  "f1_median_hz": 360.0,
+  "f2_median_hz": 1372.0,
+  "f3_median_hz": 2243.0,
+  "f4_median_hz": 3352.0,
+  "formant_spacing_hz": 932.0,
+  "apparent_vtl_cm": 18.77,
+  "apparent_vtl_f3f4_cm": 18.67,
+  "formant_frames": 1167,
+  "fixed5000_f1_f4_hz": [
+   352.0,
+   1395.0,
+   2310.0,
+   3852.0
+  ],
+  "fixed5000_vtl_cm": 17.07,
+  "vtl_ceiling_spread_cm": 2.68,
+  "centroid_hz": 905.0,
+  "flatness": 0.0011,
+  "tilt_db_per_oct": -7.49,
+  "alpha_ratio_db": -12.37,
+  "power_share_below_300hz": 0.519,
+  "rms_sd_db": 9.25,
+  "rms_range_p10_p90_db": 21.68,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.995
+   ],
+   [
+    "la",
+    0.001
+   ],
+   [
+    "es",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.995,
+  "whisper_p_en_range": [
+   0.992,
+   0.996
+  ],
+  "whisper_top_non_en": [
+   "la",
+   0.001
+  ],
+  "transcript": "I am sterling. I believe every history deserves a heartbeat. My delivery is warm, resonant, and shaped by a lifetime of Southern rhythm. I specialize in a narration style that is both intimate and epic. Perfect for documentaries that aim to connect the past to the present with a sense of grace and profound human feeling.",
+  "self_description": true,
+  "stated_accent": [
+   "southern"
+  ],
+  "stated_style": [
+   "warm",
+   "resonant",
+   "intimate",
+   "epic",
+   "rhythm"
+  ],
+  "style_quotes": [
+   "My delivery is warm, resonant, and shaped by a lifetime of Southern rhythm.",
+   "I specialize in a narration style that is both intimate and epic."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: southern",
+  "flags": [
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 2.68 cm); trust FormantPath value loosely"
+  ]
+ },
+ {
+  "name": "Harrison",
+  "voice_id": "573e5163-59b3-4926-aab1-951ef2985f81",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/725aa234-8c64-4a87-8f5e-220aca1375f7.mp3",
+  "file": "Harrison.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.5,
+  "duration_s": 20.56,
+  "pitch_floor_hz": 70.5,
+  "pitch_ceiling_hz": 254.4,
+  "f0_median_hz": 120.3,
+  "f0_p10_hz": 83.1,
+  "f0_p90_hz": 172.6,
+  "f0_range_p10_p90_st": 12.65,
+  "f0_semitone_sd": 4.93,
+  "voiced_frames": 1274,
+  "speech_time_s": 17.87,
+  "n_internal_pauses": 4,
+  "syllable_nuclei": 80,
+  "articulation_rate_nuclei_per_s": 4.48,
+  "transcript_syllables": 80,
+  "articulation_rate_transcript_syl_per_s": 4.48,
+  "voiced_fraction_of_speech": 0.71,
+  "hnr_mean_db": 9.66,
+  "jitter_local_pct": 3.001,
+  "shimmer_local_pct": 9.56,
+  "f1_median_hz": 347.0,
+  "f2_median_hz": 1474.0,
+  "f3_median_hz": 2400.0,
+  "f4_median_hz": 3323.0,
+  "formant_spacing_hz": 953.0,
+  "apparent_vtl_cm": 18.36,
+  "apparent_vtl_f3f4_cm": 18.37,
+  "formant_frames": 1274,
+  "fixed5000_f1_f4_hz": [
+   356.0,
+   1494.0,
+   2426.0,
+   3452.0
+  ],
+  "fixed5000_vtl_cm": 17.87,
+  "vtl_ceiling_spread_cm": 2.09,
+  "centroid_hz": 1301.0,
+  "flatness": 0.004,
+  "tilt_db_per_oct": -6.0,
+  "alpha_ratio_db": -8.28,
+  "power_share_below_300hz": 0.458,
+  "rms_sd_db": 7.63,
+  "rms_range_p10_p90_db": 15.86,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.997
+   ],
+   [
+    "cy",
+    0.0
+   ],
+   [
+    "ja",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.997,
+  "whisper_p_en_range": [
+   0.995,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.0
+  ],
+  "transcript": "I'm Harrison. My Voice is the sound of a legacy in the making. I offer a bold, mid-range resonance that's as clear as it is commanding. I specialize in high-end brand stories and product launches where every word needs to carry the weight of excellence. If you want your audience to trust the craft, you use My Voice.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "bold",
+   "resonance",
+   "commanding",
+   "mid-range",
+   "clear"
+  ],
+  "style_quotes": [
+   "My Voice is the sound of a legacy in the making.",
+   "I offer a bold, mid-range resonance that's as clear as it is commanding.",
+   "I specialize in high-end brand stories and product launches where every word needs to carry the weight of excellence."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Alistair",
+  "voice_id": "d9d5c263-f84e-4752-97b5-3750fcc6fd2f",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/1da70cb9-bc0e-4ad4-b812-6e715cb94d6c.mp3",
+  "file": "Alistair.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 12.0,
+  "pitch_floor_hz": 53.3,
+  "pitch_ceiling_hz": 171.8,
+  "f0_median_hz": 79.9,
+  "f0_p10_hz": 58.8,
+  "f0_p90_hz": 110.7,
+  "f0_range_p10_p90_st": 10.94,
+  "f0_semitone_sd": 4.13,
+  "voiced_frames": 740,
+  "speech_time_s": 10.23,
+  "n_internal_pauses": 3,
+  "syllable_nuclei": 42,
+  "articulation_rate_nuclei_per_s": 4.11,
+  "transcript_syllables": 41,
+  "articulation_rate_transcript_syl_per_s": 4.01,
+  "voiced_fraction_of_speech": 0.72,
+  "hnr_mean_db": 9.25,
+  "jitter_local_pct": 4.174,
+  "shimmer_local_pct": 11.06,
+  "f1_median_hz": 326.0,
+  "f2_median_hz": 1542.0,
+  "f3_median_hz": 2540.0,
+  "f4_median_hz": 3256.0,
+  "formant_spacing_hz": 963.0,
+  "apparent_vtl_cm": 18.17,
+  "apparent_vtl_f3f4_cm": 18.24,
+  "formant_frames": 740,
+  "fixed5000_f1_f4_hz": [
+   323.0,
+   1562.0,
+   2550.0,
+   3386.0
+  ],
+  "fixed5000_vtl_cm": 17.73,
+  "vtl_ceiling_spread_cm": 2.34,
+  "centroid_hz": 887.0,
+  "flatness": 0.0009,
+  "tilt_db_per_oct": -6.59,
+  "alpha_ratio_db": -11.47,
+  "power_share_below_300hz": 0.752,
+  "rms_sd_db": 8.44,
+  "rms_range_p10_p90_db": 18.14,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.997
+   ],
+   [
+    "cy",
+    0.001
+   ],
+   [
+    "nn",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.997,
+  "whisper_p_en_range": [
+   0.996,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.001
+  ],
+  "transcript": "True distinction is never shouted, it is whispered through the ages. I am Alastair, and I bring a legacy of authority to your most prestigious stories.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "authority",
+   "whispered"
+  ],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Kevin",
+  "voice_id": "f1373f24-3b96-433f-9a68-e595810ef608",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/f607d671-c0b7-4b2f-96b4-099653af48eb.mp3",
+  "file": "Kevin.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 8.64,
+  "pitch_floor_hz": 78.9,
+  "pitch_ceiling_hz": 274.2,
+  "f0_median_hz": 131.4,
+  "f0_p10_hz": 93.1,
+  "f0_p90_hz": 190.0,
+  "f0_range_p10_p90_st": 12.34,
+  "f0_semitone_sd": 4.62,
+  "voiced_frames": 456,
+  "speech_time_s": 7.52,
+  "n_internal_pauses": 3,
+  "syllable_nuclei": 33,
+  "articulation_rate_nuclei_per_s": 4.39,
+  "transcript_syllables": 35,
+  "articulation_rate_transcript_syl_per_s": 4.65,
+  "voiced_fraction_of_speech": 0.61,
+  "hnr_mean_db": 9.06,
+  "jitter_local_pct": 3.502,
+  "shimmer_local_pct": 10.89,
+  "f1_median_hz": 378.0,
+  "f2_median_hz": 1494.0,
+  "f3_median_hz": 2380.0,
+  "f4_median_hz": 3353.0,
+  "formant_spacing_hz": 958.0,
+  "apparent_vtl_cm": 18.27,
+  "apparent_vtl_f3f4_cm": 18.31,
+  "formant_frames": 456,
+  "fixed5000_f1_f4_hz": [
+   398.0,
+   1531.0,
+   2425.0,
+   3439.0
+  ],
+  "fixed5000_vtl_cm": 17.84,
+  "vtl_ceiling_spread_cm": 2.01,
+  "centroid_hz": 1341.0,
+  "flatness": 0.0043,
+  "tilt_db_per_oct": -5.29,
+  "alpha_ratio_db": -9.81,
+  "power_share_below_300hz": 0.391,
+  "rms_sd_db": 9.34,
+  "rms_range_p10_p90_db": 18.08,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.999
+   ],
+   [
+    "cy",
+    0.0
+   ],
+   [
+    "nn",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.999,
+  "whisper_p_en_range": [
+   0.998,
+   0.999
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.0
+  ],
+  "transcript": "The difference between a lead and a sail is the right voice. I'm Kevin. I don't just speak, I persuade. Let's make them an offer they can't refuse.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "persuade"
+  ],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Caspian",
+  "voice_id": "ef70cc83-3015-4bad-9359-0ea968c43ec0",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/d7517769-c0f0-4dbf-8faf-07a062ef3526.mp3",
+  "file": "Caspian.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.1,
+  "duration_s": 15.04,
+  "pitch_floor_hz": 57.5,
+  "pitch_ceiling_hz": 164.4,
+  "f0_median_hz": 81.7,
+  "f0_p10_hz": 74.4,
+  "f0_p90_hz": 92.0,
+  "f0_range_p10_p90_st": 3.67,
+  "f0_semitone_sd": 1.54,
+  "voiced_frames": 543,
+  "speech_time_s": 7.7,
+  "n_internal_pauses": 6,
+  "syllable_nuclei": 28,
+  "articulation_rate_nuclei_per_s": 3.64,
+  "transcript_syllables": 32,
+  "articulation_rate_transcript_syl_per_s": 4.16,
+  "voiced_fraction_of_speech": 0.71,
+  "hnr_mean_db": 18.12,
+  "jitter_local_pct": 2.627,
+  "shimmer_local_pct": 10.7,
+  "f1_median_hz": 806.0,
+  "f2_median_hz": 1840.0,
+  "f3_median_hz": 2668.0,
+  "f4_median_hz": 3537.0,
+  "formant_spacing_hz": 1058.0,
+  "apparent_vtl_cm": 16.55,
+  "apparent_vtl_f3f4_cm": 17.0,
+  "formant_frames": 543,
+  "fixed5000_f1_f4_hz": [
+   784.0,
+   1910.0,
+   2790.0,
+   3614.0
+  ],
+  "fixed5000_vtl_cm": 16.06,
+  "vtl_ceiling_spread_cm": 3.7,
+  "centroid_hz": 458.0,
+  "flatness": 0.0001,
+  "tilt_db_per_oct": -4.36,
+  "alpha_ratio_db": -23.68,
+  "power_share_below_300hz": 0.995,
+  "rms_sd_db": 10.54,
+  "rms_range_p10_p90_db": 24.66,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.952
+   ],
+   [
+    "nn",
+    0.028
+   ],
+   [
+    "la",
+    0.01
+   ]
+  ],
+  "whisper_p_en": 0.952,
+  "whisper_p_en_range": [
+   0.944,
+   0.957
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.028
+  ],
+  "transcript": "Let the world fade away. I am Caspian. Close your eyes, breathe deeply, and let my voice guide you into a state of total, weightless calm.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "calm",
+   "weightless"
+  ],
+  "style_quotes": [
+   "Close your eyes, breathe deeply, and let my voice guide you into a state of total, weightless calm."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 3.7 cm); trust FormantPath value loosely",
+   "extreme bass-heavy spectrum: centroid/formants dominated by EQ"
+  ]
+ },
+ {
+  "name": "Julian",
+  "voice_id": "95429266-c0ac-4137-a209-63b8812b0f23",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/6d53a63c-d1a3-44e2-a6a7-62777b97aa34.mp3",
+  "file": "Julian.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 14.9,
+  "duration_s": 20.0,
+  "pitch_floor_hz": 79.6,
+  "pitch_ceiling_hz": 256.9,
+  "f0_median_hz": 126.1,
+  "f0_p10_hz": 90.8,
+  "f0_p90_hz": 171.2,
+  "f0_range_p10_p90_st": 10.98,
+  "f0_semitone_sd": 4.08,
+  "voiced_frames": 1207,
+  "speech_time_s": 18.45,
+  "n_internal_pauses": 4,
+  "syllable_nuclei": 76,
+  "articulation_rate_nuclei_per_s": 4.12,
+  "transcript_syllables": 94,
+  "articulation_rate_transcript_syl_per_s": 5.09,
+  "voiced_fraction_of_speech": 0.65,
+  "hnr_mean_db": 11.78,
+  "jitter_local_pct": 2.4,
+  "shimmer_local_pct": 8.0,
+  "f1_median_hz": 394.0,
+  "f2_median_hz": 1513.0,
+  "f3_median_hz": 2500.0,
+  "f4_median_hz": 3574.0,
+  "formant_spacing_hz": 1011.0,
+  "apparent_vtl_cm": 17.32,
+  "apparent_vtl_f3f4_cm": 17.26,
+  "formant_frames": 1207,
+  "fixed5000_f1_f4_hz": [
+   378.0,
+   1520.0,
+   2539.0,
+   3642.0
+  ],
+  "fixed5000_vtl_cm": 17.04,
+  "vtl_ceiling_spread_cm": 0.92,
+  "centroid_hz": 785.0,
+  "flatness": 0.0007,
+  "tilt_db_per_oct": -6.21,
+  "alpha_ratio_db": -13.53,
+  "power_share_below_300hz": 0.653,
+  "rms_sd_db": 8.17,
+  "rms_range_p10_p90_db": 18.08,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.997
+   ],
+   [
+    "la",
+    0.001
+   ],
+   [
+    "nn",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.997,
+  "whisper_p_en_range": [
+   0.994,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "la",
+   0.001
+  ],
+  "transcript": "Hi, I'm Julian. I specialize in a narration style that feels like a shared confidence. My sound is defined by a gentle, emotive resonance, and a conversational rhythm that makes every listener feel seen. I'm the perfect fit for wellness apps, empathetic documentaries, or any narrative where a soft, intelligent touch is the key to connection.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "resonance",
+   "soft",
+   "gentle",
+   "emotive",
+   "confidence",
+   "conversational",
+   "rhythm"
+  ],
+  "style_quotes": [
+   "I specialize in a narration style that feels like a shared confidence.",
+   "My sound is defined by a gentle, emotive resonance, and a conversational rhythm that makes every listener feel seen.",
+   "I'm the perfect fit for wellness apps, empathetic documentaries, or any narrative where a soft, intelligent touch is the key to connection."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Mark",
+  "voice_id": "27c04473-84a9-4b60-a41f-c8e8458bd4f1",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/808e7f60-bf3b-466e-a81b-f59d54fdac7b.mp3",
+  "file": "Mark.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.1,
+  "duration_s": 8.72,
+  "pitch_floor_hz": 75.0,
+  "pitch_ceiling_hz": 228.4,
+  "f0_median_hz": 113.1,
+  "f0_p10_hz": 92.6,
+  "f0_p90_hz": 169.1,
+  "f0_range_p10_p90_st": 10.42,
+  "f0_semitone_sd": 3.87,
+  "voiced_frames": 515,
+  "speech_time_s": 7.79,
+  "n_internal_pauses": 2,
+  "syllable_nuclei": 30,
+  "articulation_rate_nuclei_per_s": 3.85,
+  "transcript_syllables": 35,
+  "articulation_rate_transcript_syl_per_s": 4.49,
+  "voiced_fraction_of_speech": 0.66,
+  "hnr_mean_db": 14.59,
+  "jitter_local_pct": 2.74,
+  "shimmer_local_pct": 8.22,
+  "f1_median_hz": 302.0,
+  "f2_median_hz": 1503.0,
+  "f3_median_hz": 2535.0,
+  "f4_median_hz": 3374.0,
+  "formant_spacing_hz": 979.0,
+  "apparent_vtl_cm": 17.88,
+  "apparent_vtl_f3f4_cm": 17.84,
+  "formant_frames": 515,
+  "fixed5000_f1_f4_hz": [
+   266.0,
+   1486.0,
+   2579.0,
+   3414.0
+  ],
+  "fixed5000_vtl_cm": 17.7,
+  "vtl_ceiling_spread_cm": 1.43,
+  "centroid_hz": 632.0,
+  "flatness": 0.0001,
+  "tilt_db_per_oct": -6.19,
+  "alpha_ratio_db": -17.04,
+  "power_share_below_300hz": 0.889,
+  "rms_sd_db": 12.35,
+  "rms_range_p10_p90_db": 28.08,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.998
+   ],
+   [
+    "nn",
+    0.001
+   ],
+   [
+    "ja",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.998,
+  "whisper_p_en_range": [
+   0.997,
+   0.999
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.001
+  ],
+  "transcript": "Hey, it's Mark. Just keeping it real, you know? If you're looking for a voice that sounds like a late-night coffee chat or a casual vlog, I'm here for it.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "casual"
+  ],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Orion",
+  "voice_id": "ed69c516-92d2-4b30-a967-617737a342e5",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/4ea32dda-a9b3-4cdc-8021-b827a166ad44.mp3",
+  "file": "Orion.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 11.2,
+  "duration_s": 9.84,
+  "pitch_floor_hz": 73.2,
+  "pitch_ceiling_hz": 221.6,
+  "f0_median_hz": 108.4,
+  "f0_p10_hz": 84.2,
+  "f0_p90_hz": 145.4,
+  "f0_range_p10_p90_st": 9.46,
+  "f0_semitone_sd": 3.38,
+  "voiced_frames": 503,
+  "speech_time_s": 7.62,
+  "n_internal_pauses": 3,
+  "syllable_nuclei": 30,
+  "articulation_rate_nuclei_per_s": 3.94,
+  "transcript_syllables": 42,
+  "articulation_rate_transcript_syl_per_s": 5.51,
+  "voiced_fraction_of_speech": 0.66,
+  "hnr_mean_db": 9.47,
+  "jitter_local_pct": 2.806,
+  "shimmer_local_pct": 9.12,
+  "f1_median_hz": 390.0,
+  "f2_median_hz": 1378.0,
+  "f3_median_hz": 2420.0,
+  "f4_median_hz": 3464.0,
+  "formant_spacing_hz": 973.0,
+  "apparent_vtl_cm": 17.98,
+  "apparent_vtl_f3f4_cm": 17.81,
+  "formant_frames": 503,
+  "fixed5000_f1_f4_hz": [
+   392.0,
+   1425.0,
+   2457.0,
+   3560.0
+  ],
+  "fixed5000_vtl_cm": 17.55,
+  "vtl_ceiling_spread_cm": 1.44,
+  "centroid_hz": 852.0,
+  "flatness": 0.0007,
+  "tilt_db_per_oct": -6.79,
+  "alpha_ratio_db": -9.81,
+  "power_share_below_300hz": 0.559,
+  "rms_sd_db": 9.24,
+  "rms_range_p10_p90_db": 20.04,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.993
+   ],
+   [
+    "cy",
+    0.003
+   ],
+   [
+    "nn",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.993,
+  "whisper_p_en_range": [
+   0.989,
+   0.997
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.003
+  ],
+  "transcript": "Systems online. I am Orion. Data processing complete. I provide precise, analytical narration for the future of information and technology.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "precise",
+   "analytical"
+  ],
+  "style_quotes": [
+   "I provide precise, analytical narration for the future of information and technology."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "source band-limited to ~11.2 kHz (spectral stats use 0-8 kHz so still comparable)"
+  ]
+ },
+ {
+  "name": "Andre",
+  "voice_id": "f1e8226e-2248-4d5f-b43c-0a79e9949dbf",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/4fd581a5-5349-447a-842d-1b1ab92bafd9.mp3",
+  "file": "Andre.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 22.24,
+  "pitch_floor_hz": 77.8,
+  "pitch_ceiling_hz": 309.1,
+  "f0_median_hz": 140.4,
+  "f0_p10_hz": 89.1,
+  "f0_p90_hz": 210.8,
+  "f0_range_p10_p90_st": 14.91,
+  "f0_semitone_sd": 5.7,
+  "voiced_frames": 1221,
+  "speech_time_s": 19.99,
+  "n_internal_pauses": 5,
+  "syllable_nuclei": 90,
+  "articulation_rate_nuclei_per_s": 4.5,
+  "transcript_syllables": 90,
+  "articulation_rate_transcript_syl_per_s": 4.5,
+  "voiced_fraction_of_speech": 0.61,
+  "hnr_mean_db": 10.49,
+  "jitter_local_pct": 3.095,
+  "shimmer_local_pct": 9.05,
+  "f1_median_hz": 386.0,
+  "f2_median_hz": 1538.0,
+  "f3_median_hz": 2548.0,
+  "f4_median_hz": 3573.0,
+  "formant_spacing_hz": 1018.0,
+  "apparent_vtl_cm": 17.19,
+  "apparent_vtl_f3f4_cm": 17.15,
+  "formant_frames": 1221,
+  "fixed5000_f1_f4_hz": [
+   393.0,
+   1551.0,
+   2553.0,
+   3594.0
+  ],
+  "fixed5000_vtl_cm": 17.11,
+  "vtl_ceiling_spread_cm": 1.99,
+  "centroid_hz": 1081.0,
+  "flatness": 0.0019,
+  "tilt_db_per_oct": -5.63,
+  "alpha_ratio_db": -10.35,
+  "power_share_below_300hz": 0.524,
+  "rms_sd_db": 8.44,
+  "rms_range_p10_p90_db": 18.55,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.999
+   ],
+   [
+    "cy",
+    0.0
+   ],
+   [
+    "th",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.999,
+  "whisper_p_en_range": [
+   0.999,
+   0.999
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.0
+  ],
+  "transcript": "I am Andre. I offer a vibrant, engaging delivery that's as sharp as a tailored suit. My voice is defined by its energy and its authenticity, perfect for lifestyle brands, social media campaigns, and high-energy retail spots. I don't just read the copy. I give it a swagger and a clarity that listeners can't help but follow.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "energy",
+   "vibrant",
+   "high-energy",
+   "swagger",
+   "clarity"
+  ],
+  "style_quotes": [
+   "I offer a vibrant, engaging delivery that's as sharp as a tailored suit.",
+   "My voice is defined by its energy and its authenticity, perfect for lifestyle brands, social media campaigns, and high-energy retail spots."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Xavier",
+  "voice_id": "43173c95-3ec8-446a-a162-6504332c578b",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/777a5981-c2a6-4b47-aa43-40ab42390f53.mp3",
+  "file": "Xavier.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.6,
+  "duration_s": 10.16,
+  "pitch_floor_hz": 76.1,
+  "pitch_ceiling_hz": 240.2,
+  "f0_median_hz": 116.7,
+  "f0_p10_hz": 86.7,
+  "f0_p90_hz": 154.5,
+  "f0_range_p10_p90_st": 10.0,
+  "f0_semitone_sd": 3.63,
+  "voiced_frames": 576,
+  "speech_time_s": 9.37,
+  "n_internal_pauses": 1,
+  "syllable_nuclei": 36,
+  "articulation_rate_nuclei_per_s": 3.84,
+  "transcript_syllables": 41,
+  "articulation_rate_transcript_syl_per_s": 4.38,
+  "voiced_fraction_of_speech": 0.61,
+  "hnr_mean_db": 10.77,
+  "jitter_local_pct": 2.671,
+  "shimmer_local_pct": 7.32,
+  "f1_median_hz": 363.0,
+  "f2_median_hz": 1597.0,
+  "f3_median_hz": 2512.0,
+  "f4_median_hz": 3508.0,
+  "formant_spacing_hz": 1006.0,
+  "apparent_vtl_cm": 17.39,
+  "apparent_vtl_f3f4_cm": 17.45,
+  "formant_frames": 576,
+  "fixed5000_f1_f4_hz": [
+   334.0,
+   1612.0,
+   2532.0,
+   3552.0
+  ],
+  "fixed5000_vtl_cm": 17.21,
+  "vtl_ceiling_spread_cm": 0.48,
+  "centroid_hz": 824.0,
+  "flatness": 0.0007,
+  "tilt_db_per_oct": -4.58,
+  "alpha_ratio_db": -14.98,
+  "power_share_below_300hz": 0.679,
+  "rms_sd_db": 8.21,
+  "rms_range_p10_p90_db": 18.37,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.992
+   ],
+   [
+    "cy",
+    0.002
+   ],
+   [
+    "la",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.992,
+  "whisper_p_en_range": [
+   0.99,
+   0.992
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.002
+  ],
+  "transcript": "Efficiency meets elegance. I am Xavier, I provide a clear, sophisticated narrative designed to turn complex ideas into seamless experiences.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "sophisticated",
+   "clear",
+   "elegance"
+  ],
+  "style_quotes": [
+   "I am Xavier, I provide a clear, sophisticated narrative designed to turn complex ideas into seamless experiences."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Vlad",
+  "voice_id": "e5666b9c-99a2-4fac-8b4e-abee078b186d",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/55118fe8-5390-4bb2-b0d4-9fef14d91f2b.mp3",
+  "file": "Vlad.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 29.52,
+  "pitch_floor_hz": 41.1,
+  "pitch_ceiling_hz": 121.6,
+  "f0_median_hz": 54.2,
+  "f0_p10_hz": 43.8,
+  "f0_p90_hz": 64.3,
+  "f0_range_p10_p90_st": 6.63,
+  "f0_semitone_sd": 2.74,
+  "voiced_frames": 1505,
+  "speech_time_s": 23.32,
+  "n_internal_pauses": 8,
+  "syllable_nuclei": 66,
+  "articulation_rate_nuclei_per_s": 2.83,
+  "transcript_syllables": 55,
+  "articulation_rate_transcript_syl_per_s": 2.36,
+  "voiced_fraction_of_speech": 0.65,
+  "hnr_mean_db": 8.55,
+  "jitter_local_pct": 3.544,
+  "shimmer_local_pct": 14.09,
+  "f1_median_hz": 295.0,
+  "f2_median_hz": 1429.0,
+  "f3_median_hz": 2441.0,
+  "f4_median_hz": 3228.0,
+  "formant_spacing_hz": 938.0,
+  "apparent_vtl_cm": 18.66,
+  "apparent_vtl_f3f4_cm": 18.61,
+  "formant_frames": 1505,
+  "fixed5000_f1_f4_hz": [
+   315.0,
+   1502.0,
+   2480.0,
+   3400.0
+  ],
+  "fixed5000_vtl_cm": 17.92,
+  "vtl_ceiling_spread_cm": 4.52,
+  "centroid_hz": 1124.0,
+  "flatness": 0.0019,
+  "tilt_db_per_oct": -4.5,
+  "alpha_ratio_db": -8.77,
+  "power_share_below_300hz": 0.849,
+  "rms_sd_db": 7.99,
+  "rms_range_p10_p90_db": 16.07,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.991
+   ],
+   [
+    "la",
+    0.003
+   ],
+   [
+    "pt",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.991,
+  "whisper_p_en_range": [
+   0.988,
+   0.994
+  ],
+  "whisper_top_non_en": [
+   "la",
+   0.003
+  ],
+  "transcript": "The shadows have a language of their own, if you are brave enough to listen. I am Vlad. I live in the spaces between the floorboards and the cold mist on the moor. Let us tell a story that the light would never dare to touch.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "shadows"
+  ],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 4.52 cm); trust FormantPath value loosely",
+   "very low f0 (creak/fry likely): jitter, shimmer, HNR inflated/deflated"
+  ]
+ },
+ {
+  "name": "Alexey",
+  "voice_id": "7c2133e5-68ab-511f-9aed-9a67664382b1",
+  "preview_url": "https://cdn.higgsfield.ai/audio_voice_preset/preview/7c2133e5-68ab-511f-9aed-9a67664382b1.mp3",
+  "file": "Alexey.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.5,
+  "duration_s": 4.68,
+  "pitch_floor_hz": 66.2,
+  "pitch_ceiling_hz": 246.2,
+  "f0_median_hz": 105.5,
+  "f0_p10_hz": 74.9,
+  "f0_p90_hz": 177.9,
+  "f0_range_p10_p90_st": 14.97,
+  "f0_semitone_sd": 5.46,
+  "voiced_frames": 228,
+  "speech_time_s": 3.75,
+  "n_internal_pauses": 2,
+  "syllable_nuclei": 15,
+  "articulation_rate_nuclei_per_s": 4.0,
+  "transcript_syllables": 19,
+  "articulation_rate_transcript_syl_per_s": 5.07,
+  "voiced_fraction_of_speech": 0.61,
+  "hnr_mean_db": 6.67,
+  "jitter_local_pct": 4.172,
+  "shimmer_local_pct": 10.54,
+  "f1_median_hz": 430.0,
+  "f2_median_hz": 1457.0,
+  "f3_median_hz": 2393.0,
+  "f4_median_hz": 3365.0,
+  "formant_spacing_hz": 960.0,
+  "apparent_vtl_cm": 18.23,
+  "apparent_vtl_f3f4_cm": 18.23,
+  "formant_frames": 228,
+  "fixed5000_f1_f4_hz": [
+   429.0,
+   1467.0,
+   2388.0,
+   3459.0
+  ],
+  "fixed5000_vtl_cm": 17.94,
+  "vtl_ceiling_spread_cm": 1.9,
+  "centroid_hz": 1207.0,
+  "flatness": 0.004,
+  "tilt_db_per_oct": -7.19,
+  "alpha_ratio_db": -6.73,
+  "power_share_below_300hz": 0.402,
+  "rms_sd_db": 7.77,
+  "rms_range_p10_p90_db": 17.53,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.999
+   ],
+   [
+    "cy",
+    0.0
+   ],
+   [
+    "nn",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.999,
+  "whisper_p_en_range": [
+   0.998,
+   0.999
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.0
+  ],
+  "transcript": "Welcome back to economics where the graphs go up and your savings do not.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "short clip (<4 s speech): jitter/shimmer/formant medians noisy"
+  ]
+ },
+ {
+  "name": "Bob",
+  "voice_id": "ca12fd00-218c-5198-b10c-7d36e768c12c",
+  "preview_url": "https://cdn.higgsfield.ai/audio_voice_preset/preview/ca12fd00-218c-5198-b10c-7d36e768c12c.mp3",
+  "file": "Bob.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.2,
+  "duration_s": 8.52,
+  "pitch_floor_hz": 57.5,
+  "pitch_ceiling_hz": 176.5,
+  "f0_median_hz": 84.5,
+  "f0_p10_hz": 74.7,
+  "f0_p90_hz": 109.2,
+  "f0_range_p10_p90_st": 6.58,
+  "f0_semitone_sd": 2.67,
+  "voiced_frames": 416,
+  "speech_time_s": 6.16,
+  "n_internal_pauses": 3,
+  "syllable_nuclei": 21,
+  "articulation_rate_nuclei_per_s": 3.41,
+  "transcript_syllables": 19,
+  "articulation_rate_transcript_syl_per_s": 3.09,
+  "voiced_fraction_of_speech": 0.68,
+  "hnr_mean_db": 11.21,
+  "jitter_local_pct": 2.27,
+  "shimmer_local_pct": 8.22,
+  "f1_median_hz": 350.0,
+  "f2_median_hz": 1356.0,
+  "f3_median_hz": 2499.0,
+  "f4_median_hz": 3262.0,
+  "formant_spacing_hz": 946.0,
+  "apparent_vtl_cm": 18.49,
+  "apparent_vtl_f3f4_cm": 18.33,
+  "formant_frames": 416,
+  "fixed5000_f1_f4_hz": [
+   326.0,
+   1343.0,
+   2522.0,
+   3285.0
+  ],
+  "fixed5000_vtl_cm": 18.39,
+  "vtl_ceiling_spread_cm": 1.35,
+  "centroid_hz": 821.0,
+  "flatness": 0.0006,
+  "tilt_db_per_oct": -5.62,
+  "alpha_ratio_db": -10.73,
+  "power_share_below_300hz": 0.696,
+  "rms_sd_db": 8.27,
+  "rms_range_p10_p90_db": 20.07,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.995
+   ],
+   [
+    "la",
+    0.002
+   ],
+   [
+    "nn",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.995,
+  "whisper_p_en_range": [
+   0.991,
+   0.997
+  ],
+  "whisper_top_non_en": [
+   "la",
+   0.002
+  ],
+  "transcript": "The moon pulled up her silver blanket, and one by one, the clouds began to yawn.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Jake",
+  "voice_id": "76fe86d8-bf3a-5ed8-ba52-f793b29cf71f",
+  "preview_url": "https://cdn.higgsfield.ai/audio_voice_preset/preview/76fe86d8-bf3a-5ed8-ba52-f793b29cf71f.mp3",
+  "file": "Jake.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 14.7,
+  "duration_s": 7.63,
+  "pitch_floor_hz": 63.2,
+  "pitch_ceiling_hz": 200.3,
+  "f0_median_hz": 95.3,
+  "f0_p10_hz": 77.1,
+  "f0_p90_hz": 134.8,
+  "f0_range_p10_p90_st": 9.67,
+  "f0_semitone_sd": 3.89,
+  "voiced_frames": 430,
+  "speech_time_s": 5.79,
+  "n_internal_pauses": 2,
+  "syllable_nuclei": 21,
+  "articulation_rate_nuclei_per_s": 3.63,
+  "transcript_syllables": 23,
+  "articulation_rate_transcript_syl_per_s": 3.97,
+  "voiced_fraction_of_speech": 0.74,
+  "hnr_mean_db": 12.51,
+  "jitter_local_pct": 2.201,
+  "shimmer_local_pct": 7.79,
+  "f1_median_hz": 405.0,
+  "f2_median_hz": 1580.0,
+  "f3_median_hz": 2662.0,
+  "f4_median_hz": 3496.0,
+  "formant_spacing_hz": 1022.0,
+  "apparent_vtl_cm": 17.12,
+  "apparent_vtl_f3f4_cm": 17.14,
+  "formant_frames": 430,
+  "fixed5000_f1_f4_hz": [
+   390.0,
+   1556.0,
+   2682.0,
+   3581.0
+  ],
+  "fixed5000_vtl_cm": 16.88,
+  "vtl_ceiling_spread_cm": 1.17,
+  "centroid_hz": 987.0,
+  "flatness": 0.001,
+  "tilt_db_per_oct": -6.06,
+  "alpha_ratio_db": -12.29,
+  "power_share_below_300hz": 0.478,
+  "rms_sd_db": 8.77,
+  "rms_range_p10_p90_db": 20.16,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.992
+   ],
+   [
+    "cy",
+    0.002
+   ],
+   [
+    "nn",
+    0.001
+   ]
+  ],
+  "whisper_p_en": 0.992,
+  "whisper_p_en_range": [
+   0.989,
+   0.996
+  ],
+  "whisper_top_non_en": [
+   "cy",
+   0.002
+  ],
+  "transcript": "The elephant tried to tiptoe. He really, really tried. The whole jungle heard him anyway.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Ken",
+  "voice_id": "ceee41dc-0ee8-59a7-b3e8-2744116fcb5e",
+  "preview_url": "https://cdn.higgsfield.ai/audio_voice_preset/preview/ceee41dc-0ee8-59a7-b3e8-2744116fcb5e.mp3",
+  "file": "Ken.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 14.1,
+  "duration_s": 6.27,
+  "pitch_floor_hz": 65.7,
+  "pitch_ceiling_hz": 213.1,
+  "f0_median_hz": 100.4,
+  "f0_p10_hz": 75.7,
+  "f0_p90_hz": 152.5,
+  "f0_range_p10_p90_st": 12.11,
+  "f0_semitone_sd": 4.33,
+  "voiced_frames": 319,
+  "speech_time_s": 5.38,
+  "n_internal_pauses": 2,
+  "syllable_nuclei": 21,
+  "articulation_rate_nuclei_per_s": 3.9,
+  "transcript_syllables": 27,
+  "articulation_rate_transcript_syl_per_s": 5.02,
+  "voiced_fraction_of_speech": 0.59,
+  "hnr_mean_db": 10.3,
+  "jitter_local_pct": 3.417,
+  "shimmer_local_pct": 8.72,
+  "f1_median_hz": 282.0,
+  "f2_median_hz": 1486.0,
+  "f3_median_hz": 2432.0,
+  "f4_median_hz": 3449.0,
+  "formant_spacing_hz": 977.0,
+  "apparent_vtl_cm": 17.91,
+  "apparent_vtl_f3f4_cm": 17.84,
+  "formant_frames": 319,
+  "fixed5000_f1_f4_hz": [
+   280.0,
+   1509.0,
+   2477.0,
+   3509.0
+  ],
+  "fixed5000_vtl_cm": 17.6,
+  "vtl_ceiling_spread_cm": 1.76,
+  "centroid_hz": 796.0,
+  "flatness": 0.0007,
+  "tilt_db_per_oct": -7.69,
+  "alpha_ratio_db": -12.67,
+  "power_share_below_300hz": 0.802,
+  "rms_sd_db": 9.07,
+  "rms_range_p10_p90_db": 21.4,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.997
+   ],
+   [
+    "nn",
+    0.001
+   ],
+   [
+    "cy",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.997,
+  "whisper_p_en_range": [
+   0.996,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "nn",
+   0.001
+  ],
+  "transcript": "Fun fact, your phone has more computing power than the Apollo mission, and you use it to argue with strangers.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Luc",
+  "voice_id": "04e867c7-9e41-5cff-80d3-5284e74d7bd1",
+  "preview_url": "https://cdn.higgsfield.ai/audio_voice_preset/preview/04e867c7-9e41-5cff-80d3-5284e74d7bd1.mp3",
+  "file": "Luc.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.4,
+  "duration_s": 87.17,
+  "pitch_floor_hz": 74.1,
+  "pitch_ceiling_hz": 220.3,
+  "f0_median_hz": 109.0,
+  "f0_p10_hz": 88.2,
+  "f0_p90_hz": 140.3,
+  "f0_range_p10_p90_st": 8.03,
+  "f0_semitone_sd": 3.1,
+  "voiced_frames": 4005,
+  "speech_time_s": 54.46,
+  "n_internal_pauses": 45,
+  "syllable_nuclei": 225,
+  "articulation_rate_nuclei_per_s": 4.13,
+  "transcript_syllables": 231,
+  "articulation_rate_transcript_syl_per_s": 4.24,
+  "voiced_fraction_of_speech": 0.74,
+  "hnr_mean_db": 13.54,
+  "jitter_local_pct": 2.604,
+  "shimmer_local_pct": 8.05,
+  "f1_median_hz": 391.0,
+  "f2_median_hz": 1495.0,
+  "f3_median_hz": 2635.0,
+  "f4_median_hz": 3511.0,
+  "formant_spacing_hz": 1015.0,
+  "apparent_vtl_cm": 17.24,
+  "apparent_vtl_f3f4_cm": 17.15,
+  "formant_frames": 4005,
+  "fixed5000_f1_f4_hz": [
+   369.0,
+   1505.0,
+   2654.0,
+   3626.0
+  ],
+  "fixed5000_vtl_cm": 16.88,
+  "vtl_ceiling_spread_cm": 1.71,
+  "centroid_hz": 1055.0,
+  "flatness": 0.0021,
+  "tilt_db_per_oct": -5.69,
+  "alpha_ratio_db": -15.01,
+  "power_share_below_300hz": 0.778,
+  "rms_sd_db": 9.13,
+  "rms_range_p10_p90_db": 21.39,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.998
+   ],
+   [
+    "la",
+    0.001
+   ],
+   [
+    "zh",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.998,
+  "whisper_p_en_range": [
+   0.998,
+   0.999
+  ],
+  "whisper_top_non_en": [
+   "la",
+   0.001
+  ],
+  "transcript": "A god hands a girl a sealed jar and tells her never to open it. He is lying about what's inside, and he wants her to look. Zeus had lost fire to a thief. He wanted revenge on everyone who'd ever warmed their hands by it. So he had one built, clay, water, breath. Every god leaned in and gave her something. A face, a voice, a hunger to know. They sent her down with the jar, not a box, a pythos, clay, big as a body, the kind you sink into the floor and fill with grain, or bones, sealed, heavy, hers. So she waits. The house goes quiet, and the hunger the gods put in her turns her hands toward the lid, because that was always the point of her. It gives. What comes out doesn't roar. It spreads. Fever, hunger, age, grief, war. Drifting into a world that had never known any of it. Quiet as smoke. She throws herself on the lid. And one thing stayed down in the dark. Hope. Zeus packed it in there with the plagues, and nobody in 3,000 years has agreed on whether that was mercy.",
+  "self_description": false,
+  "stated_accent": [],
+  "stated_style": [
+   "kind"
+  ],
+  "style_quotes": [],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": []
+ },
+ {
+  "name": "Leo",
+  "voice_id": "73a45c18-0c56-4642-a61e-f6b303f8ded1",
+  "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/65169043-8bf9-403e-84e4-0eb6262026fd.mp3",
+  "file": "Leo.mp3",
+  "native_sr": 44100,
+  "native_bandwidth_khz": 15.2,
+  "duration_s": 17.04,
+  "pitch_floor_hz": 166.8,
+  "pitch_ceiling_hz": 513.5,
+  "f0_median_hz": 257.6,
+  "f0_p10_hz": 195.8,
+  "f0_p90_hz": 307.7,
+  "f0_range_p10_p90_st": 7.83,
+  "f0_semitone_sd": 2.98,
+  "voiced_frames": 1112,
+  "speech_time_s": 15.88,
+  "n_internal_pauses": 3,
+  "syllable_nuclei": 83,
+  "articulation_rate_nuclei_per_s": 5.23,
+  "transcript_syllables": 79,
+  "articulation_rate_transcript_syl_per_s": 4.97,
+  "voiced_fraction_of_speech": 0.7,
+  "hnr_mean_db": 15.61,
+  "jitter_local_pct": 1.752,
+  "shimmer_local_pct": 8.75,
+  "f1_median_hz": 511.0,
+  "f2_median_hz": 1616.0,
+  "f3_median_hz": 2681.0,
+  "f4_median_hz": 3957.0,
+  "formant_spacing_hz": 1106.0,
+  "apparent_vtl_cm": 15.82,
+  "apparent_vtl_f3f4_cm": 15.75,
+  "formant_frames": 1112,
+  "fixed5000_f1_f4_hz": [
+   507.0,
+   1531.0,
+   2556.0,
+   3663.0
+  ],
+  "fixed5000_vtl_cm": 16.89,
+  "vtl_ceiling_spread_cm": 5.36,
+  "centroid_hz": 1203.0,
+  "flatness": 0.001,
+  "tilt_db_per_oct": -7.45,
+  "alpha_ratio_db": -10.34,
+  "power_share_below_300hz": 0.103,
+  "rms_sd_db": 9.0,
+  "rms_range_p10_p90_db": 20.3,
+  "whisper_lang_top3": [
+   [
+    "en",
+    0.997
+   ],
+   [
+    "ja",
+    0.0
+   ],
+   [
+    "cy",
+    0.0
+   ]
+  ],
+  "whisper_p_en": 0.997,
+  "whisper_p_en_range": [
+   0.995,
+   0.998
+  ],
+  "whisper_top_non_en": [
+   "ja",
+   0.0
+  ],
+  "transcript": "I'm Leo. Think of me as the guy who's actually played the game. My sound is casual, a little bit deadpan, and always ready with a punchline. I specialize in a conversational flow that feels unscripted and real, perfect for commentary, comedy sketches, or any brand that doesn't take itself too seriously.",
+  "self_description": true,
+  "stated_accent": [],
+  "stated_style": [
+   "deadpan",
+   "casual",
+   "conversational",
+   "punchline"
+  ],
+  "style_quotes": [
+   "Think of me as the guy who's actually played the game.",
+   "My sound is casual, a little bit deadpan, and always ready with a punchline.",
+   "I specialize in a conversational flow that feels unscripted and real, perfect for commentary, comedy sketches, or any brand that doesn't take itself too seriously."
+  ],
+  "accent_hint": "Whisper: plain English (no non-native cue; regional native accents are not detected this way); transcript accent: none stated",
+  "flags": [
+   "formants ceiling-sensitive (fixed 4.5-5.5 kHz VTL spread 5.36 cm); trust FormantPath value loosely"
+  ]
+ }
+]
