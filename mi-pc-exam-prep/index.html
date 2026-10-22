@@ -1729,7 +1729,10 @@ function goVirtual(tIn, wasIn){
   if(wasIn!=null) LP.playing = wasIn;
   if(LP.audio){ try{ LP.audio.pause(); LP.audio.removeAttribute('src'); }catch(e){} }
   LP.virtual=true; LP.vbase=t||0; LP.vt0=performance.now(); LP.cc=true;
-  const n=$('#lp-note'); if(n){ n.hidden=false; n.textContent='Audio could not load here, so captions are on and the lesson plays silently.'; }
+  const n=$('#lp-note');
+  if(n){ n.hidden=false; n.textContent = location.protocol==='file:'
+    ? 'No sound: the "lessons" folder with the audio files was not found next to this page. If you opened it from a .zip file, extract the whole zip first (right-click the zip, then Extract All), and open index.html from the extracted folder. Captions are on for now.'
+    : 'Audio could not load here, so captions are on and the lesson plays silently.'; }
   if(LP.playing){ LP.vt0=performance.now(); lpLoop(); }
   lpTick(true); lpUI();
 }
