@@ -16,14 +16,14 @@ These are the Element sheets: one 4K model sheet per character, in the feature-f
 
 | Character | Element | Job ID | Generated | QA |
 |---|---|---|---|---|
-| Oliver | `oliver-soldier` | 909ea0bd-843e-4324-ae88-193c2eeb84cb; mirrored upload a57f55c0-734f-4356-ada8-cc62f57c351c | 2026-10-20 | Fix (queued), mirrored |
+| Oliver | `oliver-soldier` | 992ff073-17f3-42d4-bf96-0d7cd3fbbcba (edit of the mirrored 909ea0bd) | 2026-10-23 | Fix (back plate size queued) |
 | Riggs | `riggs-heavy` | 769625a1-c662-4d45-9974-728a213bf4e6 | 2026-10-19 | Minor |
 | Tillman | `tillman-demolition` | 17b76e5f-993a-4ecd-913d-afe450592e59 (edit of 09ba5b80) | 2026-10-21 | Redo (queued) |
 | Huggable | `huggable-huggable` | b2a3f65d-8cfd-4e1b-a9f8-cf8cabc80828 (edit of 0680a612) | 2026-10-21 | Fix (queued) |
 | Astoria | `astoria-sniper` | 64d65c16-9fee-4a3d-a172-1069e1f65869; mirrored upload fcc7f1f4-8599-4812-b509-b0782b6f53a5 | 2026-10-20 | Fix (queued), mirrored |
 | Wil | `wil-chub-scout` | 5b633f8e-10ee-445f-ba46-ba62e1b26f90 (edit of 20f40c63); colour-corrected upload 3f87c967-2748-43d4-9c5b-dd11962459de | 2026-10-22 | Minor (fix queued) |
 | Graham | `graham-engineer` | 55c688d8-bcd6-4a48-9060-b21ef3051a2a (edit of a0a6b54f); mirrored upload d70599fa-9bd9-48b6-b88f-a4884ecce247 | 2026-10-21 | Minor, mirrored |
-| B-1000 | `b-1000-assault-signature` | 72dd6050-d1d8-4b2f-9912-1c6ceb7408ac (third edit, from 1f7259ce); colour-corrected upload e687ee95-e7e8-46b3-abd4-03a40d26e774 | 2026-10-22 | Fix (queued) |
+| B-1000 | `b-1000-assault-signature` | 14149d50-7199-4641-aa02-5fb50714630e (fourth edit, from 1f7259ce); maroon-corrected upload 28e42805-71d4-4158-950f-6ccd90bea381 | 2026-10-23 | Minor (Element created) |
 | Botch | `botch-assassin` | b6d6028f-8288-42ad-9277-ca9fdcebf9f8 | 2026-10-20 | Fix (queued) |
 | Saberi | `saberi-combat-tech` | 8635a36f-35b4-472e-8f8f-945eae9905e8; mirrored upload bf7b803c-eba5-4840-99a7-7c8d93b260fc | 2026-10-20 | Redo (queued), mirrored |
 | Sanchez | `sanchez-arbiter` | 859e4e24-d0f5-4e2b-b02a-352dd7df85b3 (edit of d3d31719); locally fixed upload c143c1df-b550-4082-8173-09e62cde047c | 2026-10-22 | Minor |
@@ -40,29 +40,22 @@ Created on 2026-10-22, after Bryce deleted the old Elements. To use one, put `<<
 | `astoria-sniper` | 548d3bfb-6334-41c7-b842-3d01ca3d3930 | mirrored upload fcc7f1f4 |
 | `saberi-combat-tech` | a0bb390a-5997-4e83-bf0b-1320e20d27b9 | mirrored upload bf7b803c |
 | `sanchez-arbiter` | e6122a2f-99de-423a-a310-733554bf48bb | locally fixed upload c143c1df |
+| `b-1000-assault-signature` | afb181b2-d8e7-47d3-8426-df01bf99e80c | maroon-corrected upload 28e42805 (created 2026-10-23) |
 
-**Deleted:** Bryce deleted the stale Oliver, Botch, Astoria and Saberi Elements, and a listing confirmed it on 2026-10-22. The second review panel had found real errors in those sheets. Their rows above are kept for history only. The current Elements are `sanchez-arbiter` and `riggs-heavy`.
+**Deleted:** Bryce deleted the stale Oliver, Botch, Astoria and Saberi Elements, and a listing confirmed it on 2026-10-22. The second review panel had found real errors in those sheets. Their rows above are kept for history only. The current Elements are `sanchez-arbiter`, `riggs-heavy` and `b-1000-assault-signature`.
 
-Not created yet, and waiting for their queued fixes: B-1000, Oliver, Botch, Astoria, Saberi, Wil, the Huggable (red and blue), Graham and Tillman. The checked prompts for the fresh Tillman and Saberi sheets and the Astoria edit are in the research scratchpad (`shorts/sheets_v2/redo_prompts.json`).
+Not created yet, and waiting for their queued fixes: Oliver, Botch, Astoria, Saberi, Wil, the Huggable (red and blue), Graham and Tillman. The checked prompts for the fresh Tillman and Saberi sheets and the Astoria edit are in the research scratchpad (`shorts/sheets_v2/redo_prompts.json`).
 
 ## QA notes
 
-- **Oliver: fix, mirrored** (second review panel, Oct 22).
-  - Right:
-    - chestnut plush and tan muzzle;
-    - a snug crimson headband with no tails;
-    - red wrist and knee bands with studs;
-    - the crossed brass bandolier;
-    - mitten paws and the compact build.
-  - Wrong, and fixed by mirroring: the smirk and the raised brow were on his left. The soul puts the smirk on his right. Nothing on the sheet depends on side, so the mirrored file is used.
-  - Wrong, and queued:
-    - the nose is brown, not black;
-    - the back plate is an eight-sided slab that fills his whole back; the soul says a flat hexagon about as wide as his shoulder blades.
-  - Minor:
-    - the headband and straps lean raspberry;
-    - the knee-stud rings are lilac rather than silver;
-    - the fur is a little more ginger than chestnut;
-    - he has a tan belly patch and a tail, which the soul doesn't mention.
+- **Oliver: fix** (Oct 23 edit of the mirrored sheet; review panel).
+  - Landed:
+    - a glossy black nose;
+    - a clean hexagonal back plate with red trim all round and no tab or clips, thin in the side view;
+    - the smirk and the raised brow on his own right.
+  - Still wrong: the plate is a little wider than before and ends only about 55 px above his tail. The soul wants it about shoulder-blade width and well above the tail.
+  - A smaller-plate edit is queued for Oct 24. His Element waits for it, because his first clip (C2) comes after the teaser.
+  - Minor: the headband and straps lean raspberry, the stud rings are lilac, the fur is a little ginger, and he has a belly patch and a tail that the soul doesn't mention.
 - **Riggs: minor** (second review panel). No fails. The small notes: a grey centre strip on the helmet and a tail, neither in the soul, and slight scale differences between the views.
 - **Tillman: redo** (second review panel). The Oct 21 edit fixed the eye rims and swapped the treads for wheels, but the panel found that the design misses the soul in many places:
   - the back bar is a small plain box, not a long striped bar across both shoulders;
@@ -109,21 +102,24 @@ Not created yet, and waiting for their queued fixes: B-1000, Oliver, Botch, Asto
     - the radio pack's top sits at shoulder height, not level with the hat brim;
     - after the mirror, the antenna rises from the pack's top right corner instead of its top left.
   - Usable.
-- **B-1000: fix** (after three edits, Oct 21-22, and the review panel).
+- **B-1000: minor, Element created** (fourth edit, Oct 23; review panel; local colour fix).
   - Landed:
-    - no hands in any view: the rail-gun is built onto his right forearm (the viewer's left in the front view), hanging muzzle-down;
-    - the rail-gun is an orange-and-black slab with an orange hexagonal plate, a white light bar and a glowing yellow-orange tip;
-    - the claws come out of a black end cap on the left forearm, with the looping white hose with cyan rings;
-    - the plain round chest disc, the winged white-and-orange jump-pack and the cyan eye-slits.
-  - Found by the panel. All were already in the first sheet, apart from the hose:
-    - the ears are rounded teddy ears; the soul has pointed ears plated in maroon and near-black;
-    - there is no hinged jaw plate, and the head reads as a smooth organic bear rather than glossy armour plates;
-    - the white hose also loops onto the rail-gun arm in the back view, with a faint trace in the three-quarter view;
-    - in the front view the claws leave beside the end cap and curl, instead of coming straight out of it;
-    - the shoulder armour has no rivets;
-    - the rail-gun has one light bar, not two, and no round side port.
-  - The colour cast was corrected locally.
-  - The head and hose edit is first in the next run, because Episode 1's cold open needs it. His Element waits for that result.
+    - a plated robot head with seams and rivets and no fur;
+    - pointed ears plated in maroon and near-black;
+    - a heavy brow plate over narrow cyan eye-slits;
+    - a black-tipped snout over a separate hinged jaw plate;
+    - riveted shoulder armour;
+    - no hands, with the orange-and-black rail-gun built onto his right forearm, the claws on his left and the jump-pack;
+    - the correct sides in every view.
+  - Fixed locally: the armour came out plum-magenta (hue about 325°). It was rotated to the soul's deep maroon (about 352°), and the background was neutralised.
+  - Still minor, and accepted for the Oct 28 teaser after four edits:
+    - the ear tips sit about a third of a head above the shoulder armour (BBG News's own spec says about level);
+    - in the front view the claws leave beside the end cap and curl;
+    - in the three-quarter view the white hose shows faintly on the gun arm and not on the claw arm, and in the back view it shows on both arms;
+    - the rail-gun has one light bar, not two, and no round side port;
+    - the jump-pack vents are louvres, not perforations;
+    - the muzzle plates are a pale mauve.
+  - A polish edit can follow after the teaser. Replacing the Element would need Bryce to delete the current one first.
 - **Botch: fix** (second review panel).
   - Right: plum-black plush, the big round head, grey muzzle, pupil-less glow, silver arm guards with red lights, and the float.
   - Wrong:
@@ -159,19 +155,19 @@ Not created yet, and waiting for their queued fixes: B-1000, Oliver, Botch, Asto
 
 ## Queued for the next daily reset
 
-The edit prompts are in the research scratchpad (`shorts/sheets_v2/fix_prompts_v4.json`). Episode 1's cast comes first:
+Episode 1 now shares the daily limit, so the plan for each reset is in the research scratchpad (`shorts/sheets_v2/run_oct24.json`). Oct 24 runs:
 
-1. B-1000:
-   - a plated robot head with pointed ears, a brow plate and a hinged jaw plate;
-   - no hose on the gun arm;
-   - claws straight out of the end cap.
-2. Oliver (mirrored sheet): a black nose and a flat hexagonal back plate.
-3. Huggable: the button eye moves under the bandage.
-4. Botch: huge calm glowing eyes, a tiny metal backpack and even light.
-5. A retry of B-1000 or Oliver if one fails; otherwise Wil's ABBi edit.
+1. C1 start still.
+2. C1 clip.
+3. Oliver's smaller back plate.
+4. The Huggable's button eye.
+5. Oliver's voice lines.
 
 Later:
-- fresh sheets for Tillman and Saberi from rewritten prompts;
-- Astoria's straps and head size;
+- Botch;
 - the blue Huggable;
-- Graham's minors.
+- Wil's ABBi;
+- fresh Tillman and Saberi sheets (`redo_prompts.json`);
+- Astoria;
+- Graham's minors;
+- a B-1000 polish.
