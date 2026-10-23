@@ -2,8 +2,8 @@
  "id": "L18",
  "sec": "cpp",
  "guide": "cpp",
- "title": "The commercial package and the CGL",
- "summary": "How a commercial package policy is built, what CGL Coverages A, B and C pay, its limits, and how claims-made triggers and tails work.",
+ "title": "Tony's Pizza buys a package: the CPP and the CGL",
+ "summary": "Build Tony's package policy, watch CGL Coverages A, B and C at work in one Detroit week, then follow a caterer through claims-made tails.",
  "objectives": [
   "Name the building blocks of a commercial package policy",
   "Match CGL Coverages A, B and C to what they pay and how they trigger",
@@ -13,160 +13,455 @@
  "scenes": [
   {
    "type": "title",
-   "title": "The commercial package and the CGL",
-   "subtitle": "How a package policy is built, and how commercial general liability pays",
-   "icon": "building-2",
-   "beats": [
+   "title": "Tony's Pizza buys a package: the CPP and the CGL",
+   "subtitle": "How a package is built, what CGL Coverages A, B and C pay, and how claims-made tails work (2013 ISO CGL)",
+   "draw": [
     {
-     "text": "Commercial package policy questions are 12% of your exam, about 18 items.",
-     "say": "Commercial package policy questions are twelve percent of your exam, about eighteen items."
+     "id": "shop",
+     "p": "restaurant",
+     "x": 27,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-     "text": "In this lesson: package basics, the three CGL coverages, limits, and claims-made.",
-     "say": "In this lesson: package basics, the three C G L coverages, limits, and claims-made."
+     "id": "tony",
+     "p": "person",
+     "x": 60,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 79,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "policy"
+     },
+     "at": 1,
+     "anim": "slide-r"
+    },
+    {
+     "p": "bubble",
+     "text": "One policy for all of it?",
+     "x": 66,
+     "y": 13,
+     "w": 36,
+     "to": "tony",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony's Pizza in Detroit faces a rough week: a torn mat, a slogan fight, a wet floor.",
+     "say": "Tony's Pizza in Detroit faces a rough week: a torn mat, a slogan fight, a wet floor."
+    },
+    {
+     "text": "Commercial package questions are 12% of your exam, about 18 items. Let's build Tony's policy.",
+     "say": "Commercial package questions are twelve percent of your exam, about eighteen items. Let's build Tony's policy."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "What's in a commercial package",
-   "src": "IRMI glossary 'commercial package policy'; ISO IL 00 17 11 98; ISO IL DS 00 09 08; ISO IL 04 15 04 98",
-   "items": [
+   "type": "explore",
+   "title": "What's inside Tony's package?",
+   "src": "IRMI glossary; ISO IL DS 00 09 08; IL 00 17 11 98, A-F; IL 04 15 04 98; CP 00 10 10 12; questions comm-001, comm-002",
+   "draw": [
     {
+     "id": "dana",
+     "p": "person",
+     "x": 10,
+     "y": 36,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "point"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 150,
+     "y": 36,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "think"
+     }
+    },
+    {
+     "id": "pkg",
+     "p": "box",
+     "x": 80,
+     "y": 26,
+     "w": 118,
+     "hh": 40,
+     "title": "Tony's package policy",
+     "dash": true,
+     "color": "blue"
+    },
+    {
+     "id": "decs",
+     "p": "policy",
+     "x": 35,
+     "y": 23,
+     "h": 20,
+     "opt": {
+      "title": "DECS",
+      "tsize": 7
+     },
+     "label": "Declarations",
+     "lsize": 3.8,
+     "lw": 22
+    },
+    {
+     "id": "conds",
+     "p": "clipboard",
+     "x": 57,
+     "y": 23,
+     "h": 20,
+     "label": "Conditions",
+     "lsize": 3.8,
+     "lw": 22
+    },
+    {
+     "id": "endo",
+     "p": "policy",
+     "x": 79,
+     "y": 23,
+     "h": 20,
+     "opt": {
+      "title": "IL",
+      "tsize": 9,
+      "tcolor": "purple"
+     }
+    },
+    {
+     "id": "propp",
+     "p": "restaurant",
+     "x": 102,
+     "y": 24.5,
+     "h": 17,
+     "opt": {
+      "name": "TONY'S"
+     },
+     "label": "Property part",
+     "lsize": 3.8,
+     "lw": 22
+    },
+    {
+     "id": "cgl",
+     "p": "scale",
+     "x": 125,
+     "y": 23.5,
+     "h": 17
+    },
+    {
+     "p": "label",
+     "text": "Interline endorsement",
+     "x": 79,
+     "y": 38.96,
+     "size": 3.8,
+     "w": 22
+    },
+    {
+     "p": "label",
+     "text": "Liability part (CGL)",
+     "x": 125,
+     "y": 38.96,
+     "size": 3.8,
+     "w": 22
+    },
+    {
+     "id": "nCancel",
+     "p": "note",
+     "text": "Insurer's notice to cancel: 10 days for nonpayment, 30 for other reasons",
+     "x": 45,
+     "y": 55.5,
+     "w": 48,
+     "size": 3.8,
+     "at": 3,
+     "cue": "10"
+    },
+    {
+     "id": "nAudit",
+     "p": "note",
+     "text": "Audit: up to 3 years after the policy",
+     "x": 86,
+     "y": 55.5,
+     "w": 30,
+     "size": 3.8,
+     "at": 4,
+     "cue": "audit"
+    },
+    {
+     "id": "nVac",
+     "p": "note",
+     "text": "Vacancy? Not one of the six: a property loss condition",
+     "x": 121,
+     "y": 55.5,
+     "w": 36,
+     "size": 3.8,
+     "paper": "pink",
+     "at": 4,
+     "cue": "vacancy"
+    }
+   ],
+   "spots": [
+    {
+     "on": "decs",
      "label": "Common Policy Declarations",
-     "detail": "Named insured, policy period, coverage parts and premiums",
-     "icon": "file-text"
+     "text": "Page one: the named insured, the policy period, the coverage parts that make up the policy, and a premium for each part plus the total."
     },
     {
+     "on": "conds",
      "label": "Common Policy Conditions",
-     "detail": "Six conditions that apply to every coverage part",
-     "icon": "clipboard-list"
+     "text": "Six conditions for every coverage part: cancellation, changes, examination of books, inspections, premiums, and transfer of rights."
     },
     {
-     "label": "Interline endorsements",
-     "detail": "Modify more than one coverage part",
-     "icon": "layers"
+     "on": "endo",
+     "label": "Interline endorsement",
+     "text": "Modifies more than one coverage part. Protective Safeguards, for one, modifies both the commercial property and farm parts."
     },
     {
-     "label": "Coverage parts",
-     "detail": "One part is monoline; two or more make a package",
-     "icon": "package"
+     "on": "propp",
+     "label": "Coverage part: commercial property",
+     "text": "Covers Tony's own property: his building, plus his business personal property, the business things in it or within 100 feet."
+    },
+    {
+     "on": "cgl",
+     "label": "Coverage part: general liability",
+     "text": "Tony's liability coverage. Coverage A, for one, pays injury and damage he legally owes others, plus defense. Two parts in one policy: a package."
     }
    ],
    "beats": [
     {
-     "text": "A commercial package policy gives a business property and liability coverage in one policy. It opens with the Common Policy Declarations.",
-     "say": "A commercial package policy gives a business property and liability coverage in one policy. It opens with the Common Policy Declarations.",
-     "show": 1
+     "text": "Dana, I want one policy for my building and my customers.",
+     "say": "Dana, I want one policy for my building and my customers.",
+     "voice": "tony"
     },
     {
-     "text": "Next, the Common Policy Conditions. These six conditions apply to every coverage part.",
-     "say": "Next, the Common Policy Conditions. These six conditions apply to every coverage part.",
-     "show": 2
+     "text": "One way is a commercial package policy: property and liability coverage for a business, in one policy. Tap each part.",
+     "say": "One way is a commercial package policy: property and liability coverage for a business, in one policy. Tap each part."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A package is common declarations and conditions, plus coverage parts. One part alone is monoline; two or more make a package.",
+     "say": "A package is common declarations and conditions, plus coverage parts. One part alone is monoline; two or more make a package."
     },
     {
-     "text": "Interline endorsements modify more than one coverage part. Protective Safeguards, for one, modifies both commercial property and farm.",
-     "say": "Interline endorsements modify more than one coverage part. Protective Safeguards, for one, modifies both commercial property and farm.",
-     "show": 3
+     "text": "Under the 1998 conditions, the insurer gives 10 days' notice to cancel for nonpayment, 30 for other reasons. State amendatory endorsements can change that.",
+     "say": "Under the nineteen ninety-eight conditions, the insurer gives ten days' notice to cancel for nonpayment, thirty for other reasons. State amendatory endorsements can change that."
     },
     {
-     "text": "Then the coverage parts. One part is monoline; two or more make a package.",
-     "say": "Then the coverage parts. One part is monoline; two or more make a package.",
-     "show": 4,
-     "hl": 3
+     "text": "It may audit the books up to 3 years after the policy. Watch out: vacancy isn't one of the six.",
+     "say": "It may audit the books up to three years after the policy. Watch out: vacancy isn't one of the six."
     }
    ]
   },
   {
-   "type": "bignum",
-   "title": "Common Policy Conditions: the numbers",
-   "src": "ISO IL 00 17 11 98, A-F; state amendatory endorsements can change the notice periods",
-   "items": [
+   "type": "sketch",
+   "title": "Tony's CGL: Coverages A and B",
+   "src": "ISO CG 00 01 04 13, Sec. I Cov. A 1.a-b, Cov. B 1.a-b; Sec. V defs. 13, 14",
+   "draw": [
     {
-     "value": "10 days",
-     "label": "Insurer's cancellation notice for nonpayment"
+     "p": "label",
+     "text": "Monday: Coverage A",
+     "x": 40,
+     "y": 6,
+     "size": 4.6,
+     "bold": true,
+     "color": "blue"
     },
     {
-     "value": "30 days",
-     "label": "Insurer's cancellation notice, any other reason"
+     "id": "mat",
+     "p": "box",
+     "x": 18,
+     "y": 51,
+     "w": 20,
+     "hh": 2.5,
+     "color": "brown",
+     "fill": "brown",
+     "over": true,
+     "cue": "mat"
     },
     {
-     "value": "3 years",
-     "label": "Books and records audit after the policy"
+     "id": "cust",
+     "p": "person",
+     "x": 16,
+     "y": 37,
+     "h": 26,
+     "opt": {
+      "who": "person",
+      "hair": "pony",
+      "shirt": "orange",
+      "pose": "sad",
+      "mood": "sad"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "My ankle!\nSee you in court.",
+     "x": 24,
+     "y": 15,
+     "w": 32,
+     "to": "cust",
+     "cue": "sues"
+    },
+    {
+     "id": "crutch",
+     "p": "crutches",
+     "x": 27,
+     "y": 41,
+     "h": 18,
+     "cue": "ankle"
+    },
+    {
+     "id": "suit",
+     "p": "policy",
+     "x": 43,
+     "y": 38,
+     "h": 16,
+     "opt": {
+      "title": "LAWSUIT",
+      "tsize": 5.4,
+      "tcolor": "red"
+     },
+     "cue": "sues",
+     "label": "Lawsuit",
+     "lsize": 3.8,
+     "lcolor": "red"
+    },
+    {
+     "id": "tonyA",
+     "p": "person",
+     "x": 63,
+     "y": 37,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "label",
+     "text": "A: bodily injury and property damage, plus defense",
+     "x": 40,
+     "y": 58,
+     "size": 3.8,
+     "w": 72,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 80,
+     "y0": 4,
+     "y1": 64,
+     "at": 2,
+     "y": 34
+    },
+    {
+     "p": "label",
+     "text": "Tuesday: Coverage B",
+     "x": 120,
+     "y": 6,
+     "size": 4.6,
+     "bold": true,
+     "color": "purple",
+     "at": 2
+    },
+    {
+     "id": "herSign",
+     "p": "sign",
+     "x": 97,
+     "y": 30,
+     "h": 18,
+     "opt": {
+      "text": "SLICE\nOF JOY",
+      "tcolor": "purple"
+     },
+     "at": 2,
+     "cue": "rival",
+     "label": "Her slogan",
+     "lsize": 3.6
+    },
+    {
+     "id": "rival",
+     "p": "person",
+     "x": 119,
+     "y": 37,
+     "h": 26,
+     "opt": {
+      "who": "person",
+      "hair": "long",
+      "shirt": "pink",
+      "mood": "angry",
+      "pose": "point"
+     },
+     "at": 2,
+     "cue": "rival"
+    },
+    {
+     "id": "tonySign",
+     "p": "sign",
+     "x": 141,
+     "y": 30,
+     "h": 18,
+     "opt": {
+      "text": "SLICE\nOF JOY",
+      "tcolor": "red"
+     },
+     "at": 2,
+     "cue": "uses",
+     "label": "Tony's ad",
+     "lsize": 3.6
+    },
+    {
+     "p": "label",
+     "text": "B: personal and advertising injury",
+     "x": 120,
+     "y": 58,
+     "size": 3.8,
+     "w": 72,
+     "color": "purple",
+     "at": 2,
+     "cue": "personal"
     }
    ],
    "beats": [
     {
-     "text": "The six: cancellation, changes, examination of books, inspections, premiums, and transfer of rights.",
-     "say": "The six: cancellation, changes, examination of books, inspections, premiums, and transfer of rights.",
-     "show": 0
+     "text": "Now Tony's CGL, 2013 edition. Monday, a customer trips on a torn mat, breaks her ankle and sues.",
+     "say": "Now Tony's C G L, twenty thirteen edition. Monday, a customer trips on a torn mat, breaks her ankle and sues."
     },
     {
-     "text": "To cancel, the insurer gives 10 days' notice for nonpayment and 30 days for other reasons, under the 1998 form. State amendatory endorsements can change that.",
-     "say": "To cancel, the insurer gives ten days' notice for nonpayment and thirty days for other reasons, under the nineteen ninety-eight form. State amendatory endorsements can change that.",
-     "show": 2
+     "text": "Coverage A pays bodily injury and property damage Tony legally owes, plus defense. The trigger: an occurrence, an accident, causing injury during the policy period.",
+     "say": "Coverage A pays bodily injury and property damage Tony legally owes, plus defense. The trigger: an occurrence, an accident, causing injury during the policy period.",
+     "hl": "suit"
     },
     {
-     "text": "The insurer may audit your books up to 3 years after the policy. And watch out: vacancy is not one of the six. It's a property loss condition.",
-     "say": "The insurer may audit your books up to three years after the policy. And watch out: vacancy is not one of the six. It's a property loss condition.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "CGL Coverages A, B and C",
-   "src": "ISO CG 00 01 04 13, Sec. I Cov. A 1.a-b, Cov. B 1.b, Cov. C 1.a-b; Sec. V def. 13",
-   "columns": [
-    "Coverage",
-    "Pays",
-    "Trigger or rule"
-   ],
-   "items": [
-    [
-     "A: Bodily injury, property damage",
-     "Damages owed, plus defense",
-     "Occurrence; injury during policy period"
-    ],
-    [
-     "B: Personal and advertising injury",
-     "Damages for listed offenses",
-     "Offense during the policy period"
-    ],
-    [
-     "C: Medical payments",
-     "Medical expenses from accidents",
-     "No fault needed; within 1 year"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "Now the CGL, 2013 edition. Coverage A pays bodily injury and property damage the insured legally owes, plus defense.",
-     "say": "Now the C G L, twenty thirteen edition. Coverage A pays bodily injury and property damage the insured legally owes, plus defense.",
-     "show": 1
-    },
-    {
-     "text": "Its trigger is an occurrence, an accident, that causes injury during the policy period.",
-     "say": "Its trigger is an occurrence, an accident, that causes injury during the policy period.",
-     "show": 1,
-     "hl": 0
-    },
-    {
-     "text": "Coverage B pays personal and advertising injury. It's triggered by an offense committed during the policy period.",
-     "say": "Coverage B pays personal and advertising injury. It's triggered by an offense committed during the policy period.",
-     "show": 2
-    },
-    {
-     "text": "Coverage C pays medical expenses for accidents on your premises or from your operations, regardless of fault. Expenses must be incurred and reported within 1 year of the accident.",
-     "say": "Coverage C pays medical expenses for accidents on your premises or from your operations, regardless of fault. Expenses must be incurred and reported within one year of the accident.",
-     "show": 3
+     "text": "Tuesday, a rival sues, saying Tony's ad uses her slogan. Coverage B pays personal and advertising injury, for an offense committed during the policy period.",
+     "say": "Tuesday, a rival sues, saying Tony's ad uses her slogan. Coverage B pays personal and advertising injury, for an offense committed during the policy period.",
+     "hl": "tonySign"
     }
    ]
   },
   {
    "type": "hook",
    "title": "Coverage B: the four Ps",
-   "src": "Hook mn-mn_comm-03; ISO CG 00 01 04 13, Sec. V def. 14",
+   "src": "Hook mn-mn_comm-03; ISO CG 00 01 04 13, Sec. V def. 14; question comm-009",
    "hook": "Coverage B's four Ps: Police, Property, Publication, Promotion.",
    "mn": "mn-mn_comm-03",
    "items": [
@@ -175,288 +470,1670 @@
     "Publication: slander, libel, disparagement; violating a right of privacy",
     "Promotion: using another's ad idea; copyright, trade dress or slogan in your ad"
    ],
-   "beats": [
+   "draw": [
     {
-     "text": "Remember the Coverage B offenses with four Ps: Police, Property, Publication, Promotion.",
-     "say": "Remember the Coverage B offenses with four Ps: Police, Property, Publication, Promotion.",
-     "show": 0
+     "id": "pol",
+     "p": "badge",
+     "x": 20,
+     "y": 14,
+     "h": 13,
+     "opt": {
+      "text": "POLICE"
+     },
+     "label": "Police",
+     "lsize": 4.2,
+     "cue": "Police"
     },
     {
-     "text": "Police is false arrest and malicious prosecution. Property is wrongful eviction or entry.",
-     "say": "Police is false arrest and malicious prosecution. Property is wrongful eviction or entry.",
-     "show": 2
+     "id": "prp",
+     "p": "house",
+     "x": 59,
+     "y": 13,
+     "h": 15,
+     "label": "Property",
+     "lsize": 4.2,
+     "cue": "Property"
     },
     {
-     "text": "Publication is slander, libel and privacy. Promotion is advertising offenses. Watch out: injury from a defective product is Coverage A, not B.",
-     "say": "Publication is slander, libel and privacy. Promotion is advertising offenses. Watch out: injury from a defective product is Coverage A, not B.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Supplementary payments ride on top",
-   "src": "ISO CG 00 01 04 13, Supplementary Payments - Coverages A and B, 1.a-g",
-   "items": [
-    {
-     "label": "Paid on top of the limits",
-     "detail": "These payments will not reduce the limits",
-     "icon": "layers"
+     "id": "pub",
+     "p": "megaphone",
+     "x": 20,
+     "y": 39,
+     "h": 11,
+     "label": "Publication",
+     "lsize": 4.2,
+     "cue": "Publication"
     },
     {
-     "label": "Bail bonds up to $250",
-     "icon": "banknote"
+     "id": "pro",
+     "p": "sign",
+     "x": 59,
+     "y": 36,
+     "h": 17,
+     "opt": {
+      "text": "AD"
+     },
+     "label": "Promotion",
+     "lsize": 4.2,
+     "cue": "Promotion"
     },
     {
-     "label": "Lost earnings up to $250 a day",
-     "icon": "calendar"
-    },
-    {
-     "label": "Court costs, not attorney fees",
-     "detail": "As taxed against the insured",
-     "icon": "gavel"
+     "p": "note",
+     "text": "Hurt by a defective product? Coverage A, not B",
+     "x": 40,
+     "y": 58,
+     "w": 44,
+     "paper": "pink",
+     "at": 3
     }
    ],
    "beats": [
     {
-     "text": "Supplementary payments apply to Coverages A and B, and they're paid on top of the limits.",
-     "say": "Supplementary payments apply to Coverages A and B, and they're paid on top of the limits.",
-     "show": 1
+     "text": "Coverage B's offenses come in four Ps: Police, Property, Publication, Promotion.",
+     "say": "Coverage B's offenses come in four Ps: Police, Property, Publication, Promotion.",
+     "show": 0
     },
     {
-     "text": "They include up to $250 for bail bonds, and up to $250 a day for the insured's lost earnings while helping the defense.",
-     "say": "They include up to two hundred fifty dollars for bail bonds, and up to two hundred fifty dollars a day for the insured's lost earnings while helping the defense.",
-     "show": 3
+     "text": "Police: false arrest, malicious prosecution. Property: wrongful eviction or entry.",
+     "say": "Police: false arrest, malicious prosecution. Property: wrongful eviction or entry.",
+     "show": 2,
+     "hl": [
+      "pol",
+      "prp"
+     ]
     },
     {
-     "text": "Court costs taxed against the insured are paid. Attorney fees taxed against the insured are not. The exam likes that trap.",
-     "say": "Court costs taxed against the insured are paid. Attorney fees taxed against the insured are not. The exam likes that trap.",
+     "text": "Publication: slander, libel, privacy. Promotion: advertising offenses, like Tony's ad using her slogan.",
+     "say": "Publication: slander, libel, privacy. Promotion: advertising offenses, like Tony's ad using her slogan.",
      "show": 4,
-     "hl": 3
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Two aggregate limits",
-   "src": "ISO CG 00 01 04 13, Sec. III 2-5; Sec. V def. 16.a",
-   "columns": [
-    {
-     "name": "General Aggregate",
-     "icon": "layers",
-     "points": [
-      "Coverage A, except products-completed operations",
-      "All of Coverage B",
-      "All of Coverage C"
+     "hl": [
+      "pub",
+      "pro"
      ]
     },
     {
-     "name": "Products-Completed Ops Aggregate",
-     "icon": "package",
-     "points": [
-      "Coverage A only",
-      "Injury from your product or finished work",
-      "Away from premises you own or rent"
-     ]
-    }
-   ],
-   "tell": "Your product or finished work, away from your premises: products-completed operations. Work in progress: general aggregate.",
-   "beats": [
-    {
-     "text": "CGL limits work like two buckets. The general aggregate holds Coverage A, except products and completed operations, plus all of Coverages B and C.",
-     "say": "C G L limits work like two buckets. The general aggregate holds Coverage A, except products and completed operations, plus all of Coverages B and C.",
-     "show": 1
-    },
-    {
-     "text": "The products-completed operations aggregate holds only Coverage A injury or damage from your product or finished work, away from premises you own or rent.",
-     "say": "The products-completed operations aggregate holds only Coverage A injury or damage from your product or finished work, away from premises you own or rent.",
-     "show": 2
-    },
-    {
-     "text": "Work in progress isn't completed operations. And the each occurrence limit caps A plus C from one occurrence.",
-     "say": "Work in progress isn't completed operations. And the each occurrence limit caps A plus C from one occurrence.",
-     "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "A contractor's crew drops a board while still framing a house, injuring a passerby. Under the 2013 ISO CGL, which aggregate limit does this claim count against?",
-   "choices": [
-    "The General Aggregate",
-    "The Products-Completed Operations Aggregate",
-    "Neither; it's paid on top of the limits"
-   ],
-   "answer": 0,
-   "why": "Work still in progress is a premises and operations exposure, not completed operations, so its Coverage A damages count in the General Aggregate.",
-   "beats": [
-    {
-     "text": "Your turn. A crew drops a board while still framing a house and hurts a passerby. Which aggregate does this claim count against? Pick an answer.",
-     "say": "Your turn. A crew drops a board while still framing a house and hurts a passerby. Which aggregate does this claim count against? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "The General Aggregate. The framing wasn't finished, so this is premises and operations, not completed operations.",
-     "say": "The General Aggregate. The framing wasn't finished, so this is premises and operations, not completed operations."
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Occurrence vs claims-made",
-   "src": "ISO CG 00 01 04 13, Cov. A 1.b; CG 00 02 04 13 as described by FC&S (2014) and Austin and Stanovich (2012)",
-   "columns": [
-    {
-     "name": "Occurrence form",
-     "icon": "calendar",
-     "points": [
-      "Trigger: injury occurs during the policy period",
-      "The claim can come years later",
-      "No retroactive date, no tail needed"
-     ]
-    },
-    {
-     "name": "Claims-made form",
-     "icon": "file-signature",
-     "points": [
-      "Trigger: claim first made during the policy period",
-      "Injury after the retroactive date",
-      "Injury before the policy period ends"
-     ]
-    }
-   ],
-   "tell": "Find the trigger date: when the injury happened, or when the claim was first made.",
-   "beats": [
-    {
-     "text": "The occurrence form is triggered by injury during the policy period, even if the claim comes years later.",
-     "say": "The occurrence form is triggered by injury during the policy period, even if the claim comes years later.",
-     "show": 1
-    },
-    {
-     "text": "The claims-made form is triggered by a claim first made during the policy period, for injury after the retroactive date and before the policy ends.",
-     "say": "The claims-made form is triggered by a claim first made during the policy period, for injury after the retroactive date and before the policy ends.",
-     "show": 2
-    },
-    {
-     "text": "So find the trigger date: when the injury happened, or when the claim was first made.",
-     "say": "So find the trigger date: when the injury happened, or when the claim was first made.",
-     "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "scenario",
-   "title": "Claims-made: check both gates",
-   "src": "CG 00 02 04 13 as described by FC&S (2014) and Austin and Stanovich (2012)",
-   "icon": "calendar",
-   "story": "A Lansing caterer has a claims-made CGL from January 1, 2026, to January 1, 2027, with a retroactive date of January 1, 2024. A guest was injured at a 2023 event and first makes a claim in May 2026.",
-   "items": [
-    {
-     "label": "Claim first made during the policy?",
-     "detail": "Yes. May 2026 is inside the policy period."
-    },
-    {
-     "label": "Injury after the retroactive date?",
-     "detail": "No. The 2023 injury came before January 1, 2024."
-    }
-   ],
-   "answer": "Not covered. Injury before the retro date isn't covered, even when the claim is made during the policy period.",
-   "beats": [
-    {
-     "text": "Let's apply it. A Lansing caterer has a claims-made CGL from January 1, 2026, to January 1, 2027, with a retroactive date of January 1, 2024.",
-     "say": "Let's apply it. A Lansing caterer has a claims-made C G L from January first, twenty twenty-six, to January first, twenty twenty-seven, with a retroactive date of January first, twenty twenty-four.",
-     "show": 0
-    },
-    {
-     "text": "A guest was injured at a 2023 event and first makes a claim in May 2026. Is it covered?",
-     "say": "A guest was injured at a twenty twenty-three event and first makes a claim in May twenty twenty-six. Is it covered?",
-     "show": 0
-    },
-    {
-     "text": "First, the claim gate: was the claim first made during the policy period? Yes.",
-     "say": "First, the claim gate: was the claim first made during the policy period? Yes.",
-     "show": 1
-    },
-    {
-     "text": "Then the injury gate: was the injury after the retroactive date? No. So no coverage, even though the claim came during the policy.",
-     "say": "Then the injury gate: was the injury after the retroactive date? No. So no coverage, even though the claim came during the policy.",
-     "show": 2,
-     "answer": true
-    }
-   ]
-  },
-  {
-   "type": "timeline",
-   "title": "Claims-made tails: basic vs supplemental",
-   "src": "CG 00 02 04 13 as described by FC&S (2014) and Austin and Stanovich (2012); form text not seen",
-   "items": [
-    {
-     "at": "Policy ends",
-     "label": "Basic tail starts, automatic and free"
-    },
-    {
-     "at": "60 days",
-     "label": "Basic tail for unreported occurrences",
-     "detail": "Also the deadline to request the supplemental tail in writing"
-    },
-    {
-     "at": "5 years",
-     "label": "Basic tail for reported occurrences",
-     "detail": "Occurrence reported to the insurer within 60 days after the policy ends"
-    },
-    {
-     "at": "Unlimited",
-     "label": "Supplemental tail, if bought",
-     "detail": "Premium up to 200% of the annual premium; reinstates aggregate limits"
-    }
-   ],
-   "beats": [
-    {
-     "text": "When a claims-made policy is canceled or nonrenewed, a basic extended reporting period, or tail, starts automatically at no charge.",
-     "say": "When a claims-made policy is canceled or nonrenewed, a basic extended reporting period, or tail, starts automatically at no charge.",
-     "show": 1
-    },
-    {
-     "text": "It gives just 60 days for claims from occurrences you never reported.",
-     "say": "It gives just sixty days for claims from occurrences you never reported.",
-     "show": 2
-    },
-    {
-     "text": "But for occurrences you reported to the insurer within 60 days after the policy ended, claims can come up to 5 years later.",
-     "say": "But for occurrences you reported to the insurer within sixty days after the policy ended, claims can come up to five years later.",
-     "show": 3
-    },
-    {
-     "text": "The supplemental tail is optional. Request it in writing within 60 days. It costs up to 200% of the annual premium, has no time limit, and reinstates the aggregates. Neither tail covers injury after the policy ends.",
-     "say": "The supplemental tail is optional. Request it in writing within sixty days. It costs up to two hundred percent of the annual premium, has no time limit, and reinstates the aggregates. Neither tail covers injury after the policy ends.",
+     "text": "Watch out: injury from a defective product is Coverage A, not B.",
+     "say": "Watch out: injury from a defective product is Coverage A, not B.",
      "show": 4
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "A claims-made CGL ends without renewal. Twenty days later, the insured reports an occurrence from the policy period (after the retro date). With no supplemental tail, a claim may be made up to:",
-   "choices": [
-    "60 days after the policy ends",
-    "1 year after the policy ends",
-    "5 years after the policy ends",
-    "Any time, with no limit"
+   "type": "choice",
+   "title": "Tony's call: the slip on the wet floor",
+   "src": "ISO CG 00 01 04 13, Sec. I Cov. C 1.a-b; question comm-007",
+   "ask": "What does Tony do?",
+   "draw": [
+    {
+     "id": "wet",
+     "p": "sign",
+     "x": 18,
+     "y": 31,
+     "h": 26,
+     "opt": {
+      "text": "WET\nFLOOR",
+      "color": "yellow",
+      "tcolor": "orange"
+     }
+    },
+    {
+     "id": "cust",
+     "p": "person",
+     "x": 50,
+     "y": 32,
+     "h": 32,
+     "opt": {
+      "who": "neighbor",
+      "pose": "hold",
+      "hold": "receipt",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "I'm not suing.\nI just have this bill.",
+     "x": 76,
+     "y": 9,
+     "w": 40,
+     "to": "cust",
+     "size": 4.6
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 100,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Not my fault... right?",
+     "x": 141,
+     "y": 9,
+     "w": 32,
+     "to": "tony",
+     "think": true,
+     "size": 5
+    },
+    {
+     "p": "icon",
+     "name": "droplets",
+     "x": 31,
+     "y": 45,
+     "h": 7,
+     "color": "sky"
+    },
+    {
+     "p": "icon",
+     "name": "bandage",
+     "x": 47.4,
+     "y": 39,
+     "h": 4,
+     "color": "red",
+     "over": true
+    }
    ],
-   "answer": 2,
-   "why": "The basic tail gives 5 years for claims from occurrences reported within 60 days after the policy ends. Only the supplemental tail has unlimited duration.",
    "beats": [
     {
-     "text": "One more. A claims-made CGL isn't renewed. Twenty days later, the insured reports an occurrence from the policy period. With no supplemental tail, how long can a claim still be made? Pick an answer.",
-     "say": "One more. A claims-made C G L isn't renewed. Twenty days later, the insured reports an occurrence from the policy period. With no supplemental tail, how long can a claim still be made? Pick an answer."
+     "text": "Wednesday, a regular slips on Tony's wet floor and sprains his wrist.",
+     "say": "Wednesday, a regular slips on Tony's wet floor and sprains his wrist."
+    },
+    {
+     "text": "I'm not suing, Tony. I just have this bill.",
+     "say": "I'm not suing, Tony. I just have this bill.",
+     "voice": "neighbor",
+     "speaker": "Customer"
+    },
+    {
+     "text": "Coverage C pays medical expenses for accidents on Tony's premises or from his operations, regardless of fault. Under the 2013 CGL, they must be incurred and reported within 1 year. What does Tony do?",
+     "say": "Coverage C pays medical expenses for accidents on Tony's premises or from his operations, regardless of fault. Under the twenty thirteen C G L, they must be incurred and reported within one year. What does Tony do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Not my fault. Tell him tough luck.",
+     "ok": false,
+     "fail": "Coverage C pays medical expenses for accidents on Tony's premises regardless of fault. Nobody has to prove he was careless.",
+     "beats": [
+      {
+       "text": "Tony waves him off and hides behind the oven. But Coverage C pays regardless of fault.",
+       "say": "Tony waves him off and hides behind the oven. But Coverage C pays regardless of fault."
+      }
+     ],
+     "draw": [
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 42,
+       "y": 38,
+       "h": 30,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "id": "oven",
+       "p": "oven",
+       "x": 42,
+       "y": 42,
+       "h": 28,
+       "over": true
+      },
+      {
+       "id": "cust",
+       "p": "person",
+       "x": 108,
+       "y": 29,
+       "h": 32,
+       "opt": {
+        "who": "neighbor",
+        "pose": "walk",
+        "mood": "angry"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Hmph!",
+       "x": 92,
+       "y": 9,
+       "w": 16,
+       "to": "cust"
+      },
+      {
+       "p": "label",
+       "text": "Coverage C: no fault needed",
+       "x": 80,
+       "y": 54,
+       "size": 4.4,
+       "color": "green",
+       "bold": true,
+       "cue": "fault"
+      },
+      {
+       "p": "bubble",
+       "text": "Maybe he'll leave...",
+       "x": 50,
+       "y": 11,
+       "w": 34,
+       "to": "tony",
+       "think": true
+      }
+     ]
+    },
+    {
+     "label": "Sit on the bills for 14 months",
+     "ok": false,
+     "fail": "Coverage C pays only expenses incurred and reported within 1 year of the accident. Fourteen months is too late.",
+     "beats": [
+      {
+       "text": "Fourteen months later, Tony mails the bills. Too late: they must be incurred and reported within 1 year.",
+       "say": "Fourteen months later, Tony mails the bills. Too late: they must be incurred and reported within one year."
+      }
+     ],
+     "draw": [
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 40,
+       "y": 24,
+       "h": 22,
+       "opt": {
+        "n": "14 mo",
+        "size": 12
+       }
+      },
+      {
+       "p": "hourglass",
+       "x": 64,
+       "y": 27,
+       "h": 16,
+       "opt": {
+        "sand": 0
+       },
+       "cue": "late"
+      },
+      {
+       "p": "label",
+       "text": "Reported after 1 year",
+       "x": 40,
+       "y": 45,
+       "size": 4.4,
+       "color": "red"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 104,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "hold": "envelope",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "There's a clock?",
+       "x": 78,
+       "y": 8,
+       "w": 26,
+       "to": "tony"
+      }
+     ]
+    },
+    {
+     "label": "Report it now, under Coverage C",
+     "ok": true,
+     "win": "Coverage C pays medical expenses for accidents on Tony's premises, regardless of fault, if incurred and reported within 1 year.",
+     "beats": [
+      {
+       "text": "Tony reports it now. Coverage C pays his bill, no fault needed.",
+       "say": "Tony reports it now. Coverage C pays his bill, no fault needed."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 26,
+       "y": 26,
+       "h": 30
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 48,
+       "y": 20,
+       "h": 8,
+       "move": {
+        "to": [
+         88,
+         30
+        ],
+        "at": 0,
+        "cue": "pays",
+        "sfx": "cash"
+       }
+      },
+      {
+       "id": "cust",
+       "p": "person",
+       "x": 100,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "neighbor",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 128,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Paid",
+       "x": 64,
+       "y": 44,
+       "color": "green",
+       "size": 9,
+       "rot": -8,
+       "cue": "pays"
+      }
+     ]
     }
    ],
    "reveal": [
     {
-     "text": "Five years. It was reported within 60 days after the policy ended, so the free basic tail runs 5 years.",
-     "say": "Five years. It was reported within sixty days after the policy ended, so the free basic tail runs five years."
+     "text": "No fault needed, but a 1-year clock.",
+     "say": "No fault needed, but a one-year clock."
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Coverage A, B or C?",
+   "src": "ISO CG 00 01 04 13, Sec. I Cov. A 1.a, Cov. B 1.a, Cov. C 1.a-b; Sec. V def. 14; hook mn-mn_comm-02; question comm-009",
+   "options": [
+    "Coverage A",
+    "Coverage B",
+    "Coverage C"
+   ],
+   "cards": [
+    {
+     "text": "A family takes Tony's pizza home. A bad topping makes them sick, and they sue.",
+     "answer": 0,
+     "why": "Bodily injury from Tony's product is Coverage A. It's not a Coverage B offense.",
+     "draw": [
+      {
+       "p": "pizza",
+       "x": 32,
+       "y": 28,
+       "h": 26
+      },
+      {
+       "p": "house",
+       "x": 72,
+       "y": 26,
+       "h": 32
+      }
+     ]
+    },
+    {
+     "text": "Tony wrongly accuses a customer of stealing and holds him until police come. He sues for false arrest.",
+     "answer": 1,
+     "why": "False arrest and detention is a Police offense: Coverage B.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 30,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "tony",
+        "pose": "point",
+        "mood": "angry"
+       }
+      },
+      {
+       "p": "person",
+       "x": 70,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "neighbor",
+        "pose": "stop",
+        "mood": "shocked"
+       }
+      }
+     ]
+    },
+    {
+     "text": "A boy bumps his head on Tony's counter. His mom just wants the doctor bill paid. Nobody blames Tony.",
+     "answer": 2,
+     "why": "Medical expenses from an accident on Tony's premises, paid regardless of fault: Coverage C.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 34,
+       "y": 30,
+       "h": 44,
+       "opt": {
+        "who": "kid",
+        "mood": "sad"
+       }
+      },
+      {
+       "p": "firstaid",
+       "x": 70,
+       "y": 32,
+       "h": 20
+      }
+     ]
+    },
+    {
+     "text": "A rival sues Tony for libel over a flyer he handed out about her pizza.",
+     "answer": 1,
+     "why": "Libel is a Publication offense: Coverage B.",
+     "draw": [
+      {
+       "p": "policy",
+       "x": 34,
+       "y": 28,
+       "h": 30,
+       "opt": {
+        "title": "FLYER",
+        "tcolor": "red",
+        "tsize": 7
+       }
+      },
+      {
+       "p": "person",
+       "x": 70,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "person",
+        "hair": "long",
+        "shirt": "pink",
+        "mood": "angry"
+       }
+      }
+     ]
+    },
+    {
+     "text": "A shelf at Tony's falls and smashes a customer's laptop. She sues for the damage.",
+     "answer": 0,
+     "why": "Property damage that Tony legally owes for is Coverage A.",
+     "draw": [
+      {
+       "p": "laptop",
+       "x": 50,
+       "y": 30,
+       "h": 24,
+       "opt": {
+        "broken": true
+       }
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: Coverage A, B or C?",
+     "say": "Your turn: Coverage A, B or C?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A is for Accidents, B for Big mouth, C for Care. Even injury from Tony's product is A.",
+     "say": "A is for Accidents, B for Big mouth, C for Care. Even injury from Tony's product is A."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Supplementary payments ride on top",
+   "src": "ISO CG 00 01 04 13, Supplementary Payments - Coverages A and B, 1.a-g; hook mn-mn_comm-04; questions comm-005, comm-006",
+   "draw": [
+    {
+     "id": "car",
+     "p": "car",
+     "x": 34,
+     "y": 47,
+     "h": 22,
+     "opt": {
+      "color": "red"
+     },
+     "label": "The limits",
+     "lsize": 4.2
+    },
+    {
+     "id": "boat",
+     "p": "box",
+     "x": 34,
+     "y": 36.2,
+     "w": 34,
+     "hh": 3.6,
+     "r": 1.8,
+     "color": "green",
+     "fill": "green",
+     "over": true,
+     "cue": "canoe"
+    },
+    {
+     "id": "paddle",
+     "p": "line",
+     "from": [
+      27,
+      32.5
+     ],
+     "to": [
+      41,
+      39.5
+     ],
+     "color": "brown",
+     "over": true,
+     "cue": "canoe"
+    },
+    {
+     "p": "label",
+     "text": "Supplementary payments",
+     "x": 34,
+     "y": 26,
+     "size": 4.2,
+     "w": 60,
+     "color": "green",
+     "bold": true,
+     "cue": "top"
+    },
+    {
+     "id": "bail",
+     "p": "num",
+     "text": "$250",
+     "x": 88,
+     "y": 14,
+     "size": 7,
+     "color": "green",
+     "at": 1,
+     "cue": "bail"
+    },
+    {
+     "p": "label",
+     "text": "max for bail bonds",
+     "x": 88,
+     "y": 23,
+     "size": 3.8,
+     "at": 1,
+     "cue": "bail"
+    },
+    {
+     "id": "earn",
+     "p": "num",
+     "text": "$250 a day",
+     "x": 132,
+     "y": 14,
+     "size": 7,
+     "color": "green",
+     "at": 1,
+     "cue": "earnings"
+    },
+    {
+     "p": "label",
+     "text": "max: Tony's lost earnings",
+     "x": 132,
+     "y": 23,
+     "size": 3.8,
+     "at": 1,
+     "cue": "earnings"
+    },
+    {
+     "p": "arrow",
+     "from": "bail",
+     "to": [
+      53,
+      34
+     ],
+     "dash": true,
+     "color": "green",
+     "bend": 0.15,
+     "at": 1,
+     "cue": "earnings"
+    },
+    {
+     "id": "court",
+     "p": "gavel",
+     "x": 88,
+     "y": 42,
+     "h": 11,
+     "at": 2,
+     "cue": "court"
+    },
+    {
+     "p": "check",
+     "x": 100,
+     "y": 36,
+     "h": 7,
+     "at": 2,
+     "cue": "paid"
+    },
+    {
+     "p": "label",
+     "text": "Court costs taxed against Tony: paid",
+     "x": 88,
+     "y": 54,
+     "size": 3.8,
+     "w": 32,
+     "color": "green",
+     "at": 2,
+     "cue": "paid"
+    },
+    {
+     "id": "fees",
+     "p": "briefcase",
+     "x": 132,
+     "y": 42,
+     "h": 10,
+     "at": 2,
+     "cue": "attorney"
+    },
+    {
+     "p": "cross",
+     "x": 143,
+     "y": 36,
+     "h": 7,
+     "at": 2,
+     "cue": "aren't"
+    },
+    {
+     "p": "label",
+     "text": "Attorney fees taxed against Tony: not paid",
+     "x": 132,
+     "y": 54,
+     "size": 3.8,
+     "w": 34,
+     "color": "red",
+     "at": 2,
+     "cue": "aren't"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Supplementary payments for Coverages A and B don't reduce the limits. They ride on top, like a canoe on the roof rack heading Up North.",
+     "say": "Supplementary payments for Coverages A and B don't reduce the limits. They ride on top, like a canoe on the roof rack heading Up North.",
+     "hl": "boat"
+    },
+    {
+     "text": "Under the 2013 CGL: up to $250 for bail bonds after an accident or traffic violation in a covered vehicle. And up to $250 a day for Tony's lost earnings helping the defense.",
+     "say": "Under the twenty thirteen C G L: up to two hundred fifty dollars for bail bonds after an accident or traffic violation in a covered vehicle. And up to two hundred fifty dollars a day for Tony's lost earnings helping the defense."
+    },
+    {
+     "text": "Court costs taxed against Tony, meaning the court orders him to pay, are paid. Attorney fees taxed against him aren't. Watch that trap.",
+     "say": "Court costs taxed against Tony, meaning the court orders him to pay, are paid. Attorney fees taxed against him aren't. Watch that trap.",
+     "hl": [
+      "court",
+      "fees"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Two buckets of limits",
+   "src": "ISO CG 00 01 04 13, Sec. III 2-5 and annual period; Sec. V def. 16.a; adapted from hook mn-mn_comm-02; question comm-008",
+   "kind": "CGL limits",
+   "term": "Products-completed operations hazard",
+   "plain": "Injury or damage away from premises you own or rent, from your product or finished work. Its own aggregate covers Coverage A only.",
+   "example": "Tony's pizza makes a family sick at home: products bucket. A customer trips in his shop: general aggregate.",
+   "exam": "General aggregate: Coverage A except products-completed ops, plus all of B and C. Work still in progress isn't completed ops.",
+   "draw": [
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 40,
+     "y": 12,
+     "h": 20,
+     "opt": {
+      "who": "tony",
+      "pose": "point"
+     }
+    },
+    {
+     "id": "pco",
+     "p": "box",
+     "x": 60,
+     "y": 45,
+     "w": 34,
+     "hh": 32,
+     "color": "orange",
+     "title": "Products-completed ops",
+     "cue": "products"
+    },
+    {
+     "id": "pz",
+     "p": "pizza",
+     "x": 53,
+     "y": 53,
+     "h": 10,
+     "cue": "products"
+    },
+    {
+     "id": "hs",
+     "p": "house",
+     "x": 67,
+     "y": 52,
+     "h": 12,
+     "cue": "products"
+    },
+    {
+     "id": "gen",
+     "p": "box",
+     "x": 20,
+     "y": 45,
+     "w": 34,
+     "hh": 32,
+     "color": "blue",
+     "title": "General aggregate",
+     "at": 2
+    },
+    {
+     "id": "cr",
+     "p": "crutches",
+     "x": 10,
+     "y": 52,
+     "h": 12,
+     "at": 2
+    },
+    {
+     "id": "meg",
+     "p": "megaphone",
+     "x": 21,
+     "y": 53,
+     "h": 7,
+     "at": 2
+    },
+    {
+     "id": "aid",
+     "p": "firstaid",
+     "x": 31,
+     "y": 53,
+     "h": 7,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Coverage A only",
+     "x": 60,
+     "y": 42,
+     "size": 3.4,
+     "w": 30,
+     "color": "orange",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "rest of A, all of B and C",
+     "x": 20,
+     "y": 39,
+     "size": 3.4,
+     "w": 30,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Each occurrence limit: A plus C",
+     "x": 40,
+     "y": 25.5,
+     "size": 3.6,
+     "bold": true,
+     "at": 3
+    },
+    {
+     "p": "ring",
+     "on": "cr",
+     "at": 3,
+     "color": "red"
+    },
+    {
+     "p": "ring",
+     "on": "aid",
+     "at": 3,
+     "color": "red"
+    },
+    {
+     "p": "ring",
+     "on": "pz",
+     "at": 3,
+     "color": "red"
+    }
+   ],
+   "beats": [
+    {
+     "text": "CGL limits work like two buckets: yearly caps called aggregates. One is products-completed operations: injury away from premises you own or rent, from your product or finished work.",
+     "say": "C G L limits work like two buckets: yearly caps called aggregates. One is products-completed operations: injury away from premises you own or rent, from your product or finished work.",
+     "show": 2,
+     "hl": "pco"
+    },
+    {
+     "text": "It holds only Coverage A, like a family sick from Tony's pizza at home.",
+     "say": "It holds only Coverage A, like a family sick from Tony's pizza at home.",
+     "show": 3
+    },
+    {
+     "text": "Everything else fills the general aggregate: the rest of A, plus all of B and C. Work still in progress isn't completed operations.",
+     "say": "Everything else fills the general aggregate: the rest of A, plus all of B and C. Work still in progress isn't completed operations.",
+     "show": 4,
+     "hl": "gen"
+    },
+    {
+     "text": "The each occurrence limit caps A plus C from one occurrence.",
+     "say": "The each occurrence limit caps A plus C from one occurrence.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Which bucket does it fill?",
+   "src": "ISO CG 00 01 04 13, Sec. III 2-3; Sec. V def. 16.a; questions comm-008, comm-cpa-01",
+   "bins": [
+    {
+     "name": "General aggregate"
+    },
+    {
+     "name": "Products-completed ops"
+    }
+   ],
+   "items": [
+    {
+     "text": "A server spills hot soup on a diner, who sues",
+     "bin": 0,
+     "why": "Premises and operations: Coverage A, general aggregate."
+    },
+    {
+     "text": "A delivery customer cracks a tooth on Tony's pizza at home",
+     "bin": 1,
+     "why": "Tony's product, away from his premises."
+    },
+    {
+     "text": "The rival's slogan suit against Tony",
+     "bin": 0,
+     "why": "All of Coverage B counts in the general aggregate."
+    },
+    {
+     "text": "No-fault medical bill: a diner slips inside Tony's",
+     "bin": 0,
+     "why": "Coverage C: all of C counts in the general aggregate."
+    },
+    {
+     "text": "Mid-framing, a contractor's board hits a passerby",
+     "bin": 0,
+     "why": "Work in progress isn't completed operations."
+    },
+    {
+     "text": "Contractor's finished railing at a client's hurts a guest",
+     "bin": 1,
+     "why": "Finished work, away from the contractor's premises: completed operations."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn. Which bucket does each claim fill?",
+     "say": "Your turn. Which bucket does each claim fill?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Product or finished work away from your premises: products bucket.",
+     "say": "Product or finished work away from your premises: products bucket."
+    },
+    {
+     "text": "Everything else, even work in progress: general aggregate.",
+     "say": "Everything else, even work in progress: general aggregate."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Occurrence or claims-made: which date counts?",
+   "src": "ISO CG 00 01 04 13, Cov. A 1.b; CG 00 02 04 13 per FC&S (2014), Austin and Stanovich (2012), form text not seen",
+   "draw": [
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 10,
+     "y": 19,
+     "h": 22,
+     "opt": {
+      "who": "tony"
+     },
+     "label": "Tony",
+     "lsize": 3.8
+    },
+    {
+     "p": "label",
+     "text": "Occurrence form",
+     "x": 40,
+     "y": 6,
+     "size": 4.4,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "id": "pp1",
+     "p": "box",
+     "x": 58,
+     "y": 20,
+     "w": 40,
+     "hh": 14,
+     "color": "blue",
+     "title": "Policy period"
+    },
+    {
+     "id": "inj1",
+     "p": "boom",
+     "x": 58,
+     "y": 23,
+     "h": 6,
+     "over": true,
+     "cue": "injury"
+    },
+    {
+     "id": "claim1",
+     "p": "envelope",
+     "x": 136,
+     "y": 20,
+     "h": 8,
+     "label": "Claim, years later",
+     "lsize": 3.6,
+     "cue": "later"
+    },
+    {
+     "p": "arrow",
+     "from": "inj1",
+     "to": "claim1",
+     "dash": true,
+     "color": "green",
+     "label": "still covered",
+     "cue": "later"
+    },
+    {
+     "id": "grace",
+     "p": "person",
+     "x": 10,
+     "y": 48,
+     "h": 22,
+     "opt": {
+      "who": "grandma",
+      "apron": true
+     },
+     "label": "Grace",
+     "lsize": 3.8,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Claims-made form",
+     "x": 40,
+     "y": 36,
+     "size": 4.4,
+     "bold": true,
+     "color": "orange",
+     "at": 2
+    },
+    {
+     "id": "retro",
+     "p": "calendar",
+     "x": 36,
+     "y": 49,
+     "h": 10,
+     "opt": {
+      "n": "R"
+     },
+     "label": "Retro date",
+     "lsize": 3.6,
+     "at": 3,
+     "cue": "retroactive"
+    },
+    {
+     "id": "inj2",
+     "p": "boom",
+     "x": 62,
+     "y": 49,
+     "h": 6,
+     "label": "Injury",
+     "lsize": 3.6,
+     "at": 3,
+     "cue": "injury"
+    },
+    {
+     "id": "pp2",
+     "p": "box",
+     "x": 112,
+     "y": 48,
+     "w": 40,
+     "hh": 14,
+     "color": "orange",
+     "title": "Policy period",
+     "at": 3,
+     "cue": "trigger"
+    },
+    {
+     "id": "claim2",
+     "p": "envelope",
+     "x": 112,
+     "y": 51,
+     "h": 6,
+     "over": true,
+     "at": 3,
+     "cue": "trigger"
+    },
+    {
+     "p": "arrow",
+     "from": "inj2",
+     "to": "claim2",
+     "dash": true,
+     "color": "orange",
+     "at": 3,
+     "cue": "before"
+    },
+    {
+     "p": "label",
+     "text": "Claim first made in the policy period",
+     "x": 112,
+     "y": 59,
+     "size": 3.6,
+     "w": 50,
+     "color": "orange",
+     "at": 3,
+     "cue": "trigger"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony's CGL is an occurrence form: injury during the policy period triggers it, even if the claim comes years later. No retro date, and no extra reporting time needed.",
+     "say": "Tony's C G L is an occurrence form: injury during the policy period triggers it, even if the claim comes years later. No retro date, and no extra reporting time needed.",
+     "hl": "pp1"
+    },
+    {
+     "text": "Dana's client Grace is a Lansing caterer.",
+     "say": "Dana's client Grace is a Lansing caterer."
+    },
+    {
+     "text": "Mine's claims-made. What changes?",
+     "say": "Mine's claims-made. What changes?",
+     "voice": "grandma",
+     "speaker": "Grace"
+    },
+    {
+     "text": "The trigger: a claim first made during the policy period, for injury after the retroactive date and before the policy ends. That can even be injury before the policy began.",
+     "say": "The trigger: a claim first made during the policy period, for injury after the retroactive date and before the policy ends. That can even be injury before the policy began.",
+     "hl": "pp2"
+    },
+    {
+     "text": "So find the trigger date: the injury, or the first claim.",
+     "say": "So find the trigger date: the injury, or the first claim."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Grace's claims-made CGL runs January 1, 2025, to January 1, 2026, with a retroactive date of January 1, 2023. A guest hurt at a 2022 event first makes a claim in May 2025. The claim is:",
+   "choices": [
+    "Covered: the claim was first made during the policy period",
+    "Not covered: the injury came before the retroactive date",
+    "Not covered: claims-made only pays injury during the policy period"
+   ],
+   "answer": 1,
+   "why": "Injury before the retro date isn't covered, even when the claim is first made during the policy period. Injury after the retro date, but before the policy began, can be.",
+   "draw": [
+    {
+     "id": "grace",
+     "p": "person",
+     "x": 11,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "grandma",
+      "apron": true,
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "id": "c22",
+     "p": "calendar",
+     "x": 34,
+     "y": 15,
+     "h": 12,
+     "opt": {
+      "n": "2022",
+      "size": 13
+     },
+     "label": "Guest hurt",
+     "lsize": 3.8
+    },
+    {
+     "id": "c23",
+     "p": "calendar",
+     "x": 56,
+     "y": 15,
+     "h": 12,
+     "opt": {
+      "n": "2023",
+      "size": 13
+     },
+     "label": "Retro date",
+     "lsize": 3.8
+    },
+    {
+     "id": "pp",
+     "p": "box",
+     "x": 56,
+     "y": 47,
+     "w": 40,
+     "hh": 16,
+     "color": "orange",
+     "title": "Policy 2025 to 2026"
+    },
+    {
+     "id": "clm",
+     "p": "envelope",
+     "x": 56,
+     "y": 50,
+     "h": 7,
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Claim: May 2025",
+     "x": 56,
+     "y": 60,
+     "size": 3.8
+    },
+    {
+     "p": "cross",
+     "x": 42,
+     "y": 8,
+     "h": 6,
+     "at": 1
+    },
+    {
+     "p": "stamp",
+     "text": "Not covered",
+     "x": 44,
+     "y": 32.5,
+     "color": "red",
+     "size": 5,
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: read the dates. Covered or not?",
+     "say": "Your turn: read the dates. Covered or not?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Not covered: the injury came before the retroactive date, even though the claim came during the policy period.",
+     "say": "Not covered: the injury came before the retroactive date, even though the claim came during the policy period."
+    }
+   ],
+   "src": "CG 00 02 04 13 per FC&S (2014), Austin and Stanovich (2012), form text not seen; question comm-014"
+  },
+  {
+   "type": "term",
+   "title": "Two tails: more time to make a claim",
+   "src": "CG 00 02 04 13 as described by FC&S (2014) and Austin and Stanovich (2012); form text not seen; hook mn-mn_comm-05",
+   "kind": "Claims-made",
+   "term": "Extended reporting period",
+   "plain": "A tail: extra time after a claims-made policy ends to make claims, for injury after the retro date and before the policy ended.",
+   "example": "Like leaving the porch light on after a party: late knocks still get answered, but only from guests who were at the party, never from new arrivals.",
+   "exam": "Supplemental tail: request in writing within 60 days; costs up to 200% of the annual premium; unlimited; reinstates the aggregates.",
+   "draw": [
+    {
+     "id": "pol",
+     "p": "policy",
+     "x": 11,
+     "y": 30,
+     "h": 18,
+     "opt": {
+      "title": "ENDS",
+      "tcolor": "red"
+     }
+    },
+    {
+     "id": "tail",
+     "p": "arrow",
+     "from": [
+      21,
+      30
+     ],
+     "to": [
+      46,
+      30
+     ],
+     "bold": true,
+     "bend": -0.06,
+     "color": "orange",
+     "label": "basic tail: free"
+    },
+    {
+     "id": "c60",
+     "p": "calendar",
+     "x": 25,
+     "y": 44,
+     "h": 12,
+     "opt": {
+      "n": "60"
+     },
+     "at": 1,
+     "cue": "never"
+    },
+    {
+     "p": "label",
+     "text": "Days, if never reported",
+     "x": 25,
+     "y": 56.5,
+     "size": 3.6,
+     "w": 26,
+     "at": 1,
+     "cue": "never"
+    },
+    {
+     "id": "c5",
+     "p": "calendar",
+     "x": 53,
+     "y": 44,
+     "h": 12,
+     "opt": {
+      "n": "5"
+     },
+     "at": 1,
+     "cue": "those"
+    },
+    {
+     "p": "label",
+     "text": "Years, if reported by day 60",
+     "x": 53,
+     "y": 56.5,
+     "size": 3.6,
+     "w": 26,
+     "at": 1,
+     "cue": "those"
+    },
+    {
+     "id": "sup",
+     "p": "arrow",
+     "from": [
+      48,
+      22
+     ],
+     "to": [
+      77,
+      22
+     ],
+     "dash": true,
+     "bend": -0.04,
+     "color": "purple",
+     "at": 2,
+     "cue": "supplemental"
+    },
+    {
+     "p": "label",
+     "text": "supplemental tail: starts after basic, no end",
+     "x": 60,
+     "y": 13,
+     "size": 3.6,
+     "w": 36,
+     "color": "purple",
+     "at": 2,
+     "cue": "supplemental"
+    },
+    {
+     "id": "inf",
+     "p": "icon",
+     "name": "infinity",
+     "x": 72,
+     "y": 28,
+     "h": 5,
+     "color": "purple",
+     "at": 2,
+     "cue": "never"
+    }
+   ],
+   "beats": [
+    {
+     "text": "A claims-made policy that's canceled, nonrenewed or replaced by occurrence coverage gets an extended reporting period: a tail.",
+     "say": "A claims-made policy that's canceled, nonrenewed or replaced by occurrence coverage gets an extended reporting period: a tail.",
+     "show": 2
+    },
+    {
+     "text": "Under the 2013 claims-made CGL, the basic tail is free and automatic. It gives 60 days for occurrences never reported, and 5 years for those reported no later than 60 days after the end.",
+     "say": "Under the twenty thirteen claims-made C G L, the basic tail is free and automatic. It gives sixty days for occurrences never reported, and five years for those reported no later than sixty days after the end.",
+     "show": 3
+    },
+    {
+     "text": "The supplemental tail is optional. Request it in writing within 60 days. It costs up to 200% of the annual premium, never ends, and reinstates the aggregates.",
+     "say": "The supplemental tail is optional. Request it in writing within sixty days. It costs up to two hundred percent of the annual premium, never ends, and reinstates the aggregates.",
+     "show": 4
+    },
+    {
+     "text": "Neither tail covers injury after the policy ends.",
+     "say": "Neither tail covers injury after the policy ends.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Grace's call: one last event",
+   "src": "CG 00 02 04 13 per FC&S (2014) and Austin and Stanovich (2012), form text not seen; questions comm-015, comm-016",
+   "ask": "What should Grace do?",
+   "draw": [
+    {
+     "id": "grace",
+     "p": "person",
+     "x": 30,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "grandma",
+      "apron": true,
+      "pose": "think",
+      "mood": "worried"
+     },
+     "label": "Grace",
+     "lsize": 4
+    },
+    {
+     "id": "fork",
+     "p": "silverware",
+     "x": 50,
+     "y": 40,
+     "h": 10
+    },
+    {
+     "id": "guest",
+     "p": "person",
+     "x": 76,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "who": "neighbor",
+      "pose": "shrug",
+      "mood": "shocked"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "I'm fine... I think.",
+     "x": 100,
+     "y": 8,
+     "w": 30,
+     "to": "guest"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 136,
+     "y": 27,
+     "h": 20,
+     "opt": {
+      "n": "JAN 1",
+      "size": 11
+     },
+     "label": "Policy ends",
+     "lsize": 4
+    },
+    {
+     "p": "label",
+     "text": "Retro date: Jan 1, 2023",
+     "x": 136,
+     "y": 46,
+     "size": 3.6,
+     "color": "gray"
+    }
+   ],
+   "beats": [
+    {
+     "text": "December 2025. Grace is retiring and won't renew. Her claims-made policy, 2013 form, ends January 1. Tonight a guest trips at her last event. No claim yet. What should Grace do?",
+     "say": "December twenty twenty-five. Grace is retiring and won't renew. Her claims-made policy, twenty thirteen form, ends January first. Tonight a guest trips at her last event. No claim yet. What should Grace do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Do nothing. The policy covered that night.",
+     "ok": false,
+     "fail": "Claims-made looks at the claim date. An occurrence she never reported gets just 60 days of basic tail, and this claim came months later.",
+     "beats": [
+      {
+       "text": "In August, the guest sues. The fall was never reported, so the free tail lasted only 60 days. No coverage.",
+       "say": "In August, the guest sues. The fall was never reported, so the free tail lasted only sixty days. No coverage."
+      }
+     ],
+     "draw": [
+      {
+       "id": "suit",
+       "p": "policy",
+       "x": 36,
+       "y": 26,
+       "h": 26,
+       "opt": {
+        "title": "LAWSUIT",
+        "tsize": 5.4,
+        "tcolor": "red"
+       },
+       "cue": "sues",
+       "label": "Lawsuit",
+       "lsize": 4.4,
+       "lcolor": "red"
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 74,
+       "y": 27,
+       "h": 16,
+       "opt": {
+        "n": "AUG",
+        "size": 13
+       },
+       "label": "Months later",
+       "lsize": 4
+      },
+      {
+       "p": "label",
+       "text": "Never reported: the tail was 60 days",
+       "x": 74,
+       "y": 48,
+       "size": 4.2,
+       "color": "red"
+      },
+      {
+       "id": "grace",
+       "p": "person",
+       "x": 116,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "grandma",
+        "apron": true,
+        "pose": "sad",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "But I was insured\nthat night!",
+       "x": 96,
+       "y": 7,
+       "w": 32,
+       "to": "grace"
+      }
+     ]
+    },
+    {
+     "label": "Report the guest's fall to her insurer now",
+     "ok": true,
+     "win": "Reported before the policy ends, or no later than 60 days after, an occurrence gets the free basic tail: claims can come up to 5 years after.",
+     "beats": [
+      {
+       "text": "Grace reports it tonight. When the guest sues in August, the basic tail covers it: reported in time, so 5 years.",
+       "say": "Grace reports it tonight. When the guest sues in August, the basic tail covers it: reported in time, so five years."
+      }
+     ],
+     "draw": [
+      {
+       "id": "grace",
+       "p": "person",
+       "x": 18,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "grandma",
+        "apron": true,
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 72,
+       "y": 26,
+       "h": 30
+      },
+      {
+       "p": "arrow",
+       "from": "grace",
+       "to": "ins",
+       "color": "green",
+       "label": "reported tonight",
+       "cue": "reports"
+      },
+      {
+       "id": "c5",
+       "p": "calendar",
+       "x": 106,
+       "y": 22,
+       "h": 18,
+       "opt": {
+        "n": "5 yrs",
+        "size": 12
+       },
+       "label": "Basic tail",
+       "lsize": 4
+      },
+      {
+       "p": "stamp",
+       "text": "Covered",
+       "x": 136,
+       "y": 32,
+       "color": "green",
+       "size": 8,
+       "cue": "covers",
+       "rot": -6
+      }
+     ]
+    },
+    {
+     "label": "Buy the supplemental tail next spring",
+     "ok": false,
+     "fail": "The supplemental tail must be requested in writing within 60 days after the policy ends. April is too late, and the unreported fall got only 60 days.",
+     "beats": [
+      {
+       "text": "In April, Grace asks for the supplemental tail. Too late: the written request was due within 60 days.",
+       "say": "In April, Grace asks for the supplemental tail. Too late: the written request was due within sixty days."
+      }
+     ],
+     "draw": [
+      {
+       "id": "grace",
+       "p": "person",
+       "x": 22,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "grandma",
+        "apron": true,
+        "pose": "hold",
+        "hold": "envelope",
+        "mood": "worried"
+       }
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 56,
+       "y": 27,
+       "h": 16,
+       "opt": {
+        "n": "APR",
+        "size": 13
+       }
+      },
+      {
+       "p": "hourglass",
+       "x": 78,
+       "y": 27,
+       "h": 16,
+       "opt": {
+        "sand": 0
+       },
+       "cue": "late"
+      },
+      {
+       "p": "label",
+       "text": "Request window: 60 days",
+       "x": 56,
+       "y": 48,
+       "size": 4.2,
+       "color": "red"
+      },
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 108,
+       "y": 27,
+       "h": 26
+      },
+      {
+       "p": "bubble",
+       "text": "Can I still buy the tail?",
+       "x": 48,
+       "y": 7,
+       "w": 38,
+       "to": "grace"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Report before the end, or no later than 60 days after, and the free tail runs 5 years.",
+     "say": "Report before the end, or no later than sixty days after, and the free tail runs five years."
     }
    ]
   },
@@ -465,20 +2142,86 @@
    "title": "Key takeaways",
    "items": [
     "Package: common declarations and conditions plus 2 or more parts",
-    "CGL A is BI and PD, B is offenses, C is med pay within 1 year",
-    "Supplementary payments sit on top of limits: $250 bail, $250 a day",
+    "A: injury and damage. B: the four Ps. C: med pay, no fault, 1 year",
+    "Supplementary payments ride on top: $250 bail, $250 a day",
     "Products-completed operations has its own aggregate",
-    "Claims-made: check the retro date; basic tail is 60 days or 5 years"
+    "Claims-made: check the retro date; basic tail 60 days or 5 years"
+   ],
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 42,
+     "y": 18,
+     "h": 26,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 18,
+     "y": 48,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 40,
+     "y": 48,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "wave"
+     }
+    },
+    {
+     "id": "grace",
+     "p": "person",
+     "x": 62,
+     "y": 48,
+     "h": 28,
+     "opt": {
+      "who": "grandma",
+      "apron": true,
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "pizza",
+     "x": 18,
+     "y": 29,
+     "h": 9,
+     "opt": {
+      "slice": true
+     },
+     "at": 2,
+     "anim": "pop",
+     "sfx": "pop"
+    }
    ],
    "beats": [
     {
-     "text": "Let's recap. A package is common declarations and conditions plus two or more coverage parts. A is bodily injury and property damage, B is offenses, C is medical payments.",
-     "say": "Let's recap. A package is common declarations and conditions plus two or more coverage parts. A is bodily injury and property damage, B is offenses, C is medical payments.",
+     "text": "Recap: a package is common declarations and conditions plus two or more parts. A is injury and damage, B the four Ps, C med pay.",
+     "say": "Recap: a package is common declarations and conditions plus two or more parts. A is injury and damage, B the four Ps, C med pay.",
      "show": 2
     },
     {
-     "text": "Supplementary payments sit on top of limits. Completed operations has its own aggregate. And on claims-made forms, check the retro date and the tails.",
-     "say": "Supplementary payments sit on top of limits. Completed operations has its own aggregate. And on claims-made forms, check the retro date and the tails.",
+     "text": "Supplementary payments ride on top. Products-completed operations get their own bucket. On claims-made, check the retro date and the tails.",
+     "say": "Supplementary payments ride on top. Products-completed operations get their own bucket. On claims-made, check the retro date and the tails.",
+     "show": 5
+    },
+    {
+     "text": "Now, who wants a slice?",
+     "say": "Now, who wants a slice?",
+     "voice": "tony",
      "show": 5
     }
    ]
@@ -492,17 +2235,25 @@
   "comm-016"
  ],
  "hooks": [
-  "mn-mn_comm-03"
+  "mn-mn_comm-03",
+  "mn-mn_comm-04",
+  "mn-mn_comm-02",
+  "mn-mn_comm-05"
  ],
  "sources": [
-  "ISO IL 00 17 11 98",
-  "ISO IL DS 00 09 08",
-  "ISO IL 04 15 04 98",
-  "IRMI glossary 'commercial package policy'",
+  "PSI Series 16-81 content outline",
+  "IRMI glossary 'commercial package policy' and 'declarations'",
+  "ISO IL DS 00 09 08 (Common Policy Declarations)",
+  "ISO IL 00 17 11 98 (Common Policy Conditions)",
+  "ISO IL 04 15 04 98 (Protective Safeguards)",
+  "ISO CP 00 10 10 12 (vacancy loss condition; covered property)",
   "ISO CG 00 01 04 13",
   "ISO CG 00 02 04 13 (as described by FC&S 'Claims-Made CGL Form', 2014)",
   "Austin and Stanovich, 'The Claims-Made CGL Policy' (2012)",
-  "PSI Series 16-81 content outline",
-  "Memory hook mn-mn_comm-03"
+  "Memory hooks mn-mn_comm-02, mn-mn_comm-03, mn-mn_comm-04, mn-mn_comm-05",
+  "Confusion pairs cp-cp_commercial-01, cp-cp_commercial-02",
+  "Summaries vs-vs_commercial-01, vs-vs_commercial-02; match sets ms-ms_commercial-01, ms-ms_commercial-02, ms-ms_commercial-03",
+  "Question bank: comm-001 to comm-003, comm-005 to comm-009, comm-014 to comm-016, comm-cpa-01",
+  "Facts file core_facts.md, Limits of Liability (CGL aggregates)"
  ]
 }

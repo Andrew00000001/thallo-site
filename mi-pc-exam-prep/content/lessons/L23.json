@@ -2,8 +2,8 @@
  "id": "L23",
  "sec": "other",
  "guide": "other",
- "title": "Umbrella, specialty liability, bonds, surplus lines and flood",
- "summary": "Umbrella vs excess, professional and other specialty liability, surety bonds, Michigan surplus lines, NFIP flood, and self-insured retentions.",
+ "title": "Tony's Pizza goes big: umbrella, bonds, surplus lines and flood",
+ "summary": "Tony opens a riverside pizzeria with a bar: umbrella vs excess, specialty liability, surety bonds, Michigan surplus lines, NFIP flood and SIRs.",
  "objectives": [
   "Tell umbrella from excess and match specialty liability coverages to claims",
   "Name the three parties to a surety bond and the main bond types",
@@ -13,115 +13,389 @@
  "scenes": [
   {
    "type": "title",
-   "title": "Other coverages and options",
-   "subtitle": "Umbrella and excess, specialty liability, surety bonds, surplus lines, flood and self-insurance",
-   "icon": "umbrella",
+   "title": "Tony's Pizza goes big",
+   "subtitle": "4% of your exam, about 6 questions: umbrellas, specialty liability, bonds, surplus lines, flood",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 28,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "beer",
+     "p": "icon",
+     "name": "beer",
+     "x": 53,
+     "y": 42,
+     "h": 9,
+     "color": "orange"
+    },
+    {
+     "id": "w1",
+     "p": "water",
+     "x": 14,
+     "y": 51,
+     "h": 6
+    },
+    {
+     "id": "w2",
+     "p": "water",
+     "x": 38,
+     "y": 51,
+     "h": 6
+    },
+    {
+     "id": "w3",
+     "p": "water",
+     "x": 62,
+     "y": 51,
+     "h": 6
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 66,
+     "y": 34,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 82,
+     "y": 34,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "clipboard"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Cover everything!",
+     "x": 62,
+     "y": 7,
+     "w": 30,
+     "to": "tony",
+     "at": 1
+    }
+   ],
    "beats": [
     {
-     "text": "Other coverages are 4% of your exam, about 6 questions.",
-     "say": "Other coverages are four percent of your exam, about six questions."
+     "text": "Tony is opening a second Tony's Pizza, on the Detroit River, with a bar.",
+     "say": "Tony is opening a second Tony's Pizza, on the Detroit River, with a bar."
+    },
+    {
+     "text": "Dana, cover everything. The bar, the builders, even the river!",
+     "say": "Dana, cover everything. The bar, the builders, even the river!",
+     "voice": "tony"
     }
    ]
   },
   {
-   "type": "compare",
+   "type": "term",
    "title": "Umbrella vs excess liability",
-   "src": "IRMI glossary 'umbrella liability policy', 'follow form', 'excess liability policy'",
-   "columns": [
+   "src": "IRMI glossary 'umbrella liability policy', 'follow form', 'excess liability policy'; confusion pair cp_commercial-09",
+   "kind": "Term",
+   "term": "Umbrella policy",
+   "plain": "Extra liability limits over your other policies, plus some claims they don't cover, after a self-insured retention you pay first.",
+   "example": "A huge suit tops Tony's CGL limit; the umbrella pays above it. If his CGL aggregate is used up, it drops down.",
+   "exam": "Pays a claim the primary policy doesn't cover? Umbrella. Only adds limits, on the underlying terms? Excess (follow form).",
+   "draw": [
     {
-     "name": "Umbrella",
-     "icon": "umbrella",
-     "points": [
-      "Adds limits when underlying limits are used up",
-      "Drops down when an underlying aggregate is exhausted",
-      "Covers some claims the underlying doesn't, after a self-insured retention"
-     ]
+     "id": "suit",
+     "p": "policy",
+     "x": 56,
+     "y": 22,
+     "h": 12,
+     "opt": {
+      "title": "SUIT",
+      "tcolor": "red"
+     },
+     "anim": "fall",
+     "cue": "lawsuits"
     },
     {
-     "name": "Excess (follow form)",
-     "icon": "layers",
-     "points": [
-      "Generally follows the underlying policy's terms",
-      "Adds limits; doesn't broaden coverage"
-     ]
+     "p": "arrow",
+     "from": "suit",
+     "to": "big",
+     "cue": "umbrella",
+     "color": "red",
+     "bend": -0.2
+    },
+    {
+     "id": "big",
+     "p": "umbrella",
+     "x": 22,
+     "y": 15,
+     "h": 24,
+     "color": "red",
+     "cue": "umbrella",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Umbrella",
+     "x": 42,
+     "y": 8,
+     "size": 4,
+     "color": "red",
+     "bold": true,
+     "cue": "umbrella"
+    },
+    {
+     "id": "cgl",
+     "p": "umbrella",
+     "x": 22,
+     "y": 33,
+     "h": 12,
+     "color": "blue",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "CGL",
+     "x": 35,
+     "y": 31,
+     "size": 4,
+     "color": "blue",
+     "bold": true
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 22,
+     "y": 54,
+     "h": 22,
+     "opt": {
+      "who": "tony",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "base",
+     "p": "box",
+     "x": 62,
+     "y": 56,
+     "w": 22,
+     "hh": 9,
+     "title": "CGL",
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "id": "exc",
+     "p": "box",
+     "x": 62,
+     "y": 46,
+     "w": 22,
+     "hh": 9,
+     "title": "Excess",
+     "color": "purple",
+     "at": 2,
+     "cue": "excess"
+    },
+    {
+     "p": "label",
+     "text": "Same width: just more limits",
+     "x": 62,
+     "y": 34,
+     "size": 3.6,
+     "w": 24,
+     "color": "purple",
+     "at": 2,
+     "cue": "only"
     }
    ],
-   "tell": "Can it pay a claim the primary policy doesn't cover? Umbrella. Does it only add limits? Excess.",
    "beats": [
     {
-     "text": "An umbrella adds limits when underlying limits run out, drops down when an underlying aggregate is exhausted, and covers some claims the underlying doesn't, after a self-insured retention.",
-     "say": "An umbrella adds limits when underlying limits run out, drops down when an underlying aggregate is exhausted, and covers some claims the underlying doesn't, after a self-insured retention.",
-     "show": 1
-    },
-    {
-     "text": "An excess, or follow form, policy generally follows the underlying terms and adds limits. It doesn't broaden coverage.",
-     "say": "An excess, or follow form, policy generally follows the underlying terms and adds limits. It doesn't broaden coverage.",
+     "text": "First, bigger lawsuits. An umbrella sits on top of Tony's CGL, adding limits when the underlying ones run out.",
+     "say": "First, bigger lawsuits. An umbrella sits on top of Tony's C G L, adding limits when the underlying ones run out.",
      "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "Specialty liability: match the claim",
-   "src": "IRMI glossary (E&O; Side A, corporate reimbursement, entity coverage; fiduciary liability; EPLI); ISO CG 00 33 04 13; MCL 436.1803(1)",
-   "columns": [
-    "Coverage",
-    "Responds to"
-   ],
-   "items": [
-    [
-     "Errors and omissions (E&O)",
-     "A client's financial loss from a mistake"
-    ],
-    [
-     "Directors and officers (D&O)",
-     "A: D&Os. B: company reimbursed. C: entity"
-    ],
-    [
-     "Fiduciary liability",
-     "Errors running ERISA employee benefit plans"
-    ],
-    [
-     "Employment practices (EPLI)",
-     "Discrimination, wrongful termination"
-    ],
-    [
-     "Liquor liability",
-     "Injury from selling or serving alcohol"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "Errors and omissions generally covers financial loss from a professional mistake, not bodily injury or property damage.",
-     "say": "Errors and omissions generally covers financial loss from a professional mistake, not bodily injury or property damage.",
-     "show": 1
+     "hl": "big"
     },
     {
-     "text": "D&O: Side A pays directors and officers directly, Side B reimburses the company for indemnifying them, and Side C covers the company itself.",
-     "say": "D and O: Side A pays directors and officers directly, Side B reimburses the company for indemnifying them, and Side C covers the company itself.",
-     "show": 2
-    },
-    {
-     "text": "Fiduciary liability covers errors in running ERISA employee benefit plans.",
-     "say": "Fiduciary liability covers errors in running E R I S A employee benefit plans.",
+     "text": "If a bad year uses up his CGL aggregate, the umbrella drops down in its place. It even covers some claims the CGL doesn't, after a self-insured retention.",
+     "say": "If a bad year uses up his C G L aggregate, the umbrella drops down in its place. It even covers some claims the C G L doesn't, after a self-insured retention.",
      "show": 3
     },
     {
-     "text": "EPLI covers employment claims like discrimination, harassment and wrongful termination.",
-     "say": "E P L I covers employment claims like discrimination, harassment and wrongful termination.",
-     "show": 4
+     "text": "Watch out: an excess, or follow form, policy generally follows the underlying terms. It only adds limits.",
+     "say": "Watch out: an excess, or follow form, policy generally follows the underlying terms. It only adds limits.",
+     "show": 4,
+     "hl": "exc"
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "New business, new kinds of claims",
+   "src": "IRMI glossary (E&O, D&O Sides A-C, fiduciary liability, EPLI); ISO CG 00 33 04 13; MCL 436.1803(1); hook mn_comm-25; question comm-062",
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 10,
+     "y": 38,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "clipboard"
+     },
+     "label": "Dana",
+     "lsize": 4
     },
     {
-     "text": "Liquor liability covers injury from selling or serving alcohol. Michigan retail liquor licensees must file proof of financial responsibility of at least $50,000.",
-     "say": "Liquor liability covers injury from selling or serving alcohol. Michigan retail liquor licensees must file proof of financial responsibility of at least fifty thousand dollars.",
-     "show": 5
+     "id": "shop",
+     "p": "restaurant",
+     "x": 40,
+     "y": 32,
+     "h": 34,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "bar",
+     "p": "icon",
+     "name": "beer",
+     "x": 72,
+     "y": 44,
+     "h": 18,
+     "color": "orange",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "The bar",
+     "x": 72,
+     "y": 57,
+     "size": 4
+    },
+    {
+     "id": "board",
+     "p": "box",
+     "x": 98,
+     "y": 40,
+     "w": 28,
+     "hh": 42,
+     "title": "Board",
+     "dash": true,
+     "color": "gray"
+    },
+    {
+     "id": "d1",
+     "p": "person",
+     "x": 91,
+     "y": 45,
+     "h": 28,
+     "opt": {
+      "who": "boss"
+     }
+    },
+    {
+     "id": "d2",
+     "p": "person",
+     "x": 105,
+     "y": 45,
+     "h": 28,
+     "opt": {
+      "who": "person",
+      "tie": true,
+      "shirt": "green",
+      "hair": "bob"
+     }
+    },
+    {
+     "id": "fired",
+     "p": "person",
+     "x": 124,
+     "y": 38,
+     "h": 34,
+     "opt": {
+      "who": "worker",
+      "hat": "cap",
+      "apron": true,
+      "pose": "sad",
+      "mood": "angry"
+     },
+     "label": "Fired cook",
+     "lsize": 4
+    },
+    {
+     "id": "plan",
+     "p": "piggybank",
+     "x": 147,
+     "y": 46,
+     "h": 16,
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Staff 401(k)",
+     "x": 147,
+     "y": 57,
+     "size": 3.8
+    }
+   ],
+   "spots": [
+    {
+     "on": "dana",
+     "label": "Dana: errors and omissions",
+     "text": "E&O covers a client's financial loss from a mistake in professional duties, generally not bodily injury or property damage."
+    },
+    {
+     "on": "board",
+     "label": "The board: directors and officers",
+     "text": "Side A pays directors and officers directly: All by themselves. Side B pays Back the Business for indemnifying them. Side C covers the Corporation itself."
+    },
+    {
+     "on": "plan",
+     "label": "Staff 401(k): fiduciary liability",
+     "text": "Covers errors in running employee benefit plans under ERISA, like a trustee's imprudent investment choice for the staff 401(k)."
+    },
+    {
+     "on": "fired",
+     "label": "Fired cook: EPLI",
+     "text": "Employment practices liability covers employment claims like discrimination, harassment and wrongful termination."
+    },
+    {
+     "on": "bar",
+     "label": "The bar: liquor liability",
+     "text": "Covers injury the insured is liable for from selling or serving alcohol. Michigan retail liquor licensees must file proof of financial responsibility of at least $50,000."
+    }
+   ],
+   "beats": [
+    {
+     "text": "New business, new claims. Tap each glowing spot to see which policy answers.",
+     "say": "New business, new claims. Tap each glowing spot to see which policy answers."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Professional mistakes: E&O. The board's wrongful acts as directors and officers: D&O. Benefit plan errors: fiduciary. The fired cook: EPLI. Injury from serving alcohol: liquor liability.",
+     "say": "Professional mistakes: E and O. The board's wrongful acts as directors and officers: D and O. Benefit plan errors: fiduciary. The fired cook: E P L I. Injury from serving alcohol: liquor liability."
+    },
+    {
+     "text": "In Michigan, retail liquor licensees must file proof of financial responsibility of at least $50,000.",
+     "say": "In Michigan, retail liquor licensees must file proof of financial responsibility of at least fifty thousand dollars."
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "Jen, a producer, forgets to add a client's newly bought warehouse to his property policy. It burns, and he sues her for the uninsured loss. Which coverage is designed for this claim?",
+   "q": "Tony buys a new warehouse, but Dana forgets to add it to his property policy. Two months later it burns, and he sues her. Which coverage is designed for this claim?",
    "choices": [
     "Commercial general liability",
     "Errors and omissions",
@@ -129,383 +403,2064 @@
     "Employment practices liability"
    ],
    "answer": 1,
-   "why": "The claim is a client's financial loss caused by a mistake in Jen's professional duties, which is what errors and omissions insurance is designed to cover.",
+   "why": "Dana's professional mistake caused Tony a financial loss, which E&O is designed to cover. A CGL covers bodily injury, property damage, and personal and advertising injury, not this.",
+   "draw": [
+    {
+     "id": "wh",
+     "p": "warehouse",
+     "x": 26,
+     "y": 21,
+     "h": 16
+    },
+    {
+     "p": "fire",
+     "x": 18,
+     "y": 9,
+     "h": 10,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "fire",
+     "x": 33,
+     "y": 10,
+     "h": 8,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 16,
+     "y": 50,
+     "h": 22,
+     "opt": {
+      "who": "dana",
+      "mood": "shocked",
+      "pose": "shrug"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 56,
+     "y": 50,
+     "h": 22,
+     "opt": {
+      "who": "tony",
+      "mood": "angry",
+      "pose": "point"
+     },
+     "flip": true
+    },
+    {
+     "p": "bubble",
+     "text": "You never added it to my policy!",
+     "x": 60,
+     "y": 30,
+     "w": 30,
+     "to": "tony",
+     "at": 1
+    }
+   ],
    "beats": [
     {
-     "text": "Jen, a producer, forgets to add a client's new warehouse to his property policy. It burns, and he sues her. Which coverage is designed for this? Pick an answer.",
-     "say": "Jen, a producer, forgets to add a client's new warehouse to his property policy. It burns, and he sues her. Which coverage is designed for this? Pick an answer."
+     "text": "Two months after Tony buys a new warehouse, it burns.",
+     "say": "Two months after Tony buys a new warehouse, it burns."
+    },
+    {
+     "text": "Dana! You never added it to my property policy!",
+     "say": "Dana! You never added it to my property policy!",
+     "voice": "tony"
+    },
+    {
+     "text": "He sues her. Which coverage is designed for this claim?",
+     "say": "He sues her. Which coverage is designed for this claim?"
     }
    ],
    "reveal": [
     {
-     "text": "Errors and omissions. The client's financial loss came from a mistake in Jen's professional duties.",
-     "say": "Errors and omissions. The client's financial loss came from a mistake in Jen's professional duties."
+     "text": "Errors and omissions. Tony's financial loss came from a mistake in Dana's professional duties.",
+     "say": "Errors and omissions. Tony's financial loss came from a mistake in Dana's professional duties."
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Professional liability vs the CGL",
-   "src": "IRMI glossary 'professional liability', 'claims-made policy', 'defense within limits', 'consent to settlement clause'; ISO CG 00 01 04 13",
-   "columns": [
+   "type": "sketch",
+   "title": "Dana's E&O plays by different rules",
+   "src": "IRMI glossary: professional liability, claims-made, defense within limits, consent to settlement; ISO CG 00 01 04 13",
+   "draw": [
     {
-     "name": "Professional liability",
-     "icon": "briefcase",
-     "points": [
-      "Most policies are claims-made",
-      "Defense costs reduce the limit (shrinking limits)",
-      "Insurer must seek your consent to settle (hammer clause)"
-     ]
+     "p": "label",
+     "text": "Dana's E&O",
+     "x": 40,
+     "y": 5,
+     "size": 5,
+     "bold": true,
+     "color": "blue"
     },
     {
-     "name": "CGL",
-     "icon": "shield",
-     "points": [
-      "Defense paid in addition to the limits",
-      "Insurer may settle at its discretion"
-     ]
+     "id": "err",
+     "p": "calendar",
+     "x": 12,
+     "y": 22,
+     "h": 13,
+     "opt": {
+      "n": "?"
+     },
+     "cue": "error",
+     "label": "Error: even before the policy began",
+     "lsize": 3.6,
+     "lw": 26
+    },
+    {
+     "id": "claim",
+     "p": "envelope",
+     "x": 48,
+     "y": 21,
+     "h": 10,
+     "opt": {
+      "open": true
+     },
+     "cue": "claim",
+     "label": "Claim made in this policy period",
+     "lsize": 3.6,
+     "lw": 28
+    },
+    {
+     "p": "arrow",
+     "from": "err",
+     "to": "claim",
+     "cue": "error",
+     "bold": true
+    },
+    {
+     "p": "check",
+     "x": 60,
+     "y": 18,
+     "h": 6,
+     "cue": "triggers",
+     "over": true
+    },
+    {
+     "id": "def",
+     "p": "receipt",
+     "x": 12,
+     "y": 50,
+     "h": 15,
+     "at": 1,
+     "label": "Defense costs",
+     "lsize": 3.6
+    },
+    {
+     "id": "lim",
+     "p": "money",
+     "x": 50,
+     "y": 52,
+     "h": 6,
+     "at": 1,
+     "cue": "shrink",
+     "label": "Less left for damages",
+     "lsize": 3.6,
+     "lw": 30
+    },
+    {
+     "p": "arrow",
+     "from": "def",
+     "to": "lim",
+     "at": 1,
+     "cue": "shrink",
+     "color": "red",
+     "bold": true,
+     "label": "shrinks the limit",
+     "bend": -0.2,
+     "loff": 3
+    },
+    {
+     "id": "ham",
+     "p": "hammer",
+     "x": 71,
+     "y": 34,
+     "h": 12,
+     "at": 2,
+     "cue": "hammer",
+     "label": "Asks Dana first",
+     "lsize": 3.6,
+     "lw": 16
+    },
+    {
+     "p": "divider",
+     "x": 82,
+     "y": 34,
+     "y0": 4,
+     "y1": 64
+    },
+    {
+     "p": "label",
+     "text": "Tony's CGL",
+     "x": 121,
+     "y": 5,
+     "size": 5,
+     "bold": true,
+     "color": "green",
+     "at": 3
+    },
+    {
+     "id": "lim2",
+     "p": "money",
+     "x": 102,
+     "y": 24,
+     "h": 10,
+     "at": 3,
+     "label": "Limit",
+     "lsize": 3.6
+    },
+    {
+     "p": "label",
+     "text": "plus",
+     "x": 118,
+     "y": 24,
+     "size": 4.2,
+     "at": 3,
+     "bold": true
+    },
+    {
+     "id": "def2",
+     "p": "receipt",
+     "x": 134,
+     "y": 23,
+     "h": 14,
+     "at": 3,
+     "cue": "defense",
+     "label": "Defense, on top",
+     "lsize": 3.6
+    },
+    {
+     "id": "adj",
+     "p": "person",
+     "x": 102,
+     "y": 51,
+     "h": 24,
+     "opt": {
+      "who": "adjuster",
+      "pose": "hold",
+      "hold": "clipboard"
+     },
+     "at": 3,
+     "cue": "settle"
+    },
+    {
+     "p": "bubble",
+     "text": "We may settle at our discretion.",
+     "x": 128,
+     "y": 44,
+     "w": 28,
+     "to": "adj",
+     "at": 3,
+     "cue": "settle"
     }
    ],
-   "tell": "Professional liability: claims-made, shrinking limits, and your consent to settle.",
    "beats": [
     {
-     "text": "Most professional liability policies are claims-made: a claim made during the policy period triggers them, whenever the error happened.",
-     "say": "Most professional liability policies are claims-made: a claim made during the policy period triggers them, whenever the error happened.",
-     "show": 1
+     "text": "Like most professional liability, Dana's E&O is claims-made: a claim made during the policy period triggers it, even for an error before the policy began.",
+     "say": "Like most professional liability, Dana's E and O is claims-made: a claim made during the policy period triggers it, even for an error before the policy began.",
+     "hl": "claim"
     },
     {
-     "text": "Defense costs usually reduce the limit, called shrinking limits. And under a consent to settlement, or hammer, clause, the insurer must seek your approval before settling.",
-     "say": "Defense costs usually reduce the limit, called shrinking limits. And under a consent to settlement, or hammer, clause, the insurer must seek your approval before settling.",
-     "show": 1
+     "text": "Like most, it lets defense costs shrink the limit, leaving less for damages: shrinking limits.",
+     "say": "Like most, it lets defense costs shrink the limit, leaving less for damages: shrinking limits.",
+     "hl": "lim"
     },
     {
-     "text": "In a CGL, defense is paid on top of the limits, and the insurer may settle at its discretion.",
-     "say": "In a C G L, defense is paid on top of the limits, and the insurer may settle at its discretion.",
-     "show": 2,
-     "tell": true
+     "text": "And it has a consent to settlement, or hammer, clause: the insurer must seek Dana's approval before settling.",
+     "say": "And it has a consent to settlement, or hammer, clause: the insurer must seek Dana's approval before settling.",
+     "hl": "ham"
+    },
+    {
+     "text": "Tony's CGL pays defense on top of the limits, and the insurer may settle at its discretion.",
+     "say": "Tony's C G L pays defense on top of the limits, and the insurer may settle at its discretion.",
+     "hl": "def2"
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Surety bonds: three parties",
-   "src": "FAR 48 CFR 28.001 'Bond'; surety.org; SFAA and AGC surety claims guide; IRMI glossary 'surety bond', 'obligee'",
-   "columns": [
+   "type": "term",
+   "title": "One promise, three parties",
+   "src": "FAR 48 CFR 28.001 'Bond'; surety.org; SFAA and AGC claims guide; IRMI 'surety bond'; hook mn_comm-21",
+   "kind": "Term",
+   "term": "Surety bond",
+   "plain": "A three-party guarantee: the principal promises to perform, the obligee is protected, and the surety guarantees the promise.",
+   "example": "Tony hires Paul to build the new place and requires a performance bond. Paul is the principal, Tony the obligee, and a surety backs Paul's promise.",
+   "exam": "Unlike insurance, the surety is only secondarily liable, and the principal must reimburse it for any loss it pays.",
+   "draw": [
     {
-     "name": "Principal",
-     "icon": "hard-hat",
-     "points": [
-      "Promises to perform, like a contractor",
-      "Must reimburse the surety for losses"
-     ]
+     "id": "surety",
+     "p": "insurer",
+     "x": 40,
+     "y": 15,
+     "h": 22,
+     "opt": {
+      "name": "SURETY"
+     },
+     "at": 1,
+     "cue": "surety",
+     "label": "Surety",
+     "lsize": 4,
+     "lcolor": "green"
     },
     {
-     "name": "Obligee",
-     "icon": "building-2",
-     "points": [
-      "Protected party, like the project owner",
-      "Usually requires the bond"
-     ]
+     "id": "vic",
+     "p": "person",
+     "x": 12,
+     "y": 46,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "hold": "policy"
+     },
+     "label": "Paul",
+     "lsize": 3.6
     },
     {
-     "name": "Surety",
-     "icon": "shield-check",
-     "points": [
-      "Guarantees the principal's promise",
-      "Secondarily liable"
-     ]
+     "id": "tony",
+     "p": "person",
+     "x": 68,
+     "y": 46,
+     "h": 26,
+     "opt": {
+      "who": "tony"
+     },
+     "label": "Tony",
+     "lsize": 3.6
+    },
+    {
+     "p": "arrow",
+     "from": "vic",
+     "to": "tony",
+     "at": 1,
+     "cue": "Promises",
+     "color": "blue",
+     "bend": 0
+    },
+    {
+     "p": "arrow",
+     "from": "surety",
+     "to": "tony",
+     "at": 1,
+     "cue": "Stands",
+     "color": "green",
+     "bend": 0.15
+    },
+    {
+     "p": "arrow",
+     "from": "surety",
+     "to": "vic",
+     "at": 2,
+     "cue": "bill",
+     "color": "red",
+     "dash": true,
+     "bend": -0.15
+    },
+    {
+     "p": "label",
+     "text": "guarantees",
+     "x": 66,
+     "y": 27,
+     "size": 3.8,
+     "color": "green",
+     "at": 1,
+     "cue": "Stands"
+    },
+    {
+     "p": "label",
+     "text": "the bill",
+     "x": 14,
+     "y": 27,
+     "size": 3.8,
+     "color": "red",
+     "at": 2,
+     "cue": "bill"
+    },
+    {
+     "p": "label",
+     "text": "promises",
+     "x": 40,
+     "y": 51,
+     "size": 3.8,
+     "color": "blue",
+     "at": 1,
+     "cue": "Promises"
+    },
+    {
+     "p": "label",
+     "text": "principal",
+     "x": 12,
+     "y": 66,
+     "size": 3.8,
+     "color": "blue",
+     "bold": true,
+     "at": 1,
+     "cue": "principal"
+    },
+    {
+     "p": "label",
+     "text": "obligee",
+     "x": 68,
+     "y": 66,
+     "size": 3.8,
+     "color": "blue",
+     "bold": true,
+     "at": 1,
+     "cue": "obligee"
     }
    ],
-   "tell": "The principal promises, the obligee is protected, the surety guarantees.",
    "beats": [
     {
-     "text": "A surety bond has three parties. The principal, like a contractor, promises to perform.",
-     "say": "A surety bond has three parties. The principal, like a contractor, promises to perform.",
-     "show": 1
-    },
-    {
-     "text": "The obligee, like the project owner, is protected. It usually requires the bond.",
-     "say": "The obligee, like the project owner, is protected. It usually requires the bond.",
+     "text": "Now the builders. Tony hires a contractor, Paul, and requires a surety bond: one promise, three parties.",
+     "say": "Now the builders. Tony hires a contractor, Paul, and requires a surety bond: one promise, three parties.",
      "show": 2
     },
     {
-     "text": "The surety guarantees the promise. Unlike insurance, the principal must reimburse the surety for any loss it pays.",
-     "say": "The surety guarantees the promise. Unlike insurance, the principal must reimburse the surety for any loss it pays.",
+     "text": "A first-letter trick: Paul, the Principal, Promises to perform. Tony, the Obligee, is Owed and protected; he required the bond. The Surety Stands behind the promise.",
+     "say": "A first-letter trick: Paul, the Principal, Promises to perform. Tony, the Obligee, is Owed and protected; he required the bond. The Surety Stands behind the promise.",
      "show": 3,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "Bond types and what they guarantee",
-   "src": "FAR 48 CFR 28.001; IRMI 'license and permit bond', 'fiduciary bond'; FC&S 'Judicial Bonds' (2000), 'License and Permit Bonds' (2010)",
-   "columns": [
-    "Bond",
-    "Guarantees"
-   ],
-   "items": [
-    [
-     "Bid bond",
-     "Bidder will sign and furnish the bonds"
-    ],
-    [
-     "Performance bond",
-     "Contractor will perform the contract"
-    ],
-    [
-     "Payment bond",
-     "Labor and material suppliers get paid"
-    ],
-    [
-     "License and permit bond",
-     "Licensee will comply with the law"
-    ],
-    [
-     "Fiduciary bond (judicial)",
-     "Court-appointed fiduciary acts faithfully"
-    ],
-    [
-     "Court bond (judicial)",
-     "Damages or costs if the court action fails"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "Contract bonds: a bid bond guarantees the bidder will sign the contract and furnish the required bonds; a performance bond, that the contract is performed; a payment bond, that labor and material suppliers get paid.",
-     "say": "Contract bonds: a bid bond guarantees the bidder will sign the contract and furnish the required bonds; a performance bond, that the contract is performed; a payment bond, that labor and material suppliers get paid.",
-     "show": 3
+     "hl": "surety"
     },
     {
-     "text": "A license and permit bond guarantees a licensee will comply with the laws for its activity.",
-     "say": "A license and permit bond guarantees a licensee will comply with the laws for its activity.",
+     "text": "If the surety pays, it Sends the bill back: unlike insurance, the principal must reimburse the surety.",
+     "say": "If the surety pays, it Sends the bill back: unlike insurance, the principal must reimburse the surety.",
      "show": 4
-    },
-    {
-     "text": "Judicial bonds come in two classes: fiduciary bonds, for people the court trusts with others' property, and court bonds, like an attachment or injunction bond, which pay if the bonded party's court action fails.",
-     "say": "Judicial bonds come in two classes: fiduciary bonds, for people the court trusts with others' property, and court bonds, like an attachment or injunction bond, which pay if the bonded party's court action fails.",
-     "show": 6
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "A township won't issue a business license until the applicant posts a bond guaranteeing it will follow township ordinances. Who is the obligee?",
-   "choices": [
-    "The township",
-    "The business applying for the license",
-    "The surety company",
-    "The producer who arranged the bond"
+   "type": "choice",
+   "title": "Paul's call: the surety's bill",
+   "src": "SFAA and AGC claims guide; surety.org; confusion pairs cp_commercial-10, -11; adapted from hook mn_comm-21",
+   "ask": "What should Paul do?",
+   "draw": [
+    {
+     "id": "site",
+     "p": "construction",
+     "x": 24,
+     "y": 28,
+     "h": 34
+    },
+    {
+     "id": "vic",
+     "p": "person",
+     "x": 66,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "hold": "envelope",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "A bill? For me?",
+     "x": 92,
+     "y": 8,
+     "w": 26,
+     "to": "vic",
+     "at": 1
+    },
+    {
+     "id": "surety",
+     "p": "insurer",
+     "x": 134,
+     "y": 28,
+     "h": 32,
+     "opt": {
+      "name": "SURETY"
+     }
+    },
+    {
+     "p": "arrow",
+     "from": "surety",
+     "to": "vic",
+     "label": "the bill",
+     "color": "red",
+     "dash": true,
+     "bend": -0.15
+    }
    ],
-   "answer": 0,
-   "why": "On a license and permit bond, the government body that requires the bond and is protected by it is the obligee. The applicant is the principal; the surety guarantees.",
    "beats": [
     {
-     "text": "A township won't issue a business license until the applicant posts a bond promising to follow its ordinances. Who's the obligee? Pick an answer.",
-     "say": "A township won't issue a business license until the applicant posts a bond promising to follow its ordinances. Who's the obligee? Pick an answer."
+     "text": "Halfway through, Paul walks off the job. The surety pays Tony's loss, then sends Paul the bill.",
+     "say": "Halfway through, Paul walks off the job. The surety pays Tony's loss, then sends Paul the bill."
+    },
+    {
+     "text": "A bill? For me?",
+     "say": "A bill? For me?",
+     "voice": "worker",
+     "speaker": "Paul"
+    }
+   ],
+   "options": [
+    {
+     "label": "Toss it. The bond was my insurance!",
+     "ok": false,
+     "fail": "The bond protected Tony, not Paul. Paul, the principal, stays primarily liable and must reimburse the surety for the loss it paid.",
+     "beats": [
+      {
+       "text": "Paul tosses it. But the bond protected Tony, not Paul.",
+       "say": "Paul tosses it. But the bond protected Tony, not Paul."
+      }
+     ],
+     "draw": [
+      {
+       "id": "vic",
+       "p": "person",
+       "x": 30,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "shrug",
+        "mood": "smirk"
+       }
+      },
+      {
+       "id": "bin",
+       "p": "icon",
+       "name": "trash-2",
+       "x": 58,
+       "y": 40,
+       "h": 16
+      },
+      {
+       "id": "bill",
+       "p": "envelope",
+       "x": 46,
+       "y": 10,
+       "h": 8,
+       "move": {
+        "to": [
+         58,
+         36
+        ],
+        "at": 0,
+        "cue": "tosses",
+        "sfx": "whoosh"
+       },
+       "over": true
+      },
+      {
+       "id": "surety",
+       "p": "insurer",
+       "x": 108,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "name": "SURETY"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "You still owe us, Paul!",
+       "x": 82,
+       "y": 8,
+       "w": 30,
+       "to": "surety"
+      }
+     ]
+    },
+    {
+     "label": "Forward it to Tony, the obligee",
+     "ok": false,
+     "fail": "The obligee is the protected party, not the one who pays. The principal, Paul, must reimburse the surety.",
+     "beats": [
+      {
+       "text": "Nice try, Paul. I'm the obligee. The bond protects me!",
+       "say": "Nice try, Paul. I'm the obligee. The bond protects me!",
+       "voice": "tony"
+      }
+     ],
+     "draw": [
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 34,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "hold": "envelope",
+        "mood": "laugh"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Obligee: protected",
+       "x": 34,
+       "y": 54,
+       "size": 4.2,
+       "color": "green"
+      },
+      {
+       "id": "vic",
+       "p": "person",
+       "x": 104,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "sad",
+        "mood": "sad"
+       }
+      },
+      {
+       "p": "arrow",
+       "from": "tony",
+       "to": "vic",
+       "label": "right back to you",
+       "color": "red",
+       "bend": 0.15
+      }
+     ]
+    },
+    {
+     "label": "Pay the surety back",
+     "ok": true,
+     "win": "The surety backed Paul's promise, but Paul, the principal, stays primarily liable and repays any loss the surety pays.",
+     "beats": [
+      {
+       "text": "Paul pays the surety back. Next time, he finishes the job.",
+       "say": "Paul pays the surety back. Next time, he finishes the job."
+      }
+     ],
+     "draw": [
+      {
+       "id": "vic",
+       "p": "person",
+       "x": 30,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "point",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 52,
+       "y": 30,
+       "h": 10,
+       "move": {
+        "to": [
+         96,
+         30
+        ],
+        "at": 0,
+        "cue": "pays",
+        "sfx": "cash"
+       }
+      },
+      {
+       "id": "surety",
+       "p": "insurer",
+       "x": 126,
+       "y": 28,
+       "h": 30,
+       "opt": {
+        "name": "SURETY"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Principal repays the surety",
+       "x": 80,
+       "y": 52,
+       "size": 4.5,
+       "color": "green"
+      },
+      {
+       "p": "check",
+       "x": 126,
+       "y": 6,
+       "h": 8
+      }
+     ]
     }
    ],
    "reveal": [
     {
-     "text": "The township: it requires the bond and is protected by it. The applicant is the principal.",
-     "say": "The township: it requires the bond and is protected by it. The applicant is the principal."
+     "text": "Remember: the principal must reimburse the surety for any loss it pays.",
+     "say": "Remember: the principal must reimburse the surety for any loss it pays."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Surplus lines in Michigan",
-   "src": "MCL 500.1903(1); 500.1905(1),(3)(d); 500.1910(1)-(3); 500.1922 (federal NRRA home-state rules not reviewed)",
+   "type": "sort",
+   "title": "Sort the bonds",
+   "src": "FAR 48 CFR 28.001; IRMI glossary; FC&S 'Judicial Bonds' (2000) and 'License and Permit Bonds' (2010); hook mn_comm-21; PSI 16-81 outline",
+   "bins": [
+    {
+     "name": "Contract bond"
+    },
+    {
+     "name": "License and permit"
+    },
+    {
+     "name": "Judicial bond"
+    }
+   ],
    "items": [
     {
-     "label": "Unauthorized but eligible insurer",
-     "detail": "Not licensed in Michigan; placed only by a surplus lines licensee",
-     "icon": "file-signature"
+     "text": "Bid bond: if Paul wins, he signs and bonds up",
+     "bin": 0,
+     "why": "The bidder will sign and furnish the bonds."
     },
     {
-     "label": "Only if admitted insurers won't write it",
-     "detail": "Presumed available if 3 or more authorized insurers readily write it",
-     "icon": "search"
+     "text": "A township requires it for a license",
+     "bin": 1,
+     "why": "The licensee will obey the law. Township: obligee. Applicant: principal."
     },
     {
-     "label": "Red-ink notice, 10-point type",
-     "detail": "Insurer not licensed by Michigan; claims may not be guaranteed if it's insolvent",
-     "icon": "triangle-alert"
+     "text": "A court-appointed estate manager acts faithfully",
+     "bin": 2,
+     "why": "Fiduciary bond: a person the court trusts with others' property acts faithfully."
     },
     {
-     "label": "2% tax plus 0.5% fee",
-     "detail": "Set by Michigan statute; paid by the licensee",
-     "icon": "percent"
+     "text": "Performance bond: Paul finishes",
+     "bin": 0,
+     "why": "The contractor performs the contract."
+    },
+    {
+     "text": "Posted by a plaintiff who gets an injunction",
+     "bin": 2,
+     "why": "Court bond: pays damages or costs if the bonded party's court action fails."
+    },
+    {
+     "text": "Payment bond: Paul's crew gets paid",
+     "bin": 0,
+     "why": "Labor and material suppliers get paid."
     }
    ],
    "beats": [
     {
-     "text": "Surplus lines insurers aren't licensed in Michigan but are eligible to write here, through a surplus lines licensee.",
-     "say": "Surplus lines insurers aren't licensed in Michigan but are eligible to write here, through a surplus lines licensee.",
-     "show": 1
+     "text": "Your exam groups surety bonds into three families. Contract bonds back a contractor's promises; license and permit bonds, obeying the law; judicial bonds, court cases and appointments. Sort them!",
+     "say": "Your exam groups surety bonds into three families. Contract bonds back a contractor's promises; license and permit bonds, obeying the law; judicial bonds, court cases and appointments. Sort them!"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Contract bonds: bid, performance and payment. On a license and permit bond, the government requiring it is the obligee, and the applicant is the principal.",
+     "say": "Contract bonds: bid, performance and payment. On a license and permit bond, the government requiring it is the obligee, and the applicant is the principal."
     },
     {
-     "text": "It's only for coverage authorized insurers won't provide; if 3 or more readily write it, it's presumed available.",
-     "say": "It's only for coverage authorized insurers won't provide; if three or more readily write it, it's presumed available.",
+     "text": "Judicial bonds come in two classes. Fiduciary bonds are for people a court trusts with others' property. Court bonds, like attachment or injunction bonds, pay if the bonded party's court action fails.",
+     "say": "Judicial bonds come in two classes. Fiduciary bonds are for people a court trusts with others' property. Court bonds, like attachment or injunction bonds, pay if the bonded party's court action fails."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "When no licensed insurer says yes",
+   "src": "MCL 500.1903(1); 500.1905(1); 500.1910(1)-(2); 500.1922; confusion pair cp_commercial-12",
+   "kind": "Michigan rule",
+   "term": "Surplus lines",
+   "plain": "Insurance from an insurer not licensed in Michigan but eligible to write here, placed only by a surplus lines licensee.",
+   "example": "No licensed insurer will cover the axe-throwing lane Tony is opening next door, a separate business. A surplus lines licensee can place it.",
+   "exam": "Each policy: a red-ink notice in at least 10-point type. The insurer isn't licensed by Michigan; claims may not be guaranteed if it's insolvent.",
+   "draw": [
+    {
+     "id": "mi",
+     "p": "michigan",
+     "x": 22,
+     "y": 20,
+     "h": 28
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 62,
+     "y": 18,
+     "h": 20,
+     "opt": {
+      "name": "SURPLUS"
+     },
+     "cue": "surplus",
+     "label": "Eligible, not licensed here",
+     "lsize": 3.6,
+     "lw": 34
+    },
+    {
+     "p": "arrow",
+     "from": "ins",
+     "to": "mi",
+     "dash": true,
+     "cue": "eligible",
+     "label": "writes here"
+    },
+    {
+     "id": "target",
+     "p": "target",
+     "x": 12,
+     "y": 54,
+     "h": 13,
+     "opt": {
+      "arrow": false
+     }
+    },
+    {
+     "id": "axe",
+     "p": "icon",
+     "name": "axe",
+     "x": 28,
+     "y": 52,
+     "h": 11,
+     "color": "brown"
+    },
+    {
+     "id": "lic",
+     "p": "person",
+     "x": 44,
+     "y": 50,
+     "h": 18,
+     "opt": {
+      "who": "person",
+      "tie": true,
+      "shirt": "purple",
+      "pose": "hold",
+      "hold": "policy"
+     },
+     "at": 1,
+     "cue": "licensee",
+     "label": "Licensee",
+     "lsize": 3.6
+    },
+    {
+     "p": "label",
+     "text": "Axe lane",
+     "x": 20,
+     "y": 64,
+     "size": 3.6
+    },
+    {
+     "id": "note",
+     "p": "policy",
+     "x": 62,
+     "y": 52,
+     "h": 15,
+     "opt": {
+      "title": "NOTICE",
+      "tcolor": "red"
+     },
+     "at": 2,
+     "cue": "red"
+    },
+    {
+     "p": "label",
+     "text": "Red ink, 10-point",
+     "x": 62,
+     "y": 64,
+     "size": 3.6,
+     "color": "red",
+     "at": 2,
+     "cue": "red"
+    }
+   ],
+   "beats": [
+    {
+     "text": "No licensed insurer will cover the axe-throwing lane. Enter surplus lines: insurers not licensed in Michigan, but eligible to write here.",
+     "say": "No licensed insurer will cover the axe-throwing lane. Enter surplus lines: insurers not licensed in Michigan, but eligible to write here.",
      "show": 2
     },
     {
-     "text": "Each policy carries a red-ink notice in at least 10-point type: the insurer isn't licensed by Michigan, and claims may not be guaranteed if it's insolvent.",
-     "say": "Each policy carries a red-ink notice in at least ten-point type: the insurer isn't licensed by Michigan, and claims may not be guaranteed if it's insolvent.",
+     "text": "Only a surplus lines licensee may place it, and only if licensed, or authorized, insurers won't write it. If 3 or more readily do, it's presumed available.",
+     "say": "Only a surplus lines licensee may place it, and only if licensed, or authorized, insurers won't write it. If three or more readily do, it's presumed available.",
      "show": 3
     },
     {
-     "text": "Under Michigan's statute, the licensee pays a 2% tax plus a 0.5% regulatory fee.",
-     "say": "Under Michigan's statute, the licensee pays a two percent tax plus a zero point five percent regulatory fee.",
-     "show": 4
+     "text": "Each policy carries a red-ink notice, in at least 10-point type: the insurer isn't licensed by Michigan. Claims may not be guaranteed if it's insolvent.",
+     "say": "Each policy carries a red-ink notice, in at least ten-point type: the insurer isn't licensed by Michigan. Claims may not be guaranteed if it's insolvent.",
+     "show": 4,
+     "hl": "note"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Dana's call: placing Tony's coverage",
+   "src": "MCL 500.1905(1), (3)(d); 500.1910(1)-(2) (federal NRRA home-state rules not reviewed); hook mn_comm-22",
+   "ask": "What should Dana do?",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 26,
+     "y": 22,
+     "h": 32,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     },
+     "label": "3 insurers readily write it",
+     "lsize": 4.6,
+     "lw": 44
+    },
+    {
+     "id": "target",
+     "p": "target",
+     "x": 66,
+     "y": 20,
+     "h": 22,
+     "opt": {
+      "arrow": false
+     },
+     "label": "Separate axe lane: no licensed insurer",
+     "lsize": 4.6,
+     "lw": 34
+    },
+    {
+     "id": "axe",
+     "p": "icon",
+     "name": "axe",
+     "x": 86,
+     "y": 14,
+     "h": 14,
+     "color": "brown",
+     "over": true
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 116,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "I have no surplus lines license!",
+     "x": 140,
+     "y": 6,
+     "w": 28,
+     "to": "dana",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "Three licensed insurers readily write the restaurant. The axe lane, a separate business? None will.",
+     "say": "Three licensed insurers readily write the restaurant. The axe lane, a separate business? None will."
+    },
+    {
+     "text": "I have no surplus lines license. What's my move?",
+     "say": "I have no surplus lines license. What's my move?",
+     "voice": "dana"
+    }
+   ],
+   "options": [
+    {
+     "label": "Move it all to surplus lines",
+     "ok": false,
+     "fail": "In Michigan, the restaurant is its own risk that 3 or more authorized insurers readily write, so it's presumed available and stays with them.",
+     "beats": [
+      {
+       "text": "Nope. The restaurant's presumed available: it stays home.",
+       "say": "Nope. The restaurant's presumed available: it stays home."
+      }
+     ],
+     "draw": [
+      {
+       "id": "shop",
+       "p": "restaurant",
+       "x": 22,
+       "y": 26,
+       "h": 28,
+       "opt": {
+        "name": "TONY'S PIZZA"
+       }
+      },
+      {
+       "id": "sl",
+       "p": "insurer",
+       "x": 56,
+       "y": 44,
+       "h": 14,
+       "opt": {
+        "name": "SURPLUS"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Surplus lines",
+       "x": 56,
+       "y": 54,
+       "size": 4.2
+      },
+      {
+       "p": "xout",
+       "on": "sl",
+       "color": "red",
+       "cue": "presumed"
+      },
+      {
+       "id": "lic",
+       "p": "insurer",
+       "x": 88,
+       "y": 24,
+       "h": 28,
+       "label": "Licensed insurers",
+       "lsize": 4.2
+      },
+      {
+       "p": "arrow",
+       "from": "shop",
+       "to": "lic",
+       "label": "presumed available",
+       "color": "green",
+       "bend": -0.2,
+       "cue": "presumed"
+      },
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 126,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      }
+     ],
+     "failAt": [
+      148,
+      46
+     ]
+    },
+    {
+     "label": "Place the axe lane herself",
+     "ok": false,
+     "fail": "In Michigan, no one may solicit, bind or place surplus lines insurance without a surplus lines license.",
+     "beats": [
+      {
+       "text": "Stop! No surplus lines license, no placing it.",
+       "say": "Stop! No surplus lines license, no placing it.",
+       "voice": "regulator"
+      }
+     ],
+     "draw": [
+      {
+       "id": "reg",
+       "p": "person",
+       "x": 32,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "regulator",
+        "pose": "stop",
+        "mood": "angry"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "No license, no placing it!",
+       "x": 58,
+       "y": 8,
+       "w": 26,
+       "to": "reg"
+      },
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 94,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "id": "target",
+       "p": "target",
+       "x": 122,
+       "y": 42,
+       "h": 14,
+       "opt": {
+        "arrow": false
+       }
+      },
+      {
+       "id": "axe",
+       "p": "icon",
+       "name": "axe",
+       "x": 136,
+       "y": 38,
+       "h": 10,
+       "color": "brown"
+      }
+     ]
+    },
+    {
+     "label": "Axe lane only: call a surplus lines licensee",
+     "ok": true,
+     "win": "In Michigan, the restaurant, readily written by 3 or more authorized insurers, stays home. The separate axe lane goes to a surplus lines licensee.",
+     "beats": [
+      {
+       "text": "Perfect: a licensed insurer for the restaurant, a surplus lines licensee for the axe lane.",
+       "say": "Perfect: a licensed insurer for the restaurant, a surplus lines licensee for the axe lane."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 18,
+       "y": 24,
+       "h": 26,
+       "label": "Licensed insurer",
+       "lsize": 3.8
+      },
+      {
+       "id": "shop",
+       "p": "restaurant",
+       "x": 62,
+       "y": 24,
+       "h": 24,
+       "opt": {
+        "name": "TONY'S PIZZA"
+       }
+      },
+      {
+       "p": "arrow",
+       "from": "shop",
+       "to": "ins",
+       "color": "green",
+       "bold": true
+      },
+      {
+       "id": "target",
+       "p": "target",
+       "x": 100,
+       "y": 26,
+       "h": 14,
+       "opt": {
+        "arrow": false
+       }
+      },
+      {
+       "id": "sl",
+       "p": "person",
+       "x": 138,
+       "y": 28,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "tie": true,
+        "shirt": "purple",
+        "pose": "hold",
+        "hold": "policy"
+       },
+       "label": "Surplus lines licensee",
+       "lsize": 3.8,
+       "lw": 30
+      },
+      {
+       "p": "arrow",
+       "from": "target",
+       "to": "sl",
+       "color": "purple",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Under Michigan's statute, the surplus lines licensee pays a 2% tax plus a 0.5% regulatory fee.",
+     "say": "Under Michigan's statute, the surplus lines licensee pays a two percent tax plus a zero point five percent regulatory fee."
     }
    ]
   },
   {
    "type": "hook",
-   "title": "Flood: NFIP limits and the wait",
-   "src": "44 CFR 61.6; 44 CFR Pt. 61 App. A(1) III.D; FEMA brochures (07-2024; 01-2024); floodsmart.gov; amounts can change",
+   "title": "Flood insurance: the NFIP numbers",
+   "src": "44 CFR 61.6; 44 CFR Pt. 61 App. A(1) III.D; FEMA brochures (07-2024; 01-2024); FEMA RR2.0 Simple Guide; amounts can change",
    "mn": "mn-mn_comm-23",
    "hook": "Homes: 250 and 100. Businesses: 500 and 500. Code compliance: 30 grand. The wait: 30 days, but none when you buy it as part of a loan closing.",
    "items": [
     "Homes (single-family, 2-4 family): $250,000 building; residential contents $100,000",
-    "Non-residential: $500,000 building and $500,000 contents",
+    "Non-residential, like Tony's: $500,000 building and $500,000 contents",
     "Increased Cost of Compliance: up to $30,000, within the building maximum",
-    "Wait: typically 30 days; none when bought in connection with a loan"
+    "Minimum home deductibles, no pre-FIRM discount: building $1,000 ($1,250 over $100K); contents $1,000"
+   ],
+   "draw": [
+    {
+     "p": "label",
+     "text": "Homes",
+     "x": 18,
+     "y": 4,
+     "size": 4,
+     "bold": true
+    },
+    {
+     "id": "house",
+     "p": "house",
+     "x": 18,
+     "y": 18,
+     "h": 20
+    },
+    {
+     "p": "label",
+     "text": "Businesses",
+     "x": 58,
+     "y": 4,
+     "size": 4,
+     "bold": true
+    },
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 58,
+     "y": 18,
+     "h": 20,
+     "opt": {
+      "name": "TONY'S"
+     }
+    },
+    {
+     "id": "flood",
+     "p": "flood",
+     "x": 40,
+     "y": 28,
+     "w": 76,
+     "over": true
+    },
+    {
+     "id": "up",
+     "p": "icon",
+     "name": "arrow-big-up",
+     "x": 14,
+     "y": 50,
+     "h": 12,
+     "color": "green",
+     "at": 3,
+     "cue": "elevate"
+    },
+    {
+     "p": "label",
+     "text": "Elevate",
+     "x": 14,
+     "y": 61,
+     "size": 3.6,
+     "at": 3,
+     "cue": "elevate"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 40,
+     "y": 50,
+     "h": 12,
+     "opt": {
+      "n": "30"
+     },
+     "cue": "wait",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "30-day wait",
+     "x": 40,
+     "y": 61,
+     "size": 3.6,
+     "cue": "wait",
+     "at": 2
+    },
+    {
+     "id": "ded",
+     "p": "receipt",
+     "x": 64,
+     "y": 49,
+     "h": 13,
+     "at": 4,
+     "label": "Minimum deductibles",
+     "lsize": 3.6,
+     "lw": 24
+    },
+    {
+     "id": "wyo",
+     "p": "insurer",
+     "x": 18,
+     "y": 50,
+     "h": 15,
+     "opt": {
+      "name": "WYO CO."
+     },
+     "cue": "Write",
+     "out": 2
+    },
+    {
+     "p": "label",
+     "text": "Private WYO insurer writes it",
+     "x": 18,
+     "y": 61,
+     "size": 3.6,
+     "cue": "Write",
+     "out": 2
+    },
+    {
+     "id": "gov",
+     "p": "icon",
+     "name": "landmark",
+     "x": 60,
+     "y": 49,
+     "h": 13,
+     "color": "blue",
+     "cue": "federal",
+     "out": 2,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "U.S. pays all losses",
+     "x": 60,
+     "y": 61,
+     "size": 3.6,
+     "cue": "federal",
+     "out": 2,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "$250K and $100K",
+     "x": 18,
+     "y": 40,
+     "size": 4,
+     "bold": true,
+     "color": "blue",
+     "at": 2,
+     "cue": "250"
+    },
+    {
+     "p": "label",
+     "text": "$500K and $500K",
+     "x": 58,
+     "y": 40,
+     "size": 4,
+     "bold": true,
+     "color": "blue",
+     "at": 2,
+     "cue": "500"
+    }
    ],
    "beats": [
     {
-     "text": "Now the National Flood Insurance Program. The hook: homes, 250 and 100. Businesses, 500 and 500. Code compliance, 30 grand. The wait, 30 days, but none when you buy it as part of a loan closing.",
-     "say": "Now the National Flood Insurance Program. The hook: homes, two hundred fifty and one hundred. Businesses, five hundred and five hundred. Code compliance, thirty grand. The wait, thirty days, but none when you buy it as part of a loan closing.",
-     "show": 0
+     "text": "Next, the river. Write Your Own companies are private insurers that write and service National Flood Insurance Program policies in their own names.",
+     "say": "Next, the river. Write Your Own companies are private insurers that write and service National Flood Insurance Program policies in their own names.",
+     "show": 0,
+     "hl": "wyo"
     },
     {
-     "text": "Homes, meaning single-family and 2 to 4 family, get $250,000 building and $100,000 contents. Non-residential gets $500,000 each.",
-     "say": "Homes, meaning single-family and two to four family, get two hundred fifty thousand dollars building and one hundred thousand dollars contents. Non-residential gets five hundred thousand dollars each.",
+     "text": "The federal government pays all losses. Same coverage as FEMA's own NFIP Direct.",
+     "say": "The federal government pays all losses. Same coverage as FEMA's own N F I P Direct.",
+     "show": 0,
+     "hl": "gov"
+    },
+    {
+     "text": "The hook: homes, 250 and 100. Businesses, 500 and 500. Code compliance, 30 grand. The wait, 30 days, but none when you buy it as part of a loan closing.",
+     "say": "The hook: homes, two hundred fifty and one hundred. Businesses, five hundred and five hundred. Code compliance, thirty grand. The wait, thirty days, but none when you buy it as part of a loan closing.",
      "show": 2
     },
     {
-     "text": "Increased Cost of Compliance adds up to $30,000 to elevate, demolish, relocate or floodproof, but building plus that payment can't exceed the building maximum.",
-     "say": "Increased Cost of Compliance adds up to thirty thousand dollars to elevate, demolish, relocate or floodproof, but building plus that payment can't exceed the building maximum.",
-     "show": 3
+     "text": "Homes means single-family and 2 to 4 family buildings. Increased Cost of Compliance pays to elevate, demolish, relocate or floodproof, but building plus it can't exceed the building maximum.",
+     "say": "Homes means single-family and two to four family buildings. Increased Cost of Compliance pays to elevate, demolish, relocate or floodproof, but building plus it can't exceed the building maximum.",
+     "show": 3,
+     "hl": "up"
     },
+    {
+     "text": "FEMA's Risk Rating 2.0 sets minimum deductibles, which can change.",
+     "say": "FEMA's Risk Rating two point zero sets minimum deductibles, which can change.",
+     "show": 4,
+     "hl": "ded"
+    },
+    {
+     "text": "A home with no pre-FIRM discount: building $1,000, or $1,250 above $100,000 of coverage. Contents: a separate $1,000.",
+     "say": "A home with no pre-firm discount: building one thousand dollars, or one thousand two hundred fifty dollars above one hundred thousand dollars of coverage. Contents: a separate one thousand dollars.",
+     "show": 4,
+     "hl": "ded"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: when to buy flood insurance",
+   "src": "44 CFR 61.11; agents.floodsmart.gov 'Flood Insurance 101'; FEMA brochure (07-2024)",
+   "ask": "When should Tony buy it?",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 24,
+     "y": 24,
+     "h": 28,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "p": "water",
+     "x": 24,
+     "y": 46,
+     "h": 7
+    },
+    {
+     "id": "bank",
+     "p": "bank",
+     "x": 70,
+     "y": 22,
+     "h": 26,
+     "label": "Loan closing: Friday",
+     "lsize": 3.8,
+     "lw": 30
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 118,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "neutral"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 140,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "policy"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "When do you want your flood policy?",
+     "x": 138,
+     "y": 6,
+     "w": 30,
+     "to": "dana",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony is buying the river building with a bank loan, closing Friday.",
+     "say": "Tony is buying the river building with a bank loan, closing Friday."
+    },
+    {
+     "text": "Tony, when do you want your flood policy?",
+     "say": "Tony, when do you want your flood policy?",
+     "voice": "dana"
+    }
+   ],
+   "options": [
+    {
+     "label": "Wait until a storm is forecast",
+     "ok": false,
+     "fail": "A new flood policy typically has a 30-day wait. Bought after the closing, on its own, it can start too late.",
+     "beats": [
+      {
+       "text": "Weeks after the closing, a storm is forecast, and Tony finally buys a policy. Ten days later the river floods, inside his 30-day wait.",
+       "say": "Weeks after the closing, a storm is forecast, and Tony finally buys a policy. Ten days later the river floods, inside his thirty-day wait."
+      }
+     ],
+     "draw": [
+      {
+       "id": "storm",
+       "p": "storm",
+       "x": 20,
+       "y": 16,
+       "h": 22
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 56,
+       "y": 20,
+       "h": 20,
+       "opt": {
+        "n": "10"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Day 10 of a 30-day wait",
+       "x": 56,
+       "y": 40,
+       "size": 4.2,
+       "color": "red"
+      },
+      {
+       "id": "shop",
+       "p": "restaurant",
+       "x": 108,
+       "y": 26,
+       "h": 28,
+       "opt": {
+        "name": "TONY'S PIZZA"
+       }
+      },
+      {
+       "p": "flood",
+       "x": 108,
+       "y": 38,
+       "w": 54,
+       "over": true
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 146,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "sad",
+        "mood": "sad"
+       }
+      }
+     ],
+     "failAt": [
+      60,
+      52
+     ]
+    },
+    {
+     "label": "Buy it at Friday's loan closing",
+     "ok": true,
+     "win": "Bought in connection with making a loan, flood coverage has no waiting period. It starts at the loan closing.",
+     "beats": [
+      {
+       "text": "Smart. Bought with the loan, it starts at closing.",
+       "say": "Smart. Bought with the loan, it starts at closing."
+      }
+     ],
+     "draw": [
+      {
+       "id": "bank",
+       "p": "bank",
+       "x": 26,
+       "y": 24,
+       "h": 28
+      },
+      {
+       "id": "hs",
+       "p": "handshake",
+       "x": 62,
+       "y": 22,
+       "h": 12
+      },
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 90,
+       "y": 22,
+       "h": 20,
+       "opt": {
+        "title": "FLOOD"
+       }
+      },
+      {
+       "p": "check",
+       "x": 102,
+       "y": 12,
+       "h": 9
+      },
+      {
+       "p": "label",
+       "text": "Starts at closing",
+       "x": 74,
+       "y": 44,
+       "size": 4.6,
+       "color": "green"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 132,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      }
+     ]
+    }
+   ],
+   "reveal": [
     {
      "text": "The loan exception covers making, increasing, extending or renewing a loan.",
-     "say": "The loan exception covers making, increasing, extending or renewing a loan.",
-     "show": 4
+     "say": "The loan exception covers making, increasing, extending or renewing a loan."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "NFIP: who sells it, other exceptions, deductibles",
-   "src": "44 CFR 61.11; FEMA brochure (07-2024); agents.floodsmart.gov 'Flood Insurance 101'; FEMA RR2.0 Simple Guide (deductibles; can change)",
-   "items": [
+   "type": "swipe",
+   "title": "No wait, 1 day or 30 days?",
+   "src": "44 CFR 61.11(a)-(d); agents.floodsmart.gov 'Flood Insurance 101'; question comm-072; card 'NFIP waiting period'",
+   "options": [
+    "No wait",
+    "1 day",
+    "30 days"
+   ],
+   "cards": [
     {
-     "label": "NFIP Direct or Write Your Own (WYO)",
-     "detail": "WYO: private insurers write and service it in their own names; the government pays all losses",
-     "icon": "building-2"
+     "text": "Sam and Jen increase their mortgage loan and buy flood coverage as part of it.",
+     "answer": 0,
+     "why": "Bought in connection with making, increasing, extending or renewing a loan: no waiting period.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 24,
+       "y": 30,
+       "h": 40,
+       "opt": {
+        "who": "sam",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "person",
+       "x": 40,
+       "y": 30,
+       "h": 40,
+       "opt": {
+        "who": "jen",
+        "mood": "happy",
+        "pose": "hold",
+        "hold": "policy"
+       }
+      },
+      {
+       "p": "bank",
+       "x": 74,
+       "y": 28,
+       "h": 32
+      }
+     ]
     },
     {
-     "label": "Other exceptions to the 30-day wait",
-     "detail": "Added coverage on a renewal bill. Newly mapped into an SFHA: 1-day wait if bought within 13 months",
-     "icon": "calendar"
+     "text": "Grandma buys a brand-new flood policy on her own. No loan, no new flood map, no wildfire.",
+     "answer": 2,
+     "why": "No exception applies, so the usual 30-day wait.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 34,
+       "y": 30,
+       "h": 40,
+       "opt": {
+        "who": "grandma",
+        "pose": "hold",
+        "hold": "policy"
+       }
+      },
+      {
+       "p": "house",
+       "x": 70,
+       "y": 30,
+       "h": 30
+      }
+     ]
     },
     {
-     "label": "Flooding on burned federal land",
-     "detail": "1-day wait if bought within 60 days of fire containment",
-     "icon": "flame"
+     "text": "A new flood map takes effect, putting Rosa's house in a special flood hazard area. She buys 2 months later.",
+     "answer": 1,
+     "why": "Policy bought within 13 months after the new map takes effect: a 1-day wait.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 20,
+       "y": 30,
+       "h": 40,
+       "opt": {
+        "who": "rosa",
+        "mood": "worried"
+       }
+      },
+      {
+       "p": "icon",
+       "name": "map",
+       "x": 50,
+       "y": 22,
+       "h": 22,
+       "color": "blue"
+      },
+      {
+       "p": "label",
+       "text": "New flood map",
+       "x": 50,
+       "y": 42,
+       "size": 6,
+       "color": "blue",
+       "bold": true
+      },
+      {
+       "p": "house",
+       "x": 82,
+       "y": 28,
+       "h": 28
+      }
+     ]
     },
     {
-     "label": "Minimum deductibles (Risk Rating 2.0)",
-     "detail": "Residential, no pre-FIRM discount: building $1,000 if $100,000 or less, $1,250 if more; contents $1,000",
-     "icon": "receipt"
+     "text": "Flooding from burned federal land threatens a cabin. The owner buys within 60 days of the fire's containment.",
+     "answer": 1,
+     "why": "Policy bought within 60 days of the fire's containment: a 1-day wait.",
+     "draw": [
+      {
+       "p": "icon",
+       "name": "tree-pine",
+       "x": 15,
+       "y": 28,
+       "h": 26,
+       "color": "gray"
+      },
+      {
+       "p": "icon",
+       "name": "tree-pine",
+       "x": 32,
+       "y": 31,
+       "h": 20,
+       "color": "gray"
+      },
+      {
+       "p": "smoke",
+       "x": 24,
+       "y": 10,
+       "h": 11,
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Burned land",
+       "x": 23,
+       "y": 50,
+       "size": 6,
+       "color": "gray",
+       "bold": true
+      },
+      {
+       "p": "rain",
+       "x": 72,
+       "y": 9,
+       "h": 14
+      },
+      {
+       "p": "house",
+       "x": 72,
+       "y": 32,
+       "h": 24
+      },
+      {
+       "p": "flood",
+       "x": 66,
+       "y": 43,
+       "w": 46,
+       "over": true
+      }
+     ]
     }
    ],
    "beats": [
     {
-     "text": "Write Your Own companies are private insurers that write and service policies in their own names; the federal government pays all losses. Coverage matches NFIP Direct.",
-     "say": "Write Your Own companies are private insurers that write and service policies in their own names; the federal government pays all losses. Coverage matches N F I P Direct.",
-     "show": 1
+     "text": "Two exceptions have just a 1-day wait. One: a building newly mapped into a special flood hazard area, with the policy bought within 13 months after the new map takes effect.",
+     "say": "Two exceptions have just a one-day wait. One: a building newly mapped into a special flood hazard area, with the policy bought within thirteen months after the new map takes effect."
     },
     {
-     "text": "Other exceptions: added coverage on a renewal bill, and a 1-day wait for a building newly mapped into a special flood hazard area.",
-     "say": "Other exceptions: added coverage on a renewal bill, and a one-day wait for a building newly mapped into a special flood hazard area.",
-     "show": 2
+     "text": "Two: flooding from burned federal land, with the policy bought within 60 days of the fire's containment.",
+     "say": "Two: flooding from burned federal land, with the policy bought within sixty days of the fire's containment."
     },
     {
-     "text": "For flooding on burned federal land, the wait is 1 day if you buy within 60 days of fire containment.",
-     "say": "For flooding on burned federal land, the wait is one day if you buy within sixty days of fire containment.",
-     "show": 3
-    },
+     "text": "Your turn: how long does each policy wait?",
+     "say": "Your turn: how long does each policy wait?"
+    }
+   ],
+   "reveal": [
     {
-     "text": "FEMA's Risk Rating 2.0 minimum deductibles, which can change: for a residential building with no pre-FIRM discount, $1,000 if coverage is $100,000 or less, $1,250 if more. Contents: a separate $1,000.",
-     "say": "FEMA's Risk Rating two point zero minimum deductibles, which can change: for a residential building with no pre-firm discount, one thousand dollars if coverage is one hundred thousand dollars or less, one thousand two hundred fifty dollars if more. Contents: a separate one thousand dollars.",
-     "show": 4
+     "text": "Added coverage on a renewal bill is an exception too.",
+     "say": "Added coverage on a renewal bill is an exception too."
     }
    ]
   },
   {
-   "type": "formula",
+   "type": "sketch",
    "title": "Self-insured retention vs deductible",
    "src": "IRMI glossary 'self-insurance', 'self-insured retention (SIR)' (IRMI's own example)",
-   "given": [
-    "Covered liability claim: $100,000",
-    "Self-insured retention or deductible: $25,000"
-   ],
-   "items": [
+   "draw": [
     {
-     "label": "SIR: insured pays first",
-     "expr": "Defense and damages up to the SIR",
-     "value": "$25,000"
+     "id": "tony0",
+     "p": "person",
+     "x": 58,
+     "y": 36,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "hold": "coins",
+      "mood": "happy"
+     },
+     "out": 1
     },
     {
-     "label": "SIR: insurer pays the rest",
-     "expr": "$100,000 − $25,000",
-     "value": "$75,000"
+     "id": "pig",
+     "p": "piggybank",
+     "x": 86,
+     "y": 40,
+     "h": 22,
+     "opt": {
+      "coin": true
+     },
+     "cue": "fund",
+     "out": 1
     },
     {
-     "label": "Deductible: insurer pays the claim",
-     "expr": "The full covered claim",
-     "value": "$100,000"
+     "p": "label",
+     "text": "Self-insurance: a set-aside fund",
+     "x": 80,
+     "y": 58,
+     "size": 4.2,
+     "w": 70,
+     "cue": "fund",
+     "out": 1
     },
     {
-     "label": "Deductible: insurer bills the insured",
-     "expr": "Reimbursement of the deductible",
-     "value": "$25,000"
+     "p": "divider",
+     "x": 80,
+     "y": 36,
+     "y0": 8,
+     "y1": 62,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "$25,000 retention",
+     "x": 40,
+     "y": 12,
+     "size": 4.8,
+     "bold": true,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "on a $100,000 claim: defense and damages",
+     "x": 40,
+     "y": 19,
+     "size": 3.8,
+     "at": 1
+    },
+    {
+     "id": "t1",
+     "p": "person",
+     "x": 12,
+     "y": 34,
+     "h": 22,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "hold": "money"
+     },
+     "at": 1,
+     "cue": "first"
+    },
+    {
+     "p": "label",
+     "text": "1. Tony pays first $25,000",
+     "x": 24,
+     "y": 34,
+     "size": 4.6,
+     "align": "left",
+     "color": "blue",
+     "at": 1,
+     "cue": "first"
+    },
+    {
+     "id": "i1",
+     "p": "insurer",
+     "x": 12,
+     "y": 56,
+     "h": 16,
+     "at": 1,
+     "cue": "insurer"
+    },
+    {
+     "p": "label",
+     "text": "2. Insurer pays $75,000",
+     "x": 24,
+     "y": 56,
+     "size": 4.6,
+     "align": "left",
+     "color": "green",
+     "at": 1,
+     "cue": "insurer"
+    },
+    {
+     "p": "label",
+     "text": "$25,000 deductible",
+     "x": 120,
+     "y": 12,
+     "size": 4.8,
+     "bold": true,
+     "color": "purple",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "on a $100,000 claim: defense and damages",
+     "x": 120,
+     "y": 19,
+     "size": 3.8,
+     "at": 2
+    },
+    {
+     "id": "i2",
+     "p": "insurer",
+     "x": 92,
+     "y": 34,
+     "h": 16,
+     "at": 2,
+     "cue": "all"
+    },
+    {
+     "p": "label",
+     "text": "1. Insurer pays all $100,000",
+     "x": 104,
+     "y": 34,
+     "size": 4.6,
+     "align": "left",
+     "color": "green",
+     "at": 2,
+     "cue": "all"
+    },
+    {
+     "id": "t2",
+     "p": "person",
+     "x": 92,
+     "y": 56,
+     "h": 22,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "hold": "money"
+     },
+     "at": 2,
+     "cue": "bills"
+    },
+    {
+     "p": "label",
+     "text": "2. Insurer bills Tony $25,000",
+     "x": 104,
+     "y": 56,
+     "size": 4.6,
+     "align": "left",
+     "color": "red",
+     "at": 2,
+     "cue": "bills"
     }
    ],
    "beats": [
     {
-     "text": "Last, self-insurance: a formal decision to retain risk and pay losses from a set-aside fund. Here's a self-insured retention versus a deductible.",
-     "say": "Last, self-insurance: a formal decision to retain risk and pay losses from a set-aside fund. Here's a self-insured retention versus a deductible.",
-     "show": 0
+     "text": "Last, self-insurance: a formal decision to keep a risk and pay losses from a set-aside fund.",
+     "say": "Last, self-insurance: a formal decision to keep a risk and pay losses from a set-aside fund.",
+     "hl": "pig"
     },
     {
-     "text": "With an SIR of $25,000, the insured pays the first $25,000 itself, and the insurer pays the other $75,000.",
-     "say": "With an S I R of twenty-five thousand dollars, the insured pays the first twenty-five thousand dollars itself, and the insurer pays the other seventy-five thousand dollars.",
-     "show": 2
+     "text": "Say a covered liability claim costs $100,000 in defense and damages. With a self-insured retention of $25,000, Tony pays the first $25,000 himself, and the insurer the other $75,000.",
+     "say": "Say a covered liability claim costs one hundred thousand dollars in defense and damages. With a self-insured retention of twenty-five thousand dollars, Tony pays the first twenty-five thousand dollars himself, and the insurer the other seventy-five thousand dollars."
     },
     {
-     "text": "With a deductible of $25,000, the insurer pays all $100,000, then bills the insured $25,000.",
-     "say": "With a deductible of twenty-five thousand dollars, the insurer pays all one hundred thousand dollars, then bills the insured twenty-five thousand dollars.",
-     "show": 4
+     "text": "With a deductible of $25,000, the insurer pays all $100,000 first, then bills Tony $25,000.",
+     "say": "With a deductible of twenty-five thousand dollars, the insurer pays all one hundred thousand dollars first, then bills Tony twenty-five thousand dollars."
     }
    ]
   },
   {
    "type": "recap",
    "items": [
-    "Umbrella can cover more; excess only adds limits",
-    "E&O and most professional liability: financial loss, claims-made",
+    "Umbrella: more limits, drop-down, fills some gaps; excess: limits only",
+    "E&O: clients' financial loss from mistakes; most PL is claims-made",
     "Bonds: principal promises, obligee protected, surety guarantees",
     "Surplus lines: red-ink notice; Michigan's 2% tax plus 0.5% fee",
-    "NFIP homes: $250,000 and $100,000; 30-day wait, none with a loan"
+    "NFIP homes: $250K and $100K; 30-day wait, none if bought with a loan"
+   ],
+   "draw": [
+    {
+     "id": "big",
+     "p": "umbrella",
+     "x": 36,
+     "y": 14,
+     "h": 22,
+     "color": "red"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 26,
+     "y": 44,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 48,
+     "y": 44,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "pizza",
+     "p": "pizza",
+     "x": 37,
+     "y": 53,
+     "h": 9
+    }
    ],
    "beats": [
     {
-     "text": "Let's recap: umbrella versus excess, professional liability, bond parties, surplus lines, and flood numbers.",
-     "say": "Let's recap: umbrella versus excess, professional liability, bond parties, surplus lines, and flood numbers.",
+     "text": "What a launch! Tony is ready.",
+     "say": "What a launch! Tony is ready.",
+     "show": 5
+    },
+    {
+     "text": "Now, who wants a slice?",
+     "say": "Now, who wants a slice?",
+     "voice": "tony",
      "show": 5
     }
    ]
@@ -519,11 +2474,13 @@
   "comm-oth-14"
  ],
  "hooks": [
-  "mn-mn_comm-23"
+  "mn-mn_comm-23",
+  "mn-mn_comm-25",
+  "mn-mn_comm-21"
  ],
  "sources": [
   "IRMI glossary: umbrella liability policy; follow form; excess liability policy",
-  "IRMI glossary: errors and omissions; professional liability; defense within limits; consent to settlement clause; self-insurance; self-insured retention",
+  "IRMI glossary: errors and omissions; professional liability; claims-made policy; defense within limits; consent to settlement clause; self-insurance; self-insured retention",
   "IRMI glossary: Side A coverage; corporate reimbursement coverage; entity securities coverage; fiduciary liability; employment practices liability insurance",
   "ISO CG 00 33 04 13; ISO CG 00 01 04 13",
   "MCL 436.1803(1)",
@@ -535,6 +2492,9 @@
   "FEMA 'Meeting the Flood Insurance Requirement' (07-2024); FEMA Commercial Summary of Coverage (01-2024)",
   "agents.floodsmart.gov 'Flood Insurance 101'",
   "FEMA Risk Rating 2.0 Simple Guide (residential manufactured and mobile homes)",
+  "Memory hooks mn_comm-21, mn_comm-22, mn_comm-23, mn_comm-25; confusion pairs cp_commercial-09 to -13",
+  "Question bank comm-oth-02, comm-062, comm-072",
+  "ISO CP 00 10 10 12, A.5.a; ISO BP 00 03 07 13, Sec. I A.6.a (30-day newly acquired extension: the scene 3 timing)",
   "PSI Series 16-81 content outline"
  ]
 }

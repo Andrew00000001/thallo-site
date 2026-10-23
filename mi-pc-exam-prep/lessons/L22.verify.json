@@ -1,41 +1,78 @@
 {
  "id": "L22",
- "beats": 36,
+ "beats": 58,
  "mismatches": [
   {
+   "scene": 1,
+   "beat": 1,
+   "say": "Tony, in Michigan it's three at once, or one at thirty-five for thirteen, out of the last fifty-two. Public employers: every one, any size.",
+   "heard": "Tony, in Michigan, it's three at once, or one at 35 for 13 out of the last 52. Public employers, everyone any size.",
+   "wer": 0.077,
+   "voice": "dana"
+  },
+  {
    "scene": 2,
-   "beat": 0,
-   "say": "Who must carry comp in Michigan? The hook: three at once, or one at thirty-five for thirteen, out of the last fifty-two. Public employers: every one, any size.",
-   "heard": "who must carry comp in Michigan, the hook, three at once or one at 35 for 13 out of the last 52. Public employers, everyone any size.",
-   "wer": 0.067
+   "beat": "o1:0",
+   "say": "Marco signs a napkin. Worthless: in Michigan, waiving comp up front isn't valid.",
+   "heard": "Marco signs a napkin. Worthless. In Michigan, waving comp up front is not valid.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "scene": 2,
+   "beat": "o2:0",
+   "say": "Paying claims from the register, with no state okay, doesn't secure comp. Tony is uninsured.",
+   "heard": "Paying claims from the register, with no state OK, does not secure comp. Tony is uninsured.",
+   "wer": 0.062,
+   "voice": "narrator"
+  },
+  {
+   "scene": 2,
+   "beat": 1,
+   "say": "The only other route in Michigan: self-insure, on proof of solvency, with the Workers' Disability Compensation Agency's okay, not D I F S.",
+   "heard": "the only other route in Michigan. Self-insure on proof of solvency with the workers' disability compensation agencies okay, not DIFS.",
+   "wer": 0.048,
+   "voice": "narrator"
   },
   {
    "scene": 5,
    "beat": 0,
-   "say": "Now Michigan's benefits. The hook: wait seven, paid from day eight, back-paid at two weeks. Then eighty percent of after-tax wages, capped at ninety percent of the state average.",
-   "heard": "Now Michigan's benefits. The hook, weight seven, paid from day eight, back paid at two weeks. Then 80% of after-tax wages, capped at 90% of the state average.",
-   "wer": 0.032
+   "say": "Marco, sue Tony for a million dollars!",
+   "heard": "Marco Suetoni for million dollars.",
+   "wer": 0.429,
+   "voice": "neighbor"
   },
   {
    "scene": 6,
-   "beat": 1,
-   "say": "Second, the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to maritime workers, like ship repairers, on navigable waters, piers and dry docks.",
-   "heard": "Second, the Longshore and Harbor Workers' Compensation Act pays no fault benefits to maritime workers, like ship repairs, unnavigable waters, piers, and dry docks.",
-   "wer": 0.13
+   "beat": "o1:0",
+   "say": "Nope. Knowing an injury was possible isn't knowing it was certain.",
+   "heard": "Nope, knowing an injury was possible is not knowing it was cert.",
+   "wer": 0.083,
+   "voice": "narrator"
   },
   {
    "scene": 7,
    "beat": 0,
-   "say": "A cook on a Great Lakes freighter, a crew member, is hurt aboard and sues his employer before a jury. Which law? Pick an answer.",
-   "heard": "A cook on a Great Lakes freighter, a crew member, is heard aboard and sues his employer before a jury. Which law? Pick an answer.",
-   "wer": 0.042
+   "say": "Marco's laid up. In Michigan, the hook: wait seven, paid from day eight, back-paid at two weeks. Then eighty percent of after-tax wages, capped at ninety percent of the state average.",
+   "heard": "Marcos laid up. In Michigan, the hook, weight 7, paid from day 8, backpaid at 2 weeks. Then 80 percent of after-tax wages, capped at 90 percent of the state average.",
+   "wer": 0.091,
+   "voice": "narrator"
   },
   {
    "scene": 9,
-   "beat": 1,
-   "say": "Payroll divided by one hundred is two thousand five hundred. Times four dollars, the manual premium is ten thousand dollars.",
-   "heard": "Payroll divided by 100 is $2,500. Times $4, the manual premium is $10,000.",
-   "wer": 0.05
+   "beat": 2,
+   "say": "Shore: the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to workers like ship repairers, on navigable waters, piers and dry docks.",
+   "heard": "Shore, the Longshore and Harbor Workers' Compensation Act pays no fault benefits to workers like ship repairers\u2014unnavigable waters, piers, and dry docks.",
+   "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "scene": 10,
+   "beat": "o0:0",
+   "say": "Denied. The Longshore Act excludes a vessel's crew, and Gino is crew.",
+   "heard": "Denied, the Longshore Act excludes a vessel's crew and Geno is crew.",
+   "wer": 0.091,
+   "voice": "narrator"
   }
  ]
 }

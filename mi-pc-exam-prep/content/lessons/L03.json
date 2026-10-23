@@ -1,567 +1,2764 @@
 {
-  "id": "L03",
-  "sec": "gen",
-  "guide": "gen",
-  "title": "Risk, insurers and how insurance works",
-  "summary": "The words of risk, five ways to handle it, what makes a risk insurable, how reinsurance works, and who owns an insurer.",
-  "objectives": [
-    "Tell risk, exposure, hazard, peril and loss apart",
-    "Name the five methods of handling risk",
-    "List the traits of an insurable risk and explain the law of large numbers",
-    "Compare types of reinsurance, insurers and distribution systems"
-  ],
-  "scenes": [
+ "id": "L03",
+ "sec": "gen",
+ "guide": "gen",
+ "title": "Risk, insurers and how insurance works",
+ "summary": "Follow Tony's Pizza through its first year: the words of risk, five ways to handle it, insurable risks, reinsurance, and who owns and sells insurance.",
+ "objectives": [
+  "Tell risk, exposure, hazard, peril and loss apart",
+  "Name the five methods of handling risk",
+  "List the traits of an insurable risk and explain the law of large numbers",
+  "Compare reinsurance, insurer types, ratings and distribution systems"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Tony's Pizza: risk, insurers and how insurance works",
+   "subtitle": "General Insurance: 10.5% of your exam, about 16 questions. The words of risk and how insurers work",
+   "draw": [
     {
-      "type": "title",
-      "title": "Risk, insurers and how insurance works",
-      "subtitle": "The vocabulary and machinery behind every policy",
-      "icon": "shield",
-      "beats": [
-        {
-          "text": "General Insurance is 10.5% of your exam, about 16 questions.",
-          "say": "General Insurance is ten point five percent of your exam, about sixteen questions."
-        },
-        {
-          "text": "This lesson covers the words of risk, the ways to handle it, and how insurers work.",
-          "say": "This lesson covers the words of risk, the ways to handle it, and how insurers work."
-        }
-      ]
+     "id": "shop",
+     "p": "restaurant",
+     "x": 27,
+     "y": 36,
+     "h": 38,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-      "type": "bullets",
-      "title": "Five words of risk",
-      "src": "IRMI glossary: risk; exposure; hazard; peril; National Alliance glossary: loss",
-      "items": [
-        {
-          "label": "Risk",
-          "detail": "Uncertainty about whether a loss will happen",
-          "icon": "dices"
-        },
-        {
-          "label": "Exposure",
-          "detail": "Being subject to loss. Also a rating unit, like payroll",
-          "icon": "eye"
-        },
-        {
-          "label": "Hazard",
-          "detail": "A condition that increases the chance of loss",
-          "icon": "triangle-alert"
-        },
-        {
-          "label": "Peril",
-          "detail": "The cause of loss: fire, windstorm, collision",
-          "icon": "flame"
-        },
-        {
-          "label": "Loss",
-          "detail": "A reduction in value; the basis of a claim",
-          "icon": "trending-down"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Risk is uncertainty about whether a loss will happen.",
-          "say": "Risk is uncertainty about whether a loss will happen.",
-          "show": 1
-        },
-        {
-          "text": "Exposure is being subject to loss. It's also a rating unit, like payroll.",
-          "say": "Exposure is being subject to loss. It's also a rating unit, like payroll.",
-          "show": 2
-        },
-        {
-          "text": "A hazard is a condition that increases the chance of loss, like poor housekeeping.",
-          "say": "A hazard is a condition that increases the chance of loss, like poor housekeeping.",
-          "show": 3
-        },
-        {
-          "text": "A peril is the cause of loss: fire, windstorm, collision.",
-          "say": "A peril is the cause of loss: fire, windstorm, collision.",
-          "show": 4
-        },
-        {
-          "text": "A loss is a reduction in value, the basis of a claim.",
-          "say": "A loss is a reduction in value, the basis of a claim.",
-          "show": 5
-        }
-      ]
+     "p": "person",
+     "x": 67,
+     "y": 46,
+     "h": 32,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pizza"
+     },
+     "id": "tony"
     },
     {
-      "type": "compare",
-      "title": "Pure vs. speculative risk",
-      "src": "IRMI glossary: pure risk; speculative risk; National Alliance glossary: speculative risk",
-      "columns": [
-        {
-          "name": "Pure risk",
-          "icon": "house",
-          "points": [
-            "Chance of loss or no loss",
-            "No chance of gain",
-            "Generally insurable",
-            "Example: a house damaged by fire"
-          ]
-        },
-        {
-          "name": "Speculative risk",
-          "icon": "dices",
-          "points": [
-            "Chance of loss or gain",
-            "Example: a new business, gambling",
-            "Often called a business risk",
-            "Generally not insurable"
-          ]
-        }
-      ],
-      "tell": "Ask: could this end in a gain? If yes, it's speculative.",
-      "beats": [
-        {
-          "text": "Pure risk ends only in loss or no loss, with no chance of gain. It's generally insurable.",
-          "say": "Pure risk ends only in loss or no loss, with no chance of gain. It's generally insurable.",
-          "show": 1
-        },
-        {
-          "text": "Speculative risk can bring a gain or a loss, like a new business or gambling. It's generally not insurable.",
-          "say": "Speculative risk can bring a gain or a loss, like a new business or gambling. It's generally not insurable.",
-          "show": 2
-        },
-        {
-          "text": "So ask: could this end in a gain?",
-          "say": "So ask: could this end in a gain?",
-          "show": 2,
-          "tell": true
-        }
-      ]
+     "p": "bubble",
+     "text": "Grand opening!",
+     "x": 70,
+     "y": 13,
+     "w": 30,
+     "to": "tony",
+     "cue": "opening"
     },
     {
-      "type": "scenario",
-      "title": "The cabin Up North",
-      "src": "IRMI glossary: exposure; hazard; peril; loss; hook mn-mn_core-01",
-      "icon": "flame",
-      "story": "You own a cabin Up North. Oily rags are piled next to the wood stove. One night a fire breaks out and burns part of the cabin, and you file a claim.",
-      "items": [
-        {
-          "label": "Exposure",
-          "detail": "Owning the cabin: you're subject to loss"
-        },
-        {
-          "label": "Hazard",
-          "detail": "The oily rags: they make a fire more likely"
-        },
-        {
-          "label": "Peril",
-          "detail": "The fire: it causes the loss"
-        },
-        {
-          "label": "Loss",
-          "detail": "The burned value you claim"
-        }
-      ],
-      "answer": "The rags are the hazard. The fire is the peril. Don't swap them.",
-      "beats": [
-        {
-          "text": "Here's a story. You own a cabin Up North, with oily rags piled by the wood stove. One night a fire burns part of it. Name each piece.",
-          "say": "Here's a story. You own a cabin Up North, with oily rags piled by the wood stove. One night a fire burns part of it. Name each piece.",
-          "show": 0
-        },
-        {
-          "text": "Owning the cabin is your exposure. The oily rags are the hazard, because they make a fire more likely.",
-          "say": "Owning the cabin is your exposure. The oily rags are the hazard, because they make a fire more likely.",
-          "show": 2
-        },
-        {
-          "text": "The fire is the peril, the cause. The burned value you claim is the loss.",
-          "say": "The fire is the peril, the cause. The burned value you claim is the loss.",
-          "show": 4
-        },
-        {
-          "text": "Don't swap them. The condition is the hazard; the cause is the peril.",
-          "say": "Don't swap them. The condition is the hazard; the cause is the peril.",
-          "show": 4,
-          "answer": true
-        }
-      ]
-    },
-    {
-      "type": "quiz",
-      "q": "A home has frayed, outdated electrical wiring that makes a fire more likely. In insurance terms, the wiring is a:",
-      "choices": [
-        "Peril",
-        "Hazard",
-        "Exposure",
-        "Loss"
-      ],
-      "answer": 1,
-      "why": "A hazard is a condition that increases the chance of loss. A fire caused by the wiring would be the peril.",
-      "beats": [
-        {
-          "text": "Your turn. Frayed, outdated wiring makes a house fire more likely. Is the wiring a peril, a hazard, an exposure or a loss? Pick an answer.",
-          "say": "Your turn. Frayed, outdated wiring makes a house fire more likely. Is the wiring a peril, a hazard, an exposure or a loss? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "It's a hazard: a condition that raises the chance of loss. A fire it starts would be the peril.",
-          "say": "It's a hazard: a condition that raises the chance of loss. A fire it starts would be the peril."
-        }
-      ]
-    },
-    {
-      "type": "hook",
-      "title": "Five ways to handle risk",
-      "src": "IRMI glossary: risk sharing; hold harmless agreement; avoidance; loss control; risk retention; self-insurance",
-      "mn": "mn-mn_core-02",
-      "hook": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
-      "items": [
-        "Share: a group pools losses by a set formula, like a reciprocal",
-        "Transfer: buy insurance, or shift it by contract, like a hold-harmless",
-        "Avoid: don't do the activity. Reduce: cut how often or how badly",
-        "Retain: pay losses yourself, through deductibles or self-insurance"
-      ],
-      "beats": [
-        {
-          "text": "Five ways to handle risk. Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
-          "say": "Five ways to handle risk. Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
-          "show": 0
-        },
-        {
-          "text": "Sharing spreads losses across a group by a set formula, like a reciprocal.",
-          "say": "Sharing spreads losses across a group by a set formula, like a reciprocal.",
-          "show": 1
-        },
-        {
-          "text": "Transfer shifts the financial consequences to someone else, by buying insurance or by a contract like a hold-harmless agreement.",
-          "say": "Transfer shifts the financial consequences to someone else, by buying insurance or by a contract like a hold-harmless agreement.",
-          "show": 2
-        },
-        {
-          "text": "Avoidance skips the activity. Reduction cuts how often losses happen, like driver training, or how bad they are, like sprinklers.",
-          "say": "Avoidance skips the activity. Reduction cuts how often losses happen, like driver training, or how bad they are, like sprinklers.",
-          "show": 3
-        },
-        {
-          "text": "Retention means paying losses yourself, with deductibles or self-insurance. A deductible retains the first part of each loss and transfers the rest.",
-          "say": "Retention means paying losses yourself, with deductibles or self-insurance. A deductible retains the first part of each loss and transfers the rest.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "quiz",
-      "q": "A trucking company keeps its trucks on the road but starts a driver-training program so fewer accidents happen. Which method of handling risk is this?",
-      "choices": [
-        "Avoidance",
-        "Reduction",
-        "Transfer",
-        "Retention"
-      ],
-      "answer": 1,
-      "why": "Driver training lowers how often losses happen. The company still runs trucks, so it has not avoided the risk.",
-      "beats": [
-        {
-          "text": "Quick check. A trucking company keeps driving but starts driver training so fewer accidents happen. Which method is that? Pick an answer.",
-          "say": "Quick check. A trucking company keeps driving but starts driver training so fewer accidents happen. Which method is that? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "Reduction. Training cuts how often losses happen. It isn't avoidance, because the company still does the activity.",
-          "say": "Reduction. Training cuts how often losses happen. It isn't avoidance, because the company still does the activity."
-        }
-      ]
-    },
-    {
-      "type": "hook",
-      "title": "What makes a risk insurable",
-      "src": "Rejda & McNamara, Principles of Risk Management and Insurance (13th ed.); hook mn-mn_core-03",
-      "mn": "mn-mn_core-03",
-      "hook": "An ideally insurable risk is a CLEAN Deal: Calculable, Large numbers, Economically feasible premium, Accidental, Not catastrophic, Determinable.",
-      "items": [
-        "Calculable chance of loss; a Large number of exposure units",
-        "Economically feasible premium; an Accidental, unintentional loss",
-        "Not catastrophic: a large share of units shouldn't be hit at once",
-        "Determinable and measurable loss"
-      ],
-      "beats": [
-        {
-          "text": "The ideal insurable risk is a CLEAN Deal.",
-          "say": "The ideal insurable risk is a CLEAN Deal.",
-          "show": 0
-        },
-        {
-          "text": "Calculable chance of loss. Large number of exposure units. Economically feasible premium. Accidental, unintentional loss.",
-          "say": "Calculable chance of loss. Large number of exposure units. Economically feasible premium. Accidental, unintentional loss.",
-          "show": 2
-        },
-        {
-          "text": "Not catastrophic. Watch out: an EXCEPT question may claim the loss should be catastrophic. It shouldn't.",
-          "say": "Not catastrophic. Watch out: an EXCEPT question may claim the loss should be catastrophic. It shouldn't.",
-          "show": 3
-        },
-        {
-          "text": "Determinable and measurable loss. Textbooks word this list differently, so learn the six ideas.",
-          "say": "Determinable and measurable loss. Textbooks word this list differently, so learn the six ideas.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "compare",
-      "title": "Law of large numbers vs. adverse selection",
-      "src": "IRMI glossary: law of large numbers; adverse selection",
-      "columns": [
-        {
-          "name": "Law of large numbers",
-          "icon": "users",
-          "points": [
-            "More independent exposure units",
-            "Actual losses come closer to expected losses",
-            "A bigger pool makes the data more credible",
-            "It doesn't change any one unit's chance of loss"
-          ]
-        },
-        {
-          "name": "Adverse selection",
-          "icon": "user-x",
-          "points": [
-            "Those who see a high chance of loss buy more often",
-            "Creates an imbalance in the exposure group",
-            "Underwriting exists largely to counter it"
-          ]
-        }
-      ],
-      "tell": "Large numbers is about the size of the pool. Adverse selection is about who chooses to join it.",
-      "beats": [
-        {
-          "text": "The law of large numbers: the more independent exposure units, the more likely actual losses will equal expected losses.",
-          "say": "The law of large numbers: the more independent exposure units, the more likely actual losses will equal expected losses.",
-          "show": 1
-        },
-        {
-          "text": "Adverse selection is the threat: people who see a high chance of loss buy insurance far more often. Underwriting exists largely to counter it.",
-          "say": "Adverse selection is the threat: people who see a high chance of loss buy insurance far more often. Underwriting exists largely to counter it.",
-          "show": 2
-        },
-        {
-          "text": "One is the size of the pool; the other is who joins it.",
-          "say": "One is the size of the pool; the other is who joins it.",
-          "show": 2,
-          "tell": true
-        }
-      ]
-    },
-    {
-      "type": "table",
-      "title": "Reinsurance: insurance for insurers",
-      "src": "IRMI glossary: reinsurance; ceding company; treaty; facultative; quota share; excess of loss; capacity; surplus relief",
-      "columns": [
-        "Type",
-        "How it works"
-      ],
-      "items": [
-        [
-          "Treaty",
-          "Whole classes; must accept all that qualify"
-        ],
-        [
-          "Facultative",
-          "Risk by risk; reinsurer may decline"
-        ],
-        [
-          "Quota share (pro rata)",
-          "Same set % of premium and of losses"
-        ],
-        [
-          "Excess of loss",
-          "Pays above the retention, up to a limit"
-        ]
-      ],
-      "beats": [
-        {
-          "text": "Insurers buy insurance too. A reinsurer, for a premium, covers part or all of the liability of the primary insurer, called the ceding company.",
-          "say": "Insurers buy insurance too. A reinsurer, for a premium, covers part or all of the liability of the primary insurer, called the ceding company.",
-          "show": 0
-        },
-        {
-          "text": "A treaty covers whole classes, and the reinsurer must accept every qualifying risk. Facultative goes risk by risk, and the reinsurer may decline.",
-          "say": "A treaty covers whole classes, and the reinsurer must accept every qualifying risk. Facultative goes risk by risk, and the reinsurer may decline.",
-          "show": 2
-        },
-        {
-          "text": "Quota share, a pro rata form, shares premium and losses at the same percentage. Excess of loss pays only above the ceding company's retention, up to a limit.",
-          "say": "Quota share, a pro rata form, shares premium and losses at the same percentage. Excess of loss pays only above the ceding company's retention, up to a limit.",
-          "show": 4
-        },
-        {
-          "text": "Insurers buy it for capacity, surplus relief, stable results and catastrophe protection.",
-          "say": "Insurers buy it for capacity, surplus relief, stable results and catastrophe protection.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "quiz",
-      "q": "A reinsurer receives an agreed percentage of the premium on every policy in a class and pays that same percentage of every loss. This is:",
-      "choices": [
-        "Facultative reinsurance",
-        "Excess of loss reinsurance",
-        "Quota share reinsurance",
-        "A reciprocal exchange"
-      ],
-      "answer": 2,
-      "why": "Quota share is a pro rata form: premium and losses are shared at the same percentage. Excess of loss pays only above a retention; facultative goes risk by risk.",
-      "beats": [
-        {
-          "text": "Try this. A reinsurer takes an agreed percentage of the premium on every policy in a class and pays that percentage of every loss. Which type is it? Pick an answer.",
-          "say": "Try this. A reinsurer takes an agreed percentage of the premium on every policy in a class and pays that percentage of every loss. Which type is it? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "Quota share, a pro rata form. Excess of loss would pay only above the retention.",
-          "say": "Quota share, a pro rata form. Excess of loss would pay only above the retention."
-        }
-      ]
-    },
-    {
-      "type": "compare",
-      "title": "Who owns the insurer?",
-      "src": "IRMI glossary: stock company; mutual company; reciprocal; Lloyd's of London",
-      "columns": [
-        {
-          "name": "Stock company",
-          "icon": "landmark",
-          "points": [
-            "Owned by stockholders",
-            "Stockholders need not be insureds",
-            "Capital fund paid in by stockholders"
-          ]
-        },
-        {
-          "name": "Mutual company",
-          "icon": "users",
-          "points": [
-            "Owned by its policyholders",
-            "Every owner is an insured, every insured an owner"
-          ]
-        },
-        {
-          "name": "Reciprocal",
-          "icon": "handshake",
-          "points": [
-            "Unincorporated group of subscribers",
-            "Subscribers pool their risks",
-            "Managed by an attorney-in-fact"
-          ]
-        }
-      ],
-      "tell": "Follow the owner. And Lloyd's is a marketplace of underwriters, not an insurer.",
-      "beats": [
-        {
-          "text": "Who owns the insurer? A stock company is owned by stockholders, who need not be insureds. They pay in a capital fund.",
-          "say": "Who owns the insurer? A stock company is owned by stockholders, who need not be insureds. They pay in a capital fund.",
-          "show": 1
-        },
-        {
-          "text": "A mutual is owned by its policyholders. Every owner is an insured, and every insured is an owner.",
-          "say": "A mutual is owned by its policyholders. Every owner is an insured, and every insured is an owner.",
-          "show": 2
-        },
-        {
-          "text": "A reciprocal is an unincorporated group of subscribers who pool risks, managed by an attorney-in-fact.",
-          "say": "A reciprocal is an unincorporated group of subscribers who pool risks, managed by an attorney-in-fact.",
-          "show": 3
-        },
-        {
-          "text": "And Lloyd's isn't an insurance company. It's a marketplace of independent underwriters.",
-          "say": "And Lloyd's isn't an insurance company. It's a marketplace of independent underwriters.",
-          "show": 3,
-          "tell": true
-        }
-      ]
-    },
-    {
-      "type": "bullets",
-      "title": "Ratings and distribution systems",
-      "src": "A.M. Best, Guide to Best's Financial Strength Ratings (Version 121719); IRMI: independent agency; exclusive agency; direct writer",
-      "items": [
-        {
-          "label": "A.M. Best: A++ and A+ Superior",
-          "detail": "A and A- Excellent. A rating is not a recommendation to buy",
-          "icon": "badge-check"
-        },
-        {
-          "label": "Independent agency system",
-          "detail": "Sells for one or more insurers; the agent owns the expirations",
-          "icon": "briefcase"
-        },
-        {
-          "label": "Exclusive (captive) agency",
-          "detail": "Represents only one company or group",
-          "icon": "building-2"
-        },
-        {
-          "label": "Direct writer",
-          "detail": "The insurer's own employed sales force",
-          "icon": "users"
-        }
-      ],
-      "beats": [
-        {
-          "text": "An A.M. Best financial strength rating is an independent opinion of an insurer's ability to meet its obligations. A plus plus and A plus are Superior; A and A minus are Excellent.",
-          "say": "An A M Best financial strength rating is an independent opinion of an insurer's ability to meet its obligations. A plus plus and A plus are Superior; A and A minus are Excellent.",
-          "show": 1
-        },
-        {
-          "text": "Independent agents sell for one or more insurers and own the expirations.",
-          "say": "Independent agents sell for one or more insurers and own the expirations.",
-          "show": 2
-        },
-        {
-          "text": "A captive agent represents one company or group. A direct writer uses its own employees.",
-          "say": "A captive agent represents one company or group. A direct writer uses its own employees.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "recap",
-      "items": [
-        "A hazard is the condition; a peril is the cause of loss",
-        "Pure risk is generally insurable; speculative can bring a gain",
-        "STARR: Share, Transfer, Avoid, Reduce, Retain",
-        "An ideally insurable risk is a CLEAN Deal: not catastrophic",
-        "Stockholders own a stock company; policyholders own a mutual"
-      ],
-      "beats": [
-        {
-          "text": "To recap: a hazard is the condition, a peril the cause. Pure risk is generally insurable; speculative can bring a gain.",
-          "say": "To recap: a hazard is the condition, a peril the cause. Pure risk is generally insurable; speculative can bring a gain.",
-          "show": 2
-        },
-        {
-          "text": "Handle risk like a STARR. Ideally insurable risks are a CLEAN Deal. Stockholders own a stock company; policyholders own a mutual.",
-          "say": "Handle risk like a STARR. Ideally insurable risks are a CLEAN Deal. Stockholders own a stock company; policyholders own a mutual.",
-          "show": 5
-        }
-      ]
+     "p": "sparkle",
+     "x": 50,
+     "y": 8,
+     "h": 9,
+     "loop": "pulse",
+     "cue": "full"
     }
-  ],
-  "check": [
-    "core-001",
-    "core-gen-07",
-    "core-004",
-    "core-007",
-    "core-gen-13"
-  ],
-  "hooks": [
-    "mn-mn_core-02",
-    "mn-mn_core-03"
-  ],
-  "sources": [
-    "IRMI glossary",
-    "National Alliance Research Academy insurance glossary",
-    "Rejda & McNamara, Principles of Risk Management and Insurance (13th ed.)",
-    "A.M. Best, Guide to Best's Financial Strength Ratings (Version 121719)",
-    "PSI Michigan P&C content outline (Series 16-81)"
-  ]
+   ],
+   "beats": [
+    {
+     "text": "Opening night at Tony's Pizza in Detroit! A new brick oven, a full house, and more risk than Tony knows.",
+     "say": "Opening night at Tony's Pizza in Detroit! A new brick oven, a full house, and more risk than Tony knows."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Opening night: five words of risk",
+   "src": "IRMI glossary: exposure, risk, hazard, peril; National Alliance glossary: loss; adapted from memory hook mn_core-01",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 24,
+     "y": 32,
+     "h": 32,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Exposure",
+     "x": 24,
+     "y": 7,
+     "size": 5,
+     "bold": true,
+     "color": "blue",
+     "bg": "yellow",
+     "cue": "exposure"
+    },
+    {
+     "p": "label",
+     "text": "also a premium base, like payroll per $100",
+     "x": 24,
+     "y": 55,
+     "size": 3.6,
+     "w": 44,
+     "color": "gray",
+     "cue": "payroll"
+    },
+    {
+     "p": "person",
+     "x": 58,
+     "y": 42,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "stand",
+      "mood": "happy"
+     },
+     "id": "tony",
+     "out": 4
+    },
+    {
+     "p": "person",
+     "x": 58,
+     "y": 42,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "shocked"
+     },
+     "id": "tony2",
+     "at": 4,
+     "anim": "fade"
+    },
+    {
+     "id": "oven",
+     "p": "oven",
+     "x": 93,
+     "y": 40,
+     "h": 24,
+     "at": 1,
+     "cue": "oven"
+    },
+    {
+     "id": "think",
+     "p": "bubble",
+     "text": "Will it ever burn?",
+     "x": 60,
+     "y": 15,
+     "w": 26,
+     "to": "tony",
+     "think": true,
+     "at": 2,
+     "cue": "Nobody"
+    },
+    {
+     "p": "label",
+     "text": "Risk",
+     "x": 60,
+     "y": 7,
+     "size": 5,
+     "bold": true,
+     "color": "blue",
+     "bg": "yellow",
+     "at": 2,
+     "cue": "uncertainty"
+    },
+    {
+     "id": "box1",
+     "p": "parcel",
+     "x": 119,
+     "y": 47,
+     "h": 10,
+     "at": 3,
+     "cue": "boxes"
+    },
+    {
+     "id": "box2",
+     "p": "parcel",
+     "x": 119,
+     "y": 38,
+     "h": 9,
+     "at": 3,
+     "cue": "boxes",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Hazard",
+     "x": 119,
+     "y": 57,
+     "size": 5,
+     "bold": true,
+     "color": "orange",
+     "bg": "yellow",
+     "at": 3,
+     "cue": "hazard"
+    },
+    {
+     "p": "label",
+     "text": "greasy boxes by the oven",
+     "x": 119,
+     "y": 62,
+     "size": 3.6,
+     "w": 36,
+     "color": "orange",
+     "at": 3,
+     "cue": "hazard"
+    },
+    {
+     "id": "fire",
+     "p": "fire",
+     "x": 119,
+     "y": 27,
+     "h": 16,
+     "at": 4,
+     "cue": "whoosh",
+     "loop": "flicker",
+     "over": true,
+     "sfx": "whoosh"
+    },
+    {
+     "p": "label",
+     "text": "Peril",
+     "x": 119,
+     "y": 7,
+     "size": 5,
+     "bold": true,
+     "color": "red",
+     "bg": "yellow",
+     "at": 4,
+     "cue": "peril"
+    },
+    {
+     "id": "claim",
+     "p": "policy",
+     "x": 147,
+     "y": 33,
+     "h": 20,
+     "opt": {
+      "title": "CLAIM",
+      "tcolor": "red"
+     },
+     "at": 5,
+     "cue": "claims"
+    },
+    {
+     "p": "label",
+     "text": "the burned value",
+     "x": 147,
+     "y": 50,
+     "size": 3.6,
+     "color": "purple",
+     "at": 5,
+     "cue": "reduction"
+    },
+    {
+     "p": "label",
+     "text": "Loss",
+     "x": 147,
+     "y": 7,
+     "size": 5,
+     "bold": true,
+     "color": "purple",
+     "bg": "yellow",
+     "at": 5,
+     "cue": "loss"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony owns the shop, so he's subject to loss: his exposure. Exposure is also a premium base, like payroll per $100.",
+     "say": "Tony owns the shop, so he's subject to loss: his exposure. Exposure is also a premium base, like payroll per one hundred dollars.",
+     "hl": "shop"
+    },
+    {
+     "text": "Will this oven ever start a fire?",
+     "say": "Will this oven ever start a fire?",
+     "voice": "tony",
+     "hl": "tony"
+    },
+    {
+     "text": "Nobody knows. That uncertainty is risk.",
+     "say": "Nobody knows. That uncertainty is risk.",
+     "hl": "think"
+    },
+    {
+     "text": "Greasy boxes pile up by the oven: a hazard, a condition that makes loss more likely.",
+     "say": "Greasy boxes pile up by the oven: a hazard, a condition that makes loss more likely.",
+     "hl": [
+      "box1",
+      "box2"
+     ]
+    },
+    {
+     "text": "Friday, whoosh! The boxes catch fire. Fire, the cause of loss, is the peril.",
+     "say": "Friday, whoosh! The boxes catch fire. Fire, the cause of loss, is the peril.",
+     "hl": "fire"
+    },
+    {
+     "text": "The burned value he claims is the loss: a reduction in value, the basis of a claim.",
+     "say": "The burned value he claims is the loss: a reduction in value, the basis of a claim.",
+     "hl": "claim"
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Hazard, peril or loss?",
+   "src": "IRMI glossary: hazard, peril; National Alliance glossary: loss; questions core-001, core-gen-05, core-gen-06; cp_personal-01 drill",
+   "bins": [
+    {
+     "name": "Hazard"
+    },
+    {
+     "name": "Peril"
+    },
+    {
+     "name": "Loss"
+    }
+   ],
+   "items": [
+    {
+     "text": "Frayed, outdated wiring behind the oven",
+     "bin": 0,
+     "why": "A condition that makes a fire more likely: a hazard."
+    },
+    {
+     "text": "The windstorm that tears off the roof",
+     "bin": 1,
+     "why": "The windstorm causes the loss, so it is the peril."
+    },
+    {
+     "text": "The drop in value of fire-damaged flour",
+     "bin": 2,
+     "why": "A reduction in value is the loss, the basis of a claim."
+    },
+    {
+     "text": "Poor housekeeping: trash piled in the kitchen",
+     "bin": 0,
+     "why": "A condition that raises the chance of loss: the classic hazard."
+    },
+    {
+     "text": "The collision when a delivery van hits a parked car",
+     "bin": 1,
+     "why": "Collision is a cause of loss: a peril."
+    },
+    {
+     "text": "The scorched kitchen's lost value",
+     "bin": 2,
+     "why": "The reduction in value is the loss."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: hazard, peril or loss? The exam loves to swap hazard and peril.",
+     "say": "Your turn: hazard, peril or loss? The exam loves to swap hazard and peril."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The condition is the hazard. The cause is the peril. The drop in value is the loss.",
+     "say": "The condition is the hazard. The cause is the peril. The drop in value is the loss."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Pure or speculative?",
+   "src": "IRMI glossary: pure risk, speculative risk; National Alliance glossary: pure risk, speculative risk; question core-gen-03; hook mn_core-01",
+   "kind": "Term",
+   "term": "Pure vs. speculative risk",
+   "plain": "Pure risk: loss or no loss, never a gain; generally insurable. Speculative risk can end in a gain or a loss.",
+   "example": "A kitchen fire can only cost Tony. Opening the shop could make him money or lose it: that's speculative.",
+   "exam": "Trap: a new business is speculative even though it could lose money, because a gain is possible. Speculative risk is generally not insurable.",
+   "draw": [
+    {
+     "id": "oven",
+     "p": "oven",
+     "x": 18,
+     "y": 22,
+     "h": 20
+    },
+    {
+     "p": "fire",
+     "x": 24,
+     "y": 10,
+     "h": 13,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "PURE",
+     "x": 54,
+     "y": 13,
+     "size": 5.4,
+     "bold": true,
+     "color": "red"
+    },
+    {
+     "p": "label",
+     "text": "loss or no loss",
+     "x": 54,
+     "y": 21,
+     "size": 4
+    },
+    {
+     "p": "line",
+     "from": [
+      6,
+      36
+     ],
+     "to": [
+      74,
+      36
+     ],
+     "dash": true,
+     "color": "gray",
+     "at": 1
+    },
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 18,
+     "y": 52,
+     "h": 19,
+     "opt": {
+      "name": "TONY'S"
+     },
+     "at": 1,
+     "cue": "opening"
+    },
+    {
+     "p": "label",
+     "text": "SPECULATIVE",
+     "x": 54,
+     "y": 46,
+     "size": 4.8,
+     "bold": true,
+     "color": "purple",
+     "at": 1,
+     "cue": "make"
+    },
+    {
+     "p": "label",
+     "text": "gain or loss",
+     "x": 54,
+     "y": 54,
+     "size": 4,
+     "at": 1,
+     "cue": "make"
+    },
+    {
+     "id": "dice",
+     "p": "dice",
+     "x": 38,
+     "y": 60,
+     "h": 9,
+     "at": 2,
+     "cue": "gambling"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Pure risk: a chance of loss or no loss, with no chance of gain. It's generally insurable.",
+     "say": "Pure risk: a chance of loss or no loss, with no chance of gain. It's generally insurable.",
+     "show": 2,
+     "hl": "oven"
+    },
+    {
+     "text": "A kitchen fire can only cost Tony. Opening the shop could lose money, or make a lot.",
+     "say": "A kitchen fire can only cost Tony. Opening the shop could lose money, or make a lot.",
+     "show": 3,
+     "hl": "shop"
+    },
+    {
+     "text": "That's speculative risk, often called a business risk, and generally not insurable. Gambling is speculative too. Ask: could it end in a gain?",
+     "say": "That's speculative risk, often called a business risk, and generally not insurable. Gambling is speculative too. Ask: could it end in a gain?",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Handle risk like a STARR",
+   "src": "IRMI glossary: risk sharing, hold harmless agreement, avoidance, loss control, risk retention, self-insurance; hook mn_core-02",
+   "draw": [
+    {
+     "p": "label",
+     "text": "S",
+     "x": 16,
+     "y": 9,
+     "size": 9,
+     "bold": true,
+     "color": "teal",
+     "cue": "Share"
+    },
+    {
+     "p": "label",
+     "text": "T",
+     "x": 48,
+     "y": 9,
+     "size": 9,
+     "bold": true,
+     "color": "blue",
+     "cue": "Transfer"
+    },
+    {
+     "p": "label",
+     "text": "A",
+     "x": 80,
+     "y": 9,
+     "size": 9,
+     "bold": true,
+     "color": "red",
+     "cue": "Avoid"
+    },
+    {
+     "p": "label",
+     "text": "R",
+     "x": 112,
+     "y": 9,
+     "size": 9,
+     "bold": true,
+     "color": "green",
+     "cue": "Reduce"
+    },
+    {
+     "p": "label",
+     "text": "R",
+     "x": 144,
+     "y": 9,
+     "size": 9,
+     "bold": true,
+     "color": "purple",
+     "cue": "Retain"
+    },
+    {
+     "p": "label",
+     "text": "Share",
+     "x": 16,
+     "y": 19,
+     "size": 4.6,
+     "bold": true,
+     "color": "teal",
+     "bg": "yellow",
+     "at": 1
+    },
+    {
+     "id": "share",
+     "p": "icon",
+     "name": "users",
+     "x": 16,
+     "y": 34,
+     "h": 16,
+     "color": "teal",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "A group splits losses",
+     "x": 16,
+     "y": 55,
+     "size": 4.2,
+     "w": 30,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Transfer",
+     "x": 48,
+     "y": 19,
+     "size": 4.6,
+     "bold": true,
+     "color": "blue",
+     "bg": "yellow",
+     "at": 2
+    },
+    {
+     "id": "pol",
+     "p": "policy",
+     "x": 39,
+     "y": 34,
+     "h": 15,
+     "at": 2
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 57,
+     "y": 34,
+     "h": 14,
+     "at": 2
+    },
+    {
+     "p": "arrow",
+     "from": "pol",
+     "to": "ins",
+     "at": 2,
+     "cue": "shift",
+     "color": "blue"
+    },
+    {
+     "p": "label",
+     "text": "Insurance or hold-harmless",
+     "x": 48,
+     "y": 55,
+     "size": 4.2,
+     "w": 30,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Avoid",
+     "x": 80,
+     "y": 19,
+     "size": 4.6,
+     "bold": true,
+     "color": "red",
+     "bg": "yellow",
+     "at": 3
+    },
+    {
+     "id": "fryer",
+     "p": "icon",
+     "name": "cooking-pot",
+     "x": 80,
+     "y": 34,
+     "h": 14,
+     "color": "ink",
+     "at": 3,
+     "cue": "fryer"
+    },
+    {
+     "p": "xout",
+     "on": "fryer",
+     "at": 3,
+     "cue": "No"
+    },
+    {
+     "p": "label",
+     "text": "No fryer, no fryer fires",
+     "x": 80,
+     "y": 55,
+     "size": 4.2,
+     "w": 30,
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "Reduce",
+     "x": 112,
+     "y": 19,
+     "size": 4.6,
+     "bold": true,
+     "color": "green",
+     "bg": "yellow",
+     "at": 4
+    },
+    {
+     "id": "cap",
+     "p": "icon",
+     "name": "graduation-cap",
+     "x": 103,
+     "y": 35,
+     "h": 10,
+     "color": "ink",
+     "at": 4,
+     "cue": "training"
+    },
+    {
+     "id": "oven",
+     "p": "oven",
+     "x": 121,
+     "y": 38,
+     "h": 12,
+     "at": 4,
+     "cue": "sprinklers"
+    },
+    {
+     "id": "sprink",
+     "p": "icon",
+     "name": "shower-head",
+     "x": 121,
+     "y": 26,
+     "h": 8,
+     "color": "blue",
+     "at": 4,
+     "cue": "sprinklers"
+    },
+    {
+     "p": "label",
+     "text": "Training and sprinklers",
+     "x": 112,
+     "y": 55,
+     "size": 4.2,
+     "w": 30,
+     "at": 4
+    },
+    {
+     "p": "label",
+     "text": "Retain",
+     "x": 144,
+     "y": 19,
+     "size": 4.6,
+     "bold": true,
+     "color": "purple",
+     "bg": "yellow",
+     "at": 5
+    },
+    {
+     "id": "coins",
+     "p": "coins",
+     "x": 144,
+     "y": 34,
+     "h": 13,
+     "at": 5
+    },
+    {
+     "p": "label",
+     "text": "Deductible or self-insurance",
+     "x": 144,
+     "y": 55,
+     "size": 4.2,
+     "w": 30,
+     "at": 5
+    }
+   ],
+   "beats": [
+    {
+     "text": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
+     "say": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it."
+    },
+    {
+     "text": "Share: a group of pizzerias splits premiums and losses by a set formula, as reciprocals do.",
+     "say": "Share: a group of pizzerias splits premiums and losses by a set formula, as reciprocals do.",
+     "hl": "share"
+    },
+    {
+     "text": "Transfer: shift the financial hit. Buy insurance, or use a hold-harmless agreement: the other side takes on certain liabilities of yours.",
+     "say": "Transfer: shift the financial hit. Buy insurance, or use a hold-harmless agreement: the other side takes on certain liabilities of yours.",
+     "hl": "ins"
+    },
+    {
+     "text": "Avoid: skip the activity. No deep fryer, no fryer fires.",
+     "say": "Avoid: skip the activity. No deep fryer, no fryer fires.",
+     "hl": "fryer"
+    },
+    {
+     "text": "Reduce: fewer losses, with driver training, or smaller ones, with sprinklers.",
+     "say": "Reduce: fewer losses, with driver training, or smaller ones, with sprinklers.",
+     "hl": [
+      "cap",
+      "sprink"
+     ]
+    },
+    {
+     "text": "Retain: pay losses yourself, through a deductible or self-insurance. A deductible retains the first part of each loss and transfers the rest.",
+     "say": "Retain: pay losses yourself, through a deductible or self-insurance. A deductible retains the first part of each loss and transfers the rest.",
+     "hl": "coins"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: fewer delivery crashes",
+   "src": "IRMI glossary: avoidance, loss control, risk retention; National Alliance glossary: transfer; questions core-002, core-gen-10",
+   "ask": "What should Tony do?",
+   "draw": [
+    {
+     "id": "van",
+     "p": "van",
+     "x": 36,
+     "y": 35,
+     "h": 22,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "dent": true
+     }
+    },
+    {
+     "id": "tree",
+     "p": "tree",
+     "x": 70,
+     "y": 30,
+     "h": 30
+    },
+    {
+     "p": "crash",
+     "x": 58,
+     "y": 30,
+     "h": 14,
+     "opt": {
+      "text": "BUMP!"
+     },
+     "over": true
+    },
+    {
+     "p": "person",
+     "x": 108,
+     "y": 30,
+     "h": 36,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "worried"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "bubble",
+     "text": "Three fender benders this winter!",
+     "x": 140,
+     "y": 12,
+     "w": 32,
+     "to": "tony"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Three fender benders this winter! How do I get fewer crashes and keep delivering?",
+     "say": "Three fender benders this winter! How do I get fewer crashes and keep delivering?",
+     "voice": "tony",
+     "hl": "tony"
+    }
+   ],
+   "options": [
+    {
+     "label": "Stop delivering. No pizza runs, no crashes!",
+     "ok": false,
+     "fail": "That's avoidance: not doing the activity at all. It ends the delivery risk, but Tony wanted to keep delivering.",
+     "beats": [
+      {
+       "text": "The van sits parked while the phone rings and rings. Avoidance: no crashes, but no deliveries.",
+       "say": "The van sits parked while the phone rings and rings. Avoidance: no crashes, but no deliveries."
+      }
+     ],
+     "draw": [
+      {
+       "id": "van",
+       "p": "van",
+       "x": 34,
+       "y": 37,
+       "h": 16,
+       "opt": {
+        "name": "TONY'S PIZZA"
+       }
+      },
+      {
+       "p": "xout",
+       "on": "van",
+       "cue": "avoidance"
+      },
+      {
+       "id": "phone",
+       "p": "phone",
+       "x": 80,
+       "y": 30,
+       "h": 16,
+       "loop": "shake",
+       "cue": "rings",
+       "sfx": "ding"
+      },
+      {
+       "p": "label",
+       "text": "RING! RING!",
+       "x": 80,
+       "y": 13,
+       "size": 5,
+       "bold": true,
+       "color": "red",
+       "cue": "rings"
+      },
+      {
+       "p": "person",
+       "x": 120,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "sad",
+        "mood": "sad"
+       },
+       "id": "tony"
+      }
+     ]
+    },
+    {
+     "label": "Send every driver to driver training",
+     "ok": true,
+     "win": "Driver training is reduction: it lowers how often losses happen, while Tony keeps delivering.",
+     "beats": [
+      {
+       "text": "Smart. Training cuts how often crashes happen, and the pizzas keep rolling. That's reduction.",
+       "say": "Smart. Training cuts how often crashes happen, and the pizzas keep rolling. That's reduction."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 22,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "hold",
+        "mood": "happy",
+        "hold": "certificate",
+        "hat": "none"
+       },
+       "id": "driver"
+      },
+      {
+       "p": "icon",
+       "name": "graduation-cap",
+       "x": 22,
+       "y": 13,
+       "h": 8,
+       "color": "ink",
+       "cue": "Training",
+       "over": true
+      },
+      {
+       "id": "van",
+       "p": "van",
+       "x": 66,
+       "y": 36,
+       "h": 18,
+       "opt": {
+        "name": "TONY'S PIZZA"
+       },
+       "move": {
+        "to": [
+         96,
+         36
+        ],
+        "cue": "rolling",
+        "dur": 1.6,
+        "sfx": "whoosh"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Fewer crashes, still delivering",
+       "x": 96,
+       "y": 54,
+       "size": 4.6,
+       "color": "green",
+       "bold": true,
+       "cue": "reduction"
+      },
+      {
+       "p": "person",
+       "x": 142,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       },
+       "id": "tony"
+      }
+     ]
+    },
+    {
+     "label": "Pay for every crash himself",
+     "ok": false,
+     "fail": "That's retention: Tony keeps the losses and pays them himself. He wanted fewer crashes, and that takes reduction.",
+     "beats": [
+      {
+       "text": "Crunch! Tony pays each fender bender from the register. Retention: paying losses, not making them rarer.",
+       "say": "Crunch! Tony pays each fender bender from the register. Retention: paying losses, not making them rarer."
+      }
+     ],
+     "draw": [
+      {
+       "id": "reg",
+       "p": "cashregister",
+       "x": 28,
+       "y": 33,
+       "h": 26,
+       "opt": {
+        "open": true,
+        "amount": "PAID"
+       }
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 46,
+       "y": 20,
+       "h": 10,
+       "move": {
+        "to": [
+         70,
+         16
+        ],
+        "cue": "pays",
+        "sfx": "cash"
+       },
+       "over": true
+      },
+      {
+       "id": "van",
+       "p": "van",
+       "x": 80,
+       "y": 40,
+       "h": 14,
+       "opt": {
+        "name": "TONY'S",
+        "dent": true
+       }
+      },
+      {
+       "p": "crash",
+       "x": 92,
+       "y": 30,
+       "h": 16,
+       "opt": {
+        "text": "CRUNCH!"
+       },
+       "cue": "Crunch",
+       "sfx": "crash",
+       "over": true
+      },
+      {
+       "p": "person",
+       "x": 120,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       },
+       "id": "tony"
+      }
+     ]
+    },
+    {
+     "label": "Buy insurance to pay for the crashes",
+     "ok": false,
+     "fail": "That's transfer: insurance shifts the financial hit to the insurer. It doesn't make crashes rarer, and Tony wanted fewer crashes.",
+     "beats": [
+      {
+       "text": "The insurer pays for covered dents, but the vans keep crunching. Transfer shifts the cost, not the crashes.",
+       "say": "The insurer pays for covered dents, but the vans keep crunching. Transfer shifts the cost, not the crashes."
+      }
+     ],
+     "draw": [
+      {
+       "id": "van",
+       "p": "van",
+       "x": 30,
+       "y": 38,
+       "h": 17,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "dent": true
+       }
+      },
+      {
+       "p": "crash",
+       "x": 47,
+       "y": 33,
+       "h": 13,
+       "opt": {
+        "text": "CRUNCH!"
+       },
+       "over": true,
+       "cue": "crunching",
+       "sfx": "crash"
+      },
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 84,
+       "y": 26,
+       "h": 26
+      },
+      {
+       "p": "arrow",
+       "from": "ins",
+       "to": "van",
+       "label": "pays",
+       "bend": -0.2,
+       "color": "green",
+       "cue": "pays"
+      },
+      {
+       "p": "person",
+       "x": 114,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "worried"
+       },
+       "id": "tony"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Reduction makes losses rarer or smaller while you keep the activity. Avoidance drops it.",
+     "say": "Reduction makes losses rarer or smaller while you keep the activity. Avoidance drops it."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "What makes a risk insurable",
+   "src": "Rejda & McNamara, Principles of Risk Management and Insurance (13th ed.); hook mn_core-03",
+   "mn": "mn-mn_core-03",
+   "hook": "An ideally insurable risk is a CLEAN Deal: Calculable, Large numbers, Economically feasible premium, Accidental, Not catastrophic, Determinable.",
+   "items": [
+    "Calculable chance of loss; a Large number of exposure units",
+    "Economically feasible premium; an Accidental, unintentional loss",
+    "Not catastrophic: a large share of units shouldn't be hit at once",
+    "Determinable and measurable loss"
+   ],
+   "draw": [
+    {
+     "p": "person",
+     "x": 13,
+     "y": 44,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "id": "tony"
+    },
+    {
+     "id": "deal",
+     "p": "handshake",
+     "x": 37,
+     "y": 38,
+     "h": 11
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 63,
+     "y": 42,
+     "h": 24
+    },
+    {
+     "p": "sparkle",
+     "x": 37,
+     "y": 20,
+     "h": 12,
+     "loop": "pulse"
+    },
+    {
+     "p": "label",
+     "text": "CLEAN Deal",
+     "x": 40,
+     "y": 64,
+     "size": 5,
+     "bold": true,
+     "color": "blue"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony's fire risk is a CLEAN Deal. Calculable: the insurer can estimate how often and how badly shops burn. Large numbers: thousands of pizzerias. Economically feasible: an affordable premium. Accidental: nobody plans it.",
+     "say": "Tony's fire risk is a CLEAN Deal. Calculable: the insurer can estimate how often and how badly shops burn. Large numbers: thousands of pizzerias. Economically feasible: an affordable premium. Accidental: nobody plans it.",
+     "show": 2
+    },
+    {
+     "text": "Not catastrophic: a large share of units shouldn't be hit at once. Watch out: EXCEPT questions may say the loss should be catastrophic. It shouldn't.",
+     "say": "Not catastrophic: a large share of units shouldn't be hit at once. Watch out: except questions may say the loss should be catastrophic. It shouldn't.",
+     "show": 3
+    },
+    {
+     "text": "Determinable: it's clear what caused the loss, when, where and how much. Textbooks word this list differently, so learn the six ideas.",
+     "say": "Determinable: it's clear what caused the loss, when, where and how much. Textbooks word this list differently, so learn the six ideas.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Ideally insurable, or not?",
+   "src": "Rejda & McNamara (13th ed.); hook mn_core-03; IRMI glossary: pure risk, speculative risk; question core-gen-03",
+   "options": [
+    "Ideally insurable",
+    "Not ideal"
+   ],
+   "cards": [
+    {
+     "text": "An accidental fire at one of thousands of insured shops",
+     "answer": 0,
+     "why": "Only a loss is possible, it's accidental and measurable, and thousands of similar shops make losses more predictable: a CLEAN Deal.",
+     "draw": [
+      {
+       "p": "oven",
+       "x": 46,
+       "y": 34,
+       "h": 26
+      },
+      {
+       "p": "fire",
+       "x": 54,
+       "y": 16,
+       "h": 18,
+       "loop": "flicker",
+       "over": true
+      }
+     ]
+    },
+    {
+     "text": "Tony's second shop might boom, or it might flop",
+     "answer": 1,
+     "why": "It could end in a gain, so it's speculative risk, which generally isn't insurable.",
+     "draw": [
+      {
+       "p": "store",
+       "x": 40,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "name": "TONY'S 2"
+       }
+      },
+      {
+       "p": "question",
+       "x": 74,
+       "y": 26,
+       "h": 20,
+       "color": "purple"
+      }
+     ]
+    },
+    {
+     "text": "Tony's cousin plans to burn down his own failing shop",
+     "answer": 1,
+     "why": "The loss must be accidental and unintentional. A planned fire isn't.",
+     "draw": [
+      {
+       "id": "shop",
+       "p": "store",
+       "x": 28,
+       "y": 34,
+       "h": 26,
+       "opt": {
+        "name": "CLOSING"
+       }
+      },
+      {
+       "id": "cousin",
+       "p": "person",
+       "x": 70,
+       "y": 34,
+       "h": 34,
+       "opt": {
+        "who": "person",
+        "pose": "think",
+        "mood": "smirk",
+        "mustache": true
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Torch it for the payout?",
+       "x": 56,
+       "y": 8,
+       "w": 34,
+       "to": "cousin",
+       "think": true
+      }
+     ]
+    },
+    {
+     "text": "A delivery van is stolen, one of many insured vans",
+     "answer": 0,
+     "why": "Only a loss is possible, Tony didn't plan it, it's measurable, and it's one of many similar vans: a CLEAN Deal.",
+     "draw": [
+      {
+       "p": "van",
+       "x": 40,
+       "y": 32,
+       "h": 22,
+       "opt": {
+        "name": "TONY'S"
+       }
+      },
+      {
+       "p": "person",
+       "x": 78,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "thief",
+        "pose": "run",
+        "mood": "smirk"
+       }
+      }
+     ]
+    },
+    {
+     "text": "One storm hits a large share of insured shops at once",
+     "answer": 1,
+     "why": "Still a pure risk, but catastrophic: a large share of the exposure units shouldn't suffer losses at the same time.",
+     "draw": [
+      {
+       "p": "tornado",
+       "x": 22,
+       "y": 28,
+       "h": 40
+      },
+      {
+       "p": "store",
+       "x": 52,
+       "y": 40,
+       "h": 13
+      },
+      {
+       "p": "store",
+       "x": 70,
+       "y": 40,
+       "h": 13
+      },
+      {
+       "p": "store",
+       "x": 88,
+       "y": 40,
+       "h": 13
+      }
+     ]
+    },
+    {
+     "text": "A loss no one can pin down: when, where, how much?",
+     "answer": 1,
+     "why": "The loss must be determinable and measurable: definite as to cause, time, place and amount.",
+     "draw": [
+      {
+       "p": "calendar",
+       "x": 24,
+       "y": 28,
+       "h": 24,
+       "opt": {
+        "n": "?"
+       }
+      },
+      {
+       "p": "question",
+       "x": 52,
+       "y": 28,
+       "h": 28,
+       "color": "blue"
+      },
+      {
+       "p": "money",
+       "x": 78,
+       "y": 30,
+       "h": 14
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Swipe time: ideally insurable, or not?",
+     "say": "Swipe time: ideally insurable, or not?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A chance of gain, a planned loss, a catastrophe or an unmeasurable loss breaks the deal. Pure risk alone isn't enough.",
+     "say": "A chance of gain, a planned loss, a catastrophe or an unmeasurable loss breaks the deal. Pure risk alone isn't enough."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "The pool: how big, and who joins",
+   "src": "IRMI glossary: law of large numbers; adverse selection; underwriting; questions core-005, core-bas-02",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Law of large numbers",
+     "x": 40,
+     "y": 7,
+     "size": 4.8,
+     "bold": true,
+     "color": "blue",
+     "bg": "yellow"
+    },
+    {
+     "p": "divider",
+     "x": 80,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 2
+    },
+    {
+     "id": "pool",
+     "p": "insurer",
+     "x": 40,
+     "y": 34,
+     "h": 26,
+     "out": 1,
+     "cue": "law"
+    },
+    {
+     "p": "label",
+     "text": "More units: actual losses more likely to match expected",
+     "x": 40,
+     "y": 56,
+     "size": 4,
+     "w": 76,
+     "color": "blue",
+     "out": 1,
+     "cue": "units"
+    },
+    {
+     "p": "num",
+     "text": "10",
+     "x": 14,
+     "y": 24,
+     "size": 9,
+     "at": 1,
+     "cue": "Ten"
+    },
+    {
+     "p": "label",
+     "text": "shops",
+     "x": 14,
+     "y": 33,
+     "size": 3.6,
+     "at": 1,
+     "cue": "Ten"
+    },
+    {
+     "id": "t1",
+     "p": "target",
+     "x": 40,
+     "y": 23,
+     "h": 13,
+     "opt": {
+      "miss": true
+     },
+     "at": 1,
+     "cue": "forecast"
+    },
+    {
+     "p": "label",
+     "text": "One fire can throw off the forecast",
+     "x": 64,
+     "y": 23,
+     "size": 3.6,
+     "w": 24,
+     "at": 1,
+     "cue": "forecast"
+    },
+    {
+     "p": "num",
+     "text": "10,000",
+     "x": 16,
+     "y": 49,
+     "size": 7.5,
+     "at": 1,
+     "cue": "thousand"
+    },
+    {
+     "p": "label",
+     "text": "shops",
+     "x": 16,
+     "y": 57,
+     "size": 3.6,
+     "at": 1,
+     "cue": "thousand"
+    },
+    {
+     "id": "t2",
+     "p": "target",
+     "x": 40,
+     "y": 49,
+     "h": 13,
+     "at": 1,
+     "cue": "expected"
+    },
+    {
+     "p": "label",
+     "text": "Losses likely land close to expected",
+     "x": 64,
+     "y": 49,
+     "size": 3.6,
+     "w": 24,
+     "color": "green",
+     "at": 1,
+     "cue": "expected"
+    },
+    {
+     "p": "label",
+     "text": "A bigger pool makes the data more credible",
+     "x": 40,
+     "y": 63,
+     "size": 3.6,
+     "w": 74,
+     "color": "blue",
+     "at": 1,
+     "cue": "expected"
+    },
+    {
+     "p": "label",
+     "text": "Adverse selection",
+     "x": 120,
+     "y": 7,
+     "size": 4.8,
+     "bold": true,
+     "color": "orange",
+     "bg": "yellow",
+     "at": 2
+    },
+    {
+     "p": "person",
+     "x": 96,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "neighbor",
+      "pose": "run",
+      "mood": "happy"
+     },
+     "id": "risky",
+     "at": 2
+    },
+    {
+     "p": "bubble",
+     "text": "My wiring sparks! Sign me up!",
+     "x": 100,
+     "y": 16,
+     "w": 30,
+     "to": "risky",
+     "at": 3
+    },
+    {
+     "p": "icon",
+     "name": "plug-zap",
+     "x": 106,
+     "y": 36,
+     "h": 7,
+     "color": "red",
+     "at": 3,
+     "cue": "wiring"
+    },
+    {
+     "p": "person",
+     "x": 124,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "person",
+      "pose": "shrug",
+      "mood": "neutral",
+      "shirt": "green"
+     },
+     "id": "careful",
+     "at": 2
+    },
+    {
+     "p": "bubble",
+     "text": "Nah.",
+     "x": 130,
+     "y": 19,
+     "w": 12,
+     "to": "careful",
+     "at": 2
+    },
+    {
+     "p": "person",
+     "x": 148,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "magnifier",
+      "tie": true,
+      "glasses": true
+     },
+     "id": "uw",
+     "at": 4,
+     "flip": true
+    },
+    {
+     "p": "label",
+     "text": "underwriting",
+     "x": 148,
+     "y": 59,
+     "size": 3.6,
+     "color": "blue",
+     "at": 4,
+     "cue": "Underwriting"
+    }
+   ],
+   "beats": [
+    {
+     "text": "The law of large numbers: the more independent exposure units, the more likely actual losses equal expected losses.",
+     "say": "The law of large numbers: the more independent exposure units, the more likely actual losses equal expected losses."
+    },
+    {
+     "text": "Ten shops? One fire can throw off the forecast. Ten thousand? Losses likely land close to expected.",
+     "say": "Ten shops? One fire can throw off the forecast. Ten thousand? Losses likely land close to expected.",
+     "hl": [
+      "t1",
+      "t2"
+     ]
+    },
+    {
+     "text": "Adverse selection is an imbalance: people who see a high chance of loss buy far more often than others.",
+     "say": "Adverse selection is an imbalance: people who see a high chance of loss buy far more often than others.",
+     "hl": "risky"
+    },
+    {
+     "text": "My wiring sparks! Sign me up!",
+     "say": "My wiring sparks! Sign me up!",
+     "voice": "neighbor",
+     "hl": "risky"
+    },
+    {
+     "text": "Underwriting decides which risks to accept, how much insurance to write and at what rate. It exists largely to counter that imbalance. Large numbers is the pool's size; adverse selection is who joins.",
+     "say": "Underwriting decides which risks to accept, how much insurance to write and at what rate. It exists largely to counter that imbalance. Large numbers is the pool's size; adverse selection is who joins.",
+     "hl": "uw"
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Tony's insurer grows from 1,000 insured pizzerias to 100,000. Under the law of large numbers, what happens?",
+   "choices": [
+    "Each shop's own chance of a fire goes down",
+    "Actual losses become more likely to match expected losses",
+    "Adverse selection disappears",
+    "Premiums must rise to pay for catastrophes"
+   ],
+   "answer": 1,
+   "why": "A bigger pool makes results more predictable: closer to expected. It doesn't change any one shop's own chance of loss.",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 40,
+     "y": 20,
+     "h": 24
+    },
+    {
+     "p": "num",
+     "text": "1,000",
+     "x": 18,
+     "y": 46,
+     "size": 6,
+     "color": "gray"
+    },
+    {
+     "p": "arrow",
+     "from": [
+      29,
+      46
+     ],
+     "to": [
+      42,
+      46
+     ]
+    },
+    {
+     "p": "num",
+     "text": "100,000",
+     "x": 58,
+     "y": 46,
+     "size": 7
+    },
+    {
+     "p": "label",
+     "text": "insured pizzerias",
+     "x": 40,
+     "y": 57,
+     "size": 4
+    }
+   ],
+   "beats": [
+    {
+     "text": "Quick check: the pool grows a hundredfold. What happens? Pick an answer.",
+     "say": "Quick check: the pool grows a hundredfold. What happens? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Actual losses become more likely to match expected. Watch out: no single shop's own chance of fire changes.",
+     "say": "Actual losses become more likely to match expected. Watch out: no single shop's own chance of fire changes."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Who insures the insurer?",
+   "src": "IRMI glossary: reinsurance, ceding company, treaty, facultative, capacity, surplus relief",
+   "kind": "Term",
+   "term": "Reinsurance",
+   "plain": "Insurance for insurance companies. For a premium, a reinsurer covers part or all of an insurer's liability.",
+   "example": "Tony's insurer takes on thousands of shops, then passes part of that risk to a reinsurer. That makes the insurer the ceding company.",
+   "exam": "Treaty: whole classes; the reinsurer must accept every risk that qualifies. Facultative: risk by risk; the reinsurer may decline.",
+   "draw": [
+    {
+     "p": "person",
+     "x": 8,
+     "y": 30,
+     "h": 22,
+     "opt": {
+      "who": "tony",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "id": "tony"
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 34,
+     "y": 28,
+     "h": 22
+    },
+    {
+     "id": "re",
+     "p": "insurer",
+     "x": 66,
+     "y": 28,
+     "h": 22,
+     "opt": {
+      "name": "REINSURER"
+     },
+     "at": 0,
+     "cue": "reinsurer"
+    },
+    {
+     "p": "arrow",
+     "from": "ins",
+     "to": "re",
+     "at": 0,
+     "cue": "premium",
+     "color": "blue",
+     "bend": -0.45
+    },
+    {
+     "p": "label",
+     "text": "part of the risk",
+     "x": 50,
+     "y": 13,
+     "size": 3.6,
+     "color": "blue",
+     "at": 0,
+     "cue": "part"
+    },
+    {
+     "p": "label",
+     "text": "Ceding company",
+     "x": 34,
+     "y": 44,
+     "size": 3.8,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "ceding"
+    },
+    {
+     "p": "label",
+     "text": "Reinsurer",
+     "x": 66,
+     "y": 44,
+     "size": 3.8,
+     "bold": true,
+     "color": "green",
+     "at": 0,
+     "cue": "reinsurer"
+    },
+    {
+     "id": "p1",
+     "p": "policy",
+     "x": 14,
+     "y": 58,
+     "h": 11,
+     "at": 2,
+     "cue": "treaty"
+    },
+    {
+     "id": "p2",
+     "p": "policy",
+     "x": 18,
+     "y": 58,
+     "h": 11,
+     "at": 2,
+     "cue": "treaty",
+     "over": true
+    },
+    {
+     "id": "p3",
+     "p": "policy",
+     "x": 22,
+     "y": 58,
+     "h": 11,
+     "at": 2,
+     "cue": "treaty",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Treaty",
+     "x": 36,
+     "y": 58,
+     "size": 4,
+     "bold": true,
+     "at": 2,
+     "cue": "treaty"
+    },
+    {
+     "id": "p4",
+     "p": "policy",
+     "x": 54,
+     "y": 58,
+     "h": 11,
+     "at": 2,
+     "cue": "Facultative"
+    },
+    {
+     "p": "label",
+     "text": "Facultative",
+     "x": 70,
+     "y": 58,
+     "size": 4,
+     "bold": true,
+     "at": 2,
+     "cue": "Facultative"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Who protects Tony's insurer? A reinsurer: for a premium, it covers part or all of the insurer's liability.",
+     "say": "Who protects Tony's insurer? A reinsurer: for a premium, it covers part or all of the insurer's liability.",
+     "show": 2,
+     "hl": "re"
+    },
+    {
+     "text": "That makes the insurer the ceding company. Why buy? Capacity to write more, surplus relief, steadier results and catastrophe protection.",
+     "say": "That makes the insurer the ceding company. Why buy? Capacity to write more, surplus relief, steadier results and catastrophe protection.",
+     "show": 3,
+     "hl": "ins"
+    },
+    {
+     "text": "A treaty covers whole classes; the reinsurer must accept every qualifying risk. Facultative goes risk by risk; the reinsurer may decline.",
+     "say": "A treaty covers whole classes; the reinsurer must accept every qualifying risk. Facultative goes risk by risk; the reinsurer may decline.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "The insurer's call: which reinsurance deal?",
+   "src": "IRMI glossary: pro rata, quota share, excess of loss reinsurance; question core-008",
+   "ask": "Which deal should the boss sign?",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 22,
+     "y": 24,
+     "h": 30
+    },
+    {
+     "p": "label",
+     "text": "Insurance company",
+     "x": 22,
+     "y": 45,
+     "size": 4.4
+    },
+    {
+     "p": "person",
+     "x": 58,
+     "y": 30,
+     "h": 36,
+     "opt": {
+      "who": "boss",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "id": "boss"
+    },
+    {
+     "p": "bubble",
+     "text": "We pay the first million. Help us above that!",
+     "x": 98,
+     "y": 12,
+     "w": 44,
+     "to": "boss",
+     "at": 1
+    },
+    {
+     "id": "re",
+     "p": "insurer",
+     "x": 140,
+     "y": 24,
+     "h": 30,
+     "opt": {
+      "name": "REINSURER"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Reinsurer",
+     "x": 140,
+     "y": 45,
+     "size": 4.4
+    }
+   ],
+   "beats": [
+    {
+     "text": "Quota share splits premium and losses at one percentage. Excess of loss pays only above the insurer's retention, up to a limit.",
+     "say": "Quota share splits premium and losses at one percentage. Excess of loss pays only above the insurer's retention, up to a limit."
+    },
+    {
+     "text": "We pay the first million of any loss. Which deal helps us only above that?",
+     "say": "We pay the first million of any loss. Which deal helps us only above that?",
+     "voice": "boss",
+     "hl": "boss"
+    }
+   ],
+   "options": [
+    {
+     "label": "Sign the quota share deal",
+     "ok": false,
+     "fail": "Quota share shares premium and every loss at the same percentage. Help only above a retention is excess of loss.",
+     "failAt": [
+      140,
+      46
+     ],
+     "beats": [
+      {
+       "text": "The reinsurer takes its percentage of the premium on every policy in a class and pays that share of every loss.",
+       "say": "The reinsurer takes its percentage of the premium on every policy in a class and pays that share of every loss."
+      },
+      {
+       "text": "Even the tiny claims?",
+       "say": "Even the tiny claims?",
+       "voice": "boss"
+      }
+     ],
+     "draw": [
+      {
+       "id": "pie",
+       "p": "piechart",
+       "x": 30,
+       "y": 24,
+       "h": 32,
+       "opt": {
+        "slices": [
+         60,
+         40
+        ],
+        "colors": [
+         "blue",
+         "green"
+        ]
+       }
+      },
+      {
+       "p": "label",
+       "text": "Insurer",
+       "x": 56,
+       "y": 18,
+       "size": 4.2,
+       "color": "blue"
+      },
+      {
+       "p": "label",
+       "text": "Reinsurer",
+       "x": 58,
+       "y": 28,
+       "size": 4.2,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "Same split of premium and loss on every policy",
+       "x": 30,
+       "y": 49,
+       "size": 4.2,
+       "w": 56
+      },
+      {
+       "p": "person",
+       "x": 92,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "boss",
+        "pose": "shrug",
+        "mood": "shocked"
+       },
+       "id": "boss"
+      },
+      {
+       "p": "bubble",
+       "text": "Even the tiny claims?",
+       "x": 118,
+       "y": 9,
+       "w": 28,
+       "to": "boss",
+       "at": 1
+      }
+     ]
+    },
+    {
+     "label": "Sign the excess of loss deal",
+     "ok": true,
+     "win": "Excess of loss pays the part of a loss above the ceding company's retention, up to a limit.",
+     "beats": [
+      {
+       "text": "A fire guts an insured office tower. The insurer pays the first million, its retention. The reinsurer pays the rest, up to a limit.",
+       "say": "A fire guts an insured office tower. The insurer pays the first million, its retention. The reinsurer pays the rest, up to a limit."
+      }
+     ],
+     "draw": [
+      {
+       "id": "tower",
+       "p": "office",
+       "x": 24,
+       "y": 30,
+       "h": 34
+      },
+      {
+       "p": "fire",
+       "x": 24,
+       "y": 16,
+       "h": 13,
+       "loop": "flicker",
+       "over": true,
+       "cue": "fire"
+      },
+      {
+       "id": "low",
+       "p": "box",
+       "x": 82,
+       "y": 41,
+       "w": 50,
+       "hh": 10,
+       "title": "Insurer: up to its retention",
+       "color": "blue",
+       "cue": "retention"
+      },
+      {
+       "id": "high",
+       "p": "box",
+       "x": 82,
+       "y": 30,
+       "w": 50,
+       "hh": 10,
+       "title": "Reinsurer: the rest, to a limit",
+       "color": "green",
+       "cue": "reinsurer"
+      },
+      {
+       "p": "arrow",
+       "from": "tower",
+       "to": "low",
+       "label": "the loss",
+       "cue": "fire",
+       "color": "red"
+      },
+      {
+       "p": "person",
+       "x": 140,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "boss",
+        "pose": "cheer",
+        "mood": "happy"
+       },
+       "id": "boss"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Quota share, a pro rata form, splits by one percentage. Excess of loss starts above the retention.",
+     "say": "Quota share, a pro rata form, splits by one percentage. Excess of loss starts above the retention."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Who's who in insurance",
+   "src": "IRMI glossary: stock company, mutual company, reciprocal, Lloyd's; A.M. Best Guide (Version 121719); adapted from hook mn_core-04",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Stock company",
+     "x": 18,
+     "y": 6,
+     "size": 4.2,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "id": "stock",
+     "p": "insurer",
+     "x": 18,
+     "y": 26,
+     "h": 28,
+     "opt": {
+      "name": "STOCK CO."
+     }
+    },
+    {
+     "p": "person",
+     "x": 18,
+     "y": 55,
+     "h": 22,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "certificate",
+      "tie": true
+     },
+     "id": "holder"
+    },
+    {
+     "p": "label",
+     "text": "Mutual company",
+     "x": 50,
+     "y": 6,
+     "size": 4.2,
+     "bold": true,
+     "color": "green"
+    },
+    {
+     "id": "mutual",
+     "p": "insurer",
+     "x": 50,
+     "y": 26,
+     "h": 28,
+     "opt": {
+      "name": "MUTUAL CO."
+     }
+    },
+    {
+     "p": "person",
+     "x": 50,
+     "y": 55,
+     "h": 22,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "policy"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "label",
+     "text": "Reciprocal",
+     "x": 82,
+     "y": 6,
+     "size": 4.2,
+     "bold": true,
+     "color": "teal"
+    },
+    {
+     "id": "recip",
+     "p": "sign",
+     "x": 82,
+     "y": 26,
+     "h": 24,
+     "opt": {
+      "text": "EXCHANGE"
+     }
+    },
+    {
+     "p": "person",
+     "x": 82,
+     "y": 55,
+     "h": 22,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "briefcase"
+     },
+     "id": "aif"
+    },
+    {
+     "p": "label",
+     "text": "Lloyd's",
+     "x": 114,
+     "y": 6,
+     "size": 4.2,
+     "bold": true,
+     "color": "orange"
+    },
+    {
+     "id": "lloyds",
+     "p": "store",
+     "x": 114,
+     "y": 30,
+     "h": 26,
+     "opt": {
+      "name": "MARKETPLACE"
+     }
+    },
+    {
+     "id": "uw1",
+     "p": "person",
+     "x": 106,
+     "y": 55,
+     "h": 20,
+     "opt": {
+      "who": "person",
+      "pose": "stand",
+      "mood": "happy",
+      "tie": true
+     }
+    },
+    {
+     "id": "uw2",
+     "p": "person",
+     "x": 122,
+     "y": 55,
+     "h": 20,
+     "opt": {
+      "who": "person",
+      "pose": "stand",
+      "mood": "neutral",
+      "tie": true,
+      "shirt": "green"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Ratings",
+     "x": 146,
+     "y": 6,
+     "size": 4.2,
+     "bold": true,
+     "color": "purple"
+    },
+    {
+     "id": "rating",
+     "p": "certificate",
+     "x": 146,
+     "y": 24,
+     "h": 18,
+     "opt": {
+      "title": "RATING"
+     }
+    },
+    {
+     "p": "num",
+     "text": "A++",
+     "x": 146,
+     "y": 45,
+     "size": 9,
+     "color": "green"
+    },
+    {
+     "p": "label",
+     "text": "Superior",
+     "x": 146,
+     "y": 56,
+     "size": 4,
+     "color": "green"
+    }
+   ],
+   "spots": [
+    {
+     "on": "holder",
+     "label": "Stock company",
+     "text": "Owned by its stockholders, who paid in its capital fund. The stockholders need not be insureds."
+    },
+    {
+     "on": "tony",
+     "label": "Mutual company",
+     "text": "Owned by its policyholders. Every owner is an insured, and every insured is an owner. Memory hook: \"My policy makes me an owner.\""
+    },
+    {
+     "on": "aif",
+     "label": "Reciprocal",
+     "text": "An interinsurance exchange: picture neighbors swapping risks. It's an unincorporated group of subscribers who pool risks, run by an attorney-in-fact."
+    },
+    {
+     "on": "lloyds",
+     "label": "Lloyd's",
+     "text": "Not an insurance company at all. Lloyd's is an association and marketplace of independent underwriters."
+    },
+    {
+     "on": "rating",
+     "label": "A.M. Best rating",
+     "text": "An independent opinion of an insurer's ability to meet its obligations. A++ and A+: Superior. A and A-: Excellent. Not a recommendation to buy."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tap each glowing spot.",
+     "say": "Tap each glowing spot."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Follow the owner. Stockholders own a stock company; they need not be insureds. Policyholders own a mutual.",
+     "say": "Follow the owner. Stockholders own a stock company; they need not be insureds. Policyholders own a mutual."
+    },
+    {
+     "text": "My policy makes me an owner!",
+     "say": "My policy makes me an owner!",
+     "voice": "tony"
+    },
+    {
+     "text": "A reciprocal: unincorporated subscribers pooling risks, run by an attorney-in-fact. Lloyd's is a marketplace of underwriters, not an insurer. A.M. Best: A plus plus and A plus, Superior; A and A minus, Excellent.",
+     "say": "A reciprocal: unincorporated subscribers pooling risks, run by an attorney-in-fact. Lloyd's is a marketplace of underwriters, not an insurer. A M Best: A plus plus and A plus, Superior; A and A minus, Excellent."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: who sells him the policy?",
+   "src": "IRMI glossary: independent agency system, exclusive agency system, direct writer; question core-011",
+   "ask": "Who should Tony pick?",
+   "draw": [
+    {
+     "p": "person",
+     "x": 18,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "neutral"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "bubble",
+     "text": "Someone who can shop around!",
+     "x": 44,
+     "y": 9,
+     "w": 30,
+     "to": "tony",
+     "at": 1
+    },
+    {
+     "p": "person",
+     "x": 66,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "person",
+      "pose": "stand",
+      "mood": "smirk",
+      "tie": true,
+      "shirt": "red"
+     },
+     "id": "captive"
+    },
+    {
+     "p": "label",
+     "text": "Captive agent",
+     "x": 66,
+     "y": 53,
+     "size": 4.6
+    },
+    {
+     "p": "person",
+     "x": 102,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "person",
+      "pose": "stand",
+      "mood": "happy",
+      "shirt": "gray",
+      "badge": true
+     },
+     "id": "direct"
+    },
+    {
+     "p": "label",
+     "text": "Direct writer's employee",
+     "x": 102,
+     "y": 53,
+     "size": 4.6,
+     "w": 26
+    },
+    {
+     "p": "person",
+     "x": 138,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "dana",
+      "pose": "stand",
+      "mood": "neutral"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "label",
+     "text": "Independent agent",
+     "x": 138,
+     "y": 53,
+     "size": 4.6
+    }
+   ],
+   "beats": [
+    {
+     "text": "Renewal time. A captive agent represents one company. A direct writer uses its own employees. An independent agent sells for one or more insurers.",
+     "say": "Renewal time. A captive agent represents one company. A direct writer uses its own employees. An independent agent sells for one or more insurers."
+    },
+    {
+     "text": "I want someone who can shop around for me.",
+     "say": "I want someone who can shop around for me.",
+     "voice": "tony"
+    }
+   ],
+   "options": [
+    {
+     "label": "The captive agent",
+     "ok": false,
+     "fail": "A captive, or exclusive, agent represents only one company or a group under common management. Tony wanted someone to shop around.",
+     "beats": [
+      {
+       "text": "One company's policy, and that's it. A captive agent represents only one company or group.",
+       "say": "One company's policy, and that's it. A captive agent represents only one company or group."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 40,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "person",
+        "pose": "point",
+        "mood": "smirk",
+        "tie": true,
+        "shirt": "red"
+       },
+       "id": "captive"
+      },
+      {
+       "p": "sign",
+       "x": 58,
+       "y": 18,
+       "h": 22,
+       "opt": {
+        "text": "ONE\nCOMPANY"
+       }
+      },
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 84,
+       "y": 28,
+       "h": 28
+      },
+      {
+       "p": "person",
+       "x": 120,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "sad"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "bubble",
+       "text": "That's it?",
+       "x": 98,
+       "y": 8,
+       "w": 20,
+       "to": "tony"
+      }
+     ]
+    },
+    {
+     "label": "The direct writer's salesperson",
+     "ok": false,
+     "fail": "A direct writer uses the insurer's own employed sales force, not independent agents. Tony wanted someone who sells for more than one insurer.",
+     "beats": [
+      {
+       "text": "He's on the insurer's own payroll: a direct writer's employee, not an independent agent.",
+       "say": "He's on the insurer's own payroll: a direct writer's employee, not an independent agent."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 32,
+       "y": 27,
+       "h": 30,
+       "opt": {
+        "name": "INSURANCE CO."
+       }
+      },
+      {
+       "p": "person",
+       "x": 76,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "person",
+        "pose": "point",
+        "mood": "happy",
+        "sign": "EMPLOYEE",
+        "shirt": "gray",
+        "badge": true
+       },
+       "id": "direct"
+      },
+      {
+       "p": "arrow",
+       "from": "ins",
+       "to": "direct",
+       "label": "employs",
+       "bend": 0.2,
+       "color": "gray"
+      },
+      {
+       "p": "person",
+       "x": 122,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "worried"
+       },
+       "id": "tony"
+      }
+     ]
+    },
+    {
+     "label": "The independent agent",
+     "ok": true,
+     "win": "Independent agents sell for one or more insurers, and the agent owns the policy records and expiration data.",
+     "beats": [
+      {
+       "text": "I'll compare a few insurers for you.",
+       "say": "I'll compare a few insurers for you.",
+       "voice": "dana",
+       "hl": "dana"
+      },
+      {
+       "text": "She also owns his policy records and expirations: the data on when each policy expires.",
+       "say": "She also owns his policy records and expirations: the data on when each policy expires."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 22,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "dana"
+      },
+      {
+       "id": "i1",
+       "p": "insurer",
+       "x": 58,
+       "y": 22,
+       "h": 18
+      },
+      {
+       "id": "i2",
+       "p": "insurer",
+       "x": 80,
+       "y": 22,
+       "h": 18
+      },
+      {
+       "id": "i3",
+       "p": "insurer",
+       "x": 102,
+       "y": 22,
+       "h": 18
+      },
+      {
+       "id": "files",
+       "p": "filecabinet",
+       "x": 58,
+       "y": 47,
+       "h": 16,
+       "cue": "records",
+       "at": 1
+      },
+      {
+       "p": "label",
+       "text": "Dana's expirations",
+       "x": 86,
+       "y": 50,
+       "size": 4.6,
+       "color": "green",
+       "bold": true,
+       "cue": "expirations",
+       "at": 1
+      },
+      {
+       "p": "person",
+       "x": 140,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       },
+       "id": "tony"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Exam tip: the independent agent, not the insurer, owns the expirations.",
+     "say": "Exam tip: the independent agent, not the insurer, owns the expirations."
+    }
+   ],
+   "failAt": [
+    146,
+    14
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "A hazard is the condition; a peril is the cause of loss",
+    "Pure risk is generally insurable; speculative can bring a gain",
+    "STARR handles risk; an ideally insurable risk is a CLEAN Deal",
+    "Quota share splits by one percentage; excess of loss, above retention",
+    "Stockholders own a stock company; policyholders own a mutual"
+   ],
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 40,
+     "y": 18,
+     "h": 24,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "p": "person",
+     "x": 22,
+     "y": 50,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "person",
+     "x": 50,
+     "y": 50,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "wave",
+      "mood": "happy"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "policy",
+     "x": 68,
+     "y": 52,
+     "h": 13,
+     "opt": {
+      "sign": true
+     },
+     "rot": 8
+    },
+    {
+     "p": "oven",
+     "x": 68,
+     "y": 22,
+     "h": 14
+    },
+    {
+     "id": "bx",
+     "p": "parcel",
+     "x": 70,
+     "y": 36,
+     "h": 7,
+     "at": 2
+    },
+    {
+     "p": "xout",
+     "on": "bx",
+     "at": 2,
+     "cue": "boxes"
+    }
+   ],
+   "beats": [
+    {
+     "text": "A hazard is the condition; the peril is the cause. Pure risk is generally insurable. Handle risk like a STARR.",
+     "say": "A hazard is the condition; the peril is the cause. Pure risk is generally insurable. Handle risk like a STARR.",
+     "show": 3
+    },
+    {
+     "text": "Ideally insurable risks are a CLEAN Deal.",
+     "say": "Ideally insurable risks are a CLEAN Deal.",
+     "show": 5
+    },
+    {
+     "text": "And no more boxes by the oven.",
+     "say": "And no more boxes by the oven.",
+     "voice": "tony",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "core-001",
+  "core-gen-07",
+  "core-004",
+  "core-007",
+  "core-gen-13"
+ ],
+ "hooks": [
+  "mn-mn_core-01",
+  "mn-mn_core-02",
+  "mn-mn_core-03",
+  "mn-mn_core-04"
+ ],
+ "sources": [
+  "IRMI glossary",
+  "National Alliance Research Academy insurance glossary",
+  "Rejda & McNamara, Principles of Risk Management and Insurance (13th ed.)",
+  "A.M. Best, Guide to Best's Financial Strength Ratings (Version 121719)",
+  "PSI Michigan P&C content outline (Series 16-81)",
+  "Memory hooks mn_core-01 to mn_core-04; confusion pair cp_personal-01",
+  "Question bank: core-001, core-002, core-004, core-005, core-006, core-008, core-009, core-010, core-011, core-bas-50, core-gen-03, core-gen-05, core-gen-06, core-gen-07, core-gen-10, core-gen-11"
+ ]
 }

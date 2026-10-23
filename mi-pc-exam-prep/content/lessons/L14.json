@@ -3,7 +3,7 @@
  "sec": "auto",
  "guide": "auto",
  "title": "Michigan no-fault: PIP, PPI and residual liability",
- "summary": "The three coverages every Michigan auto policy carries: PIP benefits and medical levels, PPI, and the lawsuits Michigan still allows.",
+ "summary": "Follow Rosa through one icy Lansing crash: PIP benefits and the work loss cap, the PIP medical ladder, what PPI pays, and the suits Michigan still allows.",
  "objectives": [
   "Tell PIP, PPI and residual liability apart",
   "Name the four PIP benefits and apply the dated work loss cap",
@@ -13,348 +13,2450 @@
  "scenes": [
   {
    "type": "title",
-   "title": "Michigan no-fault: PIP, PPI and residual liability",
-   "subtitle": "The three coverages every Michigan auto policy must include",
-   "icon": "car",
-   "beats": [
+   "title": "Rosa's first black ice: Michigan no-fault",
+   "subtitle": "PIP, PPI and residual liability: the three coverages every Michigan auto policy must include",
+   "draw": [
     {
-     "text": "Auto insurance is 15% of your exam: 22 items. Every Michigan auto policy must include three coverages.",
-     "say": "Auto insurance is fifteen percent of your exam: twenty-two items. Every Michigan auto policy must include three coverages."
+     "id": "mi",
+     "p": "michigan",
+     "x": 72,
+     "y": 17,
+     "h": 24,
+     "opt": {
+      "pin": "lansing",
+      "pinLabel": "Lansing",
+      "pinSize": 13
+     }
     },
     {
-     "text": "PIP for injuries, PPI for property, and residual liability for your legal liability.",
-     "say": "P I P for injuries, P P I for property, and residual liability for your legal liability."
+     "p": "snow",
+     "x": 10,
+     "y": 9,
+     "h": 6,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 44,
+     "y": 7,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "id": "road",
+     "p": "road",
+     "x": 45,
+     "y": 58,
+     "w": 86
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 15,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "rosa",
+      "pose": "run",
+      "mood": "worried",
+      "hold": "coffee"
+     }
+    },
+    {
+     "id": "car",
+     "p": "car",
+     "x": 52,
+     "y": 47,
+     "h": 14,
+     "opt": {
+      "color": "purple"
+     }
+    },
+    {
+     "p": "sparkle",
+     "x": 76,
+     "y": 56,
+     "h": 7,
+     "over": true,
+     "at": 1,
+     "cue": "shiny"
+    },
+    {
+     "p": "bubble",
+     "text": "Why is the road so shiny?",
+     "x": 40,
+     "y": 18,
+     "w": 38,
+     "to": "rosa",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "November 15, 2026, in Lansing. The first black ice of the year, and Rosa is late for work.",
+     "say": "November fifteenth, twenty twenty-six, in Lansing. The first black ice of the year, and Rosa is late for work."
+    },
+    {
+     "text": "Why is the road so shiny?",
+     "say": "Why is the road so shiny?",
+     "voice": "rosa"
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Three required coverages",
-   "src": "MCL 500.3101(1), 3105, 3121(1),(5), 3131(1), 3135(1),(3); DIFS auto FAQ",
-   "columns": [
+   "type": "sketch",
+   "title": "One crash, three coverages",
+   "src": "MCL 500.3101(1),(2), 3105, 3121(1),(5), 3131(1), 3135; DIFS auto FAQ; PSI outline: Automobile Insurance 15% (22 items)",
+   "draw": [
     {
-     "name": "PIP",
-     "icon": "heart-pulse",
-     "points": [
-      "Bodily injury, without regard to fault",
-      "Medical, wages, chores, survivors"
+     "id": "fence",
+     "p": "fence",
+     "x": 20,
+     "y": 47,
+     "h": 13,
+     "opt": {
+      "broken": true
+     },
+     "cue": "fence",
+     "out": 1
+    },
+    {
+     "id": "rcar",
+     "p": "car",
+     "x": 44,
+     "y": 47,
+     "h": 14,
+     "opt": {
+      "color": "purple",
+      "dent": true
+     },
+     "flip": true,
+     "over": true,
+     "out": 1
+    },
+    {
+     "p": "crash",
+     "x": 30,
+     "y": 33,
+     "h": 13,
+     "opt": {
+      "text": "CRUNCH!"
+     },
+     "over": true,
+     "sfx": "crash",
+     "out": 1,
+     "cue": "Crunch"
+    },
+    {
+     "p": "arrow",
+     "from": [
+      40,
+      60
+     ],
+     "to": [
+      116,
+      60
+     ],
+     "bend": 0,
+     "dash": true,
+     "label": "Rosa's slide",
+     "color": "gray",
+     "cue": "dents",
+     "out": 1
+    },
+    {
+     "id": "pcar",
+     "p": "car",
+     "x": 92,
+     "y": 48,
+     "h": 12,
+     "opt": {
+      "color": "gray",
+      "dent": true
+     },
+     "label": "Parked",
+     "lsize": 4,
+     "cue": "parked",
+     "out": 1
+    },
+    {
+     "p": "wind",
+     "x": 110,
+     "y": 45,
+     "h": 7,
+     "cue": "moving",
+     "out": 1
+    },
+    {
+     "id": "scar",
+     "p": "car",
+     "x": 128,
+     "y": 47,
+     "h": 13,
+     "opt": {
+      "color": "green",
+      "dent": true
+     },
+     "label": "Sam's car, moving",
+     "lsize": 4,
+     "cue": "clips",
+     "out": 1
+    },
+    {
+     "id": "rosa1",
+     "p": "person",
+     "x": 66,
+     "y": 40,
+     "h": 24,
+     "opt": {
+      "who": "rosa",
+      "mood": "sad",
+      "pose": "sad"
+     },
+     "at": 0,
+     "cue": "broke",
+     "out": 1
+    },
+    {
+     "p": "icon",
+     "name": "bandage",
+     "x": 69,
+     "y": 37,
+     "h": 4.5,
+     "color": "red",
+     "over": true,
+     "cue": "arm",
+     "out": 1
+    },
+    {
+     "p": "label",
+     "text": "Broken arm",
+     "x": 66,
+     "y": 24,
+     "size": 4,
+     "bold": true,
+     "color": "red",
+     "at": 0,
+     "cue": "arm",
+     "out": 1
+    },
+    {
+     "id": "sam1",
+     "p": "person",
+     "opt": {
+      "who": "sam",
+      "mood": "happy"
+     },
+     "h": 20,
+     "x": 152,
+     "y": 41,
+     "cue": "fine",
+     "out": 1
+    },
+    {
+     "p": "bubble",
+     "text": "I'm OK!",
+     "x": 140,
+     "y": 22,
+     "w": 18,
+     "to": "sam1",
+     "at": 0,
+     "cue": "fine",
+     "out": 1
+    },
+    {
+     "p": "label",
+     "text": "Required on every Michigan auto policy",
+     "x": 80,
+     "y": 8,
+     "size": 5,
+     "bold": true,
+     "at": 1,
+     "cue": "every",
+     "w": 120
+    },
+    {
+     "p": "label",
+     "text": "Auto: 15% of the exam, 22 items",
+     "x": 80,
+     "y": 15,
+     "size": 4.2,
+     "color": "gray",
+     "at": 1,
+     "w": 120
+    },
+    {
+     "p": "divider",
+     "x": 54,
+     "y0": 20,
+     "y1": 63,
+     "at": 2,
+     "y": 41
+    },
+    {
+     "p": "divider",
+     "x": 107,
+     "y0": 20,
+     "y1": 63,
+     "at": 2,
+     "y": 41
+    },
+    {
+     "p": "label",
+     "text": "PIP",
+     "x": 27,
+     "y": 25,
+     "size": 6.5,
+     "bold": true,
+     "color": "red",
+     "at": 2,
+     "cue": "Personal"
+    },
+    {
+     "id": "rosa2",
+     "p": "person",
+     "x": 22,
+     "y": 42,
+     "h": 22,
+     "opt": {
+      "who": "rosa",
+      "mood": "happy"
+     },
+     "at": 2,
+     "cue": "Personal"
+    },
+    {
+     "p": "icon",
+     "name": "bandage",
+     "x": 36,
+     "y": 40,
+     "h": 9,
+     "color": "red",
+     "at": 2,
+     "cue": "injuries"
+    },
+    {
+     "p": "label",
+     "text": "Injuries, without regard to fault",
+     "x": 27,
+     "y": 59,
+     "size": 4.2,
+     "w": 48,
+     "at": 2,
+     "cue": "injuries"
+    },
+    {
+     "p": "label",
+     "text": "PPI",
+     "x": 80,
+     "y": 25,
+     "size": 6.5,
+     "bold": true,
+     "color": "blue",
+     "at": 2,
+     "cue": "Property"
+    },
+    {
+     "id": "fence2",
+     "p": "fence",
+     "x": 69,
+     "y": 41,
+     "h": 9,
+     "opt": {
+      "broken": true
+     },
+     "at": 2,
+     "cue": "Property"
+    },
+    {
+     "id": "pcar2",
+     "p": "car",
+     "x": 93,
+     "y": 40,
+     "h": 8,
+     "opt": {
+      "color": "gray"
+     },
+     "at": 2,
+     "cue": "others",
+     "label": "Parked",
+     "lsize": 3.8
+    },
+    {
+     "p": "label",
+     "text": "Others' property in Michigan, not moving cars",
+     "x": 80,
+     "y": 59,
+     "size": 4.2,
+     "w": 48,
+     "at": 2,
+     "cue": "others"
+    },
+    {
+     "p": "label",
+     "text": "Residual liability",
+     "x": 133,
+     "y": 25,
+     "size": 5,
+     "bold": true,
+     "color": "purple",
+     "at": 3
+    },
+    {
+     "id": "gavel",
+     "p": "gavel",
+     "x": 123,
+     "y": 43,
+     "h": 12,
+     "at": 3,
+     "cue": "lawsuits"
+    },
+    {
+     "id": "ohio",
+     "p": "sign",
+     "x": 145,
+     "y": 42,
+     "h": 16,
+     "opt": {
+      "text": "OHIO"
+     },
+     "at": 3,
+     "cue": "states"
+    },
+    {
+     "p": "label",
+     "text": "Injury suits Michigan allows, and other states",
+     "x": 133,
+     "y": 59,
+     "size": 4.2,
+     "w": 48,
+     "at": 3,
+     "cue": "lawsuits"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Crunch! Rosa slides through a stranger's fence, dents a stranger's properly parked car, and clips Sam's moving car. Sam's fine. Rosa broke her arm.",
+     "say": "Crunch! Rosa slides through a stranger's fence, dents a stranger's properly parked car, and clips Sam's moving car. Sam's fine. Rosa broke her arm."
+    },
+    {
+     "text": "Every Michigan auto policy must include three coverages.",
+     "say": "Every Michigan auto policy must include three coverages."
+    },
+    {
+     "text": "Personal injury protection, PIP, pays for injuries, regardless of fault. Property protection insurance, PPI, pays for others' property in Michigan, like fences and properly parked cars.",
+     "say": "Personal injury protection, P I P, pays for injuries, regardless of fault. Property protection insurance, P P I, pays for others' property in Michigan, like fences and properly parked cars."
+    },
+    {
+     "text": "Residual liability covers your legal liability: injury lawsuits Michigan still allows, and crashes in other states.",
+     "say": "Residual liability covers your legal liability: injury lawsuits Michigan still allows, and crashes in other states."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Rosa's call: who pays for her arm?",
+   "src": "MCL 500.3105; MCL 500.3114(1); confusion pair cp_personal-12",
+   "ask": "Who pays Rosa's hospital bill?",
+   "draw": [
+    {
+     "id": "hosp",
+     "p": "hospital",
+     "x": 28,
+     "y": 30,
+     "h": 38
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 78,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "rosa",
+      "pose": "shrug",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "icon",
+     "name": "bandage",
+     "x": 84,
+     "y": 30,
+     "h": 6,
+     "color": "red",
+     "over": true
+    },
+    {
+     "id": "bill",
+     "p": "receipt",
+     "x": 98,
+     "y": 34,
+     "h": 20,
+     "opt": {
+      "total": "$$$"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "My fault. So who pays?",
+     "x": 110,
+     "y": 7,
+     "w": 40,
+     "to": "rosa",
+     "size": 4.8
+    }
+   ],
+   "beats": [
+    {
+     "text": "Rosa gets the hospital bill for her arm. She insures her own car, but the crash was her fault. Who pays?",
+     "say": "Rosa gets the hospital bill for her arm. She insures her own car, but the crash was her fault. Who pays?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Rosa pays it. The crash was her fault.",
+     "ok": false,
+     "fail": "PIP pays for injuries without regard to fault, even when you caused the crash.",
+     "beats": [
+      {
+       "text": "Ouch. Twice.",
+       "say": "Ouch. Twice.",
+       "voice": "rosa"
+      },
+      {
+       "text": "She didn't need to pay: her PIP pays, regardless of fault.",
+       "say": "She didn't need to pay: her P I P pays, regardless of fault."
+      }
+     ],
+     "draw": [
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 46,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "rosa",
+        "pose": "hold",
+        "hold": "creditcard",
+        "mood": "sad"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Ouch. Twice.",
+       "x": 22,
+       "y": 9,
+       "w": 24,
+       "to": "rosa"
+      },
+      {
+       "id": "bill",
+       "p": "receipt",
+       "x": 84,
+       "y": 24,
+       "h": 26,
+       "opt": {
+        "total": "$$$"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Her PIP would have paid",
+       "x": 84,
+       "y": 46,
+       "size": 4.6,
+       "color": "red",
+       "bold": true
+      }
      ]
     },
     {
-     "name": "PPI",
-     "icon": "fence",
-     "points": [
-      "Others' property damaged in Michigan",
-      "Up to $1 million per accident"
+     "label": "Claim Sam's insurance: his car was in it",
+     "ok": false,
+     "fail": "As a rule, your own policy pays first. Rosa insures her own car, so her own PIP pays her injuries, whoever caused the crash.",
+     "beats": [
+      {
+       "text": "You hit me, Rosa!",
+       "say": "You hit me, Rosa!",
+       "voice": "sam"
+      },
+      {
+       "text": "Her own policy pays first: Rosa's own PIP pays for her arm.",
+       "say": "Her own policy pays first: Rosa's own P I P pays for her arm."
+      }
+     ],
+     "draw": [
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 46,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "sam",
+        "pose": "point",
+        "mood": "angry"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "You hit ME!",
+       "x": 24,
+       "y": 9,
+       "w": 24,
+       "to": "sam"
+      },
+      {
+       "id": "bill",
+       "p": "receipt",
+       "x": 76,
+       "y": 24,
+       "h": 18,
+       "opt": {
+        "total": "$$$"
+       },
+       "rot": 12
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 104,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "rosa",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Rosa's own PIP pays",
+       "x": 76,
+       "y": 52,
+       "size": 4.6,
+       "color": "green",
+       "bold": true,
+       "at": 1
+      }
      ]
     },
     {
-     "name": "Residual liability",
-     "icon": "scale",
-     "points": [
-      "The tort liability Michigan keeps",
-      "Accidents in other states, too"
+     "label": "Claim her own PIP",
+     "ok": true,
+     "win": "PIP pays for bodily injury without regard to fault. Rosa's own policy pays, even though she caused the crash.",
+     "beats": [
+      {
+       "text": "Right: that's no-fault. Her own PIP pays, even though she caused the crash.",
+       "say": "Right: that's no-fault. Her own P I P pays, even though she caused the crash."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 30,
+       "y": 28,
+       "h": 36
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 58,
+       "y": 24,
+       "h": 9,
+       "move": {
+        "to": [
+         92,
+         28
+        ],
+        "at": 0,
+        "cue": "pays",
+        "sfx": "cash"
+       }
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 116,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "rosa",
+        "pose": "hold",
+        "mood": "laugh",
+        "hold": "policy"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "PIP pays",
+       "x": 72,
+       "y": 46,
+       "size": 6,
+       "color": "green"
+      }
      ]
     }
    ],
-   "tell": "Injuries regardless of fault: PIP. Others' property in Michigan, but not moving cars: PPI. Your legal liability: residual liability.",
+   "reveal": [
+    {
+     "text": "No-fault: as a rule, your own policy pays your injuries first, whoever caused the crash.",
+     "say": "No-fault: as a rule, your own policy pays your injuries first, whoever caused the crash."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Michigan Winters Can Snow: four PIP benefits",
+   "src": "MCL 500.3107(1)(a)-(c), 3108; memory hook mn_auto-07; matching set ms_personal-08",
+   "draw": [
+    {
+     "p": "snow",
+     "x": 8,
+     "y": 8,
+     "h": 6,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 152,
+     "y": 8,
+     "h": 6,
+     "loop": "spin"
+    },
+    {
+     "p": "label",
+     "text": "Michigan",
+     "x": 22,
+     "y": 10,
+     "size": 4.6,
+     "color": "gray"
+    },
+    {
+     "p": "label",
+     "text": "Winters",
+     "x": 61,
+     "y": 10,
+     "size": 4.6,
+     "color": "gray"
+    },
+    {
+     "p": "label",
+     "text": "Can",
+     "x": 100,
+     "y": 10,
+     "size": 4.6,
+     "color": "gray"
+    },
+    {
+     "p": "label",
+     "text": "Snow",
+     "x": 139,
+     "y": 10,
+     "size": 4.6,
+     "color": "gray"
+    },
+    {
+     "id": "med",
+     "p": "hospitalbed",
+     "x": 22,
+     "y": 32,
+     "h": 20,
+     "opt": {
+      "patient": true,
+      "iv": true
+     }
+    },
+    {
+     "id": "wage",
+     "p": "bankcheck",
+     "x": 61,
+     "y": 33,
+     "h": 14,
+     "opt": {
+      "amount": "$$$"
+     }
+    },
+    {
+     "id": "chore",
+     "p": "washer",
+     "x": 100,
+     "y": 32,
+     "h": 21
+    },
+    {
+     "id": "surv",
+     "p": "person",
+     "x": 134,
+     "y": 33,
+     "h": 26,
+     "opt": {
+      "who": "kid",
+      "mood": "sad"
+     }
+    },
+    {
+     "p": "heart",
+     "x": 149,
+     "y": 26,
+     "h": 9
+    },
+    {
+     "p": "label",
+     "text": "Medical",
+     "x": 22,
+     "y": 54,
+     "size": 5.5,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "p": "label",
+     "text": "Wages",
+     "x": 61,
+     "y": 54,
+     "size": 5.5,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "p": "label",
+     "text": "Chores",
+     "x": 100,
+     "y": 54,
+     "size": 5.5,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "p": "label",
+     "text": "Survivors",
+     "x": 139,
+     "y": 54,
+     "size": 5.5,
+     "bold": true,
+     "color": "blue"
+    }
+   ],
+   "spots": [
+    {
+     "on": "med",
+     "label": "Medical",
+     "text": "Allowable expenses: reasonable charges for care, recovery and rehabilitation, like Rosa's cast. Up to the PIP medical level chosen."
+    },
+    {
+     "on": "wage",
+     "label": "Wages",
+     "text": "Work loss: income Rosa would have earned in the first 3 years after the accident, cut 15% for the tax advantage, with a cap per 30 days."
+    },
+    {
+     "on": "chore",
+     "label": "Chores",
+     "text": "Replacement services: Rosa can't do laundry or rake leaves with a broken arm, so PIP pays up to $20 a day for help. First 3 years."
+    },
+    {
+     "on": "surv",
+     "label": "Survivors",
+     "text": "Survivor's loss: if an injured person dies, the dependents get the support they lost, for the first 3 years after the accident."
+    }
+   ],
    "beats": [
     {
-     "text": "PIP, personal injury protection, pays for bodily injury from an auto accident, without regard to fault.",
-     "say": "P I P, personal injury protection, pays for bodily injury from an auto accident, without regard to fault.",
+     "text": "Rosa's PIP pays four kinds of benefits. Remember them: Michigan Winters Can Snow.",
+     "say": "Rosa's P I P pays four kinds of benefits. Remember them: Michigan Winters Can Snow."
+    },
+    {
+     "text": "Tap the four glowing spots.",
+     "say": "Tap the four glowing spots."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Exam names: Medical is allowable expenses, up to the level chosen. Wages is work loss. Chores is replacement services, up to $20 a day.",
+     "say": "Exam names: Medical is allowable expenses, up to the level chosen. Wages is work loss. Chores is replacement services, up to twenty dollars a day."
+    },
+    {
+     "text": "Survivors: dependents' lost support after a death. All but medical stop 3 years after the accident.",
+     "say": "Survivors: dependents' lost support after a death. All but medical stop three years after the accident."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Rosa's paycheck: 85%, then the cap",
+   "src": "MCL 500.3107(1)(b); DIFS Bulletin 2026-20-INS; memory hook mn_auto-08",
+   "kind": "PIP benefit",
+   "term": "Work loss",
+   "plain": "Lost pay for 3 years after the accident. PIP pays 85% (unless you prove a smaller tax advantage), as the benefit isn't taxed. Capped per 30 days.",
+   "example": "Rosa crashed Nov 15, 2026. 85% of her $10,000 a month is $8,500. That date's cap is $7,455, so PIP pays her $7,455 per 30 days.",
+   "exam": "Cap: $7,455 per 30 days for accidents Oct 1, 2026 to Sep 30, 2027. It changes every Oct 1: go by the accident date.",
+   "draw": [
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 14,
+     "y": 22,
+     "h": 24,
+     "opt": {
+      "who": "rosa",
+      "mood": "worried",
+      "pose": "think"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Off work",
+     "x": 14,
+     "y": 39,
+     "size": 4.2,
+     "bold": true,
+     "color": "red",
+     "cue": "work"
+    },
+    {
+     "id": "n1",
+     "p": "num",
+     "text": "$10,000",
+     "x": 55,
+     "y": 9,
+     "size": 7,
+     "at": 2,
+     "cue": "earns"
+    },
+    {
+     "p": "arrow",
+     "from": [
+      55,
+      14
+     ],
+     "to": [
+      55,
+      24
+     ],
+     "bend": 0,
+     "label": "85%",
+     "at": 2,
+     "cue": "so"
+    },
+    {
+     "id": "n2",
+     "p": "num",
+     "text": "$8,500",
+     "x": 55,
+     "y": 29,
+     "size": 7,
+     "at": 2,
+     "cue": "so"
+    },
+    {
+     "id": "cap",
+     "p": "line",
+     "from": [
+      36,
+      38
+     ],
+     "to": [
+      77,
+      38
+     ],
+     "color": "red",
+     "at": 3,
+     "cue": "cap"
+    },
+    {
+     "p": "label",
+     "text": "Cap per 30 days: $7,455",
+     "x": 57,
+     "y": 43,
+     "size": 4,
+     "color": "red",
+     "at": 3,
+     "cue": "cap"
+    },
+    {
+     "id": "pay",
+     "p": "stamp",
+     "text": "PIP pays $7,455",
+     "x": 56,
+     "y": 54,
+     "size": 4.6,
+     "color": "green",
+     "at": 3,
+     "cue": "gets"
+    },
+    {
+     "id": "crash",
+     "p": "calendar",
+     "x": 10,
+     "y": 52,
+     "h": 13,
+     "opt": {
+      "n": "NOV 15",
+      "size": 10
+     },
+     "at": 3,
+     "cue": "crashed"
+    },
+    {
+     "p": "label",
+     "text": "Crash",
+     "x": 10,
+     "y": 61,
+     "size": 3.8,
+     "bold": true,
+     "color": "red",
+     "at": 3,
+     "cue": "crashed"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 27,
+     "y": 52,
+     "h": 13,
+     "opt": {
+      "n": "OCT 1",
+      "size": 10
+     },
+     "at": 4,
+     "cue": "October"
+    },
+    {
+     "p": "label",
+     "text": "New cap",
+     "x": 27,
+     "y": 61,
+     "size": 3.8,
+     "bold": true,
+     "color": "gray",
+     "at": 4,
+     "cue": "October"
+    }
+   ],
+   "beats": [
+    {
+     "text": "I can't work for months!",
+     "say": "I can't work for months!",
+     "voice": "rosa",
      "show": 1
     },
     {
-     "text": "PPI, property protection insurance, pays for damage your car does in Michigan to others' property, like fences and properly parked cars, up to $1 million per accident.",
-     "say": "P P I, property protection insurance, pays for damage your car does in Michigan to others' property, like fences and properly parked cars, up to one million dollars per accident.",
+     "text": "Work loss pays her lost income, minus 15%, because the benefit isn't taxed.",
+     "say": "Work loss pays her lost income, minus fifteen percent, because the benefit isn't taxed.",
      "show": 2
     },
     {
-     "text": "Residual liability covers the tort liability Michigan still allows, and accidents in other states.",
-     "say": "Residual liability covers the tort liability Michigan still allows, and accidents in other states.",
+     "text": "She earns $10,000 a month, so 85% is $8,500.",
+     "say": "She earns ten thousand dollars a month, so eighty-five percent is eight thousand five hundred dollars.",
      "show": 3
     },
     {
-     "text": "Quick test. Injuries regardless of fault: PIP. Others' property in Michigan, but not moving cars: PPI. Your legal liability: residual liability.",
-     "say": "Quick test. Injuries regardless of fault: P I P. Others' property in Michigan, but not moving cars: P P I. Your legal liability: residual liability.",
-     "show": 3,
-     "tell": true
+     "text": "For accidents from October 1, 2026, through September 30, 2027, Michigan's cap is $7,455 per 30 days. Rosa crashed on November 15, 2026, so that's what she gets.",
+     "say": "For accidents from October first, twenty twenty-six, through September thirtieth, twenty twenty-seven, Michigan's cap is seven thousand four hundred fifty-five dollars per thirty days. Rosa crashed on November fifteenth, twenty twenty-six, so that's what she gets.",
+     "show": 4,
+     "hl": "pay"
+    },
+    {
+     "text": "The cap changes every October 1. Pick it by the accident date.",
+     "say": "The cap changes every October first. Pick it by the accident date.",
+     "show": 4,
+     "hl": "cal"
     }
    ]
   },
   {
    "type": "hook",
-   "title": "The four PIP benefits",
-   "src": "MCL 500.3107(1)(a)-(c), 3108",
-   "mn": "mn-mn_auto-07",
-   "hook": "Michigan Winters Can Snow: Medical, Wages, Chores, Survivors.",
-   "items": [
-    "Medical: allowable expenses, capped by the level you choose",
-    "Wages: work loss, 85% of lost income, first 3 years",
-    "Chores: replacement services, up to $20 a day, first 3 years",
-    "Survivors: dependents' lost support, first 3 years"
-   ],
-   "beats": [
-    {
-     "text": "PIP pays four kinds of benefits. Remember them this way: Michigan Winters Can Snow.",
-     "say": "P I P pays four kinds of benefits. Remember them this way: Michigan Winters Can Snow.",
-     "show": 0
-    },
-    {
-     "text": "Medical means allowable expenses for care, recovery and rehabilitation, up to the medical level you choose.",
-     "say": "Medical means allowable expenses for care, recovery and rehabilitation, up to the medical level you choose.",
-     "show": 1
-    },
-    {
-     "text": "Wages means work loss: lost income for the first 3 years, reduced 15% for the tax advantage.",
-     "say": "Wages means work loss: lost income for the first three years, reduced fifteen percent for the tax advantage.",
-     "show": 2
-    },
-    {
-     "text": "Chores means replacement services, like housework or yard work: up to $20 a day for 3 years. Survivors means dependents' lost support after a death, also for 3 years.",
-     "say": "Chores means replacement services, like housework or yard work: up to twenty dollars a day for three years. Survivors means dependents' lost support after a death, also for three years.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "formula",
-   "title": "Work loss: Dan's 30-day check",
-   "src": "MCL 500.3107(1)(b); DIFS Bulletin 2026-20-INS",
-   "given": [
-    "Accident on November 15, 2026",
-    "Dan earned $10,000 a month",
-    "Cap, accidents Oct 1, 2026 to Sep 30, 2027: $7,455"
-   ],
-   "items": [
-    {
-     "label": "Lost income, one 30-day period",
-     "expr": "One month of Dan's pay",
-     "value": "$10,000"
-    },
-    {
-     "label": "Less 15% for the tax advantage",
-     "expr": "85% × $10,000",
-     "value": "$8,500"
-    },
-    {
-     "label": "Apply the 30-day cap",
-     "expr": "Lesser of $8,500 or $7,455",
-     "value": "$7,455"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Dan is hurt in a Michigan crash on November 15, 2026. He earned $10,000 a month, and can't work.",
-     "say": "Dan is hurt in a Michigan crash on November fifteenth, twenty twenty-six. He earned ten thousand dollars a month, and can't work.",
-     "show": 1
-    },
-    {
-     "text": "Work loss is cut 15% for the tax advantage, unless he proves a lower one. 85% of $10,000 is $8,500.",
-     "say": "Work loss is cut fifteen percent for the tax advantage, unless he proves a lower one. Eighty-five percent of ten thousand dollars is eight thousand five hundred dollars.",
-     "show": 2
-    },
-    {
-     "text": "Now the cap. For accidents from October 1, 2026, through September 30, 2027, it's $7,455 per 30 days. So PIP pays Dan $7,455.",
-     "say": "Now the cap. For accidents from October first, twenty twenty-six, through September thirtieth, twenty twenty-seven, it's seven thousand four hundred fifty-five dollars per thirty days. So P I P pays Dan seven thousand four hundred fifty-five dollars.",
-     "show": 3
-    },
-    {
-     "text": "The cap changes every October 1, so always pick it by the accident date.",
-     "say": "The cap changes every October first, so always pick it by the accident date.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "hook",
-   "title": "PIP medical levels",
-   "src": "Policies issued or renewed after July 1, 2020. MCL 500.3107c(1),(3),(4); 3107d(1),(7); 3109a(2)",
+   "title": "Climb the PIP ladder",
+   "src": "Policies issued or renewed after July 1, 2020: MCL 500.3107c(1),(3),(4); 3107d(1),(7); 3109a(2),(5); mn_auto-01, 02",
    "mn": "mn-mn_auto-01",
    "hook": "Climb the PIP ladder: 50 - 250 - 500 - the Sky. Or step off the ladder completely (opt-out).",
    "items": [
-    "$50,000: named insured on Medicaid, household covered",
-    "$250,000: insurer must also offer a QHC exclusion",
-    "$500,000, or the Sky: unlimited, also the default",
-    "Step off: opt out, only with Medicare Parts A and B"
+    "$50,000: named insured on Medicaid; household has QHC, Medicaid or other PIP",
+    "$250,000: insurer must also offer a QHC (qualified health coverage) exclusion",
+    "$500,000, or the Sky: unlimited (default if no valid choice)",
+    "Step off (opt out): Medicare A and B; household has QHC or other auto PIP"
+   ],
+   "draw": [
+    {
+     "id": "sky",
+     "p": "cloud",
+     "x": 40,
+     "y": 8,
+     "h": 9
+    },
+    {
+     "p": "label",
+     "text": "the Sky: unlimited",
+     "x": 64,
+     "y": 8,
+     "size": 4.2,
+     "bold": true,
+     "color": "blue",
+     "w": 30
+    },
+    {
+     "id": "ladder",
+     "p": "ladder",
+     "x": 40,
+     "y": 38,
+     "h": 46
+    },
+    {
+     "p": "label",
+     "text": "$500,000",
+     "x": 14,
+     "y": 22,
+     "size": 4.2,
+     "bold": true,
+     "at": 0,
+     "cue": "ladder"
+    },
+    {
+     "p": "label",
+     "text": "$250,000",
+     "x": 14,
+     "y": 36,
+     "size": 4.2,
+     "bold": true,
+     "at": 0,
+     "cue": "ladder"
+    },
+    {
+     "p": "label",
+     "text": "$50,000",
+     "x": 14,
+     "y": 50,
+     "size": 4.2,
+     "bold": true,
+     "at": 0,
+     "cue": "ladder"
+    },
+    {
+     "p": "line",
+     "from": [
+      25,
+      22
+     ],
+     "to": [
+      32,
+      22
+     ],
+     "color": "gray",
+     "at": 0,
+     "cue": "ladder"
+    },
+    {
+     "p": "line",
+     "from": [
+      25,
+      36
+     ],
+     "to": [
+      32,
+      36
+     ],
+     "color": "gray",
+     "at": 0,
+     "cue": "ladder"
+    },
+    {
+     "p": "line",
+     "from": [
+      25,
+      50
+     ],
+     "to": [
+      32,
+      50
+     ],
+     "color": "gray",
+     "at": 0,
+     "cue": "ladder"
+    },
+    {
+     "id": "no100",
+     "p": "label",
+     "text": "$100,000",
+     "x": 14,
+     "y": 43,
+     "size": 3.8,
+     "color": "gray",
+     "at": 3,
+     "cue": "rung"
+    },
+    {
+     "p": "xout",
+     "on": "no100",
+     "at": 3,
+     "cue": "rung"
+    },
+    {
+     "id": "gma",
+     "p": "person",
+     "x": 62,
+     "y": 50,
+     "h": 22,
+     "opt": {
+      "who": "grandma",
+      "pose": "walk",
+      "mood": "happy"
+     },
+     "label": "Step off",
+     "lsize": 3.8,
+     "at": 4,
+     "cue": "step"
+    },
+    {
+     "p": "arrow",
+     "from": [
+      47,
+      50
+     ],
+     "to": [
+      55,
+      48
+     ],
+     "at": 4,
+     "cue": "step"
+    }
    ],
    "beats": [
     {
-     "text": "For policies issued or renewed after July 1, 2020, the named insured picks a PIP medical level. Climb the PIP ladder: 50, 250, 500, the Sky. Or step off completely.",
-     "say": "For policies issued or renewed after July first, twenty twenty, the named insured picks a P I P medical level. Climb the P I P ladder: fifty, two hundred fifty, five hundred, the sky. Or step off completely.",
+     "text": "For policies issued or renewed after July 1, 2020, the named insured picks a medical level. Climb the PIP ladder: 50, 250, 500, the Sky.",
+     "say": "For policies issued or renewed after July first, twenty twenty, the named insured picks a medical level. Climb the P I P ladder: fifty, two hundred fifty, five hundred, the sky.",
      "show": 0
     },
     {
-     "text": "$50,000 is only for a named insured on Medicaid. The spouse and resident relatives also need qualified health coverage, Medicaid, or other auto PIP.",
-     "say": "Fifty thousand dollars is only for a named insured on Medicaid. The spouse and resident relatives also need qualified health coverage, Medicaid, or other auto P I P.",
+     "text": "$50,000 is only for a named insured on Medicaid, with the household covered.",
+     "say": "Fifty thousand dollars is only for a named insured on Medicaid, with the household covered.",
      "show": 1
     },
     {
-     "text": "At $250,000, the insurer must also offer an exclusion for people with qualified health coverage. There's no level at $100,000.",
-     "say": "At two hundred fifty thousand dollars, the insurer must also offer an exclusion for people with qualified health coverage. There's no level at one hundred thousand dollars.",
+     "text": "At $250,000, the insurer must also offer to exclude people with QHC: qualified health coverage, which covers auto injuries with a capped deductible. An excluded named insured needs QHC other than Medicare.",
+     "say": "At two hundred fifty thousand dollars, the insurer must also offer to exclude people with Q H C: qualified health coverage, which covers auto injuries with a capped deductible. An excluded named insured needs Q H C other than Medicare.",
      "show": 2
     },
     {
-     "text": "Unlimited is also the default when no valid choice is made, unless the premium paid shows another level.",
-     "say": "Unlimited is also the default when no valid choice is made, unless the premium paid shows another level.",
+     "text": "No rung at $100,000. No valid choice? You get the Sky, unless the premium paid shows another level.",
+     "say": "No rung at one hundred thousand dollars. No valid choice? You get the sky, unless the premium paid shows another level.",
      "show": 3
     },
     {
-     "text": "Stepping off means opting out of PIP medical. That needs Medicare Parts A and B, and the spouse and resident relatives need qualified health coverage or other auto PIP.",
-     "say": "Stepping off means opting out of P I P medical. That needs Medicare Parts A and B, and the spouse and resident relatives need qualified health coverage or other auto P I P.",
-     "show": 4
-    },
-    {
-     "text": "Memory trick: Medic-AID gets a little aid. Medic-ARE folks ARE allowed out.",
-     "say": "Memory trick: Medic-aid gets a little aid. Medic-are folks are allowed out.",
+     "text": "Or step off: opt out of PIP medical, with Medicare Parts A and B, if the household has QHC or other auto PIP. Medicare A and B counts as QHC.",
+     "say": "Or step off: opt out of P I P medical, with Medicare Parts A and B, if the household has Q H C or other auto P I P. Medicare A and B counts as Q H C.",
      "show": 4
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "Which named insured may opt out of PIP medical coverage entirely, if the household is covered?",
-   "choices": [
-    "One enrolled in Medicaid",
-    "One enrolled in Medicare Parts A and B",
-    "Anyone age 60 or older",
-    "Anyone who signs the DIFS selection form"
+   "type": "choice",
+   "title": "Dana's call: can Grandma step off?",
+   "src": "MCL 500.3107c(1)(a); 3107d(1),(2),(7)(b)-(c); hook mn_auto-02; questions auto-019, auto-020",
+   "ask": "What does Dana tell Grandma?",
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 20,
+     "y": 33,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "clipboard"
+     }
+    },
+    {
+     "id": "gpa",
+     "p": "person",
+     "x": 66,
+     "y": 33,
+     "h": 34,
+     "opt": {
+      "who": "person",
+      "hair": "none",
+      "glasses": true,
+      "beard": true,
+      "shirt": "brown",
+      "mood": "happy"
+     },
+     "label": "Grandpa",
+     "lsize": 4.6
+    },
+    {
+     "id": "gma",
+     "p": "person",
+     "x": 88,
+     "y": 33,
+     "h": 34,
+     "opt": {
+      "who": "grandma",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "flip": true
+    },
+    {
+     "p": "bubble",
+     "text": "Can I drop PIP medical?",
+     "x": 126,
+     "y": 10,
+     "w": 40,
+     "to": "gma",
+     "size": 5
+    }
    ],
-   "answer": 1,
-   "why": "Only a named insured with Medicare Parts A and B may opt out, and the spouse and resident relatives need QHC or other auto PIP. Medicaid opens only the $50,000 level.",
    "beats": [
     {
-     "text": "Quick check. Which named insured may opt out of PIP medical entirely, if the household is covered? Pick an answer.",
-     "say": "Quick check. Which named insured may opt out of P I P medical entirely, if the household is covered? Pick an answer."
+     "text": "Rosa's grandma renews her policy. She and Grandpa, the only other person at home, both have Medicare Parts A and B.",
+     "say": "Rosa's grandma renews her policy. She and Grandpa, the only other person at home, both have Medicare Parts A and B."
+    },
+    {
+     "text": "She wants no PIP medical. What does Dana say?",
+     "say": "She wants no P I P medical. What does Dana say?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Sorry, everyone must carry PIP medical",
+     "ok": false,
+     "fail": "A named insured with Medicare Parts A and B may opt out of PIP medical, if the spouse and resident relatives have QHC or other auto PIP.",
+     "beats": [
+      {
+       "text": "Grandma keeps paying for PIP medical she was allowed to drop.",
+       "say": "Grandma keeps paying for P I P medical she was allowed to drop."
+      }
+     ],
+     "draw": [
+      {
+       "id": "gma",
+       "p": "person",
+       "x": 36,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "grandma",
+        "pose": "hold",
+        "hold": "money",
+        "mood": "sad"
+       }
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 58,
+       "y": 22,
+       "h": 9,
+       "move": {
+        "to": [
+         84,
+         26
+        ],
+        "at": 0,
+        "cue": "paying",
+        "sfx": "cash"
+       }
+      },
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 104,
+       "y": 28,
+       "h": 34
+      },
+      {
+       "p": "label",
+       "text": "PIP medical she could drop",
+       "x": 70,
+       "y": 52,
+       "size": 4.6,
+       "color": "red",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "label": "Pick $50,000: that's the senior level",
+     "ok": false,
+     "fail": "Medic-aid gets a little aid: the $50,000 level is only for a named insured on Medicaid, with the household covered.",
+     "beats": [
+      {
+       "text": "There's no senior level. $50,000 is only for Medicaid, and Grandma has Medicare.",
+       "say": "There's no senior level. Fifty thousand dollars is only for Medicaid, and Grandma has Medicare."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ladder",
+       "p": "ladder",
+       "x": 26,
+       "y": 30,
+       "h": 44
+      },
+      {
+       "p": "label",
+       "text": "$50,000",
+       "x": 50,
+       "y": 44,
+       "size": 5,
+       "bold": true
+      },
+      {
+       "p": "label",
+       "text": "Medicaid only",
+       "x": 50,
+       "y": 52,
+       "size": 4.4,
+       "color": "red",
+       "bold": true
+      },
+      {
+       "p": "arrow",
+       "from": [
+        41,
+        45
+       ],
+       "to": [
+        33,
+        47
+       ],
+       "bend": 0
+      },
+      {
+       "id": "gma",
+       "p": "person",
+       "x": 98,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "grandma",
+        "pose": "shrug",
+        "mood": "worried"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "But I'm on Medicare!",
+       "x": 124,
+       "y": 30,
+       "w": 28,
+       "to": "gma"
+      }
+     ]
+    },
+    {
+     "label": "Yes, you can step off the ladder",
+     "ok": true,
+     "win": "Opt-out needs Medicare Parts A and B, a household with QHC or other auto PIP, and proof from the QHC provider. Medicare A and B counts as QHC.",
+     "beats": [
+      {
+       "text": "Off the ladder I go!",
+       "say": "Off the ladder I go!",
+       "voice": "grandma"
+      },
+      {
+       "text": "Grandpa's Medicare counts as qualified health coverage, so your household passes.",
+       "say": "Grandpa's Medicare counts as qualified health coverage, so your household passes.",
+       "voice": "dana"
+      }
+     ],
+     "draw": [
+      {
+       "id": "ladder",
+       "p": "ladder",
+       "x": 22,
+       "y": 30,
+       "h": 42
+      },
+      {
+       "id": "gma",
+       "p": "person",
+       "x": 48,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "grandma",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      },
+      {
+       "id": "gpa",
+       "p": "person",
+       "x": 70,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "person",
+        "hair": "none",
+        "glasses": true,
+        "beard": true,
+        "shirt": "brown",
+        "pose": "cheer",
+        "mood": "laugh"
+       },
+       "label": "Grandpa",
+       "lsize": 4.6
+      },
+      {
+       "p": "stamp",
+       "text": "Opt-out OK",
+       "x": 118,
+       "y": 22,
+       "size": 6,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "Medicare A and B, household covered, QHC proof given",
+       "x": 120,
+       "y": 42,
+       "size": 4.8,
+       "w": 52,
+       "color": "green",
+       "bold": true,
+       "at": 1
+      }
+     ]
     }
    ],
    "reveal": [
     {
-     "text": "The answer is the one enrolled in Medicare Parts A and B. Medicaid opens only the level of $50,000, not the opt-out.",
-     "say": "The answer is the one enrolled in Medicare Parts A and B. Medicaid opens only the level of fifty thousand dollars, not the opt-out."
+     "text": "Memory trick: Medic-aid gets a little aid. Medic-are folks are allowed out, if the household is covered.",
+     "say": "Memory trick: Medic-aid gets a little aid. Medic-are folks are allowed out, if the household is covered."
     }
    ]
   },
   {
-   "type": "scenario",
-   "title": "Which damage does PPI pay?",
-   "src": "MCL 500.3121(1),(5); 500.3123(1)(a); 500.3135(3)(e); DIFS auto FAQ",
-   "icon": "fence",
-   "story": "On an icy Michigan road, a driver loses control. The car damages three things owned by strangers: a fence, a properly parked car, and a car moving in the next lane.",
-   "items": [
+   "type": "term",
+   "title": "The fence and the parked car",
+   "src": "MCL 500.3121(1),(5); 500.3123(1)(a),(2); DIFS auto FAQ; hook mn_auto-12",
+   "kind": "Coverage",
+   "term": "Property protection insurance (PPI)",
+   "plain": "Pays, without regard to fault, for damage your car does in Michigan to other people's property. Up to $1 million per accident.",
+   "example": "Rosa's slide wrecked a stranger's fence and dented a stranger's properly parked car. Her PPI pays for both.",
+   "exam": "Not moving cars, not your own car, and not outside Michigan. A car parked without unreasonable risk IS covered.",
+   "draw": [
     {
-     "label": "The fence",
-     "detail": "Tangible property damaged in Michigan: PPI pays"
+     "id": "fence",
+     "p": "fence",
+     "x": 20,
+     "y": 14,
+     "h": 11,
+     "opt": {
+      "broken": true
+     }
     },
     {
-     "label": "The properly parked car",
-     "detail": "Parked without unreasonable risk: PPI pays"
+     "p": "check",
+     "x": 36,
+     "y": 6,
+     "h": 6
     },
     {
-     "label": "The moving car",
-     "detail": "Vehicles are excluded unless properly parked"
+     "id": "pcar",
+     "p": "car",
+     "x": 58,
+     "y": 14,
+     "h": 10,
+     "opt": {
+      "color": "gray",
+      "dent": true
+     },
+     "label": "Parked",
+     "lsize": 4
+    },
+    {
+     "p": "check",
+     "x": 74,
+     "y": 6,
+     "h": 6
+    },
+    {
+     "id": "mcar",
+     "p": "car",
+     "x": 44,
+     "y": 36,
+     "h": 10,
+     "opt": {
+      "color": "green",
+      "dent": true
+     },
+     "label": "Moving",
+     "lsize": 4,
+     "at": 2,
+     "cue": "moving"
+    },
+    {
+     "p": "wind",
+     "x": 22,
+     "y": 35,
+     "h": 6,
+     "at": 2,
+     "cue": "moving"
+    },
+    {
+     "p": "xout",
+     "on": "mcar",
+     "at": 2,
+     "cue": "not"
+    },
+    {
+     "id": "mi",
+     "p": "michigan",
+     "x": 20,
+     "y": 57,
+     "h": 17,
+     "opt": {
+      "pin": "lansing"
+     }
+    },
+    {
+     "id": "mil",
+     "p": "label",
+     "text": "In Michigan only, up to $1 million per accident",
+     "x": 56,
+     "y": 57,
+     "size": 4,
+     "w": 36,
+     "bold": true,
+     "color": "green",
+     "at": 0,
+     "cue": "million"
     }
    ],
-   "answer": "The fence and the parked car. The moving car's owner looks to collision coverage or the mini-tort.",
    "beats": [
     {
-     "text": "A driver slides on Michigan ice and hits a stranger's fence, a properly parked car, and a car moving in the next lane. What does PPI pay for?",
-     "say": "A driver slides on Michigan ice and hits a stranger's fence, a properly parked car, and a car moving in the next lane. What does P P I pay for?",
-     "show": 0
-    },
-    {
-     "text": "PPI pays for the fence. It also pays for the parked car, because it was parked without unreasonable risk.",
-     "say": "P P I pays for the fence. It also pays for the parked car, because it was parked without unreasonable risk.",
+     "text": "PPI pays, without regard to fault, for damage your car does in Michigan to others' property, up to $1 million per accident.",
+     "say": "P P I pays, without regard to fault, for damage your car does in Michigan to others' property, up to one million dollars per accident.",
      "show": 2
     },
     {
-     "text": "But PPI excludes vehicles unless properly parked. So the answer is the fence and the parked car. The moving car's owner looks to collision coverage or the mini-tort.",
-     "say": "But P P I excludes vehicles unless properly parked. So the answer is the fence and the parked car. The moving car's owner looks to collision coverage or the mini-tort.",
+     "text": "So Rosa's PPI pays for the fence and the parked car.",
+     "say": "So Rosa's P P I pays for the fence and the parked car.",
      "show": 3,
-     "answer": true
+     "hl": [
+      "fence",
+      "pcar"
+     ]
+    },
+    {
+     "text": "The rhyme: Moving cars? PPI's not paying. Fences, buildings, properly parked cars in the mitten? PPI's paying, up to a million.",
+     "say": "The rhyme: Moving cars? P P I's not paying. Fences, buildings, properly parked cars in the mitten? P P I's paying, up to a million.",
+     "show": 4,
+     "hl": "mi"
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "Same kind of crash, but in Toledo, Ohio, and it damages a building there. What pays for the building?",
-   "choices": [
-    "PPI, up to $1 million",
-    "Residual property damage liability",
-    "The driver's collision coverage"
+   "type": "swipe",
+   "title": "Does PPI pay?",
+   "src": "MCL 500.3121(1),(5), 3123(1)(a),(2), 3009(1)(c), 3037(1),(8)(b); DIFS auto FAQ; questions auto-031, auto-032, auto-048; cp_personal-12",
+   "options": [
+    "PPI pays",
+    "PPI won't pay"
    ],
-   "answer": 1,
-   "why": "PPI is not payable for accidents outside Michigan. Property damage liability, at least $10,000, covers damage your car does in other states.",
+   "cards": [
+    {
+     "text": "Rosa's slide flattens a neighbor's mailbox in Lansing.",
+     "answer": 0,
+     "why": "Others' tangible property, damaged in Michigan: PPI pays, without regard to fault.",
+     "draw": [
+      {
+       "p": "mailbox",
+       "x": 36,
+       "y": 34,
+       "h": 26,
+       "rot": -30
+      },
+      {
+       "p": "crash",
+       "x": 24,
+       "y": 16,
+       "h": 12,
+       "opt": {
+        "text": "BONK"
+       },
+       "over": true
+      },
+      {
+       "p": "michigan",
+       "x": 78,
+       "y": 28,
+       "h": 32,
+       "opt": {
+        "pin": "lansing"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Sam's car, moving in the next lane, gets clipped.",
+     "answer": 1,
+     "why": "Vehicles are excluded unless properly parked. Sam looks to collision coverage, or the mini-tort: a small claim against Rosa (coming up).",
+     "draw": [
+      {
+       "p": "car",
+       "x": 56,
+       "y": 30,
+       "h": 24,
+       "opt": {
+        "color": "green",
+        "dent": true
+       }
+      },
+      {
+       "p": "wind",
+       "x": 22,
+       "y": 28,
+       "h": 10
+      }
+     ]
+    },
+    {
+     "text": "Rosa sideswipes a car parked legally at the curb in Lansing.",
+     "answer": 0,
+     "why": "Parked so as not to cause unreasonable risk: PPI pays.",
+     "draw": [
+      {
+       "p": "car",
+       "x": 40,
+       "y": 34,
+       "h": 24,
+       "opt": {
+        "color": "gray",
+        "dent": true
+       }
+      },
+      {
+       "p": "icon",
+       "name": "circle-parking",
+       "x": 82,
+       "y": 28,
+       "h": 22,
+       "color": "blue"
+      }
+     ]
+    },
+    {
+     "text": "Rosa's own car is crumpled.",
+     "answer": 1,
+     "why": "PPI doesn't pay for your own car. That's for collision coverage. Rosa was over 50% at fault, so limited collision wouldn't pay; broad form would.",
+     "draw": [
+      {
+       "p": "car",
+       "x": 46,
+       "y": 32,
+       "h": 26,
+       "opt": {
+        "color": "purple",
+        "dent": true
+       }
+      },
+      {
+       "p": "crash",
+       "x": 72,
+       "y": 24,
+       "h": 18,
+       "opt": {
+        "text": "OOF"
+       },
+       "over": true
+      }
+     ]
+    },
+    {
+     "text": "What if Rosa had slid into a bakery wall in Toledo, Ohio?",
+     "answer": 1,
+     "why": "No PPI outside Michigan. Residual property damage liability, at least $10,000, covers damage in other states.",
+     "draw": [
+      {
+       "p": "store",
+       "x": 36,
+       "y": 28,
+       "h": 38,
+       "opt": {
+        "name": "BAKERY"
+       }
+      },
+      {
+       "p": "car",
+       "x": 60,
+       "y": 40,
+       "h": 14,
+       "opt": {
+        "color": "purple",
+        "dent": true
+       },
+       "flip": true,
+       "over": true
+      },
+      {
+       "p": "crash",
+       "x": 50,
+       "y": 22,
+       "h": 12,
+       "over": true
+      },
+      {
+       "p": "sign",
+       "x": 86,
+       "y": 30,
+       "h": 26,
+       "opt": {
+        "text": "OHIO"
+       }
+      }
+     ]
+    },
+    {
+     "text": "What if her car had smashed the front of Tony's Pizza in Detroit?",
+     "answer": 0,
+     "why": "A building in Michigan: PPI pays.",
+     "draw": [
+      {
+       "p": "store",
+       "x": 36,
+       "y": 28,
+       "h": 38,
+       "opt": {
+        "name": "TONY'S PIZZA"
+       }
+      },
+      {
+       "p": "car",
+       "x": 60,
+       "y": 40,
+       "h": 14,
+       "opt": {
+        "color": "purple",
+        "dent": true
+       },
+       "flip": true,
+       "over": true
+      },
+      {
+       "p": "crash",
+       "x": 50,
+       "y": 22,
+       "h": 12,
+       "over": true
+      },
+      {
+       "p": "michigan",
+       "x": 86,
+       "y": 28,
+       "h": 30,
+       "opt": {
+        "pin": "detroit"
+       }
+      }
+     ]
+    }
+   ],
    "beats": [
     {
-     "text": "Now predict. The same crash happens in Toledo, Ohio, and damages a building. What pays for the building? Pick an answer.",
-     "say": "Now predict. The same crash happens in Toledo, Ohio, and damages a building. What pays for the building? Pick an answer."
+     "text": "Your turn: does PPI pay?",
+     "say": "Your turn: does P P I pay?"
     }
    ],
    "reveal": [
     {
-     "text": "The answer is residual property damage liability. PPI pays only for accidents in Michigan. That's why the property damage minimum of $10,000 still matters.",
-     "say": "The answer is residual property damage liability. P P I pays only for accidents in Michigan. That's why the property damage minimum of ten thousand dollars still matters."
+     "text": "PPI pays for others' property in Michigan. Not moving cars, not your own car, and nothing outside Michigan.",
+     "say": "P P I pays for others' property in Michigan. Not moving cars, not your own car, and nothing outside Michigan."
+    },
+    {
+     "text": "Out of state, residual property damage liability pays. That's why its minimum of $10,000 still matters.",
+     "say": "Out of state, residual property damage liability pays. That's why its minimum of ten thousand dollars still matters."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "When you can still sue",
-   "src": "MCL 500.3135(1),(2)(b),(3)(c),(3)(e),(4),(5)",
-   "items": [
+   "type": "sketch",
+   "title": "What you can still sue for in Michigan",
+   "src": "MCL 500.3135(1),(2)(b),(3)(a)-(e),(4),(5); questions auto-033, auto-035, auto-036; hooks mn_auto-15, 16, 17",
+   "draw": [
     {
-     "label": "Pain and suffering: threshold injury",
-     "detail": "Death, serious impairment of body function, or permanent serious disfigurement",
-     "icon": "gavel"
+     "p": "label",
+     "text": "Michigan: most tort liability is gone. Three of the five that survive:",
+     "x": 80,
+     "y": 7,
+     "size": 4.6,
+     "bold": true,
+     "w": 150
     },
     {
-     "label": "Economic loss above your PIP limits",
-     "detail": "For example, medical bills above the level you chose",
-     "icon": "hospital"
+     "id": "court",
+     "p": "courthouse",
+     "x": 80,
+     "y": 38,
+     "h": 32,
+     "out": 1
     },
     {
-     "label": "Mini-tort: up to $3,000",
-     "detail": "Car damage insurance didn't pay, for accidents after July 1, 2020",
-     "icon": "car-front"
+     "p": "label",
+     "text": "Also: intentional harm",
+     "x": 30,
+     "y": 36,
+     "size": 4.2,
+     "w": 40,
+     "color": "gray",
+     "cue": "intentional",
+     "out": 1
     },
     {
-     "label": "More than 50% at fault?",
-     "detail": "No pain-and-suffering damages, and no mini-tort",
-     "icon": "ban"
+     "p": "label",
+     "text": "Also: a nonresident's economic loss, with a threshold injury",
+     "x": 130,
+     "y": 36,
+     "size": 4.2,
+     "w": 40,
+     "color": "gray",
+     "cue": "economic",
+     "out": 1
+    },
+    {
+     "p": "divider",
+     "x": 54,
+     "y0": 13,
+     "y1": 64,
+     "at": 1,
+     "y": 38
+    },
+    {
+     "p": "divider",
+     "x": 107,
+     "y0": 13,
+     "y1": 64,
+     "at": 3,
+     "y": 38
+    },
+    {
+     "p": "label",
+     "text": "1. Pain and suffering",
+     "x": 27,
+     "y": 15,
+     "size": 4.4,
+     "bold": true,
+     "color": "purple",
+     "at": 1
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 14,
+     "y": 29,
+     "h": 17,
+     "opt": {
+      "who": "sam",
+      "pose": "sad",
+      "mood": "sad"
+     },
+     "at": 2,
+     "cue": "Had"
+    },
+    {
+     "p": "icon",
+     "name": "bandage",
+     "x": 14,
+     "y": 21.5,
+     "h": 4,
+     "color": "red",
+     "over": true,
+     "at": 2,
+     "cue": "Had"
+    },
+    {
+     "p": "label",
+     "text": "What if?",
+     "x": 28,
+     "y": 22,
+     "size": 3.8,
+     "bold": true,
+     "color": "gray",
+     "at": 2,
+     "cue": "Had"
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 42,
+     "y": 29,
+     "h": 17,
+     "opt": {
+      "who": "rosa",
+      "mood": "worried"
+     },
+     "at": 2,
+     "cue": "sue"
+    },
+    {
+     "p": "arrow",
+     "from": [
+      21,
+      28
+     ],
+     "to": [
+      35,
+      28
+     ],
+     "bend": 0,
+     "label": "sues",
+     "color": "red",
+     "at": 2,
+     "cue": "sue"
+    },
+    {
+     "p": "label",
+     "text": "DID it happen?",
+     "x": 27,
+     "y": 41,
+     "size": 4.6,
+     "bold": true,
+     "color": "red",
+     "at": 1,
+     "cue": "DID"
+    },
+    {
+     "p": "label",
+     "text": "Death, serious Impairment, permanent serious Disfigurement",
+     "x": 27,
+     "y": 50,
+     "size": 4,
+     "w": 52,
+     "at": 1,
+     "cue": "Death"
+    },
+    {
+     "p": "label",
+     "text": "Over 50% at fault: barred",
+     "x": 27,
+     "y": 61,
+     "size": 4,
+     "bold": true,
+     "color": "red",
+     "box": true,
+     "at": 5
+    },
+    {
+     "p": "label",
+     "text": "2. Above PIP limits",
+     "x": 80,
+     "y": 15,
+     "size": 4.4,
+     "bold": true,
+     "color": "purple",
+     "at": 3
+    },
+    {
+     "id": "bills",
+     "p": "receipt",
+     "x": 65,
+     "y": 31,
+     "h": 18,
+     "opt": {
+      "total": "$400K"
+     },
+     "at": 3,
+     "cue": "bills"
+    },
+    {
+     "p": "label",
+     "text": "Bills: $400,000",
+     "x": 91,
+     "y": 26,
+     "size": 4.2,
+     "at": 3,
+     "cue": "bills"
+    },
+    {
+     "p": "label",
+     "text": "PIP: $250,000",
+     "x": 91,
+     "y": 34,
+     "size": 4.2,
+     "at": 3,
+     "cue": "level"
+    },
+    {
+     "p": "label",
+     "text": "Sue the at-fault driver for the other $150,000",
+     "x": 80,
+     "y": 50,
+     "size": 4.2,
+     "w": 48,
+     "bold": true,
+     "color": "green",
+     "at": 3,
+     "cue": "Sue"
+    },
+    {
+     "p": "label",
+     "text": "3. Mini-tort",
+     "x": 133,
+     "y": 15,
+     "size": 4.4,
+     "bold": true,
+     "color": "purple",
+     "at": 4
+    },
+    {
+     "id": "mcar",
+     "p": "car",
+     "x": 133,
+     "y": 25,
+     "h": 11,
+     "opt": {
+      "color": "green",
+      "dent": true
+     },
+     "at": 4
+    },
+    {
+     "id": "m3k",
+     "p": "num",
+     "text": "$3,000",
+     "x": 133,
+     "y": 36,
+     "size": 6.5,
+     "color": "green",
+     "at": 4,
+     "cue": "up"
+    },
+    {
+     "p": "label",
+     "text": "Car damage that insurance didn't pay",
+     "x": 133,
+     "y": 45,
+     "size": 4,
+     "w": 54,
+     "at": 4,
+     "cue": "damage"
+    },
+    {
+     "p": "label",
+     "text": "After July 1, 2020 (was $1,000)",
+     "x": 133,
+     "y": 52,
+     "size": 4,
+     "color": "gray",
+     "w": 54,
+     "at": 4,
+     "cue": "July"
+    },
+    {
+     "p": "label",
+     "text": "Over 50% at fault: barred",
+     "x": 133,
+     "y": 61,
+     "size": 4,
+     "bold": true,
+     "color": "red",
+     "box": true,
+     "at": 5
     }
    ],
    "beats": [
     {
-     "text": "Now residual liability. Michigan abolished most tort liability for insured vehicles. Here are three claims that survive.",
-     "say": "Now residual liability. Michigan abolished most tort liability for insured vehicles. Here are three claims that survive.",
-     "show": 0
+     "text": "Now, lawsuits. Tort liability, legal responsibility for harm you cause, is mostly abolished in Michigan for insured vehicles. Five kinds survive: intentional harm, a nonresident's economic loss with a threshold injury, and these three.",
+     "say": "Now, lawsuits. Tort liability, legal responsibility for harm you cause, is mostly abolished in Michigan for insured vehicles. Five kinds survive: intentional harm, a nonresident's economic loss with a threshold injury, and these three."
     },
     {
-     "text": "First, pain and suffering, but only for death, serious impairment of body function, or permanent serious disfigurement. Serious impairment has no minimum duration.",
-     "say": "First, pain and suffering, but only for death, serious impairment of body function, or permanent serious disfigurement. Serious impairment has no minimum duration.",
-     "show": 1
+     "text": "One: pain and suffering, called noneconomic loss. DID it happen? Death, serious impairment of body function, or permanent serious disfigurement. Serious impairment has no minimum duration.",
+     "say": "One: pain and suffering, called noneconomic loss. Did it happen? Death, serious impairment of body function, or permanent serious disfigurement. Serious impairment has no minimum duration."
     },
     {
-     "text": "Second, economic loss above your PIP limits. Chose $250,000, and your medical bills hit $400,000? You can sue the at-fault driver for the rest.",
-     "say": "Second, economic loss above your P I P limits. Chose two hundred fifty thousand dollars, and your medical bills hit four hundred thousand dollars? You can sue the at-fault driver for the rest.",
-     "show": 2
+     "text": "Had Sam suffered a serious impairment, he could sue Rosa for pain and suffering, and her residual liability would cover it.",
+     "say": "Had Sam suffered a serious impairment, he could sue Rosa for pain and suffering, and her residual liability would cover it."
     },
     {
-     "text": "Third, the mini-tort: up to $3,000 for car damage your insurance didn't pay, for accidents after July 1, 2020. It used to be $1,000. It's not part of required residual liability.",
-     "say": "Third, the mini-tort: up to three thousand dollars for car damage your insurance didn't pay, for accidents after July first, twenty twenty. It used to be one thousand dollars. It's not part of required residual liability.",
-     "show": 3
+     "text": "Two: economic loss above your PIP limits, like medical bills past your level. Sue the at-fault driver for the rest.",
+     "say": "Two: economic loss above your P I P limits, like medical bills past your level. Sue the at-fault driver for the rest."
     },
     {
-     "text": "Watch out: a party more than 50% at fault gets no pain-and-suffering damages, and no mini-tort.",
-     "say": "Watch out: a party more than fifty percent at fault gets no pain-and-suffering damages, and no mini-tort.",
-     "show": 4
+     "text": "Three: the mini-tort, up to $3,000 for car damage that insurance didn't pay, in accidents after July 1, 2020. It's not part of required residual liability.",
+     "say": "Three: the mini-tort, up to three thousand dollars for car damage that insurance didn't pay, in accidents after July first, twenty twenty. It's not part of required residual liability."
+    },
+    {
+     "text": "Watch out: more than 50% at fault? No pain and suffering, and no mini-tort.",
+     "say": "Watch out: more than fifty percent at fault? No pain and suffering, and no mini-tort."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Sam's call: who fixes his car?",
+   "src": "MCL 500.3123(1)(a); 500.3135(3)(e),(4); questions auto-031, auto-035; hook mn_auto-17",
+   "ask": "What should Sam do?",
+   "draw": [
+    {
+     "id": "scar",
+     "p": "car",
+     "x": 34,
+     "y": 34,
+     "h": 17,
+     "opt": {
+      "color": "green",
+      "dent": true
+     },
+     "label": "$2,400 of damage",
+     "lsize": 4.4
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 82,
+     "y": 30,
+     "h": 36,
+     "opt": {
+      "who": "sam",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "No collision coverage. Now what?",
+     "x": 116,
+     "y": 10,
+     "w": 32,
+     "to": "sam",
+     "size": 4.6
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 142,
+     "y": 30,
+     "h": 36,
+     "opt": {
+      "who": "rosa",
+      "pose": "shrug",
+      "mood": "worried"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Back to Sam. His car was moving. He's insured, and Rosa was fully at fault.",
+     "say": "Back to Sam. His car was moving. He's insured, and Rosa was fully at fault."
+    },
+    {
+     "text": "$2,400 of damage, and no collision coverage. Now what?",
+     "say": "Two thousand four hundred dollars of damage, and no collision coverage. Now what?",
+     "voice": "sam"
+    }
+   ],
+   "options": [
+    {
+     "label": "Claim Rosa's PPI",
+     "ok": false,
+     "fail": "PPI excludes vehicles unless parked without unreasonable risk. A moving car gets no PPI.",
+     "beats": [
+      {
+       "text": "Rosa's insurer says no: PPI won't pay for a moving car.",
+       "say": "Rosa's insurer says no: P P I won't pay for a moving car."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 32,
+       "y": 26,
+       "h": 34,
+       "label": "Rosa's insurer",
+       "lsize": 4
+      },
+      {
+       "p": "stamp",
+       "text": "No PPI",
+       "x": 58,
+       "y": 14,
+       "size": 6,
+       "color": "red"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 88,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "wind",
+       "x": 112,
+       "y": 32,
+       "h": 7
+      },
+      {
+       "p": "car",
+       "x": 134,
+       "y": 34,
+       "h": 14,
+       "opt": {
+        "color": "green",
+        "dent": true
+       },
+       "label": "Moving: no PPI",
+       "lsize": 4.4
+      }
+     ]
+    },
+    {
+     "label": "Give up. No-fault means no suing.",
+     "ok": false,
+     "fail": "Michigan abolished most tort liability, but kept the mini-tort: up to $3,000 for car damage that insurance didn't pay.",
+     "beats": [
+      {
+       "text": "Sam pays the $2,400 himself. He didn't have to: the mini-tort survives.",
+       "say": "Sam pays the two thousand four hundred dollars himself. He didn't have to: the mini-tort survives."
+      }
+     ],
+     "draw": [
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 30,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "sam",
+        "pose": "hold",
+        "hold": "money",
+        "mood": "sad"
+       }
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 50,
+       "y": 24,
+       "h": 9,
+       "move": {
+        "to": [
+         70,
+         36
+        ],
+        "at": 0,
+        "cue": "pays",
+        "sfx": "cash"
+       }
+      },
+      {
+       "id": "shop",
+       "p": "garage",
+       "x": 94,
+       "y": 28,
+       "h": 30,
+       "opt": {
+        "open": true
+       },
+       "label": "Repair shop",
+       "lsize": 4
+      },
+      {
+       "p": "label",
+       "text": "Paid $2,400 himself",
+       "x": 138,
+       "y": 46,
+       "size": 4.4,
+       "w": 30,
+       "color": "red",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "label": "Mini-tort: claim the $2,400 from Rosa",
+     "ok": true,
+     "win": "Mini-tort: up to $3,000 from the at-fault driver for car damage that insurance didn't pay. Sam was not more than 50% at fault.",
+     "beats": [
+      {
+       "text": "Sam takes Rosa to small claims court and recovers his $2,400. It's under $3,000.",
+       "say": "Sam takes Rosa to small claims court and recovers his two thousand four hundred dollars. It's under three thousand dollars."
+      }
+     ],
+     "draw": [
+      {
+       "id": "court",
+       "p": "courthouse",
+       "x": 24,
+       "y": 28,
+       "h": 32,
+       "label": "Small claims",
+       "lsize": 4
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 64,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "hold",
+        "hold": "money",
+        "mood": "sad"
+       }
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 76,
+       "y": 24,
+       "h": 9,
+       "move": {
+        "to": [
+         100,
+         26
+        ],
+        "at": 0,
+        "cue": "recovers",
+        "sfx": "cash"
+       }
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 118,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "$2,400",
+       "x": 146,
+       "y": 46,
+       "size": 6,
+       "color": "green"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A moving car's owner looks to collision coverage, or the mini-tort: the three-grand small-claims fix.",
+     "say": "A moving car's owner looks to collision coverage, or the mini-tort: the three grand small claims fix."
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "Under Michigan no-fault, a suit for pain and suffering against a negligent insured driver requires:",
+   "q": "In Michigan, suing a negligent insured driver for noneconomic loss (pain and suffering) requires:",
    "choices": [
     "Medical bills over $3,000",
     "Death, serious impairment of body function, or permanent serious disfigurement",
@@ -362,33 +2464,210 @@
     "Any injury that needed hospital care"
    ],
    "answer": 1,
-   "why": "That is the tort threshold for noneconomic loss. Serious impairment has no minimum duration, and $3,000 is the mini-tort amount, not a threshold.",
+   "why": "That's the tort threshold for noneconomic loss. Serious impairment has no minimum duration, and $3,000 is the mini-tort amount, not a threshold.",
+   "draw": [
+    {
+     "id": "judge",
+     "p": "person",
+     "x": 24,
+     "y": 38,
+     "h": 34,
+     "opt": {
+      "who": "judge",
+      "pose": "think",
+      "mood": "neutral"
+     }
+    },
+    {
+     "p": "question",
+     "x": 38,
+     "y": 14,
+     "h": 12,
+     "color": "purple"
+    },
+    {
+     "id": "gavel",
+     "p": "gavel",
+     "x": 58,
+     "y": 46,
+     "h": 14,
+     "opt": {
+      "strike": true
+     }
+    }
+   ],
    "beats": [
     {
-     "text": "Last check. What does a pain-and-suffering suit against a negligent insured driver require? Pick an answer.",
-     "say": "Last check. What does a pain-and-suffering suit against a negligent insured driver require? Pick an answer."
+     "text": "Quick check. What does a pain-and-suffering suit require?",
+     "say": "Quick check. What does a pain-and-suffering suit require?"
     }
    ],
    "reveal": [
     {
-     "text": "The answer is death, serious impairment of body function, or permanent serious disfigurement. There's no minimum duration, and $3,000 is the mini-tort.",
-     "say": "The answer is death, serious impairment of body function, or permanent serious disfigurement. There's no minimum duration, and three thousand dollars is the mini-tort."
+     "text": "Death, serious impairment of body function, or permanent serious disfigurement, with no minimum duration.",
+     "say": "Death, serious impairment of body function, or permanent serious disfigurement, with no minimum duration."
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Which coverage pays?",
+   "src": "MCL 500.3105, 3107(1), 3121(1), 3123(1)(a),(2), 3131(1), 3135(1); confusion pair cp_personal-12 drills",
+   "bins": [
+    {
+     "name": "PIP"
+    },
+    {
+     "name": "PPI"
+    },
+    {
+     "name": "Residual liability"
+    }
+   ],
+   "items": [
+    {
+     "text": "Rosa's hospital bills and lost wages",
+     "bin": 0,
+     "why": "PIP pays medical expenses and work loss without regard to fault."
+    },
+    {
+     "text": "A homeowner's fence Rosa knocks down in Kalamazoo",
+     "bin": 1,
+     "why": "PPI pays for damage to tangible property in Michigan without regard to fault."
+    },
+    {
+     "text": "A car Rosa rear-ends in Toledo, Ohio",
+     "bin": 2,
+     "why": "PPI is not payable for out-of-state accidents; property damage liability applies anywhere in the US and Canada."
+    },
+    {
+     "text": "Someone to do Rosa's housework for a few months",
+     "bin": 0,
+     "why": "Replacement services, up to $20 a day, are a PIP benefit."
+    },
+    {
+     "text": "A pedestrian with a serious impairment sues Rosa",
+     "bin": 2,
+     "why": "Tort liability for noneconomic loss remains when the threshold injury is met."
+    },
+    {
+     "text": "Rosa sideswipes a legally parked car in Detroit",
+     "bin": 1,
+     "why": "PPI covers a vehicle parked so as not to cause unreasonable risk of the damage."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Last one: which coverage pays each loss?",
+     "say": "Last one: which coverage pays each loss?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Injury benefits: PIP. Others' property in Michigan: PPI.",
+     "say": "Injury benefits: P I P. Others' property in Michigan: P P I."
+    },
+    {
+     "text": "Injury suits and out-of-state damage: residual liability.",
+     "say": "Injury suits and out-of-state damage: residual liability."
     }
    ]
   },
   {
    "type": "recap",
    "items": [
-    "PIP: injuries regardless of fault; PPI: others' property in Michigan",
-    "Work loss cap: $7,455 per 30 days, accidents Oct 1, 2026–Sep 30, 2027",
-    "Medical: $50,000 Medicaid, $250,000, $500,000, unlimited",
-    "Opt-out needs Medicare A and B; default level is unlimited",
-    "Suits survive: threshold injury, excess economic loss, mini-tort"
+    "PIP: injuries, regardless of fault. Medical, Wages, Chores, Survivors",
+    "Work loss cap: $7,455 per 30 days, accidents Oct 1, 2026-Sep 30, 2027",
+    "$50K Medicaid, $250K, $500K, Sky (default). Opt out: Medicare A and B",
+    "PPI: others' property in Michigan, up to $1 million; no moving cars",
+    "Suits include: DID threshold, excess economic loss, $3,000 mini-tort"
+   ],
+   "draw": [
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 14,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "mood": "laugh",
+      "hold": "coffee"
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 32,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "sam",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "gma",
+     "p": "person",
+     "x": 50,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "grandma",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 68,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "snow",
+     "x": 22,
+     "y": 10,
+     "h": 6,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 58,
+     "y": 8,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "p": "car",
+     "x": 42,
+     "y": 14,
+     "h": 10,
+     "opt": {
+      "color": "purple"
+     },
+     "label": "Snow tires",
+     "lsize": 3.8
+    }
    ],
    "beats": [
     {
-     "text": "Let's recap. Three coverages, a dated work loss cap, the medical ladder, and the few suits Michigan still allows.",
-     "say": "Let's recap. Three coverages, a dated work loss cap, the medical ladder, and the few suits Michigan still allows.",
+     "text": "What a winter! Here's what to keep.",
+     "say": "What a winter! Here's what to keep.",
+     "show": 5
+    },
+    {
+     "text": "And I'm buying snow tires.",
+     "say": "And I'm buying snow tires.",
+     "voice": "rosa",
      "show": 5
     }
    ]
@@ -404,23 +2683,31 @@
  "hooks": [
   "mn-mn_auto-07",
   "mn-mn_auto-01",
-  "mn-mn_auto-02"
+  "mn-mn_auto-02",
+  "mn-mn_auto-12",
+  "mn-mn_auto-15",
+  "mn-mn_auto-17"
  ],
  "sources": [
-  "MCL 500.3101(1)",
+  "MCL 500.3101(1),(2)",
   "MCL 500.3105",
   "MCL 500.3107(1)(a)-(c)",
   "MCL 500.3108",
   "MCL 500.3107c(1),(3),(4)",
-  "MCL 500.3107d(1),(7)",
-  "MCL 500.3109a(2)",
+  "MCL 500.3107d(1),(2),(4),(7)",
+  "MCL 500.3109a(2),(5)",
+  "MCL 500.3114(1)",
   "MCL 500.3121(1),(5)",
   "MCL 500.3123(1)(a),(2)",
   "MCL 500.3131(1)",
   "MCL 500.3135(1),(2)(b),(3),(4),(5)",
   "MCL 500.3009(1)",
+  "MCL 500.3037(1),(2),(8)(b)",
   "DIFS Bulletin 2026-20-INS",
   "DIFS auto insurance FAQ",
+  "DIFS Insurance Agents FAQ",
+  "Memory hooks mn_auto-01, 02, 07, 08, 12, 15, 16, 17; confusion pair cp_personal-12 (tell and drills); matching set ms_personal-08; visual summary vs_personal-03",
+  "Questions auto-015, 019, 020, 021, 027, 031, 032, 033, 035, 036, 048; core-024",
   "PSI outline: Automobile Insurance 15% (22 items)"
  ]
 }

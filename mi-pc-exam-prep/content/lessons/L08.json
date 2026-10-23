@@ -3,92 +3,735 @@
  "sec": "basics",
  "guide": "basics",
  "title": "Coinsurance, conditions and claims",
- "summary": "Work the coinsurance formula step by step, then learn the policy conditions, lender and bailee clauses, and Michigan claim timing rules.",
+ "summary": "Follow Tony's Detroit fire claim: the coinsurance math, his duties, the insurer's rights, lenders and bailees, and Michigan's claim rules.",
  "objectives": [
-  "Calculate a coinsurance payment in the right order",
-  "Explain vacancy, duties after loss, assignment and abandonment",
-  "Tell subrogation, salvage, settlement options and the duty to defend apart",
-  "Contrast the mortgage clause, loss payable clause and no benefit to bailee"
+  "Work a coinsurance problem in the right order, capped by the limit",
+  "Explain vacancy, duties after loss, assignment, abandonment and binders",
+  "Tell subrogation from salvage; know settlement options and the duty to defend",
+  "Contrast mortgagee, loss payee and bailee; know Michigan's claim rules"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "Coinsurance, conditions and claims",
-   "subtitle": "Work the formula, then learn the rules that decide who gets paid, and when",
-   "icon": "calculator",
-   "beats": [
+   "title": "Fire at Tony's Pizza: coinsurance, conditions and claims",
+   "subtitle": "One Detroit fire claim, start to finish: coinsurance, conditions, lenders and Michigan claim rules",
+   "draw": [
     {
-     "text": "Coinsurance problems hide trap answers, so the order of the steps matters.",
-     "say": "Coinsurance problems hide trap answers, so the order of the steps matters."
+     "id": "shop",
+     "p": "restaurant",
+     "x": 32,
+     "y": 42,
+     "h": 34,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-     "text": "In this lesson: the formula, the conditions, third-party clauses and claims.",
-     "say": "In this lesson: the formula, the conditions, third-party clauses and claims."
+     "id": "roofer",
+     "p": "person",
+     "x": 44,
+     "y": 15.5,
+     "h": 19,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "fire"
+     },
+     "over": true
+    },
+    {
+     "id": "fire",
+     "p": "fire",
+     "x": 24,
+     "y": 21,
+     "h": 13,
+     "loop": "flicker",
+     "at": 1,
+     "cue": "fire",
+     "over": true,
+     "sfx": "whoosh"
+    },
+    {
+     "id": "fire2",
+     "p": "fire",
+     "x": 33,
+     "y": 22,
+     "h": 10,
+     "loop": "flicker",
+     "at": 1,
+     "cue": "fire",
+     "over": true
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 74,
+     "y": 48,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "wave",
+      "mood": "happy"
+     },
+     "out": 1
+    },
+    {
+     "id": "tony2",
+     "p": "person",
+     "x": 74,
+     "y": 48,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "shocked"
+     },
+     "at": 1,
+     "anim": "fade"
+    },
+    {
+     "p": "bubble",
+     "text": "My roof!",
+     "x": 76,
+     "y": 14,
+     "w": 20,
+     "to": "tony2",
+     "at": 1,
+     "cue": "fire"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Meet Tony. His Detroit pizza shop is insured under the 2012 BPP, the Building and Personal Property form.",
+     "say": "Meet Tony. His Detroit pizza shop is insured under the twenty twelve B P P, the Building and Personal Property form."
+    },
+    {
+     "text": "One November morning, a roofer's torch sets the roof on fire.",
+     "say": "One November morning, a roofer's torch sets the roof on fire."
     }
    ]
   },
   {
-   "type": "formula",
-   "title": "Did over Should, times the Loss, minus the Deductible",
-   "src": "ISO CP 00 10 10 12 (2012 BPP), F.1 Coinsurance and D Deductible; hook adapted from mn-mn_core-19",
-   "given": [
-    "Value at time of loss: $400,000",
-    "Coinsurance: 80%",
-    "Limit carried: $240,000",
-    "Loss: $50,000; deductible: $1,000"
-   ],
-   "items": [
+   "type": "choice",
+   "title": "The fire's out. Now what, Tony?",
+   "src": "ISO CP 00 10 10 12 (2012 BPP), E.1 Abandonment, E.3 Duties; ISO HO 00 03 05 11, Sec. I Cond. C; question core-042",
+   "ask": "What does Tony do first?",
+   "draw": [
     {
-     "label": "Should: value × 80%",
-     "expr": "$400,000 × 80%",
-     "value": "$320,000"
+     "id": "shop",
+     "p": "restaurant",
+     "x": 36,
+     "y": 30,
+     "h": 40,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-     "label": "Did over Should",
-     "expr": "$240,000 ÷ $320,000",
-     "value": "0.75"
+     "id": "hole",
+     "p": "box",
+     "x": 22,
+     "y": 12,
+     "w": 12,
+     "hh": 3,
+     "fill": "ink",
+     "over": true
     },
     {
-     "label": "Times the loss",
-     "expr": "$50,000 × 0.75",
-     "value": "$37,500"
+     "p": "label",
+     "text": "Hole!",
+     "x": 7,
+     "y": 5,
+     "size": 4.5,
+     "color": "red",
+     "bold": true
     },
     {
-     "label": "Minus the deductible",
-     "expr": "$37,500 − $1,000",
-     "value": "$36,500"
+     "p": "arrow",
+     "from": [
+      10,
+      7
+     ],
+     "to": [
+      15.5,
+      11
+     ],
+     "color": "red",
+     "bend": 0.1
     },
     {
-     "label": "That or the limit, whichever is less",
-     "expr": "$36,500 vs. $240,000 limit",
-     "value": "Pays $36,500"
+     "p": "puff",
+     "x": 22,
+     "y": 3.5,
+     "h": 9,
+     "over": true
+    },
+    {
+     "id": "rain",
+     "p": "rain",
+     "x": 90,
+     "y": 14,
+     "h": 22
+    },
+    {
+     "p": "label",
+     "text": "Rain tonight!",
+     "x": 90,
+     "y": 33,
+     "size": 5,
+     "color": "blue",
+     "bold": true
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 126,
+     "y": 32,
+     "h": 38,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "There's a hole in my roof!",
+     "x": 136,
+     "y": 7,
+     "w": 40,
+     "to": "tony"
     }
    ],
    "beats": [
     {
-     "text": "The coinsurance hook: Did over Should, times the Loss, minus the Deductible. Here it is under the 2012 BPP.",
-     "say": "The coinsurance hook: Did over Should, times the Loss, minus the Deductible. Here it is under the twenty twelve B P P.",
-     "show": 0
+     "text": "There's a hole in the roof, and rain is coming tonight. What does Tony do first?",
+     "say": "There's a hole in the roof, and rain is coming tonight. What does Tony do first?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Wait till spring, then call the insurer",
+     "ok": false,
+     "fail": "After a loss, the insured must give prompt notice. Calling months later breaks that duty.",
+     "beats": [
+      {
+       "text": "Tony calls in April. That's not the prompt notice the insured must give.",
+       "say": "Tony calls in April. That's not the prompt notice the insured must give."
+      }
+     ],
+     "draw": [
+      {
+       "p": "sun",
+       "x": 14,
+       "y": 11,
+       "h": 12,
+       "loop": "spin"
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 40,
+       "y": 26,
+       "h": 22,
+       "opt": {
+        "n": "APR"
+       },
+       "label": "Spring",
+       "lsize": 4
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 80,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Hi! About that fire in November...",
+       "x": 108,
+       "y": 9,
+       "w": 34,
+       "to": "tony"
+      },
+      {
+       "p": "label",
+       "text": "Not prompt notice",
+       "x": 116,
+       "y": 40,
+       "size": 4.6,
+       "color": "red",
+       "bold": true
+      }
+     ]
     },
     {
-     "text": "Should: the value at the time of loss, not at inception, times 80%. That's $320,000.",
-     "say": "Should: the value at the time of loss, not at inception, times eighty percent. That's three hundred twenty thousand dollars.",
-     "show": 1
+     "label": "Leave the hole. The insurer will fix it.",
+     "ok": false,
+     "fail": "After a loss, the insured must protect the property from further damage, like covering a hole in the roof.",
+     "beats": [
+      {
+       "text": "Rain pours in all night. The insured must protect the property from further damage.",
+       "say": "Rain pours in all night. The insured must protect the property from further damage."
+      }
+     ],
+     "draw": [
+      {
+       "id": "shop",
+       "p": "restaurant",
+       "x": 36,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "name": "TONY'S PIZZA"
+       }
+      },
+      {
+       "id": "hole",
+       "p": "box",
+       "x": 24,
+       "y": 13.5,
+       "w": 12,
+       "hh": 3,
+       "fill": "ink",
+       "over": true
+      },
+      {
+       "p": "rain",
+       "x": 24,
+       "y": 5,
+       "h": 11,
+       "over": true
+      },
+      {
+       "p": "water",
+       "x": 36,
+       "y": 43,
+       "w": 38,
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Rain gets in!",
+       "x": 36,
+       "y": 54,
+       "size": 4.6,
+       "color": "blue",
+       "bold": true
+      },
+      {
+       "id": "chair",
+       "p": "chair",
+       "x": 100,
+       "y": 40,
+       "h": 18,
+       "over": true
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 100,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "sit",
+        "mood": "sleep"
+       },
+       "over": true
+      },
+      {
+       "p": "bubble",
+       "text": "Zzz...",
+       "x": 118,
+       "y": 9,
+       "w": 16,
+       "to": "tony",
+       "think": true
+      }
+     ]
     },
     {
-     "text": "Did, the limit carried, over Should is 75%.",
-     "say": "Did, the limit carried, over Should is seventy-five percent.",
+     "label": "Leave the burnt oven at the insurer's door",
+     "ok": false,
+     "fail": "The insured can't force damaged property on the insurer: no abandonment. The insurer may choose to take it, but that's its call.",
+     "beats": [
+      {
+       "text": "Tony dumps his burnt oven at the insurer's door. Nope: no abandonment allowed.",
+       "say": "Tony dumps his burnt oven at the insurer's door. Nope: no abandonment allowed."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 34,
+       "y": 29,
+       "h": 34
+      },
+      {
+       "id": "oven",
+       "p": "oven",
+       "x": 72,
+       "y": 39,
+       "h": 18
+      },
+      {
+       "p": "puff",
+       "x": 78,
+       "y": 21,
+       "h": 11,
+       "over": true
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 104,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "point",
+        "mood": "smirk"
+       },
+       "flip": true
+      },
+      {
+       "p": "bubble",
+       "text": "It's all yours!",
+       "x": 112,
+       "y": 8,
+       "w": 24,
+       "to": "tony"
+      },
+      {
+       "p": "label",
+       "text": "No abandonment!",
+       "x": 72,
+       "y": 54,
+       "size": 4.6,
+       "color": "red",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "label": "Tarp the roof, call the insurer, list damage",
+     "ok": true,
+     "win": "Prompt notice, protect the property, list the damage. If the insurer asks, send a sworn proof of loss within 60 days after its request.",
+     "beats": [
+      {
+       "text": "Smart. Tony tarps the hole, calls the insurer right away, and starts a damage list.",
+       "say": "Smart. Tony tarps the hole, calls the insurer right away, and starts a damage list."
+      }
+     ],
+     "draw": [
+      {
+       "id": "shop",
+       "p": "restaurant",
+       "x": 32,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "name": "TONY'S PIZZA"
+       }
+      },
+      {
+       "p": "box",
+       "x": 22,
+       "y": 13,
+       "w": 18,
+       "hh": 5,
+       "fill": "blue",
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Tarp",
+       "x": 22,
+       "y": 5,
+       "size": 4,
+       "color": "blue",
+       "bold": true
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 76,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "list",
+       "p": "clipboard",
+       "x": 100,
+       "y": 30,
+       "h": 18,
+       "label": "Damage list",
+       "lsize": 3.8
+      },
+      {
+       "p": "stamp",
+       "text": "On track",
+       "x": 136,
+       "y": 28,
+       "color": "green"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Duties after a loss: prompt notice, police for theft, protect the property, and an inventory. If asked, a sworn proof of loss within 60 days. And no abandonment.",
+     "say": "Duties after a loss: prompt notice, police for theft, protect the property, and an inventory. If asked, a sworn proof of loss within sixty days. And no abandonment."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Did Tony carry enough?",
+   "src": "ISO CP 00 10 10 12 (2012 BPP), F.1 Coinsurance; memory hook mn_core-19",
+   "kind": "Term",
+   "term": "Coinsurance",
+   "plain": "Insure for at least a set share of the property's value, like 80%. Carry less, and every loss is paid short, in proportion.",
+   "example": "Tony's building is worth $400,000 when the fire hits. At 80%, he should carry $320,000. He carries $240,000.",
+   "exam": "Use the value at the time of loss, not when the policy began. Hook: Did over Should, times the Loss, minus the Deductible.",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 20,
+     "y": 16,
+     "h": 22,
+     "opt": {
+      "name": "TONY'S"
+     },
+     "label": "Worth $400,000",
+     "lsize": 3.8
+    },
+    {
+     "p": "num",
+     "text": "80%",
+     "x": 20,
+     "y": 40,
+     "size": 8,
+     "color": "green",
+     "at": 0,
+     "cue": "80%"
+    },
+    {
+     "p": "label",
+     "text": "Should (80%): $320,000",
+     "x": 58,
+     "y": 8,
+     "size": 3.8,
+     "bold": true,
+     "color": "green",
+     "at": 1,
+     "cue": "should"
+    },
+    {
+     "id": "should",
+     "p": "box",
+     "x": 58,
+     "y": 14,
+     "w": 36,
+     "hh": 5,
+     "fill": "green",
+     "at": 1,
+     "cue": "should"
+    },
+    {
+     "p": "label",
+     "text": "Did: $240,000",
+     "x": 58,
+     "y": 23,
+     "size": 3.8,
+     "bold": true,
+     "color": "orange",
+     "at": 1,
+     "cue": "carries"
+    },
+    {
+     "id": "did",
+     "p": "box",
+     "x": 53.5,
+     "y": 29,
+     "w": 27,
+     "hh": 5,
+     "fill": "orange",
+     "at": 1,
+     "cue": "carries"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 58,
+     "y": 52,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Coinsurance: insure at least a set share of the property's value, like 80%. Carry less, and every loss gets paid short, in proportion.",
+     "say": "Coinsurance: insure at least a set share of the property's value, like eighty percent. Carry less, and every loss gets paid short, in proportion.",
      "show": 2
     },
     {
-     "text": "75% of the loss, $50,000, is $37,500. Subtract the deductible last: $36,500.",
-     "say": "Seventy-five percent of the loss, fifty thousand dollars, is thirty-seven thousand five hundred dollars. Subtract the deductible last: thirty-six thousand five hundred dollars.",
-     "show": 4
+     "text": "Tony's building is worth $400,000 when the fire hits. At 80%, he should carry $320,000. He carries $240,000.",
+     "say": "Tony's building is worth four hundred thousand dollars when the fire hits. At eighty percent, he should carry three hundred twenty thousand dollars. He carries two hundred forty thousand dollars.",
+     "show": 3,
+     "hl": [
+      "should",
+      "did"
+     ]
     },
     {
-     "text": "The insurer pays that or the limit, whichever is less. A total loss that computes above the limit gets only the limit.",
-     "say": "The insurer pays that or the limit, whichever is less. A total loss that computes above the limit gets only the limit.",
-     "show": 5
+     "text": "Use the value at the time of loss, not when the policy began. Hook: Did over Should, times the Loss, minus the Deductible.",
+     "say": "Use the value at the time of loss, not when the policy began. Hook: Did over Should, times the Loss, minus the Deductible.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "slider",
+   "title": "Did over Should: Tony's $50,000 fire",
+   "src": "ISO CP 00 10 10 12 (2012 BPP), F.1 Coinsurance and D Deductible; memory hook mn_core-19; questions core-039, core-040",
+   "calc": "coins",
+   "params": {
+    "value": 400000,
+    "pct": 80,
+    "loss": 50000,
+    "ded": 1000
+   },
+   "var": {
+    "key": "limit",
+    "label": "Tony's limit (Did)",
+    "min": 160000,
+    "max": 400000,
+    "step": 20000,
+    "start": 240000,
+    "money": true
+   },
+   "goal": {
+    "op": "gte",
+    "value": 49000,
+    "text": "Find the smallest limit that pays Tony the whole $50,000 loss, minus only his $1,000 deductible.",
+    "done": "$320,000: Did equals Should. No penalty."
+   },
+   "draw": [
+    {
+     "id": "note",
+     "p": "note",
+     "text": "Building damage: $50,000. Deductible: $1,000",
+     "x": 40,
+     "y": 11,
+     "w": 40
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 20,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "mood": "worried"
+     },
+     "out": 4
+    },
+    {
+     "id": "adj",
+     "p": "person",
+     "x": 60,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "adjuster",
+      "pose": "hold",
+      "hold": "clipboard"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Only $36,500?",
+     "x": 22,
+     "y": 27,
+     "w": 24,
+     "to": "tony",
+     "at": 2,
+     "cue": "last",
+     "out": 3
+    },
+    {
+     "id": "tony2",
+     "p": "person",
+     "x": 20,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     "at": 4,
+     "anim": "fade"
+    },
+    {
+     "p": "bubble",
+     "text": "No penalty at $320,000!",
+     "x": 26,
+     "y": 28,
+     "w": 30,
+     "to": "tony2",
+     "at": 4
+    }
+   ],
+   "beats": [
+    {
+     "text": "The fire did $50,000 of damage to the building. The deductible is $1,000.",
+     "say": "The fire did fifty thousand dollars of damage to the building. The deductible is one thousand dollars."
+    },
+    {
+     "text": "Did over Should is 75%. Times the loss, that's $37,500.",
+     "say": "Did over Should is seventy-five percent. Times the loss, that's thirty-seven thousand five hundred dollars."
+    },
+    {
+     "text": "The deductible comes off last: $36,500.",
+     "say": "The deductible comes off last: thirty-six thousand five hundred dollars."
+    },
+    {
+     "text": "Your turn. Find the smallest limit with no penalty.",
+     "say": "Your turn. Find the smallest limit with no penalty."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$320,000. When Did meets Should, there's no penalty.",
+     "say": "Three hundred twenty thousand dollars. When Did meets Should, there's no penalty."
+    },
+    {
+     "text": "And the limit still caps the payment: a total loss that computes above the limit pays just the limit.",
+     "say": "And the limit still caps the payment: a total loss that computes above the limit pays just the limit."
     }
    ]
   },
@@ -103,359 +746,1698 @@
    ],
    "answer": 1,
    "why": "Should is 80% of $500,000, or $400,000. $300,000 divided by $400,000 is 0.75. $100,000 times 0.75 is $75,000, minus the $1,000 deductible: $74,000.",
+   "draw": [
+    {
+     "id": "bakery",
+     "p": "store",
+     "x": 28,
+     "y": 24,
+     "h": 28,
+     "opt": {
+      "name": "BAKERY"
+     },
+     "label": "Worth $500,000",
+     "lsize": 3.8
+    },
+    {
+     "p": "fire",
+     "x": 14,
+     "y": 10,
+     "h": 9,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "question",
+     "x": 66,
+     "y": 22,
+     "h": 18,
+     "color": "blue"
+    },
+    {
+     "p": "note",
+     "text": "Limit $300,000, 80% coinsurance, $1,000 deductible, loss $100,000",
+     "x": 40,
+     "y": 56,
+     "w": 66
+    }
+   ],
    "beats": [
     {
-     "text": "A building worth $500,000 is insured for $300,000, with 80% coinsurance and a deductible of $1,000. The loss is $100,000. What does the insurer pay? Pick an answer.",
-     "say": "A building worth five hundred thousand dollars is insured for three hundred thousand dollars, with eighty percent coinsurance and a deductible of one thousand dollars. The loss is one hundred thousand dollars. What does the insurer pay? Pick an answer."
+     "text": "Quick check: a bakery nearby. What does the insurer pay?",
+     "say": "Quick check: a bakery nearby. What does the insurer pay?"
     }
    ],
    "reveal": [
     {
-     "text": "$74,000. Should is $400,000, so the ratio is 75%: $75,000, minus the deductible.",
-     "say": "Seventy-four thousand dollars. Should is four hundred thousand dollars, so the ratio is seventy-five percent: seventy-five thousand dollars, minus the deductible."
+     "text": "$74,000: 75% of the loss is $75,000, minus the deductible.",
+     "say": "Seventy-four thousand dollars: seventy-five percent of the loss is seventy-five thousand dollars, minus the deductible."
     },
     {
-     "text": "The traps: $74,250 takes the deductible off first; $59,000 uses the full value.",
-     "say": "The traps: seventy-four thousand two hundred fifty dollars takes the deductible off first; fifty-nine thousand dollars uses the full value."
+     "text": "Traps: $74,250 takes the deductible off first. $59,000 uses the full value, not 80%.",
+     "say": "Traps: seventy-four thousand two hundred fifty dollars takes the deductible off first. Fifty-nine thousand dollars uses the full value, not eighty percent."
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Vacant vs. unoccupied",
-   "src": "IRMI 'vacant', 'unoccupied'; ISO CP 00 10 10 12 (2012 BPP), E.6",
-   "columns": [
+   "type": "term",
+   "title": "Tony's old shop: vacant or unoccupied?",
+   "src": "IRMI glossary: vacant, unoccupied; confusion pair cp_personal-08; ISO CP 00 10 10 12 (2012 BPP), E.6.a, E.6.b",
+   "kind": "Term",
+   "term": "Vacant",
+   "plain": "Little or no furniture or belongings inside. The stuff is gone, not just the people.",
+   "example": "Before selling his old east-side shop, Tony moved everything from it to the new one. It sat empty and unused, for sale.",
+   "exam": "Unoccupied: people away, belongings still there, like a furnished house while its owners spend four months in Florida.",
+   "draw": [
     {
-     "name": "Vacant",
-     "icon": "warehouse",
-     "points": [
-      "Little or no furniture or personal property inside",
-      "2012 BPP, over 60 consecutive days: vandalism, theft and more excluded",
-      "All other covered losses reduced by 15%"
-     ]
+     "id": "old",
+     "p": "store",
+     "x": 26,
+     "y": 22,
+     "h": 26,
+     "opt": {
+      "name": "OLD SHOP"
+     }
     },
     {
-     "name": "Unoccupied",
-     "icon": "house",
-     "points": [
-      "People are away, but the contents remain",
-      "Example: owners spend four months in Florida; the house stays furnished"
-     ]
+     "id": "sale",
+     "p": "sign",
+     "x": 68,
+     "y": 26,
+     "h": 18,
+     "opt": {
+      "text": "FOR SALE",
+      "tcolor": "red"
+     },
+     "at": 1,
+     "cue": "sale"
+    },
+    {
+     "id": "chair",
+     "p": "chair",
+     "x": 50,
+     "y": 30,
+     "h": 10,
+     "at": 0,
+     "cue": "furniture"
+    },
+    {
+     "p": "xout",
+     "on": "chair",
+     "at": 0,
+     "cue": "belongings"
+    },
+    {
+     "p": "label",
+     "text": "Nothing inside",
+     "x": 50,
+     "y": 40,
+     "size": 3.6,
+     "color": "red",
+     "at": 0,
+     "cue": "belongings"
+    },
+    {
+     "id": "truck",
+     "p": "pickup",
+     "x": 26,
+     "y": 56,
+     "h": 13,
+     "opt": {
+      "load": true
+     },
+     "at": 1,
+     "cue": "moved",
+     "anim": "slide-r"
+    },
+    {
+     "p": "arrow",
+     "from": "old",
+     "to": "truck",
+     "label": "moved out",
+     "at": 1,
+     "cue": "moved"
+    },
+    {
+     "id": "sofa",
+     "p": "sofa",
+     "x": 64,
+     "y": 51,
+     "h": 8,
+     "at": 2,
+     "cue": "belongings",
+     "out": 3,
+     "label": "Unoccupied",
+     "lsize": 3.6
+    },
+    {
+     "p": "label",
+     "text": "2012 BPP: vacant unless at least 31% of its square footage is in use",
+     "x": 62,
+     "y": 55,
+     "size": 3.6,
+     "w": 34,
+     "color": "blue",
+     "at": 3,
+     "cue": "31%"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 64,
+     "y": 8,
+     "h": 12,
+     "opt": {
+      "n": "61+"
+     },
+     "at": 4,
+     "cue": "60",
+     "over": true
     }
    ],
-   "tell": "Look for the stuff: no furniture or belongings means vacant; belongings there but nobody home means unoccupied.",
    "beats": [
     {
-     "text": "Conditions. Vacant means little or no furniture or personal property inside.",
-     "say": "Conditions. Vacant means little or no furniture or personal property inside.",
-     "show": 1
-    },
-    {
-     "text": "Under the 2012 Building and Personal Property form, after more than 60 consecutive days vacant, losses such as vandalism, building glass breakage, water damage and theft aren't covered. Other covered losses are cut by 15%.",
-     "say": "Under the twenty twelve Building and Personal Property form, after more than sixty consecutive days vacant, losses such as vandalism, building glass breakage, water damage and theft aren't covered. Other covered losses are cut by fifteen percent.",
-     "show": 1
-    },
-    {
-     "text": "Unoccupied means people are away but their things remain. The tell: look for the stuff.",
-     "say": "Unoccupied means people are away but their things remain. The tell: look for the stuff.",
-     "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "The insured's duties and limits",
-   "src": "ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. C, Secs. I and II Cond. E; ISO CP 00 10 10 12 (2012 BPP), E.1, E.3",
-   "items": [
-    {
-     "label": "Duties after loss",
-     "detail": "Prompt notice, police for theft, protect property, inventory, sworn proof of loss within 60 days of a request",
-     "icon": "clipboard-list"
-    },
-    {
-     "label": "Assignment",
-     "detail": "Not valid without the insurer's written consent",
-     "icon": "file-signature"
-    },
-    {
-     "label": "Abandonment",
-     "detail": "Not allowed: the insured can't force damaged property on the insurer",
-     "icon": "ban"
-    }
-   ],
-   "beats": [
-    {
-     "text": "After a loss, the insured gives prompt notice, notifies police of a theft, protects the property, prepares an inventory and, if asked, sends a sworn proof of loss within 60 days.",
-     "say": "After a loss, the insured gives prompt notice, notifies police of a theft, protects the property, prepares an inventory and, if asked, sends a sworn proof of loss within sixty days.",
-     "show": 1
-    },
-    {
-     "text": "Assignment of the policy needs the insurer's written consent.",
-     "say": "Assignment of the policy needs the insurer's written consent.",
+     "text": "Rewind to before Tony sold his old shop. Exam word: vacant, meaning little or no furniture or belongings inside.",
+     "say": "Rewind to before Tony sold his old shop. Exam word: vacant, meaning little or no furniture or belongings inside.",
      "show": 2
     },
     {
-     "text": "And there's no abandonment: the insured can't force damaged property on the insurer.",
-     "say": "And there's no abandonment: the insured can't force damaged property on the insurer.",
+     "text": "He moved everything out; it sat unused, for sale.",
+     "say": "He moved everything out; it sat unused, for sale.",
      "show": 3
+    },
+    {
+     "text": "Watch out: people away, but belongings still there? That's unoccupied. Look for the stuff.",
+     "say": "Watch out: people away, but belongings still there? That's unoccupied. Look for the stuff.",
+     "show": 4
+    },
+    {
+     "text": "The 2012 BPP has its own test: an owner's building is vacant unless at least 31% of its square footage is in use.",
+     "say": "The twenty twelve B P P has its own test: an owner's building is vacant unless at least thirty-one percent of its square footage is in use.",
+     "show": 4,
+     "hl": "old"
+    },
+    {
+     "text": "Past 60 consecutive days vacant, losses such as vandalism, building glass breakage, water damage and theft aren't covered. Other covered losses are cut 15%.",
+     "say": "Past sixty consecutive days vacant, losses such as vandalism, building glass breakage, water damage and theft aren't covered. Other covered losses are cut fifteen percent.",
+     "show": 4,
+     "hl": "cal"
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "The insurer's rights and duties",
-   "src": "IRMI 'liberalization clause', 'subrogation', 'salvage', 'duty to defend'; ISO CP 00 10 10 12 (2012 BPP), E.4; ISO CG 00 01 04 13",
-   "items": [
+   "type": "swipe",
+   "title": "Tony's empty shop, under the 2012 BPP",
+   "src": "ISO CP 00 10 10 12 (2012 BPP), E.6.b Vacancy; question core-041",
+   "options": [
+    "Not covered",
+    "Cut by 15%",
+    "No vacancy cut"
+   ],
+   "cards": [
     {
-     "label": "Liberalization",
-     "detail": "Broadened coverage adopted without extra premium applies automatically to existing policies",
-     "icon": "circle-check"
+     "text": "Vacant 75 days: vandals spray-paint the walls.",
+     "answer": 0,
+     "why": "After more than 60 consecutive days vacant, vandalism isn't covered.",
+     "draw": [
+      {
+       "p": "calendar",
+       "x": 11,
+       "y": 11,
+       "h": 16,
+       "opt": {
+        "n": "75"
+       }
+      },
+      {
+       "p": "store",
+       "x": 42,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "name": "OLD SHOP"
+       }
+      },
+      {
+       "p": "person",
+       "x": 80,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "thief",
+        "pose": "hold",
+        "mood": "smirk"
+       }
+      },
+      {
+       "p": "icon",
+       "name": "spray-can",
+       "x": 70,
+       "y": 26,
+       "h": 8,
+       "color": "red",
+       "over": true
+      }
+     ]
     },
     {
-     "label": "Subrogation",
-     "detail": "After paying, the insurer takes over the insured's right to recover from the party legally liable",
-     "icon": "gavel"
+     "text": "Vacant 75 days: a windstorm tears off part of the roof.",
+     "answer": 1,
+     "why": "Windstorm isn't on the vacancy list, so it's paid, but reduced by 15%.",
+     "draw": [
+      {
+       "p": "calendar",
+       "x": 11,
+       "y": 11,
+       "h": 16,
+       "opt": {
+        "n": "75"
+       }
+      },
+      {
+       "p": "store",
+       "x": 44,
+       "y": 32,
+       "h": 30,
+       "opt": {
+        "name": "OLD SHOP"
+       }
+      },
+      {
+       "p": "wind",
+       "x": 82,
+       "y": 18,
+       "h": 12
+      }
+     ]
     },
     {
+     "text": "Vacant 75 days: thieves steal the copper pipes.",
+     "answer": 0,
+     "why": "Vacant over 60 consecutive days: theft and attempted theft aren't covered.",
+     "draw": [
+      {
+       "p": "calendar",
+       "x": 11,
+       "y": 11,
+       "h": 16,
+       "opt": {
+        "n": "75"
+       }
+      },
+      {
+       "p": "pipe",
+       "x": 44,
+       "y": 34,
+       "w": 40
+      },
+      {
+       "p": "person",
+       "x": 82,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "thief",
+        "pose": "run",
+        "mood": "smirk"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Vacant 40 days: a windstorm tears off part of the roof.",
+     "answer": 2,
+     "why": "The vacancy rule starts only after more than 60 consecutive days vacant.",
+     "draw": [
+      {
+       "p": "calendar",
+       "x": 11,
+       "y": 11,
+       "h": 16,
+       "opt": {
+        "n": "40"
+       }
+      },
+      {
+       "p": "store",
+       "x": 44,
+       "y": 32,
+       "h": 30,
+       "opt": {
+        "name": "OLD SHOP"
+       }
+      },
+      {
+       "p": "wind",
+       "x": 82,
+       "y": 18,
+       "h": 12
+      }
+     ]
+    },
+    {
+     "text": "Vacant 75 days: a baseball smashes the shop's window.",
+     "answer": 0,
+     "why": "Vacant over 60 consecutive days: building glass breakage isn't covered.",
+     "draw": [
+      {
+       "p": "calendar",
+       "x": 11,
+       "y": 11,
+       "h": 16,
+       "opt": {
+        "n": "75"
+       }
+      },
+      {
+       "p": "window",
+       "x": 48,
+       "y": 28,
+       "h": 32,
+       "opt": {
+        "broken": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Vacant 75 days: lightning sets the roof on fire.",
+     "answer": 1,
+     "why": "Fire and lightning aren't on the vacancy list: paid, but cut by 15%.",
+     "draw": [
+      {
+       "p": "calendar",
+       "x": 11,
+       "y": 11,
+       "h": 16,
+       "opt": {
+        "n": "75"
+       }
+      },
+      {
+       "p": "store",
+       "x": 46,
+       "y": 34,
+       "h": 28,
+       "opt": {
+        "name": "OLD SHOP"
+       }
+      },
+      {
+       "p": "lightning",
+       "x": 70,
+       "y": 9,
+       "h": 14
+      },
+      {
+       "p": "fire",
+       "x": 38,
+       "y": 20,
+       "h": 10,
+       "loop": "flicker",
+       "over": true
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn. The old shop had the same 2012 BPP. What happens to each loss?",
+     "say": "Your turn. The old shop had the same twenty twelve B P P. What happens to each loss?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Past 60 consecutive days, the listed perils are out; every other covered loss is cut 15%.",
+     "say": "Past sixty consecutive days, the listed perils are out; every other covered loss is cut fifteen percent."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "The insurer goes after the roofer",
+   "src": "IRMI glossary: subrogation, salvage; questions core-044, core-bas-43",
+   "kind": "Term",
+   "term": "Subrogation",
+   "plain": "Once the insurer pays you, it steps into your shoes and can recover from whoever is legally liable for the loss.",
+   "example": "The insurer pays Tony for the fire. Then it sues the careless roofer whose torch started it, to get its money back.",
+   "exam": "Don't mix it up with salvage: the damaged property left after a loss, like Tony's burnt oven.",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 40,
+     "y": 14,
+     "h": 22
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 14,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "cash",
+     "p": "money",
+     "x": 34,
+     "y": 31,
+     "h": 7,
+     "move": {
+      "to": [
+       24,
+       40
+      ],
+      "at": 0,
+      "cue": "pays",
+      "sfx": "cash"
+     }
+    },
+    {
+     "id": "roofer",
+     "p": "person",
+     "x": 66,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "pose": "shrug",
+      "mood": "worried"
+     },
+     "at": 0,
+     "cue": "roofer"
+    },
+    {
+     "id": "sue",
+     "p": "arrow",
+     "from": "ins",
+     "to": "roofer",
+     "label": "sues",
+     "color": "red",
+     "bend": -0.2,
+     "at": 1,
+     "cue": "sues"
+    },
+    {
+     "id": "oven",
+     "p": "oven",
+     "x": 40,
+     "y": 57,
+     "h": 11,
+     "at": 2,
+     "cue": "salvage",
      "label": "Salvage",
-     "detail": "Damaged property left after a loss; the insurer may take it at an agreed or appraised value",
-     "icon": "recycle"
-    },
-    {
-     "label": "Settlement options",
-     "detail": "The insurer's choice: pay the value, pay to repair or replace, take the property, or rebuild",
-     "icon": "hand-coins"
-    },
-    {
-     "label": "Duty to defend",
-     "detail": "Defends suits seeking covered damages; ends when the limit is used up paying judgments or settlements",
-     "icon": "shield-check"
+     "lsize": 3.8
     }
    ],
    "beats": [
     {
-     "text": "Liberalization: broadened coverage adopted without extra premium applies automatically to existing policies.",
-     "say": "Liberalization: broadened coverage adopted without extra premium applies automatically to existing policies.",
-     "show": 1
-    },
-    {
-     "text": "Subrogation: after paying, the insurer takes over the insured's right to recover from the party legally liable.",
-     "say": "Subrogation: after paying, the insurer takes over the insured's right to recover from the party legally liable.",
+     "text": "A careless roofer started Tony's fire. Subrogation: once the insurer pays Tony, it takes over his right to recover from the party legally liable.",
+     "say": "A careless roofer started Tony's fire. Subrogation: once the insurer pays Tony, it takes over his right to recover from the party legally liable.",
      "show": 2
     },
     {
-     "text": "Salvage is the damaged property left after a loss.",
-     "say": "Salvage is the damaged property left after a loss.",
-     "show": 3
-    },
-    {
-     "text": "Under the 2012 BPP, settlement options are the insurer's choice: pay the value, pay to repair or replace, take the property, or rebuild. It gives notice within 30 days after the sworn proof of loss.",
-     "say": "Under the twenty twelve B P P, settlement options are the insurer's choice: pay the value, pay to repair or replace, take the property, or rebuild. It gives notice within thirty days after the sworn proof of loss.",
-     "show": 4
-    },
-    {
-     "text": "Duty to defend: in the CGL, it ends when the limit is used up paying judgments or settlements.",
-     "say": "Duty to defend: in the C G L, it ends when the limit is used up paying judgments or settlements.",
-     "show": 5
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "A plumber's torch starts a fire in Maria's kitchen. Her insurer pays her claim, then sues the plumber to recover what it paid. This is called:",
-   "choices": [
-    "Salvage",
-    "Subrogation",
-    "Liberalization",
-    "Abandonment"
-   ],
-   "answer": 1,
-   "why": "Subrogation: after paying a loss, the insurer takes over the insured's right to recover from the party legally liable.",
-   "beats": [
-    {
-     "text": "Quick check. A plumber's torch starts a fire in Maria's kitchen. Her insurer pays, then sues the plumber. What is that called? Pick an answer.",
-     "say": "Quick check. A plumber's torch starts a fire in Maria's kitchen. Her insurer pays, then sues the plumber. What is that called? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "Subrogation. Having paid, the insurer steps into Maria's right to recover from the party responsible.",
-     "say": "Subrogation. Having paid, the insurer steps into Maria's right to recover from the party responsible."
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Lenders and bailees",
-   "src": "ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. L, M, S; IRMI 'loss payable clause'; ISO CP 00 90 07 88, F",
-   "columns": [
-    {
-     "name": "Standard mortgage clause",
-     "icon": "landmark",
-     "points": [
-      "Pays the mortgagee and insured as interests appear",
-      "Mortgagee can collect even if the insured's claim is denied",
-      "If it reports risk changes, pays premium due, files proof in 60 days"
-     ]
-    },
-    {
-     "name": "Loss payable clause",
-     "icon": "forklift",
-     "points": [
-      "Pays a party such as an equipment lessor, as its interest may appear",
-      "Usually nothing if the insured's claim can be denied"
-     ]
-    },
-    {
-     "name": "No benefit to bailee",
-     "icon": "warehouse",
-     "points": [
-      "A bailee holding property for a fee can't benefit from the owner's insurance",
-      "Examples: a dry cleaner, mover or warehouse"
-     ]
-    }
-   ],
-   "tell": "If the insured's claim is denied, can the lender still collect? Mortgage clause: yes, if it meets its conditions. Loss payable: usually no.",
-   "beats": [
-    {
-     "text": "The standard mortgage clause pays the mortgagee and insured as interests appear. Even if the insured's claim is denied, the mortgagee can still collect.",
-     "say": "The standard mortgage clause pays the mortgagee and insured as interests appear. Even if the insured's claim is denied, the mortgagee can still collect.",
-     "show": 1
-    },
-    {
-     "text": "Under the 2011 homeowners form, it must report known changes in risk, pay premium due on demand, and file a sworn statement of loss within 60 days after notice.",
-     "say": "Under the twenty eleven homeowners form, it must report known changes in risk, pay premium due on demand, and file a sworn statement of loss within sixty days after notice.",
-     "show": 1
-    },
-    {
-     "text": "Under a typical loss payable clause, the payee usually gets nothing if the insurer can deny the insured.",
-     "say": "Under a typical loss payable clause, the payee usually gets nothing if the insurer can deny the insured.",
-     "show": 2,
-     "tell": true
-    },
-    {
-     "text": "And no benefit to bailee: a dry cleaner holding your clothes for a fee can't use your insurance for its own liability.",
-     "say": "And no benefit to bailee: a dry cleaner holding your clothes for a fee can't use your insurance for its own liability.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Joe's policy names an equipment leasing company as loss payee under a typical loss payable clause. The insurer properly denies Joe's claim. The leasing company:",
-   "choices": [
-    "Collects as its interest may appear",
-    "Usually collects nothing",
-    "Collects if it files a proof of loss within 60 days",
-    "Receives only the unearned premium"
-   ],
-   "answer": 1,
-   "why": "Unlike the standard mortgage clause, a typical loss payable clause gives the payee nothing when the insurer can deny the insured's claim. The 60-day proof belongs to the mortgage clause.",
-   "beats": [
-    {
-     "text": "Joe's policy names an equipment leasing company under a typical loss payable clause. The insurer properly denies Joe's claim. What does the leasing company usually get? Pick an answer.",
-     "say": "Joe's policy names an equipment leasing company under a typical loss payable clause. The insurer properly denies Joe's claim. What does the leasing company usually get? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "Usually nothing, because the insurer can deny the insured. The 60-day proof belongs to the mortgage clause.",
-     "say": "Usually nothing, because the insurer can deny the insured. The sixty-day proof belongs to the mortgage clause."
-    }
-   ]
-  },
-  {
-   "type": "scenario",
-   "title": "A Michigan claim, start to finish",
-   "src": "MCL 500.2006(3),(4); MCL 500.1226(3),(4); IRMI 'adjuster', 'public adjuster'",
-   "icon": "cloud-hail",
-   "story": "Hail wrecks Dana's roof in Kalamazoo. She reports the claim to her homeowners insurer the next day and hires a public adjuster. Who does the adjuster work for, and what deadlines does Michigan's timely-payment law set?",
-   "items": [
-    {
-     "label": "Her public adjuster",
-     "detail": "Represents Dana, not the insurer. Michigan fee cap: 10% of what the insurer pays"
-    },
-    {
-     "label": "Within 30 days of the claim",
-     "detail": "The insurer says in writing what proof of loss it needs, unless it settles first"
-    },
-    {
-     "label": "60 days after proof of loss",
-     "detail": "Unpaid benefits start earning 12% simple interest a year"
-    }
-   ],
-   "answer": "The adjuster works for Dana. The insurer has 30 days to spell out proof of loss; 12% interest if unpaid 60 days after proof.",
-   "beats": [
-    {
-     "text": "A Michigan claim. Hail wrecks Dana's roof in Kalamazoo, and she hires a public adjuster. Who does the adjuster work for, and what deadlines apply?",
-     "say": "A Michigan claim. Hail wrecks Dana's roof in Kalamazoo, and she hires a public adjuster. Who does the adjuster work for, and what deadlines apply?",
-     "show": 0
-    },
-    {
-     "text": "Her public adjuster represents her, not the insurer. In Michigan, the fee can't exceed 10% of what the insurer pays.",
-     "say": "Her public adjuster represents her, not the insurer. In Michigan, the fee can't exceed ten percent of what the insurer pays.",
-     "show": 1
-    },
-    {
-     "text": "Within 30 days after receiving the claim, the insurer must say in writing what proof of loss it needs, unless it settles first.",
-     "say": "Within thirty days after receiving the claim, the insurer must say in writing what proof of loss it needs, unless it settles first.",
-     "show": 2
-    },
-    {
-     "text": "Benefits not paid within 60 days after satisfactory proof of loss bear 12% simple interest a year.",
-     "say": "Benefits not paid within sixty days after satisfactory proof of loss bear twelve percent simple interest a year.",
-     "show": 3
-    },
-    {
-     "text": "So: the adjuster works for Dana, the insurer has 30 days to spell out the proof, and 12% interest runs if she's unpaid 60 days after it.",
-     "say": "So: the adjuster works for Dana, the insurer has thirty days to spell out the proof, and twelve percent interest runs if she's unpaid sixty days after it.",
+     "text": "So it sues the roofer to get its money back.",
+     "say": "So it sues the roofer to get its money back.",
      "show": 3,
-     "answer": true
+     "hl": "sue"
+    },
+    {
+     "text": "Not salvage: that's the damaged property left after a loss, like the burnt oven.",
+     "say": "Not salvage: that's the damaged property left after a loss, like the burnt oven.",
+     "show": 4
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Applications and binders",
-   "src": "IRMI 'representation', 'material misrepresentation', 'binder', 'express authority'; MCL 500.1201(h)",
-   "items": [
+   "type": "explore",
+   "title": "Tony's policies: the fine print",
+   "src": "ISO CP 00 10 10 12, E.4; ISO CP 00 90 07 88, E, F; ISO IL 00 17 11 98, F; ISO CG 00 01 04 13, Sec. I A.1.a; IRMI glossary",
+   "draw": [
     {
-     "label": "Application",
-     "detail": "Statements are representations; a material misrepresentation can void coverage",
-     "icon": "file-text"
+     "id": "ins",
+     "p": "insurer",
+     "x": 24,
+     "y": 22,
+     "h": 26,
+     "label": "Insurer",
+     "lsize": 3.8
     },
     {
-     "label": "Binder",
-     "detail": "Temporary evidence of insurance until the policy is issued",
-     "icon": "file-check"
+     "id": "oven",
+     "p": "oven",
+     "x": 80,
+     "y": 24,
+     "h": 18,
+     "label": "Burnt oven",
+     "lsize": 3.8
     },
     {
-     "label": "A sound binder",
-     "detail": "In writing, with a definite time limit, naming the insurer",
-     "icon": "clipboard-check"
+     "p": "puff",
+     "x": 90,
+     "y": 9,
+     "h": 11,
+     "over": true
     },
     {
-     "label": "Binding authority",
-     "detail": "Only within actual or apparent authority; a license alone creates none",
-     "icon": "key-round"
+     "id": "pol",
+     "p": "policy",
+     "x": 136,
+     "y": 22,
+     "h": 22
+    },
+    {
+     "p": "sparkle",
+     "x": 148,
+     "y": 11,
+     "h": 9,
+     "over": true
+    },
+    {
+     "id": "court",
+     "p": "courthouse",
+     "x": 24,
+     "y": 50,
+     "h": 20,
+     "label": "Customer sues Tony",
+     "lsize": 3.8
+    },
+    {
+     "id": "truck",
+     "p": "van",
+     "x": 80,
+     "y": 53,
+     "h": 14,
+     "opt": {
+      "name": "MOVERS"
+     },
+     "label": "Movers",
+     "lsize": 3.8
+    },
+    {
+     "id": "buyer",
+     "p": "person",
+     "x": 128,
+     "y": 51,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "hat": "chef",
+      "hair": "long",
+      "shirt": "pink",
+      "pose": "wave",
+      "mood": "happy"
+     },
+     "label": "Buyer",
+     "lsize": 3.8
+    },
+    {
+     "p": "sign",
+     "x": 147,
+     "y": 53,
+     "h": 15,
+     "opt": {
+      "text": "SOLD",
+      "tcolor": "red"
+     }
+    }
+   ],
+   "spots": [
+    {
+     "on": "ins",
+     "label": "Settlement options",
+     "text": "2012 BPP: the insurer chooses to pay the value, pay to repair or replace, take the property, or rebuild. It gives notice within 30 days after the sworn proof of loss."
+    },
+    {
+     "on": "oven",
+     "label": "Salvage",
+     "text": "The burnt oven is salvage: damaged property left after the loss. The insurer may take it at an agreed or appraised value. Tony can't force it to."
+    },
+    {
+     "on": "pol",
+     "label": "Liberalization",
+     "text": "If the insurer broadens this form without charging more premium, Tony's existing policy gets the broader coverage automatically."
+    },
+    {
+     "on": "court",
+     "label": "Duty to defend",
+     "text": "If a customer sues Tony for covered damages, his CGL insurer defends him. That duty ends when the limit is used up paying judgments or settlements."
+    },
+    {
+     "on": "truck",
+     "label": "No benefit to bailee",
+     "text": "Movers hauling Tony's tables to the new shop for a fee can't benefit from his insurance. Same for a dry cleaner or a warehouse: his policy won't cover their liability."
+    },
+    {
+     "on": "buyer",
+     "label": "Assignment",
+     "text": "When Tony sold the old shop, he couldn't hand his policy to the buyer: transferring it needs the insurer's written consent."
     }
    ],
    "beats": [
     {
-     "text": "Applications and binders. Application statements are representations; a material misrepresentation can void coverage.",
-     "say": "Applications and binders. Application statements are representations; a material misrepresentation can void coverage.",
-     "show": 1
+     "text": "Now, Tony's fine print. Tap the six glowing spots.",
+     "say": "Now, Tony's fine print. Tap the six glowing spots."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The insurer picks how to settle and may take salvage. Liberalization: broader coverage at no extra premium applies automatically.",
+     "say": "The insurer picks how to settle and may take salvage. Liberalization: broader coverage at no extra premium applies automatically."
     },
     {
-     "text": "A binder is temporary evidence of insurance until the policy is issued. It should be in writing, with a definite time limit, and name the insurer.",
-     "say": "A binder is temporary evidence of insurance until the policy is issued. It should be in writing, with a definite time limit, and name the insurer.",
+     "text": "Duty to defend: his CGL insurer defends suits for covered damages until the limit is used up paying judgments or settlements.",
+     "say": "Duty to defend: his C G L insurer defends suits for covered damages until the limit is used up paying judgments or settlements."
+    },
+    {
+     "text": "No benefit to bailee: movers can't use his insurance. No assignment without written consent.",
+     "say": "No benefit to bailee: movers can't use his insurance. No assignment without written consent."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Mortgagee or loss payee: two umbrellas",
+   "src": "ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. L, S; IRMI glossary: loss payable clause; adapted from memory hook mn_core-21",
+   "hook": "The mortgagee brings its own umbrella; a loss payee stands under yours.",
+   "items": [
+    "Mortgage clause: pays the mortgagee and the insured as interests appear",
+    "Owner denied? Mortgagee collects if it reports changes, pays premium due and files a sworn statement",
+    "Loss payable: pays a party such as an equipment lessor, as its interest may appear",
+    "Typical loss payable clause: insured denied, the payee usually gets nothing"
+   ],
+   "draw": [
+    {
+     "id": "bank",
+     "p": "bank",
+     "x": 22,
+     "y": 38,
+     "h": 24,
+     "label": "Mortgagee",
+     "lsize": 3.8
+    },
+    {
+     "id": "umb1",
+     "p": "umbrella",
+     "x": 22,
+     "y": 18,
+     "h": 16,
+     "color": "green",
+     "opt": {
+      "color": "green"
+     }
+    },
+    {
+     "p": "rain",
+     "x": 22,
+     "y": 5,
+     "h": 9,
+     "over": true
+    },
+    {
+     "id": "umb2",
+     "p": "umbrella",
+     "x": 62,
+     "y": 27,
+     "h": 20,
+     "opt": {
+      "color": "blue"
+     },
+     "at": 1,
+     "cue": "payee"
+    },
+    {
+     "p": "label",
+     "text": "Tony's policy",
+     "x": 62,
+     "y": 14.5,
+     "size": 3.6,
+     "color": "blue",
+     "at": 1,
+     "cue": "yours"
+    },
+    {
+     "id": "fridge",
+     "p": "fridge",
+     "x": 41,
+     "y": 56,
+     "h": 13,
+     "at": 1,
+     "cue": "fridge"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 54,
+     "y": 50,
+     "h": 24,
+     "opt": {
+      "who": "tony",
+      "mood": "worried"
+     },
+     "at": 1,
+     "cue": "Tony"
+    },
+    {
+     "id": "lessor",
+     "p": "person",
+     "x": 70,
+     "y": 51,
+     "h": 22,
+     "opt": {
+      "who": "person",
+      "shirt": "orange",
+      "hat": "cap",
+      "mood": "worried"
+     },
+     "at": 1,
+     "cue": "leasing",
+     "label": "Loss payee",
+     "lsize": 3.8
+    },
+    {
+     "p": "xout",
+     "on": "umb2",
+     "at": 1,
+     "cue": "denied"
+    },
+    {
+     "p": "rain",
+     "x": 62,
+     "y": 6,
+     "h": 9,
+     "at": 1,
+     "cue": "denied",
+     "over": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "A bank holding a home's mortgage is the mortgagee. Under the 2011 homeowners form, it brings its own umbrella: it collects despite the owner's denial, if it meets the conditions.",
+     "say": "A bank holding a home's mortgage is the mortgagee. Under the twenty eleven homeowners form, it brings its own umbrella: it collects despite the owner's denial, if it meets the conditions.",
+     "show": 2,
+     "hl": "bank"
+    },
+    {
+     "text": "A loss payee stands under yours. Under a typical clause, if Tony is denied, the company leasing him his fridge usually gets nothing.",
+     "say": "A loss payee stands under yours. Under a typical clause, if Tony is denied, the company leasing him his fridge usually gets nothing.",
+     "show": 4,
+     "hl": "lessor"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "A Flint house burns: what does the bank do?",
+   "src": "ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. L, S; IRMI glossary: loss payable clause; question core-045; confusion pair cp_personal-09",
+   "ask": "What should the bank do?",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 28,
+     "y": 28,
+     "h": 32
+    },
+    {
+     "p": "fire",
+     "x": 24,
+     "y": 16,
+     "h": 14,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "stamp",
+     "text": "Claim denied",
+     "x": 28,
+     "y": 51,
+     "color": "red",
+     "size": 5
+    },
+    {
+     "id": "owner",
+     "p": "person",
+     "x": 64,
+     "y": 32,
+     "h": 32,
+     "opt": {
+      "who": "person",
+      "shirt": "gray",
+      "hair": "spiky",
+      "beard": true,
+      "pose": "shrug",
+      "mood": "smirk"
+     }
+    },
+    {
+     "id": "bank",
+     "p": "bank",
+     "x": 106,
+     "y": 30,
+     "h": 28
+    },
+    {
+     "id": "banker",
+     "p": "person",
+     "x": 140,
+     "y": 33,
+     "h": 32,
+     "opt": {
+      "who": "boss",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "We're the named mortgagee!",
+     "x": 126,
+     "y": 6,
+     "w": 32,
+     "to": "banker",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "In Flint, a homeowner burns his own house for the money. His 2011 homeowners claim is denied.",
+     "say": "In Flint, a homeowner burns his own house for the money. His twenty eleven homeowners claim is denied."
+    },
+    {
+     "text": "We're the named mortgagee. What do we do?",
+     "say": "We're the named mortgagee. What do we do?",
+     "voice": "boss",
+     "speaker": "Banker"
+    }
+   ],
+   "options": [
+    {
+     "label": "Give up: his denial sinks us too",
+     "ok": false,
+     "fail": "Under the mortgage clause, the owner's denial doesn't wipe out the mortgagee's valid claim, if the mortgagee meets the conditions.",
+     "beats": [
+      {
+       "text": "The bank walks away. Wrong clause: that's how a typical loss payable clause works.",
+       "say": "The bank walks away. Wrong clause: that's how a typical loss payable clause works."
+      }
+     ],
+     "draw": [
+      {
+       "id": "bank",
+       "p": "bank",
+       "x": 30,
+       "y": 29,
+       "h": 28
+      },
+      {
+       "id": "bag",
+       "p": "moneybag",
+       "x": 62,
+       "y": 40,
+       "h": 14
+      },
+      {
+       "id": "banker",
+       "p": "person",
+       "x": 108,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "boss",
+        "pose": "walk",
+        "mood": "sad"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Oh well.",
+       "x": 86,
+       "y": 9,
+       "w": 18,
+       "to": "banker"
+      },
+      {
+       "p": "label",
+       "text": "A valid claim, left behind",
+       "x": 62,
+       "y": 54,
+       "size": 4.2,
+       "color": "red",
+       "bold": true
+      },
+      {
+       "p": "arrow",
+       "from": [
+        119,
+        44
+       ],
+       "to": [
+        148,
+        44
+       ],
+       "dash": true,
+       "color": "gray",
+       "label": "walks away"
+      }
+     ]
+    },
+    {
+     "label": "Sue the owner and win in court first",
+     "ok": false,
+     "fail": "No judgment is needed. The mortgagee collects by meeting the clause's conditions, like a sworn statement of loss within 60 days after notice.",
+     "beats": [
+      {
+       "text": "Two years in court later, the bank learns it never needed a judgment first.",
+       "say": "Two years in court later, the bank learns it never needed a judgment first."
+      }
+     ],
+     "draw": [
+      {
+       "id": "court",
+       "p": "courthouse",
+       "x": 34,
+       "y": 28,
+       "h": 30
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 66,
+       "y": 30,
+       "h": 16,
+       "opt": {
+        "n": "2 yr"
+       },
+       "label": "2 years later",
+       "lsize": 4
+      },
+      {
+       "id": "banker",
+       "p": "person",
+       "x": 104,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "boss",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "We didn't need this?",
+       "x": 82,
+       "y": 7,
+       "w": 30,
+       "to": "banker"
+      }
+     ]
+    },
+    {
+     "label": "File a sworn statement within 60 days",
+     "ok": true,
+     "win": "The mortgagee's claim stands if it reports known changes in risk, pays premium due on demand, and files a sworn statement within 60 days after notice.",
+     "beats": [
+      {
+       "text": "The bank reports what it knows, pays any premium due, and files a sworn statement within 60 days. Paid.",
+       "say": "The bank reports what it knows, pays any premium due, and files a sworn statement within sixty days. Paid."
+      }
+     ],
+     "draw": [
+      {
+       "id": "bank",
+       "p": "bank",
+       "x": 28,
+       "y": 32,
+       "h": 26
+      },
+      {
+       "id": "umb",
+       "p": "umbrella",
+       "x": 28,
+       "y": 11,
+       "h": 16,
+       "opt": {
+        "color": "green"
+       },
+       "over": true
+      },
+      {
+       "id": "doc",
+       "p": "policy",
+       "x": 62,
+       "y": 30,
+       "h": 20,
+       "opt": {
+        "title": "SWORN",
+        "sign": true
+       }
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 88,
+       "y": 30,
+       "h": 18,
+       "opt": {
+        "n": "60"
+       },
+       "label": "60 days",
+       "lsize": 4
+      },
+      {
+       "id": "banker",
+       "p": "person",
+       "x": 120,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "boss",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Paid",
+       "x": 146,
+       "y": 30,
+       "color": "green"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Its own umbrella: the mortgagee collects despite the denial, if it meets the conditions.",
+     "say": "Its own umbrella: the mortgagee collects despite the denial, if it meets the conditions."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony wants an expert on his side",
+   "src": "MCL 500.1226(3), (4); IRMI glossary: adjuster, independent adjuster, public adjuster; memory hook mn_core-22; question core-049",
+   "ask": "Who does Tony hire?",
+   "draw": [
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 20,
+     "y": 32,
+     "h": 32,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "This claim is huge!",
+     "x": 30,
+     "y": 6,
+     "w": 30,
+     "to": "tony"
+    },
+    {
+     "id": "staff",
+     "p": "person",
+     "x": 64,
+     "y": 30,
+     "h": 30,
+     "opt": {
+      "who": "adjuster",
+      "pose": "hold",
+      "hold": "clipboard"
+     },
+     "label": "Staff",
+     "lsize": 4.4,
+     "cue": "Staff"
+    },
+    {
+     "id": "indep",
+     "p": "person",
+     "x": 101,
+     "y": 30,
+     "h": 30,
+     "opt": {
+      "who": "person",
+      "shirt": "purple",
+      "tie": true,
+      "glasses": true,
+      "mood": "smirk",
+      "pose": "wave"
+     },
+     "label": "Independent",
+     "lsize": 4.4,
+     "cue": "Independent"
+    },
+    {
+     "id": "pa",
+     "p": "person",
+     "x": 138,
+     "y": 30,
+     "h": 30,
+     "opt": {
+      "who": "person",
+      "shirt": "green",
+      "hair": "bob",
+      "pose": "hold",
+      "hold": "briefcase"
+     },
+     "label": "Public",
+     "lsize": 4.4,
+     "cue": "Public"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Three adjusters offer to help. Staff is on the insurer's Staff. Independent is Insurer-hired, on contract. Public is for the Policyholder, paid a Percentage.",
+     "say": "Three adjusters offer to help. Staff is on the insurer's Staff. Independent is Insurer-hired, on contract. Public is for the Policyholder, paid a Percentage."
+    },
+    {
+     "text": "Who's on my side?",
+     "say": "Who's on my side?",
+     "voice": "tony"
+    }
+   ],
+   "options": [
+    {
+     "label": "The insurance company's staff adjuster",
+     "ok": false,
+     "fail": "A staff adjuster is the insurer's own employee. He works for the insurer, not for Tony.",
+     "beats": [
+      {
+       "text": "Tony asks the insurer's own staff adjuster to fight the insurer. Awkward: he's the insurer's employee.",
+       "say": "Tony asks the insurer's own staff adjuster to fight the insurer. Awkward: he's the insurer's employee."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 30,
+       "y": 28,
+       "h": 32
+      },
+      {
+       "id": "staff",
+       "p": "person",
+       "x": 70,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "adjuster",
+        "pose": "shrug",
+        "mood": "smirk"
+       }
+      },
+      {
+       "p": "arrow",
+       "from": "staff",
+       "to": "ins",
+       "label": "works for",
+       "color": "blue",
+       "bend": 0.25
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 104,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Wait, you work for them?",
+       "x": 90,
+       "y": 7,
+       "w": 30,
+       "to": "tony"
+      }
+     ]
+    },
+    {
+     "label": "An independent adjuster: \"Not with them!\"",
+     "ok": false,
+     "fail": "Independent means not on the insurer's payroll, not on your side: insurers hire independent adjusters on contract.",
+     "beats": [
+      {
+       "text": "Insurers hire him on contract. Independent of their payroll, but not on Tony's side.",
+       "say": "Insurers hire him on contract. Independent of their payroll, but not on Tony's side."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 28,
+       "y": 28,
+       "h": 32
+      },
+      {
+       "id": "indep",
+       "p": "person",
+       "x": 72,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "shirt": "purple",
+        "tie": true,
+        "glasses": true,
+        "mood": "smirk",
+        "pose": "shrug"
+       }
+      },
+      {
+       "p": "arrow",
+       "from": "ins",
+       "to": "indep",
+       "label": "hires on contract",
+       "color": "blue",
+       "bend": -0.25
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 112,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "They hired you?",
+       "x": 94,
+       "y": 7,
+       "w": 26,
+       "to": "tony"
+      }
+     ]
+    },
+    {
+     "label": "A public adjuster for a 10% fee",
+     "ok": true,
+     "win": "A public adjuster represents the insured. In Michigan: a written contract on a commissioner-approved form, and a fee of at most 10% of the settlement.",
+     "beats": [
+      {
+       "text": "Good call. A public adjuster works for Tony, not the insurer, under a written contract.",
+       "say": "Good call. A public adjuster works for Tony, not the insurer, under a written contract."
+      }
+     ],
+     "draw": [
+      {
+       "id": "pa",
+       "p": "person",
+       "x": 34,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "shirt": "green",
+        "hair": "bob",
+        "pose": "point",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 62,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "contract",
+       "p": "policy",
+       "x": 96,
+       "y": 30,
+       "h": 22,
+       "opt": {
+        "title": "CONTRACT",
+        "tsize": 6,
+        "sign": true
+       }
+      },
+      {
+       "p": "num",
+       "text": "10%",
+       "x": 132,
+       "y": 22,
+       "size": 13,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "Max fee in Michigan",
+       "x": 132,
+       "y": 41,
+       "size": 5.2,
+       "color": "green",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Only the public adjuster works for the policyholder, and Michigan caps the fee at 10%.",
+     "say": "Only the public adjuster works for the policyholder, and Michigan caps the fee at ten percent."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Michigan puts the insurer on a clock",
+   "src": "MCL 500.2006(3), (4) (timely payment of claims); MCL 500.2833(1)(p); questions core-050, core-051, prop-008",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 22,
+     "y": 28,
+     "h": 30
+    },
+    {
+     "id": "claim",
+     "p": "envelope",
+     "x": 22,
+     "y": 54,
+     "h": 8,
+     "label": "Tony's claim arrives",
+     "lsize": 4,
+     "at": 0,
+     "cue": "claim"
+    },
+    {
+     "id": "c30",
+     "p": "calendar",
+     "x": 62,
+     "y": 20,
+     "h": 18,
+     "opt": {
+      "n": "30"
+     },
+     "at": 0,
+     "cue": "30",
+     "label": "What proof of loss it needs, in writing",
+     "lsize": 4,
+     "lw": 36
+    },
+    {
+     "p": "arrow",
+     "from": "claim",
+     "to": "c30",
+     "bend": 0.2,
+     "color": "gray",
+     "at": 0,
+     "cue": "claim"
+    },
+    {
+     "id": "c60",
+     "p": "calendar",
+     "x": 104,
+     "y": 20,
+     "h": 18,
+     "opt": {
+      "n": "60"
+     },
+     "at": 1,
+     "cue": "60"
+    },
+    {
+     "p": "label",
+     "text": "Interest starts 60 days after satisfactory proof of loss",
+     "x": 104,
+     "y": 35,
+     "size": 4,
+     "w": 36,
+     "at": 1,
+     "cue": "60"
+    },
+    {
+     "p": "arrow",
+     "from": "c30",
+     "to": "c60",
+     "at": 1,
+     "cue": "60",
+     "color": "gray"
+    },
+    {
+     "id": "pct",
+     "p": "percent",
+     "x": 142,
+     "y": 20,
+     "h": 16,
+     "at": 1,
+     "cue": "12%",
+     "label": "12% simple interest a year",
+     "lsize": 4,
+     "lw": 30
+    },
+    {
+     "p": "arrow",
+     "from": "c60",
+     "to": "pct",
+     "at": 1,
+     "cue": "12%",
+     "color": "gray"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 136,
+     "y": 54,
+     "h": 22,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     "at": 1,
+     "cue": "interest",
+     "out": 2
+    },
+    {
+     "id": "tony2",
+     "p": "person",
+     "x": 136,
+     "y": 54,
+     "h": 22,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "neutral"
+     },
+     "at": 2,
+     "anim": "fade"
+    },
+    {
+     "id": "pay",
+     "p": "calendar",
+     "x": 58,
+     "y": 53,
+     "h": 14,
+     "opt": {
+      "n": "30"
+     },
+     "at": 3,
+     "cue": "30"
+    },
+    {
+     "p": "label",
+     "text": "Fire loss payable within 30 days after proof of the amount of loss",
+     "x": 90,
+     "y": 55,
+     "size": 4,
+     "w": 40,
+     "at": 3,
+     "cue": "30"
+    },
+    {
+     "p": "label",
+     "text": "Michigan fire-policy law:",
+     "x": 90,
+     "y": 45,
+     "size": 4,
+     "bold": true,
+     "color": "green",
+     "at": 3,
+     "cue": "Michigan"
+    },
+    {
+     "p": "question",
+     "x": 148,
+     "y": 42,
+     "h": 10,
+     "color": "blue",
+     "at": 2,
+     "out": 3
+    }
+   ],
+   "beats": [
+    {
+     "text": "In Michigan, within 30 days after getting the claim, the insurer must say in writing what proof of loss it needs, unless it settles first.",
+     "say": "In Michigan, within thirty days after getting the claim, the insurer must say in writing what proof of loss it needs, unless it settles first.",
+     "hl": "c30"
+    },
+    {
+     "text": "Benefits not paid within 60 days after satisfactory proof of loss earn Tony 12% simple interest a year.",
+     "say": "Benefits not paid within sixty days after satisfactory proof of loss earn Tony twelve percent simple interest a year.",
+     "hl": "pct"
+    },
+    {
+     "text": "So they get 60 days to pay me?",
+     "say": "So they get sixty days to pay me?",
+     "voice": "tony"
+    },
+    {
+     "text": "60 days is the timely-payment deadline. But Michigan fire-policy law makes his fire loss payable within 30 days after proof of the amount of loss.",
+     "say": "Sixty days is the timely-payment deadline. But Michigan fire-policy law makes his fire loss payable within thirty days after proof of the amount of loss.",
+     "hl": "pay"
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Tony buys the building next door",
+   "src": "IRMI glossary: binder, representation, material misrepresentation, express authority; MCL 500.1201(h); question core-048",
+   "kind": "Term",
+   "term": "Binder",
+   "plain": "Temporary evidence of insurance until the policy is issued.",
+   "example": "Tony buys the building next door. Dana has binding authority, so she covers it that day with a binder: in writing, with an end date, naming the insurer.",
+   "exam": "Actual authority: granted by the insurer. Apparent: what a reasonable person assumes from how the insurer presents her. A license alone gives neither.",
+   "draw": [
+    {
+     "id": "app",
+     "p": "policy",
+     "x": 28,
+     "y": 16,
+     "h": 18,
+     "opt": {
+      "title": "APPLICATION",
+      "tsize": 4.2
+     },
+     "at": 3,
+     "cue": "application",
+     "label": "Tony's application",
+     "lsize": 3.8
+    },
+    {
+     "id": "next",
+     "p": "store",
+     "x": 58,
+     "y": 14,
+     "h": 20,
+     "opt": {
+      "name": "NEXT DOOR"
+     }
+    },
+    {
+     "id": "sold",
+     "p": "sign",
+     "x": 74,
+     "y": 30,
+     "h": 12,
+     "opt": {
+      "text": "SOLD",
+      "tcolor": "red"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 14,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "binder",
+     "p": "policy",
+     "x": 32,
+     "y": 44,
+     "h": 16,
+     "opt": {
+      "title": "BINDER",
+      "tsize": 7
+     },
+     "at": 0,
+     "cue": "binder",
+     "move": {
+      "to": [
+       44,
+       46
+      ],
+      "at": 0,
+      "cue": "evidence",
+      "sfx": "whoosh"
+     },
+     "label": "Binder",
+     "lsize": 4
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 62,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony buys the building next door. Dana covers it that day with a binder: temporary evidence of insurance until the policy is issued.",
+     "say": "Tony buys the building next door. Dana covers it that day with a binder: temporary evidence of insurance until the policy is issued.",
+     "show": 2,
+     "hl": "binder"
+    },
+    {
+     "text": "It should be in writing, have a definite time limit, and name the insurer.",
+     "say": "It should be in writing, have a definite time limit, and name the insurer.",
      "show": 3
     },
     {
-     "text": "And a producer binds only within actual or apparent authority.",
-     "say": "And a producer binds only within actual or apparent authority.",
-     "show": 4
+     "text": "Dana binds only within her actual or apparent authority.",
+     "say": "Dana binds only within her actual or apparent authority.",
+     "show": 4,
+     "hl": "dana"
+    },
+    {
+     "text": "Tony's application answers are representations, statements he believes are true. A material misrepresentation can void coverage.",
+     "say": "Tony's application answers are representations, statements he believes are true. A material misrepresentation can void coverage.",
+     "show": 4,
+     "hl": "app"
     }
    ]
   },
@@ -463,20 +2445,70 @@
    "type": "recap",
    "items": [
     "Did over Should, times the Loss, minus the Deductible; limit caps it",
-    "2012 BPP vacancy over 60 days: some perils out, the rest cut 15%",
+    "2012 BPP, vacant over 60 days: some perils out, the rest cut 15%",
     "Subrogation: after paying, the insurer recovers from the party liable",
     "A mortgagee can collect after a denial; a loss payee usually can't",
-    "Michigan: 12% to insureds if unpaid 60 days after satisfactory proof"
+    "Michigan: 12%/yr on insureds' late benefits; public adjusters max 10%"
+   ],
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 40,
+     "y": 17,
+     "h": 22,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 20,
+     "y": 48,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "hold": "pizza",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 44,
+     "y": 48,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "sun",
+     "x": 70,
+     "y": 9,
+     "h": 10,
+     "loop": "spin"
+    }
    ],
    "beats": [
     {
-     "text": "To recap: Did over Should, times the Loss, minus the Deductible, capped by the limit. Under the 2012 BPP, long vacancy drops some perils and cuts the rest by 15%.",
-     "say": "To recap: Did over Should, times the Loss, minus the Deductible, capped by the limit. Under the twenty twelve B P P, long vacancy drops some perils and cuts the rest by fifteen percent.",
-     "show": 2
+     "text": "Did over Should, capped by the limit. Under the 2012 BPP, long vacancy: some perils out, the rest cut 15%.",
+     "say": "Did over Should, capped by the limit. Under the twenty twelve B P P, long vacancy: some perils out, the rest cut fifteen percent.",
+     "show": 3
     },
     {
-     "text": "Subrogation recovers from the party liable. A mortgagee survives a denial; a loss payee usually doesn't. In Michigan, late benefits to the insured earn 12% interest.",
-     "say": "Subrogation recovers from the party liable. A mortgagee survives a denial; a loss payee usually doesn't. In Michigan, late benefits to the insured earn twelve percent interest.",
+     "text": "A mortgagee survives a denial; a loss payee usually doesn't. Michigan adds 12% yearly interest to an insured's late benefits.",
+     "say": "A mortgagee survives a denial; a loss payee usually doesn't. Michigan adds twelve percent yearly interest to an insured's late benefits.",
+     "show": 5
+    },
+    {
+     "text": "Next time, I'm carrying enough insurance.",
+     "say": "Next time, I'm carrying enough insurance.",
+     "voice": "tony",
      "show": 5
     }
    ]
@@ -484,20 +2516,27 @@
  ],
  "check": [
   "core-039",
-  "core-040",
   "core-041",
+  "core-044",
   "core-045",
   "core-050"
  ],
- "hooks": [],
+ "hooks": [
+  "mn-mn_core-19",
+  "mn-mn_core-21",
+  "mn-mn_core-22"
+ ],
  "sources": [
   "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012), D, E.1, E.3, E.4, E.6, F.1",
-  "ISO CP 00 90 07 88 (Commercial Property Conditions, 1988), F",
-  "ISO HO 00 03 05 11 (Homeowners 3, 2011), Sec. I Cond. C, L, M, S; Secs. I and II Cond. E",
+  "ISO CP 00 90 07 88 (Commercial Property Conditions, 1988), E, F",
+  "ISO IL 00 17 11 98 (Common Policy Conditions), F",
+  "ISO HO 00 03 05 11 (Homeowners 3, 2011), Sec. I Cond. C, L, S; Secs. I and II Cond. E",
   "ISO CG 00 01 04 13 (Commercial General Liability, 2013), Sec. I Cov. A.1.a",
-  "IRMI glossary: vacant, unoccupied, liberalization clause, subrogation, salvage, duty to defend, loss payable clause, binder, representation, adjuster, public adjuster",
+  "IRMI glossary: vacant, unoccupied, liberalization clause, subrogation, salvage, duty to defend, loss payable clause, binder, representation, express authority, apparent agency, adjuster, independent adjuster, public adjuster",
   "MCL 500.2006 (timely claim payment)",
+  "MCL 500.2833(1)(p) (Michigan fire policy: loss payable within 30 days after proof of the amount of loss)",
   "MCL 500.1226 (adjuster for the insured)",
-  "MCL 500.1201(h)"
+  "MCL 500.1201(h)",
+  "Memory hooks mn_core-19, mn_core-21, mn_core-22; confusion pairs cp_personal-08, cp_personal-09"
  ]
 }

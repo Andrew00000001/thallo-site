@@ -1,41 +1,126 @@
 {
  "id": "L15",
- "beats": 32,
+ "beats": 55,
  "mismatches": [
   {
+   "scene": 0,
+   "beat": 0,
+   "say": "Rosa just bought a new car in Lansing. Her agent Dana has news: Michigan has rules.",
+   "heard": "Rose had just bought a new car in Lansing. Her agent Dana has news. Michigan has rules.",
+   "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
    "scene": 3,
-   "beat": 2,
-   "say": "A nonresident may drive a car not registered here for an aggregate of thirty days per calendar year without Michigan security.",
-   "heard": "A non-resident may drive a car, not registered here, for an aggregate of 30 days per calendar year without Michigan's security.",
-   "wer": 0.048
+   "beat": "o0:0",
+   "say": "Rosa reads the risks, signs, and gets fifty thousand dollars and one hundred thousand dollars.",
+   "heard": "Roser reads the risks, signs, and gets $50,000 and $100,000.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "scene": 3,
+   "beat": 1,
+   "say": "Lower limits need the signed D I F S form. Blank form? Big defaults.",
+   "heard": "Lower limits need the SignD IFS form. Blank form, big defaults.",
+   "wer": 0.182,
+   "voice": "narrator"
+  },
+  {
+   "scene": 4,
+   "beat": 0,
+   "say": "Saturdays, Rosa drives for a ride-share app. Michigan sets special minimums.",
+   "heard": "Saturday's, Rosa drives for a rideshare app. Michigan sets special minimums.",
+   "wer": 0.167,
+   "voice": "narrator"
   },
   {
    "scene": 4,
    "beat": 1,
-   "say": "Ride-share drivers logged on but not on a ride need at least fifty thousand dollars and one hundred thousand dollars bodily injury and twenty-five thousand dollars property damage. During a prearranged ride: one million dollars combined single limit.",
-   "heard": "Rideshare drivers logged on, but not on a ride need, at least $50,000 and $100,000 bodily injury and $25,000 property damage. During a pre-arranged ride, $1 million combined single limit.",
-   "wer": 0.105
+   "say": "Logged on and available, no ride yet: at least fifty thousand dollars and one hundred thousand dollars bodily injury and twenty-five thousand dollars property damage, plus P I P and P P I.",
+   "heard": "Logged on and available, no ride yet. At least $50,000 and $100,000 bodily injury, and $25,000 property damage, plus PIP and PI. PI.",
+   "wer": 0.077,
+   "voice": "narrator"
   },
   {
-   "scene": 7,
+   "scene": 6,
    "beat": 0,
-   "say": "The Assigned Claims Plan is run by the Michigan Automobile Insurance Placement Facility, the M A I P F. Every insurer authorized to write auto insurance here must take part.",
-   "heard": "The assigned claims plan is run by the Michigan Automobile Insurance Placement Facility, the M, a IPF. Every insurer authorized to write auto insurance here must take part.",
-   "wer": 0.077
-  },
-  {
-   "scene": 7,
-   "beat": 3,
-   "say": "Assigned Claims Plan claimants must notify the M A I P F within one year after the accident. Medical benefits there are generally capped at two hundred fifty thousand dollars.",
-   "heard": "Assigned claims plan claimants must notify the M, a IPF within one year after the accident. Medical benefits, there are generally capped at $250,000.",
-   "wer": 0.077
+   "say": "Then a fender bender sends Rosa's car to the body shop.",
+   "heard": "then a fender bender sends Rose's car to the body shop.",
+   "wer": 0.091,
+   "voice": "narrator"
   },
   {
    "scene": 9,
    "beat": 0,
-   "say": "Your turn. A new policy has been in force ninety days. Under Chapter thirty-two, for a reason other than nonpayment, when may the insurer cancel? Pick an answer.",
-   "heard": "Your turn, a new policy has been enforced 90 days. Under Chapter 32, for a reason other than nonpayment, when may the insurer cancel, pick an answer.",
-   "wer": 0.069
+   "say": "Near Traverse City, a driver rear-ends Rosa's rental.",
+   "heard": "Near Traversity, a driver rear ends Rose's rental.",
+   "wer": 0.333,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": 1,
+   "say": "Ow! His insurer pays my P I P, right?",
+   "heard": "Oh, his insurer pays my P.I.P. right.",
+   "wer": 0.143,
+   "voice": "rosa"
+  },
+  {
+   "scene": 9,
+   "beat": 2,
+   "say": "No. P I P is no-fault. Kitchen-table rule: first, the policies on your own table. Yours, your spouse's, or a relative's who lives with you.",
+   "heard": "No, PIP is no fault. Kitchen table rule. First, the policies on your own table. Yours, your spouses, or relatives who lives with you.",
+   "wer": 0.04,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": 3,
+   "say": "So Rosa's own insurer pays. Key exceptions: hurt in your employer's vehicle? Its insurer pays. Motorcyclist hit by a car? The car owner's insurer first.",
+   "heard": "So ROSA's own insurer pays. Key exceptions, heard in your employer's vehicle, it's insurer pays, motorcyclist hit by a car, the car owner's insurer first.",
+   "wer": 0.04,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": 5,
+   "say": "Another rental rule: on rentals of thirty days or less, if the renter's driving hurts someone, a rental company that wasn't negligent is liable as owner only up to twenty thousand dollars per person and forty thousand dollars per accident. Same numbers as the old limits, but still the law.",
+   "heard": "Another rental rule. On rentals of 30 days or less, if the renters driving hurt someone, a rental company that was not negligent is liable as owner only up to $20,000 per person and $40,000 per accident. Same numbers as the old limits, but still the law.",
+   "wer": 0.02,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 0,
+   "say": "Who runs that plan? The Michigan Automobile Insurance Placement Facility, or M A I P F. Its main job? Meet Rosa's neighbor Walt.",
+   "heard": "who runs that plan, the Michigan Automobile Insurance Placement Facility, or MAIPF, its main job, meet Rose's neighbor Walt.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 1,
+   "say": "Nobody would insure me the ordinary way.",
+   "heard": "nobody would ensure me the ordinary way.",
+   "wer": 0.143,
+   "voice": "neighbor"
+  },
+  {
+   "scene": 13,
+   "beat": 0,
+   "say": "Day ninety: Jay, Rosa's roommate who drives her car daily, has his license suspended, and it's final. Under Chapter thirty-two, how should the insurer cancel?",
+   "heard": "Day 90, Jay, Rose's roommate who drives her car daily, has his license suspended and it's final. Under Chapter 32, how should the insurer cancel?",
+   "wer": 0.04,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": "o3:0",
+   "say": "Too short! Twenty days, minimum.",
+   "heard": "Two short, 20 days minimum.",
+   "wer": 0.2,
+   "voice": "narrator"
   }
  ]
 }

@@ -1,0 +1,18 @@
+/* controls */
+.lp-bar{position:relative;padding-top:4px}
+.lp-bar input[type=range]{width:100%;accent-color:var(--accent);margin:0;display:block}
+.lp-track{position:relative;height:5px;margin:3px 2px 0;background:var(--sunk);border-radius:99px;overflow:hidden}
+.lp-fill{position:absolute;left:0;top:0;bottom:0;background:var(--accent);opacity:.55}
+.lp-mark{position:absolute;top:0;bottom:0;width:2px;background:var(--muted);opacity:.6}
+.lp-mark.q{background:var(--gold);width:4px;opacity:1}
+.lp-ctrl{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
+.lp-sp{flex:1}
+.lp-pp{width:56px;height:44px;display:grid;place-items:center;padding:0}
+.lp-pp .ic{width:22px;height:22px}
+#lp-cc[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.lp-ctrl select{font:inherit;font-size:14px;padding:4px 6px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--ink)}
+.lp-trans summary{cursor:pointer;font-weight:600}
+.lp-tsc{margin:.55em 0;font-size:14px;line-height:1.55}
+.linkish{appearance:none;background:none;border:0;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline;font:inherit}
+
+@media (max-width:1400px){.sync{display:none}}

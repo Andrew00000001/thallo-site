@@ -1,55 +1,94 @@
 {
  "id": "L00",
- "beats": 43,
+ "beats": 57,
  "mismatches": [
   {
    "scene": 1,
-   "beat": 0,
-   "say": "Your exam, P S I Series sixteen eighty-one, has one hundred fifty scored items.",
-   "heard": "Your exam, PSI Series 1681, has 150 scored items.",
-   "wer": 0.308
+   "beat": 1,
+   "say": "Her exam, P S I Series sixteen eighty-one, has one hundred fifty scored items and two point five hours. The cut score is seventy-four percent.",
+   "heard": "Her exam, PSI Series 1681, has 150 scored items and 2.5 hours. The cut score is 74 percent.",
+   "wer": 0.167,
+   "voice": "narrator"
   },
   {
    "scene": 3,
-   "beat": 4,
-   "say": "The four smallest, Businessowners, Workers' Comp, Other Coverages and Dwelling, add up to twenty-seven items. Don't skip them.",
-   "heard": "The four smallest, business owners, workers comp, other coverages and dwelling, add up to 27 items. Do not skip them.",
-   "wer": 0.105
+   "beat": 0,
+   "say": "In Michigan, the exam comes after prelicensing education, a required course: forty hours for combined property and casualty.",
+   "heard": "In Michigan, the exam comes after pre-licensing education, a required course, 40 hours for combined property and casualty.",
+   "wer": 0.118,
+   "voice": "narrator"
+  },
+  {
+   "scene": 3,
+   "beat": "o1:1",
+   "say": "Nice try. A designation like C P C U would be.",
+   "heard": "Nice try, a designation like CPC you would be.",
+   "wer": 0.25,
+   "voice": "narrator"
+  },
+  {
+   "scene": 5,
+   "beat": 0,
+   "say": "Quick check: D I F S, Michigan's insurance department, just entered her application. How long does she have to pass?",
+   "heard": "QuickCheck DIFS, Michigan's insurance department, just entered her application. How long does she have to pass?",
+   "wer": 0.118,
+   "voice": "narrator"
   },
   {
    "scene": 6,
-   "beat": 2,
-   "say": "Watch for except and not. In an except item, three choices fit the stem. Pick the one that doesn't.",
-   "heard": "Watch for accept and not. In an accept item, three choices fit the stem. Pick the one that does not.",
-   "wer": 0.105
-  },
-  {
-   "scene": 8,
    "beat": 0,
-   "say": "Your turn. Which of these IDs will get you into the exam? Pick an answer.",
-   "heard": "Your turn, which of these ID will get you into the exam? Pick an answer.",
-   "wer": 0.067
+   "say": "Seat booked, Dana studies with this app. Every day, she taps Start today's session first.",
+   "heard": "Seatbooked Dana Studies with this app. Every day, she taps start today's session first.",
+   "wer": 0.133,
+   "voice": "narrator"
   },
   {
-   "scene": 9,
-   "beat": 0,
-   "say": "Now, your path to a license. Finish prelicensing education first, or your exam results are invalidated: forty hours for combined property and casualty.",
-   "heard": "Now, your path to a license. Finish pre-licensing education first or your exam results are invalidated. 40 hours for combined property and casualty.",
-   "wer": 0.091
-  },
-  {
-   "scene": 10,
+   "scene": 6,
    "beat": 1,
-   "say": "One hundred eighty days. After that, you need a new application and fee. Twelve months is your course certificate, not your application.",
-   "heard": "After that, you need a new application and fee. Twelve months is your course certificate, not your application.",
-   "wer": 0.19
+   "say": "Misses come back next session; right answers, after growing gaps. Then she adds new material, roughly by weight.",
+   "heard": "Mrs. come back next session, write answers after growing gaps. Then she adds new material roughly by weight.",
+   "wer": 0.111,
+   "voice": "narrator"
+  },
+  {
+   "scene": 6,
+   "beat": 3,
+   "say": "She mixes topics with All sections, weighted like the exam. With Rate how sure I am on, misses she marked Sure come back first.",
+   "heard": "She mixes topics with all sections, weighted like the exam. With rate how sure I am on, Mrs. She-Marked-Sure come back first.",
+   "wer": 0.042,
+   "voice": "narrator"
   },
   {
    "scene": 11,
    "beat": 0,
-   "say": "Last, this app. Each day, do Start today's session first. Misses come back next session, and right answers after growing gaps. Then add new material, roughly by weight.",
-   "heard": "Last this app, each day do start today's session first. Misses come back next session and write answers after growing gaps. Then add new material roughly by weight.",
-   "wer": 0.037
+   "say": "Dana reads the last line first, to see what's asked. It's an except item: three choices fit, and she needs the one that doesn't.",
+   "heard": "Dana reads the last line first to see what's asked. It's an accept item, three choices fit, and she needs the one that does not.",
+   "wer": 0.042,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": "o0:0",
+   "say": "Time runs out before she gets back. A blank can't be right: a sure miss.",
+   "heard": "Time runs out before she gets back. A blank cannot be right. Assure, miss.",
+   "wer": 0.133,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": "o2:0",
+   "say": "She picks D, her best guess, jots thirty-seven on scratch paper and moves on.",
+   "heard": "She picks D, her best guess, Jotz 37 on scratch paper and moves on.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 1,
+   "say": "Only a valid government photo I D with your signature, in your registered name, gets you in. Use the tutorial; read except items carefully.",
+   "heard": "Only a valid government photo ID with your signature in your registered name gets you in. Use the tutorial, read accept items carefully.",
+   "wer": 0.043,
+   "voice": "narrator"
   }
  ]
 }

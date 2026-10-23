@@ -1,412 +1,2663 @@
 {
-  "id": "L05",
-  "sec": "basics",
-  "guide": "basics",
-  "title": "Negligence, damages and liability",
-  "summary": "The four elements of negligence, Michigan's comparative fault rule, special, general and punitive damages, and absolute, strict and vicarious liability.",
-  "objectives": [
-    "Name the four elements of negligence and the main defenses",
-    "Apply Michigan's comparative fault rule to a damage award",
-    "Classify special, general and punitive damages",
-    "Tell absolute, strict and vicarious liability apart"
-  ],
-  "scenes": [
+ "id": "L05",
+ "sec": "basics",
+ "guide": "basics",
+ "title": "Negligence, damages and liability",
+ "summary": "A slip at Tony's Pizza: the four elements of negligence, Michigan's comparative fault rule, the kinds of damages, and absolute, strict and vicarious liability.",
+ "objectives": [
+  "Name the four elements of negligence and the main defenses",
+  "Apply Michigan's comparative fault rule to a damage award",
+  "Classify special, general and punitive damages",
+  "Tell absolute, strict and vicarious liability apart"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Slush at Tony's: who pays when someone gets hurt?",
+   "subtitle": "Negligence, Michigan's fault rules, the kinds of damages, and three special kinds of liability",
+   "draw": [
     {
-      "type": "title",
-      "title": "Negligence, damages and liability",
-      "subtitle": "How the law decides who pays when someone gets hurt",
-      "icon": "gavel",
-      "src": "ISO CG 00 01 04 13, Sec. I, Cov. A.1.a",
-      "beats": [
-        {
-          "text": "Liability coverage, like the CGL, pays sums the insured becomes legally obligated to pay as damages. So you need to know how the law decides who's responsible.",
-          "say": "Liability coverage, like the C G L, pays sums the insured becomes legally obligated to pay as damages. So you need to know how the law decides who's responsible."
-        },
-        {
-          "text": "In this lesson: the elements of negligence, Michigan's fault rules, the kinds of damages, and three special kinds of liability.",
-          "say": "In this lesson: the elements of negligence, Michigan's fault rules, the kinds of damages, and three special kinds of liability."
-        }
-      ]
+     "p": "restaurant",
+     "x": 30,
+     "y": 30,
+     "h": 36,
+     "id": "shop",
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-      "type": "hook",
-      "title": "Four elements of negligence",
-      "src": "IRMI glossary: negligence; proximate cause",
-      "mn": "mn-mn_core-11",
-      "hook": "Don't Break People's Doors: Duty, Breach, Proximate cause, Damage.",
-      "items": [
-        "Duty: the defendant owed the plaintiff a legal duty of care",
-        "Breach: the defendant failed to use reasonable care",
-        "Proximate cause: the breach led, foreseeably, to the harm",
-        "Damage: the plaintiff suffered actual injury or damage"
-      ],
-      "beats": [
-        {
-          "text": "Negligence has four elements, and the plaintiff must prove all four. Here's the hook: Don't Break People's Doors.",
-          "say": "Negligence has four elements, and the plaintiff must prove all four. Here's the hook: Don't Break People's Doors.",
-          "show": 0
-        },
-        {
-          "text": "Duty: the defendant owed the plaintiff a legal duty of care. Breach: the defendant failed to use reasonable care.",
-          "say": "Duty: the defendant owed the plaintiff a legal duty of care. Breach: the defendant failed to use reasonable care.",
-          "show": 2
-        },
-        {
-          "text": "Proximate cause: the breach set off a foreseeable chain of events that led to the harm. Damage: an actual injury or loss.",
-          "say": "Proximate cause: the breach set off a foreseeable chain of events that led to the harm. Damage: an actual injury or loss.",
-          "show": 4
-        },
-        {
-          "text": "Watch out: intent to harm is not an element. On an EXCEPT question, intent is usually the odd one out.",
-          "say": "Watch out: intent to harm is not an element. On an EXCEPT question, intent is usually the odd one out.",
-          "show": 4
-        }
-      ]
+     "p": "snow",
+     "x": 6,
+     "y": 6,
+     "h": 5,
+     "loop": "spin"
     },
     {
-      "type": "compare",
-      "title": "Defenses against negligence",
-      "src": "IRMI glossary: contributory negligence; comparative negligence; assumption of risk",
-      "columns": [
-        {
-          "name": "Contributory negligence",
-          "icon": "ban",
-          "points": [
-            "Common-law rule",
-            "Any fault by the plaintiff bars recovery",
-            "Many states have replaced it"
-          ]
-        },
-        {
-          "name": "Comparative negligence",
-          "icon": "percent",
-          "points": [
-            "Damages reduced by the plaintiff's percentage of fault"
-          ]
-        },
-        {
-          "name": "Assumption of risk",
-          "icon": "triangle-alert",
-          "points": [
-            "Knowingly and voluntarily accepted a known risk",
-            "Can't recover for the resulting injury"
-          ]
-        }
-      ],
-      "tell": "Contributory: any fault, nothing. Comparative: you lose your share.",
-      "beats": [
-        {
-          "text": "These are the general defenses; Michigan's rule comes next. Under the old common-law rule of contributory negligence, any fault by the plaintiff bars recovery. Many states have replaced it.",
-          "say": "These are the general defenses; Michigan's rule comes next. Under the old common-law rule of contributory negligence, any fault by the plaintiff bars recovery. Many states have replaced it.",
-          "show": 1
-        },
-        {
-          "text": "Under comparative negligence, damages are reduced by the plaintiff's percentage of fault.",
-          "say": "Under comparative negligence, damages are reduced by the plaintiff's percentage of fault.",
-          "show": 2
-        },
-        {
-          "text": "And under assumption of risk, someone who knowingly and voluntarily accepts a known risk can't recover for the resulting injury.",
-          "say": "And under assumption of risk, someone who knowingly and voluntarily accepts a known risk can't recover for the resulting injury.",
-          "show": 3
-        },
-        {
-          "text": "In short: contributory means any fault, nothing. Comparative means you lose your share.",
-          "say": "In short: contributory means any fault, nothing. Comparative means you lose your share.",
-          "show": 3,
-          "tell": true
-        }
-      ]
+     "p": "snow",
+     "x": 40,
+     "y": 4,
+     "h": 4,
+     "loop": "spin"
     },
     {
-      "type": "bullets",
-      "title": "Michigan's comparative fault rule",
-      "src": "MCL 600.2958; MCL 600.2959; MCL 500.3135(2)(b)",
-      "items": [
-        {
-          "label": "Your fault doesn't bar recovery",
-          "detail": "Contributory fault is not a complete bar in Michigan",
-          "icon": "circle-check"
-        },
-        {
-          "label": "Damages drop by your percentage",
-          "detail": "Damages are reduced by the plaintiff's percentage of fault",
-          "icon": "percent"
-        },
-        {
-          "label": "More than 50% at fault",
-          "detail": "Economic damages still reduced; no noneconomic damages awarded",
-          "icon": "ban"
-        },
-        {
-          "label": "Auto no-fault suits differ",
-          "detail": "Noneconomic-loss suit: no damages for a party more than 50% at fault",
-          "icon": "car"
-        }
-      ],
-      "beats": [
-        {
-          "text": "In Michigan, a plaintiff's own fault does not bar recovery. Instead, damages are reduced by the plaintiff's percentage of fault.",
-          "say": "In Michigan, a plaintiff's own fault does not bar recovery. Instead, damages are reduced by the plaintiff's percentage of fault.",
-          "show": 2
-        },
-        {
-          "text": "But if the plaintiff's fault is greater than everyone else's combined, so more than 50%, economic damages are still reduced, and noneconomic damages, like pain and suffering, are not awarded.",
-          "say": "But if the plaintiff's fault is greater than everyone else's combined, so more than fifty percent, economic damages are still reduced, and noneconomic damages, like pain and suffering, are not awarded.",
-          "show": 3
-        },
-        {
-          "text": "Auto no-fault suits for noneconomic loss use a different rule: a party more than 50% at fault recovers nothing.",
-          "say": "Auto no-fault suits for noneconomic loss use a different rule: a party more than fifty percent at fault recovers nothing.",
-          "show": 4
-        }
-      ]
+     "p": "snow",
+     "x": 86,
+     "y": 30,
+     "h": 4,
+     "loop": "spin"
     },
     {
-      "type": "formula",
-      "title": "Working the Michigan rule",
-      "src": "MCL 600.2958; MCL 600.2959 (method as in question core-026)",
-      "given": [
-        "Michigan general negligence suit",
-        "Economic damages: $100,000",
-        "Plaintiff's fault: 30%"
-      ],
-      "items": [
-        {
-          "label": "Reduction for plaintiff's fault",
-          "expr": "30% × $100,000",
-          "value": "$30,000"
-        },
-        {
-          "label": "Plaintiff recovers",
-          "expr": "$100,000 − $30,000",
-          "value": "$70,000"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Let's work one. A Michigan plaintiff proves $100,000 of economic damages and is found 30% at fault. What does the plaintiff recover?",
-          "say": "Let's work one. A Michigan plaintiff proves one hundred thousand dollars of economic damages and is found thirty percent at fault. What does the plaintiff recover?",
-          "show": 0
-        },
-        {
-          "text": "First, the reduction: 30% of $100,000 is $30,000.",
-          "say": "First, the reduction: thirty percent of one hundred thousand dollars is thirty thousand dollars.",
-          "show": 1
-        },
-        {
-          "text": "So the plaintiff recovers $70,000. Under the old contributory rule, the answer would be zero.",
-          "say": "So the plaintiff recovers seventy thousand dollars. Under the old contributory rule, the answer would be zero.",
-          "show": 2
-        }
-      ]
+     "p": "water",
+     "x": 43,
+     "y": 47.5,
+     "w": 18,
+     "id": "puddle",
+     "over": true,
+     "cue": "pools",
+     "anim": "grow"
     },
     {
-      "type": "quiz",
-      "q": "In a Michigan general negligence suit, the plaintiff is found exactly 50% at fault. What happens to her noneconomic damages, such as pain and suffering?",
-      "choices": [
-        "They are barred completely",
-        "They are reduced by 50%",
-        "They are paid in full"
-      ],
-      "answer": 1,
-      "why": "Michigan cuts off noneconomic damages only when the plaintiff's fault is more than 50%. At exactly 50%, they are reduced by her share.",
-      "beats": [
-        {
-          "text": "Here's a trap. A Michigan plaintiff is found exactly 50% at fault. What happens to her noneconomic damages? Pick an answer.",
-          "say": "Here's a trap. A Michigan plaintiff is found exactly fifty percent at fault. What happens to her noneconomic damages? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "They're reduced by 50%, not barred. The cutoff applies only when the plaintiff is more than 50% at fault, and 50 is not more than 50.",
-          "say": "They're reduced by fifty percent, not barred. The cutoff applies only when the plaintiff is more than fifty percent at fault, and fifty is not more than fifty."
-        }
-      ]
+     "p": "person",
+     "x": 72,
+     "y": 46,
+     "h": 30,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "hold": "pizza",
+      "mood": "happy"
+     },
+     "id": "tony"
     },
     {
-      "type": "hook",
-      "title": "Kinds of damages",
-      "src": "IRMI glossary: compensatory, special, general, punitive damages; Gilbert v DaimlerChrysler (Mich 2004), via IADC compendium",
-      "mn": "mn-mn_core-13",
-      "hook": "Special = Spreadsheet (bills you can add up). General = Gut (pain and suffering). Punitive = Punish. In Michigan, Punish needs Permission from the Legislature.",
-      "items": [
-        "Special: measurable losses like medical bills, lost wages, loss of use",
-        "General: a subjective award for pain and suffering",
-        "Punitive: beyond compensation, to punish wanton or willful conduct",
-        "Michigan: punitive only when the Legislature expressly authorizes it"
-      ],
-      "beats": [
-        {
-          "text": "Now, damages. Compensatory damages make amends for the actual loss, and they come in two types. Special equals Spreadsheet. General equals Gut.",
-          "say": "Now, damages. Compensatory damages make amends for the actual loss, and they come in two types. Special equals Spreadsheet. General equals Gut.",
-          "show": 0
-        },
-        {
-          "text": "Special damages are losses you can add up: medical bills, lost wages, loss of use. General damages are a subjective award for pain and suffering.",
-          "say": "Special damages are losses you can add up: medical bills, lost wages, loss of use. General damages are a subjective award for pain and suffering.",
-          "show": 2
-        },
-        {
-          "text": "Punitive damages go beyond compensation, to punish wanton or willful conduct.",
-          "say": "Punitive damages go beyond compensation, to punish wanton or willful conduct.",
-          "show": 3
-        },
-        {
-          "text": "In Michigan, punish needs permission. Punitive damages are generally not recoverable unless the Legislature expressly authorizes them.",
-          "say": "In Michigan, punish needs permission. Punitive damages are generally not recoverable unless the Legislature expressly authorizes them.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "quiz",
-      "q": "A jury awards a shopper who slipped in a store $25,000 for lost wages and $60,000 for pain and suffering. Which part is general damages?",
-      "choices": [
-        "The $25,000 for lost wages",
-        "The $60,000 for pain and suffering",
-        "Both awards",
-        "Neither; both are punitive"
-      ],
-      "answer": 1,
-      "why": "Pain and suffering is a subjective award, so it is general damages. Lost wages can be added up, so they are special. Both are compensatory.",
-      "beats": [
-        {
-          "text": "Quick check. A jury awards a shopper who slipped in a store $25,000 for lost wages and $60,000 for pain and suffering. Which part is general damages? Pick an answer.",
-          "say": "Quick check. A jury awards a shopper who slipped in a store twenty five thousand dollars for lost wages and sixty thousand dollars for pain and suffering. Which part is general damages? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "The $60,000 for pain and suffering. It's a subjective award, so it's general. The lost wages add up, so they're special. Both are compensatory.",
-          "say": "The sixty thousand dollars for pain and suffering. It's a subjective award, so it's general. The lost wages add up, so they're special. Both are compensatory."
-        }
-      ]
-    },
-    {
-      "type": "compare",
-      "title": "Absolute, strict and vicarious liability",
-      "src": "Restatement (2d) Torts §§519-520; IRMI glossary: strict liability; vicarious liability; LII Wex",
-      "columns": [
-        {
-          "name": "Absolute",
-          "icon": "bomb",
-          "points": [
-            "Ultrahazardous activities",
-            "Blasting, keeping wild animals",
-            "Exercising care is no defense"
-          ]
-        },
-        {
-          "name": "Strict",
-          "icon": "package",
-          "points": [
-            "Liability without regard to fault",
-            "Classic case: maker or seller of a defective, dangerous product"
-          ]
-        },
-        {
-          "name": "Vicarious",
-          "icon": "users",
-          "points": [
-            "Liable for someone else's acts",
-            "Employer for employee in the scope of employment",
-            "Also partners, independent contractors, children"
-          ]
-        }
-      ],
-      "tell": "Exam convention: blasting is absolute, defective products are strict, someone else's act is vicarious.",
-      "beats": [
-        {
-          "text": "Absolute liability applies to ultrahazardous activities, like blasting or keeping wild animals. Being careful is no defense.",
-          "say": "Absolute liability applies to ultrahazardous activities, like blasting or keeping wild animals. Being careful is no defense.",
-          "show": 1
-        },
-        {
-          "text": "Strict liability is imposed without regard to fault. The classic example is the maker or seller of a defective, dangerous product.",
-          "say": "Strict liability is imposed without regard to fault. The classic example is the maker or seller of a defective, dangerous product.",
-          "show": 2
-        },
-        {
-          "text": "Vicarious liability makes one party liable for someone else's acts, like an employer for an employee acting in the scope of employment. It can also apply to partners, independent contractors and children.",
-          "say": "Vicarious liability makes one party liable for someone else's acts, like an employer for an employee acting in the scope of employment. It can also apply to partners, independent contractors and children.",
-          "show": 3
-        },
-        {
-          "text": "Legal sources often use absolute and strict interchangeably. These are the generic exam definitions, not Michigan product law: blasting is absolute, defective products are strict.",
-          "say": "Legal sources often use absolute and strict interchangeably. These are the generic exam definitions, not Michigan product law: blasting is absolute, defective products are strict.",
-          "show": 3,
-          "tell": true
-        }
-      ]
-    },
-    {
-      "type": "quiz",
-      "q": "A landscaping company's employee, while mowing a customer's lawn, carelessly throws a rock through a neighbor's window. The company is held liable. This is:",
-      "choices": [
-        "Absolute liability",
-        "Strict liability",
-        "Vicarious liability",
-        "Contributory negligence"
-      ],
-      "answer": 2,
-      "why": "The company is liable for its employee's act within the scope of employment. That's vicarious liability.",
-      "beats": [
-        {
-          "text": "Last one. A landscaping company's employee, mowing a customer's lawn, carelessly throws a rock through a neighbor's window. The company is held liable. What kind of liability is that? Pick an answer.",
-          "say": "Last one. A landscaping company's employee, mowing a customer's lawn, carelessly throws a rock through a neighbor's window. The company is held liable. What kind of liability is that? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "Vicarious liability. The company is liable for its employee's act in the scope of employment. Nothing here is ultrahazardous or a defective product.",
-          "say": "Vicarious liability. The company is liable for its employee's act in the scope of employment. Nothing here is ultrahazardous or a defective product."
-        }
-      ]
-    },
-    {
-      "type": "recap",
-      "items": [
-        "Negligence: duty, breach, proximate cause, damage. No intent needed",
-        "Michigan: fault reduces damages; over 50% loses noneconomic damages",
-        "Special damages add up; general damages are pain and suffering",
-        "Michigan punitive damages need express legislative authority",
-        "Absolute: blasting. Strict: defective products. Vicarious: via others"
-      ],
-      "beats": [
-        {
-          "text": "To recap: negligence needs duty, breach, proximate cause and damage. In Michigan, your fault reduces your damages, and over 50% costs you noneconomic damages.",
-          "say": "To recap: negligence needs duty, breach, proximate cause and damage. In Michigan, your fault reduces your damages, and over fifty percent costs you noneconomic damages.",
-          "show": 2
-        },
-        {
-          "text": "Special damages add up; general damages are pain and suffering. Michigan punitive damages need the Legislature's permission. And absolute, strict and vicarious liability each have their classic case.",
-          "say": "Special damages add up; general damages are pain and suffering. Michigan punitive damages need the Legislature's permission. And absolute, strict and vicarious liability each have their classic case.",
-          "show": 5
-        }
-      ]
+     "p": "bubble",
+     "x": 66,
+     "y": 11,
+     "text": "It's just water. What could go wrong?",
+     "w": 34,
+     "to": "tony",
+     "at": 1
     }
-  ],
-  "check": [
-    "core-024",
-    "core-025",
-    "core-bas-07",
-    "core-027",
-    "core-029"
-  ],
-  "hooks": [
-    "mn-mn_core-11",
-    "mn-mn_core-13"
-  ],
-  "sources": [
-    "MCL 600.2958",
-    "MCL 600.2959",
-    "MCL 500.3135(2)(b)",
-    "ISO CG 00 01 04 13, Sec. I, Cov. A.1.a",
-    "Gilbert v DaimlerChrysler Corp, 685 NW2d 391 (Mich 2004), via IADC Michigan Damages Compendium",
-    "Casey v Auto Owners Ins Co, 729 NW2d 277 (Mich App 2006), via IADC Michigan Damages Compendium",
-    "Restatement (Second) of Torts §§519-520",
-    "IRMI glossary",
-    "Cornell LII Wex"
-  ]
+   ],
+   "beats": [
+    {
+     "text": "It's a slushy Saturday in Detroit. Melted snow pools inside the door of Tony's Pizza, and Tony is too busy to mop.",
+     "say": "It's a slushy Saturday in Detroit. Melted snow pools inside the door of Tony's Pizza, and Tony is too busy to mop."
+    },
+    {
+     "text": "It's just water. What could go wrong?",
+     "say": "It's just water. What could go wrong?",
+     "voice": "tony"
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Rosa slips: was Tony negligent?",
+   "src": "IRMI glossary: negligence; ISO CG 00 01 04 13, Sec. I, Cov. A.1.a; memory hook mn_core-11; question core-024",
+   "kind": "Term",
+   "term": "Negligence",
+   "plain": "Not using the reasonable care you owe someone, and causing them real harm.",
+   "example": "Tony saw the slush puddle and left it there for an hour: no mop, no sign. Rosa slipped on it and broke her leg.",
+   "exam": "Intent to harm is NOT an element. On an EXCEPT question, intent is usually the odd one out.",
+   "draw": [
+    {
+     "p": "water",
+     "x": 28,
+     "y": 58,
+     "w": 46,
+     "id": "puddle",
+     "over": true
+    },
+    {
+     "p": "person",
+     "x": 28,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "rosa",
+      "pose": "shrug",
+      "mood": "shocked"
+     },
+     "id": "rosa",
+     "rot": -25,
+     "over": true
+    },
+    {
+     "p": "crash",
+     "x": 14,
+     "y": 13,
+     "h": 15,
+     "opt": {
+      "text": "SPLASH!"
+     },
+     "cue": "slips",
+     "sfx": "crash",
+     "over": true
+    },
+    {
+     "p": "phone",
+     "x": 44,
+     "y": 13,
+     "h": 8,
+     "rot": 35,
+     "cue": "slips",
+     "anim": "pop"
+    },
+    {
+     "p": "policy",
+     "x": 62,
+     "y": 16,
+     "h": 15,
+     "id": "suit",
+     "opt": {
+      "title": "LAWSUIT",
+      "tcolor": "red",
+      "tsize": 6.5
+     },
+     "at": 2,
+     "cue": "sues"
+    },
+    {
+     "p": "person",
+     "x": 64,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "mood": "worried",
+      "pose": "shrug"
+     },
+     "id": "tony",
+     "at": 2,
+     "cue": "Tony"
+    },
+    {
+     "p": "label",
+     "x": 13,
+     "y": 30,
+     "text": "plaintiff",
+     "size": 4.2,
+     "bold": true,
+     "color": "purple",
+     "at": 2,
+     "cue": "plaintiff"
+    },
+    {
+     "p": "label",
+     "x": 66,
+     "y": 28.5,
+     "text": "defendant",
+     "size": 4.2,
+     "bold": true,
+     "color": "red",
+     "at": 2,
+     "cue": "defendant"
+    }
+   ],
+   "beats": [
+    {
+     "text": "An hour later, Rosa hurries in, eyes on her phone, slips on the puddle and breaks her leg.",
+     "say": "An hour later, Rosa hurries in, eyes on her phone, slips on the puddle and breaks her leg.",
+     "show": 1,
+     "hl": "rosa"
+    },
+    {
+     "text": "Ow! My leg!",
+     "say": "Ow! My leg!",
+     "voice": "rosa",
+     "show": 1,
+     "hl": "rosa"
+    },
+    {
+     "text": "She sues Tony. In exam words, she's the plaintiff and Tony's the defendant.",
+     "say": "She sues Tony. In exam words, she's the plaintiff and Tony's the defendant.",
+     "show": 1,
+     "hl": "suit"
+    },
+    {
+     "text": "Liability coverage, like Coverage A of Tony's CGL, pays sums the insured becomes legally obligated to pay as damages. Is Tony legally responsible?",
+     "say": "Liability coverage, like Coverage A of Tony's C G L, pays sums the insured becomes legally obligated to pay as damages. Is Tony legally responsible?",
+     "show": 1
+    },
+    {
+     "text": "Rosa says he was negligent: he didn't use the reasonable care he owed her.",
+     "say": "Rosa says he was negligent: he didn't use the reasonable care he owed her.",
+     "show": 3,
+     "hl": "puddle"
+    },
+    {
+     "text": "Watch out: intent to harm is not an element of negligence.",
+     "say": "Watch out: intent to harm is not an element of negligence.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "What Rosa must prove",
+   "src": "IRMI glossary: negligence; proximate cause; memory hook mn_core-11; question core-024",
+   "draw": [
+    {
+     "p": "label",
+     "x": 80,
+     "y": 5,
+     "text": "Don't Break People's Doors",
+     "size": 5,
+     "bold": true,
+     "bg": "yellow"
+    },
+    {
+     "p": "restaurant",
+     "x": 20,
+     "y": 36,
+     "h": 28,
+     "id": "shop",
+     "opt": {
+      "name": "TONY'S"
+     }
+    },
+    {
+     "p": "person",
+     "x": 48,
+     "y": 42,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "worried"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "bubble",
+     "x": 58,
+     "y": 18,
+     "text": "I never meant to hurt anyone!",
+     "w": 30,
+     "to": "tony",
+     "think": true
+    },
+    {
+     "p": "water",
+     "x": 87,
+     "y": 60,
+     "w": 34,
+     "id": "puddle",
+     "over": true
+    },
+    {
+     "p": "person",
+     "x": 86,
+     "y": 42,
+     "h": 28,
+     "opt": {
+      "who": "rosa",
+      "pose": "shrug",
+      "mood": "shocked"
+     },
+     "id": "rosa",
+     "rot": -20,
+     "over": true
+    },
+    {
+     "p": "crash",
+     "x": 102,
+     "y": 22,
+     "h": 13,
+     "opt": {
+      "text": "SPLASH!"
+     },
+     "over": true
+    },
+    {
+     "p": "label",
+     "x": 117,
+     "y": 35,
+     "text": "chain of events",
+     "size": 4
+    },
+    {
+     "p": "chain",
+     "x": 116,
+     "y": 44,
+     "h": 8.5,
+     "id": "chain"
+    },
+    {
+     "p": "hospital",
+     "x": 145,
+     "y": 38,
+     "h": 26,
+     "id": "hosp"
+    }
+   ],
+   "spots": [
+    {
+     "on": "shop",
+     "label": "Duty",
+     "text": "Rosa was a customer at Tony's Pizza. First, she must show that Tony owed her a legal duty of care."
+    },
+    {
+     "on": "puddle",
+     "label": "Breach",
+     "text": "Breach means failing to use the care that was reasonable. Rosa points to the puddle Tony saw and left for an hour: no mop, no sign."
+    },
+    {
+     "on": "chain",
+     "label": "Proximate cause",
+     "text": "The breach set off a foreseeable chain of events: puddle, slip, broken leg. The breach led to the harm."
+    },
+    {
+     "on": "hosp",
+     "label": "Damage",
+     "text": "A broken leg is an actual injury. Without actual injury or damage, there's no negligence claim."
+    },
+    {
+     "on": "tony",
+     "label": "Not an element: intent",
+     "text": "Tony never meant to hurt anyone. Intent to harm is not an element of negligence, so Rosa doesn't have to prove it."
+    }
+   ],
+   "beats": [
+    {
+     "text": "To win, Rosa must prove all four elements. The hook: Don't Break People's Doors. Duty, breach, proximate cause, damage.",
+     "say": "To win, Rosa must prove all four elements. The hook: Don't Break People's Doors. Duty, breach, proximate cause, damage."
+    },
+    {
+     "text": "Tap each glowing spot.",
+     "say": "Tap each glowing spot."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "She must show duty: Tony owed her a duty of care under the law. Breach: he didn't use reasonable care.",
+     "say": "She must show duty: Tony owed her a duty of care under the law. Breach: he didn't use reasonable care."
+    },
+    {
+     "text": "Proximate cause: a foreseeable chain, puddle to slip to broken leg. Damage: an actual injury. No intent needed.",
+     "say": "Proximate cause: a foreseeable chain, puddle to slip to broken leg. Damage: an actual injury. No intent needed."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "What can Rosa ask for? Three kinds of damages",
+   "src": "IRMI glossary: compensatory, special, general, punitive damages; Gilbert (Mich 2004), via IADC compendium; hook mn_core-13",
+   "draw": [
+    {
+     "p": "label",
+     "x": 53,
+     "y": 5,
+     "text": "Compensatory: amends for the actual loss",
+     "size": 4.2,
+     "bold": true,
+     "color": "purple",
+     "w": 96
+    },
+    {
+     "p": "line",
+     "from": [
+      6,
+      9.5
+     ],
+     "to": [
+      100,
+      9.5
+     ],
+     "color": "purple"
+    },
+    {
+     "p": "person",
+     "x": 53,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "rosa",
+      "pose": "think",
+      "mood": "neutral"
+     },
+     "out": 1
+    },
+    {
+     "p": "question",
+     "x": 67,
+     "y": 24,
+     "h": 11,
+     "out": 1,
+     "cue": "ask"
+    },
+    {
+     "p": "divider",
+     "x": 53.5,
+     "y": 40,
+     "y0": 12,
+     "y1": 64,
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 106.5,
+     "y": 40,
+     "y0": 4,
+     "y1": 64,
+     "at": 3
+    },
+    {
+     "p": "label",
+     "x": 27,
+     "y": 15,
+     "text": "Special = Spreadsheet",
+     "size": 4.4,
+     "bold": true,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "p": "receipt",
+     "x": 27,
+     "y": 34,
+     "h": 24,
+     "id": "bills",
+     "at": 1,
+     "opt": {
+      "n": 4,
+      "total": "$$$"
+     }
+    },
+    {
+     "p": "label",
+     "x": 27,
+     "y": 55,
+     "text": "Medical bills, lost wages, loss of use",
+     "size": 4.2,
+     "w": 40,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "x": 80,
+     "y": 15,
+     "text": "General = Gut",
+     "size": 4.4,
+     "bold": true,
+     "color": "green",
+     "at": 2
+    },
+    {
+     "p": "person",
+     "x": 76,
+     "y": 36,
+     "h": 26,
+     "opt": {
+      "who": "rosa",
+      "pose": "sad",
+      "mood": "sad"
+     },
+     "id": "rosa",
+     "at": 2
+    },
+    {
+     "p": "crutches",
+     "x": 90,
+     "y": 38,
+     "h": 20,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "x": 80,
+     "y": 57,
+     "text": "Pain and suffering",
+     "size": 4.4,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "x": 133,
+     "y": 7,
+     "text": "Punitive = Punish",
+     "size": 4.4,
+     "bold": true,
+     "color": "red",
+     "at": 3
+    },
+    {
+     "p": "gavel",
+     "x": 133,
+     "y": 20,
+     "h": 13,
+     "id": "gavel",
+     "opt": {
+      "strike": true
+     },
+     "at": 3,
+     "cue": "Punish",
+     "sfx": "stamp"
+    },
+    {
+     "p": "label",
+     "x": 133,
+     "y": 36,
+     "text": "Beyond compensation: for wanton or willful wrongdoing",
+     "size": 4.2,
+     "w": 50,
+     "at": 3
+    },
+    {
+     "p": "michigan",
+     "x": 117,
+     "y": 55,
+     "h": 15,
+     "id": "mi",
+     "at": 4,
+     "cue": "Michigan"
+    },
+    {
+     "p": "label",
+     "x": 142,
+     "y": 55,
+     "text": "Only if a statute expressly says so",
+     "size": 4.2,
+     "w": 32,
+     "color": "red",
+     "at": 4,
+     "cue": "Michigan"
+    }
+   ],
+   "beats": [
+    {
+     "text": "What can Rosa ask for? Compensatory damages make amends for her actual loss. They come in two types.",
+     "say": "What can Rosa ask for? Compensatory damages make amends for her actual loss. They come in two types."
+    },
+    {
+     "text": "Special equals Spreadsheet: losses you can add up, like medical bills, lost wages and loss of use.",
+     "say": "Special equals Spreadsheet: losses you can add up, like medical bills, lost wages and loss of use.",
+     "hl": "bills"
+    },
+    {
+     "text": "General equals Gut: a subjective award for pain and suffering.",
+     "say": "General equals Gut: a subjective award for pain and suffering.",
+     "hl": "rosa"
+    },
+    {
+     "text": "Punitive equals Punish: extra money beyond compensation, to punish particularly wanton or willful wrongdoing.",
+     "say": "Punitive equals Punish: extra money beyond compensation, to punish particularly wanton or willful wrongdoing.",
+     "hl": "gavel"
+    },
+    {
+     "text": "In Michigan, punish needs permission: punitive damages generally aren't recoverable unless the Legislature expressly authorizes them by statute.",
+     "say": "In Michigan, punish needs permission: punitive damages generally aren't recoverable unless the Legislature expressly authorizes them by statute.",
+     "hl": "mi"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Rosa's claim: where do the lost wages go?",
+   "src": "IRMI glossary: compensatory, special, general, punitive damages; Gilbert (Mich 2004), via IADC; questions core-bas-07, core-bas-08, core-027",
+   "ask": "Where do her lost wages go?",
+   "draw": [
+    {
+     "p": "person",
+     "x": 22,
+     "y": 32,
+     "h": 36,
+     "opt": {
+      "who": "rosa",
+      "pose": "think",
+      "mood": "neutral"
+     },
+     "id": "rosa"
+    },
+    {
+     "p": "crutches",
+     "x": 39,
+     "y": 36,
+     "h": 26
+    },
+    {
+     "p": "policy",
+     "x": 64,
+     "y": 30,
+     "h": 30,
+     "id": "letter",
+     "opt": {
+      "title": "MY CLAIM",
+      "tsize": 6.5
+     }
+    },
+    {
+     "p": "receipt",
+     "x": 92,
+     "y": 28,
+     "h": 26,
+     "id": "wages",
+     "cue": "wages"
+    },
+    {
+     "p": "label",
+     "x": 92,
+     "y": 47,
+     "text": "Lost wages",
+     "size": 5,
+     "bold": true,
+     "cue": "wages"
+    },
+    {
+     "p": "question",
+     "x": 106,
+     "y": 14,
+     "h": 14,
+     "color": "red",
+     "at": 1,
+     "cue": "Where"
+    },
+    {
+     "p": "person",
+     "x": 136,
+     "y": 34,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "worried"
+     },
+     "id": "tony",
+     "at": 1,
+     "cue": "Tony"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Rosa lists her losses: hospital bills, six weeks of lost wages, and the pain.",
+     "say": "Rosa lists her losses: hospital bills, six weeks of lost wages, and the pain.",
+     "hl": "wages"
+    },
+    {
+     "text": "Tony was careless, not wanton or willful. Where do the lost wages go?",
+     "say": "Tony was careless, not wanton or willful. Where do the lost wages go?"
+    }
+   ],
+   "options": [
+    {
+     "label": "List them as general damages",
+     "ok": false,
+     "beats": [
+      {
+       "text": "General? No. Wages add up, like her bills: special. General is the subjective award for pain and suffering.",
+       "say": "General? No. Wages add up, like her bills: special. General is the subjective award for pain and suffering."
+      }
+     ],
+     "fail": "Lost wages can be added up, so they are special damages. General damages are the subjective award for pain and suffering.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 18,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "shrug",
+        "mood": "shocked"
+       },
+       "id": "rosa"
+      },
+      {
+       "p": "box",
+       "x": 58,
+       "y": 27,
+       "w": 38,
+       "hh": 34,
+       "title": "General",
+       "color": "green",
+       "r": 3,
+       "id": "gen"
+      },
+      {
+       "p": "box",
+       "x": 106,
+       "y": 27,
+       "w": 38,
+       "hh": 34,
+       "title": "Special",
+       "color": "blue",
+       "r": 3,
+       "id": "spec",
+       "cue": "special"
+      },
+      {
+       "p": "receipt",
+       "x": 58,
+       "y": 29,
+       "h": 22,
+       "id": "wages",
+       "over": true,
+       "move": {
+        "to": [
+         106,
+         29
+        ],
+        "cue": "special",
+        "dur": 1.2,
+        "sfx": "whoosh"
+       }
+      },
+      {
+       "p": "label",
+       "x": 82,
+       "y": 51,
+       "text": "Wages add up: special",
+       "size": 5.6,
+       "bold": true,
+       "color": "red",
+       "cue": "special"
+      }
+     ]
+    },
+    {
+     "label": "List them as special damages",
+     "ok": true,
+     "beats": [
+      {
+       "text": "Lost wages add up, like her bills: special damages. Her pain and suffering is general. Both are compensatory.",
+       "say": "Lost wages add up, like her bills: special damages. Her pain and suffering is general. Both are compensatory."
+      }
+     ],
+     "win": "Lost wages add up, like her medical bills: special damages. Pain and suffering is general. Both are compensatory.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 20,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "cheer",
+        "mood": "happy"
+       },
+       "id": "rosa"
+      },
+      {
+       "p": "receipt",
+       "x": 52,
+       "y": 22,
+       "h": 24,
+       "id": "bills"
+      },
+      {
+       "p": "label",
+       "x": 52,
+       "y": 39,
+       "text": "Special",
+       "size": 5,
+       "bold": true,
+       "color": "blue"
+      },
+      {
+       "p": "label",
+       "x": 70,
+       "y": 22,
+       "text": "+",
+       "size": 9,
+       "bold": true
+      },
+      {
+       "p": "heart",
+       "x": 88,
+       "y": 22,
+       "h": 16,
+       "id": "pain",
+       "cue": "pain"
+      },
+      {
+       "p": "label",
+       "x": 88,
+       "y": 39,
+       "text": "General",
+       "size": 5,
+       "bold": true,
+       "color": "green",
+       "cue": "pain"
+      },
+      {
+       "p": "label",
+       "x": 108,
+       "y": 22,
+       "text": "=",
+       "size": 9,
+       "bold": true,
+       "cue": "compensatory"
+      },
+      {
+       "p": "moneybag",
+       "x": 132,
+       "y": 24,
+       "h": 26,
+       "id": "bag",
+       "cue": "compensatory",
+       "sfx": "cash"
+      },
+      {
+       "p": "label",
+       "x": 92,
+       "y": 52,
+       "text": "Both compensatory",
+       "size": 5.6,
+       "bold": true,
+       "color": "green",
+       "cue": "compensatory"
+      }
+     ]
+    },
+    {
+     "label": "As punitive damages: make Tony pay extra!",
+     "ok": false,
+     "beats": [
+      {
+       "text": "Punish him! Make it huge!",
+       "say": "Punish him! Make it huge!",
+       "voice": "rosa"
+      },
+      {
+       "text": "Lost wages are an actual loss: compensatory. Punitive damages punish wanton or willful conduct, and Tony was only careless.",
+       "say": "Lost wages are an actual loss: compensatory. Punitive damages punish wanton or willful conduct, and Tony was only careless."
+      }
+     ],
+     "fail": "Lost wages are compensatory. Punitive damages punish wanton or willful conduct; Tony was careless. In Michigan, they need express statutory authority.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 24,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "hold",
+        "hold": "megaphone",
+        "mood": "angry"
+       },
+       "id": "rosa"
+      },
+      {
+       "p": "bubble",
+       "x": 30,
+       "y": 6,
+       "text": "PUNISH HIM!",
+       "w": 26,
+       "to": "rosa"
+      },
+      {
+       "p": "moneybag",
+       "x": 76,
+       "y": 26,
+       "h": 28,
+       "id": "bag"
+      },
+      {
+       "p": "label",
+       "x": 76,
+       "y": 6,
+       "text": "EXTRA!",
+       "size": 5.4,
+       "bold": true,
+       "color": "orange"
+      },
+      {
+       "p": "xout",
+       "on": "bag",
+       "at": 1,
+       "cue": "careless"
+      },
+      {
+       "p": "person",
+       "x": 118,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "label",
+       "x": 80,
+       "y": 51,
+       "text": "Careless is not willful",
+       "size": 5.6,
+       "bold": true,
+       "color": "red",
+       "at": 1,
+       "cue": "careless"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Special plus general: both compensatory. Punitive damages go beyond compensation, to punish.",
+     "say": "Special plus general: both compensatory. Punitive damages go beyond compensation, to punish."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Rosa was on her phone: three defenses",
+   "src": "IRMI glossary: contributory, comparative negligence; assumption of risk; MCL 600.2958; MCL 600.2959; hook mn_core-12",
+   "draw": [
+    {
+     "p": "divider",
+     "x": 53.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 106.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "x": 27,
+     "y": 6,
+     "text": "Contributory",
+     "size": 5,
+     "bold": true,
+     "color": "red",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "x": 27,
+     "y": 12,
+     "text": "old common law",
+     "size": 4.4,
+     "at": 1
+    },
+    {
+     "p": "person",
+     "x": 18,
+     "y": 36,
+     "h": 26,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "hold": "phone",
+      "mood": "sad"
+     },
+     "id": "rosa",
+     "at": 0
+    },
+    {
+     "p": "num",
+     "x": 40,
+     "y": 34,
+     "text": "$0",
+     "size": 10,
+     "color": "red",
+     "id": "zero",
+     "at": 1,
+     "cue": "zero"
+    },
+    {
+     "p": "label",
+     "x": 27,
+     "y": 58,
+     "text": "Any fault: zero dollars",
+     "size": 4.4,
+     "at": 1,
+     "w": 48
+    },
+    {
+     "p": "xout",
+     "on": "zero",
+     "at": 4,
+     "cue": "Michigan"
+    },
+    {
+     "p": "label",
+     "x": 80,
+     "y": 6,
+     "text": "Comparative",
+     "size": 5,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "piechart",
+     "x": 80,
+     "y": 31,
+     "h": 24,
+     "id": "pie",
+     "opt": {
+      "slices": [
+       70,
+       30
+      ],
+      "colors": [
+       "blue",
+       "orange"
+      ],
+      "pop": 1
+     },
+     "at": 2
+    },
+    {
+     "p": "label",
+     "x": 80,
+     "y": 58,
+     "text": "Damages cut by your % of fault",
+     "size": 4.4,
+     "w": 50,
+     "at": 2
+    },
+    {
+     "p": "stamp",
+     "x": 88,
+     "y": 48,
+     "text": "Michigan",
+     "color": "green",
+     "rot": -8,
+     "at": 4,
+     "cue": "Michigan",
+     "over": true
+    },
+    {
+     "p": "label",
+     "x": 133,
+     "y": 6,
+     "text": "Assumption of risk",
+     "size": 4.8,
+     "bold": true,
+     "color": "purple",
+     "at": 3
+    },
+    {
+     "p": "sign",
+     "x": 120,
+     "y": 29,
+     "h": 22,
+     "id": "ice",
+     "opt": {
+      "text": "THIN\nICE",
+      "tcolor": "red"
+     },
+     "at": 3
+    },
+    {
+     "p": "box",
+     "x": 145,
+     "y": 50,
+     "w": 28,
+     "hh": 6,
+     "fill": "sky",
+     "r": 3,
+     "id": "pond",
+     "at": 3,
+     "over": true
+    },
+    {
+     "p": "crack",
+     "x": 147,
+     "y": 50,
+     "h": 6,
+     "opt": {
+      "shake": false
+     },
+     "at": 3,
+     "over": true
+    },
+    {
+     "p": "person",
+     "x": 145,
+     "y": 36,
+     "h": 22,
+     "opt": {
+      "who": "person",
+      "pose": "walk",
+      "mood": "smirk"
+     },
+     "id": "walker",
+     "at": 3,
+     "over": true
+    },
+    {
+     "p": "label",
+     "x": 133,
+     "y": 58,
+     "text": "Knowingly took a known risk",
+     "size": 4.4,
+     "w": 50,
+     "at": 3
+    }
+   ],
+   "beats": [
+    {
+     "text": "But Rosa was on her phone. Can Tony pay less, or nothing? Three general defenses; Michigan's rule comes last.",
+     "say": "But Rosa was on her phone. Can Tony pay less, or nothing? Three general defenses; Michigan's rule comes last.",
+     "hl": "rosa"
+    },
+    {
+     "text": "Contributory negligence, the old common-law rule: any fault of yours, zero dollars. Many states have replaced it.",
+     "say": "Contributory negligence, the old common-law rule: any fault of yours, zero dollars. Many states have replaced it.",
+     "hl": "zero"
+    },
+    {
+     "text": "Comparative negligence: your damages are reduced by your percentage of fault. You lose your percentage.",
+     "say": "Comparative negligence: your damages are reduced by your percentage of fault. You lose your percentage.",
+     "hl": "pie"
+    },
+    {
+     "text": "Assumption of risk: if you knowingly and voluntarily accept a known risk, you can't recover for the resulting injury.",
+     "say": "Assumption of risk: if you knowingly and voluntarily accept a known risk, you can't recover for the resulting injury.",
+     "hl": "walker"
+    },
+    {
+     "text": "In Michigan, a plaintiff's own fault doesn't bar recovery. It reduces her damages by her percentage of fault.",
+     "say": "In Michigan, a plaintiff's own fault doesn't bar recovery. It reduces her damages by her percentage of fault.",
+     "hl": "pie"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: what does he argue?",
+   "src": "MCL 600.2958; MCL 600.2959; IRMI glossary: contributory, comparative negligence; question core-026",
+   "ask": "What does Tony argue she gets?",
+   "draw": [
+    {
+     "p": "person",
+     "x": 22,
+     "y": 32,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "person",
+     "x": 66,
+     "y": 32,
+     "h": 34,
+     "opt": {
+      "who": "judge",
+      "pose": "hold",
+      "hold": "gavel",
+      "mood": "neutral"
+     },
+     "id": "judge"
+    },
+    {
+     "p": "note",
+     "x": 108,
+     "y": 13,
+     "text": "Economic damages: $100,000. Rosa: 30% at fault",
+     "w": 56,
+     "size": 4.8,
+     "paper": "yellow",
+     "at": 0
+    },
+    {
+     "p": "person",
+     "x": 132,
+     "y": 39,
+     "h": 30,
+     "opt": {
+      "who": "rosa",
+      "mood": "neutral"
+     },
+     "id": "rosa"
+    },
+    {
+     "p": "crutches",
+     "x": 148,
+     "y": 43,
+     "h": 22
+    }
+   ],
+   "beats": [
+    {
+     "text": "Trial day. The jury finds Tony negligent and puts Rosa's economic damages at $100,000.",
+     "say": "Trial day. The jury finds Tony negligent and puts Rosa's economic damages at one hundred thousand dollars."
+    },
+    {
+     "text": "But it also finds her 30% at fault. What does Tony argue she gets?",
+     "say": "But it also finds her thirty percent at fault. What does Tony argue she gets?"
+    }
+   ],
+   "options": [
+    {
+     "label": "$0: any fault means she gets nothing!",
+     "ok": false,
+     "fail": "That's contributory negligence, the old common-law rule. In Michigan, a plaintiff's own fault doesn't bar recovery; it reduces her damages.",
+     "beats": [
+      {
+       "text": "She was on her phone! Zero!",
+       "say": "She was on her phone! Zero!",
+       "voice": "tony"
+      },
+      {
+       "text": "The judge says no. That's the old contributory rule. In Michigan, her own fault doesn't bar recovery.",
+       "say": "The judge says no. That's the old contributory rule. In Michigan, her own fault doesn't bar recovery."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 30,
+       "y": 32,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "point",
+        "mood": "smirk"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "bubble",
+       "x": 30,
+       "y": 6,
+       "text": "She was on her phone! Zero!",
+       "w": 32,
+       "to": "tony"
+      },
+      {
+       "p": "num",
+       "x": 66,
+       "y": 26,
+       "text": "$0",
+       "size": 11,
+       "color": "red",
+       "id": "zero"
+      },
+      {
+       "p": "xout",
+       "on": "zero",
+       "cue": "no",
+       "at": 1
+      },
+      {
+       "p": "person",
+       "x": 108,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "judge",
+        "pose": "stop",
+        "mood": "angry"
+       },
+       "id": "judge",
+       "flip": true
+      },
+      {
+       "p": "label",
+       "x": 68,
+       "y": 51,
+       "text": "Not in Michigan",
+       "size": 6,
+       "bold": true,
+       "color": "red",
+       "cue": "Michigan",
+       "at": 1
+      }
+     ]
+    },
+    {
+     "label": "$30,000: her 30% share",
+     "ok": false,
+     "beats": [
+      {
+       "text": "$30,000? The judge says no: her damages are cut by her 30% share, not down to it.",
+       "say": "Thirty thousand dollars? The judge says no: her damages are cut by her thirty percent share, not down to it."
+      }
+     ],
+     "fail": "Comparative fault reduces her damages by her 30% share: $100,000 minus $30,000 leaves $70,000. The $30,000 is the part she loses.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 26,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "hold": "money",
+        "mood": "smirk"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "num",
+       "x": 68,
+       "y": 24,
+       "text": "$30,000",
+       "size": 10,
+       "color": "red",
+       "id": "thirty"
+      },
+      {
+       "p": "xout",
+       "on": "thirty",
+       "cue": "no"
+      },
+      {
+       "p": "person",
+       "x": 112,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "judge",
+        "pose": "stop",
+        "mood": "angry"
+       },
+       "id": "judge",
+       "flip": true
+      },
+      {
+       "p": "label",
+       "x": 68,
+       "y": 46,
+       "text": "Cut by 30%, not down to it",
+       "size": 5.4,
+       "bold": true,
+       "color": "red",
+       "w": 60,
+       "cue": "cut"
+      }
+     ]
+    },
+    {
+     "label": "$70,000: not the full $100,000",
+     "ok": true,
+     "win": "In Michigan, damages are reduced by the plaintiff's percentage of fault: $100,000 of economic damages minus her 30% share leaves $70,000.",
+     "beats": [
+      {
+       "text": "The judge agrees. 30% of $100,000 is $30,000, so Rosa recovers $70,000 of her economic damages.",
+       "say": "The judge agrees. Thirty percent of one hundred thousand dollars is thirty thousand dollars, so Rosa recovers seventy thousand dollars of her economic damages."
+      }
+     ],
+     "draw": [
+      {
+       "p": "label",
+       "x": 44,
+       "y": 9,
+       "text": "$100,000",
+       "size": 7,
+       "bold": true
+      },
+      {
+       "p": "label",
+       "x": 44,
+       "y": 19,
+       "text": "minus 30% ($30,000)",
+       "size": 5,
+       "color": "red",
+       "cue": "30"
+      },
+      {
+       "p": "line",
+       "from": [
+        20,
+        25
+       ],
+       "to": [
+        68,
+        25
+       ]
+      },
+      {
+       "p": "label",
+       "x": 44,
+       "y": 33,
+       "text": "$70,000",
+       "size": 8,
+       "bold": true,
+       "color": "green",
+       "cue": "recovers"
+      },
+      {
+       "p": "moneybag",
+       "x": 94,
+       "y": 30,
+       "h": 22,
+       "id": "bag",
+       "cue": "recovers",
+       "sfx": "cash"
+      },
+      {
+       "p": "person",
+       "x": 118,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "stand",
+        "mood": "happy"
+       },
+       "id": "rosa"
+      },
+      {
+       "p": "label",
+       "x": 44,
+       "y": 49,
+       "text": "Comparative fault",
+       "size": 5.4,
+       "bold": true,
+       "color": "blue"
+      },
+      {
+       "p": "person",
+       "x": 146,
+       "y": 32,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "smirk"
+       },
+       "id": "tony"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Michigan's rule: your own fault doesn't bar you. It cuts your damages by your share.",
+     "say": "Michigan's rule: your own fault doesn't bar you. It cuts your damages by your share."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Michigan's 50% line",
+   "src": "MCL 600.2959; MCL 500.3135(2)(b); memory hook mn_core-12; question core-025",
+   "kind": "Michigan rule",
+   "term": "More than 50% at fault",
+   "plain": "Fault greater than everyone else's combined: economic damages still reduced, but no noneconomic damages.",
+   "example": "Had the jury found Rosa 60% at fault: economic damages minus 60%, and nothing for pain and suffering.",
+   "exam": "Michigan auto no-fault suits for noneconomic loss: a party over 50% at fault recovers nothing.",
+   "draw": [
+    {
+     "p": "piechart",
+     "x": 20,
+     "y": 18,
+     "h": 22,
+     "id": "pie",
+     "opt": {
+      "slices": [
+       60,
+       40
+      ],
+      "colors": [
+       "orange",
+       "blue"
+      ]
+     },
+     "cue": "greater"
+    },
+    {
+     "p": "label",
+     "x": 20,
+     "y": 34,
+     "text": "Rosa 60%",
+     "size": 4,
+     "bold": true,
+     "color": "orange",
+     "at": 1,
+     "cue": "60"
+    },
+    {
+     "p": "label",
+     "x": 20,
+     "y": 40,
+     "text": "Tony 40%",
+     "size": 4,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "60"
+    },
+    {
+     "p": "heart",
+     "x": 58,
+     "y": 13,
+     "h": 12,
+     "id": "pain",
+     "cue": "pain"
+    },
+    {
+     "p": "xout",
+     "on": "pain",
+     "cue": "awarded"
+    },
+    {
+     "p": "label",
+     "x": 58,
+     "y": 24,
+     "text": "Pain and suffering: none",
+     "size": 3.6,
+     "w": 36,
+     "cue": "awarded"
+    },
+    {
+     "p": "money",
+     "x": 58,
+     "y": 38,
+     "h": 10,
+     "id": "econ",
+     "at": 1,
+     "cue": "economic"
+    },
+    {
+     "p": "label",
+     "x": 58,
+     "y": 47,
+     "text": "Economic: minus 60%",
+     "size": 3.6,
+     "w": 36,
+     "at": 1,
+     "cue": "economic"
+    },
+    {
+     "p": "car",
+     "x": 14,
+     "y": 58,
+     "h": 9,
+     "id": "car",
+     "at": 2,
+     "cue": "Auto"
+    },
+    {
+     "p": "label",
+     "x": 52,
+     "y": 59,
+     "text": "No-fault noneconomic-loss suits: over 50%, nothing",
+     "size": 3.6,
+     "w": 46,
+     "color": "red",
+     "at": 2,
+     "cue": "Auto"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Michigan draws one more line. If a plaintiff's fault is greater than everyone else's combined, so more than 50%, noneconomic damages, like pain and suffering, are not awarded.",
+     "say": "Michigan draws one more line. If a plaintiff's fault is greater than everyone else's combined, so more than fifty percent, noneconomic damages, like pain and suffering, are not awarded.",
+     "show": 2
+    },
+    {
+     "text": "Had the jury found Rosa 60% at fault: economic damages minus 60%, and nothing for pain and suffering.",
+     "say": "Had the jury found Rosa sixty percent at fault: economic damages minus sixty percent, and nothing for pain and suffering.",
+     "show": 3,
+     "hl": "econ"
+    },
+    {
+     "text": "In Michigan, auto no-fault suits for noneconomic loss use a different rule: a party more than 50% at fault recovers nothing.",
+     "say": "In Michigan, auto no-fault suits for noneconomic loss use a different rule: a party more than fifty percent at fault recovers nothing.",
+     "show": 4,
+     "hl": "car"
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Suppose the jury had found Rosa exactly 50% at fault in her Michigan negligence suit. What happens to her noneconomic damages, like pain and suffering?",
+   "choices": [
+    "They are barred completely",
+    "They are reduced by 50%",
+    "They are paid in full"
+   ],
+   "answer": 1,
+   "why": "Michigan cuts off noneconomic damages only when the plaintiff's fault is more than 50%. At exactly 50%, they are reduced by her share.",
+   "draw": [
+    {
+     "p": "piechart",
+     "x": 24,
+     "y": 26,
+     "h": 32,
+     "id": "pie",
+     "opt": {
+      "slices": [
+       50,
+       50
+      ],
+      "colors": [
+       "orange",
+       "blue"
+      ]
+     }
+    },
+    {
+     "p": "label",
+     "x": 24,
+     "y": 48,
+     "text": "Rosa 50%, Tony 50%",
+     "size": 4.4,
+     "bold": true
+    },
+    {
+     "p": "heart",
+     "x": 62,
+     "y": 24,
+     "h": 20,
+     "id": "pain"
+    },
+    {
+     "p": "question",
+     "x": 74,
+     "y": 12,
+     "h": 12,
+     "color": "red",
+     "over": true
+    },
+    {
+     "p": "label",
+     "x": 62,
+     "y": 40,
+     "text": "Pain and suffering?",
+     "size": 4.2,
+     "w": 30
+    }
+   ],
+   "beats": [
+    {
+     "text": "Here's a trap. Say the jury had found Rosa exactly 50% at fault. What happens to her pain and suffering damages?",
+     "say": "Here's a trap. Say the jury had found Rosa exactly fifty percent at fault. What happens to her pain and suffering damages?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Reduced by 50%, not barred. The cutoff applies only above 50%, and 50 is not more than 50.",
+     "say": "Reduced by fifty percent, not barred. The cutoff applies only above fifty percent, and fifty is not more than fifty."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Three more kinds of liability",
+   "src": "Restatement (2d) Torts §§519-520; IRMI glossary: strict, vicarious liability; LII Wex; hook mn_core-14",
+   "draw": [
+    {
+     "p": "divider",
+     "x": 53.5,
+     "y": 30,
+     "y0": 4,
+     "y1": 59.5,
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 106.5,
+     "y": 30,
+     "y0": 4,
+     "y1": 59.5,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "x": 27,
+     "y": 5.5,
+     "text": "Absolute",
+     "size": 6.2,
+     "bold": true,
+     "color": "red"
+    },
+    {
+     "p": "label",
+     "x": 27,
+     "y": 12.5,
+     "text": "= KABOOM",
+     "size": 4.6,
+     "color": "red"
+    },
+    {
+     "p": "boom",
+     "x": 19,
+     "y": 26,
+     "h": 17,
+     "id": "boom",
+     "cue": "KABOOM",
+     "sfx": "crash"
+    },
+    {
+     "p": "sign",
+     "x": 41,
+     "y": 26,
+     "h": 19,
+     "id": "paw",
+     "opt": {
+      "text": "WILD\nANIMAL",
+      "tcolor": "red"
+     },
+     "cue": "animals"
+    },
+    {
+     "p": "label",
+     "x": 27,
+     "y": 46,
+     "text": "Blasting,\nwild animals",
+     "size": 5.4,
+     "w": 48,
+     "cue": "blasting"
+    },
+    {
+     "p": "label",
+     "x": 27,
+     "y": 57,
+     "text": "Care is no defense",
+     "size": 5.4,
+     "bold": true,
+     "color": "red",
+     "cue": "careful"
+    },
+    {
+     "p": "label",
+     "x": 80,
+     "y": 5.5,
+     "text": "Strict",
+     "size": 6.2,
+     "bold": true,
+     "color": "orange",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "x": 80,
+     "y": 12.5,
+     "text": "= the toaster that shocks you",
+     "size": 4.6,
+     "color": "orange",
+     "w": 52,
+     "at": 1
+    },
+    {
+     "p": "box",
+     "x": 72.5,
+     "y": 21.5,
+     "w": 6,
+     "hh": 7,
+     "r": 1.5,
+     "fill": "orange",
+     "at": 1,
+     "cue": "toaster",
+     "over": true
+    },
+    {
+     "p": "box",
+     "x": 80.5,
+     "y": 21.5,
+     "w": 6,
+     "hh": 7,
+     "r": 1.5,
+     "fill": "orange",
+     "at": 1,
+     "cue": "toaster",
+     "over": true
+    },
+    {
+     "p": "box",
+     "x": 76.5,
+     "y": 31,
+     "w": 22,
+     "hh": 13,
+     "r": 4,
+     "fill": "gray",
+     "id": "product",
+     "at": 1,
+     "cue": "toaster",
+     "over": true
+    },
+    {
+     "p": "line",
+     "from": [
+      87.5,
+      28
+     ],
+     "to": [
+      90.5,
+      28
+     ],
+     "at": 1,
+     "cue": "toaster"
+    },
+    {
+     "p": "lightning",
+     "x": 93,
+     "y": 22,
+     "h": 11,
+     "at": 1,
+     "cue": "shocks",
+     "loop": "pulse"
+    },
+    {
+     "p": "label",
+     "x": 80,
+     "y": 46,
+     "text": "Defective,\ndangerous product",
+     "size": 5.4,
+     "w": 48,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "x": 80,
+     "y": 57,
+     "text": "No regard to fault",
+     "size": 5.4,
+     "bold": true,
+     "color": "orange",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "x": 133,
+     "y": 5.5,
+     "text": "Vicarious",
+     "size": 6.2,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "x": 133,
+     "y": 12.5,
+     "text": "= via someone else",
+     "size": 4.6,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "person",
+     "x": 120,
+     "y": 29,
+     "h": 22,
+     "opt": {
+      "who": "tony",
+      "mood": "worried"
+     },
+     "id": "boss",
+     "at": 2
+    },
+    {
+     "p": "person",
+     "x": 146,
+     "y": 29,
+     "h": 22,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "hold": "pizza",
+      "hat": "cap",
+      "hatColor": "red",
+      "shirt": "red",
+      "apron": true,
+      "hair": "short"
+     },
+     "id": "emp",
+     "at": 2
+    },
+    {
+     "p": "arrow",
+     "from": "emp",
+     "to": "boss",
+     "label": "via",
+     "color": "blue",
+     "at": 2,
+     "bend": -0.3,
+     "size": 4.6
+    },
+    {
+     "p": "label",
+     "x": 133,
+     "y": 50,
+     "text": "Employer for an\nemployee on the job",
+     "size": 5.4,
+     "w": 48,
+     "at": 2
+    },
+    {
+     "p": "note",
+     "x": 80,
+     "y": 66,
+     "text": "Generic exam definitions, not Michigan product law",
+     "w": 100,
+     "at": 3,
+     "paper": "yellow",
+     "size": 5
+    }
+   ],
+   "beats": [
+    {
+     "text": "Three more kinds. Absolute is KABOOM: ultrahazardous, abnormally dangerous activities, like blasting or keeping wild animals. Being careful is no defense.",
+     "say": "Three more kinds. Absolute is KABOOM: ultrahazardous, abnormally dangerous activities, like blasting or keeping wild animals. Being careful is no defense.",
+     "hl": "boom"
+    },
+    {
+     "text": "Strict is the toaster that shocks you: its maker pays even after using every care, without regard to fault. The classic case: a maker or seller of a defective, dangerous product.",
+     "say": "Strict is the toaster that shocks you: its maker pays even after using every care, without regard to fault. The classic case: a maker or seller of a defective, dangerous product.",
+     "hl": "product"
+    },
+    {
+     "text": "Vicarious is via someone else: you're liable for another's acts, like an employer for an employee acting in the scope of employment. It can also apply to partners, independent contractors and children.",
+     "say": "Vicarious is via someone else: you're liable for another's acts, like an employer for an employee acting in the scope of employment. It can also apply to partners, independent contractors and children.",
+     "hl": "boss"
+    },
+    {
+     "text": "Absolute and strict both ignore fault, and sources often swap the words. On the exam, the situation is the tell. These are generic definitions, not Michigan product law.",
+     "say": "Absolute and strict both ignore fault, and sources often swap the words. On the exam, the situation is the tell. These are generic definitions, not Michigan product law."
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Absolute, strict or vicarious?",
+   "src": "Restatement (2d) Torts §§519-520; IRMI glossary; questions core-028, core-029, core-bas-09, core-bas-10",
+   "options": [
+    "Absolute",
+    "Strict",
+    "Vicarious"
+   ],
+   "cards": [
+    {
+     "text": "A crew blasting with explosives takes every precaution, yet is held liable for damage to nearby buildings.",
+     "answer": 0,
+     "draw": [
+      {
+       "p": "house",
+       "x": 34,
+       "y": 30,
+       "h": 34
+      },
+      {
+       "p": "boom",
+       "x": 70,
+       "y": 24,
+       "h": 26
+      },
+      {
+       "p": "crack",
+       "x": 50,
+       "y": 50,
+       "h": 8,
+       "over": true
+      }
+     ],
+     "why": "Blasting is ultrahazardous. Using every precaution is no defense: absolute liability."
+    },
+    {
+     "text": "A clerk stocking shelves carelessly drops a heavy box on a shopper. The store is held liable.",
+     "answer": 2,
+     "draw": [
+      {
+       "p": "store",
+       "x": 24,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "name": "STORE"
+       }
+      },
+      {
+       "p": "person",
+       "x": 56,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "person",
+        "pose": "shrug",
+        "shirt": "blue",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "person",
+       "x": 80,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "grandma",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "parcel",
+       "x": 79,
+       "y": 6,
+       "h": 10,
+       "rot": 20,
+       "over": true
+      },
+      {
+       "p": "crash",
+       "x": 93,
+       "y": 9,
+       "h": 10,
+       "opt": {
+        "text": "BONK!"
+       },
+       "over": true
+      }
+     ],
+     "why": "The store is liable for its employee's act in the scope of employment: vicarious liability."
+    },
+    {
+     "text": "A maker used every possible care, yet is held liable when its defective, dangerous product injures a buyer.",
+     "answer": 1,
+     "draw": [
+      {
+       "p": "factory",
+       "x": 30,
+       "y": 30,
+       "h": 30
+      },
+      {
+       "p": "parcel",
+       "x": 66,
+       "y": 34,
+       "h": 20
+      },
+      {
+       "p": "lightning",
+       "x": 80,
+       "y": 20,
+       "h": 16
+      }
+     ],
+     "why": "Liability without regard to fault for a defective, dangerous product: strict liability."
+    },
+    {
+     "text": "Someone keeps a wild animal, takes every precaution, and is still held liable when it injures a visitor.",
+     "answer": 0,
+     "draw": [
+      {
+       "p": "house",
+       "x": 28,
+       "y": 28,
+       "h": 30
+      },
+      {
+       "p": "sign",
+       "x": 57,
+       "y": 27,
+       "h": 30,
+       "opt": {
+        "text": "WILD\nANIMAL",
+        "tcolor": "red"
+       }
+      },
+      {
+       "p": "person",
+       "x": 80,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "neighbor",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      }
+     ],
+     "why": "Keeping wild animals is a classic absolute-liability case: being careful is no defense."
+    },
+    {
+     "text": "A delivery driver negligently injures a pedestrian while making deliveries. His employer is held liable.",
+     "answer": 2,
+     "draw": [
+      {
+       "p": "van",
+       "x": 36,
+       "y": 32,
+       "h": 24,
+       "opt": {
+        "name": "DELIVERY"
+       }
+      },
+      {
+       "p": "person",
+       "x": 80,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "person",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      }
+     ],
+     "why": "An employer is liable for its employee's acts in the scope of employment: vicarious liability."
+    },
+    {
+     "text": "A store sells a defective toaster that shocks a buyer. The store is held liable without regard to fault.",
+     "answer": 1,
+     "why": "A seller of a defective, dangerous product, liable without regard to fault: strict. Blasting and wild animals would be absolute.",
+     "draw": [
+      {
+       "p": "store",
+       "x": 24,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "name": "STORE"
+       }
+      },
+      {
+       "p": "box",
+       "x": 56,
+       "y": 27,
+       "w": 6,
+       "hh": 7,
+       "r": 1.5,
+       "fill": "orange",
+       "over": true
+      },
+      {
+       "p": "box",
+       "x": 64,
+       "y": 27,
+       "w": 6,
+       "hh": 7,
+       "r": 1.5,
+       "fill": "orange",
+       "over": true
+      },
+      {
+       "p": "box",
+       "x": 60,
+       "y": 37,
+       "w": 22,
+       "hh": 13,
+       "r": 4,
+       "fill": "gray",
+       "over": true
+      },
+      {
+       "p": "lightning",
+       "x": 74,
+       "y": 22,
+       "h": 14,
+       "over": true
+      },
+      {
+       "p": "person",
+       "x": 88,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "person",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: absolute, strict or vicarious?",
+     "say": "Your turn: absolute, strict or vicarious?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The tell: blasting and wild animals are absolute. Defective products are strict. Someone else's act is vicarious.",
+     "say": "The tell: blasting and wild animals are absolute. Defective products are strict. Someone else's act is vicarious."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: Joey and the barber's window",
+   "src": "IRMI glossary: vicarious liability; LII Wex: vicarious liability; question core-028; memory hook mn_core-11",
+   "ask": "What does Tony say?",
+   "draw": [
+    {
+     "p": "person",
+     "x": 24,
+     "y": 32,
+     "h": 34,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "mood": "shocked",
+      "hat": "cap",
+      "hatColor": "red",
+      "shirt": "red",
+      "apron": true,
+      "hair": "short"
+     },
+     "id": "joey"
+    },
+    {
+     "p": "icon",
+     "x": 36,
+     "y": 31,
+     "h": 16,
+     "name": "shovel",
+     "id": "shovel",
+     "color": "brown",
+     "over": true
+    },
+    {
+     "p": "arrow",
+     "from": [
+      44,
+      22
+     ],
+     "to": [
+      104,
+      28
+     ],
+     "label": "chunk of ice",
+     "dash": true,
+     "bend": -0.3,
+     "cue": "flings",
+     "sfx": "whoosh"
+    },
+    {
+     "p": "store",
+     "x": 116,
+     "y": 30,
+     "h": 34,
+     "id": "shop",
+     "opt": {
+      "name": "BARBER"
+     }
+    },
+    {
+     "p": "crash",
+     "x": 108,
+     "y": 35,
+     "h": 14,
+     "opt": {
+      "text": "SMASH!"
+     },
+     "over": true,
+     "cue": "window",
+     "sfx": "crash"
+    },
+    {
+     "p": "person",
+     "x": 148,
+     "y": 33,
+     "h": 32,
+     "opt": {
+      "who": "neighbor",
+      "pose": "stop",
+      "mood": "angry"
+     },
+     "id": "barber",
+     "at": 1,
+     "flip": true
+    },
+    {
+     "p": "bubble",
+     "x": 136,
+     "y": 6,
+     "text": "Who's paying for my window?",
+     "w": 34,
+     "to": "barber",
+     "at": 1
+    },
+    {
+     "p": "person",
+     "x": 70,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "shocked"
+     },
+     "id": "tony",
+     "at": 2,
+     "cue": "Tony"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Next morning, Tony's employee Joey, shoveling Tony's walk on his shift, carelessly flings a chunk of ice through the barber's window.",
+     "say": "Next morning, Tony's employee Joey, shoveling Tony's walk on his shift, carelessly flings a chunk of ice through the barber's window.",
+     "hl": "joey"
+    },
+    {
+     "text": "Who's paying for my window?",
+     "say": "Who's paying for my window?",
+     "voice": "neighbor"
+    },
+    {
+     "text": "What does Tony say?",
+     "say": "What does Tony say?"
+    }
+   ],
+   "options": [
+    {
+     "label": "He was on the job for me. I'll answer for it",
+     "ok": true,
+     "win": "Vicarious liability: an employer is liable for an employee's acts in the scope of employment, like Joey shoveling Tony's walk.",
+     "beats": [
+      {
+       "text": "He was doing my work. I'll make it right.",
+       "say": "He was doing my work. I'll make it right.",
+       "voice": "tony"
+      },
+      {
+       "text": "That's vicarious liability: Tony answers for Joey's act on the job.",
+       "say": "That's vicarious liability: Tony answers for Joey's act on the job."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 42,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "handshake",
+       "x": 80,
+       "y": 29,
+       "h": 15,
+       "id": "shake",
+       "at": 1
+      },
+      {
+       "p": "person",
+       "x": 118,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "neighbor",
+        "mood": "happy"
+       },
+       "id": "barber",
+       "flip": true
+      },
+      {
+       "p": "label",
+       "x": 80,
+       "y": 51,
+       "text": "Vicarious liability",
+       "size": 6,
+       "bold": true,
+       "color": "green",
+       "at": 1,
+       "cue": "vicarious"
+      }
+     ]
+    },
+    {
+     "label": "Joey threw it. Not my problem!",
+     "ok": false,
+     "fail": "Vicarious liability: an employer is liable for its employee's acts in the scope of employment. Joey was shoveling Tony's walk.",
+     "beats": [
+      {
+       "text": "Joey threw it, not me!",
+       "say": "Joey threw it, not me!",
+       "voice": "tony"
+      },
+      {
+       "text": "Joey was doing his job. An employer is liable for an employee's acts in the scope of employment.",
+       "say": "Joey was doing his job. An employer is liable for an employee's acts in the scope of employment."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 40,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "oven",
+       "x": 40,
+       "y": 39,
+       "h": 28,
+       "id": "oven",
+       "opt": {
+        "fire": true
+       },
+       "over": true
+      },
+      {
+       "p": "bubble",
+       "x": 22,
+       "y": 6,
+       "text": "Joey threw it, not me!",
+       "w": 38,
+       "to": "tony"
+      },
+      {
+       "p": "person",
+       "x": 108,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "judge",
+        "pose": "point",
+        "mood": "angry"
+       },
+       "id": "judge",
+       "flip": true
+      },
+      {
+       "p": "bubble",
+       "x": 88,
+       "y": 7,
+       "text": "He was on the job!",
+       "w": 30,
+       "to": "judge"
+      }
+     ]
+    },
+    {
+     "label": "Nobody meant to break it, so nobody pays",
+     "ok": false,
+     "fail": "Intent to harm is not an element of negligence. Joey's careless throw can still make someone liable, and that includes Tony, his employer.",
+     "beats": [
+      {
+       "text": "Intent isn't required. A careless act that breaks a window can still make someone liable.",
+       "say": "Intent isn't required. A careless act that breaks a window can still make someone liable."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 26,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "smirk"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "bubble",
+       "x": 28,
+       "y": 6,
+       "text": "Nobody meant it!",
+       "w": 28,
+       "to": "tony"
+      },
+      {
+       "p": "window",
+       "x": 70,
+       "y": 27,
+       "h": 26,
+       "id": "win",
+       "opt": {
+        "broken": true
+       }
+      },
+      {
+       "p": "person",
+       "x": 112,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "neighbor",
+        "pose": "point",
+        "mood": "angry"
+       },
+       "id": "barber",
+       "flip": true
+      },
+      {
+       "p": "label",
+       "x": 70,
+       "y": 52,
+       "text": "No intent needed",
+       "size": 5.6,
+       "bold": true,
+       "color": "red",
+       "cue": "Intent"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Vicarious: liable for someone else's act. Nothing was ultrahazardous, and no product was defective.",
+     "say": "Vicarious: liable for someone else's act. Nothing was ultrahazardous, and no product was defective."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Negligence: duty, breach, proximate cause, damage. No intent needed",
+    "Michigan: fault cuts damages; over 50% loses noneconomic",
+    "Special adds up; general is pain and suffering",
+    "Michigan punitive damages need a statute",
+    "Absolute: blasting. Strict: defective product. Vicarious: via others"
+   ],
+   "draw": [
+    {
+     "p": "person",
+     "x": 18,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "sign",
+     "x": 52,
+     "y": 22,
+     "h": 22,
+     "id": "wet",
+     "opt": {
+      "text": "WET\nFLOOR",
+      "tcolor": "orange"
+     }
+    },
+    {
+     "p": "person",
+     "x": 64,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "rosa",
+      "pose": "wave",
+      "mood": "happy"
+     },
+     "id": "rosa"
+    },
+    {
+     "p": "crutches",
+     "x": 76,
+     "y": 49,
+     "h": 20
+    },
+    {
+     "p": "snow",
+     "x": 10,
+     "y": 8,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 74,
+     "y": 10,
+     "h": 5,
+     "loop": "spin"
+    }
+   ],
+   "beats": [
+    {
+     "text": "To recap: negligence needs duty, breach, proximate cause and damage, not intent. In Michigan, your own fault cuts your damages; over 50% costs you noneconomic damages.",
+     "say": "To recap: negligence needs duty, breach, proximate cause and damage, not intent. In Michigan, your own fault cuts your damages; over fifty percent costs you noneconomic damages.",
+     "show": 2
+    },
+    {
+     "text": "Special damages add up; general is pain and suffering. Michigan punitive damages need the Legislature's permission. Absolute, strict and vicarious each have a classic case.",
+     "say": "Special damages add up; general is pain and suffering. Michigan punitive damages need the Legislature's permission. Absolute, strict and vicarious each have a classic case.",
+     "show": 5
+    },
+    {
+     "text": "New rule at Tony's: mop first, then pizza.",
+     "say": "New rule at Tony's: mop first, then pizza.",
+     "voice": "tony",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "core-024",
+  "core-025",
+  "core-bas-07",
+  "core-027",
+  "core-029"
+ ],
+ "hooks": [
+  "mn-mn_core-11",
+  "mn-mn_core-12",
+  "mn-mn_core-13",
+  "mn-mn_core-14"
+ ],
+ "sources": [
+  "MCL 600.2958",
+  "MCL 600.2959",
+  "MCL 500.3135(2)(b)",
+  "ISO CG 00 01 04 13, Sec. I, Cov. A.1.a",
+  "Gilbert v DaimlerChrysler Corp, 685 NW2d 391 (Mich 2004), via IADC Michigan Damages Compendium",
+  "Casey v Auto Owners Ins Co, 729 NW2d 277 (Mich App 2006), via IADC Michigan Damages Compendium",
+  "Restatement (Second) of Torts §§519-520",
+  "IRMI glossary",
+  "Cornell LII Wex"
+ ]
 }

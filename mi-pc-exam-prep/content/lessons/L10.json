@@ -3,382 +3,2585 @@
  "sec": "dwelling",
  "guide": "dwelling",
  "title": "Dwelling policies: DP-1, DP-2, DP-3 and their add-ons",
- "summary": "Compare the three ISO dwelling forms, their coverage letters A to E, key exclusions, theft options and the endorsements the exam tests.",
+ "summary": "The Millers become landlords in Lansing: pick a dwelling form, learn the letters A to E, and patch the gaps with the right add-ons.",
  "objectives": [
   "Tell DP-1, DP-2 and DP-3 apart by perils and loss settlement",
   "Match dwelling Coverages A to E, and know liability needs the PLS",
   "Pick Broad or Limited Theft by who lives in the dwelling",
-  "Spot key exclusions and the main dwelling endorsements"
+  "Spot the general exclusions and the main dwelling endorsements"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "Dwelling policies: DP-1, DP-2 and DP-3",
-   "subtitle": "ISO forms: 1988 DP-1 and DP-2, 2002 DP-3, plus the Personal Liability Supplement",
-   "icon": "house",
-   "beats": [
+   "title": "The Millers become landlords",
+   "subtitle": "Dwelling policies: the 1988 DP-1 and DP-2, the 2002 DP-3, their coverages and their add-ons",
+   "draw": [
     {
-     "text": "Dwelling forms can insure a 1- to 4-family residential building. Unlike homeowners forms, they include no liability coverage at all.",
-     "say": "Dwelling forms can insure a one to four family residential building. Unlike homeowners forms, they include no liability coverage at all."
+     "id": "mi",
+     "p": "michigan",
+     "x": 77,
+     "y": 15,
+     "h": 22,
+     "opt": {
+      "pin": "lansing",
+      "pinLabel": "Lansing",
+      "pinSize": 14
+     }
     },
     {
-     "text": "In this lesson, DP-1 and DP-2 are the 1988 editions. DP-3 is the 2002 edition, and its numbers match the 2014 edition.",
-     "say": "In this lesson, D P one and D P two are the nineteen eighty eight editions. D P three is the two thousand two edition, and its numbers match the twenty fourteen edition."
+     "id": "rental",
+     "p": "house",
+     "x": 24,
+     "y": 34,
+     "h": 32,
+     "opt": {
+      "roof": "blue"
+     }
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 46,
+     "y": 52,
+     "h": 24,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "hold": "parcel",
+      "mood": "happy"
+     },
+     "cue": "Rosa",
+     "anim": "slide-r"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 64,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "sam",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 79,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "jen",
+      "pose": "hold",
+      "hold": "key",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "We're landlords!",
+     "x": 50,
+     "y": 18,
+     "w": 26,
+     "to": "sam",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "Sam and Jen Miller just bought a rental house in Lansing. They won't live there. Their tenant, Rosa, moves in Saturday.",
+     "say": "Sam and Jen Miller just bought a rental house in Lansing. They won't live there. Their tenant, Rosa, moves in Saturday."
+    },
+    {
+     "text": "We're landlords! Now, how do we insure this place?",
+     "say": "We're landlords! Now, how do we insure this place?",
+     "voice": "sam"
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Three forms: Basic, Broad, Special",
-   "src": "ISO DP 00 01 07 88; DP 00 02 07 88; DP 00 03 12 02 (Perils Insured Against; Loss Settlement)",
-   "columns": [
+   "type": "term",
+   "title": "Dana's answer: a dwelling policy",
+   "src": "ISO Dwelling Program eligibility (FC&S); DP 00 01 07 88; DP 00 02 07 88; DP 00 03 12 02 (same numbers in 07 14)",
+   "kind": "Term",
+   "term": "Dwelling policy",
+   "plain": "Property insurance for a home for 1 to 4 families, whether or not the owner lives there. It has no liability coverage at all.",
+   "example": "The Millers' Lansing rental: they own it, and Rosa lives in it. A two-family duplex could use one too.",
+   "exam": "Unlike homeowners forms: no liability or medical payments. Our forms: 1988 DP-1 and DP-2, 2002 DP-3 (its numbers match the 2014 DP-3).",
+   "draw": [
     {
-     "name": "DP-1 Basic (1988)",
-     "icon": "flame",
-     "points": [
-      "Fire or lightning, internal explosion",
-      "Extended Coverage perils: extra premium",
-      "Vandalism and malicious mischief: extra premium",
-      "Losses paid at ACV"
-     ]
+     "id": "dana",
+     "p": "person",
+     "x": 14,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "happy"
+     }
     },
     {
-     "name": "DP-2 Broad (1988)",
-     "icon": "layers",
-     "points": [
-      "16 named perils on A, B and C",
-      "Buildings: replacement cost if insured to 80%"
-     ]
+     "id": "rental",
+     "p": "house",
+     "x": 52,
+     "y": 19,
+     "h": 24,
+     "opt": {
+      "roof": "blue"
+     },
+     "at": 1,
+     "cue": "home",
+     "label": "Home for 1 to 4 families",
+     "lsize": 3.8
     },
     {
-     "name": "DP-3 Special (2002)",
-     "icon": "shield-check",
-     "points": [
-      "Open perils on A and B",
-      "Named broad perils on C",
-      "Buildings: replacement cost if insured to 80%"
-     ]
+     "id": "gavel",
+     "p": "gavel",
+     "x": 44,
+     "y": 54,
+     "h": 11,
+     "at": 2,
+     "cue": "liability"
+    },
+    {
+     "p": "xout",
+     "on": "gavel",
+     "at": 2,
+     "cue": "liability"
+    },
+    {
+     "p": "label",
+     "text": "No liability",
+     "x": 66,
+     "y": 54,
+     "size": 4,
+     "color": "red",
+     "bold": true,
+     "at": 2,
+     "cue": "liability"
     }
    ],
-   "tell": "DP-1 is a short named list, DP-2 a long named list, DP-3 open perils on the buildings.",
    "beats": [
     {
-     "text": "DP-1, the Basic Form, covers fire or lightning and internal explosion. Extended Coverage perils, like windstorm or hail, need their own premium. So does vandalism. Losses are paid at actual cash value.",
-     "say": "D P one, the Basic Form, covers fire or lightning and internal explosion. Extended Coverage perils, like windstorm or hail, need their own premium. So does vandalism. Losses are paid at actual cash value.",
+     "text": "You need a dwelling policy.",
+     "say": "You need a dwelling policy.",
+     "voice": "dana",
      "show": 1
     },
     {
-     "text": "DP-2, the Broad Form, covers 16 named perils on Coverages A, B and C.",
-     "say": "D P two, the Broad Form, covers sixteen named perils on Coverages A, B and C.",
-     "show": 2
-    },
-    {
-     "text": "DP-3, the Special Form, covers the dwelling and other structures for any direct physical loss not excluded. Personal property stays on a named list.",
-     "say": "D P three, the Special Form, covers the dwelling and other structures for any direct physical loss not excluded. Personal property stays on a named list.",
-     "show": 3
-    },
-    {
-     "text": "DP-2 and DP-3 pay buildings at replacement cost if they are insured to at least 80% of replacement cost.",
-     "say": "D P two and D P three pay buildings at replacement cost if they are insured to at least eighty percent of replacement cost.",
+     "text": "It insures a home for 1 to 4 families, whether or not the owner lives there.",
+     "say": "It insures a home for one to four families, whether or not the owner lives there.",
      "show": 3,
-     "tell": true
+     "hl": "rental"
+    },
+    {
+     "text": "Unlike homeowners forms, it has no liability coverage at all.",
+     "say": "Unlike homeowners forms, it has no liability coverage at all.",
+     "show": 4,
+     "hl": "gavel"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Dana's question: what if someone gets hurt?",
+   "src": "ISO DL 24 01 12 02, Coverages L–M; DP 00 03 12 02 (no liability); HO 00 03 05 11, Sec. II Coverage E; memory aid mn_prop-11",
+   "ask": "What should the Millers do?",
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 20,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "neutral"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "What if someone slips and sues?",
+     "x": 58,
+     "y": 7,
+     "w": 60,
+     "to": "dana",
+     "size": 5
+    },
+    {
+     "id": "rental",
+     "p": "house",
+     "x": 84,
+     "y": 32,
+     "h": 28,
+     "opt": {
+      "roof": "blue"
+     }
+    },
+    {
+     "p": "snow",
+     "x": 104,
+     "y": 10,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "p": "ice",
+     "x": 84,
+     "y": 49,
+     "w": 22,
+     "over": true
+    },
+    {
+     "p": "snow",
+     "x": 66,
+     "y": 30,
+     "h": 4,
+     "loop": "spin"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 122,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "sam",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 142,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "jen",
+      "mood": "worried"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Before you sign: what if a visitor slips on your icy steps and sues?",
+     "say": "Before you sign: what if a visitor slips on your icy steps and sues?",
+     "voice": "dana"
+    }
+   ],
+   "options": [
+    {
+     "label": "Pick the DP-3: the Special Form covers it",
+     "ok": false,
+     "fail": "No dwelling form includes liability or medical payments, not even the DP-3. Add the Personal Liability Supplement.",
+     "beats": [
+      {
+       "text": "January: a visitor slips and sues. Even the Special Form has no liability coverage, so it pays nothing.",
+       "say": "January: a visitor slips and sues. Even the Special Form has no liability coverage, so it pays nothing."
+      }
+     ],
+     "draw": [
+      {
+       "id": "rental",
+       "p": "house",
+       "x": 24,
+       "y": 27,
+       "h": 32,
+       "opt": {
+        "roof": "blue"
+       }
+      },
+      {
+       "id": "vis",
+       "p": "person",
+       "x": 56,
+       "y": 44,
+       "h": 28,
+       "rot": -78,
+       "opt": {
+        "who": "neighbor",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "sparkle",
+       "x": 48,
+       "y": 30,
+       "h": 8,
+       "loop": "spin",
+       "cue": "slips"
+      },
+      {
+       "id": "suit",
+       "p": "gavel",
+       "x": 77,
+       "y": 30,
+       "h": 12,
+       "opt": {
+        "strike": true
+       },
+       "cue": "sues",
+       "sfx": "stamp"
+      },
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 100,
+       "y": 22,
+       "h": 24,
+       "opt": {
+        "title": "DP-3",
+        "tsize": 7
+       },
+       "cue": "Special"
+      },
+      {
+       "p": "stamp",
+       "text": "No liability",
+       "x": 100,
+       "y": 43,
+       "size": 5.5,
+       "color": "red",
+       "rot": -6,
+       "cue": "nothing"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 138,
+       "y": 34,
+       "h": 30,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      }
+     ],
+     "failAt": [
+      64,
+      12
+     ]
+    },
+    {
+     "label": "Liability is Coverage E, like our homeowners",
+     "ok": false,
+     "fail": "Dwelling Coverage E is additional living expense, not liability. The letters shift between homeowners and dwelling forms.",
+     "beats": [
+      {
+       "text": "Nope. In a dwelling policy, E is additional living expense. It pays nothing on a lawsuit.",
+       "say": "Nope. In a dwelling policy, E is additional living expense. It pays nothing on a lawsuit.",
+       "voice": "dana"
+      }
+     ],
+     "draw": [
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 22,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "shrug",
+        "mood": "neutral"
+       }
+      },
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 60,
+       "y": 22,
+       "h": 26,
+       "opt": {
+        "title": "DWELLING",
+        "tsize": 5
+       }
+      },
+      {
+       "p": "label",
+       "text": "E: Additional Living Expense",
+       "x": 60,
+       "y": 44,
+       "size": 5,
+       "w": 56,
+       "bold": true,
+       "color": "blue",
+       "cue": "additional"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 110,
+       "y": 33,
+       "h": 34,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "E isn't liability?",
+       "x": 90,
+       "y": 7,
+       "w": 32,
+       "to": "sam",
+       "size": 5
+      }
+     ]
+    },
+    {
+     "label": "Add the Personal Liability Supplement",
+     "ok": true,
+     "win": "Dwelling forms have no liability coverage. The Personal Liability Supplement (PLS) adds Coverage L and Coverage M.",
+     "beats": [
+      {
+       "text": "Smart. The supplement adds Coverage L, personal liability, and Coverage M, medical payments to others.",
+       "say": "Smart. The supplement adds Coverage L, personal liability, and Coverage M, medical payments to others."
+      }
+     ],
+     "draw": [
+      {
+       "id": "dp",
+       "p": "policy",
+       "x": 18,
+       "y": 25,
+       "h": 28,
+       "opt": {
+        "title": "DWELLING",
+        "tsize": 5
+       }
+      },
+      {
+       "p": "label",
+       "text": "+",
+       "x": 33,
+       "y": 25,
+       "size": 8,
+       "bold": true
+      },
+      {
+       "id": "pls",
+       "p": "policy",
+       "x": 48,
+       "y": 25,
+       "h": 28,
+       "opt": {
+        "title": "PLS",
+        "tcolor": "green"
+       },
+       "anim": "slide-r",
+       "sfx": "click"
+      },
+      {
+       "p": "label",
+       "text": "L: Personal liability",
+       "x": 88,
+       "y": 17,
+       "size": 5,
+       "w": 40,
+       "color": "green",
+       "bold": true,
+       "cue": "personal"
+      },
+      {
+       "p": "label",
+       "text": "M: Medical payments to others",
+       "x": 88,
+       "y": 31,
+       "size": 5,
+       "w": 40,
+       "color": "green",
+       "bold": true,
+       "cue": "medical"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 128,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "jen",
+       "p": "person",
+       "x": 147,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "jen",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Dwelling forms never include liability. Bolt on the PLS: L for Liability, M for Medical.",
+     "say": "Dwelling forms never include liability. Bolt on the P L S: L for Liability, M for Medical."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "A landlord's alphabet: Coverages A to E",
+   "src": "ISO DP 00 03 12 02, Coverages A–E; DP 00 01 07 88 (no Coverage E); DL 24 01 12 02; memory aid mn_prop-11",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 28,
+     "y": 28,
+     "h": 34,
+     "opt": {
+      "roof": "blue"
+     }
+    },
+    {
+     "p": "circle",
+     "x": 8,
+     "y": 12,
+     "r": 4,
+     "text": "A",
+     "color": "blue"
+    },
+    {
+     "id": "sofa",
+     "p": "sofa",
+     "x": 28,
+     "y": 58,
+     "h": 14
+    },
+    {
+     "p": "circle",
+     "x": 8,
+     "y": 56,
+     "r": 4,
+     "text": "C",
+     "color": "blue"
+    },
+    {
+     "id": "garage",
+     "p": "garage",
+     "x": 66,
+     "y": 40,
+     "h": 20
+    },
+    {
+     "p": "circle",
+     "x": 66,
+     "y": 22,
+     "r": 4,
+     "text": "B",
+     "color": "blue"
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 94,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "rosa",
+      "pose": "point",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "rent",
+     "p": "bankcheck",
+     "x": 111,
+     "y": 55,
+     "h": 13,
+     "opt": {
+      "amount": "RENT"
+     }
+    },
+    {
+     "p": "circle",
+     "x": 110,
+     "y": 40,
+     "r": 4,
+     "text": "D",
+     "color": "blue"
+    },
+    {
+     "id": "hotel",
+     "p": "office",
+     "x": 136,
+     "y": 24,
+     "h": 28,
+     "opt": {
+      "name": "HOTEL"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Hotel",
+     "x": 136,
+     "y": 41,
+     "size": 4
+    },
+    {
+     "p": "circle",
+     "x": 152,
+     "y": 10,
+     "r": 4,
+     "text": "E",
+     "color": "blue"
+    },
+    {
+     "p": "box",
+     "x": 140,
+     "y": 57,
+     "w": 28,
+     "hh": 14,
+     "dash": true,
+     "color": "red"
+    },
+    {
+     "p": "label",
+     "text": "PLS add-on",
+     "x": 140,
+     "y": 47,
+     "size": 4,
+     "bold": true,
+     "color": "red"
+    },
+    {
+     "id": "gavel",
+     "p": "gavel",
+     "x": 140,
+     "y": 57.5,
+     "h": 13
+    },
+    {
+     "p": "circle",
+     "x": 156,
+     "y": 41,
+     "r": 5,
+     "text": "L M",
+     "color": "red"
+    }
+   ],
+   "spots": [
+    {
+     "on": "house",
+     "label": "A: Dwelling",
+     "text": "Coverage A, Dwelling: the house and the structures attached to it. A for Abode."
+    },
+    {
+     "on": "garage",
+     "label": "B: Other Structures",
+     "text": "Coverage B, Other Structures: structures set apart from the house by clear space, like this detached garage. B for Beside it."
+    },
+    {
+     "on": "sofa",
+     "label": "C: Personal Property",
+     "text": "Coverage C, Personal Property: the Millers' own furniture and appliances, while on the Described Location. C for Contents."
+    },
+    {
+     "on": "rent",
+     "label": "D: Fair Rental Value",
+     "text": "Coverage D, Fair Rental Value: the rent lost on the part rented out, when a covered loss makes it unfit to live in. D for Dollars from tenants."
+    },
+    {
+     "on": "hotel",
+     "label": "E: Additional Living Expense",
+     "text": "Coverage E, Additional Living Expense: if a covered loss forces you out of the home you live in, your necessary extra living costs, like a hotel. Not in the 1988 DP-1."
+    },
+    {
+     "on": "gavel",
+     "label": "L and M: not in the form",
+     "text": "Liability isn't in the alphabet. The Personal Liability Supplement adds Coverage L, personal liability, and M, medical payments to others."
+    }
+   ],
+   "beats": [
+    {
+     "text": "What does it cover? Dana draws a landlord's alphabet. Tap each glowing spot.",
+     "say": "What does it cover? Dana draws a landlord's alphabet. Tap each glowing spot."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A is the Abode, B is Beside it, C is Contents. D is Dollars from tenants. E is Extra living costs.",
+     "say": "A is the Abode, B is Beside it, C is Contents. D is Dollars from tenants. E is Extra living costs."
+    },
+    {
+     "text": "Watch out: in homeowners forms, D is Loss of Use and E is Personal Liability.",
+     "say": "Watch out: in homeowners forms, D is Loss of Use and E is Personal Liability."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Basic, Broad, Special: pick a form",
+   "src": "ISO DP 00 01 07 88; DP 00 02 07 88; DP 00 03 12 02 (Perils Insured Against; Loss Settlement); confusion pair cp_personal-11",
+   "draw": [
+    {
+     "id": "door",
+     "p": "box",
+     "x": 38,
+     "y": 37,
+     "w": 38,
+     "hh": 38,
+     "title": "COVERED",
+     "out": 1
+    },
+    {
+     "id": "guest",
+     "p": "fire",
+     "x": 38,
+     "y": 36,
+     "h": 13,
+     "loop": "flicker",
+     "out": 1
+    },
+    {
+     "p": "label",
+     "text": "Fire: on the list",
+     "x": 38,
+     "y": 49,
+     "size": 4,
+     "w": 32,
+     "out": 1
+    },
+    {
+     "id": "bouncer",
+     "p": "person",
+     "x": 76,
+     "y": 40,
+     "h": 32,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "hold": "clipboard",
+      "glasses": true,
+      "shirt": "gray"
+     },
+     "out": 1
+    },
+    {
+     "p": "bubble",
+     "text": "Theft? Not on the list!",
+     "x": 106,
+     "y": 12,
+     "w": 40,
+     "to": "bouncer",
+     "out": 1,
+     "cue": "list"
+    },
+    {
+     "id": "thief",
+     "p": "person",
+     "x": 124,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "thief",
+      "pose": "run",
+      "hold": "tv",
+      "mood": "smirk"
+     },
+     "flip": true,
+     "out": 1,
+     "anim": "slide-l"
+    },
+    {
+     "p": "label",
+     "text": "Theft",
+     "x": 124,
+     "y": 57,
+     "size": 4.4,
+     "bold": true,
+     "color": "red",
+     "out": 1
+    },
+    {
+     "p": "label",
+     "text": "Dwelling named perils: a guest list",
+     "x": 80,
+     "y": 64,
+     "size": 4,
+     "bold": true,
+     "color": "blue",
+     "out": 1
+    },
+    {
+     "p": "divider",
+     "x": 53.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 50,
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 106.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 50,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "DP-1 Basic",
+     "x": 27,
+     "y": 7,
+     "size": 5.2,
+     "bold": true,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "id": "list1",
+     "p": "clipboard",
+     "x": 14,
+     "y": 24,
+     "h": 14,
+     "at": 1
+    },
+    {
+     "id": "fire1",
+     "p": "fire",
+     "x": 31,
+     "y": 23,
+     "h": 11,
+     "at": 1,
+     "cue": "fire",
+     "loop": "flicker"
+    },
+    {
+     "p": "lightning",
+     "x": 43,
+     "y": 23,
+     "h": 11,
+     "at": 1,
+     "cue": "lightning"
+    },
+    {
+     "p": "label",
+     "text": "Fire, lightning, internal explosion",
+     "x": 27,
+     "y": 36,
+     "size": 4,
+     "w": 30,
+     "at": 1,
+     "cue": "fire"
+    },
+    {
+     "p": "label",
+     "text": "Wind, hail, vandalism: extra premium",
+     "x": 27,
+     "y": 45.5,
+     "size": 4,
+     "w": 34,
+     "color": "orange",
+     "at": 1,
+     "cue": "premium"
+    },
+    {
+     "p": "stamp",
+     "text": "ACV",
+     "x": 27,
+     "y": 55,
+     "size": 5,
+     "color": "red",
+     "at": 1,
+     "cue": "actual"
+    },
+    {
+     "p": "label",
+     "text": "DP-2 Broad",
+     "x": 80,
+     "y": 7,
+     "size": 5.2,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "id": "list2",
+     "p": "clipboard",
+     "x": 80,
+     "y": 27,
+     "h": 24,
+     "at": 2,
+     "cue": "list"
+    },
+    {
+     "p": "label",
+     "text": "16 named perils on A, B and C",
+     "x": 80,
+     "y": 46,
+     "size": 4,
+     "w": 46,
+     "at": 2,
+     "cue": "named"
+    },
+    {
+     "p": "label",
+     "text": "DP-3 Special",
+     "x": 133,
+     "y": 7,
+     "size": 5.2,
+     "bold": true,
+     "color": "blue",
+     "at": 3
+    },
+    {
+     "id": "house3",
+     "p": "house",
+     "x": 124,
+     "y": 23,
+     "h": 18,
+     "at": 3,
+     "cue": "buildings"
+    },
+    {
+     "id": "shield3",
+     "p": "shield",
+     "x": 145,
+     "y": 22,
+     "h": 13,
+     "at": 3,
+     "cue": "direct"
+    },
+    {
+     "p": "label",
+     "text": "A and B: open perils",
+     "x": 133,
+     "y": 37,
+     "size": 4,
+     "w": 46,
+     "at": 3,
+     "cue": "direct"
+    },
+    {
+     "p": "label",
+     "text": "C: named perils",
+     "x": 133,
+     "y": 45,
+     "size": 4,
+     "w": 46,
+     "color": "orange",
+     "at": 3,
+     "cue": "Contents"
+    },
+    {
+     "p": "stamp",
+     "text": "Repl. cost",
+     "x": 80,
+     "y": 55,
+     "size": 4.6,
+     "color": "green",
+     "at": 4,
+     "cue": "replacement"
+    },
+    {
+     "p": "stamp",
+     "text": "Repl. cost",
+     "x": 133,
+     "y": 55,
+     "size": 4.6,
+     "color": "green",
+     "at": 4,
+     "cue": "replacement"
+    },
+    {
+     "p": "label",
+     "text": "Buildings, if insured to at least 80%",
+     "x": 106.5,
+     "y": 63,
+     "size": 3.8,
+     "w": 90,
+     "color": "green",
+     "at": 4,
+     "cue": "insured"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Next, pick a form. Named perils work like a guest list: not on the list, not covered.",
+     "say": "Next, pick a form. Named perils work like a guest list: not on the list, not covered.",
+     "hl": "bouncer"
+    },
+    {
+     "text": "DP-1, the Basic Form, has a short list: fire or lightning, and internal explosion. Want windstorm or hail? Pay for Extended Coverage, a bundle of extra perils. Vandalism costs its own premium. Losses are paid at actual cash value.",
+     "say": "D P one, the Basic Form, has a short list: fire or lightning, and internal explosion. Want windstorm or hail? Pay for Extended Coverage, a bundle of extra perils. Vandalism costs its own premium. Losses are paid at actual cash value.",
+     "hl": "list1"
+    },
+    {
+     "text": "DP-2, the Broad Form, has a long list: 16 named perils, on Coverages A, B and C.",
+     "say": "D P two, the Broad Form, has a long list: sixteen named perils, on Coverages A, B and C.",
+     "hl": "list2"
+    },
+    {
+     "text": "DP-3, the Special Form, flips it for the buildings: any direct physical loss gets in, unless it's excluded. Contents stay on a named list.",
+     "say": "D P three, the Special Form, flips it for the buildings: any direct physical loss gets in, unless it's excluded. Contents stay on a named list.",
+     "hl": "house3"
+    },
+    {
+     "text": "DP-2 and DP-3 pay buildings at replacement cost, with nothing off for depreciation, if insured to at least 80% of replacement cost.",
+     "say": "D P two and D P three pay buildings at replacement cost, with nothing off for depreciation, if insured to at least eighty percent of replacement cost."
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "DP-1, DP-2 or DP-3?",
+   "src": "ISO DP 00 01 07 88; DP 00 02 07 88; DP 00 03 12 02; confusion pair cp_personal-11 (drills)",
+   "options": [
+    "DP-1",
+    "DP-2",
+    "DP-3"
+   ],
+   "cards": [
+    {
+     "text": "Fire, lightning and internal explosion. Windstorm or hail only for an extra premium.",
+     "answer": 0,
+     "why": "The 1988 DP-1 Basic Form: a short list. Extended Coverage perils and vandalism each need their own premium.",
+     "draw": [
+      {
+       "p": "fire",
+       "x": 40,
+       "y": 28,
+       "h": 24,
+       "loop": "flicker"
+      },
+      {
+       "p": "lightning",
+       "x": 62,
+       "y": 27,
+       "h": 22
+      }
+     ]
+    },
+    {
+     "text": "The house is covered for any direct physical loss unless the loss is excluded.",
+     "answer": 2,
+     "why": "Only the DP-3 insures the dwelling and other structures on an open-perils basis.",
+     "draw": [
+      {
+       "p": "house",
+       "x": 40,
+       "y": 29,
+       "h": 34
+      },
+      {
+       "p": "shield",
+       "x": 70,
+       "y": 26,
+       "h": 22
+      }
+     ]
+    },
+    {
+     "text": "The house is covered for 16 named perils, including freezing and weight of ice, snow or sleet.",
+     "answer": 1,
+     "why": "DP-2 Broad: a long named list. DP-1 doesn't list those perils, and DP-3 covers the house on open perils.",
+     "draw": [
+      {
+       "p": "clipboard",
+       "x": 34,
+       "y": 28,
+       "h": 30
+      },
+      {
+       "p": "pipe",
+       "x": 72,
+       "y": 19,
+       "h": 14,
+       "opt": {
+        "frozen": true
+       }
+      },
+      {
+       "p": "ice",
+       "x": 72,
+       "y": 41,
+       "w": 30
+      }
+     ]
+    },
+    {
+     "text": "Every covered loss, even to the house, is paid at actual cash value.",
+     "answer": 0,
+     "why": "The 1988 DP-1 pays ACV. The DP-2 and DP-3 pay buildings at replacement cost if insured to at least 80%.",
+     "draw": [
+      {
+       "p": "coins",
+       "x": 38,
+       "y": 30,
+       "h": 20
+      },
+      {
+       "p": "label",
+       "text": "ACV",
+       "x": 66,
+       "y": 30,
+       "size": 9,
+       "bold": true,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "text": "A named list for the house, but replacement cost when it's insured to at least 80%.",
+     "answer": 1,
+     "why": "DP-2: 16 named perils on A, B and C, and buildings at replacement cost when the 80% test is met.",
+     "draw": [
+      {
+       "p": "clipboard",
+       "x": 36,
+       "y": 28,
+       "h": 30
+      },
+      {
+       "p": "num",
+       "text": "80%",
+       "x": 68,
+       "y": 29,
+       "size": 11,
+       "color": "green"
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: which form is it?",
+     "say": "Your turn: which form is it?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The tell: DP-1 is a short named list paid at actual cash value, DP-2 a long named list, DP-3 open perils on the buildings.",
+     "say": "The tell: D P one is a short named list paid at actual cash value, D P two a long named list, D P three open perils on the buildings."
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "Under the 2002 DP-3, which coverages are insured on an open-perils basis?",
+   "q": "The Millers choose the 2002 DP-3. Which coverages does it insure on an open-perils basis?",
    "choices": [
     "Coverages A, B and C",
     "Coverages A and B only",
-    "Coverage C only"
+    "Coverage A only"
    ],
    "answer": 1,
-   "why": "DP-3 covers the dwelling (A) and other structures (B) for direct physical loss unless excluded. Personal property (C) is covered for named perils only.",
+   "why": "The DP-3 covers the dwelling (A) and other structures (B) for direct physical loss unless excluded. Personal property (C) gets named perils only.",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 24,
+     "y": 22,
+     "h": 26,
+     "opt": {
+      "roof": "blue"
+     },
+     "label": "A: house",
+     "lsize": 4
+    },
+    {
+     "id": "garage",
+     "p": "garage",
+     "x": 60,
+     "y": 24,
+     "h": 17,
+     "label": "B: garage",
+     "lsize": 4
+    },
+    {
+     "id": "sofa",
+     "p": "sofa",
+     "x": 24,
+     "y": 56,
+     "h": 11,
+     "label": "C: contents",
+     "lsize": 4
+    },
+    {
+     "p": "question",
+     "x": 60,
+     "y": 54,
+     "h": 15,
+     "out": 1
+    },
+    {
+     "p": "ring",
+     "on": "house",
+     "color": "green",
+     "at": 1
+    },
+    {
+     "p": "ring",
+     "on": "garage",
+     "color": "green",
+     "at": 1
+    },
+    {
+     "p": "stamp",
+     "text": "Named only",
+     "x": 58,
+     "y": 56,
+     "size": 4.6,
+     "color": "red",
+     "at": 1
+    }
+   ],
    "beats": [
     {
-     "text": "Quick check. Under the 2002 DP-3, which coverages are open perils? Pick an answer.",
-     "say": "Quick check. Under the two thousand two D P three, which coverages are open perils? Pick an answer."
+     "text": "The Millers pick the DP-3. Which coverages get open perils?",
+     "say": "The Millers pick the D P three. Which coverages get open perils?"
     }
    ],
    "reveal": [
     {
-     "text": "Coverages A and B only. The buildings get open perils, but personal property stays named perils. No DP form covers contents on open perils.",
-     "say": "Coverages A and B only. The buildings get open perils, but personal property stays named perils. No D P form covers contents on open perils."
+     "text": "A and B only: the buildings. Personal property stays named perils. No DP form covers contents on open perils.",
+     "say": "A and B only: the buildings. Personal property stays named perils. No D P form covers contents on open perils."
     }
    ]
   },
   {
-   "type": "table",
-   "title": "Dwelling coverage letters",
-   "src": "ISO DP 00 03 12 02, Coverages A–E; DP 00 01 07 88; DL 24 01 12 02, Coverages L–M",
-   "columns": [
-    "Letter",
-    "Covers"
-   ],
-   "items": [
-    [
-     "A",
-     "Dwelling and attached structures"
-    ],
-    [
-     "B",
-     "Other structures, set apart by clear space"
-    ],
-    [
-     "C",
-     "Contents on the Described Location"
-    ],
-    [
-     "D",
-     "Fair rental value of the rented part"
-    ],
-    [
-     "E",
-     "Additional living expense (not in 1988 DP-1)"
-    ],
-    [
-     "L and M",
-     "Liability and medical payments: PLS only"
-    ]
+   "type": "choice",
+   "title": "Fire at the rental: who pays the lost rent?",
+   "src": "ISO DP 00 03 12 02, Coverages A, D–E and Other Coverage 5 (same in 07 14); DP 00 02 07 88, Other Coverage 5; prop-gap-01",
+   "ask": "Which coverage pays the lost rent?",
+   "draw": [
+    {
+     "id": "rental",
+     "p": "house",
+     "x": 30,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "roof": "blue"
+     }
+    },
+    {
+     "p": "fire",
+     "x": 26,
+     "y": 19,
+     "h": 18,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "fire",
+     "x": 39,
+     "y": 31,
+     "h": 9,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "smoke",
+     "x": 41,
+     "y": 7,
+     "h": 14,
+     "over": true,
+     "color": "ink"
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 74,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "who": "rosa",
+      "pose": "walk",
+      "hold": "parcel",
+      "mood": "sad"
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 120,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "sam",
+      "pose": "hold",
+      "hold": "wallet",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "No rent till it's fixed?",
+     "x": 80,
+     "y": 7,
+     "w": 36,
+     "to": "rosa",
+     "size": 5,
+     "at": 1,
+     "cue": "rent"
+    }
    ],
    "beats": [
     {
-     "text": "A is the dwelling and attached structures. B is other structures, set apart by clear space. C is personal property on the Described Location.",
-     "say": "A is the dwelling and attached structures. B is other structures, set apart by clear space. C is personal property on the Described Location.",
-     "show": 3
+     "text": "February. A covered fire leaves the rental unfit to live in.",
+     "say": "February. A covered fire leaves the rental unfit to live in."
     },
     {
-     "text": "Now the trap letters. D is fair rental value: rent you lose on the part you rent out. E is additional living expense: your own necessary increase in living costs.",
-     "say": "Now the trap letters. D is fair rental value: rent you lose on the part you rent out. E is additional living expense: your own necessary increase in living costs.",
-     "show": 5,
-     "hl": 3
+     "text": "I can't live here till it's fixed. No rent till then, okay?",
+     "say": "I can't live here till it's fixed. No rent till then, okay?",
+     "voice": "rosa"
     },
     {
-     "text": "Liability isn't in the forms. The Personal Liability Supplement adds Coverage L, personal liability, and Coverage M, medical payments to others.",
-     "say": "Liability isn't in the forms. The Personal Liability Supplement adds Coverage L, personal liability, and Coverage M, medical payments to others.",
-     "show": 6
+     "text": "Which coverage pays the Millers' lost rent?",
+     "say": "Which coverage pays the Millers' lost rent?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Coverage E, Additional Living Expense",
+     "ok": false,
+     "fail": "Coverage E pays the insured's own necessary increase in living expenses. The Millers don't live in the rental.",
+     "beats": [
+      {
+       "text": "Extra living costs? You still sleep at home in Grand Rapids.",
+       "say": "Extra living costs? You still sleep at home in Grand Rapids.",
+       "voice": "adjuster"
+      }
+     ],
+     "draw": [
+      {
+       "id": "home",
+       "p": "house",
+       "x": 24,
+       "y": 27,
+       "h": 32
+      },
+      {
+       "p": "label",
+       "text": "Home, Grand Rapids",
+       "x": 24,
+       "y": 48,
+       "size": 4
+      },
+      {
+       "id": "sofa",
+       "p": "sofa",
+       "x": 64,
+       "y": 42,
+       "h": 14
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 64,
+       "y": 35,
+       "h": 26,
+       "opt": {
+        "who": "sam",
+        "mood": "sleep",
+        "pose": "sit"
+       },
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Zzz",
+       "x": 74,
+       "y": 18,
+       "size": 5,
+       "color": "blue"
+      },
+      {
+       "id": "adj",
+       "p": "person",
+       "x": 108,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "adjuster",
+        "pose": "hold",
+        "hold": "clipboard"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "What extra living costs?",
+       "x": 88,
+       "y": 7,
+       "w": 48,
+       "to": "adj",
+       "size": 5
+      }
+     ]
+    },
+    {
+     "label": "Coverage A, along with the repairs",
+     "ok": false,
+     "fail": "Coverage A pays for the dwelling itself. Rent lost while the house is unfit is Coverage D, Fair Rental Value.",
+     "beats": [
+      {
+       "text": "Coverage A fixes the house. The lost rent? Different letter.",
+       "say": "Coverage A fixes the house. The lost rent? Different letter."
+      }
+     ],
+     "draw": [
+      {
+       "id": "rental",
+       "p": "house",
+       "x": 26,
+       "y": 28,
+       "h": 32,
+       "opt": {
+        "roof": "blue"
+       }
+      },
+      {
+       "p": "hammer",
+       "x": 48,
+       "y": 40,
+       "h": 11
+      },
+      {
+       "p": "label",
+       "text": "A: repairs",
+       "x": 26,
+       "y": 50,
+       "size": 4.6,
+       "color": "green",
+       "bold": true,
+       "cue": "fixes"
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 82,
+       "y": 26,
+       "h": 12
+      },
+      {
+       "p": "xout",
+       "on": "cash",
+       "cue": "rent"
+      },
+      {
+       "p": "label",
+       "text": "Rent?",
+       "x": 82,
+       "y": 40,
+       "size": 4.6,
+       "color": "red",
+       "bold": true,
+       "cue": "rent"
+      },
+      {
+       "id": "jen",
+       "p": "person",
+       "x": 120,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "jen",
+        "pose": "shrug",
+        "mood": "worried"
+       }
+      }
+     ],
+     "failAt": [
+      148,
+      8
+     ]
+    },
+    {
+     "label": "Coverage D, Fair Rental Value",
+     "ok": true,
+     "win": "Coverage D pays the fair rental value of the rented part, less any expenses that do not continue while it's unfit.",
+     "beats": [
+      {
+       "text": "Right. D pays the lost rent, less any expenses that stop while the house is unfit.",
+       "say": "Right. D pays the lost rent, less any expenses that stop while the house is unfit."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 26,
+       "y": 26,
+       "h": 32
+      },
+      {
+       "id": "chk",
+       "p": "bankcheck",
+       "x": 50,
+       "y": 22,
+       "h": 12,
+       "opt": {
+        "amount": "Rent"
+       },
+       "move": {
+        "to": [
+         92,
+         30
+        ],
+        "cue": "pays",
+        "dur": 1.4,
+        "sfx": "cash"
+       }
+      },
+      {
+       "p": "label",
+       "text": "D: Fair Rental Value",
+       "x": 70,
+       "y": 50,
+       "size": 4.6,
+       "color": "green",
+       "bold": true,
+       "cue": "rent"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 120,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "jen",
+       "p": "person",
+       "x": 140,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "jen",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "D keeps paying even if repairs run past the policy's expiration. If the Millers lived there, a hotel bill would be Coverage E.",
+     "say": "D keeps paying even if repairs run past the policy's expiration. If the Millers lived there, a hotel bill would be Coverage E."
+    },
+    {
+     "text": "The 2002 DP-3 adds up to 20% of Coverage A for D and E together, as additional insurance. The 1988 DP-2: 10%.",
+     "say": "The two thousand two D P three adds up to twenty percent of Coverage A for D and E together, as additional insurance. The nineteen eighty eight D P two: ten percent."
     }
    ]
   },
   {
-   "type": "scenario",
-   "title": "A landlord's lost rent",
-   "src": "ISO DP 00 03 12 02, Coverages D–E (same wording in DP 00 03 07 14)",
-   "icon": "banknote",
-   "story": "Dana rents out a house she owns in Lansing, insured under a DP-3. A covered fire makes it unfit to live in, and her tenant stops paying rent during repairs. Which coverage pays Dana's lost rent?",
-   "items": [
+   "type": "term",
+   "title": "The burglar's dents, not his loot",
+   "src": "ISO DP 00 03 12 02, Perils A and Coverage C Perils 8–9; DP 00 02 07 88, Perils 8–9; Dwelling Manual Rule 510; mn_prop-12",
+   "kind": "Trap",
+   "term": "Damage by burglars",
+   "plain": "A named personal property peril in the DP-2 and DP-3: damage burglars do to covered property, but not theft.",
+   "example": "A burglar pries open the rental's back door and takes the TV the Millers keep there. The crowbar dents: covered. The TV, with no theft endorsement: not covered.",
+   "exam": "Homeowners forms list theft. Dwelling forms add it by endorsement, picked by who lives there.",
+   "draw": [
     {
-     "label": "Damage to the house",
-     "detail": "Coverage A pays for the repairs"
+     "id": "rental",
+     "p": "house",
+     "x": 20,
+     "y": 20,
+     "h": 26,
+     "opt": {
+      "roof": "blue"
+     }
     },
     {
-     "label": "Lost rent",
-     "detail": "Coverage D: fair rental value, less expenses that do not continue"
+     "id": "pried",
+     "p": "lock",
+     "opt": {
+      "broken": true
+     },
+     "x": 24,
+     "y": 29,
+     "h": 7,
+     "cue": "pries",
+     "over": true,
+     "sfx": "crash"
     },
     {
-     "label": "Not Coverage E",
-     "detail": "E pays the insured's own extra living costs, and Dana doesn't live there"
+     "id": "thief",
+     "p": "person",
+     "x": 58,
+     "y": 30,
+     "h": 28,
+     "opt": {
+      "who": "thief",
+      "pose": "run",
+      "hold": "tv",
+      "mood": "smirk"
+     },
+     "anim": "slide-r"
+    },
+    {
+     "p": "check",
+     "x": 10,
+     "y": 45,
+     "h": 7,
+     "at": 2,
+     "cue": "dents"
+    },
+    {
+     "p": "label",
+     "text": "Door dents: covered",
+     "x": 30,
+     "y": 45,
+     "size": 3.8,
+     "color": "green",
+     "bold": true,
+     "at": 2,
+     "cue": "dents"
+    },
+    {
+     "p": "stamp",
+     "text": "TV: not covered",
+     "x": 42,
+     "y": 57,
+     "size": 4.6,
+     "color": "red",
+     "at": 2,
+     "cue": "loot"
+    },
+    {
+     "p": "arrow",
+     "from": [
+      26,
+      41
+     ],
+     "to": "pried",
+     "color": "green",
+     "at": 2,
+     "cue": "dents",
+     "bend": -0.2
     }
    ],
-   "answer": "Coverage D, Fair Rental Value. The payment period is not cut off by the policy's expiration.",
    "beats": [
     {
-     "text": "Dana rents out a house she owns in Lansing, insured under a DP-3. A fire makes it unfit to live in, and the rent stops. Which coverage pays her lost rent?",
-     "say": "Dana rents out a house she owns in Lansing, insured under a D P three. A fire makes it unfit to live in, and the rent stops. Which coverage pays her lost rent?",
-     "show": 0
+     "text": "In May, with Rosa back, a burglar pries open the back door and grabs the Millers' TV.",
+     "say": "In May, with Rosa back, a burglar pries open the back door and grabs the Millers' T V.",
+     "show": 1
     },
     {
-     "text": "Coverage A repairs the house. The rent is fair rental value, less any expenses that do not continue while it's unfit. Coverage E doesn't fit: Dana doesn't live there.",
-     "say": "Coverage A repairs the house. The rent is fair rental value, less any expenses that do not continue while it's unfit. Coverage E doesn't fit: Dana doesn't live there.",
-     "show": 3
+     "text": "Here's the gap: DP-2 and DP-3 cover damage by burglars, but not theft.",
+     "say": "Here's the gap: D P two and D P three cover damage by burglars, but not theft.",
+     "show": 2
     },
     {
-     "text": "So Coverage D pays the lost rent, even if repairs run past the policy's expiration.",
-     "say": "So Coverage D pays the lost rent, even if repairs run past the policy's expiration.",
+     "text": "The Millers' policy pays for the burglar's crowbar dents, not his loot.",
+     "say": "The Millers' policy pays for the burglar's crowbar dents, not his loot.",
      "show": 3,
-     "answer": true
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "An owner-occupant's DP-3 home has a covered fire, and her family must stay in a hotel. Which coverage pays the necessary increase in living expenses?",
-   "choices": [
-    "Coverage D, Fair Rental Value",
-    "Coverage E, Additional Living Expense",
-    "Coverage L, Personal Liability"
-   ],
-   "answer": 1,
-   "why": "In the dwelling forms, D is fair rental value of a rented part; E pays the insured's necessary increase in living expenses.",
-   "beats": [
-    {
-     "text": "Now flip it. An owner-occupant's DP-3 home burns, and her family moves into a hotel. Which coverage pays the extra living costs? Pick an answer.",
-     "say": "Now flip it. An owner-occupant's D P three home burns, and her family moves into a hotel. Which coverage pays the extra living costs? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "Coverage E, Additional Living Expense, because she lives there. In the DP-3, D and E together can also use up to 20% of Coverage A as additional insurance.",
-     "say": "Coverage E, Additional Living Expense, because she lives there. In the D P three, D and E together can also use up to twenty percent of Coverage A as additional insurance."
+     "hl": "pried"
     },
     {
-     "text": "Watch the edition: the 1988 DP-2 allowed only 10% of Coverage A.",
-     "say": "Watch the edition: the nineteen eighty eight D P two allowed only ten percent of Coverage A."
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Theft: added by endorsement",
-   "src": "ISO DP 00 03 12 02, Coverage C Perils; ISO Dwelling Policy Program Manual Rule 510",
-   "columns": [
-    {
-     "name": "Broad Theft Coverage",
-     "icon": "house",
-     "points": [
-      "Owner-occupied, or a tenant who is the named insured",
-      "Theft on and off premises",
-      "Off-premises only if on-premises is bought",
-      "Off-premises limit no higher than on-premises"
-     ]
-    },
-    {
-     "name": "Limited Theft Coverage",
-     "icon": "building-2",
-     "points": [
-      "Non-owner-occupied, such as a landlord's rental",
-      "Theft on premises only"
-     ]
-    }
-   ],
-   "tell": "Who lives there? The named insured lives there: Broad Theft. A landlord who doesn't: Limited Theft.",
-   "beats": [
-    {
-     "text": "Here's a gap. In the DP-2 and DP-3, personal property is covered for damage by burglars, but not for theft. Theft coverage is added by endorsement.",
-     "say": "Here's a gap. In the D P two and D P three, personal property is covered for damage by burglars, but not for theft. Theft coverage is added by endorsement.",
-     "show": 0
-    },
-    {
-     "text": "Broad Theft Coverage fits an owner-occupant, or a tenant who is the named insured. It covers theft on and off premises, but off-premises coverage requires on-premises coverage, at a limit no higher.",
-     "say": "Broad Theft Coverage fits an owner-occupant, or a tenant who is the named insured. It covers theft on and off premises, but off-premises coverage requires on-premises coverage, at a limit no higher.",
-     "show": 1
-    },
-    {
-     "text": "Limited Theft Coverage fits non-owner-occupied risks, like a landlord's rental. It covers theft on premises only. So choose by who lives there, not by price.",
-     "say": "Limited Theft Coverage fits non-owner-occupied risks, like a landlord's rental. It covers theft on premises only. So choose by who lives there, not by price.",
-     "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "DP-3 general exclusions",
-   "src": "ISO DP 00 03 12 02, General Exclusions A.1–9; DP 00 03 07 14, General Exclusions A.2–A.3",
-   "items": [
-    {
-     "label": "Earth movement",
-     "detail": "Ensuing fire or explosion is covered",
-     "icon": "triangle-alert"
-    },
-    {
-     "label": "Water damage",
-     "detail": "Flood, sewer or drain backup, subsurface water; ensuing fire or explosion covered",
-     "icon": "waves"
-    },
-    {
-     "label": "Intentional loss",
-     "icon": "ban"
-    },
-    {
-     "label": "Also excluded",
-     "detail": "Ordinance or law, power failure off the location, neglect, war, nuclear hazard, governmental action"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Open perils still has exclusions, and they apply regardless of any other cause contributing to the loss.",
-     "say": "Open perils still has exclusions, and they apply regardless of any other cause contributing to the loss.",
-     "show": 0
-    },
-    {
-     "text": "Earth movement, like an earthquake, is excluded. So is water damage: flood, water backing up through sewers or drains, and subsurface water. In both, ensuing fire or explosion is covered.",
-     "say": "Earth movement, like an earthquake, is excluded. So is water damage: flood, water backing up through sewers or drains, and subsurface water. In both, ensuing fire or explosion is covered.",
-     "show": 2
-    },
-    {
-     "text": "Intentional loss is excluded too, along with ordinance or law, off-site power failure, neglect, war, nuclear hazard and governmental action.",
-     "say": "Intentional loss is excluded too, along with ordinance or law, off-site power failure, neglect, war, nuclear hazard and governmental action.",
+     "text": "Watch out: homeowners forms list theft. Dwelling forms add it by endorsement.",
+     "say": "Watch out: homeowners forms list theft. Dwelling forms add it by endorsement.",
      "show": 4
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "An earthquake damages a DP-3 dwelling and breaks a gas line. The resulting fire damages the dwelling further. The policy covers:",
-   "choices": [
-    "The fire damage only",
-    "The earthquake damage only",
-    "Both the earthquake and the fire damage",
-    "Neither loss"
+   "type": "choice",
+   "title": "Which theft endorsement for a landlord?",
+   "src": "ISO Dwelling Policy Program Manual Rule 510.A; DP 00 03 12 02, Coverage C perils; question prop-026; memory aid mn_prop-12",
+   "ask": "Which endorsement does Dana add?",
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 20,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "neutral"
+     }
+    },
+    {
+     "id": "broad",
+     "p": "policy",
+     "x": 52,
+     "y": 26,
+     "h": 26,
+     "opt": {
+      "title": "BROAD",
+      "tsize": 7
+     }
+    },
+    {
+     "id": "lim",
+     "p": "policy",
+     "x": 84,
+     "y": 26,
+     "h": 26,
+     "opt": {
+      "title": "LIMITED",
+      "tsize": 6
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 120,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "sam",
+      "pose": "point",
+      "mood": "worried"
+     },
+     "flip": true
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 140,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "jen",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Cover our stuff there!",
+     "x": 120,
+     "y": 7,
+     "w": 30,
+     "to": "sam",
+     "size": 5,
+     "out": 1
+    },
+    {
+     "p": "label",
+     "text": "Theft endorsements",
+     "x": 68,
+     "y": 6,
+     "size": 4.4,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "p": "label",
+     "text": "Named insured lives there",
+     "x": 52,
+     "y": 47,
+     "size": 4.4,
+     "w": 28,
+     "color": "green",
+     "bold": true,
+     "at": 1,
+     "cue": "Broad"
+    },
+    {
+     "p": "label",
+     "text": "Named insured doesn't",
+     "x": 84,
+     "y": 47,
+     "size": 4.4,
+     "w": 28,
+     "color": "orange",
+     "bold": true,
+     "at": 1,
+     "cue": "Limited"
+    }
    ],
-   "answer": 0,
-   "why": "Earth movement is excluded regardless of other causes, but direct loss by fire or explosion that results from it is covered.",
    "beats": [
     {
-     "text": "Try this. An earthquake damages a DP-3 dwelling and breaks a gas line. The fire that follows causes more damage. What's covered? Pick an answer.",
-     "say": "Try this. An earthquake damages a D P three dwelling and breaks a gas line. The fire that follows causes more damage. What's covered? Pick an answer."
+     "text": "The Millers want theft coverage for their things in the rental, where they don't live.",
+     "say": "The Millers want theft coverage for their things in the rental, where they don't live."
+    },
+    {
+     "text": "Theft endorsements go by who lives there. Broad Theft: the named insured lives there, as owner or tenant. Limited Theft: the named insured doesn't.",
+     "say": "Theft endorsements go by who lives there. Broad Theft: the named insured lives there, as owner or tenant. Limited Theft: the named insured doesn't.",
+     "voice": "dana"
+    },
+    {
+     "text": "Which one fits the Millers?",
+     "say": "Which one fits the Millers?"
+    }
+   ],
+   "options": [
+    {
+     "label": "None needed: the DP-3 is open perils",
+     "ok": false,
+     "fail": "The DP-3's open perils cover only the buildings. Its personal property perils include damage by burglars, but not theft.",
+     "beats": [
+      {
+       "text": "June: a burglar grabs the new TV. Still not covered: DP-3 personal property perils don't include theft.",
+       "say": "June: a burglar grabs the new T V. Still not covered: D P three personal property perils don't include theft."
+      }
+     ],
+     "draw": [
+      {
+       "id": "rental",
+       "p": "house",
+       "x": 22,
+       "y": 27,
+       "h": 32,
+       "opt": {
+        "roof": "blue"
+       }
+      },
+      {
+       "id": "thief",
+       "p": "person",
+       "x": 56,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "thief",
+        "pose": "run",
+        "hold": "tv",
+        "mood": "laugh"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Not covered",
+       "x": 92,
+       "y": 44,
+       "size": 6,
+       "color": "red",
+       "rot": -6,
+       "cue": "covered"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 120,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "stop",
+        "mood": "angry"
+       },
+       "flip": true
+      },
+      {
+       "p": "bubble",
+       "text": "Not again!",
+       "x": 142,
+       "y": 32,
+       "w": 22,
+       "to": "sam"
+      }
+     ],
+     "failAt": [
+      146,
+      10
+     ]
+    },
+    {
+     "label": "Broad Theft: on and off premises",
+     "ok": false,
+     "fail": "Broad Theft fits an owner-occupant, or a tenant who is the named insured. A landlord who doesn't live there gets Limited Theft.",
+     "beats": [
+      {
+       "text": "Broad Theft? The named insured has to live there. Rosa does, but the policy is yours.",
+       "say": "Broad Theft? The named insured has to live there. Rosa does, but the policy is yours.",
+       "voice": "dana"
+      }
+     ],
+     "draw": [
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 18,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "hold": "clipboard",
+        "mood": "neutral"
+       }
+      },
+      {
+       "id": "broadp",
+       "p": "policy",
+       "x": 46,
+       "y": 40,
+       "h": 18,
+       "opt": {
+        "title": "BROAD",
+        "tsize": 6
+       }
+      },
+      {
+       "p": "xout",
+       "on": "broadp",
+       "cue": "yours"
+      },
+      {
+       "p": "bubble",
+       "text": "Named insured must live there!",
+       "x": 50,
+       "y": 7,
+       "w": 58,
+       "to": "dana",
+       "size": 5
+      },
+      {
+       "id": "rental",
+       "p": "house",
+       "x": 84,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "roof": "blue"
+       }
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 108,
+       "y": 34,
+       "h": 28,
+       "opt": {
+        "who": "rosa",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "flip": true
+      },
+      {
+       "p": "label",
+       "text": "Rosa lives here. The Millers don't.",
+       "x": 96,
+       "y": 53,
+       "size": 4.2,
+       "w": 60,
+       "color": "red",
+       "bold": true,
+       "cue": "Rosa"
+      }
+     ]
+    },
+    {
+     "label": "Limited Theft: on premises only",
+     "ok": true,
+     "win": "Limited Theft Coverage, on premises only, is for non-owner-occupied risks, like a landlord's rental.",
+     "beats": [
+      {
+       "text": "Right. Limited Theft covers theft on premises, right where the Millers' things are.",
+       "say": "Right. Limited Theft covers theft on premises, right where the Millers' things are."
+      }
+     ],
+     "draw": [
+      {
+       "id": "rental",
+       "p": "house",
+       "x": 28,
+       "y": 28,
+       "h": 32,
+       "opt": {
+        "roof": "blue"
+       }
+      },
+      {
+       "id": "lock",
+       "p": "lock",
+       "x": 52,
+       "y": 36,
+       "h": 12
+      },
+      {
+       "id": "lim",
+       "p": "policy",
+       "x": 80,
+       "y": 26,
+       "h": 26,
+       "opt": {
+        "title": "LIMITED",
+        "tsize": 6
+       },
+       "anim": "slide-r",
+       "sfx": "click"
+      },
+      {
+       "p": "label",
+       "text": "Limited Theft: on premises",
+       "x": 80,
+       "y": 47,
+       "size": 4.4,
+       "color": "green",
+       "bold": true,
+       "cue": "premises",
+       "w": 56
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 122,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "jen",
+       "p": "person",
+       "x": 142,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "jen",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      }
+     ]
     }
    ],
    "reveal": [
     {
-     "text": "The fire damage only. The earthquake damage is excluded as earth movement, but the ensuing fire is covered.",
-     "say": "The fire damage only. The earthquake damage is excluded as earth movement, but the ensuing fire is covered."
+     "text": "Pick by who lives there, not by price. Rosa lives there, but the named insureds, the Millers, don't.",
+     "say": "Pick by who lives there, not by price. Rosa lives there, but the named insureds, the Millers, don't."
+    },
+    {
+     "text": "Broad Theft can add off-premises coverage, but only with on-premises coverage, at a limit no higher.",
+     "say": "Broad Theft can add off-premises coverage, but only with on-premises coverage, at a limit no higher."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Dwelling endorsements to know",
-   "src": "ISO DP 04 11 12 02; DP 11 43 12 02; DL 24 01 12 02; FC&S (Aug. 12, 2024) on Special Provisions DP 01 XX",
+   "type": "hook",
+   "title": "Even open-perils coverage has exclusions",
+   "src": "ISO DP 00 03 12 02, General Exclusions A.1–9 (same in 07 14); memory hook mn_prop-22",
+   "hook": "Old Ernie's Wet Pontoon Never Went North In Grayling.",
    "items": [
+    "Ordinance or law, Earth movement, Water",
+    "Power failure off the location, Neglect, War",
+    "Nuclear hazard, Intentional loss, Governmental action",
+    "They apply no matter what other cause contributes"
+   ],
+   "draw": [
     {
-     "label": "Automatic Increase in Insurance",
-     "detail": "A and B limits rise annually by the percent shown, pro rata",
-     "icon": "percent"
+     "id": "mi",
+     "p": "michigan",
+     "x": 56,
+     "y": 26,
+     "h": 34,
+     "opt": {
+      "pin": [
+       -84.716,
+       44.661
+      ],
+      "pinLabel": "Grayling"
+     }
     },
     {
-     "label": "Dwelling Under Construction",
-     "detail": "Provisional A limit, times actual value over completed value",
-     "icon": "hard-hat"
+     "id": "ernie",
+     "p": "person",
+     "x": 22,
+     "y": 44,
+     "h": 22,
+     "opt": {
+      "who": "person",
+      "beard": true,
+      "hat": "cap",
+      "hatColor": "green",
+      "pose": "wave"
+     },
+     "over": true
     },
     {
-     "label": "Special Provisions – Michigan",
-     "detail": "State-mandated changes, notably cancellation and nonrenewal",
-     "icon": "map-pin"
+     "id": "boat",
+     "p": "boat",
+     "x": 24,
+     "y": 56,
+     "h": 15,
+     "opt": {
+      "color": "teal"
+     }
     },
     {
-     "label": "Personal Liability Supplement",
-     "detail": "Coverage L, personal liability; Coverage M, medical payments to others",
-     "icon": "scale"
+     "p": "label",
+     "text": "Old Ernie",
+     "x": 22,
+     "y": 66,
+     "size": 3.8
+    },
+    {
+     "id": "north",
+     "p": "arrow",
+     "from": [
+      38,
+      50
+     ],
+     "to": [
+      53,
+      31
+     ],
+     "dash": true,
+     "color": "blue"
+    },
+    {
+     "p": "label",
+     "text": "North?",
+     "x": 35,
+     "y": 37,
+     "size": 3.8,
+     "color": "blue"
+    },
+    {
+     "p": "xout",
+     "on": "north",
+     "cue": "North"
+    },
+    {
+     "p": "crack",
+     "x": 9,
+     "y": 8,
+     "h": 5,
+     "at": 1,
+     "cue": "earth"
+    },
+    {
+     "p": "label",
+     "text": "Earth",
+     "x": 24,
+     "y": 8,
+     "size": 3.8,
+     "color": "gray",
+     "at": 1,
+     "cue": "earth"
+    },
+    {
+     "p": "water",
+     "x": 9,
+     "y": 16,
+     "w": 12,
+     "at": 1,
+     "cue": "water"
+    },
+    {
+     "p": "label",
+     "text": "Water",
+     "x": 24,
+     "y": 16,
+     "size": 3.8,
+     "color": "gray",
+     "at": 1,
+     "cue": "water"
+    },
+    {
+     "p": "icon",
+     "name": "unplug",
+     "x": 9,
+     "y": 25,
+     "h": 6,
+     "at": 1,
+     "cue": "Power"
+    },
+    {
+     "p": "label",
+     "text": "Power",
+     "x": 24,
+     "y": 25,
+     "size": 3.8,
+     "color": "gray",
+     "at": 1,
+     "cue": "Power"
     }
    ],
    "beats": [
     {
-     "text": "Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown, applied pro rata.",
-     "say": "Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown, applied pro rata.",
-     "show": 1
+     "text": "Even open perils come with exclusions. In the DP-3, nine general ones fit one sentence: Old Ernie's Wet Pontoon Never Went North In Grayling.",
+     "say": "Even open perils come with exclusions. In the D P three, nine general ones fit one sentence: Old Ernie's Wet Pontoon Never Went North In Grayling.",
+     "show": 0
     },
     {
-     "text": "Dwelling Under Construction makes the Coverage A limit provisional. On any date, the insurance is that limit times actual value divided by completed value.",
-     "say": "Dwelling Under Construction makes the Coverage A limit provisional. On any date, the insurance is that limit times actual value divided by completed value.",
-     "show": 2
+     "text": "Ordinance or law, earth movement, water. Power failure off the location, neglect, war. Nuclear hazard, intentional loss, governmental action.",
+     "say": "Ordinance or law, earth movement, water. Power failure off the location, neglect, war. Nuclear hazard, intentional loss, governmental action.",
+     "show": 3
     },
     {
-     "text": "Special Provisions, Michigan, makes the state-mandated changes, notably to cancellation and nonrenewal. And the Personal Liability Supplement adds Coverages L and M.",
-     "say": "Special Provisions, Michigan, makes the state-mandated changes, notably to cancellation and nonrenewal. And the Personal Liability Supplement adds Coverages L and M.",
+     "text": "They apply no matter what other cause contributes.",
+     "say": "They apply no matter what other cause contributes.",
      "show": 4
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Excluded cause, covered fire",
+   "src": "ISO DP 00 03 12 02, General Exclusions A.2 Earth Movement and A.3 Water Damage (same in 07 14); question prop-gap-05",
+   "draw": [
+    {
+     "id": "h1",
+     "p": "house",
+     "x": 36,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "roof": "blue"
+     }
+    },
+    {
+     "id": "quake",
+     "p": "crack",
+     "x": 36,
+     "y": 50,
+     "h": 8,
+     "at": 0,
+     "cue": "earthquake",
+     "sfx": "crash",
+     "over": true
+    },
+    {
+     "p": "stamp",
+     "text": "Quake: excluded",
+     "x": 36,
+     "y": 61,
+     "size": 5,
+     "color": "red",
+     "at": 0,
+     "cue": "excluded"
+    },
+    {
+     "id": "fire1",
+     "p": "fire",
+     "x": 28,
+     "y": 23,
+     "h": 12,
+     "at": 1,
+     "cue": "fire",
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "stamp",
+     "text": "Fire: covered",
+     "x": 60,
+     "y": 10,
+     "size": 5,
+     "color": "green",
+     "rot": -6,
+     "at": 1,
+     "cue": "covered"
+    },
+    {
+     "p": "divider",
+     "x": 82,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 2
+    },
+    {
+     "id": "h2",
+     "p": "house",
+     "x": 120,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "roof": "blue"
+     },
+     "at": 2
+    },
+    {
+     "id": "flood",
+     "p": "flood",
+     "x": 120,
+     "y": 44,
+     "w": 50,
+     "at": 2,
+     "cue": "flood",
+     "anim": "grow",
+     "over": true
+    },
+    {
+     "id": "fire2",
+     "p": "fire",
+     "x": 112,
+     "y": 21,
+     "h": 10,
+     "at": 2,
+     "cue": "fire",
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "stamp",
+     "text": "Flood: excluded",
+     "x": 120,
+     "y": 61,
+     "size": 5,
+     "color": "red",
+     "at": 2,
+     "cue": "excluded"
+    },
+    {
+     "p": "label",
+     "text": "Fire or explosion after: covered",
+     "x": 120,
+     "y": 8,
+     "size": 4,
+     "w": 60,
+     "color": "green",
+     "bold": true,
+     "at": 2,
+     "cue": "fire"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Say an earthquake cracks the rental's foundation. Excluded: earth movement.",
+     "say": "Say an earthquake cracks the rental's foundation. Excluded: earth movement.",
+     "hl": "quake"
+    },
+    {
+     "text": "But if it breaks a gas line and fire follows, the fire damage is covered.",
+     "say": "But if it breaks a gas line and fire follows, the fire damage is covered.",
+     "hl": "fire1"
+    },
+    {
+     "text": "Water works the same way: flood, sewer or drain backup, and subsurface water are excluded, but an ensuing fire or explosion is covered.",
+     "say": "Water works the same way: flood, sewer or drain backup, and subsurface water are excluded, but an ensuing fire or explosion is covered.",
+     "hl": "flood"
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Under the DP-3: covered or excluded?",
+   "src": "ISO DP 00 03 12 02, Perils A–B and General Exclusions A.2–A.3 (same in 07 14); questions prop-gap-05, prop-gap-06",
+   "bins": [
+    {
+     "name": "Covered"
+    },
+    {
+     "name": "Excluded"
+    }
+   ],
+   "items": [
+    {
+     "text": "An earthquake cracks the foundation",
+     "bin": 1,
+     "why": "Earth movement is excluded, whatever else contributes."
+    },
+    {
+     "text": "Fire from the gas line the quake broke",
+     "bin": 0,
+     "why": "Fire or explosion that results from earth movement is covered."
+    },
+    {
+     "text": "The Grand River floods the basement",
+     "bin": 1,
+     "why": "Flood is part of the water damage exclusion."
+    },
+    {
+     "text": "Sewage backs up through a floor drain",
+     "bin": 1,
+     "why": "Water that backs up through sewers or drains is excluded."
+    },
+    {
+     "text": "Wind tears shingles off the roof",
+     "bin": 0,
+     "why": "Not a general exclusion, and the DP-3 covers the house for direct physical loss unless excluded."
+    },
+    {
+     "text": "A tree limb falls on the roof",
+     "bin": 0,
+     "why": "Not a general exclusion: covered under the DP-3's open perils on the dwelling."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: covered, or excluded?",
+     "say": "Your turn: covered, or excluded?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Earth movement and water are excluded, whatever else contributes. But a fire or explosion they cause is covered.",
+     "say": "Earth movement and water are excluded, whatever else contributes. But a fire or explosion they cause is covered."
+    },
+    {
+     "text": "Wind and a falling limb aren't excluded, so the DP-3 covers them.",
+     "say": "Wind and a falling limb aren't excluded, so the D P three covers them."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Three more endorsements to know",
+   "src": "ISO DP 04 11 12 02; DP 11 43 12 02; FC&S (Aug. 12, 2024) on Special Provisions DP 01 XX (Michigan: DP 01 21)",
+   "draw": [
+    {
+     "p": "divider",
+     "x": 53.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 106.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Automatic Increase in Insurance",
+     "x": 27,
+     "y": 11,
+     "size": 4.4,
+     "bold": true,
+     "color": "blue",
+     "w": 40
+    },
+    {
+     "id": "stairs",
+     "p": "stairs",
+     "x": 22,
+     "y": 28,
+     "h": 18,
+     "opt": {
+      "arrow": true
+     }
+    },
+    {
+     "p": "percent",
+     "x": 44,
+     "y": 20,
+     "h": 10
+    },
+    {
+     "p": "label",
+     "text": "A and B limits rise yearly by the % shown, pro rata",
+     "x": 27,
+     "y": 49,
+     "size": 4,
+     "w": 46
+    },
+    {
+     "p": "label",
+     "text": "Dwelling Under Construction",
+     "x": 80,
+     "y": 11,
+     "size": 4.4,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "w": 40
+    },
+    {
+     "id": "build",
+     "p": "construction",
+     "x": 80,
+     "y": 27,
+     "h": 22,
+     "at": 1,
+     "cue": "Building"
+    },
+    {
+     "p": "label",
+     "text": "Limit × actual value ÷ completed value",
+     "x": 80,
+     "y": 47,
+     "size": 4,
+     "w": 32,
+     "at": 1,
+     "cue": "times"
+    },
+    {
+     "p": "label",
+     "text": "Worth half its finished value? Half the limit.",
+     "x": 80,
+     "y": 57,
+     "size": 4,
+     "w": 36,
+     "color": "green",
+     "at": 1,
+     "cue": "Worth"
+    },
+    {
+     "p": "label",
+     "text": "Special Provisions – Michigan",
+     "x": 133,
+     "y": 11,
+     "size": 4.4,
+     "w": 40,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "id": "mi",
+     "p": "michigan",
+     "x": 128,
+     "y": 28,
+     "h": 22,
+     "at": 2
+    },
+    {
+     "p": "envelope",
+     "x": 148,
+     "y": 34,
+     "h": 9,
+     "at": 2,
+     "cue": "cancellation"
+    },
+    {
+     "p": "label",
+     "text": "State-mandated changes, notably cancellation and nonrenewal",
+     "x": 133,
+     "y": 49,
+     "size": 4,
+     "w": 46,
+     "at": 2
+    }
+   ],
+   "beats": [
+    {
+     "text": "Three more endorsements. Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown, applied pro rata over the policy period.",
+     "say": "Three more endorsements. Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown, applied pro rata over the policy period.",
+     "hl": "stairs"
+    },
+    {
+     "text": "Building a house? Dwelling Under Construction makes the Coverage A limit provisional. On any date, the insurance is that limit times actual value over completed value. Worth half its finished value? Half the limit.",
+     "say": "Building a house? Dwelling Under Construction makes the Coverage A limit provisional. On any date, the insurance is that limit times actual value over completed value. Worth half its finished value? Half the limit.",
+     "hl": "build"
+    },
+    {
+     "text": "And Michigan's own endorsement, Special Provisions – Michigan, makes the state-mandated changes, notably to cancellation and nonrenewal.",
+     "say": "And Michigan's own endorsement, Special Provisions, Michigan, makes the state mandated changes, notably to cancellation and nonrenewal.",
+     "hl": "mi"
     }
    ]
   },
@@ -388,23 +2591,89 @@
     "DP-1: short named list, ACV. DP-2: 16 named perils. DP-3: open A and B",
     "Dwelling D is fair rental value; E is additional living expense",
     "No liability in DP forms: add the PLS for Coverages L and M",
-    "Theft by endorsement: Broad if owner-occupied, Limited if not",
+    "Theft by endorsement: Broad if named insured lives there, else Limited",
     "Earth movement and water excluded; ensuing fire is covered"
+   ],
+   "draw": [
+    {
+     "id": "rental",
+     "p": "house",
+     "x": 58,
+     "y": 18,
+     "h": 22,
+     "opt": {
+      "roof": "blue"
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 14,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "sam",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 30,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "jen",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 48,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "rosa",
+      "pose": "stand",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 66,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "smirk"
+     }
+    }
    ],
    "beats": [
     {
-     "text": "To recap. DP-1 is a short named list paid at actual cash value. DP-2 names 16 perils. DP-3 is open perils on the buildings.",
-     "say": "To recap. D P one is a short named list paid at actual cash value. D P two names sixteen perils. D P three is open perils on the buildings.",
-     "show": 1
+     "text": "What a year! DP-1 has a short list and pays actual cash value. DP-2 has a long list. DP-3 covers the buildings on open perils.",
+     "say": "What a year! D P one has a short list and pays actual cash value. D P two has a long list. D P three covers the buildings on open perils.",
+     "show": 2
     },
     {
-     "text": "In dwelling forms, D is fair rental value and E is additional living expense. Liability needs the Personal Liability Supplement.",
-     "say": "In dwelling forms, D is fair rental value and E is additional living expense. Liability needs the Personal Liability Supplement.",
-     "show": 3
+     "text": "D pays lost rent, and E your own extra living costs. Liability needs the PLS, and theft an endorsement picked by who lives there.",
+     "say": "D pays lost rent, and E your own extra living costs. Liability needs the P L S, and theft an endorsement picked by who lives there.",
+     "show": 4
     },
     {
-     "text": "Theft comes by endorsement, chosen by occupancy. And when an earthquake or flood causes a fire, the fire is covered.",
-     "say": "Theft comes by endorsement, chosen by occupancy. And when an earthquake or flood causes a fire, the fire is covered.",
+     "text": "And a fire that follows an earthquake or flood is covered.",
+     "say": "And a fire that follows an earthquake or flood is covered.",
+     "show": 5
+    },
+    {
+     "text": "Landlording: harder than it looks!",
+     "say": "Landlording: harder than it looks!",
+     "voice": "jen",
      "show": 5
     }
    ]
@@ -417,7 +2686,11 @@
   "prop-026",
   "prop-gap-05"
  ],
- "hooks": [],
+ "hooks": [
+  "mn-mn_prop-22",
+  "mn-mn_prop-11",
+  "mn-mn_prop-12"
+ ],
  "sources": [
   "ISO DP 00 01 07 88",
   "ISO DP 00 02 07 88",
@@ -428,6 +2701,13 @@
   "ISO DP 11 43 12 02",
   "ISO Dwelling Policy Program Manual Rule 510",
   "ISO Dwelling Program eligibility (FC&S)",
-  "FC&S, Dwelling Property Forms—Exclusions and Endorsements (Aug. 12, 2024)"
+  "FC&S, Dwelling Property Forms—Exclusions and Endorsements (Aug. 12, 2024)",
+  "ISO HO 00 03 05 11, Section II Coverage E (homeowners letters, for contrast)",
+  "The Institutes, AIC 43 excerpt (homeowners eligibility: owner-occupants only)",
+  "IRMI \"replacement cost\" (core facts, Loss Valuation)",
+  "Question bank prop-024 to prop-032; prop-gap-01, prop-gap-02, prop-gap-04 to prop-gap-07",
+  "Card \"DP-1 / DP-2 / DP-3 perils\"",
+  "Memory aids mn_prop-09, mn_prop-10, mn_prop-11, mn_prop-12, mn_prop-22; confusion pair cp_personal-11",
+  "Visual summary vs_personal-02; match set ms_personal-03"
  ]
 }

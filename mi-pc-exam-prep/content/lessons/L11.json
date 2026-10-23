@@ -2,362 +2,2764 @@
  "id": "L11",
  "sec": "ho",
  "guide": "ho",
- "title": "Homeowners forms and Section I coverages",
- "summary": "Match HO-2 through HO-8 to who they fit and how they cover, then learn Coverages A to D, the special limits and key additional coverages.",
+ "title": "The Millers move in: homeowners forms and Section I coverages",
+ "summary": "Help Dana fit Rosa with the right HO form, then live through the Millers' first fall in their new house: Coverages A to D, special limits, trees.",
  "objectives": [
   "Match each homeowners form to its perils basis and who it fits",
   "Place a property loss under Coverage A, B, C or D",
   "Apply the 2011 Coverage C special limits, including the theft-only limits",
-  "Recall the tree and ordinance or law additional coverages"
+  "Recall the tree, tree removal and ordinance or law additional coverages"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "Homeowners forms and Section I coverages",
-   "subtitle": "ISO 2011 homeowners program (05 11 forms); HO-2, HO-5 and HO-8 checked in the 2000 forms",
-   "icon": "house",
-   "beats": [
+   "title": "The Millers move in: which homeowners form?",
+   "subtitle": "HO forms, Coverages A to D, special limits, trees (2011 ISO HO forms; HO-2, HO-5, HO-8 from the 2000 forms)",
+   "draw": [
     {
-     "text": "Homeowners is 15% of your exam: 22 items. This lesson covers the forms and the property coverages.",
-     "say": "Homeowners is fifteen percent of your exam: twenty two items. This lesson covers the forms and the property coverages."
+     "id": "house",
+     "p": "house",
+     "x": 26,
+     "y": 32,
+     "h": 32,
+     "opt": {
+      "garage": true
+     }
     },
     {
-     "text": "Dollar amounts come from the 2011 forms unless another edition is named. The newer 2022 forms changed some of them.",
-     "say": "Dollar amounts come from the twenty eleven forms unless another edition is named. The newer twenty twenty two forms changed some of them."
+     "id": "sold",
+     "p": "sign",
+     "x": 9,
+     "y": 54,
+     "h": 18,
+     "opt": {
+      "text": "SOLD",
+      "tcolor": "red"
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 58,
+     "y": 46,
+     "h": 26,
+     "opt": {
+      "who": "sam",
+      "pose": "hold",
+      "hold": "key",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 70,
+     "y": 46,
+     "h": 26,
+     "opt": {
+      "who": "jen",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 83,
+     "y": 46,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "clipboard"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "There's more than one?",
+     "x": 64,
+     "y": 13,
+     "w": 30,
+     "to": "sam",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "October in Grand Rapids. The Millers just got the keys to their new house. Dana picks their homeowners form.",
+     "say": "October in Grand Rapids. The Millers just got the keys to their new house. Dana picks their homeowners form."
+    },
+    {
+     "text": "There's more than one?",
+     "say": "There's more than one?",
+     "voice": "sam"
+    },
+    {
+     "text": "Six, actually. Homeowners is 15% of your exam: 22 items. Amounts are from the 2011 forms unless another edition is named; the 2022 forms changed some.",
+     "say": "Six, actually. Homeowners is fifteen percent of your exam: twenty two items. Amounts are from the twenty eleven forms unless another edition is named; the twenty twenty two forms changed some."
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Broad, Special, Comprehensive",
-   "src": "ISO HO 00 02 10 00; HO 00 03 05 11; HO 00 05 10 00, Sec. I Perils Insured Against; AIC 43 (eligibility)",
-   "columns": [
+   "type": "term",
+   "title": "Named perils vs open perils",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils A–B; HO 00 02 10 00; confusion pair cp_personal-06; memory hook mn_prop-10",
+   "kind": "Term",
+   "term": "Named vs open perils",
+   "plain": "Named perils: only the causes the policy lists are covered. Open perils: every cause is covered unless the policy excludes it.",
+   "example": "A party. Named perils is a guest list: not on it, no entry. Open perils is a banned list: everyone else gets in.",
+   "exam": "Watch out: open doesn't mean everything. The exclusions, like flood, still apply.",
+   "draw": [
     {
-     "name": "HO-2 Broad",
-     "icon": "layers",
-     "points": [
-      "Named perils on A, B and C",
-      "Same 16 perils as HO-3 Coverage C"
-     ]
+     "p": "label",
+     "text": "Named perils: a guest list",
+     "x": 44,
+     "y": 4,
+     "size": 4.2,
+     "bold": true,
+     "color": "blue"
     },
     {
-     "name": "HO-3 Special",
-     "icon": "house",
-     "points": [
-      "Open perils on A and B",
-      "16 named perils on C, including theft"
-     ]
+     "id": "b1",
+     "p": "person",
+     "x": 12,
+     "y": 21,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "hold": "clipboard",
+      "shirt": "blue"
+     }
     },
     {
-     "name": "HO-5 Comprehensive",
-     "icon": "shield-check",
-     "points": [
-      "Open perils on A, B and C"
-     ]
+     "id": "fire1",
+     "p": "fire",
+     "x": 34,
+     "y": 24,
+     "h": 10,
+     "at": 1,
+     "cue": "guest"
+    },
+    {
+     "p": "check",
+     "x": 34,
+     "y": 13,
+     "h": 6,
+     "at": 1,
+     "cue": "guest"
+    },
+    {
+     "id": "unk1",
+     "p": "icon",
+     "name": "circle-help",
+     "x": 56,
+     "y": 24,
+     "h": 10,
+     "color": "purple",
+     "at": 1,
+     "cue": "entry"
+    },
+    {
+     "p": "cross",
+     "x": 56,
+     "y": 13,
+     "h": 6,
+     "at": 1,
+     "cue": "entry"
+    },
+    {
+     "p": "line",
+     "from": [
+      4,
+      37
+     ],
+     "to": [
+      76,
+      37
+     ],
+     "dash": true,
+     "color": "gray"
+    },
+    {
+     "p": "label",
+     "text": "Open perils: a banned list",
+     "x": 44,
+     "y": 41,
+     "size": 4.2,
+     "bold": true,
+     "color": "green"
+    },
+    {
+     "id": "b2",
+     "p": "person",
+     "x": 12,
+     "y": 57,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "sign": "BANNED",
+      "shirt": "green"
+     }
+    },
+    {
+     "id": "fire2",
+     "p": "fire",
+     "x": 32,
+     "y": 60,
+     "h": 9,
+     "at": 1,
+     "cue": "everyone"
+    },
+    {
+     "p": "check",
+     "x": 32,
+     "y": 50,
+     "h": 6,
+     "at": 1,
+     "cue": "everyone"
+    },
+    {
+     "id": "unk2",
+     "p": "icon",
+     "name": "circle-help",
+     "x": 48,
+     "y": 60,
+     "h": 9,
+     "color": "purple",
+     "at": 1,
+     "cue": "everyone"
+    },
+    {
+     "p": "check",
+     "x": 48,
+     "y": 50,
+     "h": 6,
+     "at": 1,
+     "cue": "everyone"
+    },
+    {
+     "id": "flood",
+     "p": "water",
+     "x": 67,
+     "y": 61,
+     "w": 18,
+     "at": 1,
+     "cue": "banned"
+    },
+    {
+     "p": "cross",
+     "x": 67,
+     "y": 51,
+     "h": 6,
+     "at": 1,
+     "cue": "banned"
     }
    ],
-   "tell": "Count the open-perils coverages: HO-2 none, HO-3 the buildings only, HO-5 buildings and personal property.",
    "beats": [
     {
-     "text": "Start with three forms for the owner-occupant of a 1- to 4-family dwelling. HO-2, the Broad Form, covers the dwelling, other structures and personal property for named perils only.",
-     "say": "Start with three forms for the owner-occupant of a one to four family dwelling. H O two, the Broad Form, covers the dwelling, other structures and personal property for named perils only.",
-     "show": 1
-    },
-    {
-     "text": "HO-3, the Special Form, covers the dwelling and other structures for open perils: any direct physical loss not excluded. Personal property gets 16 named perils, including theft.",
-     "say": "H O three, the Special Form, covers the dwelling and other structures for open perils: any direct physical loss not excluded. Personal property gets sixteen named perils, including theft.",
+     "text": "Named perils: only the causes listed are covered. Open perils: every cause is covered, unless excluded.",
+     "say": "Named perils: only the causes listed are covered. Open perils: every cause is covered, unless excluded.",
      "show": 2
     },
     {
-     "text": "HO-5, the Comprehensive Form, is open perils on all three. The quick tell: count the open-perils coverages.",
-     "say": "H O five, the Comprehensive Form, is open perils on all three. The quick tell: count the open-perils coverages.",
-     "show": 3,
-     "tell": true
+     "text": "At a party, named perils is a guest list: not on it, no entry. Open perils is a banned list: everyone else gets in.",
+     "say": "At a party, named perils is a guest list: not on it, no entry. Open perils is a banned list: everyone else gets in.",
+     "show": 3
+    },
+    {
+     "text": "Watch out: open isn't everything. Exclusions still apply.",
+     "say": "Watch out: open isn't everything. Exclusions still apply.",
+     "show": 4,
+     "hl": "flood"
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Three forms for owners who live there",
+   "src": "ISO HO 00 02 10 00 and HO 00 05 10 00 (2000), HO 00 03 05 11, Sec. I Perils; AIC 43 (eligibility); cp_personal-10",
+   "draw": [
+    {
+     "p": "label",
+     "text": "For the owner-occupant of a 1 to 4 family home",
+     "x": 80,
+     "y": 4,
+     "size": 4,
+     "w": 90,
+     "bg": "yellow"
+    },
+    {
+     "p": "divider",
+     "x": 53.5,
+     "y": 38,
+     "y0": 10,
+     "y1": 64
+    },
+    {
+     "p": "divider",
+     "x": 106.5,
+     "y": 38,
+     "y0": 10,
+     "y1": 64
+    },
+    {
+     "p": "label",
+     "text": "HO-2 Broad",
+     "x": 27,
+     "y": 13,
+     "size": 4.6,
+     "bold": true,
+     "at": 1,
+     "cue": "Broad"
+    },
+    {
+     "id": "h2",
+     "p": "house",
+     "x": 16,
+     "y": 34,
+     "h": 18,
+     "label": "A and B",
+     "lsize": 3.6,
+     "at": 1,
+     "cue": "house"
+    },
+    {
+     "id": "s2",
+     "p": "sofa",
+     "x": 39,
+     "y": 38,
+     "h": 9,
+     "label": "C",
+     "lsize": 3.6,
+     "at": 1,
+     "cue": "belongings"
+    },
+    {
+     "p": "clipboard",
+     "x": 16,
+     "y": 20,
+     "h": 8,
+     "at": 1,
+     "cue": "named"
+    },
+    {
+     "p": "clipboard",
+     "x": 39,
+     "y": 28,
+     "h": 8,
+     "at": 1,
+     "cue": "named"
+    },
+    {
+     "p": "label",
+     "text": "HO-3 Special",
+     "x": 80,
+     "y": 13,
+     "size": 4.6,
+     "bold": true,
+     "at": 2,
+     "cue": "Special"
+    },
+    {
+     "id": "h3",
+     "p": "house",
+     "x": 69,
+     "y": 34,
+     "h": 18,
+     "label": "A and B",
+     "lsize": 3.6,
+     "at": 2,
+     "cue": "house"
+    },
+    {
+     "id": "s3",
+     "p": "sofa",
+     "x": 92,
+     "y": 38,
+     "h": 9,
+     "label": "C",
+     "lsize": 3.6,
+     "at": 2,
+     "cue": "Belongings"
+    },
+    {
+     "p": "shield",
+     "x": 69,
+     "y": 20,
+     "h": 8,
+     "at": 2,
+     "cue": "open"
+    },
+    {
+     "p": "clipboard",
+     "x": 92,
+     "y": 28,
+     "h": 8,
+     "at": 2,
+     "cue": "named"
+    },
+    {
+     "p": "label",
+     "text": "HO-5 Comprehensive",
+     "x": 133,
+     "y": 13,
+     "size": 4.6,
+     "bold": true,
+     "at": 3,
+     "cue": "Comprehensive"
+    },
+    {
+     "id": "h5",
+     "p": "house",
+     "x": 122,
+     "y": 34,
+     "h": 18,
+     "label": "A and B",
+     "lsize": 3.6,
+     "at": 3
+    },
+    {
+     "id": "s5",
+     "p": "sofa",
+     "x": 145,
+     "y": 38,
+     "h": 9,
+     "label": "C",
+     "lsize": 3.6,
+     "at": 3
+    },
+    {
+     "p": "shield",
+     "x": 122,
+     "y": 20,
+     "h": 8,
+     "at": 3,
+     "cue": "open"
+    },
+    {
+     "p": "shield",
+     "x": 145,
+     "y": 28,
+     "h": 8,
+     "at": 3,
+     "cue": "open"
+    },
+    {
+     "p": "label",
+     "text": "Open on: none",
+     "x": 27,
+     "y": 56,
+     "size": 4.2,
+     "bold": true,
+     "color": "red",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Open on: A and B",
+     "x": 80,
+     "y": 56,
+     "size": 4.2,
+     "bold": true,
+     "color": "orange",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Open on: A, B and C",
+     "x": 133,
+     "y": 56,
+     "size": 4.2,
+     "bold": true,
+     "color": "green",
+     "at": 3
+    }
+   ],
+   "beats": [
+    {
+     "text": "Owners living in their 1 to 4 family home, like the Millers, start with three forms.",
+     "say": "Owners living in their one to four family home, like the Millers, start with three forms."
+    },
+    {
+     "text": "HO-2, the Broad Form: 16 named perils on the house, other structures and belongings.",
+     "say": "H O two, the Broad Form: sixteen named perils on the house, other structures and belongings."
+    },
+    {
+     "text": "HO-3, the Special Form: open perils on the house and other structures. Belongings get those same 16 named perils, including theft.",
+     "say": "H O three, the Special Form: open perils on the house and other structures. Belongings get those same sixteen named perils, including theft."
+    },
+    {
+     "text": "HO-5, the Comprehensive Form: open perils on all three.",
+     "say": "H O five, the Comprehensive Form: open perils on all three."
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "HO-2, HO-3 or HO-5?",
+   "src": "ISO HO 00 02 10 00 and HO 00 05 10 00 (2000), HO 00 03 05 11, Sec. I Perils; cp_personal-10 drills; question prop-gap-09",
+   "options": [
+    "HO-2",
+    "HO-3",
+    "HO-5"
+   ],
+   "cards": [
+    {
+     "text": "Sam spills a can of paint on the hardwood floor. It isn't a named peril, so this form won't pay for the floor.",
+     "answer": 0,
+     "why": "Of these three forms, only HO-2 covers the house for named perils. HO-3 and HO-5 cover the house on open perils.",
+     "draw": [
+      {
+       "p": "icon",
+       "name": "paint-bucket",
+       "x": 34,
+       "y": 30,
+       "h": 24,
+       "color": "purple"
+      },
+      {
+       "p": "person",
+       "x": 70,
+       "y": 30,
+       "h": 42,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Jen wants the house, the shed and everything inside covered for any direct physical loss not excluded.",
+     "answer": 2,
+     "why": "HO-5 is open perils on Coverages A, B and C.",
+     "draw": [
+      {
+       "p": "house",
+       "x": 24,
+       "y": 32,
+       "h": 28
+      },
+      {
+       "p": "shed",
+       "x": 52,
+       "y": 38,
+       "h": 16
+      },
+      {
+       "p": "sofa",
+       "x": 80,
+       "y": 40,
+       "h": 12
+      },
+      {
+       "p": "shield",
+       "x": 24,
+       "y": 12,
+       "h": 9,
+       "over": true
+      },
+      {
+       "p": "shield",
+       "x": 52,
+       "y": 26,
+       "h": 9,
+       "over": true
+      },
+      {
+       "p": "shield",
+       "x": 80,
+       "y": 30,
+       "h": 9,
+       "over": true
+      }
+     ]
+    },
+    {
+     "text": "The house is covered unless excluded. Jen's ring slips off at the lake, no sign of theft: not paid.",
+     "answer": 1,
+     "why": "HO-3: open perils on A and B, but 16 named perils on C. Losing a ring isn't one of them.",
+     "draw": [
+      {
+       "p": "house",
+       "x": 22,
+       "y": 32,
+       "h": 26
+      },
+      {
+       "p": "shield",
+       "x": 22,
+       "y": 11,
+       "h": 9,
+       "over": true
+      },
+      {
+       "p": "lake",
+       "x": 70,
+       "y": 38,
+       "h": 20
+      },
+      {
+       "p": "diamondring",
+       "x": 70,
+       "y": 20,
+       "h": 11,
+       "over": true
+      },
+      {
+       "p": "cross",
+       "x": 88,
+       "y": 12,
+       "h": 8
+      }
+     ]
+    },
+    {
+     "text": "The weight of ice and snow cracks the roof. It's paid only because that peril is on the house's list of 16.",
+     "answer": 0,
+     "why": "Of these three forms, only HO-2 names its perils for the house. Weight of ice, snow or sleet is one of its 16.",
+     "draw": [
+      {
+       "id": "h",
+       "p": "house",
+       "x": 36,
+       "y": 32,
+       "h": 30
+      },
+      {
+       "p": "ice",
+       "x": 36,
+       "y": 35.3,
+       "w": 31,
+       "over": true,
+       "opt": {
+        "n": 7
+       }
+      },
+      {
+       "p": "line",
+       "from": [
+        36,
+        21
+       ],
+       "to": [
+        33,
+        25
+       ],
+       "color": "ink",
+       "over": true
+      },
+      {
+       "p": "line",
+       "from": [
+        33,
+        25
+       ],
+       "to": [
+        37,
+        27.5
+       ],
+       "color": "ink",
+       "over": true
+      },
+      {
+       "p": "line",
+       "from": [
+        37,
+        27.5
+       ],
+       "to": [
+        34,
+        31
+       ],
+       "color": "ink",
+       "over": true
+      },
+      {
+       "p": "crash",
+       "x": 36,
+       "y": 10.5,
+       "h": 11,
+       "opt": {
+        "text": "CRACK!"
+       },
+       "over": true
+      },
+      {
+       "p": "snow",
+       "x": 14,
+       "y": 12,
+       "h": 6,
+       "over": true
+      },
+      {
+       "p": "snow",
+       "x": 58,
+       "y": 10,
+       "h": 6,
+       "over": true
+      },
+      {
+       "p": "clipboard",
+       "x": 80,
+       "y": 28,
+       "h": 22
+      }
+     ]
+    },
+    {
+     "text": "A diamond ring slips off at the lake and is lost. No theft, yet this form can cover it.",
+     "answer": 2,
+     "why": "HO-5: open perils on belongings, so a lost ring can be covered, up to its jewelry limit (2000 form). Losing isn't named in HO-2 or HO-3.",
+     "draw": [
+      {
+       "p": "lake",
+       "x": 50,
+       "y": 34,
+       "h": 26
+      },
+      {
+       "p": "diamondring",
+       "x": 50,
+       "y": 13,
+       "h": 14,
+       "over": true
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn. Count the open coverages: HO-2, HO-3 or HO-5?",
+     "say": "Your turn. Count the open coverages: H O two, H O three or H O five?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "HO-2: all named. HO-3: open house, named belongings. HO-5: all open.",
+     "say": "H O two: all named. H O three: open house, named belongings. H O five: all open."
     }
    ]
   },
   {
    "type": "hook",
-   "title": "A number peg for the forms",
-   "src": "ISO HO 00 04 05 11; HO 00 06 05 11; HO 00 08 10 00; AIC 43; adapted from memory hook mn_prop-13",
-   "hook": "HO-2 Broad: a named list. HO-3 Special: the house is open. HO-4: renters. HO-5: high-five, open on everything. HO-6: the condo unit. HO-8: older homes.",
+   "title": "A number for every form",
+   "src": "Adapted from memory hook mn_prop-13; AIC 43; ISO HO 00 04 05 11; HO 00 06 05 11, Cov. A; HO 00 08 10 00, Peril 9",
+   "hook": "2: Broad, a named list. 3: Special, the house is open. 4: the four walls aren't yours. 5: high five, all open. 6: the condo unit. 8: eight-track, older homes.",
    "items": [
     "HO-4, tenants: Coverages C and D only, no A or B",
-    "HO-6, condo unit owners and co-op shareholders: A covers fixtures and improvements",
-    "HO-8 (2000 edition): 10 named perils; theft on premises only, up to $1,000"
+    "HO-6, condo owners and co-op shareholders: A covers alterations, appliances, fixtures, improvements",
+    "HO-8 (2000 edition): older homes; 10 named perils; theft on premises only, up to $1,000 per loss"
+   ],
+   "draw": [
+    {
+     "id": "condo",
+     "p": "condo",
+     "x": 20,
+     "y": 17,
+     "h": 18,
+     "at": 0,
+     "cue": "condo"
+    },
+    {
+     "id": "gma",
+     "p": "person",
+     "x": 50,
+     "y": 21,
+     "h": 24,
+     "opt": {
+      "who": "grandma",
+      "pose": "wave",
+      "mood": "happy"
+     },
+     "at": 1,
+     "cue": "grandma"
+    },
+    {
+     "p": "label",
+     "text": "HO-6",
+     "x": 68,
+     "y": 12,
+     "size": 5.5,
+     "bold": true,
+     "color": "purple",
+     "at": 1,
+     "cue": "HO-6"
+    },
+    {
+     "id": "old",
+     "p": "house",
+     "x": 20,
+     "y": 51,
+     "h": 20,
+     "opt": {
+      "roof": "gray",
+      "wall": "brown"
+     },
+     "at": 0,
+     "cue": "older"
+    },
+    {
+     "id": "built",
+     "p": "sign",
+     "x": 46,
+     "y": 50,
+     "h": 20,
+     "opt": {
+      "text": "BUILT\n1890",
+      "tcolor": "brown"
+     },
+     "at": 2,
+     "cue": "older"
+    },
+    {
+     "p": "label",
+     "text": "HO-8",
+     "x": 68,
+     "y": 46,
+     "size": 5.5,
+     "bold": true,
+     "color": "brown",
+     "at": 2,
+     "cue": "HO-8"
+    },
+    {
+     "id": "tape",
+     "p": "icon",
+     "name": "cassette-tape",
+     "x": 68,
+     "y": 58,
+     "h": 8,
+     "color": "brown",
+     "at": 0,
+     "cue": "eight-track"
+    }
    ],
    "beats": [
     {
-     "text": "A number peg: HO-2 Broad, a named list. HO-3 Special, the house is open. HO-4, renters. HO-5, high-five, open on everything. HO-6, the condo unit. HO-8, older homes.",
-     "say": "A number peg: H O two Broad, a named list. H O three Special, the house is open. H O four, renters. H O five, high five, open on everything. H O six, the condo unit. H O eight, older homes.",
-     "show": 0
-    },
-    {
-     "text": "HO-4 is for tenants: Coverages C and D only, no A or B.",
-     "say": "H O four is for tenants: Coverages C and D only, no A or B.",
+     "text": "Number peg: 2 Broad, a named list. 3 Special, the house is open. 4, renters: the four walls aren't yours. 5, high five: open on everything. 6, the condo unit. 8, the eight-track: older homes.",
+     "say": "Number peg: two Broad, a named list. Three Special, the house is open. Four, renters: the four walls aren't yours. Five, high five: open on everything. Six, the condo unit. Eight, the eight track: older homes.",
      "show": 1
     },
     {
-     "text": "HO-6 is for condo unit owners and co-op shareholders. Its Coverage A isn't the whole building: it covers the unit's alterations, appliances, fixtures and improvements.",
-     "say": "H O six is for condo unit owners and co-op shareholders. Its Coverage A isn't the whole building: it covers the unit's alterations, appliances, fixtures and improvements.",
+     "text": "Rosa's grandma owns a condo in Traverse City. Her HO-6 covers her unit's fixtures and improvements, not the whole building.",
+     "say": "Rosa's grandma owns a condo in Traverse City. Her H O six covers her unit's fixtures and improvements, not the whole building.",
      "show": 2
     },
     {
-     "text": "HO-8, in the 2000 edition, fits older homes whose replacement cost far exceeds market value. Theft is covered only on premises, up to $1,000 per loss.",
-     "say": "H O eight, in the two thousand edition, fits older homes whose replacement cost far exceeds market value. Theft is covered only on premises, up to one thousand dollars per loss.",
+     "text": "HO-8, from the 2000 edition, fits older homes whose replacement cost far exceeds market value. Theft: on the premises only, up to $1,000 per loss.",
+     "say": "H O eight, from the two thousand edition, fits older homes whose replacement cost far exceeds market value. Theft: on the premises only, up to one thousand dollars per loss.",
      "show": 3
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "Which homeowners form insures the dwelling on an open-perils basis but personal property only for named perils?",
-   "choices": [
-    "HO-2 Broad Form",
-    "HO-3 Special Form",
-    "HO-5 Comprehensive Form"
+   "type": "choice",
+   "title": "Dana's call: a form for Rosa",
+   "src": "AIC 43 (ISO 2011 HO program eligibility); ISO HO 00 04 05 11, Sec. I; question prop-gap-10",
+   "ask": "Which form should Dana write?",
+   "draw": [
+    {
+     "id": "home",
+     "p": "house",
+     "x": 22,
+     "y": 30,
+     "h": 34
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 52,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "rosa",
+      "pose": "point",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "I rent. Just cover my stuff!",
+     "x": 76,
+     "y": 8,
+     "w": 32,
+     "to": "rosa",
+     "at": 1
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 102,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "think"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "HO-3? HO-4? HO-6?",
+     "x": 137,
+     "y": 8,
+     "w": 36,
+     "to": "dana",
+     "think": true
+    }
    ],
-   "answer": 1,
-   "why": "HO-3 is open perils on Coverages A and B and named perils on Coverage C. HO-2 is named perils on all three; HO-5 is open perils on all three.",
    "beats": [
     {
-     "text": "Quick check. Which form covers the dwelling on open perils, but personal property only for named perils? Pick an answer.",
-     "say": "Quick check. Which form covers the dwelling on open perils, but personal property only for named perils? Pick an answer."
+     "text": "Next at Dana's desk: Rosa, the Millers' tenant in Lansing.",
+     "say": "Next at Dana's desk: Rosa, the Millers' tenant in Lansing."
+    },
+    {
+     "text": "Just cover my stuff! Which form, Dana?",
+     "say": "Just cover my stuff! Which form, Dana?",
+     "voice": "rosa"
+    }
+   ],
+   "options": [
+    {
+     "label": "An HO-3, like a homeowner's",
+     "ok": false,
+     "fail": "HO-2, HO-3, HO-5 and HO-8 may be issued only to the owner-occupant of a 1 to 4 family dwelling. Rosa rents.",
+     "beats": [
+      {
+       "text": "I don't own this house!",
+       "say": "I don't own this house!",
+       "voice": "rosa"
+      },
+      {
+       "text": "Not eligible: HO-3 needs an owner who lives there.",
+       "say": "Not eligible: H O three needs an owner who lives there."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 28,
+       "y": 24,
+       "h": 34
+      },
+      {
+       "p": "stamp",
+       "text": "Not eligible",
+       "x": 28,
+       "y": 49,
+       "size": 6,
+       "color": "red",
+       "rot": -5
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 84,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "I don't own this house!",
+       "x": 108,
+       "y": 9,
+       "w": 30,
+       "to": "rosa"
+      }
+     ]
+    },
+    {
+     "label": "An HO-6, like Grandma's",
+     "ok": false,
+     "fail": "HO-6 is for condo unit owners and co-op shareholders, not tenants.",
+     "beats": [
+      {
+       "text": "HO-6 is for condo unit owners and co-op shareholders, like Grandma. Rosa just rents.",
+       "say": "H O six is for condo unit owners and co-op shareholders, like Grandma. Rosa just rents."
+      }
+     ],
+     "draw": [
+      {
+       "id": "condo",
+       "p": "condo",
+       "x": 30,
+       "y": 22,
+       "h": 28
+      },
+      {
+       "p": "label",
+       "text": "For condo unit owners and co-op shareholders",
+       "x": 30,
+       "y": 46,
+       "size": 4,
+       "w": 54
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 96,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "think",
+        "mood": "worried"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "I don't own a unit. I rent!",
+       "x": 72,
+       "y": 8,
+       "w": 28,
+       "to": "rosa"
+      }
+     ]
+    },
+    {
+     "label": "An HO-4",
+     "ok": true,
+     "win": "HO-4 is for tenants: Coverage C for belongings, Coverage D for loss of use, and no Coverage A or B.",
+     "beats": [
+      {
+       "text": "HO-4 it is: Coverage C for your belongings, and D for loss of use.",
+       "say": "H O four it is: Coverage C for your belongings, and D for loss of use.",
+       "voice": "dana"
+      }
+     ],
+     "draw": [
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 22,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "point",
+        "mood": "laugh"
+       }
+      },
+      {
+       "id": "tv",
+       "p": "tv",
+       "x": 46,
+       "y": 38,
+       "h": 16
+      },
+      {
+       "id": "bike",
+       "p": "bicycle",
+       "x": 72,
+       "y": 39,
+       "h": 16
+      },
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 104,
+       "y": 24,
+       "h": 24,
+       "opt": {
+        "title": "HO-4",
+        "tsize": 8
+       }
+      },
+      {
+       "p": "label",
+       "text": "C and D only",
+       "x": 104,
+       "y": 45,
+       "size": 5,
+       "color": "green",
+       "bold": true
+      },
+      {
+       "p": "stamp",
+       "text": "Issued",
+       "x": 140,
+       "y": 26,
+       "size": 6,
+       "color": "green",
+       "rot": -6
+      }
+     ]
     }
    ],
    "reveal": [
     {
-     "text": "HO-3, the Special Form: the house is open perils, your belongings named perils.",
-     "say": "H O three, the Special Form: the house is open perils, your belongings named perils."
+     "text": "HO-4: C and D only. The four walls aren't hers.",
+     "say": "H O four: C and D only. The four walls aren't hers."
     }
    ]
   },
   {
-   "type": "table",
-   "title": "Section I: Coverages A to D (2011 HO-3)",
-   "src": "ISO HO 00 03 05 11, Sec. I Coverages A–D",
-   "columns": [
-    "Coverage",
-    "Covers",
-    "Key rule"
-   ],
-   "items": [
-    [
-     "A Dwelling",
-     "House and attached structures",
-     "Land is not covered"
-    ],
-    [
-     "B Other Structures",
-     "Set apart by clear space",
-     "10% of A; does not reduce A"
-    ],
-    [
-     "C Personal Property",
-     "Belongings, anywhere in the world",
-     "Other residence: 10% of C or $1,000"
-    ],
-    [
-     "D Loss of Use",
-     "Living expense and fair rental value",
-     "Civil authority: up to 2 weeks"
-    ]
+   "type": "sketch",
+   "title": "The Millers' 2011 HO-3, letter by letter",
+   "src": "ISO HO 00 03 05 11, Sec. I Coverages A, B, C.1–C.2; question prop-gap-12, prop-gap-13; memory hook mn_prop-14",
+   "draw": [
+    {
+     "p": "line",
+     "from": [
+      4,
+      51
+     ],
+     "to": [
+      112,
+      51
+     ],
+     "color": "brown"
+    },
+    {
+     "id": "house",
+     "p": "house",
+     "x": 30,
+     "y": 34,
+     "h": 34,
+     "opt": {
+      "garage": true
+     }
+    },
+    {
+     "p": "label",
+     "text": "A: the house, attached structures, repair materials on site",
+     "x": 36,
+     "y": 9,
+     "size": 4,
+     "w": 60,
+     "bold": true,
+     "color": "blue",
+     "cue": "house"
+    },
+    {
+     "id": "gap",
+     "p": "arrow",
+     "from": [
+      60,
+      47
+     ],
+     "to": [
+      79,
+      47
+     ],
+     "head": "both",
+     "bend": 0,
+     "color": "gray",
+     "at": 1,
+     "cue": "clear"
+    },
+    {
+     "p": "label",
+     "text": "clear space",
+     "x": 70,
+     "y": 43,
+     "size": 3.4,
+     "color": "gray",
+     "at": 1,
+     "cue": "clear"
+    },
+    {
+     "id": "shed",
+     "p": "shed",
+     "x": 92,
+     "y": 42,
+     "h": 18,
+     "at": 1,
+     "cue": "shed"
+    },
+    {
+     "p": "label",
+     "text": "B: set apart, 10% of A",
+     "x": 92,
+     "y": 27,
+     "size": 4,
+     "bold": true,
+     "color": "purple",
+     "at": 1,
+     "cue": "shed"
+    },
+    {
+     "id": "globe",
+     "p": "globe",
+     "x": 127,
+     "y": 24,
+     "h": 13,
+     "at": 2,
+     "cue": "anywhere"
+    },
+    {
+     "id": "bike",
+     "p": "bicycle",
+     "x": 147,
+     "y": 26,
+     "h": 9,
+     "at": 2,
+     "cue": "bike"
+    },
+    {
+     "p": "label",
+     "text": "C: belongings, anywhere in the world",
+     "x": 136,
+     "y": 9,
+     "size": 4,
+     "w": 44,
+     "bold": true,
+     "color": "green",
+     "at": 2,
+     "cue": "belongings"
+    },
+    {
+     "id": "store",
+     "p": "warehouse",
+     "x": 136,
+     "y": 45,
+     "h": 10,
+     "at": 3,
+     "cue": "self-storage",
+     "opt": {
+      "name": "STORAGE"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Other home or self-storage: 10% of C or $1,000, whichever is greater",
+     "x": 136,
+     "y": 58,
+     "size": 3.5,
+     "w": 46,
+     "at": 3,
+     "cue": "self-storage"
+    },
+    {
+     "p": "label",
+     "text": "Land: not covered",
+     "x": 34,
+     "y": 58,
+     "size": 4.2,
+     "bold": true,
+     "color": "red",
+     "at": 4,
+     "cue": "land"
+    }
    ],
    "beats": [
     {
-     "text": "Coverage A is the dwelling and structures attached to it, like an attached garage. The land is not covered.",
-     "say": "Coverage A is the dwelling and structures attached to it, like an attached garage. The land is not covered.",
-     "show": 1
+     "text": "The Millers get a 2011 HO-3. Coverage A: the house, attached structures like their garage, and repair materials on site.",
+     "say": "The Millers get a twenty eleven H O three. Coverage A: the house, attached structures like their garage, and repair materials on site.",
+     "hl": "house"
     },
     {
-     "text": "Coverage B is other structures set apart by clear space, like a detached shed. It's 10% of Coverage A, and using it does not reduce A.",
-     "say": "Coverage B is other structures set apart by clear space, like a detached shed. It's ten percent of Coverage A, and using it does not reduce A.",
-     "show": 2
+     "text": "Coverage B: other structures, set apart by clear space, like the shed. 10% of A, and using it doesn't reduce A.",
+     "say": "Coverage B: other structures, set apart by clear space, like the shed. Ten percent of A, and using it doesn't reduce A.",
+     "hl": "shed"
     },
     {
-     "text": "Coverage C is personal property, anywhere in the world. But property usually kept at another residence, or in self-storage, is limited to 10% of C or $1,000, whichever is greater.",
-     "say": "Coverage C is personal property, anywhere in the world. But property usually kept at another residence, or in self-storage, is limited to ten percent of C or one thousand dollars, whichever is greater.",
-     "show": 3
+     "text": "Coverage C: their belongings, anywhere in the world. Jen's bike stolen outside her office? Covered.",
+     "say": "Coverage C: their belongings, anywhere in the world. Jen's bike stolen outside her office? Covered.",
+     "hl": "bike"
     },
     {
-     "text": "Coverage D, Loss of Use, is one limit for additional living expense and fair rental value. If a civil authority prohibits use of the home because of covered damage next door, it pays up to 2 weeks.",
-     "say": "Coverage D, Loss of Use, is one limit for additional living expense and fair rental value. If a civil authority prohibits use of the home because of covered damage next door, it pays up to two weeks.",
-     "show": 4
+     "text": "Things usually kept at another home of theirs, or in self-storage: 10% of C or $1,000, whichever is greater.",
+     "say": "Things usually kept at another home of theirs, or in self-storage: ten percent of C or one thousand dollars, whichever is greater.",
+     "hl": "store"
+    },
+    {
+     "text": "The land itself? Not covered.",
+     "say": "The land itself? Not covered."
     }
    ]
   },
   {
-   "type": "scenario",
-   "title": "Belongings at the cottage",
-   "src": "ISO HO 00 03 05 11, Sec. I Coverage C.1–C.2",
-   "icon": "tree-pine",
-   "story": "Maya has a 2011 HO-3 with a $60,000 Coverage C limit. She keeps belongings with an actual cash value of $9,000 at her own cottage up north, a second residence. A covered fire destroys them. How much is paid, ignoring the deductible?",
-   "items": [
+   "type": "sort",
+   "title": "Which coverage pays?",
+   "src": "ISO HO 00 03 05 11, Sec. I Coverages A.1, B.1, C.1; Perils B.7, B.9; questions prop-gap-12, prop-gap-13",
+   "bins": [
     {
-     "label": "Fire is a named peril",
-     "detail": "Coverage C covers her property anywhere in the world"
+     "name": "Coverage A"
     },
     {
-     "label": "But it's usually kept at another residence",
-     "detail": "Limit: 10% of C or $1,000, whichever is greater"
+     "name": "Coverage B"
     },
     {
-     "label": "Do the math",
-     "detail": "10% of $60,000 is $6,000, which beats $1,000"
+     "name": "Coverage C"
     }
    ],
-   "answer": "$6,000, not the full $9,000.",
-   "beats": [
+   "items": [
     {
-     "text": "Maya's Coverage C limit is $60,000. She keeps $9,000 of belongings at her own cottage up north, and a fire destroys them. What does her HO-3 pay?",
-     "say": "Maya's Coverage C limit is sixty thousand dollars. She keeps nine thousand dollars of belongings at her own cottage up north, and a fire destroys them. What does her H O three pay?",
-     "show": 0
+     "text": "Fire chars the attached garage",
+     "bin": 0,
+     "why": "A structure attached to the house is part of the dwelling: Coverage A."
     },
     {
-     "text": "Fire is a covered peril, and Coverage C goes anywhere. But property usually kept at another residence is limited to 10% of C or $1,000, whichever is greater.",
-     "say": "Fire is a covered peril, and Coverage C goes anywhere. But property usually kept at another residence is limited to ten percent of C or one thousand dollars, whichever is greater.",
+     "text": "Fire burns the backyard tool shed",
+     "bin": 1,
+     "why": "Set apart from the house by clear space: an other structure, Coverage B."
+    },
+    {
+     "text": "A burglar takes the Millers' TV",
+     "bin": 2,
+     "why": "The TV is a belonging: Coverage C. Theft is one of its named perils."
+    },
+    {
+     "text": "Lumber stacked by the house for porch repairs burns",
+     "bin": 0,
+     "why": "Materials and supplies on or next to the premises, for repairing the dwelling, are Coverage A."
+    },
+    {
+     "text": "Fire burns a detached garage",
+     "bin": 1,
+     "why": "A garage set apart by clear space is an other structure: Coverage B."
+    },
+    {
+     "text": "Smoke from a kitchen fire stains the couch",
+     "bin": 2,
+     "why": "The couch is a belonging: Coverage C. Smoke is one of its named perils."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: which coverage pays?",
+     "say": "Your turn: which coverage pays?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Attached is A, set apart is B, belongings are C.",
+     "say": "Attached is A, set apart is B, belongings are C."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Forced out of the house: Coverage D",
+   "src": "ISO HO 00 03 05 11, Sec. I Coverage D.1–3; confusion pair cp_personal-07; question prop-044",
+   "kind": "Coverage D",
+   "term": "Loss of use",
+   "plain": "Pays the extra cost of living elsewhere after a covered loss, plus the fair rental value of any part you rent out.",
+   "example": "A covered fire guts the Millers' kitchen. While it's rebuilt, their hotel and restaurant bills above their normal costs go to D.",
+   "exam": "One limit for all of D. Civil authority bars you from home over covered damage next door: up to 2 weeks.",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 16,
+     "y": 22,
+     "h": 22,
+     "out": 2
+    },
+    {
+     "id": "fire",
+     "p": "fire",
+     "x": 12,
+     "y": 25,
+     "h": 9,
+     "over": true,
+     "loop": "flicker",
+     "cue": "covered",
+     "out": 2
+    },
+    {
+     "id": "hotel",
+     "p": "office",
+     "x": 62,
+     "y": 25,
+     "h": 32,
+     "opt": {
+      "name": "HOTEL"
+     },
+     "at": 1,
+     "cue": "hotel",
+     "out": 2
+    },
+    {
+     "p": "arrow",
+     "from": "house",
+     "to": "hotel",
+     "bend": -0.25,
+     "color": "gray",
+     "at": 1,
+     "cue": "hotel",
+     "out": 2
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 18,
+     "y": 53,
+     "h": 24,
+     "opt": {
+      "who": "sam",
+      "pose": "hold",
+      "hold": "receipt",
+      "mood": "worried"
+     },
+     "at": 1,
+     "cue": "restaurant",
+     "out": 2
+    },
+    {
+     "id": "meal",
+     "p": "icon",
+     "name": "utensils",
+     "x": 36,
+     "y": 55,
+     "h": 9,
+     "at": 1,
+     "cue": "restaurant",
+     "out": 2
+    },
+    {
+     "id": "nb",
+     "p": "house",
+     "x": 15,
+     "y": 22,
+     "h": 20,
+     "opt": {
+      "roof": "gray",
+      "wall": "brown"
+     },
+     "at": 2,
+     "cue": "fire"
+    },
+    {
+     "id": "nbfire",
+     "p": "fire",
+     "x": 11,
+     "y": 16,
+     "h": 12,
+     "over": true,
+     "loop": "flicker",
+     "at": 2,
+     "cue": "fire"
+    },
+    {
+     "p": "label",
+     "text": "Next door",
+     "x": 15,
+     "y": 36,
+     "size": 3.6,
+     "color": "gray",
+     "at": 2,
+     "cue": "next"
+    },
+    {
+     "id": "home2",
+     "p": "house",
+     "x": 51,
+     "y": 22,
+     "h": 20,
+     "at": 2,
+     "cue": "Millers"
+    },
+    {
+     "id": "keep",
+     "p": "label",
+     "text": "KEEP OUT",
+     "x": 51,
+     "y": 37,
+     "size": 4.4,
+     "bold": true,
+     "color": "red",
+     "box": true,
+     "at": 2,
+     "cue": "bars"
+    },
+    {
+     "id": "reg",
+     "p": "person",
+     "x": 34,
+     "y": 50,
+     "h": 24,
+     "opt": {
+      "who": "regulator",
+      "pose": "stop"
+     },
+     "at": 2,
+     "cue": "city"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 62,
+     "y": 55,
+     "h": 13,
+     "opt": {
+      "n": "2",
+      "label": "WEEKS"
+     },
+     "at": 2,
+     "cue": "weeks",
+     "label": "Civil authority: 2 weeks",
+     "lsize": 3.5,
+     "lw": 30
+    }
+   ],
+   "beats": [
+    {
+     "text": "Coverage D, loss of use. Say a covered fire wrecks the Millers' kitchen.",
+     "say": "Coverage D, loss of use. Say a covered fire wrecks the Millers' kitchen.",
      "show": 2
     },
     {
-     "text": "10% of $60,000 is $6,000. That beats $1,000, so the policy pays $6,000.",
-     "say": "Ten percent of sixty thousand dollars is six thousand dollars. That beats one thousand dollars, so the policy pays six thousand dollars.",
+     "text": "D pays additional living expense: hotel and restaurant bills above normal. The same limit covers fair rental value, if part is rented out.",
+     "say": "D pays additional living expense: hotel and restaurant bills above normal. The same limit covers fair rental value, if part is rented out.",
      "show": 3,
-     "answer": true
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "Coverage C special limits (2011 HO-3)",
-   "src": "ISO HO 00 03 05 11, Sec. I Coverage C.3.a–i",
-   "columns": [
-    "Limit",
-    "Property"
-   ],
-   "items": [
-    [
-     "$200",
-     "Money, bank notes, coins"
-    ],
-    [
-     "$1,500",
-     "Securities, deeds, passports, tickets"
-    ],
-    [
-     "$1,500",
-     "Watercraft, with trailers and motors"
-    ],
-    [
-     "$1,500",
-     "Theft of jewelry, watches, furs"
-    ],
-    [
-     "$2,500",
-     "Theft of firearms; theft of silverware"
-    ],
-    [
-     "$2,500",
-     "Business property on premises ($1,500 away)"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "Some property has a special limit per loss. Money and coins: $200. Securities, deeds and passports: $1,500. Watercraft, with trailers and motors: $1,500.",
-     "say": "Some property has a special limit per loss. Money and coins: two hundred dollars. Securities, deeds and passports: one thousand five hundred dollars. Watercraft, with trailers and motors: one thousand five hundred dollars.",
-     "show": 3
+     "hl": "hotel"
     },
     {
-     "text": "Now the trap. Jewelry, watches and furs: $1,500, but only for theft. Firearms and silverware: $2,500 each, also only for theft.",
-     "say": "Now the trap. Jewelry, watches and furs: one thousand five hundred dollars, but only for theft. Firearms and silverware: two thousand five hundred dollars each, also only for theft.",
-     "show": 5,
-     "hl": 3
-    },
-    {
-     "text": "Business property: $2,500 on premises, $1,500 away. These limits don't increase Coverage C.",
-     "say": "Business property: two thousand five hundred dollars on premises, one thousand five hundred dollars away. These limits don't increase Coverage C.",
-     "show": 6
+     "text": "Say a covered fire next door, and the city bars the Millers from their home. Civil authority: up to 2 weeks.",
+     "say": "Say a covered fire next door, and the city bars the Millers from their home. Civil authority: up to two weeks.",
+     "show": 4,
+     "hl": "cal"
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "Under the 2011 HO-3, a fire destroys jewelry with an actual cash value of $4,000. Coverage C is $80,000. Ignoring the deductible, the policy pays:",
+   "q": "The Millers' 2011 HO-3 has $60,000 of Coverage C. Sam keeps $9,000 of gear (its actual cash value) in a self-storage unit. A covered fire destroys it. Ignoring the deductible, the policy pays:",
+   "choices": [
+    "$1,000",
+    "$6,000",
+    "$9,000"
+   ],
+   "answer": 1,
+   "why": "Property in self-storage, or usually kept at another residence, is limited to 10% of C or $1,000, whichever is greater. 10% of $60,000 is $6,000.",
+   "draw": [
+    {
+     "id": "unit",
+     "p": "warehouse",
+     "x": 30,
+     "y": 25,
+     "h": 20,
+     "opt": {
+      "name": "STORAGE"
+     }
+    },
+    {
+     "p": "fire",
+     "x": 22,
+     "y": 15,
+     "h": 12,
+     "over": true,
+     "loop": "flicker"
+    },
+    {
+     "p": "fire",
+     "x": 40,
+     "y": 17,
+     "h": 9,
+     "over": true,
+     "loop": "flicker"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 66,
+     "y": 40,
+     "h": 26,
+     "opt": {
+      "who": "sam",
+      "mood": "shocked",
+      "pose": "shrug"
+     }
+    },
+    {
+     "p": "note",
+     "text": "Coverage C: $60,000. Gear in storage: $9,000",
+     "x": 28,
+     "y": 52,
+     "w": 36
+    }
+   ],
+   "beats": [
+    {
+     "text": "Quick check: Sam's $9,000 of gear burns in a storage fire. What's paid?",
+     "say": "Quick check: Sam's nine thousand dollars of gear burns in a storage fire. What's paid?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$6,000: self-storage gets 10% of C or $1,000, whichever is greater.",
+     "say": "Six thousand dollars: self-storage gets ten percent of C or one thousand dollars, whichever is greater."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Special limits: a walk through the house",
+   "src": "ISO HO 00 03 05 11, Sec. I Coverage C.3.a–i; adapted from memory hook mn_prop-16",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Special limits, per loss (2011 HO-3)",
+     "x": 80,
+     "y": 4,
+     "size": 4.2,
+     "bold": true,
+     "bg": "yellow"
+    },
+    {
+     "id": "tour",
+     "p": "house",
+     "x": 66,
+     "y": 40,
+     "h": 36,
+     "opt": {
+      "garage": true
+     },
+     "at": 0,
+     "cue": "tour",
+     "out": 1
+    },
+    {
+     "id": "guide",
+     "p": "person",
+     "opt": {
+      "who": "sam",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "x": 106,
+     "y": 44,
+     "h": 28,
+     "flip": true,
+     "at": 0,
+     "cue": "tour",
+     "out": 1
+    },
+    {
+     "size": 3.4,
+     "color": "gray",
+     "bold": true,
+     "p": "label",
+     "text": "KITCHEN JAR",
+     "x": 16,
+     "y": 10,
+     "at": 1,
+     "cue": "kitchen"
+    },
+    {
+     "id": "jar",
+     "p": "coins",
+     "x": 16,
+     "y": 18,
+     "h": 10,
+     "at": 1,
+     "cue": "kitchen"
+    },
+    {
+     "p": "label",
+     "text": "Cash: $200",
+     "x": 16,
+     "y": 28,
+     "size": 4,
+     "bold": true,
+     "at": 1,
+     "cue": "kitchen"
+    },
+    {
+     "size": 3.4,
+     "color": "gray",
+     "bold": true,
+     "p": "label",
+     "text": "HALL DESK",
+     "x": 52,
+     "y": 10,
+     "at": 1,
+     "cue": "hall"
+    },
+    {
+     "id": "deed",
+     "p": "policy",
+     "x": 47,
+     "y": 18,
+     "h": 12,
+     "opt": {
+      "title": "DEED",
+      "tsize": 7
+     },
+     "at": 1,
+     "cue": "hall"
+    },
+    {
+     "p": "icon",
+     "name": "ticket",
+     "x": 59,
+     "y": 20,
+     "h": 7,
+     "color": "orange",
+     "at": 1,
+     "cue": "hall"
+    },
+    {
+     "p": "label",
+     "text": "Securities, deeds, passports, tickets: $1,500",
+     "x": 52,
+     "y": 29,
+     "size": 3.6,
+     "w": 40,
+     "bold": true,
+     "at": 1,
+     "cue": "hall"
+    },
+    {
+     "size": 3.4,
+     "color": "gray",
+     "bold": true,
+     "p": "label",
+     "text": "GARAGE",
+     "x": 94,
+     "y": 10,
+     "at": 1,
+     "cue": "garage"
+    },
+    {
+     "id": "boat",
+     "p": "boat",
+     "x": 94,
+     "y": 18,
+     "h": 11,
+     "opt": {
+      "water": false
+     },
+     "at": 1,
+     "cue": "garage"
+    },
+    {
+     "p": "label",
+     "text": "Boat, trailer, motor: $1,500",
+     "x": 94,
+     "y": 29,
+     "size": 3.6,
+     "w": 32,
+     "bold": true,
+     "at": 1,
+     "cue": "garage"
+    },
+    {
+     "size": 3.4,
+     "color": "gray",
+     "bold": true,
+     "p": "label",
+     "text": "HOME OFFICE",
+     "x": 137,
+     "y": 10,
+     "at": 3,
+     "cue": "office"
+    },
+    {
+     "id": "office",
+     "p": "laptop",
+     "x": 137,
+     "y": 18,
+     "h": 9,
+     "at": 3,
+     "cue": "office"
+    },
+    {
+     "p": "label",
+     "text": "Business property: $2,500 at home, $1,500 away",
+     "x": 137,
+     "y": 29,
+     "size": 3.6,
+     "w": 40,
+     "bold": true,
+     "at": 3,
+     "cue": "office"
+    },
+    {
+     "p": "box",
+     "x": 80,
+     "y": 51,
+     "w": 152,
+     "hh": 24,
+     "color": "red",
+     "dash": true,
+     "at": 2,
+     "cue": "trap"
+    },
+    {
+     "p": "label",
+     "text": "Caps apply to theft only",
+     "x": 18,
+     "y": 51,
+     "size": 4.2,
+     "w": 22,
+     "bold": true,
+     "color": "red",
+     "at": 2,
+     "cue": "trap"
+    },
+    {
+     "size": 3.4,
+     "color": "gray",
+     "bold": true,
+     "p": "label",
+     "text": "BEDROOM",
+     "x": 54,
+     "y": 42,
+     "at": 2,
+     "cue": "bedroom"
+    },
+    {
+     "id": "jewel",
+     "p": "jewelry",
+     "x": 54,
+     "y": 49,
+     "h": 9,
+     "at": 2,
+     "cue": "bedroom"
+    },
+    {
+     "p": "label",
+     "text": "Jewelry, watches, furs: $1,500",
+     "x": 54,
+     "y": 58,
+     "size": 3.6,
+     "bold": true,
+     "color": "red",
+     "at": 2,
+     "cue": "bedroom"
+    },
+    {
+     "size": 3.4,
+     "color": "gray",
+     "bold": true,
+     "p": "label",
+     "text": "BASEMENT",
+     "x": 96,
+     "y": 42,
+     "at": 2,
+     "cue": "basement"
+    },
+    {
+     "id": "safe",
+     "p": "safe",
+     "x": 96,
+     "y": 49,
+     "h": 9,
+     "at": 2,
+     "cue": "basement"
+    },
+    {
+     "p": "label",
+     "text": "Firearms: $2,500",
+     "x": 96,
+     "y": 58,
+     "size": 3.6,
+     "bold": true,
+     "color": "red",
+     "at": 2,
+     "cue": "basement"
+    },
+    {
+     "size": 3.4,
+     "color": "gray",
+     "bold": true,
+     "p": "label",
+     "text": "DINING ROOM",
+     "x": 134,
+     "y": 42,
+     "at": 2,
+     "cue": "dining-room"
+    },
+    {
+     "id": "silver",
+     "p": "silverware",
+     "x": 134,
+     "y": 49,
+     "h": 9,
+     "at": 2,
+     "cue": "dining-room"
+    },
+    {
+     "p": "label",
+     "text": "Silverware: $2,500",
+     "x": 134,
+     "y": 58,
+     "size": 3.6,
+     "bold": true,
+     "color": "red",
+     "at": 2,
+     "cue": "dining-room"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Under the 2011 HO-3, some belongings get their own cap per loss: special limits. Let's tour the house.",
+     "say": "Under the twenty eleven H O three, some belongings get their own cap per loss: special limits. Let's tour the house."
+    },
+    {
+     "text": "Kitchen cookie jar, cash: $200. Hall desk: securities, deeds, passports and tickets, $1,500. Garage: boat, trailer and motor, same.",
+     "say": "Kitchen cookie jar, cash: two hundred dollars. Hall desk: securities, deeds, passports and tickets, one thousand five hundred dollars. Garage: boat, trailer and motor, same."
+    },
+    {
+     "text": "Now the trap. Bedroom jewelry box: $1,500, but that cap is for theft only. Basement gun safe and dining-room silver: $2,500 each, also theft only.",
+     "say": "Now the trap. Bedroom jewelry box: one thousand five hundred dollars, but that cap is for theft only. Basement gun safe and dining-room silver: two thousand five hundred dollars each, also theft only."
+    },
+    {
+     "text": "Home office: $2,500 of business property at home, $1,500 away. None of these adds to Coverage C.",
+     "say": "Home office: two thousand five hundred dollars of business property at home, one thousand five hundred dollars away. None of these adds to Coverage C."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Sam's call: the Thanksgiving burglary",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils B.9 (theft); Coverage C.3.a, C.3.e; question prop-041",
+   "ask": "What should Sam do?",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 22,
+     "y": 26,
+     "h": 32
+    },
+    {
+     "id": "thief",
+     "p": "person",
+     "x": 100,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "who": "thief",
+      "pose": "run",
+      "mood": "smirk",
+      "hold": "jewelry"
+     },
+     "move": {
+      "to": [
+       116,
+       31
+      ],
+      "at": 0,
+      "cue": "burglar",
+      "dur": 1.4,
+      "sfx": "whoosh"
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 50,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "who": "sam",
+      "pose": "shrug",
+      "mood": "shocked"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 68,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "who": "jen",
+      "mood": "angry"
+     }
+    },
+    {
+     "p": "note",
+     "text": "Stolen: $4,000 necklace and $500 cash. 2011 HO-3, Coverage C: $60,000",
+     "x": 144,
+     "y": 29,
+     "w": 28
+    }
+   ],
+   "beats": [
+    {
+     "text": "Thanksgiving: a burglar breaks in, taking Jen's necklace, worth $4,000, and $500 cash. It's their 2011 HO-3; forget the deductible. What should Sam do?",
+     "say": "Thanksgiving: a burglar breaks in, taking Jen's necklace, worth four thousand dollars, and five hundred dollars cash. It's their twenty eleven H O three; forget the deductible. What should Sam do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "File and expect all $4,500 back",
+     "ok": false,
+     "fail": "Each special limit is the most paid per loss for that kind of property: theft of jewelry $1,500, money $200.",
+     "beats": [
+      {
+       "text": "The check: $1,700. Special limits cap jewelry theft and cash.",
+       "say": "The check: one thousand seven hundred dollars. Special limits cap jewelry theft and cash."
+      }
+     ],
+     "draw": [
+      {
+       "id": "adj",
+       "p": "person",
+       "x": 24,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "adjuster",
+        "pose": "hold",
+        "hold": "bankcheck"
+       }
+      },
+      {
+       "id": "chk",
+       "p": "bankcheck",
+       "x": 64,
+       "y": 21,
+       "h": 17,
+       "opt": {
+        "amount": "$1,700"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Jewelry theft $1,500 plus cash $200",
+       "x": 62,
+       "y": 40,
+       "size": 4.2,
+       "w": 40
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 102,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "id": "want",
+       "p": "num",
+       "text": "$4,500",
+       "x": 134,
+       "y": 34,
+       "size": 9,
+       "color": "gray"
+      },
+      {
+       "p": "xout",
+       "on": "want"
+      }
+     ]
+    },
+    {
+     "label": "Skip the claim: burglary isn't covered",
+     "ok": false,
+     "fail": "Theft is one of the HO-3's 16 named perils for personal property. Sam should file.",
+     "beats": [
+      {
+       "text": "Sam never files. Theft is a named peril.",
+       "say": "Sam never files. Theft is a named peril."
+      },
+      {
+       "text": "Sam! That's money on the table.",
+       "say": "Sam! That's money on the table.",
+       "voice": "jen"
+      }
+     ],
+     "draw": [
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 26,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "smirk"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Burglars? Not our problem.",
+       "x": 52,
+       "y": 8,
+       "w": 30,
+       "to": "sam"
+      },
+      {
+       "id": "list",
+       "p": "clipboard",
+       "x": 82,
+       "y": 33,
+       "h": 22,
+       "label": "16 named perils, theft included",
+       "lsize": 3.8,
+       "lw": 30
+      },
+      {
+       "id": "jen",
+       "p": "person",
+       "x": 118,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "jen",
+        "pose": "point",
+        "mood": "angry"
+       },
+       "flip": true
+      },
+      {
+       "p": "label",
+       "text": "Theft is on the list!",
+       "x": 120,
+       "y": 54,
+       "size": 4.4,
+       "bold": true,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "label": "File, and expect $1,700",
+     "ok": true,
+     "win": "Theft of jewelry, watches and furs: $1,500 per loss. Money: $200 per loss. $1,700 in all, before the deductible.",
+     "beats": [
+      {
+       "text": "Right: $1,500 for the jewelry, $200 for the cash.",
+       "say": "Right: one thousand five hundred dollars for the jewelry, two hundred dollars for the cash."
+      }
+     ],
+     "draw": [
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 22,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "jw",
+       "p": "jewelry",
+       "x": 54,
+       "y": 24,
+       "h": 13,
+       "label": "$1,500",
+       "lsize": 4.6
+      },
+      {
+       "id": "cash",
+       "p": "coins",
+       "x": 84,
+       "y": 25,
+       "h": 12,
+       "label": "$200",
+       "lsize": 4.6
+      },
+      {
+       "p": "num",
+       "text": "$1,700",
+       "x": 124,
+       "y": 22,
+       "size": 11,
+       "color": "green"
+      },
+      {
+       "p": "stamp",
+       "text": "Paid",
+       "x": 124,
+       "y": 42,
+       "size": 6,
+       "color": "green",
+       "rot": -6
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Special limits are per loss, and they don't add to Coverage C.",
+     "say": "Special limits are per loss, and they don't add to Coverage C."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Rewind: no burglar. Under the 2011 HO-3, a kitchen fire destroys Jen's necklace, actual cash value $4,000. Coverage C is $60,000. Ignoring the deductible, the policy pays:",
    "choices": [
     "$1,500",
     "$2,500",
     "$4,000"
    ],
    "answer": 2,
-   "why": "The $1,500 jewelry special limit applies only to loss by theft. A fire loss is paid in full, within the Coverage C limit.",
+   "why": "The $1,500 jewelry limit applies only to loss by theft. A fire loss is paid in full, within the Coverage C limit.",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Kitchen fire",
+     "x": 28,
+     "y": 7,
+     "size": 4.4,
+     "bold": true,
+     "color": "red"
+    },
+    {
+     "id": "box",
+     "p": "jewelry",
+     "x": 28,
+     "y": 34,
+     "h": 18
+    },
+    {
+     "p": "fire",
+     "x": 28,
+     "y": 22,
+     "h": 14,
+     "over": true,
+     "loop": "flicker"
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 64,
+     "y": 38,
+     "h": 28,
+     "opt": {
+      "who": "jen",
+      "mood": "shocked",
+      "pose": "shrug"
+     }
+    },
+    {
+     "p": "note",
+     "text": "Necklace ACV: $4,000. Coverage C: $60,000",
+     "x": 30,
+     "y": 56,
+     "w": 34
+    }
+   ],
    "beats": [
     {
-     "text": "Your turn. A fire destroys jewelry with an actual cash value of $4,000. Coverage C is $80,000. Ignoring the deductible, what does the 2011 HO-3 pay? Pick an answer.",
-     "say": "Your turn. A fire destroys jewelry with an actual cash value of four thousand dollars. Coverage C is eighty thousand dollars. Ignoring the deductible, what does the twenty eleven H O three pay? Pick an answer."
+     "text": "Rewind. No burglar: a kitchen fire destroys the necklace. What's paid?",
+     "say": "Rewind. No burglar: a kitchen fire destroys the necklace. What's paid?"
     }
    ],
    "reveal": [
     {
-     "text": "$4,000. The jewelry limit applies only to theft. If a burglar had taken it, the most paid would be $1,500.",
-     "say": "Four thousand dollars. The jewelry limit applies only to theft. If a burglar had taken it, the most paid would be one thousand five hundred dollars."
+     "text": "$4,000. Fire isn't theft, so the jewelry limit doesn't apply.",
+     "say": "Four thousand dollars. Fire isn't theft, so the jewelry limit doesn't apply."
     }
    ]
   },
   {
-   "type": "bignum",
-   "title": "Additional coverages (2011 HO-3)",
-   "src": "ISO HO 00 03 05 11, Sec. I Additional Coverages E.1.b, E.3, E.11",
-   "items": [
+   "type": "sketch",
+   "title": "Additional coverages: yard and code (2011 HO-3)",
+   "src": "ISO HO 00 03 05 11, Sec. I Additional Coverages E.1.b, E.3, E.11; questions prop-045, prop-046; memory hook mn_prop-17",
+   "draw": [
     {
-     "value": "5% of A",
-     "label": "Trees and plants: $500 per tree, not windstorm"
+     "p": "divider",
+     "x": 53.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 64
     },
     {
-     "value": "$1,000",
-     "label": "Tree removal per loss, $500 per tree"
+     "p": "divider",
+     "x": 106.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 64
     },
     {
-     "value": "10% of A",
-     "label": "Ordinance or law, additional insurance"
+     "p": "label",
+     "text": "Trees, shrubs, plants",
+     "x": 27,
+     "y": 5,
+     "size": 4.2,
+     "bold": true,
+     "color": "green"
+    },
+    {
+     "id": "tree",
+     "p": "tree",
+     "x": 18,
+     "y": 28,
+     "h": 26
+    },
+    {
+     "id": "shrub",
+     "p": "icon",
+     "name": "shrub",
+     "x": 39,
+     "y": 37,
+     "h": 10,
+     "color": "green"
+    },
+    {
+     "p": "label",
+     "text": "5% of A, $500 per tree",
+     "x": 27,
+     "y": 49,
+     "size": 4,
+     "bold": true
+    },
+    {
+     "id": "wind1",
+     "p": "wind",
+     "x": 40,
+     "y": 19,
+     "h": 7,
+     "at": 1,
+     "cue": "windstorm"
+    },
+    {
+     "p": "xout",
+     "on": "wind1",
+     "at": 1,
+     "cue": "windstorm"
+    },
+    {
+     "p": "label",
+     "text": "Theft, vandalism: yes. Windstorm: no",
+     "x": 27,
+     "y": 58,
+     "size": 3.4,
+     "w": 50,
+     "at": 1,
+     "cue": "theft"
+    },
+    {
+     "p": "label",
+     "text": "Tree removal",
+     "x": 80,
+     "y": 5,
+     "size": 4.2,
+     "bold": true,
+     "color": "blue",
+     "at": 2,
+     "cue": "removal"
+    },
+    {
+     "id": "drive",
+     "p": "road",
+     "x": 80,
+     "y": 43,
+     "opt": {
+      "center": "none"
+     },
+     "over": true,
+     "at": 2,
+     "cue": "felled",
+     "w": 46
+    },
+    {
+     "id": "fallen",
+     "p": "tree",
+     "x": 72,
+     "y": 33,
+     "h": 22,
+     "rot": 80,
+     "over": true,
+     "at": 2,
+     "cue": "felled"
+    },
+    {
+     "id": "car",
+     "p": "car",
+     "x": 97,
+     "y": 38,
+     "h": 8,
+     "at": 3,
+     "cue": "driveway"
+    },
+    {
+     "p": "label",
+     "text": "$1,000 per loss, $500 per tree",
+     "x": 80,
+     "y": 49,
+     "size": 4,
+     "bold": true,
+     "w": 48,
+     "at": 2,
+     "cue": "removal"
+    },
+    {
+     "p": "label",
+     "text": "Must damage a covered structure or block a driveway or handicap ramp",
+     "x": 80,
+     "y": 58,
+     "size": 3.4,
+     "w": 50,
+     "at": 3,
+     "cue": "damage"
+    },
+    {
+     "p": "label",
+     "text": "Ordinance or law",
+     "x": 133,
+     "y": 5,
+     "size": 4.2,
+     "bold": true,
+     "color": "orange",
+     "at": 4,
+     "cue": "ordinance"
+    },
+    {
+     "id": "burnt",
+     "p": "house",
+     "x": 124,
+     "y": 28,
+     "h": 22,
+     "at": 4,
+     "cue": "fire"
+    },
+    {
+     "p": "fire",
+     "x": 119,
+     "y": 22,
+     "h": 10,
+     "over": true,
+     "loop": "flicker",
+     "at": 4,
+     "cue": "fire"
+    },
+    {
+     "id": "insp",
+     "p": "person",
+     "x": 148,
+     "y": 30,
+     "h": 26,
+     "opt": {
+      "who": "regulator",
+      "pose": "hold",
+      "hold": "clipboard"
+     },
+     "at": 4,
+     "cue": "city"
+    },
+    {
+     "p": "label",
+     "text": "10% of A, additional insurance",
+     "x": 133,
+     "y": 49,
+     "size": 4,
+     "bold": true,
+     "w": 46,
+     "at": 4,
+     "cue": "additional"
+    },
+    {
+     "p": "label",
+     "text": "Extra cost of rebuilding to code after a covered loss",
+     "x": 133,
+     "y": 58,
+     "size": 3.5,
+     "w": 46,
+     "at": 4,
+     "cue": "code"
     }
    ],
    "beats": [
     {
-     "text": "Trees, shrubs and plants get up to 5% of Coverage A, $500 per tree. Their perils include theft and vandalism, but not windstorm.",
-     "say": "Trees, shrubs and plants get up to five percent of Coverage A, five hundred dollars per tree. Their perils include theft and vandalism, but not windstorm.",
-     "show": 1
+     "text": "Now the yard, under the 2011 HO-3. Trees, shrubs and plants: up to 5% of A, $500 per tree.",
+     "say": "Now the yard, under the twenty eleven H O three. Trees, shrubs and plants: up to five percent of A, five hundred dollars per tree.",
+     "hl": "tree"
     },
     {
-     "text": "Don't confuse that with tree removal: up to $1,000 per loss, $500 per tree, to remove trees felled by windstorm, hail, or weight of ice, snow or sleet. The tree must damage a covered structure or block a driveway or handicap ramp.",
-     "say": "Don't confuse that with tree removal: up to one thousand dollars per loss, five hundred dollars per tree, to remove trees felled by windstorm, hail, or weight of ice, snow or sleet. The tree must damage a covered structure or block a driveway or handicap ramp.",
-     "show": 2
+     "text": "Their perils include theft and vandalism, but not windstorm.",
+     "say": "Their perils include theft and vandalism, but not windstorm."
     },
     {
-     "text": "Ordinance or law pays up to 10% of Coverage A, as additional insurance, for increased costs from enforcing building ordinances after a covered loss.",
-     "say": "Ordinance or law pays up to ten percent of Coverage A, as additional insurance, for increased costs from enforcing building ordinances after a covered loss.",
-     "show": 3
+     "text": "Watch out: tree removal is different. It pays to remove trees felled by windstorm, hail, or weight of ice, snow or sleet.",
+     "say": "Watch out: tree removal is different. It pays to remove trees felled by windstorm, hail, or weight of ice, snow or sleet.",
+     "hl": "fallen"
+    },
+    {
+     "text": "But only if they damage a covered structure or block a driveway or handicap ramp.",
+     "say": "But only if they damage a covered structure or block a driveway or handicap ramp.",
+     "hl": "car"
+    },
+    {
+     "text": "Ordinance or law: after a covered fire, the city may require rebuilding to today's code. Up to 10% of A pays the extra cost, as additional insurance.",
+     "say": "Ordinance or law: after a covered fire, the city may require rebuilding to today's code. Up to ten percent of A pays the extra cost, as additional insurance.",
+     "hl": "burnt"
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "Under the 2011 HO-3, a windstorm knocks down a healthy backyard tree. It hits nothing and blocks nothing. What do the tree additional coverages pay?",
-   "choices": [
-    "Nothing",
-    "Up to $500 to replace the tree",
-    "Up to $1,000 to remove the tree"
+   "type": "choice",
+   "title": "Sam's call: the maple in the driveway",
+   "src": "ISO HO 00 03 05 11, Sec. I Additional Coverages E.1.b (tree removal) and E.3 (trees); question prop-045",
+   "ask": "What should Sam claim?",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 22,
+     "y": 26,
+     "h": 30,
+     "opt": {
+      "garage": true
+     }
+    },
+    {
+     "id": "drive",
+     "p": "road",
+     "x": 80,
+     "y": 48,
+     "w": 84,
+     "opt": {
+      "center": "none"
+     },
+     "over": true
+    },
+    {
+     "id": "tree",
+     "p": "tree",
+     "x": 78,
+     "y": 40,
+     "h": 30,
+     "rot": 82,
+     "over": true
+    },
+    {
+     "id": "car",
+     "p": "car",
+     "x": 116,
+     "y": 44,
+     "h": 12
+    },
+    {
+     "p": "wind",
+     "x": 72,
+     "y": 12,
+     "h": 9,
+     "loop": "float"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 146,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "sam",
+      "pose": "think",
+      "mood": "worried"
+     }
+    }
    ],
-   "answer": 0,
-   "why": "Windstorm is not a covered peril for trees, shrubs and plants. Tree removal applies only if the tree damages a covered structure or blocks a driveway or handicap ramp.",
    "beats": [
     {
-     "text": "One more. A windstorm knocks down a healthy backyard tree. It hits nothing and blocks nothing. What do the tree coverages pay? Pick an answer.",
-     "say": "One more. A windstorm knocks down a healthy backyard tree. It hits nothing and blocks nothing. What do the tree coverages pay? Pick an answer."
+     "text": "December. A windstorm drops the Millers' healthy maple across the driveway. Their car can't get out. What should Sam claim?",
+     "say": "December. A windstorm drops the Millers' healthy maple across the driveway. Their car can't get out. What should Sam claim?"
+    }
+   ],
+   "options": [
+    {
+     "label": "A new maple, under the trees coverage",
+     "ok": false,
+     "fail": "Trees, shrubs and plants are covered for fire, lightning, theft, vandalism and a few others, but not windstorm.",
+     "beats": [
+      {
+       "text": "Denied. Windstorm isn't a tree peril. No new maple.",
+       "say": "Denied. Windstorm isn't a tree peril. No new maple."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 28,
+       "y": 24,
+       "h": 32
+      },
+      {
+       "p": "stamp",
+       "text": "Denied",
+       "x": 28,
+       "y": 48,
+       "size": 6,
+       "color": "red",
+       "rot": -6
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 82,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "sad",
+        "mood": "sad"
+       }
+      },
+      {
+       "id": "newtree",
+       "p": "tree",
+       "x": 104,
+       "y": 34,
+       "h": 20
+      },
+      {
+       "p": "xout",
+       "on": "newtree"
+      },
+      {
+       "p": "label",
+       "text": "Windstorm isn't a tree peril",
+       "x": 134,
+       "y": 38,
+       "size": 4.4,
+       "w": 34,
+       "bold": true,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "label": "Skip it: wind-blown trees get nothing",
+     "ok": false,
+     "fail": "Tree removal pays to remove a windstorm tree that blocks a driveway: up to $500 per tree, $1,000 per loss.",
+     "beats": [
+      {
+       "text": "Sam spends a weekend sawing, for nothing. Removal would have paid, up to $500.",
+       "say": "Sam spends a weekend sawing, for nothing. Removal would have paid, up to five hundred dollars."
+      }
+     ],
+     "draw": [
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 26,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "sad"
+       }
+      },
+      {
+       "p": "icon",
+       "name": "axe",
+       "x": 38,
+       "y": 34,
+       "h": 12,
+       "color": "brown"
+      },
+      {
+       "id": "logs",
+       "p": "tree",
+       "x": 76,
+       "y": 44,
+       "h": 26,
+       "rot": 85
+      },
+      {
+       "p": "bubble",
+       "text": "My back...",
+       "x": 46,
+       "y": 8,
+       "w": 22,
+       "to": "sam"
+      },
+      {
+       "p": "label",
+       "text": "Removal was covered!",
+       "x": 124,
+       "y": 40,
+       "size": 4.6,
+       "bold": true,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "label": "Claim tree removal: the car is blocked in",
+     "ok": true,
+     "win": "Tree removal: up to $1,000 per loss, $500 per tree, for a windstorm-felled tree that blocks a driveway or damages a covered structure.",
+     "beats": [
+      {
+       "text": "Approved: it blocks the driveway. Removal pays up to $500 for this tree.",
+       "say": "Approved: it blocks the driveway. Removal pays up to five hundred dollars for this tree."
+      }
+     ],
+     "draw": [
+      {
+       "id": "crew",
+       "p": "person",
+       "x": 22,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "worker",
+        "pose": "point"
+       }
+      },
+      {
+       "id": "truck",
+       "p": "truck",
+       "x": 58,
+       "y": 36,
+       "h": 16
+      },
+      {
+       "p": "tree",
+       "x": 54,
+       "y": 27,
+       "h": 20,
+       "rot": 88,
+       "over": true
+      },
+      {
+       "p": "stamp",
+       "text": "Paid",
+       "x": 106,
+       "y": 18,
+       "size": 7,
+       "color": "green",
+       "rot": -6
+      },
+      {
+       "p": "label",
+       "text": "Removal: up to $500 per tree",
+       "x": 106,
+       "y": 36,
+       "size": 4.4,
+       "w": 36,
+       "bold": true,
+       "color": "green"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 144,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      }
+     ]
     }
    ],
    "reveal": [
     {
-     "text": "Nothing. Windstorm isn't a covered peril for trees. And tree removal needs damage to a covered structure, or a blocked driveway or ramp.",
-     "say": "Nothing. Windstorm isn't a covered peril for trees. And tree removal needs damage to a covered structure, or a blocked driveway or ramp."
+     "text": "Wind-felled trees aren't replaced. Removal pays only if one damages a covered structure or blocks a driveway or handicap ramp.",
+     "say": "Wind-felled trees aren't replaced. Removal pays only if one damages a covered structure or blocks a driveway or handicap ramp."
     }
    ]
   },
@@ -365,20 +2767,90 @@
    "type": "recap",
    "items": [
     "HO-2 named; HO-3 open on A and B; HO-5 open on A, B and C",
-    "HO-4: C and D only. HO-6 A: the unit's fixtures and improvements",
+    "HO-4: C and D only. HO-6 A: unit fixtures, not the building",
     "Attached structures are A; detached are B, at 10% of A",
     "HO-3: jewelry, firearms and silverware limits are theft only",
     "HO-3 trees: 5% of A, not windstorm. Ordinance or law: 10% of A"
    ],
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 48,
+     "y": 20,
+     "h": 22,
+     "opt": {
+      "garage": true
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 14,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "sam",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 31,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "jen",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "dog",
+     "x": 52,
+     "y": 56,
+     "h": 10,
+     "opt": {
+      "mood": "happy"
+     },
+     "flip": true
+    },
+    {
+     "p": "snow",
+     "x": 10,
+     "y": 8,
+     "h": 5,
+     "loop": "spin",
+     "at": 2,
+     "cue": "winter"
+    },
+    {
+     "p": "snow",
+     "x": 26,
+     "y": 14,
+     "h": 4,
+     "loop": "spin",
+     "at": 2,
+     "cue": "winter"
+    }
+   ],
    "beats": [
     {
-     "text": "To recap. HO-2 is named perils, HO-3 is open on the buildings, and HO-5 is open on everything. HO-4 has C and D only.",
-     "say": "To recap. H O two is named perils, H O three is open on the buildings, and H O five is open on everything. H O four has C and D only.",
+     "text": "What a fall! HO-3 opens the house, HO-5 everything, and renters get C and D.",
+     "say": "What a fall! H O three opens the house, H O five everything, and renters get C and D.",
      "show": 2
     },
     {
-     "text": "Attached structures are A; detached ones are B. HO-3 jewelry, firearms and silverware limits apply only to theft. And windstorm doesn't replace trees.",
-     "say": "Attached structures are A; detached ones are B. H O three jewelry, firearms and silverware limits apply only to theft. And windstorm doesn't replace trees.",
+     "text": "Attached is A, detached is B. HO-3 jewelry, firearms and silverware limits are theft only.",
+     "say": "Attached is A, detached is B. H O three jewelry, firearms and silverware limits are theft only.",
+     "show": 5
+    },
+    {
+     "text": "Next up: winter. How bad can it be?",
+     "say": "Next up: winter. How bad can it be?",
+     "voice": "sam",
      "show": 5
     }
    ]
@@ -392,7 +2864,8 @@
   "prop-045"
  ],
  "hooks": [
-  "mn-mn_prop-13"
+  "mn-mn_prop-13",
+  "mn-mn_prop-16"
  ],
  "sources": [
   "ISO HO 00 03 05 11",
@@ -402,6 +2875,9 @@
   "ISO HO 00 05 10 00",
   "ISO HO 00 08 10 00",
   "The Institutes, AIC 43 (ISO 2011 HO program)",
-  "PSI Series 16-81 content outline"
+  "PSI Series 16-81 content outline",
+  "Confusion pairs cp_personal-06, cp_personal-07, cp_personal-10",
+  "Memory hooks mn_prop-10, mn_prop-13, mn_prop-14, mn_prop-16, mn_prop-17",
+  "Visual summary vs_personal-01"
  ]
 }

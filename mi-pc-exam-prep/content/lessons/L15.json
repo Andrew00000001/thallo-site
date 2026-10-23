@@ -1,444 +1,2548 @@
 {
-  "id": "L15",
-  "sec": "auto",
-  "guide": "auto",
-  "title": "Michigan auto laws: limits, proof, cancellation, placement facility",
-  "summary": "Michigan's liability limits, who must carry no-fault and prove it, who pays PIP first, the placement facility, and Chapter 32 cancellation rules.",
-  "objectives": [
-    "Know Michigan's default and lowest liability limits, with their dates",
-    "Spot who must carry no-fault, and the penalties for skipping it",
-    "Find who pays PIP first, including in a short-term rental",
-    "Apply Chapter 32 cancellation and nonrenewal rules"
-  ],
-  "scenes": [
+ "id": "L15",
+ "sec": "auto",
+ "guide": "auto",
+ "title": "Rosa's new car: Michigan auto laws, limits, proof and cancellation",
+ "summary": "Follow Rosa's first year with her new car in Lansing: liability limits, proof, excluded and ride-share drivers, who pays PIP, the MAIPF and Chapter 32.",
+ "objectives": [
+  "Know Michigan's default and lowest liability limits, and the limits before July 2, 2020",
+  "Spot who must carry no-fault, the penalties, special drivers and crash-parts rules",
+  "Find who pays PIP first, including in a short-term rental",
+  "Apply Chapter 32 cancellation and nonrenewal rules, and know the MAIPF"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Rosa's new car: Michigan's auto rulebook",
+   "subtitle": "Liability limits, proof, special drivers, who pays PIP, the placement facility and Chapter 32",
+   "draw": [
     {
-      "type": "title",
-      "title": "Michigan auto laws",
-      "subtitle": "Limits, proof of insurance, who pays PIP, the placement facility, and cancellation",
-      "icon": "landmark",
-      "beats": [
-        {
-          "text": "Michigan auto law runs on exact rules: limits, deadlines and notice periods. Let's pin them down.",
-          "say": "Michigan auto law runs on exact rules: limits, deadlines and notice periods. Let's pin them down."
-        }
-      ]
+     "id": "mi",
+     "p": "michigan",
+     "x": 77,
+     "y": 15,
+     "h": 24,
+     "opt": {
+      "pin": "lansing",
+      "pinLabel": "Lansing",
+      "pinSize": 16
+     }
     },
     {
-      "type": "table",
-      "title": "Michigan liability limits",
-      "src": "MCL 500.3009(1),(5)-(8); DIFS FIS-PUB 6310",
-      "columns": [
-        "Rule",
-        "BI per person",
-        "BI per accident",
-        "PD"
-      ],
-      "items": [
-        [
-          "Default, policies after July 1, 2020",
-          "$250,000",
-          "$500,000",
-          "$10,000"
-        ],
-        [
-          "Lowest you may elect, DIFS form",
-          "$50,000",
-          "$100,000",
-          "$10,000"
-        ],
-        [
-          "Before July 2, 2020",
-          "$20,000",
-          "$40,000",
-          "$10,000"
-        ]
-      ],
-      "beats": [
-        {
-          "text": "For policies issued after July 1, 2020, the default liability limits are $250,000 per person and $500,000 per accident for bodily injury, plus $10,000 for property damage.",
-          "say": "For policies issued after July first, twenty twenty, the default liability limits are two hundred fifty thousand dollars per person and five hundred thousand dollars per accident for bodily injury, plus ten thousand dollars for property damage.",
-          "show": 1
-        },
-        {
-          "text": "You may choose lower bodily injury limits, but never below $50,000 and $100,000, and only by completing the DIFS form that explains the risks. No effective choice? The defaults apply.",
-          "say": "You may choose lower bodily injury limits, but never below fifty thousand dollars and one hundred thousand dollars, and only by completing the D I F S form that explains the risks. No effective choice? The defaults apply.",
-          "show": 2
-        },
-        {
-          "text": "Before July 2, 2020, the minimums were $20,000, $40,000 and $10,000. Older materials may still show them, so watch the dates.",
-          "say": "Before July second, twenty twenty, the minimums were twenty thousand dollars, forty thousand dollars and ten thousand dollars. Older materials may still show them, so watch the dates.",
-          "show": 3
-        }
-      ]
+     "id": "dana",
+     "p": "person",
+     "x": 11,
+     "y": 44,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "point"
+     }
     },
     {
-      "type": "quiz",
-      "q": "A Michigan auto policy is issued on March 1, 2026. The named insured never completes a form choosing lower limits. Which bodily injury limits apply?",
-      "choices": [
-        "$20,000 per person and $40,000 per accident",
-        "$50,000 per person and $100,000 per accident",
-        "$250,000 per person and $500,000 per accident"
-      ],
-      "answer": 2,
-      "why": "With no effective choice, the $250,000 and $500,000 limits apply. $50,000 and $100,000 is the lowest you may elect; $20,000 and $40,000 is the rule before July 2, 2020.",
-      "beats": [
-        {
-          "text": "Try this. A policy issued March 1, 2026, has no completed form choosing lower limits. Which bodily injury limits apply? Pick an answer.",
-          "say": "Try this. A policy issued March first, twenty twenty-six, has no completed form choosing lower limits. Which bodily injury limits apply? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "It's $250,000 per person and $500,000 per accident. Lower limits need the completed form, and the old limits ended in 2020.",
-          "say": "It's two hundred fifty thousand dollars per person and five hundred thousand dollars per accident. Lower limits need the completed form, and the old limits ended in twenty twenty."
-        }
-      ]
+     "id": "car",
+     "p": "car",
+     "x": 40,
+     "y": 55,
+     "h": 14,
+     "opt": {
+      "color": "purple"
+     }
     },
     {
-      "type": "bullets",
-      "title": "Who must carry it, and proving it",
-      "src": "MCL 500.3101(1),(3)(l); 500.3102(1),(2); MCL 257.328(1),(6)",
-      "items": [
-        {
-          "label": "Owner or registrant: PIP, PPI, liability",
-          "detail": "Collision is optional",
-          "icon": "car"
-        },
-        {
-          "label": "Renting over 30 days makes you an owner",
-          "detail": "30 days or less: not an owner",
-          "icon": "key"
-        },
-        {
-          "label": "Nonresidents: 30 days per calendar year",
-          "detail": "Aggregate, in a car not registered in Michigan",
-          "icon": "map-pin"
-        },
-        {
-          "label": "Driving uninsured: misdemeanor",
-          "detail": "$200 to $500 fine, up to 1 year in jail, or both",
-          "icon": "siren"
-        },
-        {
-          "label": "No proof for an officer: civil infraction",
-          "detail": "Phone copy is fine. Knowingly false proof: misdemeanor",
-          "icon": "id-card"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Who must carry no-fault? The owner or registrant of a vehicle that must be registered in Michigan. Required: PIP and PPI, plus residual liability. Collision is optional.",
-          "say": "Who must carry no-fault? The owner or registrant of a vehicle that must be registered in Michigan. Required: P I P and P P I, plus residual liability. Collision is optional.",
-          "show": 1
-        },
-        {
-          "text": "An owner includes someone renting or using a vehicle for more than 30 days.",
-          "say": "An owner includes someone renting or using a vehicle for more than thirty days.",
-          "show": 2
-        },
-        {
-          "text": "A nonresident may drive a car not registered here for an aggregate of 30 days per calendar year without Michigan security.",
-          "say": "A nonresident may drive a car not registered here for an aggregate of thirty days per calendar year without Michigan security.",
-          "show": 3
-        },
-        {
-          "text": "Operating without the required security is a misdemeanor: a fine of $200 to $500, up to 1 year in jail, or both.",
-          "say": "Operating without the required security is a misdemeanor: a fine of two hundred dollars to five hundred dollars, up to one year in jail, or both.",
-          "show": 4
-        },
-        {
-          "text": "No proof when an officer asks? A civil infraction, and a phone copy counts. Knowingly showing false proof is a misdemeanor.",
-          "say": "No proof when an officer asks? A civil infraction, and a phone copy counts. Knowingly showing false proof is a misdemeanor.",
-          "show": 5
-        }
-      ]
+     "p": "sparkle",
+     "x": 57,
+     "y": 42,
+     "h": 7,
+     "loop": "pulse"
     },
     {
-      "type": "bullets",
-      "title": "Special drivers and crash parts",
-      "src": "MCL 500.3009(2); 500.3113(d); MCL 257.518b; MCL 257.1363",
-      "items": [
-        {
-          "label": "Named excluded driver",
-          "detail": "All liability void while that person drives, and no PIP for them",
-          "icon": "ban"
-        },
-        {
-          "label": "Ride-share driver logged on, no ride",
-          "detail": "$50,000 and $100,000 BI, $25,000 PD, plus PIP and PPI",
-          "icon": "smartphone"
-        },
-        {
-          "label": "Ride-share during a prearranged ride",
-          "detail": "$1 million combined single limit, plus PIP and PPI",
-          "icon": "car-taxi-front"
-        },
-        {
-          "label": "Non-OEM crash parts",
-          "detail": "Written estimate names each part, with a 10-point bold notice",
-          "icon": "wrench"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Special rules. When a named excluded driver drives, all liability coverage is void. No one is insured, and that driver gets no PIP.",
-          "say": "Special rules. When a named excluded driver drives, all liability coverage is void. No one is insured, and that driver gets no P I P.",
-          "show": 1
-        },
-        {
-          "text": "Ride-share drivers logged on but not on a ride need at least $50,000 and $100,000 bodily injury and $25,000 property damage. During a prearranged ride: $1 million combined single limit.",
-          "say": "Ride-share drivers logged on but not on a ride need at least fifty thousand dollars and one hundred thousand dollars bodily injury and twenty-five thousand dollars property damage. During a prearranged ride: one million dollars combined single limit.",
-          "show": 3
-        },
-        {
-          "text": "If an insurer asks for non-OEM crash parts, the written estimate must identify each one, with a notice in at least 10-point bold type.",
-          "say": "If an insurer asks for non O E M crash parts, the written estimate must identify each one, with a notice in at least ten-point bold type.",
-          "show": 4
-        }
-      ]
+     "id": "rosa",
+     "p": "person",
+     "x": 70,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "rosa",
+      "pose": "cheer",
+      "mood": "happy"
+     }
     },
     {
-      "type": "steps",
-      "title": "Who pays PIP first?",
-      "src": "MCL 500.3114(1),(3),(4); 500.3115, as amended by 2019 PA 21",
-      "items": [
-        {
-          "label": "Employee in the employer's vehicle",
-          "detail": "The insurer of the furnished vehicle pays",
-          "icon": "briefcase"
-        },
-        {
-          "label": "Otherwise: own or household policy",
-          "detail": "Yours, your spouse's, or a resident relative's",
-          "icon": "house"
-        },
-        {
-          "label": "No own or household policy",
-          "detail": "Claim through the Michigan Assigned Claims Plan",
-          "icon": "landmark"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Now, who pays PIP first? One special case to know: an employee hurt in a vehicle owned or registered by the employer claims from that vehicle's insurer.",
-          "say": "Now, who pays P I P first? One special case to know: an employee hurt in a vehicle owned or registered by the employer claims from that vehicle's insurer.",
-          "show": 1
-        },
-        {
-          "text": "Otherwise, look to your own policy, or the policy of your spouse or a relative who lives with you.",
-          "say": "Otherwise, look to your own policy, or the policy of your spouse or a relative who lives with you.",
-          "show": 2
-        },
-        {
-          "text": "No own or household policy? Under the law as amended in 2019, an occupant or a pedestrian claims through the Michigan Assigned Claims Plan.",
-          "say": "No own or household policy? Under the law as amended in twenty nineteen, an occupant or a pedestrian claims through the Michigan Assigned Claims Plan.",
-          "show": 3
-        }
-      ]
-    },
-    {
-      "type": "scenario",
-      "title": "Hurt in a rental car",
-      "src": "MCL 500.3101(3)(l); 500.3105(2); 500.3114(1); MCL 257.401(3),(4)",
-      "icon": "key",
-      "story": "Lisa has her own Michigan no-fault policy. She rents a car for a one-week vacation in Michigan and is hurt in a crash.",
-      "items": [
-        {
-          "label": "Is Lisa an owner of the rental?",
-          "detail": "No. Renting for 30 days or less doesn't make you an owner"
-        },
-        {
-          "label": "Which policy comes first?",
-          "detail": "Her own policy, under the household rule"
-        }
-      ],
-      "answer": "Her own auto insurer pays her PIP first.",
-      "beats": [
-        {
-          "text": "Lisa has her own Michigan no-fault policy. She rents a car for a one-week Michigan vacation and is hurt in a crash. Who pays her PIP first?",
-          "say": "Lisa has her own Michigan no-fault policy. She rents a car for a one-week Michigan vacation and is hurt in a crash. Who pays her P I P first?",
-          "show": 0
-        },
-        {
-          "text": "Renting for 30 days or less doesn't make her an owner. So the household rule applies, and her own auto insurer pays first.",
-          "say": "Renting for thirty days or less doesn't make her an owner. So the household rule applies, and her own auto insurer pays first.",
-          "show": 2,
-          "answer": true
-        },
-        {
-          "text": "Another rental rule: for rentals of 30 days or less, a rental company that wasn't negligent is liable as owner only up to $20,000 per person and $40,000 per accident.",
-          "say": "Another rental rule: for rentals of thirty days or less, a rental company that wasn't negligent is liable as owner only up to twenty thousand dollars per person and forty thousand dollars per accident.",
-          "show": 2
-        }
-      ]
-    },
-    {
-      "type": "bullets",
-      "title": "The placement facility (MAIPF)",
-      "src": "MCL 500.3301; 500.3365(3); 500.3171(2); 500.3172(7); 500.3174",
-      "items": [
-        {
-          "label": "Every auto insurer must take part",
-          "icon": "users"
-        },
-        {
-          "label": "Guarantees coverage",
-          "detail": "For people who can't get it through ordinary methods",
-          "icon": "shield-check"
-        },
-        {
-          "label": "Yearly eligibility notice",
-          "detail": "Voluntary-market standards, at least once each year",
-          "icon": "mail"
-        },
-        {
-          "label": "Runs the Assigned Claims Plan",
-          "detail": "Notice within 1 year; medical generally capped at $250,000",
-          "icon": "landmark"
-        }
-      ],
-      "beats": [
-        {
-          "text": "The Assigned Claims Plan is run by the Michigan Automobile Insurance Placement Facility, the MAIPF. Every insurer authorized to write auto insurance here must take part.",
-          "say": "The Assigned Claims Plan is run by the Michigan Automobile Insurance Placement Facility, the M A I P F. Every insurer authorized to write auto insurance here must take part.",
-          "show": 1
-        },
-        {
-          "text": "It guarantees coverage for people who can't get it through ordinary methods.",
-          "say": "It guarantees coverage for people who can't get it through ordinary methods.",
-          "show": 2
-        },
-        {
-          "text": "At least once each year, facility insureds must be told the standards for buying in the voluntary market.",
-          "say": "At least once each year, facility insureds must be told the standards for buying in the voluntary market.",
-          "show": 3
-        },
-        {
-          "text": "Assigned Claims Plan claimants must notify the MAIPF within 1 year after the accident. Medical benefits there are generally capped at $250,000.",
-          "say": "Assigned Claims Plan claimants must notify the M A I P F within one year after the accident. Medical benefits there are generally capped at two hundred fifty thousand dollars.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "timeline",
-      "title": "Chapter 32: cancelling auto liability",
-      "src": "MCL 500.3204(2), 3208, 3212, 3220, 3224, 3230; MCL 500.2123",
-      "items": [
-        {
-          "at": "Days 1 to 55",
-          "label": "May cancel: risk unacceptable",
-          "detail": "This cancellation can't be appealed"
-        },
-        {
-          "at": "After day 55",
-          "label": "Only for a final license loss",
-          "detail": "Named insured, or a household or customary driver: suspended or revoked"
-        },
-        {
-          "at": "20 days ahead",
-          "label": "Cancellation: certified mail",
-          "detail": "Reasons, plus a bold notice: appeal within 7 days of mailing"
-        },
-        {
-          "at": "20 days ahead",
-          "label": "Nonrenewal: first-class mail",
-          "detail": "Mailed this way, it isn't a cancellation"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Now Chapter 32 cancellation. In the first 55 days, the insurer may cancel because the risk is unacceptable, with no appeal.",
-          "say": "Now Chapter thirty-two cancellation. In the first fifty-five days, the insurer may cancel because the risk is unacceptable, with no appeal.",
-          "show": 1
-        },
-        {
-          "text": "After 55 days, or right away on a renewal, it may cancel only for a final license suspension or revocation of the named insured or a household or customary driver. Nonpayment falls outside Chapter 32.",
-          "say": "After fifty-five days, or right away on a renewal, it may cancel only for a final license suspension or revocation of the named insured or a household or customary driver. Nonpayment falls outside Chapter thirty-two.",
-          "show": 2
-        },
-        {
-          "text": "Notice goes by certified mail at least 20 days ahead, with reasons. It must say in bold that the insured may appeal within 7 days of mailing.",
-          "say": "Notice goes by certified mail at least twenty days ahead, with reasons. It must say in bold that the insured may appeal within seven days of mailing.",
-          "show": 3
-        },
-        {
-          "text": "Nonrenewal isn't a cancellation if notice goes by first-class mail at least 20 days before the policy ends. Cancel: certified. Nonrenew: normal first-class.",
-          "say": "Nonrenewal isn't a cancellation if notice goes by first-class mail at least twenty days before the policy ends. Cancel: certified. Nonrenew: normal first-class.",
-          "show": 4
-        },
-        {
-          "text": "Watch out: the Essential Insurance Act requires 30 days' notice, or 20 in the first 55. Check which statute the question names.",
-          "say": "Watch out: the Essential Insurance Act requires thirty days' notice, or twenty in the first fifty-five. Check which statute the question names.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "quiz",
-      "q": "Under Michigan's Chapter 32, a new auto policy has been in force for 90 days. For a reason other than nonpayment, the insurer may cancel it only if:",
-      "choices": [
-        "The insurer now judges the risk unacceptable",
-        "The insured has two at-fault accidents",
-        "A household driver's license was suspended this term, and it's final",
-        "The insured moves to another Michigan county"
-      ],
-      "answer": 2,
-      "why": "After 55 days, Chapter 32 allows cancellation only for a final license suspension or revocation of the named insured or a household or customary driver. Unacceptable risk: first 55 days only.",
-      "beats": [
-        {
-          "text": "Your turn. A new policy has been in force 90 days. Under Chapter 32, for a reason other than nonpayment, when may the insurer cancel? Pick an answer.",
-          "say": "Your turn. A new policy has been in force ninety days. Under Chapter thirty-two, for a reason other than nonpayment, when may the insurer cancel? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "The answer is a final license suspension of a household driver. Unacceptable risk only works in the first 55 days.",
-          "say": "The answer is a final license suspension of a household driver. Unacceptable risk only works in the first fifty-five days."
-        }
-      ]
-    },
-    {
-      "type": "recap",
-      "items": [
-        "Default $250,000, $500,000, $10,000; lowest elected $50,000, $100,000",
-        "Owner includes a renter over 30 days; uninsured driving: misdemeanor",
-        "PIP: employer car, then own or household policy, then the MACP",
-        "MAIPF guarantees coverage and runs the Assigned Claims Plan",
-        "Chapter 32: 55-day window, 20 days certified, appeal within 7 days"
-      ],
-      "beats": [
-        {
-          "text": "Let's recap the key rules on screen. Pause here if you want to review them.",
-          "say": "Let's recap the key rules on screen. Pause here if you want to review them.",
-          "show": 5
-        }
-      ]
+     "p": "bubble",
+     "text": "How hard can it be?",
+     "x": 38,
+     "y": 18,
+     "w": 30,
+     "to": "rosa",
+     "at": 1
     }
-  ],
-  "check": [
-    "auto-001",
-    "auto-008",
-    "auto-042",
-    "auto-043",
-    "auto-047"
-  ],
-  "hooks": [],
-  "sources": [
-    "MCL 500.3009(1),(2),(5)-(8)",
-    "DIFS FIS-PUB 6310",
-    "MCL 500.3101(1),(3)(l)",
-    "MCL 500.3102(1),(2)",
-    "MCL 257.328(1),(6)",
-    "MCL 500.3113(d)",
-    "MCL 257.518b",
-    "MCL 257.1363",
-    "MCL 500.3105(2)",
-    "MCL 500.3114(1),(3),(4); 500.3115 (2019 PA 21)",
-    "MCL 257.401(3),(4)",
-    "MCL 500.3301; 500.3365(3)",
-    "MCL 500.3171(2); 500.3172(7); 500.3174",
-    "MCL 500.3204(2), 3208, 3212, 3220, 3224, 3230, 3234",
-    "MCL 500.2123"
-  ]
+   ],
+   "beats": [
+    {
+     "text": "Rosa just bought a new car in Lansing. Her agent Dana has news: Michigan has rules.",
+     "say": "Rosa just bought a new car in Lansing. Her agent Dana has news: Michigan has rules."
+    },
+    {
+     "text": "How hard can it be?",
+     "say": "How hard can it be?",
+     "voice": "rosa"
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "What Michigan makes Rosa carry",
+   "src": "MCL 500.3101(1); 500.3102(2); MCL 257.328(1),(6); questions auto-005, auto-007, auto-010",
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 14,
+     "y": 38,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "point"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Required",
+     "x": 66,
+     "y": 6,
+     "size": 5,
+     "bold": true,
+     "color": "green",
+     "at": 0,
+     "cue": "carry"
+    },
+    {
+     "id": "pip",
+     "p": "shield",
+     "x": 44,
+     "y": 20,
+     "h": 15,
+     "label": "PIP",
+     "lsize": 4.5,
+     "at": 0,
+     "cue": "PIP"
+    },
+    {
+     "id": "ppi",
+     "p": "shield",
+     "x": 66,
+     "y": 20,
+     "h": 15,
+     "label": "PPI",
+     "lsize": 4.5,
+     "at": 0,
+     "cue": "PPI"
+    },
+    {
+     "id": "liab",
+     "p": "shield",
+     "x": 88,
+     "y": 20,
+     "h": 15,
+     "label": "Residual liability",
+     "lsize": 4,
+     "lw": 24,
+     "at": 0,
+     "cue": "liability"
+    },
+    {
+     "id": "col",
+     "p": "car",
+     "x": 132,
+     "y": 20,
+     "h": 13,
+     "opt": {
+      "color": "purple"
+     },
+     "label": "Collision: optional",
+     "lsize": 4,
+     "at": 1,
+     "cue": "Collision"
+    },
+    {
+     "id": "cop",
+     "p": "police",
+     "x": 37,
+     "y": 52,
+     "h": 13,
+     "at": 2,
+     "cue": "misdemeanor"
+    },
+    {
+     "p": "label",
+     "text": "Misdemeanor: $200 to $500 fine, up to 1 year in jail, or both",
+     "x": 76,
+     "y": 52,
+     "size": 4,
+     "w": 40,
+     "color": "red",
+     "at": 2,
+     "cue": "misdemeanor"
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 109,
+     "y": 50,
+     "h": 24,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "hold": "phone",
+      "mood": "happy"
+     },
+     "at": 3,
+     "cue": "phone"
+    },
+    {
+     "id": "proof",
+     "p": "note",
+     "text": "Phone copy: OK. No proof: civil infraction. Knowingly fake proof: misdemeanor.",
+     "x": 138,
+     "y": 51,
+     "w": 36,
+     "at": 3,
+     "cue": "proof"
+    }
+   ],
+   "beats": [
+    {
+     "text": "In Michigan, the owner or registrant of a car that must be registered here must carry PIP, PPI and residual liability.",
+     "say": "In Michigan, the owner or registrant of a car that must be registered here must carry P I P, P P I and residual liability.",
+     "hl": [
+      "pip",
+      "ppi",
+      "liab"
+     ]
+    },
+    {
+     "text": "Collision is optional.",
+     "say": "Collision is optional.",
+     "hl": "col"
+    },
+    {
+     "text": "Driving without the required coverage is a misdemeanor: a fine of $200 to $500, up to a year in jail, or both.",
+     "say": "Driving without the required coverage is a misdemeanor: a fine of two hundred dollars to five hundred dollars, up to a year in jail, or both.",
+     "hl": "cop"
+    },
+    {
+     "text": "A Lansing officer stops Rosa. Her insurance card on her phone counts. No proof for an officer: civil infraction. Knowingly fake proof: misdemeanor.",
+     "say": "A Lansing officer stops Rosa. Her insurance card on her phone counts. No proof for an officer: civil infraction. Knowingly fake proof: misdemeanor.",
+     "hl": "proof"
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Rosa's limits: the Michigan defaults",
+   "src": "MCL 500.3009(1),(5)-(8); DIFS FIS-PUB 6310; adapted from memory hook mn_auto-14; question auto-001",
+   "kind": "Michigan rule",
+   "term": "Default liability limits",
+   "plain": "The least a Michigan auto policy issued after July 1, 2020 may carry, unless the insured signs a form choosing lower injury limits.",
+   "example": "Rosa's policy, issued in 2026, starts at the defaults: if she's sued for hurting three people in one crash, it pays at most $250,000 each, $500,000 in all.",
+   "exam": "Lower injury limits need the DIFS form, never below $50,000 and $100,000. Before July 2, 2020: $20,000, $40,000 and $10,000.",
+   "draw": [
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 12,
+     "y": 44,
+     "h": 28,
+     "opt": {
+      "who": "rosa",
+      "pose": "point",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "n1",
+     "p": "num",
+     "text": "$250,000",
+     "x": 50,
+     "y": 10,
+     "size": 7.5,
+     "color": "blue",
+     "at": 0,
+     "cue": "quarter"
+    },
+    {
+     "p": "label",
+     "text": "per person (injury)",
+     "x": 50,
+     "y": 17.5,
+     "size": 3.6,
+     "at": 0,
+     "cue": "person"
+    },
+    {
+     "id": "n2",
+     "p": "num",
+     "text": "$500,000",
+     "x": 50,
+     "y": 29,
+     "size": 7.5,
+     "color": "blue",
+     "at": 0,
+     "cue": "half"
+    },
+    {
+     "p": "label",
+     "text": "per accident (injury)",
+     "x": 50,
+     "y": 36.5,
+     "size": 3.6,
+     "at": 0,
+     "cue": "accident"
+    },
+    {
+     "id": "n3",
+     "p": "num",
+     "text": "$10,000",
+     "x": 50,
+     "y": 47,
+     "size": 5,
+     "color": "green",
+     "at": 0,
+     "cue": "skinny"
+    },
+    {
+     "p": "label",
+     "text": "property damage",
+     "x": 50,
+     "y": 53,
+     "size": 3.6,
+     "at": 0,
+     "cue": "property"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Policies issued after July 1, 2020 default to a quarter-million per person and a half-million per accident for injuries, plus a skinny ten grand for property.",
+     "say": "Policies issued after July first, twenty twenty default to a quarter-million per person and a half-million per accident for injuries, plus a skinny ten grand for property.",
+     "show": 3
+    },
+    {
+     "text": "Lower injury limits take a signed DIFS form that explains the risks, and never go below $50,000 and $100,000.",
+     "say": "Lower injury limits take a signed D I F S form that explains the risks, and never go below fifty thousand dollars and one hundred thousand dollars.",
+     "show": 4
+    },
+    {
+     "text": "Older materials may show $20,000, $40,000 and $10,000: the rule before July 2, 2020.",
+     "say": "Older materials may show twenty thousand dollars, forty thousand dollars and ten thousand dollars: the rule before July second, twenty twenty.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Rosa wants the lowest legal limits",
+   "src": "MCL 500.3009(1),(5),(7),(8); DIFS FIS-PUB 6310; memory hook mn_auto-03; questions auto-001, auto-002",
+   "ask": "How does Rosa get them?",
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 22,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "point"
+     }
+    },
+    {
+     "id": "form",
+     "p": "policy",
+     "x": 56,
+     "y": 26,
+     "h": 30,
+     "opt": {
+      "title": "DIFS FORM",
+      "tsize": 5.5
+     }
+    },
+    {
+     "p": "label",
+     "text": "Lower injury limits?",
+     "x": 56,
+     "y": 48,
+     "size": 4.4,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 100,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "rosa",
+      "pose": "think",
+      "mood": "neutral"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Lowest limits allowed, please!",
+     "x": 132,
+     "y": 12,
+     "w": 34,
+     "size": 4.4,
+     "to": "rosa"
+    }
+   ],
+   "beats": [
+    {
+     "text": "I want the lowest injury limits Michigan allows. How do I get them?",
+     "say": "I want the lowest injury limits Michigan allows. How do I get them?",
+     "voice": "rosa"
+    }
+   ],
+   "options": [
+    {
+     "label": "Sign the DIFS form for $50,000 and $100,000",
+     "ok": true,
+     "win": "Lower injury limits take the completed DIFS form, which explains the risks. $50,000 and $100,000 is the floor; property damage stays $10,000.",
+     "beats": [
+      {
+       "text": "Rosa reads the risks, signs, and gets $50,000 and $100,000.",
+       "say": "Rosa reads the risks, signs, and gets fifty thousand dollars and one hundred thousand dollars."
+      }
+     ],
+     "draw": [
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 22,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "form",
+       "p": "policy",
+       "x": 54,
+       "y": 27,
+       "h": 28,
+       "opt": {
+        "title": "DIFS FORM",
+        "tsize": 5,
+        "sign": true
+       }
+      },
+      {
+       "p": "check",
+       "x": 68,
+       "y": 12,
+       "h": 9
+      },
+      {
+       "p": "label",
+       "text": "$50,000 per person",
+       "x": 114,
+       "y": 15,
+       "size": 6,
+       "color": "green",
+       "bold": true,
+       "w": 76
+      },
+      {
+       "p": "label",
+       "text": "$100,000 per accident",
+       "x": 114,
+       "y": 27,
+       "size": 6,
+       "color": "green",
+       "bold": true,
+       "w": 76
+      },
+      {
+       "p": "label",
+       "text": "Property damage: still $10,000",
+       "x": 114,
+       "y": 40,
+       "size": 6,
+       "w": 76
+      }
+     ]
+    },
+    {
+     "label": "Ask for Dad's old $20,000 and $40,000",
+     "ok": false,
+     "fail": "$20,000 and $40,000 was the rule for policies before July 2, 2020. Today the lowest Rosa may choose is $50,000 and $100,000.",
+     "beats": [
+      {
+       "text": "Sorry, Rosa. Those limits ended in July 2020.",
+       "say": "Sorry, Rosa. Those limits ended in July twenty twenty.",
+       "voice": "dana"
+      }
+     ],
+     "draw": [
+      {
+       "id": "old",
+       "p": "policy",
+       "x": 32,
+       "y": 24,
+       "h": 28,
+       "opt": {
+        "title": "2019",
+        "tsize": 8
+       }
+      },
+      {
+       "p": "xout",
+       "on": "old",
+       "cue": "ended"
+      },
+      {
+       "p": "label",
+       "text": "Dad's old limits: $20,000 and $40,000",
+       "x": 32,
+       "y": 47,
+       "size": 4.4,
+       "w": 44,
+       "color": "red",
+       "cue": "ended"
+      },
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 102,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "stop",
+        "mood": "neutral"
+       },
+       "flip": true
+      },
+      {
+       "p": "bubble",
+       "text": "Those ended in July 2020!",
+       "x": 72,
+       "y": 9,
+       "w": 30,
+       "to": "dana"
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 134,
+       "y": 32,
+       "h": 32,
+       "opt": {
+        "who": "rosa",
+        "pose": "shrug",
+        "mood": "worried"
+       }
+      }
+     ],
+     "failAt": [
+      134,
+      7
+     ]
+    },
+    {
+     "label": "Skip the form and let Dana sort it out",
+     "ok": false,
+     "fail": "Lower limits need the completed DIFS form. With no effective choice, the $250,000 and $500,000 defaults apply.",
+     "beats": [
+      {
+       "text": "Rosa never completes the form. Blank form, blank check: big defaults.",
+       "say": "Rosa never completes the form. Blank form, blank check: big defaults."
+      }
+     ],
+     "draw": [
+      {
+       "id": "form",
+       "p": "policy",
+       "x": 28,
+       "y": 25,
+       "h": 30,
+       "opt": {
+        "title": "DIFS FORM",
+        "tsize": 5
+       }
+      },
+      {
+       "p": "label",
+       "text": "(blank)",
+       "x": 28,
+       "y": 47,
+       "size": 5,
+       "color": "gray",
+       "bold": true
+      },
+      {
+       "p": "arrow",
+       "from": "form",
+       "to": [
+        66,
+        28
+       ],
+       "bend": 0.1,
+       "cue": "defaults"
+      },
+      {
+       "id": "n1",
+       "p": "num",
+       "text": "$250,000",
+       "x": 82,
+       "y": 20,
+       "size": 8,
+       "color": "blue",
+       "cue": "defaults"
+      },
+      {
+       "id": "n2",
+       "p": "num",
+       "text": "$500,000",
+       "x": 82,
+       "y": 36,
+       "size": 8,
+       "color": "blue",
+       "cue": "defaults"
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 116,
+       "y": 32,
+       "h": 32,
+       "opt": {
+        "who": "rosa",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "label",
+       "text": "per person",
+       "x": 82,
+       "y": 27,
+       "size": 4.2,
+       "cue": "defaults"
+      },
+      {
+       "p": "label",
+       "text": "per accident",
+       "x": 82,
+       "y": 43,
+       "size": 4.2,
+       "cue": "defaults"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Lower limits need the signed DIFS form. Blank form? Big defaults.",
+     "say": "Lower limits need the signed D I F S form. Blank form? Big defaults."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Rosa's Saturday side gig: ride-share",
+   "src": "MCL 257.518b(1); question auto-006",
+   "draw": [
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 15,
+     "y": 33,
+     "h": 26,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "hold": "phone",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "divider",
+     "x": 80,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Logged on, no ride yet",
+     "x": 40,
+     "y": 6,
+     "size": 4.4,
+     "bold": true,
+     "at": 1,
+     "cue": "Logged"
+    },
+    {
+     "id": "car1",
+     "p": "car",
+     "x": 52,
+     "y": 32,
+     "h": 13,
+     "opt": {
+      "color": "purple"
+     },
+     "at": 1,
+     "cue": "Logged"
+    },
+    {
+     "id": "low",
+     "p": "label",
+     "text": "$50,000 and $100,000 bodily injury, $25,000 property damage",
+     "x": 40,
+     "y": 50,
+     "size": 4,
+     "w": 66,
+     "color": "blue",
+     "bold": true,
+     "at": 1,
+     "cue": "50,000"
+    },
+    {
+     "p": "label",
+     "text": "plus PIP and PPI",
+     "x": 40,
+     "y": 59,
+     "size": 4,
+     "at": 1,
+     "cue": "PIP"
+    },
+    {
+     "p": "label",
+     "text": "On a prearranged ride",
+     "x": 120,
+     "y": 6,
+     "size": 4.4,
+     "bold": true,
+     "at": 2,
+     "cue": "prearranged"
+    },
+    {
+     "id": "rosa2",
+     "p": "person",
+     "x": 92,
+     "y": 33,
+     "h": 26,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "hold": "phone",
+      "mood": "happy"
+     },
+     "at": 2,
+     "cue": "prearranged"
+    },
+    {
+     "id": "car2",
+     "p": "car",
+     "x": 116,
+     "y": 32,
+     "h": 13,
+     "opt": {
+      "color": "purple"
+     },
+     "at": 2,
+     "cue": "prearranged"
+    },
+    {
+     "id": "rider",
+     "p": "person",
+     "x": 143,
+     "y": 33,
+     "h": 26,
+     "opt": {
+      "who": "grandma",
+      "pose": "wave",
+      "mood": "happy"
+     },
+     "at": 2,
+     "cue": "prearranged"
+    },
+    {
+     "p": "arrow",
+     "from": "rider",
+     "to": "car2",
+     "label": "hops in",
+     "bend": -0.3,
+     "at": 2,
+     "cue": "prearranged"
+    },
+    {
+     "id": "csl",
+     "p": "num",
+     "text": "$1 million",
+     "x": 120,
+     "y": 48,
+     "size": 7,
+     "color": "blue",
+     "at": 2,
+     "cue": "million"
+    },
+    {
+     "p": "label",
+     "text": "combined single limit, plus PIP and PPI",
+     "x": 120,
+     "y": 56,
+     "size": 4,
+     "w": 70,
+     "at": 2,
+     "cue": "combined"
+    },
+    {
+     "p": "label",
+     "text": "(one limit for injuries and property damage together)",
+     "x": 120,
+     "y": 62,
+     "size": 3.6,
+     "w": 74,
+     "color": "gray",
+     "at": 2,
+     "cue": "combined"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Saturdays, Rosa drives for a ride-share app. Michigan sets special minimums.",
+     "say": "Saturdays, Rosa drives for a ride-share app. Michigan sets special minimums."
+    },
+    {
+     "text": "Logged on and available, no ride yet: at least $50,000 and $100,000 bodily injury and $25,000 property damage, plus PIP and PPI.",
+     "say": "Logged on and available, no ride yet: at least fifty thousand dollars and one hundred thousand dollars bodily injury and twenty-five thousand dollars property damage, plus P I P and P P I.",
+     "hl": "low"
+    },
+    {
+     "text": "On a prearranged ride: at least $1 million combined single limit, plus PIP and PPI.",
+     "say": "On a prearranged ride: at least one million dollars combined single limit, plus P I P and P P I.",
+     "hl": "csl"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Leo wants the keys",
+   "src": "MCL 500.3009(2); 500.3113(d); question auto-004",
+   "ask": "What does Rosa say?",
+   "draw": [
+    {
+     "id": "pol",
+     "p": "policy",
+     "x": 18,
+     "y": 28,
+     "h": 24,
+     "opt": {
+      "title": "POLICY"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Named excluded driver: Leo",
+     "x": 18,
+     "y": 50,
+     "size": 4.6,
+     "w": 34,
+     "color": "red",
+     "bold": true
+    },
+    {
+     "id": "leo",
+     "p": "person",
+     "x": 66,
+     "y": 32,
+     "h": 34,
+     "opt": {
+      "who": "person",
+      "hair": "spiky",
+      "shirt": "red",
+      "pose": "hold",
+      "hold": "gift",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Can I borrow it? I have a date!",
+     "x": 52,
+     "y": 7,
+     "w": 36,
+     "to": "leo"
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 110,
+     "y": 32,
+     "h": 34,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "hold": "key",
+      "mood": "worried"
+     }
+    },
+    {
+     "id": "car",
+     "p": "car",
+     "x": 141,
+     "y": 43,
+     "h": 15,
+     "opt": {
+      "color": "purple"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Rosa agreed to it: her policy won't cover her brother Leo behind the wheel. He's a named excluded driver. Now Leo wants the car. What does Rosa say?",
+     "say": "Rosa agreed to it: her policy won't cover her brother Leo behind the wheel. He's a named excluded driver. Now Leo wants the car. What does Rosa say?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Sure! I'm the policyholder, so we're covered",
+     "ok": false,
+     "fail": "In Michigan, when a named excluded driver drives, all liability coverage is void: no one is insured. And he gets no PIP.",
+     "beats": [
+      {
+       "text": "Crunch! Leo rear-ends a pickup. No one is insured for liability, and Leo gets no PIP.",
+       "say": "Crunch! Leo rear-ends a pickup. No one is insured for liability, and Leo gets no P I P."
+      }
+     ],
+     "draw": [
+      {
+       "id": "leo",
+       "p": "person",
+       "x": 16,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "hair": "spiky",
+        "shirt": "red",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "id": "car",
+       "p": "car",
+       "x": 56,
+       "y": 34,
+       "h": 16,
+       "opt": {
+        "color": "purple",
+        "dent": true
+       }
+      },
+      {
+       "id": "truck",
+       "p": "pickup",
+       "x": 104,
+       "y": 34,
+       "h": 16,
+       "opt": {
+        "color": "green"
+       }
+      },
+      {
+       "p": "crash",
+       "x": 80,
+       "y": 22,
+       "h": 14,
+       "over": true,
+       "sfx": "crash",
+       "cue": "Crunch"
+      },
+      {
+       "p": "stamp",
+       "text": "Liability void",
+       "x": 80,
+       "y": 51,
+       "color": "red",
+       "rot": -4,
+       "cue": "liability"
+      },
+      {
+       "p": "label",
+       "text": "No PIP for Leo",
+       "x": 18,
+       "y": 53,
+       "size": 4.4,
+       "color": "red",
+       "bold": true,
+       "cue": "PIP"
+      }
+     ]
+    },
+    {
+     "label": "No. I'll drive you to your date myself",
+     "ok": true,
+     "win": "Rosa isn't excluded, so her coverage applies while she drives. Only the excluded driver at the wheel voids it.",
+     "beats": [
+      {
+       "text": "Rosa drives. Leo rides along, embarrassed. Her coverage works as usual.",
+       "say": "Rosa drives. Leo rides along, embarrassed. Her coverage works as usual."
+      }
+     ],
+     "draw": [
+      {
+       "id": "car",
+       "p": "car",
+       "x": 42,
+       "y": 38,
+       "h": 17,
+       "opt": {
+        "color": "purple"
+       }
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 88,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "rosa",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "leo",
+       "p": "person",
+       "x": 110,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "hair": "spiky",
+        "shirt": "red",
+        "pose": "hold",
+        "hold": "gift",
+        "mood": "worried"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Covered",
+       "x": 140,
+       "y": 40,
+       "color": "green",
+       "rot": -6
+      }
+     ]
+    },
+    {
+     "label": "OK, but I'll ride along to keep you careful",
+     "ok": false,
+     "fail": "Riding along changes nothing. While the named excluded person drives, all liability coverage is void.",
+     "beats": [
+      {
+       "text": "Rosa rides shotgun. Doesn't matter: Leo drives, so no one is insured for liability.",
+       "say": "Rosa rides shotgun. Doesn't matter: Leo drives, so no one is insured for liability."
+      }
+     ],
+     "draw": [
+      {
+       "id": "car",
+       "p": "car",
+       "x": 38,
+       "y": 38,
+       "h": 17,
+       "opt": {
+        "color": "purple"
+       }
+      },
+      {
+       "id": "leo",
+       "p": "person",
+       "x": 80,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "hair": "spiky",
+        "shirt": "red",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 102,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "rosa",
+        "pose": "shrug",
+        "mood": "worried"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "I'm driving!",
+       "x": 58,
+       "y": 9,
+       "w": 22,
+       "to": "leo"
+      },
+      {
+       "p": "stamp",
+       "text": "Liability void",
+       "x": 92,
+       "y": 53,
+       "color": "red",
+       "rot": -6,
+       "cue": "liability"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "In Michigan, an excluded driver at the wheel voids all liability coverage, and he gets no PIP.",
+     "say": "In Michigan, an excluded driver at the wheel voids all liability coverage, and he gets no P I P."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "A fender bender, and the body shop",
+   "src": "MCL 257.1362(a),(e); 257.1363; question auto-045",
+   "draw": [
+    {
+     "id": "car",
+     "p": "car",
+     "x": 28,
+     "y": 36,
+     "h": 17,
+     "opt": {
+      "color": "purple",
+      "dent": true
+     }
+    },
+    {
+     "id": "mech",
+     "p": "person",
+     "x": 62,
+     "y": 36,
+     "h": 28,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "hold": "toolbox"
+     }
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 108,
+     "y": 19,
+     "h": 24,
+     "at": 1,
+     "cue": "insurer"
+    },
+    {
+     "p": "bubble",
+     "text": "Use non-OEM parts, please.",
+     "x": 140,
+     "y": 8,
+     "w": 32,
+     "to": "ins",
+     "at": 1,
+     "cue": "asks"
+    },
+    {
+     "id": "est",
+     "p": "note",
+     "text": "ESTIMATE: hood (non-OEM), fender (non-OEM). NOTICE: parts not from the car's maker",
+     "x": 128,
+     "y": 45,
+     "w": 46,
+     "at": 2,
+     "cue": "estimate"
+    },
+    {
+     "p": "label",
+     "text": "Notice in at least 10-point bold type",
+     "x": 128,
+     "y": 60,
+     "size": 4,
+     "bold": true,
+     "color": "red",
+     "w": 56,
+     "at": 2,
+     "cue": "bold"
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 86,
+     "y": 37,
+     "h": 26,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "hold": "clipboard",
+      "mood": "neutral"
+     },
+     "at": 2,
+     "cue": "Rosa"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Then a fender bender sends Rosa's car to the body shop.",
+     "say": "Then a fender bender sends Rosa's car to the body shop.",
+     "hl": "car"
+    },
+    {
+     "text": "The insurer asks for non-OEM crash parts: not made by or for the car's maker.",
+     "say": "The insurer asks for non O E M crash parts: not made by or for the car's maker.",
+     "hl": "ins"
+    },
+    {
+     "text": "Under Michigan's Aftermarket Crash Parts Act, the shop may use them only if Rosa gets a written estimate naming each one, with a notice in at least 10-point bold type.",
+     "say": "Under Michigan's Aftermarket Crash Parts Act, the shop may use them only if Rosa gets a written estimate naming each one, with a notice in at least ten-point bold type.",
+     "hl": "est"
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Rosa is giving a prearranged ride through a ride-share app. Michigan requires the liability coverage for that ride to be at least:",
+   "choices": [
+    "$50,000 and $100,000 bodily injury, plus $25,000 property damage",
+    "$250,000 and $500,000 bodily injury, plus $10,000 property damage",
+    "$500,000 combined single limit",
+    "$1 million combined single limit"
+   ],
+   "answer": 3,
+   "why": "On a prearranged ride: at least a $1 million combined single limit (one limit for injuries and property damage), plus PIP and PPI. $50,000, $100,000 and $25,000 is for logged on, no ride yet.",
+   "draw": [
+    {
+     "id": "car",
+     "p": "car",
+     "x": 40,
+     "y": 47,
+     "h": 15,
+     "opt": {
+      "color": "purple"
+     }
+    },
+    {
+     "p": "question",
+     "x": 40,
+     "y": 18,
+     "h": 14,
+     "color": "orange"
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 12,
+     "y": 42,
+     "h": 26,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "hold": "phone",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "rider",
+     "p": "person",
+     "x": 68,
+     "y": 42,
+     "h": 26,
+     "opt": {
+      "who": "grandma",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Pop quiz: Rosa is on a prearranged ride. What's the minimum?",
+     "say": "Pop quiz: Rosa is on a prearranged ride. What's the minimum?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$1 million combined single limit, plus PIP and PPI.",
+     "say": "One million dollars combined single limit, plus P I P and P P I."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Rosa rents a car: is she an owner?",
+   "src": "MCL 500.3101(1),(3)(l); 500.3102(1); questions auto-008, auto-009",
+   "kind": "Michigan rule",
+   "term": "Owner",
+   "plain": "In Michigan no-fault, the owner or registrant must insure the car. Anyone renting or using it for more than 30 days counts as an owner.",
+   "example": "Rosa rents a car for one week while hers is fixed: not an owner. Renting it for 60 days would make her one.",
+   "exam": "Another 30-day rule: a nonresident may drive a car not registered here an aggregate of 30 days per calendar year without Michigan no-fault.",
+   "draw": [
+    {
+     "id": "rent",
+     "p": "rental",
+     "x": 32,
+     "y": 21,
+     "h": 22,
+     "opt": {
+      "color": "purple"
+     }
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 66,
+     "y": 25,
+     "h": 26,
+     "opt": {
+      "who": "rosa",
+      "pose": "hold",
+      "hold": "key",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "c7",
+     "p": "calendar",
+     "x": 18,
+     "y": 46,
+     "h": 15,
+     "opt": {
+      "n": "7",
+      "label": "DAYS"
+     },
+     "at": 1,
+     "cue": "week"
+    },
+    {
+     "p": "label",
+     "text": "One week: not an owner",
+     "x": 18,
+     "y": 59,
+     "size": 3.8,
+     "color": "green",
+     "bold": true,
+     "at": 1,
+     "cue": "week",
+     "w": 28
+    },
+    {
+     "id": "c60",
+     "p": "calendar",
+     "x": 56,
+     "y": 46,
+     "h": 15,
+     "opt": {
+      "n": "60",
+      "label": "DAYS"
+     },
+     "at": 1,
+     "cue": "Sixty"
+    },
+    {
+     "p": "label",
+     "text": "60 days: owner",
+     "x": 56,
+     "y": 59,
+     "size": 3.8,
+     "color": "red",
+     "bold": true,
+     "at": 1,
+     "cue": "Sixty",
+     "w": 28
+    }
+   ],
+   "beats": [
+    {
+     "text": "With her car in the shop, Rosa rents one for a week. Is she an owner? Owners include anyone renting or using a car over 30 days.",
+     "say": "With her car in the shop, Rosa rents one for a week. Is she an owner? Owners include anyone renting or using a car over thirty days.",
+     "show": 2
+    },
+    {
+     "text": "One week? Not an owner. Sixty days? Owner.",
+     "say": "One week? Not an owner. Sixty days? Owner.",
+     "show": 3
+    },
+    {
+     "text": "Another 30: a nonresident may drive a car not registered here up to 30 days in all per calendar year, without Michigan no-fault.",
+     "say": "Another thirty: a nonresident may drive a car not registered here up to thirty days in all per calendar year, without Michigan no-fault.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Rear-ended near Traverse City: who pays Rosa's PIP?",
+   "src": "MCL 500.3114(1),(3)-(5); 500.3115 (2019 PA 21); MCL 257.401(3); hooks mn_auto-10, -11; questions auto-029, auto-047",
+   "draw": [
+    {
+     "id": "rent",
+     "p": "rental",
+     "x": 24,
+     "y": 17,
+     "h": 20,
+     "opt": {
+      "color": "purple"
+     }
+    },
+    {
+     "p": "crash",
+     "x": 8,
+     "y": 24,
+     "h": 10,
+     "over": true,
+     "cue": "rear",
+     "sfx": "crash",
+     "out": 5
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 50,
+     "y": 28,
+     "h": 24,
+     "opt": {
+      "who": "rosa",
+      "pose": "sad",
+      "mood": "sad"
+     },
+     "out": 5
+    },
+    {
+     "id": "table",
+     "p": "box",
+     "x": 92,
+     "y": 40,
+     "w": 54,
+     "hh": 3,
+     "fill": "brown",
+     "at": 2,
+     "cue": "kitchen"
+    },
+    {
+     "p": "line",
+     "from": [
+      70,
+      42
+     ],
+     "to": [
+      70,
+      54
+     ],
+     "at": 2,
+     "cue": "kitchen"
+    },
+    {
+     "p": "line",
+     "from": [
+      114,
+      42
+     ],
+     "to": [
+      114,
+      54
+     ],
+     "at": 2,
+     "cue": "kitchen"
+    },
+    {
+     "p": "label",
+     "text": "Kitchen table",
+     "x": 92,
+     "y": 58,
+     "size": 4.2,
+     "bold": true,
+     "at": 2,
+     "cue": "kitchen"
+    },
+    {
+     "id": "p1",
+     "p": "policy",
+     "x": 110,
+     "y": 25,
+     "h": 13,
+     "opt": {
+      "title": ""
+     },
+     "at": 2,
+     "cue": "Yours",
+     "label": "Rosa's",
+     "lsize": 3.8
+    },
+    {
+     "id": "p2",
+     "p": "policy",
+     "x": 92,
+     "y": 25,
+     "h": 13,
+     "opt": {
+      "title": ""
+     },
+     "at": 2,
+     "cue": "spouse",
+     "label": "Spouse's",
+     "lsize": 3.8
+    },
+    {
+     "id": "p3",
+     "p": "policy",
+     "x": 71,
+     "y": 25,
+     "h": 13,
+     "opt": {
+      "title": ""
+     },
+     "at": 2,
+     "cue": "relative",
+     "label": "Live-in relative's",
+     "lsize": 3.6,
+     "lw": 26
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 144,
+     "y": 18,
+     "h": 20,
+     "at": 3,
+     "cue": "own"
+    },
+    {
+     "p": "arrow",
+     "from": "p1",
+     "to": "ins",
+     "label": "pays first",
+     "color": "green",
+     "bend": -0.15,
+     "at": 3,
+     "cue": "own"
+    },
+    {
+     "id": "van",
+     "p": "van",
+     "x": 144,
+     "y": 48,
+     "h": 11,
+     "opt": {
+      "name": "WORK"
+     },
+     "label": "Employer's vehicle: its insurer",
+     "lsize": 3.6,
+     "lw": 30,
+     "at": 3,
+     "cue": "employer"
+    },
+    {
+     "id": "moto",
+     "p": "motorcycle",
+     "x": 26,
+     "y": 47,
+     "h": 10,
+     "label": "Motorcyclist: other car's insurer first",
+     "lsize": 3.6,
+     "lw": 34,
+     "at": 3,
+     "cue": "Motorcyclist",
+     "out": 5
+    },
+    {
+     "id": "macp",
+     "p": "note",
+     "text": "Empty table? Michigan Assigned Claims Plan",
+     "x": 92,
+     "y": 11,
+     "w": 40,
+     "at": 4,
+     "cue": "Nothing"
+    },
+    {
+     "id": "cap",
+     "p": "note",
+     "text": "Renter hurts someone? Rental of 30 days or less, company not negligent: liable as owner up to $20,000 and $40,000",
+     "x": 30,
+     "y": 52,
+     "w": 48,
+     "paper": "pink",
+     "at": 5,
+     "cue": "hurts"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Near Traverse City, a driver rear-ends Rosa's rental.",
+     "say": "Near Traverse City, a driver rear-ends Rosa's rental.",
+     "hl": "rent"
+    },
+    {
+     "text": "Ow! His insurer pays my PIP, right?",
+     "say": "Ow! His insurer pays my P I P, right?",
+     "voice": "rosa",
+     "hl": "rosa"
+    },
+    {
+     "text": "No. PIP is no-fault. Kitchen-table rule: first, the policies on your own table. Yours, your spouse's, or a relative's who lives with you.",
+     "say": "No. P I P is no-fault. Kitchen-table rule: first, the policies on your own table. Yours, your spouse's, or a relative's who lives with you.",
+     "hl": [
+      "p1",
+      "p2",
+      "p3"
+     ]
+    },
+    {
+     "text": "So Rosa's own insurer pays. Key exceptions: hurt in your employer's vehicle? Its insurer pays. Motorcyclist hit by a car? The car owner's insurer first.",
+     "say": "So Rosa's own insurer pays. Key exceptions: hurt in your employer's vehicle? Its insurer pays. Motorcyclist hit by a car? The car owner's insurer first.",
+     "hl": "ins"
+    },
+    {
+     "text": "Nothing on the table? Under the 2019 amendments, the Michigan Assigned Claims Plan.",
+     "say": "Nothing on the table? Under the twenty nineteen amendments, the Michigan Assigned Claims Plan.",
+     "hl": "macp"
+    },
+    {
+     "text": "Another rental rule: on rentals of 30 days or less, if the renter's driving hurts someone, a rental company that wasn't negligent is liable as owner only up to $20,000 per person and $40,000 per accident. Same numbers as the old limits, but still the law.",
+     "say": "Another rental rule: on rentals of thirty days or less, if the renter's driving hurts someone, a rental company that wasn't negligent is liable as owner only up to twenty thousand dollars per person and forty thousand dollars per accident. Same numbers as the old limits, but still the law.",
+     "hl": "cap"
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Who pays PIP first?",
+   "src": "MCL 500.3114(1),(3)-(5); 500.3115, as amended by 2019 PA 21; questions auto-026 to auto-029, auto-047",
+   "bins": [
+    {
+     "name": "Own or household"
+    },
+    {
+     "name": "Work vehicle's insurer"
+    },
+    {
+     "name": "Assigned Claims Plan"
+    }
+   ],
+   "items": [
+    {
+     "text": "Rosa, hurt in her one-week rental",
+     "bin": 0,
+     "why": "A one-week renter isn't an owner. Her own policy pays first."
+    },
+    {
+     "text": "Rosa's coworker, hurt driving the company's truck",
+     "bin": 1,
+     "why": "An employee in a vehicle owned or registered by the employer: that vehicle's insurer pays."
+    },
+    {
+     "text": "A Lansing resident hit while walking; no policy, lives alone",
+     "bin": 2,
+     "why": "No own or household policy: under the 2019 amendments, the Michigan Assigned Claims Plan."
+    },
+    {
+     "text": "Teen passenger, no policy, lives with his insured mom",
+     "bin": 0,
+     "why": "A relative living in the same household: his mom's policy pays first."
+    },
+    {
+     "text": "Jen, hurt driving her employer's van; she has her own policy",
+     "bin": 1,
+     "why": "The employer's vehicle rule comes first: that vehicle's insurer pays, not her own policy."
+    },
+    {
+     "text": "Hurt riding in a friend's car; no own or household policy",
+     "bin": 2,
+     "why": "Under the 2019 amendments, an occupant with no own or household policy claims through the Assigned Claims Plan."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: who pays each person's PIP first?",
+     "say": "Your turn: who pays each person's P I P first?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Employer's vehicle? Its insurer. Motorcyclist hit by a car? The car owner's insurer. Otherwise, usually your own kitchen table. Nothing there? The Assigned Claims Plan.",
+     "say": "Employer's vehicle? Its insurer. Motorcyclist hit by a car? The car owner's insurer. Otherwise, usually your own kitchen table. Nothing there? The Assigned Claims Plan."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Michigan's safety net: the placement facility",
+   "src": "MCL 500.3301; 500.3365(3); 500.3171(2); 500.3172(7); 500.3174; memory hook mn_auto-19; questions auto-011, auto-012, auto-039, auto-040",
+   "draw": [
+    {
+     "p": "label",
+     "text": "MAIPF: Michigan Automobile Insurance Placement Facility",
+     "x": 66,
+     "y": 6,
+     "size": 4,
+     "w": 64,
+     "bold": true,
+     "color": "blue",
+     "cue": "Placement"
+    },
+    {
+     "id": "members",
+     "p": "insurer",
+     "x": 18,
+     "y": 22,
+     "h": 18
+    },
+    {
+     "id": "m2",
+     "p": "insurer",
+     "x": 18,
+     "y": 48,
+     "h": 18
+    },
+    {
+     "id": "maipf",
+     "p": "insurer",
+     "x": 66,
+     "y": 30,
+     "h": 26,
+     "opt": {
+      "name": "MAIPF"
+     }
+    },
+    {
+     "p": "arrow",
+     "from": "members",
+     "to": "maipf",
+     "bend": 0.05
+    },
+    {
+     "p": "arrow",
+     "from": "m2",
+     "to": "maipf",
+     "bend": -0.05
+    },
+    {
+     "id": "walt",
+     "p": "person",
+     "x": 122,
+     "y": 33,
+     "h": 28,
+     "opt": {
+      "who": "neighbor",
+      "pose": "hold",
+      "hold": "policy",
+      "mood": "happy"
+     },
+     "label": "Walt",
+     "lsize": 4,
+     "at": 0,
+     "cue": "Walt"
+    },
+    {
+     "p": "bubble",
+     "text": "Nobody would insure me the ordinary way.",
+     "x": 136,
+     "y": 8,
+     "w": 36,
+     "to": "walt",
+     "at": 1,
+     "out": 2
+    },
+    {
+     "id": "mail",
+     "p": "envelope",
+     "x": 147,
+     "y": 50,
+     "h": 14,
+     "opt": {
+      "open": true
+     }
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 44,
+     "y": 58,
+     "h": 17,
+     "opt": {
+      "n": "1 yr",
+      "size": 12
+     }
+    },
+    {
+     "id": "macp",
+     "p": "folder",
+     "x": 70,
+     "y": 58,
+     "h": 16,
+     "opt": {
+      "label": "CLAIMS"
+     }
+    },
+    {
+     "id": "cap",
+     "p": "moneybag",
+     "x": 99,
+     "y": 49,
+     "h": 16
+    },
+    {
+     "p": "num",
+     "text": "$250,000 cap",
+     "x": 99,
+     "y": 61.5,
+     "size": 5,
+     "color": "green"
+    },
+    {
+     "p": "arrow",
+     "from": "maipf",
+     "to": "macp",
+     "bend": 0
+    },
+    {
+     "id": "s_members",
+     "p": "sparkle",
+     "x": 27,
+     "y": 14,
+     "h": 5,
+     "over": true
+    },
+    {
+     "id": "s_walt",
+     "p": "sparkle",
+     "x": 130,
+     "y": 21,
+     "h": 5,
+     "over": true
+    },
+    {
+     "id": "s_mail",
+     "p": "sparkle",
+     "x": 155,
+     "y": 43,
+     "h": 5,
+     "over": true
+    },
+    {
+     "id": "s_macp",
+     "p": "sparkle",
+     "x": 78,
+     "y": 50,
+     "h": 5,
+     "over": true
+    },
+    {
+     "id": "s_cal",
+     "p": "sparkle",
+     "x": 52,
+     "y": 50,
+     "h": 5,
+     "over": true
+    },
+    {
+     "id": "s_cap",
+     "p": "sparkle",
+     "x": 106,
+     "y": 42,
+     "h": 5,
+     "over": true
+    }
+   ],
+   "spots": [
+    {
+     "on": "s_members",
+     "label": "Every auto insurer",
+     "text": "Every insurer authorized to write auto insurance in Michigan must take part in the Michigan Automobile Insurance Placement Facility."
+    },
+    {
+     "on": "s_walt",
+     "label": "Guaranteed coverage",
+     "text": "Walt couldn't get auto insurance through ordinary methods. The facility exists to guarantee coverage for people like him."
+    },
+    {
+     "on": "s_mail",
+     "label": "Yearly notice",
+     "text": "At least once each year, facility insureds must be told the standards for buying insurance in the voluntary (regular) market."
+    },
+    {
+     "on": "s_macp",
+     "label": "Runs the Assigned Claims Plan",
+     "text": "The facility runs the Michigan Assigned Claims Plan, where people with no own or household policy claim PIP."
+    },
+    {
+     "on": "s_cal",
+     "label": "Notice within 1 year",
+     "text": "Claiming through the plan? Notify the facility within 1 year after the accident."
+    },
+    {
+     "on": "s_cap",
+     "label": "$250,000 medical cap",
+     "text": "Medical benefits through the plan are generally capped at $250,000."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Who runs that plan? The Michigan Automobile Insurance Placement Facility, or MAIPF. Its main job? Meet Rosa's neighbor Walt.",
+     "say": "Who runs that plan? The Michigan Automobile Insurance Placement Facility, or M A I P F. Its main job? Meet Rosa's neighbor Walt.",
+     "hl": "maipf"
+    },
+    {
+     "text": "Nobody would insure me the ordinary way.",
+     "say": "Nobody would insure me the ordinary way.",
+     "voice": "neighbor",
+     "hl": "walt"
+    },
+    {
+     "text": "Tap the glowing spots.",
+     "say": "Tap the glowing spots."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Every auto insurer must take part. It guarantees coverage for people like Walt and runs the plan. Claimants tell it within a year after the accident.",
+     "say": "Every auto insurer must take part. It guarantees coverage for people like Walt and runs the plan. Claimants tell it within a year after the accident."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Chapter 32 auto cancellations: the 55-day speed limit",
+   "src": "MCL 500.3204(2), 3208, 3212, 3220, 3224, 3230; MCL 500.2123; adapted from memory hook mn_auto-18; question auto-044",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Essential Insurance Act (not nonpayment): 30 days, 20 in first 55",
+     "x": 92,
+     "y": 5,
+     "size": 3.8,
+     "w": 130,
+     "bg": "yellow",
+     "at": 3,
+     "cue": "Essential"
+    },
+    {
+     "p": "label",
+     "text": "Separate law:",
+     "x": 22,
+     "y": 5,
+     "size": 3.8,
+     "bold": true,
+     "color": "red",
+     "at": 3,
+     "cue": "separate"
+    },
+    {
+     "p": "divider",
+     "x": 42,
+     "y": 37,
+     "y0": 11,
+     "y1": 62,
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 82,
+     "y": 37,
+     "y0": 11,
+     "y1": 62,
+     "at": 2
+    },
+    {
+     "p": "divider",
+     "x": 122,
+     "y": 37,
+     "y0": 11,
+     "y1": 62,
+     "at": 2
+    },
+    {
+     "id": "sign",
+     "p": "sign",
+     "x": 22,
+     "y": 27,
+     "h": 28,
+     "opt": {
+      "text": "LIMIT\n55"
+     },
+     "cue": "55"
+    },
+    {
+     "p": "label",
+     "text": "First 55 days: may cancel for unacceptable risk. No appeal.",
+     "x": 22,
+     "y": 52,
+     "size": 3.8,
+     "w": 36,
+     "at": 1,
+     "cue": "unacceptable"
+    },
+    {
+     "id": "lic",
+     "p": "idcard",
+     "x": 62,
+     "y": 23,
+     "h": 13,
+     "opt": {
+      "title": "LICENSE"
+     },
+     "at": 1,
+     "cue": "license"
+    },
+    {
+     "p": "xout",
+     "on": "lic",
+     "at": 1,
+     "cue": "final"
+    },
+    {
+     "p": "label",
+     "text": "After day 55 or renewal: only a final license suspension or revocation",
+     "x": 62,
+     "y": 48,
+     "size": 3.8,
+     "w": 36,
+     "at": 1,
+     "cue": "After"
+    },
+    {
+     "id": "env",
+     "p": "envelope",
+     "x": 102,
+     "y": 21,
+     "h": 14,
+     "opt": {
+      "seal": true
+     },
+     "at": 2,
+     "cue": "certified"
+    },
+    {
+     "p": "label",
+     "text": "CERTIFIED",
+     "x": 102,
+     "y": 32,
+     "size": 4.4,
+     "bold": true,
+     "color": "blue",
+     "at": 2,
+     "cue": "certified"
+    },
+    {
+     "p": "label",
+     "text": "Cancel: at least 20 days ahead, reasons, bold 7-day appeal notice",
+     "x": 102,
+     "y": 48,
+     "size": 3.8,
+     "w": 36,
+     "at": 2,
+     "cue": "Cancel"
+    },
+    {
+     "id": "box",
+     "p": "mailbox",
+     "x": 142,
+     "y": 23,
+     "h": 18,
+     "at": 2,
+     "cue": "Nonrenew"
+    },
+    {
+     "p": "label",
+     "text": "Nonrenew: first-class mail, at least 20 days ahead. Not a cancellation",
+     "x": 142,
+     "y": 48,
+     "size": 3.8,
+     "w": 34,
+     "at": 2,
+     "cue": "Nonrenew"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Ninety days in, Rosa's insurer wants out. Michigan's Chapter 32 posts a speed limit: 55.",
+     "say": "Ninety days in, Rosa's insurer wants out. Michigan's Chapter thirty-two posts a speed limit: fifty-five.",
+     "hl": "sign"
+    },
+    {
+     "text": "In the first 55 days, it may cancel for unacceptable risk, no appeal. After that, or at once on a renewal, only for a final license suspension or revocation: the named insured's, or a household or customary driver's.",
+     "say": "In the first fifty-five days, it may cancel for unacceptable risk, no appeal. After that, or at once on a renewal, only for a final license suspension or revocation: the named insured's, or a household or customary driver's.",
+     "hl": "lic"
+    },
+    {
+     "text": "Cancel by certified mail, at least 20 days ahead, with reasons and a 7-day appeal notice. Nonrenew by normal first-class mail, same 20 days: not a cancellation.",
+     "say": "Cancel by certified mail, at least twenty days ahead, with reasons and a seven-day appeal notice. Nonrenew by normal first-class mail, same twenty days: not a cancellation.",
+     "hl": [
+      "env",
+      "box"
+     ]
+    },
+    {
+     "text": "Nonpayment is outside Chapter 32. Watch out: a separate law, the Essential Insurance Act, requires 30 days' notice for reasons other than nonpayment, or 20 in the first 55. Check the statute named.",
+     "say": "Nonpayment is outside Chapter thirty-two. Watch out: a separate law, the Essential Insurance Act, requires thirty days' notice for reasons other than nonpayment, or twenty in the first fifty-five. Check the statute named."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "The insurer's letter",
+   "src": "MCL 500.3204(2); 500.3220; 500.3224(2),(3); 500.3230; questions auto-042, auto-043",
+   "ask": "Under Chapter 32, how to cancel?",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 22,
+     "y": 27,
+     "h": 32
+    },
+    {
+     "id": "uw",
+     "p": "person",
+     "x": 58,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "boss",
+      "pose": "think",
+      "mood": "smirk"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "How do we cancel this one?",
+     "x": 80,
+     "y": 9,
+     "w": 30,
+     "to": "uw",
+     "think": true
+    },
+    {
+     "id": "jay",
+     "p": "person",
+     "x": 108,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "shirt": "teal",
+      "glasses": true,
+      "pose": "sad",
+      "mood": "sad"
+     },
+     "label": "Jay",
+     "lsize": 4
+    },
+    {
+     "id": "lic",
+     "p": "idcard",
+     "x": 140,
+     "y": 22,
+     "h": 12,
+     "opt": {
+      "title": "LICENSE"
+     }
+    },
+    {
+     "p": "xout",
+     "on": "lic"
+    },
+    {
+     "p": "label",
+     "text": "Suspension: final",
+     "x": 140,
+     "y": 35,
+     "size": 4,
+     "color": "red",
+     "bold": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "Day 90: Jay, Rosa's roommate who drives her car daily, has his license suspended, and it's final. Under Chapter 32, how should the insurer cancel?",
+     "say": "Day ninety: Jay, Rosa's roommate who drives her car daily, has his license suspended, and it's final. Under Chapter thirty-two, how should the insurer cancel?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Cancel, calling Rosa an unacceptable risk",
+     "ok": false,
+     "fail": "Unacceptable risk is a reason only in the first 55 days. After that, Chapter 32 allows only a final license suspension or revocation.",
+     "beats": [
+      {
+       "text": "Too late. After day 55, unacceptable risk is off the table.",
+       "say": "Too late. After day fifty-five, unacceptable risk is off the table."
+      }
+     ],
+     "draw": [
+      {
+       "id": "sign",
+       "p": "sign",
+       "x": 28,
+       "y": 28,
+       "h": 32,
+       "opt": {
+        "text": "LIMIT\n55"
+       }
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 68,
+       "y": 24,
+       "h": 22,
+       "opt": {
+        "n": "90",
+        "label": "DAY"
+       },
+       "label": "Day 90",
+       "lsize": 4.4
+      },
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 104,
+       "y": 26,
+       "h": 26,
+       "opt": {
+        "title": "CANCEL",
+        "tcolor": "red",
+        "tsize": 7
+       }
+      },
+      {
+       "p": "xout",
+       "on": "pol",
+       "cue": "late"
+      },
+      {
+       "p": "label",
+       "text": "Unacceptable risk: first 55 days only",
+       "x": 80,
+       "y": 52,
+       "size": 4.4,
+       "color": "red",
+       "bold": true,
+       "w": 100
+      }
+     ]
+    },
+    {
+     "label": "Cancel over Jay: first-class, 20 days ahead",
+     "ok": false,
+     "fail": "First-class mail at least 20 days ahead is the nonrenewal rule. A Chapter 32 cancellation goes by certified mail.",
+     "beats": [
+      {
+       "text": "Wrong envelope. First-class mail is for nonrenewal. A cancellation goes certified.",
+       "say": "Wrong envelope. First-class mail is for nonrenewal. A cancellation goes certified."
+      }
+     ],
+     "draw": [
+      {
+       "id": "uw",
+       "p": "person",
+       "x": 24,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "boss",
+        "pose": "hold",
+        "hold": "envelope",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "box",
+       "p": "mailbox",
+       "x": 62,
+       "y": 30,
+       "h": 30
+      },
+      {
+       "p": "label",
+       "text": "First-class mail? That's for nonrenewal.",
+       "x": 112,
+       "y": 36,
+       "size": 4.6,
+       "w": 52,
+       "color": "red",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "label": "Cancel over Jay: certified, 20 days ahead",
+     "ok": true,
+     "win": "Under Chapter 32, after day 55, a final license suspension is a valid reason. Certified, at least 20 days ahead, reasons, bold 7-day appeal notice.",
+     "beats": [
+      {
+       "text": "Certified, 20 days ahead, with the reason and a bold 7-day appeal notice.",
+       "say": "Certified, twenty days ahead, with the reason and a bold seven-day appeal notice."
+      }
+     ],
+     "draw": [
+      {
+       "id": "env",
+       "p": "envelope",
+       "x": 21,
+       "y": 19,
+       "h": 26,
+       "opt": {
+        "seal": true
+       }
+      },
+      {
+       "p": "label",
+       "text": "CERTIFIED",
+       "x": 21,
+       "y": 37,
+       "size": 6,
+       "bold": true,
+       "color": "blue"
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 57,
+       "y": 20,
+       "h": 26,
+       "opt": {
+        "n": "20",
+        "label": "DAYS"
+       }
+      },
+      {
+       "p": "label",
+       "text": "at least 20 days ahead",
+       "x": 57,
+       "y": 40,
+       "size": 4.6,
+       "w": 32
+      },
+      {
+       "id": "note",
+       "p": "note",
+       "text": "Reason: Jay's final suspension. You may appeal within 7 days of mailing.",
+       "x": 102,
+       "y": 22,
+       "w": 50,
+       "size": 5.2
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 146,
+       "y": 30,
+       "h": 40,
+       "opt": {
+        "who": "rosa",
+        "pose": "hold",
+        "hold": "envelope",
+        "mood": "worried"
+       }
+      }
+     ]
+    },
+    {
+     "label": "Cancel over Jay: certified, 5 days ahead",
+     "ok": false,
+     "fail": "A Chapter 32 cancellation notice must be mailed at least 20 days before it takes effect.",
+     "beats": [
+      {
+       "text": "Too short! 20 days, minimum.",
+       "say": "Too short! Twenty days, minimum."
+      }
+     ],
+     "draw": [
+      {
+       "id": "env",
+       "p": "envelope",
+       "x": 30,
+       "y": 22,
+       "h": 20,
+       "opt": {
+        "seal": true
+       }
+      },
+      {
+       "p": "label",
+       "text": "CERTIFIED",
+       "x": 30,
+       "y": 37,
+       "size": 5.5,
+       "bold": true,
+       "color": "blue"
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 72,
+       "y": 24,
+       "h": 24,
+       "opt": {
+        "n": "5",
+        "label": "DAYS"
+       },
+       "label": "Only 5 days ahead",
+       "lsize": 4.4
+      },
+      {
+       "p": "stamp",
+       "text": "Too short",
+       "x": 72,
+       "y": 50,
+       "color": "red",
+       "rot": -6,
+       "cue": "short"
+      },
+      {
+       "id": "rosa",
+       "p": "person",
+       "x": 112,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "rosa",
+        "pose": "hold",
+        "hold": "envelope",
+        "mood": "shocked"
+       }
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Chapter 32: cancel certified, nonrenew normal first-class, both at least 20 days ahead.",
+     "say": "Chapter thirty-two: cancel certified, nonrenew normal first-class, both at least twenty days ahead."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Defaults $250,000 and $500,000; DIFS form floor $50,000 and $100,000",
+    "Phone proof counts; driving uninsured is a misdemeanor",
+    "Excluded driver at the wheel: no liability coverage, no PIP for him",
+    "PIP: work car, kitchen table, Claims Plan; motorcyclist: the other car",
+    "Chapter 32 after day 55: only a final license loss; cancel certified"
+   ],
+   "draw": [
+    {
+     "id": "car",
+     "p": "car",
+     "x": 41,
+     "y": 49,
+     "h": 14,
+     "opt": {
+      "color": "purple"
+     }
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 16,
+     "y": 40,
+     "h": 30,
+     "opt": {
+      "who": "rosa",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 66,
+     "y": 40,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "michigan",
+     "x": 41,
+     "y": 16,
+     "h": 20,
+     "opt": {
+      "pin": "lansing"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Big defaults unless you sign. Phone proof works. Excluded drivers stay off the wheel.",
+     "say": "Big defaults unless you sign. Phone proof works. Excluded drivers stay off the wheel.",
+     "show": 3
+    },
+    {
+     "text": "PIP usually starts at your kitchen table. Under Chapter 32, after day 55, only a final license loss cancels.",
+     "say": "P I P usually starts at your kitchen table. Under Chapter thirty-two, after day fifty-five, only a final license loss cancels.",
+     "show": 5
+    },
+    {
+     "text": "Year two can't be worse. Right?",
+     "say": "Year two can't be worse. Right?",
+     "voice": "rosa",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "auto-001",
+  "auto-008",
+  "auto-042",
+  "auto-043",
+  "auto-047"
+ ],
+ "hooks": [
+  "mn-mn_auto-14",
+  "mn-mn_auto-03",
+  "mn-mn_auto-10",
+  "mn-mn_auto-19",
+  "mn-mn_auto-18"
+ ],
+ "sources": [
+  "MCL 500.3009(1),(2),(5)-(8)",
+  "DIFS FIS-PUB 6310",
+  "MCL 500.3101(1),(3)(l)",
+  "MCL 500.3102(1),(2)",
+  "MCL 257.328(1),(6)",
+  "MCL 500.3113(d)",
+  "MCL 257.518b",
+  "MCL 257.1362, 257.1363",
+  "MCL 500.3105(2)",
+  "MCL 500.3114(1),(3)-(5); 500.3115 (2019 PA 21)",
+  "MCL 257.401(3),(4)",
+  "MCL 500.3301; 500.3365(3)",
+  "MCL 500.3171(2); 500.3172(7); 500.3174",
+  "MCL 500.3204(2), 3208, 3212, 3220, 3224, 3230",
+  "MCL 500.2123",
+  "Memory hooks mn-mn_auto-03, -10, -11, -14, -18, -19"
+ ]
 }

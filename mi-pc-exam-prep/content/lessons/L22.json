@@ -3,7 +3,7 @@
  "sec": "wc",
  "guide": "wc",
  "title": "Workers' compensation: Michigan law, the policy and premium",
- "summary": "Michigan's comp act, the federal acts, the six-part WC policy, and how to figure premium from payroll, rate and experience mod.",
+ "summary": "Follow Tony's Pizza through one slippery Friday: who must carry comp, what it covers and pays, three federal acts, the policy and the premium.",
  "objectives": [
   "Explain the exclusive remedy and which Michigan employers must carry comp",
   "Tell covered from uncovered injuries; know the waiting period and 80% benefit",
@@ -13,356 +13,2278 @@
  "scenes": [
   {
    "type": "title",
-   "title": "Workers' compensation",
-   "subtitle": "Michigan's act, the federal acts, the six-part policy, and the premium math",
-   "icon": "hard-hat",
-   "beats": [
+   "title": "Tony's Pizza and the slippery Friday",
+   "subtitle": "Michigan's comp act, three federal acts, the six-part policy and the premium (WC 00 00 00 C, Ed. 1-15)",
+   "draw": [
     {
-     "text": "Workers' comp is 5% of your exam, about 8 questions.",
-     "say": "Workers' comp is five percent of your exam, about eight questions."
+     "id": "shop",
+     "p": "restaurant",
+     "x": 24,
+     "y": 25,
+     "h": 32,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-     "text": "In this lesson: who must carry it, what it pays, federal acts, the policy, and premium math.",
-     "say": "In this lesson: who must carry it, what it pays, federal acts, the policy, and premium math."
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "In Michigan: the exclusive remedy",
-   "src": "MCL 418.131(1)",
-   "items": [
-    {
-     "label": "Comp is the only remedy",
-     "detail": "Against the employer, for a work injury or occupational disease",
-     "icon": "lock"
+     "p": "person",
+     "x": 52,
+     "y": 43,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "wave",
+      "mood": "happy"
+     },
+     "id": "tony"
     },
     {
-     "label": "One exception: an intentional tort",
-     "detail": "A deliberate act; the employer specifically intended an injury",
-     "icon": "gavel"
+     "p": "person",
+     "x": 67,
+     "y": 44,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pizza",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "shirt": "orange",
+      "hatColor": "orange"
+     },
+     "id": "marco",
+     "at": 0,
+     "cue": "Marco",
+     "anim": "slide-l"
     },
     {
-     "label": "Deemed intent",
-     "detail": "Actual knowledge an injury was certain, willfully disregarded",
-     "icon": "eye"
+     "p": "person",
+     "x": 81,
+     "y": 44,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "pose": "wave",
+      "mood": "happy",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "hair": "pony",
+      "shirt": "teal",
+      "hatColor": "teal"
+     },
+     "id": "lily",
+     "at": 0,
+     "cue": "Lily",
+     "anim": "slide-l"
     },
     {
-     "label": "Not enough: negligence",
-     "detail": "Even gross negligence is not an intentional tort",
-     "icon": "ban"
+     "id": "wet",
+     "p": "water",
+     "x": 72,
+     "y": 60,
+     "w": 26,
+     "over": true,
+     "at": 0,
+     "cue": "slippery"
+    },
+    {
+     "id": "sign",
+     "p": "warning",
+     "x": 24,
+     "y": 52,
+     "h": 10,
+     "at": 0,
+     "cue": "slippery",
+     "label": "Wet floor",
+     "lsize": 3.6
     }
    ],
    "beats": [
     {
-     "text": "In Michigan, comp benefits are the employee's exclusive remedy against the employer.",
-     "say": "In Michigan, comp benefits are the employee's exclusive remedy against the employer.",
-     "show": 1
+     "text": "Rewind to before Tony hired drivers and others. Friday night at Tony's Pizza in Detroit: Marco and Lily sling dough, and the floor's getting slippery.",
+     "say": "Rewind to before Tony hired drivers and others. Friday night at Tony's Pizza in Detroit: Marco and Lily sling dough, and the floor's getting slippery."
     },
     {
-     "text": "The only exception is an intentional tort: a deliberate act with specific intent to injure.",
-     "say": "The only exception is an intentional tort: a deliberate act with specific intent to injure.",
-     "show": 2
-    },
-    {
-     "text": "Intent is deemed if the employer knew an injury was certain and willfully disregarded it.",
-     "say": "Intent is deemed if the employer knew an injury was certain and willfully disregarded it.",
-     "show": 3
-    },
-    {
-     "text": "Here's the trap: even gross negligence isn't enough, and knowing an injury was possible isn't knowing it was certain.",
-     "say": "Here's the trap: even gross negligence isn't enough, and knowing an injury was possible isn't knowing it was certain.",
-     "show": 4,
-     "hl": 3
+     "text": "Workers' comp is 5% of your exam, about 8 questions.",
+     "say": "Workers' comp is five percent of your exam, about eight questions."
     }
    ]
   },
   {
    "type": "hook",
-   "title": "Michigan: which employers must carry comp",
-   "src": "MCL 418.115(a)-(e); 418.118",
+   "title": "Does Tony have to carry comp?",
+   "src": "MCL 418.115(a)-(e); 418.118; 418.121; NCCI WC 00 03 11 A (Ed. 8-91); memory hook mn_core-24",
    "mn": "mn-mn_core-24",
    "hook": "3 at once, or 1 at 35 for 13 (out of the last 52). Public employers: every one, any size.",
    "items": [
     "3 at once: private non-farm employers regularly employing 3 or more at one time",
     "1 at 35 for 13: fewer than 3, but 1 works 35+ hours a week for 13+ of the last 52 weeks",
     "Public employers: all of them, regardless of the number of employees",
-    "Farms and household workers have their own special rules"
+    "Farms, household workers: own rules. A voluntary comp endorsement can cover workers not required"
+   ],
+   "draw": [
+    {
+     "p": "person",
+     "x": 13,
+     "y": 42,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "id": "tony"
+    },
+    {
+     "id": "q",
+     "p": "bubble",
+     "text": "Do I need comp?",
+     "x": 24,
+     "y": 9,
+     "w": 28,
+     "to": "tony",
+     "out": 1
+    },
+    {
+     "p": "person",
+     "x": 53,
+     "y": 44,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "hold": "pizza",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "shirt": "orange",
+      "hatColor": "orange"
+     },
+     "id": "marco"
+    },
+    {
+     "p": "person",
+     "x": 35,
+     "y": 44,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "hair": "pony",
+      "shirt": "teal",
+      "hatColor": "teal"
+     },
+     "id": "lily"
+    },
+    {
+     "id": "clock",
+     "p": "clock",
+     "x": 70,
+     "y": 18,
+     "h": 12,
+     "opt": {
+      "h": 5,
+      "m": 0
+     },
+     "label": "35 hours a week",
+     "lsize": 3.5,
+     "lw": 18,
+     "at": 2,
+     "cue": "35"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 70,
+     "y": 46,
+     "h": 12,
+     "opt": {
+      "n": "13"
+     },
+     "label": "of the last 52",
+     "lsize": 3.5,
+     "lw": 18,
+     "at": 2,
+     "cue": "13"
+    },
+    {
+     "p": "ring",
+     "on": "marco",
+     "at": 2,
+     "cue": "One"
+    }
    ],
    "beats": [
     {
-     "text": "Who must carry comp in Michigan? The hook: 3 at once, or 1 at 35 for 13, out of the last 52. Public employers: every one, any size.",
-     "say": "Who must carry comp in Michigan? The hook: three at once, or one at thirty-five for thirteen, out of the last fifty-two. Public employers: every one, any size.",
+     "text": "Dana, it's just me and two cooks. Do I really need comp?",
+     "say": "Dana, it's just me and two cooks. Do I really need comp?",
+     "voice": "tony",
      "show": 0
     },
     {
-     "text": "A private, non-farm employer with fewer than 3 is covered if 1 works 35 hours or more a week for 13 weeks or more of the last 52.",
-     "say": "A private, non-farm employer with fewer than three is covered if one works thirty-five hours or more a week for thirteen weeks or more of the last fifty-two.",
-     "show": 2
+     "text": "Tony, in Michigan it's 3 at once, or 1 at 35 for 13, out of the last 52. Public employers: every one, any size.",
+     "say": "Tony, in Michigan it's three at once, or one at thirty-five for thirteen, out of the last fifty-two. Public employers: every one, any size.",
+     "voice": "dana",
+     "show": 1
     },
     {
-     "text": "Farms and household workers have special rules. Watch out: payroll size doesn't decide it.",
-     "say": "Farms and household workers have special rules. Watch out: payroll size doesn't decide it.",
+     "text": "Fewer than 3? One worker at 35 hours or more a week, for 13 of the last 52 weeks, is enough.",
+     "say": "Fewer than three? One worker at thirty-five hours or more a week, for thirteen of the last fifty-two weeks, is enough.",
+     "show": 3
+    },
+    {
+     "text": "Farms and household workers have their own rules. Watch out: payroll size doesn't decide it.",
+     "say": "Farms and household workers have their own rules. Watch out: payroll size doesn't decide it.",
      "show": 4
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Michigan: what counts as a work injury",
-   "src": "MCL 418.301(1),(3); 418.305; 418.401(2)(b)",
-   "columns": [
+   "type": "choice",
+   "title": "Tony's call: what about comp?",
+   "src": "MCL 418.115(b); 418.611(1)-(2); 418.641(1)-(2); 418.815; 418.201 notes; MCL 500.2301; questions core-056, core-wcg-23",
+   "ask": "What does Tony do?",
+   "draw": [
     {
-     "name": "Covered",
-     "icon": "circle-check",
-     "points": [
-      "Arises out of and in the course of employment",
-      "On the premises a reasonable time before or after work",
-      "Disease characteristic of and peculiar to the business"
+     "p": "person",
+     "x": 26,
+     "y": 31,
+     "h": 36,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "id": "tony"
+    },
+    {
+     "id": "q",
+     "p": "bubble",
+     "text": "Do I have to?",
+     "x": 52,
+     "y": 8,
+     "w": 26,
+     "to": "tony",
+     "think": true
+    },
+    {
+     "p": "person",
+     "x": 84,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "hold": "pizza",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "shirt": "orange",
+      "hatColor": "orange"
+     },
+     "id": "marco"
+    },
+    {
+     "p": "label",
+     "text": "Marco: 40 hours a week",
+     "x": 86,
+     "y": 53,
+     "size": 4.2,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "p": "person",
+     "x": 112,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "worker",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "hair": "pony",
+      "shirt": "teal",
+      "hatColor": "teal"
+     },
+     "id": "lily"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 142,
+     "y": 26,
+     "h": 20,
+     "opt": {
+      "n": "20"
+     },
+     "label": "weeks so far",
+     "lsize": 4
+    }
+   ],
+   "beats": [
+    {
+     "text": "Marco has worked 40 hours a week for the last 20 weeks. What does Tony do?",
+     "say": "Marco has worked forty hours a week for the last twenty weeks. What does Tony do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Skip it. I only have two cooks!",
+     "ok": false,
+     "fail": "Fewer than 3 still counts if 1 works 35+ hours a week for 13+ of the last 52 weeks. Marco does.",
+     "beats": [
+      {
+       "text": "Marco's hours bring Tony under the act. Going uninsured is a misdemeanor, and an injured worker can sue.",
+       "say": "Marco's hours bring Tony under the act. Going uninsured is a misdemeanor, and an injured worker can sue."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 68,
+       "y": 27,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "stop",
+        "mood": "shocked"
+       },
+       "id": "tony"
+      },
+      {
+       "id": "oven",
+       "p": "oven",
+       "x": 38,
+       "y": 37,
+       "h": 28,
+       "opt": {
+        "fire": true
+       },
+       "over": true
+      },
+      {
+       "p": "person",
+       "x": 114,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "regulator",
+        "pose": "hold",
+        "mood": "angry",
+        "hold": "clipboard"
+       },
+       "id": "reg"
+      },
+      {
+       "p": "bubble",
+       "text": "Where's your comp?",
+       "x": 104,
+       "y": 7,
+       "w": 30,
+       "to": "reg"
+      },
+      {
+       "p": "stamp",
+       "text": "Misdemeanor",
+       "x": 92,
+       "y": 50,
+       "size": 5.5,
+       "color": "red",
+       "cue": "misdemeanor"
+      }
      ]
     },
     {
-     "name": "Not covered",
-     "icon": "circle-x",
-     "points": [
-      "Activity whose major purpose is social or recreational",
-      "Ordinary disease of life the public is exposed to",
-      "Injury from the employee's intentional, willful misconduct"
+     "label": "Have the cooks sign waivers",
+     "ok": false,
+     "fail": "In Michigan, an employee's agreement to waive comp isn't valid. The only exception is certain elections made after an injury.",
+     "beats": [
+      {
+       "text": "Marco signs a napkin. Worthless: in Michigan, waiving comp up front isn't valid.",
+       "say": "Marco signs a napkin. Worthless: in Michigan, waiving comp up front isn't valid."
+      }
+     ],
+     "draw": [
+      {
+       "id": "nap",
+       "p": "note",
+       "text": "I, Marco, waive my comp!",
+       "x": 38,
+       "y": 22,
+       "w": 30,
+       "paper": "white"
+      },
+      {
+       "p": "xout",
+       "on": "nap",
+       "cue": "Worthless",
+       "sfx": "buzz"
+      },
+      {
+       "p": "stamp",
+       "text": "Not valid",
+       "x": 38,
+       "y": 46,
+       "size": 6,
+       "color": "red",
+       "cue": "valid"
+      },
+      {
+       "p": "person",
+       "x": 88,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "point",
+        "mood": "happy",
+        "hat": "cap",
+        "vest": false,
+        "apron": true,
+        "shirt": "orange",
+        "hatColor": "orange"
+       },
+       "id": "marco"
+      },
+      {
+       "p": "person",
+       "x": 116,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       },
+       "id": "tony"
+      }
      ]
-    }
-   ],
-   "tell": "The test is the work connection: arising out of and in the course of employment, not fault.",
-   "beats": [
-    {
-     "text": "Under Michigan's act, comp covers an injury arising out of and in the course of employment, with no need to prove the employer was negligent.",
-     "say": "Under Michigan's act, comp covers an injury arising out of and in the course of employment, with no need to prove the employer was negligent.",
-     "show": 1
     },
     {
-     "text": "On the premises a reasonable time before or after work, a worker is presumed to be in the course of employment. A disease characteristic of and peculiar to the business counts too.",
-     "say": "On the premises a reasonable time before or after work, a worker is presumed to be in the course of employment. A disease characteristic of and peculiar to the business counts too.",
-     "show": 1
+     "label": "Pay any claims out of the cash register",
+     "ok": false,
+     "fail": "Comp must be secured: insure with an authorized insurer, or prove solvency and get the state comp agency's okay to self-insure.",
+     "beats": [
+      {
+       "text": "Paying claims from the register, with no state okay, doesn't secure comp. Tony is uninsured.",
+       "say": "Paying claims from the register, with no state okay, doesn't secure comp. Tony is uninsured."
+      }
+     ],
+     "draw": [
+      {
+       "id": "reg",
+       "p": "cashregister",
+       "x": 36,
+       "y": 30,
+       "h": 26,
+       "opt": {
+        "open": true,
+        "amount": "$12"
+       }
+      },
+      {
+       "p": "person",
+       "x": 76,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "smirk"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "bubble",
+       "text": "I'll just pay from here!",
+       "x": 104,
+       "y": 9,
+       "w": 32,
+       "to": "tony"
+      },
+      {
+       "p": "stamp",
+       "text": "Uninsured",
+       "x": 120,
+       "y": 38,
+       "size": 6.5,
+       "color": "red",
+       "cue": "uninsured"
+      }
+     ]
     },
     {
-     "text": "Not covered: an activity whose major purpose is social or recreational, an ordinary disease of life, or the employee's intentional and willful misconduct.",
-     "say": "Not covered: an activity whose major purpose is social or recreational, an ordinary disease of life, or the employee's intentional and willful misconduct.",
-     "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Maria twists her knee at her employer's bowling night, an event whose major purpose is social. Under Michigan's act, her injury is:",
-   "choices": [
-    "Covered, because the employer sponsored the event",
-    "Covered for medical benefits only",
-    "Not covered by the act",
-    "Covered only if it happened on the employer's premises"
-   ],
-   "answer": 2,
-   "why": "An injury from an activity whose major purpose is social or recreational is not covered by the act, even on the employer's premises.",
-   "beats": [
-    {
-     "text": "Maria hurts her knee at her employer's bowling night, whose major purpose is social. Is she covered? Pick an answer.",
-     "say": "Maria hurts her knee at her employer's bowling night, whose major purpose is social. Is she covered? Pick an answer."
+     "label": "Buy a policy from an authorized insurer",
+     "ok": true,
+     "win": "Insure with an authorized insurer. Can't get coverage normally? The Workers' Compensation Placement Facility: all authorized comp insurers take part.",
+     "beats": [
+      {
+       "text": "Smart. Dana places Tony with an authorized insurer. Can't get coverage normally? Comp has its own: the Michigan Workers' Compensation Placement Facility.",
+       "say": "Smart. Dana places Tony with an authorized insurer. Can't get coverage normally? Comp has its own: the Michigan Workers' Compensation Placement Facility."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 26,
+       "y": 25,
+       "h": 32
+      },
+      {
+       "p": "person",
+       "x": 64,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "mood": "happy",
+        "hold": "policy"
+       },
+       "id": "dana"
+      },
+      {
+       "p": "person",
+       "x": 90,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "stamp",
+       "text": "Covered",
+       "x": 132,
+       "y": 20,
+       "size": 7,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "Authorized insurer",
+       "x": 132,
+       "y": 36,
+       "size": 4.4,
+       "color": "green",
+       "bold": true
+      }
+     ]
     }
    ],
    "reveal": [
     {
-     "text": "Not covered by the act. An activity whose major purpose is social or recreational is excluded, even on the employer's premises.",
-     "say": "Not covered by the act. An activity whose major purpose is social or recreational is excluded, even on the employer's premises."
+     "text": "The only other route in Michigan: self-insure, on proof of solvency, with the Workers' Disability Compensation Agency's okay, not DIFS.",
+     "say": "The only other route in Michigan: self-insure, on proof of solvency, with the Workers' Disability Compensation Agency's okay, not D I F S."
+    },
+    {
+     "text": "Two or more employers in one industry with $1,000,000 or more in combined assets may be allowed to self-insure as a group.",
+     "say": "Two or more employers in one industry with one million dollars or more in combined assets may be allowed to self-insure as a group."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Friday night: Marco slips",
+   "src": "MCL 418.301(1),(3); 418.305; 418.401(2)(b); question core-wcg-01",
+   "kind": "Michigan rule",
+   "term": "Compensable injury",
+   "plain": "An injury connected to the job: in the law's words, one arising out of and in the course of employment. No one has to prove fault.",
+   "example": "Marco slips on the wet kitchen floor carrying dough. Covered, even though he was rushing, and Tony doesn't have to be at fault.",
+   "exam": "On the premises a reasonable time before or after work: presumed in the course of employment. Out: mainly social events, ordinary diseases of life.",
+   "draw": [
+    {
+     "id": "oven",
+     "p": "oven",
+     "x": 15,
+     "y": 20,
+     "h": 22,
+     "opt": {
+      "fire": true
+     }
+    },
+    {
+     "p": "person",
+     "x": 66,
+     "y": 30,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "shocked"
+     },
+     "id": "tony",
+     "at": 0,
+     "cue": "slips"
+    },
+    {
+     "id": "puddle",
+     "p": "water",
+     "x": 38,
+     "y": 62,
+     "w": 30,
+     "over": true
+    },
+    {
+     "p": "person",
+     "x": 38,
+     "y": 57,
+     "h": 24,
+     "opt": {
+      "who": "worker",
+      "pose": "shrug",
+      "mood": "shocked",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "shirt": "orange",
+      "hatColor": "orange"
+     },
+     "id": "marco",
+     "rot": -78,
+     "at": 0,
+     "cue": "slips",
+     "anim": "fall",
+     "over": true
+    },
+    {
+     "id": "pizza",
+     "p": "pizza",
+     "x": 54,
+     "y": 46,
+     "h": 10,
+     "rot": 25,
+     "at": 0,
+     "cue": "dough",
+     "anim": "pop"
+    },
+    {
+     "id": "boom",
+     "p": "crash",
+     "x": 24,
+     "y": 44,
+     "h": 13,
+     "opt": {
+      "text": "SPLAT!"
+     },
+     "at": 0,
+     "cue": "crash",
+     "sfx": "crash",
+     "over": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "Crash! Marco slips on the wet floor with a tray of dough.",
+     "say": "Crash! Marco slips on the wet floor with a tray of dough.",
+     "show": 1
+    },
+    {
+     "text": "In Michigan, comp covers an injury arising out of and in the course of employment. No one has to prove Tony was negligent.",
+     "say": "In Michigan, comp covers an injury arising out of and in the course of employment. No one has to prove Tony was negligent.",
+     "show": 2
+    },
+    {
+     "text": "Marco was rushing? Still covered. His own carelessness doesn't bar comp; only intentional and willful misconduct would.",
+     "say": "Marco was rushing? Still covered. His own carelessness doesn't bar comp; only intentional and willful misconduct would.",
+     "show": 3
+    },
+    {
+     "text": "On the premises a reasonable time before or after work, he's presumed to be in the course of employment. Diseases peculiar to the business count too. Out: mainly social events and ordinary diseases of life.",
+     "say": "On the premises a reasonable time before or after work, he's presumed to be in the course of employment. Diseases peculiar to the business count too. Out: mainly social events and ordinary diseases of life.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Covered by comp, or not?",
+   "src": "MCL 418.301(1),(3); 418.305; 418.401(2)(b); questions core-wcg-02, core-wcg-03, core-wcg-04",
+   "bins": [
+    {
+     "name": "Covered by comp"
+    },
+    {
+     "name": "Not covered"
+    }
+   ],
+   "items": [
+    {
+     "text": "Slips in Tony's kitchen 10 minutes before his shift",
+     "bin": 0,
+     "why": "On the premises a reasonable time before work: presumed to be in the course of employment."
+    },
+    {
+     "text": "Twists a knee at the staff bowling party",
+     "bin": 1,
+     "why": "A mainly social or recreational activity isn't covered, even on the employer's premises."
+    },
+    {
+     "text": "Burns his hand on the pizza oven during his shift, rushing",
+     "bin": 0,
+     "why": "His own ordinary carelessness doesn't bar comp."
+    },
+    {
+     "text": "Catches the cold going around Detroit",
+     "bin": 1,
+     "why": "An ordinary disease of life isn't compensable."
+    },
+    {
+     "text": "Gets a disease from conditions peculiar to Tony's business",
+     "bin": 0,
+     "why": "Conditions characteristic of and peculiar to the business: it counts."
+    },
+    {
+     "text": "Hurt by his own intentional, willful misconduct",
+     "bin": 1,
+     "why": "The employee's intentional and willful misconduct bars comp."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: which of Marco's mishaps does comp cover?",
+     "say": "Your turn: which of Marco's mishaps does comp cover?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The test is the work connection, not fault.",
+     "say": "The test is the work connection, not fault."
+    },
+    {
+     "text": "Out: mainly social events, even on the premises, ordinary diseases of life and his own intentional, willful misconduct.",
+     "say": "Out: mainly social events, even on the premises, ordinary diseases of life and his own intentional, willful misconduct."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Can Marco sue Tony?",
+   "src": "MCL 418.131(1); questions core-054, core-055; adapted from memory hook mn_core-23",
+   "kind": "Michigan rule",
+   "term": "Exclusive remedy",
+   "plain": "Comp benefits are the worker's only remedy against the employer for a work injury or occupational disease.",
+   "example": "A room with one door: for an employer who carries comp, benefits are the only way out. Marco gets benefits, not a lawsuit against Tony.",
+   "exam": "One trapdoor: an intentional tort, a deliberate act with specific intent to injure. Even gross negligence is not enough.",
+   "draw": [
+    {
+     "id": "room",
+     "p": "box",
+     "x": 32,
+     "y": 31,
+     "w": 48,
+     "hh": 44,
+     "color": "ink"
+    },
+    {
+     "id": "door",
+     "p": "icon",
+     "name": "log-out",
+     "x": 60,
+     "y": 40,
+     "h": 18,
+     "color": "green",
+     "over": true,
+     "at": 1,
+     "cue": "door"
+    },
+    {
+     "p": "label",
+     "text": "Comp benefits",
+     "x": 71,
+     "y": 27,
+     "size": 3.8,
+     "color": "green",
+     "bold": true,
+     "at": 1,
+     "cue": "benefits",
+     "w": 16
+    },
+    {
+     "p": "person",
+     "x": 26,
+     "y": 33,
+     "h": 24,
+     "opt": {
+      "who": "worker",
+      "pose": "point",
+      "mood": "smirk",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "shirt": "orange",
+      "hatColor": "orange"
+     },
+     "id": "marco"
+    },
+    {
+     "p": "person",
+     "x": 70,
+     "y": 35,
+     "h": 22,
+     "opt": {
+      "who": "neighbor",
+      "pose": "point",
+      "mood": "smirk"
+     },
+     "id": "neighbor",
+     "flip": true,
+     "out": 1
+    },
+    {
+     "id": "idea",
+     "p": "bubble",
+     "text": "Sue Tony for a million!",
+     "x": 68,
+     "y": 11,
+     "w": 22,
+     "to": "neighbor",
+     "out": 1
+    },
+    {
+     "id": "trap",
+     "p": "box",
+     "x": 26,
+     "y": 53,
+     "w": 18,
+     "hh": 3,
+     "dash": true,
+     "color": "red",
+     "over": true,
+     "at": 2,
+     "cue": "trapdoor"
+    },
+    {
+     "p": "label",
+     "text": "Trapdoor: intentional tort",
+     "x": 34,
+     "y": 61,
+     "size": 3.8,
+     "color": "red",
+     "at": 2,
+     "cue": "trapdoor"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Marco, sue Tony for a million dollars!",
+     "say": "Marco, sue Tony for a million dollars!",
+     "voice": "neighbor",
+     "show": 1
+    },
+    {
+     "text": "Tony is insured, so in Michigan comp is Marco's exclusive remedy against him. Picture a room with one door: benefits are the way out.",
+     "say": "Tony is insured, so in Michigan comp is Marco's exclusive remedy against him. Picture a room with one door: benefits are the way out.",
+     "show": 3
+    },
+    {
+     "text": "The one trapdoor is an intentional tort: a deliberate act with specific intent to injure. Intent is also deemed, meaning treated as proven, if the employer knew an injury was certain and willfully disregarded it.",
+     "say": "The one trapdoor is an intentional tort: a deliberate act with specific intent to injure. Intent is also deemed, meaning treated as proven, if the employer knew an injury was certain and willfully disregarded it.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Marco's call: sue Tony?",
+   "src": "MCL 418.131(1); questions core-054, core-055; memory hook mn_core-23",
+   "ask": "What should Marco do?",
+   "draw": [
+    {
+     "p": "person",
+     "x": 30,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "worker",
+      "pose": "think",
+      "mood": "worried",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "shirt": "orange",
+      "hatColor": "orange"
+     },
+     "id": "marco"
+    },
+    {
+     "p": "person",
+     "x": 56,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "neighbor",
+      "pose": "point",
+      "mood": "smirk"
+     },
+     "id": "neighbor"
+    },
+    {
+     "p": "bubble",
+     "text": "Sue him for a million!",
+     "x": 70,
+     "y": 6,
+     "w": 32,
+     "to": "neighbor"
+    },
+    {
+     "p": "person",
+     "x": 112,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "worried"
+     },
+     "id": "tony"
+    },
+    {
+     "id": "wet",
+     "p": "water",
+     "x": 116,
+     "y": 51,
+     "w": 30,
+     "over": true
+    },
+    {
+     "id": "sign",
+     "p": "warning",
+     "x": 145,
+     "y": 40,
+     "h": 12,
+     "label": "No floor mat",
+     "lsize": 3.8
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony knew that floor gets slick, and he never bought a mat!",
+     "say": "Tony knew that floor gets slick, and he never bought a mat!",
+     "voice": "worker",
+     "speaker": "Marco"
+    },
+    {
+     "text": "Comp is paying Marco. Now what?",
+     "say": "Comp is paying Marco. Now what?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Sue Tony. He was super careless!",
+     "ok": false,
+     "fail": "Even gross negligence isn't an intentional tort. Comp stays Marco's exclusive remedy against Tony.",
+     "beats": [
+      {
+       "text": "'Really, really careless' doesn't open the trapdoor. Even gross negligence isn't an intentional tort.",
+       "say": "'Really, really careless' doesn't open the trapdoor. Even gross negligence isn't an intentional tort."
+      }
+     ],
+     "draw": [
+      {
+       "id": "court",
+       "p": "courthouse",
+       "x": 30,
+       "y": 27,
+       "h": 32
+      },
+      {
+       "p": "person",
+       "x": 72,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "judge",
+        "pose": "hold",
+        "mood": "neutral",
+        "hold": "gavel"
+       },
+       "id": "judge"
+      },
+      {
+       "p": "person",
+       "x": 108,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "shrug",
+        "mood": "shocked",
+        "hat": "cap",
+        "vest": false,
+        "apron": true,
+        "shirt": "orange",
+        "hatColor": "orange"
+       },
+       "id": "marco"
+      },
+      {
+       "p": "label",
+       "text": "Gross negligence is not an intentional tort",
+       "x": 128,
+       "y": 52,
+       "size": 4,
+       "w": 54,
+       "color": "red",
+       "bold": true,
+       "cue": "tort"
+      }
+     ]
+    },
+    {
+     "label": "Sue Tony. He knew someone might get hurt!",
+     "ok": false,
+     "fail": "Deemed intent needs actual knowledge an injury was certain, plus willful disregard. Possible is not certain.",
+     "beats": [
+      {
+       "text": "Nope. Knowing an injury was possible isn't knowing it was certain.",
+       "say": "Nope. Knowing an injury was possible isn't knowing it was certain."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 28,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "judge",
+        "pose": "point",
+        "mood": "neutral"
+       },
+       "id": "judge"
+      },
+      {
+       "id": "poss",
+       "p": "label",
+       "text": "Knew it was possible",
+       "x": 70,
+       "y": 16,
+       "size": 5,
+       "color": "red"
+      },
+      {
+       "p": "xout",
+       "on": "poss",
+       "cue": "possible"
+      },
+      {
+       "id": "cert",
+       "p": "label",
+       "text": "Needed: knew it was certain",
+       "x": 70,
+       "y": 34,
+       "size": 5,
+       "color": "green",
+       "bold": true,
+       "cue": "certain"
+      },
+      {
+       "p": "person",
+       "x": 114,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "sad",
+        "mood": "sad",
+        "hat": "cap",
+        "vest": false,
+        "apron": true,
+        "shirt": "orange",
+        "hatColor": "orange"
+       },
+       "id": "marco"
+      }
+     ]
+    },
+    {
+     "label": "Take the comp benefits",
+     "ok": true,
+     "win": "Comp is Marco's exclusive remedy against Tony. With no intentional tort, benefits are the one way out.",
+     "beats": [
+      {
+       "text": "Smart. Marco takes his comp benefits, the one door out. Tony buys a floor mat.",
+       "say": "Smart. Marco takes his comp benefits, the one door out. Tony buys a floor mat."
+      }
+     ],
+     "draw": [
+      {
+       "id": "door",
+       "p": "icon",
+       "name": "log-out",
+       "x": 34,
+       "y": 24,
+       "h": 30,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "Comp benefits",
+       "x": 34,
+       "y": 47,
+       "size": 4.6,
+       "color": "green",
+       "bold": true
+      },
+      {
+       "p": "person",
+       "x": 74,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "cheer",
+        "mood": "laugh",
+        "hat": "cap",
+        "vest": false,
+        "apron": true,
+        "shirt": "orange",
+        "hatColor": "orange"
+       },
+       "id": "marco"
+      },
+      {
+       "p": "person",
+       "x": 118,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "tony",
+       "at": 0,
+       "cue": "mat"
+      },
+      {
+       "id": "mat",
+       "p": "box",
+       "x": 140,
+       "y": 50,
+       "w": 26,
+       "hh": 3,
+       "fill": "brown",
+       "color": "brown",
+       "at": 0,
+       "cue": "mat",
+       "label": "New mat",
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "New floor mat",
+       "x": 140,
+       "y": 56,
+       "size": 3.8,
+       "color": "brown",
+       "at": 0,
+       "cue": "mat"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Only an intentional tort opens the trapdoor. Even gross negligence doesn't, and knowing an injury was possible isn't knowing it was certain.",
+     "say": "Only an intentional tort opens the trapdoor. Even gross negligence doesn't, and knowing an injury was possible isn't knowing it was certain."
     }
    ]
   },
   {
    "type": "hook",
-   "title": "Michigan: waiting period and weekly benefit",
-   "src": "MCL 418.311; 418.351(1); 418.355(2)",
+   "title": "Michigan: Marco's waiting period and benefit",
+   "src": "MCL 418.311; 418.351(1); 418.355(2); memory hook mn_core-25",
    "mn": "mn-mn_core-25",
    "hook": "Wait 7, paid from day 8, back-paid at 2 weeks. Then 80% of after-tax wages, capped at 90% of the state average.",
    "items": [
-    "Wait 7: nothing is paid unless the incapacity lasts at least 1 week",
+    "Wait 7: no weekly comp is paid unless the incapacity lasts at least 1 week",
     "Day 8: pay starts; at 2 weeks or longer, it's computed from the date of injury",
     "80% of the after-tax average weekly wage for total disability",
     "Cap: 90% of the state average weekly wage, set each January 1"
    ],
+   "draw": [
+    {
+     "id": "sofa",
+     "p": "sofa",
+     "x": 24,
+     "y": 52,
+     "h": 16
+    },
+    {
+     "p": "person",
+     "x": 22,
+     "y": 47,
+     "h": 24,
+     "opt": {
+      "who": "worker",
+      "pose": "sit",
+      "mood": "sad",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "shirt": "orange",
+      "hatColor": "orange"
+     },
+     "id": "marco",
+     "over": true
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 60,
+     "y": 14,
+     "h": 15,
+     "opt": {
+      "n": "8"
+     },
+     "label": "Pay starts day 8",
+     "lsize": 3.8,
+     "at": 0,
+     "cue": "day"
+    },
+    {
+     "id": "pct",
+     "p": "num",
+     "text": "80%",
+     "x": 60,
+     "y": 46,
+     "size": 11,
+     "color": "green",
+     "at": 0,
+     "cue": "after-tax"
+    },
+    {
+     "p": "label",
+     "text": "of after-tax wages",
+     "x": 60,
+     "y": 54,
+     "size": 3.8,
+     "w": 30,
+     "at": 0,
+     "cue": "after-tax"
+    },
+    {
+     "id": "inj",
+     "p": "label",
+     "text": "Off 2 weeks or more: from the injury date",
+     "x": 60,
+     "y": 31,
+     "size": 3.6,
+     "w": 34,
+     "color": "blue",
+     "at": 1,
+     "cue": "2"
+    },
+    {
+     "id": "ex",
+     "p": "label",
+     "text": "$1,000 a week after taxes: comp pays $800",
+     "x": 58,
+     "y": 61,
+     "size": 3.5,
+     "w": 40,
+     "color": "green",
+     "at": 2,
+     "cue": "disability"
+    }
+   ],
    "beats": [
     {
-     "text": "Now Michigan's benefits. The hook: wait 7, paid from day 8, back-paid at 2 weeks. Then 80% of after-tax wages, capped at 90% of the state average.",
-     "say": "Now Michigan's benefits. The hook: wait seven, paid from day eight, back-paid at two weeks. Then eighty percent of after-tax wages, capped at ninety percent of the state average.",
+     "text": "Marco's laid up. In Michigan, the hook: wait 7, paid from day 8, back-paid at 2 weeks. Then 80% of after-tax wages, capped at 90% of the state average.",
+     "say": "Marco's laid up. In Michigan, the hook: wait seven, paid from day eight, back-paid at two weeks. Then eighty percent of after-tax wages, capped at ninety percent of the state average.",
      "show": 0
     },
     {
-     "text": "Nothing is paid unless incapacity lasts at least a week. Pay starts on day 8; at 2 weeks or longer, it's computed from the date of injury.",
-     "say": "Nothing is paid unless incapacity lasts at least a week. Pay starts on day eight; at two weeks or longer, it's computed from the date of injury.",
+     "text": "No weekly comp is paid unless he's off at least a week. Off 2 weeks or longer? Pay is computed from the date of injury.",
+     "say": "No weekly comp is paid unless he's off at least a week. Off two weeks or longer? Pay is computed from the date of injury.",
      "show": 2
     },
     {
-     "text": "Watch out: 90% is the cap, not the benefit.",
-     "say": "Watch out: ninety percent is the cap, not the benefit.",
+     "text": "The 80% is for total disability. Watch out: 90% is the cap, not the benefit.",
+     "say": "The eighty percent is for total disability. Watch out: ninety percent is the cap, not the benefit.",
      "show": 4
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Federal acts: rails, shore, ship",
-   "src": "45 USC 51, 53; 33 USC 902(3), 903(a), 904(b); 46 USC 30104(a); NCCI WC 00 00 00 C, Gen. C and Part Two C",
-   "columns": [
-    {
-     "name": "FELA",
-     "icon": "train-front",
-     "points": [
-      "Interstate railroad workers",
-      "Sue for damages; must show railroad negligence",
-      "Own negligence reduces recovery, doesn't bar it"
-     ]
-    },
-    {
-     "name": "Longshore Act (USL&HW)",
-     "icon": "anchor",
-     "points": [
-      "Longshore and harbor workers, ship repairers",
-      "Navigable waters, piers, wharves, dry docks",
-      "No-fault: paid irrespective of fault"
-     ]
-    },
-    {
-     "name": "Jones Act",
-     "icon": "ship",
-     "points": [
-      "Seamen: a vessel's master and crew",
-      "Sue the employer, with a jury trial",
-      "FELA's rules apply"
-     ]
-    }
-   ],
-   "tell": "Railroad worker: FELA. Dock or shipyard worker: Longshore Act. Ship's crew: Jones Act.",
-   "beats": [
-    {
-     "text": "Three federal laws sit outside Michigan's act. First, FELA: interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces recovery.",
-     "say": "Three federal laws sit outside Michigan's act. First, F E L A: interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces recovery.",
-     "show": 1
-    },
-    {
-     "text": "Second, the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to maritime workers, like ship repairers, on navigable waters, piers and dry docks.",
-     "say": "Second, the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to maritime workers, like ship repairers, on navigable waters, piers and dry docks.",
-     "show": 2
-    },
-    {
-     "text": "Third, the Jones Act: a ship's crew member sues the employer with a jury trial. Rails, shore, ship. On a standard comp policy, all three need endorsements.",
-     "say": "Third, the Jones Act: a ship's crew member sues the employer with a jury trial. Rails, shore, ship. On a standard comp policy, all three need endorsements.",
-     "show": 3,
-     "tell": true
-    }
-   ]
-  },
-  {
    "type": "quiz",
-   "q": "A cook who is a crew member on a Great Lakes freighter is hurt aboard and sues his employer before a jury. Which law is he using?",
+   "q": "Marco can't work for 3 weeks after his fall. Under Michigan's act, his weekly comp is:",
    "choices": [
-    "FELA",
-    "The Longshore and Harbor Workers' Compensation Act",
-    "The Jones Act"
+    "Computed from the date of injury",
+    "Paid starting on the 8th day only",
+    "Paid starting on the 15th day only",
+    "Not paid for the first week"
    ],
-   "answer": 2,
-   "why": "The Jones Act lets an injured seaman (a vessel's crew member) sue the employer with a jury trial. The Longshore Act excludes crew; FELA is for railroad workers.",
+   "answer": 0,
+   "why": "If the incapacity lasts 2 weeks or longer, compensation is computed from the date of injury. Day 8 is the start only when he is out more than 1 week but less than 2.",
+   "draw": [
+    {
+     "id": "sofa",
+     "p": "sofa",
+     "x": 26,
+     "y": 52,
+     "h": 16
+    },
+    {
+     "p": "person",
+     "x": 24,
+     "y": 47,
+     "h": 24,
+     "opt": {
+      "who": "worker",
+      "pose": "sit",
+      "mood": "worried",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "shirt": "orange",
+      "hatColor": "orange"
+     },
+     "id": "marco",
+     "over": true
+    },
+    {
+     "id": "crutch",
+     "p": "crutches",
+     "x": 50,
+     "y": 46,
+     "h": 20
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 62,
+     "y": 15,
+     "h": 16,
+     "opt": {
+      "n": "3"
+     },
+     "label": "weeks off work",
+     "lsize": 3.8
+    }
+   ],
    "beats": [
     {
-     "text": "A cook on a Great Lakes freighter, a crew member, is hurt aboard and sues his employer before a jury. Which law? Pick an answer.",
-     "say": "A cook on a Great Lakes freighter, a crew member, is hurt aboard and sues his employer before a jury. Which law? Pick an answer."
+     "text": "Quick check: Marco can't work for 3 weeks. How is his weekly comp paid? Pick an answer.",
+     "say": "Quick check: Marco can't work for three weeks. How is his weekly comp paid? Pick an answer."
     }
    ],
    "reveal": [
     {
-     "text": "The Jones Act, the law for a ship's crew. The Longshore Act excludes crew, and FELA is for railroads.",
-     "say": "The Jones Act, the law for a ship's crew. The Longshore Act excludes crew, and F E L A is for railroads."
+     "text": "From the date of injury. At 2 weeks or longer, even the first week gets paid.",
+     "say": "From the date of injury. At two weeks or longer, even the first week gets paid."
     }
    ]
   },
   {
-   "type": "hook",
-   "title": "The WC policy's six parts",
-   "src": "NCCI WC 00 00 00 C (Ed. 1-15), Parts One to Six; MCL 418.621(4)(g); Michigan Law Endorsement WC 21 03 04",
-   "mn": "mn-mn_core-29",
-   "hook": "Six C's, in order: 1 Comp, 2 Court (employers liability suits), 3 Crossing state lines, 4 Call us at once, 5 Cash (premium), 6 Conditions.",
-   "items": [
-    "1 Comp: benefits the law requires, no dollar limit. 2 Court: employers liability, with limits",
-    "3 Crossing state lines: states listed in Item 3.C. 4 Call us at once after an injury",
-    "5 Cash: the premium shown is an estimate; an audit sets the final premium",
-    "6 Conditions: insurer gives 10 days' cancel notice; in Michigan, a 20-day agency filing too"
+   "type": "sketch",
+   "title": "Rails, shore, ship: Tony's riverfront lunch run",
+   "src": "45 USC 51, 53; 33 USC 902(3), 903(a), 904(b); 46 USC 30104(a); WC 00 00 00 C (Ed. 1-15), Gen. C, Part Two C; mn_core-28",
+   "draw": [
+    {
+     "id": "van",
+     "p": "van",
+     "x": 30,
+     "y": 38,
+     "h": 24,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     },
+     "out": 1,
+     "move": {
+      "to": [
+       80,
+       38
+      ],
+      "at": 0,
+      "dur": 1.6,
+      "sfx": "whoosh"
+     }
+    },
+    {
+     "p": "divider",
+     "x": 53.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 62,
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 106.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 62,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Rails: FELA",
+     "x": 27,
+     "y": 7,
+     "size": 5.5,
+     "bold": true,
+     "color": "red",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Federal Employers' Liability Act",
+     "x": 27,
+     "y": 13,
+     "size": 3.4,
+     "w": 50,
+     "color": "red",
+     "at": 1
+    },
+    {
+     "id": "train",
+     "p": "icon",
+     "name": "train",
+     "x": 17,
+     "y": 29,
+     "h": 20,
+     "color": "red",
+     "at": 1
+    },
+    {
+     "p": "line",
+     "from": [
+      5,
+      40
+     ],
+     "to": [
+      29,
+      40
+     ],
+     "color": "gray",
+     "at": 1
+    },
+    {
+     "p": "person",
+     "x": 40,
+     "y": 33,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pizza",
+      "hat": "cap",
+      "hatColor": "blue",
+      "vest": false,
+      "shirt": "blue",
+      "stripes": true
+     },
+     "id": "rail",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Sue for damages: prove the railroad's negligence",
+     "x": 27,
+     "y": 56,
+     "size": 3.7,
+     "w": 46,
+     "at": 1,
+     "cue": "negligence"
+    },
+    {
+     "p": "label",
+     "text": "Shore: Longshore Act (USL&HW)",
+     "x": 80,
+     "y": 7,
+     "size": 4.4,
+     "bold": true,
+     "color": "teal",
+     "at": 2
+    },
+    {
+     "id": "pier",
+     "p": "box",
+     "x": 80,
+     "y": 47.2,
+     "w": 48,
+     "hh": 2.2,
+     "fill": "brown",
+     "color": "brown",
+     "at": 2,
+     "over": true
+    },
+    {
+     "id": "crane",
+     "p": "crane",
+     "x": 68,
+     "y": 31,
+     "h": 26,
+     "at": 2
+    },
+    {
+     "p": "person",
+     "x": 93,
+     "y": 33,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pizza"
+     },
+     "id": "dock",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "No-fault: navigable waters, piers, wharves, dry docks",
+     "x": 80,
+     "y": 56,
+     "size": 3.7,
+     "w": 46,
+     "at": 2,
+     "cue": "no-fault"
+    },
+    {
+     "p": "label",
+     "text": "Ship: Jones Act",
+     "x": 133,
+     "y": 7,
+     "size": 5.5,
+     "bold": true,
+     "color": "blue",
+     "at": 3
+    },
+    {
+     "id": "ship",
+     "p": "box",
+     "x": 122,
+     "y": 36,
+     "w": 26,
+     "hh": 3.25,
+     "fill": "red",
+     "color": "ink",
+     "r": 2,
+     "at": 3
+    },
+    {
+     "p": "box",
+     "x": 131.36,
+     "y": 32.425,
+     "w": 4.16,
+     "hh": 3.9,
+     "fill": "white",
+     "color": "ink",
+     "at": 3
+    },
+    {
+     "p": "box",
+     "x": 132.14,
+     "y": 29.0125,
+     "w": 1.3,
+     "hh": 2.9250000000000003,
+     "fill": "gray",
+     "color": "ink",
+     "at": 3
+    },
+    {
+     "p": "box",
+     "x": 111.6,
+     "y": 32.9125,
+     "w": 2.08,
+     "hh": 2.9250000000000003,
+     "fill": "white",
+     "color": "ink",
+     "at": 3
+    },
+    {
+     "p": "water",
+     "x": 122.0,
+     "y": 41.3625,
+     "w": 29.9,
+     "over": true,
+     "at": 3
+    },
+    {
+     "p": "person",
+     "x": 122,
+     "y": 23.5,
+     "h": 22,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pizza",
+      "hat": "chef",
+      "vest": false,
+      "apron": true,
+      "shirt": "blue",
+      "beard": true
+     },
+     "id": "crew",
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "Crew sue the employer, with a jury",
+     "x": 133,
+     "y": 56,
+     "size": 3.7,
+     "w": 46,
+     "at": 3,
+     "cue": "jury"
+    }
    ],
    "beats": [
     {
-     "text": "The policy has six parts. Remember six C's: comp, court, crossing state lines, call us at once, cash, and conditions.",
-     "say": "The policy has six parts. Remember six C's: comp, court, crossing state lines, call us at once, cash, and conditions.",
-     "show": 0
+     "text": "Tony delivers lunch to workers under three federal laws, outside Michigan's act.",
+     "say": "Tony delivers lunch to workers under three federal laws, outside Michigan's act."
     },
     {
-     "text": "Part One pays the benefits the comp law requires, with no dollar limit. Part Two, employers liability, has limits. Part Three applies to states listed in Item 3.C.",
-     "say": "Part One pays the benefits the comp law requires, with no dollar limit. Part Two, employers liability, has limits. Part Three applies to states listed in Item three C.",
-     "show": 2
+     "text": "Rails: under FELA, interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces the award.",
+     "say": "Rails: under F E L A, interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces the award.",
+     "hl": "rail"
     },
     {
-     "text": "Part Four: tell the insurer at once. Part Five: the premium is an estimate until the audit. Part Six: the insurer cancels on at least 10 days' notice; in Michigan it also files with the state agency at least 20 days ahead.",
-     "say": "Part Four: tell the insurer at once. Part Five: the premium is an estimate until the audit. Part Six: the insurer cancels on at least ten days' notice; in Michigan it also files with the state agency at least twenty days ahead.",
-     "show": 4
+     "text": "Shore: the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to workers like ship repairers, on navigable waters, piers and dry docks.",
+     "say": "Shore: the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to workers like ship repairers, on navigable waters, piers and dry docks.",
+     "hl": "dock"
+    },
+    {
+     "text": "Ship: under the Jones Act, a crew member sues the employer with a jury trial. All three groups' employers need endorsements: the standard comp policy excludes all three.",
+     "say": "Ship: under the Jones Act, a crew member sues the employer with a jury trial. All three groups' employers need endorsements: the standard comp policy excludes all three.",
+     "hl": "crew"
     }
    ]
   },
   {
-   "type": "formula",
-   "title": "Figuring the premium",
-   "src": "NCRB Basic Manual Rule 5; IRMI 'manual premium', 'standard premium', 'premium discount'; NCCI WC 00 00 00 C, Part Five",
-   "given": [
-    "Payroll: $250,000 in one classification",
-    "Rate: $4.00 per $100 of payroll",
-    "Experience mod: 0.85"
-   ],
-   "items": [
+   "type": "choice",
+   "title": "Gino's call: which law?",
+   "src": "46 USC 30104(a); 33 USC 902(3)(G); 45 USC 51; questions core-063, core-wcg-07; table vs_commercial-07",
+   "ask": "What should Gino do?",
+   "draw": [
     {
-     "label": "Payroll in hundreds",
-     "expr": "$250,000 ÷ 100",
-     "value": "2,500"
+     "id": "ship",
+     "p": "box",
+     "x": 48,
+     "y": 42,
+     "w": 76,
+     "hh": 9.5,
+     "fill": "red",
+     "color": "ink",
+     "r": 2
     },
     {
-     "label": "Manual premium",
-     "expr": "2,500 × $4.00",
-     "value": "$10,000"
+     "p": "box",
+     "x": 75.36,
+     "y": 31.549999999999997,
+     "w": 12.16,
+     "hh": 11.4,
+     "fill": "white",
+     "color": "ink"
     },
     {
-     "label": "Standard premium (after the mod)",
-     "expr": "$10,000 × 0.85",
-     "value": "$8,500"
+     "p": "box",
+     "x": 77.64,
+     "y": 21.575,
+     "w": 3.8000000000000003,
+     "hh": 8.55,
+     "fill": "gray",
+     "color": "ink"
+    },
+    {
+     "p": "box",
+     "x": 17.599999999999998,
+     "y": 32.975,
+     "w": 6.08,
+     "hh": 8.55,
+     "fill": "white",
+     "color": "ink"
+    },
+    {
+     "p": "water",
+     "x": 18.866666666666667,
+     "y": 50.391666666666666,
+     "w": 29.13333333333333,
+     "over": true
+    },
+    {
+     "p": "water",
+     "x": 48.0,
+     "y": 50.391666666666666,
+     "w": 29.13333333333333,
+     "over": true
+    },
+    {
+     "p": "water",
+     "x": 77.13333333333333,
+     "y": 50.391666666666666,
+     "w": 29.13333333333333,
+     "over": true
+    },
+    {
+     "p": "person",
+     "x": 40,
+     "y": 21.5,
+     "h": 32,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "mood": "worried",
+      "hold": "firstaid",
+      "hat": "chef",
+      "vest": false,
+      "apron": true,
+      "shirt": "blue",
+      "beard": true
+     },
+     "id": "gino"
+    },
+    {
+     "p": "bubble",
+     "text": "I'm part of the crew. Now what?",
+     "x": 66,
+     "y": 8,
+     "w": 28,
+     "to": "gino",
+     "at": 1
+    },
+    {
+     "p": "person",
+     "x": 136,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "mood": "worried",
+      "hold": "phone"
+     },
+     "id": "tony"
     }
    ],
    "beats": [
     {
-     "text": "Rates are per $100 of payroll. Payroll is $250,000, the rate is $4, and the mod is 0.85.",
-     "say": "Rates are per one hundred dollars of payroll. Payroll is two hundred fifty thousand dollars, the rate is four dollars, and the mod is zero point eight five.",
-     "show": 0
+     "text": "Tony's cousin Gino cooks on a Great Lakes freighter. He's hurt aboard through the company's negligence.",
+     "say": "Tony's cousin Gino cooks on a Great Lakes freighter. He's hurt aboard through the company's negligence."
     },
     {
-     "text": "Payroll divided by 100 is 2,500. Times $4, the manual premium is $10,000.",
-     "say": "Payroll divided by one hundred is two thousand five hundred. Times four dollars, the manual premium is ten thousand dollars.",
-     "show": 2
+     "text": "I'm part of the crew. Now what?",
+     "say": "I'm part of the crew. Now what?",
+     "voice": "worker",
+     "speaker": "Gino"
+    }
+   ],
+   "options": [
+    {
+     "label": "Claim Longshore Act benefits",
+     "ok": false,
+     "fail": "The Longshore Act excludes a master or member of a crew of any vessel. A ship's crew goes to the Jones Act.",
+     "beats": [
+      {
+       "text": "Denied. The Longshore Act excludes a vessel's crew, and Gino is crew.",
+       "say": "Denied. The Longshore Act excludes a vessel's crew, and Gino is crew."
+      }
+     ],
+     "draw": [
+      {
+       "id": "crane",
+       "p": "crane",
+       "x": 32,
+       "y": 26,
+       "h": 34
+      },
+      {
+       "p": "person",
+       "x": 76,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "shrug",
+        "mood": "shocked",
+        "hat": "chef",
+        "vest": false,
+        "apron": true,
+        "shirt": "blue",
+        "beard": true
+       },
+       "id": "gino"
+      },
+      {
+       "p": "stamp",
+       "text": "Crew excluded",
+       "x": 120,
+       "y": 40,
+       "size": 6,
+       "color": "red",
+       "cue": "excludes"
+      }
+     ]
     },
     {
-     "text": "A mod under 1 is a credit; over 1 is a debit. $10,000 times 0.85 is $8,500, the standard premium.",
-     "say": "A mod under one is a credit; over one is a debit. Ten thousand dollars times zero point eight five is eight thousand five hundred dollars, the standard premium.",
-     "show": 3
+     "label": "Sue the shipping company under FELA",
+     "ok": false,
+     "fail": "FELA itself covers interstate railroad workers. Gino's suit goes under the Jones Act, which borrows FELA's rules.",
+     "beats": [
+      {
+       "text": "Wrong track, literally. FELA itself is for railroad workers.",
+       "say": "Wrong track, literally. F E L A itself is for railroad workers."
+      }
+     ],
+     "draw": [
+      {
+       "id": "train",
+       "p": "icon",
+       "name": "train",
+       "x": 34,
+       "y": 24,
+       "h": 32,
+       "color": "red"
+      },
+      {
+       "p": "line",
+       "from": [
+        18,
+        42
+       ],
+       "to": [
+        50,
+        42
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "person",
+       "x": 80,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "shrug",
+        "mood": "worried",
+        "hat": "chef",
+        "vest": false,
+        "apron": true,
+        "shirt": "blue",
+        "beard": true
+       },
+       "id": "gino"
+      },
+      {
+       "p": "bubble",
+       "text": "But I work on a ship...",
+       "x": 104,
+       "y": 8,
+       "w": 28,
+       "to": "gino"
+      },
+      {
+       "p": "stamp",
+       "text": "Railroads only",
+       "x": 124,
+       "y": 42,
+       "size": 6,
+       "color": "red",
+       "cue": "railroad"
+      }
+     ]
+    },
+    {
+     "label": "Sue his employer under the Jones Act",
+     "ok": true,
+     "win": "A seaman, a vessel's crew member, sues the employer under the Jones Act, with a jury trial. FELA's rules apply.",
+     "beats": [
+      {
+       "text": "Right. As crew, Gino sues his employer under the Jones Act, before a jury.",
+       "say": "Right. As crew, Gino sues his employer under the Jones Act, before a jury."
+      }
+     ],
+     "draw": [
+      {
+       "id": "court",
+       "p": "courthouse",
+       "x": 28,
+       "y": 26,
+       "h": 32
+      },
+      {
+       "p": "person",
+       "x": 64,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "judge",
+        "pose": "point",
+        "mood": "neutral"
+       },
+       "id": "judge"
+      },
+      {
+       "p": "person",
+       "x": 88,
+       "y": 38,
+       "h": 20,
+       "opt": {
+        "who": "neighbor",
+        "mood": "neutral"
+       },
+       "id": "j1"
+      },
+      {
+       "p": "person",
+       "x": 99,
+       "y": 38,
+       "h": 20,
+       "opt": {
+        "who": "grandma",
+        "mood": "neutral"
+       },
+       "id": "j2"
+      },
+      {
+       "p": "person",
+       "x": 110,
+       "y": 38,
+       "h": 20,
+       "opt": {
+        "who": "person",
+        "mood": "neutral"
+       },
+       "id": "j3"
+      },
+      {
+       "p": "label",
+       "text": "Jury",
+       "x": 99,
+       "y": 52,
+       "size": 4.2,
+       "bold": true
+      },
+      {
+       "p": "person",
+       "x": 140,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "worker",
+        "pose": "point",
+        "mood": "happy",
+        "hat": "chef",
+        "vest": false,
+        "apron": true,
+        "shirt": "blue",
+        "beard": true
+       },
+       "id": "gino",
+       "flip": true
+      },
+      {
+       "p": "stamp",
+       "text": "Jones Act",
+       "x": 99,
+       "y": 13,
+       "size": 6,
+       "color": "green"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Railroad worker: FELA. Dock or shipyard worker: Longshore Act, which excludes crew. Ship's crew: Jones Act.",
+     "say": "Railroad worker: F E L A. Dock or shipyard worker: Longshore Act, which excludes crew. Ship's crew: Jones Act."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Tony's policy: the six C's",
+   "src": "NCCI WC 00 00 00 C (Ed. 1-15), Parts One-Six; MCL 418.621(4)(g); WC 21 03 04; mn_core-29; cp_commercial-15",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Six C's, in order",
+     "x": 110,
+     "y": 11,
+     "size": 5,
+     "bold": true,
+     "bg": "yellow"
+    },
+    {
+     "id": "pol",
+     "p": "policy",
+     "x": 76,
+     "y": 11,
+     "h": 15,
+     "opt": {
+      "title": "WC POLICY"
+     }
+    },
+    {
+     "id": "p1",
+     "p": "firstaid",
+     "x": 14,
+     "y": 33,
+     "h": 18
+    },
+    {
+     "p": "label",
+     "text": "1 Comp",
+     "x": 14,
+     "y": 50,
+     "size": 4.6,
+     "bold": true
+    },
+    {
+     "id": "p2",
+     "p": "courthouse",
+     "x": 41,
+     "y": 33,
+     "h": 22
+    },
+    {
+     "p": "label",
+     "text": "2 Court",
+     "x": 41,
+     "y": 50,
+     "size": 4.6,
+     "bold": true
+    },
+    {
+     "id": "p3",
+     "p": "icon",
+     "name": "map",
+     "x": 68,
+     "y": 33,
+     "h": 22,
+     "color": "teal"
+    },
+    {
+     "p": "label",
+     "text": "3 Crossing state lines",
+     "x": 68,
+     "y": 52,
+     "size": 4.6,
+     "bold": true,
+     "w": 25
+    },
+    {
+     "id": "p4",
+     "p": "phone",
+     "x": 94,
+     "y": 33,
+     "h": 21
+    },
+    {
+     "p": "label",
+     "text": "4 Call us at once",
+     "x": 94,
+     "y": 52,
+     "size": 4.6,
+     "bold": true,
+     "w": 24
+    },
+    {
+     "id": "p5",
+     "p": "money",
+     "x": 120,
+     "y": 33,
+     "h": 15
+    },
+    {
+     "p": "label",
+     "text": "5 Cash",
+     "x": 120,
+     "y": 50,
+     "size": 4.6,
+     "bold": true
+    },
+    {
+     "id": "p6",
+     "p": "calendar",
+     "x": 146,
+     "y": 33,
+     "h": 20,
+     "opt": {
+      "n": "10"
+     }
+    },
+    {
+     "p": "label",
+     "text": "6 Conditions",
+     "x": 146,
+     "y": 50,
+     "size": 4.6,
+     "bold": true
+    }
+   ],
+   "spots": [
+    {
+     "on": "p1",
+     "label": "Part One: Comp",
+     "text": "Pays the benefits Michigan's comp law requires. There is no dollar limit: the law sets the benefits."
+    },
+    {
+     "on": "p2",
+     "label": "Part Two: Court",
+     "text": "Employers liability: damages when Tony is sued over a worker's injury where law allows, like a third-party-over suit. Not injury he causes on purpose. Limits: Item 3.B."
+    },
+    {
+     "on": "p3",
+     "label": "Part Three: Crossing state lines",
+     "text": "Other states insurance: applies only to states listed in Item 3.C."
+    },
+    {
+     "on": "p4",
+     "label": "Part Four: Call us at once",
+     "text": "After an injury, tell the insurer at once, and provide the immediate medical care the law requires."
+    },
+    {
+     "on": "p5",
+     "label": "Part Five: Cash",
+     "text": "The premium shown is only an estimate. An audit of the actual exposure, usually payroll, sets the final premium."
+    },
+    {
+     "on": "p6",
+     "label": "Part Six: Conditions",
+     "text": "The insurer cancels with at least 10 days' notice. In Michigan, it also files notice with the state comp agency at least 20 days before."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Here's your policy, Tony: six parts, six C's. Comp, court, crossing state lines, call us at once, cash, and conditions.",
+     "say": "Here's your policy, Tony: six parts, six C's. Comp, court, crossing state lines, call us at once, cash, and conditions.",
+     "voice": "dana"
+    },
+    {
+     "text": "Tap each glowing picture.",
+     "say": "Tap each glowing picture."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Part One has no dollar limit; Part Two has limits. The premium is an estimate until the audit.",
+     "say": "Part One has no dollar limit; Part Two has limits. The premium is an estimate until the audit."
+    },
+    {
+     "text": "The insurer cancels on at least 10 days' notice. In Michigan, it also files with the agency at least 20 days ahead.",
+     "say": "The insurer cancels on at least ten days' notice. In Michigan, it also files with the agency at least twenty days ahead."
+    }
+   ]
+  },
+  {
+   "type": "slider",
+   "title": "Figuring Tony's premium",
+   "src": "NCRB Basic Manual Rule 5; IRMI: manual and standard premium, experience mod, premium discount; question core-066",
+   "calc": "wcprem",
+   "params": {
+    "rate": 4,
+    "mod": 0.85
+   },
+   "var": {
+    "key": "payroll",
+    "label": "Tony's payroll",
+    "min": 50000,
+    "max": 400000,
+    "step": 10000,
+    "start": 100000,
+    "money": true
+   },
+   "goal": {
+    "op": "eq",
+    "value": 8500,
+    "text": "Find the payroll that makes Tony's premium $8,500 after the mod.",
+    "done": "$250,000: $10,000 manual premium times 0.85"
+   },
+   "draw": [
+    {
+     "p": "person",
+     "x": 14,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "money"
+     },
+     "id": "tony"
+    },
+    {
+     "id": "rate",
+     "p": "note",
+     "text": "Rate: $4 per $100 of payroll",
+     "x": 52,
+     "y": 10,
+     "w": 34,
+     "at": 0,
+     "cue": "rate"
+    },
+    {
+     "id": "rec",
+     "p": "clipboard",
+     "x": 52,
+     "y": 33,
+     "h": 15,
+     "at": 1,
+     "cue": "mod",
+     "label": "Mod 0.85: a credit",
+     "lsize": 4,
+     "lcolor": "green"
+    },
+    {
+     "id": "deb",
+     "p": "label",
+     "text": "A 1.25 mod would be a debit: it raises the premium",
+     "x": 46,
+     "y": 56,
+     "size": 3.7,
+     "w": 46,
+     "color": "red",
+     "at": 1,
+     "cue": "debit"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Rates are per $100 of payroll. Payroll divided by 100, times the rate, is the manual premium.",
+     "say": "Rates are per one hundred dollars of payroll. Payroll divided by one hundred, times the rate, is the manual premium."
+    },
+    {
+     "text": "The experience mod compares Tony's own losses with expected losses: under 1 is a credit, over 1 a debit.",
+     "say": "The experience mod compares Tony's own losses with expected losses: under one is a credit, over one a debit."
+    },
+    {
+     "text": "Your turn: find the payroll that gives $8,500.",
+     "say": "Your turn: find the payroll that gives eight thousand five hundred dollars."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$250,000. That's $10,000 of manual premium, times 0.85: $8,500, the standard premium.",
+     "say": "Two hundred fifty thousand dollars. That's ten thousand dollars of manual premium, times zero point eight five: eight thousand five hundred dollars, the standard premium."
     },
     {
      "text": "A premium discount for larger policies comes after the mod.",
-     "say": "A premium discount for larger policies comes after the mod.",
-     "show": 3
+     "say": "A premium discount for larger policies comes after the mod."
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "Payroll is $100,000, the rate is $5.00 per $100 of payroll, and the experience mod is 1.25. What is the premium after the mod?",
+   "q": "Down the street, a bakery's payroll is $100,000, its rate is $5.00 per $100 of payroll, and its experience mod is 1.25. What is its premium after the mod?",
    "choices": [
     "$3,750",
     "$5,000",
@@ -370,81 +2292,147 @@
     "$625,000"
    ],
    "answer": 2,
-   "why": "$100,000 divided by 100 is 1,000. Times $5.00 is $5,000 manual premium. A 1.25 mod is a debit: $5,000 times 1.25 is $6,250.",
+   "why": "$100,000 divided by 100 is 1,000. Times $5.00 is $5,000 manual premium. A 1.25 mod is a debit: $5,000 times 1.25 is $6,250. $5,000 forgets the mod; $3,750 treats it as a credit.",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "store",
+     "x": 30,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "name": "BAKERY",
+      "awning": "pink"
+     }
+    },
+    {
+     "id": "q",
+     "p": "num",
+     "text": "$?",
+     "x": 64,
+     "y": 52,
+     "size": 13,
+     "color": "orange"
+    }
+   ],
    "beats": [
     {
-     "text": "Your turn. Payroll is $100,000, the rate is $5, and the mod is 1.25. What's the premium after the mod? Pick an answer.",
-     "say": "Your turn. Payroll is one hundred thousand dollars, the rate is five dollars, and the mod is one point two five. What's the premium after the mod? Pick an answer."
+     "text": "Now you do the math. Pick an answer.",
+     "say": "Now you do the math. Pick an answer."
     }
    ],
    "reveal": [
     {
-     "text": "$6,250. Payroll divided by 100 is 1,000, times $5 is $5,000, times the 1.25 debit mod.",
-     "say": "Six thousand two hundred fifty dollars. Payroll divided by one hundred is one thousand, times five dollars is five thousand dollars, times the one point two five debit mod."
-    },
-    {
-     "text": "$5,000 forgets the mod; $3,750 treats the debit as a credit.",
-     "say": "Five thousand dollars forgets the mod; three thousand seven hundred fifty dollars treats the debit as a credit."
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Other ways to secure comp",
-   "src": "MCL 418.611(1)-(2); MCL 418.201 and compiler's notes; MCL 500.2301; NCCI WC 00 03 11 A",
-   "items": [
-    {
-     "label": "Self-insure",
-     "detail": "Authorized by the Workers' Disability Compensation Agency (not DIFS), on proof of solvency",
-     "icon": "piggy-bank"
-    },
-    {
-     "label": "Group self-insurance",
-     "detail": "2 or more employers in the same industry with combined assets of $1,000,000 or more",
-     "icon": "users"
-    },
-    {
-     "label": "Placement Facility",
-     "detail": "Coverage for employers unable to get it normally; every authorized comp insurer participates",
-     "icon": "landmark"
-    },
-    {
-     "label": "Voluntary compensation endorsement",
-     "detail": "Statutory-level benefits for workers the law doesn't require you to cover",
-     "icon": "handshake"
-    }
-   ],
-   "beats": [
-    {
-     "text": "In Michigan, an employer insures with an authorized insurer or self-insures with the Workers' Disability Compensation Agency's authorization. 2 or more employers in one industry with combined assets of $1,000,000 or more may self-insure as a group.",
-     "say": "In Michigan, an employer insures with an authorized insurer or self-insures with the Workers' Disability Compensation Agency's authorization. Two or more employers in one industry with combined assets of one million dollars or more may self-insure as a group.",
-     "show": 2
-    },
-    {
-     "text": "The Placement Facility covers employers who can't get coverage normally; every authorized comp insurer must participate.",
-     "say": "The Placement Facility covers employers who can't get coverage normally; every authorized comp insurer must participate.",
-     "show": 3
-    },
-    {
-     "text": "Voluntary compensation pays comp-level benefits to workers you aren't required to cover, like farm or domestic workers.",
-     "say": "Voluntary compensation pays comp-level benefits to workers you aren't required to cover, like farm or domestic workers.",
-     "show": 4
+     "text": "$6,250: $5,000 of manual premium, times the 1.25 debit.",
+     "say": "Six thousand two hundred fifty dollars: five thousand dollars of manual premium, times the one point two five debit."
     }
    ]
   },
   {
    "type": "recap",
    "items": [
+    "Must carry: 3 at once, or 1 at 35 for 13 of 52; all public employers",
     "Comp is the exclusive remedy; only an intentional tort escapes it",
-    "Must carry: 3 at once, or 1 at 35 for 13 of 52 weeks; all public",
     "Paid from day 8; from the injury date at 2 weeks; 80% after-tax AWW",
     "Rails: FELA. Shore: Longshore Act. Ship's crew: Jones Act",
     "Premium: payroll ÷ 100 × rate × experience mod"
    ],
+   "draw": [
+    {
+     "p": "person",
+     "x": 12,
+     "y": 42,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "person",
+     "x": 30,
+     "y": 42,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "pose": "cheer",
+      "mood": "happy",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "shirt": "orange",
+      "hatColor": "orange"
+     },
+     "id": "marco"
+    },
+    {
+     "p": "person",
+     "x": 48,
+     "y": 42,
+     "h": 26,
+     "opt": {
+      "who": "worker",
+      "pose": "wave",
+      "mood": "happy",
+      "hat": "cap",
+      "vest": false,
+      "apron": true,
+      "hair": "pony",
+      "shirt": "teal",
+      "hatColor": "teal"
+     },
+     "id": "lily"
+    },
+    {
+     "p": "person",
+     "x": 66,
+     "y": 42,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "policy"
+     },
+     "id": "dana"
+    },
+    {
+     "id": "mat",
+     "p": "box",
+     "x": 30,
+     "y": 59,
+     "w": 40,
+     "hh": 3,
+     "fill": "brown",
+     "color": "brown",
+     "over": true
+    },
+    {
+     "id": "pizza",
+     "p": "pizza",
+     "x": 40,
+     "y": 12,
+     "h": 12,
+     "loop": "spin"
+    }
+   ],
    "beats": [
     {
-     "text": "Let's recap: exclusive remedy, who must carry comp, day 8 and 80%, rails, shore and ship, and the premium formula.",
-     "say": "Let's recap: exclusive remedy, who must carry comp, day eight and eighty percent, rails, shore and ship, and the premium formula.",
+     "text": "What a Friday! 3 at once, or 1 at 35 for 13. Only an intentional tort opens the trapdoor.",
+     "say": "What a Friday! Three at once, or one at thirty-five for thirteen. Only an intentional tort opens the trapdoor.",
+     "show": 2
+    },
+    {
+     "text": "Day 8 and 80%. Rails, shore, ship. And payroll divided by 100, times rate, times mod.",
+     "say": "Day eight and eighty percent. Rails, shore, ship. And payroll divided by one hundred, times rate, times mod.",
+     "show": 5
+    },
+    {
+     "text": "And yes, I bought the floor mat.",
+     "say": "And yes, I bought the floor mat.",
+     "voice": "tony",
      "show": 5
     }
    ]
@@ -459,16 +2447,20 @@
  ],
  "hooks": [
   "mn-mn_core-24",
+  "mn-mn_core-23",
   "mn-mn_core-25",
+  "mn-mn_core-28",
   "mn-mn_core-29"
  ],
  "sources": [
   "MCL 418.131(1)",
-  "MCL 418.115; 418.118",
+  "MCL 418.115; 418.118; 418.121",
   "MCL 418.301(1),(3); 418.305",
   "MCL 418.401(2)(b)",
   "MCL 418.311; 418.351(1); 418.355(2)",
   "MCL 418.611(1)-(2)",
+  "MCL 418.641(1)-(2)",
+  "MCL 418.815",
   "MCL 418.201 and compiler's notes (E.R.O. 2003-1; E.R.O. 2019-3)",
   "MCL 418.621(4)(g); Michigan Law Endorsement WC 21 03 04",
   "MCL 500.2301",
@@ -476,9 +2468,10 @@
   "33 USC 902(3), 903(a), 904(b)",
   "46 USC 30104(a)",
   "NCCI WC 00 00 00 C (Ed. 1-15)",
-  "NCCI WC 00 03 11 A",
+  "NCCI WC 00 03 11 A (Ed. 8-91)",
   "NCRB Basic Manual Rule 5",
   "IRMI glossary: manual premium; standard premium; premium discount; experience modification",
+  "Memory hooks mn_core-23, -24, -25, -28, -29; confusion pairs cp_commercial-14, -15; table vs_commercial-07",
   "PSI Series 16-81 content outline"
  ]
 }

@@ -1,41 +1,94 @@
 {
  "id": "L10",
- "beats": 31,
+ "beats": 58,
  "mismatches": [
   {
    "scene": 0,
-   "beat": 0,
-   "say": "Dwelling forms can insure a one to four family residential building. Unlike homeowners forms, they include no liability coverage at all.",
-   "heard": "Dwelling forms can ensure a one-to-four family residential building. Unlike homeowners' forms, they include no liability coverage at all.",
-   "wer": 0.048
-  },
-  {
-   "scene": 2,
-   "beat": 0,
-   "say": "Quick check. Under the two thousand two D P three, which coverages are open perils? Pick an answer.",
-   "heard": "Quick check under the 2002 DP3, which coverages our open perils. Pick an answer.",
-   "wer": 0.059
-  },
-  {
-   "scene": 2,
    "beat": 1,
-   "say": "Coverages A and B only. The buildings get open perils, but personal property stays named perils. No D P form covers contents on open perils.",
-   "heard": "Coverage is A and B only. The buildings get open perils, but personal property stays named perils. No DP form covers contents on open perils.",
-   "wer": 0.087
+   "say": "We're landlords! Now, how do we insure this place?",
+   "heard": "We're landlords, now how do we ensure this place?",
+   "wer": 0.111,
+   "voice": "sam"
   },
   {
-   "scene": 5,
+   "scene": 1,
+   "beat": 1,
+   "say": "It insures a home for one to four families, whether or not the owner lives there.",
+   "heard": "It ensures a home for one to four families, whether or not the owner lives there.",
+   "wer": 0.062,
+   "voice": "narrator"
+  },
+  {
+   "scene": 2,
    "beat": 0,
-   "say": "Now flip it. An owner-occupant's D P three home burns, and her family moves into a hotel. Which coverage pays the extra living costs? Pick an answer.",
-   "heard": "Now flip it, an owner occupants DP3 homeburns and her family moves into a hotel. Which coverage pays the extra living costs? Pick an answer.",
-   "wer": 0.077
+   "say": "Before you sign: what if a visitor slips on your icy steps and sues?",
+   "heard": "Before you sign, what if a visitor slips on your icy steps and soothes?",
+   "wer": 0.077,
+   "voice": "dana"
   },
   {
-   "scene": 5,
+   "scene": 2,
+   "beat": "o0:0",
+   "say": "January: a visitor slips and sues. Even the Special Form has no liability coverage, so it pays nothing.",
+   "heard": "January, a visitor slips and soothes. Even the special form has no liability coverage, so it pays nothing.",
+   "wer": 0.059,
+   "voice": "narrator"
+  },
+  {
+   "scene": 7,
+   "beat": "o1:0",
+   "say": "Coverage A fixes the house. The lost rent? Different letter.",
+   "heard": "Coverage affixes the house. The lost rent, different letter.",
+   "wer": 0.2,
+   "voice": "narrator"
+  },
+  {
+   "scene": 8,
+   "beat": 0,
+   "say": "In May, with Rosa back, a burglar pries open the back door and grabs the Millers' T V.",
+   "heard": "In May, with Rosa back, a burglar prize opened the back door and grabs the Miller's TV.",
+   "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
+   "scene": 8,
    "beat": 2,
-   "say": "Watch the edition: the nineteen eighty eight D P two allowed only ten percent of Coverage A.",
-   "heard": "Watch the addition. The 1988 DP2 allowed only 10% of coverage A.",
-   "wer": 0.062
+   "say": "The Millers' policy pays for the burglar's crowbar dents, not his loot.",
+   "heard": "The Miller's policy pays for the burglar's crowbar dense, not his loot.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "scene": 8,
+   "beat": 3,
+   "say": "Watch out: homeowners forms list theft. Dwelling forms add it by endorsement.",
+   "heard": "Watch out, Homeowners Forms List Theft, dwelling forms added by endorsement.",
+   "wer": 0.167,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": 3,
+   "say": "Pick by who lives there, not by price. Rosa lives there, but the named insureds, the Millers, don't.",
+   "heard": "Pick by who lives there, not by price. Rose alives there, but the named ensures the millers do not.",
+   "wer": 0.158,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
+   "beat": 0,
+   "say": "What a year! D P one has a short list and pays actual cash value. D P two has a long list. D P three covers the buildings on open perils.",
+   "heard": "What a year, DP1 has a shortlist and pays actual cash value. DP2 has a longlist. DP3 covers the buildings on open perils.",
+   "wer": 0.148,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
+   "beat": 1,
+   "say": "D pays lost rent, and E your own extra living costs. Liability needs the P L S, and theft an endorsement picked by who lives there.",
+   "heard": "D pays lost rent, and E your own extra living costs. Liability needs the PLS and theft and endorsement picked by who lives there.",
+   "wer": 0.045,
+   "voice": "narrator"
   }
  ]
 }

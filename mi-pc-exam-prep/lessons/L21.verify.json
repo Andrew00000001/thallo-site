@@ -1,34 +1,70 @@
 {
  "id": "L21",
- "beats": 37,
+ "beats": 58,
  "mismatches": [
   {
    "scene": 0,
-   "beat": 0,
-   "say": "Businessowners questions are six percent of your exam, about nine items.",
-   "heard": "Business owners' questions are 6% of your exam, about 9 items.",
-   "wer": 0.182
-  },
-  {
-   "scene": 0,
    "beat": 1,
-   "say": "We'll use the twenty thirteen form. Revised forms apply in Michigan to policies written on or after July first, twenty twenty-five, so newer policies may differ.",
-   "heard": "will use the 2013 form. Revised forms apply in Michigan to policies written on or after July 1, 2025, so newer policies may differ.",
-   "wer": 0.037
+   "say": "Let's say his policy is on the twenty thirteen I S O businessowners form. I S O's revised forms apply to Michigan policies written on or after July first, twenty twenty-five.",
+   "heard": "Let's say his policy is on the 2013 ISO Business Owners' Form. ISO's revised forms apply to Michigan policies written on or after July 1, 2025.",
+   "wer": 0.071,
+   "voice": "narrator"
   },
   {
    "scene": 1,
    "beat": 0,
-   "say": "A businessowners policy, or B O P, packages property and liability for small-to-medium businesses. It has three sections: property, liability, and common policy conditions.",
-   "heard": "A Business Owner's Policy, or BOP, packages property and liability for small to medium businesses. It has three sections\u2014property, liability, and common policy conditions.",
-   "wer": 0.091
+   "say": "Dana's pick: a businessowners policy, or B O P. It packages property and liability for small-to-medium businesses.",
+   "heard": "Dana's Pick, a business owners policy, or BOP. It packages property and liability for small to medium businesses.",
+   "wer": 0.125,
+   "voice": "narrator"
   },
   {
-   "scene": 10,
+   "scene": 1,
+   "beat": 1,
+   "say": "Tony's building and ovens: the property side. A customer who slips and sues: the liability side.",
+   "heard": "Tony's Building and Ovens, the property side. A customer who slips and soothes the liability side.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "scene": 4,
+   "beat": "o2:0",
+   "say": "Fixed that afternoon, and the insurer knows.",
+   "heard": "Fix that afternoon, and the insurer knows.",
+   "wer": 0.167,
+   "voice": "narrator"
+  },
+  {
+   "scene": 6,
+   "beat": 1,
+   "say": "The B O P has no coinsurance clause. Insure to at least eighty percent of replacement cost, and losses are paid at replacement cost.",
+   "heard": "The BOP has no coinsurance clause. Ensure to at least 80% of replacement cost and losses are paid at replacement cost.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 8,
+   "beat": 1,
+   "say": "Two sixties: ordinary payroll gets sixty days, and Extended Business Income up to sixty days after reopening, unless more are shown.",
+   "heard": "To 60s, ordinary payroll gets 60 days and extended business income up to 60 days after reopening, unless more are shown.",
+   "wer": 0.15,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
    "beat": 3,
-   "say": "And Hired and Non-Owned Auto Liability covers hired autos, and autos you don't own, like an employee's car, used in your business.",
-   "heard": "and hired and non-owned auto liability covers hired autos, and autos you do not own, like an employee's car used in your business.",
-   "wer": 0.095
+   "say": "Professional services, like accounting, are excluded. And for drivers' own cars, Tony adds Hired and Non-Owned Auto Liability.",
+   "heard": "Professional services, like accounting, are excluded. And for drivers' own cars, Toni adds hired and non-owned auto liability.",
+   "wer": 0.176,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 0,
+   "say": "Last, Section three: common policy conditions, like the rules for canceling.",
+   "heard": "Last section 3, Common Policy Conditions, like the Rules for Cancelling.",
+   "wer": 0.091,
+   "voice": "narrator"
   }
  ]
 }

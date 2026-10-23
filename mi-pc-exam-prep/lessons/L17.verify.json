@@ -1,41 +1,94 @@
 {
  "id": "L17",
- "beats": 31,
+ "beats": 54,
  "mismatches": [
   {
-   "scene": 0,
-   "beat": 0,
-   "say": "Businesses insure their vehicles on commercial auto forms. The Business Auto numbers here come from its twenty twenty edition.",
-   "heard": "businesses ensure their vehicles on commercial auto forms. The business auto numbers here come from its 2020 edition.",
-   "wer": 0.053
-  },
-  {
-   "scene": 1,
+   "scene": 3,
    "beat": 1,
-   "say": "The Garage form combined liability, garagekeepers and physical damage for garage risks. The Business Auto Physical Damage form gave physical damage only. Both were eliminated in the twenty thirteen revision.",
-   "heard": "The garage form combined liability, garage keepers, and physical damage for garage risks. The business auto-physical damage form gave physical damage only. Both were eliminated in the 2013 revision.",
-   "wer": 0.069
+   "say": "His liability shows only symbol two. What should he do?",
+   "heard": "His liability shows only symbol too. What should he do?",
+   "wer": 0.1,
+   "voice": "narrator"
   },
   {
-   "scene": 6,
-   "beat": 0,
-   "say": "Garagekeepers covers customers' autos left in your care while you service, repair, park or store them. Hail hits a customer's car at a repair shop with garagekeepers Comprehensive. The shop did nothing wrong. Does it pay?",
-   "heard": "GarageKeepers covers customers' autos left in your care while you service, repair, park, or store them. Hale hits a customer's car at a repair shop with GarageKeepers comprehensive. The shop did nothing wrong. Does it pay?",
-   "wer": 0.028
+   "scene": 3,
+   "beat": "o0:0",
+   "say": "A driver crashes on a delivery. Symbol two is owned autos only, so that car isn't a covered auto for Tony's liability.",
+   "heard": "A driver crashes on a delivery. Symbol II is owned autos only, so that car is not a covered auto for Tony's liability.",
+   "wer": 0.043,
+   "voice": "narrator"
   },
   {
-   "scene": 7,
-   "beat": 2,
-   "say": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
-   "heard": "Without an endorsement, the business auto form covers mobile equipment for liability only while a covered auto carries or toes it.",
-   "wer": 0.048
+   "scene": 4,
+   "beat": "o0:0",
+   "say": "Day forty-five after buying it, hail dents the new van. Tony never told the insurer, so it isn't a covered auto for physical damage.",
+   "heard": "Day 45 after buying it, Hale dents the new van. Tony never told the insurer, so it is not a covered auto for physical damage.",
+   "wer": 0.038,
+   "voice": "narrator"
   },
   {
    "scene": 9,
+   "beat": 1,
+   "say": "Gus carries garagekeepers Comprehensive. Which basis fits?",
+   "heard": "Gus carries garage keepers comprehensive, which basis fits.",
+   "wer": 0.286,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": "o0:0",
+   "say": "Hail hits, and Gus's insurer pays Tony first. No blame needed.",
+   "heard": "Hale hits, and Guss's insurer pays Tony first. No blame needed.",
+   "wer": 0.2,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": "o1:0",
+   "say": "Hail pounds Tony's van at the shop. Gus did nothing wrong, so his policy pays nothing.",
+   "heard": "Hale pounds Tony's van at the shop. Gus did nothing wrong, so his policy pays nothing.",
+   "wer": 0.062,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": "o2:0",
+   "say": "Hail hits. Tony's own insurer pays first, and Gus's policy pays only what's left.",
+   "heard": "Hale hits, Tony's own insurer pays first, and Gus's policy pays only what's left.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "scene": 10,
    "beat": 0,
-   "say": "Your turn. A Michigan plumbing company insures its vans on the Business Auto form. What provides its Michigan no-fault P I P? Pick an answer.",
-   "heard": "Your turn. A Michigan plumbing company ensures its vans on the business auto form. What provides its Michigan no-fault PIP? Pick an answer.",
-   "wer": 0.042
+   "say": "Tony's new storeroom forklift is mobile equipment. So are bulldozers, farm machinery, crawler-tread vehicles, and vehicles used only on or next to your premises.",
+   "heard": "Tony's new storeroom forklift is mobile equipment. So our bulldozers, farm machinery, crawler tread vehicles, and vehicles used only on or next to your premises.",
+   "wer": 0.042,
+   "voice": "narrator"
+  },
+  {
+   "scene": 10,
+   "beat": 2,
+   "say": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
+   "heard": "Without an endorsement, the business auto form covers mobile equipment for liability only while a covered auto carries or toes it.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": 0,
+   "say": "Finally, big rigs, like the semi hauling Tony's flour. The Motor Carrier Act of nineteen eighty sets federal minimum limits.",
+   "heard": "Finally, big rigs, like the semi-hauling Tony's flower. The Motor Carrier Act of 1980 sets federal minimum limits.",
+   "wer": 0.05,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": 1,
+   "say": "For-hire interstate carriers of nonhazardous property, in vehicles of ten thousand one pounds or more, need at least seven hundred fifty thousand dollars.",
+   "heard": "For higher interstate carriers of non-hazardous property, in vehicles of 10,001 pounds or more, need at least $750,000.",
+   "wer": 0.042,
+   "voice": "narrator"
   }
  ]
 }

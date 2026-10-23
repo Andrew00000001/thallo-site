@@ -1,41 +1,54 @@
 {
  "id": "L19",
- "beats": 38,
+ "beats": 59,
  "mismatches": [
   {
-   "scene": 2,
-   "beat": 1,
-   "say": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. It also adds collapse coverage.",
-   "heard": "Broad is basic plus a Michigan winter. Folling objects, weight of snow, ice, or sleet, and water damage from a system or appliance. It also adds collapse coverage.",
-   "wer": 0.037
+   "scene": 0,
+   "beat": 0,
+   "say": "Tony's Pizza is booming. In November, Tony buys an old Detroit warehouse for a bigger kitchen. Dana insures it.",
+   "heard": "Tony's pizza is booming. In November, Tony buys an old Detroit warehouse for a bigger kitchen. Dana ensures it.",
+   "wer": 0.053,
+   "voice": "narrator"
   },
   {
-   "scene": 3,
+   "scene": 7,
    "beat": 1,
-   "say": "Broad. Falling objects is a peril Broad adds. Special covers it too, but Broad is narrower.",
-   "heard": "Broad, foaling objects is apparel broad ads. Special covers it too, but broad is narrower.",
-   "wer": 0.25
+   "say": "Tony has eighty percent coinsurance: insure at least eighty percent of the building's value, or get paid only part.",
+   "heard": "Tony has 80% coinsurance. Ensure at least 80% of the building's value or get paid only part.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 7,
+   "beat": 2,
+   "say": "Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost.",
+   "heard": "did overshould times the loss, take off the deductible, and that's the insurer's cost.",
+   "wer": 0.143,
+   "voice": "narrator"
   },
   {
    "scene": 8,
-   "beat": 0,
-   "say": "Try this. After a fire, a Traverse City dentist rents a temporary office to keep seeing patients. Which coverage pays, and when does it start? Pick an answer.",
-   "heard": "Try this. After a fire, a Traversity dentist runs a temporary office to keep seeing patients. Which coverage pays, and when does it start? Pick an answer.",
-   "wer": 0.111
-  },
-  {
-   "scene": 9,
-   "beat": 0,
-   "say": "A few more forms. The condominium association form is primary, and its insurer waives recovery against unit-owners. The commercial unit-owners form is excess over the association's insurance.",
-   "heard": "A few more forms. The condominium association form is primary and its insurer waves recovery against unit owners. The commercial unit owners form is excess over the association's insurance.",
-   "wer": 0.036
+   "beat": 5,
+   "say": "After reopening, Extended Business Income adds up to sixty days. Coinsurance can apply to Business Income, never to Extra Expense.",
+   "heard": "After reopening, extended business income adds up to 60 days. Coin assurance can apply to business income, never to extra expense.",
+   "wer": 0.1,
+   "voice": "narrator"
   },
   {
    "scene": 11,
    "beat": 1,
-   "say": "Coverage B, demolition cost. A is the loss to the undamaged portion, and C is the increased cost of construction.",
-   "heard": "Coverage B, demolition cost. O is the loss to the undamaged portion, and C is the increased cost of construction.",
-   "wer": 0.053
+   "say": "Spoilage covers perishable stock for the causes you choose: Breakdown or Contamination, or Power Outage. Which one, Tony?",
+   "heard": "Spoilage covers perishable stock for the causes you choose. Break down or contamination or power outage. Which one, Tony?",
+   "wer": 0.111,
+   "voice": "dana"
+  },
+  {
+   "scene": 12,
+   "beat": 1,
+   "say": "The association's form is primary and waives subrogation; a unit-owner's is excess. Builders risk covers buildings going up; legal liability, others' property in your care.",
+   "heard": "The associations form is primary and wave subrogation. A unit owner's is excess. Builder's risk covers buildings going up, legal liability, other's property in your care.",
+   "wer": 0.04,
+   "voice": "narrator"
   }
  ]
 }

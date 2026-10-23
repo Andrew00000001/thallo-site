@@ -3,449 +3,2525 @@
  "sec": "basics",
  "guide": "mi",
  "title": "Michigan required provisions and property-casualty laws",
- "summary": "Michigan fire policy rules, appraisal, termination notices, the Essential Insurance Act, TRIA, producer terminations and the guaranty association.",
+ "summary": "One wild week at Dana's agency: Michigan's fire policy rules, appraisal, notice periods, the Essential Insurance Act, TRIA and the guaranty association.",
  "objectives": [
   "Recall the minimums and deadlines every Michigan fire policy must include",
   "Walk through Michigan appraisal and home insurance termination notice rules",
-  "Apply Essential Insurance Act eligibility, underwriting and declination rules",
-  "Know the key numbers for TRIA and the Michigan guaranty association"
+  "Apply Essential Insurance Act eligibility; know its underwriting and declination rules",
+  "Know what a dropped producer may do, and the TRIA and guaranty association numbers"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "Michigan required provisions and P&C laws",
-   "subtitle": "Fire policy rules, appraisal, notice periods, the Essential Insurance Act, TRIA and the guaranty association",
-   "icon": "landmark",
+   "title": "Dana's wild week of Michigan insurance laws",
+   "subtitle": "Exam Basics: fire policies, appraisal, notices, the Essential Insurance Act, TRIA, the guaranty association",
+   "draw": [
+    {
+     "p": "storm",
+     "x": 30,
+     "y": 17,
+     "h": 20
+    },
+    {
+     "id": "house",
+     "p": "house",
+     "x": 30,
+     "y": 44,
+     "h": 32
+    },
+    {
+     "p": "fire",
+     "x": 37,
+     "y": 32,
+     "h": 11,
+     "loop": "flicker",
+     "over": true,
+     "cue": "fire",
+     "sfx": "crash"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 58,
+     "y": 48,
+     "h": 24,
+     "opt": {
+      "who": "sam",
+      "mood": "shocked",
+      "pose": "shrug"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 69,
+     "y": 48,
+     "h": 24,
+     "opt": {
+      "who": "jen",
+      "mood": "worried"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 82,
+     "y": 46,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "phone",
+      "mood": "worried"
+     },
+     "at": 1,
+     "anim": "slide-l"
+    }
+   ],
    "beats": [
     {
-     "text": "Michigan laws and required provisions are part of the exam's Basics section. In this lesson, we'll pin down their key numbers.",
-     "say": "Michigan laws and required provisions are part of the exam's Basics section. In this lesson, we'll pin down their key numbers."
+     "text": "June in Grand Rapids. Lightning hits the Millers' roof, and their kitchen catches fire. Everyone gets out safe.",
+     "say": "June in Grand Rapids. Lightning hits the Millers' roof, and their kitchen catches fire. Everyone gets out safe."
+    },
+    {
+     "text": "Sam's calling. Long week ahead.",
+     "say": "Sam's calling. Long week ahead.",
+     "voice": "dana"
     }
    ]
   },
   {
-   "type": "table",
-   "title": "Every Michigan fire policy must include",
-   "src": "MCL 500.2833(1)(a),(h),(i),(p),(q),(s); MCL 500.2123",
-   "columns": [
-    "Provision",
-    "Michigan rule"
+   "type": "sketch",
+   "title": "Monday: the floor under every fire policy",
+   "src": "MCL 500.2833(1)(a),(b),(f),(h),(i),(s); 500.2833(2); 500.2106(4); memory hook mn_prop-02; question prop-007",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 24,
+     "y": 32,
+     "h": 30
+    },
+    {
+     "p": "lightning",
+     "x": 26,
+     "y": 13,
+     "h": 12,
+     "cue": "lightning"
+    },
+    {
+     "p": "fire",
+     "x": 31,
+     "y": 22,
+     "h": 10,
+     "loop": "flicker",
+     "over": true,
+     "cue": "fire"
+    },
+    {
+     "id": "floor",
+     "p": "label",
+     "text": "Floor: ACV at the time of loss, for fire and lightning",
+     "x": 24,
+     "y": 56,
+     "size": 3.8,
+     "w": 42,
+     "bold": true,
+     "cue": "actual"
+    },
+    {
+     "id": "clock",
+     "p": "clock",
+     "x": 72,
+     "y": 16,
+     "h": 15,
+     "opt": {
+      "h": 12,
+      "m": 1
+     },
+     "at": 1,
+     "cue": "coverage"
+    },
+    {
+     "p": "label",
+     "text": "Starts 12:01 a.m. standard time, at the property",
+     "x": 72,
+     "y": 31,
+     "size": 3.6,
+     "w": 34,
+     "at": 1,
+     "cue": "coverage"
+    },
+    {
+     "id": "scis",
+     "p": "scissors",
+     "x": 112,
+     "y": 13,
+     "h": 9,
+     "at": 2,
+     "cue": "insured"
+    },
+    {
+     "p": "label",
+     "text": "Insured cancels: any time",
+     "x": 112,
+     "y": 25,
+     "size": 3.6,
+     "w": 26,
+     "at": 2,
+     "cue": "insured"
+    },
+    {
+     "id": "cal10",
+     "p": "calendar",
+     "x": 143,
+     "y": 13,
+     "h": 12,
+     "opt": {
+      "n": "10",
+      "label": "DAYS"
+     },
+     "at": 2,
+     "cue": "insurer"
+    },
+    {
+     "p": "label",
+     "text": "Insurer cancels: at least 10 days' notice (home: see the Act)",
+     "x": 143,
+     "y": 27,
+     "size": 3.6,
+     "w": 30,
+     "at": 2,
+     "cue": "insurer"
+    },
+    {
+     "id": "coins",
+     "p": "coins",
+     "x": 116,
+     "y": 47,
+     "h": 10,
+     "at": 3,
+     "cue": "minimum"
+    },
+    {
+     "p": "label",
+     "text": "Minimum earned premium: pro rata or $25, whichever is greater",
+     "x": 142,
+     "y": 47,
+     "size": 3.6,
+     "w": 28,
+     "at": 3,
+     "cue": "minimum"
+    },
+    {
+     "id": "vac",
+     "p": "calendar",
+     "x": 72,
+     "y": 46,
+     "h": 12,
+     "opt": {
+      "n": "30",
+      "label": "VACANT"
+     },
+     "at": 4
+    },
+    {
+     "p": "xout",
+     "on": "vac",
+     "at": 4,
+     "cue": "vacancy"
+    },
+    {
+     "p": "label",
+     "text": "Vacancy suspension? Not required",
+     "x": 72,
+     "y": 60,
+     "size": 3.6,
+     "w": 46,
+     "color": "red",
+     "at": 4,
+     "cue": "vacancy"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Monday. That fire came from lightning. In Michigan, every fire policy must cover at least fire and lightning, at actual cash value at the time of loss.",
+     "say": "Monday. That fire came from lightning. In Michigan, every fire policy must cover at least fire and lightning, at actual cash value at the time of loss.",
+     "hl": "house"
+    },
+    {
+     "text": "A floor, not a ceiling: policies may pay more. Coverage starts at 12:01 a.m. standard time, where the property is.",
+     "say": "A floor, not a ceiling: policies may pay more. Coverage starts at twelve oh one A M standard time, where the property is.",
+     "hl": "clock"
+    },
+    {
+     "text": "The insured may cancel any time. The insurer needs at least 10 days' written notice, but home insurance has its own rules.",
+     "say": "The insured may cancel any time. The insurer needs at least ten days' written notice, but home insurance has its own rules.",
+     "hl": "cal10"
+    },
+    {
+     "text": "Whoever cancels, the minimum earned premium is the greater of pro rata or $25.",
+     "say": "Whoever cancels, the minimum earned premium is the greater of pro rata or twenty-five dollars.",
+     "hl": "coins"
+    },
+    {
+     "text": "The policy must state what suspends coverage, but a vacancy suspension isn't required.",
+     "say": "The policy must state what suspends coverage, but a vacancy suspension isn't required.",
+     "hl": "vac"
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Required in every Michigan fire policy?",
+   "src": "MCL 500.2833(1)(a),(b),(f),(h),(i),(s); questions prop-006, -007, -010; IRMI (ACV)",
+   "bins": [
+    {
+     "name": "Required by law"
+    },
+    {
+     "name": "Not required"
+    }
    ],
    "items": [
-    [
-     "Minimum coverage",
-     "Actual cash value; fire and lightning"
-    ],
-    [
-     "Takes effect",
-     "12:01 a.m. standard time, at the property"
-    ],
-    [
-     "Cancellation",
-     "Insured anytime; insurer 10 days' notice"
-    ],
-    [
-     "Minimum earned premium",
-     "Pro rata or $25, whichever is greater"
-    ],
-    [
-     "Loss payable",
-     "30 days after proof of amount of loss"
-    ],
-    [
-     "Suit deadline",
-     "1 year, or a longer policy period; tolled"
-    ]
-   ],
-   "beats": [
     {
-     "text": "Michigan's fire policy law sets minimums: at least actual cash value at the time of loss, for direct loss by fire and lightning.",
-     "say": "Michigan's fire policy law sets minimums: at least actual cash value at the time of loss, for direct loss by fire and lightning.",
-     "show": 1
+     "text": "At least actual cash value at the time of loss",
+     "bin": 0,
+     "why": "ACV at the time of loss is the legal minimum."
     },
     {
-     "text": "It takes effect at twelve-oh-one a.m., standard time, at the property's location.",
-     "say": "It takes effect at twelve oh one A M, standard time, at the property's location.",
-     "show": 2
+     "text": "Coverage starts at 12:01 a.m. standard time",
+     "bin": 0,
+     "why": "It takes effect at 12:01 a.m. where the property is."
     },
     {
-     "text": "The insured may cancel anytime; the insurer needs 10 days' notice, but home insurance has its own rules. Minimum earned premium: pro rata or $25, whichever is greater.",
-     "say": "The insured may cancel anytime; the insurer needs ten days' notice, but home insurance has its own rules. Minimum earned premium: pro rata or twenty-five dollars, whichever is greater.",
-     "show": 4
+     "text": "At least full replacement cost",
+     "bin": 1,
+     "why": "A policy may pay it, but ACV is the minimum. One way to figure ACV: replacement cost minus depreciation."
     },
     {
-     "text": "Loss is payable within 30 days after proof of the amount of loss, unless the fire-loss withholding law applies.",
-     "say": "Loss is payable within thirty days after proof of the amount of loss, unless the fire-loss withholding law applies.",
-     "show": 5
+     "text": "Covers direct loss by fire and lightning",
+     "bin": 0,
+     "why": "Fire and lightning are the minimum perils."
     },
     {
-     "text": "Suit must start within 1 year after the loss, or the policy's longer period, paused from notice of loss until formal denial.",
-     "say": "Suit must start within one year after the loss, or the policy's longer period, paused from notice of loss until formal denial.",
-     "show": 6
+     "text": "Coverage stops after 30 days of vacancy",
+     "bin": 1,
+     "why": "The law requires no vacancy suspension."
+    },
+    {
+     "text": "Min. earned premium: greater of pro rata or $25",
+     "bin": 0,
+     "why": "Whoever cancels. Pro rata under $25? The insurer keeps $25."
     }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Which of these is NOT a provision Michigan law requires in every fire policy?",
-   "choices": [
-    "Coverage of at least actual cash value at the time of loss",
-    "Coverage suspended after 30 days of vacancy",
-    "Coverage taking effect at 12:01 a.m. standard time",
-    "Loss payable within 30 days after proof of the amount of loss"
    ],
-   "answer": 1,
-   "why": "The statute requires the policy to state whatever conditions suspend or restrict coverage, but it does not mandate a 30-day vacancy suspension. The other three are required provisions.",
    "beats": [
     {
-     "text": "Which of these is NOT required in every Michigan fire policy? Pick an answer.",
-     "say": "Which of these is NOT required in every Michigan fire policy? Pick an answer."
+     "text": "Your turn: required by law, or not?",
+     "say": "Your turn: required by law, or not?"
     }
    ],
    "reveal": [
     {
-     "text": "The 30-day vacancy suspension. The law only requires the policy to state whatever conditions suspend or restrict coverage.",
-     "say": "The thirty-day vacancy suspension. The law only requires the policy to state whatever conditions suspend or restrict coverage."
+     "text": "Replacement cost and a vacancy suspension aren't required. The rest are.",
+     "say": "Replacement cost and a vacancy suspension aren't required. The rest are."
     }
    ]
   },
   {
-   "type": "steps",
-   "title": "Appraisal under Michigan law",
-   "src": "MCL 500.2833(1)(m)",
-   "items": [
+   "type": "term",
+   "title": "Tuesday: what's the kitchen worth?",
+   "src": "MCL 500.2833(1)(m); memory hook mn_prop-04; question prop-011",
+   "kind": "Term",
+   "term": "Appraisal",
+   "plain": "A way to settle a fight over how much a loss is worth: each side picks an appraiser, and an umpire breaks a deadlock.",
+   "example": "The adjuster says the Millers' kitchen loss is $18,000. Sam's contractor says $30,000. Sam sends the insurer a written demand for appraisal.",
+   "exam": "Written demand by either side. 20 days: each names an independent appraiser. 15 days: agree on an umpire, or a circuit judge in the county picks.",
+   "draw": [
     {
+     "id": "adj",
+     "p": "person",
+     "x": 14,
+     "y": 40,
+     "h": 26,
+     "opt": {
+      "who": "adjuster",
+      "pose": "hold",
+      "hold": "clipboard"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "$18,000",
+     "x": 14,
+     "y": 17,
+     "w": 20,
+     "to": "adj"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 66,
+     "y": 40,
+     "h": 26,
+     "opt": {
+      "who": "sam",
+      "mood": "angry",
+      "pose": "point"
+     },
+     "flip": true
+    },
+    {
+     "p": "bubble",
+     "text": "$30,000!",
+     "x": 64,
+     "y": 17,
+     "w": 20,
+     "to": "sam",
+     "at": 1
+    },
+    {
+     "id": "demand",
+     "p": "envelope",
+     "x": 40,
+     "y": 30,
+     "h": 10,
+     "opt": {
+      "open": true
+     },
+     "at": 2,
+     "cue": "demand",
      "label": "Written demand",
-     "detail": "Either side, when they disagree on actual cash value or the amount of loss",
-     "icon": "mail"
+     "lsize": 3.6
     },
     {
-     "label": "Name appraisers: 20 days",
-     "detail": "Each side picks a competent, independent appraiser within 20 days after the demand",
-     "icon": "users"
+     "id": "cal",
+     "p": "calendar",
+     "x": 28,
+     "y": 47,
+     "h": 11,
+     "opt": {
+      "n": "20"
+     },
+     "at": 3,
+     "cue": "independent"
     },
     {
-     "label": "Agree on an umpire: 15 days",
-     "detail": "Otherwise a circuit court judge in the county of the loss or property picks one",
-     "icon": "gavel"
+     "p": "label",
+     "text": "20 days: name appraisers",
+     "x": 28,
+     "y": 57,
+     "size": 3.4,
+     "w": 22,
+     "at": 3,
+     "cue": "independent"
     },
     {
-     "label": "Any 2 of 3 decide",
-     "detail": "A written agreement by any two of the three sets the amount of loss",
-     "icon": "scale"
+     "id": "cal15",
+     "p": "calendar",
+     "x": 54,
+     "y": 47,
+     "h": 11,
+     "opt": {
+      "n": "15"
+     },
+     "at": 4,
+     "cue": "umpire"
     },
     {
-     "label": "Costs",
-     "detail": "Each side pays its own appraiser; the umpire and other costs are split equally",
-     "icon": "dollar-sign"
+     "p": "label",
+     "text": "15 days: agree on an umpire",
+     "x": 54,
+     "y": 57,
+     "size": 3.4,
+     "w": 22,
+     "at": 4,
+     "cue": "umpire"
     }
    ],
    "beats": [
     {
-     "text": "Appraisal: when the insured and insurer disagree on actual cash value or the amount of loss, either can demand it in writing.",
-     "say": "Appraisal: when the insured and insurer disagree on actual cash value or the amount of loss, either can demand it in writing.",
+     "text": "Tuesday. The adjuster says the kitchen loss is $18,000.",
+     "say": "Tuesday. The adjuster says the kitchen loss is eighteen thousand dollars.",
+     "show": 1,
+     "hl": "adj"
+    },
+    {
+     "text": "My contractor says $30,000!",
+     "say": "My contractor says thirty thousand dollars!",
+     "voice": "sam",
      "show": 1
     },
     {
-     "text": "Within 20 days, each side names an independent appraiser.",
-     "say": "Within twenty days, each side names an independent appraiser.",
-     "show": 2
-    },
-    {
-     "text": "If the appraisers can't agree on an umpire within 15 days, a circuit court judge in the county where the loss occurred or the property is located picks one.",
-     "say": "If the appraisers can't agree on an umpire within fifteen days, a circuit court judge in the county where the loss occurred or the property is located picks one.",
-     "show": 3
-    },
-    {
-     "text": "Any 2 of the 3 set the loss in writing. Each side pays its own appraiser; the umpire and other costs are split equally.",
-     "say": "Any two of the three set the loss in writing. Each side pays its own appraiser; the umpire and other costs are split equally.",
-     "show": 5
-    }
-   ]
-  },
-  {
-   "type": "scenario",
-   "title": "A new homeowners policy, a quick exit",
-   "src": "MCL 500.2104(5), 500.2123(1)-(3), 500.2106(4); MCL 500.3020(1)(b),(d)",
-   "icon": "house",
-   "story": "Jordan's new homeowners policy in Flint was issued 40 days ago. The insurer decides to end it for a reason other than nonpayment and mails notice today. Under the Essential Insurance Act, how soon can the termination take effect?",
-   "items": [
-    {
-     "label": "A termination?",
-     "detail": "Yes: a refusal to continue to insure for a reason other than nonpayment"
-    },
-    {
-     "label": "Usual notice for home or auto",
-     "detail": "At least 30 days, stating the effective date and each specific reason"
-    },
-    {
-     "label": "Mailed within the first 55 days?",
-     "detail": "Yes, at day 40, so it can take effect 20 days after mailing"
-    },
-    {
-     "label": "Compare",
-     "detail": "Nonpayment: as the policy says. General casualty minimum: 10 days. Malpractice nonrenewal: 60 days."
-    }
-   ],
-   "answer": "Under the Act, no sooner than 20 days after the notice is mailed.",
-   "beats": [
-    {
-     "text": "Jordan's new homeowners policy in Flint is 40 days old. The insurer mails notice to end it, not for nonpayment. Under the Essential Insurance Act, how soon can it take effect?",
-     "say": "Jordan's new homeowners policy in Flint is forty days old. The insurer mails notice to end it, not for nonpayment. Under the Essential Insurance Act, how soon can it take effect?",
-     "show": 0
-    },
-    {
-     "text": "That's a termination. It normally needs at least 30 days' written notice, not the fire policy's 10, giving each specific reason.",
-     "say": "That's a termination. It normally needs at least thirty days' written notice, not the fire policy's ten, giving each specific reason.",
-     "show": 2
-    },
-    {
-     "text": "But a notice mailed in the first 55 days after issue can take effect 20 days after mailing.",
-     "say": "But a notice mailed in the first fifty-five days after issue can take effect twenty days after mailing.",
-     "show": 3
-    },
-    {
-     "text": "So: no sooner than 20 days after mailing.",
-     "say": "So: no sooner than twenty days after mailing.",
+     "text": "In Michigan, if the sides disagree on actual cash value or the amount of loss, either can demand appraisal in writing.",
+     "say": "In Michigan, if the sides disagree on actual cash value or the amount of loss, either can demand appraisal in writing.",
      "show": 3,
-     "answer": true
+     "hl": "demand"
     },
     {
-     "text": "Compare: nonpayment terminations follow the policy. The general casualty minimum is 10 days, and a malpractice nonrenewal needs 60.",
-     "say": "Compare: nonpayment terminations follow the policy. The general casualty minimum is ten days, and a malpractice nonrenewal needs sixty.",
-     "show": 4
+     "text": "Within 20 days of the demand, each names a competent, independent appraiser.",
+     "say": "Within twenty days of the demand, each names a competent, independent appraiser.",
+     "show": 4,
+     "hl": "cal"
+    },
+    {
+     "text": "Then 15 days to agree on an umpire. Stuck? A circuit judge in the county picks. Don't flip 20 and 15.",
+     "say": "Then fifteen days to agree on an umpire. Stuck? A circuit judge in the county picks. Don't flip twenty and fifteen.",
+     "show": 4,
+     "hl": "cal15"
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Essential Insurance Act: home insurance rules",
-   "src": "MCL 500.2103(2), 500.2117(2)(b), 500.2108(8), 500.2122",
-   "items": [
+   "type": "choice",
+   "title": "Flash-forward: the umpire standoff",
+   "src": "MCL 500.2833(1)(m); questions prop-011, prop-012; memory hook mn_prop-04",
+   "ask": "What should Sam do?",
+   "draw": [
     {
-     "label": "Eligible person",
-     "detail": "Owner-occupant or tenant; an owner-occupant of up to 4 units qualifies",
-     "icon": "users"
+     "id": "ap1",
+     "p": "person",
+     "x": 22,
+     "y": 28,
+     "h": 32,
+     "opt": {
+      "who": "person",
+      "tie": true,
+      "shirt": "blue",
+      "pose": "stop",
+      "mood": "angry"
+     },
+     "label": "Sam's appraiser",
+     "lsize": 3.8
     },
     {
-     "label": "Not eligible, for example",
-     "detail": "Arson conviction within 5 years; property taxes delinquent 2 or more years",
-     "icon": "ban"
+     "p": "bubble",
+     "text": "My pick!",
+     "x": 10,
+     "y": 6,
+     "w": 18,
+     "to": "ap1"
     },
     {
-     "label": "Condition, not age",
-     "detail": "Underwriting may use physical condition, without regard to the age of the structure",
-     "icon": "house"
+     "id": "ap2",
+     "p": "person",
+     "x": 56,
+     "y": 28,
+     "h": 32,
+     "opt": {
+      "who": "person",
+      "tie": true,
+      "shirt": "red",
+      "glasses": true,
+      "pose": "stop",
+      "mood": "angry"
+     },
+     "flip": true,
+     "label": "Insurer's appraiser",
+     "lsize": 3.8
     },
     {
-     "label": "No redlining",
-     "detail": "No refusing or limiting coverage because of the location of the risk",
-     "icon": "map-pin"
+     "p": "bubble",
+     "text": "No, mine!",
+     "x": 70,
+     "y": 6,
+     "w": 18,
+     "to": "ap2"
     },
     {
-     "label": "Declinations",
-     "detail": "Give each specific reason; oral applicants may request it in writing within 90 days",
-     "icon": "mail"
+     "id": "cal",
+     "p": "calendar",
+     "x": 98,
+     "y": 22,
+     "h": 18,
+     "opt": {
+      "n": "15",
+      "label": "DAYS"
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 136,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "sam",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "question",
+     "x": 151,
+     "y": 12,
+     "h": 10
     }
    ],
    "beats": [
     {
-     "text": "Under the Essential Insurance Act, owner-occupants and tenants are eligible persons for home insurance, including an owner living in a building of up to 4 units, but not a landlord living elsewhere.",
-     "say": "Under the Essential Insurance Act, owner-occupants and tenants are eligible persons for home insurance, including an owner living in a building of up to four units, but not a landlord living elsewhere.",
-     "show": 1
-    },
-    {
-     "text": "Excluded, for example: an arson conviction within 5 years, or property taxes delinquent 2 or more years.",
-     "say": "Excluded, for example: an arson conviction within five years, or property taxes delinquent two or more years.",
-     "show": 2
-    },
-    {
-     "text": "Underwriting may use physical condition, but not the age of the structure, and never the location of the risk: that's prohibited redlining.",
-     "say": "Underwriting may use physical condition, but not the age of the structure, and never the location of the risk: that's prohibited redlining.",
-     "show": 4
-    },
-    {
-     "text": "Declined applicants get each specific reason; after an oral application, a written explanation if requested within 90 days.",
-     "say": "Declined applicants get each specific reason; after an oral application, a written explanation if requested within ninety days.",
-     "show": 5
+     "text": "Both appraisers are named. Fifteen days later, still no agreed umpire. What should Sam do?",
+     "say": "Both appraisers are named. Fifteen days later, still no agreed umpire. What should Sam do?"
     }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Under the Essential Insurance Act, which applicant is an eligible person for home insurance?",
-   "choices": [
-    "Ana, who owns and lives in a 3-unit building in Lansing",
-    "Ben, who owns a rental house in Saginaw but lives elsewhere",
-    "Cal, who was convicted of arson 2 years ago",
-    "Dee, whose property taxes are 3 years delinquent"
    ],
-   "answer": 0,
-   "why": "An owner-occupant of a dwelling of up to 4 units is eligible. A landlord who lives elsewhere is not; an arson conviction within 5 years or taxes delinquent 2 or more years exclude a person.",
-   "beats": [
+   "options": [
     {
-     "text": "Quick check. Which applicant is an eligible person for home insurance? Pick an answer.",
-     "say": "Quick check. Which applicant is an eligible person for home insurance? Pick an answer."
+     "label": "Let the insurer's appraiser pick alone",
+     "ok": false,
+     "fail": "The umpire must be impartial: the two appraisers pick together. Stuck for 15 days? Either side may ask a circuit court judge.",
+     "beats": [
+      {
+       "text": "The insurer's appraiser picks his own umpire. Sam cries foul.",
+       "say": "The insurer's appraiser picks his own umpire. Sam cries foul."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ap2",
+       "p": "person",
+       "x": 30,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "tie": true,
+        "shirt": "red",
+        "glasses": true,
+        "pose": "point",
+        "mood": "smirk"
+       },
+       "label": "Insurer's appraiser",
+       "lsize": 3.8
+      },
+      {
+       "id": "ump",
+       "p": "person",
+       "x": 62,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "stripes": true,
+        "hat": "cap",
+        "mood": "smirk",
+        "pose": "wave"
+       },
+       "label": "His umpire",
+       "lsize": 3.8
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 116,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "stop",
+        "mood": "angry"
+       },
+       "flip": true
+      },
+      {
+       "p": "bubble",
+       "text": "That's not impartial!",
+       "x": 92,
+       "y": 7,
+       "w": 32,
+       "to": "sam"
+      }
+     ]
+    },
+    {
+     "label": "Ask the state insurance Director to pick",
+     "ok": false,
+     "fail": "Michigan law sends this to a circuit court judge in the county where the loss occurred or the property is located.",
+     "beats": [
+      {
+       "text": "Sam waits at the state insurance office. Wrong desk.",
+       "say": "Sam waits at the state insurance office. Wrong desk."
+      }
+     ],
+     "draw": [
+      {
+       "id": "reg",
+       "p": "person",
+       "x": 20,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "regulator",
+        "pose": "shrug",
+        "mood": "neutral"
+       }
+      },
+      {
+       "id": "desk",
+       "p": "desk",
+       "x": 46,
+       "y": 40,
+       "h": 20,
+       "opt": {
+        "computer": false,
+        "papers": true,
+        "mug": true
+       }
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 92,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "sad",
+        "mood": "sleep"
+       }
+      },
+      {
+       "id": "hg",
+       "p": "hourglass",
+       "x": 112,
+       "y": 26,
+       "h": 14,
+       "opt": {
+        "sand": 0.1
+       }
+      },
+      {
+       "p": "label",
+       "text": "Wrong desk",
+       "x": 140,
+       "y": 34,
+       "size": 6,
+       "bold": true,
+       "color": "red"
+      },
+      {
+       "p": "label",
+       "text": "State insurance office",
+       "x": 33,
+       "y": 6,
+       "size": 4.2,
+       "bold": true
+      }
+     ]
+    },
+    {
+     "label": "Ask a circuit court judge in the county",
+     "ok": true,
+     "win": "Michigan law: stuck for 15 days? Either side may ask a circuit court judge in the county of the loss or the property to pick the umpire.",
+     "beats": [
+      {
+       "text": "The judge picks an impartial umpire.",
+       "say": "The judge picks an impartial umpire."
+      }
+     ],
+     "draw": [
+      {
+       "id": "court",
+       "p": "courthouse",
+       "x": 24,
+       "y": 26,
+       "h": 34
+      },
+      {
+       "id": "judge",
+       "p": "person",
+       "x": 60,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "judge",
+        "pose": "hold",
+        "hold": "gavel"
+       }
+      },
+      {
+       "id": "ump",
+       "p": "person",
+       "x": 92,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "stripes": true,
+        "hat": "cap",
+        "mood": "happy",
+        "pose": "wave"
+       },
+       "label": "Impartial umpire",
+       "lsize": 3.8
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 132,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      }
+     ]
     }
    ],
    "reveal": [
     {
-     "text": "Ana: she owns and lives in a building of up to 4 units. Ben doesn't live there, and Cal's arson and Dee's taxes disqualify them.",
-     "say": "Ana: she owns and lives in a building of up to four units. Ben doesn't live there, and Cal's arson and Dee's taxes disqualify them."
+     "text": "The umpire and Sam's appraiser agree: $24,000. Any 2 of the 3 set the loss in writing.",
+     "say": "The umpire and Sam's appraiser agree: twenty-four thousand dollars. Any two of the three set the loss in writing."
+    },
+    {
+     "text": "Each side pays its own appraiser; the umpire and other costs are split equally.",
+     "say": "Each side pays its own appraiser; the umpire and other costs are split equally."
     }
    ]
   },
   {
-   "type": "bignum",
-   "title": "TRIA: the federal terrorism program",
-   "src": "TRIA §§102(1),(7), 103(e), 108(a); 15 U.S.C. 6701 note (current law as of Oct 2026)",
-   "items": [
+   "type": "term",
+   "title": "Two Michigan clocks: sue and pay",
+   "src": "MCL 500.2833(1)(p),(q); MCL 500.2845; memory hook mn_prop-03; questions prop-008, prop-009",
+   "kind": "Michigan rule",
+   "term": "Tolled",
+   "plain": "Paused. A deadline clock that stops running for a while.",
+   "example": "Like pausing a game clock: from the day you report a loss until the insurer formally denies liability, your time to sue doesn't run.",
+   "exam": "Sue within 1 year after the loss or the policy's longer period, tolled from notice of loss until formal denial.",
+   "draw": [
     {
-     "value": "$5 million",
-     "label": "Losses must exceed this to certify an act"
+     "id": "sue",
+     "p": "calendar",
+     "x": 20,
+     "y": 10,
+     "h": 12,
+     "opt": {
+      "n": "1 yr"
+     },
+     "at": 1,
+     "cue": "year"
     },
     {
-     "value": "20%",
-     "label": "Deductible: prior-year direct earned premium"
+     "p": "label",
+     "text": "Sue: 1 year, or the policy's longer period",
+     "x": 20,
+     "y": 23,
+     "size": 3.5,
+     "w": 30,
+     "at": 1,
+     "cue": "year"
     },
     {
-     "value": "80%",
-     "label": "Federal share above the insurer deductible"
+     "id": "pay",
+     "p": "calendar",
+     "x": 60,
+     "y": 10,
+     "h": 12,
+     "opt": {
+      "n": "30"
+     },
+     "at": 3,
+     "cue": "payable"
     },
     {
-     "value": "$200 million",
-     "label": "Industry losses needed before federal payment"
+     "p": "label",
+     "text": "Pay: 30 days after proof",
+     "x": 60,
+     "y": 23,
+     "size": 3.5,
+     "w": 38,
+     "at": 3,
+     "cue": "payable"
+    },
+    {
+     "p": "label",
+     "text": "Except: in some towns, part of a big fire payment is held back",
+     "x": 60,
+     "y": 32,
+     "size": 3.4,
+     "w": 38,
+     "color": "gray",
+     "at": 3,
+     "cue": "withholding"
+    },
+    {
+     "p": "label",
+     "text": "Time to sue: paused",
+     "x": 40,
+     "y": 42,
+     "size": 3.8,
+     "bold": true,
+     "color": "orange",
+     "at": 2,
+     "cue": "paused"
+    },
+    {
+     "id": "pause",
+     "p": "icon",
+     "name": "circle-pause",
+     "x": 40,
+     "y": 50,
+     "h": 9,
+     "color": "orange",
+     "at": 2,
+     "cue": "paused",
+     "loop": "pulse"
+    },
+    {
+     "p": "line",
+     "from": [
+      6,
+      56
+     ],
+     "to": [
+      74,
+      56
+     ],
+     "color": "gray",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Loss reported",
+     "x": 16,
+     "y": 61,
+     "size": 3.6,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Formal denial",
+     "x": 63,
+     "y": 61,
+     "size": 3.6,
+     "at": 2
     }
    ],
    "beats": [
     {
-     "text": "TRIA created the federal Terrorism Risk Insurance Program. The Treasury Secretary certifies acts of terrorism, consulting the Homeland Security Secretary and the Attorney General.",
-     "say": "T R I A created the federal Terrorism Risk Insurance Program. The Treasury Secretary certifies acts of terrorism, consulting the Homeland Security Secretary and the Attorney General.",
-     "show": 0
-    },
-    {
-     "text": "Certification needs losses over $5 million.",
-     "say": "Certification needs losses over five million dollars.",
+     "text": "How long do we have to sue them?",
+     "say": "How long do we have to sue them?",
+     "voice": "jen",
      "show": 1
     },
     {
-     "text": "Each insurer's deductible is 20% of its prior-year direct earned premium. Above it, the federal share is 80%.",
-     "say": "Each insurer's deductible is twenty percent of its prior-year direct earned premium. Above it, the federal share is eighty percent.",
-     "show": 3
+     "text": "In Michigan, 1 year after the loss, or the policy's longer period. And that clock can be tolled.",
+     "say": "In Michigan, one year after the loss, or the policy's longer period. And that clock can be tolled.",
+     "show": 1,
+     "hl": "sue"
     },
     {
-     "text": "Federal payments need industry losses over $200 million, and the annual cap is $100 billion.",
-     "say": "Federal payments need industry losses over two hundred million dollars, and the annual cap is one hundred billion dollars.",
-     "show": 4
+     "text": "Tolled means paused: from the day the loss is reported until the insurer formally denies liability.",
+     "say": "Tolled means paused: from the day the loss is reported until the insurer formally denies liability.",
+     "show": 3,
+     "hl": "pause"
     },
     {
-     "text": "Under current law it ends December 31, 2027. Extension bills were pending in 2026, so recheck before your exam.",
-     "say": "Under current law it ends December thirty-first, twenty twenty-seven. Extension bills were pending in twenty twenty-six, so recheck before your exam.",
-     "show": 4
+     "text": "The loss is payable within 30 days after proof of the amount of loss, unless the fire-loss withholding law applies.",
+     "say": "The loss is payable within thirty days after proof of the amount of loss, unless the fire-loss withholding law applies.",
+     "show": 4,
+     "hl": "pay"
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "When an insurer terminates a producer",
-   "src": "MCL 500.1209(1)-(3)",
-   "items": [
+   "type": "term",
+   "title": "Wednesday: the Essential Insurance Act",
+   "src": "MCL 500.2104(5), 500.2123(1)-(3), 500.2106(4); memory hook mn_prop-05",
+   "kind": "Michigan term",
+   "term": "Termination",
+   "plain": "For home and auto insurance: the insurer refusing to keep insuring you, for any reason other than nonpayment.",
+   "example": "The Millers' neighbor always pays on time, but his insurer won't renew his home policy. That's a termination.",
+   "exam": "At least 30 days' written notice, with the effective date and each specific reason. First 55 days: 20 days. Nonpayment: as the policy says.",
+   "draw": [
     {
-     "label": "Agreement silent?",
-     "detail": "May service existing policies; may not bind, renew or increase the insurer's obligation without approval",
-     "icon": "briefcase"
+     "id": "nb",
+     "p": "person",
+     "x": 28,
+     "y": 30,
+     "h": 28,
+     "opt": {
+      "who": "neighbor",
+      "pose": "hold",
+      "hold": "envelope",
+      "mood": "shocked"
+     },
+     "out": 1,
+     "cue": "neighbor"
     },
     {
-     "label": "Policyholders protected",
-     "detail": "No cancel or nonrenew because the producer's contract ended",
-     "icon": "shield-check"
+     "p": "bubble",
+     "text": "Not renewed? I always pay!",
+     "x": 36,
+     "y": 8,
+     "w": 40,
+     "to": "nb",
+     "out": 1,
+     "cue": "renew"
     },
     {
-     "label": "Home and auto: allowed reasons",
-     "detail": "Malfeasance, breach of trust, Code violations, failure to perform, under 25 apps in 12 months",
-     "icon": "list-checks"
+     "p": "road",
+     "x": 40,
+     "y": 50,
+     "w": 78
     },
     {
-     "label": "Not mainly for location",
-     "detail": "Not based primarily on the producer's geographic location or loss experience tied to it",
-     "icon": "map-pin"
+     "id": "car",
+     "p": "car",
+     "x": 16,
+     "y": 46,
+     "h": 9,
+     "opt": {
+      "color": "teal"
+     },
+     "over": true
+    },
+    {
+     "id": "sign1",
+     "p": "sign",
+     "x": 32,
+     "y": 26,
+     "h": 34,
+     "opt": {
+      "text": "30 DAYS\nEACH REASON",
+      "tcolor": "blue"
+     },
+     "at": 1,
+     "cue": "road"
+    },
+    {
+     "id": "sign2",
+     "p": "sign",
+     "x": 62,
+     "y": 26,
+     "h": 34,
+     "opt": {
+      "text": "FIRST 55:\n20 DAYS",
+      "tcolor": "red"
+     },
+     "at": 2,
+     "cue": "first"
+    },
+    {
+     "id": "house",
+     "p": "house",
+     "x": 64,
+     "y": 59,
+     "h": 15
     }
    ],
    "beats": [
     {
-     "text": "If the agency agreement is silent, a terminated independent producer may keep servicing existing policies, but can't bind new risks, renew, or increase the insurer's obligation without approval.",
-     "say": "If the agency agreement is silent, a terminated independent producer may keep servicing existing policies, but can't bind new risks, renew, or increase the insurer's obligation without approval.",
-     "show": 1
+     "text": "Wednesday. The Millers' neighbor always pays, but his insurer won't renew. Under Michigan's Essential Insurance Act, that's a termination.",
+     "say": "Wednesday. The Millers' neighbor always pays, but his insurer won't renew. Under Michigan's Essential Insurance Act, that's a termination.",
+     "show": 2,
+     "hl": "nb"
     },
     {
-     "text": "The insurer can't cancel or nonrenew policies because the producer was terminated.",
-     "say": "The insurer can't cancel or nonrenew policies because the producer was terminated.",
-     "show": 2
+     "text": "Picture a Michigan road sign: at least 30 days' written notice, with the effective date and each specific reason.",
+     "say": "Picture a Michigan road sign: at least thirty days' written notice, with the effective date and each specific reason.",
+     "show": 3,
+     "hl": "sign1"
     },
     {
-     "text": "Home and auto insurers may terminate an independent producer only for listed reasons, like malfeasance or fewer than 25 home and auto applications in 12 months, not mainly for location.",
-     "say": "Home and auto insurers may terminate an independent producer only for listed reasons, like malfeasance or fewer than twenty-five home and auto applications in twelve months, not mainly for location.",
+     "text": "First 55 days of a new policy? 20 days after mailing. Nonpayment? As the policy says.",
+     "say": "First fifty-five days of a new policy? Twenty days after mailing. Nonpayment? As the policy says.",
+     "show": 4,
+     "hl": "sign2"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "The underwriter's call: Jen's grandma's policy",
+   "src": "MCL 500.2123(1)-(3), 500.2106(4), 500.2833(1)(i), 500.3020(1)(b),(d); questions prop-013, prop-014",
+   "ask": "Fastest the Act allows?",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 22,
+     "y": 26,
+     "h": 34
+    },
+    {
+     "id": "uw",
+     "p": "person",
+     "x": 52,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "boss",
+      "pose": "think",
+      "mood": "smirk"
+     },
+     "label": "Underwriter",
+     "lsize": 3.8
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 84,
+     "y": 18,
+     "h": 16,
+     "opt": {
+      "n": "40",
+      "label": "DAYS"
+     },
+     "label": "Policy age",
+     "lsize": 3.8
+    },
+    {
+     "id": "gh",
+     "p": "house",
+     "x": 118,
+     "y": 25,
+     "h": 30
+    },
+    {
+     "id": "gma",
+     "p": "person",
+     "x": 147,
+     "y": 31,
+     "h": 30,
+     "opt": {
+      "who": "grandma",
+      "mood": "happy",
+      "pose": "wave"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Jen's grandma lives in her own house. Her new homeowners policy is 40 days old.",
+     "say": "Jen's grandma lives in her own house. Her new homeowners policy is forty days old."
+    },
+    {
+     "text": "Her insurer wants out, not for nonpayment. What's the fastest the Act allows?",
+     "say": "Her insurer wants out, not for nonpayment. What's the fastest the Act allows?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Phone her: coverage ends today",
+     "ok": false,
+     "fail": "A termination isn't effective without written notice mailed or delivered first. In the first 55 days: at least 20 days after mailing.",
+     "beats": [
+      {
+       "text": "A quick phone call. Nothing ends.",
+       "say": "A quick phone call. Nothing ends."
+      }
+     ],
+     "draw": [
+      {
+       "id": "uw",
+       "p": "person",
+       "x": 26,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "boss",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "angry"
+       },
+       "sfx": "ding"
+      },
+      {
+       "p": "bubble",
+       "text": "You're done today!",
+       "x": 44,
+       "y": 7,
+       "w": 30,
+       "to": "uw"
+      },
+      {
+       "id": "gma",
+       "p": "person",
+       "x": 118,
+       "y": 31,
+       "h": 30,
+       "opt": {
+        "who": "grandma",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "smirk"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Not effective",
+       "x": 82,
+       "y": 36,
+       "size": 6,
+       "color": "red",
+       "rot": -6
+      }
+     ]
+    },
+    {
+     "label": "Mail a notice: coverage ends in 10 days",
+     "ok": false,
+     "fail": "10 days is the fire policy and general casualty minimum. For home insurance, the Essential Insurance Act controls: 20 days here.",
+     "beats": [
+      {
+       "text": "Too fast. Ten days is the fire policy rule.",
+       "say": "Too fast. Ten days is the fire policy rule."
+      }
+     ],
+     "draw": [
+      {
+       "id": "uw",
+       "p": "person",
+       "x": 24,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "boss",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "id": "env",
+       "p": "envelope",
+       "x": 56,
+       "y": 22,
+       "h": 14
+      },
+      {
+       "id": "c10",
+       "p": "calendar",
+       "x": 86,
+       "y": 22,
+       "h": 18,
+       "opt": {
+        "n": "10"
+       }
+      },
+      {
+       "p": "xout",
+       "on": "c10"
+      },
+      {
+       "p": "label",
+       "text": "Home insurance: the Act controls",
+       "x": 72,
+       "y": 48,
+       "size": 4.4,
+       "color": "red",
+       "bold": true
+      },
+      {
+       "id": "gma",
+       "p": "person",
+       "x": 120,
+       "y": 31,
+       "h": 30,
+       "opt": {
+        "who": "grandma",
+        "mood": "angry",
+        "pose": "stop"
+       },
+       "flip": true
+      }
+     ]
+    },
+    {
+     "label": "Mail a notice: ends 20 days after mailing",
+     "ok": true,
+     "win": "Under the Act, a notice mailed within the first 55 days after a policy is first issued can take effect 20 days after mailing. A policy may give more.",
+     "beats": [
+      {
+       "text": "Day 40 is inside the first 55 days: 20 days after mailing works.",
+       "say": "Day forty is inside the first fifty-five days: twenty days after mailing works."
+      }
+     ],
+     "draw": [
+      {
+       "id": "uw",
+       "p": "person",
+       "x": 22,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "boss",
+        "pose": "point",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "mail",
+       "p": "mailbox",
+       "x": 56,
+       "y": 30,
+       "h": 24,
+       "opt": {
+        "letters": true
+       }
+      },
+      {
+       "id": "c20",
+       "p": "calendar",
+       "x": 92,
+       "y": 20,
+       "h": 18,
+       "opt": {
+        "n": "20"
+       }
+      },
+      {
+       "p": "check",
+       "x": 106,
+       "y": 9,
+       "h": 9
+      },
+      {
+       "p": "label",
+       "text": "Mailed inside the first 55 days",
+       "x": 92,
+       "y": 44,
+       "size": 4.6,
+       "color": "green",
+       "w": 60
+      },
+      {
+       "id": "gma",
+       "p": "person",
+       "x": 140,
+       "y": 31,
+       "h": 30,
+       "opt": {
+        "who": "grandma",
+        "mood": "neutral",
+        "pose": "hold",
+        "hold": "envelope"
+       }
+      }
+     ]
+    },
+    {
+     "label": "Mail a notice: ends 30 days after mailing",
+     "ok": false,
+     "fail": "Allowed, but not the fastest. 30 days is the usual rule; a notice mailed in the first 55 days can take effect 20 days after mailing.",
+     "draw": [
+      {
+       "id": "uw",
+       "p": "person",
+       "x": 24,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "boss",
+        "pose": "shrug",
+        "mood": "neutral"
+       }
+      },
+      {
+       "id": "env",
+       "p": "envelope",
+       "x": 54,
+       "y": 22,
+       "h": 14
+      },
+      {
+       "id": "c30",
+       "p": "calendar",
+       "x": 84,
+       "y": 22,
+       "h": 18,
+       "opt": {
+        "n": "30"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Legal, just not the fastest",
+       "x": 72,
+       "y": 46,
+       "size": 4.6,
+       "w": 60,
+       "color": "orange",
+       "bold": true
+      },
+      {
+       "id": "gma",
+       "p": "person",
+       "x": 112,
+       "y": 31,
+       "h": 30,
+       "opt": {
+        "who": "grandma",
+        "mood": "happy",
+        "pose": "wave"
+       }
+      }
+     ],
+     "beats": [
+      {
+       "text": "Ten extra days of coverage. Legal, but twenty was allowed.",
+       "say": "Ten extra days of coverage. Legal, but twenty was allowed."
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Mailed after day 55? Back to 30. Michigan's general casualty minimum is 10 days; a malpractice nonrenewal needs at least 60.",
+     "say": "Mailed after day fifty-five? Back to thirty. Michigan's general casualty minimum is ten days; a malpractice nonrenewal needs at least sixty."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Thursday: who is an eligible person?",
+   "src": "MCL 500.2103(2), 500.2117(1), 500.2119; question prop-020; memory hook mn_prop-06",
+   "kind": "Michigan term",
+   "term": "Eligible person",
+   "plain": "Someone an insurer may refuse, not renew or limit only under written rules the Act allows. You live there, as owner or tenant (owners: 4 units max).",
+   "example": "Ana owns a 3-unit building in Lansing and lives upstairs: eligible. Ben owns a rental house in Saginaw but lives elsewhere: not eligible.",
+   "exam": "Knocked out, for example: an arson conviction within 5 years, or property taxes delinquent 2 or more years.",
+   "draw": [
+    {
+     "id": "bldg",
+     "p": "condo",
+     "x": 24,
+     "y": 18,
+     "h": 22,
+     "opt": {
+      "n": 3
+     },
+     "label": "Up to 4 units",
+     "lsize": 3.6
+    },
+    {
+     "id": "ana",
+     "p": "person",
+     "x": 48,
+     "y": 22,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "hair": "long",
+      "shirt": "yellow",
+      "pose": "wave"
+     },
+     "label": "Ana lives in one unit",
+     "lsize": 3.6,
+     "over": true
+    },
+    {
+     "p": "check",
+     "x": 61,
+     "y": 8,
+     "h": 8,
+     "at": 1,
+     "cue": "eligible"
+    },
+    {
+     "id": "ben",
+     "p": "person",
+     "x": 10,
+     "y": 44,
+     "h": 22,
+     "opt": {
+      "who": "person",
+      "shirt": "gray",
+      "mustache": true,
+      "mood": "smirk"
+     },
+     "at": 1,
+     "cue": "landlord"
+    },
+    {
+     "id": "rent",
+     "p": "house",
+     "x": 30,
+     "y": 47,
+     "h": 13,
+     "at": 1,
+     "cue": "landlord"
+    },
+    {
+     "p": "xout",
+     "on": "rent",
+     "at": 1,
+     "cue": "elsewhere"
+    },
+    {
+     "id": "arson",
+     "p": "fire",
+     "x": 49,
+     "y": 46,
+     "h": 10,
+     "at": 2,
+     "cue": "knockouts"
+    },
+    {
+     "id": "tax",
+     "p": "receipt",
+     "x": 78,
+     "y": 46,
+     "h": 12,
+     "opt": {
+      "total": "TAX"
+     },
+     "at": 2,
+     "cue": "knockouts"
+    },
+    {
+     "p": "label",
+     "text": "Landlord who lives elsewhere",
+     "x": 21,
+     "y": 59,
+     "size": 3.5,
+     "w": 34,
+     "at": 1,
+     "cue": "landlord"
+    },
+    {
+     "p": "label",
+     "text": "Arson conviction within 5 years, or taxes 2 or more years late",
+     "x": 63,
+     "y": 59,
+     "size": 3.5,
+     "w": 30,
+     "color": "red",
+     "at": 2,
+     "cue": "knockouts"
+    },
+    {
+     "p": "stamp",
+     "text": "Not eligible",
+     "x": 63,
+     "y": 46,
+     "size": 4.4,
+     "color": "red",
+     "rot": -6,
+     "at": 2,
+     "cue": "knockouts",
+     "over": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "Thursday. An insurer may refuse, not renew or limit an eligible person's home insurance only under written rules the Act allows.",
+     "say": "Thursday. An insurer may refuse, not renew or limit an eligible person's home insurance only under written rules the Act allows.",
+     "show": 2,
+     "hl": "ana"
+    },
+    {
+     "text": "You live there, as owner or tenant. Own up to 4 units and live in one? Eligible. A landlord living elsewhere? Not eligible.",
+     "say": "You live there, as owner or tenant. Own up to four units and live in one? Eligible. A landlord living elsewhere? Not eligible.",
+     "show": 3,
+     "hl": "bldg"
+    },
+    {
+     "text": "Knockouts include an arson conviction within 5 years, or property taxes 2 or more years delinquent.",
+     "say": "Knockouts include an arson conviction within five years, or property taxes two or more years delinquent.",
      "show": 4
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Michigan Property and Casualty Guaranty Association",
-   "src": "MCL 500.7911, 500.7925(2),(4),(6), 500.7931(4); statutory base amounts, CPI-adjusted",
-   "items": [
+   "type": "swipe",
+   "title": "Eligible person, or not?",
+   "src": "MCL 500.2103(2); question prop-020; memory hook mn_prop-06",
+   "options": [
+    "Eligible",
+    "Not eligible"
+   ],
+   "cards": [
     {
-     "label": "Who belongs",
-     "detail": "Insurers authorized for lines other than life or disability; surplus lines insurers are not members",
-     "icon": "shield"
+     "text": "Rosa rents an apartment in Lansing and lives there.",
+     "answer": 0,
+     "why": "A tenant of an apartment is an eligible person for home insurance.",
+     "draw": [
+      {
+       "p": "apartment",
+       "x": 36,
+       "y": 28,
+       "h": 44
+      },
+      {
+       "p": "person",
+       "x": 68,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "rosa",
+        "pose": "wave"
+       }
+      }
+     ]
     },
     {
+     "text": "Tony's cousin owns a 2-unit building in Flint and rents out both units. He lives across town.",
+     "answer": 1,
+     "why": "Up to 4 units counts only if the owner lives there. A non-occupying owner is not an eligible person.",
+     "draw": [
+      {
+       "p": "condo",
+       "x": 28,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "n": 2
+       }
+      },
+      {
+       "p": "sign",
+       "x": 62,
+       "y": 36,
+       "h": 20,
+       "opt": {
+        "text": "FOR RENT"
+       }
+      },
+      {
+       "p": "person",
+       "x": 84,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "who": "person",
+        "shirt": "green",
+        "mustache": true,
+        "pose": "walk"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Tony owns a 4-unit apartment building in Detroit and lives in one of the units.",
+     "answer": 0,
+     "why": "The owner-occupant of a dwelling of up to 4 units is an eligible person.",
+     "draw": [
+      {
+       "p": "condo",
+       "x": 40,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "n": 4
+       }
+      },
+      {
+       "p": "person",
+       "x": 86,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "who": "tony",
+        "pose": "wave"
+       }
+      }
+     ]
+    },
+    {
+     "text": "A homeowner was convicted of arson 2 years ago.",
+     "answer": 1,
+     "why": "An arson conviction within the preceding 5 years makes a person ineligible.",
+     "draw": [
+      {
+       "p": "fire",
+       "x": 24,
+       "y": 28,
+       "h": 26
+      },
+      {
+       "p": "gavel",
+       "x": 52,
+       "y": 30,
+       "h": 20,
+       "opt": {
+        "strike": true
+       }
+      },
+      {
+       "p": "calendar",
+       "x": 80,
+       "y": 28,
+       "h": 22,
+       "opt": {
+        "n": "2 yrs"
+       }
+      }
+     ]
+    },
+    {
+     "text": "A homeowner's property taxes have been delinquent for 3 years.",
+     "answer": 1,
+     "why": "Property taxes delinquent 2 or more years make a person ineligible.",
+     "draw": [
+      {
+       "p": "receipt",
+       "x": 34,
+       "y": 28,
+       "h": 38,
+       "opt": {
+        "total": "TAXES"
+       }
+      },
+      {
+       "p": "calendar",
+       "x": 74,
+       "y": 28,
+       "h": 26,
+       "opt": {
+        "n": "3 yrs"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Unpaid",
+       "x": 44,
+       "y": 30,
+       "size": 7,
+       "color": "red",
+       "rot": -8,
+       "over": true
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: eligible person, or not?",
+     "say": "Your turn: eligible person, or not?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Live there, and if you own the building, 4 units max. Then check the knockouts.",
+     "say": "Live there, and if you own the building, four units max. Then check the knockouts."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "The Act: no redlining",
+   "src": "MCL 500.2117(2)(b), 500.2108(8), 500.2122, 500.2027(a)(iii); hook mn_prop-07; questions prop-021 to -023, reg-045",
+   "kind": "Michigan rule",
+   "term": "Redlining",
+   "plain": "Under Michigan's Essential Insurance Act: refusing, not renewing or limiting home or auto coverage because of where the risk is located.",
+   "example": "An insurer turns down every home applicant in one Grand Rapids neighborhood, whatever shape each house is in. That's redlining.",
+   "exam": "Watch out: age of the dwelling is the classic EXCEPT answer. The 90 days is the applicant's window to ask, not the insurer's deadline.",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 16,
+     "y": 16,
+     "h": 20
+    },
+    {
+     "id": "mag",
+     "p": "magnifier",
+     "x": 30,
+     "y": 23,
+     "h": 11,
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Condition: yes",
+     "x": 16,
+     "y": 32,
+     "size": 3.8,
+     "color": "green",
+     "bold": true
+    },
+    {
+     "id": "age",
+     "p": "calendar",
+     "x": 64,
+     "y": 13,
+     "h": 12,
+     "opt": {
+      "n": "1925"
+     },
+     "cue": "birthday"
+    },
+    {
+     "p": "cross",
+     "x": 75,
+     "y": 8,
+     "h": 6,
+     "color": "red",
+     "cue": "birthday"
+    },
+    {
+     "p": "label",
+     "text": "Built 1925",
+     "x": 64,
+     "y": 23,
+     "size": 3.4,
+     "cue": "birthday"
+    },
+    {
+     "p": "label",
+     "text": "Age: no",
+     "x": 64,
+     "y": 29,
+     "size": 3.8,
+     "color": "red",
+     "bold": true,
+     "cue": "birthday"
+    },
+    {
+     "id": "zone",
+     "p": "box",
+     "x": 40,
+     "y": 53,
+     "w": 68,
+     "hh": 17,
+     "color": "red",
+     "dash": true,
+     "at": 1,
+     "cue": "redlining"
+    },
+    {
+     "p": "label",
+     "text": "Refused because of location",
+     "x": 40,
+     "y": 40,
+     "size": 3.8,
+     "color": "red",
+     "at": 1,
+     "cue": "location"
+    },
+    {
+     "p": "house",
+     "x": 14,
+     "y": 54,
+     "h": 12,
+     "at": 1,
+     "over": true
+    },
+    {
+     "p": "house",
+     "x": 66,
+     "y": 54,
+     "h": 12,
+     "at": 1,
+     "over": true
+    },
+    {
+     "p": "stamp",
+     "text": "Prohibited",
+     "x": 40,
+     "y": 54,
+     "size": 5.5,
+     "color": "red",
+     "rot": -6,
+     "at": 1,
+     "cue": "prohibits",
+     "over": true
+    },
+    {
+     "id": "decl",
+     "p": "envelope",
+     "x": 44,
+     "y": 12,
+     "h": 9,
+     "opt": {
+      "open": true
+     },
+     "at": 2,
+     "cue": "reason"
+    },
+    {
+     "p": "label",
+     "text": "Each specific reason",
+     "x": 44,
+     "y": 21,
+     "size": 3.4,
+     "w": 20,
+     "at": 2,
+     "cue": "reason"
+    }
+   ],
+   "beats": [
+    {
+     "text": "For home underwriting under Michigan's Essential Insurance Act: judge the house's condition, never its birthday or its location.",
+     "say": "For home underwriting under Michigan's Essential Insurance Act: judge the house's condition, never its birthday or its location.",
+     "show": 1,
+     "hl": "house"
+    },
+    {
+     "text": "Refusing or limiting home coverage because of the risk's location is redlining, and the Act prohibits it. Outside the Act, Michigan lets property insurers use location only with a statistically significant fire-loss link in its ZIP code.",
+     "say": "Refusing or limiting home coverage because of the risk's location is redlining, and the Act prohibits it. Outside the Act, Michigan lets property insurers use location only with a statistically significant fire-loss link in its zip code.",
+     "show": 3,
+     "hl": "zone"
+    },
+    {
+     "text": "Saying no? Give each specific reason. Applied out loud? Within 90 days, they can ask for a written explanation.",
+     "say": "Saying no? Give each specific reason. Applied out loud? Within ninety days, they can ask for a written explanation.",
+     "show": 4,
+     "hl": "decl"
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Friday: Tony's terrorism coverage",
+   "src": "TRIA §§102(1),(7), 103(b),(c),(e), 108(a), 15 U.S.C. 6701 note (current law as of Oct 2026); memory hook mn_prop-08",
+   "draw": [
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 14,
+     "y": 38,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "hold": "policy",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Terrorism coverage? I make pizza!",
+     "x": 18,
+     "y": 8,
+     "w": 30,
+     "to": "tony",
+     "at": 0
+    },
+    {
+     "p": "label",
+     "text": "TRIA created the federal Terrorism Risk Insurance Program",
+     "x": 16,
+     "y": 60,
+     "size": 3.4,
+     "w": 30,
+     "color": "blue",
+     "at": 1,
+     "cue": "TRIA"
+    },
+    {
+     "id": "ladder",
+     "p": "ladder",
+     "x": 52,
+     "y": 38,
+     "h": 60,
+     "at": 1,
+     "cue": "ladder"
+    },
+    {
+     "p": "label",
+     "text": "Uncle Sam's terror ladder",
+     "x": 52,
+     "y": 4,
+     "size": 3.6,
+     "bold": true,
+     "at": 1,
+     "cue": "ladder"
+    },
+    {
+     "id": "r1",
+     "p": "num",
+     "text": "$5M",
+     "x": 76,
+     "y": 58,
+     "size": 5.5,
+     "at": 2,
+     "cue": "certifies"
+    },
+    {
+     "p": "label",
+     "text": "losses must top this; then the Treasury Secretary certifies",
+     "x": 86,
+     "y": 58,
+     "size": 3.6,
+     "w": 44,
+     "align": "left",
+     "at": 2,
+     "cue": "certifies"
+    },
+    {
+     "id": "r2",
+     "p": "num",
+     "text": "20%",
+     "x": 76,
+     "y": 47,
+     "size": 5.5,
+     "color": "orange",
+     "at": 3,
+     "cue": "deductible"
+    },
+    {
+     "p": "label",
+     "text": "insurer's deductible: 20% of last year's premium",
+     "x": 86,
+     "y": 47,
+     "size": 3.6,
+     "w": 44,
+     "align": "left",
+     "at": 3,
+     "cue": "deductible"
+    },
+    {
+     "id": "r3",
+     "p": "num",
+     "text": "80%",
+     "x": 76,
+     "y": 36,
+     "size": 5.5,
+     "color": "blue",
+     "at": 3,
+     "cue": "Above"
+    },
+    {
+     "p": "label",
+     "text": "Uncle Sam's share above the deductible",
+     "x": 86,
+     "y": 36,
+     "size": 3.6,
+     "w": 44,
+     "align": "left",
+     "at": 3,
+     "cue": "Above"
+    },
+    {
+     "id": "r4",
+     "p": "num",
+     "text": "$200M",
+     "x": 76,
+     "y": 25,
+     "size": 5.5,
+     "color": "green",
+     "at": 4,
+     "cue": "industry"
+    },
+    {
+     "p": "label",
+     "text": "industry losses before any federal payment",
+     "x": 86,
+     "y": 25,
+     "size": 3.6,
+     "w": 44,
+     "align": "left",
+     "at": 4,
+     "cue": "industry"
+    },
+    {
+     "id": "r5",
+     "p": "num",
+     "text": "$100B",
+     "x": 76,
+     "y": 14,
+     "size": 5.5,
+     "color": "red",
+     "at": 4,
+     "cue": "cap"
+    },
+    {
+     "p": "label",
+     "text": "annual cap",
+     "x": 86,
+     "y": 14,
+     "size": 3.6,
+     "w": 44,
+     "align": "left",
+     "at": 4,
+     "cue": "cap"
+    },
+    {
+     "id": "end",
+     "p": "calendar",
+     "x": 146,
+     "y": 44,
+     "h": 13,
+     "opt": {
+      "n": "2027"
+     },
+     "at": 5,
+     "cue": "ends"
+    },
+    {
+     "p": "label",
+     "text": "Ends Dec 31, 2027 under current law: recheck",
+     "x": 146,
+     "y": 58,
+     "size": 3.5,
+     "w": 24,
+     "color": "red",
+     "at": 5,
+     "cue": "recheck"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Terrorism coverage on my renewal? I make pizza!",
+     "say": "Terrorism coverage on my renewal? I make pizza!",
+     "voice": "tony",
+     "hl": "tony"
+    },
+    {
+     "text": "A federal law, TRIA, makes insurers offer it. Picture Uncle Sam's terror ladder.",
+     "say": "A federal law, T R I A, makes insurers offer it. Picture Uncle Sam's terror ladder.",
+     "hl": "ladder"
+    },
+    {
+     "text": "First rung: the Treasury Secretary certifies an act of terrorism, consulting the Homeland Security Secretary and the Attorney General. Losses must top $5 million.",
+     "say": "First rung: the Treasury Secretary certifies an act of terrorism, consulting the Homeland Security Secretary and the Attorney General. Losses must top five million dollars.",
+     "hl": "r1"
+    },
+    {
+     "text": "Next, each insurer's deductible: 20% of its prior-year direct earned premium. Above it, Uncle Sam pays 80%.",
+     "say": "Next, each insurer's deductible: twenty percent of its prior-year direct earned premium. Above it, Uncle Sam pays eighty percent.",
+     "hl": [
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "text": "No federal payment until industry losses top $200 million; the annual cap is $100 billion. Don't swap 20 and 80!",
+     "say": "No federal payment until industry losses top two hundred million dollars; the annual cap is one hundred billion dollars. Don't swap twenty and eighty!",
+     "hl": [
+      "r4",
+      "r5"
+     ]
+    },
+    {
+     "text": "Under current law it ends December 31, 2027, but extension bills were pending in 2026: recheck.",
+     "say": "Under current law it ends December thirty-first, twenty twenty-seven, but extension bills were pending in twenty twenty-six: recheck.",
+     "hl": "end"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Saturday: Dana gets cut",
+   "src": "MCL 500.1209(1)-(3); questions prop-018, prop-019",
+   "ask": "What should Dana do?",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 22,
+     "y": 26,
+     "h": 34
+    },
+    {
+     "id": "env",
+     "p": "envelope",
+     "x": 40,
+     "y": 12,
+     "h": 12,
+     "move": {
+      "to": [
+       64,
+       18
+      ],
+      "at": 0,
+      "cue": "ends",
+      "sfx": "whoosh"
+     },
+     "over": true,
+     "label": "Contract ended",
+     "lsize": 3.6
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 82,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "dana",
+      "pose": "shrug",
+      "mood": "shocked"
+     }
+    },
+    {
+     "id": "todo",
+     "p": "note",
+     "text": "Monday: the Millers' renewal is due",
+     "x": 132,
+     "y": 22,
+     "w": 44
+    }
+   ],
+   "beats": [
+    {
+     "text": "Saturday. Dana sent the Millers' insurer only 18 home and auto applications in 12 months. It ends her agency contract.",
+     "say": "Saturday. Dana sent the Millers' insurer only eighteen home and auto applications in twelve months. It ends her agency contract."
+    },
+    {
+     "text": "The contract is silent on what comes next. Dana is an independent producer. What now?",
+     "say": "The contract is silent on what comes next. Dana is an independent producer. What now?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Renew the Millers once, on her own",
+     "ok": false,
+     "fail": "Michigan law: with a silent agreement, a terminated producer may not renew, bind new risks or increase the insurer's obligation without approval.",
+     "beats": [
+      {
+       "text": "Dana renews the Millers herself. Not without the insurer's approval!",
+       "say": "Dana renews the Millers herself. Not without the insurer's approval!"
+      }
+     ],
+     "draw": [
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 26,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "smirk"
+       }
+      },
+      {
+       "id": "renew",
+       "p": "policy",
+       "x": 58,
+       "y": 26,
+       "h": 26,
+       "opt": {
+        "title": "RENEWAL",
+        "tsize": 6
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Not allowed",
+       "x": 60,
+       "y": 28,
+       "size": 6.5,
+       "color": "red",
+       "rot": -8,
+       "cue": "approval",
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "No renewing without approval",
+       "x": 58,
+       "y": 49,
+       "size": 4.6,
+       "w": 60,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "label": "Tell the Millers their policy is canceled",
+     "ok": false,
+     "fail": "Michigan law: an insurer may not cancel or nonrenew a policy because the producer's contract was terminated.",
+     "beats": [
+      {
+       "text": "Jen panics. But the insurer can't cancel because Dana's contract ended.",
+       "say": "Jen panics. But the insurer can't cancel because Dana's contract ended."
+      }
+     ],
+     "draw": [
+      {
+       "id": "house",
+       "p": "house",
+       "x": 28,
+       "y": 26,
+       "h": 32
+      },
+      {
+       "id": "jen",
+       "p": "person",
+       "x": 64,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "jen",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Canceled?!",
+       "x": 80,
+       "y": 9,
+       "w": 20,
+       "to": "jen"
+      },
+      {
+       "p": "label",
+       "text": "Not a reason to cancel",
+       "x": 126,
+       "y": 32,
+       "size": 4.6,
+       "color": "red",
+       "bold": true,
+       "w": 34
+      }
+     ]
+    },
+    {
+     "label": "Service policies; ask to bind or renew",
+     "ok": true,
+     "win": "Michigan law: she may service existing policies, but not bind, renew or increase the insurer's obligation without approval.",
+     "beats": [
+      {
+       "text": "Dana keeps servicing, and asks before renewing.",
+       "say": "Dana keeps servicing, and asks before renewing."
+      },
+      {
+       "text": "And dropping her for under 25 applications in 12 months? Allowed.",
+       "say": "And dropping her for under twenty-five applications in twelve months? Allowed."
+      }
+     ],
+     "draw": [
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 22,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "May I renew the Millers?",
+       "x": 46,
+       "y": 8,
+       "w": 32,
+       "to": "dana"
+      },
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 72,
+       "y": 32,
+       "h": 26
+      },
+      {
+       "p": "label",
+       "text": "An insurer may drop a home and auto producer only for:",
+       "x": 128,
+       "y": 10,
+       "size": 3.8,
+       "w": 46,
+       "bold": true
+      },
+      {
+       "id": "list",
+       "p": "note",
+       "text": "Malfeasance. Breach of fiduciary duty or trust. Code violation. Failure to perform.",
+       "x": 128,
+       "y": 27,
+       "w": 44
+      },
+      {
+       "p": "label",
+       "text": "Or under 25 home and auto apps in 12 months",
+       "x": 128,
+       "y": 47,
+       "size": 4.0,
+       "w": 44
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "In Michigan, a home and auto insurer may drop an independent producer only for listed reasons.",
+     "say": "In Michigan, a home and auto insurer may drop an independent producer only for listed reasons."
+    },
+    {
+     "text": "Malfeasance is another. But never mainly for the agency's location, or losses tied to it.",
+     "say": "Malfeasance is another. But never mainly for the agency's location, or losses tied to it."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Sunday: when an insurer goes broke",
+   "src": "MCL 500.7911, 500.7925(2),(4),(6), 500.7931(4); base amounts, CPI-adjusted; memory hook mn_prop-01",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 24,
+     "y": 34,
+     "h": 32,
+     "rot": -10,
+     "move": {
+      "to": [
+       24,
+       38
+      ],
+      "at": 0,
+      "cue": "insolvent",
+      "dur": 2
+     }
+    },
+    {
+     "p": "flood",
+     "x": 34,
+     "y": 56,
+     "w": 64,
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Insolvent insurer",
+     "x": 24,
+     "y": 12,
+     "size": 3.8,
+     "color": "red",
+     "bold": true
+    },
+    {
+     "id": "boat",
+     "p": "boat",
+     "x": 84,
+     "y": 52,
+     "h": 20,
+     "opt": {
+      "color": "orange"
+     },
+     "label": "Guaranty association",
+     "lsize": 3.6
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 82,
+     "y": 40,
+     "h": 18,
+     "opt": {
+      "who": "rosa",
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     "over": true
+    },
+    {
+     "id": "lic",
+     "p": "idcard",
+     "x": 84,
+     "y": 16,
+     "h": 16,
+     "opt": {
+      "title": "LICENSE"
+     }
+    },
+    {
+     "id": "cap",
+     "p": "moneybag",
+     "x": 112,
+     "y": 16,
+     "h": 18,
+     "label": "$5 million",
+     "lsize": 3.6
+    },
+    {
+     "id": "worth",
+     "p": "office",
+     "x": 142,
+     "y": 20,
+     "h": 26,
+     "label": "$25 million",
+     "lsize": 3.6
+    },
+    {
+     "id": "refund",
+     "p": "receipt",
+     "x": 112,
+     "y": 50,
+     "h": 18,
+     "label": "$500",
+     "lsize": 3.6
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 142,
+     "y": 51,
+     "h": 16,
+     "opt": {
+      "n": "30"
+     }
+    },
+    {
+     "p": "label",
+     "text": "30 days",
+     "x": 142,
+     "y": 62,
+     "size": 3.6
+    }
+   ],
+   "spots": [
+    {
+     "on": "boat",
+     "label": "The lifeboat",
+     "text": "When a member insurer is insolvent, the Michigan Property and Casualty Guaranty Association pays its covered claims."
+    },
+    {
+     "on": "lic",
+     "label": "No license, no lifeboat",
+     "text": "Insurers authorized in Michigan for lines other than life or disability belong. A surplus lines insurer is not treated as authorized: no membership, no protection."
+    },
+    {
+     "on": "refund",
      "label": "Unearned premium",
-     "detail": "Covered up to the first $500 per person; no refund under $50",
-     "icon": "receipt"
+     "text": "Refunds of unearned premium the broke insurer owes: covered up to the first $500 per person (base amount, adjusted each year). No refund under $50."
     },
     {
-     "label": "$5 million claim cap",
-     "detail": "Workers' comp and no-fault PIP claims are not capped",
-     "icon": "banknote"
+     "on": "cap",
+     "label": "Claim cap",
+     "text": "The part of a claim over $5 million (base amount) isn't covered. Workers' comp and no-fault PIP claims aren't capped."
     },
     {
-     "label": "$25 million net worth",
-     "detail": "No claims by or against an insured worth more than this",
-     "icon": "building-2"
+     "on": "worth",
+     "label": "Net-worth limit",
+     "text": "No claims by or against an insured whose net worth tops $25 million (base amount)."
     },
     {
-     "label": "30 days",
-     "detail": "In-force policies continue no more than 30 days after the receiver is appointed",
-     "icon": "timer"
+     "on": "cal",
+     "label": "A 30-day ride",
+     "text": "In-force policies continue until they expire, are replaced or canceled, but no more than 30 days after the receiver is appointed."
     }
    ],
    "beats": [
     {
-     "text": "When an insurer is insolvent, the Michigan Property and Casualty Guaranty Association pays covered claims. Insurers authorized for lines other than life or disability belong; surplus lines insurers don't.",
-     "say": "When an insurer is insolvent, the Michigan Property and Casualty Guaranty Association pays covered claims. Insurers authorized for lines other than life or disability belong; surplus lines insurers don't.",
-     "show": 1
+     "text": "Sunday's news: an insurer is insolvent. Its covered claims go to the Michigan Property and Casualty Guaranty Association.",
+     "say": "Sunday's news: an insurer is insolvent. Its covered claims go to the Michigan Property and Casualty Guaranty Association.",
+     "hl": "boat"
     },
     {
-     "text": "Unearned premium: up to the first $500 per person, and no refund under $50.",
-     "say": "Unearned premium: up to the first five hundred dollars per person, and no refund under fifty dollars.",
-     "show": 2
+     "text": "Picture a lifeboat. No license, no lifeboat. Tap the glowing spots.",
+     "say": "Picture a lifeboat. No license, no lifeboat. Tap the glowing spots."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The lifeboat runs on fives. Refunds: $50 up to $500. Claim cap: $5 million. Net-worth limit: $25 million. Plus a 30-day ride.",
+     "say": "The lifeboat runs on fives. Refunds: fifty dollars up to five hundred dollars. Claim cap: five million dollars. Net-worth limit: twenty-five million dollars. Plus a thirty-day ride."
     },
     {
-     "text": "Claims are capped at $5 million, except workers' comp and no-fault PIP. And no claims by or against an insured worth over $25 million.",
-     "say": "Claims are capped at five million dollars, except workers' comp and no-fault P I P. And no claims by or against an insured worth over twenty-five million dollars.",
-     "show": 4
-    },
-    {
-     "text": "Policies last no more than 30 days after the receiver is appointed. The dollar maximums are inflation-adjusted bases; exam items may use base or current figures.",
-     "say": "Policies last no more than thirty days after the receiver is appointed. The dollar maximums are inflation-adjusted bases; exam items may use base or current figures.",
-     "show": 5
+     "text": "The dollar maximums are inflation-adjusted bases; exam items may use base or current figures.",
+     "say": "The dollar maximums are inflation-adjusted bases; exam items may use base or current figures."
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "Michigan's guaranty association caps covered claims at $5 million (statutory base). Which claim against an insolvent insurer is NOT subject to that cap?",
+   "q": "Which claim is NOT subject to Michigan's $5 million guaranty claim cap (statutory base)?",
    "choices": [
     "A homeowners dwelling claim",
     "A commercial property claim",
@@ -454,37 +2530,129 @@
    ],
    "answer": 3,
    "why": "The per-claim cap does not apply to workers' compensation claims or no-fault PIP claims.",
+   "draw": [
+    {
+     "id": "cap",
+     "p": "moneybag",
+     "x": 40,
+     "y": 17,
+     "h": 16,
+     "label": "$5 million cap",
+     "lsize": 3.6
+    },
+    {
+     "p": "question",
+     "x": 58,
+     "y": 12,
+     "h": 9
+    },
+    {
+     "p": "house",
+     "x": 12,
+     "y": 47,
+     "h": 14
+    },
+    {
+     "p": "store",
+     "x": 32,
+     "y": 47,
+     "h": 13
+    },
+    {
+     "p": "gavel",
+     "x": 51,
+     "y": 48,
+     "h": 10
+    },
+    {
+     "p": "car",
+     "x": 68,
+     "y": 48,
+     "h": 9,
+     "opt": {
+      "dent": true,
+      "color": "red"
+     }
+    }
+   ],
    "beats": [
     {
-     "text": "Which claim against an insolvent insurer is NOT subject to the guaranty association's cap? Pick an answer.",
-     "say": "Which claim against an insolvent insurer is NOT subject to the guaranty association's cap? Pick an answer."
+     "text": "Which claim escapes the cap?",
+     "say": "Which claim escapes the cap?"
     }
    ],
    "reveal": [
     {
-     "text": "The no-fault PIP claim. PIP and workers' comp claims aren't capped.",
-     "say": "The no-fault P I P claim. P I P and workers' comp claims aren't capped."
+     "text": "The no-fault PIP claim. PIP and workers' comp aren't capped.",
+     "say": "The no-fault P I P claim. P I P and workers' comp aren't capped."
     }
    ]
   },
   {
    "type": "recap",
    "items": [
-    "Fire policy: ACV, fire and lightning, 12:01 a.m., $25 minimum",
-    "Pay in 30 days after proof; sue within 1 year, tolled",
-    "Appraisal: 20 days to name, 15 to agree on an umpire, any 2 of 3",
-    "Home termination: 30 days, or 20 in the first 55; each reason",
-    "TRIA 20% and 80%; MPCGA cap spares PIP and workers' comp"
+    "Fire policy: ACV, fire, lightning, 12:01 a.m., $25 min. earned premium",
+    "Pay: 30 days after proof. Sue: at least 1 yr, tolled. Appraisal: 20/15",
+    "Home termination: 30 days' notice, or 20 in the first 55 days",
+    "Act: live there (owners: 4 units max); condition, not age or location",
+    "TRIA 20% deductible, feds 80%; guaranty cap spares PIP, workers' comp"
+   ],
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 18,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "coffee",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 40,
+     "y": 44,
+     "h": 28,
+     "opt": {
+      "who": "sam",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 56,
+     "y": 44,
+     "h": 28,
+     "opt": {
+      "who": "jen",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "sun",
+     "x": 64,
+     "y": 12,
+     "h": 12,
+     "loop": "spin"
+    }
    ],
    "beats": [
     {
-     "text": "To recap. Fire policies: actual cash value, payment within 30 days of proof, a year to sue. Appraisal: 20 days, then 15.",
-     "say": "To recap. Fire policies: actual cash value, payment within thirty days of proof, a year to sue. Appraisal: twenty days, then fifteen.",
-     "show": 3
+     "text": "What a week! Dana kept servicing her policies. Weeks later, Sam's appraisal wrapped up.",
+     "say": "What a week! Dana kept servicing her policies. Weeks later, Sam's appraisal wrapped up.",
+     "show": 5
     },
     {
-     "text": "Home terminations: 30 days, or 20 in the first 55. TRIA: 20% deductible, 80% federal. The guaranty cap spares PIP and workers' comp.",
-     "say": "Home terminations: thirty days, or twenty in the first fifty-five. T R I A: twenty percent deductible, eighty percent federal. The guaranty cap spares P I P and workers' comp.",
+     "text": "Next week, my phone goes in a drawer.",
+     "say": "Next week, my phone goes in a drawer.",
+     "voice": "dana",
      "show": 5
     }
    ]
@@ -497,15 +2665,25 @@
   "prop-016",
   "prop-018"
  ],
- "hooks": [],
+ "hooks": [
+  "mn-mn_prop-01",
+  "mn-mn_prop-05",
+  "mn-mn_prop-06",
+  "mn-mn_prop-07",
+  "mn-mn_prop-08"
+ ],
  "sources": [
   "MCL 500.2833 (mandatory fire policy provisions, appraisal)",
+  "MCL 500.2845 (fire-loss withholding exception)",
   "MCL 500.2104, 500.2106, 500.2123 (Essential Insurance Act termination)",
-  "MCL 500.2103, 500.2108, 500.2117, 500.2122 (Essential Insurance Act eligibility, underwriting, declination)",
+  "MCL 500.2103, 500.2108, 500.2117, 500.2119, 500.2122 (Essential Insurance Act eligibility, underwriting, declination)",
   "MCL 500.3020 (casualty cancellation)",
+  "MCL 500.2027(a)(iii) (unfair discrimination: location in property insurance)",
   "MCL 500.1209 (termination of authority to represent insurer)",
   "MCL 500.7911, 500.7925, 500.7931 (Michigan Property and Casualty Guaranty Association)",
   "Terrorism Risk Insurance Act, 15 U.S.C. 6701 note, §§102, 103, 108; home.treasury.gov TRIP page",
-  "PSI Series 16-81 content outline"
+  "Memory hooks mn_prop-01 to mn_prop-08",
+  "PSI Series 16-81 content outline",
+  "IRMI glossary, \"actual cash value\" (via final/core_facts.md, Loss Valuation)"
  ]
 }

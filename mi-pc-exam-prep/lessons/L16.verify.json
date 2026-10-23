@@ -1,62 +1,78 @@
 {
  "id": "L16",
- "beats": 34,
+ "beats": 57,
  "mismatches": [
   {
-   "scene": 2,
+   "scene": 1,
    "beat": 0,
-   "say": "Part A pays bodily injury and property damage you're legally responsible for. Insureds include you or a family member in any auto, and anyone using your covered auto.",
-   "heard": "Part A pays bodily injury and property damage you're legally responsible for. Insurds include you or a family member in any auto and anyone using your covered auto.",
-   "wer": 0.038
+   "say": "The six parts? Rosa's question to Gramps: Let Me Use Dad's Dodge, Gramps?",
+   "heard": "The six parts, Rose's question to gramps, let me use Dad's Dodge gramps.",
+   "wer": 0.077,
+   "voice": "narrator"
   },
   {
    "scene": 3,
-   "beat": 0,
-   "say": "Three exclusions matter. First, public or livery use, including time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded.",
-   "heard": "Three exclusions matter. First, public or liver use, including time logged into a rideshare app as a driver. Share the expense car pools and volunteer use are not excluded.",
-   "wer": 0.103
+   "beat": 1,
+   "say": "Rolled over, or hit a vehicle or object? Collision. An animal, weather, a falling object, fire or theft? Other than collision.",
+   "heard": "rolled over or hit a vehicle or object. Collision, an animal whether a falling object, fire or theft, other than collision.",
+   "wer": 0.048,
+   "voice": "narrator"
   },
   {
    "scene": 4,
-   "beat": 1,
-   "say": "The answer is time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded.",
-   "heard": "The answer is time logged into a Rideshare app as a driver. Share the expense car pools and volunteer use are not excluded.",
-   "wer": 0.087
+   "beat": 2,
+   "say": "Broad form pays regardless of fault, and waives the deductible if the driver wasn't substantially at fault.",
+   "heard": "Broad form pays regardless of fault and waves the deductible if the driver was not substantially at fault.",
+   "wer": 0.059,
+   "voice": "narrator"
   },
   {
-   "scene": 7,
-   "beat": 1,
-   "say": "Broad form pays regardless of fault, and waives the deductible if the driver was not substantially at fault. Standard collision may also be offered: you pay the deductible either way.",
-   "heard": "Broad form pays regardless of fault and waves the deductible if the driver was not substantially at fault. Standard collision may also be offered. You pay the deductible either way.",
-   "wer": 0.034
+   "scene": 6,
+   "beat": 0,
+   "say": "Smart move. In October, a thief steals Rosa's car.",
+   "heard": "Smart Move. In October, a thief steals Rose's car.",
+   "wer": 0.111,
+   "voice": "narrator"
   },
   {
    "scene": 8,
-   "beat": 0,
-   "say": "Sam buys a second car Monday. No auto on his policy has collision. Wednesday, before calling his insurer, he backs into a pole. Thursday, he asks for collision. Is he covered?",
-   "heard": "Sam buys a second car Monday. No auto on his policy has collision. Wednesday, before calling his insurer, he backs into a poll. Thursday, he asks for collision. Is he covered?",
-   "wer": 0.032
-  },
-  {
-   "scene": 9,
-   "beat": 0,
-   "say": "Part D also pays transportation expenses with no deductible: up to thirty dollars a day, to nine hundred dollars. Thirty times thirty is nine hundred.",
-   "heard": "Part D also pays transportation expenses with no deductible, up to $30 a day to $900. Thirty times thirty is $900.",
-   "wer": 0.04
-  },
-  {
-   "scene": 11,
-   "beat": 0,
-   "say": "Now endorsements. Miscellaneous Type Vehicle typically covers motor homes, motorcycles, all-terrain vehicles, dune buggies and golf carts. Snowmobiles use a separate endorsement.",
-   "heard": "Now endorsements. Miscellaneous type vehicle typically covers motor homes, motorcycles, all-terrain vehicles, dune buggers and golf carts. Snowmobiles use a separate endorsement.",
-   "wer": 0.045
-  },
-  {
-   "scene": 11,
    "beat": 1,
-   "say": "Extended Non-Owned removes the regular-use exclusion for liability, and med pay if bought. It fits someone who regularly drives an employer's car.",
-   "heard": "Extended non-owned removes the regular use exclusion for liability and med pay if bought. It fits someone who regularly drives an employer's car.",
-   "wer": 0.087
+   "say": "Time logged into a ride-share app as a driver is excluded, rider or not. Share-the-expense car pools and volunteer driving aren't.",
+   "heard": "Time logged into a Rideshare app as a driver is excluded, writer or not. Share the expense carpools and volunteer driving or not.",
+   "wer": 0.25,
+   "voice": "narrator"
+  },
+  {
+   "scene": 10,
+   "beat": 0,
+   "say": "One night, an unknown driver rear-ends Rosa's car and speeds off. She's seriously hurt, so she makes an uninsured motorists claim.",
+   "heard": "One night, an unknown driver rear ends Rose's car and speeds off. She's seriously hurt, so she makes an uninsured motorist's claim.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 2,
+   "say": "So Gramps' motor home typically fits Miscellaneous Type Vehicle. Rosa's company car fits Extended Non-Owned.",
+   "heard": "So Gramps Motorhome typically fits miscellaneous type vehicle. Rosa's company car fits extended non-owned.",
+   "wer": 0.25,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": 0,
+   "say": "Quick check: what does Rosa's endorsement give her?",
+   "heard": "Quick check, what does Rose's endorsement give her?",
+   "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
+   "beat": 2,
+   "say": "Next year? Fewer deer, please.",
+   "heard": "Next year Fewer Dear Please.",
+   "wer": 0.2,
+   "voice": "rosa"
   }
  ]
 }

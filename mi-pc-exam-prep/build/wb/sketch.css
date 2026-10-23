@@ -1,0 +1,89 @@
+/* ---------- Sketch drawings (whiteboard in light mode, chalkboard in dark mode) ---------- */
+:root{ --mk-bg:#FBFAF5; --mk-bg2:#F1EFE6; --mk-frame:#C9CDD3; --mk-ink:#1E2430; --mk-blue:#1F5FD1; --mk-red:#D3302F; --mk-green:#1A8A4B;
+  --mk-orange:#E8711A; --mk-purple:#7442C8; --mk-yellow:#F0BC12; --mk-gray:#7A8290; --mk-brown:#8A5A2B; --mk-sky:#3BA3E0;
+  --mk-pink:#DB4F96; --mk-teal:#12968B; --mk-white:#FFFFFF; --mk-paper:#FFFFFF; --mk-hl:rgba(255,190,0,.85); --mk-muted:#5B6472; --mk-dots:rgba(30,36,48,.07); }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --mk-bg:#1C2826; --mk-bg2:#16211F; --mk-frame:#6B5A43; --mk-ink:#EEF0EA; --mk-blue:#8DB8FF;
+  --mk-red:#FF8E86; --mk-green:#7FDCA4; --mk-orange:#FFB36B; --mk-purple:#C7A6FF; --mk-yellow:#FFE27A; --mk-gray:#9AA6A0; --mk-brown:#D6A26E;
+  --mk-sky:#86CFF5; --mk-pink:#FF9CCB; --mk-teal:#6FD9CC; --mk-white:#F4F6F2; --mk-paper:#22302D; --mk-hl:rgba(255,226,122,.8); --mk-muted:#AEB9B4; --mk-dots:rgba(238,240,234,.06); } }
+:root[data-theme="dark"]{ --mk-bg:#1C2826; --mk-bg2:#16211F; --mk-frame:#6B5A43; --mk-ink:#EEF0EA; --mk-blue:#8DB8FF; --mk-red:#FF8E86; --mk-green:#7FDCA4;
+  --mk-orange:#FFB36B; --mk-purple:#C7A6FF; --mk-yellow:#FFE27A; --mk-gray:#9AA6A0; --mk-brown:#D6A26E; --mk-sky:#86CFF5; --mk-pink:#FF9CCB;
+  --mk-teal:#6FD9CC; --mk-white:#F4F6F2; --mk-paper:#22302D; --mk-hl:rgba(255,226,122,.8); --mk-muted:#AEB9B4; --mk-dots:rgba(238,240,234,.06); }
+
+.sk{display:block;width:100%;height:100%;overflow:visible}
+.sk .c-ink{--c:var(--mk-ink)} .sk .c-blue{--c:var(--mk-blue)} .sk .c-red{--c:var(--mk-red)} .sk .c-green{--c:var(--mk-green)}
+.sk .c-orange{--c:var(--mk-orange)} .sk .c-purple{--c:var(--mk-purple)} .sk .c-yellow{--c:var(--mk-yellow)} .sk .c-gray{--c:var(--mk-gray)}
+.sk .c-brown{--c:var(--mk-brown)} .sk .c-sky{--c:var(--mk-sky)} .sk .c-pink{--c:var(--mk-pink)} .sk .c-teal{--c:var(--mk-teal)}
+.sk .c-white{--c:var(--mk-white)} .sk .c-paper{--c:var(--mk-paper)}
+.sk path.sk-s{fill:none;stroke:var(--c);stroke-width:4.6;stroke-linecap:round;stroke-linejoin:round}
+.sk path.sk-s.thin{stroke-width:3.2}
+.sk path.sk-s.bold{stroke-width:7}
+.sk path.sk-s.icon{stroke-width:.5}
+.sk path.sk-f{fill:none;stroke:var(--c);stroke-width:2.4;stroke-linecap:round;opacity:.75}
+.sk path.sk-f.soft{opacity:.45}
+.sk path.sk-solid{fill:var(--c);stroke:none}
+.sk path.sk-solid.soft{opacity:.4}
+.sk path.sk-solid.soft2{opacity:.85}
+.sk path.sk-solid.hi{opacity:.5}
+.sk path.sk-solid.paper{opacity:.42}
+.sk path.dash{stroke-dasharray:16 13!important;stroke-dashoffset:0!important}
+.sk .in path.dash{animation:skFade .6s ease var(--d,0s) both}
+.sk .now path.dash{animation:none}
+.sk text.sk-t{fill:var(--c);font-family:var(--f-hand);dominant-baseline:auto}
+.sk text.sk-t.b{stroke:var(--c);stroke-width:.9;paint-order:stroke}
+.sk text.sk-t.st{stroke-width:1.6}
+
+/* reveal and draw-on */
+.sk .sk-el{visibility:hidden;transform:translate(var(--mx,0px),var(--my,0px));transition:transform var(--mt,1.4s) cubic-bezier(.45,.05,.4,1),opacity .5s}
+.sk .sk-el.in{visibility:visible}
+.sk .sk-el.mnow{transition:opacity .5s}
+.sk .sk-el.out{opacity:0}
+.sk .dr{stroke-dasharray:1 2;stroke-dashoffset:1.001}
+.sk .in .dr{animation:skDraw var(--t,.4s) cubic-bezier(.4,.1,.4,1) var(--d,0s) both}
+.sk .in .sk-solid{animation:skFade .45s ease var(--d,0s) both}
+.sk .in text.sk-t{animation:skWrite var(--t,.6s) linear var(--d,0s) both}
+@keyframes skDraw{from{stroke-dashoffset:1.001}to{stroke-dashoffset:0}}
+@keyframes skFade{from{opacity:0}}
+@keyframes skWrite{from{clip-path:inset(-30% 100% -30% -2%)}to{clip-path:inset(-30% -4% -30% -2%)}}
+.sk .sk-a,.sk .sk-h,.sk .sk-l{transform-box:fill-box;transform-origin:center}
+.sk .in > .sk-h > .a-pop{animation:skPop .5s cubic-bezier(.2,1.5,.4,1) both}
+.sk .in > .sk-h > .a-stamp{animation:skStamp .42s cubic-bezier(.25,1.5,.45,1) both}
+.sk .in > .sk-h > .a-fade{animation:skFade .7s ease both}
+.sk .in > .sk-h > .a-slide-l{animation:skSlideL .8s cubic-bezier(.2,.9,.3,1) both}
+.sk .in > .sk-h > .a-slide-r{animation:skSlideR .8s cubic-bezier(.2,.9,.3,1) both}
+.sk .in > .sk-h > .a-drop{animation:skDrop .75s cubic-bezier(.3,1.35,.5,1) both}
+.sk .in > .sk-h > .a-grow{transform-origin:center bottom;animation:skGrow .7s cubic-bezier(.3,1.3,.5,1) both}
+.sk .in > .sk-h > .a-fall{transform-origin:left bottom;animation:skFall .9s cubic-bezier(.55,0,.9,.6) both}
+.sk .a-pop .dr,.sk .a-stamp .dr,.sk .a-fade .dr,.sk .a-slide-l .dr,.sk .a-slide-r .dr,.sk .a-drop .dr,.sk .a-grow .dr,.sk .a-fall .dr,
+.sk .a-pop text,.sk .a-stamp text,.sk .a-fade text,.sk .a-slide-l text,.sk .a-slide-r text,.sk .a-drop text,.sk .a-grow text,.sk .a-fall text,
+.sk .a-pop .sk-solid,.sk .a-stamp .sk-solid,.sk .a-fade .sk-solid,.sk .a-slide-l .sk-solid,.sk .a-slide-r .sk-solid,.sk .a-drop .sk-solid,.sk .a-grow .sk-solid,.sk .a-fall .sk-solid{animation:none!important;stroke-dashoffset:0}
+@keyframes skPop{0%{transform:scale(.15);opacity:0}100%{transform:none;opacity:1}}
+@keyframes skStamp{0%{transform:scale(2.4);opacity:0}100%{transform:none;opacity:1}}
+@keyframes skSlideL{from{transform:translateX(-500px);opacity:0}to{transform:none;opacity:1}}
+@keyframes skSlideR{from{transform:translateX(500px);opacity:0}to{transform:none;opacity:1}}
+@keyframes skDrop{from{transform:translateY(-450px);opacity:0}60%{opacity:1}to{transform:none;opacity:1}}
+@keyframes skGrow{from{transform:scaleY(0)}to{transform:none}}
+@keyframes skFall{from{transform:rotate(-80deg)}to{transform:none}}
+.sk .now .dr,.sk .now .sk-solid,.sk .now text.sk-t,.sk .now > .sk-h > .sk-a{animation:none!important;stroke-dashoffset:0}
+
+/* continuous motion */
+.sk .in .l-flicker{transform-origin:50% 100%;animation:skFlicker .45s ease-in-out infinite alternate}
+.sk .in .l-bob{animation:skBob 1.6s ease-in-out infinite alternate}
+.sk .in .l-shake{animation:skShake .18s linear infinite alternate}
+.sk .in .l-spin{animation:skSpin 3s linear infinite}
+.sk .in .l-pulse{animation:skPulse .9s ease-in-out infinite alternate}
+.sk .in .l-wobble{animation:skWobble 1.4s ease-in-out infinite alternate}
+.sk .in .l-float{animation:skFloat 2.6s ease-in-out infinite alternate}
+@keyframes skFlicker{from{transform:none}to{transform:scale(1.05,1.12) skewX(-3deg)}}
+@keyframes skBob{from{transform:none}to{transform:translateY(-14px)}}
+@keyframes skShake{from{transform:rotate(-2.5deg)}to{transform:rotate(2.5deg)}}
+@keyframes skSpin{to{transform:rotate(360deg)}}
+@keyframes skPulse{from{transform:none}to{transform:scale(1.07)}}
+@keyframes skWobble{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+@keyframes skFloat{from{transform:translate(0,0)}to{transform:translate(10px,-16px)}}
+
+/* highlight the element the narrator is talking about */
+.sk .sk-el.hl > .sk-h{animation:skHl .9s ease-in-out infinite alternate;filter:drop-shadow(0 0 9px var(--mk-hl))}
+@keyframes skHl{from{transform:none}to{transform:scale(1.045)}}
+.sk-paused .sk *{animation-play-state:paused!important}
+.sk-static .sk .dr,.sk-static .sk .sk-solid,.sk-static .sk text.sk-t,.sk-static .sk .sk-a{animation:none!important;stroke-dashoffset:0}
+@media (prefers-reduced-motion:reduce){.sk .sk-l{animation:none!important}.sk .sk-el.hl > .sk-h{animation:none}}

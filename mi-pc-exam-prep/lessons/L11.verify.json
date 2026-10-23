@@ -1,20 +1,70 @@
 {
  "id": "L11",
- "beats": 30,
+ "beats": 59,
  "mismatches": [
   {
-   "scene": 2,
+   "scene": 1,
    "beat": 1,
-   "say": "H O four is for tenants: Coverages C and D only, no A or B.",
-   "heard": "HO4 is for tenants. Coverage is C and D only, no O or B.",
-   "wer": 0.231
+   "say": "At a party, named perils is a guest list: not on it, no entry. Open perils is a banned list: everyone else gets in.",
+   "heard": "At a party named Perils is a guest list, not on it, no entry. Open Perils is a ban list, everyone else gets in.",
+   "wer": 0.042,
+   "voice": "narrator"
   },
   {
-   "scene": 5,
+   "scene": 4,
    "beat": 0,
-   "say": "Maya's Coverage C limit is sixty thousand dollars. She keeps nine thousand dollars of belongings at her own cottage up north, and a fire destroys them. What does her H O three pay?",
-   "heard": "Maya's coverage sea limit is $60,000. She keeps $9,000 of belongings at her own cottage up north, and a fire destroys them. What does her H-03 pay?",
-   "wer": 0.032
+   "say": "Number peg: two Broad, a named list. Three Special, the house is open. Four, renters: the four walls aren't yours. Five, high five: open on everything. Six, the condo unit. Eight, the eight track: older homes.",
+   "heard": "Number peg two broad and named list. Three special, the house is open. Four, renters, the four walls are not yours. Five, high five, open on everything. Six, the condo unit. Eight, the eight track, older homes.",
+   "wer": 0.027,
+   "voice": "narrator"
+  },
+  {
+   "scene": 4,
+   "beat": 1,
+   "say": "Rosa's grandma owns a condo in Traverse City. Her H O six covers her unit's fixtures and improvements, not the whole building.",
+   "heard": "Rose's grandma owns a condo in Traverse City. Her H-06 covers her unit's fixtures and improvements, not the whole building.",
+   "wer": 0.05,
+   "voice": "narrator"
+  },
+  {
+   "scene": 6,
+   "beat": 0,
+   "say": "The Millers get a twenty eleven H O three. Coverage A: the house, attached structures like their garage, and repair materials on site.",
+   "heard": "The millers get a 2011 H03. Coverage A, the house, attach structures like their garage and repair materials on site.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 7,
+   "beat": 1,
+   "say": "Attached is A, set apart is B, belongings are C.",
+   "heard": "Attached as A, set apart as B, belongings are C.",
+   "wer": 0.2,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": 0,
+   "say": "Quick check: Sam's nine thousand dollars of gear burns in a storage fire. What's paid?",
+   "heard": "Quick check, Sam's $9,000 of gear burns and a storage fire. What's paid?",
+   "wer": 0.067,
+   "voice": "narrator"
+  },
+  {
+   "scene": 10,
+   "beat": 2,
+   "say": "Now the trap. Bedroom jewelry box: one thousand five hundred dollars, but that cap is for theft only. Basement gun safe and dining-room silver: two thousand five hundred dollars each, also theft only.",
+   "heard": "Now the trap, bedroom, jewelry, box, $1,500, but that cap is for theft only. Basement, guns safe, and dining room silver, $2,500 each, also theft only.",
+   "wer": 0.03,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": "o2:0",
+   "say": "Right: one thousand five hundred dollars for the jewelry, two hundred dollars for the cash.",
+   "heard": "Write $1,500 for the jewelry, $200 for the cash.",
+   "wer": 0.067,
+   "voice": "narrator"
   }
  ]
 }

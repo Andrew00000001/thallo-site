@@ -128,16 +128,30 @@ VALIDATOR = os.environ.get('VALIDATOR') or os.path.join(HERE, '..', 'lessons')
 LAX = os.environ.get('LESSONS_LAX') == '1'
 os.environ.setdefault('RES', RES); os.environ.setdefault('LEARN', LEARN); os.environ.setdefault('ICONS', ICON_DIR)
 EMBED = os.environ.get('EMBED_AUDIO', '1') == '1'   # put each lesson's Opus audio inside the page (single file)
+PREVIEW = os.environ.get('LESSONS_PREVIEW') == '1'  # allow lessons without narration (timing estimated in the page; silent)
+WB = os.environ.get('WB') or os.path.join(HERE, '..', 'wb')  # sketch engine, props, fonts
+VALIDATOR_MOD = os.environ.get('VALIDATOR_MOD', 'validate2')
+B85 = ''.join(ch for ch in map(chr, range(35, 127)) if ch not in '<\\`\'')[:85]   # no < (script end), \\ or quotes
+def b85(b):
+    import numpy as np
+    pad = (-len(b)) % 4
+    a = np.frombuffer(b + b'\0' * pad, dtype='>u4').astype(np.uint64)
+    out = np.empty((len(a), 5), dtype=np.uint8); tab = np.frombuffer(B85.encode(), dtype=np.uint8)
+    for j in range(4, -1, -1):
+        out[:, j] = tab[(a % 85).astype(np.int64)]; a //= 85
+    return out.tobytes().decode('ascii')
+sk_icons = set()
 embeds = []
 import base64, hashlib
 lessons = []
-UI_ICONS = ['play', 'pause', 'skip-back', 'skip-forward', 'maximize', 'chevron-left', 'lightbulb', 'circle-check', 'brain', 'user']
+UI_ICONS = ['play', 'pause', 'skip-back', 'skip-forward', 'maximize', 'chevron-left', 'lightbulb', 'circle-check', 'brain', 'user',
+            'volume-2', 'volume-x', 'triangle-alert', 'target', 'layers', 'calculator']
 used_icons = set(UI_ICONS)
 lesson_files = sorted(glob.glob(os.path.join(LESSONS_DIR, 'L*.json')))
 if lesson_files:
     import hashlib
     sys.path.insert(0, VALIDATOR)
-    import validate as lesson_validate
+    lesson_validate = __import__(VALIDATOR_MOD)
     accepted = {}
     ap = os.path.join(AUDIO_DIR, 'accepted.json')
     if os.path.exists(ap): accepted = json.load(open(ap))
@@ -145,11 +159,23 @@ if lesson_files:
         L = json.load(open(path)); lid = L.get('id', os.path.basename(path))
         probs = lesson_validate.check(path)
         for pr in probs: (warns if LAX else errors).append(f'{lid}: {pr}')
+        def walk(els):
+            for e in els or []:
+                if e.get('p') == 'icon' and e.get('name'): sk_icons.add(e['name'])
+        for s in L['scenes']:
+            walk(s.get('draw'))
+            for c in s.get('cards', []) or []: walk(c.get('draw'))
+            if s.get('type') == 'choice':
+                for o in s.get('options', []): walk(o.get('draw'))
         tp = os.path.join(AUDIO_DIR, f'{lid}.timing.json')
+        says = [b['say'] for s in L['scenes'] for b in s['beats'] + ([b for o in s['options'] for b in o['beats']] if s.get('type') == 'choice' else []) + s.get('reveal', [])]
+        L['ver'] = hashlib.sha256(json.dumps(says).encode()).hexdigest()[:12]
         if not os.path.exists(tp) or not os.path.exists(os.path.join(AUDIO_DIR, f'{lid}.mp3')):
+            if PREVIEW:
+                warns.append(f'{lid}: no narration yet (preview build: silent, estimated timing)')
+                L['timing'] = None; L['audio'] = None; lessons.append(L); continue
             errors.append(f'{lid}: no narration audio/timing in {AUDIO_DIR}'); continue
         T = json.load(open(tp))
-        says = [b['say'] for s in L['scenes'] for b in s['beats'] + s.get('reveal', [])]
         if T.get('shash') != hashlib.sha256(json.dumps(says).encode()).hexdigest()[:16]:
             if os.environ.get('LESSONS_STALE_OK') != '1':
                 errors.append(f'{lid}: script changed since the audio was made (re-run narrate.py)'); continue
@@ -176,7 +202,8 @@ if lesson_files:
                 fresh = False
             if not fresh:
                 errors.append(f'{lid}: embedded audio {lid}.webm missing or not made from the current {lid}.mp3 (re-run narrate.py)'); continue
-            embeds.append((lid, base64.b64encode(open(wp, 'rb').read()).decode('ascii')))
+            raw = open(wp, 'rb').read()
+            embeds.append((lid, b85(raw), len(raw)))
             L['audio'], L['audioType'] = f'#aud-{lid}', 'audio/webm'
         lessons.append(L)
     if len({l['id'] for l in lessons}) != len(lessons): errors.append('duplicate lesson ids')
@@ -274,12 +301,22 @@ SHELL = """
 def compose():
     v1 = open(os.path.join(HERE, 'template_v1.html')).read()
     head = v1[:v1.index('</style>')]
-    extra = open(os.path.join(HERE, 'extra.css')).read() + '\n' + open(os.path.join(HERE, 'lessons.css')).read()
-    js = open(os.path.join(HERE, 'app.js')).read()
+    rd = lambda *p: open(os.path.join(*p)).read()
+    font = base64.b64encode(open(os.path.join(WB, 'lib', 'hand.woff2'), 'rb').read()).decode()
+    fontcss = ("@font-face{font-family:'SketchHand';src:url(data:font/woff2;base64," + font + ") format('woff2');font-display:swap}\n"
+               ":root{--f-hand:'SketchHand','Patrick Hand','Comic Sans MS',cursive}\n")
+    extra = (rd(HERE, 'extra.css') + '\n' + fontcss + rd(HERE, 'lessons2_head.css') + '\n' + rd(WB, 'sketch.css') + '\n'
+             + rd(HERE, 'lessons2_stage.css') + '\n' + rd(HERE, 'lessons2_ctrl.css'))
+    js = rd(HERE, 'app.js')
     assert js.count('/*@@LESSONS@@*/') == 1
-    js = js.replace('/*@@LESSONS@@*/', open(os.path.join(HERE, 'lessons.js')).read())
-    audio = ''.join(f'<script type="application/octet-stream" id="aud-{lid}">{b64}</script>\n' for lid, b64 in embeds)
-    return head + '\n' + extra + '\n</style>\n' + SHELL + '\n<script id="data" type="application/json">__DATA__</script>\n' + audio + '<script>\n' + js + '\n</script>\n'
+    js = js.replace('/*@@LESSONS@@*/', rd(HERE, 'lessons2.js'))
+    sk = rd(WB, 'sketch.js').replace('/*@@CHARW@@*/null', rd(WB, 'lib', 'charw.json').strip())
+    pf = os.environ.get('WB_PROPS')
+    props = '\n'.join(rd(p) for p in ([os.path.join(WB, x) for x in pf.split(',')] if pf else sorted(glob.glob(os.path.join(WB, 'props_*.js')))))
+    pre = rd(HERE, 'decode.js').replace('/*@@TINF@@*/', rd(WB, 'lib', 'tiny-inflate.js')).replace('/*@@B85@@*/', B85)
+    audio = ''.join(f'<script type="application/octet-stream" id="aud-{lid}" data-enc="b85" data-len="{n}">{t}</script>\n' for lid, t, n in embeds)
+    return (head + '\n' + extra + '\n</style>\n' + SHELL + '\n__DATASCRIPT__\n' + audio
+            + '<script>\n' + rd(WB, 'lib', 'rough.js') + '\n</script>\n<script>\n' + pre + '\n' + js.replace('const DATA = loadData();', 'const DATA = loadData();\n' + sk + '\n' + props, 1) + '\n</script>\n')
 
 meta = {
     'verified': os.environ.get('VERIFIED', 'October 2026'),
@@ -287,8 +324,16 @@ meta = {
                     'Michigan Vehicle Code), read from legislature.mi.gov; PSI\'s Michigan content outline for Series 16-81; Michigan DIFS; '
                     'FEMA/NFIP; U.S. Treasury (TRIA); ISO and NCCI standard policy forms (editions named in each section).'),
 }
+sys.path.insert(0, os.path.join(WB, 'tools'))
+from icons2paths import to_paths
+skicons = {}
+if PREVIEW: sk_icons |= {os.path.basename(p)[:-4] for p in glob.glob(os.path.join(ICON_DIR, '*.svg'))}   # authoring preview: every icon
+for n in sorted(sk_icons):
+    fp = os.path.join(ICON_DIR, f'{n}.svg')
+    if not os.path.exists(fp): errors.append(f'sketch icon missing: {n}'); continue
+    skicons[n] = to_paths(open(fp).read())
 data = {'questions': questions, 'cards': cards, 'numbers': numbers, 'guide': guide, 'meta': meta,
-        'mnemonics': mnemonics, 'pairs': pairs, 'visuals': visuals, 'matchsets': matchsets, 'lessons': lessons, 'icons': icons}
+        'mnemonics': mnemonics, 'pairs': pairs, 'visuals': visuals, 'matchsets': matchsets, 'lessons': lessons, 'icons': icons, 'skicons': skicons}
 
 print(f'questions {len(questions)}  cards {len(cards)}  numbers {len(numbers)}  guide {len(guide)}  hooks {len(mnemonics)}  pairs {len(pairs)}  visuals {len(visuals)}  matchsets {len(matchsets)}  lessons {len(lessons)}  icons {len(icons)}')
 print('per section:', dict(per_sec))
@@ -299,6 +344,12 @@ if errors: sys.exit(1)
 
 tpl = compose()
 blob = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
-html = tpl.replace('__DATA__', blob)
+if os.environ.get('DATA_Z', '1') == '1':
+    import zlib
+    raw = blob.encode('utf-8'); co = zlib.compressobj(9, zlib.DEFLATED, -15); z = co.compress(raw) + co.flush()
+    datascript = f'<script id="data" type="application/octet-stream" data-enc="b85" data-len="{len(z)}" data-z="{len(raw)}">{b85(z)}</script>'
+else:
+    datascript = f'<script id="data" type="application/json">{blob}</script>'
+html = tpl.replace('__DATASCRIPT__', datascript, 1)
 open(OUT, 'w').write(html)
 print('wrote', OUT, f'{len(html)/1024:.0f} KB')

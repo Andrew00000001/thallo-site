@@ -3,30 +3,39 @@
  "sec": "auto",
  "guide": "auto",
  "title": "The Personal Auto Policy",
- "summary": "The 2018 ISO Personal Auto Policy part by part: liability, med pay, uninsured motorists, damage to your auto, duties, and key endorsements.",
+ "summary": "Ride along through Rosa's year with her new car: the 2018 Personal Auto Policy part by part, Michigan's collision choices and the key endorsements.",
  "objectives": [
   "Name the six parts of the Personal Auto Policy in order",
-  "Recall Part A insureds, supplementary payments and key exclusions",
-  "Sort collision from other than collision, plus Michigan's collision options",
-  "Match the main endorsements, including Michigan's, to what they do"
+  "Recall Part A's insureds, supplementary payments and the ride-share exclusion",
+  "Sort collision from other than collision, and pick among Michigan's collision types",
+  "Apply the new-car reporting windows and explain what the key endorsements do"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "The Personal Auto Policy",
-   "subtitle": "The 2018 ISO form, Parts A through F, and the endorsements that change it",
-   "icon": "car",
+   "title": "Rosa hits the road: the Personal Auto Policy",
+   "subtitle": "Parts A to F of the 2018 ISO Personal Auto Policy (PP 00 01 09 18), and the Michigan rules that change it",
+   "draw": [
+    {"id": "mi", "p": "michigan", "x": 70, "y": 18, "h": 28, "opt": {"pin": "lansing", "pinLabel": "Lansing", "pinSize": 10}},
+    {"id": "car", "p": "car", "x": 26, "y": 57, "h": 15, "opt": {"color": "red"}},
+    {"id": "rosa", "p": "person", "x": 68, "y": 50, "h": 28, "opt": {"who": "rosa", "pose": "hold", "hold": "key", "mood": "happy"}},
+    {"id": "deer", "p": "deer", "x": 46, "y": 46, "h": 14, "at": 1, "cue": "deer", "anim": "slide-r", "opt": {"pose": "leap"}, "over": true}
+   ],
    "beats": [
     {
-     "text": "Let's walk through the Personal Auto Policy. Its dollar amounts and time limits come from the 2018 edition.",
-     "say": "Let's walk through the Personal Auto Policy. Its dollar amounts and time limits come from the twenty eighteen edition."
+     "text": "Meet Rosa. She just bought a new car in Lansing, insured with the 2018 Personal Auto Policy.",
+     "say": "Meet Rosa. She just bought a new car in Lansing, insured with the twenty eighteen Personal Auto Policy."
+    },
+    {
+     "text": "This year, that car meets a deer, a thief and a hit-and-run driver. Buckle up.",
+     "say": "This year, that car meets a deer, a thief and a hit-and-run driver. Buckle up."
     }
    ]
   },
   {
    "type": "hook",
    "title": "Six parts, in order",
-   "src": "ISO PP 00 01 09 18, Parts A-F",
+   "src": "ISO PP 00 01 09 18, Parts A-F; memory hook mn_auto-20",
    "mn": "mn-mn_auto-20",
    "hook": "Let Me Use Dad's Dodge, Gramps? - Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
    "items": [
@@ -35,10 +44,21 @@
     "Part E Duties After an Accident or Loss, Part F General Provisions",
     "The base form has no PIP or PPI part"
    ],
+   "draw": [
+    {"id": "rosa", "p": "person", "x": 16, "y": 42, "h": 28, "opt": {"who": "rosa", "pose": "point", "mood": "happy"}},
+    {"id": "gramps", "p": "person", "x": 64, "y": 42, "h": 28, "opt": {"who": "person", "hair": "short", "hairColor": "gray", "mustache": true, "shirt": "green", "pose": "hold", "hold": "key", "mood": "happy", "hat": "cap"}, "label": "Gramps", "lsize": 3.8},
+    {"p": "bubble", "text": "Let me use Dad's Dodge, Gramps?", "x": 32, "y": 9, "w": 40, "to": "rosa"},
+    {"id": "car", "p": "car", "x": 40, "y": 56, "h": 10, "opt": {"color": "blue"}}
+   ],
    "beats": [
     {
-     "text": "The policy has six parts, A through F. Let Me Use Dad's Dodge, Gramps? Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
-     "say": "The policy has six parts, A through F. Let Me Use Dad's Dodge, Gramps? Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
+     "text": "The six parts? Rosa's question to Gramps: Let Me Use Dad's Dodge, Gramps?",
+     "say": "The six parts? Rosa's question to Gramps: Let Me Use Dad's Dodge, Gramps?",
+     "show": 0
+    },
+    {
+     "text": "Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
+     "say": "Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
      "show": 3
     },
     {
@@ -49,393 +69,637 @@
    ]
   },
   {
-   "type": "bullets",
-   "title": "Part A: Liability",
-   "src": "ISO PP 00 01 09 18, Part A: Insuring Agreement A-B; Supplementary Payments",
-   "items": [
-    {
-     "label": "Insureds",
-     "detail": "You or a family member in any auto; anyone using your covered auto",
-     "icon": "users"
-    },
-    {
-     "label": "Defense costs: on top of the limit",
-     "detail": "Duty to defend ends when the limit is used up",
-     "icon": "scale"
-    },
-    {
-     "label": "Bail bonds: up to $250",
-     "detail": "2018 edition; paid in addition to the limit",
-     "icon": "gavel"
-    },
-    {
-     "label": "Lost earnings: up to $250 a day",
-     "detail": "For hearings or trials at the insurer's request",
-     "icon": "banknote"
-    }
+   "type": "term",
+   "title": "Part D: Rosa's own car",
+   "src": "ISO PP 00 01 09 18, Part D, Insuring Agreement B; memory hook mn_auto-23; confusion pair cp_personal-13",
+   "kind": "Part D",
+   "term": "Collision vs. other than collision",
+   "plain": "Collision: your car rolls over or hits a vehicle or object. Other than collision (OTC): direct, accidental loss from other causes, like fire or theft.",
+   "example": "A deer leaps in front of Rosa's car near Lansing, and she hits it. Bambi is not a collision: hitting a deer (or a bird) is other than collision.",
+   "exam": "Swerve into a tree instead: collision. Glass broken in a collision: collision, if you choose. OTC is commonly called comprehensive.",
+   "draw": [
+    {"id": "car", "p": "car", "x": 24, "y": 54, "h": 14, "opt": {"color": "red"}},
+    {"id": "tree", "p": "tree", "x": 68, "y": 45, "h": 32, "at": 0, "cue": "object"},
+    {"p": "label", "text": "Collision", "x": 68, "y": 23, "size": 4.2, "bold": true, "color": "red", "at": 0, "cue": "Collision"},
+    {"id": "deer", "p": "deer", "x": 44, "y": 48, "h": 15, "opt": {"pose": "leap"}, "flip": true, "over": true, "at": 2, "cue": "deer", "anim": "slide-r"},
+    {"p": "label", "text": "Other than collision", "x": 22, "y": 32, "size": 4, "bold": true, "color": "blue", "at": 2, "cue": "deer"},
+    {"p": "arrow", "from": [32, 45], "to": [62, 52], "bend": -0.45, "dash": true, "color": "red", "at": 3, "cue": "Swerve"}
    ],
    "beats": [
     {
-     "text": "Part A pays bodily injury and property damage you're legally responsible for. Insureds include you or a family member in any auto, and anyone using your covered auto.",
-     "say": "Part A pays bodily injury and property damage you're legally responsible for. Insureds include you or a family member in any auto, and anyone using your covered auto.",
-     "show": 1
+     "text": "First, her car: Part D. Collision is the upset of the car, or its impact with another vehicle or object.",
+     "say": "First, her car: Part D. Collision is the upset of the car, or its impact with another vehicle or object.",
+     "show": 1,
+     "hl": "car"
     },
     {
-     "text": "Defense costs are paid in addition to the limit. The duty to defend ends when the limit is used up.",
-     "say": "Defense costs are paid in addition to the limit. The duty to defend ends when the limit is used up.",
+     "text": "Other than collision, or OTC, covers perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
+     "say": "Other than collision, or O T C, covers perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
      "show": 2
     },
     {
-     "text": "Supplementary payments are also on top of the limit: up to $250 for bail bonds, and up to $250 a day in lost earnings to attend hearings or trials at the insurer's request.",
-     "say": "Supplementary payments are also on top of the limit: up to two hundred fifty dollars for bail bonds, and up to two hundred fifty dollars a day in lost earnings to attend hearings or trials at the insurer's request.",
-     "show": 4
+     "text": "And Bambi is not a collision: hitting a deer is other than collision.",
+     "say": "And Bambi is not a collision: hitting a deer is other than collision.",
+     "show": 3,
+     "hl": "deer"
+    },
+    {
+     "text": "Swerve into a tree? Collision. Glass broken in a collision can count as collision, at Rosa's option.",
+     "say": "Swerve into a tree? Collision. Glass broken in a collision can count as collision, at Rosa's option.",
+     "show": 4,
+     "hl": "tree"
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Part A exclusions to know",
-   "src": "ISO PP 00 01 09 18, Part A, Exclusions A.5, B.1-B.2",
-   "items": [
+   "type": "swipe",
+   "title": "Collision or OTC?",
+   "src": "ISO PP 00 01 09 18, Part D, Insuring Agreement B; confusion pair cp_personal-13; question auto-055",
+   "options": ["Collision", "Other (OTC)"],
+   "cards": [
     {
-     "label": "Public or livery use",
-     "detail": "Includes time logged into a ride-share app as a driver. Share-the-expense car pools are not excluded",
-     "icon": "car-taxi-front"
+     "text": "Rosa hits a deer on a dark road outside Lansing.",
+     "answer": 1,
+     "why": "Contact with a bird or animal is other than collision. Bambi is not a collision.",
+     "draw": [
+      {"p": "deer", "x": 30, "y": 30, "h": 30, "opt": {"pose": "leap"}},
+      {"p": "car", "x": 60, "y": 38, "h": 18, "opt": {"color": "red"}, "flip": true, "over": true}
+     ]
     },
     {
-     "label": "Regular-use vehicles",
-     "detail": "Vehicles furnished or available for your regular use",
-     "icon": "key"
+     "text": "She swerves to miss a deer and hits a tree instead.",
+     "answer": 0,
+     "why": "The car's impact with an object, the tree, is collision.",
+     "draw": [
+      {"p": "car", "x": 50, "y": 40, "h": 18, "opt": {"color": "red", "dent": true}},
+      {"p": "tree", "x": 74, "y": 28, "h": 46},
+      {"p": "crash", "x": 66, "y": 38, "h": 14, "over": true}
+     ]
     },
     {
-     "label": "Fewer than 4 wheels, or built for off-road",
-     "detail": "With exceptions, such as trailers and non-owned golf carts",
-     "icon": "bike"
+     "text": "Her car rolls over on an icy curve without hitting anything.",
+     "answer": 0,
+     "why": "Upset of the auto is collision.",
+     "draw": [
+      {"p": "car", "x": 50, "y": 30, "h": 20, "opt": {"color": "red"}, "rot": 180},
+      {"p": "snow", "x": 16, "y": 14, "h": 8},
+      {"p": "snow", "x": 86, "y": 12, "h": 7}
+     ]
+    },
+    {
+     "text": "Hail dents the hood and roof.",
+     "answer": 1,
+     "why": "Hail is listed as other than collision.",
+     "draw": [
+      {"p": "hail", "x": 50, "y": 18, "h": 26},
+      {"p": "car", "x": 50, "y": 44, "h": 16, "opt": {"color": "red", "dent": true}, "over": true}
+     ]
+    },
+    {
+     "text": "A tree limb falls on her parked car during a storm.",
+     "answer": 1,
+     "why": "Falling objects are other than collision.",
+     "draw": [
+      {"p": "tree", "x": 26, "y": 28, "h": 46},
+      {"p": "car", "x": 68, "y": 42, "h": 16, "opt": {"color": "red", "dent": true}},
+      {"p": "arrow", "from": [38, 16], "to": [57, 30], "bend": -0.2, "dash": true, "color": "gray"},
+      {"p": "arrow", "from": [55, 35.5], "to": [81, 37], "head": "none", "bold": true, "bend": 0, "color": "brown"},
+      {"p": "line", "from": [66, 36], "to": [69, 30.5], "color": "brown"},
+      {"p": "circle", "x": 70, "y": 29.5, "r": 2, "color": "green", "fill": "green"},
+      {"p": "crash", "x": 78, "y": 28, "h": 10, "opt": {"text": "THUNK!"}, "over": true},
+      {"p": "storm", "x": 82, "y": 12, "h": 18}
+     ]
+    },
+    {
+     "text": "She backs into a parked car at the grocery store.",
+     "answer": 0,
+     "why": "Impact with another vehicle is collision.",
+     "draw": [
+      {"p": "car", "x": 33, "y": 34, "h": 16, "opt": {"color": "gray", "dent": true}},
+      {"p": "car", "x": 65, "y": 34, "h": 16, "opt": {"color": "red"}, "over": true},
+      {"p": "crash", "x": 49, "y": 30, "h": 13, "opt": {"text": "BUMP!"}, "over": true}
+     ]
     }
    ],
    "beats": [
     {
-     "text": "Three exclusions matter. First, public or livery use, including time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded.",
-     "say": "Three exclusions matter. First, public or livery use, including time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded.",
-     "show": 1
-    },
-    {
-     "text": "Second, vehicles furnished or available for your regular use. Third, vehicles with fewer than 4 wheels or built mainly for off-road use. Endorsements can remove these two for the right vehicles.",
-     "say": "Second, vehicles furnished or available for your regular use. Third, vehicles with fewer than four wheels or built mainly for off-road use. Endorsements can remove these two for the right vehicles.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Under Part A of the 2018 Personal Auto Policy, the public or livery conveyance exclusion applies to:",
-   "choices": [
-    "A share-the-expense car pool",
-    "Delivering meals to seniors as a volunteer",
-    "Time logged into a ride-share app as a driver",
-    "Commuting to and from work"
-   ],
-   "answer": 2,
-   "why": "The 2018 PAP's livery exclusion expressly includes time logged into a transportation network platform as a driver. Share-the-expense car pools and volunteer or charitable use are excepted.",
-   "beats": [
-    {
-     "text": "Quick check. Under the 2018 policy, which activity falls under the public or livery conveyance exclusion? Pick an answer.",
-     "say": "Quick check. Under the twenty eighteen policy, which activity falls under the public or livery conveyance exclusion? Pick an answer."
+     "text": "Your turn. Collision, or other than collision?",
+     "say": "Your turn. Collision, or other than collision?"
     }
    ],
    "reveal": [
     {
-     "text": "The answer is time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded.",
-     "say": "The answer is time logged into a ride-share app as a driver. Share-the-expense car pools and volunteer use are not excluded."
+     "text": "Rolled over, or hit a vehicle or object? Collision. An animal, weather, a falling object, fire or theft? Other than collision.",
+     "say": "Rolled over, or hit a vehicle or object? Collision. An animal, weather, a falling object, fire or theft? Other than collision."
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Part B and Part C",
-   "src": "ISO PP 00 01 09 18, Part B A-B; Part C A, C; DIFS auto FAQ; Rory v Continental (2005)",
-   "columns": [
-    {
-     "name": "Part B: Medical Payments",
-     "icon": "hospital",
-     "points": [
-      "Medical and funeral expenses",
-      "Services within 3 years of the accident",
-      "You and family members, even as pedestrians",
-      "Anyone occupying your covered auto"
-     ]
-    },
-    {
-     "name": "Part C: Uninsured Motorists",
-     "icon": "shield",
-     "points": [
-      "Bodily injury an uninsured driver owes you",
-      "Includes hit-and-run and insolvent insurers",
-      "Not uninsured: government-owned vehicles",
-      "Michigan: listed by DIFS as optional"
-     ]
-    }
+   "type": "sketch",
+   "title": "In Michigan: three kinds of collision",
+   "src": "MCL 500.3037(1),(2),(8)(b); DIFS FIS-PUB 0200 (via confusion pair cp_personal-14); question auto-048",
+   "draw": [
+    {"p": "car", "x": 18, "y": 14, "h": 10, "opt": {"color": "red", "dent": true}},
+    {"p": "label", "text": "Driver NOT substantially at fault", "x": 18, "y": 31, "size": 4.2, "w": 30, "bold": true, "color": "green"},
+    {"p": "label", "text": "Driver substantially at fault: over 50%", "x": 18, "y": 54, "size": 4.2, "w": 30, "bold": true, "color": "red", "at": 0, "cue": "substantially"},
+    {"p": "line", "from": [4, 43], "to": [156, 43], "dash": true, "color": "gray"},
+    {"p": "divider", "x": 36, "y": 35, "y0": 4, "y1": 64},
+    {"p": "divider", "x": 78, "y": 35, "y0": 4, "y1": 64, "at": 2},
+    {"p": "divider", "x": 120, "y": 35, "y0": 4, "y1": 64, "at": 3},
+    {"p": "label", "text": "Limited", "x": 57, "y": 7, "size": 4.8, "bold": true, "color": "blue", "at": 1, "cue": "Limited"},
+    {"p": "label", "text": "Must be offered", "x": 57, "y": 14, "size": 3.8, "color": "gray", "at": 1, "cue": "Limited"},
+    {"id": "l1", "p": "check", "x": 44, "y": 31, "h": 6, "at": 1, "cue": "deductible"},
+    {"p": "label", "text": "Pays, no deductible", "x": 62, "y": 31, "size": 4.4, "w": 28, "at": 1, "cue": "deductible"},
+    {"id": "l2", "p": "cross", "x": 44, "y": 54, "h": 6, "at": 1, "cue": "only"},
+    {"p": "label", "text": "Pays nothing", "x": 62, "y": 54, "size": 4.4, "w": 28, "color": "red", "at": 1, "cue": "only"},
+    {"p": "label", "text": "Broad form", "x": 99, "y": 7, "size": 4.8, "bold": true, "color": "green", "at": 2, "cue": "Broad"},
+    {"p": "label", "text": "Must be offered", "x": 99, "y": 14, "size": 3.8, "color": "gray", "at": 2, "cue": "Broad"},
+    {"id": "b1", "p": "check", "x": 86, "y": 31, "h": 6, "at": 2, "cue": "waives"},
+    {"p": "label", "text": "Pays, deductible waived", "x": 104, "y": 31, "size": 4.4, "w": 28, "at": 2, "cue": "waives"},
+    {"id": "b2", "p": "check", "x": 86, "y": 54, "h": 6, "at": 2, "cue": "regardless"},
+    {"p": "label", "text": "Pays minus deductible", "x": 104, "y": 54, "size": 4.4, "w": 28, "at": 2, "cue": "regardless"},
+    {"p": "label", "text": "Standard", "x": 141, "y": 7, "size": 4.8, "bold": true, "color": "purple", "at": 3, "cue": "Standard"},
+    {"p": "label", "text": "May be offered", "x": 141, "y": 14, "size": 3.8, "color": "gray", "at": 3, "cue": "Standard"},
+    {"id": "s1", "p": "check", "x": 128, "y": 31, "h": 6, "at": 3, "cue": "regardless"},
+    {"p": "label", "text": "Pays minus deductible", "x": 146, "y": 31, "size": 4.4, "w": 28, "at": 3, "cue": "regardless"},
+    {"id": "s2", "p": "check", "x": 128, "y": 54, "h": 6, "at": 3, "cue": "regardless"},
+    {"p": "label", "text": "Pays minus deductible", "x": 146, "y": 54, "size": 4.4, "w": 28, "at": 3, "cue": "regardless"}
    ],
-   "tell": "Part B: your medical bills, for services within 3 years. Part C: the injury damages an uninsured driver owes you.",
    "beats": [
     {
-     "text": "Part B, medical payments, pays medical and funeral expenses for services within 3 years of the accident. It covers you and family members, even as pedestrians, and anyone in your covered auto.",
-     "say": "Part B, medical payments, pays medical and funeral expenses for services within three years of the accident. It covers you and family members, even as pedestrians, and anyone in your covered auto.",
-     "show": 1
+     "text": "In Michigan, insurers must offer two kinds of collision at a first private passenger car application. Substantially at fault means over 50% of the cause.",
+     "say": "In Michigan, insurers must offer two kinds of collision at a first private passenger car application. Substantially at fault means over fifty percent of the cause."
     },
     {
-     "text": "Part C, uninsured motorists, pays bodily injury damages an uninsured driver owes you. Hit-and-runs and insolvent insurers count. Government-owned vehicles don't.",
-     "say": "Part C, uninsured motorists, pays bodily injury damages an uninsured driver owes you. Hit-and-runs and insolvent insurers count. Government-owned vehicles don't.",
-     "show": 2
+     "text": "Limited has no deductible, but pays only if the driver wasn't substantially at fault.",
+     "say": "Limited has no deductible, but pays only if the driver wasn't substantially at fault."
     },
     {
-     "text": "In Michigan, DIFS lists UM and UIM as optional coverages, and the Michigan Supreme Court treats UM as optional.",
-     "say": "In Michigan, D I F S lists U M and U I M as optional coverages, and the Michigan Supreme Court treats U M as optional.",
-     "show": 2,
-     "tell": true
+     "text": "Broad form pays regardless of fault, and waives the deductible if the driver wasn't substantially at fault.",
+     "say": "Broad form pays regardless of fault, and waives the deductible if the driver wasn't substantially at fault."
+    },
+    {
+     "text": "Standard may also be offered: it pays regardless of fault, and you pay the deductible either way.",
+     "say": "Standard may also be offered: it pays regardless of fault, and you pay the deductible either way."
     }
    ]
   },
   {
-   "type": "hook",
-   "title": "Part D: collision or other than collision?",
-   "src": "ISO PP 00 01 09 18, Part D, Insuring Agreement B",
-   "mn": "mn-mn_auto-23",
-   "hook": "Bambi is not a collision: hitting a deer (or a bird) is Other Than Collision. Hitting a tree, another car, or rolling over is Collision.",
-   "items": [
-    "Collision: upset of the auto, or impact with a vehicle or object",
-    "Other than collision: fire, theft, windstorm, hail, flood, vandalism, falling objects",
-    "Hitting a bird or animal: other than collision",
-    "Glass broken in a collision: collision, at your option"
+   "type": "choice",
+   "title": "Rosa's call: which Michigan collision?",
+   "src": "MCL 500.3037(1),(2),(8)(b); DIFS FIS-PUB 0200 (via confusion pair cp_personal-14)",
+   "ask": "Which collision fits Rosa?",
+   "draw": [
+    {"id": "rosa", "p": "person", "x": 22, "y": 32, "h": 34, "opt": {"who": "rosa", "pose": "point", "mood": "happy"}},
+    {"p": "bubble", "text": "Fix it even if it's my fault!", "x": 58, "y": 8, "w": 36, "to": "rosa"},
+    {"id": "dana", "p": "person", "x": 104, "y": 33, "h": 34, "opt": {"who": "dana", "pose": "hold", "hold": "clipboard", "mood": "happy"}, "flip": true},
+    {"p": "bubble", "text": "Which collision?", "x": 136, "y": 12, "w": 26, "to": "dana", "think": true}
    ],
    "beats": [
     {
-     "text": "Part D covers your own auto. Collision is the upset of your auto, or its impact with another vehicle or object.",
-     "say": "Part D covers your own auto. Collision is the upset of your auto, or its impact with another vehicle or object.",
-     "show": 1
-    },
-    {
-     "text": "Other than collision covers perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
-     "say": "Other than collision covers perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
-     "show": 2
-    },
-    {
-     "text": "And Bambi is not a collision: hitting a deer is other than collision. Swerve and hit a tree instead? Collision.",
-     "say": "And Bambi is not a collision: hitting a deer is other than collision. Swerve and hit a tree instead? Collision.",
-     "show": 3
-    },
-    {
-     "text": "Glass broken in a collision may be treated as collision, at your option.",
-     "say": "Glass broken in a collision may be treated as collision, at your option.",
-     "show": 4
+     "text": "Fix my car even if it's my fault. Not my fault? No deductible. Which one, Dana?",
+     "say": "Fix my car even if it's my fault. Not my fault? No deductible. Which one, Dana?",
+     "voice": "rosa"
     }
+   ],
+   "options": [
+    {
+     "label": "Limited: no deductible!",
+     "ok": false,
+     "fail": "In Michigan, limited pays only if the driver was not substantially at fault. Rosa was 70% at fault, more than 50%, so it pays nothing.",
+     "beats": [
+      {
+       "text": "Months later, Rosa is 70% at fault in a crash. Limited pays nothing for her car.",
+       "say": "Months later, Rosa is seventy percent at fault in a crash. Limited pays nothing for her car."
+      }
+     ],
+     "draw": [
+      {"id": "car", "p": "car", "x": 24, "y": 36, "h": 16, "opt": {"color": "red", "dent": true}},
+      {"id": "pie", "p": "piechart", "x": 62, "y": 24, "h": 22, "opt": {"slices": [70, 30], "colors": ["red", "green"]}},
+      {"p": "label", "text": "Rosa: 70% at fault", "x": 62, "y": 42, "size": 4.2, "bold": true, "color": "red"},
+      {"p": "num", "text": "$0", "x": 94, "y": 30, "size": 16, "color": "red", "cue": "nothing"},
+      {"id": "rosa", "p": "person", "x": 118, "y": 33, "h": 32, "opt": {"who": "rosa", "pose": "sad", "mood": "sad"}}
+     ]
+    },
+    {
+     "label": "Standard: pays no matter whose fault",
+     "ok": false,
+     "fail": "In Michigan, standard collision pays regardless of fault, but the driver pays the deductible either way, even with no fault at all.",
+     "beats": [
+      {
+       "text": "A driver runs a red light and hits Rosa. Not her fault, but standard collision still subtracts her deductible.",
+       "say": "A driver runs a red light and hits Rosa. Not her fault, but standard collision still subtracts her deductible."
+      }
+     ],
+     "draw": [
+      {"id": "car", "p": "car", "x": 26, "y": 38, "h": 15, "opt": {"color": "red", "dent": true}},
+      {"id": "other", "p": "car", "x": 58, "y": 38, "h": 15, "flip": true, "opt": {"color": "gray", "dent": true}, "label": "Ran the red light", "lsize": 4.4},
+      {"id": "light", "p": "trafficlight", "x": 82, "y": 30, "h": 30, "opt": {"on": "red"}},
+      {"p": "crash", "x": 42, "y": 26, "h": 12, "opt": {"text": "BAM!"}, "over": true, "cue": "hits"},
+      {"id": "coins", "p": "coins", "x": 102, "y": 30, "h": 14, "cue": "deductible", "label": "Her deductible", "lsize": 4},
+      {"id": "rosa", "p": "person", "x": 122, "y": 32, "h": 32, "opt": {"who": "rosa", "pose": "stop", "mood": "angry"}},
+      {"p": "bubble", "text": "But it wasn't my fault!", "x": 94, "y": 8, "w": 30, "to": "rosa"}
+     ]
+    },
+    {
+     "label": "Broad form",
+     "ok": true,
+     "win": "In Michigan, broad form pays regardless of fault, and waives the deductible when the driver was not substantially at fault.",
+     "beats": [
+      {
+       "text": "Broad form it is: paid regardless of fault, and no deductible when she's not substantially at fault.",
+       "say": "Broad form it is: paid regardless of fault, and no deductible when she's not substantially at fault."
+      }
+     ],
+     "draw": [
+      {"id": "rosa", "p": "person", "x": 24, "y": 32, "h": 32, "opt": {"who": "rosa", "pose": "cheer", "mood": "happy"}},
+      {"id": "car", "p": "car", "x": 64, "y": 40, "h": 15, "opt": {"color": "red"}},
+      {"id": "shield", "p": "shield", "x": 64, "y": 17, "h": 16, "opt": {"color": "green"}},
+      {"p": "stamp", "text": "Broad form", "x": 120, "y": 20, "size": 7, "color": "green"},
+      {"p": "label", "text": "Any fault: pays. Not substantially at fault: no deductible", "x": 120, "y": 38, "size": 4.2, "w": 44, "color": "green"}
+     ]
+    }
+   ],
+   "reveal": [
+    {"text": "She adds other than collision coverage too.", "say": "She adds other than collision coverage too."}
    ]
   },
   {
-   "type": "compare",
-   "title": "Michigan collision options",
-   "src": "MCL 500.3037(1),(2),(8)(b); DIFS FIS-PUB 0200",
-   "columns": [
-    {
-     "name": "Limited",
-     "points": [
-      "No deductible",
-      "Pays only if not substantially at fault"
-     ]
-    },
-    {
-     "name": "Broad form",
-     "points": [
-      "Pays regardless of fault",
-      "Deductible waived if not substantially at fault"
-     ]
-    },
-    {
-     "name": "Standard",
-     "points": [
-      "Pays regardless of fault",
-      "You pay the deductible either way"
-     ]
-    }
+   "type": "sketch",
+   "title": "Part D bonus: a ride while the car is gone",
+   "src": "ISO PP 00 01 09 18, Part D, Transportation Expenses; memory hook mn_auto-22; question auto-056",
+   "draw": [
+    {"id": "house", "p": "house", "x": 16, "y": 28, "h": 28},
+    {"id": "rosa", "p": "person", "x": 40, "y": 40, "h": 24, "opt": {"who": "rosa", "pose": "shrug", "mood": "shocked"}},
+    {"p": "bubble", "text": "My car!", "x": 44, "y": 12, "w": 18, "to": "rosa", "at": 1, "out": 2},
+    {"id": "car", "p": "car", "x": 66, "y": 48, "h": 14, "opt": {"color": "red"}, "move": {"to": [215, 48], "at": 0, "cue": "steals", "dur": 1.4, "sfx": "whoosh"}, "out": 1, "over": true},
+    {"id": "thief", "p": "person", "x": 92, "y": 44, "h": 22, "opt": {"who": "thief", "pose": "run", "hold": "key", "mood": "smirk"}, "at": 0, "cue": "thief", "move": {"to": [232, 44], "at": 0, "cue": "steals", "dur": 1.4}, "out": 1, "over": true},
+    {"p": "box", "x": 66, "y": 48, "w": 32, "hh": 15, "dash": true, "color": "gray", "at": 1, "out": 2},
+    {"p": "label", "text": "Stolen!", "x": 66, "y": 34, "size": 5, "bold": true, "color": "red", "at": 0, "cue": "steals", "out": 2},
+    {"id": "rental", "p": "rental", "x": 66, "y": 50, "h": 20, "at": 2, "cue": "transportation", "anim": "slide-l", "over": true},
+    {"p": "label", "text": "No deductible", "x": 125, "y": 25, "size": 4, "bold": true, "at": 2, "cue": "deductible"},
+    {"id": "n30", "p": "num", "text": "$30 a day", "x": 106, "y": 14, "size": 7, "color": "green", "at": 3, "cue": "day"},
+    {"id": "n900", "p": "num", "text": "$900 max", "x": 144, "y": 14, "size": 7, "color": "green", "at": 3, "cue": "max"},
+    {"p": "label", "text": "Total theft: payment starts after", "x": 106, "y": 36, "size": 3.6, "w": 34, "at": 4, "cue": "theft"},
+    {"id": "h48", "p": "num", "text": "48 hours", "x": 106, "y": 46, "size": 6, "color": "blue", "at": 4, "cue": "theft"},
+    {"p": "label", "text": "Other losses: car out of use more than", "x": 144, "y": 36, "size": 3.6, "w": 34, "at": 4, "cue": "Other"},
+    {"id": "h24", "p": "num", "text": "24 hours", "x": 144, "y": 46, "size": 6, "color": "blue", "at": 4, "cue": "Other"},
+    {"id": "found", "p": "car", "x": 16, "y": 56, "h": 12, "opt": {"color": "red"}, "at": 5, "cue": "find", "anim": "slide-r", "label": "Found!", "lsize": 4.4}
    ],
-   "tell": "Substantially at fault means more than 50% of the cause.",
    "beats": [
     {
-     "text": "In Michigan, insurers must offer limited and broad form collision at a first private passenger application. Limited has no deductible, but pays only if the driver was not substantially at fault.",
-     "say": "In Michigan, insurers must offer limited and broad form collision at a first private passenger application. Limited has no deductible, but pays only if the driver was not substantially at fault.",
+     "text": "Smart move. In October, a thief steals Rosa's car.",
+     "say": "Smart move. In October, a thief steals Rosa's car.",
+     "hl": "thief"
+    },
+    {"text": "My car! It was right here!", "say": "My car! It was right here!", "voice": "rosa", "hl": "rosa"},
+    {
+     "text": "With other than collision, Part D also pays transportation expenses, no deductible.",
+     "say": "With other than collision, Part D also pays transportation expenses, no deductible."
+    },
+    {
+     "text": "Under the 2018 form: up to $30 a day, $900 max. Thirty times thirty is nine hundred, but that's a dollar cap, not a 30-day limit.",
+     "say": "Under the twenty eighteen form: up to thirty dollars a day, nine hundred dollars max. Thirty times thirty is nine hundred, but that's a dollar cap, not a thirty-day limit.",
+     "hl": "rental"
+    },
+    {
+     "text": "After a total theft, payment starts after 48 hours. Other losses need the car out of use more than 24 hours.",
+     "say": "After a total theft, payment starts after forty-eight hours. Other losses need the car out of use more than twenty-four hours.",
+     "hl": ["h48", "h24"]
+    },
+    {"text": "A week later, police find her car.", "say": "A week later, police find her car.", "hl": "found"}
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Part A: liability, plus extras on top",
+   "src": "ISO PP 00 01 09 18, Part A: Insuring Agreement, Supplementary Payments; cp_personal-12; question auto-052",
+   "kind": "Part A",
+   "term": "Supplementary payments",
+   "plain": "Extra costs Part A pays on top of the liability limit, like bail bonds, or earnings lost attending hearings or trials at the insurer's request.",
+   "example": "Sued after a Toledo, Ohio crash, Rosa attends trial at the insurer's request. Her lost earnings: paid, up to $250 a day.",
+   "exam": "2018 form: bail bonds up to $250, lost earnings up to $250 a day. Defense costs: also on top of the limit.",
+   "draw": [
+    {"id": "shield", "p": "shield", "x": 40, "y": 28, "h": 24, "opt": {"color": "blue"}, "out": 1},
+    {"p": "label", "text": "Part A: liability", "x": 40, "y": 48, "size": 4.4, "bold": true, "color": "blue", "out": 1},
+    {"id": "car1", "p": "car", "x": 20, "y": 16, "h": 11, "opt": {"color": "red", "dent": true}, "at": 1, "cue": "rear-ends"},
+    {"id": "car2", "p": "car", "x": 50, "y": 16, "h": 11, "opt": {"color": "gray"}, "at": 1, "cue": "rear-ends"},
+    {"p": "crash", "x": 35, "y": 9, "h": 9, "opt": {"text": "BUMP!"}, "over": true, "at": 1, "cue": "rear-ends"},
+    {"p": "label", "text": "Toledo, Ohio", "x": 35, "y": 28, "size": 3.8, "at": 1, "cue": "Toledo"},
+    {"id": "court", "p": "courthouse", "x": 20, "y": 50, "h": 24, "at": 1, "cue": "sued"},
+    {"id": "rosa", "p": "person", "x": 47, "y": 50, "h": 24, "opt": {"who": "rosa", "pose": "hold", "hold": "briefcase", "mood": "worried"}, "at": 2},
+    {"id": "cash", "p": "money", "x": 68, "y": 46, "h": 9, "at": 2, "cue": "earnings", "label": "$250 a day", "lsize": 3.8}
+   ],
+   "beats": [
+    {
+     "text": "Part A, liability, pays for injuries and damage Rosa is legally responsible for. It covers her or a family member in any auto, and anyone using her covered auto.",
+     "say": "Part A, liability, pays for injuries and damage Rosa is legally responsible for. It covers her or a family member in any auto, and anyone using her covered auto.",
      "show": 1
     },
     {
-     "text": "Broad form pays regardless of fault, and waives the deductible if the driver was not substantially at fault. Standard collision may also be offered: you pay the deductible either way.",
-     "say": "Broad form pays regardless of fault, and waives the deductible if the driver was not substantially at fault. Standard collision may also be offered: you pay the deductible either way.",
-     "show": 3
-    },
-    {
-     "text": "Substantially at fault means more than 50% of the cause.",
-     "say": "Substantially at fault means more than fifty percent of the cause.",
+     "text": "In Toledo, Ohio, she rear-ends a car and is sued. Her defense is paid on top of the limit, until it's used up.",
+     "say": "In Toledo, Ohio, she rear-ends a car and is sued. Her defense is paid on top of the limit, until it's used up.",
      "show": 3,
-     "tell": true
+     "hl": "court"
+    },
+    {
+     "text": "Supplementary payments are extra too. Under the 2018 form: bail bonds up to $250. Lost earnings for hearings or trials at the insurer's request: up to $250 a day.",
+     "say": "Supplementary payments are extra too. Under the twenty eighteen form: bail bonds up to two hundred fifty dollars. Lost earnings for hearings or trials at the insurer's request: up to two hundred fifty dollars a day.",
+     "show": 4,
+     "hl": "cash"
     }
    ]
   },
   {
-   "type": "scenario",
-   "title": "Sam's new car",
-   "src": "ISO PP 00 01 09 18, Definitions K.2",
-   "icon": "car-front",
-   "story": "Sam buys a second car on Monday. No auto on his policy has collision coverage. On Wednesday, before calling his insurer, he backs the new car into a pole. He calls on Thursday to ask for collision.",
-   "items": [
-    {
-     "label": "Any declared auto with collision?",
-     "detail": "No, so Sam had 4 days to ask, not 14"
-    },
-    {
-     "label": "Did he ask in time?",
-     "detail": "Yes, within 4 days, so coverage began when he became the owner"
-    },
-    {
-     "label": "Loss before he asked",
-     "detail": "A $500 deductible applies"
-    }
-   ],
-   "answer": "Covered, with a $500 deductible. Had he asked late, coverage would begin only when he asked.",
-   "beats": [
-    {
-     "text": "Sam buys a second car Monday. No auto on his policy has collision. Wednesday, before calling his insurer, he backs into a pole. Thursday, he asks for collision. Is he covered?",
-     "say": "Sam buys a second car Monday. No auto on his policy has collision. Wednesday, before calling his insurer, he backs into a pole. Thursday, he asks for collision. Is he covered?",
-     "show": 0
-    },
-    {
-     "text": "If a declared auto had collision, he'd have 14 days to ask. With none, the window is 4 days. Sam asked within 4 days.",
-     "say": "If a declared auto had collision, he'd have fourteen days to ask. With none, the window is four days. Sam asked within four days.",
-     "show": 2
-    },
-    {
-     "text": "So he's covered from the day he became the owner, but a deductible of $500 applies to a loss before he asked.",
-     "say": "So he's covered from the day he became the owner, but a deductible of five hundred dollars applies to a loss before he asked.",
-     "show": 3,
-     "answer": true
-    }
-   ]
-  },
-  {
-   "type": "bignum",
-   "title": "Transportation expenses (2018 edition)",
-   "src": "ISO PP 00 01 09 18, Part D, Transportation Expenses",
-   "items": [
-    {
-     "value": "$30 a day",
-     "label": "Temporary transportation, no deductible"
-    },
-    {
-     "value": "$900",
-     "label": "Maximum"
-    },
-    {
-     "value": "48 hours",
-     "label": "Total theft: payment starts after"
-    },
-    {
-     "value": "24 hours",
-     "label": "Other losses: car out of use more than"
-    }
+   "type": "choice",
+   "title": "Rosa's gas money plan",
+   "src": "ISO PP 00 01 09 18, Part A, Exclusion A.5; question auto-053",
+   "ask": "Which plan keeps her liability coverage?",
+   "draw": [
+    {"id": "rosa", "p": "person", "x": 28, "y": 32, "h": 34, "opt": {"who": "rosa", "pose": "think", "mood": "worried"}},
+    {"p": "bubble", "text": "How can my car pay for its gas?", "x": 66, "y": 10, "w": 36, "to": "rosa", "think": true},
+    {"id": "pump", "p": "gaspump", "x": 102, "y": 33, "h": 30, "opt": {"price": ""}},
+    {"id": "car", "p": "car", "x": 138, "y": 40, "h": 14, "opt": {"color": "red"}}
    ],
    "beats": [
     {
-     "text": "Part D also pays transportation expenses with no deductible: up to $30 a day, to $900. Thirty times thirty is nine hundred.",
-     "say": "Part D also pays transportation expenses with no deductible: up to thirty dollars a day, to nine hundred dollars. Thirty times thirty is nine hundred.",
-     "show": 2
+     "text": "Gas isn't cheap. Rosa wants her car to help pay its way. Which plan keeps her liability coverage?",
+     "say": "Gas isn't cheap. Rosa wants her car to help pay its way. Which plan keeps her liability coverage?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Turn on a ride-share app during her commute",
+     "ok": false,
+     "fail": "Part A excludes public or livery use, including any time logged into a ride-share app as a driver, even with no rider yet.",
+     "beats": [
+      {
+       "text": "She's logged in on her commute, no rider yet, when, bump, a fender bender. Excluded: time logged in as a driver counts.",
+       "say": "She's logged in on her commute, no rider yet, when, bump, a fender bender. Excluded: time logged in as a driver counts."
+      }
+     ],
+     "draw": [
+      {"id": "phone", "p": "phone", "x": 18, "y": 24, "h": 20},
+      {"p": "label", "text": "App: logged in", "x": 18, "y": 42, "size": 4.4, "bold": true},
+      {"p": "label", "text": "No rider yet", "x": 56, "y": 18, "size": 4.4, "bold": true, "color": "gray"},
+      {"id": "car", "p": "car", "x": 58, "y": 36, "h": 16, "opt": {"color": "red", "dent": true}},
+      {"p": "crash", "x": 77, "y": 32, "h": 14, "opt": {"text": "BUMP!"}, "over": true, "cue": "bump", "sfx": "crash"},
+      {"id": "rosa", "p": "person", "x": 116, "y": 32, "h": 32, "opt": {"who": "rosa", "pose": "hold", "hold": "briefcase", "mood": "shocked"}},
+      {"p": "stamp", "text": "Excluded", "x": 84, "y": 50, "size": 7, "color": "red", "cue": "Excluded"}
+     ]
     },
     {
-     "text": "After a total theft, payment starts 48 hours after the theft. For other losses, the car must be out of use more than 24 hours.",
-     "say": "After a total theft, payment starts forty-eight hours after the theft. For other losses, the car must be out of use more than twenty-four hours.",
-     "show": 4
+     "label": "Split gas costs in a coworker car pool",
+     "ok": true,
+     "win": "The livery exclusion doesn't apply to share-the-expense car pools, or to volunteer or charitable use.",
+     "beats": [
+      {
+       "text": "Her coworkers chip in for gas. A share-the-expense car pool isn't excluded, so Part A applies.",
+       "say": "Her coworkers chip in for gas. A share-the-expense car pool isn't excluded, so Part A applies."
+      }
+     ],
+     "draw": [
+      {"id": "rosa", "p": "person", "x": 18, "y": 32, "h": 32, "opt": {"who": "rosa", "pose": "wave", "mood": "happy"}},
+      {"id": "car", "p": "car", "x": 54, "y": 38, "h": 16, "opt": {"color": "red"}},
+      {"id": "w1", "p": "person", "x": 88, "y": 32, "h": 30, "opt": {"who": "neighbor", "pose": "hold", "hold": "money", "mood": "happy"}},
+      {"id": "w2", "p": "person", "x": 106, "y": 32, "h": 30, "opt": {"who": "worker", "pose": "hold", "hold": "coins", "mood": "happy"}},
+      {"p": "stamp", "text": "Not excluded", "x": 140, "y": 20, "size": 5.5, "color": "green", "cue": "excluded"},
+      {"p": "label", "text": "Share-the-expense car pool", "x": 140, "y": 36, "size": 4.2, "w": 34, "color": "green", "cue": "excluded"}
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Time logged into a ride-share app as a driver is excluded, rider or not. Share-the-expense car pools and volunteer driving aren't.",
+     "say": "Time logged into a ride-share app as a driver is excluded, rider or not. Share-the-expense car pools and volunteer driving aren't."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Part E: duties after an accident or loss",
-   "src": "ISO PP 00 01 09 18, Part E, A-D",
-   "items": [
-    {
-     "label": "Prompt notice, cooperation, legal papers",
-     "icon": "mail"
-    },
-    {
-     "label": "Exams, records, proof of loss",
-     "icon": "clipboard-list"
-    },
-    {
-     "label": "Hit-and-run UM claim: tell police promptly",
-     "icon": "siren"
-    }
+   "type": "sketch",
+   "title": "Parts B and C: help for injuries",
+   "src": "ISO PP 00 01 09 18, Part B A-B; Part C A, C; DIFS auto FAQ; Rory v Continental (2005); questions auto-049, auto-054",
+   "draw": [
+    {"p": "label", "text": "Part B: Medical Payments", "x": 40, "y": 6, "size": 4.4, "bold": true, "color": "blue"},
+    {"id": "med", "p": "firstaid", "x": 40, "y": 24, "h": 12, "at": 0, "cue": "medical"},
+    {"id": "cal", "p": "calendar", "x": 64, "y": 24, "h": 14, "opt": {"n": "3 yrs", "size": 9}, "at": 0, "cue": "years"},
+    {"id": "rosaB", "p": "person", "x": 14, "y": 32, "h": 24, "opt": {"who": "rosa", "pose": "walk"}, "at": 1, "cue": "pedestrians"},
+    {"p": "label", "text": "Medical and funeral costs, services within 3 years", "x": 52, "y": 40, "size": 4.2, "w": 46, "at": 0, "cue": "funeral"},
+    {"p": "label", "text": "Rosa and family members, even on foot, plus anyone in her covered auto", "x": 40, "y": 56, "size": 4.2, "w": 70, "at": 1, "cue": "covers"},
+    {"p": "divider", "x": 80, "y": 34, "y0": 4, "y1": 64, "at": 2},
+    {"p": "label", "text": "Part C: Uninsured Motorists", "x": 120, "y": 6, "size": 4.4, "bold": true, "color": "purple", "at": 2},
+    {"id": "hr", "p": "car", "x": 98, "y": 22, "h": 11, "opt": {"color": "gray", "dent": true}, "at": 2, "cue": "Hit-and-runs", "label": "Hit-and-run", "lsize": 4.2},
+    {"id": "ins", "p": "insurer", "x": 140, "y": 22, "h": 16, "at": 2, "cue": "insolvent", "label": "Insolvent insurer", "lsize": 4.2},
+    {"id": "gov", "p": "van", "x": 98, "y": 49, "h": 11, "opt": {"name": "CITY"}, "at": 2, "cue": "Government-owned"},
+    {"p": "xout", "on": "gov", "at": 2, "cue": "Government-owned"},
+    {"p": "label", "text": "Government-owned: not uninsured", "x": 98, "y": 60, "size": 4.2, "w": 34, "color": "red", "at": 2, "cue": "Government-owned"},
+    {"p": "label", "text": "Michigan: UM and UIM optional (DIFS; Supreme Court for UM)", "x": 140, "y": 51, "size": 4.2, "w": 32, "bold": true, "color": "green", "at": 3, "cue": "optional"}
    ],
    "beats": [
     {
-     "text": "Part E lists your duties: prompt notice, cooperation, sending legal papers, exams, records and proof of loss. For a hit-and-run uninsured motorists claim, promptly notify the police.",
-     "say": "Part E lists your duties: prompt notice, cooperation, sending legal papers, exams, records and proof of loss. For a hit-and-run uninsured motorists claim, promptly notify the police.",
-     "show": 3
+     "text": "Part B, medical payments, pays medical and funeral costs for services within 3 years of the accident.",
+     "say": "Part B, medical payments, pays medical and funeral costs for services within three years of the accident.",
+     "hl": "med"
     },
     {
-     "text": "The insurer has no duty to provide coverage if your failure to comply is prejudicial to it.",
-     "say": "The insurer has no duty to provide coverage if your failure to comply is prejudicial to it.",
-     "show": 3
+     "text": "It covers Rosa and her family members, even as pedestrians, and anyone in her covered auto.",
+     "say": "It covers Rosa and her family members, even as pedestrians, and anyone in her covered auto.",
+     "hl": "rosaB"
+    },
+    {
+     "text": "Part C, uninsured motorists, pays injury damages an uninsured driver owes her. Hit-and-runs and insolvent insurers count. Government-owned vehicles don't.",
+     "say": "Part C, uninsured motorists, pays injury damages an uninsured driver owes her. Hit-and-runs and insolvent insurers count. Government-owned vehicles don't."
+    },
+    {
+     "text": "In Michigan, DIFS lists UM and UIM, underinsured motorists, as optional. Rosa bought both.",
+     "say": "In Michigan, D I F S lists U M and U I M, underinsured motorists, as optional. Rosa bought both."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Endorsements, including Michigan's",
-   "src": "PP 03 23 per FC&S summary (form text not read); PP 03 06 01 05; DIFS Bulletin 96-02; MCL 500.3107, 3109(3), 3121",
-   "items": [
+   "type": "sketch",
+   "title": "Part E: Rosa's duties after a hit-and-run",
+   "src": "ISO PP 00 01 09 18, Part E (opening), A-C; Part C, C; DIFS auto FAQ; questions auto-gap-05, auto-gap-06",
+   "draw": [
+    {"p": "icon", "name": "moon", "x": 8, "y": 8, "h": 8, "color": "yellow"},
+    {"id": "car", "p": "car", "x": 46, "y": 44, "h": 15, "opt": {"color": "red"}},
+    {"p": "crash", "x": 31, "y": 38, "h": 13, "opt": {"text": "BAM!"}, "at": 0, "cue": "rear-ends", "out": 1, "over": true, "sfx": "crash"},
+    {"id": "hr", "p": "car", "x": 16, "y": 50, "h": 13, "opt": {"color": "gray", "dent": true}, "move": {"to": [215, 58], "at": 0, "cue": "speeds", "dur": 1.2, "sfx": "whoosh"}, "out": 1, "over": true},
+    {"id": "rosa", "p": "person", "x": 72, "y": 40, "h": 26, "opt": {"who": "rosa", "pose": "hold", "hold": "phone", "mood": "worried"}, "at": 1},
+    {"id": "police", "p": "police", "x": 100, "y": 46, "h": 14, "at": 2, "cue": "police", "anim": "slide-l"},
+    {"p": "label", "text": "Hit-and-run: tell the police promptly", "x": 86, "y": 16, "size": 4, "w": 44, "bold": true, "color": "blue", "at": 2, "cue": "police"},
+    {"id": "duties", "p": "note", "text": "Prompt notice. Cooperate. Legal papers. Exams. Records. Proof of loss.", "x": 138, "y": 28, "w": 32, "at": 3},
+    {"p": "label", "text": "A failure that prejudices the insurer? No duty to provide coverage", "x": 138, "y": 58, "size": 3.8, "w": 36, "color": "red", "at": 4}
+   ],
+   "beats": [
     {
+     "text": "One night, an unknown driver rear-ends Rosa's car and speeds off. She's seriously hurt, so she makes an uninsured motorists claim.",
+     "say": "One night, an unknown driver rear-ends Rosa's car and speeds off. She's seriously hurt, so she makes an uninsured motorists claim."
+    },
+    {"text": "They just drove off!", "say": "They just drove off!", "voice": "rosa", "hl": "rosa"},
+    {
+     "text": "For a hit-and-run, Part E says: promptly notify the police. Rosa does.",
+     "say": "For a hit-and-run, Part E says: promptly notify the police. Rosa does.",
+     "hl": "police"
+    },
+    {
+     "text": "Plus the usual duties: prompt notice to the insurer, cooperation, legal papers, exams, records and proof of loss.",
+     "say": "Plus the usual duties: prompt notice to the insurer, cooperation, legal papers, exams, records and proof of loss.",
+     "hl": "duties"
+    },
+    {
+     "text": "If skipping a duty hurts, or prejudices, the insurer, it has no duty to provide coverage.",
+     "say": "If skipping a duty hurts, or prejudices, the insurer, it has no duty to provide coverage."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Sam's call: when to ask for collision?",
+   "src": "ISO PP 00 01 09 18, Definitions K.2; memory hook mn_auto-21; question auto-051",
+   "ask": "When should Sam ask?",
+   "draw": [
+    {"id": "cal", "p": "calendar", "x": 18, "y": 20, "h": 20, "opt": {"n": "WED", "size": 13}},
+    {"id": "sam", "p": "person", "x": 52, "y": 32, "h": 34, "opt": {"who": "sam", "pose": "shrug", "mood": "shocked"}},
+    {"p": "bubble", "text": "I haven't called the insurer yet!", "x": 86, "y": 9, "w": 36, "to": "sam", "at": 0, "cue": "calling"},
+    {"id": "car", "p": "car", "x": 123, "y": 40, "h": 15, "opt": {"color": "green", "dent": true}, "over": true},
+    {"p": "crash", "x": 137, "y": 33, "h": 10, "opt": {"text": "BUMP!"}, "over": true, "at": 0, "cue": "bumps"},
+    {"id": "stop", "p": "stopsign", "x": 140, "y": 31, "h": 32, "rot": -12}
+   ],
+   "beats": [
+    {
+     "text": "Sam buys a second car Monday. Wednesday, before calling, he bumps the new car into a stop sign.",
+     "say": "Sam buys a second car Monday. Wednesday, before calling, he bumps the new car into a stop sign."
+    },
+    {
+     "text": "His 2018 policy gives a new car 14 days to ask for collision. Only 4 if no car on the policy has it. None of Sam's do.",
+     "say": "His twenty eighteen policy gives a new car fourteen days to ask for collision. Only four if no car on the policy has it. None of Sam's do."
+    },
+    {"text": "When should he ask?", "say": "When should he ask?"}
+   ],
+   "options": [
+    {
+     "label": "Next week. He has 14 days!",
+     "ok": false,
+     "fail": "If no declared auto has collision, ask within 4 days. Ask late, and coverage begins only when you ask.",
+     "beats": [
+      {
+       "text": "Ten days later, he calls. Too late: coverage starts only when he asks.",
+       "say": "Ten days later, he calls. Too late: coverage starts only when he asks."
+      }
+     ],
+     "draw": [
+      {"id": "cal", "p": "calendar", "x": 20, "y": 22, "h": 22, "opt": {"n": "10"}},
+      {"p": "xout", "on": "cal", "cue": "late"},
+      {"p": "label", "text": "10 days later", "x": 20, "y": 38, "size": 4.2, "bold": true},
+      {"id": "car", "p": "car", "x": 64, "y": 38, "h": 15, "opt": {"color": "green", "dent": true}},
+      {"p": "label", "text": "The dent came before coverage began", "x": 64, "y": 52, "size": 4, "w": 50, "color": "red", "cue": "asks"},
+      {"id": "sam", "p": "person", "x": 116, "y": 32, "h": 32, "opt": {"who": "sam", "pose": "sad", "mood": "sad"}}
+     ]
+    },
+    {
+     "label": "Thursday, within 4 days",
+     "ok": true,
+     "win": "No declared auto with collision: ask within 4 days. A $500 deductible applies to a loss before you asked.",
+     "beats": [
+      {
+       "text": "Thursday is within 4 days, so he's covered from the day he became the owner, minus a deductible of $500.",
+       "say": "Thursday is within four days, so he's covered from the day he became the owner, minus a deductible of five hundred dollars."
+      }
+     ],
+     "draw": [
+      {"id": "cal", "p": "calendar", "x": 20, "y": 22, "h": 22, "opt": {"n": "THU", "size": 13}},
+      {"p": "check", "x": 34, "y": 10, "h": 9},
+      {"id": "car", "p": "car", "x": 64, "y": 38, "h": 15, "opt": {"color": "green", "dent": true}},
+      {"p": "stamp", "text": "Covered", "x": 106, "y": 22, "size": 6.5, "color": "green", "cue": "covered"},
+      {"p": "label", "text": "minus a $500 deductible", "x": 106, "y": 38, "size": 4.2, "color": "green", "cue": "deductible"},
+      {"id": "sam", "p": "person", "x": 142, "y": 32, "h": 32, "opt": {"who": "sam", "pose": "cheer", "mood": "happy"}}
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A fortnight for most, four days for first-timers with no collision yet. Miss the window, and coverage starts only when you ask.",
+     "say": "A fortnight for most, four days for first-timers with no collision yet. Miss the window, and coverage starts only when you ask."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Endorsements: filling the gaps",
+   "src": "PP 03 23 (FC&S summary; form not read); PP 03 06 01 05; PP 00 01 09 18 Part A Excl. B; DIFS Bulletin 96-02; MCL 500.3109(3)",
+   "draw": [
+    {"id": "rv", "p": "rv", "x": 30, "y": 17, "h": 20},
+    {"p": "label", "text": "Gramps' motor home", "x": 30, "y": 31, "size": 4.2},
+    {"id": "gramps", "p": "person", "x": 59, "y": 18, "h": 22, "opt": {"who": "person", "hair": "short", "hairColor": "gray", "mustache": true, "shirt": "green", "hat": "cap", "pose": "point", "mood": "happy"}},
+    {"id": "work", "p": "car", "x": 28, "y": 48, "h": 14, "opt": {"color": "blue"}},
+    {"p": "label", "text": "Rosa's company car", "x": 28, "y": 60, "size": 4.2},
+    {"id": "rosa", "p": "person", "x": 60, "y": 49, "h": 22, "opt": {"who": "rosa", "pose": "hold", "hold": "key", "mood": "happy"}},
+    {"id": "moto", "p": "motorcycle", "x": 94, "y": 19, "h": 19},
+    {"p": "label", "text": "Motorcycle", "x": 94, "y": 33, "size": 4.2},
+    {"id": "sled", "p": "snowmobile", "x": 138, "y": 19, "h": 17},
+    {"p": "label", "text": "Snowmobile", "x": 138, "y": 33, "size": 4.2},
+    {"id": "pip", "p": "policy", "x": 94, "y": 47, "h": 21, "opt": {"title": "PIP, PPI", "tsize": 7}},
+    {"p": "label", "text": "Michigan endorsements", "x": 94, "y": 61, "size": 4.2},
+    {"id": "golf", "p": "golfcart", "x": 138, "y": 47, "h": 20},
+    {"p": "label", "text": "Borrowed golf cart", "x": 138, "y": 61, "size": 4.2}
+   ],
+   "spots": [
+    {
+     "on": "moto",
+     "label": "Motorcycle",
+     "text": "Part A excludes vehicles with fewer than 4 wheels or built mainly for off-road use. Miscellaneous Type Vehicle removes that for listed vehicles."
+    },
+    {
+     "on": "rv",
      "label": "Miscellaneous Type Vehicle",
-     "detail": "Motor homes, motorcycles, all-terrain vehicles, golf carts. Snowmobiles: separate form",
-     "icon": "caravan"
+     "text": "This endorsement typically covers motor homes, motorcycles, all-terrain vehicles, dune buggies and golf carts."
     },
     {
+     "on": "sled",
+     "label": "Snowmobile",
+     "text": "Not on the Miscellaneous Type Vehicle endorsement: snowmobiles use a separate endorsement."
+    },
+    {
+     "on": "golf",
+     "label": "A borrowed golf cart",
+     "text": "The fewer-than-4-wheels or off-road exclusion has exceptions: trailers, non-owned golf carts, and use in a medical emergency."
+    },
+    {
+     "on": "work",
      "label": "Extended Non-Owned",
-     "detail": "Removes the regular-use exclusion, for example a car an employer furnishes",
-     "icon": "briefcase"
+     "text": "Part A excludes vehicles furnished or available for your regular use. This removes that for liability, and med pay if bought. Michigan: residual liability only."
     },
     {
-     "label": "Michigan: DIFS Bulletin 96-02",
-     "detail": "Non-owner endorsements give residual liability only, to named person and spouse",
-     "icon": "landmark"
-    },
-    {
-     "label": "Michigan PIP and PPI endorsements",
-     "detail": "Add the no-fault benefits. A PIP deductible applies only to your household",
-     "icon": "file-text"
+     "on": "pip",
+     "label": "Michigan PIP and PPI",
+     "text": "The base form has no PIP or PPI, so Michigan endorsements add them. A PIP deductible applies only to the named insured, spouse and resident relatives."
     }
    ],
    "beats": [
     {
-     "text": "Now endorsements. Miscellaneous Type Vehicle typically covers motor homes, motorcycles, all-terrain vehicles, dune buggies and golf carts. Snowmobiles use a separate endorsement.",
-     "say": "Now endorsements. Miscellaneous Type Vehicle typically covers motor homes, motorcycles, all-terrain vehicles, dune buggies and golf carts. Snowmobiles use a separate endorsement.",
-     "show": 1
+     "text": "December: Rosa gets a company car, and Gramps buys a motor home.",
+     "say": "December: Rosa gets a company car, and Gramps buys a motor home."
     },
     {
-     "text": "Extended Non-Owned removes the regular-use exclusion for liability, and med pay if bought. It fits someone who regularly drives an employer's car.",
-     "say": "Extended Non-Owned removes the regular-use exclusion for liability, and med pay if bought. It fits someone who regularly drives an employer's car.",
-     "show": 2
+     "text": "Endorsements, forms that change or add to the policy, fill the gaps. Tap the glowing spots.",
+     "say": "Endorsements, forms that change or add to the policy, fill the gaps. Tap the glowing spots."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "So Gramps' motor home typically fits Miscellaneous Type Vehicle. Rosa's company car fits Extended Non-Owned.",
+     "say": "So Gramps' motor home typically fits Miscellaneous Type Vehicle. Rosa's company car fits Extended Non-Owned."
     },
     {
-     "text": "But in Michigan, a DIFS bulletin says named non-owner and extended non-owned endorsements give residual liability only, for the named person and spouse. No PIP, no PPI, no physical damage.",
-     "say": "But in Michigan, a D I F S bulletin says named non-owner and extended non-owned endorsements give residual liability only, for the named person and spouse. No P I P, no P P I, no physical damage.",
-     "show": 3
-    },
-    {
-     "text": "Michigan PIP and PPI endorsements add the no-fault benefits. A PIP deductible applies only to the named insured, spouse and resident relatives.",
-     "say": "Michigan P I P and P P I endorsements add the no-fault benefits. A P I P deductible applies only to the named insured, spouse and resident relatives.",
-     "show": 4
+     "text": "But in Michigan, DIFS says extended non-owned and named non-owner endorsements give residual liability only, for harm you cause others.",
+     "say": "But in Michigan, D I F S says extended non-owned and named non-owner endorsements give residual liability only, for harm you cause others."
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "According to DIFS, a named non-owner or extended non-owned endorsement on a Michigan no-fault policy provides:",
+   "q": "Rosa's Michigan policy adds an extended non-owned endorsement for her company car. According to DIFS, it gives her:",
    "choices": [
     "PIP, PPI and residual liability for the whole household",
     "Residual liability only, for the named person and spouse",
@@ -443,17 +707,23 @@
     "PIP coverage only"
    ],
    "answer": 1,
-   "why": "DIFS Bulletin 96-02: these endorsements provide only residual liability, only for the named person and spouse. They give no PIP, PPI or physical damage, and don't meet no-fault requirements.",
+   "why": "DIFS Bulletin 96-02: only residual liability, only for the named person and spouse. No PIP, PPI or physical damage, so it doesn't meet no-fault requirements.",
+   "draw": [
+    {"id": "reg", "p": "person", "x": 16, "y": 42, "h": 28, "opt": {"who": "regulator", "pose": "hold", "hold": "policy"}},
+    {"id": "rosa", "p": "person", "x": 40, "y": 42, "h": 28, "opt": {"who": "rosa", "pose": "think", "mood": "neutral"}},
+    {"id": "work", "p": "car", "x": 64, "y": 50, "h": 12, "opt": {"color": "blue"}},
+    {"p": "label", "text": "DIFS Bulletin 96-02", "x": 20, "y": 19, "size": 4, "bold": true, "box": true}
+   ],
    "beats": [
     {
-     "text": "Your turn. According to DIFS, what do these Michigan non-owner endorsements provide? Pick an answer.",
-     "say": "Your turn. According to D I F S, what do these Michigan non-owner endorsements provide? Pick an answer."
+     "text": "Quick check: what does Rosa's endorsement give her?",
+     "say": "Quick check: what does Rosa's endorsement give her?"
     }
    ],
    "reveal": [
     {
-     "text": "The answer is residual liability only, for the named person and spouse. That's why such an endorsement doesn't meet Michigan's no-fault requirements.",
-     "say": "The answer is residual liability only, for the named person and spouse. That's why such an endorsement doesn't meet Michigan's no-fault requirements."
+     "text": "Residual liability only, and only for the named person and spouse. No PIP, PPI or physical damage.",
+     "say": "Residual liability only, and only for the named person and spouse. No P I P, P P I or physical damage."
     }
    ]
   },
@@ -461,31 +731,40 @@
    "type": "recap",
    "items": [
     "Parts A to F: Let Me Use Dad's Dodge, Gramps?",
-    "Part A (2018): defense plus $250 bail and $250 a day, on top of limits",
-    "Deer: other than collision. Rollover or hitting a tree: collision",
-    "New car (2018): 14 days to ask; 4 if no declared auto has it",
-    "Michigan non-owner endorsements: residual liability only"
+    "Part A (2018): defense, $250 bail and $250 a day, on top of limits",
+    "Bambi is not a collision: hitting a deer is other than collision",
+    "Michigan limited collision pays only if not substantially at fault",
+    "New car (2018): 4 days if no declared auto has collision, else 14"
+   ],
+   "draw": [
+    {"id": "rosa", "p": "person", "x": 18, "y": 42, "h": 30, "opt": {"who": "rosa", "pose": "cheer", "mood": "happy"}},
+    {"id": "dana", "p": "person", "x": 40, "y": 42, "h": 30, "opt": {"who": "dana", "pose": "wave", "mood": "happy"}},
+    {"id": "car", "p": "car", "x": 62, "y": 54, "h": 11, "opt": {"color": "red"}},
+    {"id": "deer", "p": "deer", "x": 62, "y": 36, "h": 16, "opt": {"pose": "leap"}, "over": true},
+    {"p": "bubble", "text": "Fewer deer, please!", "x": 34, "y": 10, "w": 30, "to": "rosa", "at": 2}
    ],
    "beats": [
     {
-     "text": "Let's recap the key points on screen. Pause if you want to review them.",
-     "say": "Let's recap the key points on screen. Pause if you want to review them.",
+     "text": "What a year! Six parts, A to F, and Bambi is not a collision.",
+     "say": "What a year! Six parts, A to F, and Bambi is not a collision.",
+     "show": 3
+    },
+    {
+     "text": "In Michigan, limited collision pays only if the driver wasn't substantially at fault. Under the 2018 form, no collision on the policy? A new car gets four days.",
+     "say": "In Michigan, limited collision pays only if the driver wasn't substantially at fault. Under the twenty eighteen form, no collision on the policy? A new car gets four days.",
+     "show": 5
+    },
+    {
+     "text": "Next year? Fewer deer, please.",
+     "say": "Next year? Fewer deer, please.",
+     "voice": "rosa",
      "show": 5
     }
    ]
   }
  ],
- "check": [
-  "auto-052",
-  "auto-053",
-  "auto-055",
-  "auto-051",
-  "auto-057"
- ],
- "hooks": [
-  "mn-mn_auto-20",
-  "mn-mn_auto-23"
- ],
+ "check": ["auto-051", "auto-052", "auto-053", "auto-055", "auto-057"],
+ "hooks": ["mn-mn_auto-20", "mn-mn_auto-23", "mn-mn_auto-22", "mn-mn_auto-21"],
  "sources": [
   "ISO PP 00 01 09 18 (Personal Auto Policy), Definitions, Parts A-F",
   "ISO PP 03 06 01 05 (Extended Non-Owned Coverage)",
@@ -495,6 +774,7 @@
   "Rory v Continental Ins Co, 473 Mich 457 (2005)",
   "MCL 500.3037(1),(2),(8)(b)",
   "DIFS FIS-PUB 0200 (via confusion pair cp-cp_personal-14)",
-  "MCL 500.3107, 3108, 3109(3), 3121"
+  "MCL 500.3107, 3108, 3109(3), 3121",
+  "Memory hooks mn_auto-20, 21, 22, 23; confusion pairs cp_personal-12, 13, 14"
  ]
 }

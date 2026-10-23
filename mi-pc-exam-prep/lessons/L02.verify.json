@@ -1,27 +1,78 @@
 {
  "id": "L02",
- "beats": 44,
+ "beats": 60,
  "mismatches": [
   {
-   "scene": 4,
-   "beat": 0,
-   "say": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at fifty dollars a year.",
-   "heard": "A Traversity Cherry basket is a thank you. A cashback envelope is a rebate. Keep the basket at $50 a year.",
-   "wer": 0.167
-  },
-  {
-   "scene": 4,
+   "scene": 1,
    "beat": 3,
-   "say": "An insured who knowingly accepts a rebate has coverage reduced in proportion, plus a fine of up to one hundred dollars.",
-   "heard": "and insured who knowingly accepts a rebate has coverage reduced in proportion, plus a fine of up to $100.",
-   "wer": 0.048
+   "say": "Three: a lie about his insurer's money. Misstating a policy's terms or benefits, or an insurer's financial condition, is misrepresentation.",
+   "heard": "Three, a lie about his insurer's money. Mistating a policy's terms or benefits or an insurer's financial condition is misrepresentation.",
+   "wer": 0.05,
+   "voice": "narrator"
   },
   {
-   "scene": 12,
+   "scene": 3,
+   "beat": 1,
+   "say": "The hook: a Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at fifty dollars a year.",
+   "heard": "The hook, a Traversity Cherry basket, is a thank you. A cash back envelope is a rebate. Keep the basket at $50 a year.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "scene": 4,
+   "beat": "o2:0",
+   "say": "Cherries? Fine, I'm staying.",
+   "heard": "Cherry's fine, I'm staying.",
+   "wer": 0.25,
+   "voice": "sam"
+  },
+  {
+   "scene": 6,
    "beat": 0,
-   "say": "Recap: twisting switches, rebating pays back, misrepresentation misstates. P and C gifts stay at fifty dollars a year. Premiums are fiduciary money.",
-   "heard": "RECAP, twisting switches, rebating pays back, misrepresentation mistakes. P and C gifts stay at $50 a year. Premiums are fiduciary money.",
-   "wer": 0.048
+   "say": "In Michigan, premiums Dana collects are fiduciary money: held in trust, segregated, never commingled with her own.",
+   "heard": "In Michigan, Premium's Dana collects our fiduciary money. Held in trust, segregated, never co-mingled with her own.",
+   "wer": 0.176,
+   "voice": "narrator"
+  },
+  {
+   "scene": 7,
+   "beat": "o0:0",
+   "say": "The refund lands next to Dana's lunch money. Commingled!",
+   "heard": "The refund lands next to Dana's lunch money, co-mingled.",
+   "wer": 0.222,
+   "voice": "narrator"
+  },
+  {
+   "scene": 10,
+   "beat": 1,
+   "say": "Licensing law, in thousands: Oops one, didn't know. Knew five, knew or reasonably should have. Cap fifty per order.",
+   "heard": "Licensing law in thousands, oops one did not know. New five new or reasonably should have. Cap 50 per order.",
+   "wer": 0.1,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 2,
+   "say": "Solo four, Squad ten: committing fraud risks four years; plotting it with a partner risks ten. Either way, up to fifty thousand dollars and you pay it back.",
+   "heard": "Solo 4, Squad 10, committing fraud risks for years, plotting it with a partner risks 10. Either way, up to $50,000 and you pay it back.",
+   "wer": 0.037,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
+   "beat": 1,
+   "say": "The office sign. Signs and general advertising don't count. Mail, hand delivery, or a website notice the online customer must acknowledge all work.",
+   "heard": "The office sign. Signs in general advertising do not count. Mail, hand delivery, or a website notice the online customer must acknowledge all work.",
+   "wer": 0.043,
+   "voice": "narrator"
+  },
+  {
+   "scene": 15,
+   "beat": 0,
+   "say": "What a year! Switch, payback, false picture. Baskets, not cash. Premiums kept apart.",
+   "heard": "What a year switched payback false picture. Baskets not cash. Premiums kept apart.",
+   "wer": 0.077,
+   "voice": "narrator"
   }
  ]
 }

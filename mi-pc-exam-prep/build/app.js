@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-const DATA = JSON.parse(document.getElementById('data').textContent);
+const DATA = loadData();
 const SECTIONS = [
   {key:'reg',      name:'Insurance Regulation',           pct:10,   items:15, topics:['reg']},
   {key:'gen',      name:'General Insurance',              pct:10.5, items:16, topics:['gen']},
@@ -195,6 +195,7 @@ const BADGES = [
   {id:'math10', t:'Number cruncher', d:'Solve 10 math lab problems', f:()=>(P.games.math||0)>=10},
   {id:'lesson1', t:'Opening scene', d:'Finish your first video lesson', f:()=>lessonsDone()>=1},
   {id:'lesson5', t:'Binge learner', d:'Finish 5 video lessons', f:()=>lessonsDone()>=5},
+  {id:'lessonstars', t:'Star student', d:'Earn every star in a video lesson', f:()=>LESSONS.some(l=>{ const s=lessonState(l.id), m=lessonStarsMax(l); return s && s.gates && m>0 && Object.values(s.gates).reduce((a,b)=>a+(b||0),0)>=m; })},
   {id:'lessonall', t:'Film school', d:'Finish every video lesson', f:()=>LESSONS.length>0 && lessonsDone()>=LESSONS.length},
 ].concat(SECTIONS.map(s=>({id:'m_'+s.key, t:'Mastered: '+s.name, d:'85% of the section answered right twice', f:()=>secMastery(s.key)>=0.85})));
 function checkBadges(){
@@ -1087,7 +1088,10 @@ function start(hot){
   go((hot && hot.VIEW && hot.VIEW!=='games') ? hot.VIEW : (EX && !EX.submitted ? 'exam' : 'home'));
   initSync();
 }
-window.__mipc = { gen: GEN, srsAnswer, levelOf, P: ()=>P, ses: ()=>SES, today, lp: { state: ()=>({id: LP.L&&LP.L.id, src: LP.virtual ? 'silent' : (['blob', LP.L && LP.L.audio && LP.L.audio[0]==='#' ? 'data' : 'file', 'webaudio'][LP.srcStage]||'?'), t: lpTime(), playing: LP.playing, scene: LP.scene, awaiting: LP.awaiting, virtual: LP.virtual, ended: LP.ended, quiz: LP.quiz}), seek: lpSeek, play: lpPlay, pause: lpPause, virtual: goVirtual } }; // test hooks
+window.__mipc = { gen: GEN, srsAnswer, levelOf, P: ()=>P, ses: ()=>SES, today, lp: { state: ()=>({id: LP.L&&LP.L.id, src: LP.virtual ? 'silent' : (['blob', LP.L && LP.L.audio && LP.L.audio[0]==='#' ? 'data' : 'file', 'webaudio'][LP.srcStage]||'?'), t: lpTime(), playing: LP.playing, scene: LP.scene, awaiting: LP.awaiting, virtual: LP.virtual, ended: LP.ended, gate: LP.gate, gs: LP.gs, stars: LP.stars}), seek: lpSeek, play: lpPlay, pause: lpPause, virtual: goVirtual,
+    preview(L){ L=JSON.parse(JSON.stringify(L)); L.preview=true; if(!L.timing) L.timing=estimateTiming(L); L.audio=null; VIEW='watch'; document.querySelectorAll('.view').forEach(el=>el.hidden=(el.id!=='view-watch')); openLesson(L.id, {lesson:L}); hideOverlay(); return L.timing; },
+    jump(si, bi){ const T=LP.L.timing.scenes[si]; const b=bi==null ? T.beats[T.beats.length-1] : T.beats[Math.min(bi, T.beats.length-1)]; LP.awaiting=-1; lpSeek(Math.max(T.t0, b[1]-0.05)); return {t:lpTime(), scene:LP.scene}; },
+    boxes(){ return LP.sk.map(R=>SK.bboxes(R)); }, timing: L=>estimateTiming(L), choose: k=>gxChoose(k), retry: ()=>gxRetry(), tm: si=>LP.L.timing.scenes[si] }, data: ()=>DATA }; // test hooks
 if(window.claude && window.claude.hot){ try{ window.claude.hot.snapshot(()=>({EX, SES, VIEW})); }catch(e){} }
 if(window.claude && window.claude.hot && window.claude.hot.ready) window.claude.hot.ready(start);
 else start((window.claude && window.claude.hot && window.claude.hot.data) || {});

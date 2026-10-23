@@ -3,106 +3,988 @@
  "sec": "ho",
  "guide": "ho",
  "title": "Homeowners perils, exclusions, conditions and loss settlement",
- "summary": "Learn the 16 named perils, what the HO-3 won't pay, how the 80% replacement cost rule works, and the claim deadlines, with Michigan's changes.",
+ "summary": "Follow the Millers through one Michigan January: the HO-3's perils, what it won't pay, the 80% rule, the claim clock and three tough calls.",
  "objectives": [
-  "Name the six broad perils and the HO-3 vacancy and freezing limits",
-  "List the nine Section I exclusions and tell covered water from excluded water",
-  "Work the 80% replacement cost formula step by step",
-  "Recall claim deadlines, including where Michigan law differs"
+  "Tell open perils from named perils, and name the six broad perils",
+  "Spot what the HO-3 won't pay: careless freezing, vandalism when vacant, critters, flood",
+  "Work the 80% replacement cost rule with real numbers",
+  "Recall the claim deadlines, where Michigan law differs, and the fraud rule"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "HO perils, exclusions and loss settlement",
-   "subtitle": "2011 ISO HO-3 (HO 00 03 05 11): what's covered, what's excluded, and how a claim is paid",
-   "icon": "shield",
-   "beats": [
+   "title": "The Millers' very bad Michigan January",
+   "subtitle": "HO-3 perils, exclusions and how a claim gets paid (2011 ISO HO-3, HO 00 03 05 11)",
+   "draw": [
     {
-     "text": "In this lesson: which losses the HO-3 pays, which it excludes, and how a claim gets settled, including the 80% replacement cost rule.",
-     "say": "In this lesson: which losses the H O three pays, which it excludes, and how a claim gets settled, including the eighty percent replacement cost rule."
+     "id": "house",
+     "p": "house",
+     "x": 32,
+     "y": 42,
+     "h": 36
     },
     {
-     "text": "Amounts and deadlines come from the 2011 forms. Where Michigan law changes a rule, you'll hear it.",
-     "say": "Amounts and deadlines come from the twenty eleven forms. Where Michigan law changes a rule, you'll hear it."
+     "p": "snow",
+     "x": 10,
+     "y": 12,
+     "h": 6,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 58,
+     "y": 8,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 84,
+     "y": 14,
+     "h": 4,
+     "loop": "spin"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 64,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "sam",
+      "mood": "happy",
+      "pose": "wave"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 78,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "jen",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "dog",
+     "x": 46,
+     "y": 64,
+     "h": 9,
+     "anim": "slide-l",
+     "cue": "test"
+    }
+   ],
+   "beats": [
+    {
+     "text": "It's January in Grand Rapids. Sam and Jen Miller insure their house with the 2011 HO-3, and winter is about to test it.",
+     "say": "It's January in Grand Rapids. Sam and Jen Miller insure their house with the twenty eleven H O three, and winter is about to test it."
     }
    ]
   },
   {
-   "type": "hook",
-   "title": "The 16 named perils: 10 basic plus 6 broad",
-   "src": "ISO HO 00 03 05 11, Sec. I Perils Insured Against B.1–16; HO 00 02 10 00; adapted from memory hook mn_prop-15",
-   "hook": "Six broad perils, one Michigan January: a falling limb, snow on the roof, a burst washer hose, a split water heater, frozen pipes and a power surge.",
-   "items": [
-    "Falling objects; weight of ice, snow or sleet",
-    "Accidental discharge or overflow of water or steam",
-    "Sudden and accidental tearing apart, cracking, burning or bulging; freezing",
-    "Sudden and accidental damage from artificially generated electrical current"
+   "type": "term",
+   "title": "Open perils vs named perils",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A–B; HO 00 02 10 00, Sec. I Perils",
+   "kind": "Term",
+   "term": "Open perils",
+   "plain": "Every cause of loss is covered unless the policy excludes it.",
+   "example": "The Millers' house is a party: every cause gets in unless it's on the banned list. Their couch and TV: only the 16 on the guest list.",
+   "exam": "HO-3: open perils on A and B (house, other structures), named perils on C. HO-2: the same 16 named perils on A, B and C.",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 22,
+     "y": 20,
+     "h": 26
+    },
+    {
+     "id": "shield",
+     "p": "shield",
+     "x": 58,
+     "y": 16,
+     "h": 16,
+     "at": 0,
+     "cue": "every",
+     "label": "Open perils",
+     "lsize": 4.2
+    },
+    {
+     "id": "sofa",
+     "p": "sofa",
+     "x": 14,
+     "y": 52,
+     "h": 10,
+     "at": 1,
+     "cue": "couch"
+    },
+    {
+     "id": "tv",
+     "p": "tv",
+     "x": 32,
+     "y": 51,
+     "h": 10,
+     "at": 1,
+     "cue": "TV"
+    },
+    {
+     "id": "list",
+     "p": "clipboard",
+     "x": 58,
+     "y": 47,
+     "h": 15,
+     "at": 1,
+     "cue": "list",
+     "label": "16 named perils",
+     "lsize": 4.2
+    }
    ],
    "beats": [
     {
-     "text": "HO-3 personal property, and everything under HO-2, gets 16 named perils. Ten are basic, like fire, windstorm, theft and vandalism. The other six feel like a Michigan January.",
-     "say": "H O three personal property, and everything under H O two, gets sixteen named perils. Ten are basic, like fire, windstorm, theft and vandalism. The other six feel like a Michigan January.",
-     "show": 0
+     "text": "The Millers' house has open perils coverage: every cause of loss is covered, unless the policy excludes it.",
+     "say": "The Millers' house has open perils coverage: every cause of loss is covered, unless the policy excludes it.",
+     "show": 2,
+     "hl": "shield"
     },
     {
-     "text": "A limb crashes through the roof: falling objects. Snow caves in the roof: weight of ice, snow or sleet. A washer hose bursts: accidental discharge of water.",
-     "say": "A limb crashes through the roof: falling objects. Snow caves in the roof: weight of ice, snow or sleet. A washer hose bursts: accidental discharge of water.",
-     "show": 2
+     "text": "Their couch and TV get only 16 named perils. Not on the list? Not covered.",
+     "say": "Their couch and T V get only sixteen named perils. Not on the list? Not covered.",
+     "show": 3,
+     "hl": "list"
     },
     {
-     "text": "A water heater splits: sudden and accidental tearing apart. Pipes freeze: freezing. And a power surge: artificially generated electrical current.",
-     "say": "A water heater splits: sudden and accidental tearing apart. Pipes freeze: freezing. And a power surge: artificially generated electrical current.",
+     "text": "On the exam: house open, belongings named.",
+     "say": "On the exam: house open, belongings named.",
      "show": 4
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Open perils, but not these (Coverages A and B)",
-   "src": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A.2",
-   "items": [
+   "type": "sketch",
+   "title": "The six broad perils: one Michigan week",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils B.1–16; HO 00 02 10 00; adapted from memory hook mn_prop-15",
+   "draw": [
     {
-     "label": "Vandalism after 60 days vacant",
-     "detail": "Vacant more than 60 consecutive days before the loss; under construction isn't vacant",
-     "icon": "triangle-alert"
+     "id": "tree",
+     "p": "tree",
+     "x": 16,
+     "y": 38,
+     "h": 38
     },
     {
-     "label": "Freezing without reasonable care",
-     "detail": "Covered only if heat was maintained, or the water shut off and drained",
-     "icon": "snowflake"
+     "id": "house",
+     "p": "house",
+     "x": 52,
+     "y": 40,
+     "h": 40
     },
     {
-     "label": "Wear and tear",
-     "detail": "Also settling, rust, pollutants; birds, rodents, insects; animals an insured owns",
-     "icon": "wrench"
+     "id": "sam",
+     "p": "person",
+     "x": 82,
+     "y": 50,
+     "h": 24,
+     "opt": {
+      "who": "sam",
+      "mood": "happy",
+      "pose": "cheer"
+     },
+     "out": 2
     },
     {
-     "label": "Exception: accidental discharge",
-     "detail": "Water escaping from plumbing or an appliance is covered, including tear-out",
-     "icon": "droplets"
+     "p": "bubble",
+     "text": "Bring it on!",
+     "x": 96,
+     "y": 18,
+     "w": 26,
+     "to": "sam",
+     "out": 2
+    },
+    {
+     "id": "sam2",
+     "p": "person",
+     "x": 82,
+     "y": 50,
+     "h": 24,
+     "opt": {
+      "who": "sam",
+      "mood": "shocked",
+      "pose": "shrug"
+     },
+     "at": 2,
+     "anim": "fade"
+    },
+    {
+     "id": "limb",
+     "p": "arrow",
+     "from": [
+      22,
+      21
+     ],
+     "to": [
+      40,
+      31
+     ],
+     "head": "none",
+     "bold": true,
+     "bend": 0.05,
+     "color": "brown",
+     "at": 2,
+     "cue": "crash"
+    },
+    {
+     "p": "crash",
+     "x": 34,
+     "y": 19,
+     "h": 13,
+     "opt": {
+      "text": "CRASH!"
+     },
+     "at": 2,
+     "cue": "crash",
+     "over": true,
+     "sfx": "crash"
+    },
+    {
+     "p": "label",
+     "text": "Mon: Falling objects",
+     "x": 20,
+     "y": 8,
+     "size": 3.6,
+     "at": 2,
+     "cue": "falling"
+    },
+    {
+     "p": "snow",
+     "x": 45,
+     "y": 28,
+     "h": 7,
+     "at": 2,
+     "cue": "snow",
+     "over": true
+    },
+    {
+     "p": "snow",
+     "x": 58,
+     "y": 28,
+     "h": 7,
+     "at": 2,
+     "cue": "snow",
+     "over": true
+    },
+    {
+     "p": "snow",
+     "x": 63,
+     "y": 25,
+     "h": 6,
+     "at": 2,
+     "cue": "snow",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Tue: Weight of ice, snow or sleet",
+     "x": 62,
+     "y": 7,
+     "size": 3.6,
+     "w": 40,
+     "at": 2,
+     "cue": "weight"
+    },
+    {
+     "id": "washer",
+     "p": "washer",
+     "x": 108,
+     "y": 20,
+     "h": 14,
+     "opt": {
+      "hose": true
+     },
+     "at": 3,
+     "cue": "washer",
+     "label": "Wed: Accidental discharge",
+     "lsize": 3.6,
+     "lw": 30
+    },
+    {
+     "id": "heater",
+     "p": "waterheater",
+     "x": 142,
+     "y": 21,
+     "h": 17,
+     "opt": {
+      "leak": true
+     },
+     "at": 3,
+     "cue": "heater",
+     "label": "Thu: Tearing apart",
+     "lsize": 3.6
+    },
+    {
+     "id": "pipe",
+     "p": "pipe",
+     "x": 108,
+     "y": 50,
+     "h": 9,
+     "opt": {
+      "frozen": true
+     },
+     "at": 4,
+     "cue": "freeze",
+     "label": "Fri: Freezing",
+     "lsize": 3.6
+    },
+    {
+     "id": "surge",
+     "p": "icon",
+     "name": "plug-zap",
+     "x": 142,
+     "y": 46,
+     "h": 13,
+     "color": "orange",
+     "at": 4,
+     "cue": "surge",
+     "loop": "pulse",
+     "sfx": "buzz"
+    },
+    {
+     "p": "label",
+     "text": "Sat: Electrical current",
+     "x": 142,
+     "y": 58,
+     "size": 3.6,
+     "at": 4,
+     "cue": "surge"
+    },
+    {
+     "p": "crash",
+     "x": 54,
+     "y": 16,
+     "h": 9,
+     "opt": {
+      "text": "CREAK!",
+      "color": "sky"
+     },
+     "at": 2,
+     "cue": "caves",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "16 named perils: 10 basic, 6 broad",
+     "x": 125,
+     "y": 6,
+     "size": 4,
+     "bold": true,
+     "at": 1,
+     "cue": "broad"
     }
    ],
    "beats": [
     {
-     "text": "HO-3 covers the dwelling for open perils, but it lists losses it won't pay. Vandalism isn't covered if the dwelling was vacant more than 60 consecutive days before the loss.",
-     "say": "H O three covers the dwelling for open perils, but it lists losses it won't pay. Vandalism isn't covered if the dwelling was vacant more than sixty consecutive days before the loss.",
-     "show": 1
+     "text": "Winter in Grand Rapids? Bring it on!",
+     "say": "Winter in Grand Rapids? Bring it on!",
+     "voice": "sam"
     },
     {
-     "text": "Freezing is covered only if you used reasonable care to maintain heat, or shut off the water and drained the system. Wear and tear, settling and pests aren't covered.",
-     "say": "Freezing is covered only if you used reasonable care to maintain heat, or shut off the water and drained the system. Wear and tear, settling and pests aren't covered.",
+     "text": "Those 16 named perils cover the Millers' stuff: 10 basic, like fire and windstorm, and 6 broad.",
+     "say": "Those sixteen named perils cover the Millers' stuff: ten basic, like fire and windstorm, and six broad."
+    },
+    {
+     "text": "Monday, crash! An icy limb falls through the roof: falling objects. Tuesday, heavy snow caves the roof in: weight of ice, snow or sleet.",
+     "say": "Monday, crash! An icy limb falls through the roof: falling objects. Tuesday, heavy snow caves the roof in: weight of ice, snow or sleet.",
+     "hl": "house"
+    },
+    {
+     "text": "Wednesday, the washer hose bursts: accidental discharge or overflow of water or steam. Thursday, the water heater splits: sudden and accidental tearing apart, cracking, burning or bulging.",
+     "say": "Wednesday, the washer hose bursts: accidental discharge or overflow of water or steam. Thursday, the water heater splits: sudden and accidental tearing apart, cracking, burning or bulging."
+    },
+    {
+     "text": "Friday, the pipes freeze: freezing. Saturday, a power surge: sudden and accidental damage from artificially generated electrical current. Some come with fine print.",
+     "say": "Friday, the pipes freeze: freezing. Saturday, a power surge: sudden and accidental damage from artificially generated electrical current. Some come with fine print."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "The Millers' call: what about the pipes?",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A.2 (freezing)",
+   "ask": "What should the Millers do?",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 26,
+     "y": 26,
+     "h": 34
+    },
+    {
+     "id": "furnace",
+     "p": "furnace",
+     "x": 56,
+     "y": 29,
+     "h": 22,
+     "opt": {
+      "off": true
+     }
+    },
+    {
+     "id": "thermo",
+     "p": "thermometer",
+     "x": 72,
+     "y": 28,
+     "h": 18,
+     "opt": {
+      "level": 0.12,
+      "color": "blue"
+     }
+    },
+    {
+     "p": "snow",
+     "x": 8,
+     "y": 7,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 48,
+     "y": 6,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 100,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "sam",
+      "pose": "hold",
+      "hold": "briefcase",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 122,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "jen",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Furnace off. Save money!",
+     "x": 82,
+     "y": 8,
+     "w": 30,
+     "to": "sam"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Later in January, the Millers fly to a wedding during a deep freeze. Sam wants the furnace off. What else should they do?",
+     "say": "Later in January, the Millers fly to a wedding during a deep freeze. Sam wants the furnace off. What else should they do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Nothing. Freezing is a named peril!",
+     "ok": false,
+     "fail": "Freezing is covered only with reasonable care: keep the heat on, or shut off the water and drain the system.",
+     "failAt": [
+      140,
+      46
+     ],
+     "beats": [
+      {
+       "text": "The pipes freeze and burst. No heat, no draining: the freezing damage isn't covered.",
+       "say": "The pipes freeze and burst. No heat, no draining: the freezing damage isn't covered."
+      }
+     ],
+     "draw": [
+      {
+       "p": "box",
+       "x": 46,
+       "y": 29,
+       "w": 64,
+       "hh": 42,
+       "title": "Kitchen"
+      },
+      {
+       "p": "fridge",
+       "x": 24,
+       "y": 31,
+       "h": 24,
+       "over": true
+      },
+      {
+       "id": "pipe",
+       "p": "pipe",
+       "x": 60,
+       "y": 20,
+       "h": 11,
+       "opt": {
+        "burst": true,
+        "frozen": true
+       },
+       "over": true
+      },
+      {
+       "p": "water",
+       "x": 50,
+       "y": 44,
+       "w": 56,
+       "over": true
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 104,
+       "y": 31,
+       "h": 30,
+       "opt": {
+        "who": "sam",
+        "mood": "shocked",
+        "pose": "shrug"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Our kitchen is a skating rink!",
+       "x": 100,
+       "y": 6,
+       "w": 30,
+       "to": "sam"
+      }
+     ]
+    },
+    {
+     "label": "Shut off the water, but leave the pipes full",
+     "ok": false,
+     "fail": "With the heat off, shutting off the water isn't enough: the system must be drained too.",
+     "failAt": [
+      140,
+      46
+     ],
+     "beats": [
+      {
+       "text": "Water left in the pipes freezes and bursts them. Not drained, so not covered.",
+       "say": "Water left in the pipes freezes and bursts them. Not drained, so not covered."
+      }
+     ],
+     "draw": [
+      {
+       "p": "box",
+       "x": 46,
+       "y": 29,
+       "w": 64,
+       "hh": 42,
+       "title": "Kitchen"
+      },
+      {
+       "p": "fridge",
+       "x": 24,
+       "y": 31,
+       "h": 24,
+       "over": true
+      },
+      {
+       "id": "pipe",
+       "p": "pipe",
+       "x": 60,
+       "y": 20,
+       "h": 11,
+       "opt": {
+        "burst": true,
+        "frozen": true
+       },
+       "over": true
+      },
+      {
+       "p": "water",
+       "x": 50,
+       "y": 44,
+       "w": 56,
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Water shut off, pipes still full",
+       "x": 54,
+       "y": 32,
+       "size": 3.8,
+       "w": 36,
+       "box": true,
+       "color": "blue"
+      },
+      {
+       "id": "jen",
+       "p": "person",
+       "x": 104,
+       "y": 31,
+       "h": 30,
+       "opt": {
+        "who": "jen",
+        "mood": "shocked",
+        "pose": "shrug"
+       }
+      }
+     ]
+    },
+    {
+     "label": "Shut off the water and drain the pipes",
+     "ok": true,
+     "win": "With the heat off, shutting off the water and draining the system is the reasonable care the policy asks for.",
+     "beats": [
+      {
+       "text": "Smart. No water in the pipes, nothing to freeze. That's reasonable care.",
+       "say": "Smart. No water in the pipes, nothing to freeze. That's reasonable care."
+      }
+     ],
+     "draw": [
+      {
+       "id": "house",
+       "p": "house",
+       "x": 24,
+       "y": 26,
+       "h": 32
+      },
+      {
+       "p": "furnace",
+       "x": 54,
+       "y": 29,
+       "h": 22,
+       "opt": {
+        "off": true
+       }
+      },
+      {
+       "id": "dry",
+       "p": "icon",
+       "name": "droplet-off",
+       "x": 82,
+       "y": 22,
+       "h": 14,
+       "color": "blue"
+      },
+      {
+       "p": "label",
+       "text": "Pipes drained",
+       "x": 82,
+       "y": 36,
+       "size": 4
+      },
+      {
+       "p": "stamp",
+       "text": "Reasonable care",
+       "x": 128,
+       "y": 22,
+       "size": 6,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "Heat off? Water off and drained",
+       "x": 128,
+       "y": 38,
+       "size": 4.2,
+       "w": 40,
+       "color": "green"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The rule: freezing needs reasonable care: heat on, or water shut off and drained.",
+     "say": "The rule: freezing needs reasonable care: heat on, or water shut off and drained."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Open perils on the house, but not for these",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A.2 (and its exception for accidental discharge)",
+   "draw": [
+    {
+     "id": "wear",
+     "p": "house",
+     "x": 22,
+     "y": 15,
+     "h": 18,
+     "at": 0,
+     "cue": "wear"
+    },
+    {
+     "p": "crack",
+     "x": 22,
+     "y": 27,
+     "h": 7,
+     "at": 0,
+     "cue": "settling",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Wear and tear, rust, settling, pollutants",
+     "x": 22,
+     "y": 37,
+     "size": 3.6,
+     "w": 34,
+     "color": "red",
+     "at": 0,
+     "cue": "wear"
+    },
+    {
+     "id": "bird",
+     "p": "bird",
+     "x": 60,
+     "y": 12,
+     "h": 7,
+     "opt": {
+      "fly": true
+     },
+     "at": 1,
+     "cue": "birds"
+    },
+    {
+     "id": "mouse",
+     "p": "mouse",
+     "x": 54,
+     "y": 25,
+     "h": 7,
+     "at": 1,
+     "cue": "rodents"
+    },
+    {
+     "id": "bug",
+     "p": "bug",
+     "x": 68,
+     "y": 23,
+     "h": 7,
+     "at": 1,
+     "cue": "insects"
+    },
+    {
+     "p": "label",
+     "text": "Birds, rodents and insects",
+     "x": 60,
+     "y": 36,
+     "size": 3.6,
+     "color": "red",
+     "at": 1,
+     "cue": "birds"
+    },
+    {
+     "id": "dog",
+     "p": "dog",
+     "x": 96,
+     "y": 21,
+     "h": 14,
+     "opt": {
+      "mood": "angry"
+     },
+     "at": 1,
+     "cue": "Biscuit",
+     "label": "Animals an insured owns",
+     "lsize": 3.6,
+     "lw": 30,
+     "lcolor": "red"
+    },
+    {
+     "p": "stamp",
+     "text": "Not covered",
+     "x": 60,
+     "y": 54,
+     "color": "red",
+     "at": 1,
+     "cue": "covered"
+    },
+    {
+     "p": "divider",
+     "x": 118,
+     "y": 33,
+     "y0": 4,
+     "y1": 62,
+     "at": 2
+    },
+    {
+     "id": "washer",
+     "p": "washer",
+     "x": 139,
+     "y": 22,
+     "h": 18,
+     "opt": {
+      "hose": true
+     },
+     "at": 2,
+     "cue": "water"
+    },
+    {
+     "p": "stamp",
+     "text": "Covered",
+     "x": 139,
+     "y": 42,
+     "color": "green",
+     "at": 2,
+     "cue": "covered"
+    },
+    {
+     "p": "label",
+     "text": "Water damage from plumbing or an appliance, plus tear-out",
+     "x": 139,
+     "y": 56,
+     "size": 3.6,
+     "w": 38,
+     "color": "green",
+     "at": 2,
+     "cue": "covered"
+    }
+   ],
+   "beats": [
+    {
+     "text": "The HO-3 also won't pay for wear and tear, rust, settling or pollutants.",
+     "say": "The H O three also won't pay for wear and tear, rust, settling or pollutants.",
+     "hl": "wear"
+    },
+    {
+     "text": "Or for critters: birds, rodents, insects, and animals an insured owns. The Millers' dog, Biscuit, chewed the back door? Not covered.",
+     "say": "Or for critters: birds, rodents, insects, and animals an insured owns. The Millers' dog, Biscuit, chewed the back door? Not covered.",
+     "hl": "dog"
+    },
+    {
+     "text": "The big exception: water that accidentally escapes from plumbing or an appliance is covered, including necessary tear-out.",
+     "say": "The big exception: water that accidentally escapes from plumbing or an appliance is covered, including necessary tear-out.",
+     "hl": "washer"
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Vacant: the 60-day rule",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A.2.c(4); confusion pair cp_personal-08",
+   "kind": "Term",
+   "term": "Vacant",
+   "plain": "Little or no furniture or belongings inside. The stuff is gone, not just the people.",
+   "example": "The Millers' neighbors moved to Traverse City and took everything. Their old Grand Rapids house sits empty while it's for sale.",
+   "exam": "No vandalism coverage on the house if it was vacant more than 60 consecutive days before the loss. Under construction isn't vacant.",
+   "draw": [
+    {
+     "id": "nh",
+     "p": "house",
+     "x": 30,
+     "y": 26,
+     "h": 30,
+     "opt": {
+      "roof": "blue"
+     }
+    },
+    {
+     "id": "sofa",
+     "p": "sofa",
+     "x": 64,
+     "y": 12,
+     "h": 9,
+     "at": 0,
+     "cue": "furniture"
+    },
+    {
+     "p": "xout",
+     "on": "sofa",
+     "at": 0,
+     "cue": "belongings"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 64,
+     "y": 32,
+     "h": 12,
+     "opt": {
+      "n": "60"
+     },
+     "at": 2,
+     "cue": "60"
+    },
+    {
+     "id": "truck",
+     "p": "truck",
+     "x": 28,
+     "y": 56,
+     "h": 11,
+     "at": 1,
+     "cue": "moved",
+     "anim": "slide-r",
+     "out": 3
+    },
+    {
+     "id": "sale",
+     "p": "sign",
+     "x": 64,
+     "y": 55,
+     "h": 16,
+     "opt": {
+      "text": "FOR SALE",
+      "tcolor": "red"
+     },
+     "at": 1,
+     "cue": "moved"
+    },
+    {
+     "p": "label",
+     "text": "Vacant over 60 days",
+     "x": 64,
+     "y": 41,
+     "size": 3.8,
+     "at": 2,
+     "cue": "60"
+    },
+    {
+     "p": "note",
+     "text": "Millers away, furniture home: unoccupied, not vacant",
+     "x": 28,
+     "y": 56,
+     "w": 38,
+     "at": 3,
+     "cue": "unoccupied"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Next door, a word the exam loves: vacant. It means little or no furniture or belongings inside.",
+     "say": "Next door, a word the exam loves: vacant. It means little or no furniture or belongings inside.",
+     "show": 2
+    },
+    {
+     "text": "The neighbors moved to Traverse City and took everything.",
+     "say": "The neighbors moved to Traverse City and took everything.",
      "show": 3
     },
     {
-     "text": "But water that accidentally escapes from plumbing or an appliance is covered, including necessary tear-out.",
-     "say": "But water that accidentally escapes from plumbing or an appliance is covered, including necessary tear-out.",
+     "text": "If a house was vacant more than 60 consecutive days before the loss, vandalism to the house isn't covered. A house under construction isn't vacant.",
+     "say": "If a house was vacant more than sixty consecutive days before the loss, vandalism to the house isn't covered. A house under construction isn't vacant.",
+     "show": 4,
+     "hl": "cal"
+    },
+    {
+     "text": "Watch out: the Millers at the wedding, furniture still home? That's unoccupied, not vacant.",
+     "say": "Watch out: the Millers at the wedding, furniture still home? That's unoccupied, not vacant.",
      "show": 4
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "An HO-3 dwelling has been vacant for 70 consecutive days when vandals break in and spray-paint the walls. Under the 2011 HO-3, the vandalism loss to the dwelling is:",
+   "q": "The neighbors' house, insured under the 2011 HO-3, has been vacant for 70 consecutive days. Then vandals spray-paint the walls. The vandalism loss to the house is:",
    "choices": [
     "Not covered",
     "Covered in full",
@@ -110,16 +992,78 @@
    ],
    "answer": 0,
    "why": "Coverages A and B exclude vandalism and malicious mischief if the dwelling was vacant more than 60 consecutive days before the loss.",
+   "draw": [
+    {
+     "id": "nh",
+     "p": "house",
+     "x": 28,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "roof": "blue"
+     }
+    },
+    {
+     "p": "label",
+     "text": "ZZAP!",
+     "x": 30,
+     "y": 38,
+     "size": 5,
+     "bold": true,
+     "color": "purple",
+     "rot": -8,
+     "over": true
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 64,
+     "y": 13,
+     "h": 13,
+     "opt": {
+      "n": "70"
+     }
+    },
+    {
+     "p": "label",
+     "text": "70 days vacant",
+     "x": 64,
+     "y": 24,
+     "size": 3.8
+    },
+    {
+     "id": "thief",
+     "p": "person",
+     "x": 64,
+     "y": 48,
+     "h": 26,
+     "flip": true,
+     "opt": {
+      "who": "thief",
+      "pose": "point",
+      "mood": "smirk"
+     }
+    },
+    {
+     "p": "icon",
+     "name": "spray-can",
+     "x": 52,
+     "y": 42,
+     "h": 8,
+     "color": "purple",
+     "over": true
+    }
+   ],
    "beats": [
     {
-     "text": "Quick check. A dwelling has been vacant 70 consecutive days when vandals spray-paint the walls. Is the vandalism covered? Pick an answer.",
-     "say": "Quick check. A dwelling has been vacant seventy consecutive days when vandals spray-paint the walls. Is the vandalism covered? Pick an answer."
+     "text": "Quick check: 70 days vacant, then vandals. Covered?",
+     "say": "Quick check: seventy days vacant, then vandals. Covered?"
     }
    ],
    "reveal": [
     {
-     "text": "Not covered. Seventy days is more than 60 consecutive days vacant, so vandalism to the dwelling is excluded.",
-     "say": "Not covered. Seventy days is more than sixty consecutive days vacant, so vandalism to the dwelling is excluded."
+     "text": "Not covered: 70 days is more than 60 consecutive days vacant.",
+     "say": "Not covered: seventy days is more than sixty consecutive days vacant."
     }
    ]
   },
@@ -127,241 +1071,1106 @@
    "type": "hook",
    "title": "The nine Section I exclusions",
    "src": "ISO HO 00 03 05 11, Sec. I Exclusions A.1–9; adapted from memory hook mn_prop-22",
-   "hook": "Old Ernie's Wet Pontoon Never Went North In Grayling: the nine Section I exclusions.",
+   "hook": "Old Ernie's Wet Pontoon Never Went North In Grayling.",
    "items": [
-    "Ordinance or law, Earth movement, Water",
-    "Power failure off premises, Neglect, War",
-    "Nuclear hazard, Intentional loss, Governmental action",
+    "Ordinance or law; Earth movement (like an earthquake or sinkhole); Water",
+    "Power failure off premises; Neglect (not protecting property at and after a loss); War",
+    "Nuclear hazard; Intentional loss (an insured meant it); Governmental action (seizure, destruction)",
     "Water: flood, surface water, sewer or drain backup, sump overflow, subsurface water"
    ],
+   "draw": [
+    {
+     "id": "mi",
+     "p": "michigan",
+     "x": 58,
+     "y": 25,
+     "h": 34,
+     "opt": {
+      "pin": [
+       -84.716,
+       44.661
+      ],
+      "pinLabel": "Grayling"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Old Ernie",
+     "x": 20,
+     "y": 21,
+     "size": 3.8
+    },
+    {
+     "id": "ernie",
+     "p": "person",
+     "x": 20,
+     "y": 37,
+     "h": 24,
+     "over": true,
+     "opt": {
+      "who": "person",
+      "beard": true,
+      "mustache": true,
+      "hairColor": "gray",
+      "hat": "cap",
+      "hatColor": "green",
+      "pose": "wave"
+     }
+    },
+    {
+     "id": "boat",
+     "p": "boat",
+     "x": 22,
+     "y": 54,
+     "w": 32,
+     "opt": {
+      "color": "teal"
+     }
+    },
+    {
+     "p": "arrow",
+     "from": "boat",
+     "to": [
+      59,
+      25
+     ],
+     "dash": true,
+     "label": "never went north",
+     "bend": -0.2
+    }
+   ],
    "beats": [
     {
-     "text": "Now the property exclusions. One Michigan sentence holds all nine: Old Ernie's Wet Pontoon Never Went North In Grayling.",
-     "say": "Now the property exclusions. One Michigan sentence holds all nine: Old Ernie's Wet Pontoon Never Went North In Grayling.",
+     "text": "One Michigan sentence holds all nine Section I exclusions: Old Ernie's Wet Pontoon Never Went North In Grayling.",
+     "say": "One Michigan sentence holds all nine Section one exclusions: Old Ernie's Wet Pontoon Never Went North In Grayling.",
      "show": 0
     },
     {
-     "text": "Ordinance or law, earth movement, water. Power failure off premises, neglect, war. Nuclear hazard, intentional loss, governmental action.",
-     "say": "Ordinance or law, earth movement, water. Power failure off premises, neglect, war. Nuclear hazard, intentional loss, governmental action.",
+     "text": "Ordinance or law, earth movement like an earthquake, water. Power failure off premises, neglect, war. Nuclear hazard, intentional loss, governmental action.",
+     "say": "Ordinance or law, earth movement like an earthquake, water. Power failure off premises, neglect, war. Nuclear hazard, intentional loss, governmental action.",
      "show": 3
     },
     {
-     "text": "The water exclusion includes flood, surface water, backup through sewers or drains, sump overflow and subsurface water. These exclusions apply no matter what other cause contributes.",
-     "say": "The water exclusion includes flood, surface water, backup through sewers or drains, sump overflow and subsurface water. These exclusions apply no matter what other cause contributes.",
+     "text": "Water includes flood, sewer or drain backup, and sump overflow.",
+     "say": "Water includes flood, sewer or drain backup, and sump overflow.",
+     "show": 4
+    },
+    {
+     "text": "And all nine apply no matter what other cause contributes.",
+     "say": "And all nine apply no matter what other cause contributes.",
      "show": 4
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "Which water loss to an HO-3 dwelling is covered under the 2011 form?",
-   "choices": [
-    "Water backing up through a basement floor drain",
-    "A washing machine hose bursts and soaks the laundry room",
-    "A river overflows and floods the basement"
+   "type": "sort",
+   "title": "Which water is covered?",
+   "src": "ISO HO 00 03 05 11, Sec. I Perils A.2 exception; Sec. I Exclusions A.3 Water; question prop-048",
+   "bins": [
+    {
+     "name": "Covered"
+    },
+    {
+     "name": "Excluded"
+    }
    ],
-   "answer": 1,
-   "why": "Accidental discharge from a household appliance is covered, including tear-out. Sewer or drain backup and flood fall under the Water exclusion.",
+   "items": [
+    {
+     "text": "The washer hose bursts and soaks the laundry room",
+     "bin": 0,
+     "why": "Accidental discharge from an appliance: the water damage is covered (not the hose itself)."
+    },
+    {
+     "text": "The Grand River floods the basement",
+     "bin": 1,
+     "why": "Flood is part of the Water exclusion."
+    },
+    {
+     "text": "A pipe in the wall bursts and soaks the drywall",
+     "bin": 0,
+     "why": "Accidental discharge from plumbing: the water damage is covered, plus necessary tear-out."
+    },
+    {
+     "text": "Sewage backs up through the floor drain",
+     "bin": 1,
+     "why": "Sewer or drain backup is part of the Water exclusion."
+    },
+    {
+     "text": "Heat on, but a frozen pipe bursts and soaks the floor",
+     "bin": 0,
+     "why": "Heat was maintained, so the freezing damage is covered."
+    },
+    {
+     "text": "The sump overflows into the basement",
+     "bin": 1,
+     "why": "Sump overflow is part of the Water exclusion."
+    }
+   ],
    "beats": [
     {
-     "text": "Here's a classic trap. Which of these water losses does the HO-3 cover? Pick an answer.",
-     "say": "Here's a classic trap. Which of these water losses does the H O three cover? Pick an answer."
+     "text": "Your turn, a classic exam trap: covered, or excluded?",
+     "say": "Your turn, a classic exam trap: covered, or excluded?"
     }
    ],
    "reveal": [
     {
-     "text": "The burst washer hose. That's accidental discharge from an appliance. Drain backup and flood are both in the water exclusion.",
-     "say": "The burst washer hose. That's accidental discharge from an appliance. Drain backup and flood are both in the water exclusion."
+     "text": "Water damage from plumbing or an appliance is covered.",
+     "say": "Water damage from plumbing or an appliance is covered."
+    },
+    {
+     "text": "Flood, drain backup and sump overflow are excluded.",
+     "say": "Flood, drain backup and sump overflow are excluded."
     }
    ]
   },
   {
-   "type": "formula",
-   "title": "The 80% replacement cost rule, worked",
-   "src": "ISO HO 00 03 05 11, Sec. I Cond. D.2.a–b; memory hook mn_prop-21",
-   "given": [
-    "Replacement cost of the home: $250,000",
-    "Coverage A limit carried: $150,000",
-    "Loss: $20,000 to repair; ACV of the damage $12,000",
-    "Deductible: ignored in this example"
-   ],
-   "items": [
+   "type": "slider",
+   "title": "The 80% rule: paying for Sam's roof",
+   "src": "ISO HO 00 03 05 11, Sec. I Cond. D.2.a–b, d; memory hook mn_prop-21; ACV: confusion pair cp_personal-05",
+   "calc": "horc",
+   "params": {
+    "rc": 250000,
+    "loss": 20000,
+    "acv": 12000
+   },
+   "var": {
+    "key": "limit",
+    "label": "Sam's Coverage A limit",
+    "min": 100000,
+    "max": 250000,
+    "step": 10000,
+    "start": 150000,
+    "money": true
+   },
+   "draw": [
     {
-     "label": "Should carry: 80% of replacement cost",
-     "expr": "80% × $250,000",
-     "value": "$200,000"
+     "id": "adj",
+     "p": "person",
+     "x": 62,
+     "y": 44,
+     "h": 26,
+     "opt": {
+      "who": "adjuster",
+      "pose": "hold",
+      "hold": "clipboard"
+     }
     },
     {
-     "label": "Did carry ÷ should carry",
-     "expr": "$150,000 ÷ $200,000",
-     "value": "0.75"
+     "id": "roof",
+     "p": "note",
+     "text": "Roof repair: $20,000. Roof ACV: $12,000",
+     "x": 58,
+     "y": 11,
+     "w": 31,
+     "at": 1,
+     "cue": "ACV"
     },
     {
-     "label": "Proportional amount",
-     "expr": "0.75 × $20,000",
-     "value": "$15,000"
+     "id": "house",
+     "p": "house",
+     "x": 19,
+     "y": 15,
+     "h": 21
     },
     {
-     "label": "Pay the greater: ACV or proportional",
-     "expr": "$12,000 vs $15,000",
-     "value": "$15,000"
+     "p": "arrow",
+     "from": [
+      5,
+      5
+     ],
+     "to": [
+      20,
+      10
+     ],
+     "head": "none",
+     "bold": true,
+     "color": "brown",
+     "bend": 0.05,
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Rebuild: $250,000",
+     "x": 19,
+     "y": 30,
+     "size": 3.8,
+     "at": 3,
+     "cue": "Rebuilding"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 22,
+     "y": 48,
+     "h": 24,
+     "opt": {
+      "who": "sam",
+      "mood": "worried"
+     }
     }
    ],
    "beats": [
     {
-     "text": "Now loss settlement. Insure the home to at least 80% of full replacement cost, and building losses are paid at replacement cost, with no depreciation.",
-     "say": "Now loss settlement. Insure the home to at least eighty percent of full replacement cost, and building losses are paid at replacement cost, with no depreciation.",
-     "show": 0
+     "text": "The adjuster comes. Insure to at least 80% of replacement cost, and house losses are paid at replacement cost, no depreciation.",
+     "say": "The adjuster comes. Insure to at least eighty percent of replacement cost, and house losses are paid at replacement cost, no depreciation."
     },
     {
-     "text": "Fall short, and you get the greater of actual cash value, or what you did carry divided by what you should carry, times the repair cost.",
-     "say": "Fall short, and you get the greater of actual cash value, or what you did carry divided by what you should carry, times the repair cost.",
-     "show": 0
+     "text": "Fall short, and you get the greater of two amounts. One is actual cash value, or ACV: usually new cost minus depreciation.",
+     "say": "Fall short, and you get the greater of two amounts. One is actual cash value, or A C V: usually new cost minus depreciation."
     },
     {
-     "text": "Let's work it. Replacement cost is $250,000, so you should carry 80%: $200,000. This owner carries $150,000.",
-     "say": "Let's work it. Replacement cost is two hundred fifty thousand dollars, so you should carry eighty percent: two hundred thousand dollars. This owner carries one hundred fifty thousand dollars.",
-     "show": 1
+     "text": "The other is did over should: what you did carry, over what you should carry, times the repair cost.",
+     "say": "The other is did over should: what you did carry, over what you should carry, times the repair cost."
     },
     {
-     "text": "$150,000 divided by $200,000 is 0.75. Times the repair cost of $20,000, that's $15,000.",
-     "say": "One hundred fifty thousand dollars divided by two hundred thousand dollars is zero point seven five. Times the repair cost of twenty thousand dollars, that's fifteen thousand dollars.",
-     "show": 3
+     "text": "Rebuilding costs $250,000, so Sam should carry 80% of that: $200,000. He carries $150,000.",
+     "say": "Rebuilding costs two hundred fifty thousand dollars, so Sam should carry eighty percent of that: two hundred thousand dollars. He carries one hundred fifty thousand dollars."
     },
     {
-     "text": "Compare with the actual cash value of $12,000. The greater amount wins, so the insurer pays $15,000 once repairs are done.",
-     "say": "Compare with the actual cash value of twelve thousand dollars. The greater amount wins, so the insurer pays fifteen thousand dollars once repairs are done.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "A home with a $300,000 replacement cost is insured for $240,000. A covered loss costs $30,000 to repair; its ACV is $21,000. After repairs, ignoring the deductible, the 2011 HO-3 pays:",
-   "choices": [
-    "$21,000",
-    "$24,000",
-    "$30,000"
-   ],
-   "answer": 2,
-   "why": "$240,000 is exactly 80% of $300,000, so the 80% test is met and the loss is paid at replacement cost: the full $30,000.",
-   "beats": [
+     "text": "Did over should is three quarters. The repair costs $20,000, so he gets $15,000 once it's fixed. That beats the ACV, $12,000.",
+     "say": "Did over should is three quarters. The repair costs twenty thousand dollars, so he gets fifteen thousand dollars once it's fixed. That beats the A C V, twelve thousand dollars."
+    },
     {
-     "text": "Your turn. Replacement cost is $300,000, and the home is insured for $240,000. Repairs cost $30,000, and the actual cash value of the damage is $21,000. What's paid after repairs? Pick an answer.",
-     "say": "Your turn. Replacement cost is three hundred thousand dollars, and the home is insured for two hundred forty thousand dollars. Repairs cost thirty thousand dollars, and the actual cash value of the damage is twenty one thousand dollars. What's paid after repairs? Pick an answer."
+     "text": "Ignore the deductible here. Your turn: slide to the smallest limit that pays all $20,000.",
+     "say": "Ignore the deductible here. Your turn: slide to the smallest limit that pays all twenty thousand dollars."
     }
    ],
    "reveal": [
     {
-     "text": "$30,000. 80% of $300,000 is $240,000, so this home meets the test, and the full repair cost is paid. Don't multiply the loss by 80%.",
-     "say": "Thirty thousand dollars. Eighty percent of three hundred thousand dollars is two hundred forty thousand dollars, so this home meets the test, and the full repair cost is paid. Don't multiply the loss by eighty percent."
+     "text": "$200,000: exactly 80%. Meet the test, and the whole repair is paid, not 80% of it.",
+     "say": "Two hundred thousand dollars: exactly eighty percent. Meet the test, and the whole repair is paid, not eighty percent of it."
     }
    ]
   },
   {
-   "type": "table",
-   "title": "The claim clock (2011 HO-3, and Michigan)",
-   "src": "ISO HO 00 03 05 11, Sec. I Cond. C.8, D.2.d–e, H, I, J; MCL 500.2833(1)(p)–(q)",
-   "columns": [
-    "Rule",
-    "Detail"
-   ],
-   "items": [
-    [
-     "Small-loss shortcut",
-     "RC early if under 5% and under $2,500"
-    ],
-    [
-     "Claim RC after taking ACV",
-     "Notice within 180 days after the loss"
-    ],
-    [
-     "Sworn proof of loss",
-     "Within 60 days after insurer's request"
-    ],
-    [
-     "Insurer's option to repair",
-     "Notice within 30 days after proof"
-    ],
-    [
-     "Loss payment",
-     "Form: 60 days. Michigan law: 30 days"
-    ],
-    [
-     "Suit against the insurer",
-     "Form: 2 years. Michigan tolls the time"
-    ]
+   "type": "choice",
+   "title": "Sam's call: take the ACV now?",
+   "src": "ISO HO 00 03 05 11, Sec. I Cond. D.2.d–e",
+   "ask": "What should Sam do?",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 28,
+     "y": 24,
+     "h": 32
+    },
+    {
+     "p": "arrow",
+     "from": [
+      14,
+      10
+     ],
+     "to": [
+      33,
+      18
+     ],
+     "head": "none",
+     "bold": true,
+     "color": "brown",
+     "bend": 0.05,
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Roof not fixed yet",
+     "x": 28,
+     "y": 47,
+     "size": 4.5,
+     "color": "red"
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 70,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "sam",
+      "pose": "think",
+      "mood": "neutral"
+     }
+    },
+    {
+     "id": "adj",
+     "p": "person",
+     "x": 98,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "adjuster",
+      "pose": "hold",
+      "hold": "money"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "ACV today: $12,000. The rest? Tell us within 180 days.",
+     "x": 132,
+     "y": 8,
+     "w": 46,
+     "to": "adj"
+    }
    ],
    "beats": [
     {
-     "text": "Until repairs are done, you get only actual cash value, unless the loss is under 5% of the insurance and under $2,500. You can take actual cash value now and claim the rest by giving notice within 180 days.",
-     "say": "Until repairs are done, you get only actual cash value, unless the loss is under five percent of the insurance and under two thousand five hundred dollars. You can take actual cash value now and claim the rest by giving notice within one hundred eighty days.",
-     "show": 2
+     "text": "ACV today: $12,000. For the rest, tell us within 180 days of the loss that you'll repair.",
+     "say": "A C V today: twelve thousand dollars. For the rest, tell us within one hundred eighty days of the loss that you'll repair.",
+     "voice": "adjuster"
     },
     {
-     "text": "Send a sworn proof of loss within 60 days after the insurer asks. The insurer may choose to repair or replace by giving notice within 30 days after your proof.",
-     "say": "Send a sworn proof of loss within sixty days after the insurer asks. The insurer may choose to repair or replace by giving notice within thirty days after your proof.",
-     "show": 4
+     "text": "What should Sam do?",
+     "say": "What should Sam do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Demand the full $15,000 before any repairs",
+     "ok": false,
+     "fail": "Until repairs are done, only ACV is paid, unless the loss is under 5% of the insurance and under $2,500. $20,000 isn't.",
+     "beats": [
+      {
+       "text": "The insurer says no. Before repairs, it pays only ACV.",
+       "say": "The insurer says no. Before repairs, it pays only A C V."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 34,
+       "y": 23,
+       "h": 32
+      },
+      {
+       "p": "stamp",
+       "text": "ACV only",
+       "x": 34,
+       "y": 48,
+       "size": 7,
+       "color": "red"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 98,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "stop",
+        "mood": "angry"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Pay me $15,000 now!",
+       "x": 72,
+       "y": 8,
+       "w": 34,
+       "to": "sam"
+      }
+     ]
     },
     {
-     "text": "The unendorsed form allows 60 days, but Michigan law requires payment within 30 days after proof of the amount of loss. Suit is due within 2 years, and Michigan tolls that time from notice of loss until formal denial.",
-     "say": "The unendorsed form allows sixty days, but Michigan law requires payment within thirty days after proof of the amount of loss. Suit is due within two years, and Michigan tolls that time from notice of loss until formal denial.",
-     "show": 6
+     "label": "Take $12,000; next month, say he'll repair",
+     "ok": true,
+     "win": "Take the ACV now, then claim the rest: give notice within 180 days after the loss that you'll repair.",
+     "beats": [
+      {
+       "text": "Smart. Sam takes $12,000 now and collects the rest after repairs.",
+       "say": "Smart. Sam takes twelve thousand dollars now and collects the rest after repairs."
+      }
+     ],
+     "draw": [
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 24,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "hold",
+        "hold": "money",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 70,
+       "y": 20,
+       "h": 18,
+       "opt": {
+        "n": "180"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Notice within 180 days",
+       "x": 70,
+       "y": 36,
+       "size": 4
+      },
+      {
+       "p": "check",
+       "x": 84,
+       "y": 10,
+       "h": 9
+      },
+      {
+       "id": "house",
+       "p": "house",
+       "x": 124,
+       "y": 23,
+       "h": 30
+      },
+      {
+       "p": "hammer",
+       "x": 148,
+       "y": 38,
+       "h": 11
+      },
+      {
+       "p": "arrow",
+       "from": "cal",
+       "to": "house",
+       "label": "then the rest",
+       "bend": 0.15
+      },
+      {
+       "p": "label",
+       "text": "Rest paid after repairs",
+       "x": 124,
+       "y": 47,
+       "size": 4.5,
+       "color": "green"
+      }
+     ]
+    },
+    {
+     "label": "Take $12,000; bring up repairs a year later",
+     "ok": false,
+     "fail": "To claim the rest after taking ACV, Sam must give notice within 180 days after the loss.",
+     "beats": [
+      {
+       "text": "Too late: he missed the 180-day window.",
+       "say": "Too late: he missed the one hundred eighty day window."
+      },
+      {
+       "text": "There was a deadline?",
+       "say": "There was a deadline?",
+       "voice": "sam"
+      }
+     ],
+     "draw": [
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 30,
+       "y": 20,
+       "h": 20,
+       "opt": {
+        "n": "1 yr"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Too late",
+       "x": 56,
+       "y": 24,
+       "rot": -12,
+       "color": "red"
+      },
+      {
+       "p": "label",
+       "text": "Notice came a year later",
+       "x": 42,
+       "y": 38,
+       "size": 4.5,
+       "color": "red"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 106,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "sad",
+        "mood": "sad"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "There was a deadline?",
+       "x": 80,
+       "y": 8,
+       "w": 32,
+       "to": "sam",
+       "at": 1
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Under the 2011 form, until repairs are done, you get only ACV, unless the loss is under 5% of the insurance and under $2,500.",
+     "say": "Under the twenty eleven form, until repairs are done, you get only A C V, unless the loss is under five percent of the insurance and under two thousand five hundred dollars."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Two more conditions the exam likes",
-   "src": "ISO HO 00 03 05 11, Sec. I Cond. B and R, Sec. II Cond. J; MCL 500.2833(2) case law (Wilson, E.D. Mich. 2019)",
-   "items": [
+   "type": "sketch",
+   "title": "The claim clock, and one deductible rule",
+   "src": "ISO HO 00 03 05 11, Sec. I Cond. B, C.8, H, I, J; MCL 500.2833(1)(p)–(q)",
+   "draw": [
     {
-     "label": "Concealment or fraud",
-     "detail": "Section I: no insured is covered. Section II: only the insured involved",
-     "icon": "eye"
+     "id": "c60",
+     "p": "calendar",
+     "x": 20,
+     "y": 17,
+     "h": 14,
+     "opt": {
+      "n": "60"
+     },
+     "at": 0,
+     "cue": "proof"
     },
     {
-     "label": "Michigan: innocent co-insured",
-     "detail": "Still covered for a fire loss (see the next lesson)",
-     "icon": "map-pin"
+     "p": "label",
+     "text": "Proof of loss: 60 days after they ask",
+     "x": 20,
+     "y": 31,
+     "size": 3.5,
+     "w": 34,
+     "at": 0,
+     "cue": "proof"
     },
     {
-     "label": "Two deductibles apply",
-     "detail": "Only the highest one applies",
-     "icon": "receipt"
+     "id": "c30a",
+     "p": "calendar",
+     "x": 60,
+     "y": 17,
+     "h": 14,
+     "opt": {
+      "n": "30"
+     },
+     "at": 0,
+     "cue": "repair"
+    },
+    {
+     "p": "label",
+     "text": "Insurer: 30 days to choose repair or replace",
+     "x": 60,
+     "y": 31,
+     "size": 3.5,
+     "w": 34,
+     "at": 0,
+     "cue": "repair"
+    },
+    {
+     "id": "c30b",
+     "p": "calendar",
+     "x": 100,
+     "y": 17,
+     "h": 14,
+     "opt": {
+      "n": "30"
+     },
+     "at": 1,
+     "cue": "Michigan"
+    },
+    {
+     "p": "label",
+     "text": "Michigan: pay within 30 days of proof (form: 60)",
+     "x": 100,
+     "y": 31,
+     "size": 3.5,
+     "w": 34,
+     "at": 1,
+     "cue": "Michigan"
+    },
+    {
+     "id": "c2y",
+     "p": "calendar",
+     "x": 140,
+     "y": 17,
+     "h": 14,
+     "opt": {
+      "n": "2 yr"
+     },
+     "at": 2,
+     "cue": "Suit"
+    },
+    {
+     "p": "label",
+     "text": "Suit: 2 years (form). Michigan pauses it, notice to denial",
+     "x": 140,
+     "y": 31,
+     "size": 3.5,
+     "w": 34,
+     "at": 2,
+     "cue": "Suit"
+    },
+    {
+     "p": "hourglass",
+     "x": 153,
+     "y": 12,
+     "h": 11,
+     "opt": {
+      "sand": 0.5
+     },
+     "at": 2,
+     "cue": "pauses"
+    },
+    {
+     "p": "line",
+     "from": [
+      8,
+      41
+     ],
+     "to": [
+      152,
+      41
+     ],
+     "dash": true,
+     "color": "gray",
+     "at": 3
+    },
+    {
+     "id": "d1",
+     "p": "coins",
+     "x": 40,
+     "y": 54,
+     "h": 8,
+     "at": 3,
+     "cue": "deductible",
+     "label": "Deductible",
+     "lsize": 3.6
+    },
+    {
+     "id": "d2",
+     "p": "coins",
+     "x": 70,
+     "y": 52,
+     "h": 13,
+     "at": 3,
+     "cue": "deductible",
+     "label": "Higher deductible",
+     "lsize": 3.6
+    },
+    {
+     "p": "ring",
+     "on": "d2",
+     "at": 3,
+     "cue": "highest",
+     "pad": 3.2
+    },
+    {
+     "p": "label",
+     "text": "Two deductibles? Only the highest applies",
+     "x": 120,
+     "y": 53,
+     "size": 4,
+     "w": 44,
+     "bold": true,
+     "at": 3,
+     "cue": "highest"
     }
    ],
    "beats": [
     {
-     "text": "If any insured intentionally conceals or misrepresents a material fact, property coverage is lost for every insured. Liability coverage is lost only for the insured involved.",
-     "say": "If any insured intentionally conceals or misrepresents a material fact, property coverage is lost for every insured. Liability coverage is lost only for the insured involved.",
-     "show": 1
+     "text": "Sam sends a sworn proof of loss within 60 days after the insurer asks. The insurer then has 30 days to choose to repair or replace.",
+     "say": "Sam sends a sworn proof of loss within sixty days after the insurer asks. The insurer then has thirty days to choose to repair or replace.",
+     "hl": "c60"
     },
     {
-     "text": "In Michigan, though, courts require coverage for an innocent co-insured's fire loss. And if two deductibles apply to one loss, only the highest applies.",
-     "say": "In Michigan, though, courts require coverage for an innocent co-insured's fire loss. And if two deductibles apply to one loss, only the highest applies.",
-     "show": 3
+     "text": "Payment: the 2011 form says 60 days, but Michigan law says 30 days after proof of the amount of loss.",
+     "say": "Payment: the twenty eleven form says sixty days, but Michigan law says thirty days after proof of the amount of loss.",
+     "hl": "c30b"
+    },
+    {
+     "text": "Suit: 2 years under the 2011 form, longer than Michigan's 1-year minimum, so it stands. Michigan tolls, or pauses, that clock from notice of loss until formal denial.",
+     "say": "Suit: two years under the twenty eleven form, longer than Michigan's one-year minimum, so it stands. Michigan tolls, or pauses, that clock from notice of loss until formal denial.",
+     "hl": "c2y"
+    },
+    {
+     "text": "One deductible rule: if two apply to one loss, only the highest applies.",
+     "say": "One deductible rule: if two apply to one loss, only the highest applies."
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Which clock?",
+   "src": "ISO HO 00 03 05 11, Sec. I Cond. C.8, H, I, J; MCL 500.2833(1)(p)–(q)",
+   "bins": [
+    {
+     "name": "60 days"
+    },
+    {
+     "name": "30 days"
+    },
+    {
+     "name": "2 years"
+    }
+   ],
+   "items": [
+    {
+     "text": "Sam sends his sworn proof of loss, after they ask",
+     "bin": 0,
+     "why": "Sworn proof of loss (a signed, sworn statement of the loss): within 60 days after the insurer's request."
+    },
+    {
+     "text": "The insurer says it will repair or replace",
+     "bin": 1,
+     "why": "Our Option: written notice within 30 days after the sworn proof of loss."
+    },
+    {
+     "text": "Loss payment under the unendorsed 2011 form",
+     "bin": 0,
+     "why": "The form: 60 days after proof of loss plus an agreement, judgment or appraisal award."
+    },
+    {
+     "text": "In Michigan: payment after proof of the amount of loss",
+     "bin": 1,
+     "why": "Michigan law: payment within 30 days after proof of the amount of loss."
+    },
+    {
+     "text": "Sam sues the insurer over the claim",
+     "bin": 2,
+     "why": "Suit: within 2 years after the loss under the 2011 form. Michigan tolls it from notice of loss until formal denial."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: which clock?",
+     "say": "Your turn: which clock?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Proof of loss and the form's payment: 60 days. The insurer's notice to repair or replace, and Michigan payment: 30. Suit: 2 years.",
+     "say": "Proof of loss and the form's payment: sixty days. The insurer's notice to repair or replace, and Michigan payment: thirty. Suit: two years."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Sam's call: the couch the snow missed",
+   "src": "ISO HO 00 03 05 11, Sec. I Cond. R, Sec. II Cond. J; MCL 500.2833(2) case law (Wilson, E.D. Mich. 2019)",
+   "ask": "What should Sam do?",
+   "draw": [
+    {
+     "p": "box",
+     "x": 38,
+     "y": 30,
+     "w": 68,
+     "hh": 44,
+     "title": "Living room"
+    },
+    {
+     "id": "sofa",
+     "p": "sofa",
+     "x": 20,
+     "y": 43,
+     "h": 13,
+     "over": true
+    },
+    {
+     "p": "arrow",
+     "from": [
+      63,
+      9
+     ],
+     "to": [
+      50,
+      50
+     ],
+     "head": "none",
+     "bold": true,
+     "color": "brown",
+     "bend": -0.04,
+     "over": true
+    },
+    {
+     "p": "crash",
+     "x": 66,
+     "y": 18,
+     "h": 9,
+     "opt": {
+      "text": "CREAK!",
+      "color": "sky"
+     },
+     "over": true
+    },
+    {
+     "p": "snow",
+     "x": 56,
+     "y": 47,
+     "h": 5,
+     "over": true
+    },
+    {
+     "p": "snow",
+     "x": 45,
+     "y": 46,
+     "h": 5,
+     "over": true
+    },
+    {
+     "p": "snow",
+     "x": 63,
+     "y": 44,
+     "h": 4,
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Missed it!",
+     "x": 20,
+     "y": 31,
+     "size": 4.5,
+     "color": "green",
+     "over": true
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 86,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "sam",
+      "pose": "think",
+      "mood": "smirk"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Say the snow crushed it?",
+     "x": 112,
+     "y": 8,
+     "w": 32,
+     "to": "sam",
+     "think": true
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 140,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "who": "jen",
+      "mood": "neutral"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tuesday's cave-in missed the old couch. But Sam could claim the snow crushed it. What should he do?",
+     "say": "Tuesday's cave-in missed the old couch. But Sam could claim the snow crushed it. What should he do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Claim it. Only Sam would be on the hook",
+     "ok": false,
+     "fail": "Concealment or Fraud: if any insured lies about or hides a material fact, no insured gets Section I coverage, honest Jen included.",
+     "beats": [
+      {
+       "text": "Busted. Now no insured gets Section I coverage, not even Jen.",
+       "say": "Busted. Now no insured gets Section one coverage, not even Jen."
+      }
+     ],
+     "draw": [
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 28,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "mood": "shocked",
+        "pose": "shrug"
+       }
+      },
+      {
+       "id": "jen",
+       "p": "person",
+       "x": 52,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "jen",
+        "mood": "angry"
+       }
+      },
+      {
+       "p": "label",
+       "text": "SECTION I",
+       "x": 96,
+       "y": 10,
+       "size": 6,
+       "bold": true
+      },
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 96,
+       "y": 28,
+       "h": 24
+      },
+      {
+       "p": "xout",
+       "on": "pol"
+      },
+      {
+       "p": "label",
+       "text": "Property coverage: no insured, not Sam, not Jen",
+       "x": 96,
+       "y": 48,
+       "size": 4.2,
+       "w": 46
+      }
+     ]
+    },
+    {
+     "label": "Report only what really broke",
+     "ok": true,
+     "win": "Honest claim, no trouble. One insured's fraud would have cost every insured their Section I coverage.",
+     "beats": [
+      {
+       "text": "Good call. The roof claim stays on track, and Jen stays covered too.",
+       "say": "Good call. The roof claim stays on track, and Jen stays covered too."
+      }
+     ],
+     "draw": [
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 30,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "mood": "happy",
+        "pose": "cheer"
+       }
+      },
+      {
+       "id": "jen",
+       "p": "person",
+       "x": 54,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "jen",
+        "mood": "happy",
+        "pose": "cheer"
+       }
+      },
+      {
+       "id": "house",
+       "p": "house",
+       "x": 92,
+       "y": 27,
+       "h": 28
+      },
+      {
+       "p": "stamp",
+       "text": "Roof claim paid",
+       "x": 134,
+       "y": 27,
+       "size": 5.5,
+       "color": "green"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "One insured's lie costs every insured their Section I property coverage. Under Section II, liability, only the insured involved loses it.",
+     "say": "One insured's lie costs every insured their Section one property coverage. Under Section two, liability, only the insured involved loses it."
+    },
+    {
+     "text": "In Michigan, though, courts require coverage for an innocent co-insured's fire loss. None of the Millers' losses this January was a fire.",
+     "say": "In Michigan, though, courts require coverage for an innocent co-insured's fire loss. None of the Millers' losses this January was a fire."
     }
    ]
   },
   {
    "type": "recap",
    "items": [
-    "Six broad perils: falling objects to power surge",
-    "No vandalism cover after 60 consecutive days vacant",
-    "Burst hose covered; flood and sewer backup excluded",
-    "Under 80%: greater of ACV or carried over required times loss",
-    "Proof of loss: 60 days. Michigan: pay within 30 days; suit tolled"
+    "HO-3: open perils on the house, 16 named perils on belongings",
+    "Freezing: heat on, or water off and drained. Flood: excluded",
+    "Vacant over 60 days in a row: no vandalism to the house",
+    "Under 80%: greater of ACV or did over should times the loss",
+    "Fraud: Section I lost for all. Michigan: pay within 30 days of proof"
+   ],
+   "draw": [
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 22,
+     "y": 42,
+     "h": 32,
+     "opt": {
+      "who": "sam",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "jen",
+     "p": "person",
+     "x": 44,
+     "y": 42,
+     "h": 32,
+     "opt": {
+      "who": "jen",
+      "pose": "point",
+      "mood": "smirk"
+     },
+     "flip": true
+    },
+    {
+     "p": "dog",
+     "x": 64,
+     "y": 54,
+     "h": 11,
+     "opt": {
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "sun",
+     "x": 64,
+     "y": 12,
+     "h": 12,
+     "loop": "spin"
+    }
    ],
    "beats": [
     {
-     "text": "To recap. Know the six broad perils, and the 60-day vacancy rule for vandalism. Water that escapes from plumbing is covered; flood and sewer backup are not.",
-     "say": "To recap. Know the six broad perils, and the sixty day vacancy rule for vandalism. Water that escapes from plumbing is covered; flood and sewer backup are not.",
+     "text": "What a week! Open perils on the house, minus the exclusions. Heat on, or shut off and drain. Vacant over 60 days? No vandalism to the house.",
+     "say": "What a week! Open perils on the house, minus the exclusions. Heat on, or shut off and drain. Vacant over sixty days? No vandalism to the house.",
      "show": 3
     },
     {
-     "text": "Insure to 80% for full replacement cost. Below that, pay the greater of actual cash value or the proportional amount. And in Michigan, payment is due 30 days after proof of the amount of loss.",
-     "say": "Insure to eighty percent for full replacement cost. Below that, pay the greater of actual cash value or the proportional amount. And in Michigan, payment is due thirty days after proof of the amount of loss.",
+     "text": "Under 80%, it's the greater of ACV or did over should.",
+     "say": "Under eighty percent, it's the greater of A C V or did over should.",
+     "show": 5
+    },
+    {
+     "text": "And Sam? No fibbing. Also, we're raising our limit.",
+     "say": "And Sam? No fibbing. Also, we're raising our limit.",
+     "voice": "jen",
      "show": 5
     }
    ]
@@ -384,6 +2193,7 @@
   "ISO HO 00 02 10 00",
   "MCL 500.2833(1)(p)",
   "MCL 500.2833(1)(q)",
-  "MCL 500.2833(2); Wilson v. State Farm (E.D. Mich. 2019)"
+  "MCL 500.2833(2); Wilson v. State Farm (E.D. Mich. 2019)",
+  "Confusion pairs cp_personal-05 (ACV) and cp_personal-08 (vacant vs unoccupied)"
  ]
 }

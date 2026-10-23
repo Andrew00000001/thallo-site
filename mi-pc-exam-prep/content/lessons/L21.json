@@ -2,522 +2,596 @@
  "id": "L21",
  "sec": "bop",
  "guide": "bop",
- "title": "The businessowners policy",
- "summary": "BOP eligibility, Section I property and its valuation math, built-in business income, Section II liability limits, Michigan cancellation, and key endorsements.",
+ "title": "The businessowners policy: Tony's Pizza's first year",
+ "summary": "Replay Tony's Pizza's first year on a BOP: who can get one, the 80% rule, built-in Business Income, liability limits and Michigan's cancellation rule.",
  "objectives": [
-  "Recognize which businesses are and aren't eligible for a BOP",
+  "Recognize which businesses can and can't get a BOP",
   "Apply the BOP's 80% replacement cost rule instead of coinsurance",
-  "Recall BOP business income, liability aggregates and cancellation notice",
-  "Match the Protective Safeguards, Utility Services and auto endorsements"
+  "Recall Business Income timing, liability aggregates and Michigan cancellation notice",
+  "Match Protective Safeguards, Utility Services and Hired and Non-Owned Auto to their jobs"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "The businessowners policy",
-   "subtitle": "Property, liability and conditions in one form for smaller businesses",
-   "icon": "store",
+   "title": "Tony's Pizza gets a BOP",
+   "subtitle": "6% of your exam, about 9 items. Taught on the 2013 ISO form (BP 00 03 07 13); newer policies may differ",
+   "draw": [
+    {"id": "shop", "p": "restaurant", "x": 28, "y": 32, "h": 34, "opt": {"name": "TONY'S PIZZA"}},
+    {"id": "mi", "p": "michigan", "x": 80, "y": 12, "h": 18, "opt": {"pin": "detroit"}},
+    {"id": "tony", "p": "person", "x": 60, "y": 46, "h": 28, "opt": {"who": "tony", "pose": "hold", "hold": "pizza", "mood": "happy"}},
+    {"id": "dana", "p": "person", "x": 80, "y": 46, "h": 28, "opt": {"who": "dana", "pose": "hold", "hold": "policy"}, "at": 0, "cue": "Dana"}
+   ],
    "beats": [
-    {
-     "text": "Businessowners questions are 6% of your exam, about 9 items.",
-     "say": "Businessowners questions are six percent of your exam, about nine items."
-    },
-    {
-     "text": "We'll use the 2013 form. Revised forms apply in Michigan to policies written on or after July 1, 2025, so newer policies may differ.",
-     "say": "We'll use the twenty thirteen form. Revised forms apply in Michigan to policies written on or after July first, twenty twenty-five, so newer policies may differ."
-    }
+    {"text": "What if Tony had started on a different policy? Rewind to opening week in Detroit: Dana sells Tony his insurance, and this year will test it.", "say": "What if Tony had started on a different policy? Rewind to opening week in Detroit: Dana sells Tony his insurance, and this year will test it."},
+    {"text": "Let's say his policy is on the 2013 ISO businessowners form. ISO's revised forms apply to Michigan policies written on or after July 1, 2025.", "say": "Let's say his policy is on the twenty thirteen I S O businessowners form. I S O's revised forms apply to Michigan policies written on or after July first, twenty twenty-five."}
    ]
   },
   {
-   "type": "bullets",
-   "title": "What a BOP is, and who can buy one",
-   "src": "IRMI white paper 'Businessowners Policy Basics'; ISO BP 00 03 07 13; ISO BOP Program overview (Feb. 11, 2025), pp. 2-3",
-   "items": [
+   "type": "term",
+   "title": "One policy, two big jobs",
+   "src": "IRMI white paper 'Businessowners Policy Basics'; ISO BP 00 03 07 13, Secs. I-III; summary vs_commercial-05",
+   "kind": "Term",
+   "term": "Businessowners policy (BOP)",
+   "plain": "One policy that packages property and liability coverage for a small-to-medium business.",
+   "example": "Tony's BOP covers his building, ovens and dough (property), and his liability if a customer slips and sues.",
+   "exam": "Three sections: I Property, II Liability, III Common Policy Conditions.",
+   "draw": [
+    {"id": "shop", "p": "restaurant", "x": 18, "y": 17, "h": 20, "opt": {"name": "TONY'S"}, "at": 1, "cue": "building"},
+    {"id": "oven", "p": "oven", "x": 40, "y": 21, "h": 13, "opt": {"fire": true}, "at": 1, "cue": "ovens"},
+    {"id": "plab", "p": "label", "text": "Property", "x": 30, "y": 33, "size": 4.6, "bold": true, "color": "blue", "at": 1, "cue": "property"},
+    {"id": "wet", "p": "sign", "x": 55, "y": 25, "h": 11, "opt": {"text": "WET\nFLOOR", "tcolor": "orange"}, "at": 1, "cue": "slips"},
+    {"id": "cust", "p": "person", "x": 69, "y": 19, "h": 24, "rot": -18, "opt": {"who": "grandma", "pose": "shrug", "mood": "shocked"}, "at": 1, "cue": "slips", "anim": "fall"},
+    {"id": "llab", "p": "label", "text": "Liability", "x": 66, "y": 37, "size": 4.6, "bold": true, "color": "red", "at": 1, "cue": "liability"},
+    {"id": "bop", "p": "policy", "x": 46, "y": 54, "h": 16, "opt": {"title": "BOP", "tsize": 7}, "at": 0, "cue": "packages"},
+    {"p": "arrow", "from": [30, 37], "to": "bop", "at": 1, "cue": "property"},
+    {"p": "arrow", "from": [64, 41], "to": "bop", "at": 1, "cue": "liability"}
+   ],
+   "beats": [
+    {"text": "Dana's pick: a businessowners policy, or BOP. It packages property and liability for small-to-medium businesses.", "say": "Dana's pick: a businessowners policy, or B O P. It packages property and liability for small-to-medium businesses.", "show": 2, "hl": "bop"},
+    {"text": "Tony's building and ovens: the property side. A customer who slips and sues: the liability side.", "say": "Tony's building and ovens: the property side. A customer who slips and sues: the liability side.", "show": 4}
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Who can get a BOP?",
+   "src": "ISO BOP Program overview (Feb. 11, 2025), pp. 2-3; IRMI 'Businessowners Policy Basics'; question comm-051",
+   "options": ["Eligible", "Not eligible"],
+   "cards": [
     {
-     "label": "Property and liability in one form",
-     "detail": "For small-to-medium businesses",
-     "icon": "package"
+     "text": "Tony's neighbor's tiny corner tavern. Six stools, spotless.",
+     "answer": 1,
+     "why": "An ordinary bar or tavern isn't an eligible BOP class at any size. Tiny doesn't help.",
+     "draw": [
+      {"p": "store", "x": 40, "y": 28, "h": 38, "opt": {"name": "TAVERN", "awning": "brown"}},
+      {"p": "icon", "name": "beer", "x": 80, "y": 40, "h": 14, "color": "orange"}
+     ]
     },
     {
-     "label": "Three sections",
-     "detail": "I Property, II Liability, III Common Policy Conditions",
-     "icon": "layers"
+     "text": "A small apartment building in Lansing",
+     "answer": 0,
+     "why": "Apartments are an eligible BOP class.",
+     "draw": [
+      {"p": "apartment", "x": 50, "y": 28, "h": 46}
+     ]
     },
     {
-     "label": "Eligible classes",
-     "detail": "Such as apartments, offices and retail stores",
-     "icon": "circle-check"
+     "text": "A small auto repair shop in Flint",
+     "answer": 0,
+     "why": "The 2025 program overview lists auto service risks as eligible. Older lists that exclude all auto repair are out of date.",
+     "draw": [
+      {"p": "garage", "x": 38, "y": 28, "h": 36, "opt": {"open": true}},
+      {"p": "toolbox", "x": 76, "y": 42, "h": 12, "opt": {"open": true}}
+     ]
     },
     {
-     "label": "Not eligible at any size",
-     "detail": "An ordinary bar or tavern",
-     "icon": "circle-x"
+     "text": "A car dealership in Saginaw",
+     "answer": 1,
+     "why": "Auto dealers remain ineligible, even though auto repair shops now qualify.",
+     "draw": [
+      {"p": "car", "x": 38, "y": 38, "h": 18, "opt": {"color": "blue"}},
+      {"p": "sign", "x": 80, "y": 28, "h": 34, "opt": {"text": "FOR\nSALE", "tcolor": "red"}}
+     ]
+    },
+    {
+     "text": "A small light manufacturer in Holland",
+     "answer": 0,
+     "why": "The 2025 program overview lists light manufacturing as eligible. Older lists that exclude all manufacturers are out of date.",
+     "draw": [
+      {"p": "factory", "x": 50, "y": 28, "h": 38}
+     ]
+    },
+    {
+     "text": "A retail gift shop in Traverse City",
+     "answer": 0,
+     "why": "Retail stores are an eligible BOP class.",
+     "draw": [
+      {"p": "store", "x": 50, "y": 28, "h": 40, "opt": {"name": "GIFTS", "awning": "teal"}}
+     ]
     }
    ],
    "beats": [
+    {"text": "I run the tiny tavern next door. Can I get one?", "say": "I run the tiny tavern next door. Can I get one?", "voice": "neighbor"},
+    {"text": "Eligible classes include apartments, offices, retail stores and restaurants. But an ordinary bar or tavern isn't one, at any size, and neither is a car dealer.", "say": "Eligible classes include apartments, offices, retail stores and restaurants. But an ordinary bar or tavern isn't one, at any size, and neither is a car dealer."},
+    {"text": "ISO's 2025 overview lists auto repair and light manufacturing too. Your turn!", "say": "I S O's twenty twenty-five overview lists auto repair and light manufacturing too. Your turn!"}
+   ],
+   "reveal": [
+    {"text": "Tiny or not, taverns and car dealers can't. Old lists that ban all auto repair and manufacturers are out of date.", "say": "Tiny or not, taverns and car dealers can't. Old lists that ban all auto repair and manufacturers are out of date."}
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Section I: Tony's property",
+   "src": "ISO BP 00 03 07 13, Sec. I A.1, A.3, C.4-5; adapted from memory hook mn_comm-19",
+   "draw": [
+    {"id": "shop", "p": "restaurant", "x": 30, "y": 24, "h": 30, "opt": {"name": "TONY'S PIZZA"}, "label": "Building", "lsize": 4.4},
+    {"id": "stock", "p": "pallet", "x": 80, "y": 22, "h": 16, "at": 0, "cue": "stock"},
+    {"id": "till", "p": "cashregister", "x": 103, "y": 24, "h": 13, "at": 0, "cue": "register"},
+    {"p": "label", "text": "Business personal property (BPP)", "x": 91, "y": 38, "size": 4.2, "at": 0, "cue": "stock"},
+    {"id": "shield", "p": "shield", "x": 140, "y": 20, "h": 18, "label": "Open perils", "lsize": 4.2, "at": 0, "cue": "open"},
+    {"p": "line", "from": [8, 47], "to": [152, 47], "dash": true, "color": "gray", "at": 1},
+    {"id": "grow", "p": "stairs", "x": 18, "y": 57, "h": 12, "opt": {"arrow": true, "color": "green"}, "at": 1, "cue": "grows"},
+    {"p": "label", "text": "Building: +8% a year, prorated", "x": 52, "y": 57, "size": 4.2, "bold": true, "color": "green", "w": 40, "at": 1, "cue": "grows"},
+    {"id": "gift", "p": "gift", "x": 88, "y": 57, "h": 11, "at": 2, "cue": "seasonal"},
+    {"p": "label", "text": "BPP: +25% seasonal, if insured to 100% of average monthly values", "x": 128, "y": 57, "size": 3.8, "w": 52, "color": "green", "at": 2, "cue": "seasonal"}
+   ],
+   "beats": [
+    {"text": "Section I covers Tony's building and business personal property, like his register and stock. It's open perils: direct physical loss unless excluded or limited.", "say": "Section one covers Tony's building and business personal property, like his register and stock. It's open perils: direct physical loss unless excluded or limited.", "hl": "shield"},
+    {"text": "The building limit grows 8% a year, prorated, unless another percentage is shown.", "say": "The building limit grows eight percent a year, prorated, unless another percentage is shown.", "hl": "grow"},
+    {"text": "Business personal property gets a 25% seasonal bump, if insured to 100% of average monthly values.", "say": "Business personal property gets a twenty-five percent seasonal bump, if insured to one hundred percent of average monthly values.", "hl": "gift"}
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's fire alarm goes quiet",
+   "src": "ISO IL 04 15 04 98, A.2, B.; BOP version BP 04 30 per FC&S (2020); question comm-056; card 31; memory hook mn_comm-20",
+   "ask": "What does Tony do?",
+   "draw": [
+    {"id": "shop", "p": "restaurant", "x": 26, "y": 27, "h": 32, "opt": {"name": "TONY'S PIZZA"}},
+    {"id": "bell", "p": "icon", "name": "bell-off", "x": 62, "y": 11, "h": 12, "color": "red", "loop": "shake", "at": 1, "cue": "alarm"},
+    {"p": "label", "text": "Alarm not reporting", "x": 62, "y": 22, "size": 4.6, "w": 34, "color": "red", "at": 1, "cue": "alarm"},
+    {"id": "sched", "p": "note", "text": "Tony's schedule: P-1 sprinklers, P-2 fire alarm. Others: P-3 security service, P-4 private fire department, and more", "x": 70, "y": 44, "w": 40},
+    {"id": "tony", "p": "person", "x": 112, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "think", "mood": "worried"}},
+    {"p": "bubble", "text": "Fix it now, or after the rush?", "x": 140, "y": 12, "w": 28, "to": "tony", "think": true, "at": 1}
+   ],
+   "beats": [
+    {"text": "Dana adds Protective Safeguards: Tony must keep P-1, his sprinklers, and P-2, his fire alarm, working.", "say": "Dana adds Protective Safeguards: Tony must keep P one, his sprinklers, and P two, his fire alarm, working."},
+    {"text": "One Monday, the alarm stops reporting. What does Tony do?", "say": "One Monday, the alarm stops reporting. What does Tony do?"}
+   ],
+   "options": [
     {
-     "text": "A businessowners policy, or BOP, packages property and liability for small-to-medium businesses. It has three sections: property, liability, and common policy conditions.",
-     "say": "A businessowners policy, or B O P, packages property and liability for small-to-medium businesses. It has three sections: property, liability, and common policy conditions.",
-     "show": 2
+     "label": "Ignore it. Fire is covered anyway!",
+     "ok": false,
+     "fail": "Protective Safeguards excludes fire losses if you knew a listed safeguard was impaired and didn't tell the insurer, or didn't keep it working.",
+     "beats": [
+      {"text": "Saturday, a grease fire! He knew the alarm was down and told no one: excluded.", "say": "Saturday, a grease fire! He knew the alarm was down and told no one: excluded."}
+     ],
+     "draw": [
+      {"id": "shop", "p": "restaurant", "x": 30, "y": 28, "h": 32, "opt": {"name": "TONY'S PIZZA"}},
+      {"p": "fire", "x": 21, "y": 31, "h": 11, "loop": "flicker", "over": true, "cue": "fire", "sfx": "whoosh"},
+      {"p": "fire", "x": 49, "y": 8, "h": 10, "loop": "flicker", "over": true, "cue": "fire"},
+      {"p": "icon", "name": "bell-off", "x": 64, "y": 20, "h": 10, "color": "red"},
+      {"id": "tony", "p": "person", "x": 92, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "shrug", "mood": "shocked"}},
+      {"p": "stamp", "text": "Excluded", "x": 34, "y": 40, "size": 6, "rot": -10, "color": "red", "over": true, "cue": "excluded"}
+     ]
     },
     {
-     "text": "Eligible classes include apartments, offices and retail stores. But an ordinary bar or tavern isn't an eligible class at any size.",
-     "say": "Eligible classes include apartments, offices and retail stores. But an ordinary bar or tavern isn't an eligible class at any size.",
-     "show": 4
+     "label": "Tell the insurer, but skip the repair",
+     "ok": false,
+     "fail": "Two duties: report any impairment you know of, and keep listed safeguards you control in working order. Miss either one, and fire losses are excluded.",
+     "beats": [
+      {"text": "Months later, a fire. Telling wasn't enough; he never fixed it: excluded.", "say": "Months later, a fire. Telling wasn't enough; he never fixed it: excluded."}
+     ],
+     "draw": [
+      {"id": "shop", "p": "restaurant", "x": 30, "y": 28, "h": 32, "opt": {"name": "TONY'S PIZZA"}},
+      {"p": "fire", "x": 21, "y": 31, "h": 11, "loop": "flicker", "over": true, "cue": "fire"},
+      {"p": "fire", "x": 49, "y": 8, "h": 10, "loop": "flicker", "over": true, "cue": "fire"},
+      {"id": "tony", "p": "person", "x": 80, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "hold", "hold": "phone", "mood": "shocked"}},
+      {"p": "bubble", "text": "But I told them!", "x": 104, "y": 8, "w": 26, "to": "tony"},
+      {"p": "stamp", "text": "Excluded", "x": 34, "y": 40, "size": 6, "rot": -10, "color": "red", "over": true, "cue": "excluded"},
+      {"p": "label", "text": "Never kept it working", "x": 128, "y": 38, "size": 4.8, "w": 34, "color": "red", "bold": true, "cue": "never"}
+     ]
     },
     {
-     "text": "Older lists that exclude all manufacturers and all auto repair are out of date: the 2025 program overview lists light manufacturing and auto service risks as eligible.",
-     "say": "Older lists that exclude all manufacturers and all auto repair are out of date: the twenty twenty-five program overview lists light manufacturing and auto service risks as eligible.",
-     "show": 4
+     "label": "Fix it today, and tell the insurer",
+     "ok": true,
+     "win": "Keep listed safeguards you control in working order, and report any impairment you know of. Then the endorsement's fire exclusion doesn't apply.",
+     "beats": [
+      {"text": "Fixed that afternoon, and the insurer knows.", "say": "Fixed that afternoon, and the insurer knows."},
+      {"text": "Both promises kept!", "say": "Both promises kept!", "voice": "tony"}
+     ],
+     "draw": [
+      {"id": "bell", "p": "icon", "name": "bell-ring", "x": 22, "y": 16, "h": 14, "color": "green", "loop": "wobble", "sfx": "ding"},
+      {"p": "label", "text": "Fixed", "x": 20, "y": 32, "size": 4.8, "color": "green", "bold": true, "cue": "Fixed"},
+      {"p": "check", "x": 31, "y": 31, "h": 6, "cue": "Fixed"},
+      {"id": "tony", "p": "person", "x": 66, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "hold", "hold": "phone", "mood": "happy"}},
+      {"p": "bubble", "text": "Both promises kept!", "x": 96, "y": 8, "w": 28, "to": "tony", "at": 1},
+      {"id": "ins", "p": "insurer", "x": 126, "y": 28, "h": 26},
+      {"p": "label", "text": "Told", "x": 124, "y": 47, "size": 4.8, "color": "green", "bold": true, "cue": "knows"},
+      {"p": "check", "x": 133, "y": 46, "h": 6, "cue": "knows"}
+     ]
     }
+   ],
+   "reveal": [
+    {"text": "Memory trick: P-1 pours water, P-2 phones it in, P-3 patrols, P-4 pays a private fire department.", "say": "Memory trick: P one pours water, P two phones it in, P three patrols, P four pays a private fire department."}
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "The fire, and the generous cousin",
+   "src": "ISO BP 00 03 07 13, Sec. I A.5.c, A.6.a, A.6.e, C.2, D.3; ISO CP 00 10 10 12, A.4.c, A.5.a, A.5.c, C.; adapted from hook mn_comm-17",
+   "draw": [
+    {"id": "shop", "p": "restaurant", "x": 28, "y": 28, "h": 32, "opt": {"name": "TONY'S PIZZA"}},
+    {"p": "fire", "x": 20, "y": 31, "h": 11, "loop": "flicker", "over": true, "at": 0, "cue": "fire", "sfx": "whoosh"},
+    {"p": "fire", "x": 47, "y": 8, "h": 10, "loop": "flicker", "over": true, "at": 0, "cue": "fire"},
+    {"id": "bell", "p": "icon", "name": "bell-ring", "x": 57, "y": 18, "h": 9, "color": "orange", "loop": "wobble", "at": 0, "cue": "alarm"},
+    {"p": "label", "text": "BOP vs commercial property", "x": 80, "y": 4, "size": 4.2, "bold": true, "at": 1, "cue": "BOP"},
+    {"id": "fd", "p": "label", "text": "Fire department service charge", "x": 28, "y": 51, "size": 4, "bold": true, "w": 50, "at": 1, "cue": "charge"},
+    {"id": "fdamt", "p": "label", "text": "$2,500 vs $1,000", "x": 28, "y": 58, "size": 4.6, "bold": true, "color": "green", "at": 1, "cue": "pays"},
+    {"p": "divider", "x": 64, "y": 36, "y0": 9, "y1": 64, "at": 2},
+    {"id": "papers", "p": "folder", "x": 80, "y": 20, "h": 13, "opt": {"label": "PAPERS"}, "at": 2, "cue": "papers"},
+    {"p": "label", "text": "Valuable papers, on premises", "x": 80, "y": 34, "size": 3.6, "w": 28, "at": 2, "cue": "papers"},
+    {"id": "papamt", "p": "label", "text": "$10,000 vs $2,500", "x": 80, "y": 45, "size": 4, "bold": true, "color": "green", "at": 2, "cue": "papers"},
+    {"id": "newb", "p": "store", "x": 144, "y": 20, "h": 13, "opt": {"name": "NEW"}, "at": 2, "cue": "newly"},
+    {"p": "label", "text": "Newly acquired building", "x": 144, "y": 34, "size": 3.6, "w": 28, "at": 2, "cue": "newly"},
+    {"id": "newamt", "p": "label", "text": "Same: $250,000, 30 days", "x": 144, "y": 46, "size": 4, "bold": true, "color": "blue", "w": 28, "at": 2, "cue": "newly"},
+    {"id": "sign", "p": "restaurant", "x": 112, "y": 20, "h": 14, "opt": {"name": "PIZZA"}, "at": 3, "cue": "sign"},
+    {"p": "arrow", "from": [101, 7], "to": [106, 13], "bend": 0, "color": "red", "at": 3, "cue": "attached"},
+    {"p": "label", "text": "Sign attached to the building", "x": 112, "y": 34, "size": 3.6, "w": 28, "at": 3, "cue": "sign"},
+    {"id": "signamt", "p": "label", "text": "$1,000 vs $2,500", "x": 112, "y": 45, "size": 4, "bold": true, "color": "red", "at": 3, "cue": "sign"}
+   ],
+   "beats": [
+    {"text": "Two months later: a Friday-night grease fire! The alarm calls it in.", "say": "Two months later: a Friday-night grease fire! The alarm calls it in.", "hl": "bell"},
+    {"text": "The fire department service charge? The BOP pays up to $2,500; the commercial property form, $1,000.", "say": "The fire department service charge? The B O P pays up to two thousand five hundred dollars; the commercial property form, one thousand dollars.", "hl": "fdamt"},
+    {"text": "The BOP is the generous cousin: valuable papers get more, and newly acquired buildings get the same.", "say": "The B O P is the generous cousin: valuable papers get more, and newly acquired buildings get the same.", "hl": ["papamt", "newamt"]},
+    {"text": "One stingy habit: a sign attached to the building gets $1,000, versus $2,500.", "say": "One stingy habit: a sign attached to the building gets one thousand dollars, versus two thousand five hundred dollars.", "hl": "signamt"}
+   ]
+  },
+  {
+   "type": "slider",
+   "title": "Rebuilding the kitchen: the 80% rule",
+   "src": "ISO BP 00 03 07 13, Sec. I E.5.d(1); card 26; question comm-046; ACV: confusion pair cp_personal-05",
+   "calc": "horc",
+   "params": {"rc": 500000, "loss": 60000, "acv": 40000},
+   "var": {"key": "limit", "label": "Tony's building limit", "min": 200000, "max": 390000, "step": 10000, "start": 300000, "money": true},
+   "draw": [
+    {"id": "shop", "p": "restaurant", "x": 22, "y": 15, "h": 20, "opt": {"name": "TONY'S"}, "label": "Rebuild: $500,000", "lsize": 3.8, "at": 2, "cue": "Rebuilding"},
+    {"id": "note", "p": "note", "text": "Walls: $60,000 to fix. ACV (worth after wear and tear): $40,000. Deductible ignored.", "x": 59, "y": 14, "w": 34},
+    {"id": "tony", "p": "person", "x": 22, "y": 46, "h": 24, "opt": {"who": "tony", "mood": "worried"}, "label": "Limit at the fire: $300,000", "lsize": 3.8, "at": 2, "cue": "limit"},
+    {"id": "adj", "p": "person", "x": 60, "y": 46, "h": 26, "opt": {"who": "adjuster", "pose": "hold", "hold": "clipboard"}}
+   ],
+   "beats": [
+    {"text": "The kitchen walls need $60,000 of repairs, done promptly. Their actual cash value is $40,000.", "say": "The kitchen walls need sixty thousand dollars of repairs, done promptly. Their actual cash value is forty thousand dollars."},
+    {"text": "The BOP has no coinsurance clause. Insure to at least 80% of replacement cost, and losses are paid at replacement cost.", "say": "The B O P has no coinsurance clause. Insure to at least eighty percent of replacement cost, and losses are paid at replacement cost."},
+    {"text": "Rebuilding the whole place costs $500,000, so Tony needs $400,000. His limit is $300,000.", "say": "Rebuilding the whole place costs five hundred thousand dollars, so Tony needs four hundred thousand dollars. His limit is three hundred thousand dollars."},
+    {"text": "Fall short, and you get the bigger of actual cash value or a proportional share of the repair: here, $45,000. Your turn: slide it down until actual cash value wins.", "say": "Fall short, and you get the bigger of actual cash value or a proportional share of the repair: here, forty-five thousand dollars. Your turn: slide it down until actual cash value wins."}
+   ],
+   "reveal": [
+    {"text": "Slide to $260,000: the proportional share is only $39,000, so actual cash value wins.", "say": "Slide to two hundred sixty thousand dollars: the proportional share is only thirty-nine thousand dollars, so actual cash value wins."}
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Closed for repairs, still getting paid",
+   "src": "ISO BP 00 03 07 13, Sec. I A.5.f-g, H.9; definitions: ISO CP 00 30 10 12, A.1-2; card 25; memory hook mn_comm-18",
+   "kind": "Built-in coverage",
+   "term": "Business Income",
+   "plain": "Pays the income you lose while covered damage keeps your business closed.",
+   "example": "Fire shuts Tony's kitchen for four months. After a 72-hour wait, Business Income pays the income he loses, within 12 months.",
+   "exam": "12 months; not subject to the Section I limits (no dollar limit). Business Income waits 72 hours; Extra Expense starts at once.",
+   "draw": [
+    {"id": "shop", "p": "restaurant", "x": 24, "y": 18, "h": 24, "opt": {"name": "TONY'S PIZZA"}},
+    {"id": "closed", "p": "stamp", "text": "Closed", "x": 24, "y": 30, "color": "red", "rot": -12, "over": true, "at": 0, "cue": "shuts"},
+    {"id": "cal", "p": "calendar", "x": 62, "y": 12, "h": 12, "opt": {"n": "12"}, "at": 1, "cue": "12"},
+    {"p": "label", "text": "12 months", "x": 62, "y": 22, "size": 3.8, "bold": true, "at": 1, "cue": "12"},
+    {"id": "tony", "p": "person", "x": 18, "y": 50, "h": 24, "opt": {"who": "tony", "pose": "hold", "hold": "money", "mood": "happy"}, "at": 1, "cue": "loss"},
+    {"id": "glass", "p": "hourglass", "x": 44, "y": 49, "h": 14, "opt": {"sand": 0.6}, "label": "BI: 72 hours", "lsize": 3.8, "at": 2, "cue": "72"},
+    {"id": "ee", "p": "icon", "name": "timer", "x": 67, "y": 48, "h": 11, "color": "green", "at": 2, "cue": "immediately"},
+    {"p": "label", "text": "Extra Expense: now", "x": 67, "y": 58, "size": 3.8, "w": 24, "color": "green", "at": 2, "cue": "immediately"}
+   ],
+   "beats": [
+    {"text": "The fire shuts Tony's own kitchen for four months. Business Income is built in: it pays the income he loses.", "say": "The fire shuts Tony's own kitchen for four months. Business Income is built in: it pays the income he loses.", "show": 2},
+    {"text": "Under the 2013 form: actual loss sustained, within 12 consecutive months, with no dollar limit.", "say": "Under the twenty thirteen form: actual loss sustained, within twelve consecutive months, with no dollar limit.", "show": 3, "hl": "cal"},
+    {"text": "The catch: it starts 72 hours after the loss. Extra Expense, the extra cost to keep operating, starts immediately.", "say": "The catch: it starts seventy-two hours after the loss. Extra Expense, the extra cost to keep operating, starts immediately.", "show": 4, "hl": ["glass", "ee"]}
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: wait, or keep cooking?",
+   "src": "ISO BP 00 03 07 13, Sec. I A.5.f-g, D.3, H.9; ISO CP 00 30 10 12, A.2; vs_commercial-05; hooks mn_comm-08, -18",
+   "ask": "What does Tony do?",
+   "draw": [
+    {"id": "shop", "p": "restaurant", "x": 22, "y": 27, "h": 30, "opt": {"name": "TONY'S PIZZA"}},
+    {"p": "stamp", "text": "Closed", "x": 22, "y": 41, "color": "red", "rot": -12, "over": true},
+    {"id": "tony", "p": "person", "x": 80, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "think", "mood": "worried"}},
+    {"p": "bubble", "text": "Wait, or keep cooking?", "x": 103, "y": 10, "w": 28, "to": "tony", "think": true},
+    {"id": "church", "p": "church", "x": 136, "y": 25, "h": 34},
+    {"p": "label", "text": "Kitchen for rent", "x": 136, "y": 49, "size": 4.8, "color": "green", "bold": true}
+   ],
+   "beats": [
+    {"text": "Day one: the church across the street offers to rent Tony its kitchen. What does he do?", "say": "Day one: the church across the street offers to rent Tony its kitchen. What does he do?"}
+   ],
+   "options": [
+    {
+     "label": "Wait 72 hours. Nothing pays before that.",
+     "ok": false,
+     "fail": "The 72-hour wait applies to Business Income only. Extra Expense starts immediately, so it could have paid the rental from day one.",
+     "beats": [
+      {"text": "Three days with a cold oven, and his regulars go elsewhere. Only Business Income waits 72 hours.", "say": "Three days with a cold oven, and his regulars go elsewhere. Only Business Income waits seventy-two hours."}
+     ],
+     "draw": [
+      {"id": "shop", "p": "restaurant", "x": 26, "y": 27, "h": 30, "opt": {"name": "TONY'S PIZZA"}},
+      {"p": "stamp", "text": "Closed", "x": 26, "y": 41, "color": "red", "rot": -12, "over": true},
+      {"id": "tony", "p": "person", "x": 82, "y": 32, "h": 32, "opt": {"who": "tony", "pose": "sad", "mood": "sad"}},
+      {"id": "glass", "p": "hourglass", "x": 110, "y": 30, "h": 18, "opt": {"sand": 0.1}, "label": "72 hours", "lsize": 4.5},
+      {"p": "bubble", "text": "Three days of nothing...", "x": 58, "y": 9, "w": 30, "to": "tony"}
+     ]
+    },
+    {
+     "label": "Call Dana to add business income first",
+     "ok": false,
+     "fail": "A BOP has Business Income and Extra Expense built in. In a commercial package policy, business income is a separate form you add.",
+     "beats": [
+      {"text": "Tony calls Dana in a panic.", "say": "Tony calls Dana in a panic."},
+      {"text": "Tony, it's already built into your BOP!", "say": "Tony, it's already built into your B O P!", "voice": "dana"}
+     ],
+     "draw": [
+      {"id": "tony", "p": "person", "x": 30, "y": 33, "h": 32, "opt": {"who": "tony", "pose": "hold", "hold": "phone", "mood": "worried"}},
+      {"p": "bubble", "text": "Sell me business income!", "x": 32, "y": 6, "w": 32, "to": "tony"},
+      {"id": "dana", "p": "person", "x": 102, "y": 33, "h": 32, "opt": {"who": "dana", "pose": "hold", "hold": "phone", "mood": "laugh"}, "flip": true, "at": 1},
+      {"p": "bubble", "text": "It's already in your BOP!", "x": 74, "y": 7, "w": 30, "to": "dana", "at": 1},
+      {"p": "label", "text": "Built in: Business Income and Extra Expense", "x": 66, "y": 55, "w": 100, "size": 4.2, "color": "blue", "bold": true, "at": 1}
+     ]
+    },
+    {
+     "label": "Rent the church kitchen today",
+     "ok": true,
+     "win": "Extra Expense starts immediately and pays the extra cost to keep operating. Business Income waits 72 hours.",
+     "beats": [
+      {"text": "Pizzas roll out of the church kitchen. Extra Expense pays the rent, right away.", "say": "Pizzas roll out of the church kitchen. Extra Expense pays the rent, right away."}
+     ],
+     "draw": [
+      {"id": "church", "p": "church", "x": 24, "y": 25, "h": 34},
+      {"id": "tony", "p": "person", "x": 52, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "hold", "hold": "pizza", "mood": "laugh"}},
+      {"id": "van", "p": "van", "x": 82, "y": 40, "h": 13, "opt": {"name": "TONY'S PIZZA", "color": "red"}, "move": {"to": [132, 40], "at": 0, "cue": "roll", "dur": 1.6, "sfx": "whoosh"}},
+      {"p": "label", "text": "Extra Expense: from day one", "x": 108, "y": 12, "size": 4.6, "color": "green", "bold": true, "cue": "Expense"},
+      {"id": "cash", "p": "moneybag", "x": 36, "y": 49, "h": 10, "cue": "rent", "anim": "pop", "sfx": "cash"},
+      {"p": "label", "text": "Rent paid", "x": 36, "y": 57, "size": 4.5, "color": "green", "bold": true, "cue": "rent"}
+     ]
+    }
+   ],
+   "reveal": [
+    {"text": "Two sixties: ordinary payroll gets 60 days, and Extended Business Income up to 60 days after reopening, unless more are shown.", "say": "Two sixties: ordinary payroll gets sixty days, and Extended Business Income up to sixty days after reopening, unless more are shown."},
+    {"text": "Five skip the deductible: the fire department service charge, extinguisher recharge, Business Income, Extra Expense and Civil Authority.", "say": "Five skip the deductible: the fire department service charge, extinguisher recharge, Business Income, Extra Expense and Civil Authority."}
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Section II: a customer slips",
+   "src": "ISO BP 00 03 07 13, Sec. II A.1-2, B.1.j, C., D.1-4; BP 04 04 per FC&S (2020); questions comm-052, comm-bop-12; card 33",
+   "draw": [
+    {"id": "wet", "p": "sign", "x": 10, "y": 44, "h": 18, "opt": {"text": "WET\nFLOOR", "tcolor": "orange"}},
+    {"id": "cust", "p": "person", "x": 30, "y": 36, "h": 26, "rot": -28, "opt": {"who": "grandma", "pose": "shrug", "mood": "shocked"}, "at": 0, "cue": "slips", "anim": "fall"},
+    {"id": "tony", "p": "person", "x": 52, "y": 36, "h": 26, "opt": {"who": "tony", "pose": "stop", "mood": "worried"}},
+    {"p": "label", "text": "Who's an insured? Same as the CGL", "x": 32, "y": 59, "size": 4, "box": true, "w": 50, "at": 1, "cue": "Business"},
+    {"id": "bl", "p": "box", "x": 85, "y": 17, "w": 34, "hh": 22, "title": "Business Liability", "color": "blue", "at": 1, "cue": "Business"},
+    {"p": "gavel", "x": 85, "y": 21, "h": 10, "at": 1, "cue": "Business"},
+    {"id": "me", "p": "box", "x": 85, "y": 44, "w": 34, "hh": 22, "title": "Medical Expenses", "color": "green", "at": 1, "cue": "Medical"},
+    {"p": "firstaid", "x": 85, "y": 48, "h": 10, "at": 1, "cue": "Medical"},
+    {"p": "label", "text": "Liability and Medical Expenses limit", "x": 131, "y": 7, "size": 3.6, "w": 50, "at": 2},
+    {"id": "lim", "p": "num", "text": "$1,000,000", "x": 131, "y": 15, "size": 6.5, "at": 2, "cue": "say"},
+    {"id": "agg", "p": "num", "text": "$2,000,000", "x": 131, "y": 29, "size": 6.5, "color": "green", "at": 2, "cue": "twice"},
+    {"p": "label", "text": "each aggregate: twice the limit", "x": 131, "y": 36, "size": 3.6, "color": "green", "at": 2, "cue": "twice"},
+    {"id": "car", "p": "car", "x": 114, "y": 46, "h": 9, "opt": {"color": "teal"}, "at": 3, "cue": "cars"},
+    {"p": "label", "text": "Own car on the job: Hired and Non-Owned Auto", "x": 114, "y": 57, "size": 3.8, "w": 36, "at": 3, "cue": "cars"},
+    {"id": "calc", "p": "icon", "name": "calculator", "x": 147, "y": 45, "h": 10, "at": 3, "cue": "Professional"},
+    {"p": "cross", "x": 154, "y": 40, "h": 6, "color": "red", "at": 3, "cue": "excluded"},
+    {"p": "label", "text": "Professional services: excluded", "x": 147, "y": 57, "size": 3.8, "w": 26, "color": "red", "at": 3, "cue": "Professional"}
+   ],
+   "beats": [
+    {"text": "Tony reopens, and a customer slips on the wet floor. Enter Section II: liability.", "say": "Tony reopens, and a customer slips on the wet floor. Enter Section two: liability."},
+    {"text": "Business Liability covers bodily injury, property damage, and personal and advertising injury. Medical Expenses pays accident bills within one year, regardless of fault.", "say": "Business Liability covers bodily injury, property damage, and personal and advertising injury. Medical Expenses pays accident bills within one year, regardless of fault."},
+    {"text": "There's one Liability and Medical Expenses limit, say $1,000,000. Both aggregates, general and products-completed operations, are twice that.", "say": "There's one Liability and Medical Expenses limit, say one million dollars. Both aggregates, general and products-completed operations, are twice that.", "hl": "agg"},
+    {"text": "Professional services, like accounting, are excluded. And for drivers' own cars, Tony adds Hired and Non-Owned Auto Liability.", "say": "Professional services, like accounting, are excluded. And for drivers' own cars, Tony adds Hired and Non-Owned Auto Liability.", "hl": ["calc", "car"]}
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Which coverage handles it?",
+   "src": "ISO BP 00 03 07 13, Sec. II A.1-2, B.1.j; BP 04 04 per FC&S (2020); questions comm-053, comm-059, comm-bop-12; card 33",
+   "bins": [{"name": "Business Liability"}, {"name": "Medical Expenses"}, {"name": "Add-on or other policy"}],
+   "items": [
+    {"text": "A customer slips on Tony's wet floor and sues him", "bin": 0, "why": "A customer's bodily injury claim against Tony: Business Liability."},
+    {"text": "A diner trips at Tony's, no one at fault: her ER bill", "bin": 1, "why": "Medical Expenses pays accident bills incurred and reported within one year, regardless of fault."},
+    {"text": "Tony's loose sign falls on a customer's car; she sues", "bin": 0, "why": "Property damage to someone else's car: Business Liability."},
+    {"text": "An accounting firm's BOP: sued over a tax-return error", "bin": 2, "why": "Professional services, like legal or accounting, are excluded. That needs professional liability coverage."},
+    {"text": "Tony's driver crashes her own car on a delivery; he's sued", "bin": 2, "why": "Hired autos, and autos you don't own (like an employee's car) used in your business: Hired and Non-Owned Auto Liability."}
+   ],
+   "beats": [
+    {"text": "Your turn: which coverage handles each claim?", "say": "Your turn: which coverage handles each claim?"}
+   ],
+   "reveal": [
+    {"text": "Injuries and damage to others: Business Liability. Accident bills, regardless of fault: Medical Expenses.", "say": "Injuries and damage to others: Business Liability. Accident bills, regardless of fault: Medical Expenses."}
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "One old substation, one big question",
+   "src": "BP 04 56 and BP 04 57 per FC&S (2020); ISO BP 04 57 01 06; ISO BP 00 03 07 13, Sec. I B.1.e; cp_commercial-08; comm-057",
+   "ask": "What protects Tony's income?",
+   "draw": [
+    {"id": "shop", "p": "restaurant", "x": 24, "y": 27, "h": 30, "opt": {"name": "TONY'S PIZZA"}},
+    {"id": "pole", "p": "box", "x": 62, "y": 26, "w": 24, "hh": 18, "title": "SUBSTATION", "color": "gray"},
+    {"p": "lightning", "x": 62, "y": 29, "h": 10, "over": true},
+    {"p": "label", "text": "Old substation", "x": 62, "y": 39, "size": 4.5},
+    {"id": "tony", "p": "person", "x": 98, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "think", "mood": "neutral"}},
+    {"id": "dana", "p": "person", "x": 126, "y": 30, "h": 34, "opt": {"who": "dana", "pose": "hold", "hold": "clipboard"}, "flip": true},
+    {"p": "bubble", "text": "I spotted a gap.", "x": 146, "y": 8, "w": 22, "to": "dana"}
+   ],
+   "beats": [
+    {"text": "Dana spots a gap: the BOP excludes power failures that start off premises. Her fix, Utility Services, comes in two forms.", "say": "Dana spots a gap: the B O P excludes power failures that start off premises. Her fix, Utility Services, comes in two forms."},
+    {"text": "Direct Damage pays for property the outage damages. Time Element pays for lost time: income and extra expense.", "say": "Direct Damage pays for property the outage damages. Time Element pays for lost time: income and extra expense."},
+    {"text": "Say a fire at the old substation cuts Tony's power for a week. What pays his lost income?", "say": "Say a fire at the old substation cuts Tony's power for a week. What pays his lost income?"}
+   ],
+   "options": [
+    {
+     "label": "Nothing extra: Business Income is built in",
+     "ok": false,
+     "fail": "The BOP excludes utility failures that start away from the premises. Lost income from one needs Utility Services, Time Element.",
+     "beats": [
+      {"text": "Tony's goes dark. Built-in Business Income won't pay for an off-premises outage.", "say": "Tony's goes dark. Built-in Business Income won't pay for an off-premises outage."}
+     ],
+     "draw": [
+      {"id": "pole", "p": "box", "x": 20, "y": 30, "w": 24, "hh": 18, "title": "SUBSTATION", "color": "gray"},
+      {"p": "lightning", "x": 20, "y": 33, "h": 10, "over": true},
+      {"p": "fire", "x": 22, "y": 13, "h": 12, "loop": "flicker", "over": true},
+      {"id": "shop", "p": "restaurant", "x": 58, "y": 27, "h": 30, "opt": {"name": "TONY'S PIZZA"}},
+      {"p": "lightbulb", "x": 58, "y": 5, "h": 8, "opt": {"off": true}, "cue": "dark"},
+      {"p": "label", "text": "Dark for a week", "x": 58, "y": 51, "size": 4.5, "bold": true, "cue": "dark"},
+      {"id": "tony", "p": "person", "x": 100, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "shrug", "mood": "shocked"}},
+      {"p": "stamp", "text": "Not covered", "x": 58, "y": 40, "size": 6, "rot": -10, "color": "red", "over": true, "cue": "pay"}
+     ]
+    },
+    {
+     "label": "Utility Services, Direct Damage",
+     "ok": false,
+     "fail": "Direct Damage pays for damage to your covered property. Lost income and extra expense from the outage are Time Element.",
+     "beats": [
+      {"text": "Dark again. Direct Damage pays for damaged property, not lost income.", "say": "Dark again. Direct Damage pays for damaged property, not lost income."}
+     ],
+     "draw": [
+      {"id": "pole", "p": "box", "x": 20, "y": 30, "w": 24, "hh": 18, "title": "SUBSTATION", "color": "gray"},
+      {"p": "lightning", "x": 20, "y": 33, "h": 10, "over": true},
+      {"p": "fire", "x": 22, "y": 13, "h": 12, "loop": "flicker", "over": true},
+      {"id": "shop", "p": "restaurant", "x": 58, "y": 27, "h": 30, "opt": {"name": "TONY'S PIZZA"}},
+      {"p": "lightbulb", "x": 58, "y": 5, "h": 8, "opt": {"off": true}, "cue": "Dark"},
+      {"p": "label", "text": "Dark for a week", "x": 58, "y": 51, "size": 4.5, "bold": true, "cue": "Dark"},
+      {"id": "tony", "p": "person", "x": 98, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "shrug", "mood": "worried"}},
+      {"p": "stamp", "text": "Wrong add-on", "x": 136, "y": 34, "color": "red", "cue": "income"},
+      {"p": "label", "text": "Pays property damage, not income", "x": 136, "y": 48, "size": 4.5, "w": 36, "color": "red", "bold": true, "cue": "income"}
+     ]
+    },
+    {
+     "label": "Utility Services, Time Element",
+     "ok": true,
+     "win": "Time Element pays lost Business Income and Extra Expense when covered damage to scheduled off-premises utility property cuts your service.",
+     "beats": [
+      {"text": "Power supply property is checked in his schedule, so Time Element covers his lost income.", "say": "Power supply property is checked in his schedule, so Time Element covers his lost income."}
+     ],
+     "draw": [
+      {"id": "pole", "p": "box", "x": 20, "y": 26, "w": 24, "hh": 18, "title": "SUBSTATION", "color": "gray"},
+      {"p": "lightning", "x": 20, "y": 29, "h": 10, "over": true},
+      {"p": "fire", "x": 22, "y": 9, "h": 12, "loop": "flicker", "over": true},
+      {"p": "note", "text": "Schedule: power supply property, checked", "x": 20, "y": 48, "w": 30, "cue": "schedule"},
+      {"id": "shop", "p": "restaurant", "x": 62, "y": 27, "h": 30, "opt": {"name": "TONY'S PIZZA"}},
+      {"id": "cash", "p": "moneybag", "x": 86, "y": 44, "h": 12, "cue": "covers", "anim": "pop", "sfx": "cash"},
+      {"id": "tony", "p": "person", "x": 106, "y": 30, "h": 34, "opt": {"who": "tony", "pose": "cheer", "mood": "happy"}},
+      {"p": "stamp", "text": "Income covered", "x": 139, "y": 42, "color": "green", "size": 5.5, "cue": "covers"}
+     ]
+    }
+   ],
+   "reveal": [
+    {"text": "Lost income: Time Element. And overhead transmission lines count only if scheduled.", "say": "Lost income: Time Element. And overhead transmission lines count only if scheduled."}
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Section III: how much warning?",
+   "src": "ISO BP 00 03 07 13, Sec. III A.2; MCL 500.2833(1)(i); MCL 500.3020(1)(b); question comm-054; card 30",
+   "kind": "Michigan rule",
+   "term": "Cancellation notice",
+   "plain": "The written warning an insurer must mail before it cancels your policy.",
+   "example": "Dana's Bay City client has a building that's sat empty 70 days. The insurance company wants to cancel. How much warning does it owe?",
+   "exam": "Form: 5 days for listed conditions, like 60 or more days vacant; 10 nonpayment; 30 other. Michigan: at least 10.",
+   "draw": [
+    {"id": "mi", "p": "michigan", "x": 20, "y": 18, "h": 28, "opt": {"pin": [-83.888, 43.594]}},
+    {"p": "label", "text": "Bay City", "x": 20, "y": 36, "size": 4, "color": "red", "bold": true},
+    {"id": "bld", "p": "store", "x": 60, "y": 18, "h": 20, "opt": {"name": "FOR LEASE"}},
+    {"id": "cal", "p": "calendar", "x": 20, "y": 50, "h": 12, "opt": {"n": "70"}, "at": 1, "cue": "vacant"},
+    {"p": "label", "text": "Empty 70 days", "x": 20, "y": 60, "size": 3.8, "at": 1, "cue": "vacant"},
+    {"id": "form5", "p": "label", "text": "Form: 5 days", "x": 55, "y": 35, "size": 4, "color": "red", "bold": true, "at": 1, "cue": "5"},
+    {"p": "cross", "x": 70, "y": 35, "h": 5, "color": "red", "at": 2, "cue": "Michigan"},
+    {"id": "env", "p": "envelope", "x": 58, "y": 47, "h": 12, "opt": {"open": true}, "at": 2, "cue": "mail"},
+    {"p": "label", "text": "Michigan: at least 10 days", "x": 58, "y": 58, "size": 3.8, "bold": true, "color": "blue", "w": 44, "at": 2, "cue": "Michigan"}
+   ],
+   "beats": [
+    {"text": "Last, Section III: common policy conditions, like the rules for canceling.", "say": "Last, Section three: common policy conditions, like the rules for canceling.", "show": 2},
+    {"text": "The 2013 form allows 5 days' notice for certain building conditions, like 60 or more consecutive days vacant or unoccupied. Otherwise, 10 days for nonpayment, 30 for other reasons.", "say": "The twenty thirteen form allows five days' notice for certain building conditions, like sixty or more consecutive days vacant or unoccupied. Otherwise, ten days for nonpayment, thirty for other reasons.", "show": 3, "hl": "cal"},
+    {"text": "But in Michigan, the insurer must mail at least 10 days' notice, for fire or casualty insurance.", "say": "But in Michigan, the insurer must mail at least ten days' notice, for fire or casualty insurance.", "show": 4, "hl": "env"}
    ]
   },
   {
    "type": "quiz",
-   "q": "Under ISO's current businessowners program rules, which business is ineligible for a BOP regardless of its size?",
-   "choices": [
-    "A small office building",
-    "A neighborhood tavern",
-    "A retail gift shop"
-   ],
+   "q": "The Bay City building, insured under the 2013 BOP form, has been vacant 70 consecutive days. In Michigan, the insurer must mail its cancellation notice at least how many days ahead?",
+   "choices": ["5 days, as the form allows", "10 days", "30 days"],
    "answer": 1,
-   "why": "An ordinary bar or tavern is not an eligible BOP class at any size. Offices and retail stores are eligible classes.",
+   "why": "Michigan law requires the insurer to mail cancellation notice at least 10 days before cancellation, for fire and casualty insurance. The form's 5 days isn't enough.",
+   "draw": [
+    {"id": "bld", "p": "store", "x": 24, "y": 18, "h": 22, "opt": {"name": "FOR LEASE"}},
+    {"p": "calendar", "x": 62, "y": 15, "h": 14, "opt": {"n": "70"}},
+    {"p": "label", "text": "Vacant 70 days", "x": 62, "y": 27, "size": 3.8},
+    {"id": "env", "p": "envelope", "x": 28, "y": 48, "h": 13},
+    {"p": "label", "text": "? days' notice", "x": 28, "y": 60, "size": 4, "bold": true, "color": "red"},
+    {"p": "arrow", "from": [34, 41], "to": [26, 32]},
+    {"p": "question", "x": 60, "y": 48, "h": 18, "color": "red"}
+   ],
    "beats": [
-    {
-     "text": "Quick check. Which of these businesses can't get a BOP, no matter how small it is? Pick an answer.",
-     "say": "Quick check. Which of these businesses can't get a B O P, no matter how small it is? Pick an answer."
-    }
+    {"text": "Back to Bay City. Pick an answer.", "say": "Back to Bay City. Pick an answer."}
    ],
    "reveal": [
-    {
-     "text": "The tavern. An ordinary bar or tavern isn't eligible at any size.",
-     "say": "The tavern. An ordinary bar or tavern isn't eligible at any size."
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Section I: property basics",
-   "src": "ISO BP 00 03 07 13, Sec. I A.1, A.3, C.4-5, E.5.d(1)",
-   "items": [
-    {
-     "label": "Open perils",
-     "detail": "Direct physical loss unless excluded or limited",
-     "icon": "shield-check"
-    },
-    {
-     "label": "No coinsurance clause",
-     "detail": "Replacement cost if the limit is at least 80% of full replacement cost",
-     "icon": "percent"
-    },
-    {
-     "label": "Building limit grows 8% a year",
-     "icon": "trending-up",
-     "detail": "Prorated, unless another percentage is shown"
-    },
-    {
-     "label": "Business personal property: 25% seasonal bump",
-     "detail": "Only if insured to 100% of average monthly values",
-     "icon": "calendar"
-    }
-   ],
-   "beats": [
-    {
-     "text": "The property section covers buildings and business personal property on an open perils basis: direct physical loss unless excluded or limited.",
-     "say": "The property section covers buildings and business personal property on an open perils basis: direct physical loss unless excluded or limited.",
-     "show": 1
-    },
-    {
-     "text": "There's no coinsurance clause. Instead, losses are paid at replacement cost if the limit is at least 80% of full replacement cost.",
-     "say": "There's no coinsurance clause. Instead, losses are paid at replacement cost if the limit is at least eighty percent of full replacement cost.",
-     "show": 2
-    },
-    {
-     "text": "Two limits grow on their own: the building limit, 8% a year, and business personal property, a 25% seasonal increase if insured to 100% of average monthly values.",
-     "say": "Two limits grow on their own: the building limit, eight percent a year, and business personal property, a twenty-five percent seasonal increase if insured to one hundred percent of average monthly values.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "formula",
-   "title": "Under 80%: the BOP's settlement math",
-   "src": "ISO BP 00 03 07 13, Sec. I E.5.d(1)(b) (2013 Businessowners form)",
-   "given": [
-    "Full replacement cost: $500,000",
-    "Building limit: $300,000",
-    "Repair cost $60,000; ACV of the loss $40,000",
-    "Repaired promptly; deductible ignored"
-   ],
-   "items": [
-    {
-     "label": "80% of replacement cost",
-     "expr": "$500,000 × 80%",
-     "value": "$400,000"
-    },
-    {
-     "label": "Limit as a share of that",
-     "expr": "$300,000 ÷ $400,000",
-     "value": "0.75"
-    },
-    {
-     "label": "Share of the repair cost",
-     "expr": "$60,000 × 0.75",
-     "value": "$45,000"
-    },
-    {
-     "label": "Pay the greater",
-     "expr": "$45,000 or ACV of $40,000",
-     "value": "$45,000"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Let's work one. A Saginaw shop's building would cost $500,000 to replace. 80% of that is $400,000.",
-     "say": "Let's work one. A Saginaw shop's building would cost five hundred thousand dollars to replace. Eighty percent of that is four hundred thousand dollars.",
-     "show": 1
-    },
-    {
-     "text": "It's insured for only $300,000, which is 0.75 of what's needed.",
-     "say": "It's insured for only three hundred thousand dollars, which is zero point seven five of what's needed.",
-     "show": 2
-    },
-    {
-     "text": "The repair costs $60,000, and it's done promptly. 0.75 of that is $45,000.",
-     "say": "The repair costs sixty thousand dollars, and it's done promptly. Zero point seven five of that is forty-five thousand dollars.",
-     "show": 3
-    },
-    {
-     "text": "The BOP pays the greater of that or actual cash value, here $40,000. So it pays $45,000, ignoring the deductible.",
-     "say": "The B O P pays the greater of that or actual cash value, here forty thousand dollars. So it pays forty-five thousand dollars, ignoring the deductible.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "BOP vs commercial property: numbers that flip",
-   "src": "ISO BP 00 03 07 13, Sec. I A.5.c, A.6.a, A.6.e, C.2; ISO CP 00 10 10 12, A.4.c, A.5.a, A.5.c, C.",
-   "columns": [
-    "Item",
-    "2013 BOP",
-    "2012 CP 00 10"
-   ],
-   "items": [
-    [
-     "Fire department service charge",
-     "$2,500",
-     "$1,000"
-    ],
-    [
-     "Outdoor signs, per sign",
-     "$1,000 (attached)",
-     "$2,500"
-    ],
-    [
-     "Valuable papers",
-     "$10,000 on premises",
-     "$2,500"
-    ],
-    [
-     "Newly acquired building",
-     "$250,000, 30 days",
-     "$250,000, 30 days"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "Some built-in amounts flip. The fire department service charge is $2,500 in the BOP, but $1,000 in commercial property.",
-     "say": "Some built-in amounts flip. The fire department service charge is two thousand five hundred dollars in the B O P, but one thousand dollars in commercial property.",
-     "show": 1
-    },
-    {
-     "text": "Outdoor signs flip the other way: $1,000 per attached sign in the BOP, versus $2,500 in commercial property.",
-     "say": "Outdoor signs flip the other way: one thousand dollars per attached sign in the B O P, versus two thousand five hundred dollars in commercial property.",
-     "show": 2
-    },
-    {
-     "text": "Valuable papers get more in the BOP. And newly acquired buildings get $250,000 for 30 days in both.",
-     "say": "Valuable papers get more in the B O P. And newly acquired buildings get two hundred fifty thousand dollars for thirty days in both.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Business income is built in",
-   "src": "ISO BP 00 03 07 13, Sec. I A.5.f-g, D.3, H.9",
-   "items": [
-    {
-     "label": "Up to 12 months, no dollar limit",
-     "icon": "calendar"
-    },
-    {
-     "label": "Starts 72 hours after the loss",
-     "detail": "Extra Expense starts immediately",
-     "icon": "clock"
-    },
-    {
-     "label": "Ordinary payroll: 60 days",
-     "detail": "Unless more days are shown",
-     "icon": "users"
-    },
-    {
-     "label": "Extended Business Income: 60 days",
-     "detail": "Unless more days are shown",
-     "icon": "trending-up"
-    },
-    {
-     "label": "No deductible",
-     "detail": "Also Extra Expense, Civil Authority, fire department, extinguisher recharge",
-     "icon": "ban"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Business Income is built in. It pays actual loss sustained within 12 consecutive months after the loss, with no dollar limit.",
-     "say": "Business Income is built in. It pays actual loss sustained within twelve consecutive months after the loss, with no dollar limit.",
-     "show": 1
-    },
-    {
-     "text": "It still starts 72 hours after the loss. Extra Expense starts immediately.",
-     "say": "It still starts seventy-two hours after the loss. Extra Expense starts immediately.",
-     "show": 2
-    },
-    {
-     "text": "Ordinary payroll is covered for 60 days, and Extended Business Income adds up to 60 days after you reopen.",
-     "say": "Ordinary payroll is covered for sixty days, and Extended Business Income adds up to sixty days after you reopen.",
-     "show": 4
-    },
-    {
-     "text": "No deductible applies to Business Income, Extra Expense, Civil Authority, the fire department service charge or fire extinguisher recharge.",
-     "say": "No deductible applies to Business Income, Extra Expense, Civil Authority, the fire department service charge or fire extinguisher recharge.",
-     "show": 5
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "A fire closes a bakery insured under the 2013 ISO Businessowners form for five months. Which statement about its Business Income coverage is correct?",
-   "choices": [
-    "It is capped at the business personal property limit",
-    "It pays actual loss sustained within 12 months, with no dollar limit",
-    "It begins immediately after the fire, with no waiting period"
-   ],
-   "answer": 1,
-   "why": "BOP Business Income pays actual loss sustained within 12 consecutive months after the loss and is not subject to the Section I limits. It begins 72 hours after the loss.",
-   "beats": [
-    {
-     "text": "Your turn. A fire closes a BOP-insured bakery for five months. Which statement about its Business Income is correct? Pick an answer.",
-     "say": "Your turn. A fire closes a B O P-insured bakery for five months. Which statement about its Business Income is correct? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "Twelve months, no dollar limit. And it starts after 72 hours, not immediately.",
-     "say": "Twelve months, no dollar limit. And it starts after seventy-two hours, not immediately."
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Section II: liability",
-   "src": "ISO BP 00 03 07 13, Sec. II A.1-2, B.1.j, C., D.1-4",
-   "items": [
-    {
-     "label": "Business Liability",
-     "detail": "Bodily injury, property damage, personal and advertising injury",
-     "icon": "shield"
-    },
-    {
-     "label": "Medical Expenses",
-     "detail": "Accidents; incurred and reported within one year",
-     "icon": "heart-pulse"
-    },
-    {
-     "label": "Each aggregate is 2 times the limit",
-     "detail": "General and products-completed operations",
-     "icon": "layers"
-    },
-    {
-     "label": "Professional services excluded",
-     "detail": "Such as legal or accounting services",
-     "icon": "ban"
-    }
-   ],
-   "beats": [
-    {
-     "text": "The liability section has two coverages. Business Liability covers bodily injury, property damage, and personal and advertising injury. Medical Expenses pays for accidents, within one year.",
-     "say": "The liability section has two coverages. Business Liability covers bodily injury, property damage, and personal and advertising injury. Medical Expenses pays for accidents, within one year.",
-     "show": 2
-    },
-    {
-     "text": "There's one Liability and Medical Expenses limit. The general aggregate and the products-completed operations aggregate are each twice that limit.",
-     "say": "There's one Liability and Medical Expenses limit. The general aggregate and the products-completed operations aggregate are each twice that limit.",
-     "show": 3
-    },
-    {
-     "text": "Professional services, like accounting, are excluded. And who is an insured mirrors the CGL.",
-     "say": "Professional services, like accounting, are excluded. And who is an insured mirrors the C G L.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "scenario",
-   "title": "Cancellation: the form vs Michigan law",
-   "src": "ISO BP 00 03 07 13, Sec. III A.2; MCL 500.2833(1)(i); MCL 500.3020(1)(b)",
-   "icon": "map-pin",
-   "story": "A Bay City shop's building has sat vacant for 70 days, and the insurer wants to cancel the BOP. The 2013 form allows cancellation on 5 days' notice for long vacancy. How much notice is needed in Michigan?",
-   "items": [
-    {
-     "label": "The 2013 form",
-     "detail": "5 days if vacant or unoccupied 60 or more consecutive days"
-    },
-    {
-     "label": "Otherwise, under the form",
-     "detail": "10 days for nonpayment, 30 days for other reasons"
-    },
-    {
-     "label": "Michigan law",
-     "detail": "Cancellation notice mailed at least 10 days before, for fire or casualty insurance"
-    }
-   ],
-   "answer": "At least 10 days. In Michigan, state law overrides the form's 5-day rule.",
-   "beats": [
-    {
-     "text": "Now the conditions. A Bay City shop's building has been vacant 70 days, and the insurer wants to cancel. How much notice is needed?",
-     "say": "Now the conditions. A Bay City shop's building has been vacant seventy days, and the insurer wants to cancel. How much notice is needed?",
-     "show": 0
-    },
-    {
-     "text": "The 2013 form allows 5 days' notice after 60 or more consecutive days of vacancy or unoccupancy. Otherwise, 10 days for nonpayment, 30 for other reasons.",
-     "say": "The twenty thirteen form allows five days' notice after sixty or more consecutive days of vacancy or unoccupancy. Otherwise, ten days for nonpayment, thirty for other reasons.",
-     "show": 2
-    },
-    {
-     "text": "But in Michigan, state law requires the insurer to mail its cancellation notice at least 10 days before cancellation, for fire and casualty insurance. So: at least 10 days.",
-     "say": "But in Michigan, state law requires the insurer to mail its cancellation notice at least ten days before cancellation, for fire and casualty insurance. So: at least ten days.",
-     "show": 3,
-     "answer": true
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Selected endorsements",
-   "src": "ISO IL 04 15 04 98; ISO BP 04 57 01 06; BP 04 30, BP 04 56, BP 04 57 and BP 04 04 as described by FC&S (2020)",
-   "items": [
-    {
-     "label": "Protective Safeguards",
-     "detail": "P-1 sprinklers, P-2 fire alarm, P-3 security service, P-4 private fire department",
-     "icon": "shield-check"
-    },
-    {
-     "label": "Utility Services: Direct Damage",
-     "detail": "Damage to your property from an off-premises utility interruption",
-     "icon": "zap"
-    },
-    {
-     "label": "Utility Services: Time Element",
-     "detail": "Lost income or extra expense from that interruption",
-     "icon": "clock"
-    },
-    {
-     "label": "Hired and Non-Owned Auto Liability",
-     "detail": "Hired autos, and autos you don't own, used in your business",
-     "icon": "car"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Four endorsements. Protective Safeguards lists devices you must maintain, like P-1, an automatic sprinkler system, and P-2, an automatic fire alarm.",
-     "say": "Four endorsements. Protective Safeguards lists devices you must maintain, like P one, an automatic sprinkler system, and P two, an automatic fire alarm.",
-     "show": 1
-    },
-    {
-     "text": "If you knew a safeguard was impaired and didn't tell the insurer, or didn't keep it working, fire losses are excluded.",
-     "say": "If you knew a safeguard was impaired and didn't tell the insurer, or didn't keep it working, fire losses are excluded.",
-     "show": 1
-    },
-    {
-     "text": "When covered damage to off-premises utility property cuts your service, Direct Damage pays damage to your property, and Time Element pays lost income. Overhead lines count only if scheduled.",
-     "say": "When covered damage to off-premises utility property cuts your service, Direct Damage pays damage to your property, and Time Element pays lost income. Overhead lines count only if scheduled.",
-     "show": 3
-    },
-    {
-     "text": "And Hired and Non-Owned Auto Liability covers hired autos, and autos you don't own, like an employee's car, used in your business.",
-     "say": "And Hired and Non-Owned Auto Liability covers hired autos, and autos you don't own, like an employee's car, used in your business.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "A fire at an off-premises power substation, which is scheduled as power supply property, cuts a florist's electricity. The florist closes for a week. Which BOP endorsement covers the lost income?",
-   "choices": [
-    "Utility Services - Time Element",
-    "Utility Services - Direct Damage",
-    "Protective Safeguards"
-   ],
-   "answer": 0,
-   "why": "Time Element covers Business Income and Extra Expense from the utility interruption. Direct Damage covers physical damage to covered property.",
-   "beats": [
-    {
-     "text": "Last one. A fire at a scheduled off-premises power substation cuts a florist's electricity for a week. Which endorsement covers the lost income? Pick an answer.",
-     "say": "Last one. A fire at a scheduled off-premises power substation cuts a florist's electricity for a week. Which endorsement covers the lost income? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "Time Element. Lost income is time element; Direct Damage covers physical damage to property.",
-     "say": "Time Element. Lost income is time element; Direct Damage covers physical damage to property."
-    }
+    {"text": "10 days. In Michigan, state law overrides the form's 5 days.", "say": "Ten days. In Michigan, state law overrides the form's five days."}
    ]
   },
   {
    "type": "recap",
    "title": "Key takeaways",
    "items": [
-    "An ordinary bar or tavern isn't BOP-eligible at any size",
-    "No coinsurance clause; the 80% replacement cost rule instead",
-    "Business Income: 12 months, no dollar limit, 72-hour wait",
-    "Each liability aggregate is twice the per-occurrence limit",
-    "In Michigan, insurer cancellation needs at least 10 days' notice"
+    "Ordinary bar or tavern: no BOP at any size",
+    "No coinsurance clause: insure to 80% of replacement cost",
+    "Business Income: 12 months, no dollar limit, waits 72 hours",
+    "8, 25, times 2: building 8%, BPP 25%, aggregates twice the limit",
+    "Michigan: insurer cancellation needs at least 10 days' notice"
+   ],
+   "draw": [
+    {"p": "restaurant", "x": 40, "y": 17, "h": 24, "opt": {"name": "TONY'S PIZZA"}},
+    {"p": "person", "x": 24, "y": 50, "h": 28, "opt": {"who": "tony", "pose": "cheer", "mood": "laugh"}},
+    {"p": "person", "x": 52, "y": 50, "h": 28, "opt": {"who": "dana", "pose": "wave"}},
+    {"p": "pizza", "x": 70, "y": 58, "h": 10}
    ],
    "beats": [
-    {
-     "text": "Let's recap. A tavern can't get a BOP. There's no coinsurance, just the 80% rule. Business Income runs 12 months, with no dollar limit.",
-     "say": "Let's recap. A tavern can't get a B O P. There's no coinsurance, just the eighty percent rule. Business Income runs twelve months, with no dollar limit.",
-     "show": 3
-    },
-    {
-     "text": "Each liability aggregate is twice the limit. And in Michigan, an insurer's cancellation takes at least 10 days' notice.",
-     "say": "Each liability aggregate is twice the limit. And in Michigan, an insurer's cancellation takes at least ten days' notice.",
-     "show": 5
-    }
+    {"text": "No BOP for taverns. Business Income: 12 months, no dollar limit.", "say": "No B O P for taverns. Business Income: twelve months, no dollar limit.", "show": 3},
+    {"text": "Remember 8, 25, times 2. And in Michigan, insurer cancellation needs at least 10 days' notice.", "say": "Remember eight, twenty-five, times two. And in Michigan, insurer cancellation needs at least ten days' notice.", "show": 5},
+    {"text": "Next year? I'm insuring to 80%.", "say": "Next year? I'm insuring to eighty percent.", "voice": "tony", "show": 5}
    ]
   }
  ],
  "check": [
   "comm-044",
   "comm-046",
-  "comm-049",
   "comm-051",
-  "comm-052"
+  "comm-052",
+  "comm-057"
  ],
- "hooks": [],
+ "hooks": [
+  "mn-mn_comm-17",
+  "mn-mn_comm-18",
+  "mn-mn_comm-19",
+  "mn-mn_comm-20"
+ ],
  "sources": [
-  "ISO BP 00 03 07 13",
+  "ISO BP 00 03 07 13 (2013 Businessowners Coverage Form)",
   "ISO Businessowners Policy (BOP) Program overview (Feb. 11, 2025)",
   "IRMI white paper 'Businessowners Policy Basics'",
   "ISO circular LI-BP-2024-315; IRMI 'Major Changes to the 2025 ISO Businessowners Program' (2025)",
   "ISO CP 00 10 10 12",
+  "ISO CP 00 30 10 12 (Business Income and Extra Expense definitions)",
   "MCL 500.2833(1)(i)",
   "MCL 500.3020(1)(b)",
   "ISO IL 04 15 04 98",
   "ISO BP 04 57 01 06",
   "FC&S 'Businessowners Program Endorsements Described' (2020)",
   "PSI Series 16-81 content outline",
-  "Memory hooks mn-mn_comm-17, mn-mn_comm-18, mn-mn_comm-19, mn-mn_comm-20 (ideas reused, not shown)"
+  "Questions comm-044 to comm-046, comm-049 to comm-059, comm-bop-04, comm-bop-12",
+  "Flashcards comm_cards 25-33",
+  "Memory hooks mn_comm-07, mn_comm-08, mn_comm-17 to mn_comm-20; confusion pairs cp_commercial-08, cp_personal-05; summary vs_commercial-05"
  ]
 }

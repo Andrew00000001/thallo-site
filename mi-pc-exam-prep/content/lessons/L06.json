@@ -1,535 +1,2551 @@
 {
-  "id": "L06",
-  "sec": "basics",
-  "guide": "basics",
-  "title": "Hazards, perils, losses and valuation",
-  "summary": "Insurable interest, underwriting and the loss ratio, three hazards, named vs open perils, direct vs indirect loss, construction and loss valuation.",
-  "objectives": [
-    "Explain insurable interest, underwriting and the loss ratio",
-    "Tell physical, moral and morale hazards apart",
-    "Contrast named vs open perils and direct vs consequential loss",
-    "Value a loss: ACV, replacement cost, agreed value and stated amount"
-  ],
-  "scenes": [
+ "id": "L06",
+ "sec": "basics",
+ "guide": "basics",
+ "title": "Hazards, perils, losses and valuation",
+ "summary": "Follow Tony's Pizza in Detroit: insurable interest, underwriting, hazards vs perils, construction classes, direct vs indirect loss and valuing a loss.",
+ "objectives": [
+  "Explain insurable interest, underwriting and the loss ratio",
+  "Tell physical, moral and morale hazards apart, and a hazard from a peril",
+  "Contrast open vs named perils, blanket vs specific, direct vs indirect loss",
+  "Value a loss: replacement cost, ACV, functional, stated amount, agreed value"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Tony's big move",
+   "subtitle": "How an insurer sizes up Tony's pizza shop, and how it puts a dollar value on a loss",
+   "draw": [
     {
-      "type": "title",
-      "title": "Hazards, perils, losses and valuation",
-      "subtitle": "How insurers size up a risk, and how they put a dollar value on a loss",
-      "icon": "house",
-      "beats": [
-        {
-          "text": "Property and Casualty Insurance Basics is 20% of your exam, about 30 questions.",
-          "say": "Property and Casualty Insurance Basics is twenty percent of your exam, about thirty questions."
-        },
-        {
-          "text": "Here's how insurers size up a risk and value a loss.",
-          "say": "Here's how insurers size up a risk and value a loss."
-        }
-      ]
+     "id": "shop",
+     "p": "restaurant",
+     "x": 32,
+     "y": 36,
+     "h": 38,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-      "type": "bullets",
-      "title": "Insurable interest and underwriting",
-      "src": "IRMI glossary: insurable interest; underwriting; ISO HO 00 03 05 11, Sec. I Cond. A; ISO CP 00 10 10 12, E.4.d",
-      "items": [
-        {
-          "label": "Insurable interest",
-          "detail": "Your financial or legal relationship to what's insured",
-          "icon": "link"
-        },
-        {
-          "label": "Property: at the time of loss",
-          "detail": "You're paid no more than your interest when the loss happens",
-          "icon": "house"
-        },
-        {
-          "label": "Liability: potential legal liability",
-          "detail": "The interest comes from your potential legal liability",
-          "icon": "scale"
-        },
-        {
-          "label": "Underwriting",
-          "detail": "Accept the risk? How much insurance? At what rate?",
-          "icon": "clipboard-list"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Insurable interest is your financial or legal relationship to what's insured.",
-          "say": "Insurable interest is your financial or legal relationship to what's insured.",
-          "show": 1
-        },
-        {
-          "text": "For property insurance, it must exist at the time of the loss, and you're paid no more than your interest.",
-          "say": "For property insurance, it must exist at the time of the loss, and you're paid no more than your interest.",
-          "show": 2
-        },
-        {
-          "text": "For liability insurance, it comes from your potential legal liability.",
-          "say": "For liability insurance, it comes from your potential legal liability.",
-          "show": 3
-        },
-        {
-          "text": "Underwriting decides whether to accept a risk, how much insurance to write, and at what rate. Paying claims is claims handling, not underwriting.",
-          "say": "Underwriting decides whether to accept a risk, how much insurance to write, and at what rate. Paying claims is claims handling, not underwriting.",
-          "show": 4
-        }
-      ]
+     "id": "tony",
+     "p": "person",
+     "x": 74,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "tony",
+      "pose": "wave",
+      "mood": "happy"
+     }
     },
     {
-      "type": "formula",
-      "title": "Loss ratio",
-      "src": "IRMI glossary: loss ratio; expense ratio; combined ratio",
-      "given": [
-        "Incurred losses: $50,000",
-        "Earned premium: $100,000"
-      ],
-      "items": [
-        {
-          "label": "Formula",
-          "expr": "Incurred losses ÷ earned premium",
-          "value": "Loss ratio"
-        },
-        {
-          "label": "This example",
-          "expr": "$50,000 ÷ $100,000",
-          "value": "50%"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Underwriters watch the loss ratio: incurred losses divided by earned premium.",
-          "say": "Underwriters watch the loss ratio: incurred losses divided by earned premium.",
-          "show": 1
-        },
-        {
-          "text": "$50,000 of incurred losses on $100,000 of earned premium is a 50% loss ratio.",
-          "say": "Fifty thousand dollars of incurred losses on one hundred thousand dollars of earned premium is a fifty percent loss ratio.",
-          "show": 2
-        },
-        {
-          "text": "Add the expense ratio to get the combined ratio. Under 100% means an underwriting profit.",
-          "say": "Add the expense ratio to get the combined ratio. Under one hundred percent means an underwriting profit.",
-          "show": 2
-        }
-      ]
+     "id": "box",
+     "p": "parcel",
+     "x": 61,
+     "y": 55,
+     "h": 8,
+     "anim": "drop"
     },
     {
-      "type": "hook",
-      "title": "Three kinds of hazard",
-      "src": "IRMI glossary: hazard; physical, moral and morale hazard (adapted from hook mn-mn_core-10)",
-      "hook": "Physical = the Property. Moral = the Person's character. Morale = 'Meh': careless because insurance will pay.",
-      "items": [
-        "Physical: a tangible condition, like oily rags stored by a furnace",
-        "Moral: dishonesty, or a motive to profit from a loss, like a money-losing business",
-        "Morale: indifference, like leaving doors unlocked because insurance will pay",
-        "A fire or a tornado is a peril, not a hazard"
-      ],
-      "beats": [
-        {
-          "text": "A hazard raises the chance of loss. Physical is the Property, Moral is the Person, Morale is Meh.",
-          "say": "A hazard raises the chance of loss. Physical is the Property, Moral is the Person, Morale is Meh.",
-          "show": 0
-        },
-        {
-          "text": "A physical hazard is a tangible condition, like oily rags stored next to a furnace.",
-          "say": "A physical hazard is a tangible condition, like oily rags stored next to a furnace.",
-          "show": 1
-        },
-        {
-          "text": "A moral hazard comes from the insured's character or circumstances, like dishonesty or a motive to profit from a loss. A money-losing business carries more of it.",
-          "say": "A moral hazard comes from the insured's character or circumstances, like dishonesty or a motive to profit from a loss. A money-losing business carries more of it.",
-          "show": 2
-        },
-        {
-          "text": "A morale hazard is indifference: the insured gets careless because insurance will pay. It's about attitude, not honesty.",
-          "say": "A morale hazard is indifference: the insured gets careless because insurance will pay. It's about attitude, not honesty.",
-          "show": 3
-        },
-        {
-          "text": "And a fire or a tornado is a peril, not a hazard.",
-          "say": "And a fire or a tornado is a peril, not a hazard.",
-          "show": 4
-        }
-      ]
+     "id": "oven",
+     "p": "oven",
+     "x": 61,
+     "y": 46,
+     "h": 10,
+     "at": 1,
+     "cue": "oven",
+     "anim": "drop"
     },
     {
-      "type": "quiz",
-      "q": "After buying renters coverage, a tenant stops bothering to lock her apartment door. This is an example of:",
-      "choices": [
-        "Physical hazard",
-        "Moral hazard",
-        "Morale hazard",
-        "Peril"
-      ],
-      "answer": 2,
-      "why": "She is careless because insurance will cover the loss. That is morale hazard: attitude, not dishonesty.",
-      "beats": [
-        {
-          "text": "Try this. After buying renters coverage, a tenant stops bothering to lock her apartment door. Which hazard is that? Pick an answer.",
-          "say": "Try this. After buying renters coverage, a tenant stops bothering to lock her apartment door. Which hazard is that? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "Morale hazard. She's careless because insurance will pay. Moral hazard would mean dishonesty, like a record of insurance fraud.",
-          "say": "Morale hazard. She's careless because insurance will pay. Moral hazard would mean dishonesty, like a record of insurance fraud."
-        }
-      ]
-    },
-    {
-      "type": "compare",
-      "title": "Named perils vs. open perils",
-      "src": "IRMI glossary: named perils; open perils; special perils; Heniser v Frankenmuth Mut Ins Co, 449 Mich 155 (1995)",
-      "columns": [
-        {
-          "name": "Named perils",
-          "icon": "clipboard-list",
-          "points": [
-            "Covers only the perils listed",
-            "Michigan: the insured must prove coverage"
-          ]
-        },
-        {
-          "name": "Special (open) perils",
-          "icon": "umbrella",
-          "points": [
-            "Covers all causes of loss except exclusions",
-            "Formerly called all risks",
-            "Michigan: the insurer must prove an exclusion applies"
-          ]
-        }
-      ],
-      "tell": "A list of what IS covered means named perils. A list of only exclusions means open perils.",
-      "beats": [
-        {
-          "text": "Named perils coverage covers only the perils listed. In Michigan, the insured bears the burden of proving coverage.",
-          "say": "Named perils coverage covers only the perils listed. In Michigan, the insured bears the burden of proving coverage.",
-          "show": 1
-        },
-        {
-          "text": "Special, or open, perils covers all causes of loss except those specifically excluded. It used to be called all risks. In Michigan, the insurer must prove an exclusion applies.",
-          "say": "Special, or open, perils covers all causes of loss except those specifically excluded. It used to be called all risks. In Michigan, the insurer must prove an exclusion applies.",
-          "show": 2
-        },
-        {
-          "text": "So: a list of what's covered means named perils; a list of only exclusions means open.",
-          "say": "So: a list of what's covered means named perils; a list of only exclusions means open.",
-          "show": 2,
-          "tell": true
-        }
-      ]
-    },
-    {
-      "type": "compare",
-      "title": "Direct vs. consequential loss",
-      "src": "IRMI glossary: direct loss; consequential loss",
-      "columns": [
-        {
-          "name": "Direct loss",
-          "icon": "flame",
-          "points": [
-            "Direct physical damage to the property",
-            "Example: fire chars a kitchen"
-          ]
-        },
-        {
-          "name": "Consequential (indirect) loss",
-          "icon": "receipt",
-          "points": [
-            "Results from the direct damage",
-            "Loss of rent, business income, extra expense"
-          ]
-        }
-      ],
-      "tell": "Is it the physical damage itself, or a money loss that follows because of it?",
-      "beats": [
-        {
-          "text": "A direct loss comes from direct physical damage to the property, like fire charring a kitchen.",
-          "say": "A direct loss comes from direct physical damage to the property, like fire charring a kitchen.",
-          "show": 1
-        },
-        {
-          "text": "A consequential, or indirect, loss results from that damage: loss of rent, business income or extra expense.",
-          "say": "A consequential, or indirect, loss results from that damage: loss of rent, business income or extra expense.",
-          "show": 2
-        },
-        {
-          "text": "Ask: is it the damage itself, or a money loss that follows?",
-          "say": "Ask: is it the damage itself, or a money loss that follows?",
-          "show": 2,
-          "tell": true
-        }
-      ]
-    },
-    {
-      "type": "compare",
-      "title": "Blanket vs. specific insurance",
-      "src": "ISO CP 03 21 10 12 (definitions); IRMI glossary: blanket limit; ISO CP 00 10 10 12, F.1.b",
-      "columns": [
-        {
-          "name": "Specific insurance",
-          "icon": "box",
-          "points": [
-            "Each item has its own limit",
-            "For example, each building separately"
-          ]
-        },
-        {
-          "name": "Blanket insurance",
-          "icon": "layers",
-          "points": [
-            "One limit covers two or more items or locations",
-            "Coinsurance applies to the total value under that limit"
-          ]
-        }
-      ],
-      "tell": "One limit for many items is blanket. A limit for each item is specific.",
-      "beats": [
-        {
-          "text": "With specific insurance, each item, like each building, has its own limit.",
-          "say": "With specific insurance, each item, like each building, has its own limit.",
-          "show": 1
-        },
-        {
-          "text": "With blanket insurance, one limit covers two or more items or locations, and coinsurance applies to the total value under it.",
-          "say": "With blanket insurance, one limit covers two or more items or locations, and coinsurance applies to the total value under it.",
-          "show": 2,
-          "tell": true
-        }
-      ]
-    },
-    {
-      "type": "table",
-      "title": "Six construction classes",
-      "src": "IRMI glossary: construction classes (ISO Commercial Lines Manual codes 1 to 6)",
-      "columns": [
-        "Code",
-        "Class",
-        "Key feature"
-      ],
-      "items": [
-        [
-          "1",
-          "Frame",
-          "Wood or veneer exterior walls"
-        ],
-        [
-          "2",
-          "Joisted masonry",
-          "Masonry walls; combustible floor and roof"
-        ],
-        [
-          "3",
-          "Noncombustible",
-          "Noncombustible walls, floor and supports"
-        ],
-        [
-          "4",
-          "Masonry noncombustible",
-          "Masonry walls; noncombustible floor and roof"
-        ],
-        [
-          "5",
-          "Modified fire resistive",
-          "Rated 1 hour to under 2 hours"
-        ],
-        [
-          "6",
-          "Fire resistive",
-          "Rated at least 2 hours"
-        ]
-      ],
-      "beats": [
-        {
-          "text": "There are six construction classes. Code 1, frame, is the least fire-resistive. Code 2 is joisted masonry.",
-          "say": "There are six construction classes. Code one, frame, is the least fire-resistive. Code two is joisted masonry.",
-          "show": 2
-        },
-        {
-          "text": "Code 3 is noncombustible, and code 4 is masonry noncombustible.",
-          "say": "Code three is noncombustible, and code four is masonry noncombustible.",
-          "show": 4
-        },
-        {
-          "text": "Code 5, modified fire resistive, is rated at least 1 hour but under 2. Code 6, fire resistive, is rated at least 2 hours, the most fire-resistive.",
-          "say": "Code five, modified fire resistive, is rated at least one hour but under two. Code six, fire resistive, is rated at least two hours, the most fire-resistive.",
-          "show": 6
-        }
-      ]
-    },
-    {
-      "type": "hook",
-      "title": "Three ways to value property",
-      "src": "IRMI glossary: replacement cost; actual cash value; functional replacement cost",
-      "mn": "mn-mn_core-16",
-      "hook": "Replacement cost buys it new. ACV blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
-      "items": [
-        "Replacement cost: like kind and quality, no deduction for depreciation",
-        "Actual cash value: often replacement cost minus depreciation",
-        "It can also be fair market value or the broad evidence rule",
-        "Functional replacement: does the same job equally well, need not be identical"
-      ],
-      "beats": [
-        {
-          "text": "Now, valuing a loss. Replacement cost buys it new. Actual cash value blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
-          "say": "Now, valuing a loss. Replacement cost buys it new. Actual cash value blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
-          "show": 0
-        },
-        {
-          "text": "Replacement cost means like kind and quality, with no deduction for depreciation.",
-          "say": "Replacement cost means like kind and quality, with no deduction for depreciation.",
-          "show": 1
-        },
-        {
-          "text": "Actual cash value is often replacement cost minus depreciation. Depending on the policy and state law, it can also be fair market value or the broad evidence rule.",
-          "say": "Actual cash value is often replacement cost minus depreciation. Depending on the policy and state law, it can also be fair market value or the broad evidence rule.",
-          "show": 3
-        },
-        {
-          "text": "Functional replacement cost pays for property that does the same job with equal efficiency, even if it isn't identical.",
-          "say": "Functional replacement cost pays for property that does the same job with equal efficiency, even if it isn't identical.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "formula",
-      "title": "Actual cash value of a roof",
-      "src": "IRMI glossary: actual cash value (example as in hook mn-mn_core-16 and question core-034)",
-      "given": [
-        "Replacement cost today: $20,000",
-        "Depreciation: 40%"
-      ],
-      "items": [
-        {
-          "label": "Depreciation",
-          "expr": "40% × $20,000",
-          "value": "$8,000"
-        },
-        {
-          "label": "Actual cash value",
-          "expr": "$20,000 − $8,000",
-          "value": "$12,000"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Let's work one. A roof would cost $20,000 to replace today and has depreciated 40%. What's its actual cash value?",
-          "say": "Let's work one. A roof would cost twenty thousand dollars to replace today and has depreciated forty percent. What's its actual cash value?",
-          "show": 0
-        },
-        {
-          "text": "Depreciation is 40% of $20,000, or $8,000.",
-          "say": "Depreciation is forty percent of twenty thousand dollars, or eight thousand dollars.",
-          "show": 1
-        },
-        {
-          "text": "So actual cash value is $20,000 minus $8,000, or $12,000. Watch out: $8,000 is the depreciation, not the answer.",
-          "say": "So actual cash value is twenty thousand dollars minus eight thousand dollars, or twelve thousand dollars. Watch out: eight thousand dollars is the depreciation, not the answer.",
-          "show": 2
-        }
-      ]
-    },
-    {
-      "type": "hook",
-      "title": "Agreed value vs. stated amount",
-      "src": "ISO CP 00 10 10 12, G.1 (2012 BPP); ISO CA 99 28 03 10, B.1-3 and Schedule note (2010 Stated Amount endorsement)",
-      "mn": "mn-mn_core-17",
-      "hook": "Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise: you get the LEAST of ACV, repair cost or the stated amount.",
-      "items": [
-        "Agreed value (2012 BPP option): coinsurance suspended until its expiration date",
-        "Stated amount (2010 auto endorsement): pays the least of three amounts",
-        "Least of: actual cash value, cost to repair or replace, or stated amount",
-        "The stated amount is a ceiling, not a guaranteed payment"
-      ],
-      "beats": [
-        {
-          "text": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise.",
-          "say": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise.",
-          "show": 0
-        },
-        {
-          "text": "Agreed value is an optional coverage in the 2012 Building and Personal Property form. It suspends the Coinsurance condition until the agreed value expiration date.",
-          "say": "Agreed value is an optional coverage in the twenty twelve Building and Personal Property form. It suspends the Coinsurance condition until the agreed value expiration date.",
-          "show": 1
-        },
-        {
-          "text": "Stated amount is common for auto physical damage. Under the 2010 endorsement, the insurer pays the least of actual cash value, repair or replacement cost, or the stated amount.",
-          "say": "Stated amount is common for auto physical damage. Under the twenty ten endorsement, the insurer pays the least of actual cash value, repair or replacement cost, or the stated amount.",
-          "show": 3
-        },
-        {
-          "text": "So you can get less than the stated amount.",
-          "say": "So you can get less than the stated amount.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "quiz",
-      "q": "Under the 2010 ISO Stated Amount endorsement, a van with a $30,000 stated amount is totaled. Its ACV is $26,000; like-kind replacement is $28,000. Ignoring the deductible, the insurer pays:",
-      "choices": [
-        "$26,000",
-        "$28,000",
-        "$30,000"
-      ],
-      "answer": 0,
-      "why": "Stated amount pays the least of actual cash value, repair or replacement cost, or the stated amount. The least here is the $26,000 actual cash value.",
-      "beats": [
-        {
-          "text": "Your turn. Under the 2010 endorsement, a van with a stated amount of $30,000 is totaled. Its actual cash value is $26,000, and like-kind replacement is $28,000. Ignoring the deductible, what's paid? Pick an answer.",
-          "say": "Your turn. Under the twenty ten endorsement, a van with a stated amount of thirty thousand dollars is totaled. Its actual cash value is twenty six thousand dollars, and like-kind replacement is twenty eight thousand dollars. Ignoring the deductible, what's paid? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "$26,000, the actual cash value, because it's the least of the three. The stated amount of $30,000 is only a ceiling.",
-          "say": "Twenty six thousand dollars, the actual cash value, because it's the least of the three. The stated amount of thirty thousand dollars is only a ceiling."
-        }
-      ]
-    },
-    {
-      "type": "recap",
-      "items": [
-        "Property insurable interest must exist at the time of loss",
-        "Physical is the property, moral the person, morale is 'meh'",
-        "Named perils lists what's covered; open perils lists exclusions",
-        "Actual cash value is often replacement cost minus depreciation",
-        "Stated amount is a ceiling; agreed value suspends coinsurance"
-      ],
-      "beats": [
-        {
-          "text": "To recap: property insurable interest must exist at the time of loss. Physical is the property, moral the person, morale is meh.",
-          "say": "To recap: property insurable interest must exist at the time of loss. Physical is the property, moral the person, morale is meh.",
-          "show": 2
-        },
-        {
-          "text": "Named perils lists what's covered. Actual cash value is often replacement cost minus depreciation. And stated amount is only a ceiling.",
-          "say": "Named perils lists what's covered. Actual cash value is often replacement cost minus depreciation. And stated amount is only a ceiling.",
-          "show": 5
-        }
-      ]
+     "p": "bubble",
+     "text": "What could possibly go wrong?",
+     "x": 70,
+     "y": 12,
+     "w": 30,
+     "to": "tony",
+     "at": 1
     }
-  ],
-  "check": [
-    "core-021",
-    "core-bas-05",
-    "core-031",
-    "core-034",
-    "core-bas-11"
-  ],
-  "hooks": [
-    "mn-mn_core-16",
-    "mn-mn_core-17"
-  ],
-  "sources": [
-    "IRMI glossary",
-    "ISO HO 00 03 05 11, Sec. I Cond. A",
-    "ISO CP 00 10 10 12 (2012 BPP), E.4.d, E.7.a, F.1.b, G.1",
-    "ISO CP 03 21 10 12",
-    "ISO CA 99 28 03 10 (2010 Stated Amount Insurance endorsement)",
-    "Heniser v Frankenmuth Mut Ins Co, 449 Mich 155 (1995)",
-    "ISO Commercial Lines Manual construction codes (via IRMI)"
-  ]
+   ],
+   "beats": [
+    {
+     "text": "Meet Tony, who just moved his pizza shop into a bigger Detroit building. His week covers Property and Casualty Basics: 20% of your exam, about 30 questions.",
+     "say": "Meet Tony, who just moved his pizza shop into a bigger Detroit building. His week covers Property and Casualty Basics: twenty percent of your exam, about thirty questions."
+    },
+    {
+     "text": "New shop, new oven. What could possibly go wrong?",
+     "say": "New shop, new oven. What could possibly go wrong?",
+     "voice": "tony"
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Why Tony can insure his building",
+   "src": "IRMI glossary: insurable interest; ISO CP 00 10 10 12, E.4.d; ISO HO 00 03 05 11, Sec. I Cond. A; question core-021",
+   "kind": "Term",
+   "term": "Insurable interest",
+   "plain": "A real stake in what's insured, financial or legal. It usually comes from property rights like ownership, a contract, or potential legal liability.",
+   "example": "Tony owns his new building and the ovens inside, so he has an insurable interest in both.",
+   "exam": "Property: it must exist at the time of the loss, and you're paid no more than your interest. Liability: it comes from potential legal liability.",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 26,
+     "y": 21,
+     "h": 28,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "oven",
+     "p": "oven",
+     "x": 22,
+     "y": 55,
+     "h": 15,
+     "at": 0,
+     "cue": "ovens"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 64,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "tony",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "flip": true
+    },
+    {
+     "p": "arrow",
+     "from": "tony",
+     "to": "shop",
+     "label": "owns",
+     "color": "green",
+     "at": 0,
+     "cue": "owns"
+    },
+    {
+     "p": "arrow",
+     "from": "tony",
+     "to": "oven",
+     "color": "green",
+     "at": 0,
+     "cue": "ovens"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony owns his building and ovens, so he has an insurable interest in them: a financial or legal relationship to what's insured.",
+     "say": "Tony owns his building and ovens, so he has an insurable interest in them: a financial or legal relationship to what's insured.",
+     "show": 3,
+     "hl": "shop"
+    },
+    {
+     "text": "For property insurance, it must exist at the time of the loss. For liability, it comes from your potential legal liability.",
+     "say": "For property insurance, it must exist at the time of the loss. For liability, it comes from your potential legal liability.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: the old shop burns",
+   "src": "ISO CP 00 10 10 12, E.4.d; ISO HO 00 03 05 11, Sec. I Cond. A and Cond. E (Assignment); IRMI: insurable interest; question core-021",
+   "ask": "What does Tony do?",
+   "draw": [
+    {
+     "id": "old",
+     "p": "store",
+     "x": 32,
+     "y": 27,
+     "h": 30,
+     "opt": {
+      "name": "BAKERY"
+     }
+    },
+    {
+     "p": "fire",
+     "x": 20,
+     "y": 15,
+     "h": 13,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "fire",
+     "x": 42,
+     "y": 16,
+     "h": 10,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "id": "baker",
+     "p": "person",
+     "x": 66,
+     "y": 32,
+     "h": 30,
+     "opt": {
+      "who": "person",
+      "hat": "chef",
+      "hair": "long",
+      "shirt": "pink",
+      "pose": "shrug",
+      "mood": "shocked"
+     }
+    },
+    {
+     "p": "note",
+     "text": "March: Tony sold this empty shop to a baker",
+     "x": 100,
+     "y": 42,
+     "w": 38
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 138,
+     "y": 32,
+     "h": 32,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Uh oh. I never canceled that policy.",
+     "x": 102,
+     "y": 10,
+     "w": 38,
+     "to": "tony",
+     "think": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "In March, Tony sold his empty old shop to a baker, but forgot to cancel its insurance. In May, it burns. What does Tony do?",
+     "say": "In March, Tony sold his empty old shop to a baker, but forgot to cancel its insurance. In May, it burns. What does Tony do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Claim it. I still pay the premium!",
+     "ok": false,
+     "fail": "Paying the premium isn't enough. For property insurance, insurable interest must exist at the time of the loss, and Tony sold the shop in March.",
+     "beats": [
+      {
+       "text": "Tony files. The insurer pays nothing: when it burned, the shop wasn't his.",
+       "say": "Tony files. The insurer pays nothing: when it burned, the shop wasn't his."
+      },
+      {
+       "text": "But I paid!",
+       "say": "But I paid!",
+       "voice": "tony"
+      }
+     ],
+     "draw": [
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 30,
+       "y": 26,
+       "h": 32
+      },
+      {
+       "p": "num",
+       "text": "$0",
+       "x": 70,
+       "y": 20,
+       "size": 14,
+       "color": "red"
+      },
+      {
+       "p": "label",
+       "text": "Not his shop when it burned",
+       "x": 70,
+       "y": 38,
+       "size": 4.5,
+       "w": 34,
+       "color": "red"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 112,
+       "y": 32,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "hold": "money",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "But I paid!",
+       "x": 112,
+       "y": 6,
+       "w": 22,
+       "to": "tony",
+       "at": 1,
+       "cue": "paid"
+      }
+     ]
+    },
+    {
+     "label": "Claim it. I owned it when the policy began!",
+     "ok": false,
+     "fail": "Owning it when the policy began isn't enough. Property insurance pays no more than your interest at the time of the loss.",
+     "beats": [
+      {
+       "text": "Owning it then doesn't count. He's paid no more than his interest when it burned: zero.",
+       "say": "Owning it then doesn't count. He's paid no more than his interest when it burned: zero."
+      }
+     ],
+     "draw": [
+      {
+       "id": "c1",
+       "p": "calendar",
+       "x": 16,
+       "y": 19,
+       "h": 18,
+       "opt": {
+        "n": "Own"
+       }
+      },
+      {
+       "id": "c2",
+       "p": "calendar",
+       "x": 46,
+       "y": 19,
+       "h": 18,
+       "opt": {
+        "n": "Sold"
+       }
+      },
+      {
+       "id": "c3",
+       "p": "calendar",
+       "x": 76,
+       "y": 19,
+       "h": 18,
+       "opt": {
+        "n": "Fire"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Policy starts",
+       "x": 16,
+       "y": 33,
+       "size": 4
+      },
+      {
+       "p": "label",
+       "text": "March",
+       "x": 46,
+       "y": 33,
+       "size": 4
+      },
+      {
+       "p": "label",
+       "text": "May",
+       "x": 76,
+       "y": 33,
+       "size": 4
+      },
+      {
+       "p": "arrow",
+       "from": "c1",
+       "to": "c2",
+       "bend": 0.2
+      },
+      {
+       "p": "arrow",
+       "from": "c2",
+       "to": "c3",
+       "bend": 0.2
+      },
+      {
+       "p": "ring",
+       "on": "c3",
+       "color": "red"
+      },
+      {
+       "p": "label",
+       "text": "In May, the baker owned it",
+       "x": 76,
+       "y": 44,
+       "size": 4.2,
+       "w": 34,
+       "color": "red"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 118,
+       "y": 32,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "sad",
+        "mood": "sad"
+       }
+      },
+      {
+       "p": "num",
+       "text": "$0",
+       "x": 142,
+       "y": 38,
+       "size": 10,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "label": "Skip it. The baker owned it when it burned",
+     "ok": true,
+     "win": "Interest must exist at the time of loss. In May, the shop was the baker's, and Tony's policy can't pass to her without the insurer's written consent.",
+     "beats": [
+      {
+       "text": "Right. When it burned, the shop was the baker's. Tony had no interest left.",
+       "say": "Right. When it burned, the shop was the baker's. Tony had no interest left."
+      }
+     ],
+     "draw": [
+      {
+       "id": "old",
+       "p": "store",
+       "x": 30,
+       "y": 26,
+       "h": 28,
+       "opt": {
+        "name": "BAKERY"
+       }
+      },
+      {
+       "p": "fire",
+       "x": 19,
+       "y": 14,
+       "h": 9,
+       "loop": "flicker",
+       "over": true
+      },
+      {
+       "p": "fire",
+       "x": 41,
+       "y": 15,
+       "h": 7,
+       "loop": "flicker",
+       "over": true
+      },
+      {
+       "id": "baker",
+       "p": "person",
+       "x": 64,
+       "y": 32,
+       "h": 30,
+       "flip": true,
+       "opt": {
+        "who": "person",
+        "hat": "chef",
+        "hair": "long",
+        "shirt": "pink",
+        "pose": "point",
+        "mood": "neutral"
+       }
+      },
+      {
+       "p": "label",
+       "text": "The owner at the time of loss",
+       "x": 64,
+       "y": 54,
+       "size": 4.4,
+       "w": 46
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 128,
+       "y": 34,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "neutral"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Not my shop. Not my claim.",
+       "x": 136,
+       "y": 7,
+       "w": 30,
+       "to": "tony"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "For property, insurable interest must exist at the time of the loss.",
+     "say": "For property, insurable interest must exist at the time of the loss."
+    }
+   ]
+  },
+  {
+   "type": "slider",
+   "title": "The underwriter sizes up Tony",
+   "src": "IRMI glossary: underwriting; loss ratio; expense ratio; combined ratio; questions core-bas-02, core-022",
+   "calc": "lossratio",
+   "params": {
+    "premium": 100000
+   },
+   "var": {
+    "key": "losses",
+    "label": "Incurred losses",
+    "min": 0,
+    "max": 120000,
+    "step": 5000,
+    "start": 100000,
+    "money": true
+   },
+   "goal": {
+    "op": "eq",
+    "value": 50,
+    "text": "Say the insurer's book has $100,000 of earned premium. Find the incurred losses that make a 50% loss ratio.",
+    "done": "$50,000 of losses: a 50% loss ratio"
+   },
+   "draw": [
+    {
+     "id": "uw",
+     "p": "person",
+     "x": 18,
+     "y": 40,
+     "h": 30,
+     "opt": {
+      "who": "person",
+      "hair": "bun",
+      "hairColor": "brown",
+      "shirt": "purple",
+      "glasses": true,
+      "pose": "hold",
+      "hold": "clipboard"
+     },
+     "label": "Underwriter",
+     "lsize": 4
+    },
+    {
+     "id": "q1",
+     "p": "note",
+     "text": "Accept the risk?",
+     "x": 56,
+     "y": 10,
+     "w": 34,
+     "cue": "accept"
+    },
+    {
+     "id": "q2",
+     "p": "note",
+     "text": "How much insurance?",
+     "x": 56,
+     "y": 24,
+     "w": 34,
+     "cue": "much"
+    },
+    {
+     "id": "q3",
+     "p": "note",
+     "text": "At what rate?",
+     "x": 56,
+     "y": 38,
+     "w": 34,
+     "cue": "rate"
+    },
+    {
+     "id": "q4",
+     "p": "note",
+     "text": "Pay claims?",
+     "x": 56,
+     "y": 54,
+     "w": 34,
+     "paper": "pink",
+     "at": 1,
+     "cue": "claims"
+    },
+    {
+     "p": "xout",
+     "on": "q4",
+     "at": 1,
+     "cue": "claims"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Dana sends Tony's application to the insurance company. An underwriter decides: accept the risk? How much insurance? At what rate?",
+     "say": "Dana sends Tony's application to the insurance company. An underwriter decides: accept the risk? How much insurance? At what rate?"
+    },
+    {
+     "text": "Paying claims? That's claims handling, not underwriting.",
+     "say": "Paying claims? That's claims handling, not underwriting."
+    },
+    {
+     "text": "Underwriters also watch the loss ratio across their book of business: incurred losses divided by earned premium. Your turn.",
+     "say": "Underwriters also watch the loss ratio across their book of business: incurred losses divided by earned premium. Your turn."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$50,000 of losses: a 50% loss ratio.",
+     "say": "Fifty thousand dollars of losses: a fifty percent loss ratio."
+    },
+    {
+     "text": "Add the expense ratio, underwriting expenses divided by premium, to get the combined ratio. Under 100% means an underwriting profit.",
+     "say": "Add the expense ratio, underwriting expenses divided by premium, to get the combined ratio. Under one hundred percent means an underwriting profit."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Hazards: Property, Person, Meh",
+   "src": "IRMI glossary: hazard; physical, moral, morale hazard; peril; question core-bas-03; cp_personal-01; adapted from hook mn_core-10",
+   "draw": [
+    {
+     "p": "divider",
+     "x": 54,
+     "y": 29,
+     "y0": 4,
+     "y1": 54
+    },
+    {
+     "p": "divider",
+     "x": 107,
+     "y": 29,
+     "y0": 4,
+     "y1": 54
+    },
+    {
+     "p": "label",
+     "text": "Physical = Property",
+     "x": 27,
+     "y": 6,
+     "size": 4.6,
+     "bold": true,
+     "color": "blue",
+     "cue": "Property"
+    },
+    {
+     "p": "label",
+     "text": "Moral = Person",
+     "x": 80,
+     "y": 6,
+     "size": 4.6,
+     "bold": true,
+     "color": "purple",
+     "cue": "Person"
+    },
+    {
+     "p": "label",
+     "text": "Morale = Meh",
+     "x": 133,
+     "y": 6,
+     "size": 4.6,
+     "bold": true,
+     "color": "orange",
+     "cue": "Meh"
+    },
+    {
+     "id": "furnace",
+     "p": "furnace",
+     "x": 16,
+     "y": 29,
+     "h": 24,
+     "at": 1
+    },
+    {
+     "id": "rags",
+     "p": "icon",
+     "name": "shirt",
+     "x": 37,
+     "y": 33,
+     "h": 9,
+     "color": "brown",
+     "at": 1,
+     "cue": "rags"
+    },
+    {
+     "p": "label",
+     "text": "oily rags",
+     "x": 37,
+     "y": 41,
+     "size": 3.6,
+     "color": "brown",
+     "at": 1,
+     "cue": "rags"
+    },
+    {
+     "p": "label",
+     "text": "A tangible condition",
+     "x": 27,
+     "y": 48,
+     "size": 3.8,
+     "at": 1
+    },
+    {
+     "id": "owner",
+     "p": "person",
+     "x": 66,
+     "y": 30,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "tie": true,
+      "shirt": "gray",
+      "pose": "think",
+      "mood": "smirk"
+     },
+     "at": 2
+    },
+    {
+     "p": "bubble",
+     "text": "A fire would pay my debts...",
+     "x": 90,
+     "y": 18,
+     "w": 28,
+     "to": "owner",
+     "think": true,
+     "at": 2,
+     "cue": "motive"
+    },
+    {
+     "id": "down",
+     "p": "icon",
+     "name": "trending-down",
+     "x": 95,
+     "y": 31,
+     "h": 9,
+     "color": "red",
+     "at": 2,
+     "cue": "money-losing"
+    },
+    {
+     "p": "label",
+     "text": "losing money",
+     "x": 95,
+     "y": 38,
+     "size": 3.4,
+     "color": "red",
+     "at": 2,
+     "cue": "money-losing"
+    },
+    {
+     "p": "label",
+     "text": "Character or circumstances: dishonesty, a motive to profit from a loss",
+     "x": 80,
+     "y": 48,
+     "size": 3.6,
+     "w": 48,
+     "at": 2
+    },
+    {
+     "id": "tenant",
+     "p": "person",
+     "x": 119,
+     "y": 30,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "hair": "long",
+      "shirt": "orange",
+      "pose": "shrug",
+      "mood": "neutral"
+     },
+     "at": 3
+    },
+    {
+     "p": "bubble",
+     "text": "Meh. Insurance will pay.",
+     "x": 143,
+     "y": 18,
+     "w": 24,
+     "to": "tenant",
+     "at": 3,
+     "cue": "insurance"
+    },
+    {
+     "id": "door",
+     "p": "icon",
+     "name": "lock-open",
+     "x": 146,
+     "y": 34,
+     "h": 10,
+     "color": "orange",
+     "at": 3,
+     "cue": "locking"
+    },
+    {
+     "p": "label",
+     "text": "Careless because insurance will pay",
+     "x": 133,
+     "y": 48,
+     "size": 3.6,
+     "w": 46,
+     "at": 3
+    },
+    {
+     "p": "line",
+     "from": [
+      4,
+      56
+     ],
+     "to": [
+      156,
+      56
+     ],
+     "color": "gray",
+     "at": 4,
+     "cue": "fire"
+    },
+    {
+     "id": "fire",
+     "p": "fire",
+     "x": 22,
+     "y": 62,
+     "h": 9,
+     "loop": "flicker",
+     "at": 4,
+     "cue": "fire"
+    },
+    {
+     "id": "twister",
+     "p": "tornado",
+     "x": 34,
+     "y": 62,
+     "h": 9,
+     "at": 4,
+     "cue": "tornado"
+    },
+    {
+     "p": "label",
+     "text": "Fire, tornado: a PERIL, the cause of loss, not a hazard",
+     "x": 96,
+     "y": 62,
+     "size": 4.2,
+     "bold": true,
+     "color": "red",
+     "w": 118,
+     "at": 4,
+     "cue": "peril"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Next, the underwriter hunts for hazards: conditions that raise the chance of loss. Think Property, Person, Meh.",
+     "say": "Next, the underwriter hunts for hazards: conditions that raise the chance of loss. Think Property, Person, Meh."
+    },
+    {
+     "text": "Physical hazard, the Property: a tangible condition, like oily rags piled next to a furnace.",
+     "say": "Physical hazard, the Property: a tangible condition, like oily rags piled next to a furnace.",
+     "hl": "rags"
+    },
+    {
+     "text": "Moral hazard, the Person: dishonesty, like a fraud record, or a motive to profit from a loss, like a money-losing business.",
+     "say": "Moral hazard, the Person: dishonesty, like a fraud record, or a motive to profit from a loss, like a money-losing business.",
+     "hl": "owner"
+    },
+    {
+     "text": "Morale hazard, Meh: a tenant stops locking her door because insurance will pay. An attitude, not dishonesty.",
+     "say": "Morale hazard, Meh: a tenant stops locking her door because insurance will pay. An attitude, not dishonesty.",
+     "hl": "tenant"
+    },
+    {
+     "text": "And a fire or a tornado? That's the peril: the cause of loss, not a hazard.",
+     "say": "And a fire or a tornado? That's the peril: the cause of loss, not a hazard.",
+     "hl": [
+      "fire",
+      "twister"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Your turn: which hazard?",
+   "src": "IRMI glossary: physical, moral and morale hazard; cp_personal-01 drills; question core-023",
+   "options": [
+    "Physical",
+    "Moral",
+    "Morale"
+   ],
+   "cards": [
+    {
+     "text": "A store owner stops locking the back door: 'insurance will pay if anything is stolen.'",
+     "answer": 2,
+     "why": "Indifference to loss because insurance will pay is morale hazard: an attitude, not dishonesty."
+    },
+    {
+     "text": "A home has frayed, outdated electrical wiring.",
+     "answer": 0,
+     "why": "It is a structural feature of the property that raises the chance of a fire: a physical hazard."
+    },
+    {
+     "text": "An applicant has two prior convictions for insurance fraud.",
+     "answer": 1,
+     "why": "It reflects the insured's character and honesty: moral hazard."
+    },
+    {
+     "text": "A driver leaves his keys in the car because insurance will pay if it's stolen.",
+     "answer": 2,
+     "why": "Carelessness because insurance will pay is morale hazard: an attitude problem, not dishonesty."
+    },
+    {
+     "text": "A restaurant owner deep in debt buys a large fire policy on the failing business.",
+     "answer": 1,
+     "why": "The insured's circumstances create a motive to profit from a loss: moral hazard."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: physical, moral or morale?",
+     "say": "Your turn: physical, moral or morale?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Physical: the property. Moral: dishonesty or a motive to profit from a loss. Morale: meh, careless because insurance will pay.",
+     "say": "Physical: the property. Moral: dishonesty or a motive to profit from a loss. Morale: meh, careless because insurance will pay."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: the night before the inspection",
+   "src": "IRMI glossary: physical hazard; morale hazard; peril; question core-bas-03; hook mn_core-10",
+   "ask": "What does Tony do?",
+   "draw": [
+    {
+     "id": "furnace",
+     "p": "furnace",
+     "x": 26,
+     "y": 27,
+     "h": 36
+    },
+    {
+     "id": "rags",
+     "p": "icon",
+     "name": "shirt",
+     "x": 49,
+     "y": 40,
+     "h": 11,
+     "color": "brown"
+    },
+    {
+     "p": "icon",
+     "name": "shirt",
+     "x": 44,
+     "y": 44,
+     "h": 9,
+     "color": "brown",
+     "rot": -20,
+     "over": true
+    },
+    {
+     "p": "icon",
+     "name": "shirt",
+     "x": 54,
+     "y": 45,
+     "h": 9,
+     "color": "brown",
+     "rot": 15,
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "oily rags",
+     "x": 49,
+     "y": 53,
+     "size": 4,
+     "color": "brown"
+    },
+    {
+     "p": "note",
+     "text": "Underwriter visits tomorrow!",
+     "x": 138,
+     "y": 12,
+     "w": 32
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 92,
+     "y": 29,
+     "h": 34,
+     "flip": true,
+     "opt": {
+      "who": "tony",
+      "pose": "point",
+      "mood": "worried"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "The underwriter inspects tomorrow, and Tony spots oily rags piled next to the furnace. What does he do?",
+     "say": "The underwriter inspects tomorrow, and Tony spots oily rags piled next to the furnace. What does he do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Toss them: they're a physical hazard",
+     "ok": true,
+     "win": "A hazard is a condition that raises the chance of loss. Getting rid of the oily rags by the furnace removes that physical hazard.",
+     "beats": [
+      {
+       "text": "Out they go!",
+       "say": "Out they go!",
+       "voice": "tony"
+      },
+      {
+       "text": "Smart. Rags gone: one physical hazard fixed before the underwriter arrives.",
+       "say": "Smart. Rags gone: one physical hazard fixed before the underwriter arrives."
+      }
+     ],
+     "draw": [
+      {
+       "id": "furnace",
+       "p": "furnace",
+       "x": 26,
+       "y": 28,
+       "h": 34
+      },
+      {
+       "id": "door",
+       "p": "icon",
+       "name": "log-out",
+       "x": 106,
+       "y": 30,
+       "h": 22,
+       "color": "brown"
+      },
+      {
+       "id": "rags",
+       "p": "icon",
+       "name": "shirt",
+       "x": 50,
+       "y": 44,
+       "h": 10,
+       "color": "brown",
+       "out": 1,
+       "move": {
+        "to": [
+         104,
+         36
+        ],
+        "at": 0,
+        "cue": "Out",
+        "dur": 1.2,
+        "sfx": "whoosh"
+       }
+      },
+      {
+       "p": "check",
+       "x": 50,
+       "y": 12,
+       "h": 10,
+       "at": 1,
+       "cue": "gone"
+      },
+      {
+       "p": "label",
+       "text": "Physical hazard removed",
+       "x": 62,
+       "y": 26,
+       "size": 4.4,
+       "color": "green",
+       "bold": true,
+       "w": 34,
+       "at": 1,
+       "cue": "gone"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 138,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      }
+     ]
+    },
+    {
+     "label": "Leave them. Insurance pays for fires!",
+     "ok": false,
+     "fail": "Oily rags by a furnace are a physical hazard. Shrugging because insurance will pay is morale hazard. Moral would be dishonesty, like a fraud record.",
+     "beats": [
+      {
+       "text": "The underwriter writes up two hazards: the rags are physical, and Tony's shrug is morale.",
+       "say": "The underwriter writes up two hazards: the rags are physical, and Tony's shrug is morale."
+      }
+     ],
+     "draw": [
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 26,
+       "y": 29,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "smirk"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Insurance pays!",
+       "x": 26,
+       "y": 5,
+       "w": 26,
+       "to": "tony"
+      },
+      {
+       "p": "label",
+       "text": "Morale hazard",
+       "x": 26,
+       "y": 52,
+       "size": 4.2,
+       "bold": true,
+       "color": "red"
+      },
+      {
+       "id": "furnace",
+       "p": "furnace",
+       "x": 62,
+       "y": 30,
+       "h": 26
+      },
+      {
+       "id": "rags",
+       "p": "icon",
+       "name": "shirt",
+       "x": 78,
+       "y": 38,
+       "h": 10,
+       "color": "brown"
+      },
+      {
+       "p": "label",
+       "text": "Physical hazard",
+       "x": 70,
+       "y": 52,
+       "size": 4.2,
+       "bold": true,
+       "color": "red"
+      },
+      {
+       "id": "uw",
+       "p": "person",
+       "x": 108,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "person",
+        "hair": "bun",
+        "hairColor": "brown",
+        "shirt": "purple",
+        "glasses": true,
+        "pose": "hold",
+        "hold": "clipboard",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "note",
+       "text": "2 hazards!",
+       "x": 133,
+       "y": 44,
+       "w": 20,
+       "paper": "pink",
+       "cue": "hazards"
+      }
+     ],
+     "failAt": [
+      140,
+      12
+     ]
+    },
+    {
+     "label": "Toss them: fire's the hazard here!",
+     "ok": false,
+     "fail": "Fire is a peril: the cause of loss. The oily rags by the furnace were the hazard: a condition that raises the chance of loss.",
+     "beats": [
+      {
+       "text": "Right move, wrong word. Fire is the peril, the cause of loss. The rags were the hazard.",
+       "say": "Right move, wrong word. Fire is the peril, the cause of loss. The rags were the hazard."
+      }
+     ],
+     "draw": [
+      {
+       "id": "fire",
+       "p": "fire",
+       "x": 28,
+       "y": 22,
+       "h": 22,
+       "loop": "flicker",
+       "label": "Peril: the cause of loss",
+       "lsize": 4.2,
+       "lw": 36,
+       "cue": "peril"
+      },
+      {
+       "id": "rags",
+       "p": "icon",
+       "name": "shirt",
+       "x": 76,
+       "y": 22,
+       "h": 16,
+       "color": "brown",
+       "cue": "rags"
+      },
+      {
+       "p": "xout",
+       "on": "rags",
+       "cue": "rags"
+      },
+      {
+       "p": "label",
+       "text": "Hazard: the rags (gone)",
+       "x": 76,
+       "y": 38,
+       "size": 4.2,
+       "w": 36,
+       "cue": "hazard"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 124,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Fire's the hazard, right?",
+       "x": 104,
+       "y": 8,
+       "w": 28,
+       "to": "tony"
+      }
+     ],
+     "failAt": [
+      148,
+      42
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Rags: the hazard, raising the chance of loss. Fire: the peril, the cause of loss.",
+     "say": "Rags: the hazard, raising the chance of loss. Fire: the peril, the cause of loss."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "What's it made of? Six construction classes",
+   "src": "IRMI glossary: frame, joisted masonry, noncombustible, masonry noncombustible, (modified) fire resistive construction; question core-033",
+   "draw": [
+    {
+     "p": "arrow",
+     "from": [
+      14,
+      17
+     ],
+     "to": [
+      146,
+      17
+     ],
+     "color": "orange",
+     "bold": true,
+     "bend": 0,
+     "at": 1,
+     "cue": "most"
+    },
+    {
+     "p": "label",
+     "text": "From code 1, the least fire-resistive, to code 6, the most",
+     "x": 80,
+     "y": 10,
+     "size": 4,
+     "color": "orange",
+     "w": 100,
+     "at": 1,
+     "cue": "most"
+    },
+    {
+     "p": "line",
+     "from": [
+      3,
+      50
+     ],
+     "to": [
+      157,
+      50
+     ],
+     "color": "gray"
+    },
+    {
+     "id": "b1",
+     "p": "house",
+     "x": 16,
+     "y": 39,
+     "h": 22
+    },
+    {
+     "id": "b2",
+     "p": "restaurant",
+     "x": 42.5,
+     "y": 40.5,
+     "h": 19,
+     "opt": {
+      "name": "TONY'S"
+     }
+    },
+    {
+     "id": "b3",
+     "p": "warehouse",
+     "x": 69,
+     "y": 43,
+     "h": 14
+    },
+    {
+     "id": "b4",
+     "p": "store",
+     "x": 95.4,
+     "y": 41,
+     "h": 18,
+     "opt": {
+      "name": "MARKET"
+     }
+    },
+    {
+     "id": "b5",
+     "p": "apartment",
+     "x": 121.5,
+     "y": 34,
+     "h": 32
+    },
+    {
+     "id": "b6",
+     "p": "office",
+     "x": 146.5,
+     "y": 34,
+     "h": 32
+    },
+    {
+     "p": "label",
+     "text": "1 Frame",
+     "x": 16,
+     "y": 57,
+     "size": 4.2,
+     "w": 26
+    },
+    {
+     "p": "label",
+     "text": "2 Joisted masonry",
+     "x": 42.5,
+     "y": 57,
+     "size": 4.2,
+     "w": 26
+    },
+    {
+     "p": "label",
+     "text": "3 Noncombustible",
+     "x": 69,
+     "y": 57,
+     "size": 4.2,
+     "w": 26
+    },
+    {
+     "p": "label",
+     "text": "4 Masonry noncombustible",
+     "x": 95.4,
+     "y": 57,
+     "size": 4.2,
+     "w": 26
+    },
+    {
+     "p": "label",
+     "text": "5 Modified fire resistive",
+     "x": 121.5,
+     "y": 57,
+     "size": 4.2,
+     "w": 26
+    },
+    {
+     "p": "label",
+     "text": "6 Fire resistive",
+     "x": 146.5,
+     "y": 57,
+     "size": 4.2,
+     "w": 26
+    }
+   ],
+   "spots": [
+    {
+     "on": "b1",
+     "label": "Code 1: Frame",
+     "text": "Exterior walls of wood, brick veneer, stone veneer, wood ironclad, or stucco on wood. Brick veneer still counts as frame. The least fire-resistive."
+    },
+    {
+     "on": "b2",
+     "label": "Code 2: Joisted masonry",
+     "text": "Masonry exterior walls, but a floor and roof that can burn (combustible). Tony's shop: masonry walls, wood floor and roof."
+    },
+    {
+     "on": "b3",
+     "label": "Code 3: Noncombustible",
+     "text": "Exterior walls, floor and supports that won't burn: metal, asbestos, gypsum or other noncombustible materials."
+    },
+    {
+     "on": "b4",
+     "label": "Code 4: Masonry noncombustible",
+     "text": "Masonry exterior walls, like code 2, but with a metal or other noncombustible floor and roof."
+    },
+    {
+     "on": "b5",
+     "label": "Code 5: Modified fire resistive",
+     "text": "Masonry or fire-resistive walls, floors and roof rated at least 1 hour but less than 2 hours."
+    },
+    {
+     "on": "b6",
+     "label": "Code 6: Fire resistive",
+     "text": "Walls, floors and roof rated at least 2 hours. The most fire-resistive class."
+    }
+   ],
+   "beats": [
+    {
+     "text": "The underwriter checks construction too. Tony's building has masonry walls and a combustible wood floor and roof: joisted masonry, code 2.",
+     "say": "The underwriter checks construction too. Tony's building has masonry walls and a combustible wood floor and roof: joisted masonry, code two.",
+     "hl": "b2"
+    },
+    {
+     "text": "Six classes: code 1, frame, resists fire the least. Code 6, called fire resistive, resists it most. Tap each building.",
+     "say": "Six classes: code one, frame, resists fire the least. Code six, called fire resistive, resists it most. Tap each building."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Frame means wood or veneer walls. Code 5 is rated at least 1 hour but under 2. Code 6, at least 2 hours.",
+     "say": "Frame means wood or veneer walls. Code five is rated at least one hour but under two. Code six, at least two hours."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Dana's pick: special, or open, perils",
+   "src": "IRMI glossary: named perils; open perils; special perils; Heniser v Frankenmuth Mut Ins Co, 449 Mich 155 (1995); cp_personal-06",
+   "kind": "Term",
+   "term": "Open perils",
+   "plain": "Covers all causes of loss except those the policy specifically excludes. Also called special perils; formerly all risks.",
+   "example": "Tony's policy lists no covered causes, only exclusions. A loss from a cause nobody thought of? Covered, unless it's excluded.",
+   "exam": "Named perils covers only the perils listed. In Michigan, the insured must prove coverage; the insurer must prove an exclusion applies.",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 17,
+     "y": 19,
+     "h": 22,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 44,
+     "y": 24,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "shield",
+     "p": "shield",
+     "x": 66,
+     "y": 17,
+     "h": 16,
+     "opt": {
+      "check": false
+     },
+     "label": "Open perils",
+     "lsize": 4.2
+    },
+    {
+     "id": "excl",
+     "p": "policy",
+     "x": 22,
+     "y": 51,
+     "h": 18,
+     "opt": {
+      "title": "EXCLUSIONS",
+      "tcolor": "red",
+      "tsize": 6.5
+     },
+     "at": 2,
+     "cue": "exclusions",
+     "label": "Lists only exclusions",
+     "lsize": 3.6,
+     "lw": 30
+    },
+    {
+     "id": "scale",
+     "p": "scale",
+     "x": 60,
+     "y": 52,
+     "h": 15,
+     "opt": {
+      "tilt": 0
+     },
+     "at": 3,
+     "cue": "Michigan",
+     "label": "Who must prove?",
+     "lsize": 3.6
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony, I'd go with open perils. Everything not excluded is covered.",
+     "say": "Tony, I'd go with open perils. Everything not excluded is covered.",
+     "voice": "dana",
+     "show": 1,
+     "hl": "dana"
+    },
+    {
+     "text": "That's special, or open, perils, formerly called all risks.",
+     "say": "That's special, or open, perils, formerly called all risks.",
+     "show": 2,
+     "hl": "shield"
+    },
+    {
+     "text": "Named perils covers only the listed perils. The tell: a list of what's covered means named; only exclusions means open.",
+     "say": "Named perils covers only the listed perils. The tell: a list of what's covered means named; only exclusions means open.",
+     "show": 3,
+     "hl": "excl"
+    },
+    {
+     "text": "In Michigan, the insured must prove coverage, and the insurer must prove an exclusion applies.",
+     "say": "In Michigan, the insured must prove coverage, and the insurer must prove an exclusion applies.",
+     "show": 4,
+     "hl": "scale"
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "One limit or two? Specific vs blanket",
+   "src": "ISO CP 03 21 10 12 (definitions); IRMI glossary: blanket limit; ISO CP 00 10 10 12, F.1.b; question core-032",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Specific",
+     "x": 40,
+     "y": 6,
+     "size": 5,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "id": "s_shop",
+     "p": "restaurant",
+     "x": 22,
+     "y": 30,
+     "h": 24,
+     "opt": {
+      "name": "TONY'S"
+     }
+    },
+    {
+     "id": "s_oven",
+     "p": "oven",
+     "x": 60,
+     "y": 33,
+     "h": 17
+    },
+    {
+     "p": "label",
+     "text": "Building: own limit",
+     "x": 22,
+     "y": 50,
+     "size": 4,
+     "box": true,
+     "color": "blue"
+    },
+    {
+     "p": "label",
+     "text": "Contents: own limit",
+     "x": 60,
+     "y": 50,
+     "size": 4,
+     "box": true,
+     "color": "blue"
+    },
+    {
+     "p": "divider",
+     "x": 80,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Blanket",
+     "x": 120,
+     "y": 6,
+     "size": 5,
+     "bold": true,
+     "color": "green",
+     "at": 1
+    },
+    {
+     "id": "frame",
+     "p": "box",
+     "x": 120,
+     "y": 33,
+     "w": 70,
+     "hh": 38,
+     "title": "One limit for both",
+     "color": "green",
+     "dash": true,
+     "at": 1,
+     "over": true
+    },
+    {
+     "id": "b_shop",
+     "p": "restaurant",
+     "x": 104,
+     "y": 35,
+     "h": 22,
+     "opt": {
+      "name": "TONY'S"
+     },
+     "at": 1
+    },
+    {
+     "id": "b_oven",
+     "p": "oven",
+     "x": 140,
+     "y": 37,
+     "h": 15,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Coinsurance applies to the total value under that limit",
+     "x": 120,
+     "y": 59,
+     "size": 3.8,
+     "w": 72,
+     "at": 2
+    }
+   ],
+   "beats": [
+    {
+     "text": "Specific insurance gives each item its own limit: one for the building, one for Tony's ovens and tables.",
+     "say": "Specific insurance gives each item its own limit: one for the building, one for Tony's ovens and tables."
+    },
+    {
+     "text": "Blanket insurance puts one limit over two or more items or locations.",
+     "say": "Blanket insurance puts one limit over two or more items or locations.",
+     "hl": "frame"
+    },
+    {
+     "text": "Coinsurance, coming later, can cut a claim payment on underinsured property. With blanket, it applies to the total value under that limit.",
+     "say": "Coinsurance, coming later, can cut a claim payment on underinsured property. With blanket, it applies to the total value under that limit."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Fire night at Tony's",
+   "src": "IRMI glossary: direct loss; consequential loss; cp_personal-07; question core-031",
+   "kind": "Term",
+   "term": "Consequential loss",
+   "plain": "A money loss that results from direct physical damage. Also called an indirect loss.",
+   "example": "Fire chars Tony's kitchen: that damage is a direct loss. The pizza sales he loses while closed for repairs are consequential.",
+   "exam": "Loss of rent, business income and extra expense are consequential. Ask: is it the damage itself, or a money loss that follows?",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 22,
+     "y": 22,
+     "h": 28,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "p": "fire",
+     "x": 10,
+     "y": 7,
+     "h": 11,
+     "loop": "flicker",
+     "over": true,
+     "cue": "fire"
+    },
+    {
+     "p": "fire",
+     "x": 36,
+     "y": 8,
+     "h": 9,
+     "loop": "flicker",
+     "over": true,
+     "cue": "fire"
+    },
+    {
+     "p": "stamp",
+     "text": "Direct loss",
+     "x": 22,
+     "y": 46,
+     "color": "red",
+     "size": 5,
+     "cue": "direct"
+    },
+    {
+     "id": "closed",
+     "p": "sign",
+     "x": 62,
+     "y": 20,
+     "h": 22,
+     "opt": {
+      "text": "CLOSED",
+      "tcolor": "red"
+     },
+     "at": 1,
+     "cue": "closes"
+    },
+    {
+     "id": "till",
+     "p": "cashregister",
+     "x": 62,
+     "y": 48,
+     "h": 13,
+     "opt": {
+      "amount": "$0"
+     },
+     "at": 1,
+     "cue": "sales",
+     "label": "Consequential",
+     "lsize": 3.8,
+     "lcolor": "orange"
+    },
+    {
+     "p": "arrow",
+     "from": "shop",
+     "to": "closed",
+     "color": "orange",
+     "label": "leads to",
+     "at": 1,
+     "cue": "closes"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Then one night, fire breaks out in Tony's kitchen. The charred walls are a direct loss: direct physical damage.",
+     "say": "Then one night, fire breaks out in Tony's kitchen. The charred walls are a direct loss: direct physical damage.",
+     "show": 1
+    },
+    {
+     "text": "Tony closes for repairs and loses pizza sales: a consequential, or indirect, loss that results from the damage.",
+     "say": "Tony closes for repairs and loses pizza sales: a consequential, or indirect, loss that results from the damage.",
+     "show": 4,
+     "hl": "till"
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Fire night: direct or indirect?",
+   "src": "IRMI glossary: direct loss; consequential loss; cp_personal-07 drills; question core-031",
+   "bins": [
+    {
+     "name": "Direct loss"
+    },
+    {
+     "name": "Indirect loss"
+    }
+   ],
+   "items": [
+    {
+     "text": "Heat warps the kitchen's steel shelves",
+     "bin": 0,
+     "why": "The shelves themselves are physically damaged: a direct loss."
+    },
+    {
+     "text": "Smoke stains the dining booths",
+     "bin": 0,
+     "why": "The booths themselves are physically damaged: a direct loss."
+    },
+    {
+     "text": "Catering orders Tony loses while closed",
+     "bin": 1,
+     "why": "Lost business income results from the damage: an indirect, or consequential, loss."
+    },
+    {
+     "text": "Water from the fire hoses soaks the floor",
+     "bin": 0,
+     "why": "Water damage from fighting the fire is physical damage to the property: direct."
+    },
+    {
+     "text": "Rent lost on the upstairs apartment, now unlivable",
+     "bin": 1,
+     "why": "Loss of rent results from the damage: an indirect loss."
+    },
+    {
+     "text": "Extra costs to run a temporary kitchen during repairs",
+     "bin": 1,
+     "why": "Extra expense results from the damage: an indirect loss."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: direct or indirect? Sort Tony's losses.",
+     "say": "Your turn: direct or indirect? Sort Tony's losses."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Damage to the property itself is direct. Lost rent, business income and extra expense are indirect.",
+     "say": "Damage to the property itself is direct. Lost rent, business income and extra expense are indirect."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Replacement cost, ACV or functional?",
+   "src": "IRMI glossary: replacement cost; actual cash value; functional replacement cost; hook mn_core-16",
+   "mn": "mn-mn_core-16",
+   "hook": "Replacement cost buys it new. ACV blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
+   "items": [
+    "Replacement cost: like kind and quality, no deduction for depreciation",
+    "Actual cash value: often replacement cost minus depreciation",
+    "ACV can also be fair market value or the broad evidence rule",
+    "Functional replacement: does the same job equally well, need not be identical"
+   ],
+   "draw": [
+    {
+     "id": "new",
+     "p": "oven",
+     "x": 20,
+     "y": 16,
+     "h": 16,
+     "label": "Replacement cost: new",
+     "lsize": 3.8,
+     "lw": 34,
+     "cue": "buys"
+    },
+    {
+     "p": "sparkle",
+     "x": 34,
+     "y": 7,
+     "h": 8,
+     "over": true,
+     "cue": "buys"
+    },
+    {
+     "id": "cake",
+     "p": "icon",
+     "name": "cake",
+     "x": 60,
+     "y": 15,
+     "h": 14,
+     "color": "pink",
+     "cue": "candles"
+    },
+    {
+     "p": "label",
+     "text": "ACV: minus depreciation",
+     "x": 60,
+     "y": 28,
+     "size": 3.8,
+     "w": 34,
+     "cue": "candles"
+    },
+    {
+     "id": "gears",
+     "p": "gears",
+     "x": 40,
+     "y": 48,
+     "h": 15,
+     "label": "Functional: same job",
+     "lsize": 3.8,
+     "lw": 34,
+     "cue": "Functional"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Take Tony's oven. Replacement cost buys it new. Actual cash value, or ACV, blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
+     "say": "Take Tony's oven. Replacement cost buys it new. Actual cash value, or A C V, blows out the birthday candles: the new price minus depreciation. Functional replacement only has to do the same job.",
+     "show": 0
+    },
+    {
+     "text": "Replacement cost means like kind and quality, with no deduction for depreciation.",
+     "say": "Replacement cost means like kind and quality, with no deduction for depreciation.",
+     "show": 2
+    },
+    {
+     "text": "Depending on the policy and state law, ACV can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value.",
+     "say": "Depending on the policy and state law, A C V can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "The fire also destroyed Tony's roof. It would cost $20,000 to replace today and has depreciated 40%. Using replacement cost minus depreciation, its actual cash value is:",
+   "choices": [
+    "$8,000",
+    "$12,000",
+    "$20,000",
+    "$28,000"
+   ],
+   "answer": 1,
+   "why": "Depreciation is 40% of $20,000, or $8,000. ACV is $20,000 minus $8,000: $12,000. The $8,000 is the depreciation, not the ACV.",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 26,
+     "y": 40,
+     "h": 30,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "tag",
+     "p": "note",
+     "text": "New roof today: $20,000",
+     "x": 26,
+     "y": 11,
+     "w": 34
+    },
+    {
+     "id": "glass",
+     "p": "hourglass",
+     "x": 64,
+     "y": 30,
+     "h": 18,
+     "opt": {
+      "sand": 0.6
+     },
+     "label": "40% depreciated",
+     "lsize": 3.8,
+     "lw": 24
+    },
+    {
+     "p": "fire",
+     "x": 13,
+     "y": 26,
+     "h": 8,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "fire",
+     "x": 39,
+     "y": 26,
+     "h": 8,
+     "loop": "flicker",
+     "over": true
+    },
+    {
+     "p": "arrow",
+     "from": "tag",
+     "to": "shop",
+     "color": "orange",
+     "bend": 0
+    }
+   ],
+   "beats": [
+    {
+     "text": "The fire also destroyed Tony's roof. Your turn: what's its ACV?",
+     "say": "The fire also destroyed Tony's roof. Your turn: what's its A C V?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "$12,000. 40% of $20,000 is $8,000 of depreciation, so $12,000 is left. Watch out: $8,000 is the depreciation, not the ACV.",
+     "say": "Twelve thousand dollars. Forty percent of twenty thousand dollars is eight thousand dollars of depreciation, so twelve thousand dollars is left. Watch out: eight thousand dollars is the depreciation, not the A C V."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: the totaled van",
+   "src": "ISO CA 99 28 03 10, B.1-3, C.1 and Schedule note (2010 Stated Amount endorsement); question core-bas-12; hook mn_core-17",
+   "ask": "What does Tony do?",
+   "draw": [
+    {
+     "id": "van",
+     "p": "van",
+     "x": 34,
+     "y": 34,
+     "h": 24,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "dent": true
+     }
+    },
+    {
+     "p": "crash",
+     "x": 60,
+     "y": 30,
+     "h": 14,
+     "opt": {
+      "text": "CRUNCH!"
+     },
+     "over": true
+    },
+    {
+     "p": "stamp",
+     "text": "Totaled",
+     "x": 34,
+     "y": 53,
+     "color": "red",
+     "rot": -8,
+     "at": 1,
+     "cue": "totaled"
+    },
+    {
+     "p": "note",
+     "text": "Stated amount: $30,000",
+     "x": 96,
+     "y": 10,
+     "w": 32
+    },
+    {
+     "p": "note",
+     "text": "Actual cash value: $26,000",
+     "x": 96,
+     "y": 28,
+     "w": 32,
+     "paper": "sky",
+     "at": 1,
+     "cue": "actual"
+    },
+    {
+     "p": "note",
+     "text": "Like-kind replacement: $28,000",
+     "x": 96,
+     "y": 46,
+     "w": 32,
+     "paper": "pink",
+     "at": 1,
+     "cue": "like-kind"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 140,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony's van has $30,000 of stated amount coverage, common for auto physical damage, under the 2010 Stated Amount endorsement.",
+     "say": "Tony's van has thirty thousand dollars of stated amount coverage, common for auto physical damage, under the twenty ten stated amount endorsement."
+    },
+    {
+     "text": "It's totaled in a covered collision: actual cash value $26,000, like-kind replacement $28,000. Ignore the deductible. What does Tony do?",
+     "say": "It's totaled in a covered collision: actual cash value twenty six thousand dollars, like-kind replacement twenty eight thousand dollars. Ignore the deductible. What does Tony do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Demand the full $30,000 stated amount",
+     "ok": false,
+     "fail": "Stated amount pays the least of ACV, the cost to repair or replace, or the stated amount. $30,000 is a ceiling, not a guarantee.",
+     "beats": [
+      {
+       "text": "But the policy says $30,000!",
+       "say": "But the policy says thirty thousand dollars!",
+       "voice": "tony"
+      },
+      {
+       "text": "Nope. That's a ceiling, not a promise.",
+       "say": "Nope. That's a ceiling, not a promise."
+      }
+     ],
+     "draw": [
+      {
+       "id": "adj",
+       "p": "person",
+       "x": 20,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "adjuster",
+        "pose": "point",
+        "hold": "policy"
+       }
+      },
+      {
+       "id": "bar",
+       "p": "box",
+       "x": 84,
+       "y": 17,
+       "w": 52,
+       "hh": 2.4,
+       "fill": "red",
+       "color": "red"
+      },
+      {
+       "p": "label",
+       "text": "Ceiling: $30,000",
+       "x": 84,
+       "y": 11,
+       "size": 4.4,
+       "bold": true,
+       "color": "red"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 84,
+       "y": 39,
+       "h": 30,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "But the policy says $30,000!",
+       "x": 128,
+       "y": 28,
+       "w": 30,
+       "to": "tony"
+      },
+      {
+       "p": "label",
+       "text": "A ceiling, not a promise",
+       "x": 128,
+       "y": 46,
+       "size": 4.4,
+       "w": 36,
+       "color": "red",
+       "at": 1,
+       "cue": "ceiling"
+      }
+     ],
+     "failAt": [
+      146,
+      11
+     ]
+    },
+    {
+     "label": "Take $26,000, the actual cash value",
+     "ok": true,
+     "win": "Under the 2010 endorsement, the insurer pays the least of ACV, repair or replacement cost, or the stated amount: here, $26,000 before any deductible.",
+     "beats": [
+      {
+       "text": "Right. $26,000 is the least of the three.",
+       "say": "Right. Twenty six thousand dollars is the least of the three."
+      }
+     ],
+     "draw": [
+      {
+       "id": "adj",
+       "p": "person",
+       "x": 24,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "adjuster",
+        "pose": "point"
+       }
+      },
+      {
+       "id": "chk",
+       "p": "bankcheck",
+       "x": 68,
+       "y": 15,
+       "h": 16
+      },
+      {
+       "p": "num",
+       "text": "$26,000",
+       "x": 68,
+       "y": 33,
+       "size": 9,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "The least of the three, before any deductible",
+       "x": 68,
+       "y": 46,
+       "size": 4,
+       "w": 46,
+       "color": "green",
+       "bold": true
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 118,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "van",
+       "p": "van",
+       "x": 146,
+       "y": 44,
+       "h": 12,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "dent": true
+       }
+      }
+     ]
+    },
+    {
+     "label": "Demand $28,000 to replace it like-for-like",
+     "ok": false,
+     "fail": "Least of three: ACV $26,000, replacement $28,000, stated amount $30,000. The endorsement pays the least.",
+     "beats": [
+      {
+       "text": "Closer, but no. It pays the least of the three: $26,000.",
+       "say": "Closer, but no. It pays the least of the three: twenty six thousand dollars."
+      }
+     ],
+     "draw": [
+      {
+       "id": "n1",
+       "p": "num",
+       "text": "$26,000",
+       "x": 22,
+       "y": 15,
+       "size": 8,
+       "color": "green"
+      },
+      {
+       "id": "n2",
+       "p": "num",
+       "text": "$28,000",
+       "x": 60,
+       "y": 15,
+       "size": 8
+      },
+      {
+       "id": "n3",
+       "p": "num",
+       "text": "$30,000",
+       "x": 98,
+       "y": 15,
+       "size": 8
+      },
+      {
+       "p": "label",
+       "text": "ACV",
+       "x": 22,
+       "y": 27,
+       "size": 3.8
+      },
+      {
+       "p": "label",
+       "text": "Like-kind replacement",
+       "x": 60,
+       "y": 27,
+       "size": 3.8,
+       "w": 30
+      },
+      {
+       "p": "label",
+       "text": "Stated amount",
+       "x": 98,
+       "y": 27,
+       "size": 3.8
+      },
+      {
+       "p": "ring",
+       "on": "n1",
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "The least of the three is paid",
+       "x": 60,
+       "y": 45,
+       "size": 4.4,
+       "w": 60,
+       "color": "green"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 140,
+       "y": 38,
+       "h": 30,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "sad"
+       }
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Stated amount pays the least of the three: here, the ACV.",
+     "say": "Stated amount pays the least of the three: here, the A C V."
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Agreed value vs. stated amount",
+   "src": "ISO CP 00 10 10 12, G.1 (2012 BPP); ISO CA 99 28 03 10, B.1-3 and Schedule note (2010 Stated Amount endorsement); hook mn_core-17",
+   "mn": "mn-mn_core-17",
+   "hook": "Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise: you get the LEAST of ACV, repair cost or the stated amount.",
+   "items": [
+    "Stated amount (2010 auto endorsement): pays the least of three amounts",
+    "Least of: actual cash value, cost to repair or replace, or stated amount",
+    "The stated amount is a ceiling, not a guaranteed payment",
+    "Agreed value (2012 BPP option): coinsurance suspended until its expiration date"
+   ],
+   "draw": [
+    {
+     "id": "bldg",
+     "p": "restaurant",
+     "x": 20,
+     "y": 17,
+     "h": 20,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     },
+     "cue": "Agreed"
+    },
+    {
+     "p": "label",
+     "text": "Agreed value",
+     "x": 20,
+     "y": 32,
+     "size": 4,
+     "bold": true,
+     "color": "teal",
+     "cue": "Agreed"
+    },
+    {
+     "id": "bag",
+     "p": "icon",
+     "name": "luggage",
+     "x": 58,
+     "y": 14,
+     "h": 13,
+     "color": "orange",
+     "cue": "vacation",
+     "anim": "pop"
+    },
+    {
+     "p": "label",
+     "text": "Coinsurance: on vacation",
+     "x": 58,
+     "y": 27,
+     "size": 3.8,
+     "w": 32,
+     "color": "orange",
+     "cue": "vacation"
+    },
+    {
+     "p": "label",
+     "text": "Stated amount: a ceiling",
+     "x": 40,
+     "y": 40,
+     "size": 4,
+     "bold": true,
+     "color": "red",
+     "cue": "ceiling"
+    },
+    {
+     "p": "arrow",
+     "from": [
+      8,
+      45
+     ],
+     "to": [
+      72,
+      45
+     ],
+     "head": "none",
+     "bend": 0,
+     "bold": true,
+     "color": "red",
+     "cue": "ceiling"
+    },
+    {
+     "id": "van",
+     "p": "van",
+     "x": 40,
+     "y": 56,
+     "h": 13,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     },
+     "cue": "Stated"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise.",
+     "say": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise.",
+     "show": 3
+    },
+    {
+     "text": "Agreed value, a 2012 building and personal property form option for buildings like Tony's shop, suspends coinsurance until the agreed value expiration date.",
+     "say": "Agreed value, a twenty twelve building and personal property form option for buildings like Tony's shop, suspends coinsurance until the agreed value expiration date.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Property insurable interest must exist at the time of the loss",
+    "Hazards raise the chance of loss: Property, Person, Meh",
+    "Open perils lists only exclusions; named perils lists what's covered",
+    "ACV is often replacement cost minus depreciation",
+    "Stated amount is a ceiling; agreed value suspends coinsurance"
+   ],
+   "draw": [
+    {
+     "p": "line",
+     "from": [
+      2,
+      56
+     ],
+     "to": [
+      78,
+      56
+     ],
+     "color": "gray"
+    },
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 40,
+     "y": 40,
+     "h": 30,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 10,
+     "y": 41,
+     "h": 30,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "hold": "pizza",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 69,
+     "y": 42,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "What a week! Once Tony sold his old shop, his insurable interest was gone. And hazards? Property, Person, Meh.",
+     "say": "What a week! Once Tony sold his old shop, his insurable interest was gone. And hazards? Property, Person, Meh.",
+     "show": 3
+    },
+    {
+     "text": "The charred kitchen was a direct loss; the lost sales, consequential. Stated amount is a ceiling; agreed value suspends coinsurance.",
+     "say": "The charred kitchen was a direct loss; the lost sales, consequential. Stated amount is a ceiling; agreed value suspends coinsurance.",
+     "show": 5
+    },
+    {
+     "text": "And no more oily rags by the furnace.",
+     "say": "And no more oily rags by the furnace.",
+     "voice": "tony",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "core-021",
+  "core-bas-05",
+  "core-031",
+  "core-034",
+  "core-bas-11"
+ ],
+ "hooks": [
+  "mn-mn_core-16",
+  "mn-mn_core-17"
+ ],
+ "sources": [
+  "IRMI glossary",
+  "ISO HO 00 03 05 11, Sec. I Cond. A; Secs. I and II Cond. E (Assignment)",
+  "ISO CP 00 10 10 12 (2012 BPP), E.4.d, E.7.a, F.1, G.1",
+  "ISO CP 03 21 10 12",
+  "ISO CA 99 28 03 10 (2010 Stated Amount Insurance endorsement), B, C.1 and Schedule note",
+  "Heniser v Frankenmuth Mut Ins Co, 449 Mich 155 (1995)",
+  "ISO Commercial Lines Manual construction codes (via IRMI)",
+  "Question bank: core-021, core-022, core-023, core-031, core-032, core-033, core-034, core-bas-02, core-bas-03, core-bas-05, core-bas-11, core-bas-12",
+  "Confusion pairs cp_personal-01, -06, -07; memory hooks mn_core-10, -16, -17"
+ ]
 }

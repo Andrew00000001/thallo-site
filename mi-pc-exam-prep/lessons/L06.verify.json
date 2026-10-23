@@ -1,20 +1,54 @@
 {
  "id": "L06",
- "beats": 42,
+ "beats": 59,
  "mismatches": [
   {
    "scene": 3,
    "beat": 0,
-   "say": "A hazard raises the chance of loss. Physical is the Property, Moral is the Person, Morale is Meh.",
-   "heard": "A hazard raises the chance of loss. Physical is the property, moral is the person, morale is me.",
-   "wer": 0.056
+   "say": "Dana sends Tony's application to the insurance company. An underwriter decides: accept the risk? How much insurance? At what rate?",
+   "heard": "Dana sends Tony's application to the insurance company, and Underwriter decides, accept the risk, how much insurance, at what rate.",
+   "wer": 0.05,
+   "voice": "narrator"
   },
   {
-   "scene": 13,
-   "beat": 0,
-   "say": "To recap: property insurable interest must exist at the time of loss. Physical is the property, moral the person, morale is meh.",
-   "heard": "To recap, property insurable interest must exist at the time of loss. Physical is the property, moral the person, morale is me.",
-   "wer": 0.045
+   "scene": 3,
+   "beat": 2,
+   "say": "Underwriters also watch the loss ratio across their book of business: incurred losses divided by earned premium. Your turn.",
+   "heard": "Underwriters also watch the loss ratio across their book of business. Encurred losses divided by earned premium. Your turn.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 5,
+   "beat": 1,
+   "say": "Physical: the property. Moral: dishonesty or a motive to profit from a loss. Morale: meh, careless because insurance will pay.",
+   "heard": "Physical the property. Moral, dishonesty, or a motive to profit from a loss. Morale, may careless because insurance will pay.",
+   "wer": 0.05,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": 2,
+   "say": "Coinsurance, coming later, can cut a claim payment on underinsured property. With blanket, it applies to the total value under that limit.",
+   "heard": "Coinsurance, coming later, can cut a claim payment on under-insured property. With Blanket, it applies to the total value under that limit.",
+   "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 2,
+   "say": "Depending on the policy and state law, A C V can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value.",
+   "heard": "depending on the policy and state law. A, CV can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value.",
+   "wer": 0.08,
+   "voice": "narrator"
+  },
+  {
+   "scene": 16,
+   "beat": 1,
+   "say": "The charred kitchen was a direct loss; the lost sales, consequential. Stated amount is a ceiling; agreed value suspends coinsurance.",
+   "heard": "The charred kitchen was a direct loss. The loss sales, consequential. Stated amount is a ceiling. Agreed value suspends coinsurance.",
+   "wer": 0.05,
+   "voice": "narrator"
   }
  ]
 }

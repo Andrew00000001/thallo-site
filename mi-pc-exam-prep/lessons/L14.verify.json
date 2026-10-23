@@ -1,13 +1,86 @@
 {
  "id": "L14",
- "beats": 35,
+ "beats": 59,
  "mismatches": [
   {
-   "scene": 4,
-   "beat": 5,
-   "say": "Memory trick: Medic-aid gets a little aid. Medic-are folks are allowed out.",
-   "heard": "Memory trick, medic aid gets a little aid. Medic our folks are allowed out.",
-   "wer": 0.071
+   "scene": 2,
+   "beat": 0,
+   "say": "Rosa gets the hospital bill for her arm. She insures her own car, but the crash was her fault. Who pays?",
+   "heard": "Rosa gets the hospital bill for her arm. She ensures her own car, but the crash was her fault. Who pays?",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 2,
+   "beat": "o1:1",
+   "say": "Her own policy pays first: Rosa's own P I P pays for her arm.",
+   "heard": "Her own policy pays first. Rose's own PIP pays for her arm.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "scene": 3,
+   "beat": 0,
+   "say": "Rosa's P I P pays four kinds of benefits. Remember them: Michigan Winters Can Snow.",
+   "heard": "ROSES-P IP pays four kinds of benefits. Remember them, Michigan winters can snow.",
+   "wer": 0.231,
+   "voice": "narrator"
+  },
+  {
+   "scene": 5,
+   "beat": 1,
+   "say": "Fifty thousand dollars is only for a named insured on Medicaid, with the household covered.",
+   "heard": "$50,000 is only for named insured on Medicaid, with the household covered.",
+   "wer": 0.067,
+   "voice": "narrator"
+  },
+  {
+   "scene": 5,
+   "beat": 3,
+   "say": "No rung at one hundred thousand dollars. No valid choice? You get the sky, unless the premium paid shows another level.",
+   "heard": "No rung at $100,000. No valid choice. You get the sky unless the premium page shows another level.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 6,
+   "beat": 0,
+   "say": "Rosa's grandma renews her policy. She and Grandpa, the only other person at home, both have Medicare Parts A and B.",
+   "heard": "Rose's grandma renews her policy. She and Grandpa, the only other person at home, both have Medicare parts A and B.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 6,
+   "beat": 2,
+   "say": "Memory trick: Medic-aid gets a little aid. Medic-are folks are allowed out, if the household is covered.",
+   "heard": "Memory trick, medic aid gets a little aid. Medic our folks are allowed out if the household is covered.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 7,
+   "beat": 2,
+   "say": "The rhyme: Moving cars? P P I's not paying. Fences, buildings, properly parked cars in the mitten? P P I's paying, up to a million.",
+   "heard": "The Rime Moving Cars, PPIS Not Paying. Fences, buildings, properly parked cars in the mitten, PPIS paying up to a million.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 10,
+   "beat": "o0:0",
+   "say": "Rosa's insurer says no: P P I won't pay for a moving car.",
+   "heard": "Rose's insurer says no, PPI, will not pay for moving car.",
+   "wer": 0.167,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 2,
+   "say": "Injury suits and out-of-state damage: residual liability.",
+   "heard": "Injury suits and off-state damage. Residual liability.",
+   "wer": 0.25,
+   "voice": "narrator"
   }
  ]
 }

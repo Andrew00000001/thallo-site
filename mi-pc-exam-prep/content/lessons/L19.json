@@ -2,122 +2,522 @@
  "id": "L19",
  "sec": "cpp",
  "guide": "cpp",
- "title": "Commercial property and business income",
- "summary": "How a commercial property coverage part is built, Basic vs Broad vs Special, vacancy, coinsurance math, business income and key endorsements.",
+ "title": "Tony's warehouse: commercial property and business income",
+ "summary": "Follow Tony's new Detroit warehouse for a year: the three forms, Basic vs Broad vs Special, vacancy, coinsurance, Business Income and key endorsements.",
  "objectives": [
   "Tell what the Broad and Special causes of loss forms add to Basic",
-  "Apply the vacancy rule and work a coinsurance problem",
+  "Apply the 60-day vacancy rule and the 31% test, and work a coinsurance problem",
   "Separate Business Income from Extra Expense and their start times",
-  "Match condo, builders risk, legal liability and the selected endorsements"
+  "Match the endorsements and the condo, builders risk and legal liability forms"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "Commercial property and business income",
-   "subtitle": "Coverage forms, causes of loss, coinsurance and time element coverage",
-   "icon": "warehouse",
+   "title": "Tony's warehouse: commercial property and business income",
+   "subtitle": "Causes of loss, vacancy, coinsurance, Business Income and endorsements, on the ISO commercial property forms",
+   "draw": [
+    {
+     "id": "wh",
+     "p": "warehouse",
+     "x": 30,
+     "y": 30,
+     "h": 28,
+     "opt": {
+      "name": "TONY'S",
+      "roof": "red"
+     }
+    },
+    {
+     "p": "snow",
+     "x": 8,
+     "y": 8,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 46,
+     "y": 6,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "id": "mi",
+     "p": "michigan",
+     "x": 78,
+     "y": 12,
+     "h": 16,
+     "opt": {
+      "pin": "detroit"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 66,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "hold": "key",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 81,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "policy"
+     },
+     "cue": "Dana"
+    },
+    {
+     "p": "bubble",
+     "text": "What could go wrong?",
+     "x": 40,
+     "y": 54,
+     "w": 26,
+     "to": "tony",
+     "at": 1
+    }
+   ],
    "beats": [
     {
-     "text": "Commercial property questions love numbers: 60 days, 15%, 72 hours, 80%. Let's see where each one comes from.",
-     "say": "Commercial property questions love numbers: sixty days, fifteen percent, seventy-two hours, eighty percent. Let's see where each one comes from."
+     "text": "Tony's Pizza is booming. In November, Tony buys an old Detroit warehouse for a bigger kitchen. Dana insures it.",
+     "say": "Tony's Pizza is booming. In November, Tony buys an old Detroit warehouse for a bigger kitchen. Dana insures it."
+    },
+    {
+     "text": "Big building. What could go wrong?",
+     "say": "Big building. What could go wrong?",
+     "voice": "tony"
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "How a commercial property part is built",
-   "src": "ISO CP 00 90 07 88, D.; MCL 500.2833(1)(q); ISO CP 00 10 10 12, A.1; vs-vs_commercial-05",
-   "items": [
+   "type": "sketch",
+   "title": "Three forms to start Tony's coverage",
+   "src": "ISO CP 00 90 07 88, D.; MCL 500.2833(1)(q); ISO CP 00 10 10 12, A.1; vs_commercial-05; ms_commercial-05",
+   "draw": [
     {
+     "id": "d1",
+     "p": "policy",
+     "x": 24,
+     "y": 14,
+     "h": 18,
+     "opt": {
+      "title": "CONDITIONS",
+      "tsize": 5.2
+     },
      "label": "Commercial Property Conditions",
-     "detail": "Shared conditions; suit within 2 years after the loss (Michigan tolls it)",
-     "icon": "clipboard-list"
+     "lsize": 3.8,
+     "cue": "shared",
+     "lw": 40
     },
     {
-     "label": "Coverage form",
-     "detail": "Building and Personal Property: building, your property, others' property",
-     "icon": "building-2"
+     "p": "icon",
+     "name": "plus",
+     "x": 51,
+     "y": 14,
+     "h": 6,
+     "color": "gray",
+     "at": 2
     },
     {
-     "label": "Causes of loss form",
-     "detail": "You choose Basic, Broad or Special",
-     "icon": "flame"
+     "id": "c2y",
+     "p": "calendar",
+     "x": 15,
+     "y": 40,
+     "h": 13,
+     "opt": {
+      "n": "2 yr",
+      "label": "SUIT"
+     },
+     "at": 1,
+     "cue": "sue",
+     "label": "2 years to sue",
+     "lsize": 3.6,
+     "lw": 20
+    },
+    {
+     "id": "hg",
+     "p": "hourglass",
+     "x": 33,
+     "y": 40,
+     "h": 13,
+     "opt": {
+      "sand": 0.5
+     },
+     "at": 1,
+     "cue": "pauses"
+    },
+    {
+     "p": "label",
+     "text": "Michigan: paused from loss report to formal denial",
+     "x": 24,
+     "y": 57,
+     "size": 3.5,
+     "w": 40,
+     "color": "blue",
+     "at": 1,
+     "cue": "Michigan"
+    },
+    {
+     "id": "d2",
+     "p": "policy",
+     "x": 80,
+     "y": 14,
+     "h": 18,
+     "opt": {
+      "title": "BPP"
+     },
+     "label": "Key form: Building and Personal Property",
+     "lsize": 3.8,
+     "lw": 40,
+     "at": 2,
+     "cue": "Building"
+    },
+    {
+     "p": "icon",
+     "name": "plus",
+     "x": 109,
+     "y": 14,
+     "h": 6,
+     "color": "gray",
+     "at": 3
+    },
+    {
+     "id": "wh",
+     "p": "warehouse",
+     "x": 76,
+     "y": 45,
+     "h": 16,
+     "opt": {
+      "name": "TONY'S",
+      "roof": "red"
+     },
+     "at": 2,
+     "cue": "building"
+    },
+    {
+     "id": "pal",
+     "p": "pallet",
+     "x": 100,
+     "y": 50,
+     "h": 9,
+     "at": 2,
+     "cue": "100",
+     "label": "within 100 ft",
+     "lsize": 3.4,
+     "lw": 20
+    },
+    {
+     "id": "cool",
+     "p": "fridge",
+     "x": 54,
+     "y": 47,
+     "h": 13,
+     "at": 3,
+     "cue": "cooler",
+     "label": "Supplier's cooler",
+     "lsize": 3.4,
+     "lw": 16
+    },
+    {
+     "id": "d3",
+     "p": "policy",
+     "x": 136,
+     "y": 14,
+     "h": 18,
+     "opt": {
+      "title": "CAUSES",
+      "tsize": 6.5
+     },
+     "label": "Causes of loss",
+     "lsize": 3.8,
+     "at": 3,
+     "cue": "Third"
+    },
+    {
+     "p": "label",
+     "text": "Basic",
+     "x": 136,
+     "y": 36,
+     "size": 4.2,
+     "box": true,
+     "at": 3,
+     "cue": "Basic",
+     "id": "bb"
+    },
+    {
+     "p": "label",
+     "text": "Broad",
+     "x": 136,
+     "y": 46,
+     "size": 4.2,
+     "box": true,
+     "at": 3,
+     "cue": "Broad"
+    },
+    {
+     "p": "label",
+     "text": "Special",
+     "x": 136,
+     "y": 56,
+     "size": 4.2,
+     "box": true,
+     "at": 3,
+     "cue": "Special"
+    },
+    {
+     "p": "ring",
+     "on": "bb",
+     "at": 3,
+     "cue": "picks",
+     "color": "orange"
     }
    ],
    "beats": [
     {
-     "text": "Commercial property keeps shared conditions in a separate form. The 1988 version allows 2 years after the loss to sue; Michigan pauses that clock from notice until denial.",
-     "say": "Commercial property keeps shared conditions in a separate form. The nineteen eighty-eight version allows two years after the loss to sue; Michigan pauses that clock from notice until denial.",
-     "show": 1
+     "text": "Dana starts Tony's coverage with three forms. First, the Commercial Property Conditions: shared rules.",
+     "say": "Dana starts Tony's coverage with three forms. First, the Commercial Property Conditions: shared rules.",
+     "hl": "d1"
     },
     {
-     "text": "The main coverage form is Building and Personal Property. It covers the building, your business personal property in it or within 100 feet, and others' property in your care.",
-     "say": "The main coverage form is Building and Personal Property. It covers the building, your business personal property in it or within one hundred feet, and others' property in your care.",
-     "show": 2
+     "text": "Its 1988 version allows 2 years after a loss to sue. In Michigan, that clock pauses from his loss report until a formal denial.",
+     "say": "Its nineteen eighty-eight version allows two years after a loss to sue. In Michigan, that clock pauses from his loss report until a formal denial.",
+     "hl": "hg"
     },
     {
-     "text": "Then you choose a causes of loss form: Basic, Broad or Special.",
-     "say": "Then you choose a causes of loss form: Basic, Broad or Special.",
-     "show": 3
+     "text": "Second, the 2012 Building and Personal Property form. It covers the building and Tony's business personal property, in it or within 100 feet.",
+     "say": "Second, the twenty twelve Building and Personal Property form. It covers the building and Tony's business personal property, in it or within one hundred feet.",
+     "hl": "d2"
+    },
+    {
+     "text": "Plus others' property in his care, like his supplier's cooler. Third, a causes of loss form: Basic, Broad or Special. Tony picks Basic.",
+     "say": "Plus others' property in his care, like his supplier's cooler. Third, a causes of loss form: Basic, Broad or Special. Tony picks Basic.",
+     "hl": "d3"
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Causes of loss: Basic, Broad, Special",
-   "src": "ISO CP 10 10 10 12, A.1-11; CP 10 20 10 12, A.12-14, C.; CP 10 30 09 17, A., C.3",
-   "columns": [
+   "type": "sketch",
+   "title": "Basic, Broad or Special?",
+   "src": "ISO CP 10 10 10 12, A.1-11; CP 10 20 10 12, A.12-14, C.; CP 10 30 09 17, A.; adapted from hook mn_comm-09; cp_commercial-06",
+   "draw": [
     {
-     "name": "Basic",
-     "icon": "flame",
-     "points": [
-      "Fire, lightning, explosion, windstorm or hail",
-      "Smoke, aircraft or vehicles, riot or civil commotion, vandalism",
-      "Sprinkler leakage, sinkhole collapse, volcanic action"
-     ]
+     "p": "label",
+     "text": "BASIC: 11 named perils",
+     "x": 27,
+     "y": 6,
+     "size": 4.4,
+     "bold": true,
+     "w": 48,
+     "color": "blue"
     },
     {
-     "name": "Broad",
-     "icon": "snowflake",
-     "points": [
-      "All the Basic perils",
-      "Plus falling objects",
-      "Plus weight of snow, ice or sleet",
-      "Plus water damage, and collapse coverage"
-     ]
+     "p": "fire",
+     "x": 13,
+     "y": 18,
+     "h": 10,
+     "loop": "flicker"
     },
     {
-     "name": "Special",
-     "icon": "shield-check",
-     "points": [
-      "Direct physical loss unless excluded or limited",
-      "The only one that covers theft",
-      "Theft limits: $2,500 furs or jewelry; $250 stamps or tickets"
-     ]
+     "p": "lightning",
+     "x": 27,
+     "y": 18,
+     "h": 10
+    },
+    {
+     "p": "wind",
+     "x": 41,
+     "y": 18,
+     "h": 7
+    },
+    {
+     "id": "l1",
+     "p": "label",
+     "text": "Fire, lightning, explosion, windstorm or hail,",
+     "x": 27,
+     "y": 31,
+     "size": 3.5,
+     "w": 46
+    },
+    {
+     "id": "l2",
+     "p": "label",
+     "text": "smoke, aircraft or vehicles, riot or civil commotion,",
+     "x": 27,
+     "y": 41,
+     "size": 3.5,
+     "w": 46
+    },
+    {
+     "id": "l3",
+     "p": "label",
+     "text": "vandalism, volcanic action,",
+     "x": 27,
+     "y": 49,
+     "size": 3.5,
+     "w": 46
+    },
+    {
+     "id": "l4",
+     "p": "label",
+     "text": "sprinkler leakage, sinkhole collapse",
+     "x": 27,
+     "y": 55.5,
+     "size": 3.5,
+     "w": 52
+    },
+    {
+     "p": "divider",
+     "x": 54,
+     "y": 33,
+     "y0": 4,
+     "y1": 62,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "BROAD: plus a Michigan winter",
+     "x": 81,
+     "y": 7,
+     "size": 4.0,
+     "bold": true,
+     "w": 52,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "id": "tree",
+     "p": "tree",
+     "x": 67,
+     "y": 28,
+     "h": 16,
+     "at": 1,
+     "cue": "falling",
+     "label": "Falling objects",
+     "lsize": 3.5
+    },
+    {
+     "id": "ice",
+     "p": "ice",
+     "x": 94,
+     "y": 23,
+     "h": 8,
+     "at": 1,
+     "cue": "weight",
+     "label": "Weight of snow, ice or sleet",
+     "lsize": 3.5,
+     "lw": 22
+    },
+    {
+     "id": "pipe",
+     "p": "pipe",
+     "x": 68,
+     "y": 49,
+     "h": 6,
+     "opt": {
+      "burst": true
+     },
+     "at": 1,
+     "cue": "water",
+     "label": "Water from a system or appliance",
+     "lsize": 3.5,
+     "lw": 26
+    },
+    {
+     "p": "label",
+     "text": "plus collapse coverage",
+     "x": 95,
+     "y": 52,
+     "size": 3.6,
+     "w": 20,
+     "color": "green",
+     "at": 1,
+     "cue": "collapse"
+    },
+    {
+     "p": "divider",
+     "x": 108,
+     "y": 33,
+     "y0": 4,
+     "y1": 62,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "SPECIAL: open perils",
+     "x": 134,
+     "y": 6,
+     "size": 4.4,
+     "bold": true,
+     "w": 48,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "id": "shield",
+     "p": "shield",
+     "x": 122,
+     "y": 26,
+     "h": 15,
+     "at": 2,
+     "cue": "direct",
+     "label": "Unless excluded or limited",
+     "lsize": 3.5,
+     "lw": 22
+    },
+    {
+     "id": "thief",
+     "p": "person",
+     "x": 147,
+     "y": 29,
+     "h": 22,
+     "opt": {
+      "who": "thief",
+      "pose": "run",
+      "mood": "smirk",
+      "hold": "parcel"
+     },
+     "at": 2,
+     "cue": "theft",
+     "label": "Theft: Special only",
+     "lsize": 3.5,
+     "lw": 20
+    },
+    {
+     "p": "ring",
+     "on": "l4",
+     "at": 3,
+     "cue": "sprinkler",
+     "color": "red"
     }
    ],
-   "tell": "Basic is 11 named perils. Broad adds falling objects, weight of snow, ice or sleet, and water damage. Special is open perils.",
    "beats": [
     {
-     "text": "The 2012 Basic form names 11 perils: fire, lightning, explosion, windstorm or hail, smoke, aircraft or vehicles, riot or civil commotion, vandalism, sprinkler leakage, sinkhole collapse and volcanic action.",
-     "say": "The twenty twelve Basic form names eleven perils: fire, lightning, explosion, windstorm or hail, smoke, aircraft or vehicles, riot or civil commotion, vandalism, sprinkler leakage, sinkhole collapse and volcanic action.",
-     "show": 1
+     "text": "The 2012 Basic form names 11 perils, from fire to volcanic action.",
+     "say": "The twenty twelve Basic form names eleven perils, from fire to volcanic action."
     },
     {
-     "text": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. It also adds collapse coverage.",
-     "say": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. It also adds collapse coverage.",
-     "show": 2
+     "text": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. Plus collapse coverage.",
+     "say": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. Plus collapse coverage."
     },
     {
-     "text": "The 2017 Special form covers direct physical loss unless excluded or limited. It's the only one of the three that covers theft, with special theft limits.",
-     "say": "The twenty seventeen Special form covers direct physical loss unless excluded or limited. It's the only one of the three that covers theft, with special theft limits.",
-     "show": 3
+     "text": "The 2017 Special form covers direct physical loss unless excluded or limited. Only Special covers theft.",
+     "say": "The twenty seventeen Special form covers direct physical loss unless excluded or limited. Only Special covers theft.",
+     "hl": "thief"
     },
     {
      "text": "Watch out: sprinkler leakage and sinkhole collapse are already Basic perils.",
      "say": "Watch out: sprinkler leakage and sinkhole collapse are already Basic perils.",
-     "show": 3,
-     "tell": true
+     "hl": "l4"
     }
    ]
   },
@@ -130,341 +530,1851 @@
     "Special only"
    ],
    "answer": 1,
-   "why": "Falling objects is one of the perils Broad adds to Basic. Special covers it too, but Broad is the narrowest form that does.",
+   "why": "Falling objects is a peril Broad adds to Basic, and a calm day rules out windstorm. Special covers it too, but Broad is the narrowest form that does.",
+   "src": "cp_commercial-06 drill; ISO CP 10 20 10 12, A.12",
+   "draw": [
+    {
+     "id": "tree",
+     "p": "tree",
+     "x": 14,
+     "y": 38,
+     "h": 34
+    },
+    {
+     "id": "shop",
+     "p": "store",
+     "x": 50,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "name": "SHOP"
+     }
+    },
+    {
+     "id": "limb",
+     "p": "arrow",
+     "from": [
+      20,
+      24
+     ],
+     "to": [
+      38,
+      33
+     ],
+     "head": "none",
+     "bold": true,
+     "bend": 0.05,
+     "color": "brown"
+    },
+    {
+     "p": "crash",
+     "x": 36,
+     "y": 23,
+     "h": 11,
+     "opt": {
+      "text": "CRASH!"
+     },
+     "over": true
+    },
+    {
+     "p": "sun",
+     "x": 68,
+     "y": 9,
+     "h": 10,
+     "label": "Calm day",
+     "lsize": 3.6
+    }
+   ],
    "beats": [
     {
-     "text": "Quick check. On a calm day, a tree limb falls through a store's roof. Which is the narrowest causes of loss form that covers it? Pick an answer.",
-     "say": "Quick check. On a calm day, a tree limb falls through a store's roof. Which is the narrowest causes of loss form that covers it? Pick an answer."
+     "text": "Quick check: on a calm day, a limb crashes through a store's roof. Narrowest form?",
+     "say": "Quick check: on a calm day, a limb crashes through a store's roof. Narrowest form?"
     }
    ],
    "reveal": [
     {
-     "text": "Broad. Falling objects is a peril Broad adds. Special covers it too, but Broad is narrower.",
-     "say": "Broad. Falling objects is a peril Broad adds. Special covers it too, but Broad is narrower."
+     "text": "Broad: falling objects. A calm day rules out windstorm, a Basic peril. Special covers it too, but Broad is narrower.",
+     "say": "Broad: falling objects. A calm day rules out windstorm, a Basic peril. Special covers it too, but Broad is narrower."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Vacancy: more than 60 days",
-   "src": "ISO CP 00 10 10 12, E.6 (2012 Building and Personal Property form)",
-   "items": [
+   "type": "term",
+   "title": "Empty for weeks: the vacancy rule",
+   "src": "ISO CP 00 10 10 12, E.6.a-b (2012 Building and Personal Property form); hook mn_comm-06",
+   "kind": "Loss condition",
+   "term": "Vacant",
+   "plain": "Too empty to count as in use. An owner's building is vacant unless at least 31% is rented and used, or used by the owner, for normal business.",
+   "example": "Tony's warehouse sits unused for weeks while he waits for permits. Nobody works there, and nothing goes on inside.",
+   "exam": "Over 60 days vacant: vandalism, building glass, water damage, theft, attempted theft unpaid; sprinkler leaks only if freeze-protected. Rest: less 15%.",
+   "draw": [
     {
-     "label": "Vacant more than 60 consecutive days",
-     "icon": "calendar"
+     "id": "wh",
+     "p": "warehouse",
+     "x": 30,
+     "y": 18,
+     "h": 22,
+     "opt": {
+      "name": "TONY'S",
+      "roof": "red"
+     }
     },
     {
-     "label": "Not paid at all",
-     "detail": "Vandalism, sprinkler leakage unless protected from freezing, glass breakage, water damage, theft",
-     "icon": "ban"
+     "p": "snow",
+     "x": 7,
+     "y": 4,
+     "h": 4,
+     "over": true
     },
     {
-     "label": "Other covered losses cut 15%",
-     "detail": "Windstorm or fire, for example",
-     "icon": "percent"
+     "p": "snow",
+     "x": 53,
+     "y": 4,
+     "h": 4,
+     "over": true
     },
     {
-     "label": "Owner's building: the 31% rule",
-     "detail": "Not vacant if at least 31% is rented and used, or used by the owner",
-     "icon": "building-2"
+     "p": "label",
+     "text": "Nobody inside",
+     "x": 30,
+     "y": 33,
+     "size": 3.8,
+     "color": "gray"
+    },
+    {
+     "id": "sign",
+     "p": "sign",
+     "x": 68,
+     "y": 22,
+     "h": 20,
+     "opt": {
+      "text": "PERMITS\nPENDING",
+      "tcolor": "red"
+     },
+     "cue": "permits"
+    },
+    {
+     "id": "pie",
+     "p": "piechart",
+     "x": 20,
+     "y": 50,
+     "h": 16,
+     "opt": {
+      "slices": [
+       31,
+       69
+      ],
+      "colors": [
+       "green",
+       "gray"
+      ],
+      "pop": 0
+     },
+     "at": 1,
+     "cue": "31%",
+     "label": "Needs 31% in use",
+     "lsize": 3.8,
+     "lw": 26
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 60,
+     "y": 45,
+     "h": 15,
+     "opt": {
+      "n": "61+",
+      "label": "DAYS"
+     },
+     "at": 2,
+     "cue": "60",
+     "label": "Over 60 days in a row",
+     "lsize": 3.6,
+     "lw": 34
     }
    ],
    "beats": [
     {
-     "text": "Vacancy is a loss condition in the 2012 Building and Personal Property form. It applies when the building was vacant more than 60 consecutive days before the loss.",
-     "say": "Vacancy is a loss condition in the twenty twelve Building and Personal Property form. It applies when the building was vacant more than sixty consecutive days before the loss.",
+     "text": "Tony's permits take forever, and the warehouse sits unused. Exam word: vacant.",
+     "say": "Tony's permits take forever, and the warehouse sits unused. Exam word: vacant.",
      "show": 1
     },
     {
-     "text": "Then some losses aren't paid at all: vandalism, sprinkler leakage unless protected against freezing, building glass breakage, water damage, and theft or attempted theft.",
-     "say": "Then some losses aren't paid at all: vandalism, sprinkler leakage unless protected against freezing, building glass breakage, water damage, and theft or attempted theft.",
-     "show": 2
+     "text": "Under the 2012 form, an owner's building is vacant unless at least 31% is rented and used, or used by the owner, for customary operations.",
+     "say": "Under the twenty twelve form, an owner's building is vacant unless at least thirty-one percent is rented and used, or used by the owner, for customary operations.",
+     "show": 3,
+     "hl": "pie"
     },
     {
-     "text": "Any other covered loss is paid minus 15%.",
-     "say": "Any other covered loss is paid minus fifteen percent.",
-     "show": 3
-    },
-    {
-     "text": "For an owner, the building isn't vacant if at least 31% is rented and used by tenants, or used by the owner, for customary operations.",
-     "say": "For an owner, the building isn't vacant if at least thirty-one percent is rented and used by tenants, or used by the owner, for customary operations.",
-     "show": 4
+     "text": "Vacant more than 60 consecutive days? Then vandalism, sprinkler leakage unless protected from freezing, building glass breakage, water damage, theft and attempted theft aren't paid. Other covered losses, like windstorm or fire, are cut 15%.",
+     "say": "Vacant more than sixty consecutive days? Then vandalism, sprinkler leakage unless protected from freezing, building glass breakage, water damage, theft and attempted theft aren't paid. Other covered losses, like windstorm or fire, are cut fifteen percent.",
+     "show": 4,
+     "hl": "cal"
     }
    ]
   },
   {
-   "type": "hook",
+   "type": "choice",
+   "title": "Day 50: what does Tony do?",
+   "src": "ISO CP 00 10 10 12, E.6.a-b; hook mn_comm-06; question comm-021",
+   "ask": "What does Tony do?",
+   "draw": [
+    {
+     "id": "wh",
+     "p": "warehouse",
+     "x": 34,
+     "y": 30,
+     "h": 30,
+     "opt": {
+      "name": "TONY'S",
+      "roof": "red"
+     }
+    },
+    {
+     "p": "snow",
+     "x": 14,
+     "y": 7,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 56,
+     "y": 6,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 82,
+     "y": 26,
+     "h": 18,
+     "opt": {
+      "n": "50",
+      "label": "DAYS"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 116,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Still no permits!",
+     "x": 140,
+     "y": 8,
+     "w": 30,
+     "to": "tony",
+     "size": 5
+    }
+   ],
+   "beats": [
+    {
+     "text": "Day 50. Still empty, and the permits are weeks away. What does Tony do?",
+     "say": "Day fifty. Still empty, and the permits are weeks away. What does Tony do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Leave it empty until spring",
+     "ok": false,
+     "fail": "After more than 60 consecutive days vacant, vandalism and building glass breakage aren't paid at all.",
+     "beats": [
+      {
+       "text": "Day 75: vandals tag the walls and smash the windows. Vacant over 60 days: none of it is paid.",
+       "say": "Day seventy-five: vandals tag the walls and smash the windows. Vacant over sixty days: none of it is paid."
+      }
+     ],
+     "draw": [
+      {
+       "id": "wh",
+       "p": "warehouse",
+       "x": 32,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "name": "TONY'S",
+        "roof": "red"
+       }
+      },
+      {
+       "p": "label",
+       "text": "TAG!",
+       "x": 20,
+       "y": 34,
+       "size": 6,
+       "bold": true,
+       "color": "purple",
+       "rot": -12,
+       "over": true,
+       "cue": "tag",
+       "anim": "pop"
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 72,
+       "y": 12,
+       "h": 14,
+       "opt": {
+        "n": "75",
+        "label": "DAYS"
+       }
+      },
+      {
+       "id": "win",
+       "p": "window",
+       "x": 72,
+       "y": 35,
+       "h": 16,
+       "opt": {
+        "broken": true
+       },
+       "cue": "smash",
+       "sfx": "crash",
+       "label": "Building glass",
+       "lsize": 3.8
+      },
+      {
+       "id": "vandal",
+       "p": "person",
+       "x": 100,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "thief",
+        "pose": "run",
+        "mood": "laugh"
+       }
+      },
+      {
+       "p": "icon",
+       "name": "spray-can",
+       "x": 112,
+       "y": 26,
+       "h": 8,
+       "color": "purple",
+       "rot": 20
+      },
+      {
+       "p": "stamp",
+       "text": "Not paid",
+       "x": 136,
+       "y": 44,
+       "color": "red",
+       "cue": "paid"
+      }
+     ]
+    },
+    {
+     "label": "Ask a buddy to check on it weekly",
+     "ok": false,
+     "fail": "Visits aren't use. Under 31% used for customary operations, it's still vacant, and other covered losses are cut 15%.",
+     "beats": [
+      {
+       "text": "Yep, still empty!",
+       "say": "Yep, still empty!",
+       "voice": "neighbor",
+       "speaker": "Tony's buddy",
+       "hl": "buddy"
+      },
+      {
+       "text": "Day 80: a windstorm rips the roof. Visits aren't use, so it's still vacant: paid, minus 15%.",
+       "say": "Day eighty: a windstorm rips the roof. Visits aren't use, so it's still vacant: paid, minus fifteen percent."
+      }
+     ],
+     "draw": [
+      {
+       "id": "wh",
+       "p": "warehouse",
+       "x": 34,
+       "y": 32,
+       "h": 30,
+       "opt": {
+        "name": "TONY'S",
+        "roof": "red"
+       }
+      },
+      {
+       "p": "wind",
+       "x": 12,
+       "y": 10,
+       "h": 12,
+       "loop": "wobble",
+       "cue": "windstorm",
+       "sfx": "whoosh",
+       "at": 1
+      },
+      {
+       "p": "box",
+       "w": 14,
+       "hh": 2.6,
+       "x": 56,
+       "y": 19,
+       "rot": -18,
+       "color": "red",
+       "fill": "red",
+       "over": true,
+       "at": 1,
+       "cue": "rips",
+       "move": {
+        "to": [
+         66,
+         13
+        ],
+        "at": 1,
+        "cue": "rips",
+        "dur": 1.2
+       }
+      },
+      {
+       "p": "crash",
+       "x": 44,
+       "y": 10,
+       "h": 11,
+       "opt": {
+        "text": "RIIIP!"
+       },
+       "over": true,
+       "cue": "rips",
+       "at": 1
+      },
+      {
+       "id": "buddy",
+       "p": "person",
+       "x": 86,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "neighbor",
+        "pose": "wave",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Yep, still empty!",
+       "x": 108,
+       "y": 8,
+       "w": 30,
+       "to": "buddy",
+       "size": 5,
+       "at": 0
+      },
+      {
+       "p": "label",
+       "text": "Paid, minus 15%",
+       "x": 134,
+       "y": 42,
+       "size": 5,
+       "color": "orange",
+       "bold": true,
+       "box": true,
+       "cue": "minus",
+       "at": 1
+      }
+     ]
+    },
+    {
+     "label": "Move his dough kitchen into 40% of it",
+     "ok": true,
+     "win": "With at least 31% used by the owner for customary operations, the building isn't vacant, so the vacancy rules don't apply.",
+     "beats": [
+      {
+       "text": "Tony's crew makes dough there now. With 40% in use, the warehouse isn't vacant.",
+       "say": "Tony's crew makes dough there now. With forty percent in use, the warehouse isn't vacant."
+      }
+     ],
+     "draw": [
+      {
+       "id": "wh",
+       "p": "warehouse",
+       "x": 34,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "name": "TONY'S",
+        "roof": "red"
+       }
+      },
+      {
+       "id": "pie",
+       "p": "piechart",
+       "x": 80,
+       "y": 22,
+       "h": 20,
+       "opt": {
+        "slices": [
+         40,
+         60
+        ],
+        "colors": [
+         "green",
+         "gray"
+        ],
+        "pop": 0
+       },
+       "label": "40% in use",
+       "lsize": 4.2
+      },
+      {
+       "p": "stamp",
+       "text": "Not vacant",
+       "x": 80,
+       "y": 50,
+       "color": "green",
+       "cue": "vacant"
+      },
+      {
+       "id": "cook",
+       "p": "person",
+       "x": 114,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "worker",
+        "hat": "chef",
+        "apron": true,
+        "pose": "hold",
+        "hold": "pizza",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 140,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Keep at least 31% in real use. A building under renovation isn't vacant either, but Tony's work hadn't started.",
+     "say": "Keep at least thirty-one percent in real use. A building under renovation isn't vacant either, but Tony's work hadn't started."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: keep Basic?",
+   "src": "ISO CP 10 10 10 12, A.; CP 10 20 10 12, A.12-14; CP 10 30 09 17, A., C.3; cp_commercial-06 drills; question comm-028",
+   "ask": "What does Tony do?",
+   "draw": [
+    {
+     "id": "wh",
+     "p": "warehouse",
+     "x": 30,
+     "y": 30,
+     "h": 28,
+     "opt": {
+      "name": "TONY'S",
+      "roof": "red"
+     }
+    },
+    {
+     "p": "snow",
+     "x": 14,
+     "y": 7,
+     "h": 6,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 46,
+     "y": 6,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "id": "cheese",
+     "p": "fridge",
+     "x": 70,
+     "y": 31,
+     "h": 22,
+     "label": "Cheese!",
+     "lsize": 4.2
+    },
+    {
+     "id": "thief",
+     "p": "person",
+     "x": 96,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "thief",
+      "pose": "walk",
+      "mood": "smirk"
+     },
+     "flip": true
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 126,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Snow and thieves?",
+     "x": 141,
+     "y": 8,
+     "w": 34,
+     "to": "tony",
+     "size": 5,
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "Since Day 50, the kitchen hums.",
+     "say": "Since Day fifty, the kitchen hums."
+    },
+    {
+     "text": "But heavy snow on that big roof? Thieves after my cheese? Is Basic enough?",
+     "say": "But heavy snow on that big roof? Thieves after my cheese? Is Basic enough?",
+     "voice": "tony",
+     "hl": "tony"
+    }
+   ],
+   "options": [
+    {
+     "label": "Keep Basic. Winter can't be that bad!",
+     "ok": false,
+     "fail": "Weight of snow, ice or sleet isn't one of the 11 Basic perils. Broad adds it.",
+     "beats": [
+      {
+       "text": "February: heavy snow piles up and damages the roof. Weight of snow isn't a Basic peril.",
+       "say": "February: heavy snow piles up and damages the roof. Weight of snow isn't a Basic peril."
+      }
+     ],
+     "draw": [
+      {
+       "id": "wh",
+       "p": "warehouse",
+       "x": 38,
+       "y": 32,
+       "h": 30,
+       "opt": {
+        "name": "TONY'S",
+        "roof": "red"
+       }
+      },
+      {
+       "p": "snow",
+       "x": 16,
+       "y": 14,
+       "h": 8,
+       "over": true
+      },
+      {
+       "p": "snow",
+       "x": 60,
+       "y": 14,
+       "h": 8,
+       "over": true
+      },
+      {
+       "p": "ice",
+       "x": 38,
+       "y": 19,
+       "h": 7,
+       "over": true
+      },
+      {
+       "p": "line",
+       "from": [
+        22,
+        20
+       ],
+       "to": [
+        54,
+        24
+       ],
+       "color": "red",
+       "over": true,
+       "cue": "damages"
+      },
+      {
+       "p": "crash",
+       "x": 38,
+       "y": 8,
+       "h": 12,
+       "opt": {
+        "text": "CRUNCH!"
+       },
+       "over": true,
+       "cue": "damages",
+       "sfx": "crash"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 94,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Snow load: not a Basic peril",
+       "x": 130,
+       "y": 44,
+       "size": 4.8,
+       "w": 36,
+       "color": "red",
+       "bold": true,
+       "cue": "peril"
+      }
+     ]
+    },
+    {
+     "label": "Upgrade to Broad. Sounds broad!",
+     "ok": false,
+     "fail": "Basic and Broad cover a burglar's damage to the building as vandalism, but not the theft itself. Only Special covers theft.",
+     "beats": [
+      {
+       "text": "Thieves break in and grab his cheese. Broad pays for the broken door, not the cheese.",
+       "say": "Thieves break in and grab his cheese. Broad pays for the broken door, not the cheese."
+      }
+     ],
+     "draw": [
+      {
+       "id": "wh",
+       "p": "warehouse",
+       "x": 34,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "name": "TONY'S",
+        "roof": "red"
+       }
+      },
+      {
+       "id": "lock",
+       "p": "lock",
+       "x": 58,
+       "y": 38,
+       "h": 9,
+       "opt": {
+        "broken": true
+       },
+       "over": true
+      },
+      {
+       "id": "thief",
+       "p": "person",
+       "x": 92,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "thief",
+        "pose": "run",
+        "mood": "laugh",
+        "hold": "parcel"
+       },
+       "move": {
+        "to": [
+         104,
+         30
+        ],
+        "cue": "grab",
+        "dur": 1.2,
+        "sfx": "whoosh"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Broken lock and door: covered",
+       "x": 46,
+       "y": 53,
+       "size": 4.2,
+       "color": "green",
+       "bold": true,
+       "cue": "door",
+       "w": 50
+      },
+      {
+       "p": "label",
+       "text": "Stolen cheese: not covered",
+       "x": 130,
+       "y": 46,
+       "size": 4.2,
+       "w": 30,
+       "color": "red",
+       "bold": true,
+       "cue": "not"
+      }
+     ]
+    },
+    {
+     "label": "Upgrade to Special",
+     "ok": true,
+     "win": "Special covers direct physical loss unless excluded or limited. It's the only one of the three that covers theft.",
+     "beats": [
+      {
+       "text": "Snow on the roof, thieves at the door: Special covers both.",
+       "say": "Snow on the roof, thieves at the door: Special covers both."
+      }
+     ],
+     "draw": [
+      {
+       "id": "wh",
+       "p": "warehouse",
+       "x": 34,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "name": "TONY'S",
+        "roof": "red"
+       }
+      },
+      {
+       "id": "shield",
+       "p": "shield",
+       "x": 80,
+       "y": 24,
+       "h": 24,
+       "anim": "pop",
+       "sfx": "ding"
+      },
+      {
+       "p": "stamp",
+       "text": "Covered",
+       "x": 80,
+       "y": 49,
+       "color": "green",
+       "cue": "covers"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 116,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      },
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 141,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "flip": true
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The 2017 Special form puts thieves on a budget for a few items: $2,500 for furs, $2,500 for jewelry, $250 for stamps or tickets.",
+     "say": "The twenty seventeen Special form puts thieves on a budget for a few items: two thousand five hundred dollars for furs, two thousand five hundred dollars for jewelry, two hundred fifty dollars for stamps or tickets."
+    }
+   ]
+  },
+  {
+   "type": "slider",
    "title": "Coinsurance: Did over Should",
-   "src": "Hook mn-mn_comm-07; ISO CP 00 10 10 12, F.1",
-   "hook": "Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost.",
-   "mn": "mn-mn_comm-07",
-   "items": [
-    "Should: value at the time of loss times the coinsurance percentage",
-    "Did: the limit of insurance you actually carried",
-    "Did over Should, times the loss, minus the deductible",
-    "Never more than the limit; no penalty if Did is at least Should"
+   "src": "ISO CP 00 10 10 12, F.1 Coinsurance (2012 Building and Personal Property form); memory hook mn_comm-07; question comm-022",
+   "calc": "coins",
+   "params": {
+    "value": 600000,
+    "pct": 80,
+    "loss": 200000,
+    "ded": 1000
+   },
+   "var": {
+    "key": "limit",
+    "label": "Tony's building limit (Did)",
+    "min": 240000,
+    "max": 600000,
+    "step": 20000,
+    "start": 360000,
+    "money": true
+   },
+   "goal": {
+    "op": "gte",
+    "value": 199000,
+    "text": "Find the smallest limit that pays the whole $200,000 loss, minus only the $1,000 deductible.",
+    "done": "No penalty from $480,000 up: Did meets Should."
+   },
+   "draw": [
+    {
+     "id": "wh",
+     "p": "warehouse",
+     "x": 22,
+     "y": 15,
+     "h": 17,
+     "opt": {
+      "name": "TONY'S",
+      "roof": "red"
+     },
+     "label": "Worth now: $600,000",
+     "lsize": 3.8
+    },
+    {
+     "p": "fire",
+     "x": 30,
+     "y": 10,
+     "h": 9,
+     "loop": "flicker",
+     "over": true,
+     "cue": "fire"
+    },
+    {
+     "id": "note",
+     "p": "note",
+     "text": "Fire damage: $200,000. Deductible: $1,000",
+     "x": 62,
+     "y": 14,
+     "w": 30
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 20,
+     "y": 50,
+     "h": 24,
+     "opt": {
+      "who": "tony",
+      "mood": "worried"
+     },
+     "label": "Started at $360,000",
+     "lsize": 3.8
+    },
+    {
+     "id": "adj",
+     "p": "person",
+     "x": 60,
+     "y": 50,
+     "h": 24,
+     "opt": {
+      "who": "adjuster",
+      "pose": "hold",
+      "hold": "clipboard"
+     },
+     "label": "Adjuster",
+     "lsize": 3.8
+    }
    ],
    "beats": [
     {
-     "text": "Now coinsurance. Here's the hook: Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost.",
-     "say": "Now coinsurance. Here's the hook: Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost.",
-     "show": 0
+     "text": "That spring, a grease fire does $200,000 of damage. Deductible: $1,000.",
+     "say": "That spring, a grease fire does two hundred thousand dollars of damage. Deductible: one thousand dollars."
     },
     {
-     "text": "Should is the value at the time of loss times the coinsurance percentage. Did is the limit you carried.",
-     "say": "Should is the value at the time of loss times the coinsurance percentage. Did is the limit you carried.",
-     "show": 2
+     "text": "Tony has 80% coinsurance: insure at least 80% of the building's value, or get paid only part.",
+     "say": "Tony has eighty percent coinsurance: insure at least eighty percent of the building's value, or get paid only part."
     },
     {
-     "text": "Divide, multiply by the loss, and subtract the deductible. Never more than the limit, and no penalty if Did meets Should.",
-     "say": "Divide, multiply by the loss, and subtract the deductible. Never more than the limit, and no penalty if Did meets Should.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "formula",
-   "title": "Coinsurance worked example",
-   "src": "ISO CP 00 10 10 12, F.1 (2012 Building and Personal Property form)",
-   "given": [
-    "Building value at time of loss: $400,000",
-    "Coinsurance: 80%",
-    "Limit carried: $240,000",
-    "Loss: $60,000; deductible: $1,000"
-   ],
-   "items": [
-    {
-     "label": "Should carry",
-     "expr": "$400,000 × 80%",
-     "value": "$320,000"
+     "text": "Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost.",
+     "say": "Did over Should, times the Loss; take off the Deductible, and that's the insurer's cost."
     },
     {
-     "label": "Did over Should",
-     "expr": "$240,000 ÷ $320,000",
-     "value": "0.75"
+     "text": "At the time of loss, the building is worth $600,000.",
+     "say": "At the time of loss, the building is worth six hundred thousand dollars."
     },
     {
-     "label": "Times the loss",
-     "expr": "$60,000 × 0.75",
-     "value": "$45,000"
+     "text": "You should carry $480,000. You carry $360,000.",
+     "say": "You should carry four hundred eighty thousand dollars. You carry three hundred sixty thousand dollars.",
+     "voice": "adjuster",
+     "hl": "adj"
     },
     {
-     "label": "Minus the deductible",
-     "expr": "$45,000 − $1,000",
-     "value": "$44,000"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Let's work one. A Kalamazoo warehouse is worth $400,000 at the time of loss, with 80% coinsurance. So it should carry $320,000.",
-     "say": "Let's work one. A Kalamazoo warehouse is worth four hundred thousand dollars at the time of loss, with eighty percent coinsurance. So it should carry three hundred twenty thousand dollars.",
-     "show": 1
-    },
-    {
-     "text": "It carries only $240,000. Did over Should is 0.75.",
-     "say": "It carries only two hundred forty thousand dollars. Did over Should is zero point seven five.",
-     "show": 2
-    },
-    {
-     "text": "A loss of $60,000 times 0.75 is $45,000.",
-     "say": "A loss of sixty thousand dollars times zero point seven five is forty-five thousand dollars.",
-     "show": 3
-    },
-    {
-     "text": "Subtract the deductible of $1,000, and the insurer pays $44,000.",
-     "say": "Subtract the deductible of one thousand dollars, and the insurer pays forty-four thousand dollars.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Business Income vs Extra Expense",
-   "src": "ISO CP 00 30 10 12, A.1-2, A.5.c, D., F.3 (2012 Business Income and Extra Expense form)",
-   "columns": [
-    {
-     "name": "Business Income",
-     "icon": "trending-down",
-     "points": [
-      "Lost net income plus continuing expenses, including payroll",
-      "Starts 72 hours after the direct physical loss",
-      "Extended Business Income: up to 60 days after reopening",
-      "Coinsurance can apply"
-     ]
-    },
-    {
-     "name": "Extra Expense",
-     "icon": "receipt",
-     "points": [
-      "Extra costs to avoid or minimize the shutdown",
-      "Like moving to a temporary location",
-      "Starts immediately",
-      "Coinsurance does not apply"
-     ]
-    }
-   ],
-   "tell": "Lost profit and continuing bills while closed: Business Income. Extra money spent to keep going: Extra Expense.",
-   "beats": [
-    {
-     "text": "Now time element coverage, from the 2012 Business Income form. It pays lost net income plus continuing operating expenses, including payroll.",
-     "say": "Now time element coverage, from the twenty twelve Business Income form. It pays lost net income plus continuing operating expenses, including payroll.",
-     "show": 1
-    },
-    {
-     "text": "Its period of restoration starts 72 hours after the direct physical loss. After you reopen, Extended Business Income runs up to 60 more days.",
-     "say": "Its period of restoration starts seventy-two hours after the direct physical loss. After you reopen, Extended Business Income runs up to sixty more days.",
-     "show": 1
-    },
-    {
-     "text": "Extra Expense pays extra costs to avoid or minimize the shutdown, like moving to a temporary location. It starts immediately.",
-     "say": "Extra Expense pays extra costs to avoid or minimize the shutdown, like moving to a temporary location. It starts immediately.",
-     "show": 2
-    },
-    {
-     "text": "So: lost profit while closed is Business Income. Extra money spent to keep going is Extra Expense.",
-     "say": "So: lost profit while closed is Business Income. Extra money spent to keep going is Extra Expense.",
-     "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "After a fire, a Traverse City dentist rents and equips a temporary office to keep seeing patients. Under the 2012 ISO form, which coverage pays, and when does it start?",
-   "choices": [
-    "Business Income, after 72 hours",
-    "Extra Expense, immediately",
-    "Extra Expense, after 72 hours",
-    "Business Income, immediately"
-   ],
-   "answer": 1,
-   "why": "Costs to keep operating from a temporary location are Extra Expense, which starts immediately. The 72-hour wait applies to Business Income.",
-   "beats": [
-    {
-     "text": "Try this. After a fire, a Traverse City dentist rents a temporary office to keep seeing patients. Which coverage pays, and when does it start? Pick an answer.",
-     "say": "Try this. After a fire, a Traverse City dentist rents a temporary office to keep seeing patients. Which coverage pays, and when does it start? Pick an answer."
+     "text": "Did over Should is three quarters: he gets $149,000. Find the smallest limit with no penalty.",
+     "say": "Did over Should is three quarters: he gets one hundred forty-nine thousand dollars. Find the smallest limit with no penalty."
     }
    ],
    "reveal": [
     {
-     "text": "Extra Expense, starting immediately. It's money spent to keep going. The 72-hour wait is only for Business Income.",
-     "say": "Extra Expense, starting immediately. It's money spent to keep going. The seventy-two-hour wait is only for Business Income."
+     "text": "$480,000: Did meets Should, so no penalty.",
+     "say": "Four hundred eighty thousand dollars: Did meets Should, so no penalty."
+    },
+    {
+     "text": "Watch out: value counts at the time of loss, not when the policy was bought. And it never pays more than the limit.",
+     "say": "Watch out: value counts at the time of loss, not when the policy was bought. And it never pays more than the limit."
     }
    ]
   },
   {
-   "type": "table",
-   "title": "Other commercial property forms",
-   "src": "ISO CP 00 17 10 12, E.6, E.9; CP 00 18 10 12, E.3; CP 00 20 06 95, A.1; CP 00 40 10 12, A.",
-   "columns": [
-    "Form",
-    "Key point"
-   ],
-   "items": [
-    [
-     "Condominium Association",
-     "Primary; no subrogation against unit-owners"
-    ],
-    [
-     "Condo Commercial Unit-Owners",
-     "Excess over the association's insurance"
-    ],
-    [
-     "Builders Risk (1995 form)",
-     "Building under construction, plus materials"
-    ],
-    [
-     "Legal Liability",
-     "Liability for others' property in your care"
-    ]
+   "type": "term",
+   "title": "Closed after the fire: Business Income",
+   "src": "ISO CP 00 30 10 12, A.1-2, A.5.c, D., F.3 (2012 Business Income and Extra Expense form); cp_commercial-05",
+   "kind": "Time element",
+   "term": "Business Income",
+   "plain": "Pays the profit you lose, plus bills that keep coming like payroll, while damage to your place keeps you closed.",
+   "example": "The fire closes Tony's kitchen for two months. His Business Income form replaces the profit he loses and keeps his cooks' paychecks coming.",
+   "exam": "Starts 72 hours after the loss; Extra Expense starts immediately. Extended Business Income: up to 60 days after reopening.",
+   "draw": [
+    {
+     "id": "wh",
+     "p": "warehouse",
+     "x": 26,
+     "y": 16,
+     "h": 18,
+     "opt": {
+      "name": "TONY'S",
+      "roof": "red"
+     }
+    },
+    {
+     "p": "puff",
+     "x": 33,
+     "y": 5,
+     "h": 8,
+     "over": true
+    },
+    {
+     "id": "closed",
+     "p": "sign",
+     "x": 50,
+     "y": 18,
+     "h": 14,
+     "opt": {
+      "text": "CLOSED",
+      "tcolor": "red"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 61,
+     "y": 22,
+     "h": 24,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "policy"
+     },
+     "at": 1
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 72,
+     "y": 22,
+     "h": 24,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "at": 1
+    },
+    {
+     "id": "cook",
+     "p": "person",
+     "x": 14,
+     "y": 50,
+     "h": 22,
+     "opt": {
+      "who": "worker",
+      "hat": "chef",
+      "apron": true,
+      "pose": "hold",
+      "hold": "money",
+      "mood": "happy"
+     },
+     "at": 3,
+     "cue": "cooks"
+    },
+    {
+     "id": "hg",
+     "p": "hourglass",
+     "x": 38,
+     "y": 47,
+     "h": 13,
+     "opt": {
+      "sand": 0.6
+     },
+     "at": 4,
+     "cue": "72",
+     "label": "BI: 72 hours",
+     "lsize": 3.6
+    },
+    {
+     "id": "ee",
+     "p": "icon",
+     "name": "timer",
+     "x": 64,
+     "y": 45,
+     "h": 10,
+     "color": "green",
+     "at": 4,
+     "cue": "immediately"
+    },
+    {
+     "p": "label",
+     "text": "Extra Expense: now",
+     "x": 64,
+     "y": 56,
+     "size": 3.6,
+     "w": 22,
+     "color": "green",
+     "at": 4,
+     "cue": "immediately"
+    }
    ],
    "beats": [
     {
-     "text": "A few more forms. The condominium association form is primary, and its insurer waives recovery against unit-owners. The commercial unit-owners form is excess over the association's insurance.",
-     "say": "A few more forms. The condominium association form is primary, and its insurer waives recovery against unit-owners. The commercial unit-owners form is excess over the association's insurance.",
-     "show": 2
-    },
-    {
-     "text": "Builders risk covers a building under construction, including materials meant to become part of it.",
-     "say": "Builders risk covers a building under construction, including materials meant to become part of it.",
-     "show": 3
-    },
-    {
-     "text": "The legal liability form covers your liability for others' property in your care, like a tenant's liability for the landlord's building.",
-     "say": "The legal liability form covers your liability for others' property in your care, like a tenant's liability for the landlord's building.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Selected endorsements",
-   "src": "ISO CP 04 05 09 17, C.1-3; CP 04 40 06 07, A., C.3; CP 12 30 06 95; IRMI glossary 'reporting form coverage'",
-   "items": [
-    {
-     "label": "Ordinance or Law",
-     "detail": "A: undamaged portion. B: demolition cost. C: increased cost of construction",
-     "icon": "gavel"
-    },
-    {
-     "label": "Spoilage",
-     "detail": "Perishable stock: refrigeration breakdown, refrigerant contamination, power outage",
-     "icon": "refrigerator"
-    },
-    {
-     "label": "Peak Season Limit",
-     "detail": "Higher personal property limit only during scheduled dates",
-     "icon": "calendar"
-    },
-    {
-     "label": "Value Reporting",
-     "detail": "For fluctuating values; premium based on the values reported",
-     "icon": "clipboard-list"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Four endorsements. Ordinance or Law: A pays the loss to the undamaged portion, B pays demolition cost, and C pays the increased cost of construction.",
-     "say": "Four endorsements. Ordinance or Law: A pays the loss to the undamaged portion, B pays demolition cost, and C pays the increased cost of construction.",
+     "text": "The fire also shuts the kitchen.",
+     "say": "The fire also shuts the kitchen.",
      "show": 1
     },
     {
-     "text": "Spoilage covers perishable stock for refrigeration breakdown or contamination, and for power outage.",
-     "say": "Spoilage covers perishable stock for refrigeration breakdown or contamination, and for power outage.",
+     "text": "Good thing we added the Business Income form, Tony.",
+     "say": "Good thing we added the Business Income form, Tony.",
+     "voice": "dana",
+     "show": 1,
+     "hl": "dana"
+    },
+    {
+     "text": "Under the 2012 form, it pays lost net income plus continuing expenses, including payroll. That's time element coverage: lost income, not damaged things.",
+     "say": "Under the twenty twelve form, it pays lost net income plus continuing expenses, including payroll. That's time element coverage: lost income, not damaged things.",
      "show": 2
     },
     {
-     "text": "Peak Season raises the personal property limit only during scheduled dates, like a toy store's holiday rush.",
-     "say": "Peak Season raises the personal property limit only during scheduled dates, like a toy store's holiday rush.",
-     "show": 3
+     "text": "So my cooks still get paid?",
+     "say": "So my cooks still get paid?",
+     "voice": "tony",
+     "show": 3,
+     "hl": "tony"
     },
     {
-     "text": "Value Reporting suits fluctuating values like inventory. The limit is set for peak values, but premium is based on the values you report.",
-     "say": "Value Reporting suits fluctuating values like inventory. The limit is set for peak values, but premium is based on the values you report.",
+     "text": "Yes. But Business Income waits 72 hours after the direct physical loss. Extra Expense, the extra cost to keep operating, like a temporary location, starts immediately.",
+     "say": "Yes. But Business Income waits seventy-two hours after the direct physical loss. Extra Expense, the extra cost to keep operating, like a temporary location, starts immediately.",
+     "show": 4,
+     "hl": "hg"
+    },
+    {
+     "text": "After reopening, Extended Business Income adds up to 60 days. Coinsurance can apply to Business Income, never to Extra Expense.",
+     "say": "After reopening, Extended Business Income adds up to sixty days. Coinsurance can apply to Business Income, never to Extra Expense.",
      "show": 4
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "After a covered fire, city code requires an owner to tear down the undamaged part of the building. Which Ordinance or Law coverage pays to demolish it and clear the site?",
-   "choices": [
-    "Coverage A",
-    "Coverage B",
-    "Coverage C"
+   "type": "sort",
+   "title": "Business Income or Extra Expense?",
+   "src": "ISO CP 00 30 10 12, A.1-2, A.5.c, F.3; cp_commercial-05 drills (incl. the dental office drill)",
+   "bins": [
+    {
+     "name": "Business Income"
+    },
+    {
+     "name": "Extra Expense"
+    }
    ],
-   "answer": 1,
-   "why": "Coverage B is demolition cost. Coverage A pays the loss to the undamaged portion, and Coverage C pays the increased cost of construction.",
+   "items": [
+    {
+     "text": "Profit Tony would have earned while closed",
+     "bin": 0,
+     "why": "Lost net income during the shutdown is Business Income."
+    },
+    {
+     "text": "His cooks' payroll while the kitchen is closed",
+     "bin": 0,
+     "why": "Continuing normal operating expenses, including payroll, are part of Business Income."
+    },
+    {
+     "text": "After a fire, a Traverse City dentist equips a temp office",
+     "bin": 1,
+     "why": "Extra costs to avoid or minimize the shutdown are Extra Expense."
+    },
+    {
+     "text": "Slow sales for a few weeks after reopening",
+     "bin": 0,
+     "why": "Extended Business Income runs after reopening, up to 60 days, while income gets back to normal."
+    },
+    {
+     "text": "Starts immediately after the fire",
+     "bin": 1,
+     "why": "Extra Expense starts at once; Business Income waits 72 hours."
+    },
+    {
+     "text": "The form's coinsurance condition doesn't apply to it",
+     "bin": 1,
+     "why": "Coinsurance can apply to Business Income, not Extra Expense."
+    }
+   ],
    "beats": [
     {
-     "text": "Last one. After a covered fire, city code makes an owner tear down the undamaged part of the building. Which Ordinance or Law coverage pays for the demolition? Pick an answer.",
-     "say": "Last one. After a covered fire, city code makes an owner tear down the undamaged part of the building. Which Ordinance or Law coverage pays for the demolition? Pick an answer."
+     "text": "Your turn: Business Income or Extra Expense?",
+     "say": "Your turn: Business Income or Extra Expense?"
     }
    ],
    "reveal": [
     {
-     "text": "Coverage B, demolition cost. A is the loss to the undamaged portion, and C is the increased cost of construction.",
-     "say": "Coverage B, demolition cost. A is the loss to the undamaged portion, and C is the increased cost of construction."
+     "text": "Lost profit and continuing bills while closed: Business Income. Extra money spent to keep going: Extra Expense.",
+     "say": "Lost profit and continuing bills while closed: Business Income. Extra money spent to keep going: Extra Expense."
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Ordinance or Law: A, B or C?",
+   "src": "ISO CP 04 05 09 17, C.1-3; Causes of Loss forms B.1.a (ordinance or law); adapted from hook mn_comm-10; question comm-030",
+   "options": [
+    "A: still standing",
+    "B: bulldozer",
+    "C: code upgrade"
+   ],
+   "cards": [
+    {
+     "text": "The city makes Tony demolish the undamaged half and clear the site.",
+     "answer": 1,
+     "why": "Coverage B pays demolition cost: tearing down the undamaged parts and clearing the site.",
+     "draw": [
+      {
+       "id": "wh",
+       "p": "warehouse",
+       "x": 38,
+       "y": 21,
+       "h": 28,
+       "opt": {
+        "name": "TONY'S",
+        "roof": "red",
+        "n": 2
+       }
+      },
+      {
+       "p": "box",
+       "x": 26.5,
+       "y": 28.5,
+       "w": 27,
+       "hh": 11,
+       "fill": "ink",
+       "color": "gray",
+       "over": true
+      },
+      {
+       "p": "fire",
+       "x": 19,
+       "y": 8.5,
+       "h": 11,
+       "loop": "flicker",
+       "over": true
+      },
+      {
+       "p": "line",
+       "from": [
+        41,
+        5
+       ],
+       "to": [
+        41,
+        36
+       ],
+       "dash": true,
+       "color": "gray",
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Burned",
+       "x": 24,
+       "y": 41,
+       "size": 4.4,
+       "color": "red",
+       "bold": true
+      },
+      {
+       "p": "label",
+       "text": "Undamaged",
+       "x": 55,
+       "y": 41,
+       "size": 4.4,
+       "color": "green",
+       "bold": true
+      },
+      {
+       "id": "doz",
+       "p": "bulldozer",
+       "x": 85,
+       "y": 27,
+       "h": 16,
+       "flip": true
+      },
+      {
+       "p": "arrow",
+       "from": "doz",
+       "to": [
+        60,
+        24
+       ],
+       "color": "orange",
+       "bend": 0.15
+      },
+      {
+       "p": "label",
+       "text": "Tear down, clear the site",
+       "x": 50,
+       "y": 50,
+       "size": 5,
+       "color": "orange",
+       "bold": true
+      }
+     ]
+    },
+    {
+     "text": "Tony loses the value of the undamaged half the city makes him tear down.",
+     "answer": 0,
+     "why": "Coverage A pays the loss to the undamaged portion of the building.",
+     "draw": [
+      {
+       "id": "wh",
+       "p": "warehouse",
+       "x": 50,
+       "y": 22,
+       "h": 28,
+       "opt": {
+        "name": "TONY'S",
+        "roof": "red",
+        "n": 2
+       }
+      },
+      {
+       "p": "box",
+       "x": 38.5,
+       "y": 29.5,
+       "w": 27,
+       "hh": 11,
+       "fill": "ink",
+       "color": "gray",
+       "over": true
+      },
+      {
+       "p": "fire",
+       "x": 31,
+       "y": 9.5,
+       "h": 11,
+       "loop": "flicker",
+       "over": true
+      },
+      {
+       "p": "line",
+       "from": [
+        53,
+        6
+       ],
+       "to": [
+        53,
+        37
+       ],
+       "dash": true,
+       "color": "gray",
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Burned",
+       "x": 36,
+       "y": 42,
+       "size": 4.6,
+       "color": "red",
+       "bold": true
+      },
+      {
+       "p": "label",
+       "text": "Undamaged half",
+       "x": 70,
+       "y": 42,
+       "size": 4.6,
+       "color": "green",
+       "bold": true
+      },
+      {
+       "p": "label",
+       "text": "Its value is lost",
+       "x": 70,
+       "y": 49.5,
+       "size": 4.4,
+       "color": "green"
+      }
+     ]
+    },
+    {
+     "text": "Rebuilding to today's code costs more than rebuilding it the way it was.",
+     "answer": 2,
+     "why": "Coverage C pays the increased cost of construction from meeting the code's minimum standards.",
+     "draw": [
+      {
+       "id": "build",
+       "p": "construction",
+       "x": 32,
+       "y": 25,
+       "h": 36
+      },
+      {
+       "id": "code",
+       "p": "policy",
+       "x": 76,
+       "y": 21,
+       "h": 24,
+       "opt": {
+        "title": "CODE",
+        "tsize": 6
+       }
+      },
+      {
+       "p": "label",
+       "text": "Costs more",
+       "x": 76,
+       "y": 44,
+       "size": 5,
+       "color": "red",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "After the covered fire, the city's building code orders the undamaged part torn down. All three causes of loss forms exclude ordinance or law, so Dana had added that endorsement.",
+     "say": "After the covered fire, the city's building code orders the undamaged part torn down. All three causes of loss forms exclude ordinance or law, so Dana had added that endorsement."
+    },
+    {
+     "text": "Tear down the half that didn't burn?",
+     "say": "Tear down the half that didn't burn?",
+     "voice": "tony"
+    },
+    {
+     "text": "Think letters: A is All that's still standing, B is Bulldozer, C is Code upgrade. Your turn.",
+     "say": "Think letters: A is All that's still standing, B is Bulldozer, C is Code upgrade. Your turn."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A is the loss to the undamaged portion, B is demolition cost, C is the increased cost of construction.",
+     "say": "A is the loss to the undamaged portion, B is demolition cost, C is the increased cost of construction."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: protect the cheese",
+   "src": "ISO CP 04 40 06 07, A., C.3, F.2; CP 12 30 06 95; CP 13 10 04 02; IRMI; comm-031, comm-cpa-06, comm-cpa-08",
+   "ask": "Which add-on does Tony pick?",
+   "draw": [
+    {
+     "id": "cooler",
+     "p": "fridge",
+     "x": 26,
+     "y": 29,
+     "h": 34,
+     "label": "Cooler full of cheese",
+     "lsize": 4.6,
+     "lw": 34
+    },
+    {
+     "id": "storm",
+     "p": "storm",
+     "x": 66,
+     "y": 14,
+     "h": 20
+    },
+    {
+     "id": "pole",
+     "p": "icon",
+     "name": "utility-pole",
+     "x": 66,
+     "y": 40,
+     "h": 16
+    },
+    {
+     "p": "line",
+     "from": "pole",
+     "to": [
+      36,
+      30
+     ],
+     "dash": true,
+     "color": "gray"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 106,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 138,
+     "y": 30,
+     "h": 32,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "clipboard"
+     },
+     "flip": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "Storms keep cutting Detroit's power, and Tony's cooler is full of cheese.",
+     "say": "Storms keep cutting Detroit's power, and Tony's cooler is full of cheese."
+    },
+    {
+     "text": "Spoilage covers perishable stock for the causes you choose: Breakdown or Contamination, or Power Outage. Which one, Tony?",
+     "say": "Spoilage covers perishable stock for the causes you choose: Breakdown or Contamination, or Power Outage. Which one, Tony?",
+     "voice": "dana",
+     "hl": "dana"
+    }
+   ],
+   "options": [
+    {
+     "label": "Peak Season: just raise my limit",
+     "ok": false,
+     "fail": "Peak Season raises the personal property limit only during scheduled dates, like a toy store's holiday rush. It isn't spoilage coverage.",
+     "beats": [
+      {
+       "text": "July: the power dies and the cheese spoils. A bigger limit adds no spoilage cover.",
+       "say": "July: the power dies and the cheese spoils. A bigger limit adds no spoilage cover."
+      }
+     ],
+     "draw": [
+      {
+       "id": "cooler",
+       "p": "fridge",
+       "x": 26,
+       "y": 29,
+       "h": 32,
+       "opt": {
+        "spoiled": true
+       }
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 64,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "A bigger limit? The cheese still spoiled!",
+       "x": 93,
+       "y": 7,
+       "w": 44,
+       "size": 4.4,
+       "to": "tony"
+      },
+      {
+       "id": "more",
+       "p": "num",
+       "text": "+$",
+       "x": 110,
+       "y": 33,
+       "size": 12,
+       "color": "green",
+       "cue": "bigger"
+      },
+      {
+       "p": "label",
+       "text": "More limit, not spoilage cover",
+       "x": 110,
+       "y": 48,
+       "size": 4,
+       "w": 34,
+       "color": "red",
+       "bold": true,
+       "cue": "spoilage"
+      }
+     ]
+    },
+    {
+     "label": "Spoilage: Breakdown or Contamination",
+     "ok": false,
+     "fail": "Breakdown or Contamination is for a refrigeration breakdown at the premises or refrigerant contamination. A storm outage needs Power Outage.",
+     "beats": [
+      {
+       "text": "July: a storm cuts the power and the cheese spoils. The cooler never broke down.",
+       "say": "July: a storm cuts the power and the cheese spoils. The cooler never broke down."
+      }
+     ],
+     "draw": [
+      {
+       "id": "cooler",
+       "p": "fridge",
+       "x": 26,
+       "y": 29,
+       "h": 32,
+       "opt": {
+        "spoiled": true
+       }
+      },
+      {
+       "p": "storm",
+       "x": 64,
+       "y": 13,
+       "h": 18,
+       "cue": "storm"
+      },
+      {
+       "id": "pole",
+       "p": "icon",
+       "name": "utility-pole",
+       "x": 64,
+       "y": 40,
+       "h": 16,
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": "pole",
+       "to": [
+        36,
+        30
+       ],
+       "dash": true,
+       "color": "gray"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 98,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Storm outage: not a breakdown",
+       "x": 134,
+       "y": 44,
+       "size": 4.4,
+       "w": 32,
+       "color": "red",
+       "bold": true,
+       "cue": "broke"
+      }
+     ]
+    },
+    {
+     "label": "Spoilage: Power Outage",
+     "ok": true,
+     "win": "Power Outage covers power cuts beyond Tony's control, like storms. Breakdown or Contamination: a refrigeration breakdown or refrigerant contamination.",
+     "beats": [
+      {
+       "text": "A storm cuts the power and the cheese spoils. Covered: an outage beyond Tony's control.",
+       "say": "A storm cuts the power and the cheese spoils. Covered: an outage beyond Tony's control."
+      }
+     ],
+     "draw": [
+      {
+       "id": "cooler",
+       "p": "fridge",
+       "x": 26,
+       "y": 29,
+       "h": 32,
+       "opt": {
+        "spoiled": true
+       }
+      },
+      {
+       "id": "pole",
+       "p": "icon",
+       "name": "utility-pole",
+       "x": 60,
+       "y": 32,
+       "h": 20,
+       "color": "gray",
+       "rot": 12
+      },
+      {
+       "p": "line",
+       "from": "pole",
+       "to": [
+        36,
+        30
+       ],
+       "dash": true,
+       "color": "gray"
+      },
+      {
+       "p": "icon",
+       "name": "power-off",
+       "x": 45,
+       "y": 41,
+       "h": 8,
+       "color": "red",
+       "cue": "cuts"
+      },
+      {
+       "p": "storm",
+       "x": 78,
+       "y": 13,
+       "h": 18,
+       "cue": "storm",
+       "sfx": "buzz"
+      },
+      {
+       "p": "stamp",
+       "text": "Covered",
+       "x": 104,
+       "y": 30,
+       "color": "green",
+       "cue": "Covered"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 138,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Peak Season raises the personal property limit only on scheduled dates, like a toy store's holiday rush.",
+     "say": "Peak Season raises the personal property limit only on scheduled dates, like a toy store's holiday rush."
+    },
+    {
+     "text": "Value Reporting fits inventory that rises and falls: a limit set for peak values, but premium on the values reported.",
+     "say": "Value Reporting fits inventory that rises and falls: a limit set for peak values, but premium on the values reported."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Four more property forms on Tony's block",
+   "src": "ISO CP 00 17 10 12, E.6, E.9; CP 00 18 10 12, A.1.a, E.3; CP 00 20 06 95, A.1; CP 00 40 10 12, A.; ms_commercial-05",
+   "draw": [
+    {
+     "id": "assoc",
+     "p": "condo",
+     "x": 31,
+     "y": 29,
+     "h": 34,
+     "label": "Office condo",
+     "lsize": 3.8
+    },
+    {
+     "id": "dent",
+     "p": "person",
+     "x": 66,
+     "y": 44,
+     "h": 29,
+     "opt": {
+      "who": "doctor",
+      "mood": "happy"
+     },
+     "label": "Owns a unit",
+     "lsize": 3.6
+    },
+    {
+     "id": "build",
+     "p": "construction",
+     "x": 96,
+     "y": 30,
+     "h": 38,
+     "label": "Going up",
+     "lsize": 3.8
+    },
+    {
+     "id": "bakery",
+     "p": "store",
+     "x": 138,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "name": "BAKERY"
+     },
+     "label": "Rents its building",
+     "lsize": 3.8
+    }
+   ],
+   "spots": [
+    {
+     "on": "assoc",
+     "label": "Condominium Association form",
+     "text": "Covers the association's building. It's primary, and its insurer waives subrogation: it can't recover from unit-owners, even one who carelessly starts a fire."
+    },
+    {
+     "on": "dent",
+     "label": "Condo Commercial Unit-Owners form",
+     "text": "A dentist owns her office unit here. Her form covers her business personal property and is excess over the association's insurance."
+    },
+    {
+     "on": "build",
+     "label": "Builders Risk (1995 form)",
+     "text": "Covers a building under construction, including materials and supplies meant to become a permanent part of it."
+    },
+    {
+     "on": "bakery",
+     "label": "Legal Liability form",
+     "text": "The bakery rents its building. This form covers its legal liability for damage to the landlord's building from a covered cause of loss."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony's block needs four more property forms. Tap each glowing spot.",
+     "say": "Tony's block needs four more property forms. Tap each glowing spot."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The association's form is primary and waives subrogation; a unit-owner's is excess. Builders risk covers buildings going up; legal liability, others' property in your care.",
+     "say": "The association's form is primary and waives subrogation; a unit-owner's is excess. Builders risk covers buildings going up; legal liability, others' property in your care."
     }
    ]
   },
@@ -473,20 +2383,83 @@
    "title": "Key takeaways",
    "items": [
     "Broad adds falling objects, snow and ice weight, water damage",
-    "Vacant over 60 days: some perils excluded, the rest cut 15%",
-    "Coinsurance: Did over Should, times loss, minus deductible",
+    "Vacant over 60 days: some losses not paid, the rest cut 15%",
+    "Coinsurance: Did over Should, times the loss, minus the deductible",
     "Business Income waits 72 hours; Extra Expense starts at once",
     "Ordinance or Law: A undamaged part, B demolition, C code upgrade"
    ],
+   "draw": [
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 20,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 42,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "smirk"
+     }
+    },
+    {
+     "p": "pizza",
+     "x": 62,
+     "y": 54,
+     "h": 11
+    },
+    {
+     "id": "wh",
+     "p": "warehouse",
+     "x": 60,
+     "y": 15,
+     "h": 14,
+     "opt": {
+      "name": "TONY'S",
+      "roof": "red"
+     }
+    },
+    {
+     "p": "snow",
+     "x": 47,
+     "y": 4,
+     "h": 4,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 74,
+     "y": 4,
+     "h": 4,
+     "loop": "spin"
+    }
+   ],
    "beats": [
     {
-     "text": "Let's recap. Broad adds falling objects, snow and ice weight, and water damage. Vacancy over 60 days excludes some perils and cuts the rest by 15%.",
-     "say": "Let's recap. Broad adds falling objects, snow and ice weight, and water damage. Vacancy over sixty days excludes some perils and cuts the rest by fifteen percent.",
+     "text": "What a year! Broad adds a Michigan winter. Only Special covers theft. Vacant over 60 days? Some losses out, the rest cut 15%.",
+     "say": "What a year! Broad adds a Michigan winter. Only Special covers theft. Vacant over sixty days? Some losses out, the rest cut fifteen percent.",
      "show": 2
     },
     {
-     "text": "Coinsurance is Did over Should. Business Income waits 72 hours. And Ordinance or Law runs A, B, C.",
-     "say": "Coinsurance is Did over Should. Business Income waits seventy-two hours. And Ordinance or Law runs A, B, C.",
+     "text": "Did over Should. Business Income waits 72 hours. Ordinance or Law runs A, B, C.",
+     "say": "Did over Should. Business Income waits seventy-two hours. Ordinance or Law runs A, B, C.",
+     "show": 5
+    },
+    {
+     "text": "From now on, my warehouse stays busy.",
+     "say": "From now on, my warehouse stays busy.",
+     "voice": "tony",
      "show": 5
     }
    ]
@@ -500,7 +2473,10 @@
   "comm-030"
  ],
  "hooks": [
-  "mn-mn_comm-07"
+  "mn-mn_comm-06",
+  "mn-mn_comm-07",
+  "mn-mn_comm-09",
+  "mn-mn_comm-10"
  ],
  "sources": [
   "ISO CP 00 90 07 88",
@@ -517,7 +2493,10 @@
   "ISO CP 04 05 09 17",
   "ISO CP 04 40 06 07",
   "ISO CP 12 30 06 95",
-  "IRMI glossary 'reporting form coverage'",
-  "Memory hook mn-mn_comm-07; mn-mn_comm-09 (wording adapted in narration)"
+  "ISO CP 13 10 04 02; IRMI glossary 'reporting form coverage'",
+  "Memory hooks mn-mn_comm-07 (verbatim); mn-mn_comm-06, -09 and -10 (wording adapted)",
+  "Confusion pairs cp_commercial-05, cp_commercial-06 and cp_commercial-08 (time element tell); summaries vs_commercial-03 and vs_commercial-05; matching set ms_commercial-05",
+  "Questions comm-020, comm-021, comm-022, comm-024, comm-026, comm-028, comm-029, comm-030, comm-031, comm-043, comm-cpa-05, comm-cpa-06, comm-cpa-08",
+  "core_facts.md, Coinsurance (CP 00 10 10 12, F.1 Example 1)"
  ]
 }

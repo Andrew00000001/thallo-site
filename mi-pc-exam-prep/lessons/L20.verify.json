@@ -1,48 +1,86 @@
 {
  "id": "L20",
- "beats": 37,
+ "beats": 60,
  "mismatches": [
   {
    "scene": 0,
-   "beat": 0,
-   "say": "Four more coverage parts: crime, inland marine, equipment breakdown and farm. Each has a few exam favorites.",
-   "heard": "For more coverage parts, crime, inland marine, equipment breakdown, and farm. Each has a few exam favorites.",
-   "wer": 0.062
+   "beat": 1,
+   "say": "Four? I just make pizza!",
+   "heard": "before I just make pizza.",
+   "wer": 0.2,
+   "voice": "tony"
+  },
+  {
+   "scene": 1,
+   "beat": 4,
+   "say": "Wednesday: the locked safe is pried open and emptied: safe burglary. So is carting off the whole safe. Opened by combination, with no marks? Not safe burglary.",
+   "heard": "Wednesday, the lock safe is pried open and emptied, safe burglary, so is carting off the whole safe. Open by combination with no marks, not safe burglary.",
+   "wer": 0.077,
+   "voice": "narrator"
   },
   {
    "scene": 3,
    "beat": 0,
-   "say": "The twenty fifteen crime form has seven insuring agreements. Employee Theft covers theft by employees of money, securities or other property.",
-   "heard": "The 2015 crime form has seven ensuring agreements. Employee theft covers theft by employees of money, securities, or other property.",
-   "wer": 0.048
+   "say": "Tony's crime policy, the twenty fifteen loss sustained form, has seven insuring agreements. Employee Theft: money, securities and other property his employees steal.",
+   "heard": "Tony's crime policy, the 2015 law-sustained form, has seven ensuring agreements. Employee theft, money, securities, and other property his employees steal.",
+   "wer": 0.091,
+   "voice": "narrator"
   },
   {
-   "scene": 5,
-   "beat": 0,
-   "say": "Try this. A business with a discovery-form crime policy discovers, mid-term, a theft from two years before the policy began. No retroactive date applies. Is it covered? Pick an answer.",
-   "heard": "Try this. A business with a discovery form crime policy discovers, midterm, a theft from two years before the policy began. No retroactive date applies. Is it covered? Pick an answer.",
-   "wer": 0.062
+   "scene": 3,
+   "beat": 3,
+   "say": "Outside, with a messenger or armored car company: money and securities, the same. Other property, robbery only.",
+   "heard": "Outside with a messenger or armored car company, money and security is the same. Other property, robbery only.",
+   "wer": 0.125,
+   "voice": "narrator"
   },
   {
-   "scene": 6,
+   "scene": 4,
    "beat": 0,
-   "say": "On to inland marine. The Nationwide Marine Definition lists six classes. The first three are imports, exports, and domestic shipments.",
-   "heard": "Onto Inland Marine. The nationwide marine definition lists six classes. The first three are imports, exports, and domestic shipments.",
-   "wer": 0.105
+   "say": "Two crime triggers. Loss sustained: did it happen during the policy? Discovery: did I find it during the policy?",
+   "heard": "Two crime triggers. Law sustained. Did it happen during the policy? Discovery. Did I find it during the policy?",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 4,
+   "beat": 1,
+   "say": "The bakery next door cancels its loss sustained policy, buys no other, and finds a theft from the policy period nine months later. Still inside one year.",
+   "heard": "The bakery next door cancels its lost sustained policy, buys no other, and finds a theft from the policy period nine months later, still inside one year.",
+   "wer": 0.038,
+   "voice": "narrator"
+  },
+  {
+   "scene": 8,
+   "beat": 2,
+   "say": "His own tools: contractors equipment. What he's installing: an installation floater.",
+   "heard": "his own tools, contractors' equipment, what he's installing, and installation floater.",
+   "wer": 0.091,
+   "voice": "narrator"
   },
   {
    "scene": 11,
-   "beat": 1,
-   "say": "Chickens. They're poultry, which is defined separately. Goats, mules and swine are all livestock.",
-   "heard": "chickens, their poultry, which is defined separately. Goats, mules, and swine are all livestock.",
-   "wer": 0.077
+   "beat": 3,
+   "say": "Chickens. Old MacDonald's livestock is seven animals: cattle, sheep, swine, goats, horses, mules and donkeys. The chickens don't count: they're poultry.",
+   "heard": "Chickens, old McDonald's livestock is seven animals. Cattle, sheep, swine, goats, horses, mules, and donkeys. The chickens do not count their poultry.",
+   "wer": 0.095,
+   "voice": "narrator"
   },
   {
-   "scene": 12,
+   "scene": 13,
+   "beat": "o0:0",
+   "say": "The adjuster shakes his head: F insures Grandma's own farm property. The corn is the neighbor's.",
+   "heard": "The adjuster shakes his head. F ensures Grandma's own farm property. The corn is the neighbor's.",
+   "wer": 0.062,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
    "beat": 1,
-   "say": "Marine classes exclude buildings. Equipment breakdown pays replacement cost unless endorsed. And farm runs A to J.",
-   "heard": "Marine classes exclude buildings, equipment breakdown pays replacement cost unless endorsed, and farm runs at a J.",
-   "wer": 0.125
+   "say": "Buildings aren't marine risks. Equipment breakdown pays replacement cost unless endorsed for A C V. Farm runs A to J.",
+   "heard": "Buildings are not marine risks. Equipment breakdown pays replacement cost, unless endorsed for A-C-V. Farm runs A to J.",
+   "wer": 0.105,
+   "voice": "narrator"
   }
  ]
 }

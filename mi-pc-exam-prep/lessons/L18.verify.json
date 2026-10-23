@@ -1,76 +1,62 @@
 {
  "id": "L18",
- "beats": 39,
+ "beats": 52,
  "mismatches": [
   {
    "scene": 2,
    "beat": 0,
-   "say": "The six: cancellation, changes, examination of books, inspections, premiums, and transfer of rights.",
-   "heard": "The sixth, cancellation, changes, examination of books, inspections, premiums, and transfer of rights.",
-   "wer": 0.083
+   "say": "Now Tony's C G L, twenty thirteen edition. Monday, a customer trips on a torn mat, breaks her ankle and sues.",
+   "heard": "Now Tony's CGL, 2013 edition. Monday, a customer trips on a torn mat, breaks her ankle and soothes.",
+   "wer": 0.056,
+   "voice": "narrator"
   },
   {
-   "scene": 5,
-   "beat": 0,
-   "say": "Supplementary payments apply to Coverages A and B, and they're paid on top of the limits.",
-   "heard": "Supplementary payments apply to coverages A and B, and they are paid on top of the limits.",
-   "wer": 0.143
-  },
-  {
-   "scene": 6,
-   "beat": 0,
-   "say": "C G L limits work like two buckets. The general aggregate holds Coverage A, except products and completed operations, plus all of Coverages B and C.",
-   "heard": "CGL limits work like two buckets. The general aggregate holds coverage A, accept products and completed operations, plus all of coverages B and C.",
-   "wer": 0.045
-  },
-  {
-   "scene": 7,
-   "beat": 0,
-   "say": "Your turn. A crew drops a board while still framing a house and hurts a passerby. Which aggregate does this claim count against? Pick an answer.",
-   "heard": "Your turn. A crew drops aboard while still framing a house and hurts a passerby. Which aggregate does this claim count against? Pick an answer.",
-   "wer": 0.08
-  },
-  {
-   "scene": 9,
-   "beat": 0,
-   "say": "Let's apply it. A Lansing caterer has a claims-made C G L from January first, twenty twenty-six, to January first, twenty twenty-seven, with a retroactive date of January first, twenty twenty-four.",
-   "heard": "Let's apply it. A Lansing caterer has claims made CGL from January 1, 2026 to January 1, 2027 with a retroactive date of January 1, 2024.",
-   "wer": 0.03
-  },
-  {
-   "scene": 10,
-   "beat": 0,
-   "say": "When a claims-made policy is canceled or nonrenewed, a basic extended reporting period, or tail, starts automatically at no charge.",
-   "heard": "when a claim's made policy is canceled or non-renewed. A basic extended reporting period, or TALE, starts automatically at no charge.",
-   "wer": 0.048
-  },
-  {
-   "scene": 10,
-   "beat": 3,
-   "say": "The supplemental tail is optional. Request it in writing within sixty days. It costs up to two hundred percent of the annual premium, has no time limit, and reinstates the aggregates. Neither tail covers injury after the policy ends.",
-   "heard": "the supplemental tail is optional. Requested in writing within 60 days, it costs up to 200% of the annual premium, has no time limit, and reinstates the aggregates. Neither tail covers injury after the policy ends.",
-   "wer": 0.053
-  },
-  {
-   "scene": 11,
-   "beat": 0,
-   "say": "One more. A claims-made C G L isn't renewed. Twenty days later, the insured reports an occurrence from the policy period. With no supplemental tail, how long can a claim still be made? Pick an answer.",
-   "heard": "One more. Acclaims made CGL is not renewed. Twenty days later, the insured reports an occurrence from the policy period. With no supplemental tail, how long can acclaim still be made? Pick an answer.",
-   "wer": 0.111
+   "scene": 3,
+   "beat": 2,
+   "say": "Publication: slander, libel, privacy. Promotion: advertising offenses, like Tony's ad using her slogan.",
+   "heard": "Publication, slander, liable privacy. Promotion, advertising offenses like Tony's ad using her slogan.",
+   "wer": 0.077,
+   "voice": "narrator"
   },
   {
    "scene": 11,
    "beat": 1,
-   "say": "Five years. It was reported within sixty days after the policy ended, so the free basic tail runs five years.",
-   "heard": "Five years. It was reported within 60 days after the policy ended, so the Free Basic Tale runs five years.",
-   "wer": 0.05
+   "say": "Under the twenty thirteen claims-made C G L, the basic tail is free and automatic. It gives sixty days for occurrences never reported, and five years for those reported no later than sixty days after the end.",
+   "heard": "Under the 2013 claims made CGL, the basic tale is free and automatic. It gives 60 days for occurrences never reported, and five years for those reported no later than 60 days after the end.",
+   "wer": 0.029,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 2,
+   "say": "The supplemental tail is optional. Request it in writing within sixty days. It costs up to two hundred percent of the annual premium, never ends, and reinstates the aggregates.",
+   "heard": "the supplemental tail is optional, requested in writing within 60 days. It costs up to 200% of the annual premium, never ends, and reinstates the aggregates.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 3,
+   "say": "Neither tail covers injury after the policy ends.",
+   "heard": "Neither tale covers injury after the policy ends.",
+   "wer": 0.125,
+   "voice": "narrator"
   },
   {
    "scene": 12,
+   "beat": "o1:0",
+   "say": "Grace reports it tonight. When the guest sues in August, the basic tail covers it: reported in time, so five years.",
+   "heard": "Grace reports it tonight. When the guest sues in August, the basic tale covers it, reported in time, so five years.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
    "beat": 0,
-   "say": "Let's recap. A package is common declarations and conditions plus two or more coverage parts. A is bodily injury and property damage, B is offenses, C is medical payments.",
-   "heard": "Let's recap. A package is common declarations and conditions plus two or more coverage parts. Is bodily injury and property damage? B is offenses, C is medical payments.",
-   "wer": 0.037
+   "say": "Recap: a package is common declarations and conditions plus two or more parts. A is injury and damage, B the four Ps, C med pay.",
+   "heard": "RECAP. A package is common declarations and conditions plus two or more parts. A is injury and damage. Be the 4PS. See medpay.",
+   "wer": 0.174,
+   "voice": "narrator"
   }
  ]
 }

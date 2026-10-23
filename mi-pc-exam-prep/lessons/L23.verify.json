@@ -1,69 +1,78 @@
 {
  "id": "L23",
- "beats": 37,
+ "beats": 57,
  "mismatches": [
-  {
-   "scene": 1,
-   "beat": 1,
-   "say": "An excess, or follow form, policy generally follows the underlying terms and adds limits. It doesn't broaden coverage.",
-   "heard": "In excess or follow form, policy generally follows the underlying terms and adds limits. It does not broaden coverage.",
-   "wer": 0.056
-  },
-  {
-   "scene": 2,
-   "beat": 1,
-   "say": "D and O: Side A pays directors and officers directly, Side B reimburses the company for indemnifying them, and Side C covers the company itself.",
-   "heard": "D and O. Side appays directors and officers directly, side B reimburses the company for indemnifying them, and side C covers the company itself.",
-   "wer": 0.091
-  },
-  {
-   "scene": 2,
-   "beat": 2,
-   "say": "Fiduciary liability covers errors in running E R I S A employee benefit plans.",
-   "heard": "Fijushri Liability covers errors in running ERIS and employee benefit plans.",
-   "wer": 0.2
-  },
-  {
-   "scene": 2,
-   "beat": 3,
-   "say": "E P L I covers employment claims like discrimination, harassment and wrongful termination.",
-   "heard": "EPL, I covers employment claims like discrimination, harassment, and wrongful termination.",
-   "wer": 0.222
-  },
   {
    "scene": 5,
    "beat": 1,
-   "say": "The obligee, like the project owner, is protected. It usually requires the bond.",
-   "heard": "The oblige, like the project owner, is protected. It usually requires the bond.",
-   "wer": 0.077
+   "say": "A first-letter trick: Paul, the Principal, Promises to perform. Tony, the Obligee, is Owed and protected; he required the bond. The Surety Stands behind the promise.",
+   "heard": "A first letter trick, Paul the Principal promises to perform. Tony the Oblige is owed and protected. He required the bond. The surety stands behind the promise.",
+   "wer": 0.038,
+   "voice": "narrator"
+  },
+  {
+   "scene": 6,
+   "beat": "o1:0",
+   "say": "Nice try, Paul. I'm the obligee. The bond protects me!",
+   "heard": "Nice try Paul, I'm the Obligi, the bond protects me.",
+   "wer": 0.1,
+   "voice": "tony"
+  },
+  {
+   "scene": 6,
+   "beat": 2,
+   "say": "Remember: the principal must reimburse the surety for any loss it pays.",
+   "heard": "Remember, the principle must reimburse the surety for any loss it pays.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "scene": 7,
+   "beat": 1,
+   "say": "Contract bonds: bid, performance and payment. On a license and permit bond, the government requiring it is the obligee, and the applicant is the principal.",
+   "heard": "Contract bonds, bid, performance, and payment. On a license and permit bond, the government requiring it is the oblige and the applicant is the principal.",
+   "wer": 0.045,
+   "voice": "narrator"
   },
   {
    "scene": 8,
-   "beat": 2,
-   "say": "Each policy carries a red-ink notice in at least ten-point type: the insurer isn't licensed by Michigan, and claims may not be guaranteed if it's insolvent.",
-   "heard": "Each policy carries a red ink notice and at least 10-point type. The insurer is not licensed by Michigan, and claims may not be guaranteed if it's insolvent.",
-   "wer": 0.036
+   "beat": 0,
+   "say": "No licensed insurer will cover the axe-throwing lane. Enter surplus lines: insurers not licensed in Michigan, but eligible to write here.",
+   "heard": "No licensed insurer will cover the act's throwing lane. Enter surplus lines. Insurer is not licensed in Michigan, but eligible to write here.",
+   "wer": 0.136,
+   "voice": "narrator"
   },
   {
-   "scene": 9,
-   "beat": 2,
-   "say": "Increased Cost of Compliance adds up to thirty thousand dollars to elevate, demolish, relocate or floodproof, but building plus that payment can't exceed the building maximum.",
-   "heard": "Increased cost of compliance adds up to $30,000 to elevate, demolish, relocate, or flood-proof. But building plus that payment cannot exceed the building maximum.",
-   "wer": 0.077
+   "scene": 10,
+   "beat": 1,
+   "say": "The federal government pays all losses. Same coverage as FEMA's own N F I P Direct.",
+   "heard": "The federal government pays all losses. Same coverage as FEMA own NFIP Direct.",
+   "wer": 0.077,
+   "voice": "narrator"
   },
   {
    "scene": 10,
    "beat": 3,
-   "say": "FEMA's Risk Rating two point zero minimum deductibles, which can change: for a residential building with no pre-firm discount, one thousand dollars if coverage is one hundred thousand dollars or less, one thousand two hundred fifty dollars if more. Contents: a separate one thousand dollars.",
-   "heard": "FEMR risk rating 2.0 minimum deductibles, which can change. For a residential building with no pre-firm discount, $1,000 if coverage is $100,000 or less, $1,250 if more. Contents, a separate $1,000.",
-   "wer": 0.022
+   "say": "Homes means single-family and two to four family buildings. Increased Cost of Compliance pays to elevate, demolish, relocate or floodproof, but building plus it can't exceed the building maximum.",
+   "heard": "Homes mean single-family and two to four-family buildings. Increased cost of compliance pays to elevate, demolish, relocate, or flood-proof, but building plus it cannot exceed the building maximum.",
+   "wer": 0.103,
+   "voice": "narrator"
   },
   {
-   "scene": 12,
-   "beat": 0,
-   "say": "Let's recap: umbrella versus excess, professional liability, bond parties, surplus lines, and flood numbers.",
-   "heard": "Let's recap. Umbrella vs. excess, professional liability, bond parties, surplus lines, and flood numbers.",
-   "wer": 0.077
+   "scene": 10,
+   "beat": 4,
+   "say": "FEMA's Risk Rating two point zero sets minimum deductibles, which can change.",
+   "heard": "FEMR Risk Rating 2.0 sets minimum deductibles, which can change.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": "o1:0",
+   "say": "Smart. Bought with the loan, it starts at closing.",
+   "heard": "Smart, bought with alone, it starts at closing.",
+   "wer": 0.222,
+   "voice": "narrator"
   }
  ]
 }

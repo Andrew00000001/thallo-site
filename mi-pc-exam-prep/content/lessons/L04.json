@@ -1,468 +1,2529 @@
 {
-  "id": "L04",
-  "sec": "gen",
-  "guide": "gen",
-  "title": "Agency and contract law",
-  "summary": "Who a producer represents, the three kinds of authority, what makes a contract valid, and the doctrines courts use to read a policy.",
-  "objectives": [
-    "Tell express, implied and apparent authority apart",
-    "Name the elements of a legal contract, with Michigan's rules",
-    "Recognize adhesion, aleatory, conditional, unilateral and personal contracts",
-    "Separate representation, warranty, concealment, fraud, waiver and estoppel"
-  ],
-  "scenes": [
+ "id": "L04",
+ "sec": "gen",
+ "guide": "gen",
+ "title": "Agency and contract law",
+ "summary": "Who a producer represents, the three kinds of authority, what makes a contract valid, and the doctrines courts use to read a policy.",
+ "objectives": [
+  "Tell express, implied and apparent authority apart",
+  "Name the elements of a legal contract, with Michigan's rules",
+  "Recognize adhesion, aleatory, conditional, unilateral and personal contracts",
+  "Separate representation, warranty, concealment, fraud, waiver and estoppel"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "The Millers sign up: agency and contract law",
+   "subtitle": "Who your agent really works for, what makes a contract, and the legal words hiding in every policy",
+   "draw": [
     {
-      "type": "title",
-      "title": "Agency and contract law",
-      "subtitle": "Who the producer works for, and the legal rules inside every policy",
-      "icon": "scale",
-      "beats": [
-        {
-          "text": "This lesson covers agency and contract law.",
-          "say": "This lesson covers agency and contract law."
-        },
-        {
-          "text": "You'll learn who a producer represents, what makes a contract valid, and how courts read a policy.",
-          "say": "You'll learn who a producer represents, what makes a contract valid, and how courts read a policy."
-        }
-      ]
+     "id": "house",
+     "p": "house",
+     "x": 76,
+     "y": 12,
+     "h": 15
     },
     {
-      "type": "bullets",
-      "title": "Michigan: who the producer represents",
-      "src": "MCL 500.1201(b), (c), (h); MCL 500.1207(1), (2)",
-      "items": [
-        {
-          "label": "Agent of the insurer",
-          "detail": "Sells, solicits or negotiates as the insurer's representative",
-          "icon": "building-2"
-        },
-        {
-          "label": "Agent of the insured",
-          "detail": "Not appointed by the insurer writing the policy; represents the insured",
-          "icon": "user"
-        },
-        {
-          "label": "A license is not authority",
-          "detail": "A license alone creates no authority to commit an insurer",
-          "icon": "badge-check"
-        },
-        {
-          "label": "Fiduciary for premiums",
-          "detail": "Premiums go in a separate account, apart from the agent's own money",
-          "icon": "piggy-bank"
-        }
-      ],
-      "beats": [
-        {
-          "text": "In Michigan, an agent of the insurer sells, solicits or negotiates as the insurer's representative.",
-          "say": "In Michigan, an agent of the insurer sells, solicits or negotiates as the insurer's representative.",
-          "show": 1
-        },
-        {
-          "text": "A producer not appointed by the insurer writing the policy is an agent of the insured, and represents the insured.",
-          "say": "A producer not appointed by the insurer writing the policy is an agent of the insured, and represents the insured.",
-          "show": 2
-        },
-        {
-          "text": "A license by itself creates no authority to commit an insurer.",
-          "say": "A license by itself creates no authority to commit an insurer.",
-          "show": 3
-        },
-        {
-          "text": "And an agent is a fiduciary for money received as agent: premiums go in a separate account, apart from the agent's own money.",
-          "say": "And an agent is a fiduciary for money received as agent: premiums go in a separate account, apart from the agent's own money.",
-          "show": 4
-        }
-      ]
+     "p": "person",
+     "x": 24,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "point"
+     },
+     "id": "dana"
     },
     {
-      "type": "hook",
-      "title": "Three kinds of authority",
-      "src": "IRMI glossary: express authority; implied authority; apparent agency; Cornell LII Wex: express authority",
-      "mn": "mn-mn_core-05",
-      "hook": "Express is Explained, Implied is Inferred, Apparent is how it Appears.",
-      "items": [
-        "Express: spelled out by the insurer, orally or in writing",
-        "Implied: not stated, but reasonably necessary to do the granted job",
-        "Apparent: what a reasonable person would assume from the insurer's conduct"
-      ],
-      "beats": [
-        {
-          "text": "Authority comes in three kinds. Express is Explained, Implied is Inferred, Apparent is how it Appears.",
-          "say": "Authority comes in three kinds. Express is Explained, Implied is Inferred, Apparent is how it Appears.",
-          "show": 0
-        },
-        {
-          "text": "Express authority is spelled out by the insurer, orally or in writing, like the powers in the agency contract.",
-          "say": "Express authority is spelled out by the insurer, orally or in writing, like the powers in the agency contract.",
-          "show": 1
-        },
-        {
-          "text": "Implied authority isn't stated, but it's reasonably necessary to do the job you were given.",
-          "say": "Implied authority isn't stated, but it's reasonably necessary to do the job you were given.",
-          "show": 2
-        },
-        {
-          "text": "Apparent authority is what a reasonable person would assume you have from the insurer's conduct. It's tied to estoppel.",
-          "say": "Apparent authority is what a reasonable person would assume you have from the insurer's conduct. It's tied to estoppel.",
-          "show": 3
-        }
-      ]
+     "id": "desk",
+     "p": "desk",
+     "x": 42,
+     "y": 52,
+     "h": 16,
+     "opt": {
+      "computer": false,
+      "papers": true,
+      "mug": true
+     }
     },
     {
-      "type": "scenario",
-      "title": "The agent who kept the binders",
-      "src": "IRMI glossary: apparent agency; express authority; question core-012",
-      "icon": "file-signature",
-      "story": "An insurer ends an agent's binding authority but leaves him its signs and blank binder forms. A customer who reasonably believes he can still bind buys a binder from him.",
-      "items": [
-        {
-          "label": "Express authority?",
-          "detail": "No. The insurer withdrew it"
-        },
-        {
-          "label": "What did the customer see?",
-          "detail": "The insurer's signs and binder forms, left in place"
-        },
-        {
-          "label": "Was the belief reasonable?",
-          "detail": "Yes, based on the insurer's own conduct"
-        }
-      ],
-      "answer": "Apparent authority. The insurer may be estopped from denying it.",
-      "beats": [
-        {
-          "text": "Here's a story. An insurer ends an agent's binding authority but leaves him its signs and blank binders. A customer buys a binder. What authority is that?",
-          "say": "Here's a story. An insurer ends an agent's binding authority but leaves him its signs and blank binders. A customer buys a binder. What authority is that?",
-          "show": 0
-        },
-        {
-          "text": "Not express. The insurer withdrew it. But the customer saw the insurer's signs and forms, and reasonably believed he could bind.",
-          "say": "Not express. The insurer withdrew it. But the customer saw the insurer's signs and forms, and reasonably believed he could bind.",
-          "show": 3
-        },
-        {
-          "text": "That's apparent authority. Because of its own conduct, the insurer may be estopped from denying it.",
-          "say": "That's apparent authority. Because of its own conduct, the insurer may be estopped from denying it.",
-          "show": 3,
-          "answer": true
-        }
-      ]
+     "p": "person",
+     "x": 62,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "sam",
+      "pose": "wave"
+     },
+     "id": "sam"
     },
     {
-      "type": "quiz",
-      "q": "An agent's contract lets her sell auto policies but never mentions giving customers ID cards, a step reasonably necessary to complete the sale. Her authority to hand out ID cards is:",
-      "choices": [
-        "Express authority",
-        "Implied authority",
-        "Apparent authority"
-      ],
-      "answer": 1,
-      "why": "It isn't spelled out, so it isn't express. It's reasonably necessary to do the job she was given, so it's implied.",
-      "beats": [
-        {
-          "text": "Your turn. An agent may sell auto policies, but her contract never mentions handing out ID cards, a step she needs to finish the sale. What authority covers the ID cards? Pick an answer.",
-          "say": "Your turn. An agent may sell auto policies, but her contract never mentions handing out ID cards, a step she needs to finish the sale. What authority covers the ID cards? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "Implied authority. It isn't written down, but it's reasonably necessary to carry out what she was expressly allowed to do.",
-          "say": "Implied authority. It isn't written down, but it's reasonably necessary to carry out what she was expressly allowed to do."
-        }
-      ]
+     "p": "person",
+     "x": 78,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "jen"
+     },
+     "id": "jen"
     },
     {
-      "type": "hook",
-      "title": "Elements of a legal contract",
-      "src": "AFT Michigan v Michigan (2015); Gorham v Peerless Life (1962); MCL 722.52(1); ISO HO 00 03 05 11, Agreement",
-      "mn": "mn-mn_core-06",
-      "hook": "Our Agent Collects Cash Legally: Offer, Acceptance, Consideration, Competent parties, Legal purpose.",
-      "items": [
-        "Offer and acceptance: the application offers; a policy or binder accepts",
-        "Consideration: premium plus compliance, for the insurer's promise to pay",
-        "Competent parties: legal age and mental capacity; 18 in Michigan",
-        "Legal purpose: contracts for acts a statute prohibits are void or unenforceable"
-      ],
-      "beats": [
-        {
-          "text": "Now, contracts. Our Agent Collects Cash Legally: Offer, Acceptance, Consideration, Competent parties, Legal purpose.",
-          "say": "Now, contracts. Our Agent Collects Cash Legally: Offer, Acceptance, Consideration, Competent parties, Legal purpose.",
-          "show": 0
-        },
-        {
-          "text": "In Michigan, the application is a mere offer, and the insurer's silence generally isn't acceptance. The insurer accepts by issuing the policy or a binder.",
-          "say": "In Michigan, the application is a mere offer, and the insurer's silence generally isn't acceptance. The insurer accepts by issuing the policy or a binder.",
-          "show": 1
-        },
-        {
-          "text": "The insured's consideration is the premium plus compliance with the policy. The insurer's is its promise to pay. Don't flip them.",
-          "say": "The insured's consideration is the premium plus compliance with the policy. The insurer's is its promise to pay. Don't flip them.",
-          "show": 2
-        },
-        {
-          "text": "Competent parties have legal age and the mental capacity to understand the contract. In Michigan, legal age is 18.",
-          "say": "Competent parties have legal age and the mental capacity to understand the contract. In Michigan, legal age is eighteen.",
-          "show": 3
-        },
-        {
-          "text": "And the purpose must be legal. A policy insuring a shipment of illegal drugs is unenforceable.",
-          "say": "And the purpose must be legal. A policy insuring a shipment of illegal drugs is unenforceable.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "hook",
-      "title": "What makes insurance contracts different",
-      "src": "IRMI glossary: adhesion; aleatory; unilateral; ISO HO 00 03 05 11, Sec. I Cond. C; Secs. I and II Cond. E",
-      "mn": "mn-mn_core-07",
-      "hook": "Every policy is served in A CUP, A: Adhesion, Conditional, Unilateral, Personal, Aleatory.",
-      "items": [
-        "Adhesion: the insurer drafts it; take it or leave it",
-        "Conditional: payment depends on the insured meeting conditions",
-        "Unilateral: only the insurer promises. Personal: no assignment without consent",
-        "Aleatory: an unequal exchange that depends on an uncertain event"
-      ],
-      "beats": [
-        {
-          "text": "Insurance contracts have five traits. Every policy is served in A CUP, A.",
-          "say": "Insurance contracts have five traits. Every policy is served in A CUP, A.",
-          "show": 0
-        },
-        {
-          "text": "Adhesion: the insurer drafts it; you take it or leave it. So ambiguities are read against the insurer.",
-          "say": "Adhesion: the insurer drafts it; you take it or leave it. So ambiguities are read against the insurer.",
-          "show": 1
-        },
-        {
-          "text": "Conditional: the insurer's duty to pay depends on you meeting conditions, like your duties after a loss.",
-          "say": "Conditional: the insurer's duty to pay depends on you meeting conditions, like your duties after a loss.",
-          "show": 2
-        },
-        {
-          "text": "Unilateral: only the insurer makes enforceable promises. Personal: it insures you, not the property, so assignment needs the insurer's written consent.",
-          "say": "Unilateral: only the insurer makes enforceable promises. Personal: it insures you, not the property, so assignment needs the insurer's written consent.",
-          "show": 3
-        },
-        {
-          "text": "Aleatory: an unequal exchange that depends on an uncertain event. Don't confuse it with adhesion, which is about who wrote it.",
-          "say": "Aleatory: an unequal exchange that depends on an uncertain event. Don't confuse it with adhesion, which is about who wrote it.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "quiz",
-      "q": "One insured pays premiums for ten years and never has a claim. Another pays for one month and collects a large loss. This unequal exchange shows that an insurance policy is:",
-      "choices": [
-        "A contract of adhesion",
-        "An aleatory contract",
-        "A unilateral contract",
-        "A personal contract"
-      ],
-      "answer": 1,
-      "why": "Aleatory means an unequal exchange of value that depends on an uncertain event. Adhesion is about who drafted the policy.",
-      "beats": [
-        {
-          "text": "Check the two A's. One insured pays premiums for ten years with no claim. Another pays for one month and collects a large loss. Which trait is that? Pick an answer.",
-          "say": "Check the two A's. One insured pays premiums for ten years with no claim. Another pays for one month and collects a large loss. Which trait is that? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "Aleatory. The exchange is unequal and depends on an uncertain event. Adhesion would be about who drafted the policy.",
-          "say": "Aleatory. The exchange is unequal and depends on an uncertain event. Adhesion would be about who drafted the policy."
-        }
-      ]
-    },
-    {
-      "type": "bullets",
-      "title": "How courts read a policy",
-      "src": "IRMI glossary; Wilkie v Auto-Owners Ins Co, 469 Mich 41 (2003); National Alliance glossary: indemnity",
-      "items": [
-        {
-          "label": "Ambiguities",
-          "detail": "Construed against the insurer, the drafter",
-          "icon": "search"
-        },
-        {
-          "label": "Reasonable expectations",
-          "detail": "Some courts give the coverage an insured would reasonably expect. Michigan declined it",
-          "icon": "eye"
-        },
-        {
-          "label": "Indemnity",
-          "detail": "Restore the insured to the pre-loss position, without profit",
-          "icon": "scale"
-        },
-        {
-          "label": "Utmost good faith",
-          "detail": "Both parties presumed to disclose all pertinent facts",
-          "icon": "handshake"
-        }
-      ],
-      "beats": [
-        {
-          "text": "Courts read policies with a few rules. Ambiguous wording is construed against the insurer, which drafted it.",
-          "say": "Courts read policies with a few rules. Ambiguous wording is construed against the insurer, which drafted it.",
-          "show": 1
-        },
-        {
-          "text": "Some courts apply the reasonable expectations doctrine, giving the coverage an insured would reasonably expect. Michigan declined to adopt it, but that's still its name.",
-          "say": "Some courts apply the reasonable expectations doctrine, giving the coverage an insured would reasonably expect. Michigan declined to adopt it, but that's still its name.",
-          "show": 2
-        },
-        {
-          "text": "Indemnity restores you to your position before the loss, without profit. Even with two policies, you can't collect more than the loss.",
-          "say": "Indemnity restores you to your position before the loss, without profit. Even with two policies, you can't collect more than the loss.",
-          "show": 3
-        },
-        {
-          "text": "And utmost good faith presumes both parties disclose all pertinent facts.",
-          "say": "And utmost good faith presumes both parties disclose all pertinent facts.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "hook",
-      "title": "Four voices on an application",
-      "src": "IRMI glossary: representation; warranty; concealment; fraud; MCL 500.2218(1), (2)",
-      "mn": "mn-mn_core-08",
-      "hook": "Four voices on an application: 'To the best of my knowledge' (representation). 'I guarantee it' (warranty). 'You didn't ask' (concealment). 'Gotcha' (fraud).",
-      "items": [
-        "Representation: believed true. In Michigan, a false one voids only if material",
-        "Warranty: guaranteed true; voids the policy if untrue",
-        "Concealment: willfully withholding facts the insurer didn't ask about",
-        "Fraud: intent to deceive, unlike an innocent misstatement"
-      ],
-      "beats": [
-        {
-          "text": "Picture four voices on an application. To the best of my knowledge. I guarantee it. You didn't ask. Gotcha.",
-          "say": "Picture four voices on an application. To the best of my knowledge. I guarantee it. You didn't ask. Gotcha.",
-          "show": 0
-        },
-        {
-          "text": "A representation is believed true. In Michigan, a misrepresentation voids the policy only if it's material: the insurer would have refused the contract had it known.",
-          "say": "A representation is believed true. In Michigan, a misrepresentation voids the policy only if it's material: the insurer would have refused the contract had it known.",
-          "show": 1
-        },
-        {
-          "text": "A warranty is guaranteed true, and it voids the policy if it's untrue.",
-          "say": "A warranty is guaranteed true, and it voids the policy if it's untrue.",
-          "show": 2
-        },
-        {
-          "text": "Concealment is willfully holding back pertinent facts, even when the insurer didn't ask. Fraud means intent to deceive.",
-          "say": "Concealment is willfully holding back pertinent facts, even when the insurer didn't ask. Fraud means intent to deceive.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "quiz",
-      "q": "An applicant knows his basement floods every spring but says nothing, because the application never asks about water. This is:",
-      "choices": [
-        "Representation",
-        "Warranty",
-        "Concealment",
-        "Waiver"
-      ],
-      "answer": 2,
-      "why": "Concealment is willfully holding back pertinent information even though the insurer did not ask. It can void the policy.",
-      "beats": [
-        {
-          "text": "Try this. An applicant knows his basement floods every spring, but says nothing because the application never asks about water. What is that? Pick an answer.",
-          "say": "Try this. An applicant knows his basement floods every spring, but says nothing because the application never asks about water. What is that? Pick an answer."
-        }
-      ],
-      "reveal": [
-        {
-          "text": "Concealment. He willfully held back a pertinent fact he wasn't asked about, and that can void the policy.",
-          "say": "Concealment. He willfully held back a pertinent fact he wasn't asked about, and that can void the policy."
-        }
-      ]
-    },
-    {
-      "type": "hook",
-      "title": "Waiver vs. estoppel",
-      "src": "IRMI glossary: waiver; estoppel; ISO HO 00 03 05 11 (2011 homeowners), Secs. I and II Cond. B",
-      "mn": "mn-mn_core-09",
-      "hook": "Waiver: you WAVE goodbye to a right on purpose. Estoppel: the law says STOP, you can't go back on conduct someone reasonably relied on.",
-      "items": [
-        "Waiver: the intentional, voluntary surrender of a known right",
-        "Estoppel: can't contradict earlier conduct someone reasonably relied on",
-        "An insurer that kept accepting late premiums may be estopped from canceling",
-        "2011 homeowners form: a waiver must be in writing by the insurer"
-      ],
-      "beats": [
-        {
-          "text": "Last pair. Waiver: you wave goodbye to a right on purpose. Estoppel: the law says stop, you can't go back on conduct someone reasonably relied on.",
-          "say": "Last pair. Waiver: you wave goodbye to a right on purpose. Estoppel: the law says stop, you can't go back on conduct someone reasonably relied on.",
-          "show": 2
-        },
-        {
-          "text": "If an insurer keeps accepting late premiums, it may be estopped from canceling for late payment.",
-          "say": "If an insurer keeps accepting late premiums, it may be estopped from canceling for late payment.",
-          "show": 3
-        },
-        {
-          "text": "Policies limit casual waivers. The 2011 homeowners form requires a waiver to be in writing by the insurer.",
-          "say": "Policies limit casual waivers. The twenty eleven homeowners form requires a waiver to be in writing by the insurer.",
-          "show": 4
-        }
-      ]
-    },
-    {
-      "type": "recap",
-      "items": [
-        "Michigan: not appointed by the insurer writing it? Insured's agent",
-        "Express is explained, implied inferred, apparent how it appears",
-        "Offer, acceptance, consideration, competent parties, legal purpose",
-        "A CUP, A: adhesion, conditional, unilateral, personal, aleatory",
-        "A warranty is guaranteed; concealment is silence on purpose"
-      ],
-      "beats": [
-        {
-          "text": "In Michigan, a producer not appointed by the insurer writing the policy represents the insured. Express is explained, implied inferred, apparent appears.",
-          "say": "In Michigan, a producer not appointed by the insurer writing the policy represents the insured. Express is explained, implied inferred, apparent appears.",
-          "show": 2
-        },
-        {
-          "text": "Contracts need offer, acceptance, consideration, competent parties and legal purpose. Policies come in A CUP, A. A warranty is guaranteed; concealment is silence on purpose.",
-          "say": "Contracts need offer, acceptance, consideration, competent parties and legal purpose. Policies come in A CUP, A. A warranty is guaranteed; concealment is silence on purpose.",
-          "show": 5
-        }
-      ]
+     "p": "bubble",
+     "text": "Where do I sign?",
+     "x": 44,
+     "y": 14,
+     "w": 30,
+     "to": "sam",
+     "at": 1
     }
-  ],
-  "check": [
-    "core-012",
-    "core-gen-18",
-    "core-016",
-    "core-018",
-    "core-019"
-  ],
-  "hooks": [
-    "mn-mn_core-05",
-    "mn-mn_core-06",
-    "mn-mn_core-07",
-    "mn-mn_core-08",
-    "mn-mn_core-09"
-  ],
-  "sources": [
-    "MCL 500.1201(b), (c), (h)",
-    "MCL 500.1207(1), (2)",
-    "MCL 500.2218(1), (2)",
-    "MCL 722.52(1)",
-    "AFT Michigan v Michigan, 497 Mich 197 (2015)",
-    "Gorham v Peerless Life Ins Co, 368 Mich 335 (1962)",
-    "Wilkie v Auto-Owners Ins Co, 469 Mich 41 (2003)",
-    "ISO HO 00 03 05 11 (2011 homeowners form)",
-    "IRMI glossary",
-    "National Alliance Research Academy insurance glossary",
-    "Cornell LII Wex"
-  ]
+   ],
+   "beats": [
+    {
+     "text": "Sam and Jen Miller just bought a house in Grand Rapids. Now they're at Dana's desk.",
+     "say": "Sam and Jen Miller just bought a house in Grand Rapids. Now they're at Dana's desk."
+    },
+    {
+     "text": "Great. Where do I sign?",
+     "say": "Great. Where do I sign?",
+     "voice": "sam"
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Whose side is Dana on?",
+   "src": "MCL 500.1201(b), (c); question core-013",
+   "draw": [
+    {
+     "p": "person",
+     "x": 80,
+     "y": 36,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "shrug"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "person",
+     "x": 126,
+     "y": 37,
+     "h": 26,
+     "opt": {
+      "who": "sam"
+     },
+     "id": "sam"
+    },
+    {
+     "p": "person",
+     "x": 142,
+     "y": 37,
+     "h": 26,
+     "opt": {
+      "who": "jen",
+      "mood": "worried"
+     },
+     "id": "jen"
+    },
+    {
+     "id": "q",
+     "p": "bubble",
+     "text": "Whose side are you on?",
+     "x": 128,
+     "y": 9,
+     "w": 40,
+     "to": "jen",
+     "out": 1
+    },
+    {
+     "id": "dq",
+     "p": "bubble",
+     "text": "It depends on which company I place you with.",
+     "x": 80,
+     "y": 9,
+     "w": 46,
+     "to": "dana",
+     "at": 1,
+     "out": 2
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 24,
+     "y": 35,
+     "h": 28,
+     "at": 2,
+     "out": 3
+    },
+    {
+     "p": "label",
+     "text": "Appointed by the insurer, selling for it",
+     "x": 30,
+     "y": 9,
+     "size": 4,
+     "w": 52,
+     "at": 2,
+     "out": 3
+    },
+    {
+     "id": "a1",
+     "p": "arrow",
+     "from": "dana",
+     "to": "ins",
+     "label": "represents",
+     "color": "blue",
+     "at": 2,
+     "cue": "agent",
+     "out": 3
+    },
+    {
+     "p": "label",
+     "text": "Agent of the insurer",
+     "x": 24,
+     "y": 57,
+     "bold": true,
+     "color": "blue",
+     "at": 2,
+     "cue": "agent",
+     "out": 3
+    },
+    {
+     "id": "insb",
+     "p": "insurer",
+     "x": 24,
+     "y": 35,
+     "h": 28,
+     "opt": {
+      "name": "COMPANY B"
+     },
+     "color": "gray",
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "If placed with a company that never appointed her",
+     "x": 30,
+     "y": 9,
+     "size": 4,
+     "w": 52,
+     "at": 3
+    },
+    {
+     "id": "a0",
+     "p": "arrow",
+     "from": "dana",
+     "to": "insb",
+     "label": "places policy",
+     "color": "gray",
+     "dash": true,
+     "at": 3,
+     "cue": "placed"
+    },
+    {
+     "p": "label",
+     "text": "Never appointed her",
+     "x": 24,
+     "y": 57,
+     "bold": true,
+     "color": "gray",
+     "at": 3,
+     "cue": "placed"
+    },
+    {
+     "id": "a2",
+     "p": "arrow",
+     "from": "dana",
+     "to": "sam",
+     "label": "represents",
+     "color": "green",
+     "at": 3,
+     "cue": "insured"
+    },
+    {
+     "p": "label",
+     "text": "Agent of the insured",
+     "x": 134,
+     "y": 57,
+     "bold": true,
+     "color": "green",
+     "at": 3,
+     "cue": "insured"
+    },
+    {
+     "p": "label",
+     "text": "For each policy: one side, never both",
+     "x": 80,
+     "y": 58,
+     "size": 3.8,
+     "w": 40,
+     "color": "gray",
+     "at": 3,
+     "cue": "represent"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Wait. Dana, whose side are you on: ours, or the insurance company's?",
+     "say": "Wait. Dana, whose side are you on: ours, or the insurance company's?",
+     "voice": "jen"
+    },
+    {
+     "text": "Fair question. It depends on which company I place you with.",
+     "say": "Fair question. It depends on which company I place you with.",
+     "voice": "dana"
+    },
+    {
+     "text": "The Millers' insurer appointed Dana, and she sells, solicits and negotiates as its representative. In Michigan, that makes her an agent of the insurer.",
+     "say": "The Millers' insurer appointed Dana, and she sells, solicits and negotiates as its representative. In Michigan, that makes her an agent of the insurer.",
+     "hl": "ins"
+    },
+    {
+     "text": "If she placed their policy with a company that never appointed her, Michigan would call her an agent of the insured, representing the Millers.",
+     "say": "If she placed their policy with a company that never appointed her, Michigan would call her an agent of the insured, representing the Millers.",
+     "hl": [
+      "sam",
+      "jen"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Sam hands Dana his premium",
+   "src": "MCL 500.1207(1), (2), (8); question core-014",
+   "ask": "Where does Dana put it?",
+   "draw": [
+    {
+     "p": "person",
+     "x": 30,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "sam",
+      "pose": "hold",
+      "hold": "money"
+     },
+     "id": "sam"
+    },
+    {
+     "p": "bubble",
+     "text": "Here's my first premium!",
+     "x": 30,
+     "y": 6,
+     "w": 34,
+     "to": "sam"
+    },
+    {
+     "p": "person",
+     "x": 76,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "think"
+     },
+     "id": "dana",
+     "flip": true
+    },
+    {
+     "p": "label",
+     "text": "Not Dana's money: she holds it for others",
+     "x": 124,
+     "y": 16,
+     "size": 4.2,
+     "w": 40,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "id": "acct",
+     "p": "bank",
+     "x": 124,
+     "y": 40,
+     "h": 22
+    }
+   ],
+   "beats": [
+    {
+     "text": "Sam hands Dana his first premium. It isn't her money: she holds it for others. Where does it go?",
+     "say": "Sam hands Dana his first premium. It isn't her money: she holds it for others. Where does it go?"
+    }
+   ],
+   "options": [
+    {
+     "label": "In her own account, with her money",
+     "ok": false,
+     "fail": "In Michigan, premiums go in a separate account, apart from the agent's own money.",
+     "beats": [
+      {
+       "text": "Sam's premium lands next to Dana's vacation fund. In Michigan, premiums belong in a separate account.",
+       "say": "Sam's premium lands next to Dana's vacation fund. In Michigan, premiums belong in a separate account."
+      }
+     ],
+     "draw": [
+      {
+       "id": "wal",
+       "p": "piggybank",
+       "x": 60,
+       "y": 30,
+       "h": 22
+      },
+      {
+       "p": "label",
+       "text": "Dana's vacation fund",
+       "x": 60,
+       "y": 48,
+       "size": 4
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 20,
+       "y": 14,
+       "h": 8,
+       "move": {
+        "to": [
+         60,
+         18
+        ],
+        "at": 0,
+        "cue": "lands",
+        "sfx": "cash"
+       }
+      },
+      {
+       "p": "person",
+       "x": 118,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "shocked"
+       },
+       "id": "sam"
+      },
+      {
+       "p": "label",
+       "text": "Commingled!",
+       "x": 92,
+       "y": 52,
+       "size": 4.6,
+       "color": "red",
+       "bold": true,
+       "cue": "separate"
+      }
+     ]
+    },
+    {
+     "label": "Treat it as hers until the policy comes",
+     "ok": false,
+     "fail": "In Michigan, an agent is a fiduciary for all money received as agent, and premiums go in a separate account.",
+     "beats": [
+      {
+       "text": "Dana spends it on pizza at Tony's. No: it's fiduciary money, not hers to spend.",
+       "say": "Dana spends it on pizza at Tony's. No: it's fiduciary money, not hers to spend."
+      }
+     ],
+     "draw": [
+      {
+       "id": "shop",
+       "p": "restaurant",
+       "x": 40,
+       "y": 28,
+       "h": 30,
+       "opt": {
+        "name": "TONY'S PIZZA"
+       }
+      },
+      {
+       "p": "person",
+       "x": 84,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "mood": "happy",
+        "hold": "pizza"
+       },
+       "id": "dana"
+      },
+      {
+       "p": "person",
+       "x": 116,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "mood": "happy",
+        "hold": "money"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "label",
+       "text": "Fiduciary money, not pocket money",
+       "x": 98,
+       "y": 52,
+       "size": 4.2,
+       "color": "red",
+       "bold": true,
+       "cue": "fiduciary"
+      }
+     ]
+    },
+    {
+     "label": "In a separate premium account",
+     "ok": true,
+     "win": "In Michigan, an agent is a fiduciary for all money received as agent. Premiums go in a separate account, apart from her own money.",
+     "beats": [
+      {
+       "text": "Into the premium account it goes. Not my vacation fund!",
+       "say": "Into the premium account it goes. Not my vacation fund!",
+       "voice": "dana"
+      },
+      {
+       "text": "That's the fiduciary rule.",
+       "say": "That's the fiduciary rule."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 24,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "dana"
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 44,
+       "y": 26,
+       "h": 8,
+       "move": {
+        "to": [
+         80,
+         40
+        ],
+        "at": 0,
+        "cue": "goes",
+        "sfx": "cash"
+       }
+      },
+      {
+       "id": "prem",
+       "p": "box",
+       "x": 80,
+       "y": 38,
+       "w": 34,
+       "hh": 22,
+       "title": "Premium account",
+       "color": "blue",
+       "over": true
+      },
+      {
+       "id": "own",
+       "p": "wallet",
+       "x": 132,
+       "y": 36,
+       "h": 12,
+       "label": "Dana's own money",
+       "lsize": 3.8
+      },
+      {
+       "p": "line",
+       "from": [
+        110,
+        26
+       ],
+       "to": [
+        110,
+        52
+       ],
+       "dash": true,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "kept apart",
+       "x": 110,
+       "y": 22,
+       "size": 4,
+       "color": "green"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A fiduciary holds money for others. In Michigan, premiums are fiduciary money, segregated from the agent's own funds.",
+     "say": "A fiduciary holds money for others. In Michigan, premiums are fiduciary money, segregated from the agent's own funds."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "What is Dana allowed to do?",
+   "src": "MCL 500.1201(h); IRMI glossary: express, implied authority; apparent agency; Cornell LII Wex; cp-cp_personal-02",
+   "draw": [
+    {
+     "id": "lic",
+     "p": "certificate",
+     "x": 80,
+     "y": 28,
+     "h": 22,
+     "opt": {
+      "title": "LICENSE",
+      "name": "Dana, producer"
+     },
+     "out": 1
+    },
+    {
+     "id": "liclab",
+     "p": "label",
+     "text": "In Michigan, a license alone gives no authority to act for an insurer",
+     "x": 80,
+     "y": 50,
+     "w": 70,
+     "color": "red",
+     "out": 1
+    },
+    {
+     "p": "divider",
+     "x": 53.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 106.5,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Express",
+     "x": 27,
+     "y": 6,
+     "size": 5.5,
+     "bold": true,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "is Explained",
+     "x": 27,
+     "y": 12,
+     "size": 4,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Implied",
+     "x": 80,
+     "y": 6,
+     "size": 5.5,
+     "bold": true,
+     "color": "green",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "is Inferred",
+     "x": 80,
+     "y": 12,
+     "size": 4,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Apparent",
+     "x": 133,
+     "y": 6,
+     "size": 5.5,
+     "bold": true,
+     "color": "orange",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "is how it Appears",
+     "x": 133,
+     "y": 12,
+     "size": 4,
+     "at": 1
+    },
+    {
+     "p": "person",
+     "x": 15,
+     "y": 40,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "point"
+     },
+     "id": "d1",
+     "at": 2
+    },
+    {
+     "id": "contract",
+     "p": "policy",
+     "x": 39,
+     "y": 38,
+     "h": 18,
+     "opt": {
+      "title": "CONTRACT",
+      "tsize": 6,
+      "sign": true
+     },
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Spelled out, in writing or out loud",
+     "x": 27,
+     "y": 59,
+     "size": 3.8,
+     "w": 48,
+     "at": 2
+    },
+    {
+     "p": "person",
+     "x": 66,
+     "y": 40,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "hold"
+     },
+     "id": "d2",
+     "at": 3
+    },
+    {
+     "id": "idc",
+     "p": "idcard",
+     "x": 72,
+     "y": 37,
+     "h": 7,
+     "opt": {
+      "title": "AUTO ID"
+     },
+     "at": 3,
+     "cue": "ID",
+     "move": {
+      "to": [
+       89,
+       37
+      ],
+      "at": 3,
+      "cue": "Handing",
+      "dur": 1.2
+     },
+     "over": true
+    },
+    {
+     "p": "person",
+     "x": 95,
+     "y": 40,
+     "h": 26,
+     "opt": {
+      "who": "rosa"
+     },
+     "id": "r2",
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "Not spelled out: needed for the job, or allowed without objection",
+     "x": 80,
+     "y": 59,
+     "size": 3.8,
+     "w": 48,
+     "at": 3
+    },
+    {
+     "p": "person",
+     "x": 118,
+     "y": 42,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "think"
+     },
+     "id": "cust",
+     "at": 4
+    },
+    {
+     "id": "shop",
+     "p": "store",
+     "x": 145,
+     "y": 37,
+     "h": 20,
+     "opt": {
+      "name": "INSURANCE"
+     },
+     "at": 4
+    },
+    {
+     "p": "label",
+     "text": "What a customer reasonably assumes from the insurer's conduct",
+     "x": 133,
+     "y": 60,
+     "size": 3.6,
+     "w": 50,
+     "at": 4
+    }
+   ],
+   "beats": [
+    {
+     "text": "First, her license. In Michigan, a license alone gives no authority to act for any insurer. That comes from the insurer, in three kinds.",
+     "say": "First, her license. In Michigan, a license alone gives no authority to act for any insurer. That comes from the insurer, in three kinds.",
+     "hl": "lic"
+    },
+    {
+     "text": "Express is Explained, Implied is Inferred, Apparent is how it Appears.",
+     "say": "Express is Explained, Implied is Inferred, Apparent is how it Appears."
+    },
+    {
+     "text": "Express authority is spelled out by the insurer, in writing or out loud, like Dana's agency contract.",
+     "say": "Express authority is spelled out by the insurer, in writing or out loud, like Dana's agency contract.",
+     "hl": "contract"
+    },
+    {
+     "text": "Implied authority isn't spelled out, but it's reasonably necessary for the job, or allowed without objection. Her contract covers auto sales but never mentions ID cards. Handing Rosa hers is implied.",
+     "say": "Implied authority isn't spelled out, but it's reasonably necessary for the job, or allowed without objection. Her contract covers auto sales but never mentions ID cards. Handing Rosa hers is implied.",
+     "hl": "idc"
+    },
+    {
+     "text": "Watch out: implied is actual authority. Apparent is only what a customer reasonably believes. Here's a story.",
+     "say": "Watch out: implied is actual authority. Apparent is only what a customer reasonably believes. Here's a story.",
+     "hl": "shop"
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "The agent who kept the binders",
+   "src": "IRMI glossary: apparent agency; express authority; question core-012",
+   "term": "Apparent authority",
+   "plain": "The power a reasonable person would assume an agent has, based on the insurer's own conduct.",
+   "example": "An insurer ends an agent's binding authority but leaves him its sign and blank binders. Tony, reasonably believing the agent can still bind, buys a binder.",
+   "exam": "Not express: it was withdrawn. The insurer may be estopped from denying it.",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "store",
+     "x": 24,
+     "y": 24,
+     "h": 26,
+     "opt": {
+      "name": "INSURANCE"
+     }
+    },
+    {
+     "id": "deal",
+     "p": "policy",
+     "x": 66,
+     "y": 13,
+     "h": 19,
+     "opt": {
+      "title": "AGENCY",
+      "tsize": 6.5
+     }
+    },
+    {
+     "p": "xout",
+     "on": "deal",
+     "cue": "ends",
+     "sfx": "buzz"
+    },
+    {
+     "p": "person",
+     "x": 30,
+     "y": 52,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "mood": "smirk",
+      "tie": true,
+      "shirt": "blue"
+     },
+     "id": "agent",
+     "at": 0,
+     "cue": "leaves"
+    },
+    {
+     "id": "bind",
+     "p": "policy",
+     "x": 45,
+     "y": 50,
+     "h": 13,
+     "opt": {
+      "title": "BINDER",
+      "tsize": 7
+     },
+     "at": 0,
+     "cue": "blank",
+     "move": {
+      "to": [
+       55,
+       50
+      ],
+      "at": 1,
+      "cue": "buys"
+     }
+    },
+    {
+     "p": "person",
+     "x": 68,
+     "y": 52,
+     "h": 24,
+     "opt": {
+      "who": "tony"
+     },
+     "id": "cust",
+     "at": 1
+    },
+    {
+     "p": "bubble",
+     "text": "He can still bind, right?",
+     "x": 66,
+     "y": 30,
+     "w": 26,
+     "to": "cust",
+     "at": 1,
+     "out": 2
+    },
+    {
+     "p": "stamp",
+     "text": "Apparent",
+     "x": 51,
+     "y": 40,
+     "color": "orange",
+     "size": 4.4,
+     "at": 2,
+     "rot": -8,
+     "over": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "In Detroit, an insurer ends an agent's power to issue binders, temporary evidence of coverage. But it leaves its sign on his door, and blank binders.",
+     "say": "In Detroit, an insurer ends an agent's power to issue binders, temporary evidence of coverage. But it leaves its sign on his door, and blank binders.",
+     "show": 1
+    },
+    {
+     "text": "Tony reasonably believes the agent can still bind, and buys one. That's apparent authority: it rests on the insurer's own conduct.",
+     "say": "Tony reasonably believes the agent can still bind, and buys one. That's apparent authority: it rests on the insurer's own conduct.",
+     "show": 2,
+     "hl": "cust"
+    },
+    {
+     "text": "Express? No, it was taken back. But because of its own conduct, the insurer may be estopped, legally blocked, from denying it.",
+     "say": "Express? No, it was taken back. But because of its own conduct, the insurer may be estopped, legally blocked, from denying it.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Express, implied or apparent?",
+   "src": "IRMI glossary: express, implied authority; apparent agency; Cornell LII Wex; NARA glossary; question core-gen-17",
+   "options": [
+    "Express",
+    "Implied",
+    "Apparent"
+   ],
+   "cards": [
+    {
+     "text": "Dana's agency contract says she may bind homeowners coverage up to $500,000.",
+     "answer": 0,
+     "why": "The power is spelled out in the agency contract: express.",
+     "draw": [
+      {
+       "p": "policy",
+       "x": 34,
+       "y": 28,
+       "h": 34,
+       "opt": {
+        "title": "AGENCY",
+        "tsize": 6.5,
+        "sign": true
+       }
+      },
+      {
+       "p": "num",
+       "text": "$500,000",
+       "x": 72,
+       "y": 28,
+       "size": 8,
+       "color": "blue"
+      }
+     ]
+    },
+    {
+     "text": "The insurer's vice president phones Dana and clearly tells her she may also bind boat policies.",
+     "answer": 0,
+     "why": "Express authority can be given out loud as well as in writing.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 30,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "hold": "phone"
+       },
+       "id": "d"
+      },
+      {
+       "p": "insurer",
+       "x": 74,
+       "y": 30,
+       "h": 28
+      }
+     ]
+    },
+    {
+     "text": "Dana's contract lets her collect premiums but says nothing about receipts. She hands Sam one.",
+     "answer": 1,
+     "why": "Not spelled out, but reasonably necessary to complete the collection she was allowed to make: implied.",
+     "draw": [
+      {
+       "p": "receipt",
+       "x": 38,
+       "y": 28,
+       "h": 34
+      },
+      {
+       "p": "person",
+       "x": 72,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "sam",
+        "mood": "happy"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Rosa buys a binder from an agent, not knowing his contract ended. The insurer left him its signs and forms.",
+     "answer": 2,
+     "why": "No real authority was left, but the customer reasonably believed it from the insurer's conduct: apparent.",
+     "draw": [
+      {
+       "p": "store",
+       "x": 34,
+       "y": 26,
+       "h": 30,
+       "opt": {
+        "name": "INSURANCE"
+       }
+      },
+      {
+       "p": "policy",
+       "x": 76,
+       "y": 30,
+       "h": 26,
+       "opt": {
+        "title": "BINDER",
+        "tsize": 7
+       }
+      }
+     ]
+    },
+    {
+     "text": "For years Dana has issued certificates of insurance without written permission. The insurer never objected.",
+     "answer": 1,
+     "why": "When the insurer doesn't object, the authority is treated as part of the contract: implied.",
+     "draw": [
+      {
+       "p": "certificate",
+       "x": 34,
+       "y": 28,
+       "h": 26,
+       "opt": {
+        "title": "CERTIFICATE",
+        "frame": false
+       }
+      },
+      {
+       "p": "insurer",
+       "x": 76,
+       "y": 30,
+       "h": 26
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn. Express, implied or apparent? Swipe through five cases.",
+     "say": "Your turn. Express, implied or apparent? Swipe through five cases."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The tell: granted in words is express. Needed for the job, or allowed without objection, is implied. Only believed from the insurer's conduct is apparent.",
+     "say": "The tell: granted in words is express. Needed for the job, or allowed without objection, is implied. Only believed from the insurer's conduct is apparent."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "How the Millers' contract is born",
+   "src": "Gorham v Peerless (1962); AFT Michigan (2015); MCL 722.52(1); Maids Int'l v Saunders (1997); ISO HO 00 03 05 11, Agreement",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Our Agent Collects Cash Legally",
+     "x": 80,
+     "y": 6,
+     "size": 5,
+     "bold": true,
+     "bg": "yellow"
+    },
+    {
+     "p": "person",
+     "x": 14,
+     "y": 34,
+     "h": 28,
+     "opt": {
+      "who": "sam",
+      "pose": "hold"
+     },
+     "id": "sam"
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 144,
+     "y": 32,
+     "h": 26
+    },
+    {
+     "id": "app",
+     "p": "policy",
+     "x": 31,
+     "y": 19,
+     "h": 16,
+     "opt": {
+      "title": "FORM",
+      "tsize": 7
+     },
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Application",
+     "x": 31,
+     "y": 7.5,
+     "size": 3.8,
+     "bold": true,
+     "at": 1
+    },
+    {
+     "id": "offer",
+     "p": "arrow",
+     "from": "app",
+     "to": "ins",
+     "bend": -0.06,
+     "label": "Offer",
+     "color": "blue",
+     "at": 1,
+     "cue": "offer"
+    },
+    {
+     "id": "hush",
+     "p": "bubble",
+     "text": "...",
+     "x": 126,
+     "y": 10,
+     "w": 12,
+     "to": "ins",
+     "think": true,
+     "at": 1,
+     "cue": "silence",
+     "out": 2
+    },
+    {
+     "p": "label",
+     "text": "Silence: generally not acceptance",
+     "x": 80,
+     "y": 30,
+     "size": 3.8,
+     "w": 60,
+     "color": "gray",
+     "at": 1,
+     "cue": "silence",
+     "out": 2
+    },
+    {
+     "id": "acc",
+     "p": "arrow",
+     "from": "ins",
+     "to": "sam",
+     "bend": 0.02,
+     "label": "Acceptance: policy or binder",
+     "w": 60,
+     "color": "green",
+     "at": 2,
+     "cue": "accepts"
+    },
+    {
+     "id": "pol",
+     "p": "policy",
+     "x": 128,
+     "y": 42,
+     "h": 11,
+     "at": 2,
+     "cue": "issuing",
+     "move": {
+      "to": [
+       34,
+       44
+      ],
+      "at": 2,
+      "cue": "binder",
+      "dur": 1.6,
+      "sfx": "whoosh"
+     }
+    },
+    {
+     "id": "promise",
+     "p": "bubble",
+     "text": "We promise to pay!",
+     "x": 128,
+     "y": 12,
+     "w": 28,
+     "to": "ins",
+     "at": 3,
+     "cue": "promise"
+    },
+    {
+     "p": "label",
+     "text": "Consideration",
+     "x": 52,
+     "y": 44,
+     "size": 3.8,
+     "bold": true,
+     "color": "purple",
+     "at": 3
+    },
+    {
+     "id": "cash",
+     "p": "money",
+     "x": 52,
+     "y": 51,
+     "h": 7,
+     "label": "Premium plus compliance",
+     "lsize": 3.6,
+     "lw": 28,
+     "at": 3,
+     "cue": "premium"
+    },
+    {
+     "p": "label",
+     "text": "Competent parties",
+     "x": 84,
+     "y": 44,
+     "size": 3.8,
+     "bold": true,
+     "color": "purple",
+     "at": 4,
+     "cue": "competent"
+    },
+    {
+     "id": "age",
+     "p": "num",
+     "text": "18+",
+     "x": 84,
+     "y": 50.5,
+     "size": 7,
+     "color": "purple",
+     "at": 4,
+     "cue": "competent"
+    },
+    {
+     "p": "label",
+     "text": "Legal age, sound mind",
+     "x": 84,
+     "y": 58.5,
+     "size": 3.6,
+     "w": 28,
+     "at": 4,
+     "cue": "competent"
+    },
+    {
+     "p": "label",
+     "text": "Legal purpose",
+     "x": 116,
+     "y": 44,
+     "size": 3.8,
+     "bold": true,
+     "color": "purple",
+     "at": 4,
+     "cue": "purpose"
+    },
+    {
+     "id": "box",
+     "p": "parcel",
+     "x": 116,
+     "y": 51,
+     "h": 9,
+     "at": 4,
+     "cue": "illegal"
+    },
+    {
+     "p": "xout",
+     "on": "box",
+     "at": 4,
+     "cue": "unenforceable"
+    },
+    {
+     "p": "label",
+     "text": "Banned by statute: void or unenforceable",
+     "x": 116,
+     "y": 59.5,
+     "size": 3.6,
+     "w": 28,
+     "at": 4,
+     "cue": "unenforceable"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Our Agent Collects Cash Legally: Offer, Acceptance, Consideration, Competent parties, Legal purpose.",
+     "say": "Our Agent Collects Cash Legally: Offer, Acceptance, Consideration, Competent parties, Legal purpose."
+    },
+    {
+     "text": "Sam fills out the application. In Michigan, that's only an offer, and the insurer's silence generally isn't acceptance.",
+     "say": "Sam fills out the application. In Michigan, that's only an offer, and the insurer's silence generally isn't acceptance.",
+     "hl": "app"
+    },
+    {
+     "text": "The insurer accepts by issuing the policy or a binder.",
+     "say": "The insurer accepts by issuing the policy or a binder.",
+     "hl": "ins"
+    },
+    {
+     "text": "Consideration is what each side gives: the Millers, premium plus compliance with the policy's rules; the insurer, its promise to pay. Don't flip them.",
+     "say": "Consideration is what each side gives: the Millers, premium plus compliance with the policy's rules; the insurer, its promise to pay. Don't flip them.",
+     "hl": [
+      "cash",
+      "promise"
+     ]
+    },
+    {
+     "text": "Competent parties need legal age, in Michigan 18, and mental capacity. And the purpose must be legal: insuring a shipment of illegal drugs is unenforceable.",
+     "say": "Competent parties need legal age, in Michigan eighteen, and mental capacity. And the purpose must be legal: insuring a shipment of illegal drugs is unenforceable."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Every policy is served in A CUP, A",
+   "src": "IRMI glossary: adhesion, aleatory, unilateral contract; ISO HO 00 03 05 11, Sec. I Cond. C; Secs. I and II Cond. E",
+   "draw": [
+    {
+     "id": "pol",
+     "p": "policy",
+     "x": 16,
+     "y": 38,
+     "h": 28,
+     "opt": {
+      "title": "POLICY"
+     }
+    },
+    {
+     "id": "list",
+     "p": "clipboard",
+     "x": 46,
+     "y": 42,
+     "h": 22
+    },
+    {
+     "id": "mug",
+     "p": "coffee",
+     "x": 80,
+     "y": 11,
+     "h": 11,
+     "label": "A CUP, A",
+     "lsize": 4.6
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 80,
+     "y": 42,
+     "h": 24
+    },
+    {
+     "id": "house",
+     "p": "house",
+     "x": 112,
+     "y": 36,
+     "h": 24
+    },
+    {
+     "id": "sold",
+     "p": "sign",
+     "x": 126,
+     "y": 54,
+     "h": 12,
+     "opt": {
+      "text": "SOLD",
+      "tcolor": "red"
+     },
+     "over": true
+    },
+    {
+     "id": "dice",
+     "p": "dice",
+     "x": 144,
+     "y": 44,
+     "h": 14
+    },
+    {
+     "p": "label",
+     "text": "Adhesion",
+     "x": 16,
+     "y": 58,
+     "size": 4,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Conditional",
+     "x": 46,
+     "y": 58,
+     "size": 4,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Unilateral",
+     "x": 80,
+     "y": 59,
+     "size": 4,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Personal",
+     "x": 108,
+     "y": 59,
+     "size": 4,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Aleatory",
+     "x": 144,
+     "y": 58,
+     "size": 4,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    }
+   ],
+   "spots": [
+    {
+     "on": "pol",
+     "label": "Adhesion",
+     "text": "The insurer drafts the policy. The Millers take it or leave it, without bargaining over the wording. So courts read ambiguous wording against the insurer."
+    },
+    {
+     "on": "list",
+     "label": "Conditional",
+     "text": "The insurer's duty to pay depends on the Millers meeting the policy conditions, like their duties after a loss."
+    },
+    {
+     "on": "ins",
+     "label": "Unilateral",
+     "text": "Only the insurer makes legally enforceable promises. The Millers just meet conditions, like paying the premium and reporting losses."
+    },
+    {
+     "on": "house",
+     "label": "Personal",
+     "text": "The policy insures the Millers, not the house. If they sell, the policy can't be assigned to the buyer without the insurer's written consent."
+    },
+    {
+     "on": "dice",
+     "label": "Aleatory",
+     "text": "An unequal exchange that depends on chance. One month of premium might buy a huge claim, or years of premium might buy nothing."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Every policy is served in A CUP, A: Adhesion, Conditional, Unilateral, Personal, Aleatory.",
+     "say": "Every policy is served in A CUP, A: Adhesion, Conditional, Unilateral, Personal, Aleatory."
+    },
+    {
+     "text": "Tap the five glowing spots.",
+     "say": "Tap the five glowing spots."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Watch the two A's: adhesion is about who wrote it; aleatory is the unequal exchange that rides on chance.",
+     "say": "Watch the two A's: adhesion is about who wrote it; aleatory is the unequal exchange that rides on chance."
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "The Millers ask Dana to change a word in their policy. She says the insurer wrote it, so they take it or leave it. This shows the policy is:",
+   "choices": [
+    "A contract of adhesion",
+    "An aleatory contract",
+    "A conditional contract",
+    "A personal contract"
+   ],
+   "answer": 0,
+   "why": "Adhesion: the insurer drafts it, and the insured takes it or leaves it without bargaining over the wording. Aleatory is the unequal, chance-driven exchange.",
+   "draw": [
+    {
+     "p": "person",
+     "x": 14,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "sam",
+      "pose": "point",
+      "mood": "worried"
+     },
+     "id": "sam"
+    },
+    {
+     "p": "bubble",
+     "text": "Can we change this word?",
+     "x": 24,
+     "y": 12,
+     "w": 32,
+     "to": "sam"
+    },
+    {
+     "id": "pol",
+     "p": "policy",
+     "x": 40,
+     "y": 44,
+     "h": 22,
+     "opt": {
+      "title": "POLICY"
+     }
+    },
+    {
+     "p": "ring",
+     "on": "pol"
+    },
+    {
+     "p": "person",
+     "x": 66,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "shrug"
+     },
+     "id": "dana",
+     "flip": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "The Millers ask to change a word in their policy. Dana says the insurer wrote it: take it or leave it. Which trait?",
+     "say": "The Millers ask to change a word in their policy. Dana says the insurer wrote it: take it or leave it. Which trait?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Adhesion: the insurer wrote it, and the Millers take it or leave it.",
+     "say": "Adhesion: the insurer wrote it, and the Millers take it or leave it."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "How a court reads the policy",
+   "src": "IRMI glossary; Wilkie v Auto-Owners Ins Co, 469 Mich 41 (2003); NARA glossary: indemnity; questions core-020, core-gen-27",
+   "draw": [
+    {
+     "p": "divider",
+     "x": 40,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 80,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 2
+    },
+    {
+     "p": "divider",
+     "x": 120,
+     "y": 36,
+     "y0": 4,
+     "y1": 64,
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "Ambiguity",
+     "x": 20,
+     "y": 7,
+     "bold": true,
+     "size": 4.6
+    },
+    {
+     "p": "person",
+     "x": 12,
+     "y": 36,
+     "h": 24,
+     "opt": {
+      "who": "judge",
+      "pose": "point"
+     },
+     "id": "judge"
+    },
+    {
+     "id": "fuzzy",
+     "p": "policy",
+     "x": 30,
+     "y": 30,
+     "h": 14
+    },
+    {
+     "p": "question",
+     "x": 35,
+     "y": 22,
+     "h": 9,
+     "color": "red",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Read against the insurer, who wrote it",
+     "x": 20,
+     "y": 57,
+     "size": 3.7,
+     "w": 34
+    },
+    {
+     "p": "label",
+     "text": "Reasonable expectations",
+     "x": 60,
+     "y": 7,
+     "bold": true,
+     "size": 4.2,
+     "w": 36,
+     "at": 1
+    },
+    {
+     "p": "person",
+     "x": 60,
+     "y": 42,
+     "h": 24,
+     "opt": {
+      "who": "sam",
+      "pose": "think"
+     },
+     "id": "sam",
+     "at": 1
+    },
+    {
+     "p": "bubble",
+     "text": "Surely that's covered?",
+     "x": 60,
+     "y": 21,
+     "w": 30,
+     "to": "sam",
+     "think": true,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Some courts: yes. Michigan declined it",
+     "x": 60,
+     "y": 60,
+     "size": 3.7,
+     "w": 34,
+     "color": "red",
+     "at": 1,
+     "cue": "declined"
+    },
+    {
+     "p": "label",
+     "text": "Indemnity",
+     "x": 100,
+     "y": 7,
+     "bold": true,
+     "size": 4.6,
+     "at": 2
+    },
+    {
+     "id": "bal",
+     "p": "scale",
+     "x": 100,
+     "y": 21,
+     "h": 18,
+     "opt": {
+      "tilt": 0,
+      "left": "house",
+      "right": "money"
+     },
+     "at": 2
+    },
+    {
+     "p": "num",
+     "text": "$50,000 loss",
+     "x": 100,
+     "y": 36,
+     "size": 4.6,
+     "color": "red",
+     "at": 2
+    },
+    {
+     "id": "p1",
+     "p": "policy",
+     "x": 92,
+     "y": 46,
+     "h": 10,
+     "at": 2
+    },
+    {
+     "id": "p2",
+     "p": "policy",
+     "x": 108,
+     "y": 46,
+     "h": 10,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Two policies still pay no more than $50,000",
+     "x": 100,
+     "y": 59,
+     "size": 3.7,
+     "w": 34,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Utmost good faith",
+     "x": 140,
+     "y": 7,
+     "bold": true,
+     "size": 4.4,
+     "w": 36,
+     "at": 3
+    },
+    {
+     "id": "hand",
+     "p": "handshake",
+     "x": 140,
+     "y": 28,
+     "h": 18,
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "Both sides presumed to disclose all pertinent facts",
+     "x": 140,
+     "y": 48,
+     "size": 3.7,
+     "w": 34,
+     "at": 3
+    }
+   ],
+   "beats": [
+    {
+     "text": "If a word in a policy could mean two things, courts read it against the insurer, which wrote it.",
+     "say": "If a word in a policy could mean two things, courts read it against the insurer, which wrote it.",
+     "hl": "fuzzy"
+    },
+    {
+     "text": "Some courts give the coverage an insured would reasonably expect: the reasonable expectations doctrine. Michigan declined to adopt it, but on the exam, that's still its name.",
+     "say": "Some courts give the coverage an insured would reasonably expect: the reasonable expectations doctrine. Michigan declined to adopt it, but on the exam, that's still its name."
+    },
+    {
+     "text": "Indemnity puts you back where you were before the loss, without profit. Two policies on a loss of $50,000 still pay no more than $50,000.",
+     "say": "Indemnity puts you back where you were before the loss, without profit. Two policies on a loss of fifty thousand dollars still pay no more than fifty thousand dollars."
+    },
+    {
+     "text": "And insurance runs on utmost good faith: both sides are presumed to disclose all pertinent facts.",
+     "say": "And insurance runs on utmost good faith: both sides are presumed to disclose all pertinent facts.",
+     "hl": "hand"
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Four voices on an application",
+   "src": "IRMI glossary: representation, warranty, concealment, fraud; MCL 500.2218(1), (2); NARA glossary: fraud",
+   "draw": [
+    {
+     "id": "app",
+     "p": "clipboard",
+     "x": 80,
+     "y": 32,
+     "h": 28,
+     "out": 1
+    },
+    {
+     "p": "label",
+     "text": "The application",
+     "x": 80,
+     "y": 52,
+     "bold": true,
+     "out": 1
+    },
+    {
+     "p": "person",
+     "x": 20,
+     "y": 44,
+     "h": 24,
+     "opt": {
+      "who": "jen",
+      "pose": "hold",
+      "hold": "clipboard"
+     },
+     "id": "jen",
+     "at": 1
+    },
+    {
+     "p": "bubble",
+     "text": "To the best of my knowledge...",
+     "x": 20,
+     "y": 17,
+     "w": 34,
+     "to": "jen",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Representation",
+     "x": 20,
+     "y": 61,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "person",
+     "x": 60,
+     "y": 44,
+     "h": 24,
+     "opt": {
+      "who": "tony",
+      "pose": "point"
+     },
+     "id": "tony",
+     "at": 3
+    },
+    {
+     "p": "bubble",
+     "text": "I guarantee it!",
+     "x": 60,
+     "y": 17,
+     "w": 30,
+     "to": "tony",
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "Warranty",
+     "x": 60,
+     "y": 61,
+     "bold": true,
+     "color": "purple",
+     "at": 4
+    },
+    {
+     "p": "person",
+     "x": 100,
+     "y": 44,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "hold": "clipboard",
+      "mood": "smirk",
+      "shirt": "green",
+      "hair": "curly"
+     },
+     "id": "nb",
+     "at": 5
+    },
+    {
+     "p": "bubble",
+     "text": "You didn't ask.",
+     "x": 100,
+     "y": 17,
+     "w": 30,
+     "to": "nb",
+     "at": 5
+    },
+    {
+     "p": "label",
+     "text": "Concealment",
+     "x": 100,
+     "y": 61,
+     "bold": true,
+     "color": "orange",
+     "at": 6
+    },
+    {
+     "p": "person",
+     "x": 140,
+     "y": 44,
+     "h": 24,
+     "opt": {
+      "who": "thief",
+      "pose": "cheer",
+      "mood": "smirk"
+     },
+     "id": "thief",
+     "at": 7
+    },
+    {
+     "p": "bubble",
+     "text": "Gotcha!",
+     "x": 140,
+     "y": 15,
+     "w": 24,
+     "to": "thief",
+     "at": 7,
+     "sfx": "boing"
+    },
+    {
+     "p": "label",
+     "text": "Fraud",
+     "x": 140,
+     "y": 61,
+     "bold": true,
+     "color": "red",
+     "at": 8
+    }
+   ],
+   "beats": [
+    {
+     "text": "Four voices fill out an application.",
+     "say": "Four voices fill out an application."
+    },
+    {
+     "text": "To the best of my knowledge.",
+     "say": "To the best of my knowledge.",
+     "voice": "jen"
+    },
+    {
+     "text": "A representation, believed true. In Michigan, a false one voids the policy only if material: the insurer would have refused the contract had it known.",
+     "say": "A representation, believed true. In Michigan, a false one voids the policy only if material: the insurer would have refused the contract had it known.",
+     "hl": "jen"
+    },
+    {
+     "text": "I guarantee it!",
+     "say": "I guarantee it!",
+     "voice": "tony"
+    },
+    {
+     "text": "A warranty, guaranteed true. It voids the policy if it's untrue.",
+     "say": "A warranty, guaranteed true. It voids the policy if it's untrue.",
+     "hl": "tony"
+    },
+    {
+     "text": "You didn't ask.",
+     "say": "You didn't ask.",
+     "voice": "neighbor"
+    },
+    {
+     "text": "Concealment: willfully holding back pertinent facts the insurer didn't ask about.",
+     "say": "Concealment: willfully holding back pertinent facts the insurer didn't ask about.",
+     "hl": "nb"
+    },
+    {
+     "text": "Gotcha!",
+     "say": "Gotcha!",
+     "voice": "thief"
+    },
+    {
+     "text": "Fraud. Unlike an innocent misstatement, it means intent to deceive.",
+     "say": "Fraud. Unlike an innocent misstatement, it means intent to deceive.",
+     "hl": "thief"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Sam's basement question",
+   "src": "IRMI glossary: concealment, misrepresentation, uberrimae fidei; MCL 500.2218(1), (2); questions core-018, core-gen-30",
+   "ask": "What does Sam do?",
+   "draw": [
+    {
+     "p": "person",
+     "x": 32,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "who": "sam",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "id": "sam"
+    },
+    {
+     "id": "app",
+     "p": "clipboard",
+     "x": 58,
+     "y": 34,
+     "h": 18
+    },
+    {
+     "p": "bubble",
+     "text": "No question about water...",
+     "x": 34,
+     "y": 8,
+     "w": 46,
+     "to": "sam",
+     "think": true
+    },
+    {
+     "id": "house",
+     "p": "house",
+     "x": 122,
+     "y": 24,
+     "h": 28
+    },
+    {
+     "id": "fl",
+     "p": "flood",
+     "x": 122,
+     "y": 36,
+     "w": 36,
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Basement floods every spring",
+     "x": 122,
+     "y": 50,
+     "size": 4,
+     "color": "blue"
+    }
+   ],
+   "beats": [
+    {
+     "text": "The application never asks about water. But the seller told Sam the basement floods every spring. What does he do?",
+     "say": "The application never asks about water. But the seller told Sam the basement floods every spring. What does he do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Say nothing. They didn't ask!",
+     "ok": false,
+     "fail": "Concealment is willfully holding back pertinent information, even though the insurer didn't ask. It can void the policy.",
+     "beats": [
+      {
+       "text": "Sam zips his lip. That's concealment, and it can void the policy, even though nobody asked.",
+       "say": "Sam zips his lip. That's concealment, and it can void the policy, even though nobody asked."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 30,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "smirk"
+       },
+       "id": "sam"
+      },
+      {
+       "p": "bubble",
+       "text": "Hmm hmm hmm.",
+       "x": 30,
+       "y": 6,
+       "w": 26,
+       "to": "sam"
+      },
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 68,
+       "y": 26,
+       "h": 20
+      },
+      {
+       "p": "question",
+       "x": 82,
+       "y": 16,
+       "h": 10,
+       "color": "red",
+       "cue": "concealment"
+      },
+      {
+       "id": "house",
+       "p": "house",
+       "x": 112,
+       "y": 28,
+       "h": 26
+      },
+      {
+       "id": "fl",
+       "p": "flood",
+       "x": 112,
+       "y": 39,
+       "w": 34,
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Concealment can void the policy",
+       "x": 80,
+       "y": 52,
+       "size": 5,
+       "bold": true,
+       "color": "red",
+       "cue": "void"
+      }
+     ]
+    },
+    {
+     "label": "Write: Bone dry. Never a drop!",
+     "ok": false,
+     "fail": "A false statement to the insurer is a misrepresentation. In Michigan, it can void the policy if material: the insurer would have refused had it known.",
+     "beats": [
+      {
+       "text": "Sam writes bone dry, knowing it floods. That's an intentional misrepresentation. In Michigan, a material one can void the policy. Splash.",
+       "say": "Sam writes bone dry, knowing it floods. That's an intentional misrepresentation. In Michigan, a material one can void the policy. Splash."
+      }
+     ],
+     "draw": [
+      {
+       "id": "nt",
+       "p": "note",
+       "text": "Basement: bone dry. Never a drop! Sam",
+       "x": 28,
+       "y": 20,
+       "w": 34
+      },
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 28,
+       "y": 44,
+       "h": 14,
+       "cue": "misrepresentation"
+      },
+      {
+       "p": "question",
+       "x": 37,
+       "y": 38,
+       "h": 9,
+       "color": "red",
+       "over": true,
+       "cue": "misrepresentation"
+      },
+      {
+       "id": "house",
+       "p": "house",
+       "x": 96,
+       "y": 24,
+       "h": 28
+      },
+      {
+       "id": "fl",
+       "p": "flood",
+       "x": 96,
+       "y": 36,
+       "w": 40,
+       "over": true,
+       "cue": "Splash",
+       "anim": "grow",
+       "sfx": "whoosh"
+      },
+      {
+       "p": "person",
+       "x": 140,
+       "y": 36,
+       "h": 30,
+       "opt": {
+        "who": "sam",
+        "pose": "sad",
+        "mood": "shocked"
+       },
+       "id": "sam",
+       "cue": "Splash"
+      },
+      {
+       "p": "label",
+       "text": "Can void the policy, if material",
+       "x": 82,
+       "y": 53,
+       "size": 5,
+       "bold": true,
+       "color": "red",
+       "cue": "material"
+      }
+     ]
+    },
+    {
+     "label": "Tell Dana about the flooding",
+     "ok": true,
+     "win": "Utmost good faith: both sides are presumed to disclose all pertinent facts, even ones the form doesn't ask about.",
+     "beats": [
+      {
+       "text": "Heads up, Dana: the basement floods every spring.",
+       "say": "Heads up, Dana: the basement floods every spring.",
+       "voice": "sam"
+      },
+      {
+       "text": "Honest and complete. That's utmost good faith.",
+       "say": "Honest and complete. That's utmost good faith."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 40,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "sam",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "sam"
+      },
+      {
+       "p": "bubble",
+       "text": "The basement floods every spring.",
+       "x": 40,
+       "y": 6,
+       "w": 38,
+       "to": "sam"
+      },
+      {
+       "p": "person",
+       "x": 120,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "hold": "clipboard"
+       },
+       "id": "dana",
+       "flip": true
+      },
+      {
+       "id": "hand",
+       "p": "handshake",
+       "x": 80,
+       "y": 38,
+       "h": 12,
+       "at": 1
+      },
+      {
+       "p": "label",
+       "text": "Utmost good faith",
+       "x": 80,
+       "y": 52,
+       "size": 4.6,
+       "bold": true,
+       "color": "green",
+       "at": 1
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The rule: disclose pertinent facts, even unasked, and never write what you know is false.",
+     "say": "The rule: disclose pertinent facts, even unasked, and never write what you know is false."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Sam pays late, again",
+   "src": "IRMI glossary: estoppel; waiver; ISO HO 00 03 05 11, Secs. I and II Cond. B; question core-019",
+   "term": "Estoppel",
+   "plain": "You can't go back on your own conduct when someone reasonably relied on it.",
+   "example": "For years the insurer took Sam's late premiums. Then it tries to cancel him for paying late. It may be estopped.",
+   "exam": "Watch out: waiver is chosen, a known right given up on purpose. Estoppel is imposed because someone relied. 2011 HO form: waivers in writing.",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 62,
+     "y": 15,
+     "h": 20
+    },
+    {
+     "p": "person",
+     "x": 14,
+     "y": 46,
+     "h": 26,
+     "opt": {
+      "who": "sam",
+      "pose": "hold",
+      "mood": "happy"
+     },
+     "id": "sam"
+    },
+    {
+     "id": "cash",
+     "p": "money",
+     "x": 26,
+     "y": 42,
+     "h": 7,
+     "move": {
+      "to": [
+       42,
+       18
+      ],
+      "at": 0,
+      "cue": "late",
+      "sfx": "cash"
+     },
+     "over": true
+    },
+    {
+     "id": "clock",
+     "p": "clock",
+     "x": 14,
+     "y": 13,
+     "h": 11,
+     "opt": {
+      "h": 11,
+      "m": 55
+     },
+     "label": "late again",
+     "lsize": 3.8,
+     "out": 4
+    },
+    {
+     "id": "cancel",
+     "p": "policy",
+     "x": 36,
+     "y": 42,
+     "h": 17,
+     "opt": {
+      "title": "CANCEL",
+      "tcolor": "red",
+      "tsize": 6
+     },
+     "at": 2,
+     "cue": "cancel",
+     "sfx": "buzz"
+    },
+    {
+     "p": "xout",
+     "on": "cancel",
+     "at": 3,
+     "cue": "estopped"
+    },
+    {
+     "p": "person",
+     "x": 58,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "judge",
+      "pose": "stop"
+     },
+     "id": "judge",
+     "at": 3,
+     "cue": "estopped",
+     "flip": true
+    },
+    {
+     "id": "stop",
+     "p": "stopsign",
+     "x": 72,
+     "y": 46,
+     "h": 16,
+     "at": 3,
+     "cue": "stop"
+    },
+    {
+     "p": "note",
+     "text": "Waiver: in writing, by the insurer",
+     "x": 20,
+     "y": 14,
+     "w": 30,
+     "at": 4,
+     "cue": "writing"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Three years later, Sam often pays late, and the insurer keeps taking his premiums.",
+     "say": "Three years later, Sam often pays late, and the insurer keeps taking his premiums.",
+     "show": 1
+    },
+    {
+     "text": "They always took my late payments. I figured late was fine.",
+     "say": "They always took my late payments. I figured late was fine.",
+     "voice": "sam",
+     "show": 1
+    },
+    {
+     "text": "Then it tries to cancel him for paying late. Estoppel: you can't go back on conduct someone reasonably relied on.",
+     "say": "Then it tries to cancel him for paying late. Estoppel: you can't go back on conduct someone reasonably relied on.",
+     "show": 2,
+     "hl": "cancel"
+    },
+    {
+     "text": "Sam relied on it, so the insurer may be estopped from canceling for late payment. The law says stop.",
+     "say": "Sam relied on it, so the insurer may be estopped from canceling for late payment. The law says stop.",
+     "show": 3,
+     "hl": "judge"
+    },
+    {
+     "text": "Its cousin, waiver, is a choice: you wave goodbye to a right on purpose. The 2011 homeowners form requires waivers in writing by the insurer.",
+     "say": "Its cousin, waiver, is a choice: you wave goodbye to a right on purpose. The twenty eleven homeowners form requires waivers in writing by the insurer.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "Michigan: not appointed by the insurer writing it? Insured's agent",
+    "Express is explained, implied inferred, apparent how it appears",
+    "Offer, acceptance, consideration, competent parties, legal purpose",
+    "A CUP, A: adhesion, conditional, unilateral, personal, aleatory",
+    "A warranty is guaranteed; concealment is silence on purpose"
+   ],
+   "draw": [
+    {
+     "p": "house",
+     "x": 60,
+     "y": 16,
+     "h": 18
+    },
+    {
+     "p": "person",
+     "x": 14,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "sam",
+      "pose": "cheer"
+     }
+    },
+    {
+     "p": "person",
+     "x": 32,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "jen",
+      "pose": "cheer"
+     }
+    },
+    {
+     "p": "person",
+     "x": 58,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "wave"
+     }
+    },
+    {
+     "p": "policy",
+     "x": 74,
+     "y": 58,
+     "h": 11,
+     "opt": {
+      "sign": true
+     },
+     "rot": 8
+    }
+   ],
+   "beats": [
+    {
+     "text": "Remember: in Michigan, a producer the writing insurer never appointed represents the insured.",
+     "say": "Remember: in Michigan, a producer the writing insurer never appointed represents the insured.",
+     "show": 2
+    },
+    {
+     "text": "Contracts need offer, acceptance, consideration, competent parties and legal purpose. Policies come in A CUP, A. Concealment is silence on purpose.",
+     "say": "Contracts need offer, acceptance, consideration, competent parties and legal purpose. Policies come in A CUP, A. Concealment is silence on purpose.",
+     "show": 5
+    },
+    {
+     "text": "Got it: tell Dana everything, and pay on time.",
+     "say": "Got it: tell Dana everything, and pay on time.",
+     "voice": "sam",
+     "show": 5
+    }
+   ]
+  }
+ ],
+ "check": [
+  "core-012",
+  "core-gen-18",
+  "core-016",
+  "core-018",
+  "core-019"
+ ],
+ "hooks": [
+  "mn-mn_core-05",
+  "mn-mn_core-06",
+  "mn-mn_core-07",
+  "mn-mn_core-08",
+  "mn-mn_core-09"
+ ],
+ "sources": [
+  "MCL 500.1201(b), (c), (h)",
+  "MCL 500.1207(1), (2), (8)",
+  "MCL 500.2218(1), (2)",
+  "MCL 722.52(1)",
+  "AFT Michigan v Michigan, 497 Mich 197 (2015)",
+  "Gorham v Peerless Life Ins Co, 368 Mich 335 (1962)",
+  "Wilkie v Auto-Owners Ins Co, 469 Mich 41 (2003)",
+  "Maids Int'l, Inc v Saunders, Inc, 224 Mich App 508 (1997)",
+  "ISO HO 00 03 05 11 (2011 homeowners form)",
+  "IRMI glossary",
+  "National Alliance Research Academy insurance glossary",
+  "Cornell LII Wex"
+ ]
 }

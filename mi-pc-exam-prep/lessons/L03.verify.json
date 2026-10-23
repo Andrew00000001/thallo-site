@@ -1,76 +1,94 @@
 {
  "id": "L03",
- "beats": 45,
+ "beats": 59,
  "mismatches": [
-  {
-   "scene": 1,
-   "beat": 3,
-   "say": "A peril is the cause of loss: fire, windstorm, collision.",
-   "heard": "Apparel is the cause of loss. Fire, windstorm collision.",
-   "wer": 0.2
-  },
   {
    "scene": 3,
    "beat": 2,
-   "say": "The fire is the peril, the cause. The burned value you claim is the loss.",
-   "heard": "The fire is the peril, the cause. The burned value claim is the loss.",
-   "wer": 0.067
+   "say": "That's speculative risk, often called a business risk, and generally not insurable. Gambling is speculative too. Ask: could it end in a gain?",
+   "heard": "That speculative risk often called a business risk and generally not insurable. Gambling is speculative too. Ask, could it end in a gain?",
+   "wer": 0.045,
+   "voice": "narrator"
   },
   {
-   "scene": 5,
+   "scene": 4,
    "beat": 0,
-   "say": "Five ways to handle risk. Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
-   "heard": "Five ways to handle risk. Handle risk like a star. Share it, transfer it, avoid it, reduce it, or retain it.",
-   "wer": 0.048
+   "say": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
+   "heard": "Handle risk like a star. Share it, transfer it, avoid it, reduce it, or retain it.",
+   "wer": 0.062,
+   "voice": "narrator"
   },
   {
-   "scene": 7,
-   "beat": 2,
-   "say": "Not catastrophic. Watch out: an EXCEPT question may claim the loss should be catastrophic. It shouldn't.",
-   "heard": "Not catastrophic. Watch out. An accept question may claim the loss should be catastrophic. It should not.",
-   "wer": 0.059
+   "scene": 6,
+   "beat": 0,
+   "say": "Tony's fire risk is a CLEAN Deal. Calculable: the insurer can estimate how often and how badly shops burn. Large numbers: thousands of pizzerias. Economically feasible: an affordable premium. Accidental: nobody plans it.",
+   "heard": "Tony's fire risk is a clean deal. Calculable, the insurer can estimate how often and how badly shops burn. Large numbers, thousands of pizzerias. Economically feasible and affordable premium. Accidental, nobody plans it.",
+   "wer": 0.031,
+   "voice": "narrator"
   },
   {
    "scene": 8,
-   "beat": 1,
-   "say": "Adverse selection is the threat: people who see a high chance of loss buy insurance far more often. Underwriting exists largely to counter it.",
-   "heard": "Adverse selection is the threat. People who see a high chance of loss by insurance far more often. Underwriting exists largely to counter it.",
-   "wer": 0.042
+   "beat": 2,
+   "say": "Adverse selection is an imbalance: people who see a high chance of loss buy far more often than others.",
+   "heard": "Adverse selection is an imbalance, people who see a high chance of loss by far more often than others.",
+   "wer": 0.053,
+   "voice": "narrator"
   },
   {
    "scene": 9,
    "beat": 0,
-   "say": "Insurers buy insurance too. A reinsurer, for a premium, covers part or all of the liability of the primary insurer, called the ceding company.",
-   "heard": "Insurers buy insurance too. A re-insurer for a premium covers part or all of the liability of the primary insurer, called the seating company.",
-   "wer": 0.125
-  },
-  {
-   "scene": 9,
-   "beat": 2,
-   "say": "Quota share, a pro rata form, shares premium and losses at the same percentage. Excess of loss pays only above the ceding company's retention, up to a limit.",
-   "heard": "QuotaShare, a pro-rata form, shares premium and losses at the same percentage. Excess of loss pays only above the seeding company's retention, up to a limit.",
-   "wer": 0.111
+   "say": "Quick check: the pool grows a hundredfold. What happens? Pick an answer.",
+   "heard": "Quick check the pool grows a hundred fold. What happens? Pick an answer.",
+   "wer": 0.167,
+   "voice": "narrator"
   },
   {
    "scene": 10,
    "beat": 0,
-   "say": "Try this. A reinsurer takes an agreed percentage of the premium on every policy in a class and pays that percentage of every loss. Which type is it? Pick an answer.",
-   "heard": "Try this. A re-insurer takes an agreed percentage of the premium on every policy in a class and pays that percentage of every loss. Which type is it? Pick an answer.",
-   "wer": 0.067
+   "say": "Who protects Tony's insurer? A reinsurer: for a premium, it covers part or all of the insurer's liability.",
+   "heard": "who protects Tony's insurer, a re-insurer. For a premium, it covers part or all of the insurer's liability.",
+   "wer": 0.111,
+   "voice": "narrator"
   },
   {
-   "scene": 13,
-   "beat": 0,
-   "say": "To recap: a hazard is the condition, a peril the cause. Pure risk is generally insurable; speculative can bring a gain.",
-   "heard": "To recap, a hazard is the condition, apparel the cause. Pure risk is generally insurable. Speculative can bring a gain.",
-   "wer": 0.095
-  },
-  {
-   "scene": 13,
+   "scene": 10,
    "beat": 1,
-   "say": "Handle risk like a STARR. Ideally insurable risks are a CLEAN Deal. Stockholders own a stock company; policyholders own a mutual.",
-   "heard": "Handle risk like a star. Ideally insurable risks are a clean deal. Stockholders own a stock company. Policyholders own a mutual.",
-   "wer": 0.048
+   "say": "That makes the insurer the ceding company. Why buy? Capacity to write more, surplus relief, steadier results and catastrophe protection.",
+   "heard": "That makes the insurer the seating company. Why buy? Capacity to write more, surplus relief, steadier results, and catastrophe protection.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 0,
+   "say": "Quota share splits premium and losses at one percentage. Excess of loss pays only above the insurer's retention, up to a limit.",
+   "heard": "QuotaShare splits premium and losses at one percentage. Excess of loss pays only above the insurer's retention up to a limit.",
+   "wer": 0.095,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 2,
+   "say": "Quota share, a pro rata form, splits by one percentage. Excess of loss starts above the retention.",
+   "heard": "QuotaShare, a pro-rata form, splits by one percentage. Excess of loss starts above the retention.",
+   "wer": 0.118,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 3,
+   "say": "A reciprocal: unincorporated subscribers pooling risks, run by an attorney-in-fact. Lloyd's is a marketplace of underwriters, not an insurer. A M Best: A plus plus and A plus, Superior; A and A minus, Excellent.",
+   "heard": "A reciprocal, unincorporated subscriber's pooling risks run by an attorney, in fact. Lloyd's is a marketplace of underwriters, not an insurer. AM Best, A++ and A+, Superior, A and A-, Excellent.",
+   "wer": 0.121,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
+   "beat": 0,
+   "say": "A hazard is the condition; the peril is the cause. Pure risk is generally insurable. Handle risk like a STARR.",
+   "heard": "A hazard is the condition, the peril is the cause, pure risk is generally insurable, handle risk like a star.",
+   "wer": 0.05,
+   "voice": "narrator"
   }
  ]
 }

@@ -1,55 +1,62 @@
 {
  "id": "L09",
- "beats": 39,
+ "beats": 64,
  "mismatches": [
-  {
-   "scene": 0,
-   "beat": 0,
-   "say": "Michigan laws and required provisions are part of the exam's Basics section. In this lesson, we'll pin down their key numbers.",
-   "heard": "Michigan laws and required provisions are part of the exam's basic section. In this lesson, we'll pin down their key numbers.",
-   "wer": 0.05
-  },
   {
    "scene": 1,
    "beat": 1,
-   "say": "It takes effect at twelve oh one A M, standard time, at the property's location.",
-   "heard": "It takes effect at 1201 a.m., standard time, at the property's location.",
-   "wer": 0.286
+   "say": "A floor, not a ceiling: policies may pay more. Coverage starts at twelve oh one A M standard time, where the property is.",
+   "heard": "A floor, not a ceiling. Policies may pay more. Coverage starts at 1201 a.m. standard time, where the property is.",
+   "wer": 0.182,
+   "voice": "narrator"
   },
   {
-   "scene": 6,
+   "scene": 5,
    "beat": 1,
-   "say": "Ana: she owns and lives in a building of up to four units. Ben doesn't live there, and Cal's arson and Dee's taxes disqualify them.",
-   "heard": "Anna, she owns and lives in a building of up to four units. Ben does not live there, and Cal's arson and Dee's taxes disqualify them.",
-   "wer": 0.043
+   "say": "In Michigan, one year after the loss, or the policy's longer period. And that clock can be tolled.",
+   "heard": "In Michigan, one year after the loss or the policy's longer period, and that clock can be told.",
+   "wer": 0.059,
+   "voice": "narrator"
   },
   {
-   "scene": 7,
-   "beat": 0,
-   "say": "T R I A created the federal Terrorism Risk Insurance Program. The Treasury Secretary certifies acts of terrorism, consulting the Homeland Security Secretary and the Attorney General.",
-   "heard": "TRI created the Federal Terrorism Risk Insurance Program. The Treasury Secretary certifies acts of terrorism, consulting the Homeland Security Secretary and the Attorney General.",
-   "wer": 0.043
-  },
-  {
-   "scene": 9,
-   "beat": 0,
-   "say": "When an insurer is insolvent, the Michigan Property and Casualty Guaranty Association pays covered claims. Insurers authorized for lines other than life or disability belong; surplus lines insurers don't.",
-   "heard": "When an insurer is insolvent, the Michigan Property and Casualty Guarantee Association pays covered claims. Insurers authorized for lines other than life or disability belong. Surplus lines insurers do not.",
-   "wer": 0.034
+   "scene": 5,
+   "beat": 2,
+   "say": "Tolled means paused: from the day the loss is reported until the insurer formally denies liability.",
+   "heard": "Told means paused. From the day the loss is reported until the insurer formally denies liability.",
+   "wer": 0.062,
+   "voice": "narrator"
   },
   {
    "scene": 10,
-   "beat": 0,
-   "say": "Which claim against an insolvent insurer is NOT subject to the guaranty association's cap? Pick an answer.",
-   "heard": "which claim against an insolvent insurer is not subject to the Guarantee Associations Cap. Pick an answer.",
-   "wer": 0.059
+   "beat": 2,
+   "say": "Saying no? Give each specific reason. Applied out loud? Within ninety days, they can ask for a written explanation.",
+   "heard": "Saying no, give each specific reason. Apply it out loud. Within 90 days, they can ask for a written explanation.",
+   "wer": 0.105,
+   "voice": "narrator"
   },
   {
    "scene": 11,
-   "beat": 1,
-   "say": "Home terminations: thirty days, or twenty in the first fifty-five. T R I A: twenty percent deductible, eighty percent federal. The guaranty cap spares P I P and workers' comp.",
-   "heard": "home terminations, 30 days or 20 in the first 55, TRIA, 20% deductible, 80% federal. The guarantee cap spares PIP and workers comp.",
-   "wer": 0.04
+   "beat": 3,
+   "say": "Next, each insurer's deductible: twenty percent of its prior-year direct earned premium. Above it, Uncle Sam pays eighty percent.",
+   "heard": "Next, each insurer is deductible, 20% of its prior year direct earned premium. Above it, Uncle Sam pays 80%.",
+   "wer": 0.1,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 5,
+   "say": "Under current law it ends December thirty-first, twenty twenty-seven, but extension bills were pending in twenty twenty-six: recheck.",
+   "heard": "Under current law, it ends December 31, 2027, but extension bills were pending in 2026. Ritchak.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": 0,
+   "say": "Sunday's news: an insurer is insolvent. Its covered claims go to the Michigan Property and Casualty Guaranty Association.",
+   "heard": "Sunday's news, an insurer is insolvent. Its covered claims go to the Michigan property and casualty guarantee association.",
+   "wer": 0.059,
+   "voice": "narrator"
   }
  ]
 }

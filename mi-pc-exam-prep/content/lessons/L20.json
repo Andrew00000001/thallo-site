@@ -3,7 +3,7 @@
  "sec": "cpp",
  "guide": "cpp",
  "title": "Crime, inland marine, equipment breakdown and farm",
- "summary": "Crime definitions, insuring agreements and triggers; the Nationwide Marine Definition and key inland marine forms; equipment breakdown; farm coverages A-J.",
+ "summary": "One wild month for Tony, his block and Grandma's farm: robbery vs burglary, the two crime triggers, inland marine, a boiler notice and farm A to J.",
  "objectives": [
   "Tell robbery, burglary, safe burglary and theft apart",
   "Compare the loss sustained and discovery crime forms",
@@ -13,490 +13,2732 @@
  "scenes": [
   {
    "type": "title",
-   "title": "Crime, inland marine, equipment breakdown and farm",
-   "subtitle": "Four more coverage parts with a few exam favorites each",
-   "icon": "lock",
+   "title": "Tony's wild month: crime, floaters, a boiler and a farm",
+   "subtitle": "Robbery vs burglary, the two crime triggers, inland marine, equipment breakdown and farm coverages A to J",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 27,
+     "y": 38,
+     "h": 36,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "p": "snow",
+     "x": 8,
+     "y": 8,
+     "h": 5,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 36,
+     "y": 5,
+     "h": 4,
+     "loop": "spin"
+    },
+    {
+     "p": "snow",
+     "x": 87,
+     "y": 24,
+     "h": 4,
+     "loop": "spin"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 62,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "shrug",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 80,
+     "y": 47,
+     "h": 27,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "flip": true
+    },
+    {
+     "p": "bubble",
+     "text": "Four? I just make pizza!",
+     "x": 58,
+     "y": 13,
+     "w": 30,
+     "to": "tony",
+     "at": 1
+    }
+   ],
    "beats": [
     {
-     "text": "Four more coverage parts: crime, inland marine, equipment breakdown and farm. Each has a few exam favorites.",
-     "say": "Four more coverage parts: crime, inland marine, equipment breakdown and farm. Each has a few exam favorites."
+     "text": "November in Detroit. Tony's about to get robbed, his boiler's about to wheeze, and his grandma's cows are about to escape. Dana has four coverages to explain.",
+     "say": "November in Detroit. Tony's about to get robbed, his boiler's about to wheeze, and his grandma's cows are about to escape. Dana has four coverages to explain."
+    },
+    {
+     "text": "Four? I just make pizza!",
+     "say": "Four? I just make pizza!",
+     "voice": "tony"
     }
    ]
   },
   {
-   "type": "table",
-   "title": "Robbery, burglary, safe burglary, theft",
-   "src": "ISO CR 00 21 11 15, F. defs. 20, 21, 23; IRMI glossary 'burglary'",
-   "columns": [
-    "Term",
-    "What it needs"
-   ],
-   "items": [
-    [
-     "Robbery",
-     "Taking from a person by harm or threat"
-    ],
-    [
-     "Burglary",
-     "Unlawful entry into or exit from premises"
-    ],
-    [
-     "Safe burglary",
-     "Forcing a locked safe, or taking the safe"
-    ],
-    [
-     "Theft",
-     "Any unlawful taking; the broadest term"
-    ]
+   "type": "sketch",
+   "title": "One bad week at Tony's Pizza",
+   "src": "ISO CR 00 21 11 15, F. defs. 20, 21, 23; burglary: IRMI glossary (not a form definition); adapted from hook mn_comm-11",
+   "draw": [
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 12,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "stop",
+      "mood": "shocked"
+     }
+    },
+    {
+     "id": "reg",
+     "p": "cashregister",
+     "x": 27,
+     "y": 47,
+     "h": 10
+    },
+    {
+     "id": "robber",
+     "p": "person",
+     "x": 44,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "thief",
+      "pose": "point",
+      "mood": "angry"
+     },
+     "flip": true,
+     "cue": "threatens"
+    },
+    {
+     "p": "bubble",
+     "text": "The cash. Now!",
+     "x": 40,
+     "y": 10,
+     "w": 24,
+     "to": "robber",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Mon: Robbery",
+     "x": 28,
+     "y": 60,
+     "size": 4.4,
+     "bold": true,
+     "color": "red",
+     "cue": "Robbery",
+     "at": 2
+    },
+    {
+     "id": "cooler",
+     "p": "fridge",
+     "x": 64,
+     "y": 36,
+     "h": 26,
+     "at": 3,
+     "cue": "cooler",
+     "label": "Cooler",
+     "lsize": 3.6
+    },
+    {
+     "id": "burglar",
+     "p": "person",
+     "x": 84,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "thief",
+      "pose": "run",
+      "mood": "smirk",
+      "hold": "parcel"
+     },
+     "at": 3,
+     "cue": "forces",
+     "anim": "slide-r"
+    },
+    {
+     "id": "door",
+     "p": "box",
+     "x": 104,
+     "y": 38,
+     "w": 12,
+     "hh": 24,
+     "fill": "brown",
+     "at": 3,
+     "cue": "door"
+    },
+    {
+     "p": "circle",
+     "x": 108,
+     "y": 39,
+     "r": 1,
+     "fill": "yellow",
+     "at": 3,
+     "cue": "door"
+    },
+    {
+     "p": "crash",
+     "x": 104,
+     "y": 22,
+     "h": 11,
+     "opt": {
+      "text": "BAM!"
+     },
+     "at": 3,
+     "cue": "forces",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Tue: Burglary",
+     "x": 82,
+     "y": 60,
+     "size": 4.4,
+     "bold": true,
+     "color": "red",
+     "at": 3,
+     "cue": "Burglary"
+    },
+    {
+     "id": "safe",
+     "p": "safe",
+     "x": 128,
+     "y": 40,
+     "h": 17,
+     "opt": {
+      "open": true,
+      "empty": true
+     },
+     "at": 4,
+     "cue": "safe"
+    },
+    {
+     "p": "hammer",
+     "x": 140,
+     "y": 45,
+     "h": 9,
+     "rot": -25,
+     "at": 4,
+     "cue": "pried",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Pry marks outside",
+     "x": 129,
+     "y": 25,
+     "size": 3.8,
+     "color": "red",
+     "at": 4,
+     "cue": "pried"
+    },
+    {
+     "p": "label",
+     "text": "Wed: Safe burglary",
+     "x": 134,
+     "y": 60,
+     "size": 4.4,
+     "bold": true,
+     "color": "red",
+     "at": 4,
+     "cue": "burglary"
+    },
+    {
+     "id": "umb",
+     "p": "umbrella",
+     "x": 80,
+     "y": 13,
+     "h": 18,
+     "opt": {
+      "color": "green"
+     },
+     "at": 5
+    },
+    {
+     "p": "label",
+     "text": "Theft: the umbrella word for all three",
+     "x": 123,
+     "y": 10,
+     "size": 4.4,
+     "bold": true,
+     "bg": "yellow",
+     "at": 5,
+     "w": 62
+    }
    ],
    "beats": [
     {
-     "text": "The 2015 crime form defines robbery as taking property from a person by someone who causes or threatens bodily harm, or commits an obviously unlawful act the person witnesses.",
-     "say": "The twenty fifteen crime form defines robbery as taking property from a person by someone who causes or threatens bodily harm, or commits an obviously unlawful act the person witnesses.",
-     "show": 1
+     "text": "Monday: a robber threatens Tony at the register.",
+     "say": "Monday: a robber threatens Tony at the register.",
+     "hl": "robber"
     },
     {
-     "text": "Burglary, a glossary term, is theft from premises by someone who unlawfully enters or exits. Breaking out counts too.",
-     "say": "Burglary, a glossary term, is theft from premises by someone who unlawfully enters or exits. Breaking out counts too.",
-     "show": 2
+     "text": "The cash. Now!",
+     "say": "The cash. Now!",
+     "voice": "thief",
+     "speaker": "Robber",
+     "hl": "robber"
     },
     {
-     "text": "Safe burglary is taking property from a locked safe, with marks of forced entry on its outside, or taking the safe itself.",
-     "say": "Safe burglary is taking property from a locked safe, with marks of forced entry on its outside, or taking the safe itself.",
-     "show": 3
+     "text": "He takes it. Robbery: taking from a person by harm or a threat of harm, or by an obviously unlawful act they witness.",
+     "say": "He takes it. Robbery: taking from a person by harm or a threat of harm, or by an obviously unlawful act they witness.",
+     "hl": "robber"
     },
     {
-     "text": "Theft is any unlawful taking of property to the insured's loss. It's the broadest term.",
-     "say": "Theft is any unlawful taking of property to the insured's loss. It's the broadest term.",
-     "show": 4
+     "text": "Tuesday: a thief hides in the cooler until everyone leaves, then forces the back door to get out with a box of stock. Burglary: unlawful entry or exit. Breaking out counts.",
+     "say": "Tuesday: a thief hides in the cooler until everyone leaves, then forces the back door to get out with a box of stock. Burglary: unlawful entry or exit. Breaking out counts.",
+     "hl": "burglar"
+    },
+    {
+     "text": "Wednesday: the locked safe is pried open and emptied: safe burglary. So is carting off the whole safe. Opened by combination, with no marks? Not safe burglary.",
+     "say": "Wednesday: the locked safe is pried open and emptied: safe burglary. So is carting off the whole safe. Opened by combination, with no marks? Not safe burglary.",
+     "hl": "safe"
+    },
+    {
+     "text": "Theft is the umbrella word: any unlawful taking to the insured's loss.",
+     "say": "Theft is the umbrella word: any unlawful taking to the insured's loss.",
+     "hl": "umb"
     }
    ]
   },
   {
-   "type": "scenario",
-   "title": "A bad week at a Flint party store",
-   "src": "ISO CR 00 21 11 15, F. defs. 20, 21, 23; IRMI glossary 'burglary'; hook mn-mn_comm-11",
-   "icon": "store",
-   "story": "A man points a gun at the clerk and takes the cash. A thief hides in the cooler after closing, then breaks out the back door with stock. Someone opens the safe with the right combination and takes the contents, leaving no marks.",
-   "items": [
+   "type": "swipe",
+   "title": "Robbery, burglary or safe burglary?",
+   "src": "ISO CR 00 21 11 15, F. defs. 20, 21; IRMI glossary 'burglary'; cp_commercial-03; comm-032, comm-cpa-11, comm-cpa-19",
+   "options": [
+    "Robbery",
+    "Burglary",
+    "Safe burglary"
+   ],
+   "cards": [
     {
-     "label": "Gun pointed at the clerk",
-     "detail": "Robbery: a person was threatened"
+     "text": "A man shows a gun at the counter. The cashier hands over the cash.",
+     "answer": 0,
+     "why": "A person was threatened with harm, and the cash was taken from that person: robbery.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 30,
+       "y": 30,
+       "h": 42,
+       "opt": {
+        "who": "thief",
+        "pose": "point",
+        "mood": "angry"
+       }
+      },
+      {
+       "p": "cashregister",
+       "x": 56,
+       "y": 40,
+       "h": 15
+      },
+      {
+       "p": "person",
+       "x": 78,
+       "y": 30,
+       "h": 42,
+       "opt": {
+        "who": "person",
+        "pose": "stop",
+        "mood": "shocked",
+        "apron": true
+       },
+       "flip": true
+      }
+     ]
     },
     {
-     "label": "Hid inside, broke out the back door",
-     "detail": "Burglary: an unlawful exit counts"
+     "text": "A thief hides in the restroom until closing, then kicks open the back door to leave with stock.",
+     "answer": 1,
+     "why": "An unlawful exit counts. A thief who breaks OUT of the premises is still a burglar.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 44,
+       "y": 30,
+       "h": 42,
+       "opt": {
+        "who": "thief",
+        "pose": "run",
+        "mood": "smirk",
+        "hold": "parcel"
+       }
+      },
+      {
+       "p": "box",
+       "x": 70,
+       "y": 30,
+       "w": 15,
+       "hh": 34,
+       "fill": "brown"
+      },
+      {
+       "p": "circle",
+       "x": 75,
+       "y": 31,
+       "r": 1.2,
+       "fill": "yellow"
+      },
+      {
+       "p": "crash",
+       "x": 70,
+       "y": 11,
+       "h": 14,
+       "opt": {
+        "text": "KICK!"
+       },
+       "over": true
+      }
+     ]
     },
     {
-     "label": "Safe opened by combination, no marks",
-     "detail": "Not safe burglary: no marks of forced entry"
+     "text": "Pry marks on the outside of the locked safe door. The cash inside is gone.",
+     "answer": 2,
+     "why": "A locked safe with marks of forced entry on its outside: safe burglary. Opened by combination with no marks, it wouldn't be.",
+     "draw": [
+      {
+       "p": "safe",
+       "x": 44,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "open": true,
+        "empty": true
+       }
+      },
+      {
+       "p": "hammer",
+       "x": 72,
+       "y": 38,
+       "h": 16,
+       "rot": -25
+      }
+     ]
+    },
+    {
+     "text": "A thief grabs cash from the open register while the cashier watches. No threat.",
+     "answer": 0,
+     "why": "An obviously unlawful act the person witnesses is enough for robbery, even with no threat.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 34,
+       "y": 30,
+       "h": 42,
+       "opt": {
+        "who": "thief",
+        "pose": "run",
+        "mood": "smirk",
+        "hold": "money"
+       }
+      },
+      {
+       "p": "cashregister",
+       "x": 52,
+       "y": 38,
+       "h": 14,
+       "opt": {
+        "open": true
+       }
+      },
+      {
+       "p": "person",
+       "x": 70,
+       "y": 30,
+       "h": 42,
+       "opt": {
+        "who": "person",
+        "pose": "shrug",
+        "mood": "shocked",
+        "apron": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Thieves wheel the whole safe out of the office and into their van.",
+     "answer": 2,
+     "why": "Taking the safe itself from inside the premises is safe burglary too.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 22,
+       "y": 30,
+       "h": 42,
+       "opt": {
+        "who": "thief",
+        "pose": "walk",
+        "mood": "smirk"
+       }
+      },
+      {
+       "p": "safe",
+       "x": 44,
+       "y": 38,
+       "h": 20
+      },
+      {
+       "p": "van",
+       "x": 76,
+       "y": 38,
+       "h": 20,
+       "opt": {
+        "cargo": true
+       }
+      }
+     ]
+    },
+    {
+     "text": "Overnight, someone pries open the back door and carries out the sound system. Nobody is there.",
+     "answer": 1,
+     "why": "Theft from inside the premises by unlawful entry, with no one confronted: burglary.",
+     "draw": [
+      {
+       "p": "icon",
+       "name": "moon",
+       "x": 12,
+       "y": 10,
+       "h": 11,
+       "color": "yellow"
+      },
+      {
+       "p": "person",
+       "x": 34,
+       "y": 30,
+       "h": 42,
+       "opt": {
+        "who": "thief",
+        "pose": "run",
+        "mood": "smirk"
+       }
+      },
+      {
+       "p": "icon",
+       "name": "speaker",
+       "x": 52,
+       "y": 34,
+       "h": 16,
+       "color": "ink"
+      },
+      {
+       "p": "box",
+       "x": 72,
+       "y": 30,
+       "w": 15,
+       "hh": 34,
+       "fill": "brown"
+      },
+      {
+       "p": "circle",
+       "x": 77,
+       "y": 31,
+       "r": 1.2,
+       "fill": "yellow"
+      },
+      {
+       "p": "hammer",
+       "x": 89,
+       "y": 40,
+       "h": 12,
+       "rot": -25
+      }
+     ]
     }
    ],
-   "answer": "Robbery, burglary, and not a safe burglary. Every one of them is also a theft.",
    "beats": [
     {
-     "text": "Let's classify a bad week at a Flint party store. A man points a gun at the clerk and takes the cash. A thief hides in the cooler after closing, then breaks out the back door with stock.",
-     "say": "Let's classify a bad week at a Flint party store. A man points a gun at the clerk and takes the cash. A thief hides in the cooler after closing, then breaks out the back door with stock.",
-     "show": 0
+     "text": "Your turn: pick the most specific crime word for each card.",
+     "say": "Your turn: pick the most specific crime word for each card."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Robbery needs a person. Burglary, unlawful entry or exit. Safe burglary, a forced safe or the whole safe.",
+     "say": "Robbery needs a person. Burglary, unlawful entry or exit. Safe burglary, a forced safe or the whole safe."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Seven insuring agreements: money and securities are VIPs",
+   "src": "ISO CR 00 21 11 15, A.1-7; adapted from hook mn_comm-12; PSI outline lists the two fraud parts separately",
+   "draw": [
+    {
+     "p": "label",
+     "text": "1 Employee Theft",
+     "x": 24,
+     "y": 5,
+     "size": 4.3,
+     "bold": true,
+     "color": "purple"
     },
     {
-     "text": "And someone opens the safe with the right combination and takes the contents, leaving no marks. What is each one?",
-     "say": "And someone opens the safe with the right combination and takes the contents, leaving no marks. What is each one?",
-     "show": 0
+     "id": "emp",
+     "p": "person",
+     "x": 24,
+     "y": 22,
+     "h": 21,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "hold": "money",
+      "mood": "smirk",
+      "apron": true
+     }
     },
     {
-     "text": "The gun at the clerk is robbery: a person was threatened. The thief who broke out is a burglar: an unlawful exit counts.",
-     "say": "The gun at the clerk is robbery: a person was threatened. The thief who broke out is a burglar: an unlawful exit counts.",
+     "p": "label",
+     "text": "Money, securities and other property",
+     "x": 24,
+     "y": 38,
+     "size": 3.6,
+     "w": 40
+    },
+    {
+     "p": "divider",
+     "x": 50,
+     "y": 23,
+     "y0": 2,
+     "y1": 44,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Inside the premises",
+     "x": 80,
+     "y": 5,
+     "size": 4.3,
+     "bold": true,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "id": "cash",
+     "p": "moneybag",
+     "x": 60,
+     "y": 16,
+     "h": 11,
+     "at": 1,
+     "cue": "money"
+    },
+    {
+     "p": "label",
+     "text": "3 Money and securities: theft, disappearance or destruction",
+     "x": 89,
+     "y": 16,
+     "size": 3.5,
+     "w": 36,
+     "color": "green",
+     "at": 1,
+     "cue": "theft"
+    },
+    {
+     "id": "stock",
+     "p": "parcel",
+     "x": 60,
+     "y": 34,
+     "h": 9,
+     "at": 2,
+     "cue": "stock"
+    },
+    {
+     "p": "label",
+     "text": "4 Other property: robbery or safe burglary only",
+     "x": 89,
+     "y": 34,
+     "size": 3.5,
+     "w": 36,
+     "color": "red",
+     "at": 2,
+     "cue": "robbery"
+    },
+    {
+     "p": "label",
+     "text": "Tuesday's burglary: not covered",
+     "x": 80,
+     "y": 42,
+     "size": 3.4,
+     "w": 50,
+     "color": "red",
+     "at": 2,
+     "cue": "plain"
+    },
+    {
+     "p": "divider",
+     "x": 110,
+     "y": 23,
+     "y0": 2,
+     "y1": 44,
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "5 Outside the premises",
+     "x": 135,
+     "y": 5,
+     "size": 4.3,
+     "bold": true,
+     "color": "blue",
+     "at": 3
+    },
+    {
+     "id": "msgr",
+     "p": "person",
+     "x": 123,
+     "y": 21,
+     "h": 20,
+     "opt": {
+      "who": "person",
+      "pose": "run",
+      "hold": "moneybag",
+      "apron": true
+     },
+     "at": 3,
+     "cue": "messenger"
+    },
+    {
+     "id": "bank",
+     "p": "bank",
+     "x": 147,
+     "y": 21,
+     "h": 15,
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "Money and securities: the same. Other property: robbery only",
+     "x": 135,
+     "y": 38,
+     "size": 3.5,
+     "w": 46,
+     "at": 3,
+     "cue": "robbery"
+    },
+    {
+     "id": "n1",
+     "p": "label",
+     "text": "2 Forgery or Alteration",
+     "x": 28,
+     "y": 52,
+     "w": 40,
+     "at": 4,
+     "cue": "Forgery",
+     "box": true,
+     "bold": true,
+     "size": 4,
+     "color": "purple"
+    },
+    {
+     "id": "n2",
+     "p": "label",
+     "text": "6 Computer and Funds Transfer Fraud",
+     "x": 80,
+     "y": 52,
+     "w": 44,
+     "at": 4,
+     "cue": "Computer",
+     "box": true,
+     "bold": true,
+     "size": 4,
+     "color": "purple"
+    },
+    {
+     "id": "n3",
+     "p": "label",
+     "text": "7 Money Orders and Counterfeit Money",
+     "x": 132,
+     "y": 52,
+     "w": 44,
+     "at": 4,
+     "cue": "Orders",
+     "box": true,
+     "bold": true,
+     "size": 4,
+     "color": "purple"
+    },
+    {
+     "p": "label",
+     "text": "PSI outline: computer fraud and funds transfer fraud listed apart",
+     "x": 80,
+     "y": 62.5,
+     "size": 3.4,
+     "w": 150,
+     "color": "gray",
+     "at": 4
+    }
+   ],
+   "beats": [
+    {
+     "text": "Tony's crime policy, the 2015 loss sustained form, has seven insuring agreements. Employee Theft: money, securities and other property his employees steal.",
+     "say": "Tony's crime policy, the twenty fifteen loss sustained form, has seven insuring agreements. Employee Theft: money, securities and other property his employees steal.",
+     "hl": "emp"
+    },
+    {
+     "text": "Back to Tony's bad week. Monday's stolen cash is money, a VIP: inside, money and securities are covered for theft, disappearance or destruction.",
+     "say": "Back to Tony's bad week. Monday's stolen cash is money, a V I P: inside, money and securities are covered for theft, disappearance or destruction.",
+     "hl": "cash"
+    },
+    {
+     "text": "Tuesday's stock is other property: inside, only robbery of a custodian or safe burglary. So his crime form doesn't cover Tuesday's plain burglary.",
+     "say": "Tuesday's stock is other property: inside, only robbery of a custodian or safe burglary. So his crime form doesn't cover Tuesday's plain burglary.",
+     "hl": "stock"
+    },
+    {
+     "text": "Outside, with a messenger or armored car company: money and securities, the same. Other property, robbery only.",
+     "say": "Outside, with a messenger or armored car company: money and securities, the same. Other property, robbery only.",
+     "hl": "msgr"
+    },
+    {
+     "text": "Three more: Forgery or Alteration, Computer and Funds Transfer Fraud, and Money Orders and Counterfeit Money.",
+     "say": "Three more: Forgery or Alteration, Computer and Funds Transfer Fraud, and Money Orders and Counterfeit Money.",
+     "hl": [
+      "n1",
+      "n2",
+      "n3"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Two crime triggers",
+   "src": "ISO CR 00 21 11 15, A., E.1.g; discovery: CR 00 22 05 06, E.1.j (CR 00 20 11 15 not seen); mn_comm-13; cp_commercial-04",
+   "kind": "Crime trigger",
+   "term": "Loss sustained vs. discovery",
+   "plain": "Loss sustained: the loss must happen during the policy period. Discovery: it can happen any time, if it's found during the policy period.",
+   "example": "The bakery next door cancels its loss sustained policy and buys no other. 9 months later it finds a theft from the policy period: inside the 1-year window.",
+   "exam": "Loss sustained: 1 year after cancellation to discover. Discovery: 60 days. Don't swap the tails.",
+   "draw": [
+    {
+     "id": "c1",
+     "p": "calendar",
+     "x": 13,
+     "y": 12,
+     "h": 14,
+     "opt": {
+      "n": "1 yr"
+     },
+     "at": 1,
+     "cue": "year"
+    },
+    {
+     "p": "label",
+     "text": "to find it",
+     "x": 13,
+     "y": 21.5,
+     "size": 3.4,
+     "at": 1,
+     "cue": "year"
+    },
+    {
+     "p": "label",
+     "text": "Loss sustained: did it HAPPEN during the policy?",
+     "x": 50,
+     "y": 12,
+     "w": 52,
+     "size": 3.9,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "id": "c2",
+     "p": "calendar",
+     "x": 13,
+     "y": 33,
+     "h": 14,
+     "opt": {
+      "n": "60"
+     },
+     "at": 2,
+     "cue": "60"
+    },
+    {
+     "p": "label",
+     "text": "days to find it",
+     "x": 13,
+     "y": 42.5,
+     "size": 3.4,
+     "at": 2,
+     "cue": "60"
+    },
+    {
+     "p": "label",
+     "text": "Discovery: did I FIND it during the policy?",
+     "x": 50,
+     "y": 33,
+     "w": 52,
+     "size": 3.9,
+     "bold": true,
+     "color": "orange"
+    },
+    {
+     "id": "bakery",
+     "p": "store",
+     "x": 17,
+     "y": 54,
+     "h": 15,
+     "opt": {
+      "name": "BAKERY",
+      "awning": "blue"
+     },
+     "at": 1,
+     "cue": "bakery"
+    },
+    {
+     "id": "mag",
+     "p": "magnifier",
+     "x": 38,
+     "y": 54,
+     "h": 11,
+     "opt": {
+      "inside": "money"
+     },
+     "at": 1,
+     "cue": "finds"
+    },
+    {
+     "p": "label",
+     "text": "Loss sustained: found 9 months after canceling",
+     "x": 63,
+     "y": 54,
+     "w": 21,
+     "size": 3.6,
+     "color": "blue",
+     "at": 1,
+     "cue": "finds"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Two crime triggers. Loss sustained: did it happen during the policy? Discovery: did I find it during the policy?",
+     "say": "Two crime triggers. Loss sustained: did it happen during the policy? Discovery: did I find it during the policy?",
      "show": 2
     },
     {
-     "text": "The safe opened with no marks isn't a safe burglary. Still, every one of these is a theft.",
-     "say": "The safe opened with no marks isn't a safe burglary. Still, every one of these is a theft.",
+     "text": "The bakery next door cancels its loss sustained policy, buys no other, and finds a theft from the policy period nine months later. Still inside one year.",
+     "say": "The bakery next door cancels its loss sustained policy, buys no other, and finds a theft from the policy period nine months later. Still inside one year.",
      "show": 3,
-     "answer": true
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "Crime insuring agreements: money vs property",
-   "src": "ISO CR 00 21 11 15, A.1-7; the PSI outline lists computer fraud and funds transfer fraud separately (older editions)",
-   "columns": [
-    "Agreement",
-    "Money and securities",
-    "Other property"
-   ],
-   "items": [
-    [
-     "Employee Theft",
-     "Theft by employees",
-     "Theft by employees"
-    ],
-    [
-     "Inside the Premises",
-     "Theft, disappearance, destruction",
-     "Robbery or safe burglary only"
-    ],
-    [
-     "Outside the Premises",
-     "Theft, disappearance, destruction",
-     "Robbery only"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "The 2015 crime form has seven insuring agreements. Employee Theft covers theft by employees of money, securities or other property.",
-     "say": "The twenty fifteen crime form has seven insuring agreements. Employee Theft covers theft by employees of money, securities or other property.",
-     "show": 1
+     "hl": "c1"
     },
     {
-     "text": "Inside the premises, money and securities are covered for theft, disappearance or destruction. Other property, like merchandise, only for robbery of a custodian or safe burglary.",
-     "say": "Inside the premises, money and securities are covered for theft, disappearance or destruction. Other property, like merchandise, only for robbery of a custodian or safe burglary.",
-     "show": 2
-    },
-    {
-     "text": "Outside the premises, with a messenger or armored car company, money is covered the same way. Other property, only for robbery.",
-     "say": "Outside the premises, with a messenger or armored car company, money is covered the same way. Other property, only for robbery.",
-     "show": 3
-    },
-    {
-     "text": "Three more: Forgery or Alteration, Computer and Funds Transfer Fraud, and Money Orders and Counterfeit Money. The PSI outline lists the two fraud coverages separately.",
-     "say": "Three more: Forgery or Alteration, Computer and Funds Transfer Fraud, and Money Orders and Counterfeit Money. The P S I outline lists the two fraud coverages separately.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Loss sustained vs discovery",
-   "src": "ISO CR 00 21 11 15, A., E.1.g; discovery: CR 00 22 05 06, E.1.j and Rough Notes PF&M 251.4-2 (CR 00 20 11 15 text not seen)",
-   "columns": [
-    {
-     "name": "Loss sustained form",
-     "icon": "calendar",
-     "points": [
-      "Loss must occur during the policy period",
-      "Found during the policy or the extended period",
-      "Up to 1 year after cancellation to discover"
-     ]
-    },
-    {
-     "name": "Discovery form",
-     "icon": "search",
-     "points": [
-      "Loss may have occurred at any time",
-      "Must be discovered during the policy period",
-      "Up to 60 days after cancellation to discover"
-     ]
-    }
-   ],
-   "tell": "Did it happen on my watch? Loss sustained. Did I find it on my watch? Discovery.",
-   "beats": [
-    {
-     "text": "Crime forms come with two triggers. The loss sustained form covers loss that occurs during the policy period. After cancellation, you get up to 1 year to discover it.",
-     "say": "Crime forms come with two triggers. The loss sustained form covers loss that occurs during the policy period. After cancellation, you get up to one year to discover it.",
-     "show": 1
-    },
-    {
-     "text": "The discovery form covers loss that occurred at any time, as long as you discover it during the policy period, or within 60 days after cancellation.",
-     "say": "The discovery form covers loss that occurred at any time, as long as you discover it during the policy period, or within sixty days after cancellation.",
-     "show": 2
-    },
-    {
-     "text": "Ask: did it happen on my watch, or did I find it on my watch? And don't swap the tails: 1 year for loss sustained, 60 days for discovery.",
-     "say": "Ask: did it happen on my watch, or did I find it on my watch? And don't swap the tails: one year for loss sustained, sixty days for discovery.",
-     "show": 2,
-     "tell": true
+     "text": "Discovery: a loss from any time, and 60 days after cancellation to find it. Don't swap the tails.",
+     "say": "Discovery: a loss from any time, and sixty days after cancellation to find it. Don't swap the tails.",
+     "show": 4,
+     "hl": "c2"
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "Mid-term, a business with a discovery-form crime policy discovers a theft from two years before the policy began. It had no earlier crime coverage, and no retroactive date applies. Is it covered?",
+   "q": "The dry cleaner on Tony's block buys its first crime policy, a discovery form. Mid-term, it finds a theft from two years before the policy began. No retroactive date applies. Is it covered?",
    "choices": [
-    "Yes, because it was discovered during the policy period",
-    "No, because it occurred before the policy began",
-    "Only if it was discovered within 60 days after the theft"
+    "Yes: it was discovered during the policy period",
+    "No: it happened before the policy began",
+    "Only if found within 60 days after the theft"
    ],
    "answer": 0,
-   "why": "The discovery form covers loss sustained at any time, as long as it is discovered during the policy period or the 60-day extended period.",
+   "why": "The discovery form covers loss sustained at any time, as long as it's discovered during the policy period or the 60-day extended period.",
+   "draw": [
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 14,
+     "y": 14,
+     "h": 15,
+     "opt": {
+      "n": "2 yrs"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Theft: 2 yrs before the policy",
+     "x": 42,
+     "y": 13,
+     "size": 3.6,
+     "w": 28
+    },
+    {
+     "p": "arrow",
+     "from": "cal",
+     "to": "mag",
+     "bend": 0.2
+    },
+    {
+     "id": "mag",
+     "p": "magnifier",
+     "x": 28,
+     "y": 44,
+     "h": 15,
+     "opt": {
+      "inside": "money"
+     }
+    },
+    {
+     "id": "shop",
+     "p": "store",
+     "x": 62,
+     "y": 44,
+     "h": 24,
+     "opt": {
+      "name": "CLEANERS",
+      "awning": "teal"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Found mid-term",
+     "x": 28,
+     "y": 58,
+     "size": 4
+    }
+   ],
    "beats": [
     {
-     "text": "Try this. A business with a discovery-form crime policy discovers, mid-term, a theft from two years before the policy began. No retroactive date applies. Is it covered? Pick an answer.",
-     "say": "Try this. A business with a discovery-form crime policy discovers, mid-term, a theft from two years before the policy began. No retroactive date applies. Is it covered? Pick an answer."
+     "text": "The dry cleaner buys its first crime policy, a discovery form. Mid-term, it finds a theft from two years before the policy began. Covered?",
+     "say": "The dry cleaner buys its first crime policy, a discovery form. Mid-term, it finds a theft from two years before the policy began. Covered?"
     }
    ],
    "reveal": [
     {
-     "text": "Yes. The discovery form doesn't care when the loss happened, only that it was discovered during the policy period.",
-     "say": "Yes. The discovery form doesn't care when the loss happened, only that it was discovered during the policy period."
+     "text": "Yes. The discovery form doesn't care when the loss happened, only that it's found during the policy period, or within 60 days after cancellation.",
+     "say": "Yes. The discovery form doesn't care when the loss happened, only that it's found during the policy period, or within sixty days after cancellation."
     }
-   ]
+   ],
+   "src": "Discovery: CR 00 22 05 06, E.1.j (CR 00 20 11 15 text not seen); drill in confusion pair cp_commercial-04"
   },
   {
-   "type": "bullets",
-   "title": "Nationwide Marine Definition",
-   "src": "IMUA 'Nationwide Marine Definition'; MCL 500.614",
-   "items": [
+   "type": "explore",
+   "title": "What can inland marine insure?",
+   "src": "IMUA 'Nationwide Marine Definition'; hook mn_comm-14; MCL 500.614 (Michigan's marine definition); comm-036",
+   "draw": [
     {
-     "label": "Imports and exports",
-     "icon": "ship"
+     "id": "globe",
+     "p": "globe",
+     "x": 22,
+     "y": 22,
+     "h": 24
     },
     {
+     "id": "bridge",
+     "p": "bridge",
+     "x": 84,
+     "y": 20,
+     "h": 24
+    },
+    {
+     "id": "bldg",
+     "p": "office",
+     "x": 142,
+     "y": 34,
+     "h": 36
+    },
+    {
+     "p": "xout",
+     "on": "bldg"
+    },
+    {
+     "id": "ring",
+     "p": "diamondring",
+     "x": 22,
+     "y": 52,
+     "h": 22
+    },
+    {
+     "id": "semi",
+     "p": "semi",
+     "x": 72,
+     "y": 54,
+     "h": 18,
+     "opt": {
+      "name": "FLOUR"
+     }
+    },
+    {
+     "id": "steth",
+     "p": "stethoscope",
+     "x": 114,
+     "y": 52,
+     "h": 22
+    },
+    {
+     "p": "label",
+     "text": "Not marine",
+     "x": 142,
+     "y": 57,
+     "size": 4.4,
+     "bold": true,
+     "color": "red",
+     "at": 2
+    }
+   ],
+   "spots": [
+    {
+     "on": "globe",
+     "label": "Imports and exports: two classes",
+     "text": "Two classes in one spot: imports and exports, like the loads that cross the Ambassador Bridge."
+    },
+    {
+     "on": "semi",
      "label": "Domestic shipments",
-     "icon": "truck"
+     "text": "Domestic shipments, like a truckload of flour rolling up I-75."
     },
     {
-     "label": "Instrumentalities of transportation",
-     "detail": "Bridges, tunnels, piers, pipelines, power lines, towers",
-     "icon": "waves"
+     "on": "bridge",
+     "label": "Bridges and instrumentalities",
+     "text": "Bridges, tunnels and other instrumentalities of transportation and communication: piers, pipelines, power and phone lines, towers. The Mackinac Bridge counts."
     },
     {
-     "label": "Personal and commercial property floaters",
-     "icon": "package"
+     "on": "ring",
+     "label": "Personal property floaters",
+     "text": "Personal property floater risks, like floaters for personal jewelry, furs, fine arts, stamps and coins, or musical instruments."
     },
     {
-     "label": "Not buildings or their fixed contents",
-     "icon": "ban"
+     "on": "steth",
+     "label": "Commercial property floaters",
+     "text": "Commercial property floater risks, like floaters for physicians' instruments, theatrical property, film or salesmen's samples, or installation risks."
+    },
+    {
+     "on": "bldg",
+     "label": "Not marine: buildings",
+     "text": "Buildings and their fixed contents are not marine risks. In Michigan, the marine insurance statute excludes buildings and their contents too."
     }
    ],
    "beats": [
     {
-     "text": "On to inland marine. The Nationwide Marine Definition lists six classes. The first three are imports, exports, and domestic shipments.",
-     "say": "On to inland marine. The Nationwide Marine Definition lists six classes. The first three are imports, exports, and domestic shipments.",
-     "show": 2
+     "text": "Inland marine covers goods on the move, bridges and pipelines, and floaters on things like jewelry. The Nationwide Marine Definition lists six classes.",
+     "say": "Inland marine covers goods on the move, bridges and pipelines, and floaters on things like jewelry. The Nationwide Marine Definition lists six classes."
     },
     {
-     "text": "Next, bridges, tunnels and other instrumentalities of transportation and communication, like piers, pipelines and towers. Then personal and commercial property floater risks.",
-     "say": "Next, bridges, tunnels and other instrumentalities of transportation and communication, like piers, pipelines and towers. Then personal and commercial property floater risks.",
-     "show": 4
-    },
-    {
-     "text": "Buildings and their fixed contents are not marine risks. Michigan's own statutory definition of marine insurance excludes buildings and their contents too.",
-     "say": "Buildings and their fixed contents are not marine risks. Michigan's own statutory definition of marine insurance excludes buildings and their contents too.",
-     "show": 5
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "Inland marine forms: who needs which",
-   "src": "IRMI glossary; Verisk Commercial Inland Marine and transportation program sheets (2022); ISO IH 00 68 12 13 (FC&S 2018)",
-   "columns": [
-    "Form",
-    "Covers"
-   ],
-   "items": [
-    [
-     "Bailees customers",
-     "Others' goods left for cleaning or repair"
-    ],
-    [
-     "Contractors equipment",
-     "A contractor's own machinery and tools"
-    ],
-    [
-     "Installation floater",
-     "Equipment a contractor is installing"
-    ],
-    [
-     "Jewelers block",
-     "A jeweler's stock and customers' jewelry"
-    ],
-    [
-     "Motor truck cargo, carriers",
-     "A trucker's liability for others' cargo"
-    ],
-    [
-     "Commercial articles",
-     "Cameras and instruments used commercially"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "Some inland marine forms. Bailees customers covers others' goods left for cleaning or repair, like at a dry cleaner. Contractors equipment covers a contractor's own machinery and tools.",
-     "say": "Some inland marine forms. Bailees customers covers others' goods left for cleaning or repair, like at a dry cleaner. Contractors equipment covers a contractor's own machinery and tools.",
-     "show": 2
-    },
-    {
-     "text": "An installation floater covers equipment a contractor is installing. Don't swap them.",
-     "say": "An installation floater covers equipment a contractor is installing. Don't swap them.",
-     "show": 3
-    },
-    {
-     "text": "Jewelers block covers a jeweler's stock. Motor truck cargo carriers coverage is a trucker's liability for others' cargo. Commercial articles covers cameras and musical instruments used commercially.",
-     "say": "Jewelers block covers a jeweler's stock. Motor truck cargo carriers coverage is a trucker's liability for others' cargo. Commercial articles covers cameras and musical instruments used commercially.",
-     "show": 6
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "An electrical contractor is installing new lighting equipment it bought for a customer's building. Which inland marine coverage is designed for that equipment while it's being installed?",
-   "choices": [
-    "Contractors equipment floater",
-    "Installation floater",
-    "Bailees customers coverage"
-   ],
-   "answer": 1,
-   "why": "An installation floater covers property, usually equipment, being installed by a contractor. Contractors equipment covers the contractor's own machinery and tools.",
-   "beats": [
-    {
-     "text": "Quick check. An electrical contractor is installing new lighting equipment it bought for a customer's building. Which coverage is designed for that equipment during installation? Pick an answer.",
-     "say": "Quick check. An electrical contractor is installing new lighting equipment it bought for a customer's building. Which coverage is designed for that equipment during installation? Pick an answer."
+     "text": "Five spots hold them; the sixth shows what isn't one. Tap each spot.",
+     "say": "Five spots hold them; the sixth shows what isn't one. Tap each spot."
     }
    ],
    "reveal": [
     {
-     "text": "The installation floater. Contractors equipment would cover the contractor's own tools, not what it's installing.",
-     "say": "The installation floater. Contractors equipment would cover the contractor's own tools, not what it's installing."
+     "text": "Six classes, from shipments to floaters. Buildings and their fixed contents aren't marine risks.",
+     "say": "Six classes, from shipments to floaters. Buildings and their fixed contents aren't marine risks."
+    },
+    {
+     "text": "In Michigan, the marine insurance statute excludes them too.",
+     "say": "In Michigan, the marine insurance statute excludes them too."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Equipment breakdown",
-   "src": "EB 00 20 01 13 and EB 99 59 as described by FC&S (2016); a newer edition may exist",
-   "items": [
+   "type": "sketch",
+   "title": "An inland marine form for everyone on Tony's block",
+   "src": "General descriptions: IRMI glossary; Verisk IM sheets (2022); ISO IH 00 68 12 13 (FC&S 2018); comm-cpb-01, -03, -15",
+   "draw": [
     {
-     "label": "Formerly boiler and machinery",
-     "icon": "factory"
+     "id": "clean",
+     "p": "store",
+     "x": 24,
+     "y": 14,
+     "h": 19,
+     "opt": {
+      "name": "CLEANERS",
+      "awning": "teal"
+     },
+     "cue": "cleaner"
     },
     {
-     "label": "A breakdown of covered equipment",
-     "detail": "Boilers, machinery, electrical and communication equipment",
-     "icon": "cpu"
+     "p": "icon",
+     "name": "shirt",
+     "x": 41,
+     "y": 19,
+     "h": 8,
+     "color": "teal",
+     "cue": "clothes"
     },
     {
-     "label": "Replacement cost unless the ACV endorsement",
-     "icon": "wrench"
+     "p": "label",
+     "text": "Bailees customers",
+     "x": 24,
+     "y": 28.5,
+     "size": 3.9,
+     "bold": true,
+     "color": "blue",
+     "cue": "bailees"
     },
     {
-     "label": "Coverage can be suspended",
-     "detail": "On equipment found in a dangerous condition, by written notice",
-     "icon": "triangle-alert"
+     "id": "jewel",
+     "p": "store",
+     "x": 80,
+     "y": 14,
+     "h": 19,
+     "opt": {
+      "name": "JEWELER",
+      "awning": "purple"
+     },
+     "cue": "jeweler"
+    },
+    {
+     "p": "diamondring",
+     "x": 97,
+     "y": 19,
+     "h": 8,
+     "cue": "jewelry"
+    },
+    {
+     "p": "label",
+     "text": "Jewelers block",
+     "x": 80,
+     "y": 28.5,
+     "size": 3.9,
+     "bold": true,
+     "color": "blue",
+     "cue": "block"
+    },
+    {
+     "id": "guitar",
+     "p": "guitar",
+     "x": 128,
+     "y": 15,
+     "h": 18,
+     "at": 1,
+     "cue": "band"
+    },
+    {
+     "id": "cam",
+     "p": "camera",
+     "x": 145,
+     "y": 18,
+     "h": 9,
+     "at": 1,
+     "cue": "cameras"
+    },
+    {
+     "p": "label",
+     "text": "Commercial articles",
+     "x": 136,
+     "y": 30,
+     "size": 3.9,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "articles"
+    },
+    {
+     "id": "truck",
+     "p": "semi",
+     "x": 26,
+     "y": 46,
+     "h": 12,
+     "opt": {
+      "name": "FREIGHT"
+     },
+     "at": 1,
+     "cue": "trucker"
+    },
+    {
+     "p": "label",
+     "text": "Motor truck cargo carriers",
+     "x": 26,
+     "y": 58,
+     "size": 3.9,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "cargo"
+    },
+    {
+     "id": "elec",
+     "p": "person",
+     "x": 80,
+     "y": 44,
+     "h": 19,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "hold": "toolbox"
+     },
+     "at": 2,
+     "cue": "electrician"
+    },
+    {
+     "p": "label",
+     "text": "Contractors equipment: his own tools",
+     "x": 80,
+     "y": 58,
+     "size": 3.7,
+     "w": 40,
+     "bold": true,
+     "color": "blue",
+     "at": 2,
+     "cue": "tools"
+    },
+    {
+     "id": "inst",
+     "p": "icon",
+     "name": "cctv",
+     "x": 136,
+     "y": 44,
+     "h": 13,
+     "color": "orange",
+     "at": 2,
+     "cue": "installing"
+    },
+    {
+     "p": "label",
+     "text": "Installation floater: what he installs",
+     "x": 136,
+     "y": 58,
+     "size": 3.7,
+     "w": 40,
+     "bold": true,
+     "color": "blue",
+     "at": 2,
+     "cue": "installing"
     }
    ],
    "beats": [
     {
-     "text": "Equipment breakdown, formerly boiler and machinery, covers a breakdown of covered equipment: boilers, machinery, and electrical and communication equipment.",
-     "say": "Equipment breakdown, formerly boiler and machinery, covers a breakdown of covered equipment: boilers, machinery, and electrical and communication equipment.",
-     "show": 2
+     "text": "Tony's whole block needs inland marine. The dry cleaner is a bailee, holding customers' clothes: bailees customers. The jeweler: jewelers block, for its stock and customers' jewelry.",
+     "say": "Tony's whole block needs inland marine. The dry cleaner is a bailee, holding customers' clothes: bailees customers. The jeweler: jewelers block, for its stock and customers' jewelry."
     },
     {
-     "text": "It values property at replacement cost by default. Attaching the Actual Cash Value endorsement changes that to actual cash value.",
-     "say": "It values property at replacement cost by default. Attaching the Actual Cash Value endorsement changes that to actual cash value.",
-     "show": 3
+     "text": "The Friday band's instruments and the menu photographer's cameras: commercial articles. The trucker hauling other businesses' flour: motor truck cargo carriers, for its liability for that cargo.",
+     "say": "The Friday band's instruments and the menu photographer's cameras: commercial articles. The trucker hauling other businesses' flour: motor truck cargo carriers, for its liability for that cargo."
     },
     {
-     "text": "And the insurer can immediately suspend coverage on equipment found in a dangerous condition, by written notice.",
-     "say": "And the insurer can immediately suspend coverage on equipment found in a dangerous condition, by written notice.",
-     "show": 4
+     "text": "And the electrician? A contractors equipment floater covers his own tools and machinery; an installation floater, the equipment he's installing. Don't swap them.",
+     "say": "And the electrician? A contractors equipment floater covers his own tools and machinery; an installation floater, the equipment he's installing. Don't swap them.",
+     "hl": [
+      "elec",
+      "inst"
+     ]
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Farm coverages A through J",
-   "src": "ISO FP 00 10 09 94 (letters A-G; 2016 forms keep them); FL 00 20 per FC&S (2013); FP 00 13 04 16 (FC&S 2017)",
-   "columns": [
+   "type": "choice",
+   "title": "Dana's call: the electrician's new lights",
+   "src": "IRMI glossary 'installation floater', 'bailee coverage'; ISO IH 00 68 12 13, A.1 (FC&S 2018); question comm-cpb-08",
+   "ask": "Which coverage should Dana sell him?",
+   "draw": [
     {
-     "name": "Farmhouse: A to D",
-     "icon": "house",
-     "points": [
-      "A: Dwellings",
-      "B: Other private structures",
-      "C: Household personal property",
-      "D: Loss of use"
+     "id": "shop",
+     "p": "restaurant",
+     "x": 26,
+     "y": 27,
+     "h": 34,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "elec",
+     "p": "person",
+     "x": 72,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "hold": "toolbox"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "What covers the lights I'm putting in?",
+     "x": 66,
+     "y": 6,
+     "w": 36,
+     "to": "elec"
+    },
+    {
+     "id": "lights",
+     "p": "icon",
+     "name": "lamp-ceiling",
+     "x": 103,
+     "y": 33,
+     "h": 16,
+     "color": "orange"
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 138,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "think"
+     },
+     "flip": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "I bought new lights for Tony's dining room, and I'm putting them in. What covers them?",
+     "say": "I bought new lights for Tony's dining room, and I'm putting them in. What covers them?",
+     "voice": "worker",
+     "speaker": "Electrician"
+    },
+    {
+     "text": "Which coverage should Dana sell him?",
+     "say": "Which coverage should Dana sell him?"
+    }
+   ],
+   "options": [
+    {
+     "label": "A contractors equipment floater",
+     "ok": false,
+     "fail": "A contractors equipment floater covers the contractor's own machinery and tools, not the equipment he's installing.",
+     "beats": [
+      {
+       "text": "Crash! The lights hit the floor. His floater covers his own tools, like his drill, not what he's installing.",
+       "say": "Crash! The lights hit the floor. His floater covers his own tools, like his drill, not what he's installing."
+      }
+     ],
+     "draw": [
+      {
+       "id": "elec",
+       "p": "person",
+       "x": 20,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "id": "drill",
+       "p": "icon",
+       "name": "drill",
+       "x": 46,
+       "y": 26,
+       "h": 13
+      },
+      {
+       "id": "tb",
+       "p": "toolbox",
+       "x": 46,
+       "y": 42,
+       "h": 9,
+       "opt": {
+        "open": true
+       }
+      },
+      {
+       "p": "label",
+       "text": "Covered: his own tools",
+       "x": 46,
+       "y": 53,
+       "size": 4.2,
+       "color": "green"
+      },
+      {
+       "p": "line",
+       "from": [
+        70,
+        53
+       ],
+       "to": [
+        106,
+        53
+       ]
+      },
+      {
+       "id": "lamp",
+       "p": "icon",
+       "name": "lamp-ceiling",
+       "x": 88,
+       "y": 47,
+       "h": 13,
+       "color": "orange",
+       "rot": 100,
+       "cue": "floor",
+       "over": true
+      },
+      {
+       "p": "crash",
+       "x": 88,
+       "y": 34,
+       "h": 14,
+       "opt": {
+        "text": "CRASH!"
+       },
+       "cue": "Crash",
+       "sfx": "crash",
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "The lights he's installing: not covered",
+       "x": 130,
+       "y": 44,
+       "size": 4.2,
+       "w": 38,
+       "color": "red",
+       "cue": "installing"
+      }
      ]
     },
     {
-     "name": "Farm property: E to G",
-     "icon": "tractor",
-     "points": [
-      "E: Scheduled farm personal property",
-      "F: Unscheduled farm personal property",
-      "G: Other farm structures, like barns"
+     "label": "Bailees customers coverage",
+     "ok": false,
+     "fail": "Bailees customers covers customers' goods left with you for cleaning, repair or storage. Nobody left these lights with him.",
+     "beats": [
+      {
+       "text": "That's for customers' goods left for cleaning or repair, like at a dry cleaner. He bought these lights.",
+       "say": "That's for customers' goods left for cleaning or repair, like at a dry cleaner. He bought these lights."
+      }
+     ],
+     "draw": [
+      {
+       "id": "cl",
+       "p": "store",
+       "x": 24,
+       "y": 28,
+       "h": 30,
+       "opt": {
+        "name": "CLEANERS",
+        "awning": "teal"
+       }
+      },
+      {
+       "p": "icon",
+       "name": "shirt",
+       "x": 53,
+       "y": 40,
+       "h": 12,
+       "color": "teal"
+      },
+      {
+       "id": "elec",
+       "p": "person",
+       "x": 86,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "shrug",
+        "mood": "worried"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "I don't do laundry!",
+       "x": 60,
+       "y": 8,
+       "w": 26,
+       "to": "elec"
+      },
+      {
+       "p": "label",
+       "text": "For customers' goods left for cleaning or repair",
+       "x": 126,
+       "y": 44,
+       "size": 4,
+       "w": 36,
+       "color": "red"
+      }
      ]
     },
     {
-     "name": "Farm liability: H to J",
-     "icon": "scale",
-     "points": [
-      "H: Bodily injury and property damage",
-      "I: Personal and advertising injury",
-      "J: Medical payments"
+     "label": "An installation floater",
+     "ok": true,
+     "win": "An installation floater covers property, usually equipment, that a contractor is installing.",
+     "beats": [
+      {
+       "text": "An installation floater. It's built for equipment you're installing, like these lights.",
+       "say": "An installation floater. It's built for equipment you're installing, like these lights.",
+       "voice": "dana"
+      }
+     ],
+     "draw": [
+      {
+       "id": "elec",
+       "p": "person",
+       "x": 24,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "icon",
+       "name": "lamp-ceiling",
+       "x": 54,
+       "y": 24,
+       "h": 20,
+       "color": "orange"
+      },
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 86,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy",
+        "hold": "policy"
+       },
+       "flip": true
+      },
+      {
+       "p": "label",
+       "text": "Installation floater: equipment being installed",
+       "x": 130,
+       "y": 30,
+       "size": 4.2,
+       "w": 38,
+       "color": "green"
+      }
      ]
     }
    ],
-   "tell": "A to D are lettered like homeowners. H, I and J mirror CGL Coverages A, B and C.",
+   "reveal": [
+    {
+     "text": "His own tools: contractors equipment. What he's installing: an installation floater.",
+     "say": "His own tools: contractors equipment. What he's installing: an installation floater."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Equipment breakdown, once boiler and machinery",
+   "src": "EB 00 20 01 13 and EB 99 59 per FC&S (2016), newer edition may exist; RC defined per IRMI glossary; comm-040",
+   "kind": "Coverage",
+   "term": "Equipment breakdown",
+   "plain": "Pays when a business's boilers, machinery, or electrical and communication equipment break down. Its old name: boiler and machinery.",
+   "example": "If Tony's boiler breaks down, and his policy has no ACV endorsement, the form values the loss at replacement cost: like kind and quality, no deduction for depreciation.",
+   "exam": "Replacement cost, unless the Actual Cash Value endorsement is attached. Coverage on dangerous equipment can be suspended at once by written notice.",
+   "draw": [
+    {
+     "id": "boiler",
+     "p": "waterheater",
+     "x": 16,
+     "y": 26,
+     "h": 30
+    },
+    {
+     "p": "label",
+     "text": "Boiler",
+     "x": 16,
+     "y": 46,
+     "size": 4,
+     "bold": true
+    },
+    {
+     "id": "gears",
+     "p": "gears",
+     "x": 46,
+     "y": 11,
+     "h": 12,
+     "cue": "machinery"
+    },
+    {
+     "id": "comp",
+     "p": "computer",
+     "x": 44,
+     "y": 31,
+     "h": 12,
+     "cue": "electrical"
+    },
+    {
+     "id": "phone",
+     "p": "phone",
+     "x": 64,
+     "y": 31,
+     "h": 10,
+     "cue": "communication"
+    },
+    {
+     "id": "old",
+     "p": "label",
+     "text": "Old name: boiler and machinery",
+     "x": 54,
+     "y": 46,
+     "w": 34,
+     "size": 3.7,
+     "color": "gray",
+     "cue": "boiler"
+    },
+    {
+     "p": "puff",
+     "x": 26,
+     "y": 6,
+     "h": 12,
+     "at": 1,
+     "cue": "breaks",
+     "over": true
+    },
+    {
+     "id": "rc",
+     "p": "stamp",
+     "text": "Replacement cost",
+     "x": 30,
+     "y": 57,
+     "size": 4.4,
+     "color": "green",
+     "at": 1,
+     "cue": "replacement"
+    },
+    {
+     "id": "acv",
+     "p": "label",
+     "text": "ACV only if endorsed",
+     "x": 66,
+     "y": 57,
+     "size": 3.6,
+     "w": 24,
+     "color": "orange",
+     "at": 2,
+     "cue": "switches"
+    }
+   ],
    "beats": [
     {
-     "text": "Last, farm. A through D are the farmhouse, lettered like homeowners: dwellings, other private structures, household personal property, and loss of use.",
-     "say": "Last, farm. A through D are the farmhouse, lettered like homeowners: dwellings, other private structures, household personal property, and loss of use.",
-     "show": 1
+     "text": "Equipment breakdown, once called boiler and machinery, covers a breakdown of boilers, machinery, and electrical and communication equipment.",
+     "say": "Equipment breakdown, once called boiler and machinery, covers a breakdown of boilers, machinery, and electrical and communication equipment.",
+     "show": 2,
+     "hl": "boiler"
     },
     {
-     "text": "E is scheduled farm personal property, F is unscheduled, or blanket, farm personal property, and G is other farm structures, like barns.",
-     "say": "E is scheduled farm personal property, F is unscheduled, or blanket, farm personal property, and G is other farm structures, like barns.",
-     "show": 2
-    },
-    {
-     "text": "Farm liability uses H, I and J, which mirror CGL Coverages A, B and C.",
-     "say": "Farm liability uses H, I and J, which mirror C G L Coverages A, B and C.",
+     "text": "If Tony's boiler breaks down, and his policy has no Actual Cash Value endorsement, the form values it at replacement cost, with no deduction for depreciation.",
+     "say": "If Tony's boiler breaks down, and his policy has no Actual Cash Value endorsement, the form values it at replacement cost, with no deduction for depreciation.",
      "show": 3,
-     "tell": true
+     "hl": "rc"
     },
     {
-     "text": "Two more favorites: Coverage F needs insurance of at least 80% of actual cash value. And livestock means cattle, sheep, swine, goats, horses, mules and donkeys, not poultry.",
-     "say": "Two more favorites: Coverage F needs insurance of at least eighty percent of actual cash value. And livestock means cattle, sheep, swine, goats, horses, mules and donkeys, not poultry.",
-     "show": 3
+     "text": "Attach that endorsement, and the valuation switches to actual cash value.",
+     "say": "Attach that endorsement, and the valuation switches to actual cash value.",
+     "show": 4,
+     "hl": "acv"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: the inspector's notice",
+   "src": "FC&S 'Equipment Breakdown Coverage Form' (2016), suspension condition (EB 00 20 01 13); a newer edition may exist",
+   "ask": "What should Tony do?",
+   "draw": [
+    {
+     "id": "boiler",
+     "p": "waterheater",
+     "x": 22,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "leak": true
+     }
+    },
+    {
+     "p": "warning",
+     "x": 44,
+     "y": 12,
+     "h": 12
+    },
+    {
+     "id": "insp",
+     "p": "person",
+     "x": 74,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "adjuster",
+      "pose": "hold",
+      "hold": "envelope",
+      "hat": "hardhat",
+      "vest": true
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "It's dangerous. Here's my written notice suspending its coverage.",
+     "x": 80,
+     "y": 7,
+     "w": 48,
+     "to": "insp",
+     "at": 1
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 138,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "flip": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "Dinner rush at Tony's. The insurer's inspector checks the boiler.",
+     "say": "Dinner rush at Tony's. The insurer's inspector checks the boiler."
+    },
+    {
+     "text": "It's dangerous. Here's my written notice suspending its coverage.",
+     "say": "It's dangerous. Here's my written notice suspending its coverage.",
+     "voice": "adjuster",
+     "speaker": "Inspector"
+    },
+    {
+     "text": "What should Tony do?",
+     "say": "What should Tony do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Keep it running. The policy's paid up!",
+     "ok": false,
+     "fail": "Once the insurer suspends coverage on dangerous equipment by written notice, a breakdown of that equipment isn't covered.",
+     "beats": [
+      {
+       "text": "Two days later: bang! Coverage on that boiler was suspended, so the breakdown isn't covered.",
+       "say": "Two days later: bang! Coverage on that boiler was suspended, so the breakdown isn't covered."
+      }
+     ],
+     "draw": [
+      {
+       "id": "boiler",
+       "p": "waterheater",
+       "x": 30,
+       "y": 33,
+       "h": 32,
+       "opt": {
+        "leak": true
+       }
+      },
+      {
+       "p": "crash",
+       "x": 30,
+       "y": 12,
+       "h": 18,
+       "opt": {
+        "text": "BANG!"
+       },
+       "over": true,
+       "cue": "bang",
+       "sfx": "crash"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 78,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Suspended",
+       "x": 30,
+       "y": 38,
+       "color": "red",
+       "cue": "suspended",
+       "rot": -12,
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Breakdown: not covered",
+       "x": 126,
+       "y": 44,
+       "w": 34,
+       "size": 4.2,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "label": "Relax. Suspension waits 30 days.",
+     "ok": false,
+     "fail": "There's no waiting period: the insurer can suspend coverage on dangerous equipment immediately, by written notice.",
+     "beats": [
+      {
+       "text": "Tony circles day thirty. On day three, the boiler breaks. The suspension began the moment he got the notice.",
+       "say": "Tony circles day thirty. On day three, the boiler breaks. The suspension began the moment he got the notice."
+      }
+     ],
+     "draw": [
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 26,
+       "y": 26,
+       "h": 24,
+       "opt": {
+        "n": "30"
+       }
+      },
+      {
+       "p": "label",
+       "text": "30 days' notice?",
+       "x": 26,
+       "y": 42,
+       "size": 3.6
+      },
+      {
+       "p": "xout",
+       "on": "cal",
+       "at": 0,
+       "cue": "three"
+      },
+      {
+       "id": "boiler",
+       "p": "waterheater",
+       "x": 64,
+       "y": 33,
+       "h": 30,
+       "opt": {
+        "leak": true
+       }
+      },
+      {
+       "p": "crash",
+       "x": 64,
+       "y": 12,
+       "h": 15,
+       "opt": {
+        "text": "Day 3!"
+       },
+       "over": true,
+       "cue": "three",
+       "sfx": "crash"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 100,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "sad",
+        "mood": "sad"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Suspended at once, by written notice",
+       "x": 136,
+       "y": 46,
+       "size": 4,
+       "w": 36,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "label": "Shut it down and get it fixed",
+     "ok": true,
+     "win": "The insurer can suspend coverage on dangerous equipment immediately, by written notice. Tony doesn't bet the pizzeria on it.",
+     "beats": [
+      {
+       "text": "Smart. Tony shuts it down and calls a repair crew before anything breaks.",
+       "say": "Smart. Tony shuts it down and calls a repair crew before anything breaks."
+      }
+     ],
+     "draw": [
+      {
+       "id": "boiler",
+       "p": "waterheater",
+       "x": 26,
+       "y": 33,
+       "h": 32
+      },
+      {
+       "id": "fixer",
+       "p": "person",
+       "x": 52,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "hold",
+        "hold": "toolbox"
+       }
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 86,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "thumbsup",
+       "x": 114,
+       "y": 24,
+       "h": 16
+      },
+      {
+       "p": "label",
+       "text": "Fixed before anything breaks",
+       "x": 138,
+       "y": 44,
+       "size": 4.2,
+       "w": 32,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "text": "OFF",
+       "x": 26,
+       "y": 11,
+       "size": 4.6,
+       "bold": true,
+       "box": true,
+       "color": "red"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Coverage on dangerous equipment can be suspended immediately, by written notice.",
+     "say": "Coverage on dangerous equipment can be suspended immediately, by written notice."
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "Under the ISO farm property forms, which animal is NOT included in the definition of \"livestock\"?",
+   "q": "Warm-up: under the ISO farm property forms, which of Grandma's animals is NOT livestock?",
    "choices": [
-    "Goats",
-    "Chickens",
-    "Mules",
-    "Swine"
+    "Her goats",
+    "Her chickens",
+    "Her mules",
+    "Her swine"
    ],
    "answer": 1,
    "why": "Livestock means cattle, sheep, swine, goats, horses, mules and donkeys. Chickens are poultry, a separately defined term.",
+   "warmup": true,
+   "draw": [
+    {
+     "id": "barn",
+     "p": "barn",
+     "x": 20,
+     "y": 22,
+     "h": 28
+    },
+    {
+     "id": "gma",
+     "p": "person",
+     "x": 58,
+     "y": 28,
+     "h": 28,
+     "opt": {
+      "who": "grandma",
+      "pose": "think",
+      "mood": "smirk"
+     }
+    },
+    {
+     "p": "question",
+     "x": 72,
+     "y": 9,
+     "h": 11
+    },
+    {
+     "id": "cow",
+     "p": "cow",
+     "x": 20,
+     "y": 55,
+     "h": 13
+    },
+    {
+     "id": "horse",
+     "p": "horse",
+     "x": 50,
+     "y": 55,
+     "h": 14
+    },
+    {
+     "p": "bird",
+     "x": 71,
+     "y": 50,
+     "h": 8,
+     "opt": {
+      "color": "orange"
+     },
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "Poultry",
+     "x": 71,
+     "y": 58,
+     "size": 3.8,
+     "bold": true,
+     "color": "red",
+     "at": 3
+    }
+   ],
    "beats": [
     {
-     "text": "Last one. Under the farm forms, which animal is not livestock? Pick an answer.",
-     "say": "Last one. Under the farm forms, which animal is not livestock? Pick an answer."
+     "text": "Warm-up: Tony's grandma farms in the Thumb.",
+     "say": "Warm-up: Tony's grandma farms in the Thumb."
+    },
+    {
+     "text": "I've got goats, chickens, mules and swine!",
+     "say": "I've got goats, chickens, mules and swine!",
+     "voice": "grandma"
+    },
+    {
+     "text": "Which one isn't livestock?",
+     "say": "Which one isn't livestock?"
     }
    ],
    "reveal": [
     {
-     "text": "Chickens. They're poultry, which is defined separately. Goats, mules and swine are all livestock.",
-     "say": "Chickens. They're poultry, which is defined separately. Goats, mules and swine are all livestock."
+     "text": "Chickens. Old MacDonald's livestock is seven animals: cattle, sheep, swine, goats, horses, mules and donkeys. The chickens don't count: they're poultry.",
+     "say": "Chickens. Old MacDonald's livestock is seven animals: cattle, sheep, swine, goats, horses, mules and donkeys. The chickens don't count: they're poultry."
+    }
+   ],
+   "src": "ISO FP 00 10 09 94, Definitions H.6, H.9; question comm-cpb-32; adapted from hook mn_comm-16"
+  },
+  {
+   "type": "sketch",
+   "title": "Grandma's farm, A to J",
+   "src": "ISO FP 00 10 09 94 (letters A-G; 2016 forms keep them); FP 00 13 04 16; FL 00 20 per FC&S (2013); mn_comm-15",
+   "draw": [
+    {
+     "id": "house",
+     "p": "house",
+     "x": 21,
+     "y": 15,
+     "h": 20
+    },
+    {
+     "p": "label",
+     "text": "A-D: Farmhouse",
+     "x": 21,
+     "y": 31,
+     "size": 4.4,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "p": "label",
+     "text": "A Dwellings, B Other private structures",
+     "x": 21,
+     "y": 41,
+     "size": 3.5,
+     "w": 38,
+     "cue": "dwellings"
+    },
+    {
+     "p": "label",
+     "text": "C Household personal property, D Loss of use",
+     "x": 21,
+     "y": 52,
+     "size": 3.5,
+     "w": 38,
+     "cue": "household"
+    },
+    {
+     "p": "divider",
+     "x": 42,
+     "y": 32,
+     "y0": 3,
+     "y1": 60,
+     "at": 1
+    },
+    {
+     "id": "tractor",
+     "p": "tractor",
+     "x": 55,
+     "y": 10,
+     "h": 10,
+     "at": 1,
+     "cue": "scheduled"
+    },
+    {
+     "id": "tag1",
+     "p": "icon",
+     "name": "tag",
+     "x": 63,
+     "y": 5.5,
+     "h": 5,
+     "color": "green",
+     "at": 1,
+     "cue": "limit"
+    },
+    {
+     "id": "wheat",
+     "p": "icon",
+     "name": "wheat",
+     "x": 71,
+     "y": 11,
+     "h": 8,
+     "color": "brown",
+     "at": 1,
+     "cue": "class"
+    },
+    {
+     "id": "tag2",
+     "p": "icon",
+     "name": "tag",
+     "x": 78,
+     "y": 5.5,
+     "h": 5,
+     "color": "green",
+     "at": 1,
+     "cue": "limit"
+    },
+    {
+     "p": "label",
+     "text": "E: Scheduled farm personal property: each class, its own limit",
+     "x": 62,
+     "y": 23,
+     "size": 3.4,
+     "w": 37,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "scheduled"
+    },
+    {
+     "id": "blanket",
+     "p": "box",
+     "x": 62,
+     "y": 38,
+     "w": 34,
+     "hh": 12,
+     "dash": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "blanket"
+    },
+    {
+     "id": "cow",
+     "p": "cow",
+     "x": 55,
+     "y": 38,
+     "h": 8,
+     "at": 1,
+     "cue": "blanket"
+    },
+    {
+     "p": "tractor",
+     "x": 70,
+     "y": 38,
+     "h": 7.5,
+     "at": 1,
+     "cue": "blanket"
+    },
+    {
+     "id": "f80",
+     "p": "label",
+     "text": "F: Unscheduled (blanket): one limit. Insure at least 80% of ACV",
+     "x": 62,
+     "y": 52,
+     "size": 3.4,
+     "w": 37,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "blanket"
+    },
+    {
+     "p": "divider",
+     "x": 82,
+     "y": 32,
+     "y0": 3,
+     "y1": 60,
+     "at": 1
+    },
+    {
+     "id": "barn",
+     "p": "barn",
+     "x": 102,
+     "y": 15,
+     "h": 20,
+     "at": 1,
+     "cue": "barn"
+    },
+    {
+     "p": "label",
+     "text": "G: Other farm structures",
+     "x": 102,
+     "y": 31,
+     "size": 3.8,
+     "w": 36,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "barn"
+    },
+    {
+     "p": "divider",
+     "x": 122,
+     "y": 32,
+     "y0": 3,
+     "y1": 60,
+     "at": 2
+    },
+    {
+     "id": "scale",
+     "p": "scale",
+     "x": 141,
+     "y": 13,
+     "h": 14,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "H-J: Farm liability",
+     "x": 141,
+     "y": 30,
+     "size": 4.2,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "H Bodily injury and property damage",
+     "x": 141,
+     "y": 39,
+     "size": 3.5,
+     "w": 36,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "I Personal and advertising injury",
+     "x": 141,
+     "y": 48,
+     "size": 3.5,
+     "w": 36,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "J Medical payments",
+     "x": 141,
+     "y": 55,
+     "size": 3.5,
+     "w": 36,
+     "at": 2
+    }
+   ],
+   "beats": [
+    {
+     "text": "Grandma's farm policy runs A to J. A to D is the farmhouse, lettered like homeowners: dwellings, other private structures, household personal property, loss of use.",
+     "say": "Grandma's farm policy runs A to J. A to D is the farmhouse, lettered like homeowners: dwellings, other private structures, household personal property, loss of use.",
+     "hl": "house"
+    },
+    {
+     "text": "E is scheduled farm personal property: each class gets its own limit. F is unscheduled, or blanket: one limit for all, insured to at least 80% of actual cash value. G is other farm structures, like barns.",
+     "say": "E is scheduled farm personal property: each class gets its own limit. F is unscheduled, or blanket: one limit for all, insured to at least eighty percent of actual cash value. G is other farm structures, like barns.",
+     "hl": "f80"
+    },
+    {
+     "text": "H, I and J are farm liability, mirroring CGL Coverages A, B and C.",
+     "say": "H, I and J are farm liability, mirroring C G L Coverages A, B and C.",
+     "hl": "scale"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Grandma's call: the cows in the corn",
+   "src": "FL 00 20 10 06, Cov. H, I, J per FC&S (2013); FP 00 13 04 16, Cov. F (FC&S 2017); question comm-cpb-45",
+   "ask": "Which coverage responds?",
+   "draw": [
+    {
+     "id": "fence",
+     "p": "fence",
+     "x": 14,
+     "y": 46,
+     "h": 10,
+     "opt": {
+      "broken": true
+     },
+     "cue": "fence"
+    },
+    {
+     "id": "corn",
+     "p": "crops",
+     "x": 48,
+     "y": 46,
+     "h": 16,
+     "opt": {
+      "damaged": true
+     }
+    },
+    {
+     "id": "cow1",
+     "p": "cow",
+     "x": 38,
+     "y": 38,
+     "h": 16,
+     "over": true
+    },
+    {
+     "id": "cow2",
+     "p": "cow",
+     "x": 62,
+     "y": 39,
+     "h": 14,
+     "over": true
+    },
+    {
+     "id": "nb",
+     "p": "person",
+     "x": 100,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "neighbor",
+      "pose": "point",
+      "mood": "angry"
+     },
+     "flip": true
+    },
+    {
+     "p": "bubble",
+     "text": "My corn! I'm suing!",
+     "x": 104,
+     "y": 6,
+     "w": 28,
+     "to": "nb",
+     "at": 1
+    },
+    {
+     "id": "gma",
+     "p": "person",
+     "x": 140,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "grandma",
+      "pose": "shrug",
+      "mood": "worried"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Grandma's cows break through a fence and trample the neighbor's corn.",
+     "say": "Grandma's cows break through a fence and trample the neighbor's corn."
+    },
+    {
+     "text": "My corn! I'm suing!",
+     "say": "My corn! I'm suing!",
+     "voice": "neighbor"
+    },
+    {
+     "text": "Which coverage responds?",
+     "say": "Which coverage responds?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Coverage F: it's farm property",
+     "ok": false,
+     "fail": "Coverage F insures Grandma's own farm personal property. The trampled corn belongs to the neighbor.",
+     "beats": [
+      {
+       "text": "The adjuster shakes his head: F insures Grandma's own farm property. The corn is the neighbor's.",
+       "say": "The adjuster shakes his head: F insures Grandma's own farm property. The corn is the neighbor's."
+      }
+     ],
+     "draw": [
+      {
+       "id": "adj",
+       "p": "person",
+       "x": 24,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "adjuster",
+        "pose": "stop",
+        "mood": "neutral"
+       }
+      },
+      {
+       "id": "cow",
+       "p": "cow",
+       "x": 62,
+       "y": 30,
+       "h": 16
+      },
+      {
+       "p": "label",
+       "text": "F: Grandma's own",
+       "x": 62,
+       "y": 46,
+       "size": 4.2,
+       "color": "green"
+      },
+      {
+       "id": "corn",
+       "p": "crops",
+       "x": 112,
+       "y": 34,
+       "h": 16,
+       "opt": {
+        "damaged": true
+       }
+      },
+      {
+       "p": "label",
+       "text": "The neighbor's corn",
+       "x": 112,
+       "y": 50,
+       "size": 4.2,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "label": "Coverage H: farm liability",
+     "ok": true,
+     "win": "Coverage H pays what she's legally obligated to pay for bodily injury or property damage caused by an occurrence, and defends the suit.",
+     "beats": [
+      {
+       "text": "Right. Coverage H is her liability coverage for damage to others, and it defends the suit.",
+       "say": "Right. Coverage H is her liability coverage for damage to others, and it defends the suit."
+      }
+     ],
+     "draw": [
+      {
+       "id": "gma",
+       "p": "person",
+       "x": 26,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "grandma",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "sh",
+       "p": "shield",
+       "x": 62,
+       "y": 26,
+       "h": 24
+      },
+      {
+       "p": "label",
+       "text": "Coverage H",
+       "x": 62,
+       "y": 46,
+       "size": 4.6,
+       "bold": true,
+       "color": "green"
+      },
+      {
+       "id": "nb",
+       "p": "person",
+       "x": 98,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "neighbor",
+        "pose": "stand",
+        "mood": "neutral"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Property damage to others, plus defense",
+       "x": 134,
+       "y": 40,
+       "size": 4.2,
+       "w": 34,
+       "color": "green"
+      }
+     ]
+    },
+    {
+     "label": "Coverage J: medical payments",
+     "ok": false,
+     "fail": "Coverage J pays medical expenses for bodily injury. Nobody was hurt; the corn was just flattened.",
+     "beats": [
+      {
+       "text": "A doctor checks the corn. No patient: J pays medical bills for people who are hurt.",
+       "say": "A doctor checks the corn. No patient: J pays medical bills for people who are hurt."
+      }
+     ],
+     "draw": [
+      {
+       "id": "corn",
+       "p": "crops",
+       "x": 34,
+       "y": 40,
+       "h": 18,
+       "opt": {
+        "damaged": true
+       }
+      },
+      {
+       "id": "doc",
+       "p": "person",
+       "x": 76,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "doctor",
+        "pose": "hold",
+        "hold": "stethoscope",
+        "mood": "shocked"
+       },
+       "flip": true
+      },
+      {
+       "p": "bubble",
+       "text": "Corn doesn't need a doctor!",
+       "x": 104,
+       "y": 9,
+       "w": 30,
+       "to": "doc"
+      },
+      {
+       "p": "label",
+       "text": "J: medical bills for injured people",
+       "x": 132,
+       "y": 42,
+       "size": 4.2,
+       "w": 34,
+       "color": "red"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "H is bodily injury and property damage liability. I is personal and advertising injury. J is medical payments.",
+     "say": "H is bodily injury and property damage liability. I is personal and advertising injury. J is medical payments."
     }
    ]
   },
   {
    "type": "recap",
-   "title": "Key takeaways",
    "items": [
     "Robbery needs a person; burglary needs unlawful entry or exit",
     "Loss sustained: 1 year to discover. Discovery: 60 days",
     "Marine classes exclude buildings and their fixed contents",
     "Equipment breakdown pays replacement cost unless ACV endorsed",
-    "Farm: A to D farmhouse, E to G farm property, H to J liability"
+    "Farm: A-D farmhouse, E-G farm property, H-J liability"
+   ],
+   "draw": [
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 16,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "gma",
+     "p": "person",
+     "x": 36,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "grandma",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 56,
+     "y": 40,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "pizza",
+     "x": 16,
+     "y": 60,
+     "h": 10
+    },
+    {
+     "p": "sun",
+     "x": 66,
+     "y": 10,
+     "h": 11,
+     "loop": "spin"
+    },
+    {
+     "p": "bubble",
+     "text": "Next month, I'm just making pizza.",
+     "x": 36,
+     "y": 10,
+     "w": 36,
+     "to": "tony",
+     "at": 2
+    }
    ],
    "beats": [
     {
-     "text": "Let's recap. Robbery needs a person; burglary needs an unlawful entry or exit. Loss sustained gives 1 year to discover; discovery gives 60 days.",
-     "say": "Let's recap. Robbery needs a person; burglary needs an unlawful entry or exit. Loss sustained gives one year to discover; discovery gives sixty days.",
+     "text": "Robbery needs a person; burglary, an unlawful entry or exit. Loss sustained gives 1 year to discover; discovery, 60 days.",
+     "say": "Robbery needs a person; burglary, an unlawful entry or exit. Loss sustained gives one year to discover; discovery, sixty days.",
      "show": 2
     },
     {
-     "text": "Marine classes exclude buildings. Equipment breakdown pays replacement cost unless endorsed. And farm runs A to J.",
-     "say": "Marine classes exclude buildings. Equipment breakdown pays replacement cost unless endorsed. And farm runs A to J.",
+     "text": "Buildings aren't marine risks. Equipment breakdown pays replacement cost unless endorsed for ACV. Farm runs A to J.",
+     "say": "Buildings aren't marine risks. Equipment breakdown pays replacement cost unless endorsed for A C V. Farm runs A to J.",
+     "show": 5
+    },
+    {
+     "text": "Next month, I'm just making pizza.",
+     "say": "Next month, I'm just making pizza.",
+     "voice": "tony",
      "show": 5
     }
    ]
@@ -509,12 +2751,19 @@
   "comm-040",
   "comm-041"
  ],
- "hooks": [],
+ "hooks": [
+  "mn-mn_comm-11",
+  "mn-mn_comm-12",
+  "mn-mn_comm-13",
+  "mn-mn_comm-14",
+  "mn-mn_comm-15",
+  "mn-mn_comm-16"
+ ],
  "sources": [
   "ISO CR 00 21 11 15",
   "ISO CR 00 22 05 06 (discovery form)",
   "Rough Notes PF&M 251.4-2",
-  "IRMI glossary 'burglary', 'bailee coverage', 'installation floater', 'jewelers block insurance'",
+  "IRMI glossary 'burglary', 'bailee coverage', 'installation floater', 'jewelers block insurance', 'replacement cost'",
   "IMUA 'Nationwide Marine Definition'",
   "MCL 500.614",
   "Verisk Commercial Inland Marine and transportation program sheets (2022)",
@@ -522,7 +2771,8 @@
   "FC&S 'Equipment Breakdown Coverage Form' (2016)",
   "ISO FP 00 10 09 94",
   "ISO FP 00 13 04 16 (as quoted in FC&S, 2017)",
-  "ISO FL 00 20 (as described in FC&S, 2013)",
-  "Memory hooks mn-mn_comm-11, mn-mn_comm-13, mn-mn_comm-15 (ideas adapted, not shown)"
+  "ISO FL 00 20 10 06 (as quoted in FC&S 'Farm Liability Coverage Form', 2013)",
+  "Questions comm-032, comm-034, comm-035, comm-036, comm-040, comm-041, comm-cpa-11, comm-cpa-19, comm-cpa-21, comm-cpb-01, comm-cpb-03, comm-cpb-08, comm-cpb-09, comm-cpb-15, comm-cpb-32, comm-cpb-45",
+  "Memory hooks mn-mn_comm-11 to mn-mn_comm-16 (adapted); confusion pairs cp_commercial-03, cp_commercial-04; vs_commercial-04; ms_commercial-09"
  ]
 }

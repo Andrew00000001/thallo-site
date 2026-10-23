@@ -1,27 +1,62 @@
 {
  "id": "L05",
- "beats": 32,
+ "beats": 59,
  "mismatches": [
   {
    "scene": 1,
-   "beat": 3,
-   "say": "Watch out: intent to harm is not an element. On an EXCEPT question, intent is usually the odd one out.",
-   "heard": "Watch out, intent to harm is not an element. On an accept question, intent is usually the odd one out.",
-   "wer": 0.05
+   "beat": 1,
+   "say": "Ow! My leg!",
+   "heard": "Oh, my leg.",
+   "wer": 0.333,
+   "voice": "rosa"
   },
   {
-   "scene": 8,
+   "scene": 1,
+   "beat": 2,
+   "say": "She sues Tony. In exam words, she's the plaintiff and Tony's the defendant.",
+   "heard": "She sues Toni. In exam words, she's the plaintiff and Toni's the defendant.",
+   "wer": 0.167,
+   "voice": "narrator"
+  },
+  {
+   "scene": 6,
    "beat": 0,
-   "say": "Absolute liability applies to ultrahazardous activities, like blasting or keeping wild animals. Being careful is no defense.",
-   "heard": "Absolute liability applies to ultra-hazardous activities like blasting or keeping wild animals. Being careful is no defense.",
-   "wer": 0.118
+   "say": "Trial day. The jury finds Tony negligent and puts Rosa's economic damages at one hundred thousand dollars.",
+   "heard": "Trial Day. The jury finds Tony negligent and puts Ross's economic damages at $100,000.",
+   "wer": 0.062,
+   "voice": "narrator"
   },
   {
    "scene": 9,
+   "beat": 0,
+   "say": "Three more kinds. Absolute is KABOOM: ultrahazardous, abnormally dangerous activities, like blasting or keeping wild animals. Being careful is no defense.",
+   "heard": "Three more kinds. Absolute is kaboom, ultra-hazardous, abnormally dangerous activities like blasting or keeping wild animals. Being careful is no defense.",
+   "wer": 0.095,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 0,
+   "say": "Next morning, Tony's employee Joey, shoveling Tony's walk on his shift, carelessly flings a chunk of ice through the barber's window.",
+   "heard": "Next morning, Tony's employee Joey \u2014 shoveling Tony's walk on a shift \u2014 carelessly flings a chunk of ice through the barber's window.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
    "beat": 1,
-   "say": "Vicarious liability. The company is liable for its employee's act in the scope of employment. Nothing here is ultrahazardous or a defective product.",
-   "heard": "Vicarious liability. The company is liable for its employees act in the scope of employment. Nothing here is ultra-hazardous or a defective product.",
-   "wer": 0.087
+   "say": "Who's paying for my window?",
+   "heard": "He's paying for my window.",
+   "wer": 0.2,
+   "voice": "neighbor"
+  },
+  {
+   "scene": 11,
+   "beat": 3,
+   "say": "Vicarious: liable for someone else's act. Nothing was ultrahazardous, and no product was defective.",
+   "heard": "Vicarious, liable for someone else's act. Nothing was ultra-hazardous and no product was defective.",
+   "wer": 0.154,
+   "voice": "narrator"
   }
  ]
 }

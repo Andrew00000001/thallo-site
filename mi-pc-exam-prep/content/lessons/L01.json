@@ -3,220 +3,945 @@
  "sec": "reg",
  "guide": "reg",
  "title": "Producer licensing, appointments and CE",
- "summary": "Michigan license types, appointment and termination deadlines, what you must report and when, and the CE rules that keep your license in force.",
+ "summary": "Follow Dana's first years as a Michigan producer: who needs which license, appointment and termination deadlines, what to report, and CE.",
  "objectives": [
   "Tell producer, business entity, solicitor and counselor licenses apart",
-  "Recall appointment and termination deadlines: Hire 15, Fire 30, Mail 15, Talk back 30",
+  "Recall Hire 15, Fire 30, Mail 15, Talk back 30, and the Conduct or Count rule",
   "Know the reporting deadlines for name, address, assumed name and legal actions",
   "Apply the CE numbers and the 90-day grace period rules"
- ],
- "check": [
-  "reg-001",
-  "reg-006",
-  "reg-018",
-  "reg-025",
-  "reg-028"
- ],
- "hooks": [
-  "mn-mn_reg-05",
-  "mn-mn_reg-11",
-  "mn-mn_reg-01",
-  "mn-mn_reg-02",
-  "mn-mn_reg-07",
-  "mn-mn_reg-08",
-  "mn-mn_reg-09"
- ],
- "sources": [
-  "MCL 500.1201a(1)",
-  "MCL 500.1205(2)",
-  "MCL 500.1206(2),(3),(5)",
-  "MCL 500.1206b(2)",
-  "MCL 500.1208a(2),(3),(4)",
-  "MCL 500.1208b(1),(2),(4)",
-  "MCL 500.1209(1),(2),(3)",
-  "MCL 500.1211(1); MCL 500.1212",
-  "MCL 500.1211a",
-  "MCL 500.1211b",
-  "MCL 500.1232; MCL 500.1236",
-  "MCL 500.1238(1)",
-  "MCL 500.1247(1),(2)",
-  "MCL 500.1204c(1),(2),(11),(13)",
-  "DIFS CE Carryover FAQ",
-  "PSI 16-81 content outline (Sept 2021)"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "Producer licensing, appointments and CE",
-   "subtitle": "Who needs which license, the deadlines insurers and producers must meet, and how to keep your license",
-   "icon": "badge-check",
+   "title": "Dana opens her agency",
+   "subtitle": "Michigan producer licenses, appointments, reporting deadlines and continuing education (CE)",
    "beats": [
     {
-     "text": "Regulation is 15 exam items, and licensing rules are a big part of it.",
-     "say": "Regulation is fifteen exam items, and licensing rules are a big part of it."
+     "text": "Meet Dana. She just got her Michigan producer license, and today she opens her agency in Grand Rapids.",
+     "say": "Meet Dana. She just got her Michigan producer license, and today she opens her agency in Grand Rapids."
     },
     {
-     "text": "Here: license types, appointment and termination deadlines, reporting, and continuing education.",
-     "say": "Here: license types, appointment and termination deadlines, reporting, and continuing education."
+     "text": "Regulation is 15 exam items, and licensing rules are a big part. Let's follow Dana.",
+     "say": "Regulation is fifteen exam items, and licensing rules are a big part. Let's follow Dana."
+    }
+   ],
+   "draw": [
+    {
+     "p": "store",
+     "x": 26,
+     "y": 40,
+     "h": 36,
+     "id": "agency",
+     "opt": {
+      "name": "DANA'S AGENCY"
+     }
+    },
+    {
+     "p": "person",
+     "x": 58,
+     "y": 47,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "wave",
+      "mood": "happy"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "certificate",
+     "x": 77,
+     "y": 48,
+     "h": 15,
+     "id": "lic",
+     "opt": {
+      "title": "LICENSE",
+      "name": "Dana"
+     },
+     "at": 0,
+     "cue": "license",
+     "anim": "pop",
+     "sfx": "ding"
+    },
+    {
+     "p": "sparkle",
+     "x": 83,
+     "y": 37,
+     "h": 6,
+     "at": 0,
+     "cue": "license"
+    },
+    {
+     "p": "bubble",
+     "x": 64,
+     "y": 14,
+     "text": "Open for business!",
+     "w": 30,
+     "to": "dana",
+     "at": 0,
+     "cue": "opens"
+    },
+    {
+     "p": "note",
+     "x": 24,
+     "y": 10,
+     "text": "Regulation: 15 exam items",
+     "w": 34,
+     "at": 1,
+     "cue": "Regulation"
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Who holds which license",
-   "src": "MCL 500.1201a(1); .1205(2); .1211(1); .1212; .1232",
-   "items": [
+   "type": "explore",
+   "title": "Who's who at Dana's agency",
+   "src": "MCL 500.1201a(1); 500.1201(d); 500.1205(2); 500.1211(1); 500.1212; memory hook mn_reg-04; DIFS director: MCL 500.1205(1)",
+   "beats": [
     {
-     "label": "Producer (agent)",
-     "detail": "Sells, solicits or negotiates; licensed for each line",
-     "icon": "user-check"
+     "text": "Tap the glowing spots to meet Dana's team and the director.",
+     "say": "Tap the glowing spots to meet Dana's team and the director."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A producer needs a license for each line. A business entity needs its own, plus a licensed producer responsible for compliance.",
+     "say": "A producer needs a license for each line. A business entity needs its own, plus a licensed producer responsible for compliance."
     },
     {
-     "label": "Business entity",
-     "detail": "Its own license, plus a designated licensed producer responsible for compliance",
-     "icon": "building-2"
+     "text": "A licensed solicitor works for a licensed resident producer, under a written contract the producer reports to the director.",
+     "say": "A licensed solicitor works for a licensed resident producer, under a written contract the producer reports to the director."
+    }
+   ],
+   "spots": [
+    {
+     "on": "dana",
+     "label": "Dana: producer (agent)",
+     "text": "She sells, solicits and negotiates insurance. In Michigan, that takes a producer license for each line, like property and casualty. 'Agent' means producer."
     },
     {
-     "label": "Solicitor",
-     "detail": "Works for a licensed resident producer under a written contract",
-     "icon": "users"
+     "on": "agency",
+     "label": "The agency: business entity",
+     "text": "The agency is an LLC: a business entity. Acting as a producer, it needs its own producer license and must name a licensed producer responsible for compliance: Dana."
     },
     {
+     "on": "sol",
+     "label": "Her helper: solicitor",
+     "text": "Solicits applications and collects premiums for Dana, a licensed resident producer. A sidekick with 3 L's: Leash (written contract), License, Letter (to the director)."
+    },
+    {
+     "on": "dir",
+     "label": "The director",
+     "text": "Michigan's insurance director approves licenses. In the law, 'director' and 'commissioner' mean the same person."
+    }
+   ],
+   "draw": [
+    {
+     "p": "store",
+     "x": 28,
+     "y": 37,
+     "h": 44,
+     "id": "agency",
+     "opt": {
+      "name": "DANA'S AGENCY LLC"
+     }
+    },
+    {
+     "p": "person",
+     "x": 68,
+     "y": 42,
+     "h": 32,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "id": "dana",
+     "label": "Dana",
+     "lsize": 3.8
+    },
+    {
+     "p": "bubble",
+     "x": 76,
+     "y": 10,
+     "text": "Meet my team!",
+     "w": 26,
+     "to": "dana"
+    },
+    {
+     "p": "person",
+     "x": 94,
+     "y": 42,
+     "h": 32,
+     "opt": {
+      "who": "person",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "clipboard",
+      "shirt": "orange",
+      "hair": "spiky"
+     },
+     "id": "sol",
+     "label": "Her helper",
+     "lsize": 3.8
+    },
+    {
+     "p": "divider",
+     "x": 116,
+     "y": 37,
+     "y0": 8,
+     "y1": 62
+    },
+    {
+     "p": "icon",
+     "x": 140,
+     "y": 11,
+     "name": "landmark",
+     "h": 10,
+     "color": "gray"
+    },
+    {
+     "p": "person",
+     "x": 140,
+     "y": 42,
+     "h": 32,
+     "opt": {
+      "who": "regulator",
+      "mood": "neutral"
+     },
+     "id": "dir",
+     "label": "The director",
+     "lsize": 3.8
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "The counselor down the street",
+   "src": "MCL 500.1232; MCL 500.1236; question reg-018; memory hook mn_reg-05",
+   "kind": "License type",
+   "term": "Counselor",
+   "plain": "Someone who gives advice or opinions on a policy's benefits, coverage or value. That takes a counselor license.",
+   "example": "Tony pays a counselor to review his pizza shop's policies. First they both sign an agreement: the work, the fee, any commission earned as an agent.",
+   "exam": "Trap: 'I'll waive my fee if you buy through me' never flies. No counselor license needed: a licensed agent's customary advice, or a Michigan attorney.",
+   "beats": [
+    {
+     "text": "A counselor gives advice or opinions on a policy's benefits, coverage or value, and needs a counselor license.",
+     "say": "A counselor gives advice or opinions on a policy's benefits, coverage or value, and needs a counselor license.",
+     "show": 2,
+     "hl": "coun"
+    },
+    {
+     "text": "Tony hires one. Remember 2-2-0: 2 signatures before the work, 2 years of record-keeping after, 0 fee waivers ever.",
+     "say": "Tony hires one. Remember two, two, zero: two signatures before the work, two years of record-keeping after, zero fee waivers ever.",
+     "show": 3,
+     "hl": "agr"
+    },
+    {
+     "text": "Waive your fee if I buy through you?",
+     "say": "Waive your fee if I buy through you?",
+     "voice": "tony",
+     "show": 3,
+     "hl": "tony"
+    },
+    {
+     "text": "Never. The agreement states the work, the fee and any commission, and that the fee can't be waived.",
+     "say": "Never. The agreement states the work, the fee and any commission, and that the fee can't be waived.",
+     "show": 4,
+     "hl": "fee"
+    },
+    {
+     "text": "A licensed agent's customary advice, or a Michigan attorney's, needs no counselor license.",
+     "say": "A licensed agent's customary advice, or a Michigan attorney's, needs no counselor license.",
+     "show": 4
+    }
+   ],
+   "draw": [
+    {
+     "p": "person",
+     "x": 13,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pizza"
+     },
+     "id": "tony",
+     "at": 1,
+     "cue": "Tony"
+    },
+    {
+     "p": "person",
+     "x": 66,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "person",
+      "pose": "point",
+      "mood": "happy",
+      "glasses": true,
+      "tie": true,
+      "shirt": "purple",
+      "hair": "bun"
+     },
+     "flip": true,
+     "id": "coun",
      "label": "Counselor",
-     "detail": "Gives advice or opinions on a policy's benefits, coverage or value",
-     "icon": "scale"
+     "lsize": 3.8
+    },
+    {
+     "p": "policy",
+     "x": 39,
+     "y": 37,
+     "h": 18,
+     "id": "agr",
+     "opt": {
+      "title": "AGREEMENT",
+      "tsize": 4.4,
+      "sign": true
+     },
+     "at": 1,
+     "cue": "signatures"
+    },
+    {
+     "p": "label",
+     "x": 39,
+     "y": 51,
+     "text": "2 signatures",
+     "size": 3.8,
+     "bold": true,
+     "at": 1,
+     "cue": "signatures"
+    },
+    {
+     "p": "calendar",
+     "x": 39,
+     "y": 12,
+     "h": 10,
+     "id": "cal",
+     "opt": {
+      "n": "2 yr"
+     },
+     "at": 1,
+     "cue": "years",
+     "label": "Keep records 2 yr",
+     "lsize": 3.6,
+     "lw": 24
+    },
+    {
+     "p": "note",
+     "x": 16,
+     "y": 9,
+     "text": "0 fee waivers",
+     "w": 24,
+     "id": "fee",
+     "at": 1,
+     "cue": "waivers",
+     "paper": "pink"
     }
-   ],
+   ]
+  },
+  {
+   "type": "term",
+   "title": "License vs appointment",
+   "src": "MCL 500.1208a(1),(2); MCL 500.1201(h); question reg-002; binder: IRMI glossary",
+   "kind": "Term",
+   "term": "Appointment",
+   "plain": "An insurance company naming a producer as its agent. Without it, she can't act as that company's agent or bind its coverage.",
+   "example": "Dana's license is like a driver's license. An appointment is a company handing her the keys to its car.",
+   "exam": "Trap: a license alone gives no power to commit an insurer. No binding for a company until it appoints her.",
    "beats": [
     {
-     "text": "First, licenses. To sell, solicit or negotiate insurance in Michigan, you need a producer license for each line.",
-     "say": "First, licenses. To sell, solicit or negotiate insurance in Michigan, you need a producer license for each line.",
-     "show": 1
+     "text": "Dana's license makes her eligible to sell in Michigan. But each company she acts for must appoint her as its agent.",
+     "say": "Dana's license makes her eligible to sell in Michigan. But each company she acts for must appoint her as its agent.",
+     "show": 2,
+     "hl": "ins"
     },
     {
-     "text": "A business entity needs its own license, plus a designated licensed producer responsible for its compliance.",
-     "say": "A business entity needs its own license, plus a designated licensed producer responsible for its compliance.",
-     "show": 2
+     "text": "The license is like a driver's license. The appointment is the company handing her the keys to its car.",
+     "say": "The license is like a driver's license. The appointment is the company handing her the keys to its car.",
+     "show": 3,
+     "hl": "key"
     },
     {
-     "text": "A solicitor works for a licensed resident producer, under a written contract, after the producer notifies the director.",
-     "say": "A solicitor works for a licensed resident producer, under a written contract, after the producer notifies the director.",
-     "show": 3
+     "text": "Binding gives a customer a binder: temporary proof of coverage until the policy is issued. No appointment, no binding.",
+     "say": "Binding gives a customer a binder: temporary proof of coverage until the policy is issued. No appointment, no binding.",
+     "show": 4,
+     "hl": "bnd"
+    }
+   ],
+   "draw": [
+    {
+     "p": "person",
+     "x": 14,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "mood": "happy"
+     },
+     "id": "dana"
     },
     {
-     "text": "A counselor license covers advice on a policy's benefits, coverage or value; a licensed agent's customary advice and Michigan attorneys are exempt.",
-     "say": "A counselor license covers advice on a policy's benefits, coverage or value; a licensed agent's customary advice and Michigan attorneys are exempt.",
-     "show": 4
+     "p": "idcard",
+     "x": 34,
+     "y": 24,
+     "h": 9,
+     "id": "lic",
+     "opt": {
+      "title": "LICENSE"
+     },
+     "label": "Dana's license",
+     "lsize": 3.6,
+     "lw": 22
+    },
+    {
+     "p": "insurer",
+     "x": 62,
+     "y": 15,
+     "h": 20,
+     "id": "ins",
+     "at": 0,
+     "cue": "company"
+    },
+    {
+     "p": "label",
+     "x": 62,
+     "y": 30,
+     "text": "Appoints her as its agent",
+     "size": 3.8,
+     "w": 34,
+     "color": "green",
+     "bold": true,
+     "at": 0,
+     "cue": "appoint"
+    },
+    {
+     "p": "car",
+     "x": 62,
+     "y": 46,
+     "h": 13,
+     "id": "car",
+     "at": 1,
+     "cue": "car"
+    },
+    {
+     "p": "key",
+     "x": 62,
+     "y": 37,
+     "h": 5,
+     "id": "key",
+     "at": 1,
+     "cue": "keys",
+     "move": {
+      "to": [
+       19,
+       44
+      ],
+      "at": 1,
+      "cue": "car",
+      "dur": 1.2,
+      "sfx": "whoosh"
+     }
+    },
+    {
+     "p": "policy",
+     "x": 36,
+     "y": 48,
+     "h": 14,
+     "id": "bnd",
+     "opt": {
+      "title": "BINDER",
+      "tsize": 7
+     },
+     "label": "Binder",
+     "lsize": 3.8,
+     "at": 2,
+     "cue": "binder"
+    },
+    {
+     "p": "label",
+     "x": 58,
+     "y": 63,
+     "text": "No appointment, no binding",
+     "size": 3.8,
+     "color": "red",
+     "bold": true,
+     "at": 2,
+     "cue": "No"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Dana's call: bind Sam's house today?",
+   "src": "MCL 500.1208a(1),(2),(3); MCL 500.1201(h); question reg-002",
+   "ask": "What does Dana do?",
+   "beats": [
+    {
+     "text": "Dana, can you get my new house covered today?",
+     "say": "Dana, can you get my new house covered today?",
+     "voice": "sam"
+    },
+    {
+     "text": "The company signed her agency contract this morning, but hasn't appointed her yet. What does Dana do?",
+     "say": "The company signed her agency contract this morning, but hasn't appointed her yet. What does Dana do?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "No appointment, no binding, whatever the license says.",
+     "say": "No appointment, no binding, whatever the license says."
+    }
+   ],
+   "draw": [
+    {
+     "p": "house",
+     "x": 16,
+     "y": 30,
+     "h": 26,
+     "id": "house"
+    },
+    {
+     "p": "person",
+     "x": 44,
+     "y": 31,
+     "h": 38,
+     "opt": {
+      "who": "sam",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "phone"
+     },
+     "id": "sam"
+    },
+    {
+     "p": "bubble",
+     "x": 66,
+     "y": 7,
+     "text": "Cover my house today?",
+     "w": 28,
+     "to": "sam"
+    },
+    {
+     "p": "person",
+     "x": 92,
+     "y": 31,
+     "h": 38,
+     "opt": {
+      "who": "dana",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "insurer",
+     "x": 136,
+     "y": 20,
+     "h": 26,
+     "id": "ins"
+    },
+    {
+     "p": "label",
+     "x": 136,
+     "y": 41,
+     "text": "Contract signed. Not appointed yet!",
+     "size": 5,
+     "w": 44,
+     "color": "red",
+     "bold": true
+    }
+   ],
+   "options": [
+    {
+     "label": "The contract's signed. Bind it now!",
+     "ok": false,
+     "fail": "Signed contract or not, she may not bind for a company until it appoints her. Here, it hasn't yet.",
+     "beats": [
+      {
+       "text": "Dana binds it. Not yet: the company hasn't appointed her.",
+       "say": "Dana binds it. Not yet: the company hasn't appointed her."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 22,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "dana"
+      },
+      {
+       "p": "policy",
+       "x": 48,
+       "y": 27,
+       "h": 24,
+       "id": "bind",
+       "opt": {
+        "title": "BINDER",
+        "tsize": 7
+       },
+       "anim": "stamp",
+       "sfx": "stamp"
+      },
+      {
+       "p": "xout",
+       "on": "bind",
+       "cue": "Not",
+       "sfx": "buzz"
+      },
+      {
+       "p": "person",
+       "x": 100,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "boss",
+        "pose": "stop",
+        "mood": "angry"
+       },
+       "flip": true,
+       "id": "boss",
+       "anim": "slide-l",
+       "cue": "Not"
+      },
+      {
+       "p": "bubble",
+       "x": 78,
+       "y": 7,
+       "text": "You're not our agent yet!",
+       "w": 32,
+       "to": "boss",
+       "cue": "Not"
+      },
+      {
+       "p": "insurer",
+       "x": 132,
+       "y": 40,
+       "h": 18,
+       "id": "ins",
+       "cue": "company"
+      }
+     ]
+    },
+    {
+     "label": "Wait until the company appoints her",
+     "ok": true,
+     "win": "A producer may bind for an insurer only after that insurer appoints her. A signed contract or her license alone isn't enough.",
+     "beats": [
+      {
+       "text": "Hang on, Sam. They haven't appointed me yet.",
+       "say": "Hang on, Sam. They haven't appointed me yet.",
+       "voice": "dana"
+      },
+      {
+       "text": "Next morning, the company appoints her, and she binds his policy.",
+       "say": "Next morning, the company appoints her, and she binds his policy."
+      }
+     ],
+     "draw": [
+      {
+       "p": "sun",
+       "x": 12,
+       "y": 9,
+       "h": 9,
+       "cue": "morning",
+       "loop": "spin",
+       "at": 1
+      },
+      {
+       "p": "insurer",
+       "x": 36,
+       "y": 22,
+       "h": 26,
+       "id": "ins"
+      },
+      {
+       "p": "stamp",
+       "x": 36,
+       "y": 44,
+       "text": "Appointed",
+       "color": "green",
+       "size": 6,
+       "cue": "appoints",
+       "at": 1
+      },
+      {
+       "p": "person",
+       "x": 80,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "dana"
+      },
+      {
+       "p": "policy",
+       "x": 104,
+       "y": 27,
+       "h": 20,
+       "id": "bind",
+       "opt": {
+        "title": "BINDER",
+        "tsize": 7,
+        "sign": true
+       },
+       "cue": "binds",
+       "at": 1
+      },
+      {
+       "p": "person",
+       "x": 138,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "happy"
+       },
+       "id": "sam",
+       "cue": "binds",
+       "at": 1
+      }
+     ]
+    },
+    {
+     "label": "Bind it for 15 days while she waits",
+     "ok": false,
+     "fail": "15 days is the company's deadline to file her appointment. It's no free pass: she can't bind until it appoints her.",
+     "beats": [
+      {
+       "text": "Dana invents a 15-day trial binder. Nope: 15 days is the company's deadline to file her appointment.",
+       "say": "Dana invents a fifteen-day trial binder. Nope: fifteen days is the company's deadline to file her appointment."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 22,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "dana"
+      },
+      {
+       "p": "policy",
+       "x": 50,
+       "y": 24,
+       "h": 22,
+       "id": "trial",
+       "opt": {
+        "title": "TRIAL",
+        "tsize": 8
+       }
+      },
+      {
+       "p": "label",
+       "x": 50,
+       "y": 41,
+       "text": "15-day trial binder",
+       "size": 4.2,
+       "w": 30,
+       "bold": true
+      },
+      {
+       "p": "xout",
+       "on": "trial",
+       "cue": "Nope",
+       "sfx": "buzz"
+      },
+      {
+       "p": "calendar",
+       "x": 104,
+       "y": 22,
+       "h": 24,
+       "id": "cal",
+       "opt": {
+        "n": "15"
+       },
+       "cue": "deadline"
+      },
+      {
+       "p": "label",
+       "x": 104,
+       "y": 44,
+       "text": "The company's filing deadline",
+       "size": 4.2,
+       "w": 50,
+       "color": "blue",
+       "bold": true,
+       "cue": "deadline"
+      }
+     ]
     }
    ]
   },
   {
    "type": "hook",
-   "title": "The counselor's written agreement",
-   "src": "MCL 500.1236; MCL 500.1232",
-   "mn": "mn-mn_reg-05",
-   "hook": "2-2-0: 2 signatures before the work, 2 years of record-keeping after, 0 fee waivers ever.",
-   "items": [
-    "2 signatures: counselor and client sign before any service",
-    "States the work and the fee; discloses any commission as an agent",
-    "0 waivers: the fee may not be waived under any circumstances",
-    "2 years: keep a copy at least 2 years after the services"
-   ],
-   "beats": [
-    {
-     "text": "For counselors: 2-2-0. 2 signatures: counselor and client sign a written agreement before any work.",
-     "say": "For counselors: two, two, zero. Two signatures: counselor and client sign a written agreement before any work.",
-     "show": 1
-    },
-    {
-     "text": "It describes the work, states the fee, and discloses any commission the counselor earns as an agent.",
-     "say": "It describes the work, states the fee, and discloses any commission the counselor earns as an agent.",
-     "show": 2
-    },
-    {
-     "text": "0 waivers: the fee may not be waived under any circumstances, even if the client buys through the counselor.",
-     "say": "Zero waivers: the fee may not be waived under any circumstances, even if the client buys through the counselor.",
-     "show": 3
-    },
-    {
-     "text": "And 2 years: the counselor keeps a copy for at least 2 years after the services.",
-     "say": "And two years: the counselor keeps a copy for at least two years after the services.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "hook",
-   "title": "Reinstate, move in, temporary license",
-   "src": "MCL 500.1206(3); MCL 500.1206b(2); MCL 500.1211b",
-   "mn": "mn-mn_reg-11",
-   "hook": "A year, a season, a half-year: 12 months to reinstate, 90 days to move in, 180 days on a temp license.",
-   "items": [
-    "12 months: reinstate a license that lapsed for a non-CE reason, no exam",
-    "90 days: moved to Michigan? Apply as a resident; no PE or exam for lines held",
-    "Up to 180 days: temporary license, no exam, for example after a producer dies"
-   ],
-   "beats": [
-    {
-     "text": "Next, 12 months: a license that lapsed for a non-CE reason can be reinstated without an exam.",
-     "say": "Next, twelve months: a license that lapsed for a non C E reason can be reinstated without an exam.",
-     "show": 1
-    },
-    {
-     "text": "90 days: licensed in another state and moving to Michigan? Apply for a resident license, with no prelicensing education or exam for lines already held.",
-     "say": "Ninety days: licensed in another state and moving to Michigan? Apply for a resident license, with no prelicensing education or exam for lines already held.",
-     "show": 2
-    },
-    {
-     "text": "Up to 180 days: a temporary license with no exam, for example for the surviving spouse of a producer who dies.",
-     "say": "Up to one hundred eighty days: a temporary license with no exam, for example for the surviving spouse of a producer who dies.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "hook",
-   "title": "Appointment and termination deadlines",
-   "src": "MCL 500.1208a(2),(3); MCL 500.1208b(1),(2),(4)",
+   "title": "The company's deadlines",
+   "src": "MCL 500.1208a(3); MCL 500.1208b(1),(2),(4); memory hook mn_reg-01",
    "mn": "mn-mn_reg-01",
    "hook": "Hire 15. Fire 30. Mail 15. Talk back 30. Picture a revolving agency door with four stickers: in, out, envelope, reply.",
    "items": [
-    "Hire 15: appointment filed within 15 days of contract or first application",
-    "Fire 30: director notified within 30 days after the termination's effective date",
-    "Mail 15: copy to the producer within 15 days after notifying the director",
-    "Talk back 30: producer may file written comments within 30 days"
+    "Hire 15: appointment filed within 15 days of the contract or first application, whichever is first",
+    "Fire 30: director told within 30 days after a termination takes effect, for cause or not",
+    "Mail 15: copy to producer within 15 days after telling director; certified or overnight if for cause",
+    "Talk back 30: the producer may file written comments within 30 days after receiving it"
    ],
    "beats": [
     {
-     "text": "Now appointments. Your license alone doesn't let you bind for an insurer; that insurer must appoint you first.",
-     "say": "Now appointments. Your license alone doesn't let you bind for an insurer; that insurer must appoint you first.",
-     "show": 0
+     "text": "Hire 15: the company files Dana's appointment within 15 days of her contract or first application, whichever comes first.",
+     "say": "Hire fifteen: the company files Dana's appointment within fifteen days of her contract or first application, whichever comes first.",
+     "show": 1,
+     "hl": "hire"
     },
     {
-     "text": "Hire 15: the insurer files your notice of appointment within 15 days of the agency contract or your first application, whichever comes first.",
-     "say": "Hire fifteen: the insurer files your notice of appointment within fifteen days of the agency contract or your first application, whichever comes first.",
-     "show": 1
+     "text": "Fire 30: if it ends her contract, for cause or not, it tells the director within 30 days after the effective date.",
+     "say": "Fire thirty: if it ends her contract, for cause or not, it tells the director within thirty days after the effective date.",
+     "show": 2,
+     "hl": "fire"
     },
     {
-     "text": "Fire 30: after any termination, for cause or not, the insurer notifies the director within 30 days after the effective date.",
-     "say": "Fire thirty: after any termination, for cause or not, the insurer notifies the director within thirty days after the effective date.",
-     "show": 2
+     "text": "Mail 15: within 15 days after that, it mails Dana a copy, by certified mail or overnight delivery if for cause.",
+     "say": "Mail fifteen: within fifteen days after that, it mails Dana a copy, by certified mail or overnight delivery if for cause.",
+     "show": 3,
+     "hl": "mail"
     },
     {
-     "text": "Mail 15: within 15 days after that, the insurer mails you a copy, by certified mail or overnight delivery if for cause.",
-     "say": "Mail fifteen: within fifteen days after that, the insurer mails you a copy, by certified mail or overnight delivery if for cause.",
-     "show": 3
+     "text": "Talk back 30: Dana may file written comments within 30 days after receiving it.",
+     "say": "Talk back thirty: Dana may file written comments within thirty days after receiving it.",
+     "show": 4,
+     "hl": "talk"
+    }
+   ],
+   "draw": [
+    {
+     "p": "box",
+     "x": 40,
+     "y": 36,
+     "w": 20,
+     "hh": 44,
+     "color": "brown",
+     "title": "AGENCY",
+     "size": 3.4,
+     "id": "door"
     },
     {
-     "text": "Talk back 30: you may file written comments within 30 days after receiving it.",
-     "say": "Talk back thirty: you may file written comments within thirty days after receiving it.",
-     "show": 4
+     "p": "circle",
+     "x": 46.5,
+     "y": 38,
+     "r": 1.1,
+     "color": "brown",
+     "fill": "brown"
+    },
+    {
+     "p": "calendar",
+     "x": 13,
+     "y": 13,
+     "h": 13,
+     "id": "hire",
+     "opt": {
+      "n": "15"
+     },
+     "label": "Hire: file it",
+     "lsize": 3.8,
+     "lw": 26
+    },
+    {
+     "p": "handshake",
+     "x": 40,
+     "y": 22,
+     "h": 8,
+     "over": true
+    },
+    {
+     "p": "calendar",
+     "x": 67,
+     "y": 13,
+     "h": 13,
+     "id": "fire",
+     "opt": {
+      "n": "30"
+     },
+     "label": "Fire: tell director",
+     "lsize": 3.8,
+     "lw": 26,
+     "at": 1
+    },
+    {
+     "p": "scissors",
+     "x": 40,
+     "y": 32,
+     "h": 8,
+     "at": 1,
+     "over": true
+    },
+    {
+     "p": "calendar",
+     "x": 13,
+     "y": 45,
+     "h": 13,
+     "id": "mail",
+     "opt": {
+      "n": "15"
+     },
+     "label": "Mail: copy to Dana",
+     "lsize": 3.8,
+     "lw": 26,
+     "at": 2
+    },
+    {
+     "p": "envelope",
+     "x": 40,
+     "y": 42,
+     "h": 7,
+     "at": 2,
+     "over": true
+    },
+    {
+     "p": "calendar",
+     "x": 67,
+     "y": 45,
+     "h": 13,
+     "id": "talk",
+     "opt": {
+      "n": "30"
+     },
+     "label": "Dana talks back",
+     "lsize": 3.8,
+     "lw": 26,
+     "at": 3
+    },
+    {
+     "p": "icon",
+     "x": 40,
+     "y": 51,
+     "name": "message-square-reply",
+     "h": 8,
+     "color": "blue",
+     "at": 3,
+     "over": true
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "An insurer signs an agency contract with you on May 1, and your first application goes in on May 10. When must the insurer file your notice of appointment?",
+   "q": "An insurer signs an agency contract with Dana on May 1. Her first application to it goes in on May 10. When must it file her notice of appointment?",
    "choices": [
     "Within 15 days of May 1",
     "Within 15 days of May 10",
@@ -227,219 +952,1483 @@
    "why": "The notice is due within 15 days of whichever comes first: the contract or the first application. Thirty days is the director's limit to verify eligibility.",
    "beats": [
     {
-     "text": "Try this. An insurer signs an agency contract with you on May 1, and your first application goes in on May 10. When is your notice of appointment due? Pick an answer.",
-     "say": "Try this. An insurer signs an agency contract with you on May first, and your first application goes in on May tenth. When is your notice of appointment due? Pick an answer."
+     "text": "Your turn. Contract signed May 1, first application May 10. When is Dana's appointment notice due?",
+     "say": "Your turn. Contract signed May first, first application May tenth. When is Dana's appointment notice due?"
     }
    ],
    "reveal": [
     {
-     "text": "Within 15 days of May 1, because the contract came first. Thirty days is the director's limit to verify your eligibility, not the filing deadline.",
-     "say": "Within fifteen days of May first, because the contract came first. Thirty days is the director's limit to verify your eligibility, not the filing deadline."
+     "text": "Within 15 days of May 1: the contract came first. Thirty days is the director's limit to verify her eligibility, not the filing deadline.",
+     "say": "Within fifteen days of May first: the contract came first. Thirty days is the director's limit to verify her eligibility, not the filing deadline."
+    }
+   ],
+   "draw": [
+    {
+     "p": "calendar",
+     "x": 18,
+     "y": 16,
+     "h": 18,
+     "opt": {
+      "n": "1"
+     },
+     "label": "May 1: contract signed",
+     "lsize": 3.8,
+     "lw": 30
+    },
+    {
+     "p": "calendar",
+     "x": 60,
+     "y": 16,
+     "h": 18,
+     "opt": {
+      "n": "10"
+     },
+     "label": "May 10: first application",
+     "lsize": 3.8,
+     "lw": 30
+    },
+    {
+     "p": "person",
+     "x": 40,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "think",
+      "mood": "neutral"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "question",
+     "x": 56,
+     "y": 48,
+     "h": 12,
+     "color": "blue"
     }
    ]
   },
   {
-   "type": "scenario",
-   "title": "When an auto and home insurer ends a contract",
-   "src": "MCL 500.1208b(2); MCL 500.1209(1),(2),(3)",
-   "icon": "house",
-   "story": "Lakeshore Mutual, an auto and home insurer, ends its contract with Maria, a Grand Rapids producer. She sent 18 home and auto applications in the past 12 months. She owns the renewal rights, and her contract is silent about what happens next.",
-   "items": [
-    {
-     "label": "Allowed reason",
-     "detail": "Fewer than 25 home and auto applications in the preceding 12 months"
-    },
-    {
-     "label": "Never mainly for location",
-     "detail": "Not based primarily on where her business is located"
-    },
-    {
-     "label": "Notice to the director",
-     "detail": "Within 30 days after the termination's effective date"
-    },
-    {
-     "label": "Her existing policies",
-     "detail": "She may service them; no binding new risks, renewing, or increasing Lakeshore's obligation without approval"
-    }
-   ],
-   "answer": "Allowed. Maria may service her existing policies, and Lakeshore can't cancel or nonrenew them because her contract ended.",
+   "type": "choice",
+   "title": "The boss's call: how to drop Dana",
+   "src": "MCL 500.1209(2),(3),(4); MCL 500.1208b(2); questions reg-003, reg-005; memory hooks mn_reg-01, mn_reg-02",
+   "ask": "Which move is legal?",
    "beats": [
     {
-     "text": "Let's apply it. Lakeshore Mutual, an auto and home insurer, ends Maria's contract after just 18 home and auto applications in 12 months. Is that allowed? What can she still do?",
-     "say": "Let's apply it. Lakeshore Mutual, an auto and home insurer, ends Maria's contract after just eighteen home and auto applications in twelve months. Is that allowed? What can she still do?",
-     "show": 0
+     "text": "A year later, the company, an auto and home insurer, wants to drop Dana: just 18 home and auto applications in 12 months. She owns her renewal rights. Which move is legal?",
+     "say": "A year later, the company, an auto and home insurer, wants to drop Dana: just eighteen home and auto applications in twelve months. She owns her renewal rights. Which move is legal?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Fired for Conduct or Count, not for County.",
+     "say": "Fired for Conduct or Count, not for County."
     },
     {
-     "text": "Auto and home insurers may end that authority only for conduct, like malfeasance or a Code violation, or for count: fewer than 25 applications in 12 months. Eighteen qualifies.",
-     "say": "Auto and home insurers may end that authority only for conduct, like malfeasance or a Code violation, or for count: fewer than twenty-five applications in twelve months. Eighteen qualifies.",
-     "show": 1
+     "text": "In Michigan, that's what she did or how few applications she sent, never mainly where her business is.",
+     "say": "In Michigan, that's what she did or how few applications she sent, never mainly where her business is."
+    }
+   ],
+   "draw": [
+    {
+     "p": "insurer",
+     "x": 20,
+     "y": 20,
+     "h": 26,
+     "id": "ins"
     },
     {
-     "text": "But never mainly because of where her business is located. Fired for Conduct or Count, not for County.",
-     "say": "But never mainly because of where her business is located. Fired for Conduct or Count, not for County.",
-     "show": 2
+     "p": "person",
+     "x": 54,
+     "y": 31,
+     "h": 38,
+     "opt": {
+      "who": "boss",
+      "pose": "think",
+      "mood": "smirk"
+     },
+     "id": "boss"
     },
     {
-     "text": "Lakeshore still notifies the director within 30 days after the effective date.",
-     "say": "Lakeshore still notifies the director within thirty days after the effective date.",
-     "show": 3
+     "p": "bubble",
+     "x": 78,
+     "y": 7,
+     "text": "How do we drop Dana?",
+     "w": 32,
+     "to": "boss",
+     "think": true
     },
     {
-     "text": "She owns renewal rights and her contract is silent, so she may service existing policies but not bind, renew or increase Lakeshore's obligation without approval. And Lakeshore can't cancel or nonrenew them because she was terminated.",
-     "say": "She owns renewal rights and her contract is silent, so she may service existing policies but not bind, renew or increase Lakeshore's obligation without approval. And Lakeshore can't cancel or nonrenew them because she was terminated.",
-     "show": 4,
-     "answer": true
+     "p": "person",
+     "x": 108,
+     "y": 31,
+     "h": 38,
+     "opt": {
+      "who": "dana",
+      "mood": "worried"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "clipboard",
+     "x": 138,
+     "y": 20,
+     "h": 18,
+     "id": "apps"
+    },
+    {
+     "p": "label",
+     "x": 138,
+     "y": 38,
+     "text": "18 apps in 12 months",
+     "size": 5,
+     "w": 34,
+     "bold": true
+    }
+   ],
+   "options": [
+    {
+     "label": "Drop her for her office's location",
+     "ok": false,
+     "fail": "Auto and home insurers may not end a producer's contract based primarily on where her business is located.",
+     "beats": [
+      {
+       "text": "The boss circles Grand Rapids. Not allowed: never mainly because of where her business is.",
+       "say": "The boss circles Grand Rapids. Not allowed: never mainly because of where her business is."
+      }
+     ],
+     "draw": [
+      {
+       "p": "michigan",
+       "x": 34,
+       "y": 27,
+       "h": 44,
+       "id": "mi",
+       "opt": {
+        "pin": "grandrapids"
+       }
+      },
+      {
+       "p": "circle",
+       "x": 38.5,
+       "y": 39.5,
+       "r": 5,
+       "color": "red",
+       "cue": "circles",
+       "over": true
+      },
+      {
+       "p": "label",
+       "x": 34,
+       "y": 54,
+       "text": "Dana's office: Grand Rapids",
+       "size": 4.4,
+       "bold": true,
+       "color": "red",
+       "cue": "circles"
+      },
+      {
+       "p": "person",
+       "x": 82,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "boss",
+        "pose": "point",
+        "mood": "smirk"
+       },
+       "flip": true,
+       "id": "boss"
+      },
+      {
+       "p": "label",
+       "x": 122,
+       "y": 32,
+       "text": "Not for location!",
+       "size": 6,
+       "color": "red",
+       "bold": true,
+       "cue": "allowed",
+       "sfx": "buzz"
+      }
+     ]
+    },
+    {
+     "label": "Drop her for low count; tell the director",
+     "ok": true,
+     "win": "Only conduct or count: under 25 home and auto apps in 12 months, or malfeasance, breach of trust, a Code violation or failure to perform.",
+     "beats": [
+      {
+       "text": "Allowed: under 25 home and auto applications in 12 months. It still tells the director within 30 days after it takes effect.",
+       "say": "Allowed: under twenty-five home and auto applications in twelve months. It still tells the director within thirty days after it takes effect."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 20,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "boss",
+        "pose": "hold",
+        "mood": "neutral",
+        "hold": "clipboard"
+       },
+       "id": "boss"
+      },
+      {
+       "p": "stamp",
+       "x": 58,
+       "y": 12,
+       "text": "Allowed",
+       "color": "green",
+       "size": 6,
+       "cue": "Allowed"
+      },
+      {
+       "p": "label",
+       "x": 58,
+       "y": 25,
+       "text": "Under 25 apps in 12 months",
+       "size": 5,
+       "w": 50,
+       "color": "green",
+       "bold": true,
+       "cue": "Allowed"
+      },
+      {
+       "p": "envelope",
+       "x": 54,
+       "y": 40,
+       "h": 9,
+       "id": "env",
+       "cue": "director",
+       "move": {
+        "to": [
+         106,
+         40
+        ],
+        "at": 0,
+        "cue": "director",
+        "dur": 1.4,
+        "sfx": "whoosh"
+       }
+      },
+      {
+       "p": "label",
+       "x": 82,
+       "y": 51,
+       "text": "Notice within 30 days",
+       "size": 5,
+       "color": "blue",
+       "bold": true,
+       "cue": "director"
+      },
+      {
+       "p": "person",
+       "x": 136,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "regulator",
+        "mood": "neutral"
+       },
+       "id": "dir",
+       "cue": "director",
+       "label": "Director",
+       "lsize": 4.2
+      }
+     ]
+    },
+    {
+     "label": "Drop her for low count; skip the paperwork",
+     "ok": false,
+     "fail": "Any termination, for cause or not, even for low production, is reported to the director within 30 days after its effective date.",
+     "failAt": [
+      96,
+      50
+     ],
+     "beats": [
+      {
+       "text": "The boss drops Dana and files nothing. Not allowed: even a low-count termination is reported to the director within 30 days.",
+       "say": "The boss drops Dana and files nothing. Not allowed: even a low-count termination is reported to the director within thirty days."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 22,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "boss",
+        "pose": "shrug",
+        "mood": "smirk"
+       },
+       "id": "boss"
+      },
+      {
+       "p": "policy",
+       "x": 56,
+       "y": 25,
+       "h": 22,
+       "id": "notice",
+       "opt": {
+        "title": "NOTICE",
+        "tsize": 6
+       }
+      },
+      {
+       "p": "xout",
+       "on": "notice",
+       "cue": "nothing",
+       "sfx": "buzz"
+      },
+      {
+       "p": "label",
+       "x": 56,
+       "y": 43,
+       "text": "No notice filed",
+       "size": 4.8,
+       "color": "red",
+       "bold": true,
+       "cue": "nothing"
+      },
+      {
+       "p": "calendar",
+       "x": 96,
+       "y": 22,
+       "h": 18,
+       "opt": {
+        "n": "30"
+       },
+       "label": "Due within 30 days",
+       "lsize": 4.2,
+       "cue": "30"
+      },
+      {
+       "p": "person",
+       "x": 134,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "regulator",
+        "pose": "stop",
+        "mood": "angry"
+       },
+       "flip": true,
+       "id": "dir",
+       "label": "Director",
+       "lsize": 4.2,
+       "anim": "slide-l",
+       "cue": "director"
+      }
+     ]
     }
    ]
   },
   {
-   "type": "table",
-   "title": "Report it on time",
-   "src": "MCL 500.1206(5); .1238(1); .1211a; .1247(1),(2)",
-   "columns": [
-    "Event",
-    "Deadline"
+   "type": "swipe",
+   "title": "After the contract ends: what may Dana do?",
+   "src": "MCL 500.1209(1); question reg-006",
+   "options": [
+    "Allowed",
+    "Needs approval"
    ],
-   "items": [
-    [
-     "Legal name, address, mailing or email change",
-     "Within 30 days"
-    ],
-    [
-     "Using an assumed name",
-     "Before you use it"
-    ],
-    [
-     "Administrative action, other state or agency",
-     "30 days after final disposition"
-    ],
-    [
-     "Criminal prosecution, anywhere",
-     "30 days after the initial pretrial hearing"
-    ]
+   "cards": [
+    {
+     "text": "Sam asks a question about his existing policy with that company. Dana answers it.",
+     "answer": 0,
+     "why": "Servicing existing policies is allowed when her agreement is silent about this period.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 24,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "sam",
+        "pose": "hold",
+        "mood": "worried",
+        "hold": "phone"
+       },
+       "id": "sam"
+      },
+      {
+       "p": "question",
+       "x": 48,
+       "y": 14,
+       "h": 13,
+       "color": "blue"
+      },
+      {
+       "p": "person",
+       "x": 76,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "mood": "happy",
+        "hold": "phone"
+       },
+       "flip": true,
+       "id": "dana"
+      }
+     ]
+    },
+    {
+     "text": "Sam's neighbor wants a new home policy. Dana binds it with that company.",
+     "answer": 1,
+     "why": "Binding a new risk for that insurer needs its approval.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 18,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "neighbor",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "nb"
+      },
+      {
+       "p": "house",
+       "x": 50,
+       "y": 30,
+       "h": 28
+      },
+      {
+       "p": "policy",
+       "x": 83,
+       "y": 28,
+       "h": 24,
+       "opt": {
+        "title": "NEW",
+        "tsize": 7
+       }
+      }
+     ]
+    },
+    {
+     "text": "Rosa's auto policy with that company comes up for renewal. Dana renews it.",
+     "answer": 1,
+     "why": "Renewing policies for that insurer needs its approval.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 18,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "rosa",
+        "mood": "happy"
+       },
+       "id": "rosa"
+      },
+      {
+       "p": "car",
+       "x": 50,
+       "y": 38,
+       "h": 15
+      },
+      {
+       "p": "calendar",
+       "x": 84,
+       "y": 24,
+       "h": 20,
+       "opt": {
+        "n": "RENEW",
+        "size": 11
+       }
+      }
+     ]
+    },
+    {
+     "text": "Jen's existing auto policy with that company runs until it expires. Dana keeps servicing it.",
+     "answer": 0,
+     "why": "She stays responsible for existing policies until they are canceled, replaced or expire.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 18,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "jen",
+        "mood": "happy"
+       },
+       "id": "jen"
+      },
+      {
+       "p": "policy",
+       "x": 50,
+       "y": 28,
+       "h": 26,
+       "opt": {
+        "title": "AUTO",
+        "tsize": 7,
+        "sign": true
+       }
+      },
+      {
+       "p": "calendar",
+       "x": 84,
+       "y": 20,
+       "h": 18,
+       "opt": {
+        "n": "END",
+        "size": 14
+       },
+       "label": "Until it expires",
+       "lsize": 5,
+       "lw": 30
+      }
+     ]
+    },
+    {
+     "text": "Sam wants a much higher limit on his policy with that company. Dana raises it.",
+     "answer": 1,
+     "why": "A higher limit increases the insurer's obligation. That needs its approval.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 18,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "sam",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "sam"
+      },
+      {
+       "p": "policy",
+       "x": 50,
+       "y": 28,
+       "h": 26,
+       "opt": {
+        "title": "LIMIT",
+        "tsize": 7
+       }
+      },
+      {
+       "p": "arrow",
+       "from": [
+        80,
+        40
+       ],
+       "to": [
+        80,
+        8
+       ],
+       "bend": 0,
+       "bold": true,
+       "color": "green"
+      },
+      {
+       "p": "label",
+       "x": 80,
+       "y": 48,
+       "text": "Much higher",
+       "size": 5.5,
+       "bold": true,
+       "color": "green"
+      }
+     ]
+    }
    ],
    "beats": [
     {
-     "text": "Keep your record current. Changed your legal name, address, mailing or email address? Tell the director within 30 days.",
-     "say": "Keep your record current. Changed your legal name, address, mailing or email address? Tell the director within thirty days.",
-     "show": 1
+     "text": "Her contract is silent about what happens next. With her renewal rights, she may service existing policies.",
+     "say": "Her contract is silent about what happens next. With her renewal rights, she may service existing policies."
     },
     {
-     "text": "Doing business under any other name? Notify the director before you use it.",
-     "say": "Doing business under any other name? Notify the director before you use it.",
-     "show": 2
+     "text": "But binding new risks, renewing, or raising the company's obligation needs its approval. Swipe.",
+     "say": "But binding new risks, renewing, or raising the company's obligation needs its approval. Swipe."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Service, yes; new, renewed or bigger, ask first. The company can't cancel or nonrenew those policies because her contract ended.",
+     "say": "Service, yes; new, renewed or bigger, ask first. The company can't cancel or nonrenew those policies because her contract ended."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Life happens: tell the director",
+   "src": "MCL 500.1206(5); 500.1238(1); 500.1211a; 500.1247(1),(2); memory hooks mn_reg-06, mn_reg-07",
+   "beats": [
+    {
+     "text": "Dana moves. New address, legal name, mailing address or email? Tell the director within 30 days.",
+     "say": "Dana moves. New address, legal name, mailing address or email? Tell the director within thirty days.",
+     "hl": "truck"
     },
     {
-     "text": "Administrative action by another state or Michigan agency? Report within 30 days after final disposition.",
-     "say": "Administrative action by another state or Michigan agency? Report within thirty days after final disposition.",
-     "show": 3
+     "text": "Doing business as Big Mitten Insurance? That's an assumed name: tell the director before using it. Before the first nail.",
+     "say": "Doing business as Big Mitten Insurance? That's an assumed name: tell the director before using it. Before the first nail.",
+     "hl": "sign"
     },
     {
-     "text": "A criminal prosecution anywhere, felony or not? Within 30 days after the initial pretrial hearing date. Admin at the finish line, criminal at the starting gun.",
-     "say": "A criminal prosecution anywhere, felony or not? Within thirty days after the initial pretrial hearing date. Admin at the finish line, criminal at the starting gun.",
-     "show": 4
+     "text": "Administrative action by another state or another Michigan agency? Report within 30 days after the final disposition.",
+     "say": "Administrative action by another state or another Michigan agency? Report within thirty days after the final disposition.",
+     "hl": "flag"
+    },
+    {
+     "text": "A criminal prosecution anywhere, felony or not? Within 30 days after the initial pretrial hearing. Admin at the finish line, criminal at the starting gun.",
+     "say": "A criminal prosecution anywhere, felony or not? Within thirty days after the initial pretrial hearing. Admin at the finish line, criminal at the starting gun.",
+     "hl": "gavel"
+    }
+   ],
+   "draw": [
+    {
+     "p": "label",
+     "x": 20,
+     "y": 7,
+     "text": "Address, name, email",
+     "size": 3.9,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "p": "truck",
+     "x": 20,
+     "y": 27,
+     "h": 14,
+     "id": "truck",
+     "anim": "slide-r",
+     "cue": "moves"
+    },
+    {
+     "p": "calendar",
+     "x": 20,
+     "y": 47,
+     "h": 12,
+     "opt": {
+      "n": "30"
+     },
+     "cue": "30"
+    },
+    {
+     "p": "label",
+     "x": 20,
+     "y": 59,
+     "text": "Within 30 days",
+     "size": 3.8
+    },
+    {
+     "p": "divider",
+     "x": 40,
+     "y": 34,
+     "y0": 4,
+     "y1": 62,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "x": 60,
+     "y": 7,
+     "text": "Assumed name",
+     "size": 3.9,
+     "bold": true,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "p": "sign",
+     "x": 60,
+     "y": 29,
+     "h": 26,
+     "id": "sign",
+     "opt": {
+      "text": "BIG MITTEN\nINSURANCE",
+      "tcolor": "blue"
+     },
+     "at": 1,
+     "cue": "Mitten"
+    },
+    {
+     "p": "hammer",
+     "x": 75,
+     "y": 41,
+     "h": 8,
+     "at": 1,
+     "cue": "nail"
+    },
+    {
+     "p": "label",
+     "x": 60,
+     "y": 52,
+     "text": "Tell the director before you use it",
+     "size": 3.8,
+     "w": 36,
+     "at": 1,
+     "cue": "before"
+    },
+    {
+     "p": "divider",
+     "x": 80,
+     "y": 34,
+     "y0": 4,
+     "y1": 62,
+     "at": 2
+    },
+    {
+     "p": "label",
+     "x": 100,
+     "y": 7,
+     "text": "Administrative action",
+     "size": 3.9,
+     "bold": true,
+     "color": "blue",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "x": 100,
+     "y": 16,
+     "text": "FINISH",
+     "size": 4.6,
+     "bold": true,
+     "color": "red",
+     "at": 2,
+     "cue": "final"
+    },
+    {
+     "p": "icon",
+     "x": 100,
+     "y": 29,
+     "name": "flag",
+     "h": 13,
+     "id": "flag",
+     "color": "ink",
+     "at": 2,
+     "cue": "Administrative"
+    },
+    {
+     "p": "label",
+     "x": 100,
+     "y": 47,
+     "text": "Finish line: 30 days after final disposition",
+     "size": 3.7,
+     "w": 36,
+     "at": 2,
+     "cue": "final"
+    },
+    {
+     "p": "divider",
+     "x": 120,
+     "y": 34,
+     "y0": 4,
+     "y1": 62,
+     "at": 3
+    },
+    {
+     "p": "label",
+     "x": 140,
+     "y": 7,
+     "text": "Criminal prosecution",
+     "size": 3.9,
+     "bold": true,
+     "color": "blue",
+     "at": 3
+    },
+    {
+     "p": "label",
+     "x": 140,
+     "y": 16,
+     "text": "START",
+     "size": 4.6,
+     "bold": true,
+     "color": "green",
+     "at": 3,
+     "cue": "initial"
+    },
+    {
+     "p": "gavel",
+     "x": 140,
+     "y": 29,
+     "h": 13,
+     "id": "gavel",
+     "at": 3,
+     "cue": "criminal"
+    },
+    {
+     "p": "label",
+     "x": 140,
+     "y": 47,
+     "text": "Starting gun: 30 days after initial pretrial hearing",
+     "size": 3.7,
+     "w": 36,
+     "at": 3,
+     "cue": "initial"
     }
    ]
   },
   {
    "type": "hook",
    "title": "Continuing education numbers",
-   "src": "MCL 500.1206(2); MCL 500.1204c(1),(2),(13); DIFS CE Carryover FAQ",
+   "src": "MCL 500.1206(2); MCL 500.1204c(1),(2),(13); DIFS CE Carryover FAQ; memory hook mn_reg-08",
    "mn": "mn-mn_reg-08",
    "hook": "Every 2 years, spend 1 full day (24 hours) learning, 3 of them on ethics. Leftovers? Take home a dozen (12) at most, and ethics never keeps.",
    "items": [
+    "No fixed expiration: the license stays in force while CE is done on time",
     "24 hours of approved CE every 2 years",
     "At least 3 of the 24 hours in ethics",
-    "Up to 12 extra hours carry over to the next period",
-    "Extra ethics hours never count toward the next period's ethics"
+    "Up to 12 extra hours carry over; extra ethics hours never count as next period's ethics"
    ],
    "beats": [
     {
-     "text": "Your producer license has no fixed expiration. It stays in force as long as you finish CE on time: 24 hours every 2 years.",
-     "say": "Your producer license has no fixed expiration. It stays in force as long as you finish C E on time: twenty-four hours every two years.",
-     "show": 1
+     "text": "Dana's license has no fixed expiration. It stays in force as long as she finishes her continuing education, or CE, on time.",
+     "say": "Dana's license has no fixed expiration. It stays in force as long as she finishes her continuing education, or C E, on time.",
+     "show": 1,
+     "hl": "dana"
     },
     {
-     "text": "At least 3 of those hours must be ethics.",
-     "say": "At least three of those hours must be ethics.",
-     "show": 2
-    },
-    {
-     "text": "Up to 12 extra hours carry over, but extra ethics hours never count toward the next period's ethics requirement.",
-     "say": "Up to twelve extra hours carry over, but extra ethics hours never count toward the next period's ethics requirement.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "The 90-day CE grace period",
-   "src": "MCL 500.1204c(11)",
-   "columns": [
-    {
-     "name": "You may",
-     "icon": "circle-check",
-     "points": [
-      "Service policies you already sold",
-      "Receive commissions on them"
-     ]
-    },
-    {
-     "name": "You may not",
-     "icon": "circle-x",
-     "points": [
-      "Sell or solicit new policies",
-      "Bind coverage",
-      "Otherwise act as a producer"
-     ]
-    }
-   ],
-   "tell": "Still incomplete after 90 days? The director cancels the license, and you must apply again.",
-   "beats": [
-    {
-     "text": "Miss your CE deadline, and a 90-day grace period starts: the 90-day Zamboni. You may resurface the ice you already have and keep collecting on it, but you can't start any new games.",
-     "say": "Miss your C E deadline, and a ninety-day grace period starts: the ninety-day Zamboni. You may resurface the ice you already have and keep collecting on it, but you can't start any new games.",
-     "show": 0
-    },
-    {
-     "text": "So you may service policies you already sold, and receive commissions on them.",
-     "say": "So you may service policies you already sold, and receive commissions on them.",
-     "show": 1
-    },
-    {
-     "text": "You may not sell, solicit, bind, or otherwise act as a producer.",
-     "say": "You may not sell, solicit, bind, or otherwise act as a producer.",
-     "show": 2
-    },
-    {
-     "text": "Still incomplete after 90 days? The director cancels your license, and you must apply again.",
-     "say": "Still incomplete after ninety days? The director cancels your license, and you must apply again.",
+     "text": "In Michigan, every 2 years, she spends 1 full day learning: 24 hours.",
+     "say": "In Michigan, every two years, she spends one full day learning: twenty-four hours.",
      "show": 2,
-     "tell": true
+     "hl": "clock"
+    },
+    {
+     "text": "At least 3 of them on ethics.",
+     "say": "At least three of them on ethics.",
+     "show": 3,
+     "hl": "scale"
+    },
+    {
+     "text": "Leftovers? Up to 12 extra hours carry over, but extra ethics hours never count as the next period's ethics.",
+     "say": "Leftovers? Up to twelve extra hours carry over, but extra ethics hours never count as the next period's ethics.",
+     "show": 4,
+     "hl": "box"
+    }
+   ],
+   "draw": [
+    {
+     "p": "person",
+     "x": 16,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "laptop"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "idcard",
+     "x": 40,
+     "y": 37,
+     "h": 8,
+     "id": "card",
+     "opt": {
+      "title": "LICENSE"
+     },
+     "label": "No fixed expiration",
+     "lsize": 3.6,
+     "lw": 26,
+     "at": 0,
+     "cue": "expiration"
+    },
+    {
+     "p": "calendar",
+     "x": 12,
+     "y": 11,
+     "h": 13,
+     "id": "cal",
+     "opt": {
+      "n": "2 yr"
+     },
+     "at": 1,
+     "cue": "years"
+    },
+    {
+     "p": "clock",
+     "x": 37,
+     "y": 11,
+     "h": 12,
+     "id": "clock",
+     "opt": {
+      "h": 12,
+      "m": 0
+     },
+     "label": "1 full day: 24 hours",
+     "lsize": 3.8,
+     "at": 1,
+     "cue": "24",
+     "lw": 28
+    },
+    {
+     "p": "scale",
+     "x": 64,
+     "y": 11,
+     "h": 12,
+     "id": "scale",
+     "label": "3 ethics",
+     "lsize": 3.8,
+     "at": 2,
+     "cue": "ethics"
+    },
+    {
+     "p": "parcel",
+     "x": 64,
+     "y": 51,
+     "h": 13,
+     "id": "box",
+     "label": "Carry over: 12 max",
+     "lsize": 3.8,
+     "at": 3,
+     "cue": "Leftovers"
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "Your CE deadline passed 20 days ago and your hours aren't done. A neighbor asks you to bind a new homeowners policy today. What may you do?",
-   "choices": [
-    "Bind it, because you're within the 90-day grace period",
-    "Bind it once you enroll in an approved CE course",
-    "Decline; you may only service existing policies and collect their commissions",
-    "Decline, and also stop taking commissions on policies you already sold"
-   ],
-   "answer": 2,
-   "why": "During the 90-day grace period you may service policies you already sold and receive commissions on them, but you may not sell, solicit or bind coverage.",
+   "type": "choice",
+   "title": "Dana's call: Tony wants a policy today",
+   "src": "MCL 500.1204c(11); question reg-028; memory hook mn_reg-09",
+   "ask": "What does Dana do?",
    "beats": [
     {
-     "text": "Your CE deadline passed 20 days ago with hours unfinished. A neighbor asks you to bind a new homeowners policy. What may you do? Pick an answer.",
-     "say": "Your C E deadline passed twenty days ago with hours unfinished. A neighbor asks you to bind a new homeowners policy. What may you do? Pick an answer."
+     "text": "Dana's CE deadline passed 20 days ago, hours unfinished. In Michigan, that starts a 90-day grace period: neither normal business nor a shutdown.",
+     "say": "Dana's C E deadline passed twenty days ago, hours unfinished. In Michigan, that starts a ninety-day grace period: neither normal business nor a shutdown."
+    },
+    {
+     "text": "Dana! Can you get me a new policy today?",
+     "say": "Dana! Can you get me a new policy today?",
+     "voice": "tony"
+    },
+    {
+     "text": "What does Dana do?",
+     "say": "What does Dana do?"
     }
    ],
    "reveal": [
     {
-     "text": "Decline. You may service existing policies and collect their commissions, but you can't bind or sell, even after enrolling in a course.",
-     "say": "Decline. You may service existing policies and collect their commissions, but you can't bind or sell, even after enrolling in a course."
+     "text": "The 90-day Zamboni: resurface the ice you already have and keep collecting on it, but start no new games.",
+     "say": "The ninety-day Zamboni: resurface the ice you already have and keep collecting on it, but start no new games."
+    },
+    {
+     "text": "Not done after 90 days? The director cancels the license, and Dana must apply again.",
+     "say": "Not done after ninety days? The director cancels the license, and Dana must apply again."
+    }
+   ],
+   "draw": [
+    {
+     "p": "restaurant",
+     "x": 18,
+     "y": 22,
+     "h": 28,
+     "id": "shop",
+     "opt": {
+      "name": "TONY'S PIZZA"
+     },
+     "at": 1
+    },
+    {
+     "p": "person",
+     "x": 48,
+     "y": 31,
+     "h": 38,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pizza"
+     },
+     "id": "tony",
+     "at": 1
+    },
+    {
+     "p": "bubble",
+     "x": 72,
+     "y": 7,
+     "text": "A new policy today?",
+     "w": 28,
+     "to": "tony",
+     "at": 1,
+     "cue": "policy"
+    },
+    {
+     "p": "person",
+     "x": 96,
+     "y": 31,
+     "h": 38,
+     "opt": {
+      "who": "dana",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "calendar",
+     "x": 128,
+     "y": 17,
+     "h": 18,
+     "id": "cal",
+     "opt": {
+      "n": "90"
+     },
+     "cue": "grace"
+    },
+    {
+     "p": "hourglass",
+     "x": 148,
+     "y": 17,
+     "h": 18,
+     "opt": {
+      "sand": 0.75
+     },
+     "cue": "grace"
+    },
+    {
+     "p": "label",
+     "x": 136,
+     "y": 36,
+     "text": "Grace period: day 20 of 90",
+     "size": 5,
+     "w": 40,
+     "color": "orange",
+     "bold": true,
+     "cue": "grace"
+    }
+   ],
+   "options": [
+    {
+     "label": "Bind it. It's only a grace period!",
+     "ok": false,
+     "fail": "During the 90-day grace period a producer may not sell, solicit, bind coverage or otherwise act as a producer.",
+     "beats": [
+      {
+       "text": "Dana binds it. Penalty! In the grace period she can't sell, solicit or bind.",
+       "say": "Dana binds it. Penalty! In the grace period she can't sell, solicit or bind."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 22,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "dana"
+      },
+      {
+       "p": "policy",
+       "x": 48,
+       "y": 27,
+       "h": 24,
+       "id": "bind",
+       "opt": {
+        "title": "BINDER",
+        "tsize": 7
+       },
+       "anim": "stamp",
+       "sfx": "stamp"
+      },
+      {
+       "p": "xout",
+       "on": "bind",
+       "cue": "Penalty",
+       "sfx": "buzz"
+      },
+      {
+       "p": "person",
+       "x": 100,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "regulator",
+        "pose": "stop",
+        "mood": "angry"
+       },
+       "id": "dir",
+       "anim": "slide-l",
+       "cue": "Penalty",
+       "flip": true,
+       "label": "Director",
+       "lsize": 4.2
+      },
+      {
+       "p": "bubble",
+       "x": 78,
+       "y": 7,
+       "text": "Not in the grace period!",
+       "w": 32,
+       "to": "dir",
+       "cue": "Penalty"
+      }
+     ]
+    },
+    {
+     "label": "Sign up for a CE class, then bind it",
+     "ok": false,
+     "fail": "Enrolling in a course doesn't restore selling or binding. In the grace period she may only service old policies and collect their commissions.",
+     "beats": [
+      {
+       "text": "Dana enrolls in a course, then binds. Penalty again: enrolling doesn't restore selling or binding.",
+       "say": "Dana enrolls in a course, then binds. Penalty again: enrolling doesn't restore selling or binding."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 22,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "mood": "happy",
+        "hold": "laptop"
+       },
+       "id": "dana"
+      },
+      {
+       "p": "icon",
+       "x": 48,
+       "y": 20,
+       "name": "graduation-cap",
+       "h": 12,
+       "color": "blue",
+       "id": "cap"
+      },
+      {
+       "p": "label",
+       "x": 48,
+       "y": 32,
+       "text": "Enrolled!",
+       "size": 4.6,
+       "color": "blue",
+       "bold": true
+      },
+      {
+       "p": "policy",
+       "x": 84,
+       "y": 27,
+       "h": 24,
+       "id": "bind",
+       "opt": {
+        "title": "BINDER",
+        "tsize": 7
+       },
+       "cue": "binds"
+      },
+      {
+       "p": "xout",
+       "on": "bind",
+       "cue": "Penalty",
+       "sfx": "buzz"
+      },
+      {
+       "p": "label",
+       "x": 84,
+       "y": 50,
+       "text": "Still no binding",
+       "size": 4.6,
+       "color": "red",
+       "bold": true,
+       "cue": "Penalty"
+      }
+     ]
+    },
+    {
+     "label": "Say no; keep servicing old customers",
+     "ok": true,
+     "win": "She may service policies she already sold and receive their commissions. No selling, soliciting, binding or acting as a producer, even if enrolled.",
+     "beats": [
+      {
+       "text": "Dana turns Tony down, keeps servicing her old customers, and still collects their commissions.",
+       "say": "Dana turns Tony down, keeps servicing her old customers, and still collects their commissions."
+      }
+     ],
+     "draw": [
+      {
+       "p": "label",
+       "x": 50,
+       "y": 8,
+       "text": "Service and commissions: OK",
+       "size": 4.8,
+       "w": 60,
+       "color": "green",
+       "bold": true,
+       "cue": "servicing"
+      },
+      {
+       "p": "person",
+       "x": 20,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "dana"
+      },
+      {
+       "p": "person",
+       "x": 46,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "sam",
+        "mood": "happy"
+       },
+       "id": "sam",
+       "label": "Old customer",
+       "lsize": 4.2
+      },
+      {
+       "p": "coins",
+       "x": 74,
+       "y": 40,
+       "h": 12,
+       "id": "coins",
+       "label": "Commissions",
+       "lsize": 4.2,
+       "cue": "commissions",
+       "sfx": "cash"
+      },
+      {
+       "p": "restaurant",
+       "x": 112,
+       "y": 22,
+       "h": 28,
+       "id": "shop",
+       "opt": {
+        "name": "TONY'S PIZZA"
+       }
+      },
+      {
+       "p": "person",
+       "x": 142,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "sad"
+       },
+       "id": "tony",
+       "cue": "down"
+      },
+      {
+       "p": "policy",
+       "x": 112,
+       "y": 47,
+       "h": 16,
+       "id": "newpol",
+       "opt": {
+        "title": "NEW",
+        "tsize": 9
+       },
+       "cue": "down"
+      },
+      {
+       "p": "xout",
+       "on": "newpol",
+       "cue": "down",
+       "sfx": "buzz"
+      }
+     ]
+    },
+    {
+     "label": "Shut down: no service, no commissions",
+     "ok": false,
+     "fail": "Too cautious. In the grace period she may still service policies she already sold and receive commissions on them.",
+     "beats": [
+      {
+       "text": "Dana locks up, ignores Sam's billing question and refuses her commissions. Too far: she may still service old policies and collect their commissions.",
+       "say": "Dana locks up, ignores Sam's billing question and refuses her commissions. Too far: she may still service old policies and collect their commissions."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 20,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "stop",
+        "mood": "worried"
+       },
+       "id": "dana"
+      },
+      {
+       "p": "sign",
+       "x": 44,
+       "y": 33,
+       "h": 22,
+       "opt": {
+        "text": "CLOSED",
+        "tcolor": "red"
+       },
+       "cue": "locks"
+      },
+      {
+       "p": "person",
+       "x": 76,
+       "y": 31,
+       "h": 38,
+       "opt": {
+        "who": "sam",
+        "pose": "hold",
+        "mood": "sad",
+        "hold": "phone"
+       },
+       "id": "sam",
+       "cue": "billing"
+      },
+      {
+       "p": "bubble",
+       "x": 94,
+       "y": 7,
+       "text": "My bill?",
+       "w": 20,
+       "to": "sam",
+       "cue": "billing"
+      },
+      {
+       "p": "coins",
+       "x": 114,
+       "y": 40,
+       "h": 12,
+       "id": "coins",
+       "cue": "commissions"
+      },
+      {
+       "p": "label",
+       "x": 114,
+       "y": 52,
+       "text": "Her commissions",
+       "size": 4.2,
+       "bold": true,
+       "cue": "commissions"
+      },
+      {
+       "p": "xout",
+       "on": "coins",
+       "cue": "commissions",
+       "sfx": "buzz"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Reinstate, move in, temporary license",
+   "src": "MCL 500.1206(3); MCL 500.1206b(2); MCL 500.1211b; MCL 500.1204c(11); memory hook mn_reg-11",
+   "mn": "mn-mn_reg-11",
+   "hook": "A year, a season, a half-year: 12 months to reinstate, 90 days to move in, 180 days on a temp license.",
+   "items": [
+    "12 months: reinstate a license that lapsed for a non-CE reason, with no exam",
+    "90 days: moved to Michigan? Apply as a resident; no prelicensing course or exam for lines held",
+    "Up to 180 days: a temporary license with no exam, for example after a producer dies"
+   ],
+   "beats": [
+    {
+     "text": "Lapsed for a reason other than CE? Reinstate within 12 months, no exam. Watch out: a license canceled for missing CE doesn't qualify.",
+     "say": "Lapsed for a reason other than C E? Reinstate within twelve months, no exam. Watch out: a license canceled for missing C E doesn't qualify.",
+     "show": 1,
+     "hl": "cal"
+    },
+    {
+     "text": "Moving to Michigan with another state's license? Apply as a resident within 90 days, no prelicensing course or exam for lines held.",
+     "say": "Moving to Michigan with another state's license? Apply as a resident within ninety days, no prelicensing course or exam for lines held.",
+     "show": 2,
+     "hl": "mi"
+    },
+    {
+     "text": "A temporary license, no exam, lasts up to 180 days, for example for the surviving spouse of a producer who dies.",
+     "say": "A temporary license, no exam, lasts up to one hundred eighty days, for example for the surviving spouse of a producer who dies.",
+     "show": 3,
+     "hl": "temp"
+    }
+   ],
+   "draw": [
+    {
+     "p": "calendar",
+     "x": 14,
+     "y": 12,
+     "h": 14,
+     "id": "cal",
+     "opt": {
+      "n": "12"
+     }
+    },
+    {
+     "p": "label",
+     "x": 50,
+     "y": 12,
+     "text": "Reinstate: 12 months, no exam",
+     "size": 4.2,
+     "w": 42,
+     "bold": true
+    },
+    {
+     "p": "truck",
+     "x": 14,
+     "y": 36,
+     "h": 12,
+     "id": "truck",
+     "anim": "slide-r",
+     "at": 1,
+     "cue": "Moving"
+    },
+    {
+     "p": "michigan",
+     "x": 60,
+     "y": 34,
+     "h": 22,
+     "id": "mi",
+     "at": 1,
+     "cue": "Michigan"
+    },
+    {
+     "p": "arrow",
+     "from": "truck",
+     "to": "mi",
+     "label": "90 days",
+     "color": "blue",
+     "at": 1,
+     "cue": "90"
+    },
+    {
+     "p": "certificate",
+     "x": 16,
+     "y": 57,
+     "h": 12,
+     "id": "temp",
+     "opt": {
+      "title": "TEMP"
+     },
+     "at": 2,
+     "cue": "temporary"
+    },
+    {
+     "p": "label",
+     "x": 52,
+     "y": 57,
+     "text": "Temp license: up to 180 days",
+     "size": 4.2,
+     "w": 40,
+     "bold": true,
+     "at": 2,
+     "cue": "180"
     }
    ]
   },
@@ -449,22 +2438,116 @@
    "items": [
     "No binding for an insurer until it appoints you",
     "Hire 15, Fire 30, Mail 15, Talk back 30",
-    "Name or address change: 30 days; assumed name: before use",
-    "Criminal prosecution: 30 days after initial pretrial hearing",
-    "CE: 24 hours every 2 years, 3 in ethics; 90-day service-only grace"
+    "Auto and home: Conduct or Count, not for County",
+    "Legal name, address, email changes: 30 days. Assumed name: before use",
+    "CE: 24 hours every 2 years, 3 ethics; 90-day service-only grace"
    ],
    "beats": [
     {
-     "text": "To recap. No binding until the insurer appoints you. Hire 15, Fire 30, Mail 15, Talk back 30. Name or address changes: 30 days. Assumed names: before use.",
-     "say": "To recap. No binding until the insurer appoints you. Hire fifteen, Fire thirty, Mail fifteen, Talk back thirty. Name or address changes: thirty days. Assumed names: before use.",
+     "text": "No appointment, no binding. Hire 15, Fire 30, Mail 15, Talk back 30. Conduct or Count, not for County.",
+     "say": "No appointment, no binding. Hire fifteen, Fire thirty, Mail fifteen, Talk back thirty. Conduct or Count, not for County.",
      "show": 3
     },
     {
-     "text": "Criminal prosecutions: 30 days after the initial pretrial hearing. And CE: 24 hours every 2 years, 3 in ethics, with a 90-day service-only grace period.",
-     "say": "Criminal prosecutions: thirty days after the initial pretrial hearing. And C E: twenty-four hours every two years, three in ethics, with a ninety-day service-only grace period.",
+     "text": "Legal name and address changes: 30 days. An assumed name: before you use it.",
+     "say": "Legal name and address changes: thirty days. An assumed name: before you use it.",
      "show": 5
+    },
+    {
+     "text": "Note to self: do my CE early.",
+     "say": "Note to self: do my C E early.",
+     "voice": "dana",
+     "show": 5
+    }
+   ],
+   "draw": [
+    {
+     "p": "person",
+     "x": 18,
+     "y": 46,
+     "h": 32,
+     "opt": {
+      "who": "dana",
+      "pose": "cheer",
+      "mood": "laugh"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "bubble",
+     "x": 27,
+     "y": 11,
+     "text": "Note to self: do my CE early!",
+     "w": 30,
+     "to": "dana",
+     "at": 2
+    },
+    {
+     "p": "certificate",
+     "x": 60,
+     "y": 25,
+     "h": 18,
+     "id": "lic",
+     "opt": {
+      "title": "LICENSE",
+      "name": "Dana"
+     }
+    },
+    {
+     "p": "sparkle",
+     "x": 73,
+     "y": 13,
+     "h": 8
+    },
+    {
+     "p": "laptop",
+     "x": 58,
+     "y": 52,
+     "h": 12,
+     "id": "lap",
+     "label": "CE done early",
+     "lsize": 3.8,
+     "at": 2
     }
    ]
   }
+ ],
+ "check": [
+  "reg-001",
+  "reg-006",
+  "reg-018",
+  "reg-025",
+  "reg-028"
+ ],
+ "hooks": [
+  "mn-mn_reg-01",
+  "mn-mn_reg-02",
+  "mn-mn_reg-04",
+  "mn-mn_reg-05",
+  "mn-mn_reg-06",
+  "mn-mn_reg-07",
+  "mn-mn_reg-08",
+  "mn-mn_reg-09",
+  "mn-mn_reg-11"
+ ],
+ "sources": [
+  "MCL 500.1201(d),(h); MCL 500.1201a(1)",
+  "MCL 500.1205(1),(2)",
+  "MCL 500.1206(2),(3),(5)",
+  "MCL 500.1206b(2)",
+  "MCL 500.1208a(1),(2),(3),(4)",
+  "MCL 500.1208b(1),(2),(4)",
+  "MCL 500.1209(1),(2),(3),(4)",
+  "MCL 500.1211(1); MCL 500.1212",
+  "MCL 500.1211a",
+  "MCL 500.1211b",
+  "MCL 500.1232; MCL 500.1236",
+  "MCL 500.1238(1)",
+  "MCL 500.1247(1),(2)",
+  "MCL 500.1204c(1),(2),(11),(13)",
+  "DIFS CE Carryover FAQ",
+  "IRMI glossary: \"binder\"",
+  "PSI 16-81 content outline (Sept 2021)",
+  "Memory hooks mn_reg-01, -02, -04, -05, -06, -07, -08, -09, -11"
  ]
 }

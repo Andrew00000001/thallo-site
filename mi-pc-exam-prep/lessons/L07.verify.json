@@ -1,27 +1,70 @@
 {
  "id": "L07",
- "beats": 34,
+ "beats": 58,
  "mismatches": [
   {
    "scene": 1,
    "beat": 1,
-   "say": "The insuring agreement is the insurer's promise to pay. It starts broad, and exclusions and definitions narrow it.",
-   "heard": "The Ensuring Agreement is the insurer's promise to pay. It starts broad and exclusions and definitions narrow it.",
-   "wer": 0.062
+   "say": "Roll the DICE: Declarations, Insuring agreement, Conditions, Exclusions. Definitions explain the words in quotes; endorsements change the game.",
+   "heard": "Roll the dice. Declarations, ensuring agreement, conditions, exclusions. Definitions explain the words in quotes. Endorsements change the game.",
+   "wer": 0.056,
+   "voice": "dana"
   },
   {
-   "scene": 6,
-   "beat": 1,
-   "say": "Pro rata, or contribution by limits, pays by each insurer's share of the total limits. Limits of three hundred thousand dollars and two hundred thousand dollars split a covered loss three-fifths and two-fifths.",
-   "heard": "Pro Rada, or contribution by limits, pays by each insurer's share of the total limits. Limits of $300,000 and $200,000 split a covered loss three-fifths and two-fifths.",
-   "wer": 0.03
+   "scene": 1,
+   "beat": 3,
+   "say": "Who, where, when and how much: declarations. The promise: insuring agreement. The rules: conditions. The we-don't-cover list: exclusions.",
+   "heard": "who, where, when, and how much declarations, the promise, ensuring agreement, the rules, conditions, that we do not cover list exclusions.",
+   "wer": 0.1,
+   "voice": "narrator"
   },
   {
-   "scene": 11,
+   "scene": 2,
+   "beat": 0,
+   "say": "Who's insured? Tony and his grandma co-own the pizzeria, and the policy names both: two named insureds.",
+   "heard": "Who's insured? Tony and his grandma co-own the pizzeria and the policy names both, two named inshords.",
+   "wer": 0.062,
+   "voice": "narrator"
+  },
+  {
+   "scene": 4,
+   "beat": "o1:0",
+   "say": "Found it: duties after loss. One duty: give the insurer prompt notice. Tony calls right away.",
+   "heard": "Found at duties after loss, one duty, give the insurer prompt notice. Tony calls right away.",
+   "wer": 0.062,
+   "voice": "narrator"
+  },
+  {
+   "scene": 5,
+   "beat": 0,
+   "say": "Wednesday, the adjuster tallies seventy thousand dollars of fire damage to Tony's ovens and kitchen equipment. His twenty twelve property form insures them: limit sixty thousand dollars, deductible two hundred fifty dollars, no coinsurance penalty.",
+   "heard": "Wednesday, the adjuster tallies $70,000 of fire damage to Tony's ovens and kitchen equipment. His 2012 property form ensures them. Limit $60,000. Deductible $250. No coinsurance penalty.",
+   "wer": 0.029,
+   "voice": "narrator"
+  },
+  {
+   "scene": 8,
+   "beat": 2,
+   "say": "Equal shares: alike until a limit is used up. The trap: one hundred eighty-seven thousand five hundred dollars, the big policy's share by limits.",
+   "heard": "Equal shares, a like until a limit is used up. The Trap, $187,500, the big policies share by limits.",
+   "wer": 0.12,
+   "voice": "narrator"
+  },
+  {
+   "scene": 9,
+   "beat": 2,
+   "say": "For Tony, that's injury away from his premises from his product, like takeout pizza that makes someone sick at home.",
+   "heard": "For Tony, that's injury away from his premises from his product, like take-out pizza that makes someone sick at home.",
+   "wer": 0.1,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
    "beat": 1,
-   "say": "Pro rata shares by limits, equal shares pay alike until a limit is used up, and split limits cap each person first.",
-   "heard": "Pro Rada shares buy limits, equal shares pay a like until a limit is used up, and split limits cap each person first.",
-   "wer": 0.19
+   "say": "Equal shares pay alike until a limit runs out; split limits cap each person first.",
+   "heard": "Equal shares pay a like until a limit runs out. Split limits cap each person first.",
+   "wer": 0.133,
+   "voice": "narrator"
   }
  ]
 }

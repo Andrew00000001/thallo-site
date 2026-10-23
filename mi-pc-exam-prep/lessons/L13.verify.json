@@ -1,62 +1,126 @@
 {
  "id": "L13",
- "beats": 28,
+ "beats": 60,
  "mismatches": [
   {
    "scene": 1,
-   "beat": 1,
-   "say": "Coverage F, Medical Payments to Others, pays medical expenses incurred within three years of the accident. It never covers you or regular residents of your household, except residence employees.",
-   "heard": "Coverage F, medical payments to others, pays medical expenses incurred within three years of the accident. It never covers you or regular residents of your household, except residents' employees.",
-   "wer": 0.034
-  },
-  {
-   "scene": 3,
-   "beat": 1,
-   "say": "The nine-year-old's accident. Intentional damage by an insured thirteen or older isn't covered, and neither is property an insured owns.",
-   "heard": "the nine-year-old's accident. Intentional damage by an insured 13 or older is not covered, and neither is property and insured owns.",
-   "wer": 0.045
-  },
-  {
-   "scene": 4,
    "beat": 0,
-   "say": "Jake owns a fishing boat with a forty horsepower outboard. He bought it three years ago and never reported it. On Houghton Lake, he injures a swimmer. Does his H O three Coverage E apply?",
-   "heard": "Jake owns a fishing boat with a 40 horsepower outboard. He bought it three years ago and never reported it. On Haughton Lake, he injures a swimmer. Does his H03 coverage e-apply?",
-   "wer": 0.03
+   "say": "Then Ed from next door trips on the Millers' sidewalk.",
+   "heard": "Then add from-next-door trips on the Miller sidewalk.",
+   "wer": 0.2,
+   "voice": "narrator"
+  },
+  {
+   "scene": 1,
+   "beat": 4,
+   "say": "Watch out: never for you or regular residents of your household, except residence employees. Manual minimum: one thousand dollars per person.",
+   "heard": "Watch out, never for you or regular residents of your household, except residents' employees. Manual minimum, $1,000 per person.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "scene": 2,
+   "beat": 1,
+   "say": "F is for others, like guests: never you or your household, except residence employees.",
+   "heard": "F is for others like guests. Never you or your household except residents' employees.",
+   "wer": 0.071,
+   "voice": "narrator"
   },
   {
    "scene": 4,
-   "beat": 1,
-   "say": "Owned outboards totaling twenty five horsepower or less are covered. A bigger one is covered only if acquired during the policy period, or declared at inception, or reported within forty five days after he acquired it.",
-   "heard": "Owned-out boards totaling 25 horsepower or less are covered. A bigger one is covered only if acquired during the policy period, or declared at inception, or reported within 45 days after he acquired it.",
-   "wer": 0.056
+   "beat": 3,
+   "say": "Some catches: property of others won't pay if an insured thirteen or older did it on purpose, or for property an insured owns. Nor for damage from business or motor vehicles.",
+   "heard": "Some catches. Property of others will not pay if an insured 13 or older did it on purpose, or for property and insured owns, nor for damage from business or motor vehicles.",
+   "wer": 0.031,
+   "voice": "narrator"
   },
   {
    "scene": 6,
    "beat": 2,
-   "say": "Paid day care for unrelated children is a business when it's an occupation, or paid more than two thousand dollars in the twelve months before the policy period. Then its liability is excluded. Home Day Care Coverage adds limited coverage back.",
-   "heard": "Paid daycare for unrelated children is a business when it's an occupation or paid more than $2,000 in the 12 months before the policy period. Then its liability is excluded. Home daycare coverage adds limited coverage back.",
-   "wer": 0.098
+   "say": "His twenty eleven H O three liability allows twenty five horses on the back: owned outboards totaling twenty five horsepower or less.",
+   "heard": "His 2011 H03 liability allows 25 horses on the back, owned out boards totaling 25 horsepower or less.",
+   "wer": 0.095,
+   "voice": "narrator"
   },
   {
-   "scene": 8,
-   "beat": 1,
-   "say": "The insured who set the fire isn't covered. Suit is due within two years, tolled from notice of loss until formal denial. These points summarize the twenty eleven Michigan endorsement; newer editions may differ.",
-   "heard": "The insured who set the fire is not covered. Suit is due within two years, told from notice of loss until formal denial. These points summarize the 2011 Michigan endorsement. Newer editions may differ.",
-   "wer": 0.029
+   "scene": 6,
+   "beat": 4,
+   "say": "Owned sailboats twenty six feet or longer? Excluded too.",
+   "heard": "Own sailboats 26 feet or longer, excluded two.",
+   "wer": 0.222,
+   "voice": "narrator"
+  },
+  {
+   "scene": 6,
+   "beat": "o2:0",
+   "say": "Done! Coverages E and F now apply to accidents with your boat.",
+   "heard": "Done. Coverage is E and F now apply to accidents with your boat.",
+   "wer": 0.182,
+   "voice": "dana"
   },
   {
    "scene": 9,
-   "beat": 0,
-   "say": "Last one. In Michigan, Dan intentionally burns the home. His wife, Ana, took no part. What coverage does Ana have? Pick an answer.",
-   "heard": "Last one, in Michigan, Dan intentionally burns the home. His wife, Anna, took no part. What coverage does Anna have? Pick an answer.",
-   "wer": 0.087
+   "beat": 2,
+   "say": "Under the twenty eleven form, paid day care for unrelated kids is a business if it's an occupation, or paid over two thousand dollars in the twelve months before the policy period.",
+   "heard": "Under the 2011 form, paid daycare for unrelated kids is a business if it's an occupation, or paid over $2,000 in the 12 months before the policy period.",
+   "wer": 0.062,
+   "voice": "narrator"
   },
   {
    "scene": 10,
    "beat": 0,
-   "say": "To recap. Coverage E pays damages and defense; Coverage F pays others' medical bills, not your household's, except residence employees. Damage to property of others pays up to one thousand dollars.",
-   "heard": "To recap, Coverage E pays damages and defense. Coverage F pays others medical bills, not your households, except residents' employees. Damage to property of others pays up to $1,000.",
-   "wer": 0.033
+   "say": "Quick check. Who is Business Pursuits made for?",
+   "heard": "Quick check who his business pursuits made for.",
+   "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 0,
+   "say": "Down the street, Dan and Ana own a house together. Dan sets it on fire on purpose. Ana had no part in it.",
+   "heard": "Down the street, Dan and Anna own a house together. Dan sets it on fire on purpose. Anna had no part in it.",
+   "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 0,
+   "say": "Their policy: a twenty eleven H O three with Special Provisions, Michigan. What should Ana claim?",
+   "heard": "Their policy, a 2011 H-03 with special provisions, Michigan. What should Anna claim?",
+   "wer": 0.067,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": "o1:0",
+   "say": "Not quite. Ana gets only her own interest, never Dan's share.",
+   "heard": "Not quite. Anna gets only her own interest, never Dan's share.",
+   "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": "o3:0",
+   "say": "Ana collects her share. Dan gets nothing, and the insurer may subrogate: go after him to recover what it paid.",
+   "heard": "Anna collects her share. Dan gets nothing, and the insurer may subrogate. Go after him to recover what it paid.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 2,
+   "say": "Suing the insurer? Ana's twenty eleven policy allows two years after the loss, tolled, meaning paused, from notice of loss until formal denial. Michigan law requires at least one year.",
+   "heard": "Suing the insurer, Anna's 2011 policy allows two years after the loss told, meaning paused, from notice of loss until formal denial. Michigan law requires at least one year.",
+   "wer": 0.067,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": 1,
+   "say": "The boat needed Watercraft, slander needs Personal Injury, and in Michigan, Ana got her share.",
+   "heard": "The boat needed watercraft, slander needs personal injury, and in Michigan, Anna got her share.",
+   "wer": 0.071,
+   "voice": "narrator"
   }
  ]
 }

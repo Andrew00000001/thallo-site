@@ -2,20 +2,566 @@
  "id": "L00",
  "sec": "reg",
  "guide": "logistics",
- "title": "Your exam: format, scoring and a study plan",
- "summary": "How the PSI 16-81 exam is built and scored, what to expect on test day, the steps to a license, and how to study with this app.",
+ "title": "Before Dana was an agent: your exam and the road to a license",
+ "summary": "Follow Dana from study desk to license: how PSI 16-81 is scored, the course and application windows, test-day rules, pacing and four tough calls.",
  "objectives": [
-  "Know the exam format: 150 scored items, 2.5 hours, 74% (111 correct) to pass",
+  "Know the format: 150 scored items, 2.5 hours, 74% (111 right) to pass",
   "Use the section weights and a pacing plan to aim your study and your time",
-  "Follow test-day rules and the steps and time windows to a license",
-  "Use daily spaced review, recall and confidence ratings in the app"
+  "Follow the steps and deadlines to a license, and the test-day rules",
+  "Study daily with today's session, recall first and confidence ratings"
  ],
- "check": [
-  "reg-012",
-  "reg-013",
-  "reg-031"
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Before Dana was an agent: your exam and the road to a license",
+   "subtitle": "PSI Series 16-81: scoring, the steps to a Michigan producer license, test-day rules and pacing",
+   "draw": [
+    {"id": "desk", "p": "desk", "x": 26, "y": 50, "h": 24, "opt": {"computer": true, "mug": true, "papers": true}},
+    {"id": "dana", "p": "person", "x": 60, "y": 44, "h": 34, "opt": {"who": "dana", "pose": "think", "mood": "happy"}},
+    {"p": "bubble", "text": "Me, a licensed agent?", "x": 36, "y": 12, "w": 32, "to": "dana", "think": true, "at": 1},
+    {"p": "certificate", "x": 80, "y": 13, "h": 12, "opt": {"title": "LICENSE"}, "at": 1, "cue": "licensed", "anim": "pop", "sfx": "ding"}
+   ],
+   "beats": [
+    {"text": "This is Dana, before she was anyone's agent. First, she must pass the same exam you're facing.", "say": "This is Dana, before she was anyone's agent. First, she must pass the same exam you're facing."},
+    {"text": "Me, a licensed agent? Let's do this!", "say": "Me, a licensed agent? Let's do this!", "voice": "dana"}
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Dana's target: the cut score",
+   "src": "PSI CIB eff. 6/10/2025, p.9; DIFS Insurance Examination Cut Scores PDF (eff. 5/1/2020); PSI 16-81 content outline",
+   "kind": "Term",
+   "term": "Cut score",
+   "plain": "The passing line: the score you must reach to pass the exam.",
+   "example": "Like the height line at a ride: reach it and you're on. Dana's line is 74% of 150 items: 111 right, so she can miss up to 39.",
+   "exam": "Passing depends on how many you get right. A blank can't be right, so answer every item.",
+   "draw": [
+    {"id": "right", "p": "box", "x": 30, "y": 44, "w": 44, "hh": 9, "fill": "green"},
+    {"id": "miss", "p": "box", "x": 62, "y": 44, "w": 16, "hh": 9, "fill": "red"},
+    {"id": "cut", "p": "line", "from": [53, 36], "to": [53, 52], "color": "ink"},
+    {"p": "label", "text": "the passing line", "x": 53, "y": 32, "size": 4, "out": 1},
+    {"p": "label", "text": "74%", "x": 53, "y": 31, "size": 5.5, "bold": true, "at": 1, "cue": "74%"},
+    {"id": "n150", "p": "num", "text": "150", "x": 18, "y": 11, "size": 9, "at": 1, "cue": "150"},
+    {"p": "label", "text": "scored items", "x": 18, "y": 21, "size": 4, "at": 1, "cue": "150"},
+    {"id": "time", "p": "hourglass", "x": 60, "y": 14, "h": 15, "at": 1, "cue": "hours", "label": "2.5 hours", "lsize": 4},
+    {"p": "label", "text": "111 right", "x": 30, "y": 55, "size": 4.2, "color": "green", "at": 2, "cue": "111"},
+    {"p": "label", "text": "39 to spare", "x": 64, "y": 55, "size": 4.2, "color": "red", "at": 2, "cue": "39"}
+   ],
+   "beats": [
+    {"text": "Dana's first lesson: the cut score, the passing line you must reach.", "say": "Dana's first lesson: the cut score, the passing line you must reach.", "show": 2, "hl": "cut"},
+    {"text": "Her exam, PSI Series 16-81, has 150 scored items and 2.5 hours. The cut score is 74%.", "say": "Her exam, P S I Series sixteen eighty-one, has one hundred fifty scored items and two point five hours. The cut score is seventy-four percent.", "show": 3},
+    {"text": "That's 111 right answers. She can miss up to 39 and still pass.", "say": "That's one hundred eleven right answers. She can miss up to thirty-nine and still pass.", "show": 4, "hl": ["right", "miss"]}
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Where the 150 items come from",
+   "src": "PSI Michigan P&C Producer/Solicitor 16-81 content outline (Sept 2021): section weights",
+   "draw": [
+    {"id": "basics", "p": "umbrella", "x": 24, "y": 18, "h": 20, "opt": {"color": "blue"}},
+    {"p": "label", "text": "P&C Basics", "x": 24, "y": 32, "size": 4.2, "out": 2},
+    {"p": "label", "text": "P&C Basics: 30 items", "x": 24, "y": 32, "size": 4.2, "bold": true, "at": 2},
+    {"id": "ho", "p": "house", "x": 70, "y": 16, "h": 20},
+    {"id": "auto", "p": "car", "x": 95, "y": 22, "h": 9, "opt": {"color": "red"}},
+    {"p": "label", "text": "Homeowners and Auto", "x": 82, "y": 32, "size": 4.2, "out": 2},
+    {"p": "label", "text": "Homeowners and Auto: 22 each", "x": 82, "y": 32, "size": 4.2, "bold": true, "at": 2},
+    {"id": "cpp", "p": "factory", "x": 136, "y": 16, "h": 18},
+    {"p": "label", "text": "Commercial Package", "x": 136, "y": 32, "size": 4.2, "out": 2},
+    {"p": "label", "text": "Commercial Package: 18", "x": 136, "y": 32, "size": 4.2, "bold": true, "at": 2},
+    {"id": "gen", "p": "handshake", "x": 24, "y": 45, "h": 17},
+    {"p": "label", "text": "General Insurance", "x": 24, "y": 59, "size": 4.2, "out": 2},
+    {"p": "label", "text": "General Insurance: 16", "x": 24, "y": 59, "size": 4.2, "bold": true, "at": 2},
+    {"id": "reg", "p": "gavel", "x": 76, "y": 45, "h": 18},
+    {"p": "label", "text": "Regulation", "x": 76, "y": 59, "size": 4.2, "out": 2},
+    {"p": "label", "text": "Regulation: 15", "x": 76, "y": 59, "size": 4.2, "bold": true, "at": 2},
+    {"id": "small", "p": "coins", "x": 136, "y": 42, "h": 16},
+    {"p": "label", "text": "The small four", "x": 136, "y": 54, "size": 4.2, "bold": true, "out": 3},
+    {"p": "label", "text": "The small four: 27", "x": 136, "y": 54, "size": 4.2, "bold": true, "at": 3},
+    {"p": "label", "text": "BOP, Workers' Comp, Other, Dwelling", "x": 136, "y": 60.5, "size": 3.6, "w": 50}
+   ],
+   "spots": [
+    {"on": "basics", "label": "P&C Insurance Basics", "text": "20% of the exam, or 30 items. The biggest section of all."},
+    {"on": "ho", "label": "Homeowners and Auto", "text": "15% each, or 22 items each. Tied for second place."},
+    {"on": "cpp", "label": "Commercial Package Policy (CPP)", "text": "12% of the exam, or 18 items."},
+    {"on": "gen", "label": "General Insurance", "text": "10.5% of the exam, or 16 items."},
+    {"on": "reg", "label": "Insurance Regulation", "text": "10% of the exam, or 15 items."},
+    {"on": "small", "label": "The small four", "text": "Businessowners 6% (9 items), Workers' Comp 5% (8), Other Coverages 4% (6), Dwelling 2.5% (4). Together: 17.5%, or 27 items."}
+   ],
+   "beats": [
+    {"text": "The outline splits the 150 items into ten sections. Which carry the most?", "say": "The outline splits the one hundred fifty items into ten sections. Which carry the most?"},
+    {"text": "Tap each glowing picture.", "say": "Tap each glowing picture."}
+   ],
+   "reveal": [
+    {"text": "Basics is the biggest: 20%, or 30 items. Homeowners and Auto tie for second, at 22 each.", "say": "Basics is the biggest: twenty percent, or thirty items. Homeowners and Auto tie for second, at twenty-two each."},
+    {"text": "The four smallest still add up to 27 items. Don't skip them.", "say": "The four smallest still add up to twenty-seven items. Don't skip them."}
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Thirty hours into a 40-hour course",
+   "src": "MCL 500.1204(1),(2), 500.1204a(1)(b), 500.1204c(2); PSI CIB eff. 6/10/2025, p.2; DIFS Pre-licensing Education FAQ",
+   "ask": "What should Dana do?",
+   "draw": [
+    {"id": "desk", "p": "desk", "x": 34, "y": 42, "h": 20, "opt": {"computer": false, "mug": true}},
+    {"id": "lap", "p": "laptop", "x": 30, "y": 32.5, "h": 11, "over": true},
+    {"p": "label", "text": "Course: 30 of 40 hours", "x": 34, "y": 4.5, "size": 4.4},
+    {"p": "box", "x": 30, "y": 11, "w": 30, "hh": 5, "fill": "green"},
+    {"p": "box", "x": 50, "y": 11, "w": 10, "hh": 5},
+    {"id": "dana", "p": "person", "x": 78, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "think", "mood": "smirk"}},
+    {"p": "bubble", "text": "Test right away?", "x": 108, "y": 8, "w": 28, "to": "dana", "think": true},
+    {"id": "psi", "p": "store", "x": 138, "y": 32, "h": 26, "opt": {"name": "PSI TESTING", "awning": "blue"}}
+   ],
+   "beats": [
+    {"text": "In Michigan, the exam comes after prelicensing education, a required course: 40 hours for combined property and casualty.", "say": "In Michigan, the exam comes after prelicensing education, a required course: forty hours for combined property and casualty."},
+    {"text": "Thirty hours in, she's itching to test right away. What should Dana do?", "say": "Thirty hours in, she's itching to test right away. What should Dana do?"}
+   ],
+   "options": [
+    {
+     "label": "Test right away, finish the course later",
+     "ok": false,
+     "fail": "Exam results are invalidated if prelicensing education wasn't completed before the exam.",
+     "beats": [
+      {"text": "She passes! But with the course unfinished, her results are invalidated.", "say": "She passes! But with the course unfinished, her results are invalidated."}
+     ],
+     "draw": [
+      {"id": "dana", "p": "person", "x": 30, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "cheer", "mood": "laugh"}},
+      {"p": "bubble", "text": "I passed!", "x": 56, "y": 9, "w": 22, "to": "dana"},
+      {"id": "res", "p": "policy", "x": 96, "y": 30, "h": 34, "opt": {"title": "RESULTS", "tsize": 6}},
+      {"p": "stamp", "text": "Invalidated", "x": 98, "y": 36, "color": "red", "rot": -14, "cue": "invalidated", "over": true}
+     ]
+    },
+    {
+     "label": "Ask for a waiver: her real estate license",
+     "ok": false,
+     "fail": "Real estate isn't on the waiver list. CPCU is (ask in writing, granted before scheduling), and so is a producer license in the past 12 months.",
+     "beats": [
+      {"text": "Sorry, real estate isn't on the waiver list.", "say": "Sorry, real estate isn't on the waiver list.", "voice": "regulator"},
+      {"text": "Nice try. A designation like CPCU would be.", "say": "Nice try. A designation like C P C U would be."}
+     ],
+     "draw": [
+      {"id": "dana", "p": "person", "x": 26, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "hold", "hold": "idcard", "mood": "smirk"}},
+      {"id": "re", "p": "sign", "x": 56, "y": 36, "h": 22, "opt": {"text": "FOR\nSALE", "color": "red", "tcolor": "red"}},
+      {"id": "dir", "p": "person", "x": 120, "y": 29, "h": 36, "opt": {"who": "regulator", "pose": "stop", "mood": "neutral"}, "flip": true},
+      {"p": "bubble", "text": "Real estate isn't on the waiver list.", "x": 86, "y": 14, "w": 30, "to": "dir"},
+      {"p": "stamp", "text": "No waiver", "x": 88, "y": 42, "color": "red", "rot": -8, "cue": "waiver"}
+     ]
+    },
+    {
+     "label": "Finish all 40 hours, then book the exam",
+     "ok": true,
+     "win": "Prelicensing education comes first. The certificate is valid for 12 months from completion: pass the exam within that window.",
+     "beats": [
+      {"text": "Her course certificate is good for 12 months: she must pass inside that window.", "say": "Her course certificate is good for twelve months: she must pass inside that window."}
+     ],
+     "draw": [
+      {"id": "dana", "p": "person", "x": 26, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "cheer", "mood": "happy"}},
+      {"id": "cert", "p": "certificate", "x": 74, "y": 27, "h": 24, "opt": {"title": "COURSE DONE", "name": "40 hours"}},
+      {"id": "cal", "p": "calendar", "x": 126, "y": 24, "h": 20, "opt": {"n": "12"}, "cue": "months"},
+      {"p": "label", "text": "12 months to pass the exam", "x": 126, "y": 42, "size": 4.2, "color": "green", "cue": "months", "w": 34}
+     ]
+    }
+   ],
+   "reveal": [
+    {"text": "Course first, or even a pass is invalidated. A designation like CPCU can earn a course waiver, requested in writing and granted before scheduling.", "say": "Course first, or even a pass is invalidated. A designation like C P C U can earn a course waiver, requested in writing and granted before scheduling."},
+    {"text": "Watch out: 20 hours covers one line, like property; 24 is continuing education, once you're licensed.", "say": "Watch out: twenty hours covers one line, like property; twenty-four is continuing education, once you're licensed."}
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Dana applies and books her seat",
+   "src": "DIFS resident producer page; MCL 500.1201, 500.1205(1), 500.1239(1)(d),(e); PSI CIB 6/10/2025, p.2-5 (fees may change)",
+   "draw": [
+    {"p": "label", "text": "Apply through NIPR", "x": 52, "y": 4, "size": 4, "bold": true},
+    {"id": "dana", "p": "person", "x": 14, "y": 40, "h": 28, "opt": {"who": "dana", "pose": "point"}},
+    {"id": "app", "p": "computer", "x": 42, "y": 18, "h": 15, "label": "NIPR application", "lsize": 3.8},
+    {"id": "fee", "p": "money", "x": 42, "y": 45, "h": 8, "label": "$10 plus $5", "lsize": 3.8, "cue": "pays"},
+    {"id": "age", "p": "calendar", "x": 74, "y": 17, "h": 13, "opt": {"n": "18"}, "at": 1, "cue": "18", "label": "At least 18", "lsize": 3.8},
+    {"p": "line", "from": [74, 29.5], "to": [74, 33], "at": 1, "cue": "mirror"},
+    {"id": "mir", "p": "box", "x": 74, "y": 38, "w": 24, "hh": 9, "r": 4, "fill": "sky", "at": 1, "cue": "mirror"},
+    {"p": "gavel", "x": 74, "y": 38, "h": 7.5, "at": 1, "cue": "felony", "over": true},
+    {"p": "label", "text": "No felony in the 10 years before applying", "x": 74, "y": 48.5, "size": 3.4, "w": 32, "at": 1, "cue": "mirror"},
+    {"p": "label", "text": "Violence, criminal sexual conduct or financial crime: any date", "x": 74, "y": 58.5, "size": 3.4, "w": 34, "color": "red", "at": 1, "cue": "violence"},
+    {"p": "divider", "x": 93, "y": 36, "y0": 4, "y1": 64, "at": 2},
+    {"p": "label", "text": "Time limits and PSI", "x": 127, "y": 4, "size": 4, "bold": true, "at": 2},
+    {"id": "c180", "p": "calendar", "x": 111, "y": 18, "h": 14, "opt": {"n": "180"}, "at": 2, "cue": "180", "label": "Pass within 180 days", "lsize": 3.6, "lw": 17},
+    {"id": "psi", "p": "store", "x": 143, "y": 20, "h": 22, "opt": {"name": "PSI TESTING", "awning": "blue"}, "at": 2, "cue": "PSI", "label": "$41, not refundable", "lsize": 3.6},
+    {"id": "c2", "p": "calendar", "x": 111, "y": 49, "h": 12, "opt": {"n": "2"}, "at": 3, "cue": "reschedule", "label": "Cancel or move: 2 days ahead", "lsize": 3.6, "lw": 23},
+    {"id": "c12", "p": "calendar", "x": 143, "y": 49, "h": 12, "opt": {"n": "12"}, "at": 3, "cue": "passing", "label": "Pass stays valid 12 months", "lsize": 3.6, "lw": 21}
+   ],
+   "beats": [
+    {"text": "Next, Dana applies online through NIPR. In Michigan, a producer, meaning an agent, pays $10 to apply, plus $5 for the transaction.", "say": "Next, Dana applies online through N I P R. In Michigan, a producer, meaning an agent, pays ten dollars to apply, plus five dollars for the transaction.", "hl": "app"},
+    {"text": "She must be at least 18. Picture a rearview mirror showing the 10 years before she applies: a felony conviction in it means no license. A felony involving violence, criminal sexual conduct or financial crime never leaves it.", "say": "She must be at least eighteen. Picture a rearview mirror showing the ten years before she applies: a felony conviction in it means no license. A felony involving violence, criminal sexual conduct or financial crime never leaves it.", "hl": "mir"},
+    {"text": "Her application is good for 180 days: she must pass inside that window. Then she registers with PSI: $41, not refundable.", "say": "Her application is good for one hundred eighty days: she must pass inside that window. Then she registers with P S I: forty-one dollars, not refundable.", "hl": ["c180", "psi"]},
+    {"text": "Cancel or reschedule at least 2 days ahead, or lose the fee. A passing score stays valid for 12 months.", "say": "Cancel or reschedule at least two days ahead, or lose the fee. A passing score stays valid for twelve months.", "hl": ["c2", "c12"]}
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Dana's NIPR producer license application was just entered into the DIFS database. How long does she have to pass the exam?",
+   "choices": ["90 days", "180 days", "12 months", "2 years"],
+   "answer": 1,
+   "why": "A resident producer application is valid 180 days from entry into the DIFS database. After that, she needs a new application and fee.",
+   "draw": [
+    {"id": "dana", "p": "person", "x": 22, "y": 44, "h": 30, "opt": {"who": "dana", "pose": "think", "mood": "worried"}, "out": 1},
+    {"p": "person", "x": 22, "y": 44, "h": 30, "opt": {"who": "dana", "pose": "cheer", "mood": "happy"}, "at": 1},
+    {"id": "lap", "p": "laptop", "x": 52, "y": 55, "h": 10},
+    {"id": "cal", "p": "calendar", "x": 56, "y": 20, "h": 18, "opt": {"n": "?"}, "out": 1},
+    {"p": "calendar", "x": 56, "y": 20, "h": 18, "opt": {"n": "180"}, "at": 1, "anim": "pop", "label": "180 days", "lsize": 4.5}
+   ],
+   "beats": [
+    {"text": "Quick check: DIFS, Michigan's insurance department, just entered her application. How long does she have to pass?", "say": "Quick check: D I F S, Michigan's insurance department, just entered her application. How long does she have to pass?"}
+   ],
+   "reveal": [
+    {"text": "180 days. Then it's a new application and fee. Twelve months is for the course certificate and a passing score.", "say": "One hundred eighty days. Then it's a new application and fee. Twelve months is for the course certificate and a passing score."}
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "How Dana studied: this app",
+   "src": "Study guide: How to study (Roediger & Karpicke 2006; Cepeda et al. 2006; Butler et al. 2011); app labels",
+   "draw": [
+    {"id": "today", "p": "phone", "x": 20, "y": 20, "h": 22, "label": "Start today's session", "lsize": 3.8},
+    {"id": "loop", "p": "cycle", "x": 40, "y": 16, "h": 10, "at": 1, "cue": "Misses"},
+    {"p": "label", "text": "Missed: back next session", "x": 24, "y": 44, "size": 3.6, "color": "red", "at": 1, "cue": "Misses"},
+    {"p": "label", "text": "Right: back after growing gaps", "x": 24, "y": 50.5, "size": 3.6, "color": "green", "at": 1, "cue": "right"},
+    {"p": "label", "text": "Then new material, by weight", "x": 24, "y": 57, "size": 3.6, "at": 1, "cue": "new"},
+    {"id": "recall", "p": "brain", "x": 66, "y": 18, "h": 15, "at": 2, "cue": "memory", "label": "Recall first", "lsize": 3.8},
+    {"id": "mix", "p": "piechart", "x": 106, "y": 18, "h": 16, "opt": {"slices": [20, 15, 15, 12, 10.5, 10, 17.5]}, "at": 3, "cue": "sections", "label": "All sections", "lsize": 3.8},
+    {"id": "sure", "p": "target", "x": 143, "y": 18, "h": 15, "at": 3, "cue": "sure", "label": "Rate how sure I am", "lsize": 3.8},
+    {"id": "dana", "p": "person", "x": 86, "y": 48, "h": 30, "opt": {"who": "dana", "pose": "hold", "hold": "phone", "mood": "happy"}}
+   ],
+   "beats": [
+    {"text": "Seat booked, Dana studies with this app. Every day, she taps Start today's session first.", "say": "Seat booked, Dana studies with this app. Every day, she taps Start today's session first.", "hl": "today"},
+    {"text": "Misses come back next session; right answers, after growing gaps. Then she adds new material, roughly by weight.", "say": "Misses come back next session; right answers, after growing gaps. Then she adds new material, roughly by weight."},
+    {"text": "She answers from memory, not by rereading: in Practice, Recall first hides the choices.", "say": "She answers from memory, not by rereading: in Practice, Recall first hides the choices.", "hl": "recall"},
+    {"text": "She mixes topics with All sections, weighted like the exam. With Rate how sure I am on, misses she marked Sure come back first.", "say": "She mixes topics with All sections, weighted like the exam. With Rate how sure I am on, misses she marked Sure come back first.", "hl": ["mix", "sure"]}
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Exam morning in Grand Rapids",
+   "src": "PSI CIB eff. 6/10/2025, p.5-6; DIFS Remote Examination Discontinuance (June 9, 2025)",
+   "ask": "When should Dana get there?",
+   "draw": [
+    {"id": "dana", "p": "person", "x": 30, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "hold", "hold": "briefcase", "mood": "happy"}},
+    {"id": "clock", "p": "clock", "x": 72, "y": 20, "h": 18, "opt": {"h": 9, "m": 0}},
+    {"p": "label", "text": "Exam starts at 9", "x": 72, "y": 37, "size": 5.2},
+    {"id": "psi", "p": "store", "x": 124, "y": 24, "h": 30, "opt": {"name": "PSI TESTING", "awning": "blue"}},
+    {"p": "label", "text": "Test center, Grand Rapids", "x": 124, "y": 44, "size": 4.8}
+   ],
+   "beats": [
+    {"text": "Exam day! Michigan testing is in person only, at a PSI test center. Dana's is in Grand Rapids, at 9. When should she arrive?", "say": "Exam day! Michigan testing is in person only, at a P S I test center. Dana's is in Grand Rapids, at nine. When should she arrive?"}
+   ],
+   "options": [
+    {
+     "label": "Walk in right at 9. Why wait around?",
+     "ok": false,
+     "fail": "Not checked in by your start time? You can't test, and you lose your fee.",
+     "beats": [
+      {"text": "Too late: she isn't checked in by her start time. She can't test, and loses her fee.", "say": "Too late: she isn't checked in by her start time. She can't test, and loses her fee."}
+     ],
+     "draw": [
+      {"id": "clock", "p": "clock", "x": 26, "y": 18, "h": 22, "opt": {"h": 9, "m": 0}},
+      {"p": "label", "text": "9:00", "x": 26, "y": 35, "size": 5.5, "bold": true, "color": "red"},
+      {"id": "dana", "p": "person", "x": 70, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "run", "mood": "shocked"}},
+      {"id": "psi", "p": "store", "x": 108, "y": 26, "h": 30, "opt": {"name": "PSI TESTING", "awning": "blue"}},
+      {"p": "stamp", "text": "Fee lost", "x": 26, "y": 48, "color": "red", "rot": -8, "cue": "fee"}
+     ],
+     "failAt": [146, 12]
+    },
+    {
+     "label": "Get there 30 minutes early",
+     "ok": true,
+     "win": "PSI says arrive 30 minutes early. Not checked in by your start time? You can't test, and you lose your fee.",
+     "beats": [
+      {"text": "Smart. She checks in with time to spare.", "say": "Smart. She checks in with time to spare."}
+     ],
+     "draw": [
+      {"id": "clock", "p": "clock", "x": 24, "y": 20, "h": 22, "opt": {"h": 8, "m": 30}},
+      {"p": "label", "text": "8:30", "x": 24, "y": 37, "size": 5.5, "bold": true, "color": "green"},
+      {"id": "dana", "p": "person", "x": 64, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "wave", "mood": "happy"}},
+      {"id": "proc", "p": "person", "x": 98, "y": 29, "h": 36, "opt": {"who": "person", "badge": true, "glasses": true, "shirt": "gray", "pose": "point"}, "flip": true},
+      {"p": "check", "x": 134, "y": 20, "h": 14},
+      {"p": "label", "text": "Checked in", "x": 134, "y": 34, "size": 4.5, "color": "green"}
+     ]
+    },
+    {
+     "label": "Oversleep, then email PSI to reschedule",
+     "ok": false,
+     "fail": "Cancel or reschedule at least 2 days before the exam, and not by voicemail or email. Missing the exam forfeits the fee.",
+     "beats": [
+      {"text": "She oversleeps. Email doesn't count, and changes need 2 days' notice anyway. Her fee is gone.", "say": "She oversleeps. Email doesn't count, and changes need two days' notice anyway. Her fee is gone."}
+     ],
+     "draw": [
+      {"id": "sofa", "p": "sofa", "x": 30, "y": 44, "h": 16},
+      {"id": "dana", "p": "person", "x": 25, "y": 40, "h": 30, "opt": {"who": "dana", "pose": "sit", "mood": "sleep"}, "over": true},
+      {"p": "label", "text": "Zzz", "x": 40, "y": 18, "size": 6, "color": "gray"},
+      {"id": "alarm", "p": "icon", "name": "alarm-clock", "x": 66, "y": 44, "h": 16, "color": "red", "loop": "shake"},
+      {"id": "mail", "p": "envelope", "x": 104, "y": 22, "h": 14, "cue": "Email"},
+      {"p": "xout", "on": "mail", "cue": "count"},
+      {"p": "stamp", "text": "Fee forfeited", "x": 106, "y": 45, "color": "red", "rot": -6, "cue": "gone"}
+     ]
+    }
+   ],
+   "reveal": [
+    {"text": "Arrive 30 minutes early; change plans at least 2 days ahead.", "say": "Arrive thirty minutes early; change plans at least two days ahead."}
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "What goes into the exam room?",
+   "src": "PSI CIB eff. 6/10/2025, p.6-7; MCL 500.1239(2); study guide, test-day strategy",
+   "ask": "What does Dana bring in?",
+   "draw": [
+    {"id": "dana", "p": "person", "x": 24, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "think", "mood": "neutral"}},
+    {"id": "ph", "p": "phone", "x": 48, "y": 40, "h": 15},
+    {"id": "wt", "p": "icon", "name": "watch", "x": 63, "y": 41, "h": 13},
+    {"id": "sheet", "p": "note", "text": "Notes", "x": 80, "y": 41, "w": 17},
+    {"id": "idc", "p": "idcard", "x": 100, "y": 41, "h": 12},
+    {"id": "pz", "p": "pizza", "x": 119, "y": 44, "h": 11},
+    {"id": "tony", "p": "person", "x": 140, "y": 29, "h": 36, "opt": {"who": "tony", "pose": "point", "mood": "happy"}, "flip": true},
+    {"p": "bubble", "text": "Lucky pizza!", "x": 118, "y": 9, "w": 24, "to": "tony"}
+   ],
+   "beats": [
+    {"text": "Her friend Tony, who owns a Detroit pizza place, brought a lucky pizza. What does Dana bring into the exam room?", "say": "Her friend Tony, who owns a Detroit pizza place, brought a lucky pizza. What does Dana bring into the exam room?"}
+   ],
+   "options": [
+    {
+     "label": "Phone and smartwatch, just in case",
+     "ok": false,
+     "fail": "Phones, electronic watches and handheld calculators aren't allowed in the exam.",
+     "beats": [
+      {"text": "Not allowed in here!", "say": "Not allowed in here!", "voice": "worker"},
+      {"text": "Phones and electronic watches stay out of the exam.", "say": "Phones and electronic watches stay out of the exam."}
+     ],
+     "draw": [
+      {"id": "dana", "p": "person", "x": 30, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "shrug", "mood": "shocked"}},
+      {"id": "ph", "p": "phone", "x": 58, "y": 22, "h": 13},
+      {"id": "wt", "p": "icon", "name": "watch", "x": 58, "y": 44, "h": 11},
+      {"p": "xout", "on": "ph"},
+      {"p": "xout", "on": "wt"},
+      {"id": "proc", "p": "person", "x": 112, "y": 29, "h": 36, "opt": {"who": "person", "badge": true, "glasses": true, "shirt": "gray", "pose": "stop", "mood": "neutral"}},
+      {"p": "bubble", "text": "Not allowed in here!", "x": 86, "y": 8, "w": 30, "to": "proc"}
+     ]
+    },
+    {
+     "label": "A cheat sheet up her sleeve",
+     "ok": false,
+     "fail": "No notes or reference materials. In Michigan, using notes during the licensing exam is a ground on which the insurance director may refuse a license.",
+     "beats": [
+      {"text": "In Michigan, using notes during the exam is a reason the insurance director may refuse a license.", "say": "In Michigan, using notes during the exam is a reason the insurance director may refuse a license."}
+     ],
+     "draw": [
+      {"id": "dana", "p": "person", "x": 28, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "shrug", "mood": "smirk"}},
+      {"id": "sheet", "p": "note", "text": "74% 111 180", "x": 44, "y": 30, "w": 17, "rot": -12, "over": true},
+      {"id": "dir", "p": "person", "x": 120, "y": 29, "h": 36, "opt": {"who": "regulator", "pose": "point", "mood": "angry"}, "flip": true},
+      {"p": "label", "text": "Insurance director", "x": 120, "y": 52, "size": 4},
+      {"p": "stamp", "text": "May refuse", "x": 82, "y": 40, "color": "red", "rot": -8, "cue": "refuse"}
+     ]
+    },
+    {
+     "label": "Tony's lucky pizza and a soda",
+     "ok": false,
+     "fail": "Food and drinks aren't allowed in the exam. Not even lucky pizza.",
+     "beats": [
+      {"text": "But it's lucky pizza!", "say": "But it's lucky pizza!", "voice": "tony"},
+      {"text": "Sorry, Tony. Food and drinks aren't allowed.", "say": "Sorry, Tony. Food and drinks aren't allowed."}
+     ],
+     "draw": [
+      {"id": "tony", "p": "person", "x": 34, "y": 29, "h": 36, "opt": {"who": "tony", "pose": "shrug", "mood": "sad"}},
+      {"p": "bubble", "text": "But it's lucky pizza!", "x": 60, "y": 9, "w": 30, "to": "tony"},
+      {"id": "pz", "p": "pizza", "x": 92, "y": 40, "h": 15},
+      {"id": "sd", "p": "icon", "name": "cup-soda", "x": 116, "y": 40, "h": 13, "color": "red"},
+      {"p": "xout", "on": "pz", "at": 1, "cue": "Food"},
+      {"p": "xout", "on": "sd", "at": 1, "cue": "drinks"}
+     ]
+    },
+    {
+     "label": "Just her valid driver's license",
+     "ok": true,
+     "win": "One valid, unexpired, government-issued ID with photo and signature, in your registered name, like a state driver's license or US passport.",
+     "beats": [
+      {"text": "Perfect: one valid, unexpired government photo ID with her signature, in her registered name.", "say": "Perfect: one valid, unexpired government photo I D with her signature, in her registered name."}
+     ],
+     "draw": [
+      {"id": "dana", "p": "person", "x": 28, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "point", "mood": "happy"}},
+      {"id": "idc", "p": "idcard", "x": 62, "y": 20, "h": 13, "opt": {"title": "DRIVER LICENSE"}},
+      {"id": "proc", "p": "person", "x": 112, "y": 29, "h": 36, "opt": {"who": "person", "badge": true, "glasses": true, "shirt": "gray", "pose": "hold", "hold": "paper"}},
+      {"p": "icon", "name": "pencil", "x": 136, "y": 36, "h": 10, "color": "orange"},
+      {"p": "label", "text": "Scratch paper and a pencil", "x": 118, "y": 52, "size": 4, "color": "green"}
+     ]
+    }
+   ],
+   "reveal": [
+    {"text": "Leave behind phones, electronic watches, handheld calculators, notes, food and drinks. You get scratch paper and a pencil, so practice math by hand.", "say": "Leave behind phones, electronic watches, handheld calculators, notes, food and drinks. You get scratch paper and a pencil, so practice math by hand."}
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Some items don't count",
+   "src": "PSI CIB eff. 6/10/2025, p.8; study guide, test-day strategy (pace)",
+   "kind": "Term",
+   "term": "Experimental item",
+   "plain": "A question PSI is trying out. It isn't scored, but it still uses your exam time.",
+   "example": "Like a test slice Tony adds to your order: it's not on the bill, but eating it still takes time.",
+   "exam": "PSI may add 1 to 10, generally about 10% of the questions. The bulletin doesn't say they're marked: treat every item as scored.",
+   "draw": [
+    {"id": "item", "p": "policy", "x": 18, "y": 18, "h": 22, "opt": {"title": "ITEM", "tsize": 6}},
+    {"p": "stamp", "text": "Not scored", "x": 22, "y": 24, "color": "red", "rot": -10, "over": true, "cue": "scored"},
+    {"id": "time", "p": "hourglass", "x": 56, "y": 16, "h": 14, "label": "but uses time", "lsize": 3.8, "cue": "time"},
+    {"id": "tony", "p": "person", "x": 13, "y": 52, "h": 26, "opt": {"who": "tony", "pose": "point", "mood": "smirk"}, "at": 1, "cue": "Tony"},
+    {"id": "slice", "p": "pizza", "x": 33, "y": 48, "h": 10, "opt": {"slice": true}, "at": 1, "cue": "slice", "label": "test slice", "lsize": 3.6},
+    {"id": "bill", "p": "receipt", "x": 60, "y": 48, "h": 18, "opt": {"n": 3}, "at": 1, "cue": "bill", "label": "slice not on the bill", "lsize": 3.6, "lw": 30}
+   ],
+   "beats": [
+    {"text": "Her exam may include experimental items: questions PSI is trying out. They aren't scored, but they use exam time.", "say": "Her exam may include experimental items: questions P S I is trying out. They aren't scored, but they use exam time.", "show": 2, "hl": "item"},
+    {"text": "Like a test slice Tony adds to your order: not on the bill, but it takes time to eat.", "say": "Like a test slice Tony adds to your order: not on the bill, but it takes time to eat.", "show": 3},
+    {"text": "There may be one to ten. Unlike Tony's slice, they may not stand out, so treat every item as scored.", "say": "There may be one to ten. Unlike Tony's slice, they may not stand out, so treat every item as scored.", "show": 4}
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Dana's pacing plan",
+   "src": "PSI CIB eff. 6/10/2025, p.8; study guide, test-day strategy (pace, tutorial)",
+   "draw": [
+    {"id": "tut", "p": "icon", "name": "monitor-play", "x": 18, "y": 12, "h": 11, "color": "blue"},
+    {"p": "label", "text": "Tutorial: up to 15 min, not on the clock", "x": 28, "y": 12, "size": 3.8, "w": 40, "align": "left"},
+    {"id": "track", "p": "line", "from": [10, 40], "to": [150, 40], "color": "gray", "at": 1},
+    {"id": "start", "p": "hourglass", "x": 14, "y": 30, "h": 14, "opt": {"sand": 1}, "at": 1, "cue": "150"},
+    {"p": "label", "text": "150 min left", "x": 15, "y": 47, "size": 4, "bold": true, "at": 1, "cue": "150"},
+    {"id": "plan", "p": "note", "text": "Plan: up to about 165 items, about 50 seconds each", "x": 124, "y": 14, "w": 42, "at": 1, "cue": "165"},
+    {"id": "cp1", "p": "circle", "x": 58, "y": 40, "r": 2.5, "fill": "blue", "at": 2, "cue": "60"},
+    {"p": "label", "text": "100 min left", "x": 58, "y": 34, "size": 3.8, "at": 2, "cue": "60"},
+    {"p": "label", "text": "about 60 done", "x": 58, "y": 47, "size": 3.8, "bold": true, "color": "blue", "at": 2, "cue": "60"},
+    {"id": "cp2", "p": "circle", "x": 102, "y": 40, "r": 2.5, "fill": "blue", "at": 2, "cue": "120"},
+    {"p": "label", "text": "50 min left", "x": 102, "y": 34, "size": 3.8, "at": 2, "cue": "120"},
+    {"p": "label", "text": "about 120 done", "x": 102, "y": 47, "size": 3.8, "bold": true, "color": "blue", "at": 2, "cue": "120"},
+    {"id": "cp3", "p": "circle", "x": 142, "y": 40, "r": 2.5, "fill": "green", "at": 2, "cue": "165"},
+    {"p": "label", "text": "about 12 min left: go back", "x": 141, "y": 32.5, "size": 3.8, "w": 25, "bold": true, "color": "green", "at": 2, "cue": "12"},
+    {"p": "label", "text": "about 165 done", "x": 141, "y": 47, "size": 3.8, "bold": true, "color": "blue", "at": 2, "cue": "165"},
+    {"id": "dana", "p": "person", "x": 30, "y": 57, "h": 20, "opt": {"who": "dana", "pose": "walk", "mood": "happy"}, "at": 1, "move": {"to": [124, 57], "at": 2, "cue": "back", "dur": 2.5, "sfx": "whoosh"}}
+   ],
+   "beats": [
+    {"text": "First, the tutorial: up to 15 minutes, and it doesn't count toward exam time.", "say": "First, the tutorial: up to fifteen minutes, and it doesn't count toward exam time.", "hl": "tut"},
+    {"text": "Then the clock: 150 minutes, shown as minutes left. To be safe, she adds 10%: up to about 165 items, about 50 seconds each.", "say": "Then the clock: one hundred fifty minutes, shown as minutes left. To be safe, she adds ten percent: up to about one hundred sixty-five items, about fifty seconds each.", "hl": "plan"},
+    {"text": "About 60 done at 100 minutes left, and 120 at 50. Finishing all 165 leaves about 12 minutes to go back.", "say": "About sixty done at one hundred minutes left, and one hundred twenty at fifty. Finishing all one hundred sixty-five leaves about twelve minutes to go back."}
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Question 37 has Dana stumped",
+   "src": "PSI CIB eff. 6/10/2025, p.8; PSI 16-81 outline; study guide, test-day strategy",
+   "ask": "What does Dana do?",
+   "draw": [
+    {"id": "scr", "p": "computer", "x": 40, "y": 36, "h": 28, "opt": {"screen": "lines"}},
+    {"p": "label", "text": "37. All of the following EXCEPT...", "x": 40, "y": 11, "size": 4.6, "w": 56, "box": true},
+    {"id": "dana", "p": "person", "x": 82, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "think", "mood": "worried"}},
+    {"p": "question", "x": 100, "y": 10, "h": 11, "color": "red"},
+    {"id": "clock", "p": "clock", "x": 130, "y": 24, "h": 20, "opt": {"h": 9, "m": 40}, "loop": "pulse"}
+   ],
+   "beats": [
+    {"text": "Dana reads the last line first, to see what's asked. It's an EXCEPT item: three choices fit, and she needs the one that doesn't.", "say": "Dana reads the last line first, to see what's asked. It's an except item: three choices fit, and she needs the one that doesn't."},
+    {"text": "Ugh. I've ruled out A and C. B or D? The clock is ticking!", "say": "Ugh. I've ruled out A and C. B or D? The clock is ticking!", "voice": "dana"}
+   ],
+   "options": [
+    {
+     "label": "Leave it blank and come back later",
+     "ok": false,
+     "fail": "Never leave a blank: passing depends on how many you get right, and a blank can't be right.",
+     "beats": [
+      {"text": "Time runs out before she gets back. A blank can't be right: a sure miss.", "say": "Time runs out before she gets back. A blank can't be right: a sure miss."}
+     ],
+     "draw": [
+      {"id": "scr", "p": "computer", "x": 34, "y": 26, "h": 26, "opt": {"screen": "lines"}},
+      {"p": "label", "text": "37: no answer", "x": 34, "y": 46, "size": 4.5, "color": "red", "bold": true},
+      {"id": "hg", "p": "hourglass", "x": 72, "y": 28, "h": 20, "opt": {"sand": 0}},
+      {"id": "dana", "p": "person", "x": 108, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "shrug", "mood": "shocked"}},
+      {"p": "stamp", "text": "Sure miss", "x": 72, "y": 49, "color": "red", "rot": -6, "cue": "miss"}
+     ]
+    },
+    {
+     "label": "Stare at it until she's sure",
+     "ok": false,
+     "fail": "Plan about 50 seconds per item. Stuck? Make your best guess, note the number, and move on.",
+     "beats": [
+      {"text": "Ten minutes later, she's still staring: at about 50 seconds an item, that's time for 12 items.", "say": "Ten minutes later, she's still staring: at about fifty seconds an item, that's time for twelve items."}
+     ],
+     "draw": [
+      {"id": "scr", "p": "computer", "x": 34, "y": 34, "h": 28, "opt": {"screen": "lines"}},
+      {"id": "dana", "p": "person", "x": 72, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "think", "mood": "worried"}},
+      {"id": "clock", "p": "clock", "x": 106, "y": 20, "h": 18, "opt": {"h": 9, "m": 50}, "loop": "spin"},
+      {"p": "label", "text": "10 minutes gone", "x": 106, "y": 37, "size": 4.2, "color": "red", "bold": true},
+      {"p": "label", "text": "time for 12 items", "x": 106, "y": 44, "size": 4, "color": "red", "cue": "12"}
+     ]
+    },
+    {
+     "label": "Pick her best guess, jot 37, move on",
+     "ok": true,
+     "win": "Eliminate, pick your best answer, note the item number on scratch paper, and move on. You can change answers while time remains.",
+     "beats": [
+      {"text": "She picks D, her best guess, jots 37 on scratch paper and moves on.", "say": "She picks D, her best guess, jots thirty-seven on scratch paper and moves on."}
+     ],
+     "draw": [
+      {"id": "dana", "p": "person", "x": 26, "y": 29, "h": 36, "opt": {"who": "dana", "pose": "point", "mood": "happy"}},
+      {"id": "cb", "p": "label", "text": "B", "x": 50, "y": 44, "size": 6, "bold": true, "box": true},
+      {"id": "cd", "p": "label", "text": "D", "x": 64, "y": 44, "size": 6, "bold": true, "box": true},
+      {"p": "ring", "on": "cd", "color": "green", "cue": "picks"},
+      {"id": "pad", "p": "note", "text": "Go back to: 37", "x": 66, "y": 18, "w": 26, "paper": "yellow", "cue": "jots"},
+      {"p": "icon", "name": "pencil", "x": 86, "y": 25, "h": 9, "color": "orange", "cue": "jots"},
+      {"id": "next", "p": "label", "text": "Item 38", "x": 128, "y": 28, "size": 5.5, "bold": true, "box": true, "cue": "moves"},
+      {"p": "arrow", "from": "pad", "to": "next", "bend": -0.2, "color": "green", "cue": "moves"}
+     ]
+    }
+   ],
+   "reveal": [
+    {"text": "She can change any answer while time remains. Never leave a blank.", "say": "She can change any answer while time remains. Never leave a blank."}
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Smart move or trap?",
+   "src": "PSI CIB eff. 6/10/2025, p.5-8; study guide, test-day strategy",
+   "options": ["Smart move", "Trap"],
+   "cards": [
+    {"text": "Dana's state driver's license expired last month. It's the only ID she brings.", "answer": 1, "why": "PSI requires one valid, unexpired, government-issued ID with photo and signature. Without proper ID, you lose your fee.", "draw": [{"p": "idcard", "x": 50, "y": 24, "h": 28, "opt": {"title": "DRIVER LICENSE"}}, {"p": "label", "text": "Expired last month", "x": 50, "y": 48, "size": 6.5, "bold": true, "color": "red"}]},
+    {"text": "On an EXCEPT item, she picks the first choice that fits the question.", "answer": 1, "why": "In an EXCEPT item, three choices fit the question. You want the one that doesn't. Watch for NOT items the same way.", "draw": [{"p": "label", "text": "All of the following EXCEPT...", "x": 50, "y": 28, "size": 8, "w": 90, "box": true}]},
+    {"text": "She takes the full on-screen tutorial, though she's worried about time.", "answer": 0, "why": "The tutorial, up to 15 minutes, doesn't count toward exam time. Its sample questions let her practice.", "draw": [{"p": "icon", "name": "monitor-play", "x": 50, "y": 24, "h": 28, "color": "blue"}, {"p": "label", "text": "Tutorial", "x": 50, "y": 48, "size": 6.5, "bold": true}]},
+    {"text": "She brings a valid US passport in the name she registered under.", "answer": 0, "why": "A valid US passport is an accepted government-issued ID with photo and signature.", "draw": [{"p": "idcard", "x": 50, "y": 28, "h": 30, "opt": {"title": "PASSPORT", "color": "blue"}}]},
+    {"text": "She brings a bank card with her photo and signature as her ID.", "answer": 1, "why": "A bank card isn't government-issued. PSI needs a valid, unexpired, government-issued ID with photo and signature.", "draw": [{"p": "creditcard", "x": 50, "y": 28, "h": 26}]},
+    {"text": "Her ID is valid, but it shows a different name than the one she registered under.", "answer": 1, "why": "The first and last name on your ID must match the name you registered under.", "draw": [{"p": "idcard", "x": 44, "y": 28, "h": 28}, {"p": "question", "x": 80, "y": 18, "h": 16, "color": "red"}]}
+   ],
+   "beats": [
+    {"text": "Your turn: smart move or trap? Swipe through Dana's exam day.", "say": "Your turn: smart move or trap? Swipe through Dana's exam day."}
+   ],
+   "reveal": [
+    {"text": "Only a valid government photo ID with your signature, in your registered name, gets you in. Use the tutorial; read EXCEPT items carefully.", "say": "Only a valid government photo I D with your signature, in your registered name, gets you in. Use the tutorial; read except items carefully."}
+   ]
+  },
+  {
+   "type": "recap",
+   "items": [
+    "150 scored items, 2.5 hours; 74%, or 111 right, to pass",
+    "Basics is biggest; Homeowners and Auto next. Study by weight",
+    "Course first (40 hours); pass within 180 days of applying",
+    "Arrive 30 minutes early with one valid government photo ID",
+    "Eliminate, guess, note, move on. Never leave a blank"
+   ],
+   "draw": [
+    {"id": "dana", "p": "person", "x": 20, "y": 42, "h": 32, "opt": {"who": "dana", "pose": "cheer", "mood": "laugh"}},
+    {"id": "lic", "p": "certificate", "x": 42, "y": 16, "h": 16, "opt": {"title": "LICENSE", "name": "Dana, producer"}},
+    {"id": "tony", "p": "person", "x": 54, "y": 44, "h": 30, "opt": {"who": "tony", "pose": "point", "mood": "happy"}},
+    {"id": "pz", "p": "pizza", "x": 70, "y": 46, "h": 11, "at": 2, "cue": "pizza", "anim": "pop"},
+    {"p": "sparkle", "x": 66, "y": 10, "h": 10}
+   ],
+   "beats": [
+    {"text": "And Dana? She passed! Remember: 150 items, 74% to pass, Basics weighs most.", "say": "And Dana? She passed! Remember: one hundred fifty items, seventy-four percent to pass, Basics weighs most.", "show": 2},
+    {"text": "Course first, pass within 180 days of applying, arrive 30 minutes early with valid ID, and never leave a blank.", "say": "Course first, pass within one hundred eighty days of applying, arrive thirty minutes early with valid I D, and never leave a blank.", "show": 5},
+    {"text": "Now can we eat the pizza?", "say": "Now can we eat the pizza?", "voice": "tony", "show": 5}
+   ]
+  }
  ],
- "hooks": [],
+ "check": ["reg-012", "reg-013", "reg-031"],
+ "hooks": ["mn-mn_reg-12"],
  "sources": [
   "PSI Candidate Information Bulletin, eff. 6/10/2025",
   "PSI Michigan P&C Producer/Solicitor 16-81 content outline (Sept 2021)",
@@ -23,524 +569,8 @@
   "DIFS Remote Examination Discontinuance (June 9, 2025)",
   "DIFS Pre-licensing Education FAQ",
   "DIFS How to become licensed as a Resident Producer",
-  "DIFS Insurance Producer Application Background Questions",
-  "MCL 500.1204(2), 500.1204(6), 500.1204a(1)(b), 500.1205(1), 500.1239(1)(d),(e)",
-  "Study guide: How to study (Roediger & Karpicke 2006; Cepeda et al. 2006; Butler et al. 2011)"
- ],
- "scenes": [
-  {
-   "type": "title",
-   "title": "Your exam: format, scoring and a study plan",
-   "subtitle": "What the PSI 16-81 exam looks like, what it takes to pass, and how to get ready",
-   "icon": "clipboard-list",
-   "beats": [
-    {
-     "text": "Welcome. Before you study a single rule, know exactly what you're aiming at.",
-     "say": "Welcome. Before you study a single rule, know exactly what you're aiming at."
-    },
-    {
-     "text": "Coming up: scoring, test day, your path to a license, and how to study.",
-     "say": "Coming up: scoring, test day, your path to a license, and how to study."
-    }
-   ]
-  },
-  {
-   "type": "bignum",
-   "title": "The exam at a glance",
-   "src": "PSI CIB eff. 6/10/2025, p.9; DIFS Insurance Examination Cut Scores PDF; PSI 16-81 outline",
-   "items": [
-    {
-     "value": "150",
-     "label": "Scored items"
-    },
-    {
-     "value": "2.5 hours",
-     "label": "Exam time"
-    },
-    {
-     "value": "74%",
-     "label": "Score needed to pass"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Your exam, PSI Series 16-81, has 150 scored items.",
-     "say": "Your exam, P S I Series sixteen eighty-one, has one hundred fifty scored items.",
-     "show": 1
-    },
-    {
-     "text": "You get 2.5 hours to finish.",
-     "say": "You get two point five hours to finish.",
-     "show": 2
-    },
-    {
-     "text": "And you need a score of 74% to pass.",
-     "say": "And you need a score of seventy-four percent to pass.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "formula",
-   "title": "Passing math",
-   "src": "PSI 16-81 outline: 150 items, 74% (111 correct to pass)",
-   "given": [
-    "150 scored items",
-    "Cut score: 74%"
-   ],
-   "items": [
-    {
-     "label": "Correct answers needed",
-     "expr": "74% × 150",
-     "value": "111"
-    },
-    {
-     "label": "Misses you can afford",
-     "expr": "150 − 111",
-     "value": "39"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Let's make that concrete. 74% of 150 is 111, so you need 111 correct answers.",
-     "say": "Let's make that concrete. Seventy-four percent of one hundred fifty is one hundred eleven, so you need one hundred eleven correct answers.",
-     "show": 1
-    },
-    {
-     "text": "That means you can miss up to 39 items and still pass.",
-     "say": "That means you can miss up to thirty-nine items and still pass.",
-     "show": 2
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "Where the 150 items come from",
-   "src": "PSI 16-81 content outline (Sept 2021)",
-   "columns": [
-    "Section",
-    "Weight",
-    "Items"
-   ],
-   "items": [
-    [
-     "P&C Insurance Basics",
-     "20%",
-     "30"
-    ],
-    [
-     "Homeowners and Auto",
-     "15% each",
-     "22 each"
-    ],
-    [
-     "Commercial Package Policy (CPP)",
-     "12%",
-     "18"
-    ],
-    [
-     "General Insurance",
-     "10.5%",
-     "16"
-    ],
-    [
-     "Insurance Regulation",
-     "10%",
-     "15"
-    ],
-    [
-     "BOP, Workers' Comp, Other, Dwelling",
-     "17.5% total",
-     "27 total"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "The outline splits the exam into ten sections. The biggest is Property and Casualty Insurance Basics: 20%, or 30 items.",
-     "say": "The outline splits the exam into ten sections. The biggest is Property and Casualty Insurance Basics: twenty percent, or thirty items.",
-     "show": 1
-    },
-    {
-     "text": "Homeowners and Auto come next, at 15% and 22 items each.",
-     "say": "Homeowners and Auto come next, at fifteen percent and twenty-two items each.",
-     "show": 2
-    },
-    {
-     "text": "Then the Commercial Package Policy at 12%, and General Insurance at 10.5%.",
-     "say": "Then the Commercial Package Policy at twelve percent, and General Insurance at ten point five percent.",
-     "show": 4
-    },
-    {
-     "text": "Insurance Regulation is 10%, or 15 items.",
-     "say": "Insurance Regulation is ten percent, or fifteen items.",
-     "show": 5
-    },
-    {
-     "text": "The four smallest, Businessowners, Workers' Comp, Other Coverages and Dwelling, add up to 27 items. Don't skip them.",
-     "say": "The four smallest, Businessowners, Workers' Comp, Other Coverages and Dwelling, add up to twenty-seven items. Don't skip them.",
-     "show": 6,
-     "hl": 5
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Which exam section is worth the most items?",
-   "choices": [
-    "Homeowners",
-    "Insurance Regulation",
-    "P&C Insurance Basics",
-    "Auto"
-   ],
-   "answer": 2,
-   "why": "P&C Insurance Basics is 20% of the exam, or 30 items. Homeowners and Auto are 22 items each, and Regulation is 15.",
-   "beats": [
-    {
-     "text": "Quick check. Which section is worth the most items? Pick an answer.",
-     "say": "Quick check. Which section is worth the most items? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "It's P&C Insurance Basics: 20%, or 30 items. Homeowners and Auto tie for second at 22 each.",
-     "say": "It's P and C Insurance Basics: twenty percent, or thirty items. Homeowners and Auto tie for second at twenty-two each."
-    }
-   ]
-  },
-  {
-   "type": "timeline",
-   "title": "Pacing checkpoints",
-   "src": "PSI CIB eff. 6/10/2025, p.8; study guide, test-day strategy",
-   "items": [
-    {
-     "at": "Start",
-     "label": "150 minutes on the clock",
-     "detail": "Plan for up to about 165 items at about 50 seconds each"
-    },
-    {
-     "at": "100 min left",
-     "label": "About 60 items done"
-    },
-    {
-     "at": "50 min left",
-     "label": "About 120 items done"
-    },
-    {
-     "at": "12 min left",
-     "label": "Go back to the items you noted"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Now pacing. PSI may add 1 to 10 unscored items, generally about 10% of the questions, that also use exam time. The bulletin doesn't say they're marked, so treat every item as scored.",
-     "say": "Now pacing. P S I may add one to ten unscored items, generally about ten percent of the questions, that also use exam time. The bulletin doesn't say they're marked, so treat every item as scored.",
-     "show": 1
-    },
-    {
-     "text": "Plan for up to about 165 items, at about 50 seconds each.",
-     "say": "Plan for up to about one hundred sixty-five items, at about fifty seconds each.",
-     "show": 1
-    },
-    {
-     "text": "Then you'll be about 60 items in when the clock shows 100 minutes left, and about 120 in at 50 minutes left.",
-     "say": "Then you'll be about sixty items in when the clock shows one hundred minutes left, and about one hundred twenty in at fifty minutes left.",
-     "show": 3
-    },
-    {
-     "text": "That leaves about 12 minutes to go back.",
-     "say": "That leaves about twelve minutes to go back.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Answering strategy",
-   "src": "PSI CIB eff. 6/10/2025, p.8; study guide, test-day strategy",
-   "items": [
-    {
-     "label": "Use the tutorial",
-     "detail": "Up to 15 minutes; it doesn't count toward exam time",
-     "icon": "book-open"
-    },
-    {
-     "label": "Read the question's last line first",
-     "detail": "Know what's being asked",
-     "icon": "search"
-    },
-    {
-     "label": "Watch for EXCEPT and NOT",
-     "detail": "Three choices fit the stem; pick the one that doesn't",
-     "icon": "triangle-alert"
-    },
-    {
-     "label": "Eliminate, guess, note, return",
-     "detail": "Write the item number on your scratch paper and move on",
-     "icon": "notebook-pen"
-    },
-    {
-     "label": "Never leave a blank",
-     "detail": "A blank can't be right",
-     "icon": "circle-check"
-    }
-   ],
-   "beats": [
-    {
-     "text": "A few habits help. Use the tutorial: it runs up to 15 minutes and doesn't count toward exam time.",
-     "say": "A few habits help. Use the tutorial: it runs up to fifteen minutes and doesn't count toward exam time.",
-     "show": 1
-    },
-    {
-     "text": "Read the question's last line first, so you know what's being asked.",
-     "say": "Read the question's last line first, so you know what's being asked.",
-     "show": 2
-    },
-    {
-     "text": "Watch for EXCEPT and NOT. In an EXCEPT item, three choices fit the stem. Pick the one that doesn't.",
-     "say": "Watch for except and not. In an except item, three choices fit the stem. Pick the one that doesn't.",
-     "show": 3
-    },
-    {
-     "text": "Stuck? Eliminate, pick your best answer, note the item number on scratch paper, and move on. You can change answers while time remains.",
-     "say": "Stuck? Eliminate, pick your best answer, note the item number on scratch paper, and move on. You can change answers while time remains.",
-     "show": 4
-    },
-    {
-     "text": "And never leave a blank. A blank can't be right.",
-     "say": "And never leave a blank. A blank can't be right.",
-     "show": 5
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Test day: bring and leave behind",
-   "src": "PSI CIB eff. 6/10/2025, p.5-7; DIFS Remote Examination Discontinuance (June 9, 2025)",
-   "columns": [
-    {
-     "name": "Bring and do",
-     "icon": "id-card",
-     "points": [
-      "Arrive 30 minutes early",
-      "One valid, unexpired, government-issued ID",
-      "ID shows your photo and signature",
-      "Name matches your registration"
-     ]
-    },
-    {
-     "name": "Leave behind",
-     "icon": "ban",
-     "points": [
-      "Phone and electronic watch",
-      "Handheld calculator",
-      "Reference materials",
-      "Food and drinks"
-     ]
-    }
-   ],
-   "tell": "You get a piece of scratch paper and a pencil at the test center.",
-   "beats": [
-    {
-     "text": "Test day is in person only, at a PSI test center. Arrive 30 minutes early. If you're not checked in by your start time, you can't test, and you lose your fee.",
-     "say": "Test day is in person only, at a P S I test center. Arrive thirty minutes early. If you're not checked in by your start time, you can't test, and you lose your fee.",
-     "show": 1
-    },
-    {
-     "text": "Bring one valid, unexpired, government-issued ID with photo and signature, like a state driver's license or US passport, in the name you registered under.",
-     "say": "Bring one valid, unexpired, government-issued ID with photo and signature, like a state driver's license or U S passport, in the name you registered under.",
-     "show": 1
-    },
-    {
-     "text": "Leave behind your phone, electronic watch, handheld calculator, reference materials, food and drinks.",
-     "say": "Leave behind your phone, electronic watch, handheld calculator, reference materials, food and drinks.",
-     "show": 2
-    },
-    {
-     "text": "You'll get scratch paper and a pencil, so practice math by hand.",
-     "say": "You'll get scratch paper and a pencil, so practice math by hand.",
-     "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Which of these IDs will get you into your PSI exam?",
-   "choices": [
-    "Your state driver's license, which expired last month",
-    "A valid US passport in the name you registered under",
-    "A bank card with your photo and signature",
-    "A valid ID in a name different from your registration"
-   ],
-   "answer": 1,
-   "why": "PSI requires one valid, unexpired, government-issued ID with your photo and signature, and the name must match your registration.",
-   "beats": [
-    {
-     "text": "Your turn. Which of these IDs will get you into the exam? Pick an answer.",
-     "say": "Your turn. Which of these IDs will get you into the exam? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "The valid US passport in your registered name. The others are expired, not government-issued, or in the wrong name.",
-     "say": "The valid U S passport in your registered name. The others are expired, not government-issued, or in the wrong name."
-    }
-   ]
-  },
-  {
-   "type": "steps",
-   "title": "Your path to a license",
-   "src": "MCL 500.1204(2), .1204a(1)(b), .1205(1), .1239(1)(d),(e); DIFS PE FAQ; DIFS resident producer page; PSI CIB p.2-5",
-   "items": [
-    {
-     "label": "Finish prelicensing education",
-     "detail": "40 hours for combined P&C; certificate valid 12 months",
-     "icon": "graduation-cap"
-    },
-    {
-     "label": "Apply through NIPR",
-     "detail": "Producer: $10 application fee and $5 transaction fee; valid 180 days",
-     "icon": "file-signature"
-    },
-    {
-     "label": "Register with PSI and test",
-     "detail": "$41 fee; cancel or reschedule at least 2 days ahead",
-     "icon": "clipboard-list"
-    },
-    {
-     "label": "Pass inside both windows",
-     "detail": "Within 12 months of your course and 180 days of your application",
-     "icon": "calendar-clock"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Now, your path to a license. Finish prelicensing education first, or your exam results are invalidated: 40 hours for combined property and casualty.",
-     "say": "Now, your path to a license. Finish prelicensing education first, or your exam results are invalidated: forty hours for combined property and casualty.",
-     "show": 1
-    },
-    {
-     "text": "The certificate is good for 12 months. A designation such as CPCU can earn a waiver; request it in writing and get it granted before you schedule.",
-     "say": "The certificate is good for twelve months. A designation such as C P C U can earn a waiver; request it in writing and get it granted before you schedule.",
-     "show": 1
-    },
-    {
-     "text": "Apply through NIPR. For a producer license, you pay $10 for the application and $5 for the transaction, and the application is valid for 180 days.",
-     "say": "Apply through N I P R. For a producer license, you pay ten dollars for the application and five dollars for the transaction, and the application is valid for one hundred eighty days.",
-     "show": 2
-    },
-    {
-     "text": "You must be at least 18. A felony conviction within 10 years before you apply bars a license. So does a felony involving violence, criminal sexual conduct or financial crime, at any time.",
-     "say": "You must be at least eighteen. A felony conviction within ten years before you apply bars a license. So does a felony involving violence, criminal sexual conduct or financial crime, at any time.",
-     "show": 2
-    },
-    {
-     "text": "Register with PSI: $41, not refundable. Cancel or reschedule at least 2 days ahead, or you lose it.",
-     "say": "Register with P S I: forty-one dollars, not refundable. Cancel or reschedule at least two days ahead, or you lose it.",
-     "show": 3
-    },
-    {
-     "text": "Pass within 180 days of applying and 12 months of finishing your course. A pass stays valid for 12 months.",
-     "say": "Pass within one hundred eighty days of applying and twelve months of finishing your course. A pass stays valid for twelve months.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Your NIPR producer license application was just entered into the DIFS database. How long do you have to pass the exam?",
-   "choices": [
-    "90 days",
-    "180 days",
-    "12 months",
-    "2 years"
-   ],
-   "answer": 1,
-   "why": "A resident producer application is valid 180 days from entry into the DIFS database. After that, you need a new application and fee.",
-   "beats": [
-    {
-     "text": "Your NIPR producer application was just entered into the DIFS database. How long do you have to pass the exam? Pick an answer.",
-     "say": "Your N I P R producer application was just entered into the D I F S database. How long do you have to pass the exam? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "180 days. After that, you need a new application and fee. Twelve months is your course certificate, not your application.",
-     "say": "One hundred eighty days. After that, you need a new application and fee. Twelve months is your course certificate, not your application."
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "How to study with this app",
-   "src": "Study guide: How to study (Roediger & Karpicke 2006; Cepeda et al. 2006; Butler et al. 2011)",
-   "items": [
-    {
-     "label": "Start today's session first",
-     "detail": "Misses come back next session; right answers after growing gaps",
-     "icon": "calendar-clock"
-    },
-    {
-     "label": "Answer from memory",
-     "detail": "In Practice, turn on Recall first (hide choices)",
-     "icon": "brain"
-    },
-    {
-     "label": "Mix the sections",
-     "detail": "Choose All sections (weighted like the exam)",
-     "icon": "layers"
-    },
-    {
-     "label": "Rate how sure you are",
-     "detail": "Misses you marked Sure come back first",
-     "icon": "target"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Last, this app. Each day, do Start today's session first. Misses come back next session, and right answers after growing gaps. Then add new material, roughly by weight.",
-     "say": "Last, this app. Each day, do Start today's session first. Misses come back next session, and right answers after growing gaps. Then add new material, roughly by weight.",
-     "show": 1
-    },
-    {
-     "text": "Answer from memory instead of rereading. In Practice, turn on Recall first to hide the choices.",
-     "say": "Answer from memory instead of rereading. In Practice, turn on Recall first to hide the choices.",
-     "show": 2
-    },
-    {
-     "text": "Mix the sections with All sections, weighted like the exam.",
-     "say": "Mix the sections with All sections, weighted like the exam.",
-     "show": 3
-    },
-    {
-     "text": "And keep Rate how sure I am on. Missed questions you marked Sure come back first.",
-     "say": "And keep Rate how sure I am on. Missed questions you marked Sure come back first.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "recap",
-   "title": "Recap",
-   "items": [
-    "150 scored items, 2.5 hours; 74%, or 111 correct, to pass",
-    "Basics, Homeowners and Auto carry the most items",
-    "Arrive 30 minutes early with one valid government photo ID",
-    "Pass within 180 days of your NIPR application",
-    "Start every day with today's session"
-   ],
-   "beats": [
-    {
-     "text": "To recap: 150 scored items, 2.5 hours, and 74%, or 111 correct, to pass. Basics, Homeowners and Auto weigh the most.",
-     "say": "To recap: one hundred fifty scored items, two point five hours, and seventy-four percent, or one hundred eleven correct, to pass. Basics, Homeowners and Auto weigh the most.",
-     "show": 3
-    },
-    {
-     "text": "Arrive 30 minutes early with valid photo ID, pass within 180 days of applying, and start each day with today's session.",
-     "say": "Arrive thirty minutes early with valid photo ID, pass within one hundred eighty days of applying, and start each day with today's session.",
-     "show": 5
-    }
-   ]
-  }
+  "MCL 500.1201, 500.1204(1),(2), 500.1204a(1)(b), 500.1204c(2), 500.1205(1), 500.1239(1)(d),(e), 500.1239(2)",
+  "Study guide: How to study (Roediger & Karpicke 2006; Cepeda et al. 2006; Butler et al. 2011)",
+  "Memory hook mn-mn_reg-12 (10-year rearview mirror; watch out: notes during the exam)"
  ]
 }

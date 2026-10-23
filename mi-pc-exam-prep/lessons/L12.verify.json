@@ -1,41 +1,86 @@
 {
  "id": "L12",
- "beats": 29,
+ "beats": 58,
  "mismatches": [
   {
-   "scene": 2,
+   "scene": 0,
+   "beat": 0,
+   "say": "It's January in Grand Rapids. Sam and Jen Miller insure their house with the twenty eleven H O three, and winter is about to test it.",
+   "heard": "It's January in Grand Rapids. Sam and Jen Miller ensure their house with the 2011 H03, and Winter is about to test it.",
+   "wer": 0.043,
+   "voice": "narrator"
+  },
+  {
+   "scene": 4,
    "beat": 1,
-   "say": "Freezing is covered only if you used reasonable care to maintain heat, or shut off the water and drained the system. Wear and tear, settling and pests aren't covered.",
-   "heard": "Freezing is covered only if you used reasonable care to maintain heat or shut off the water and drain the system. Wear and tear, settling and pests are not covered.",
-   "wer": 0.037
+   "say": "Or for critters: birds, rodents, insects, and animals an insured owns. The Millers' dog, Biscuit, chewed the back door? Not covered.",
+   "heard": "or for critters, birds, rodents, insects, and animals and insured owns. The Miller's dog, Biscuit, chewed the back door, not covered.",
+   "wer": 0.05,
+   "voice": "narrator"
+  },
+  {
+   "scene": 5,
+   "beat": 1,
+   "say": "The neighbors moved to Traverse City and took everything.",
+   "heard": "The neighbors moved to Traversity and took everything.",
+   "wer": 0.25,
+   "voice": "narrator"
   },
   {
    "scene": 6,
    "beat": 0,
-   "say": "Now loss settlement. Insure the home to at least eighty percent of full replacement cost, and building losses are paid at replacement cost, with no depreciation.",
-   "heard": "Now lost settlement. Ensure the home to at least 80% of full replacement cost and building losses are paid at replacement cost with no depreciation.",
-   "wer": 0.08
-  },
-  {
-   "scene": 7,
-   "beat": 1,
-   "say": "Thirty thousand dollars. Eighty percent of three hundred thousand dollars is two hundred forty thousand dollars, so this home meets the test, and the full repair cost is paid. Don't multiply the loss by eighty percent.",
-   "heard": "$30,000. 80% of $300,000 is $240,000, so this home meets the test and the full repair cost is paid. Do not multiply the loss by 80%. percent.",
-   "wer": 0.028
+   "say": "Quick check: seventy days vacant, then vandals. Covered?",
+   "heard": "Quick check, 70 days vacant than vandals, covered.",
+   "wer": 0.125,
+   "voice": "narrator"
   },
   {
    "scene": 9,
-   "beat": 1,
-   "say": "In Michigan, though, courts require coverage for an innocent co-insured's fire loss. And if two deductibles apply to one loss, only the highest applies.",
-   "heard": "In Michigan, though, courts require coverage for an innocent co-insured fire loss. And if two deductibles apply to one loss, only the highest applies.",
-   "wer": 0.042
+   "beat": 0,
+   "say": "The adjuster comes. Insure to at least eighty percent of replacement cost, and house losses are paid at replacement cost, no depreciation.",
+   "heard": "The adjuster comes. Ensure to at least 80% of replacement cost and house losses are paid at replacement cost, no depreciation.",
+   "wer": 0.048,
+   "voice": "narrator"
   },
   {
-   "scene": 10,
+   "scene": 9,
+   "beat": 4,
+   "say": "Did over should is three quarters. The repair costs twenty thousand dollars, so he gets fifteen thousand dollars once it's fixed. That beats the A C V, twelve thousand dollars.",
+   "heard": "Didover should his three-quarters. The repair costs $20,000, so he gets $15,000 once it's fixed. That beats the ACV, $12,000.",
+   "wer": 0.107,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 0,
+   "say": "Your turn: which clock?",
+   "heard": "Your turn, Witch Clock.",
+   "wer": 0.25,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": 0,
+   "say": "Tuesday's cave-in missed the old couch. But Sam could claim the snow crushed it. What should he do?",
+   "heard": "Tuesday's cave and missed the old couch, but Sam could claim the snow crushed it. What should he do?",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": "o0:0",
+   "say": "Busted. Now no insured gets Section one coverage, not even Jen.",
+   "heard": "Busted, now no insured gets Section 1 coverage, not even Gen.",
+   "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
    "beat": 1,
-   "say": "Insure to eighty percent for full replacement cost. Below that, pay the greater of actual cash value or the proportional amount. And in Michigan, payment is due thirty days after proof of the amount of loss.",
-   "heard": "ensure to 80% for full replacement cost. Below that, pay the greater of actual cash value or the proportional amount. And in Michigan, payment is due 30 days after proof of the amount of loss.",
-   "wer": 0.029
+   "say": "Under eighty percent, it's the greater of A C V or did over should.",
+   "heard": "Under 80%, it's the greater of A, CV, or did over should.",
+   "wer": 0.167,
+   "voice": "narrator"
   }
  ]
 }

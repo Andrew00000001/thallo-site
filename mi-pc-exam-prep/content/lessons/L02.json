@@ -3,12 +3,2953 @@
  "sec": "reg",
  "guide": "reg",
  "title": "Unfair trade practices, discipline, fraud and privacy",
- "summary": "Michigan's banned trade practices, the $50 gift rule, fiduciary duties, license discipline and fines, insurance fraud penalties, and privacy notices.",
+ "summary": "Dana's first agency year: Michigan's banned sales tricks, the $50 gift, premium money, license discipline and fines, fraud, and privacy notices.",
  "objectives": [
   "Tell twisting, rebating and misrepresentation apart, plus other unfair practices",
   "Apply the $50 gift limit, rebating penalties and fiduciary rules for premiums",
   "Recall discipline tiers, fines, and fraud penalties and reporting immunity",
   "Use PAPER to remember Michigan's privacy notice rules"
+ ],
+ "scenes": [
+  {
+   "type": "title",
+   "title": "Dana and the agent across the street",
+   "subtitle": "Michigan's banned sales tricks, the $50 gift, premium money, license discipline, fines, fraud and privacy",
+   "draw": [
+    {
+     "id": "agency",
+     "p": "store",
+     "x": 20,
+     "y": 30,
+     "h": 26,
+     "opt": {
+      "name": "DANA'S AGENCY"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 42,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "dana",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "line",
+     "from": [
+      52,
+      8
+     ],
+     "to": [
+      52,
+      63
+     ],
+     "dash": true,
+     "color": "gray"
+    },
+    {
+     "p": "label",
+     "text": "Main St.",
+     "x": 52,
+     "y": 67,
+     "size": 3.6,
+     "color": "gray"
+    },
+    {
+     "id": "vshop",
+     "p": "store",
+     "x": 72,
+     "y": 30,
+     "h": 22,
+     "opt": {
+      "name": "VIC'S",
+      "awning": "purple"
+     },
+     "at": 0,
+     "cue": "across"
+    },
+    {
+     "id": "vic",
+     "p": "person",
+     "x": 66,
+     "y": 52,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "hairColor": "yellow",
+      "shirt": "purple",
+      "tie": true,
+      "suit": true,
+      "mood": "smirk",
+      "pose": "hold",
+      "hold": "money"
+     },
+     "at": 0,
+     "cue": "Vic",
+     "anim": "slide-l",
+     "label": "Vic",
+     "lsize": 3.8
+    },
+    {
+     "p": "bubble",
+     "text": "By the book!",
+     "x": 40,
+     "y": 9,
+     "w": 24,
+     "to": "dana",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "It's Dana's first year with her own Grand Rapids agency. Business is slow, and Vic, across the street, plays dirty.",
+     "say": "It's Dana's first year with her own Grand Rapids agency. Business is slow, and Vic, across the street, plays dirty."
+    },
+    {
+     "text": "I'll beat him by the book. Watch me.",
+     "say": "I'll beat him by the book. Watch me.",
+     "voice": "dana"
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Vic's three tricks",
+   "src": "MCL 500.2005a(a) (twisting); MCL 500.2066(1) (rebating); MCL 500.2005 (misrepresentation); confusion pair cp_personal-15",
+   "draw": [
+    {
+     "id": "v0",
+     "p": "person",
+     "x": 80,
+     "y": 36,
+     "h": 34,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "hairColor": "yellow",
+      "shirt": "purple",
+      "tie": true,
+      "suit": true,
+      "mood": "smirk",
+      "pose": "cheer"
+     },
+     "out": 1
+    },
+    {
+     "p": "bubble",
+     "text": "Three tricks. Watch this!",
+     "x": 110,
+     "y": 8,
+     "w": 30,
+     "size": 4.4,
+     "to": "v0",
+     "out": 1
+    },
+    {
+     "p": "divider",
+     "x": 54,
+     "y": 34,
+     "y0": 4,
+     "y1": 62,
+     "at": 2
+    },
+    {
+     "p": "divider",
+     "x": 107,
+     "y": 34,
+     "y0": 4,
+     "y1": 62,
+     "at": 3
+    },
+    {
+     "p": "label",
+     "text": "Twisting",
+     "x": 27,
+     "y": 5,
+     "size": 5.2,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "twisting"
+    },
+    {
+     "id": "v1",
+     "p": "person",
+     "x": 11,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "hairColor": "yellow",
+      "shirt": "purple",
+      "tie": true,
+      "suit": true,
+      "mood": "smirk",
+      "pose": "point"
+     },
+     "at": 1
+    },
+    {
+     "id": "cmp",
+     "p": "note",
+     "text": "Switch! Save $20. Deductibles? Shh.",
+     "x": 28,
+     "y": 22,
+     "w": 25,
+     "paper": "yellow",
+     "at": 1,
+     "cue": "comparison"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 44,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "mood": "worried"
+     },
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "A switch",
+     "x": 27,
+     "y": 58,
+     "size": 4.6,
+     "bg": "yellow",
+     "at": 4,
+     "cue": "switch"
+    },
+    {
+     "p": "label",
+     "text": "Rebating",
+     "x": 80,
+     "y": 5,
+     "size": 5.2,
+     "bold": true,
+     "color": "green",
+     "at": 2,
+     "cue": "rebating"
+    },
+    {
+     "id": "v2",
+     "p": "person",
+     "x": 66,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "hairColor": "yellow",
+      "shirt": "purple",
+      "tie": true,
+      "suit": true,
+      "mood": "smirk",
+      "pose": "hold",
+      "hold": "money"
+     },
+     "at": 2
+    },
+    {
+     "p": "bubble",
+     "text": "$200 back to you!",
+     "x": 80,
+     "y": 15,
+     "w": 26,
+     "to": "v2",
+     "at": 2,
+     "cue": "cash"
+    },
+    {
+     "id": "rosa",
+     "p": "person",
+     "x": 96,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "rosa",
+      "mood": "happy"
+     },
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "A payback",
+     "x": 80,
+     "y": 58,
+     "size": 4.6,
+     "bg": "yellow",
+     "at": 4,
+     "cue": "payback"
+    },
+    {
+     "p": "label",
+     "text": "Misrepresentation",
+     "x": 133,
+     "y": 5,
+     "size": 5.2,
+     "bold": true,
+     "color": "red",
+     "at": 3,
+     "cue": "misrepresentation"
+    },
+    {
+     "id": "v3",
+     "p": "person",
+     "x": 117,
+     "y": 38,
+     "h": 26,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "hairColor": "yellow",
+      "shirt": "purple",
+      "tie": true,
+      "suit": true,
+      "mood": "smirk",
+      "pose": "point"
+     },
+     "at": 3
+    },
+    {
+     "id": "lie",
+     "p": "bubble",
+     "text": "My insurer never loses money!",
+     "x": 136,
+     "y": 15,
+     "w": 30,
+     "to": "v3",
+     "at": 3,
+     "cue": "lie"
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 146,
+     "y": 42,
+     "h": 18,
+     "at": 3
+    },
+    {
+     "p": "stamp",
+     "text": "False",
+     "x": 151,
+     "y": 25,
+     "size": 4.4,
+     "color": "red",
+     "rot": -10,
+     "at": 3,
+     "cue": "misstating",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "A false picture",
+     "x": 133,
+     "y": 58,
+     "size": 4.6,
+     "bg": "yellow",
+     "at": 4,
+     "cue": "false"
+    }
+   ],
+   "beats": [
+    {
+     "text": "The exam loves to mix up Vic's three tricks. Watch.",
+     "say": "The exam loves to mix up Vic's three tricks. Watch."
+    },
+    {
+     "text": "One: to get Tony to switch, Vic's comparison hides the new deductibles. A knowingly misleading representation or incomplete comparison, to get a policy dropped or replaced, is twisting.",
+     "say": "One: to get Tony to switch, Vic's comparison hides the new deductibles. A knowingly misleading representation or incomplete comparison, to get a policy dropped or replaced, is twisting.",
+     "hl": "cmp"
+    },
+    {
+     "text": "Two: cash back. Giving back premium or commission, or anything of value the policy doesn't specify, is rebating.",
+     "say": "Two: cash back. Giving back premium or commission, or anything of value the policy doesn't specify, is rebating.",
+     "hl": "v2"
+    },
+    {
+     "text": "Three: a lie about his insurer's money. Misstating a policy's terms or benefits, or an insurer's financial condition, is misrepresentation.",
+     "say": "Three: a lie about his insurer's money. Misstating a policy's terms or benefits, or an insurer's financial condition, is misrepresentation.",
+     "hl": "lie"
+    },
+    {
+     "text": "The tell: switch, twisting. Payback, rebating. False picture, misrepresentation.",
+     "say": "The tell: switch, twisting. Payback, rebating. False picture, misrepresentation."
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Switch, payback or false picture?",
+   "src": "Confusion pair cp_personal-15 (drills); MCL 500.2005; MCL 500.2005a(a); MCL 500.2066(1); MCL 500.2070",
+   "options": [
+    "Twisting",
+    "Rebating",
+    "Misrepresentation"
+   ],
+   "cards": [
+    {
+     "text": "An agent offers to send a prospect $200 of his commission if she buys a homeowners policy.",
+     "answer": 1,
+     "why": "Returning part of the commission is a rebate: valuable consideration not specified in the policy.",
+     "draw": [
+      {
+       "id": "ag",
+       "p": "person",
+       "x": 30,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "person",
+        "hair": "short",
+        "hairColor": "yellow",
+        "shirt": "purple",
+        "tie": true,
+        "suit": true,
+        "mood": "smirk",
+        "pose": "hold",
+        "hold": "money"
+       }
+      },
+      {
+       "p": "house",
+       "x": 72,
+       "y": 28,
+       "h": 30
+      }
+     ]
+    },
+    {
+     "text": "To get Rosa to drop her auto policy, an agent's comparison hides the new policy's much higher deductibles.",
+     "answer": 0,
+     "why": "An incomplete comparison used to get someone to drop one policy and take another is twisting.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 14,
+       "y": 28,
+       "h": 38,
+       "opt": {
+        "who": "rosa",
+        "mood": "worried"
+       }
+      },
+      {
+       "p": "car",
+       "x": 40,
+       "y": 40,
+       "h": 12,
+       "opt": {
+        "color": "purple"
+       }
+      },
+      {
+       "p": "note",
+       "text": "New policy: cheaper! Deductibles: ???",
+       "x": 76,
+       "y": 24,
+       "w": 34,
+       "size": 6
+      }
+     ]
+    },
+    {
+     "text": "An agent tells Sam his homeowners policy covers flood damage. It excludes flood.",
+     "answer": 2,
+     "why": "It misstates the policy's terms and benefits. No switch of policies is involved.",
+     "draw": [
+      {
+       "p": "house",
+       "x": 38,
+       "y": 26,
+       "h": 32
+      },
+      {
+       "p": "flood",
+       "x": 38,
+       "y": 40,
+       "w": 58,
+       "over": true
+      },
+      {
+       "p": "person",
+       "x": 80,
+       "y": 28,
+       "h": 38,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "worried"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Tony knowingly accepts a $300 gift card for buying a policy.",
+     "answer": 1,
+     "why": "$300 of value the policy doesn't specify is a rebate. Tony knowingly took it, so his insurance is reduced in proportion.",
+     "draw": [
+      {
+       "p": "person",
+       "x": 34,
+       "y": 28,
+       "h": 40,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "hold": "creditcard",
+        "mood": "laugh"
+       }
+      },
+      {
+       "p": "label",
+       "text": "$300 gift card",
+       "x": 72,
+       "y": 28,
+       "size": 7,
+       "w": 56,
+       "bold": true,
+       "color": "green"
+      }
+     ]
+    },
+    {
+     "text": "An agent falsely tells a prospect his insurer has billions in surplus and never had a losing year.",
+     "answer": 2,
+     "why": "Misrepresenting an insurer's financial condition is a listed misrepresentation.",
+     "draw": [
+      {
+       "p": "insurer",
+       "x": 20,
+       "y": 30,
+       "h": 30
+      },
+      {
+       "id": "ag",
+       "p": "person",
+       "x": 48,
+       "y": 32,
+       "h": 36,
+       "opt": {
+        "who": "person",
+        "hair": "short",
+        "hairColor": "yellow",
+        "shirt": "purple",
+        "tie": true,
+        "suit": true,
+        "mood": "smirk",
+        "pose": "point"
+       },
+       "flip": true
+      },
+      {
+       "p": "bubble",
+       "text": "Billions! Never a losing year!",
+       "x": 79,
+       "y": 12,
+       "w": 32,
+       "size": 6,
+       "to": "ag"
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: which trick is it?",
+     "say": "Your turn: which trick is it?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Watch out: twisting is a misrepresentation aimed at a switch. Cash to switch, with nothing misleading said, is rebating, not twisting.",
+     "say": "Watch out: twisting is a misrepresentation aimed at a switch. Cash to switch, with nothing misleading said, is rebating, not twisting."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "The cherry basket rule",
+   "src": "MCL 500.2024b (am. 2018 PA 542); MCL 500.2066(1); memory hook mn_reg-18",
+   "kind": "Michigan rule",
+   "term": "The $50 gift limit",
+   "plain": "In P&C, a small thank-you gift is fine: merchandise costing the insurer $50 or less per calendar year. Cash back is not.",
+   "example": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at $50 a year.",
+   "exam": "Watch out: $50 per calendar year, measured by cost to the insurer, for merchandise. Older materials may show another figure.",
+   "draw": [
+    {
+     "id": "basket",
+     "p": "icon",
+     "name": "shopping-basket",
+     "x": 20,
+     "y": 30,
+     "h": 20,
+     "color": "brown",
+     "at": 1,
+     "cue": "basket"
+    },
+    {
+     "p": "icon",
+     "name": "cherry",
+     "x": 20,
+     "y": 26,
+     "h": 9,
+     "color": "red",
+     "at": 1,
+     "cue": "basket",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Thank-you",
+     "x": 20,
+     "y": 46,
+     "size": 4.4,
+     "color": "green",
+     "bold": true,
+     "at": 1,
+     "cue": "thank"
+    },
+    {
+     "id": "env",
+     "p": "envelope",
+     "x": 60,
+     "y": 30,
+     "h": 14,
+     "opt": {
+      "open": true
+     },
+     "at": 1,
+     "cue": "envelope"
+    },
+    {
+     "p": "money",
+     "x": 60,
+     "y": 22,
+     "h": 8,
+     "at": 1,
+     "cue": "envelope",
+     "over": true
+    },
+    {
+     "p": "xout",
+     "on": "env",
+     "at": 1,
+     "cue": "rebate"
+    },
+    {
+     "p": "label",
+     "text": "Rebate",
+     "x": 60,
+     "y": 46,
+     "size": 4.4,
+     "color": "red",
+     "bold": true,
+     "at": 1,
+     "cue": "rebate"
+    },
+    {
+     "id": "fifty",
+     "p": "num",
+     "text": "$50 a year",
+     "x": 40,
+     "y": 60,
+     "size": 8,
+     "color": "green",
+     "at": 0,
+     "cue": "merchandise"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Is every gift a rebate? No. In Michigan P&C, merchandise costing the insurer $50 or less per calendar year is allowed.",
+     "say": "Is every gift a rebate? No. In Michigan P and C, merchandise costing the insurer fifty dollars or less per calendar year is allowed.",
+     "show": 2,
+     "hl": "fifty"
+    },
+    {
+     "text": "The hook: a Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at $50 a year.",
+     "say": "The hook: a Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at fifty dollars a year.",
+     "show": 3
+    },
+    {
+     "text": "Older materials may show another figure; $50 is the 2018 amendment.",
+     "say": "Older materials may show another figure; fifty dollars is the twenty eighteen amendment.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Dana's call: match Vic's cash?",
+   "src": "MCL 500.2066(1),(2); 500.2069; 500.2070; 500.2024b (am. 2018 PA 542)",
+   "ask": "What does Dana do?",
+   "draw": [
+    {
+     "id": "vic",
+     "p": "person",
+     "x": 16,
+     "y": 29,
+     "h": 36,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "hairColor": "yellow",
+      "shirt": "purple",
+      "tie": true,
+      "suit": true,
+      "mood": "smirk",
+      "pose": "hold",
+      "hold": "money"
+     },
+     "label": "Vic",
+     "lsize": 4
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 62,
+     "y": 28,
+     "h": 38,
+     "opt": {
+      "who": "dana",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 94,
+     "y": 28,
+     "h": 38,
+     "opt": {
+      "who": "sam",
+      "pose": "shrug",
+      "mood": "smirk"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Vic will send me $200. Can you match it?",
+     "x": 132,
+     "y": 14,
+     "w": 40,
+     "size": 4.4,
+     "to": "sam"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Vic will send me $200 of his commission to switch. Can you match it?",
+     "say": "Vic will send me two hundred dollars of his commission to switch. Can you match it?",
+     "voice": "sam"
+    }
+   ],
+   "options": [
+    {
+     "label": "Match it: send Sam $200 of her commission",
+     "ok": false,
+     "fail": "Cash to stay or to switch is rebating, not twisting: license revoked, no new one for 1 year, plus a misdemeanor fine up to $100 per violation.",
+     "beats": [
+      {
+       "text": "Dana sends the cash. That's rebating. On proof of it, Michigan revokes her license, with no new one for a year.",
+       "say": "Dana sends the cash. That's rebating. On proof of it, Michigan revokes her license, with no new one for a year."
+      }
+     ],
+     "draw": [
+      {
+       "id": "lic",
+       "p": "certificate",
+       "x": 30,
+       "y": 22,
+       "h": 22,
+       "opt": {
+        "title": "LICENSE",
+        "name": "Dana"
+       }
+      },
+      {
+       "p": "xout",
+       "on": "lic",
+       "at": 0,
+       "cue": "revokes"
+      },
+      {
+       "p": "stamp",
+       "text": "Revoked",
+       "x": 30,
+       "y": 45,
+       "size": 7,
+       "color": "red",
+       "at": 0,
+       "cue": "revokes"
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 72,
+       "y": 22,
+       "h": 20,
+       "opt": {
+        "n": "1 yr",
+        "label": ""
+       },
+       "at": 0,
+       "cue": "year"
+      },
+      {
+       "p": "label",
+       "text": "No new license",
+       "x": 72,
+       "y": 39,
+       "size": 4.4,
+       "bold": true,
+       "at": 0,
+       "cue": "year"
+      },
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 112,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "sad",
+        "mood": "sad"
+       }
+      }
+     ]
+    },
+    {
+     "label": "Skip the cash: give Sam a $90 gift basket",
+     "ok": false,
+     "fail": "The gift exception covers only merchandise costing the insurer $50 or less per calendar year. A $90 basket is a rebate.",
+     "beats": [
+      {
+       "text": "A basket costing $90? That's over $50, so it's still an illegal rebate.",
+       "say": "A basket costing ninety dollars? That's over fifty dollars, so it's still an illegal rebate."
+      }
+     ],
+     "draw": [
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 16,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "basket",
+       "p": "icon",
+       "name": "shopping-basket",
+       "x": 44,
+       "y": 28,
+       "h": 22,
+       "color": "brown"
+      },
+      {
+       "p": "icon",
+       "name": "cherry",
+       "x": 44,
+       "y": 23,
+       "h": 10,
+       "color": "red",
+       "over": true
+      },
+      {
+       "id": "tag",
+       "p": "num",
+       "text": "$90",
+       "x": 44,
+       "y": 47,
+       "size": 9,
+       "color": "red",
+       "at": 0,
+       "cue": "basket"
+      },
+      {
+       "p": "stamp",
+       "text": "Over $50",
+       "x": 72,
+       "y": 40,
+       "size": 6,
+       "color": "red",
+       "rot": -8,
+       "at": 0,
+       "cue": "Over"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 98,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      }
+     ]
+    },
+    {
+     "label": "Say no, and give Sam a $40 basket",
+     "ok": true,
+     "win": "Merchandise costing the insurer $50 or less per calendar year is allowed. This $40 basket is Sam's only gift this year.",
+     "beats": [
+      {
+       "text": "Cherries? Fine, I'm staying.",
+       "say": "Cherries? Fine, I'm staying.",
+       "voice": "sam"
+      },
+      {
+       "text": "A legal thank-you: $50 or less a year.",
+       "say": "A legal thank-you: fifty dollars or less a year."
+      }
+     ],
+     "draw": [
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 22,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "basket",
+       "p": "icon",
+       "name": "shopping-basket",
+       "x": 54,
+       "y": 33,
+       "h": 20,
+       "color": "brown"
+      },
+      {
+       "p": "icon",
+       "name": "cherry",
+       "x": 54,
+       "y": 28,
+       "h": 9,
+       "color": "red",
+       "over": true
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 86,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "sam",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Cherries? Fine, I'm staying.",
+       "x": 118,
+       "y": 12,
+       "w": 30,
+       "size": 4.4,
+       "to": "sam",
+       "at": 0
+      },
+      {
+       "p": "label",
+       "text": "$40: his only gift this year",
+       "x": 54,
+       "y": 51,
+       "size": 4.4,
+       "color": "green",
+       "bold": true,
+       "at": 1,
+       "cue": "legal"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A rebating agent's license is revoked, with no new one for a year. A customer who knowingly takes a rebate gets coverage reduced in proportion.",
+     "say": "A rebating agent's license is revoked, with no new one for a year. A customer who knowingly takes a rebate gets coverage reduced in proportion."
+    },
+    {
+     "text": "Rebating is also a misdemeanor for both, with a fine up to $100. For the agent, that's per violation.",
+     "say": "Rebating is also a misdemeanor for both, with a fine up to one hundred dollars. For the agent, that's per violation."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Main Street's other bad ideas",
+   "src": "MCL 500.2007; 500.2009; 500.2012; 500.2077(1),(3); 500.2027(b); memory hooks mn_reg-16, mn_reg-17",
+   "draw": [
+    {
+     "id": "bill",
+     "p": "sign",
+     "x": 18,
+     "y": 31,
+     "h": 40,
+     "opt": {
+      "text": "RIVAL MUTUAL\nGOING BROKE!",
+      "tcolor": "red"
+     },
+     "label": "I-94 billboard",
+     "lsize": 3.8
+    },
+    {
+     "id": "ad",
+     "p": "person",
+     "x": 46,
+     "y": 42,
+     "h": 28,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "hairColor": "yellow",
+      "shirt": "purple",
+      "tie": true,
+      "suit": true,
+      "mood": "smirk",
+      "pose": "point"
+     }
+    },
+    {
+     "id": "mega",
+     "p": "megaphone",
+     "x": 60,
+     "y": 37,
+     "h": 10,
+     "over": true
+    },
+    {
+     "p": "bubble",
+     "text": "Michigan's oldest agency!",
+     "x": 62,
+     "y": 12,
+     "w": 30,
+     "to": "ad"
+    },
+    {
+     "id": "bank",
+     "p": "bank",
+     "x": 88,
+     "y": 46,
+     "h": 24
+    },
+    {
+     "p": "bubble",
+     "text": "Loan? Only with OUR agent!",
+     "x": 66,
+     "y": 63,
+     "w": 28,
+     "to": "bank"
+    },
+    {
+     "id": "ins1",
+     "p": "insurer",
+     "x": 112,
+     "y": 15,
+     "h": 18
+    },
+    {
+     "id": "ins2",
+     "p": "insurer",
+     "x": 133,
+     "y": 15,
+     "h": 18
+    },
+    {
+     "p": "bubble",
+     "text": "We'll never write for Dana's customers!",
+     "x": 122,
+     "y": 33,
+     "w": 36,
+     "size": 4,
+     "to": "ins1"
+    },
+    {
+     "id": "ltr",
+     "p": "policy",
+     "x": 121,
+     "y": 52,
+     "h": 16,
+     "opt": {
+      "title": "REFUSED",
+      "tcolor": "red",
+      "tsize": 8
+     }
+    },
+    {
+     "id": "gran",
+     "p": "person",
+     "x": 145,
+     "y": 49,
+     "h": 26,
+     "opt": {
+      "who": "grandma",
+      "pose": "sad",
+      "mood": "sad"
+     },
+     "label": "Reason: denied before",
+     "lsize": 3.8
+    }
+   ],
+   "spots": [
+    {
+     "on": "bill",
+     "label": "Defamation",
+     "text": "De-FAME: a billboard on I-94 falsely shouting 'Rival Mutual is going broke!' to steal its customers. Spoken attacks count too."
+    },
+    {
+     "on": "ad",
+     "label": "False advertising",
+     "text": "Vic opened last year. Insurance ads and announcements may not be untrue, deceptive or misleading, in any medium."
+    },
+    {
+     "on": "bank",
+     "label": "Lender coercion",
+     "text": "A lender may not make a loan depend on buying insurance through a particular agent or insurer. It may reasonably approve the insurer you pick."
+    },
+    {
+     "on": "ins1",
+     "label": "Boycott",
+     "text": "BCI = Bullies Can't Insure: Boycott, Coercion, Intimidation. Insurers agreeing to shun one agency's customers unreasonably restrain its business."
+    },
+    {
+     "on": "gran",
+     "label": "Unfair discrimination",
+     "text": "Her letter gives the reason: a past denial. An insurer may not refuse to insure someone solely because another insurer previously denied her coverage."
+    }
+   ],
+   "beats": [
+    {
+     "text": "More trouble in town. Tap each spot to see what Michigan bans.",
+     "say": "More trouble in town. Tap each spot to see what Michigan bans."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "All five are banned in Michigan. Defamation's tell: a false or malicious attack on an insurance business's finances.",
+     "say": "All five are banned in Michigan. Defamation's tell: a false or malicious attack on an insurance business's finances."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Premiums are fiduciary money",
+   "src": "MCL 500.1207(1),(2),(3),(8)",
+   "kind": "Term",
+   "term": "Fiduciary money",
+   "plain": "Money Dana holds in trust for others. Premiums and return premiums aren't hers: kept apart (segregated), never mixed (commingled) with her own.",
+   "example": "Sam's premium goes in Dana's premium account at a federally insured bank, where it may earn interest. Her lunch money stays out.",
+   "exam": "Trap: personal checking, even with a ledger, is commingling. Holding a refund for future premiums takes the insured's written OK.",
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 16,
+     "y": 40,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "money"
+     }
+    },
+    {
+     "id": "bank",
+     "p": "bank",
+     "x": 56,
+     "y": 22,
+     "h": 24,
+     "label": "Premium account",
+     "lsize": 3.8
+    },
+    {
+     "p": "arrow",
+     "from": [
+      26,
+      34
+     ],
+     "to": [
+      42,
+      26
+     ],
+     "color": "green",
+     "at": 0,
+     "cue": "collects"
+    },
+    {
+     "p": "label",
+     "text": "Federally insured. May earn interest.",
+     "x": 56,
+     "y": 46,
+     "size": 3.6,
+     "w": 40,
+     "color": "blue",
+     "at": 1,
+     "cue": "federally"
+    },
+    {
+     "p": "line",
+     "from": [
+      36,
+      53
+     ],
+     "to": [
+      76,
+      53
+     ],
+     "dash": true,
+     "color": "gray",
+     "at": 0,
+     "cue": "own"
+    },
+    {
+     "id": "pig",
+     "p": "piggybank",
+     "x": 64,
+     "y": 62,
+     "h": 10,
+     "at": 0,
+     "cue": "own"
+    },
+    {
+     "p": "label",
+     "text": "Dana's own: kept apart",
+     "x": 40,
+     "y": 62,
+     "size": 3.6,
+     "w": 34,
+     "at": 0,
+     "cue": "own"
+    }
+   ],
+   "beats": [
+    {
+     "text": "In Michigan, premiums Dana collects are fiduciary money: held in trust, segregated, never commingled with her own.",
+     "say": "In Michigan, premiums Dana collects are fiduciary money: held in trust, segregated, never commingled with her own.",
+     "show": 2,
+     "hl": "bank"
+    },
+    {
+     "text": "They go in a separate account at a federally insured bank, and may earn interest.",
+     "say": "They go in a separate account at a federally insured bank, and may earn interest.",
+     "show": 3
+    },
+    {
+     "text": "Her own money goes in only to open the account and to pay or avoid bank charges. Late turnover is prima facie evidence of a violation.",
+     "say": "Her own money goes in only to open the account and to pay or avoid bank charges. Late turnover is prima facie evidence of a violation.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Dana's call: Sam's $120 refund",
+   "src": "MCL 500.1207(2),(4); question reg-051",
+   "ask": "What does Dana do with it?",
+   "draw": [
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 20,
+     "y": 27,
+     "h": 32
+    },
+    {
+     "id": "chk",
+     "p": "bankcheck",
+     "x": 40,
+     "y": 12,
+     "h": 9,
+     "opt": {
+      "amount": "$120"
+     },
+     "move": {
+      "to": [
+       56,
+       22
+      ],
+      "at": 0,
+      "cue": "sends",
+      "sfx": "cash"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 76,
+     "y": 29,
+     "h": 38,
+     "opt": {
+      "who": "dana",
+      "pose": "think",
+      "mood": "neutral"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Hold it for his next bill?",
+     "x": 102,
+     "y": 8,
+     "w": 28,
+     "size": 4.2,
+     "to": "dana",
+     "think": true
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 134,
+     "y": 29,
+     "h": 38,
+     "opt": {
+      "who": "sam",
+      "mood": "happy"
+     },
+     "label": "Owed $120 back",
+     "lsize": 4
+    }
+   ],
+   "beats": [
+    {
+     "text": "The insurer sends Dana $120 for Sam: a return premium. She could put it toward his next bill. What does she do?",
+     "say": "The insurer sends Dana one hundred twenty dollars for Sam: a return premium. She could put it toward his next bill. What does she do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Park it in her own checking for now",
+     "ok": false,
+     "fail": "Return premiums are fiduciary money too: kept in the separate account, never commingled with the agent's own.",
+     "beats": [
+      {
+       "text": "The refund lands next to Dana's lunch money. Commingled!",
+       "say": "The refund lands next to Dana's lunch money. Commingled!"
+      }
+     ],
+     "draw": [
+      {
+       "id": "chk",
+       "p": "bankcheck",
+       "x": 18,
+       "y": 12,
+       "h": 9,
+       "opt": {
+        "amount": "$120"
+       },
+       "move": {
+        "to": [
+         46,
+         22
+        ],
+        "at": 0,
+        "cue": "lands",
+        "sfx": "cash"
+       },
+       "over": true
+      },
+      {
+       "id": "wal",
+       "p": "wallet",
+       "x": 50,
+       "y": 32,
+       "h": 16
+      },
+      {
+       "p": "label",
+       "text": "Dana's own money",
+       "x": 50,
+       "y": 45,
+       "size": 4.4
+      },
+      {
+       "p": "label",
+       "text": "Commingled!",
+       "x": 50,
+       "y": 53,
+       "size": 5.4,
+       "bold": true,
+       "color": "red",
+       "at": 0,
+       "cue": "commingled"
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 98,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "sam",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "My snowblower money!",
+       "x": 124,
+       "y": 30,
+       "w": 26,
+       "size": 4.2,
+       "to": "sam",
+       "at": 0,
+       "cue": "commingled"
+      }
+     ]
+    },
+    {
+     "label": "Phone Sam, get a quick OK, then hold it",
+     "ok": false,
+     "fail": "She may hold a return premium for future premiums only with the insured's written authorization. A spoken OK doesn't count.",
+     "beats": [
+      {
+       "text": "Sure, keep it for my bill!",
+       "say": "Sure, keep it for my bill!",
+       "voice": "sam"
+      },
+      {
+       "text": "A phone OK isn't written. Not enough.",
+       "say": "A phone OK isn't written. Not enough."
+      }
+     ],
+     "draw": [
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 22,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 74,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "sam",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Sure, keep it for my bill!",
+       "x": 46,
+       "y": 8,
+       "w": 30,
+       "size": 4.4,
+       "to": "sam"
+      },
+      {
+       "p": "arrow",
+       "from": [
+        33,
+        40
+       ],
+       "to": [
+        63,
+        40
+       ],
+       "head": "both",
+       "dash": true,
+       "color": "gray",
+       "label": "Phone call",
+       "bend": -0.15
+      },
+      {
+       "id": "nt",
+       "p": "note",
+       "text": "Sam's written OK: none",
+       "x": 118,
+       "y": 40,
+       "w": 32,
+       "at": 1,
+       "cue": "written"
+      }
+     ]
+    },
+    {
+     "label": "Get Sam's written OK, then hold it",
+     "ok": true,
+     "win": "With the insured's written authorization, a return premium may stay in the premium account to pay future premiums.",
+     "beats": [
+      {
+       "text": "Sam signs. The refund waits in the premium account.",
+       "say": "Sam signs. The refund waits in the premium account."
+      }
+     ],
+     "draw": [
+      {
+       "id": "sam",
+       "p": "person",
+       "x": 22,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "sam",
+        "pose": "point",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "ok",
+       "p": "policy",
+       "x": 52,
+       "y": 28,
+       "h": 26,
+       "opt": {
+        "title": "WRITTEN OK",
+        "tsize": 5,
+        "sign": true
+       },
+       "at": 0,
+       "cue": "signs"
+      },
+      {
+       "id": "bank",
+       "p": "bank",
+       "x": 104,
+       "y": 25,
+       "h": 30,
+       "label": "Premium account",
+       "lsize": 4.4
+      },
+      {
+       "p": "arrow",
+       "from": "ok",
+       "to": "bank",
+       "color": "green",
+       "at": 0,
+       "cue": "waits"
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Holding a return premium for future premiums takes the insured's written authorization.",
+     "say": "Holding a return premium for future premiums takes the insured's written authorization."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Who can get a license?",
+   "src": "MCL 500.1239(1)(d),(e),(h),(i); MCL 500.1239(2)(a)-(d); memory hook mn_reg-12",
+   "kind": "Michigan rule",
+   "term": "Shall not issue vs may refuse",
+   "plain": "Shall not issue: the director must deny the license. May refuse: the director decides.",
+   "example": "The 10-year rearview mirror: a felony still in the mirror means no license. Violent, sex and money felonies are 'closer than they appear'; they never leave the mirror.",
+   "exam": "Also shall not issue: forging a name on an insurance document, or knowingly accepting business from an unlicensed person.",
+   "draw": [
+    {
+     "id": "dir",
+     "p": "person",
+     "x": 14,
+     "y": 40,
+     "h": 30,
+     "opt": {
+      "who": "regulator",
+      "pose": "point",
+      "mood": "neutral"
+     },
+     "label": "The director",
+     "lsize": 3.6
+    },
+    {
+     "id": "s1",
+     "p": "stamp",
+     "text": "Shall not issue",
+     "x": 52,
+     "y": 14,
+     "size": 5,
+     "color": "red",
+     "rot": -6,
+     "at": 0,
+     "cue": "deny"
+    },
+    {
+     "id": "s2",
+     "p": "stamp",
+     "text": "May refuse",
+     "x": 52,
+     "y": 31,
+     "size": 5,
+     "color": "orange",
+     "rot": 4,
+     "at": 0,
+     "cue": "decides"
+    },
+    {
+     "id": "car",
+     "p": "box",
+     "x": 52,
+     "y": 51,
+     "w": 42,
+     "hh": 12,
+     "r": 6,
+     "at": 1,
+     "cue": "felony"
+    },
+    {
+     "p": "label",
+     "text": "Felony: last 10 years",
+     "x": 52,
+     "y": 51,
+     "size": 4,
+     "at": 1,
+     "cue": "felony"
+    },
+    {
+     "p": "label",
+     "text": "10-year mirror",
+     "x": 52,
+     "y": 42,
+     "size": 3.6,
+     "color": "gray",
+     "at": 1,
+     "cue": "felony"
+    },
+    {
+     "p": "label",
+     "text": "Violent, sex, money: always in view",
+     "x": 52,
+     "y": 61,
+     "size": 3.6,
+     "w": 46,
+     "color": "red",
+     "at": 1,
+     "cue": "violent"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Dana's hiring. Licenses come from the director. Shall not issue: the director must deny one. May refuse: the director decides.",
+     "say": "Dana's hiring. Licenses come from the director. Shall not issue: the director must deny one. May refuse: the director decides.",
+     "show": 2
+    },
+    {
+     "text": "Shall not issue: a felony within 10 years before applying, or a violent, sexual or financial felony at any time.",
+     "say": "Shall not issue: a felony within ten years before applying, or a violent, sexual or financial felony at any time.",
+     "show": 3,
+     "hl": "car"
+    },
+    {
+     "text": "Also forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
+     "say": "Also forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
+     "show": 4,
+     "hl": "s1"
+    },
+    {
+     "text": "May refuse: false or incomplete application answers, other felonies, a license denied, suspended or revoked in another state, or using notes during the exam.",
+     "say": "May refuse: false or incomplete application answers, other felonies, a license denied, suspended or revoked in another state, or using notes during the exam.",
+     "show": 4,
+     "hl": "s2"
+    }
+   ]
+  },
+  {
+   "type": "sort",
+   "title": "Sort Dana's job applicants",
+   "src": "MCL 500.1239(1)(d),(e),(h),(i); MCL 500.1239(2)(a)-(d); question reg-031; memory hook mn_reg-12",
+   "bins": [
+    {
+     "name": "Shall not issue"
+    },
+    {
+     "name": "May refuse"
+    }
+   ],
+   "items": [
+    {
+     "text": "A felony conviction 6 years before applying",
+     "bin": 0,
+     "why": "Any felony within 10 years before applying."
+    },
+    {
+     "text": "An embezzlement felony 25 years ago",
+     "bin": 0,
+     "why": "Financial felonies count at any date."
+    },
+    {
+     "text": "Forged a customer's name on an application",
+     "bin": 0,
+     "why": "Forging a name on an insurance document."
+    },
+    {
+     "text": "Knowingly took business from the unlicensed",
+     "bin": 0,
+     "why": "Knowingly accepting business from the unlicensed."
+    },
+    {
+     "text": "Used notes during the licensing exam",
+     "bin": 1,
+     "why": "Notes or reference material during the exam."
+    },
+    {
+     "text": "License revoked in another state",
+     "bin": 1,
+     "why": "Denied, suspended or revoked in another state."
+    },
+    {
+     "text": "Gave incomplete answers on the application",
+     "bin": 1,
+     "why": "Incomplete or untrue application information."
+    },
+    {
+     "text": "A 15-year-old felony, not violent, sexual or financial",
+     "bin": 1,
+     "why": "Older felonies of other kinds: may refuse."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn: shall not issue, or may refuse?",
+     "say": "Your turn: shall not issue, or may refuse?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Violent, sexual and money felonies never leave the mirror.",
+     "say": "Violent, sexual and money felonies never leave the mirror."
+    },
+    {
+     "text": "Any of these can also cost a current licensee: probation, suspension, revocation or a fine.",
+     "say": "Any of these can also cost a current licensee: probation, suspension, revocation or a fine."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Maximum fines after a hearing",
+   "src": "MCL 500.1244(1),(3); MCL 500.2038(1); MCL 500.2040(1); memory hooks mn_reg-13, mn_reg-14",
+   "draw": [
+    {
+     "id": "dir",
+     "p": "person",
+     "x": 52,
+     "y": 36,
+     "h": 34,
+     "opt": {
+      "who": "regulator",
+      "pose": "point",
+      "mood": "neutral"
+     },
+     "out": 1
+    },
+    {
+     "id": "cd",
+     "p": "policy",
+     "x": 84,
+     "y": 34,
+     "h": 28,
+     "opt": {
+      "title": "CEASE AND DESIST",
+      "tsize": 3.8,
+      "tcolor": "red"
+     },
+     "out": 1,
+     "cue": "cease",
+     "label": "Cease and desist order",
+     "lsize": 4
+    },
+    {
+     "p": "gavel",
+     "x": 150,
+     "y": 9,
+     "h": 9,
+     "opt": {
+      "strike": true
+     },
+     "sfx": "stamp",
+     "at": 0,
+     "cue": "fine"
+    },
+    {
+     "p": "divider",
+     "x": 80,
+     "y": 34,
+     "y0": 4,
+     "y1": 62,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Licensing law",
+     "x": 40,
+     "y": 6,
+     "size": 5,
+     "bold": true,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Oops 1, Knew 5, Cap 50",
+     "x": 40,
+     "y": 13,
+     "size": 4.2,
+     "bg": "yellow",
+     "at": 1,
+     "cue": "Oops"
+    },
+    {
+     "p": "num",
+     "text": "$1,000",
+     "x": 14,
+     "y": 24,
+     "size": 6,
+     "at": 1,
+     "cue": "Oops"
+    },
+    {
+     "p": "label",
+     "text": "max each, didn't know",
+     "x": 26,
+     "y": 24,
+     "size": 3.8,
+     "w": 46,
+     "align": "left",
+     "at": 1,
+     "cue": "Oops"
+    },
+    {
+     "p": "num",
+     "text": "$5,000",
+     "x": 14,
+     "y": 34,
+     "size": 6,
+     "at": 1,
+     "cue": "Knew"
+    },
+    {
+     "p": "label",
+     "text": "max each, knew or reasonably should have known",
+     "x": 26,
+     "y": 34,
+     "size": 3.8,
+     "w": 46,
+     "align": "left",
+     "at": 1,
+     "cue": "Knew"
+    },
+    {
+     "p": "num",
+     "text": "$50,000",
+     "x": 14,
+     "y": 44,
+     "size": 6,
+     "at": 1,
+     "cue": "Cap"
+    },
+    {
+     "p": "label",
+     "text": "cap per order",
+     "x": 26,
+     "y": 44,
+     "size": 3.8,
+     "w": 46,
+     "align": "left",
+     "at": 1,
+     "cue": "Cap"
+    },
+    {
+     "p": "num",
+     "text": "$20,000",
+     "x": 14,
+     "y": 54,
+     "size": 6,
+     "at": 3,
+     "cue": "licensing"
+    },
+    {
+     "p": "label",
+     "text": "max each, knowingly defying; cap $100,000",
+     "x": 26,
+     "y": 54,
+     "size": 3.8,
+     "w": 46,
+     "align": "left",
+     "at": 3,
+     "cue": "licensing"
+    },
+    {
+     "p": "label",
+     "text": "Trade practices law",
+     "x": 120,
+     "y": 6,
+     "size": 5,
+     "bold": true,
+     "color": "purple",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Caps: ten times each fine",
+     "x": 120,
+     "y": 13,
+     "size": 4.2,
+     "bg": "yellow",
+     "at": 2,
+     "cue": "caps"
+    },
+    {
+     "p": "num",
+     "text": "$1,000",
+     "x": 94,
+     "y": 24,
+     "size": 6,
+     "at": 2,
+     "cue": "same"
+    },
+    {
+     "p": "label",
+     "text": "max each, cap $10,000",
+     "x": 106,
+     "y": 24,
+     "size": 3.8,
+     "w": 46,
+     "align": "left",
+     "at": 2,
+     "cue": "same"
+    },
+    {
+     "p": "num",
+     "text": "$5,000",
+     "x": 94,
+     "y": 35,
+     "size": 6,
+     "at": 2,
+     "cue": "caps"
+    },
+    {
+     "p": "label",
+     "text": "max each if you knew or should have; cap $50,000 per 6 months",
+     "x": 106,
+     "y": 35,
+     "size": 3.8,
+     "w": 46,
+     "align": "left",
+     "at": 2,
+     "cue": "caps"
+    },
+    {
+     "p": "num",
+     "text": "$20,000",
+     "x": 94,
+     "y": 54,
+     "size": 6,
+     "at": 3,
+     "cue": "Defy"
+    },
+    {
+     "p": "label",
+     "text": "max each, defying the order",
+     "x": 106,
+     "y": 54,
+     "size": 3.8,
+     "w": 46,
+     "align": "left",
+     "at": 3,
+     "cue": "Defy"
+    }
+   ],
+   "beats": [
+    {
+     "text": "After a hearing, Michigan's director issues a cease and desist order and may add fines.",
+     "say": "After a hearing, Michigan's director issues a cease and desist order and may add fines."
+    },
+    {
+     "text": "Licensing law, in thousands: Oops 1, didn't know. Knew 5, knew or reasonably should have. Cap 50 per order.",
+     "say": "Licensing law, in thousands: Oops one, didn't know. Knew five, knew or reasonably should have. Cap fifty per order."
+    },
+    {
+     "text": "Trade practices law uses the same $1,000 and $5,000. Its caps are ten times those: $10,000 total, or $50,000 per 6 months if you knew or should have.",
+     "say": "Trade practices law uses the same one thousand dollars and five thousand dollars. Its caps are ten times those: ten thousand dollars total, or fifty thousand dollars per six months if you knew or should have."
+    },
+    {
+     "text": "Defy either order: up to $20,000 each. For a licensing order, that's for knowing violations, capped at $100,000.",
+     "say": "Defy either order: up to twenty thousand dollars each. For a licensing order, that's for knowing violations, capped at one hundred thousand dollars."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Tony's call: the cracked oven",
+   "src": "MCL 500.4503; MCL 500.4511(1),(2); memory hook mn_reg-19; questions reg-052, reg-053",
+   "ask": "What does Tony do?",
+   "draw": [
+    {
+     "id": "oven",
+     "p": "oven",
+     "x": 22,
+     "y": 28,
+     "h": 28
+    },
+    {
+     "p": "line",
+     "from": [
+      24,
+      15
+     ],
+     "to": [
+      21,
+      20
+     ],
+     "color": "red",
+     "over": true
+    },
+    {
+     "p": "line",
+     "from": [
+      21,
+      20
+     ],
+     "to": [
+      25,
+      24
+     ],
+     "color": "red",
+     "over": true
+    },
+    {
+     "p": "line",
+     "from": [
+      25,
+      24
+     ],
+     "to": [
+      22,
+      28
+     ],
+     "color": "red",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Cracked!",
+     "x": 22,
+     "y": 47,
+     "size": 4.6,
+     "bold": true,
+     "color": "red"
+    },
+    {
+     "id": "est",
+     "p": "receipt",
+     "x": 52,
+     "y": 26,
+     "h": 26,
+     "opt": {
+      "total": "$2,000",
+      "n": 3
+     },
+     "label": "Real estimate",
+     "lsize": 3.8
+    },
+    {
+     "id": "ins",
+     "p": "insurer",
+     "x": 141,
+     "y": 39,
+     "h": 28,
+     "at": 0,
+     "cue": "claim",
+     "label": "Claim filed",
+     "lsize": 3.8
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 92,
+     "y": 29,
+     "h": 38,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "smirk"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "$6,000? Who'd know?",
+     "x": 126,
+     "y": 10,
+     "w": 28,
+     "size": 4.4,
+     "to": "tony",
+     "think": true,
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "Detroit, January. Tony's pizza oven cracks, and he files an insurance claim. The real repair estimate: $2,000.",
+     "say": "Detroit, January. Tony's pizza oven cracks, and he files an insurance claim. The real repair estimate: two thousand dollars."
+    },
+    {
+     "text": "$6,000 sounds better. Who'd know?",
+     "say": "Six thousand dollars sounds better. Who'd know?",
+     "voice": "tony"
+    }
+   ],
+   "options": [
+    {
+     "label": "Inflate it to $6,000 and send it in himself",
+     "ok": false,
+     "fail": "Knowingly presenting false material information on a claim, to defraud, is a felony: up to 4 years and/or $50,000, plus restitution.",
+     "beats": [
+      {
+       "text": "Tony sends in the doctored estimate: under Michigan law, a felony. Up to four years, a fine up to $50,000, or both, plus paying it back.",
+       "say": "Tony sends in the doctored estimate: under Michigan law, a felony. Up to four years, a fine up to fifty thousand dollars, or both, plus paying it back."
+      }
+     ],
+     "draw": [
+      {
+       "p": "line",
+       "from": [
+        28,
+        10
+       ],
+       "to": [
+        28,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        34,
+        10
+       ],
+       "to": [
+        34,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        40,
+        10
+       ],
+       "to": [
+        40,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        46,
+        10
+       ],
+       "to": [
+        46,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        52,
+        10
+       ],
+       "to": [
+        52,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 40,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "tony",
+        "pose": "sad",
+        "mood": "shocked"
+       },
+       "over": true
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 82,
+       "y": 20,
+       "h": 18,
+       "opt": {
+        "n": "4 yrs",
+        "label": ""
+       },
+       "at": 0,
+       "cue": "four"
+      },
+      {
+       "p": "label",
+       "text": "Solo 4: up to 4 yrs",
+       "x": 82,
+       "y": 37,
+       "size": 5,
+       "bold": true,
+       "color": "red",
+       "at": 0,
+       "cue": "felony",
+       "w": 46
+      },
+      {
+       "id": "bag",
+       "p": "moneybag",
+       "x": 124,
+       "y": 34,
+       "h": 16,
+       "label": "Up to $50,000",
+       "lsize": 4.2,
+       "at": 0,
+       "cue": "fine"
+      }
+     ]
+    },
+    {
+     "label": "Call his cousin to help fake a break-in",
+     "ok": false,
+     "fail": "Agreeing or conspiring to commit insurance fraud is its own felony: up to 10 years and/or $50,000, plus restitution.",
+     "beats": [
+      {
+       "text": "Tony and his cousin agree to fake a break-in. Agreeing to commit insurance fraud: a felony, up to ten years.",
+       "say": "Tony and his cousin agree to fake a break-in. Agreeing to commit insurance fraud: a felony, up to ten years."
+      }
+     ],
+     "draw": [
+      {
+       "p": "line",
+       "from": [
+        20,
+        10
+       ],
+       "to": [
+        20,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        26,
+        10
+       ],
+       "to": [
+        26,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        32,
+        10
+       ],
+       "to": [
+        32,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        38,
+        10
+       ],
+       "to": [
+        38,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        44,
+        10
+       ],
+       "to": [
+        44,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        50,
+        10
+       ],
+       "to": [
+        50,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        56,
+        10
+       ],
+       "to": [
+        56,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "p": "line",
+       "from": [
+        62,
+        10
+       ],
+       "to": [
+        62,
+        50
+       ],
+       "color": "gray"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 30,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "tony",
+        "pose": "sad",
+        "mood": "sad"
+       },
+       "over": true
+      },
+      {
+       "id": "cuz",
+       "p": "person",
+       "x": 54,
+       "y": 30,
+       "h": 36,
+       "opt": {
+        "who": "person",
+        "mood": "worried",
+        "pose": "shrug",
+        "hat": "cap",
+        "hatColor": "green",
+        "shirt": "orange"
+       },
+       "over": true
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 90,
+       "y": 20,
+       "h": 18,
+       "opt": {
+        "n": "10 yrs",
+        "label": ""
+       },
+       "at": 0,
+       "cue": "ten"
+      },
+      {
+       "p": "label",
+       "text": "Squad 10: up to 10 yrs",
+       "x": 90,
+       "y": 37,
+       "size": 5,
+       "bold": true,
+       "color": "red",
+       "at": 0,
+       "cue": "Agreeing",
+       "w": 46
+      },
+      {
+       "id": "bag",
+       "p": "moneybag",
+       "x": 134,
+       "y": 34,
+       "h": 16,
+       "label": "Still up to $50,000",
+       "lsize": 4.2,
+       "at": 0,
+       "cue": "felony"
+      }
+     ]
+    },
+    {
+     "label": "Send the real $2,000 estimate",
+     "ok": true,
+     "win": "An honest claim is no crime. Knowingly faking one, alone or with a partner, is a felony.",
+     "beats": [
+      {
+       "text": "Honest pizza, honest claim.",
+       "say": "Honest pizza, honest claim.",
+       "voice": "tony"
+      }
+     ],
+     "draw": [
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 32,
+       "y": 29,
+       "h": 38,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      },
+      {
+       "id": "est",
+       "p": "receipt",
+       "x": 64,
+       "y": 26,
+       "h": 26,
+       "opt": {
+        "total": "$2,000",
+        "n": 3
+       }
+      },
+      {
+       "p": "check",
+       "x": 80,
+       "y": 12,
+       "h": 10
+      },
+      {
+       "id": "pz",
+       "p": "pizza",
+       "x": 108,
+       "y": 30,
+       "h": 20
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Solo 4, Squad 10: committing fraud risks 4 years; plotting it with a partner risks 10. Either way, up to $50,000 and you pay it back.",
+     "say": "Solo four, Squad ten: committing fraud risks four years; plotting it with a partner risks ten. Either way, up to fifty thousand dollars and you pay it back."
+    }
+   ]
+  },
+  {
+   "type": "explore",
+   "title": "Dana reports a fishy estimate",
+   "src": "MCL 500.4501(a),(h),(i); MCL 500.4503; MCL 500.4509(1),(3); question reg-055; memory hook mn_reg-19",
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 14,
+     "y": 40,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "magnifier",
+      "mood": "worried"
+     }
+    },
+    {
+     "id": "thought",
+     "p": "bubble",
+     "think": true,
+     "text": "Altered to cheat?",
+     "x": 27,
+     "y": 7,
+     "w": 30,
+     "size": 4.2,
+     "to": "dana",
+     "at": 0,
+     "cue": "suspects"
+    },
+    {
+     "id": "sus",
+     "p": "icon",
+     "name": "circle-help",
+     "x": 50,
+     "y": 7,
+     "h": 9,
+     "color": "red",
+     "at": 0,
+     "cue": "suspects"
+    },
+    {
+     "id": "est",
+     "p": "policy",
+     "x": 40,
+     "y": 26,
+     "h": 22,
+     "opt": {
+      "title": "ESTIMATE",
+      "tsize": 5
+     }
+    },
+    {
+     "id": "police",
+     "p": "police",
+     "x": 68,
+     "y": 52,
+     "h": 16,
+     "label": "State police",
+     "lsize": 3.8
+    },
+    {
+     "p": "arrow",
+     "from": "est",
+     "to": "police",
+     "label": "Report",
+     "color": "blue",
+     "bend": 0.2,
+     "at": 0,
+     "cue": "reports"
+    },
+    {
+     "id": "client",
+     "p": "person",
+     "x": 100,
+     "y": 40,
+     "h": 30,
+     "opt": {
+      "who": "neighbor",
+      "pose": "point",
+      "mood": "angry"
+     },
+     "flip": true
+    },
+    {
+     "p": "bubble",
+     "text": "I'll sue for slander!",
+     "x": 80,
+     "y": 11,
+     "w": 28,
+     "to": "client",
+     "at": 1
+    },
+    {
+     "id": "clinic",
+     "p": "hospital",
+     "x": 142,
+     "y": 17,
+     "h": 22,
+     "label": "Clinic",
+     "lsize": 3.8
+    },
+    {
+     "id": "runner",
+     "p": "person",
+     "x": 146,
+     "y": 52,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "shirt": "brown",
+      "mood": "smirk",
+      "pose": "hold",
+      "hold": "money"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "The clinic pays me per patient I bring in for insurance claims!",
+     "x": 123,
+     "y": 46,
+     "w": 30,
+     "size": 4,
+     "to": "runner"
+    }
+   ],
+   "spots": [
+    {
+     "on": "est",
+     "label": "A 'statement'",
+     "text": "Under the fraud law, statements include estimates, invoices, bills, proofs of loss, claim forms, medical records and X-rays."
+    },
+    {
+     "on": "sus",
+     "label": "Fraudulent insurance act",
+     "text": "Dana's suspicion: an act done knowingly, with intent to injure, defraud or deceive, like false material information on an application or claim. Not this one."
+    },
+    {
+     "on": "police",
+     "label": "Authorized agency",
+     "text": "Under the fraud law, 'authorized agency' includes the state police, local police and sheriffs, prosecutors, federal investigators, DIFS and the Department of State."
+    },
+    {
+     "on": "dana",
+     "label": "Reporting shield",
+     "text": "Report suspected fraud without malice, and you are not liable for libel, slander or other torts, unless you know the information is false."
+    },
+    {
+     "on": "runner",
+     "label": "Runner, capper or steerer",
+     "text": "Someone a practitioner pays to bring in clients or patients, to obtain insurance benefits or assert claims. A practitioner's public-media ads don't count."
+    }
+   ],
+   "beats": [
+    {
+     "text": "Dana suspects a client's repair estimate was altered, and reports it in good faith to the state police.",
+     "say": "Dana suspects a client's repair estimate was altered, and reports it in good faith to the state police."
+    },
+    {
+     "text": "It's genuine. The client sues for slander. Is Dana liable? Tap the spots.",
+     "say": "It's genuine. The client sues for slander. Is Dana liable? Tap the spots."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "No: she reported without malice and didn't know it was false.",
+     "say": "No: she reported without malice and didn't know it was false."
+    },
+    {
+     "text": "Also: a runner, capper or steerer is paid by a practitioner to bring in patients for insurance claims.",
+     "say": "Also: a runner, capper or steerer is paid by a practitioner to bring in patients for insurance claims.",
+     "hl": "runner"
+    }
+   ]
+  },
+  {
+   "type": "hook",
+   "title": "Privacy notices: think PAPER",
+   "src": "MCL 500.501(1); .507(1)(a); .513(1); .527(1),(2),(4); .529(1),(2)(a); memory hook mn_reg-20",
+   "mn": "mn-mn_reg-20",
+   "hook": "Think PAPER for privacy notices: Personal, At the start, Periodic, Exit, Real copy.",
+   "items": [
+    "Personal: personal, family or household insurance, not business buyers",
+    "At the start, then Periodic: at least once in any 12 consecutive months",
+    "Exit: opt-out before sharing with nonaffiliated third parties; 30 days from mailing is reasonable",
+    "Real copy: in writing, or electronic if agreed; never solely oral, and no office sign"
+   ],
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 16,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "envelope",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 60,
+     "y": 15,
+     "h": 16,
+     "opt": {
+      "n": "12",
+      "label": ""
+     },
+     "at": 1,
+     "cue": "consecutive",
+     "label": "12 months",
+     "lsize": 3.8
+    },
+    {
+     "id": "opt",
+     "p": "calendar",
+     "x": 40,
+     "y": 24,
+     "h": 12,
+     "opt": {
+      "n": "30"
+     },
+     "at": 2,
+     "cue": "30",
+     "label": "Reasonable opt-out",
+     "lsize": 3.6
+    },
+    {
+     "id": "mail",
+     "p": "mailbox",
+     "x": 44,
+     "y": 50,
+     "h": 20,
+     "opt": {
+      "letters": true
+     },
+     "at": 3,
+     "cue": "writing"
+    },
+    {
+     "id": "phone",
+     "p": "icon",
+     "name": "phone-off",
+     "x": 66,
+     "y": 52,
+     "h": 10,
+     "color": "red",
+     "at": 3,
+     "cue": "oral"
+    },
+    {
+     "p": "label",
+     "text": "Never oral only",
+     "x": 66,
+     "y": 61,
+     "size": 3.6,
+     "color": "red",
+     "at": 3,
+     "cue": "oral"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Last stop: Michigan's privacy notices. Think PAPER.",
+     "say": "Last stop: Michigan's privacy notices. Think PAPER.",
+     "show": 1
+    },
+    {
+     "text": "Personal: personal, family or household insurance, like Sam's homeowners, not Tony's pizzeria policy. At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any 12 consecutive months.",
+     "say": "Personal: personal, family or household insurance, like Sam's homeowners, not Tony's pizzeria policy. At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any twelve consecutive months.",
+     "show": 2,
+     "hl": "cal"
+    },
+    {
+     "text": "Exit: before sharing with a nonaffiliated third party, you generally must offer an opt-out. 30 days from mailing is reasonable.",
+     "say": "Exit: before sharing with a nonaffiliated third party, you generally must offer an opt-out. Thirty days from mailing is reasonable.",
+     "show": 3,
+     "hl": "opt"
+    },
+    {
+     "text": "Real copy: in writing, or electronically if the customer agrees. Never solely oral, and an office sign doesn't count.",
+     "say": "Real copy: in writing, or electronically if the customer agrees. Never solely oral, and an office sign doesn't count.",
+     "show": 4,
+     "hl": "phone"
+    }
+   ]
+  },
+  {
+   "type": "quiz",
+   "q": "Which is NOT an acceptable way for Dana to deliver a required privacy notice?",
+   "choices": [
+    "Mailing a printed copy to the customer",
+    "Hand-delivering a printed copy",
+    "Posting it on a sign in her office lobby",
+    "Posting it online for an online customer who must acknowledge receipt"
+   ],
+   "answer": 2,
+   "why": "Notices go in writing, or electronically if the consumer agrees: by hand, by mail, or on a website with required acknowledgment. An office sign doesn't count.",
+   "src": "MCL 500.527(1),(2),(4)",
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 16,
+     "y": 42,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "think",
+      "mood": "neutral"
+     }
+    },
+    {
+     "id": "env",
+     "p": "envelope",
+     "x": 46,
+     "y": 14,
+     "h": 10
+    },
+    {
+     "id": "lap",
+     "p": "laptop",
+     "x": 68,
+     "y": 16,
+     "h": 10
+    },
+    {
+     "id": "sign",
+     "p": "sign",
+     "x": 58,
+     "y": 48,
+     "h": 22,
+     "opt": {
+      "text": "PRIVACY\nNOTICE"
+     }
+    },
+    {
+     "p": "xout",
+     "on": "sign",
+     "at": 1
+    },
+    {
+     "p": "check",
+     "x": 56,
+     "y": 10,
+     "h": 6,
+     "at": 1
+    },
+    {
+     "p": "check",
+     "x": 78,
+     "y": 10,
+     "h": 6,
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "Quick check: which delivery doesn't count? Pick an answer.",
+     "say": "Quick check: which delivery doesn't count? Pick an answer."
+    }
+   ],
+   "reveal": [
+    {
+     "text": "The office sign. Signs and general advertising don't count. Mail, hand delivery, or a website notice the online customer must acknowledge all work.",
+     "say": "The office sign. Signs and general advertising don't count. Mail, hand delivery, or a website notice the online customer must acknowledge all work."
+    }
+   ]
+  },
+  {
+   "type": "recap",
+   "title": "Recap",
+   "items": [
+    "Twisting switches, rebating pays back, misrepresentation misstates",
+    "P&C gift: merchandise costing the insurer $50 or less a calendar year",
+    "Premiums are fiduciary money: segregated, never commingled",
+    "Fraud: up to 4 years solo, 10 with a partner; up to $50,000 either way",
+    "Privacy: PAPER; 30 days to opt out is reasonable; never solely oral"
+   ],
+   "draw": [
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 14,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "dana",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "id": "sam",
+     "p": "person",
+     "x": 32,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "sam",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 50,
+     "y": 44,
+     "h": 30,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "hold": "pizza",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "vic",
+     "p": "person",
+     "x": 70,
+     "y": 48,
+     "h": 24,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "hairColor": "yellow",
+      "shirt": "purple",
+      "tie": true,
+      "suit": true,
+      "mood": "sad",
+      "pose": "sad"
+     },
+     "at": 2
+    },
+    {
+     "p": "bubble",
+     "text": "No license for a year...",
+     "x": 62,
+     "y": 14,
+     "w": 30,
+     "to": "vic",
+     "at": 2
+    }
+   ],
+   "beats": [
+    {
+     "text": "What a year! Switch, payback, false picture. Baskets, not cash. Premiums kept apart.",
+     "say": "What a year! Switch, payback, false picture. Baskets, not cash. Premiums kept apart.",
+     "show": 3
+    },
+    {
+     "text": "Fraud: solo four, squad ten. Privacy: think PAPER.",
+     "say": "Fraud: solo four, squad ten. Privacy: think PAPER.",
+     "show": 5
+    },
+    {
+     "text": "And Vic got caught rebating. No new license for a year!",
+     "say": "And Vic got caught rebating. No new license for a year!",
+     "voice": "dana",
+     "show": 5
+    }
+   ]
+  }
  ],
  "check": [
   "reg-038",
@@ -20,515 +2961,23 @@
  "hooks": [
   "mn-mn_reg-18",
   "mn-mn_reg-19",
-  "mn-mn_reg-20"
+  "mn-mn_reg-20",
+  "mn-mn_reg-12",
+  "mn-mn_reg-13",
+  "mn-mn_reg-14",
+  "mn-mn_reg-16",
+  "mn-mn_reg-17"
  ],
  "sources": [
-  "MCL 500.2005; 500.2005a(a); 500.2064(2)",
-  "MCL 500.2007; 500.2009; 500.2012; 500.2027(b); 500.2077(1)",
+  "MCL 500.2005; 500.2005a(a)",
+  "MCL 500.2007; 500.2009; 500.2012; 500.2027(b); 500.2077(1),(3)",
   "MCL 500.2024b (am. 2018 PA 542); 500.2066; 500.2069; 500.2070",
   "MCL 500.1207(1)-(4),(8)",
   "MCL 500.1239(1),(2)",
   "MCL 500.1244(1),(3); 500.2038(1); 500.2040(1)",
   "MCL 500.4501(a),(h),(i); 500.4503; 500.4509(1),(3); 500.4511(1),(2)",
   "MCL 500.501(1); 500.507(1)(a); 500.513(1); 500.527(1),(2),(4); 500.529(1),(2)(a)",
-  "Confusion pair cp-cp_personal-15"
- ],
- "scenes": [
-  {
-   "type": "title",
-   "title": "Unfair trade practices, discipline, fraud and privacy",
-   "subtitle": "What Michigan bans, what discipline and fines follow, insurance fraud, and privacy notices",
-   "icon": "gavel",
-   "beats": [
-    {
-     "text": "What you must never do as a producer, and what follows when someone does: discipline, fines, fraud penalties and privacy rules.",
-     "say": "What you must never do as a producer, and what follows when someone does: discipline, fines, fraud penalties and privacy rules."
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Twisting, rebating, misrepresentation",
-   "src": "MCL 500.2005; MCL 500.2005a(a); MCL 500.2066(1); cp-cp_personal-15",
-   "columns": [
-    {
-     "name": "Twisting",
-     "icon": "repeat",
-     "points": [
-      "Misleading or incomplete comparison of policies",
-      "Goal: get a policy dropped or replaced"
-     ]
-    },
-    {
-     "name": "Rebating",
-     "icon": "hand-coins",
-     "points": [
-      "Giving back premium or commission",
-      "Or any value not specified in the policy"
-     ]
-    },
-    {
-     "name": "Misrepresentation",
-     "icon": "triangle-alert",
-     "points": [
-      "Misstating a policy's terms or benefits",
-      "Or misstating an insurer's financial condition"
-     ]
-    }
-   ],
-   "tell": "What is the agent after? A switch is twisting; a payback is rebating; a false picture is misrepresentation.",
-   "beats": [
-    {
-     "text": "Three practices get mixed up. Twisting: a knowingly misleading representation or incomplete comparison of policies, to get a policy dropped or replaced.",
-     "say": "Three practices get mixed up. Twisting: a knowingly misleading representation or incomplete comparison of policies, to get a policy dropped or replaced.",
-     "show": 1
-    },
-    {
-     "text": "Rebating: giving back part of the premium or commission, or any valuable inducement not specified in the policy.",
-     "say": "Rebating: giving back part of the premium or commission, or any valuable inducement not specified in the policy.",
-     "show": 2
-    },
-    {
-     "text": "Misrepresentation: misstating a policy's terms or benefits, or an insurer's financial condition.",
-     "say": "Misrepresentation: misstating a policy's terms or benefits, or an insurer's financial condition.",
-     "show": 3
-    },
-    {
-     "text": "Ask what the agent is after: a switch is twisting, a payback is rebating, a false picture is misrepresentation.",
-     "say": "Ask what the agent is after: a switch is twisting, a payback is rebating, a false picture is misrepresentation.",
-     "show": 3,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "More unfair trade practices",
-   "src": "MCL 500.2007; .2009; .2012; .2077(1); .2027(b)",
-   "items": [
-    {
-     "label": "Defamation",
-     "detail": "False or malicious statements about an insurance business's finances, meant to injure",
-     "icon": "megaphone"
-    },
-    {
-     "label": "Boycott, coercion, intimidation",
-     "detail": "Concerted acts that unreasonably restrain the business of insurance",
-     "icon": "ban"
-    },
-    {
-     "label": "Lender coercion",
-     "detail": "No loan conditioned on buying through a particular agent or insurer",
-     "icon": "landmark"
-    },
-    {
-     "label": "False advertising",
-     "detail": "Untrue, deceptive or misleading, in any medium",
-     "icon": "eye"
-    },
-    {
-     "label": "Unfair discrimination",
-     "detail": "No refusing someone solely because another insurer denied coverage",
-     "icon": "scale"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Defamation: a false or maliciously critical statement about an insurance business's financial condition, meant to injure it.",
-     "say": "Defamation: a false or maliciously critical statement about an insurance business's financial condition, meant to injure it.",
-     "show": 1
-    },
-    {
-     "text": "Boycott, coercion or intimidation: concerted acts that unreasonably restrain the business of insurance.",
-     "say": "Boycott, coercion or intimidation: concerted acts that unreasonably restrain the business of insurance.",
-     "show": 2
-    },
-    {
-     "text": "A lender can't make a loan depend on buying insurance through a particular agent or insurer.",
-     "say": "A lender can't make a loan depend on buying insurance through a particular agent or insurer.",
-     "show": 3
-    },
-    {
-     "text": "Advertising can't be untrue, deceptive or misleading.",
-     "say": "Advertising can't be untrue, deceptive or misleading.",
-     "show": 4
-    },
-    {
-     "text": "And an insurer can't refuse you solely because another insurer denied you coverage.",
-     "say": "And an insurer can't refuse you solely because another insurer denied you coverage.",
-     "show": 5
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "An agent offers to send a prospect $200 of his commission if she buys a homeowners policy. This is:",
-   "choices": [
-    "Twisting",
-    "Rebating",
-    "Misrepresentation",
-    "Defamation"
-   ],
-   "answer": 1,
-   "why": "Returning part of the commission is a rebate: valuable consideration not specified in the policy.",
-   "beats": [
-    {
-     "text": "Which practice? An agent offers a prospect $200 of his commission if she buys a homeowners policy. Pick an answer.",
-     "say": "Which practice? An agent offers a prospect two hundred dollars of his commission if she buys a homeowners policy. Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "Rebating: handing back commission is a payback, not a switch or a false statement.",
-     "say": "Rebating: handing back commission is a payback, not a switch or a false statement."
-    }
-   ]
-  },
-  {
-   "type": "hook",
-   "title": "Rebating and the $50 gift",
-   "src": "MCL 500.2024b (am. 2018 PA 542); MCL 500.2066(1),(2); .2069; .2070",
-   "mn": "mn-mn_reg-18",
-   "hook": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at $50 a year.",
-   "items": [
-    "P&C gift: merchandise costing the insurer $50 or less per calendar year",
-    "Agent who rebates: license revoked; no new license for 1 year",
-    "Also a misdemeanor: fine up to $100 per violation",
-    "Insured who knowingly accepts: coverage reduced in proportion, plus fine up to $100"
-   ],
-   "beats": [
-    {
-     "text": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at $50 a year.",
-     "say": "A Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at fifty dollars a year.",
-     "show": 1
-    },
-    {
-     "text": "That means merchandise costing the insurer $50 or less per calendar year. Older materials may show another figure; $50 is the 2018 amendment.",
-     "say": "That means merchandise costing the insurer fifty dollars or less per calendar year. Older materials may show another figure; fifty dollars is the twenty eighteen amendment.",
-     "show": 1
-    },
-    {
-     "text": "A rebating agent loses the license, with no new one for 1 year, plus a misdemeanor fine of up to $100 per violation.",
-     "say": "A rebating agent loses the license, with no new one for one year, plus a misdemeanor fine of up to one hundred dollars per violation.",
-     "show": 3
-    },
-    {
-     "text": "An insured who knowingly accepts a rebate has coverage reduced in proportion, plus a fine of up to $100.",
-     "say": "An insured who knowingly accepts a rebate has coverage reduced in proportion, plus a fine of up to one hundred dollars.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Premiums are fiduciary money",
-   "src": "MCL 500.1207(1),(2),(3),(4),(8)",
-   "items": [
-    {
-     "label": "Segregate; never commingle",
-     "detail": "Your own money only to open the account and to pay or avoid bank charges",
-     "icon": "lock"
-    },
-    {
-     "label": "Federally insured account",
-     "detail": "It may bear interest",
-     "icon": "landmark"
-    },
-    {
-     "label": "Holding a return premium",
-     "detail": "For future premiums only with the insured's written authorization",
-     "icon": "file-signature"
-    },
-    {
-     "label": "Late turnover",
-     "detail": "Prima facie evidence of a fiduciary violation",
-     "icon": "triangle-alert"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Premiums are fiduciary money: segregate them, never commingle. Add your own money only to open the account and to pay or avoid bank charges.",
-     "say": "Premiums are fiduciary money: segregate them, never commingle. Add your own money only to open the account and to pay or avoid bank charges.",
-     "show": 1
-    },
-    {
-     "text": "The account must be at a federally insured institution, and it may earn interest.",
-     "say": "The account must be at a federally insured institution, and it may earn interest.",
-     "show": 2
-    },
-    {
-     "text": "You may hold a return premium there for future premiums only with the insured's written authorization.",
-     "say": "You may hold a return premium there for future premiums only with the insured's written authorization.",
-     "show": 3
-    },
-    {
-     "text": "Late turnover of that money is prima facie evidence of a violation.",
-     "say": "Late turnover of that money is prima facie evidence of a violation.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "License discipline: shall not issue vs may refuse",
-   "src": "MCL 500.1239(1),(2)",
-   "columns": [
-    {
-     "name": "Shall not issue",
-     "icon": "ban",
-     "points": [
-      "Felony within 10 years before applying",
-      "Violent, sexual or financial felony, any date",
-      "Forging a name on an insurance document",
-      "Knowingly accepting business from an unlicensed person"
-     ]
-    },
-    {
-     "name": "May refuse",
-     "icon": "scale",
-     "points": [
-      "False or incomplete application information",
-      "Other felonies",
-      "License denied, suspended or revoked elsewhere",
-      "Using notes during the licensing exam"
-     ]
-    }
-   ],
-   "tell": "Any of these can also bring probation, suspension, revocation or a fine for a current licensee.",
-   "beats": [
-    {
-     "text": "Now discipline, in two tiers. Shall not issue: a felony conviction within 10 years before applying, or a violent, sexual or financial felony at any time.",
-     "say": "Now discipline, in two tiers. Shall not issue: a felony conviction within ten years before applying, or a violent, sexual or financial felony at any time.",
-     "show": 1
-    },
-    {
-     "text": "Also forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
-     "say": "Also forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
-     "show": 1
-    },
-    {
-     "text": "May refuse: false or incomplete application information, other felonies, a license action in another state, or using notes during the exam.",
-     "say": "May refuse: false or incomplete application information, other felonies, a license action in another state, or using notes during the exam.",
-     "show": 2
-    },
-    {
-     "text": "Any of these can also cost a current licensee: probation, suspension, revocation or a fine.",
-     "say": "Any of these can also cost a current licensee: probation, suspension, revocation or a fine.",
-     "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "Maximum fines after a hearing",
-   "src": "MCL 500.1244(1),(3); MCL 500.2038(1); MCL 500.2040(1)",
-   "columns": [
-    "Violation",
-    "Licensing law",
-    "Trade practices law"
-   ],
-   "items": [
-    [
-     "Didn't know",
-     "$1,000 each; $50,000 cap per order",
-     "$1,000 each; $10,000 total"
-    ],
-    [
-     "Knew or should have known",
-     "$5,000 each; $50,000 cap per order",
-     "$5,000 each; $50,000 per 6 months"
-    ],
-    [
-     "Violating the cease and desist order",
-     "Knowingly: $20,000 each; $100,000 cap",
-     "$20,000 each"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "After a hearing, the director issues a cease and desist order and may fine up to $1,000 per violation if you didn't know,",
-     "say": "After a hearing, the director issues a cease and desist order and may fine up to one thousand dollars per violation if you didn't know,",
-     "show": 1
-    },
-    {
-     "text": "or up to $5,000 if you knew or reasonably should have known.",
-     "say": "or up to five thousand dollars if you knew or reasonably should have known.",
-     "show": 2
-    },
-    {
-     "text": "Caps: $50,000 per licensing order. For trade practices, $10,000 total, or $50,000 per 6 months if you knew or should have.",
-     "say": "Caps: fifty thousand dollars per licensing order. For trade practices, ten thousand dollars total, or fifty thousand dollars per six months if you knew or should have.",
-     "show": 2
-    },
-    {
-     "text": "Breaking the order itself, knowingly for a licensing order: up to $20,000 per violation.",
-     "say": "Breaking the order itself, knowingly for a licensing order: up to twenty thousand dollars per violation.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "hook",
-   "title": "Insurance fraud penalties",
-   "src": "MCL 500.4501(h); MCL 500.4503; MCL 500.4511(1),(2)",
-   "mn": "mn-mn_reg-19",
-   "hook": "Solo 4, Squad 10: committing fraud risks 4 years; plotting it with a partner risks 10. Either way, up to $50,000 and you pay it back.",
-   "items": [
-    "Fraudulent act: done knowingly, with intent to injure, defraud or deceive",
-    "Solo 4: felony, up to 4 years and/or $50,000, plus restitution",
-    "Squad 10: agreement or conspiracy, up to 10 years and/or $50,000, plus restitution",
-    "Runner, capper or steerer: paid by a practitioner to bring in clients for claims"
-   ],
-   "beats": [
-    {
-     "text": "Fraud next. A fraudulent insurance act is done knowingly, with intent to injure, defraud or deceive, like false material information on an application or claim.",
-     "say": "Fraud next. A fraudulent insurance act is done knowingly, with intent to injure, defraud or deceive, like false material information on an application or claim.",
-     "show": 1
-    },
-    {
-     "text": "Solo 4: a felony, up to 4 years, a fine up to $50,000, or both, plus restitution.",
-     "say": "Solo four: a felony, up to four years, a fine up to fifty thousand dollars, or both, plus restitution.",
-     "show": 2
-    },
-    {
-     "text": "Squad 10: agreeing or conspiring to commit one, up to 10 years, same fine cap.",
-     "say": "Squad ten: agreeing or conspiring to commit one, up to ten years, same fine cap.",
-     "show": 3
-    },
-    {
-     "text": "And a runner, capper or steerer is someone a practitioner pays to bring in clients or patients for claims.",
-     "say": "And a runner, capper or steerer is someone a practitioner pays to bring in clients or patients for claims.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "scenario",
-   "title": "Reporting suspected fraud",
-   "src": "MCL 500.4501(a),(i); MCL 500.4509(1),(3)",
-   "icon": "siren",
-   "story": "Tom, an agent in Lansing, thinks a client's repair estimate looks altered. In good faith, he reports it to the state police. The estimate turns out to be genuine, and the client sues Tom for slander.",
-   "items": [
-    {
-     "label": "An estimate is a statement",
-     "detail": "Fraud-law statements include estimates, invoices, bills and claim forms"
-    },
-    {
-     "label": "State police: an authorized agency",
-     "detail": "So are local police, prosecutors and DIFS"
-    },
-    {
-     "label": "No malice, not known to be false",
-     "detail": "The reporter isn't liable for libel, slander or other torts"
-    }
-   ],
-   "answer": "Tom isn't liable for slander: he reported without malice and didn't know the information was false.",
-   "beats": [
-    {
-     "text": "Tom, a Lansing agent, reports a repair estimate he believes is altered to the state police, in good faith. It's genuine, and the client sues for slander. Is Tom liable?",
-     "say": "Tom, a Lansing agent, reports a repair estimate he believes is altered to the state police, in good faith. It's genuine, and the client sues for slander. Is Tom liable?",
-     "show": 0
-    },
-    {
-     "text": "An estimate counts as a statement under the fraud law, and the state police are an authorized agency.",
-     "say": "An estimate counts as a statement under the fraud law, and the state police are an authorized agency.",
-     "show": 2
-    },
-    {
-     "text": "Someone who reports suspected fraud without malice isn't liable for libel, slander or other torts, unless he knows the information is false.",
-     "say": "Someone who reports suspected fraud without malice isn't liable for libel, slander or other torts, unless he knows the information is false.",
-     "show": 3
-    },
-    {
-     "text": "So Tom isn't liable for slander.",
-     "say": "So Tom isn't liable for slander.",
-     "show": 3,
-     "answer": true
-    }
-   ]
-  },
-  {
-   "type": "hook",
-   "title": "Privacy notices",
-   "src": "MCL 500.501(1); .507(1)(a); .513(1); .527(1),(2),(4); .529(1),(2)(a)",
-   "mn": "mn-mn_reg-20",
-   "hook": "Think PAPER for privacy notices: Personal, At the start, Periodic, Exit, Real copy.",
-   "items": [
-    "Personal: personal, family or household insurance, not business buyers",
-    "At the start, then Periodic: at least once in any 12 consecutive months",
-    "Exit: an opt-out window of 30 days from mailing is reasonable",
-    "Real copy: in writing, or electronic if agreed; never solely oral"
-   ],
-   "beats": [
-    {
-     "text": "Privacy: think PAPER. Personal: the law covers personal, family or household insurance, not business buyers.",
-     "say": "Privacy: think PAPER. Personal: the law covers personal, family or household insurance, not business buyers.",
-     "show": 1
-    },
-    {
-     "text": "At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any 12 consecutive months.",
-     "say": "At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any twelve consecutive months.",
-     "show": 2
-    },
-    {
-     "text": "Exit: before sharing with a nonaffiliated third party, you generally must offer an opt-out. Allowing 30 days from mailing is reasonable.",
-     "say": "Exit: before sharing with a nonaffiliated third party, you generally must offer an opt-out. Allowing thirty days from mailing is reasonable.",
-     "show": 3
-    },
-    {
-     "text": "Real copy: in writing, or electronically if the consumer agrees. Never solely oral, and an office sign doesn't count.",
-     "say": "Real copy: in writing, or electronically if the consumer agrees. Never solely oral, and an office sign doesn't count.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Which is NOT an acceptable way to deliver a required privacy notice?",
-   "choices": [
-    "Mailing a printed copy to the consumer",
-    "Hand-delivering a printed copy",
-    "Posting it on a sign in your office lobby",
-    "Posting it online for an online customer who must acknowledge receipt"
-   ],
-   "answer": 2,
-   "why": "Notices go in writing, or electronically if the consumer agrees: by hand, by mail, or on a website with required acknowledgment. An office sign doesn't count.",
-   "beats": [
-    {
-     "text": "Which is NOT an acceptable way to deliver a privacy notice? Pick an answer.",
-     "say": "Which is not an acceptable way to deliver a privacy notice? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "The office sign. A sign or general advertising doesn't count. Mail, hand delivery, or a website notice the online customer must acknowledge all work.",
-     "say": "The office sign. A sign or general advertising doesn't count. Mail, hand delivery, or a website notice the online customer must acknowledge all work."
-    }
-   ]
-  },
-  {
-   "type": "recap",
-   "title": "Recap",
-   "items": [
-    "Twisting switches, rebating pays back, misrepresentation misstates",
-    "P&C gift limit: $50 per calendar year, cost to the insurer",
-    "Premiums are fiduciary money: segregate, never commingle",
-    "Fraud: 4 years alone, 10 for a conspiracy; up to $50,000",
-    "Privacy: PAPER; 30-day opt-out window; never solely oral"
-   ],
-   "beats": [
-    {
-     "text": "Recap: twisting switches, rebating pays back, misrepresentation misstates. P&C gifts stay at $50 a year. Premiums are fiduciary money.",
-     "say": "Recap: twisting switches, rebating pays back, misrepresentation misstates. P and C gifts stay at fifty dollars a year. Premiums are fiduciary money.",
-     "show": 3
-    },
-    {
-     "text": "Fraud is 4 years alone, 10 with a partner. And for privacy, think PAPER.",
-     "say": "Fraud is four years alone, ten with a partner. And for privacy, think PAPER.",
-     "show": 5
-    }
-   ]
-  }
+  "Confusion pair cp-cp_personal-15",
+  "Memory hooks mn_reg-12, -13, -14, -16, -17, -18, -19, -20"
  ]
 }

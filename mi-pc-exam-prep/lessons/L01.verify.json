@@ -1,41 +1,62 @@
 {
  "id": "L01",
- "beats": 40,
+ "beats": 58,
  "mismatches": [
   {
    "scene": 2,
-   "beat": 0,
-   "say": "For counselors: two, two, zero. Two signatures: counselor and client sign a written agreement before any work.",
-   "heard": "For counselors, 220. Two signatures, counselor and clients sign a written agreement before any work.",
-   "wer": 0.188
+   "beat": 2,
+   "say": "Waive your fee if I buy through you?",
+   "heard": "Wave your fee if I buy through you.",
+   "wer": 0.125,
+   "voice": "tony"
   },
   {
    "scene": 2,
-   "beat": 3,
-   "say": "And two years: the counselor keeps a copy for at least two years after the services.",
-   "heard": "In two years, the counselor keeps a copy for at least two years after the services.",
-   "wer": 0.067
+   "beat": 4,
+   "say": "A licensed agent's customary advice, or a Michigan attorney's, needs no counselor license.",
+   "heard": "A licensed agent's customary advice or a Michigan attorney's needs no counsel or license.",
+   "wer": 0.154,
+   "voice": "narrator"
   },
   {
-   "scene": 3,
-   "beat": 1,
-   "say": "Ninety days: licensed in another state and moving to Michigan? Apply for a resident license, with no prelicensing education or exam for lines already held.",
-   "heard": "90 days, licensed in another state and moving to Michigan. Apply for a resident license with no pre-licensing education or exam for lines already held.",
-   "wer": 0.083
+   "scene": 6,
+   "beat": 0,
+   "say": "Your turn. Contract signed May first, first application May tenth. When is Dana's appointment notice due?",
+   "heard": "Your turn. Contracts sign May 1st, first application May 10th. When is Dana's appointment notice due?",
+   "wer": 0.125,
+   "voice": "narrator"
   },
   {
    "scene": 7,
    "beat": 0,
-   "say": "Keep your record current. Changed your legal name, address, mailing or email address? Tell the director within thirty days.",
-   "heard": "Keep your record current. Change your legal name, address, mailing, or email address. Tell the director within 30 days.",
-   "wer": 0.053
+   "say": "A year later, the company, an auto and home insurer, wants to drop Dana: just eighteen home and auto applications in twelve months. She owns her renewal rights. Which move is legal?",
+   "heard": "A year later, the company and auto and home insurer wants to drop Dana, just 18 home and auto applications in 12 months. She owns her renewal rights, which move is legal.",
+   "wer": 0.033,
+   "voice": "narrator"
   },
   {
-   "scene": 9,
+   "scene": 12,
+   "beat": 0,
+   "say": "Lapsed for a reason other than C E? Reinstate within twelve months, no exam. Watch out: a license canceled for missing C E doesn't qualify.",
+   "heard": "lapsed for a reason other than CE, reinstate within 12 months no exam. Watch out. A license cancelled for missing CE does not qualify.",
+   "wer": 0.042,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
    "beat": 1,
-   "say": "So you may service policies you already sold, and receive commissions on them.",
-   "heard": "so you may serve as policies you already sold and receive commissions on them.",
-   "wer": 0.167
+   "say": "Moving to Michigan with another state's license? Apply as a resident within ninety days, no prelicensing course or exam for lines held.",
+   "heard": "Moving to Michigan with another state's license. Apply as a resident within 90 days, no pre-licensing course or exam for lines held.",
+   "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": 1,
+   "say": "Legal name and address changes: thirty days. An assumed name: before you use it.",
+   "heard": "legal name and address changes, 30 days, and assumed name before you use it.",
+   "wer": 0.077,
+   "voice": "narrator"
   }
  ]
 }

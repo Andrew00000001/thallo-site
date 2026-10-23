@@ -2,8 +2,8 @@
  "id": "L13",
  "sec": "ho",
  "guide": "ho",
- "title": "Homeowners Section II and endorsements",
- "summary": "Learn Coverages E and F, the liability add-ons and watercraft rules, the outline's endorsements, and what Michigan's Special Provisions change.",
+ "title": "The Millers' summer of lawsuits: HO liability and endorsements",
+ "summary": "One Grand Rapids summer: Coverages E and F, the Section II extras, boats Up North, the outline's endorsements, and Michigan's innocent co-insured rule.",
  "objectives": [
   "Tell Coverage E from Coverage F, and know the Section II additional coverages",
   "Apply the HO-3 watercraft rules and know when the Watercraft endorsement is needed",
@@ -13,387 +13,613 @@
  "scenes": [
   {
    "type": "title",
-   "title": "Homeowners Section II and endorsements",
-   "subtitle": "2011 ISO HO-3 liability coverages, plus the endorsements on the exam outline",
-   "icon": "scale",
+   "title": "The Millers' summer of lawsuits",
+   "subtitle": "HO-3 Section II liability and the exam's endorsements (2011 ISO HO-3, HO 00 03 05 11)",
+   "draw": [
+    {"id": "house", "p": "house", "x": 22, "y": 34, "h": 32},
+    {"p": "sun", "x": 80, "y": 9, "h": 10, "loop": "spin"},
+    {"id": "grill", "p": "grill", "x": 46, "y": 50, "h": 15},
+    {"id": "sam", "p": "person", "x": 62, "y": 44, "h": 26, "opt": {"who": "sam", "pose": "cheer", "mood": "happy"}},
+    {"id": "jen", "p": "person", "x": 78, "y": 44, "h": 26, "opt": {"who": "jen", "pose": "wave", "mood": "happy"}},
+    {"p": "dog", "x": 24, "y": 62, "h": 8, "anim": "slide-l", "cue": "barbecue"},
+    {"id": "env1", "p": "envelope", "x": 56, "y": 14, "h": 9, "at": 1, "cue": "sued", "anim": "pop", "sfx": "pop", "opt": {"seal": true}},
+    {"id": "env2", "p": "envelope", "x": 68, "y": 20, "h": 9, "at": 1, "cue": "Twice", "anim": "pop", "sfx": "pop", "opt": {"seal": true}}
+   ],
    "beats": [
-    {
-     "text": "This lesson covers homeowners liability, Coverages E and F, and the endorsements the exam outline lists, including Michigan's own.",
-     "say": "This lesson covers homeowners liability, Coverages E and F, and the endorsements the exam outline lists, including Michigan's own."
-    },
-    {
-     "text": "Amounts come from the 2011 forms unless another edition is named.",
-     "say": "Amounts come from the twenty eleven forms unless another edition is named."
-    }
+    {"text": "July in Grand Rapids. The Millers throw a backyard barbecue, insured by their 2011 HO-3.", "say": "July in Grand Rapids. The Millers throw a backyard barbecue, insured by their twenty eleven H O three."},
+    {"text": "By Labor Day, Sam will be sued. Twice. Welcome to Section II: liability.", "say": "By Labor Day, Sam will be sued. Twice. Welcome to Section two: liability."}
    ]
   },
   {
-   "type": "compare",
-   "title": "Coverage E vs Coverage F",
-   "src": "ISO HO 00 03 05 11, Sec. II Coverages E–F; ISO HO Manual Table 301 (RIJRA)",
-   "columns": [
+   "type": "term",
+   "title": "A friend's fall: Coverage F",
+   "src": "ISO HO 00 03 05 11, Sec. II Coverage F; ISO HO Manual Table 301 (RIJRA); memory hook mn_prop-14",
+   "kind": "Coverage F",
+   "term": "Medical Payments to Others",
+   "plain": "Pays other people's medical bills, like a guest hurt at your place, for expenses incurred within 3 years of the accident.",
+   "example": "Ed from next door trips on the Millers' sidewalk at the barbecue and sprains his wrist. Coverage F pays his doctor bills.",
+   "exam": "Never for you or regular residents of your household, except residence employees. Manual minimum: $1,000 per person.",
+   "draw": [
+    {"id": "house", "p": "house", "x": 16, "y": 19, "h": 24},
+    {"id": "ed", "p": "person", "x": 38, "y": 45, "h": 30, "opt": {"who": "neighbor", "pose": "shrug", "mood": "shocked"}, "rot": 18},
+    {"id": "walk", "p": "crack", "x": 36, "y": 60, "w": 30, "opt": {"shake": false}, "over": true},
+    {"id": "oof", "p": "crash", "x": 54, "y": 32, "h": 11, "opt": {"text": "OOF!"}, "cue": "Ouch", "sfx": "boing", "at": 1},
+    {"id": "cal", "p": "calendar", "x": 62, "y": 13, "h": 15, "opt": {"n": "3 yrs", "size": 13}, "at": 2, "cue": "years"},
+    {"id": "bills", "p": "receipt", "x": 64, "y": 55, "h": 15, "at": 3, "cue": "bills"}
+   ],
+   "beats": [
+    {"text": "Then Ed from next door trips on the Millers' sidewalk.", "say": "Then Ed from next door trips on the Millers' sidewalk.", "show": 1, "hl": "ed"},
+    {"text": "Ouch! My wrist!", "say": "Ouch! My wrist!", "voice": "neighbor", "show": 1, "hl": "ed"},
+    {"text": "Coverage F, Medical Payments to Others, pays other people's medical bills incurred within 3 years of the accident.", "say": "Coverage F, Medical Payments to Others, pays other people's medical bills incurred within three years of the accident.", "show": 2, "hl": "cal"},
+    {"text": "So F pays Ed's doctor bills. F: a friend's fall.", "say": "So F pays Ed's doctor bills. F: a friend's fall.", "show": 3, "hl": "bills"},
+    {"text": "Watch out: never for you or regular residents of your household, except residence employees. Manual minimum: $1,000 per person.", "say": "Watch out: never for you or regular residents of your household, except residence employees. Manual minimum: one thousand dollars per person.", "show": 4}
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Sam's call: whose bills go to Coverage F?",
+   "src": "ISO HO 00 03 05 11, Sec. II Coverage F; question prop-052",
+   "ask": "Whose bills should Sam send to F?",
+   "draw": [
+    {"id": "grill", "p": "grill", "x": 14, "y": 34, "h": 20, "opt": {"fire": true}},
+    {"id": "sam", "p": "person", "x": 34, "y": 28, "h": 32, "opt": {"who": "sam", "pose": "shrug", "mood": "shocked"}},
+    {"id": "band1", "p": "icon", "name": "bandage", "x": 40, "y": 28.5, "h": 5, "color": "red", "over": true},
+    {"p": "label", "text": "Sam: burned hand", "x": 26, "y": 52, "size": 4.2},
+    {"id": "tramp", "p": "trampoline", "x": 68, "y": 40, "h": 13},
+    {"id": "kid", "p": "person", "x": 88, "y": 33, "h": 24, "opt": {"who": "kid", "pose": "sad", "mood": "sad"}},
+    {"id": "crutch", "p": "crutches", "x": 95, "y": 36, "h": 17},
+    {"p": "label", "text": "Their son, 9, lives at home: sprained ankle", "x": 82, "y": 52, "size": 4.2, "w": 40},
+    {"id": "ed", "p": "person", "x": 136, "y": 28, "h": 32, "opt": {"who": "neighbor", "pose": "stand", "mood": "sad"}},
+    {"p": "label", "text": "Ed, a guest: sprained wrist", "x": 136, "y": 52, "size": 4.2},
+    {"id": "band2", "p": "icon", "name": "bandage", "x": 142, "y": 30, "h": 5, "color": "red", "over": true}
+   ],
+   "beats": [
+    {"text": "More bad luck: Sam burns his hand at the grill. Their 9-year-old son, who lives with them, sprains an ankle on the trampoline. Whose bills go to F?", "say": "More bad luck: Sam burns his hand at the grill. Their nine year old son, who lives with them, sprains an ankle on the trampoline. Whose bills go to F?"}
+   ],
+   "options": [
     {
-     "name": "E: Personal Liability",
-     "icon": "scale",
-     "points": [
-      "Damages for bodily injury or property damage",
-      "Defense even if the suit is groundless",
-      "Defense ends when the limit is exhausted",
-      "Manual minimum: $100,000"
+     "label": "Sam's own burned hand",
+     "ok": false,
+     "fail": "Coverage F is medical payments to others. It never pays for you or regular residents of your household (residence employees aside).",
+     "beats": [
+      {"text": "But it's my policy!", "say": "But it's my policy!", "voice": "sam"},
+      {"text": "Exactly: medical payments to others. Never to you.", "say": "Exactly: medical payments to others. Never to you."}
+     ],
+     "draw": [
+      {"id": "ins", "p": "insurer", "x": 36, "y": 23, "h": 32},
+      {"p": "stamp", "text": "Not Coverage F", "x": 36, "y": 47, "color": "red", "at": 1, "cue": "Never"},
+      {"id": "sam", "p": "person", "x": 100, "y": 29, "h": 34, "opt": {"who": "sam", "pose": "stop", "mood": "angry"}},
+      {"p": "bubble", "text": "But it's MY policy!", "x": 76, "y": 8, "w": 30, "to": "sam"}
      ]
     },
     {
-     "name": "F: Medical Payments to Others",
-     "icon": "heart-pulse",
-     "points": [
-      "Medical expenses within 3 years of the accident",
-      "Not you or regular household residents",
-      "Exception: residence employees",
-      "Manual minimum: $1,000 per person"
+     "label": "Their son's sprained ankle",
+     "ok": false,
+     "fail": "Their son is a regular resident of the household. F doesn't pay for household residents, except residence employees.",
+     "beats": [
+      {"text": "Denied. He's a regular resident of their household.", "say": "Denied. He's a regular resident of their household."}
+     ],
+     "draw": [
+      {"id": "house", "p": "house", "x": 26, "y": 25, "h": 30},
+      {"id": "kid", "p": "person", "x": 62, "y": 32, "h": 26, "opt": {"who": "kid", "pose": "sad", "mood": "sad"}},
+      {"id": "crutch", "p": "crutches", "x": 73, "y": 35, "h": 18},
+      {"p": "bubble", "text": "But I live here!", "x": 48, "y": 8, "w": 28, "to": "kid"},
+      {"id": "ins", "p": "insurer", "x": 104, "y": 23, "h": 30},
+      {"p": "stamp", "text": "Not Coverage F", "x": 104, "y": 46, "color": "red", "cue": "Denied"}
      ]
-    }
-   ],
-   "tell": "E: 'Excuse me, you're being sued.' F: a Friend's Fall, not your household's bills (residence employees aside).",
-   "beats": [
-    {
-     "text": "Coverage E, Personal Liability, pays damages for bodily injury or property damage. It defends you even if the suit is groundless, false or fraudulent, until the limit is exhausted by a judgment or settlement.",
-     "say": "Coverage E, Personal Liability, pays damages for bodily injury or property damage. It defends you even if the suit is groundless, false or fraudulent, until the limit is exhausted by a judgment or settlement.",
-     "show": 1
     },
     {
-     "text": "Coverage F, Medical Payments to Others, pays medical expenses incurred within 3 years of the accident. It never covers you or regular residents of your household, except residence employees.",
-     "say": "Coverage F, Medical Payments to Others, pays medical expenses incurred within three years of the accident. It never covers you or regular residents of your household, except residence employees.",
-     "show": 2
-    },
-    {
-     "text": "Manual minimums: $100,000 for E, $1,000 per person for F. To remember them: E, excuse me, you're being sued. F, a friend's fall.",
-     "say": "Manual minimums: one hundred thousand dollars for E, one thousand dollars per person for F. To remember them: E, excuse me, you're being sued. F, a friend's fall.",
-     "show": 2,
-     "tell": true
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Section II additional coverages",
-   "src": "ISO HO 00 03 05 11, Sec. II Additional Coverages A–D",
-   "items": [
-    {
-     "label": "Claim expenses",
-     "detail": "Defense costs, plus your lost earnings up to $250 a day",
-     "icon": "briefcase"
-    },
-    {
-     "label": "First aid to others",
-     "icon": "heart-pulse"
-    },
-    {
-     "label": "Damage to property of others",
-     "detail": "$1,000 at replacement cost; not if intentional by an insured 13 or older",
-     "icon": "hammer"
-    },
-    {
-     "label": "Loss assessment",
-     "detail": "$1,000",
-     "icon": "users"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Four additional coverages are paid on top of the limits. Claim expenses include your lost earnings, up to $250 a day. First aid to others is covered too.",
-     "say": "Four additional coverages are paid on top of the limits. Claim expenses include your lost earnings, up to two hundred fifty dollars a day. First aid to others is covered too.",
-     "show": 2
-    },
-    {
-     "text": "Damage to property of others pays up to $1,000 at replacement cost, but not for damage caused intentionally by an insured 13 or older, or for property an insured owns. Loss assessment adds $1,000.",
-     "say": "Damage to property of others pays up to one thousand dollars at replacement cost, but not for damage caused intentionally by an insured thirteen or older, or for property an insured owns. Loss assessment adds one thousand dollars.",
-     "show": 4,
-     "hl": 2
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Under the 2011 HO-3, which loss does the Damage to Property of Others additional coverage pay?",
-   "choices": [
-    "Your 16-year-old intentionally breaks a neighbor's window",
-    "Your 9-year-old accidentally breaks a borrowed tablet",
-    "You accidentally damage your own snowblower"
-   ],
-   "answer": 1,
-   "why": "It pays up to $1,000 at replacement cost, but not for damage caused intentionally by an insured 13 or older, or for property owned by an insured.",
-   "beats": [
-    {
-     "text": "Quick check. Which of these does Damage to Property of Others pay? Pick an answer.",
-     "say": "Quick check. Which of these does Damage to Property of Others pay? Pick an answer."
+     "label": "Ed's sprained wrist",
+     "ok": true,
+     "win": "Ed is a guest, hurt at the Millers' place with permission. F pays his medical bills incurred within 3 years of the accident.",
+     "beats": [
+      {"text": "Ed is a guest, so F pays. He even sends a thank-you card. For now.", "say": "Ed is a guest, so F pays. He even sends a thank-you card. For now."}
+     ],
+     "draw": [
+      {"id": "ins", "p": "insurer", "x": 28, "y": 23, "h": 32},
+      {"id": "cash", "p": "money", "x": 46, "y": 18, "h": 9, "move": {"to": [96, 24], "at": 0, "cue": "pays", "sfx": "cash"}},
+      {"id": "ed", "p": "person", "x": 114, "y": 29, "h": 34, "opt": {"who": "neighbor", "pose": "cheer", "mood": "happy"}},
+      {"id": "card", "p": "envelope", "x": 138, "y": 22, "h": 10, "cue": "card", "anim": "pop"},
+      {"p": "stamp", "text": "Paid by F", "x": 70, "y": 46, "color": "green", "cue": "pays"}
+     ]
     }
    ],
    "reveal": [
+    {"text": "F is for others, like guests: never you or your household, except residence employees.", "say": "F is for others, like guests: never you or your household, except residence employees."}
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Excuse me, you're being sued: Coverage E",
+   "src": "ISO HO 00 03 05 11, Sec. II Coverage E; ISO HO Manual Table 301 (RIJRA); question prop-053; memory hook mn_prop-14",
+   "kind": "Coverage E",
+   "term": "Personal Liability",
+   "plain": "Pays damages you're legally liable for because of bodily injury or property damage, and pays for your defense.",
+   "example": "A month later, Ed sues Sam, blaming a cracked sidewalk for his fall. Sam's insurer defends him and pays damages he owes, up to the limit.",
+   "exam": "Defends even if the suit is groundless, false or fraudulent, until the limit is used up by a judgment or settlement. Manual minimum: $100,000.",
+   "draw": [
+    {"id": "ed", "p": "person", "x": 15, "y": 44, "h": 28, "opt": {"who": "neighbor", "pose": "point", "mood": "angry"}},
+    {"id": "env", "p": "envelope", "x": 30, "y": 22, "h": 9, "opt": {"seal": true}, "cue": "sues", "anim": "pop"},
+    {"id": "sam", "p": "person", "x": 46, "y": 44, "h": 28, "opt": {"who": "sam", "pose": "shrug", "mood": "shocked"}},
+    {"id": "shield", "p": "shield", "x": 46, "y": 15, "h": 12, "at": 1, "cue": "defense"},
+    {"id": "ins", "p": "insurer", "x": 68, "y": 26, "h": 18, "at": 1, "cue": "pays"},
+    {"p": "arrow", "from": "ins", "to": "shield", "at": 1, "cue": "defense", "bend": -0.2},
+    {"id": "min", "p": "label", "text": "Manual minimum: $100,000", "x": 56, "y": 62, "size": 4, "bold": true, "at": 2, "cue": "minimum"}
+   ],
+   "beats": [
+    {"text": "A month later, Ed sues Sam over the fall. Excuse me, you're being sued! That's Coverage E, Personal Liability.", "say": "A month later, Ed sues Sam over the fall. Excuse me, you're being sued! That's Coverage E, Personal Liability.", "show": 1, "hl": "env"},
+    {"text": "It pays damages Sam is legally liable for because of bodily injury or property damage, plus his defense.", "say": "It pays damages Sam is legally liable for because of bodily injury or property damage, plus his defense.", "show": 3, "hl": "shield"},
+    {"text": "It defends even groundless, false or fraudulent suits, until a judgment or settlement uses up the limit. Manual minimum: $100,000.", "say": "It defends even groundless, false or fraudulent suits, until a judgment or settlement uses up the limit. Manual minimum: one hundred thousand dollars.", "show": 4, "hl": "min"}
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Four extras, paid on top of the limits",
+   "src": "ISO HO 00 03 05 11, Sec. II Additional Coverages A–D; question prop-055; memory hook mn_prop-19",
+   "draw": [
+    {"id": "limit", "p": "moneybag", "x": 18, "y": 30, "h": 26, "label": "The limits", "lsize": 4},
+    {"id": "plus", "p": "num", "text": "+", "x": 38, "y": 30, "size": 12, "color": "green"},
+    {"id": "court", "p": "courthouse", "x": 62, "y": 13, "h": 18, "at": 1, "cue": "Claim"},
+    {"p": "label", "text": "Claim expenses: lost pay helping the defense, up to $250 a day", "x": 62, "y": 29, "size": 3.6, "w": 40, "at": 1, "cue": "Claim"},
+    {"id": "aid", "p": "firstaid", "x": 104, "y": 15, "h": 14, "at": 1, "cue": "first", "label": "First aid to others", "lsize": 3.6},
+    {"id": "tablet", "p": "laptop", "x": 62, "y": 45, "h": 13, "opt": {"broken": true}, "at": 2, "cue": "property", "label": "Property of others: up to $1,000", "lsize": 3.6, "lw": 34},
+    {"id": "assess", "p": "condo", "x": 104, "y": 45, "h": 15, "at": 2, "cue": "assessment", "label": "Loss assessment: $1,000", "lsize": 3.6},
+    {"id": "catch", "p": "note", "text": "Some catches: on purpose by an insured 13 or older; property an insured owns; damage from business or motor vehicles", "x": 141, "y": 34, "w": 32, "paper": "pink", "at": 3, "cue": "catch"},
+    {"p": "arrow", "from": "catch", "to": "tablet", "at": 3, "cue": "catch", "bend": 0.2, "color": "red"}
+   ],
+   "beats": [
+    {"text": "Under the 2011 form, Section II also pays four extras, on top of the limits.", "say": "Under the twenty eleven form, Section two also pays four extras, on top of the limits.", "hl": "limit"},
+    {"text": "Claim expenses: defense costs, and Sam's lost pay up to $250 a day for time helping with the defense. Plus first aid to others.", "say": "Claim expenses: defense costs, and Sam's lost pay up to two hundred fifty dollars a day for time helping with the defense. Plus first aid to others.", "hl": ["court", "aid"]},
+    {"text": "Damage to property of others: up to $1,000 at replacement cost. Loss assessment: $1,000.", "say": "Damage to property of others: up to one thousand dollars at replacement cost. Loss assessment: one thousand dollars.", "hl": ["tablet", "assess"]},
+    {"text": "Some catches: property of others won't pay if an insured 13 or older did it on purpose, or for property an insured owns. Nor for damage from business or motor vehicles.", "say": "Some catches: property of others won't pay if an insured thirteen or older did it on purpose, or for property an insured owns. Nor for damage from business or motor vehicles.", "hl": "catch"}
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Damage to property of others: paid or not?",
+   "src": "ISO HO 00 03 05 11, Sec. II Add'l Cov. C; question prop-055; memory hook mn_prop-19",
+   "options": ["Paid", "Not paid"],
+   "cards": [
     {
-     "text": "The 9-year-old's accident. Intentional damage by an insured 13 or older isn't covered, and neither is property an insured owns.",
-     "say": "The nine-year-old's accident. Intentional damage by an insured thirteen or older isn't covered, and neither is property an insured owns."
+     "text": "Their 9-year-old drops Ed's borrowed laptop. Crack!",
+     "answer": 0,
+     "why": "An accident to someone else's property: paid up to $1,000, at replacement cost.",
+     "draw": [
+      {"p": "person", "x": 28, "y": 31, "h": 40, "opt": {"who": "kid", "pose": "shrug", "mood": "shocked"}},
+      {"p": "laptop", "x": 70, "y": 40, "h": 20, "opt": {"broken": true}}
+     ]
+    },
+    {
+     "text": "Their 15-year-old smashes Ed's mailbox on purpose.",
+     "answer": 1,
+     "why": "Intentional damage by an insured 13 or older isn't covered.",
+     "draw": [
+      {"p": "person", "x": 28, "y": 29, "h": 46, "opt": {"who": "person", "hat": "beanie", "hatColor": "blue", "shirt": "gray", "pose": "point", "mood": "smirk"}},
+      {"p": "mailbox", "x": 72, "y": 34, "h": 36, "rot": 15},
+      {"p": "crash", "x": 70, "y": 12, "h": 14, "opt": {"text": "SMASH!"}, "over": true}
+     ]
+    },
+    {
+     "text": "Sam accidentally cracks his own snowblower.",
+     "answer": 1,
+     "why": "Property owned by an insured isn't covered.",
+     "draw": [
+      {"p": "person", "x": 28, "y": 29, "h": 44, "opt": {"who": "sam", "pose": "shrug", "mood": "shocked"}},
+      {"p": "snowblower", "x": 70, "y": 38, "h": 26}
+     ]
+    },
+    {
+     "text": "Their 9-year-old breaks Ed's window on purpose.",
+     "answer": 0,
+     "why": "13 or older AND intentional. A 9-year-old's intentional damage can be paid.",
+     "draw": [
+      {"p": "person", "x": 28, "y": 31, "h": 40, "opt": {"who": "kid", "pose": "run", "mood": "smirk"}},
+      {"p": "window", "x": 72, "y": 28, "h": 34, "opt": {"broken": true}}
+     ]
+    },
+    {
+     "text": "Their 15-year-old trips and dents Ed's borrowed ladder.",
+     "answer": 0,
+     "why": "Not on purpose, so age doesn't matter. An accident by a 15-year-old is paid.",
+     "draw": [
+      {"p": "person", "x": 28, "y": 29, "h": 46, "opt": {"who": "person", "hat": "beanie", "hatColor": "blue", "shirt": "gray", "pose": "shrug", "mood": "shocked"}},
+      {"p": "ladder", "x": 72, "y": 38, "h": 36, "rot": 60}
+     ]
+    },
+    {
+     "text": "Sam's home business: he breaks a customer's drill.",
+     "answer": 1,
+     "why": "Business-related damage isn't covered by Damage to Property of Others.",
+     "draw": [
+      {"p": "person", "x": 28, "y": 29, "h": 44, "opt": {"who": "sam", "pose": "shrug", "mood": "worried"}},
+      {"p": "icon", "name": "drill", "x": 68, "y": 32, "h": 20},
+      {"p": "crash", "x": 84, "y": 14, "h": 12, "opt": {"text": "CRACK!"}, "over": true}
+     ]
+    }
+   ],
+   "beats": [
+    {"text": "Your turn. Does property of others pay? Swipe through the Millers' summer.", "say": "Your turn. Does property of others pay? Swipe through the Millers' summer."}
+   ],
+   "reveal": [
+    {"text": "The trap: 13 or older AND on purpose. An insured's own property never counts, and neither does business damage.", "say": "The trap: thirteen or older AND on purpose. An insured's own property never counts, and neither does business damage."}
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Sam's call: the boat Up North",
+   "src": "ISO HO 00 03 05 11, Sec. II Excl. B.2; PF&M 2014 (HO 24 75); questions prop-054, prop-gap-16, prop-gap-17; hook mn_prop-20",
+   "ask": "What should Sam do?",
+   "draw": [
+    {"id": "mi", "p": "michigan", "x": 18, "y": 27, "h": 38, "opt": {"pin": [-84.73, 44.31]}},
+    {"p": "label", "text": "Houghton Lake", "x": 47, "y": 26, "size": 4.2, "color": "red", "over": true},
+    {"id": "boat", "p": "boat", "x": 76, "y": 34, "h": 18, "opt": {"color": "teal"}},
+    {"p": "label", "text": "40 hp. Bought 2 years before this policy period.", "x": 76, "y": 49, "size": 4, "w": 72},
+    {"p": "label", "text": "Never declared or reported.", "x": 76, "y": 54, "size": 4, "w": 72},
+    {"id": "sam", "p": "person", "x": 114, "y": 29, "h": 34, "opt": {"who": "sam", "pose": "wave", "mood": "happy"}},
+    {"p": "bubble", "text": "Up North, here I come!", "x": 82, "y": 7, "w": 38, "to": "sam", "out": 1},
+    {"p": "bubble", "text": "What if I hurt someone out there?", "x": 84, "y": 7, "w": 52, "to": "sam", "at": 1}
+   ],
+   "beats": [
+    {"text": "August, Up North on Houghton Lake. Sam's boat has a 40-horsepower outboard, bought 2 years before this policy period and never declared or reported.", "say": "August, Up North on Houghton Lake. Sam's boat has a forty horsepower outboard, bought two years before this policy period and never declared or reported."},
+    {"text": "What if I hurt someone out there?", "say": "What if I hurt someone out there?", "voice": "sam"},
+    {"text": "His 2011 HO-3 liability allows 25 horses on the back: owned outboards totaling 25 horsepower or less.", "say": "His twenty eleven H O three liability allows twenty five horses on the back: owned outboards totaling twenty five horsepower or less."},
+    {"text": "Bigger ones only if bought during this policy period, declared at inception, meaning when the policy began, or reported within 45 days of buying.", "say": "Bigger ones only if bought during this policy period, declared at inception, meaning when the policy began, or reported within forty five days of buying."},
+    {"text": "Owned sailboats 26 feet or longer? Excluded too.", "say": "Owned sailboats twenty six feet or longer? Excluded too."},
+    {"text": "Your call!", "say": "Your call!"}
+   ],
+   "options": [
+    {
+     "label": "Launch it. The HO-3 covers boats!",
+     "ok": false,
+     "fail": "An owned outboard over 25 hp, owned before the policy period and never declared or reported, is excluded. No Coverage E.",
+     "beats": [
+      {"text": "Bump! Sam's boat hits a swimmer, and she sues. No Coverage E!", "say": "Bump! Sam's boat hits a swimmer, and she sues. No Coverage E!"}
+     ],
+     "draw": [
+      {"id": "sam", "p": "person", "x": 36, "y": 23, "h": 16, "opt": {"who": "sam", "pose": "shrug", "mood": "shocked"}, "over": true},
+      {"id": "boat", "p": "boat", "x": 40, "y": 34, "h": 20, "opt": {"color": "teal"}},
+      {"id": "bump", "p": "crash", "x": 76, "y": 22, "h": 14, "opt": {"text": "BUMP!"}, "cue": "Bump", "sfx": "crash"},
+      {"id": "swim", "p": "person", "x": 98, "y": 38, "h": 30, "opt": {"who": "person", "hair": "bob", "shirt": "orange", "pose": "shrug", "mood": "shocked"}},
+      {"p": "flood", "x": 98, "y": 47, "w": 44, "over": true},
+      {"p": "label", "text": "Excluded: no Coverage E", "x": 138, "y": 44, "size": 5.4, "w": 34, "color": "red", "bold": true, "cue": "Coverage"}
+     ]
+    },
+    {
+     "label": "Trade up to a 30-foot sailboat",
+     "ok": false,
+     "fail": "Owned sailboats 26 feet or longer are excluded too. That boat would also need the Watercraft endorsement.",
+     "beats": [
+      {"text": "Bigger boat, same problem: it's excluded too.", "say": "Bigger boat, same problem: it's excluded too."}
+     ],
+     "draw": [
+      {"id": "sail", "p": "sailboat", "x": 42, "y": 27, "h": 44},
+      {"id": "sam", "p": "person", "x": 88, "y": 30, "h": 32, "opt": {"who": "sam", "pose": "shrug", "mood": "shocked"}},
+      {"p": "bubble", "text": "Bigger is better?", "x": 106, "y": 8, "w": 28, "to": "sam"},
+      {"p": "label", "text": "26 feet or longer, owned: excluded", "x": 136, "y": 42, "size": 5.4, "w": 34, "color": "red", "bold": true, "cue": "excluded"},
+      {"p": "label", "text": "30 feet", "x": 42, "y": 53, "size": 4.6, "bold": true}
+     ]
+    },
+    {
+     "label": "Ask Dana for the Watercraft endorsement",
+     "ok": true,
+     "win": "The Watercraft endorsement adds liability coverage for the boat it describes, which the HO-3 would exclude.",
+     "beats": [
+      {"text": "Done! Coverages E and F now apply to accidents with your boat.", "say": "Done! Coverages E and F now apply to accidents with your boat.", "voice": "dana"}
+     ],
+     "draw": [
+      {"id": "dana", "p": "person", "x": 22, "y": 29, "h": 34, "opt": {"who": "dana", "pose": "point", "mood": "happy"}},
+      {"id": "pol", "p": "policy", "x": 48, "y": 22, "h": 22, "opt": {"title": "WATERCRAFT", "tsize": 5.6, "sign": true}},
+      {"p": "stamp", "text": "Liability added", "x": 48, "y": 44, "color": "green"},
+      {"id": "boat", "p": "boat", "x": 96, "y": 34, "h": 18, "opt": {"color": "teal"}},
+      {"p": "label", "text": "Boat damage: not this endorsement", "x": 96, "y": 50, "size": 4.2, "color": "gray", "w": 40},
+      {"id": "sam", "p": "person", "x": 138, "y": 29, "h": 34, "opt": {"who": "sam", "pose": "cheer", "mood": "happy"}}
+     ]
+    }
+   ],
+   "reveal": [
+    {"text": "The Watercraft endorsement adds liability for the boat it describes. It won't pay to fix the boat itself.", "say": "The Watercraft endorsement adds liability for the boat it describes. It won't pay to fix the boat itself."},
+    {"text": "Without it, neither Sam's 40-horsepower motor nor an owned 30-foot sailboat gets Coverage E.", "say": "Without it, neither Sam's forty horsepower motor nor an owned thirty foot sailboat gets Coverage E."}
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Jen's treasures, plus quakes and mold",
+   "src": "PF&M HO 04 61 (July 2017; 2011 program); ISO HO 04 90 05 11; ISO HO 04 54 10 00; ISO HO 04 27 04 02; IRMI 'open perils'; hook mn_prop-25",
+   "draw": [
+    {"id": "jen", "p": "person", "x": 12, "y": 42, "h": 30, "opt": {"who": "jen", "pose": "hold", "hold": "diamondring", "mood": "happy"}},
+    {"id": "hA", "p": "label", "text": "Scheduled Personal Property", "x": 44, "y": 6, "size": 3.8, "w": 36, "bold": true, "bg": "yellow"},
+    {"id": "jewel", "p": "jewelry", "x": 44, "y": 19, "h": 11},
+    {"p": "label", "text": "Open perils (any cause not excluded), worldwide, no deductible", "x": 44, "y": 31, "size": 4, "w": 38},
+    {"id": "ring", "p": "diamondring", "x": 44, "y": 44, "h": 10, "at": 1, "cue": "ring"},
+    {"p": "label", "text": "New ring (2011): lesser of 25% or $10,000; report in 30 days", "x": 44, "y": 57, "size": 4, "w": 38, "at": 1, "cue": "think"},
+    {"id": "hB", "p": "label", "text": "Personal Property Replacement Cost", "x": 88, "y": 6, "size": 3.8, "w": 38, "bold": true, "bg": "yellow", "at": 3},
+    {"id": "sofa", "p": "sofa", "x": 88, "y": 19, "h": 10, "at": 3, "cue": "contents"},
+    {"p": "label", "text": "Contents at replacement cost", "x": 88, "y": 30, "size": 4, "w": 36, "at": 3, "cue": "contents"},
+    {"id": "clock", "p": "clock", "x": 88, "y": 44, "h": 11, "opt": {"h": 10, "m": 10}, "at": 2},
+    {"p": "label", "text": "Except antiques, fine arts, collectibles: still ACV", "x": 88, "y": 57, "size": 4, "w": 38, "at": 3, "cue": "antique"},
+    {"id": "hC", "p": "label", "text": "Earthquake (2000)", "x": 136, "y": 6, "size": 3.8, "w": 38, "bold": true, "bg": "yellow", "at": 4, "cue": "Earthquake"},
+    {"id": "quake", "p": "crack", "x": 136, "y": 16, "w": 24, "at": 4, "cue": "Earthquake"},
+    {"p": "label", "text": "Shocks within 72 hours = 1 quake", "x": 136, "y": 26, "size": 4, "w": 38, "at": 4, "cue": "Earthquake"},
+    {"id": "hD", "p": "label", "text": "Limited Fungi (2002)", "x": 136, "y": 37, "size": 3.8, "w": 38, "bold": true, "bg": "yellow", "at": 4, "cue": "Fungi"},
+    {"id": "mold", "p": "icon", "name": "virus", "x": 136, "y": 47, "h": 9, "color": "green", "at": 4, "cue": "Fungi"},
+    {"p": "label", "text": "$10,000 property; $50,000 aggregate within Coverage E", "x": 136, "y": 58, "size": 4, "w": 44, "at": 4, "cue": "Fungi"}
+   ],
+   "beats": [
+    {
+     "text": "Jen schedules her jewelry: Scheduled Personal Property covers listed classes like jewelry, furs and fine arts, on open perils, worldwide, no deductible.",
+     "say": "Jen schedules her jewelry: Scheduled Personal Property covers listed classes like jewelry, furs and fine arts, on open perils, worldwide, no deductible.",
+     "hl": "jewel"
+    },
+    {
+     "text": "Her new ring joins that class. Under the 2011 program, think 25-10-30: 25% of the class limit or $10,000, whichever is less, if reported within 30 days.",
+     "say": "Her new ring joins that class. Under the twenty eleven program, think twenty five, ten, thirty: twenty five percent of the class limit or ten thousand dollars, whichever is less, if reported within thirty days.",
+     "hl": "ring"
+    },
+    {
+     "text": "And Grandma's antique clock?",
+     "say": "And Grandma's antique clock?",
+     "voice": "jen",
+     "hl": "clock"
+    },
+    {
+     "text": "Personal Property Replacement Cost pays contents at replacement cost. But that antique clock still gets actual cash value.",
+     "say": "Personal Property Replacement Cost pays contents at replacement cost. But that antique clock still gets actual cash value.",
+     "hl": "clock"
+    },
+    {
+     "text": "Earthquake, 2000 edition: shocks within 72 hours count as one quake. Limited Fungi, 2002 edition: $10,000 for property, and $50,000 as a Coverage E aggregate.",
+     "say": "Earthquake, two thousand edition: shocks within seventy two hours count as one quake. Limited Fungi, two thousand two edition: ten thousand dollars for property, and fifty thousand dollars as a Coverage E aggregate.",
+     "hl": [
+      "quake",
+      "mold"
+     ]
     }
    ]
   },
   {
-   "type": "scenario",
-   "title": "A boat on Houghton Lake",
-   "src": "ISO HO 00 03 05 11, Sec. II Exclusions B.2; PF&M 2014 (HO 24 75)",
-   "icon": "ship",
-   "story": "Jake has a 2011 HO-3. He owns a fishing boat with a 40-horsepower outboard he bought three years ago and never declared or reported to his insurer. On Houghton Lake, he negligently injures a swimmer. Does Coverage E apply?",
-   "items": [
-    {
-     "label": "Owned outboards totaling 25 hp or less",
-     "detail": "Covered"
-    },
-    {
-     "label": "Bigger owned outboard",
-     "detail": "Only if acquired during the policy period, or declared at inception or reported within 45 days"
-    },
-    {
-     "label": "Jake's 40 hp motor",
-     "detail": "Owned earlier, never declared or reported: excluded"
-    },
-    {
-     "label": "The fix",
-     "detail": "Watercraft endorsement: liability for the described boat"
-    }
+   "type": "term",
+   "title": "Ed strikes again: personal injury",
+   "src": "PF&M 2014 (HO 24 82); ISO HO 00 03 05 11, Sec. II Coverage E; question prop-061; memory hook mn_prop-24",
+   "kind": "Trap",
+   "term": "Personal injury",
+   "plain": "Not a broken bone: injury from offenses like libel, slander, false arrest, malicious prosecution, invasion of privacy, wrongful eviction or entry.",
+   "example": "Ed sues Sam again, this time for slander, over something Sam told the neighbors at the block party.",
+   "exam": "Coverage E pays only for bodily injury and property damage. The Personal Injury endorsement adds these offenses, but not knowingly false statements.",
+   "draw": [
+    {"id": "sam", "p": "person", "x": 12, "y": 44, "h": 26, "opt": {"who": "sam", "pose": "stand", "mood": "neutral"}},
+    {"p": "bubble", "text": "Did you hear about Ed?", "x": 18, "y": 10, "w": 30, "to": "sam"},
+    {"id": "pal", "p": "person", "x": 34, "y": 44, "h": 24, "opt": {"who": "grandma", "pose": "stand", "mood": "shocked"}},
+    {"id": "ed", "p": "person", "x": 64, "y": 42, "h": 28, "opt": {"who": "neighbor", "pose": "hold", "hold": "envelope", "mood": "angry"}},
+    {"id": "slander", "p": "label", "text": "Slander!", "x": 66, "y": 19, "size": 5.5, "bold": true, "color": "red", "cue": "slander"},
+    {"id": "note", "p": "stamp", "text": "Not Coverage E", "x": 40, "y": 62, "color": "red", "size": 5, "at": 2, "cue": "neither"}
    ],
-   "answer": "No. The watercraft exclusion applies. A Watercraft endorsement would add liability coverage for the boat.",
    "beats": [
-    {
-     "text": "Jake owns a fishing boat with a 40-horsepower outboard. He bought it three years ago and never reported it. On Houghton Lake, he injures a swimmer. Does his HO-3 Coverage E apply?",
-     "say": "Jake owns a fishing boat with a forty horsepower outboard. He bought it three years ago and never reported it. On Houghton Lake, he injures a swimmer. Does his H O three Coverage E apply?",
-     "show": 0
-    },
-    {
-     "text": "Owned outboards totaling 25 horsepower or less are covered. A bigger one is covered only if acquired during the policy period, or declared at inception, or reported within 45 days after he acquired it.",
-     "say": "Owned outboards totaling twenty five horsepower or less are covered. A bigger one is covered only if acquired during the policy period, or declared at inception, or reported within forty five days after he acquired it.",
-     "show": 2
-    },
-    {
-     "text": "Jake's motor fails every test, so Coverage E does not apply. The Watercraft endorsement would add liability coverage for the boat, though not physical damage. An owned sailboat 26 feet or longer needs it too.",
-     "say": "Jake's motor fails every test, so Coverage E does not apply. The Watercraft endorsement would add liability coverage for the boat, though not physical damage. An owned sailboat twenty six feet or longer needs it too.",
-     "show": 4,
-     "answer": true
-    }
+    {"text": "You told everyone I faked my fall? That's slander!", "say": "You told everyone I faked my fall? That's slander!", "voice": "neighbor", "show": 1, "hl": "slander"},
+    {"text": "Ed sues Sam again. That's personal injury: offenses like libel, slander, false arrest and invasion of privacy.", "say": "Ed sues Sam again. That's personal injury: offenses like libel, slander, false arrest and invasion of privacy.", "show": 3},
+    {"text": "Watch out: Coverage E pays only for bodily injury and property damage. Slander is neither. The Personal Injury endorsement fills that gap.", "say": "Watch out: Coverage E pays only for bodily injury and property damage. Slander is neither. The Personal Injury endorsement fills that gap.", "show": 4, "hl": "note"}
    ]
   },
   {
-   "type": "table",
-   "title": "Property endorsements",
-   "src": "PF&M HO 04 61 (July 2017); ISO HO 04 90 05 11; HO 04 54 10 00; HO 04 27 04 02",
-   "columns": [
-    "Endorsement",
-    "Key point"
+   "type": "explore",
+   "title": "Work and the HO-3: who needs which add-on?",
+   "src": "ISO HO 00 03 05 11, Def. B.3, Sec. II Excl. E.2; ISO HO 04 42 10 00; PF&M 2014 (HO 24 71, HO 04 97, HO 07 01); hook mn_prop-24",
+   "draw": [
+    {"id": "school", "p": "school", "x": 22, "y": 28, "h": 34},
+    {"id": "jen", "p": "person", "x": 50, "y": 40, "h": 24, "opt": {"who": "jen", "pose": "point", "mood": "happy"}, "flip": true},
+    {"p": "label", "text": "Jen's school", "x": 24, "y": 52, "size": 4.4},
+    {"id": "home2", "p": "house", "x": 74, "y": 26, "h": 28, "opt": {"roof": "blue"}},
+    {"id": "piano", "p": "icon", "name": "keyboard-music", "x": 90, "y": 46, "h": 10, "color": "purple"},
+    {"p": "label", "text": "Piano studio at home", "x": 74, "y": 56, "size": 4.4},
+    {"id": "daycare", "p": "sign", "x": 110, "y": 30, "h": 26, "opt": {"text": "DAY CARE", "tcolor": "orange"}},
+    {"id": "kid1", "p": "person", "x": 126, "y": 45, "h": 20, "opt": {"who": "kid", "pose": "cheer", "mood": "laugh"}},
+    {"p": "label", "text": "Paid day care", "x": 114, "y": 56, "size": 4.4},
+    {"id": "homebiz", "p": "desk", "x": 146, "y": 38, "h": 20, "opt": {"papers": true}},
+    {"p": "label", "text": "Business run from home", "x": 146, "y": 52, "size": 4.4, "w": 24}
    ],
-   "items": [
-    [
-     "Scheduled Personal Property",
-     "Open perils, worldwide, no deductible"
-    ],
-    [
-     "Personal Property Replacement Cost",
-     "Contents at RC; antiques stay at ACV"
-    ],
-    [
-     "Earthquake (2000 edition)",
-     "Shocks within 72 hours count as one"
-    ],
-    [
-     "Limited Fungi (2002 edition)",
-     "$10,000 property; $50,000 E aggregate"
-    ]
+   "spots": [
+    {
+     "on": "school",
+     "label": "Business Pursuits",
+     "text": "Jen teaches for a school. This covers an insured's business activities when she isn't the owner or a partner, like teachers and salespersons."
+    },
+    {
+     "on": "home2",
+     "label": "Permitted Incidental Occupancies",
+     "text": "A neighbor's piano studio at home. Covers a described business run at home, but still not bodily injury to the business's employees."
+    },
+    {
+     "on": "daycare",
+     "label": "Home Day Care Coverage",
+     "text": "2011 form: paid day care for unrelated kids is a business if an occupation or paid over $2,000 in the 12 months before the policy. Excluded; this adds limited coverage."
+    },
+    {
+     "on": "homebiz",
+     "label": "Home Business Insurance Coverage",
+     "text": "A described business run from home. A self-contained endorsement with both property and liability coverage."
+    }
    ],
    "beats": [
-    {
-     "text": "Scheduled Personal Property covers listed classes, like jewelry, furs and fine arts, on open perils, worldwide, with no deductible.",
-     "say": "Scheduled Personal Property covers listed classes, like jewelry, furs and fine arts, on open perils, worldwide, with no deductible.",
-     "show": 1
-    },
-    {
-     "text": "Newly acquired jewelry in a class already scheduled is covered for 25% of that class's limit or $10,000, whichever is less, if reported within 30 days.",
-     "say": "Newly acquired jewelry in a class already scheduled is covered for twenty five percent of that class's limit or ten thousand dollars, whichever is less, if reported within thirty days.",
-     "show": 1
-    },
-    {
-     "text": "Personal Property Replacement Cost pays contents at replacement cost, but antiques, fine arts and collectors' items stay at actual cash value.",
-     "say": "Personal Property Replacement Cost pays contents at replacement cost, but antiques, fine arts and collectors' items stay at actual cash value.",
-     "show": 2
-    },
-    {
-     "text": "The 2000 Earthquake endorsement counts shocks within 72 hours as one earthquake. The 2002 Limited Fungi schedule shows $10,000 for property and $50,000 as a Coverage E aggregate.",
-     "say": "The two thousand Earthquake endorsement counts shocks within seventy two hours as one earthquake. The two thousand two Limited Fungi schedule shows ten thousand dollars for property and fifty thousand dollars as a Coverage E aggregate.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "table",
-   "title": "Liability and home business endorsements",
-   "src": "PF&M 2014 (HO 24 82, HO 24 71, HO 04 97, HO 07 01); ISO HO 04 42 10 00; HO 00 03 05 11, Def. B.3",
-   "columns": [
-    "Endorsement",
-    "What it adds"
+    {"text": "Work is a trap too: Section II excludes business liability, with a few exceptions. Tap to see who needs what.", "say": "Work is a trap too: Section two excludes business liability, with a few exceptions. Tap to see who needs what."}
    ],
-   "items": [
-    [
-     "Personal Injury",
-     "Libel, slander, false arrest, privacy"
-    ],
-    [
-     "Business Pursuits",
-     "Work liability of non-owners, like teachers"
-    ],
-    [
-     "Home Day Care Coverage",
-     "Limited property and day-care liability"
-    ],
-    [
-     "Permitted Incidental Occupancies",
-     "Business at home; still no BI to employees"
-    ],
-    [
-     "Home Business Insurance Coverage",
-     "Self-contained property and liability"
-    ]
-   ],
-   "beats": [
-    {
-     "text": "Coverage E pays for bodily injury and property damage, not personal injury. The Personal Injury endorsement adds libel, slander, false arrest, malicious prosecution, invasion of privacy, and wrongful eviction or entry.",
-     "say": "Coverage E pays for bodily injury and property damage, not personal injury. The Personal Injury endorsement adds libel, slander, false arrest, malicious prosecution, invasion of privacy, and wrongful eviction or entry.",
-     "show": 1
-    },
-    {
-     "text": "Business Pursuits covers an insured's business activities when the insured isn't the owner or a partner, like a teacher or a salesperson.",
-     "say": "Business Pursuits covers an insured's business activities when the insured isn't the owner or a partner, like a teacher or a salesperson.",
-     "show": 2
-    },
-    {
-     "text": "Paid day care for unrelated children is a business when it's an occupation, or paid more than $2,000 in the 12 months before the policy period. Then its liability is excluded. Home Day Care Coverage adds limited coverage back.",
-     "say": "Paid day care for unrelated children is a business when it's an occupation, or paid more than two thousand dollars in the twelve months before the policy period. Then its liability is excluded. Home Day Care Coverage adds limited coverage back.",
-     "show": 3
-    },
-    {
-     "text": "Permitted Incidental Occupancies covers a described business at home, like a piano studio, but not bodily injury to its employees. Home Business Insurance Coverage is a self-contained endorsement with property and liability coverage.",
-     "say": "Permitted Incidental Occupancies covers a described business at home, like a piano studio, but not bodily injury to its employees. Home Business Insurance Coverage is a self-contained endorsement with property and liability coverage.",
-     "show": 5
-    }
+   "reveal": [
+    {"text": "Business Pursuits: working for someone else, like teaching. Permitted Incidental Occupancies: a described business at home, still no bodily injury to its employees.", "say": "Business Pursuits: working for someone else, like teaching. Permitted Incidental Occupancies: a described business at home, still no bodily injury to its employees."},
+    {"text": "Under the 2011 form, paid day care for unrelated kids is a business if it's an occupation, or paid over $2,000 in the 12 months before the policy period.", "say": "Under the twenty eleven form, paid day care for unrelated kids is a business if it's an occupation, or paid over two thousand dollars in the twelve months before the policy period."},
+    {"text": "Then its liability is excluded; Home Day Care Coverage adds limited coverage. Home Business Insurance Coverage: self-contained property and liability.", "say": "Then its liability is excluded; Home Day Care Coverage adds limited coverage. Home Business Insurance Coverage: self-contained property and liability."}
    ]
   },
   {
    "type": "quiz",
-   "q": "A schoolteacher wants her homeowners policy to cover liability arising from her teaching job. Which endorsement fits?",
-   "choices": [
-    "Business Pursuits",
-    "Personal Injury",
-    "Home Business Insurance Coverage"
-   ],
+   "q": "Business Pursuits is designed to cover the work liability of which person on the Millers' street?",
+   "choices": ["Priya, a salesperson employed by a furniture store", "Mike, a partner in a downtown law firm", "Kim, the sole owner of a hardware store"],
    "answer": 0,
-   "why": "Business Pursuits covers an insured's liability from business activities when the insured is not the owner or a partner, such as teachers, salespersons and clerical workers.",
+   "why": "Business Pursuits covers an insured's business activities when she isn't the owner or a partner, like salespersons and teachers.",
+   "draw": [
+    {"p": "question", "x": 40, "y": 10, "h": 12, "color": "orange"},
+    {"id": "priya", "p": "person", "x": 14, "y": 42, "h": 28, "opt": {"who": "person", "hair": "long", "shirt": "teal", "badge": true, "pose": "hold", "hold": "clipboard", "mood": "happy"}},
+    {"id": "mike", "p": "person", "x": 40, "y": 42, "h": 28, "opt": {"who": "person", "tie": true, "shirt": "gray", "pose": "hold", "hold": "briefcase", "mood": "neutral"}},
+    {"id": "kim", "p": "person", "x": 66, "y": 42, "h": 28, "opt": {"who": "person", "hair": "pony", "apron": true, "pose": "stand", "mood": "happy"}},
+    {"p": "label", "text": "Priya", "x": 14, "y": 60, "size": 4.2},
+    {"p": "label", "text": "Mike", "x": 40, "y": 60, "size": 4.2},
+    {"p": "label", "text": "Kim", "x": 66, "y": 60, "size": 4.2}
+   ],
    "beats": [
-    {
-     "text": "Your turn. A schoolteacher wants liability coverage for her teaching job. Which endorsement fits? Pick an answer.",
-     "say": "Your turn. A schoolteacher wants liability coverage for her teaching job. Which endorsement fits? Pick an answer."
-    }
+    {"text": "Quick check. Who is Business Pursuits made for?", "say": "Quick check. Who is Business Pursuits made for?"}
    ],
    "reveal": [
-    {
-     "text": "Business Pursuits. She works for someone else and isn't an owner or partner. Home Business Insurance Coverage is for a business run at home.",
-     "say": "Business Pursuits. She works for someone else and isn't an owner or partner. Home Business Insurance Coverage is for a business run at home."
-    }
+    {"text": "Priya: she sells for an employer and isn't an owner or partner. Mike's a partner; Kim's an owner.", "say": "Priya: she sells for an employer and isn't an owner or partner. Mike's a partner; Kim's an owner."}
    ]
   },
   {
-   "type": "bullets",
-   "title": "Special Provisions – Michigan (HO 01 21)",
-   "src": "MCL 500.2833(1)(q), (2); Wilson (E.D. Mich. 2019); FC&S summary of HO 01 21 05 11 (text not seen; 05 23 may differ)",
-   "items": [
-    {
-     "label": "Innocent co-insured, fire loss",
-     "detail": "Covered up to his or her own interest; no domestic-abuse requirement",
-     "icon": "flame"
-    },
-    {
-     "label": "Who set the fire",
-     "detail": "Not covered; the insurer may subrogate against that insured",
-     "icon": "ban"
-    },
-    {
-     "label": "Suit against the insurer",
-     "detail": "2 years, tolled from notice of loss until formal denial",
-     "icon": "gavel"
-    }
+   "type": "term",
+   "title": "Michigan: the innocent co-insured",
+   "src": "ISO HO 00 03 05 11, Sec. I Excl. A.8; MCL 500.2833(2); Wilson (E.D. Mich. 2019); Rough Notes (March 1999); hook mn_prop-23",
+   "kind": "Michigan rule",
+   "term": "Innocent co-insured",
+   "plain": "An insured who took no part in the act that caused the loss.",
+   "example": "Dan and Ana own their house together; both are insureds. Dan sets it on fire on purpose. Ana had nothing to do with it.",
+   "exam": "Plain HO-3: an intentional loss bars every insured. In Michigan, an innocent co-insured is covered for a fire loss, up to her own interest.",
+   "draw": [
+    {"id": "house", "p": "house", "x": 22, "y": 38, "h": 30},
+    {"id": "fire", "p": "fire", "x": 20, "y": 22, "h": 14, "loop": "flicker", "over": true, "cue": "fire"},
+    {"id": "dan", "p": "person", "x": 50, "y": 46, "h": 26, "opt": {"who": "person", "beard": true, "shirt": "gray", "pose": "stand", "mood": "angry"}, "label": "Dan", "lsize": 3.8},
+    {"id": "ana", "p": "person", "x": 68, "y": 46, "h": 26, "opt": {"who": "person", "hair": "bun", "shirt": "purple", "pose": "shrug", "mood": "shocked"}, "label": "Ana", "lsize": 3.8},
+    {"p": "ring", "on": "ana", "at": 1, "cue": "innocent", "color": "green"},
+    {"id": "mi", "p": "michigan", "x": 64, "y": 14, "h": 18, "at": 2, "cue": "Michigan"},
+    {"p": "arrow", "from": "dan", "to": "fire", "label": "on purpose", "color": "red", "bend": 0.25, "cue": "purpose"}
    ],
    "beats": [
     {
-     "text": "Now Michigan. The unendorsed form denies every insured for an intentional loss. But Michigan courts require coverage for an innocent co-insured's fire loss, and Michigan's endorsement covers that insured up to his or her own interest.",
-     "say": "Now Michigan. The unendorsed form denies every insured for an intentional loss. But Michigan courts require coverage for an innocent co-insured's fire loss, and Michigan's endorsement covers that insured up to his or her own interest.",
+     "text": "Down the street, Dan and Ana own a house together. Dan sets it on fire on purpose. Ana had no part in it.",
+     "say": "Down the street, Dan and Ana own a house together. Dan sets it on fire on purpose. Ana had no part in it.",
      "show": 1
     },
     {
-     "text": "The insured who set the fire isn't covered. Suit is due within 2 years, tolled from notice of loss until formal denial. These points summarize the 2011 Michigan endorsement; newer editions may differ.",
-     "say": "The insured who set the fire isn't covered. Suit is due within two years, tolled from notice of loss until formal denial. These points summarize the twenty eleven Michigan endorsement; newer editions may differ.",
-     "show": 3
+     "text": "That makes Ana an innocent co-insured.",
+     "say": "That makes Ana an innocent co-insured.",
+     "show": 3,
+     "hl": "ana"
+    },
+    {
+     "text": "The plain HO-3 denies every insured for an intentional loss. But Michigan courts require coverage for an innocent co-insured's fire loss. She's covered up to her own interest.",
+     "say": "The plain H O three denies every insured for an intentional loss. But Michigan courts require coverage for an innocent co-insured's fire loss. She's covered up to her own interest.",
+     "show": 4,
+     "hl": "mi"
     }
    ]
   },
   {
-   "type": "quiz",
-   "q": "Under a 2011 Michigan HO-3 with Special Provisions – Michigan, Dan intentionally sets fire to the home. His wife, Ana, took no part. Ana is:",
-   "choices": [
-    "Not covered, because an insured caused the loss",
-    "Covered only if she is a victim of domestic abuse",
-    "Covered to the extent of her interest in the property"
+   "type": "choice",
+   "title": "Ana's call: what should she claim?",
+   "src": "HO 00 03 05 11 Cond. H; MCL 500.2833(1)(q),(2); FC&S on HO 01 21 05 11 (text not seen; 05 23 may differ); prop-gap-14; IRMI 'subrogation'",
+   "ask": "What should Ana claim?",
+   "draw": [
+    {"id": "house", "p": "house", "x": 26, "y": 26, "h": 32, "opt": {"roof": "gray", "wall": "gray"}},
+    {"id": "smoke", "p": "puff", "x": 24, "y": 7, "h": 14, "over": true, "opt": {"n": 4}},
+    {"p": "fire", "x": 16, "y": 16, "h": 7, "over": true, "loop": "flicker"},
+    {"p": "label", "text": "After the fire", "x": 26, "y": 48, "size": 4.2},
+    {"id": "ana", "p": "person", "x": 80, "y": 29, "h": 34, "opt": {"who": "person", "hair": "bun", "shirt": "purple", "pose": "think", "mood": "worried"}},
+    {"p": "bubble", "text": "What do I claim?", "x": 104, "y": 8, "w": 26, "to": "ana", "think": true},
+    {"id": "ins", "p": "insurer", "x": 136, "y": 30, "h": 28}
    ],
-   "answer": 2,
-   "why": "Michigan's endorsement covers an insured who is innocent of a fire loss to the extent of that insured's interest, with no domestic-abuse requirement.",
    "beats": [
+    {"text": "Their policy: a 2011 HO-3 with Special Provisions, Michigan. What should Ana claim?", "say": "Their policy: a twenty eleven H O three with Special Provisions, Michigan. What should Ana claim?"}
+   ],
+   "options": [
     {
-     "text": "Last one. In Michigan, Dan intentionally burns the home. His wife, Ana, took no part. What coverage does Ana have? Pick an answer.",
-     "say": "Last one. In Michigan, Dan intentionally burns the home. His wife, Ana, took no part. What coverage does Ana have? Pick an answer."
+     "label": "Nothing. Dan's fire sinks us both.",
+     "ok": false,
+     "fail": "In Michigan, an innocent co-insured is covered for a fire loss, to the extent of her own interest.",
+     "beats": [
+      {"text": "Ana gives up. But in Michigan, she was covered!", "say": "Ana gives up. But in Michigan, she was covered!"}
+     ],
+     "draw": [
+      {"id": "rain", "p": "rain", "x": 46, "y": 12, "h": 18},
+      {"id": "ana", "p": "person", "x": 46, "y": 36, "h": 32, "opt": {"who": "person", "hair": "bun", "shirt": "purple", "pose": "walk", "mood": "sad"}},
+      {"id": "ins", "p": "insurer", "x": 112, "y": 20, "h": 26},
+      {"id": "cash", "p": "money", "x": 112, "y": 40, "h": 9},
+      {"p": "label", "text": "Her share: never claimed!", "x": 112, "y": 51, "size": 4.6, "color": "red", "bold": true, "cue": "covered"}
+     ]
+    },
+    {
+     "label": "The whole house, Dan's share too",
+     "ok": false,
+     "fail": "Michigan covers the innocent co-insured only to the extent of her own interest. Dan's share isn't paid.",
+     "beats": [
+      {"text": "Not quite. Ana gets only her own interest, never Dan's share.", "say": "Not quite. Ana gets only her own interest, never Dan's share."}
+     ],
+     "draw": [
+      {"id": "ana", "p": "person", "x": 24, "y": 29, "h": 34, "opt": {"who": "person", "hair": "bun", "shirt": "purple", "pose": "shrug", "mood": "worried"}},
+      {"id": "chk", "p": "bankcheck", "x": 66, "y": 18, "h": 14, "opt": {"amount": "WHOLE HOUSE"}},
+      {"p": "xout", "on": "chk", "cue": "never"},
+      {"id": "chk2", "p": "bankcheck", "x": 66, "y": 36, "h": 10, "opt": {"amount": "HER SHARE"}, "cue": "own"},
+      {"p": "label", "text": "Only her own interest", "x": 66, "y": 48, "size": 4.6, "color": "red", "bold": true, "cue": "own"},
+      {"id": "ins", "p": "insurer", "x": 114, "y": 30, "h": 28}
+     ]
+    },
+    {
+     "label": "Prove domestic abuse first",
+     "ok": false,
+     "fail": "Some states' versions require that. Michigan's endorsement covers the innocent co-insured with no domestic-abuse requirement.",
+     "beats": [
+      {"text": "Wasted weeks. Michigan has no domestic-abuse test.", "say": "Wasted weeks. Michigan has no domestic-abuse test."}
+     ],
+     "draw": [
+      {"id": "ana", "p": "person", "x": 26, "y": 29, "h": 34, "opt": {"who": "person", "hair": "bun", "shirt": "purple", "pose": "hold", "hold": "clipboard", "mood": "worried"}},
+      {"id": "pile", "p": "icon", "name": "file-stack", "x": 58, "y": 30, "h": 26},
+      {"id": "cal", "p": "calendar", "x": 84, "y": 22, "h": 18, "opt": {"n": "3 wks", "size": 12}, "cue": "Wasted"},
+      {"p": "label", "text": "No abuse test in Michigan", "x": 128, "y": 30, "size": 5, "w": 34, "color": "red", "bold": true, "cue": "Michigan"}
+     ]
+    },
+    {
+     "label": "Her own share of the home",
+     "ok": true,
+     "win": "Michigan's endorsement covers an innocent co-insured's fire loss to the extent of her interest, with no domestic-abuse requirement.",
+     "beats": [
+      {"text": "Ana collects her share. Dan gets nothing, and the insurer may subrogate: go after him to recover what it paid.", "say": "Ana collects her share. Dan gets nothing, and the insurer may subrogate: go after him to recover what it paid."}
+     ],
+     "draw": [
+      {"id": "ins", "p": "insurer", "x": 24, "y": 24, "h": 30},
+      {"id": "cash", "p": "money", "x": 44, "y": 16, "h": 9, "move": {"to": [66, 26], "at": 0, "cue": "collects", "sfx": "cash"}},
+      {"id": "ana", "p": "person", "x": 84, "y": 28, "h": 34, "opt": {"who": "person", "hair": "bun", "shirt": "purple", "pose": "cheer", "mood": "happy"}},
+      {"p": "label", "text": "Her share", "x": 66, "y": 34, "size": 4.2, "color": "green", "bold": true, "cue": "share"},
+      {"id": "dan", "p": "person", "x": 138, "y": 28, "h": 34, "opt": {"who": "person", "beard": true, "shirt": "gray", "pose": "shrug", "mood": "worried"}},
+      {"p": "label", "text": "Dan: not covered", "x": 138, "y": 52, "size": 4.2, "color": "red", "bold": true, "cue": "nothing"},
+      {"p": "arrow", "from": "ins", "to": "dan", "bend": 0.3, "label": "subrogation", "cue": "subrogate", "dash": true}
+     ]
     }
    ],
    "reveal": [
-    {
-     "text": "Covered to the extent of her interest. Michigan's endorsement requires no domestic-abuse showing. Dan isn't covered, and she doesn't collect his share.",
-     "say": "Covered to the extent of her interest. Michigan's endorsement requires no domestic-abuse showing. Dan isn't covered, and she doesn't collect his share."
-    }
+    {"text": "That's Michigan's 2011 endorsement: her own interest, no domestic-abuse test. Newer editions may differ.", "say": "That's Michigan's twenty eleven endorsement: her own interest, no domestic-abuse test. Newer editions may differ."},
+    {"text": "Suing the insurer? Ana's 2011 policy allows 2 years after the loss, tolled, meaning paused, from notice of loss until formal denial. Michigan law requires at least 1 year.", "say": "Suing the insurer? Ana's twenty eleven policy allows two years after the loss, tolled, meaning paused, from notice of loss until formal denial. Michigan law requires at least one year."}
    ]
   },
   {
    "type": "recap",
    "items": [
-    "E: liability plus defense; F: others' medical bills within 3 years",
-    "Property of others: $1,000; not intentional by an insured 13 or older",
-    "Owned boats the form excludes need the Watercraft endorsement",
-    "Personal Injury for slander; Business Pursuits for employees",
-    "Michigan: innocent co-insured covered for fire, to extent of interest"
+    "F pays others' bills, not your household's, except residence employees",
+    "E: damages plus defense, even for a groundless suit",
+    "Property of others: $1,000; not on purpose by an insured 13 or older",
+    "Owned boats the HO-3 excludes: Watercraft. Slander: Personal Injury",
+    "Michigan: innocent co-insured covered for fire, up to her interest"
+   ],
+   "draw": [
+    {"id": "sam", "p": "person", "x": 18, "y": 42, "h": 30, "opt": {"who": "sam", "pose": "cheer", "mood": "happy"}},
+    {"id": "jen", "p": "person", "x": 38, "y": 42, "h": 30, "opt": {"who": "jen", "pose": "point", "mood": "smirk"}},
+    {"p": "dog", "x": 60, "y": 54, "h": 10, "opt": {"mood": "happy"}},
+    {"p": "sun", "x": 72, "y": 7, "h": 10, "loop": "spin"},
+    {"p": "boat", "x": 64, "y": 38, "h": 10, "opt": {"color": "teal"}},
+    {"p": "envelope", "x": 66, "y": 24, "h": 7, "opt": {"seal": true}},
+    {"p": "bubble", "text": "Next summer? We're staying inside.", "x": 40, "y": 11, "w": 30, "to": "jen", "at": 2}
    ],
    "beats": [
-    {
-     "text": "To recap. Coverage E pays damages and defense; Coverage F pays others' medical bills, not your household's, except residence employees. Damage to property of others pays up to $1,000.",
-     "say": "To recap. Coverage E pays damages and defense; Coverage F pays others' medical bills, not your household's, except residence employees. Damage to property of others pays up to one thousand dollars.",
-     "show": 2
-    },
-    {
-     "text": "Owned boats the form excludes, like Jake's, need the Watercraft endorsement. And in Michigan, an innocent co-insured is covered for a fire loss, up to her own interest.",
-     "say": "Owned boats the form excludes, like Jake's, need the Watercraft endorsement. And in Michigan, an innocent co-insured is covered for a fire loss, up to her own interest.",
-     "show": 5
-    }
+    {"text": "What a summer! F paid Ed's bills, and E defended Sam.", "say": "What a summer! F paid Ed's bills, and E defended Sam.", "show": 3},
+    {"text": "The boat needed Watercraft, slander needs Personal Injury, and in Michigan, Ana got her share.", "say": "The boat needed Watercraft, slander needs Personal Injury, and in Michigan, Ana got her share.", "show": 5},
+    {"text": "Next summer? We're staying inside.", "say": "Next summer? We're staying inside.", "voice": "jen", "show": 5}
    ]
   }
  ],
- "check": [
-  "prop-052",
-  "prop-053",
-  "prop-054",
-  "prop-061",
-  "prop-gap-15"
- ],
- "hooks": [
-  "mn-mn_prop-14"
- ],
+ "check": ["prop-052", "prop-054", "prop-055", "prop-061", "prop-gap-14"],
+ "hooks": ["mn-mn_prop-14", "mn-mn_prop-19", "mn-mn_prop-20", "mn-mn_prop-24", "mn-mn_prop-25"],
  "sources": [
   "ISO HO 00 03 05 11",
   "ISO Homeowners Policy Program Manual Table 301 (as reproduced in RIJRA HO Manual)",
@@ -403,9 +629,13 @@
   "ISO HO 04 54 10 00",
   "ISO HO 04 27 04 02",
   "ISO HO 04 42 10 00",
+  "IRMI, 'open perils'",
+  "IRMI, 'subrogation'",
   "MCL 500.2833(1)(q)",
   "MCL 500.2833(2)",
   "Wilson v. State Farm Fire & Cas. Co. (E.D. Mich. 2019)",
-  "FC&S, Special Provisions—Variations by State (Sept. 1, 2011), Michigan HO 01 21 05 11"
+  "Rough Notes, ISO Form and Endorsement Changes (March 1999)",
+  "FC&S, Special Provisions—Variations by State (Sept. 1, 2011), Michigan HO 01 21 05 11",
+  "Memory hooks mn_prop-14, 18, 19, 20, 23, 24, 25"
  ]
 }

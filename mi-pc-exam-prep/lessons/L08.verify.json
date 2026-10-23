@@ -1,34 +1,54 @@
 {
  "id": "L08",
- "beats": 39,
+ "beats": 59,
  "mismatches": [
   {
-   "scene": 1,
+   "scene": 2,
+   "beat": 0,
+   "say": "Coinsurance: insure at least a set share of the property's value, like eighty percent. Carry less, and every loss gets paid short, in proportion.",
+   "heard": "Coinsurance, ensure at least a set share of the property's value, like 80 percent. Carry less, and every loss gets paid short in proportion.",
+   "wer": 0.043,
+   "voice": "narrator"
+  },
+  {
+   "scene": 5,
    "beat": 2,
-   "say": "Did, the limit carried, over Should is seventy-five percent.",
-   "heard": "did the limit carried, overshoot is 75 percent.",
-   "wer": 0.2
+   "say": "Watch out: people away, but belongings still there? That's unoccupied. Look for the stuff.",
+   "heard": "Watch out. People away, but belonging still there. That's unoccupied. Look for the stuff.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "scene": 5,
+   "beat": 3,
+   "say": "The twenty twelve B P P has its own test: an owner's building is vacant unless at least thirty-one percent of its square footage is in use.",
+   "heard": "The 2012 BPP has its own test, and owners' building is vacant unless at least 31 percent of its square footage is in use.",
+   "wer": 0.038,
+   "voice": "narrator"
   },
   {
    "scene": 9,
    "beat": 0,
-   "say": "A Michigan claim. Hail wrecks Dana's roof in Kalamazoo, and she hires a public adjuster. Who does the adjuster work for, and what deadlines apply?",
-   "heard": "A Michigan claim, Hale wrecks Dana's roof in Kalamazoo and she hires a public adjuster. Who does the adjuster work for and what deadlines apply?",
-   "wer": 0.043
+   "say": "A bank holding a home's mortgage is the mortgagee. Under the twenty eleven homeowners form, it brings its own umbrella: it collects despite the owner's denial, if it meets the conditions.",
+   "heard": "A bank holding a home's mortgage is the mortgagee. Under the 2011 Home Owners' Form, it brings its own umbrella. It collects despite the owner's denial if it meets the conditions.",
+   "wer": 0.065,
+   "voice": "narrator"
   },
   {
    "scene": 10,
-   "beat": 2,
-   "say": "And a producer binds only within actual or apparent authority.",
-   "heard": "and a producer binds only with an actual or apparent authority.",
-   "wer": 0.222
+   "beat": 1,
+   "say": "We're the named mortgagee. What do we do?",
+   "heard": "With a named mortgagee, what do we do?",
+   "wer": 0.25,
+   "voice": "boss"
   },
   {
-   "scene": 11,
-   "beat": 1,
-   "say": "Subrogation recovers from the party liable. A mortgagee survives a denial; a loss payee usually doesn't. In Michigan, late benefits to the insured earn twelve percent interest.",
-   "heard": "Subrogation recovers from the party liable. A mortgagee survives a denial. A lost payee usually does not. In Michigan, late benefits to the insured earn 12% interest.",
-   "wer": 0.036
+   "scene": 14,
+   "beat": 0,
+   "say": "Did over Should, capped by the limit. Under the twenty twelve B P P, long vacancy: some perils out, the rest cut fifteen percent.",
+   "heard": "did overshoot capped by the limit. Under the 2012 BPP long vacancy, some perils out, the rest cut 15%.",
+   "wer": 0.091,
+   "voice": "narrator"
   }
  ]
 }

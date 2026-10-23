@@ -3,391 +3,2483 @@
  "sec": "basics",
  "guide": "basics",
  "title": "Policy structure, insureds, limits and other insurance",
- "summary": "How a policy is built, who the insureds are, when and where it covers, and how deductibles, limits and other insurance divide a loss.",
+ "summary": "Follow Tony's Pizza through one Detroit week: the parts of a policy, who is insured, deductibles, sharing a loss, and limits.",
  "objectives": [
-  "Sort policy wording into declarations, insuring agreement, conditions and exclusions",
+  "Tell declarations, insuring agreement, conditions and exclusions apart",
   "Tell named, first named and additional insureds apart",
   "Split a loss between insurers: primary and excess, pro rata, equal shares",
-  "Apply deductibles, split limits and combined single limits to a loss"
+  "Apply deductibles, split and combined single limits, and policy period and territory"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "Policy structure, insureds, limits and other insurance",
-   "subtitle": "Roll the DICE, then follow the money: who is insured, what comes off, and who pays",
-   "icon": "file-text",
-   "beats": [
+   "title": "Tony's Pizza reads the fine print",
+   "subtitle": "Policy parts, insureds, deductibles, other insurance and limits. P&C Basics is 20% of your exam.",
+   "draw": [
     {
-     "text": "Policy structure and common provisions are part of P&C Basics, 20% of your exam.",
-     "say": "Policy structure and common provisions are part of P and C Basics, twenty percent of your exam."
+     "id": "shop",
+     "p": "restaurant",
+     "x": 25,
+     "y": 34,
+     "h": 36,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-     "text": "In this lesson: policy parts, insureds, deductibles, limits and other insurance.",
-     "say": "In this lesson: policy parts, insureds, deductibles, limits and other insurance."
+     "p": "person",
+     "x": 60,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "mood": "shocked",
+      "hold": "policy"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "policy",
+     "x": 69,
+     "y": 44,
+     "h": 12,
+     "rot": -10,
+     "over": true
+    },
+    {
+     "p": "policy",
+     "x": 71,
+     "y": 42,
+     "h": 12,
+     "rot": 6,
+     "over": true
+    },
+    {
+     "p": "person",
+     "x": 84,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "id": "dana",
+     "flip": true
+    },
+    {
+     "p": "bubble",
+     "text": "It's thicker than my menu!",
+     "x": 60,
+     "y": 12,
+     "w": 34,
+     "to": "tony",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "Monday at Tony's Pizza in Detroit. Dana, his agent, drops off his new business policy. He'll need it sooner than he thinks.",
+     "say": "Monday at Tony's Pizza in Detroit. Dana, his agent, drops off his new business policy. He'll need it sooner than he thinks."
+    },
+    {
+     "text": "It's thicker than my menu!",
+     "say": "It's thicker than my menu!",
+     "voice": "tony"
     }
    ]
   },
   {
-   "type": "hook",
-   "title": "The parts of a policy",
-   "src": "IRMI glossary: declarations, insuring agreement, exclusion, endorsement; ISO CP 00 10 10 12 preamble; ISO HO 00 03 05 11 (2011 HO-3)",
-   "mn": "mn-mn_core-15",
-   "hook": "Roll the DICE: Declarations, Insuring agreement, Conditions, Exclusions. Definitions explain the words in quotes; endorsements change the game.",
-   "items": [
-    "Declarations: who, where, when and how much (named insured, location, period, limits)",
-    "Insuring agreement: the promise to pay, which exclusions and definitions narrow",
-    "Conditions: the rules, such as duties after loss, cancellation and other insurance",
-    "Exclusions: what is not covered, such as earth movement and flood in the 2011 HO-3"
-   ],
-   "beats": [
+   "type": "explore",
+   "title": "Roll the DICE: the parts of Tony's policy",
+   "src": "Memory hook mn_core-15; IRMI glossary: declarations, insuring agreement, exclusion, endorsement; ISO CP 00 10 10 12; ISO HO 00 03 05 11",
+   "draw": [
     {
-     "text": "Roll the DICE. Declarations show who, where, when and how much: the named insured, the location, the policy period and the limits.",
-     "say": "Roll the DICE. Declarations show who, where, when and how much: the named insured, the location, the policy period and the limits.",
-     "show": 1
+     "p": "label",
+     "text": "Roll the DICE",
+     "x": 22,
+     "y": 7,
+     "size": 5,
+     "bold": true,
+     "bg": "yellow"
     },
     {
-     "text": "The insuring agreement is the insurer's promise to pay. It starts broad, and exclusions and definitions narrow it.",
-     "say": "The insuring agreement is the insurer's promise to pay. It starts broad, and exclusions and definitions narrow it.",
-     "show": 2
+     "p": "person",
+     "x": 31,
+     "y": 36,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "id": "dana"
     },
     {
-     "text": "Conditions are the rules both sides follow, such as duties after a loss, cancellation, and how other insurance is shared.",
-     "say": "Conditions are the rules both sides follow, such as duties after a loss, cancellation, and how other insurance is shared.",
-     "show": 3
+     "p": "person",
+     "x": 12,
+     "y": 36,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "id": "tony"
     },
     {
-     "text": "Exclusions list what is not covered. The 2011 HO-3, for example, excludes earth movement and flood.",
-     "say": "Exclusions list what is not covered. The twenty eleven H O three, for example, excludes earth movement and flood.",
-     "show": 4
+     "id": "dice",
+     "p": "dice",
+     "x": 21,
+     "y": 58,
+     "h": 9
     },
     {
-     "text": "Words in quotation marks are defined terms. Endorsements change the policy: they broaden or restrict coverage, or add insureds or locations.",
-     "say": "Words in quotation marks are defined terms. Endorsements change the policy: they broaden or restrict coverage, or add insureds or locations.",
-     "show": 4
+     "id": "dec",
+     "p": "policy",
+     "x": 64,
+     "y": 18,
+     "h": 20,
+     "opt": {
+      "title": "DECLARATIONS",
+      "tsize": 3.8
+     }
+    },
+    {
+     "p": "label",
+     "text": "Declarations",
+     "x": 64,
+     "y": 32,
+     "size": 4.2
+    },
+    {
+     "id": "ins",
+     "p": "handshake",
+     "x": 100,
+     "y": 18,
+     "h": 13
+    },
+    {
+     "p": "label",
+     "text": "Insuring agreement",
+     "x": 100,
+     "y": 32,
+     "size": 4.2
+    },
+    {
+     "id": "cond",
+     "p": "clipboard",
+     "x": 136,
+     "y": 18,
+     "h": 20
+    },
+    {
+     "p": "label",
+     "text": "Conditions",
+     "x": 136,
+     "y": 32,
+     "size": 4.2
+    },
+    {
+     "id": "excl",
+     "p": "policy",
+     "x": 64,
+     "y": 46,
+     "h": 20,
+     "opt": {
+      "title": "EXCLUSIONS",
+      "tsize": 4.4,
+      "tcolor": "red"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Exclusions",
+     "x": 64,
+     "y": 60,
+     "size": 4.2
+    },
+    {
+     "id": "defs",
+     "p": "icon",
+     "name": "book-a",
+     "x": 100,
+     "y": 45,
+     "h": 17
+    },
+    {
+     "p": "label",
+     "text": "Definitions",
+     "x": 100,
+     "y": 60,
+     "size": 4.2
+    },
+    {
+     "id": "endo",
+     "p": "policy",
+     "x": 136,
+     "y": 46,
+     "h": 20,
+     "rot": 6,
+     "opt": {
+      "title": "ENDORSEMENT",
+      "tsize": 3.8,
+      "tcolor": "green"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Endorsements",
+     "x": 136,
+     "y": 60,
+     "size": 4.2
     }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "A policy requires the insured to give prompt notice of a loss. Which part of the policy contains that duty?",
-   "choices": [
-    "Declarations",
-    "Insuring agreement",
-    "Conditions",
-    "Exclusions"
    ],
-   "answer": 2,
-   "why": "Conditions are the rules both parties must follow, including duties after a loss, cancellation and other insurance.",
+   "spots": [
+    {
+     "on": "dec",
+     "label": "Declarations",
+     "text": "Who, where, when and how much: the named insureds, the address and location, the policy period and the limits."
+    },
+    {
+     "on": "ins",
+     "label": "Insuring agreement",
+     "text": "The insurer's promise to pay. It starts broad, and the exclusions and definitions narrow it."
+    },
+    {
+     "on": "cond",
+     "label": "Conditions",
+     "text": "The rules both sides follow, such as duties after a loss, cancellation, and how other insurance is shared."
+    },
+    {
+     "on": "excl",
+     "label": "Exclusions",
+     "text": "What is not covered: certain hazards, perils, property or circumstances. A homeowner's 2011 HO-3, for example, excludes earth movement and flood."
+    },
+    {
+     "on": "defs",
+     "label": "Definitions",
+     "text": "Words in quotation marks have special meanings, spelled out in the policy's Definitions section."
+    },
+    {
+     "on": "endo",
+     "label": "Endorsements",
+     "text": "Forms the insurer issues to change the policy: they broaden or restrict coverage, clarify it, or add insureds or locations."
+    }
+   ],
    "beats": [
     {
-     "text": "Quick check. A policy requires the insured to give prompt notice of a loss. Which part holds that duty? Pick an answer.",
-     "say": "Quick check. A policy requires the insured to give prompt notice of a loss. Which part holds that duty? Pick an answer."
+     "text": "Where do I even start?",
+     "say": "Where do I even start?",
+     "voice": "tony"
+    },
+    {
+     "text": "Roll the DICE: Declarations, Insuring agreement, Conditions, Exclusions. Definitions explain the words in quotes; endorsements change the game.",
+     "say": "Roll the DICE: Declarations, Insuring agreement, Conditions, Exclusions. Definitions explain the words in quotes; endorsements change the game.",
+     "voice": "dana"
+    },
+    {
+     "text": "Tap each glowing part of Tony's policy.",
+     "say": "Tap each glowing part of Tony's policy."
     }
    ],
    "reveal": [
     {
-     "text": "The conditions. Duties after a loss are rules the insured must follow, and the rules live in the conditions.",
-     "say": "The conditions. Duties after a loss are rules the insured must follow, and the rules live in the conditions."
+     "text": "Who, where, when and how much: declarations. The promise: insuring agreement. The rules: conditions. The we-don't-cover list: exclusions.",
+     "say": "Who, where, when and how much: declarations. The promise: insuring agreement. The rules: conditions. The we-don't-cover list: exclusions."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Named, first named and additional insureds",
-   "src": "IRMI glossary: named insured, first named insured, additional insured; ISO IL 00 17 11 98",
-   "items": [
+   "type": "term",
+   "title": "Who is insured on Tony's policy?",
+   "src": "IRMI glossary: named insured, first named insured, additional insured; ISO IL 00 17 11 98; question core-053",
+   "kind": "Term",
+   "term": "First named insured",
+   "plain": "The insured listed first in the declarations. Pays the premium, and gets cancellation notices and return premiums.",
+   "example": "Tony and his grandma co-own the pizzeria, and the policy names both: two named insureds. Tony is listed first: he pays the premium and gets the notices and refunds.",
+   "exam": "Named insured: anyone named in the policy. Trap: only the first named pays the premium and gets notices. Additional insured: added on request.",
+   "draw": [
     {
-     "label": "Named insured",
-     "detail": "Anyone specifically designated by name in the policy",
-     "icon": "user"
+     "id": "dec",
+     "p": "policy",
+     "x": 13,
+     "y": 17,
+     "h": 22,
+     "opt": {
+      "title": "DECLARATIONS",
+      "tsize": 3.4
+     }
     },
     {
-     "label": "First named insured",
-     "detail": "Listed first in the declarations: pays the premium, gets cancellation notices and return premiums",
-     "icon": "badge-check"
+     "id": "names",
+     "p": "note",
+     "text": "Named insureds:\n1. Tony\n2. Grandma",
+     "x": 46,
+     "y": 15,
+     "w": 32
     },
     {
-     "label": "Additional insured",
-     "detail": "Added at the named insured's request, such as a landlord or project owner",
-     "icon": "user-plus"
+     "p": "person",
+     "x": 13,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     "id": "tony"
+    },
+    {
+     "id": "medal",
+     "p": "medal",
+     "x": 25,
+     "y": 40,
+     "h": 9,
+     "opt": {
+      "n": "1"
+     },
+     "at": 1,
+     "cue": "first"
+    },
+    {
+     "p": "person",
+     "x": 37,
+     "y": 51,
+     "h": 24,
+     "opt": {
+      "who": "grandma",
+      "pose": "stand",
+      "mood": "happy"
+     },
+     "id": "grandma"
+    },
+    {
+     "p": "person",
+     "x": 65,
+     "y": 50,
+     "h": 26,
+     "opt": {
+      "who": "boss",
+      "pose": "stand",
+      "mood": "neutral"
+     },
+     "id": "landlord",
+     "at": 2
+    },
+    {
+     "p": "label",
+     "text": "Midtown landlord: not named",
+     "x": 65,
+     "y": 31,
+     "size": 3.8,
+     "w": 26,
+     "color": "red",
+     "at": 2
     }
    ],
    "beats": [
     {
-     "text": "Who is insured? A named insured is anyone specifically designated by name in the policy.",
-     "say": "Who is insured? A named insured is anyone specifically designated by name in the policy.",
-     "show": 1
+     "text": "Who's insured? Tony and his grandma co-own the pizzeria, and the policy names both: two named insureds.",
+     "say": "Who's insured? Tony and his grandma co-own the pizzeria, and the policy names both: two named insureds.",
+     "show": 1,
+     "hl": "names"
     },
     {
-     "text": "The first named insured is the one listed first in the declarations. That insured pays the premium and receives cancellation notices and return premiums.",
-     "say": "The first named insured is the one listed first in the declarations. That insured pays the premium and receives cancellation notices and return premiums.",
-     "show": 2,
-     "hl": 1
+     "text": "Tony is listed first: the first named insured. He pays the premium and gets cancellation notices and return premiums.",
+     "say": "Tony is listed first: the first named insured. He pays the premium and gets cancellation notices and return premiums.",
+     "show": 3,
+     "hl": "tony"
     },
     {
-     "text": "An additional insured is added at the named insured's request, such as a landlord.",
-     "say": "An additional insured is added at the named insured's request, such as a landlord.",
-     "show": 3
+     "text": "Tony also rents a Midtown takeout counter. That landlord isn't named, but Tony can ask to add him as an additional insured.",
+     "say": "Tony also rents a Midtown takeout counter. That landlord isn't named, but Tony can ask to add him as an additional insured.",
+     "show": 4,
+     "hl": "landlord"
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "When and where coverage applies",
-   "src": "ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. Q; ISO PP 00 01 09 18 (2018 PAP), Part F; ISO CP 00 90 07 88, H",
-   "items": [
+   "type": "choice",
+   "title": "The landlord wants in",
+   "src": "ISO IL 00 17 11 98, B. Changes; IRMI glossary: additional insured; ISO CG 00 01 04 13, Sec. II; core-bas-22",
+   "ask": "How does Tony add the landlord?",
+   "draw": [
     {
-     "label": "Policy period",
-     "detail": "2011 HO Section I: loss must occur during it. 2018 PAP: accident during it and in the territory",
-     "icon": "calendar"
+     "id": "shop",
+     "p": "restaurant",
+     "x": 25,
+     "y": 27,
+     "h": 34,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-     "label": "Territory: 2018 PAP",
-     "detail": "U.S., its territories or possessions, Puerto Rico and Canada. Mexico is not included.",
-     "icon": "car"
+     "p": "person",
+     "x": 66,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     },
+     "id": "tony"
     },
     {
-     "label": "Territory: 1988 commercial property",
-     "detail": "U.S. (including territories and possessions), Puerto Rico and Canada",
-     "icon": "building-2"
+     "p": "person",
+     "x": 116,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "boss",
+      "pose": "point",
+      "mood": "neutral"
+     },
+     "id": "landlord",
+     "flip": true
+    },
+    {
+     "id": "lease",
+     "p": "policy",
+     "x": 144,
+     "y": 36,
+     "h": 22,
+     "rot": 6,
+     "opt": {
+      "title": "LEASE",
+      "tsize": 7
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "My lease says I go on your policy!",
+     "x": 112,
+     "y": 7,
+     "w": 40,
+     "to": "landlord"
     }
    ],
    "beats": [
     {
-     "text": "When? Under the 2011 homeowners forms, Section I loss must occur during the policy period. The 2018 Personal Auto Policy also requires the accident to be within the policy territory.",
-     "say": "When? Under the twenty eleven homeowners forms, Section one loss must occur during the policy period. The twenty eighteen Personal Auto Policy also requires the accident to be within the policy territory.",
-     "show": 1
-    },
-    {
-     "text": "Where? That auto territory is the United States, its territories or possessions, Puerto Rico and Canada. Not Mexico. The 1988 Commercial Property Conditions list the same places.",
-     "say": "Where? That auto territory is the United States, its territories or possessions, Puerto Rico and Canada. Not Mexico. The nineteen eighty-eight Commercial Property Conditions list the same places.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Three deductible rules",
-   "src": "ISO CP 00 10 10 12 (2012 BPP), C and D, Examples 1-2; ISO HO 00 03 05 11 (2011 HO), Sec. I Cond. B",
-   "items": [
-    {
-     "label": "Off the loss, not the limit",
-     "detail": "2012 BPP: a $70,000 loss minus $250 is $69,750, so the insurer pays the $60,000 limit",
-     "icon": "calculator"
-    },
-    {
-     "label": "Once per occurrence",
-     "detail": "2012 BPP: one fire, two buildings with separate limits, one deductible",
-     "icon": "flame"
-    },
-    {
-     "label": "Homeowners: only the highest",
-     "detail": "2011 HO: if two or more deductibles apply to one loss, only the highest applies",
-     "icon": "house"
+     "text": "That afternoon, the Midtown landlord stops by. His lease says he must be on Tony's policy. What does Tony do?",
+     "say": "That afternoon, the Midtown landlord stops by. His lease says he must be on Tony's policy. What does Tony do?"
     }
    ],
-   "beats": [
+   "options": [
     {
-     "text": "First, a deductible comes off the loss, not the limit.",
-     "say": "First, a deductible comes off the loss, not the limit.",
-     "show": 1
+     "label": "Write his name in with a pen",
+     "ok": false,
+     "fail": "His policy's terms can be amended only by an endorsement the insurer issues. Tony may change them only with the insurer's consent.",
+     "beats": [
+      {
+       "text": "Tony pens the landlord's name in. Sorry, Tony: a pen can't change a policy.",
+       "say": "Tony pens the landlord's name in. Sorry, Tony: a pen can't change a policy."
+      }
+     ],
+     "draw": [
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 34,
+       "y": 29,
+       "h": 38
+      },
+      {
+       "p": "label",
+       "text": "Landlord too!",
+       "x": 36,
+       "y": 37,
+       "size": 4.4,
+       "color": "purple",
+       "rot": -8,
+       "over": true
+      },
+      {
+       "id": "pen",
+       "p": "icon",
+       "name": "pen",
+       "x": 54,
+       "y": 46,
+       "h": 10,
+       "color": "purple",
+       "over": true
+      },
+      {
+       "p": "person",
+       "x": 82,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "point",
+        "mood": "smirk"
+       },
+       "id": "tony",
+       "flip": true
+      },
+      {
+       "p": "stamp",
+       "text": "Doesn't count",
+       "x": 34,
+       "y": 44,
+       "color": "red",
+       "rot": -10,
+       "cue": "change",
+       "over": true
+      }
+     ],
+     "failAt": [
+      126,
+      40
+     ]
     },
     {
-     "text": "In the 2012 Building and Personal Property form's example, a loss of $70,000 minus the deductible of $250 is $69,750. So the insurer pays its limit, $60,000.",
-     "say": "In the twenty twelve Building and Personal Property form's example, a loss of seventy thousand dollars minus the deductible of two hundred fifty dollars is sixty-nine thousand seven hundred fifty dollars. So the insurer pays its limit, sixty thousand dollars.",
-     "show": 1
+     "label": "Tell him he's covered as the landlord",
+     "ok": false,
+     "fail": "A landlord isn't an insured just for being the landlord. He becomes one when added at the named insured's request: an additional insured.",
+     "beats": [
+      {
+       "text": "Then why isn't my name on it?",
+       "say": "Then why isn't my name on it?",
+       "voice": "boss",
+       "speaker": "Landlord"
+      },
+      {
+       "text": "Being Tony's landlord doesn't make him an insured.",
+       "say": "Being Tony's landlord doesn't make him an insured."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 36,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "smirk"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "bubble",
+       "text": "You're covered, trust me!",
+       "x": 30,
+       "y": 7,
+       "w": 34,
+       "to": "tony"
+      },
+      {
+       "p": "person",
+       "x": 100,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "boss",
+        "pose": "stop",
+        "mood": "angry"
+       },
+       "id": "landlord",
+       "flip": true
+      },
+      {
+       "p": "bubble",
+       "text": "Then why isn't my name on it?",
+       "x": 104,
+       "y": 7,
+       "w": 34,
+       "to": "landlord"
+      },
+      {
+       "p": "label",
+       "text": "Not an insured yet",
+       "x": 100,
+       "y": 53,
+       "size": 4.6,
+       "color": "red",
+       "bold": true,
+       "at": 1
+      }
+     ]
     },
     {
-     "text": "Second, under that form it applies once per occurrence, even if one fire damages two buildings with separate limits.",
-     "say": "Second, under that form it applies once per occurrence, even if one fire damages two buildings with separate limits.",
-     "show": 2
-    },
-    {
-     "text": "Third, under the 2011 homeowners forms, if two or more deductibles apply to one loss, only the highest applies.",
-     "say": "Third, under the twenty eleven homeowners forms, if two or more deductibles apply to one loss, only the highest applies.",
-     "show": 3
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "When two policies cover the same loss",
-   "src": "IRMI 'excess insurance', 'nonconcurrency', 'contribution by equal shares'; ISO CP 00 90 07 88, G.1; ISO CG 00 01, Sec. IV Cond. 4.c",
-   "items": [
-    {
-     "label": "Primary and excess",
-     "detail": "Primary pays first; excess pays only above a stated amount or above the primary",
-     "icon": "layers"
-    },
-    {
-     "label": "Pro rata (contribution by limits)",
-     "detail": "Each pays its share of all limits: on a $100,000 loss, $300,000 and $200,000 limits pay $60,000 and $40,000",
-     "icon": "chart-pie"
-    },
-    {
-     "label": "Contribution by equal shares",
-     "detail": "CGL: equal payments until a limit is used up, only if all the other insurance permits it",
-     "icon": "scale"
-    },
-    {
-     "label": "Nonconcurrency",
-     "detail": "Policies on the same exposure don't match, such as different inception and expiration dates",
-     "icon": "calendar"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Two policies, one loss. Primary insurance pays first; excess pays only above a stated amount or above the primary.",
-     "say": "Two policies, one loss. Primary insurance pays first; excess pays only above a stated amount or above the primary.",
-     "show": 1
-    },
-    {
-     "text": "Pro rata, or contribution by limits, pays by each insurer's share of the total limits. Limits of $300,000 and $200,000 split a covered loss three-fifths and two-fifths.",
-     "say": "Pro rata, or contribution by limits, pays by each insurer's share of the total limits. Limits of three hundred thousand dollars and two hundred thousand dollars split a covered loss three-fifths and two-fifths.",
-     "show": 2
-    },
-    {
-     "text": "Contribution by equal shares is the CGL method. Each insurer pays the same amount until it has paid its limit or the loss is paid. If any other insurance doesn't permit equal shares, they contribute by limits.",
-     "say": "Contribution by equal shares is the C G L method. Each insurer pays the same amount until it has paid its limit or the loss is paid. If any other insurance doesn't permit equal shares, they contribute by limits.",
-     "show": 3
-    },
-    {
-     "text": "Don't confuse these with nonconcurrency: policies on the same exposure that don't match, such as different inception and expiration dates.",
-     "say": "Don't confuse these with nonconcurrency: policies on the same exposure that don't match, such as different inception and expiration dates.",
-     "show": 4
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "Two CGL policies cover a $250,000 claim, and both permit equal shares. Policy 1 has a $100,000 limit; Policy 2 has $300,000. How much does Policy 2 pay?",
-   "choices": [
-    "$125,000",
-    "$150,000",
-    "$187,500",
-    "$250,000"
-   ],
-   "answer": 1,
-   "why": "Each pays $100,000, which uses up Policy 1's limit. Policy 2 then pays the remaining $50,000, for $150,000. $187,500 would be Policy 2's share by limits.",
-   "beats": [
-    {
-     "text": "Two CGL policies, both permitting equal shares, cover a claim of $250,000. Policy 1 has a limit of $100,000; Policy 2 has $300,000. How much does Policy 2 pay? Pick an answer.",
-     "say": "Two C G L policies, both permitting equal shares, cover a claim of two hundred fifty thousand dollars. Policy one has a limit of one hundred thousand dollars; Policy two has three hundred thousand dollars. How much does Policy two pay? Pick an answer."
+     "label": "Ask Dana to add him by endorsement",
+     "ok": true,
+     "win": "The insurer's endorsement adds him as an additional insured, at Tony's request. A project owner can be added the same way.",
+     "beats": [
+      {
+       "text": "Done! The insurer issued an endorsement.",
+       "say": "Done! The insurer issued an endorsement.",
+       "voice": "dana"
+      },
+      {
+       "text": "Now the landlord is an additional insured, added at Tony's request.",
+       "say": "Now the landlord is an additional insured, added at Tony's request."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 16,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "point",
+        "mood": "happy"
+       },
+       "id": "dana"
+      },
+      {
+       "id": "endo",
+       "p": "policy",
+       "x": 84,
+       "y": 30,
+       "h": 24,
+       "rot": 6,
+       "opt": {
+        "title": "ENDORSEMENT",
+        "tsize": 4.4,
+        "tcolor": "green"
+       }
+      },
+      {
+       "p": "person",
+       "x": 46,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "happy"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "person",
+       "x": 124,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "boss",
+        "pose": "cheer",
+        "mood": "happy"
+       },
+       "id": "landlord"
+      },
+      {
+       "p": "bubble",
+       "text": "I'm an additional insured!",
+       "x": 140,
+       "y": 8,
+       "w": 34,
+       "to": "landlord",
+       "at": 1
+      },
+      {
+       "p": "arrow",
+       "from": "endo",
+       "to": "landlord",
+       "label": "adds him",
+       "color": "green",
+       "at": 1
+      }
+     ]
     }
    ],
    "reveal": [
     {
-     "text": "$150,000. Each pays $100,000, which uses up the first policy's limit. Policy 2 pays the last $50,000 alone. The trap, $187,500, is its share by limits.",
-     "say": "One hundred fifty thousand dollars. Each pays one hundred thousand dollars, which uses up the first policy's limit. Policy two pays the last fifty thousand dollars alone. The trap, one hundred eighty-seven thousand five hundred dollars, is its share by limits."
+     "text": "Only the insurer's endorsement changes Tony's policy. Tony, the first named insured, can change it only with the insurer's consent.",
+     "say": "Only the insurer's endorsement changes Tony's policy. Tony, the first named insured, can change it only with the insurer's consent."
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Limits of liability",
-   "src": "IRMI 'per person limit', 'split limits', 'combined single limits'; ISO CG 00 01 04 13 (2013 CGL), Sec. III",
-   "items": [
+   "type": "choice",
+   "title": "Grease fire! What does Tony do?",
+   "src": "IRMI glossary: common policy conditions, exclusion, unilateral contract; ISO CP 00 10 10 12, E.3; core-bas-17, core-bas-18",
+   "ask": "What does Tony do now?",
+   "failAt": [
+    142,
+    47
+   ],
+   "draw": [
     {
-     "label": "Per person",
-     "detail": "The most paid for one person's bodily injury",
-     "icon": "user"
+     "id": "shop",
+     "p": "restaurant",
+     "x": 28,
+     "y": 29,
+     "h": 34,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
     },
     {
-     "label": "Per occurrence (accident)",
-     "detail": "The most paid for all injury and damage from one occurrence, however many claimants",
-     "icon": "siren"
+     "p": "puff",
+     "x": 44,
+     "y": 9,
+     "h": 14,
+     "over": true,
+     "loop": "float"
     },
     {
-     "label": "Split limits",
-     "detail": "Three amounts: bodily injury per person, bodily injury per accident, property damage per accident",
-     "icon": "split"
+     "id": "ext",
+     "p": "icon",
+     "name": "fire-extinguisher",
+     "x": 62,
+     "y": 42,
+     "h": 12,
+     "color": "red"
     },
     {
-     "label": "Combined single limit",
-     "detail": "One limit for bodily injury and property damage together, per accident",
-     "icon": "shield"
+     "p": "person",
+     "x": 88,
+     "y": 31,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "hold",
+      "mood": "shocked",
+      "hold": "policy"
+     },
+     "id": "tony"
     },
     {
-     "label": "CGL aggregates",
-     "detail": "General aggregate, plus a separate products-completed operations aggregate",
-     "icon": "layers"
+     "p": "bubble",
+     "text": "What do I do now?",
+     "x": 124,
+     "y": 9,
+     "w": 32,
+     "to": "tony",
+     "think": true
+    },
+    {
+     "p": "label",
+     "text": "Kitchen scorched",
+     "x": 28,
+     "y": 52,
+     "size": 4.2,
+     "color": "red",
+     "bold": true
     }
    ],
    "beats": [
     {
-     "text": "Now limits. A per-person limit caps one person's bodily injury. A per-occurrence limit caps everything from one occurrence, however many people claim.",
-     "say": "Now limits. A per-person limit caps one person's bodily injury. A per-occurrence limit caps everything from one occurrence, however many people claim.",
+     "text": "Tuesday, a grease fire scorches Tony's kitchen. It's out, and nobody's hurt. What does Tony do now?",
+     "say": "Tuesday, a grease fire scorches Tony's kitchen. It's out, and nobody's hurt. What does Tony do now?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Check the exclusions",
+     "ok": false,
+     "fail": "Exclusions list what is not covered. The duties after a loss, like prompt notice, are conditions.",
+     "beats": [
+      {
+       "text": "Page after page of what isn't covered. Tony sweats. Wrong list.",
+       "say": "Page after page of what isn't covered. Tony sweats. Wrong list."
+      }
+     ],
+     "draw": [
+      {
+       "id": "ex1",
+       "p": "policy",
+       "x": 28,
+       "y": 30,
+       "h": 36,
+       "rot": -8,
+       "opt": {
+        "title": "EXCLUSIONS",
+        "tsize": 5,
+        "tcolor": "red"
+       }
+      },
+      {
+       "id": "ex2",
+       "p": "policy",
+       "x": 46,
+       "y": 28,
+       "h": 36,
+       "rot": 7,
+       "over": true,
+       "opt": {
+        "title": "EXCLUSIONS",
+        "tsize": 5,
+        "tcolor": "red"
+       }
+      },
+      {
+       "p": "person",
+       "x": 92,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       },
+       "id": "tony"
+      },
+      {
+       "p": "bubble",
+       "text": "So much NOT covered!",
+       "x": 126,
+       "y": 9,
+       "w": 30,
+       "to": "tony"
+      }
+     ]
+    },
+    {
+     "label": "Check the conditions",
+     "ok": true,
+     "win": "Conditions are the rules both sides follow, including the duties after a loss, like giving prompt notice.",
+     "beats": [
+      {
+       "text": "Found it: duties after loss. One duty: give the insurer prompt notice. Tony calls right away.",
+       "say": "Found it: duties after loss. One duty: give the insurer prompt notice. Tony calls right away."
+      }
+     ],
+     "draw": [
+      {
+       "id": "cond",
+       "p": "clipboard",
+       "x": 22,
+       "y": 26,
+       "h": 30
+      },
+      {
+       "p": "label",
+       "text": "Duties after loss",
+       "x": 22,
+       "y": 49,
+       "size": 4.4,
+       "bold": true
+      },
+      {
+       "p": "person",
+       "x": 68,
+       "y": 31,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "mood": "happy",
+        "hold": "phone"
+       },
+       "id": "tony"
+      },
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 134,
+       "y": 27,
+       "h": 32
+      },
+      {
+       "p": "arrow",
+       "from": "tony",
+       "to": "ins",
+       "label": "Prompt notice",
+       "color": "green",
+       "bold": true,
+       "cue": "calls"
+      }
+     ]
+    },
+    {
+     "label": "Mention it at renewal, no rush",
+     "ok": false,
+     "fail": "The conditions' duties after loss include prompt notice. Waiting months breaks that duty, and that can put the claim at risk.",
+     "beats": [
+      {
+       "text": "Months later, at renewal, Tony finally mentions the fire. That's not prompt notice.",
+       "say": "Months later, at renewal, Tony finally mentions the fire. That's not prompt notice."
+      }
+     ],
+     "draw": [
+      {
+       "p": "sofa",
+       "x": 38,
+       "y": 44,
+       "h": 14,
+       "opt": {
+        "color": "orange"
+       },
+       "over": true
+      },
+      {
+       "p": "person",
+       "x": 34,
+       "y": 32,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "sit",
+        "mood": "sleep"
+       },
+       "id": "tony",
+       "over": true
+      },
+      {
+       "p": "bubble",
+       "text": "Zzz... no rush.",
+       "x": 30,
+       "y": 8,
+       "w": 28,
+       "to": "tony",
+       "think": true
+      },
+      {
+       "id": "c1",
+       "p": "calendar",
+       "x": 84,
+       "y": 20,
+       "h": 18,
+       "opt": {
+        "n": "Mar"
+       },
+       "cue": "Months"
+      },
+      {
+       "id": "c2",
+       "p": "calendar",
+       "x": 100,
+       "y": 22,
+       "h": 18,
+       "opt": {
+        "n": "Jul"
+       },
+       "cue": "later",
+       "over": true
+      },
+      {
+       "id": "c3",
+       "p": "calendar",
+       "x": 116,
+       "y": 24,
+       "h": 18,
+       "opt": {
+        "n": "Dec"
+       },
+       "cue": "renewal",
+       "over": true
+      },
+      {
+       "p": "label",
+       "text": "Not prompt notice",
+       "x": 100,
+       "y": 44,
+       "size": 4.6,
+       "color": "red",
+       "bold": true,
+       "cue": "prompt"
+      }
+     ],
+     "failAt": [
+      140,
+      50
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Rules after a loss, like prompt notice, live in the conditions.",
+     "say": "Rules after a loss, like prompt notice, live in the conditions."
+    }
+   ]
+  },
+  {
+   "type": "slider",
+   "title": "The adjuster's math: deductible, then limit",
+   "src": "ISO CP 00 10 10 12 (2012 BPP), D, Examples 1-2; IRMI: deductible; ISO HO 00 03 05 11, Sec. I Cond. B; core-bas-27 to 29",
+   "calc": "deductible",
+   "params": {
+    "ded": 250,
+    "limit": 60000
+   },
+   "var": {
+    "key": "loss",
+    "label": "Try a different loss",
+    "min": 55000,
+    "max": 75000,
+    "step": 250,
+    "start": 70000,
+    "money": true
+   },
+   "goal": {
+    "op": "eq",
+    "value": 59750,
+    "text": "Find the loss where the insurer pays exactly $59,750.",
+    "done": "$60,000 loss pays $59,750: deductible off the loss."
+   },
+   "draw": [
+    {
+     "p": "person",
+     "x": 16,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "adjuster",
+      "pose": "hold",
+      "mood": "neutral",
+      "hold": "clipboard"
+     },
+     "id": "adj",
+     "out": 4
+    },
+    {
+     "id": "facts",
+     "p": "note",
+     "text": "Equipment damage: $70,000\nLimit (most it pays): $60,000\nDeductible: $250\nNo coinsurance penalty (next lesson)",
+     "x": 50,
+     "y": 17,
+     "w": 46,
+     "out": 4
+    },
+    {
+     "p": "person",
+     "x": 62,
+     "y": 48,
+     "h": 26,
+     "opt": {
+      "who": "tony",
+      "pose": "stand",
+      "mood": "worried"
+     },
+     "id": "tony",
+     "out": 4
+    },
+    {
+     "id": "cash",
+     "p": "money",
+     "x": 38,
+     "y": 52,
+     "h": 8,
+     "at": 1,
+     "cue": "pays",
+     "label": "Pays $60,000 on the $70,000 loss",
+     "lsize": 3.6,
+     "lw": 30,
+     "out": 4
+    },
+    {
+     "id": "b1",
+     "p": "store",
+     "x": 20,
+     "y": 22,
+     "h": 20,
+     "opt": {
+      "name": "BLDG 1"
+     },
+     "at": 4
+    },
+    {
+     "id": "b2",
+     "p": "store",
+     "x": 60,
+     "y": 22,
+     "h": 20,
+     "opt": {
+      "name": "BLDG 2"
+     },
+     "at": 4
+    },
+    {
+     "p": "fire",
+     "x": 40,
+     "y": 18,
+     "h": 14,
+     "loop": "flicker",
+     "at": 4,
+     "cue": "fire"
+    },
+    {
+     "p": "label",
+     "text": "One fire: one $250 deductible",
+     "x": 40,
+     "y": 38,
+     "size": 4,
+     "bold": true,
+     "w": 70,
+     "at": 4,
+     "cue": "once"
+    },
+    {
+     "id": "hh",
+     "p": "house",
+     "x": 18,
+     "y": 57,
+     "h": 17,
+     "at": 5
+    },
+    {
+     "p": "label",
+     "text": "2011 HO, two deductibles: only the highest applies",
+     "x": 52,
+     "y": 57,
+     "size": 3.8,
+     "w": 44,
+     "color": "purple",
+     "at": 5,
+     "cue": "highest"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Wednesday, the adjuster tallies $70,000 of fire damage to Tony's ovens and kitchen equipment. His 2012 property form insures them: limit $60,000, deductible $250, no coinsurance penalty.",
+     "say": "Wednesday, the adjuster tallies seventy thousand dollars of fire damage to Tony's ovens and kitchen equipment. His twenty twelve property form insures them: limit sixty thousand dollars, deductible two hundred fifty dollars, no coinsurance penalty.",
+     "hl": "facts"
+    },
+    {
+     "text": "The deductible, the first slice Tony pays himself, comes off the loss, not the limit. That leaves $69,750, over the limit, so the insurer pays $60,000.",
+     "say": "The deductible, the first slice Tony pays himself, comes off the loss, not the limit. That leaves sixty-nine thousand seven hundred fifty dollars, over the limit, so the insurer pays sixty thousand dollars.",
+     "hl": "cash"
+    },
+    {
+     "text": "Your turn: which loss pays exactly $59,750?",
+     "say": "Your turn: which loss pays exactly fifty-nine thousand seven hundred fifty dollars?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "A loss of $60,000. The full limit takes $60,250.",
+     "say": "A loss of sixty thousand dollars. The full limit takes sixty thousand two hundred fifty dollars."
+    },
+    {
+     "text": "That form takes the deductible once per occurrence, even when one fire hits two buildings with separate limits.",
+     "say": "That form takes the deductible once per occurrence, even when one fire hits two buildings with separate limits."
+    },
+    {
+     "text": "Under the 2011 homeowners forms, if two or more deductibles apply to the same loss, only the highest applies.",
+     "say": "Under the twenty eleven homeowners forms, if two or more deductibles apply to the same loss, only the highest applies."
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Inside the policy's time and place?",
+   "src": "ISO PP 00 01 09 18 (2018 PAP), Part F; ISO HO 00 03 05 11, Sec. I Cond. Q; ISO CP 00 90 07 88, H; core-bas-23 to 26",
+   "options": [
+    "Inside",
+    "Outside"
+   ],
+   "cards": [
+    {
+     "text": "Rosa, insured under the 2018 personal auto policy, drives from Lansing to Toronto, Canada.",
+     "answer": 0,
+     "why": "The 2018 PAP's territory is the U.S., its territories or possessions, Puerto Rico and Canada. Toronto is inside.",
+     "draw": [
+      {
+       "p": "car",
+       "x": 30,
+       "y": 36,
+       "h": 20,
+       "opt": {
+        "color": "purple"
+       }
+      },
+      {
+       "p": "sign",
+       "x": 74,
+       "y": 27,
+       "h": 36,
+       "opt": {
+        "text": "TORONTO\nCANADA",
+        "tcolor": "red"
+       }
+      }
+     ]
+    },
+    {
+     "text": "Next spring, Rosa drives the same car to Mexico.",
+     "answer": 1,
+     "why": "Mexico is not part of the 2018 PAP's policy territory.",
+     "draw": [
+      {
+       "p": "car",
+       "x": 26,
+       "y": 36,
+       "h": 20,
+       "opt": {
+        "color": "purple"
+       }
+      },
+      {
+       "p": "sign",
+       "x": 64,
+       "y": 27,
+       "h": 36,
+       "opt": {
+        "text": "MEXICO",
+        "tcolor": "red"
+       }
+      },
+      {
+       "p": "icon",
+       "name": "tree-palm",
+       "x": 86,
+       "y": 27,
+       "h": 27,
+       "color": "green"
+      }
+     ]
+    },
+    {
+     "text": "Sam has a 2011 HO-3. A storm hits his house on the policy period's last day. He reports it the next morning.",
+     "answer": 0,
+     "why": "Section I applies only to loss that occurs during the policy period. The storm hit inside it, so the later report date is not the test.",
+     "draw": [
+      {
+       "p": "house",
+       "x": 34,
+       "y": 30,
+       "h": 36
+      },
+      {
+       "p": "storm",
+       "x": 74,
+       "y": 22,
+       "h": 30
+      }
+     ]
+    },
+    {
+     "text": "The bakery next door let its commercial property policy end on March 1. A fire starts there on March 10.",
+     "answer": 1,
+     "why": "Under the 1988 commercial property conditions, the loss must start during the policy period. This fire started after it ended.",
+     "draw": [
+      {
+       "p": "store",
+       "x": 30,
+       "y": 28,
+       "h": 36,
+       "opt": {
+        "name": "BAKERY"
+       }
+      },
+      {
+       "p": "fire",
+       "x": 38,
+       "y": 23,
+       "h": 16,
+       "loop": "flicker",
+       "over": true
+      },
+      {
+       "p": "calendar",
+       "x": 78,
+       "y": 22,
+       "h": 24,
+       "opt": {
+        "n": "10",
+        "label": "MAR"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Policy ended Mar 1",
+       "x": 78,
+       "y": 47,
+       "size": 6,
+       "color": "red",
+       "w": 40
+      }
+     ]
+    },
+    {
+     "text": "Rosa's covered car rides a cargo boat between ports in the U.S. and Puerto Rico.",
+     "answer": 0,
+     "why": "The 2018 PAP also covers a covered auto while it is being transported between ports of those places.",
+     "draw": [
+      {
+       "p": "box",
+       "x": 46,
+       "y": 40,
+       "w": 66,
+       "hh": 10,
+       "color": "gray",
+       "fill": "gray"
+      },
+      {
+       "p": "water",
+       "x": 24,
+       "y": 48,
+       "h": 6,
+       "over": true
+      },
+      {
+       "p": "water",
+       "x": 47,
+       "y": 48,
+       "h": 6,
+       "over": true
+      },
+      {
+       "p": "water",
+       "x": 70,
+       "y": 48,
+       "h": 6,
+       "over": true
+      },
+      {
+       "p": "icon",
+       "name": "container",
+       "x": 26,
+       "y": 28,
+       "h": 12,
+       "color": "orange",
+       "over": true
+      },
+      {
+       "p": "icon",
+       "name": "container",
+       "x": 66,
+       "y": 28,
+       "h": 12,
+       "color": "teal",
+       "over": true
+      },
+      {
+       "p": "car",
+       "x": 46,
+       "y": 29,
+       "h": 11,
+       "opt": {
+        "color": "purple"
+       },
+       "over": true
+      },
+      {
+       "p": "icon",
+       "name": "anchor",
+       "x": 88,
+       "y": 30,
+       "h": 18,
+       "color": "blue"
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Meanwhile, Dana's other clients ask: when, and where?",
+     "say": "Meanwhile, Dana's other clients ask: when, and where?"
+    },
+    {
+     "text": "Can I drive to Toronto? Or Mexico?",
+     "say": "Can I drive to Toronto? Or Mexico?",
+     "voice": "rosa"
+    },
+    {
+     "text": "When: under these auto, homeowners and commercial property forms, the loss must happen, or start, in the policy period, not just get reported then.",
+     "say": "When: under these auto, homeowners and commercial property forms, the loss must happen, or start, in the policy period, not just get reported then."
+    },
+    {
+     "text": "Where: Rosa's 2018 personal auto policy covers the United States, its territories or possessions, Puerto Rico and Canada, plus shipping between their ports. Not Mexico.",
+     "say": "Where: Rosa's twenty eighteen personal auto policy covers the United States, its territories or possessions, Puerto Rico and Canada, plus shipping between their ports. Not Mexico."
+    },
+    {
+     "text": "Your turn: inside or outside?",
+     "say": "Your turn: inside or outside?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Two tests, then: the dates, and for auto and commercial property, the map.",
+     "say": "Two tests, then: the dates, and for auto and commercial property, the map."
+    },
+    {
+     "text": "The 1988 commercial property conditions list the same places.",
+     "say": "The nineteen eighty-eight commercial property conditions list the same places."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Two policies, one loss: splitting the check",
+   "src": "Adapted from hook mn_core-18; IRMI glossary; ISO CP 00 90 07 88, G.1; ISO CG 00 01 04 13, Sec. IV Cond. 4.c; core-bas-30",
+   "draw": [
+    {
+     "id": "diner",
+     "p": "restaurant",
+     "x": 46,
+     "y": 32,
+     "h": 40,
+     "opt": {
+      "name": "CONEY ISLAND"
+     },
+     "out": 1
+    },
+    {
+     "p": "person",
+     "x": 98,
+     "y": 42,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "point",
+      "mood": "happy"
+     },
+     "id": "tony",
+     "out": 1
+    },
+    {
+     "p": "person",
+     "x": 122,
+     "y": 42,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "paper"
+     },
+     "id": "dana",
+     "out": 1
+    },
+    {
+     "p": "bubble",
+     "text": "One check, two friends...",
+     "x": 132,
+     "y": 12,
+     "w": 32,
+     "to": "dana",
+     "out": 1
+    },
+    {
+     "p": "divider",
+     "x": 54,
+     "y": 36,
+     "y0": 4,
+     "y1": 62,
+     "at": 2,
+     "out": 4
+    },
+    {
+     "p": "divider",
+     "x": 107,
+     "y": 36,
+     "y0": 4,
+     "y1": 62,
+     "at": 3,
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "Primary and excess",
+     "x": 27,
+     "y": 7,
+     "size": 4.4,
+     "bold": true,
+     "at": 1,
+     "out": 4
+    },
+    {
+     "id": "excess",
+     "p": "box",
+     "x": 27,
+     "y": 23,
+     "w": 38,
+     "hh": 15,
+     "title": "Excess",
+     "color": "blue",
+     "at": 1,
+     "cue": "other",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "only the part above",
+     "x": 27,
+     "y": 26,
+     "size": 3.6,
+     "at": 1,
+     "cue": "other",
+     "out": 4
+    },
+    {
+     "id": "primary",
+     "p": "box",
+     "x": 27,
+     "y": 43,
+     "w": 38,
+     "hh": 20,
+     "title": "Primary",
+     "color": "green",
+     "at": 1,
+     "cue": "one",
+     "out": 4
+    },
+    {
+     "p": "money",
+     "x": 27,
+     "y": 43,
+     "h": 6,
+     "at": 1,
+     "cue": "first",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "pays first",
+     "x": 27,
+     "y": 50,
+     "size": 3.6,
+     "at": 1,
+     "cue": "first",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "Pro rata (by limits)",
+     "x": 81,
+     "y": 7,
+     "size": 4.4,
+     "bold": true,
+     "at": 2,
+     "out": 4
+    },
+    {
+     "id": "pie",
+     "p": "piechart",
+     "x": 81,
+     "y": 27,
+     "h": 20,
+     "opt": {
+      "slices": [
+       60,
+       40
+      ],
+      "colors": [
+       "blue",
+       "orange"
+      ]
+     },
+     "at": 2,
+     "cue": "appetite",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "$100,000 loss:",
+     "x": 81,
+     "y": 43,
+     "size": 3.8,
+     "at": 2,
+     "cue": "limits",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "$300,000 limit pays $60,000",
+     "x": 81,
+     "y": 50,
+     "size": 3.6,
+     "color": "blue",
+     "at": 2,
+     "cue": "three",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "$200,000 limit pays $40,000",
+     "x": 81,
+     "y": 56,
+     "size": 3.6,
+     "color": "orange",
+     "at": 2,
+     "cue": "two",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "Equal shares (CGL)",
+     "x": 134,
+     "y": 7,
+     "size": 4.4,
+     "bold": true,
+     "at": 3,
+     "out": 4
+    },
+    {
+     "id": "w1",
+     "p": "wallet",
+     "x": 122,
+     "y": 24,
+     "h": 11,
+     "opt": {
+      "empty": true
+     },
+     "at": 3,
+     "cue": "same",
+     "out": 4
+    },
+    {
+     "id": "w2",
+     "p": "wallet",
+     "x": 146,
+     "y": 24,
+     "h": 11,
+     "at": 3,
+     "cue": "same",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "runs dry",
+     "x": 122,
+     "y": 33,
+     "size": 3.4,
+     "color": "gray",
+     "at": 3,
+     "cue": "dry",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "Same amounts until a limit runs out or the loss is paid",
+     "x": 134,
+     "y": 41,
+     "size": 3.8,
+     "w": 46,
+     "at": 3,
+     "cue": "dry",
+     "out": 4
+    },
+    {
+     "p": "label",
+     "text": "Not allowed by one? Split by limits",
+     "x": 134,
+     "y": 53,
+     "size": 3.6,
+     "w": 46,
+     "color": "gray",
+     "at": 3,
+     "cue": "permit",
+     "out": 4
+    },
+    {
+     "p": "store",
+     "x": 22,
+     "y": 40,
+     "h": 22,
+     "opt": {
+      "name": "SAME BUILDING"
+     },
+     "at": 4
+    },
+    {
+     "id": "pa",
+     "p": "box",
+     "x": 72,
+     "y": 28,
+     "w": 56,
+     "hh": 9,
+     "title": "Policy A: Jan 1 to Jan 1",
+     "color": "blue",
+     "at": 4
+    },
+    {
+     "id": "pb",
+     "p": "box",
+     "x": 86,
+     "y": 42,
+     "w": 56,
+     "hh": 9,
+     "title": "Policy B: Apr 1 to Apr 1",
+     "color": "orange",
+     "at": 4
+    },
+    {
+     "p": "label",
+     "text": "Nonconcurrency: same exposure, policies that don't match",
+     "x": 136,
+     "y": 24,
+     "size": 4.2,
+     "w": 40,
+     "bold": true,
+     "at": 4,
+     "cue": "nonconcurrency"
+    },
+    {
+     "p": "label",
+     "text": "Not a way to share a loss",
+     "x": 136,
+     "y": 46,
+     "size": 4.2,
+     "color": "red",
+     "bold": true,
+     "at": 4,
+     "cue": "confuse",
+     "w": 40
+    }
+   ],
+   "beats": [
+    {
+     "text": "Thursday lunch at a Coney Island: one check, two friends, like two insurers sharing one loss.",
+     "say": "Thursday lunch at a Coney Island: one check, two friends, like two insurers sharing one loss."
+    },
+    {
+     "text": "Primary and excess: one friend pays first; the other covers only what's left above a stated amount or the primary.",
+     "say": "Primary and excess: one friend pays first; the other covers only what's left above a stated amount or the primary.",
+     "hl": "primary"
+    },
+    {
+     "text": "Pro rata, or contribution by limits: pay by your appetite, your limit. Limits of $300,000 and $200,000 pay three-fifths and two-fifths.",
+     "say": "Pro rata, or contribution by limits: pay by your appetite, your limit. Limits of three hundred thousand dollars and two hundred thousand dollars pay three-fifths and two-fifths.",
+     "hl": "pie"
+    },
+    {
+     "text": "Equal shares, the method in the CGL, a business liability policy: everyone chips in the same until a wallet runs dry. If any policy doesn't permit it, they split by limits.",
+     "say": "Equal shares, the method in the C G L, a business liability policy: everyone chips in the same until a wallet runs dry. If any policy doesn't permit it, they split by limits.",
+     "hl": [
+      "w1",
+      "w2"
+     ]
+    },
+    {
+     "text": "And don't confuse these with nonconcurrency: policies on the same exposure that don't match, like different inception and expiration dates.",
+     "say": "And don't confuse these with nonconcurrency: policies on the same exposure that don't match, like different inception and expiration dates.",
+     "hl": [
+      "pa",
+      "pb"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "The adjuster's puzzle: one claim, two CGLs",
+   "src": "ISO CG 00 01 04 13, Sec. IV Cond. 4.c (Method of sharing); IRMI glossary: contribution by equal shares; question core-038",
+   "ask": "What does the $300,000 policy pay?",
+   "draw": [
+    {
+     "id": "insA",
+     "p": "insurer",
+     "x": 24,
+     "y": 23,
+     "h": 28
+    },
+    {
+     "p": "label",
+     "text": "$100,000 limit",
+     "x": 24,
+     "y": 43,
+     "size": 4.4,
+     "bold": true
+    },
+    {
+     "p": "person",
+     "x": 80,
+     "y": 33,
+     "h": 32,
+     "opt": {
+      "who": "adjuster",
+      "pose": "think",
+      "mood": "neutral"
+     },
+     "id": "adj"
+    },
+    {
+     "p": "bubble",
+     "text": "$250,000 claim. Both permit equal shares. Who pays what?",
+     "x": 80,
+     "y": 7,
+     "w": 44,
+     "to": "adj",
+     "at": 1
+    },
+    {
+     "id": "insB",
+     "p": "insurer",
+     "x": 136,
+     "y": 23,
+     "h": 28
+    },
+    {
+     "p": "label",
+     "text": "$300,000 limit",
+     "x": 136,
+     "y": 43,
+     "size": 4.4,
+     "bold": true
+    }
+   ],
+   "beats": [
+    {
+     "text": "Friday, an adjuster has two CGL policies on one claim. Limits: $100,000 and $300,000.",
+     "say": "Friday, an adjuster has two C G L policies on one claim. Limits: one hundred thousand dollars and three hundred thousand dollars."
+    },
+    {
+     "text": "The claim's $250,000, and both permit equal shares. Who pays what?",
+     "say": "The claim's two hundred fifty thousand dollars, and both permit equal shares. Who pays what?",
+     "voice": "adjuster"
+    }
+   ],
+   "options": [
+    {
+     "label": "Each insurer pays $125,000",
+     "ok": false,
+     "fail": "Equal shares means equal amounts only until a policy has paid its limit. A $100,000 policy can never pay $125,000.",
+     "beats": [
+      {
+       "text": "Impossible: the small policy's whole limit is $100,000.",
+       "say": "Impossible: the small policy's whole limit is one hundred thousand dollars."
+      }
+     ],
+     "draw": [
+      {
+       "id": "insA",
+       "p": "insurer",
+       "x": 26,
+       "y": 22,
+       "h": 28
+      },
+      {
+       "p": "stamp",
+       "text": "Over its limit",
+       "x": 26,
+       "y": 24,
+       "color": "red",
+       "size": 5.5,
+       "rot": -12,
+       "over": true
+      },
+      {
+       "p": "person",
+       "x": 80,
+       "y": 29,
+       "h": 28,
+       "opt": {
+        "who": "adjuster",
+        "pose": "shrug",
+        "mood": "shocked"
+       },
+       "id": "adj"
+      },
+      {
+       "id": "insB",
+       "p": "insurer",
+       "x": 134,
+       "y": 22,
+       "h": 28
+      },
+      {
+       "p": "label",
+       "text": "$125,000 each?",
+       "x": 80,
+       "y": 8,
+       "size": 4.6,
+       "color": "red",
+       "bold": true
+      },
+      {
+       "p": "label",
+       "text": "$125,000",
+       "x": 26,
+       "y": 44,
+       "size": 4.4,
+       "bold": true,
+       "color": "red"
+      },
+      {
+       "p": "label",
+       "text": "$125,000",
+       "x": 134,
+       "y": 44,
+       "size": 4.4,
+       "bold": true,
+       "color": "ink"
+      }
+     ],
+     "failAt": [
+      80,
+      53
+     ]
+    },
+    {
+     "label": "The big one pays $150,000",
+     "ok": true,
+     "win": "Equal shares: each pays the same until a limit is used up. Totals: $100,000 and $150,000.",
+     "beats": [
+      {
+       "text": "Each pays $100,000, using up the small limit. The big one adds the last $50,000, for $150,000 in all.",
+       "say": "Each pays one hundred thousand dollars, using up the small limit. The big one adds the last fifty thousand dollars, for one hundred fifty thousand dollars in all."
+      }
+     ],
+     "draw": [
+      {
+       "p": "person",
+       "x": 80,
+       "y": 28,
+       "h": 30,
+       "opt": {
+        "who": "adjuster",
+        "pose": "cheer",
+        "mood": "happy"
+       },
+       "id": "adj"
+      },
+      {
+       "id": "insA",
+       "p": "insurer",
+       "x": 22,
+       "y": 21,
+       "h": 26
+      },
+      {
+       "p": "label",
+       "text": "$100,000: limit used up",
+       "x": 22,
+       "y": 41,
+       "size": 4,
+       "w": 36,
+       "bold": true,
+       "color": "orange"
+      },
+      {
+       "id": "insB",
+       "p": "insurer",
+       "x": 138,
+       "y": 21,
+       "h": 26
+      },
+      {
+       "p": "label",
+       "text": "$100,000 plus $50,000: $150,000",
+       "x": 138,
+       "y": 41,
+       "size": 4,
+       "w": 36,
+       "bold": true,
+       "color": "blue"
+      },
+      {
+       "id": "m1",
+       "p": "money",
+       "x": 34,
+       "y": 26,
+       "h": 8,
+       "move": {
+        "to": [
+         64,
+         24
+        ],
+        "cue": "each",
+        "sfx": "cash"
+       }
+      },
+      {
+       "id": "m2",
+       "p": "money",
+       "x": 126,
+       "y": 26,
+       "h": 8,
+       "move": {
+        "to": [
+         96,
+         24
+        ],
+        "cue": "each"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Paid",
+       "x": 80,
+       "y": 52,
+       "color": "green",
+       "cue": "all"
+      },
+      {
+       "id": "m3",
+       "p": "money",
+       "x": 126,
+       "y": 34,
+       "h": 6,
+       "move": {
+        "to": [
+         96,
+         36
+        ],
+        "cue": "last"
+       }
+      }
+     ]
+    },
+    {
+     "label": "The big one pays $187,500",
+     "ok": false,
+     "fail": "Contribution by limits applies only if some other policy doesn't permit equal shares. Here, both do.",
+     "beats": [
+      {
+       "text": "That's pro rata, the backup method. Both policies permit equal shares, so it's out.",
+       "say": "That's pro rata, the backup method. Both policies permit equal shares, so it's out."
+      }
+     ],
+     "draw": [
+      {
+       "id": "pie",
+       "p": "piechart",
+       "x": 34,
+       "y": 26,
+       "h": 30,
+       "opt": {
+        "slices": [
+         25,
+         75
+        ],
+        "colors": [
+         "orange",
+         "blue"
+        ]
+       }
+      },
+      {
+       "p": "label",
+       "text": "$100,000 policy: $62,500",
+       "x": 62,
+       "y": 12,
+       "size": 3.8,
+       "color": "orange",
+       "bold": true,
+       "w": 30
+      },
+      {
+       "p": "label",
+       "text": "$300,000 policy: $187,500",
+       "x": 34,
+       "y": 49,
+       "size": 3.8,
+       "color": "blue",
+       "bold": true,
+       "w": 40
+      },
+      {
+       "p": "person",
+       "x": 96,
+       "y": 31,
+       "h": 32,
+       "opt": {
+        "who": "adjuster",
+        "pose": "shrug",
+        "mood": "worried"
+       },
+       "id": "adj"
+      },
+      {
+       "p": "label",
+       "text": "That's pro rata!",
+       "x": 132,
+       "y": 30,
+       "size": 5,
+       "color": "red",
+       "bold": true
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Equal shares: alike until a limit is used up. The trap: $187,500, the big policy's share by limits.",
+     "say": "Equal shares: alike until a limit is used up. The trap: one hundred eighty-seven thousand five hundred dollars, the big policy's share by limits."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Tony's CGL: per occurrence, and per year",
+   "src": "ISO CG 00 01 04 13, Sec. III and Sec. V def. 16.a; IRMI glossary: per occurrence limit, general aggregate limit",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 19,
+     "y": 33,
+     "h": 30,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "p": "person",
+     "x": 53,
+     "y": 42,
+     "h": 20,
+     "opt": {
+      "who": "neighbor",
+      "mood": "worried"
+     },
+     "id": "c1",
+     "cue": "people"
+    },
+    {
+     "p": "person",
+     "x": 63,
+     "y": 43,
+     "h": 18,
+     "opt": {
+      "who": "kid",
+      "mood": "worried"
+     },
+     "id": "c2",
+     "cue": "people"
+    },
+    {
+     "p": "person",
+     "x": 73,
+     "y": 42,
+     "h": 20,
+     "opt": {
+      "who": "person",
+      "mood": "worried",
+      "shirt": "orange"
+     },
+     "id": "c3",
+     "cue": "people"
+    },
+    {
+     "id": "occ",
+     "p": "box",
+     "x": 63,
+     "y": 40,
+     "w": 34,
+     "hh": 30,
+     "title": "One occurrence",
+     "color": "red",
+     "cue": "occurrence",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Each occurrence limit: one cap for all of them",
+     "x": 40,
+     "y": 62,
+     "size": 3.8,
+     "w": 70,
+     "cue": "however"
+    },
+    {
+     "p": "divider",
+     "x": 88,
+     "y": 36,
+     "y0": 4,
+     "y1": 62,
+     "at": 1
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 104,
+     "y": 14,
+     "h": 14,
+     "opt": {
+      "n": "1 yr"
+     },
+     "at": 1,
+     "cue": "year"
+    },
+    {
+     "p": "label",
+     "text": "Annual aggregates",
+     "x": 136,
+     "y": 12,
+     "size": 4.6,
+     "bold": true,
+     "at": 1,
+     "cue": "aggregates"
+    },
+    {
+     "id": "gen",
+     "p": "box",
+     "x": 107,
+     "y": 43,
+     "w": 30,
+     "hh": 26,
+     "title": "General",
+     "color": "blue",
+     "at": 1,
+     "cue": "general"
+    },
+    {
+     "p": "label",
+     "text": "A slip inside the shop",
+     "x": 107,
+     "y": 47,
+     "size": 3.6,
+     "w": 26,
+     "at": 1,
+     "cue": "general"
+    },
+    {
+     "id": "prod",
+     "p": "box",
+     "x": 141,
+     "y": 43,
+     "w": 34,
+     "hh": 28,
+     "title": "Products",
+     "color": "orange",
+     "at": 1,
+     "cue": "products"
+    },
+    {
+     "id": "pz",
+     "p": "pizza",
+     "x": 133,
+     "y": 44,
+     "h": 8,
+     "at": 2,
+     "cue": "takeout"
+    },
+    {
+     "id": "home",
+     "p": "house",
+     "x": 150,
+     "y": 44,
+     "h": 10,
+     "at": 2,
+     "cue": "home"
+    },
+    {
+     "p": "label",
+     "text": "Takeout eaten at home",
+     "x": 141,
+     "y": 52,
+     "size": 3.4,
+     "w": 32,
+     "at": 2,
+     "cue": "home"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Back at Tony's: his CGL has an each occurrence limit, the most paid for one occurrence, however many people claim.",
+     "say": "Back at Tony's: his C G L has an each occurrence limit, the most paid for one occurrence, however many people claim.",
+     "hl": "occ"
+    },
+    {
+     "text": "Each policy year also has aggregates, caps on the year's total: a general one, and one for products-completed operations.",
+     "say": "Each policy year also has aggregates, caps on the year's total: a general one, and one for products-completed operations.",
+     "hl": [
+      "gen",
+      "prod"
+     ]
+    },
+    {
+     "text": "For Tony, that's injury away from his premises from his product, like takeout pizza that makes someone sick at home.",
+     "say": "For Tony, that's injury away from his premises from his product, like takeout pizza that makes someone sick at home.",
+     "hl": "prod"
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Split limits: Person, People, Property",
+   "src": "Memory hook mn_core-20; IRMI glossary: split limits, combined single limits; ISO PP 00 01 09 18, Part A; core-bas-36",
+   "kind": "Term",
+   "term": "Split limits",
+   "plain": "Three separate caps per accident: one person's injuries, all injuries, and all property damage.",
+   "example": "A driver with 50/100/25 limits is liable for a crash: two people hurt ($70,000 and $40,000) and $30,000 of property damage. Paid: $50,000, $40,000 and $25,000.",
+   "exam": "Cap each person first, then the accident. A combined single limit is one limit for injury and damage together.",
+   "draw": [
+    {
+     "id": "b1",
+     "p": "box",
+     "x": 13,
+     "y": 30,
+     "w": 22,
+     "hh": 30,
+     "title": "Person",
+     "color": "blue",
+     "at": 0,
+     "cue": "person"
+    },
+    {
+     "id": "b2",
+     "p": "box",
+     "x": 40,
+     "y": 30,
+     "w": 24,
+     "hh": 30,
+     "title": "People",
+     "color": "purple",
+     "at": 0,
+     "cue": "people"
+    },
+    {
+     "id": "b3",
+     "p": "box",
+     "x": 67,
+     "y": 30,
+     "w": 22,
+     "hh": 30,
+     "title": "Property",
+     "color": "orange",
+     "at": 0,
+     "cue": "property"
+    },
+    {
+     "p": "label",
+     "text": "$50,000",
+     "x": 13,
+     "y": 27,
+     "size": 4.2,
+     "bold": true,
+     "at": 1,
+     "cue": "person"
+    },
+    {
+     "p": "label",
+     "text": "$100,000",
+     "x": 40,
+     "y": 27,
+     "size": 4.2,
+     "bold": true,
+     "at": 1,
+     "cue": "all"
+    },
+    {
+     "p": "label",
+     "text": "$25,000",
+     "x": 67,
+     "y": 27,
+     "size": 4.2,
+     "bold": true,
+     "at": 1,
+     "cue": "property"
+    },
+    {
+     "p": "label",
+     "text": "1 person",
+     "x": 13,
+     "y": 37,
+     "size": 3.6,
+     "color": "gray",
+     "at": 1,
+     "cue": "person"
+    },
+    {
+     "p": "label",
+     "text": "all injured",
+     "x": 40,
+     "y": 37,
+     "size": 3.6,
+     "color": "gray",
+     "at": 1,
+     "cue": "all"
+    },
+    {
+     "p": "label",
+     "text": "all damage",
+     "x": 67,
+     "y": 37,
+     "size": 3.6,
+     "color": "gray",
+     "at": 1,
+     "cue": "property"
+    },
+    {
+     "p": "label",
+     "text": "Hurt $70,000: pays $50,000",
+     "x": 13,
+     "y": 52,
+     "size": 3.4,
+     "color": "red",
+     "at": 2,
+     "cue": "caps",
+     "w": 24
+    },
+    {
+     "p": "label",
+     "text": "$50,000 plus $40,000: $90,000",
+     "x": 40,
+     "y": 52,
+     "size": 3.4,
+     "color": "green",
+     "at": 2,
+     "cue": "injuries",
+     "w": 24
+    },
+    {
+     "p": "label",
+     "text": "Damage $30,000: pays $25,000",
+     "x": 67,
+     "y": 52,
+     "size": 3.4,
+     "color": "red",
+     "at": 3,
+     "cue": "Property",
+     "w": 24
+    },
+    {
+     "id": "car",
+     "p": "car",
+     "x": 40,
+     "y": 8,
+     "h": 9,
+     "opt": {
+      "dent": true
+     }
+    },
+    {
+     "p": "label",
+     "text": "Textbook example: 2018 personal auto policy",
+     "x": 66,
+     "y": 8,
+     "size": 3.4,
+     "w": 26,
+     "color": "gray"
+    },
+    {
+     "p": "label",
+     "text": "Total paid: $115,000",
+     "x": 40,
+     "y": 60,
+     "size": 4,
+     "bold": true,
+     "color": "green",
+     "at": 3,
+     "cue": "Total"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Now a textbook auto liability example, set outside Michigan, where the rules differ. Read split limits as Person, People, Property.",
+     "say": "Now a textbook auto liability example, set outside Michigan, where the rules differ. Read split limits as Person, People, Property.",
+     "show": 1
+    },
+    {
+     "text": "50, 100, 25: $50,000 per person, $100,000 for all injuries, $25,000 for property damage, per accident.",
+     "say": "Fifty, one hundred, twenty-five: fifty thousand dollars per person, one hundred thousand dollars for all injuries, twenty-five thousand dollars for property damage, per accident.",
      "show": 2
     },
     {
-     "text": "Split limits list three amounts: bodily injury per person, bodily injury per accident, and property damage. A combined single limit is one limit for all of it.",
-     "say": "Split limits list three amounts: bodily injury per person, bodily injury per accident, and property damage. A combined single limit is one limit for all of it.",
-     "show": 4
-    },
-    {
-     "text": "The CGL adds annual aggregates: a general aggregate, and a separate one for products-completed operations.",
-     "say": "The C G L adds annual aggregates: a general aggregate, and a separate one for products-completed operations.",
-     "show": 5
-    }
-   ]
-  },
-  {
-   "type": "formula",
-   "title": "Worked example: split limits 50, 100, 25",
-   "src": "IRMI 'split limits', 'per person limit'; ISO PP 00 01 09 18 (2018 PAP), Part A, Limit of Liability A",
-   "given": [
-    "Limits: $50,000, $100,000, $25,000",
-    "Two people hurt: $70,000 and $40,000",
-    "Property damage: $30,000"
-   ],
-   "items": [
-    {
-     "label": "Person 1, capped per person",
-     "expr": "$70,000, capped at $50,000",
-     "value": "$50,000"
-    },
-    {
-     "label": "Person 2, under the cap",
-     "expr": "$40,000",
-     "value": "$40,000"
-    },
-    {
-     "label": "All bodily injury vs. $100,000",
-     "expr": "$50,000 + $40,000",
-     "value": "$90,000 (within)"
-    },
-    {
-     "label": "Property damage, capped",
-     "expr": "$30,000, capped at $25,000",
-     "value": "$25,000"
-    },
-    {
-     "label": "Total paid",
-     "expr": "$90,000 + $25,000",
-     "value": "$115,000"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Split limits of 50, 100, 25. One accident injures two people, with damages of $70,000 and $40,000, plus $30,000 of property damage.",
-     "say": "Split limits of fifty, one hundred, twenty-five. One accident injures two people, with damages of seventy thousand dollars and forty thousand dollars, plus thirty thousand dollars of property damage.",
-     "show": 0
-    },
-    {
-     "text": "Per-person cap first: the first person gets $50,000, the second the full $40,000. $90,000 is within the $100,000 per-accident limit.",
-     "say": "Per-person cap first: the first person gets fifty thousand dollars, the second the full forty thousand dollars. Ninety thousand dollars is within the one hundred thousand dollars per-accident limit.",
+     "text": "The driver is legally liable for two injuries: $70,000 and $40,000. Person one caps at $50,000, so injuries pay $90,000.",
+     "say": "The driver is legally liable for two injuries: seventy thousand dollars and forty thousand dollars. Person one caps at fifty thousand dollars, so injuries pay ninety thousand dollars.",
      "show": 3
     },
     {
-     "text": "Property damage is capped at $25,000. Total: $115,000.",
-     "say": "Property damage is capped at twenty-five thousand dollars. Total: one hundred fifteen thousand dollars.",
-     "show": 5
+     "text": "Property damage of $30,000 pays $25,000. Total: $115,000.",
+     "say": "Property damage of thirty thousand dollars pays twenty-five thousand dollars. Total: one hundred fifteen thousand dollars.",
+     "show": 3
+    },
+    {
+     "text": "Cap each person first, then the accident. A combined single limit is one big bucket for all of it.",
+     "say": "Cap each person first, then the accident. A combined single limit is one big bucket for all of it.",
+     "show": 4
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "An auto policy has a $300,000 combined single limit. One accident causes $200,000 of injury to one person and $50,000 of property damage. How much does the insurer pay?",
+   "q": "An auto policy has a $300,000 combined single limit. The insured is liable for $200,000 of injury to one person and $50,000 of property damage. It pays:",
    "choices": [
     "$50,000",
     "$200,000",
@@ -395,17 +2487,63 @@
     "$300,000"
    ],
    "answer": 2,
-   "why": "A combined single limit is one limit for bodily injury and property damage together, with no separate per-person or property damage cap. $250,000 fits within $300,000.",
+   "why": "One limit for injury and property damage together, with no per-person cap. $250,000 fits inside $300,000.",
+   "draw": [
+    {
+     "id": "bucket",
+     "p": "box",
+     "x": 40,
+     "y": 38,
+     "w": 60,
+     "hh": 40,
+     "title": "One bucket: $300,000",
+     "color": "teal"
+    },
+    {
+     "p": "label",
+     "text": "Injury: $200,000",
+     "x": 40,
+     "y": 30,
+     "size": 4.2,
+     "color": "blue",
+     "bold": true
+    },
+    {
+     "p": "label",
+     "text": "Property: $50,000",
+     "x": 40,
+     "y": 39,
+     "size": 4.2,
+     "color": "orange",
+     "bold": true
+    },
+    {
+     "p": "crash",
+     "x": 40,
+     "y": 9,
+     "h": 10
+    },
+    {
+     "p": "label",
+     "text": "Pays $250,000: it all fits",
+     "x": 40,
+     "y": 50,
+     "size": 4.2,
+     "color": "green",
+     "bold": true,
+     "at": 1
+    }
+   ],
    "beats": [
     {
-     "text": "A combined single limit of $300,000. One accident: $200,000 of injury to one person, plus $50,000 of property damage. What does the insurer pay? Pick an answer.",
-     "say": "A combined single limit of three hundred thousand dollars. One accident: two hundred thousand dollars of injury to one person, plus fifty thousand dollars of property damage. What does the insurer pay? Pick an answer."
+     "text": "Quick check: one big bucket. What does the insurer pay?",
+     "say": "Quick check: one big bucket. What does the insurer pay?"
     }
    ],
    "reveal": [
     {
-     "text": "$250,000. A combined single limit is one bucket for bodily injury and property damage, with no per-person cap, and $250,000 fits inside it.",
-     "say": "Two hundred fifty thousand dollars. A combined single limit is one bucket for bodily injury and property damage, with no per-person cap, and two hundred fifty thousand dollars fits inside it."
+     "text": "$250,000: no per-person cap, and it all fits.",
+     "say": "Two hundred fifty thousand dollars: no per-person cap, and it all fits."
     }
    ]
   },
@@ -413,20 +2551,80 @@
    "type": "recap",
    "items": [
     "DICE: declarations, insuring agreement, conditions, exclusions",
-    "First named insured pays premium and gets notices and refunds",
-    "Deductible comes off the loss; the limit still caps the payment",
-    "Pro rata shares by limits; equal shares pay alike till a limit is used",
+    "First named insured: pays the premium, gets notices and refunds",
+    "The deductible comes off the loss; the limit still caps the payment",
+    "Equal shares: alike till a limit runs out. Pro rata: by limits",
     "Split limits: cap each person first, then the accident"
+   ],
+   "draw": [
+    {
+     "p": "person",
+     "x": 15,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh"
+     },
+     "id": "tony"
+    },
+    {
+     "p": "person",
+     "x": 35,
+     "y": 47,
+     "h": 26,
+     "opt": {
+      "who": "grandma",
+      "pose": "cheer",
+      "mood": "happy"
+     },
+     "id": "grandma"
+    },
+    {
+     "p": "person",
+     "x": 60,
+     "y": 46,
+     "h": 28,
+     "opt": {
+      "who": "dana",
+      "pose": "wave",
+      "mood": "happy"
+     },
+     "id": "dana"
+    },
+    {
+     "p": "pizza",
+     "x": 62,
+     "y": 12,
+     "h": 13,
+     "loop": "spin"
+    },
+    {
+     "p": "bubble",
+     "text": "Next time, I read the conditions before the fire!",
+     "x": 26,
+     "y": 11,
+     "w": 40,
+     "to": "tony",
+     "at": 2
+    }
    ],
    "beats": [
     {
-     "text": "Recap: roll the DICE. The first named insured handles premium and notices. The deductible comes off the loss, and the limit caps the payment.",
-     "say": "Recap: roll the DICE. The first named insured handles premium and notices. The deductible comes off the loss, and the limit caps the payment.",
+     "text": "What a week! Roll the DICE. The first named insured pays the premium and gets notices. Deductibles come off the loss; limits cap the payment.",
+     "say": "What a week! Roll the DICE. The first named insured pays the premium and gets notices. Deductibles come off the loss; limits cap the payment.",
      "show": 3
     },
     {
-     "text": "Pro rata shares by limits, equal shares pay alike until a limit is used up, and split limits cap each person first.",
-     "say": "Pro rata shares by limits, equal shares pay alike until a limit is used up, and split limits cap each person first.",
+     "text": "Equal shares pay alike until a limit runs out; split limits cap each person first.",
+     "say": "Equal shares pay alike until a limit runs out; split limits cap each person first.",
+     "show": 5
+    },
+    {
+     "text": "And next time, I read the conditions before the fire!",
+     "say": "And next time, I read the conditions before the fire!",
+     "voice": "tony",
      "show": 5
     }
    ]
@@ -440,17 +2638,20 @@
   "core-bas-36"
  ],
  "hooks": [
-  "mn-mn_core-15"
+  "mn-mn_core-15",
+  "mn-mn_core-18",
+  "mn-mn_core-20"
  ],
  "sources": [
   "IRMI glossary: declarations, insuring agreement, exclusion, endorsement, named insured, first named insured, additional insured",
-  "IRMI glossary: excess insurance, nonconcurrency, contribution by equal shares, per person limit, split limits, combined single limits",
-  "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012), preamble, C, D",
+  "IRMI glossary: excess insurance, contribution by limits, contribution by equal shares, nonconcurrency, deductible, per occurrence limit, split limits, combined single limits",
+  "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012), preamble, D, E.3",
   "ISO CP 00 90 07 88 (Commercial Property Conditions, 1988), G, H",
-  "ISO IL 00 17 11 98 (Common Policy Conditions, 1998)",
-  "ISO HO 00 03 05 11 (Homeowners 3, 2011), Sec. I Exclusions, Cond. B and Q",
+  "ISO IL 00 17 11 98 (Common Policy Conditions, 1998), B",
+  "ISO HO 00 03 05 11 (Homeowners 3, 2011), Sec. I Exclusions, Cond. B, C and Q",
   "ISO PP 00 01 09 18 (Personal Auto Policy, 2018), Part A Limit of Liability, Part F",
-  "ISO CG 00 01 04 13 (Commercial General Liability, 2013), Sec. III; Sec. IV Cond. 4.c",
+  "ISO CG 00 01 04 13 (Commercial General Liability, 2013), Sec. II, III, IV Cond. 4.c, V def. 16",
+  "Memory hooks mn_core-15, mn_core-18, mn_core-20",
   "PSI Series 16-81 content outline"
  ]
 }

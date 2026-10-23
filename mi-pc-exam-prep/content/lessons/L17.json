@@ -2,473 +2,2635 @@
  "id": "L17",
  "sec": "auto",
  "guide": "auto",
- "title": "Commercial auto",
- "summary": "Commercial auto forms, Business Auto covered auto symbols, key liability and physical damage rules, garagekeepers, endorsements and federal truck minimums.",
+ "title": "Tony's Pizza hits the road: commercial auto",
+ "summary": "Ride along with Tony's Pizza vans in Detroit: Business Auto symbols, physical damage, garagekeepers, endorsements and federal truck limits.",
  "objectives": [
-  "Match each commercial auto form to the business it fits",
-  "Read the Business Auto covered auto symbols",
-  "Tell the three garagekeepers bases apart",
-  "Know the key endorsements, including Michigan PIP and PPI"
+  "Read the Business Auto symbols, including hired vs non-owned and symbol 7's 30-day rule",
+  "Tell Specified Causes of Loss, Comprehensive and Collision apart",
+  "Spot the liability extras and exclusions, and tell an auto from mobile equipment",
+  "Pick a garagekeepers basis, and know key endorsements, forms and federal truck minimums"
  ],
  "scenes": [
   {
    "type": "title",
-   "title": "Commercial auto",
-   "subtitle": "Business auto forms, covered auto symbols, garagekeepers, endorsements and federal truck limits",
-   "icon": "truck",
+   "title": "Tony's Pizza hits the road",
+   "subtitle": "Symbols, physical damage, garagekeepers and endorsements (2020 ISO Business Auto, CA 00 01 11 20)",
+   "draw": [
+    {
+     "id": "shop",
+     "p": "restaurant",
+     "x": 22,
+     "y": 30,
+     "h": 30,
+     "opt": {
+      "name": "TONY'S PIZZA"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 54,
+     "y": 34,
+     "h": 28,
+     "opt": {
+      "who": "tony",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 78,
+     "y": 34,
+     "h": 27,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "clipboard"
+     }
+    },
+    {
+     "p": "road",
+     "x": 46,
+     "y": 62,
+     "w": 84,
+     "over": true
+    },
+    {
+     "id": "van",
+     "p": "van",
+     "x": 40,
+     "y": 55,
+     "h": 15,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     },
+     "anim": "slide-r",
+     "cue": "van"
+    },
+    {
+     "p": "bubble",
+     "text": "What could go wrong?",
+     "x": 62,
+     "y": 7,
+     "w": 30,
+     "to": "tony",
+     "at": 1
+    }
+   ],
    "beats": [
     {
-     "text": "Businesses insure their vehicles on commercial auto forms. The Business Auto numbers here come from its 2020 edition.",
-     "say": "Businesses insure their vehicles on commercial auto forms. The Business Auto numbers here come from its twenty twenty edition."
+     "text": "Detroit. Tony's Pizza delivers in a brand-new van, and Dana writes its coverage on the 2020 Business Auto form.",
+     "say": "Detroit. Tony's Pizza delivers in a brand-new van, and Dana writes its coverage on the twenty twenty Business Auto form."
+    },
+    {
+     "text": "Hot pizza, fast wheels. What could go wrong?",
+     "say": "Hot pizza, fast wheels. What could go wrong?",
+     "voice": "tony"
     }
    ]
   },
   {
-   "type": "table",
-   "title": "The commercial auto forms",
-   "src": "CA 00 01 11 20; CA 00 05; CA 00 10 03 10; CA 00 12; CA 00 20 03 10; FC&S; Rough Notes (Oct. 2022)",
-   "columns": [
-    "Form",
-    "Built for"
-   ],
-   "items": [
-    [
-     "Business Auto",
-     "Liability, physical damage; five sections"
-    ],
-    [
-     "Garage",
-     "Liability, garagekeepers and physical damage"
-    ],
-    [
-     "Business Auto Physical Damage",
-     "Physical damage only, no liability"
-    ],
-    [
-     "Truckers",
-     "Hauling property by auto for hire"
-    ],
-    [
-     "Motor Carrier",
-     "For-hire and private carriers"
-    ]
+   "type": "sketch",
+   "title": "First, pick the right form",
+   "src": "CA 00 01 11 20, Sec. I-V; CA 00 05; CA 00 10 03 10; CA 00 12 10 01; CA 00 20 03 10; FC&S; Rough Notes (Oct. 2022)",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Business Auto",
+     "x": 27,
+     "y": 6,
+     "size": 5,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "id": "van",
+     "p": "van",
+     "x": 27,
+     "y": 21,
+     "h": 15,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     }
+    },
+    {
+     "id": "five",
+     "p": "note",
+     "text": "5 sections: covered autos, liability, physical damage, conditions, definitions",
+     "x": 27,
+     "y": 47,
+     "w": 44,
+     "cue": "five"
+    },
+    {
+     "p": "divider",
+     "x": 54,
+     "y": 34,
+     "y0": 4,
+     "y1": 62,
+     "at": 1
+    },
+    {
+     "p": "label",
+     "text": "Gone since 2013",
+     "x": 80,
+     "y": 6,
+     "size": 5,
+     "bold": true,
+     "color": "red",
+     "at": 1
+    },
+    {
+     "id": "garage",
+     "p": "policy",
+     "x": 70,
+     "y": 25,
+     "h": 22,
+     "opt": {
+      "title": "GARAGE",
+      "tsize": 6
+     },
+     "at": 1,
+     "cue": "Garage"
+    },
+    {
+     "id": "bapd",
+     "p": "policy",
+     "x": 90,
+     "y": 25,
+     "h": 22,
+     "opt": {
+      "title": "PHYS DMG",
+      "tsize": 5
+     },
+     "at": 1,
+     "cue": "Business"
+    },
+    {
+     "p": "xout",
+     "on": "garage",
+     "at": 1,
+     "cue": "eliminated",
+     "sfx": "buzz"
+    },
+    {
+     "p": "xout",
+     "on": "bapd",
+     "at": 1,
+     "cue": "eliminated"
+    },
+    {
+     "p": "label",
+     "text": "Garage form and Business Auto Physical Damage form",
+     "x": 80,
+     "y": 48,
+     "size": 3.8,
+     "w": 44,
+     "at": 1,
+     "cue": "Garage"
+    },
+    {
+     "p": "divider",
+     "x": 106,
+     "y": 34,
+     "y0": 4,
+     "y1": 62,
+     "at": 2
+    },
+    {
+     "id": "semi",
+     "p": "semi",
+     "x": 133,
+     "y": 13,
+     "h": 12,
+     "opt": {
+      "name": "FOR HIRE"
+     },
+     "at": 2,
+     "cue": "Truckers"
+    },
+    {
+     "p": "label",
+     "text": "Truckers: hauling property for hire",
+     "x": 133,
+     "y": 25,
+     "size": 3.8,
+     "w": 46,
+     "at": 2,
+     "cue": "Truckers"
+    },
+    {
+     "id": "box",
+     "p": "semi",
+     "x": 133,
+     "y": 42,
+     "h": 12,
+     "opt": {
+      "name": "OUR OWN GOODS",
+      "color": "green"
+     },
+     "at": 2,
+     "cue": "Motor"
+    },
+    {
+     "p": "label",
+     "text": "Motor Carrier: for-hire and private carriers",
+     "x": 133,
+     "y": 55,
+     "size": 3.8,
+     "w": 46,
+     "at": 2,
+     "cue": "Motor"
+    }
    ],
    "beats": [
     {
-     "text": "The Business Auto form has five sections: covered autos, liability, physical damage, conditions and definitions.",
-     "say": "The Business Auto form has five sections: covered autos, liability, physical damage, conditions and definitions.",
-     "show": 1
+     "text": "Tony's van goes on the Business Auto form. Its five sections: covered autos, liability, physical damage, conditions and definitions.",
+     "say": "Tony's van goes on the Business Auto form. Its five sections: covered autos, liability, physical damage, conditions and definitions.",
+     "hl": "van"
     },
     {
-     "text": "The Garage form combined liability, garagekeepers and physical damage for garage risks. The Business Auto Physical Damage form gave physical damage only. Both were eliminated in the 2013 revision.",
-     "say": "The Garage form combined liability, garagekeepers and physical damage for garage risks. The Business Auto Physical Damage form gave physical damage only. Both were eliminated in the twenty thirteen revision.",
-     "show": 3
+     "text": "The Garage form combined liability, garagekeepers and physical damage. The Business Auto Physical Damage form gave physical damage only. Both were eliminated in 2013.",
+     "say": "The Garage form combined liability, garagekeepers and physical damage. The Business Auto Physical Damage form gave physical damage only. Both were eliminated in twenty thirteen.",
+     "hl": [
+      "garage",
+      "bapd"
+     ]
     },
     {
-     "text": "The Truckers form is for those hauling property by auto for hire. The Motor Carrier form is broader: it fits both for-hire carriers and private carriers hauling their own goods.",
-     "say": "The Truckers form is for those hauling property by auto for hire. The Motor Carrier form is broader: it fits both for-hire carriers and private carriers hauling their own goods.",
-     "show": 5
+     "text": "The Truckers form was written for hauling property by auto for hire. The broader Motor Carrier form also fits private carriers hauling their own goods.",
+     "say": "The Truckers form was written for hauling property by auto for hire. The broader Motor Carrier form also fits private carriers hauling their own goods.",
+     "hl": [
+      "semi",
+      "box"
+     ]
     }
    ]
   },
   {
-   "type": "table",
-   "title": "Covered auto symbols (2020 Business Auto)",
-   "src": "CA 00 01 11 20, Section I.A-B",
-   "columns": [
-    "Symbol",
-    "Covers"
-   ],
-   "items": [
-    [
-     "1",
-     "Any auto"
-    ],
-    [
-     "2 to 6",
-     "Owned autos, by type or by law"
-    ],
-    [
-     "7",
-     "Specifically described autos"
-    ],
-    [
-     "8",
-     "Hired autos"
-    ],
-    [
-     "9",
-     "Non-owned autos, like employees' cars"
-    ],
-    [
-     "19",
-     "Mobile equipment subject to auto laws"
-    ]
+   "type": "term",
+   "title": "Covered auto symbols",
+   "src": "CA 00 01 11 20, Sec. I.A-B; adapted from memory hook mn_auto-24",
+   "kind": "Term",
+   "term": "Covered auto symbol",
+   "plain": "A number next to each coverage on the declarations. It tells you which autos get that coverage.",
+   "example": "Tony's own van: owned, so symbol 2 fits. A car he rents for a weekend: hired, symbol 8. Any auto at all: symbol 1.",
+   "exam": "1 any auto. 2 to 6 owned. 7 specifically described. 8 hired, not from employees. 9 non-owned. 19 mobile equipment under compulsory or FR laws.",
+   "draw": [
+    {
+     "id": "van",
+     "p": "van",
+     "x": 20,
+     "y": 13,
+     "h": 12,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     },
+     "at": 0
+    },
+    {
+     "id": "t26",
+     "p": "circle",
+     "x": 45,
+     "y": 13,
+     "r": 6,
+     "text": "2-6",
+     "color": "blue",
+     "at": 1,
+     "size": 5.5,
+     "bold": true
+    },
+    {
+     "p": "label",
+     "text": "Owned",
+     "x": 64,
+     "y": 13,
+     "size": 4.5,
+     "bold": true,
+     "color": "blue",
+     "at": 1
+    },
+    {
+     "id": "rent",
+     "p": "rental",
+     "x": 20,
+     "y": 36,
+     "h": 15,
+     "opt": {
+      "color": "orange"
+     },
+     "at": 0
+    },
+    {
+     "id": "t8",
+     "p": "circle",
+     "x": 45,
+     "y": 38,
+     "r": 6,
+     "text": "8",
+     "color": "orange",
+     "at": 2,
+     "cue": "hired",
+     "size": 5.5,
+     "bold": true
+    },
+    {
+     "p": "label",
+     "text": "Hired",
+     "x": 64,
+     "y": 38,
+     "size": 4.5,
+     "bold": true,
+     "color": "orange",
+     "at": 2,
+     "cue": "hired"
+    },
+    {
+     "id": "car",
+     "p": "car",
+     "x": 20,
+     "y": 58,
+     "h": 10,
+     "opt": {
+      "color": "green"
+     },
+     "at": 0
+    },
+    {
+     "id": "t9",
+     "p": "circle",
+     "x": 45,
+     "y": 58,
+     "r": 6,
+     "text": "9",
+     "color": "green",
+     "at": 2,
+     "cue": "non-owned",
+     "size": 5.5,
+     "bold": true
+    },
+    {
+     "p": "label",
+     "text": "Non-owned",
+     "x": 66,
+     "y": 58,
+     "size": 4.5,
+     "bold": true,
+     "color": "green",
+     "at": 2,
+     "cue": "non-owned"
+    }
    ],
    "beats": [
     {
-     "text": "Covered auto symbols show which autos get each coverage. Symbol 1 is any auto.",
-     "say": "Covered auto symbols show which autos get each coverage. Symbol one is any auto.",
-     "show": 1
-    },
-    {
-     "text": "2 through 6 are owned autos: 2 all owned, 3 private passenger, 4 other than private passenger, 5 those subject to no-fault, and 6 those subject to a compulsory uninsured motorists law.",
-     "say": "Two through six are owned autos: two all owned, three private passenger, four other than private passenger, five those subject to no-fault, and six those subject to a compulsory uninsured motorists law.",
+     "text": "Symbols: numbers on the declarations that say which autos get each coverage. Symbol 1 means any auto.",
+     "say": "Symbols: numbers on the declarations that say which autos get each coverage. Symbol one means any auto.",
      "show": 2
     },
     {
-     "text": "7 is specifically described autos. A new auto is covered only if you already cover all owned autos for that coverage, or it's a replacement, and you tell the insurer within 30 days. Symbols 1 to 6 and 19 cover new autos automatically.",
-     "say": "Seven is specifically described autos. A new auto is covered only if you already cover all owned autos for that coverage, or it's a replacement, and you tell the insurer within thirty days. Symbols one to six and nineteen cover new autos automatically.",
-     "show": 3
+     "text": "2 through 6 are owned autos: 2 all owned, 3 private passenger, 4 other than private passenger. 5 is subject to no-fault, 6 to a compulsory uninsured motorists law.",
+     "say": "Two through six are owned autos: two all owned, three private passenger, four other than private passenger. Five is subject to no-fault, six to a compulsory uninsured motorists law.",
+     "show": 3,
+     "hl": "t26"
     },
     {
-     "text": "8 is hired autos, but not ones borrowed from your employees. 9 is non-owned autos, including employees' own cars used in your business. 19 is mobile equipment subject to a compulsory or financial responsibility law.",
-     "say": "Eight is hired autos, but not ones borrowed from your employees. Nine is non-owned autos, including employees' own cars used in your business. Nineteen is mobile equipment subject to a compulsory or financial responsibility law.",
-     "show": 6
-    }
-   ]
-  },
-  {
-   "type": "quiz",
-   "q": "A business wants liability coverage for employees' personal cars when they run company errands. Which Business Auto symbol applies?",
-   "choices": [
-    "Symbol 2: owned autos only",
-    "Symbol 7: specifically described autos",
-    "Symbol 8: hired autos only",
-    "Symbol 9: non-owned autos only"
-   ],
-   "answer": 3,
-   "why": "Symbol 9 covers autos you don't own, lease, hire, rent or borrow that are used in your business, including employees' cars. Symbol 8 excludes autos borrowed from employees.",
-   "beats": [
-    {
-     "text": "Quick check. A business wants liability coverage for employees' personal cars used on company errands. Which symbol applies? Pick an answer.",
-     "say": "Quick check. A business wants liability coverage for employees' personal cars used on company errands. Which symbol applies? Pick an answer."
-    }
-   ],
-   "reveal": [
-    {
-     "text": "The answer is symbol 9, non-owned autos. Symbol 8, hired autos, leaves out autos borrowed from employees.",
-     "say": "The answer is symbol nine, non-owned autos. Symbol eight, hired autos, leaves out autos borrowed from employees."
-    }
-   ]
-  },
-  {
-   "type": "bullets",
-   "title": "Business Auto liability: key rules",
-   "src": "CA 00 01 11 20, Sections II.A.2.a, II.B.6, II.B.8, IV.B.5",
-   "items": [
-    {
-     "label": "Bail bonds up to $2,000",
-     "detail": "Lost earnings up to $250 a day. The personal auto policy's bail limit is $250",
-     "icon": "gavel"
+     "text": "7 is specifically described autos. 8 is hired, 9 is non-owned, and 19 is mobile equipment subject to a compulsory or financial responsibility law.",
+     "say": "Seven is specifically described autos. Eight is hired, nine is non-owned, and nineteen is mobile equipment subject to a compulsory or financial responsibility law.",
+     "show": 4,
+     "hl": [
+      "t8",
+      "t9"
+     ]
     },
     {
-     "label": "Care, custody or control",
-     "detail": "Excludes property owned or transported by the insured, like cargo",
-     "icon": "package"
-    },
-    {
-     "label": "Mechanical devices",
-     "detail": "Excluded unless the device is attached to the auto, or is a hand truck",
-     "icon": "forklift"
-    },
-    {
-     "label": "Other insurance",
-     "detail": "Primary for owned autos, excess for non-owned autos",
-     "icon": "layers"
-    }
-   ],
-   "beats": [
-    {
-     "text": "Liability supplementary payments include bail bonds up to $2,000, and lost earnings up to $250 a day. Don't mix that up with the personal auto policy's bail limit of $250.",
-     "say": "Liability supplementary payments include bail bonds up to two thousand dollars, and lost earnings up to two hundred fifty dollars a day. Don't mix that up with the personal auto policy's bail limit of two hundred fifty dollars.",
-     "show": 1
-    },
-    {
-     "text": "Two exclusions to know. Care, custody or control excludes property you own or transport, like packages in your van. And injury from moving property with a mechanical device is excluded, unless the device is attached to the covered auto.",
-     "say": "Two exclusions to know. Care, custody or control excludes property you own or transport, like packages in your van. And injury from moving property with a mechanical device is excluded, unless the device is attached to the covered auto.",
-     "show": 3
-    },
-    {
-     "text": "Other insurance: the form is primary for autos you own, and excess for autos you don't.",
-     "say": "Other insurance: the form is primary for autos you own, and excess for autos you don't.",
+     "text": "Watch out: only symbol 7 makes you tell the insurer about a newly acquired auto within 30 days.",
+     "say": "Watch out: only symbol seven makes you tell the insurer about a newly acquired auto within thirty days.",
      "show": 4
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Business Auto physical damage",
-   "src": "CA 00 01 11 20, Section III.A.1-3",
-   "columns": [
+   "type": "choice",
+   "title": "Tony's call: the drivers' own cars",
+   "src": "CA 00 01 11 20, Sec. I.A (symbols 2, 8, 9), Sec. IV.B.5; question auto-061; memory hook mn_auto-24",
+   "ask": "What should Tony do?",
+   "draw": [
     {
-     "name": "Comprehensive",
-     "points": [
-      "Glass breakage",
-      "Hitting a bird or animal",
-      "Falling objects or missiles"
+     "id": "tony",
+     "p": "person",
+     "x": 22,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "think",
+      "mood": "worried"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Am I covered?",
+     "x": 50,
+     "y": 8,
+     "w": 30,
+     "to": "tony"
+    },
+    {
+     "id": "drv",
+     "p": "person",
+     "x": 78,
+     "y": 31,
+     "h": 32,
+     "opt": {
+      "who": "person",
+      "hair": "short",
+      "hairColor": "black",
+      "hat": "beanie",
+      "shirt": "teal",
+      "pose": "hold",
+      "mood": "happy",
+      "hold": "pizza"
+     }
+    },
+    {
+     "id": "car",
+     "p": "car",
+     "x": 106,
+     "y": 40,
+     "h": 14,
+     "opt": {
+      "color": "green"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Driver's own car",
+     "x": 106,
+     "y": 53,
+     "size": 5
+    },
+    {
+     "id": "pol",
+     "p": "policy",
+     "x": 146,
+     "y": 24,
+     "h": 22,
+     "opt": {}
+    },
+    {
+     "p": "label",
+     "text": "Liability: symbol 2",
+     "x": 141,
+     "y": 42,
+     "size": 5,
+     "bold": true,
+     "color": "blue",
+     "w": 44,
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "My drivers deliver in their own cars now. Am I covered if one crashes?",
+     "say": "My drivers deliver in their own cars now. Am I covered if one crashes?",
+     "voice": "tony"
+    },
+    {
+     "text": "His liability shows only symbol 2. What should he do?",
+     "say": "His liability shows only symbol two. What should he do?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Nothing. Symbol 2 already covers those cars",
+     "ok": false,
+     "fail": "Symbol 2 means owned autos only. Tony doesn't own his drivers' cars.",
+     "beats": [
+      {
+       "text": "A driver crashes on a delivery. Symbol 2 is owned autos only, so that car isn't a covered auto for Tony's liability.",
+       "say": "A driver crashes on a delivery. Symbol two is owned autos only, so that car isn't a covered auto for Tony's liability."
+      }
+     ],
+     "draw": [
+      {
+       "id": "car",
+       "p": "car",
+       "x": 28,
+       "y": 34,
+       "h": 18,
+       "opt": {
+        "color": "green",
+        "dent": true
+       }
+      },
+      {
+       "p": "crash",
+       "x": 46,
+       "y": 15,
+       "h": 15,
+       "opt": {
+        "text": "BUMP!"
+       },
+       "over": true,
+       "cue": "crashes",
+       "sfx": "crash"
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 120,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "shrug",
+        "mood": "shocked"
+       }
+      },
+      {
+       "id": "pol",
+       "p": "policy",
+       "x": 80,
+       "y": 22,
+       "h": 22,
+       "opt": {}
+      },
+      {
+       "p": "label",
+       "text": "Liability: symbol 2",
+       "x": 80,
+       "y": 36,
+       "size": 4.5,
+       "bold": true,
+       "color": "blue",
+       "w": 34
+      },
+      {
+       "p": "stamp",
+       "text": "Not covered",
+       "x": 80,
+       "y": 47,
+       "size": 5,
+       "color": "red",
+       "cue": "isn't"
+      }
+     ],
+     "failAt": [
+      148,
+      40
      ]
     },
     {
-     "name": "Specified Causes of Loss",
-     "points": [
-      "Fire, lightning, explosion, theft",
-      "Windstorm, hail, earthquake, flood",
-      "Mischief or vandalism",
-      "Sinking, burning, collision or derailment of a conveyance carrying it"
+     "label": "Add symbol 9, non-owned autos",
+     "ok": true,
+     "win": "Symbol 9 covers autos Tony doesn't own, lease, hire, rent or borrow, including employees' cars used in his business.",
+     "beats": [
+      {
+       "text": "Covered for liability. Symbol 9 makes employees' cars covered autos while used in Tony's business.",
+       "say": "Covered for liability. Symbol nine makes employees' cars covered autos while used in Tony's business."
+      }
+     ],
+     "draw": [
+      {
+       "id": "t9",
+       "p": "circle",
+       "x": 22,
+       "y": 24,
+       "r": 11,
+       "text": "9",
+       "color": "green",
+       "size": 12,
+       "bold": true
+      },
+      {
+       "p": "label",
+       "text": "Non-owned autos",
+       "x": 22,
+       "y": 42,
+       "size": 4.5,
+       "bold": true,
+       "color": "green"
+      },
+      {
+       "id": "drv",
+       "p": "person",
+       "x": 58,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "hair": "short",
+        "hairColor": "black",
+        "hat": "beanie",
+        "shirt": "teal",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "car",
+       "p": "car",
+       "x": 90,
+       "y": 40,
+       "h": 14,
+       "opt": {
+        "color": "green"
+       }
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 122,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Covered",
+       "x": 148,
+       "y": 18,
+       "size": 5.5,
+       "color": "green",
+       "rot": -8,
+       "cue": "Covered"
+      },
+      {
+       "p": "label",
+       "text": "Tony's liability",
+       "x": 148,
+       "y": 29,
+       "size": 4.2,
+       "bold": true,
+       "color": "green",
+       "cue": "Covered"
+      }
      ]
     },
     {
-     "name": "Collision",
-     "points": [
-      "Hitting an object, like a guardrail",
-      "Glass broken in a collision, if you choose"
+     "label": "Add symbol 8, hired autos",
+     "ok": false,
+     "fail": "Symbol 8 covers autos Tony leases, hires, rents or borrows, but not ones borrowed from his own employees.",
+     "beats": [
+      {
+       "text": "Nope. Hired autos leave out cars borrowed from your own employees.",
+       "say": "Nope. Hired autos leave out cars borrowed from your own employees.",
+       "voice": "dana"
+      }
+     ],
+     "draw": [
+      {
+       "id": "t8",
+       "p": "circle",
+       "x": 20,
+       "y": 24,
+       "r": 11,
+       "text": "8",
+       "color": "orange",
+       "size": 12,
+       "bold": true
+      },
+      {
+       "p": "label",
+       "text": "Hired autos",
+       "x": 20,
+       "y": 42,
+       "size": 4.5,
+       "bold": true,
+       "color": "orange"
+      },
+      {
+       "id": "drv",
+       "p": "person",
+       "x": 50,
+       "y": 30,
+       "h": 32,
+       "opt": {
+        "who": "person",
+        "hair": "short",
+        "hairColor": "black",
+        "hat": "beanie",
+        "shirt": "teal",
+        "pose": "shrug",
+        "mood": "worried"
+       }
+      },
+      {
+       "id": "car",
+       "p": "car",
+       "x": 80,
+       "y": 40,
+       "h": 14,
+       "opt": {
+        "color": "green"
+       }
+      },
+      {
+       "p": "xout",
+       "on": "car",
+       "cue": "leave"
+      },
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 118,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "stop",
+        "mood": "worried"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Not from employees!",
+       "x": 140,
+       "y": 7,
+       "w": 30,
+       "to": "dana"
+      }
+     ],
+     "failAt": [
+      146,
+      44
      ]
     }
    ],
-   "tell": "Specified causes is a short named list. It doesn't include hitting a deer or glass breakage.",
-   "beats": [
+   "reveal": [
     {
-     "text": "Physical damage comes in three coverages. Comprehensive includes glass breakage, hitting a bird or animal, and falling objects.",
-     "say": "Physical damage comes in three coverages. Comprehensive includes glass breakage, hitting a bird or animal, and falling objects.",
-     "show": 1
-    },
-    {
-     "text": "Specified Causes of Loss is a named list: fire, lightning, explosion, theft, windstorm, hail, earthquake, flood, vandalism, and damage to a conveyance carrying the auto.",
-     "say": "Specified Causes of Loss is a named list: fire, lightning, explosion, theft, windstorm, hail, earthquake, flood, vandalism, and damage to a conveyance carrying the auto.",
-     "show": 2
-    },
-    {
-     "text": "Collision pays for hitting an object. So a van with only specified causes is covered for a flood, but not for hitting a deer.",
-     "say": "Collision pays for hitting an object. So a van with only specified causes is covered for a flood, but not for hitting a deer.",
-     "show": 3,
-     "tell": true
+     "text": "Hired is 8, non-owned is 9. For autos he owns, Tony's policy is primary and pays first. For others, it's excess over other insurance.",
+     "say": "Hired is eight, non-owned is nine. For autos he owns, Tony's policy is primary and pays first. For others, it's excess over other insurance."
     }
    ]
   },
   {
-   "type": "scenario",
-   "title": "Garagekeepers: three ways to pay",
-   "src": "CA 99 37 10 01",
-   "icon": "wrench",
-   "story": "Hail damages a customer's car while it sits at a repair shop for service. The shop carries garagekeepers Comprehensive and did nothing wrong. Which garagekeepers basis pays, and when?",
-   "items": [
+   "type": "choice",
+   "title": "Tony's call: van number two",
+   "src": "CA 00 01 11 20, Sec. I.B; question auto-060; memory hook mn_auto-24",
+   "ask": "What should Tony do?",
+   "draw": [
     {
-     "label": "Legal liability",
-     "detail": "Pays only if the shop is legally liable, so it pays nothing here"
+     "id": "van1",
+     "p": "van",
+     "x": 24,
+     "y": 38,
+     "h": 16,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Physical damage: symbol 7",
+     "x": 24,
+     "y": 52,
+     "size": 4.5,
+     "bold": true,
+     "color": "blue",
+     "w": 40
+    },
+    {
+     "id": "van2",
+     "p": "van",
+     "x": 70,
+     "y": 38,
+     "h": 16,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     }
+    },
+    {
+     "p": "sparkle",
+     "x": 86,
+     "y": 22,
+     "h": 10
+    },
+    {
+     "p": "label",
+     "text": "Bought in March",
+     "x": 70,
+     "y": 52,
+     "size": 4.2,
+     "color": "red"
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 122,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Van number two!",
+     "x": 146,
+     "y": 8,
+     "w": 24,
+     "to": "tony",
+     "at": 1
+    }
+   ],
+   "beats": [
+    {
+     "text": "For physical damage, Tony's one van is described on the declarations: symbol 7. In March, he buys a second.",
+     "say": "For physical damage, Tony's one van is described on the declarations: symbol seven. In March, he buys a second."
+    },
+    {
+     "text": "Van number two! Is it covered already?",
+     "say": "Van number two! Is it covered already?",
+     "voice": "tony"
+    }
+   ],
+   "options": [
+    {
+     "label": "Nothing. New vans are covered automatically",
+     "ok": false,
+     "fail": "Only symbols 1 to 6 and 19 cover new autos automatically. Under symbol 7, you must tell the insurer within 30 days.",
+     "beats": [
+      {
+       "text": "Day 45 after buying it, hail dents the new van. Tony never told the insurer, so it isn't a covered auto for physical damage.",
+       "say": "Day forty-five after buying it, hail dents the new van. Tony never told the insurer, so it isn't a covered auto for physical damage."
+      }
+     ],
+     "draw": [
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 22,
+       "y": 24,
+       "h": 20,
+       "opt": {
+        "n": "45"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Day 45",
+       "x": 22,
+       "y": 40,
+       "size": 4.8,
+       "bold": true,
+       "color": "red"
+      },
+      {
+       "id": "van2",
+       "p": "van",
+       "x": 68,
+       "y": 38,
+       "h": 17,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "color": "red",
+        "dent": true
+       }
+      },
+      {
+       "p": "hail",
+       "x": 68,
+       "y": 14,
+       "h": 18,
+       "cue": "hail",
+       "over": true
+      },
+      {
+       "p": "stamp",
+       "text": "Not covered",
+       "x": 124,
+       "y": 36,
+       "size": 5.5,
+       "color": "red",
+       "cue": "isn't"
+      },
+      {
+       "p": "label",
+       "text": "Never reported",
+       "x": 124,
+       "y": 48,
+       "size": 4.5,
+       "color": "red",
+       "cue": "isn't"
+      }
+     ]
+    },
+    {
+     "label": "Have Dana tell the insurer within 30 days",
+     "ok": true,
+     "win": "Under symbol 7, a new auto is covered if all owned autos already have that coverage, or it's a replacement, and you tell the insurer within 30 days.",
+     "beats": [
+      {
+       "text": "Smart. Every auto he owned already had that coverage, and Dana tells the insurer within 30 days. Covered.",
+       "say": "Smart. Every auto he owned already had that coverage, and Dana tells the insurer within thirty days. Covered."
+      }
+     ],
+     "draw": [
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 18,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Please add my new van!",
+       "x": 40,
+       "y": 7,
+       "w": 28,
+       "to": "tony"
+      },
+      {
+       "id": "cal",
+       "p": "calendar",
+       "x": 58,
+       "y": 30,
+       "h": 16,
+       "opt": {
+        "n": "30"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Within 30 days",
+       "x": 58,
+       "y": 44,
+       "size": 4.8,
+       "bold": true,
+       "color": "green"
+      },
+      {
+       "id": "dana",
+       "p": "person",
+       "x": 98,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "dana",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "happy"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "I'll tell the insurer today.",
+       "x": 124,
+       "y": 7,
+       "w": 28,
+       "to": "dana"
+      },
+      {
+       "p": "stamp",
+       "text": "Covered",
+       "x": 136,
+       "y": 25,
+       "size": 7,
+       "color": "green",
+       "cue": "Covered"
+      },
+      {
+       "id": "van2",
+       "p": "van",
+       "x": 136,
+       "y": 42,
+       "h": 14,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "color": "red"
+       }
+      }
+     ]
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Symbols 1 to 6 and 19 cover new autos automatically. Under symbol 7, tell the insurer within 30 days.",
+     "say": "Symbols one to six and nineteen cover new autos automatically. Under symbol seven, tell the insurer within thirty days."
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Damage to the van itself",
+   "src": "CA 00 01 11 20, Sec. III.A.1-3; question auto-gap-16",
+   "kind": "Coverage",
+   "term": "Specified Causes of Loss",
+   "plain": "Physical damage coverage for a short, named list of causes. Not on the list? Not covered.",
+   "example": "Tony chose only Specified Causes for his van. A flood soaks the parked van: covered. The van hits a deer: not on the list, so not covered.",
+   "exam": "Glass breakage, hitting a bird or animal, falling objects or missiles: Comprehensive. Hitting an object: Collision.",
+   "draw": [
+    {
+     "id": "list",
+     "p": "clipboard",
+     "x": 14,
+     "y": 17,
+     "h": 22,
+     "at": 1,
+     "cue": "list"
+    },
+    {
+     "p": "fire",
+     "x": 34,
+     "y": 9,
+     "h": 9,
+     "at": 1,
+     "cue": "fire",
+     "loop": "flicker"
+    },
+    {
+     "p": "hail",
+     "x": 50,
+     "y": 13,
+     "h": 15,
+     "at": 1,
+     "cue": "hail"
+    },
+    {
+     "p": "tornado",
+     "x": 68,
+     "y": 14,
+     "h": 15,
+     "at": 1,
+     "cue": "windstorm"
+    },
+    {
+     "id": "van",
+     "p": "van",
+     "x": 24,
+     "y": 50,
+     "h": 14,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     },
+     "at": 0
+    },
+    {
+     "id": "flood",
+     "p": "flood",
+     "x": 24,
+     "y": 56,
+     "w": 34,
+     "at": 2,
+     "cue": "flood",
+     "over": true
+    },
+    {
+     "id": "deer",
+     "p": "deer",
+     "x": 62,
+     "y": 47,
+     "h": 16,
+     "opt": {
+      "pose": "leap"
+     },
+     "flip": true,
+     "at": 2,
+     "cue": "deer"
+    },
+    {
+     "p": "xout",
+     "on": "deer",
+     "at": 2,
+     "cue": "deer"
+    },
+    {
+     "p": "check",
+     "x": 44,
+     "y": 40,
+     "h": 8,
+     "at": 2,
+     "cue": "flood"
+    },
+    {
+     "p": "label",
+     "text": "Deer: Comprehensive",
+     "x": 62,
+     "y": 61,
+     "size": 4.2,
+     "bold": true,
+     "color": "orange",
+     "at": 3,
+     "cue": "animal"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Now the van itself: three physical damage coverages. Comprehensive, Specified Causes of Loss, and Collision.",
+     "say": "Now the van itself: three physical damage coverages. Comprehensive, Specified Causes of Loss, and Collision.",
+     "show": 2
+    },
+    {
+     "text": "Its list: fire, lightning, explosion, theft. Windstorm, hail, earthquake, flood. Vandalism. And the sinking, burning, collision or derailment of a conveyance carrying the van, like a ferry.",
+     "say": "Its list: fire, lightning, explosion, theft. Windstorm, hail, earthquake, flood. Vandalism. And the sinking, burning, collision or derailment of a conveyance carrying the van, like a ferry.",
+     "show": 2,
+     "hl": "list"
+    },
+    {
+     "text": "Tony chose only Specified Causes: a flood is covered, a deer isn't.",
+     "say": "Tony chose only Specified Causes: a flood is covered, a deer isn't.",
+     "show": 3,
+     "hl": [
+      "flood",
+      "deer"
+     ]
+    },
+    {
+     "text": "Glass breakage, hitting a bird or animal, and falling objects are paid under Comprehensive. The van hitting an object is Collision.",
+     "say": "Glass breakage, hitting a bird or animal, and falling objects are paid under Comprehensive. The van hitting an object is Collision.",
+     "show": 4
+    }
+   ]
+  },
+  {
+   "type": "swipe",
+   "title": "Only Specified Causes: covered?",
+   "src": "CA 00 01 11 20, Sec. III.A.1 and A.3; questions auto-gap-16, auto-gap-20",
+   "options": [
+    "Covered",
+    "Not covered"
+   ],
+   "cards": [
+    {
+     "text": "A flood soaks Tony's van while it's parked.",
+     "answer": 0,
+     "why": "Flood is on the Specified Causes list.",
+     "draw": [
+      {
+       "p": "van",
+       "x": 50,
+       "y": 26,
+       "h": 22,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "color": "red"
+       }
+      },
+      {
+       "p": "flood",
+       "x": 50,
+       "y": 38,
+       "w": 70,
+       "over": true
+      }
+     ]
+    },
+    {
+     "text": "The van hits a deer on a country road at dusk.",
+     "answer": 1,
+     "why": "Hitting a bird or animal is paid under Comprehensive. It isn't on the Specified Causes list.",
+     "draw": [
+      {
+       "p": "van",
+       "x": 36,
+       "y": 30,
+       "h": 22,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "color": "red"
+       }
+      },
+      {
+       "p": "deer",
+       "x": 80,
+       "y": 26,
+       "h": 26,
+       "opt": {
+        "pose": "leap"
+       },
+       "flip": true
+      }
+     ]
+    },
+    {
+     "text": "A rock thrown up by a passing truck cracks the windshield.",
+     "answer": 1,
+     "why": "Glass breakage is paid under Comprehensive, not Specified Causes.",
+     "draw": [
+      {
+       "p": "van",
+       "x": 42,
+       "y": 32,
+       "h": 24,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "color": "red"
+       }
+      },
+      {
+       "p": "crash",
+       "x": 64,
+       "y": 18,
+       "h": 16,
+       "opt": {
+        "text": "CRACK!"
+       },
+       "over": true
+      },
+      {
+       "p": "circle",
+       "x": 86,
+       "y": 12,
+       "r": 2.5,
+       "fill": "gray"
+      }
+     ]
+    },
+    {
+     "text": "Vandals spray-paint the van overnight.",
+     "answer": 0,
+     "why": "Mischief or vandalism is on the Specified Causes list.",
+     "draw": [
+      {
+       "p": "van",
+       "x": 36,
+       "y": 32,
+       "h": 22,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "color": "red"
+       }
+      },
+      {
+       "p": "label",
+       "text": "TAG!",
+       "x": 26,
+       "y": 26.5,
+       "size": 7,
+       "bold": true,
+       "color": "purple",
+       "rot": -10,
+       "over": true
+      },
+      {
+       "p": "person",
+       "x": 84,
+       "y": 28,
+       "h": 34,
+       "opt": {
+        "who": "thief",
+        "pose": "hold",
+        "mood": "smirk"
+       }
+      },
+      {
+       "p": "icon",
+       "name": "spray-can",
+       "x": 73,
+       "y": 24,
+       "h": 8,
+       "color": "purple",
+       "rot": 20,
+       "over": true
+      }
+     ]
+    },
+    {
+     "text": "The van slides into a guardrail on an icy ramp.",
+     "answer": 1,
+     "why": "Hitting an object is Collision coverage, not a specified cause.",
+     "draw": [
+      {
+       "p": "snow",
+       "x": 14,
+       "y": 10,
+       "h": 7
+      },
+      {
+       "p": "van",
+       "x": 40,
+       "y": 30,
+       "h": 22,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "color": "red",
+        "dent": true
+       }
+      },
+      {
+       "p": "line",
+       "from": [
+        74,
+        34
+       ],
+       "to": [
+        74,
+        46
+       ]
+      },
+      {
+       "p": "line",
+       "from": [
+        90,
+        34
+       ],
+       "to": [
+        90,
+        46
+       ]
+      },
+      {
+       "p": "box",
+       "x": 84,
+       "y": 34,
+       "w": 22,
+       "hh": 3,
+       "fill": "gray",
+       "over": true
+      },
+      {
+       "p": "crash",
+       "x": 70,
+       "y": 20,
+       "h": 16,
+       "opt": {
+        "text": "THUD!"
+       },
+       "over": true
+      }
+     ]
+    },
+    {
+     "text": "Hail dents the van's roof in a summer storm.",
+     "answer": 0,
+     "why": "Windstorm, hail or earthquake is on the Specified Causes list.",
+     "draw": [
+      {
+       "p": "hail",
+       "x": 50,
+       "y": 15,
+       "h": 24
+      },
+      {
+       "p": "van",
+       "x": 50,
+       "y": 42,
+       "h": 18,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "color": "red"
+       }
+      }
+     ]
+    }
+   ],
+   "beats": [
+    {
+     "text": "Your turn. Tony's vans have only Specified Causes. Covered or not?",
+     "say": "Your turn. Tony's vans have only Specified Causes. Covered or not?"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Flood, vandalism and hail are on the list. Deer and glass: Comprehensive. The guardrail: Collision.",
+     "say": "Flood, vandalism and hail are on the list. Deer and glass: Comprehensive. The guardrail: Collision."
+    },
+    {
+     "text": "One twist: glass broken in a collision can count as Collision, if you choose.",
+     "say": "One twist: glass broken in a collision can count as Collision, if you choose."
+    }
+   ]
+  },
+  {
+   "type": "sketch",
+   "title": "Liability extras, and two exclusions",
+   "src": "CA 00 01 11 20, Sec. II.A.2.a, II.B.6, II.B.8; PP 00 01 09 18, Part A; questions auto-062, auto-gap-18, auto-gap-19",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Business Auto (2020)",
+     "x": 26,
+     "y": 4.5,
+     "size": 4.2,
+     "bold": true,
+     "color": "blue"
+    },
+    {
+     "id": "gavel",
+     "p": "gavel",
+     "x": 14,
+     "y": 17,
+     "h": 13,
+     "cue": "bail"
+    },
+    {
+     "p": "label",
+     "text": "Bail bonds: up to $2,000",
+     "x": 36,
+     "y": 13,
+     "size": 4,
+     "w": 26,
+     "bold": true,
+     "color": "green",
+     "cue": "bail"
+    },
+    {
+     "id": "cal",
+     "p": "calendar",
+     "x": 14,
+     "y": 37,
+     "h": 13,
+     "opt": {
+      "n": "$250"
+     },
+     "cue": "earnings"
+    },
+    {
+     "p": "label",
+     "text": "Lost earnings: up to $250 a day",
+     "x": 36,
+     "y": 37,
+     "size": 4,
+     "w": 26,
+     "bold": true,
+     "color": "green",
+     "cue": "earnings"
+    },
+    {
+     "id": "pap",
+     "p": "note",
+     "text": "Personal auto policy (2018): bail only $250",
+     "x": 26,
+     "y": 57,
+     "w": 40,
+     "paper": "pink",
+     "at": 1
+    },
+    {
+     "p": "divider",
+     "x": 54,
+     "y": 34,
+     "y0": 4,
+     "y1": 62,
+     "at": 2
+    },
+    {
+     "id": "wh",
+     "p": "warehouse",
+     "x": 82,
+     "y": 16,
+     "h": 20,
+     "opt": {
+      "name": "FLOUR"
+     },
+     "at": 2
+    },
+    {
+     "id": "van",
+     "p": "van",
+     "x": 132,
+     "y": 22,
+     "h": 15,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     },
+     "flip": true,
+     "at": 2
+    },
+    {
+     "id": "cargo",
+     "p": "pallet",
+     "x": 110,
+     "y": 26,
+     "h": 11,
+     "at": 2,
+     "cue": "cargo"
+    },
+    {
+     "p": "label",
+     "text": "Cargo: excluded (care, custody or control)",
+     "x": 110,
+     "y": 37,
+     "size": 3.6,
+     "w": 34,
+     "color": "red",
+     "at": 2,
+     "cue": "care"
+    },
+    {
+     "p": "xout",
+     "on": "cargo",
+     "at": 2,
+     "cue": "excluded"
+    },
+    {
+     "id": "fork",
+     "p": "forklift",
+     "x": 82,
+     "y": 46,
+     "h": 15,
+     "opt": {
+      "load": true
+     },
+     "at": 3,
+     "cue": "forklift"
+    },
+    {
+     "p": "xout",
+     "on": "fork",
+     "at": 3,
+     "cue": "Excluded"
+    },
+    {
+     "p": "label",
+     "text": "Loose forklift: excluded",
+     "x": 78,
+     "y": 60,
+     "size": 3.6,
+     "color": "red",
+     "at": 3,
+     "cue": "forklift"
+    },
+    {
+     "p": "check",
+     "x": 136,
+     "y": 41,
+     "h": 8,
+     "at": 3,
+     "cue": "attached"
+    },
+    {
+     "p": "label",
+     "text": "Device attached to the van: not excluded",
+     "x": 136,
+     "y": 59,
+     "size": 3.6,
+     "w": 32,
+     "color": "green",
+     "at": 3,
+     "cue": "attached"
+    },
+    {
+     "id": "by",
+     "p": "person",
+     "x": 104,
+     "y": 54,
+     "h": 18,
+     "opt": {
+      "who": "neighbor",
+      "pose": "stop",
+      "mood": "shocked"
+     },
+     "at": 3,
+     "cue": "bystander"
+    },
+    {
+     "id": "gate",
+     "p": "box",
+     "x": 149,
+     "y": 26.5,
+     "w": 7,
+     "hh": 1.6,
+     "fill": "gray",
+     "over": true,
+     "at": 3,
+     "cue": "attached"
+    },
+    {
+     "p": "arrow",
+     "from": [
+      139,
+      37
+     ],
+     "to": "gate",
+     "bend": 0.2,
+     "at": 3,
+     "cue": "attached"
+    }
+   ],
+   "beats": [
+    {
+     "text": "Business Auto liability pays extras, called supplementary payments. They include bail bonds up to $2,000, and lost earnings up to $250 a day.",
+     "say": "Business Auto liability pays extras, called supplementary payments. They include bail bonds up to two thousand dollars, and lost earnings up to two hundred fifty dollars a day.",
+     "hl": "gavel"
+    },
+    {
+     "text": "Watch out: the 2018 personal auto policy's bail limit is only $250.",
+     "say": "Watch out: the twenty eighteen personal auto policy's bail limit is only two hundred fifty dollars.",
+     "hl": "pap"
+    },
+    {
+     "text": "Two exclusions. Property Tony owns or transports, like cargo in the van, is excluded: care, custody or control.",
+     "say": "Two exclusions. Property Tony owns or transports, like cargo in the van, is excluded: care, custody or control.",
+     "hl": "cargo"
+    },
+    {
+     "text": "A loose forklift unloading the van hurts a bystander? Excluded: injury or damage from a mechanical device moving property, unless it's a hand truck or attached to the van.",
+     "say": "A loose forklift unloading the van hurts a bystander? Excluded: injury or damage from a mechanical device moving property, unless it's a hand truck or attached to the van.",
+     "hl": "fork"
+    }
+   ]
+  },
+  {
+   "type": "term",
+   "title": "Tony's van at Gus's shop",
+   "src": "CA 99 37 10 01; question auto-063; memory hook mn_auto-25",
+   "kind": "Coverage",
+   "term": "Garagekeepers",
+   "plain": "Covers customers' autos left in a shop's care while it services, repairs, parks or stores them.",
+   "example": "Tony's van is at Gus's repair shop for brakes. If it's damaged there, Gus's garagekeepers may pay, depending on its basis.",
+   "exam": "Legal liability (default): only if liable. Direct excess: regardless of liability, after the customer's insurance. Direct primary: regardless, first.",
+   "draw": [
+    {
+     "p": "label",
+     "text": "Gus's Auto Repair",
+     "x": 26,
+     "y": 5,
+     "size": 4.2,
+     "bold": true,
+     "box": true
+    },
+    {
+     "id": "garage",
+     "p": "garage",
+     "x": 26,
+     "y": 22,
+     "h": 26,
+     "opt": {
+      "open": true
+     }
+    },
+    {
+     "id": "van",
+     "p": "van",
+     "x": 26,
+     "y": 47,
+     "h": 13,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     }
+    },
+    {
+     "id": "gus",
+     "p": "person",
+     "x": 62,
+     "y": 38,
+     "h": 28,
+     "opt": {
+      "who": "worker",
+      "pose": "hold",
+      "hold": "toolbox",
+      "mood": "happy"
+     },
+     "label": "Gus",
+     "lsize": 4
+    }
+   ],
+   "beats": [
+    {
+     "text": "Garagekeepers covers customers' autos left in a shop's care while it services, repairs, parks or stores them.",
+     "say": "Garagekeepers covers customers' autos left in a shop's care while it services, repairs, parks or stores them.",
+     "show": 3,
+     "hl": "van"
+    },
+    {
+     "text": "Three bases. Legal liability, the default, pays only if the shop is legally liable. Direct excess and direct primary pay regardless of liability: excess after the customer's own insurance, primary first.",
+     "say": "Three bases. Legal liability, the default, pays only if the shop is legally liable. Direct excess and direct primary pay regardless of liability: excess after the customer's own insurance, primary first.",
+     "show": 4,
+     "hl": "gus"
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Gus's call: which garagekeepers basis?",
+   "src": "CA 99 37 10 01, Direct Coverage Options; question auto-063; memory hook mn_auto-25",
+   "ask": "Which basis should Gus pick?",
+   "draw": [
+    {
+     "id": "gus",
+     "p": "person",
+     "x": 24,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "worker",
+      "pose": "point",
+      "mood": "happy"
+     }
+    },
+    {
+     "p": "bubble",
+     "text": "Fault or not, nobody calls their own insurer first!",
+     "x": 54,
+     "y": 9,
+     "w": 40,
+     "to": "gus"
+    },
+    {
+     "id": "garage",
+     "p": "garage",
+     "x": 100,
+     "y": 34,
+     "h": 26,
+     "opt": {
+      "open": true
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 140,
+     "y": 30,
+     "h": 34,
+     "opt": {
+      "who": "dana",
+      "pose": "hold",
+      "hold": "clipboard",
+      "mood": "neutral"
+     }
+    }
+   ],
+   "beats": [
+    {
+     "text": "Customer's car damaged here? My fault or not, my insurance handles it. Nobody calls their own insurer first!",
+     "say": "Customer's car damaged here? My fault or not, my insurance handles it. Nobody calls their own insurer first!",
+     "voice": "worker",
+     "speaker": "Gus"
+    },
+    {
+     "text": "Gus carries garagekeepers Comprehensive. Which basis fits?",
+     "say": "Gus carries garagekeepers Comprehensive. Which basis fits?"
+    }
+   ],
+   "options": [
+    {
+     "label": "Direct primary",
+     "ok": true,
+     "win": "Direct primary pays regardless of the shop's liability, and it pays first, before the customer's own insurance.",
+     "beats": [
+      {
+       "text": "Hail hits, and Gus's insurer pays Tony first. No blame needed.",
+       "say": "Hail hits, and Gus's insurer pays Tony first. No blame needed."
+      }
+     ],
+     "draw": [
+      {
+       "id": "gus",
+       "p": "person",
+       "x": 16,
+       "y": 30,
+       "h": 30,
+       "opt": {
+        "who": "worker",
+        "pose": "cheer",
+        "mood": "happy"
+       }
+      },
+      {
+       "id": "gins",
+       "p": "insurer",
+       "x": 46,
+       "y": 24,
+       "h": 26
+      },
+      {
+       "p": "label",
+       "text": "Gus's insurer",
+       "x": 46,
+       "y": 44,
+       "size": 4.5,
+       "bold": true,
+       "color": "green"
+      },
+      {
+       "id": "cash",
+       "p": "money",
+       "x": 70,
+       "y": 22,
+       "h": 10,
+       "move": {
+        "to": [
+         100,
+         36
+        ],
+        "cue": "pays",
+        "sfx": "cash"
+       }
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 110,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "cheer",
+        "mood": "laugh"
+       }
+      },
+      {
+       "p": "stamp",
+       "text": "Paid first",
+       "x": 144,
+       "y": 20,
+       "size": 5,
+       "color": "green",
+       "rot": -6
+      }
+     ]
+    },
+    {
+     "label": "Legal liability, the default",
+     "ok": false,
+     "fail": "Legal liability pays only when the shop is legally liable. Gus did nothing wrong, so he isn't liable for hail.",
+     "beats": [
+      {
+       "text": "Hail pounds Tony's van at the shop. Gus did nothing wrong, so his policy pays nothing.",
+       "say": "Hail pounds Tony's van at the shop. Gus did nothing wrong, so his policy pays nothing."
+      }
+     ],
+     "draw": [
+      {
+       "p": "hail",
+       "x": 30,
+       "y": 13,
+       "h": 22,
+       "cue": "Hail"
+      },
+      {
+       "id": "van",
+       "p": "van",
+       "x": 30,
+       "y": 42,
+       "h": 16,
+       "opt": {
+        "name": "TONY'S PIZZA",
+        "color": "red",
+        "dent": true
+       }
+      },
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 80,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "stop",
+        "mood": "angry"
+       }
+      },
+      {
+       "p": "bubble",
+       "text": "Gus's policy pays nothing?!",
+       "x": 104,
+       "y": 8,
+       "w": 30,
+       "to": "tony"
+      },
+      {
+       "p": "stamp",
+       "text": "$0",
+       "x": 132,
+       "y": 34,
+       "size": 8,
+       "color": "red",
+       "cue": "nothing"
+      },
+      {
+       "p": "label",
+       "text": "Gus's policy",
+       "x": 132,
+       "y": 46,
+       "size": 4.5,
+       "bold": true,
+       "color": "red",
+       "cue": "nothing"
+      }
+     ],
+     "failAt": [
+      148,
+      12
+     ]
     },
     {
      "label": "Direct excess",
-     "detail": "Pays regardless of liability, but excess over the customer's own insurance"
-    },
-    {
-     "label": "Direct primary",
-     "detail": "Pays regardless of liability, as primary"
+     "ok": false,
+     "fail": "Direct excess pays regardless of liability, but only as excess over the customer's own insurance.",
+     "beats": [
+      {
+       "text": "Hail hits. Tony's own insurer pays first, and Gus's policy pays only what's left.",
+       "say": "Hail hits. Tony's own insurer pays first, and Gus's policy pays only what's left."
+      }
+     ],
+     "draw": [
+      {
+       "id": "tony",
+       "p": "person",
+       "x": 20,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "tony",
+        "pose": "hold",
+        "hold": "phone",
+        "mood": "worried"
+       }
+      },
+      {
+       "id": "ins",
+       "p": "insurer",
+       "x": 62,
+       "y": 26,
+       "h": 26
+      },
+      {
+       "p": "label",
+       "text": "Tony's insurer pays first",
+       "x": 62,
+       "y": 46,
+       "size": 4.5,
+       "bold": true,
+       "color": "blue",
+       "w": 34
+      },
+      {
+       "id": "gus",
+       "p": "person",
+       "x": 108,
+       "y": 30,
+       "h": 34,
+       "opt": {
+        "who": "worker",
+        "pose": "shrug",
+        "mood": "worried"
+       }
+      },
+      {
+       "p": "label",
+       "text": "Gus's policy pays the rest",
+       "x": 108,
+       "y": 52,
+       "size": 4.5,
+       "bold": true,
+       "w": 44,
+       "color": "orange"
+      },
+      {
+       "p": "arrow",
+       "from": "ins",
+       "to": "gus",
+       "label": "then",
+       "dash": true
+      }
+     ]
     }
    ],
-   "answer": "Direct excess or direct primary pays. Only direct primary pays first, before the customer's own insurance.",
-   "beats": [
+   "reveal": [
     {
-     "text": "Garagekeepers covers customers' autos left in your care while you service, repair, park or store them. Hail hits a customer's car at a repair shop with garagekeepers Comprehensive. The shop did nothing wrong. Does it pay?",
-     "say": "Garagekeepers covers customers' autos left in your care while you service, repair, park or store them. Hail hits a customer's car at a repair shop with garagekeepers Comprehensive. The shop did nothing wrong. Does it pay?",
-     "show": 0
+     "text": "Three ways a shop says sorry. Legal liability: only if it was my fault.",
+     "say": "Three ways a shop says sorry. Legal liability: only if it was my fault."
     },
     {
-     "text": "It depends on the basis. Legal liability, the default, pays only if the shop is legally liable. So here, nothing.",
-     "say": "It depends on the basis. Legal liability, the default, pays only if the shop is legally liable. So here, nothing.",
-     "show": 1
-    },
-    {
-     "text": "Direct excess pays regardless of liability, but only over the customer's own insurance. Direct primary pays regardless of liability, and pays first.",
-     "say": "Direct excess pays regardless of liability, but only over the customer's own insurance. Direct primary pays regardless of liability, and pays first.",
-     "show": 3,
-     "answer": true
+     "text": "Direct excess: even if it wasn't, but your own insurer pays first. Direct primary: even if it wasn't, and I pay first.",
+     "say": "Direct excess: even if it wasn't, but your own insurer pays first. Direct primary: even if it wasn't, and I pay first."
     }
    ]
   },
   {
-   "type": "compare",
-   "title": "Auto or mobile equipment?",
-   "src": "CA 00 01 11 20, Sections I.C.2, V.B, V.K",
-   "columns": [
+   "type": "term",
+   "title": "Auto, or mobile equipment?",
+   "src": "CA 00 01 11 20, Sec. I.C.2, V.B, V.K; question auto-gap-23",
+   "kind": "Term",
+   "term": "Mobile equipment",
+   "plain": "Off-road vehicles like bulldozers, forklifts and farm machinery; crawler-tread vehicles; vehicles used only on or next to premises you own or rent.",
+   "example": "Tony's storeroom forklift is mobile equipment. A pickup with a permanently attached snowplow is still an auto.",
+   "exam": "Autos: self-propelled with permanent snow-removal, road-maintenance or street-cleaning gear; cherry pickers on auto or truck chassis; FR-law vehicles.",
+   "draw": [
     {
-     "name": "Mobile equipment",
-     "icon": "forklift",
-     "points": [
-      "Bulldozers, forklifts, farm machinery",
-      "Vehicles on crawler treads",
-      "Vehicles used solely on or next to your premises"
-     ]
+     "id": "fork",
+     "p": "forklift",
+     "x": 18,
+     "y": 16,
+     "h": 17,
+     "opt": {
+      "load": true
+     },
+     "cue": "forklift"
     },
     {
-     "name": "Auto",
-     "icon": "truck",
-     "points": [
-      "Self-propelled with snow-removal, road-maintenance or street-cleaning gear",
-      "Cherry pickers on an auto or truck chassis",
-      "Any land vehicle subject to a compulsory or FR law"
-     ]
+     "id": "doz",
+     "p": "bulldozer",
+     "x": 56,
+     "y": 17,
+     "h": 15,
+     "cue": "bulldozers"
+    },
+    {
+     "p": "label",
+     "text": "Mobile equipment",
+     "x": 38,
+     "y": 31,
+     "size": 4.5,
+     "bold": true,
+     "color": "orange",
+     "cue": "forklift"
+    },
+    {
+     "p": "line",
+     "from": [
+      6,
+      38
+     ],
+     "to": [
+      76,
+      38
+     ],
+     "dash": true,
+     "color": "gray",
+     "at": 1
+    },
+    {
+     "id": "pickup",
+     "p": "pickup",
+     "x": 34,
+     "y": 52,
+     "h": 14,
+     "opt": {
+      "color": "blue"
+     },
+     "at": 1,
+     "cue": "pickup"
+    },
+    {
+     "id": "plow",
+     "p": "box",
+     "x": 49.6,
+     "y": 56,
+     "w": 3,
+     "hh": 11,
+     "fill": "yellow",
+     "at": 1,
+     "cue": "snowplow",
+     "over": true
+    },
+    {
+     "p": "snow",
+     "x": 62,
+     "y": 47,
+     "h": 6,
+     "at": 1,
+     "cue": "snowplow",
+     "loop": "spin"
+    },
+    {
+     "p": "label",
+     "text": "Still an auto",
+     "x": 64,
+     "y": 58,
+     "size": 5,
+     "bold": true,
+     "color": "blue",
+     "at": 1,
+     "cue": "auto"
     }
    ],
-   "tell": "Unendorsed, Business Auto covers mobile equipment for liability only while a covered auto carries or tows it.",
    "beats": [
     {
-     "text": "Is it an auto or mobile equipment? Bulldozers, forklifts, farm machinery and crawler-tread vehicles are mobile equipment.",
-     "say": "Is it an auto or mobile equipment? Bulldozers, forklifts, farm machinery and crawler-tread vehicles are mobile equipment.",
-     "show": 1
+     "text": "Tony's new storeroom forklift is mobile equipment. So are bulldozers, farm machinery, crawler-tread vehicles, and vehicles used only on or next to your premises.",
+     "say": "Tony's new storeroom forklift is mobile equipment. So are bulldozers, farm machinery, crawler-tread vehicles, and vehicles used only on or next to your premises.",
+     "show": 2,
+     "hl": "fork"
     },
     {
-     "text": "But a self-propelled vehicle with permanently attached snow-removal, road-maintenance or street-cleaning equipment is an auto. So is any land vehicle subject to a compulsory or financial responsibility law.",
-     "say": "But a self-propelled vehicle with permanently attached snow-removal, road-maintenance or street-cleaning equipment is an auto. So is any land vehicle subject to a compulsory or financial responsibility law.",
-     "show": 2
+     "text": "A pickup with a permanently attached snowplow is still an auto. So is any land vehicle subject to a compulsory or financial responsibility law.",
+     "say": "A pickup with a permanently attached snowplow is still an auto. So is any land vehicle subject to a compulsory or financial responsibility law.",
+     "show": 4,
+     "hl": "pickup"
     },
     {
      "text": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
      "say": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
-     "show": 2,
-     "tell": true
+     "show": 4
     }
    ]
   },
   {
-   "type": "bullets",
-   "title": "Key commercial auto endorsements",
-   "src": "CA 99 10 (IRMI); CA 99 17 (summaries); CA 20 01 11 20; CA 20 15 (FC&S, Rough Notes); CA 22 20; CA 22 24",
-   "items": [
+   "type": "explore",
+   "title": "Dana's endorsement toolbox",
+   "src": "CA 99 10 (IRMI); CA 99 17 10 01; CA 20 01 11 20; CA 20 15 (FC&S, Rough Notes); CA 22 20, CA 22 24 (Wolters Kluwer list)",
+   "draw": [
     {
+     "id": "mgr",
+     "p": "person",
+     "x": 14,
+     "y": 19,
+     "h": 30,
+     "opt": {
+      "who": "boss",
+      "pose": "point",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "ccar",
+     "p": "car",
+     "x": 38,
+     "y": 27,
+     "h": 13,
+     "opt": {
+      "color": "blue"
+     }
+    },
+    {
+     "p": "label",
+     "text": "No personal policy",
+     "x": 27,
+     "y": 39,
+     "size": 4.8
+    },
+    {
+     "id": "gus",
+     "p": "person",
+     "x": 74,
+     "y": 19,
+     "h": 30,
+     "opt": {
+      "who": "worker",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "fam",
+     "p": "person",
+     "x": 89,
+     "y": 24,
+     "h": 20,
+     "opt": {
+      "who": "kid",
+      "pose": "wave",
+      "mood": "laugh"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Gus and family",
+     "x": 81,
+     "y": 39,
+     "size": 4.8
+    },
+    {
+     "id": "lease",
+     "p": "rental",
+     "x": 136,
+     "y": 23,
+     "h": 21,
+     "opt": {
+      "text": "LEASED",
+      "color": "teal"
+     }
+    },
+    {
+     "p": "label",
+     "text": "A leased auto",
+     "x": 136,
+     "y": 39,
+     "size": 4.8
+    },
+    {
+     "id": "lift",
+     "p": "truck",
+     "x": 28,
+     "y": 57,
+     "h": 12,
+     "opt": {
+      "color": "orange"
+     }
+    },
+    {
+     "p": "line",
+     "from": [
+      19,
+      56
+     ],
+     "to": [
+      29,
+      48.5
+     ],
+     "over": true
+    },
+    {
+     "p": "line",
+     "from": [
+      19,
+      48.5
+     ],
+     "to": [
+      29,
+      56
+     ],
+     "over": true
+    },
+    {
+     "p": "box",
+     "x": 24,
+     "y": 47.6,
+     "w": 14,
+     "hh": 1.6,
+     "fill": "yellow",
+     "over": true
+    },
+    {
+     "p": "label",
+     "text": "Scissor-lift truck",
+     "x": 60,
+     "y": 54,
+     "size": 4.8
+    },
+    {
+     "id": "mi",
+     "p": "michigan",
+     "x": 136,
+     "y": 53,
+     "h": 20,
+     "opt": {
+      "pin": "detroit"
+     }
+    },
+    {
+     "p": "label",
+     "text": "Michigan vans",
+     "x": 108,
+     "y": 54,
+     "size": 4.8
+    }
+   ],
+   "spots": [
+    {
+     "on": "mgr",
      "label": "Drive Other Car",
-     "detail": "Non-owned auto coverage for a named person, like an executive with a company car",
-     "icon": "user"
+     "text": "Tony's manager drives a company car and has no personal auto policy. This gives a named person, like him, non-owned auto coverage like a personal auto policy."
     },
     {
+     "on": "gus",
      "label": "Individual Named Insured",
-     "detail": "For a sole proprietor: personal-auto-type coverage for the individual and family",
-     "icon": "users"
+     "text": "For a named insured who is an individual, like Gus, a sole proprietor. It adds personal-auto-type coverage for him and his resident family members."
     },
     {
+     "on": "lease",
      "label": "Lessor additional insured",
-     "detail": "The lessor becomes an insured; the leased auto counts as one you own",
-     "icon": "file-signature"
+     "text": "The leasing company becomes an insured for liability, and the scheduled leased auto counts as a covered auto you own, not one you hire or borrow."
     },
     {
+     "on": "lift",
      "label": "Mobile Equipment",
-     "detail": "Scheduled vehicles become covered autos, but not for operating their machinery",
-     "icon": "forklift"
+     "text": "A scheduled vehicle, like this scissor-lift truck, becomes a covered auto. But liability won't cover operating its machinery, like the lift falling on a worker."
     },
     {
+     "on": "mi",
      "label": "Michigan PIP and PPI",
-     "detail": "Add no-fault benefits; symbol 5 marks owned autos subject to no-fault",
-     "icon": "landmark"
+     "text": "The Business Auto form has no PIP section. In Michigan, PIP and PPI endorsements add those no-fault benefits. Symbol 5 marks owned autos subject to no-fault."
     }
    ],
    "beats": [
     {
-     "text": "Now endorsements. Drive Other Car gives a named person, like an executive with a company car and no personal policy, non-owned auto coverage like a personal auto policy.",
-     "say": "Now endorsements. Drive Other Car gives a named person, like an executive with a company car and no personal policy, non-owned auto coverage like a personal auto policy.",
-     "show": 1
+     "text": "Next, my endorsement toolbox. Tap the five glowing spots.",
+     "say": "Next, my endorsement toolbox. Tap the five glowing spots.",
+     "voice": "dana"
+    }
+   ],
+   "reveal": [
+    {
+     "text": "Drive Other Car covers a named person in autos they don't own. Individual Named Insured fits a sole proprietor and family.",
+     "say": "Drive Other Car covers a named person in autos they don't own. Individual Named Insured fits a sole proprietor and family."
     },
     {
-     "text": "Individual Named Insured is for an individual, like a sole proprietor. It adds personal-auto-type coverage for that person and family members.",
-     "say": "Individual Named Insured is for an individual, like a sole proprietor. It adds personal-auto-type coverage for that person and family members.",
-     "show": 2
-    },
-    {
-     "text": "The lessor endorsement makes the leasing company an insured, and treats a scheduled leased auto as one you own. The Mobile Equipment endorsement treats scheduled vehicles as covered autos, but liability excludes operating their attached machinery.",
-     "say": "The lessor endorsement makes the leasing company an insured, and treats a scheduled leased auto as one you own. The Mobile Equipment endorsement treats scheduled vehicles as covered autos, but liability excludes operating their attached machinery.",
-     "show": 4
-    },
-    {
-     "text": "The Business Auto form has no PIP section. In Michigan, PIP and PPI endorsements add those benefits. Symbol 5 means owned autos subject to no-fault.",
-     "say": "The Business Auto form has no P I P section. In Michigan, P I P and P P I endorsements add those benefits. Symbol five means owned autos subject to no-fault.",
-     "show": 5
+     "text": "Scheduled mobile equipment becomes a covered auto, but liability won't cover operating its machinery.",
+     "say": "Scheduled mobile equipment becomes a covered auto, but liability won't cover operating its machinery."
     }
    ]
   },
   {
    "type": "quiz",
-   "q": "A Michigan plumbing company insures its vans under the 2020 Business Auto Coverage Form. Its Michigan no-fault PIP is provided by:",
+   "q": "Tony's Pizza insures its Michigan vans under the 2020 ISO Business Auto Coverage Form. Their Michigan no-fault PIP is provided by:",
    "choices": [
     "Covered Autos Liability Coverage",
-    "The company's workers' compensation policy",
+    "Tony's workers' compensation policy",
     "A Michigan Personal Injury Protection endorsement",
     "Comprehensive Coverage"
    ],
    "answer": 2,
-   "why": "The Business Auto form has no PIP section. ISO's Michigan Personal Injury Protection endorsement adds the PIP that Michigan's no-fault law requires.",
+   "why": "The Business Auto form has no PIP section. The Michigan Personal Injury Protection endorsement adds the PIP that Michigan's no-fault law requires.",
+   "draw": [
+    {
+     "id": "mi",
+     "p": "michigan",
+     "x": 26,
+     "y": 24,
+     "h": 34,
+     "opt": {
+      "pin": "detroit",
+      "pinLabel": "Detroit"
+     }
+    },
+    {
+     "id": "van",
+     "p": "van",
+     "x": 52,
+     "y": 56,
+     "h": 15,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     }
+    },
+    {
+     "p": "question",
+     "x": 66,
+     "y": 20,
+     "h": 16,
+     "color": "blue"
+    }
+   ],
    "beats": [
     {
-     "text": "Your turn. A Michigan plumbing company insures its vans on the Business Auto form. What provides its Michigan no-fault PIP? Pick an answer.",
-     "say": "Your turn. A Michigan plumbing company insures its vans on the Business Auto form. What provides its Michigan no-fault P I P? Pick an answer."
+     "text": "Quick check: what gives Tony's Michigan vans their PIP?",
+     "say": "Quick check: what gives Tony's Michigan vans their P I P?"
     }
    ],
    "reveal": [
     {
-     "text": "The answer is a Michigan Personal Injury Protection endorsement. The Business Auto form itself has no PIP section.",
-     "say": "The answer is a Michigan Personal Injury Protection endorsement. The Business Auto form itself has no P I P section."
+     "text": "A Michigan Personal Injury Protection endorsement: the Business Auto form has no PIP section. PPI comes by endorsement too.",
+     "say": "A Michigan Personal Injury Protection endorsement: the Business Auto form has no P I P section. P P I comes by endorsement too."
     }
    ]
   },
   {
-   "type": "bignum",
-   "title": "Motor Carrier Act of 1980: federal minimums",
-   "src": "49 CFR 387.9; 387.15",
-   "items": [
+   "type": "sketch",
+   "title": "Big rigs: federal minimum limits",
+   "src": "Motor Carrier Act of 1980; 49 CFR 387.9; 387.15; question auto-066",
+   "draw": [
     {
-     "value": "$750,000",
-     "label": "For-hire, nonhazardous, GVWR 10,001 lbs or more"
+     "id": "s1",
+     "p": "semi",
+     "x": 30,
+     "y": 12,
+     "h": 13,
+     "opt": {
+      "name": "FLOUR"
+     },
+     "anim": "slide-r",
+     "cue": "rigs"
     },
     {
-     "value": "$1 million",
-     "label": "Oil, hazardous waste, most hazmat"
+     "id": "n1",
+     "p": "num",
+     "text": "$750,000",
+     "x": 82,
+     "y": 12,
+     "size": 8,
+     "color": "green",
+     "at": 1
     },
     {
-     "value": "$5 million",
-     "label": "Certain bulk hazmat, explosives, radioactive"
+     "p": "label",
+     "text": "For hire, interstate, nonhazardous, 10,001 lbs or more",
+     "x": 134,
+     "y": 12,
+     "size": 3.6,
+     "w": 44,
+     "at": 1
     },
     {
-     "value": "MCS-90",
-     "label": "Endorsement that proves coverage"
+     "id": "s2",
+     "p": "semi",
+     "x": 30,
+     "y": 31,
+     "h": 13,
+     "opt": {
+      "name": "OIL",
+      "color": "orange",
+      "trailer": "orange"
+     },
+     "at": 2,
+     "cue": "Oil"
+    },
+    {
+     "p": "icon",
+     "name": "flame",
+     "x": 52,
+     "y": 31,
+     "h": 7,
+     "color": "orange",
+     "at": 2,
+     "cue": "Oil"
+    },
+    {
+     "id": "n2",
+     "p": "num",
+     "text": "$1 million",
+     "x": 82,
+     "y": 31,
+     "size": 8,
+     "color": "orange",
+     "at": 2,
+     "cue": "Oil"
+    },
+    {
+     "p": "label",
+     "text": "Oil, most hazardous materials",
+     "x": 134,
+     "y": 31,
+     "size": 3.6,
+     "w": 44,
+     "at": 2,
+     "cue": "Oil"
+    },
+    {
+     "id": "s3",
+     "p": "semi",
+     "x": 30,
+     "y": 50,
+     "h": 13,
+     "opt": {
+      "name": "EXPLOSIVES",
+      "color": "red",
+      "trailer": "red"
+     },
+     "at": 2,
+     "cue": "explosives"
+    },
+    {
+     "p": "icon",
+     "name": "triangle-alert",
+     "x": 52,
+     "y": 50,
+     "h": 7,
+     "color": "red",
+     "at": 2,
+     "cue": "explosives"
+    },
+    {
+     "id": "n3",
+     "p": "num",
+     "text": "$5 million",
+     "x": 82,
+     "y": 50,
+     "size": 8,
+     "color": "red",
+     "at": 2,
+     "cue": "explosives"
+    },
+    {
+     "p": "label",
+     "text": "Certain bulk hazmat, explosives, radioactive",
+     "x": 134,
+     "y": 50,
+     "size": 3.6,
+     "w": 44,
+     "at": 2,
+     "cue": "explosives"
+    },
+    {
+     "id": "mcs",
+     "p": "label",
+     "text": "Proof: the MCS-90 endorsement",
+     "x": 82,
+     "y": 62,
+     "size": 4.2,
+     "bold": true,
+     "box": true,
+     "at": 3
     }
    ],
    "beats": [
     {
-     "text": "Finally, federal rules under the Motor Carrier Act of 1980. A for-hire interstate carrier hauling nonhazardous property in vehicles of 10,001 pounds or more needs at least $750,000.",
-     "say": "Finally, federal rules under the Motor Carrier Act of nineteen eighty. A for-hire interstate carrier hauling nonhazardous property in vehicles of ten thousand one pounds or more needs at least seven hundred fifty thousand dollars.",
-     "show": 1
+     "text": "Finally, big rigs, like the semi hauling Tony's flour. The Motor Carrier Act of 1980 sets federal minimum limits.",
+     "say": "Finally, big rigs, like the semi hauling Tony's flour. The Motor Carrier Act of nineteen eighty sets federal minimum limits."
     },
     {
-     "text": "Oil and most hazardous materials need $1 million. Certain bulk hazardous substances, explosives and radioactive materials need $5 million. Proof is the MCS-90 endorsement.",
-     "say": "Oil and most hazardous materials need one million dollars. Certain bulk hazardous substances, explosives and radioactive materials need five million dollars. Proof is the M C S ninety endorsement.",
-     "show": 4
+     "text": "For-hire interstate carriers of nonhazardous property, in vehicles of 10,001 pounds or more, need at least $750,000.",
+     "say": "For-hire interstate carriers of nonhazardous property, in vehicles of ten thousand one pounds or more, need at least seven hundred fifty thousand dollars.",
+     "hl": "n1"
+    },
+    {
+     "text": "Oil and most hazardous materials need $1 million. Certain bulk hazardous substances, explosives and radioactive materials need $5 million.",
+     "say": "Oil and most hazardous materials need one million dollars. Certain bulk hazardous substances, explosives and radioactive materials need five million dollars.",
+     "hl": [
+      "n2",
+      "n3"
+     ]
+    },
+    {
+     "text": "Proof of coverage: the MCS-90 endorsement.",
+     "say": "Proof of coverage: the M C S ninety endorsement.",
+     "hl": "mcs"
     }
    ]
   },
   {
    "type": "recap",
    "items": [
-    "Truckers: hauling for hire; Motor Carrier: for-hire and private",
-    "Symbols: 1 any, 2 to 6 owned, 7 described, 8 hired, 9 non-owned",
-    "Business Auto bail bonds: $2,000; personal auto: $250",
+    "Symbols: 1 any, 2-6 owned, 7 described, 8 hired, 9 non-owned",
+    "Symbol 7: tell the insurer about a new auto within 30 days",
+    "Specified Causes is a named list: no deer, no glass breakage",
     "Garagekeepers: legal liability, direct excess, direct primary",
-    "Michigan PIP and PPI come by endorsement; symbol 5 for no-fault"
+    "Business Auto bail bonds: $2,000. Michigan PIP, PPI: by endorsement"
+   ],
+   "draw": [
+    {
+     "id": "van",
+     "p": "van",
+     "x": 40,
+     "y": 58,
+     "h": 13,
+     "opt": {
+      "name": "TONY'S PIZZA",
+      "color": "red"
+     }
+    },
+    {
+     "id": "tony",
+     "p": "person",
+     "x": 16,
+     "y": 26,
+     "h": 30,
+     "opt": {
+      "who": "tony",
+      "pose": "cheer",
+      "mood": "laugh",
+      "hold": "pizza"
+     }
+    },
+    {
+     "id": "dana",
+     "p": "person",
+     "x": 40,
+     "y": 26,
+     "h": 29,
+     "opt": {
+      "who": "dana",
+      "pose": "wave",
+      "mood": "happy"
+     }
+    },
+    {
+     "id": "gus",
+     "p": "person",
+     "x": 64,
+     "y": 26,
+     "h": 29,
+     "opt": {
+      "who": "worker",
+      "pose": "cheer",
+      "mood": "happy"
+     }
+    }
    ],
    "beats": [
     {
-     "text": "Let's recap the key points on screen. Pause if you want to review them.",
-     "say": "Let's recap the key points on screen. Pause if you want to review them.",
+     "text": "What a ride! Hired is 8, non-owned is 9, and direct primary pays first.",
+     "say": "What a ride! Hired is eight, non-owned is nine, and direct primary pays first.",
+     "show": 5
+    },
+    {
+     "text": "And the pizza still gets there hot.",
+     "say": "And the pizza still gets there hot.",
+     "voice": "tony",
      "show": 5
     }
    ]
   }
  ],
  "check": [
+  "auto-060",
   "auto-061",
-  "auto-062",
   "auto-063",
-  "auto-066",
+  "auto-gap-16",
   "auto-gap-30"
  ],
- "hooks": [],
+ "hooks": [
+  "mn-mn_auto-24",
+  "mn-mn_auto-25"
+ ],
  "sources": [
   "ISO CA 00 01 11 20 (Business Auto Coverage Form), Sections I-V",
   "ISO CA 00 10 03 10 (Business Auto Physical Damage)",
@@ -476,10 +2638,12 @@
   "ISO CA 00 12 10 01 (Truckers); ISO CA 00 20 03 10 (Motor Carrier); FC&S",
   "ISO CA 99 37 10 01 (Garagekeepers)",
   "CA 99 10 Drive Other Car (IRMI)",
-  "CA 99 17 Individual Named Insured (industry summaries)",
-  "CA 20 01 11 20 (Lessor - Additional Insured and Loss Payee)",
+  "ISO CA 99 17 10 01 (Individual Named Insured)",
+  "ISO CA 20 01 11 20 (Lessor - Additional Insured and Loss Payee)",
   "CA 20 15 Mobile Equipment (FC&S 2015; Rough Notes 2022)",
   "CA 22 20 and CA 22 24 (Michigan PIP and PPI endorsements, Wolters Kluwer list)",
-  "49 CFR 387.9; 387.15"
+  "ISO PP 00 01 09 18 (Personal Auto Policy), Part A Supplementary Payments",
+  "49 CFR 387.9; 387.15 (Motor Carrier Act of 1980)",
+  "Memory hooks mn_auto-24 and mn_auto-25"
  ]
 }
