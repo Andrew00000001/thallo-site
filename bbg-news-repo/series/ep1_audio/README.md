@@ -14,5 +14,17 @@ These are original AI voices: Higgsfield `seed_audio` presets, cast in `../voice
 | `sanchez/sanchez_c3_l2_…` | "But look at it." | **Retake.** There is no lift on "look"; it falls flat into fry. |
 | `sanchez/sanchez_c4_home` | "Home." | **Retake.** Half the frames are creaky fry (median 75 Hz), not the proud chest voice the shot needs. |
 | `sanchez/sanchez_c5_mayday` | "...Mayday." | OK; the small, resigned read the shot needs. |
+| `oliver/oliver_c2_l1_…` | "Sanchez! Buddy! You look GREAT!" | OK. Bright and bouncy: median 231 Hz, lifting up to +12 semitones. |
+| `oliver/oliver_c2_l2_fry` | "...Fry?" | Usable. It rises like a question (102→169 Hz) but is breathy and quiet, which suits the full mouth; muffle it in post. A voiced retake is queued. |
+| `oliver/oliver_c4_…` | "...That's THEIR ship." | **Retake.** It came out whispered (HNR 0.4 dB): the leading "..." seems to trigger a whisper. It is queued again without the ellipsis, so the pause is made in the edit. |
 
-Generated 2026-10-23: B-1000 job 800f594e-fa20-4969-a00e-bade032be576 (Orion); Sanchez job f400bc09-2919-4429-83ab-d533677b3a67 (Jasper). Still to come: B-1000's "Tee-hee" (3-4 takes), Oliver's lines (John), and Sanchez's two retakes, with Fraser on the same two lines for comparison.
+Jobs:
+- 2026-10-23: B-1000 800f594e-fa20-4969-a00e-bade032be576 (Orion) and Sanchez f400bc09-2919-4429-83ab-d533677b3a67 (Jasper).
+- 2026-10-24: Oliver 1de57d6c-0ec1-4e27-86e5-730987586c9e (John).
+
+Still to come:
+- B-1000's "Tee-hee" (3-4 takes);
+- Sanchez's two retakes, plus Fraser on the same two lines for comparison;
+- Oliver's C4 retake and a voiced "Fry?".
+
+**Lesson:** a line that opens with "..." comes out whispered or breathy in `seed_audio`, so put pauses in the edit instead.
