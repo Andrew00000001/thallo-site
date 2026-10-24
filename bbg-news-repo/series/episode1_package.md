@@ -22,6 +22,15 @@ The teaser path:
 
 Higgsfield's 5-a-day generation limit sets this pace.
 
+**Status on 2026-10-24:**
+- The C1 start still passed (job de69723e). The C1 clip, take 1, passed its checklist on the 0-8.4 s window (Seedance job e17fe146, 45 credits). From about 8.7 s the claws fan out.
+- The draft teaser is in `ep1_edit/teaser_draft_v1.mp4`, waiting on Bryce's review.
+- Voices:
+  - B-1000: all lines done.
+  - Sanchez: 3 of 5 lines done; "But look at it." and "Home." are retaken Oct 25.
+  - Oliver: 2 of 3 lines done; C4 is retaken Oct 25.
+- The B-1000 Element is live. Oliver's waits for his review panel. The Huggable needs a fresh sheet before C5's blue sheet.
+
 
 1. **The Higgsfield Elements are still the old low-poly ones.** A read-only listing of the workspace on 2026-10-20 shows `oliver-soldier` (5e079b47…), `huggable-huggable` (e188dc42…) and `riggs-heavy` (1475a232…), all created on Oct 15 from the retired low-poly sheets (their descriptions say "low-poly"). No Element has been made from any SHEETS.md sheet, and there is no `b-1000-assault-signature` Element at all.
    - Create the new Elements from the SHEETS.md jobs (type `image_job`): B-1000 from the fixed sheet once blocker 5 clears (the current sheet is `1f7259ce-23ed-4398-9a91-cdbf429dfeed`; use it only under Bryce's recorded exception), Oliver `909ea0bd-843e-4324-ae88-193c2eeb84cb`; Sanchez and the blue Huggable once their sheets pass QA. Creating an Element cost nothing on Oct 15.

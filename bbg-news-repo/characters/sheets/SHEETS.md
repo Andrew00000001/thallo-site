@@ -16,10 +16,10 @@ These are the Element sheets: one 4K model sheet per character, in the feature-f
 
 | Character | Element | Job ID | Generated | QA |
 |---|---|---|---|---|
-| Oliver | `oliver-soldier` | 992ff073-17f3-42d4-bf96-0d7cd3fbbcba (edit of the mirrored 909ea0bd) | 2026-10-23 | Fix (back plate size queued) |
+| Oliver | `oliver-soldier` | 05fde0f3-ebdf-4a32-b5e8-859813f4ebe2 (smaller-plate edit of 992ff073) | 2026-10-24 | Minor, pending the review panel |
 | Riggs | `riggs-heavy` | 769625a1-c662-4d45-9974-728a213bf4e6 | 2026-10-19 | Minor |
 | Tillman | `tillman-demolition` | 17b76e5f-993a-4ecd-913d-afe450592e59 (edit of 09ba5b80) | 2026-10-21 | Redo (queued) |
-| Huggable | `huggable-huggable` | b2a3f65d-8cfd-4e1b-a9f8-cf8cabc80828 (edit of 0680a612) | 2026-10-21 | Fix (queued) |
+| Huggable | `huggable-huggable` | ed4c96c6-9431-423e-ad16-06d07f27bccd (eye-move edit of the mirrored b2a3f65d) | 2026-10-24 | Fix (fresh sheet queued) |
 | Astoria | `astoria-sniper` | 64d65c16-9fee-4a3d-a172-1069e1f65869; mirrored upload fcc7f1f4-8599-4812-b509-b0782b6f53a5 | 2026-10-20 | Fix (queued), mirrored |
 | Wil | `wil-chub-scout` | 5b633f8e-10ee-445f-ba46-ba62e1b26f90 (edit of 20f40c63); colour-corrected upload 3f87c967-2748-43d4-9c5b-dd11962459de | 2026-10-22 | Minor (fix queued) |
 | Graham | `graham-engineer` | 55c688d8-bcd6-4a48-9060-b21ef3051a2a (edit of a0a6b54f); mirrored upload d70599fa-9bd9-48b6-b88f-a4884ecce247 | 2026-10-21 | Minor, mirrored |
@@ -56,6 +56,9 @@ Not created yet, and waiting for their queued fixes: Oliver, Botch, Astoria, Sab
   - Still wrong: the plate is a little wider than before and ends only about 55 px above his tail. The soul wants it about shoulder-blade width and well above the tail.
   - A smaller-plate edit is queued for Oct 24. His Element waits for it, because his first clip (C2) comes after the teaser.
   - Minor: the headband and straps lean raspberry, the stud rings are lilac, the fur is a little ginger, and he has a belly patch and a tail that the soul doesn't mention.
+- **Oliver, Oct 24 update:**
+  - The smaller-plate edit shrank the plate about 12% and roughly doubled the fur gap above the tail (about 120 px at full resolution). The nose and the smirk side held.
+  - I rate it minor. The review panel failed twice on a server overload (API 529) and re-runs on Oct 25; his Element is created if it passes.
 - **Riggs: minor** (second review panel). No fails. The small notes: a grey centre strip on the helmet and a tail, neither in the soul, and slight scale differences between the views.
 - **Tillman: redo** (second review panel). The Oct 21 edit fixed the eye rims and swapped the treads for wheels, but the panel found that the design misses the soul in many places:
   - the back bar is a small plain box, not a long striped bar across both shoulders;
@@ -73,7 +76,9 @@ Not created yet, and waiting for their queued fixes: Oliver, Botch, Astoria, Sab
     - The sheet has been mirrored locally, which puts the bandage and radio on its right but the button eye on its left.
     - The queued edit moves the button eye and its stitches under the bandage.
     - The Oct 22 try was refused by Higgsfield's content filter, a false positive on a plush toy; it was not charged. It is queued again with plainer wording.
-  - The preview here is the unmirrored edit.
+  - The Oct 24 eye-move edit (third try, `ed4c96c6`) kept the paws, bandage and radio right, but the button eye stayed on its left, away from the bandage. Edits can't move it.
+  - Next: a fresh sheet from the Element prompt with an explicit "the button eye sits directly beneath the bandage" clause, queued for Oct 25. The blue C5 Huggables depend on it.
+  - The preview here is the Oct 24 edit.
 - **Astoria: fix, mirrored** (second review panel).
   - Right: the mirrored sides, cream plush, teal heavy-lidded eyes, red gloves, the quilted maroon belt and the red-and-white boots.
   - Wrong:
