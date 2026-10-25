@@ -31,6 +31,19 @@ Higgsfield's 5-a-day generation limit sets this pace.
   - Oliver: 2 of 3 lines done; C4 is retaken Oct 25.
 - The B-1000 Element is live. Oliver's waits for his review panel. The Huggable needs a fresh sheet before C5's blue sheet.
 
+**Status on 2026-10-25:**
+- Elements:
+  - `oliver-soldier` is live (74170e99); the review panel rated his sheet usable.
+  - Live now: Sanchez, B-1000 and Oliver, so every C2-C4 character has an Element.
+- The fresh Huggable sheet failed: the radio went to its left, apart from the button eye. Sheet v4 runs Oct 26 with every sided feature in viewer terms. C5 waits on it and then on the blue sheet.
+- Voices:
+  - B-1000's "Tee-hee" is picked.
+  - Sanchez's "But LOOK at it!" now lifts.
+  - Jasper failed "Home" a second time and Fraser passed it, so Fraser records the full Sanchez set on Oct 26 for a whole-set comparison.
+  - Oliver's C4 came out breathy again; three variants run Oct 26.
+- Oct 26 runs P3 (C4 is the riskiest shot) and P2. P4 and the C4 and C2 start stills follow Oct 27.
+- Credits: 106.12.
+
 
 1. **The Higgsfield Elements are still the old low-poly ones.** A read-only listing of the workspace on 2026-10-20 shows `oliver-soldier` (5e079b47…), `huggable-huggable` (e188dc42…) and `riggs-heavy` (1475a232…), all created on Oct 15 from the retired low-poly sheets (their descriptions say "low-poly"). No Element has been made from any SHEETS.md sheet, and there is no `b-1000-assault-signature` Element at all.
    - Create the new Elements from the SHEETS.md jobs (type `image_job`): B-1000 from the fixed sheet once blocker 5 clears (the current sheet is `1f7259ce-23ed-4398-9a91-cdbf429dfeed`; use it only under Bryce's recorded exception), Oliver `909ea0bd-843e-4324-ae88-193c2eeb84cb`; Sanchez and the blue Huggable once their sheets pass QA. Creating an Element cost nothing on Oct 15.

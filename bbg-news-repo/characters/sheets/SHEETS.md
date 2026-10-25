@@ -16,10 +16,10 @@ These are the Element sheets: one 4K model sheet per character, in the feature-f
 
 | Character | Element | Job ID | Generated | QA |
 |---|---|---|---|---|
-| Oliver | `oliver-soldier` | 05fde0f3-ebdf-4a32-b5e8-859813f4ebe2 (smaller-plate edit of 992ff073) | 2026-10-24 | Minor, pending the review panel |
+| Oliver | `oliver-soldier` | 05fde0f3-ebdf-4a32-b5e8-859813f4ebe2 (smaller-plate edit of 992ff073); colour-corrected upload d6b281ee-b656-43eb-adf3-b5d1c5c2b251 | 2026-10-24 | Minor (Element created) |
 | Riggs | `riggs-heavy` | 769625a1-c662-4d45-9974-728a213bf4e6 | 2026-10-19 | Minor |
 | Tillman | `tillman-demolition` | 17b76e5f-993a-4ecd-913d-afe450592e59 (edit of 09ba5b80) | 2026-10-21 | Redo (queued) |
-| Huggable | `huggable-huggable` | ed4c96c6-9431-423e-ad16-06d07f27bccd (eye-move edit of the mirrored b2a3f65d) | 2026-10-24 | Fix (fresh sheet queued) |
+| Huggable | `huggable-huggable` | ed4c96c6-9431-423e-ad16-06d07f27bccd (eye-move edit of the mirrored b2a3f65d); fresh sheet ec18b2c0-85a9-4d6a-8a5b-3196043ae532 (Oct 25) also fails | 2026-10-24 | Fix (fresh v4 queued) |
 | Astoria | `astoria-sniper` | 64d65c16-9fee-4a3d-a172-1069e1f65869; mirrored upload fcc7f1f4-8599-4812-b509-b0782b6f53a5 | 2026-10-20 | Fix (queued), mirrored |
 | Wil | `wil-chub-scout` | 5b633f8e-10ee-445f-ba46-ba62e1b26f90 (edit of 20f40c63); colour-corrected upload 3f87c967-2748-43d4-9c5b-dd11962459de | 2026-10-22 | Minor (fix queued) |
 | Graham | `graham-engineer` | 55c688d8-bcd6-4a48-9060-b21ef3051a2a (edit of a0a6b54f); mirrored upload d70599fa-9bd9-48b6-b88f-a4884ecce247 | 2026-10-21 | Minor, mirrored |
@@ -41,10 +41,11 @@ Created on 2026-10-22, after Bryce deleted the old Elements. To use one, put `<<
 | `saberi-combat-tech` | a0bb390a-5997-4e83-bf0b-1320e20d27b9 | mirrored upload bf7b803c |
 | `sanchez-arbiter` | e6122a2f-99de-423a-a310-733554bf48bb | locally fixed upload c143c1df |
 | `b-1000-assault-signature` | afb181b2-d8e7-47d3-8426-df01bf99e80c | maroon-corrected upload 28e42805 (created 2026-10-23) |
+| `oliver-soldier` | 74170e99-a46a-4c7d-857c-d3046b839374 | colour-corrected upload d6b281ee of job 05fde0f3 (created 2026-10-25) |
 
-**Deleted:** Bryce deleted the stale Oliver, Botch, Astoria and Saberi Elements, and a listing confirmed it on 2026-10-22. The second review panel had found real errors in those sheets. Their rows above are kept for history only. The current Elements are `sanchez-arbiter`, `riggs-heavy` and `b-1000-assault-signature`.
+**Deleted:** Bryce deleted the stale Oliver, Botch, Astoria and Saberi Elements, and a listing confirmed it on 2026-10-22. The second review panel had found real errors in those sheets. Their rows above are kept for history only; the first `oliver-soldier` row (85977ecb) is one of them. The current Elements are `sanchez-arbiter`, `riggs-heavy`, `b-1000-assault-signature` and, from 2026-10-25, `oliver-soldier` (74170e99).
 
-Not created yet, and waiting for their queued fixes: Oliver, Botch, Astoria, Saberi, Wil, the Huggable (red and blue), Graham and Tillman. The checked prompts for the fresh Tillman and Saberi sheets and the Astoria edit are in the research scratchpad (`shorts/sheets_v2/redo_prompts.json`).
+Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil, the Huggable (red and blue), Graham and Tillman. The checked prompts for the fresh Tillman and Saberi sheets and the Astoria edit are in the research scratchpad (`shorts/sheets_v2/redo_prompts.json`).
 
 ## QA notes
 
@@ -59,6 +60,12 @@ Not created yet, and waiting for their queued fixes: Oliver, Botch, Astoria, Sab
 - **Oliver, Oct 24 update:**
   - The smaller-plate edit shrank the plate about 12% and roughly doubled the fur gap above the tail (about 120 px at full resolution). The nose and the smirk side held.
   - I rate it minor. The review panel failed twice on a server overload (API 529) and re-runs on Oct 25; his Element is created if it passes.
+- **Oliver, Oct 25: minor, Element created.**
+  - Both lenses of the re-run panel rate the sheet usable as his Element. Nothing contradicts oliver.md.
+  - The asked edit barely landed: the plate is about 0.93× the old width and 0.91× the old height, not two-thirds. It still reads as roughly shoulder-blade width, set high, with a visible fur band above the tail.
+  - The sides are consistent in all four views (no mirror). The nose, smirk and brow fixes held.
+  - Minor drift: ginger-leaning fur, very dark brown pupils, a raspberry headband, lilac stud rings and a tan belly patch.
+  - The mauve background was white-balanced to neutral grey locally, uploaded (d6b281ee) and made the `oliver-soldier` Element (74170e99). A plate-only shrink can come later if it matters on screen.
 - **Riggs: minor** (second review panel). No fails. The small notes: a grey centre strip on the helmet and a tail, neither in the soul, and slight scale differences between the views.
 - **Tillman: redo** (second review panel). The Oct 21 edit fixed the eye rims and swapped the treads for wheels, but the panel found that the design misses the soul in many places:
   - the back bar is a small plain box, not a long striped bar across both shoulders;
@@ -79,6 +86,14 @@ Not created yet, and waiting for their queued fixes: Oliver, Botch, Astoria, Sab
   - The Oct 24 eye-move edit (third try, `ed4c96c6`) kept the paws, bandage and radio right, but the button eye stayed on its left, away from the bandage. Edits can't move it.
   - Next: a fresh sheet from the Element prompt with an explicit "the button eye sits directly beneath the bandage" clause, queued for Oct 25. The blue C5 Huggables depend on it.
   - The preview here is the Oct 24 edit.
+- **Huggable, Oct 25: the fresh sheet fails** (`ec18b2c0`, checked on full-resolution crops, so it did not go to the panel).
+  - Right: the button eye and its scar are on its right (the viewer's left), the paws are pink plush, the jaws, the cuffed inset paw and the banner (circle, triangle, square) are right.
+  - Wrong:
+    - the bandage crosses the forehead to its left, and the radio sits on its left;
+    - its right ear is bare instead of under the bandage;
+    - it has a pale muzzle patch with a nose; the soul says no separate muzzle.
+  - Diagnosis: the model reads a bare "right" as image-right, and only the eye clause said "the viewer's left". So every attempt has split the eye from the radio.
+  - Next (Oct 26, v4): a fresh sheet that places every sided feature in viewer terms (the bandage, radio, scar and button eye on the viewer's left in the front view, the bare ear and bead eye on the viewer's right), and the grin set straight into the pink face fur. If they all land together on the wrong side, the whole sheet is mirrored, which is allowed.
 - **Astoria: fix, mirrored** (second review panel).
   - Right: the mirrored sides, cream plush, teal heavy-lidded eyes, red gloves, the quilted maroon belt and the red-and-white boots.
   - Wrong:
@@ -160,13 +175,15 @@ Not created yet, and waiting for their queued fixes: Oliver, Botch, Astoria, Sab
 
 ## Queued for the next daily reset
 
-Episode 1 now shares the daily limit, so the plan for each reset is in the research scratchpad (`shorts/sheets_v2/run_oct24.json`). Oct 24 runs:
+Episode 1 now shares the daily limit, so the plan for each reset is in the research scratchpad (`shorts/sheets_v2/run_oct26.json`). Oct 26 runs:
 
-1. C1 start still.
-2. C1 clip.
-3. Oliver's smaller back plate.
-4. The Huggable's button eye.
-5. Oliver's voice lines.
+1. Sanchez's five lines in Fraser's voice, for a whole-set comparison with Jasper.
+2. Three variants of Oliver's C4 line.
+3. Plate P3.
+4. Plate P2.
+5. The Huggable, fresh sheet v4.
+
+Oct 27: plate P4, the blue Huggable if v4 passes, and the C4 and C2 start stills.
 
 Later:
 - Botch;

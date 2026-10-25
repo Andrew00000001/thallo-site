@@ -12,6 +12,8 @@ Bryce ruled on 2026-10-20 that voices may be original AI voices: Higgsfield pres
 
 Generate with `seed_audio`, `voice_type: preset`. If a take fails on the points under "Watch for" below, switch to the runner-up for that character.
 
+**Under review (2026-10-25):** Sanchez. Jasper twice sank into fry on "Home", where Fraser gave a proud, voiced "Home!" (`ep1_audio/README.md`). Fraser records all five lines on Oct 26. Sanchez moves to Fraser only if that whole set passes. Fraser's core (about 90 Hz) stays an octave under John's (about 174 Hz), so the C2-C4 pair stays distinct.
+
 ## How they were chosen (2026-10-22)
 
 1. **Transcripts.** Whisper transcribed all 44 male preset previews. Many are self-descriptions, which the old pitch-only shortlist could not see. Brooks, for example, calls himself "soothing… gentle middle American clarity", which is wrong for Sanchez.
