@@ -44,6 +44,11 @@ Higgsfield's 5-a-day generation limit sets this pace.
 - Oct 26 runs P3 (C4 is the riskiest shot) and P2. P4 and the C4 and C2 start stills follow Oct 27.
 - Credits: 106.12.
 
+**Status on 2026-10-26:**
+- Bryce dropped the animated shorts: Episode 1 is now an Instagram comic carousel, adapted from this package in `series/comic_ep1/SCRIPT.md` (with `pages.json`, `teaser_pages.json` and `panels.json`). The comic needs no voices, music, Seedance clips, plate P4 or the C2/C4 start stills, so those are dropped; the approved C1 still and clip, P1, P2 and P3 are reused.
+- The comic plan from Oct 27 (SCRIPT.md §7): Oct 27, the cover G01 first, the Huggable red-sheet fix edit of v4 (`321fe5d6`), then G02, G03 and G07; Oct 28, the blue Huggable edit, then G05, G06, G09 and G04, and the teaser posts at about 12:00; the blue Element Oct 29 at the earliest, then the Huggable panel G08 on Oct 29–30, with a fallback by Oct 31. 9 new generations, 22 credits.
+- The comic draws the jump pad as the approved P1 and C1 still do (a flat, softly glowing pale-cyan square with a light-grey rim), not this package's derived octagon (§2, open item 4); see SCRIPT.md open item 12.
+
 
 1. **The Higgsfield Elements are still the old low-poly ones.** A read-only listing of the workspace on 2026-10-20 shows `oliver-soldier` (5e079b47…), `huggable-huggable` (e188dc42…) and `riggs-heavy` (1475a232…), all created on Oct 15 from the retired low-poly sheets (their descriptions say "low-poly"). No Element has been made from any SHEETS.md sheet, and there is no `b-1000-assault-signature` Element at all.
    - Create the new Elements from the SHEETS.md jobs (type `image_job`): B-1000 from the fixed sheet once blocker 5 clears (the current sheet is `1f7259ce-23ed-4398-9a91-cdbf429dfeed`; use it only under Bryce's recorded exception), Oliver `909ea0bd-843e-4324-ae88-193c2eeb84cb`; Sanchez and the blue Huggable once their sheets pass QA. Creating an Element cost nothing on Oct 15.

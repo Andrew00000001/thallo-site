@@ -52,10 +52,15 @@ FONT_FILES = {
     "bangers": "Bangers-Regular.ttf",         # SFX and titles (OFL)
     "anton": "Anton-Regular.ttf",             # BBG News display face (OFL)
     "barlow": "Barlow-SemiBold.ttf",          # end card, placeholders (OFL)
-    "mono": "ShareTechMono-Regular.ttf",      # B-1000 HUD (OFL)
+    "rounded": "Nunito-VariableFont_wght.ttf",   # B-1000 HUD, ExtraBold 800 (OFL)
+    "rounded-black": "Nunito-VariableFont_wght.ttf",  # "LOCAL HAZARDS" sting, Black 900 (OFL)
+    "mono": "ShareTechMono-Regular.ttf",      # former HUD face, kept as the rounded fallback (OFL)
 }
+# Variable fonts: axis name -> value, applied whenever the key is loaded.
+FONT_AXES = {"rounded": {"Weight": 800}, "rounded-black": {"Weight": 900}}
 FALLBACK = {"comic": "barlow", "comic-italic": "comic", "comic-light": "comic",
-            "bangers": "anton", "anton": "barlow", "mono": "barlow"}
+            "bangers": "anton", "anton": "barlow", "mono": "barlow",
+            "rounded": "mono", "rounded-black": "rounded"}
 # Comic Neue draws every capital I with crossbars. Lettering convention keeps
 # the crossbar I for the pronoun only, so other capital I's use the plain
 # vertical stroke of the font's own lowercase l (same height, same weight).
@@ -77,7 +82,7 @@ DEFAULTS = {
                     fill="#ffffff", outline="#141414", outline_width=3.5, upper=True),
     "caption": dict(size=32, font="comic", bold="comic-italic", color="#141414",
                     fill="#fff1a8", outline="#141414", outline_width=3, upper=True),
-    "hud": dict(size=32, font="mono", bold="mono", color="#62f3ff",
+    "hud": dict(size=32, font="rounded", bold="rounded", color="#62f3ff",
                 fill="#05090ecc", outline="#62f3ffb0", outline_width=2, upper=True),
     "sfx": dict(size=None, font="bangers", fill="#ffe14d", fill2="#ff7a1a",
                 outline="#141414", angle=8, upper=True),
@@ -193,9 +198,13 @@ class FontBook:
     def font(self, key, px):
         path, eff = self.resolve(key)
         px = max(1, int(round(px)))
-        ck = (path, px)
+        axes = FONT_AXES.get(eff)
+        ck = (path, px, tuple(sorted(axes.items())) if axes else None)
         if ck not in self.cache:
-            self.cache[ck] = ImageFont.truetype(path, px)
+            f = ImageFont.truetype(path, px)
+            if axes:
+                set_axes(f, axes, eff)
+            self.cache[ck] = f
         return self.cache[ck], eff
 
     def raw(self, path, px):
@@ -214,6 +223,20 @@ class FontBook:
             probe = ImageFont.truetype(font.path, 48)
             self.cover[ck] = _glyph_bytes(probe, ch) != _glyph_bytes(probe, "￿")
         return self.cover[ck]
+
+
+def set_axes(font, axes, key):
+    """Set a variable font's axes by name (e.g. {"Weight": 800})."""
+    try:
+        info = font.get_variation_axes()
+        values = []
+        for a in info:
+            name = a["name"].decode() if isinstance(a["name"], bytes) else str(a["name"])
+            v = axes.get(name, a.get("default"))
+            values.append(min(max(v, a["minimum"]), a["maximum"]))
+        font.set_variation_by_axes(values)
+    except (OSError, AttributeError, KeyError) as e:
+        warn("font %r: could not set axes %s (%s); using its default instance" % (key, axes, e))
 
 
 def _glyph_bytes(font, ch):
@@ -973,7 +996,7 @@ def render_hud(spec, ctx):
     tw = max((w for _, w in lines), default=0) / SS
     live = bool(spec.get("live"))
     live_size = size * 0.86
-    live_font, _ = ctx.book.font(spec.get("live_font", "mono"), live_size * SS)
+    live_font, _ = ctx.book.font(spec.get("live_font", "rounded"), live_size * SS)
     live_w = (live_size * 0.62 + 0.45 * live_size) + live_font.getlength("LIVE") / SS
     live_h = live_size * 1.25 if live else 0
     content_w = max(tw, live_w if live else 0)
@@ -1302,13 +1325,17 @@ def render_display(spec, kind, ctx):
     if c2 and c2 != c1:
         grad = Image.new("RGBA", (LW, LH))
         gd = ImageDraw.Draw(grad)
-        for (glyphs, w, cap, sz), top in zip(rows, row_tops):
-            y0 = int(margin + top - bounce * big)
-            y1 = int(margin + top + cap + bounce * big)
-            for yy in range(max(0, y0), min(LH, y1 + 1)):
-                t = (yy - y0) / max(1, y1 - y0)
-                gd.line([(0, yy), (LW, yy)], fill=tuple(int(lerp(c1[i], c2[i], t)) for i in range(4)))
-        # area outside the rows (only reachable by bounce) keeps the end colours
+        bands = [(int(margin + top - bounce * big), int(margin + top + cap + bounce * big))
+                 for (glyphs, w, cap, sz), top in zip(rows, row_tops)]
+        for yy in range(LH):
+            # glyph parts above or below a row's cap band (Bangers ascenders, descenders)
+            # keep that row's end colour; between rows the split is halfway
+            for k, (y0, y1) in enumerate(bands):
+                nxt = bands[k + 1][0] if k + 1 < len(bands) else None
+                if yy <= y1 or nxt is None or yy < (y1 + nxt) / 2:
+                    t = min(1.0, max(0.0, (yy - y0) / max(1, y1 - y0)))
+                    break
+            gd.line([(0, yy), (LW, yy)], fill=tuple(int(lerp(c1[i], c2[i], t)) for i in range(4)))
         grad.putalpha(fill_m)
         layer.alpha_composite(grad)
     else:

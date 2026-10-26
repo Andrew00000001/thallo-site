@@ -1,0 +1,271 @@
+{
+ "canvas": [
+  1080,
+  1350
+ ],
+ "background": "#0d0d10",
+ "pages": [
+  {
+   "id": "t01",
+   "panels": [
+    {
+     "id": "t01a",
+     "rect": [
+      40,
+      40,
+      1000,
+      1270
+     ],
+     "image": "panels/t01a.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 0,
+     "faces": [
+      [
+       623,
+       579,
+       167,
+       167
+      ],
+      [
+       457,
+       673,
+       156,
+       156
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "hud",
+     "text": "BBG NEWS · LOCAL HAZARDS",
+     "panel": "t01a",
+     "box": [
+      72,
+      72,
+      560
+     ],
+     "size": 34
+    },
+    {
+     "type": "title",
+     "text": "WE'LL GETCHA",
+     "panel": "t01a",
+     "box": [
+      110,
+      170,
+      860
+     ]
+    },
+    {
+     "type": "title",
+     "text": "HOME",
+     "panel": "t01a",
+     "box": [
+      340,
+      306,
+      400
+     ]
+    },
+    {
+     "type": "sfx",
+     "text": "NOV 4",
+     "panel": "t01a",
+     "box": [
+      650,
+      1010,
+      330
+     ],
+     "angle": 8
+    },
+    {
+     "type": "hud",
+     "text": "SWIPE >>",
+     "panel": "t01a",
+     "box": [
+      810,
+      1222,
+      200
+     ],
+     "size": 30
+    }
+   ]
+  },
+  {
+   "id": "t02",
+   "panels": [
+    {
+     "id": "t02a",
+     "rect": [
+      40,
+      40,
+      1000,
+      560
+     ],
+     "image": "panels/t02a.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       440,
+       315,
+       116,
+       136
+      ]
+     ]
+    },
+    {
+     "id": "t02b",
+     "rect": [
+      40,
+      620,
+      490,
+      240
+     ],
+     "image": "panels/t02b.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    },
+    {
+     "id": "t02c",
+     "rect": [
+      550,
+      620,
+      490,
+      240
+     ],
+     "image": "panels/t02c.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    },
+    {
+     "id": "t02d",
+     "rect": [
+      40,
+      880,
+      330,
+      250
+     ],
+     "image": "panels/t02d.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       125,
+       930,
+       125,
+       130
+      ]
+     ]
+    },
+    {
+     "id": "t02e",
+     "rect": [
+      390,
+      880,
+      650,
+      250
+     ],
+     "image": "panels/t02e.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    }
+   ],
+   "letters": [
+    {
+     "type": "hud",
+     "text": "B-1000. LIVE.\nSCANNING LOCATION.",
+     "panel": "t02a",
+     "box": [
+      64,
+      60,
+      440
+     ],
+     "tail": [
+      498,
+      356
+     ],
+     "size": 34,
+     "live": true
+    },
+    {
+     "type": "hud",
+     "text": "HAZARD:\nCRASHED DROPSHIP.",
+     "panel": "t02b",
+     "box": [
+      56,
+      632,
+      400
+     ],
+     "tail": [
+      420,
+      745
+     ],
+     "size": 32
+    },
+    {
+     "type": "hud",
+     "text": "STATUS:\nSTILL CRASHED.",
+     "panel": "t02c",
+     "box": [
+      566,
+      632,
+      400
+     ],
+     "tail": [
+      930,
+      745
+     ],
+     "size": 32
+    },
+    {
+     "type": "hud",
+     "text": "LAUNCH PAD DESTINATION:\nTHE OTHER CRASHED DROPSHIP.",
+     "panel": "t02e",
+     "box": [
+      404,
+      892,
+      620
+     ],
+     "tail": [
+      763,
+      1040
+     ],
+     "size": 32
+    },
+    {
+     "type": "title",
+     "text": "LOCAL HAZARDS · NOV 4",
+     "box": [
+      60,
+      1150,
+      960
+     ],
+     "font": "rounded-black"
+    },
+    {
+     "type": "endcard",
+     "text": "Unofficial fan comic, not affiliated with SkyVu; characters © SkyVu."
+    }
+   ]
+  }
+ ]
+}

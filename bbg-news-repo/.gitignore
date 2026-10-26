@@ -2,3 +2,6 @@
 .told
 out/
 __pycache__/
+
+# Raw 4k panel downloads stay out of git (series/comic_ep1/SCRIPT.md §11)
+series/comic_ep1/src/

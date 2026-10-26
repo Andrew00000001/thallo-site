@@ -1,0 +1,1438 @@
+{
+ "canvas": [
+  1080,
+  1350
+ ],
+ "background": "#0d0d10",
+ "pages": [
+  {
+   "id": "s01",
+   "panels": [
+    {
+     "id": "p01",
+     "rect": [
+      40,
+      40,
+      1000,
+      1270
+     ],
+     "image": "panels/p01.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 0,
+     "faces": [
+      [
+       615,
+       525,
+       150,
+       150
+      ],
+      [
+       465,
+       610,
+       140,
+       140
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "hud",
+     "text": "BBG NEWS · LIVE\nLOCAL HAZARDS · EP 1",
+     "panel": "p01",
+     "box": [
+      64,
+      58,
+      520
+     ],
+     "size": 34
+    },
+    {
+     "type": "title",
+     "text": "WE'LL GETCHA",
+     "panel": "p01",
+     "box": [
+      110,
+      194,
+      860
+     ]
+    },
+    {
+     "type": "title",
+     "text": "HOME",
+     "panel": "p01",
+     "box": [
+      360,
+      330,
+      360
+     ]
+    },
+    {
+     "type": "hud",
+     "text": "DESTINATION: HOME?",
+     "panel": "p01",
+     "box": [
+      600,
+      930,
+      420
+     ],
+     "tail": [
+      700,
+      540
+     ],
+     "size": 34
+    },
+    {
+     "type": "hud",
+     "text": "SWIPE >>",
+     "panel": "p01",
+     "box": [
+      810,
+      1222,
+      200
+     ],
+     "size": 30
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "panels": [
+    {
+     "id": "p02",
+     "rect": [
+      40,
+      40,
+      1000,
+      640
+     ],
+     "image": "panels/p02.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       440,
+       352,
+       116,
+       136
+      ]
+     ]
+    },
+    {
+     "id": "p03",
+     "rect": [
+      40,
+      700,
+      490,
+      280
+     ],
+     "image": "panels/p03.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    },
+    {
+     "id": "p04",
+     "rect": [
+      550,
+      700,
+      490,
+      280
+     ],
+     "image": "panels/p04.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    },
+    {
+     "id": "p05",
+     "rect": [
+      40,
+      1000,
+      330,
+      310
+     ],
+     "image": "panels/p05.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       120,
+       1070,
+       140,
+       150
+      ]
+     ]
+    },
+    {
+     "id": "p06",
+     "rect": [
+      390,
+      1000,
+      650,
+      310
+     ],
+     "image": "panels/p06.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    }
+   ],
+   "letters": [
+    {
+     "type": "hud",
+     "text": "B-1000. LIVE.\nSCANNING LOCATION.",
+     "panel": "p02",
+     "box": [
+      64,
+      64,
+      450
+     ],
+     "tail": [
+      498,
+      396
+     ],
+     "size": 36,
+     "live": true
+    },
+    {
+     "type": "hud",
+     "text": "HAZARD:\nCRASHED DROPSHIP.",
+     "panel": "p03",
+     "box": [
+      56,
+      714,
+      400
+     ],
+     "tail": [
+      430,
+      846
+     ],
+     "size": 32
+    },
+    {
+     "type": "hud",
+     "text": "STATUS:\nSTILL CRASHED.",
+     "panel": "p04",
+     "box": [
+      566,
+      714,
+      400
+     ],
+     "tail": [
+      940,
+      846
+     ],
+     "size": 32
+    },
+    {
+     "type": "hud",
+     "text": "LAUNCH PAD DESTINATION:\nTHE OTHER CRASHED DROPSHIP.",
+     "panel": "p06",
+     "box": [
+      404,
+      1014,
+      620
+     ],
+     "tail": [
+      774,
+      1200
+     ],
+     "size": 32
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "panels": [
+    {
+     "id": "p07",
+     "rect": [
+      40,
+      40,
+      1000,
+      200
+     ],
+     "image": "panels/p07.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    },
+    {
+     "id": "p08",
+     "rect": [
+      40,
+      260,
+      1000,
+      700
+     ],
+     "image": "panels/p08.png",
+     "focus": [
+      0.55,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       590,
+       490,
+       200,
+       200
+      ]
+     ]
+    },
+    {
+     "id": "p09",
+     "rect": [
+      40,
+      980,
+      1000,
+      330
+     ],
+     "image": "panels/p09.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       230,
+       1054,
+       212,
+       221
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "title",
+     "text": "LOCAL HAZARDS",
+     "panel": "p07",
+     "box": [
+      70,
+      70,
+      700
+     ],
+     "font": "rounded-black"
+    },
+    {
+     "type": "sfx",
+     "text": "DUN-DUNN!",
+     "panel": "p07",
+     "box": [
+      790,
+      130,
+      220
+     ],
+     "angle": 6
+    },
+    {
+     "type": "caption",
+     "text": "The red food stand.",
+     "panel": "p08",
+     "box": [
+      64,
+      282,
+      560
+     ],
+     "size": 34
+    },
+    {
+     "type": "hud",
+     "text": "SUBJECT: OLIVER\nTHREAT LEVEL: FLUFFY",
+     "panel": "p08",
+     "box": [
+      64,
+      350,
+      450
+     ],
+     "tail": [
+      640,
+      500
+     ],
+     "size": 34
+    },
+    {
+     "type": "sfx",
+     "text": "CRUNCH!",
+     "panel": "p08",
+     "box": [
+      90,
+      740,
+      360
+     ],
+     "angle": 8
+    },
+    {
+     "type": "sfx",
+     "text": "KA-CHUNK!",
+     "panel": "p09",
+     "box": [
+      610,
+      1150,
+      400
+     ],
+     "angle": -6
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "panels": [
+    {
+     "id": "p10",
+     "rect": [
+      40,
+      40,
+      1000,
+      1270
+     ],
+     "image": "panels/p10.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       340,
+       300,
+       165,
+       170
+      ],
+      [
+       700,
+       1000,
+       190,
+       180
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "hud",
+     "text": "SUBJECT: SANCHEZ\nTHREAT LEVEL:\nPARTIAL UPGRADE",
+     "panel": "p10",
+     "box": [
+      64,
+      64,
+      380
+     ],
+     "tail": [
+      420,
+      304
+     ],
+     "size": 34
+    },
+    {
+     "type": "balloon",
+     "text": "Oliver, we'll getcha...",
+     "panel": "p10",
+     "box": [
+      440,
+      70,
+      470
+     ],
+     "tail": [
+      512,
+      418
+     ],
+     "size": 44
+    },
+    {
+     "type": "balloon",
+     "text": "...**home.**",
+     "panel": "p10",
+     "box": [
+      660,
+      270,
+      300
+     ],
+     "tail": [
+      516,
+      446
+     ],
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "panels": [
+    {
+     "id": "p11",
+     "rect": [
+      40,
+      40,
+      1000,
+      640
+     ],
+     "image": "panels/p11.png",
+     "focus": [
+      0.5,
+      0.55
+     ],
+     "border": 6,
+     "faces": [
+      [
+       465,
+       330,
+       190,
+       190
+      ]
+     ]
+    },
+    {
+     "id": "p12",
+     "rect": [
+      40,
+      700,
+      490,
+      610
+     ],
+     "image": "panels/p12.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       186,
+       949,
+       197,
+       197
+      ]
+     ]
+    },
+    {
+     "id": "p13",
+     "rect": [
+      550,
+      700,
+      490,
+      610
+     ],
+     "image": "panels/p13.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       550,
+       963,
+       490,
+       347
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "balloon",
+     "text": "Sanchez! Buddy! You look **GREAT!**",
+     "panel": "p11",
+     "box": [
+      64,
+      56,
+      440
+     ],
+     "tail": [
+      458,
+      470
+     ],
+     "size": 44
+    },
+    {
+     "type": "balloon",
+     "text": "...**FRY?**",
+     "panel": "p12",
+     "box": [
+      64,
+      718,
+      280
+     ],
+     "tail": [
+      250,
+      940
+     ],
+     "size": 52
+    },
+    {
+     "type": "sfx",
+     "text": "SSSSZZZ...",
+     "panel": "p13",
+     "box": [
+      690,
+      722,
+      330
+     ],
+     "angle": 4
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "panels": [
+    {
+     "id": "p14",
+     "rect": [
+      40,
+      40,
+      1000,
+      1270
+     ],
+     "image": "panels/p14.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       580,
+       380,
+       160,
+       160
+      ],
+      [
+       470,
+       510,
+       140,
+       140
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "caption",
+     "text": "One scoop later...",
+     "panel": "p14",
+     "box": [
+      64,
+      64,
+      400
+     ],
+     "size": 38
+    },
+    {
+     "type": "balloon",
+     "text": "This arm, I did not ask for.",
+     "panel": "p14",
+     "box": [
+      64,
+      150,
+      470
+     ],
+     "tail": [
+      574,
+      470
+     ],
+     "size": 46
+    },
+    {
+     "type": "sfx",
+     "text": "KLANG!",
+     "panel": "p14",
+     "box": [
+      640,
+      880,
+      360
+     ],
+     "angle": -8
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "panels": [
+    {
+     "id": "p15",
+     "rect": [
+      40,
+      40,
+      1000,
+      680
+     ],
+     "image": "panels/p15.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       570,
+       212,
+       200,
+       200
+      ],
+      [
+       210,
+       455,
+       180,
+       180
+      ]
+     ]
+    },
+    {
+     "id": "p16",
+     "rect": [
+      40,
+      740,
+      1000,
+      570
+     ],
+     "image": "panels/p16.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    }
+   ],
+   "letters": [
+    {
+     "type": "balloon",
+     "text": "But **LOOK** at it.",
+     "panel": "p15",
+     "box": [
+      64,
+      60,
+      400
+     ],
+     "tail": [
+      564,
+      330
+     ],
+     "size": 50
+    },
+    {
+     "type": "sfx",
+     "text": "MUNCH",
+     "panel": "p15",
+     "box": [
+      430,
+      600,
+      240
+     ],
+     "angle": -10
+    },
+    {
+     "type": "sfx",
+     "text": "VMMMMMMMMM",
+     "panel": "p16",
+     "box": [
+      64,
+      1100,
+      940
+     ],
+     "angle": 4
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "panels": [
+    {
+     "id": "p17",
+     "rect": [
+      40,
+      40,
+      1000,
+      300
+     ],
+     "image": "panels/p17.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    },
+    {
+     "id": "p18",
+     "rect": [
+      40,
+      360,
+      1000,
+      950
+     ],
+     "image": "panels/p18.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       560,
+       600,
+       160,
+       160
+      ],
+      [
+       410,
+       720,
+       150,
+       150
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "sfx",
+     "text": "WHUMP!",
+     "panel": "p17",
+     "box": [
+      84,
+      92,
+      340
+     ],
+     "angle": 8
+    },
+    {
+     "type": "caption",
+     "text": "~ Heroic brass swells ~",
+     "panel": "p18",
+     "box": [
+      64,
+      384,
+      480
+     ],
+     "size": 36
+    },
+    {
+     "type": "sfx",
+     "text": "FWOOOOOSH!",
+     "panel": "p18",
+     "box": [
+      64,
+      1100,
+      620
+     ],
+     "angle": 8
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "panels": [
+    {
+     "id": "p19",
+     "rect": [
+      40,
+      40,
+      1000,
+      800
+     ],
+     "image": "panels/p19.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       330,
+       290,
+       140,
+       140
+      ],
+      [
+       245,
+       400,
+       130,
+       130
+      ]
+     ]
+    },
+    {
+     "id": "p20",
+     "rect": [
+      40,
+      860,
+      1000,
+      450
+     ],
+     "image": "panels/p20.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    }
+   ],
+   "letters": [
+    {
+     "type": "caption",
+     "text": "~ Big heroic finish ~",
+     "panel": "p19",
+     "box": [
+      64,
+      64,
+      480
+     ],
+     "size": 34
+    },
+    {
+     "type": "balloon",
+     "text": "**HOME.**",
+     "panel": "p19",
+     "box": [
+      560,
+      80,
+      360
+     ],
+     "tail": [
+      478,
+      290
+     ],
+     "size": 58
+    },
+    {
+     "type": "sfx",
+     "text": "THOOM!",
+     "panel": "p19",
+     "box": [
+      64,
+      650,
+      400
+     ],
+     "angle": -6
+    },
+    {
+     "type": "balloon",
+     "text": "...",
+     "panel": "p20",
+     "box": [
+      80,
+      1110,
+      150
+     ],
+     "tail": [
+      20,
+      1215
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "panels": [
+    {
+     "id": "p21",
+     "rect": [
+      40,
+      40,
+      1000,
+      800
+     ],
+     "image": "panels/p21.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       634,
+       125,
+       406,
+       437
+      ],
+      [
+       368,
+       469,
+       406,
+       371
+      ]
+     ]
+    },
+    {
+     "id": "p22",
+     "rect": [
+      40,
+      860,
+      1000,
+      450
+     ],
+     "image": "panels/p22.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       384,
+       903,
+       311,
+       312
+      ],
+      [
+       196,
+       1147,
+       289,
+       163
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "balloon",
+     "text": "...That's **THEIR** ship.",
+     "panel": "p21",
+     "box": [
+      64,
+      64,
+      440
+     ],
+     "tail": [
+      470,
+      470
+     ],
+     "size": 48
+    },
+    {
+     "type": "caption",
+     "text": "~ Heroic bra--",
+     "panel": "p21",
+     "box": [
+      64,
+      744,
+      320
+     ],
+     "size": 34
+    },
+    {
+     "type": "sfx",
+     "text": "FWAP!",
+     "panel": "p22",
+     "box": [
+      780,
+      1150,
+      210
+     ],
+     "angle": -10
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "panels": [
+    {
+     "id": "p23",
+     "rect": [
+      40,
+      40,
+      1000,
+      1270
+     ],
+     "image": "panels/p23.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       85,
+       580,
+       150,
+       150
+      ],
+      [
+       265,
+       560,
+       150,
+       150
+      ],
+      [
+       465,
+       600,
+       150,
+       150
+      ],
+      [
+       665,
+       560,
+       150,
+       150
+      ],
+      [
+       845,
+       580,
+       150,
+       150
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "sfx",
+     "text": "KSSHT",
+     "panel": "p23",
+     "box": [
+      190,
+      84,
+      440
+     ],
+     "angle": 4,
+     "fill": "#ff6fb5",
+     "fill2": "#d6337f",
+     "outline": "#2a0a1a"
+    },
+    {
+     "type": "sfx",
+     "text": "CLACK!",
+     "panel": "p23",
+     "box": [
+      64,
+      1110,
+      330
+     ],
+     "angle": -8
+    },
+    {
+     "type": "whisper",
+     "text": "...Mayday.",
+     "panel": "p23",
+     "box": [
+      560,
+      1150,
+      400
+     ],
+     "tail": [
+      800,
+      1304
+     ],
+     "size": 38
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "panels": [
+    {
+     "id": "p24",
+     "rect": [
+      40,
+      40,
+      1000,
+      560
+     ],
+     "image": "panels/p24.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    },
+    {
+     "id": "p25",
+     "rect": [
+      40,
+      620,
+      420,
+      690
+     ],
+     "image": "panels/p25.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       175,
+       715,
+       145,
+       150
+      ]
+     ]
+    },
+    {
+     "id": "p26",
+     "rect": [
+      480,
+      620,
+      560,
+      690
+     ],
+     "image": "panels/p26.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    }
+   ],
+   "letters": [
+    {
+     "type": "title",
+     "text": "SCENERY 1 · BEARS 0",
+     "panel": "p24",
+     "box": [
+      110,
+      66,
+      830
+     ]
+    },
+    {
+     "type": "sfx",
+     "text": "PLINK! PLINK! PLINK!",
+     "panel": "p24",
+     "box": [
+      80,
+      226,
+      600
+     ],
+     "angle": 3
+    },
+    {
+     "type": "caption",
+     "text": "Method: delivered to the **wrong ship**",
+     "panel": "p24",
+     "box": [
+      80,
+      372,
+      920
+     ],
+     "size": 38
+    },
+    {
+     "type": "sfx",
+     "text": "REAL MAP. FAN-MADE NEWS.",
+     "panel": "p24",
+     "box": [
+      300,
+      474,
+      680
+     ],
+     "angle": -5,
+     "fill": "#d7263d",
+     "outline": "#f4f1e8"
+    },
+    {
+     "type": "hud",
+     "text": "KILL CREDIT: JUMP PAD.\nASSIST: HUGGABLES.",
+     "panel": "p26",
+     "box": [
+      500,
+      642,
+      520
+     ],
+     "tail": [
+      248,
+      760
+     ],
+     "size": 34
+    },
+    {
+     "type": "hud",
+     "text": "NEXT LOCATION:\nSTEAMYARD BLUES.",
+     "panel": "p26",
+     "box": [
+      500,
+      800,
+      520
+     ],
+     "size": 34
+    },
+    {
+     "type": "hud",
+     "text": "UPLOADING... 99%",
+     "panel": "p26",
+     "box": [
+      500,
+      1080,
+      420
+     ],
+     "size": 36
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "panels": [
+    {
+     "id": "p27",
+     "rect": [
+      40,
+      40,
+      1000,
+      300
+     ],
+     "image": "panels/p27.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    },
+    {
+     "id": "p28",
+     "rect": [
+      40,
+      360,
+      1000,
+      950
+     ],
+     "image": "panels/p28.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6,
+     "faces": [
+      [
+       462,
+       545,
+       195,
+       250
+      ]
+     ]
+    }
+   ],
+   "letters": [
+    {
+     "type": "sfx",
+     "text": "KSSHT",
+     "panel": "p27",
+     "box": [
+      270,
+      96,
+      540
+     ],
+     "angle": -4,
+     "fill": "#ff6fb5",
+     "fill2": "#d6337f",
+     "outline": "#2a0a1a"
+    },
+    {
+     "type": "hud",
+     "text": "REROUTING...\nTO: EVERYONE",
+     "panel": "p28",
+     "box": [
+      64,
+      384,
+      420
+     ],
+     "size": 40
+    },
+    {
+     "type": "hud",
+     "text": "TEE-HEE.",
+     "panel": "p28",
+     "box": [
+      700,
+      560,
+      300
+     ],
+     "tail": [
+      612,
+      640
+     ],
+     "size": 48
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "panels": [
+    {
+     "id": "p29",
+     "rect": [
+      40,
+      40,
+      1000,
+      1160
+     ],
+     "image": "panels/p29.png",
+     "focus": [
+      0.5,
+      0.5
+     ],
+     "border": 6
+    }
+   ],
+   "letters": [
+    {
+     "type": "hud",
+     "text": "NEXT LOCATION:\nSTEAMYARD BLUES.",
+     "panel": "p29",
+     "box": [
+      90,
+      100,
+      900
+     ],
+     "size": 50
+    },
+    {
+     "type": "caption",
+     "text": "Guess the next **THREAT LEVEL** in the comments.",
+     "panel": "p29",
+     "box": [
+      90,
+      360,
+      900
+     ],
+     "size": 46
+    },
+    {
+     "type": "hud",
+     "text": "SUBJECT: ???\nTHREAT LEVEL: ???",
+     "panel": "p29",
+     "box": [
+      260,
+      610,
+      560
+     ],
+     "size": 46
+    },
+    {
+     "type": "caption",
+     "text": "Send this to your BBG squad.\nFollow BBG News for Ep 2.",
+     "panel": "p29",
+     "box": [
+      90,
+      870,
+      900
+     ],
+     "size": 44
+    },
+    {
+     "type": "endcard",
+     "text": "Unofficial fan comic, not affiliated with SkyVu; characters © SkyVu."
+    }
+   ]
+  }
+ ]
+}

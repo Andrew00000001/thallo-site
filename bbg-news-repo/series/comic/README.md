@@ -103,11 +103,11 @@ Every letter is kept inside the canvas: a shape that would run off is moved back
 
 **`caption`**: a rectangular narration box, pale yellow (`#fff1a8`) with a 3 px black outline, centred capitals at 32 px. Lines are wrapped evenly. Extra keys: `align` (`center`, `left`, `right`), `radius` (corner radius px), `shadow` (`true`, or `[dx, dy]` in px, for a hard offset shadow), `shadow_color`.
 
-**`hud`**: B-1000's LIVE box. A near-black translucent box with faint scan lines, a thin cyan outline and glowing cyan corner brackets, uppercase Share Tech Mono text in cyan with a soft glow. Extra keys: `live: true` adds a red "● LIVE" tag on the first row; `color` is `"cyan"` (default), `"white"` or any colour; `accent` recolours the outline and brackets; `align` (default `left`); `tail` draws a thin cyan leader line with an elbow from the box to a small lock ring on the target (B-1000's head, or the thing he is reporting on); `ring` (ring radius px, default 13); `scanlines: false`; `live_color`.
+**`hud`**: B-1000's LIVE box. A near-black translucent box with faint scan lines, a thin cyan outline and glowing cyan corner brackets, uppercase text in Nunito ExtraBold (the `rounded` key: b-1000.md's HUD spec asks for an original rounded typeface, and Nunito is the open-licensed stand-in) in cyan with a soft glow. Extra keys: `live: true` adds a red "● LIVE" tag on the first row (`live_font` sets its face, default `rounded`); `color` is `"cyan"` (default), `"white"` or any colour; `accent` recolours the outline and brackets; `align` (default `left`); `tail` draws a thin cyan leader line with an elbow from the box to a small lock ring on the target (B-1000's head, or the thing he is reporting on); `ring` (ring radius px, default 13); `scanlines: false`; `live_color`.
 
 **`sfx`**: huge display lettering in Bangers: a yellow-to-orange gradient fill, a thick dark outline and a 3D extrusion, letters bouncing up and down a little, the whole word tilted. With no `size`, it fills the `box` width. Extra keys: `angle` (degrees; positive tilts counter-clockwise, so the word rises to the right; default 8), `fill` (a fill without `fill2` is solid), `fill2` (gradient bottom colour), `outline`, `outline_width` (× size, default 0.075), `extrude` (depth × size, default 0.07; 0 for none), `extrude_angle` (degrees, default 60, down and to the right), `extrude_color`, `bounce` (× size, default 0.05), `grow` (the last letter is 1 + grow times the first, for a rising "WHUMMM"), `outline2` and `outline2_width` (a second, outer outline), `shadow`, `font`.
 
-**`title`**: the cover title. Big Bangers lettering with a gold gradient, a thick dark outline and a soft drop shadow, centred in `box`. With no `size` it fills the `box` width; `"fit": "lines"` sizes every line to the width separately, capped at `max_ratio` (default 1.45) times the smallest line, for a stacked "WE'LL GETCHA / HOME" title. Extra keys: as for `sfx`, plus `shadow` (`true`, `false`, or `[dx, dy]` as a multiple of size; default `[0.045, 0.06]`), `shadow_color`, `shadow_blur` (× size), `align`. `"font": "anton"` switches to the BBG News Anton face.
+**`title`**: the cover title. Big Bangers lettering with a gold gradient, a thick dark outline and a soft drop shadow, centred in `box`. With no `size` it fills the `box` width; `"fit": "lines"` sizes every line to the width separately, capped at `max_ratio` (default 1.45) times the smallest line, for a stacked "WE'LL GETCHA / HOME" title. Extra keys: as for `sfx`, plus `shadow` (`true`, `false`, or `[dx, dy]` as a multiple of size; default `[0.045, 0.06]`), `shadow_color`, `shadow_blur` (× size), `align`. `"font": "anton"` switches to the BBG News Anton face, and `"font": "rounded-black"` to Nunito Black, the rounded lettering the season slate asks for on the "LOCAL HAZARDS" sting.
 
 **`endcard`**: a full-width box of small centred text: Barlow SemiBold at 26 px, off-white on the BBG News near-black, with a gold rule along the top. With no `box`, it spans the margins and sits on the bottom margin. Extra keys: `rule` (colour, or `null` for none), `fill`, `color`, `outline`.
 
@@ -116,7 +116,7 @@ Every letter is kept inside the canvas: a shape that would run off is moved back
 - **Capitals and the letter I.** Dialogue is set in capitals. Comic Neue draws every capital I with crossbars; lettering convention keeps the crossbar I for the pronoun only (I, I'M, I'LL, I'D, I'VE), so every other I is drawn with the font's plain vertical stroke.
 - **Emphasis.** `**word**` sets the word in Comic Neue Bold Italic, the usual comic emphasis.
 - **Missing glyphs.** A character a font lacks (Comic Neue has no "●", for example) is drawn from Barlow, or from DejaVu Sans when Barlow lacks it too and the system has it, never as an empty box.
-- **Sizes.** Defaults: balloon and thought 36/34, shout 40, whisper 33, caption 32, HUD 32, end card 26 px. Never set dialogue below 30.
+- **Sizes.** Defaults: balloon and thought 36/34, shout 40, whisper 33, caption 32, HUD 32, end card 26 px. Never set dialogue below 30. Nunito is wider than the old Share Tech Mono (about 1.3×), so give HUD boxes room: a HUD line needs about 0.66 × size px per capital, plus 1.24 × size of padding.
 
 ## Fonts
 
@@ -128,7 +128,9 @@ All fonts live in `assets/fonts/`, each with its licence file beside it. Every f
 | `comic-italic` | `ComicNeue-BoldItalic.ttf` | `**Emphasis**` | as above | `https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-BoldItalic.ttf` |
 | `comic-light` | `ComicNeue-Regular.ttf` | Whispers | as above | `https://raw.githubusercontent.com/google/fonts/main/ofl/comicneue/ComicNeue-Regular.ttf` |
 | `bangers` | `Bangers-Regular.ttf` | SFX and titles | OFL 1.1 (`OFL-Bangers.txt`), © 2010 The Bangers Project Authors | `https://raw.githubusercontent.com/google/fonts/main/ofl/bangers/Bangers-Regular.ttf` (upstream `https://github.com/googlefonts/bangers`, commit ca6d2f1) |
-| `mono` | `ShareTechMono-Regular.ttf` | B-1000's HUD | OFL 1.1 (`OFL-ShareTechMono.txt`), © 2012 Carrois Type Design, Reserved Font Name "Share" | `https://raw.githubusercontent.com/google/fonts/main/ofl/sharetechmono/ShareTechMono-Regular.ttf` |
+| `rounded` | `Nunito-VariableFont_wght.ttf`, weight 800 (ExtraBold) | B-1000's HUD and the LIVE tag | OFL 1.1 (`OFL-Nunito.txt`), © 2014 The Nunito Project Authors; no Reserved Font Name | Google Fonts repo, `https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito%5Bwght%5D.ttf` (upstream `https://github.com/googlefonts/nunito`) |
+| `rounded-black` | the same file, weight 900 (Black) | The "LOCAL HAZARDS" sting (via `"font"`) | as above | as above |
+| `mono` | `ShareTechMono-Regular.ttf` | The former HUD face, kept as the fallback for `rounded` | OFL 1.1 (`OFL-ShareTechMono.txt`), © 2012 Carrois Type Design, Reserved Font Name "Share" | `https://raw.githubusercontent.com/google/fonts/main/ofl/sharetechmono/ShareTechMono-Regular.ttf` |
 | `anton` | `Anton-Regular.ttf` | Alternative display face | OFL 1.1 (`OFL-Anton.txt`) | Already in the repo |
 | `barlow` | `Barlow-SemiBold.ttf` | End card, placeholders, glyph fallback | OFL 1.1 (`OFL-Barlow.txt`) | Already in the repo |
 
@@ -140,9 +142,12 @@ Comic Neue, Bangers and Share Tech Mono were downloaded on 2026-10-26 from the G
 a0ee5a37c8b27c4db0700137d928598b1e23b0089e1546a8961909176b779360  ComicNeue-Regular.ttf
 4160a7311de9342674cce9160cde9fcbb30f48190397d86ff1b70b455af65824  Bangers-Regular.ttf
 9ceab1f87414829af259c0f537573ae03ef7dd3147c0b27a36a1a0beb6732677  ShareTechMono-Regular.ttf
+bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207  Nunito-VariableFont_wght.ttf
 ```
 
-If a font file is missing, the script falls back (Comic Neue → Barlow, Bangers → Anton, Share Tech Mono → Barlow) and prints a warning, so check the output before posting. Share Tech Mono's Reserved Font Name means a modified copy must be renamed; we use it unmodified.
+Nunito was downloaded the same day from the same repository, from `ofl/nunito/` (the file `Nunito[wght].ttf`, saved unmodified as `Nunito-VariableFont_wght.ttf`, the name Google Fonts gives it in its download zip, and its `OFL.txt` as `OFL-Nunito.txt`). It is a variable font with one weight axis (200–1000); the engine sets the weight for each key from `FONT_AXES` in `letter.py` (`rounded` 800, `rounded-black` 900), so the font file itself is never changed. It replaced Share Tech Mono (square) as the HUD face on 2026-10-26, because b-1000.md's HUD spec and the slate's sting call for an original rounded typeface; an original face can replace it later by changing the `rounded` entries in `FONT_FILES`.
+
+If a font file is missing, the script falls back (Comic Neue → Barlow, Bangers → Anton, Nunito → Share Tech Mono → Barlow) and prints a warning, so check the output before posting. Share Tech Mono's Reserved Font Name means a modified copy must be renamed; we use it unmodified.
 
 ## Rendering notes
 

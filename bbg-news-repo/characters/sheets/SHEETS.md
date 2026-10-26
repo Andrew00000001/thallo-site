@@ -19,7 +19,7 @@ These are the Element sheets: one 4K model sheet per character, in the feature-f
 | Oliver | `oliver-soldier` | 05fde0f3-ebdf-4a32-b5e8-859813f4ebe2 (smaller-plate edit of 992ff073); colour-corrected upload d6b281ee-b656-43eb-adf3-b5d1c5c2b251 | 2026-10-24 | Minor (Element created) |
 | Riggs | `riggs-heavy` | 769625a1-c662-4d45-9974-728a213bf4e6 | 2026-10-19 | Minor |
 | Tillman | `tillman-demolition` | 17b76e5f-993a-4ecd-913d-afe450592e59 (edit of 09ba5b80) | 2026-10-21 | Redo (queued) |
-| Huggable | `huggable-huggable` | ed4c96c6-9431-423e-ad16-06d07f27bccd (eye-move edit of the mirrored b2a3f65d); fresh sheet ec18b2c0-85a9-4d6a-8a5b-3196043ae532 (Oct 25) also fails | 2026-10-24 | Fix (fresh v4 queued) |
+| Huggable | `huggable-huggable` | 321fe5d6-ddc5-419d-ba3f-848b7ec3d00a (fresh sheet v4) | 2026-10-26 | Fix (sides right; edit queued Oct 27) |
 | Astoria | `astoria-sniper` | 64d65c16-9fee-4a3d-a172-1069e1f65869; mirrored upload fcc7f1f4-8599-4812-b509-b0782b6f53a5 | 2026-10-20 | Fix (queued), mirrored |
 | Wil | `wil-chub-scout` | 5b633f8e-10ee-445f-ba46-ba62e1b26f90 (edit of 20f40c63); colour-corrected upload 3f87c967-2748-43d4-9c5b-dd11962459de | 2026-10-22 | Minor (fix queued) |
 | Graham | `graham-engineer` | 55c688d8-bcd6-4a48-9060-b21ef3051a2a (edit of a0a6b54f); mirrored upload d70599fa-9bd9-48b6-b88f-a4884ecce247 | 2026-10-21 | Minor, mirrored |
@@ -85,7 +85,7 @@ Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil
     - The Oct 22 try was refused by Higgsfield's content filter, a false positive on a plush toy; it was not charged. It is queued again with plainer wording.
   - The Oct 24 eye-move edit (third try, `ed4c96c6`) kept the paws, bandage and radio right, but the button eye stayed on its left, away from the bandage. Edits can't move it.
   - Next: a fresh sheet from the Element prompt with an explicit "the button eye sits directly beneath the bandage" clause, queued for Oct 25. The blue C5 Huggables depend on it.
-  - The preview here is the Oct 24 edit.
+  - The preview here was the Oct 24 edit; from Oct 26 it is v4.
 - **Huggable, Oct 25: the fresh sheet fails** (`ec18b2c0`, checked on full-resolution crops, so it did not go to the panel).
   - Right: the button eye and its scar are on its right (the viewer's left), the paws are pink plush, the jaws, the cuffed inset paw and the banner (circle, triangle, square) are right.
   - Wrong:
@@ -94,6 +94,19 @@ Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil
     - it has a pale muzzle patch with a nose; the soul says no separate muzzle.
   - Diagnosis: the model reads a bare "right" as image-right, and only the eye clause said "the viewer's left". So every attempt has split the eye from the radio.
   - Next (Oct 26, v4): a fresh sheet that places every sided feature in viewer terms (the bandage, radio, scar and button eye on the viewer's left in the front view, the bare ear and bead eye on the viewer's right), and the grin set straight into the pink face fur. If they all land together on the wrong side, the whole sheet is mirrored, which is allowed.
+- **Huggable, Oct 26: v4 gets every side right; one edit pass left** (`321fe5d6`; review panel, both lenses).
+  - Right in all four views: the bandage, radio, scar and red button eye are on its own right (the viewer's left in the front and three-quarter views, the viewer's right in the back view, the near side in the side view), so no mirror is needed. The bead eye, grin, rainbow-toothed jaws, banner shape order, cuffed inset and grey background are close to the soul.
+  - Edit (Oct 27, one pass):
+    - widen the bandage so it covers its right ear in every view;
+    - remove the pale muzzle patch and the nose;
+    - remove the pale belly patch and redraw the chest seam;
+    - remove the red light on the right jaw mount;
+    - make the inset paw thumbless;
+    - lengthen the banner pole to about 1.5 times its height.
+  - Local fixes afterwards:
+    - paint out the four view labels and the inset frame;
+    - turn the banner shapes white and the pole dark grey;
+    - white-balance the background.
 - **Astoria: fix, mirrored** (second review panel).
   - Right: the mirrored sides, cream plush, teal heavy-lidded eyes, red gloves, the quilted maroon belt and the red-and-white boots.
   - Wrong:
@@ -183,11 +196,10 @@ Episode 1 now shares the daily limit, so the plan for each reset is in the resea
 4. Plate P2.
 5. The Huggable, fresh sheet v4.
 
-Oct 27: plate P4, the blue Huggable if v4 passes, and the C4 and C2 start stills.
+Oct 27 onward: the comic plan (`series/comic_ep1/SCRIPT.md` §7). Oct 27: the comic cover G01 first, the Huggable red-sheet fix edit of v4 (`321fe5d6`), then the comic panels G02, G03 and G07. Oct 28: the blue Huggable main-sheet edit (jaws on), then G05, G06, G09 and G04. The blue Element (`huggable-huggable-blue`) follows once the blue sheet passes its review panel, Oct 29 at the earliest, and the comic's Huggable panel (G08) runs Oct 29–30. Plate P4 and the C2 and C4 start stills are dropped: Episode 1 is now a comic (Oct 26), and the comic needs none of them.
 
 Later:
 - Botch;
-- the blue Huggable;
 - Wil's ABBi;
 - fresh Tillman and Saberi sheets (`redo_prompts.json`);
 - Astoria;
