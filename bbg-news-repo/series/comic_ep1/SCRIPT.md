@@ -170,35 +170,43 @@ The research checked 3:4 (1080×1440). Instagram has shown 3:4 photos in single 
 ## 4. The cover (s01) and the Oct 28 teaser (t01, t02)
 
 ### s01 · The cover
-**Design.** A full-page hero shot inside the 40 px margin with no border. Sanchez flies left to right across the middle third at the top of the pad's huge arc: gloved fist forward, chin up, visor band narrowed, both faces turned three-quarters to camera. Oliver is clamped under the mechanical arm (flying right puts his right side, the arm and Oliver, toward the camera), hugging the glowing basket with a fry in his mouth while fries tumble out behind. The trench zig-zag crosses the noon field far below. The upper third is open sky for the title. B-1000's HUD frames it as his live feed, and its lock ring on Sanchez asks the question the cold open answers. Nothing about the blue wreck or the Huggables is shown, so nothing is spoiled. Inside, s08 pays the cover off with the same arc seen from down in the trench (G09).
+**Design.** A full-page hero shot inside the 40 px margin with no border. Sanchez flies left to right across the middle third at the top of the pad's huge arc: gloved fist forward, chin up, visor band narrowed, both faces turned three-quarters to camera. Oliver is clamped under the mechanical arm (flying right puts his right side, the arm and Oliver, toward the camera), hugging the glowing basket with a fry in his mouth while fries tumble out behind. The trench zig-zag crosses the noon field far below, and the title sits on that field in the bottom third, under the pair. B-1000's HUD frames it as his live feed, and its lock ring on Sanchez asks the question the cold open answers. Nothing about the blue wreck or the Huggables is shown, so nothing is spoiled. Inside, s08 pays the cover off with the same arc seen from down in the trench (G09).
 
 **Panel:** p01 [40, 40, 1000, 1270]
 
 **G01 → p01** (4:5, 2k; Elements: Sanchez, Oliver; reference: P3r), paste-ready inside the quotes:
 > "<<<e6122a2f-99de-423a-a310-733554bf48bb>>> A lean teddy-bear cyborg in a dark maroon helmet with rounded bear-ear bumps and an opaque glowing red visor hiding his eyes, a light tan muzzle with a small dark goatee, a grey-khaki chest plate over grey-and-white camo, olive-and-tan camo trousers, a dark grey glove on his left hand and an oversized red-and-black mechanical right arm. With <<<74170e99-a46a-4c7d-857c-d3046b839374>>> a chestnut-brown robotic teddy-bear soldier, soft plush all over, with a red headband and a brass-cartridge bandolier, as tall as the cyborg, tucked firmly under his mechanical right arm and hugging a softly glowing red basket of golden fried food, he soars across the sky at the top of one huge, high arc in a heroic flying pose, body stretched out level and turned three-quarters toward the camera, his gloved left fist thrust forward, chin up, mouth set firm, the glow band inside his visor narrowed, while the soldier clutches the basket to his chest with wide eyes, both brows shot up and a golden fry clamped in his mouth, a few golden fries tumbling out behind them and a few wisps of cloud whipping past them. A sunlit open grass field at high noon, short, soft, stylised yellow-green turf flecked with tiny white daisies, plump curved arcs of tan sandbags and a few chunky black steel barriers of three thick crossed beams like giant toy jacks on gentle mounds, misty blue-grey wooded hills on the horizon, under a saturated mid-blue sky with big soft white cumulus clouds, the high sun as a slightly warm key with a soft cool fill from the sky and a gentle rim light on the characters. Medium-wide shot from high in the air, level with the two as they fly from left to right across the middle third of the frame, slightly right of centre, both faces large and clear; far below, an S-shaped zig-zag of sunken trenches with honey-gold plank floors and plain grass-capped lips crosses the field in the bottom third. The upper third of the frame is open blue sky with only soft clouds, left clear; a clean image with no text. Avoid: photorealistic fur, realistic anatomy, real-person likeness, official logos, text, watermarks. Vertical 4:5 framing. Polished feature-film 3D animation, soft rounded shapes, expressive faces, soft plush fur, soft global illumination, cinematic lighting, snappy cartoon timing with strong poses and holds."
 
-- Not for pasting. Extra checks: no jet flames, plumes or wings on Sanchez; Oliver stays tucked; the upper third stays empty sky; both faces at least about a tenth of the frame height. If the faces read small, the retake changes only the camera sentence ("Medium shot from high in the air, ...").
+- Not for pasting. Extra checks: no jet flames, plumes or wings on Sanchez; Oliver stays tucked; the title space on the field in the bottom third stays clear of faces (it was the upper third until Oct 27); both faces at least about a tenth of the frame height. If the faces read small, the retake changes only the camera sentence ("Medium shot from high in the air, ...").
+- **What happened (Oct 27):**
+  - Take 1 (job 9daa8018) was right in everything but three things:
+    - it was drawn mirrored: they flew right to left, with the mechanical arm on Sanchez's left;
+    - a smoke plume rose from the field, and a streak of it crossed the sky;
+    - the pair sat high, so their heads were in the upper third.
+  - Take 2 (job 1f7dc7cd), with the camera sentence asking for both heads below the top third, sat just as high. It also tucked Oliver under the wrong arm and put the mechanical fist forward, so it was rejected.
+  - The cover is therefore take 1 mirrored, which fixes the flight direction and puts the mechanical arm on his right with Oliver under it. Its title moved to the field in the bottom third: the model places a flying pair in the upper middle every time, and the field reads well under bold outlined lettering.
+  - On Oct 28 an edit of the mirrored take removes the smoke and makes the crossed barriers black steel. If that edit fails, the mirrored take 1 is the fallback; its leftover smoke sits low on the left, partly under the lettering.
 - **Teaser fallback:** if G01 fails twice on Oct 27, t01 posts on Oct 28 over the approved C1 still, cut at `crop_px` [0, 0, 1536, 1951] (exactly 1000:1270, about 1.5 source px per canvas px, sky under the title; `tools/build_assets.py --src <originals> --teaser-fallback`), with the same lettering, at 0 credits, and G01 retries on Oct 28 for s01.
 
 **Lettering:**
-  - **hud** "BBG NEWS · LIVE / LOCAL HAZARDS · EP 1" · panel p01 · box [64, 58, 520] · 34 px
-  - **title** "WE'LL GETCHA" · panel p01 · box [110, 194, 860]
-  - **title** "HOME" · panel p01 · box [360, 330, 360]
-  - **hud** "DESTINATION: HOME?" · panel p01 · box [600, 930, 420] · tail → [700, 540] · 34 px
-  - **hud** "SWIPE >>" · panel p01 · box [810, 1222, 200] · 30 px
+  - **hud** "BBG NEWS · LIVE / LOCAL HAZARDS · EP 1" · panel p01 · box [64, 58, 470] · 34 px
+  - **hud** "DESTINATION: HOME?" · panel p01 · box [64, 790, 420] · tail → [520, 640] · 34 px
+  - **title** "WE'LL GETCHA" · panel p01 · box [90, 955, 900]
+  - **title** "HOME" · panel p01 · box [330, 1092, 420]
+  - **hud** "SWIPE >>" · panel p01 · box [810, 1240, 200] · 30 px
 
 ### t01 + t02 · The Oct 28 teaser (a 2-slide carousel, 0 extra credits)
 The research says carousels out-reach single photos and that the teaser tile should differ from the Nov 4 cover on the grid, so the teaser is two slides. It rebuilds the old video teaser (C1, then a "Nov 4" super, then the end card) as panels.
-- **t01:** the cover art zoomed about 1.12× and anchored at the top (crop `t01a`, [0.06, 0, 0.94, 0.90]), so the title stays in the sky band and Sanchez's face sits about 110 px below "HOME"; with the kicker, the title, a "NOV 4" stamp and the swipe cue. The unzoomed cover is the alternative (open item 4).
+- **t01:** the cover art zoomed about 1.14× and anchored at the bottom (crop `t01a`, [0.06, 0.10, 0.94, 1.0]), so the title sits on the field below the pair; with the kicker, the title, a "NOV 4" stamp and the swipe cue. The unzoomed cover is the alternative (open item 4).
 - **t02:** the cold open (all approved art, ready now), with "LOCAL HAZARDS · NOV 4" and the README end card under it, so the post carries the card.
 - They live in `teaser_pages.json`, apart from the Nov 4 carousel: render with `letter.py teaser_pages.json --jpg` (§11).
 
 **t01 panel:** t01a [40, 40, 1000, 1270]
-  - **hud** "BBG NEWS · LOCAL HAZARDS" · panel t01a · box [72, 72, 560] · 34 px
-  - **title** "WE'LL GETCHA" · panel t01a · box [110, 170, 860]
-  - **title** "HOME" · panel t01a · box [340, 306, 400]
-  - **sfx** "NOV 4" · panel t01a · box [650, 1010, 330] · angle 8
-  - **hud** "SWIPE >>" · panel t01a · box [810, 1222, 200] · 30 px
+  - **hud** "BBG NEWS · LOCAL HAZARDS" · panel t01a · box [64, 64, 430] · 32 px
+  - **title** "WE'LL GETCHA" · panel t01a · box [90, 930, 900]
+  - **title** "HOME" · panel t01a · box [330, 1067, 420]
+  - **sfx** "NOV 4" · panel t01a · box [700, 770, 300] · angle 8
+  - **hud** "SWIPE >>" · panel t01a · box [810, 1240, 200] · 30 px
 
 **t02 panels:** t02a [40, 40, 1000, 560] · t02b [40, 620, 490, 240] · t02c [550, 620, 490, 240] · t02d [40, 880, 330, 250] · t02e [390, 880, 650, 250]
   - **hud** "B-1000. LIVE. / SCANNING LOCATION." · panel t02a · box [64, 60, 440] · tail → [498, 356] · 34 px · `live: true` (red ● LIVE tag)
@@ -396,9 +404,9 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 
 | Day | Slots (in order) | Also |
 |---|---|---|
-| **Tue Oct 27** | 1. **G01 cover** (first thing; QA by midday). 2. **Huggable:** the red-sheet fix edit of v4. 3. **G02**, or the G01 retake if G01 failed. 4. **G03** (once G02 passes), else G02. 5. **G07** (4k; needs G01), else G03 | Cut t01a from G01 (`tools/build_assets.py`); render the teaser (`teaser_pages.json --jpg`); send to Bryce that evening. If G01 failed twice, render t01 over the C1 still (teaser fallback, §4) |
-| **Wed Oct 28** | 1. **Huggable:** the blue main-sheet edit (once the red fix passes QA). 2. **G05** (needs G01). 3. **G06** (after G05 passes). 4. **G09** (needs G01). 5. **G04** (needs G02). Anything Oct 27 didn't reach (G03 or G07) takes slot 5 first, and G04 moves to Oct 29 | **Post the teaser at about 12:00** (Buffer's top Wednesday slot), AI label on. Send the blue sheet to its review panel (SHEETS.md) |
-| **Thu Oct 29** | 1. **G08** (needs the blue Element and p20), or the blue-sheet retake if it failed. 2. A G08 retake if needed. 3–5. Retakes for G01–G07 and G09 (the carry first), G04 if it slipped, or **O1** if p21 is soft | First thing: once the blue sheet passes QA, create the blue Element (free) and write its UUID into SHEETS.md and into G08's `<<<E1>>>`. Cut every crop (`tools/build_assets.py`); letter the whole carousel with `--guides` |
+| **Tue Oct 27** (done) | G01 take 1 (mirrored locally; kept), G01 take 2 (rejected), G02 (approved), the Huggable red-sheet edit (muzzle and belly fixed; ear, pole, jaw lights and thumb not), G03 (flagged by the content filter, refunded, but it used the day's fifth slot) | The cover's title moved to the field (§4); the red sheet got its local fixes and went to its review panel |
+| **Wed Oct 28** | 1. **G01 edit** (remove the smoke, black barriers; first, for the teaser). 2. **G03** (reworded). 3. **G07** (needs G01). 4. **Huggable:** the blue main-sheet edit, which also asks again for the covered ear and the taller pole. 5. **G05** (needs G01) | Render the teaser from the edited cover (or the mirrored take 1 if the edit fails) and **post it at about 12:00**, AI label on. Send the blue sheet to its review panel |
+| **Thu Oct 29** | 1. **G06** (after G05). 2. **G09** (needs G01). 3. **G04** (needs G02). 4. **G08** (needs the blue Element and p20), else a retake. 5. A retake | First thing: once the blue sheet passes, create the blue Element (free) and write its UUID into SHEETS.md and G08's `<<<E1>>>`. Cut every crop; letter the carousel with `--guides` |
 | **Fri Oct 30** | **G08** if the Element only went live today, and its retake. Remaining retakes | Re-letter with `--guides` as panels land |
 | **Sat Oct 31** | **F2** only if there is still no blue Element; otherwise spare | Deadline for the s11 decision |
 | **Sun Nov 1** | Spare (a last retake only) | **Lock:** every panel approved, `letter.py pages.json --strict --guides --jpg`, Bryce's review |
@@ -510,7 +518,7 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 1. **References:** approve **P3r** (P3's right half) as the field reference for G01, G07 and G09 by the morning of Oct 27 (otherwise they run with no location reference), and **P2** as a location reference for G02 and G03. **P3 is not redone and P4 is not made**: the blue wreck comes from P1b, the local blue recolour of approved P1.
 2. **Framing lines for comic panels:** "Vertical 4:5 framing.", "Horizontal 3:2 framing.", "Horizontal 5:4 framing." and "Square 1:1 framing." replace STYLE.md's "Vertical 9:16 framing.", and the video suffix stays last on stills. STYLE.md's Frame rule (9:16, Reels safe zone) needs a comic note: 4:5 slides, a 40 px margin, the lettering space named in every prompt.
 3. **End card:** "Unofficial fan comic, not affiliated with SkyVu; characters © SkyVu." Add "AI"? (README [Open]; the default leaves it out.)
-4. **The teaser:** the 2-slide carousel (t01 cover + t02 cold open, the default), or the cover alone. Both cost 0 extra credits. t01 is the cover zoomed about 1.12×, anchored at the top so the title stays in the sky and off Sanchez's face, which makes the Oct 28 grid tile differ from Nov 4's; the alternative is the unzoomed cover (`crop_frac` [0, 0, 1, 1]), with only the NOV 4 stamp and kicker telling the tiles apart. Check t01 with `--guides` on the real G01 before posting.
+4. **The teaser:** the 2-slide carousel (t01 cover + t02 cold open, the default), or the cover alone. Both cost 0 extra credits. t01 is the cover zoomed about 1.14×, anchored at the bottom so the title stays on the field under the pair, which makes the Oct 28 grid tile differ from Nov 4's. The unzoomed cover is the alternative. Check t01 with `--guides` before posting.
 5. **New comic-only words** ([BBG News invention]; spoken lines unchanged). Approve as a set: "DESTINATION: HOME?", "ONE SCOOP LATER...", "THE RED FOOD STAND.", the music captions ("~ HEROIC BRASS SWELLS ~", "~ BIG HEROIC FINISH ~", "~ HEROIC BRA--"), Oliver's off-panel "...", the "99%" on the upload label, "NOV 4", the SFX, the CTA lines and the caption hooks.
 6. **The Huggables:** five copies (default) or three if takes merge (package open item 5); F2 (the banner reveal) if the blue Element isn't live by Sat Oct 31.
 7. **Hashtags:** #LocalHazards or #BattleBears in the fifth slot.

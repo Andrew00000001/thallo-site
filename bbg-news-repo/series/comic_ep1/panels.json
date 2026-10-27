@@ -10,9 +10,10 @@
   "references": [{"job_or_file": "refs/P3r_field.png", "role": "location reference: field, sandbags, trench zig-zag and hills (P3's right half only; the airliner-like nose is cut out). Upload it with media_upload. Run with no location reference if Bryce rejects P3r.", "source_job": "f91003b0-68f5-4484-9963-8dac27a297ff"}],
   "reuse_source": null,
   "raw_download": "src/p01_raw.png",
-  "job_id": null,
+  "job_id": "9daa8018-b0cd-4598-8667-9789250a4198",
   "day": "2026-10-27",
-  "status": "todo"
+  "status": "take 1 approved, mirrored locally (src/p01_take1_mirrored.png); smoke-removal edit due Oct 28",
+  "rejected": ["1f7dc7cd-f277-4d3e-9cfd-d77abced45af (take 2: pair still high, Oliver under the wrong arm)"]
  },
  {
   "id": "p02",
@@ -97,9 +98,9 @@
   "references": [{"job_or_file": "01ca9909-559a-4225-99f5-ad4a74c517e7", "role": "location reference (P2 food stand), only once Bryce approves P2 as a reference; otherwise none"}],
   "reuse_source": null,
   "raw_download": "src/p08_raw.png",
-  "job_id": null,
+  "job_id": "4f2adc91-2485-423b-afdf-96ea76df244b",
   "day": "2026-10-27",
-  "status": "todo"
+  "status": "approved"
  },
  {
   "id": "p09",
@@ -110,7 +111,7 @@
   "elements": [],
   "references": [],
   "reuse_source": {"file": "src/p10_raw.png", "crop_frac": [0.16, 0.16, 0.92, 0.36], "from": "G03: the full approved download of p10's generation", "note": "the glowing visor (left third) and the raised red-and-black arm reaching right; crop at 1000:330"},
-  "day": "2026-10-27",
+  "day": "2026-10-28",
   "status": "todo"
  },
  {
@@ -125,8 +126,8 @@
   "reuse_source": null,
   "raw_download": "src/p10_raw.png",
   "job_id": null,
-  "day": "2026-10-27",
-  "status": "todo"
+  "day": "2026-10-28",
+  "status": "todo (Oct 27 try 4a6cf631 flagged by the content filter, refunded; reworded for Oct 28)"
  },
  {
   "id": "p11",
@@ -140,7 +141,7 @@
   "reuse_source": null,
   "raw_download": "src/p11_raw.png",
   "job_id": null,
-  "day": "2026-10-28",
+  "day": "2026-10-29",
   "status": "todo"
  },
  {
@@ -152,7 +153,7 @@
   "elements": [],
   "references": [],
   "reuse_source": {"file": "src/p11_raw.png", "crop_frac": [0.284, 0.12, 0.757, 0.998], "from": "G04: the full approved download of p11's generation", "note": "his face and the raised fry, crop at 490:610"},
-  "day": "2026-10-28",
+  "day": "2026-10-29",
   "status": "todo"
  },
  {
@@ -164,7 +165,7 @@
   "elements": [],
   "references": [],
   "reuse_source": {"file": "src/p10_raw.png", "crop_frac": [0.31, 0.14, 0.46, 0.29], "from": "G03: the full approved download of p10's generation", "note": "tight on the helmet and the glowing visor (glow band narrowed), cut above the mouth so the panel reads silent; crop at 490:610"},
-  "day": "2026-10-27",
+  "day": "2026-10-28",
   "status": "todo"
  },
  {
@@ -194,7 +195,7 @@
   "reuse_source": null,
   "raw_download": "src/p15_raw.png",
   "job_id": null,
-  "day": "2026-10-28",
+  "day": "2026-10-29",
   "status": "todo"
  },
  {
@@ -233,7 +234,7 @@
   "reuse_source": null,
   "raw_download": "src/p18_raw.png",
   "job_id": null,
-  "day": "2026-10-28",
+  "day": "2026-10-29",
   "status": "todo"
  },
  {
@@ -248,7 +249,7 @@
   "reuse_source": null,
   "raw_download": "src/p19_raw.png",
   "job_id": null,
-  "day": "2026-10-27",
+  "day": "2026-10-28",
   "status": "todo"
  },
  {
@@ -260,7 +261,7 @@
   "elements": [],
   "references": [],
   "reuse_source": {"file": "src/p19_raw.png", "crop_frac": [0.52, 0.22, 1.0, 0.488], "from": "G07: the full approved download of p19's generation", "note": "the nose: one royal-blue band and the cockpit window, no faces, crop at 1000:450"},
-  "day": "2026-10-27",
+  "day": "2026-10-28",
   "status": "todo"
  },
  {
@@ -272,7 +273,7 @@
   "elements": [],
   "references": [],
   "reuse_source": {"file": "src/p19_raw.png", "crop_frac": [0.1, 0.28, 0.42, 0.598], "from": "G07: the full approved download of p19's generation", "note": "Oliver's head and shoulders with the basket; crop at 1000:800"},
-  "day": "2026-10-27",
+  "day": "2026-10-28",
   "status": "todo"
  },
  {
@@ -284,7 +285,7 @@
   "elements": [],
   "references": [],
   "reuse_source": {"file": "src/p19_raw.png", "crop_frac": [0.135, 0.29, 0.585, 0.541], "from": "G07: the full approved download of p19's generation", "note": "Sanchez chest-up, still in his proud hold; crop at 1000:450"},
-  "day": "2026-10-27",
+  "day": "2026-10-28",
   "status": "todo"
  },
  {
@@ -382,7 +383,7 @@
   "prompt": null,
   "elements": [],
   "references": [],
-  "reuse_source": {"file": "src/p01_raw.png", "crop_frac": [0.06, 0.0, 0.94, 0.9], "from": "G01: the full approved download of p01's generation", "note": "the cover zoomed about 1.12x around (0.5, 0.45), anchored at the top so the title stays in the sky band and the Oct 28 and Nov 4 grid tiles differ; crop at 1000:1270"},
+  "reuse_source": {"file": "src/p01_raw.png", "crop_frac": [0.06, 0.1, 0.94, 1.0], "from": "G01: the full approved download of p01's generation", "note": "the cover zoomed about 1.14x, anchored at the bottom so the title sits on the field below the pair and the Oct 28 and Nov 4 grid tiles differ; crop at 1000:1270"},
   "day": "2026-10-27",
   "status": "todo"
  },

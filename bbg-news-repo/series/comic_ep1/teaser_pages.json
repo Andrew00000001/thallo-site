@@ -5,11 +5,11 @@
     {"id": "t01a", "rect": [40, 40, 1000, 1270], "image": "panels/t01a.png", "focus": [0.5, 0.5], "border": 0}
    ],
    "letters": [
-    {"type": "hud", "text": "BBG NEWS · LOCAL HAZARDS", "panel": "t01a", "box": [72, 72, 560], "size": 34},
-    {"type": "title", "text": "WE'LL GETCHA", "panel": "t01a", "box": [110, 170, 860]},
-    {"type": "title", "text": "HOME", "panel": "t01a", "box": [340, 306, 400]},
-    {"type": "sfx", "text": "NOV 4", "panel": "t01a", "box": [650, 1010, 330], "angle": 8},
-    {"type": "hud", "text": "SWIPE >>", "panel": "t01a", "box": [810, 1222, 200], "size": 30}
+    {"type": "hud", "text": "BBG NEWS · LOCAL HAZARDS", "panel": "t01a", "box": [64, 64, 430], "size": 32},
+    {"type": "title", "text": "WE'LL GETCHA", "panel": "t01a", "box": [90, 930, 900]},
+    {"type": "title", "text": "HOME", "panel": "t01a", "box": [330, 1067, 420]},
+    {"type": "sfx", "text": "NOV 4", "panel": "t01a", "box": [700, 770, 300], "angle": 8},
+    {"type": "hud", "text": "SWIPE >>", "panel": "t01a", "box": [810, 1240, 200], "size": 30}
    ]},
   {"id": "t02",
    "panels": [

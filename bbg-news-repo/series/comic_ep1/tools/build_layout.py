@@ -137,7 +137,7 @@ GEN["G02"] = dict(panel="p08", ratio="3:2", res="2k", day="2026-10-27", els=[OLI
         "parasol's red-and-yellow canopy cutting across the top of the frame.",
         "The left third of the frame is plain, open daisy-flecked grass with nothing in it, " + CLEAN],
         "3:2"))
-GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-27", els=[SAN_ID, OLI_ID],
+GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-28", els=[SAN_ID, OLI_ID],
     refs=[ref("p08 (G02, its job ID once approved)", "continuity: Oliver, basket, stand"),
           ref(P2_JOB, "location reference (P2), only if approved")],
     prompt=prompt([SAN, SAN_LINE,
@@ -152,7 +152,7 @@ GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-27", els=[SAN
         "who towers left of centre against the open sky, his helmet in the upper third of the frame.",
         "The top fifth of the frame above his helmet and the open sky to the right of his head are "
         "clear saturated blue sky with soft clouds and nothing else, " + CLEAN], "4:5"))
-GEN["G04"] = dict(panel="p11", ratio="3:2", res="2k", day="2026-10-28", els=[OLI_ID],
+GEN["G04"] = dict(panel="p11", ratio="3:2", res="2k", day="2026-10-29", els=[OLI_ID],
     refs=[ref("p08 (G02, its job ID once approved)", "continuity: Oliver, basket, grass")],
     prompt=prompt([OLI, OLI_SOLO,
         "sits on the grass beside the cart and looks up into the camera, cheeks stuffed full and a fry "
@@ -178,7 +178,7 @@ GEN["G05"] = dict(panel="p14", ratio="4:5", res="2k", day="2026-10-28", els=[SAN
         "pad clearly visible.",
         "The upper left third of the frame is open saturated blue sky with soft white clouds and "
         "nothing else, " + CLEAN], "4:5"))
-GEN["G06"] = dict(panel="p15", ratio="3:2", res="2k", day="2026-10-28", els=[SAN_ID, OLI_ID],
+GEN["G06"] = dict(panel="p15", ratio="3:2", res="2k", day="2026-10-29", els=[SAN_ID, OLI_ID],
     refs=[ref("p14 (G05, its job ID once approved)", "continuity: same pad, hull and carry")],
     prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY,
         "he stands on the glowing pad on top of the hull and tilts his head toward his mechanical arm "
@@ -188,7 +188,7 @@ GEN["G06"] = dict(panel="p15", ratio="3:2", res="2k", day="2026-10-28", els=[SAN
         "soldier's head lower left, both faces large in frame.",
         "The upper left corner of the frame is open saturated blue sky with nothing in it, " + CLEAN],
         "3:2"))
-GEN["G07"] = dict(panel="p19", ratio="5:4", res="4k", day="2026-10-27", els=[SAN_ID, OLI_ID],
+GEN["G07"] = dict(panel="p19", ratio="5:4", res="4k", day="2026-10-28", els=[SAN_ID, OLI_ID],
     refs=[ref(P1B, "dropship design reference: approved P1 recoloured locally to royal-blue bands, so "
               "the blue wreck stays P1's chunky cartoon dropship (not P3's airliner nose). Upload it "
               "with media_upload", P1_JOB),
@@ -221,7 +221,7 @@ GEN["G08"] = dict(panel="p23", ratio="4:5", res="2k", day="2026-10-29", els=[HUG
         "them.",
         "The top fifth of the frame is open blue sky above the banner tops and the bottom fifth is "
         "plain, empty turf, " + CLEAN], "4:5"))
-GEN["G09"] = dict(panel="p18", ratio="1:1", res="2k", day="2026-10-28", els=[SAN_ID, OLI_ID],
+GEN["G09"] = dict(panel="p18", ratio="1:1", res="2k", day="2026-10-29", els=[SAN_ID, OLI_ID],
     refs=[ref("p01 (G01, its job ID once approved)", "continuity: the under-arm carry, the basket, "
               "both faces"),
           ref(P3R, "field reference, only if Bryce approves P3r", P3_JOB)],
@@ -293,12 +293,12 @@ STING = dict(font="rounded-black")                                    # slate: o
 
 # s01 cover
 page("s01", [P("p01", (40, 40, 1000, 1270), border=0, kind="gen", gen="G01",
-               faces=[(615, 525, 150, 150, "S"), (465, 610, 140, 140, "O")])],
-     [L("hud", "BBG NEWS · LIVE\nLOCAL HAZARDS · EP 1", "p01", (64, 58, 520), size=34),
-      L("title", "WE'LL GETCHA", "p01", (110, 194, 860)),
-      L("title", "HOME", "p01", (360, 330, 360)),
-      L("hud", "DESTINATION: HOME?", "p01", (600, 930, 420), (700, 540), size=34),
-      L("hud", "SWIPE >>", "p01", (810, 1222, 200), size=30)])
+               faces=[(560, 250, 200, 200, "S"), (400, 410, 175, 185, "O")])],
+     [L("hud", "BBG NEWS · LIVE\nLOCAL HAZARDS · EP 1", "p01", (64, 58, 470), size=34),
+      L("hud", "DESTINATION: HOME?", "p01", (64, 790, 420), (520, 640), size=34),
+      L("title", "WE'LL GETCHA", "p01", (90, 955, 900)),
+      L("title", "HOME", "p01", (330, 1092, 420)),
+      L("hud", "SWIPE >>", "p01", (810, 1240, 200), size=30)])
 
 # s02 cold open (stands alone if Instagram re-serves the carousel from slide 2)
 page("s02", [P("p02", (40, 40, 1000, 640), kind="reuse", src="C1_still", box=(0, 740, 1536, 1723),
@@ -439,14 +439,14 @@ page("s14", [P("p29", (40, 40, 1000, 1160), kind="gfx", gfx="B-1000's HUD screen
 
 # t01, t02: the Oct 28 teaser (a 2-slide carousel, teaser_pages.json)
 page("t01", [P("t01a", (40, 40, 1000, 1270), border=0, kind="crop", gen="G01",
-               crop=(0.060, 0.0, 0.940, 0.900),
-               note="the cover zoomed about 1.12x around (0.5, 0.45), anchored at the top so the title "
-                    "stays in the sky band and the Oct 28 and Nov 4 grid tiles differ; crop at 1000:1270")],
-     [L("hud", "BBG NEWS · LOCAL HAZARDS", "t01a", (72, 72, 560), size=34),
-      L("title", "WE'LL GETCHA", "t01a", (110, 170, 860)),
-      L("title", "HOME", "t01a", (340, 306, 400)),
-      L("sfx", "NOV 4", "t01a", (650, 1010, 330), angle=8),
-      L("hud", "SWIPE >>", "t01a", (810, 1222, 200), size=30)], teaser=True)
+               crop=(0.060, 0.100, 0.940, 1.000),
+               note="the cover zoomed about 1.14x, anchored at the bottom so the title sits on the field "
+                    "below the pair and the Oct 28 and Nov 4 grid tiles differ; crop at 1000:1270")],
+     [L("hud", "BBG NEWS · LOCAL HAZARDS", "t01a", (64, 64, 430), size=32),
+      L("title", "WE'LL GETCHA", "t01a", (90, 930, 900)),
+      L("title", "HOME", "t01a", (330, 1067, 420)),
+      L("sfx", "NOV 4", "t01a", (700, 770, 300), angle=8),
+      L("hud", "SWIPE >>", "t01a", (810, 1240, 200), size=30)], teaser=True)
 page("t02", [P("t02a", (40, 40, 1000, 560), kind="reuse", src="C1_still", box=(0, 800, 1536, 1660),
                faces=[(440, 315, 116, 136, "B")]),
              P("t02b", (40, 620, 490, 240), kind="reuse", src="C1_still", box=(280, 880, 1336, 1398)),
@@ -463,6 +463,16 @@ page("t02", [P("t02a", (40, 40, 1000, 560), kind="reuse", src="C1_still", box=(0
       L("title", "LOCAL HAZARDS · NOV 4", None, (60, 1150, 960), **STING),
       L("endcard", "Unofficial fan comic, not affiliated with SkyVu; characters © SkyVu.")],
      teaser=True)
+
+# generations already made (job IDs and status; Oct 27)
+DONE = {
+    "G01": {"job_id": "9daa8018-b0cd-4598-8667-9789250a4198",
+            "status": "take 1 approved, mirrored locally (src/p01_take1_mirrored.png); smoke-removal edit due Oct 28",
+            "rejected": ["1f7dc7cd-f277-4d3e-9cfd-d77abced45af (take 2: pair still high, Oliver under the wrong arm)"]},
+    "G02": {"job_id": "4f2adc91-2485-423b-afdf-96ea76df244b", "status": "approved"},
+    "G03": {"job_id": None, "status": "todo (Oct 27 try 4a6cf631 flagged by the content filter, refunded; reworded for Oct 28)"},
+}
+
 
 # ---------------------------------------------------------------- checks and derived faces
 RECT = {pn["id"]: pn["rect"] for pg in PAGES for pn in pg["panels"]}
@@ -554,8 +564,10 @@ for pg in PAGES:
             panels.append({"id": pid, "slide": pg["id"], "gen": m["gen"], "aspect_ratio": g["ratio"],
                            "resolution": g["res"], "prompt": g["prompt"], "elements": g["els"],
                            "references": g["refs"], "reuse_source": None,
-                           "raw_download": f"src/{pid}_raw.png", "job_id": None, "day": g["day"],
-                           "status": "todo"})
+                           "raw_download": f"src/{pid}_raw.png",
+                           "job_id": DONE.get(m["gen"], {}).get("job_id"), "day": g["day"],
+                           "status": DONE.get(m["gen"], {}).get("status", "todo"),
+                           **({"rejected": DONE[m["gen"]]["rejected"]} if "rejected" in DONE.get(m["gen"], {}) else {})})
         elif m["kind"] == "crop":
             g = GEN[m["gen"]]
             panels.append({"id": pid, "slide": pg["id"], "aspect_ratio": ar,
