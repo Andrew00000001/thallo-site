@@ -107,6 +107,16 @@ Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil
     - paint out the four view labels and the inset frame;
     - turn the banner shapes white and the pole dark grey;
     - white-balance the background.
+- **Huggable, Oct 27: the red-sheet edit (`63adaff6`) is rejected** (review panel, both lenses).
+  - Landed: no snout or nose; no pale belly patch. Sides are still right.
+  - Did not land:
+    - the ear on its right is still bare, and the widened bandage swallowed its left ear, leaving one ear on the wrong side;
+    - the stitched scar by the button eye vanished;
+    - the inset paw still has a thumb;
+    - the pole is unchanged at about 1.1-1.2 times its height.
+  - Local fixes on it (labels, inset frame, jaw-mount lights, banner shapes) worked except the side-view mount and the side banner.
+  - Next (Oct 28): the blue sheet is made as an edit of v4 instead, asking only for the three changes that landed today: the blue banner, no snout, no belly patch. The red sheet is then derived locally from it by recolouring the banner cloth.
+  - Accepted minors from v4: its right ear shows above the bandage, the inset paw has a thumb lobe, and the pole is short.
 - **Astoria: fix, mirrored** (second review panel).
   - Right: the mirrored sides, cream plush, teal heavy-lidded eyes, red gloves, the quilted maroon belt and the red-and-white boots.
   - Wrong:
@@ -196,7 +206,7 @@ Episode 1 now shares the daily limit, so the plan for each reset is in the resea
 4. Plate P2.
 5. The Huggable, fresh sheet v4.
 
-Oct 27 onward: the comic plan (`series/comic_ep1/SCRIPT.md` §7). Oct 27: the comic cover G01 first, the Huggable red-sheet fix edit of v4 (`321fe5d6`), then the comic panels G02, G03 and G07. Oct 28: the blue Huggable main-sheet edit (jaws on), then G05, G06, G09 and G04. The blue Element (`huggable-huggable-blue`) follows once the blue sheet passes its review panel, Oct 29 at the earliest, and the comic's Huggable panel (G08) runs Oct 29–30. Plate P4 and the C2 and C4 start stills are dropped: Episode 1 is now a comic (Oct 26), and the comic needs none of them.
+Oct 28 (comic plan, `series/comic_ep1/SCRIPT.md` §7): the cover cleanup edit, the comic panels G03, G07 and G05, and the blue Huggable edit of v4. Plate P4 and the C2 and C4 start stills are dropped: Episode 1 is now a comic.
 
 Later:
 - Botch;
