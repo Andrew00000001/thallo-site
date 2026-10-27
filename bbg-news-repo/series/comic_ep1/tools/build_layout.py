@@ -138,18 +138,18 @@ GEN["G02"] = dict(panel="p08", ratio="3:2", res="2k", day="2026-10-27", els=[OLI
         "The left third of the frame is plain, open daisy-flecked grass with nothing in it, " + CLEAN],
         "3:2"))
 GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-28", els=[SAN_ID, OLI_ID],
-    refs=[ref("p08 (G02, its job ID once approved)", "continuity: Oliver, basket, stand"),
+    refs=[ref("4f2adc91-2485-423b-afdf-96ea76df244b", "continuity: Oliver, basket, stand (G02, approved)"),
           ref(P2_JOB, "location reference (P2), only if approved")],
     prompt=prompt([SAN, SAN_LINE,
-        "He has just strode in from the left with both hands empty and snapped into a hard hold left "
-        "of centre, turned three-quarters toward the right of the frame, beside", OLI, OLI_CO,
-        "who sits on the grass beside the cart in the lower right foreground with his back half-turned "
-        "to the camera, frozen mid-bite beside the softly glowing red basket of golden fried food; the "
-        "cyborg's feet are planted wide, chest out, chin up, his gloved left hand flat on his chest "
-        "plate and his mechanical right arm raised and pointing down at the soldier, the brighter glow "
-        "band inside his visor narrowed to a thin slit, his mouth open on a short line.", FOOD,
-        "Low-angle shot from the grass just behind the soldier's shoulder, looking up at the cyborg, "
-        "who towers left of centre against the open sky, his helmet in the upper third of the frame.",
+        "He has just marched in from the left with both hands empty and stopped in a proud, heroic "
+        "stance left of centre, turned three-quarters toward the right of the frame, beside", OLI, OLI_CO,
+        "who sits on the grass beside the cart in the lower right foreground, seen from behind and to "
+        "the side, frozen mid-bite beside the softly glowing red basket of golden fried food; the "
+        "cyborg stands tall with his chin up, his gloved left hand flat on his chest plate and his "
+        "mechanical right arm raised in a grand, sweeping gesture toward the soldier, the brighter glow "
+        "band inside his visor narrowed to a thin slit, as if declaring something grand.", FOOD,
+        "Low-angle shot from the grass just behind the soldier, looking up at the cyborg, who stands "
+        "tall left of centre against the open sky, his helmet in the upper third of the frame.",
         "The top fifth of the frame above his helmet and the open sky to the right of his head are "
         "clear saturated blue sky with soft clouds and nothing else, " + CLEAN], "4:5"))
 GEN["G04"] = dict(panel="p11", ratio="3:2", res="2k", day="2026-10-29", els=[OLI_ID],
