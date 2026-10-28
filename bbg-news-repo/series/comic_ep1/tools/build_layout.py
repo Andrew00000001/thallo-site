@@ -44,9 +44,9 @@ GFX = "tools/build_assets.py"
 # ---------------------------------------------------------------- prompt parts
 SAN = "<<<e6122a2f-99de-423a-a310-733554bf48bb>>>"
 OLI = "<<<74170e99-a46a-4c7d-857c-d3046b839374>>>"
-HUG = "<<<E1>>>"
+HUG = "<<<3d1e4aec-a12f-47be-ae46-371111ebc431>>>"
 SAN_ID, OLI_ID = SAN[3:-3], OLI[3:-3]
-HUG_ID = "PENDING: huggable-huggable-blue (replace E1 with its UUID once it is in SHEETS.md)"
+HUG_ID = "3d1e4aec-a12f-47be-ae46-371111ebc431"  # huggable-huggable-blue, created Oct 28
 
 SAN_LINE = ("A lean teddy-bear cyborg in a dark maroon helmet with rounded bear-ear bumps and an "
             "opaque glowing red visor hiding his eyes, a light tan muzzle with a small dark goatee, a "
@@ -213,7 +213,7 @@ GEN["G07"] = dict(panel="p19", ratio="5:4", res="4k", day="2026-10-28", els=[SAN
         "the frame are open saturated blue sky with soft white clouds, " + CLEAN], "5:4"))
 GEN["G08"] = dict(panel="p23", ratio="4:5", res="2k", day="2026-10-29", els=[HUG_ID],
     refs=[ref("panels/p20.png", "continuity: the blue hull's nose, turf and light (no characters). "
-              "A crop of the approved G07; upload it with media_upload"),
+              "A crop of the approved G07, uploaded Oct 28 as media fd35a574-b303-4174-be05-8d6d773a9e81"),
           ref(P1B, "dropship design reference (blue-banded P1 recolour)", P1_JOB)],
     prompt=prompt([HUG, HUG_LINE,
         "have snapped around toward the camera in perfect unison, each with its cream bandage, olive "

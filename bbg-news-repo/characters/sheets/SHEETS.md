@@ -19,7 +19,7 @@ These are the Element sheets: one 4K model sheet per character, in the feature-f
 | Oliver | `oliver-soldier` | 05fde0f3-ebdf-4a32-b5e8-859813f4ebe2 (smaller-plate edit of 992ff073); colour-corrected upload d6b281ee-b656-43eb-adf3-b5d1c5c2b251 | 2026-10-24 | Minor (Element created) |
 | Riggs | `riggs-heavy` | 769625a1-c662-4d45-9974-728a213bf4e6 | 2026-10-19 | Minor |
 | Tillman | `tillman-demolition` | 17b76e5f-993a-4ecd-913d-afe450592e59 (edit of 09ba5b80) | 2026-10-21 | Redo (queued) |
-| Huggable | `huggable-huggable` | 321fe5d6-ddc5-419d-ba3f-848b7ec3d00a (fresh sheet v4) | 2026-10-26 | Fix (sides right; edit queued Oct 27) |
+| Huggable | `huggable-huggable-blue`, `huggable-huggable` | 42fa59ed-201e-4f86-ab63-bb1d7a4ae3d9 (blue edit of v4 321fe5d6); locally fixed upload 8f76c425-0d11-4c7a-8ecc-18530717d504 (blue), red derived locally a7610684-8289-4514-9ed4-7fefa689e50b | 2026-10-28 | Minor (both Elements created) |
 | Astoria | `astoria-sniper` | 64d65c16-9fee-4a3d-a172-1069e1f65869; mirrored upload fcc7f1f4-8599-4812-b509-b0782b6f53a5 | 2026-10-20 | Fix (queued), mirrored |
 | Wil | `wil-chub-scout` | 5b633f8e-10ee-445f-ba46-ba62e1b26f90 (edit of 20f40c63); colour-corrected upload 3f87c967-2748-43d4-9c5b-dd11962459de | 2026-10-22 | Minor (fix queued) |
 | Graham | `graham-engineer` | 55c688d8-bcd6-4a48-9060-b21ef3051a2a (edit of a0a6b54f); mirrored upload d70599fa-9bd9-48b6-b88f-a4884ecce247 | 2026-10-21 | Minor, mirrored |
@@ -42,10 +42,12 @@ Created on 2026-10-22, after Bryce deleted the old Elements. To use one, put `<<
 | `sanchez-arbiter` | e6122a2f-99de-423a-a310-733554bf48bb | locally fixed upload c143c1df |
 | `b-1000-assault-signature` | afb181b2-d8e7-47d3-8426-df01bf99e80c | maroon-corrected upload 28e42805 (created 2026-10-23) |
 | `oliver-soldier` | 74170e99-a46a-4c7d-857c-d3046b839374 | colour-corrected upload d6b281ee of job 05fde0f3 (created 2026-10-25) |
+| `huggable-huggable-blue` | 3d1e4aec-a12f-47be-ae46-371111ebc431 | locally fixed upload 8f76c425 of job 42fa59ed (created 2026-10-28) |
+| `huggable-huggable` | c8d81c89-c0f7-49ef-9c6b-dfb70513589f | upload a7610684: the blue sheet with its banner recoloured to team red locally (created 2026-10-28) |
 
-**Deleted:** Bryce deleted the stale Oliver, Botch, Astoria and Saberi Elements, and a listing confirmed it on 2026-10-22. The second review panel had found real errors in those sheets. Their rows above are kept for history only; the first `oliver-soldier` row (85977ecb) is one of them. The current Elements are `sanchez-arbiter`, `riggs-heavy`, `b-1000-assault-signature` and, from 2026-10-25, `oliver-soldier` (74170e99).
+**Deleted:** Bryce deleted the stale Oliver, Botch, Astoria and Saberi Elements, and a listing confirmed it on 2026-10-22. The second review panel had found real errors in those sheets. Their rows above are kept for history only; the first `oliver-soldier` row (85977ecb) is one of them. The current Elements are `sanchez-arbiter`, `riggs-heavy`, `b-1000-assault-signature` `oliver-soldier` (74170e99, from 2026-10-25), and `huggable-huggable-blue` (3d1e4aec) with `huggable-huggable` (c8d81c89, both from 2026-10-28).
 
-Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil, the Huggable (red and blue), Graham and Tillman. The checked prompts for the fresh Tillman and Saberi sheets and the Astoria edit are in the research scratchpad (`shorts/sheets_v2/redo_prompts.json`).
+Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil, Graham and Tillman. The checked prompts for the fresh Tillman and Saberi sheets and the Astoria edit are in the research scratchpad (`shorts/sheets_v2/redo_prompts.json`).
 
 ## QA notes
 
@@ -117,6 +119,21 @@ Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil
   - Local fixes on it (labels, inset frame, jaw-mount lights, banner shapes) worked except the side-view mount and the side banner.
   - Next (Oct 28): the blue sheet is made as an edit of v4 instead, asking only for the three changes that landed today: the blue banner, no snout, no belly patch. The red sheet is then derived locally from it by recolouring the banner cloth.
   - Accepted minors from v4: its right ear shows above the bandage, the inset paw has a thumb lobe, and the pole is short.
+- **Huggable, Oct 28: the blue sheet passes (minor), and both Elements are created.**
+  - The sheet is the edit `42fa59ed` of v4. It removed the snout, nose and belly patch and turned the banner blue, while keeping v4's sides, both ears and the scar.
+  - Both lenses of the review panel rate it usable.
+  - Local fixes (`fixwork/fix_hug_blue.py`):
+    - the labels and inset frame painted out;
+    - white balance applied first, then the banner shapes turned neutral white;
+    - the banner cloth turned from violet-blue to royal blue.
+  - The red sheet is the same image with the banner recoloured to team red, which saves an edit.
+  - Accepted minors:
+    - its right ear shows above the bandage;
+    - the inset paw has a thumb lobe;
+    - the pole is about 1.1 times its height;
+    - small red lights on the jaw mounts in the side and back views (a local repaint looked worse, so it was dropped);
+    - the chest seam has pale stitch bars rather than dark ticks;
+    - the three-quarter scar lost its dark gash.
 - **Astoria: fix, mirrored** (second review panel).
   - Right: the mirrored sides, cream plush, teal heavy-lidded eyes, red gloves, the quilted maroon belt and the red-and-white boots.
   - Wrong:
@@ -206,9 +223,9 @@ Episode 1 now shares the daily limit, so the plan for each reset is in the resea
 4. Plate P2.
 5. The Huggable, fresh sheet v4.
 
-Oct 28 (comic plan, `series/comic_ep1/SCRIPT.md` §7): the cover cleanup edit, the comic panels G03, G07 and G05, and the blue Huggable edit of v4. Plate P4 and the C2 and C4 start stills are dropped: Episode 1 is now a comic.
+Oct 29 (comic plan, `series/comic_ep1/SCRIPT.md` §7): the comic panels G03 (retake), G05 (retake), G09, G04 and G08, the Huggable splash using `huggable-huggable-blue`. The Huggable sheets are done. Episode 1 is now a comic, so plate P4 and the C2 and C4 start stills are dropped.
 
-Later:
+Later (sheets for future episodes):
 - Botch;
 - Wil's ABBi;
 - fresh Tillman and Saberi sheets (`redo_prompts.json`);

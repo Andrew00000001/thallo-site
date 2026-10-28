@@ -114,7 +114,7 @@ The research checked 3:4 (1080×1440). Instagram has shown 3:4 photos in single 
 - **Element placeholders** go immediately before the words that describe that character:
   - Sanchez: `<<<e6122a2f-99de-423a-a310-733554bf48bb>>>` (`sanchez-arbiter`, the unarmed Element).
   - Oliver: `<<<74170e99-a46a-4c7d-857c-d3046b839374>>>` (`oliver-soldier`, the current Element; never the deleted 85977ecb).
-  - The blue Huggable: the neutral slot `<<<E1>>>`. Replace `E1` with the bare UUID of `huggable-huggable-blue` (main sheet, jaws on) once it is in SHEETS.md. That Element doesn't exist yet: the red sheet v4 (job 321fe5d6) is under review, then the blue edit.
+  - The blue Huggable: `<<<3d1e4aec-a12f-47be-ae46-371111ebc431>>>` (`huggable-huggable-blue`, main sheet, jaws on), created Oct 28 from the blue edit of v4 (job 42fa59ed) after its review panel; the red `huggable-huggable` (c8d81c89-c0f7-49ef-9c6b-dfb70513589f) is the same sheet with the banner recoloured locally.
   - `b-1000-assault-signature` (`afb181b2-…`) and `riggs-heavy` are not used: B-1000 is all reused art, and Riggs isn't in Ep 1.
   - At most two Element characters per image (STYLE.md habit 4); the five Huggables count as one.
 - **Character lines:** Sanchez's from his soul's video starter; Oliver's from his starter, with the package's co-star words ("as tall as the cyborg") and its carry clause ("tucked firmly under his mechanical right arm and hugging a softly glowing red basket of golden fried food"); the Huggable's from its starter with the blue-team change and the package's "Five identical copies of" prefix.
@@ -355,9 +355,9 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 | Day | Slots (in order) | Also |
 |---|---|---|
 | **Tue Oct 27** (done) | G01 take 1 (mirrored locally; kept), G01 take 2 (rejected), G02 (approved), the Huggable red-sheet edit (muzzle and belly fixed; ear, pole, jaw lights and thumb not), G03 (flagged by the content filter, refunded, but it used the day's fifth slot) | The cover's title moved to the field (§4); the red sheet got its local fixes and went to its review panel |
-| **Wed Oct 28** | 1. **G01 edit** (remove the smoke, black barriers; first, for the teaser). 2. **G03** (reworded). 3. **G07** (needs G01). 4. **Huggable:** the blue main-sheet edit, made from v4 (`321fe5d6`) because the Oct 27 red edit lost the scar and an ear; it asks only for the blue banner, no snout and no belly patch. The red sheet is then derived locally by recolouring the banner. 5. **G05** (needs G01) | Render the teaser from the edited cover (or the mirrored take 1 if the edit fails) and **post it at about 12:00**, AI label on. Send the blue sheet to its review panel |
-| **Thu Oct 29** | 1. **G06** (after G05). 2. **G09** (needs G01). 3. **G04** (needs G02). 4. **G08** (needs the blue Element and p20), else a retake. 5. A retake | First thing: once the blue sheet passes, create the blue Element (free) and write its UUID into SHEETS.md and G08's `<<<E1>>>`. Cut every crop; letter the carousel with `--guides` |
-| **Fri Oct 30** | **G08** if the Element only went live today, and its retake. Remaining retakes | Re-letter with `--guides` as panels land |
+| **Wed Oct 28** (done) | The G01 edit (approved: smoke gone, barriers black), G03 (rejected: both arms mechanical), G07 (approved), the blue Huggable edit (approved after local fixes; both Huggable Elements created), G05 (rejected: the wreck toy-sized) | The teaser rendered from the edited cover and sent; **post it at about 12:00**, AI label on. Crops p20-p22 re-fit to G07 |
+| **Thu Oct 29** | 1. **G03 v3** (the Verdict: one mechanical arm, steeper angle). 2. **G05 v2** (the hull's scale). 3. **G09** (needs G01). 4. **G04** (needs G02). 5. **G08** (the blue Element is live) | Cut every crop; letter the carousel with `--guides` |
+| **Fri Oct 30** | **G06** (after G05) and retakes | Re-letter with `--guides` as panels land |
 | **Sat Oct 31** | **F2** only if there is still no blue Element; otherwise spare | Deadline for the s11 decision |
 | **Sun Nov 1** | Spare (a last retake only) | **Lock:** every panel approved, `letter.py pages.json --strict --guides --jpg`, Bryce's review |
 | **Mon Nov 2 – Tue Nov 3** | Buffer only | Phone check: the slide counter, the 3:4 grid crop of s01, the in-app alt-text limit; final caption |

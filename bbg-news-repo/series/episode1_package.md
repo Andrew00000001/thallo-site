@@ -49,6 +49,15 @@ Higgsfield's 5-a-day generation limit sets this pace.
 - The comic plan from Oct 27 (SCRIPT.md §7): Oct 27, the cover G01 first, the Huggable red-sheet fix edit of v4 (`321fe5d6`), then G02, G03 and G07; Oct 28, the blue Huggable edit, then G05, G06, G09 and G04, and the teaser posts at about 12:00; the blue Element Oct 29 at the earliest, then the Huggable panel G08 on Oct 29–30, with a fallback by Oct 31. 9 new generations, 22 credits.
 - The comic draws the jump pad as the approved P1 and C1 still do (a flat, softly glowing pale-cyan square with a light-grey rim), not this package's derived octagon (§2, open item 4); see SCRIPT.md open item 12.
 
+**Status on 2026-10-28:**
+- Comic panels approved: the cover (G01, cleaned Oct 28), the food stand (G02) and the landing at the blue wreck (G07).
+- The Oct 28 teaser is rendered and sent to Bryce.
+- Rejected and retaken Oct 29:
+  - the Verdict (G03): both arms came out mechanical;
+  - the launch pad (G05): the wreck came out toy-sized.
+- Huggable Elements are live: `huggable-huggable-blue` (3d1e4aec) and `huggable-huggable` (c8d81c89).
+- Next: G09, G04 and the Huggable splash G08 on Oct 29, then G06 on Oct 30.
+
 
 1. **The Higgsfield Elements are still the old low-poly ones.** A read-only listing of the workspace on 2026-10-20 shows `oliver-soldier` (5e079b47…), `huggable-huggable` (e188dc42…) and `riggs-heavy` (1475a232…), all created on Oct 15 from the retired low-poly sheets (their descriptions say "low-poly"). No Element has been made from any SHEETS.md sheet, and there is no `b-1000-assault-signature` Element at all.
    - Create the new Elements from the SHEETS.md jobs (type `image_job`): B-1000 from the fixed sheet once blocker 5 clears (the current sheet is `1f7259ce-23ed-4398-9a91-cdbf429dfeed`; use it only under Bryce's recorded exception), Oliver `909ea0bd-843e-4324-ae88-193c2eeb84cb`; Sanchez and the blue Huggable once their sheets pass QA. Creating an Element cost nothing on Oct 15.
