@@ -137,7 +137,7 @@ GEN["G02"] = dict(panel="p08", ratio="3:2", res="2k", day="2026-10-27", els=[OLI
         "parasol's red-and-yellow canopy cutting across the top of the frame.",
         "The left third of the frame is plain, open daisy-flecked grass with nothing in it, " + CLEAN],
         "3:2"))
-GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-28", els=[SAN_ID, OLI_ID],
+GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-29", els=[SAN_ID, OLI_ID],
     refs=[ref("4f2adc91-2485-423b-afdf-96ea76df244b", "continuity: Oliver, basket, stand (G02, approved)"),
           ref(P2_JOB, "location reference (P2), only if approved")],
     prompt=prompt([SAN, SAN_LINE,
@@ -145,15 +145,18 @@ GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-28", els=[SAN
         "stance left of centre, turned three-quarters toward the right of the frame, beside", OLI, OLI_CO,
         "who sits on the grass beside the cart in the lower right foreground, seen from behind and to "
         "the side, frozen mid-bite beside the softly glowing red basket of golden fried food; the "
-        "cyborg stands tall with his chin up, his gloved left hand flat on his chest plate and his "
-        "mechanical right arm raised in a grand, sweeping gesture toward the soldier, the brighter glow "
-        "band inside his visor narrowed to a thin slit, as if declaring something grand.", FOOD,
-        "Low-angle shot from the grass just behind the soldier, looking up at the cyborg, who stands "
-        "tall left of centre against the open sky, his helmet in the upper third of the frame.",
+        "cyborg stands tall with his chin up in his Verdict pose, his gloved left hand flat on his chest "
+        "plate and his mechanical right arm raised and pointing at the soldier, the brighter glow band "
+        "inside his visor narrowed to a thin slit; his left arm is a plain furry arm in a grey-and-white "
+        "camo sleeve ending in the dark grey glove, and only his right arm is the red-and-black mechanical "
+        "one.", FOOD,
+        "Dramatic low-angle shot from ground level in the grass behind the soldier, looking steeply up "
+        "at the cyborg, who towers left of centre against the open sky, his helmet in the upper third of "
+        "the frame, the soldier's back and shoulder low in the lower right corner.",
         "The top fifth of the frame above his helmet and the open sky to the right of his head are "
         "clear saturated blue sky with soft clouds and nothing else, " + CLEAN], "4:5"))
 GEN["G04"] = dict(panel="p11", ratio="3:2", res="2k", day="2026-10-29", els=[OLI_ID],
-    refs=[ref("p08 (G02, its job ID once approved)", "continuity: Oliver, basket, grass")],
+    refs=[ref("4f2adc91-2485-423b-afdf-96ea76df244b", "continuity: Oliver, basket, grass")],
     prompt=prompt([OLI, OLI_SOLO,
         "sits on the grass beside the cart and looks up into the camera, cheeks stuffed full and a fry "
         "poking from his mouth, both heavy brows shot up high, flashing a wide, guilty grin that lifts "
@@ -163,22 +166,25 @@ GEN["G04"] = dict(panel="p11", ratio="3:2", res="2k", day="2026-10-29", els=[OLI
         "the centre of the frame and the fry raised just below his chin.",
         "The upper third of the frame is plain daisy-flecked grass with nothing in it, " + CLEAN],
         "3:2"))
-GEN["G05"] = dict(panel="p14", ratio="4:5", res="2k", day="2026-10-28", els=[SAN_ID, OLI_ID],
+GEN["G05"] = dict(panel="p14", ratio="4:5", res="2k", day="2026-10-29", els=[SAN_ID, OLI_ID],
     refs=[ref(P1_JOB, "location and dropship design reference (approved P1, red-banded wreck)"),
-          ref("p01 (G01, its job ID once approved)", "continuity: the under-arm carry and the basket"),
-          ref("panels/p06.png", "the pad's look (a crop of P1); match it. Upload it with media_upload",
+          ref("75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "continuity: the under-arm carry and the basket"),
+          ref("panels/p06.png", "the pad's look (a crop of P1, uploaded Oct 27 as media 14a3405a-0f4e-4038-9acc-85376ed7edf1); match it",
               P1_JOB)],
     prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY,
         "he stands planted on the glowing pad on top of the hull after a hard stop, feet wide, chest "
-        "out, chin up, mouth open on a short line, his boots lit from below by the pad's cyan glow, "
-        "while the soldier chews a fry with a flat, unimpressed look.", RED,
-        "Low-angle medium shot from the head of the furrow, close to the hull, looking up past the "
-        "stubby wing at the top of the hull, the two of them on the pad right of centre and large in "
-        "frame, rim-lit against the sky, his boots, the soldier's dangling bare feet and the glowing "
+        "out, chin up, mouth open on a short line, his boots lit from below by the pad's cyan glow, the "
+        "soldier held against his right hip by the red-and-black mechanical arm and his gloved left hand "
+        "free, while the soldier chews a fry with a flat, unimpressed look.", RED,
+        "Low-angle medium shot from the head of the furrow, right up against the huge hull, looking "
+        "steeply up its curved, dented flank to the roof; the hull is enormous, as long as a bus and "
+        "many times taller than the bears, so only its upper flank, one fat engine pod and the edge of "
+        "its roof are in frame, and the two of them stand large on the pad at the roof's edge right of "
+        "centre, rim-lit against the sky, his boots, the soldier's dangling bare feet and the glowing "
         "pad clearly visible.",
         "The upper left third of the frame is open saturated blue sky with soft white clouds and "
         "nothing else, " + CLEAN], "4:5"))
-GEN["G06"] = dict(panel="p15", ratio="3:2", res="2k", day="2026-10-29", els=[SAN_ID, OLI_ID],
+GEN["G06"] = dict(panel="p15", ratio="3:2", res="2k", day="2026-10-30", els=[SAN_ID, OLI_ID],
     refs=[ref("p14 (G05, its job ID once approved)", "continuity: same pad, hull and carry")],
     prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY,
         "he stands on the glowing pad on top of the hull and tilts his head toward his mechanical arm "
@@ -192,8 +198,8 @@ GEN["G07"] = dict(panel="p19", ratio="5:4", res="4k", day="2026-10-28", els=[SAN
     refs=[ref(P1B, "dropship design reference: approved P1 recoloured locally to royal-blue bands, so "
               "the blue wreck stays P1's chunky cartoon dropship (not P3's airliner nose). Upload it "
               "with media_upload", P1_JOB),
-          ref("p01 (G01, its job ID once approved)", "continuity: the carry, the basket, both faces"),
-          ref(P3R, "field reference, only if Bryce approves P3r", P3_JOB)],
+          ref("75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "continuity: the carry, the basket, both faces"),
+          ref(P3R, "field reference, approved Oct 26 as a reference only; uploaded as media 5cc57baa-2499-4e2e-9447-c353469da317", P3_JOB)],
     prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY,
         "he has just landed on the grass beside the hull with a squash on bent knees and snapped up "
         "into a hard hold, chest out, chin up, his gloved left fist on his hip, mouth open on one "
@@ -222,9 +228,9 @@ GEN["G08"] = dict(panel="p23", ratio="4:5", res="2k", day="2026-10-29", els=[HUG
         "The top fifth of the frame is open blue sky above the banner tops and the bottom fifth is "
         "plain, empty turf, " + CLEAN], "4:5"))
 GEN["G09"] = dict(panel="p18", ratio="1:1", res="2k", day="2026-10-29", els=[SAN_ID, OLI_ID],
-    refs=[ref("p01 (G01, its job ID once approved)", "continuity: the under-arm carry, the basket, "
+    refs=[ref("75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "continuity: the under-arm carry, the basket, "
               "both faces"),
-          ref(P3R, "field reference, only if Bryce approves P3r", P3_JOB)],
+          ref(P3R, "field reference, approved Oct 26 as a reference only; uploaded as media 5cc57baa-2499-4e2e-9447-c353469da317", P3_JOB)],
     prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY,
         "he flies across the sky in one huge, high arc in a heroic flying pose, body stretched out "
         "level, his gloved left fist thrust forward, chin up, mouth set firm, the glow band inside his "
@@ -376,20 +382,20 @@ page("s08", [P("p17", (40, 40, 1000, 300), kind="reuse", src="P1", box=(0, 830, 
 
 # s09 the landing: "HOME." and a silent blue band
 page("s09", [P("p19", (40, 40, 1000, 800), kind="gen", gen="G07",
-               faces=[(330, 290, 140, 140, "S"), (245, 400, 130, 130, "O")]),
-             P("p20", (40, 860, 1000, 450), kind="crop", gen="G07", crop=(0.52, 0.22, 1.00, 0.488),
+               faces=[(126, 293, 154, 145, "S"), (335, 428, 150, 118, "O")]),
+             P("p20", (40, 860, 1000, 450), kind="crop", gen="G07", crop=(0.56, 0.35, 1.00, 0.596),
                note="the nose: one royal-blue band and the cockpit window, no faces, crop at 1000:450")],
      [L("caption", "~ Big heroic finish ~", "p19", (64, 64, 480), size=34),
-      L("balloon", "**HOME.**", "p19", (560, 80, 360), (478, 290), size=58),
-      L("sfx", "THOOM!", "p19", (64, 650, 400), angle=-6),
+      L("balloon", "**HOME.**", "p19", (310, 214, 270), (262, 405), size=58),
+      L("sfx", "THOOM!", "p19", (330, 742, 360), angle=-6),
       L("balloon", "...", "p20", (80, 1110, 150), (20, 1215), size=48)])
 
 # s10 the punchline, and something flaps
-page("s10", [P("p21", (40, 40, 1000, 800), kind="crop", gen="G07", crop=(0.10, 0.28, 0.42, 0.598),
-               note="Oliver's head and shoulders with the basket; crop at 1000:800"),
-             P("p22", (40, 860, 1000, 450), kind="crop", gen="G07", crop=(0.135, 0.29, 0.585, 0.541),
+page("s10", [P("p21", (40, 40, 1000, 800), kind="crop", gen="G07", crop=(0.255, 0.38, 0.555, 0.678),
+               note="Oliver's head and shoulders under open sky, staring flat at the hull; crop at 1000:800"),
+             P("p22", (40, 860, 1000, 450), kind="crop", gen="G07", crop=(0.00, 0.30, 0.40, 0.5234),
                note="Sanchez chest-up, still in his proud hold; crop at 1000:450")],
-     [L("balloon", "...That's **THEIR** ship.", "p21", (64, 64, 440), (470, 470), size=48),
+     [L("balloon", "...That's **THEIR** ship.", "p21", (64, 64, 440), (560, 560), size=48),
       L("caption", "~ Heroic bra--", "p21", (64, 744, 320), size=34),
       L("sfx", "FWAP!", "p22", (780, 1150, 210), angle=-10)])
 
@@ -466,11 +472,17 @@ page("t02", [P("t02a", (40, 40, 1000, 560), kind="reuse", src="C1_still", box=(0
 
 # generations already made (job IDs and status; Oct 27)
 DONE = {
-    "G01": {"job_id": "9daa8018-b0cd-4598-8667-9789250a4198",
-            "status": "take 1 approved, mirrored locally (src/p01_take1_mirrored.png); smoke-removal edit due Oct 28",
+    "G01": {"job_id": "75d12d6d-6c6a-440f-bfdc-e94c7434ec82",
+            "status": "approved: Oct 28 edit of take 1 (9daa8018) mirrored locally, smoke removed and barriers black",
             "rejected": ["1f7dc7cd-f277-4d3e-9cfd-d77abced45af (take 2: pair still high, Oliver under the wrong arm)"]},
     "G02": {"job_id": "4f2adc91-2485-423b-afdf-96ea76df244b", "status": "approved"},
-    "G03": {"job_id": None, "status": "todo (Oct 27 try 4a6cf631 flagged by the content filter, refunded; reworded for Oct 28)"},
+    "G03": {"job_id": None, "status": "todo (Oct 27 try 4a6cf631 flagged by the filter, refunded; Oct 28 take rejected; v3 Oct 29)",
+            "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)",
+                         "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)"]},
+    "G05": {"job_id": None, "status": "todo (Oct 28 take rejected; v2 Oct 29)",
+            "rejected": ["d85aeea7-b5f3-4b5a-9b1b-5f8195936da7 (Oct 28: the wreck drawn toy-sized under the bears; Oliver under the gloved arm)"]},
+    "G07": {"job_id": "56882afc-79c0-44c9-97a0-0d00b9c0aee7",
+            "status": "approved (Oliver lands standing beside Sanchez, not carried; crops p20-p22 re-fit Oct 28)"},
 }
 
 

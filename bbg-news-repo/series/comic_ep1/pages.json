@@ -95,8 +95,8 @@
    ],
    "letters": [
     {"type": "caption", "text": "~ Big heroic finish ~", "panel": "p19", "box": [64, 64, 480], "size": 34},
-    {"type": "balloon", "text": "**HOME.**", "panel": "p19", "box": [560, 80, 360], "tail": [478, 290], "size": 58},
-    {"type": "sfx", "text": "THOOM!", "panel": "p19", "box": [64, 650, 400], "angle": -6},
+    {"type": "balloon", "text": "**HOME.**", "panel": "p19", "box": [310, 214, 270], "tail": [262, 405], "size": 58},
+    {"type": "sfx", "text": "THOOM!", "panel": "p19", "box": [330, 742, 360], "angle": -6},
     {"type": "balloon", "text": "...", "panel": "p20", "box": [80, 1110, 150], "tail": [20, 1215], "size": 48}
    ]},
   {"id": "s10",
@@ -105,7 +105,7 @@
     {"id": "p22", "rect": [40, 860, 1000, 450], "image": "panels/p22.png", "focus": [0.5, 0.5], "border": 6}
    ],
    "letters": [
-    {"type": "balloon", "text": "...That's **THEIR** ship.", "panel": "p21", "box": [64, 64, 440], "tail": [470, 470], "size": 48},
+    {"type": "balloon", "text": "...That's **THEIR** ship.", "panel": "p21", "box": [64, 64, 440], "tail": [560, 560], "size": 48},
     {"type": "caption", "text": "~ Heroic bra--", "panel": "p21", "box": [64, 744, 320], "size": 34},
     {"type": "sfx", "text": "FWAP!", "panel": "p22", "box": [780, 1150, 210], "angle": -10}
    ]},
