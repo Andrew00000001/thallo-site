@@ -55,8 +55,8 @@
     {"id": "p13", "rect": [550, 700, 490, 610], "image": "panels/p13.png", "focus": [0.5, 0.5], "border": 6}
    ],
    "letters": [
-    {"type": "balloon", "text": "Sanchez! Buddy! You look **GREAT!**", "panel": "p11", "box": [64, 56, 440], "tail": [648, 318], "size": 44},
-    {"type": "balloon", "text": "...**FRY?**", "panel": "p12", "box": [64, 718, 280], "tail": [300, 832], "size": 52},
+    {"type": "balloon", "text": "Sanchez! Buddy! You look **GREAT!**", "panel": "p11", "box": [64, 56, 440], "tail": [458, 470], "size": 44},
+    {"type": "balloon", "text": "...**FRY?**", "panel": "p12", "box": [64, 718, 280], "tail": [250, 940], "size": 52},
     {"type": "sfx", "text": "SSSSZZZ...", "panel": "p13", "box": [690, 722, 330], "angle": 4}
    ]},
   {"id": "s06",

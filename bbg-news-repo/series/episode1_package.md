@@ -58,6 +58,14 @@ Higgsfield's 5-a-day generation limit sets this pace.
 - Huggable Elements are live: `huggable-huggable-blue` (3d1e4aec) and `huggable-huggable` (c8d81c89).
 - Next: G09, G04 and the Huggable splash G08 on Oct 29, then G06 on Oct 30.
 
+**Status on 2026-10-29:**
+- Approved: the Huggable splash (G08, minor). s11 is lettered.
+- Rejected:
+  - G03 v3, G05 v2 and G09: Sanchez with mechanical parts on both arms, and the carry on the wrong arm;
+  - G04: a near copy of G02.
+- Root cause: the prompts' bare "left"/"right", which the model reads as sides of the image. The Oct 30 retakes (G03 v4, G05 v3, G09 v2) place his arms in viewer terms; G04 v2 swaps its reference from G02 to P2; G06 runs the same day with G05's references.
+- Comic panel spend: 30 credits by Oct 29, about 42 after Oct 30 (the plan said about 38). Credits left: 58.92.
+
 
 1. **The Higgsfield Elements are still the old low-poly ones.** A read-only listing of the workspace on 2026-10-20 shows `oliver-soldier` (5e079b47…), `huggable-huggable` (e188dc42…) and `riggs-heavy` (1475a232…), all created on Oct 15 from the retired low-poly sheets (their descriptions say "low-poly"). No Element has been made from any SHEETS.md sheet, and there is no `b-1000-assault-signature` Element at all.
    - Create the new Elements from the SHEETS.md jobs (type `image_job`): B-1000 from the fixed sheet once blocker 5 clears (the current sheet is `1f7259ce-23ed-4398-9a91-cdbf429dfeed`; use it only under Bryce's recorded exception), Oliver `909ea0bd-843e-4324-ae88-193c2eeb84cb`; Sanchez and the blue Huggable once their sheets pass QA. Creating an Element cost nothing on Oct 15.

@@ -139,9 +139,9 @@ The research checked 3:4 (1080×1440). Instagram has shown 3:4 photos in single 
 | G02 | p08 | s03 | Oliver mid-bite, high angle | Oliver | P2 (if approved) | 3:2 | 2k | 2 | Tue Oct 27 |
 | G03 | p10 (+ p09, p13) | s04, s03, s05 | The Verdict, low angle past Oliver's shoulder | Sanchez, Oliver | G02, P2 (if approved) | 4:5 | 4k | 4 | Tue Oct 27 |
 | G07 | p19 (+ p20, p21, p22) | s09, s10 | Landed beside the blue wreck's nose | Sanchez, Oliver | P1b, G01, P3r (if approved) | 5:4 | 4k | 4 | Tue Oct 27 |
-| G04 | p11 (+ p12) | s05 | Oliver's guilty fry offer, Sanchez's point of view | Oliver | G02 | 3:2 | 2k | 2 | Wed Oct 28 |
+| G04 | p11 (+ p12) | s05 | Oliver's guilty fry offer, Sanchez's point of view | Oliver | P2 (v2; take 1 with G02 copied it) | 3:2 | 2k | 2 | Wed Oct 28 |
 | G05 | p14 (+ p16) | s06, s07 | Planted on the red wreck's pad, low angle | Sanchez, Oliver | P1, G01, p06 (the pad) | 4:5 | 2k | 2 | Wed Oct 28 |
-| G06 | p15 | s07 | The pride smile, eye level | Sanchez, Oliver | G05 | 3:2 | 2k | 2 | Wed Oct 28 |
+| G06 | p15 | s07 | The pride smile, eye level | Sanchez, Oliver | P1, G01, p06 (G05's own) | 3:2 | 2k | 2 | Wed Oct 28 |
 | G09 | p18 | s08 | The arc from inside the trench, looking up | Sanchez, Oliver | G01, P3r (if approved) | 1:1 | 2k | 2 | Wed Oct 28 |
 | G08 | p23 | s11 | The blue Huggable wave (**needs the blue Element**) | blue Huggable ×5 | p20 (crop of G07), P1b | 4:5 | 2k | 2 | Thu Oct 29 (or Fri Oct 30) |
 
@@ -164,6 +164,8 @@ The research checked 3:4 (1080×1440). Instagram has shown 3:4 photos in single 
 - Retake only for a flaw that lands inside the panel or one of its crops. Fix a framing problem by moving the crop, the focus or a balloon first.
 - A retake changes only the action or camera sentence, **or** the reference image, never both (Higgsfield's own advice), and never a character line, scene line or suffix.
 - The one exception is the Huggable wave size (five → three), which needs Bryce's advance approval (package open item 5).
+- **Sides in viewer terms (Oct 29):** the model reads a bare "right" or "left" as a side of the image (SHEETS.md, Oct 25). So every action sentence places sided details in viewer terms. Sanchez faces the camera or turns three-quarters toward it in every panel, so his mechanical arm (and the carry) is on the viewer's left and his glove on the viewer's right. The character line keeps the soul's own wording. Written this way, G08 got every sided feature right on its first take. G03 v3, G05 v2 and G09, written with a bare left and right, all gave Sanchez mechanical parts on both arms.
+- **A take that copies its reference is retaken by changing the reference.** On Oct 29, G04, made with the approved G02 attached, came back as a near copy of G02 (only the eyes changed).
 
 ---
 
@@ -234,14 +236,14 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
 - **Panel:** {{PANELS:s04}}
   - **p10 = G03** (4:5, 4k; Elements: Sanchez, Oliver; references: the approved G02, and P2 if approved). Sanchez towers left of centre, turned three-quarters to frame right so the mechanical right arm is on the near side and points down at Oliver in the lower-right foreground. The top fifth and the sky right of his head are open for the tag and balloons.
 > "{{PROMPT:p10}}"
-  - Not for pasting: "holds" and "snapped", never "slow" or "solemn" (sanchez.md, Timing). Reject a take with two baskets. 4k, because p09 and p13 are tight crops of it.
+  - Not for pasting: "holds" and "snapped", never "slow" or "solemn" (sanchez.md, Timing). Reject a take with two baskets. 4k, because p09 and p13 are tight crops of it. Takes: Oct 27, refused by the content filter; Oct 28 and Oct 29 (v3), rejected, both with mechanical parts on both arms. v4 (Oct 30) changes only the action sentence: his arms in viewer terms, and the pointing arm raised to shoulder height so p09's strip can hold the visor and the arm.
 - **Lettering:**
 {{LETTERS:s04}}
 
 ### s05 · "GREAT!" / "...FRY?" / the silent visor
 - **Why the reader swipes:** Oliver's guilty over-friendliness, the hopeful "...FRY?", and Sanchez's only answer is a silent visor while the fryer sizzles. What does a solemn man do with a fry?
 - **Panels:** {{PANELS:s05}}
-  - **p11 = G04** (3:2, 2k; Element: Oliver; reference: the approved G02). Sanchez's point of view, looking down: Oliver holds up a single fry, which makes "...FRY?" literal.
+  - **p11 = G04** (3:2, 2k; Element: Oliver; reference: P2. Take 1, on Oct 29, used the approved G02 and came back as a near copy of it, so v2 on Oct 30 swaps the reference). Sanchez's point of view, looking down: Oliver holds up a single fry, which makes "...FRY?" literal.
 > "{{PROMPT:p11}}"
   - Not for pasting: the action and the scene line both put the one basket on the grass beside him (as in the package's C2), and his paw holds a fry, not the basket: reject any take with two baskets.
   - **p12 = crop of G04:** his face and the raised fry (the package's "half-beat of silence, then '...Fry?' on the hold").
@@ -255,14 +257,14 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
   - **p14 = G05** (4:5, 2k; Elements: Sanchez, Oliver; references: P1 for the wreck, furrow and palette; the approved G01 for the carry; `panels/p06.png` for the pad's look).
 > "{{PROMPT:p14}}"
   - Not for pasting: G05 and G06 must match P1's pad as seen in p06 and p17 (a flat, softly glowing pale-cyan square with a light-grey rim); reject a take with a hazard-rimmed octagon. He stands on it, reached by the wing, not a ladder or ramp; tomato-red bands; no smoke; Oliver's feet are bare (only Sanchez wears boots); both faces at least about a tenth of the frame height; the carry checks. 2k is enough: p16 uses 75% of the image width.
-  - **Fallback if the carry fails twice:** two solo shots on the same pad, one Element each (Sanchez chest out; Oliver munching on the hull), at one extra run.
+  - **Fallback if the carry fails twice:** two solo shots on the same pad, one Element each (Sanchez chest out; Oliver munching on the hull), at one extra run. The carry has now failed twice: Oct 28, Oliver under the gloved arm; Oct 29, two mechanical arms and no carry. Both failures trace to the bare left/right wording, so v3 (Oct 30) tries the viewer-term action sentence first. If v3 fails, the fallback runs on Oct 31.
 - **Lettering:**
 {{LETTERS:s06}}
 
 ### s07 · "But LOOK at it."
 - **Why the reader swipes:** the pride leaks through (his soul's contradiction: he did not ask for the arm, but he thinks it is really, really cool), and the pad starts to hum under them. Next: the launch.
 - **Panels:** {{PANELS:s07}}
-  - **p15 = G06** (3:2, 2k; Elements: Sanchez, Oliver; reference: the approved G05). The package's C3 hold: he tilts his head toward the arm with a small closed-mouth smile; he can't lift the arm, because Oliver is under it.
+  - **p15 = G06** (3:2, 2k; Elements: Sanchez, Oliver; references: G05's own, that is P1, the approved G01 and p06, because G05 is retaken the same day, Oct 30). The package's C3 hold: he tilts his head toward the arm with a small closed-mouth smile; he can't lift the arm, because Oliver is under it.
 > "{{PROMPT:p15}}"
   - Not for pasting: the smile is small and closed-mouthed; the visor stays opaque and only its inner band widens; the pad is P1's square (as in G05); the carry checks.
   - **p16 = crop of G05:** Sanchez's boots and Oliver's dangling bare feet on the glowing pad.
@@ -275,7 +277,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
   - **p17:** approved P1, cropped to the hull top: the same pad B-1000 locked onto, glowing and **empty**.
   - **p18 = G09** (1:1, 2k; Elements: Sanchez, Oliver; references: the approved G01 for the carry, P3r for the field if approved). The climax gets its own image, the biggest on its slide, instead of a re-crop of the cover: the camera is in the trench looking up, so it reads as the launch, not slide 1 again.
 > "{{PROMPT:p18}}"
-  - Not for pasting: the carry checks (no jet flames, plumes or wings; the pad threw him); both faces turned down toward the camera and readable; the top-left quarter stays sky for the caption; trench lips plain grass, no yellow stripes; one basket.
+  - Not for pasting: the carry checks (no jet flames, plumes or wings; the pad threw him); both faces turned down toward the camera and readable; the top-left quarter stays sky for the caption; trench lips plain grass, no yellow stripes; one basket. The Oct 29 take was rejected (a red mechanical left hand, the carry on the plain arm, a level camera); v2 (Oct 30) changes only the action sentence.
 - **Lettering** (the mock-heroic brass-and-strings cue becomes a caption):
 {{LETTERS:s08}}
 
@@ -350,15 +352,15 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
 
 Higgsfield allows about 5 generations a day, shared with the Huggable sheet queue: the red-sheet fix edit of v4 (job 321fe5d6) on Oct 27, the blue main-sheet edit on Oct 28, and a blue retake only if it fails. The blue Element can exist on **Thu Oct 29 at the earliest**. Comics need no voices, plates or clips, so the rest of each day's queue is free for panels. That gives 40 slots across the eight days; this plan uses at most about 17 (14 panel runs and 3 sheet runs).
 
-Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and G09 (the carry); G05 before G06; G07 before G08 (the p20 crop) and before O1 and F2; the blue Element before G08.
+Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and G09 (the carry); G05 before G06 (on Oct 30, G06 takes G05's references instead); G07 before G08 (the p20 crop) and before O1 and F2; the blue Element before G08.
 
 | Day | Slots (in order) | Also |
 |---|---|---|
 | **Tue Oct 27** (done) | G01 take 1 (mirrored locally; kept), G01 take 2 (rejected), G02 (approved), the Huggable red-sheet edit (muzzle and belly fixed; ear, pole, jaw lights and thumb not), G03 (flagged by the content filter, refunded, but it used the day's fifth slot) | The cover's title moved to the field (§4); the red sheet got its local fixes and went to its review panel |
 | **Wed Oct 28** (done) | The G01 edit (approved: smoke gone, barriers black), G03 (rejected: both arms mechanical), G07 (approved), the blue Huggable edit (approved after local fixes; both Huggable Elements created), G05 (rejected: the wreck toy-sized) | The teaser rendered from the edited cover and sent; **post it at about 12:00**, AI label on. Crops p20-p22 re-fit to G07 |
-| **Thu Oct 29** | 1. **G03 v3** (the Verdict: one mechanical arm, steeper angle). 2. **G05 v2** (the hull's scale). 3. **G09** (needs G01). 4. **G04** (needs G02). 5. **G08** (the blue Element is live) | Cut every crop; letter the carousel with `--guides` |
-| **Fri Oct 30** | **G06** (after G05) and retakes | Re-letter with `--guides` as panels land |
-| **Sat Oct 31** | **F2** only if there is still no blue Element; otherwise spare | Deadline for the s11 decision |
+| **Thu Oct 29** (done) | Rejected: G03 v3 (both arms mechanical again), G05 v2 (both arms mechanical, no carry, off the pad), G09 (a mechanical left hand, the carry on the wrong arm) and G04 (a near copy of G02). **Approved: G08** (minor) | Root cause found: the bare left/right wording. The retake prompts were rewritten in viewer terms, s11 was lettered, and the contact sheet went to Bryce |
+| **Fri Oct 30** | 1. **G03 v4**. 2. **G05 v3**. 3. **G04 v2** (reference P2). 4. **G09 v2**. 5. **G06** (with G05's references) | Cut every crop; re-letter with `--guides` |
+| **Sat Oct 31** | Retakes of anything rejected on Oct 30, and the G05 two-solo-shot fallback if G05 v3 fails. F2 is no longer needed (G08 is approved) | |
 | **Sun Nov 1** | Spare (a last retake only) | **Lock:** every panel approved, `letter.py pages.json --strict --guides --jpg`, Bryce's review |
 | **Mon Nov 2 – Tue Nov 3** | Buffer only | Phone check: the slide counter, the 3:4 grid crop of s01, the in-app alt-text limit; final caption |
 | **Wed Nov 4** | — | **Post at about 12:00**, AI label on |
@@ -368,6 +370,7 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 ## 8. Budget
 
 - **Base:** 9 generations, 22 credits (G01 2, G02 2, G03 4, G04 2, G05 2, G06 2, G07 4, G08 2, G09 2).
+- **Spent by Oct 29:** 30 credits on 13 panel runs (the Oct 27 filter refusal was refunded); the sheet edits are not counted here. Oct 30's five runs add 12 (G03 at 4k), for about **42**: about 4 over this plan's ceiling of about 38 and 4 runs over its 14. That is because the Sanchez arm wording cost three extra retakes and G04 copied its reference. Bryce was told on Oct 29.
 - **Retakes (about 30%):** 3 generations, about 6–10 credits. They are kept for G01 (it gates the teaser), the carry shots (G05–G07, G09) and G08 (five identical copies).
 - **Fallbacks, only from unused retake slots:** O1 (2), F2 (2). U1 (B-1000's "tee-hee" close-up) is dropped, so G09 fits and the hard ceiling stays **14 panel generations**, the cover included (9 + 3 retakes + O1 + F2), at most about 38 credits.
 - **Huggable sheets** (not this budget, but the same daily slots): 2–3 runs (the red fix, the blue edit, perhaps a blue retake), about 8–12 credits at 4k.
@@ -453,7 +456,7 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 3. **End card:** "Unofficial fan comic, not affiliated with SkyVu; characters © SkyVu." Add "AI"? (README [Open]; the default leaves it out.)
 4. **The teaser:** the 2-slide carousel (t01 cover + t02 cold open, the default), or the cover alone. Both cost 0 extra credits. t01 is the cover zoomed about 1.14×, anchored at the bottom so the title stays on the field under the pair, which makes the Oct 28 grid tile differ from Nov 4's. The unzoomed cover is the alternative. Check t01 with `--guides` before posting.
 5. **New comic-only words** ([BBG News invention]; spoken lines unchanged). Approve as a set: "DESTINATION: HOME?", "ONE SCOOP LATER...", "THE RED FOOD STAND.", the music captions ("~ HEROIC BRASS SWELLS ~", "~ BIG HEROIC FINISH ~", "~ HEROIC BRA--"), Oliver's off-panel "...", the "99%" on the upload label, "NOV 4", the SFX, the CTA lines and the caption hooks.
-6. **The Huggables:** five copies (default) or three if takes merge (package open item 5); F2 (the banner reveal) if the blue Element isn't live by Sat Oct 31.
+6. **The Huggables:** settled. Five copies, approved Oct 29 (G08, minor: an arms-wide march rather than a lean-in hug, and short banners that show only the circle). F2 is not needed.
 7. **Hashtags:** #LocalHazards or #BattleBears in the fifth slot.
 8. **Local original-art graphics** (sting band, ledger card with tokens, 99% screen, pink seam glitch, end-card screen): drafts are built. Approve them, or ask for a designed set.
 9. **Carried over from the package:** item 15, the catchphrase reading ("we'll getcha... home" and "...Mayday." as one known line); item 12, a corner bug (none by default; the cover kicker names the show).

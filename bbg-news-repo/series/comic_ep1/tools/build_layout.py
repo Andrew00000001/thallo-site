@@ -164,8 +164,10 @@ GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-30", els=[SAN
         "the frame, the soldier's back and shoulder low in the lower right corner.",
         "The top fifth of the frame above his helmet and the open sky to the right of his head are "
         "clear saturated blue sky with soft clouds and nothing else, " + CLEAN], "4:5"))
-GEN["G04"] = dict(panel="p11", ratio="3:2", res="2k", day="2026-10-29", els=[OLI_ID],
-    refs=[ref("4f2adc91-2485-423b-afdf-96ea76df244b", "continuity: Oliver, basket, grass")],
+# G04 v2 (Oct 30) swaps its one reference: with G02 attached, take 1 came back as a near copy of
+# G02 (eyes opened, same camera and pose). P2 has the stand and basket but no Oliver.
+GEN["G04"] = dict(panel="p11", ratio="3:2", res="2k", day="2026-10-30", els=[OLI_ID],
+    refs=[ref(P2_JOB, "location reference (P2: the stand, cart and basket, no characters)")],
     prompt=prompt([OLI, OLI_SOLO,
         "sits on the grass beside the cart and looks up into the camera, cheeks stuffed full and a fry "
         "poking from his mouth, both heavy brows shot up high, flashing a wide, guilty grin that lifts "
@@ -365,15 +367,14 @@ page("s04", [P("p10", (40, 40, 1000, 1270), kind="gen", gen="G03",
 
 # s05 the fry offer, "...Fry?", the silent visor
 page("s05", [P("p11", (40, 40, 1000, 640), focus=(0.5, 0.55), kind="gen", gen="G04",
-               faces=[(653, 215, 218, 182, "O")]),
-             P("p12", (40, 700, 490, 610), kind="crop", gen="G04", crop=(0.5301, 0.1150, 0.9256, 0.8491),
-               note="his face and the raised fries (G04 drew one in each paw), with headroom for "
-                    "the balloon; re-fit Oct 29, crop at 490:610"),
+               faces=[(465, 330, 190, 190, "O")]),
+             P("p12", (40, 700, 490, 610), kind="crop", gen="G04", crop=(0.284, 0.12, 0.757, 0.998),
+               note="his face and the raised fry, crop at 490:610"),
              P("p13", (550, 700, 490, 610), kind="crop", gen="G03", crop=(0.31, 0.14, 0.46, 0.29),
                note="tight on the helmet and the glowing visor (glow band narrowed), cut above the "
                     "mouth so the panel reads silent; crop at 490:610")],
-     [L("balloon", "Sanchez! Buddy! You look **GREAT!**", "p11", (64, 56, 440), (648, 318), size=44),
-      L("balloon", "...**FRY?**", "p12", (64, 718, 280), (300, 832), size=52),
+     [L("balloon", "Sanchez! Buddy! You look **GREAT!**", "p11", (64, 56, 440), (458, 470), size=44),
+      L("balloon", "...**FRY?**", "p12", (64, 718, 280), (250, 940), size=52),
       L("sfx", "SSSSZZZ...", "p13", (690, 722, 330), angle=4)])
 
 # s06 up the wreck: the solemn half of the line
@@ -497,13 +498,21 @@ DONE = {
             "status": "approved: Oct 28 edit of take 1 (9daa8018) mirrored locally, smoke removed and barriers black",
             "rejected": ["1f7dc7cd-f277-4d3e-9cfd-d77abced45af (take 2: pair still high, Oliver under the wrong arm)"]},
     "G02": {"job_id": "4f2adc91-2485-423b-afdf-96ea76df244b", "status": "approved"},
-    "G03": {"job_id": None, "status": "todo (Oct 27 try 4a6cf631 flagged by the filter, refunded; Oct 28 take rejected; v3 Oct 29)",
+    "G03": {"job_id": None, "status": "todo (v4 Oct 30: his arms placed in viewer terms)",
             "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)",
-                         "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)"]},
-    "G05": {"job_id": None, "status": "todo (Oct 28 take rejected; v2 Oct 29)",
-            "rejected": ["d85aeea7-b5f3-4b5a-9b1b-5f8195936da7 (Oct 28: the wreck drawn toy-sized under the bears; Oliver under the gloved arm)"]},
+                         "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)",
+                         "626d2ca0-17b7-4ca6-83f3-b221e76e2b37 (Oct 29 v3: both forearms mechanical again, the glove on the mechanical arm and a robot hand on the camo-sleeved left arm doing the pointing)"]},
+    "G04": {"job_id": None, "status": "todo (v2 Oct 30: reference swapped from G02 to P2)",
+            "rejected": ["17999ebb-046f-49b9-ab3f-697caafd5e55 (Oct 29: a near copy of G02 with the eyes opened; eye level, a fry in each paw, nothing offered to the camera)"]},
+    "G05": {"job_id": None, "status": "todo (v3 Oct 30: his arms and the carry placed in viewer terms; if it fails, the two-solo-shot fallback on Oct 31)",
+            "rejected": ["d85aeea7-b5f3-4b5a-9b1b-5f8195936da7 (Oct 28: the wreck drawn toy-sized under the bears; Oliver under the gloved arm)",
+                         "0b6e96de-9a84-4179-a6c2-d54413298ab7 (Oct 29 v2: both arms mechanical; Oliver beside him on the viewer's right, not carried; Sanchez crouched off the pad; high angle)"]},
     "G07": {"job_id": "56882afc-79c0-44c9-97a0-0d00b9c0aee7",
             "status": "approved (Oliver lands standing beside Sanchez, not carried; crops p20-p22 re-fit Oct 28)"},
+    "G08": {"job_id": "9672e417-5569-47df-8898-01b2ac27e355",
+            "status": "approved, minor (Oct 29 review panel): every sided feature right on all five; an arms-wide march rather than a lean-in hug; short banners showing only the circle; a wide rather than medium shot"},
+    "G09": {"job_id": None, "status": "todo (v2 Oct 30: his arms and the carry placed in viewer terms)",
+            "rejected": ["b934a180-33a3-4287-860f-ee04e1bb4e66 (Oct 29: a red mechanical left hand and no glove; Oliver hugged by the plain arm on the viewer's right; mechanical fist leading; camera level at the trench mouth)"]},
 }
 
 

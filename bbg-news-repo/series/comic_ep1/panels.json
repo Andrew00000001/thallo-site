@@ -127,8 +127,8 @@
   "raw_download": "src/p10_raw.png",
   "job_id": null,
   "day": "2026-10-30",
-  "status": "todo (Oct 27 try 4a6cf631 flagged by the filter, refunded; Oct 28 take rejected; v3 Oct 29)",
-  "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)", "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)"]
+  "status": "todo (v4 Oct 30: his arms placed in viewer terms)",
+  "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)", "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)", "626d2ca0-17b7-4ca6-83f3-b221e76e2b37 (Oct 29 v3: both forearms mechanical again, the glove on the mechanical arm and a robot hand on the camo-sleeved left arm doing the pointing)"]
  },
  {
   "id": "p11",
@@ -138,12 +138,13 @@
   "resolution": "2k",
   "prompt": "<<<74170e99-a46a-4c7d-857c-d3046b839374>>> A chestnut-brown robotic teddy-bear soldier, soft plush all over, with a red headband and a brass-cartridge bandolier, sits on the grass beside the cart and looks up into the camera, cheeks stuffed full and a fry poking from his mouth, both heavy brows shot up high, flashing a wide, guilty grin that lifts on his right side, and holds a single golden fry up toward the camera in one paw, the softly glowing red basket of golden fried food on the grass at his side. A sunlit daisy-flecked grass field at high noon, beside a red-and-yellow pyramid parasol with plain, unmarked panels on a single dark pole over a squat grey cart, a softly glowing red basket of golden fried food on the grass beside it, under a saturated mid-blue sky with big soft white cumulus clouds, the high sun as a slightly warm key with a soft cool fill from the sky and a gentle rim light on the characters. High-angle medium close-up looking down at him from a standing height, his face just below the centre of the frame and the fry raised just below his chin. The upper third of the frame is plain daisy-flecked grass with nothing in it, left clear; a clean image with no text. Avoid: photorealistic fur, realistic anatomy, real-person likeness, official logos, text, watermarks. Horizontal 3:2 framing. Polished feature-film 3D animation, soft rounded shapes, expressive faces, soft plush fur, soft global illumination, cinematic lighting, snappy cartoon timing with strong poses and holds.",
   "elements": ["74170e99-a46a-4c7d-857c-d3046b839374"],
-  "references": [{"job_or_file": "4f2adc91-2485-423b-afdf-96ea76df244b", "role": "continuity: Oliver, basket, grass"}],
+  "references": [{"job_or_file": "01ca9909-559a-4225-99f5-ad4a74c517e7", "role": "location reference (P2: the stand, cart and basket, no characters)"}],
   "reuse_source": null,
   "raw_download": "src/p11_raw.png",
   "job_id": null,
-  "day": "2026-10-29",
-  "status": "todo"
+  "day": "2026-10-30",
+  "status": "todo (v2 Oct 30: reference swapped from G02 to P2)",
+  "rejected": ["17999ebb-046f-49b9-ab3f-697caafd5e55 (Oct 29: a near copy of G02 with the eyes opened; eye level, a fry in each paw, nothing offered to the camera)"]
  },
  {
   "id": "p12",
@@ -153,8 +154,8 @@
   "prompt": null,
   "elements": [],
   "references": [],
-  "reuse_source": {"file": "src/p11_raw.png", "crop_frac": [0.5301, 0.115, 0.9256, 0.8491], "from": "G04: the full approved download of p11's generation", "note": "his face and the raised fries (G04 drew one in each paw), with headroom for the balloon; re-fit Oct 29, crop at 490:610"},
-  "day": "2026-10-29",
+  "reuse_source": {"file": "src/p11_raw.png", "crop_frac": [0.284, 0.12, 0.757, 0.998], "from": "G04: the full approved download of p11's generation", "note": "his face and the raised fry, crop at 490:610"},
+  "day": "2026-10-30",
   "status": "todo"
  },
  {
@@ -182,8 +183,8 @@
   "raw_download": "src/p14_raw.png",
   "job_id": null,
   "day": "2026-10-30",
-  "status": "todo (Oct 28 take rejected; v2 Oct 29)",
-  "rejected": ["d85aeea7-b5f3-4b5a-9b1b-5f8195936da7 (Oct 28: the wreck drawn toy-sized under the bears; Oliver under the gloved arm)"]
+  "status": "todo (v3 Oct 30: his arms and the carry placed in viewer terms; if it fails, the two-solo-shot fallback on Oct 31)",
+  "rejected": ["d85aeea7-b5f3-4b5a-9b1b-5f8195936da7 (Oct 28: the wreck drawn toy-sized under the bears; Oliver under the gloved arm)", "0b6e96de-9a84-4179-a6c2-d54413298ab7 (Oct 29 v2: both arms mechanical; Oliver beside him on the viewer's right, not carried; Sanchez crouched off the pad; high angle)"]
  },
  {
   "id": "p15",
@@ -237,7 +238,8 @@
   "raw_download": "src/p18_raw.png",
   "job_id": null,
   "day": "2026-10-30",
-  "status": "todo"
+  "status": "todo (v2 Oct 30: his arms and the carry placed in viewer terms)",
+  "rejected": ["b934a180-33a3-4287-860f-ee04e1bb4e66 (Oct 29: a red mechanical left hand and no glove; Oliver hugged by the plain arm on the viewer's right; mechanical fist leading; camera level at the trench mouth)"]
  },
  {
   "id": "p19",
@@ -301,9 +303,9 @@
   "references": [{"job_or_file": "panels/p20.png", "role": "continuity: the blue hull's nose, turf and light (no characters). A crop of the approved G07, uploaded Oct 28 as media fd35a574-b303-4174-be05-8d6d773a9e81"}, {"job_or_file": "refs/P1b_blue_hull.png", "role": "dropship design reference (blue-banded P1 recolour)", "source_job": "15321af3-be6a-440a-8178-28ba5c6bea7f"}],
   "reuse_source": null,
   "raw_download": "src/p23_raw.png",
-  "job_id": null,
+  "job_id": "9672e417-5569-47df-8898-01b2ac27e355",
   "day": "2026-10-29",
-  "status": "todo"
+  "status": "approved, minor (Oct 29 review panel): every sided feature right on all five; an arms-wide march rather than a lean-in hug; short banners showing only the circle; a wide rather than medium shot"
  },
  {
   "id": "p24",

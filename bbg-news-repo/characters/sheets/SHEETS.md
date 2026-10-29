@@ -212,6 +212,10 @@ Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil
     - the forearm plates have a mottled, plaid-like finish;
     - the goatee is a little lighter and larger than "small dark";
     - the helmet has round ear-cup pods, which the soul doesn't mention.
+- **Elements in use, Oct 29 (comic panels; review panel verdicts in `series/comic_ep1/tools/build_layout.py`, DONE):**
+  - `huggable-huggable-blue` works. The splash G08 (five blue-team Huggables) got every sided feature right on all five, at the first take: bandage, radio, scar and button eye on the viewer's left, and bead eye and bare ear on the viewer's right. Its prompt places them in viewer terms. Minors: short banners that show only the circle, and an arms-wide march rather than a lean-in.
+  - `sanchez-arbiter` stays. Three panels made with it on Oct 29 (G03 v3, G05 v2, G09) gave him mechanical parts on both arms. But the approved G01 and G07, made with the same Element, are right. The failures follow the prompts' bare "left"/"right" (the Oct 25 diagnosis), so the comic's retakes place his arms in viewer terms (SCRIPT.md §3, Retake rules).
+  - `oliver-soldier`: one minor. In a back view (G03 v3) the hexagonal backpack plate was missing. The comic's short Oliver line doesn't name it.
 
 ## Queued for the next daily reset
 
@@ -223,7 +227,7 @@ Episode 1 now shares the daily limit, so the plan for each reset is in the resea
 4. Plate P2.
 5. The Huggable, fresh sheet v4.
 
-Oct 29 (comic plan, `series/comic_ep1/SCRIPT.md` §7): the comic panels G03 (retake), G05 (retake), G09, G04 and G08, the Huggable splash using `huggable-huggable-blue`. The Huggable sheets are done. Episode 1 is now a comic, so plate P4 and the C2 and C4 start stills are dropped.
+Oct 30 (comic plan, `series/comic_ep1/SCRIPT.md` §7): the comic panels G03 v4, G05 v3, G04 v2, G09 v2 and G06; G08 (the Huggable splash) was approved on Oct 29. The Huggable sheets are done. Episode 1 is now a comic, so plate P4 and the C2 and C4 start stills are dropped.
 
 Later (sheets for future episodes):
 - Botch;
