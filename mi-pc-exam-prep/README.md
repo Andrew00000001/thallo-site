@@ -2,7 +2,7 @@
 
 Interactive study app for the Michigan Property & Casualty Producer/Solicitor exam (PSI Series 16-81: 150 items, 2.5 hours, 74% to pass).
 
-Open `index.html` in a browser. It is one self-contained file: the lesson narration and drawings are built into the page, so nothing else needs to sit next to it. Progress is saved in that browser.
+Open `index.html` in a browser. It is one self-contained file: the lesson narration and drawings are built into the page, so nothing else needs to sit next to it. When the page is served together with its `lessons/` folder (for example from a web server or the published app), lessons play the full-quality recordings in `lessons/*.hq.webm`; opened on its own, the page plays its built-in compact copy. Progress is saved in that browser.
 
 - **Today**: daily plan with due reviews and new questions, streak, daily goal, XP and levels, badges, exam countdown, projected score and a mastery map of every outline section.
 - **Watch**: 24 narrated whiteboard video lessons (about 160 minutes of narration), one or more per outline area. Terms are drawn and acted out by a recurring cast in everyday situations. Each lesson stops for things to do: story choices (pick what the character does next; a wrong pick plays out what goes wrong and lets you try again), quick checks, swipe cards, sorting, tap-to-explore drawings and sliders that run the exam math. Stars, sound effects (can be turned off), captions with the speaker's name, a transcript, speed control and resume; each ends with exam-style questions from the bank.
@@ -18,13 +18,13 @@ Content was checked in October 2026 against the Michigan Compiled Laws (legislat
 
 ## Rebuild
 
-`content/` holds the source data (`content/learn/` the memory aids, `content/lessons/` the lesson scripts with their trace, coverage and fix logs), `lessons/` the narration (MP3 masters, the 10 kbps Opus copies that get embedded in the page, timing and transcript checks), and `build/` the build scripts, player and drawing engine:
+`content/` holds the source data (`content/learn/` the memory aids, `content/lessons/` the lesson scripts with their trace, coverage and fix logs), `lessons/` the narration (full-quality 32 kbps Opus masters `LXX.hq.webm`, the 10 kbps Opus copies that get embedded in the page, timing and transcript checks), and `build/` the build scripts, player and drawing engine:
 
 ```
 RES=content LEARN=content/learn LESSONS=content/lessons AUDIO=lessons ICONS=build/icons VALIDATOR=build WB=build/wb python3 build/build.py out.html
 ```
 
-The script writes the page body; `index.html` wraps it in a full HTML document. The build refuses lesson audio that no longer matches its script, and embeds each lesson's Opus copy (`EMBED_AUDIO=0` links the MP3 files instead). The lesson data and audio are compressed inside the page (deflate and base85) and unpacked when it opens.
+The script writes the page body; `index.html` wraps it in a full HTML document. The build refuses lesson audio that no longer matches its script, embeds each lesson's compact Opus copy (`EMBED_AUDIO=0` links the full-quality files instead), and writes `out.html.hq.json`, the list of full-quality files to publish next to the page (`HQ_AUDIO=0` leaves them out). The lesson data and audio are compressed inside the page (deflate and base85) and unpacked when it opens.
 
 Lesson scripts follow `build/BRIEF2.md` and must pass `python3 build/validate2.py <lesson.json>`. Drawings are drawn by `build/wb/sketch.js` from the prop library in `build/wb/props_*.js` (`build/wb/PROPS_CATALOG.md` lists every prop). Narration is made by `build/narrate2.py` with the open Kokoro-82M voice model (ONNX, Apache-2.0; set `TTS_MODEL` to a folder with `model.onnx` and `voices.npz`), one voice for the narrator and one per cast member, and every line is transcribed back with faster-whisper (`small.en`, MIT) and compared word for word with the script; reviewed transcription differences are listed in `lessons/accepted.json`.
 

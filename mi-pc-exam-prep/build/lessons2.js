@@ -109,10 +109,22 @@ function embeddedBytes(L){
   const el=embeddedEl(L); if(!el) return null;
   try{ return decodeBlock(el); }catch(e){ return null; }
 }
+function fetchURL(u, ms){   // resolves to the file's bytes, or null on any failure or after ms
+  return new Promise(res=>{
+    let done=false; const end=b=>{ if(!done){ done=true; clearTimeout(t); res(b); } }, t=setTimeout(()=>end(null), ms);
+    fetch(u).then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.arrayBuffer(); }).then(end, ()=>end(null));
+  });
+}
 function fetchBytes(L){
-  if(embeddedEl(L)) return Promise.resolve(embeddedBytes(L));
-  if(!L.audio || typeof fetch!=='function' || location.protocol==='file:') return Promise.resolve(null);
-  return fetch(L.audio).then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.arrayBuffer(); }).then(b=>{ if(LP.L===L) LP.bytes=b; return b; }).catch(()=>null);
+  const net = typeof fetch==='function' && location.protocol!=='file:';
+  // full-quality audio published next to the page; the compact copy inside the page is the fallback (file:// or offline)
+  const hq = L.audioHQ && net ? fetchURL(L.audioHQ, 6000) : Promise.resolve(null);
+  return hq.then(b=>{
+    if(b && b.byteLength){ L.hqOk=true; if(LP.L===L) LP.bytes=b; return b; }
+    if(embeddedEl(L)) return embeddedBytes(L);
+    if(!L.audio || !net) return null;
+    return fetchURL(L.audio, 15000).then(b2=>{ if(b2 && LP.L===L) LP.bytes=b2; return b2; });
+  });
 }
 function startSources(L){
   LP.srcStage=0; LP.bytes=null; LP.audio=null; LP.pendingPlay=false;

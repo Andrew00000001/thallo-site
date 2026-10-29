@@ -128,6 +128,9 @@ VALIDATOR = os.environ.get('VALIDATOR') or os.path.join(HERE, '..', 'lessons')
 LAX = os.environ.get('LESSONS_LAX') == '1'
 os.environ.setdefault('RES', RES); os.environ.setdefault('LEARN', LEARN); os.environ.setdefault('ICONS', ICON_DIR)
 EMBED = os.environ.get('EMBED_AUDIO', '1') == '1'   # put each lesson's Opus audio inside the page (single file)
+HQ = os.environ.get('HQ_AUDIO', '1') == '1'         # also point the page at full-quality audio files published next to it
+HQ_PREFIX = os.environ.get('HQ_PREFIX', 'lessons/')   # same layout as the repository: index.html next to lessons/
+hq_files = {}
 PREVIEW = os.environ.get('LESSONS_PREVIEW') == '1'  # allow lessons without narration (timing estimated in the page; silent)
 WB = os.environ.get('WB') or os.path.join(HERE, '..', 'wb')  # sketch engine, props, fonts
 VALIDATOR_MOD = os.environ.get('VALIDATOR_MOD', 'validate2')
@@ -170,7 +173,8 @@ if lesson_files:
         tp = os.path.join(AUDIO_DIR, f'{lid}.timing.json')
         says = [b['say'] for s in L['scenes'] for b in s['beats'] + ([b for o in s['options'] for b in o['beats']] if s.get('type') == 'choice' else []) + s.get('reveal', [])]
         L['ver'] = hashlib.sha256(json.dumps(says).encode()).hexdigest()[:12]
-        if not os.path.exists(tp) or not os.path.exists(os.path.join(AUDIO_DIR, f'{lid}.mp3')):
+        master = (json.load(open(tp)).get('master') if os.path.exists(tp) else None) or f'{lid}.mp3'   # full-quality audio the copies are made from
+        if not os.path.exists(tp) or not os.path.exists(os.path.join(AUDIO_DIR, master)):
             if PREVIEW:
                 warns.append(f'{lid}: no narration yet (preview build: silent, estimated timing)')
                 L['timing'] = None; L['audio'] = None; lessons.append(L); continue
@@ -192,19 +196,30 @@ if lesson_files:
             for x in [s] + list(s.get('items', []) if isinstance(s.get('items'), list) else []) + list(s.get('columns', []) if s.get('type') == 'compare' else []):
                 if isinstance(x, dict) and x.get('icon'): used_icons.add(x['icon'])
         L['timing'] = {'dur': T['dur'], 'scenes': T['scenes']}
-        L['audio'], L['audioType'] = f'lessons/{lid}.mp3', 'audio/mpeg'
+        L['audio'], L['audioType'] = f'lessons/{master}', ('audio/webm' if master.endswith('.webm') else 'audio/mpeg')
         if EMBED:
             wp = os.path.join(AUDIO_DIR, f'{lid}.webm')
             try:
                 side = json.load(open(wp + '.json'))
-                fresh = side['sha256'] == hashlib.sha256(open(os.path.join(AUDIO_DIR, f'{lid}.mp3'), 'rb').read()).hexdigest()
+                fresh = side['from'] == master and side['sha256'] == hashlib.sha256(open(os.path.join(AUDIO_DIR, master), 'rb').read()).hexdigest()
             except Exception:
                 fresh = False
             if not fresh:
-                errors.append(f'{lid}: embedded audio {lid}.webm missing or not made from the current {lid}.mp3 (re-run narrate.py)'); continue
+                errors.append(f'{lid}: embedded audio {lid}.webm missing or not made from the current {master} (re-run narrate2.py)'); continue
             raw = open(wp, 'rb').read()
             embeds.append((lid, b85(raw), len(raw)))
             L['audio'], L['audioType'] = f'#aud-{lid}', 'audio/webm'
+        if HQ:
+            hp = os.path.join(AUDIO_DIR, f'{lid}.hq.webm')
+            try:
+                side = json.load(open(hp + '.json'))
+                hq_fresh = side['from'] == master and side['sha256'] == hashlib.sha256(open(os.path.join(AUDIO_DIR, master), 'rb').read()).hexdigest()
+            except Exception:
+                hq_fresh = False
+            if hq_fresh:
+                L['audioHQ'] = f'{HQ_PREFIX}{master}'; hq_files[L['audioHQ']] = os.path.abspath(hp)
+            else:
+                warns.append(f'{lid}: no current full-quality audio ({lid}.hq.webm); the page uses its built-in copy')
         lessons.append(L)
     if len({l['id'] for l in lessons}) != len(lessons): errors.append('duplicate lesson ids')
 icons = {}
@@ -353,3 +368,6 @@ else:
 html = tpl.replace('__DATASCRIPT__', datascript, 1)
 open(OUT, 'w').write(html)
 print('wrote', OUT, f'{len(html)/1024:.0f} KB')
+if HQ:   # publish these next to the page: {published path: file}
+    json.dump(hq_files, open(OUT + '.hq.json', 'w'), indent=1)
+    print('full-quality audio files', len(hq_files), f'{sum(os.path.getsize(f) for f in hq_files.values())/1048576:.1f} MB')
