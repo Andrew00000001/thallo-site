@@ -58,6 +58,14 @@ OLI_CO = ("a chestnut-brown robotic teddy-bear soldier, soft plush all over, wit
           "a brass-cartridge bandolier, as tall as the cyborg,")
 CARRY = ("tucked firmly under his mechanical right arm and hugging a softly glowing red basket of "
          "golden fried food,")
+# Oct 29: G03 v3, G05 v2 and G09 all gave Sanchez two mechanical arms and bound "right"/"left" to
+# image sides (SHEETS.md's Oct 25 diagnosis for the Huggable), while G08 placed every sided
+# feature correctly in viewer terms. So every new action sentence places his arms in viewer
+# terms. Sanchez faces the camera or turns three-quarters toward it in all of these, so his own
+# right (the mechanical arm) is on the viewer's left. CARRY stays as G01 and G07 were made.
+CARRY_V = ("tucked firmly under the red-and-black mechanical arm on the viewer's left and hugging a "
+           "softly glowing red basket of golden fried food,")
+ARMS_V = "only the arm on the viewer's left is mechanical"
 HUG_LINE = ("Five identical copies of a small stitched hot-pink plush teddy about two-thirds as tall "
             "as a teddy-bear soldier, with a big round cream-bandaged head, short stubby arms and "
             "legs, a boxy dark olive-green radio with a thin grey red-ball antenna, one glossy red "
@@ -137,7 +145,7 @@ GEN["G02"] = dict(panel="p08", ratio="3:2", res="2k", day="2026-10-27", els=[OLI
         "parasol's red-and-yellow canopy cutting across the top of the frame.",
         "The left third of the frame is plain, open daisy-flecked grass with nothing in it, " + CLEAN],
         "3:2"))
-GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-29", els=[SAN_ID, OLI_ID],
+GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-30", els=[SAN_ID, OLI_ID],
     refs=[ref("4f2adc91-2485-423b-afdf-96ea76df244b", "continuity: Oliver, basket, stand (G02, approved)"),
           ref(P2_JOB, "location reference (P2), only if approved")],
     prompt=prompt([SAN, SAN_LINE,
@@ -145,11 +153,12 @@ GEN["G03"] = dict(panel="p10", ratio="4:5", res="4k", day="2026-10-29", els=[SAN
         "stance left of centre, turned three-quarters toward the right of the frame, beside", OLI, OLI_CO,
         "who sits on the grass beside the cart in the lower right foreground, seen from behind and to "
         "the side, frozen mid-bite beside the softly glowing red basket of golden fried food; the "
-        "cyborg stands tall with his chin up in his Verdict pose, his gloved left hand flat on his chest "
-        "plate and his mechanical right arm raised and pointing at the soldier, the brighter glow band "
-        "inside his visor narrowed to a thin slit; his left arm is a plain furry arm in a grey-and-white "
-        "camo sleeve ending in the dark grey glove, and only his right arm is the red-and-black mechanical "
-        "one.", FOOD,
+        "cyborg stands tall with his chin up in his Verdict pose, the brighter glow band inside his "
+        "visor narrowed to a thin slit: the red-and-black mechanical arm on the viewer's left is raised "
+        "high to shoulder height and thrust forward, pointing down and to the right at the soldier, "
+        "and the plain furry arm in "
+        "a grey-and-white camo sleeve on the viewer's right bends so its dark grey glove rests flat on "
+        "his chest plate; " + ARMS_V + ".", FOOD,
         "Dramatic low-angle shot from ground level in the grass behind the soldier, looking steeply up "
         "at the cyborg, who towers left of centre against the open sky, his helmet in the upper third of "
         "the frame, the soldier's back and shoulder low in the lower right corner.",
@@ -166,16 +175,18 @@ GEN["G04"] = dict(panel="p11", ratio="3:2", res="2k", day="2026-10-29", els=[OLI
         "the centre of the frame and the fry raised just below his chin.",
         "The upper third of the frame is plain daisy-flecked grass with nothing in it, " + CLEAN],
         "3:2"))
-GEN["G05"] = dict(panel="p14", ratio="4:5", res="2k", day="2026-10-29", els=[SAN_ID, OLI_ID],
+GEN["G05"] = dict(panel="p14", ratio="4:5", res="2k", day="2026-10-30", els=[SAN_ID, OLI_ID],
     refs=[ref(P1_JOB, "location and dropship design reference (approved P1, red-banded wreck)"),
           ref("75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "continuity: the under-arm carry and the basket"),
           ref("panels/p06.png", "the pad's look (a crop of P1, uploaded Oct 27 as media 14a3405a-0f4e-4038-9acc-85376ed7edf1); match it",
               P1_JOB)],
-    prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY,
-        "he stands planted on the glowing pad on top of the hull after a hard stop, feet wide, chest "
-        "out, chin up, mouth open on a short line, his boots lit from below by the pad's cyan glow, the "
-        "soldier held against his right hip by the red-and-black mechanical arm and his gloved left hand "
-        "free, while the soldier chews a fry with a flat, unimpressed look.", RED,
+    prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY_V,
+        "he stands tall and upright on both feet on the glowing pad on top of the hull after a hard "
+        "stop, feet wide, chest out, chin up, mouth open on a short line, his boots lit from below by "
+        "the pad's cyan glow, the soldier held against his hip on the viewer's left by the "
+        "red-and-black mechanical arm on the viewer's left, and the plain furry arm in a grey-and-white "
+        "camo sleeve on the viewer's right ending in his dark grey glove, set on his hip; " + ARMS_V +
+        ", while the soldier chews a fry with a flat, unimpressed look.", RED,
         "Low-angle medium shot from the head of the furrow, right up against the huge hull, looking "
         "steeply up its curved, dented flank to the roof; the hull is enormous, as long as a bus and "
         "many times taller than the bears, so only its upper flank, one fat engine pod and the edge of "
@@ -184,12 +195,19 @@ GEN["G05"] = dict(panel="p14", ratio="4:5", res="2k", day="2026-10-29", els=[SAN
         "pad clearly visible.",
         "The upper left third of the frame is open saturated blue sky with soft white clouds and "
         "nothing else, " + CLEAN], "4:5"))
+# G06 was to reference the approved G05. G05 is retaken on the same day (Oct 30), so G06 takes
+# G05's own references instead: the same pad, hull, palette and carry.
 GEN["G06"] = dict(panel="p15", ratio="3:2", res="2k", day="2026-10-30", els=[SAN_ID, OLI_ID],
-    refs=[ref("p14 (G05, its job ID once approved)", "continuity: same pad, hull and carry")],
-    prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY,
-        "he stands on the glowing pad on top of the hull and tilts his head toward his mechanical arm "
-        "as a small closed-mouth smile lifts his goatee, the glow band inside his visor widening, "
-        "while the soldier chews a fry, cheeks full, with a flat, deadpan stare.", RED,
+    refs=[ref(P1_JOB, "location and dropship design reference (approved P1, red-banded wreck)"),
+          ref("75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "continuity: the under-arm carry and the basket"),
+          ref("panels/p06.png", "the pad's look (media 14a3405a-0f4e-4038-9acc-85376ed7edf1); match it",
+              P1_JOB)],
+    prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY_V,
+        "he stands on the glowing pad on top of the hull and tilts his head down toward the "
+        "red-and-black mechanical arm on the viewer's left as a small closed-mouth smile lifts his "
+        "goatee, the glow band inside his visor widening, the plain furry arm in a grey-and-white camo "
+        "sleeve on the viewer's right ending in his dark grey glove; " + ARMS_V + ", while the soldier "
+        "chews a fry, cheeks full, with a flat, deadpan stare.", RED,
         "Medium close-up at eye level on top of the hull, the cyborg's head right of centre and the "
         "soldier's head lower left, both faces large in frame.",
         "The upper left corner of the frame is open saturated blue sky with nothing in it, " + CLEAN],
@@ -227,15 +245,17 @@ GEN["G08"] = dict(panel="p23", ratio="4:5", res="2k", day="2026-10-29", els=[HUG
         "them.",
         "The top fifth of the frame is open blue sky above the banner tops and the bottom fifth is "
         "plain, empty turf, " + CLEAN], "4:5"))
-GEN["G09"] = dict(panel="p18", ratio="1:1", res="2k", day="2026-10-29", els=[SAN_ID, OLI_ID],
+GEN["G09"] = dict(panel="p18", ratio="1:1", res="2k", day="2026-10-30", els=[SAN_ID, OLI_ID],
     refs=[ref("75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "continuity: the under-arm carry, the basket, "
               "both faces"),
           ref(P3R, "field reference, approved Oct 26 as a reference only; uploaded as media 5cc57baa-2499-4e2e-9447-c353469da317", P3_JOB)],
-    prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY,
-        "he flies across the sky in one huge, high arc in a heroic flying pose, body stretched out "
-        "level, his gloved left fist thrust forward, chin up, mouth set firm, the glow band inside his "
-        "visor narrowed, while the soldier clutches the basket to his chest with wide eyes, both brows "
-        "shot up and a golden fry clamped in his mouth.", FIELD,
+    prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY_V,
+        "he flies toward the right of the frame in one huge, high arc in a heroic flying pose, body "
+        "stretched out level and turned three-quarters toward the camera, the plain furry arm in a "
+        "grey-and-white camo sleeve on the viewer's right thrust forward toward the right of the frame "
+        "and ending in his dark grey gloved fist; " + ARMS_V + "; chin up, mouth set firm, the glow "
+        "band inside his visor narrowed, while the soldier clutches the basket to his chest with wide "
+        "eyes, both brows shot up and a golden fry clamped in his mouth.", FIELD,
         "Low-angle shot from inside a sunken trench with honey-gold plank floors and plain grass-capped lips, looking up as the "
         "two streak overhead from left to right, faces turned down toward the camera, fries raining "
         "toward the lens.",
@@ -345,14 +365,15 @@ page("s04", [P("p10", (40, 40, 1000, 1270), kind="gen", gen="G03",
 
 # s05 the fry offer, "...Fry?", the silent visor
 page("s05", [P("p11", (40, 40, 1000, 640), focus=(0.5, 0.55), kind="gen", gen="G04",
-               faces=[(465, 330, 190, 190, "O")]),
-             P("p12", (40, 700, 490, 610), kind="crop", gen="G04", crop=(0.284, 0.12, 0.757, 0.998),
-               note="his face and the raised fry, crop at 490:610"),
+               faces=[(653, 215, 218, 182, "O")]),
+             P("p12", (40, 700, 490, 610), kind="crop", gen="G04", crop=(0.5301, 0.1150, 0.9256, 0.8491),
+               note="his face and the raised fries (G04 drew one in each paw), with headroom for "
+                    "the balloon; re-fit Oct 29, crop at 490:610"),
              P("p13", (550, 700, 490, 610), kind="crop", gen="G03", crop=(0.31, 0.14, 0.46, 0.29),
                note="tight on the helmet and the glowing visor (glow band narrowed), cut above the "
                     "mouth so the panel reads silent; crop at 490:610")],
-     [L("balloon", "Sanchez! Buddy! You look **GREAT!**", "p11", (64, 56, 440), (458, 470), size=44),
-      L("balloon", "...**FRY?**", "p12", (64, 718, 280), (250, 940), size=52),
+     [L("balloon", "Sanchez! Buddy! You look **GREAT!**", "p11", (64, 56, 440), (648, 318), size=44),
+      L("balloon", "...**FRY?**", "p12", (64, 718, 280), (300, 832), size=52),
       L("sfx", "SSSSZZZ...", "p13", (690, 722, 330), angle=4)])
 
 # s06 up the wreck: the solemn half of the line
@@ -401,10 +422,10 @@ page("s10", [P("p21", (40, 40, 1000, 800), kind="crop", gen="G07", crop=(0.255, 
 
 # s11 the reverse (the swipe is the hard cut)
 page("s11", [P("p23", (40, 40, 1000, 1270), kind="gen", gen="G08",
-               faces=[(85, 580, 150, 150, "H"), (265, 560, 150, 150, "H"), (465, 600, 150, 150, "H"),
-                      (665, 560, 150, 150, "H"), (845, 580, 150, 150, "H")])],
+               faces=[(124, 879, 136, 127, "H"), (273, 875, 146, 131, "H"), (455, 870, 154, 145, "H"),
+                      (654, 875, 146, 131, "H"), (809, 879, 136, 122, "H")])],
      [L("sfx", "KSSHT", "p23", (190, 84, 440), angle=4, **PINK),
-      L("sfx", "CLACK!", "p23", (64, 1110, 330), angle=-8),
+      L("sfx", "CLACK!", "p23", (64, 1158, 300), angle=-8),
       L("whisper", "...Mayday.", "p23", (560, 1150, 400), (800, 1304), size=38)])
 
 # s12 the ledger and the upload

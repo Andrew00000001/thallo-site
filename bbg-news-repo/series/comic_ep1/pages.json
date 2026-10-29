@@ -55,8 +55,8 @@
     {"id": "p13", "rect": [550, 700, 490, 610], "image": "panels/p13.png", "focus": [0.5, 0.5], "border": 6}
    ],
    "letters": [
-    {"type": "balloon", "text": "Sanchez! Buddy! You look **GREAT!**", "panel": "p11", "box": [64, 56, 440], "tail": [458, 470], "size": 44},
-    {"type": "balloon", "text": "...**FRY?**", "panel": "p12", "box": [64, 718, 280], "tail": [250, 940], "size": 52},
+    {"type": "balloon", "text": "Sanchez! Buddy! You look **GREAT!**", "panel": "p11", "box": [64, 56, 440], "tail": [648, 318], "size": 44},
+    {"type": "balloon", "text": "...**FRY?**", "panel": "p12", "box": [64, 718, 280], "tail": [300, 832], "size": 52},
     {"type": "sfx", "text": "SSSSZZZ...", "panel": "p13", "box": [690, 722, 330], "angle": 4}
    ]},
   {"id": "s06",
@@ -115,7 +115,7 @@
    ],
    "letters": [
     {"type": "sfx", "text": "KSSHT", "panel": "p23", "box": [190, 84, 440], "angle": 4, "fill": "#ff6fb5", "fill2": "#d6337f", "outline": "#2a0a1a"},
-    {"type": "sfx", "text": "CLACK!", "panel": "p23", "box": [64, 1110, 330], "angle": -8},
+    {"type": "sfx", "text": "CLACK!", "panel": "p23", "box": [64, 1158, 300], "angle": -8},
     {"type": "whisper", "text": "...Mayday.", "panel": "p23", "box": [560, 1150, 400], "tail": [800, 1304], "size": 38}
    ]},
   {"id": "s12",
