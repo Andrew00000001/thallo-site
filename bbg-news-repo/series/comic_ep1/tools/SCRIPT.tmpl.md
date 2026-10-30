@@ -451,6 +451,16 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 
 ---
 
+### Finished comics go to Google Drive (Bryce, Oct 30)
+When a comic is locked:
+- copy its numbered posting JPGs and a `post.txt` (caption, alt text, posting notes) into `comics_final/<date>_<slug>/`;
+- add its Drive title to `comics_final/index.json`;
+- commit, push, and fire the Drive upload task.
+
+That task runs `tools/drive_upload.py` in a fresh session; see `comics_final/README.md` for the one-time key setup. The Oct 28 teaser is already there.
+
+---
+
 ## 12. Open items for Bryce
 
 1. **References:** approve **P3r** (P3's right half) as the field reference for G01, G07 and G09 by the morning of Oct 27 (otherwise they run with no location reference), and **P2** as a location reference for G02 and G03. **P3 is not redone and P4 is not made**: the blue wreck comes from P1b, the local blue recolour of approved P1.
