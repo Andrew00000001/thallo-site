@@ -293,9 +293,12 @@ def page(pid, panels, letters, teaser=False):
     PAGES.append({"id": pid, "panels": panels, "letters": letters, "teaser": teaser})
 
 
-def P(pid, rect, focus=(0.5, 0.5), border=6, **meta):
-    return {"id": pid, "rect": list(rect), "image": f"panels/{pid}.png", "focus": list(focus),
-            "border": border, "_meta": meta}
+def P(pid, rect, focus=(0.5, 0.5), border=6, zoom=None, **meta):
+    d = {"id": pid, "rect": list(rect), "image": f"panels/{pid}.png", "focus": list(focus),
+         "border": border, "_meta": meta}
+    if zoom:
+        d["zoom"] = zoom    # letter.py: crop tighter than a plain cover-fit
+    return d
 
 
 def L(type_, text, panel=None, box=None, tail=None, size=None, angle=None, **extra):
@@ -521,10 +524,10 @@ RECT = {pn["id"]: pn["rect"] for pg in PAGES for pn in pg["panels"]}
 META = {pn["id"]: pn for pg in PAGES for pn in pg["panels"]}
 
 
-def cover_view(rw, rh, rect, focus):
+def cover_view(rw, rh, rect, focus, zoom=1.0):
     """The source window (left, top, scale) that letter.py's cover-fit shows in rect."""
     _, _, w, h = rect
-    s = max(w / rw, h / rh)
+    s = max(w / rw, h / rh) * max(1.0, zoom or 1.0)
     vw, vh = w / s, h / s
     left = min(max(focus[0] * rw - vw / 2, 0), rw - vw)
     top = min(max(focus[1] * rh - vh / 2, 0), rh - vh)
@@ -536,7 +539,7 @@ def faces_in_source(gen_id):
     g = GEN[gen_id]
     pn = META[g["panel"]]
     rw, rh = RAW[g["ratio"]]
-    left, top, s = cover_view(rw, rh, pn["rect"], pn["focus"])
+    left, top, s = cover_view(rw, rh, pn["rect"], pn["focus"], pn.get("zoom", 1.0))
     rx, ry = pn["rect"][:2]
     out = []
     for x, y, w, h, lab in pn["_meta"].get("faces", []):
