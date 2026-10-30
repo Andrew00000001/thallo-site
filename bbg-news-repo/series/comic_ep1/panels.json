@@ -111,7 +111,7 @@
   "elements": [],
   "references": [],
   "reuse_source": {"file": "src/p10_raw.png", "crop_frac": [0.16, 0.16, 0.92, 0.36], "from": "G03: the full approved download of p10's generation", "note": "the glowing visor (left third) and the raised red-and-black arm reaching right; crop at 1000:330"},
-  "day": "2026-10-30",
+  "day": "2026-10-31",
   "status": "todo"
  },
  {
@@ -120,15 +120,15 @@
   "gen": "G03",
   "aspect_ratio": "4:5",
   "resolution": "4k",
-  "prompt": "<<<e6122a2f-99de-423a-a310-733554bf48bb>>> A lean teddy-bear cyborg in a dark maroon helmet with rounded bear-ear bumps and an opaque glowing red visor hiding his eyes, a light tan muzzle with a small dark goatee, a grey-khaki chest plate over grey-and-white camo, olive-and-tan camo trousers, a dark grey glove on his left hand and an oversized red-and-black mechanical right arm. He has just marched in from the left with both hands empty and stopped in a proud, heroic stance left of centre, turned three-quarters toward the right of the frame, beside <<<74170e99-a46a-4c7d-857c-d3046b839374>>> a chestnut-brown robotic teddy-bear soldier, soft plush all over, with a red headband and a brass-cartridge bandolier, as tall as the cyborg, who sits on the grass beside the cart in the lower right foreground, seen from behind and to the side, frozen mid-bite beside the softly glowing red basket of golden fried food; the cyborg stands tall with his chin up in his Verdict pose, the brighter glow band inside his visor narrowed to a thin slit: the red-and-black mechanical arm on the viewer's left is raised high to shoulder height and thrust forward, pointing down and to the right at the soldier, and the plain furry arm in a grey-and-white camo sleeve on the viewer's right bends so its dark grey glove rests flat on his chest plate; only the arm on the viewer's left is mechanical. A sunlit daisy-flecked grass field at high noon, beside a red-and-yellow pyramid parasol with plain, unmarked panels on a single dark pole over a squat grey cart, a softly glowing red basket of golden fried food on the grass beside it, under a saturated mid-blue sky with big soft white cumulus clouds, the high sun as a slightly warm key with a soft cool fill from the sky and a gentle rim light on the characters. Dramatic low-angle shot from ground level in the grass behind the soldier, looking steeply up at the cyborg, who towers left of centre against the open sky, his helmet in the upper third of the frame, the soldier's back and shoulder low in the lower right corner. The top fifth of the frame above his helmet and the open sky to the right of his head are clear saturated blue sky with soft clouds and nothing else, left clear; a clean image with no text. Avoid: photorealistic fur, realistic anatomy, real-person likeness, official logos, text, watermarks. Vertical 4:5 framing. Polished feature-film 3D animation, soft rounded shapes, expressive faces, soft plush fur, soft global illumination, cinematic lighting, snappy cartoon timing with strong poses and holds.",
+  "prompt": "<<<e6122a2f-99de-423a-a310-733554bf48bb>>> A lean teddy-bear cyborg in a dark maroon helmet with rounded bear-ear bumps and an opaque glowing red visor hiding his eyes, a light tan muzzle with a small dark goatee, a grey-khaki chest plate over grey-and-white camo, olive-and-tan camo trousers, a dark grey glove on his left hand and an oversized red-and-black mechanical right arm. He has just marched in from the right with both hands empty and stopped in a proud, heroic stance right of centre, turned three-quarters toward the left of the frame, beside <<<74170e99-a46a-4c7d-857c-d3046b839374>>> a chestnut-brown robotic teddy-bear soldier, soft plush all over, with a red headband and a brass-cartridge bandolier, as tall as the cyborg, who sits on the grass beside the cart in the lower left foreground, seen from behind and to the side, frozen mid-bite beside the softly glowing red basket of golden fried food; the cyborg stands tall with his chin up in his Verdict pose, the brighter glow band inside his visor narrowed to a thin slit: the red-and-black mechanical arm on the viewer's left is raised to shoulder height and thrust forward, pointing down at the soldier, and the plain furry arm in a short grey-and-white camo sleeve on the viewer's right bends so its soft dark grey fabric glove rests flat on his chest plate; only the arm on the viewer's left is mechanical. A sunlit daisy-flecked grass field at high noon, beside a red-and-yellow pyramid parasol with plain, unmarked panels on a single dark pole over a squat grey cart, a softly glowing red basket of golden fried food on the grass beside it, under a saturated mid-blue sky with big soft white cumulus clouds, the high sun as a slightly warm key with a soft cool fill from the sky and a gentle rim light on the characters. Dramatic low-angle shot from ground level in the grass behind the soldier, looking steeply up at the cyborg, who towers right of centre against the open sky, his helmet in the upper third of the frame, the soldier's back and shoulder low in the lower left corner. The top fifth of the frame above his helmet and the open sky to the left of his head are clear saturated blue sky with soft clouds and nothing else, left clear; a clean image with no text. Avoid: photorealistic fur, realistic anatomy, real-person likeness, official logos, text, watermarks. Vertical 4:5 framing. Polished feature-film 3D animation, soft rounded shapes, expressive faces, soft plush fur, soft global illumination, cinematic lighting, snappy cartoon timing with strong poses and holds.",
   "elements": ["e6122a2f-99de-423a-a310-733554bf48bb", "74170e99-a46a-4c7d-857c-d3046b839374"],
   "references": [{"job_or_file": "4f2adc91-2485-423b-afdf-96ea76df244b", "role": "continuity: Oliver, basket, stand (G02, approved)"}, {"job_or_file": "01ca9909-559a-4225-99f5-ad4a74c517e7", "role": "location reference (P2), only if approved"}],
   "reuse_source": null,
   "raw_download": "src/p10_raw.png",
   "job_id": null,
-  "day": "2026-10-30",
-  "status": "todo (v4 Oct 30: his arms placed in viewer terms)",
-  "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)", "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)", "626d2ca0-17b7-4ca6-83f3-b221e76e2b37 (Oct 29 v3: both forearms mechanical again, the glove on the mechanical arm and a robot hand on the camo-sleeved left arm doing the pointing)"]
+  "day": "2026-10-31",
+  "status": "todo (v5 Oct 31, recomposed: Sanchez right of centre, Oliver lower left; an exception to the retake rule after four failed takes)",
+  "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)", "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)", "626d2ca0-17b7-4ca6-83f3-b221e76e2b37 (Oct 29 v3: both forearms mechanical again, the glove on the mechanical arm and a robot hand on the camo-sleeved left arm doing the pointing)", "bc8cb320-2f65-450e-85ad-394908225a6d (Oct 30 v4: neither Element held (no camo, trousers, boots or goatee; Oliver without his kit), and the arms swapped: the glove on his right, the mechanical arm his left, pointing up)"]
  },
  {
   "id": "p11",
@@ -141,9 +141,9 @@
   "references": [{"job_or_file": "01ca9909-559a-4225-99f5-ad4a74c517e7", "role": "location reference (P2: the stand, cart and basket, no characters)"}],
   "reuse_source": null,
   "raw_download": "src/p11_raw.png",
-  "job_id": null,
+  "job_id": "d2981a6d-deed-4f5f-93ee-cc4fd16b49ab",
   "day": "2026-10-30",
-  "status": "todo (v2 Oct 30: reference swapped from G02 to P2)",
+  "status": "approved, minor (Oct 30 review panel, v2 with P2): on model and not a copy of G02; a sideways glance and sly brows instead of the hopeful look up into the camera, and a medium-wide shot (re-fit with the crops and balloons)",
   "rejected": ["17999ebb-046f-49b9-ab3f-697caafd5e55 (Oct 29: a near copy of G02 with the eyes opened; eye level, a fry in each paw, nothing offered to the camera)"]
  },
  {
@@ -154,7 +154,7 @@
   "prompt": null,
   "elements": [],
   "references": [],
-  "reuse_source": {"file": "src/p11_raw.png", "crop_frac": [0.284, 0.12, 0.757, 0.998], "from": "G04: the full approved download of p11's generation", "note": "his face and the raised fry, crop at 490:610"},
+  "reuse_source": {"file": "src/p11_raw.png", "crop_frac": [0.41, 0.18, 0.71, 0.7365], "from": "G04: the full approved download of p11's generation", "note": "his face and the raised fry, re-fit to G04 v2 on Oct 30, crop at 490:610"},
   "day": "2026-10-30",
   "status": "todo"
  },
@@ -167,7 +167,7 @@
   "elements": [],
   "references": [],
   "reuse_source": {"file": "src/p10_raw.png", "crop_frac": [0.31, 0.14, 0.46, 0.29], "from": "G03: the full approved download of p10's generation", "note": "tight on the helmet and the glowing visor (glow band narrowed), cut above the mouth so the panel reads silent; crop at 490:610"},
-  "day": "2026-10-30",
+  "day": "2026-10-31",
   "status": "todo"
  },
  {
@@ -181,9 +181,9 @@
   "references": [{"job_or_file": "15321af3-be6a-440a-8178-28ba5c6bea7f", "role": "location and dropship design reference (approved P1, red-banded wreck)"}, {"job_or_file": "75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "role": "continuity: the under-arm carry and the basket"}, {"job_or_file": "panels/p06.png", "role": "the pad's look (a crop of P1, uploaded Oct 27 as media 14a3405a-0f4e-4038-9acc-85376ed7edf1); match it", "source_job": "15321af3-be6a-440a-8178-28ba5c6bea7f"}],
   "reuse_source": null,
   "raw_download": "src/p14_raw.png",
-  "job_id": null,
+  "job_id": "defdbbab-c741-436e-b42a-519d10a48f5b",
   "day": "2026-10-30",
-  "status": "todo (v3 Oct 30: his arms and the carry placed in viewer terms; if it fails, the two-solo-shot fallback on Oct 31)",
+  "status": "approved, minor (Oct 30 review panel, v3) with a local fix: Oliver's missing knee bands and studs painted in by tools/fix_p14_kneebands.py (src/p14_raw.png is the fixed image). Minors: no distinct forearm lamp; Oliver about 0.64x Sanchez's height while carried; a tall fry carton rather than the tray; hull behind them rather than sky, and no furrow",
   "rejected": ["d85aeea7-b5f3-4b5a-9b1b-5f8195936da7 (Oct 28: the wreck drawn toy-sized under the bears; Oliver under the gloved arm)", "0b6e96de-9a84-4179-a6c2-d54413298ab7 (Oct 29 v2: both arms mechanical; Oliver beside him on the viewer's right, not carried; Sanchez crouched off the pad; high angle)"]
  },
  {
@@ -194,12 +194,13 @@
   "resolution": "2k",
   "prompt": "<<<e6122a2f-99de-423a-a310-733554bf48bb>>> A lean teddy-bear cyborg in a dark maroon helmet with rounded bear-ear bumps and an opaque glowing red visor hiding his eyes, a light tan muzzle with a small dark goatee, a grey-khaki chest plate over grey-and-white camo, olive-and-tan camo trousers, a dark grey glove on his left hand and an oversized red-and-black mechanical right arm. With <<<74170e99-a46a-4c7d-857c-d3046b839374>>> a chestnut-brown robotic teddy-bear soldier, soft plush all over, with a red headband and a brass-cartridge bandolier, as tall as the cyborg, tucked firmly under the red-and-black mechanical arm on the viewer's left and hugging a softly glowing red basket of golden fried food, he stands on the glowing pad on top of the hull and tilts his head down toward the red-and-black mechanical arm on the viewer's left as a small closed-mouth smile lifts his goatee, the glow band inside his visor widening, the plain furry arm in a grey-and-white camo sleeve on the viewer's right ending in his dark grey glove; only the arm on the viewer's left is mechanical, while the soldier chews a fry, cheeks full, with a flat, deadpan stare. A sunlit grassy hilltop at high noon, at the head of a long ploughed furrow of soft orange-edged earth, beside a chunky crash-landed dark grey sci-fi transport aircraft with an olive cast, softly rounded painted-metal panels with gentle dents, tomato-red bands, stubby wings and three fat cylindrical engine pods, the fourth snapped off in the grass beside the nose, a flat, softly glowing pale-cyan square pad with a light-grey rim on top of its hull, faint stacked cyan rings hovering over it, the hull clean, intact and quiet in clear, still air, short, soft, stylised yellow-green turf flecked with tiny white daisies all around, under a saturated mid-blue sky with big soft white cumulus clouds, the high sun as a slightly warm key with a soft cool fill from the sky and a gentle rim light on the characters. Medium close-up at eye level on top of the hull, the cyborg's head right of centre and the soldier's head lower left, both faces large in frame. The upper left corner of the frame is open saturated blue sky with nothing in it, left clear; a clean image with no text. Avoid: photorealistic fur, realistic anatomy, real-person likeness, official logos, text, watermarks. Horizontal 3:2 framing. Polished feature-film 3D animation, soft rounded shapes, expressive faces, soft plush fur, soft global illumination, cinematic lighting, snappy cartoon timing with strong poses and holds.",
   "elements": ["e6122a2f-99de-423a-a310-733554bf48bb", "74170e99-a46a-4c7d-857c-d3046b839374"],
-  "references": [{"job_or_file": "15321af3-be6a-440a-8178-28ba5c6bea7f", "role": "location and dropship design reference (approved P1, red-banded wreck)"}, {"job_or_file": "75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "role": "continuity: the under-arm carry and the basket"}, {"job_or_file": "panels/p06.png", "role": "the pad's look (media 14a3405a-0f4e-4038-9acc-85376ed7edf1); match it", "source_job": "15321af3-be6a-440a-8178-28ba5c6bea7f"}],
+  "references": [{"job_or_file": "defdbbab-c741-436e-b42a-519d10a48f5b", "role": "continuity: the approved G05 v3 (same pad, hull, carry and carton)"}],
   "reuse_source": null,
   "raw_download": "src/p15_raw.png",
   "job_id": null,
-  "day": "2026-10-30",
-  "status": "todo"
+  "day": "2026-10-31",
+  "status": "todo (v2 Oct 31: reference swapped to the approved G05)",
+  "rejected": ["ff88ba96-de00-47b6-aca8-10d2dff1258e (Oct 30: Oliver sits on the hull beside him, not carried; a wide shot with a toy-scale wreck; no head tilt toward the arm)"]
  },
  {
   "id": "p16",
@@ -209,7 +210,7 @@
   "prompt": null,
   "elements": [],
   "references": [],
-  "reuse_source": {"file": "src/p14_raw.png", "crop_frac": [0.2, 0.49, 0.95, 0.834], "from": "G05: the full approved download of p14's generation", "note": "Sanchez's boots and Oliver's dangling bare feet on the glowing pad, crop at 1000:570"},
+  "reuse_source": {"file": "src/p14_raw.png", "crop_frac": [0.24, 0.45, 0.99, 0.7945], "from": "G05: the full approved download of p14's generation", "note": "Sanchez's boots and Oliver's dangling bare feet on the glowing pad, crop at 1000:570"},
   "day": "2026-10-30",
   "status": "todo"
  },
@@ -231,15 +232,15 @@
   "gen": "G09",
   "aspect_ratio": "1:1",
   "resolution": "2k",
-  "prompt": "<<<e6122a2f-99de-423a-a310-733554bf48bb>>> A lean teddy-bear cyborg in a dark maroon helmet with rounded bear-ear bumps and an opaque glowing red visor hiding his eyes, a light tan muzzle with a small dark goatee, a grey-khaki chest plate over grey-and-white camo, olive-and-tan camo trousers, a dark grey glove on his left hand and an oversized red-and-black mechanical right arm. With <<<74170e99-a46a-4c7d-857c-d3046b839374>>> a chestnut-brown robotic teddy-bear soldier, soft plush all over, with a red headband and a brass-cartridge bandolier, as tall as the cyborg, tucked firmly under the red-and-black mechanical arm on the viewer's left and hugging a softly glowing red basket of golden fried food, he flies toward the right of the frame in one huge, high arc in a heroic flying pose, body stretched out level and turned three-quarters toward the camera, the plain furry arm in a grey-and-white camo sleeve on the viewer's right thrust forward toward the right of the frame and ending in his dark grey gloved fist; only the arm on the viewer's left is mechanical; chin up, mouth set firm, the glow band inside his visor narrowed, while the soldier clutches the basket to his chest with wide eyes, both brows shot up and a golden fry clamped in his mouth. A sunlit open grass field at high noon, short, soft, stylised yellow-green turf flecked with tiny white daisies, plump curved arcs of tan sandbags and a few chunky black steel barriers of three thick crossed beams like giant toy jacks on gentle mounds, misty blue-grey wooded hills on the horizon, under a saturated mid-blue sky with big soft white cumulus clouds, the high sun as a slightly warm key with a soft cool fill from the sky and a gentle rim light on the characters. Low-angle shot from inside a sunken trench with honey-gold plank floors and plain grass-capped lips, looking up as the two streak overhead from left to right, faces turned down toward the camera, fries raining toward the lens. The top-left quarter of the frame is open blue sky, left clear; a clean image with no text. Avoid: photorealistic fur, realistic anatomy, real-person likeness, official logos, text, watermarks. Square 1:1 framing. Polished feature-film 3D animation, soft rounded shapes, expressive faces, soft plush fur, soft global illumination, cinematic lighting, snappy cartoon timing with strong poses and holds.",
+  "prompt": "<<<e6122a2f-99de-423a-a310-733554bf48bb>>> A lean teddy-bear cyborg in a dark maroon helmet with rounded bear-ear bumps and an opaque glowing red visor hiding his eyes, a light tan muzzle with a small dark goatee, a grey-khaki chest plate over grey-and-white camo, olive-and-tan camo trousers, a dark grey glove on his left hand and an oversized red-and-black mechanical right arm. With <<<74170e99-a46a-4c7d-857c-d3046b839374>>> a chestnut-brown robotic teddy-bear soldier, soft plush all over, with a red headband and a brass-cartridge bandolier, as tall as the cyborg, tucked firmly under the red-and-black mechanical arm on the viewer's left and hugging a softly glowing red basket of golden fried food, he flies toward the right of the frame in one huge, high arc in a heroic flying pose, body stretched out level and turned three-quarters toward the camera, chin up, mouth set firm, the glow band inside his visor narrowed, the plain furry arm in a short grey-and-white camo sleeve on the viewer's right bent so its soft dark grey fabric glove presses flat over his heart in a grand heroic pledge; only the arm on the viewer's left is mechanical, while the soldier clutches the basket to his chest with wide eyes, both brows shot up and a golden fry clamped in his mouth. A sunlit open grass field at high noon, short, soft, stylised yellow-green turf flecked with tiny white daisies, plump curved arcs of tan sandbags and a few chunky black steel barriers of three thick crossed beams like giant toy jacks on gentle mounds, misty blue-grey wooded hills on the horizon, under a saturated mid-blue sky with big soft white cumulus clouds, the high sun as a slightly warm key with a soft cool fill from the sky and a gentle rim light on the characters. Low-angle shot from inside a sunken trench with honey-gold plank floors and plain grass-capped lips, looking up as the two streak overhead from left to right, faces turned down toward the camera, fries raining toward the lens. The top-left quarter of the frame is open blue sky, left clear; a clean image with no text. Avoid: photorealistic fur, realistic anatomy, real-person likeness, official logos, text, watermarks. Square 1:1 framing. Polished feature-film 3D animation, soft rounded shapes, expressive faces, soft plush fur, soft global illumination, cinematic lighting, snappy cartoon timing with strong poses and holds.",
   "elements": ["e6122a2f-99de-423a-a310-733554bf48bb", "74170e99-a46a-4c7d-857c-d3046b839374"],
   "references": [{"job_or_file": "75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "role": "continuity: the under-arm carry, the basket, both faces"}, {"job_or_file": "refs/P3r_field.png", "role": "field reference, approved Oct 26 as a reference only; uploaded as media 5cc57baa-2499-4e2e-9447-c353469da317", "source_job": "f91003b0-68f5-4484-9963-8dac27a297ff"}],
   "reuse_source": null,
   "raw_download": "src/p18_raw.png",
   "job_id": null,
-  "day": "2026-10-30",
-  "status": "todo (v2 Oct 30: his arms and the carry placed in viewer terms)",
-  "rejected": ["b934a180-33a3-4287-860f-ee04e1bb4e66 (Oct 29: a red mechanical left hand and no glove; Oliver hugged by the plain arm on the viewer's right; mechanical fist leading; camera level at the trench mouth)"]
+  "day": "2026-10-31",
+  "status": "todo (v3 Oct 31: the gloved hand over his heart instead of a leading fist)",
+  "rejected": ["b934a180-33a3-4287-860f-ee04e1bb4e66 (Oct 29: a red mechanical left hand and no glove; Oliver hugged by the plain arm on the viewer's right; mechanical fist leading; camera level at the trench mouth)", "55b9324f-8ee4-4299-be11-36addd2dcbc7 (Oct 30 v2: the carry and the direction right, but the leading fist mechanical too, so both arms mechanical)"]
  },
  {
   "id": "p19",

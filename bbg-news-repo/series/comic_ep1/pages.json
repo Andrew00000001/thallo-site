@@ -50,13 +50,13 @@
    ]},
   {"id": "s05",
    "panels": [
-    {"id": "p11", "rect": [40, 40, 1000, 640], "image": "panels/p11.png", "focus": [0.5, 0.55], "border": 6},
+    {"id": "p11", "rect": [40, 40, 1000, 640], "image": "panels/p11.png", "focus": [0.5, 0.5], "border": 6},
     {"id": "p12", "rect": [40, 700, 490, 610], "image": "panels/p12.png", "focus": [0.5, 0.5], "border": 6},
     {"id": "p13", "rect": [550, 700, 490, 610], "image": "panels/p13.png", "focus": [0.5, 0.5], "border": 6}
    ],
    "letters": [
-    {"type": "balloon", "text": "Sanchez! Buddy! You look **GREAT!**", "panel": "p11", "box": [64, 56, 440], "tail": [458, 470], "size": 44},
-    {"type": "balloon", "text": "...**FRY?**", "panel": "p12", "box": [64, 718, 280], "tail": [250, 940], "size": 52},
+    {"type": "balloon", "text": "Sanchez! Buddy! You look **GREAT!**", "panel": "p11", "box": [706, 100, 318], "tail": [700, 410], "size": 44},
+    {"type": "balloon", "text": "...**FRY?**", "panel": "p12", "box": [64, 718, 280], "tail": [292, 893], "size": 52},
     {"type": "sfx", "text": "SSSSZZZ...", "panel": "p13", "box": [690, 722, 330], "angle": 4}
    ]},
   {"id": "s06",
@@ -65,7 +65,7 @@
    ],
    "letters": [
     {"type": "caption", "text": "One scoop later...", "panel": "p14", "box": [64, 64, 400], "size": 38},
-    {"type": "balloon", "text": "This arm, I did not ask for.", "panel": "p14", "box": [64, 150, 470], "tail": [574, 470], "size": 46},
+    {"type": "balloon", "text": "This arm, I did not ask for.", "panel": "p14", "box": [64, 150, 470], "tail": [632, 322], "size": 46},
     {"type": "sfx", "text": "KLANG!", "panel": "p14", "box": [640, 880, 360], "angle": -8}
    ]},
   {"id": "s07",
