@@ -43,3 +43,12 @@ Upload-session prompt:
    Never paste them into a chat. New sessions pick them up, and that includes the upload sessions. Then say "Drive key is in" in the BBG News chat, and the teaser uploads right away.
 
 Check without uploading: `python3 -I tools/drive_upload.py --dry-run`.
+
+**Status (Oct 30):**
+- The key is set, and the Google app ("BBG News Drive Uploader", project "BBG News Drive") is published "In production" with the `drive.file` scope only, so the refresh token doesn't expire after 7 days.
+- The first upload, the Oct 28 teaser, is verified in Drive.
+- The app's home page and privacy policy links point at this branch:
+  - `https://github.com/Andrew00000001/thallo-site/tree/claude/lucid-archimedes-6dmd7h/bbg-news-repo`
+  - `.../blob/claude/lucid-archimedes-6dmd7h/bbg-news-repo/PRIVACY.md`
+
+  If the branch is merged into main and deleted, update both links in the Google Auth Platform's Branding page to the main-branch paths.
