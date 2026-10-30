@@ -1,9 +1,11 @@
 """Upload finished comics to Bryce's Google Drive.
 
 Every folder under comics_final/ is one finished comic. comics_final/index.json
-maps each folder to the Drive folder title it gets inside "BBG News Comics" (in
-My Drive). Any file in the comic's folder that is not in Drive yet is uploaded;
-files already there (same name) are left alone, so running it again is safe.
+maps each folder to its Drive path under My Drive, with "/" between folders, for
+example "BBG News/Comics/Local Hazards Ep 1 · We'll Getcha Home/2026-10-28 Teaser".
+Missing folders are created. Any file in the comic's folder that is not in Drive
+yet is uploaded; files already there (same name) are left alone, so running it
+again is safe.
 
 Credentials come from the environment, never from the repo or the chat: an OAuth
 client of Bryce's own and a refresh token with the drive.file scope (the app can
@@ -28,7 +30,6 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 FINAL = REPO / "comics_final"
-ROOT_TITLE = "BBG News Comics"
 FOLDER = "application/vnd.google-apps.folder"
 API = "https://www.googleapis.com/drive/v3/files"
 UPLOAD = "https://www.googleapis.com/upload/drive/v3/files"
@@ -110,6 +111,13 @@ def upload(token, path, parent):
     return json.loads(out)["id"]
 
 
+def ensure_path(token, path):
+    parent = "root"
+    for part in [p.strip() for p in path.split("/") if p.strip()]:
+        parent = folder(token, part, parent)
+    return parent
+
+
 def main():
     dry = "--dry-run" in sys.argv[1:]
     index = json.loads((FINAL / "index.json").read_text())
@@ -123,22 +131,21 @@ def main():
     if not token:
         print("Credentials missing: %s." % ", ".join(missing))
         for d, title, files in comics:
-            print("  would upload %s -> %s/%s (%d files)" % (d.name, ROOT_TITLE, title, len(files)))
+            print("  would upload %s -> My Drive/%s (%d files)" % (d.name, title, len(files)))
         return 0 if dry else 2
-    root = folder(token, ROOT_TITLE, "root") if not dry else None
     total = 0
     for d, title, files in comics:
         if dry:
-            print("  %s -> %s/%s: %d files" % (d.name, ROOT_TITLE, title, len(files)))
+            print("  %s -> My Drive/%s: %d files" % (d.name, title, len(files)))
             continue
-        fid = folder(token, title, root)
+        fid = ensure_path(token, title)
         have = children(token, fid)
         for f in files:
             if f.name in have:
                 continue
             upload(token, f, fid)
             total += 1
-            print("  uploaded %s/%s/%s" % (ROOT_TITLE, title, f.name))
+            print("  uploaded My Drive/%s/%s" % (title, f.name))
     print("done: %d new file(s)" % total)
     return 0
 

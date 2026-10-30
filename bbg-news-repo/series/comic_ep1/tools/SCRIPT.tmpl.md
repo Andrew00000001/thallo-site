@@ -452,9 +452,11 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 ---
 
 ### Finished comics go to Google Drive (Bryce, Oct 30)
-When a comic is locked:
+Only fully completed work goes in: every slide final, the final review passed, and Bryce's approval. Never drafts, contact sheets or loose panels.
+
+Once Bryce approves the locked comic:
 - copy its numbered posting JPGs and a `post.txt` (caption, alt text, posting notes) into `comics_final/<date>_<slug>/`;
-- add its Drive title to `comics_final/index.json`;
+- add its Drive path to `comics_final/index.json`, for example `BBG News/Comics/Local Hazards Ep 1 · We'll Getcha Home/2026-11-04 Carousel`;
 - commit and push;
 - start the Drive upload session, which runs `tools/drive_upload.py` in a fresh session with the repository checked out (the `create_session` settings and prompt are in `comics_final/README.md`, with the one-time key setup).
 
