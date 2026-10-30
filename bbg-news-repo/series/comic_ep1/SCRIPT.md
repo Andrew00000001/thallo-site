@@ -522,9 +522,10 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 When a comic is locked:
 - copy its numbered posting JPGs and a `post.txt` (caption, alt text, posting notes) into `comics_final/<date>_<slug>/`;
 - add its Drive title to `comics_final/index.json`;
-- commit, push, and fire the Drive upload task.
+- commit and push;
+- start the Drive upload session, which runs `tools/drive_upload.py` in a fresh session with the repository checked out (the `create_session` settings and prompt are in `comics_final/README.md`, with the one-time key setup).
 
-That task runs `tools/drive_upload.py` in a fresh session; see `comics_final/README.md` for the one-time key setup. The Oct 28 teaser is already there.
+The Oct 28 teaser is already in `comics_final/`.
 
 ---
 
