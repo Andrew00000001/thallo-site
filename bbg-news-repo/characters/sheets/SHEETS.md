@@ -220,6 +220,10 @@ Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil
   - `sanchez-arbiter`, with the arms in viewer terms: G05 v3 came out right, with one mechanical arm carrying Oliver and the glove on his hip.
   - G03 v4 came back with neither Element applied. Both bears were generic, with no camo, goatee, headband or bandolier. That looks like a one-off: G05 v3 and G04 v2 from the same batch held.
   - `oliver-soldier`: G05 v3 left out his knee bands and studs. They were painted in locally (`series/comic_ep1/tools/fix_p14_kneebands.py`).
+- **Elements in use, Oct 31:**
+  - `sanchez-arbiter` held in the recomposed Verdict (G03 v5, both takes) and in G06 v2: one mechanical arm each time.
+  - In the flight pose (G09 v3), one take lost most of his look (no goatee or glove, olive camo), and the other gave him two mechanical hands. The flight pose is the weak spot. Nov 1 tries an edit of the closest take instead of a new generation.
+  - `oliver-soldier`: G06 v2 copied G05's bare knees from its reference. The zoomed panel leaves them out of frame.
 
 ## Queued for the next daily reset
 
@@ -231,7 +235,7 @@ Episode 1 now shares the daily limit, so the plan for each reset is in the resea
 4. Plate P2.
 5. The Huggable, fresh sheet v4.
 
-Oct 31 (comic plan, `series/comic_ep1/SCRIPT.md` §7): the comic panels G03 v5 (two takes), G09 v3 (two takes) and G06 v2. G08, G05 and G04 are approved. The Huggable sheets are done. Episode 1 is now a comic, so plate P4 and the C2 and C4 start stills are dropped.
+Nov 1 (comic plan, `series/comic_ep1/SCRIPT.md` §7): G09 v4, three edits of the Oct 30 take, then the lock. G03, G04, G05, G06 and G08 are approved. The Huggable sheets are done. Episode 1 is now a comic, so plate P4 and the C2 and C4 start stills are dropped.
 
 Later (sheets for future episodes):
 - Botch;

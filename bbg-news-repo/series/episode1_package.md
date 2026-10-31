@@ -81,6 +81,19 @@ Higgsfield's 5-a-day generation limit sets this pace.
   - G06 v2, with the approved G05 as its reference.
 - Comic panel spend: 42 credits, about 56 after Oct 31. That is inside the Episode 1 budget Bryce raised on Oct 21. Credits left: 46.92.
 
+**Status on 2026-10-31:**
+- Approved:
+  - the Verdict (G03 v5 take b, recomposed: one mechanical arm, pointing down at Oliver);
+  - the pride smile (G06 v2, zoomed to the close-up).
+- 13 of 14 slides are finished. s08 waits for its panel (p18).
+- G09 v3 was rejected (both takes).
+- Nov 1:
+  - three edits of the Oct 30 G09 take that change only the forward arm;
+  - if none passes, a tighter crop of the approved cover (checked);
+  - then the lock and Bryce's review.
+- The finished carousel goes to Google Drive only after Bryce approves it.
+- Comic panel spend: 56 credits; credits left: 32.92.
+
 
 1. **The Higgsfield Elements are still the old low-poly ones.** A read-only listing of the workspace on 2026-10-20 shows `oliver-soldier` (5e079b47…), `huggable-huggable` (e188dc42…) and `riggs-heavy` (1475a232…), all created on Oct 15 from the retired low-poly sheets (their descriptions say "low-poly"). No Element has been made from any SHEETS.md sheet, and there is no `b-1000-assault-signature` Element at all.
    - Create the new Elements from the SHEETS.md jobs (type `image_job`): B-1000 from the fixed sheet once blocker 5 clears (the current sheet is `1f7259ce-23ed-4398-9a91-cdbf429dfeed`; use it only under Bryce's recorded exception), Oliver `909ea0bd-843e-4324-ae88-193c2eeb84cb`; Sanchez and the blue Huggable once their sheets pass QA. Creating an Element cost nothing on Oct 15.

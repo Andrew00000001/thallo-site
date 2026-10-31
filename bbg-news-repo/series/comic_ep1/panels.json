@@ -110,7 +110,7 @@
   "prompt": null,
   "elements": [],
   "references": [],
-  "reuse_source": {"file": "src/p10_raw.png", "crop_frac": [0.16, 0.16, 0.92, 0.36], "from": "G03: the full approved download of p10's generation", "note": "the glowing visor (left third) and the raised red-and-black arm reaching right; crop at 1000:330"},
+  "reuse_source": {"file": "src/p10_raw.png", "crop_frac": [0.17, 0.35, 1.0, 0.5706], "from": "G03: the full approved download of p10's generation", "note": "the red-and-black arm swinging in to point (leftward) and the glove on his chest; the visor is held back for s04's reveal (G03 v5 points down, so visor and arm can't share one strip); crop at 1000:330"},
   "day": "2026-10-31",
   "status": "todo"
  },
@@ -125,9 +125,9 @@
   "references": [{"job_or_file": "4f2adc91-2485-423b-afdf-96ea76df244b", "role": "continuity: Oliver, basket, stand (G02, approved)"}, {"job_or_file": "01ca9909-559a-4225-99f5-ad4a74c517e7", "role": "location reference (P2), only if approved"}],
   "reuse_source": null,
   "raw_download": "src/p10_raw.png",
-  "job_id": null,
+  "job_id": "d9ecb0f3-99f5-4f33-bb9a-36e670217132",
   "day": "2026-10-31",
-  "status": "todo (v5 Oct 31, recomposed: Sanchez right of centre, Oliver lower left; an exception to the retake rule after four failed takes)",
+  "status": "approved, minor (Oct 31 review panel; v5 take b, recomposed): one mechanical arm (his right, viewer's left) pointing down at Oliver, the glove on his chest. Minors: no distinct forearm lamp; Oliver seen in profile, not from behind; a mild low angle; seated Oliver reads about 0.8x. Take a (213ada59, src/p10_raw_alt_oct31.png) also passed but points at the sky. p09 is now the arm strip; the visor waits for s04",
   "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)", "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)", "626d2ca0-17b7-4ca6-83f3-b221e76e2b37 (Oct 29 v3: both forearms mechanical again, the glove on the mechanical arm and a robot hand on the camo-sleeved left arm doing the pointing)", "bc8cb320-2f65-450e-85ad-394908225a6d (Oct 30 v4: neither Element held (no camo, trousers, boots or goatee; Oliver without his kit), and the arms swapped: the glove on his right, the mechanical arm his left, pointing up)"]
  },
  {
@@ -166,7 +166,7 @@
   "prompt": null,
   "elements": [],
   "references": [],
-  "reuse_source": {"file": "src/p10_raw.png", "crop_frac": [0.31, 0.14, 0.46, 0.29], "from": "G03: the full approved download of p10's generation", "note": "tight on the helmet and the glowing visor (glow band narrowed), cut above the mouth so the panel reads silent; crop at 490:610"},
+  "reuse_source": {"file": "src/p10_raw.png", "crop_frac": [0.615, 0.075, 0.905, 0.3658], "from": "G03: the full approved download of p10's generation", "note": "tight on the helmet and the glowing visor (glow band narrowed), cut above the mouth so the panel reads silent; crop at 490:610"},
   "day": "2026-10-31",
   "status": "todo"
  },
@@ -197,9 +197,9 @@
   "references": [{"job_or_file": "defdbbab-c741-436e-b42a-519d10a48f5b", "role": "continuity: the approved G05 v3 (same pad, hull, carry and carton)"}],
   "reuse_source": null,
   "raw_download": "src/p15_raw.png",
-  "job_id": null,
+  "job_id": "1600506f-1a53-4b92-99da-be878bc689fa",
   "day": "2026-10-31",
-  "status": "todo (v2 Oct 31: reference swapped to the approved G05)",
+  "status": "approved, minor (Oct 31 review panel; v2 with the approved G05 as reference): the carry, sides, pad, carton and wreck scale all match G05. Shown zoomed (focus 0.5605/0.3245, zoom 1.698) as the planned medium close-up, which also leaves his bare knees out of frame. Minors: a slight head tilt; no distinct forearm lamp; a camo stub at the right shoulder",
   "rejected": ["ff88ba96-de00-47b6-aca8-10d2dff1258e (Oct 30: Oliver sits on the hull beside him, not carried; a wide shot with a toy-scale wreck; no head tilt toward the arm)"]
  },
  {
@@ -232,15 +232,15 @@
   "gen": "G09",
   "aspect_ratio": "1:1",
   "resolution": "2k",
-  "prompt": "<<<e6122a2f-99de-423a-a310-733554bf48bb>>> A lean teddy-bear cyborg in a dark maroon helmet with rounded bear-ear bumps and an opaque glowing red visor hiding his eyes, a light tan muzzle with a small dark goatee, a grey-khaki chest plate over grey-and-white camo, olive-and-tan camo trousers, a dark grey glove on his left hand and an oversized red-and-black mechanical right arm. With <<<74170e99-a46a-4c7d-857c-d3046b839374>>> a chestnut-brown robotic teddy-bear soldier, soft plush all over, with a red headband and a brass-cartridge bandolier, as tall as the cyborg, tucked firmly under the red-and-black mechanical arm on the viewer's left and hugging a softly glowing red basket of golden fried food, he flies toward the right of the frame in one huge, high arc in a heroic flying pose, body stretched out level and turned three-quarters toward the camera, chin up, mouth set firm, the glow band inside his visor narrowed, the plain furry arm in a short grey-and-white camo sleeve on the viewer's right bent so its soft dark grey fabric glove presses flat over his heart in a grand heroic pledge; only the arm on the viewer's left is mechanical, while the soldier clutches the basket to his chest with wide eyes, both brows shot up and a golden fry clamped in his mouth. A sunlit open grass field at high noon, short, soft, stylised yellow-green turf flecked with tiny white daisies, plump curved arcs of tan sandbags and a few chunky black steel barriers of three thick crossed beams like giant toy jacks on gentle mounds, misty blue-grey wooded hills on the horizon, under a saturated mid-blue sky with big soft white cumulus clouds, the high sun as a slightly warm key with a soft cool fill from the sky and a gentle rim light on the characters. Low-angle shot from inside a sunken trench with honey-gold plank floors and plain grass-capped lips, looking up as the two streak overhead from left to right, faces turned down toward the camera, fries raining toward the lens. The top-left quarter of the frame is open blue sky, left clear; a clean image with no text. Avoid: photorealistic fur, realistic anatomy, real-person likeness, official logos, text, watermarks. Square 1:1 framing. Polished feature-film 3D animation, soft rounded shapes, expressive faces, soft plush fur, soft global illumination, cinematic lighting, snappy cartoon timing with strong poses and holds.",
-  "elements": ["e6122a2f-99de-423a-a310-733554bf48bb", "74170e99-a46a-4c7d-857c-d3046b839374"],
-  "references": [{"job_or_file": "75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "role": "continuity: the under-arm carry, the basket, both faces"}, {"job_or_file": "refs/P3r_field.png", "role": "field reference, approved Oct 26 as a reference only; uploaded as media 5cc57baa-2499-4e2e-9447-c353469da317", "source_job": "f91003b0-68f5-4484-9963-8dac27a297ff"}],
+  "prompt": "Edit this image. Keep everything exactly as it is: the same two characters, their poses, faces, outfits, sizes and positions, the same composition, framing and flight direction, the same colours, lighting, sky, clouds, trench, field, sandbags, barriers and falling fries. Change only the cyborg's arm that is thrust forward on the viewer's right: below his grey-and-white camo sleeve it becomes a plain furry light-tan teddy-bear forearm ending in a soft dark grey fabric glove clenched in a fist, with no red armour, no metal plates and no glowing strips anywhere on that arm. His other arm, the red-and-black mechanical one on the viewer's left that holds the soldier, stays exactly as it is. A clean image with no text. Polished feature-film 3D animation, soft rounded shapes, expressive faces, soft plush fur, soft global illumination, cinematic lighting.",
+  "elements": [],
+  "references": [{"job_or_file": "55b9324f-8ee4-4299-be11-36addd2dcbc7", "role": "edit base: the Oct 30 take (right direction, carry, camera and looks)"}],
   "reuse_source": null,
   "raw_download": "src/p18_raw.png",
   "job_id": null,
-  "day": "2026-10-31",
-  "status": "todo (v3 Oct 31: the gloved hand over his heart instead of a leading fist)",
-  "rejected": ["b934a180-33a3-4287-860f-ee04e1bb4e66 (Oct 29: a red mechanical left hand and no glove; Oliver hugged by the plain arm on the viewer's right; mechanical fist leading; camera level at the trench mouth)", "55b9324f-8ee4-4299-be11-36addd2dcbc7 (Oct 30 v2: the carry and the direction right, but the leading fist mechanical too, so both arms mechanical)"]
+  "day": "2026-11-01",
+  "status": "todo (v4 Nov 1: edits of the Oct 30 take 55b9324f changing only the forward arm; fallback, a crop of the approved cover)",
+  "rejected": ["b934a180-33a3-4287-860f-ee04e1bb4e66 (Oct 29: a red mechanical left hand and no glove; Oliver hugged by the plain arm on the viewer's right; mechanical fist leading; camera level at the trench mouth)", "55b9324f-8ee4-4299-be11-36addd2dcbc7 (Oct 30 v2: the carry and the direction right, but the leading fist mechanical too, so both arms mechanical)", "3ab5380b-ab7f-4ec6-a595-630f2fd4828a (Oct 31 v3 take a: flew right to left; mirrored it would be right-sided, but the Sanchez Element didn't hold: no goatee, no glove, olive camo, dark visor; Oliver missing his bands)", "c88c68ae-0787-4bc6-ace0-9b01df871b48 (Oct 31 v3 take b: flew right to left with a mechanical fist leading and a mechanical left hand on the basket)"]
  },
  {
   "id": "p19",

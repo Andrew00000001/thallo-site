@@ -1433,10 +1433,12 @@ def load_image(path):
 def cover_fit(im, tw, th, focus=(0.5, 0.5), zoom=1.0):
     iw, ih = im.size
     scale = max(tw / iw, th / ih) * max(1.0, float(zoom))
-    cw, ch = tw / scale, th / scale
+    # clamp: when the crop's ratio matches the tile's, float error can push the box a hair
+    # past the image edge, which PIL rejects
+    cw, ch = min(tw / scale, iw), min(th / scale, ih)
     fx, fy = focus[0] * iw, focus[1] * ih
-    left = min(max(fx - cw / 2, 0), iw - cw)
-    top = min(max(fy - ch / 2, 0), ih - ch)
+    left = max(min(max(fx - cw / 2, 0), iw - cw), 0)
+    top = max(min(max(fy - ch / 2, 0), ih - ch), 0)
     return im.resize((tw, th), Image.LANCZOS, box=(left, top, left + cw, top + ch),
                      reducing_gap=3.0)
 

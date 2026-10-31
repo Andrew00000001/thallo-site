@@ -229,14 +229,14 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
   - **p07:** the local sting band (navy HUD grid, scan line). Original art, no text.
   - **p08 = G02** (3:2, 2k; Element: Oliver; reference: P2 if approved). A high angle makes him small: the panel is the FLUFFY tag in picture form.
 > "{{PROMPT:p08}}"
-  - **p09 = crop of G03:** the glowing visor at left and the raised red-and-black arm reaching right, a 1000:330 strip from the 4k Verdict.
+  - **p09 = crop of G03:** the red-and-black arm swinging in to point, beside the gloved hand on his chest, a 1000:330 strip from the 4k Verdict. The approved v5 points down, so the visor and the arm can't share one strip; the visor is held back for s04's reveal.
 - **Lettering:**
 {{LETTERS:s03}}
 
 ### s04 · The Verdict (full page)
 - **Why the reader swipes:** the reveal answers s03. The line is split across two balloons, so the reader takes Sanchez's one allowed pause before "...HOME.". Oliver's reaction is held for the next swipe.
 - **Panel:** {{PANELS:s04}}
-  - **p10 = G03** (4:5, 4k; Elements: Sanchez, Oliver; references: the approved G02, and P2 if approved). Sanchez towers left of centre, turned three-quarters to frame right so the mechanical right arm is on the near side and points down at Oliver in the lower-right foreground. The top fifth and the sky right of his head are open for the tag and balloons.
+  - **p10 = G03** (4:5, 4k; Elements: Sanchez, Oliver; references: the approved G02, and P2 if approved). As approved (v5, recomposed Oct 31): Sanchez towers right of centre, his mechanical right arm (on the viewer's left) pointing down at Oliver in the lower left, his gloved left hand on his chest. The sky left of his head holds the tag and balloons. (Planned before v5: left of centre with Oliver lower right; four takes at that staging failed.)
 > "{{PROMPT:p10}}"
   - Not for pasting: "holds" and "snapped", never "slow" or "solemn" (sanchez.md, Timing). Reject a take with two baskets. 4k, because p09 and p13 are tight crops of it. Takes: Oct 27, refused by the content filter; Oct 28 and Oct 29 (v3), rejected, both with mechanical parts on both arms. v4 (Oct 30) changed only the action sentence: his arms in viewer terms, and the pointing arm raised to shoulder height so p09's strip can hold the visor and the arm. It was rejected: neither Element held, and the arms swapped again. v5 (Oct 31) is recomposed with Sanchez right of centre and Oliver lower left (§3, the one recorded exception). The tag and balloons then move to the sky left of his head, and p09 and p13 are re-cut from it.
 - **Lettering:**
@@ -362,8 +362,8 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 | **Wed Oct 28** (done) | The G01 edit (approved: smoke gone, barriers black), G03 (rejected: both arms mechanical), G07 (approved), the blue Huggable edit (approved after local fixes; both Huggable Elements created), G05 (rejected: the wreck toy-sized) | The teaser rendered from the edited cover and sent; **post it at about 12:00**, AI label on. Crops p20-p22 re-fit to G07 |
 | **Thu Oct 29** (done) | Rejected: G03 v3 (both arms mechanical again), G05 v2 (both arms mechanical, no carry, off the pad), G09 (a mechanical left hand, the carry on the wrong arm) and G04 (a near copy of G02). **Approved: G08** (minor) | Root cause found: the bare left/right wording. The retake prompts were rewritten in viewer terms, s11 was lettered, and the contact sheet went to Bryce |
 | **Fri Oct 30** (done) | **Approved:** G05 v3 (Oliver's knee bands painted in locally) and G04 v2 (minor). **Rejected:** G03 v4 (neither Element held; arms swapped), G09 v2 (the leading fist mechanical) and G06 (Oliver sits instead of being carried; a wide, toy-scale shot) | s05 and s06 lettered; p16 re-cut |
-| **Sat Oct 31** | 1–2. **G03 v5**, two takes (recomposed, 4k). 3–4. **G09 v3**, two takes. 5. **G06 v2** (reference: the approved G05) | Cut p09, p13 and p15; re-fit s04, s07 and s08; render with `--guides` |
-| **Sun Nov 1** | Spare (a last retake only) | **Lock:** every panel approved, `letter.py pages.json --strict --guides --jpg`, Bryce's review |
+| **Sat Oct 31** (done) | **Approved:** G03 v5 take b (one mechanical arm, pointing down at Oliver; take a kept as the alternate) and G06 v2 (shown zoomed as the planned close-up). **Rejected:** G09 v3, both takes (flew right to left; one lost the Sanchez look, the other had two mechanical hands) | s03, s04, s05 and s07 re-fit and lettered. `letter.py` clamps its fit box (a float edge case on p09) |
+| **Sun Nov 1** | **G09 v4**: three edits of the Oct 30 take that change only the forward arm (2 credits each). If none passes, slide 8 uses the checked fallback, a tighter crop of the approved cover (`P18_USE_COVER`) | **Lock:** every panel approved; `letter.py pages.json --strict --guides --jpg`; final two-lens review of all 14 slides; send to Bryce for approval. Google Drive only after he approves (comics_final/README.md) |
 | **Mon Nov 2 – Tue Nov 3** | Buffer only | Phone check: the slide counter, the 3:4 grid crop of s01, the in-app alt-text limit; final caption |
 | **Wed Nov 4** | — | **Post at about 12:00**, AI label on |
 
@@ -372,7 +372,7 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 ## 8. Budget
 
 - **Base:** 9 generations, 22 credits (G01 2, G02 2, G03 4, G04 2, G05 2, G06 2, G07 4, G08 2, G09 2).
-- **Spent by Oct 29:** 30 credits on 13 panel runs (the Oct 27 filter refusal was refunded); the sheet edits are not counted here. Oct 30's five runs added 12 (G03 at 4k), for **42**. Oct 31's five runs add 14 (two G03 takes at 4k), for about **56** over 23 runs. That is well over this plan's estimate of about 38, because Sanchez's arms cost repeated retakes. It is still inside the Episode 1 budget, which Bryce raised by about 400 credits on Oct 21. Bryce was told on Oct 29 and Oct 30.
+- **Spent by Oct 29:** 30 credits on 13 panel runs (the Oct 27 filter refusal was refunded); the sheet edits are not counted here. Oct 30's five runs added 12 (G03 at 4k), for **42**. Oct 31's five runs added 14 (two G03 takes at 4k), for **56** over 23 runs; Nov 1's three G09 edits add 6, for about **62**. That is well over this plan's estimate of about 38, because Sanchez's arms cost repeated retakes. It is still inside the Episode 1 budget, which Bryce raised by about 400 credits on Oct 21. Bryce was told on Oct 29 and Oct 30.
 - **Retakes (about 30%):** 3 generations, about 6–10 credits. They are kept for G01 (it gates the teaser), the carry shots (G05–G07, G09) and G08 (five identical copies).
 - **Fallbacks, only from unused retake slots:** O1 (2), F2 (2). U1 (B-1000's "tee-hee" close-up) is dropped, so G09 fits and the hard ceiling stays **14 panel generations**, the cover included (9 + 3 retakes + O1 + F2), at most about 38 credits.
 - **Huggable sheets** (not this budget, but the same daily slots): 2–3 runs (the red fix, the blue edit, perhaps a blue retake), about 8–12 credits at 4k.

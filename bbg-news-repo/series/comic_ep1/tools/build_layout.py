@@ -248,23 +248,33 @@ GEN["G08"] = dict(panel="p23", ratio="4:5", res="2k", day="2026-10-29", els=[HUG
         "them.",
         "The top fifth of the frame is open blue sky above the banner tops and the bottom fifth is "
         "plain, empty turf, " + CLEAN], "4:5"))
-# G09 v1 and v2 both turned the leading fist into a mechanical one. v3 (Oct 31) changes only the
-# action sentence: no leading fist; the gloved hand presses over his heart (his Verdict gesture, in flight).
-GEN["G09"] = dict(panel="p18", ratio="1:1", res="2k", day="2026-10-31", els=[SAN_ID, OLI_ID],
-    refs=[ref("75d12d6d-6c6a-440f-bfdc-e94c7434ec82", "continuity: the under-arm carry, the basket, "
-              "both faces"),
-          ref(P3R, "field reference, approved Oct 26 as a reference only; uploaded as media 5cc57baa-2499-4e2e-9447-c353469da317", P3_JOB)],
-    prompt=prompt([SAN, SAN_LINE, "With", OLI, OLI_CO, CARRY_V,
-        "he flies toward the right of the frame in one huge, high arc in a heroic flying pose, body "
-        "stretched out level and turned three-quarters toward the camera, chin up, mouth set firm, the "
-        "glow band inside his visor narrowed, the plain furry arm in a short grey-and-white camo sleeve "
-        "on the viewer's right bent so its soft dark grey fabric glove presses flat over his heart in a "
-        "grand heroic pledge; " + ARMS_V + ", while the soldier clutches the basket to his chest with "
-        "wide eyes, both brows shot up and a golden fry clamped in his mouth.", FIELD,
-        "Low-angle shot from inside a sunken trench with honey-gold plank floors and plain grass-capped lips, looking up as the "
-        "two streak overhead from left to right, faces turned down toward the camera, fries raining "
-        "toward the lens.",
-        "The top-left quarter of the frame is open blue sky, " + CLEAN], "1:1"))
+# G09: v1 (Oct 29), v2 (Oct 30) and v3 (Oct 31, two takes) all failed. v2 came closest: the
+# direction, the carry, the trench camera and both looks were right, and only its forward arm came
+# out mechanical. v4 (Nov 1) is an edit of v2 that changes only that arm. Variant B adds the
+# locally fixed Sanchez sheet (media c143c1df) as a second image to show the plain gloved left arm.
+G09_EDIT = ("Keep everything exactly as it is: the same two characters, their poses, faces, outfits, "
+            "sizes and positions, the same composition, framing and flight direction, the same "
+            "colours, lighting, sky, clouds, trench, field, sandbags, barriers and falling fries. "
+            "Change only the cyborg's arm that is thrust forward on the viewer's right: below his "
+            "grey-and-white camo sleeve it becomes a plain furry light-tan teddy-bear forearm ending "
+            "in a soft dark grey fabric glove clenched in a fist, with no red armour, no metal plates "
+            "and no glowing strips anywhere on that arm. His other arm, the red-and-black mechanical "
+            "one on the viewer's left that holds the soldier, stays exactly as it is. A clean image "
+            "with no text. Polished feature-film 3D animation, soft rounded shapes, expressive faces, "
+            "soft plush fur, soft global illumination, cinematic lighting.")
+G09_V2_JOB = "55b9324f-8ee4-4299-be11-36addd2dcbc7"
+SAN_SHEET_MEDIA = "c143c1df-b550-4082-8173-09e62cde047c"
+GEN["G09"] = dict(panel="p18", ratio="1:1", res="2k", day="2026-11-01", els=[],
+    refs=[ref(G09_V2_JOB, "edit base: the Oct 30 take (right direction, carry, camera and looks)")],
+    prompt="Edit this image. " + G09_EDIT)
+G09_EDIT_B = ("Edit the first image. The second image is the cyborg's character sheet: his right arm "
+              "is the red-and-black mechanical one, and his left arm is a plain furry arm in a short "
+              "camo sleeve ending in a soft dark grey fabric glove. In the first image, " + G09_EDIT[0].lower()
+              + G09_EDIT[1:])
+# If every v4 edit fails review, slide 8 falls back to a tighter crop of the approved cover (G01):
+# right-sided and left to right, checked with the s08 lettering on Oct 31.
+P18_USE_COVER = False
+P18_COVER_CROP = (0.0539, 0.0521, 0.9698, 0.7531)
 
 # ---------------------------------------------------------------- fallbacks (SCRIPT.md only)
 OPTIONAL = {
@@ -353,30 +363,31 @@ page("s02", [P("p02", (40, 40, 1000, 640), kind="reuse", src="C1_still", box=(0,
 page("s03", [P("p07", (40, 40, 1000, 200), kind="gfx", gfx="sting band: navy HUD grid, scan line"),
              P("p08", (40, 260, 1000, 700), focus=(0.55, 0.5), kind="gen", gen="G02",
                faces=[(590, 490, 200, 200, "O")]),
-             P("p09", (40, 980, 1000, 330), kind="crop", gen="G03", crop=(0.16, 0.16, 0.92, 0.36),
-               note="the glowing visor (left third) and the raised red-and-black arm reaching right; "
-                    "crop at 1000:330")],
+             P("p09", (40, 980, 1000, 330), kind="crop", gen="G03", crop=(0.17, 0.35, 1.0, 0.5706),
+               note="the red-and-black arm swinging in to point (leftward) and the glove on his chest; "
+                    "the visor is held back for s04's reveal (G03 v5 points down, so visor and arm "
+                    "can't share one strip); crop at 1000:330")],
      [L("title", "LOCAL HAZARDS", "p07", (70, 70, 700), **STING),
       L("sfx", "DUN-DUNN!", "p07", (790, 130, 220), angle=6),
       L("caption", "The red food stand.", "p08", (64, 282, 560), size=34),
       L("hud", "SUBJECT: OLIVER\nTHREAT LEVEL: FLUFFY", "p08", (64, 350, 450), (640, 500), size=34),
       L("sfx", "CRUNCH!", "p08", (90, 740, 360), angle=8),
-      L("sfx", "KA-CHUNK!", "p09", (610, 1150, 400), angle=-6)])
+      L("sfx", "KA-CHUNK!", "p09", (300, 1000, 330), angle=-6)])
 
 # s04 the Verdict
 page("s04", [P("p10", (40, 40, 1000, 1270), kind="gen", gen="G03",
-               faces=[(340, 300, 165, 170, "S"), (700, 1000, 190, 180, "O-back")])],
-     [L("hud", "SUBJECT: SANCHEZ\nTHREAT LEVEL:\nPARTIAL UPGRADE", "p10", (64, 64, 380), (420, 304),
+               faces=[(690, 225, 225, 255, "S"), (200, 755, 275, 215, "O")])],
+     [L("hud", "SUBJECT: SANCHEZ\nTHREAT LEVEL:\nPARTIAL UPGRADE", "p10", (64, 64, 380), (745, 238),
         size=34),
-      L("balloon", "Oliver, we'll getcha...", "p10", (440, 70, 470), (512, 418), size=44),
-      L("balloon", "...**home.**", "p10", (660, 270, 300), (516, 446), size=56)])
+      L("balloon", "Oliver, we'll getcha...", "p10", (64, 246, 400), (704, 428), size=44),
+      L("balloon", "...**home.**", "p10", (280, 468, 370), (712, 446), size=52)])
 
 # s05 the fry offer, "...Fry?", the silent visor
 page("s05", [P("p11", (40, 40, 1000, 640), focus=(0.5, 0.5), kind="gen", gen="G04",
                faces=[(510, 274, 186, 146, "O")]),
              P("p12", (40, 700, 490, 610), kind="crop", gen="G04", crop=(0.410, 0.180, 0.710, 0.7365),
                note="his face and the raised fry, re-fit to G04 v2 on Oct 30, crop at 490:610"),
-             P("p13", (550, 700, 490, 610), kind="crop", gen="G03", crop=(0.31, 0.14, 0.46, 0.29),
+             P("p13", (550, 700, 490, 610), kind="crop", gen="G03", crop=(0.615, 0.075, 0.905, 0.3658),
                note="tight on the helmet and the glowing visor (glow band narrowed), cut above the "
                     "mouth so the panel reads silent; crop at 490:610")],
      [L("balloon", "Sanchez! Buddy! You look **GREAT!**", "p11", (706, 100, 318), (700, 410), size=44),
@@ -391,19 +402,22 @@ page("s06", [P("p14", (40, 40, 1000, 1270), kind="gen", gen="G05",
       L("sfx", "KLANG!", "p14", (640, 880, 360), angle=-8)])
 
 # s07 "But LOOK at it." and the pad starting to hum
-page("s07", [P("p15", (40, 40, 1000, 680), kind="gen", gen="G06",
-               faces=[(570, 212, 200, 200, "S"), (210, 455, 180, 180, "O")]),
+page("s07", [P("p15", (40, 40, 1000, 680), focus=(0.5605, 0.3245), zoom=1.698, kind="gen", gen="G06",
+               faces=[(522, 67, 283, 246, "S"), (331, 300, 216, 197, "O")]),
              P("p16", (40, 740, 1000, 570), kind="crop", gen="G05", crop=(0.24, 0.45, 0.99, 0.7945),
                note="Sanchez's boots and Oliver's dangling bare feet on the glowing pad, crop at "
                     "1000:570")],
-     [L("balloon", "But **LOOK** at it.", "p15", (64, 60, 400), (564, 330), size=50),
-      L("sfx", "MUNCH", "p15", (430, 600, 240), angle=-10),
+     [L("balloon", "But **LOOK** at it.", "p15", (64, 60, 400), (540, 250), size=50),
+      L("sfx", "MUNCH", "p15", (56, 440, 190), angle=-10),
       L("sfx", "VMMMMMMMMM", "p16", (64, 1100, 940), angle=4)])
 
 # s08 the launch: empty pad, then the arc seen from the trench (G09)
 page("s08", [P("p17", (40, 40, 1000, 300), kind="reuse", src="P1", box=(0, 830, 1536, 1291)),
-             P("p18", (40, 360, 1000, 950), kind="gen", gen="G09",
-               faces=[(560, 600, 160, 160, "S"), (410, 720, 150, 150, "O")])],
+             (P("p18", (40, 360, 1000, 950), kind="crop", gen="G01", crop=P18_COVER_CROP,
+                note="fallback: a tighter crop of the approved cover (G01), crop at 1000:950")
+              if P18_USE_COVER else
+              P("p18", (40, 360, 1000, 950), kind="gen", gen="G09",
+                faces=[(560, 600, 160, 160, "S"), (410, 720, 150, 150, "O")]))],
      [L("sfx", "WHUMP!", "p17", (84, 92, 340), angle=8),
       L("caption", "~ Heroic brass swells ~", "p18", (64, 384, 480), size=36),
       L("sfx", "FWOOOOOSH!", "p18", (64, 1100, 620), angle=8)])
@@ -504,11 +518,13 @@ DONE = {
             "status": "approved: Oct 28 edit of take 1 (9daa8018) mirrored locally, smoke removed and barriers black",
             "rejected": ["1f7dc7cd-f277-4d3e-9cfd-d77abced45af (take 2: pair still high, Oliver under the wrong arm)"]},
     "G02": {"job_id": "4f2adc91-2485-423b-afdf-96ea76df244b", "status": "approved"},
-    "G03": {"job_id": None, "status": "todo (v5 Oct 31, recomposed: Sanchez right of centre, Oliver lower left; an exception to the retake rule after four failed takes)",
+    "G03": {"job_id": "d9ecb0f3-99f5-4f33-bb9a-36e670217132",
+            "status": "approved, minor (Oct 31 review panel; v5 take b, recomposed): one mechanical arm (his right, viewer's left) pointing down at Oliver, the glove on his chest. Minors: no distinct forearm lamp; Oliver seen in profile, not from behind; a mild low angle; seated Oliver reads about 0.8x. Take a (213ada59, src/p10_raw_alt_oct31.png) also passed but points at the sky. p09 is now the arm strip; the visor waits for s04",
             "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)",
                          "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)",
                          "626d2ca0-17b7-4ca6-83f3-b221e76e2b37 (Oct 29 v3: both forearms mechanical again, the glove on the mechanical arm and a robot hand on the camo-sleeved left arm doing the pointing)",
-                         "bc8cb320-2f65-450e-85ad-394908225a6d (Oct 30 v4: neither Element held (no camo, trousers, boots or goatee; Oliver without his kit), and the arms swapped: the glove on his right, the mechanical arm his left, pointing up)"]},
+                         "bc8cb320-2f65-450e-85ad-394908225a6d (Oct 30 v4: neither Element held (no camo, trousers, boots or goatee; Oliver without his kit), and the arms swapped: the glove on his right, the mechanical arm his left, pointing up)"],
+            "alternate": "213ada59-c96d-425f-9312-d27dbd4e578e (Oct 31 v5 take a: passed as minor, but the point aims at the sky over Oliver)"},
     "G04": {"job_id": "d2981a6d-deed-4f5f-93ee-cc4fd16b49ab",
             "status": "approved, minor (Oct 30 review panel, v2 with P2): on model and not a copy of G02; a sideways glance and sly brows instead of the hopeful look up into the camera, and a medium-wide shot (re-fit with the crops and balloons)",
             "rejected": ["17999ebb-046f-49b9-ab3f-697caafd5e55 (Oct 29: a near copy of G02 with the eyes opened; eye level, a fry in each paw, nothing offered to the camera)"]},
@@ -520,10 +536,13 @@ DONE = {
             "status": "approved (Oliver lands standing beside Sanchez, not carried; crops p20-p22 re-fit Oct 28)"},
     "G08": {"job_id": "9672e417-5569-47df-8898-01b2ac27e355",
             "status": "approved, minor (Oct 29 review panel): every sided feature right on all five; an arms-wide march rather than a lean-in hug; short banners showing only the circle; a wide rather than medium shot"},
-    "G09": {"job_id": None, "status": "todo (v3 Oct 31: the gloved hand over his heart instead of a leading fist)",
+    "G09": {"job_id": None, "status": "todo (v4 Nov 1: edits of the Oct 30 take 55b9324f changing only the forward arm; fallback, a crop of the approved cover)",
             "rejected": ["b934a180-33a3-4287-860f-ee04e1bb4e66 (Oct 29: a red mechanical left hand and no glove; Oliver hugged by the plain arm on the viewer's right; mechanical fist leading; camera level at the trench mouth)",
-                         "55b9324f-8ee4-4299-be11-36addd2dcbc7 (Oct 30 v2: the carry and the direction right, but the leading fist mechanical too, so both arms mechanical)"]},
-    "G06": {"job_id": None, "status": "todo (v2 Oct 31: reference swapped to the approved G05)",
+                         "55b9324f-8ee4-4299-be11-36addd2dcbc7 (Oct 30 v2: the carry and the direction right, but the leading fist mechanical too, so both arms mechanical)",
+                         "3ab5380b-ab7f-4ec6-a595-630f2fd4828a (Oct 31 v3 take a: flew right to left; mirrored it would be right-sided, but the Sanchez Element didn't hold: no goatee, no glove, olive camo, dark visor; Oliver missing his bands)",
+                         "c88c68ae-0787-4bc6-ace0-9b01df871b48 (Oct 31 v3 take b: flew right to left with a mechanical fist leading and a mechanical left hand on the basket)"]},
+    "G06": {"job_id": "1600506f-1a53-4b92-99da-be878bc689fa",
+            "status": "approved, minor (Oct 31 review panel; v2 with the approved G05 as reference): the carry, sides, pad, carton and wreck scale all match G05. Shown zoomed (focus 0.5605/0.3245, zoom 1.698) as the planned medium close-up, which also leaves his bare knees out of frame. Minors: a slight head tilt; no distinct forearm lamp; a camo stub at the right shoulder",
             "rejected": ["ff88ba96-de00-47b6-aca8-10d2dff1258e (Oct 30: Oliver sits on the hull beside him, not carried; a wide shot with a toy-scale wreck; no head tilt toward the arm)"]},
 }
 
