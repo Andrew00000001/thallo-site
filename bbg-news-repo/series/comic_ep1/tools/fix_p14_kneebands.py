@@ -1,12 +1,25 @@
-"""Paint Oliver's red knee bands (each with one silver-ringed stud) onto G05 v3
-(job defdbbab). The Oct 30 review panel's only soul fail on this take was the
-missing bands. Usage: python3 -I fix_p14_kneebands.py IN.png OUT.png [PREVIEW.png]"""
+"""Paint Oliver's red knee bands (each with one silver-ringed stud) onto a panel
+whose take left them out: G05 v3 (job defdbbab, the defaults below) and G06 v2
+(job 1600506f, via --legs). The review panel's only soul fail on those takes was
+the missing bands.
+Usage: python3 -I fix_p14_kneebands.py IN.png OUT.png [PREVIEW.png] [--legs JSON] [--stud W,H]
+  --legs  [[[x0, x1], band_centre_y, band_height, arc, stud_dx], ...] in source px
+          (stud_dx: the stud's offset from the leg's centre, as a fraction of its half width)"""
 import sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 from scipy import ndimage
 
-src, out = sys.argv[1], sys.argv[2]
+import json
+args = sys.argv[1:]
+opts = {}
+for k in ("--legs", "--stud"):
+    if k in args:
+        i = args.index(k)
+        opts[k] = args[i + 1]
+        del args[i:i + 2]
+src, out = args[0], args[1]
+preview = args[2] if len(args) > 2 else None
 im = Image.open(src).convert("RGB")
 A = np.asarray(im).astype(np.float32)
 H, W, _ = A.shape
@@ -14,7 +27,10 @@ warm = A[..., 0] - A[..., 2]
 lum = A.mean(-1)
 
 # legs: (x window, band centre y at the leg's middle, band height, arc, stud dx as fraction of half width)
-LEGS = [((800, 935), 1152, 26, 4, 0.10), ((940, 1062), 1158, 26, 4, 0.05)]
+LEGS = [((800, 935), 1152, 26, 4, 0.10), ((940, 1062), 1158, 26, 4, 0.05)]  # G05 v3 (p14)
+if "--legs" in opts:
+    LEGS = [(tuple(a), b, c, d, e) for a, b, c, d, e in json.loads(opts["--legs"])]
+STUD = tuple(int(v) for v in opts.get("--stud", "30,24").split(","))
 BAND = np.array([158, 40, 56], np.float32)
 SS = 4  # supersampling
 
@@ -73,7 +89,7 @@ for (x0, x1), yc0, bh, arc, sdx in LEGS:
     # stud: rounded red-orange block with a silver-lavender ring, on the band's front
     sx = xm + sdx * hw
     sy = yc0 - arc
-    sw, sh = 30, 24
+    sw, sh = STUD
     big = Image.new("RGBA", ((sw + 12) * SS, (sh + 12) * SS), (0, 0, 0, 0))
     d = ImageDraw.Draw(big)
     o = 6 * SS
@@ -105,6 +121,8 @@ for (x0, x1), yc0, bh, arc, sdx in LEGS:
 
 res = Image.fromarray(np.clip(out_a, 0, 255).astype(np.uint8))
 res.save(out)
-if len(sys.argv) > 3:
-    c = res.crop((760, 1000, 1120, 1320))
-    c.resize((c.width * 3, c.height * 3), Image.LANCZOS).save(sys.argv[3])
+if preview:
+    xs = [x for (x0, x1), *_ in LEGS for x in (x0, x1)]
+    ys = [y for _, y, *_ in LEGS]
+    c = res.crop((min(xs) - 40, min(ys) - 150, max(xs) + 40, max(ys) + 170))
+    c.resize((c.width * 3, c.height * 3), Image.LANCZOS).save(preview)
