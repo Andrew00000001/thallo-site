@@ -222,14 +222,14 @@
      "show": 1
     },
     {
-     "text": "Rosa says he was negligent: he didn't use the reasonable care he owed her.",
-     "say": "Rosa says he was negligent: he didn't use the reasonable care he owed her.",
+     "text": "Rosa says he was negligent: he didn't use the reasonable care he owed her. Tony saw the slush puddle and left it there for an hour: no mop, no sign. In plain English, negligence means not using the reasonable care you owe someone, and causing them real harm.",
+     "say": "Rosa says he was negligent: he didn't use the reasonable care he owed her. Tony saw the slush puddle and left it there for an hour: no mop, no sign. In plain English, negligence means not using the reasonable care you owe someone, and causing them real harm.",
      "show": 3,
      "hl": "puddle"
     },
     {
-     "text": "Watch out: intent to harm is not an element of negligence.",
-     "say": "Watch out: intent to harm is not an element of negligence.",
+     "text": "Watch out: intent to harm is not an element of negligence. When a question says all of the following EXCEPT, intent is usually the odd one out.",
+     "say": "Watch out: intent to harm is not an element of negligence. When a question says all of the following except, intent is usually the odd one out.",
      "show": 4
     }
    ]
@@ -1594,13 +1594,13 @@
    ],
    "beats": [
     {
-     "text": "Michigan draws one more line. If a plaintiff's fault is greater than everyone else's combined, so more than 50%, noneconomic damages, like pain and suffering, are not awarded.",
-     "say": "Michigan draws one more line. If a plaintiff's fault is greater than everyone else's combined, so more than fifty percent, noneconomic damages, like pain and suffering, are not awarded.",
+     "text": "Michigan draws one more line. If a plaintiff's fault is greater than everyone else's combined, so more than 50%, noneconomic damages, like pain and suffering, are not awarded. Her economic damages are still awarded, reduced by her percentage of fault.",
+     "say": "Michigan draws one more line. If a plaintiff's fault is greater than everyone else's combined, so more than fifty percent, noneconomic damages, like pain and suffering, are not awarded. Her economic damages are still awarded, reduced by her percentage of fault.",
      "show": 2
     },
     {
-     "text": "Had the jury found Rosa 60% at fault: economic damages minus 60%, and nothing for pain and suffering.",
-     "say": "Had the jury found Rosa sixty percent at fault: economic damages minus sixty percent, and nothing for pain and suffering.",
+     "text": "Had the jury found Rosa 60% at fault and Tony 40%: economic damages minus 60%, and nothing for pain and suffering.",
+     "say": "Had the jury found Rosa sixty percent at fault and Tony forty percent: economic damages minus sixty percent, and nothing for pain and suffering.",
      "show": 3,
      "hl": "econ"
     },
@@ -2336,7 +2336,7 @@
     },
     {
      "text": "Who's paying for my window?",
-     "say": "Who's paying for my window?",
+     "say": "Who's, paying for my window?",
      "voice": "neighbor"
     },
     {
@@ -2618,13 +2618,13 @@
    ],
    "beats": [
     {
-     "text": "To recap: negligence needs duty, breach, proximate cause and damage, not intent. In Michigan, your own fault cuts your damages; over 50% costs you noneconomic damages.",
-     "say": "To recap: negligence needs duty, breach, proximate cause and damage, not intent. In Michigan, your own fault cuts your damages; over fifty percent costs you noneconomic damages.",
-     "show": 2
+     "text": "To recap: negligence needs duty, breach, proximate cause and damage, not intent. In Michigan, your own fault cuts your damages; over 50% costs you noneconomic damages. Special damages add up; general is pain and suffering.",
+     "say": "To recap: negligence needs duty, breach, proximate cause and damage, not intent. In Michigan, your own fault cuts your damages; over fifty percent costs you noneconomic damages. Special damages add up; general is pain and suffering.",
+     "show": 3
     },
     {
-     "text": "Special damages add up; general is pain and suffering. Michigan punitive damages need the Legislature's permission. Absolute, strict and vicarious each have a classic case.",
-     "say": "Special damages add up; general is pain and suffering. Michigan punitive damages need the Legislature's permission. Absolute, strict and vicarious each have a classic case.",
+     "text": "Michigan punitive damages need a statute, the Legislature's permission. Absolute, strict and vicarious each have a classic case. Blasting is absolute, a defective product is strict, and vicarious liability comes via others.",
+     "say": "Michigan punitive damages need a statute, the Legislature's permission. Absolute, strict and vicarious each have a classic case. Blasting is absolute, a defective product is strict, and vicarious liability comes via others.",
      "show": 5
     },
     {

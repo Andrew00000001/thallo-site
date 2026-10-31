@@ -196,6 +196,12 @@ if lesson_files:
             for x in [s] + list(s.get('items', []) if isinstance(s.get('items'), list) else []) + list(s.get('columns', []) if s.get('type') == 'compare' else []):
                 if isinstance(x, dict) and x.get('icon'): used_icons.add(x['icon'])
         L['timing'] = {'dur': T['dur'], 'scenes': T['scenes']}
+        if T.get('clips'):   # spoken activity text: clip times in the full-quality file, and the words (captions, and the browser voice when the file is not in use)
+            sys.path.insert(0, VALIDATOR); import clips as clipmod
+            CL = clipmod.clips(L)
+            if T.get('clipsig') != clipmod.signature(CL):
+                (warns if os.environ.get('LESSONS_STALE_OK') == '1' else errors).append(f'{lid}: activity clips changed since the audio was made (re-run narrate2.py)')
+            L['clips'] = T['clips']; L['clipText'] = {c['id']: c['text'] for c in CL}; L['clipSay'] = {c['id']: c['say'] for c in CL}
         L['audio'], L['audioType'] = f'lessons/{master}', ('audio/webm' if master.endswith('.webm') else 'audio/mpeg')
         if EMBED:
             wp = os.path.join(AUDIO_DIR, f'{lid}.webm')

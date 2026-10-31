@@ -56,8 +56,12 @@ activity the learner taps, sorts, drags or slides.
   learner acts; then the reveal narration (1-3 beats) states the rule behind the answers. Activities must be fully answerable
   from what came before (except a `warmup` quiz, which must be guessable from common sense and teaches the rule in its reveal).
 - **Voice**: warm tutor, second person, short sentences (under 25 words), active voice. 800-900 words of narration (about
-  5.5-6 minutes; hard limits 550-1000), counting choice outcomes. Characters may speak short lines in their own voice (`voice` field), at most 30% of
-  the words (activity text on screen is not narrated, so details can live there). The narrator does the teaching; characters ask the questions a real person would ask, react, or state facts of
+  5.5-6 minutes; hard limits 550-1300), counting choice outcomes. Characters may speak short lines in their own voice (`voice` field), at most 30% of
+  the words. LISTEN-ONLY: the learner listens and should never have to read. Every fact shown on screen in a teaching scene
+  (term card fields, list and recap items, hook items, table cells, drawing labels that state a rule) must also be spoken
+  in that scene's narration. Activity text (quiz question and choices, cards, sort items, spots, options, why/fail/win) is
+  read aloud automatically from short narrated clips (lessons/clips.py); give a clip a "clipsay" override only when its
+  automatic spoken form is wrong. The narrator does the teaching; characters ask the questions a real person would ask, react, or state facts of
   the story ("I haven't lived there since March.").
 
 ## 3. The cast (fixed looks and voices; use them consistently)
@@ -149,8 +153,8 @@ Activities (the video pauses after the last prompt beat until the learner finish
   | `acv` | `age` | `rc`, `life` | straight-line ACV = rc − rc × age ÷ life |
 
 Rules: 9-18 scenes (aim 12-15); 4-8 activities: 2-4 `choice` scenes, 1-3 quizzes, and at least one other type (swipe, sort,
-explore or slider); at least 2 term scenes; drawings in at least 5 scenes (aim: almost every scene). Words: 800-900 in all,
-counting choice outcome beats (hard limits 550-1000): all 24 lessons' audio must fit inside one web page.
+explore or slider); at least 2 term scenes; drawings in at least 5 scenes (aim: almost every scene). Words: 800-1100 in all,
+counting choice outcome beats (hard limits 550-1300): all 24 lessons' audio must fit inside one web page.
 
 ## 5. Drawing elements (`draw`)
 Each element is an object; `x`, `y` are its **center** in canvas units. Common fields:

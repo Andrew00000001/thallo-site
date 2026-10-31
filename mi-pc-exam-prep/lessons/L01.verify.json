@@ -1,6 +1,7 @@
 {
  "id": "L01",
  "beats": 58,
+ "clips": 32,
  "mismatches": [
   {
    "scene": 2,
@@ -36,14 +37,6 @@
   },
   {
    "scene": 12,
-   "beat": 0,
-   "say": "Lapsed for a reason other than C E? Reinstate within twelve months, no exam. Watch out: a license canceled for missing C E doesn't qualify.",
-   "heard": "lapsed for a reason other than CE, reinstate within 12 months no exam. Watch out. A license cancelled for missing CE does not qualify.",
-   "wer": 0.042,
-   "voice": "narrator"
-  },
-  {
-   "scene": 12,
    "beat": 1,
    "say": "Moving to Michigan with another state's license? Apply as a resident within ninety days, no prelicensing course or exam for lines held.",
    "heard": "Moving to Michigan with another state's license. Apply as a resident within 90 days, no pre-licensing course or exam for lines held.",
@@ -53,9 +46,65 @@
   {
    "scene": 13,
    "beat": 1,
-   "say": "Legal name and address changes: thirty days. An assumed name: before you use it.",
-   "heard": "legal name and address changes, 30 days, and assumed name before you use it.",
+   "say": "Legal name, address and email changes: thirty days. An assumed name: before you use it. For C E, twenty-four hours every two years, at least three of them ethics. And the ninety-day grace period: service and commissions only.",
+   "heard": "Legal name, address and email changes, 30 days, and assumed name before you use it. For CE, 24 hours every two years, at least three of them ethics. And the 90-day grace period, service and commissions only.",
+   "wer": 0.028,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s1.p2",
+   "say": "Her helper: solicitor. Solicits applications and collects premiums for Dana, a licensed resident producer. A sidekick with three L's: Leash, written contract, License, Letter, to the director.",
+   "text": "Her helper: solicitor. Solicits applications and collects premiums for Dana, a licensed resident producer. A sidekick with 3 L's: Leash (written contract), License, Letter (to the director).",
+   "heard": "Her helper, Solicitor. Solicitor's applications and collects premiums for Dana, a licensed resident producer. A sidekick with three L's. Leash, written contract, licensed letter to the director.",
    "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s4.ask",
+   "say": "What does Dana do? One: The contract's signed. Bind it now! Two: Wait until the company appoints her. Three: Bind it for fifteen days while she waits.",
+   "text": "What does Dana do? One: The contract's signed. Bind it now! Two: Wait until the company appoints her. Three: Bind it for 15 days while she waits.",
+   "heard": "What does Dana do? One, the contract signed. Bind it now. Two, wait until the company appoints her. Three, bind it for 15 days while she waits.",
+   "wer": 0.037,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.q",
+   "say": "An insurer signs an agency contract with Dana on May first. Her first application to it goes in on May tenth. When must it file her notice of appointment? A: Within fifteen days of May first. B: Within fifteen days of May tenth. C: Within thirty days of May first. D: Within thirty days of May tenth.",
+   "text": "An insurer signs an agency contract with Dana on May 1. Her first application to it goes in on May 10. When must it file her notice of appointment? A: Within 15 days of May 1. B: Within 15 days of May 10. C: Within 30 days of May 1. D: Within 30 days of May 10.",
+   "heard": "and insurer signs an agency contract with Dana on May 1st. Her first application to it goes in on May 10th. When must it file her notice of appointment? A, within 15 days of May 1st. B, within 15 days of May 10th. C, within 30 days of May 1st. D, within 30 days of May 10th.",
+   "wer": 0.018,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.c1.why",
+   "say": "Binding a new risk for that insurer needs its approval.",
+   "text": "Binding a new risk for that insurer needs its approval.",
+   "heard": "Finding a new risk for that insurer needs its approval.",
+   "wer": 0.1,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.c2",
+   "say": "Rosa's auto policy with that company comes up for renewal. Dana renews it.",
+   "text": "Rosa's auto policy with that company comes up for renewal. Dana renews it.",
+   "heard": "Rose's auto policy with that company comes up for renewal. Dana renews it.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s11.ask",
+   "say": "What does Dana do? One: Bind it. It's only a grace period! Two: Sign up for a C E class, then bind it. Three: Say no; keep servicing old customers. Four: Shut down: no service, no commissions.",
+   "text": "What does Dana do? One: Bind it. It's only a grace period! Two: Sign up for a CE class, then bind it. Three: Say no; keep servicing old customers. Four: Shut down: no service, no commissions.",
+   "heard": "What does Dana do? One, bind it. It's only a grace period. Two, sign up for CE class, then bind it. Three, say no, keep servicing old customers. Four, shut down, no service, no commissions.",
+   "wer": 0.028,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s11.o3.fail",
+   "say": "Too cautious. In the grace period she may still service policies she already sold and receive commissions on them.",
+   "text": "Too cautious. In the grace period she may still service policies she already sold and receive commissions on them.",
+   "heard": "Too cautious. In the grace period, she may still service policies. She already sold and received commissions on them.",
+   "wer": 0.056,
    "voice": "narrator"
   }
  ]

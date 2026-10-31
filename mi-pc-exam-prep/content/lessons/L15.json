@@ -323,8 +323,8 @@
    ],
    "beats": [
     {
-     "text": "Policies issued after July 1, 2020 default to a quarter-million per person and a half-million per accident for injuries, plus a skinny ten grand for property.",
-     "say": "Policies issued after July first, twenty twenty default to a quarter-million per person and a half-million per accident for injuries, plus a skinny ten grand for property.",
+     "text": "Michigan's default liability limits: a quarter-million per person and a half-million per accident for injuries, plus a skinny ten grand for property damage. That's the least an auto policy issued after July 1, 2020 may carry, unless the insured signs a form for lower injury limits.",
+     "say": "Michigan's default liability limits: a quarter-million per person and a half-million per accident for injuries, plus a skinny ten grand for property damage. That's the least an auto policy issued after July first, twenty twenty may carry, unless the insured signs a form for lower injury limits.",
      "show": 3
     },
     {
@@ -335,6 +335,11 @@
     {
      "text": "Older materials may show $20,000, $40,000 and $10,000: the rule before July 2, 2020.",
      "say": "Older materials may show twenty thousand dollars, forty thousand dollars and ten thousand dollars: the rule before July second, twenty twenty.",
+     "show": 4
+    },
+    {
+     "text": "Rosa's policy, issued in 2026, starts at the defaults. Say she's sued for hurting three people in one crash. It pays at most $250,000 each, and $500,000 in all.",
+     "say": "Rosa's policy, issued in twenty twenty-six, starts at the defaults. Say she's sued for hurting three people in one crash. It pays at most two hundred fifty thousand dollars each, and five hundred thousand dollars in all.",
      "show": 4
     }
    ]
@@ -827,8 +832,8 @@
      "hl": "low"
     },
     {
-     "text": "On a prearranged ride: at least $1 million combined single limit, plus PIP and PPI.",
-     "say": "On a prearranged ride: at least one million dollars combined single limit, plus P I P and P P I.",
+     "text": "On a prearranged ride: at least $1 million combined single limit, plus PIP and PPI. A combined single limit is one limit for injuries and property damage together.",
+     "say": "On a prearranged ride: at least one million dollars combined single limit, plus P I P and P P I. A combined single limit is one limit for injuries and property damage together.",
      "hl": "csl"
     }
    ]
@@ -908,8 +913,8 @@
    ],
    "beats": [
     {
-     "text": "Rosa agreed to it: her policy won't cover her brother Leo behind the wheel. He's a named excluded driver. Now Leo wants the car. What does Rosa say?",
-     "say": "Rosa agreed to it: her policy won't cover her brother Leo behind the wheel. He's a named excluded driver. Now Leo wants the car. What does Rosa say?"
+     "text": "Rosa agreed to it: her policy won't cover her brother Leo behind the wheel. He's a named excluded driver. Now Leo wants to borrow the car for a date. What does Rosa say?",
+     "say": "Rosa agreed to it: her policy won't cover her brother Leo behind the wheel. He's a named excluded driver. Now Leo wants to borrow the car for a date. What does Rosa say?"
     }
    ],
    "options": [
@@ -1218,8 +1223,8 @@
      "hl": "ins"
     },
     {
-     "text": "Under Michigan's Aftermarket Crash Parts Act, the shop may use them only if Rosa gets a written estimate naming each one, with a notice in at least 10-point bold type.",
-     "say": "Under Michigan's Aftermarket Crash Parts Act, the shop may use them only if Rosa gets a written estimate naming each one, with a notice in at least ten-point bold type.",
+     "text": "Under Michigan's Aftermarket Crash Parts Act, the shop may use them only if Rosa gets a written estimate naming each one. Hers lists a non-OEM hood and fender. The estimate must carry a notice, in at least 10-point bold type, that the parts aren't from the car's maker.",
+     "say": "Under Michigan's Aftermarket Crash Parts Act, the shop may use them only if Rosa gets a written estimate naming each one. Hers lists a non O E M hood and fender. The estimate must carry a notice, in at least ten-point bold type, that the parts aren't from the car's maker.",
      "hl": "est"
     }
    ]
@@ -1378,8 +1383,8 @@
    ],
    "beats": [
     {
-     "text": "With her car in the shop, Rosa rents one for a week. Is she an owner? Owners include anyone renting or using a car over 30 days.",
-     "say": "With her car in the shop, Rosa rents one for a week. Is she an owner? Owners include anyone renting or using a car over thirty days.",
+     "text": "With her car in the shop, Rosa rents one for a week. Is she an owner? In Michigan no-fault, the owner or registrant must insure the car. Owners include anyone renting or using a car over 30 days.",
+     "say": "With her car in the shop, Rosa rents one for a week. Is she an owner? In Michigan no-fault, the owner or registrant must insure the car. Owners include anyone renting or using a car over thirty days.",
      "show": 2
     },
     {
@@ -2090,8 +2095,8 @@
      "hl": "lic"
     },
     {
-     "text": "Cancel by certified mail, at least 20 days ahead, with reasons and a 7-day appeal notice. Nonrenew by normal first-class mail, same 20 days: not a cancellation.",
-     "say": "Cancel by certified mail, at least twenty days ahead, with reasons and a seven-day appeal notice. Nonrenew by normal first-class mail, same twenty days: not a cancellation.",
+     "text": "Cancel by certified mail, at least 20 days ahead, with reasons. In bold type, the cancellation notice must say that the insured may appeal to DIFS within 7 days of mailing. Nonrenew by normal first-class mail, same 20 days: not a cancellation.",
+     "say": "Cancel by certified mail, at least twenty days ahead, with reasons. In bold type, the cancellation notice must say that the insured may appeal to D I F S within seven days of mailing. Nonrenew by normal first-class mail, same twenty days: not a cancellation.",
      "hl": [
       "env",
       "box"
@@ -2495,13 +2500,13 @@
    ],
    "beats": [
     {
-     "text": "Big defaults unless you sign. Phone proof works. Excluded drivers stay off the wheel.",
-     "say": "Big defaults unless you sign. Phone proof works. Excluded drivers stay off the wheel.",
+     "text": "Defaults: $250,000 and $500,000. With the DIFS form, the floor is $50,000 and $100,000. Phone proof counts. Driving uninsured is a misdemeanor. Excluded driver at the wheel? No liability coverage, no PIP for him.",
+     "say": "Defaults: two hundred fifty thousand dollars and five hundred thousand dollars. With the D I F S form, the floor is fifty thousand dollars and one hundred thousand dollars. Phone proof counts. Driving uninsured is a misdemeanor. Excluded driver at the wheel? No liability coverage, no P I P for him.",
      "show": 3
     },
     {
-     "text": "PIP usually starts at your kitchen table. Under Chapter 32, after day 55, only a final license loss cancels.",
-     "say": "P I P usually starts at your kitchen table. Under Chapter thirty-two, after day fifty-five, only a final license loss cancels.",
+     "text": "Who pays PIP? In your employer's vehicle, its insurer. A motorcyclist hit by a car? The other car's insurer first. Otherwise, usually your kitchen table. Nothing there? The Claims Plan. Under Chapter 32, after day 55, only a final license loss cancels. Cancel by certified mail.",
+     "say": "Who pays P I P? In your employer's vehicle, its insurer. A motorcyclist hit by a car? The other car's insurer first. Otherwise, usually your kitchen table. Nothing there? The Claims Plan. Under Chapter thirty-two, after day fifty-five, only a final license loss cancels. Cancel by certified mail.",
      "show": 5
     },
     {
@@ -2544,5 +2549,8 @@
   "MCL 500.3204(2), 3208, 3212, 3220, 3224, 3230",
   "MCL 500.2123",
   "Memory hooks mn-mn_auto-03, -10, -11, -14, -18, -19"
- ]
+ ],
+ "clipsay": {
+  "s7.why": "On a prearranged ride: at least a one million dollars combined single limit (one limit for injuries and property damage), plus P I P and P P I. Fifty thousand dollars, one hundred thousand dollars and twenty-five thousand dollars is for logged on, no ride yet."
+ }
 }

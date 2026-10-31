@@ -1,6 +1,7 @@
 {
  "id": "L20",
  "beats": 60,
+ "clips": 37,
  "mismatches": [
   {
    "scene": 0,
@@ -13,25 +14,17 @@
   {
    "scene": 1,
    "beat": 4,
-   "say": "Wednesday: the locked safe is pried open and emptied: safe burglary. So is carting off the whole safe. Opened by combination, with no marks? Not safe burglary.",
-   "heard": "Wednesday, the lock safe is pried open and emptied, safe burglary, so is carting off the whole safe. Open by combination with no marks, not safe burglary.",
-   "wer": 0.077,
+   "say": "Wednesday: the locked safe is pried open, leaving marks on the outside, and emptied: safe burglary. So is carting off the whole safe. Opened by combination, with no marks? Not safe burglary.",
+   "heard": "Wednesday, the lock safe is pried open, leaving marks on the outside and emptied, safe burglary, so is carding off the whole safe. Open by combination with no marks, not safe burglary.",
+   "wer": 0.097,
    "voice": "narrator"
   },
   {
    "scene": 3,
    "beat": 0,
-   "say": "Tony's crime policy, the twenty fifteen loss sustained form, has seven insuring agreements. Employee Theft: money, securities and other property his employees steal.",
-   "heard": "Tony's crime policy, the 2015 law-sustained form, has seven ensuring agreements. Employee theft, money, securities, and other property his employees steal.",
-   "wer": 0.091,
-   "voice": "narrator"
-  },
-  {
-   "scene": 3,
-   "beat": 3,
-   "say": "Outside, with a messenger or armored car company: money and securities, the same. Other property, robbery only.",
-   "heard": "Outside with a messenger or armored car company, money and security is the same. Other property, robbery only.",
-   "wer": 0.125,
+   "say": "Tony's crime policy, the twenty fifteen loss sustained form, has seven insuring agreements, numbered one to seven. Number one, Employee Theft: money, securities and other property his employees steal.",
+   "heard": "Tony's crime policy, the 2015 law-sustained form, has seven ensuring agreements, numbered one to seven. Number one, employee theft. Money, securities, and other property his employees steal.",
+   "wer": 0.071,
    "voice": "narrator"
   },
   {
@@ -75,11 +68,51 @@
    "voice": "narrator"
   },
   {
-   "scene": 14,
-   "beat": 1,
-   "say": "Buildings aren't marine risks. Equipment breakdown pays replacement cost unless endorsed for A C V. Farm runs A to J.",
-   "heard": "Buildings are not marine risks. Equipment breakdown pays replacement cost, unless endorsed for A-C-V. Farm runs A to J.",
+   "clip": "s2.c2.why",
+   "say": "A locked safe with marks of forced entry on its outside: safe burglary. Opened by combination with no marks, it wouldn't be.",
+   "text": "A locked safe with marks of forced entry on its outside: safe burglary. Opened by combination with no marks, it wouldn't be.",
+   "heard": "a locked safe with marks of forced entry on its outside, safe burglary. Open by combination with no marks, it would not be.",
+   "wer": 0.043,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.c5",
+   "say": "Overnight, someone pries open the back door and carries out the sound system. Nobody is there.",
+   "text": "Overnight, someone pries open the back door and carries out the sound system. Nobody is there.",
+   "heard": "Overnight, someone prides open the back door and carries out the sound system. Nobody is there.",
+   "wer": 0.067,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.p2",
+   "say": "Bridges and instrumentalities. Bridges, tunnels and other instrumentalities of transportation and communication: piers, pipelines, power and phone lines, towers. The Mackinac Bridge counts.",
+   "text": "Bridges and instrumentalities. Bridges, tunnels and other instrumentalities of transportation and communication: piers, pipelines, power and phone lines, towers. The Mackinac Bridge counts.",
+   "heard": "bridges and instrumentalities. Bridges, tunnels, and other instrumentalities of transportation and communication. Peers, pipelines, power and phone lines, towers. The Mackinaw Bridge counts.",
    "wer": 0.105,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.p4",
+   "say": "Commercial property floaters. Commercial property floater risks, like floaters for physicians' instruments, theatrical property, film or salesmen's samples, or installation risks.",
+   "text": "Commercial property floaters. Commercial property floater risks, like floaters for physicians' instruments, theatrical property, film or salesmen's samples, or installation risks.",
+   "heard": "Commercial property floaters. Commercial property floater risks, like floaters for physicians instruments, theatrical property, film or salesman samples, or installation risks.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.ask",
+   "say": "What should Tony do? One: Keep it running. The policy's paid up! Two: Relax. Suspension waits thirty days. Three: Shut it down and get it fixed.",
+   "text": "What should Tony do? One: Keep it running. The policy's paid up! Two: Relax. Suspension waits 30 days. Three: Shut it down and get it fixed.",
+   "heard": "What should Tony do? One, keep it running, the policies paid up. Two, relax, suspension waits 30 days. Three, shut it down and get it fixed.",
+   "wer": 0.04,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s13.o0.fail",
+   "say": "Coverage F insures Grandma's own farm personal property. The trampled corn belongs to the neighbor.",
+   "text": "Coverage F insures Grandma's own farm personal property. The trampled corn belongs to the neighbor.",
+   "heard": "Coverage F ensures Grandma's own farm personal property. The trampled corn belongs to the neighbor.",
+   "wer": 0.067,
    "voice": "narrator"
   }
  ]

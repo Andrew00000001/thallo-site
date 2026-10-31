@@ -23,7 +23,7 @@
    ],
    "beats": [
     {"text": "What if Tony had started on a different policy? Rewind to opening week in Detroit: Dana sells Tony his insurance, and this year will test it.", "say": "What if Tony had started on a different policy? Rewind to opening week in Detroit: Dana sells Tony his insurance, and this year will test it."},
-    {"text": "Let's say his policy is on the 2013 ISO businessowners form. ISO's revised forms apply to Michigan policies written on or after July 1, 2025.", "say": "Let's say his policy is on the twenty thirteen I S O businessowners form. I S O's revised forms apply to Michigan policies written on or after July first, twenty twenty-five."}
+    {"text": "Let's say his policy is on the 2013 ISO businessowners form. ISO's revised forms apply to Michigan policies written on or after July 1, 2025, so newer policies may differ. Businessowners questions are 6% of your exam, about 9 items.", "say": "Let's say his policy is on the twenty thirteen I S O businessowners form. I S O's revised forms apply to Michigan policies written on or after July first, twenty twenty-five, so newer policies may differ. Businessowners questions are six percent of your exam, about nine items."}
    ]
   },
   {
@@ -48,7 +48,8 @@
    ],
    "beats": [
     {"text": "Dana's pick: a businessowners policy, or BOP. It packages property and liability for small-to-medium businesses.", "say": "Dana's pick: a businessowners policy, or B O P. It packages property and liability for small-to-medium businesses.", "show": 2, "hl": "bop"},
-    {"text": "Tony's building and ovens: the property side. A customer who slips and sues: the liability side.", "say": "Tony's building and ovens: the property side. A customer who slips and sues: the liability side.", "show": 4}
+    {"text": "Tony's building, ovens and dough: the property side. A customer who slips and sues: the liability side.", "say": "Tony's building, ovens and dough: the property side. A customer who slips and sues: the liability side.", "show": 3},
+    {"text": "For the exam, know the BOP's three sections: Section I, Property; Section II, Liability; and Section III, Common Policy Conditions.", "say": "For the exam, know the B O P's three sections: Section one, property; Section two, liability; and Section three, common policy conditions.", "show": 4}
    ]
   },
   {
@@ -135,7 +136,7 @@
     {"p": "label", "text": "BPP: +25% seasonal, if insured to 100% of average monthly values", "x": 128, "y": 57, "size": 3.8, "w": 52, "color": "green", "at": 2, "cue": "seasonal"}
    ],
    "beats": [
-    {"text": "Section I covers Tony's building and business personal property, like his register and stock. It's open perils: direct physical loss unless excluded or limited.", "say": "Section one covers Tony's building and business personal property, like his register and stock. It's open perils: direct physical loss unless excluded or limited.", "hl": "shield"},
+    {"text": "Section I covers Tony's building and business personal property, or BPP, like his register and stock. It's open perils: direct physical loss unless excluded or limited.", "say": "Section one covers Tony's building and business personal property, or B P P, like his register and stock. It's open perils: direct physical loss unless excluded or limited.", "hl": "shield"},
     {"text": "The building limit grows 8% a year, prorated, unless another percentage is shown.", "say": "The building limit grows eight percent a year, prorated, unless another percentage is shown.", "hl": "grow"},
     {"text": "Business personal property gets a 25% seasonal bump, if insured to 100% of average monthly values.", "say": "Business personal property gets a twenty-five percent seasonal bump, if insured to one hundred percent of average monthly values.", "hl": "gift"}
    ]
@@ -212,7 +213,7 @@
     }
    ],
    "reveal": [
-    {"text": "Memory trick: P-1 pours water, P-2 phones it in, P-3 patrols, P-4 pays a private fire department.", "say": "Memory trick: P one pours water, P two phones it in, P three patrols, P four pays a private fire department."}
+    {"text": "Memory trick: P-1 pours water, P-2 phones it in, P-3 patrols, P-4 pays a private fire department. There are more symbols, too.", "say": "Memory trick: P one pours water, P two phones it in, P three patrols, P four pays a private fire department. There are more symbols, too."}
    ]
   },
   {
@@ -241,8 +242,8 @@
    ],
    "beats": [
     {"text": "Two months later: a Friday-night grease fire! The alarm calls it in.", "say": "Two months later: a Friday-night grease fire! The alarm calls it in.", "hl": "bell"},
-    {"text": "The fire department service charge? The BOP pays up to $2,500; the commercial property form, $1,000.", "say": "The fire department service charge? The B O P pays up to two thousand five hundred dollars; the commercial property form, one thousand dollars.", "hl": "fdamt"},
-    {"text": "The BOP is the generous cousin: valuable papers get more, and newly acquired buildings get the same.", "say": "The B O P is the generous cousin: valuable papers get more, and newly acquired buildings get the same.", "hl": ["papamt", "newamt"]},
+    {"text": "The fire department service charge? The BOP pays up to $2,500; the 2012 commercial property form, $1,000.", "say": "The fire department service charge? The B O P pays up to two thousand five hundred dollars; the twenty twelve commercial property form, one thousand dollars.", "hl": "fdamt"},
+    {"text": "The BOP is the generous cousin: valuable papers on premises get more, $10,000 versus $2,500. A newly acquired building gets the same in both: $250,000, for up to 30 days.", "say": "The B O P is the generous cousin: valuable papers on premises get more, ten thousand dollars versus two thousand five hundred dollars. A newly acquired building gets the same in both: two hundred fifty thousand dollars, for up to thirty days.", "hl": ["papamt", "newamt"]},
     {"text": "One stingy habit: a sign attached to the building gets $1,000, versus $2,500.", "say": "One stingy habit: a sign attached to the building gets one thousand dollars, versus two thousand five hundred dollars.", "hl": "signamt"}
    ]
   },
@@ -260,13 +261,13 @@
     {"id": "adj", "p": "person", "x": 60, "y": 46, "h": 26, "opt": {"who": "adjuster", "pose": "hold", "hold": "clipboard"}}
    ],
    "beats": [
-    {"text": "The kitchen walls need $60,000 of repairs, done promptly. Their actual cash value is $40,000.", "say": "The kitchen walls need sixty thousand dollars of repairs, done promptly. Their actual cash value is forty thousand dollars."},
+    {"text": "The kitchen walls need $60,000 of repairs, done promptly. Their actual cash value, what they're worth after wear and tear, is $40,000. We'll ignore the deductible.", "say": "The kitchen walls need sixty thousand dollars of repairs, done promptly. Their actual cash value, what they're worth after wear and tear, is forty thousand dollars. We'll ignore the deductible."},
     {"text": "The BOP has no coinsurance clause. Insure to at least 80% of replacement cost, and losses are paid at replacement cost.", "say": "The B O P has no coinsurance clause. Insure to at least eighty percent of replacement cost, and losses are paid at replacement cost."},
-    {"text": "Rebuilding the whole place costs $500,000, so Tony needs $400,000. His limit is $300,000.", "say": "Rebuilding the whole place costs five hundred thousand dollars, so Tony needs four hundred thousand dollars. His limit is three hundred thousand dollars."},
-    {"text": "Fall short, and you get the bigger of actual cash value or a proportional share of the repair: here, $45,000. Your turn: slide it down until actual cash value wins.", "say": "Fall short, and you get the bigger of actual cash value or a proportional share of the repair: here, forty-five thousand dollars. Your turn: slide it down until actual cash value wins."}
+    {"text": "Rebuilding the whole place costs $500,000, so Tony needs $400,000. His limit at the time of the fire is $300,000: 0.75 of what he needs.", "say": "Rebuilding the whole place costs five hundred thousand dollars, so Tony needs four hundred thousand dollars. His limit at the time of the fire is three hundred thousand dollars: zero point seven five of what he needs."},
+    {"text": "Fall short, and you get the bigger of actual cash value or a proportional share of the repair: here, $45,000. Your turn: slide Tony's limit down until actual cash value wins.", "say": "Fall short, and you get the bigger of actual cash value or a proportional share of the repair: here, forty-five thousand dollars. Your turn: slide Tony's limit down until actual cash value wins."}
    ],
    "reveal": [
-    {"text": "Slide to $260,000: the proportional share is only $39,000, so actual cash value wins.", "say": "Slide to two hundred sixty thousand dollars: the proportional share is only thirty-nine thousand dollars, so actual cash value wins."}
+    {"text": "Slide Tony's limit to $260,000: the proportional share is only $39,000, so actual cash value wins.", "say": "Slide Tony's limit to two hundred sixty thousand dollars: the proportional share is only thirty-nine thousand dollars, so actual cash value wins."}
    ]
   },
   {
@@ -289,9 +290,10 @@
     {"p": "label", "text": "Extra Expense: now", "x": 67, "y": 58, "size": 3.8, "w": 24, "color": "green", "at": 2, "cue": "immediately"}
    ],
    "beats": [
-    {"text": "The fire shuts Tony's own kitchen for four months. Business Income is built in: it pays the income he loses.", "say": "The fire shuts Tony's own kitchen for four months. Business Income is built in: it pays the income he loses.", "show": 2},
+    {"text": "The fire shuts Tony's own kitchen for four months. Business Income is built in: it pays the income he loses while covered damage keeps his business closed.", "say": "The fire shuts Tony's own kitchen for four months. Business Income is built in: it pays the income he loses while covered damage keeps his business closed.", "show": 2},
     {"text": "Under the 2013 form: actual loss sustained, within 12 consecutive months, with no dollar limit.", "say": "Under the twenty thirteen form: actual loss sustained, within twelve consecutive months, with no dollar limit.", "show": 3, "hl": "cal"},
-    {"text": "The catch: it starts 72 hours after the loss. Extra Expense, the extra cost to keep operating, starts immediately.", "say": "The catch: it starts seventy-two hours after the loss. Extra Expense, the extra cost to keep operating, starts immediately.", "show": 4, "hl": ["glass", "ee"]}
+    {"text": "The catch: it starts 72 hours after the loss. Extra Expense, the extra cost to keep operating, starts immediately.", "say": "The catch: it starts seventy-two hours after the loss. Extra Expense, the extra cost to keep operating, starts immediately.", "show": 4, "hl": ["glass", "ee"]},
+    {"text": "The exam's phrase for no dollar limit: not subject to the Section I limits.", "say": "The exam's phrase for no dollar limit: not subject to the Section one limits.", "show": 4}
    ]
   },
   {
@@ -372,7 +374,7 @@
     {"id": "wet", "p": "sign", "x": 10, "y": 44, "h": 18, "opt": {"text": "WET\nFLOOR", "tcolor": "orange"}},
     {"id": "cust", "p": "person", "x": 30, "y": 36, "h": 26, "rot": -28, "opt": {"who": "grandma", "pose": "shrug", "mood": "shocked"}, "at": 0, "cue": "slips", "anim": "fall"},
     {"id": "tony", "p": "person", "x": 52, "y": 36, "h": 26, "opt": {"who": "tony", "pose": "stop", "mood": "worried"}},
-    {"p": "label", "text": "Who's an insured? Same as the CGL", "x": 32, "y": 59, "size": 4, "box": true, "w": 50, "at": 1, "cue": "Business"},
+    {"p": "label", "text": "Who's an insured? Mirrors the CGL", "x": 32, "y": 59, "size": 4, "box": true, "w": 50, "at": 1, "cue": "insured"},
     {"id": "bl", "p": "box", "x": 85, "y": 17, "w": 34, "hh": 22, "title": "Business Liability", "color": "blue", "at": 1, "cue": "Business"},
     {"p": "gavel", "x": 85, "y": 21, "h": 10, "at": 1, "cue": "Business"},
     {"id": "me", "p": "box", "x": 85, "y": 44, "w": 34, "hh": 22, "title": "Medical Expenses", "color": "green", "at": 1, "cue": "Medical"},
@@ -389,9 +391,9 @@
    ],
    "beats": [
     {"text": "Tony reopens, and a customer slips on the wet floor. Enter Section II: liability.", "say": "Tony reopens, and a customer slips on the wet floor. Enter Section two: liability."},
-    {"text": "Business Liability covers bodily injury, property damage, and personal and advertising injury. Medical Expenses pays accident bills within one year, regardless of fault.", "say": "Business Liability covers bodily injury, property damage, and personal and advertising injury. Medical Expenses pays accident bills within one year, regardless of fault."},
-    {"text": "There's one Liability and Medical Expenses limit, say $1,000,000. Both aggregates, general and products-completed operations, are twice that.", "say": "There's one Liability and Medical Expenses limit, say one million dollars. Both aggregates, general and products-completed operations, are twice that.", "hl": "agg"},
-    {"text": "Professional services, like accounting, are excluded. And for drivers' own cars, Tony adds Hired and Non-Owned Auto Liability.", "say": "Professional services, like accounting, are excluded. And for drivers' own cars, Tony adds Hired and Non-Owned Auto Liability.", "hl": ["calc", "car"]}
+    {"text": "Business Liability covers bodily injury, property damage, and personal and advertising injury. Medical Expenses pays accident bills within one year, regardless of fault. Who's an insured? It mirrors the CGL.", "say": "Business Liability covers bodily injury, property damage, and personal and advertising injury. Medical Expenses pays accident bills within one year, regardless of fault. Who's an insured? It mirrors the C G L."},
+    {"text": "There's one Liability and Medical Expenses limit, say $1,000,000. Both aggregates, general and products-completed operations, are twice that: $2,000,000 each.", "say": "There's one Liability and Medical Expenses limit, say one million dollars. Both aggregates, general and products-completed operations, are twice that: two million dollars each.", "hl": "agg"},
+    {"text": "Professional services, like accounting, are excluded. And for drivers' own cars on the job, Tony adds Hired and Non-Owned Auto Liability.", "say": "Professional services, like accounting, are excluded. And for drivers' own cars on the job, Tony adds Hired and Non-Owned Auto Liability.", "hl": ["calc", "car"]}
    ]
   },
   {
@@ -503,20 +505,20 @@
    "example": "Dana's Bay City client has a building that's sat empty 70 days. The insurance company wants to cancel. How much warning does it owe?",
    "exam": "Form: 5 days for listed conditions, like 60 or more days vacant; 10 nonpayment; 30 other. Michigan: at least 10.",
    "draw": [
-    {"id": "mi", "p": "michigan", "x": 20, "y": 18, "h": 28, "opt": {"pin": [-83.888, 43.594]}},
-    {"p": "label", "text": "Bay City", "x": 20, "y": 36, "size": 4, "color": "red", "bold": true},
-    {"id": "bld", "p": "store", "x": 60, "y": 18, "h": 20, "opt": {"name": "FOR LEASE"}},
-    {"id": "cal", "p": "calendar", "x": 20, "y": 50, "h": 12, "opt": {"n": "70"}, "at": 1, "cue": "vacant"},
-    {"p": "label", "text": "Empty 70 days", "x": 20, "y": 60, "size": 3.8, "at": 1, "cue": "vacant"},
+    {"id": "mi", "p": "michigan", "x": 20, "y": 18, "h": 28, "opt": {"pin": [-83.888, 43.594]}, "at": 1, "cue": "Bay"},
+    {"p": "label", "text": "Bay City", "x": 20, "y": 36, "size": 4, "color": "red", "bold": true, "at": 1, "cue": "Bay"},
+    {"id": "bld", "p": "store", "x": 60, "y": 18, "h": 20, "opt": {"name": "FOR LEASE"}, "at": 1, "cue": "building"},
+    {"id": "cal", "p": "calendar", "x": 20, "y": 50, "h": 12, "opt": {"n": "70"}, "at": 1, "cue": "empty"},
+    {"p": "label", "text": "Empty 70 days", "x": 20, "y": 60, "size": 3.8, "at": 1, "cue": "empty"},
     {"id": "form5", "p": "label", "text": "Form: 5 days", "x": 55, "y": 35, "size": 4, "color": "red", "bold": true, "at": 1, "cue": "5"},
     {"p": "cross", "x": 70, "y": 35, "h": 5, "color": "red", "at": 2, "cue": "Michigan"},
     {"id": "env", "p": "envelope", "x": 58, "y": 47, "h": 12, "opt": {"open": true}, "at": 2, "cue": "mail"},
     {"p": "label", "text": "Michigan: at least 10 days", "x": 58, "y": 58, "size": 3.8, "bold": true, "color": "blue", "w": 44, "at": 2, "cue": "Michigan"}
    ],
    "beats": [
-    {"text": "Last, Section III: common policy conditions, like the rules for canceling.", "say": "Last, Section three: common policy conditions, like the rules for canceling.", "show": 2},
-    {"text": "The 2013 form allows 5 days' notice for certain building conditions, like 60 or more consecutive days vacant or unoccupied. Otherwise, 10 days for nonpayment, 30 for other reasons.", "say": "The twenty thirteen form allows five days' notice for certain building conditions, like sixty or more consecutive days vacant or unoccupied. Otherwise, ten days for nonpayment, thirty for other reasons.", "show": 3, "hl": "cal"},
-    {"text": "But in Michigan, the insurer must mail at least 10 days' notice, for fire or casualty insurance.", "say": "But in Michigan, the insurer must mail at least ten days' notice, for fire or casualty insurance.", "show": 4, "hl": "env"}
+    {"text": "Last, Section III: common policy conditions, like the rules for canceling. A cancellation notice is the written warning an insurer must mail before it cancels your policy.", "say": "Last, Section three: common policy conditions, like the rules for canceling. A cancellation notice is the written warning an insurer must mail before it cancels your policy.", "show": 2},
+    {"text": "Dana's Bay City client has a building that's sat empty 70 days. The insurance company wants to cancel. How much warning does it owe? The 2013 form allows 5 days' notice for certain building conditions, like 60 or more consecutive days vacant or unoccupied.", "say": "Dana's Bay City client has a building that's sat empty seventy days. The insurance company wants to cancel. How much warning does it owe? The twenty thirteen form allows five days' notice for certain building conditions, like sixty or more consecutive days vacant or unoccupied.", "show": 3, "hl": "cal"},
+    {"text": "Otherwise, 10 days for nonpayment, 30 for other reasons. But in Michigan, the insurer must mail at least 10 days' notice, for fire or casualty insurance.", "say": "Otherwise, ten days for nonpayment, thirty for other reasons. But in Michigan, the insurer must mail at least ten days' notice, for fire or casualty insurance.", "show": 4, "hl": "env"}
    ]
   },
   {
@@ -558,8 +560,8 @@
     {"p": "pizza", "x": 70, "y": 58, "h": 10}
    ],
    "beats": [
-    {"text": "No BOP for taverns. Business Income: 12 months, no dollar limit.", "say": "No B O P for taverns. Business Income: twelve months, no dollar limit.", "show": 3},
-    {"text": "Remember 8, 25, times 2. And in Michigan, insurer cancellation needs at least 10 days' notice.", "say": "Remember eight, twenty-five, times two. And in Michigan, insurer cancellation needs at least ten days' notice.", "show": 5},
+    {"text": "No BOP for an ordinary bar or tavern, at any size. No coinsurance clause: insure to 80% of replacement cost. Business Income: 12 months, no dollar limit, and it waits 72 hours.", "say": "No B O P for an ordinary bar or tavern, at any size. No coinsurance clause: insure to eighty percent of replacement cost. Business Income: twelve months, no dollar limit, and it waits seventy-two hours.", "show": 3},
+    {"text": "8, 25, times 2: building 8%, BPP 25%, aggregates twice the limit. Michigan: insurer cancellation needs at least 10 days' notice.", "say": "... Eight... twenty-five... times two: building eight percent, B P P twenty-five percent, aggregates twice the limit. Michigan: insurer cancellation needs at least ten days' notice.", "show": 5},
     {"text": "Next year? I'm insuring to 80%.", "say": "Next year? I'm insuring to eighty percent.", "voice": "tony", "show": 5}
    ]
   }

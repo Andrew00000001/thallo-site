@@ -57,8 +57,8 @@
      "show": 0
     },
     {
-     "text": "Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
-     "say": "Liability, Medical payments, Uninsured motorists, Damage to your auto, Duties after an accident, General provisions.",
+     "text": "Each word stands for a part, in order. Part A is liability, B is medical payments, and C is uninsured motorists. D is damage to your auto, E is duties after an accident or loss, and F is general provisions.",
+     "say": "Each word stands for a part, in order. Part A is liability, B is medical payments, and C is uninsured motorists. D is damage to your auto, E is duties after an accident or loss, and F is general provisions.",
      "show": 3
     },
     {
@@ -82,30 +82,30 @@
     {"id": "tree", "p": "tree", "x": 68, "y": 45, "h": 32, "at": 0, "cue": "object"},
     {"p": "label", "text": "Collision", "x": 68, "y": 23, "size": 4.2, "bold": true, "color": "red", "at": 0, "cue": "Collision"},
     {"id": "deer", "p": "deer", "x": 44, "y": 48, "h": 15, "opt": {"pose": "leap"}, "flip": true, "over": true, "at": 2, "cue": "deer", "anim": "slide-r"},
-    {"p": "label", "text": "Other than collision", "x": 22, "y": 32, "size": 4, "bold": true, "color": "blue", "at": 2, "cue": "deer"},
+    {"p": "label", "text": "Other than collision", "x": 22, "y": 32, "size": 4, "bold": true, "color": "blue", "at": 2, "cue": "bird"},
     {"p": "arrow", "from": [32, 45], "to": [62, 52], "bend": -0.45, "dash": true, "color": "red", "at": 3, "cue": "Swerve"}
    ],
    "beats": [
     {
-     "text": "First, her car: Part D. Collision is the upset of the car, or its impact with another vehicle or object.",
-     "say": "First, her car: Part D. Collision is the upset of the car, or its impact with another vehicle or object.",
+     "text": "First, her car: Part D. Collision is the upset of the car, meaning it rolls over, or its impact with another vehicle or object.",
+     "say": "First, her car: Part D. Collision is the upset of the car, meaning it rolls over, or its impact with another vehicle or object.",
      "show": 1,
      "hl": "car"
     },
     {
-     "text": "Other than collision, or OTC, covers perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
-     "say": "Other than collision, or O T C, covers perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
+     "text": "Other than collision, or OTC, covers direct, accidental loss from other causes. Think of perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
+     "say": "Other than collision, or O T C, covers direct, accidental loss from other causes. Think of perils like fire, theft, windstorm, hail, flood, vandalism and falling objects.",
      "show": 2
     },
     {
-     "text": "And Bambi is not a collision: hitting a deer is other than collision.",
-     "say": "And Bambi is not a collision: hitting a deer is other than collision.",
+     "text": "Near Lansing, a deer leaps in front of Rosa's car, and she hits it. Bambi is not a collision: hitting a deer, or a bird, is other than collision.",
+     "say": "Near Lansing, a deer leaps in front of Rosa's car, and she hits it. Bambi is not a collision: hitting a deer, or a bird, is other than collision.",
      "show": 3,
      "hl": "deer"
     },
     {
-     "text": "Swerve into a tree? Collision. Glass broken in a collision can count as collision, at Rosa's option.",
-     "say": "Swerve into a tree? Collision. Glass broken in a collision can count as collision, at Rosa's option.",
+     "text": "Swerve into a tree instead? Collision. Glass broken in a collision can count as collision, at Rosa's option. And OTC is commonly called comprehensive.",
+     "say": "Swerve into a tree instead? Collision. Glass broken in a collision can count as collision, at Rosa's option. And O T C is commonly called comprehensive.",
      "show": 4,
      "hl": "tree"
     }
@@ -227,16 +227,16 @@
    ],
    "beats": [
     {
-     "text": "In Michigan, insurers must offer two kinds of collision at a first private passenger car application. Substantially at fault means over 50% of the cause.",
-     "say": "In Michigan, insurers must offer two kinds of collision at a first private passenger car application. Substantially at fault means over fifty percent of the cause."
+     "text": "In Michigan, there are three kinds of collision. Insurers must offer two of them, limited and broad form, at a first private passenger car application. Substantially at fault means over 50% of the cause.",
+     "say": "In Michigan, there are three kinds of collision. Insurers must offer two of them, limited and broad form, at a first private passenger car application. Substantially at fault means over fifty percent of the cause."
     },
     {
-     "text": "Limited has no deductible, but pays only if the driver wasn't substantially at fault.",
-     "say": "Limited has no deductible, but pays only if the driver wasn't substantially at fault."
+     "text": "Limited has no deductible, but pays only if the driver wasn't substantially at fault. Over 50% at fault? It pays nothing.",
+     "say": "Limited has no deductible, but pays only if the driver wasn't substantially at fault. Over fifty percent at fault? It pays nothing."
     },
     {
-     "text": "Broad form pays regardless of fault, and waives the deductible if the driver wasn't substantially at fault.",
-     "say": "Broad form pays regardless of fault, and waives the deductible if the driver wasn't substantially at fault."
+     "text": "Broad form pays regardless of fault, and waives the deductible if the driver wasn't substantially at fault. Over 50% at fault? It pays, minus the deductible.",
+     "say": "Broad form pays regardless of fault, and waives the deductible if the driver wasn't substantially at fault. Over fifty percent at fault? It pays, minus the deductible."
     },
     {
      "text": "Standard may also be offered: it pays regardless of fault, and you pay the deductible either way.",
@@ -387,18 +387,18 @@
     {"p": "crash", "x": 35, "y": 9, "h": 9, "opt": {"text": "BUMP!"}, "over": true, "at": 1, "cue": "rear-ends"},
     {"p": "label", "text": "Toledo, Ohio", "x": 35, "y": 28, "size": 3.8, "at": 1, "cue": "Toledo"},
     {"id": "court", "p": "courthouse", "x": 20, "y": 50, "h": 24, "at": 1, "cue": "sued"},
-    {"id": "rosa", "p": "person", "x": 47, "y": 50, "h": 24, "opt": {"who": "rosa", "pose": "hold", "hold": "briefcase", "mood": "worried"}, "at": 2},
+    {"id": "rosa", "p": "person", "x": 47, "y": 50, "h": 24, "opt": {"who": "rosa", "pose": "hold", "hold": "briefcase", "mood": "worried"}, "at": 1, "cue": "attends"},
     {"id": "cash", "p": "money", "x": 68, "y": 46, "h": 9, "at": 2, "cue": "earnings", "label": "$250 a day", "lsize": 3.8}
    ],
    "beats": [
     {
-     "text": "Part A, liability, pays for injuries and damage Rosa is legally responsible for. It covers her or a family member in any auto, and anyone using her covered auto.",
-     "say": "Part A, liability, pays for injuries and damage Rosa is legally responsible for. It covers her or a family member in any auto, and anyone using her covered auto.",
+     "text": "Part A, liability, pays for injuries and damage Rosa is legally responsible for. It covers her or a family member in any auto, and anyone using her covered auto. On top of the liability limit, Part A also pays extra costs, called supplementary payments.",
+     "say": "Part A, liability, pays for injuries and damage Rosa is legally responsible for. It covers her or a family member in any auto, and anyone using her covered auto. On top of the liability limit, Part A also pays extra costs, called supplementary payments.",
      "show": 1
     },
     {
-     "text": "In Toledo, Ohio, she rear-ends a car and is sued. Her defense is paid on top of the limit, until it's used up.",
-     "say": "In Toledo, Ohio, she rear-ends a car and is sued. Her defense is paid on top of the limit, until it's used up.",
+     "text": "In Toledo, Ohio, she rear-ends a car and is sued. Her defense is paid on top of the limit, until it's used up. She also attends the trial at the insurer's request, and her lost earnings are paid.",
+     "say": "In Toledo, Ohio, she rear-ends a car and is sued. Her defense is paid on top of the limit, until it's used up. She also attends the trial at the insurer's request, and her lost earnings are paid.",
      "show": 3,
      "hl": "court"
     },
@@ -470,8 +470,8 @@
    ],
    "reveal": [
     {
-     "text": "Time logged into a ride-share app as a driver is excluded, rider or not. Share-the-expense car pools and volunteer driving aren't.",
-     "say": "Time logged into a ride-share app as a driver is excluded, rider or not. Share-the-expense car pools and volunteer driving aren't."
+     "text": "Time logged into a ride-share app as a driver is excluded, rider or not. Not excluded: share-the-expense car pools and volunteer driving.",
+     "say": "Time logged into a ride-share app as a driver is excluded, rider or not. Not excluded: share-the-expense car pools and volunteer driving."
     }
    ]
   },
@@ -511,8 +511,8 @@
      "say": "Part C, uninsured motorists, pays injury damages an uninsured driver owes her. Hit-and-runs and insolvent insurers count. Government-owned vehicles don't."
     },
     {
-     "text": "In Michigan, DIFS lists UM and UIM, underinsured motorists, as optional. Rosa bought both.",
-     "say": "In Michigan, D I F S lists U M and U I M, underinsured motorists, as optional. Rosa bought both."
+     "text": "In Michigan, DIFS lists UM and UIM, underinsured motorists, as optional. The Michigan Supreme Court treats UM as optional too. Rosa bought both.",
+     "say": "In Michigan, D I F S lists U M and U I M, underinsured motorists, as optional. The Michigan Supreme Court treats U M as optional too. Rosa bought both."
     }
    ]
   },
@@ -600,7 +600,7 @@
     {
      "label": "Thursday, within 4 days",
      "ok": true,
-     "win": "No declared auto with collision: ask within 4 days. A $500 deductible applies to a loss before you asked.",
+     "win": "No declared auto with collision: ask within 4 days. A deductible of $500 applies to a loss before you asked.",
      "beats": [
       {
        "text": "Thursday is within 4 days, so he's covered from the day he became the owner, minus a deductible of $500.",
@@ -745,13 +745,13 @@
    ],
    "beats": [
     {
-     "text": "What a year! Six parts, A to F, and Bambi is not a collision.",
-     "say": "What a year! Six parts, A to F, and Bambi is not a collision.",
+     "text": "What a year! Parts A to F: Let Me Use Dad's Dodge, Gramps? Part A, under the 2018 form: defense, bail bonds up to $250, and lost earnings up to $250 a day. All on top of limits. Bambi is not a collision: hitting a deer is other than collision.",
+     "say": "What a year! Parts A to F: Let Me Use Dad's Dodge, Gramps? Part A, under the twenty eighteen form: defense, bail bonds up to two hundred fifty dollars, and lost earnings up to two hundred fifty dollars a day. All on top of limits. Bambi is not a collision: hitting a deer is other than collision.",
      "show": 3
     },
     {
-     "text": "In Michigan, limited collision pays only if the driver wasn't substantially at fault. Under the 2018 form, no collision on the policy? A new car gets four days.",
-     "say": "In Michigan, limited collision pays only if the driver wasn't substantially at fault. Under the twenty eighteen form, no collision on the policy? A new car gets four days.",
+     "text": "In Michigan, limited collision pays only if the driver wasn't substantially at fault. Under the 2018 form, no collision on the policy? A new car gets four days. Otherwise, it gets fourteen.",
+     "say": "In Michigan, limited collision pays only if the driver wasn't substantially at fault. Under the twenty eighteen form, no collision on the policy? A new car gets four days. Otherwise, it gets fourteen.",
      "show": 5
     },
     {

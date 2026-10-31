@@ -1,6 +1,7 @@
 {
  "id": "L16",
  "beats": 57,
+ "clips": 33,
  "mismatches": [
   {
    "scene": 1,
@@ -8,6 +9,22 @@
    "say": "The six parts? Rosa's question to Gramps: Let Me Use Dad's Dodge, Gramps?",
    "heard": "The six parts, Rose's question to gramps, let me use Dad's Dodge gramps.",
    "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "scene": 1,
+   "beat": 1,
+   "say": "Each word stands for a part, in order. Part A is liability, B is medical payments, and C is uninsured motorists. D is damage to your auto, E is duties after an accident or loss, and F is general provisions.",
+   "heard": "Each word stands for part in order. Part A is liability, B is medical payments, and C is uninsured motorists. D is damage to your auto, E is duties after an accident or loss, and F is general provisions.",
+   "wer": 0.026,
+   "voice": "narrator"
+  },
+  {
+   "scene": 2,
+   "beat": 2,
+   "say": "Near Lansing, a deer leaps in front of Rosa's car, and she hits it. Bambi is not a collision: hitting a deer, or a bird, is other than collision.",
+   "heard": "Near Lansing, a deer leaps in front of Rose's car and she hits it. Bambi is not a collision. Hitting a deer or a bird is other than collision.",
+   "wer": 0.036,
    "voice": "narrator"
   },
   {
@@ -21,9 +38,9 @@
   {
    "scene": 4,
    "beat": 2,
-   "say": "Broad form pays regardless of fault, and waives the deductible if the driver wasn't substantially at fault.",
-   "heard": "Broad form pays regardless of fault and waves the deductible if the driver was not substantially at fault.",
-   "wer": 0.059,
+   "say": "Broad form pays regardless of fault, and waives the deductible if the driver wasn't substantially at fault. Over fifty percent at fault? It pays, minus the deductible.",
+   "heard": "Broad form pays regardless of fault and waves the deductible if the driver was not substantially at fault. Over 50% at fault, it pays minus the deductible.",
+   "wer": 0.037,
    "voice": "narrator"
   },
   {
@@ -37,9 +54,9 @@
   {
    "scene": 8,
    "beat": 1,
-   "say": "Time logged into a ride-share app as a driver is excluded, rider or not. Share-the-expense car pools and volunteer driving aren't.",
-   "heard": "Time logged into a Rideshare app as a driver is excluded, writer or not. Share the expense carpools and volunteer driving or not.",
-   "wer": 0.25,
+   "say": "Time logged into a ride-share app as a driver is excluded, rider or not. Not excluded: share-the-expense car pools and volunteer driving.",
+   "heard": "Time logged into a rideshare app as a driver is excluded, rider or not. Not excluded, share the expense car pools and volunteer driving.",
+   "wer": 0.083,
    "voice": "narrator"
   },
   {
@@ -73,6 +90,70 @@
    "heard": "Next year Fewer Dear Please.",
    "wer": 0.2,
    "voice": "rosa"
+  },
+  {
+   "clip": "s3.c3",
+   "say": "Hail dents the hood and roof.",
+   "text": "Hail dents the hood and roof.",
+   "heard": "Hail dense the hood and roof.",
+   "wer": 0.2,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s5.o2.win",
+   "say": "In Michigan, broad form pays regardless of fault, and waives the deductible when the driver was not substantially at fault.",
+   "text": "In Michigan, broad form pays regardless of fault, and waives the deductible when the driver was not substantially at fault.",
+   "heard": "In Michigan, broad form pays regardless of fault and waves the deductible when the driver was not substantially at fault.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.ask",
+   "say": "Which plan keeps her liability coverage? One: Turn on a ride-share app during her commute. Two: Split gas costs in a coworker car pool.",
+   "text": "Which plan keeps her liability coverage? One: Turn on a ride-share app during her commute. Two: Split gas costs in a coworker car pool.",
+   "heard": "which plan keeps her liability coverage. One, turn on a rideshare app during her commute. Two, split gas costs in a coworker car pool.",
+   "wer": 0.08,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.o0.fail",
+   "say": "Part A excludes public or livery use, including any time logged into a ride-share app as a driver, even with no rider yet.",
+   "text": "Part A excludes public or livery use, including any time logged into a ride-share app as a driver, even with no rider yet.",
+   "heard": "Part A excludes public or livery use, including any time logged into a rideshare app as a driver, even with no rider yet.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.p1",
+   "say": "Miscellaneous Type Vehicle. This endorsement typically covers motor homes, motorcycles, all-terrain vehicles, dune buggies and golf carts.",
+   "text": "Miscellaneous Type Vehicle. This endorsement typically covers motor homes, motorcycles, all-terrain vehicles, dune buggies and golf carts.",
+   "heard": "miscellaneous type vehicle. This endorsement typically covers motor homes, motorcycles, all-terrain vehicles, dune buggers, and golf carts.",
+   "wer": 0.059,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.p4",
+   "say": "Extended Non-Owned. Part A excludes vehicles furnished or available for your regular use. This removes that for liability, and med pay if bought. Michigan: residual liability only.",
+   "text": "Extended Non-Owned. Part A excludes vehicles furnished or available for your regular use. This removes that for liability, and med pay if bought. Michigan: residual liability only.",
+   "heard": "Extended non-owned. Part A excludes vehicles furnished or available for your regular use. This removes that for liability and med pay if bought. Michigan, residual liability only.",
+   "wer": 0.074,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s13.q",
+   "say": "Rosa's Michigan policy adds an extended non-owned endorsement for her company car. According to D I F S, it gives her: A: P I P, P P I and residual liability for the whole household. B: Residual liability only, for the named person and spouse. C: Physical damage coverage only. D: P I P coverage only.",
+   "text": "Rosa's Michigan policy adds an extended non-owned endorsement for her company car. According to DIFS, it gives her: A: PIP, PPI and residual liability for the whole household. B: Residual liability only, for the named person and spouse. C: Physical damage coverage only. D: PIP coverage only.",
+   "heard": "Rose's Michigan policy adds an extended non-owned endorsement for her company car. According to D.I.F.S., it gives her A.P.I.P.P.I. and residual liability for the whole household B. Residual liability only for the named person and spouse C. Physical damage coverage only D.P.I.P. coverage only",
+   "wer": 0.111,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s13.why",
+   "say": "D I F S Bulletin ninety six-oh two: only residual liability, only for the named person and spouse. No P I P, P P I or physical damage, so it doesn't meet no-fault requirements.",
+   "text": "DIFS Bulletin 96-02: only residual liability, only for the named person and spouse. No PIP, PPI or physical damage, so it doesn't meet no-fault requirements.",
+   "heard": "DIFS Bulletin 9602, only residual liability, only for the named person and spouse. No PIP, PPI, or physical damage, so it does not meet no fault requirements.",
+   "wer": 0.107,
+   "voice": "narrator"
   }
  ]
 }

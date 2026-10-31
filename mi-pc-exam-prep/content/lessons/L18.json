@@ -266,8 +266,8 @@
      "say": "Under the nineteen ninety-eight conditions, the insurer gives ten days' notice to cancel for nonpayment, thirty for other reasons. State amendatory endorsements can change that."
     },
     {
-     "text": "It may audit the books up to 3 years after the policy. Watch out: vacancy isn't one of the six.",
-     "say": "It may audit the books up to three years after the policy. Watch out: vacancy isn't one of the six."
+     "text": "It may audit the books up to 3 years after the policy. Watch out: vacancy isn't one of the six. It's a property loss condition.",
+     "say": "It may audit the books up to three years after the policy. Watch out: vacancy isn't one of the six. It's a property loss condition."
     }
    ]
   },
@@ -443,8 +443,8 @@
    ],
    "beats": [
     {
-     "text": "Now Tony's CGL, 2013 edition. Monday, a customer trips on a torn mat, breaks her ankle and sues.",
-     "say": "Now Tony's C G L, twenty thirteen edition. Monday, a customer trips on a torn mat, breaks her ankle and sues."
+     "text": "Now Tony's CGL, short for commercial general liability, 2013 edition. Monday, a customer trips on a torn mat, breaks her ankle and sues.",
+     "say": "Now Tony's C G L, short for commercial general liability, twenty thirteen edition. Monday, a customer trips on a torn mat, breaks her ankle and sues."
     },
     {
      "text": "Coverage A pays bodily injury and property damage Tony legally owes, plus defense. The trigger: an occurrence, an accident, causing injury during the policy period.",
@@ -530,12 +530,12 @@
    "beats": [
     {
      "text": "Coverage B's offenses come in four Ps: Police, Property, Publication, Promotion.",
-     "say": "Coverage B's offenses come in four Ps: Police, Property, Publication, Promotion.",
+     "say": "Coverage B's offenses come in four P's: Police, Property, Publication, Promotion.",
      "show": 0
     },
     {
-     "text": "Police: false arrest, malicious prosecution. Property: wrongful eviction or entry.",
-     "say": "Police: false arrest, malicious prosecution. Property: wrongful eviction or entry.",
+     "text": "Police: false arrest, detention or imprisonment, and malicious prosecution. Property: wrongful eviction, wrongful entry, or invasion of private occupancy.",
+     "say": "Police: false arrest, detention or imprisonment, and malicious prosecution. Property: wrongful eviction, wrongful entry, or invasion of private occupancy.",
      "show": 2,
      "hl": [
       "pol",
@@ -543,8 +543,8 @@
      ]
     },
     {
-     "text": "Publication: slander, libel, privacy. Promotion: advertising offenses, like Tony's ad using her slogan.",
-     "say": "Publication: slander, libel, privacy. Promotion: advertising offenses, like Tony's ad using her slogan.",
+     "text": "Publication: slander, libel, disparagement, or violating a right of privacy. Promotion: using another's ad idea, or infringing on a copyright, trade dress or slogan in your ad, like Tony's ad using her slogan.",
+     "say": "Publication: slander, libel, disparagement, or violating a right of privacy. Promotion: using another's ad idea, or infringing on a copyright, trade dress or slogan in your ad, like Tony's ad using her slogan.",
      "show": 4,
      "hl": [
       "pub",
@@ -1252,7 +1252,8 @@
      "hh": 32,
      "color": "blue",
      "title": "General aggregate",
-     "at": 2
+     "at": 1,
+     "cue": "other"
     },
     {
      "id": "cr",
@@ -1260,7 +1261,8 @@
      "x": 10,
      "y": 52,
      "h": 12,
-     "at": 2
+     "at": 1,
+     "cue": "other"
     },
     {
      "id": "meg",
@@ -1328,14 +1330,14 @@
    ],
    "beats": [
     {
-     "text": "CGL limits work like two buckets: yearly caps called aggregates. One is products-completed operations: injury away from premises you own or rent, from your product or finished work.",
-     "say": "C G L limits work like two buckets: yearly caps called aggregates. One is products-completed operations: injury away from premises you own or rent, from your product or finished work.",
+     "text": "CGL limits work like two buckets: yearly caps called aggregates. One is for the products-completed operations hazard: injury or damage away from premises you own or rent, from your product or finished work.",
+     "say": "C G L limits work like two buckets: yearly caps called aggregates. One is for the products-completed operations hazard: injury or damage away from premises you own or rent, from your product or finished work.",
      "show": 2,
      "hl": "pco"
     },
     {
-     "text": "It holds only Coverage A, like a family sick from Tony's pizza at home.",
-     "say": "It holds only Coverage A, like a family sick from Tony's pizza at home.",
+     "text": "It holds only Coverage A, like a family sick from Tony's pizza at home. A customer who trips in his shop goes in the other bucket: the general aggregate.",
+     "say": "It holds only Coverage A, like a family sick from Tony's pizza at home. A customer who trips in his shop goes in the other bucket: the general aggregate.",
      "show": 3
     },
     {
@@ -1372,7 +1374,7 @@
     {
      "text": "A delivery customer cracks a tooth on Tony's pizza at home",
      "bin": 1,
-     "why": "Tony's product, away from his premises."
+     "why": "Tony's product, away from his premises: products bucket."
     },
     {
      "text": "The rival's slogan suit against Tony",
@@ -1387,7 +1389,7 @@
     {
      "text": "Mid-framing, a contractor's board hits a passerby",
      "bin": 0,
-     "why": "Work in progress isn't completed operations."
+     "why": "Work in progress isn't completed ops: general aggregate."
     },
     {
      "text": "Contractor's finished railing at a client's hurts a guest",
@@ -1689,8 +1691,8 @@
    ],
    "beats": [
     {
-     "text": "Your turn: read the dates. Covered or not?",
-     "say": "Your turn: read the dates. Covered or not?"
+     "text": "Your turn: listen for the dates. Covered or not?",
+     "say": "Your turn: listen for the dates. Covered or not?"
     }
    ],
    "reveal": [
@@ -1824,8 +1826,8 @@
    ],
    "beats": [
     {
-     "text": "A claims-made policy that's canceled, nonrenewed or replaced by occurrence coverage gets an extended reporting period: a tail.",
-     "say": "A claims-made policy that's canceled, nonrenewed or replaced by occurrence coverage gets an extended reporting period: a tail.",
+     "text": "A claims-made policy that's canceled, nonrenewed or replaced by occurrence coverage gets an extended reporting period: a tail. That's extra time after the policy ends to make claims, for injury after the retro date and before the policy ended.",
+     "say": "A claims-made policy that's canceled, nonrenewed or replaced by occurrence coverage gets an extended reporting period: a tail. That's extra time after the policy ends to make claims, for injury after the retro date and before the policy ended.",
      "show": 2
     },
     {
@@ -1834,13 +1836,18 @@
      "show": 3
     },
     {
-     "text": "The supplemental tail is optional. Request it in writing within 60 days. It costs up to 200% of the annual premium, never ends, and reinstates the aggregates.",
-     "say": "The supplemental tail is optional. Request it in writing within sixty days. It costs up to two hundred percent of the annual premium, never ends, and reinstates the aggregates.",
+     "text": "The supplemental tail is optional: request it, in writing, within 60 days after the policy ends. It starts when the basic tail ends, costs up to 200% of the annual premium, never ends, and reinstates the aggregates.",
+     "say": "The supplemental tail is optional: request it, in writing, within sixty days after the policy ends. It starts when the basic tail ends, costs up to two hundred percent of the annual premium, never ends, and reinstates the aggregates.",
      "show": 4
     },
     {
      "text": "Neither tail covers injury after the policy ends.",
      "say": "Neither tail covers injury after the policy ends.",
+     "show": 4
+    },
+    {
+     "text": "A tail is like leaving the porch light on after a party that started at the retro date. Late knocks still get answered, but only from guests who were at the party, never from new arrivals.",
+     "say": "A tail is like leaving the porch light on after a party that started at the retro date. Late knocks still get answered, but only from guests who were at the party, never from new arrivals.",
      "show": 4
     }
    ]
@@ -1917,8 +1924,8 @@
    ],
    "beats": [
     {
-     "text": "December 2025. Grace is retiring and won't renew. Her claims-made policy, 2013 form, ends January 1. Tonight a guest trips at her last event. No claim yet. What should Grace do?",
-     "say": "December twenty twenty-five. Grace is retiring and won't renew. Her claims-made policy, twenty thirteen form, ends January first. Tonight a guest trips at her last event. No claim yet. What should Grace do?"
+     "text": "December 2025. Grace is retiring and won't renew. Her claims-made policy, 2013 form, ends January 1. Its retro date is January 1, 2023. Tonight a guest trips at her last event. No claim yet. What should Grace do?",
+     "say": "December twenty twenty-five. Grace is retiring and won't renew. Her claims-made policy, twenty thirteen form, ends January first. Its retro date is January first, twenty twenty-three. Tonight a guest trips at her last event. No claim yet. What should Grace do?"
     }
    ],
    "options": [
@@ -2143,7 +2150,7 @@
    "items": [
     "Package: common declarations and conditions plus 2 or more parts",
     "A: injury and damage. B: the four Ps. C: med pay, no fault, 1 year",
-    "Supplementary payments ride on top: $250 bail, $250 a day",
+    "Supplementary payments ride on top: $250 bail bonds, $250 a day",
     "Products-completed operations has its own aggregate",
     "Claims-made: check the retro date; basic tail 60 days or 5 years"
    ],
@@ -2209,13 +2216,13 @@
    ],
    "beats": [
     {
-     "text": "Recap: a package is common declarations and conditions plus two or more parts. A is injury and damage, B the four Ps, C med pay.",
-     "say": "Recap: a package is common declarations and conditions plus two or more parts. A is injury and damage, B the four Ps, C med pay.",
-     "show": 2
+     "text": "A package is common declarations and conditions plus two or more parts. A is injury and damage, B the four Ps, C med pay: no fault needed, but a 1-year clock. Supplementary payments ride on top: up to $250 for bail bonds, $250 a day for lost earnings.",
+     "say": "A package is common declarations and conditions plus two or more parts. A is injury and damage, B the four P's, C med pay: no fault needed, but a one-year clock. Supplementary payments ride on top: up to two hundred fifty dollars for bail bonds, two hundred fifty dollars a day for lost earnings.",
+     "show": 3
     },
     {
-     "text": "Supplementary payments ride on top. Products-completed operations get their own bucket. On claims-made, check the retro date and the tails.",
-     "say": "Supplementary payments ride on top. Products-completed operations get their own bucket. On claims-made, check the retro date and the tails.",
+     "text": "Products-completed operations get their own aggregate: their own bucket. On claims-made, check the retro date. The basic tail is 60 days, or 5 years for occurrences reported no later than 60 days after the end.",
+     "say": "Products-completed operations get their own aggregate: their own bucket. On claims-made, check the retro date. The basic tail is sixty days, or five years for occurrences reported no later than sixty days after the end.",
      "show": 5
     },
     {

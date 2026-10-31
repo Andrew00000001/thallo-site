@@ -100,7 +100,7 @@ class WAPlayer {
 }
 function attachMedia(m, L){
   m.addEventListener('error', ()=>{ if(LP.L===L) nextSource(m); });
-  m.addEventListener('ended', ()=>{ if(LP.L===L && LP.audio===m) lpFinish(); });
+  m.addEventListener('ended', ()=>{ if(LP.L===L && LP.audio===m && !VO.cur && LP.playing) lpFinish(); });
   m.addEventListener('timeupdate', ()=>{ if(LP.L===L && LP.audio===m && LP.playing) lpTick(false); });
   return m;
 }
@@ -109,17 +109,34 @@ function embeddedBytes(L){
   const el=embeddedEl(L); if(!el) return null;
   try{ return decodeBlock(el); }catch(e){ return null; }
 }
-function fetchURL(u, ms){   // resolves to the file's bytes, or null on any failure or after ms
+function fetchURL(u, ms, body, onStart){   // resolves to the file's bytes, or null on any failure; gives up if no answer within ms, or if the download takes (or clearly will take) longer than body ms (default ms)
   return new Promise(res=>{
-    let done=false; const end=b=>{ if(!done){ done=true; clearTimeout(t); res(b); } }, t=setTimeout(()=>end(null), ms);
-    fetch(u).then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.arrayBuffer(); }).then(end, ()=>end(null));
+    let done=false, t=0, ctl=null; try{ ctl=new AbortController(); }catch(e){}
+    const end=b=>{ if(done) return; done=true; clearTimeout(t); if(!b && ctl){ try{ ctl.abort(); }catch(e){} } res(b||null); };
+    t=setTimeout(()=>end(null), ms);
+    fetch(u, ctl ? {signal:ctl.signal} : undefined).then(r=>{
+      if(!r.ok) throw new Error('HTTP '+r.status); if(done) return null;
+      const lim=body||ms, t0=Date.now(); clearTimeout(t); t=setTimeout(()=>end(null), lim); if(onStart) onStart();
+      const total=+r.headers.get('content-length')||0;
+      if(!total || !r.body || !r.body.getReader) return r.arrayBuffer();
+      const rd=r.body.getReader(), parts=[]; let got=0;   // read it in pieces, so a download that cannot finish in time is dropped early
+      const pump=()=>rd.read().then(x=>{
+        if(done) return null;
+        if(x.done){ const out=new Uint8Array(got); let o=0; for(const q of parts){ out.set(q, o); o+=q.length; } return out.buffer; }
+        parts.push(x.value); got+=x.value.length; const el=Date.now()-t0;
+        if(el>4000 && el*total/got>lim) return null;
+        return pump(); });
+      return pump();
+    }).then(end, ()=>end(null));
   });
 }
 function fetchBytes(L){
   const net = typeof fetch==='function' && location.protocol!=='file:';
   // full-quality audio published next to the page; the compact copy inside the page is the fallback (file:// or offline)
-  const hq = L.audioHQ && net ? fetchURL(L.audioHQ, 6000) : Promise.resolve(null);
-  return hq.then(b=>{
+  // a slow connection still gets it: 6 s to answer, then up to 30 s to download (the lesson waits on "Loading audio…" meanwhile)
+  L.hqStart=0;
+  const hq = L.audioHQ && net ? fetchURL(L.audioHQ, 6000, 30000, ()=>{ L.hqStart=Date.now(); }) : Promise.resolve(null);
+  return hq.then(b=>{ L.hqStart=0;
     if(b && b.byteLength){ L.hqOk=true; if(LP.L===L) LP.bytes=b; return b; }
     if(embeddedEl(L)) return embeddedBytes(L);
     if(!L.audio || !net) return null;
@@ -132,7 +149,9 @@ function startSources(L){
   setReady(false);
   LP.bytesP = fetchBytes(L);
   let settled=false;
-  const timer=setTimeout(()=>{ if(!settled && LP.L===L && !LP.audio){ settled=true; LP.srcStage=1; useSource(directSource(L), L); } }, 8000);
+  const timer=setTimeout(function back(){ if(settled || LP.L!==L || LP.audio) return;
+    if(L.hqStart && Date.now()-L.hqStart < 31000){ setTimeout(back, 1000); return; }   // the full-quality file is still downloading
+    settled=true; LP.srcStage=1; useSource(directSource(L), L); }, 8000);
   LP.bytesP.then(b=>{
     if(settled || LP.L!==L) return; settled=true; clearTimeout(timer);
     if(b && window.URL && URL.createObjectURL){
@@ -216,16 +235,89 @@ const SFX = {
   }
 };
 
+/* --- spoken activity text ---
+   The narrator reads every activity line aloud: the question and its choices, each card or item, each spot, the
+   options, and the feedback after an answer. Each line is a short clip after the main narration in the full-quality
+   file (L.clips: id -> [start, end]). When that file is not the one playing (the page's built-in copy has no clips,
+   or there is no sound file), the browser's own voice reads the same words (L.clipSay). */
+const VO = {k:0, cur:null, raf:0, timer:0, voice:undefined};
+function voHasClips(){ const L=LP.L; return !!(L && L.clips && L.hqOk && LP.audio && !LP.virtual); }
+function voCap(text){ const cap=$('#lp-cap'); if(!cap) return; if(text && LP.cc){ cap.hidden=false; cap.textContent=text; cap.dataset.who=''; } else if(!text && !LP.playing){ cap.hidden=true; } }
+function voStop(){
+  VO.k++; const c=VO.cur; VO.cur=null; cancelAnimationFrame(VO.raf); clearTimeout(VO.timer);
+  if(c && c.m){ try{ c.m.pause(); c.m.currentTime=c.back; }catch(e){} }
+  try{ if(window.speechSynthesis) speechSynthesis.cancel(); }catch(e){}
+  if(c) voCap('');
+}
+function voSay(ids, then){
+  voStop(); const k=VO.k, L=LP.L; if(!L) return;
+  const list=(ids||[]).filter(id=>id && L.clipText && L.clipText[id]!=null);
+  const step=i=>{ if(k!==VO.k) return; if(i>=list.length){ VO.cur=null; voCap(''); if(then) then(); return; } voOne(list[i], ()=>step(i+1), k); };
+  step(0);
+}
+function voOne(id, done, k){
+  const L=LP.L; voCap(L.clipText[id]);
+  if(!(voHasClips() && L.clips[id])){ voSpeak(id, done, k); return; }
+  const [a,b]=L.clips[id], m=LP.audio, back=lpTime();
+  VO.cur={id, m, back}; let fin=false;
+  const end=()=>{ if(fin) return; fin=true; cancelAnimationFrame(VO.raf); clearTimeout(VO.timer); if(VO.cur && VO.cur.m===m){ try{ m.pause(); m.currentTime=back; }catch(e){} VO.cur=null; } if(k===VO.k) done(); };
+  try{ m.playbackRate=LP.rate; m.currentTime=a; }catch(e){}
+  const pr=m.play(); if(pr && pr.catch) pr.catch(()=>{ if(k===VO.k && !fin){ fin=true; VO.cur=null; voSpeak(id, done, k); } });
+  const tick=()=>{ if(k!==VO.k || fin) return; if(m.currentTime>=b-0.02) end(); else VO.raf=requestAnimationFrame(tick); };
+  VO.raf=requestAnimationFrame(tick);
+  VO.timer=setTimeout(end, ((b-a)/LP.rate+2.5)*1000);   // never wait on a stalled clip
+}
+function voPickVoice(){
+  if(VO.voice!==undefined) return VO.voice;
+  try{ const vs=speechSynthesis.getVoices().filter(v=>/^en[-_]US/i.test(v.lang)); if(!vs.length) return null;
+    VO.voice = vs.find(v=>/natural|neural|online/i.test(v.name)) || vs.find(v=>/google/i.test(v.name)) || vs.find(v=>v.default) || vs[0]; }catch(e){ VO.voice=null; }
+  return VO.voice;
+}
+function voSpeak(id, done, k){
+  const L=LP.L, text=(L.clipSay && L.clipSay[id]) || L.clipText[id], S=window.speechSynthesis;
+  let fin=false; const end=()=>{ if(fin) return; fin=true; clearTimeout(VO.timer); if(k===VO.k) done(); };
+  if(!S || typeof SpeechSynthesisUtterance==='undefined'){ VO.timer=setTimeout(end, 300); return; }
+  try{
+    const u=new SpeechSynthesisUtterance(text); u.lang='en-US'; u.rate=Math.max(0.6, Math.min(1.8, LP.rate));
+    const v=voPickVoice(); if(v) u.voice=v;
+    u.onend=end; u.onerror=end; S.speak(u);
+    VO.timer=setTimeout(end, (text.split(/\s+/).length*0.55/u.rate+3)*1000);
+  }catch(e){ VO.timer=setTimeout(end, 300); }
+}
+try{ if(window.speechSynthesis) speechSynthesis.addEventListener('voiceschanged', ()=>{ VO.voice=undefined; }); }catch(e){}
+/* what each activity says when it opens, and what "hear it again" repeats */
+function voPrompt(si){
+  const sc=LP.L.scenes[si], g=LP.gs[si], p='s'+si;
+  if(sc.type==='quiz') return [p+'.q'];
+  if(sc.type==='choice') return [p+'.ask'];
+  if(sc.type==='swipe'){ const i=g?g.i:0; return i<sc.cards.length ? [p+'.c'+i] : []; }
+  if(sc.type==='sort'){ return g && g.sel!=null ? [p+'.i'+g.sel] : []; }
+  if(sc.type==='explore'){ return g && g.cur!=null ? [p+'.p'+g.cur] : []; }
+  if(sc.type==='slider') return [p+'.goal'];
+  return [];
+}
+function gateOpen(si){
+  if(LP.voOpen===si) return; LP.voOpen=si;
+  const sc=LP.L.scenes[si], p='s'+si;
+  if(sc.type==='swipe'){ voSay([p+'.intro'].concat(voPrompt(si))); return; }
+  if(sc.type==='sort'){ voSay([p+'.intro'], ()=>sortNext(si)); return; }
+  voSay(voPrompt(si));
+}
+function hearAgain(){ const si=LP.scene; if(si<0 || !LP.L || LP.awaiting!==si) return; voSay(voPrompt(si)); }
+const hearBtn = () => `<button class="gx-hear" data-act="lp-hear" title="Hear it again (H)" aria-label="Hear it again">${icon('volume-2','st-smic')}</button>`;
+
 /* --- player state --- */
 const LP = {L:null, audio:null, virtual:false, playing:false, vbase:0, vt0:0, rate:1, raf:0, scene:-1, sig:'', gate:{}, gs:{}, awaiting:-1, ended:false, lastSave:0, srcStage:0, bytes:null, bytesP:null, blobUrl:null, sk:[], lastT:0, stars:0};
 function lpDur(){ return LP.L ? LP.L.timing.dur : 0; }
 function lpTime(){
   if(!LP.L) return 0;
   if(LP.virtual) return LP.playing ? Math.min(lpDur(), LP.vbase + (performance.now()-LP.vt0)/1000*LP.rate) : LP.vbase;
+  if(VO.cur && VO.cur.m && VO.cur.m===LP.audio) return VO.cur.back;   // a read-aloud line is playing from the clip section: the lesson is still where it stopped
   return LP.audio ? LP.audio.currentTime : (LP.vbase || 0);
 }
 function lpPlay(){
   if(!LP.L) return;
+  voStop();
   if(LP.ended){ lpSeek(0); LP.ended=false; }
   if(LP.awaiting>=0) return;
   hideOverlay();
@@ -244,6 +336,7 @@ function lpPause(){
 function stageClass(){ const s=$('#lp-stage'); if(s) s.classList.toggle('sk-paused', !LP.playing && LP.awaiting<0); }
 function lpSeek(t){
   if(!LP.L) return;
+  voStop();
   t=Math.max(0, Math.min(lpDur(), t));
   if(LP.virtual){ LP.vbase=t; LP.vt0=performance.now(); }
   else if(LP.audio){ try{ LP.audio.currentTime=t; }catch(e){} }
@@ -252,7 +345,7 @@ function lpSeek(t){
   lpTick(true, t);
 }
 function goVirtual(tIn, wasIn, silentBuild){
-  const t = tIn!=null ? tIn : (LP.audio ? LP.audio.currentTime : 0);
+  const t = tIn!=null ? tIn : lpTime();
   if(wasIn!=null) LP.playing = wasIn;
   if(LP.audio){ try{ LP.audio.pause(); LP.audio.removeAttribute('src'); }catch(e){} }
   LP.virtual=true; LP.vbase=t||0; LP.vt0=performance.now(); LP.cc=true;
@@ -265,6 +358,7 @@ function goVirtual(tIn, wasIn, silentBuild){
 }
 function lpLoop(){ cancelAnimationFrame(LP.raf); const f=()=>{ if(!LP.L || !LP.playing) return; lpTick(false); LP.raf=requestAnimationFrame(f); }; LP.raf=requestAnimationFrame(f); }
 function lpClose(){
+  voStop(); LP.voOpen=-1;
   if(LP.L){ lpSavePos(true); }
   cancelAnimationFrame(LP.raf);
   if(LP.audio){ try{ LP.audio.pause(); LP.audio.removeAttribute('src'); LP.audio.load(); }catch(e){} }
@@ -335,7 +429,7 @@ function skipBtn(si){ return LP.gate[si] ? '' : `<button class="st-skip" data-ac
 /* quiz */
 function quizHTML(sc, si){
   const q=LP.gate[si];
-  return `${gateEyebrow(sc.warmup?'Take a guess':'Quick check')}<p class="st-q">${esc(sc.q)}</p>
+  return `${gateEyebrow(sc.warmup?'Take a guess':'Quick check')}<p class="st-q">${esc(sc.q)}${q?'':hearBtn()}</p>
     <div class="st-choices">${sc.choices.map((c,i)=>{ let cls=''; if(q){ if(i===sc.answer) cls='right'; else if(i===q.pick) cls='wrong'; }
       return `<button class="st-choice ${cls}" data-act="lp-pick" data-i="${i}" ${q?'disabled':''}><span class="mono">${LETTERS[i]}</span><span>${esc(c)}</span></button>`; }).join('')}</div>
     <div class="st-why" ${q?'':'hidden'}>${q?`<b>${q.skip?'Answer:':q.pts?'Correct!':'Not quite.'}</b> ${esc(sc.why)}`:''}</div>
@@ -345,7 +439,7 @@ function lpPick(i){
   const si=LP.scene, sc=LP.L.scenes[si]; if(!sc || sc.type!=='quiz' || LP.gate[si]) return;
   const ok = i===sc.answer;
   SFX.play(ok?'ding':'buzz');
-  gateDone(si, ok?1:0, {pick:i});
+  gateDone(si, ok?1:0, {pick:i}, [ok?'ok':'no', 's'+si+'.why']);
 }
 
 /* swipe: one card at a time, pick a side */
@@ -364,35 +458,44 @@ function swipeHTML(sc, si){
       <p class="gx-ct">${esc(c.text)}</p>
     </div>
     <div class="gx-opts">${sc.options.map((o,k)=>`<button class="btn gx-opt ${pick!=null&&k===c.answer?'right':''} ${pick===k&&k!==c.answer?'wrong':''}" data-act="gx-swipe" data-k="${k}" ${pick!=null?'disabled':''}>${esc(o)}</button>`).join('')}</div>
-    ${pick!=null?`<div class="gx-why"><b>${pick===c.answer?'Right!':'Not quite.'}</b> ${esc(c.why)} <button class="btn small primary" data-act="gx-swipe-next">${g.i+1<sc.cards.length?'Next card':'See results'}</button></div>`:skipBtn(si)}`;
+    ${pick!=null?`<div class="gx-why"><b>${pick===c.answer?'Right!':'Not quite.'}</b> ${esc(c.why)} <button class="btn small primary" data-act="gx-swipe-next">${g.i+1<sc.cards.length?'Next card':'See results'}</button></div>`:`<div class="gx-row">${hearBtn()}${skipBtn(si)}</div>`}`;
 }
 function gxSwipe(k){
   const si=LP.scene, sc=LP.L.scenes[si], g=LP.gs[si]; if(!g || LP.gate[si] || g.picks[g.i]!=null) return;
-  g.picks[g.i]=k; SFX.play(k===sc.cards[g.i].answer?'ding':'buzz'); rerenderGate(si);
+  const i=g.i, ok=k===sc.cards[i].answer; g.picks[i]=k; SFX.play(ok?'ding':'buzz'); rerenderGate(si);
+  voSay([ok?'ok':'no', 's'+si+'.c'+i+'.why'], ()=>{ if(LP.scene===si && LP.gs[si]===g && g.i===i && !LP.gate[si]) gxSwipeNext(); });   // hands-free: on to the next card
 }
-function gxSwipeNext(){ const si=LP.scene, g=LP.gs[si]; if(!g) return; g.i++; SFX.play('click'); rerenderGate(si); }
+function gxSwipeNext(){ const si=LP.scene, sc=LP.L.scenes[si], g=LP.gs[si]; if(!g) return; g.i++; SFX.play('click'); rerenderGate(si);
+  if(g.i<sc.cards.length) voSay(['s'+si+'.c'+g.i]); else voSay([], ()=>{ if(LP.scene===si && !LP.gate[si]) setTimeout(()=>{ if(LP.scene===si && !LP.gate[si]) gxSwipeDone(); }, 1200); }); }
 function gxSwipeDone(){ const si=LP.scene, sc=LP.L.scenes[si], g=LP.gs[si]; gateDone(si, g.picks.filter((p,k)=>p===sc.cards[k].answer).length); }
 
-/* sort: drop each item in a bin */
+/* sort: one item at a time; the narrator reads it, the learner taps its box, and hears right away why it goes there */
 function sortHTML(sc, si){
-  const g=LP.gs[si] || (LP.gs[si]={place:{}, sel:null, checked:false}), done=LP.gate[si];
-  const show = done || g.checked;
-  const skipped = done && done.skip;
-  const chip = (x,k) => { const ok=show && g.place[k]===x.bin;
-    return `<button class="gx-chip ${g.sel===k?'sel':''} ${show?(skipped?'ans':ok?'ok':'no'):''}" data-act="gx-chip" data-k="${k}" ${show?'disabled':''}>${esc(x.text)}${show&&!ok?`<small>${esc(x.why||('Belongs in: '+sc.bins[x.bin].name))}</small>`:''}</button>`; };
-  const tray = sc.items.map((x,k)=>[x,k]).filter(([x,k])=>!show && g.place[k]==null);
-  const all = Object.keys(g.place).length===sc.items.length;
+  const g=LP.gs[si] || (LP.gs[si]={place:{}, sel:null, checked:false}), done=LP.gate[si], skipped=done && done.skip;
+  const placed = k => skipped ? true : g.place[k]!=null;
+  const chip = (x,k) => { const ok = skipped || g.place[k]===x.bin, judged = skipped || g.place[k]!=null;
+    return `<button class="gx-chip ${g.sel===k?'sel':''} ${judged?(skipped?'ans':ok?'ok':'no'):''}" data-act="gx-chip" data-k="${k}" ${judged?'disabled':''}>${esc(x.text)}${judged&&!ok?`<small>${esc('Belongs in: '+sc.bins[x.bin].name)}</small>`:''}</button>`; };
+  const tray = sc.items.map((x,k)=>[x,k]).filter(([x,k])=>!placed(k));
+  const all = sc.items.every((x,k)=>placed(k)), right = sc.items.filter((x,k)=>g.place[k]===x.bin).length;
+  const where = k => skipped ? sc.items[k].bin : g.place[k];
   return `${gateEyebrow('Sort it out','layers')}
-    ${!show?`<p class="gx-hint">${g.sel!=null?'Now tap the box where it belongs.':'Tap a card, then tap a box. (Or drag it.)'}</p>`:''}
+    ${!all?`<p class="gx-hint">${g.sel!=null?'Listen, then tap the box where it belongs.':'Tap a card, then tap a box.'} ${hearBtn()}</p>`:''}
     <div class="gx-tray">${tray.map(([x,k])=>chip(x,k)).join('')}</div>
-    <div class="gx-bins b${sc.bins.length}">${sc.bins.map((b,bi)=>`<div class="gx-bin ${g.sel!=null&&!show?'armed':''}" data-act="gx-bin" data-b="${bi}" role="button" tabindex="${g.sel!=null&&!show?0:-1}"><h4>${esc(b.name)}</h4>
-      ${sc.items.map((x,k)=>[x,k]).filter(([x,k])=>(show?(skipped?x.bin===bi:(g.place[k]!=null?g.place[k]===bi:x.bin===bi)):g.place[k]===bi)).map(([x,k])=>chip(x,k)).join('')}</div>`).join('')}</div>
-    ${show ? (done?'':`<div class="gx-why"><b>${sc.items.filter((x,k)=>g.place[k]===x.bin).length} of ${sc.items.length} in the right box.</b> <button class="btn small primary" data-act="gx-sort-done">Continue</button></div>`)
-      : all ? `<button class="btn primary" data-act="gx-sort-check">Check my sorting</button>` : skipBtn(si)}`;
+    <div class="gx-bins b${sc.bins.length}">${sc.bins.map((b,bi)=>`<div class="gx-bin ${g.sel!=null&&!all?'armed':''}" data-act="gx-bin" data-b="${bi}" role="button" tabindex="${g.sel!=null&&!all?0:-1}"><h4><span class="mono">${bi+1}</span> ${esc(b.name)}</h4>
+      ${sc.items.map((x,k)=>[x,k]).filter(([x,k])=>placed(k) && where(k)===bi).map(([x,k])=>chip(x,k)).join('')}</div>`).join('')}</div>
+    ${all ? (done?'':`<div class="gx-why"><b>${right} of ${sc.items.length} in the right box.</b> <button class="btn small primary" data-act="gx-sort-done">Continue</button></div>`) : skipBtn(si)}`;
 }
-function gxChip(k){ const si=LP.scene, g=LP.gs[si]; if(!g || g.checked) return; if(g.place[k]!=null){ delete g.place[k]; } g.sel = g.sel===k ? null : k; SFX.play('click'); rerenderGate(si); }
-function gxBin(b){ const si=LP.scene, g=LP.gs[si]; if(!g || g.sel==null || g.checked) return; g.place[g.sel]=b; g.sel=null; SFX.play('pop'); rerenderGate(si); }
-function gxSortCheck(){ const si=LP.scene, sc=LP.L.scenes[si], g=LP.gs[si]; g.checked=true; const r=sc.items.filter((x,k)=>g.place[k]===x.bin).length; SFX.play(r===sc.items.length?'tada':r>=sc.items.length/2?'ding':'buzz'); rerenderGate(si); }
+function sortNext(si){
+  const sc=LP.L.scenes[si], g=LP.gs[si] || (LP.gs[si]={place:{}, sel:null, checked:false}); if(LP.scene!==si || LP.gate[si]) return;
+  const k = sc.items.findIndex((x,k)=>g.place[k]==null);
+  if(k<0){ g.checked=true; rerenderGate(si); voSay([], ()=>setTimeout(()=>{ if(LP.scene===si && !LP.gate[si]) gxSortDone(); }, 1200)); return; }
+  g.sel=k; rerenderGate(si); voSay(['s'+si+'.i'+k]);
+}
+function gxChip(k){ const si=LP.scene, g=LP.gs[si]; if(!g || g.checked || g.place[k]!=null) return; g.sel=k; SFX.play('click'); rerenderGate(si); voSay(['s'+si+'.i'+k]); }
+function gxBin(b){ const si=LP.scene, sc=LP.L.scenes[si], g=LP.gs[si]; if(!g || g.sel==null || g.checked) return;
+  const k=g.sel, ok=sc.items[k].bin===b; g.place[k]=b; g.sel=null; SFX.play(ok?'ding':'buzz'); rerenderGate(si);
+  voSay([ok?'ok':'no', 's'+si+'.i'+k+'.why'], ()=>sortNext(si)); }
+function gxSortCheck(){ const si=LP.scene; sortNext(si); }
 function gxSortDone(){ const si=LP.scene, sc=LP.L.scenes[si], g=LP.gs[si]; gateDone(si, sc.items.filter((x,k)=>g.place[k]===x.bin).length); }
 
 /* explore: tap the hotspots on a drawing */
@@ -411,7 +514,8 @@ function placeSpots(si){
 }
 function gxSpot(k){ const si=LP.scene, g=LP.gs[si]; if(!g) return; g.seen[k]=1; g.cur=k; SFX.play('pop');
   const sc=LP.L.scenes[si]; if(LP.sk[0]) SK.update(LP.sk[0], lpTime(), {hl:[sc.spots[k].on]}); LP.spotHl=sc.spots[k].on;
-  rerenderGate(si); placeSpots(si); }
+  rerenderGate(si); placeSpots(si);
+  voSay(['s'+si+'.p'+k], ()=>{ if(LP.scene===si && !LP.gate[si] && Object.keys(g.seen).length===sc.spots.length) setTimeout(()=>{ if(LP.scene===si && !LP.gate[si]) gxExploreDone(); }, 900); }); }
 function gxExploreDone(){ const si=LP.scene; LP.spotHl=null; gateDone(si, 1); }
 
 /* slider: a live calculator */
@@ -451,7 +555,7 @@ function gxSlider(si, v){
   const sc=LP.L.scenes[si]; const g=LP.gs[si]; g.v=+v; const {r}=sliderVals(sc, si);
   const fmt=sc.var.money===false ? (x=>Number(x).toLocaleString('en-US')) : money;
   const lv=$('#gx-v-'+si); if(lv) lv.textContent=fmt(g.v); const c=$('#gx-calc-'+si); if(c) c.innerHTML=calcLines(r);
-  if(sc.goal && !g.hit && goalMet(sc, r)){ g.hit=true; SFX.play('cash'); rerenderGate(si); }
+  if(sc.goal && !g.hit && goalMet(sc, r)){ g.hit=true; SFX.play('cash'); rerenderGate(si); voSay(['s'+si+'.done'], ()=>setTimeout(()=>{ if(LP.scene===si && !LP.gate[si]) gxSliderDone(); }, 1200)); }   // hands-free: goal reached, on to the explanation
 }
 function gxSliderDone(){ const si=LP.scene, sc=LP.L.scenes[si], g=LP.gs[si] || (LP.gs[si]={v:sc.var.start, hit:false});
   if(sc.goal && !g.hit){ for(let v=sc.var.min; v<=sc.var.max+1e-9; v+=sc.var.step){ g.v=v; if(goalMet(sc, sliderVals(sc, si).r)) break; } }   // show the answer the reveal talks about
@@ -466,7 +570,7 @@ function chooseHTML(sc, si){
   if(g.phase==='out') return `${eb}<p class="gx-hint gx-watch">Let's see what happens…</p>`;
   if(g.phase==='fail'){ const o=sc.options[g.k]; return `${eb}<div class="gx-fail"><span class="gx-failword">FAIL</span><p>${esc(o.fail)}</p><button class="btn primary" data-act="gx-retry">Try again</button><span class="mono small">Fails found: ${found} of ${nf}</span></div>`; }
   return `${eb}<div class="gx-chs n${sc.options.length}">${sc.options.map((o,k)=>`<button class="gx-ch ${g.tried[k]?'tried':''}" data-act="gx-choose" data-k="${k}"><span class="gx-chn">${k+1}</span><span>${esc(o.label)}</span>${g.tried[k]?'<em>FAIL</em>':''}</button>`).join('')}</div>
-    <div class="gx-row">${found?`<span class="mono small">Fails found: ${found} of ${nf}</span>`:'<span></span>'}${skipBtn(si)}</div>`;
+    <div class="gx-row">${found?`<span class="mono small">Fails found: ${found} of ${nf}</span>`:hearBtn()}${skipBtn(si)}</div>`;
 }
 function choiceEls(sc, si){
   const g=choiceState(si), done=LP.gate[si], w=sc.options.findIndex(o=>o.ok);
@@ -485,7 +589,7 @@ function gxChoose(k){
 function gxRetry(){
   const si=LP.scene, g=choiceState(si); if(g.phase!=='fail') return;
   g.phase='ask'; g.k=null; LP.scene=-1; SFX.play('boing');
-  lpSeek(LP.L.timing.scenes[si].q); LP.awaiting=si; stageClass();
+  lpSeek(LP.L.timing.scenes[si].q); LP.awaiting=si; stageClass(); LP.voOpen=-1; gateOpen(si);
   const b=$('#lp-stage .gx-ch'); if(b) b.focus({preventScroll:true});
 }
 
@@ -495,7 +599,7 @@ function rerenderGate(si){
   const html = sc.type==='quiz'?quizHTML(sc,si):sc.type==='swipe'?swipeHTML(sc,si):sc.type==='sort'?sortHTML(sc,si):sc.type==='explore'?exploreHTML(sc,si):sc.type==='choice'?chooseHTML(sc,si):sliderHTML(sc,si);
   box.innerHTML=html; mountCanvases(box, sc, si, true); fitScene();
 }
-function gateDone(si, pts, extra){
+function gateDone(si, pts, extra, say){
   const L=LP.L, sc=L.scenes[si]; if(LP.gate[si]) return;
   const max=gateMax(sc);
   LP.gate[si]=Object.assign({pts, max}, extra||{});
@@ -504,16 +608,19 @@ function gateDone(si, pts, extra){
   if(sc.type==='quiz') rerenderGate(si); else rerenderGate(si);
   if(sc.type==='explore') placeSpots(si);
   const tm=L.timing.scenes[si];
-  LP.awaiting=-1;
-  if(lpTime() < tm.r){ lpSeek(tm.r); }
-  lpPlay();
+  const go=()=>{ if(LP.L!==L) return; LP.awaiting=-1; if(lpTime() < tm.r){ lpSeek(tm.r); } lpPlay(); };
+  if(say && say.length){ if(LP.playing) lpPause(); voSay(say, go); } else go();
 }
 function lpSkip(){
   const si=LP.scene, sc=LP.L&&LP.L.scenes[si]; if(!sc || LP.gate[si]) return;
+  voStop();
   if(sc.type==='slider' && sc.goal){ const g=LP.gs[si] || (LP.gs[si]={v:sc.var.start, hit:false}); for(let v=sc.var.min; v<=sc.var.max+1e-9; v+=sc.var.step){ g.v=v; if(goalMet(sc, sliderVals(sc, si).r)) break; } }   // show the answer the reveal talks about
   LP.gate[si]={pts:0, max:gateMax(sc), skip:true, pick:-1};
   LP.awaiting=-1; rerenderGate(si); if(sc.type==='explore') placeSpots(si);
-  lpSeek(LP.L.timing.scenes[si].r); lpPlay();
+  // a listener who skips still hears the answer's explanation: the right option's outcome, or the quiz's why
+  const L=LP.L, say = sc.type==='choice' ? ['s'+si+'.o'+sc.options.findIndex(o=>o.ok)+'.win'] : sc.type==='quiz' ? ['s'+si+'.why'] : [];
+  const go=()=>{ if(LP.L!==L) return; lpSeek(L.timing.scenes[si].r); lpPlay(); };
+  if(say.some(id=>L.clipText && L.clipText[id]!=null)){ if(LP.playing) lpPause(); voSay(say, go); } else go();
 }
 function hud(bump){ const h=$('#lp-hud'); if(!h) return; h.innerHTML=`★ <b>${LP.stars}</b>`; if(bump){ h.classList.remove('bump'); void h.offsetWidth; h.classList.add('bump'); } }
 
@@ -564,24 +671,25 @@ function lpTick(force, tOverride){
   const s = stateAt(t);
   const sc=L.scenes[s.si], tm=T[s.si], isGate=GATES.has(sc.type);
   // choice: an outcome plays, then FAIL (wait for "Try again") or success (continue to the explanation)
-  let chOut = false;
+  let chOut = false, openAfter = false, failSay = null;
   if(sc.type==='choice' && !LP.gate[s.si]){
     const g=choiceState(s.si), ob=tm.ob||[];
     if(g.phase==='out'){
       const seg=ob[g.k], end=seg[seg.length-1][1]+0.3;
       if(t >= end && t < tm.r+0.5){
-        if(sc.options[g.k].ok){ g.phase='win'; SFX.play('tada'); gateDone(s.si, g.first===g.k?1:0, {pick:g.k}); return; }
-        g.phase='fail'; SFX.play('buzz'); lpPause(); LP.awaiting=s.si; stageClass(); force=true;
+        if(sc.options[g.k].ok){ g.phase='win'; SFX.play('tada'); gateDone(s.si, g.first===g.k?1:0, {pick:g.k}, ['s'+s.si+'.o'+g.k+'.win']); return; }
+        g.phase='fail'; SFX.play('buzz'); lpPause(); LP.awaiting=s.si; stageClass(); force=true; failSay=['s'+s.si+'.o'+g.k+'.fail'];
       } else if(t < seg[0][0]-0.4 || t >= tm.r+0.5){ g.phase='ask'; g.k=null; force=true; }
       else chOut = true;
     } else if(g.phase==='ask' && LP.playing && ob.some(seg=>seg.length && t>=seg[0][0]-0.05 && t<tm.r)){
-      lpPause(); LP.awaiting=s.si; stageClass(); if(!LP.virtual && LP.audio){ try{ LP.audio.currentTime=tm.q; }catch(e){} } else LP.vbase=tm.q; force=true;
+      lpPause(); LP.awaiting=s.si; stageClass(); if(!LP.virtual && LP.audio){ try{ LP.audio.currentTime=tm.q; }catch(e){} } else LP.vbase=tm.q; force=true; openAfter=true;
     }
   }
   // gate: stop at the end of the prompt until the learner finishes the activity
   if(isGate && !chOut && !(sc.type==='choice' && LP.gs[s.si] && LP.gs[s.si].phase==='fail') && !LP.gate[s.si] && LP.playing && t >= tm.q-0.03 && t < tm.r){
     lpPause(); LP.awaiting=s.si; stageClass(); if(!LP.virtual && LP.audio){ try{ LP.audio.currentTime=tm.q; }catch(e){} } else LP.vbase=tm.q;
     const b=$('#lp-stage .st-q, #lp-stage .gx-opt, #lp-stage .gx-chip, #lp-stage .gx-spot, #lp-stage [data-gx-slider], #lp-stage .gx-ch'); if(b){ if(!b.matches('button,input')) b.tabIndex=-1; b.focus({preventScroll:true}); }
+    openAfter = true;
   }
   if(isGate && !LP.gate[s.si] && t >= tm.r){ LP.gate[s.si]={pts:0, max:gateMax(sc), skip:true, pick:-1}; if(LP.awaiting===s.si) LP.awaiting=-1; force=true; }
   const jump = force || Math.abs(t-LP.lastT) > 0.75; LP.lastT=t;
@@ -604,7 +712,10 @@ function lpTick(force, tOverride){
     LP.sk.forEach(R=>SK.update(R, t, {instant: jump, hl, onShow: x=>{ if(!LP.playing) return; const k=x.el.sfx || (x.el.p==='stamp'?'stamp':null); if(k) SFX.play(k); },
       onMove: x=>{ if(LP.playing && x.el.move.sfx) SFX.play(x.el.move.sfx); }}));
   }
-  const cap=$('#lp-cap'); if(cap){ const on=(LP.cc||LP.virtual) && s.cap; cap.hidden=!on; if(on && cap.textContent!==s.cap) cap.textContent=s.cap; cap.dataset.who=s.who&&s.who!=='narrator'?castName(s.who):''; }
+  if(LP.awaiting!==s.si && !VO.cur){ const cap=$('#lp-cap'); if(cap){ const on=(LP.cc||LP.virtual) && s.cap; cap.hidden=!on; if(on && cap.textContent!==s.cap) cap.textContent=s.cap; cap.dataset.who=s.who&&s.who!=='narrator'?castName(s.who):''; } }
+  if(LP.awaiting!==s.si) LP.voOpen=-1;
+  if(failSay) voSay(failSay);
+  else if(openAfter || (LP.awaiting===s.si && LP.voOpen!==s.si && !LP.playing)) gateOpen(s.si);
   const r=$('#lp-range'); if(r && document.activeElement!==r) r.value=t.toFixed(1);
   const tt=$('#lp-time'); if(tt) tt.textContent=mmss(t)+' / '+mmss(lpDur());
   const fill=$('#lp-fill'); if(fill) fill.style.width=(lpDur()? t/lpDur()*100 : 0)+'%';
@@ -705,7 +816,7 @@ function sortDrag(stage){
     if(drag.moved){ drag.el.style.transform=`translate(${dx}px,${dy}px)`; stage.querySelectorAll('.gx-bin').forEach(b=>{ const r=b.getBoundingClientRect(); b.classList.toggle('over', e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom); }); } });
   const end=e=>{ if(!drag) return; const d=drag; drag=null; if(!d.moved) return; d.el.style.transform=''; d.el.classList.remove('dragging'); let hit=null;
     stage.querySelectorAll('.gx-bin').forEach(b=>{ const r=b.getBoundingClientRect(); if(e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom) hit=+b.dataset.b; b.classList.remove('over'); });
-    const si=LP.scene, g=LP.gs[si]; if(g && hit!=null && !g.checked){ g.place[d.k]=hit; g.sel=null; SFX.play('pop'); rerenderGate(si); } d.el._noclick=true; setTimeout(()=>{ d.el._noclick=false; }, 0); };
+    const si=LP.scene, g=LP.gs[si]; if(g && hit!=null && !g.checked && g.place[d.k]==null){ g.sel=d.k; gxBin(hit); } d.el._noclick=true; setTimeout(()=>{ d.el._noclick=false; }, 0); };
   stage.addEventListener('pointerup', end); stage.addEventListener('pointercancel', end);
 }
 function lpScene(d){
@@ -727,6 +838,7 @@ function lessonActs(act, b){
   if(act==='lp-next'){ lpScene(1); return true; }
   if(act==='lp-pick'){ lpPick(+b.dataset.i); return true; }
   if(act==='lp-skip'){ lpSkip(); return true; }
+  if(act==='lp-hear'){ hearAgain(); return true; }
   if(act==='gx-swipe'){ gxSwipe(+b.dataset.k); return true; }
   if(act==='gx-swipe-next'){ gxSwipeNext(); return true; }
   if(act==='gx-swipe-done'){ gxSwipeDone(); return true; }
@@ -757,6 +869,8 @@ function lessonKeys(e, k){
   if(qs && qs.type==='choice' && choiceState(LP.scene).phase==='fail' && (k==='enter'||k==='r')){ e.preventDefault(); gxRetry(); return true; }
   if(qs && qs.type==='swipe' && !LP.gate[LP.scene]){ const n=['1','2','3'].indexOf(k); const g=LP.gs[LP.scene]; if(n>=0 && n<qs.options.length && g && g.picks[g.i]==null && g.i<qs.cards.length){ e.preventDefault(); gxSwipe(n); return true; } }
   if((k==='enter'||k===' ') && e.target.matches && e.target.matches('.gx-bin')){ e.preventDefault(); gxBin(+e.target.dataset.b); return true; }
+  if(qs && qs.type==='sort' && !LP.gate[LP.scene] && LP.gs[LP.scene] && LP.gs[LP.scene].sel!=null){ const n=['1','2','3','4'].indexOf(k); if(n>=0 && n<qs.bins.length){ e.preventDefault(); gxBin(n); return true; } }
+  if(k==='h' && LP.awaiting>=0){ e.preventDefault(); hearAgain(); return true; }
   if(e.target.closest && e.target.closest('button,select,input,summary,a,[role="button"]')) { if(!(k===' ' && e.target.id==='lp-play')) return false; }
   if(k===' '||k==='k'){ e.preventDefault(); if(LP.awaiting<0){ LP.playing?lpPause():lpPlay(); } return true; }
   if(k==='arrowleft'){ e.preventDefault(); lpScene(-1); return true; }

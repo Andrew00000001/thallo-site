@@ -1,6 +1,7 @@
 {
  "id": "L12",
  "beats": 58,
+ "clips": 39,
  "mismatches": [
   {
    "scene": 0,
@@ -8,6 +9,14 @@
    "say": "It's January in Grand Rapids. Sam and Jen Miller insure their house with the twenty eleven H O three, and winter is about to test it.",
    "heard": "It's January in Grand Rapids. Sam and Jen Miller ensure their house with the 2011 H03, and Winter is about to test it.",
    "wer": 0.043,
+   "voice": "narrator"
+  },
+  {
+   "scene": 1,
+   "beat": 1,
+   "say": "Picture their house as a party: every cause gets in, unless it's on the banned list. For their couch and T V, only the sixteen named perils on the guest list get in. Not on that list? Not covered.",
+   "heard": "Picture their house as a party. Every cause gets in unless it's on the band list. For their couch and TV, only the 16 named perils on the guest list get in. Not on that list, not covered.",
+   "wer": 0.027,
    "voice": "narrator"
   },
   {
@@ -19,19 +28,19 @@
    "voice": "narrator"
   },
   {
-   "scene": 5,
-   "beat": 1,
-   "say": "The neighbors moved to Traverse City and took everything.",
-   "heard": "The neighbors moved to Traversity and took everything.",
-   "wer": 0.25,
-   "voice": "narrator"
-  },
-  {
    "scene": 6,
    "beat": 0,
    "say": "Quick check: seventy days vacant, then vandals. Covered?",
    "heard": "Quick check, 70 days vacant than vandals, covered.",
    "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
+   "scene": 7,
+   "beat": 1,
+   "say": "Ordinance or law, earth movement like an earthquake or sinkhole, and water. Power failure off premises, neglect, meaning not protecting property at and after a loss, and war. Nuclear hazard, intentional loss, when an insured meant it, and governmental action, like seizure or destruction.",
+   "heard": "Ordinance or law, Earth movement like an earthquake or sinkhole, and water. Power failure off-premises, neglect, meaning not protecting property at and after a loss, and war. Nuclear hazard, intentional loss when it insured meant it, and governmental action, like seizure or destruction.",
+   "wer": 0.025,
    "voice": "narrator"
   },
   {
@@ -46,8 +55,8 @@
    "scene": 9,
    "beat": 4,
    "say": "Did over should is three quarters. The repair costs twenty thousand dollars, so he gets fifteen thousand dollars once it's fixed. That beats the A C V, twelve thousand dollars.",
-   "heard": "Didover should his three-quarters. The repair costs $20,000, so he gets $15,000 once it's fixed. That beats the ACV, $12,000.",
-   "wer": 0.107,
+   "heard": "Did over should is three quarters. The repair costs $20,000, so he gets $15,000 once it's fixed. That beats the A, C, V, $12,000.",
+   "wer": 0.071,
    "voice": "narrator"
   },
   {
@@ -77,9 +86,65 @@
   {
    "scene": 14,
    "beat": 1,
-   "say": "Under eighty percent, it's the greater of A C V or did over should.",
-   "heard": "Under 80%, it's the greater of A, CV, or did over should.",
-   "wer": 0.167,
+   "say": "Under eighty percent, it's the greater of A C V, or did over should times the loss. Fraud by any insured? Every insured loses Section one coverage, though in Michigan an innocent co-insured is covered for a fire loss, up to their own interest. Michigan requires payment within thirty days of proof.",
+   "heard": "Under 80 percent, it's the greater of a, c, v, or did over should times the loss. Fraud by any insured, every insured loses Section 1 coverage, though in Michigan an innocent co-insured is covered for a fire loss, up to their own interest. Michigan requires payment within 30 days of proof.",
+   "wer": 0.039,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.q",
+   "say": "The neighbors' house, insured under the twenty eleven H O three, has been vacant for seventy consecutive days. Then vandals spray-paint the walls. The vandalism loss to the house is: A: Not covered. B: Covered in full. C: Covered at fifty percent of the loss.",
+   "text": "The neighbors' house, insured under the 2011 HO-3, has been vacant for 70 consecutive days. Then vandals spray-paint the walls. The vandalism loss to the house is: A: Not covered. B: Covered in full. C: Covered at 50% of the loss.",
+   "heard": "The neighbor's house, insured under the 2011 H03, has been vacant for 70 consecutive days. Then vandals spray paint the walls. The vandalism lost to the house is, A, not covered, B, covered in full, C, covered at 50% of the loss.",
+   "wer": 0.022,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.i2.why",
+   "say": "Accidental discharge from plumbing: the water damage is covered, plus necessary tear-out.",
+   "text": "Accidental discharge from plumbing: the water damage is covered, plus necessary tear-out.",
+   "heard": "accidental discharge from plumbing. The water damage is covered, plus necessary tier out.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.o0.fail",
+   "say": "Until repairs are done, only A C V is paid, unless the loss is under five percent of the insurance and under two thousand five hundred dollars. twenty thousand dollars isn't.",
+   "text": "Until repairs are done, only ACV is paid, unless the loss is under 5% of the insurance and under $2,500. $20,000 isn't.",
+   "heard": "Until repairs are done, only A.C.V. is paid, unless the loss is under 5% of the insurance and under $2,500. $20,000 is not.",
+   "wer": 0.069,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.o1.win",
+   "say": "Take the A C V now, then claim the rest: give notice within one hundred eighty days after the loss that you'll repair.",
+   "text": "Take the ACV now, then claim the rest: give notice within 180 days after the loss that you'll repair.",
+   "heard": "Take the AECV now, then claim the rest. Give notice within 180 days after the loss that you'll repair.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.o2.fail",
+   "say": "To claim the rest after taking A C V, Sam must give notice within one hundred eighty days after the loss.",
+   "text": "To claim the rest after taking ACV, Sam must give notice within 180 days after the loss.",
+   "heard": "To claim the rest after taking A.C.V., Sam must give notice within 180 days after the loss.",
+   "wer": 0.105,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.i2",
+   "say": "Loss payment under the unendorsed twenty eleven form.",
+   "text": "Loss payment under the unendorsed 2011 form.",
+   "heard": "Lost payment under the unendorsed 2011 form.",
+   "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s13.o0.fail",
+   "say": "Concealment or Fraud: if any insured lies about or hides a material fact, no insured gets Section I coverage, honest Jen included.",
+   "text": "Concealment or Fraud: if any insured lies about or hides a material fact, no insured gets Section I coverage, honest Jen included.",
+   "heard": "concealment, or fraud. If any insured lies about or hides a material fact, no insured gets Section 1 coverage, honest Gen included.",
+   "wer": 0.045,
    "voice": "narrator"
   }
  ]

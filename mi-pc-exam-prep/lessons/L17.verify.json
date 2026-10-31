@@ -1,7 +1,16 @@
 {
  "id": "L17",
- "beats": 54,
+ "beats": 55,
+ "clips": 33,
  "mismatches": [
+  {
+   "scene": 1,
+   "beat": 2,
+   "say": "The Truckers form was written for hauling property by auto for hire. The broader Motor Carrier form fits both for-hire carriers and private carriers hauling their own goods.",
+   "heard": "The trucker's form was written for hauling property by auto for hire. The broader motor carrier form fits both for higher carriers and private carriers hauling their own goods.",
+   "wer": 0.036,
+   "voice": "narrator"
+  },
   {
    "scene": 3,
    "beat": 1,
@@ -24,6 +33,14 @@
    "say": "Day forty-five after buying it, hail dents the new van. Tony never told the insurer, so it isn't a covered auto for physical damage.",
    "heard": "Day 45 after buying it, Hale dents the new van. Tony never told the insurer, so it is not a covered auto for physical damage.",
    "wer": 0.038,
+   "voice": "narrator"
+  },
+  {
+   "scene": 8,
+   "beat": 0,
+   "say": "Garagekeepers covers customers' autos left in a shop's care while it services, repairs, parks or stores them. For example, Tony's van is at Gus's repair shop for brakes. If it's damaged there, Gus's garagekeepers may pay, depending on its basis.",
+   "heard": "Garagekeepers covers customers' autos left in a shop's care while it services, repairs, parks or stores them. For example, Tony's van is at Gus's repair shop for breaks. If it's damaged there, Gus's Garagekeepers may pay, depending on its basis.",
+   "wer": 0.025,
    "voice": "narrator"
   },
   {
@@ -59,22 +76,6 @@
    "voice": "narrator"
   },
   {
-   "scene": 10,
-   "beat": 0,
-   "say": "Tony's new storeroom forklift is mobile equipment. So are bulldozers, farm machinery, crawler-tread vehicles, and vehicles used only on or next to your premises.",
-   "heard": "Tony's new storeroom forklift is mobile equipment. So our bulldozers, farm machinery, crawler tread vehicles, and vehicles used only on or next to your premises.",
-   "wer": 0.042,
-   "voice": "narrator"
-  },
-  {
-   "scene": 10,
-   "beat": 2,
-   "say": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
-   "heard": "Without an endorsement, the business auto form covers mobile equipment for liability only while a covered auto carries or toes it.",
-   "wer": 0.048,
-   "voice": "narrator"
-  },
-  {
    "scene": 13,
    "beat": 0,
    "say": "Finally, big rigs, like the semi hauling Tony's flour. The Motor Carrier Act of nineteen eighty sets federal minimum limits.",
@@ -88,6 +89,54 @@
    "say": "For-hire interstate carriers of nonhazardous property, in vehicles of ten thousand one pounds or more, need at least seven hundred fifty thousand dollars.",
    "heard": "For higher interstate carriers of non-hazardous property, in vehicles of 10,001 pounds or more, need at least $750,000.",
    "wer": 0.042,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s3.o2.fail",
+   "say": "Symbol eight covers autos Tony leases, hires, rents or borrows, but not ones borrowed from his own employees.",
+   "text": "Symbol 8 covers autos Tony leases, hires, rents or borrows, but not ones borrowed from his own employees.",
+   "heard": "Symbol 8 covers Otto's Tony leases, hires, rents, or borrows, but not ones borrowed from his own employees.",
+   "wer": 0.056,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.c0.why",
+   "say": "Flood is on the Specified Causes list.",
+   "text": "Flood is on the Specified Causes list.",
+   "heard": "FLUDD is on the specified causes list.",
+   "wer": 0.143,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.c3",
+   "say": "Vandals spray-paint the van overnight.",
+   "text": "Vandals spray-paint the van overnight.",
+   "heard": "Vandal spray, paint the van overnight.",
+   "wer": 0.167,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.c5",
+   "say": "Hail dents the van's roof in a summer storm.",
+   "text": "Hail dents the van's roof in a summer storm.",
+   "heard": "Hale dents the van's roof in a summer storm.",
+   "wer": 0.111,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s11.p4",
+   "say": "Michigan P I P and P P I. The Business Auto form has no P I P section. In Michigan, P I P and P P I endorsements add those no-fault benefits. Symbol five marks owned autos subject to no-fault.",
+   "text": "Michigan PIP and PPI. The Business Auto form has no PIP section. In Michigan, PIP and PPI endorsements add those no-fault benefits. Symbol 5 marks owned autos subject to no-fault.",
+   "heard": "Michigan PIP&P, PI. The business auto form has no PIP section. In Michigan, PIP&P, PI. Endorsements add those no-fault benefits. Simple five marks owned autos subject to no fault.",
+   "wer": 0.167,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.q",
+   "say": "Tony's Pizza insures its Michigan vans under the twenty twenty I S O Business Auto Coverage Form. Their Michigan no-fault P I P is provided by: A: Covered Autos Liability Coverage. B: Tony's workers' compensation policy. C: A Michigan Personal Injury Protection endorsement. D: Comprehensive Coverage.",
+   "text": "Tony's Pizza insures its Michigan vans under the 2020 ISO Business Auto Coverage Form. Their Michigan no-fault PIP is provided by: A: Covered Autos Liability Coverage. B: Tony's workers' compensation policy. C: A Michigan Personal Injury Protection endorsement. D: Comprehensive Coverage.",
+   "heard": "Tony's Pizza ensures its Michigan Vans under the 2020 ISO Business Auto Coverage Form. Their Michigan No-Fault PIP is provided by A. Covered autos liability coverage B. Tony's Workers' Compensation Policy C. A Michigan Personal Injury Protection Endorsement D. Comprehensive Coverage",
+   "wer": 0.024,
    "voice": "narrator"
   }
  ]

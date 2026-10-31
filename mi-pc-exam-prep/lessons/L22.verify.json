@@ -1,6 +1,7 @@
 {
  "id": "L22",
- "beats": 58,
+ "beats": 61,
+ "clips": 37,
  "mismatches": [
   {
    "scene": 1,
@@ -60,10 +61,10 @@
   },
   {
    "scene": 9,
-   "beat": 2,
-   "say": "Shore: the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to workers like ship repairers, on navigable waters, piers and dry docks.",
-   "heard": "Shore, the Longshore and Harbor Workers' Compensation Act pays no fault benefits to workers like ship repairers\u2014unnavigable waters, piers, and dry docks.",
-   "wer": 0.091,
+   "beat": 1,
+   "say": "Rails: under F E L A, the Federal Employers' Liability Act, interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces the award.",
+   "heard": "RAILs, under F-E-L-A, the Federal Impliers Liability Act, interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces the award.",
+   "wer": 0.04,
    "voice": "narrator"
   },
   {
@@ -72,6 +73,70 @@
    "say": "Denied. The Longshore Act excludes a vessel's crew, and Gino is crew.",
    "heard": "Denied, the Longshore Act excludes a vessel's crew and Geno is crew.",
    "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.ask",
+   "say": "What does Tony do? One: Skip it. I only have two cooks! Two: Have the cooks sign waivers. Three: Pay any claims out of the cash register. Four: Buy a policy from an authorized insurer.",
+   "text": "What does Tony do? One: Skip it. I only have two cooks! Two: Have the cooks sign waivers. Three: Pay any claims out of the cash register. Four: Buy a policy from an authorized insurer.",
+   "heard": "What does Tony do? One, skip it. I only have two cooks. Two, have the cook sign waivers. Three, pay any claims out of the cash register. Four, buy a policy from an authorized insurer.",
+   "wer": 0.029,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.o0.fail",
+   "say": "Fewer than three still counts if one works thirty five+ hours a week for thirteen+ of the last fifty two weeks. Marco does.",
+   "text": "Fewer than 3 still counts if 1 works 35+ hours a week for 13+ of the last 52 weeks. Marco does.",
+   "heard": "Fewer than three still counts if one works 35-plus hours a week for 13-plus of the last 52 weeks. Marco does.",
+   "wer": 0.087,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.o1.fail",
+   "say": "In Michigan, an employee's agreement to waive comp isn't valid. The only exception is certain elections made after an injury.",
+   "text": "In Michigan, an employee's agreement to waive comp isn't valid. The only exception is certain elections made after an injury.",
+   "heard": "In Michigan, an employee's agreement to wave comp is not valid. The only exception is certain elections made after an injury.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.o2.fail",
+   "say": "Comp must be secured: insure with an authorized insurer, or prove solvency and get the state comp agency's okay to self-insure.",
+   "text": "Comp must be secured: insure with an authorized insurer, or prove solvency and get the state comp agency's okay to self-insure.",
+   "heard": "COMP must be secured. Ensure with an authorized insurer or prove solvency and get the state COMP agencies okay to self-insure.",
+   "wer": 0.095,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.ask",
+   "say": "What should Marco do? One: Sue Tony. He was super careless! Two: Sue Tony. He knew someone might get hurt! Three: Take the comp benefits.",
+   "text": "What should Marco do? One: Sue Tony. He was super careless! Two: Sue Tony. He knew someone might get hurt! Three: Take the comp benefits.",
+   "heard": "What should Marco do? One suetony, he was super careless. Two suetony, he knew someone might get hurt. Three, take the comp benefits.",
+   "wer": 0.16,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.o1.fail",
+   "say": "Deemed intent needs actual knowledge an injury was certain, plus willful disregard. Possible is not certain.",
+   "text": "Deemed intent needs actual knowledge an injury was certain, plus willful disregard. Possible is not certain.",
+   "heard": "Deemed intent needs actual knowledge and injury with certain, plus willful disregard. Possible is not certain.",
+   "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.o1.fail",
+   "say": "F E L A itself covers interstate railroad workers. Gino's suit goes under the Jones Act, which borrows F E L A's rules.",
+   "text": "FELA itself covers interstate railroad workers. Gino's suit goes under the Jones Act, which borrows FELA's rules.",
+   "heard": "F.E.L.A. itself covers interstate railroad workers. Geno's suit goes under the Jones Act, which borrows F.E.L.A.'s rules.",
+   "wer": 0.059,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.o2.win",
+   "say": "A seaman, a vessel's crew member, sues the employer under the Jones Act, with a jury trial. F E L A's rules apply.",
+   "text": "A seaman, a vessel's crew member, sues the employer under the Jones Act, with a jury trial. FELA's rules apply.",
+   "heard": "A semen, a vessel's crew member, sues the employer under the Jones Act with a jury trial. F-E-L-A's rules apply.",
+   "wer": 0.15,
    "voice": "narrator"
   }
  ]

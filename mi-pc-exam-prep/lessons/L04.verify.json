@@ -1,6 +1,7 @@
 {
  "id": "L04",
- "beats": 59,
+ "beats": 60,
+ "clips": 28,
  "mismatches": [
   {
    "scene": 0,
@@ -19,14 +20,6 @@
    "voice": "jen"
   },
   {
-   "scene": 3,
-   "beat": 4,
-   "say": "Watch out: implied is actual authority. Apparent is only what a customer reasonably believes. Here's a story.",
-   "heard": "Watch out, implied is actual authority. A parent is only what a customer reasonably believes. Here's a story.",
-   "wer": 0.118,
-   "voice": "narrator"
-  },
-  {
    "scene": 6,
    "beat": 3,
    "say": "Consideration is what each side gives: the Millers, premium plus compliance with the policy's rules; the insurer, its promise to pay. Don't flip them.",
@@ -37,9 +30,9 @@
   {
    "scene": 6,
    "beat": 4,
-   "say": "Competent parties need legal age, in Michigan eighteen, and mental capacity. And the purpose must be legal: insuring a shipment of illegal drugs is unenforceable.",
-   "heard": "Competent parties need legal age, in Michigan 18, and mental capacity. And the purpose must be legal, ensuring a shipment of illegal drugs is unenforceable.",
-   "wer": 0.043,
+   "say": "Competent parties need legal age, in Michigan eighteen, and mental capacity. And the purpose must be legal: insuring a shipment of illegal drugs is unenforceable. A contract banned by statute is void or unenforceable.",
+   "heard": "Competent parties need legal age in Michigan 18 and mental capacity. And the purpose must be legal, ensuring a shipment of illegal drugs is unenforceable. A contract banned by statute is void or unenforceable.",
+   "wer": 0.031,
    "voice": "narrator"
   },
   {
@@ -72,6 +65,46 @@
    "say": "Sam relied on it, so the insurer may be estopped from canceling for late payment. The law says stop.",
    "heard": "Sam relied on it, so the insurer may be estopped from cancelling for late payment. The law says stop.",
    "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 4,
+   "say": "Its cousin, waiver, is a choice: you wave goodbye to a known right on purpose. Watch out: waiver is chosen; estoppel is imposed because someone relied. The twenty eleven homeowners form requires waivers in writing by the insurer.",
+   "heard": "Its cousin, Waiver, is a choice. You wave goodbye to a known right on purpose. Watch out. Waiver is chosen. A stop-el is imposed because someone relied. The 2011 Homeowners' Form requires Waivers in writing by the insurer.",
+   "wer": 0.079,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s7.p3",
+   "say": "Personal. The policy insures the Millers, not the house. If they sell, the policy can't be assigned to the buyer without the insurer's written consent.",
+   "text": "Personal. The policy insures the Millers, not the house. If they sell, the policy can't be assigned to the buyer without the insurer's written consent.",
+   "heard": "Personal, the policy ensures the millers, not the house. If they sell, the policy cannot be assigned to the buyer without the insurer's written consent.",
+   "wer": 0.04,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s7.p4",
+   "say": "Aleatory. An unequal exchange that depends on chance. One month of premium might buy a huge claim, or years of premium might buy nothing.",
+   "text": "Aleatory. An unequal exchange that depends on chance. One month of premium might buy a huge claim, or years of premium might buy nothing.",
+   "heard": "Alia Tori, an unequal exchange that depends on chance. One month of premium might buy a huge claim, or years of premium might buy nothing.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.q",
+   "say": "The Millers ask Dana to change a word in their policy. She says the insurer wrote it, so they take it or leave it. This shows the policy is: A: A contract of adhesion. B: An aleatory contract. C: A conditional contract. D: A personal contract.",
+   "text": "The Millers ask Dana to change a word in their policy. She says the insurer wrote it, so they take it or leave it. This shows the policy is: A: A contract of adhesion. B: An aleatory contract. C: A conditional contract. D: A personal contract.",
+   "heard": "The Millers asked Dana to change a word in their policy. She says the insurer wrote it so they take it or leave it. This shows the policy is A, a contract of adhesion, B, an aleatory contract, C, a conditional contract, D, a personal contract.",
+   "wer": 0.023,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.why",
+   "say": "Adhesion: the insurer drafts it, and the insured takes it or leaves it without bargaining over the wording. Aleatory is the unequal, chance-driven exchange.",
+   "text": "Adhesion: the insurer drafts it, and the insured takes it or leaves it without bargaining over the wording. Aleatory is the unequal, chance-driven exchange.",
+   "heard": "Adhesion, the insurer drafts it, and the insured takes it or leaves it without bargaining over the wording. A leatory is the unequal, chance-driven exchange.",
+   "wer": 0.083,
    "voice": "narrator"
   }
  ]

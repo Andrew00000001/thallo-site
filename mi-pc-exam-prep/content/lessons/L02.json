@@ -107,8 +107,8 @@
    ],
    "beats": [
     {
-     "text": "It's Dana's first year with her own Grand Rapids agency. Business is slow, and Vic, across the street, plays dirty.",
-     "say": "It's Dana's first year with her own Grand Rapids agency. Business is slow, and Vic, across the street, plays dirty."
+     "text": "It's Dana's first year with her own Grand Rapids agency. Business is slow, and Vic, across Main Street, plays dirty.",
+     "say": "It's Dana's first year with her own Grand Rapids agency. Business is slow, and Vic, across Main Street, plays dirty."
     },
     {
      "text": "I'll beat him by the book. Watch me.",
@@ -367,18 +367,18 @@
      "say": "The exam loves to mix up Vic's three tricks. Watch."
     },
     {
-     "text": "One: to get Tony to switch, Vic's comparison hides the new deductibles. A knowingly misleading representation or incomplete comparison, to get a policy dropped or replaced, is twisting.",
-     "say": "One: to get Tony to switch, Vic's comparison hides the new deductibles. A knowingly misleading representation or incomplete comparison, to get a policy dropped or replaced, is twisting.",
+     "text": "One: to get Tony to switch, Vic's comparison promises he'll save $20 but hides the new deductibles. A knowingly misleading representation or incomplete comparison, to get a policy dropped or replaced, is twisting.",
+     "say": "One: to get Tony to switch, Vic's comparison promises he'll save twenty dollars but hides the new deductibles. A knowingly misleading representation or incomplete comparison, to get a policy dropped or replaced, is twisting.",
      "hl": "cmp"
     },
     {
-     "text": "Two: cash back. Giving back premium or commission, or anything of value the policy doesn't specify, is rebating.",
-     "say": "Two: cash back. Giving back premium or commission, or anything of value the policy doesn't specify, is rebating.",
+     "text": "Two: cash back. Vic offers Rosa $200 back. Giving back premium or commission, or anything of value the policy doesn't specify, is rebating.",
+     "say": "Two: cash back. Vic offers Rosa two hundred dollars back. Giving back premium or commission, or anything of value the policy doesn't specify, is rebating.",
      "hl": "v2"
     },
     {
-     "text": "Three: a lie about his insurer's money. Misstating a policy's terms or benefits, or an insurer's financial condition, is misrepresentation.",
-     "say": "Three: a lie about his insurer's money. Misstating a policy's terms or benefits, or an insurer's financial condition, is misrepresentation.",
+     "text": "Three: a lie. Vic claims his insurer never loses money. Misstating a policy's terms or benefits, or an insurer's financial condition, is misrepresentation.",
+     "say": "Three: a lie. Vic claims his insurer never loses money. Misstating a policy's terms or benefits, or an insurer's financial condition, is misrepresentation.",
      "hl": "lie"
     },
     {
@@ -465,7 +465,7 @@
     {
      "text": "An agent tells Sam his homeowners policy covers flood damage. It excludes flood.",
      "answer": 2,
-     "why": "It misstates the policy's terms and benefits. No switch of policies is involved.",
+     "why": "Misrepresentation: it misstates the policy's terms and benefits. No switch of policies is involved.",
      "draw": [
       {
        "p": "house",
@@ -494,7 +494,7 @@
      ]
     },
     {
-     "text": "Tony knowingly accepts a $300 gift card for buying a policy.",
+     "text": "Tony knowingly accepts a gift card worth $300 for buying a policy.",
      "answer": 1,
      "why": "$300 of value the policy doesn't specify is a rebate. Tony knowingly took it, so his insurance is reduced in proportion.",
      "draw": [
@@ -671,8 +671,8 @@
    ],
    "beats": [
     {
-     "text": "Is every gift a rebate? No. In Michigan P&C, merchandise costing the insurer $50 or less per calendar year is allowed.",
-     "say": "Is every gift a rebate? No. In Michigan P and C, merchandise costing the insurer fifty dollars or less per calendar year is allowed.",
+     "text": "Is every gift a rebate? No. Michigan P&C has a gift limit: merchandise costing the insurer $50 or less per calendar year is allowed. Cash back is not.",
+     "say": "Is every gift a rebate? No. Michigan P and C has a gift limit: merchandise costing the insurer fifty dollars or less per calendar year is allowed. Cash back is not.",
      "show": 2,
      "hl": "fifty"
     },
@@ -832,9 +832,9 @@
      ]
     },
     {
-     "label": "Skip the cash: give Sam a $90 gift basket",
+     "label": "Skip the cash: give Sam a basket costing $90",
      "ok": false,
-     "fail": "The gift exception covers only merchandise costing the insurer $50 or less per calendar year. A $90 basket is a rebate.",
+     "fail": "The gift exception covers only merchandise costing the insurer $50 or less per calendar year. A basket costing $90 is a rebate.",
      "beats": [
       {
        "text": "A basket costing $90? That's over $50, so it's still an illegal rebate.",
@@ -909,9 +909,9 @@
      ]
     },
     {
-     "label": "Say no, and give Sam a $40 basket",
+     "label": "Say no, and give Sam a basket costing $40",
      "ok": true,
-     "win": "Merchandise costing the insurer $50 or less per calendar year is allowed. This $40 basket is Sam's only gift this year.",
+     "win": "Merchandise costing the insurer $50 or less per calendar year is allowed. This basket costs $40 and is Sam's only gift this year.",
      "beats": [
       {
        "text": "Cherries? Fine, I'm staying.",
@@ -1126,7 +1126,7 @@
     {
      "on": "ad",
      "label": "False advertising",
-     "text": "Vic opened last year. Insurance ads and announcements may not be untrue, deceptive or misleading, in any medium."
+     "text": "Vic's ad says 'Michigan's oldest agency!', but he opened last year. Insurance ads and announcements may not be untrue, deceptive or misleading, in any medium."
     },
     {
      "on": "bank",
@@ -1141,7 +1141,7 @@
     {
      "on": "gran",
      "label": "Unfair discrimination",
-     "text": "Her letter gives the reason: a past denial. An insurer may not refuse to insure someone solely because another insurer previously denied her coverage."
+     "text": "Grandma's refusal letter gives the reason: a past denial. An insurer may not refuse to insure someone solely because another insurer previously denied her coverage."
     }
    ],
    "beats": [
@@ -1250,19 +1250,24 @@
    ],
    "beats": [
     {
-     "text": "In Michigan, premiums Dana collects are fiduciary money: held in trust, segregated, never commingled with her own.",
-     "say": "In Michigan, premiums Dana collects are fiduciary money: held in trust, segregated, never commingled with her own.",
+     "text": "In Michigan, premiums Dana collects are fiduciary money: she holds them in trust for others. So are return premiums. They aren't hers, so they're segregated, or kept apart, and never commingled, or mixed, with her own.",
+     "say": "In Michigan, premiums Dana collects are fiduciary money: she holds them in trust for others. So are return premiums. They aren't hers, so they're segregated, or kept apart, and never commingled, or mixed, with her own.",
      "show": 2,
      "hl": "bank"
     },
     {
-     "text": "They go in a separate account at a federally insured bank, and may earn interest.",
-     "say": "They go in a separate account at a federally insured bank, and may earn interest.",
+     "text": "Sam's premium goes in Dana's premium account, a separate account at a federally insured bank, where it may earn interest. Her lunch money stays out.",
+     "say": "Sam's premium goes in Dana's premium account, a separate account at a federally insured bank, where it may earn interest. Her lunch money stays out.",
      "show": 3
     },
     {
      "text": "Her own money goes in only to open the account and to pay or avoid bank charges. Late turnover is prima facie evidence of a violation.",
      "say": "Her own money goes in only to open the account and to pay or avoid bank charges. Late turnover is prima facie evidence of a violation.",
+     "show": 3
+    },
+    {
+     "text": "Here's the trap: putting premiums in personal checking, even with a ledger, is commingling. And holding a refund for future premiums takes the insured's written OK.",
+     "say": "Here's the trap: putting premiums in personal checking, even with a ledger, is commingling. And holding a refund for future premiums takes the insured's written OK.",
      "show": 4
     }
    ]
@@ -1658,19 +1663,19 @@
    ],
    "beats": [
     {
-     "text": "Dana's hiring. Licenses come from the director. Shall not issue: the director must deny one. May refuse: the director decides.",
-     "say": "Dana's hiring. Licenses come from the director. Shall not issue: the director must deny one. May refuse: the director decides.",
+     "text": "Dana's hiring. In Michigan, licenses come from the director. Shall not issue: the director must deny one. May refuse: the director decides.",
+     "say": "Dana's hiring. In Michigan, licenses come from the director. Shall not issue: the director must deny one. May refuse: the director decides.",
      "show": 2
     },
     {
-     "text": "Shall not issue: a felony within 10 years before applying, or a violent, sexual or financial felony at any time.",
-     "say": "Shall not issue: a felony within ten years before applying, or a violent, sexual or financial felony at any time.",
+     "text": "The 10-year rearview mirror: a felony still in the mirror means no license. Violent, sex and money felonies are 'closer than they appear'; they never leave the mirror. Shall not issue: a felony within 10 years before applying, or a violent, sexual or financial felony at any time.",
+     "say": "The ten-year rearview mirror: a felony still in the mirror means no license. Violent, sex and money felonies are closer than they appear; they never leave the mirror. Shall not issue: a felony within ten years before applying, or a violent, sexual or financial felony at any time.",
      "show": 3,
      "hl": "car"
     },
     {
-     "text": "Also forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
-     "say": "Also forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
+     "text": "Also shall not issue: forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
+     "say": "Also shall not issue: forging someone's name on an insurance document, or knowingly accepting business from an unlicensed person.",
      "show": 4,
      "hl": "s1"
     },
@@ -1994,8 +1999,8 @@
      "say": "After a hearing, Michigan's director issues a cease and desist order and may add fines."
     },
     {
-     "text": "Licensing law, in thousands: Oops 1, didn't know. Knew 5, knew or reasonably should have. Cap 50 per order.",
-     "say": "Licensing law, in thousands: Oops one, didn't know. Knew five, knew or reasonably should have. Cap fifty per order."
+     "text": "Licensing law, in thousands: Oops 1, didn't know. Knew 5, knew or reasonably should have. Those are maximums per violation. Cap 50 per order.",
+     "say": "Licensing law, in thousands: Oops one, didn't know. Knew five, knew or reasonably should have. Those are maximums per violation. Cap fifty per order."
     },
     {
      "text": "Trade practices law uses the same $1,000 and $5,000. Its caps are ten times those: $10,000 total, or $50,000 per 6 months if you knew or should have.",
@@ -2425,7 +2430,7 @@
      ]
     },
     {
-     "label": "Send the real $2,000 estimate",
+     "label": "Send the real estimate of $2,000",
      "ok": true,
      "win": "An honest claim is no crime. Knowingly faking one, alone or with a partner, is a felony.",
      "beats": [
@@ -2749,13 +2754,13 @@
    ],
    "beats": [
     {
-     "text": "Last stop: Michigan's privacy notices. Think PAPER.",
-     "say": "Last stop: Michigan's privacy notices. Think PAPER.",
+     "text": "Last stop: Michigan's privacy notices. Think PAPER: Personal, At the start, Periodic, Exit, Real copy.",
+     "say": "Last stop: Michigan's privacy notices. Think PAPER: Personal, At the start, Periodic, Exit, Real copy.",
      "show": 1
     },
     {
-     "text": "Personal: personal, family or household insurance, like Sam's homeowners, not Tony's pizzeria policy. At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any 12 consecutive months.",
-     "say": "Personal: personal, family or household insurance, like Sam's homeowners, not Tony's pizzeria policy. At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any twelve consecutive months.",
+     "text": "Personal: personal, family or household insurance, like Sam's homeowners. Not business buyers, like Tony insuring his pizzeria. At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any 12 consecutive months.",
+     "say": "Personal: personal, family or household insurance, like Sam's homeowners. Not business buyers, like Tony insuring his pizzeria. At the start: a notice no later than when the customer relationship begins. Periodic: at least once in any twelve consecutive months.",
      "show": 2,
      "hl": "cal"
     },
@@ -2933,13 +2938,13 @@
    ],
    "beats": [
     {
-     "text": "What a year! Switch, payback, false picture. Baskets, not cash. Premiums kept apart.",
-     "say": "What a year! Switch, payback, false picture. Baskets, not cash. Premiums kept apart.",
+     "text": "What a year! Twisting switches, rebating pays back, misrepresentation misstates. A P&C gift? Merchandise costing the insurer $50 or less a calendar year. Premiums are fiduciary money: segregated, never commingled.",
+     "say": "What a year! Twisting switches, rebating pays back, misrepresentation misstates. A P and C gift? Merchandise costing the insurer fifty dollars or less a calendar year. Premiums are fiduciary money: segregated, never commingled.",
      "show": 3
     },
     {
-     "text": "Fraud: solo four, squad ten. Privacy: think PAPER.",
-     "say": "Fraud: solo four, squad ten. Privacy: think PAPER.",
+     "text": "Fraud: up to 4 years solo, 10 with a partner, and up to $50,000 either way. Privacy: think PAPER. 30 days to opt out is reasonable, and notices are never solely oral.",
+     "say": "Fraud: up to four years solo, ten with a partner, and up to fifty thousand dollars either way. Privacy: think PAPER. Thirty days to opt out is reasonable, and notices are never solely oral.",
      "show": 5
     },
     {
@@ -2979,5 +2984,9 @@
   "MCL 500.501(1); 500.507(1)(a); 500.513(1); 500.527(1),(2),(4); 500.529(1),(2)(a)",
   "Confusion pair cp-cp_personal-15",
   "Memory hooks mn_reg-12, -13, -14, -16, -17, -18, -19, -20"
- ]
+ ],
+ "clipsay": {
+  "s5.p0": "Defamation. De-fame: a billboard on I ninety-four falsely shouting 'Rival Mutual is going broke!' to steal its customers. Spoken attacks count too.",
+  "s5.p3": "Boycott. B C I: Bullies Can't Insure: Boycott, Coercion, Intimidation. Insurers agreeing to shun one agency's customers unreasonably restrain its business."
+ }
 }

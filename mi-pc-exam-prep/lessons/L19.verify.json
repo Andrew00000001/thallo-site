@@ -1,6 +1,7 @@
 {
  "id": "L19",
  "beats": 59,
+ "clips": 39,
  "mismatches": [
   {
    "scene": 0,
@@ -11,11 +12,19 @@
    "voice": "narrator"
   },
   {
+   "scene": 4,
+   "beat": 0,
+   "say": "Tony's permits take forever, and the warehouse sits unused. Exam word: vacant. Vacancy is a loss condition in the Building and Personal Property form.",
+   "heard": "Tony's permits take forever and the warehouse sits unused. Exam word, vacant. Vacancy is a lost condition in the building and personal property form.",
+   "wer": 0.045,
+   "voice": "narrator"
+  },
+  {
    "scene": 7,
    "beat": 1,
    "say": "Tony has eighty percent coinsurance: insure at least eighty percent of the building's value, or get paid only part.",
-   "heard": "Tony has 80% coinsurance. Ensure at least 80% of the building's value or get paid only part.",
-   "wer": 0.053,
+   "heard": "Tony has 80 percent co-insurance. Ensure at least 80 percent of the building's value or get paid only part.",
+   "wer": 0.158,
    "voice": "narrator"
   },
   {
@@ -30,7 +39,7 @@
    "scene": 8,
    "beat": 5,
    "say": "After reopening, Extended Business Income adds up to sixty days. Coinsurance can apply to Business Income, never to Extra Expense.",
-   "heard": "After reopening, extended business income adds up to 60 days. Coin assurance can apply to business income, never to extra expense.",
+   "heard": "After reopening, extended business income adds up to 60 days. Co-insurance can apply to business income, never to extra expense.",
    "wer": 0.1,
    "voice": "narrator"
   },
@@ -48,6 +57,38 @@
    "say": "The association's form is primary and waives subrogation; a unit-owner's is excess. Builders risk covers buildings going up; legal liability, others' property in your care.",
    "heard": "The associations form is primary and wave subrogation. A unit owner's is excess. Builder's risk covers buildings going up, legal liability, other's property in your care.",
    "wer": 0.04,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
+   "beat": 0,
+   "say": "What a year! Broad adds a Michigan winter: falling objects, the weight of snow and ice, and water damage. Only Special covers theft. Vacant over sixty days? Some losses out, the rest cut fifteen percent. Coinsurance: Did over Should, times the loss, minus the deductible.",
+   "heard": "What a year, broad adds a Michigan winter. Falling objects, the weight of snow and ice, and water damage. Only special covers theft. Vacant over 60 days, some losses out, the rest cut 15%. Co-insurance, did over should, times the loss minus the deductible.",
+   "wer": 0.047,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s9.i2",
+   "say": "After a fire, a Traverse City dentist equips a temp office.",
+   "text": "After a fire, a Traverse City dentist equips a temp office.",
+   "heard": "After a fire, a Travers City dentist equips a temp office.",
+   "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s9.i5",
+   "say": "The form's coinsurance condition doesn't apply to it.",
+   "text": "The form's coinsurance condition doesn't apply to it.",
+   "heard": "The form's co-insurance condition does not apply to it.",
+   "wer": 0.222,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s9.i5.why",
+   "say": "Coinsurance can apply to Business Income, not Extra Expense.",
+   "text": "Coinsurance can apply to Business Income, not Extra Expense.",
+   "heard": "Co-insurance can apply to business income, not extra expense.",
+   "wer": 0.222,
    "voice": "narrator"
   }
  ]

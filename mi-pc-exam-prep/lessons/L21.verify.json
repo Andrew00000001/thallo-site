@@ -1,13 +1,14 @@
 {
  "id": "L21",
- "beats": 58,
+ "beats": 60,
+ "clips": 40,
  "mismatches": [
   {
    "scene": 0,
    "beat": 1,
-   "say": "Let's say his policy is on the twenty thirteen I S O businessowners form. I S O's revised forms apply to Michigan policies written on or after July first, twenty twenty-five.",
-   "heard": "Let's say his policy is on the 2013 ISO Business Owners' Form. ISO's revised forms apply to Michigan policies written on or after July 1, 2025.",
-   "wer": 0.071,
+   "say": "Let's say his policy is on the twenty thirteen I S O businessowners form. I S O's revised forms apply to Michigan policies written on or after July first, twenty twenty-five, so newer policies may differ. Businessowners questions are six percent of your exam, about nine items.",
+   "heard": "Let's say his policy is on the 2013 ISO Business Owners Form. ISO's revised forms apply to Michigan policies written on or after July 1, 2025, so newer policies may differ. Business owners' questions are 6% of your exam, about 9 items.",
+   "wer": 0.091,
    "voice": "narrator"
   },
   {
@@ -16,14 +17,6 @@
    "say": "Dana's pick: a businessowners policy, or B O P. It packages property and liability for small-to-medium businesses.",
    "heard": "Dana's Pick, a business owners policy, or BOP. It packages property and liability for small to medium businesses.",
    "wer": 0.125,
-   "voice": "narrator"
-  },
-  {
-   "scene": 1,
-   "beat": 1,
-   "say": "Tony's building and ovens: the property side. A customer who slips and sues: the liability side.",
-   "heard": "Tony's Building and Ovens, the property side. A customer who slips and soothes the liability side.",
-   "wer": 0.071,
    "voice": "narrator"
   },
   {
@@ -38,8 +31,8 @@
    "scene": 6,
    "beat": 1,
    "say": "The B O P has no coinsurance clause. Insure to at least eighty percent of replacement cost, and losses are paid at replacement cost.",
-   "heard": "The BOP has no coinsurance clause. Ensure to at least 80% of replacement cost and losses are paid at replacement cost.",
-   "wer": 0.048,
+   "heard": "The BOP has no co-insurance clause. Ensure to at least 80% of replacement cost and losses are paid at replacement cost.",
+   "wer": 0.143,
    "voice": "narrator"
   },
   {
@@ -53,17 +46,49 @@
   {
    "scene": 9,
    "beat": 3,
-   "say": "Professional services, like accounting, are excluded. And for drivers' own cars, Tony adds Hired and Non-Owned Auto Liability.",
-   "heard": "Professional services, like accounting, are excluded. And for drivers' own cars, Toni adds hired and non-owned auto liability.",
-   "wer": 0.176,
+   "say": "Professional services, like accounting, are excluded. And for drivers' own cars on the job, Tony adds Hired and Non-Owned Auto Liability.",
+   "heard": "Professional services, like accounting, are excluded. And for drivers' own cars on the job, Tony adds hired and non-owned auto liability.",
+   "wer": 0.1,
    "voice": "narrator"
   },
   {
    "scene": 12,
    "beat": 0,
-   "say": "Last, Section three: common policy conditions, like the rules for canceling.",
-   "heard": "Last section 3, Common Policy Conditions, like the Rules for Cancelling.",
+   "say": "Last, Section three: common policy conditions, like the rules for canceling. A cancellation notice is the written warning an insurer must mail before it cancels your policy.",
+   "heard": "Last, Section 3, Common Policy Conditions, like the Rules for Cancelling. A cancellation notice is the written warning an insurer must mail before it cancels your policy.",
+   "wer": 0.037,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 1,
+   "say": "Dana's Bay City client has a building that's sat empty seventy days. The insurance company wants to cancel. How much warning does it owe? The twenty thirteen form allows five days' notice for certain building conditions, like sixty or more consecutive days vacant or unoccupied.",
+   "heard": "Dana's Bay City client has a building that sat empty 70 days. The insurance company wants to cancel. How much warning does it owe? The 2013 form allows five days notice for certain building conditions, like 60 or more consecutive days vacant or unoccupied.",
+   "wer": 0.022,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
+   "beat": 0,
+   "say": "No B O P for an ordinary bar or tavern, at any size. No coinsurance clause: insure to eighty percent of replacement cost. Business Income: twelve months, no dollar limit, and it waits seventy-two hours.",
+   "heard": "No BOP for an ordinary bar or tavern at any size. No co-insurance clause, insured to 80% of replacement cost. Business income, 12 months, no dollar limit, and it waits 72 hours.",
    "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.i3",
+   "say": "An accounting firm's B O P: sued over a tax-return error.",
+   "text": "An accounting firm's BOP: sued over a tax-return error.",
+   "heard": "and accounting firms BOP, sued over a tax return error.",
+   "wer": 0.1,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.i4.why",
+   "say": "Hired autos, and autos you don't own, like an employee's car, used in your business: Hired and Non-Owned Auto Liability.",
+   "text": "Hired autos, and autos you don't own (like an employee's car) used in your business: Hired and Non-Owned Auto Liability.",
+   "heard": "Hired autos and autos you do not own, like an employee's car, used in your business. Hired and non-owned auto liability.",
+   "wer": 0.1,
    "voice": "narrator"
   }
  ]

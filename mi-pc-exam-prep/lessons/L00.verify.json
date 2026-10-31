@@ -1,13 +1,22 @@
 {
  "id": "L00",
  "beats": 57,
+ "clips": 40,
  "mismatches": [
   {
    "scene": 1,
    "beat": 1,
-   "say": "Her exam, P S I Series sixteen eighty-one, has one hundred fifty scored items and two point five hours. The cut score is seventy-four percent.",
-   "heard": "Her exam, PSI Series 1681, has 150 scored items and 2.5 hours. The cut score is 74 percent.",
-   "wer": 0.167,
+   "say": "It's like the height line at a ride: reach it and you're on. Her exam, P S I Series sixteen eighty-one, has one hundred fifty scored items and two point five hours. The cut score is seventy-four percent.",
+   "heard": "It's like the height line at a ride. Reach it and you're on. Her exam, PSI Series 1681, has 150 scored items and 2.5 hours. The cut score is 74%.",
+   "wer": 0.111,
+   "voice": "narrator"
+  },
+  {
+   "scene": 2,
+   "beat": 3,
+   "say": "The four smallest, Businessowners, Workers' Comp, Other Coverages and Dwelling, still add up to twenty-seven items. Don't skip them.",
+   "heard": "The four smallest, business owners, workers' comp, other coverages and dwelling, still add up to 27 items. Do not skip them.",
+   "wer": 0.1,
    "voice": "narrator"
   },
   {
@@ -43,38 +52,6 @@
    "voice": "narrator"
   },
   {
-   "scene": 6,
-   "beat": 1,
-   "say": "Misses come back next session; right answers, after growing gaps. Then she adds new material, roughly by weight.",
-   "heard": "Mrs. come back next session, write answers after growing gaps. Then she adds new material roughly by weight.",
-   "wer": 0.111,
-   "voice": "narrator"
-  },
-  {
-   "scene": 6,
-   "beat": 3,
-   "say": "She mixes topics with All sections, weighted like the exam. With Rate how sure I am on, misses she marked Sure come back first.",
-   "heard": "She mixes topics with all sections, weighted like the exam. With rate how sure I am on, Mrs. She-Marked-Sure come back first.",
-   "wer": 0.042,
-   "voice": "narrator"
-  },
-  {
-   "scene": 11,
-   "beat": 0,
-   "say": "Dana reads the last line first, to see what's asked. It's an except item: three choices fit, and she needs the one that doesn't.",
-   "heard": "Dana reads the last line first to see what's asked. It's an accept item, three choices fit, and she needs the one that does not.",
-   "wer": 0.042,
-   "voice": "narrator"
-  },
-  {
-   "scene": 11,
-   "beat": "o0:0",
-   "say": "Time runs out before she gets back. A blank can't be right: a sure miss.",
-   "heard": "Time runs out before she gets back. A blank cannot be right. Assure, miss.",
-   "wer": 0.133,
-   "voice": "narrator"
-  },
-  {
    "scene": 11,
    "beat": "o2:0",
    "say": "She picks D, her best guess, jots thirty-seven on scratch paper and moves on.",
@@ -83,11 +60,27 @@
    "voice": "narrator"
   },
   {
-   "scene": 12,
-   "beat": 1,
-   "say": "Only a valid government photo I D with your signature, in your registered name, gets you in. Use the tutorial; read except items carefully.",
-   "heard": "Only a valid government photo ID with your signature in your registered name gets you in. Use the tutorial, read accept items carefully.",
-   "wer": 0.043,
+   "clip": "s2.p5",
+   "say": "The small four. Businessowners six percent, nine items, Workers' Comp five percent, eight items, Other Coverages four percent, six items, Dwelling two point five percent, four items. Together: seventeen point five percent, or twenty seven items.",
+   "text": "The small four. Businessowners 6% (9 items), Workers' Comp 5% (8 items), Other Coverages 4% (6 items), Dwelling 2.5% (4 items). Together: 17.5%, or 27 items.",
+   "heard": "The small four, business owners, 6%, nine items, workers comp 5%, eight items, other coverages, 4%, six items, dwelling 2.5% four items. Together, 17.5% or 27 items.",
+   "wer": 0.056,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s3.o0.fail",
+   "say": "Exam results are invalidated if prelicensing education wasn't completed before the exam.",
+   "text": "Exam results are invalidated if prelicensing education wasn't completed before the exam.",
+   "heard": "Exam results are invalidated if pre-licensing education was not completed before the exam.",
+   "wer": 0.154,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s3.o2.win",
+   "say": "Prelicensing education comes first. The certificate is valid for twelve months from completion: pass the exam within that window.",
+   "text": "Prelicensing education comes first. The certificate is valid for 12 months from completion: pass the exam within that window.",
+   "heard": "Pre-licensing education comes first. The certificate is valid for 12 months from completion. Pass the exam within that window.",
+   "wer": 0.105,
    "voice": "narrator"
   }
  ]

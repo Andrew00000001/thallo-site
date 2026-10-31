@@ -1,6 +1,7 @@
 {
  "id": "L06",
- "beats": 59,
+ "beats": 60,
+ "clips": 46,
  "mismatches": [
   {
    "scene": 3,
@@ -27,27 +28,115 @@
    "voice": "narrator"
   },
   {
+   "scene": 8,
+   "beat": 1,
+   "say": "That's special, or open, perils, formerly called all risks. It covers all causes of loss except those the policy specifically excludes.",
+   "heard": "That special, or open, perils, formerly called all risks. It covers all causes of loss, except those the policy specifically excludes.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
    "scene": 9,
    "beat": 2,
    "say": "Coinsurance, coming later, can cut a claim payment on underinsured property. With blanket, it applies to the total value under that limit.",
-   "heard": "Coinsurance, coming later, can cut a claim payment on under-insured property. With Blanket, it applies to the total value under that limit.",
-   "wer": 0.091,
+   "heard": "Co-insurance, coming later, can cut a claim payment on under-insured property. With Blanket, it applies to the total value under that limit.",
+   "wer": 0.182,
    "voice": "narrator"
   },
   {
    "scene": 12,
    "beat": 2,
-   "say": "Depending on the policy and state law, A C V can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value.",
-   "heard": "depending on the policy and state law. A, CV can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value.",
-   "wer": 0.08,
+   "say": "Depending on the policy and state law, A C V can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value. A functional replacement does the same job equally well, but it need not be identical.",
+   "heard": "Depending on the policy and state law, A, CV can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value. A functional replacement does the same job equally well, but it need not be identical.",
+   "wer": 0.05,
+   "voice": "narrator"
+  },
+  {
+   "scene": 15,
+   "beat": 0,
+   "say": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise: you get the least of three amounts. Under the twenty ten auto endorsement, those are actual cash value, the cost to repair or replace, and the stated amount.",
+   "heard": "Do not mix up these two. Agreed value sends co-insurance on vacation. Stated amount is a ceiling, not a promise. You get the least of three amounts. Under the 2010 auto endorsement, those are actual cash value, the cost to repair or replace, and the stated amount.",
+   "wer": 0.043,
+   "voice": "narrator"
+  },
+  {
+   "scene": 15,
+   "beat": 1,
+   "say": "Agreed value, a twenty twelve building and personal property form option for buildings like Tony's shop, suspends coinsurance until the agreed value expiration date.",
+   "heard": "Agreed Value, a 2012 building and personal property form option for buildings like Tony's Shop, suspends co-insurance until the agreed value expiration date.",
+   "wer": 0.087,
    "voice": "narrator"
   },
   {
    "scene": 16,
    "beat": 1,
-   "say": "The charred kitchen was a direct loss; the lost sales, consequential. Stated amount is a ceiling; agreed value suspends coinsurance.",
-   "heard": "The charred kitchen was a direct loss. The loss sales, consequential. Stated amount is a ceiling. Agreed value suspends coinsurance.",
-   "wer": 0.05,
+   "say": "The charred kitchen was a direct loss; the lost sales, consequential. A C V is often replacement cost minus depreciation. Stated amount is a ceiling; agreed value suspends coinsurance.",
+   "heard": "The charred kitchen was a direct loss. The loss sales, consequential. A, CV is often replacement cost minus depreciation. Stated amount is a ceiling. Agreed value suspends co-insurance.",
+   "wer": 0.185,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s5.c0.why",
+   "say": "Indifference to loss because insurance will pay is morale hazard: an attitude, not dishonesty.",
+   "text": "Indifference to loss because insurance will pay is morale hazard: an attitude, not dishonesty.",
+   "heard": "Indifference to loss because insurance will pay is moral hazard. An attitude, not dishonesty.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s5.c3.why",
+   "say": "Carelessness because insurance will pay is morale hazard: an attitude problem, not dishonesty.",
+   "text": "Carelessness because insurance will pay is morale hazard: an attitude problem, not dishonesty.",
+   "heard": "Carelessness because insurance will pay is moral hazard, an attitude problem, not dishonesty.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s5.c4.why",
+   "say": "The insured's circumstances create a motive to profit from a loss: moral hazard.",
+   "text": "The insured's circumstances create a motive to profit from a loss: moral hazard.",
+   "heard": "The insured circumstances create a motive to profit from a loss\u2014moral hazard.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.o2.fail",
+   "say": "Fire is a peril: the cause of loss. The oily rags by the furnace were the hazard: a condition that raises the chance of loss.",
+   "text": "Fire is a peril: the cause of loss. The oily rags by the furnace were the hazard: a condition that raises the chance of loss.",
+   "heard": "Fire is apparel, the cause of loss. The oily rags by the furnace were the hazard, a condition that raises the chance of loss.",
+   "wer": 0.08,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s7.p1",
+   "say": "Code two: Joisted masonry. Masonry exterior walls, but a floor and roof that can burn, combustible. Tony's shop: masonry walls, wood floor and roof.",
+   "text": "Code 2: Joisted masonry. Masonry exterior walls, but a floor and roof that can burn (combustible). Tony's shop: masonry walls, wood floor and roof.",
+   "heard": "Code two, Joyce did masonry. Masonry exterior walls, but a floor and roof that can burn combustible. Tony's shop, masonry walls, wood floor and roof.",
+   "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s11.i5.why",
+   "say": "Extra expense results from the damage: an indirect loss.",
+   "text": "Extra expense results from the damage: an indirect loss.",
+   "heard": "Extra expense results from the damage and indirect loss.",
+   "wer": 0.111,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s14.o1.win",
+   "say": "Under the twenty ten endorsement, the insurer pays the least of A C V, repair or replacement cost, or the stated amount: here, twenty six thousand dollars before any deductible.",
+   "text": "Under the 2010 endorsement, the insurer pays the least of ACV, repair or replacement cost, or the stated amount: here, $26,000 before any deductible.",
+   "heard": "Under the 2010 endorsement, the insurer pays the least of A, C, V, repair or replacement cost, or the stated amount. Here, $26,000 before any deductible.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s14.o2.fail",
+   "say": "Least of three: A C V twenty six thousand dollars, replacement twenty eight thousand dollars, stated amount thirty thousand dollars. The endorsement pays the least.",
+   "text": "Least of three: ACV $26,000, replacement $28,000, stated amount $30,000. The endorsement pays the least.",
+   "heard": "Least of three, A, CV $26,000, replacement $28,000, stated amount $30,000. The endorsement pays the least.",
+   "wer": 0.087,
    "voice": "narrator"
   }
  ]

@@ -1,13 +1,22 @@
 {
  "id": "L13",
  "beats": 60,
+ "clips": 34,
  "mismatches": [
   {
    "scene": 1,
    "beat": 0,
-   "say": "Then Ed from next door trips on the Millers' sidewalk.",
-   "heard": "Then add from-next-door trips on the Miller sidewalk.",
-   "wer": 0.2,
+   "say": "First, Ed from next door trips on the Millers' sidewalk.",
+   "heard": "First, Ed from Next Door trips on the Miller sidewalk.",
+   "wer": 0.1,
+   "voice": "narrator"
+  },
+  {
+   "scene": 1,
+   "beat": 3,
+   "say": "Ed sprained his wrist at the Millers' barbecue. So F pays his doctor bills. F: a friend's fall.",
+   "heard": "Ed sprained his wrist at the Miller's BBQ, so F pays his doctor bills. F, a friend's fall.",
+   "wer": 0.059,
    "voice": "narrator"
   },
   {
@@ -83,6 +92,14 @@
    "voice": "narrator"
   },
   {
+   "scene": 11,
+   "beat": 1,
+   "say": "Both are insureds. That makes Ana an innocent co-insured: an insured who took no part in the act that caused the loss.",
+   "heard": "Both are insureds. That makes Anna an innocent co-insured, an insured who took no part in the act that caused the loss.",
+   "wer": 0.043,
+   "voice": "narrator"
+  },
+  {
    "scene": 12,
    "beat": 0,
    "say": "Their policy: a twenty eleven H O three with Special Provisions, Michigan. What should Ana claim?",
@@ -116,10 +133,106 @@
   },
   {
    "scene": 13,
+   "beat": 0,
+   "say": "F paid Ed's bills: it pays others' bills, not your household's, except residence employees. E defended Sam: damages plus defense, even for a groundless suit. On the twenty eleven form, property of others pays up to one thousand dollars. But not if an insured thirteen or older did it on purpose.",
+   "heard": "F paid eds bills. It pays others bills, not your households, except residents' employees. E defended SAM, damages plus defense, even for a groundless suit. On the 2011 form, property of others pays up to $1,000, but not if an insured 13 or older did it on purpose.",
+   "wer": 0.02,
+   "voice": "narrator"
+  },
+  {
+   "scene": 13,
    "beat": 1,
-   "say": "The boat needed Watercraft, slander needs Personal Injury, and in Michigan, Ana got her share.",
-   "heard": "The boat needed watercraft, slander needs personal injury, and in Michigan, Anna got her share.",
-   "wer": 0.071,
+   "say": "For liability, owned boats the H O three excludes, like Sam's, need the Watercraft endorsement. Slander needs Personal Injury. And in Michigan, Ana got her share: an innocent co-insured is covered for a fire loss, up to her interest.",
+   "heard": "For liability, owned boats the HO3 excludes, like Sam's, need the watercraft endorsement. Slander needs personal injury. And in Michigan, Anna got her share. An innocent co-insured is covered for a fire loss up to her interest.",
+   "wer": 0.026,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.o0.fail",
+   "say": "Coverage F is medical payments to others. It never pays for you or regular residents of your household, residence employees aside.",
+   "text": "Coverage F is medical payments to others. It never pays for you or regular residents of your household (residence employees aside).",
+   "heard": "Coverage F is medical payments to others. It never pays for you or regular residents of your household, residents' employees, aside.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.o1.fail",
+   "say": "Their son is a regular resident of the household. F doesn't pay for household residents, except residence employees.",
+   "text": "Their son is a regular resident of the household. F doesn't pay for household residents, except residence employees.",
+   "heard": "Their son is a regular resident of the household. F does not pay for household residents except residents' employees.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.o2.win",
+   "say": "Ed is a guest, hurt at the Millers' place with permission. F pays his medical bills incurred within three years of the accident.",
+   "text": "Ed is a guest, hurt at the Millers' place with permission. F pays his medical bills incurred within 3 years of the accident.",
+   "heard": "Ed is a guest, heard at the miller's place with permission. F pays his medical bills incurred within three years of the accident.",
+   "wer": 0.043,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s5.c4",
+   "say": "Their fifteen-year-old trips and dents Ed's borrowed ladder.",
+   "text": "Their 15-year-old trips and dents Ed's borrowed ladder.",
+   "heard": "their 15-year-old trips, and dense Ed's borrowed ladder.",
+   "wer": 0.111,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.o0.fail",
+   "say": "An owned outboard over twenty five hp, owned before the policy period and never declared or reported, is excluded. No Coverage E.",
+   "text": "An owned outboard over 25 hp, owned before the policy period and never declared or reported, is excluded. No Coverage E.",
+   "heard": "and owned outboard over 25 HP, owned before the policy period, and never declared or reported, is excluded. No coverage E.",
+   "wer": 0.048,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.o1.fail",
+   "say": "Owned sailboats twenty six feet or longer are excluded too. That boat would also need the Watercraft endorsement.",
+   "text": "Owned sailboats 26 feet or longer are excluded too. That boat would also need the Watercraft endorsement.",
+   "heard": "Own sailboats 26 feet or longer are excluded too. That boat would also need the watercraft endorsement.",
+   "wer": 0.056,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s9.p0",
+   "say": "Business Pursuits. Jen teaches for a school. This covers an insured's business activities when she isn't the owner or a partner, like teachers and salespersons.",
+   "text": "Business Pursuits. Jen teaches for a school. This covers an insured's business activities when she isn't the owner or a partner, like teachers and salespersons.",
+   "heard": "Business Pursuits, Jen teaches for a school. This covers and ensures business activities when she is not the owner or a partner, like teachers and salespersons.",
+   "wer": 0.08,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s9.p2",
+   "say": "Home Day Care Coverage. twenty eleven form: paid day care for unrelated kids is a business if an occupation or paid over two thousand dollars in the twelve months before the policy. Excluded; this adds limited coverage.",
+   "text": "Home Day Care Coverage. 2011 form: paid day care for unrelated kids is a business if an occupation or paid over $2,000 in the 12 months before the policy. Excluded; this adds limited coverage.",
+   "heard": "Home daycare coverage. 2011 form, paid daycare for unrelated kids, is a business if an occupation or paid over $2,000 in the 12 months before the policy. Excluded, this adds limited coverage.",
+   "wer": 0.108,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.q",
+   "say": "Business Pursuits is designed to cover the work liability of which person on the Millers' street? A: Priya, a salesperson employed by a furniture store. B: Mike, a partner in a downtown law firm. C: Kim, the sole owner of a hardware store.",
+   "text": "Business Pursuits is designed to cover the work liability of which person on the Millers' street? A: Priya, a salesperson employed by a furniture store. B: Mike, a partner in a downtown law firm. C: Kim, the sole owner of a hardware store.",
+   "heard": "Business Pursuits is designed to cover the work liability of which person on the Miller Street. A, Priya, a salesperson employed by a furniture store. B, Mike, a partner in a downtown law firm. C, Kim, the sole owner of a hardware store.",
+   "wer": 0.023,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.why",
+   "say": "Business Pursuits covers an insured's business activities when she isn't the owner or a partner, like salespersons and teachers.",
+   "text": "Business Pursuits covers an insured's business activities when she isn't the owner or a partner, like salespersons and teachers.",
+   "heard": "Business Pursuits covers and ensures business activities when she is not the owner or a partner, like salespersons and teachers.",
+   "wer": 0.105,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.ask",
+   "say": "What should Ana claim? One: Nothing. Dan's fire sinks us both. Two: The whole house, Dan's share too. Three: Prove domestic abuse first. Four: Her own share of the home.",
+   "text": "What should Ana claim? One: Nothing. Dan's fire sinks us both. Two: The whole house, Dan's share too. Three: Prove domestic abuse first. Four: Her own share of the home.",
+   "heard": "What should Anna claim? One, nothing. Dan's fire sinks us both. Two, the whole house Dan's share too. Three, prove domestic abuse first. Four, her own share of the home.",
+   "wer": 0.033,
    "voice": "narrator"
   }
  ]

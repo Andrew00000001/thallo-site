@@ -1,6 +1,7 @@
 {
  "id": "L10",
  "beats": 58,
+ "clips": 46,
  "mismatches": [
   {
    "scene": 0,
@@ -13,9 +14,9 @@
   {
    "scene": 1,
    "beat": 1,
-   "say": "It insures a home for one to four families, whether or not the owner lives there.",
-   "heard": "It ensures a home for one to four families, whether or not the owner lives there.",
-   "wer": 0.062,
+   "say": "It insures a home for one to four families, whether or not it's the owner who lives there. Take the Millers' Lansing rental: they own it, but it's Rosa who lives in it. A two-family duplex could use one too.",
+   "heard": "It ensures a home for one to four families, whether or not it's the owner who lives there. Take the miller's Lansing rental, they own it, but it's Rosa who lives in it. A two-family duplex could use one, too.",
+   "wer": 0.024,
    "voice": "narrator"
   },
   {
@@ -52,42 +53,58 @@
   },
   {
    "scene": 8,
-   "beat": 2,
-   "say": "The Millers' policy pays for the burglar's crowbar dents, not his loot.",
-   "heard": "The Miller's policy pays for the burglar's crowbar dense, not his loot.",
-   "wer": 0.083,
+   "beat": 1,
+   "say": "Here's the gap. In the D P two and D P three, damage by burglars is a named personal property peril. It covers the damage burglars do to covered property, but not theft.",
+   "heard": "Here's the gap. In the DP2 and DP3, damage by burglars is a named personal property peril. It covers the damaged burglars due to covered property, but not theft.",
+   "wer": 0.067,
    "voice": "narrator"
   },
   {
    "scene": 8,
    "beat": 3,
-   "say": "Watch out: homeowners forms list theft. Dwelling forms add it by endorsement.",
-   "heard": "Watch out, Homeowners Forms List Theft, dwelling forms added by endorsement.",
-   "wer": 0.167,
+   "say": "Watch out: homeowners forms list theft. Dwelling forms add it by endorsement, picked by who lives there.",
+   "heard": "Watch out, Homeowners Forms List Theft.",
+   "wer": 0.647,
    "voice": "narrator"
   },
   {
    "scene": 9,
    "beat": 3,
-   "say": "Pick by who lives there, not by price. Rosa lives there, but the named insureds, the Millers, don't.",
-   "heard": "Pick by who lives there, not by price. Rose alives there, but the named ensures the millers do not.",
-   "wer": 0.158,
+   "say": "Pick by who lives there, not by price. Rosa does live there, but the named insureds, the Millers, don't.",
+   "heard": "Pick by who lives there, not by price. Rosa does live there, but the named inshords the Millers do not.",
+   "wer": 0.05,
    "voice": "narrator"
   },
   {
-   "scene": 14,
-   "beat": 0,
-   "say": "What a year! D P one has a short list and pays actual cash value. D P two has a long list. D P three covers the buildings on open perils.",
-   "heard": "What a year, DP1 has a shortlist and pays actual cash value. DP2 has a longlist. DP3 covers the buildings on open perils.",
-   "wer": 0.148,
+   "clip": "s5.c0.why",
+   "say": "The nineteen eighty eight D P one Basic Form: a short list. Extended Coverage perils and vandalism each need their own premium.",
+   "text": "The 1988 DP-1 Basic Form: a short list. Extended Coverage perils and vandalism each need their own premium.",
+   "heard": "the 1988 DP-1 Basic Form, a shortlist. Extended coverage, perils, and vandalism each need their own premium.",
+   "wer": 0.1,
    "voice": "narrator"
   },
   {
-   "scene": 14,
-   "beat": 1,
-   "say": "D pays lost rent, and E your own extra living costs. Liability needs the P L S, and theft an endorsement picked by who lives there.",
-   "heard": "D pays lost rent, and E your own extra living costs. Liability needs the PLS and theft and endorsement picked by who lives there.",
-   "wer": 0.045,
+   "clip": "s5.c1.why",
+   "say": "Only the D P three insures the dwelling and other structures on an open-perils basis.",
+   "text": "Only the DP-3 insures the dwelling and other structures on an open-perils basis.",
+   "heard": "Only the DP3 ensures the dwelling and other structures on an open perils basis.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s5.c3.why",
+   "say": "The nineteen eighty eight D P one pays A C V. The D P two and D P three pay buildings at replacement cost if insured to at least eighty percent.",
+   "text": "The 1988 DP-1 pays ACV. The DP-2 and DP-3 pay buildings at replacement cost if insured to at least 80%.",
+   "heard": "The 1988 DP1 pays a CV. The DP2 and DP3 pay buildings at replacement cost, if insured to at least 80%.",
+   "wer": 0.08,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.q",
+   "say": "The Millers choose the two thousand two D P three. Which coverages does it insure on an open-perils basis? A: Dwelling, other structures and personal property. B: Dwelling and other structures only. C: Dwelling only.",
+   "text": "The Millers choose the 2002 DP-3. Which coverages does it insure on an open-perils basis? A: Dwelling, other structures and personal property. B: Dwelling and other structures only. C: Dwelling only.",
+   "heard": "The millers choose the 2002 DP3, which coverages does it ensure on an open perils basis. A, dwelling, other structures and personal property. B, dwelling and other structures only. C, dwelling only.",
+   "wer": 0.03,
    "voice": "narrator"
   }
  ]

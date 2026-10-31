@@ -1,6 +1,7 @@
 {
  "id": "L05",
  "beats": 59,
+ "clips": 34,
  "mismatches": [
   {
    "scene": 1,
@@ -44,18 +45,26 @@
   },
   {
    "scene": 11,
-   "beat": 1,
-   "say": "Who's paying for my window?",
-   "heard": "He's paying for my window.",
-   "wer": 0.2,
-   "voice": "neighbor"
-  },
-  {
-   "scene": 11,
    "beat": 3,
    "say": "Vicarious: liable for someone else's act. Nothing was ultrahazardous, and no product was defective.",
    "heard": "Vicarious, liable for someone else's act. Nothing was ultra-hazardous and no product was defective.",
    "wer": 0.154,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.ask",
+   "say": "What does Tony argue she gets? One: zero dollars: any fault means she gets nothing! Two: thirty thousand dollars: her thirty percent share. Three: seventy thousand dollars: not the full one hundred thousand dollars.",
+   "text": "What does Tony argue she gets? One: $0: any fault means she gets nothing! Two: $30,000: her 30% share. Three: $70,000: not the full $100,000.",
+   "heard": "What does Toni argue she gets? One, zero dollars. Any fault means she gets nothing. Two, $30,000, her 30% share. Three, $70,000, not the full $100,000.",
+   "wer": 0.029,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.c0.why",
+   "say": "Blasting is ultrahazardous. Using every precaution is no defense: absolute liability.",
+   "text": "Blasting is ultrahazardous. Using every precaution is no defense: absolute liability.",
+   "heard": "Blasting is ultra-hazardous. Using every precaution is no defense, absolute liability.",
+   "wer": 0.182,
    "voice": "narrator"
   }
  ]

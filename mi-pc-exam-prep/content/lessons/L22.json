@@ -230,16 +230,16 @@
      "text": "Tony, in Michigan it's 3 at once, or 1 at 35 for 13, out of the last 52. Public employers: every one, any size.",
      "say": "Tony, in Michigan it's three at once, or one at thirty-five for thirteen, out of the last fifty-two. Public employers: every one, any size.",
      "voice": "dana",
-     "show": 1
+     "show": 0
     },
     {
-     "text": "Fewer than 3? One worker at 35 hours or more a week, for 13 of the last 52 weeks, is enough.",
-     "say": "Fewer than three? One worker at thirty-five hours or more a week, for thirteen of the last fifty-two weeks, is enough.",
+     "text": "3 at once means a private, non-farm employer regularly employing 3 or more at the same time. Fewer than 3? One worker at 35 hours or more a week, for 13 weeks or more of the last 52, is enough. Public employers? All of them, regardless of the number of employees.",
+     "say": "Three at once means a private, non-farm employer regularly employing three or more at the same time. Fewer than three? One worker at thirty-five hours or more a week, for thirteen weeks or more of the last fifty-two, is enough. Public employers? All of them, regardless of the number of employees.",
      "show": 3
     },
     {
-     "text": "Farms and household workers have their own rules. Watch out: payroll size doesn't decide it.",
-     "say": "Farms and household workers have their own rules. Watch out: payroll size doesn't decide it.",
+     "text": "Farms and household workers have their own rules. Watch out: payroll size doesn't decide it. And a voluntary comp endorsement can cover workers the law doesn't require an employer to cover.",
+     "say": "Farms and household workers have their own rules. Watch out: payroll size doesn't decide it. And a voluntary comp endorsement can cover workers the law doesn't require an employer to cover.",
      "show": 4
     }
    ]
@@ -685,13 +685,13 @@
    ],
    "beats": [
     {
-     "text": "Crash! Marco slips on the wet floor with a tray of dough.",
-     "say": "Crash! Marco slips on the wet floor with a tray of dough.",
+     "text": "Crash! Marco slips on the wet kitchen floor with a tray of dough. Is that a compensable injury?",
+     "say": "Crash! Marco slips on the wet kitchen floor with a tray of dough. Is that a compensable injury?",
      "show": 1
     },
     {
-     "text": "In Michigan, comp covers an injury arising out of and in the course of employment. No one has to prove Tony was negligent.",
-     "say": "In Michigan, comp covers an injury arising out of and in the course of employment. No one has to prove Tony was negligent.",
+     "text": "A compensable injury is one connected to the job. In Michigan, comp covers an injury arising out of and in the course of employment. No one has to prove fault, or that Tony was negligent.",
+     "say": "A compensable injury is one connected to the job. In Michigan, comp covers an injury arising out of and in the course of employment. No one has to prove fault, or that Tony was negligent.",
      "show": 2
     },
     {
@@ -807,7 +807,7 @@
      "color": "green",
      "bold": true,
      "at": 1,
-     "cue": "benefits",
+     "cue": "way",
      "w": 16
     },
     {
@@ -883,13 +883,18 @@
      "show": 1
     },
     {
-     "text": "Tony is insured, so in Michigan comp is Marco's exclusive remedy against him. Picture a room with one door: benefits are the way out.",
-     "say": "Tony is insured, so in Michigan comp is Marco's exclusive remedy against him. Picture a room with one door: benefits are the way out.",
+     "text": "Tony is insured, so in Michigan comp is Marco's exclusive remedy against him: his only remedy for a work injury or occupational disease. Picture a room with one door: benefits are the only way out. Marco gets benefits, not a lawsuit against Tony.",
+     "say": "Tony is insured, so in Michigan comp is Marco's exclusive remedy against him: his only remedy for a work injury or occupational disease. Picture a room with one door: benefits are the only way out. Marco gets benefits, not a lawsuit against Tony.",
      "show": 3
     },
     {
      "text": "The one trapdoor is an intentional tort: a deliberate act with specific intent to injure. Intent is also deemed, meaning treated as proven, if the employer knew an injury was certain and willfully disregarded it.",
      "say": "The one trapdoor is an intentional tort: a deliberate act with specific intent to injure. Intent is also deemed, meaning treated as proven, if the employer knew an injury was certain and willfully disregarded it.",
+     "show": 4
+    },
+    {
+     "text": "Even gross negligence is not enough.",
+     "say": "Even gross negligence is not enough.",
      "show": 4
     }
    ]
@@ -1307,13 +1312,18 @@
      "show": 0
     },
     {
-     "text": "No weekly comp is paid unless he's off at least a week. Off 2 weeks or longer? Pay is computed from the date of injury.",
-     "say": "No weekly comp is paid unless he's off at least a week. Off two weeks or longer? Pay is computed from the date of injury.",
+     "text": "Wait 7 is the waiting period: no weekly comp is paid unless he's off at least a week. Off 2 weeks or longer? Pay is computed from the date of injury.",
+     "say": "Wait seven is the waiting period: no weekly comp is paid unless he's off at least a week. Off two weeks or longer? Pay is computed from the date of injury.",
      "show": 2
     },
     {
-     "text": "The 80% is for total disability. Watch out: 90% is the cap, not the benefit.",
-     "say": "The eighty percent is for total disability. Watch out: ninety percent is the cap, not the benefit.",
+     "text": "The 80% is of the after-tax average weekly wage, for total disability. Earn $1,000 a week after taxes, and comp pays $800. Watch out: 90% is the cap, not the benefit.",
+     "say": "The eighty percent is of the after-tax average weekly wage, for total disability. Earn one thousand dollars a week after taxes, and comp pays eight hundred dollars. Watch out: ninety percent is the cap, not the benefit.",
+     "show": 4
+    },
+    {
+     "text": "The cap is 90% of the state average weekly wage, set each January 1.",
+     "say": "The cap is ninety percent of the state average weekly wage, set each January first.",
      "show": 4
     }
    ]
@@ -1652,13 +1662,13 @@
      "say": "Tony delivers lunch to workers under three federal laws, outside Michigan's act."
     },
     {
-     "text": "Rails: under FELA, interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces the award.",
-     "say": "Rails: under F E L A, interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces the award.",
+     "text": "Rails: under FELA, the Federal Employers' Liability Act, interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces the award.",
+     "say": "Rails: under F E L A, the Federal Employers' Liability Act, interstate railroad workers sue for damages, proving the railroad's negligence. Their own negligence only reduces the award.",
      "hl": "rail"
     },
     {
-     "text": "Shore: the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to workers like ship repairers, on navigable waters, piers and dry docks.",
-     "say": "Shore: the Longshore and Harbor Workers' Compensation Act pays no-fault benefits to workers like ship repairers, on navigable waters, piers and dry docks.",
+     "text": "Shore: the Longshore and Harbor Workers' Compensation Act, or USL&HW. It pays no-fault benefits to workers like ship repairers, on navigable waters, piers, wharves and dry docks.",
+     "say": "Shore: the Longshore and Harbor Workers' Compensation Act, or U S L and H W. It pays no-fault benefits to workers like ship repairers, on navigable waters, piers, wharves and dry docks.",
      "hl": "dock"
     },
     {
@@ -2259,16 +2269,16 @@
    ],
    "beats": [
     {
-     "text": "Rates are per $100 of payroll. Payroll divided by 100, times the rate, is the manual premium.",
-     "say": "Rates are per one hundred dollars of payroll. Payroll divided by one hundred, times the rate, is the manual premium."
+     "text": "Rates are per $100 of payroll. Payroll divided by 100, times the rate, is the manual premium. Tony's rate is $4 per $100 of payroll.",
+     "say": "Rates are per one hundred dollars of payroll. Payroll divided by one hundred, times the rate, is the manual premium. Tony's rate is four dollars per one hundred dollars of payroll."
     },
     {
-     "text": "The experience mod compares Tony's own losses with expected losses: under 1 is a credit, over 1 a debit.",
-     "say": "The experience mod compares Tony's own losses with expected losses: under one is a credit, over one a debit."
+     "text": "The experience mod compares Tony's own losses with expected losses: under 1 is a credit, over 1 a debit. Tony's mod is 0.85, a credit. A 1.25 mod would be a debit: it raises the premium.",
+     "say": "The experience mod compares Tony's own losses with expected losses: under one is a credit, over one a debit. Tony's mod is zero point eight five, a credit. A one point two five mod would be a debit: it raises the premium."
     },
     {
-     "text": "Your turn: find the payroll that gives $8,500.",
-     "say": "Your turn: find the payroll that gives eight thousand five hundred dollars."
+     "text": "Your turn: find the payroll that makes Tony's premium $8,500 after the mod.",
+     "say": "Your turn: find the payroll that makes Tony's premium eight thousand five hundred dollars after the mod."
     }
    ],
    "reveal": [
@@ -2284,7 +2294,7 @@
   },
   {
    "type": "quiz",
-   "q": "Down the street, a bakery's payroll is $100,000, its rate is $5.00 per $100 of payroll, and its experience mod is 1.25. What is its premium after the mod?",
+   "q": "Down the street, a bakery's payroll is $100,000, its rate is $5 per $100 of payroll, and its experience mod is 1.25. What is its premium after the mod?",
    "choices": [
     "$3,750",
     "$5,000",
@@ -2292,7 +2302,7 @@
     "$625,000"
    ],
    "answer": 2,
-   "why": "$100,000 divided by 100 is 1,000. Times $5.00 is $5,000 manual premium. A 1.25 mod is a debit: $5,000 times 1.25 is $6,250. $5,000 forgets the mod; $3,750 treats it as a credit.",
+   "why": "$100,000 divided by 100 is 1,000. Times $5 is $5,000 manual premium. A 1.25 mod is a debit: $5,000 times 1.25 is $6,250. $5,000 forgets the mod; $3,750 treats it as a credit.",
    "draw": [
     {
      "id": "shop",
@@ -2325,6 +2335,10 @@
     {
      "text": "$6,250: $5,000 of manual premium, times the 1.25 debit.",
      "say": "Six thousand two hundred fifty dollars: five thousand dollars of manual premium, times the one point two five debit."
+    },
+    {
+     "text": "$100,000 divided by 100 is 1,000, times $5 is $5,000. $5,000 forgets the mod; $3,750 treats the debit as a credit.",
+     "say": "One hundred thousand dollars divided by one hundred is one thousand, times five dollars is five thousand dollars. Five thousand dollars forgets the mod; three thousand seven hundred fifty dollars treats the debit as a credit."
     }
    ]
   },
@@ -2420,13 +2434,13 @@
    ],
    "beats": [
     {
-     "text": "What a Friday! 3 at once, or 1 at 35 for 13. Only an intentional tort opens the trapdoor.",
-     "say": "What a Friday! Three at once, or one at thirty-five for thirteen. Only an intentional tort opens the trapdoor.",
+     "text": "What a Friday! Who must carry comp? 3 at once, or 1 at 35 for 13 of the last 52, plus all public employers. Comp is the exclusive remedy, and only an intentional tort opens the trapdoor.",
+     "say": "What a Friday! Who must carry comp? Three at once, or one at thirty-five for thirteen of the last fifty-two, plus all public employers. Comp is the exclusive remedy, and only an intentional tort opens the trapdoor.",
      "show": 2
     },
     {
-     "text": "Day 8 and 80%. Rails, shore, ship. And payroll divided by 100, times rate, times mod.",
-     "say": "Day eight and eighty percent. Rails, shore, ship. And payroll divided by one hundred, times rate, times mod.",
+     "text": "Paid from day 8, or the injury date at 2 weeks, at 80% of after-tax average weekly wage. Rails: FELA. Shore: Longshore Act. Ship's crew: Jones Act. Premium: payroll divided by 100, times rate, times experience mod.",
+     "say": "Paid from day eight, or the injury date at two weeks, at eighty percent of after-tax average weekly wage. Rails: F E L A. Shore: Longshore Act. Ship's crew: Jones Act. Premium: payroll divided by one hundred, times rate, times experience mod.",
      "show": 5
     },
     {
@@ -2473,5 +2487,10 @@
   "IRMI glossary: manual premium; standard premium; premium discount; experience modification",
   "Memory hooks mn_core-23, -24, -25, -28, -29; confusion pairs cp_commercial-14, -15; table vs_commercial-07",
   "PSI Series 16-81 content outline"
- ]
+ ],
+ "clipsay": {
+  "s11.p1": "Part Two: Court. Employers liability: damages when Tony is sued over a worker's injury where law allows, like a third-party-over suit. Not injury he causes on purpose. Limits: Item three B.",
+  "s11.p2": "Part Three: Crossing state lines. Other states insurance: applies only to states listed in Item three C.",
+  "s13.q": "Down the street, a bakery's payroll is one hundred thousand dollars, its rate is five dollars per one hundred dollars of payroll, and its experience mod is one point two five. What is its premium after the mod? A: three thousand seven hundred fifty dollars. B: five thousand dollars. C: six thousand two hundred fifty dollars. D: six hundred twenty five thousand dollars."
+ }
 }

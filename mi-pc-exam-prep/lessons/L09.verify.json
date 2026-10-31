@@ -1,6 +1,7 @@
 {
  "id": "L09",
- "beats": 64,
+ "beats": 71,
+ "clips": 47,
  "mismatches": [
   {
    "scene": 1,
@@ -21,17 +22,25 @@
   {
    "scene": 5,
    "beat": 2,
-   "say": "Tolled means paused: from the day the loss is reported until the insurer formally denies liability.",
-   "heard": "Told means paused. From the day the loss is reported until the insurer formally denies liability.",
-   "wer": 0.062,
+   "say": "Tolled means paused: a deadline clock that stops running for a while, like a paused game clock. From the day the loss is reported until the insurer formally denies liability, your time to sue doesn't run.",
+   "heard": "Told means paused. A deadline clock that stops running for a while, like a paused game clock. From the day the loss is reported until the insurer formally denies liability, your time to sue does not run.",
+   "wer": 0.027,
    "voice": "narrator"
   },
   {
-   "scene": 10,
-   "beat": 2,
-   "say": "Saying no? Give each specific reason. Applied out loud? Within ninety days, they can ask for a written explanation.",
-   "heard": "Saying no, give each specific reason. Apply it out loud. Within 90 days, they can ask for a written explanation.",
-   "wer": 0.105,
+   "scene": 5,
+   "beat": 3,
+   "say": "The loss is payable within thirty days after proof of the amount of loss, unless the fire-loss withholding law applies. In some towns, part of a big fire payment is held back.",
+   "heard": "The loss is payable within 30 days after proof of the amount of loss, unless the fire loss withholding law replies. In some towns, part of a big fire payment is held back.",
+   "wer": 0.03,
+   "voice": "narrator"
+  },
+  {
+   "scene": 8,
+   "beat": 1,
+   "say": "You live there, as owner or tenant. Own up to four units and live in one? Eligible, like Ana: she owns a three-unit building in Lansing and lives upstairs. A landlord living elsewhere? Not eligible, like Ben: he owns a rental house in Saginaw but lives elsewhere.",
+   "heard": "You live there as owner or tenant. Own up to four units and live in one? Eligible, like Anna. She owns a three-unit building in Lansing and lives upstairs. A landlord living elsewhere. Not eligible, like Ben. He owns a rental house in Saginaw but lives elsewhere.",
+   "wer": 0.022,
    "voice": "narrator"
   },
   {
@@ -45,9 +54,9 @@
   {
    "scene": 11,
    "beat": 5,
-   "say": "Under current law it ends December thirty-first, twenty twenty-seven, but extension bills were pending in twenty twenty-six: recheck.",
-   "heard": "Under current law, it ends December 31, 2027, but extension bills were pending in 2026. Ritchak.",
-   "wer": 0.048,
+   "say": "Under current law it ends December thirty-first, twenty twenty-seven, but extension bills were pending in twenty twenty-six: re-check.",
+   "heard": "Under current law, it ends December 31, 2027, but extension bills were pending in 2026. Recheck.",
+   "wer": 0.091,
    "voice": "narrator"
   },
   {
@@ -56,6 +65,78 @@
    "say": "Sunday's news: an insurer is insolvent. Its covered claims go to the Michigan Property and Casualty Guaranty Association.",
    "heard": "Sunday's news, an insurer is insolvent. Its covered claims go to the Michigan property and casualty guarantee association.",
    "wer": 0.059,
+   "voice": "narrator"
+  },
+  {
+   "scene": 15,
+   "beat": 2,
+   "say": "Quick recap. Fire policies: at least actual cash value, fire and lightning, twelve oh one A M. Minimum earned premium: pro rata or twenty-five dollars, whichever is greater.",
+   "heard": "quick recap fire policies at least actual cash value fire and lightning twelve oh one a m minimum earned premium pro rata or twenty five dollars whichever is greater",
+   "wer": 0.074,
+   "voice": "narrator"
+  },
+  {
+   "scene": 15,
+   "beat": 3,
+   "say": "In Michigan, pay within thirty days after proof. At least a year to sue, and that clock can be tolled. Appraisal: twenty days, then fifteen.",
+   "heard": "In Michigan, pay within 30 days after proof, at least a year to sue and that clock can be told. Appraisal, 20 days, then 15.",
+   "wer": 0.042,
+   "voice": "narrator"
+  },
+  {
+   "scene": 15,
+   "beat": 6,
+   "say": "T R I A: each insurer's deductible is twenty percent of last year's premium, and the feds pay eighty percent above it. The guaranty cap spares P I P and workers' comp.",
+   "heard": "T-R-I-A. Each insurer's deductible is 20% of last year's premium, and the Feds pay 80% above it. The Guarantee Cap spares PIP and workers' comp.",
+   "wer": 0.04,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.i1",
+   "say": "Coverage starts at twelve oh one A M standard time.",
+   "text": "Coverage starts at 12:01 a.m. standard time.",
+   "heard": "Coverage starts at 1201 a.m. standard time.",
+   "wer": 0.444,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.i1.why",
+   "say": "It takes effect at twelve oh one A M where the property is.",
+   "text": "It takes effect at 12:01 a.m. where the property is.",
+   "heard": "It takes effect at 1201 a.m. where the property is.",
+   "wer": 0.333,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s4.ask",
+   "say": "What should Sam do? One: Let the insurer's appraiser pick alone. Two: Ask the state insurance Director to pick. Three: Ask a circuit court judge in the county.",
+   "text": "What should Sam do? One: Let the insurer's appraiser pick alone. Two: Ask the state insurance Director to pick. Three: Ask a circuit court judge in the county.",
+   "heard": "What should Sam do? One, let the insurers appraiser pick a loan. Two, ask the state insurance director to pick. Three, ask a circuit court judge in the county.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s9.c0",
+   "say": "Rosa rents an apartment in Lansing and lives there.",
+   "text": "Rosa rents an apartment in Lansing and lives there.",
+   "heard": "Roser rents an apartment in Lansing and lives there.",
+   "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s13.p0",
+   "say": "The lifeboat. When a member insurer is insolvent, the Michigan Property and Casualty Guaranty Association pays its covered claims.",
+   "text": "The lifeboat. When a member insurer is insolvent, the Michigan Property and Casualty Guaranty Association pays its covered claims.",
+   "heard": "the lifeboat. When a member insurer is insolvent, the Michigan Property and Casualty Guarantee Association pays its covered claims.",
+   "wer": 0.056,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s14.q",
+   "say": "Which claim is not subject to Michigan's five million dollars guaranty claim cap, statutory base? A: A homeowners dwelling claim. B: A commercial property claim. C: A general liability claim. D: A no-fault P I P claim.",
+   "text": "Which claim is NOT subject to Michigan's $5 million guaranty claim cap (statutory base)? A: A homeowners dwelling claim. B: A commercial property claim. C: A general liability claim. D: A no-fault PIP claim.",
+   "heard": "which claim is not subject to Michigan's $5 million-guarantee-claim cap, statutory base, a, a homeowner's dwelling claim, b, a commercial property claim, c, a general liability claim, d, a no-fault PIP claim.",
+   "wer": 0.03,
    "voice": "narrator"
   }
  ]

@@ -1,6 +1,7 @@
 {
  "id": "L11",
  "beats": 59,
+ "clips": 42,
  "mismatches": [
   {
    "scene": 1,
@@ -11,19 +12,27 @@
    "voice": "narrator"
   },
   {
+   "scene": 1,
+   "beat": 2,
+   "say": "Watch out: open isn't everything. Exclusions, like flood, still apply.",
+   "heard": "Watch out, open is not everything. Exclusions like floods still apply.",
+   "wer": 0.091,
+   "voice": "narrator"
+  },
+  {
    "scene": 4,
    "beat": 0,
-   "say": "Number peg: two Broad, a named list. Three Special, the house is open. Four, renters: the four walls aren't yours. Five, high five: open on everything. Six, the condo unit. Eight, the eight track: older homes.",
-   "heard": "Number peg two broad and named list. Three special, the house is open. Four, renters, the four walls are not yours. Five, high five, open on everything. Six, the condo unit. Eight, the eight track, older homes.",
-   "wer": 0.027,
+   "say": "Number peg: two Broad, a named list. Three Special, the house is open. Four, renters: the four walls aren't yours, so only Coverages C and D, no A or B. Five, high five: open on everything. Six, the condo unit. Eight, the eight track: older homes.",
+   "heard": "Number peg, two broad and named list. Three special, the house is open. Four, renters. The four walls are not yours, so only coverages C and D know A or B. Five, high five, open on everything. Six, the condo unit. Eight, the eight track, older homes.",
+   "wer": 0.043,
    "voice": "narrator"
   },
   {
    "scene": 4,
    "beat": 1,
-   "say": "Rosa's grandma owns a condo in Traverse City. Her H O six covers her unit's fixtures and improvements, not the whole building.",
-   "heard": "Rose's grandma owns a condo in Traverse City. Her H-06 covers her unit's fixtures and improvements, not the whole building.",
-   "wer": 0.05,
+   "say": "Rosa's grandma owns a condo in Traverse City. H O six is for condo owners and co-op shareholders. Its Coverage A covers her unit's alterations, appliances, fixtures and improvements, not the whole building.",
+   "heard": "Rose's grandma owns a condo in Traverse City. H06 is for condo owners and co-op shareholders. Its coverage, A, covers her unit's alterations, appliances, fixtures, and improvements, not the whole building.",
+   "wer": 0.032,
    "voice": "narrator"
   },
   {
@@ -51,19 +60,59 @@
    "voice": "narrator"
   },
   {
-   "scene": 10,
-   "beat": 2,
-   "say": "Now the trap. Bedroom jewelry box: one thousand five hundred dollars, but that cap is for theft only. Basement gun safe and dining-room silver: two thousand five hundred dollars each, also theft only.",
-   "heard": "Now the trap, bedroom, jewelry, box, $1,500, but that cap is for theft only. Basement, guns safe, and dining room silver, $2,500 each, also theft only.",
-   "wer": 0.03,
-   "voice": "narrator"
-  },
-  {
    "scene": 11,
    "beat": "o2:0",
    "say": "Right: one thousand five hundred dollars for the jewelry, two hundred dollars for the cash.",
    "heard": "Write $1,500 for the jewelry, $200 for the cash.",
    "wer": 0.067,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s3.c0",
+   "say": "Sam spills a can of paint on the hardwood floor. It isn't a named peril, so this form won't pay for the floor.",
+   "text": "Sam spills a can of paint on the hardwood floor. It isn't a named peril, so this form won't pay for the floor.",
+   "heard": "Sam spills a can of paint on the hardwood floor. It is not an aimed peril, so this form will not pay for the floor.",
+   "wer": 0.08,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s7.i0",
+   "say": "Fire chars the attached garage.",
+   "text": "Fire chars the attached garage.",
+   "heard": "Firechars the attached garage.",
+   "wer": 0.4,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s7.i1.why",
+   "say": "Set apart from the house by clear space: an other structure, Coverage B.",
+   "text": "Set apart from the house by clear space: an other structure, Coverage B.",
+   "heard": "Set apart from the house by clear space, another structure, coverage B.",
+   "wer": 0.154,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s7.i3.why",
+   "say": "Materials and supplies on or next to the premises, for repairing the dwelling, are Coverage A.",
+   "text": "Materials and supplies on or next to the premises, for repairing the dwelling, are Coverage A.",
+   "heard": "Materials and supplies on our next-to-the-premises for repairing the dwelling are Coverage A.",
+   "wer": 0.067,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s7.i4.why",
+   "say": "A garage set apart by clear space is an other structure: Coverage B.",
+   "text": "A garage set apart by clear space is an other structure: Coverage B.",
+   "heard": "A garage set apart by clear space is another structure, coverage B.",
+   "wer": 0.154,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s14.ask",
+   "say": "What should Sam claim? One: A new maple, under the trees coverage. Two: Skip it: wind-blown trees get nothing. Three: Claim tree removal: the car is blocked in.",
+   "text": "What should Sam claim? One: A new maple, under the trees coverage. Two: Skip it: wind-blown trees get nothing. Three: Claim tree removal: the car is blocked in.",
+   "heard": "What should SAM claim? One, a new maple under the tree's coverage. Two, skip it. Windblown trees get nothing. Three, claim tree removal. The car is blocked in.",
+   "wer": 0.069,
    "voice": "narrator"
   }
  ]

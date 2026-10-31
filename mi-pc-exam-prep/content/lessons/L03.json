@@ -61,6 +61,10 @@
     {
      "text": "Opening night at Tony's Pizza in Detroit! A new brick oven, a full house, and more risk than Tony knows.",
      "say": "Opening night at Tony's Pizza in Detroit! A new brick oven, a full house, and more risk than Tony knows."
+    },
+    {
+     "text": "General Insurance is 10.5% of your exam, about 16 questions. Tony's first year covers part of it: the words of risk and how insurers work.",
+     "say": "General Insurance is ten point five percent of your exam, about sixteen questions. Tony's first year covers part of it: the words of risk and how insurers work."
     }
    ]
   },
@@ -338,7 +342,7 @@
     {
      "text": "The collision when a delivery van hits a parked car",
      "bin": 1,
-     "why": "Collision is a cause of loss: a peril."
+     "why": "Collision is a cause of loss, so it is the peril."
     },
     {
      "text": "The scorched kitchen's lost value",
@@ -470,9 +474,15 @@
      "hl": "shop"
     },
     {
-     "text": "That's speculative risk, often called a business risk, and generally not insurable. Gambling is speculative too. Ask: could it end in a gain?",
-     "say": "That's speculative risk, often called a business risk, and generally not insurable. Gambling is speculative too. Ask: could it end in a gain?",
+     "text": "That's speculative risk, often called a business risk, and generally not insurable. Gambling is speculative too.",
+     "say": "That's speculative risk, often called a business risk, and generally not insurable. Gambling is speculative too.",
      "show": 4
+    },
+    {
+     "text": "Here's the trap: a new business is speculative even though it could lose money, because a gain is possible. Ask: could it end in a gain?",
+     "say": "Here's the trap: a new business is speculative even though it could lose money, because a gain is possible. Ask: could it end in a gain?",
+     "show": 4,
+     "hl": "shop"
     }
    ]
   },
@@ -724,8 +734,8 @@
    ],
    "beats": [
     {
-     "text": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
-     "say": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it."
+     "text": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it. The five methods start with S, T, A, R and R: STARR, with two R's.",
+     "say": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it. The five methods start with S, T, A, R and R: STARR, with two R's."
     },
     {
      "text": "Share: a group of pizzerias splits premiums and losses by a set formula, as reciprocals do.",
@@ -1164,8 +1174,8 @@
    ],
    "beats": [
     {
-     "text": "Tony's fire risk is a CLEAN Deal. Calculable: the insurer can estimate how often and how badly shops burn. Large numbers: thousands of pizzerias. Economically feasible: an affordable premium. Accidental: nobody plans it.",
-     "say": "Tony's fire risk is a CLEAN Deal. Calculable: the insurer can estimate how often and how badly shops burn. Large numbers: thousands of pizzerias. Economically feasible: an affordable premium. Accidental: nobody plans it.",
+     "text": "An ideally insurable risk is a CLEAN Deal, and Tony's fire risk is one. Calculable chance of loss: the insurer can estimate how often and how badly shops burn. Large numbers of exposure units: thousands of pizzerias. Economically feasible: an affordable premium. Accidental: an unintentional loss.",
+     "say": "An ideally insurable risk is a CLEAN Deal, and Tony's fire risk is one. Calculable chance of loss: the insurer can estimate how often and how badly shops burn. Large numbers of exposure units: thousands of pizzerias. Economically feasible: an affordable premium. Accidental: an unintentional loss.",
      "show": 2
     },
     {
@@ -1174,8 +1184,8 @@
      "show": 3
     },
     {
-     "text": "Determinable: it's clear what caused the loss, when, where and how much. Textbooks word this list differently, so learn the six ideas.",
-     "say": "Determinable: it's clear what caused the loss, when, where and how much. Textbooks word this list differently, so learn the six ideas.",
+     "text": "Determinable and measurable: it's clear what caused the loss, when, where and how much. So the ideas start with C, L, E, A, N and D: CLEAN Deal. Textbooks word this list differently, so learn the six ideas.",
+     "say": "Determinable and measurable: it's clear what caused the loss, when, where and how much. So the ideas start with C, L, E, A, N and D: CLEAN Deal. Textbooks word this list differently, so learn the six ideas.",
      "show": 4
     }
    ]
@@ -1605,16 +1615,16 @@
      "say": "The law of large numbers: the more independent exposure units, the more likely actual losses equal expected losses."
     },
     {
-     "text": "Ten shops? One fire can throw off the forecast. Ten thousand? Losses likely land close to expected.",
-     "say": "Ten shops? One fire can throw off the forecast. Ten thousand? Losses likely land close to expected.",
+     "text": "Ten shops? One fire can throw off the forecast. Ten thousand? Losses likely land close to expected. A bigger pool makes the data more credible.",
+     "say": "Ten shops? One fire can throw off the forecast. Ten thousand? Losses likely land close to expected. A bigger pool makes the data more credible.",
      "hl": [
       "t1",
       "t2"
      ]
     },
     {
-     "text": "Adverse selection is an imbalance: people who see a high chance of loss buy far more often than others.",
-     "say": "Adverse selection is an imbalance: people who see a high chance of loss buy far more often than others.",
+     "text": "Adverse selection is an imbalance: people who see a high chance of loss seek insurance far more often than others.",
+     "say": "Adverse selection is an imbalance: people who see a high chance of loss seek insurance far more often than others.",
      "hl": "risky"
     },
     {
@@ -1839,14 +1849,14 @@
    ],
    "beats": [
     {
-     "text": "Who protects Tony's insurer? A reinsurer: for a premium, it covers part or all of the insurer's liability.",
-     "say": "Who protects Tony's insurer? A reinsurer: for a premium, it covers part or all of the insurer's liability.",
+     "text": "Who protects Tony's insurer? A reinsurer: for a premium, it covers part or all of the insurer's liability. That's reinsurance: insurance for insurance companies.",
+     "say": "Who protects Tony's insurer? A reinsurer: for a premium, it covers part or all of the insurer's liability. That's reinsurance: insurance for insurance companies.",
      "show": 2,
      "hl": "re"
     },
     {
-     "text": "That makes the insurer the ceding company. Why buy? Capacity to write more, surplus relief, steadier results and catastrophe protection.",
-     "say": "That makes the insurer the ceding company. Why buy? Capacity to write more, surplus relief, steadier results and catastrophe protection.",
+     "text": "Tony's insurer takes on thousands of shops, then passes part of that risk to a reinsurer. That makes the insurer the ceding company. Why buy? Capacity to write more, surplus relief, steadier results and catastrophe protection.",
+     "say": "Tony's insurer takes on thousands of shops, then passes part of that risk to a reinsurer. That makes the insurer the ceding company. Why buy? Capacity to write more, surplus relief, steadier results and catastrophe protection.",
      "show": 3,
      "hl": "ins"
     },
@@ -2290,7 +2300,7 @@
     {
      "on": "aif",
      "label": "Reciprocal",
-     "text": "An interinsurance exchange: picture neighbors swapping risks. It's an unincorporated group of subscribers who pool risks, run by an attorney-in-fact."
+     "text": "An interinsurance exchange: picture neighbors swapping risks. It's an unincorporated group of subscribers who pool risks, run by a manager called an attorney-in-fact."
     },
     {
      "on": "lloyds",
@@ -2320,8 +2330,8 @@
      "voice": "tony"
     },
     {
-     "text": "A reciprocal: unincorporated subscribers pooling risks, run by an attorney-in-fact. Lloyd's is a marketplace of underwriters, not an insurer. A.M. Best: A plus plus and A plus, Superior; A and A minus, Excellent.",
-     "say": "A reciprocal: unincorporated subscribers pooling risks, run by an attorney-in-fact. Lloyd's is a marketplace of underwriters, not an insurer. A M Best: A plus plus and A plus, Superior; A and A minus, Excellent."
+     "text": "A reciprocal: unincorporated subscribers pooling risks, run by a manager called an attorney-in-fact. Lloyd's is a marketplace of underwriters, not an insurer. A.M. Best: A plus plus and A plus, Superior; A and A minus, Excellent.",
+     "say": "A reciprocal: unincorporated subscribers pooling risks, run by a manager called an attorney-in-fact. Lloyd's is a marketplace of underwriters, not an insurer. A M Best: A plus plus and A plus, Superior; A and A minus, Excellent."
     }
    ]
   },
@@ -2721,13 +2731,13 @@
    ],
    "beats": [
     {
-     "text": "A hazard is the condition; the peril is the cause. Pure risk is generally insurable. Handle risk like a STARR.",
-     "say": "A hazard is the condition; the peril is the cause. Pure risk is generally insurable. Handle risk like a STARR.",
+     "text": "A hazard is the condition; the peril is the cause of loss. Pure risk is generally insurable; speculative risk can bring a gain. Handle risk like a STARR. Ideally insurable risks are a CLEAN Deal.",
+     "say": "A hazard is the condition; the peril is the cause of loss. Pure risk is generally insurable; speculative risk can bring a gain. Handle risk like a STARR. Ideally insurable risks are a CLEAN Deal.",
      "show": 3
     },
     {
-     "text": "Ideally insurable risks are a CLEAN Deal.",
-     "say": "Ideally insurable risks are a CLEAN Deal.",
+     "text": "In reinsurance, quota share splits by one percentage; excess of loss starts above the retention. Stockholders own a stock company; policyholders own a mutual.",
+     "say": "In reinsurance, quota share splits by one percentage; excess of loss starts above the retention. Stockholders own a stock company; policyholders own a mutual.",
      "show": 5
     },
     {
@@ -2760,5 +2770,8 @@
   "PSI Michigan P&C content outline (Series 16-81)",
   "Memory hooks mn_core-01 to mn_core-04; confusion pair cp_personal-01",
   "Question bank: core-001, core-002, core-004, core-005, core-006, core-008, core-009, core-010, core-011, core-bas-50, core-gen-03, core-gen-05, core-gen-06, core-gen-07, core-gen-10, core-gen-11"
- ]
+ ],
+ "clipsay": {
+  "s12.p4": "A.M. Best rating. An independent opinion of an insurer's ability to meet its obligations. \"A\"++ and \"A\"+: Superior. \"A\" and \"A\"\u2212: Excellent. Not a recommendation to buy."
+ }
 }

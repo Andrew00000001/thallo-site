@@ -84,7 +84,7 @@
    "src": "IRMI glossary: insurable interest; ISO CP 00 10 10 12, E.4.d; ISO HO 00 03 05 11, Sec. I Cond. A; question core-021",
    "kind": "Term",
    "term": "Insurable interest",
-   "plain": "A real stake in what's insured, financial or legal. It usually comes from property rights like ownership, a contract, or potential legal liability.",
+   "plain": "A real stake in what's insured, financial or legal. It usually comes from property rights, a contract, or potential legal liability.",
    "example": "Tony owns his new building and the ovens inside, so he has an insurable interest in both.",
    "exam": "Property: it must exist at the time of the loss, and you're paid no more than your interest. Liability: it comes from potential legal liability.",
    "draw": [
@@ -140,14 +140,14 @@
    ],
    "beats": [
     {
-     "text": "Tony owns his building and ovens, so he has an insurable interest in them: a financial or legal relationship to what's insured.",
-     "say": "Tony owns his building and ovens, so he has an insurable interest in them: a financial or legal relationship to what's insured.",
+     "text": "Tony owns his building and ovens, so he has an insurable interest in them: a financial or legal relationship to what's insured. It usually comes from ownership or other property rights, from a contract, or from potential legal liability.",
+     "say": "Tony owns his building and ovens, so he has an insurable interest in them: a financial or legal relationship to what's insured. It usually comes from ownership or other property rights, from a contract, or from potential legal liability.",
      "show": 3,
      "hl": "shop"
     },
     {
-     "text": "For property insurance, it must exist at the time of the loss. For liability, it comes from your potential legal liability.",
-     "say": "For property insurance, it must exist at the time of the loss. For liability, it comes from your potential legal liability.",
+     "text": "For property insurance, it must exist at the time of the loss, and you're paid no more than your interest. For liability, it comes from your potential legal liability.",
+     "say": "For property insurance, it must exist at the time of the loss, and you're paid no more than your interest. For liability, it comes from your potential legal liability.",
      "show": 4
     }
    ]
@@ -857,13 +857,13 @@
      "hl": "rags"
     },
     {
-     "text": "Moral hazard, the Person: dishonesty, like a fraud record, or a motive to profit from a loss, like a money-losing business.",
-     "say": "Moral hazard, the Person: dishonesty, like a fraud record, or a motive to profit from a loss, like a money-losing business.",
+     "text": "Moral hazard, the Person, comes from character or circumstances. Think dishonesty, like a fraud record, or a motive to profit from a loss, like a money-losing business.",
+     "say": "Moral hazard, the Person, comes from character or circumstances. Think dishonesty, like a fraud record, or a motive to profit from a loss, like a money-losing business.",
      "hl": "owner"
     },
     {
-     "text": "Morale hazard, Meh: a tenant stops locking her door because insurance will pay. An attitude, not dishonesty.",
-     "say": "Morale hazard, Meh: a tenant stops locking her door because insurance will pay. An attitude, not dishonesty.",
+     "text": "Morale hazard, Meh: careless because insurance will pay, like a tenant who stops locking her door. An attitude, not dishonesty.",
+     "say": "Morale hazard, Meh: careless because insurance will pay, like a tenant who stops locking her door. An attitude, not dishonesty.",
      "hl": "tenant"
     },
     {
@@ -1543,14 +1543,14 @@
      "hl": "dana"
     },
     {
-     "text": "That's special, or open, perils, formerly called all risks.",
-     "say": "That's special, or open, perils, formerly called all risks.",
+     "text": "That's special, or open, perils, formerly called all risks. It covers all causes of loss except those the policy specifically excludes.",
+     "say": "That's special, or open, perils, formerly called all risks. It covers all causes of loss except those the policy specifically excludes.",
      "show": 2,
      "hl": "shield"
     },
     {
-     "text": "Named perils covers only the listed perils. The tell: a list of what's covered means named; only exclusions means open.",
-     "say": "Named perils covers only the listed perils. The tell: a list of what's covered means named; only exclusions means open.",
+     "text": "Tony's policy lists no covered causes, only exclusions. A loss from a cause nobody thought of? Covered, unless it's excluded. Named perils covers only the listed perils. The tell: a list of what's covered means named; only exclusions means open.",
+     "say": "Tony's policy lists no covered causes, only exclusions. A loss from a cause nobody thought of? Covered, unless it's excluded. Named perils covers only the listed perils. The tell: a list of what's covered means named; only exclusions means open.",
      "show": 3,
      "hl": "excl"
     },
@@ -1673,8 +1673,8 @@
    ],
    "beats": [
     {
-     "text": "Specific insurance gives each item its own limit: one for the building, one for Tony's ovens and tables.",
-     "say": "Specific insurance gives each item its own limit: one for the building, one for Tony's ovens and tables."
+     "text": "Specific insurance gives each item its own limit: one for the building, one for the contents, Tony's ovens and tables.",
+     "say": "Specific insurance gives each item its own limit: one for the building, one for the contents, Tony's ovens and tables."
     },
     {
      "text": "Blanket insurance puts one limit over two or more items or locations.",
@@ -1779,10 +1779,15 @@
      "show": 1
     },
     {
-     "text": "Tony closes for repairs and loses pizza sales: a consequential, or indirect, loss that results from the damage.",
-     "say": "Tony closes for repairs and loses pizza sales: a consequential, or indirect, loss that results from the damage.",
-     "show": 4,
+     "text": "Tony closes for repairs and loses pizza sales: a consequential, or indirect, loss. It's a money loss that results from the direct physical damage.",
+     "say": "Tony closes for repairs and loses pizza sales: a consequential, or indirect, loss. It's a money loss that results from the direct physical damage.",
+     "show": 3,
      "hl": "till"
+    },
+    {
+     "text": "Loss of rent, business income and extra expense are consequential losses. On the exam, ask: is it the damage itself, or a money loss that follows?",
+     "say": "Loss of rent, business income and extra expense are consequential losses. On the exam, ask: is it the damage itself, or a money loss that follows?",
+     "show": 4
     }
    ]
   },
@@ -1913,13 +1918,13 @@
      "show": 0
     },
     {
-     "text": "Replacement cost means like kind and quality, with no deduction for depreciation.",
-     "say": "Replacement cost means like kind and quality, with no deduction for depreciation.",
+     "text": "Replacement cost means like kind and quality, with no deduction for depreciation. Actual cash value is often replacement cost minus depreciation.",
+     "say": "Replacement cost means like kind and quality, with no deduction for depreciation. Actual cash value is often replacement cost minus depreciation.",
      "show": 2
     },
     {
-     "text": "Depending on the policy and state law, ACV can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value.",
-     "say": "Depending on the policy and state law, A C V can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value.",
+     "text": "Depending on the policy and state law, ACV can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value. A functional replacement does the same job equally well, but it need not be identical.",
+     "say": "Depending on the policy and state law, A C V can also be fair market value, or the broad evidence rule, which weighs all relevant evidence of value. A functional replacement does the same job equally well, but it need not be identical.",
      "show": 4
     }
    ]
@@ -2437,8 +2442,8 @@
    ],
    "beats": [
     {
-     "text": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise.",
-     "say": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise.",
+     "text": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise: you get the least of three amounts. Under the 2010 auto endorsement, those are actual cash value, the cost to repair or replace, and the stated amount.",
+     "say": "Don't mix up these two. Agreed value sends coinsurance on vacation. Stated amount is a ceiling, not a promise: you get the least of three amounts. Under the twenty ten auto endorsement, those are actual cash value, the cost to repair or replace, and the stated amount.",
      "show": 3
     },
     {
@@ -2508,13 +2513,13 @@
    ],
    "beats": [
     {
-     "text": "What a week! Once Tony sold his old shop, his insurable interest was gone. And hazards? Property, Person, Meh.",
-     "say": "What a week! Once Tony sold his old shop, his insurable interest was gone. And hazards? Property, Person, Meh.",
+     "text": "What a week! Once Tony sold his old shop, his insurable interest was gone. For property, it must exist at the time of the loss. Hazards raise the chance of loss: Property, Person, Meh. Open perils lists only exclusions; named perils lists what's covered.",
+     "say": "What a week! Once Tony sold his old shop, his insurable interest was gone. For property, it must exist at the time of the loss. Hazards raise the chance of loss: Property, Person, Meh. Open perils lists only exclusions; named perils lists what's covered.",
      "show": 3
     },
     {
-     "text": "The charred kitchen was a direct loss; the lost sales, consequential. Stated amount is a ceiling; agreed value suspends coinsurance.",
-     "say": "The charred kitchen was a direct loss; the lost sales, consequential. Stated amount is a ceiling; agreed value suspends coinsurance.",
+     "text": "The charred kitchen was a direct loss; the lost sales, consequential. ACV is often replacement cost minus depreciation. Stated amount is a ceiling; agreed value suspends coinsurance.",
+     "say": "The charred kitchen was a direct loss; the lost sales, consequential. A C V is often replacement cost minus depreciation. Stated amount is a ceiling; agreed value suspends coinsurance.",
      "show": 5
     },
     {
@@ -2547,5 +2552,9 @@
   "ISO Commercial Lines Manual construction codes (via IRMI)",
   "Question bank: core-021, core-022, core-023, core-031, core-032, core-033, core-034, core-bas-02, core-bas-03, core-bas-05, core-bas-11, core-bas-12",
   "Confusion pairs cp_personal-01, -06, -07; memory hooks mn_core-10, -16, -17"
- ]
+ ],
+ "clipsay": {
+  "s14.ask": "What does Tony do? One: Demand the full thirty thousand dollars stated amount. Two: Take twenty six thousand dollars, the actual cash value. Three: Demand twenty eight thousand dollars to replace it like-for-like.",
+  "s14.o2.fail": "Least of three: A C V twenty six thousand dollars, replacement twenty eight thousand dollars, stated amount thirty thousand dollars. The endorsement pays the least."
+ }
 }

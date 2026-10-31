@@ -1,20 +1,13 @@
 {
  "id": "L23",
- "beats": 57,
+ "beats": 62,
+ "clips": 42,
  "mismatches": [
-  {
-   "scene": 5,
-   "beat": 1,
-   "say": "A first-letter trick: Paul, the Principal, Promises to perform. Tony, the Obligee, is Owed and protected; he required the bond. The Surety Stands behind the promise.",
-   "heard": "A first letter trick, Paul the Principal promises to perform. Tony the Oblige is owed and protected. He required the bond. The surety stands behind the promise.",
-   "wer": 0.038,
-   "voice": "narrator"
-  },
   {
    "scene": 6,
    "beat": "o1:0",
    "say": "Nice try, Paul. I'm the obligee. The bond protects me!",
-   "heard": "Nice try Paul, I'm the Obligi, the bond protects me.",
+   "heard": "Nice try Paul, I'm the obliji, the bond protects me.",
    "wer": 0.1,
    "voice": "tony"
   },
@@ -24,22 +17,6 @@
    "say": "Remember: the principal must reimburse the surety for any loss it pays.",
    "heard": "Remember, the principle must reimburse the surety for any loss it pays.",
    "wer": 0.083,
-   "voice": "narrator"
-  },
-  {
-   "scene": 7,
-   "beat": 1,
-   "say": "Contract bonds: bid, performance and payment. On a license and permit bond, the government requiring it is the obligee, and the applicant is the principal.",
-   "heard": "Contract bonds, bid, performance, and payment. On a license and permit bond, the government requiring it is the oblige and the applicant is the principal.",
-   "wer": 0.045,
-   "voice": "narrator"
-  },
-  {
-   "scene": 8,
-   "beat": 0,
-   "say": "No licensed insurer will cover the axe-throwing lane. Enter surplus lines: insurers not licensed in Michigan, but eligible to write here.",
-   "heard": "No licensed insurer will cover the act's throwing lane. Enter surplus lines. Insurer is not licensed in Michigan, but eligible to write here.",
-   "wer": 0.136,
    "voice": "narrator"
   },
   {
@@ -53,9 +30,9 @@
   {
    "scene": 10,
    "beat": 3,
-   "say": "Homes means single-family and two to four family buildings. Increased Cost of Compliance pays to elevate, demolish, relocate or floodproof, but building plus it can't exceed the building maximum.",
-   "heard": "Homes mean single-family and two to four-family buildings. Increased cost of compliance pays to elevate, demolish, relocate, or flood-proof, but building plus it cannot exceed the building maximum.",
-   "wer": 0.103,
+   "say": "Homes means single-family and two to four family buildings. Increased Cost of Compliance pays up to thirty thousand dollars to elevate, demolish, relocate or floodproof. But building plus it can't exceed the building maximum.",
+   "heard": "Homes means single-family and two- to four-family buildings. Increased cost of compliance pays up to $30,000 to elevate, demolish, relocate, or flood-proof. But building plus it cannot exceed the building maximum.",
+   "wer": 0.059,
    "voice": "narrator"
   },
   {
@@ -72,6 +49,62 @@
    "say": "Smart. Bought with the loan, it starts at closing.",
    "heard": "Smart, bought with alone, it starts at closing.",
    "wer": 0.222,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
+   "beat": 4,
+   "say": "And N F I P homes: up to two hundred fifty thousand dollars on the building and one hundred thousand dollars on contents. The usual wait is thirty days, but none when it's bought as part of a loan closing.",
+   "heard": "and NF-IP homes\u2014up to $250,000 on the building and $100,000 on contents. The usual wait is 30 days, but none when it's bought as part of a loan closing.",
+   "wer": 0.057,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s7.i1.why",
+   "say": "The licensee will obey the law. Township: obligee. Applicant: principal.",
+   "text": "The licensee will obey the law. Township: obligee. Applicant: principal.",
+   "heard": "The licensee will obey the law, Township Oblige, Applicant Principle.",
+   "wer": 0.2,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s7.i2.why",
+   "say": "Fiduciary bond: a person the court trusts with others' property acts faithfully.",
+   "text": "Fiduciary bond: a person the court trusts with others' property acts faithfully.",
+   "heard": "Fijusri Bond, a person the court trusts with other's property acts faithfully.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s9.ask",
+   "say": "What should Dana do? One: Move it all to surplus lines. Two: Place the axe lane herself. Three: Axe lane only: call a surplus lines licensee.",
+   "text": "What should Dana do? One: Move it all to surplus lines. Two: Place the axe lane herself. Three: Axe lane only: call a surplus lines licensee.",
+   "heard": "What should Dana do? One, move it all to surplus lines. Two, place the ax lane herself. Three, ax lane only, call a surplus lines licensee.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s9.o2.win",
+   "say": "In Michigan, the restaurant, readily written by three or more authorized insurers, stays home. The separate axe lane goes to a surplus lines licensee.",
+   "text": "In Michigan, the restaurant, readily written by 3 or more authorized insurers, stays home. The separate axe lane goes to a surplus lines licensee.",
+   "heard": "In Michigan, the restaurant, readily written by three or more authorized insurers, stays home. The separate ax lane goes to a surplus line's licensee.",
+   "wer": 0.042,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.c0.why",
+   "say": "Bought in connection with making, increasing, extending or renewing a loan: no waiting period.",
+   "text": "Bought in connection with making, increasing, extending or renewing a loan: no waiting period.",
+   "heard": "Bought in connection with making, increasing, extending, or renewing alone. No waiting period.",
+   "wer": 0.143,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.c2",
+   "say": "A new flood map takes effect, putting Rosa's house in a special flood hazard area. She buys two months later.",
+   "text": "A new flood map takes effect, putting Rosa's house in a special flood hazard area. She buys 2 months later.",
+   "heard": "A new flood map takes effect, putting Rose's house in a special flood hazard area. She buys two months later.",
+   "wer": 0.05,
    "voice": "narrator"
   }
  ]

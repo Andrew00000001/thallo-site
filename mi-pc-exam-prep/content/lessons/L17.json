@@ -262,8 +262,8 @@
      ]
     },
     {
-     "text": "The Truckers form was written for hauling property by auto for hire. The broader Motor Carrier form also fits private carriers hauling their own goods.",
-     "say": "The Truckers form was written for hauling property by auto for hire. The broader Motor Carrier form also fits private carriers hauling their own goods.",
+     "text": "The Truckers form was written for hauling property by auto for hire. The broader Motor Carrier form fits both for-hire carriers and private carriers hauling their own goods.",
+     "say": "The Truckers form was written for hauling property by auto for hire. The broader Motor Carrier form fits both for-hire carriers and private carriers hauling their own goods.",
      "hl": [
       "semi",
       "box"
@@ -388,19 +388,19 @@
    ],
    "beats": [
     {
-     "text": "Symbols: numbers on the declarations that say which autos get each coverage. Symbol 1 means any auto.",
-     "say": "Symbols: numbers on the declarations that say which autos get each coverage. Symbol one means any auto.",
+     "text": "Covered auto symbols: a number next to each coverage on the declarations tells you which autos get that coverage. Symbol 1 means any auto.",
+     "say": "Covered auto symbols: a number next to each coverage on the declarations tells you which autos get that coverage. Symbol one means any auto.",
      "show": 2
     },
     {
-     "text": "2 through 6 are owned autos: 2 all owned, 3 private passenger, 4 other than private passenger. 5 is subject to no-fault, 6 to a compulsory uninsured motorists law.",
-     "say": "Two through six are owned autos: two all owned, three private passenger, four other than private passenger. Five is subject to no-fault, six to a compulsory uninsured motorists law.",
+     "text": "2 through 6 are owned autos: 2 all owned, 3 private passenger, 4 other than private passenger. 5 is subject to no-fault, 6 to a compulsory uninsured motorists law. Tony's own van is owned, so symbol 2 fits. A car he rents for a weekend is hired: symbol 8.",
+     "say": "Two through six are owned autos: two all owned, three private passenger, four other than private passenger. Five is subject to no-fault, six to a compulsory uninsured motorists law. Tony's own van is owned, so symbol two fits. A car he rents for a weekend is hired: symbol eight.",
      "show": 3,
      "hl": "t26"
     },
     {
-     "text": "7 is specifically described autos. 8 is hired, 9 is non-owned, and 19 is mobile equipment subject to a compulsory or financial responsibility law.",
-     "say": "Seven is specifically described autos. Eight is hired, nine is non-owned, and nineteen is mobile equipment subject to a compulsory or financial responsibility law.",
+     "text": "7 is specifically described autos. 8 is hired, but not from your employees. 9 is non-owned, and 19 is mobile equipment subject to a compulsory or financial responsibility law.",
+     "say": "Seven is specifically described autos. Eight is hired, but not from your employees. Nine is non-owned, and nineteen is mobile equipment subject to a compulsory or financial responsibility law.",
      "show": 4,
      "hl": [
       "t8",
@@ -1138,8 +1138,8 @@
    ],
    "beats": [
     {
-     "text": "Now the van itself: three physical damage coverages. Comprehensive, Specified Causes of Loss, and Collision.",
-     "say": "Now the van itself: three physical damage coverages. Comprehensive, Specified Causes of Loss, and Collision.",
+     "text": "Now the van itself: three physical damage coverages. Comprehensive, Specified Causes of Loss, and Collision. Specified Causes covers a short, named list of causes. Not on the list? Not covered.",
+     "say": "Now the van itself: three physical damage coverages. Comprehensive, Specified Causes of Loss, and Collision. Specified Causes covers a short, named list of causes. Not on the list? Not covered.",
      "show": 2
     },
     {
@@ -1149,8 +1149,8 @@
      "hl": "list"
     },
     {
-     "text": "Tony chose only Specified Causes: a flood is covered, a deer isn't.",
-     "say": "Tony chose only Specified Causes: a flood is covered, a deer isn't.",
+     "text": "Tony chose only Specified Causes for his van. So a flood soaking the parked van is covered. The van hitting a deer is not on the list, so it's not covered.",
+     "say": "Tony chose only Specified Causes for his van. So a flood soaking the parked van is covered. The van hitting a deer is not on the list, so it's not covered.",
      "show": 3,
      "hl": [
       "flood",
@@ -1158,8 +1158,8 @@
      ]
     },
     {
-     "text": "Glass breakage, hitting a bird or animal, and falling objects are paid under Comprehensive. The van hitting an object is Collision.",
-     "say": "Glass breakage, hitting a bird or animal, and falling objects are paid under Comprehensive. The van hitting an object is Collision.",
+     "text": "Glass breakage, hitting a bird or animal like that deer, and falling objects or missiles are paid under Comprehensive. The van hitting an object is Collision.",
+     "say": "Glass breakage, hitting a bird or animal like that deer, and falling objects or missiles are paid under Comprehensive. The van hitting an object is Collision.",
      "show": 4
     }
    ]
@@ -1623,8 +1623,8 @@
    ],
    "beats": [
     {
-     "text": "Business Auto liability pays extras, called supplementary payments. They include bail bonds up to $2,000, and lost earnings up to $250 a day.",
-     "say": "Business Auto liability pays extras, called supplementary payments. They include bail bonds up to two thousand dollars, and lost earnings up to two hundred fifty dollars a day.",
+     "text": "Under the 2020 Business Auto form, liability pays extras, called supplementary payments. They include bail bonds up to $2,000, and lost earnings up to $250 a day.",
+     "say": "Under the twenty twenty Business Auto form, liability pays extras, called supplementary payments. They include bail bonds up to two thousand dollars, and lost earnings up to two hundred fifty dollars a day.",
      "hl": "gavel"
     },
     {
@@ -1702,8 +1702,8 @@
    ],
    "beats": [
     {
-     "text": "Garagekeepers covers customers' autos left in a shop's care while it services, repairs, parks or stores them.",
-     "say": "Garagekeepers covers customers' autos left in a shop's care while it services, repairs, parks or stores them.",
+     "text": "Garagekeepers covers customers' autos left in a shop's care while it services, repairs, parks or stores them. For example, Tony's van is at Gus's repair shop for brakes. If it's damaged there, Gus's garagekeepers may pay, depending on its basis.",
+     "say": "Garagekeepers covers customers' autos left in a shop's care while it services, repairs, parks or stores them. For example, Tony's van is at Gus's repair shop for brakes. If it's damaged there, Gus's garagekeepers may pay, depending on its basis.",
      "show": 3,
      "hl": "van"
     },
@@ -2114,20 +2114,20 @@
    ],
    "beats": [
     {
-     "text": "Tony's new storeroom forklift is mobile equipment. So are bulldozers, farm machinery, crawler-tread vehicles, and vehicles used only on or next to your premises.",
-     "say": "Tony's new storeroom forklift is mobile equipment. So are bulldozers, farm machinery, crawler-tread vehicles, and vehicles used only on or next to your premises.",
+     "text": "Tony's new storeroom forklift is mobile equipment. So are other off-road vehicles, like bulldozers and farm machinery. Crawler-tread vehicles count too, and so do vehicles used only on or next to premises you own or rent.",
+     "say": "Tony's new storeroom forklift is mobile equipment. So are other off-road vehicles, like bulldozers and farm machinery. Crawler-tread vehicles count too, and so do vehicles used only on or next to premises you own or rent.",
      "show": 2,
      "hl": "fork"
     },
     {
-     "text": "A pickup with a permanently attached snowplow is still an auto. So is any land vehicle subject to a compulsory or financial responsibility law.",
-     "say": "A pickup with a permanently attached snowplow is still an auto. So is any land vehicle subject to a compulsory or financial responsibility law.",
+     "text": "A pickup with a permanently attached snowplow is still an auto. So is any self-propelled vehicle with permanent snow-removal, street-cleaning or road-maintenance gear, though not road-construction or resurfacing gear. So is a cherry picker on an auto or truck chassis.",
+     "say": "A pickup with a permanently attached snowplow is still an auto. So is any self-propelled vehicle with permanent snow-removal, street-cleaning or road-maintenance gear, though not road-construction or resurfacing gear. So is a cherry picker on an auto or truck chassis.",
      "show": 4,
      "hl": "pickup"
     },
     {
-     "text": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
-     "say": "Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
+     "text": "So is any land vehicle subject to a compulsory or financial responsibility law. Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
+     "say": "So is any land vehicle subject to a compulsory or financial responsibility law. Without an endorsement, the Business Auto form covers mobile equipment for liability only while a covered auto carries or tows it.",
      "show": 4
     }
    ]
@@ -2607,14 +2607,19 @@
    ],
    "beats": [
     {
-     "text": "What a ride! Hired is 8, non-owned is 9, and direct primary pays first.",
-     "say": "What a ride! Hired is eight, non-owned is nine, and direct primary pays first.",
+     "text": "What a ride! Symbol 1 is any auto, 2 through 6 are owned, and 7 is specifically described. Hired is 8, non-owned is 9. Under symbol 7, tell the insurer about a new auto within 30 days. And Specified Causes is a named list: no deer, no glass breakage.",
+     "say": "What a ride! Symbol one is any auto, two through six are owned, and seven is specifically described. Hired is eight, non-owned is nine. Under symbol seven, tell the insurer about a new auto within thirty days. And Specified Causes is a named list: no deer, no glass breakage.",
      "show": 5
     },
     {
      "text": "And the pizza still gets there hot.",
      "say": "And the pizza still gets there hot.",
      "voice": "tony",
+     "show": 5
+    },
+    {
+     "text": "A few more to remember. Garagekeepers has three bases: legal liability, direct excess, and direct primary, which pays first. On the 2020 Business Auto form, bail bonds go up to $2,000. And Michigan PIP and PPI come by endorsement.",
+     "say": "A few more to remember. Garagekeepers has three bases: legal liability, direct excess, and direct primary, which pays first. On the twenty twenty Business Auto form, bail bonds go up to two thousand dollars. And Michigan P I P and P P I come by endorsement.",
      "show": 5
     }
    ]

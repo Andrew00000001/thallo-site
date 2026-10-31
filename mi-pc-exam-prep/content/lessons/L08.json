@@ -597,8 +597,8 @@
      "show": 2
     },
     {
-     "text": "Tony's building is worth $400,000 when the fire hits. At 80%, he should carry $320,000. He carries $240,000.",
-     "say": "Tony's building is worth four hundred thousand dollars when the fire hits. At eighty percent, he should carry three hundred twenty thousand dollars. He carries two hundred forty thousand dollars.",
+     "text": "Tony's building is worth $400,000 when the fire hits. At 80%, he should carry $320,000. He carries $240,000. So Should is $320,000, and Did is $240,000.",
+     "say": "Tony's building is worth four hundred thousand dollars when the fire hits. At eighty percent, he should carry three hundred twenty thousand dollars. He carries two hundred forty thousand dollars. So Should is three hundred twenty thousand dollars, and Did is two hundred forty thousand dollars.",
      "show": 3,
      "hl": [
       "should",
@@ -790,8 +790,12 @@
    ],
    "reveal": [
     {
-     "text": "$74,000: 75% of the loss is $75,000, minus the deductible.",
-     "say": "Seventy-four thousand dollars: seventy-five percent of the loss is seventy-five thousand dollars, minus the deductible."
+     "text": "$74,000. Should is 80% of $500,000, or $400,000. $300,000 divided by $400,000 is 0.75.",
+     "say": "Seventy-four thousand dollars. Should is eighty percent of five hundred thousand dollars, or four hundred thousand dollars. Three hundred thousand dollars divided by four hundred thousand dollars is zero point seven five."
+    },
+    {
+     "text": "So 75% of the loss is $75,000, minus the deductible: $74,000.",
+     "say": "So seventy-five percent of the loss is seventy-five thousand dollars, minus the deductible: seventy-four thousand dollars."
     },
     {
      "text": "Traps: $74,250 takes the deductible off first. $59,000 uses the full value, not 80%.",
@@ -917,18 +921,18 @@
    ],
    "beats": [
     {
-     "text": "Rewind to before Tony sold his old shop. Exam word: vacant, meaning little or no furniture or belongings inside.",
-     "say": "Rewind to before Tony sold his old shop. Exam word: vacant, meaning little or no furniture or belongings inside.",
+     "text": "Rewind to before Tony sold his old shop. Exam word: vacant, meaning little or no furniture or belongings inside. The stuff is gone, not just the people.",
+     "say": "Rewind to before Tony sold his old shop. Exam word: vacant, meaning little or no furniture or belongings inside. The stuff is gone, not just the people.",
      "show": 2
     },
     {
-     "text": "He moved everything out; it sat unused, for sale.",
-     "say": "He moved everything out; it sat unused, for sale.",
+     "text": "He moved everything from his old east-side shop to the new one. It sat empty and unused, for sale.",
+     "say": "He moved everything from his old east-side shop to the new one. It sat empty and unused, for sale.",
      "show": 3
     },
     {
-     "text": "Watch out: people away, but belongings still there? That's unoccupied. Look for the stuff.",
-     "say": "Watch out: people away, but belongings still there? That's unoccupied. Look for the stuff.",
+     "text": "Watch out: people away, but belongings still there? That's unoccupied, like a furnished house while its owners spend four months in Florida. Look for the stuff.",
+     "say": "Watch out: people away, but belongings still there? That's unoccupied, like a furnished house while its owners spend four months in Florida. Look for the stuff.",
      "show": 4
     },
     {
@@ -1257,13 +1261,13 @@
    ],
    "beats": [
     {
-     "text": "A careless roofer started Tony's fire. Subrogation: once the insurer pays Tony, it takes over his right to recover from the party legally liable.",
-     "say": "A careless roofer started Tony's fire. Subrogation: once the insurer pays Tony, it takes over his right to recover from the party legally liable.",
+     "text": "A careless roofer started Tony's fire. Subrogation: once the insurer pays Tony, it steps into his shoes. It takes over his right to recover from the party legally liable.",
+     "say": "A careless roofer started Tony's fire. Subrogation: once the insurer pays Tony, it steps into his shoes. It takes over his right to recover from the party legally liable.",
      "show": 2
     },
     {
-     "text": "So it sues the roofer to get its money back.",
-     "say": "So it sues the roofer to get its money back.",
+     "text": "So it sues the roofer whose torch started the fire, to get its money back.",
+     "say": "So it sues the roofer whose torch started the fire, to get its money back.",
      "show": 3,
      "hl": "sue"
     },
@@ -1487,7 +1491,7 @@
      "x": 41,
      "y": 56,
      "h": 13,
-     "at": 1,
+     "at": 2,
      "cue": "fridge"
     },
     {
@@ -1500,7 +1504,7 @@
       "who": "tony",
       "mood": "worried"
      },
-     "at": 1,
+     "at": 2,
      "cue": "Tony"
     },
     {
@@ -1515,7 +1519,7 @@
       "hat": "cap",
       "mood": "worried"
      },
-     "at": 1,
+     "at": 2,
      "cue": "leasing",
      "label": "Loss payee",
      "lsize": 3.8
@@ -1523,7 +1527,7 @@
     {
      "p": "xout",
      "on": "umb2",
-     "at": 1,
+     "at": 2,
      "cue": "denied"
     },
     {
@@ -1531,21 +1535,27 @@
      "x": 62,
      "y": 6,
      "h": 9,
-     "at": 1,
+     "at": 2,
      "cue": "denied",
      "over": true
     }
    ],
    "beats": [
     {
-     "text": "A bank holding a home's mortgage is the mortgagee. Under the 2011 homeowners form, it brings its own umbrella: it collects despite the owner's denial, if it meets the conditions.",
-     "say": "A bank holding a home's mortgage is the mortgagee. Under the twenty eleven homeowners form, it brings its own umbrella: it collects despite the owner's denial, if it meets the conditions.",
+     "text": "A bank holding a home's mortgage is the mortgagee. The 2011 homeowners mortgage clause pays the mortgagee and the insured as interests appear. The mortgagee brings its own umbrella. Despite the owner's denial, it collects if it reports changes, pays premium due and files a sworn statement.",
+     "say": "A bank holding a home's mortgage is the mortgagee. The twenty eleven homeowners mortgage clause pays the mortgagee and the insured as interests appear. The mortgagee brings its own umbrella. Despite the owner's denial, it collects if it reports changes, pays premium due and files a sworn statement.",
      "show": 2,
      "hl": "bank"
     },
     {
-     "text": "A loss payee stands under yours. Under a typical clause, if Tony is denied, the company leasing him his fridge usually gets nothing.",
-     "say": "A loss payee stands under yours. Under a typical clause, if Tony is denied, the company leasing him his fridge usually gets nothing.",
+     "text": "A loss payee stands under yours. A loss payable clause pays a party such as an equipment lessor, as its interest may appear.",
+     "say": "A loss payee stands under yours. A loss payable clause pays a party such as an equipment lessor, as its interest may appear.",
+     "show": 3,
+     "hl": "umb2"
+    },
+    {
+     "text": "Here, that's the company leasing Tony his fridge. But under a typical clause, if Tony is denied, the company usually gets nothing.",
+     "say": "Here, that's the company leasing Tony his fridge. But under a typical clause, if Tony is denied, the company usually gets nothing.",
      "show": 4,
      "hl": "lessor"
     }
@@ -1990,7 +2000,7 @@
      ]
     },
     {
-     "label": "An independent adjuster: \"Not with them!\"",
+     "label": "Independent adjuster: \"I'm not with them!\"",
      "ok": false,
      "fail": "Independent means not on the insurer's payroll, not on your side: insurers hire independent adjusters on contract.",
      "beats": [
@@ -2304,8 +2314,8 @@
      "hl": "c30"
     },
     {
-     "text": "Benefits not paid within 60 days after satisfactory proof of loss earn Tony 12% simple interest a year.",
-     "say": "Benefits not paid within sixty days after satisfactory proof of loss earn Tony twelve percent simple interest a year.",
+     "text": "Benefits not paid within 60 days after satisfactory proof of loss earn Tony 12% simple interest a year. The interest starts on day 60.",
+     "say": "Benefits not paid within sixty days after satisfactory proof of loss earn Tony twelve percent simple interest a year. The interest starts on day sixty.",
      "hl": "pct"
     },
     {
@@ -2340,7 +2350,7 @@
       "title": "APPLICATION",
       "tsize": 4.2
      },
-     "at": 3,
+     "at": 4,
      "cue": "application",
      "label": "Tony's application",
      "lsize": 3.8
@@ -2423,13 +2433,19 @@
      "hl": "binder"
     },
     {
-     "text": "It should be in writing, have a definite time limit, and name the insurer.",
-     "say": "It should be in writing, have a definite time limit, and name the insurer.",
+     "text": "Dana can do that because she has binding authority. A binder should be in writing, have a definite time limit, and name the insurer.",
+     "say": "Dana can do that because she has binding authority. A binder should be in writing, have a definite time limit, and name the insurer.",
      "show": 3
     },
     {
-     "text": "Dana binds only within her actual or apparent authority.",
-     "say": "Dana binds only within her actual or apparent authority.",
+     "text": "Dana binds only within her actual or apparent authority. Actual authority is granted by the insurer.",
+     "say": "Dana binds only within her actual or apparent authority. Actual authority is granted by the insurer.",
+     "show": 4,
+     "hl": "dana"
+    },
+    {
+     "text": "Apparent authority is what a reasonable person assumes from how the insurer presents her. A license alone gives neither.",
+     "say": "Apparent authority is what a reasonable person assumes from how the insurer presents her. A license alone gives neither.",
      "show": 4,
      "hl": "dana"
     },
@@ -2496,13 +2512,18 @@
    ],
    "beats": [
     {
-     "text": "Did over Should, capped by the limit. Under the 2012 BPP, long vacancy: some perils out, the rest cut 15%.",
-     "say": "Did over Should, capped by the limit. Under the twenty twelve B P P, long vacancy: some perils out, the rest cut fifteen percent.",
+     "text": "Did over Should, times the Loss, minus the Deductible, capped by the limit. Under the 2012 BPP, vacant over 60 days: some perils out, the rest cut 15%. Subrogation: after paying, the insurer recovers from the party liable.",
+     "say": "Did over Should, times the Loss, minus the Deductible, capped by the limit. Under the twenty twelve B P P, vacant over sixty days: some perils out, the rest cut fifteen percent. Subrogation: after paying, the insurer recovers from the party liable.",
      "show": 3
     },
     {
-     "text": "A mortgagee survives a denial; a loss payee usually doesn't. Michigan adds 12% yearly interest to an insured's late benefits.",
-     "say": "A mortgagee survives a denial; a loss payee usually doesn't. Michigan adds twelve percent yearly interest to an insured's late benefits.",
+     "text": "A mortgagee can collect after a denial; a loss payee usually can't.",
+     "say": "A mortgagee can collect after a denial; a loss payee usually can't.",
+     "show": 4
+    },
+    {
+     "text": "Michigan adds 12% yearly interest to an insured's late benefits, and caps a public adjuster's fee at 10%.",
+     "say": "Michigan adds twelve percent yearly interest to an insured's late benefits, and caps a public adjuster's fee at ten percent.",
      "show": 5
     },
     {

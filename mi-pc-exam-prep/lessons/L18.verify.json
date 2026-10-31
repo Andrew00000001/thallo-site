@@ -1,21 +1,22 @@
 {
  "id": "L18",
- "beats": 52,
+ "beats": 53,
+ "clips": 41,
  "mismatches": [
   {
-   "scene": 2,
-   "beat": 0,
-   "say": "Now Tony's C G L, twenty thirteen edition. Monday, a customer trips on a torn mat, breaks her ankle and sues.",
-   "heard": "Now Tony's CGL, 2013 edition. Monday, a customer trips on a torn mat, breaks her ankle and soothes.",
-   "wer": 0.056,
+   "scene": 1,
+   "beat": 2,
+   "say": "A package is common declarations and conditions, plus coverage parts. One part alone is monoline; two or more make a package.",
+   "heard": "A package is common declarations and conditions, plus coverage parts. One part alone is mono-line, two or more make a package.",
+   "wer": 0.1,
    "voice": "narrator"
   },
   {
-   "scene": 3,
-   "beat": 2,
-   "say": "Publication: slander, libel, privacy. Promotion: advertising offenses, like Tony's ad using her slogan.",
-   "heard": "Publication, slander, liable privacy. Promotion, advertising offenses like Tony's ad using her slogan.",
-   "wer": 0.077,
+   "scene": 2,
+   "beat": 0,
+   "say": "Now Tony's C G L, short for commercial general liability, twenty thirteen edition. Monday, a customer trips on a torn mat, breaks her ankle and sues.",
+   "heard": "Now Tony's CGL, short for Commercial General Liability, 2013 edition. Monday, a customer trips on a torn mat, breaks her ankle and soothes.",
+   "wer": 0.043,
    "voice": "narrator"
   },
   {
@@ -28,18 +29,18 @@
   },
   {
    "scene": 11,
-   "beat": 2,
-   "say": "The supplemental tail is optional. Request it in writing within sixty days. It costs up to two hundred percent of the annual premium, never ends, and reinstates the aggregates.",
-   "heard": "the supplemental tail is optional, requested in writing within 60 days. It costs up to 200% of the annual premium, never ends, and reinstates the aggregates.",
-   "wer": 0.071,
-   "voice": "narrator"
-  },
-  {
-   "scene": 11,
    "beat": 3,
    "say": "Neither tail covers injury after the policy ends.",
    "heard": "Neither tale covers injury after the policy ends.",
    "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
+   "scene": 11,
+   "beat": 4,
+   "say": "A tail is like leaving the porch light on after a party that started at the retro date. Late knocks still get answered, but only from guests who were at the party, never from new arrivals.",
+   "heard": "A tale is like leaving the porch light on after a party that started at the retro date. Late knocks still get answered, but only from guests who were at the party, never from new arrivals.",
+   "wer": 0.028,
    "voice": "narrator"
   },
   {
@@ -53,9 +54,57 @@
   {
    "scene": 13,
    "beat": 0,
-   "say": "Recap: a package is common declarations and conditions plus two or more parts. A is injury and damage, B the four Ps, C med pay.",
-   "heard": "RECAP. A package is common declarations and conditions plus two or more parts. A is injury and damage. Be the 4PS. See medpay.",
-   "wer": 0.174,
+   "say": "A package is common declarations and conditions plus two or more parts. A is injury and damage, B the four P's, C med pay: no fault needed, but a one-year clock. Supplementary payments ride on top: up to two hundred fifty dollars for bail bonds, two hundred fifty dollars a day for lost earnings.",
+   "heard": "A package is common declarations and conditions plus two or more parts. A is injury and damage, be the four P's, see med pay, no fault needed but a one-year clock. Supplementary payments ride on top, up to $250 for bail bonds, $250 a day for lost earnings.",
+   "wer": 0.038,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s1.p4",
+   "say": "Coverage part: general liability. Tony's liability coverage. Coverage A, for one, pays injury and damage he legally owes others, plus defense. Two parts in one policy: a package.",
+   "text": "Coverage part: general liability. Tony's liability coverage. Coverage A, for one, pays injury and damage he legally owes others, plus defense. Two parts in one policy: a package.",
+   "heard": "Coverage part, general liability. Tony's liability coverage. Coverage A for one pays injury and damage he legally owes others, plus defense. Two parts and one policy, a package.",
+   "wer": 0.037,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s4.o1.fail",
+   "say": "Coverage C pays only expenses incurred and reported within one year of the accident. Fourteen months is too late.",
+   "text": "Coverage C pays only expenses incurred and reported within 1 year of the accident. Fourteen months is too late.",
+   "heard": "Coverage CPAs only expenses incurred and reported within one year of the accident. Fourteen months is too late.",
+   "wer": 0.111,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s5.c4.why",
+   "say": "Property damage that Tony legally owes for is Coverage A.",
+   "text": "Property damage that Tony legally owes for is Coverage A.",
+   "heard": "property damage that Tony legally owes for his coverage, A.",
+   "wer": 0.1,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.i2",
+   "say": "The rival's slogan suit against Tony.",
+   "text": "The rival's slogan suit against Tony.",
+   "heard": "The rival slogans suit against Tony.",
+   "wer": 0.333,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.i5",
+   "say": "Contractor's finished railing at a client's hurts a guest.",
+   "text": "Contractor's finished railing at a client's hurts a guest.",
+   "heard": "Contractors finished railing, a client's hurts a guest.",
+   "wer": 0.111,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.o1.win",
+   "say": "Reported before the policy ends, or no later than sixty days after, an occurrence gets the free basic tail: claims can come up to five years after.",
+   "text": "Reported before the policy ends, or no later than 60 days after, an occurrence gets the free basic tail: claims can come up to 5 years after.",
+   "heard": "reported before the policy ends, or no later than 60 days after, an occurrence gets the free basic tale. Claims can come up to five years after.",
+   "wer": 0.037,
    "voice": "narrator"
   }
  ]

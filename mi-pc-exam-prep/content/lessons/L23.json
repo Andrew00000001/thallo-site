@@ -92,8 +92,8 @@
    ],
    "beats": [
     {
-     "text": "Tony is opening a second Tony's Pizza, on the Detroit River, with a bar.",
-     "say": "Tony is opening a second Tony's Pizza, on the Detroit River, with a bar."
+     "text": "Tony is opening a second Tony's Pizza, on the Detroit River, with a bar. Umbrellas, specialty liability, bonds, surplus lines and flood: their section is 4% of your exam, about 6 questions.",
+     "say": "Tony is opening a second Tony's Pizza, on the Detroit River, with a bar. Umbrellas, specialty liability, bonds, surplus lines and flood: their section is four percent of your exam, about six questions."
     },
     {
      "text": "Dana, cover everything. The bar, the builders, even the river!",
@@ -219,19 +219,19 @@
    ],
    "beats": [
     {
-     "text": "First, bigger lawsuits. An umbrella sits on top of Tony's CGL, adding limits when the underlying ones run out.",
-     "say": "First, bigger lawsuits. An umbrella sits on top of Tony's C G L, adding limits when the underlying ones run out.",
+     "text": "First, bigger lawsuits. An umbrella adds extra liability limits over your other policies. For Tony, it sits on top of his CGL, adding limits when the underlying ones run out.",
+     "say": "First, bigger lawsuits. An umbrella adds extra liability limits over your other policies. For Tony, it sits on top of his C G L, adding limits when the underlying ones run out.",
      "show": 2,
      "hl": "big"
     },
     {
-     "text": "If a bad year uses up his CGL aggregate, the umbrella drops down in its place. It even covers some claims the CGL doesn't, after a self-insured retention.",
-     "say": "If a bad year uses up his C G L aggregate, the umbrella drops down in its place. It even covers some claims the C G L doesn't, after a self-insured retention.",
+     "text": "Say a huge suit tops his CGL limit: the umbrella pays above it. And if a bad year uses up his CGL aggregate, the umbrella drops down in its place. It even covers some claims the CGL doesn't, after a self-insured retention Tony pays first.",
+     "say": "Say a huge suit tops his C G L limit: the umbrella pays above it. And if a bad year uses up his C G L aggregate, the umbrella drops down in its place. It even covers some claims the C G L doesn't, after a self-insured retention Tony pays first.",
      "show": 3
     },
     {
-     "text": "Watch out: an excess, or follow form, policy generally follows the underlying terms. It only adds limits.",
-     "say": "Watch out: an excess, or follow form, policy generally follows the underlying terms. It only adds limits.",
+     "text": "Watch out: an excess, or follow form, policy generally follows the underlying terms. It only adds limits. So if a policy pays a claim the primary policy doesn't cover, it's an umbrella.",
+     "say": "Watch out: an excess, or follow form, policy generally follows the underlying terms. It only adds limits. So if a policy pays a claim the primary policy doesn't cover, it's an umbrella.",
      "show": 4,
      "hl": "exc"
     }
@@ -822,14 +822,14 @@
      "show": 2
     },
     {
-     "text": "A first-letter trick: Paul, the Principal, Promises to perform. Tony, the Obligee, is Owed and protected; he required the bond. The Surety Stands behind the promise.",
-     "say": "A first-letter trick: Paul, the Principal, Promises to perform. Tony, the Obligee, is Owed and protected; he required the bond. The Surety Stands behind the promise.",
+     "text": "Here, it's a performance bond for building the new place. A first-letter trick: Paul, the Principal, Promises to perform. Tony, the Obligee, is Owed and protected; he required the bond. The Surety Stands behind the promise and guarantees it.",
+     "say": "Here, it's a performance bond for building the new place. A first-letter trick: Paul, the Principal, Promises to perform. Tony, the Obligee, is Owed and protected; he required the bond. The Surety Stands behind the promise and guarantees it.",
      "show": 3,
      "hl": "surety"
     },
     {
-     "text": "If the surety pays, it Sends the bill back: unlike insurance, the principal must reimburse the surety.",
-     "say": "If the surety pays, it Sends the bill back: unlike insurance, the principal must reimburse the surety.",
+     "text": "If the surety pays, it Sends the bill back: unlike insurance, the principal must reimburse the surety. Another difference: the surety is only secondarily liable.",
+     "say": "If the surety pays, it Sends the bill back: unlike insurance, the principal must reimburse the surety. Another difference: the surety is only secondarily liable.",
      "show": 4
     }
    ]
@@ -1271,13 +1271,13 @@
    ],
    "beats": [
     {
-     "text": "No licensed insurer will cover the axe-throwing lane. Enter surplus lines: insurers not licensed in Michigan, but eligible to write here.",
-     "say": "No licensed insurer will cover the axe-throwing lane. Enter surplus lines: insurers not licensed in Michigan, but eligible to write here.",
+     "text": "Tony is also opening an axe-throwing lane next door, as a separate business. No licensed insurer will cover it. Enter surplus lines: insurers not licensed in Michigan, but eligible to write here.",
+     "say": "Tony is also opening an axe-throwing lane next door, as a separate business. No licensed insurer will cover it. Enter surplus lines: insurers not licensed in Michigan, but eligible to write here.",
      "show": 2
     },
     {
-     "text": "Only a surplus lines licensee may place it, and only if licensed, or authorized, insurers won't write it. If 3 or more readily do, it's presumed available.",
-     "say": "Only a surplus lines licensee may place it, and only if licensed, or authorized, insurers won't write it. If three or more readily do, it's presumed available.",
+     "text": "In Michigan, only a surplus lines licensee may place the axe lane's coverage, and only if licensed, or authorized, insurers won't write it. If 3 or more readily do, it's presumed available.",
+     "say": "In Michigan, only a surplus lines licensee may place the axe lane's coverage, and only if licensed, or authorized, insurers won't write it. If three or more readily do, it's presumed available.",
      "show": 3
     },
     {
@@ -1764,8 +1764,8 @@
    ],
    "beats": [
     {
-     "text": "Next, the river. Write Your Own companies are private insurers that write and service National Flood Insurance Program policies in their own names.",
-     "say": "Next, the river. Write Your Own companies are private insurers that write and service National Flood Insurance Program policies in their own names.",
+     "text": "Next, the river. Write Your Own, or WYO, companies are private insurers that write and service National Flood Insurance Program policies in their own names.",
+     "say": "Next, the river. Write Your Own, or W Y O, companies are private insurers that write and service National Flood Insurance Program policies in their own names.",
      "show": 0,
      "hl": "wyo"
     },
@@ -1781,8 +1781,8 @@
      "show": 2
     },
     {
-     "text": "Homes means single-family and 2 to 4 family buildings. Increased Cost of Compliance pays to elevate, demolish, relocate or floodproof, but building plus it can't exceed the building maximum.",
-     "say": "Homes means single-family and two to four family buildings. Increased Cost of Compliance pays to elevate, demolish, relocate or floodproof, but building plus it can't exceed the building maximum.",
+     "text": "Homes means single-family and 2 to 4 family buildings. Increased Cost of Compliance pays up to $30,000 to elevate, demolish, relocate or floodproof. But building plus it can't exceed the building maximum.",
+     "say": "Homes means single-family and two to four family buildings. Increased Cost of Compliance pays up to thirty thousand dollars to elevate, demolish, relocate or floodproof. But building plus it can't exceed the building maximum.",
      "show": 3,
      "hl": "up"
     },
@@ -1797,6 +1797,18 @@
      "say": "A home with no pre-firm discount: building one thousand dollars, or one thousand two hundred fifty dollars above one hundred thousand dollars of coverage. Contents: a separate one thousand dollars.",
      "show": 4,
      "hl": "ded"
+    },
+    {
+     "text": "Back to the hook's limits. A home can get up to $250,000 on the building and $100,000 on residential contents.",
+     "say": "Back to the hook's limits. A home can get up to two hundred fifty thousand dollars on the building and one hundred thousand dollars on residential contents.",
+     "show": 4,
+     "hl": "house"
+    },
+    {
+     "text": "A non-residential building, like Tony's, can get up to $500,000 on the building and the same on contents. All these amounts can change.",
+     "say": "A non-residential building, like Tony's, can get up to five hundred thousand dollars on the building and the same on contents. All these amounts can change.",
+     "show": 4,
+     "hl": "shop"
     }
    ]
   },
@@ -2407,8 +2419,8 @@
     "Umbrella: more limits, drop-down, fills some gaps; excess: limits only",
     "E&O: clients' financial loss from mistakes; most PL is claims-made",
     "Bonds: principal promises, obligee protected, surety guarantees",
-    "Surplus lines: red-ink notice; Michigan's 2% tax plus 0.5% fee",
-    "NFIP homes: $250K and $100K; 30-day wait, none if bought with a loan"
+    "Michigan surplus lines: red-ink notice; 2% tax plus 0.5% fee",
+    "NFIP homes: $250K and $100K; usual 30-day wait, none at loan closing"
    ],
    "draw": [
     {
@@ -2455,12 +2467,27 @@
     {
      "text": "What a launch! Tony is ready.",
      "say": "What a launch! Tony is ready.",
-     "show": 5
+     "show": 0
     },
     {
      "text": "Now, who wants a slice?",
      "say": "Now, who wants a slice?",
      "voice": "tony",
+     "show": 0
+    },
+    {
+     "text": "Before you grab one, a quick recap. An umbrella adds more limits, drops down, and fills some gaps; excess adds limits only. E&O covers clients' financial loss from mistakes, and most professional liability is claims-made.",
+     "say": "Before you grab one, a quick recap. An umbrella adds more limits, drops down, and fills some gaps; excess adds limits only. E and O covers clients' financial loss from mistakes, and most professional liability is claims-made.",
+     "show": 2
+    },
+    {
+     "text": "In a bond, the principal promises, the obligee is protected, and the surety guarantees. In Michigan, surplus lines policies carry a red-ink notice, and the surplus lines tax is 2%, plus a 0.5% fee.",
+     "say": "In a bond, the principal promises, the obligee is protected, and the surety guarantees. In Michigan, surplus lines policies carry a red-ink notice, and the surplus lines tax is two percent, plus a zero point five percent fee.",
+     "show": 4
+    },
+    {
+     "text": "And NFIP homes: up to $250,000 on the building and $100,000 on contents. The usual wait is 30 days, but none when it's bought as part of a loan closing.",
+     "say": "And N F I P homes: up to two hundred fifty thousand dollars on the building and one hundred thousand dollars on contents. The usual wait is thirty days, but none when it's bought as part of a loan closing.",
      "show": 5
     }
    ]

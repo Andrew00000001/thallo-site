@@ -1,6 +1,7 @@
 {
  "id": "L07",
- "beats": 58,
+ "beats": 61,
+ "clips": 34,
  "mismatches": [
   {
    "scene": 1,
@@ -38,8 +39,8 @@
    "scene": 5,
    "beat": 0,
    "say": "Wednesday, the adjuster tallies seventy thousand dollars of fire damage to Tony's ovens and kitchen equipment. His twenty twelve property form insures them: limit sixty thousand dollars, deductible two hundred fifty dollars, no coinsurance penalty.",
-   "heard": "Wednesday, the adjuster tallies $70,000 of fire damage to Tony's ovens and kitchen equipment. His 2012 property form ensures them. Limit $60,000. Deductible $250. No coinsurance penalty.",
-   "wer": 0.029,
+   "heard": "Wednesday, the adjuster tallies $70,000 of fire damage to Tony's ovens and kitchen equipment. His 2012 property form ensures them. Limit $60,000. Deductible $250. No co-insurance penalty.",
+   "wer": 0.088,
    "voice": "narrator"
   },
   {
@@ -59,11 +60,59 @@
    "voice": "narrator"
   },
   {
-   "scene": 12,
+   "scene": 10,
    "beat": 1,
-   "say": "Equal shares pay alike until a limit runs out; split limits cap each person first.",
-   "heard": "Equal shares pay a like until a limit runs out. Split limits cap each person first.",
-   "wer": 0.133,
+   "say": "Fifty, one hundred, twenty-five: fifty thousand dollars per person, one hundred thousand dollars for all injuries, twenty-five thousand dollars for all property damage. Those are three separate caps per accident.",
+   "heard": "$50,000, $100,000, $25,000, $50,000 per person, $100,000 for all injuries, $25,000 for all property damage. Those are three separate caps per accident.",
+   "wer": 0.188,
+   "voice": "narrator"
+  },
+  {
+   "scene": 12,
+   "beat": 0,
+   "say": "What a week! Roll the DICE: declarations, insuring agreement, conditions, exclusions. The first named insured pays the premium and gets notices and refunds. The deductible comes off the loss; the limit still caps the payment.",
+   "heard": "What a week, roll the dice. Declarations, ensuring agreement, conditions, exclusions. The first named insured pays the premium and gets notices and refunds. The deductible comes off the loss. The limit still caps the payment.",
+   "wer": 0.03,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s1.p0",
+   "say": "Declarations. Who, where, when and how much: the named insureds, the address and location, the policy period and the limits.",
+   "text": "Declarations. Who, where, when and how much: the named insureds, the address and location, the policy period and the limits.",
+   "heard": "Declarations, who, where, when, and how much. The name ensures the address and location, the policy period, and the limits.",
+   "wer": 0.118,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s1.p1",
+   "say": "Insuring agreement. The insurer's promise to pay. It starts broad, and the exclusions and definitions narrow it.",
+   "text": "Insuring agreement. The insurer's promise to pay. It starts broad, and the exclusions and definitions narrow it.",
+   "heard": "Ensuring agreement, the insurers promise to pay. It starts broad and the exclusions and definitions narrow it.",
+   "wer": 0.067,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s1.p4",
+   "say": "Definitions. Words in quotation marks have special meanings, spelled out in the policy's Definitions section.",
+   "text": "Definitions. Words in quotation marks have special meanings, spelled out in the policy's Definitions section.",
+   "heard": "Definitions. Words and quotation marks have special meanings spelled out in the policy's definitions section.",
+   "wer": 0.067,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s3.o0.fail",
+   "say": "His policy's terms can be amended only by an endorsement the insurer issues. Tony may change them only with the insurer's consent.",
+   "text": "His policy's terms can be amended only by an endorsement the insurer issues. Tony may change them only with the insurer's consent.",
+   "heard": "His policies' terms can be amended only by an endorsement, the insurer issues. Tony may change them only with the insurer's consent.",
+   "wer": 0.045,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s6.c1.why",
+   "say": "Mexico is not part of the twenty eighteen P A P's policy territory.",
+   "text": "Mexico is not part of the 2018 PAP's policy territory.",
+   "heard": "Mexico is not part of the 2018 P.A., Peace Policy Territory.",
+   "wer": 0.182,
    "voice": "narrator"
   }
  ]

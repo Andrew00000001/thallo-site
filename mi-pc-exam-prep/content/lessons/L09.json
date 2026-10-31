@@ -182,7 +182,7 @@
       "label": "DAYS"
      },
      "at": 2,
-     "cue": "insurer"
+     "cue": "needs"
     },
     {
      "p": "label",
@@ -192,7 +192,7 @@
      "size": 3.6,
      "w": 30,
      "at": 2,
-     "cue": "insurer"
+     "cue": "needs"
     },
     {
      "id": "coins",
@@ -255,8 +255,8 @@
      "hl": "clock"
     },
     {
-     "text": "The insured may cancel any time. The insurer needs at least 10 days' written notice, but home insurance has its own rules.",
-     "say": "The insured may cancel any time. The insurer needs at least ten days' written notice, but home insurance has its own rules.",
+     "text": "The insured may cancel any time. The insurer needs at least 10 days' written notice, but home insurance has its own rules, under Michigan's Essential Insurance Act.",
+     "say": "The insured may cancel any time. The insurer needs at least ten days' written notice, but home insurance has its own rules, under Michigan's Essential Insurance Act.",
      "hl": "cal10"
     },
     {
@@ -265,8 +265,8 @@
      "hl": "coins"
     },
     {
-     "text": "The policy must state what suspends coverage, but a vacancy suspension isn't required.",
-     "say": "The policy must state what suspends coverage, but a vacancy suspension isn't required.",
+     "text": "The policy must state what suspends coverage, but a vacancy suspension isn't required. Coverage stopping after 30 days vacant? Not required.",
+     "say": "The policy must state what suspends coverage, but a vacancy suspension isn't required. Coverage stopping after thirty days vacant? Not required.",
      "hl": "vac"
     }
    ]
@@ -310,7 +310,7 @@
      "why": "The law requires no vacancy suspension."
     },
     {
-     "text": "Min. earned premium: greater of pro rata or $25",
+     "text": "Minimum earned premium: pro rata, at least $25",
      "bin": 0,
      "why": "Whoever cancels. Pro rata under $25? The insurer keeps $25."
     }
@@ -453,8 +453,8 @@
      "show": 1
     },
     {
-     "text": "In Michigan, if the sides disagree on actual cash value or the amount of loss, either can demand appraisal in writing.",
-     "say": "In Michigan, if the sides disagree on actual cash value or the amount of loss, either can demand appraisal in writing.",
+     "text": "In Michigan, if the sides disagree on actual cash value or the amount of loss, either can demand appraisal in writing. So Sam sends the insurer a written demand. Appraisal settles the fight: each side picks an appraiser, and an umpire breaks a deadlock.",
+     "say": "In Michigan, if the sides disagree on actual cash value or the amount of loss, either can demand appraisal in writing. So Sam sends the insurer a written demand. Appraisal settles the fight: each side picks an appraiser, and an umpire breaks a deadlock.",
      "show": 3,
      "hl": "demand"
     },
@@ -771,8 +771,8 @@
    ],
    "reveal": [
     {
-     "text": "The umpire and Sam's appraiser agree: $24,000. Any 2 of the 3 set the loss in writing.",
-     "say": "The umpire and Sam's appraiser agree: twenty-four thousand dollars. Any two of the three set the loss in writing."
+     "text": "The impartial umpire backs Sam's appraiser: $24,000. Any 2 of the 3 set the loss in writing.",
+     "say": "The impartial umpire backs Sam's appraiser: twenty-four thousand dollars. Any two of the three set the loss in writing."
     },
     {
      "text": "Each side pays its own appraiser; the umpire and other costs are split equally.",
@@ -912,14 +912,14 @@
      "hl": "sue"
     },
     {
-     "text": "Tolled means paused: from the day the loss is reported until the insurer formally denies liability.",
-     "say": "Tolled means paused: from the day the loss is reported until the insurer formally denies liability.",
+     "text": "Tolled means paused: a deadline clock that stops running for a while, like a paused game clock. From the day the loss is reported until the insurer formally denies liability, your time to sue doesn't run.",
+     "say": "Tolled means paused: a deadline clock that stops running for a while, like a paused game clock. From the day the loss is reported until the insurer formally denies liability, your time to sue doesn't run.",
      "show": 3,
      "hl": "pause"
     },
     {
-     "text": "The loss is payable within 30 days after proof of the amount of loss, unless the fire-loss withholding law applies.",
-     "say": "The loss is payable within thirty days after proof of the amount of loss, unless the fire-loss withholding law applies.",
+     "text": "The loss is payable within 30 days after proof of the amount of loss, unless the fire-loss withholding law applies. In some towns, part of a big fire payment is held back.",
+     "say": "The loss is payable within thirty days after proof of the amount of loss, unless the fire-loss withholding law applies. In some towns, part of a big fire payment is held back.",
      "show": 4,
      "hl": "pay"
     }
@@ -1013,15 +1013,15 @@
    ],
    "beats": [
     {
-     "text": "Wednesday. The Millers' neighbor always pays, but his insurer won't renew. Under Michigan's Essential Insurance Act, that's a termination.",
-     "say": "Wednesday. The Millers' neighbor always pays, but his insurer won't renew. Under Michigan's Essential Insurance Act, that's a termination.",
-     "show": 2,
+     "text": "Wednesday. The Millers' neighbor always pays on time, but his insurer won't renew his home policy. Under Michigan's Essential Insurance Act, that's a termination. For home and auto insurance, it means the insurer refuses to keep insuring you, for any reason other than nonpayment.",
+     "say": "Wednesday. The Millers' neighbor always pays on time, but his insurer won't renew his home policy. Under Michigan's Essential Insurance Act, that's a termination. For home and auto insurance, it means the insurer refuses to keep insuring you, for any reason other than nonpayment.",
+     "show": 3,
      "hl": "nb"
     },
     {
      "text": "Picture a Michigan road sign: at least 30 days' written notice, with the effective date and each specific reason.",
      "say": "Picture a Michigan road sign: at least thirty days' written notice, with the effective date and each specific reason.",
-     "show": 3,
+     "show": 4,
      "hl": "sign1"
     },
     {
@@ -1512,14 +1512,14 @@
      "hl": "ana"
     },
     {
-     "text": "You live there, as owner or tenant. Own up to 4 units and live in one? Eligible. A landlord living elsewhere? Not eligible.",
-     "say": "You live there, as owner or tenant. Own up to four units and live in one? Eligible. A landlord living elsewhere? Not eligible.",
+     "text": "You live there, as owner or tenant. Own up to 4 units and live in one? Eligible, like Ana: she owns a 3-unit building in Lansing and lives upstairs. A landlord living elsewhere? Not eligible, like Ben: he owns a rental house in Saginaw but lives elsewhere.",
+     "say": "You live there, as owner or tenant. Own up to four units and live in one? Eligible, like Ana: she owns a three-unit building in Lansing and lives upstairs. A landlord living elsewhere? Not eligible, like Ben: he owns a rental house in Saginaw but lives elsewhere.",
      "show": 3,
      "hl": "bldg"
     },
     {
-     "text": "Knockouts include an arson conviction within 5 years, or property taxes 2 or more years delinquent.",
-     "say": "Knockouts include an arson conviction within five years, or property taxes two or more years delinquent.",
+     "text": "Knockouts include an arson conviction within 5 years, or property taxes 2 or more years delinquent. Either one makes you not eligible.",
+     "say": "Knockouts include an arson conviction within five years, or property taxes two or more years delinquent. Either one makes you not eligible.",
      "show": 4
     }
    ]
@@ -1845,22 +1845,37 @@
    ],
    "beats": [
     {
-     "text": "For home underwriting under Michigan's Essential Insurance Act: judge the house's condition, never its birthday or its location.",
-     "say": "For home underwriting under Michigan's Essential Insurance Act: judge the house's condition, never its birthday or its location.",
+     "text": "For home underwriting under Michigan's Essential Insurance Act: judge the house's condition, never its birthday or its location. Built in 1925? Age can't be used.",
+     "say": "For home underwriting under Michigan's Essential Insurance Act: judge the house's condition, never its birthday or its location. Built in nineteen twenty-five? Age can't be used.",
      "show": 1,
      "hl": "house"
     },
     {
-     "text": "Refusing or limiting home coverage because of the risk's location is redlining, and the Act prohibits it. Outside the Act, Michigan lets property insurers use location only with a statistically significant fire-loss link in its ZIP code.",
-     "say": "Refusing or limiting home coverage because of the risk's location is redlining, and the Act prohibits it. Outside the Act, Michigan lets property insurers use location only with a statistically significant fire-loss link in its zip code.",
+     "text": "Refusing, not renewing or limiting home or auto coverage because of the risk's location is redlining, and the Act prohibits it. Outside the Act, Michigan lets property insurers use location only with a statistically significant fire-loss link in its ZIP code.",
+     "say": "Refusing, not renewing or limiting home or auto coverage because of the risk's location is redlining, and the Act prohibits it. Outside the Act, Michigan lets property insurers use location only with a statistically significant fire-loss link in its zip code.",
+     "show": 2,
+     "hl": "zone"
+    },
+    {
+     "text": "Saying no? Give each specific reason. If they applied orally, they can ask for a written explanation within 90 days.",
+     "say": "Saying no? Give each specific reason. If they applied orally, they can ask for a written explanation within ninety days.",
+     "show": 2,
+     "hl": "decl"
+    },
+    {
+     "text": "Picture it: an insurer turns down every home applicant in one Grand Rapids neighborhood, whatever shape each house is in. That's redlining.",
+     "say": "Picture it: an insurer turns down every home applicant in one Grand Rapids neighborhood, whatever shape each house is in. That's redlining.",
      "show": 3,
      "hl": "zone"
     },
     {
-     "text": "Saying no? Give each specific reason. Applied out loud? Within 90 days, they can ask for a written explanation.",
-     "say": "Saying no? Give each specific reason. Applied out loud? Within ninety days, they can ask for a written explanation.",
+     "text": "Watch out: on the exam, age of the dwelling is the classic odd one out. The 90 days is the applicant's window to ask, not the insurer's deadline.",
+     "say": "Watch out: on the exam, age of the dwelling is the classic odd one out. The ninety days is the applicant's window to ask, not the insurer's deadline.",
      "show": 4,
-     "hl": "decl"
+     "hl": [
+      "age",
+      "decl"
+     ]
     }
    ]
   },
@@ -2051,7 +2066,7 @@
      "w": 24,
      "color": "red",
      "at": 5,
-     "cue": "recheck"
+     "cue": "check"
     }
    ],
    "beats": [
@@ -2062,8 +2077,8 @@
      "hl": "tony"
     },
     {
-     "text": "A federal law, TRIA, makes insurers offer it. Picture Uncle Sam's terror ladder.",
-     "say": "A federal law, T R I A, makes insurers offer it. Picture Uncle Sam's terror ladder.",
+     "text": "A federal law, TRIA, makes insurers offer it. That law also created the federal Terrorism Risk Insurance Program. Picture Uncle Sam's terror ladder.",
+     "say": "A federal law, T R I A, makes insurers offer it. That law also created the federal Terrorism Risk Insurance Program. Picture Uncle Sam's terror ladder.",
      "hl": "ladder"
     },
     {
@@ -2088,8 +2103,8 @@
      ]
     },
     {
-     "text": "Under current law it ends December 31, 2027, but extension bills were pending in 2026: recheck.",
-     "say": "Under current law it ends December thirty-first, twenty twenty-seven, but extension bills were pending in twenty twenty-six: recheck.",
+     "text": "Under current law it ends December 31, 2027, but extension bills were pending in 2026: re-check.",
+     "say": "Under current law it ends December thirty-first, twenty twenty-seven, but extension bills were pending in twenty twenty-six: re-check.",
      "hl": "end"
     }
    ]
@@ -2275,8 +2290,8 @@
        "say": "Dana keeps servicing, and asks before renewing."
       },
       {
-       "text": "And dropping her for under 25 applications in 12 months? Allowed.",
-       "say": "And dropping her for under twenty-five applications in twelve months? Allowed."
+       "text": "Dropping her is legal.",
+       "say": "Dropping her is legal."
       }
      ],
      "draw": [
@@ -2338,12 +2353,12 @@
    ],
    "reveal": [
     {
-     "text": "In Michigan, a home and auto insurer may drop an independent producer only for listed reasons.",
-     "say": "In Michigan, a home and auto insurer may drop an independent producer only for listed reasons."
+     "text": "In Michigan, a home and auto insurer may drop an independent producer only for listed reasons, like under 25 applications in 12 months.",
+     "say": "In Michigan, a home and auto insurer may drop an independent producer only for listed reasons, like under twenty-five applications in twelve months."
     },
     {
-     "text": "Malfeasance is another. But never mainly for the agency's location, or losses tied to it.",
-     "say": "Malfeasance is another. But never mainly for the agency's location, or losses tied to it."
+     "text": "Malfeasance is another. The rest: breach of fiduciary duty or trust, violating the Insurance Code, and failing to perform under the contract. But never mainly for the agency's location, or losses tied to it.",
+     "say": "Malfeasance is another. The rest: breach of fiduciary duty or trust, violating the Insurance Code, and failing to perform under the contract. But never mainly for the agency's location, or losses tied to it."
     }
    ]
   },
@@ -2494,7 +2509,7 @@
     {
      "on": "cal",
      "label": "A 30-day ride",
-     "text": "In-force policies continue until they expire, are replaced or canceled, but no more than 30 days after the receiver is appointed."
+     "text": "Policies in force continue until they expire, are replaced or canceled, but no more than 30 days after the receiver is appointed."
     }
    ],
    "beats": [
@@ -2510,12 +2525,12 @@
    ],
    "reveal": [
     {
-     "text": "The lifeboat runs on fives. Refunds: $50 up to $500. Claim cap: $5 million. Net-worth limit: $25 million. Plus a 30-day ride.",
-     "say": "The lifeboat runs on fives. Refunds: fifty dollars up to five hundred dollars. Claim cap: five million dollars. Net-worth limit: twenty-five million dollars. Plus a thirty-day ride."
+     "text": "The lifeboat runs on fives. Unearned premium refunds: $50 up to $500. Claim cap: $5 million. Net-worth limit: $25 million. A 30-day ride.",
+     "say": "The lifeboat runs on fives. Unearned premium refunds: fifty dollars up to five hundred dollars. Claim cap: five million dollars. Net-worth limit: twenty-five million dollars. A thirty-day ride."
     },
     {
-     "text": "The dollar maximums are inflation-adjusted bases; exam items may use base or current figures.",
-     "say": "The dollar maximums are inflation-adjusted bases; exam items may use base or current figures."
+     "text": "Dollar maximums are inflation-adjusted bases; exam items may use base or current figures.",
+     "say": "Dollar maximums are inflation-adjusted bases; exam items may use base or current figures."
     }
    ]
   },
@@ -2647,12 +2662,37 @@
     {
      "text": "What a week! Dana kept servicing her policies. Weeks later, Sam's appraisal wrapped up.",
      "say": "What a week! Dana kept servicing her policies. Weeks later, Sam's appraisal wrapped up.",
-     "show": 5
+     "show": 0
     },
     {
      "text": "Next week, my phone goes in a drawer.",
      "say": "Next week, my phone goes in a drawer.",
      "voice": "dana",
+     "show": 0
+    },
+    {
+     "text": "Quick recap. Fire policies: at least actual cash value, fire and lightning, 12:01 a.m. Minimum earned premium: pro rata or $25, whichever is greater.",
+     "say": "Quick recap. Fire policies: at least actual cash value, fire and lightning, twelve oh one A M. Minimum earned premium: pro rata or twenty-five dollars, whichever is greater.",
+     "show": 1
+    },
+    {
+     "text": "In Michigan, pay within 30 days after proof. At least a year to sue, and that clock can be tolled. Appraisal: 20 days, then 15.",
+     "say": "In Michigan, pay within thirty days after proof. At least a year to sue, and that clock can be tolled. Appraisal: twenty days, then fifteen.",
+     "show": 2
+    },
+    {
+     "text": "Home termination: 30 days' notice, or 20 in the first 55 days.",
+     "say": "Home termination: thirty days' notice, or twenty in the first fifty-five days.",
+     "show": 3
+    },
+    {
+     "text": "The Act: live there, and if you own the building, 4 units max. Judge condition, not age or location.",
+     "say": "The Act: live there, and if you own the building, four units max. Judge condition, not age or location.",
+     "show": 4
+    },
+    {
+     "text": "TRIA: each insurer's deductible is 20% of last year's premium, and the feds pay 80% above it. The guaranty cap spares PIP and workers' comp.",
+     "say": "T R I A: each insurer's deductible is twenty percent of last year's premium, and the feds pay eighty percent above it. The guaranty cap spares P I P and workers' comp.",
      "show": 5
     }
    ]

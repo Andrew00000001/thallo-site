@@ -1,6 +1,7 @@
 {
  "id": "L14",
- "beats": 59,
+ "beats": 63,
+ "clips": 46,
  "mismatches": [
   {
    "scene": 2,
@@ -27,19 +28,11 @@
    "voice": "narrator"
   },
   {
-   "scene": 5,
+   "scene": 4,
    "beat": 1,
-   "say": "Fifty thousand dollars is only for a named insured on Medicaid, with the household covered.",
-   "heard": "$50,000 is only for named insured on Medicaid, with the household covered.",
-   "wer": 0.067,
-   "voice": "narrator"
-  },
-  {
-   "scene": 5,
-   "beat": 3,
-   "say": "No rung at one hundred thousand dollars. No valid choice? You get the sky, unless the premium paid shows another level.",
-   "heard": "No rung at $100,000. No valid choice. You get the sky unless the premium page shows another level.",
-   "wer": 0.048,
+   "say": "Work loss pays her lost income for up to three years after the accident, minus fifteen percent, because the benefit isn't taxed. So P I P pays eighty-five percent, unless you prove a smaller tax advantage.",
+   "heard": "Work loss pays her lost income for up to three years after the accident minus 15 percent because the benefit is not taxed. So PEIP pays 85 percent unless you prove a smaller tax advantage.",
+   "wer": 0.028,
    "voice": "narrator"
   },
   {
@@ -60,10 +53,10 @@
   },
   {
    "scene": 7,
-   "beat": 2,
-   "say": "The rhyme: Moving cars? P P I's not paying. Fences, buildings, properly parked cars in the mitten? P P I's paying, up to a million.",
-   "heard": "The Rime Moving Cars, PPIS Not Paying. Fences, buildings, properly parked cars in the mitten, PPIS paying up to a million.",
-   "wer": 0.048,
+   "beat": 1,
+   "say": "Rosa's slide wrecked a stranger's fence and dented a stranger's properly parked car. So her P P I pays for both.",
+   "heard": "Rose's slide wrecked a stranger's fence and dented a stranger's properly parked car. So her P.P.I. pays for both.",
+   "wer": 0.056,
    "voice": "narrator"
   },
   {
@@ -75,11 +68,67 @@
    "voice": "narrator"
   },
   {
-   "scene": 12,
-   "beat": 2,
-   "say": "Injury suits and out-of-state damage: residual liability.",
-   "heard": "Injury suits and off-state damage. Residual liability.",
-   "wer": 0.25,
+   "clip": "s2.o0.fail",
+   "say": "P I P pays for injuries without regard to fault, even when you caused the crash.",
+   "text": "PIP pays for injuries without regard to fault, even when you caused the crash.",
+   "heard": "PIP pays for injuries without regard to fault, even when you cause the crash.",
+   "wer": 0.071,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.o1.fail",
+   "say": "As a rule, your own policy pays first. Rosa insures her own car, so her own P I P pays her injuries, whoever caused the crash.",
+   "text": "As a rule, your own policy pays first. Rosa insures her own car, so her own PIP pays her injuries, whoever caused the crash.",
+   "heard": "As a rule, your own policy pays first. Rosa ensures her own car, so her own PIP pays her injuries, whoever caused the crash.",
+   "wer": 0.042,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.o2.win",
+   "say": "P I P pays for bodily injury without regard to fault. Rosa's own policy pays, even though she caused the crash.",
+   "text": "PIP pays for bodily injury without regard to fault. Rosa's own policy pays, even though she caused the crash.",
+   "heard": "PIP pays for bodily injury without regard to fault. Rose's own policy pays, even though she caused the crash.",
+   "wer": 0.053,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.c3",
+   "say": "Rosa's own car is crumpled.",
+   "text": "Rosa's own car is crumpled.",
+   "heard": "Rose's own car is crumpled.",
+   "wer": 0.2,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s8.c3.why",
+   "say": "P P I doesn't pay for your own car. That's for collision coverage. Rosa was over fifty percent at fault, so limited collision wouldn't pay; broad form would.",
+   "text": "PPI doesn't pay for your own car. That's for collision coverage. Rosa was over 50% at fault, so limited collision wouldn't pay; broad form would.",
+   "heard": "PPI does not pay for your own car. That's for collision coverage. ROSA was over 50% at fault, so limited collision would not pay. Broad form wood.",
+   "wer": 0.036,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.i0",
+   "say": "Rosa's hospital bills and lost wages.",
+   "text": "Rosa's hospital bills and lost wages.",
+   "heard": "Rose's hospital bills, and lost wages.",
+   "wer": 0.2,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.i2",
+   "say": "A car Rosa rear-ends in Toledo, Ohio.",
+   "text": "A car Rosa rear-ends in Toledo, Ohio.",
+   "heard": "A car-roser rear ends in Toledo, Ohio.",
+   "wer": 0.125,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.i3",
+   "say": "Someone to do Rosa's housework for a few months.",
+   "text": "Someone to do Rosa's housework for a few months.",
+   "heard": "someone to do Rose's housework for a few months.",
+   "wer": 0.111,
    "voice": "narrator"
   }
  ]

@@ -1,21 +1,30 @@
 {
  "id": "L02",
- "beats": 60,
+ "beats": 61,
+ "clips": 54,
  "mismatches": [
   {
    "scene": 1,
+   "beat": 2,
+   "say": "Two: cash back. Vic offers Rosa two hundred dollars back. Giving back premium or commission, or anything of value the policy doesn't specify, is rebating.",
+   "heard": "2. Cashback. VIC offers ROSA $200 back. Giving back premium or commission, or anything of value the policy does not specify, is rebating.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "scene": 1,
    "beat": 3,
-   "say": "Three: a lie about his insurer's money. Misstating a policy's terms or benefits, or an insurer's financial condition, is misrepresentation.",
-   "heard": "Three, a lie about his insurer's money. Mistating a policy's terms or benefits or an insurer's financial condition is misrepresentation.",
-   "wer": 0.05,
+   "say": "Three: a lie. Vic claims his insurer never loses money. Misstating a policy's terms or benefits, or an insurer's financial condition, is misrepresentation.",
+   "heard": "Three, a lie. Vic claims his insurer never loses money. Mistating a policy's terms or benefits or an insurer's financial condition is misrepresentation.",
+   "wer": 0.043,
    "voice": "narrator"
   },
   {
    "scene": 3,
-   "beat": 1,
-   "say": "The hook: a Traverse City cherry basket is a thank-you; a cash-back envelope is a rebate. Keep the basket at fifty dollars a year.",
-   "heard": "The hook, a Traversity Cherry basket, is a thank you. A cash back envelope is a rebate. Keep the basket at $50 a year.",
-   "wer": 0.077,
+   "beat": 0,
+   "say": "Is every gift a rebate? No. Michigan P and C has a gift limit: merchandise costing the insurer fifty dollars or less per calendar year is allowed. Cash back is not.",
+   "heard": "Is every gift a rebate? No, Michigan P&C has a gift limit, merchandise costing the insurer $50 or less per calendar year is allowed. Cashback is not.",
+   "wer": 0.067,
    "voice": "narrator"
   },
   {
@@ -29,9 +38,17 @@
   {
    "scene": 6,
    "beat": 0,
-   "say": "In Michigan, premiums Dana collects are fiduciary money: held in trust, segregated, never commingled with her own.",
-   "heard": "In Michigan, Premium's Dana collects our fiduciary money. Held in trust, segregated, never co-mingled with her own.",
-   "wer": 0.176,
+   "say": "In Michigan, premiums Dana collects are fiduciary money: she holds them in trust for others. So are return premiums. They aren't hers, so they're segregated, or kept apart, and never commingled, or mixed, with her own.",
+   "heard": "In Michigan, Premiums Dana collects our fiduciary money. She holds them in trust for others. So are return premiums. They are not hers, so they're segregated or kept apart and never commingled or mixed with her own.",
+   "wer": 0.028,
+   "voice": "narrator"
+  },
+  {
+   "scene": 6,
+   "beat": 3,
+   "say": "Here's the trap: putting premiums in personal checking, even with a ledger, is commingling. And holding a refund for future premiums takes the insured's written OK.",
+   "heard": "Here's the trap. Putting premiums in personal checking, even with a ledger, is co-mingling. And holding a refund for future premiums takes the insured's written okay.",
+   "wer": 0.12,
    "voice": "narrator"
   },
   {
@@ -45,9 +62,9 @@
   {
    "scene": 10,
    "beat": 1,
-   "say": "Licensing law, in thousands: Oops one, didn't know. Knew five, knew or reasonably should have. Cap fifty per order.",
-   "heard": "Licensing law in thousands, oops one did not know. New five new or reasonably should have. Cap 50 per order.",
-   "wer": 0.1,
+   "say": "Licensing law, in thousands: Oops one, didn't know. Knew five, knew or reasonably should have. Those are maximums per violation. Cap fifty per order.",
+   "heard": "Licensing law in thousands. Oops, one did not know. New five, new or reasonably should have. Those are maximums per violation. Cap 50 per order.",
+   "wer": 0.08,
    "voice": "narrator"
   },
   {
@@ -69,9 +86,33 @@
   {
    "scene": 15,
    "beat": 0,
-   "say": "What a year! Switch, payback, false picture. Baskets, not cash. Premiums kept apart.",
-   "heard": "What a year switched payback false picture. Baskets not cash. Premiums kept apart.",
-   "wer": 0.077,
+   "say": "What a year! Twisting switches, rebating pays back, misrepresentation misstates. A P and C gift? Merchandise costing the insurer fifty dollars or less a calendar year. Premiums are fiduciary money: segregated, never commingled.",
+   "heard": "What a year, twisting switches, rebating pays back misrepresentation mistakes. A P&C gift, merchandise costing the insurer $50 or less a calendar year. Premiums are fiduciary money, segregated, never commingled.",
+   "wer": 0.031,
+   "voice": "narrator"
+  },
+  {
+   "scene": 15,
+   "beat": 1,
+   "say": "Fraud: up to four years solo, ten with a partner, and up to fifty thousand dollars either way. Privacy: think PAPER. Thirty days to opt out is reasonable, and notices are never solely oral.",
+   "heard": "Fraud, up to four-year solo, 10 with a partner, and up to $50,000 either way. Privacy, think paper. 30 days to opt out is reasonable, and notices are never solely oral.",
+   "wer": 0.031,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s5.p0",
+   "say": "Defamation. De-fame: a billboard on I ninety-four falsely shouting 'Rival Mutual is going broke!' to steal its customers. Spoken attacks count too.",
+   "text": "Defamation. De-FAME: a billboard on I-94 falsely shouting 'Rival Mutual is going broke!' to steal its customers. Spoken attacks count too.",
+   "heard": "Defamation. Defame. A billboard on I-94 falsely shouting rival Mutual is going broke to steal its customers. Spoken attacks count too.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s5.p3",
+   "say": "Boycott. B C I: Bullies Can't Insure: Boycott, Coercion, Intimidation. Insurers agreeing to shun one agency's customers unreasonably restrain its business.",
+   "text": "Boycott. BCI = Bullies Can't Insure: Boycott, Coercion, Intimidation. Insurers agreeing to shun one agency's customers unreasonably restrain its business.",
+   "heard": "Boycott, BCI, bullies cannot ensure. Boycott, coercion, intimidation. Insurers agreeing to shun one agency's customers unreasonably restrain its business.",
+   "wer": 0.053,
    "voice": "narrator"
   }
  ]

@@ -21,7 +21,9 @@ def cast_key(kvoice, say): return hashlib.sha256(json.dumps(['cast1', kvoice, sa
 def load_cast():
     p = os.path.join(CAST_DIR, 'chosen.json')
     return json.load(open(p)) if os.path.exists(p) else {}
-HQ_BITRATE, SMALL_BITRATE = '32k', '10k'
+HQ_BITRATE = '32k'
+# the small copy (embedded in the page; the offline fallback) is sized so the page with every lesson stays under 16 MB
+SMALL_BITRATE, SMALL_FRAME = os.environ.get('SMALL_BITRATE', '10k'), os.environ.get('SMALL_FRAME', '60')
 GAP_BEAT, GAP_SCENE, GAP_QUIZ = 0.32, 0.8, 0.5
 
 def trim(a, thr=0.004, keep=0.06):
@@ -45,12 +47,17 @@ def speak(say):
     s = re.sub(r'\b([Ee])xcess of loss(?= [A-Za-z])', r'\1xcess, of loss,', s)
     s = re.sub(r'\b([Ee])xcess of loss\b', r'\1xcess, of loss', s)
     s = re.sub(r'\b([Ee])xcess\b', lambda m: m.group(1) + 'k-sess', s)                          # not "access"
-    s = re.sub(r'\bDid over Should\b(?![,.;:!?])', 'Did, over Should,', s)
-    s = re.sub(r'\bDid over Should\b', 'Did, over Should', s)
+    s = re.sub(r'\b([Dd])id over ([Ss])hould\b(?![,.;:!?])', r'\1id, over \2hould,', s)
+    s = re.sub(r'\b([Dd])id over ([Ss])hould\b', r'\1id, over \2hould', s)
     s = re.sub(r'(?<!")\bA\b(?!")(?=,? (?:plus|minus)\b|,? (?:and|or) [A-D]\b)', '"A"', s)   # answer letters: "A and C" says "ay"
     s = re.sub(r'\b(out|picks?|picked|choose|chose|answer|choice) A(?=[,.;:?!]| (?:and|or)\b|$)', r'\1 "A"', s)
     s = re.sub(r'(?<!")\bA\b(?!["\'’])', lambda m: letter_a(s, m), s)
     for a_, b_ in MI_PLACES.items(): s = re.sub(rf'\b{a_}\b', b_, s)   # Michigan pronunciations
+    s = re.sub(r'\bfour hundred one ?\(?k\)?(?=\W|$)', 'four-oh-one-K', s, flags=re.I)   # a 401(k) plan is said "four oh one K"
+    s = re.sub(r'\b([Mm])onoline\b', r'\1ono line', s)   # "mono-line", not "MAH-noh-leen"
+    s = re.sub(r'\b([Cc])oinsur', r'\1o insur', s)        # co-insurance, not "COIN-surance"
+    s = re.sub(r'\b([Oo])bligee', r'\1bbligee', s)        # OB-li-jee, not "uh-BLIJ-ee" (heard as obligee)
+    s = re.sub(r'\b([Ff])ungi\b', r'\1ungai', s)          # FUN-guy, one word (heard as fungi)
     return s
 
 def letter_a(s, m):
@@ -58,9 +65,9 @@ def letter_a(s, m):
     the article unless the letter is plainly meant ("A is the Abode", "A to D")."""
     pre, nxt = s[:m.start()], s[m.end():]
     if not pre.strip() or re.search(r'[.!?:;]\s*$', pre):
-        return '"A"' if re.match(r' (?:is\b|to [A-Z]\b)', nxt) else 'A'
+        return '"A"' if re.match(r' (?:is\b|to [A-Z]\b)|:', nxt) else 'A'
     return '"A"'
-MI_PLACES = {'Houghton': 'Hoeton', 'Mackinac': 'Mackinaw', 'Saginaw': 'Sagginaw', 'Coney': 'Koney'}
+MI_PLACES = {'Houghton': 'Hoeton', 'Mackinac': 'Mackinaw', 'Saginaw': 'Sagginaw', 'Coney': 'Koney', 'Traverse': 'Travers'}
 
 HOMOPHONES = {'bailey': 'bailee', 'baileys': 'bailees', 'lesser': 'lessor', 'lessers': 'lessors'}
 def heard_norm(heard):
@@ -83,16 +90,22 @@ def wer(ref, hyp):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--out', required=True); ap.add_argument('--force', action='store_true')
-    ap.add_argument('--reuse-checks', action='store_true', help='re-render audio only; keep the transcripts and cue times of an identical previous run')
     ap.add_argument('files', nargs='+'); a = ap.parse_args()
     os.makedirs(a.out, exist_ok=True)
     from kokoro_onnx import Kokoro
     from faster_whisper import WhisperModel
     import soundfile as sf
+    import clips as clipmod
     cast = load_cast()
     mdir = os.environ.get('TTS_MODEL') or os.path.join(HERE, '..', 'tts', 'model')  # Kokoro-82M ONNX: model.onnx + voices.npz
     tts = Kokoro(os.path.join(mdir, 'model.onnx'), os.path.join(mdir, 'voices.npz'))
-    asr = WhisperModel('small.en', device='cpu', compute_type='int8')
+    asr = [None]
+    def get_asr():
+        if asr[0] is None: asr[0] = WhisperModel('small.en', device='cpu', compute_type='int8')
+        return asr[0]
+    cdir = os.path.join(a.out, 'checks'); os.makedirs(cdir, exist_ok=True)   # transcript cache: one file per spoken line
+    tdir = os.path.join(a.out, 'tts'); os.makedirs(tdir, exist_ok=True)   # synthesis cache: the voice model is deterministic, so a line said before is not synthesized again
+    tfp = [os.path.getsize(os.path.join(mdir, x)) for x in ('model.onnx', 'voices.npz')]
     summary = []
     for f in a.files:
         L = json.load(open(f)); lid = L['id']
@@ -111,115 +124,128 @@ def main():
         vs = [b.get('voice', 'narrator') for s in L['scenes'] for b in allb(s)]
         used = sorted({cast_key(VOICES[v], x) for v, x in zip(vs, says) if v != 'narrator'} & set(cast))
         castsig = [(k, cast[k].get('sha256', cast[k]['file'])) for k in used]
-        h = hashlib.sha256(json.dumps([VOICE, SPEED, GAP_BEAT, GAP_SCENE, GAP_QUIZ, [speak(x) for x in says], vo, sorted((k[0], str(k[1]), sorted(v)) for k, v in cuew.items()), castsig, HQ_BITRATE]).encode()).hexdigest()[:16]
+        CL = clipmod.clips(L)   # spoken activity text, read by the narrator after the main narration (full-quality file only)
+        h = hashlib.sha256(json.dumps([VOICE, SPEED, GAP_BEAT, GAP_SCENE, GAP_QUIZ, [speak(x) for x in says], vo, sorted((k[0], str(k[1]), sorted(v)) for k, v in cuew.items()), castsig, HQ_BITRATE, [(c['id'], speak(c['say'])) for c in CL]]).encode()).hexdigest()[:16]
         tp = os.path.join(a.out, f'{lid}.timing.json')
         if not a.force and os.path.exists(tp) and json.load(open(tp)).get('hash') == h and os.path.exists(os.path.join(a.out, f'{lid}.hq.webm')):
             print(lid, 'unchanged, skipped'); continue
-        def render(check):
-            """Synthesize the lesson. check=False skips Whisper (for a re-render whose checks are reused)."""
-            chunks, t, scenes, checks = [], 0.0, [], []
-            engines = collections.Counter()
-            def add(x):
-                nonlocal t
-                chunks.append(x); t += len(x) / SR
-            def gap(sec): add(np.zeros(int(sec * SR), np.float32))
-            def beat(si, key, b, where):
-                """Speak one beat; transcribe it back; return (start, end, {cueword: offset})."""
-                v = b.get('voice', 'narrator'); ck = cast_key(VOICES[v], b['say'])
-                if v != 'narrator' and ck in cast:
-                    audio, sr = sf.read(os.path.join(CAST_DIR, cast[ck]['file']), dtype='float32'); engines[cast[ck].get('engine', 'cast')] += 1
-                else:
-                    audio, sr = tts.create(speak(b['say']), voice=VOICES[v], speed=SPEED, lang='en-us'); engines['kokoro'] += 1
-                assert sr == SR
-                audio = trim(np.asarray(audio, np.float32))
-                rms = float(np.sqrt(np.mean(audio ** 2))) if len(audio) else 0.0
-                if rms > 1e-4: audio = np.clip(audio * min(4.0, 0.075 / rms), -1, 1).astype(np.float32)   # even loudness across voices
-                start = t; add(audio); end = t
-                if not check: return round(start, 3), round(end, 3), {}
-                want = cuew.get((si, key))
-                segs, _ = asr.transcribe(to16k(audio), beam_size=5, language='en', condition_on_previous_text=False, word_timestamps=bool(want))
+        chunks, t, scenes, checks = [], 0.0, [], []
+        engines = collections.Counter(); fresh = [0]
+        def add(x):
+            nonlocal t
+            chunks.append(x); t += len(x) / SR
+        def gap(sec): add(np.zeros(int(sec * SR), np.float32))
+        def line(say, v, want):
+            """Synthesize one spoken line; return (audio, engine tag)."""
+            ck = cast_key(VOICES[v], say)
+            if v != 'narrator' and ck in cast:
+                audio, sr = sf.read(os.path.join(CAST_DIR, cast[ck]['file']), dtype='float32'); tag = 'cast:' + cast[ck].get('sha256', '')
+                engines[cast[ck].get('engine', 'cast')] += 1
+            else:
+                tk = os.path.join(tdir, hashlib.sha256(json.dumps(['tts1', tfp, VOICES[v], SPEED, speak(say)]).encode()).hexdigest()[:24] + '.npy')
+                audio = None
+                if os.path.exists(tk):
+                    try: audio, sr = np.load(tk), SR
+                    except Exception: audio = None
+                if audio is None:
+                    audio, sr = tts.create(speak(say), voice=VOICES[v], speed=SPEED, lang='en-us')
+                    tmp = tk + f'.{os.getpid()}.tmp.npy'; np.save(tmp, np.asarray(audio, np.float32)); os.replace(tmp, tk)
+                tag = 'kokoro:' + VOICES[v]; engines['kokoro'] += 1
+            assert sr == SR
+            audio = trim(np.asarray(audio, np.float32))
+            rms = float(np.sqrt(np.mean(audio ** 2))) if len(audio) else 0.0
+            if rms > 1e-4: audio = np.clip(audio * min(4.0, 0.075 / rms), -1, 1).astype(np.float32)   # even loudness across voices
+            return audio, tag
+        def check(audio, tag, say, ref_text, want):
+            """Transcribe a line back (cached by engine, voice, spoken text and cue words); return (heard, wer, cue offsets)."""
+            key = hashlib.sha256(json.dumps(['chk1', tag, speak(say), sorted(want or [])]).encode()).hexdigest()[:20]
+            cp = os.path.join(cdir, key + '.json')
+            c = None
+            if os.path.exists(cp):
+                try: c = json.load(open(cp))
+                except ValueError: c = None
+                if c and 'n' in c and c['n'] != len(audio): c = None   # the voice gave different audio this time: check it again
+            if c is None:
+                segs, _ = get_asr().transcribe(to16k(audio), beam_size=5, language='en', condition_on_previous_text=False, word_timestamps=bool(want))
                 segs = list(segs); heard = ' '.join(x.text.strip() for x in segs); got = {}
                 if want:
                     ws = [(re.sub(r"[^a-z0-9']", '', w.word.lower()), w.start) for x in segs for w in (x.words or [])]
                     for cw in want:
                         hit = next((st for wd, st in ws if wd.startswith(cw.replace("'", '')[:6]) or cw.startswith(wd) and len(wd) > 2), None)
                         if hit is not None: got[cw] = round(max(0.0, hit - 0.05), 3)
-                e = wer(normalize(b['say']), heard_norm(heard))
-                checks.append({'scene': si, 'beat': where, 'say': b['say'], 'heard': heard, 'wer': round(e, 3), 'voice': b.get('voice', 'narrator')})
-                return round(start, 3), round(end, 3), got
-            for si, s in enumerate(L['scenes']):
-                sc = {'t0': round(t, 3), 'beats': []}; cues = {}
-                seq = [('b', b) for b in s['beats']] + [('r', b) for b in s.get('reveal', [])]
-                for k, (kind, b) in enumerate(seq):
-                    if kind == 'r' and 'q' not in sc:
-                        sc['q'] = round(t, 3); gap(GAP_QUIZ)
-                        if s.get('type') == 'choice':   # each option's outcome, played only when the learner picks it
-                            sc['ob'] = []; oc = {}
-                            for oi, o in enumerate(s['options']):
-                                seg = []
-                                for j, ob in enumerate(o['beats']):
-                                    b0, b1, got = beat(si, f'o{oi}:{j}', ob, f'o{oi}:{j}')
-                                    seg.append([b0, b1])
-                                    if got: oc.setdefault(str(oi), {})[str(j)] = got
-                                    gap(GAP_BEAT)
-                                sc['ob'].append(seg); gap(GAP_QUIZ)
-                            if oc: sc['ocues'] = oc
-                        sc['r'] = round(t, 3)
-                    b0, b1, got = beat(si, k, b, k)
-                    sc['beats'].append([b0, b1])
-                    if got: cues[str(k)] = got
-                    if k < len(seq) - 1: gap(GAP_BEAT)
-                if s.get('type') in GATES and 'q' not in sc:
-                    sc['q'] = round(t, 3); sc['r'] = round(t, 3)
-                if cues: sc['cues'] = cues
-                sc['t1'] = round(t, 3)
-                scenes.append(sc)
-                gap(GAP_SCENE)
-            return chunks, scenes, checks, engines
-        old = json.load(open(tp)) if os.path.exists(tp) else None
-        vp = os.path.join(a.out, f'{lid}.verify.json')
-        h_prev = hashlib.sha256(json.dumps([VOICE, SPEED, GAP_BEAT, GAP_SCENE, GAP_QUIZ, [speak(x) for x in says], vo, sorted((k[0], str(k[1]), sorted(v)) for k, v in cuew.items())]).encode()).hexdigest()[:16]
-        reused = False
-        if a.reuse_checks and old and not castsig and old.get('hash') in (h, h_prev) and os.path.exists(vp):
-            # Same script, voices and engine as the previous run: Kokoro is deterministic, so the beats come out the same.
-            # Re-render without Whisper and keep the previous transcripts and cue times, if every boundary matches.
-            chunks, scenes, checks, engines = render(False)
-            def same_t(x, y):
-                if isinstance(x, list): return isinstance(y, list) and len(x) == len(y) and all(same_t(p, q) for p, q in zip(x, y))
-                if isinstance(x, dict): return isinstance(y, dict) and all(same_t(x[k], y.get(k)) for k in x if k not in ('cues', 'ocues'))
-                return isinstance(y, (int, float)) and abs(x - y) <= 0.002
-            if same_t(scenes, old['scenes']):
-                scenes = old['scenes']; checks = None; reused = True
-            else:
-                print(lid, 'timing differs from the previous run: full check', flush=True)
-        if not reused:
-            chunks, scenes, checks, engines = render(True)
+                c = {'heard': heard, 'got': got, 'n': len(audio)}
+                tmp = cp + f'.{os.getpid()}.tmp'; json.dump(c, open(tmp, 'w')); os.replace(tmp, cp); fresh[0] += 1   # atomic: other runs share the cache
+            return c['heard'], wer(normalize(ref_text), heard_norm(c['heard'])), c['got']
+        def beat(si, key, b, where):
+            """Speak one beat; transcribe it back; return (start, end, {cueword: offset})."""
+            v = b.get('voice', 'narrator'); want = cuew.get((si, key))
+            audio, tag = line(b['say'], v, want)
+            start = t; add(audio); end = t
+            heard, e, got = check(audio, tag, b['say'], b['say'], want)
+            checks.append({'scene': si, 'beat': where, 'say': b['say'], 'heard': heard, 'wer': round(e, 3), 'voice': v})
+            return round(start, 3), round(end, 3), got
+        for si, s in enumerate(L['scenes']):
+            sc = {'t0': round(t, 3), 'beats': []}; cues = {}
+            seq = [('b', b) for b in s['beats']] + [('r', b) for b in s.get('reveal', [])]
+            for k, (kind, b) in enumerate(seq):
+                if kind == 'r' and 'q' not in sc:
+                    sc['q'] = round(t, 3); gap(GAP_QUIZ)
+                    if s.get('type') == 'choice':   # each option's outcome, played only when the learner picks it
+                        sc['ob'] = []; oc = {}
+                        for oi, o in enumerate(s['options']):
+                            seg = []
+                            for j, ob in enumerate(o['beats']):
+                                b0, b1, got = beat(si, f'o{oi}:{j}', ob, f'o{oi}:{j}')
+                                seg.append([b0, b1])
+                                if got: oc.setdefault(str(oi), {})[str(j)] = got
+                                gap(GAP_BEAT)
+                            sc['ob'].append(seg); gap(GAP_QUIZ)
+                        if oc: sc['ocues'] = oc
+                    sc['r'] = round(t, 3)
+                b0, b1, got = beat(si, k, b, k)
+                sc['beats'].append([b0, b1])
+                if got: cues[str(k)] = got
+                if k < len(seq) - 1: gap(GAP_BEAT)
+            if s.get('type') in GATES and 'q' not in sc:
+                sc['q'] = round(t, 3); sc['r'] = round(t, 3)
+            if cues: sc['cues'] = cues
+            sc['t1'] = round(t, 3)
+            scenes.append(sc)
+            gap(GAP_SCENE)
+        main_n = sum(len(x) for x in chunks)   # the main narration ends here; the activity clips follow
+        clipt = {}
+        gap(1.0)
+        for c in CL:
+            audio, tag = line(c['say'], 'narrator', None)
+            start = t; add(audio); clipt[c['id']] = [round(start, 3), round(t, 3)]; gap(0.35)
+            heard, e, _ = check(audio, tag, c['say'], c['text'], None)
+            checks.append({'clip': c['id'], 'say': c['say'], 'text': c['text'], 'heard': heard, 'wer': round(e, 3), 'voice': 'narrator'})
+        gap(0.5)
         wav = np.concatenate(chunks)
         p = subprocess.run(['ffmpeg', '-v', 'error', '-f', 'f32le', '-ar', str(SR), '-ac', '1', '-i', '-',
                             '-af', 'loudnorm=I=-18:TP=-1.5:LRA=11', '-ar', str(SR), '-ac', '1', '-f', 'f32le', '-'],
                            input=wav.tobytes(), capture_output=True, check=True)
-        mix = p.stdout   # loudness-normalized lesson mix, 24 kHz mono float
-        hq = os.path.join(a.out, f'{lid}.hq.webm')   # full quality: the master, published next to the page
+        mix = p.stdout   # loudness-normalized lesson mix, 24 kHz mono float: main narration, then the clips
+        hq = os.path.join(a.out, f'{lid}.hq.webm')   # full quality, with the clips: the master, published next to the page
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'f32le', '-ar', str(SR), '-ac', '1', '-i', '-', '-c:a', 'libopus', '-b:a', HQ_BITRATE,
                         '-vbr', 'on', '-application', 'audio', '-compression_level', '10', hq], input=mix, check=True)
         hq_sha = hashlib.sha256(open(hq, 'rb').read()).hexdigest()
         json.dump({'from': os.path.basename(hq), 'sha256': hq_sha, 'bitrate': HQ_BITRATE}, open(hq + '.json', 'w'))
-        webm = os.path.join(a.out, f'{lid}.webm')   # small Opus copy embedded in the single-file page
+        webm = os.path.join(a.out, f'{lid}.webm')   # small Opus copy of the main narration only, embedded in the single-file page
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'f32le', '-ar', str(SR), '-ac', '1', '-i', '-', '-c:a', 'libopus', '-b:a', SMALL_BITRATE, '-vbr', 'on',
-                        '-application', 'voip', '-frame_duration', '60', '-compression_level', '10', webm], input=mix, check=True)
-        json.dump({'from': os.path.basename(hq), 'sha256': hq_sha, 'bitrate': SMALL_BITRATE}, open(webm + '.json', 'w'))
-        dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', hq],
-                                   capture_output=True, text=True, check=True).stdout.strip())
+                        '-application', 'voip', '-frame_duration', SMALL_FRAME, '-compression_level', '10', webm], input=mix[:main_n * 4], check=True)
+        json.dump({'from': os.path.basename(hq), 'sha256': hq_sha, 'bitrate': SMALL_BITRATE, 'frame_ms': SMALL_FRAME}, open(webm + '.json', 'w'))
+        probe = lambda x: float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', x], capture_output=True, text=True, check=True).stdout.strip())
+        dur = round(main_n / SR, 3)
         shash = hashlib.sha256(json.dumps(says).encode()).hexdigest()[:16]
         json.dump({'id': lid, 'hash': h, 'shash': shash, 'voice': VOICE, 'master': os.path.basename(hq), 'engines': dict(engines),
-                   'dur': round(dur, 3), 'scenes': scenes}, open(tp, 'w'))
-        if checks is None:   # reused: the previous transcript check still describes this audio
-            V = json.load(open(vp)); bad = V['mismatches']; checks = range(V['beats'])
-        else:
-            bad = [c for c in checks if c['wer'] > 0]
-            json.dump({'id': lid, 'beats': len(checks), 'mismatches': bad}, open(vp, 'w'), indent=1)
-        line = f'{lid}: {dur/60:.1f} min, {"checks reused, " if reused else ""}{len(checks)} beats ({dict(engines)}), {len(bad)} transcript mismatches, {os.path.getsize(hq)//1024} KB full, {os.path.getsize(webm)//1024} KB small'
-        print(line, flush=True); summary.append(line)
+                   'dur': dur, 'dur_full': round(probe(hq), 3), 'scenes': scenes, 'clips': clipt,
+                   'clipsig': clipmod.signature(CL)}, open(tp, 'w'))
+        vp = os.path.join(a.out, f'{lid}.verify.json')
+        bad = [c for c in checks if c['wer'] > 0]
+        json.dump({'id': lid, 'beats': sum(1 for c in checks if 'clip' not in c), 'clips': len(clipt), 'mismatches': bad}, open(vp, 'w'), indent=1)
+        line_ = f"{lid}: {dur/60:.1f} min + {len(clipt)} clips ({(probe(hq)-dur)/60:.1f} min), {len(checks)} lines checked ({fresh[0]} new), {len(bad)} transcript mismatches, {os.path.getsize(hq)//1024} KB full, {os.path.getsize(webm)//1024} KB small"
+        print(line_, flush=True); summary.append(line_)
     print('\n'.join(summary))
 
 if __name__ == '__main__':

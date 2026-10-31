@@ -305,7 +305,12 @@ def check(path):
                         if x not in ids: err(f'{BW}.hl: no element with id {x!r}')
                 elif n is None or not isinstance(h, int) or not 0 <= h < n: err(f'{BW}.hl out of range')
         if n and t not in ('quiz', 'title') and last != n: err(f'{W}: the last beat must show all {n} items (show: {n})')
-    if not 550 <= words <= 1000: err(f'narration is {words} words, counting choice outcomes (need 550-1000; aim for 800-900)')
+    if not 550 <= words <= 1300: err(f'narration is {words} words, counting choice outcomes (need 550-1300; listen-only lessons speak every fact on screen)')
+    try:
+        import clips as _clips
+        for pr in _clips.problems(L): err(pr)
+    except Exception as e:
+        err(f'activity clips: {e}')
     if cast_words > 0.3 * max(words, 1): err(f'character voices speak {cast_words} of {words} words (keep it under 30%)')
     return P
 

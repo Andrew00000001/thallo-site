@@ -1,21 +1,22 @@
 {
  "id": "L08",
- "beats": 59,
+ "beats": 63,
+ "clips": 36,
  "mismatches": [
   {
    "scene": 2,
    "beat": 0,
    "say": "Coinsurance: insure at least a set share of the property's value, like eighty percent. Carry less, and every loss gets paid short, in proportion.",
-   "heard": "Coinsurance, ensure at least a set share of the property's value, like 80 percent. Carry less, and every loss gets paid short in proportion.",
-   "wer": 0.043,
+   "heard": "Co-insurance, ensure at least a set share of the property's value, like 80%. Carry less, and every loss gets paid short in proportion.",
+   "wer": 0.13,
    "voice": "narrator"
   },
   {
    "scene": 5,
    "beat": 2,
-   "say": "Watch out: people away, but belongings still there? That's unoccupied. Look for the stuff.",
-   "heard": "Watch out. People away, but belonging still there. That's unoccupied. Look for the stuff.",
-   "wer": 0.071,
+   "say": "Watch out: people away, but belongings still there? That's unoccupied, like a furnished house while its owners spend four months in Florida. Look for the stuff.",
+   "heard": "Watch out, people away but belonging still there. That's unoccupied, like a furnished house while its owners spend four months in Florida. Look for the stuff.",
+   "wer": 0.038,
    "voice": "narrator"
   },
   {
@@ -27,14 +28,6 @@
    "voice": "narrator"
   },
   {
-   "scene": 9,
-   "beat": 0,
-   "say": "A bank holding a home's mortgage is the mortgagee. Under the twenty eleven homeowners form, it brings its own umbrella: it collects despite the owner's denial, if it meets the conditions.",
-   "heard": "A bank holding a home's mortgage is the mortgagee. Under the 2011 Home Owners' Form, it brings its own umbrella. It collects despite the owner's denial if it meets the conditions.",
-   "wer": 0.065,
-   "voice": "narrator"
-  },
-  {
    "scene": 10,
    "beat": 1,
    "say": "We're the named mortgagee. What do we do?",
@@ -43,11 +36,51 @@
    "voice": "boss"
   },
   {
+   "scene": 13,
+   "beat": 3,
+   "say": "Apparent authority is what a reasonable person assumes from how the insurer presents her. A license alone gives neither.",
+   "heard": "A parent authority is what a reasonable person assumes from how the insurer presents her. A license alone gives neither.",
+   "wer": 0.105,
+   "voice": "narrator"
+  },
+  {
    "scene": 14,
    "beat": 0,
-   "say": "Did over Should, capped by the limit. Under the twenty twelve B P P, long vacancy: some perils out, the rest cut fifteen percent.",
-   "heard": "did overshoot capped by the limit. Under the 2012 BPP long vacancy, some perils out, the rest cut 15%.",
-   "wer": 0.091,
+   "say": "Did over Should, times the Loss, minus the Deductible, capped by the limit. Under the twenty twelve B P P, vacant over sixty days: some perils out, the rest cut fifteen percent. Subrogation: after paying, the insurer recovers from the party liable.",
+   "heard": "did overshould times the loss minus the deductible, capped by the limit. Under the 2012 BPP, vacant over 60 days, some perils out, the rest cut 15%. Subrogation, after paying, the insurer recovers from the party liable.",
+   "wer": 0.05,
+   "voice": "narrator"
+  },
+  {
+   "scene": 14,
+   "beat": 1,
+   "say": "A mortgagee can collect after a denial; a loss payee usually can't.",
+   "heard": "A mortgagee can collect after a denial. A lost payee usually cannot.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s4.q",
+   "say": "A building worth five hundred thousand dollars at the time of loss is insured for three hundred thousand dollars with eighty percent coinsurance and a one thousand dollars deductible. A one hundred thousand dollars covered loss occurs. What does the insurer pay? A: fifty nine thousand dollars. B: seventy four thousand dollars. C: seventy four thousand two hundred fifty dollars. D: ninety nine thousand dollars.",
+   "text": "A building worth $500,000 at the time of loss is insured for $300,000 with 80% coinsurance and a $1,000 deductible. A $100,000 covered loss occurs. What does the insurer pay? A: $59,000. B: $74,000. C: $74,250. D: $99,000.",
+   "heard": "A building worth $500,000 at the time of loss is insured for $300,000 with 80% co-insurance and a $1,000 deductible. A $100,000 covered loss occurs. What does the insurer pay? A. $59,000 B. $74,000 C. $74,250 D. $99,000",
+   "wer": 0.031,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.ask",
+   "say": "What should the bank do? One: Give up: his denial sinks us too. Two: Sue the owner and win in court first. Three: File a sworn statement within sixty days.",
+   "text": "What should the bank do? One: Give up: his denial sinks us too. Two: Sue the owner and win in court first. Three: File a sworn statement within 60 days.",
+   "heard": "What should the bank do? One, give up, his denial syncs us too. Two, sue the owner and win in court first. Three, file a sworn statement within 60 days.",
+   "wer": 0.034,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s10.o2.win",
+   "say": "The mortgagee's claim stands if it reports known changes in risk, pays premium due on demand, and files a sworn statement within sixty days after notice.",
+   "text": "The mortgagee's claim stands if it reports known changes in risk, pays premium due on demand, and files a sworn statement within 60 days after notice.",
+   "heard": "The mortgages claim stands if it reports known changes in risk, pays premium due on demand, and files a sworn statement within 60 days after notice.",
+   "wer": 0.04,
    "voice": "narrator"
   }
  ]

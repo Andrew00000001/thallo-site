@@ -80,8 +80,8 @@
    ],
    "beats": [
     {
-     "text": "Monday at Tony's Pizza in Detroit. Dana, his agent, drops off his new business policy. He'll need it sooner than he thinks.",
-     "say": "Monday at Tony's Pizza in Detroit. Dana, his agent, drops off his new business policy. He'll need it sooner than he thinks."
+     "text": "Monday at Tony's Pizza in Detroit. Policy structure and common provisions are part of P&C Basics, 20% of your exam. Dana, Tony's agent, drops off his new business policy. He'll need it sooner than he thinks.",
+     "say": "Monday at Tony's Pizza in Detroit. Policy structure and common provisions are part of P and C Basics, twenty percent of your exam. Dana, Tony's agent, drops off his new business policy. He'll need it sooner than he thinks."
     },
     {
      "text": "It's thicker than my menu!",
@@ -388,8 +388,8 @@
      "hl": "names"
     },
     {
-     "text": "Tony is listed first: the first named insured. He pays the premium and gets cancellation notices and return premiums.",
-     "say": "Tony is listed first: the first named insured. He pays the premium and gets cancellation notices and return premiums.",
+     "text": "Tony is listed first in the declarations: the first named insured. He pays the premium and gets cancellation notices and return premiums.",
+     "say": "Tony is listed first in the declarations: the first named insured. He pays the premium and gets cancellation notices and return premiums.",
      "show": 3,
      "hl": "tony"
     },
@@ -398,6 +398,18 @@
      "say": "Tony also rents a Midtown takeout counter. That landlord isn't named, but Tony can ask to add him as an additional insured.",
      "show": 4,
      "hl": "landlord"
+    },
+    {
+     "text": "On the exam, a named insured is anyone named in the policy.",
+     "say": "On the exam, a named insured is anyone named in the policy.",
+     "show": 4,
+     "hl": "names"
+    },
+    {
+     "text": "The trap: under the 1998 common policy conditions, only the first named insured pays the premium and gets notices.",
+     "say": "The trap: under the nineteen ninety-eight common policy conditions, only the first named insured pays the premium and gets notices.",
+     "show": 4,
+     "hl": "tony"
     }
    ]
   },
@@ -1062,7 +1074,7 @@
      "y": 52,
      "h": 8,
      "at": 1,
-     "cue": "pays",
+     "cue": "insurer",
      "label": "Pays $60,000 on the $70,000 loss",
      "lsize": 3.6,
      "lw": 30,
@@ -1572,7 +1584,7 @@
      "y": 43,
      "size": 3.8,
      "at": 2,
-     "cue": "limits",
+     "cue": "loss",
      "out": 4
     },
     {
@@ -1583,7 +1595,7 @@
      "size": 3.6,
      "color": "blue",
      "at": 2,
-     "cue": "three",
+     "cue": "loss",
      "out": 4
     },
     {
@@ -1594,7 +1606,7 @@
      "size": 3.6,
      "color": "orange",
      "at": 2,
-     "cue": "two",
+     "cue": "loss",
      "out": 4
     },
     {
@@ -1731,21 +1743,21 @@
      "hl": "primary"
     },
     {
-     "text": "Pro rata, or contribution by limits: pay by your appetite, your limit. Limits of $300,000 and $200,000 pay three-fifths and two-fifths.",
-     "say": "Pro rata, or contribution by limits: pay by your appetite, your limit. Limits of three hundred thousand dollars and two hundred thousand dollars pay three-fifths and two-fifths.",
+     "text": "Pro rata, or contribution by limits: pay by your appetite, your limit. Limits of $300,000 and $200,000 pay three-fifths and two-fifths. On a loss of $100,000, that's $60,000 and $40,000.",
+     "say": "Pro rata, or contribution by limits: pay by your appetite, your limit. Limits of three hundred thousand dollars and two hundred thousand dollars pay three-fifths and two-fifths. On a loss of one hundred thousand dollars, that's sixty thousand dollars and forty thousand dollars.",
      "hl": "pie"
     },
     {
-     "text": "Equal shares, the method in the CGL, a business liability policy: everyone chips in the same until a wallet runs dry. If any policy doesn't permit it, they split by limits.",
-     "say": "Equal shares, the method in the C G L, a business liability policy: everyone chips in the same until a wallet runs dry. If any policy doesn't permit it, they split by limits.",
+     "text": "Equal shares, the method in the CGL, a business liability policy: everyone chips in the same until a wallet runs dry. In other words, they pay the same amounts until a limit runs out or the loss is paid. If any policy doesn't permit equal shares, they split by limits.",
+     "say": "Equal shares, the method in the C G L, a business liability policy: everyone chips in the same until a wallet runs dry. In other words, they pay the same amounts until a limit runs out or the loss is paid. If any policy doesn't permit equal shares, they split by limits.",
      "hl": [
       "w1",
       "w2"
      ]
     },
     {
-     "text": "And don't confuse these with nonconcurrency: policies on the same exposure that don't match, like different inception and expiration dates.",
-     "say": "And don't confuse these with nonconcurrency: policies on the same exposure that don't match, like different inception and expiration dates.",
+     "text": "And don't confuse these with nonconcurrency: policies on the same exposure that don't match, like different inception and expiration dates. Picture one building with two policies: January 1 to January 1, and April 1 to April 1. That's nonconcurrency, not a way to share a loss.",
+     "say": "And don't confuse these with nonconcurrency: policies on the same exposure that don't match, like different inception and expiration dates. Picture one building with two policies: January first to January first, and April first to April first. That's nonconcurrency, not a way to share a loss.",
      "hl": [
       "pa",
       "pb"
@@ -2019,8 +2031,12 @@
      "fail": "Contribution by limits applies only if some other policy doesn't permit equal shares. Here, both do.",
      "beats": [
       {
-       "text": "That's pro rata, the backup method. Both policies permit equal shares, so it's out.",
-       "say": "That's pro rata, the backup method. Both policies permit equal shares, so it's out."
+       "text": "That's pro rata, the backup method. By limits, the small one pays $62,500, and the big one pays $187,500.",
+       "say": "That's pro rata, the backup method. By limits, the small one pays sixty-two thousand five hundred dollars, and the big one pays one hundred eighty-seven thousand five hundred dollars."
+      },
+      {
+       "text": "Both policies permit equal shares, so it's out.",
+       "say": "Both policies permit equal shares, so it's out."
       }
      ],
      "draw": [
@@ -2265,8 +2281,8 @@
      "hl": "occ"
     },
     {
-     "text": "Each policy year also has aggregates, caps on the year's total: a general one, and one for products-completed operations.",
-     "say": "Each policy year also has aggregates, caps on the year's total: a general one, and one for products-completed operations.",
+     "text": "Each policy year also has aggregates, caps on the year's total. There's a general one, for things like a slip inside the shop, and one for products-completed operations.",
+     "say": "Each policy year also has aggregates, caps on the year's total. There's a general one, for things like a slip inside the shop, and one for products-completed operations.",
      "hl": [
       "gen",
       "prod"
@@ -2404,7 +2420,7 @@
      "size": 3.4,
      "color": "green",
      "at": 2,
-     "cue": "injuries",
+     "cue": "gets",
      "w": 24
     },
     {
@@ -2451,18 +2467,18 @@
    ],
    "beats": [
     {
-     "text": "Now a textbook auto liability example, set outside Michigan, where the rules differ. Read split limits as Person, People, Property.",
-     "say": "Now a textbook auto liability example, set outside Michigan, where the rules differ. Read split limits as Person, People, Property.",
+     "text": "Now a textbook auto liability example, set outside Michigan, where the rules differ. Read split limits as Person, People, Property. This example uses the 2018 personal auto policy.",
+     "say": "Now a textbook auto liability example, set outside Michigan, where the rules differ. Read split limits as Person, People, Property. This example uses the twenty eighteen personal auto policy.",
      "show": 1
     },
     {
-     "text": "50, 100, 25: $50,000 per person, $100,000 for all injuries, $25,000 for property damage, per accident.",
-     "say": "Fifty, one hundred, twenty-five: fifty thousand dollars per person, one hundred thousand dollars for all injuries, twenty-five thousand dollars for property damage, per accident.",
+     "text": "50, 100, 25: $50,000 per person, $100,000 for all injuries, $25,000 for all property damage. Those are three separate caps per accident.",
+     "say": "Fifty, one hundred, twenty-five: fifty thousand dollars per person, one hundred thousand dollars for all injuries, twenty-five thousand dollars for all property damage. Those are three separate caps per accident.",
      "show": 2
     },
     {
-     "text": "The driver is legally liable for two injuries: $70,000 and $40,000. Person one caps at $50,000, so injuries pay $90,000.",
-     "say": "The driver is legally liable for two injuries: seventy thousand dollars and forty thousand dollars. Person one caps at fifty thousand dollars, so injuries pay ninety thousand dollars.",
+     "text": "The driver is legally liable for two injuries: $70,000 and $40,000. Person one caps at $50,000. Person two gets all $40,000, so injuries pay $90,000.",
+     "say": "The driver is legally liable for two injuries: seventy thousand dollars and forty thousand dollars. Person one caps at fifty thousand dollars. Person two gets all forty thousand dollars, so injuries pay ninety thousand dollars.",
      "show": 3
     },
     {
@@ -2471,8 +2487,8 @@
      "show": 3
     },
     {
-     "text": "Cap each person first, then the accident. A combined single limit is one big bucket for all of it.",
-     "say": "Cap each person first, then the accident. A combined single limit is one big bucket for all of it.",
+     "text": "Cap each person first, then the accident. A combined single limit is one big bucket for all of it: one limit for injury and damage together.",
+     "say": "Cap each person first, then the accident. A combined single limit is one big bucket for all of it: one limit for injury and damage together.",
      "show": 4
     }
    ]
@@ -2612,13 +2628,13 @@
    ],
    "beats": [
     {
-     "text": "What a week! Roll the DICE. The first named insured pays the premium and gets notices. Deductibles come off the loss; limits cap the payment.",
-     "say": "What a week! Roll the DICE. The first named insured pays the premium and gets notices. Deductibles come off the loss; limits cap the payment.",
+     "text": "What a week! Roll the DICE: declarations, insuring agreement, conditions, exclusions. The first named insured pays the premium and gets notices and refunds. The deductible comes off the loss; the limit still caps the payment.",
+     "say": "What a week! Roll the DICE: declarations, insuring agreement, conditions, exclusions. The first named insured pays the premium and gets notices and refunds. The deductible comes off the loss; the limit still caps the payment.",
      "show": 3
     },
     {
-     "text": "Equal shares pay alike until a limit runs out; split limits cap each person first.",
-     "say": "Equal shares pay alike until a limit runs out; split limits cap each person first.",
+     "text": "Equal shares pay alike until a limit runs out; pro rata pays by limits. Split limits cap each person first, then the accident.",
+     "say": "Equal shares pay alike until a limit runs out; pro rata pays by limits. Split limits cap each person first, then the accident.",
      "show": 5
     },
     {
@@ -2647,11 +2663,15 @@
   "IRMI glossary: excess insurance, contribution by limits, contribution by equal shares, nonconcurrency, deductible, per occurrence limit, split limits, combined single limits",
   "ISO CP 00 10 10 12 (Building and Personal Property Coverage Form, 2012), preamble, D, E.3",
   "ISO CP 00 90 07 88 (Commercial Property Conditions, 1988), G, H",
-  "ISO IL 00 17 11 98 (Common Policy Conditions, 1998), B",
+  "ISO IL 00 17 11 98 (Common Policy Conditions, 1998), A, B, E",
   "ISO HO 00 03 05 11 (Homeowners 3, 2011), Sec. I Exclusions, Cond. B, C and Q",
   "ISO PP 00 01 09 18 (Personal Auto Policy, 2018), Part A Limit of Liability, Part F",
   "ISO CG 00 01 04 13 (Commercial General Liability, 2013), Sec. II, III, IV Cond. 4.c, V def. 16",
   "Memory hooks mn_core-15, mn_core-18, mn_core-20",
   "PSI Series 16-81 content outline"
- ]
+ ],
+ "clipsay": {
+  "s6.c0.why": "The twenty eighteen P A P's territory is the U S, its territories or possessions, Puerto Rico and Canada. Toronto is inside.",
+  "s6.c4": "Rosa's covered car rides a cargo boat between ports in the U S and Puerto Rico."
+ }
 }

@@ -440,12 +440,12 @@
      "say": "Crunch! Rosa slides through a stranger's fence, dents a stranger's properly parked car, and clips Sam's moving car. Sam's fine. Rosa broke her arm."
     },
     {
-     "text": "Every Michigan auto policy must include three coverages.",
-     "say": "Every Michigan auto policy must include three coverages."
+     "text": "Auto insurance is 15% of your exam: 22 items. And every Michigan auto policy must include three coverages.",
+     "say": "Auto insurance is fifteen percent of your exam: twenty-two items. And every Michigan auto policy must include three coverages."
     },
     {
-     "text": "Personal injury protection, PIP, pays for injuries, regardless of fault. Property protection insurance, PPI, pays for others' property in Michigan, like fences and properly parked cars.",
-     "say": "Personal injury protection, P I P, pays for injuries, regardless of fault. Property protection insurance, P P I, pays for others' property in Michigan, like fences and properly parked cars."
+     "text": "Personal injury protection, PIP, pays for injuries, regardless of fault. Property protection insurance, PPI, pays for others' property in Michigan, like fences and properly parked cars, but not moving cars.",
+     "say": "Personal injury protection, P I P, pays for injuries, regardless of fault. Property protection insurance, P P I, pays for others' property in Michigan, like fences and properly parked cars, but not moving cars."
     },
     {
      "text": "Residual liability covers your legal liability: injury lawsuits Michigan still allows, and crashes in other states.",
@@ -1044,8 +1044,8 @@
      "show": 1
     },
     {
-     "text": "Work loss pays her lost income, minus 15%, because the benefit isn't taxed.",
-     "say": "Work loss pays her lost income, minus fifteen percent, because the benefit isn't taxed.",
+     "text": "Work loss pays her lost income for up to 3 years after the accident, minus 15%, because the benefit isn't taxed. So PIP pays 85%, unless you prove a smaller tax advantage.",
+     "say": "Work loss pays her lost income for up to three years after the accident, minus fifteen percent, because the benefit isn't taxed. So P I P pays eighty-five percent, unless you prove a smaller tax advantage.",
      "show": 2
     },
     {
@@ -1225,13 +1225,13 @@
    ],
    "beats": [
     {
-     "text": "For policies issued or renewed after July 1, 2020, the named insured picks a medical level. Climb the PIP ladder: 50, 250, 500, the Sky.",
-     "say": "For policies issued or renewed after July first, twenty twenty, the named insured picks a medical level. Climb the P I P ladder: fifty, two hundred fifty, five hundred, the sky.",
+     "text": "For policies issued or renewed after July 1, 2020, the named insured picks a medical level. Climb the PIP ladder: 50, 250, 500, the Sky. The Sky means unlimited.",
+     "say": "For policies issued or renewed after July first, twenty twenty, the named insured picks a medical level. Climb the P I P ladder: fifty, two hundred fifty, five hundred, the sky. The sky means unlimited.",
      "show": 0
     },
     {
-     "text": "$50,000 is only for a named insured on Medicaid, with the household covered.",
-     "say": "Fifty thousand dollars is only for a named insured on Medicaid, with the household covered.",
+     "text": "$50,000 is only for a named insured on Medicaid, with the household covered. The household needs qualified health coverage, Medicaid, or other auto PIP.",
+     "say": "Fifty thousand dollars is only for a named insured on Medicaid, with the household covered. The household needs qualified health coverage, Medicaid, or other auto P I P.",
      "show": 1
     },
     {
@@ -1240,8 +1240,8 @@
      "show": 2
     },
     {
-     "text": "No rung at $100,000. No valid choice? You get the Sky, unless the premium paid shows another level.",
-     "say": "No rung at one hundred thousand dollars. No valid choice? You get the sky, unless the premium paid shows another level.",
+     "text": "No rung at $100,000. The top two rungs are $500,000 and the Sky. No valid choice? You get the Sky, unless the premium payment shows another level.",
+     "say": "No rung at one hundred thousand dollars. The top two rungs are five hundred thousand dollars and the sky. No valid choice? You get the sky, unless the premium payment shows another level.",
      "show": 3
     },
     {
@@ -1630,13 +1630,13 @@
    ],
    "beats": [
     {
-     "text": "PPI pays, without regard to fault, for damage your car does in Michigan to others' property, up to $1 million per accident.",
-     "say": "P P I pays, without regard to fault, for damage your car does in Michigan to others' property, up to one million dollars per accident.",
+     "text": "Now for property protection insurance, PPI. It pays, without regard to fault, for damage your car does in Michigan to others' property, up to $1 million per accident.",
+     "say": "Now for property protection insurance, P P I. It pays, without regard to fault, for damage your car does in Michigan to others' property, up to one million dollars per accident.",
      "show": 2
     },
     {
-     "text": "So Rosa's PPI pays for the fence and the parked car.",
-     "say": "So Rosa's P P I pays for the fence and the parked car.",
+     "text": "Rosa's slide wrecked a stranger's fence and dented a stranger's properly parked car. So her PPI pays for both.",
+     "say": "Rosa's slide wrecked a stranger's fence and dented a stranger's properly parked car. So her P P I pays for both.",
      "show": 3,
      "hl": [
       "fence",
@@ -1644,10 +1644,15 @@
      ]
     },
     {
-     "text": "The rhyme: Moving cars? PPI's not paying. Fences, buildings, properly parked cars in the mitten? PPI's paying, up to a million.",
-     "say": "The rhyme: Moving cars? P P I's not paying. Fences, buildings, properly parked cars in the mitten? P P I's paying, up to a million.",
+     "text": "The rhyme: Moving cars? PPI is not paying. Fences, buildings, properly parked cars in the mitten? PPI is paying, up to a million.",
+     "say": "The rhyme: Moving cars? P P I is not paying. Fences, buildings, properly parked cars in the mitten? P P I is paying, up to a million.",
      "show": 4,
      "hl": "mi"
+    },
+    {
+     "text": "In other words, a car parked without unreasonable risk is covered. Watch out: PPI won't pay for your own car, or for accidents outside Michigan.",
+     "say": "In other words, a car parked without unreasonable risk is covered. Watch out: P P I won't pay for your own car, or for accidents outside Michigan.",
+     "show": 4
     }
    ]
   },
@@ -2165,20 +2170,20 @@
      "say": "Now, lawsuits. Tort liability, legal responsibility for harm you cause, is mostly abolished in Michigan for insured vehicles. Five kinds survive: intentional harm, a nonresident's economic loss with a threshold injury, and these three."
     },
     {
-     "text": "One: pain and suffering, called noneconomic loss. DID it happen? Death, serious impairment of body function, or permanent serious disfigurement. Serious impairment has no minimum duration.",
-     "say": "One: pain and suffering, called noneconomic loss. Did it happen? Death, serious impairment of body function, or permanent serious disfigurement. Serious impairment has no minimum duration."
+     "text": "One: pain and suffering, called noneconomic loss. DID it happen? Death, serious impairment of body function, or permanent serious disfigurement. That's D, I, D: death, serious impairment, permanent serious disfigurement. Serious impairment has no minimum duration.",
+     "say": "One: pain and suffering, called noneconomic loss. Did it happen? Death, serious impairment of body function, or permanent serious disfigurement. That's D, I, D: death, serious impairment, permanent serious disfigurement. Serious impairment has no minimum duration."
     },
     {
      "text": "Had Sam suffered a serious impairment, he could sue Rosa for pain and suffering, and her residual liability would cover it.",
      "say": "Had Sam suffered a serious impairment, he could sue Rosa for pain and suffering, and her residual liability would cover it."
     },
     {
-     "text": "Two: economic loss above your PIP limits, like medical bills past your level. Sue the at-fault driver for the rest.",
-     "say": "Two: economic loss above your P I P limits, like medical bills past your level. Sue the at-fault driver for the rest."
+     "text": "Two: economic loss above your PIP limits. Say your medical bills are $400,000, but your PIP level is $250,000. Sue the at-fault driver for the other $150,000.",
+     "say": "Two: economic loss above your P I P limits. Say your medical bills are four hundred thousand dollars, but your P I P level is two hundred fifty thousand dollars. Sue the at-fault driver for the other one hundred fifty thousand dollars."
     },
     {
-     "text": "Three: the mini-tort, up to $3,000 for car damage that insurance didn't pay, in accidents after July 1, 2020. It's not part of required residual liability.",
-     "say": "Three: the mini-tort, up to three thousand dollars for car damage that insurance didn't pay, in accidents after July first, twenty twenty. It's not part of required residual liability."
+     "text": "Three: the mini-tort, up to $3,000 for car damage that insurance didn't pay, in accidents after July 1, 2020. It used to be $1,000. It's not part of required residual liability.",
+     "say": "Three: the mini-tort, up to three thousand dollars for car damage that insurance didn't pay, in accidents after July first, twenty twenty. It used to be one thousand dollars. It's not part of required residual liability."
     },
     {
      "text": "Watch out: more than 50% at fault? No pain and suffering, and no mini-tort.",
@@ -2464,7 +2469,7 @@
     "Any injury that needed hospital care"
    ],
    "answer": 1,
-   "why": "That's the tort threshold for noneconomic loss. Serious impairment has no minimum duration, and $3,000 is the mini-tort amount, not a threshold.",
+   "why": "B is the tort threshold for noneconomic loss. Serious impairment has no minimum duration, and $3,000 is the mini-tort amount, not a threshold.",
    "draw": [
     {
      "id": "judge",
@@ -2548,7 +2553,7 @@
     {
      "text": "A pedestrian with a serious impairment sues Rosa",
      "bin": 2,
-     "why": "Tort liability for noneconomic loss remains when the threshold injury is met."
+     "why": "Residual liability: tort liability for noneconomic loss remains when the threshold injury is met."
     },
     {
      "text": "Rosa sideswipes a legally parked car in Detroit",
@@ -2568,8 +2573,8 @@
      "say": "Injury benefits: P I P. Others' property in Michigan: P P I."
     },
     {
-     "text": "Injury suits and out-of-state damage: residual liability.",
-     "say": "Injury suits and out-of-state damage: residual liability."
+     "text": "Injury suits, and damage in other states: residual liability.",
+     "say": "Injury suits, and damage in other states: residual liability."
     }
    ]
   },
@@ -2660,14 +2665,29 @@
    ],
    "beats": [
     {
-     "text": "What a winter! Here's what to keep.",
-     "say": "What a winter! Here's what to keep.",
-     "show": 5
+     "text": "What a winter! PIP pays for injuries, regardless of fault: Medical, Wages, Chores, Survivors. Work loss caps at $7,455 per 30 days. That's for accidents from October 1, 2026, through September 30, 2027.",
+     "say": "What a winter! P I P pays for injuries, regardless of fault: Medical, Wages, Chores, Survivors. Work loss caps at seven thousand four hundred fifty-five dollars per thirty days. That's for accidents from October first, twenty twenty-six, through September thirtieth, twenty twenty-seven.",
+     "show": 2
     },
     {
      "text": "And I'm buying snow tires.",
      "say": "And I'm buying snow tires.",
      "voice": "rosa",
+     "show": 2
+    },
+    {
+     "text": "Good call, Rosa. Three more to remember. On the PIP ladder, $50,000 is for Medicaid. Then come $250,000, $500,000, and the Sky, which is the default. The opt-out needs Medicare A and B.",
+     "say": "Good call, Rosa. Three more to remember. On the P I P ladder, fifty thousand dollars is for Medicaid. Then come two hundred fifty thousand dollars, five hundred thousand dollars, and the sky, which is the default. The opt-out needs Medicare A and B.",
+     "show": 3
+    },
+    {
+     "text": "PPI pays for others' property in Michigan, up to $1 million, but not moving cars.",
+     "say": "P P I pays for others' property in Michigan, up to one million dollars, but not moving cars.",
+     "show": 4
+    },
+    {
+     "text": "Suits Michigan still allows include pain and suffering, if the DID threshold is met. Also economic loss above PIP limits, and the mini-tort, up to $3,000.",
+     "say": "Suits Michigan still allows include pain and suffering, if the D I D threshold is met. Also economic loss above P I P limits, and the mini-tort, up to three thousand dollars.",
      "show": 5
     }
    ]
@@ -2709,5 +2729,9 @@
   "Memory hooks mn_auto-01, 02, 07, 08, 12, 15, 16, 17; confusion pair cp_personal-12 (tell and drills); matching set ms_personal-08; visual summary vs_personal-03",
   "Questions auto-015, 019, 020, 021, 027, 031, 032, 033, 035, 036, 048; core-024",
   "PSI outline: Automobile Insurance 15% (22 items)"
- ]
+ ],
+ "clipsay": {
+  "s8.c4.why": "No P P I outside Michigan. Residual property damage liability, at least ten thousand dollars, covers damage in other states.",
+  "s12.intro": "Sort each one: P I P... P P I... or Residual liability."
+ }
 }

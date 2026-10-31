@@ -84,8 +84,8 @@
    ],
    "beats": [
     {
-     "text": "November in Detroit. Tony's about to get robbed, his boiler's about to wheeze, and his grandma's cows are about to escape. Dana has four coverages to explain.",
-     "say": "November in Detroit. Tony's about to get robbed, his boiler's about to wheeze, and his grandma's cows are about to escape. Dana has four coverages to explain."
+     "text": "November in Detroit. Tony's about to get robbed, his boiler's about to wheeze, and his grandma's cows are about to escape. Dana has four coverages to explain: crime, inland marine, equipment breakdown and farm.",
+     "say": "November in Detroit. Tony's about to get robbed, his boiler's about to wheeze, and his grandma's cows are about to escape. Dana has four coverages to explain: crime, inland marine, equipment breakdown and farm."
     },
     {
      "text": "Four? I just make pizza!",
@@ -313,13 +313,13 @@
      "hl": "burglar"
     },
     {
-     "text": "Wednesday: the locked safe is pried open and emptied: safe burglary. So is carting off the whole safe. Opened by combination, with no marks? Not safe burglary.",
-     "say": "Wednesday: the locked safe is pried open and emptied: safe burglary. So is carting off the whole safe. Opened by combination, with no marks? Not safe burglary.",
+     "text": "Wednesday: the locked safe is pried open, leaving marks on the outside, and emptied: safe burglary. So is carting off the whole safe. Opened by combination, with no marks? Not safe burglary.",
+     "say": "Wednesday: the locked safe is pried open, leaving marks on the outside, and emptied: safe burglary. So is carting off the whole safe. Opened by combination, with no marks? Not safe burglary.",
      "hl": "safe"
     },
     {
-     "text": "Theft is the umbrella word: any unlawful taking to the insured's loss.",
-     "say": "Theft is the umbrella word: any unlawful taking to the insured's loss.",
+     "text": "Theft is the umbrella word for all three: any unlawful taking to the insured's loss.",
+     "say": "Theft is the umbrella word for all three: any unlawful taking to the insured's loss.",
      "hl": "umb"
     }
    ]
@@ -654,7 +654,7 @@
      "w": 36,
      "color": "green",
      "at": 1,
-     "cue": "theft"
+     "cue": "covered"
     },
     {
      "id": "stock",
@@ -788,33 +788,34 @@
      "size": 3.4,
      "w": 150,
      "color": "gray",
-     "at": 4
+     "at": 4,
+     "cue": "outline"
     }
    ],
    "beats": [
     {
-     "text": "Tony's crime policy, the 2015 loss sustained form, has seven insuring agreements. Employee Theft: money, securities and other property his employees steal.",
-     "say": "Tony's crime policy, the twenty fifteen loss sustained form, has seven insuring agreements. Employee Theft: money, securities and other property his employees steal.",
+     "text": "Tony's crime policy, the 2015 loss sustained form, has seven insuring agreements, numbered one to seven. Number one, Employee Theft: money, securities and other property his employees steal.",
+     "say": "Tony's crime policy, the twenty fifteen loss sustained form, has seven insuring agreements, numbered one to seven. Number one, Employee Theft: money, securities and other property his employees steal.",
      "hl": "emp"
     },
     {
-     "text": "Back to Tony's bad week. Monday's stolen cash is money, a VIP: inside, money and securities are covered for theft, disappearance or destruction.",
-     "say": "Back to Tony's bad week. Monday's stolen cash is money, a V I P: inside, money and securities are covered for theft, disappearance or destruction.",
+     "text": "Back to Tony's bad week. Monday's stolen cash is money, a VIP. Number three: inside the premises, money and securities are covered for theft, disappearance or destruction.",
+     "say": "Back to Tony's bad week. Monday's stolen cash is money, a V I P. Number three: inside the premises, money and securities are covered for theft, disappearance or destruction.",
      "hl": "cash"
     },
     {
-     "text": "Tuesday's stock is other property: inside, only robbery of a custodian or safe burglary. So his crime form doesn't cover Tuesday's plain burglary.",
-     "say": "Tuesday's stock is other property: inside, only robbery of a custodian or safe burglary. So his crime form doesn't cover Tuesday's plain burglary.",
+     "text": "Tuesday's stock is other property. Number four: inside, only robbery of a custodian or safe burglary. So his crime form doesn't cover Tuesday's plain burglary.",
+     "say": "Tuesday's stock is other property. Number four: inside, only robbery of a custodian or safe burglary. So his crime form doesn't cover Tuesday's plain burglary.",
      "hl": "stock"
     },
     {
-     "text": "Outside, with a messenger or armored car company: money and securities, the same. Other property, robbery only.",
-     "say": "Outside, with a messenger or armored car company: money and securities, the same. Other property, robbery only.",
+     "text": "Number five, outside the premises, with a messenger or armored car company: money and securities, the same. Other property, robbery only.",
+     "say": "Number five, outside the premises, with a messenger or armored car company: money and securities, the same. Other property, robbery only.",
      "hl": "msgr"
     },
     {
-     "text": "Three more: Forgery or Alteration, Computer and Funds Transfer Fraud, and Money Orders and Counterfeit Money.",
-     "say": "Three more: Forgery or Alteration, Computer and Funds Transfer Fraud, and Money Orders and Counterfeit Money.",
+     "text": "Three more: number two, Forgery or Alteration; number six, Computer and Funds Transfer Fraud; and number seven, Money Orders and Counterfeit Money. The PSI outline lists computer fraud and funds transfer fraud separately.",
+     "say": "Three more: number two, Forgery or Alteration; number six, Computer and Funds Transfer Fraud; and number seven, Money Orders and Counterfeit Money. The P S I outline lists computer fraud and funds transfer fraud separately.",
      "hl": [
       "n1",
       "n2",
@@ -945,10 +946,13 @@
      "hl": "c1"
     },
     {
-     "text": "Discovery: a loss from any time, and 60 days after cancellation to find it. Don't swap the tails.",
-     "say": "Discovery: a loss from any time, and sixty days after cancellation to find it. Don't swap the tails.",
+     "text": "Loss sustained: 1 year after cancellation to discover. Discovery: a loss from any time, and 60 days after cancellation to find it. Don't swap the tails.",
+     "say": "Loss sustained: one year after cancellation to discover. Discovery: a loss from any time, and sixty days after cancellation to find it. Don't swap the tails.",
      "show": 4,
-     "hl": "c2"
+     "hl": [
+      "c1",
+      "c2"
+     ]
     }
    ]
   },
@@ -1211,7 +1215,7 @@
      "size": 3.9,
      "bold": true,
      "color": "blue",
-     "cue": "block"
+     "cue": "jewelers"
     },
     {
      "id": "guitar",
@@ -1722,20 +1726,20 @@
    ],
    "beats": [
     {
-     "text": "Equipment breakdown, once called boiler and machinery, covers a breakdown of boilers, machinery, and electrical and communication equipment.",
-     "say": "Equipment breakdown, once called boiler and machinery, covers a breakdown of boilers, machinery, and electrical and communication equipment.",
+     "text": "Equipment breakdown, once called boiler and machinery, covers a breakdown of a business's boilers, machinery, and electrical and communication equipment.",
+     "say": "Equipment breakdown, once called boiler and machinery, covers a breakdown of a business's boilers, machinery, and electrical and communication equipment.",
      "show": 2,
      "hl": "boiler"
     },
     {
-     "text": "If Tony's boiler breaks down, and his policy has no Actual Cash Value endorsement, the form values it at replacement cost, with no deduction for depreciation.",
-     "say": "If Tony's boiler breaks down, and his policy has no Actual Cash Value endorsement, the form values it at replacement cost, with no deduction for depreciation.",
+     "text": "If Tony's boiler breaks down, and his policy has no Actual Cash Value endorsement, the form values it at replacement cost. That means like kind and quality, with no deduction for depreciation.",
+     "say": "If Tony's boiler breaks down, and his policy has no Actual Cash Value endorsement, the form values it at replacement cost. That means like kind and quality, with no deduction for depreciation.",
      "show": 3,
      "hl": "rc"
     },
     {
-     "text": "Attach that endorsement, and the valuation switches to actual cash value.",
-     "say": "Attach that endorsement, and the valuation switches to actual cash value.",
+     "text": "Attach that endorsement, and the valuation switches to actual cash value. Also, coverage on dangerous equipment can be suspended at once, by written notice.",
+     "say": "Attach that endorsement, and the valuation switches to actual cash value. Also, coverage on dangerous equipment can be suspended at once, by written notice.",
      "show": 4,
      "hl": "acv"
     }
@@ -2340,7 +2344,8 @@
      "y": 39,
      "size": 3.5,
      "w": 36,
-     "at": 2
+     "at": 2,
+     "cue": "bodily"
     },
     {
      "p": "label",
@@ -2349,7 +2354,8 @@
      "y": 48,
      "size": 3.5,
      "w": 36,
-     "at": 2
+     "at": 2,
+     "cue": "personal"
     },
     {
      "p": "label",
@@ -2358,13 +2364,14 @@
      "y": 55,
      "size": 3.5,
      "w": 36,
-     "at": 2
+     "at": 2,
+     "cue": "medical"
     }
    ],
    "beats": [
     {
-     "text": "Grandma's farm policy runs A to J. A to D is the farmhouse, lettered like homeowners: dwellings, other private structures, household personal property, loss of use.",
-     "say": "Grandma's farm policy runs A to J. A to D is the farmhouse, lettered like homeowners: dwellings, other private structures, household personal property, loss of use.",
+     "text": "Grandma's farm policy runs A to J. A to D is the farmhouse, lettered like homeowners. A is dwellings, B is other private structures, C is household personal property, and D is loss of use.",
+     "say": "Grandma's farm policy runs A to J. A to D is the farmhouse, lettered like homeowners. A is dwellings, B is other private structures, C is household personal property, and D is loss of use.",
      "hl": "house"
     },
     {
@@ -2373,8 +2380,8 @@
      "hl": "f80"
     },
     {
-     "text": "H, I and J are farm liability, mirroring CGL Coverages A, B and C.",
-     "say": "H, I and J are farm liability, mirroring C G L Coverages A, B and C.",
+     "text": "H, I and J are farm liability, mirroring CGL Coverages A, B and C. H is bodily injury and property damage, I is personal and advertising injury, and J is medical payments.",
+     "say": "H, I and J are farm liability, mirroring C G L Coverages A, B and C. H is bodily injury and property damage, I is personal and advertising injury, and J is medical payments.",
      "hl": "scale"
     }
    ]
@@ -2731,8 +2738,8 @@
      "show": 2
     },
     {
-     "text": "Buildings aren't marine risks. Equipment breakdown pays replacement cost unless endorsed for ACV. Farm runs A to J.",
-     "say": "Buildings aren't marine risks. Equipment breakdown pays replacement cost unless endorsed for A C V. Farm runs A to J.",
+     "text": "Buildings and their fixed contents aren't marine risks. Equipment breakdown pays replacement cost unless endorsed for ACV. Farm runs A to J: A to D is the farmhouse, E to G is farm property, and H to J is liability.",
+     "say": "Buildings and their fixed contents aren't marine risks. Equipment breakdown pays replacement cost unless endorsed for A C V. Farm runs A to J: A to D is the farmhouse, E to G is farm property, and H to J is liability.",
      "show": 5
     },
     {
@@ -2774,5 +2781,8 @@
   "ISO FL 00 20 10 06 (as quoted in FC&S 'Farm Liability Coverage Form', 2013)",
   "Questions comm-032, comm-034, comm-035, comm-036, comm-040, comm-041, comm-cpa-11, comm-cpa-19, comm-cpa-21, comm-cpb-01, comm-cpb-03, comm-cpb-08, comm-cpb-09, comm-cpb-15, comm-cpb-32, comm-cpb-45",
   "Memory hooks mn-mn_comm-11 to mn-mn_comm-16 (adapted); confusion pairs cp_commercial-03, cp_commercial-04; vs_commercial-04; ms_commercial-09"
- ]
+ ],
+ "clipsay": {
+  "s2.c1.why": "An unlawful exit counts. A thief who breaks out of the premises is still a burglar."
+ }
 }

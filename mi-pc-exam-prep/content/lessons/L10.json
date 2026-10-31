@@ -171,14 +171,14 @@
      "show": 1
     },
     {
-     "text": "It insures a home for 1 to 4 families, whether or not the owner lives there.",
-     "say": "It insures a home for one to four families, whether or not the owner lives there.",
+     "text": "It insures a home for 1 to 4 families, whether or not it's the owner who lives there. Take the Millers' Lansing rental: they own it, but it's Rosa who lives in it. A two-family duplex could use one too.",
+     "say": "It insures a home for one to four families, whether or not it's the owner who lives there. Take the Millers' Lansing rental: they own it, but it's Rosa who lives in it. A two-family duplex could use one too.",
      "show": 3,
      "hl": "rental"
     },
     {
-     "text": "Unlike homeowners forms, it has no liability coverage at all.",
-     "say": "Unlike homeowners forms, it has no liability coverage at all.",
+     "text": "Unlike homeowners forms, it has no liability or medical payments coverage at all. In this lesson, our forms are the 1988 DP-1 and DP-2, and the 2002 DP-3, whose numbers match the 2014 DP-3.",
+     "say": "Unlike homeowners forms, it has no liability or medical payments coverage at all. In this lesson, our forms are the nineteen eighty-eight D P one and D P two, and the two thousand two D P three, whose numbers match the twenty fourteen D P three.",
      "show": 4,
      "hl": "gavel"
     }
@@ -717,8 +717,8 @@
    ],
    "reveal": [
     {
-     "text": "A is the Abode, B is Beside it, C is Contents. D is Dollars from tenants. E is Extra living costs.",
-     "say": "A is the Abode, B is Beside it, C is Contents. D is Dollars from tenants. E is Extra living costs."
+     "text": "A is the Abode, B is Beside it, C is the Contents. D is Dollars from tenants. E is Extra living costs.",
+     "say": "A is the Abode, B is Beside it, C is the Contents. D is Dollars from tenants. E is Extra living costs."
     },
     {
      "text": "Watch out: in homeowners forms, D is Loss of Use and E is Personal Liability.",
@@ -1015,8 +1015,8 @@
    ],
    "beats": [
     {
-     "text": "Next, pick a form. Named perils work like a guest list: not on the list, not covered.",
-     "say": "Next, pick a form. Named perils work like a guest list: not on the list, not covered.",
+     "text": "Next, pick a form. In the dwelling forms, named perils work like a guest list: not on the list, not covered. Fire is on the list. Theft? Not on the list.",
+     "say": "Next, pick a form. In the dwelling forms, named perils work like a guest list: not on the list, not covered. Fire is on the list. Theft? Not on the list.",
      "hl": "bouncer"
     },
     {
@@ -1030,8 +1030,8 @@
      "hl": "list2"
     },
     {
-     "text": "DP-3, the Special Form, flips it for the buildings: any direct physical loss gets in, unless it's excluded. Contents stay on a named list.",
-     "say": "D P three, the Special Form, flips it for the buildings: any direct physical loss gets in, unless it's excluded. Contents stay on a named list.",
+     "text": "DP-3, the Special Form, flips it for the buildings: any direct physical loss gets in, unless it's excluded. That's open perils, on Coverages A and B. Contents, Coverage C, stay on a named list.",
+     "say": "D P three, the Special Form, flips it for the buildings: any direct physical loss gets in, unless it's excluded. That's open perils, on Coverages A and B. Contents, Coverage C, stay on a named list.",
      "hl": "house3"
     },
     {
@@ -1178,9 +1178,9 @@
    "type": "quiz",
    "q": "The Millers choose the 2002 DP-3. Which coverages does it insure on an open-perils basis?",
    "choices": [
-    "Coverages A, B and C",
-    "Coverages A and B only",
-    "Coverage A only"
+    "Dwelling, other structures and personal property",
+    "Dwelling and other structures only",
+    "Dwelling only"
    ],
    "answer": 1,
    "why": "The DP-3 covers the dwelling (A) and other structures (B) for direct physical loss unless excluded. Personal property (C) gets named perils only.",
@@ -1686,19 +1686,19 @@
      "show": 1
     },
     {
-     "text": "Here's the gap: DP-2 and DP-3 cover damage by burglars, but not theft.",
-     "say": "Here's the gap: D P two and D P three cover damage by burglars, but not theft.",
+     "text": "Here's the gap. In the DP-2 and DP-3, damage by burglars is a named personal property peril. It covers the damage burglars do to covered property, but not theft.",
+     "say": "Here's the gap. In the D P two and D P three, damage by burglars is a named personal property peril. It covers the damage burglars do to covered property, but not theft.",
      "show": 2
     },
     {
-     "text": "The Millers' policy pays for the burglar's crowbar dents, not his loot.",
-     "say": "The Millers' policy pays for the burglar's crowbar dents, not his loot.",
+     "text": "The Millers' policy pays for the burglar's crowbar dents, not his loot. With no theft endorsement, the TV is not covered.",
+     "say": "The Millers' policy pays for the burglar's crowbar dents, not his loot. With no theft endorsement, the T V is not covered.",
      "show": 3,
      "hl": "pried"
     },
     {
-     "text": "Watch out: homeowners forms list theft. Dwelling forms add it by endorsement.",
-     "say": "Watch out: homeowners forms list theft. Dwelling forms add it by endorsement.",
+     "text": "Watch out: homeowners forms list theft. Dwelling forms add it by endorsement, picked by who lives there.",
+     "say": "Watch out: homeowners forms list theft. Dwelling forms add it by endorsement, picked by who lives there.",
      "show": 4
     }
    ]
@@ -1817,8 +1817,8 @@
      "say": "The Millers want theft coverage for their things in the rental, where they don't live."
     },
     {
-     "text": "Theft endorsements go by who lives there. Broad Theft: the named insured lives there, as owner or tenant. Limited Theft: the named insured doesn't.",
-     "say": "Theft endorsements go by who lives there. Broad Theft: the named insured lives there, as owner or tenant. Limited Theft: the named insured doesn't.",
+     "text": "Theft endorsements go by who lives there. Broad Theft: for a named insured who lives there, as owner or tenant. Limited Theft: for a named insured who doesn't.",
+     "say": "Theft endorsements go by who lives there. Broad Theft: for a named insured who lives there, as owner or tenant. Limited Theft: for a named insured who doesn't.",
      "voice": "dana"
     },
     {
@@ -2065,8 +2065,8 @@
    ],
    "reveal": [
     {
-     "text": "Pick by who lives there, not by price. Rosa lives there, but the named insureds, the Millers, don't.",
-     "say": "Pick by who lives there, not by price. Rosa lives there, but the named insureds, the Millers, don't."
+     "text": "Pick by who lives there, not by price. Rosa does live there, but the named insureds, the Millers, don't.",
+     "say": "Pick by who lives there, not by price. Rosa does live there, but the named insureds, the Millers, don't."
     },
     {
      "text": "Broad Theft can add off-premises coverage, but only with on-premises coverage, at a limit no higher.",
@@ -2407,7 +2407,7 @@
      "why": "Water that backs up through sewers or drains is excluded."
     },
     {
-     "text": "Wind tears shingles off the roof",
+     "text": "Wind rips shingles off the roof",
      "bin": 0,
      "why": "Not a general exclusion, and the DP-3 covers the house for direct physical loss unless excluded."
     },
@@ -2569,8 +2569,8 @@
    ],
    "beats": [
     {
-     "text": "Three more endorsements. Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown, applied pro rata over the policy period.",
-     "say": "Three more endorsements. Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown, applied pro rata over the policy period.",
+     "text": "Three more endorsements. Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown in the policy. That percentage is applied pro rata over the policy period.",
+     "say": "Three more endorsements. Automatic Increase in Insurance raises the Coverage A and B limits each year by the percentage shown in the policy. That percentage is applied pro rata over the policy period.",
      "hl": "stairs"
     },
     {
@@ -2656,18 +2656,18 @@
    ],
    "beats": [
     {
-     "text": "What a year! DP-1 has a short list and pays actual cash value. DP-2 has a long list. DP-3 covers the buildings on open perils.",
-     "say": "What a year! D P one has a short list and pays actual cash value. D P two has a long list. D P three covers the buildings on open perils.",
-     "show": 2
+     "text": "What a year! DP-1 has a short named list and pays actual cash value. DP-2 has a long list: 16 named perils. DP-3 covers the buildings, Coverages A and B, on open perils.",
+     "say": "What a year! D P one has a short named list and pays actual cash value. D P two has a long list: sixteen named perils. D P three covers the buildings, Coverages A and B, on open perils.",
+     "show": 1
     },
     {
-     "text": "D pays lost rent, and E your own extra living costs. Liability needs the PLS, and theft an endorsement picked by who lives there.",
-     "say": "D pays lost rent, and E your own extra living costs. Liability needs the P L S, and theft an endorsement picked by who lives there.",
-     "show": 4
+     "text": "In the dwelling forms, D is fair rental value: it pays lost rent. E is additional living expense: your own extra living costs. And the DP forms have no liability: add the PLS for Coverages L and M.",
+     "say": "In the dwelling forms, D is fair rental value: it pays lost rent. E is additional living expense: your own extra living costs. And the D P forms have no liability: add the P L S for Coverages L and M.",
+     "show": 3
     },
     {
-     "text": "And a fire that follows an earthquake or flood is covered.",
-     "say": "And a fire that follows an earthquake or flood is covered.",
+     "text": "Theft comes by endorsement: Broad Theft for a named insured who lives there, otherwise Limited Theft. Earth movement, flood, sewer or drain backup, and subsurface water are excluded, but a fire that follows an earthquake or flood is covered.",
+     "say": "Theft comes by endorsement: Broad Theft for a named insured who lives there, otherwise Limited Theft. Earth movement, flood, sewer or drain backup, and subsurface water are excluded, but a fire that follows an earthquake or flood is covered.",
      "show": 5
     },
     {
@@ -2709,5 +2709,8 @@
   "Card \"DP-1 / DP-2 / DP-3 perils\"",
   "Memory aids mn_prop-09, mn_prop-10, mn_prop-11, mn_prop-12, mn_prop-22; confusion pair cp_personal-11",
   "Visual summary vs_personal-02; match set ms_personal-03"
- ]
+ ],
+ "clipsay": {
+  "s3.p0": "A: Dwelling. Coverage A, Dwelling: the house and the structures attached to it. \"A\" for Abode."
+ }
 }

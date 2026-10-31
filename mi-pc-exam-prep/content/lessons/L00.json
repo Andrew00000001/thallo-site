@@ -22,7 +22,7 @@
     {"p": "certificate", "x": 80, "y": 13, "h": 12, "opt": {"title": "LICENSE"}, "at": 1, "cue": "licensed", "anim": "pop", "sfx": "ding"}
    ],
    "beats": [
-    {"text": "This is Dana, before she was anyone's agent. First, she must pass the same exam you're facing.", "say": "This is Dana, before she was anyone's agent. First, she must pass the same exam you're facing."},
+    {"text": "This is Dana, before she was anyone's agent. To become one, she must pass the same exam you're facing.", "say": "This is Dana, before she was anyone's agent. To become one, she must pass the same exam you're facing."},
     {"text": "Me, a licensed agent? Let's do this!", "say": "Me, a licensed agent? Let's do this!", "voice": "dana"}
    ]
   },
@@ -49,8 +49,8 @@
    ],
    "beats": [
     {"text": "Dana's first lesson: the cut score, the passing line you must reach.", "say": "Dana's first lesson: the cut score, the passing line you must reach.", "show": 2, "hl": "cut"},
-    {"text": "Her exam, PSI Series 16-81, has 150 scored items and 2.5 hours. The cut score is 74%.", "say": "Her exam, P S I Series sixteen eighty-one, has one hundred fifty scored items and two point five hours. The cut score is seventy-four percent.", "show": 3},
-    {"text": "That's 111 right answers. She can miss up to 39 and still pass.", "say": "That's one hundred eleven right answers. She can miss up to thirty-nine and still pass.", "show": 4, "hl": ["right", "miss"]}
+    {"text": "It's like the height line at a ride: reach it and you're on. Her exam, PSI Series 16-81, has 150 scored items and 2.5 hours. The cut score is 74%.", "say": "It's like the height line at a ride: reach it and you're on. Her exam, P S I Series sixteen eighty-one, has one hundred fifty scored items and two point five hours. The cut score is seventy-four percent.", "show": 3},
+    {"text": "That's 111 right answers. She can miss up to 39 and still pass. Passing depends on how many you get right. A blank can't be right, so answer every item.", "say": "That's one hundred eleven right answers. She can miss up to thirty-nine and still pass. Passing depends on how many you get right. A blank can't be right, so answer every item.", "show": 4, "hl": ["right", "miss"]}
    ]
   },
   {
@@ -85,15 +85,15 @@
     {"on": "cpp", "label": "Commercial Package Policy (CPP)", "text": "12% of the exam, or 18 items."},
     {"on": "gen", "label": "General Insurance", "text": "10.5% of the exam, or 16 items."},
     {"on": "reg", "label": "Insurance Regulation", "text": "10% of the exam, or 15 items."},
-    {"on": "small", "label": "The small four", "text": "Businessowners 6% (9 items), Workers' Comp 5% (8), Other Coverages 4% (6), Dwelling 2.5% (4). Together: 17.5%, or 27 items."}
+    {"on": "small", "label": "The small four", "text": "Businessowners 6% (9 items), Workers' Comp 5% (8 items), Other Coverages 4% (6 items), Dwelling 2.5% (4 items). Together: 17.5%, or 27 items."}
    ],
    "beats": [
     {"text": "The outline splits the 150 items into ten sections. Which carry the most?", "say": "The outline splits the one hundred fifty items into ten sections. Which carry the most?"},
     {"text": "Tap each glowing picture.", "say": "Tap each glowing picture."}
    ],
    "reveal": [
-    {"text": "Basics is the biggest: 20%, or 30 items. Homeowners and Auto tie for second, at 22 each.", "say": "Basics is the biggest: twenty percent, or thirty items. Homeowners and Auto tie for second, at twenty-two each."},
-    {"text": "The four smallest still add up to 27 items. Don't skip them.", "say": "The four smallest still add up to twenty-seven items. Don't skip them."}
+    {"text": "Basics is the biggest: 20%, or 30 items. Homeowners and Auto tie for second, at 22 each. Next come the Commercial Package Policy at 18 items, General Insurance at 16 and Regulation at 15.", "say": "Basics is the biggest: twenty percent, or thirty items. Homeowners and Auto tie for second, at twenty-two each. Next come the Commercial Package Policy at eighteen items, General Insurance at sixteen and Regulation at fifteen."},
+    {"text": "The four smallest, Businessowners, Workers' Comp, Other Coverages and Dwelling, still add up to 27 items. Don't skip them.", "say": "The four smallest, Businessowners, Workers' Comp, Other Coverages and Dwelling, still add up to twenty-seven items. Don't skip them."}
    ]
   },
   {
@@ -133,7 +133,7 @@
     {
      "label": "Ask for a waiver: her real estate license",
      "ok": false,
-     "fail": "Real estate isn't on the waiver list. CPCU is (ask in writing, granted before scheduling), and so is a producer license in the past 12 months.",
+     "fail": "Real estate isn't on the waiver list. A producer license in the past 12 months is. So is CPCU, if requested in writing and granted before scheduling.",
      "beats": [
       {"text": "Sorry, real estate isn't on the waiver list.", "say": "Sorry, real estate isn't on the waiver list.", "voice": "regulator"},
       {"text": "Nice try. A designation like CPCU would be.", "say": "Nice try. A designation like C P C U would be."}
@@ -190,8 +190,8 @@
    ],
    "beats": [
     {"text": "Next, Dana applies online through NIPR. In Michigan, a producer, meaning an agent, pays $10 to apply, plus $5 for the transaction.", "say": "Next, Dana applies online through N I P R. In Michigan, a producer, meaning an agent, pays ten dollars to apply, plus five dollars for the transaction.", "hl": "app"},
-    {"text": "She must be at least 18. Picture a rearview mirror showing the 10 years before she applies: a felony conviction in it means no license. A felony involving violence, criminal sexual conduct or financial crime never leaves it.", "say": "She must be at least eighteen. Picture a rearview mirror showing the ten years before she applies: a felony conviction in it means no license. A felony involving violence, criminal sexual conduct or financial crime never leaves it.", "hl": "mir"},
-    {"text": "Her application is good for 180 days: she must pass inside that window. Then she registers with PSI: $41, not refundable.", "say": "Her application is good for one hundred eighty days: she must pass inside that window. Then she registers with P S I: forty-one dollars, not refundable.", "hl": ["c180", "psi"]},
+    {"text": "She must be at least 18. Picture a rearview mirror showing the 10 years before she applies: a felony conviction in it means no license. A felony involving violence, criminal sexual conduct or financial crime never leaves it, no matter how long ago.", "say": "She must be at least eighteen. Picture a rearview mirror showing the ten years before she applies: a felony conviction in it means no license. A felony involving violence, criminal sexual conduct or financial crime never leaves it, no matter how long ago.", "hl": "mir"},
+    {"text": "Her application is good for 180 days: she must pass inside that window. Then she registers with PSI: $41, not refundable. Fees may change, PSI says.", "say": "Her application is good for one hundred eighty days: she must pass inside that window. Then she registers with P S I: forty-one dollars, not refundable. Fees may change, P S I says.", "hl": ["c180", "psi"]},
     {"text": "Cancel or reschedule at least 2 days ahead, or lose the fee. A passing score stays valid for 12 months.", "say": "Cancel or reschedule at least two days ahead, or lose the fee. A passing score stays valid for twelve months.", "hl": ["c2", "c12"]}
    ]
   },
@@ -232,9 +232,9 @@
    ],
    "beats": [
     {"text": "Seat booked, Dana studies with this app. Every day, she taps Start today's session first.", "say": "Seat booked, Dana studies with this app. Every day, she taps Start today's session first.", "hl": "today"},
-    {"text": "Misses come back next session; right answers, after growing gaps. Then she adds new material, roughly by weight.", "say": "Misses come back next session; right answers, after growing gaps. Then she adds new material, roughly by weight."},
-    {"text": "She answers from memory, not by rereading: in Practice, Recall first hides the choices.", "say": "She answers from memory, not by rereading: in Practice, Recall first hides the choices.", "hl": "recall"},
-    {"text": "She mixes topics with All sections, weighted like the exam. With Rate how sure I am on, misses she marked Sure come back first.", "say": "She mixes topics with All sections, weighted like the exam. With Rate how sure I am on, misses she marked Sure come back first.", "hl": ["mix", "sure"]}
+    {"text": "Questions she misses come back next session, and questions she gets right come back after growing gaps. Then she adds new material, roughly by weight.", "say": "Questions she misses come back next session, and questions she gets right come back after growing gaps. Then she adds new material, roughly by weight."},
+    {"text": "She answers from memory, not by rereading: on the Practice tab, she turns on Recall first, which hides the choices.", "say": "She answers from memory, not by rereading: on the Practice tab, she turns on Recall first, which hides the choices.", "hl": "recall"},
+    {"text": "She mixes topics with All sections, weighted like the exam. She keeps Rate how sure I am turned on: missed questions she marked Sure come back first.", "say": "She mixes topics with All sections, weighted like the exam. She keeps Rate how sure I am turned on: missed questions she marked Sure come back first.", "hl": ["mix", "sure"]}
    ]
   },
   {
@@ -416,7 +416,7 @@
    "beats": [
     {"text": "Her exam may include experimental items: questions PSI is trying out. They aren't scored, but they use exam time.", "say": "Her exam may include experimental items: questions P S I is trying out. They aren't scored, but they use exam time.", "show": 2, "hl": "item"},
     {"text": "Like a test slice Tony adds to your order: not on the bill, but it takes time to eat.", "say": "Like a test slice Tony adds to your order: not on the bill, but it takes time to eat.", "show": 3},
-    {"text": "There may be one to ten. Unlike Tony's slice, they may not stand out, so treat every item as scored.", "say": "There may be one to ten. Unlike Tony's slice, they may not stand out, so treat every item as scored.", "show": 4}
+    {"text": "There may be one to ten, generally about 10% of the questions. Unlike Tony's slice, they may not stand out: PSI's bulletin doesn't say they're marked. So treat every item as scored.", "say": "There may be one to ten, generally about ten percent of the questions. Unlike Tony's slice, they may not stand out: P S I's bulletin doesn't say they're marked. So treat every item as scored.", "show": 4}
    ]
   },
   {
@@ -437,7 +437,7 @@
     {"p": "label", "text": "50 min left", "x": 102, "y": 34, "size": 3.8, "at": 2, "cue": "120"},
     {"p": "label", "text": "about 120 done", "x": 102, "y": 47, "size": 3.8, "bold": true, "color": "blue", "at": 2, "cue": "120"},
     {"id": "cp3", "p": "circle", "x": 142, "y": 40, "r": 2.5, "fill": "green", "at": 2, "cue": "165"},
-    {"p": "label", "text": "about 12 min left: go back", "x": 141, "y": 32.5, "size": 3.8, "w": 25, "bold": true, "color": "green", "at": 2, "cue": "12"},
+    {"p": "label", "text": "about 12 min left: go back", "x": 141, "y": 32.5, "size": 3.8, "w": 25, "bold": true, "color": "green", "at": 2, "cue": "leaves"},
     {"p": "label", "text": "about 165 done", "x": 141, "y": 47, "size": 3.8, "bold": true, "color": "blue", "at": 2, "cue": "165"},
     {"id": "dana", "p": "person", "x": 30, "y": 57, "h": 20, "opt": {"who": "dana", "pose": "walk", "mood": "happy"}, "at": 1, "move": {"to": [124, 57], "at": 2, "cue": "back", "dur": 2.5, "sfx": "whoosh"}}
    ],
@@ -460,7 +460,7 @@
     {"id": "clock", "p": "clock", "x": 130, "y": 24, "h": 20, "opt": {"h": 9, "m": 40}, "loop": "pulse"}
    ],
    "beats": [
-    {"text": "Dana reads the last line first, to see what's asked. It's an EXCEPT item: three choices fit, and she needs the one that doesn't.", "say": "Dana reads the last line first, to see what's asked. It's an except item: three choices fit, and she needs the one that doesn't."},
+    {"text": "On question 37, Dana reads the last line first, to see what's asked: all of the following EXCEPT. Three choices fit, and she needs the one that doesn't.", "say": "On question thirty-seven, Dana reads the last line first, to see what's asked: all of the following except. Three choices fit, and she needs the one that doesn't."},
     {"text": "Ugh. I've ruled out A and C. B or D? The clock is ticking!", "say": "Ugh. I've ruled out A and C. B or D? The clock is ticking!", "voice": "dana"}
    ],
    "options": [
@@ -469,7 +469,7 @@
      "ok": false,
      "fail": "Never leave a blank: passing depends on how many you get right, and a blank can't be right.",
      "beats": [
-      {"text": "Time runs out before she gets back. A blank can't be right: a sure miss.", "say": "Time runs out before she gets back. A blank can't be right: a sure miss."}
+      {"text": "Time runs out before she gets back. A blank can't be right: it's a sure miss.", "say": "Time runs out before she gets back. A blank can't be right: it's a sure miss."}
      ],
      "draw": [
       {"id": "scr", "p": "computer", "x": 34, "y": 26, "h": 26, "opt": {"screen": "lines"}},
@@ -524,7 +524,7 @@
    "options": ["Smart move", "Trap"],
    "cards": [
     {"text": "Dana's state driver's license expired last month. It's the only ID she brings.", "answer": 1, "why": "PSI requires one valid, unexpired, government-issued ID with photo and signature. Without proper ID, you lose your fee.", "draw": [{"p": "idcard", "x": 50, "y": 24, "h": 28, "opt": {"title": "DRIVER LICENSE"}}, {"p": "label", "text": "Expired last month", "x": 50, "y": 48, "size": 6.5, "bold": true, "color": "red"}]},
-    {"text": "On an EXCEPT item, she picks the first choice that fits the question.", "answer": 1, "why": "In an EXCEPT item, three choices fit the question. You want the one that doesn't. Watch for NOT items the same way.", "draw": [{"p": "label", "text": "All of the following EXCEPT...", "x": 50, "y": 28, "size": 8, "w": 90, "box": true}]},
+    {"text": "When a question says \"all of the following EXCEPT,\" she picks the first choice that fits.", "answer": 1, "why": "When it says \"all of the following EXCEPT,\" three choices fit. You want the one that doesn't. The word NOT works the same way.", "draw": [{"p": "label", "text": "All of the following EXCEPT...", "x": 50, "y": 28, "size": 8, "w": 90, "box": true}]},
     {"text": "She takes the full on-screen tutorial, though she's worried about time.", "answer": 0, "why": "The tutorial, up to 15 minutes, doesn't count toward exam time. Its sample questions let her practice.", "draw": [{"p": "icon", "name": "monitor-play", "x": 50, "y": 24, "h": 28, "color": "blue"}, {"p": "label", "text": "Tutorial", "x": 50, "y": 48, "size": 6.5, "bold": true}]},
     {"text": "She brings a valid US passport in the name she registered under.", "answer": 0, "why": "A valid US passport is an accepted government-issued ID with photo and signature.", "draw": [{"p": "idcard", "x": 50, "y": 28, "h": 30, "opt": {"title": "PASSPORT", "color": "blue"}}]},
     {"text": "She brings a bank card with her photo and signature as her ID.", "answer": 1, "why": "A bank card isn't government-issued. PSI needs a valid, unexpired, government-issued ID with photo and signature.", "draw": [{"p": "creditcard", "x": 50, "y": 28, "h": 26}]},
@@ -534,7 +534,7 @@
     {"text": "Your turn: smart move or trap? Swipe through Dana's exam day.", "say": "Your turn: smart move or trap? Swipe through Dana's exam day."}
    ],
    "reveal": [
-    {"text": "Only a valid government photo ID with your signature, in your registered name, gets you in. Use the tutorial; read EXCEPT items carefully.", "say": "Only a valid government photo I D with your signature, in your registered name, gets you in. Use the tutorial; read except items carefully."}
+    {"text": "Only a valid government photo ID with your signature, in your registered name, gets you in. Use the tutorial. When a question says all of the following EXCEPT, pick the one that doesn't fit.", "say": "Only a valid government photo I D with your signature, in your registered name, gets you in. Use the tutorial. When a question says all of the following except, pick the one that doesn't fit."}
    ]
   },
   {
@@ -554,8 +554,8 @@
     {"p": "sparkle", "x": 66, "y": 10, "h": 10}
    ],
    "beats": [
-    {"text": "And Dana? She passed! Remember: 150 items, 74% to pass, Basics weighs most.", "say": "And Dana? She passed! Remember: one hundred fifty items, seventy-four percent to pass, Basics weighs most.", "show": 2},
-    {"text": "Course first, pass within 180 days of applying, arrive 30 minutes early with valid ID, and never leave a blank.", "say": "Course first, pass within one hundred eighty days of applying, arrive thirty minutes early with valid I D, and never leave a blank.", "show": 5},
+    {"text": "And Dana? She passed! Remember: 150 scored items in 2.5 hours, and 74%, or 111 right, to pass. Basics is biggest, with Homeowners and Auto next, so study by weight.", "say": "And Dana? She passed! Remember: one hundred fifty scored items in two point five hours, and seventy-four percent, or one hundred eleven right, to pass. Basics is biggest, with Homeowners and Auto next, so study by weight.", "show": 2},
+    {"text": "Course first: all 40 hours. Pass within 180 days of applying. Arrive 30 minutes early with one valid government photo ID. Stuck? Eliminate, guess, note the number, move on. And never leave a blank.", "say": "Course first: all forty hours. Pass within one hundred eighty days of applying. Arrive thirty minutes early with one valid government photo I D. Stuck? Eliminate, guess, note the number, move on. And never leave a blank.", "show": 5},
     {"text": "Now can we eat the pizza?", "say": "Now can we eat the pizza?", "voice": "tony", "show": 5}
    ]
   }
@@ -572,5 +572,8 @@
   "MCL 500.1201, 500.1204(1),(2), 500.1204a(1)(b), 500.1204c(2), 500.1205(1), 500.1239(1)(d),(e), 500.1239(2)",
   "Study guide: How to study (Roediger & Karpicke 2006; Cepeda et al. 2006; Butler et al. 2011)",
   "Memory hook mn-mn_reg-12 (10-year rearview mirror; watch out: notes during the exam)"
- ]
+ ],
+ "clipsay": {
+  "s7.ask": "When should Dana get there? One: Walk in, right at nine. Why wait around? Two: Get there thirty minutes early. Three: Oversleep, then email P S I to reschedule."
+ }
 }

@@ -124,6 +124,11 @@
 .st-choice:disabled,.gx-opt:disabled{cursor:default}
 .st-why,.gx-why{font-size:.92em;background:color-mix(in srgb, var(--mk-yellow) 14%, var(--mk-paper));border:1.5px dashed color-mix(in srgb, var(--mk-ink) 40%, transparent);border-radius:10px;padding:.5em .8em}
 .gx-why .btn{margin-left:.5em}
+.gx-hear{appearance:none;display:inline-grid;place-items:center;width:2.1em;height:2.1em;margin-left:.45em;vertical-align:middle;border-radius:50%;border:1.5px solid var(--mk-blue);background:none;color:var(--mk-blue);cursor:pointer;padding:0;flex:0 0 auto}
+.gx-hear:hover{background:color-mix(in srgb,var(--mk-blue) 12%,transparent)}
+.gx-hear:focus-visible{outline:3px solid var(--mk-blue);outline-offset:2px}
+.gx-hear .ic{width:1.1em;height:1.1em}
+.gx-bin h4 .mono{opacity:.6;font-size:.8em;margin-right:.2em}
 .st-skip{appearance:none;background:none;border:0;color:var(--mk-blue);text-decoration:underline;font:inherit;font-size:.85em;cursor:pointer;align-self:flex-start;padding:.3em 0}
 .gx-hint{margin:0;color:var(--mk-muted);font-size:.9em}
 .gx-row{display:flex;flex-wrap:wrap;gap:.6em;align-items:center;justify-content:space-between}
@@ -221,3 +226,5 @@
 .gx-fail p,.gx-win p{margin:0;flex:1 1 18em}
 .gx-failword,.gx-winword{font-family:var(--f-hand);font-size:2em;line-height:1;color:var(--mk-red);transform:rotate(-6deg);letter-spacing:.04em}
 .gx-winword{color:var(--mk-green);font-size:1.6em}
+/* items already sorted sit inside their box; a tap on one counts as a tap on the box (a disabled button would swallow it) */
+.gx-bin .gx-chip:disabled{pointer-events:none}

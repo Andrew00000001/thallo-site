@@ -95,8 +95,8 @@
      "voice": "sam"
     },
     {
-     "text": "Six, actually. Homeowners is 15% of your exam: 22 items. Amounts are from the 2011 forms unless another edition is named; the 2022 forms changed some.",
-     "say": "Six, actually. Homeowners is fifteen percent of your exam: twenty two items. Amounts are from the twenty eleven forms unless another edition is named; the twenty twenty two forms changed some."
+     "text": "Six, actually. Homeowners is 15% of your exam: 22 items. Amounts are from the 2011 forms unless another edition is named; the 2022 forms changed some. For HO-2, HO-5 and HO-8, we use the 2000 edition.",
+     "say": "Six, actually. Homeowners is fifteen percent of your exam: twenty two items. Amounts are from the twenty eleven forms unless another edition is named; the twenty twenty two forms changed some. For H O two, H O five and H O eight, we use the two thousand edition."
     }
    ]
   },
@@ -269,8 +269,8 @@
      "show": 3
     },
     {
-     "text": "Watch out: open isn't everything. Exclusions still apply.",
-     "say": "Watch out: open isn't everything. Exclusions still apply.",
+     "text": "Watch out: open isn't everything. Exclusions, like flood, still apply.",
+     "say": "Watch out: open isn't everything. Exclusions, like flood, still apply.",
      "show": 4,
      "hl": "flood"
     }
@@ -483,8 +483,8 @@
      "say": "Owners living in their one to four family home, like the Millers, start with three forms."
     },
     {
-     "text": "HO-2, the Broad Form: 16 named perils on the house, other structures and belongings.",
-     "say": "H O two, the Broad Form: sixteen named perils on the house, other structures and belongings."
+     "text": "HO-2, the Broad Form: 16 named perils on the house, other structures and belongings. Those are Coverages A, B and C.",
+     "say": "H O two, the Broad Form: sixteen named perils on the house, other structures and belongings. Those are Coverages A, B and C."
     },
     {
      "text": "HO-3, the Special Form: open perils on the house and other structures. Belongings get those same 16 named perils, including theft.",
@@ -713,7 +713,7 @@
     {
      "text": "A diamond ring slips off at the lake and is lost. No theft, yet this form can cover it.",
      "answer": 2,
-     "why": "HO-5: open perils on belongings, so a lost ring can be covered, up to its jewelry limit (2000 form). Losing isn't named in HO-2 or HO-3.",
+     "why": "Under the 2000 HO-5, belongings get open perils, so a lost ring can be covered, up to its jewelry limit. Losing isn't named in HO-2 or HO-3.",
      "draw": [
       {
        "p": "lake",
@@ -840,18 +840,18 @@
    ],
    "beats": [
     {
-     "text": "Number peg: 2 Broad, a named list. 3 Special, the house is open. 4, renters: the four walls aren't yours. 5, high five: open on everything. 6, the condo unit. 8, the eight-track: older homes.",
-     "say": "Number peg: two Broad, a named list. Three Special, the house is open. Four, renters: the four walls aren't yours. Five, high five: open on everything. Six, the condo unit. Eight, the eight track: older homes.",
+     "text": "Number peg: 2 Broad, a named list. 3 Special, the house is open. 4, renters: the four walls aren't yours, so only Coverages C and D, no A or B. 5, high five: open on everything. 6, the condo unit. 8, the eight-track: older homes.",
+     "say": "Number peg: two Broad, a named list. Three Special, the house is open. Four, renters: the four walls aren't yours, so only Coverages C and D, no A or B. Five, high five: open on everything. Six, the condo unit. Eight, the eight track: older homes.",
      "show": 1
     },
     {
-     "text": "Rosa's grandma owns a condo in Traverse City. Her HO-6 covers her unit's fixtures and improvements, not the whole building.",
-     "say": "Rosa's grandma owns a condo in Traverse City. Her H O six covers her unit's fixtures and improvements, not the whole building.",
+     "text": "Rosa's grandma owns a condo in Traverse City. HO-6 is for condo owners and co-op shareholders. Its Coverage A covers her unit's alterations, appliances, fixtures and improvements, not the whole building.",
+     "say": "Rosa's grandma owns a condo in Traverse City. H O six is for condo owners and co-op shareholders. Its Coverage A covers her unit's alterations, appliances, fixtures and improvements, not the whole building.",
      "show": 2
     },
     {
-     "text": "HO-8, from the 2000 edition, fits older homes whose replacement cost far exceeds market value. Theft: on the premises only, up to $1,000 per loss.",
-     "say": "H O eight, from the two thousand edition, fits older homes whose replacement cost far exceeds market value. Theft: on the premises only, up to one thousand dollars per loss.",
+     "text": "HO-8, from the 2000 edition, fits older homes whose replacement cost far exceeds market value. It covers 10 named perils. Theft: on the premises only, up to $1,000 per loss.",
+     "say": "H O eight, from the two thousand edition, fits older homes whose replacement cost far exceeds market value. It covers ten named perils. Theft: on the premises only, up to one thousand dollars per loss.",
      "show": 3
     }
    ]
@@ -1364,7 +1364,7 @@
      "h": 9,
      "over": true,
      "loop": "flicker",
-     "cue": "covered",
+     "cue": "fire",
      "out": 2
     },
     {
@@ -1505,19 +1505,19 @@
    ],
    "beats": [
     {
-     "text": "Coverage D, loss of use. Say a covered fire wrecks the Millers' kitchen.",
-     "say": "Coverage D, loss of use. Say a covered fire wrecks the Millers' kitchen.",
+     "text": "Coverage D, loss of use. It pays the extra cost of living elsewhere after a covered loss. Say a covered fire wrecks the Millers' kitchen.",
+     "say": "Coverage D, loss of use. It pays the extra cost of living elsewhere after a covered loss. Say a covered fire wrecks the Millers' kitchen.",
      "show": 2
     },
     {
-     "text": "D pays additional living expense: hotel and restaurant bills above normal. The same limit covers fair rental value, if part is rented out.",
-     "say": "D pays additional living expense: hotel and restaurant bills above normal. The same limit covers fair rental value, if part is rented out.",
+     "text": "While it's rebuilt, D pays additional living expense: hotel and restaurant bills above normal. The same limit covers fair rental value, if part is rented out.",
+     "say": "While it's rebuilt, D pays additional living expense: hotel and restaurant bills above normal. The same limit covers fair rental value, if part is rented out.",
      "show": 3,
      "hl": "hotel"
     },
     {
-     "text": "Say a covered fire next door, and the city bars the Millers from their home. Civil authority: up to 2 weeks.",
-     "say": "Say a covered fire next door, and the city bars the Millers from their home. Civil authority: up to two weeks.",
+     "text": "Say a covered fire next door, and the city bars the Millers from their home. Civil authority: up to 2 weeks. One limit covers all of D.",
+     "say": "Say a covered fire next door, and the city bars the Millers from their home. Civil authority: up to two weeks. One limit covers all of D.",
      "show": 4,
      "hl": "cal"
     }
@@ -1903,8 +1903,8 @@
      "say": "Kitchen cookie jar, cash: two hundred dollars. Hall desk: securities, deeds, passports and tickets, one thousand five hundred dollars. Garage: boat, trailer and motor, same."
     },
     {
-     "text": "Now the trap. Bedroom jewelry box: $1,500, but that cap is for theft only. Basement gun safe and dining-room silver: $2,500 each, also theft only.",
-     "say": "Now the trap. Bedroom jewelry box: one thousand five hundred dollars, but that cap is for theft only. Basement gun safe and dining-room silver: two thousand five hundred dollars each, also theft only."
+     "text": "Now the trap. Bedroom jewelry box: $1,500 for jewelry, watches and furs, but that cap is for theft only. Firearms in the basement gun safe, and the dining-room silverware: $2,500 each, also theft only.",
+     "say": "Now the trap. Bedroom jewelry box: one thousand five hundred dollars for jewelry, watches and furs, but that cap is for theft only. Firearms in the basement gun safe, and the dining-room silverware: two thousand five hundred dollars each, also theft only."
     },
     {
      "text": "Home office: $2,500 of business property at home, $1,500 away. None of these adds to Coverage C.",
@@ -2390,7 +2390,7 @@
      "bold": true,
      "w": 48,
      "at": 2,
-     "cue": "removal"
+     "cue": "loss"
     },
     {
      "p": "label",
@@ -2455,7 +2455,7 @@
      "bold": true,
      "w": 46,
      "at": 4,
-     "cue": "additional"
+     "cue": "insurance"
     },
     {
      "p": "label",
@@ -2470,8 +2470,8 @@
    ],
    "beats": [
     {
-     "text": "Now the yard, under the 2011 HO-3. Trees, shrubs and plants: up to 5% of A, $500 per tree.",
-     "say": "Now the yard, under the twenty eleven H O three. Trees, shrubs and plants: up to five percent of A, five hundred dollars per tree.",
+     "text": "Now the yard, under the 2011 HO-3. Its additional coverages include trees, shrubs and plants: up to 5% of A, $500 per tree.",
+     "say": "Now the yard, under the twenty eleven H O three. Its additional coverages include trees, shrubs and plants: up to five percent of A, five hundred dollars per tree.",
      "hl": "tree"
     },
     {
@@ -2479,8 +2479,8 @@
      "say": "Their perils include theft and vandalism, but not windstorm."
     },
     {
-     "text": "Watch out: tree removal is different. It pays to remove trees felled by windstorm, hail, or weight of ice, snow or sleet.",
-     "say": "Watch out: tree removal is different. It pays to remove trees felled by windstorm, hail, or weight of ice, snow or sleet.",
+     "text": "Watch out: tree removal, another additional coverage, is different. It pays to remove trees felled by windstorm, hail, or weight of ice, snow or sleet. Up to $1,000 per loss, $500 per tree.",
+     "say": "Watch out: tree removal, another additional coverage, is different. It pays to remove trees felled by windstorm, hail, or weight of ice, snow or sleet. Up to one thousand dollars per loss, five hundred dollars per tree.",
      "hl": "fallen"
     },
     {
@@ -2489,8 +2489,8 @@
      "hl": "car"
     },
     {
-     "text": "Ordinance or law: after a covered fire, the city may require rebuilding to today's code. Up to 10% of A pays the extra cost, as additional insurance.",
-     "say": "Ordinance or law: after a covered fire, the city may require rebuilding to today's code. Up to ten percent of A pays the extra cost, as additional insurance.",
+     "text": "Ordinance or law is also an additional coverage. After a covered fire, the city may require rebuilding to today's code. Up to 10% of A pays the extra cost, as additional insurance.",
+     "say": "Ordinance or law is also an additional coverage. After a covered fire, the city may require rebuilding to today's code. Up to ten percent of A pays the extra cost, as additional insurance.",
      "hl": "burnt"
     }
    ]
@@ -2838,13 +2838,13 @@
    ],
    "beats": [
     {
-     "text": "What a fall! HO-3 opens the house, HO-5 everything, and renters get C and D.",
-     "say": "What a fall! H O three opens the house, H O five everything, and renters get C and D.",
+     "text": "What a fall! HO-2 is all named perils. HO-3 is open on A and B, and HO-5 on A, B and C. Renters get the HO-4: C and D only. In an HO-6, Coverage A covers the unit's fixtures, not the building.",
+     "say": "What a fall! H O two is all named perils. H O three is open on A and B, and H O five on A, B and C. Renters get the H O four: C and D only. In an H O six, Coverage A covers the unit's fixtures, not the building.",
      "show": 2
     },
     {
-     "text": "Attached is A, detached is B. HO-3 jewelry, firearms and silverware limits are theft only.",
-     "say": "Attached is A, detached is B. H O three jewelry, firearms and silverware limits are theft only.",
+     "text": "Attached structures are A; detached ones are B, at 10% of A. HO-3 jewelry, firearms and silverware limits are theft only. HO-3 trees: up to 5% of A, but not for windstorm. Ordinance or law: up to 10% of A.",
+     "say": "Attached structures are A; detached ones are B, at ten percent of A. H O three jewelry, firearms and silverware limits are theft only. H O three trees: up to five percent of A, but not for windstorm. Ordinance or law: up to ten percent of A.",
      "show": 5
     },
     {
@@ -2879,5 +2879,9 @@
   "Confusion pairs cp_personal-06, cp_personal-07, cp_personal-10",
   "Memory hooks mn_prop-10, mn_prop-13, mn_prop-14, mn_prop-16, mn_prop-17",
   "Visual summary vs_personal-01"
- ]
+ ],
+ "clipsay": {
+  "s9.why": "Property in self-storage, or usually kept at another residence, is limited to ten percent of C or one thousand dollars, whichever is greater. Ten percent of sixty thousand dollars is six thousand dollars.",
+  "s11.o0.fail": "Each special limit is the most paid per loss for that kind of property: theft of jewelry, one thousand five hundred dollars; money, two hundred dollars."
+ }
 }

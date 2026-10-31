@@ -231,8 +231,8 @@
      "hl": "coun"
     },
     {
-     "text": "Tony hires one. Remember 2-2-0: 2 signatures before the work, 2 years of record-keeping after, 0 fee waivers ever.",
-     "say": "Tony hires one. Remember two, two, zero: two signatures before the work, two years of record-keeping after, zero fee waivers ever.",
+     "text": "Tony pays a counselor to review his pizza shop's policies. First, they both sign an agreement. Remember 2-2-0: 2 signatures before the work, 2 years of record-keeping after, 0 fee waivers ever.",
+     "say": "Tony pays a counselor to review his pizza shop's policies. First, they both sign an agreement. Remember two, two, zero: two signatures before the work, two years of record-keeping after, zero fee waivers ever.",
      "show": 3,
      "hl": "agr"
     },
@@ -244,8 +244,8 @@
      "hl": "tony"
     },
     {
-     "text": "Never. The agreement states the work, the fee and any commission, and that the fee can't be waived.",
-     "say": "Never. The agreement states the work, the fee and any commission, and that the fee can't be waived.",
+     "text": "Never. That's a classic exam trap. The agreement states the work, the fee and any commission earned as an agent, and that the fee can't be waived.",
+     "say": "Never. That's a classic exam trap. The agreement states the work, the fee and any commission earned as an agent, and that the fee can't be waived.",
      "show": 4,
      "hl": "fee"
     },
@@ -353,8 +353,8 @@
    "exam": "Trap: a license alone gives no power to commit an insurer. No binding for a company until it appoints her.",
    "beats": [
     {
-     "text": "Dana's license makes her eligible to sell in Michigan. But each company she acts for must appoint her as its agent.",
-     "say": "Dana's license makes her eligible to sell in Michigan. But each company she acts for must appoint her as its agent.",
+     "text": "Dana's license makes her eligible to sell in Michigan. But each company she acts for must appoint her as its agent. That's called an appointment. Without one, she can't bind that company's coverage either.",
+     "say": "Dana's license makes her eligible to sell in Michigan. But each company she acts for must appoint her as its agent. That's called an appointment. Without one, she can't bind that company's coverage either.",
      "show": 2,
      "hl": "ins"
     },
@@ -365,8 +365,8 @@
      "hl": "key"
     },
     {
-     "text": "Binding gives a customer a binder: temporary proof of coverage until the policy is issued. No appointment, no binding.",
-     "say": "Binding gives a customer a binder: temporary proof of coverage until the policy is issued. No appointment, no binding.",
+     "text": "Binding gives a customer a binder: temporary proof of coverage until the policy is issued. No appointment, no binding. Watch out for the exam trap: a license alone gives no power to commit an insurer.",
+     "say": "Binding gives a customer a binder: temporary proof of coverage until the policy is issued. No appointment, no binding. Watch out for the exam trap: a license alone gives no power to commit an insurer.",
      "show": 4,
      "hl": "bnd"
     }
@@ -805,8 +805,8 @@
    ],
    "beats": [
     {
-     "text": "Hire 15: the company files Dana's appointment within 15 days of her contract or first application, whichever comes first.",
-     "say": "Hire fifteen: the company files Dana's appointment within fifteen days of her contract or first application, whichever comes first.",
+     "text": "Picture a revolving agency door with four stickers: in, out, envelope, reply. Hire 15: the company files Dana's appointment within 15 days of her contract or first application, whichever comes first.",
+     "say": "Picture a revolving agency door with four stickers: in, out, envelope, reply. Hire fifteen: the company files Dana's appointment within fifteen days of her contract or first application, whichever comes first.",
      "show": 1,
      "hl": "hire"
     },
@@ -817,8 +817,8 @@
      "hl": "fire"
     },
     {
-     "text": "Mail 15: within 15 days after that, it mails Dana a copy, by certified mail or overnight delivery if for cause.",
-     "say": "Mail fifteen: within fifteen days after that, it mails Dana a copy, by certified mail or overnight delivery if for cause.",
+     "text": "Mail 15: within 15 days after telling the director, it mails Dana a copy, by certified mail or overnight delivery if for cause.",
+     "say": "Mail fifteen: within fifteen days after telling the director, it mails Dana a copy, by certified mail or overnight delivery if for cause.",
      "show": 3,
      "hl": "mail"
     },
@@ -1156,7 +1156,7 @@
     {
      "label": "Drop her for low count; tell the director",
      "ok": true,
-     "win": "Only conduct or count: under 25 home and auto apps in 12 months, or malfeasance, breach of trust, a Code violation or failure to perform.",
+     "win": "Only conduct or count: under 25 home and auto apps in 12 months, or malfeasance, breach of trust, an Insurance Code violation or failure to perform.",
      "beats": [
       {
        "text": "Allowed: under 25 home and auto applications in 12 months. It still tells the director within 30 days after it takes effect.",
@@ -1544,8 +1544,8 @@
    ],
    "beats": [
     {
-     "text": "Her contract is silent about what happens next. With her renewal rights, she may service existing policies.",
-     "say": "Her contract is silent about what happens next. With her renewal rights, she may service existing policies."
+     "text": "Her contract has now ended, and it is silent about what happens after that. With her renewal rights, she may service existing policies.",
+     "say": "Her contract has now ended, and it is silent about what happens after that. With her renewal rights, she may service existing policies."
     },
     {
      "text": "But binding new risks, renewing, or raising the company's obligation needs its approval. Swipe.",
@@ -1570,8 +1570,8 @@
      "hl": "truck"
     },
     {
-     "text": "Doing business as Big Mitten Insurance? That's an assumed name: tell the director before using it. Before the first nail.",
-     "say": "Doing business as Big Mitten Insurance? That's an assumed name: tell the director before using it. Before the first nail.",
+     "text": "Doing business as Big Mitten Insurance? That's an assumed name: tell the director before using it, before the first nail goes into the new sign.",
+     "say": "Doing business as Big Mitten Insurance? That's an assumed name: tell the director before using it, before the first nail goes into the new sign.",
      "hl": "sign"
     },
     {
@@ -1790,8 +1790,8 @@
      "hl": "dana"
     },
     {
-     "text": "In Michigan, every 2 years, she spends 1 full day learning: 24 hours.",
-     "say": "In Michigan, every two years, she spends one full day learning: twenty-four hours.",
+     "text": "In Michigan, every 2 years, she spends 1 full day learning: 24 hours of approved CE.",
+     "say": "In Michigan, every two years, she spends one full day learning: twenty-four hours of approved C E.",
      "show": 2,
      "hl": "clock"
     },
@@ -1802,8 +1802,8 @@
      "hl": "scale"
     },
     {
-     "text": "Leftovers? Up to 12 extra hours carry over, but extra ethics hours never count as the next period's ethics.",
-     "say": "Leftovers? Up to twelve extra hours carry over, but extra ethics hours never count as the next period's ethics.",
+     "text": "Leftovers? Take home a dozen at most: up to 12 extra hours carry over. And ethics never keeps: extra ethics hours never count as the next period's ethics.",
+     "say": "Leftovers? Take home a dozen at most: up to twelve extra hours carry over. And ethics never keeps: extra ethics hours never count as the next period's ethics.",
      "show": 4,
      "hl": "box"
     }
@@ -2341,8 +2341,8 @@
    ],
    "beats": [
     {
-     "text": "Lapsed for a reason other than CE? Reinstate within 12 months, no exam. Watch out: a license canceled for missing CE doesn't qualify.",
-     "say": "Lapsed for a reason other than C E? Reinstate within twelve months, no exam. Watch out: a license canceled for missing C E doesn't qualify.",
+     "text": "A year, a season, a half-year: 12 months to reinstate, 90 days to move in, 180 days on a temp license. Lapsed for a reason other than CE? Reinstate within 12 months, no exam. Watch out: a license canceled for missing CE doesn't qualify.",
+     "say": "A year, a season, a half-year: twelve months to reinstate, ninety days to move in, one hundred eighty days on a temp license. Lapsed for a reason other than C E? Reinstate within twelve months, no exam. Watch out: a license canceled for missing C E doesn't qualify.",
      "show": 1,
      "hl": "cal"
     },
@@ -2444,13 +2444,13 @@
    ],
    "beats": [
     {
-     "text": "No appointment, no binding. Hire 15, Fire 30, Mail 15, Talk back 30. Conduct or Count, not for County.",
-     "say": "No appointment, no binding. Hire fifteen, Fire thirty, Mail fifteen, Talk back thirty. Conduct or Count, not for County.",
+     "text": "No binding for an insurer until it appoints you. Hire 15, Fire 30, Mail 15, Talk back 30. And for auto and home insurers, it's Conduct or Count, not for County.",
+     "say": "No binding for an insurer until it appoints you. Hire fifteen, Fire thirty, Mail fifteen, Talk back thirty. And for auto and home insurers, it's Conduct or Count, not for County.",
      "show": 3
     },
     {
-     "text": "Legal name and address changes: 30 days. An assumed name: before you use it.",
-     "say": "Legal name and address changes: thirty days. An assumed name: before you use it.",
+     "text": "Legal name, address and email changes: 30 days. An assumed name: before you use it. For CE, 24 hours every 2 years, at least 3 of them ethics. And the 90-day grace period: service and commissions only.",
+     "say": "Legal name, address and email changes: thirty days. An assumed name: before you use it. For C E, twenty-four hours every two years, at least three of them ethics. And the ninety-day grace period: service and commissions only.",
      "show": 5
     },
     {

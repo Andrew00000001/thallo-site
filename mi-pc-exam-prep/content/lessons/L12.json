@@ -136,7 +136,7 @@
      "y": 47,
      "h": 15,
      "at": 1,
-     "cue": "list",
+     "cue": "guest",
      "label": "16 named perils",
      "lsize": 4.2
     }
@@ -149,14 +149,14 @@
      "hl": "shield"
     },
     {
-     "text": "Their couch and TV get only 16 named perils. Not on the list? Not covered.",
-     "say": "Their couch and T V get only sixteen named perils. Not on the list? Not covered.",
+     "text": "Picture their house as a party: every cause gets in, unless it's on the banned list. For their couch and TV, only the 16 named perils on the guest list get in. Not on that list? Not covered.",
+     "say": "Picture their house as a party: every cause gets in, unless it's on the banned list. For their couch and T V, only the sixteen named perils on the guest list get in. Not on that list? Not covered.",
      "show": 3,
      "hl": "list"
     },
     {
-     "text": "On the exam: house open, belongings named.",
-     "say": "On the exam: house open, belongings named.",
+     "text": "On the exam, the HO-3 is open perils on Coverages A and B, the house and other structures. Coverage C, the belongings, is named perils. The HO-2 uses the same 16 named perils on A, B and C.",
+     "say": "On the exam, the H O three is open perils on Coverages A and B, the house and other structures. Coverage C, the belongings, is named perils. The H O two uses the same sixteen named perils on A, B and C.",
      "show": 4
     }
    ]
@@ -389,8 +389,8 @@
      "voice": "sam"
     },
     {
-     "text": "Those 16 named perils cover the Millers' stuff: 10 basic, like fire and windstorm, and 6 broad.",
-     "say": "Those sixteen named perils cover the Millers' stuff: ten basic, like fire and windstorm, and six broad."
+     "text": "Those 16 named perils cover the Millers' stuff: 10 basic, like fire and windstorm, and 6 broad. Here are the 6 broad perils, all in one Michigan week.",
+     "say": "Those sixteen named perils cover the Millers' stuff: ten basic, like fire and windstorm, and six broad. Here are the six broad perils, all in one Michigan week."
     },
     {
      "text": "Monday, crash! An icy limb falls through the roof: falling objects. Tuesday, heavy snow caves the roof in: weight of ice, snow or sleet.",
@@ -852,8 +852,8 @@
    ],
    "beats": [
     {
-     "text": "The HO-3 also won't pay for wear and tear, rust, settling or pollutants.",
-     "say": "The H O three also won't pay for wear and tear, rust, settling or pollutants.",
+     "text": "Even with open perils on the house, the HO-3 won't pay for wear and tear, rust, settling or pollutants.",
+     "say": "Even with open perils on the house, the H O three won't pay for wear and tear, rust, settling or pollutants.",
      "hl": "wear"
     },
     {
@@ -960,13 +960,13 @@
    ],
    "beats": [
     {
-     "text": "Next door, a word the exam loves: vacant. It means little or no furniture or belongings inside.",
-     "say": "Next door, a word the exam loves: vacant. It means little or no furniture or belongings inside.",
+     "text": "Next door, a word the exam loves: vacant. It means little or no furniture or belongings inside. The stuff is gone, not just the people.",
+     "say": "Next door, a word the exam loves: vacant. It means little or no furniture or belongings inside. The stuff is gone, not just the people.",
      "show": 2
     },
     {
-     "text": "The neighbors moved to Traverse City and took everything.",
-     "say": "The neighbors moved to Traverse City and took everything.",
+     "text": "The neighbors moved to Traverse City and took everything. Their old Grand Rapids house sits empty while it's for sale.",
+     "say": "The neighbors moved to Traverse City and took everything. Their old Grand Rapids house sits empty while it's for sale.",
      "show": 3
     },
     {
@@ -1146,13 +1146,13 @@
      "show": 0
     },
     {
-     "text": "Ordinance or law, earth movement like an earthquake, water. Power failure off premises, neglect, war. Nuclear hazard, intentional loss, governmental action.",
-     "say": "Ordinance or law, earth movement like an earthquake, water. Power failure off premises, neglect, war. Nuclear hazard, intentional loss, governmental action.",
+     "text": "Ordinance or law, earth movement like an earthquake or sinkhole, and water. Power failure off premises, neglect, meaning not protecting property at and after a loss, and war. Nuclear hazard, intentional loss, when an insured meant it, and governmental action, like seizure or destruction.",
+     "say": "Ordinance or law, earth movement like an earthquake or sinkhole, and water. Power failure off premises, neglect, meaning not protecting property at and after a loss, and war. Nuclear hazard, intentional loss, when an insured meant it, and governmental action, like seizure or destruction.",
      "show": 3
     },
     {
-     "text": "Water includes flood, sewer or drain backup, and sump overflow.",
-     "say": "Water includes flood, sewer or drain backup, and sump overflow.",
+     "text": "Water includes flood, surface water, sewer or drain backup, sump overflow, and subsurface water.",
+     "say": "Water includes flood, surface water, sewer or drain backup, sump overflow, and subsurface water.",
      "show": 4
     },
     {
@@ -2158,13 +2158,13 @@
    ],
    "beats": [
     {
-     "text": "What a week! Open perils on the house, minus the exclusions. Heat on, or shut off and drain. Vacant over 60 days? No vandalism to the house.",
-     "say": "What a week! Open perils on the house, minus the exclusions. Heat on, or shut off and drain. Vacant over sixty days? No vandalism to the house.",
+     "text": "What a week! The HO-3 gives open perils on the house, minus the exclusions, and 16 named perils on belongings. Freezing? Heat on, or water off and drained. Flood? Excluded. Vacant over 60 days in a row? No vandalism to the house.",
+     "say": "What a week! The H O three gives open perils on the house, minus the exclusions, and sixteen named perils on belongings. Freezing? Heat on, or water off and drained. Flood? Excluded. Vacant over sixty days in a row? No vandalism to the house.",
      "show": 3
     },
     {
-     "text": "Under 80%, it's the greater of ACV or did over should.",
-     "say": "Under eighty percent, it's the greater of A C V or did over should.",
+     "text": "Under 80%, it's the greater of ACV, or did over should times the loss. Fraud by any insured? Every insured loses Section I coverage, though in Michigan an innocent co-insured is covered for a fire loss, up to their own interest. Michigan requires payment within 30 days of proof.",
+     "say": "Under eighty percent, it's the greater of A C V, or did over should times the loss. Fraud by any insured? Every insured loses Section one coverage, though in Michigan an innocent co-insured is covered for a fire loss, up to their own interest. Michigan requires payment within thirty days of proof.",
      "show": 5
     },
     {

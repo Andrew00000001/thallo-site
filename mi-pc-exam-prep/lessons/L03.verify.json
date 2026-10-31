@@ -1,37 +1,22 @@
 {
  "id": "L03",
- "beats": 59,
+ "beats": 61,
+ "clips": 47,
  "mismatches": [
-  {
-   "scene": 3,
-   "beat": 2,
-   "say": "That's speculative risk, often called a business risk, and generally not insurable. Gambling is speculative too. Ask: could it end in a gain?",
-   "heard": "That speculative risk often called a business risk and generally not insurable. Gambling is speculative too. Ask, could it end in a gain?",
-   "wer": 0.045,
-   "voice": "narrator"
-  },
   {
    "scene": 4,
    "beat": 0,
-   "say": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it.",
-   "heard": "Handle risk like a star. Share it, transfer it, avoid it, reduce it, or retain it.",
-   "wer": 0.062,
+   "say": "Handle risk like a STARR: Share it, Transfer it, Avoid it, Reduce it, or Retain it. The five methods start with S, T, A, R and R: STARR, with two R's.",
+   "heard": "Handle risk like a star, share it, transfer it, avoid it, reduce it, or retain it. The five methods start with S, T, A, R, and R, star with two Rs.",
+   "wer": 0.074,
    "voice": "narrator"
   },
   {
    "scene": 6,
    "beat": 0,
-   "say": "Tony's fire risk is a CLEAN Deal. Calculable: the insurer can estimate how often and how badly shops burn. Large numbers: thousands of pizzerias. Economically feasible: an affordable premium. Accidental: nobody plans it.",
-   "heard": "Tony's fire risk is a clean deal. Calculable, the insurer can estimate how often and how badly shops burn. Large numbers, thousands of pizzerias. Economically feasible and affordable premium. Accidental, nobody plans it.",
-   "wer": 0.031,
-   "voice": "narrator"
-  },
-  {
-   "scene": 8,
-   "beat": 2,
-   "say": "Adverse selection is an imbalance: people who see a high chance of loss buy far more often than others.",
-   "heard": "Adverse selection is an imbalance, people who see a high chance of loss by far more often than others.",
-   "wer": 0.053,
+   "say": "An ideally insurable risk is a CLEAN Deal, and Tony's fire risk is one. Calculable chance of loss: the insurer can estimate how often and how badly shops burn. Large numbers of exposure units: thousands of pizzerias. Economically feasible: an affordable premium. Accidental: an unintentional loss.",
+   "heard": "An ideally insurable risk is a clean deal, and Tony's fire risk is one. Calculable chance of loss. The insurer can estimate how often and how badly shops burn. Large numbers of exposure units, thousands of pizzerias. Economically feasible and affordable premium. Accidental and unintentional loss.",
+   "wer": 0.045,
    "voice": "narrator"
   },
   {
@@ -45,17 +30,17 @@
   {
    "scene": 10,
    "beat": 0,
-   "say": "Who protects Tony's insurer? A reinsurer: for a premium, it covers part or all of the insurer's liability.",
-   "heard": "who protects Tony's insurer, a re-insurer. For a premium, it covers part or all of the insurer's liability.",
-   "wer": 0.111,
+   "say": "Who protects Tony's insurer? A reinsurer: for a premium, it covers part or all of the insurer's liability. That's reinsurance: insurance for insurance companies.",
+   "heard": "who protects Tony's insurer, a re-insurer. For a premium, it covers part or all of the insurer's liability. That's re-insurance, insurance for insurance companies.",
+   "wer": 0.167,
    "voice": "narrator"
   },
   {
    "scene": 10,
    "beat": 1,
-   "say": "That makes the insurer the ceding company. Why buy? Capacity to write more, surplus relief, steadier results and catastrophe protection.",
-   "heard": "That makes the insurer the seating company. Why buy? Capacity to write more, surplus relief, steadier results, and catastrophe protection.",
-   "wer": 0.053,
+   "say": "Tony's insurer takes on thousands of shops, then passes part of that risk to a reinsurer. That makes the insurer the ceding company. Why buy? Capacity to write more, surplus relief, steadier results and catastrophe protection.",
+   "heard": "Tony's insurer takes on thousands of shops, then passes part of that risk to a re-insurer. That makes the insurer the seating company. Why buy? Capacity to write more, surplus relief, steadier results, and catastrophe protection.",
+   "wer": 0.086,
    "voice": "narrator"
   },
   {
@@ -77,17 +62,65 @@
   {
    "scene": 12,
    "beat": 3,
-   "say": "A reciprocal: unincorporated subscribers pooling risks, run by an attorney-in-fact. Lloyd's is a marketplace of underwriters, not an insurer. A M Best: A plus plus and A plus, Superior; A and A minus, Excellent.",
-   "heard": "A reciprocal, unincorporated subscriber's pooling risks run by an attorney, in fact. Lloyd's is a marketplace of underwriters, not an insurer. AM Best, A++ and A+, Superior, A and A-, Excellent.",
-   "wer": 0.121,
+   "say": "A reciprocal: unincorporated subscribers pooling risks, run by a manager called an attorney-in-fact. Lloyd's is a marketplace of underwriters, not an insurer. A M Best: A plus plus and A plus, Superior; A and A minus, Excellent.",
+   "heard": "A reciprocal, unincorporated subscriber's pooling risks, run by a manager called an attorney in fact. Lloyd's is a marketplace of underwriters, not an insurer. AM best, A++ and A plus superior, A and A minus excellent.",
+   "wer": 0.056,
    "voice": "narrator"
   },
   {
    "scene": 14,
    "beat": 0,
-   "say": "A hazard is the condition; the peril is the cause. Pure risk is generally insurable. Handle risk like a STARR.",
-   "heard": "A hazard is the condition, the peril is the cause, pure risk is generally insurable, handle risk like a star.",
-   "wer": 0.05,
+   "say": "A hazard is the condition; the peril is the cause of loss. Pure risk is generally insurable; speculative risk can bring a gain. Handle risk like a STARR. Ideally insurable risks are a CLEAN Deal.",
+   "heard": "A hazard is the condition. The peril is the cause of loss. Pure risk is generally insurable. Speculative risk can bring a gain. Handle risk like a star. Ideally insurable risks are a clean deal.",
+   "wer": 0.029,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s2.i5",
+   "say": "The scorched kitchen's lost value.",
+   "text": "The scorched kitchen's lost value.",
+   "heard": "The Scorch Kitchen's lost value.",
+   "wer": 0.2,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s11.o0.fail",
+   "say": "Quota share shares premium and every loss at the same percentage. Help only above a retention is excess of loss.",
+   "text": "Quota share shares premium and every loss at the same percentage. Help only above a retention is excess of loss.",
+   "heard": "QuotaShare shares premium and every loss at the same percentage. Help only above a retention is excess of loss.",
+   "wer": 0.105,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s11.o1.win",
+   "say": "Excess of loss pays the part of a loss above the ceding company's retention, up to a limit.",
+   "text": "Excess of loss pays the part of a loss above the ceding company's retention, up to a limit.",
+   "heard": "Excess of loss pays the part of a loss above the seeding company's retention up to a limit.",
+   "wer": 0.056,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.p1",
+   "say": "Mutual company. Owned by its policyholders. Every owner is an insured, and every insured is an owner. Memory hook: \"My policy makes me an owner.\"",
+   "text": "Mutual company. Owned by its policyholders. Every owner is an insured, and every insured is an owner. Memory hook: \"My policy makes me an owner.\"",
+   "heard": "Mutual Company, owned by its policy holders. Every owner is an insured, and every insured is an owner. Memory Hook, my policy makes me an owner.",
+   "wer": 0.083,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s12.p2",
+   "say": "Reciprocal. An interinsurance exchange: picture neighbors swapping risks. It's an unincorporated group of subscribers who pool risks, run by a manager called an attorney-in-fact.",
+   "text": "Reciprocal. An interinsurance exchange: picture neighbors swapping risks. It's an unincorporated group of subscribers who pool risks, run by a manager called an attorney-in-fact.",
+   "heard": "Reciprocal, an inter-insurance exchange. Picture neighbors swapping risks. It's an unincorporated group of subscribers who pool risks run by a manager called an attorney in fact.",
+   "wer": 0.077,
+   "voice": "narrator"
+  },
+  {
+   "clip": "s13.ask",
+   "say": "Who should Tony pick? One: The captive agent. Two: The direct writer's salesperson. Three: The independent agent.",
+   "text": "Who should Tony pick? One: The captive agent. Two: The direct writer's salesperson. Three: The independent agent.",
+   "heard": "Who should Tony pick? One, the captive agent. Two, the direct rider's salesperson. Three, the independent agent.",
+   "wer": 0.059,
    "voice": "narrator"
   }
  ]

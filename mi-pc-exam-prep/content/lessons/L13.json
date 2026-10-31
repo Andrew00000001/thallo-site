@@ -27,7 +27,7 @@
    ],
    "beats": [
     {"text": "July in Grand Rapids. The Millers throw a backyard barbecue, insured by their 2011 HO-3.", "say": "July in Grand Rapids. The Millers throw a backyard barbecue, insured by their twenty eleven H O three."},
-    {"text": "By Labor Day, Sam will be sued. Twice. Welcome to Section II: liability.", "say": "By Labor Day, Sam will be sued. Twice. Welcome to Section two: liability."}
+    {"text": "By Labor Day, Sam will be sued. Twice. Welcome to Section II: liability. Then come the homeowners endorsements on the exam outline.", "say": "By Labor Day, Sam will be sued. Twice. Welcome to Section two: liability. Then come the homeowners endorsements on the exam outline."}
    ]
   },
   {
@@ -48,10 +48,10 @@
     {"id": "bills", "p": "receipt", "x": 64, "y": 55, "h": 15, "at": 3, "cue": "bills"}
    ],
    "beats": [
-    {"text": "Then Ed from next door trips on the Millers' sidewalk.", "say": "Then Ed from next door trips on the Millers' sidewalk.", "show": 1, "hl": "ed"},
+    {"text": "First, Ed from next door trips on the Millers' sidewalk.", "say": "First, Ed from next door trips on the Millers' sidewalk.", "show": 1, "hl": "ed"},
     {"text": "Ouch! My wrist!", "say": "Ouch! My wrist!", "voice": "neighbor", "show": 1, "hl": "ed"},
-    {"text": "Coverage F, Medical Payments to Others, pays other people's medical bills incurred within 3 years of the accident.", "say": "Coverage F, Medical Payments to Others, pays other people's medical bills incurred within three years of the accident.", "show": 2, "hl": "cal"},
-    {"text": "So F pays Ed's doctor bills. F: a friend's fall.", "say": "So F pays Ed's doctor bills. F: a friend's fall.", "show": 3, "hl": "bills"},
+    {"text": "Coverage F, Medical Payments to Others, pays other people's medical bills, like a guest hurt at your place. It pays for expenses incurred within 3 years of the accident.", "say": "Coverage F, Medical Payments to Others, pays other people's medical bills, like a guest hurt at your place. It pays for expenses incurred within three years of the accident.", "show": 2, "hl": "cal"},
+    {"text": "Ed sprained his wrist at the Millers' barbecue. So F pays his doctor bills. F: a friend's fall.", "say": "Ed sprained his wrist at the Millers' barbecue. So F pays his doctor bills. F: a friend's fall.", "show": 3, "hl": "bills"},
     {"text": "Watch out: never for you or regular residents of your household, except residence employees. Manual minimum: $1,000 per person.", "say": "Watch out: never for you or regular residents of your household, except residence employees. Manual minimum: one thousand dollars per person.", "show": 4}
    ]
   },
@@ -148,7 +148,7 @@
    ],
    "beats": [
     {"text": "A month later, Ed sues Sam over the fall. Excuse me, you're being sued! That's Coverage E, Personal Liability.", "say": "A month later, Ed sues Sam over the fall. Excuse me, you're being sued! That's Coverage E, Personal Liability.", "show": 1, "hl": "env"},
-    {"text": "It pays damages Sam is legally liable for because of bodily injury or property damage, plus his defense.", "say": "It pays damages Sam is legally liable for because of bodily injury or property damage, plus his defense.", "show": 3, "hl": "shield"},
+    {"text": "It pays damages Sam is legally liable for because of bodily injury or property damage, plus his defense. Ed blames a cracked sidewalk for his fall. Sam's insurer defends him and pays damages he owes, up to the limit.", "say": "It pays damages Sam is legally liable for because of bodily injury or property damage, plus his defense. Ed blames a cracked sidewalk for his fall. Sam's insurer defends him and pays damages he owes, up to the limit.", "show": 3, "hl": "shield"},
     {"text": "It defends even groundless, false or fraudulent suits, until a judgment or settlement uses up the limit. Manual minimum: $100,000.", "say": "It defends even groundless, false or fraudulent suits, until a judgment or settlement uses up the limit. Manual minimum: one hundred thousand dollars.", "show": 4, "hl": "min"}
    ]
   },
@@ -346,8 +346,8 @@
    ],
    "beats": [
     {
-     "text": "Jen schedules her jewelry: Scheduled Personal Property covers listed classes like jewelry, furs and fine arts, on open perils, worldwide, no deductible.",
-     "say": "Jen schedules her jewelry: Scheduled Personal Property covers listed classes like jewelry, furs and fine arts, on open perils, worldwide, no deductible.",
+     "text": "Jen schedules her jewelry. Scheduled Personal Property covers listed classes like jewelry, furs and fine arts, on open perils. That means any cause not excluded. It's worldwide, with no deductible.",
+     "say": "Jen schedules her jewelry. Scheduled Personal Property covers listed classes like jewelry, furs and fine arts, on open perils. That means any cause not excluded. It's worldwide, with no deductible.",
      "hl": "jewel"
     },
     {
@@ -362,13 +362,13 @@
      "hl": "clock"
     },
     {
-     "text": "Personal Property Replacement Cost pays contents at replacement cost. But that antique clock still gets actual cash value.",
-     "say": "Personal Property Replacement Cost pays contents at replacement cost. But that antique clock still gets actual cash value.",
+     "text": "Personal Property Replacement Cost pays contents at replacement cost. But that antique clock still gets actual cash value. So do other antiques, fine arts and collectibles.",
+     "say": "Personal Property Replacement Cost pays contents at replacement cost. But that antique clock still gets actual cash value. So do other antiques, fine arts and collectibles.",
      "hl": "clock"
     },
     {
-     "text": "Earthquake, 2000 edition: shocks within 72 hours count as one quake. Limited Fungi, 2002 edition: $10,000 for property, and $50,000 as a Coverage E aggregate.",
-     "say": "Earthquake, two thousand edition: shocks within seventy two hours count as one quake. Limited Fungi, two thousand two edition: ten thousand dollars for property, and fifty thousand dollars as a Coverage E aggregate.",
+     "text": "Earthquake, 2000 edition: shocks within 72 hours count as one quake. Mold? Limited Fungi, 2002 edition: $10,000 for property, and $50,000 as an aggregate within Coverage E.",
+     "say": "Earthquake, two thousand edition: shocks within seventy two hours count as one quake. Mold? Limited Fungi, two thousand two edition: ten thousand dollars for property, and fifty thousand dollars as an aggregate within Coverage E.",
      "hl": [
       "quake",
       "mold"
@@ -395,8 +395,8 @@
    ],
    "beats": [
     {"text": "You told everyone I faked my fall? That's slander!", "say": "You told everyone I faked my fall? That's slander!", "voice": "neighbor", "show": 1, "hl": "slander"},
-    {"text": "Ed sues Sam again. That's personal injury: offenses like libel, slander, false arrest and invasion of privacy.", "say": "Ed sues Sam again. That's personal injury: offenses like libel, slander, false arrest and invasion of privacy.", "show": 3},
-    {"text": "Watch out: Coverage E pays only for bodily injury and property damage. Slander is neither. The Personal Injury endorsement fills that gap.", "say": "Watch out: Coverage E pays only for bodily injury and property damage. Slander is neither. The Personal Injury endorsement fills that gap.", "show": 4, "hl": "note"}
+    {"text": "Ed sues Sam again, this time for slander, over something Sam told the neighbors at the block party. That's personal injury, and it's not a broken bone. It's injury from offenses like libel, slander, false arrest, malicious prosecution, invasion of privacy, and wrongful eviction or entry.", "say": "Ed sues Sam again, this time for slander, over something Sam told the neighbors at the block party. That's personal injury, and it's not a broken bone. It's injury from offenses like libel, slander, false arrest, malicious prosecution, invasion of privacy, and wrongful eviction or entry.", "show": 3},
+    {"text": "Watch out: Coverage E pays only for bodily injury and property damage. Slander is neither, so no Coverage E. The Personal Injury endorsement adds these offenses, but not knowingly false statements.", "say": "Watch out: Coverage E pays only for bodily injury and property damage. Slander is neither, so no Coverage E. The Personal Injury endorsement adds these offenses, but not knowingly false statements.", "show": 4, "hl": "note"}
    ]
   },
   {
@@ -439,7 +439,7 @@
     }
    ],
    "beats": [
-    {"text": "Work is a trap too: Section II excludes business liability, with a few exceptions. Tap to see who needs what.", "say": "Work is a trap too: Section two excludes business liability, with a few exceptions. Tap to see who needs what."}
+    {"text": "Work is a trap too: Section II excludes business liability, with a few exceptions. Tap to see who needs which endorsement.", "say": "Work is a trap too: Section two excludes business liability, with a few exceptions. Tap to see who needs which endorsement."}
    ],
    "reveal": [
     {"text": "Business Pursuits: working for someone else, like teaching. Permitted Incidental Occupancies: a described business at home, still no bodily injury to its employees.", "say": "Business Pursuits: working for someone else, like teaching. Permitted Incidental Occupancies: a described business at home, still no bodily injury to its employees."},
@@ -494,8 +494,8 @@
      "show": 1
     },
     {
-     "text": "That makes Ana an innocent co-insured.",
-     "say": "That makes Ana an innocent co-insured.",
+     "text": "Both are insureds. That makes Ana an innocent co-insured: an insured who took no part in the act that caused the loss.",
+     "say": "Both are insureds. That makes Ana an innocent co-insured: an insured who took no part in the act that caused the loss.",
      "show": 3,
      "hl": "ana"
     },
@@ -599,7 +599,7 @@
     "F pays others' bills, not your household's, except residence employees",
     "E: damages plus defense, even for a groundless suit",
     "Property of others: $1,000; not on purpose by an insured 13 or older",
-    "Owned boats the HO-3 excludes: Watercraft. Slander: Personal Injury",
+    "Boat liability the HO-3 excludes: Watercraft. Slander: Personal Injury",
     "Michigan: innocent co-insured covered for fire, up to her interest"
    ],
    "draw": [
@@ -612,8 +612,8 @@
     {"p": "bubble", "text": "Next summer? We're staying inside.", "x": 40, "y": 11, "w": 30, "to": "jen", "at": 2}
    ],
    "beats": [
-    {"text": "What a summer! F paid Ed's bills, and E defended Sam.", "say": "What a summer! F paid Ed's bills, and E defended Sam.", "show": 3},
-    {"text": "The boat needed Watercraft, slander needs Personal Injury, and in Michigan, Ana got her share.", "say": "The boat needed Watercraft, slander needs Personal Injury, and in Michigan, Ana got her share.", "show": 5},
+    {"text": "F paid Ed's bills: it pays others' bills, not your household's, except residence employees. E defended Sam: damages plus defense, even for a groundless suit. On the 2011 form, property of others pays up to $1,000. But not if an insured 13 or older did it on purpose.", "say": "F paid Ed's bills: it pays others' bills, not your household's, except residence employees. E defended Sam: damages plus defense, even for a groundless suit. On the twenty eleven form, property of others pays up to one thousand dollars. But not if an insured thirteen or older did it on purpose.", "show": 3},
+    {"text": "For liability, owned boats the HO-3 excludes, like Sam's, need the Watercraft endorsement. Slander needs Personal Injury. And in Michigan, Ana got her share: an innocent co-insured is covered for a fire loss, up to her interest.", "say": "For liability, owned boats the H O three excludes, like Sam's, need the Watercraft endorsement. Slander needs Personal Injury. And in Michigan, Ana got her share: an innocent co-insured is covered for a fire loss, up to her interest.", "show": 5},
     {"text": "Next summer? We're staying inside.", "say": "Next summer? We're staying inside.", "voice": "jen", "show": 5}
    ]
   }

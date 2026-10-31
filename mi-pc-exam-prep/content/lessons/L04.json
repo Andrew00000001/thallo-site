@@ -279,8 +279,8 @@
      "hl": "ins"
     },
     {
-     "text": "If she placed their policy with a company that never appointed her, Michigan would call her an agent of the insured, representing the Millers.",
-     "say": "If she placed their policy with a company that never appointed her, Michigan would call her an agent of the insured, representing the Millers.",
+     "text": "If she placed their policy with a company that never appointed her, Michigan would call her an agent of the insured, representing the Millers. For each policy, she's on one side, never both.",
+     "say": "If she placed their policy with a company that never appointed her, Michigan would call her an agent of the insured, representing the Millers. For each policy, she's on one side, never both.",
      "hl": [
       "sam",
       "jen"
@@ -359,6 +359,10 @@
       {
        "text": "Sam's premium lands next to Dana's vacation fund. In Michigan, premiums belong in a separate account.",
        "say": "Sam's premium lands next to Dana's vacation fund. In Michigan, premiums belong in a separate account."
+      },
+      {
+       "text": "Now his premium is commingled with her own money.",
+       "say": "Now his premium is commingled with her own money."
       }
      ],
      "draw": [
@@ -809,8 +813,8 @@
      "hl": "idc"
     },
     {
-     "text": "Watch out: implied is actual authority. Apparent is only what a customer reasonably believes. Here's a story.",
-     "say": "Watch out: implied is actual authority. Apparent is only what a customer reasonably believes. Here's a story.",
+     "text": "Watch out: implied is actual authority. Apparent authority is only what a customer reasonably believes from the insurer's conduct. Here's a story.",
+     "say": "Watch out: implied is actual authority. Apparent authority is only what a customer reasonably believes from the insurer's conduct. Here's a story.",
      "hl": "shop"
     }
    ]
@@ -927,8 +931,8 @@
      "show": 1
     },
     {
-     "text": "Tony reasonably believes the agent can still bind, and buys one. That's apparent authority: it rests on the insurer's own conduct.",
-     "say": "Tony reasonably believes the agent can still bind, and buys one. That's apparent authority: it rests on the insurer's own conduct.",
+     "text": "Tony reasonably believes the agent can still bind, and buys one. That's apparent authority: the power a reasonable person would assume an agent has, based on the insurer's own conduct.",
+     "say": "Tony reasonably believes the agent can still bind, and buys one. That's apparent authority: the power a reasonable person would assume an agent has, based on the insurer's own conduct.",
      "show": 2,
      "hl": "cust"
     },
@@ -1332,8 +1336,8 @@
      ]
     },
     {
-     "text": "Competent parties need legal age, in Michigan 18, and mental capacity. And the purpose must be legal: insuring a shipment of illegal drugs is unenforceable.",
-     "say": "Competent parties need legal age, in Michigan eighteen, and mental capacity. And the purpose must be legal: insuring a shipment of illegal drugs is unenforceable."
+     "text": "Competent parties need legal age, in Michigan 18, and mental capacity. And the purpose must be legal: insuring a shipment of illegal drugs is unenforceable. A contract banned by statute is void or unenforceable.",
+     "say": "Competent parties need legal age, in Michigan eighteen, and mental capacity. And the purpose must be legal: insuring a shipment of illegal drugs is unenforceable. A contract banned by statute is void or unenforceable."
     }
    ]
   },
@@ -1768,8 +1772,8 @@
    ],
    "beats": [
     {
-     "text": "If a word in a policy could mean two things, courts read it against the insurer, which wrote it.",
-     "say": "If a word in a policy could mean two things, courts read it against the insurer, which wrote it.",
+     "text": "If a word in a policy could mean two things, that's an ambiguity. Courts read it against the insurer, which wrote it.",
+     "say": "If a word in a policy could mean two things, that's an ambiguity. Courts read it against the insurer, which wrote it.",
      "hl": "fuzzy"
     },
     {
@@ -2415,8 +2419,8 @@
      "hl": "judge"
     },
     {
-     "text": "Its cousin, waiver, is a choice: you wave goodbye to a right on purpose. The 2011 homeowners form requires waivers in writing by the insurer.",
-     "say": "Its cousin, waiver, is a choice: you wave goodbye to a right on purpose. The twenty eleven homeowners form requires waivers in writing by the insurer.",
+     "text": "Its cousin, waiver, is a choice: you wave goodbye to a known right on purpose. Watch out: waiver is chosen; estoppel is imposed because someone relied. The 2011 homeowners form requires waivers in writing by the insurer.",
+     "say": "Its cousin, waiver, is a choice: you wave goodbye to a known right on purpose. Watch out: waiver is chosen; estoppel is imposed because someone relied. The twenty eleven homeowners form requires waivers in writing by the insurer.",
      "show": 4
     }
    ]
@@ -2480,13 +2484,13 @@
    ],
    "beats": [
     {
-     "text": "Remember: in Michigan, a producer the writing insurer never appointed represents the insured.",
-     "say": "Remember: in Michigan, a producer the writing insurer never appointed represents the insured.",
-     "show": 2
+     "text": "Remember: in Michigan, a producer not appointed by the insurer writing the policy is an agent of the insured. Express is explained, implied is inferred, apparent is how it appears. Contracts need offer, acceptance, consideration, competent parties and legal purpose.",
+     "say": "Remember: in Michigan, a producer not appointed by the insurer writing the policy is an agent of the insured. Express is explained, implied is inferred, apparent is how it appears. Contracts need offer, acceptance, consideration, competent parties and legal purpose.",
+     "show": 3
     },
     {
-     "text": "Contracts need offer, acceptance, consideration, competent parties and legal purpose. Policies come in A CUP, A. Concealment is silence on purpose.",
-     "say": "Contracts need offer, acceptance, consideration, competent parties and legal purpose. Policies come in A CUP, A. Concealment is silence on purpose.",
+     "text": "Policies come in A CUP, A: adhesion, conditional, unilateral, personal, aleatory. A warranty is guaranteed true; concealment is silence on purpose.",
+     "say": "Policies come in A CUP, A: adhesion, conditional, unilateral, personal, aleatory. A warranty is guaranteed true; concealment is silence on purpose.",
      "show": 5
     },
     {

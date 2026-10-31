@@ -294,8 +294,8 @@
      "hl": "hg"
     },
     {
-     "text": "Second, the 2012 Building and Personal Property form. It covers the building and Tony's business personal property, in it or within 100 feet.",
-     "say": "Second, the twenty twelve Building and Personal Property form. It covers the building and Tony's business personal property, in it or within one hundred feet.",
+     "text": "Second, the key form: the 2012 Building and Personal Property form, or BPP. It covers the building and Tony's business personal property, in it or within 100 feet.",
+     "say": "Second, the key form: the twenty twelve Building and Personal Property form, or B P P. It covers the building and Tony's business personal property, in it or within one hundred feet.",
      "hl": "d2"
     },
     {
@@ -502,16 +502,16 @@
    ],
    "beats": [
     {
-     "text": "The 2012 Basic form names 11 perils, from fire to volcanic action.",
-     "say": "The twenty twelve Basic form names eleven perils, from fire to volcanic action."
+     "text": "The 2012 Basic form names 11 perils, from fire to volcanic action. The others are lightning, explosion, windstorm or hail, smoke, aircraft or vehicles, riot or civil commotion, vandalism, sprinkler leakage and sinkhole collapse.",
+     "say": "The twenty twelve Basic form names eleven perils, from fire to volcanic action. The others are lightning, explosion, windstorm or hail, smoke, aircraft or vehicles, riot or civil commotion, vandalism, sprinkler leakage and sinkhole collapse."
     },
     {
      "text": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. Plus collapse coverage.",
      "say": "Broad is Basic plus a Michigan winter: falling objects, weight of snow, ice or sleet, and water damage from a system or appliance. Plus collapse coverage."
     },
     {
-     "text": "The 2017 Special form covers direct physical loss unless excluded or limited. Only Special covers theft.",
-     "say": "The twenty seventeen Special form covers direct physical loss unless excluded or limited. Only Special covers theft.",
+     "text": "The 2017 Special form is open perils: it covers direct physical loss unless excluded or limited. Only Special covers theft.",
+     "say": "The twenty seventeen Special form is open perils: it covers direct physical loss unless excluded or limited. Only Special covers theft.",
      "hl": "thief"
     },
     {
@@ -695,13 +695,13 @@
    ],
    "beats": [
     {
-     "text": "Tony's permits take forever, and the warehouse sits unused. Exam word: vacant.",
-     "say": "Tony's permits take forever, and the warehouse sits unused. Exam word: vacant.",
+     "text": "Tony's permits take forever, and the warehouse sits unused. Exam word: vacant. Vacancy is a loss condition in the Building and Personal Property form.",
+     "say": "Tony's permits take forever, and the warehouse sits unused. Exam word: vacant. Vacancy is a loss condition in the Building and Personal Property form.",
      "show": 1
     },
     {
-     "text": "Under the 2012 form, an owner's building is vacant unless at least 31% is rented and used, or used by the owner, for customary operations.",
-     "say": "Under the twenty twelve form, an owner's building is vacant unless at least thirty-one percent is rented and used, or used by the owner, for customary operations.",
+     "text": "Vacant means too empty to count as in use. Under the 2012 form, an owner's building is vacant unless at least 31% is rented and used, or used by the owner, for customary operations. Tony's warehouse is vacant: for weeks, nobody works there, and nothing goes on inside.",
+     "say": "Vacant means too empty to count as in use. Under the twenty twelve form, an owner's building is vacant unless at least thirty-one percent is rented and used, or used by the owner, for customary operations. Tony's warehouse is vacant: for weeks, nobody works there, and nothing goes on inside.",
      "show": 3,
      "hl": "pie"
     },
@@ -1664,13 +1664,13 @@
      "hl": "dana"
     },
     {
-     "text": "Under the 2012 form, it pays lost net income plus continuing expenses, including payroll. That's time element coverage: lost income, not damaged things.",
-     "say": "Under the twenty twelve form, it pays lost net income plus continuing expenses, including payroll. That's time element coverage: lost income, not damaged things.",
+     "text": "Under the 2012 form, it pays lost net income plus continuing expenses, including payroll, while damage to your place keeps you closed. That's time element coverage: lost income, not damaged things.",
+     "say": "Under the twenty twelve form, it pays lost net income plus continuing expenses, including payroll, while damage to your place keeps you closed. That's time element coverage: lost income, not damaged things.",
      "show": 2
     },
     {
-     "text": "So my cooks still get paid?",
-     "say": "So my cooks still get paid?",
+     "text": "Closed for two months! So my lost profit is covered, and my cooks still get paid?",
+     "say": "Closed for two months! So my lost profit is covered, and my cooks still get paid?",
      "voice": "tony",
      "show": 3,
      "hl": "tony"
@@ -2447,13 +2447,13 @@
    ],
    "beats": [
     {
-     "text": "What a year! Broad adds a Michigan winter. Only Special covers theft. Vacant over 60 days? Some losses out, the rest cut 15%.",
-     "say": "What a year! Broad adds a Michigan winter. Only Special covers theft. Vacant over sixty days? Some losses out, the rest cut fifteen percent.",
-     "show": 2
+     "text": "What a year! Broad adds a Michigan winter: falling objects, the weight of snow and ice, and water damage. Only Special covers theft. Vacant over 60 days? Some losses out, the rest cut 15%. Coinsurance: Did over Should, times the loss, minus the deductible.",
+     "say": "What a year! Broad adds a Michigan winter: falling objects, the weight of snow and ice, and water damage. Only Special covers theft. Vacant over sixty days? Some losses out, the rest cut fifteen percent. Coinsurance: Did over Should, times the loss, minus the deductible.",
+     "show": 3
     },
     {
-     "text": "Did over Should. Business Income waits 72 hours. Ordinance or Law runs A, B, C.",
-     "say": "Did over Should. Business Income waits seventy-two hours. Ordinance or Law runs A, B, C.",
+     "text": "Business Income waits 72 hours; Extra Expense starts at once. Ordinance or Law: A is the undamaged part, B is demolition, C is code upgrade.",
+     "say": "Business Income waits seventy-two hours; Extra Expense starts at once. Ordinance or Law: A is the undamaged part, B is demolition, C is code upgrade.",
      "show": 5
     },
     {
