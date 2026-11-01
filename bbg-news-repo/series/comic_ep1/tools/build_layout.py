@@ -437,9 +437,9 @@ page("s10", [P("p21", (40, 40, 1000, 800), kind="crop", gen="G07", crop=(0.255, 
                note="Oliver's head and shoulders under open sky, staring flat at the hull; crop at 1000:800"),
              P("p22", (40, 860, 1000, 450), kind="crop", gen="G07", crop=(0.00, 0.30, 0.40, 0.5234),
                note="Sanchez chest-up, still in his proud hold; crop at 1000:450")],
-     [L("balloon", "...That's **THEIR** ship.", "p21", (64, 64, 440), (560, 560), size=48),
+     [L("balloon", "...That's **THEIR** ship.", "p21", (64, 64, 440), (470, 316), size=48),
       L("caption", "~ Heroic bra--", "p21", (64, 744, 320), size=34),
-      L("sfx", "FWAP!", "p22", (780, 1150, 210), angle=-10)])
+      L("sfx", "FWAP!", "p22", (790, 1118, 200), angle=-10)])
 
 # s11 the reverse (the swipe is the hard cut)
 page("s11", [P("p23", (40, 40, 1000, 1270), kind="gen", gen="G08",
@@ -536,7 +536,8 @@ DONE = {
             "status": "approved (Oliver lands standing beside Sanchez, not carried; crops p20-p22 re-fit Oct 28)"},
     "G08": {"job_id": "9672e417-5569-47df-8898-01b2ac27e355",
             "status": "approved, minor (Oct 29 review panel): every sided feature right on all five; an arms-wide march rather than a lean-in hug; short banners showing only the circle; a wide rather than medium shot"},
-    "G09": {"job_id": None, "status": "todo (v4 Nov 1: edits of the Oct 30 take 55b9324f changing only the forward arm; fallback, a crop of the approved cover)",
+    "G09": {"job_id": "899f4b81-65d6-4420-8365-b2ddbd7308f3",
+            "status": "approved, minor (Nov 1 review panel): v4 edit B of the Oct 30 take 55b9324f with the Sanchez sheet as a second reference. Only the forward arm changed, now his plain furry left forearm and the dark grey glove; the flight runs left to right, the carry is under the mechanical arm, and both looks hold. Picked over edits A1/A2 (ecee9f28, 14e12473, also minor; their gloves came out lighter and knit-like) for the slimmer plain arm and the darker glove. Minors (inherited from the base): Oliver's legs hidden behind the carton; a mild low angle from the trench lip; the fries fall rather than rain at the lens",
             "rejected": ["b934a180-33a3-4287-860f-ee04e1bb4e66 (Oct 29: a red mechanical left hand and no glove; Oliver hugged by the plain arm on the viewer's right; mechanical fist leading; camera level at the trench mouth)",
                          "55b9324f-8ee4-4299-be11-36addd2dcbc7 (Oct 30 v2: the carry and the direction right, but the leading fist mechanical too, so both arms mechanical)",
                          "3ab5380b-ab7f-4ec6-a595-630f2fd4828a (Oct 31 v3 take a: flew right to left; mirrored it would be right-sided, but the Sanchez Element didn't hold: no goatee, no glove, olive camo, dark visor; Oliver missing his bands)",

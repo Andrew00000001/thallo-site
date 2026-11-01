@@ -105,9 +105,9 @@
     {"id": "p22", "rect": [40, 860, 1000, 450], "image": "panels/p22.png", "focus": [0.5, 0.5], "border": 6}
    ],
    "letters": [
-    {"type": "balloon", "text": "...That's **THEIR** ship.", "panel": "p21", "box": [64, 64, 440], "tail": [560, 560], "size": 48},
+    {"type": "balloon", "text": "...That's **THEIR** ship.", "panel": "p21", "box": [64, 64, 440], "tail": [470, 316], "size": 48},
     {"type": "caption", "text": "~ Heroic bra--", "panel": "p21", "box": [64, 744, 320], "size": 34},
-    {"type": "sfx", "text": "FWAP!", "panel": "p22", "box": [780, 1150, 210], "angle": -10}
+    {"type": "sfx", "text": "FWAP!", "panel": "p22", "box": [790, 1118, 200], "angle": -10}
    ]},
   {"id": "s11",
    "panels": [

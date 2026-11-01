@@ -333,9 +333,9 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
   - **p21 = crop of G07:** Oliver's head and shoulders with the basket (Sanchez's chin and visor may show at upper right, so the music caption sits bottom left). If the 4k crop is soft, use **O1** (§9).
   - **p22 = crop of G07:** Sanchez chest-up, still in his proud hold (the crop is centred on his planned face; v1's cut sat above his head). He hasn't noticed a thing.
 - **Lettering** (his bravado cracks on THEIR):
-  - **balloon** "...That's **THEIR** ship." · panel p21 · box [64, 64, 440] · tail → [560, 560] · 48 px
+  - **balloon** "...That's **THEIR** ship." · panel p21 · box [64, 64, 440] · tail → [470, 316] · 48 px
   - **caption** "~ Heroic bra--" · panel p21 · box [64, 744, 320] · 34 px
-  - **sfx** "FWAP!" · panel p22 · box [780, 1150, 210] · angle -10
+  - **sfx** "FWAP!" · panel p22 · box [790, 1118, 200] · angle -10
 
 ### s11 · The reverse (full page; generated last)
 - **Why the reader swipes:** the swipe is the reveal, and the next swipe is the hard cut, before the hug lands. No contact is ever shown.
