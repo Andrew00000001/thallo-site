@@ -417,7 +417,7 @@ page("s08", [P("p17", (40, 40, 1000, 300), kind="reuse", src="P1", box=(0, 830, 
                 note="fallback: a tighter crop of the approved cover (G01), crop at 1000:950")
               if P18_USE_COVER else
               P("p18", (40, 360, 1000, 950), kind="gen", gen="G09",
-                faces=[(560, 600, 160, 160, "S"), (410, 720, 150, 150, "O")]))],
+                faces=[(494, 431, 254, 262, "S"), (307, 648, 162, 162, "O")]))],
      [L("sfx", "WHUMP!", "p17", (84, 92, 340), angle=8),
       L("caption", "~ Heroic brass swells ~", "p18", (64, 384, 480), size=36),
       L("sfx", "FWOOOOOSH!", "p18", (64, 1100, 620), angle=8)])
