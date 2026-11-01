@@ -372,7 +372,7 @@ page("s03", [P("p07", (40, 40, 1000, 200), kind="gfx", gfx="sting band: navy HUD
       L("caption", "The red food stand.", "p08", (64, 282, 560), size=34),
       L("hud", "SUBJECT: OLIVER\nTHREAT LEVEL: FLUFFY", "p08", (64, 350, 450), (640, 500), size=34),
       L("sfx", "CRUNCH!", "p08", (90, 740, 360), angle=8),
-      L("sfx", "KA-CHUNK!", "p09", (300, 1016, 330), angle=-6)])
+      L("sfx", "KA-CHUNK!", "p09", (300, 1022, 330), angle=-6)])
 
 # s04 the Verdict
 page("s04", [P("p10", (40, 40, 1000, 1270), kind="gen", gen="G03",
@@ -392,7 +392,7 @@ page("s05", [P("p11", (40, 40, 1000, 640), focus=(0.5, 0.5), kind="gen", gen="G0
                     "mouth so the panel reads silent; crop at 490:610")],
      [L("balloon", "Sanchez!\nBuddy!\nYou look\n**GREAT!**", "p11", (706, 100, 318), (700, 410), size=44),
       L("balloon", "...**FRY?**", "p12", (64, 718, 280), (292, 893), size=52),
-      L("sfx", "SSSSZZZ...", "p13", (690, 722, 330), angle=4)])
+      L("sfx", "SSSSZZZ...", "p13", (690, 732, 330), angle=4)])
 
 # s06 up the wreck: the solemn half of the line
 page("s06", [P("p14", (40, 40, 1000, 1270), kind="gen", gen="G05",
@@ -429,7 +429,7 @@ page("s09", [P("p19", (40, 40, 1000, 800), kind="gen", gen="G07",
                note="the nose: one royal-blue band and the cockpit window, no faces, crop at 1000:450")],
      [L("caption", "~ Big heroic finish ~", "p19", (64, 64, 480), size=34),
       L("balloon", "**HOME.**", "p19", (310, 214, 270), (262, 405), size=58),
-      L("sfx", "THOOM!", "p19", (548, 712, 340), angle=-6),
+      L("sfx", "THOOM!", "p19", (548, 698, 340), angle=-6),
       L("balloon", "...", "p20", (80, 1110, 150), (20, 1215), size=48)])
 
 # s10 the punchline, and something flaps

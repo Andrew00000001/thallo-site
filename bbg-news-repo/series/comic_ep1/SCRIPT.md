@@ -252,7 +252,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
   - **caption** "The red food stand." · panel p08 · box [64, 282, 560] · 34 px
   - **hud** "SUBJECT: OLIVER / THREAT LEVEL: FLUFFY" · panel p08 · box [64, 350, 450] · tail → [640, 500] · 34 px
   - **sfx** "CRUNCH!" · panel p08 · box [90, 740, 360] · angle 8
-  - **sfx** "KA-CHUNK!" · panel p09 · box [300, 1016, 330] · angle -6
+  - **sfx** "KA-CHUNK!" · panel p09 · box [300, 1022, 330] · angle -6
 
 ### s04 · The Verdict (full page)
 - **Why the reader swipes:** the reveal answers s03. The line is split across two balloons, so the reader takes Sanchez's one allowed pause before "...HOME.". Oliver's reaction is held for the next swipe.
@@ -276,7 +276,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
 - **Lettering:**
   - **balloon** "Sanchez! / Buddy! / You look / **GREAT!**" · panel p11 · box [706, 100, 318] · tail → [700, 410] · 44 px
   - **balloon** "...**FRY?**" · panel p12 · box [64, 718, 280] · tail → [292, 893] · 52 px
-  - **sfx** "SSSSZZZ..." · panel p13 · box [690, 722, 330] · angle 4
+  - **sfx** "SSSSZZZ..." · panel p13 · box [690, 732, 330] · angle 4
 
 ### s06 · Up the wreck: "This arm, I did not ask for." (full page)
 - **Why the reader swipes:** the hoist happened in the gutter ("ONE SCOOP LATER..."), they're on the pad from the cold open, and the grand line stops at "...I did not ask for." But?
@@ -324,7 +324,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
 - **Lettering** (the cue peaks over the arc and lands on the touchdown):
   - **caption** "~ Big heroic finish ~" · panel p19 · box [64, 64, 480] · 34 px
   - **balloon** "**HOME.**" · panel p19 · box [310, 214, 270] · tail → [262, 405] · 58 px
-  - **sfx** "THOOM!" · panel p19 · box [548, 712, 340] · angle -6
+  - **sfx** "THOOM!" · panel p19 · box [548, 698, 340] · angle -6
   - **balloon** "..." · panel p20 · box [80, 1110, 150] · tail → [20, 1215] · 48 px
 
 ### s10 · "...That's THEIR ship."
@@ -413,7 +413,7 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 | **Thu Oct 29** (done) | Rejected: G03 v3 (both arms mechanical again), G05 v2 (both arms mechanical, no carry, off the pad), G09 (a mechanical left hand, the carry on the wrong arm) and G04 (a near copy of G02). **Approved: G08** (minor) | Root cause found: the bare left/right wording. The retake prompts were rewritten in viewer terms, s11 was lettered, and the contact sheet went to Bryce |
 | **Fri Oct 30** (done) | **Approved:** G05 v3 (Oliver's knee bands painted in locally) and G04 v2 (minor). **Rejected:** G03 v4 (neither Element held; arms swapped), G09 v2 (the leading fist mechanical) and G06 (Oliver sits instead of being carried; a wide, toy-scale shot) | s05 and s06 lettered; p16 re-cut |
 | **Sat Oct 31** (done) | **Approved:** G03 v5 take b (one mechanical arm, pointing down at Oliver; take a kept as the alternate) and G06 v2 (shown zoomed as the planned close-up). **Rejected:** G09 v3, both takes (flew right to left; one lost the Sanchez look, the other had two mechanical hands) | s03, s04, s05 and s07 re-fit and lettered. `letter.py` clamps its fit box (a float edge case on p09) |
-| **Sun Nov 1** (done) | **G09 v4**: three edits of the Oct 30 take that change only the forward arm (2 credits each). **Approved:** edit B (899f4b81, the Sanchez sheet as a second reference; minor). Edits A1 and A2 also passed as minor, but their gloves came out lighter, so the cover fallback was not needed | **Locked:** all 14 slides; the strict render and the strict face test both pass with 0 warnings. The final review (five reviewers) found nothing to fix. Its free lettering minors were applied: s01's lock ring moved to Sanchez; line breaks on s05, s06 and s14; THOOM! and FWAP! moved; spacing on s02 and s03. The art minors are recorded in DONE, and the s08 and s10 alt text was corrected. Sent to Bryce for approval. Google Drive only after he approves (comics_final/README.md) |
+| **Sun Nov 1** (done) | **G09 v4**: three edits of the Oct 30 take that change only the forward arm (2 credits each). **Approved:** edit B (899f4b81, the Sanchez sheet as a second reference; minor). Edits A1 and A2 also passed as minor, but their gloves came out lighter, so the cover fallback was not needed | **Locked:** all 14 slides; the strict render and the strict face test both pass with 0 warnings. The final review (five reviewers) found nothing to fix. Its free lettering minors were applied: s01's lock ring moved to Sanchez; line breaks on s05, s06 and s14; THOOM! and FWAP! moved; spacing on s02 and s03. A second check fixed three SFX clearances (THOOM!, SSSSZZZ... and KA-CHUNK!). An automated scan then found no lettering within 4 px of any panel border, apart from s12's deliberate HUD leader. The art minors are recorded in DONE, and the s03, s05, s08 and s10 alt text now matches the art. Sent to Bryce for approval. Google Drive only after he approves (comics_final/README.md) |
 | **Mon Nov 2 – Tue Nov 3** | Buffer only | Phone check: the slide counter, the 3:4 grid crop of s01, the in-app alt-text limit; final caption |
 | **Wed Nov 4** | — | **Post at about 12:00**, AI label on |
 
@@ -483,12 +483,12 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 ### Alt text (one per slide; each under 600 characters, inside the API's 1,000. If the in-app box proves shorter, post the full set as the first comment.)
 - **s01:** Comic cover. High over a sunny field of zig-zag trenches, Sanchez, a teddy-bear cyborg with a glowing red visor and a huge red-and-black robot arm, flies in a superhero pose, fist forward. Tucked under his robot arm, Oliver, a brown teddy-bear soldier in a red headband, hugs a glowing basket of fries with a fry in his mouth as fries tumble out behind them. Gold title: We'll Getcha Home. Cyan screen box: BBG News, live. Local Hazards, episode 1. A target ring on Sanchez reads: Destination: home? Swipe.
 - **s02:** B-1000, a hulking maroon robot bear with glowing cyan eye-slits, a rail-gun arm and cyan claws, stands below a chunky grey crashed dropship with red bands and a glowing pad on its roof. His cyan screen box: "B-1000. Live. Scanning location." Two identical panels of the ship, his head peeking up from below: "Hazard: crashed dropship." "Status: still crashed." He shouts beside a close-up of the roof pad in a target ring: "Launch pad destination: the other crashed dropship."
-- **s03:** Title band: Local Hazards, with a news sting: dun-dunn! Caption: The red food stand. Under a red-and-yellow parasol, Oliver sits in the grass, eyes shut in bliss, biting a fry beside a glowing basket. Screen tag: "Subject: Oliver. Threat level: fluffy." Sound: crunch! Bottom panel: a red-and-black robot arm swings into view, pointing, beside a dark grey gloved hand on a chest plate. Sound: ka-chunk!
+- **s03:** Title band: Local Hazards, with a news sting: dun-dunn! Caption: The red food stand. Under a red-and-yellow parasol, Oliver sits in the grass, eyes shut in bliss, biting a fry beside a red wicker basket of fried food. Screen tag: "Subject: Oliver. Threat level: fluffy." Sound: crunch! Bottom panel: a red-and-black robot arm swings into view, pointing, beside a dark grey gloved hand on a chest plate. Sound: ka-chunk!
 - **s04:** Low angle: Sanchez towers over Oliver, his gloved hand on his chest, pointing his robot arm down at him. Screen tag: "Subject: Sanchez. Threat level: partial upgrade." Sanchez: "Oliver, we'll getcha..." "...home."
-- **s05:** Looking down at Oliver, mouth stuffed, grinning guiltily and holding up a single fry, the basket beside him: "Sanchez! Buddy! You look great!" Close-up, hopeful: "...Fry?" Sanchez's red visor stares back in silence while the fryer sizzles.
+- **s05:** Looking down at Oliver, a fry in his mouth, grinning slyly with a sideways glance and holding up a single fry, the basket beside him: "Sanchez! Buddy! You look great!" Close-up, with a sly side-eye: "...Fry?" Sanchez's red visor stares back in silence while the fryer sizzles.
 - **s06:** Caption: One scoop later... Low angle up at the red-banded crashed dropship: Sanchez stands on the glowing roof pad, chest out, Oliver tucked under his robot arm and still chewing. Sanchez: "This arm, I did not ask for." Sound: klang!
 - **s07:** Close-up: Sanchez tilts his head toward his robot arm with a small proud smile. Sanchez: "But look at it." Oliver chews, deadpan. Sound: munch. Below, Sanchez's boots and Oliver's dangling bare feet on the pad as it glows brighter. Sound: a rising hum, vmmmm.
-- **s08:** The roof pad, suddenly empty: whump! Below, seen from down in a trench, Sanchez flies low over it in a heroic pose, fist forward, Oliver under his robot arm with a fry in his mouth and a carton of fries, fries falling behind them. Caption: heroic brass swells. Sound: fwoooosh!
+- **s08:** The roof pad, suddenly empty: whump! Below, seen from down in a trench, Sanchez flies low over it in a heroic pose, fist forward, Oliver under his robot arm with a fry in his mouth and a carton of fries, fries falling behind them. Caption: heroic brass swells. Sound: fwooooosh!
 - **s09:** They land beside the nose of a crashed dropship with royal-blue bands. Caption: big heroic finish. Sound: thoom! Sanchez, chest out: "Home." Below, a silent close-up of the blue band and the cockpit window, and an off-panel balloon with three dots.
 - **s10:** Oliver looks up with a small, knowing smirk: "...That's their ship." The music caption is cut off: heroic bra. Below, Sanchez still holds his proud pose as something off-panel goes: fwap!
 - **s11:** Reverse view: five grinning pink stitched Huggables with bandaged heads, head radios, tall blue banners and black bear-trap jaws on their paws have snapped round toward us, arms wide for a hug, in front of the blue ship. Their radios: kssht. Jaws: clack! Sanchez, off-panel, in a tiny whisper: "...Mayday."
