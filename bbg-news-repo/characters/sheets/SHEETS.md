@@ -224,6 +224,10 @@ Not created yet, and waiting for their queued fixes: Botch, Astoria, Saberi, Wil
   - `sanchez-arbiter` held in the recomposed Verdict (G03 v5, both takes) and in G06 v2: one mechanical arm each time.
   - In the flight pose (G09 v3), one take lost most of his look (no goatee or glove, olive camo), and the other gave him two mechanical hands. The flight pose is the weak spot. Nov 1 tries an edit of the closest take instead of a new generation.
   - `oliver-soldier`: G06 v2 copied G05's bare knees from its reference. The zoomed panel leaves them out of frame.
+- **Elements in use, Nov 1:**
+  - `sanchez-arbiter`: G09 was saved by an edit, not a new generation. The Oct 30 take (55b9324f) was edited with the Sanchez sheet as a second reference, changing only the forward arm. Edit B (899f4b81) gave one mechanical arm, the plain left forearm and the dark grey glove, so all 14 slides are approved.
+  - For flight or other hard poses in later episodes, start from the closest take and edit it, rather than re-rolling.
+  - `oliver-soldier`: the final review found small drifts. His standing height reads about 0.7x Sanchez's (the souls say 1.0x), and one wristband is missing in G03. Name his height and both wristbands in Ep 2 prompts.
 
 ## Queued for the next daily reset
 
@@ -235,7 +239,7 @@ Episode 1 now shares the daily limit, so the plan for each reset is in the resea
 4. Plate P2.
 5. The Huggable, fresh sheet v4.
 
-Nov 1 (comic plan, `series/comic_ep1/SCRIPT.md` §7): G09 v4, three edits of the Oct 30 take, then the lock. G03, G04, G05, G06 and G08 are approved. The Huggable sheets are done. Episode 1 is now a comic, so plate P4 and the C2 and C4 start stills are dropped.
+Nov 1 (comic plan, `series/comic_ep1/SCRIPT.md` §7): done. G09 v4 edit B was approved, and all 14 Ep 1 slides are locked and waiting for Bryce's approval. No more Ep 1 generations are planned. The Huggable sheets are done. Episode 1 is now a comic, so plate P4 and the C2 and C4 start stills are dropped.
 
 Later (sheets for future episodes):
 - Botch;

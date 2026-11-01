@@ -194,7 +194,7 @@ The research checked 3:4 (1080×1440). Instagram has shown 3:4 photos in single 
 
 **Lettering:**
   - **hud** "BBG NEWS · LIVE / LOCAL HAZARDS · EP 1" · panel p01 · box [64, 58, 470] · 34 px
-  - **hud** "DESTINATION: HOME?" · panel p01 · box [64, 790, 420] · tail → [520, 640] · 34 px
+  - **hud** "DESTINATION: / HOME?" · panel p01 · box [668, 690, 300] · tail → [640, 540] · 34 px
   - **title** "WE'LL GETCHA" · panel p01 · box [90, 955, 900]
   - **title** "HOME" · panel p01 · box [330, 1092, 420]
   - **hud** "SWIPE >>" · panel p01 · box [810, 1240, 200] · 30 px
@@ -235,9 +235,9 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
   - **p06:** approved P1 (job 15321af3), close on the glowing pad: B-1000's point of view of the target (slate §2 POV habit).
 - **Lettering** (B-1000's four locked lines, 17 words):
   - **hud** "B-1000. LIVE. / SCANNING LOCATION." · panel p02 · box [64, 64, 450] · tail → [498, 396] · 36 px · `live: true` (red ● LIVE tag)
-  - **hud** "HAZARD: / CRASHED DROPSHIP." · panel p03 · box [56, 714, 400] · tail → [430, 846] · 32 px
-  - **hud** "STATUS: / STILL CRASHED." · panel p04 · box [566, 714, 400] · tail → [940, 846] · 32 px
-  - **hud** "LAUNCH PAD DESTINATION: / THE OTHER CRASHED DROPSHIP." · panel p06 · box [404, 1014, 620] · tail → [774, 1200] · 32 px
+  - **hud** "HAZARD: / CRASHED DROPSHIP." · panel p03 · box [64, 722, 400] · tail → [430, 846] · 32 px
+  - **hud** "STATUS: / STILL CRASHED." · panel p04 · box [574, 722, 400] · tail → [940, 846] · 32 px
+  - **hud** "LAUNCH PAD DESTINATION: / THE OTHER CRASHED DROPSHIP." · panel p06 · box [412, 1022, 612] · tail → [774, 1200] · 32 px
 
 ### s03 · Sting, Oliver, and a red visor arriving
 - **Why the reader swipes:** the show's title lands, Oliver is caught mid-snack with a FLUFFY rating, and a red visor and a clunking arm cut in at the bottom. Who's that?
@@ -252,7 +252,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
   - **caption** "The red food stand." · panel p08 · box [64, 282, 560] · 34 px
   - **hud** "SUBJECT: OLIVER / THREAT LEVEL: FLUFFY" · panel p08 · box [64, 350, 450] · tail → [640, 500] · 34 px
   - **sfx** "CRUNCH!" · panel p08 · box [90, 740, 360] · angle 8
-  - **sfx** "KA-CHUNK!" · panel p09 · box [300, 1000, 330] · angle -6
+  - **sfx** "KA-CHUNK!" · panel p09 · box [300, 1016, 330] · angle -6
 
 ### s04 · The Verdict (full page)
 - **Why the reader swipes:** the reveal answers s03. The line is split across two balloons, so the reader takes Sanchez's one allowed pause before "...HOME.". Oliver's reaction is held for the next swipe.
@@ -274,7 +274,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
   - **p12 = crop of G04:** his face and the raised fry (the package's "half-beat of silence, then '...Fry?' on the hold").
   - **p13 = crop of G03:** tight on the helmet and the glowing visor, the glow band narrowed, cut above the mouth (he is speaking in G03), so the panel reads as a silent stare.
 - **Lettering:**
-  - **balloon** "Sanchez! Buddy! You look **GREAT!**" · panel p11 · box [706, 100, 318] · tail → [700, 410] · 44 px
+  - **balloon** "Sanchez! / Buddy! / You look / **GREAT!**" · panel p11 · box [706, 100, 318] · tail → [700, 410] · 44 px
   - **balloon** "...**FRY?**" · panel p12 · box [64, 718, 280] · tail → [292, 893] · 52 px
   - **sfx** "SSSSZZZ..." · panel p13 · box [690, 722, 330] · angle 4
 
@@ -287,7 +287,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
   - **Fallback if the carry fails twice:** two solo shots on the same pad, one Element each (Sanchez chest out; Oliver munching on the hull), at one extra run. The carry has now failed twice: Oct 28, Oliver under the gloved arm; Oct 29, two mechanical arms and no carry. Both failures trace to the bare left/right wording, so v3 (Oct 30) tried the viewer-term action sentence first. **v3 is approved** (minor), with Oliver's missing knee bands and studs painted in locally (`tools/fix_p14_kneebands.py`). The fallback is not needed.
 - **Lettering:**
   - **caption** "One scoop later..." · panel p14 · box [64, 64, 400] · 38 px
-  - **balloon** "This arm, I did not ask for." · panel p14 · box [64, 150, 470] · tail → [632, 322] · 46 px
+  - **balloon** "This arm, / I did not / ask for." · panel p14 · box [64, 150, 400] · tail → [632, 322] · 46 px
   - **sfx** "KLANG!" · panel p14 · box [640, 880, 360] · angle -8
 
 ### s07 · "But LOOK at it."
@@ -324,7 +324,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
 - **Lettering** (the cue peaks over the arc and lands on the touchdown):
   - **caption** "~ Big heroic finish ~" · panel p19 · box [64, 64, 480] · 34 px
   - **balloon** "**HOME.**" · panel p19 · box [310, 214, 270] · tail → [262, 405] · 58 px
-  - **sfx** "THOOM!" · panel p19 · box [330, 742, 360] · angle -6
+  - **sfx** "THOOM!" · panel p19 · box [548, 712, 340] · angle -6
   - **balloon** "..." · panel p20 · box [80, 1110, 150] · tail → [20, 1215] · 48 px
 
 ### s10 · "...That's THEIR ship."
@@ -335,7 +335,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
 - **Lettering** (his bravado cracks on THEIR):
   - **balloon** "...That's **THEIR** ship." · panel p21 · box [64, 64, 440] · tail → [470, 316] · 48 px
   - **caption** "~ Heroic bra--" · panel p21 · box [64, 744, 320] · 34 px
-  - **sfx** "FWAP!" · panel p22 · box [790, 1118, 200] · angle -10
+  - **sfx** "FWAP!" · panel p22 · box [810, 930, 200] · angle -10
 
 ### s11 · The reverse (full page; generated last)
 - **Why the reader swipes:** the swipe is the reveal, and the next swipe is the hard cut, before the hug lands. No contact is ever shown.
@@ -390,7 +390,7 @@ Coordinates are canvas pixels on 1080×1350. "Crop of Gnn" panels are cut from t
 - **Panel:** p29 [40, 40, 1000, 1160] (the local HUD screen, with room for the end card on the bottom margin).
 - **Lettering:**
   - **hud** "NEXT LOCATION: / STEAMYARD BLUES." · panel p29 · box [90, 100, 900] · 50 px
-  - **caption** "Guess the next **THREAT LEVEL** in the comments." · panel p29 · box [90, 360, 900] · 46 px
+  - **caption** "Guess the next / **THREAT LEVEL** in the comments." · panel p29 · box [90, 360, 900] · 46 px
   - **hud** "SUBJECT: ??? / THREAT LEVEL: ???" · panel p29 · box [260, 610, 560] · 46 px
   - **caption** "Send this to your BBG squad. / Follow BBG News for Ep 2." · panel p29 · box [90, 870, 900] · 44 px
   - **endcard** "Unofficial fan comic, not affiliated with SkyVu; characters © SkyVu." · default placement (bottom margin)
@@ -413,7 +413,7 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 | **Thu Oct 29** (done) | Rejected: G03 v3 (both arms mechanical again), G05 v2 (both arms mechanical, no carry, off the pad), G09 (a mechanical left hand, the carry on the wrong arm) and G04 (a near copy of G02). **Approved: G08** (minor) | Root cause found: the bare left/right wording. The retake prompts were rewritten in viewer terms, s11 was lettered, and the contact sheet went to Bryce |
 | **Fri Oct 30** (done) | **Approved:** G05 v3 (Oliver's knee bands painted in locally) and G04 v2 (minor). **Rejected:** G03 v4 (neither Element held; arms swapped), G09 v2 (the leading fist mechanical) and G06 (Oliver sits instead of being carried; a wide, toy-scale shot) | s05 and s06 lettered; p16 re-cut |
 | **Sat Oct 31** (done) | **Approved:** G03 v5 take b (one mechanical arm, pointing down at Oliver; take a kept as the alternate) and G06 v2 (shown zoomed as the planned close-up). **Rejected:** G09 v3, both takes (flew right to left; one lost the Sanchez look, the other had two mechanical hands) | s03, s04, s05 and s07 re-fit and lettered. `letter.py` clamps its fit box (a float edge case on p09) |
-| **Sun Nov 1** | **G09 v4**: three edits of the Oct 30 take that change only the forward arm (2 credits each). If none passes, slide 8 uses the checked fallback, a tighter crop of the approved cover (`P18_USE_COVER`) | **Lock:** every panel approved; `letter.py pages.json --strict --guides --jpg`; final two-lens review of all 14 slides; send to Bryce for approval. Google Drive only after he approves (comics_final/README.md) |
+| **Sun Nov 1** (done) | **G09 v4**: three edits of the Oct 30 take that change only the forward arm (2 credits each). **Approved:** edit B (899f4b81, the Sanchez sheet as a second reference; minor). Edits A1 and A2 also passed as minor, but their gloves came out lighter, so the cover fallback was not needed | **Locked:** all 14 slides; the strict render and the strict face test both pass with 0 warnings. The final review (five reviewers) found nothing to fix. Its free lettering minors were applied: s01's lock ring moved to Sanchez; line breaks on s05, s06 and s14; THOOM! and FWAP! moved; spacing on s02 and s03. The art minors are recorded in DONE, and the s08 and s10 alt text was corrected. Sent to Bryce for approval. Google Drive only after he approves (comics_final/README.md) |
 | **Mon Nov 2 – Tue Nov 3** | Buffer only | Phone check: the slide counter, the 3:4 grid crop of s01, the in-app alt-text limit; final caption |
 | **Wed Nov 4** | — | **Post at about 12:00**, AI label on |
 
@@ -488,9 +488,9 @@ Dependencies: G02 before G03 and G04 (their reference); G01 before G05, G07 and 
 - **s05:** Looking down at Oliver, mouth stuffed, grinning guiltily and holding up a single fry, the basket beside him: "Sanchez! Buddy! You look great!" Close-up, hopeful: "...Fry?" Sanchez's red visor stares back in silence while the fryer sizzles.
 - **s06:** Caption: One scoop later... Low angle up at the red-banded crashed dropship: Sanchez stands on the glowing roof pad, chest out, Oliver tucked under his robot arm and still chewing. Sanchez: "This arm, I did not ask for." Sound: klang!
 - **s07:** Close-up: Sanchez tilts his head toward his robot arm with a small proud smile. Sanchez: "But look at it." Oliver chews, deadpan. Sound: munch. Below, Sanchez's boots and Oliver's dangling bare feet on the pad as it glows brighter. Sound: a rising hum, vmmmm.
-- **s08:** The roof pad, suddenly empty: whump! Below, seen from down in a trench, Sanchez streaks overhead in a heroic flying pose, Oliver under his arm with a fry in his mouth, fries raining down toward us. Caption: heroic brass swells. Sound: fwoooosh!
+- **s08:** The roof pad, suddenly empty: whump! Below, seen from down in a trench, Sanchez flies low over it in a heroic pose, fist forward, Oliver under his robot arm with a fry in his mouth and a carton of fries, fries falling behind them. Caption: heroic brass swells. Sound: fwoooosh!
 - **s09:** They land beside the nose of a crashed dropship with royal-blue bands. Caption: big heroic finish. Sound: thoom! Sanchez, chest out: "Home." Below, a silent close-up of the blue band and the cockpit window, and an off-panel balloon with three dots.
-- **s10:** Oliver stares up, flat-faced: "...That's their ship." The music caption is cut off: heroic bra. Below, Sanchez still holds his proud pose as something off-panel goes: fwap!
+- **s10:** Oliver looks up with a small, knowing smirk: "...That's their ship." The music caption is cut off: heroic bra. Below, Sanchez still holds his proud pose as something off-panel goes: fwap!
 - **s11:** Reverse view: five grinning pink stitched Huggables with bandaged heads, head radios, tall blue banners and black bear-trap jaws on their paws have snapped round toward us, arms wide for a hug, in front of the blue ship. Their radios: kssht. Jaws: clack! Sanchez, off-panel, in a tiny whisper: "...Mayday."
 - **s12:** A ledger card: Scenery 1, Bears 0. Three blue lightning-bolt tokens: plink, plink, plink. Method: delivered to the wrong ship. Stamp: Real map. Fan-made news. Below, B-1000 in a small news window reports in cyan boxes: "Kill credit: jump pad. Assist: Huggables." "Next location: Steamyard Blues." "Uploading... 99%", over a progress bar stuck one segment short.
 - **s13:** Pink static with a stitched seam: kssht. Over B-1000, standing by the red ship: "Rerouting... to: everyone." B-1000, in a dead-still glare: "Tee-hee."

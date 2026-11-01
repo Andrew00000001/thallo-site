@@ -94,6 +94,14 @@ Higgsfield's 5-a-day generation limit sets this pace.
 - The finished carousel goes to Google Drive only after Bryce approves it.
 - Comic panel spend: 56 credits; credits left: 32.92.
 
+**Status on 2026-11-01:**
+- Approved: G09 v4 edit B (the flight, slide 8). Only the forward arm changed: one mechanical arm, the plain left forearm and the dark grey glove.
+- **All 14 slides are locked.** The strict render and the strict face test both pass with 0 warnings.
+- Final review (five reviewers): nothing to fix. The lettering minors were applied and the art minors recorded.
+- Sent to Bryce for approval. Post by hand at about 12:00 on Wed Nov 4, with the AI label on (`series/comic_ep1/SCRIPT.md` §10).
+- The carousel goes to Google Drive only after Bryce approves it.
+- Comic panel spend: about 62 credits.
+
 
 1. **The Higgsfield Elements are still the old low-poly ones.** A read-only listing of the workspace on 2026-10-20 shows `oliver-soldier` (5e079b47…), `huggable-huggable` (e188dc42…) and `riggs-heavy` (1475a232…), all created on Oct 15 from the retired low-poly sheets (their descriptions say "low-poly"). No Element has been made from any SHEETS.md sheet, and there is no `b-1000-assault-signature` Element at all.
    - Create the new Elements from the SHEETS.md jobs (type `image_job`): B-1000 from the fixed sheet once blocker 5 clears (the current sheet is `1f7259ce-23ed-4398-9a91-cdbf429dfeed`; use it only under Bryce's recorded exception), Oliver `909ea0bd-843e-4324-ae88-193c2eeb84cb`; Sanchez and the blue Huggable once their sheets pass QA. Creating an Element cost nothing on Oct 15.

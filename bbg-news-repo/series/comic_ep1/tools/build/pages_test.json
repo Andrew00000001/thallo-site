@@ -52,16 +52,16 @@
     },
     {
      "type": "hud",
-     "text": "DESTINATION: HOME?",
+     "text": "DESTINATION:\nHOME?",
      "panel": "p01",
      "box": [
-      64,
-      790,
-      420
+      668,
+      690,
+      300
      ],
      "tail": [
-      520,
-      640
+      640,
+      540
      ],
      "size": 34
     },
@@ -215,8 +215,8 @@
      "text": "HAZARD:\nCRASHED DROPSHIP.",
      "panel": "p03",
      "box": [
-      56,
-      714,
+      64,
+      722,
       400
      ],
      "tail": [
@@ -230,8 +230,8 @@
      "text": "STATUS:\nSTILL CRASHED.",
      "panel": "p04",
      "box": [
-      566,
-      714,
+      574,
+      722,
       400
      ],
      "tail": [
@@ -245,9 +245,9 @@
      "text": "LAUNCH PAD DESTINATION:\nTHE OTHER CRASHED DROPSHIP.",
      "panel": "p06",
      "box": [
-      404,
-      1014,
-      620
+      412,
+      1022,
+      612
      ],
      "tail": [
       774,
@@ -380,7 +380,7 @@
      "panel": "p09",
      "box": [
       300,
-      1000,
+      1016,
       330
      ],
      "angle": -6
@@ -544,7 +544,7 @@
    "letters": [
     {
      "type": "balloon",
-     "text": "Sanchez! Buddy! You look **GREAT!**",
+     "text": "Sanchez!\nBuddy!\nYou look\n**GREAT!**",
      "panel": "p11",
      "box": [
       706,
@@ -632,12 +632,12 @@
     },
     {
      "type": "balloon",
-     "text": "This arm, I did not ask for.",
+     "text": "This arm,\nI did not\nask for.",
      "panel": "p14",
      "box": [
       64,
       150,
-      470
+      400
      ],
      "tail": [
       632,
@@ -911,9 +911,9 @@
      "text": "THOOM!",
      "panel": "p19",
      "box": [
-      330,
-      742,
-      360
+      548,
+      712,
+      340
      ],
      "angle": -6
     },
@@ -1022,8 +1022,8 @@
      "text": "FWAP!",
      "panel": "p22",
      "box": [
-      790,
-      1118,
+      810,
+      930,
       200
      ],
      "angle": -10
@@ -1384,7 +1384,7 @@
     },
     {
      "type": "caption",
-     "text": "Guess the next **THREAT LEVEL** in the comments.",
+     "text": "Guess the next\n**THREAT LEVEL** in the comments.",
      "panel": "p29",
      "box": [
       90,

@@ -100,7 +100,7 @@
   "raw_download": "src/p08_raw.png",
   "job_id": "4f2adc91-2485-423b-afdf-96ea76df244b",
   "day": "2026-10-27",
-  "status": "approved"
+  "status": "approved. Minor (Nov 1 final review): the stand's basket holds golden nuggets while Oliver eats fries (also G03, G04)"
  },
  {
   "id": "p09",
@@ -127,7 +127,7 @@
   "raw_download": "src/p10_raw.png",
   "job_id": "d9ecb0f3-99f5-4f33-bb9a-36e670217132",
   "day": "2026-10-31",
-  "status": "approved, minor (Oct 31 review panel; v5 take b, recomposed): one mechanical arm (his right, viewer's left) pointing down at Oliver, the glove on his chest. Minors: no distinct forearm lamp; Oliver seen in profile, not from behind; a mild low angle; seated Oliver reads about 0.8x. Take a (213ada59, src/p10_raw_alt_oct31.png) also passed but points at the sky. p09 is now the arm strip; the visor waits for s04",
+  "status": "approved, minor (Oct 31 review panel; v5 take b, recomposed): one mechanical arm (his right, viewer's left) pointing down at Oliver, the glove on his chest. Minors: no distinct forearm lamp; Oliver seen in profile, not from behind; a mild low angle; seated Oliver reads about 0.8x; Nov 1 final review: no wristband on the wrist Oliver turns to camera. Take a (213ada59, src/p10_raw_alt_oct31.png) also passed but points at the sky. p09 is now the arm strip; the visor waits for s04",
   "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)", "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)", "626d2ca0-17b7-4ca6-83f3-b221e76e2b37 (Oct 29 v3: both forearms mechanical again, the glove on the mechanical arm and a robot hand on the camo-sleeved left arm doing the pointing)", "bc8cb320-2f65-450e-85ad-394908225a6d (Oct 30 v4: neither Element held (no camo, trousers, boots or goatee; Oliver without his kit), and the arms swapped: the glove on his right, the mechanical arm his left, pointing up)"]
  },
  {
@@ -183,7 +183,7 @@
   "raw_download": "src/p14_raw.png",
   "job_id": "defdbbab-c741-436e-b42a-519d10a48f5b",
   "day": "2026-10-30",
-  "status": "approved, minor (Oct 30 review panel, v3) with a local fix: Oliver's missing knee bands and studs painted in by tools/fix_p14_kneebands.py (src/p14_raw.png is the fixed image). Minors: no distinct forearm lamp; Oliver about 0.64x Sanchez's height while carried; a tall fry carton rather than the tray; hull behind them rather than sky, and no furrow",
+  "status": "approved, minor (Oct 30 review panel, v3) with a local fix: Oliver's missing knee bands and studs painted in by tools/fix_p14_kneebands.py (src/p14_raw.png is the fixed image). Minors: no distinct forearm lamp; Oliver about 0.64x Sanchez's height while carried; a tall fry carton rather than the tray; hull behind them rather than sky, and no furrow. Nov 1 final review: the hull reads warm khaki here (G06 too) against P1's slate grey on s02, s08 and s13; the painted knee bands look flat, with square studs, where the generated ones (G02-G04) have round silver-ringed studs (seen enlarged on s07 p16)",
   "rejected": ["d85aeea7-b5f3-4b5a-9b1b-5f8195936da7 (Oct 28: the wreck drawn toy-sized under the bears; Oliver under the gloved arm)", "0b6e96de-9a84-4179-a6c2-d54413298ab7 (Oct 29 v2: both arms mechanical; Oliver beside him on the viewer's right, not carried; Sanchez crouched off the pad; high angle)"]
  },
  {
@@ -255,7 +255,7 @@
   "raw_download": "src/p19_raw.png",
   "job_id": "56882afc-79c0-44c9-97a0-0d00b9c0aee7",
   "day": "2026-10-28",
-  "status": "approved (Oliver lands standing beside Sanchez, not carried; crops p20-p22 re-fit Oct 28)"
+  "status": "approved (Oliver lands standing beside Sanchez, not carried; crops p20-p22 re-fit Oct 28). Minors (Nov 1 final review): Oliver smirks on \"...That's THEIR ship.\" instead of going flat (the s10 alt text now says so); a few salmon-red chips under the blue bands; Oliver about 0.7x Sanchez standing; the tray is back after the carton on s08"
  },
  {
   "id": "p20",
@@ -306,7 +306,7 @@
   "raw_download": "src/p23_raw.png",
   "job_id": "9672e417-5569-47df-8898-01b2ac27e355",
   "day": "2026-10-29",
-  "status": "approved, minor (Oct 29 review panel): every sided feature right on all five; an arms-wide march rather than a lean-in hug; short banners showing only the circle; a wide rather than medium shot"
+  "status": "approved, minor (Oct 29 review panel): every sided feature right on all five; an arms-wide march rather than a lean-in hug; short banners showing only the circle; a wide rather than medium shot; Nov 1 final review: the blue ship's nose points right here but left on s09-s10"
  },
  {
   "id": "p24",

@@ -339,7 +339,7 @@ STING = dict(font="rounded-black")                                    # slate: o
 page("s01", [P("p01", (40, 40, 1000, 1270), border=0, kind="gen", gen="G01",
                faces=[(560, 250, 200, 200, "S"), (400, 410, 175, 185, "O")])],
      [L("hud", "BBG NEWS · LIVE\nLOCAL HAZARDS · EP 1", "p01", (64, 58, 470), size=34),
-      L("hud", "DESTINATION: HOME?", "p01", (64, 790, 420), (520, 640), size=34),
+      L("hud", "DESTINATION:\nHOME?", "p01", (668, 690, 300), (640, 540), size=34),
       L("title", "WE'LL GETCHA", "p01", (90, 955, 900)),
       L("title", "HOME", "p01", (330, 1092, 420)),
       L("hud", "SWIPE >>", "p01", (810, 1240, 200), size=30)])
@@ -354,9 +354,9 @@ page("s02", [P("p02", (40, 40, 1000, 640), kind="reuse", src="C1_still", box=(0,
              P("p06", (390, 1000, 650, 310), kind="reuse", src="P1", box=(280, 800, 1070, 1177))],
      [L("hud", "B-1000. LIVE.\nSCANNING LOCATION.", "p02", (64, 64, 450), (498, 396), size=36,
         live=True),
-      L("hud", "HAZARD:\nCRASHED DROPSHIP.", "p03", (56, 714, 400), (430, 846), size=32),
-      L("hud", "STATUS:\nSTILL CRASHED.", "p04", (566, 714, 400), (940, 846), size=32),
-      L("hud", "LAUNCH PAD DESTINATION:\nTHE OTHER CRASHED DROPSHIP.", "p06", (404, 1014, 620),
+      L("hud", "HAZARD:\nCRASHED DROPSHIP.", "p03", (64, 722, 400), (430, 846), size=32),
+      L("hud", "STATUS:\nSTILL CRASHED.", "p04", (574, 722, 400), (940, 846), size=32),
+      L("hud", "LAUNCH PAD DESTINATION:\nTHE OTHER CRASHED DROPSHIP.", "p06", (412, 1022, 612),
         (774, 1200), size=32)])
 
 # s03 sting, Oliver, the red visor arriving
@@ -372,7 +372,7 @@ page("s03", [P("p07", (40, 40, 1000, 200), kind="gfx", gfx="sting band: navy HUD
       L("caption", "The red food stand.", "p08", (64, 282, 560), size=34),
       L("hud", "SUBJECT: OLIVER\nTHREAT LEVEL: FLUFFY", "p08", (64, 350, 450), (640, 500), size=34),
       L("sfx", "CRUNCH!", "p08", (90, 740, 360), angle=8),
-      L("sfx", "KA-CHUNK!", "p09", (300, 1000, 330), angle=-6)])
+      L("sfx", "KA-CHUNK!", "p09", (300, 1016, 330), angle=-6)])
 
 # s04 the Verdict
 page("s04", [P("p10", (40, 40, 1000, 1270), kind="gen", gen="G03",
@@ -390,7 +390,7 @@ page("s05", [P("p11", (40, 40, 1000, 640), focus=(0.5, 0.5), kind="gen", gen="G0
              P("p13", (550, 700, 490, 610), kind="crop", gen="G03", crop=(0.615, 0.075, 0.905, 0.3658),
                note="tight on the helmet and the glowing visor (glow band narrowed), cut above the "
                     "mouth so the panel reads silent; crop at 490:610")],
-     [L("balloon", "Sanchez! Buddy! You look **GREAT!**", "p11", (706, 100, 318), (700, 410), size=44),
+     [L("balloon", "Sanchez!\nBuddy!\nYou look\n**GREAT!**", "p11", (706, 100, 318), (700, 410), size=44),
       L("balloon", "...**FRY?**", "p12", (64, 718, 280), (292, 893), size=52),
       L("sfx", "SSSSZZZ...", "p13", (690, 722, 330), angle=4)])
 
@@ -398,7 +398,7 @@ page("s05", [P("p11", (40, 40, 1000, 640), focus=(0.5, 0.5), kind="gen", gen="G0
 page("s06", [P("p14", (40, 40, 1000, 1270), kind="gen", gen="G05",
                faces=[(599, 233, 182, 165, "S"), (470, 368, 137, 124, "O")])],
      [L("caption", "One scoop later...", "p14", (64, 64, 400), size=38),
-      L("balloon", "This arm, I did not ask for.", "p14", (64, 150, 470), (632, 322), size=46),
+      L("balloon", "This arm,\nI did not\nask for.", "p14", (64, 150, 400), (632, 322), size=46),
       L("sfx", "KLANG!", "p14", (640, 880, 360), angle=-8)])
 
 # s07 "But LOOK at it." and the pad starting to hum
@@ -429,7 +429,7 @@ page("s09", [P("p19", (40, 40, 1000, 800), kind="gen", gen="G07",
                note="the nose: one royal-blue band and the cockpit window, no faces, crop at 1000:450")],
      [L("caption", "~ Big heroic finish ~", "p19", (64, 64, 480), size=34),
       L("balloon", "**HOME.**", "p19", (310, 214, 270), (262, 405), size=58),
-      L("sfx", "THOOM!", "p19", (330, 742, 360), angle=-6),
+      L("sfx", "THOOM!", "p19", (548, 712, 340), angle=-6),
       L("balloon", "...", "p20", (80, 1110, 150), (20, 1215), size=48)])
 
 # s10 the punchline, and something flaps
@@ -439,7 +439,7 @@ page("s10", [P("p21", (40, 40, 1000, 800), kind="crop", gen="G07", crop=(0.255, 
                note="Sanchez chest-up, still in his proud hold; crop at 1000:450")],
      [L("balloon", "...That's **THEIR** ship.", "p21", (64, 64, 440), (470, 316), size=48),
       L("caption", "~ Heroic bra--", "p21", (64, 744, 320), size=34),
-      L("sfx", "FWAP!", "p22", (790, 1118, 200), angle=-10)])
+      L("sfx", "FWAP!", "p22", (810, 930, 200), angle=-10)])
 
 # s11 the reverse (the swipe is the hard cut)
 page("s11", [P("p23", (40, 40, 1000, 1270), kind="gen", gen="G08",
@@ -478,7 +478,7 @@ page("s13", [P("p27", (40, 40, 1000, 300), kind="gfx", gfx="pink static with the
 page("s14", [P("p29", (40, 40, 1000, 1160), kind="gfx", gfx="B-1000's HUD screen: navy grid, "
                "scan line")],
      [L("hud", "NEXT LOCATION:\nSTEAMYARD BLUES.", "p29", (90, 100, 900), size=50),
-      L("caption", "Guess the next **THREAT LEVEL** in the comments.", "p29", (90, 360, 900),
+      L("caption", "Guess the next\n**THREAT LEVEL** in the comments.", "p29", (90, 360, 900),
         size=46),
       L("hud", "SUBJECT: ???\nTHREAT LEVEL: ???", "p29", (260, 610, 560), size=46),
       L("caption", "Send this to your BBG squad.\nFollow BBG News for Ep 2.", "p29", (90, 870, 900),
@@ -517,9 +517,9 @@ DONE = {
     "G01": {"job_id": "75d12d6d-6c6a-440f-bfdc-e94c7434ec82",
             "status": "approved: Oct 28 edit of take 1 (9daa8018) mirrored locally, smoke removed and barriers black",
             "rejected": ["1f7dc7cd-f277-4d3e-9cfd-d77abced45af (take 2: pair still high, Oliver under the wrong arm)"]},
-    "G02": {"job_id": "4f2adc91-2485-423b-afdf-96ea76df244b", "status": "approved"},
+    "G02": {"job_id": "4f2adc91-2485-423b-afdf-96ea76df244b", "status": "approved. Minor (Nov 1 final review): the stand's basket holds golden nuggets while Oliver eats fries (also G03, G04)"},
     "G03": {"job_id": "d9ecb0f3-99f5-4f33-bb9a-36e670217132",
-            "status": "approved, minor (Oct 31 review panel; v5 take b, recomposed): one mechanical arm (his right, viewer's left) pointing down at Oliver, the glove on his chest. Minors: no distinct forearm lamp; Oliver seen in profile, not from behind; a mild low angle; seated Oliver reads about 0.8x. Take a (213ada59, src/p10_raw_alt_oct31.png) also passed but points at the sky. p09 is now the arm strip; the visor waits for s04",
+            "status": "approved, minor (Oct 31 review panel; v5 take b, recomposed): one mechanical arm (his right, viewer's left) pointing down at Oliver, the glove on his chest. Minors: no distinct forearm lamp; Oliver seen in profile, not from behind; a mild low angle; seated Oliver reads about 0.8x; Nov 1 final review: no wristband on the wrist Oliver turns to camera. Take a (213ada59, src/p10_raw_alt_oct31.png) also passed but points at the sky. p09 is now the arm strip; the visor waits for s04",
             "rejected": ["4a6cf631-2ef6-4d23-96e0-5b3920f1ceef (Oct 27, content filter, refunded)",
                          "1e4697a7-6c79-49b0-b0b4-4dbe9c83e144 (Oct 28: both arms drawn mechanical; eye-level, not the low-angle Verdict)",
                          "626d2ca0-17b7-4ca6-83f3-b221e76e2b37 (Oct 29 v3: both forearms mechanical again, the glove on the mechanical arm and a robot hand on the camo-sleeved left arm doing the pointing)",
@@ -529,13 +529,13 @@ DONE = {
             "status": "approved, minor (Oct 30 review panel, v2 with P2): on model and not a copy of G02; a sideways glance and sly brows instead of the hopeful look up into the camera, and a medium-wide shot (re-fit with the crops and balloons)",
             "rejected": ["17999ebb-046f-49b9-ab3f-697caafd5e55 (Oct 29: a near copy of G02 with the eyes opened; eye level, a fry in each paw, nothing offered to the camera)"]},
     "G05": {"job_id": "defdbbab-c741-436e-b42a-519d10a48f5b",
-            "status": "approved, minor (Oct 30 review panel, v3) with a local fix: Oliver's missing knee bands and studs painted in by tools/fix_p14_kneebands.py (src/p14_raw.png is the fixed image). Minors: no distinct forearm lamp; Oliver about 0.64x Sanchez's height while carried; a tall fry carton rather than the tray; hull behind them rather than sky, and no furrow",
+            "status": "approved, minor (Oct 30 review panel, v3) with a local fix: Oliver's missing knee bands and studs painted in by tools/fix_p14_kneebands.py (src/p14_raw.png is the fixed image). Minors: no distinct forearm lamp; Oliver about 0.64x Sanchez's height while carried; a tall fry carton rather than the tray; hull behind them rather than sky, and no furrow. Nov 1 final review: the hull reads warm khaki here (G06 too) against P1's slate grey on s02, s08 and s13; the painted knee bands look flat, with square studs, where the generated ones (G02-G04) have round silver-ringed studs (seen enlarged on s07 p16)",
             "rejected": ["d85aeea7-b5f3-4b5a-9b1b-5f8195936da7 (Oct 28: the wreck drawn toy-sized under the bears; Oliver under the gloved arm)",
                          "0b6e96de-9a84-4179-a6c2-d54413298ab7 (Oct 29 v2: both arms mechanical; Oliver beside him on the viewer's right, not carried; Sanchez crouched off the pad; high angle)"]},
     "G07": {"job_id": "56882afc-79c0-44c9-97a0-0d00b9c0aee7",
-            "status": "approved (Oliver lands standing beside Sanchez, not carried; crops p20-p22 re-fit Oct 28)"},
+            "status": "approved (Oliver lands standing beside Sanchez, not carried; crops p20-p22 re-fit Oct 28). Minors (Nov 1 final review): Oliver smirks on \"...That's THEIR ship.\" instead of going flat (the s10 alt text now says so); a few salmon-red chips under the blue bands; Oliver about 0.7x Sanchez standing; the tray is back after the carton on s08"},
     "G08": {"job_id": "9672e417-5569-47df-8898-01b2ac27e355",
-            "status": "approved, minor (Oct 29 review panel): every sided feature right on all five; an arms-wide march rather than a lean-in hug; short banners showing only the circle; a wide rather than medium shot"},
+            "status": "approved, minor (Oct 29 review panel): every sided feature right on all five; an arms-wide march rather than a lean-in hug; short banners showing only the circle; a wide rather than medium shot; Nov 1 final review: the blue ship's nose points right here but left on s09-s10"},
     "G09": {"job_id": "899f4b81-65d6-4420-8365-b2ddbd7308f3",
             "status": "approved, minor (Nov 1 review panel): v4 edit B of the Oct 30 take 55b9324f with the Sanchez sheet as a second reference. Only the forward arm changed, now his plain furry left forearm and the dark grey glove; the flight runs left to right, the carry is under the mechanical arm, and both looks hold. Picked over edits A1/A2 (ecee9f28, 14e12473, also minor; their gloves came out lighter and knit-like) for the slimmer plain arm and the darker glove. Minors (inherited from the base): Oliver's legs hidden behind the carton; a mild low angle from the trench lip; the fries fall rather than rain at the lens",
             "rejected": ["b934a180-33a3-4287-860f-ee04e1bb4e66 (Oct 29: a red mechanical left hand and no glove; Oliver hugged by the plain arm on the viewer's right; mechanical fist leading; camera level at the trench mouth)",

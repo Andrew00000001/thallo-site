@@ -6,7 +6,7 @@
    ],
    "letters": [
     {"type": "hud", "text": "BBG NEWS · LIVE\nLOCAL HAZARDS · EP 1", "panel": "p01", "box": [64, 58, 470], "size": 34},
-    {"type": "hud", "text": "DESTINATION: HOME?", "panel": "p01", "box": [64, 790, 420], "tail": [520, 640], "size": 34},
+    {"type": "hud", "text": "DESTINATION:\nHOME?", "panel": "p01", "box": [668, 690, 300], "tail": [640, 540], "size": 34},
     {"type": "title", "text": "WE'LL GETCHA", "panel": "p01", "box": [90, 955, 900]},
     {"type": "title", "text": "HOME", "panel": "p01", "box": [330, 1092, 420]},
     {"type": "hud", "text": "SWIPE >>", "panel": "p01", "box": [810, 1240, 200], "size": 30}
@@ -21,9 +21,9 @@
    ],
    "letters": [
     {"type": "hud", "text": "B-1000. LIVE.\nSCANNING LOCATION.", "panel": "p02", "box": [64, 64, 450], "tail": [498, 396], "size": 36, "live": true},
-    {"type": "hud", "text": "HAZARD:\nCRASHED DROPSHIP.", "panel": "p03", "box": [56, 714, 400], "tail": [430, 846], "size": 32},
-    {"type": "hud", "text": "STATUS:\nSTILL CRASHED.", "panel": "p04", "box": [566, 714, 400], "tail": [940, 846], "size": 32},
-    {"type": "hud", "text": "LAUNCH PAD DESTINATION:\nTHE OTHER CRASHED DROPSHIP.", "panel": "p06", "box": [404, 1014, 620], "tail": [774, 1200], "size": 32}
+    {"type": "hud", "text": "HAZARD:\nCRASHED DROPSHIP.", "panel": "p03", "box": [64, 722, 400], "tail": [430, 846], "size": 32},
+    {"type": "hud", "text": "STATUS:\nSTILL CRASHED.", "panel": "p04", "box": [574, 722, 400], "tail": [940, 846], "size": 32},
+    {"type": "hud", "text": "LAUNCH PAD DESTINATION:\nTHE OTHER CRASHED DROPSHIP.", "panel": "p06", "box": [412, 1022, 612], "tail": [774, 1200], "size": 32}
    ]},
   {"id": "s03",
    "panels": [
@@ -37,7 +37,7 @@
     {"type": "caption", "text": "The red food stand.", "panel": "p08", "box": [64, 282, 560], "size": 34},
     {"type": "hud", "text": "SUBJECT: OLIVER\nTHREAT LEVEL: FLUFFY", "panel": "p08", "box": [64, 350, 450], "tail": [640, 500], "size": 34},
     {"type": "sfx", "text": "CRUNCH!", "panel": "p08", "box": [90, 740, 360], "angle": 8},
-    {"type": "sfx", "text": "KA-CHUNK!", "panel": "p09", "box": [300, 1000, 330], "angle": -6}
+    {"type": "sfx", "text": "KA-CHUNK!", "panel": "p09", "box": [300, 1016, 330], "angle": -6}
    ]},
   {"id": "s04",
    "panels": [
@@ -55,7 +55,7 @@
     {"id": "p13", "rect": [550, 700, 490, 610], "image": "panels/p13.png", "focus": [0.5, 0.5], "border": 6}
    ],
    "letters": [
-    {"type": "balloon", "text": "Sanchez! Buddy! You look **GREAT!**", "panel": "p11", "box": [706, 100, 318], "tail": [700, 410], "size": 44},
+    {"type": "balloon", "text": "Sanchez!\nBuddy!\nYou look\n**GREAT!**", "panel": "p11", "box": [706, 100, 318], "tail": [700, 410], "size": 44},
     {"type": "balloon", "text": "...**FRY?**", "panel": "p12", "box": [64, 718, 280], "tail": [292, 893], "size": 52},
     {"type": "sfx", "text": "SSSSZZZ...", "panel": "p13", "box": [690, 722, 330], "angle": 4}
    ]},
@@ -65,7 +65,7 @@
    ],
    "letters": [
     {"type": "caption", "text": "One scoop later...", "panel": "p14", "box": [64, 64, 400], "size": 38},
-    {"type": "balloon", "text": "This arm, I did not ask for.", "panel": "p14", "box": [64, 150, 470], "tail": [632, 322], "size": 46},
+    {"type": "balloon", "text": "This arm,\nI did not\nask for.", "panel": "p14", "box": [64, 150, 400], "tail": [632, 322], "size": 46},
     {"type": "sfx", "text": "KLANG!", "panel": "p14", "box": [640, 880, 360], "angle": -8}
    ]},
   {"id": "s07",
@@ -96,7 +96,7 @@
    "letters": [
     {"type": "caption", "text": "~ Big heroic finish ~", "panel": "p19", "box": [64, 64, 480], "size": 34},
     {"type": "balloon", "text": "**HOME.**", "panel": "p19", "box": [310, 214, 270], "tail": [262, 405], "size": 58},
-    {"type": "sfx", "text": "THOOM!", "panel": "p19", "box": [330, 742, 360], "angle": -6},
+    {"type": "sfx", "text": "THOOM!", "panel": "p19", "box": [548, 712, 340], "angle": -6},
     {"type": "balloon", "text": "...", "panel": "p20", "box": [80, 1110, 150], "tail": [20, 1215], "size": 48}
    ]},
   {"id": "s10",
@@ -107,7 +107,7 @@
    "letters": [
     {"type": "balloon", "text": "...That's **THEIR** ship.", "panel": "p21", "box": [64, 64, 440], "tail": [470, 316], "size": 48},
     {"type": "caption", "text": "~ Heroic bra--", "panel": "p21", "box": [64, 744, 320], "size": 34},
-    {"type": "sfx", "text": "FWAP!", "panel": "p22", "box": [790, 1118, 200], "angle": -10}
+    {"type": "sfx", "text": "FWAP!", "panel": "p22", "box": [810, 930, 200], "angle": -10}
    ]},
   {"id": "s11",
    "panels": [
@@ -149,7 +149,7 @@
    ],
    "letters": [
     {"type": "hud", "text": "NEXT LOCATION:\nSTEAMYARD BLUES.", "panel": "p29", "box": [90, 100, 900], "size": 50},
-    {"type": "caption", "text": "Guess the next **THREAT LEVEL** in the comments.", "panel": "p29", "box": [90, 360, 900], "size": 46},
+    {"type": "caption", "text": "Guess the next\n**THREAT LEVEL** in the comments.", "panel": "p29", "box": [90, 360, 900], "size": 46},
     {"type": "hud", "text": "SUBJECT: ???\nTHREAT LEVEL: ???", "panel": "p29", "box": [260, 610, 560], "size": 46},
     {"type": "caption", "text": "Send this to your BBG squad.\nFollow BBG News for Ep 2.", "panel": "p29", "box": [90, 870, 900], "size": 44},
     {"type": "endcard", "text": "Unofficial fan comic, not affiliated with SkyVu; characters © SkyVu."}
