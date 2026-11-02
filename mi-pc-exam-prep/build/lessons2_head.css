@@ -1,8 +1,10 @@
 /* ---------- Watch: lesson player ---------- */
-:root{ --st-bg:#0F1B2D; --st-bg2:#17304F; --st-card:#1A2C47; --st-line:#2E4466; --st-ink:#F1F5FA; --st-muted:#AEBCCE;
-  --st-accent:#62C7D2; --st-accent-ink:#06222A; --st-gold:#F2C35B; --st-good:#63D196; --st-bad:#F59289; }
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --st-bg:#0B1420; --st-bg2:#132842; --st-card:#16263D; --st-line:#2A3E5C; } }
-:root[data-theme="dark"]{ --st-bg:#0B1420; --st-bg2:#132842; --st-card:#16263D; --st-line:#2A3E5C; }
+/* the player's own accent (numbers, outlines, links, hand-lettered headings): the app's calm sage, not marker blue */
+:root{ --mk-accent:#2D5A4C; --mk-num-bg:#2D5A4C; --mk-num-ink:#DCD3C1; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --mk-accent:#93BBA5; --mk-num-bg:#41604F; --mk-num-ink:#D8D1C4; } }
+:root[data-theme="dark"]{ --mk-accent:#93BBA5; --mk-num-bg:#41604F; --mk-num-ink:#D8D1C4; }
+:root[data-tone="sepia"]{ --mk-accent:#2D5A4C; --mk-num-bg:#2D5A4C; --mk-num-ink:#DCD3C1; }
+:root[data-tone="night"]{ --mk-accent:#93BBA5; --mk-num-bg:#41604F; --mk-num-ink:#D8D1C4; }
 
 .ic{width:1em;height:1em;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
 .btn .ic{width:18px;height:18px;vertical-align:-3px}

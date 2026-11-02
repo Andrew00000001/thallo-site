@@ -41,7 +41,7 @@ const money = n => '$'+Math.round(n).toLocaleString('en-US');
 /* ---------- progress store ---------- */
 const LS_KEY = 'mipc-progress-v1';
 function blank(){ return {v:2, q:{}, cards:{}, exams:[], xp:0, days:{}, badges:{}, journal:{}, bestCombo:0, bestStreak:0,
-  settings:{examDate:'', dailyGoal:40, recall:false, confidence:true, captions:false, lessonRate:1}, games:{boss:{}, match:{}}, mn:{}, cp:{}, lessons:{}, updated:0}; }
+  settings:{examDate:'', dailyGoal:40, recall:false, confidence:true, captions:false, lessonRate:1, tone:'auto'}, games:{boss:{}, match:{}}, mn:{}, cp:{}, lessons:{}, updated:0}; }
 function migrate(p){
   const b = blank();
   p = Object.assign(b, p||{});
@@ -55,6 +55,17 @@ function migrate(p){
   return p;
 }
 let P = migrate(lsGet(LS_KEY));
+/* display colors: Sepia (dim paper, the default by day), Night (warm dark) or Auto (follow the device); saved with progress */
+const TONES = ['sepia','night','auto'];
+function applyTone(){
+  const t = TONES.includes(P.settings.tone) ? P.settings.tone : 'auto', root=document.documentElement;
+  if(t==='auto') root.removeAttribute('data-tone'); else root.setAttribute('data-tone', t);
+  document.querySelectorAll('[data-act="tone"]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.tone===t)));
+  try{ let m=document.querySelector('meta[name="theme-color"]'); if(!m){ m=document.createElement('meta'); m.name='theme-color'; document.head.appendChild(m); }
+    m.content=getComputedStyle(root).getPropertyValue('--band').trim(); }catch(e){}   // the phone's address bar matches the header
+}
+applyTone();
+try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTone); }catch(e){}
 const sync = {ref:null, timer:null, writing:false, again:false};
 function setSyncLabel(t){ const el=$('#sync'); if(el) el.textContent=t; }
 function save(){
@@ -85,7 +96,7 @@ async function initSync(){
     sync.ref = ref;
     if(snap.exists){
       const remote = snap.data() || {};
-      if((remote.updated||0) >= (P.updated||0)){ P = migrate(JSON.parse(JSON.stringify(remote))); lsSet(LS_KEY,P); }
+      if((remote.updated||0) >= (P.updated||0)){ P = migrate(JSON.parse(JSON.stringify(remote))); lsSet(LS_KEY,P); applyTone(); }
       else flush();
     } else if(P.updated){ flush(); }
     setSyncLabel('Progress: saved to your account');
@@ -1039,6 +1050,7 @@ document.addEventListener('click', e=>{
   const b=e.target.closest('[data-act]'); if(!b) return;
   const act=b.dataset.act;
   if(lessonActs(act, b)) return;
+  if(act==='tone'){ P.settings.tone=b.dataset.tone; save(); applyTone(); return; }
   if(act==='review'){ startReview(); go('practice'); }
   if(act==='lightning'){ go('games',{game:'lightning'}); }
   if(act==='survival'){ SES=null; go('games',{game:'survival'}); }
@@ -1052,7 +1064,7 @@ document.addEventListener('click', e=>{
   if(act==='set-date'){ const v=($('#exam-date')||{}).value; if(v){ P.settings.examDate=v; save(); renderHome(); toast('Exam date saved.'); } }
   if(act==='reset') $('#reset-box').innerHTML=`<div class="confirm small"><strong>Erase all progress?</strong> Answers, reviews, XP, badges, mock exams and flashcards will be cleared.<div class="row" style="margin-top:10px"><button class="btn primary" data-act="reset-yes">Erase</button><button class="btn" data-act="reset-no">Cancel</button></div></div>`;
   if(act==='reset-no') $('#reset-box').innerHTML='';
-  if(act==='reset-yes'){ P=blank(); save(); SES=null; EX=null; lsDel(SES_KEY); lsDel(EX_KEY); renderHome(); }
+  if(act==='reset-yes'){ const tone=P.settings.tone; P=blank(); P.settings.tone=tone; save(); SES=null; EX=null; lsDel(SES_KEY); lsDel(EX_KEY); renderHome(); }
 });
 document.addEventListener('keydown', e=>{
   if(e.target.matches('input,select,textarea')) return;
@@ -1084,7 +1096,7 @@ function renderFoot(){
 function start(hot){
   if(hot && hot.EX) EX=hot.EX; else { const ex=lsGet(EX_KEY); if(ex && ex.items && ex.items.every(i=>QBY[i.id])) EX=ex; }
   if(hot && hot.SES) SES=hot.SES; else { const s=lsGet(SES_KEY); if(s && s.items && !s.done && s.items.every(i=>QBY[i.id])) SES=s; }
-  renderFoot();
+  renderFoot(); applyTone();
   go((hot && hot.VIEW && hot.VIEW!=='games') ? hot.VIEW : (EX && !EX.submitted ? 'exam' : 'home'));
   initSync();
 }

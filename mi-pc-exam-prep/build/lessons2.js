@@ -509,7 +509,7 @@ function exploreHTML(sc, si){
 function placeSpots(si){
   const sc=LP.L.scenes[si], lay=$('#gx-spots-'+si), R=LP.sk[0]; if(!lay || !R) return;
   const g=LP.gs[si] || (LP.gs[si]={seen:{}, cur:null}), done=LP.gate[si];
-  lay.innerHTML = sc.spots.map((s,k)=>{ const x=R.els.find(e=>e.el.id===s.on); if(!x) return ''; const b=x.bb, cx=(b[0]+b[2])/2/R.w*100, cy=(b[1]+b[3])/2/R.h*100;
+  lay.innerHTML = sc.spots.map((s,k)=>{ const x=R.els.find(e=>e.el.id===s.on); if(!x) return ''; const b=x.bb, cx=Math.min(97, b[2]/R.w*100), cy=Math.max(3, b[1]/R.h*100);   // on the drawing's top-right corner, so the drawing stays visible
     return `<button class="gx-spot ${g.seen[k]||done?'seen':''} ${g.cur===k?'cur':''}" style="left:${cx.toFixed(1)}%;top:${cy.toFixed(1)}%" data-act="gx-spot" data-k="${k}" aria-label="${esc(s.label)}"><span>${g.seen[k]||done?'✓':'+'}</span></button>`; }).join('');
 }
 function gxSpot(k){ const si=LP.scene, g=LP.gs[si]; if(!g) return; g.seen[k]=1; g.cur=k; SFX.play('pop');

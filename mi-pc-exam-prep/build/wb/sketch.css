@@ -1,34 +1,45 @@
 /* ---------- Sketch drawings (whiteboard in light mode, chalkboard in dark mode) ---------- */
-:root{ --mk-bg:#FBFAF5; --mk-bg2:#F1EFE6; --mk-frame:#C9CDD3; --mk-ink:#1E2430; --mk-blue:#1F5FD1; --mk-red:#D3302F; --mk-green:#1A8A4B;
-  --mk-orange:#E8711A; --mk-purple:#7442C8; --mk-yellow:#F0BC12; --mk-gray:#7A8290; --mk-brown:#8A5A2B; --mk-sky:#3BA3E0;
-  --mk-pink:#DB4F96; --mk-teal:#12968B; --mk-white:#FFFFFF; --mk-paper:#FFFFFF; --mk-hl:rgba(255,190,0,.85); --mk-muted:#5B6472; --mk-dots:rgba(30,36,48,.07); }
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --mk-bg:#1C2826; --mk-bg2:#16211F; --mk-frame:#6B5A43; --mk-ink:#EEF0EA; --mk-blue:#8DB8FF;
-  --mk-red:#FF8E86; --mk-green:#7FDCA4; --mk-orange:#FFB36B; --mk-purple:#C7A6FF; --mk-yellow:#FFE27A; --mk-gray:#9AA6A0; --mk-brown:#D6A26E;
-  --mk-sky:#86CFF5; --mk-pink:#FF9CCB; --mk-teal:#6FD9CC; --mk-white:#F4F6F2; --mk-paper:#22302D; --mk-hl:rgba(255,226,122,.8); --mk-muted:#AEB9B4; --mk-dots:rgba(238,240,234,.06); } }
-:root[data-theme="dark"]{ --mk-bg:#1C2826; --mk-bg2:#16211F; --mk-frame:#6B5A43; --mk-ink:#EEF0EA; --mk-blue:#8DB8FF; --mk-red:#FF8E86; --mk-green:#7FDCA4;
-  --mk-orange:#FFB36B; --mk-purple:#C7A6FF; --mk-yellow:#FFE27A; --mk-gray:#9AA6A0; --mk-brown:#D6A26E; --mk-sky:#86CFF5; --mk-pink:#FF9CCB;
-  --mk-teal:#6FD9CC; --mk-white:#F4F6F2; --mk-paper:#22302D; --mk-hl:rgba(255,226,122,.8); --mk-muted:#AEB9B4; --mk-dots:rgba(238,240,234,.06); }
+:root{ --mk-bg:#D9CFBC; --mk-bg2:#CEC3AE; --mk-frame:#A99D86; --mk-ink:#2B2722; --mk-blue:#2D5A4C; --mk-red:#9A2A22; --mk-green:#3D6418;
+  --mk-orange:#B35A12; --mk-purple:#6E467C; --mk-yellow:#B8954A; --mk-gray:#625F58; --mk-brown:#7A4F26; --mk-sky:#557A6E;
+  --mk-pink:#AE3D74; --mk-teal:#13736B; --mk-white:#DED5C3; --mk-paper:#DCD3C1; --mk-hl:rgba(222,172,30,.7); --mk-muted:#544D42; --mk-dots:rgba(43,39,34,.09);
+  --mk-orange-ink:#7A3A0E; --mk-note:color-mix(in srgb,var(--mk-yellow) 30%,var(--mk-paper)); --mk-hlband:color-mix(in srgb,var(--mk-yellow) 42%,transparent); --mk-soft:.4; --mk-paperop:.42; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --mk-bg:#1E241E; --mk-bg2:#191E19; --mk-frame:#6B5A43; --mk-ink:#D8D1C4; --mk-blue:#7FA592;
+  --mk-red:#E09484; --mk-green:#AFC784; --mk-orange:#E0925A; --mk-purple:#B9A3C9; --mk-yellow:#B39F5C; --mk-gray:#9AA6A0; --mk-brown:#C99A6C;
+  --mk-sky:#8AA99D; --mk-pink:#D69AB4; --mk-teal:#6FC4B9; --mk-white:#B8B1A4; --mk-paper:#272E26; --mk-hl:rgba(207,186,110,.5); --mk-muted:#A9B2AC; --mk-dots:rgba(238,240,234,.06);
+  --mk-orange-ink:#E0925A; --mk-note:color-mix(in srgb,var(--mk-yellow) 12%,var(--mk-paper)); --mk-hlband:color-mix(in srgb,var(--mk-yellow) 20%,transparent); --mk-soft:.24; --mk-paperop:.15; } }
+:root[data-theme="dark"]{ --mk-bg:#1E241E; --mk-bg2:#191E19; --mk-frame:#6B5A43; --mk-ink:#D8D1C4; --mk-blue:#7FA592;
+  --mk-red:#E09484; --mk-green:#AFC784; --mk-orange:#E0925A; --mk-purple:#B9A3C9; --mk-yellow:#B39F5C; --mk-gray:#9AA6A0; --mk-brown:#C99A6C;
+  --mk-sky:#8AA99D; --mk-pink:#D69AB4; --mk-teal:#6FC4B9; --mk-white:#B8B1A4; --mk-paper:#272E26; --mk-hl:rgba(207,186,110,.5); --mk-muted:#A9B2AC; --mk-dots:rgba(238,240,234,.06);
+  --mk-orange-ink:#E0925A; --mk-note:color-mix(in srgb,var(--mk-yellow) 12%,var(--mk-paper)); --mk-hlband:color-mix(in srgb,var(--mk-yellow) 20%,transparent); --mk-soft:.24; --mk-paperop:.15; }
+:root[data-tone="sepia"]{ --mk-bg:#D9CFBC; --mk-bg2:#CEC3AE; --mk-frame:#A99D86; --mk-ink:#2B2722; --mk-blue:#2D5A4C; --mk-red:#9A2A22; --mk-green:#3D6418;
+  --mk-orange:#B35A12; --mk-purple:#6E467C; --mk-yellow:#B8954A; --mk-gray:#625F58; --mk-brown:#7A4F26; --mk-sky:#557A6E;
+  --mk-pink:#AE3D74; --mk-teal:#13736B; --mk-white:#DED5C3; --mk-paper:#DCD3C1; --mk-hl:rgba(222,172,30,.7); --mk-muted:#544D42; --mk-dots:rgba(43,39,34,.09);
+  --mk-orange-ink:#7A3A0E; --mk-note:color-mix(in srgb,var(--mk-yellow) 30%,var(--mk-paper)); --mk-hlband:color-mix(in srgb,var(--mk-yellow) 42%,transparent); --mk-soft:.4; --mk-paperop:.42; }
+:root[data-tone="night"]{ --mk-bg:#1E241E; --mk-bg2:#191E19; --mk-frame:#6B5A43; --mk-ink:#D8D1C4; --mk-blue:#7FA592;
+  --mk-red:#E09484; --mk-green:#AFC784; --mk-orange:#E0925A; --mk-purple:#B9A3C9; --mk-yellow:#B39F5C; --mk-gray:#9AA6A0; --mk-brown:#C99A6C;
+  --mk-sky:#8AA99D; --mk-pink:#D69AB4; --mk-teal:#6FC4B9; --mk-white:#B8B1A4; --mk-paper:#272E26; --mk-hl:rgba(207,186,110,.5); --mk-muted:#A9B2AC; --mk-dots:rgba(238,240,234,.06);
+  --mk-orange-ink:#E0925A; --mk-note:color-mix(in srgb,var(--mk-yellow) 12%,var(--mk-paper)); --mk-hlband:color-mix(in srgb,var(--mk-yellow) 20%,transparent); --mk-soft:.24; --mk-paperop:.15; }
 
 .sk{display:block;width:100%;height:100%;overflow:visible}
 .sk .c-ink{--c:var(--mk-ink)} .sk .c-blue{--c:var(--mk-blue)} .sk .c-red{--c:var(--mk-red)} .sk .c-green{--c:var(--mk-green)}
 .sk .c-orange{--c:var(--mk-orange)} .sk .c-purple{--c:var(--mk-purple)} .sk .c-yellow{--c:var(--mk-yellow)} .sk .c-gray{--c:var(--mk-gray)}
 .sk .c-brown{--c:var(--mk-brown)} .sk .c-sky{--c:var(--mk-sky)} .sk .c-pink{--c:var(--mk-pink)} .sk .c-teal{--c:var(--mk-teal)}
-.sk .c-white{--c:var(--mk-white)} .sk .c-paper{--c:var(--mk-paper)}
-.sk path.sk-s{fill:none;stroke:var(--c);stroke-width:4.6;stroke-linecap:round;stroke-linejoin:round}
+.sk .c-white{--c:var(--mk-white)} .sk .c-paper{--c:var(--mk-paper)} .sk .c-black{--c:var(--mk-ink)}
+.sk path.sk-s{fill:none;stroke:var(--c,var(--mk-ink));stroke-width:4.6;stroke-linecap:round;stroke-linejoin:round}
 .sk path.sk-s.thin{stroke-width:3.2}
 .sk path.sk-s.bold{stroke-width:7}
 .sk path.sk-s.icon{stroke-width:.5}
-.sk path.sk-f{fill:none;stroke:var(--c);stroke-width:2.4;stroke-linecap:round;opacity:.75}
+.sk path.sk-f{fill:none;stroke:var(--c,var(--mk-ink));stroke-width:2.4;stroke-linecap:round;opacity:.75}
 .sk path.sk-f.soft{opacity:.45}
-.sk path.sk-solid{fill:var(--c);stroke:none}
-.sk path.sk-solid.soft{opacity:.4}
+.sk path.sk-solid{fill:var(--c,var(--mk-ink));stroke:none}
+.sk path.sk-solid.soft{opacity:var(--mk-soft,.4)}
 .sk path.sk-solid.soft2{opacity:.85}
 .sk path.sk-solid.hi{opacity:.5}
-.sk path.sk-solid.paper{opacity:.42}
+.sk path.sk-solid.paper{opacity:var(--mk-paperop,.42)}
 .sk path.dash{stroke-dasharray:16 13!important;stroke-dashoffset:0!important}
 .sk .in path.dash{animation:skFade .6s ease var(--d,0s) both}
 .sk .now path.dash{animation:none}
-.sk text.sk-t{fill:var(--c);font-family:var(--f-hand);dominant-baseline:auto}
+.sk text.sk-t{fill:var(--c,var(--mk-ink));font-family:var(--f-hand);dominant-baseline:auto}
 .sk text.sk-t.b{stroke:var(--c);stroke-width:.9;paint-order:stroke}
 .sk text.sk-t.st{stroke-width:1.6}
 

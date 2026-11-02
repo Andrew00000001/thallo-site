@@ -13,6 +13,7 @@ Open `index.html` in a browser. It is one self-contained file: the lesson narrat
 - **Math lab**: freshly generated problems with worked solutions for coinsurance, homeowners replacement cost, actual cash value, other-insurance sharing, split limits, Michigan PIP work loss, workers' comp premium and loss ratio.
 - **Mock exam**: 150 questions weighted like the PSI outline, 2.5-hour timer, section-by-section results.
 - **Flashcards**: 225 cards on a review schedule. **Key numbers**: 231 limits, deadlines and amounts.
+- **Display**: colors made for long study sessions. Sepia (the default by day) is dim tan paper with soft brown-gray text, about two-thirds of white's brightness; Night is warm charcoal with soft light text; Auto follows the device. There is no bright white or blue, and every text color meets WCAG AA contrast. The choice is saved with your progress.
 
 Content was checked in October 2026 against the Michigan Compiled Laws (legislature.mi.gov), PSI's Series 16-81 outline and candidate bulletin, Michigan DIFS bulletins, FEMA/NFIP rules, U.S. Treasury (TRIA), and ISO/NCCI policy forms. Edition-dependent amounts name their form edition. Each area was researched, then fact-checked separately; the memory aids and lessons were then cross-checked against the study guide and questions. Every lesson was written, then checked by separate reviewers for facts, teaching and visuals, fixed, and re-checked until clean; each lesson's `.trace.md` maps its claims to sources and `.fixlog.md` records the review.
 

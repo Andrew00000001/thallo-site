@@ -277,12 +277,20 @@ SHELL = """
       <div class="eyebrow">Michigan DIFS · PSI exam series 16-81</div>
       <h1>Property &amp; Casualty Producer Exam Prep</h1>
     </div>
-    <dl class="decl" aria-label="Exam specifications">
-      <div><dt>Items</dt><dd>150</dd></div>
-      <div><dt>Time</dt><dd>2 h 30 m</dd></div>
-      <div><dt>Pass</dt><dd>74%</dd></div>
-      <div><dt>Need</dt><dd>111 right</dd></div>
-    </dl>
+    <div class="jacket-r">
+      <dl class="decl" aria-label="Exam specifications">
+        <div><dt>Items</dt><dd>150</dd></div>
+        <div><dt>Time</dt><dd>2 h 30 m</dd></div>
+        <div><dt>Pass</dt><dd>74%</dd></div>
+        <div><dt>Need</dt><dd>111 right</dd></div>
+      </dl>
+      <div class="tone" role="group" aria-label="Display colors">
+        <span class="eyebrow">Display</span>
+        <button class="tone-b" type="button" data-act="tone" data-tone="sepia" aria-pressed="false" title="Dim sepia paper with soft text: easiest on the eyes for long sessions">Sepia</button>
+        <button class="tone-b" type="button" data-act="tone" data-tone="night" aria-pressed="false" title="Warm dark background with soft light text">Night</button>
+        <button class="tone-b" type="button" data-act="tone" data-tone="auto" aria-pressed="false" title="Follow this device: sepia by day, night when the device is in dark mode">Auto</button>
+      </div>
+    </div>
   </div>
 </header>
 <div class="tabs-bar">

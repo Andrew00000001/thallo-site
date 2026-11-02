@@ -1,7 +1,9 @@
 /* ---------- v2: motivation, memory aids, games ---------- */
-:root{ --toast-hl:#FFE27A; --gold:#9A6A00; --gold-soft:#FBEFD0; --flame:#C2410C; --tile0:#E3E8EE; --tile1:#F3C7C2; --tile2:#F6DFA8; --tile3:#BFE3CC; --tile4:#7CC79A; }
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --toast-hl:#F2C35B; --gold:#F2C35B; --gold-soft:#3A2D0E; --flame:#FB923C; --tile0:#243140; --tile1:#5B2A26; --tile2:#5A4718; --tile3:#1F4A33; --tile4:#2F7D50; } }
-:root[data-theme="dark"]{ --toast-hl:#F2C35B; --gold:#F2C35B; --gold-soft:#3A2D0E; --flame:#FB923C; --tile0:#243140; --tile1:#5B2A26; --tile2:#5A4718; --tile3:#1F4A33; --tile4:#2F7D50; }
+:root{ --toast-hl:#6E5208; --gold:#6E5208; --gold-soft:#E3D3A8; --flame:#9A4416; --tile0:#C9BFAB; --tile1:#D9AE9F; --tile2:#DCC48A; --tile3:#AECBA8; --tile4:#6FA47B; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --toast-hl:#D7AD66; --gold:#D7AD66; --gold-soft:#372D17; --flame:#E0925A; --tile0:#3B372F; --tile1:#7A4235; --tile2:#6B5D30; --tile3:#3F6B4D; --tile4:#6E9E7B; } }
+:root[data-theme="dark"]{ --toast-hl:#D7AD66; --gold:#D7AD66; --gold-soft:#372D17; --flame:#E0925A; --tile0:#3B372F; --tile1:#7A4235; --tile2:#6B5D30; --tile3:#3F6B4D; --tile4:#6E9E7B; }
+:root[data-tone="sepia"]{ --toast-hl:#6E5208; --gold:#6E5208; --gold-soft:#E3D3A8; --flame:#9A4416; --tile0:#C9BFAB; --tile1:#D9AE9F; --tile2:#DCC48A; --tile3:#AECBA8; --tile4:#6FA47B; }
+:root[data-tone="night"]{ --toast-hl:#D7AD66; --gold:#D7AD66; --gold-soft:#372D17; --flame:#E0925A; --tile0:#3B372F; --tile1:#7A4235; --tile2:#6B5D30; --tile3:#3F6B4D; --tile4:#6E9E7B; }
 
 .today-hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:20px}
 @media (max-width:860px){.today-hero{grid-template-columns:minmax(0,1fr)}}
@@ -14,7 +16,7 @@
 .ring .bgc{stroke:var(--sunk)}
 .ring .fgc{stroke:var(--accent);stroke-linecap:round;transition:stroke-dashoffset .4s}
 .ring text{fill:var(--ink);font-family:var(--f-display);font-weight:800;font-size:20px}
-.ring .sub{fill:var(--muted);font-family:var(--f-mono);font-size:9px;font-weight:400}
+.ring .sub{fill:var(--muted);font-family:var(--f-mono);font-size:11px;font-weight:500}
 .flame{display:inline-block;width:14px;height:18px;background:var(--flame);border-radius:50% 50% 45% 45% / 60% 60% 40% 40%;transform:rotate(8deg);vertical-align:-2px;margin-right:6px}
 .xpbar{height:10px;background:var(--sunk);border-radius:99px;overflow:hidden}
 .xpbar>span{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--good))}
@@ -92,7 +94,10 @@
 .conf .q{font-weight:600;margin-right:6px}
 .reveal-box{border:1px dashed var(--line);border-radius:var(--r);padding:18px;text-align:center;color:var(--muted)}
 .toggle{display:inline-flex;align-items:center;gap:8px;font-size:14px;cursor:pointer}
-.toggle input{width:18px;height:18px;accent-color:var(--accent)}
+.toggle input{-webkit-appearance:none;appearance:none;margin:0;flex:none;width:18px;height:18px;border:1.5px solid var(--muted);border-radius:4px;background:var(--sunk);display:inline-grid;place-content:center;cursor:pointer}
+.toggle input:checked{background:var(--accent-fill);border-color:var(--accent)}
+.toggle input:checked::after{content:"";width:9px;height:5px;border:2px solid var(--accent-fill-ink);border-top:0;border-right:0;transform:translateY(-1px) rotate(-45deg)}
+.toggle input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 
 .mathbox{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;max-width:760px}
 .mathbox input[type="number"],.mathbox input[type="text"],input[type="date"]{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:9px 12px;font-size:17px;font-variant-numeric:tabular-nums;min-width:0;max-width:240px}
