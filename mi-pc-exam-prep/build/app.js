@@ -41,11 +41,13 @@ const money = n => '$'+Math.round(n).toLocaleString('en-US');
 /* ---------- progress store ---------- */
 const LS_KEY = 'mipc-progress-v1';
 function blank(){ return {v:2, q:{}, cards:{}, exams:[], xp:0, days:{}, badges:{}, journal:{}, bestCombo:0, bestStreak:0,
-  settings:{examDate:'', dailyGoal:40, recall:false, confidence:true, captions:false, lessonRate:1, tone:'auto'}, games:{boss:{}, match:{}}, mn:{}, cp:{}, lessons:{}, updated:0}; }
+  settings:{examDate:'', dailyGoal:40, recall:false, confidence:true, captions:false, lessonRate:1, tone:'auto'}, games:{boss:{}, match:{}}, mn:{}, cp:{}, lessons:{}, updated:0, sT:0, sK:{}, epoch:0, dev:{}}; }
 function migrate(p){
-  const b = blank();
+  const b = blank(), legacy = !!(p && typeof p==='object' && !('sT' in p)), hasSK = !!(p && typeof p==='object' && p.sK && typeof p.sK==='object');
   p = Object.assign(b, p||{});
+  if(legacy) p.sT = p.updated || 0;   // saved before settings carried their own time: they date from its last save
   p.settings = Object.assign(blank().settings, p.settings||{});
+  if(!hasSK){ const d = blank().settings; p.sK = {}; Object.keys(p.settings).forEach(k=>{ p.sK[k] = stable(p.settings[k])===stable(d[k]) ? 0 : (p.sT||0); }); }   // each setting carries its own change time
   p.games = Object.assign({boss:{}, match:{}}, p.games||{});
   ['q','cards','days','badges','journal','mn','cp','lessons'].forEach(k=>{ if(!p[k] || typeof p[k]!=='object') p[k]={}; });
   if(!Array.isArray(p.exams)) p.exams=[];
@@ -54,7 +56,9 @@ function migrate(p){
   p.v = 2;
   return p;
 }
-let P = migrate(lsGet(LS_KEY));
+const STORED = lsGet(LS_KEY);
+let P = migrate(STORED);
+if(!STORED) P.fresh = 1;   // started empty: until the account copy is read, its counts are this session's alone
 /* display colors: Sepia (dim paper, the default by day), Night (warm dark) or Auto (follow the device); saved with progress */
 const TONES = ['sepia','night','auto'];
 function applyTone(){
@@ -66,46 +70,430 @@ function applyTone(){
 }
 applyTone();
 try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyTone); }catch(e){}
-const sync = {ref:null, timer:null, writing:false, again:false};
-function setSyncLabel(t){ const el=$('#sync'); if(el) el.textContent=t; }
-function save(){
-  P.updated = Date.now();
+/* ---------- saving: this browser + your Claude account ----------
+   Progress is kept in this browser (localStorage) and, where the viewer offers it, in the learner's own private
+   document in this app's database. The two copies are MERGED, never overwritten: an answer, card, lesson, badge or
+   exam recorded anywhere survives a sync, and a fresh or out-of-date copy can't wipe a fuller one. The merge is
+   symmetric and idempotent, so copies on several devices settle on the same state. "Reset progress" starts a new
+   epoch: the one case where the newer copy replaces the older. */
+const sync = {ref:null, timer:null, writing:false, dirty:false, hard:false, since:0, lastWrite:0, savedAt:0, fails:0,
+  retryAt:0, remote:null, remoteKey:'', definitive:false, unsub:null, state:'connecting', why:'', code:'', perms:null,
+  perm:'', slow:null, loadToast:false, hide:'', storage:true, live:false, stale:true, lastDef:0, parked:null, resub:null, starting:false, pulling:false, echo:0, waitSince:0};
+sync.storage = (()=>{ try{ const k='mipc-probe', v=String(Math.random()); localStorage.setItem(k,v); const ok=localStorage.getItem(k)===v; localStorage.removeItem(k); return ok; }catch(e){ return false; } })();
+const clone = x => JSON.parse(JSON.stringify(x));
+function stable(v){   // JSON with sorted keys: equal progress gives an equal string whatever order the keys were added in
+  if(v===null || typeof v!=='object') return JSON.stringify(v===undefined ? null : v);
+  if(Array.isArray(v)) return '['+v.map(stable).join(',')+']';
+  return '{'+Object.keys(v).filter(k=>v[k]!==undefined).sort().map(k=>JSON.stringify(k)+':'+stable(v[k])).join(',')+'}';
+}
+function prune(v){   // drop nulls and empty objects: how a store spells "nothing" must not look like missing progress
+  if(v===null || v===undefined) return undefined;
+  if(Array.isArray(v)) return v.map(x=>{ const y=prune(x); return y===undefined ? null : y; });
+  if(typeof v!=='object') return v;
+  const o = {}; Object.keys(v).forEach(k=>{ const x=prune(v[k]); if(x!==undefined && !(x && typeof x==='object' && !Array.isArray(x) && !Object.keys(x).length)) o[k]=x; });
+  return o;
+}
+const same = (a, b) => !!a && !!b && stable(prune(a))===stable(prune(b));
+const kz = (...os) => [...new Set(os.flatMap(o=>Object.keys(o||{})))];
+const jn = j => j==null ? j : (typeof j==='object' ? j : {tag:String(j), t:0});   // journal tag records (older copies stored the bare tag)
+const jtag = j => j==null ? null : (typeof j==='object' ? j.tag : String(j));
+function sinceReset(p, E){   // what a pre-reset copy recorded after the reset at time E (a reset erases what came before it, never what came after)
+  const r = blank(); r.epoch = E; r.updated = p.updated||0;
+  const keep = (from, to, when) => Object.keys(from||{}).forEach(k=>{ if(when(from[k]) > E) to[k] = from[k]; });
+  keep(p.q, r.q, s=>s.t||0); keep(p.cards, r.cards, s=>s.t||0); keep(p.mn, r.mn, t=>+t||0); keep(p.journal, r.journal, j=>(j && typeof j==='object') ? (j.t||0) : 0);
+  keep(p.lessons, r.lessons, s=>Math.max(s.seen||0, s.done||0));
+  r.exams = (p.exams||[]).filter(e=>e && e.t > E);
+  const d0 = dayKey(new Date(E)); Object.keys(p.days||{}).forEach(k=>{ if(k > d0) r.days[k] = p.days[k]; });
+  Object.keys(p.sK||{}).forEach(k=>{ if((p.sK[k]||0) > E && p.settings && k in p.settings){ r.settings[k] = p.settings[k]; r.sK[k] = p.sK[k]; } });
+  return r;
+}
+function addSession(T, r){   // this page started empty, so its counters and review boxes hold only this session: build them on the account's
+  const dayStart = t => { const d = new Date(t); d.setHours(0,0,0,0); return d.getTime(); };
+  const dup = Object.keys(T.badges).filter(k=>r.badges[k]).length;   // badges the account already had were re-earned here (+25 XP each)
+  T.xp = Math.max(0, (T.xp||0) - 25*dup) + (r.xp||0);
+  const td = T.days[dayKey()]; if(td && dup) td.xp = Math.max(0, (td.xp||0) - 25*dup);
+  Object.keys(T.days).forEach(k=>{ const a=T.days[k], b=r.days[k]; if(b){ a.n += b.n||0; a.c += b.c||0; a.xp += b.xp||0; } });
+  T.goalMet = (T.goalMet||0) + (r.goalMet||0);
+  T.games.math = (T.games.math||0) + ((r.games||{}).math||0);
+  Object.keys(T.q).forEach(id=>{ const s=T.q[id], o=r.q[id]; if(!o) return;   // replay this session's last answer on the account's review box
+    s.a = (s.a||0) + (o.a||0); s.c = (s.c||0) + (o.c||0);
+    if(s.last===1){ s.box = s.conf==='guess' ? 1 : s.conf==='unsure' ? Math.max(1, o.box||0) : Math.min(IV.length-1, (o.box||0)+1); s.due = dayStart(s.t||Date.now()) + IV[s.box]*DAY; } });
+  Object.keys(T.cards).forEach(id=>{ const s=T.cards[id], o=r.cards[id]; if(!o || !s.t || !s.box) return; s.box = Math.min(IV.length-1, (o.box||0)+1); s.due = dayStart(s.t) + IV[s.box]*DAY; });
+  T.epoch = r.epoch||0;   // a page that started empty belongs to the account's current start
+  delete T.fresh;
+}
+const mx = (x,y) => Math.max(+x||0, +y||0);
+const firstT = (x,y) => (x>0 && y>0) ? Math.min(x,y) : (x>0 ? x : y>0 ? y : (x||y||0));
+function later(x, y, f, g, tie){   // the more recent of two records; ties broken by content so every device picks the same one
+  if(!x || !y) return x || y;
+  const fx=f(x), fy=f(y); if(fy!==fx) return fy>fx ? y : x;
+  if(g){ const gx=g(x), gy=g(y); if(gy!==gx) return gy>gx ? y : x; }
+  tie = tie || stable; return tie(y)>tie(x) ? y : x;
+}
+const lessonKey = s => stable(Object.assign({}, s, {done:0, gates:0}));   // what a merged lesson record takes from one side
+function mergeLesson(x, y){
+  if(!x || !y) return clone(x || y);
+  const base = later(x, y, s=>s.seen||0, s=>String(s.ver||''), lessonKey);
+  if((x.ver||'')!==(y.ver||'')){ const r = clone(base); r.done = (x.done && y.done) ? Math.min(x.done, y.done) : (x.done || y.done || 0); return r; }   // a rewritten lesson: positions and stars don't carry over, completion does
+  const r = clone(base), gx = x.gates||{}, gy = y.gates||{}, g = {};
+  r.done = (x.done && y.done) ? Math.min(x.done, y.done) : (x.done || y.done || 0);
+  kz(gx, gy).forEach(k=>{ const a=gx[k], b=gy[k]; g[k] = a==null ? b : b==null ? a : Math.max(a, b); });
+  r.gates = g;
+  return r;
+}
+function mergeP(A, B){
+  const a = migrate(clone(A||{})), b = migrate(clone(B||{}));
+  if((a.epoch||0)!==(b.epoch||0)){ const hi = (b.epoch||0)>(a.epoch||0) ? b : a; return mergeP(hi, sinceReset(hi===a ? b : a, hi.epoch)); }   // progress was reset: keep only what the older copy recorded after the reset
+  const N = later(a, b, p=>p.updated||0), O = N===a ? b : a, o = clone(N);
+  o.q = {}; kz(a.q, b.q).forEach(k=>{ o.q[k] = later(a.q[k], b.q[k], s=>s.t||0, s=>s.a||0); });
+  o.cards = {}; kz(a.cards, b.cards).forEach(k=>{ o.cards[k] = later(a.cards[k], b.cards[k], s=>s.t||0, s=>s.due||0); });
+  o.days = {}; kz(a.days, b.days).forEach(k=>{ const x=a.days[k]||{}, y=b.days[k]||{}; o.days[k] = {n:mx(x.n,y.n), c:mx(x.c,y.c), xp:mx(x.xp,y.xp)}; });
+  Object.keys(o.days).sort().slice(0, -200).forEach(k=>{ delete o.days[k]; });
+  o.badges = {}; kz(a.badges, b.badges).forEach(k=>{ o.badges[k] = firstT(a.badges[k], b.badges[k]); });
+  o.mn = {}; kz(a.mn, b.mn).forEach(k=>{ o.mn[k] = firstT(a.mn[k], b.mn[k]); });
+  o.cp = {}; kz(a.cp, b.cp).forEach(k=>{ o.cp[k] = mx(a.cp[k], b.cp[k]); });
+  o.journal = {}; kz(a.journal, b.journal).forEach(k=>{ o.journal[k] = later(jn(a.journal[k]), jn(b.journal[k]), j=>j.t||0); });
+  o.lessons = {}; kz(a.lessons, b.lessons).forEach(k=>{ o.lessons[k] = mergeLesson(a.lessons[k], b.lessons[k]); });
+  const ex = new Map(); a.exams.concat(b.exams).forEach(e=>{ if(e && e.t!=null){ const k=String(e.t); ex.set(k, later(ex.get(k), e, ()=>0)); } });
+  o.exams = [...ex.values()].sort((x,y)=>x.t-y.t).slice(-30);
+  const ga = a.games, gb = b.games;
+  o.games = Object.assign({}, O.games, N.games);
+  o.games.boss = {}; kz(ga.boss, gb.boss).forEach(k=>{ const x=ga.boss[k], y=gb.boss[k]; o.games.boss[k] = (!x || !y) ? (x || y) : {best:mx(x.best,y.best), won:!!(x.won||y.won)}; });
+  o.games.match = {}; kz(ga.match, gb.match).forEach(k=>{ o.games.match[k] = later(ga.match[k], gb.match[k], s=>-(s.t||0), s=>-(s.m||0)); });
+  ['lightBest','survBest','math'].forEach(k=>{ if(ga[k]!=null || gb[k]!=null) o.games[k] = mx(ga[k], gb[k]); });
+  ['xp','bestCombo','bestStreak','goalMet'].forEach(k=>{ if(a[k]!=null || b[k]!=null) o[k] = mx(a[k], b[k]); });
+  o.settings = {}; o.sK = {};   // settings: each one from whichever copy changed it last
+  kz(a.settings, b.settings).forEach(k=>{ const ta=(a.sK||{})[k]||0, tb=(b.sK||{})[k]||0, pb = tb>ta || (tb===ta && stable(b.settings[k])>stable(a.settings[k])); const v = (pb ? b : a).settings[k]; if(v!==undefined) o.settings[k] = clone(v); o.sK[k] = Math.max(ta, tb); });
+  o.sT = mx(a.sT, b.sT);
+  o.dev = {}; kz(a.dev, b.dev).forEach(k=>{ o.dev[k] = later(a.dev[k], b.dev[k], d=>d.last||0); });
+  Object.keys(o.dev).sort((x,y)=>(o.dev[y].last||0)-(o.dev[x].last||0) || (x<y?-1:1)).slice(8).forEach(k=>{ delete o.dev[k]; });
+  o.updated = mx(a.updated, b.updated); o.epoch = a.epoch||0; o.v = 2; delete o.fresh;
+  return o;
+}
+const DEV = (()=>{ let id=null; try{ id=localStorage.getItem('mipc-dev'); if(!id){ id=Math.random().toString(36).slice(2,10); localStorage.setItem('mipc-dev', id); } }catch(e){} return id || ('t'+Math.random().toString(36).slice(2,9)); })();
+function stampDevice(){   // which devices have saved, and when: lets a later check tell where saving works
+  P.dev = P.dev || {};
+  P.dev[DEV] = {ua:String(navigator.userAgent||'').slice(0,160), last:Date.now(), framed:window.top!==window ? 1 : 0};
+  Object.keys(P.dev).sort((x,y)=>(P.dev[y].last||0)-(P.dev[x].last||0)).slice(8).forEach(k=>{ delete P.dev[k]; });
+}
+const byteLen = o => { const s=JSON.stringify(o); try{ return new TextEncoder().encode(s).length; }catch(e){ return s.length*3; } };
+function compact(body){   // stay under the 256 KiB document limit: shed the least useful history first
+  const trims = [b=>{ b.dev={}; }, b=>{ b.exams=b.exams.slice(-10); }, b=>{ Object.keys(b.days).sort().slice(0,-60).forEach(k=>{ delete b.days[k]; }); }, b=>{ b.journal={}; }];
+  for(const t of trims){ if(byteLen(body)<=250000) break; t(body); }
+  return body;
+}
+const SYNC = {debounce:2000, gap:8000, lazy:60000, burst:20000, fresh:3000, getMs:15000, setMs:20000};
+const PARK = new Set(['not_granted']);   // Claude's permission question: the learner can still say yes
+const STOP = new Set(['revoked','capability_disabled','capability_removed','quota_exceeded','invalid_argument','transform_error']);
+let lastSettings = JSON.stringify(P.settings);
+function adopt(p){ P = p; lastSettings = JSON.stringify(P.settings); lsSet(LS_KEY, P); }
+function save(lazy){   // lazy: a change that can wait (a lesson's play position); the account copy catches up within a minute
+  const now = Date.now(), s = JSON.stringify(P.settings);
+  if(s!==lastSettings){ let was = {}; try{ was = JSON.parse(lastSettings); }catch(e){} P.sK = P.sK || {}; Object.keys(P.settings).forEach(k=>{ if(stable(P.settings[k])!==stable(was[k])) P.sK[k] = now; }); P.sT = now; lastSettings = s; }
+  P.updated = now;
   lsSet(LS_KEY, P);
   if(!sync.ref) return;
-  clearTimeout(sync.timer);
-  sync.timer = setTimeout(flush, 1500);
+  const was = sync.dirty; sync.echo = 0;
+  if(!sync.dirty) sync.since = now;
+  sync.dirty = true; if(!lazy) sync.hard = true;
+  if(!was && sync.state==='saved') refreshSaveUI();
+  plan();
 }
+function plan(){   // one write per pause, at most one every few seconds, retried with back-off
+  if(!sync.ref || !sync.dirty || sync.writing || !sync.definitive) return;
+  const now = Date.now();
+  let at = Math.max(now + SYNC.debounce, sync.lastWrite + (sync.hard ? SYNC.gap : SYNC.lazy));
+  if(sync.hard && sync.since) at = Math.min(at, Math.max(sync.since + SYNC.burst, sync.lastWrite + SYNC.gap));
+  at = Math.max(at, sync.retryAt||0);
+  clearTimeout(sync.timer); sync.timer = setTimeout(()=>{ sync.timer = null; flush(); }, Math.max(0, at - now));
+}
+function withTimeout(p, ms){   // a call the viewer never answers counts as "unavailable" and is retried
+  let t; return Promise.race([p, new Promise((_, rej)=>{ t = setTimeout(()=>rej({code:'unavailable', timeout:true}), ms); })]).finally(()=>clearTimeout(t));
+}
+const backoff = (code, n) => code==='resource_exhausted' ? 30000*Math.min(4, n) : n===1 ? 1000+Math.random()*2000 : Math.min(120000, 15000*2**(n-2));
 async function flush(){
-  if(!sync.ref) return;
-  if(sync.writing){ sync.again=true; return; }
-  sync.writing=true;
-  try{ await sync.ref.set(JSON.parse(JSON.stringify(P))); setSyncLabel('Progress: saved to your account'); }
-  catch(e){ setSyncLabel('Progress: this browser'); if(e && (e.code==='invalid_argument'||e.code==='revoked'||e.code==='not_granted')) sync.ref=null; }
-  sync.writing=false;
-  if(sync.again){ sync.again=false; flush(); }
-}
-async function initSync(){
+  if(!sync.ref || sync.writing || !sync.dirty || !sync.definitive) return;
+  clearTimeout(sync.timer); sync.timer = null;
+  const ref = sync.ref, hard = sync.hard;
+  sync.writing = true; sync.dirty = false; sync.hard = false; sync.since = 0;
+  if(sync.state!=='saved') setSync('saving');
   try{
-    if(!window.claude || !window.claude.use) return;
-    const [db,user] = await Promise.all([window.claude.use('db'), window.claude.use('user')]);
-    if(!db || !user) return;
-    const id = await user.id();
-    if(!id) return;
-    const ref = db.doc('data/users/'+id+'/progress');
-    const snap = await ref.get();
-    sync.ref = ref;
-    if(snap.exists){
-      const remote = snap.data() || {};
-      if((remote.updated||0) >= (P.updated||0)){ P = migrate(JSON.parse(JSON.stringify(remote))); lsSet(LS_KEY,P); applyTone(); }
-      else flush();
-    } else if(P.updated){ flush(); }
-    setSyncLabel('Progress: saved to your account');
-    if(VIEW==='home') renderHome();
-  }catch(e){ /* stay on browser storage */ }
+    if(sync.stale || !sync.live || Date.now()-sync.lastDef > SYNC.fresh){   // read the account copy as it is now, so this write can't drop progress another device just saved
+      const snap = await withTimeout(ref.get(), SYNC.getMs);
+      if(sync.ref!==ref) throw {code:'moved'};
+      if(snap && snap.metadata && snap.metadata.fromCache) throw {code:'unavailable'};
+      sync.lastDef = Date.now(); sync.stale = false;
+      const cur = snap && snap.exists ? (snap.data() || {}) : null;
+      sync.remote = cur ? clone(cur) : null; sync.remoteKey = cur ? stable(cur) : '';
+    }
+    if(sync.remote){ const before = P, m = mergeP(P, sync.remote); if(stable(m)!==stable(P)){ adopt(m); applyTone(); afterRemote(before, false); } }
+    stampDevice(); lsSet(LS_KEY, P);
+    let body = clone(P); delete body.fresh; if(byteLen(body)>250000) body = compact(body);
+    await withTimeout(ref.set(body), SYNC.setMs);
+    if(sync.ref===ref){ sync.remote = body; sync.remoteKey = stable(body); }
+    sync.lastWrite = sync.savedAt = Date.now(); sync.fails = 0; sync.retryAt = 0; sync.code = '';
+    setSync('saved');
+  }catch(e){
+    const code = (e && e.code) || 'unavailable';
+    sync.dirty = true; sync.hard = sync.hard || hard; if(!sync.since) sync.since = Date.now();
+    if(code==='moved'){}
+    else if(PARK.has(code)) await parkSync(code);
+    else if(STOP.has(code)) stopSync(code);
+    else { const ps = await permState('db');
+      if(sync.ref===ref && (ps==='denied' || ps==='prompt')) await parkSync(code);   // a refusal, whatever its code
+      else { sync.fails++; sync.code = code; sync.retryAt = Date.now() + backoff(code, sync.fails); setSync('retry'); } }
+  }
+  sync.writing = false;
+  refreshSaveUI();   // the label reads the finished write
+  plan();
+}
+function unsubscribe(){ if(sync.unsub){ try{ sync.unsub(); }catch(e){} } sync.unsub = null; sync.live = false; clearTimeout(sync.resub); }
+function stopSync(code){   // a refusal that retrying can't fix: keep progress on this device and say why
+  sync.ref = null; sync.parked = null; clearTimeout(sync.timer); sync.timer = null; clearTimeout(sync.slow); unsubscribe();
+  setSync('local', code==='invalid_argument' ? 'access' : code==='quota_exceeded' ? 'full' : 'unavail', code);
+}
+async function parkSync(code){   // Claude asked the learner about saving and it isn't allowed (yet): hold the connection for when it is
+  const ref = sync.ref, st = await permState('db'); sync.perm = st;
+  if(ref) sync.parked = ref;
+  sync.ref = null; clearTimeout(sync.timer); sync.timer = null; clearTimeout(sync.slow); unsubscribe();
+  setSync('local', st==='denied' ? 'denied' : st==='prompt' ? 'prompt' : 'unavail', code);
+}
+function resumeSync(){   // saving was allowed: carry on with the same connection
+  const ref = sync.parked; if(!ref){ initSync(); return; }
+  sync.parked = null; sync.ref = ref; sync.fails = 0; sync.definitive = false; sync.stale = true;
+  if(P.updated){ sync.dirty = true; sync.hard = true; sync.since = Date.now(); }
+  setSync('connecting'); subscribe(ref); pull(ref, true);
+}
+function takeRemote(data, definitive, first){
+  if(definitive){ sync.definitive = true; sync.lastDef = Date.now(); sync.stale = false; }
+  const key = stable(data);
+  if(key!==sync.remoteKey){
+    sync.remote = clone(data); sync.remoteKey = key;
+    const before = P; let cur = P;
+    if(P.fresh){ cur = clone(P); addSession(cur, migrate(clone(data))); }
+    const m = mergeP(cur, sync.remote), need = !same(m, data);   // decided before anything renders: rendering must never be what triggers a write
+    if(stable(m)!==stable(P)){ adopt(m); applyTone(); afterRemote(before, first); }
+    if(need && (sync.echo||0)<3){ sync.echo = (sync.echo||0)+1; if(!sync.dirty) sync.since = Date.now(); sync.dirty = true; sync.hard = true; }   // the account copy lacks something this device has (at most 3 such writes in a row)
+  }
+  if(sync.definitive && !sync.dirty && !sync.writing){ sync.savedAt = sync.savedAt || Date.now(); if(sync.state!=='saved') setSync('saved'); }
+  plan();
+}
+function noRemote(){   // no account copy yet (or it was deleted): this device's progress becomes it
+  if(P.fresh){ delete P.fresh; lsSet(LS_KEY, P); }
+  sync.definitive = true; sync.lastDef = Date.now(); sync.stale = false; sync.remote = null; sync.remoteKey = '';
+  if(P.updated){ if(!sync.dirty) sync.since = Date.now(); sync.dirty = true; sync.hard = true; }
+  else if(!sync.dirty && !sync.writing && sync.state!=='saved') setSync('saved');
+  plan();
+}
+function afterRemote(before, first){
+  const more = Object.keys(P.q).length>Object.keys(before.q||{}).length || (P.xp||0)>(before.xp||0) || Object.keys(P.lessons).length>Object.keys(before.lessons||{}).length;
+  if(first && more && !sync.loadToast){ sync.loadToast = true; toast('Loaded your saved progress.'); }
+  const ae = document.activeElement, typing = ae && ae.closest && ae.closest('#view-home input, #view-home textarea, #view-home select');
+  if(VIEW==='home' && !typing) renderHome();   // don't wipe a backup code being pasted or a date being typed
+}
+async function permState(name){ try{ return sync.perms ? await sync.perms.state(name) : ''; }catch(e){ return ''; } }
+async function initSync(){
+  if(sync.ref || sync.starting) return;
+  sync.starting = true;
+  try{
+    const C = window.claude;
+    if(!C){ setSync('local', 'outside'); return; }
+    if(typeof C.use!=='function'){ setSync('local', 'preview'); return; }   // a chat preview: a flat window.claude without capabilities
+    setSync('connecting');
+    let db = null, user = null, perms = null;
+    try{ [db, user, perms] = await Promise.all([C.use('db'), C.use('user'), sync.perms || C.use('permissions')]); }catch(e){}
+    if(perms) sync.perms = perms;
+    if(!db){ const st = await permState('db'); sync.perm = st; setSync('local', st==='denied' ? 'denied-reload' : 'nodb'); return; }   // this view can't run db at all
+    let id = null; try{ id = user ? await user.id() : null; }catch(e){}
+    if(!id){ setSync('local', 'noid'); return; }
+    let ref = null; try{ ref = db.doc('data/users/'+id+'/progress'); }catch(e){ setSync('local', 'unavail', 'path'); return; }
+    sync.ref = ref; sync.fails = 0;
+    subscribe(ref);   // its first delivery can stand in for the read below
+    pull(ref, true);
+  } finally { sync.starting = false; }
+}
+async function pull(ref, first){   // read the account copy and merge it in
+  if(sync.pulling) return; sync.pulling = true;
+  clearTimeout(sync.slow);
+  sync.slow = setTimeout(async ()=>{ if(sync.ref===ref && !sync.definitive){ sync.perm = await permState('db'); if(sync.ref===ref && !sync.definitive){ sync.waitSince = sync.waitSince || Date.now(); setSync('waiting'); } } }, 12000);
+  const done = snap => {
+    sync.pulling = false; clearTimeout(sync.slow); sync.waitSince = 0;
+    if(sync.ref!==ref) return;
+    const def = !(snap && snap.metadata && snap.metadata.fromCache);
+    if(snap && snap.exists) takeRemote(snap.data() || {}, def, first);
+    else if(def) noRemote();
+    if(sync.definitive && !sync.dirty && !sync.writing){ sync.savedAt = sync.savedAt || Date.now(); setSync('saved'); }
+    else if(sync.state==='connecting' || sync.state==='waiting' || sync.state==='retry') setSync('saving');
+    sync.fails = 0; plan();
+  };
+  const fail = async e => {
+    sync.pulling = false; clearTimeout(sync.slow);
+    if(sync.ref!==ref) return;
+    const code = (e && e.code) || 'unavailable';
+    if(PARK.has(code)){ await parkSync(code); return; }
+    if(STOP.has(code)){ stopSync(code); return; }
+    const ps = await permState('db'); if(sync.ref!==ref) return;
+    if(ps==='denied' || (ps==='prompt' && !(e && e.timeout))){ await parkSync(code); return; }   // a refusal, whatever its code
+    if(sync.definitive) return;   // the live listener already delivered the account copy
+    sync.fails++; sync.code = code; if(sync.state!=='waiting') setSync('retry'); else refreshSaveUI();
+    setTimeout(()=>{ if(sync.ref===ref && !sync.definitive) pull(ref, first); }, Math.min(120000, 2000*2**Math.min(sync.fails, 6)));
+  };
+  const p = ref.get();
+  try{ done(await withTimeout(p, SYNC.getMs)); }
+  catch(e){
+    if(e && e.timeout && sync.ref===ref){
+      const st = await permState('db'); sync.perm = st;
+      if(st==='prompt'){ sync.waitSince = sync.waitSince || Date.now(); setSync('waiting'); p.then(done, fail); return; }   // Claude is asking the learner: wait for that answer
+    }
+    fail(e);
+  }
+}
+function subscribe(ref){   // live: progress saved on another device arrives while this one is open
+  if(sync.unsub || sync.ref!==ref || typeof ref.onSnapshot!=='function') return;
+  try{
+    sync.unsub = ref.onSnapshot(snap=>{
+      if(sync.ref!==ref || !snap) return;
+      sync.live = true;
+      if(snap.metadata && snap.metadata.hasPendingWrites) return;
+      const def = !(snap.metadata && snap.metadata.fromCache);
+      if(snap.exists) takeRemote(snap.data() || {}, def, !sync.definitive); else if(def) noRemote();
+    }, e=>{
+      sync.unsub = null; sync.live = false; sync.stale = true;   // until a fresh read, every write re-reads the account copy first
+      if(sync.ref!==ref) return;
+      const code = (e && e.code) || 'unavailable';
+      if(PARK.has(code)){ parkSync(code); return; }
+      if(code==='revoked' || code==='capability_disabled' || code==='capability_removed'){ stopSync(code); return; }
+      clearTimeout(sync.resub);
+      sync.resub = setTimeout(()=>{ if(sync.ref===ref) subscribe(ref); }, code==='resource_exhausted' ? 30000+Math.random()*30000 : 2000+Math.random()*3000);
+    });
+  }catch(e){ sync.unsub = null; sync.live = false; }
+}
+function flushNow(){   // leaving the page: hand the save over at once (a read first would never get its answer back)
+  if(!sync.ref || !sync.definitive || !(sync.dirty || sync.writing)) return;
+  const ref = sync.ref; clearTimeout(sync.timer); sync.timer = null;
+  if(sync.remote){ const m = mergeP(P, sync.remote); if(stable(m)!==stable(P)) adopt(m); }
+  stampDevice(); lsSet(LS_KEY, P);
+  let body = clone(P); delete body.fresh; if(byteLen(body)>250000) body = compact(body);
+  sync.dirty = false; sync.hard = false; sync.since = 0;
+  ref.set(body).then(()=>{ if(sync.ref===ref){ sync.remote = body; sync.remoteKey = stable(body); } sync.lastWrite = sync.savedAt = Date.now(); if(!sync.dirty && !sync.writing) setSync('saved'); },
+    e=>{ const code = (e && e.code) || 'unavailable'; sync.dirty = true; sync.hard = true; if(!sync.since) sync.since = Date.now(); if(PARK.has(code)) parkSync(code); else if(STOP.has(code)) stopSync(code); else plan(); });
+}
+document.addEventListener('visibilitychange', ()=>{
+  if(document.visibilityState==='hidden'){ flushNow(); sync.stale = true; }   // deliveries may pause while hidden
+  else if(sync.ref){ subscribe(sync.ref); pull(sync.ref, false); }                        // back: catch up before the next write
+});
+window.addEventListener('pagehide', ()=>{ flushNow(); });
+window.addEventListener('storage', e=>{   // another tab of this app on this device saved: combine, so neither tab overwrites the other
+  if(e.key!==LS_KEY || !e.newValue) return;
+  let other; try{ other = JSON.parse(e.newValue); }catch(err){ return; }
+  const before = P, m = mergeP(P, other);
+  if(stable(m)===stable(P)) return;
+  adopt(m); applyTone(); afterRemote(before, false);
+  if(sync.ref && !same(m, sync.remote)){ if(!sync.dirty) sync.since = Date.now(); sync.dirty = true; sync.hard = true; plan(); }
+});
+window.addEventListener('online', ()=>{ if(sync.ref){ if(!sync.live) subscribe(sync.ref); if(sync.dirty){ sync.retryAt = 0; plan(); } } });
+
+/* save status: header (wide screens), Settings, and a notice on Today whenever progress isn't reaching the account */
+function fmtClock(t){ try{ return new Date(t).toLocaleTimeString([], {hour:'numeric', minute:'2-digit'}); }catch(e){ return ''; } }
+function syncText(){
+  const busy = sync.dirty || sync.writing;
+  switch(sync.state){
+    case 'connecting': return 'Connecting to your account…';
+    case 'waiting': return 'Not saving to your account yet';
+    case 'saving': return 'Saving to your account…';
+    case 'saved': return busy ? 'Saving to your account…' : 'Saved to your account'+(sync.savedAt ? ' · '+fmtClock(sync.savedAt) : '');
+    case 'retry': return sync.storage ? 'Can’t reach your account · saved in this browser' : 'Can’t reach your account';
+    default: return sync.storage ? 'Saved in this browser only' : 'Not saved: this view can’t store progress';
+  }
+}
+const failing = () => sync.state==='local' || sync.state==='waiting' || (sync.state==='retry' && sync.fails>=3);
+function setSync(state, why, code){
+  const was = failing();
+  sync.state = state; if(why!==undefined) sync.why = why; if(code!==undefined) sync.code = code;
+  if(!was && failing() && VIEW!=='home') toast(`Progress isn’t reaching your Claude account; it’s kept ${sync.storage ? 'in this browser' : 'only in this page'} for now. Today explains what to do.`, 7000);
+  refreshSaveUI();
+}
+function savebarHTML(){
+  const st = sync.state, why = sync.why, here = sync.storage ? 'in this browser' : 'only in this page';
+  if(!(st==='local' || st==='waiting' || (st==='retry' && sync.fails>=3))) return '';
+  const fixable = ['prompt','denied','denied-reload','on-reload'].includes(why), hideKey = why+'|'+(sync.code||'');
+  if(st==='local' && sync.storage && !fixable && (sync.hide===hideKey || lsGet('mipc-savebar-hide')===hideKey)) return '';
+  const canReload = sync.storage;   // in a view that stores nothing, a reload erases everything done since it opened
+  const copyFirst = ' First tap Backup code and copy the code; after reloading, load it under Today → Settings → Backup code.';
+  const carry = ' To bring this progress along, tap Backup code and copy it, then in the other browser open Today → Settings → Backup code and load it there.';
+  const notKept = sync.storage ? ' Other browsers and apps don’t see it, and if progress from an earlier visit is missing, this view isn’t keeping it.' : '';
+  let h, p, allow = '', reload = false;
+  if(st==='waiting'){ h = 'Not saving to your account yet'; p = `Saving to your account hasn’t connected. If Claude is asking for permission, allow it. Meanwhile your progress is kept ${here}.`;
+    if(sync.waitSince && Date.now()-sync.waitSince>60000){ p += ' If this doesn’t clear, reload the app.' + (canReload ? '' : copyFirst); reload = canReload; } }
+  else if(st==='retry'){ h = 'Can’t reach your account right now'; p = `Your progress is kept ${here} and is sent to your account as soon as the connection is back.`; }
+  else if(why==='outside' || why==='preview'){ h = sync.storage ? 'Progress is only saved in this browser' : 'Progress isn’t being saved';
+    p = (why==='preview' ? 'This view of the app (for example, a preview inside a Claude chat) can’t save to your Claude account.' : 'This copy isn’t running inside Claude (for example, it was opened from a downloaded file), so it can’t save to your Claude account.')
+      + ' Open the app from its claude.ai link in a web browser where you’re signed in to Claude.' + notKept + carry; }
+  else if(why==='prompt'){ h = 'Allow saving to your account'; p = `Claude needs your OK before this app can save your progress to your account. Until then it’s kept ${here}.`; allow = 'Allow saving'; }
+  else if(why==='denied' || why==='denied-reload'){ h = 'Saving to your account is turned off';
+    p = `Claude isn’t letting this app save to your account, so progress is kept ${here}. Turn saving on${why==='denied-reload' ? ', then reload the app,' : ''} to keep it in your account.` + (why==='denied-reload' && !canReload ? copyFirst : '')
+      + (sync.panelFailed ? ' If the button doesn’t open anything, open this app’s Permissions menu in Claude and turn saving on there.' : '');
+    allow = 'Turn on saving'; reload = why==='denied-reload' && canReload; }
+  else if(why==='on-reload'){ h = 'Saving is turned on'; p = `Reload the app to start saving to your account. Until then your progress is kept ${here}.` + (canReload ? '' : copyFirst); reload = canReload; }
+  else if(why==='access'){ h = 'This account can’t save to the app'; p = `Your Claude account can open this app but isn’t allowed to save to it, so progress is kept ${here}. If someone shared the app with you, ask them for Contributor access or higher.`; }
+  else if(why==='full'){ h = 'Your progress can’t reach your account'; p = `This app’s saved-data storage is full, so new progress can’t be saved to your account; it’s kept ${here}. Copy a backup code to keep a spare.`; }
+  else if(why==='unavail'){ h = 'Saving to your account stopped'; p = `This view stopped letting the app save to your account, so progress is kept ${here}. Reloading the app may reconnect it.` + (canReload ? '' : copyFirst); reload = canReload; }
+  else if(why==='noid'){ h = 'Progress isn’t being saved to your Claude account'; p = `Claude didn’t connect an account to this view, so progress is kept ${here}. Open the app’s claude.ai link in a browser where you’re signed in to Claude.` + notKept + carry; }
+  else { h = 'Progress isn’t being saved to your Claude account'; p = `This way of opening the app can’t reach your account, so progress is kept ${here}. Open the app’s claude.ai link in a web browser where you’re signed in to Claude (if you’re already there, reload the page).` + notKept + carry; }
+  if(!sync.storage) p += ' <strong>This view can’t store anything on this device, so progress will be lost when you close it.</strong> Copy a backup code before you leave.';
+  const hide = st==='local' && sync.storage && !fixable;
+  return `<div class="confirm savebar pcode-host" role="region" aria-label="Saving your progress"><strong>${h}</strong><p class="small">${p}</p><div class="row">`
+    + (allow && sync.perms ? `<button class="btn primary small" data-act="save-allow">${allow}</button>` : '') + (reload ? '<button class="btn small" data-act="save-reload">Reload</button>' : '')
+    + '<button class="btn small" data-act="pcode" aria-expanded="false">Backup code</button>' + (hide ? '<button class="btn ghost small" data-act="savebar-hide">Hide</button>' : '') + '</div><div class="pcode-box"></div></div>';
+}
+function refreshSaveUI(){
+  const t = syncText(), busy = sync.dirty || sync.writing, ok = sync.state==='saved' && !busy, warn = failing() || sync.state==='retry';
+  const short = {connecting:'Connecting…', waiting:'Not saving to account', saving:'Saving…', retry:'Not saving to account', saved: busy ? 'Saving…' : 'Saved', local: sync.storage ? 'This browser only' : 'Not saved'}[sync.state] || '';
+  const mark = ok ? '<span aria-hidden="true">✓ </span>' : warn ? '<span aria-hidden="true">! </span>' : '';
+  const h = $('#sync'); if(h){ h.innerHTML = mark + `<span class="s-long">${esc(t)}</span><span class="s-short">${esc(short)}</span>`; h.title = t; h.dataset.state = sync.state; }
+  ['#save-status', '#save-mini'].forEach(sel=>{ const s = $(sel); if(s){ s.innerHTML = mark + esc(t); s.className = 'small ' + (warn ? 'warn-t' : 'muted'); } });
+  const bar = $('#savebar');
+  if(bar){ const html = savebarHTML(), box = bar.querySelector('.pcode-box'), open = !!(box && box.firstChild);
+    if(bar._h!==html && (!open || !html)){ bar._h = html; bar.innerHTML = html; bar.hidden = !html; } }   // don't wipe a backup code being copied or pasted
+}
+
+/* backup code: the whole progress as text, to keep a copy or move it to another browser; loading one merges it in */
+async function makeCode(p){
+  const json = JSON.stringify(p); let bytes = new TextEncoder().encode(json), tag = 'MIPC0';
+  try{ if(typeof CompressionStream==='function'){ bytes = new Uint8Array(await new Response(new Blob([bytes]).stream().pipeThrough(new CompressionStream('gzip'))).arrayBuffer()); tag = 'MIPC1'; } }
+  catch(e){ bytes = new TextEncoder().encode(json); tag = 'MIPC0'; }
+  let s = ''; for(let i=0; i<bytes.length; i+=0x8000) s += String.fromCharCode.apply(null, bytes.subarray(i, i+0x8000));
+  return tag + ':' + btoa(s);
+}
+const userErr = m => Object.assign(new Error(m), {user:true});
+async function readCode(code){
+  const m = String(code||'').replace(/\s+/g, '').match(/^(MIPC[01]):([A-Za-z0-9+/]+={0,2})$/);
+  if(!m) throw userErr('That doesn’t look like a backup code from this app. Copy the whole code and try again.');
+  const damaged = 'That code is incomplete or damaged. Copy the whole code and try again.';
+  let bytes; try{ const bin = atob(m[2]); bytes = new Uint8Array(bin.length); for(let i=0; i<bin.length; i++) bytes[i] = bin.charCodeAt(i); }catch(e){ throw userErr(damaged); }
+  if(m[1]==='MIPC1'){ if(typeof DecompressionStream!=='function') throw userErr('This browser can’t read that code. Try a current Chrome, Edge, Safari or Firefox.');
+    try{ bytes = new Uint8Array(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer()); }catch(e){ throw userErr(damaged); } }
+  let p; try{ p = JSON.parse(new TextDecoder().decode(bytes)); }catch(e){ throw userErr(damaged); }
+  if(!p || typeof p!=='object' || Array.isArray(p) || !p.q || typeof p.q!=='object') throw userErr('That code doesn’t contain progress from this app.');
+  return p;
+}
+async function pcodeOpen(host){
+  const box = host && host.querySelector('.pcode-box'); if(!box) return;
+  const btn = host.querySelector('[data-act="pcode"]');
+  if(box.firstChild){ box.innerHTML = ''; if(btn) btn.setAttribute('aria-expanded', 'false'); return; }
+  if(btn) btn.setAttribute('aria-expanded', 'true');
+  box.innerHTML = `<div class="pcode stack" style="gap:8px;margin-top:12px">
+    <label class="small">Your backup code. Copy it to keep a spare copy of your progress, or to move it to another browser or device.<textarea class="pc-out" readonly rows="3" spellcheck="false">Making your code…</textarea></label>
+    <div class="row"><button class="btn small" data-act="pcode-copy">Copy code</button><span class="small muted pc-msg" aria-live="polite"></span></div>
+    <label class="small">Load a backup code. Its progress is added to what’s here; where both have the same item, the more recent one is kept.<textarea class="pc-in" rows="3" spellcheck="false" placeholder="Paste a backup code"></textarea></label>
+    <div class="row"><button class="btn small" data-act="pcode-load">Load code</button><span class="small muted pc-msg2" aria-live="polite"></span></div></div>`;
+  try{ const code = await makeCode(P), out = box.querySelector('.pc-out'); if(out) out.value = code; }
+  catch(e){ const out = box.querySelector('.pc-out'); if(out) out.value = 'Couldn’t make a code in this browser.'; }
 }
 
 /* ---------- day log, XP, levels, streaks ---------- */
-function today(){ const k=dayKey(); return P.days[k] || (P.days[k]={n:0,c:0,xp:0}); }
+function today(){ return P.days[dayKey()] || {n:0,c:0,xp:0}; }   // read only: showing the screen must not change progress
+function todayW(){ const k=dayKey(); return P.days[k] || (P.days[k]={n:0,c:0,xp:0}); }
 function pruneDays(){ const ks=Object.keys(P.days).sort(); while(ks.length>200){ delete P.days[ks.shift()]; } }
 const TITLES = [[1,'Applicant'],[3,'Pre-licensing Student'],[6,'Exam Candidate'],[10,'Test-Day Ready'],[15,'Licensed Producer'],[21,'Agency Pro'],[28,'Insurance Legend']];
 function levelOf(xp){
@@ -118,7 +506,7 @@ let goalToastDay = null;
 function addXP(n){
   if(!n) return;
   const before = levelOf(P.xp).level;
-  P.xp += n; today().xp += n;
+  P.xp += n; todayW().xp += n;
   const after = levelOf(P.xp);
   if(after.level>before){ toast(`<b>Level ${after.level}</b> reached: ${esc(after.title)}`); confetti(); }
 }
@@ -130,7 +518,7 @@ function streak(){
   return s;
 }
 function logAnswer(ok){
-  const d=today(); d.n++; if(ok) d.c++;
+  const d=todayW(); d.n++; if(ok) d.c++;
   pruneDays();
   const s=streak(); if(s>P.bestStreak) P.bestStreak=s;
   if(d.n===P.settings.dailyGoal && goalToastDay!==dayKey()){ goalToastDay=dayKey(); P.goalMet=(P.goalMet||0)+1; toast('<b>Daily goal met.</b> Nice work.'); confetti(); addXP(20); }
@@ -216,11 +604,11 @@ function checkBadges(){
 }
 
 /* ---------- toasts & confetti ---------- */
-function toast(html){
+function toast(html, ms){
   const box=$('#toasts'); if(!box) return;
   const t=document.createElement('div'); t.className='toast'; t.innerHTML=html; box.appendChild(t);
   while(box.children.length>2) box.firstElementChild.remove();
-  setTimeout(()=>t.remove(), 2800);
+  setTimeout(()=>t.remove(), ms||2800);
 }
 const reduceMotion = (()=>{ try{ return window.matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){ return false; } })();
 function confetti(){
@@ -310,11 +698,12 @@ function renderHome(){
   const earned = BADGES.filter(b=>P.badges[b.id]).length;
   el.innerHTML = `
   <div class="stack">
+    <div id="savebar" hidden></div>
     <div class="today-hero">
       <div class="panel">
         <div class="row" style="justify-content:space-between;align-items:flex-start;gap:18px">
           <div class="stack" style="gap:12px;flex:1;min-width:220px">
-            <div class="eyebrow" style="color:var(--muted)">Today</div>
+            <div class="row" style="justify-content:space-between;gap:8px"><div class="eyebrow" style="color:var(--muted)">Today</div><span id="save-mini" class="small muted"></span></div>
             <div class="statrow">
               <div class="stat"><span class="n"><span class="flame" aria-hidden="true"></span>${st}</span><span class="l">day streak</span></div>
               <div class="stat"><span class="n">${due}</span><span class="l">reviews due</span></div>
@@ -384,7 +773,11 @@ function renderHome(){
             <label class="toggle"><input type="checkbox" id="set-conf" ${P.settings.confidence?'checked':''}> Ask how sure I am before showing the answer</label>
             <label class="toggle"><input type="checkbox" id="set-recall" ${P.settings.recall?'checked':''}> Hide the choices until I try to recall the answer</label>
             ${dl!==null?`<div class="row"><input type="date" id="exam-date" value="${esc(P.settings.examDate)}" aria-label="Exam date"><button class="btn" data-act="set-date">Change exam date</button></div>`:''}
-            <div class="row"><button class="btn ghost small" data-act="reset">Reset progress</button><span class="small muted">${sync.ref?'Saved to your account':'Saved in this browser'}</span></div>
+            <div class="pcode-host stack" style="gap:8px">
+              <span id="save-status" class="small muted"></span>
+              <div class="row"><button class="btn ghost small" data-act="pcode">Backup code</button><button class="btn ghost small" data-act="reset">Reset progress</button></div>
+              <div class="pcode-box"></div>
+            </div>
             <div id="reset-box"></div>
           </div>
         </div>
@@ -396,6 +789,7 @@ function renderHome(){
       <div class="badges" style="margin-top:12px">${BADGES.map(b=>`<div class="badge ${P.badges[b.id]?'on':''}"><span class="medal" aria-hidden="true">${P.badges[b.id]?'★':'·'}</span><div style="min-width:0"><div class="bt">${esc(b.t)}</div><div class="bd">${esc(b.d)}</div></div></div>`).join('')}</div>
     </div>
   </div>`;
+  refreshSaveUI();
   $('#set-goal').addEventListener('change', e=>{ P.settings.dailyGoal=+e.target.value; save(); renderHome(); });
   $('#set-conf').addEventListener('change', e=>{ P.settings.confidence=e.target.checked; save(); });
   $('#set-recall').addEventListener('change', e=>{ P.settings.recall=e.target.checked; save(); });
@@ -637,7 +1031,7 @@ function explainHTML(item){
     ${!ok && item.conf==='sure' ? `<p class="small" style="color:var(--bad);margin:6px 0 0">You were sure about this one. Confident mistakes are worth extra attention: it will come back first in your reviews.</p>`:''}
     <p>${esc(q.explain)}</p>
     ${q.source?`<p><cite>Source: ${esc(q.source)}</cite></p>`:''}
-    ${!ok?`<div class="row small" style="gap:6px;margin-top:6px"><span class="muted">Why did I miss it?</span>${tags.map(t=>`<button class="chip" data-tag="${esc(t)}" aria-pressed="${P.journal[item.id]===t}">${esc(t)}</button>`).join('')}</div>`:''}
+    ${!ok?`<div class="row small" style="gap:6px;margin-top:6px"><span class="muted">Why did I miss it?</span>${tags.map(t=>`<button class="chip" data-tag="${esc(t)}" aria-pressed="${jtag(P.journal[item.id])===t}">${esc(t)}</button>`).join('')}</div>`:''}
   </div>${hookBox(item.id)}`;
 }
 function sesHUD(){
@@ -668,7 +1062,7 @@ function drawQ(sel){
   const sh=$('#q-show'); if(sh) sh.addEventListener('click', ()=>{ S.shown=true; drawQ(sel); });
   el.querySelectorAll('.choice:not([disabled])').forEach(b=>b.addEventListener('click',()=>pickChoice(+b.dataset.ci, sel)));
   el.querySelectorAll('[data-conf]').forEach(b=>b.addEventListener('click',()=>finalize(b.dataset.conf, sel)));
-  el.querySelectorAll('[data-tag]').forEach(b=>b.addEventListener('click',()=>{ P.journal[it.id]=b.dataset.tag; save(); el.querySelectorAll('[data-tag]').forEach(x=>x.setAttribute('aria-pressed', String(x===b))); }));
+  el.querySelectorAll('[data-tag]').forEach(b=>b.addEventListener('click',()=>{ P.journal[it.id]={tag:b.dataset.tag, t:Date.now()}; save(); el.querySelectorAll('[data-tag]').forEach(x=>x.setAttribute('aria-pressed', String(x===b))); }));
   $('#q-quit').addEventListener('click', ()=>{ S.done=true; persistSes(); drawEnd(sel); });
   const nx=$('#q-next'); if(nx){ nx.addEventListener('click', ()=>nextQ(sel)); nx.focus({preventScroll:true}); }
 }
@@ -1027,7 +1421,7 @@ function renderCards(sec){
   const rs=$('#fc-restart'); if(rs) rs.addEventListener('click', ()=>{ FC={sec:cur, queue:shuffle(pool).map(x=>x.id), flipped:false}; renderCards(); });
 }
 function gradeCard(id, ok){
-  const s=P.cards[id]||{box:0,due:0};
+  const s=P.cards[id]||{box:0,due:0}; s.t=Date.now();
   if(ok){ s.box=Math.min(IV.length-1,(s.box||0)+1); s.due=startOfToday()+IV[s.box]*DAY; addXP(3); } else { s.box=0; s.due=Date.now(); }
   P.cards[id]=s; save(); checkBadges();
   FC.queue.shift(); if(!ok) FC.queue.splice(Math.min(3,FC.queue.length),0,id);
@@ -1051,6 +1445,27 @@ document.addEventListener('click', e=>{
   const act=b.dataset.act;
   if(lessonActs(act, b)) return;
   if(act==='tone'){ P.settings.tone=b.dataset.tone; save(); applyTone(); return; }
+  if(act==='pcode'){ pcodeOpen(b.closest('.pcode-host')); return; }
+  if(act==='pcode-copy'){ const box=b.closest('.pcode'), ta=box&&box.querySelector('.pc-out'), msg=box&&box.querySelector('.pc-msg'); if(!ta || !/^MIPC/.test(ta.value)) return;
+    const fail=()=>{ ta.focus(); ta.select(); try{ ta.setSelectionRange(0, ta.value.length); }catch(e2){} let okc=false; try{ okc=document.execCommand('copy'); }catch(e2){}
+      const all = ta.selectionStart===0 && ta.selectionEnd===ta.value.length;
+      if(msg) msg.textContent = okc ? 'Copied.' : all ? 'Couldn’t copy automatically. The code is selected: copy it (on a phone, tap the highlighted text, then Copy).' : 'Couldn’t copy automatically. Tap and hold in the box, choose Select All, then Copy.'; };
+    try{ navigator.clipboard.writeText(ta.value).then(()=>{ if(msg) msg.textContent='Copied.'; }, fail); }catch(err){ fail(); } return; }
+  if(act==='pcode-load'){ const box=b.closest('.pcode'), ta=box&&box.querySelector('.pc-in'), msg=box&&box.querySelector('.pc-msg2'); if(!ta) return;
+    readCode(ta.value).then(p=>{ const b0={q:Object.keys(P.q).length, l:lessonsDone(), e:P.exams.length, xp:P.xp||0}, E=Math.max(P.epoch||0, p.epoch||0, (sync.remote&&sync.remote.epoch)||0);
+      P.epoch=E; delete P.fresh; adopt(mergeP(P, Object.assign(migrate(p), {epoch:E}))); save(); applyTone(); renderHome();
+      const add=[[Object.keys(P.q).length-b0.q,'question'],[lessonsDone()-b0.l,'finished lesson'],[P.exams.length-b0.e,'mock exam']].filter(x=>x[0]>0).map(([n,w])=>`${n} ${w}${n===1?'':'s'}`);
+      if((P.xp||0)>b0.xp) add.push(`${(P.xp||0)-b0.xp} XP`);
+      toast('Backup code loaded and added to your progress'+(add.length ? ': '+add.join(', ')+' more.' : '.'), 6000); },
+      err=>{ if(msg) msg.textContent = err && err.user ? err.message : 'That code couldn’t be read. Copy the whole code and try again.'; }); return; }
+  if(act==='savebar-hide'){ sync.hide=sync.why+'|'+(sync.code||''); lsSet('mipc-savebar-hide', sync.hide); refreshSaveUI(); return; }
+  if(act==='save-allow'){ const pm=sync.perms, why=sync.why; if(!pm) return;
+    (why==='prompt' ? pm.request(['db']) : pm.manage()).then(()=>{ sync.panelFailed=false; }, ()=>{ sync.panelFailed=true; })
+      .then(()=>permState('db')).then(st=>{ sync.perm=st;
+        if(st==='granted'){ if(why==='denied-reload') setSync('local', 'on-reload'); else if(sync.state==='local') resumeSync(); }
+        else if(st==='denied' && why==='prompt') setSync('local', 'denied');
+        else refreshSaveUI(); }); return; }
+  if(act==='save-reload'){ if(!sync.storage) return; try{ location.reload(); }catch(err){} return; }
   if(act==='review'){ startReview(); go('practice'); }
   if(act==='lightning'){ go('games',{game:'lightning'}); }
   if(act==='survival'){ SES=null; go('games',{game:'survival'}); }
@@ -1061,10 +1476,10 @@ document.addEventListener('click', e=>{
   if(act==='cards-sec') go('cards',{sec:b.dataset.sec});
   if(act==='hooks-sec') go('memory',{tab:'hooks', sec:b.dataset.sec});
   if(act==='study-logistics') go('study',{sec:'logistics'});
-  if(act==='set-date'){ const v=($('#exam-date')||{}).value; if(v){ P.settings.examDate=v; save(); renderHome(); toast('Exam date saved.'); } }
-  if(act==='reset') $('#reset-box').innerHTML=`<div class="confirm small"><strong>Erase all progress?</strong> Answers, reviews, XP, badges, mock exams and flashcards will be cleared.<div class="row" style="margin-top:10px"><button class="btn primary" data-act="reset-yes">Erase</button><button class="btn" data-act="reset-no">Cancel</button></div></div>`;
+  if(act==='set-date'){ const v=($('#exam-date')||{}).value; if(v){ P.settings.examDate=v; save(); renderHome(); toast(sync.state==='saved' || sync.storage ? 'Exam date saved.' : 'Exam date set for this visit.'); } }
+  if(act==='reset') $('#reset-box').innerHTML=`<div class="confirm small"><strong>Erase all progress everywhere?</strong> This clears answers and reviews, flashcards, lesson progress and stars, mock exams (including one in progress), XP, badges, your streak, memory-hook, pair and game records, and your exam date and study settings${sync.ref ? ' here, in your Claude account, and on your other devices when they next connect' : ' in this browser (and in your Claude account if this browser connects to it later)'}. It can’t be undone: copy a backup code first if you might want it back.<div class="row" style="margin-top:10px"><button class="btn primary" data-act="reset-yes">Erase everything</button><button class="btn" data-act="reset-no">Cancel</button></div></div>`;
   if(act==='reset-no') $('#reset-box').innerHTML='';
-  if(act==='reset-yes'){ const tone=P.settings.tone; P=blank(); P.settings.tone=tone; save(); SES=null; EX=null; lsDel(SES_KEY); lsDel(EX_KEY); renderHome(); }
+  if(act==='reset-yes'){ const tone=P.settings.tone; P=blank(); P.settings.tone=tone; P.epoch=Date.now(); save(); SES=null; EX=null; lsDel(SES_KEY); lsDel(EX_KEY); renderHome(); }
 });
 document.addEventListener('keydown', e=>{
   if(e.target.matches('input,select,textarea')) return;
@@ -1100,11 +1515,12 @@ function start(hot){
   go((hot && hot.VIEW && hot.VIEW!=='games') ? hot.VIEW : (EX && !EX.submitted ? 'exam' : 'home'));
   initSync();
 }
-window.__mipc = { gen: GEN, srsAnswer, levelOf, P: ()=>P, ses: ()=>SES, today, lp: { vo: ()=>({cur: VO.cur && VO.cur.id, clips: !!(LP.L && LP.L.clips), hqOk: !!(LP.L && LP.L.hqOk), open: LP.voOpen}), state: ()=>({id: LP.L&&LP.L.id, src: LP.virtual ? 'silent' : (['blob', LP.L && LP.L.audio && LP.L.audio[0]==='#' ? 'data' : 'file', 'webaudio'][LP.srcStage]||'?'), hq: !!(LP.L && LP.L.hqOk), t: lpTime(), playing: LP.playing, scene: LP.scene, awaiting: LP.awaiting, virtual: LP.virtual, ended: LP.ended, gate: LP.gate, gs: LP.gs, stars: LP.stars}), seek: lpSeek, play: lpPlay, pause: lpPause, virtual: goVirtual,
+window.__mipc = { gen: GEN, srsAnswer, addXP, gradeCard, levelOf, P: ()=>P, sync: ()=>sync, mergeP, stable, makeCode, readCode, save, ses: ()=>SES, today, lp: { vo: ()=>({cur: VO.cur && VO.cur.id, clips: !!(LP.L && LP.L.clips), hqOk: !!(LP.L && LP.L.hqOk), open: LP.voOpen}), state: ()=>({id: LP.L&&LP.L.id, src: LP.virtual ? 'silent' : (['blob', LP.L && LP.L.audio && LP.L.audio[0]==='#' ? 'data' : 'file', 'webaudio'][LP.srcStage]||'?'), hq: !!(LP.L && LP.L.hqOk), t: lpTime(), playing: LP.playing, scene: LP.scene, awaiting: LP.awaiting, virtual: LP.virtual, ended: LP.ended, gate: LP.gate, gs: LP.gs, stars: LP.stars}), seek: lpSeek, play: lpPlay, pause: lpPause, virtual: goVirtual,
     preview(L){ L=JSON.parse(JSON.stringify(L)); L.preview=true; if(!L.timing) L.timing=estimateTiming(L); L.audio=null; VIEW='watch'; document.querySelectorAll('.view').forEach(el=>el.hidden=(el.id!=='view-watch')); openLesson(L.id, {lesson:L}); hideOverlay(); return L.timing; },
     jump(si, bi){ const T=LP.L.timing.scenes[si]; const b=bi==null ? T.beats[T.beats.length-1] : T.beats[Math.min(bi, T.beats.length-1)]; LP.awaiting=-1; lpSeek(Math.max(T.t0, b[1]-0.05)); return {t:lpTime(), scene:LP.scene}; },
     boxes(){ return LP.sk.map(R=>SK.bboxes(R)); }, timing: L=>estimateTiming(L), choose: k=>gxChoose(k), retry: ()=>gxRetry(), tm: si=>LP.L.timing.scenes[si] }, data: ()=>DATA }; // test hooks
 if(window.claude && window.claude.hot){ try{ window.claude.hot.snapshot(()=>({EX, SES, VIEW})); }catch(e){} }
-if(window.claude && window.claude.hot && window.claude.hot.ready) window.claude.hot.ready(start);
-else start((window.claude && window.claude.hot && window.claude.hot.data) || {});
+let started = false; const start1 = hot => { if(started) return; started = true; start(hot || {}); };
+if(window.claude && window.claude.hot && window.claude.hot.ready){ try{ window.claude.hot.ready(start1); }catch(e){} setTimeout(()=>start1({}), 1500); }
+else start1((window.claude && window.claude.hot && window.claude.hot.data) || {});
 })();

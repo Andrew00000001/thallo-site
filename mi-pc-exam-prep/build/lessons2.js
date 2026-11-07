@@ -4,13 +4,17 @@ const LBY = Object.fromEntries(LESSONS.map(l=>[l.id,l]));
 const ICONS = DATA.icons || {};
 function icon(name, cls){ const p=ICONS[name]; return p ? `<svg class="ic ${cls||''}" viewBox="0 0 24 24" aria-hidden="true">${p}</svg>` : ''; }
 const GATES = new Set(['quiz','swipe','sort','explore','slider','choice']);
-function lessonState(id){
+function lessonState(id){   // read only (showing a screen must not change progress)
   const s=(P.lessons||{})[id]; if(!s) return null;
   const L=LBY[id];
-  if(L && L.ver && s.ver!==L.ver){ s.pos=0; s.gates={}; s.quiz={}; s.ver=L.ver; }   // the lesson was rewritten: old positions no longer line up
+  if(L && L.ver && s.ver!==L.ver) return {pos:0, done:s.done||0, gates:{}, quiz:{}, ver:L.ver, seen:s.seen||0};   // the lesson was rewritten: old positions and stars don't line up
   return s;
 }
-function lessonStateW(id){ P.lessons=P.lessons||{}; const s=P.lessons[id] || (P.lessons[id]={pos:0, done:0, gates:{}}); s.gates=s.gates||{}; if(LBY[id] && LBY[id].ver) s.ver=LBY[id].ver; return s; }
+function lessonStateW(id){   // for changes: a rewritten lesson's record restarts here, when it's actually played
+  P.lessons=P.lessons||{}; const L=LBY[id]; let s=P.lessons[id];
+  if(!s) s=P.lessons[id]={pos:0, done:0, gates:{}};
+  else if(L && L.ver && s.ver!==L.ver){ s.pos=0; s.gates={}; s.quiz={}; s.seen=Date.now(); }
+  s.gates=s.gates||{}; if(L && L.ver) s.ver=L.ver; return s; }
 function lessonsDone(){ return LESSONS.filter(l=>{ const s=lessonState(l.id); return s && s.done; }).length; }
 function nextLesson(){
   const inProg = LESSONS.find(l=>{ const s=lessonState(l.id); return s && !s.done && s.pos>5; });
@@ -369,7 +373,7 @@ function lpSavePos(force){
   if(!LP.L || LP.L.preview) return;
   const now=Date.now(); if(!force && now-LP.lastSave<5000) return; LP.lastSave=now;
   const s = lessonStateW(LP.L.id);
-  s.pos = LP.ended ? 0 : Math.round(lpTime()); s.seen=now; save();
+  s.pos = LP.ended ? 0 : Math.round(lpTime()); s.seen=now; save(!force);
 }
 
 /* --- timing lookup --- */

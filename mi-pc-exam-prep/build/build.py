@@ -307,7 +307,7 @@ SHELL = """
       <button class="tab" role="tab" id="tab-cards" data-view="cards" aria-selected="false">Flashcards</button>
       <button class="tab" role="tab" id="tab-numbers" data-view="numbers" aria-selected="false">Key numbers</button>
     </nav>
-    <span class="sync" id="sync">Progress: this browser</span>
+    <span class="sync" id="sync" aria-live="off"></span>
   </div>
 </div>
 <main class="wrap">

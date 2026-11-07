@@ -118,3 +118,9 @@
 .settings label.field{max-width:260px}
 
 @media (max-width:560px){#toasts{left:16px;right:16px;max-width:none}.toast{font-size:13px;padding:8px 12px}}
+
+/* save status + backup code */
+.savebar p{margin:6px 0 10px;max-width:68ch}
+.pcode label{display:flex;flex-direction:column;gap:6px}
+.pcode textarea{width:100%;box-sizing:border-box;min-height:64px;font:12px/1.4 var(--f-mono);background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:var(--r);padding:8px;resize:vertical;word-break:break-all}
+.sync[data-state=local],.sync[data-state=retry],.sync[data-state=waiting],.warn-t{color:var(--warn)}

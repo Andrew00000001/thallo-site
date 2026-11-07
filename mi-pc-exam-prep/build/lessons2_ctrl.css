@@ -20,4 +20,4 @@
 .lp-tsc{margin:.55em 0;font-size:14px;line-height:1.55}
 .linkish{appearance:none;background:none;border:0;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline;font:inherit}
 
-@media (max-width:1400px){.sync{display:none}}
+.sync .s-short{display:none} @media (max-width:1400px){.sync .s-long{display:none}.sync .s-short{display:inline}}
