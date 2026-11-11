@@ -42,8 +42,9 @@ and every Short credits its streamer on screen and in the description.
 4. **Tell the pipeline which channel it is.** Done: the channel's ID, name and handle are in
    `config.json` → `channels`. `upload.py --whoami` refuses any token that belongs to a
    different channel and names the channel it does belong to.
-5. **Test, then switch on.** Run the routine once by hand, check the Shorts it scheduled, then
-   turn the routine on in claude.ai/code → Routines.
+5. **Test, then switch on.** Done on 2026-11-11: a rehearsal run in the cloud passed (token and
+   channel check, clip listing, a stand-in render and a dry-run upload), and the routine is on.
+   The first real upload happens once the game is out and has clips.
 
 ## Credentials
 Environment "Default" (claude.ai/code): the OAuth client `YT_CLIPS_CLIENT_ID` and
@@ -58,6 +59,10 @@ channels on this project use.
   Twitch clip; that's how runs avoid repeats. Routine sessions can't push to this repo, so
   nothing is written back here.
 - **Pause or resume:** turn the Routine off or on in claude.ai (Routines), or ask Claude to.
+- **Keep this repo attached to the Routine as its repository.** A session that only clones the
+  repo itself treats these scripts as outside code, and its permission check sometimes refuses
+  to run them ("Code from External"); two rehearsals stopped that way. With the repo attached,
+  the session starts inside the checkout and the scripts run normally.
 - **Post more often:** add times to `publish_times` and a second daily schedule to the Routine.
   Every run draws on the Claude plan's usage.
 - **A streamer asks not to be clipped, or files a claim:** delete their videos from the channel
