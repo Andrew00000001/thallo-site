@@ -1,0 +1,40 @@
+{
+ "channels": [
+  {
+   "name": "GTA 6 Clips",
+   "handle": "",
+   "id": "",
+   "token_env": "YT_GTA6_REFRESH_TOKEN",
+   "description": "The funniest and wildest GTA 6 moments from streamers, cut into Shorts every day.\n\nEvery Short credits its streamer and links the original Twitch clip.\n\nFan channel. Not affiliated with Rockstar Games, Take-Two or the streamers shown.",
+   "keywords": "\"gta 6\" \"gta vi\" \"gta 6 clips\" \"gta 6 funny moments\" \"gta 6 shorts\" \"twitch clips\" \"streamer clips\""
+  }
+ ],
+ "forbidden_channel_ids": [
+  "UClc60ox2NS7abTfS45Mf4oQ",
+  "UC1q7Zvv9PeoL5smeMvAvwDQ",
+  "UCL4LMyCALKGVDPmoDwuha1Q"
+ ],
+ "game": {
+  "name": "GTA 6",
+  "twitch_name": "Grand Theft Auto VI",
+  "clips_from": "2026-11-18T00:00:00Z"
+ },
+ "languages": [
+  "EN"
+ ],
+ "skip_streamers": [],
+ "max_per_streamer": 3,
+ "crop_defaults": {
+  "cut_top": 0,
+  "cut_bottom": 0
+ },
+ "category_id": "20",
+ "shorts_per_run": 3,
+ "publish_times": [
+  "12:00",
+  "16:00",
+  "20:00"
+ ],
+ "min_views": 300,
+ "min_seconds": 8
+}

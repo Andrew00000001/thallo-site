@@ -1,0 +1,6 @@
+yt-dlp
+faster-whisper
+av<19  # faster-whisper 1.2.1 fails on PyAV 19 (it dropped the metadata_errors option)
+imageio-ffmpeg
+requests
+tzdata
