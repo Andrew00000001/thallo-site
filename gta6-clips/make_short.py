@@ -381,7 +381,7 @@ def render_host(seg, defaults, fps, dst, voice, dur, src_from, src_to, stretch=1
     if still:  # one frame is composed, then repeated: filtering 100 identical frames would be slow
         png = Path(str(dst) + ".png")
         run(["-ss", f"{src_from:.3f}", "-t", "0.5", "-i", str(clip), "-filter_complex",
-             "[0:v]trim=end_frame=1,setpts=PTS-STARTPTS[s];" + layout + "[v0]boxblur=14:3,eq=brightness=-0.2:saturation=0.8[v]",
+             "[0:v]trim=end_frame=1,setpts=PTS-STARTPTS[s];" + layout + "[v0]normalize=strength=0.6,boxblur=14:3,eq=brightness=-0.12:saturation=0.85[v]",
              "-map", "[v]", "-frames:v", "1", str(png)])
         run(["-loop", "1", "-framerate", str(fps), "-i", str(png), "-i", str(voice), "-filter_complex", audio,
              "-map", "0:v", "-map", "[a]", "-t", f"{dur:.3f}", *X264, str(dst)])
