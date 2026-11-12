@@ -18,11 +18,59 @@ and every Short credits its streamer on screen and in the description.
 - `make_short.py render`: 1080x1920 Short with a blurred fill, reframed clip, punch-in zooms on the
   loudest moments, headline, streamer credit, setup and take cards, context pop-ups, word-by-word
   captions with emphasis, a progress bar and loop-friendly audio; stitches 2–3 clips into a story
-  Short with chapter labels. No voice-over
-- `upload.py`: checks short.json, confirms the token belongs to the right channel (it refuses Kai
-  Cenat Fan Clips, Scribble Age and Clip That Moment Now !), picks the next free publish slot and
-  uploads. `--whoami` checks the token, `--dry-run` does everything but the upload,
+  or ranked Short with chapter labels; adds the spoken commentary (see "Spoken commentary" below)
+  and writes `<video>.json` with the narration numbers. `make_short.py frames` saves check frames
+- `tts.py`: the offline narration voice (`speak(text, out_wav)`), Kokoro-82M on CPU
+- `upload.py`: checks short.json (including the narration, see below), confirms the token belongs
+  to the right channel (it refuses Kai Cenat Fan Clips, Scribble Age and Clip That Moment Now !),
+  picks the next free publish slot and uploads. `--whoami` checks the token, `--dry-run` does everything but the upload,
   `--setup-channel` writes the channel description and keywords from `config.json`
+
+## Spoken commentary
+YouTube's reused-content policy only lets a channel use other creators' footage when it adds real
+commentary, and it excludes content "without added voice commentary". So every Short carries
+spoken commentary written by the daily agent (`narration` in short.json, see `AGENT.md`):
+
+    [teaser + hook voice] [clip, own audio] ([bridge card + bridge voice] [clip, own audio])... [replay + take voice]
+
+- **The voice never plays over the original clip.** The narration only lives in host pieces added
+  around it: a 1–3 s teaser of the best moment (slowed to the length of the hook line), a darkened
+  freeze-frame card with the next clip's label between clips (story and ranked Shorts), and a
+  slow-motion, zoomed replay with a REPLAY tag and an optional verdict stamp, which the take line
+  talks over. The clips keep their own audio at full level. Under the host voice the original
+  audio is muted (not ducked): slowed-down clip audio sounds bad and the commentary stays clear.
+- The narration is captioned in its own style (dark box, white text, amber current word, a
+  COMMENTARY tag), nothing like the clip's own captions, so sound-off viewers and reviewers can
+  see which words are ours. Word timings are spread over the length of each spoken line.
+- **Formats** (`format` in short.json): `breakdown` (one clip), `story` (2–3 clips in order),
+  `ranked` (2–3 clips counted down to number 1). `narration` is `{"hook", "bridges", "take"}`;
+  `bridges` has one line fewer than there are clips.
+- **No narration, no Short.** `make_short.py render` refuses to run without a complete plan, and
+  exits non-zero with a message if speech can't be made (never a silent render). It also writes
+  `<video>.json` (`total_seconds`, `narration_seconds`, `narration_share`, `format`, `clips`, a
+  timeline and a hash of the narration text). `upload.py` refuses a Short with no hook or take line,
+  the wrong number of bridges, a missing or stale sidecar, or a narration share outside
+  `min_narration_share`..`max_narration_share`.
+
+### The voice
+- Engine: **Kokoro-82M** v1.0 (Apache-2.0 weights by hexgrad) run by the `kokoro-onnx` package
+  (MIT) on onnxruntime, CPU only. Phonemes come from espeak-ng (GPL-3.0), which `kokoro-onnx`
+  installs as the pip package `espeakng-loader`; it is used as a library and is not part of this
+  repo. Everything installs with pip, nothing needs apt.
+- Model files, from the Hugging Face repo `onnx-community/Kokoro-82M-v1.0-ONNX` (Apache-2.0):
+  `onnx/model_quantized.onnx` (int8, about 92 MB) and the voice's style file `voices/<voice>.bin`
+  (0.5 MB). Voice: `af_heart` (US English, female; the best-rated Kokoro voice).
+- Cache: the Hugging Face cache, `$HF_HOME/hub` (default `~/.cache/huggingface/hub`), plus one small
+  `$HF_HOME/gta6-kokoro/*.npz` made from the voice file. The first render in a fresh sandbox
+  downloads about 93 MB; later calls reuse the cache. No login or token is needed.
+- Loudness: each line is loudness-normalised to the same target as the clips (-14 LUFS, true peak
+  -1.5 dB), 48 kHz mono, with 0.1 s of lead-in silence.
+- `config.json` -> `narrator`: `engine` (`kokoro`), `voice` (any Kokoro voice name, for example
+  `am_michael`, `af_bella`), `speed` (0.5–2.0, default 1.0), `repo` and `model_file` (another
+  precision from the same repo, e.g. `onnx/model.onnx` for full precision, about 325 MB).
+  `min_narration_share` (0.15) and `max_narration_share` (0.5) are the limits `upload.py` enforces
+  on narration seconds divided by total seconds.
+- Try it: `python3 tts.py "Some words to say." out.wav`.
 
 ## One-time setup
 1. **Create the channel.** Done on 2026-11-11: GTA 6 Clips Daily (@GTA6ClipsDailyTV), a brand

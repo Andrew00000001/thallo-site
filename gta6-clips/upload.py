@@ -8,7 +8,7 @@ same client. Before each upload we confirm the token belongs to that exact chann
 can never land on Kai Cenat Fan Clips, Scribble Age or any other channel. A channel whose token
 isn't set yet is skipped with a note.
 """
-import argparse, datetime, json, os, re, sys, time
+import argparse, datetime, hashlib, json, os, re, sys, time
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -177,9 +177,60 @@ def booked():
         return []
 
 
-def validate(sh):
+FORMATS = ("breakdown", "story", "ranked")
+
+
+def narration_hash(narration):
+    """Fingerprint of the narration text; render stores it in the sidecar, so a video that was
+    rendered from older or different narration than short.json now has is caught."""
+    return hashlib.sha256(json.dumps(narration, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()[:16]
+
+
+def check_narration(sh, video):
+    """Every Short must carry spoken commentary (YouTube's reused-content policy needs real added
+    commentary), and its share of the runtime must be sane. Returns a list of problems."""
+    problems = []
+    narration = sh.get("narration")
+    narration = narration if isinstance(narration, dict) else {}
+    segments = sh.get("segments") or [sh]
+    fmt = sh.get("format")
+    if fmt not in FORMATS:
+        problems.append(f'"format" must be one of {", ".join(FORMATS)}')
+    elif (fmt == "breakdown") != (len(segments) == 1):
+        problems.append(f'format "{fmt}" does not fit {len(segments)} clip(s) (breakdown = 1 clip, story/ranked = 2-3)')
+    for key in ("hook", "take"):
+        if not str(narration.get(key) or "").strip():
+            problems.append(f'narration.{key} is missing (every Short needs spoken commentary)')
+    bridges = narration.get("bridges") or []
+    if not isinstance(bridges, list) or len(bridges) != len(segments) - 1 or not all(str(b).strip() for b in bridges):
+        problems.append(f"narration.bridges needs exactly {len(segments) - 1} non-empty line(s) for {len(segments)} clip(s)")
+    side = Path(str(video) + ".json")
+    if not side.exists():
+        problems.append(f"{side.name} is missing next to the video: render it with make_short.py render, which writes it")
+        return problems
+    try:
+        info = json.loads(side.read_text(encoding="utf-8"))
+        share = float(info["narration_share"])
+    except (OSError, ValueError, KeyError, TypeError):
+        problems.append(f"{side.name} is unreadable or has no narration_share: render the Short again")
+        return problems
+    lo, hi = CONFIG.get("min_narration_share", 0.15), CONFIG.get("max_narration_share", 0.5)
+    if share < lo:
+        problems.append(f"narration is only {share:.0%} of the Short (minimum {lo:.0%}): write fuller narration")
+    elif share > hi:
+        problems.append(f"narration is {share:.0%} of the Short (maximum {hi:.0%}): trim the narration or use longer clips")
+    if os.path.exists(video) and info.get("video_bytes") != os.path.getsize(video):
+        problems.append(f"{side.name} describes a different video file: render the Short again")
+    if info.get("narration_hash") != narration_hash(narration):
+        problems.append("the video was rendered from different narration than short.json has now: render it again")
+    return problems
+
+
+def validate(sh, video=None):
     """Refuse a Short whose metadata would break dedupe or mislead viewers; the agent fixes and retries."""
     problems = []
+    if video is not None:
+        problems += check_narration(sh, video)
     for key in ("title", "description", "hook_text"):
         if not str(sh.get(key, "")).strip():
             problems.append(f"{key} is empty")
@@ -235,7 +286,7 @@ def put_chunks(url, auth, video, size):
 
 
 def upload_one(ch, sh, video, privacy, publish_at, dry_run=False):
-    validate(sh)
+    validate(sh, video)
     auth = access_token(ch)
     uploads = check_channel(ch, auth)
     body = {
@@ -285,6 +336,11 @@ def upload_one(ch, sh, video, privacy, publish_at, dry_run=False):
 def upload(short, video, privacy, publish_at=None, dry_run=False):
     """Upload to every channel; one JSON line each. Exit 1 if any channel with a token failed."""
     sh = json.loads(Path(short).read_text(encoding="utf-8"))
+    try:  # check before anything else, so a Short without narration never gets near a channel
+        validate(sh, video)
+    except UploadError as e:
+        print(json.dumps({"error": str(e)[:1000]}))
+        sys.exit(1)
     failed = False
     for ch in CHANNELS:
         if not has_token(ch):

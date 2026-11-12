@@ -36,5 +36,14 @@
   "20:00"
  ],
  "min_views": 300,
- "min_seconds": 8
+ "min_seconds": 8,
+ "min_narration_share": 0.15,
+ "max_narration_share": 0.5,
+ "narrator": {
+  "engine": "kokoro",
+  "voice": "af_heart",
+  "speed": 1.0,
+  "repo": "onnx-community/Kokoro-82M-v1.0-ONNX",
+  "model_file": "onnx/model_quantized.onnx"
+ }
 }

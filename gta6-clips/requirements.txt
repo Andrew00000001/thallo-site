@@ -4,3 +4,6 @@ av<19  # faster-whisper 1.2.1 fails on PyAV 19 (it dropped the metadata_errors o
 imageio-ffmpeg
 requests
 tzdata
+kokoro-onnx>=0.6,<1  # the narration voice (Kokoro-82M on CPU); brings onnxruntime, espeakng-loader and phonemizer
+huggingface_hub      # downloads the voice model on first use (faster-whisper needs it too)
+numpy
