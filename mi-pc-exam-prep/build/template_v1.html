@@ -8,7 +8,7 @@
    warm charcoal at night, no blue tints; every text pair meets WCAG AA. */
 :root{
   --bg:#D3C9B6; --surface:#DED5C3; --sunk:#CBC0AB; --ink:#2E2A24; --muted:#544D42; --line:#BDB19B;
-  --accent:#2D5A4C; --accent-ink:#E2DACA; --accent-soft:#C3D0C2; --accent-fill:#2D5A4C; --accent-fill-ink:#E2DACA;
+  --accent:#2A5447; --accent-ink:#E2DACA; --accent-soft:#C3D0C2; --accent-fill:#2D5A4C; --accent-fill-ink:#E2DACA;
   --good:#255A39; --good-soft:#C4D4BE; --bad:#88301F; --bad-soft:#E2C4B8; --warn:#6E4708; --warn-soft:#E2CFA6;
   --mark:#E9CF78; --band:#C8CFBB; --band-ink:#2E2A24; --band-muted:#4E5444;
   --f-display:'Archivo','Arial Narrow',Arial,sans-serif;
@@ -33,10 +33,10 @@
   --mark:#5E5020; --band:#22261F; --band-ink:#D8D1C4; --band-muted:#A19D8E;
   color-scheme:dark;
 }
-/* the Display switch (Sepia / Night / Auto) overrides the device and viewer theme */
+/* the Colors picker (Dusk / Sage / Sepia / Night) overrides the device and viewer theme; Auto uses the blocks above */
 :root[data-tone="sepia"]{
   --bg:#D3C9B6; --surface:#DED5C3; --sunk:#CBC0AB; --ink:#2E2A24; --muted:#544D42; --line:#BDB19B;
-  --accent:#2D5A4C; --accent-ink:#E2DACA; --accent-soft:#C3D0C2; --accent-fill:#2D5A4C; --accent-fill-ink:#E2DACA;
+  --accent:#2A5447; --accent-ink:#E2DACA; --accent-soft:#C3D0C2; --accent-fill:#2D5A4C; --accent-fill-ink:#E2DACA;
   --good:#255A39; --good-soft:#C4D4BE; --bad:#88301F; --bad-soft:#E2C4B8; --warn:#6E4708; --warn-soft:#E2CFA6;
   --mark:#E9CF78; --band:#C8CFBB; --band-ink:#2E2A24; --band-muted:#4E5444;
   color-scheme:light;
@@ -47,6 +47,18 @@
   --good:#88BF94; --good-soft:#213028; --bad:#E09484; --bad-soft:#3D2520; --warn:#D7AD66; --warn-soft:#372D17;
   --mark:#5E5020; --band:#22261F; --band-ink:#D8D1C4; --band-muted:#A19D8E;
   color-scheme:dark;
+}
+:root[data-tone="sage"]{
+  --bg:#A5AB97; --surface:#ACAE9E; --sunk:#A3A895; --ink:#151913; --muted:#393C32; --line:#909583;
+  --accent:#1E3E2D; --accent-ink:#B7BAAF; --accent-soft:#C4AFC9; --accent-fill:#294B38; --accent-fill-ink:#CBCABF; --good:#1A4824;
+  --good-soft:#A1B5A1; --bad:#520E07; --bad-soft:#AD9087; --warn:#4C2F02; --warn-soft:#B3AC91; --mark:#BAAD79;
+  --band:#9EAB9B; --band-ink:#151913; --band-muted:#31382D; color-scheme:light;
+}
+:root[data-tone="dusk"]{
+  --bg:#35312D; --surface:#3B3632; --sunk:#302B27; --ink:#D9D3C7; --muted:#B1A89D; --line:#5A534D;
+  --accent:#92B69B; --accent-ink:#27312A; --accent-soft:#46354B; --accent-fill:#415B49; --accent-fill-ink:#D9D3C9; --good:#9FCC9F;
+  --good-soft:#3C4B3C; --bad:#E29D8F; --bad-soft:#3F2B27; --warn:#D3AA72; --warn-soft:#40372A; --mark:#5E522B;
+  --band:#282F28; --band-ink:#D9D3C7; --band-muted:#A2A698; color-scheme:dark;
 }
 *{box-sizing:border-box}
 html,body{background:var(--bg)}

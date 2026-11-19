@@ -271,6 +271,7 @@ pos = Counter(q['answer'] for q in questions)
 
 
 SHELL = """
+<script>try{var p=JSON.parse(localStorage.getItem('mipc-progress-v1')||'null')||{},s=p.settings||{},k=p.sK||{},t=s.tone;if(!k.tone&&(!t||t==='auto'))t='dusk';if(['dusk','sage','sepia','night'].indexOf(t)>=0)document.documentElement.setAttribute('data-tone',t)}catch(e){document.documentElement.setAttribute('data-tone','dusk')}</script>
 <header class="jacket">
   <div class="wrap">
     <div>
@@ -284,11 +285,9 @@ SHELL = """
         <div><dt>Pass</dt><dd>74%</dd></div>
         <div><dt>Need</dt><dd>111 right</dd></div>
       </dl>
-      <div class="tone" role="group" aria-label="Display colors">
-        <span class="eyebrow">Display</span>
-        <button class="tone-b" type="button" data-act="tone" data-tone="sepia" aria-pressed="false" title="Dim sepia paper with soft text: easiest on the eyes for long sessions">Sepia</button>
-        <button class="tone-b" type="button" data-act="tone" data-tone="night" aria-pressed="false" title="Warm dark background with soft light text">Night</button>
-        <button class="tone-b" type="button" data-act="tone" data-tone="auto" aria-pressed="false" title="Follow this device: sepia by day, night when the device is in dark mode">Auto</button>
+      <div class="tone">
+        <button class="tone-btn" type="button" data-act="tone-menu" aria-haspopup="true" aria-expanded="false" aria-controls="tone-menu"><span class="tone-dot" aria-hidden="true"></span><span>Colors: <b id="tone-name">Dusk</b></span><span aria-hidden="true" class="tone-caret">▾</span></button>
+        <div class="tone-menu" id="tone-menu" role="group" aria-label="Choose colors" hidden></div>
       </div>
     </div>
   </div>
@@ -339,6 +338,8 @@ def compose():
     js = rd(HERE, 'app.js')
     assert js.count('/*@@LESSONS@@*/') == 1
     js = js.replace('/*@@LESSONS@@*/', rd(HERE, 'lessons2.js'))
+    assert js.count('/*@@PUZZLE@@*/') == 1
+    js = js.replace('/*@@PUZZLE@@*/', rd(HERE, 'puzzle.js'))
     sk = rd(WB, 'sketch.js').replace('/*@@CHARW@@*/null', rd(WB, 'lib', 'charw.json').strip())
     pf = os.environ.get('WB_PROPS')
     props = '\n'.join(rd(p) for p in ([os.path.join(WB, x) for x in pf.split(',')] if pf else sorted(glob.glob(os.path.join(WB, 'props_*.js')))))
@@ -353,6 +354,24 @@ meta = {
                     'Michigan Vehicle Code), read from legislature.mi.gov; PSI\'s Michigan content outline for Series 16-81; Michigan DIFS; '
                     'FEMA/NFIP; U.S. Treasury (TRIA); ISO and NCCI standard policy forms (editions named in each section).'),
 }
+# ---- picture puzzles: each a drawing from the prop library on a 100 x 100 board, with the answers a guess may match
+PUZ_PATH = os.environ.get('PUZZLES') or os.path.join(RES, 'puzzles.json')
+puzzles = []
+if os.path.exists(PUZ_PATH):
+    card_ids = {c['id'] for c in cards}
+    seen = set()
+    for i, pz in enumerate(json.load(open(PUZ_PATH)), 1):
+        pid = pz.get('id', '')
+        if not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,40}', pid or ''): errors.append(f'puzzle #{i}: bad id {pid!r}'); continue
+        if pid in seen: errors.append(f'puzzle {pid}: duplicate id'); continue
+        seen.add(pid)
+        if not str(pz.get('answer', '')).strip(): errors.append(f'puzzle {pid}: no answer'); continue
+        if not isinstance(pz.get('draw'), list) or not pz['draw']: errors.append(f'puzzle {pid}: no drawing'); continue
+        card = pz.get('card')
+        if card and card not in card_ids: errors.append(f'puzzle {pid}: card {card} does not exist'); continue
+        for el in pz['draw']:
+            if el.get('p') == 'icon' and el.get('name'): sk_icons.add(el['name'])
+        puzzles.append({k: pz[k] for k in ('id', 'answer', 'accept', 'close', 'category', 'draw', 'card') if pz.get(k) not in (None, '', [])})
 sys.path.insert(0, os.path.join(WB, 'tools'))
 from icons2paths import to_paths
 skicons = {}
@@ -362,8 +381,9 @@ for n in sorted(sk_icons):
     if not os.path.exists(fp): errors.append(f'sketch icon missing: {n}'); continue
     skicons[n] = to_paths(open(fp).read())
 data = {'questions': questions, 'cards': cards, 'numbers': numbers, 'guide': guide, 'meta': meta,
-        'mnemonics': mnemonics, 'pairs': pairs, 'visuals': visuals, 'matchsets': matchsets, 'lessons': lessons, 'icons': icons, 'skicons': skicons}
+        'mnemonics': mnemonics, 'pairs': pairs, 'visuals': visuals, 'matchsets': matchsets, 'lessons': lessons, 'icons': icons, 'skicons': skicons, 'puzzles': puzzles}
 
+print(f'puzzles {len(puzzles)}')
 print(f'questions {len(questions)}  cards {len(cards)}  numbers {len(numbers)}  guide {len(guide)}  hooks {len(mnemonics)}  pairs {len(pairs)}  visuals {len(visuals)}  matchsets {len(matchsets)}  lessons {len(lessons)}  icons {len(icons)}')
 print('per section:', dict(per_sec))
 print('answer positions:', dict(pos))

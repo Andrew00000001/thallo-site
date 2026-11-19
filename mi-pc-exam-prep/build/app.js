@@ -60,11 +60,34 @@ const STORED = lsGet(LS_KEY);
 let P = migrate(STORED);
 if(!STORED) P.fresh = 1;   // started empty: until the account copy is read, its counts are this session's alone
 /* display colors: Sepia (dim paper, the default by day), Night (warm dark) or Auto (follow the device); saved with progress */
-const TONES = ['sepia','night','auto'];
+const TONES = ['dusk','sage','sepia','night','auto'];
+const TONE_INFO = {
+  dusk:{name:'Dusk', desc:'Soft dark, low glare. Made for long sessions.'},
+  sage:{name:'Sage', desc:'Soft green-gray paper for daytime.'},
+  sepia:{name:'Sepia', desc:'Warm tan paper.'},
+  night:{name:'Night', desc:'Dark charcoal for low light.'},
+  auto:{name:'Auto', desc:'Follows your device: Sepia by day, Night in dark mode.'},
+};
+/*TONE_SW*/const TONE_SW = {"sepia":{"bg":"#D3C9B6","surface":"#DED5C3","ink":"#2E2A24","line":"#BDB19B","accent":"#2D5A4C"},"night":{"bg":"#1C1A17","surface":"#24221E","ink":"#D8D1C4","line":"#39352F","accent":"#41604F"},"sage":{"bg":"#A5AB97","surface":"#ACAE9E","ink":"#151913","line":"#909583","accent":"#294B38"},"dusk":{"bg":"#35312D","surface":"#3B3632","ink":"#D9D3C7","line":"#5A534D","accent":"#415B49"}};/*/TONE_SW*/
+const toneChosen = () => !!((P.sK||{}).tone);
+function toneOf(){ const t = P.settings.tone; if(!toneChosen() && (!t || t==='auto')) return 'dusk'; return TONES.includes(t) ? t : 'dusk'; }   // until the learner picks, the soft Dusk colors
+function toneSwatch(t){
+  if(t==='auto'){ const a = TONE_SW.sepia || {}, b = TONE_SW.night || {}; return `<span class="tone-prev tone-split" aria-hidden="true" style="background:linear-gradient(135deg,${a.bg} 50%,${b.bg} 50%);border-color:${a.line}"><b style="color:${a.ink}">A</b><b style="color:${b.ink}">a</b></span>`; }
+  const c = TONE_SW[t] || {};
+  return `<span class="tone-prev" aria-hidden="true" style="background:${c.bg};border-color:${c.line};color:${c.ink}"><i style="background:${c.surface}"></i><b>Aa</b><em style="background:${c.accent}"></em></span>`;
+}
+function toneOptionsHTML(){ const cur = toneOf(); return TONES.map(t=>`<button class="tone-opt" type="button" data-act="tone" data-tone="${t}" aria-pressed="${t===cur}">${toneSwatch(t)}<span class="tone-txt"><b>${TONE_INFO[t].name}</b><span>${TONE_INFO[t].desc}</span></span></button>`).join(''); }
+function toneMenu(open){
+  const m = $('#tone-menu'), b = document.querySelector('[data-act="tone-menu"]'); if(!m || !b) return;
+  const show = open===undefined ? m.hidden : !!open;
+  if(show){ m.innerHTML = toneOptionsHTML(); m.hidden = false; b.setAttribute('aria-expanded', 'true'); const on = m.querySelector('[aria-pressed="true"]') || m.querySelector('.tone-opt'); if(on) on.focus({preventScroll:true}); }
+  else { m.hidden = true; b.setAttribute('aria-expanded', 'false'); }
+}
 function applyTone(){
-  const t = TONES.includes(P.settings.tone) ? P.settings.tone : 'auto', root=document.documentElement;
+  const t = toneOf(), root=document.documentElement;
   if(t==='auto') root.removeAttribute('data-tone'); else root.setAttribute('data-tone', t);
   document.querySelectorAll('[data-act="tone"]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.tone===t)));
+  const nm = document.getElementById('tone-name'); if(nm) nm.textContent = TONE_INFO[t].name;
   try{ let m=document.querySelector('meta[name="theme-color"]'); if(!m){ m=document.createElement('meta'); m.name='theme-color'; document.head.appendChild(m); }
     m.content=getComputedStyle(root).getPropertyValue('--band').trim(); }catch(e){}   // the phone's address bar matches the header
 }
@@ -105,6 +128,7 @@ function sinceReset(p, E){   // what a pre-reset copy recorded after the reset a
   r.exams = (p.exams||[]).filter(e=>e && e.t > E);
   const d0 = dayKey(new Date(E)); Object.keys(p.days||{}).forEach(k=>{ if(k > d0) r.days[k] = p.days[k]; });
   Object.keys(p.sK||{}).forEach(k=>{ if((p.sK[k]||0) > E && p.settings && k in p.settings){ r.settings[k] = p.settings[k]; r.sK[k] = p.sK[k]; } });
+  if(p.puz){ const pd = p.puz.done || {}, pp = p.puz.play || {}, rd = {}, rp = {}; Object.keys(pd).forEach(k=>{ if((pd[k].t||0) > E) rd[k] = pd[k]; }); Object.keys(pp).forEach(k=>{ if((pp[k].t||0) > E) rp[k] = pp[k]; }); if(Object.keys(rd).length || Object.keys(rp).length) r.puz = {done:rd, play:rp}; }
   return r;
 }
 function addSession(T, r){   // this page started empty, so its counters and review boxes hold only this session: build them on the account's
@@ -131,6 +155,17 @@ function later(x, y, f, g, tie){   // the more recent of two records; ties broke
   tie = tie || stable; return tie(y)>tie(x) ? y : x;
 }
 const lessonKey = s => stable(Object.assign({}, s, {done:0, gates:0}));   // what a merged lesson record takes from one side
+function mergePuz(x, y){   // finished pictures and pictures in play: unions (pieces combined), minus what is finished
+  if(!x && !y) return null;
+  x = x || {}; y = y || {};
+  const dx = x.done || {}, dy = y.done || {}, px = x.play || {}, py = y.play || {}, done = {}, play = {};
+  kz(dx, dy).forEach(k=>{ done[k] = later(dx[k], dy[k], d=>d.r||0, d=>d.pts||0); });
+  kz(px, py).forEach(k=>{
+    const p = px[k], q = py[k], c = !p || !q ? clone(p || q) : {id:p.id, r:p.r||1, rev:[...new Set([].concat(p.rev||[], q.rev||[]))].sort((m,n)=>m-n), wrong:Math.max(p.wrong||0, q.wrong||0), t:firstT(p.t, q.t)};
+    if(c && c.id && !(done[c.id] && (done[c.id].r||0) >= (c.r||1))) play[k] = c;
+  });
+  return {done, play};
+}
 function mergeLesson(x, y){
   if(!x || !y) return clone(x || y);
   const base = later(x, y, s=>s.seen||0, s=>String(s.ver||''), lessonKey);
@@ -154,6 +189,7 @@ function mergeP(A, B){
   o.cp = {}; kz(a.cp, b.cp).forEach(k=>{ o.cp[k] = mx(a.cp[k], b.cp[k]); });
   o.journal = {}; kz(a.journal, b.journal).forEach(k=>{ o.journal[k] = later(jn(a.journal[k]), jn(b.journal[k]), j=>j.t||0); });
   o.lessons = {}; kz(a.lessons, b.lessons).forEach(k=>{ o.lessons[k] = mergeLesson(a.lessons[k], b.lessons[k]); });
+  const pz = mergePuz(a.puz, b.puz); if(pz) o.puz = pz; else delete o.puz;
   const ex = new Map(); a.exams.concat(b.exams).forEach(e=>{ if(e && e.t!=null){ const k=String(e.t); ex.set(k, later(ex.get(k), e, ()=>0)); } });
   o.exams = [...ex.values()].sort((x,y)=>x.t-y.t).slice(-30);
   const ga = a.games, gb = b.games;
@@ -270,9 +306,11 @@ function takeRemote(data, definitive, first){
   if(key!==sync.remoteKey){
     sync.remote = clone(data); sync.remoteKey = key;
     const before = P; let cur = P;
-    if(P.fresh){ cur = clone(P); addSession(cur, migrate(clone(data))); }
+    let carry = 0;
+    if(P.fresh){ cur = clone(P); const acct = migrate(clone(data)); if(cur.puz && acct.puz){ carry = Object.values(cur.puz.play || {}).reduce((n,c)=>n + (c.rev || []).length, 0); delete cur.puz; } addSession(cur, acct); }
     const m = mergeP(cur, sync.remote), need = !same(m, data);   // decided before anything renders: rendering must never be what triggers a write
     if(stable(m)!==stable(P)){ adopt(m); applyTone(); afterRemote(before, first); }
+    if(carry){ for(let i=0; i<carry; i++) puzzleAward(); PZ_LAST = null; lsSet(LS_KEY, P); pzRefreshViews(); if(!sync.dirty) sync.since = Date.now(); sync.dirty = true; sync.hard = true; }   // pieces this page earned before the account copy arrived
     if(need && (sync.echo||0)<3){ sync.echo = (sync.echo||0)+1; if(!sync.dirty) sync.since = Date.now(); sync.dirty = true; sync.hard = true; }   // the account copy lacks something this device has (at most 3 such writes in a row)
   }
   if(sync.definitive && !sync.dirty && !sync.writing){ sync.savedAt = sync.savedAt || Date.now(); if(sync.state!=='saved') setSync('saved'); }
@@ -540,6 +578,7 @@ function srsAnswer(id, ok, conf){
   }
   s.conf = conf || null;
   P.q[id] = s;
+  if(ok && typeof puzzleAward==='function' && puzzleAward()) PZ_AWARDS++;
   logAnswer(ok);
 }
 function dueIds(){
@@ -596,6 +635,9 @@ const BADGES = [
   {id:'lesson5', t:'Binge learner', d:'Finish 5 video lessons', f:()=>lessonsDone()>=5},
   {id:'lessonstars', t:'Star student', d:'Earn every star in a video lesson', f:()=>LESSONS.some(l=>{ const s=lessonState(l.id), m=lessonStarsMax(l); return s && s.gates && m>0 && Object.values(s.gates).reduce((a,b)=>a+(b||0),0)>=m; })},
   {id:'lessonall', t:'Film school', d:'Finish every video lesson', f:()=>LESSONS.length>0 && lessonsDone()>=LESSONS.length},
+  {id:'pz1', t:'Picture perfect', d:'Solve your first picture puzzle', f:()=>pzSolvedCount()>=1},
+  {id:'pz10', t:'Collector', d:'Solve 10 picture puzzles', f:()=>pzSolvedCount()>=10},
+  {id:'pzeagle', t:'Eagle eye', d:'Solve a picture with 10 or more pieces still hidden', f:()=>Object.values(pzDone()).some(d=>(d.hidden||0)>=10)},
 ].concat(SECTIONS.map(s=>({id:'m_'+s.key, t:'Mastered: '+s.name, d:'85% of the section answered right twice', f:()=>secMastery(s.key)>=0.85})));
 function checkBadges(){
   let earned=false;
@@ -630,7 +672,7 @@ let VIEW = 'home';
 let timers = [];
 function clearTimers(){ timers.forEach(t=>{ clearInterval(t); clearTimeout(t); }); timers=[]; }
 function go(v, opts){
-  if(VIEW==='games' && v!=='games' && GAME && GAME.live) endGame(true);
+  if(VIEW==='games' && GAME && GAME.live) endGame(true);   // leaving or reopening Games ends a running lightning round (its timers would redraw it)
   if(VIEW==='watch' && v!=='watch') lpClose();
   VIEW = v;
   document.querySelectorAll('.tab').forEach(t=>{ const on=t.dataset.view===v; t.setAttribute('aria-selected', String(on)); if(on && t.scrollIntoView) t.scrollIntoView({block:'nearest',inline:'nearest'}); });
@@ -699,6 +741,7 @@ function renderHome(){
   el.innerHTML = `
   <div class="stack">
     <div id="savebar" hidden></div>
+    ${toneChosen() ? '' : `<div class="panel tone-ask" id="tone-ask"><h2 style="margin:0">Colors that are easy on your eyes</h2><p class="small muted" style="margin:6px 0 0">You're on <b>${TONE_INFO[toneOf()].name}</b>, soft dark colors with low glare. Pick whichever feels best for long study sessions; you can change it any time with <b>Colors</b> at the top.</p><div class="tone-grid">${toneOptionsHTML()}</div></div>`}
     <div class="today-hero">
       <div class="panel">
         <div class="row" style="justify-content:space-between;align-items:flex-start;gap:18px">
@@ -738,6 +781,8 @@ function renderHome(){
         <div>${sparkSVG()}</div>
       </div>
     </div>
+
+    ${puzzlePanelHTML()}
 
     <div class="panel">
       <div class="row" style="justify-content:space-between"><h2>Mastery map</h2><span class="small muted">Each square is one outline topic, colored by the average of the questions you have answered in it (unanswered questions don't count). Tap one to practice it.</span></div>
@@ -1048,12 +1093,13 @@ function drawQ(sel){
   else choices = choiceHTML(it, S.stage==='feedback'?'reveal':'pick');
   el.innerHTML = `
   <div class="qwrap">
+    ${puzzleMiniHTML()}
     ${sesHUD()}
     <div class="eyebrow" style="color:var(--muted);margin-bottom:6px">${esc(SEC[q.sec].name)}${q.sub?' · '+esc(q.sub):''}</div>
     <p class="stem">${esc(q.q)}</p>
     ${choices}
     ${S.stage==='confidence'?`<div class="conf" role="group" aria-label="How sure are you?"><span class="q">How sure are you?</span><button class="btn" data-conf="sure">Sure (S)</button><button class="btn" data-conf="unsure">Unsure (U)</button><button class="btn" data-conf="guess">Guessed (G)</button></div>`:''}
-    ${S.stage==='feedback'? explainHTML(it):''}
+    ${S.stage==='feedback'? puzzleFbHTML(it.picked===q.answer) + explainHTML(it):''}
     <div class="qnav">
       <button class="btn ghost" id="q-quit">${S.kind==='boss'||S.kind==='survival'?'Leave game':'End session'}</button>
       ${S.stage==='feedback'? `<button class="btn primary" id="q-next">${nextLabel()}</button>`:''}
@@ -1137,6 +1183,7 @@ function renderGames(opts){
   <div class="stack">
     <div class="panel lede" style="max-width:none"><h2>Games</h2><p class="muted" style="margin:0">Lightning round, Survival and Boss battles use the practice-question bank (original questions, not actual exam questions) and count toward your reviews. Match drills term pairs. Every game earns XP and badges, and each one is short and a little competitive with yourself.</p></div>
     <div class="gamegrid">
+      ${PUZ.length ? `<div class="game"><h3>Picture puzzle</h3><p class="small muted" style="margin:0">Every question you get right uncovers a piece of a hidden drawing. Guess it early for more points.</p><span class="best">${pzSolvedCount()} of ${PUZ.length} pictures · ${pzTotal()} pts</span><div class="row"><button class="btn primary" data-act="pz-open">Guess</button><button class="btn" data-act="pz-collection">Collection</button></div></div>` : ''}
       <div class="game"><h3>Lightning round</h3><p class="small muted" style="margin:0">60 seconds. Answer as many as you can. Streaks multiply your score.</p><span class="best">Best: ${P.games.lightBest||0}</span><button class="btn primary" data-act="lightning">Play</button></div>
       <div class="game"><h3>Survival</h3><p class="small muted" style="margin:0">No clock. Three lives. How far can you go?</p><span class="best">Best: ${P.games.survBest||0}</span><button class="btn primary" data-act="survival">Play</button></div>
       <div class="game"><h3>Match</h3><p class="small muted" style="margin:0">Pair each term with its meaning. Beat your best time.</p><span class="best">Sets cleared: ${Object.keys(P.games.match).length} of ${MS.length}</span><button class="btn primary" data-act="match-menu" ${MS.length?'':'disabled'}>Play</button></div>
@@ -1367,16 +1414,18 @@ function askSubmit(){
   $('#ex-yes').addEventListener('click', submitExam);
   $('#ex-no').addEventListener('click', ()=>{ EX.confirm=false; $('#ex-confirm').innerHTML=''; });
 }
+let PZ_AWARDS = 0;
 function submitExam(){
   clearInterval(tick);
   if(!EX || EX.submitted) return;
   EX.submitted=true; EX.confirm=false;
-  const used=Math.min(Date.now(),EX.ends)-EX.start, bySec={}; let score=0;
+  const used=Math.min(Date.now(),EX.ends)-EX.start, bySec={}, pz0=PZ_AWARDS; let score=0;
   EX.items.forEach(it=>{ const q=QBY[it.id], ok=it.picked===q.answer; bySec[q.sec]=bySec[q.sec]||[0,0]; bySec[q.sec][1]++; if(ok){bySec[q.sec][0]++; score++;} srsAnswer(it.id, ok, null); });
   EX.result={score, total:EX.items.length, bySec, used};
   P.exams.push({t:Date.now(), score, total:EX.items.length, bySec, used}); if(P.exams.length>30) P.exams=P.exams.slice(-30);
   addXP(score); if(score/EX.items.length>=PASS) confetti();
   checkBadges(); save(); lsSet(EX_KEY,EX); drawExamResult(); window.scrollTo({top:0});
+  const pzn=PZ_AWARDS-pz0; if(pzn) toast(`Your right answers uncovered <b>${pzn}</b> puzzle piece${pzn===1?'':'s'}. See Today.`, 5000);
 }
 let EX_FILTER='wrong';
 function drawExamResult(){
@@ -1438,13 +1487,23 @@ function renderNumbers(){
 }
 
 /*@@LESSONS@@*/
+/*@@PUZZLE@@*/
 
 /* ---------- global events ---------- */
+document.addEventListener('submit', e=>{ const f=e.target.closest('.pz-guess'); if(!f) return; e.preventDefault(); puzzleSubmit(f); });
 document.addEventListener('click', e=>{
+  if(PZ_MODAL && e.target===PZ_MODAL.el){ closePuzzle(); return; }   // a click on the dimmed backdrop
+  const tm=$('#tone-menu'); if(tm && !tm.hidden && !e.target.closest('.tone')) toneMenu(false);
   const b=e.target.closest('[data-act]'); if(!b) return;
   const act=b.dataset.act;
   if(lessonActs(act, b)) return;
-  if(act==='tone'){ P.settings.tone=b.dataset.tone; save(); applyTone(); return; }
+  if(act==='tone'){ P.settings.tone=b.dataset.tone; P.sK=P.sK||{}; P.sK.tone=Date.now(); save(); applyTone(); toneMenu(false); if(VIEW==='home' && $('#tone-ask')) renderHome(); return; }
+  if(act==='tone-menu'){ toneMenu(); return; }
+  if(act==='pz-open'){ puzzleOpen('puzzle'); return; }
+  if(act==='pz-collection'){ puzzleOpen('collection'); return; }
+  if(act==='pz-close'){ closePuzzle(); return; }
+  if(act==='pz-reveal'){ if(puzzleGiveUp()){ if(PZ_MODAL) pzRefreshModal(); pzRefreshViews(); } return; }
+  if(act==='pz-next'){ PZ_SOLVED=null; if(PZ_MODAL){ if(PZ_MODAL.what==='puzzle') pzRefreshModal(); else closePuzzle(); } pzRefreshViews(); return; }
   if(act==='pcode'){ pcodeOpen(b.closest('.pcode-host')); return; }
   if(act==='pcode-copy'){ const box=b.closest('.pcode'), ta=box&&box.querySelector('.pc-out'), msg=box&&box.querySelector('.pc-msg'); if(!ta || !/^MIPC/.test(ta.value)) return;
     const fail=()=>{ ta.focus(); ta.select(); try{ ta.setSelectionRange(0, ta.value.length); }catch(e2){} let okc=false; try{ okc=document.execCommand('copy'); }catch(e2){}
@@ -1477,11 +1536,16 @@ document.addEventListener('click', e=>{
   if(act==='hooks-sec') go('memory',{tab:'hooks', sec:b.dataset.sec});
   if(act==='study-logistics') go('study',{sec:'logistics'});
   if(act==='set-date'){ const v=($('#exam-date')||{}).value; if(v){ P.settings.examDate=v; save(); renderHome(); toast(sync.state==='saved' || sync.storage ? 'Exam date saved.' : 'Exam date set for this visit.'); } }
-  if(act==='reset') $('#reset-box').innerHTML=`<div class="confirm small"><strong>Erase all progress everywhere?</strong> This clears answers and reviews, flashcards, lesson progress and stars, mock exams (including one in progress), XP, badges, your streak, memory-hook, pair and game records, and your exam date and study settings${sync.ref ? ' here, in your Claude account, and on your other devices when they next connect' : ' in this browser (and in your Claude account if this browser connects to it later)'}. It can’t be undone: copy a backup code first if you might want it back.<div class="row" style="margin-top:10px"><button class="btn primary" data-act="reset-yes">Erase everything</button><button class="btn" data-act="reset-no">Cancel</button></div></div>`;
+  if(act==='reset') $('#reset-box').innerHTML=`<div class="confirm small"><strong>Erase all progress everywhere?</strong> This clears answers and reviews, flashcards, lesson progress and stars, mock exams (including one in progress), XP, badges, your streak, picture puzzles, memory-hook, pair and game records, and your exam date and study settings${sync.ref ? ' here, in your Claude account, and on your other devices when they next connect' : ' in this browser (and in your Claude account if this browser connects to it later)'}. It can’t be undone: copy a backup code first if you might want it back.<div class="row" style="margin-top:10px"><button class="btn primary" data-act="reset-yes">Erase everything</button><button class="btn" data-act="reset-no">Cancel</button></div></div>`;
   if(act==='reset-no') $('#reset-box').innerHTML='';
-  if(act==='reset-yes'){ const tone=P.settings.tone; P=blank(); P.settings.tone=tone; P.epoch=Date.now(); save(); SES=null; EX=null; lsDel(SES_KEY); lsDel(EX_KEY); renderHome(); }
+  if(act==='reset-yes'){ const tone=P.settings.tone, tk=(P.sK||{}).tone||0; P=blank(); P.settings.tone=tone; if(tk) P.sK.tone=Date.now(); P.epoch=Date.now(); PZ_SOLVED=null; save(); SES=null; EX=null; lsDel(SES_KEY); lsDel(EX_KEY); renderHome(); }
 });
 document.addEventListener('keydown', e=>{
+  if(e.key==='Escape'){ if(PZ_MODAL){ closePuzzle(); e.preventDefault(); return; } const tm=$('#tone-menu'); if(tm && !tm.hidden){ toneMenu(false); const tb=document.querySelector('[data-act="tone-menu"]'); if(tb) tb.focus(); e.preventDefault(); return; } }
+  if(PZ_MODAL){   // keep Tab inside the puzzle dialog
+    if(e.key==='Tab'){ const f=[...PZ_MODAL.el.querySelectorAll('button,input,[href],[tabindex]:not([tabindex="-1"])')].filter(x=>!x.disabled && x.offsetParent!==null);
+      if(f.length){ const i=f.indexOf(document.activeElement); if(e.shiftKey && i<=0){ f[f.length-1].focus(); e.preventDefault(); } else if(!e.shiftKey && i===f.length-1){ f[0].focus(); e.preventDefault(); } } }
+    return; }
   if(e.target.matches('input,select,textarea')) return;
   const k=e.key.toLowerCase();
   if(lessonKeys(e, k)) return;
@@ -1515,7 +1579,7 @@ function start(hot){
   go((hot && hot.VIEW && hot.VIEW!=='games') ? hot.VIEW : (EX && !EX.submitted ? 'exam' : 'home'));
   initSync();
 }
-window.__mipc = { gen: GEN, srsAnswer, addXP, gradeCard, levelOf, P: ()=>P, sync: ()=>sync, mergeP, stable, makeCode, readCode, save, ses: ()=>SES, today, lp: { vo: ()=>({cur: VO.cur && VO.cur.id, clips: !!(LP.L && LP.L.clips), hqOk: !!(LP.L && LP.L.hqOk), open: LP.voOpen}), state: ()=>({id: LP.L&&LP.L.id, src: LP.virtual ? 'silent' : (['blob', LP.L && LP.L.audio && LP.L.audio[0]==='#' ? 'data' : 'file', 'webaudio'][LP.srcStage]||'?'), hq: !!(LP.L && LP.L.hqOk), t: lpTime(), playing: LP.playing, scene: LP.scene, awaiting: LP.awaiting, virtual: LP.virtual, ended: LP.ended, gate: LP.gate, gs: LP.gs, stars: LP.stars}), seek: lpSeek, play: lpPlay, pause: lpPause, virtual: goVirtual,
+window.__mipc = { gen: GEN, srsAnswer, addXP, gradeCard, levelOf, pz: { cur: ()=>pzCur(), award: ()=>puzzleAward(), guess: t=>puzzleGuess(t), match: (id,t)=>pzMatch(PUZBY[id], t), total: ()=>pzTotal(), list: ()=>PUZ.map(p=>p.id), open: w=>puzzleOpen(w||'puzzle') }, toneOf: ()=>toneOf(), P: ()=>P, sync: ()=>sync, mergeP, stable, makeCode, readCode, save, ses: ()=>SES, today, lp: { vo: ()=>({cur: VO.cur && VO.cur.id, clips: !!(LP.L && LP.L.clips), hqOk: !!(LP.L && LP.L.hqOk), open: LP.voOpen}), state: ()=>({id: LP.L&&LP.L.id, src: LP.virtual ? 'silent' : (['blob', LP.L && LP.L.audio && LP.L.audio[0]==='#' ? 'data' : 'file', 'webaudio'][LP.srcStage]||'?'), hq: !!(LP.L && LP.L.hqOk), t: lpTime(), playing: LP.playing, scene: LP.scene, awaiting: LP.awaiting, virtual: LP.virtual, ended: LP.ended, gate: LP.gate, gs: LP.gs, stars: LP.stars}), seek: lpSeek, play: lpPlay, pause: lpPause, virtual: goVirtual,
     preview(L){ L=JSON.parse(JSON.stringify(L)); L.preview=true; if(!L.timing) L.timing=estimateTiming(L); L.audio=null; VIEW='watch'; document.querySelectorAll('.view').forEach(el=>el.hidden=(el.id!=='view-watch')); openLesson(L.id, {lesson:L}); hideOverlay(); return L.timing; },
     jump(si, bi){ const T=LP.L.timing.scenes[si]; const b=bi==null ? T.beats[T.beats.length-1] : T.beats[Math.min(bi, T.beats.length-1)]; LP.awaiting=-1; lpSeek(Math.max(T.t0, b[1]-0.05)); return {t:lpTime(), scene:LP.scene}; },
     boxes(){ return LP.sk.map(R=>SK.bboxes(R)); }, timing: L=>estimateTiming(L), choose: k=>gxChoose(k), retry: ()=>gxRetry(), tm: si=>LP.L.timing.scenes[si] }, data: ()=>DATA }; // test hooks

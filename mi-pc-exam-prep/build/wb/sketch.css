@@ -19,6 +19,18 @@
   --mk-red:#E09484; --mk-green:#AFC784; --mk-orange:#E0925A; --mk-purple:#B9A3C9; --mk-yellow:#B39F5C; --mk-gray:#9AA6A0; --mk-brown:#C99A6C;
   --mk-sky:#8AA99D; --mk-pink:#D69AB4; --mk-teal:#6FC4B9; --mk-white:#B8B1A4; --mk-paper:#272E26; --mk-hl:rgba(207,186,110,.5); --mk-muted:#A9B2AC; --mk-dots:rgba(238,240,234,.06);
   --mk-orange-ink:#E0925A; --mk-note:color-mix(in srgb,var(--mk-yellow) 12%,var(--mk-paper)); --mk-hlband:color-mix(in srgb,var(--mk-yellow) 20%,transparent); --mk-soft:.24; --mk-paperop:.15; }
+:root[data-tone="sage"]{
+  --mk-bg:#AFB3A3; --mk-bg2:#A7AB99; --mk-frame:#857F6B; --mk-ink:#151913; --mk-blue:#22364E; --mk-red:#5F0412; --mk-green:#274C0B;
+  --mk-orange:#703100; --mk-purple:#5E3B6D; --mk-yellow:#775902; --mk-gray:#4F4E49; --mk-brown:#62462C; --mk-sky:#41615B; --mk-pink:#88365A;
+  --mk-teal:#125C55; --mk-white:#BBBBAF; --mk-paper:#B6B7A9; --mk-hl:rgba(200,160,40,.40); --mk-muted:#3C3F36; --mk-dots:rgba(30,40,25,.09); --mk-orange-ink:#643007;
+  --mk-note:color-mix(in srgb,var(--mk-yellow) 20%,var(--mk-paper)); --mk-hlband:color-mix(in srgb,var(--mk-yellow) 34%,transparent); --mk-soft:.4; --mk-paperop:.42;
+}
+:root[data-tone="dusk"]{
+  --mk-bg:#2C322C; --mk-bg2:#272C27; --mk-frame:#624F3F; --mk-ink:#DBD6CB; --mk-blue:#6A8BA8; --mk-red:#ECA79E; --mk-green:#8AAE74;
+  --mk-orange:#C9935A; --mk-purple:#AA97BA; --mk-yellow:#887A4B; --mk-gray:#97958D; --mk-brown:#B48E68; --mk-sky:#81A099; --mk-pink:#CB91A7;
+  --mk-teal:#6EB2A8; --mk-white:#BBB6AC; --mk-paper:#333832; --mk-hl:rgba(205,180,110,.38); --mk-muted:#A4ABA3; --mk-dots:rgba(225,215,195,.05); --mk-orange-ink:#D0956D;
+  --mk-note:color-mix(in srgb,var(--mk-yellow) 10%,var(--mk-paper)); --mk-hlband:color-mix(in srgb,var(--mk-yellow) 20%,transparent); --mk-soft:.24; --mk-paperop:.15;
+}
 
 .sk{display:block;width:100%;height:100%;overflow:visible}
 .sk .c-ink{--c:var(--mk-ink)} .sk .c-blue{--c:var(--mk-blue)} .sk .c-red{--c:var(--mk-red)} .sk .c-green{--c:var(--mk-green)}
@@ -34,7 +46,7 @@
 .sk path.sk-solid{fill:var(--c,var(--mk-ink));stroke:none}
 .sk path.sk-solid.soft{opacity:var(--mk-soft,.4)}
 .sk path.sk-solid.soft2{opacity:.85}
-.sk path.sk-solid.hi{opacity:.5}
+.sk path.sk-solid.hi{opacity:.34}
 .sk path.sk-solid.paper{opacity:var(--mk-paperop,.42)}
 .sk path.dash{stroke-dasharray:16 13!important;stroke-dashoffset:0!important}
 .sk .in path.dash{animation:skFade .6s ease var(--d,0s) both}

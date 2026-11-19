@@ -5,6 +5,8 @@
 :root[data-theme="dark"]{ --mk-accent:#93BBA5; --mk-num-bg:#41604F; --mk-num-ink:#D8D1C4; }
 :root[data-tone="sepia"]{ --mk-accent:#2D5A4C; --mk-num-bg:#2D5A4C; --mk-num-ink:#DCD3C1; }
 :root[data-tone="night"]{ --mk-accent:#93BBA5; --mk-num-bg:#41604F; --mk-num-ink:#D8D1C4; }
+:root[data-tone="sage"]{ --mk-accent:#1E3E2D; --mk-num-bg:#294B38; --mk-num-ink:#CBCABF; }
+:root[data-tone="dusk"]{ --mk-accent:#92B69B; --mk-num-bg:#415B49; --mk-num-ink:#D9D3C9; }
 
 .ic{width:1em;height:1em;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
 .btn .ic{width:18px;height:18px;vertical-align:-3px}
