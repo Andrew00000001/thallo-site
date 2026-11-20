@@ -139,8 +139,16 @@ WB = os.environ.get('WB') or os.path.join(HERE, '..', 'wb')  # sketch engine, pr
 VALIDATOR_MOD = os.environ.get('VALIDATOR_MOD', 'validate2')
 B85 = ''.join(ch for ch in map(chr, range(35, 127)) if ch not in '<\\`\'')[:85]   # no < (script end), \\ or quotes
 def b85(b):
-    import numpy as np
     pad = (-len(b)) % 4
+    try:
+        import numpy as np
+    except ImportError:   # same output without numpy, just slower (fine for the website build, which embeds no audio)
+        d = b + b'\0' * pad; out = []
+        for i in range(0, len(d), 4):
+            n = int.from_bytes(d[i:i + 4], 'big'); c = [''] * 5
+            for j in range(4, -1, -1): c[j] = B85[n % 85]; n //= 85
+            out.append(''.join(c))
+        return ''.join(out)
     a = np.frombuffer(b + b'\0' * pad, dtype='>u4').astype(np.uint64)
     out = np.empty((len(a), 5), dtype=np.uint8); tab = np.frombuffer(B85.encode(), dtype=np.uint8)
     for j in range(4, -1, -1):
