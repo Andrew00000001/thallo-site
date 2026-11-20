@@ -36,6 +36,12 @@ open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(page)
 files = json.load(open(body_path + '.hq.json'))   # published path -> local audio file (full-quality and compact copies)
 for pub, src in files.items(): shutil.copyfile(src, os.path.join(OUT, pub))
 for f in os.listdir(os.path.join(SRC, 'static')): shutil.copyfile(os.path.join(SRC, 'static', f), os.path.join(OUT, f))
+# which commit this is, so a later publish can check it isn't replacing a newer version with an older one
+commit = os.environ.get('GITHUB_SHA', '')
+if not commit:
+    try: commit = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    except OSError: pass
+json.dump({'commit': commit or 'unknown'}, open(os.path.join(OUT, 'version.json'), 'w'))
 os.remove(body_path); os.remove(body_path + '.hq.json')
 size = sum(os.path.getsize(os.path.join(d, f)) for d, _, fs in os.walk(OUT) for f in fs)
 print(f'site: index.html {os.path.getsize(os.path.join(OUT, "index.html")) / 1024:.0f} KB, {len(files)} audio files, {size / 1048576:.1f} MB in {OUT}')

@@ -1,0 +1,96 @@
+# Publishes the Michigan P&C study app's website (Firebase Hosting: https://mi-pc-exam-prep.firebaseapp.com, the
+# version saved to home screens) whenever the app changes on main or on a claude/ branch.
+#
+# Each run builds the website from the repository (mi-pc-exam-prep/build/site.py), opens it in a headless browser and
+# checks it (mi-pc-exam-prep/build/site_smoke.js), refuses to publish a commit that doesn't include the version that is
+# already live (so an older copy of the app can never replace a newer one), publishes, and then checks that the live
+# site reports this commit.
+#
+# One-time setup: a Google Cloud service-account key for project mi-pc-exam-prep with the roles Firebase Hosting Admin,
+# API Keys Viewer and Service Usage Consumer, saved as the repository secret FIREBASE_SERVICE_ACCOUNT_MI_PC_EXAM_PREP
+# (Settings > Secrets and variables > Actions).
+name: Publish P&C study website
+
+on:
+  push:
+    branches:
+      - main
+      - 'claude/**'
+    paths:
+      - 'mi-pc-exam-prep/**'
+      - '.github/workflows/publish-mi-pc-exam-prep.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-mi-pc-exam-prep
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      SITE_URL: https://mi-pc-exam-prep.firebaseapp.com
+      PLAYWRIGHT_VERSION: 1.63.0
+      FIREBASE_TOOLS_VERSION: 15.35.0
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Build the website
+        working-directory: mi-pc-exam-prep
+        run: python3 build/site.py
+
+      - name: Check it in a browser
+        working-directory: mi-pc-exam-prep
+        run: |
+          npm install --prefix "$RUNNER_TEMP/pw" --no-audit --no-fund "playwright@$PLAYWRIGHT_VERSION"
+          "$RUNNER_TEMP/pw/node_modules/.bin/playwright" install --with-deps chromium
+          NODE_PATH="$RUNNER_TEMP/pw/node_modules" node build/site_smoke.js site
+
+      - name: Make sure this isn't older than the live version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          live=$(curl -fsS "$SITE_URL/version.json?t=$(date +%s)" 2>/dev/null | python3 -c 'import json,sys; print(json.load(sys.stdin).get("commit",""))' 2>/dev/null || true)
+          if [ -z "$live" ] || [ "$live" = "unknown" ]; then
+            echo "The live site doesn't say which commit it is (it was published before version records); publishing."
+          elif [ "$live" = "$GITHUB_SHA" ]; then
+            echo "This commit is already live; publishing it again."
+          else
+            status=$(gh api "repos/$GITHUB_REPOSITORY/compare/$live...$GITHUB_SHA" --jq .status) || { echo "::error::Couldn't compare this commit with the live version ($live)."; exit 1; }
+            if [ "$status" != "ahead" ]; then
+              echo "::error::Not publishing: this commit doesn't include the version that is live ($live; compared with it, this commit is $status). Merge the latest version of the app into this branch first."
+              exit 1
+            fi
+            echo "This commit is newer than the live version ($live)."
+          fi
+
+      - name: Publish
+        working-directory: mi-pc-exam-prep
+        env:
+          SERVICE_ACCOUNT_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MI_PC_EXAM_PREP }}
+        run: |
+          if [ -z "$SERVICE_ACCOUNT_KEY" ]; then
+            echo "::error::The repository secret FIREBASE_SERVICE_ACCOUNT_MI_PC_EXAM_PREP isn't set, so nothing was published. See the comment at the top of this workflow."
+            exit 1
+          fi
+          key="$RUNNER_TEMP/firebase-key.json"
+          trap 'rm -f "$key"' EXIT
+          printf '%s' "$SERVICE_ACCOUNT_KEY" > "$key"
+          GOOGLE_APPLICATION_CREDENTIALS="$key" npx --yes "firebase-tools@$FIREBASE_TOOLS_VERSION" deploy --only hosting --project mi-pc-exam-prep --non-interactive --message "$GITHUB_REF_NAME ${GITHUB_SHA:0:7}"
+
+      - name: Check the live site serves this commit
+        run: |
+          got=""
+          for _ in 1 2 3 4 5 6; do
+            got=$(curl -fsS "$SITE_URL/version.json?t=$(date +%s)" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("commit",""))' || true)
+            if [ "$got" = "$GITHUB_SHA" ]; then echo "Live: $GITHUB_SHA"; exit 0; fi
+            sleep 10
+          done
+          echo "::error::The live site reports commit '$got', not $GITHUB_SHA."
+          exit 1
