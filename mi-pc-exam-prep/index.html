@@ -4499,6 +4499,8 @@ try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change', apply
 const sync = {ref:null, timer:null, writing:false, dirty:false, hard:false, since:0, lastWrite:0, savedAt:0, fails:0,
   retryAt:0, remote:null, remoteKey:'', definitive:false, unsub:null, state:'connecting', why:'', code:'', perms:null,
   perm:'', slow:null, loadToast:false, hide:'', storage:true, live:false, stale:true, lastDef:0, parked:null, resub:null, starting:false, pulling:false, echo:0, waitSince:0};
+const SITE = (window.claude && window.claude.site) || null;   // only on the stand-alone website (site-src/cloud.js): the account there is a Google account, and signing in stands in for Claude's permission to save
+const ACCT = SITE ? 'Google account' : 'Claude account';
 sync.storage = (()=>{ try{ const k='mipc-probe', v=String(Math.random()); localStorage.setItem(k,v); const ok=localStorage.getItem(k)===v; localStorage.removeItem(k); return ok; }catch(e){ return false; } })();
 const clone = x => JSON.parse(JSON.stringify(x));
 function stable(v){   // JSON with sorted keys: equal progress gives an equal string whatever order the keys were added in
@@ -4742,7 +4744,7 @@ async function initSync(){
     if(perms) sync.perms = perms;
     if(!db){ const st = await permState('db'); sync.perm = st; setSync('local', st==='denied' ? 'denied-reload' : 'nodb'); return; }   // this view can't run db at all
     let id = null; try{ id = user ? await user.id() : null; }catch(e){}
-    if(!id){ setSync('local', 'noid'); return; }
+    if(!id){ setSync('local', SITE ? 'prompt' : 'noid'); return; }
     let ref = null; try{ ref = db.doc('data/users/'+id+'/progress'); }catch(e){ setSync('local', 'unavail', 'path'); return; }
     sync.ref = ref; sync.fails = 0;
     subscribe(ref);   // its first delivery can stand in for the read below
@@ -4847,10 +4849,42 @@ const failing = () => sync.state==='local' || sync.state==='waiting' || (sync.st
 function setSync(state, why, code){
   const was = failing();
   sync.state = state; if(why!==undefined) sync.why = why; if(code!==undefined) sync.code = code;
-  if(!was && failing() && VIEW!=='home') toast(`Progress isn’t reaching your Claude account; it’s kept ${sync.storage ? 'in this browser' : 'only in this page'} for now. Today explains what to do.`, 7000);
+  if(!was && failing() && VIEW!=='home') toast(`Progress isn’t reaching your ${ACCT}; it’s kept ${sync.storage ? 'in this browser' : 'only in this page'} for now. Today explains what to do.`, 7000);
   refreshSaveUI();
 }
+function savebarSite(){   // the same notice on the stand-alone website: signing in with Google is what connects the account
+  const st = sync.state, why = sync.why, here = sync.storage ? 'in this browser' : 'only in this page';
+  if(!(st==='local' || st==='waiting' || (st==='retry' && sync.fails>=3))) return '';
+  let h, p, btn = '', reload = false;
+  if(st==='waiting'){ h = 'Not saving to your account yet'; p = `Connecting to your Google account is taking longer than usual. It keeps trying and usually clears by itself. If it hasn’t after a minute, reload the page. Meanwhile your progress is kept ${here}.`; reload = sync.storage; }
+  else if(st==='retry'){ h = 'Can’t reach your account right now'; p = `Your progress is kept ${here} and is sent to your account as soon as the connection is back.`; }
+  else if(why==='prompt'){ h = 'Sign in to save your progress'; p = `Sign in with Google and your progress is saved to your account, so it follows you to your phone, tablet and computer. Until then it’s kept ${here}.`; btn = 'Sign in with Google'; }
+  else if(why==='denied'){ const w = SITE.who(); h = 'This Google account can’t save here';
+    p = `This site saves progress for its owner’s Google account only${w && w.email ? `, and you are signed in as ${esc(w.email)}` : ''}. Progress is kept ${here}. Switch to the owner’s account to save it.`; btn = 'Use a different account'; }
+  else if(why==='nodb'){ h = 'Can’t reach Google sign-in'; p = `The sign-in service didn’t load. You may be offline, or a content blocker stopped it. Progress is kept ${here}. Reload the page when you’re back online.`; reload = sync.storage; }
+  else if(why==='full'){ h = 'Your progress can’t reach your account'; p = `The site’s storage is over its limit, so new progress can’t be saved to your account; it’s kept ${here}. Copy a backup code to keep a spare.`; }
+  else { h = 'Saving to your account stopped'; p = `Something stopped this page from saving to your Google account, so progress is kept ${here}. Reloading the page usually reconnects it.`; reload = sync.storage; }
+  if(!sync.storage) p += ' <strong>This browser isn’t storing anything on this device, so progress will be lost when you close the page.</strong> Copy a backup code before you leave.';
+  return `<div class="confirm savebar pcode-host" role="region" aria-label="Saving your progress"><strong>${h}</strong><p class="small">${p}</p><div class="row">`
+    + (btn && sync.perms ? `<button class="btn primary small" data-act="save-allow">${btn}</button>` : '') + (reload ? '<button class="btn small" data-act="save-reload">Reload</button>' : '')
+    + '<button class="btn small" data-act="pcode" aria-expanded="false">Backup code</button></div><div class="pcode-box"></div></div>';
+}
+function acctHTML(){   // Settings on the stand-alone website: who is signed in, with the way in or out
+  if(!SITE) return '';
+  const w = SITE.who();
+  return w ? `<div class="row" style="gap:8px;align-items:center"><span class="small muted">Signed in as ${esc(w.name || w.email)}${w.name && w.email ? ` (${esc(w.email)})` : ''}</span><button class="btn ghost small" data-act="site-signout">Sign out</button></div>`
+           : `<div class="row" style="gap:8px;align-items:center"><span class="small muted">Not signed in. Progress stays in this browser.</span>${SITE.ok ? '<button class="btn small" data-act="site-signin">Sign in with Google</button>' : ''}</div>`;
+}
+function siteAuthChanged(){   // someone signed in or out: drop the old account's connection before anything else is written
+  sync.parked = null; unsubscribe(); clearTimeout(sync.timer); sync.timer = null; clearTimeout(sync.slow);
+  sync.ref = null; sync.definitive = false; sync.remote = null; sync.remoteKey = ''; sync.stale = true; sync.fails = 0; sync.loadToast = false;
+  if(SITE.who()){ if(P.updated){ sync.dirty = true; sync.hard = true; sync.since = Date.now(); } initSync(); }
+  else { sync.dirty = false; setSync('local', 'prompt'); }
+  if(VIEW==='home') renderHome();
+}
+if(SITE) SITE.onChange(siteAuthChanged);
 function savebarHTML(){
+  if(SITE) return savebarSite();
   const st = sync.state, why = sync.why, here = sync.storage ? 'in this browser' : 'only in this page';
   if(!(st==='local' || st==='waiting' || (st==='retry' && sync.fails>=3))) return '';
   const fixable = ['prompt','denied','denied-reload','on-reload'].includes(why), hideKey = why+'|'+(sync.code||'');
@@ -5330,6 +5364,7 @@ function renderHome(){
             <label class="toggle"><input type="checkbox" id="set-recall" ${P.settings.recall?'checked':''}> Hide the choices until I try to recall the answer</label>
             ${dl!==null?`<div class="row"><input type="date" id="exam-date" value="${esc(P.settings.examDate)}" aria-label="Exam date"><button class="btn" data-act="set-date">Change exam date</button></div>`:''}
             <div class="pcode-host stack" style="gap:8px">
+              ${acctHTML()}
               <span id="save-status" class="small muted"></span>
               <div class="row"><button class="btn ghost small" data-act="pcode">Backup code</button><button class="btn ghost small" data-act="reset">Reset progress</button></div>
               <div class="pcode-box"></div>
@@ -7354,12 +7389,14 @@ document.addEventListener('click', e=>{
       err=>{ if(msg) msg.textContent = err && err.user ? err.message : 'That code couldn’t be read. Copy the whole code and try again.'; }); return; }
   if(act==='savebar-hide'){ sync.hide=sync.why+'|'+(sync.code||''); lsSet('mipc-savebar-hide', sync.hide); refreshSaveUI(); return; }
   if(act==='save-allow'){ const pm=sync.perms, why=sync.why; if(!pm) return;
-    (why==='prompt' ? pm.request(['db']) : pm.manage()).then(()=>{ sync.panelFailed=false; }, ()=>{ sync.panelFailed=true; })
+    (why==='prompt' ? pm.request(['db']) : pm.manage()).then(()=>{ sync.panelFailed=false; }, ()=>{ sync.panelFailed=true; if(SITE) toast('Sign-in didn’t finish. Try again, or allow pop-ups for this site.', 6000); })
       .then(()=>permState('db')).then(st=>{ sync.perm=st;
         if(st==='granted'){ if(why==='denied-reload') setSync('local', 'on-reload'); else if(sync.state==='local') resumeSync(); }
         else if(st==='denied' && why==='prompt') setSync('local', 'denied');
         else refreshSaveUI(); }); return; }
   if(act==='save-reload'){ if(!sync.storage) return; try{ location.reload(); }catch(err){} return; }
+  if(act==='site-signin'){ if(SITE) SITE.signIn().catch(()=>{ toast('Sign-in didn’t finish. Try again, or allow pop-ups for this site.', 6000); }); return; }
+  if(act==='site-signout'){ if(SITE) SITE.signOut(); return; }
   if(act==='review'){ if(startReview()) go('practice'); }
   if(act==='lightning'){ go('games',{game:'lightning'}); }
   if(act==='survival'){ SES=null; go('games',{game:'survival'}); }
@@ -7371,7 +7408,7 @@ document.addEventListener('click', e=>{
   if(act==='hooks-sec') go('memory',{tab:'hooks', sec:b.dataset.sec});
   if(act==='study-logistics') go('study',{sec:'logistics'});
   if(act==='set-date'){ const v=($('#exam-date')||{}).value; if(v){ P.settings.examDate=v; save(); renderHome(); toast(sync.state==='saved' || sync.storage ? 'Exam date saved.' : 'Exam date set for this visit.'); } }
-  if(act==='reset') $('#reset-box').innerHTML=`<div class="confirm small"><strong>Erase all progress everywhere?</strong> This clears answers and reviews, flashcards, lesson progress and stars, mock exams (including one in progress), XP, badges, your streak, picture puzzles, memory-hook, pair and game records, and your exam date and study settings${sync.ref ? ' here, in your Claude account, and on your other devices when they next connect' : ' in this browser (and in your Claude account if this browser connects to it later)'}. It can’t be undone: copy a backup code first if you might want it back.<div class="row" style="margin-top:10px"><button class="btn primary" data-act="reset-yes">Erase everything</button><button class="btn" data-act="reset-no">Cancel</button></div></div>`;
+  if(act==='reset') $('#reset-box').innerHTML=`<div class="confirm small"><strong>Erase all progress everywhere?</strong> This clears answers and reviews, flashcards, lesson progress and stars, mock exams (including one in progress), XP, badges, your streak, picture puzzles, memory-hook, pair and game records, and your exam date and study settings${sync.ref ? ` here, in your ${ACCT}, and on your other devices when they next connect` : ` in this browser (and in your ${ACCT} if this browser connects to it later)`}. It can’t be undone: copy a backup code first if you might want it back.<div class="row" style="margin-top:10px"><button class="btn primary" data-act="reset-yes">Erase everything</button><button class="btn" data-act="reset-no">Cancel</button></div></div>`;
   if(act==='reset-no') $('#reset-box').innerHTML='';
   if(act==='reset-yes'){ const tone=P.settings.tone, tk=(P.sK||{}).tone||0; P=blank(); P.settings.tone=tone; if(tk) P.sK.tone=Date.now(); P.epoch=Date.now(); PZ_SOLVED=null; save(); SES=null; EX=null; lsDel(SES_KEY); lsDel(EX_KEY); renderHome(); }
 });

@@ -130,6 +130,7 @@ VALIDATOR = os.environ.get('VALIDATOR') or os.path.join(HERE, '..', 'lessons')
 LAX = os.environ.get('LESSONS_LAX') == '1'
 os.environ.setdefault('RES', RES); os.environ.setdefault('LEARN', LEARN); os.environ.setdefault('ICONS', ICON_DIR)
 EMBED = os.environ.get('EMBED_AUDIO', '1') == '1'   # put each lesson's Opus audio inside the page (single file)
+LINK_LQ = not EMBED and os.environ.get('LINK_AUDIO_LQ', '0') == '1'   # the website: link each compact copy as lessons/LXX.lq.webm instead
 HQ = os.environ.get('HQ_AUDIO', '1') == '1'         # also point the page at full-quality audio files published next to it
 HQ_PREFIX = os.environ.get('HQ_PREFIX', 'lessons/')   # same layout as the repository: index.html next to lessons/
 hq_files = {}
@@ -219,6 +220,16 @@ if lesson_files:
             raw = open(wp, 'rb').read()
             embeds.append((lid, b85(raw), len(raw)))
             L['audio'], L['audioType'] = f'#aud-{lid}', 'audio/webm'
+        elif LINK_LQ:
+            wp = os.path.join(AUDIO_DIR, f'{lid}.webm')
+            try:
+                side = json.load(open(wp + '.json'))
+                fresh = side['from'] == master and side['sha256'] == hashlib.sha256(open(os.path.join(AUDIO_DIR, master), 'rb').read()).hexdigest()
+            except Exception:
+                fresh = False
+            if not fresh:
+                errors.append(f'{lid}: compact audio {lid}.webm missing or not made from the current {master} (re-run narrate2.py)'); continue
+            L['audio'], L['audioType'] = f'{HQ_PREFIX}{lid}.lq.webm', 'audio/webm'; hq_files[L['audio']] = os.path.abspath(wp)
         if HQ:
             hp = os.path.join(AUDIO_DIR, f'{lid}.hq.webm')
             try:
