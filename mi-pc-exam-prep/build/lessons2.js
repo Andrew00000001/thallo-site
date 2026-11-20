@@ -750,6 +750,7 @@ function lpFinish(){
     <div class="st-stars" aria-label="${stars} of ${smax} stars">${'★'.repeat(Math.min(stars,30))}<span>${'★'.repeat(Math.max(0,Math.min(smax,30)-Math.min(stars,30)))}</span></div>
     <p>${smax?`You earned ${stars} of ${smax} stars in the activities. `:''}Lock it in with ${L.check.length} exam-style questions from the bank.</p>
     <div class="row" style="justify-content:center"><button class="btn primary" data-act="lp-check">Check yourself (${L.check.length})</button>
+    ${lessonQs(L).length > L.check.length ? `<button class="btn" data-act="lp-more">More practice on this lesson (${Math.min(20, lessonQs(L).length)})</button>` : ''}
     ${nx?`<button class="btn" data-act="lesson" data-id="${nx.id}">Next: ${esc(nx.title)}</button>`:''}
     <button class="btn ghost" data-act="lp-replay">Watch again</button></div></div>`; }
 }
@@ -862,6 +863,7 @@ function lessonActs(act, b){
   if(act==='lp-sfx'){ P.settings.sfx = !SFX.on(); save(); lpUI(); if(SFX.on()) SFX.play('pop'); return true; }
   if(act==='lp-full'){ const s=$('#lp-stage'); if(document.fullscreenElement) document.exitFullscreen(); else if(s && s.requestFullscreen) s.requestFullscreen().catch(()=>{}); return true; }
   if(act==='lp-check'){ const L=LP.L; lpPause(); go('practice',{ids:L.check, label:'Lesson check: '+L.title}); return true; }
+  if(act==='lp-more'){ const L=LP.L; lpPause(); go('practice',{ids:shuffle(lessonQs(L)).slice(0, 20), label:'Practice: '+L.title}); return true; }
   if(act==='lp-guide'){ const g=LP.L.guide; lpPause(); go('study',{sec:g}); return true; }
   return false;
 }

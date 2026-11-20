@@ -286,7 +286,7 @@ SHELL = """
         <div><dt>Need</dt><dd>111 right</dd></div>
       </dl>
       <div class="tone">
-        <button class="tone-btn" type="button" data-act="tone-menu" aria-haspopup="true" aria-expanded="false" aria-controls="tone-menu"><span class="tone-dot" aria-hidden="true"></span><span>Colors: <b id="tone-name">Dusk</b></span><span aria-hidden="true" class="tone-caret">▾</span></button>
+        <button class="tone-btn" type="button" data-act="tone-menu" aria-expanded="false" aria-controls="tone-menu"><span class="tone-dot" aria-hidden="true"></span><span>Colors: <b id="tone-name">Dusk</b></span><span aria-hidden="true" class="tone-caret">▾</span></button>
         <div class="tone-menu" id="tone-menu" role="group" aria-label="Choose colors" hidden></div>
       </div>
     </div>
@@ -369,9 +369,19 @@ if os.path.exists(PUZ_PATH):
         if not isinstance(pz.get('draw'), list) or not pz['draw']: errors.append(f'puzzle {pid}: no drawing'); continue
         card = pz.get('card')
         if card and card not in card_ids: errors.append(f'puzzle {pid}: card {card} does not exist'); continue
+        bad = [k for k in ('accept', 'close', 'not') if k in pz and not (isinstance(pz[k], list) and all(isinstance(x, str) and x.strip() for x in pz[k]))]
+        if bad: errors.append(f'puzzle {pid}: {", ".join(bad)} must be a list of words'); continue
+        if not isinstance(pz.get('category', ''), str): errors.append(f'puzzle {pid}: category must be text'); continue
+        if 'lesson_validate' not in globals():
+            sys.path.insert(0, VALIDATOR); lesson_validate = __import__(VALIDATOR_MOD)
+        unknown = [el.get('p') if isinstance(el, dict) else el for el in pz['draw'] if not isinstance(el, dict) or (el.get('p') not in lesson_validate.PROPS and el.get('p') not in lesson_validate.PRIMS)]
+        if unknown: errors.append(f'puzzle {pid}: unknown drawing parts {unknown}'); continue
+        canon = lambda w: ' '.join(re.sub(r'[^a-z0-9 ]+', ' ', w.lower()).split())
+        clash = {canon(x) for x in pz.get('not', [])} & {canon(x) for x in [pz['answer']] + pz.get('accept', [])}
+        if clash: errors.append(f'puzzle {pid}: {sorted(clash)} is both accepted and refused'); continue
         for el in pz['draw']:
             if el.get('p') == 'icon' and el.get('name'): sk_icons.add(el['name'])
-        puzzles.append({k: pz[k] for k in ('id', 'answer', 'accept', 'close', 'category', 'draw', 'card') if pz.get(k) not in (None, '', [])})
+        puzzles.append({k: pz[k] for k in ('id', 'answer', 'accept', 'close', 'not', 'category', 'draw', 'card') if pz.get(k) not in (None, '', [])})
 sys.path.insert(0, os.path.join(WB, 'tools'))
 from icons2paths import to_paths
 skicons = {}

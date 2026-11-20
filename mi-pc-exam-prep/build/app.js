@@ -41,7 +41,7 @@ const money = n => '$'+Math.round(n).toLocaleString('en-US');
 /* ---------- progress store ---------- */
 const LS_KEY = 'mipc-progress-v1';
 function blank(){ return {v:2, q:{}, cards:{}, exams:[], xp:0, days:{}, badges:{}, journal:{}, bestCombo:0, bestStreak:0,
-  settings:{examDate:'', dailyGoal:40, recall:false, confidence:true, captions:false, lessonRate:1, tone:'auto'}, games:{boss:{}, match:{}}, mn:{}, cp:{}, lessons:{}, updated:0, sT:0, sK:{}, epoch:0, dev:{}}; }
+  settings:{examDate:'', dailyGoal:40, recall:false, confidence:true, captions:false, lessonRate:1, tone:'auto', mix:'learned'}, games:{boss:{}, match:{}}, mn:{}, cp:{}, lessons:{}, updated:0, sT:0, sK:{}, epoch:0, dev:{}}; }
 function migrate(p){
   const b = blank(), legacy = !!(p && typeof p==='object' && !('sT' in p)), hasSK = !!(p && typeof p==='object' && p.sK && typeof p.sK==='object');
   p = Object.assign(b, p||{});
@@ -59,7 +59,7 @@ function migrate(p){
 const STORED = lsGet(LS_KEY);
 let P = migrate(STORED);
 if(!STORED) P.fresh = 1;   // started empty: until the account copy is read, its counts are this session's alone
-/* display colors: Sepia (dim paper, the default by day), Night (warm dark) or Auto (follow the device); saved with progress */
+/* display colors: Dusk (soft dark, the default), Sage, Sepia, Night or Auto (follow the device); saved with progress */
 const TONES = ['dusk','sage','sepia','night','auto'];
 const TONE_INFO = {
   dusk:{name:'Dusk', desc:'Soft dark, low glare. Made for long sessions.'},
@@ -128,7 +128,7 @@ function sinceReset(p, E){   // what a pre-reset copy recorded after the reset a
   r.exams = (p.exams||[]).filter(e=>e && e.t > E);
   const d0 = dayKey(new Date(E)); Object.keys(p.days||{}).forEach(k=>{ if(k > d0) r.days[k] = p.days[k]; });
   Object.keys(p.sK||{}).forEach(k=>{ if((p.sK[k]||0) > E && p.settings && k in p.settings){ r.settings[k] = p.settings[k]; r.sK[k] = p.sK[k]; } });
-  if(p.puz){ const pd = p.puz.done || {}, pp = p.puz.play || {}, rd = {}, rp = {}; Object.keys(pd).forEach(k=>{ if((pd[k].t||0) > E) rd[k] = pd[k]; }); Object.keys(pp).forEach(k=>{ if((pp[k].t||0) > E) rp[k] = pp[k]; }); if(Object.keys(rd).length || Object.keys(rp).length) r.puz = {done:rd, play:rp}; }
+  if(p.puz){ const pd = p.puz.done || {}, pp = p.puz.play || {}, rd = {}, rp = {}; Object.keys(pd).forEach(k=>{ if((pd[k].t||0) > E) rd[k] = pd[k]; }); Object.keys(pp).forEach(k=>{ const c = pp[k], at = c.at || {}, rev = (c.rev || []).filter(n=>(+at[n] || c.t || 0) > E); if(rev.length){ const a = {}; rev.forEach(n=>{ a[n] = +at[n] || c.t; }); rp[k] = Object.assign({}, c, {rev, at:a}); } }); if(Object.keys(rd).length || Object.keys(rp).length) r.puz = {done:rd, play:rp}; }
   return r;
 }
 function addSession(T, r){   // this page started empty, so its counters and review boxes hold only this session: build them on the account's
@@ -162,6 +162,7 @@ function mergePuz(x, y){   // finished pictures and pictures in play: unions (pi
   kz(dx, dy).forEach(k=>{ done[k] = later(dx[k], dy[k], d=>d.r||0, d=>d.pts||0); });
   kz(px, py).forEach(k=>{
     const p = px[k], q = py[k], c = !p || !q ? clone(p || q) : {id:p.id, r:p.r||1, rev:[...new Set([].concat(p.rev||[], q.rev||[]))].sort((m,n)=>m-n), wrong:Math.max(p.wrong||0, q.wrong||0), t:firstT(p.t, q.t)};
+    if(p && q){ c.at = {}; c.rev.forEach(n=>{ c.at[n] = Math.max(+((p.at||{})[n])||0, +((q.at||{})[n])||0); }); }
     if(c && c.id && !(done[c.id] && (done[c.id].r||0) >= (c.r||1))) play[k] = c;
   });
   return {done, play};
@@ -307,7 +308,7 @@ function takeRemote(data, definitive, first){
     sync.remote = clone(data); sync.remoteKey = key;
     const before = P; let cur = P;
     let carry = 0;
-    if(P.fresh){ cur = clone(P); const acct = migrate(clone(data)); if(cur.puz && acct.puz){ carry = Object.values(cur.puz.play || {}).reduce((n,c)=>n + (c.rev || []).length, 0); delete cur.puz; } addSession(cur, acct); }
+    if(P.fresh){ cur = clone(P); const acct = migrate(clone(data)); if(cur.puz && acct.puz){ carry = Object.values(cur.puz.play || {}).reduce((n,c)=>n + (c.rev || []).length, 0); cur.puz = {done: cur.puz.done || {}, play: {}}; } addSession(cur, acct); }
     const m = mergeP(cur, sync.remote), need = !same(m, data);   // decided before anything renders: rendering must never be what triggers a write
     if(stable(m)!==stable(P)){ adopt(m); applyTone(); afterRemote(before, first); }
     if(carry){ for(let i=0; i<carry; i++) puzzleAward(); PZ_LAST = null; lsSet(LS_KEY, P); pzRefreshViews(); if(!sync.dirty) sync.since = Date.now(); sync.dirty = true; sync.hard = true; }   // pieces this page earned before the account copy arrived
@@ -578,7 +579,7 @@ function srsAnswer(id, ok, conf){
   }
   s.conf = conf || null;
   P.q[id] = s;
-  if(ok && typeof puzzleAward==='function' && puzzleAward()) PZ_AWARDS++;
+  if(ok && typeof puzzleAward==='function' && puzzleAward()){ PZ_AWARDS++; if(PZ_LAST) PZ_LAST.q = id; }
   logAnswer(ok);
 }
 function dueIds(){
@@ -649,7 +650,7 @@ function checkBadges(){
 function toast(html, ms){
   const box=$('#toasts'); if(!box) return;
   const t=document.createElement('div'); t.className='toast'; t.innerHTML=html; box.appendChild(t);
-  while(box.children.length>2) box.firstElementChild.remove();
+  while(box.children.length>4) box.firstElementChild.remove();
   setTimeout(()=>t.remove(), ms||2800);
 }
 const reduceMotion = (()=>{ try{ return window.matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){ return false; } })();
@@ -741,7 +742,14 @@ function renderHome(){
   el.innerHTML = `
   <div class="stack">
     <div id="savebar" hidden></div>
-    ${toneChosen() ? '' : `<div class="panel tone-ask" id="tone-ask"><h2 style="margin:0">Colors that are easy on your eyes</h2><p class="small muted" style="margin:6px 0 0">You're on <b>${TONE_INFO[toneOf()].name}</b>, soft dark colors with low glare. Pick whichever feels best for long study sessions; you can change it any time with <b>Colors</b> at the top.</p><div class="tone-grid">${toneOptionsHTML()}</div></div>`}
+    ${learnFirst() && LESSONS.length && !lessonsFinished().length ? (()=>{ const n = nextLesson() || LESSONS[0], first = n===LESSONS[0], cont = lessonState(n.id) && lessonState(n.id).pos>5;
+      return `<div class="panel start-here" id="start-here"><h2 style="margin:0">Start here: learn first, then practice</h2>
+        <p style="margin:8px 0 0">You don't need to know anything yet. Each lesson teaches the ideas through a short story, and you can just listen. Today's session then asks new questions only about lessons you have finished.</p>
+        <ol class="sh-steps"><li><b>Watch ${first ? 'the first lesson' : 'the next lesson'}:</b> ${esc(n.title)} (about ${lessonMins(n)} min of narration). At the end, tap <b>Check yourself</b> for a few questions on what it taught.</li>
+        <li><b>Practice:</b> tap <b>Start today's session</b>. New questions come only from lessons you have finished.</li>
+        <li><b>Repeat</b> with the next lesson. Every question you get right also uncovers a piece of the picture puzzle.</li></ol>
+        <div class="row"><button class="btn primary cta-big" data-act="watch-next">${icon('play','btn-ic')} ${cont ? 'Continue' : 'Start'}: ${esc(n.title)}</button></div></div>`; })() : ''}
+    ${toneChosen() ? '' : `<div class="panel tone-ask" id="tone-ask"><h2 style="margin:0">Colors that are easy on your eyes</h2><p class="small muted" style="margin:6px 0 0">You're on <b>${TONE_INFO[toneOf()].name}</b>. Pick whichever feels best for long study sessions; you can change it any time with <b>Colors</b> at the top.</p><div class="tone-grid">${toneOptionsHTML()}</div></div>`}
     <div class="today-hero">
       <div class="panel">
         <div class="row" style="justify-content:space-between;align-items:flex-start;gap:18px">
@@ -757,12 +765,12 @@ function renderHome(){
               <div class="xpbar" style="margin-top:6px"><span style="width:${Math.round(lv.frac*100)}%"></span></div>
               <div class="mono small muted" style="margin-top:4px">${lv.hi-P.xp} XP to level ${lv.level+1}</div>
             </div>
-            <div class="row">
-              <button class="btn primary cta-big" data-act="review">Start today's session</button>
-              <button class="btn" data-act="lightning">Lightning round</button>
-              ${LESSONS.length?(()=>{ const n=nextLesson(); return n?`<button class="btn" data-act="watch-next">${icon('play','btn-ic')} ${lessonState(n.id)&&lessonState(n.id).pos>5?'Continue lesson':'Next lesson'}: ${esc(n.title)}</button>`:''; })():''}
-            </div>
-            <p class="small muted" style="margin:0">Today's session fills what's left of your daily goal (at least 10 questions). Due reviews come first, starting with confident-but-wrong answers, then your weakest questions. Any spots left go to new questions from every section, weighted like the exam, and once you have seen them all, to the questions coming due soonest.</p>
+            ${(()=>{ const n = LESSONS.length ? nextLesson() : null, ready = canPractice(), cont = n && lessonState(n.id) && lessonState(n.id).pos>5;
+              const lessonBtn = n ? `<button class="btn${ready ? '' : ' primary cta-big'}" data-act="watch-next">${icon('play','btn-ic')} ${cont ? 'Continue lesson' : ready ? 'Next lesson' : 'Start with the lesson'}: ${esc(n.title)}</button>` : '';
+              return `<div class="row">${ready ? `<button class="btn primary cta-big" data-act="review">Start today's session</button>${lessonBtn}` : lessonBtn}<button class="btn" data-act="lightning">Lightning round</button></div>`; })()}
+            <p class="small muted" style="margin:0">${learnFirst()
+              ? `Today's session fills what's left of your daily goal (at least 10 questions once you have finished enough lessons; until then, as many as you have learned). Questions you have answered before come back first when they are due, starting with confident-but-wrong answers. New questions come only from lessons you have finished (${lessonsFinished().length} of ${LESSONS.length}), so you practice what you have learned. To mix in every section like the exam instead, change "New questions" in Settings.`
+              : `Today's session fills what's left of your daily goal (at least 10 questions). Due reviews come first, starting with confident-but-wrong answers, then your weakest questions. Any spots left go to new questions from every section, weighted like the exam, and once you have seen them all, to the questions coming due soonest.`}</p>
           </div>
           ${ringSVG(t.n, goal)}
         </div>
@@ -815,6 +823,9 @@ function renderHome(){
             <label class="field" for="set-goal">Daily goal (questions)
               <select id="set-goal">${[20,30,40,60,80,100].map(n=>`<option ${n===goal?'selected':''}>${n}</option>`).join('')}</select>
             </label>
+            <label class="field" for="set-mix">New questions in Today's session
+              <select id="set-mix"><option value="learned" ${learnFirst()?'selected':''}>Only from lessons I've finished</option><option value="exam" ${learnFirst()?'':'selected'}>From every section, mixed like the exam</option></select>
+            </label>
             <label class="toggle"><input type="checkbox" id="set-conf" ${P.settings.confidence?'checked':''}> Ask how sure I am before showing the answer</label>
             <label class="toggle"><input type="checkbox" id="set-recall" ${P.settings.recall?'checked':''}> Hide the choices until I try to recall the answer</label>
             ${dl!==null?`<div class="row"><input type="date" id="exam-date" value="${esc(P.settings.examDate)}" aria-label="Exam date"><button class="btn" data-act="set-date">Change exam date</button></div>`:''}
@@ -838,6 +849,7 @@ function renderHome(){
   $('#set-goal').addEventListener('change', e=>{ P.settings.dailyGoal=+e.target.value; save(); renderHome(); });
   $('#set-conf').addEventListener('change', e=>{ P.settings.confidence=e.target.checked; save(); });
   $('#set-recall').addEventListener('change', e=>{ P.settings.recall=e.target.checked; save(); });
+  $('#set-mix').addEventListener('change', e=>{ P.settings.mix=e.target.value==='exam' ? 'exam' : 'learned'; save(); renderHome(); });
   $('#mastery').addEventListener('click', e=>{ const b=e.target.closest('button[data-sub]'); if(!b) return; const ids=QS.filter(q=>q.sec===b.dataset.sec && (q.sub||'General')===b.dataset.sub).map(q=>q.id); startSession({kind:'practice', ids:shuffle(ids), label:b.dataset.sub}); go('practice'); });
 }
 
@@ -996,7 +1008,7 @@ function renderPractice(opts){
   if(SES && !SES.done && SES.items.length && (SES.kind==='practice'||SES.kind==='review')){ drawQ('#view-practice'); return; }
   if(SES && SES.done && (SES.kind==='practice'||SES.kind==='review')){ drawEnd('#view-practice'); return; }
   const el=$('#view-practice');
-  const saved=(lsGet('mipc-pr-cfg')||{}).sec||'all';
+  const saved=(lsGet('mipc-pr-cfg')||{}).sec||(learnFirst() ? 'learned' : 'all'), nLearned=learnedIds().length;
   const due=dueIds().length;
   el.innerHTML = `
   <div class="stack">
@@ -1007,7 +1019,7 @@ function renderPractice(opts){
       <div class="row" style="margin-bottom:14px"><button class="btn primary" data-act="review">Start today's session</button></div>
       <div class="row" style="align-items:flex-end">
         <label class="field" for="pr-sec">Section
-          <select id="pr-sec"><option value="all">All sections (weighted like the exam)</option>${SECTIONS.map(s=>`<option value="${s.key}" ${saved===s.key?'selected':''}>${esc(s.name)} (${QS.filter(q=>q.sec===s.key).length})</option>`).join('')}</select>
+          <select id="pr-sec"><option value="learned" ${saved==='learned'?'selected':''}>What I've learned: finished lessons (${nLearned})</option><option value="all" ${saved==='all'?'selected':''}>All sections (weighted like the exam)</option>${SECTIONS.map(s=>`<option value="${s.key}" ${saved===s.key?'selected':''}>${esc(s.name)} (${QS.filter(q=>q.sec===s.key).length})</option>`).join('')}</select>
         </label>
         <label class="field" for="pr-n">Questions<select id="pr-n"><option>10</option><option selected>20</option><option>50</option><option value="999">All</option></select></label>
         <label class="field" for="pr-mode">Order<select id="pr-mode"><option value="smart">Due, missed and unseen first</option><option value="missed">Only questions I missed</option><option value="random">Fully random</option></select></label>
@@ -1026,9 +1038,9 @@ function renderPractice(opts){
     const sec=$('#pr-sec').value; lsSet('mipc-pr-cfg',{sec});
     P.settings.confidence=$('#pr-conf').checked; P.settings.recall=$('#pr-recall').checked; save();
     const n=+$('#pr-n').value, mode=$('#pr-mode').value;
-    const ids = sec==='all' ? weightedIds(n, mode) : shuffle(pickForSec(sec, n, mode));
-    if(!ids.length){ toast('No questions match that choice yet.'); return; }
-    startSession({kind:'practice', ids, label: sec==='all'?'Mixed sections':SEC[sec].name, sec: sec==='all'?null:sec});
+    const ids = sec==='learned' ? shuffle(pickIds(learnedIds().map(id=>QBY[id]), n, mode)) : sec==='all' ? weightedIds(n, mode) : shuffle(pickForSec(sec, n, mode));
+    if(!ids.length){ toast(sec==='learned' ? 'Finish a lesson first: its questions show up here.' : 'No questions match that choice yet.'); return; }
+    startSession({kind:'practice', ids, label: sec==='learned' ? "What I've learned" : sec==='all'?'Mixed sections':SEC[sec].name, sec: SEC[sec] ? sec : null});
     drawQ('#view-practice');
   });
 }
@@ -1047,13 +1059,34 @@ function weightedIds(n, mode){
   SECTIONS.forEach(s=>{ out.push(...pickIds(QS.filter(q=>q.sec===s.key), Math.max(1, Math.round(n*s.items/150)), mode)); });
   return shuffle(out).slice(0, n);
 }
-function startReview(){
+/* learn first: new questions come from lessons the learner has finished, so nothing is asked before it is taught */
+const subTop = s => String(s || '').split(/ - | – | > |: /)[0].trim();
+let LESSON_QS = null;
+function lessonQs(L){   // a lesson's own end-of-lesson questions, plus the bank's questions on the same subtopics in its section
+  if(!LESSON_QS){ LESSON_QS = {}; LESSONS.forEach(l=>{ const chk = (l.check || []).filter(id=>QBY[id]), tops = new Set(chk.map(id=>subTop(QBY[id].sub)));
+    LESSON_QS[l.id] = [...new Set(chk.concat(QS.filter(q=>q.sec===l.sec && tops.has(subTop(q.sub))).map(q=>q.id)))]; }); }
+  return LESSON_QS[L.id] || [];
+}
+const lessonsFinished = () => LESSONS.filter(l=>{ const s = lessonState(l.id); return s && s.done; });
+const learnedIds = () => [...new Set(lessonsFinished().flatMap(lessonQs))];
+const learnFirst = () => P.settings.mix !== 'exam';
+const lessonMins = l => Math.max(1, Math.round(((l && l.timing && l.timing.dur) || 0) / 60));
+function canPractice(){ return !learnFirst() || dueIds().length > 0 || learnedIds().length > 0; }   // something to ask that has been taught
+function startReview(){   // false when there is nothing taught to practice yet: the next lesson opens instead
   const goal=P.settings.dailyGoal, done=today().n;
   const target=Math.max(10, goal-done);
   let ids = dueIds().slice(0, target);
-  if(ids.length<target) ids = ids.concat(newWeighted(target-ids.length));
-  if(ids.length<target){ const have=new Set(ids); ids = ids.concat(QS.filter(q=>!have.has(q.id)).sort((a,b)=>((P.q[a.id]||{}).due||0)-((P.q[b.id]||{}).due||0)).slice(0, target-ids.length).map(q=>q.id)); }
+  if(learnFirst()){
+    const have = new Set(ids), pool = learnedIds().filter(id=>!have.has(id)).map(id=>QBY[id]);
+    const unseen = shuffle(pool.filter(q=>!P.q[q.id])), seen = pool.filter(q=>P.q[q.id]).sort((a,b)=>(P.q[a.id].due||0)-(P.q[b.id].due||0));
+    ids = ids.concat(unseen.concat(seen).slice(0, target-ids.length).map(q=>q.id));
+    if(!ids.length){ const n = nextLesson(); toast('Start with a lesson: its questions come next.'); if(n) go('watch', {id:n.id}); else go('watch'); return false; }
+  } else {
+    if(ids.length<target) ids = ids.concat(newWeighted(target-ids.length));
+    if(ids.length<target){ const have=new Set(ids); ids = ids.concat(QS.filter(q=>!have.has(q.id)).sort((a,b)=>((P.q[a.id]||{}).due||0)-((P.q[b.id]||{}).due||0)).slice(0, target-ids.length).map(q=>q.id)); }
+  }
   startSession({kind:'review', ids: ids.slice(0,target), label:"Today's session"});
+  return true;
 }
 function choiceHTML(item, mode){
   const q = QBY[item.id], reveal = mode==='reveal', locked = mode==='locked';
@@ -1091,15 +1124,16 @@ function drawQ(sel){
   let choices;
   if(hideChoices) choices = `<div class="reveal-box">Think of your answer before you look. Pulling it from memory is itself practice. <div style="margin-top:10px"><button class="btn primary" id="q-show">Show choices</button></div></div>`;
   else choices = choiceHTML(it, S.stage==='feedback'?'reveal':'pick');
+  const earned = S.stage==='feedback' && it.picked===q.answer && !!PZ_LAST && PZ_LAST.q===it.id;   // this right answer uncovered a puzzle piece
   el.innerHTML = `
   <div class="qwrap">
-    ${puzzleMiniHTML()}
+    ${puzzleMiniHTML(earned)}
     ${sesHUD()}
     <div class="eyebrow" style="color:var(--muted);margin-bottom:6px">${esc(SEC[q.sec].name)}${q.sub?' · '+esc(q.sub):''}</div>
     <p class="stem">${esc(q.q)}</p>
     ${choices}
     ${S.stage==='confidence'?`<div class="conf" role="group" aria-label="How sure are you?"><span class="q">How sure are you?</span><button class="btn" data-conf="sure">Sure (S)</button><button class="btn" data-conf="unsure">Unsure (U)</button><button class="btn" data-conf="guess">Guessed (G)</button></div>`:''}
-    ${S.stage==='feedback'? puzzleFbHTML(it.picked===q.answer) + explainHTML(it):''}
+    ${S.stage==='feedback'? puzzleFbHTML(it.picked===q.answer, earned) + explainHTML(it):''}
     <div class="qnav">
       <button class="btn ghost" id="q-quit">${S.kind==='boss'||S.kind==='survival'?'Leave game':'End session'}</button>
       ${S.stage==='feedback'? `<button class="btn primary" id="q-next">${nextLabel()}</button>`:''}
@@ -1128,6 +1162,7 @@ function finalize(conf, sel){
   else { S.wrong++; S.combo=0; S.xp+=2; addXP(2); if(S.kind==='survival') S.lives--; }
   S.stage='feedback'; checkBadges(); save(); persistSes(); drawQ(sel);
   const qw=$(sel+' .qwrap'); if(qw) qw.classList.add(ok?'flash-good':'flash-bad');
+  if(ok && PZ_LAST && PZ_LAST.q===it.id){ const c=pzCur(); if(c && c.id===PZ_LAST.id) pzAnnounce(`Puzzle piece uncovered: ${c.rev.length} of ${PZK}.`); }
 }
 function nextQ(sel){
   const S=SES;
@@ -1183,7 +1218,7 @@ function renderGames(opts){
   <div class="stack">
     <div class="panel lede" style="max-width:none"><h2>Games</h2><p class="muted" style="margin:0">Lightning round, Survival and Boss battles use the practice-question bank (original questions, not actual exam questions) and count toward your reviews. Match drills term pairs. Every game earns XP and badges, and each one is short and a little competitive with yourself.</p></div>
     <div class="gamegrid">
-      ${PUZ.length ? `<div class="game"><h3>Picture puzzle</h3><p class="small muted" style="margin:0">Every question you get right uncovers a piece of a hidden drawing. Guess it early for more points.</p><span class="best">${pzSolvedCount()} of ${PUZ.length} pictures · ${pzTotal()} pts</span><div class="row"><button class="btn primary" data-act="pz-open">Guess</button><button class="btn" data-act="pz-collection">Collection</button></div></div>` : ''}
+      ${PUZ.length ? `<div class="game"><h3>Picture puzzle</h3><p class="small muted" style="margin:0">Every question you get right uncovers a piece of a hidden drawing. Once ${PZ_MIN} pieces show, guess it: the earlier, the more points.</p><span class="best">${pzSolvedCount()} of ${PUZ.length} pictures · ${pzTotal()} pts</span><div class="row"><button class="btn primary" data-act="pz-open">Open puzzle</button><button class="btn" data-act="pz-collection">Collection</button></div></div>` : ''}
       <div class="game"><h3>Lightning round</h3><p class="small muted" style="margin:0">60 seconds. Answer as many as you can. Streaks multiply your score.</p><span class="best">Best: ${P.games.lightBest||0}</span><button class="btn primary" data-act="lightning">Play</button></div>
       <div class="game"><h3>Survival</h3><p class="small muted" style="margin:0">No clock. Three lives. How far can you go?</p><span class="best">Best: ${P.games.survBest||0}</span><button class="btn primary" data-act="survival">Play</button></div>
       <div class="game"><h3>Match</h3><p class="small muted" style="margin:0">Pair each term with its meaning. Beat your best time.</p><span class="best">Sets cleared: ${Object.keys(P.games.match).length} of ${MS.length}</span><button class="btn primary" data-act="match-menu" ${MS.length?'':'disabled'}>Play</button></div>
@@ -1497,13 +1532,13 @@ document.addEventListener('click', e=>{
   const b=e.target.closest('[data-act]'); if(!b) return;
   const act=b.dataset.act;
   if(lessonActs(act, b)) return;
-  if(act==='tone'){ P.settings.tone=b.dataset.tone; P.sK=P.sK||{}; P.sK.tone=Date.now(); save(); applyTone(); toneMenu(false); if(VIEW==='home' && $('#tone-ask')) renderHome(); return; }
+  if(act==='tone'){ P.settings.tone=b.dataset.tone; P.sK=P.sK||{}; P.sK.tone=Date.now(); save(); applyTone(); toneMenu(false); if(VIEW==='home' && $('#tone-ask')) renderHome(); const tb=document.querySelector('[data-act="tone-menu"]'); if(tb) tb.focus({preventScroll:true}); return; }
   if(act==='tone-menu'){ toneMenu(); return; }
   if(act==='pz-open'){ puzzleOpen('puzzle'); return; }
   if(act==='pz-collection'){ puzzleOpen('collection'); return; }
   if(act==='pz-close'){ closePuzzle(); return; }
-  if(act==='pz-reveal'){ if(puzzleGiveUp()){ if(PZ_MODAL) pzRefreshModal(); pzRefreshViews(); } return; }
-  if(act==='pz-next'){ PZ_SOLVED=null; if(PZ_MODAL){ if(PZ_MODAL.what==='puzzle') pzRefreshModal(); else closePuzzle(); } pzRefreshViews(); return; }
+  if(act==='pz-reveal'){ const id=puzzleGiveUp(); if(id){ if(PZ_MODAL) pzRefreshModal(); pzRefreshViews(); if(!PZ_MODAL){ const nb=document.querySelector('#pz-panel [data-act="pz-next"]'); if(nb) nb.focus({preventScroll:true}); } pzAnnounce(`It was: ${PUZBY[id].answer}.`); } return; }
+  if(act==='pz-next'){ const inModal=!!(PZ_MODAL && b.closest('.pz-modal')); PZ_SOLVED=null; if(PZ_MODAL){ if(PZ_MODAL.what==='puzzle') pzRefreshModal(); else closePuzzle(); } pzRefreshViews(); if(!inModal){ const f=document.querySelector('#pz-panel .pz-in') || document.querySelector('#pz-panel .pz-h'); if(f) f.focus({preventScroll:true}); } return; }
   if(act==='pcode'){ pcodeOpen(b.closest('.pcode-host')); return; }
   if(act==='pcode-copy'){ const box=b.closest('.pcode'), ta=box&&box.querySelector('.pc-out'), msg=box&&box.querySelector('.pc-msg'); if(!ta || !/^MIPC/.test(ta.value)) return;
     const fail=()=>{ ta.focus(); ta.select(); try{ ta.setSelectionRange(0, ta.value.length); }catch(e2){} let okc=false; try{ okc=document.execCommand('copy'); }catch(e2){}
@@ -1525,7 +1560,7 @@ document.addEventListener('click', e=>{
         else if(st==='denied' && why==='prompt') setSync('local', 'denied');
         else refreshSaveUI(); }); return; }
   if(act==='save-reload'){ if(!sync.storage) return; try{ location.reload(); }catch(err){} return; }
-  if(act==='review'){ startReview(); go('practice'); }
+  if(act==='review'){ if(startReview()) go('practice'); }
   if(act==='lightning'){ go('games',{game:'lightning'}); }
   if(act==='survival'){ SES=null; go('games',{game:'survival'}); }
   if(act==='boss'){ SES=null; go('games',{game:'boss', sec:b.dataset.sec}); }
@@ -1540,6 +1575,7 @@ document.addEventListener('click', e=>{
   if(act==='reset-no') $('#reset-box').innerHTML='';
   if(act==='reset-yes'){ const tone=P.settings.tone, tk=(P.sK||{}).tone||0; P=blank(); P.settings.tone=tone; if(tk) P.sK.tone=Date.now(); P.epoch=Date.now(); PZ_SOLVED=null; save(); SES=null; EX=null; lsDel(SES_KEY); lsDel(EX_KEY); renderHome(); }
 });
+document.addEventListener('focusin', e=>{ const tm=$('#tone-menu'); if(tm && !tm.hidden && !e.target.closest('.tone')) toneMenu(false); });
 document.addEventListener('keydown', e=>{
   if(e.key==='Escape'){ if(PZ_MODAL){ closePuzzle(); e.preventDefault(); return; } const tm=$('#tone-menu'); if(tm && !tm.hidden){ toneMenu(false); const tb=document.querySelector('[data-act="tone-menu"]'); if(tb) tb.focus(); e.preventDefault(); return; } }
   if(PZ_MODAL){   // keep Tab inside the puzzle dialog
@@ -1549,6 +1585,8 @@ document.addEventListener('keydown', e=>{
   if(e.target.matches('input,select,textarea')) return;
   const k=e.key.toLowerCase();
   if(lessonKeys(e, k)) return;
+  const ctl = e.target.closest && e.target.closest('button,a[href],[role="button"],summary');
+  if((k==='enter' || k===' ') && ctl && !ctl.matches('.tab')) return;
   const n=['1','2','3','4'].indexOf(k)>=0 ? ['1','2','3','4'].indexOf(k) : ['a','b','c','d'].indexOf(k);
   const sel = VIEW==='practice' ? '#view-practice' : VIEW==='games' ? '#view-games' : null;
   if(sel && SES && !SES.done && (VIEW==='practice' ? (SES.kind==='practice'||SES.kind==='review') : (SES.kind==='boss'||SES.kind==='survival')) && !(GAME&&GAME.live)){
