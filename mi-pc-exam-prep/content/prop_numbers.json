@@ -3,13 +3,15 @@
   "group": "Michigan Property Laws",
   "item": "MPCGA covered-claim cap",
   "value": "$5,000,000 statutory base (CPI-adj.); $7,980,000 for 1/1/2026-12/31/2026; WC and PIP not capped",
-  "source": "MCL 500.7925(6); DIFS Bulletin 2026-04-INS"
+  "source": "MCL 500.7925(6); DIFS Bulletin 2026-04-INS",
+  "note": "Adjusted every January 1. The 2027 figure had not been published when this was checked on November 12, 2026."
  },
  {
   "group": "Michigan Property Laws",
   "item": "MPCGA insured net worth limit",
   "value": "$25,000,000 statutory base (CPI-adj.); $39,920,000 for 1/1/2026-12/31/2026",
-  "source": "MCL 500.7925(4); DIFS Bulletin 2026-04-INS"
+  "source": "MCL 500.7925(4); DIFS Bulletin 2026-04-INS",
+  "note": "Adjusted every January 1. The 2027 figure had not been published when this was checked on November 12, 2026."
  },
  {
   "group": "Michigan Property Laws",
@@ -87,7 +89,8 @@
   "group": "Michigan Property Laws",
   "item": "Fire/explosion withholding, MCL 500.2845 (participating municipalities under 50,000 people in counties under 425,000)",
   "value": "25% of ACV or settlement (lesser); residential cap $12,000 base, CPI-adj. each Jan. 1 ($16,383 for 1/1/2026-12/31/2026); applies when settlement > 49% of insurance",
-  "source": "MCL 500.2845(1),(12),(15); DIFS Bulletin 2025-27-INS"
+  "source": "MCL 500.2845(1),(12),(15); DIFS Bulletin 2025-27-INS",
+  "note": "The dollar cap is adjusted every January 1. The 2027 cap had not been published when this was checked on November 12, 2026."
  },
  {
   "group": "Michigan Property Laws",
@@ -237,7 +240,15 @@
   "group": "Dwelling Policy",
   "item": "PLS damage to property of others",
   "value": "$1,000 at replacement cost",
-  "source": "ISO DL 24 01 12 02"
+  "source": "ISO DL 24 01 12 02",
+  "note": "The dwelling supplement still shows $1,000; the 2022 homeowners forms pay $5,000 under their own Section II"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "\"Business\" pay threshold in the 12 months before the policy period (HO 00 03 05 11)",
+  "value": "$2,000",
+  "note": "2022 forms: $5,000",
+  "source": "ISO HO 00 03 05 11, Definitions B.3; ISO HO 00 03 03 22, Definitions B.3"
  },
  {
   "group": "Homeowners Policy",
@@ -255,25 +266,29 @@
   "group": "Homeowners Policy",
   "item": "Coverage C at other residence / self-storage (HO 00 03 05 11)",
   "value": "Greater of 10% of C or $1,000",
-  "source": "ISO HO 00 03 05 11, Coverage C.2"
+  "source": "ISO HO 00 03 05 11, Coverage C.2",
+  "note": "2022 forms: greater of 10% of C or $1,500"
  },
  {
   "group": "Homeowners Policy",
   "item": "Special limits (HO 00 03 05 11): money / securities & documents / watercraft / trailers",
   "value": "$200 / $1,500 / $1,500 / $1,500",
-  "source": "ISO HO 00 03 05 11, C.3.a-d"
+  "source": "ISO HO 00 03 05 11, C.3.a-d",
+  "note": "2022 forms: $300 / $2,000 / $2,000 / $2,000"
  },
  {
   "group": "Homeowners Policy",
   "item": "Special limits, theft only (HO 00 03 05 11): jewelry-watches-furs / firearms / silverware",
   "value": "$1,500 / $2,500 / $2,500",
-  "source": "ISO HO 00 03 05 11, C.3.e-g"
+  "source": "ISO HO 00 03 05 11, C.3.e-g",
+  "note": "2022 forms: $2,000 / $3,000 / $3,000"
  },
  {
   "group": "Homeowners Policy",
   "item": "Special limits (HO 00 03 05 11): business property on / off premises; electronics in vehicle / vehicle media",
   "value": "$2,500 / $1,500; $1,500 / $250",
-  "source": "ISO HO 00 03 05 11, C.3.h-k"
+  "source": "ISO HO 00 03 05 11, C.3.h-k",
+  "note": "2022 forms: $3,000 / $1,500; $2,000 / $300; plus a new $2,000 limit on model or hobby aircraft"
  },
  {
   "group": "Homeowners Policy",
@@ -285,13 +300,15 @@
   "group": "Homeowners Policy",
   "item": "Tree removal (HO 00 03 05 11)",
   "value": "$1,000 per loss; $500 per tree",
-  "source": "ISO HO 00 03 05 11, E.1.b"
+  "source": "ISO HO 00 03 05 11, E.1.b",
+  "note": "2022 forms: $3,000 per loss; $1,500 per tree"
  },
  {
   "group": "Homeowners Policy",
   "item": "Trees, shrubs, plants (HO 00 03/04/06 05 11)",
   "value": "5% of A; $500 per tree (HO-4/HO-6: 10% of C)",
-  "source": "ISO HO 00 03/04/06 05 11"
+  "source": "ISO HO 00 03/04/06 05 11",
+  "note": "2022 forms: $1,500 per tree, shrub or plant; the percentages are the same"
  },
  {
   "group": "Homeowners Policy",
@@ -309,13 +326,15 @@
   "group": "Homeowners Policy",
   "item": "Credit card/EFT/forgery/counterfeit (HO 00 03 05 11)",
   "value": "$500, no deductible",
-  "source": "ISO HO 00 03 05 11, E.6"
+  "source": "ISO HO 00 03 05 11, E.6",
+  "note": "2022 forms: removed from the policy; added by endorsement HO 04 53, which shows its own limit"
  },
  {
   "group": "Homeowners Policy",
   "item": "Loss assessment (Sec I and Sec II) / landlord's furnishings / grave markers (HO 00 03 05 11)",
   "value": "$1,000 each / $2,500 per apartment (not theft) / $5,000",
-  "source": "ISO HO 00 03 05 11, E.7, E.10, E.12; Sec II D"
+  "source": "ISO HO 00 03 05 11, E.7, E.10, E.12; Sec II D",
+  "note": "2022 forms: $2,000 each / $3,000 per apartment (not theft) / $5,000"
  },
  {
   "group": "Homeowners Policy",
@@ -351,7 +370,8 @@
   "group": "Homeowners Policy",
   "item": "Small-loss RC without repair (HO 00 03 05 11)",
   "value": "< 5% of insurance AND < $2,500",
-  "source": "ISO HO 00 03 05 11, Cond. D.2.d"
+  "source": "ISO HO 00 03 05 11, Cond. D.2.d",
+  "note": "2022 forms: < 5% of insurance AND < $5,000"
  },
  {
   "group": "Homeowners Policy",
@@ -387,7 +407,8 @@
   "group": "Homeowners Policy",
   "item": "Damage to property of others (HO 00 03 05 11)",
   "value": "$1,000 per occurrence at RC; no coverage if intentional by insured age 13+",
-  "source": "ISO HO 00 03 05 11, Sec. II Add'l Cov. C"
+  "source": "ISO HO 00 03 05 11, Sec. II Add'l Cov. C",
+  "note": "2022 forms: $5,000 per occurrence; the age-13 rule is the same"
  },
  {
   "group": "Homeowners Policy",
@@ -411,12 +432,21 @@
   "group": "Homeowners Policy",
   "item": "HO 04 90 ACV-until-replaced threshold",
   "value": "Over $500 (05 11 edition)",
-  "source": "ISO HO 04 90 05 11"
+  "source": "ISO HO 04 90 05 11",
+  "note": "2022 edition (03 22): over $1,000"
  },
  {
   "group": "Homeowners Policy",
-  "item": "HO 04 27 fungi schedule (04 02 edition)",
+  "item": "Earthquake endorsement (HO 04 54): minimum deductible",
+  "value": "$250 (10 00 edition)",
+  "note": "2022 edition (03 22): $500",
+  "source": "ISO HO 04 54 10 00; ISO HO 04 54 03 22"
+ },
+ {
+  "group": "Homeowners Policy",
+  "item": "HO 04 27 fungi basic limits (04 02 edition)",
   "value": "$10,000 Section I; $50,000 Coverage E aggregate",
-  "source": "ISO HO 04 27 04 02"
+  "source": "ISO HO 04 27 04 02; RIJRA Producer Manual (4/2025), homeowners rule 14",
+  "note": "Entered in the endorsement's schedule, not printed in the form. Higher limits can be bought."
  }
 ]

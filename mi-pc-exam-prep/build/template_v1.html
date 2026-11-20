@@ -100,7 +100,11 @@ h1,h2,h3,h4{font-family:var(--f-display);font-stretch:87.5%;line-height:1.15;tex
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
 .tab{appearance:none;border:0;background:none;padding:14px 14px 12px;font-weight:600;font-size:15px;color:var(--muted);border-bottom:3px solid transparent;white-space:nowrap;cursor:pointer}
-.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.tab[aria-selected="true"],.tab[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+.subnav{display:flex;flex-wrap:wrap;gap:6px;padding-top:14px}
+.subnav .chip{white-space:nowrap}
+.subnav-wrap:has(.subnav:not([hidden])) + main{padding-top:16px}
+@media (max-width:420px){.subnav .chip{padding:5px 10px;font-size:13px}}
 .tab:hover{color:var(--ink)}
 @media (max-width:640px){.sync{padding-left:8px}}
 .sync{margin-left:auto;align-self:center;font-family:var(--f-mono);font-size:11px;color:var(--muted);white-space:nowrap;padding-left:12px}
@@ -123,7 +127,7 @@ main{padding-block:24px 64px}
 .btn.ghost{background:transparent}
 .btn[disabled]{opacity:1;background:var(--sunk);border-color:var(--line);color:var(--muted);cursor:not-allowed}
 .chip{appearance:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-size:14px;cursor:pointer}
-.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink);font-weight:600}
+.chip[aria-pressed="true"],.chip[aria-current="page"]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink);font-weight:600}
 label.field{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted);font-weight:600}
 select,input[type="search"]{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:8px 10px;min-width:0}
 
@@ -380,7 +384,8 @@ function go(v, opts){
   if(v==='numbers') renderNumbers();
   window.scrollTo({top:0});
 }
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>go(t.dataset.view)));
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{ const G=GROUPS.find(g=>g.key===t.dataset.group); if(G) go(G.views.includes(lastView[G.key]) ? lastView[G.key] : G.views[0]); }));
+{ const sn=$('#subnav'); if(sn) sn.addEventListener('click', e=>{ const b=e.target.closest('[data-view]'); if(b) go(b.dataset.view); }); }
 
 /* ---------- dashboard ---------- */
 function predicted(){
@@ -755,7 +760,8 @@ function drawExamQ(){
   $('#ex-next').addEventListener('click',()=>{ if(EX.idx+1<n) examGo(EX.idx+1); else askSubmit(); });
   $('#ex-flag').addEventListener('click',()=>{ it.flagged=!it.flagged; lsSet(EX_KEY,EX); drawExamQ(); });
   $('#ex-grid').addEventListener('click',e=>{ const b=e.target.closest('button'); if(b) examGo(+b.dataset.i); });
-  $('#ex-submit').addEventListener('click', askSubmit);
+  $('#ex-submit').addEventListener('click', ()=>askSubmit(true));
+  $('#ex-stop').addEventListener('click', askStop);
   if(EX.confirm) askSubmit();
   clearInterval(tick);
   tick = setInterval(()=>{
@@ -974,5 +980,4 @@ function start(hot){
 if(window.claude && window.claude.hot){ try{ window.claude.hot.snapshot(()=>({EX, PR, VIEW})); }catch(e){} }
 if(window.claude && window.claude.hot && window.claude.hot.ready) window.claude.hot.ready(start);
 else start((window.claude && window.claude.hot && window.claude.hot.data) || {});
-})();
-</script>
+})();</script>

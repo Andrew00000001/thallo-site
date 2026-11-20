@@ -211,8 +211,8 @@
  },
  {
   "group": "Exam Logistics",
-  "item": "Extra-time accommodation fee",
-  "value": "$50 per exam (time-and-a-half)",
+  "item": "Optional extra time (not an ADA accommodation)",
+  "value": "$50 per exam for time-and-a-half; ADA accommodations carry no fee",
   "source": "PSI CIB p.5"
  },
  {
@@ -230,8 +230,9 @@
  {
   "group": "Exam Logistics",
   "item": "NIPR license application fees (resident)",
-  "value": "Producer: $10 application + $5 transaction; solicitor: $20 ($10 application + $10 solicitor license) + $5 transaction",
-  "source": "DIFS resident producer page; DIFS solicitor page; MCL 500.240(1)(d),(e)"
+  "value": "Producer: $10 application. Solicitor: $20 ($10 application + $10 solicitor license). NIPR adds its own transaction fee to either one",
+  "source": "DIFS resident producer page; DIFS solicitor page; MCL 500.240(1)(d),(e); NIPR help center, \"Apply for an initial license\" (Oct. 2026)",
+  "note": "DIFS lists NIPR's transaction fee as $5.00 for resident applications; NIPR's help pages quote $5.60. Expect about $5 to $6 at checkout."
  },
  {
   "group": "Exam Logistics",

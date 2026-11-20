@@ -47,7 +47,9 @@ for path in sorted(glob.glob(os.path.join(RES, '*_questions.json'))):
         if q.get('answer') not in (0, 1, 2, 3): errors.append(f'{qid}: bad answer index'); continue
         if not q.get('q') or not q.get('explain'): errors.append(f'{qid}: missing stem/explain')
         if not q.get('source'): warns.append(f'{qid}: no source')
-        out = {k: q[k] for k in ('id', 'topic', 'sub', 'q', 'choices', 'answer', 'explain', 'source') if k in q}
+        out = {k: q[k] for k in ('id', 'topic', 'sub', 'q', 'choices', 'answer', 'explain', 'source', 'note') if k in q}   # note: an edition or source caveat shown with the answer
+        if 'noShuffle' in q:   # set by the author: kept as written, choices stay in the given order
+            out['noShuffle'] = q['noShuffle']; questions.append(out); continue
         if any(SHUFFLE_BLOCK.search(c) for c in ch): out['noShuffle'] = True
         # Exam convention: numeric answer sets are listed in ascending order, not shuffled.
         nums = [NUM_LEAD.match(c) for c in ch]
@@ -69,7 +71,7 @@ for path in sorted(glob.glob(os.path.join(RES, '*_cards.json'))):
 for path in sorted(glob.glob(os.path.join(RES, '*_numbers.json'))):
     for n in json.load(open(path)):
         if not all(n.get(k) for k in ('group', 'item', 'value')): errors.append(f'number row incomplete: {n}'); continue
-        numbers.append({k: n.get(k, '') for k in ('group', 'item', 'value', 'source')})
+        numbers.append(dict({k: n.get(k, '') for k in ('group', 'item', 'value', 'source')}, **({'note': n['note']} if n.get('note') else {})))
 
 for path in sorted(glob.glob(os.path.join(RES, '*_facts.md'))):
     md = open(path).read()
@@ -151,6 +153,7 @@ UI_ICONS = ['play', 'pause', 'skip-back', 'skip-forward', 'maximize', 'chevron-l
             'volume-2', 'volume-x', 'triangle-alert', 'target', 'layers', 'calculator']
 used_icons = set(UI_ICONS)
 lesson_files = sorted(glob.glob(os.path.join(LESSONS_DIR, 'L*.json')))
+LESSON_NOTES = json.load(open(os.path.join(LESSONS_DIR, 'notes.json'))) if os.path.exists(os.path.join(LESSONS_DIR, 'notes.json')) else {}
 if lesson_files:
     import hashlib
     sys.path.insert(0, VALIDATOR)
@@ -160,6 +163,7 @@ if lesson_files:
     if os.path.exists(ap): accepted = json.load(open(ap))
     for path in lesson_files:
         L = json.load(open(path)); lid = L.get('id', os.path.basename(path))
+        if LESSON_NOTES.get(lid): L['note'] = LESSON_NOTES[lid]   # an edition note shown with the lesson (the narration is unchanged)
         probs = lesson_validate.check(path)
         for pr in probs: (warns if LAX else errors).append(f'{lid}: {pr}')
         def walk(els):
@@ -294,21 +298,16 @@ SHELL = """
 </header>
 <div class="tabs-bar">
   <div class="wrap" style="display:flex">
-    <nav class="tabs" role="tablist" aria-label="Sections">
-      <button class="tab" role="tab" id="tab-home" data-view="home" aria-selected="true">Today</button>
-      <button class="tab" role="tab" id="tab-watch" data-view="watch" aria-selected="false">Watch</button>
-      <button class="tab" role="tab" id="tab-study" data-view="study" aria-selected="false">Learn</button>
-      <button class="tab" role="tab" id="tab-memory" data-view="memory" aria-selected="false">Memory aids</button>
-      <button class="tab" role="tab" id="tab-practice" data-view="practice" aria-selected="false">Practice</button>
-      <button class="tab" role="tab" id="tab-games" data-view="games" aria-selected="false">Games</button>
-      <button class="tab" role="tab" id="tab-math" data-view="math" aria-selected="false">Math lab</button>
-      <button class="tab" role="tab" id="tab-exam" data-view="exam" aria-selected="false">Mock exam</button>
-      <button class="tab" role="tab" id="tab-cards" data-view="cards" aria-selected="false">Flashcards</button>
-      <button class="tab" role="tab" id="tab-numbers" data-view="numbers" aria-selected="false">Key numbers</button>
+    <nav class="tabs" aria-label="Main">
+      <button class="tab" type="button" id="tab-today" data-group="today" aria-current="page">Today</button>
+      <button class="tab" type="button" id="tab-learn" data-group="learn">Learn</button>
+      <button class="tab" type="button" id="tab-practice" data-group="practice">Practice</button>
+      <button class="tab" type="button" id="tab-exam" data-group="exam">Mock exam</button>
     </nav>
     <span class="sync" id="sync" aria-live="off"></span>
   </div>
 </div>
+<div class="wrap subnav-wrap"><nav class="subnav" id="subnav" aria-label="In this section" hidden></nav></div>
 <main class="wrap">
   <section class="view" id="view-home"></section>
   <section class="view" id="view-watch" hidden></section>
@@ -349,7 +348,7 @@ def compose():
             + '<script>\n' + rd(WB, 'lib', 'rough.js') + '\n</script>\n<script>\n' + pre + '\n' + js.replace('const DATA = loadData();', 'const DATA = loadData();\n' + sk + '\n' + props, 1) + '\n</script>\n')
 
 meta = {
-    'verified': os.environ.get('VERIFIED', 'October 2026'),
+    'verified': os.environ.get('VERIFIED', 'November 2026'),
     'sourcesNote': ('Michigan Compiled Laws (Insurance Code of 1956, Act 218; Workers\' Disability Compensation Act, Act 317 of 1969; '
                     'Michigan Vehicle Code), read from legislature.mi.gov; PSI\'s Michigan content outline for Series 16-81; Michigan DIFS; '
                     'FEMA/NFIP; U.S. Treasury (TRIA); ISO and NCCI standard policy forms (editions named in each section).'),

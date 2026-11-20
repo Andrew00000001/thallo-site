@@ -48,7 +48,7 @@
   "id": "comm-004",
   "topic": "cpp",
   "sub": "Interline Endorsements",
-  "q": "An endorsement, such as Protective Safeguards, that modifies both the Commercial Property and the Farm coverage parts is called a(n):",
+  "q": "In a commercial package policy, an endorsement that applies to more than one coverage part, for example to both the property and the liability coverage parts, is called a(n):",
   "choices": [
    "Interline endorsement",
    "Manuscript endorsement",
@@ -56,8 +56,9 @@
    "Broad form endorsement"
   ],
   "answer": 0,
-  "explain": "Interline (IL) forms apply across more than one coverage part. IL 04 15 states that it modifies both the Commercial Property and Farm coverage parts.",
-  "source": "ISO IL 04 15 04 98"
+  "explain": "Interline (IL) forms apply across more than one coverage part. The Common Policy Conditions (IL 00 17), which apply to every coverage part in the package, are the best-known interline form.",
+  "source": "ISO IL 00 17 11 98; ISO IL 04 15 04 98 (withdrawn); IA Magazine, \"ISO Commercial Property Changes\" (Feb. 14, 2013)",
+  "note": "older study material gives Protective Safeguards as the example of an interline endorsement. That was true of the 1998 form (IL 04 15), but since ISO's 2012 revision the Protective Safeguards endorsement is CP 04 11, which applies to commercial property only."
  },
  {
   "id": "comm-005",
@@ -1398,7 +1399,7 @@
   "id": "comm-bop-18",
   "topic": "bop",
   "sub": "Section II - Liability > Definitions",
-  "q": "Under the liability definitions of the 2013 ISO Businessowners Coverage Form, a forklift used only in the insured's warehouse, and not subject to any motor vehicle registration or insurance law, is classified as:",
+  "q": "Under the liability definitions of the 2013 ISO Businessowners Coverage Form, a forklift used only in the insured's warehouse, and not subject to any motor vehicle insurance, financial responsibility or registration law, is classified as:",
   "choices": [
    "An auto",
    "Impaired property",
@@ -1407,7 +1408,8 @@
   ],
   "answer": 2,
   "explain": "In the 2013 form, 'mobile equipment' includes bulldozers, farm machinery, forklifts and other vehicles designed for use principally off public roads, unless the vehicle is subject to a compulsory or financial responsibility law or other motor vehicle insurance or registration law. The aircraft, auto or watercraft exclusion does not apply to mobile equipment. Its own exclusion applies only to transportation of mobile equipment by an auto owned or operated by, or rented or loaned to, an insured, and to use in prearranged racing, speed, demolition or stunting activity.",
-  "source": "ISO BP 00 03 07 13, Sec. II F.2, F.12, B.1.g-h"
+  "source": "ISO BP 00 03 07 13, Sec. II F.2, F.12, B.1.g-h",
+  "note": "the 2024 edition (BP 00 03 08 24) drops the words \"or motor vehicle registration law\". There, only a compulsory or financial responsibility law, or another motor vehicle insurance law, turns a land vehicle into an \"auto\". The forklift is mobile equipment under either edition."
  },
  {
   "id": "comm-bop-19",
@@ -2261,7 +2263,7 @@
    "Windstorm or hail"
   ],
   "answer": 2,
-  "explain": "Broad adds perils such as breakage of glass, falling objects, weight of ice, snow or sleet, water discharge and certain livestock perils to the Basic list. Windstorm or hail, riot or civil commotion, and flood loss to livestock are already Basic perils.",
+  "explain": "Broad adds perils such as falling objects, weight of ice, snow or sleet, water discharge and certain livestock perils to the Basic list. Windstorm or hail, riot or civil commotion, and flood loss to livestock are already Basic perils.",
   "source": "ISO FP 10 60 09 03, B-C (form text quoted in FC&S 'Farm Property Covered Causes of Loss' (propertycasualty360.com, 2012)); FC&S 'Farm Coverage Program' (propertycasualty360.com, 2017) (FP 10 60 04 16); ISO FP 00 10 09 94, B.1-2"
  },
  {

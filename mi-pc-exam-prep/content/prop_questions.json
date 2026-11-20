@@ -446,8 +446,9 @@
    "Coverage L – Loss of Use and Coverage M – Mortgagee Interest"
   ],
   "answer": 2,
-  "explain": "The dwelling forms contain no liability coverage. The Personal Liability Supplement adds Coverage L – Personal Liability and Coverage M – Medical Payments to Others. Its terms mirror Homeowners Section II, for example medical expenses incurred within 3 years and $1,000 damage to property of others.",
-  "source": "ISO DL 24 01 12 02, Coverages L-M"
+  "explain": "The dwelling forms contain no liability coverage. The Personal Liability Supplement adds Coverage L – Personal Liability and Coverage M – Medical Payments to Others. Its terms mirror Section II of the 2011 Homeowners forms, for example medical expenses incurred within 3 years and $1,000 damage to property of others.",
+  "source": "ISO DL 24 01 12 02, Coverages L-M",
+  "note": "the 2022 homeowners forms raised their own damage to property of others limit to $5,000. The dwelling Personal Liability Supplement (12 02 edition) still shows $1,000."
  },
  {
   "id": "prop-031",
@@ -597,7 +598,8 @@
   ],
   "answer": 2,
   "explain": "Under the 2011 HO-3, property usually located at an insured's residence other than the residence premises is limited to 10% of Coverage C or $1,000, whichever is greater. 10% of $100,000 is $10,000. The same limit applies to property in a self-storage facility.",
-  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.2"
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.2",
+  "note": "the 2022 forms raise the dollar floor from $1,000 to $1,500, for other residences and for self-storage. The answer here is the same under either edition, because 10% of Coverage C is the larger figure."
  },
  {
   "id": "prop-041",
@@ -612,7 +614,8 @@
   ],
   "answer": 1,
   "explain": "Under the 2011 HO-3, jewelry, watches, furs, and precious and semiprecious stones have a $1,500 special limit for loss by theft. If the same jewelry were destroyed by fire, the special limit would not apply.",
-  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.3.e"
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.3.e",
+  "note": "the 2022 forms raise the jewelry theft limit to $2,000. If a question names no edition, look at the choices: when only one of $1,500 and $2,000 is offered, that one is the answer."
  },
  {
   "id": "prop-042",
@@ -627,7 +630,8 @@
   ],
   "answer": 3,
   "explain": "The HO-3 05 11 special limits are: money $200; theft of firearms $2,500; business property on premises $2,500 (off premises $1,500); watercraft $1,500.",
-  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.3"
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.3",
+  "note": "2022 special limits: money $300; securities $2,000; watercraft $2,000; trailers $2,000; theft of jewelry $2,000; theft of firearms $3,000; theft of silverware $3,000; business property $3,000 on the premises and $1,500 away; portable electronics in a vehicle $2,000; vehicle media $300; and a new $2,000 limit on model or hobby aircraft."
  },
  {
   "id": "prop-043",
@@ -642,7 +646,8 @@
   ],
   "answer": 0,
   "explain": "Under the 2011 HO-3, Coverage C does not cover animals, birds, or fish. A non-registered motor vehicle used solely to service the residence, a guest's property in a residence occupied by an insured (at the insured's request), and model or hobby aircraft are covered.",
-  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.1, C.4"
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.1, C.4",
+  "note": "the 2022 forms still cover model or hobby aircraft, but add a $2,000 special limit for them."
  },
  {
   "id": "prop-044",
@@ -672,7 +677,8 @@
   ],
   "answer": 0,
   "explain": "Under the 2011 HO-3, trees, shrubs, plants, and lawns are covered up to 5% of the Coverage A limit, no more than $500 per tree. The covered perils are fire or lightning, explosion, riot, aircraft, non-resident vehicles, V&MM, and theft. Windstorm and property grown for business are not covered.",
-  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.3"
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.3",
+  "note": "the 2022 forms keep 5% of Coverage A but raise the cap to $1,500 for any one tree, shrub or plant."
  },
  {
   "id": "prop-046",
@@ -747,7 +753,8 @@
   ],
   "answer": 1,
   "explain": "Under the 2011 HO-3, the insurer pays no more than ACV until actual repair or replacement is complete. The exception is when the cost is both less than 5% of the insurance on the building and less than $2,500. The insured may claim ACV first and notify the insurer within 180 days of the intent to repair.",
-  "source": "ISO HO 00 03 05 11, Sec. I Cond. D.2.d-e"
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. D.2.d-e",
+  "note": "the 2022 forms keep the 5% test but raise the dollar test from $2,500 to $5,000."
  },
  {
   "id": "prop-051",
@@ -807,7 +814,8 @@
   ],
   "answer": 0,
   "explain": "Under the 2011 HO-3, owned outboard motors over 25 total horsepower are covered only if acquired during the policy period, or if acquired before it and declared at inception or reported in writing within 45 days of acquisition. Neither applies here, so the Watercraft Liability exclusion applies. The Watercraft endorsement (HO 24 75) can add this coverage.",
-  "source": "ISO HO 00 03 05 11, Sec. II Excl. B.2.c(2); PF&M 2014 (HO 24 75)"
+  "source": "ISO HO 00 03 05 11, Sec. II Excl. B.2.c(2); PF&M 2014 (HO 24 75)",
+  "note": "in the 2022 program, HO 24 75 is titled Supplemental Watercraft Liability Coverage. It does the same job."
  },
  {
   "id": "prop-055",
@@ -822,7 +830,8 @@
   ],
   "answer": 1,
   "explain": "Under the 2011 HO-3, Damage to Property of Others pays up to $1,000 per occurrence at replacement cost. It does not cover damage caused intentionally by an insured 13 or older, property owned by an insured, business-related damage, or damage arising from motor vehicles.",
-  "source": "ISO HO 00 03 05 11, Sec. II Add'l Cov. C"
+  "source": "ISO HO 00 03 05 11, Sec. II Add'l Cov. C",
+  "note": "the 2022 forms raise this limit from $1,000 to $5,000 per occurrence. What is excluded stays the same."
  },
  {
   "id": "prop-056",
@@ -852,7 +861,8 @@
   ],
   "answer": 2,
   "explain": "Newly acquired jewelry, furs, cameras and musical instruments in a class that is already scheduled are covered for the lesser of 25% of that class's limit or $10,000, if reported within 30 days. 25% of $20,000 is $5,000. The endorsement (HO 04 61) is open-perils, so a mysterious disappearance is covered, and no deductible applies. The $1,500 figure is the homeowners Coverage C special limit for theft of jewelry, which does not control here.",
-  "source": "PF&M Analysis: HO 04 61 Scheduled Personal Property Endorsement (July 2017); Texas HO 23 03 05 11"
+  "source": "PF&M Analysis: HO 04 61 Scheduled Personal Property Endorsement (July 2017); Texas HO 23 03 05 11",
+  "note": "the Coverage C special limit for theft of jewelry mentioned in the explanation is $1,500 in the 2011 forms and $2,000 in the 2022 forms. The 25% or $10,000 rule in this question comes from the endorsement."
  },
  {
   "id": "prop-058",
@@ -867,7 +877,8 @@
   ],
   "answer": 0,
   "explain": "The 2011 edition of HO 04 90 settles Coverage C, carpeting, appliances, awnings, and outdoor equipment at replacement cost. These are ineligible and remain at ACV: antiques, fine arts, and rarities that cannot be replaced; memorabilia and collectors' items; items not in good or workable condition; obsolete stored items. If the cost exceeds $500, only ACV is paid until the item is replaced.",
-  "source": "ISO HO 04 90 05 11, B. and C.2"
+  "source": "ISO HO 04 90 05 11, B. and C.2",
+  "note": "the 2022 edition of this endorsement (HO 04 90 03 22) raises the $500 threshold to $1,000."
  },
  {
   "id": "prop-059",
@@ -882,7 +893,8 @@
   ],
   "answer": 1,
   "explain": "HO 04 54 treats shocks within 72 hours as one earthquake. The deductible is a percentage of the greater of the Coverage A or C limit (minimum $250 in the 10 00 edition). Exterior masonry veneer is excluded unless that exclusion is removed, and flood caused by earthquake is excluded.",
-  "source": "ISO HO 04 54 10 00"
+  "source": "ISO HO 04 54 10 00",
+  "note": "the 2022 edition (HO 04 54 03 22) sets the minimum deductible at $500. The 72-hour rule is the same."
  },
  {
   "id": "prop-060",
@@ -897,7 +909,8 @@
   ],
   "answer": 2,
   "explain": "HO 04 42 (10 00 edition) removes the Section II business exclusion for the described business and applies the full Coverage C limit to that business's property. It still excludes BI to employees of the business. A described other structure is insured for its own scheduled limit instead of under Coverage B.",
-  "source": "ISO HO 04 42 10 00"
+  "source": "ISO HO 04 42 10 00",
+  "note": "the on-premises business property special limit named in one choice is $2,500 in the 2000 and 2011 forms and $3,000 in the 2022 forms."
  },
  {
   "id": "prop-061",
@@ -927,7 +940,8 @@
   ],
   "answer": 0,
   "explain": "HO 24 71 covers liability arising from an insured's business activities when the insured is not the sole owner or a partner. Examples are clerical employees, salespersons, collectors, messengers, and teachers; teachers may add corporal punishment coverage.",
-  "source": "PF&M Analysis: ISO Homeowners Optional Coverage Endorsements (July 2014), HO 24 71"
+  "source": "PF&M Analysis: ISO Homeowners Optional Coverage Endorsements (July 2014), HO 24 71",
+  "note": "in the 2022 program this endorsement (HO 24 71) is titled Designated Business Pursuits Liability Coverage. What it covers is the same."
  },
  {
   "id": "prop-063",
@@ -942,13 +956,14 @@
   ],
   "answer": 1,
   "explain": "Day care run for pay is a \"business\" under HO 00 03 05 11: it is an occupation, and it is an activity engaged in for compensation. The definition's home day care carve-outs cover only care paid for by a mutual exchange of services or care for a relative, and the $2,000 exception could not apply because she earns far more than $2,000. Section II excludes business liability. The Home Day Care Coverage endorsement (HO 04 97) can add coverage.",
-  "source": "ISO HO 00 03 05 11, Definitions B.3, Sec. II Excl. E.2; PF&M 2014 (HO 04 97)"
+  "source": "ISO HO 00 03 05 11, Definitions B.3, Sec. II Excl. E.2; PF&M 2014 (HO 04 97)",
+  "note": "the 2022 forms raise the $2,000 threshold to $5,000, and title the endorsement Limited Home Day Care Coverage. The answer is the same: she earns far more than either amount."
  },
  {
   "id": "prop-064",
   "topic": "ho",
   "sub": "Selected Endorsements - Limited Fungi, Wet or Dry Rot, or Bacteria",
-  "q": "Under the 2002 ISO Limited Fungi, Wet or Dry Rot, or Bacteria Coverage endorsement for the HO-3 and HO-5, which limits are pre-printed in the schedule?",
+  "q": "In the ISO homeowners program, the basic limits of the Limited Fungi, Wet or Dry Rot, or Bacteria Coverage endorsement used with the HO-3 and HO-5 are:",
   "choices": [
    "Section I: $5,000; Coverage E aggregate: $25,000",
    "Section I: $10,000; Coverage E aggregate: $50,000",
@@ -956,8 +971,8 @@
    "Section I: no limit; Section II: $10,000 per occurrence"
   ],
   "answer": 1,
-  "explain": "The HO 04 27 schedule shows $10,000 for the Section I additional coverage, which caps the total of all fungi, wet or dry rot, or bacteria loss plus the costs of removal, tear-out and testing, and a $50,000 Section II Coverage E aggregate sublimit. That sublimit is within, not in addition to, the Coverage E limit. Companies may file different amounts.",
-  "source": "ISO HO 04 27 04 02, Schedule"
+  "explain": "The basic amounts are $10,000 for the Section I additional coverage, which caps the total of all fungi, wet or dry rot, or bacteria loss plus the costs of removal, tear-out and testing, and a $50,000 Section II Coverage E aggregate sublimit. That sublimit is within, not in addition to, the Coverage E limit. The amounts are entered in the endorsement's schedule, and higher limits can be bought.",
+  "source": "ISO HO 04 27 04 02 (form text); ISO-based homeowners manual rule as reproduced in the RIJRA Producer Manual (4/2025)"
  },
  {
   "id": "prop-065",
@@ -1242,7 +1257,8 @@
   ],
   "answer": 0,
   "explain": "The 2011 HO-3 excludes watercraft liability for a sailing vessel 26 feet or longer that is owned by or rented to an insured. The Watercraft endorsement extends Coverages E and F to the watercraft described in it, including sailing vessels 26 feet or more in overall length.",
-  "source": "ISO HO 00 03 05 11, Definitions B.1 and Sec. II Excl. B.2.b; ISO HO 24 75 04 91 (form text), item 2; PF&M, \"ISO Homeowners Optional Coverage Endorsements\" (July 2014), HO 24 75"
+  "source": "ISO HO 00 03 05 11, Definitions B.1 and Sec. II Excl. B.2.b; ISO HO 24 75 04 91 (form text), item 2; PF&M, \"ISO Homeowners Optional Coverage Endorsements\" (July 2014), HO 24 75",
+  "note": "in the 2022 program this endorsement (HO 24 75) is titled Supplemental Watercraft Liability Coverage. Either name points to the same answer."
  },
  {
   "id": "prop-gap-17",
@@ -1257,6 +1273,1313 @@
   ],
   "answer": 0,
   "explain": "For an additional premium, the Watercraft endorsement makes Coverage E – Personal Liability and Coverage F – Medical Payments to Others apply to bodily injury or property damage arising out of the watercraft described in it. It adds no property coverage for the boat, its trailer or its motor.",
-  "source": "ISO HO 24 75 04 91 (form text; the 05 11 and current 03 22 texts were not obtained); PF&M, \"ISO Homeowners Optional Coverage Endorsements\" (July 2014), HO 24 75 (liability coverage for described watercraft)"
+  "source": "ISO HO 24 75 04 91 (form text; the 05 11 and current 03 22 texts were not obtained); PF&M, \"ISO Homeowners Optional Coverage Endorsements\" (July 2014), HO 24 75 (liability coverage for described watercraft)",
+  "note": "in the 2022 program this endorsement (HO 24 75) is titled Supplemental Watercraft Liability Coverage. Either name points to the same answer."
+ },
+ {
+  "id": "ho-add-01",
+  "topic": "ho",
+  "sub": "Coverage Forms",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners program, the HO-3 (Special Form) insures personal property (Coverage C) against:",
+  "choices": [
+   "Direct physical loss from any cause that is not excluded",
+   "16 named perils",
+   "Fire, lightning and internal explosion only",
+   "The same open perils as the dwelling, with a higher deductible"
+  ],
+  "answer": 1,
+  "explain": "The HO-3 covers the dwelling and other structures (Coverages A and B) against direct physical loss unless excluded, but it covers personal property (Coverage C) only for 16 named perils. Open-perils coverage on personal property is the feature of the HO-5.",
+  "source": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A and B; ISO HO 00 05 10 00, Sec. I Perils"
+ },
+ {
+  "id": "ho-add-02",
+  "topic": "ho",
+  "sub": "Coverage Forms",
+  "noShuffle": null,
+  "q": "In the ISO Homeowners program, which form is designed for the owner of a condominium unit or a cooperative apartment?",
+  "choices": [
+   "HO-2 Broad Form",
+   "HO-4 Contents Broad Form",
+   "HO-6 Unit-Owners Form",
+   "HO-8 Modified Coverage Form"
+  ],
+  "answer": 2,
+  "explain": "The HO-6 is for condominium unit owners and cooperative shareholders. The HO-4 is for tenants, and the HO-2, HO-3, HO-5 and HO-8 are for owner-occupants of 1- to 4-family dwellings.",
+  "source": "The Institutes, AIC 43 excerpt (ISO 2011 Homeowners program eligibility); ISO HO 00 06 05 11"
+ },
+ {
+  "id": "ho-add-03",
+  "topic": "ho",
+  "sub": "Coverage Forms",
+  "noShuffle": null,
+  "q": "Which homeowners form is designed for an owner-occupied older home whose replacement cost is far greater than its market value?",
+  "choices": [
+   "HO-3 Special Form",
+   "HO-5 Comprehensive Form",
+   "HO-6 Unit-Owners Form",
+   "HO-8 Modified Coverage Form"
+  ],
+  "answer": 3,
+  "explain": "The HO-8 is for owner-occupied homes that may not meet the standards for the other forms, typically an older home that would cost far more to rebuild than it is worth. It covers 10 named perils, and building repairs are paid using common, functionally equivalent materials and methods.",
+  "source": "The Institutes, AIC 43 excerpt (ISO 2011 Homeowners program); ISO HO 00 08 10 00, Sec. I Cond. C.2"
+ },
+ {
+  "id": "ho-add-04",
+  "topic": "ho",
+  "sub": "Coverage Forms",
+  "noShuffle": null,
+  "q": "Under the 2000 ISO HO-5 (Comprehensive Form), the special limits for jewelry, firearms and silverware apply to loss by:",
+  "choices": [
+   "Theft only",
+   "Theft, misplacing or losing",
+   "Any covered cause of loss",
+   "Fire or theft"
+  ],
+  "answer": 1,
+  "explain": "The HO-5 covers personal property on an open-perils basis, so it could otherwise pay in full for a ring that is simply lost. Its special limits for jewelry, watches and furs, for firearms and for silverware therefore apply to loss by theft, misplacing or losing. In the HO-3 those limits apply to theft only.",
+  "source": "ISO HO 00 05 10 00, Sec. I Coverage C.3.e-g; ISO HO 00 03 05 11, Sec. I Coverage C.3.e-g"
+ },
+ {
+  "id": "ho-add-05",
+  "topic": "ho",
+  "sub": "Coverage Forms",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO HO-6 (Unit-Owners Form), Coverage A and Coverage C are insured on what basis?",
+  "choices": [
+   "Open perils for both coverages",
+   "Open perils for Coverage A; named perils for Coverage C",
+   "Named perils for both coverages",
+   "Named perils for Coverage A; open perils for Coverage C"
+  ],
+  "answer": 2,
+  "explain": "The HO-6 covers both the unit owner's Coverage A property and the owner's personal property (Coverage C) for the same list of named perils.",
+  "source": "ISO HO 00 06 05 11, Sec. I Perils Insured Against"
+ },
+ {
+  "id": "ho-add-06",
+  "topic": "ho",
+  "sub": "Coverage Forms",
+  "noShuffle": null,
+  "q": "In the ISO 2011 Homeowners program, an HO-3 may be issued to:",
+  "choices": [
+   "The owner-occupant of a 1- to 4-family dwelling",
+   "A tenant who rents an apartment",
+   "The owner of a 12-unit apartment building who lives in one unit",
+   "The owner-occupant of a dwelling on farm premises"
+  ],
+  "answer": 0,
+  "explain": "The HO-2, HO-3, HO-5 and HO-8 may be issued only to the owner-occupant of a 1- to 4-family dwelling, and not on farm premises. Tenants use the HO-4, and condominium unit owners use the HO-6.",
+  "source": "The Institutes, AIC 43 excerpt (ISO 2011 Homeowners program eligibility)"
+ },
+ {
+  "id": "ho-add-07",
+  "topic": "ho",
+  "sub": "Definitions",
+  "noShuffle": null,
+  "q": "In the 2011 ISO Homeowners forms, the words \"you\" and \"your\" refer to the named insured shown in the Declarations and:",
+  "choices": [
+   "Any relative of the named insured, wherever that relative lives",
+   "The named insured's spouse, if a resident of the same household",
+   "Every person who lives in the household",
+   "The mortgagee named in the Declarations"
+  ],
+  "answer": 1,
+  "explain": "\"You\" and \"your\" mean the named insured and the spouse if a resident of the same household. Other household members can be \"insureds\", but they are not \"you\".",
+  "source": "ISO HO 00 03 05 11, Definitions A"
+ },
+ {
+  "id": "ho-add-08",
+  "topic": "ho",
+  "sub": "Definitions",
+  "noShuffle": null,
+  "q": "The named insured asks a neighbor to walk the family dog as a favor. While the neighbor has the dog on a leash, it bites a jogger. Under Section II of the 2011 ISO Homeowners forms (HO-3), the neighbor is:",
+  "choices": [
+   "Not an insured, because only residents of the named insured's household can be insureds",
+   "An insured, because he is legally responsible for the dog with the owner's consent",
+   "An insured only if the named insured pays him to walk the dog as a business",
+   "An insured only for Coverage F - Medical Payments to Others, not for Coverage E"
+  ],
+  "answer": 1,
+  "explain": "For Section II, \"insured\" also includes any person legally responsible for animals or watercraft owned by an insured. It does not include a person who has them in the course of a business or without the owner's consent, so a paid dog-walking business would not qualify.",
+  "source": "ISO HO 00 03 05 11, Definitions B.5"
+ },
+ {
+  "id": "ho-add-09",
+  "topic": "ho",
+  "sub": "Definitions",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners forms, all of the following are \"insured locations\" EXCEPT:",
+  "choices": [
+   "Vacant land the insured owns, other than farm land",
+   "A hotel room where the insured is temporarily staying",
+   "A hall the insured rents for one evening for a family party",
+   "Farm land the insured owns and rents to a farmer"
+  ],
+  "answer": 3,
+  "explain": "\"Insured location\" includes the residence premises, premises where an insured is temporarily residing, vacant land other than farm land, and premises occasionally rented to an insured for other than business use. Farm land is specifically left out of the vacant-land item.",
+  "source": "ISO HO 00 03 05 11, Definitions B.6"
+ },
+ {
+  "id": "ho-add-10",
+  "topic": "ho",
+  "sub": "Definitions",
+  "noShuffle": null,
+  "q": "In the 2011 ISO Homeowners forms, an \"occurrence\" that results in bodily injury or property damage during the policy period is:",
+  "choices": [
+   "An accident, including continuous or repeated exposure to the same harmful conditions",
+   "An intentional act of an insured, whether or not the resulting harm was expected",
+   "A sudden accident only; harm from repeated exposure to the same conditions is left out",
+   "Any claim or suit first made against an insured, whenever the injury itself happened"
+  ],
+  "answer": 0,
+  "explain": "\"Occurrence\" means an accident, including continuous or repeated exposure to substantially the same general harmful conditions, which results in bodily injury or property damage during the policy period.",
+  "source": "ISO HO 00 03 05 11, Definitions B.8"
+ },
+ {
+  "id": "ho-add-11",
+  "topic": "ho",
+  "sub": "Definitions",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners forms, which activity is NOT a \"business\"?",
+  "choices": [
+   "Selling handmade furniture online for $9,000 a year",
+   "Unpaid volunteer work for a local food bank",
+   "Caring for four unrelated children in the home for a weekly fee",
+   "Working part-time as a self-employed bookkeeper"
+  ],
+  "answer": 1,
+  "explain": "\"Business\" means a trade, profession or occupation, or any other activity engaged in for money. The definition excepts volunteer activities, activities that paid no more than $2,000 in total in the 12 months before the policy period, and home day care provided as a mutual exchange of services or to a relative.",
+  "source": "ISO HO 00 03 05 11, Definitions B.3",
+  "note": "the 2022 forms raise the $2,000 threshold to $5,000, and their \"business\" definition also names home-sharing host activities and leasing mineral rights. The answer is the same."
+ },
+ {
+  "id": "ho-add-12",
+  "topic": "ho",
+  "sub": "Section I - Coverage B",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners forms (HO-3), which of these is covered under Coverage B - Other Structures?",
+  "choices": [
+   "A detached garage the insured rents to a neighbor solely as a private garage",
+   "A detached workshop from which the insured runs a furniture-repair business",
+   "A backyard cottage rented to a person who is not a tenant of the dwelling",
+   "The land on which a detached shed is located"
+  ],
+  "answer": 0,
+  "explain": "Coverage B does not cover land, other structures rented or held for rental to anyone who is not a tenant of the dwelling (unless used solely as a private garage), or other structures from which a business is conducted. A structure rented only as a private garage keeps its coverage.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage B.2"
+ },
+ {
+  "id": "ho-add-13",
+  "topic": "ho",
+  "sub": "Section I - Coverage C",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners forms (HO-3), Coverage C covers personal property owned or used by an insured:",
+  "choices": [
+   "Only while it is on the residence premises",
+   "Only in the United States and Canada",
+   "Anywhere in the world",
+   "Only within 100 miles of the residence premises"
+  ],
+  "answer": 2,
+  "explain": "Coverage C covers personal property owned or used by an insured while it is anywhere in the world. Sub-limits apply to property usually kept at another residence of an insured and to property in a self-storage facility.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.1-2"
+ },
+ {
+  "id": "ho-add-14",
+  "topic": "ho",
+  "sub": "Section I - Coverage C",
+  "noShuffle": true,
+  "q": "An HO-3 insured under the 2011 ISO Homeowners forms has an $80,000 Coverage C limit. A covered fire destroys furniture she keeps in a rented self-storage unit. The most the policy will pay for the furniture is:",
+  "choices": [
+   "$800",
+   "$1,000",
+   "$4,000",
+   "$8,000"
+  ],
+  "answer": 3,
+  "explain": "Personal property in a self-storage facility is limited to 10% of the Coverage C limit or $1,000, whichever is greater. 10% of $80,000 is $8,000. The limit does not apply to property moved there because the residence premises is being repaired and is not fit to live in or store property in, or to property usually kept at another residence of an insured.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.2",
+  "note": "the 2022 forms raise the $1,000 floor to $1,500. The answer is the same, because 10% of Coverage C is the larger figure."
+ },
+ {
+  "id": "ho-add-15",
+  "topic": "ho",
+  "sub": "Section I - Coverage C",
+  "noShuffle": null,
+  "q": "An unrelated roomer rents a bedroom in the home of an HO-3 insured. A covered fire destroys the roomer's furniture and clothing. Under the 2011 ISO Homeowners forms, the insured's Coverage C:",
+  "choices": [
+   "Covers the roomer's property up to the Coverage C limit",
+   "Covers the roomer's property up to 10% of the Coverage C limit",
+   "Covers the roomer's property only if the roomer has no other insurance",
+   "Does not cover the roomer's property"
+  ],
+  "answer": 3,
+  "explain": "Coverage C does not cover property of roomers, boarders and other tenants, except property of roomers and boarders who are related to an insured.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.4"
+ },
+ {
+  "id": "ho-add-16",
+  "topic": "ho",
+  "sub": "Section I - Coverage C",
+  "noShuffle": true,
+  "q": "In the ISO Homeowners program, the basic Coverage C limit for an HO-3 on a one-family dwelling with a $300,000 Coverage A limit is:",
+  "choices": [
+   "$30,000",
+   "$90,000",
+   "$150,000",
+   "$300,000"
+  ],
+  "answer": 2,
+  "explain": "For a one- or two-family dwelling, the program sets the basic Coverage C limit at 50% of Coverage A for the HO-2, HO-3, HO-5 and HO-8: 50% of $300,000 is $150,000. (It is 30% for a three-family dwelling and 25% for a four-family dwelling.) Coverage B is 10% of Coverage A.",
+  "source": "ISO Homeowners program limits as reproduced in the RIJRA Homeowners Manual (ISO-based), Example 7, and the NC Rate Bureau Homeowners Manual; ISO HO 00 03 05 11, Sec. I Coverage B.3"
+ },
+ {
+  "id": "ho-add-17",
+  "topic": "ho",
+  "sub": "Section I - Coverage C Special Limits",
+  "noShuffle": true,
+  "q": "A covered fire destroys $900 in cash kept in the home of an HO-3 insured. Under the 2011 ISO Homeowners forms, and ignoring the deductible, the policy will pay:",
+  "choices": [
+   "$200",
+   "$450",
+   "$500",
+   "$900"
+  ],
+  "answer": 0,
+  "explain": "The special limit for money, bank notes, coins and similar property is $200 per loss, and it applies whatever covered peril causes the loss. Only the jewelry, firearms and silverware limits are restricted to theft.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.3.a",
+  "note": "the 2022 forms raise the money limit to $300."
+ },
+ {
+  "id": "ho-add-18",
+  "topic": "ho",
+  "sub": "Section I - Coverage C Special Limits",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners forms (HO-3), the special limits on jewelry, firearms and silverware apply to loss caused by:",
+  "choices": [
+   "Any covered peril",
+   "Fire or lightning",
+   "Theft",
+   "Theft or mysterious disappearance"
+  ],
+  "answer": 2,
+  "explain": "The $1,500 limit on jewelry, watches and furs and the $2,500 limits on firearms and on silverware apply only to loss by theft. If a covered fire destroys the same items, they are covered up to the Coverage C limit.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.3.e-g",
+  "note": "the 2022 limits are $2,000 for jewelry, watches and furs and $3,000 each for firearms and silverware. They still apply only to theft."
+ },
+ {
+  "id": "ho-add-19",
+  "topic": "ho",
+  "sub": "Section I - Coverage C Special Limits",
+  "noShuffle": true,
+  "q": "A covered fire at a client's office destroys a laptop computer that an HO-3 insured uses primarily for her business. Under the 2011 ISO Homeowners forms, the most Coverage C will pay for the laptop is:",
+  "choices": [
+   "$500",
+   "$1,500",
+   "$2,500",
+   "The full Coverage C limit"
+  ],
+  "answer": 1,
+  "explain": "Property used primarily for business purposes is limited to $2,500 while on the residence premises and $1,500 while away from the residence premises.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage C.3.h-i",
+  "note": "the 2022 forms raise the on-premises limit from $2,500 to $3,000. The away-from-premises limit, the answer here, is still $1,500."
+ },
+ {
+  "id": "ho-add-20",
+  "topic": "ho",
+  "sub": "Section I - Coverage D",
+  "noShuffle": true,
+  "q": "A covered fire makes an HO-3 insured's home unfit to live in. Her normal living expenses were $1,500 a month. While the home is repaired, her living expenses are $2,400 a month. Under the 2011 ISO Homeowners forms, Coverage D - Additional Living Expense pays, for each month:",
+  "choices": [
+   "$900",
+   "$1,500",
+   "$2,400",
+   "$3,900"
+  ],
+  "answer": 0,
+  "explain": "Additional living expense is the necessary increase in living expenses so the household can maintain its normal standard of living: $2,400 - $1,500 = $900. It is paid for the shortest time needed to repair or replace the damage or, if the insured permanently relocates, to settle elsewhere.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage D.1"
+ },
+ {
+  "id": "ho-add-21",
+  "topic": "ho",
+  "sub": "Section I - Coverage D",
+  "noShuffle": null,
+  "q": "A covered loss makes an insured's home unfit to live in two weeks before the HO-3 policy expires, and repairs take three months. Under the 2011 ISO Homeowners forms, Coverage D - Loss of Use payments:",
+  "choices": [
+   "Stop on the day the policy expires, whether or not the repairs are finished",
+   "Stop 30 days after the policy expires, unless the policy is renewed",
+   "Continue for the time allowed, because the periods are not limited by expiration",
+   "Continue only if the insured renews the policy with the same insurer before it expires"
+  ],
+  "answer": 2,
+  "explain": "The time periods for additional living expense, fair rental value and civil authority are not limited by expiration of the policy. The loss itself must happen during the policy period.",
+  "source": "ISO HO 00 03 05 11, Sec. I Coverage D"
+ },
+ {
+  "id": "ho-add-22",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners forms (HO-3), when the amount paid for damaged property plus the cost of removing its debris is more than the limit for that property, the Debris Removal additional coverage provides:",
+  "choices": [
+   "No further payment",
+   "An additional 5% of that limit",
+   "An additional 10% of that limit",
+   "An additional $1,000"
+  ],
+  "answer": 1,
+  "explain": "Debris removal expense is included in the limit that applies to the damaged property. If the damage plus the debris removal expense is more than that limit, an additional 5% of the limit is available for debris removal.",
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.1.a"
+ },
+ {
+  "id": "ho-add-23",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "noShuffle": true,
+  "q": "A windstorm blows an HO-3 insured's maple tree across her driveway and blocks it. No structure is damaged. Under the 2011 ISO Homeowners forms, the policy will pay to remove the tree up to:",
+  "choices": [
+   "Nothing, because no covered structure was damaged",
+   "$500",
+   "$1,000",
+   "5% of Coverage A"
+  ],
+  "answer": 1,
+  "explain": "The policy pays the reasonable cost to remove the insured's trees felled by windstorm or hail, or by weight of ice, snow or sleet, when the tree damages a covered structure or blocks a driveway or a ramp for a handicapped person. The limit is $1,000 per loss, but no more than $500 for any one tree.",
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.1.b",
+  "note": "the 2022 forms pay $3,000 per loss and $1,500 for any one tree, so one tree would be paid up to $1,500."
+ },
+ {
+  "id": "ho-add-24",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners forms (HO-3), the Fire Department Service Charge additional coverage pays up to:",
+  "choices": [
+   "$250, after the deductible",
+   "$500, with no deductible",
+   "$1,000, after the deductible",
+   "$1,000, with no deductible"
+  ],
+  "answer": 1,
+  "explain": "The policy pays up to $500 for fire department charges the insured is liable for under a contract or agreement when the department is called to protect covered property. No deductible applies. It does not apply if the property is within the limits of the city or district that furnishes the fire protection.",
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.4"
+ },
+ {
+  "id": "ho-add-25",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "noShuffle": true,
+  "q": "During a covered fire, an HO-3 insured moves furniture to a neighbor's garage to protect it. Under the 2011 ISO Homeowners forms, the removed furniture is covered against direct loss from any cause for no more than:",
+  "choices": [
+   "30 days",
+   "60 days",
+   "90 days",
+   "180 days"
+  ],
+  "answer": 0,
+  "explain": "Covered property removed from a premises endangered by a covered peril is insured against direct loss from any cause for no more than 30 days while removed. This does not change the limit that applies to the property.",
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.5"
+ },
+ {
+  "id": "ho-add-26",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "noShuffle": null,
+  "q": "A thief steals an HO-3 insured's credit card and charges $2,000 to it. Under the 2011 ISO Homeowners forms, the Credit Card, Electronic Fund Transfer Card or Access Device, Forgery and Counterfeit Money additional coverage pays up to:",
+  "choices": [
+   "$200, after the deductible",
+   "$500, with no deductible",
+   "$1,000, after the deductible",
+   "$2,000, with no deductible"
+  ],
+  "answer": 1,
+  "explain": "This additional coverage pays up to $500, and no deductible applies. It does not cover use of the card by a resident of the household, by a person who was entrusted with the card, or in a business.",
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.6",
+  "note": "the 2022 forms removed this additional coverage. It is now added by endorsement HO 04 53, which pays up to the limit shown in its schedule."
+ },
+ {
+  "id": "ho-add-27",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "noShuffle": true,
+  "q": "A homeowners association charges each member an assessment after a covered windstorm damages the association's clubhouse. Under the 2011 ISO Homeowners forms (HO-3), the Section I Loss Assessment additional coverage pays up to:",
+  "choices": [
+   "$1,000",
+   "$2,500",
+   "$5,000",
+   "10% of Coverage A"
+  ],
+  "answer": 0,
+  "explain": "The policy pays up to $1,000 for the insured's share of a loss assessment charged by a corporation or association of property owners, when the assessment results from direct loss to collectively owned property caused by a peril insured under Coverage A.",
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.7",
+  "note": "the 2022 forms pay up to $2,000."
+ },
+ {
+  "id": "ho-add-28",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "noShuffle": null,
+  "q": "Under the Collapse additional coverage of the 2011 ISO Homeowners forms (HO-3), an abrupt collapse of the dwelling is covered when it is caused by:",
+  "choices": [
+   "Flood water that undermines and washes out the foundation",
+   "An earthquake that shakes the dwelling off its foundation",
+   "Decay that was hidden from view and unknown to the insured",
+   "Gradual settling, cracking and shrinking of the foundation over time"
+  ],
+  "answer": 2,
+  "explain": "The collapse coverage applies to an abrupt collapse caused by the Coverage C perils, hidden decay, hidden insect damage, weight of contents or people, weight of rain that collects on a roof, or defective materials or methods used in construction, remodeling or renovation, if the collapse happens during that work. Flood and earth movement remain excluded.",
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.8"
+ },
+ {
+  "id": "ho-add-29",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "noShuffle": null,
+  "q": "An HO-3 insured rents out a furnished apartment in her home. Under the 2011 ISO Homeowners forms, the Landlord's Furnishings additional coverage pays up to $2,500 for her appliances and furnishings in that apartment for loss by the Coverage C perils other than:",
+  "choices": [
+   "Fire or lightning",
+   "Windstorm or hail",
+   "Theft",
+   "Vandalism or malicious mischief"
+  ],
+  "answer": 2,
+  "explain": "Landlord's furnishings in each apartment on the residence premises regularly rented or held for rental are covered up to $2,500 for the perils insured against under Coverage C, other than theft.",
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.10",
+  "note": "the 2022 forms raise the landlord's furnishings limit from $2,500 to $3,000. Theft is still the peril left out."
+ },
+ {
+  "id": "ho-add-30",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "noShuffle": true,
+  "q": "Under the 2011 ISO Homeowners forms (HO-3), the Grave Markers additional coverage pays up to what amount for grave markers and mausoleums damaged by a Coverage C peril?",
+  "choices": [
+   "$500",
+   "$1,000",
+   "$2,500",
+   "$5,000"
+  ],
+  "answer": 3,
+  "explain": "The policy pays up to $5,000 for grave markers, including mausoleums, on or away from the residence premises, for loss caused by a peril insured against under Coverage C.",
+  "source": "ISO HO 00 03 05 11, Sec. I Add'l Cov. E.12"
+ },
+ {
+  "id": "ho-add-31",
+  "topic": "ho",
+  "sub": "Section II - Coverage F",
+  "noShuffle": null,
+  "q": "An HO-3 insured's dog bites a child at a public park. Under the 2011 ISO Homeowners forms, Coverage F - Medical Payments to Others applies to the child's medical expenses:",
+  "choices": [
+   "Only if a court first finds the insured legally liable for the injury",
+   "Only if the bite happened on the insured location",
+   "Because the injury was caused by an animal owned by an insured",
+   "Not at all, because injuries caused by an insured's animals are excluded"
+  ],
+  "answer": 2,
+  "explain": "Away from the insured location, Coverage F applies when the injury is caused by an animal owned by or in the care of an insured, by an insured's activities, by a residence employee in the course of employment, or by a condition on the insured location. Coverage F does not depend on the insured being legally liable.",
+  "source": "ISO HO 00 03 05 11, Sec. II Coverage F"
+ },
+ {
+  "id": "ho-add-32",
+  "topic": "ho",
+  "sub": "Section II - Coverage E and F",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners forms (HO-3), the Coverage E limit shown in the Declarations is the most the insurer will pay for damages from:",
+  "choices": [
+   "Each person injured in any one occurrence, with no limit on the total",
+   "Each insured who is sued, so two insureds double the amount available",
+   "Any one occurrence, whatever the number of insureds, claims or injured persons",
+   "All occurrences during the policy period combined, as an annual aggregate limit"
+  ],
+  "answer": 2,
+  "explain": "The Coverage E limit applies to all damages from any one occurrence, and it is the same regardless of the number of insureds, claims made or persons injured. Coverage F is a limit for each person in one accident.",
+  "source": "ISO HO 00 03 05 11, Sec. II Cond. A"
+ },
+ {
+  "id": "ho-add-33",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "The Severability of Insurance condition in Section II of the 2011 ISO Homeowners forms means that:",
+  "choices": [
+   "Each insured has a separate Coverage E limit, so the limits can be added together",
+   "The insurance applies separately to each insured, without increasing the limit",
+   "Section II can be cancelled separately from Section I by either party",
+   "Each claimant's damages are subject to a separate limit for each occurrence"
+  ],
+  "answer": 1,
+  "explain": "The insurance applies separately to each insured, so one insured's conduct does not by itself take coverage away from another. The condition does not increase the insurer's limit of liability for any one occurrence.",
+  "source": "ISO HO 00 03 05 11, Sec. II Cond. B"
+ },
+ {
+  "id": "ho-add-34",
+  "topic": "ho",
+  "sub": "Section II - Additional Coverages",
+  "noShuffle": true,
+  "q": "Under the Claim Expenses additional coverage in Section II of the 2011 ISO Homeowners forms (HO-3), the insurer pays an insured's actual loss of earnings for helping with the defense at the insurer's request, up to:",
+  "choices": [
+   "$50 a day",
+   "$100 a day",
+   "$200 a day",
+   "$250 a day"
+  ],
+  "answer": 3,
+  "explain": "Claim expenses include reasonable expenses an insured incurs at the insurer's request, including actual loss of earnings up to $250 per day, for assisting in the investigation or defense of a claim or suit.",
+  "source": "ISO HO 00 03 05 11, Sec. II Add'l Cov. A"
+ },
+ {
+  "id": "ho-add-35",
+  "topic": "ho",
+  "sub": "Section II - Additional Coverages",
+  "noShuffle": true,
+  "q": "Under the 2011 ISO Homeowners forms (HO-3), the Damage to Property of Others additional coverage pays, at replacement cost, up to:",
+  "choices": [
+   "$250 per occurrence",
+   "$500 per occurrence",
+   "$1,000 per occurrence",
+   "$2,500 per occurrence"
+  ],
+  "answer": 2,
+  "explain": "The policy pays, at replacement cost, up to $1,000 per occurrence for property damage to property of others caused by an insured. It does not cover damage caused intentionally by an insured who is 13 or older, or damage to property owned by an insured.",
+  "source": "ISO HO 00 03 05 11, Sec. II Add'l Cov. C",
+  "note": "the 2022 forms pay up to $5,000 per occurrence."
+ },
+ {
+  "id": "ho-add-36",
+  "topic": "ho",
+  "sub": "Section II - Additional Coverages",
+  "noShuffle": null,
+  "q": "In Section II of the 2011 ISO Homeowners forms (HO-3), claim expenses and first aid expenses are paid:",
+  "choices": [
+   "As part of the Coverage E limit",
+   "As part of the Coverage F limit",
+   "In addition to the limits of liability",
+   "Only after the Coverage E limit is used up"
+  ],
+  "answer": 2,
+  "explain": "The Section II additional coverages (claim expenses, first aid expenses, damage to property of others and loss assessment) are paid in addition to the limits of liability.",
+  "source": "ISO HO 00 03 05 11, Sec. II Additional Coverages"
+ },
+ {
+  "id": "ho-add-37",
+  "topic": "ho",
+  "sub": "Section II - Exclusions",
+  "noShuffle": null,
+  "q": "The 16-year-old son of an HO-3 insured mows neighbors' lawns for pay during the summer, working for himself with no employees. He negligently breaks a customer's window. Under the 2011 ISO Homeowners forms, Coverage E:",
+  "choices": [
+   "Does not apply, because any activity an insured does for pay falls under the business exclusion",
+   "Applies, because the business exclusion excepts a self-employed insured under 21 with no employees",
+   "Applies only if the son's lawn-mowing income was no more than $2,000 in the 12 months before the policy period",
+   "Applies only if the Business Pursuits endorsement has been added to the policy"
+  ],
+  "answer": 1,
+  "explain": "The Section II business exclusion does not apply to an insured under the age of 21 who is involved in a part-time or occasional, self-employed business with no employees.",
+  "source": "ISO HO 00 03 05 11, Sec. II Excl. E.2",
+  "note": "the $2,000 figure in one choice is the 2011 business threshold; the 2022 forms use $5,000. The under-21 exception, the answer here, is in both editions."
+ },
+ {
+  "id": "ho-add-38",
+  "topic": "ho",
+  "sub": "Section II - Exclusions",
+  "noShuffle": null,
+  "q": "An HO-3 named insured owns a 14-foot fishing boat powered by a 20-horsepower outboard motor. He negligently injures a swimmer while operating it. Under the 2011 ISO Homeowners forms, Coverage E - Personal Liability:",
+  "choices": [
+   "Applies, because the outboard motor is 25 horsepower or less",
+   "Does not apply, because all owned watercraft are excluded",
+   "Applies only if the boat was declared to the insurer at policy inception",
+   "Applies only while the boat is stored on the residence premises"
+  ],
+  "answer": 0,
+  "explain": "The watercraft liability exclusion does not apply to watercraft powered by one or more outboard engines or motors with 25 total horsepower or less. Owned outboards of more than 25 horsepower are covered only if acquired during the policy period, or declared or reported as the form requires.",
+  "source": "ISO HO 00 03 05 11, Sec. II Excl. B.2"
+ },
+ {
+  "id": "ho-add-39",
+  "topic": "ho",
+  "sub": "Section II - Coverage E Exclusions",
+  "noShuffle": null,
+  "q": "The 12-year-old daughter of an HO-3 named insured lives in the household and is hurt when her father negligently backs a riding mower into her. Under the 2011 ISO Homeowners forms, a liability claim against the father for her injury is:",
+  "choices": [
+   "Covered under Coverage E, up to the limit shown in the Declarations",
+   "Covered under Coverage E, but only for her reasonable medical expenses",
+   "Not covered, because Coverage E excludes bodily injury to an insured",
+   "Not covered, because a riding mower is a motor vehicle"
+  ],
+  "answer": 2,
+  "explain": "Coverage E excludes bodily injury to you or to an insured, and a resident relative is an insured. Coverage F does not apply to regular residents of the household either.",
+  "source": "ISO HO 00 03 05 11, Sec. II Excl. F; Sec. II Coverage F"
+ },
+ {
+  "id": "ho-add-40",
+  "topic": "ho",
+  "sub": "Perils Insured Against",
+  "noShuffle": null,
+  "q": "An HO-3 insured leaves for a two-month winter vacation, turns off the furnace and does not drain the plumbing. A pipe freezes and bursts, damaging the dwelling. Under the 2011 ISO Homeowners forms, the loss is:",
+  "choices": [
+   "Covered, because the HO-3 insures the dwelling against any loss that is not excluded",
+   "Covered, but only for the cost of tearing out and replacing the broken pipe",
+   "Not covered, because she neither maintained heat nor shut off and drained the water",
+   "Not covered, because freezing of plumbing is never covered under an HO-3"
+  ],
+  "answer": 2,
+  "explain": "Loss from freezing of a plumbing or heating system is not covered unless the insured used reasonable care to maintain heat in the building or to shut off the water supply and drain the systems and appliances.",
+  "source": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A.2"
+ },
+ {
+  "id": "ho-add-41",
+  "topic": "ho",
+  "sub": "Perils Insured Against",
+  "noShuffle": null,
+  "q": "During a storm, rain blows in through a window an HO-3 insured left open and ruins a rug. The building itself is not damaged. Under the 2011 ISO Homeowners forms, the loss to the rug (Coverage C) is:",
+  "choices": [
+   "Covered under the windstorm or hail peril, because wind drove the rain into the house",
+   "Covered under the accidental discharge or overflow of water peril",
+   "Not covered, because wind or hail did not first make an opening in the building",
+   "Not covered, because rugs and carpets are excluded property"
+  ],
+  "answer": 2,
+  "explain": "The windstorm or hail peril does not include loss to property inside a building caused by rain, snow, sleet, sand or dust unless the direct force of wind or hail damages the building, causing an opening in a roof or wall through which it enters.",
+  "source": "ISO HO 00 03 05 11, Sec. I Perils Insured Against B.2"
+ },
+ {
+  "id": "ho-add-42",
+  "topic": "ho",
+  "sub": "Perils Insured Against",
+  "noShuffle": true,
+  "q": "The daughter of an HO-3 insured is a full-time student living in a college dormitory. Her laptop is stolen from her dorm room. Under the 2011 ISO Homeowners forms, the theft is covered if she has been at the dormitory at any time during the:",
+  "choices": [
+   "30 days before the loss",
+   "45 days before the loss",
+   "60 days before the loss",
+   "90 days before the loss"
+  ],
+  "answer": 3,
+  "explain": "Theft from another residence owned by, rented to or occupied by an insured is not covered unless the insured is temporarily living there. A student's property is covered at the residence the student occupies to attend school if the student has been there at any time during the 90 days before the loss.",
+  "source": "ISO HO 00 03 05 11, Sec. I Perils Insured Against B.9"
+ },
+ {
+  "id": "ho-add-43",
+  "topic": "ho",
+  "sub": "Perils Insured Against",
+  "noShuffle": null,
+  "q": "Thieves steal copper pipe and lumber from a house being built for an HO-3 insured before it is finished and occupied. Under the 2011 ISO Homeowners forms, the theft is:",
+  "choices": [
+   "Covered under Coverage A as materials and supplies for use in the construction",
+   "Covered, but only up to the limit for theft away from the residence premises",
+   "Not covered, because theft in or to a dwelling under construction is excluded",
+   "Not covered, because theft is never a covered cause of loss under Coverage A"
+  ],
+  "answer": 2,
+  "explain": "Coverages A and B do not insure theft in or to a dwelling under construction, or theft of materials and supplies for use in the construction, until the dwelling is finished and occupied.",
+  "source": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A.2"
+ },
+ {
+  "id": "ho-add-44",
+  "topic": "ho",
+  "sub": "Perils Insured Against",
+  "noShuffle": null,
+  "q": "Squirrels nest in the attic of an HO-3 dwelling and chew through the roof decking. Under the 2011 ISO Homeowners forms, the damage to the dwelling is:",
+  "choices": [
+   "Covered, because Coverage A is written on an open-perils basis with no exclusions",
+   "Covered under the vandalism or malicious mischief peril",
+   "Not covered, because loss caused by birds, rodents or insects is excluded",
+   "Not covered, because the attic is not part of the dwelling"
+  ],
+  "answer": 2,
+  "explain": "Open-perils coverage on the dwelling still has exclusions. Coverages A and B do not insure loss caused by birds, rodents or insects, and squirrels are rodents.",
+  "source": "ISO HO 00 03 05 11, Sec. I Perils Insured Against A.2"
+ },
+ {
+  "id": "ho-add-45",
+  "topic": "ho",
+  "sub": "Exclusions",
+  "noShuffle": null,
+  "q": "A storm knocks down a utility line several miles from an HO-3 insured's home. The home loses power for three days and the food in the freezer spoils; nothing on the residence premises is damaged. Under the 2011 ISO Homeowners forms, the spoiled food is:",
+  "choices": [
+   "Covered as a direct loss by windstorm, because a storm brought down the utility line",
+   "Covered, because power failure is a named peril under Coverage C",
+   "Not covered, because the power failure took place off the residence premises",
+   "Not covered, because food is excluded property under Coverage C"
+  ],
+  "answer": 2,
+  "explain": "Section I excludes loss caused by the failure of power or other utility service if the failure takes place off the residence premises. If the failure leads to a loss from a covered peril on the residence premises, that resulting loss is covered.",
+  "source": "ISO HO 00 03 05 11, Sec. I Excl. A.4"
+ },
+ {
+  "id": "ho-add-46",
+  "topic": "ho",
+  "sub": "Exclusions",
+  "noShuffle": null,
+  "q": "To keep a fire from spreading, the fire department orders an HO-3 insured's detached garage torn down. Under the 2011 ISO Homeowners forms, the loss of the garage is:",
+  "choices": [
+   "Excluded as governmental action, because a public authority ordered it",
+   "Excluded under the ordinance or law exclusion",
+   "Covered, if a loss by fire would be covered under the policy",
+   "Covered only up to 10% of the Coverage B limit"
+  ],
+  "answer": 2,
+  "explain": "The governmental action exclusion does not apply to acts ordered by a governmental or public authority at the time of a fire to prevent its spread, if the loss caused by fire would be covered under the policy.",
+  "source": "ISO HO 00 03 05 11, Sec. I Excl. A.9"
+ },
+ {
+  "id": "ho-add-47",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "A single loss under the 2011 ISO Homeowners forms (HO-3) is subject to two different deductibles. How do they apply?",
+  "choices": [
+   "Both deductibles are subtracted from the loss",
+   "Only the lower deductible applies",
+   "Only the highest deductible applies",
+   "The two deductibles are averaged"
+  ],
+  "answer": 2,
+  "explain": "If two or more deductibles under the policy apply to a loss, only the highest deductible amount applies.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. B"
+ },
+ {
+  "id": "ho-add-48",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "After a burglary, the Duties After Loss condition of the 2011 ISO Homeowners forms (HO-3) requires the insured to give prompt notice to the insurer or its agent and to notify:",
+  "choices": [
+   "The Department of Insurance and Financial Services",
+   "The police",
+   "The mortgagee",
+   "The local fire department"
+  ],
+  "answer": 1,
+  "explain": "In case of loss by theft, the insured must notify the police. For a credit card or electronic fund transfer card loss, the insured must also notify the card company.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. C",
+  "note": "the duty to notify the card company is in the 2011 forms only. The 2022 forms dropped it when the credit card coverage moved to endorsement HO 04 53. Notifying the police is required in both."
+ },
+ {
+  "id": "ho-add-49",
+  "topic": "ho",
+  "sub": "Conditions - Loss Settlement",
+  "noShuffle": null,
+  "q": "A covered fire destroys a six-year-old sofa in the home of an insured with an unendorsed HO-3 under the 2011 ISO Homeowners forms. The sofa is paid for at:",
+  "choices": [
+   "Replacement cost, with no deduction for depreciation, once it is replaced",
+   "Actual cash value, but not more than the cost to repair or replace it",
+   "Its original purchase price, as shown on the receipt",
+   "80% of the cost to replace it with a new sofa of like kind and quality"
+  ],
+  "answer": 1,
+  "explain": "Personal property, awnings, carpeting, household appliances, outdoor equipment and structures that are not buildings are settled at actual cash value at the time of loss, but not more than the amount required to repair or replace. Replacement cost on personal property requires an endorsement.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. D.1"
+ },
+ {
+  "id": "ho-add-50",
+  "topic": "ho",
+  "sub": "Conditions - Loss Settlement",
+  "noShuffle": true,
+  "q": "An HO-3 insured settles a dwelling loss on an actual cash value basis. Under the 2011 ISO Homeowners forms, she can still claim the additional amount due on a replacement cost basis if she notifies the insurer of her intent to repair or replace within:",
+  "choices": [
+   "30 days after the loss",
+   "60 days after the loss",
+   "180 days after the loss",
+   "1 year after the loss"
+  ],
+  "answer": 2,
+  "explain": "The insured may disregard the replacement cost provisions and claim on an actual cash value basis, then make a further claim for the additional replacement cost amount if she notifies the insurer within 180 days after the date of loss of her intent to repair or replace the damaged building.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. D.2.e"
+ },
+ {
+  "id": "ho-add-51",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "One of a pair of antique candlesticks owned by an HO-3 insured is destroyed in a covered fire. Under the Loss to a Pair or Set condition of the 2011 ISO Homeowners forms, the insurer may repair or replace the lost piece to restore the pair, or pay:",
+  "choices": [
+   "The full value of the pair, after taking the remaining candlestick as salvage",
+   "Half the value of the pair, because one of the two pieces was lost",
+   "The difference in the pair's actual cash value before and after the loss",
+   "Nothing, because a pair or set is covered only if it is specifically scheduled"
+  ],
+  "answer": 2,
+  "explain": "For a loss to a pair or set, the insurer may repair or replace any part to restore the pair or set to its value before the loss, or pay the difference between the actual cash value of the property before and after the loss.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. E"
+ },
+ {
+  "id": "ho-add-52",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "Under the Our Option condition of the 2011 ISO Homeowners forms (HO-3), the insurer may repair or replace damaged property with material of like kind and quality if it gives the insured written notice within:",
+  "choices": [
+   "10 days after the loss",
+   "30 days after it receives the signed, sworn proof of loss",
+   "60 days after it receives the signed, sworn proof of loss",
+   "90 days after the loss"
+  ],
+  "answer": 1,
+  "explain": "If the insurer gives written notice within 30 days after it receives the insured's signed, sworn proof of loss, it may repair or replace any part of the damaged property with material or property of like kind and quality.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. I"
+ },
+ {
+  "id": "ho-add-53",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": true,
+  "q": "Under the Mortgage Clause of the 2011 ISO Homeowners forms (HO-3), if the insurer decides to cancel or not renew the policy, the mortgagee named in the policy is notified at least:",
+  "choices": [
+   "10 days before the cancellation or nonrenewal takes effect",
+   "20 days before the cancellation or nonrenewal takes effect",
+   "30 days before the cancellation or nonrenewal takes effect",
+   "60 days before the cancellation or nonrenewal takes effect"
+  ],
+  "answer": 0,
+  "explain": "Under the unendorsed ISO mortgage clause, the mortgagee is notified at least 10 days before the date a cancellation or nonrenewal takes effect.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. L"
+ },
+ {
+  "id": "ho-add-54",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "A moving company damages an HO-3 insured's furniture and argues that the insured's homeowners policy should pay instead of the mover. Which Section I condition of the 2011 ISO Homeowners forms prevents the mover from benefiting from the policy?",
+  "choices": [
+   "Abandonment of Property",
+   "Recovered Property",
+   "No Benefit to Bailee",
+   "Our Option"
+  ],
+  "answer": 2,
+  "explain": "Under No Benefit to Bailee, the insurer will not recognize any assignment or grant any coverage that benefits a person or organization holding, storing or moving property for a fee.",
+  "source": "ISO HO 00 03 05 11, Sec. I Cond. M"
+ },
+ {
+  "id": "ho-add-55",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "The insurer pays an HO-3 insured for a stolen painting, and the police later recover it. Under the Recovered Property condition of the 2011 ISO Homeowners forms:",
+  "choices": [
+   "The painting belongs to the insurer, and the insured has no choice in the matter",
+   "The insured must take the painting back and repay the full loss payment",
+   "The insured chooses: take the painting back, or let the insurer keep it",
+   "The painting must be sold and the proceeds divided equally between them"
+  ],
+  "answer": 2,
+  "explain": "If property the insurer has paid for is recovered, at the insured's option it is returned to or kept by the insured, or it becomes the insurer's property. If the insured keeps it, the loss payment is adjusted.",
+  "source": "ISO HO 00 03 05 11, Sec. I Conditions, Recovered Property"
+ },
+ {
+  "id": "ho-add-56",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "An HO-3 insured is sued for a covered injury and then files for bankruptcy. Under the Section II conditions of the 2011 ISO Homeowners forms, the insurer:",
+  "choices": [
+   "Is released from its obligations to the insured and the claimant",
+   "Is not relieved of its obligations under the policy",
+   "Owes the claimant only half of any judgment",
+   "May cancel the policy back to its inception date"
+  ],
+  "answer": 1,
+  "explain": "Bankruptcy of an insured does not relieve the insurer of its obligations under the policy.",
+  "source": "ISO HO 00 03 05 11, Sec. II Cond. G"
+ },
+ {
+  "id": "ho-add-57",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "Under the Liberalization Clause of the 2011 ISO Homeowners forms, a change that broadens coverage without additional premium applies to an existing policy automatically if the insurer implements it in the insured's state:",
+  "choices": [
+   "At any time within 12 months before the policy period",
+   "Within 60 days before, or during, the policy period",
+   "Only at the policy's next renewal",
+   "Only if the insured asks for it in writing"
+  ],
+  "answer": 1,
+  "explain": "A change that broadens coverage under the same edition of the policy without additional premium applies automatically as of the date the insurer implements it in the state, provided that date falls within 60 days before or during the policy period. The clause does not apply to changes made through a general program revision.",
+  "source": "ISO HO 00 03 05 11, Secs. I and II Cond. A"
+ },
+ {
+  "id": "ho-add-58",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "Under the Subrogation condition of the 2011 ISO Homeowners forms, an insured may waive rights of recovery against another person:",
+  "choices": [
+   "At any time, orally or in writing",
+   "In writing, before a loss",
+   "Only after the insurer has paid the loss",
+   "Never; any waiver voids the coverage"
+  ],
+  "answer": 1,
+  "explain": "An insured may waive in writing, before a loss, all rights of recovery against any person. If the rights are not waived, the insurer may require an assignment of them to the extent of its payment. Subrogation does not apply to Coverage F or to Damage to Property of Others.",
+  "source": "ISO HO 00 03 05 11, Secs. I and II Cond. F"
+ },
+ {
+  "id": "ho-add-59",
+  "topic": "ho",
+  "sub": "Conditions",
+  "noShuffle": null,
+  "q": "The named insured under a homeowners policy (2011 ISO forms) dies during the policy period. For the premises and property that were covered at the time of death, the policy:",
+  "choices": [
+   "Ends at once, and any unearned premium is refunded to the estate",
+   "Continues only for a surviving spouse who lives in the home",
+   "Insures the legal representative of the deceased",
+   "Converts automatically to a dwelling policy"
+  ],
+  "answer": 2,
+  "explain": "If a person named in the Declarations dies, the insurer insures the legal representative of the deceased, but only for the premises and property of the deceased that were covered under the policy at the time of death.",
+  "source": "ISO HO 00 03 05 11, Secs. I and II Cond. G"
+ },
+ {
+  "id": "ho-add-60",
+  "topic": "ho",
+  "sub": "Selected Endorsements - Limited Fungi, Wet or Dry Rot, or Bacteria",
+  "noShuffle": null,
+  "q": "Under the 2002 ISO Limited Fungi, Wet or Dry Rot, or Bacteria Coverage endorsement for the HO-3, the Coverage E amount shown in the schedule is:",
+  "choices": [
+   "Paid in addition to the Coverage E limit for each occurrence during the policy period",
+   "An aggregate sublimit that is part of, not in addition to, the Coverage E limit",
+   "A separate limit that applies to each person injured",
+   "A deductible the insured pays before Coverage E applies"
+  ],
+  "answer": 1,
+  "explain": "The schedule shows a Section I amount for the property coverage and a Coverage E aggregate sublimit for liability. The Coverage E amount is within the Coverage E limit; it does not add to it.",
+  "source": "ISO HO 04 27 04 02, Schedule; PF&M Analysis: ISO Homeowners Optional Coverage Endorsements (July 2014)"
+ },
+ {
+  "id": "ho-add-61",
+  "topic": "ho",
+  "sub": "Selected Endorsements - Earthquake",
+  "noShuffle": null,
+  "q": "Under the 2000 ISO Earthquake endorsement for homeowners policies, the earthquake deductible is a percentage of:",
+  "choices": [
+   "The amount of the earthquake loss, before any other deductible",
+   "The Coverage A or Coverage C limit, whichever is greater",
+   "The total of the Coverage A, B, C and D limits",
+   "The market value of the dwelling at the time of the loss"
+  ],
+  "answer": 1,
+  "explain": "The earthquake deductible is the percentage shown in the schedule multiplied by the Coverage A or Coverage C limit, whichever is greater. It replaces the regular Section I deductible for earthquake losses.",
+  "source": "ISO HO 04 54 10 00"
+ },
+ {
+  "id": "ho-add-62",
+  "topic": "ho",
+  "sub": "Selected Endorsements - Scheduled Personal Property",
+  "noShuffle": null,
+  "q": "Under the 2011 ISO Homeowners program, the Scheduled Personal Property endorsement insures the scheduled articles:",
+  "choices": [
+   "For the Coverage C named perils, subject to the policy deductible",
+   "On an open-perils basis, with no deductible",
+   "For theft only, subject to a $250 deductible",
+   "For fire and theft only, while on the residence premises"
+  ],
+  "answer": 1,
+  "explain": "The endorsement covers the scheduled classes of property, such as jewelry, furs, cameras, musical instruments, silverware, golfer's equipment, fine arts, stamps and coins, against risks of direct physical loss, worldwide, with no deductible.",
+  "source": "PF&M Analysis: HO 04 61 Scheduled Personal Property Endorsement (July 2017)"
+ },
+ {
+  "id": "ho-add-63",
+  "topic": "ho",
+  "sub": "Selected Endorsements - Personal Property Replacement Cost",
+  "noShuffle": true,
+  "q": "Under the 2011 ISO Personal Property Replacement Cost endorsement, the insurer pays no more than actual cash value until the property is actually repaired or replaced when the cost to repair or replace is more than:",
+  "choices": [
+   "$250",
+   "$500",
+   "$1,000",
+   "$2,500"
+  ],
+  "answer": 1,
+  "explain": "If the cost to repair or replace is more than $500, the insurer pays no more than the actual cash value until the repair or replacement is complete. The insured may claim actual cash value first and then claim the additional amount by giving notice within 180 days after the loss.",
+  "source": "ISO HO 04 90 05 11",
+  "note": "the 2022 edition of this endorsement (HO 04 90 03 22) uses $1,000."
+ },
+ {
+  "id": "ho-add-64",
+  "topic": "ho",
+  "sub": "Selected Endorsements - Home Day Care",
+  "noShuffle": null,
+  "q": "A homeowner cares for a neighbor's child twice a week, and in return the neighbor cares for hers. No money changes hands. Under the 2011 ISO Homeowners forms, this arrangement is:",
+  "choices": [
+   "A business, so any liability arising from it is excluded under Section II",
+   "Not a business, because it is a mutual exchange of home day care services",
+   "A business, unless the Home Day Care Coverage endorsement is attached to the policy",
+   "Not a business only if each child is a relative of the insured"
+  ],
+  "answer": 1,
+  "explain": "The definition of \"business\" excepts home day care services for which no compensation is received other than the mutual exchange of such services, and home day care provided to a relative of an insured. Paid day care for others is a business and needs the Home Day Care endorsement.",
+  "source": "ISO HO 00 03 05 11, Definitions B.3; PF&M Analysis: ISO Homeowners Optional Coverage Endorsements (July 2014), HO 04 97",
+  "note": "in the 2022 program the endorsement is titled Limited Home Day Care Coverage. The mutual-exchange exception is in both editions."
+ },
+ {
+  "id": "ho-add-65",
+  "topic": "ho",
+  "sub": "Selected Endorsements - Business Pursuits",
+  "noShuffle": null,
+  "q": "A schoolteacher adds the Business Pursuits endorsement to her homeowners policy. The endorsement can also be written to cover her liability for:",
+  "choices": [
+   "Corporal punishment of pupils",
+   "Professional errors in grading and testing",
+   "Damage to school property in her care",
+   "Injury to fellow teachers on the job"
+  ],
+  "answer": 0,
+  "explain": "The Business Pursuits endorsement covers an insured's liability from business activities when the insured is not the owner or a partner of the business, such as a teacher, clerical worker or salesperson. For teachers, coverage for corporal punishment of pupils can be added.",
+  "source": "PF&M Analysis: ISO Homeowners Optional Coverage Endorsements (July 2014), HO 24 71",
+  "note": "in the 2022 program this endorsement (HO 24 71) is titled Designated Business Pursuits Liability Coverage."
+ },
+ {
+  "id": "ho-add-66",
+  "topic": "ho",
+  "sub": "Selected Endorsements - Personal Injury",
+  "noShuffle": null,
+  "q": "The Personal Injury endorsement to a homeowners policy adds coverage for all of the following EXCEPT:",
+  "choices": [
+   "Libel or slander",
+   "False arrest or malicious prosecution",
+   "Invasion of privacy",
+   "Bodily injury to a guest"
+  ],
+  "answer": 3,
+  "explain": "The endorsement adds coverage for offenses such as false arrest, detention or imprisonment, malicious prosecution, libel, slander, defamation, invasion of privacy and wrongful eviction or entry. Bodily injury to a guest is already the subject of Coverage E and Coverage F; it is not a personal injury offense.",
+  "source": "PF&M Analysis: ISO Homeowners Optional Coverage Endorsements (July 2014), HO 24 82"
+ },
+ {
+  "id": "ho-22-01",
+  "topic": "ho",
+  "sub": "Definitions",
+  "q": "Under the 2022 ISO Homeowners forms, a paid activity other than the insured's trade, profession or occupation is not a \"business\" if no insured received more than what total compensation for it in the 12 months before the policy period?",
+  "choices": [
+   "$1,000",
+   "$2,000",
+   "$2,500",
+   "$5,000"
+  ],
+  "answer": 3,
+  "explain": "The 2022 \"business\" definition excepts activities for which no insured receives more than $5,000 in total compensation in the 12 months before the policy period. The 2011 forms used $2,000, which is why $2,000 is the tempting wrong answer here. Volunteer work, home day care done as a mutual exchange of services, and home day care for a relative are excepted in both editions.",
+  "source": "ISO HO 00 03 03 22, Definitions B.3 (form text); ISO HO 00 03 05 11, Definitions B.3",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-02",
+  "topic": "ho",
+  "sub": "Section I - Coverage C Special Limits",
+  "q": "A burglar steals $6,000 of jewelry from the home of an insured whose HO-3 is written on the 2022 ISO Homeowners forms. Ignoring the deductible, the policy will pay:",
+  "choices": [
+   "$1,500",
+   "$2,000",
+   "$3,000",
+   "$6,000"
+  ],
+  "answer": 1,
+  "explain": "The 2022 forms put a $2,000 special limit on loss by theft of jewelry, watches, furs, and precious and semiprecious stones. The 2011 forms used $1,500. In both editions the limit applies only to theft: jewelry destroyed by a covered fire is paid up to the Coverage C limit.",
+  "source": "ISO HO 00 03 03 22, Sec. I Coverage C.3.e (form text)",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-03",
+  "topic": "ho",
+  "sub": "Section I - Coverage C Special Limits",
+  "q": "A covered fire destroys $900 in cash kept in the home of an HO-3 insured. Under the 2022 ISO Homeowners forms, and ignoring the deductible, the policy will pay:",
+  "choices": [
+   "$200",
+   "$300",
+   "$500",
+   "$900"
+  ],
+  "answer": 1,
+  "explain": "The 2022 forms limit money, bank notes, coins and similar property to $300 per loss, whatever covered peril causes the loss. The 2011 forms used $200.",
+  "source": "ISO HO 00 03 03 22, Sec. I Coverage C.3.a (form text)",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-04",
+  "topic": "ho",
+  "sub": "Section I - Coverage C Special Limits",
+  "q": "Which special limit of liability in the 2022 ISO Homeowners policy (HO-3) is stated correctly?",
+  "choices": [
+   "Theft of jewelry, watches and furs is limited to $1,500",
+   "Watercraft, including trailers and outboard motors, is limited to $1,500",
+   "Theft of firearms is limited to $3,000",
+   "Business property on the residence premises is limited to $2,500"
+  ],
+  "answer": 2,
+  "explain": "The 2022 special limits are: money $300; securities $2,000; watercraft $2,000; trailers $2,000; theft of jewelry $2,000; theft of firearms $3,000; theft of silverware $3,000; business property $3,000 on the residence premises and $1,500 away from it. The three wrong choices state the 2011 amounts.",
+  "source": "ISO HO 00 03 03 22, Sec. I Coverage C.3.a-i (form text)"
+ },
+ {
+  "id": "ho-22-05",
+  "topic": "ho",
+  "sub": "Section I - Coverage C Special Limits",
+  "q": "The 2022 ISO Homeowners forms added a Coverage C special limit of liability that the 2011 forms did not have. It applies to:",
+  "choices": [
+   "Bicycles and their accessories",
+   "Musical instruments",
+   "Cameras and photo equipment",
+   "Model or hobby aircraft"
+  ],
+  "answer": 3,
+  "explain": "The 2022 forms add a $2,000 special limit on model or hobby aircraft (those not used or designed to carry people or cargo). The 2011 forms covered them as personal property with no special limit. Neither edition has a special limit for bicycles, musical instruments or cameras.",
+  "source": "ISO HO 00 03 03 22, Sec. I Coverage C.3.l (form text); ISO HO 00 03 05 11, Sec. I Coverage C.3 and C.4"
+ },
+ {
+  "id": "ho-22-06",
+  "topic": "ho",
+  "sub": "Section I - Coverage C",
+  "q": "A tenant insured under an HO-4 written on the 2022 ISO Homeowners forms has a $12,000 Coverage C limit. A covered fire destroys personal property he keeps in a rented self-storage unit. The most the policy will pay for that property is:",
+  "choices": [
+   "$1,000",
+   "$1,200",
+   "$1,500",
+   "$12,000"
+  ],
+  "answer": 2,
+  "explain": "Under the 2022 forms, property in a self-storage facility is limited to 10% of Coverage C or $1,500, whichever is greater. 10% of $12,000 is $1,200, so the $1,500 floor applies. Under the 2011 forms the floor was $1,000, and the answer would have been $1,200.",
+  "source": "ISO HO 00 04 03 22, Sec. I Coverage C.2 (form text); ISO HO 00 03 03 22, Sec. I Coverage C.2 (form text)",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-07",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "q": "A windstorm blows two of an HO-3 insured's trees onto her detached garage, damaging it. Hauling the trees away costs $1,800 for each tree. Under the 2022 ISO Homeowners forms, the tree removal provision pays:",
+  "choices": [
+   "$1,000",
+   "$1,500",
+   "$3,000",
+   "$3,600"
+  ],
+  "answer": 2,
+  "explain": "The 2022 forms pay up to $3,000 per loss to remove the insured's trees felled by windstorm or hail, or by weight of ice, snow or sleet, when a tree damages a covered structure or blocks a driveway or a ramp for a handicapped person. No more than $1,500 is paid for any one tree: $1,500 + $1,500 = $3,000. The 2011 forms paid $1,000 per loss and $500 per tree.",
+  "source": "ISO HO 00 03 03 22, Sec. I Add'l Cov. E.1.b (form text)",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-08",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "q": "Vandals destroy a mature ornamental tree worth $4,000 in the yard of an HO-3 insured whose Coverage A limit is $300,000. Under the 2022 ISO Homeowners forms, the Trees, Shrubs and Other Plants additional coverage pays up to:",
+  "choices": [
+   "$500",
+   "$1,500",
+   "$4,000",
+   "$15,000"
+  ],
+  "answer": 1,
+  "explain": "The 2022 forms cover trees, shrubs, plants and lawns up to 5% of the Coverage A limit ($15,000 here), but no more than $1,500 for any one tree, shrub or plant. The 2011 forms capped each at $500. Vandalism is one of the covered perils; windstorm is not.",
+  "source": "ISO HO 00 03 03 22, Sec. I Add'l Cov. E.3 (form text)",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-09",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "q": "Under the 2022 ISO Homeowners forms, coverage for unauthorized use of an insured's credit card is:",
+  "choices": [
+   "A $500 additional coverage with no deductible",
+   "Not part of the form, but available by endorsement",
+   "A $1,000 additional coverage after the deductible",
+   "Included in the special limit on money"
+  ],
+  "answer": 1,
+  "explain": "The 2011 forms included a $500 additional coverage for credit card, electronic fund transfer card, forgery and counterfeit money losses. The 2022 forms removed it. The coverage is now added by endorsement HO 04 53, which pays up to the limit shown in its schedule.",
+  "source": "ISO HO 00 03 03 22, Sec. I Additional Coverages E.1-11 (form text); ISO HO 04 53 03 22 (form text)"
+ },
+ {
+  "id": "ho-22-10",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "q": "A homeowners association assesses each member after a covered windstorm damages the association's clubhouse. Under the 2022 ISO Homeowners forms (HO-3), the Section I Loss Assessment additional coverage pays up to:",
+  "choices": [
+   "$500",
+   "$1,000",
+   "$2,000",
+   "$5,000"
+  ],
+  "answer": 2,
+  "explain": "The 2022 forms pay up to $2,000 for the insured's share of a loss assessment charged by a corporation or association of property owners. The Section II loss assessment limit is also $2,000. The 2011 forms paid $1,000 under each.",
+  "source": "ISO HO 00 03 03 22, Sec. I Add'l Cov. E.6 and Sec. II Add'l Cov. D (form text)",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-11",
+  "topic": "ho",
+  "sub": "Section I - Additional Coverages",
+  "q": "Under the 2022 ISO Homeowners forms (HO-3), the Landlord's Furnishings additional coverage pays, for each rented apartment on the residence premises, up to:",
+  "choices": [
+   "$1,000",
+   "$2,000",
+   "$2,500",
+   "$3,000"
+  ],
+  "answer": 3,
+  "explain": "The 2022 forms cover the insured's appliances, carpeting and other household furnishings in each apartment on the residence premises that is regularly rented or held for rental, up to $3,000, for the Coverage C perils other than theft. The 2011 forms paid $2,500.",
+  "source": "ISO HO 00 03 03 22, Sec. I Add'l Cov. E.9 (form text)",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-12",
+  "topic": "ho",
+  "sub": "Conditions - Loss Settlement",
+  "q": "Under the 2022 ISO Homeowners forms (HO-3), the insurer will settle a building loss at replacement cost before repair or replacement is complete if the cost to repair or replace is:",
+  "choices": [
+   "Less than 5% of the insurance on the building and less than $2,500",
+   "Less than 10% of the insurance on the building, with no dollar test",
+   "Less than $5,000, with no percentage test",
+   "Less than 5% of the insurance on the building and less than $5,000"
+  ],
+  "answer": 3,
+  "explain": "Both tests must be met: the cost must be less than 5% of the amount of insurance on the building and less than $5,000. Otherwise the insurer pays no more than actual cash value until repair or replacement is complete. The 2011 forms used $2,500 for the dollar test.",
+  "source": "ISO HO 00 03 03 22, Sec. I Cond. D.2.d (form text)"
+ },
+ {
+  "id": "ho-22-13",
+  "topic": "ho",
+  "sub": "Section II - Additional Coverages",
+  "q": "Under the 2022 ISO Homeowners forms (HO-3), the Damage to Property of Others additional coverage pays, at replacement cost, up to:",
+  "choices": [
+   "$500 per occurrence",
+   "$1,000 per occurrence",
+   "$2,500 per occurrence",
+   "$5,000 per occurrence"
+  ],
+  "answer": 3,
+  "explain": "The 2022 forms pay, at replacement cost, up to $5,000 per occurrence for property damage to property of others caused by an insured. The 2011 forms paid $1,000. In both editions there is no coverage for damage caused intentionally by an insured who is 13 or older, or for property owned by an insured.",
+  "source": "ISO HO 00 03 03 22, Sec. II Add'l Cov. C (form text)",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-14",
+  "topic": "ho",
+  "sub": "Selected Endorsements - Earthquake",
+  "q": "Under the 2022 ISO Earthquake endorsement for homeowners policies, the deductible is a percentage of the Coverage A or Coverage C limit, whichever is greater, but not less than:",
+  "choices": [
+   "$250",
+   "$500",
+   "$1,000",
+   "$2,500"
+  ],
+  "answer": 1,
+  "explain": "The deductible is found by multiplying the greater of the Coverage A or Coverage C limit by the percentage shown in the schedule, and it cannot be less than $500. The 2000 edition's minimum was $250.",
+  "source": "ISO HO 04 54 03 22 (form text); ISO HO 04 54 10 00 (form text)",
+  "noShuffle": true
+ },
+ {
+  "id": "ho-22-15",
+  "topic": "ho",
+  "sub": "Selected Endorsements - Business Pursuits",
+  "q": "In the 2022 ISO Homeowners program, a teacher who wants Section II coverage for liability arising out of her teaching job would add:",
+  "choices": [
+   "Designated Business Pursuits Liability Coverage",
+   "Permitted Incidental Occupancies - Residence Premises",
+   "Home Business Insurance Coverage",
+   "Personal Injury Coverage"
+  ],
+  "answer": 0,
+  "explain": "HO 24 71 is titled Designated Business Pursuits Liability Coverage in the 2022 program; earlier programs called it Business Pursuits. It applies Coverages E and F to the business pursuits of the insured named in it, but not to a business the insured owns or financially controls, and it can be written to cover corporal punishment by a teacher.",
+  "source": "ISO HO 24 71 03 22 (form text)"
  }
 ]
