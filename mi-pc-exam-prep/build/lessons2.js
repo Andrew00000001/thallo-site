@@ -136,15 +136,19 @@ function fetchURL(u, ms, body, onStart){   // resolves to the file's bytes, or n
 }
 function fetchBytes(L){
   const net = typeof fetch==='function' && location.protocol!=='file:';
-  // full-quality audio published next to the page; the compact copy inside the page is the fallback (file:// or offline)
-  // a slow connection still gets it: 6 s to answer, then up to 30 s to download (the lesson waits on "Loading audio…" meanwhile)
-  L.hqStart=0;
+  // Full-quality narration is published next to the page and tried first. A compact copy of every lesson is built into
+  // the page itself and is the fallback, so a page opened on its own (a download, file://, offline) still has sound:
+  // the owner asked for one page with the sound inside it. A slow connection gets 6 s to answer and up to 30 s to
+  // download the full-quality file (the lesson waits on "Loading audio…" meanwhile). A page built without the blocks
+  // falls back to a compact file next to it instead.
+  L.hqStart=0; L.lqStart=0;
   const hq = L.audioHQ && net ? fetchURL(L.audioHQ, 6000, 30000, ()=>{ L.hqStart=Date.now(); }) : Promise.resolve(null);
   return hq.then(b=>{ L.hqStart=0;
     if(b && b.byteLength){ L.hqOk=true; if(LP.L===L) LP.bytes=b; return b; }
     if(embeddedEl(L)) return embeddedBytes(L);
     if(!L.audio || !net) return null;
-    return fetchURL(L.audio, 15000).then(b2=>{ if(b2 && LP.L===L) LP.bytes=b2; return b2; });
+    L.lqStart=Date.now();
+    return fetchURL(L.audio, 8000, 25000).then(b2=>{ L.lqStart=0; if(b2 && LP.L===L) LP.bytes=b2; return b2; });
   });
 }
 function startSources(L){
@@ -155,6 +159,7 @@ function startSources(L){
   let settled=false;
   const timer=setTimeout(function back(){ if(settled || LP.L!==L || LP.audio) return;
     if(L.hqStart && Date.now()-L.hqStart < 31000){ setTimeout(back, 1000); return; }   // the full-quality file is still downloading
+    if(L.lqStart && Date.now()-L.lqStart < 34000){ setTimeout(back, 1000); return; }   // or the compact copy is on its way
     settled=true; LP.srcStage=1; useSource(directSource(L), L); }, 8000);
   LP.bytesP.then(b=>{
     if(settled || LP.L!==L) return; settled=true; clearTimeout(timer);
@@ -354,7 +359,7 @@ function goVirtual(tIn, wasIn, silentBuild){
   if(LP.audio){ try{ LP.audio.pause(); LP.audio.removeAttribute('src'); }catch(e){} }
   LP.virtual=true; LP.vbase=t||0; LP.vt0=performance.now(); LP.cc=true;
   const n=$('#lp-note');
-  if(n && !silentBuild){ n.hidden=false; n.textContent = (LP.L && embeddedEl(LP.L))
+  if(n && !silentBuild){ n.hidden=false; n.textContent = (LP.L && (LP.bytes || embeddedEl(LP.L)))
     ? 'This browser could not play the lesson audio, so captions are on. Chrome, Edge and Firefox play it.'
     : 'Audio could not load here, so captions are on and the lesson plays silently.'; }
   if(LP.playing){ LP.vt0=performance.now(); lpLoop(); }
@@ -767,6 +772,7 @@ function openLesson(id, opts){
       <span class="mono small muted">${esc(SEC[L.sec]?SEC[L.sec].name:'')}</span>
     </div>
     <h2 style="margin:0">${esc(L.title)}</h2>
+    ${L.note?`<div class="watch"><b>Edition note:</b> ${esc(L.note)}</div>`:''}
     <div class="stage wb" id="lp-stage">
       <div class="st-scene" id="lp-scene"></div>
       <div class="st-hud mono" id="lp-hud" title="Stars earned in this lesson">★ <b>0</b></div>
@@ -831,8 +837,8 @@ function lpScene(d){
   LP.awaiting=-1; lpSeek(T[to].t0);
 }
 function lessonActs(act, b){
-  if(act==='watch-list'){ lpClose(); renderWatch(); window.scrollTo({top:0}); return true; }
-  if(act==='lesson'){ if(VIEW!=='watch') go('watch',{id:b.dataset.id}); else { openLesson(b.dataset.id); window.scrollTo({top:0}); } return true; }
+  if(act==='watch-list'){ lpClose(); renderWatch(); scrollToContent(); return true; }
+  if(act==='lesson'){ if(VIEW!=='watch') go('watch',{id:b.dataset.id}); else { openLesson(b.dataset.id); scrollToContent(); } return true; }
   if(act==='watch-next'){ const n=nextLesson(); if(n) go('watch',{id:n.id}); else go('watch'); return true; }
   if(act==='lp-start'){ hideOverlay(); lpPlay(); return true; }
   if(act==='lp-restart'){ lpSeek(0); lpPlay(); return true; }

@@ -942,7 +942,8 @@
   ],
   "answer": 2,
   "explain": "The Truckers form provides liability and physical damage (including trailer interchange) for those transporting property for hire. Dealers use the Auto Dealers or Garage form.",
-  "source": "FC&S, Truckers Coverage Form (CA 00 12)"
+  "source": "FC&S, Truckers Coverage Form (CA 00 12)",
+  "note": "ISO withdrew the Truckers Coverage Form in its 2010 commercial auto revision and replaced it with the Motor Carrier Coverage Form (CA 00 20). PSI's outline still lists Truckers as a topic, so know what the form was for."
  },
  {
   "id": "auto-065",
@@ -1152,7 +1153,8 @@
   ],
   "answer": 0,
   "explain": "The garage form was issued to franchised and nonfranchised auto dealers, whose general liability and auto exposures overlap, so one form covered both. A for-hire trucker was written on the Truckers or Motor Carrier form, and a furniture store or plumbing contractor is not a garage business. A 2003 North Carolina Reinsurance Facility circular reports that ISO removed auto service operations, such as repair shops and service stations, from garage program eligibility, so a dealer is used here.",
-  "source": "FC&S, 'Standard Commercial Auto Program' (PropertyCasualty360, Mar. 18, 2010), eligibility; Rough Notes PF&M, 'ISO Garage Coverage Form Archive' (Oct. 2022), CA 00 05 Garage Coverage Form Analysis (03/10 edition), Introduction; North Carolina Reinsurance Facility Circular RF-03-1 (Jan. 10, 2003), 'Removal of Eligibility of Auto Service Classifications from the Garage Policy Program'"
+  "source": "FC&S, 'Standard Commercial Auto Program' (PropertyCasualty360, Mar. 18, 2010), eligibility; Rough Notes PF&M, 'ISO Garage Coverage Form Archive' (Oct. 2022), CA 00 05 Garage Coverage Form Analysis (03/10 edition), Introduction; North Carolina Reinsurance Facility Circular RF-03-1 (Jan. 10, 2003), 'Removal of Eligibility of Auto Service Classifications from the Garage Policy Program'",
+  "note": "references disagree on repair shops, service stations and parking garages. Older ones, and FC&S's 2010 overview, list them as garage-form risks alongside dealers. If a question offers one of those and no dealer, treat it as the garage business."
  },
  {
   "id": "auto-gap-13",

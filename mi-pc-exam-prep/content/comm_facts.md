@@ -6,7 +6,7 @@ Editions relied on (form text read directly unless noted): IL 00 17 11 98; CG 00
 - A commercial package policy (CPP) provides both property and liability coverage for a business in one policy (also called commercial multiple peril). [IRMI glossary "commercial package policy"]
 - Building blocks: Common Policy Declarations, Common Policy Conditions (IL 00 17), interline endorsements, and coverage parts; one coverage part = monoline policy, two or more = package. [IL 00 17 11 98 preamble; IRMI glossary "commercial package policy"]
 - IL 00 17 applies to all coverage parts: "All Coverage Parts included in this policy are subject to the following conditions." [ISO IL 00 17 11 98]
-- Interline ("IL") endorsements modify more than one coverage part — e.g., IL 04 15 Protective Safeguards modifies both the Commercial Property and Farm coverage parts. [ISO IL 04 15 04 98]
+- Interline ("IL") endorsements modify more than one coverage part. The older Protective Safeguards form, IL 04 15, modified both the Commercial Property and Farm coverage parts; ISO replaced it in 2012 with CP 04 11, which applies to commercial property only. [ISO IL 04 15 04 98; IA Magazine, "ISO Commercial Property Changes" (Feb. 14, 2013)]
 - Some coverage parts use a separate conditions form (CP 00 90 for commercial property, CM 00 01 for inland marine); others, like CGL (CG 00 01 Sec. IV), put their conditions in the coverage form. [ISO CP 00 90 07 88; CM 00 01 09 04]
 
 ### Common Policy Conditions (IL 00 17 11 98) — six conditions
@@ -457,6 +457,7 @@ Edition note. Inland marine and farm form wording below comes from ISO form text
 - "Personal injury" offenses: false arrest, detention or imprisonment; malicious prosecution; wrongful eviction or entry; slander, libel or disparagement of goods; and violation of privacy. Exclusions include knowing violation of rights, material published knowing it is false, criminal acts, non-farming business pursuits, and civic or public activities for pay. [ISO FL 00 20 10 06, Cov. I 2, Sec. IV (FC&S 2013)]
 
 ## Flags
+- **Newer editions, checked November 2026:** ISO has issued 12 25 editions of the CGL forms (CG 00 01 and CG 00 02) and 06 22 editions of the crime forms. Every CGL and crime fact tested here reads the same in them. In the CGL only the definition numbers moved. In the crime forms some names moved: Employee Theft sits under a "Fidelity" heading, a Fraudulent Impersonation insuring agreement was added, and "fraudulent instruction" became "transfer instruction". [ISO CG 00 01 12 25 and CG 00 02 12 25 (form text); ISO CR 00 23 06 22 (specimen)]
 - CG 00 02 04 13 form text not obtained; claims-made/ERP/claim-information facts come from FC&S (2014) and Austin & Stanovich (2012) analyses (consistent with each other).
 - Crime: the 60-day extended period to discover (1 year for employee benefit plans) was confirmed in ISO discovery-form text (CR 00 22 05 06, E.1.j); the CR 00 20 11 15 coverage-form text itself was not obtained. Editions differ: the PSI outline lists Computer Fraud and Funds Transfer Fraud separately (2006 editions); the 11 15 edition combines them; a 06 22 edition reportedly has 8 insuring agreements (adds "Fidelity" and "Fraudulent Impersonation").
 - Vacancy is a Loss Condition in CP 00 10, not in CP 00 90 (the CP 00 90 07 88 form has no vacancy clause).

@@ -635,6 +635,7 @@ Outline weight: 15% (22 items). Statute text read from legislature.mi.gov ("MCL 
 - The current ISO edition is CA 99 17 10 13. Only the 2001 text was read. [Wolters Kluwer Commercial Automobile forms list (Oct. 13, 2026)]
 
 ## Flags
+- **Coming edition:** ISO has filed a 2027 commercial auto forms revision (edition 09 27, proposed effective Sept. 1, 2027). Its text is not public yet. The Business Auto form in use today is still CA 00 01 11 20, and every Business Auto figure here was checked against it in November 2026. [FC&S Circular Tracker (Oct. 26, 2026); ISO CA 00 01 11 20 (form text)]
 - Values that change over time, with effective dates:
   - **Work loss and survivor's loss maximum** (per 30-day period, by accident date): $7,455 for Oct. 1, 2026 – Sept. 30, 2027. Prior years: $7,201 (2025–26), $7,014 (2024–25), $6,811 (2023–24). [DIFS Bulletin 2026-20-INS]
   - **MCCA retention:** $675,000 for policies issued or renewed July 1, 2025 – June 30, 2027. The next change is due July 1, 2027. [michigancatastrophic.com] The dollar figure is not printed in the statute: MCL 500.3104(2)(o) sets $580,000 for July 1, 2019 – June 30, 2021 and requires an increase every July 1 of odd-numbered years by the lesser of 6% or CPI, rounded to the nearest $5,000. The MCCA calculates and publishes each new figure. $675,000 is consistent with the July 1, 2023 – June 30, 2025 retention of $635,000 × 1.06, rounded to the nearest $5,000.

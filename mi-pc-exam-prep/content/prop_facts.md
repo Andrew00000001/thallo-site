@@ -488,7 +488,51 @@ Editions used:
   - HO 04 54 10 00;
   - PF&M (Rough Notes) analyses of HO 04 61, HO 04 97, HO 24 71, HO 24 75, HO 24 82 and HO 07 01.
 
-- **Edition note:** all homeowners dollar amounts in this guide and in the practice questions are from the **05 11 (2011 program)** forms, and each question names its edition. ISO's 2022 program (HO 00 03 03 22) changed several of these amounts, so a Michigan insurer's current policy may differ. [ISO HO 00 03 05 11; ISO HO 00 03 03 22]
+- **Edition note:** homeowners dollar amounts in this guide are from the **05 11 (2011 program)** forms unless marked, and each practice question names its edition. ISO's **2022 program (03 22 forms)** raised many of them. Every figure the 2022 forms changed is marked like this: {{2022: new amount}}. The table below puts the two side by side. [ISO HO 00 03 05 11; ISO HO 00 03 03 22, HO 00 04 03 22 and HO 00 06 03 22 (form text)]
+
+## 2011 and 2022 amounts side by side
+
+
+PSI does not say which edition its questions follow. Most prep material still teaches the 2011 amounts, and the 2022 forms are the current ISO edition. Learn both. When a question offers only one of the two figures, knowing both lets you answer it either way. If a question names no edition and offers both figures, nothing published tells you which one its writer used. As a tiebreaker only, the 2011 figure is the one most prep material still teaches.
+
+
+{.ed-tbl}
+| HO-3 provision | 2011 form | 2022 form |
+|---|---|---|
+| "Business": pay in the prior 12 months that keeps a side activity from counting | $2,000 | $5,000 |
+| Property kept at another residence, or in self-storage | 10% of C or $1,000 | 10% of C or $1,500 |
+| Money, bank notes, coins | $200 | $300 |
+| Securities, deeds, passports, tickets | $1,500 | $2,000 |
+| Watercraft, with trailers and motors | $1,500 | $2,000 |
+| Trailers not used with watercraft | $1,500 | $2,000 |
+| Theft of jewelry, watches, furs | $1,500 | $2,000 |
+| Theft of firearms | $2,500 | $3,000 |
+| Theft of silverware, goldware, pewterware | $2,500 | $3,000 |
+| Business property on the premises | $2,500 | $3,000 |
+| Business property away from the premises | $1,500 | $1,500 (same) |
+| Portable electronics in a vehicle | $1,500 | $2,000 |
+| Antennas, tapes, disks and other media in a vehicle | $250 | $300 |
+| Model or hobby aircraft | No special limit | $2,000 |
+| Tree removal: per loss / per tree | $1,000 / $500 | $3,000 / $1,500 |
+| Trees, shrubs and plants: per item | $500 | $1,500 |
+| Fire department service charge | $500 | $500 (same) |
+| Credit card, EFT card, forgery, counterfeit money | $500, built in | Removed; endorsement HO 04 53 |
+| Loss assessment, Section I and Section II | $1,000 | $2,000 |
+| Landlord's furnishings, per apartment | $2,500 | $3,000 |
+| Grave markers | $5,000 | $5,000 (same) |
+| Replacement cost before repairs: loss under 5% of the insurance and under | $2,500 | $5,000 |
+| Damage to property of others | $1,000 | $5,000 |
+| Loss of earnings while helping the defense | $250 a day | $250 a day (same) |
+| HO 04 90: only ACV until replaced when the loss is over | $500 | $1,000 |
+| HO 04 54 Earthquake: minimum deductible | $250 (2000 edition) | $500 |
+
+- **2022 titles:** HO 24 71 is Designated Business Pursuits Liability Coverage, HO 24 75 is Supplemental Watercraft Liability Coverage, and HO 04 97 is Limited Home Day Care Coverage. Each does the job described under Selected Endorsements below.
+- **Also new in 2022:** the "business" definition names home-sharing host activities and the leasing of mineral rights; the trees, shrubs and plants coverage leaves out cannabis; and the duty to notify the card company after a credit card loss went out with the credit card coverage.
+- The 2022 HO-4 and HO-6 use the same special limits, the same $1,500 floor, the same tree removal amounts and the same Section II amounts as the 2022 HO-3. Their trees, shrubs and plants coverage is still 10% of C, with $1,500 per item.
+- The 2022 HO-2, HO-5 and HO-8 texts were not read.
+```html
+<cite>[ISO HO 00 03 03 22, HO 00 04 03 22, HO 00 06 03 22, HO 04 53 03 22, HO 04 54 03 22 and HO 24 71 03 22 (form text); HO 04 90 03 22, HO 24 75 03 22 and HO 04 97 03 22 as described in FC&amp;S, "Standard Homeowners Endorsements Discussed" (2024)]</cite>
+```
 
 ## Coverage Forms
 - **Eligibility:** [The Institutes, AIC 43 excerpt (ISO 2011 HO program)]
@@ -527,7 +571,7 @@ Editions used:
   - Coverage A covers **alterations, appliances, fixtures and improvements** in the unit, real property pertaining only to the unit, property that is the owner's responsibility under the association agreement, and structures owned solely by the insured at the location.
   - Coverages A and C are covered for **named perils**.
   - Coverage A losses are paid at actual cost to repair if repaired within a reasonable time; otherwise ACV.
-- In HO-6, trees are covered up to **10% of C**, ordinance or law up to **10% of A**, and loss assessment up to **$1,000**. [HO 00 06 05 11, Add'l Cov. 3, 7, 10]
+- In HO-6, trees are covered up to **10% of C**, ordinance or law up to **10% of A**, and loss assessment up to **$1,000**. {{2022: loss assessment $2,000}} [HO 00 06 05 11, Add'l Cov. 3, 7, 10; HO 00 06 03 22]
 - **HO-8 Modified Coverage:** for owner-occupants whose homes may not meet the standards for other forms. Typical case: an older home whose replacement cost far exceeds its market value. [The Institutes, AIC 43; HO 00 08 10 00]
   - It covers **10 named perils**, the basic perils plus theft and volcanic eruption.
   - **Theft is covered only on the residence premises, up to $1,000 per loss.** [HO 00 08 10 00, Peril 9]
@@ -542,7 +586,7 @@ Editions used:
   - a full-time **student** who lived in the household before leaving for school, if under **24 and a relative**, or under **21 and in an insured's care**.
 - Under Section II, "insured" also includes a person legally responsible for the insured's animals or watercraft (but not someone using them in a business or without consent), and certain users of covered motor vehicles. [HO 00 03 05 11, Def. B.5]
 - **"Business"** is a trade, profession or occupation (full-time, part-time or occasional), or any other activity for money, with these exceptions: [HO 00 03 05 11, Def. B.3]
-  - activities paying **no more than $2,000 in the 12 months before the policy period**;
+  - activities paying **no more than $2,000 in the 12 months before the policy period** {{2022: $5,000}};
   - volunteer work;
   - **home day care** done only as a **mutual exchange** of services, or for a **relative**.
 - **"Insured location"** includes: [HO 00 03 05 11, Def. B.6]
@@ -562,21 +606,22 @@ Editions used:
 - **Coverage B – Other Structures:** up to **10% of Coverage A**, and using it **does not reduce** A. [Coverage B]
   - Excluded: land; structures rented to non-tenants (unless a private garage); structures from which a **business is conducted**; structures storing business property (with exceptions).
 - **Coverage C – Personal Property** is covered **anywhere in the world**. [Coverage C.1–2]
-  - Property usually kept at another residence of an insured: limited to **10% of C or $1,000, whichever is greater**.
+  - Property usually kept at another residence of an insured: limited to **10% of C or $1,000, whichever is greater**. {{2022: 10% of C or $1,500}}
   - Property in a **self-storage facility**: same limit (new in 2011).
   - Other residences: not applied to property moved out during repairs, or to a newly acquired principal residence for 30 days. Self-storage: not applied to property moved out during repairs, or to property usually kept at another residence.
 - **Special limits of liability** (per loss, per category; they do not increase Coverage C): [Coverage C.3.a–k]
-  - **$200**: money, bank notes, bullion, gold, silver and platinum (other than ware), coins, medals, scrip, stored value cards, smart cards.
-  - **$1,500**: securities, accounts, deeds, evidences of debt, letters of credit, manuscripts, personal records, passports, tickets, stamps.
-  - **$1,500**: watercraft, including trailers, furnishings, equipment and outboard motors.
-  - **$1,500**: trailers not used with watercraft.
-  - **$1,500**: **theft** of jewelry, watches, furs, and precious and semiprecious stones.
-  - **$2,500**: **theft** of firearms and related equipment.
-  - **$2,500**: **theft** of silverware, goldware, platinumware and pewterware.
-  - **$2,500**: business property **on** the residence premises.
+  - **$200**: money, bank notes, bullion, gold, silver and platinum (other than ware), coins, medals, scrip, stored value cards, smart cards. {{2022: $300}}
+  - **$1,500**: securities, accounts, deeds, evidences of debt, letters of credit, manuscripts, personal records, passports, tickets, stamps. {{2022: $2,000}}
+  - **$1,500**: watercraft, including trailers, furnishings, equipment and outboard motors. {{2022: $2,000}}
+  - **$1,500**: trailers not used with watercraft. {{2022: $2,000}}
+  - **$1,500**: **theft** of jewelry, watches, furs, and precious and semiprecious stones. {{2022: $2,000}}
+  - **$2,500**: **theft** of firearms and related equipment. {{2022: $3,000}}
+  - **$2,500**: **theft** of silverware, goldware, platinumware and pewterware. {{2022: $3,000}}
+  - **$2,500**: business property **on** the residence premises. {{2022: $3,000}}
   - **$1,500**: business property **away from** the residence premises.
-  - **$1,500**: portable electronic equipment in or on a motor vehicle.
-  - **$250**: antennas, tapes, wires, records, disks and other media in or on a motor vehicle.
+  - **$1,500**: portable electronic equipment in or on a motor vehicle. {{2022: $2,000}}
+  - **$250**: antennas, tapes, wires, records, disks and other media in or on a motor vehicle. {{2022: $300}}
+  - Model or hobby aircraft: no special limit in the 2011 form. {{2022: $2,000}}
 - **Property not covered:** [Coverage C.4]
   - articles **separately described and specifically insured**;
   - **animals, birds or fish**;
@@ -585,7 +630,7 @@ Editions used:
   - property of roomers and boarders who are not related to an insured;
   - property in an apartment rented to others (except Landlord's Furnishings) or rented to others off premises;
   - business data;
-  - credit cards (except under the additional coverage);
+  - credit cards (except under the additional coverage); {{2022: no built-in coverage; add HO 04 53}}
   - water or steam.
 - **Coverage D – Loss of Use:** one total limit for three parts. [Coverage D]
   - **Additional living expense:** for the shortest time to repair, or to settle elsewhere.
@@ -595,17 +640,17 @@ Editions used:
 
 ### Section I Additional Coverages (HO 00 03 05 11, E.1–12)
 - **Debris removal** is included in the limit for the damaged property. If damage plus debris removal exceeds the limit, an **additional 5%** of that limit is available. [E.1.a]
-- **Tree removal:** up to **$1,000** per loss, **$500 per tree**, for trees felled by windstorm or hail or by weight of ice, snow or sleet. A neighbor's tree felled by a Coverage C peril also qualifies. [E.1.b]
+- **Tree removal:** up to **$1,000** per loss, **$500 per tree** {{2022: $3,000 per loss, $1,500 per tree}}, for trees felled by windstorm or hail or by weight of ice, snow or sleet. A neighbor's tree felled by a Coverage C peril also qualifies. [E.1.b]
   - The tree must damage a covered structure, or block a driveway or a handicap ramp.
 - **Reasonable repairs** to protect covered property from further damage. [E.2]
-- **Trees, shrubs and plants:** up to **5% of Coverage A**, **$500 per tree**. [E.3]
+- **Trees, shrubs and plants:** up to **5% of Coverage A**, **$500 per tree**. {{2022: $1,500 per tree, shrub or plant}} [E.3]
   - Covered perils: fire or lightning, explosion, riot, aircraft, non-resident vehicles, V&MM, **theft**.
   - **Not windstorm.**
 - **Fire department service charge:** **$500**, no deductible, unless the property is within the limits of the jurisdiction providing the fire department. [E.4]
 - **Property removed:** covered against any direct loss for up to **30 days**. [E.5]
-- **Credit card, EFT card, forgery and counterfeit money:** **$500**, **no deductible**. [E.6]
+- **Credit card, EFT card, forgery and counterfeit money:** **$500**, **no deductible**. {{2022: removed from the policy; add endorsement HO 04 53}} [E.6]
   - Not covered: use by a household resident, by a person entrusted with the card, or in a business.
-- **Loss assessment:** **$1,000**. [E.7]
+- **Loss assessment:** **$1,000**. {{2022: $2,000}} [E.7]
 - **Collapse:** abrupt collapse only, caused by: [E.8]
   - Coverage C perils;
   - hidden decay;
@@ -614,7 +659,7 @@ Editions used:
   - weight of rain on a roof;
   - defective materials or methods during construction.
 - **Glass or safety glazing material:** no coverage if the dwelling was **vacant more than 60 consecutive days**, except breakage caused by earth movement. [E.9]
-- **Landlord's furnishings:** **$2,500** per rented apartment, Coverage C perils **other than theft**. [E.10]
+- **Landlord's furnishings:** **$2,500** per rented apartment, Coverage C perils **other than theft**. {{2022: $3,000}} [E.10]
 - **Ordinance or law:** up to **10% of Coverage A**, additional insurance. [E.11]
 - **Grave markers:** **$5,000**. [E.12]
 
@@ -633,8 +678,8 @@ Editions used:
 - **Section II additional coverages** (paid in addition to the limits): [Sec. II Add'l Cov. A–D]
   - **Claim expenses**: defense costs, bond premiums, the insured's **loss of earnings up to $250/day**, post-judgment interest.
   - **First aid** to others.
-  - **Damage to property of others**: up to **$1,000** per occurrence at **replacement cost**. Not covered: damage caused intentionally by an insured **13 or older**, or property owned by an insured.
-  - **Loss assessment**: **$1,000**.
+  - **Damage to property of others**: up to **$1,000** per occurrence at **replacement cost**. {{2022: $5,000}} Not covered: damage caused intentionally by an insured **13 or older**, or property owned by an insured.
+  - **Loss assessment**: **$1,000**. {{2022: $2,000}}
 - **Coverage E and F exclusions:** [Sec. II Excl. A–E]
   - motor vehicle liability (with exceptions such as dead storage, service vehicles and some golf carts);
   - watercraft liability (see below);
@@ -698,7 +743,7 @@ Editions used:
 - **Duties after loss:** [Sec. I Cond. C]
   - prompt notice;
   - notify the police of theft;
-  - notify the card company of a credit card loss;
+  - notify the card company of a credit card loss {{2022: duty removed along with the coverage}};
   - protect the property;
   - prepare an inventory;
   - submit to an **examination under oath** (outside the presence of other insureds);
@@ -708,7 +753,7 @@ Editions used:
   - **Buildings under A and B** are paid at **replacement cost** with no depreciation, if insured to **at least 80% of full replacement cost**. The insurer pays the least of: the limit; the cost to replace with like kind and quality; or the amount actually spent.
 - **Under 80%:** the insurer pays the **greater** of ACV, or (insurance carried ÷ 80% of replacement cost) × replacement cost of the loss, up to the limit. [Sec. I Cond. D.2.b]
 - In computing the 80% figure, these are left out: excavations, foundations below the lowest basement floor, and underground flues, pipes, wiring and drains. [Sec. I Cond. D.2.c]
-- Only **ACV** is paid until repair is complete, unless the loss is **under 5% of the insurance AND under $2,500**. [Sec. I Cond. D.2.d]
+- Only **ACV** is paid until repair is complete, unless the loss is **under 5% of the insurance AND under $2,500**. {{2022: under 5% AND under $5,000}} [Sec. I Cond. D.2.d]
 - The insured may take ACV first and then claim replacement cost by giving notice of intent to repair **within 180 days** after the loss. [Sec. I Cond. D.2.e]
 - **Pair or set:** the insurer may repair or replace part of the set, or pay the difference in ACV before and after the loss. [Sec. I Cond. E]
 - **Appraisal:** appraisers named **within 20 days**; umpire chosen within **15 days** or by a judge; each side pays its own appraiser and splits the umpire's cost. [Sec. I Cond. F]
@@ -760,8 +805,8 @@ Editions used:
   - 30-day termination notice stating each specific reason (a notice mailed or delivered within the first 55 days after the policy is first issued may take effect not less than 20 days after mailing or delivery; a nonpayment cancellation takes effect as the policy provides).
 - **Limited Fungi, Wet or Dry Rot, or Bacteria Coverage:** [HO 04 27 04 02, Schedule & E.13; PF&M 2014]
   - HO 04 27: HO-3 and HO-5. HO 04 26: all other forms. HO 04 28: HO-4 with HO 05 24, or HO-6 with HO 17 31 or 17 32.
-  - The schedule shows **$10,000** for the Section I additional coverage. That covers loss, removal, tear-out and testing, and applies only when caused by an insured peril during the policy period.
-  - The schedule shows a **$50,000** Coverage E **aggregate** sublimit, which is within Coverage E, not added to it.
+  - The basic limit, entered in the schedule, is **$10,000** for the Section I additional coverage. That covers loss, removal, tear-out and testing, and applies only when caused by an insured peril during the policy period.
+  - The basic Coverage E **aggregate** sublimit is **$50,000**, which is within Coverage E, not added to it. Higher limits can be bought for both; the form's schedule has blanks for the amounts. [HO 04 27 04 02, Schedule; RIJRA Producer Manual (4/2025)]
 - **Permitted Incidental Occupancies – Residence Premises (HO 04 42):** [HO 04 42 10 00]
   - covers a **described business** run in the dwelling or in an other structure on the premises;
   - a described other structure is insured for its own scheduled limit, not under Coverage B;
@@ -771,7 +816,7 @@ Editions used:
 - **Earthquake (HO 04 54):** [HO 04 54 10 00]
   - covers earthquake, including land shock waves before, during or after a volcanic eruption;
   - shocks **within 72 hours** count as one earthquake;
-  - the deductible is a **percentage of the greater of the Coverage A or C limit**, with a $250 minimum in the 10 00 edition;
+  - the deductible is a **percentage of the greater of the Coverage A or C limit**, with a $250 minimum in the 10 00 edition {{2022: $500 minimum}};
   - not covered: **exterior masonry veneer** (unless the exclusion is removed; stucco is not veneer), flood caused by the earthquake, and the cost of filling land.
 - **Scheduled Personal Property (HO 04 61):** covers scheduled classes on an **open-perils** basis, worldwide, with **no deductible**. [PF&M HO 04 61 (July 2017); Texas HO 23 03 05 11 parallels]
   - The classes: jewelry; furs; cameras; musical instruments (not professional use); silverware; golfer's equipment; fine arts; stamps; coins.
@@ -781,14 +826,14 @@ Editions used:
   - Coverage C, awnings, carpeting, appliances and outdoor equipment are paid at **replacement cost**.
   - **Not eligible**: antiques, fine arts and other irreplaceable rarities; memorabilia and collectors' items; articles not in good or workable condition; obsolete stored items.
   - The insurer pays the least of replacement cost, cost of repair, the Coverage C limit, or any special limit.
-  - If the cost is **over $500**, only ACV is paid until the item is repaired or replaced.
+  - If the cost is **over $500**, only ACV is paid until the item is repaired or replaced. {{2022: over $1,000}}
   - The insured may claim ACV first and give notice within **180 days**.
 - **Home Day Care:** [HO 00 03 05 11, Def. B.3; PF&M 2014 (HO 04 96, HO 04 97)]
   - The base policy treats paid home day care as a "business," so it is excluded under Section II, unless it is a mutual exchange or care for a relative.
-  - **HO 04 97 Home Day Care Coverage** adds limited property coverage and day-care liability coverage.
-  - HO 04 96 confirms there is no Section II coverage for day care. Day-care business property stays subject to the Coverage C business-property special limits: $2,500 on premises and, under the 05 11 HO-3, HO-4 and HO-6 forms, $1,500 off premises. The 10 00 edition of HO 04 96 shows $500 because that was the off-premises limit in the 2000-program forms. [HO 04 96 10 00, E.2; HO 00 03 05 11, Coverage C.3.h-i]
-- **Business Pursuits (HO 24 71):** covers an insured's liability from business activities where the insured is **not the owner or a partner**, such as clerical workers, salespersons, collectors, messengers and **teachers**. Teachers may add corporal punishment coverage. [PF&M 2014]
-- **Watercraft (HO 24 75):** adds liability coverage for described watercraft the base form excludes, such as owned outboards over 25 total hp and larger sailing vessels. [PF&M 2014; HO 00 03 05 11, Sec. II Excl. B]
+  - **HO 04 97 Home Day Care Coverage** adds limited property coverage and day-care liability coverage. {{2022: titled Limited Home Day Care Coverage}}
+  - HO 04 96 confirms there is no Section II coverage for day care. Day-care business property stays subject to the Coverage C business-property special limits: $2,500 on premises and, under the 05 11 HO-3, HO-4 and HO-6 forms, $1,500 off premises. {{2022: $3,000 on premises, $1,500 off}} The 10 00 edition of HO 04 96 shows $500 because that was the off-premises limit in the 2000-program forms. [HO 04 96 10 00, E.2; HO 00 03 05 11, Coverage C.3.h-i]
+- **Business Pursuits (HO 24 71):** {{2022: titled Designated Business Pursuits Liability Coverage}} covers an insured's liability from business activities where the insured is **not the owner or a partner**, such as clerical workers, salespersons, collectors, messengers and **teachers**. Teachers may add corporal punishment coverage. [PF&M 2014]
+- **Watercraft (HO 24 75):** {{2022: titled Supplemental Watercraft Liability Coverage}} adds liability coverage for described watercraft the base form excludes, such as owned outboards over 25 total hp and larger sailing vessels. [PF&M 2014; HO 00 03 05 11, Sec. II Excl. B]
 - **Personal Injury (HO 24 82):** adds coverage for injury arising out of: [PF&M 2014]
   - **false arrest, detention or imprisonment**, or **malicious prosecution**;
   - **libel, slander or defamation**;
@@ -838,9 +883,9 @@ Editions used:
   - The Universal P&C (MA/HI) and NC Rate Bureau manuals show **20% of A** for HO-3, **20% of C** for HO-4, and **40% of C** for HO-6.
   - Study guides commonly say HO-4 is 30% of C and HO-6 is 50% of C (2000+ program), but we could not verify that from an ISO manual.
   - Test-writers may use either. We did not write any question that depends on it.
-- **Earthquake HO 04 54:** the $250 minimum deductible is from the 10 00 edition. Later editions may use a different minimum.
-- **HO 04 90:** a 03 22 edition reportedly raised the $500 ACV-until-repaired threshold to $1,000 (secondary source). The 05 11 edition says $500.
-- **ISO's current homeowners forms are the 03 22 editions (2022 program).** This guide uses the 05 11 (2011 program) amounts, so every HO dollar figure should be labeled "05 11 edition".
+- **Earthquake HO 04 54:** the $250 minimum deductible is from the 10 00 edition. The 03 22 edition uses $500. [ISO HO 04 54 10 00 and HO 04 54 03 22 (form text)]
+- **HO 04 90:** the 03 22 edition raised the $500 ACV-until-replaced threshold to $1,000. The 05 11 edition says $500. The 03 22 figure comes from FC&S's description of the endorsement, not from its text. [FC&S, "Standard Homeowners Endorsements Discussed, Part 4" (Oct. 28, 2024)]
+- **ISO's current homeowners forms are the 03 22 editions (2022 program).** This guide teaches the 05 11 (2011 program) amounts and marks every figure the 2022 forms changed. The 2022 figures were read in the HO 00 03, HO 00 04 and HO 00 06 03 22 form texts in November 2026. The 2022 HO-2, HO-5 and HO-8 were not read.
 - **Special Provisions – Michigan (HO 01 21):** the endorsement's text was NOT found. The bullets under "What HO 01 21 05 11 changes" come from FC&S's 2011 summary and are labeled as such; the current 05 23 edition may differ. Where that summary gives more than the statute requires (for example, 30 days' cancellation notice in the first 55 days, where MCL 500.2123(2) allows 20), learn the statutory rule for Michigan-law questions.
 - **Endorsements described from PF&M (Rough Notes) summaries, not the form text:** HO 04 61, HO 04 97, HO 24 71, HO 24 75, HO 24 82, HO 07 01. Specific dollar sub-limits inside these endorsements (beyond those listed) were not verified.
 - **Michigan statute versus the unendorsed ISO form:** On suit limitation, the policy's 2-year period applies because it is longer than the statutory 1-year minimum. Michigan adds tolling from notice of loss until formal denial. The wording of Special Provisions – Michigan (HO 01 21) on this point was not verified.
